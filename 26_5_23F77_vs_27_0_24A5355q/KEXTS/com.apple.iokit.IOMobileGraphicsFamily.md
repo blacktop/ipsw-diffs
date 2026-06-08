@@ -1,0 +1,167 @@
+## com.apple.iokit.IOMobileGraphicsFamily
+
+> `com.apple.iokit.IOMobileGraphicsFamily`
+
+```diff
+
+-600.18.0.0.0
+-  __TEXT.__cstring: 0x883d
+-  __TEXT.__const: 0x8ac
+-  __TEXT_EXEC.__text: 0x21568
++700.50.66.0.0
++  __TEXT.__cstring: 0x9122
++  __TEXT.__const: 0xad4
++  __TEXT_EXEC.__text: 0x21b60
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+   __DATA.__common: 0x1c92c
+   __DATA.__bss: 0x18
+-  __DATA_CONST.__auth_got: 0x5c0
+-  __DATA_CONST.__got: 0x120
+   __DATA_CONST.__mod_init_func: 0x50
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0x60b0
++  __DATA_CONST.__const: 0x6e48
+   __DATA_CONST.__kalloc_type: 0xac0
+-  UUID: 03ED09E4-BBBE-3B41-84A7-B2D5DC3D6AC2
+-  Functions: 1135
++  __DATA_CONST.__auth_got: 0x5a8
++  __DATA_CONST.__got: 0x118
++  UUID: 4FC19C3C-A5CF-3C7B-A915-101F4ACC7108
++  Functions: 1151
+   Symbols:   0
+-  CStrings:  1007
++  CStrings:  1092
+ 
+CStrings:
++ "12111112122212121111111111112122221111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
++ "1211111212221212121222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111111111222222222222212212212212212212212212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221222221111111111111111111111111111122111111111111111222222222222222222222222222222222222222222212111121111111111121122222"
++ "12222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111121111221221221221221221221221221221211"
++ "APTEventsMaskHi"
++ "AdobeRGB"
++ "BthgOverride"
++ "BthrbOverride"
++ "DBVInterval"
++ "DBVValue"
++ "DCPIndex"
++ "DCPResetLoopMaxCount"
++ "DCPResetLoopWindowSec"
++ "DSCBpp"
++ "DSCState"
++ "DisableCalClut"
++ "DisableInternalAppleLook"
++ "EnableDBTH"
++ "ForceEnableACSSGenXSensing"
++ "GenXHandlerTestCase"
++ "HBLDDimmingFactorMin"
++ "HBLDEnable"
++ "HBLDNitsRRMax"
++ "IOMFBAPTQuanta"
++ "IOMFBAPTQuantaTransitionTimeoutMs"
++ "IOMFBEnableProxSensing"
++ "IOMFBIsHiloDevice"
++ "IOMFBProxOcclusionLevel"
++ "IOMFBSetDispIntGPIO"
++ "IOMFBSupportsSecureIndicator"
++ "IOMFBYUV420UnSupported"
++ "IOMFBYUVPackedUnSupported"
++ "IOUserClientDefaultLocking"
++ "IOUserClientDefaultLockingSetProperties"
++ "IOUserClientDefaultLockingSingleThreadExternalMethod"
++ "IOUserClientEntitlements"
++ "IRDCACCEnable"
++ "IRDCOverrideTemp"
++ "MaxUABoost"
++ "NESREnable"
++ "PTUCAvgTempGridPos"
++ "PTUCAvgTempOption"
++ "RDLCAngleOverride"
++ "RDLCEnable"
++ "RPMEnable"
++ "RRBPEnable"
++ "RRBPGainOverride"
++ "RREnable"
++ "RTREnable"
++ "RegammaRREnable"
++ "TriggerDCPResetRequestFromM3"
++ "calibrationType"
++ "enableALSSFCAMStats"
++ "enableTBICAlphaOverride"
++ "forceEnableLPRSwaps"
++ "iomfb_RuntimeProperty_APTEventsMaskHi"
++ "iomfb_RuntimeProperty_DBVInterval"
++ "iomfb_RuntimeProperty_DBVValue"
++ "iomfb_RuntimeProperty_DCPIndex"
++ "iomfb_RuntimeProperty_DCPResetLoopMaxCount"
++ "iomfb_RuntimeProperty_DCPResetLoopWindowSec"
++ "iomfb_RuntimeProperty_DSCBpp"
++ "iomfb_RuntimeProperty_DSCState"
++ "iomfb_RuntimeProperty_DisableCalClut"
++ "iomfb_RuntimeProperty_DisableInternalAppleLook"
++ "iomfb_RuntimeProperty_GenXHandlerTestCase"
++ "iomfb_RuntimeProperty_HBLDDimmingFactorMin"
++ "iomfb_RuntimeProperty_HBLDNitsRRMax"
++ "iomfb_RuntimeProperty_IRDCACCEnable"
++ "iomfb_RuntimeProperty_IRDCTempOverride"
++ "iomfb_RuntimeProperty_MaxUABoost"
++ "iomfb_RuntimeProperty_PTUCAvgTempGridPos"
++ "iomfb_RuntimeProperty_PTUCAvgTempOption"
++ "iomfb_RuntimeProperty_RDLCAngleOverride"
++ "iomfb_RuntimeProperty_SupportsSecureIndicator"
++ "iomfb_RuntimeProperty_TriggerDCPResetRequestFromM3"
++ "iomfb_RuntimeProperty_aptQuanta"
++ "iomfb_RuntimeProperty_aptQuantaTransitionTimeoutMs"
++ "iomfb_RuntimeProperty_bthgOverride"
++ "iomfb_RuntimeProperty_bthrbOverride"
++ "iomfb_RuntimeProperty_calibrationType"
++ "iomfb_RuntimeProperty_enableALSSFCAMStats"
++ "iomfb_RuntimeProperty_enableDBTH"
++ "iomfb_RuntimeProperty_enableHBLD"
++ "iomfb_RuntimeProperty_enableNESR"
++ "iomfb_RuntimeProperty_enableProxSensing"
++ "iomfb_RuntimeProperty_enableRDLC"
++ "iomfb_RuntimeProperty_enableRPM"
++ "iomfb_RuntimeProperty_enableRR"
++ "iomfb_RuntimeProperty_enableRRBP"
++ "iomfb_RuntimeProperty_enableRRBPGainOverride"
++ "iomfb_RuntimeProperty_enableRTR"
++ "iomfb_RuntimeProperty_enableRegammaRRSupport"
++ "iomfb_RuntimeProperty_enableTBICAlphaOverride"
++ "iomfb_RuntimeProperty_forceEnableACSSGenXSensing"
++ "iomfb_RuntimeProperty_forceEnableLPRSwaps"
++ "iomfb_RuntimeProperty_isHiloDevice"
++ "iomfb_RuntimeProperty_isYUV420UnSupported"
++ "iomfb_RuntimeProperty_isYUVPackedUnSupported"
++ "iomfb_RuntimeProperty_proxOcclusionLevel"
++ "iomfb_RuntimeProperty_resTransitionStrength"
++ "iomfb_RuntimeProperty_resTransitionType"
++ "iomfb_RuntimeProperty_setDispIntGPIO"
++ "iomfb_RuntimeProperty_valueTBICAlphaOverride"
++ "resTransitionStrength"
++ "resTransitionType"
++ "set_notify rejected — ilk %d >= ARRAY_SIZE %lu\n"
++ "valueTBICAlphaOverride"
+- "\"IOMFB: cannot find AppleMobileFileIntegrity\" @%s:%d"
+- "\"IOMFB: failed to cast AMFI service!\" @%s:%d"
+- "\"IOMFB: failed to look up AMFI service!\" @%s:%d"
+- "%s Destination and source overlap: dest(%p-%p) src(%p-%p)\n"
+- "%s Register R/W needs 4 byte aligned addresses and size\n"
+- "%s: IOAVParentMatching(registryEntryIDMatching failed\n"
+- "%s: no matching dictionary found for %s\n"
+- "1211111212221212111111111111212222111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
+- "12111112122212121212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111111111222222222222212212212212212212212212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221222221111111111111111111112211111111111111122222222222222222222222222222222222222222221211112111111111111121122222"
+- "12222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111121111221221221221221221221221221221211"
+- "AppleMobileFileIntegrity"
+- "CalibrationCaptureBlock"
+- "CalibrationCaptureSubblock"
+- "Location"
+- "RTPLCEnableFDPixelModAfterRTTrig"
+- "enableCalibrationCapture"
+- "iomfb_RuntimeProperty_CalibrationCaptureBlock"
+- "iomfb_RuntimeProperty_CalibrationCaptureSubblock"
+- "iomfb_RuntimeProperty_enableCalibrationCapture"
+- "iomfb_RuntimeProperty_enableRTPLCFDPixelModAfterRTTrig"
+- "static IOReturn IOMobileFramebufferLegacy::memcpy_reg(uint32_t *, const uint32_t *, uint32_t)"
+- "static IOService *IOMobileFramebufferLegacy::findAndRetainService(IOService *, const char *)"
+
+```

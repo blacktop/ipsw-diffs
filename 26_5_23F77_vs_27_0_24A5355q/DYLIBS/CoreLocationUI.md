@@ -1,0 +1,375 @@
+## CoreLocationUI
+
+> `/System/Library/Frameworks/CoreLocationUI.framework/CoreLocationUI`
+
+```diff
+
+-3075.0.8.0.0
+-  __TEXT.__text: 0x3850
+-  __TEXT.__auth_stubs: 0x400
++3164.0.0.0.0
++  __TEXT.__text: 0x35a8
+   __TEXT.__objc_methlist: 0x638
+   __TEXT.__const: 0x100
+-  __TEXT.__gcc_except_tab: 0x78
+-  __TEXT.__cstring: 0x347
++  __TEXT.__gcc_except_tab: 0x90
++  __TEXT.__cstring: 0x33f
+   __TEXT.__oslogstring: 0x53b
+-  __TEXT.__unwind_info: 0x178
+-  __TEXT.__objc_classname: 0x85
+-  __TEXT.__objc_methname: 0x122f
+-  __TEXT.__objc_methtype: 0x4b6
+-  __TEXT.__objc_stubs: 0x1000
+-  __DATA_CONST.__got: 0xc8
++  __TEXT.__unwind_info: 0x160
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x128
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x28
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x48
+-  __AUTH_CONST.__auth_got: 0x210
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x80
+   __AUTH_CONST.__cfstring: 0x2e0
+   __AUTH_CONST.__objc_const: 0xa70
+   __AUTH_CONST.__objc_arrayobj: 0x30
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x90
+   __DATA.__data: 0x1e0
+
+   - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A0762AFD-033B-3A77-9230-A02CB5468EB7
++  UUID: 2EA1932E-56B1-3898-ADEB-34319A6E83B7
+   Functions: 103
+-  Symbols:   107
+-  CStrings:  373
++  Symbols:   110
++  CStrings:  71
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x8
+- __os_feature_enabled_impl
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<LocationUIProtocol>\""
+- "@\"CLLocationButtonTag\""
+- "@\"NSLayoutConstraint\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"UIColor\""
+- "@\"UISSlotStyle\""
+- "@\"UISTextLineDrawing\""
+- "@\"UISVectorGlyphDrawing\""
+- "@\"_UISlotView\""
+- "@100@0:8q16q24@32@40d48{CGRect={CGPoint=dd}{CGSize=dd}}56d88i96"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "B"
+- "B16@0:8"
+- "B20@0:8f16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CGColor"
+- "CLLocationButtonDrawing"
+- "CLLocationButtonTag"
+- "I"
+- "I16@0:8"
+- "I24@0:8@16"
+- "I24@0:8q16"
+- "LocationUIProtocol"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Solarium"
+- "SwiftUI"
+- "T#,R"
+- "T@\"<LocationUIProtocol>\",R,N"
+- "T@\"NSString\",&,N,V_localizedTitle"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIColor\",&,N,V_backgroundColor"
+- "T@\"UIColor\",&,N,V_tintColor"
+- "T@\"UISSlotStyle\",&,N,V_style"
+- "T@\"UISTextLineDrawing\",&,N,V_textDrawing"
+- "T@\"UISVectorGlyphDrawing\",&,N,V_glyphDrawing"
+- "TB,N,V_renderedSuccessfully"
+- "TB,R"
+- "TB,R,N,V_alphaInsufficient"
+- "TB,R,N,V_colorsIllegible"
+- "TI,R,N,V_secureName"
+- "TQ,R"
+- "Td,N,V_cornerRadius"
+- "Td,N,V_fontSize"
+- "Td,R,D,N"
+- "Ti,N,V_controlSize"
+- "Tq,N,V_icon"
+- "Tq,N,V_label"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_frame"
+- "T{CGSize=dd},N,V_engravedSize"
+- "T{CGSize=dd},N,V_neededSize"
+- "T{CGSize=dd},R,N"
+- "UISDrawing"
+- "Vv16@0:8"
+- "^{CGImage=}36@0:8@16@24B32"
+- "^{_NSZone=}16@0:8"
+- "_actionForPreSetTarget"
+- "_alphaInsufficient"
+- "_authenticationMessage"
+- "_backgroundColor"
+- "_colorsIllegible"
+- "_computeImageMetrics"
+- "_computeLocationButtonTag"
+- "_controlEventsForActionTriggered"
+- "_controlSize"
+- "_cornerRadius"
+- "_currentTag"
+- "_drawingWithStyle:tag:remote:"
+- "_engravedSize"
+- "_fontSize"
+- "_frame"
+- "_glyphDrawing"
+- "_icon"
+- "_intrinsicSize"
+- "_label"
+- "_localizedTitle"
+- "_minimumHeightConstraint"
+- "_minimumWidthConstraint"
+- "_neededSize"
+- "_populateArchivedSubviews:"
+- "_proxy"
+- "_remote"
+- "_renderedSuccessfully"
+- "_resolvedBackgroundColor"
+- "_resolvedTintColor"
+- "_sandboxExtension"
+- "_secureName"
+- "_sendActionsForEvents:withEvent:"
+- "_setSlotAnyContentProvider:"
+- "_setupSlotView"
+- "_slotView"
+- "_style"
+- "_textDrawing"
+- "_tintColor"
+- "_updateContent"
+- "_yieldSlotViewContentForLayerContextID:slotStyle:withYieldBlock:"
+- "activateConstraints:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "alignmentRect"
+- "alphaInsufficient"
+- "arrayWithObjects:count:"
+- "assetAppearanceNames"
+- "assetDeviceIdiom"
+- "assetScaleFactor"
+- "authenticationMessageContextForStyle:"
+- "autorelease"
+- "backgroundColor"
+- "blackColor"
+- "bundleURL"
+- "bundleWithPath:"
+- "buttonHeight"
+- "buttonPadding"
+- "buttonWidth"
+- "cacheLimit"
+- "centerXAnchor"
+- "centerYAnchor"
+- "class"
+- "colorWithAlphaComponent:"
+- "colorsIllegible"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:"
+- "contentWithDrawing:scale:range:"
+- "contrastValidForBgColorAndFgTextWithCumulativeOpacity:"
+- "controlSize"
+- "convertToControlSize:"
+- "copyWithChangeBlock:"
+- "copyWithZone:"
+- "cornerRadius"
+- "d"
+- "d16@0:8"
+- "debugDescription"
+- "decodeCGRectForKey:"
+- "decodeFloatForKey:"
+- "decodeIntForKey:"
+- "decodeObjectOfClass:forKey:"
+- "description"
+- "dictionaryWithObjects:forKeys:count:"
+- "displayRange"
+- "displayScale"
+- "drawInContext:atPoint:"
+- "drawingSize"
+- "encodeCGRect:forKey:"
+- "encodeFloat:forKey:"
+- "encodeInt:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "engravedSize"
+- "failGradeForStyle:"
+- "fileSystemRepresentation"
+- "fontContentSizeCategory"
+- "fontSize"
+- "frame"
+- "getRed:green:blue:alpha:"
+- "getRemoteContentForStyle:layerContext:tag:sandboxExtension:completionHandler:"
+- "glyphDrawing"
+- "hasDifferentColorAppearanceComparedToTraitCollection:"
+- "hash"
+- "hitTestInformationMaskForStyle:"
+- "i"
+- "i16@0:8"
+- "i20@0:8i16"
+- "icon"
+- "imageWithStyle:tag:forRemote:"
+- "init"
+- "initWithCoder:"
+- "initWithFrame:"
+- "initWithLabel:iconType:backgroundColor:tintColor:cornerRadius:frame:fontSize:controlSize:"
+- "initWithName:fromBundle:error:"
+- "initWithServiceName:"
+- "initWithString:attributes:lineBreakMode:textAlignment:width:scale:"
+- "initWithStyle:tag:remote:"
+- "initWithVectorGlyph:tintColor:"
+- "interfaceWithProtocol:"
+- "intrinsicContentSize"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isValid"
+- "label"
+- "languageCode"
+- "lastObject"
+- "layer"
+- "layoutDirection"
+- "layoutSubviews"
+- "localeWithLocaleIdentifier:"
+- "localization"
+- "localizedTitle"
+- "locationUIProxy"
+- "mainBundle"
+- "markDirty"
+- "namedVectorGlyphWithName:scaleFactor:deviceIdiom:layoutDirection:glyphSize:glyphWeight:glyphPointSize:appearanceName:"
+- "neededSize"
+- "objectAtIndexedSubscript:"
+- "onPrimaryTouchDownEvent:"
+- "opacity"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "q"
+- "q16@0:8"
+- "registerForTraitChanges:withHandler:"
+- "release"
+- "removeObject:"
+- "renderedSuccessfully"
+- "resolvedColorWithTraitCollection:"
+- "resolvedStyleForStyle:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "secureName"
+- "secureNameForLabel:"
+- "secureNameForStyle:"
+- "self"
+- "setAccessibilityButtonShapes:"
+- "setAccessibilityContrast:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setActive:"
+- "setBackgroundColor:"
+- "setClipsToBounds:"
+- "setConstant:"
+- "setContentHuggingPriority:forAxis:"
+- "setControlSize:"
+- "setCornerRadius:"
+- "setEngravedSize:"
+- "setFontSize:"
+- "setFrame:"
+- "setGlyphDrawing:"
+- "setIcon:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsAccessibilityElement:"
+- "setLabel:"
+- "setLocalizedTitle:"
+- "setNeededSize:"
+- "setNeedsLayout"
+- "setPriority:"
+- "setRemoteObjectInterface:"
+- "setRenderedSuccessfully:"
+- "setStyle:"
+- "setTextDrawing:"
+- "setTintColor:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInteractionEnabled:"
+- "sizeThatFits:"
+- "stringWithCString:encoding:"
+- "style"
+- "superclass"
+- "supportsSecureCoding"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemBlueColor"
+- "systemWhiteColor"
+- "textDrawing"
+- "tintColor"
+- "traitCollection"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"BKSHIDEventAuthenticationMessage\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v32@0:8Q16@24"
+- "v32@0:8{CGSize=dd}16"
+- "v40@0:8Q16@24@?32"
+- "v40@0:8^{CGContext=}16{CGPoint=dd}24"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v56@0:8@\"UISSlotStyle\"16Q24@\"CLLocationButtonTag\"32@\"NSString\"40@?<v@?@\"UISSlotRemoteContent\">48"
+- "v56@0:8@16Q24@32@40@?48"
+- "whiteColor"
+- "zone"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+
+```

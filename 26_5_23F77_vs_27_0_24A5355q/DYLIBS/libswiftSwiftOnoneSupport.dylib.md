@@ -1,0 +1,63 @@
+## libswiftSwiftOnoneSupport.dylib
+
+> `/usr/lib/swift/libswiftSwiftOnoneSupport.dylib`
+
+```diff
+
+-6.3.2.1.3
+-  __TEXT.__text: 0x1e3e8
+-  __TEXT.__auth_stubs: 0x1f0
++6.4.0.19.103
++  __TEXT.__text: 0x1e41c
+   __TEXT.__const: 0xaa
+   __TEXT.__cstring: 0x6c5
+   __TEXT.__swift5_typeref: 0xfc
+   __TEXT.__swift5_types: 0xe8
+-  __TEXT.__unwind_info: 0x6a0
+-  __TEXT.__eh_frame: 0xeb0
+-  __DATA_CONST.__got: 0xf0
++  __TEXT.__unwind_info: 0x668
++  __TEXT.__eh_frame: 0xed8
++  __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0xf8
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x1300
++  __AUTH_CONST.__auth_got: 0x118
+   __DATA.__data: 0x690
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 62EE5613-9137-3986-B5D5-C4B06BDCD960
+-  Functions: 1664
+-  Symbols:   2717
++  UUID: A7336824-330F-33DD-ADF4-ACE2EF26F5CF
++  Functions: 1662
++  Symbols:   2723
+   CStrings:  37
+ 
+Symbols:
++ _$sSa16_copyToNewBuffer8oldCountySi_tFs6UInt64V_Tg5Tm
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFs6UInt64V_Tg5Tm
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFyp_Tg5Tm
++ _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5Sf_Tg562$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Sf_TG5SrySfGxq_SbsAG_pRi_zRi0_zRi__Ri0__r0_lyS2fIsgnndzo_SiTf1nc_nTm
++ _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5s6UInt64V_Tg5011$sSryxGSis5h31_pIgllzo_AASisAB_pIegllzr_lTRs6I5V_TG5SryAIGSisAG_pIgllzo_Tf1nc_nTm
++ _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5s6UInt64V_Tg5058$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_s6I5V_TG5SryAIGxq_SbsAG_pRi_zRi0_zRi__Ri0__r0_lyA2IIsgnndzo_SiTf1nc_nTm
++ _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFs01_aB0VySiG_Tg5Tm
++ _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFs01_aB0Vys6UInt64VG_Tg5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSnySiG_Tt1gq5Tm
++ _swift_release_x19
++ _swift_release_x21
++ _swift_retain_x19
++ _swift_retain_x27
++ _swift_retain_x28
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFSrys6UInt64VG_Tg5Tm
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFSryypG_Tg5Tm
+- _$sSa16_copyToNewBuffer8oldCountySi_tFSf_Tg5Tm
+- _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5Sf_Tg562$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Sf_TG5SrySfGxq_SbsAG_pRi_zRi0_zRi__Ri0__r0_lyS2fIsgnndzo_SiTf1nc_nTf4nngn_nTm
+- _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5s6UInt64V_Tg5011$sSryxGSis5h31_pIgllzo_AASisAB_pIegllzr_lTRs6I5V_TG5SryAIGSisAG_pIgllzo_Tf1nc_nTf4ng_nTm
+- _$ss15ContiguousArrayV27unsafeUninitializedCapacity16initializingWithAByxGSi_ySryxGz_Siztqd__YKXEtqd__YKcs5ErrorRd__lufCSiAFSiq_Ri_zRi0_zRi__Ri0__r0_lyxsAG_pIsgllzr_AEsAG_psAG_pRsd__r__lIetygozo_Tpq5s6UInt64V_Tg5058$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_s6I5V_TG5SryAIGxq_SbsAG_pRi_zRi0_zRi__Ri0__r0_lyA2IIsgnndzo_SiTf1nc_nTf4nngn_nTm
+- _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFs01_aB0Vys6UInt64VG_Tg5Tm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5Tm
+- _swift_retain
+
+```

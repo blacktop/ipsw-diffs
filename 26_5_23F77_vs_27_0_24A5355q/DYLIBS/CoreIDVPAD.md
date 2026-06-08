@@ -1,0 +1,875 @@
+## CoreIDVPAD
+
+> `/System/Library/PrivateFrameworks/CoreIDVPAD.framework/CoreIDVPAD`
+
+```diff
+
+-3.0.2.0.0
+-  __TEXT.__text: 0x43140
+-  __TEXT.__auth_stubs: 0x1660
+-  __TEXT.__objc_methlist: 0xe68
+-  __TEXT.__const: 0x27d0
+-  __TEXT.__gcc_except_tab: 0xa10
++4.0.0.0.0
++  __TEXT.__text: 0x42840
++  __TEXT.__objc_methlist: 0xe88
++  __TEXT.__const: 0x27e0
++  __TEXT.__gcc_except_tab: 0x9f0
+   __TEXT.__cstring: 0x1132
+   __TEXT.__oslogstring: 0x19a8
+-  __TEXT.__constg_swiftt: 0x1894
+-  __TEXT.__swift5_typeref: 0xc60
++  __TEXT.__constg_swiftt: 0x18ac
++  __TEXT.__swift5_typeref: 0xc4c
+   __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_reflstr: 0xce1
+-  __TEXT.__swift5_fieldmd: 0x1078
++  __TEXT.__swift5_reflstr: 0xd31
++  __TEXT.__swift5_fieldmd: 0x1090
+   __TEXT.__swift5_assocty: 0x150
+   __TEXT.__swift5_proto: 0x174
+   __TEXT.__swift5_types: 0xf0
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__swift5_capture: 0x22c
+-  __TEXT.__unwind_info: 0xef0
+-  __TEXT.__eh_frame: 0xda0
+-  __TEXT.__objc_classname: 0x603
+-  __TEXT.__objc_methname: 0x280b
+-  __TEXT.__objc_methtype: 0xa14
+-  __TEXT.__objc_stubs: 0x1dc0
+-  __DATA_CONST.__got: 0x3d8
++  __TEXT.__swift_as_cont: 0x44
++  __TEXT.__swift5_capture: 0x1fc
++  __TEXT.__unwind_info: 0xe08
++  __TEXT.__eh_frame: 0xde8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x270
+   __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x920
++  __DATA_CONST.__weak_got: 0x10
++  __DATA_CONST.__objc_selrefs: 0x930
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xb48
+-  __AUTH_CONST.__const: 0x1800
++  __DATA_CONST.__objc_superrefs: 0x40
++  __DATA_CONST.__got: 0x3b8
++  __AUTH_CONST.__const: 0x1790
+   __AUTH_CONST.__cfstring: 0x800
+-  __AUTH_CONST.__objc_const: 0x3288
++  __AUTH_CONST.__objc_const: 0x32d8
++  __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x48
++  __AUTH_CONST.__auth_got: 0xbd8
+   __AUTH.__objc_data: 0xde0
+-  __AUTH.__data: 0x1bf8
+-  __DATA.__objc_ivar: 0x120
+-  __DATA.__data: 0xad0
++  __AUTH.__data: 0x1c18
++  __DATA.__objc_ivar: 0x124
++  __DATA.__data: 0xab8
+   __DATA.__bss: 0x2b20
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FDDDAAE7-04FC-3EDA-943C-2DE2953D9999
+-  Functions: 1311
+-  Symbols:   1949
+-  CStrings:  928
++  UUID: E7326CF2-0F5B-3B1E-BF8A-10D076A92E8E
++  Functions: 1312
++  Symbols:   2021
++  CStrings:  297
+ 
+Symbols:
++ -[PADClassifierRequest init]
++ -[PADClassifierRequest setSkipSimilarGesturesAccessible:]
++ -[PADClassifierRequest skipSimilarGesturesAccessible]
++ GCC_except_table18
++ GCC_except_table29
++ GCC_except_table42
++ GCC_except_table45
++ GCC_except_table52
++ GCC_except_table64
++ _OBJC_IVAR_$_PADClassifierRequest._skipSimilarGesturesAccessible
++ __ZN6vision3mod22LivenessCheckPredictor17runStitchDetectorERK13vImage_BufferRbRfb.cold.1
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt12out_of_rangeC1B9fqe220100EPKc
++ __ZNSt3__110shared_ptrIN6vision3mod21LivenessCheck_OptionsEED2B9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__116__pad_and_outputB9fqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__120__throw_out_of_rangeB9fqe220100EPKc
++ __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9fqe220100Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED2B9fqe220100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE6resizeEm
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9fqe220100EmRKS3_
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE24__emplace_back_slow_pathIJRKfEEEPfDpOT_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE24__emplace_back_slow_pathIJfEEEPfDpOT_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE6resizeEm
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC1B9fqe220100ERKS3_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJRKiEEEPiDpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy17_8
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_CoreIDVPAD
++ _block_copy_helper.31
++ _block_copy_helper.39
++ _block_copy_helper.46
++ _block_descriptor.33
++ _block_descriptor.41
++ _block_descriptor.48
++ _block_destroy_helper.32
++ _block_destroy_helper.40
++ _block_destroy_helper.47
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$skipSimilarGesturesAccessible
++ _swift_release_x1
++ _swift_release_x11
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
+- GCC_except_table22
+- GCC_except_table34
+- GCC_except_table48
+- GCC_except_table63
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeC1B9nqe210106EPKc
+- __ZNSt3__110shared_ptrIN6vision3mod21LivenessCheck_OptionsEED2B9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9nqe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED2B9nqe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9nqe210106Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED2B9nqe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE8__appendEm
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9nqe210106EmRKS3_
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEm
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC1B9nqe210106ERKS3_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106ERKi
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___swift_project_boxed_opaque_existential_1Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_CoreIDVPAD
+- _block_copy_helper.32
+- _block_copy_helper.40
+- _block_copy_helper.47
+- _block_descriptor.34
+- _block_descriptor.42
+- _block_descriptor.49
+- _block_destroy_helper.33
+- _block_destroy_helper.41
+- _block_destroy_helper.48
+- _objectdestroyTm
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain_n
+- _swift_unexpectedError
+- _symbolic ______ypt So13VNImageOptiona
+- _symbolic ______ypt So27CIImageRepresentationOptiona
+CStrings:
+- "#16@0:8"
+- ".cxx_construct"
+- ".cxx_destruct"
+- "@"
+- "@\"AVAssetReader\""
+- "@\"AVAssetReaderTrackOutput\""
+- "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSError\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"PADPose\""
+- "@\"_TtC10CoreIDVPAD21PADInternalClassifier\""
+- "@\"_TtC10CoreIDVPAD30PADInternalAuditDataRepository\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16^@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16q24^@32"
+- "@56@0:8@16@24{CGSize=dd}32^@48"
+- "@72@0:8@16{?=qiIq}24{CGSize=dd}48^@64"
+- "@?"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16^@24"
+- "I16@0:8"
+- "JPEGRepresentationOfImage:colorSpace:options:"
+- "JSONObjectWithData:options:error:"
+- "MLFeatureProvider"
+- "NSObject"
+- "PADAVAssetReader"
+- "PADAVFrame"
+- "PADAVSerialAssetReader"
+- "PADAlgorithmFACFaceprintResult"
+- "PADAlgorithmFACInput"
+- "PADAlgorithmFACResult"
+- "PADAlgorithmFacePoseInput"
+- "PADAlgorithms"
+- "PADAuditDataRepository"
+- "PADClassifier"
+- "PADClassifierRequest"
+- "PADClassifierResult"
+- "PADFace"
+- "PADFrame"
+- "PADFrameMonitor"
+- "PADPose"
+- "PADVNFaceprintDetector"
+- "PADVNSerialRequestsScheduler"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8q16"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"NSArray\",&,N,V_assessmentsFAC"
+- "T@\"NSArray\",&,N,V_assessmentsPRD"
+- "T@\"NSArray\",&,N,V_assessmentsTA"
+- "T@\"NSArray\",&,N,V_facePoseValues"
+- "T@\"NSArray\",&,N,V_faceprint"
+- "T@\"NSArray\",&,N,V_faceprints"
+- "T@\"NSArray\",&,N,V_faceprintsID"
+- "T@\"NSArray\",&,N,V_faces"
+- "T@\"NSArray\",&,N,V_gestureSequence"
+- "T@\"NSArray\",&,N,V_gestureTypes"
+- "T@\"NSArray\",&,N,V_gestures"
+- "T@\"NSArray\",&,N,V_landmarks"
+- "T@\"NSArray\",&,N,V_referenceFrameIndices"
+- "T@\"NSArray\",&,N,V_timestampsButtonPressed"
+- "T@\"NSArray\",&,N,V_timestampsFAC"
+- "T@\"NSArray\",&,N,V_timestampsID"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSMutableArray\",&,N,V_faceprints"
+- "T@\"NSNumber\",&,N,V_assessment"
+- "T@\"NSNumber\",&,N,V_assessmentFAC"
+- "T@\"NSNumber\",&,N,V_assessmentFakePRD"
+- "T@\"NSNumber\",&,N,V_assessmentID"
+- "T@\"NSNumber\",&,N,V_assessmentLivePRD"
+- "T@\"NSNumber\",&,N,V_assessmentTA"
+- "T@\"NSNumber\",&,N,V_gestureToDetect"
+- "T@\"NSNumber\",&,N,V_ignoredStitches"
+- "T@\"NSNumber\",&,N,V_livenessLabel"
+- "T@\"NSNumber\",&,N,V_maxNccHigh"
+- "T@\"NSNumber\",&,N,V_maxNccLow"
+- "T@\"NSSet\",N,R"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",&,N,V_ageLabel"
+- "T@\"NSString\",&,N,V_deviceInfo"
+- "T@\"NSString\",&,N,V_ethnicityLabel"
+- "T@\"NSString\",&,N,V_faceHairLabel"
+- "T@\"NSString\",&,N,V_glassesLabel"
+- "T@\"NSString\",&,N,V_headgearLabel"
+- "T@\"NSString\",&,N,V_sexLabel"
+- "T@\"NSString\",&,N,V_skintoneLabel"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"PADPose\",&,N,V_facePose"
+- "T@,W,N,V_pixelBuffer"
+- "TB,N,V_isHeadMovementDetected"
+- "TI,N,V_orientation"
+- "TQ,N,V_index"
+- "TQ,N,V_minNumberOfGestures"
+- "TQ,R"
+- "T^{__CVBuffer=},D,N"
+- "Td,N,V_pitch"
+- "Td,N,V_roll"
+- "Td,N,V_smile"
+- "Td,N,V_yaw"
+- "Td,R,N"
+- "T{?=qiIq},N,V_time"
+- "T{?=qiIq},N,V_timestamp"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_bounds"
+- "T{CGSize=dd},R,N"
+- "URLForResource:withExtension:"
+- "URLsForDirectory:inDomains:"
+- "UTF8String"
+- "VN1uMyFtnYEWjbrdx3yAuDndKkPeyzNJhB"
+- "VN3iT1YRjjnIuELobV1olJiO1vvItN6Kdq"
+- "VN7exwFFmQF0AI9P7FjBljwEFu7QYUGCYE"
+- "VN7fiLHgGnvqPqG63cfDUCK4Xm8obUuWoP"
+- "VNFaceObservationAccepting"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__CVBuffer=}16@0:8"
+- "^{opaqueCMSampleBuffer=}72@0:8@16{?=qiIq}24{CGSize=dd}48^@64"
+- "_PADAuditDataRepository"
+- "_PADClassifier"
+- "_PADVNFaceprintDetector"
+- "_TtC10CoreIDVPAD10PADAVFrame"
+- "_TtC10CoreIDVPAD10PADSWFrame"
+- "_TtC10CoreIDVPAD15PADModelManager"
+- "_TtC10CoreIDVPAD15PADModelRequest"
+- "_TtC10CoreIDVPAD15PADSWClassifier"
+- "_TtC10CoreIDVPAD16PADAVAssetReader"
+- "_TtC10CoreIDVPAD16PADFacePoseModel"
+- "_TtC10CoreIDVPAD18PADFacePoseRequest"
+- "_TtC10CoreIDVPAD21PADFacePoseModelInput"
+- "_TtC10CoreIDVPAD21PADInternalClassifier"
+- "_TtC10CoreIDVPAD21PADLivenessClassifier"
+- "_TtC10CoreIDVPAD21PADPrintReplayRequest"
+- "_TtC10CoreIDVPAD22PADFacePoseModelOutput"
+- "_TtC10CoreIDVPAD22PADSWAuditDataRecorder"
+- "_TtC10CoreIDVPAD22PADSerialAVAssetReader"
+- "_TtC10CoreIDVPAD23PADFaceActionController"
+- "_TtC10CoreIDVPAD24PADPrintReplayController"
+- "_TtC10CoreIDVPAD26PADSerialRequestsScheduler"
+- "_TtC10CoreIDVPAD27PADSelfieAnalysisController"
+- "_TtC10CoreIDVPAD30PADInternalAuditDataRepository"
+- "_TtC10CoreIDVPAD31PADTrajectoryAnalysisController"
+- "_TtC10CoreIDVPAD9PADSWFace"
+- "_TtC10CoreIDVPAD9PADSWPose"
+- "_ageLabel"
+- "_assessment"
+- "_assessmentFAC"
+- "_assessmentFakePRD"
+- "_assessmentID"
+- "_assessmentLivePRD"
+- "_assessmentTA"
+- "_assessmentsFAC"
+- "_assessmentsPRD"
+- "_assessmentsTA"
+- "_assetReader"
+- "_auditDataRepository"
+- "_bounds"
+- "_buffer"
+- "_classifier"
+- "_completion"
+- "_config"
+- "_currentFrameProcessingCompletion"
+- "_currentObservationComposite"
+- "_currentObservationCompositeSet"
+- "_deviceInfo"
+- "_dispatchVisionRequestForFrame:"
+- "_ethnicityLabel"
+- "_faceHairLabel"
+- "_facePose"
+- "_facePoseValues"
+- "_faceprint"
+- "_faceprints"
+- "_faceprintsID"
+- "_faces"
+- "_frameFromVideo:timestamp:size:error:"
+- "_gestureSequence"
+- "_gestureToDetect"
+- "_gestureTypes"
+- "_gestures"
+- "_glassesLabel"
+- "_headgearLabel"
+- "_ignoredStitches"
+- "_imageDataFromVideo:timestamp:size:error:"
+- "_index"
+- "_isHeadMovementDetected"
+- "_isProcessingFrame"
+- "_isReading"
+- "_landmarks"
+- "_livenessLabel"
+- "_maxNccHigh"
+- "_maxNccLow"
+- "_minNumberOfGestures"
+- "_newSampleBufferFromVideo:timestamp:size:error:"
+- "_orientation"
+- "_output"
+- "_pitch"
+- "_pixelBuffer"
+- "_predictor"
+- "_queue"
+- "_referenceFrameIndices"
+- "_remainingRequests"
+- "_requestError"
+- "_requests"
+- "_reset"
+- "_retrieveFaceprintsFromPredictorUsingFACInput:"
+- "_retrieveReferenceFramesFromPredictor"
+- "_roll"
+- "_setSize"
+- "_setupAssetReaderWithVideoURL:error:"
+- "_sexLabel"
+- "_skintoneLabel"
+- "_smile"
+- "_time"
+- "_timestamp"
+- "_timestampsButtonPressed"
+- "_timestampsFAC"
+- "_timestampsID"
+- "_yaw"
+- "accessibilityOptionsEnabled"
+- "addObject:"
+- "addOutput:"
+- "ageCategory"
+- "ageLabel"
+- "algorithms"
+- "allPoints"
+- "analyzeObservationComposite:"
+- "analyzeObservationCompositeSet:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "assessment"
+- "assessmentFAC"
+- "assessmentID"
+- "assessmentTA"
+- "assessments"
+- "assessmentsFAC"
+- "assessmentsPRD"
+- "assessmentsTA"
+- "asset"
+- "assetWithURL:"
+- "autorelease"
+- "boolValue"
+- "boundingBox"
+- "bounds"
+- "buffer"
+- "bundleForClass:"
+- "bytes"
+- "canAddOutput:"
+- "cancelReading"
+- "cancelWithCompletion:"
+- "class"
+- "classifier"
+- "close"
+- "computedObservation"
+- "conformsToProtocol:"
+- "consecutiveUndetectedBuffers"
+- "contentsOfDirectoryAtPath:error:"
+- "context"
+- "copyItemAtURL:toURL:error:"
+- "copyNextSampleBuffer"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createCGImage:fromRect:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "cropAndScaleBufferWithWidth:height:cropRect:format:imageCropAndScaleOption:options:error:calculatedNormalizedOriginOffset:calculatedScaleX:calculatedScaleY:"
+- "currentGestureBufferCount"
+- "currentGestureSkippedWithAX"
+- "currentIndex"
+- "currentObservationComposite"
+- "currentObservationCompositeSet"
+- "currentTimestamp"
+- "cvPixelBufferFromData:"
+- "d"
+- "d16@0:8"
+- "d40@0:8@16@24^@32"
+- "dataRecorder"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultManager"
+- "delegate"
+- "description"
+- "descriptorData"
+- "detectedGestures"
+- "deviceInfo"
+- "dictionaryWithObjects:forKeys:count:"
+- "directory"
+- "doubleValue"
+- "duration"
+- "elementCount"
+- "enableAccessibilityOptions"
+- "errorWithDomain:code:userInfo:"
+- "ethnicityLabel"
+- "extent"
+- "fac"
+- "facFacePoseValues"
+- "facReferenceTimestamps"
+- "facResult"
+- "facTimestamps"
+- "faceAttributes"
+- "faceHairCategory"
+- "faceHairLabel"
+- "faceObservationWithRequestRevision:boundingBox:roll:yaw:pitch:"
+- "facePose"
+- "facePoseModel"
+- "facePoseValues"
+- "faceprint"
+- "faceprints"
+- "faceprintsID"
+- "faces"
+- "featureNames"
+- "featureValueForName:"
+- "featureValueWithPixelBuffer:"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "finishLivenessStepUp:"
+- "finishLivenessWithSelfie:idMatchingFaceprints:completion:"
+- "finishLivenessWithSelfie:performIDMatching:completion:"
+- "firstObject"
+- "floatValue"
+- "frameFaceBounds"
+- "frameProcessingCompletionHandler"
+- "framesAnalyzed"
+- "framesFromVideoURL:timestamps:error:"
+- "framesFromVideoURL:timestamps:size:error:"
+- "gesture"
+- "gestureSequence"
+- "gestureStartBlock"
+- "gestureToDetect"
+- "gestureTypes"
+- "gestureTypesToSkip"
+- "gestures"
+- "getFACVersion"
+- "getPRDFakeFrameThreshold"
+- "getPRDLiveFrameThreshold"
+- "glassesCategory"
+- "glassesLabel"
+- "handleObservationCompositeError:"
+- "handleResultForRequest:error:"
+- "hasSetRandomIDFrames"
+- "hash"
+- "headgearLabel"
+- "idFaceprints"
+- "idMatchingFramesSelected"
+- "idTimestamps"
+- "identifier"
+- "ignoredStitches"
+- "imageWithCGImage:"
+- "imageWithData:"
+- "image_Placeholder"
+- "imagesFromVideoURL:timestamps:error:"
+- "imagesFromVideoURL:timestamps:size:error:"
+- "incorrectGestureDetectedBlock"
+- "index"
+- "init"
+- "initWithAsset:error:"
+- "initWithCGImage:"
+- "initWithCVPixelBuffer:"
+- "initWithCVPixelBuffer:orientation:options:"
+- "initWithCompletionHandler:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithFloat:"
+- "initWithFormat:"
+- "initWithInteger:"
+- "initWithPADModelConfiguration:"
+- "initWithQueue:"
+- "initWithTrack:outputSettings:"
+- "initWithVideoURL:error:"
+- "inputFaceObservations"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "isClassifierLoading"
+- "isEqual:"
+- "isEqualToString:"
+- "isHeadMovementDetected"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProcessing"
+- "isProcessingFrame"
+- "isProxy"
+- "keyEnumerator"
+- "label"
+- "landmarks"
+- "latestProcessedTimestamp"
+- "livenessClassifier"
+- "livenessLabel"
+- "loadTracksWithMediaType:completionHandler:"
+- "longLongValue"
+- "maxNccHigh"
+- "maxNccLow"
+- "metadata"
+- "minNumberOfGestures"
+- "minimumSuccessfulGestures"
+- "mode"
+- "model"
+- "modelConfiguration"
+- "modelDescription"
+- "modelManager"
+- "multiArrayValue"
+- "mutableCopy"
+- "normalizedPoints"
+- "numberArray"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observationCompositeSetSize"
+- "observationWithRequestRevision:boundingBox:"
+- "observationsFromRequest:"
+- "onClassifierLoaded"
+- "onGesturesFinishedBlock"
+- "orientation"
+- "output"
+- "path"
+- "pauseLiveness"
+- "performFAC:gesture:error:"
+- "performIDMatching:toFaceprints:error:"
+- "performOn:error:"
+- "performRequests:error:"
+- "performRequests:onCVPixelBuffer:orientation:error:"
+- "performSC:assessmentTA:assessmentFakePRD:assessmentLivePRD:assessmentID:error:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performTA:nccSignal:stitchDetected:isSensitive:error:"
+- "persistentDomainForName:"
+- "pitch"
+- "pixelBuffer"
+- "pointCount"
+- "pose"
+- "postNotificationName:object:"
+- "prd"
+- "predictionFromFeatures:options:error:"
+- "prepareToResumeLiveness"
+- "processFacePoseInput:gesture:error:"
+- "processFrame:"
+- "processFrames:completion:"
+- "processLivenessFrame:withOptions:taOptions:"
+- "processRecordedLivenessFrame:withPRD:FAC:"
+- "provider"
+- "q64@0:8@16@24@32@40@48^@56"
+- "queue"
+- "reader"
+- "referenceFrameIndices"
+- "release"
+- "remainingRequests"
+- "removeItemAtURL:error:"
+- "removeObjectAtIndex:"
+- "render:toCVPixelBuffer:"
+- "request"
+- "requestError"
+- "requests"
+- "requestsForFrame:handler:"
+- "requiredObservationSetSizeFAC:"
+- "respondsToSelector:"
+- "restartLivenessGesture"
+- "results"
+- "resumeLiveness"
+- "retain"
+- "retainCount"
+- "retrieveNextFrame"
+- "roll"
+- "self"
+- "selfieAnalyzer"
+- "selfieCompletionBlock"
+- "selfieCompletionBlockAccessSemaphore"
+- "selfieRequest"
+- "selfieResult"
+- "setAgeLabel:"
+- "setAlwaysCopiesSampleData:"
+- "setAssessment:"
+- "setAssessmentFAC:"
+- "setAssessmentFakePRD:"
+- "setAssessmentID:"
+- "setAssessmentLivePRD:"
+- "setAssessmentTA:"
+- "setAssessmentsFAC:"
+- "setAssessmentsPRD:"
+- "setAssessmentsTA:"
+- "setBounds:"
+- "setBuffer:"
+- "setComputeUnits:"
+- "setDeviceInfo:"
+- "setEthnicityLabel:"
+- "setFaceHairLabel:"
+- "setFacePose:"
+- "setFacePoseValues:"
+- "setFaceprint:"
+- "setFaceprints:"
+- "setFaceprintsID:"
+- "setFaces:"
+- "setGestureSequence:"
+- "setGestureToDetect:"
+- "setGestureTypes:"
+- "setGestures:"
+- "setGlassesLabel:"
+- "setHeadgearLabel:"
+- "setIgnoredStitches:"
+- "setIndex:"
+- "setInputFaceObservations:"
+- "setIsHeadMovementDetected:"
+- "setLandmarks:"
+- "setLivenessLabel:"
+- "setMaxNccHigh:"
+- "setMaxNccLow:"
+- "setMinNumberOfGestures:"
+- "setObject:forKeyedSubscript:"
+- "setOrientation:"
+- "setPitch:"
+- "setPixelBuffer:"
+- "setReferenceFrameIndices:"
+- "setRevision:error:"
+- "setRoll:"
+- "setSexLabel:"
+- "setSkintoneLabel:"
+- "setSmile:"
+- "setTime:"
+- "setTimeRange:"
+- "setTimestamp:"
+- "setTimestampsButtonPressed:"
+- "setTimestampsFAC:"
+- "setTimestampsID:"
+- "setYaw:"
+- "sexLabel"
+- "shouldProcessFrame:"
+- "size"
+- "skintoneLabel"
+- "skipLivenessGesture"
+- "skipRecordedLivenessGesture"
+- "standardUserDefaults"
+- "startLiveness:onGestureStart:onIncorrectGestureDetected:onGesturesFinished:"
+- "startLivenessVideoProcessing:onGestureStart:onGesturesFinished:"
+- "startReading"
+- "stitchCount"
+- "storeClassifierResult:imageData:"
+- "storeClassifierResult:imageData:signature:flags:"
+- "storeFACPoseBuffer:identifier:values:"
+- "storePRDBuffer:name:"
+- "storeTAValues:"
+- "storeUnencryptedVideoFrom:"
+- "stringWithFormat:"
+- "superclass"
+- "ta"
+- "taValues"
+- "time"
+- "timestamp"
+- "timestampsFAC"
+- "timestampsID"
+- "track"
+- "tracksWithMediaType:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSURL\"16"
+- "v24@0:8@\"PADFrame\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"PADClassifierResult\"@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8^{__CVBuffer=}16"
+- "v24@0:8d16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"VNRequest\"8@\"NSError\"16"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"PADFrame\"16B24B28"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16B24B28"
+- "v32@0:8^{__CVBuffer=}16@\"NSString\"24"
+- "v32@0:8^{__CVBuffer=}16@24"
+- "v35@0:8@\"PADFrame\"16{PADClassifierFrameOptions=BBB}24q27"
+- "v35@0:8@16{PADClassifierFrameOptions=BBB}24q27"
+- "v36@0:8@\"PADFrame\"16B24@?<v@?@\"PADClassifierResult\"@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"PADClassifierRequest\"16@?<v@?@\"NSNumber\">24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"PADFrame\"16@\"NSArray\"24@?<v@?@\"PADClassifierResult\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8^{__CVBuffer=}16@\"NSString\"24@\"NSDictionary\"32"
+- "v40@0:8^{__CVBuffer=}16@24@32"
+- "v40@0:8{?=qiIq}16"
+- "v48@0:8@\"PADClassifierRequest\"16@?<v@?@\"NSNumber\">24@?<v@?>32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"PADClassifierResult\"16@\"NSData\"24@\"NSData\"32@\"NSData\"40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@?24@?32@?40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v52@0:8^{__CVBuffer=}16^d24^B32B40^@44"
+- "waitForCurrentFrameProcessingWithCompletion:"
+- "yaw"
+- "zone"
+- "{?=\"value\"q\"timescale\"i\"flags\"I\"epoch\"q}"
+- "{?=qiIq}16@0:8"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGSize=dd}16@0:8"
+- "{shared_ptr<vision::mod::LivenessCheckPredictor>=\"__ptr_\"^{LivenessCheckPredictor}\"__cntrl_\"^{__shared_weak_count}}"
+- "{shared_ptr<vision::mod::LivenessCheck_Options>=\"__ptr_\"^{LivenessCheck_Options}\"__cntrl_\"^{__shared_weak_count}}"
+
+```

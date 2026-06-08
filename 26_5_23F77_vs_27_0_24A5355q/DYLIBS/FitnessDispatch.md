@@ -1,0 +1,762 @@
+## FitnessDispatch
+
+> `/System/Library/PrivateFrameworks/FitnessDispatch.framework/FitnessDispatch`
+
+```diff
+
+-2026.5.2.0.0
+-  __TEXT.__text: 0x2b9d8
+-  __TEXT.__auth_stubs: 0x1110
+-  __TEXT.__objc_methlist: 0x1c0
+-  __TEXT.__const: 0x13d8
+-  __TEXT.__constg_swiftt: 0xe70
+-  __TEXT.__swift5_typeref: 0x906
+-  __TEXT.__swift5_reflstr: 0x4a1
+-  __TEXT.__swift5_fieldmd: 0x590
+-  __TEXT.__swift5_proto: 0x7c
+-  __TEXT.__swift5_types: 0x74
+-  __TEXT.__oslogstring: 0x857
+-  __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_capture: 0x66c
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__swift_as_entry: 0x10c
+-  __TEXT.__swift_as_ret: 0x104
+-  __TEXT.__cstring: 0x25d
+-  __TEXT.__swift5_assocty: 0x38
+-  __TEXT.__swift5_acfuncs: 0x14
+-  __TEXT.__unwind_info: 0xd38
+-  __TEXT.__eh_frame: 0x29c0
+-  __TEXT.__objc_classname: 0x10e
+-  __TEXT.__objc_methname: 0x5ee
+-  __TEXT.__objc_methtype: 0x287
+-  __TEXT.__objc_stubs: 0x3a0
+-  __DATA_CONST.__got: 0x220
+-  __DATA_CONST.__const: 0x1c0
+-  __DATA_CONST.__objc_classlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x50
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x198
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x890
+-  __AUTH_CONST.__const: 0x1bd8
+-  __AUTH_CONST.__objc_const: 0x808
+-  __AUTH.__data: 0xb8
+-  __DATA.__data: 0x458
+-  __DATA.__bss: 0x900
+-  __DATA_DIRTY.__data: 0xa48
+-  __DATA_DIRTY.__bss: 0x380
+-  __DATA_DIRTY.__common: 0x28
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
++2027.0.59.0.2
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x48
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftDistributed.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A5F0382E-5EFA-3585-9737-C365F0A1CD75
+-  Functions: 824
+-  Symbols:   599
+-  CStrings:  181
++  UUID: 8F18692F-74FA-31B0-9BC7-B0540CC178EC
++  Functions: 0
++  Symbols:   2
++  CStrings:  0
+ 
+Symbols:
+- <redacted>
+- _OBJC_CLASS_$_BGSystemTaskScheduler
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Block_copy
+- __Block_release
+- __DATA__TtC15FitnessDispatch22NetworkDispatchBrowser
+- __INSTANCE_METHODS__TtC15FitnessDispatch19XPCDispatchListener
+- __INSTANCE_METHODS__TtC15FitnessDispatch23XPCDispatchClientExport
+- __INSTANCE_METHODS__TtC15FitnessDispatch25XPCDispatchListenerExport
+- __IVARS__TtC15FitnessDispatch17XPCDispatchClient
+- __IVARS__TtC15FitnessDispatch19DispatchClientTable
+- __IVARS__TtC15FitnessDispatch19XPCDispatchListener
+- __IVARS__TtC15FitnessDispatch20DuetDispatchListener
+- __IVARS__TtC15FitnessDispatch21DispatchListenerTable
+- __IVARS__TtC15FitnessDispatch21NetworkDispatchClient
+- __IVARS__TtC15FitnessDispatch22DarwinDispatchListener
+- __IVARS__TtC15FitnessDispatch22NetworkDispatchBrowser
+- __IVARS__TtC15FitnessDispatch23NetworkDispatchListener
+- __IVARS__TtC15FitnessDispatch23XPCDispatchClientExport
+- __IVARS__TtC15FitnessDispatch24NetworkDispatchInterface
+- __IVARS__TtC15FitnessDispatch25XPCDispatchListenerExport
+- __IVARS__TtCC15FitnessDispatch17XPCDispatchClientP33_E3F7CB952604BEC190A45E319D97130913RetryIsolator
+- __METACLASS_DATA__TtC15FitnessDispatch22NetworkDispatchBrowser
+- __NSConcreteStackBlock
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_signal
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_signal
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+- __OBJC_PROTOCOL_$_OS_dispatch_source
+- __OBJC_PROTOCOL_$_OS_dispatch_source_signal
+- __PROTOCOLS__TtC15FitnessDispatch19XPCDispatchListener
+- __PROTOCOLS__TtC15FitnessDispatch19XPCDispatchListener.2
+- __PROTOCOLS__TtC15FitnessDispatch23XPCDispatchClientExport
+- __PROTOCOLS__TtC15FitnessDispatch23XPCDispatchClientExport.1
+- __PROTOCOLS__TtC15FitnessDispatch25XPCDispatchListenerExport
+- __PROTOCOLS__TtC15FitnessDispatch25XPCDispatchListenerExport.1
+- __PROTOCOL_INSTANCE_METHODS__TtP15FitnessDispatch26XPCDispatchClientInterface_
+- __PROTOCOL_INSTANCE_METHODS__TtP15FitnessDispatch28XPCDispatchListenerInterface_
+- __PROTOCOL_METHOD_TYPES__TtP15FitnessDispatch26XPCDispatchClientInterface_
+- __PROTOCOL_METHOD_TYPES__TtP15FitnessDispatch28XPCDispatchListenerInterface_
+- __PROTOCOL__TtP15FitnessDispatch26XPCDispatchClientInterface_
+- __PROTOCOL__TtP15FitnessDispatch28XPCDispatchListenerInterface_
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_value_buffer
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy0_1
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy33_8
+- ___swift_memcpy41_8
+- ___swift_memcpy5_4
+- ___swift_memcpy8_8
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- ___unnamed_1
+- ___unnamed_3
+- ___unnamed_8
+- __objc_empty_cache
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_FitnessDispatch
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_FitnessDispatch
+- __swift_stdlib_bridgeErrorToNSError
+- __swift_stdlib_malloc_size
+- __swift_stdlib_reportUnimplementedInitializer
+- __xpc_event_key_name
+- _associated conformance 15FitnessDispatch07NetworkB6ClientC7Failure33_9E16549152E8A1FA6BA7651D2B103BC2LLOyx_GSHAASQ
+- _associated conformance 15FitnessDispatch07NetworkB7BrowserC7Failure33_075526CA0CCBF12FC5A9790C70E57C9ELLOSHAASQ
+- _associated conformance 15FitnessDispatch07NetworkB8ListenerC7Failure33_C9CED7899EDD00F7FB3C99BCAA881ABCLLOyx_GSHAASQ
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxG0C025NWSingletonPublishedActorAA11Distributed0hG0
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxG11Distributed0E5ActorAA0F6SystemAeFP_AE0efG0
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxG11Distributed0E5ActorAASH
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxG11Distributed0E5ActorAAs12Identifiable
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxGSHAASQ
+- _associated conformance 15FitnessDispatch07NetworkB9InterfaceCyxGs12IdentifiableAA2IDsAEP_SH
+- _associated conformance 15FitnessDispatch17XPCDispatchClientC7Failure33_E3F7CB952604BEC190A45E319D971309LLOyx_GSHAASQ
+- _block_copy_helper
+- _block_copy_helper.13
+- _block_copy_helper.14
+- _block_copy_helper.39
+- _block_copy_helper.42
+- _block_copy_helper.43
+- _block_copy_helper.48
+- _block_copy_helper.52
+- _block_copy_helper.55
+- _block_copy_helper.59
+- _block_copy_helper.63
+- _block_copy_helper.72
+- _block_copy_helper.85
+- _block_descriptor
+- _block_descriptor.15
+- _block_descriptor.16
+- _block_descriptor.41
+- _block_descriptor.44
+- _block_descriptor.45
+- _block_descriptor.50
+- _block_descriptor.54
+- _block_descriptor.57
+- _block_descriptor.61
+- _block_descriptor.65
+- _block_descriptor.74
+- _block_descriptor.87
+- _block_destroy_helper
+- _block_destroy_helper.14
+- _block_destroy_helper.15
+- _block_destroy_helper.40
+- _block_destroy_helper.43
+- _block_destroy_helper.44
+- _block_destroy_helper.49
+- _block_destroy_helper.53
+- _block_destroy_helper.56
+- _block_destroy_helper.60
+- _block_destroy_helper.64
+- _block_destroy_helper.73
+- _block_destroy_helper.86
+- _bzero
+- _flat unique 15FitnessDispatch26XPCDispatchClientInterface_p
+- _flat unique 15FitnessDispatch28XPCDispatchListenerInterface_p
+- _flat unique So25OS_dispatch_source_signal_p
+- _generic environment SHRzSYRzs6UInt32V8RawValueSYRtzl
+- _get_enum_tag_for_layout_string 15FitnessDispatch07NetworkB7BrowserC5State33_075526CA0CCBF12FC5A9790C70E57C9ELLO
+- _get_enum_tag_for_layout_string 15FitnessDispatch17XPCDispatchClientC11ServiceTypeOyx_G
+- _malloc_size
+- _memcpy
+- _memmove
+- _notify_cancel
+- _notify_register_dispatch
+- _nw_parameters_set_account_id
+- _nw_parameters_set_attach_protocol_listener
+- _nw_parameters_set_traffic_class
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_msgSend$code
+- _objc_msgSend$deregisterTaskWithIdentifier:
+- _objc_msgSend$description
+- _objc_msgSend$domain
+- _objc_msgSend$endpoint
+- _objc_msgSend$init
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithMachServiceName:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithServiceName:
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$invalidate
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$receiveWithMessageCode:messageData:completionHandler:
+- _objc_msgSend$receiveWithMessageCode:messageData:originatingProcessIdentifier:completionHandler:
+- _objc_msgSend$registerForTaskWithIdentifier:usingQueue:launchHandler:
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$resume
+- _objc_msgSend$serviceListener
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setTaskCompleted
+- _objc_msgSend$sharedScheduler
+- _objc_msgSend$suspend
+- _objc_msgSend$valueForEntitlement:
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release
+- _objc_release_x1
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x27
+- _objc_retain_x8
+- _objc_retain_x9
+- _objectdestroy.15Tm
+- _objectdestroy.23Tm
+- _objectdestroy.4Tm
+- _objectdestroy.6Tm
+- _objectdestroy.8Tm
+- _os_log_type_enabled
+- _os_transaction_create
+- _signal
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_conformsToProtocol2
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _swift_deletedMethodError
+- _swift_distributedActor_remote_initialize
+- _swift_distributed_actor_is_remote
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getFunctionTypeMetadata0
+- _swift_getGenericMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getTupleTypeMetadata2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_lookUpClassMethod
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_isCurrentExecutor
+- _swift_task_reportUnexpectedExecutor
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+- _symbolic $s11Distributed0A5ActorP
+- _symbolic $s15FitnessDispatch0B12SerializableP
+- _symbolic $s15FitnessDispatch0B20ForwardingConnectionP
+- _symbolic $s15FitnessDispatch0B27ReverseForwardingConnectionP
+- _symbolic $s15FitnessDispatch0B6HeaderP
+- _symbolic $s15FitnessDispatch26XPCDispatchClientInterfaceP
+- _symbolic $s15FitnessDispatch28XPCDispatchListenerInterfaceP
+- _symbolic $ss12IdentifiableP
+- _symbolic 8RawValueSYQy_
+- _symbolic 8RawValueSYQz
+- _symbolic B0
+- _symbolic B1
+- _symbolic B2
+- _symbolic B3
+- _symbolic BD
+- _symbolic G0R1_
+- _symbolic G0R2_
+- _symbolic G0R3_
+- _symbolic G0R4_
+- _symbolic IeAgH_
+- _symbolic IeghH_
+- _symbolic SDy8RawValueSYQzSay_____yx_GGG 15FitnessDispatch0B11ClientTableC12Registration33_47A79542F0475B26DA21730660AA89D4LLV
+- _symbolic SDy__________yxq__GG s6UInt32V 15FitnessDispatch0C13ListenerTableC12Registration33_788AAF73672800D0E9B20003831B33DELLV
+- _symbolic SDyx_____G s5Int32V
+- _symbolic SS
+- _symbolic SS11serviceName_t
+- _symbolic SS15machServiceName_t
+- _symbolic SS4name_t
+- _symbolic SSSg
+- _symbolic SS_ypt
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Sb
+- _symbolic ScA_pSg
+- _symbolic ScCy_____Sg______pG 10Foundation4DataV s5ErrorP
+- _symbolic ScCy___________pG 7Network10NWEndpointO s5ErrorP
+- _symbolic ScCyqd________pG s5ErrorP
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScP
+- _symbolic ScPSg
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic Sd
+- _symbolic Se_SEp
+- _symbolic ShySSG
+- _symbolic ShySo15NSXPCConnectionCG
+- _symbolic Shy_____G 7Network9NWBrowserC6ResultV
+- _symbolic Shy_____G 7Network9NWBrowserC6ResultV6ChangeO
+- _symbolic Si
+- _symbolic SiSg
+- _symbolic So12BGSystemTaskC
+- _symbolic So13NSXPCListenerC
+- _symbolic So15NSXPCConnectionC
+- _symbolic So15NSXPCConnectionCSg
+- _symbolic So6NSDataCSg
+- _symbolic So6NSDataCSgSo7NSErrorCSgIeyByy_
+- _symbolic So7NSErrorCSgIeyBy_
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCSg
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____ 15FitnessDispatch04DuetB8ListenerC
+- _symbolic _____ 15FitnessDispatch06DarwinB8ListenerC
+- _symbolic _____ 15FitnessDispatch07NetworkB6ClientC
+- _symbolic _____ 15FitnessDispatch07NetworkB6ClientC10Connection33_9E16549152E8A1FA6BA7651D2B103BC2LLV
+- _symbolic _____ 15FitnessDispatch07NetworkB6ClientC7Failure33_9E16549152E8A1FA6BA7651D2B103BC2LLO
+- _symbolic _____ 15FitnessDispatch07NetworkB7BrowserC
+- _symbolic _____ 15FitnessDispatch07NetworkB7BrowserC5State33_075526CA0CCBF12FC5A9790C70E57C9ELLO
+- _symbolic _____ 15FitnessDispatch07NetworkB7BrowserC7Failure33_075526CA0CCBF12FC5A9790C70E57C9ELLO
+- _symbolic _____ 15FitnessDispatch07NetworkB8ListenerC
+- _symbolic _____ 15FitnessDispatch07NetworkB8ListenerC7Failure33_C9CED7899EDD00F7FB3C99BCAA881ABCLLO
+- _symbolic _____ 15FitnessDispatch07NetworkB9InterfaceC
+- _symbolic _____ 15FitnessDispatch0B11ClientTableC
+- _symbolic _____ 15FitnessDispatch0B11ClientTableC12Registration33_47A79542F0475B26DA21730660AA89D4LLV
+- _symbolic _____ 15FitnessDispatch0B11ClientTableC8PriorityO
+- _symbolic _____ 15FitnessDispatch0B13ListenerTableC
+- _symbolic _____ 15FitnessDispatch0B13ListenerTableC12Registration33_788AAF73672800D0E9B20003831B33DELLV
+- _symbolic _____ 15FitnessDispatch0B13ListenerTableC7Failure33_788AAF73672800D0E9B20003831B33DELLO
+- _symbolic _____ 15FitnessDispatch0B13ListenerTableC8PriorityO
+- _symbolic _____ 15FitnessDispatch13NetworkHeaderV
+- _symbolic _____ 15FitnessDispatch14SigTermHandlerV
+- _symbolic _____ 15FitnessDispatch17XPCDispatchClientC
+- _symbolic _____ 15FitnessDispatch17XPCDispatchClientC11ServiceTypeO
+- _symbolic _____ 15FitnessDispatch17XPCDispatchClientC13RetryIsolator33_E3F7CB952604BEC190A45E319D971309LLC
+- _symbolic _____ 15FitnessDispatch17XPCDispatchClientC7Failure33_E3F7CB952604BEC190A45E319D971309LLO
+- _symbolic _____ 15FitnessDispatch19XPCDispatchListenerC
+- _symbolic _____ 15FitnessDispatch19XPCDispatchListenerC8EndpointO
+- _symbolic _____ 15FitnessDispatch23XPCDispatchClientExportC
+- _symbolic _____ 15FitnessDispatch25XPCDispatchListenerExportC
+- _symbolic _____ 15FitnessDispatch9XPCHeaderV
+- _symbolic _____ 7Network13NWActorSystemC
+- _symbolic _____ 7Network9NWActorIDV
+- _symbolic _____ 7Network9NWBrowserC
+- _symbolic _____ s6UInt32V
+- _symbolic _____AA_____Sg_____yxGAC______pSHRzSYRzAA8RawValueSYRtzlIetMHyTyTgTgozo_ s6UInt32V 10Foundation4DataV 15FitnessDispatch07NetworkE9InterfaceC s5ErrorP
+- _symbolic _____Sg 10Foundation4DataV
+- _symbolic _____SgXw 15FitnessDispatch07NetworkB7BrowserC
+- _symbolic _____SgXwz_Xx 15FitnessDispatch07NetworkB7BrowserC
+- _symbolic _____Sgx_ABtYaKc 10Foundation4DataV
+- _symbolic ______p 15FitnessDispatch0B20ForwardingConnectionP
+- _symbolic ______p 15FitnessDispatch0B27ReverseForwardingConnectionP
+- _symbolic ______p 15FitnessDispatch26XPCDispatchClientInterfaceP
+- _symbolic ______p 15FitnessDispatch28XPCDispatchListenerInterfaceP
+- _symbolic ______p So25OS_dispatch_source_signalP
+- _symbolic ______p s5ErrorP
+- _symbolic ______pIeghHzo_ s5ErrorP
+- _symbolic ______pqd________pIeghHgrzo_ 15FitnessDispatch28XPCDispatchListenerInterfaceP s5ErrorP
+- _symbolic _____ySS6domain_SS4typetG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____ySo15NSXPCConnectionCG s11_SetStorageC
+- _symbolic _____y_____G 11Distributed18RemoteCallArgumentV s6UInt32V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y_____SgG 11Distributed18RemoteCallArgumentV 10Foundation4DataV
+- _symbolic _____y_____xG 15FitnessDispatch0B13ListenerTableC AA13NetworkHeaderV
+- _symbolic _____y_____xG 15FitnessDispatch0B13ListenerTableC AA9XPCHeaderV
+- _symbolic _____yxG 15FitnessDispatch06DarwinB8ListenerC
+- _symbolic _____yxG 15FitnessDispatch07NetworkB9InterfaceC
+- _symbolic _____yxG 15FitnessDispatch0B11ClientTableC
+- _symbolic _____yxG 15FitnessDispatch17XPCDispatchClientC
+- _symbolic _____yxG 15FitnessDispatch19XPCDispatchListenerC
+- _symbolic _____yxG 15FitnessDispatch23XPCDispatchClientExportC
+- _symbolic _____yxG 15FitnessDispatch25XPCDispatchListenerExportC
+- _symbolic _____yxGSgXw 15FitnessDispatch04DuetB8ListenerC
+- _symbolic _____yxGSgXw 15FitnessDispatch06DarwinB8ListenerC
+- _symbolic _____yxGSgXw 15FitnessDispatch19XPCDispatchListenerC
+- _symbolic _____yxGSgXwz_x_SHRzSYRz_____8RawValueSYRtzlXX 15FitnessDispatch19XPCDispatchListenerC s6UInt32V
+- _symbolic _____yxGSgXwz_x______RzSHRzSYRzSS8RawValueSYRtzlXX 15FitnessDispatch04DuetB8ListenerC s12CaseIterableP
+- _symbolic _____yxGSgXwz_x______RzSHRzSYRzSS8RawValueSYRtzlXX 15FitnessDispatch06DarwinB8ListenerC s12CaseIterableP
+- _symbolic _____yx_G 15FitnessDispatch0B11ClientTableC12Registration33_47A79542F0475B26DA21730660AA89D4LLV
+- _symbolic _____yx_G 15FitnessDispatch0B11ClientTableC8PriorityO
+- _symbolic _____yx_G 15FitnessDispatch17XPCDispatchClientC11ServiceTypeO
+- _symbolic _____yx_G 15FitnessDispatch17XPCDispatchClientC13RetryIsolator33_E3F7CB952604BEC190A45E319D971309LLC
+- _symbolic _____yx_GSg 15FitnessDispatch07NetworkB6ClientC10Connection33_9E16549152E8A1FA6BA7651D2B103BC2LLV
+- _symbolic _____yxq__G 15FitnessDispatch0B13ListenerTableC12Registration33_788AAF73672800D0E9B20003831B33DELLV
+- _symbolic _____yxq__G 15FitnessDispatch0B13ListenerTableC8PriorityO
+- _symbolic q_
+- _symbolic qd_0_
+- _symbolic qd__
+- _symbolic qd__IeghHn_
+- _symbolic x
+- _symbolic x______pIeghHnzo_ s5ErrorP
+- _symbolic xqd__Sg______pIeghHnrzo_ s5ErrorP
+- _symbolic xqd________pIeghHnnzo_ s5ErrorP
+- _symbolic xqd__qd_0_Sg______pIeghHnnrzo_ s5ErrorP
+- _symbolic y_____SgYaYbKc 10Foundation4DataV
+- _symbolic ypSg
+- _symbolic ytIeAgHr_
+- _symbolic ytSg
+- _symbolic ytSgIeAgHr_
+- _type_layout_string 15FitnessDispatch07NetworkB7BrowserC5State33_075526CA0CCBF12FC5A9790C70E57C9ELLO
+- _type_layout_string 15FitnessDispatch13NetworkHeaderV
+- _type_layout_string 15FitnessDispatch14SigTermHandlerV
+- _type_layout_string 15FitnessDispatch9XPCHeaderV
+- _type_layout_string SHRzSYRzs8SendableRzs6UInt32V8RawValueSYRtzl15FitnessDispatch17XPCDispatchClientC11ServiceTypeOyx_G
+- _type_layout_string SHRzSYRzs8SendableRzs6UInt32V8RawValueSYRtzl15FitnessDispatch19XPCDispatchListenerC8EndpointOyx_G
+- _xpc_dictionary_create_reply
+- _xpc_dictionary_get_string
+- _xpc_dictionary_send_reply
+- _xpc_set_event_stream_handler
+- _xpc_transaction_exit_clean
+CStrings:
+- "#16@0:8"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "Broadcasting message code %u to connection: %s"
+- "Connection added %s"
+- "Connection to %s interrupted"
+- "Connection to %s invalidated"
+- "Darwin listener starting"
+- "Dispatch error: %@"
+- "Dispatching: %s"
+- "Dispatching: %u"
+- "Error getting proxy object"
+- "Error publishing network interface actor: %@"
+- "Error reverse forwarding message %u: %@"
+- "Event name didn't match any message code"
+- "Failed to execute handler for darwin notification: %s: %@"
+- "Failed to execute handler for duet task: %s: %@"
+- "Failed to publish to connection (%s): %@"
+- "FitnessDispatch.XPCDispatchListener"
+- "FitnessDispatch/DarwinDispatchListener.swift"
+- "FitnessDispatch/DuetDispatchListener.swift"
+- "FitnessDispatch/NetworkDispatchBrowser.swift"
+- "FitnessDispatch/XPCDispatchClient.swift"
+- "FitnessDispatch/XPCDispatchListener.swift"
+- "Forwarding request"
+- "Handling xpc stream event %s"
+- "Ignoring, state is no longer browsing"
+- "Listener starting"
+- "NSObject"
+- "NSXPCListenerDelegate"
+- "NetworkDispatchBrowser deinit"
+- "NetworkDispatchBrowser looking for terminus endpoint"
+- "NetworkDispatchBrowser results changed"
+- "NetworkDispatchBrowser timed out"
+- "NetworkDispatchClient actor connection invalidated: %@"
+- "NetworkDispatchClient device found"
+- "NetworkDispatchClient reusing discovered device"
+- "NetworkDispatchClient sending %u"
+- "NetworkDispatchClient starting device discovery"
+- "NetworkDispatchInterface received message: %u"
+- "NetworkDispatchListener starting"
+- "New connection opened"
+- "No handlers registered"
+- "No xpc stream reply required"
+- "OS_dispatch_source"
+- "OS_dispatch_source_signal"
+- "Opening connection to %s"
+- "Q16@0:8"
+- "Received darwin message: %s"
+- "Received request: %u from: %s"
+- "Received scheduled task %s"
+- "Registering darwin notification %s"
+- "Registering scheduled task %s"
+- "Rejecting connection that lacks required entitlements"
+- "Retrying connection via retry isolator"
+- "Reverse forwarding message: %s"
+- "Sending xpc stream reply"
+- "SigTerm received, exiting clean"
+- "SigTermHandler activating"
+- "Stream event missing name"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Unable to deserialize data for code: %s"
+- "Unexpected interface mismatch"
+- "Unexpected missing data for code: %s"
+- "Unregistering darwin notification %s"
+- "Unregistering scheduled task %s"
+- "Vv16@0:8"
+- "XPC connection error: %@"
+- "XPC connection interrupted"
+- "XPC connection invalidated"
+- "^{_NSZone=}16@0:8"
+- "_TtC15FitnessDispatch22NetworkDispatchBrowser"
+- "_TtP15FitnessDispatch26XPCDispatchClientInterface_"
+- "_TtP15FitnessDispatch28XPCDispatchListenerInterface_"
+- "_createCheckedThrowingContinuation(_:)"
+- "actorSystem"
+- "application-identifier"
+- "autorelease"
+- "bundleIdentifier"
+- "cachedConnection"
+- "class"
+- "client"
+- "code"
+- "com.apple.FitnessDispatch"
+- "com.apple.network.local-asquic"
+- "com.apple.networkrelay"
+- "com.apple.notifyd.matching"
+- "conformsToProtocol:"
+- "connection"
+- "connectionTimeout"
+- "connections"
+- "dealloc"
+- "debugDescription"
+- "deregisterTaskWithIdentifier:"
+- "description"
+- "dispatchTable"
+- "domain"
+- "endpoint"
+- "findTerminusEndpoint()"
+- "hash"
+- "id"
+- "init"
+- "init()"
+- "initWithDomain:code:userInfo:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithServiceName:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "listener:shouldAcceptNewConnection:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "processIdentifier"
+- "protocolVersion"
+- "receiveWithMessageCode:messageData:completionHandler:"
+- "receiveWithMessageCode:messageData:originatingProcessIdentifier:completionHandler:"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "registry"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "requestTimeout"
+- "requiredEntitlements"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "self"
+- "senderProtocolVersion"
+- "serverTask"
+- "serviceListener"
+- "serviceName"
+- "serviceType"
+- "setDelegate:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setRemoteObjectInterface:"
+- "setTaskCompleted"
+- "sharedScheduler"
+- "state"
+- "superclass"
+- "suspend"
+- "timeout"
+- "tokens"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"BGSystemTask\"8"
+- "v16@?0@\"NSError\"8"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v36@0:8I16@\"NSData\"20@?<v@?@\"NSData\"@\"NSError\">28"
+- "v36@0:8I16@\"NSData\"20@?<v@?@\"NSError\">28"
+- "v36@0:8I16@20@?28"
+- "v44@0:8I16@\"NSData\"20q28@?<v@?@\"NSData\"@\"NSError\">36"
+- "v44@0:8I16@20q28@?36"
+- "v8@?0"
+- "valueForEntitlement:"
+- "withListenerProxy(allowRetry:operation:)"
+- "xpcListener"
+- "zone"
+
+```

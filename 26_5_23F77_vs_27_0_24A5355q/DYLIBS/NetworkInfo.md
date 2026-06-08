@@ -1,0 +1,833 @@
+## NetworkInfo
+
+> `/System/Library/PrivateFrameworks/NetworkInfo.framework/NetworkInfo`
+
+```diff
+
+-194.120.6.0.0
+-  __TEXT.__text: 0xeca9c
+-  __TEXT.__auth_stubs: 0x23b0
++217.0.0.0.0
++  __TEXT.__text: 0xeaaec
+   __TEXT.__objc_methlist: 0x8f4
+-  __TEXT.__const: 0x35d0
+-  __TEXT.__cstring: 0x3f1f
++  __TEXT.__const: 0x35f0
++  __TEXT.__cstring: 0x4024
+   __TEXT.__oslogstring: 0x22a4
+   __TEXT.__gcc_except_tab: 0x14
+   __TEXT.__swift5_typeref: 0xf85
+   __TEXT.__swift5_capture: 0x292c
+-  __TEXT.__swift5_fieldmd: 0x18b0
++  __TEXT.__swift5_fieldmd: 0x18c8
+   __TEXT.__constg_swiftt: 0x19d4
+-  __TEXT.__swift5_reflstr: 0xdd6
++  __TEXT.__swift5_reflstr: 0xde6
+   __TEXT.__swift5_builtin: 0x1a4
+   __TEXT.__swift5_assocty: 0x158
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_proto: 0x26c
+   __TEXT.__swift5_types: 0x154
+-  __TEXT.__swift_as_entry: 0x8c
+-  __TEXT.__swift_as_ret: 0xd8
+-  __TEXT.__unwind_info: 0x1608
+-  __TEXT.__eh_frame: 0x2248
+-  __TEXT.__objc_classname: 0x4bc
+-  __TEXT.__objc_methname: 0x1db5
+-  __TEXT.__objc_methtype: 0x9f6
+-  __TEXT.__objc_stubs: 0xf60
+-  __DATA_CONST.__got: 0x520
++  __TEXT.__swift_as_entry: 0x94
++  __TEXT.__swift_as_ret: 0xe0
++  __TEXT.__swift_as_cont: 0x184
++  __TEXT.__unwind_info: 0x1638
++  __TEXT.__eh_frame: 0x230c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x840
+   __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_protolist: 0x40
+
+   __DATA_CONST.__objc_selrefs: 0x5e0
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x11e8
+-  __AUTH_CONST.__const: 0x8660
++  __DATA_CONST.__got: 0x510
++  __AUTH_CONST.__const: 0x8670
+   __AUTH_CONST.__cfstring: 0x320
+   __AUTH_CONST.__objc_const: 0x2518
++  __AUTH_CONST.__auth_got: 0x1230
+   __AUTH.__objc_data: 0x15b8
+   __AUTH.__data: 0x10a8
+   __DATA.__objc_ivar: 0xb4
+-  __DATA.__data: 0xf80
+-  __DATA.__bss: 0x57c0
++  __DATA.__data: 0xf70
++  __DATA.__bss: 0x4de8
+   __DATA.__common: 0xf0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 1B831BC2-FD47-379D-9DED-0CEA457E7A77
+-  Functions: 3496
+-  Symbols:   1984
+-  CStrings:  1335
++  UUID: A7DC9EDE-A1BD-3FFB-B49E-88E5B5F738F9
++  Functions: 3495
++  Symbols:   3281
++  CStrings:  864
+ 
+Symbols:
++ __MergedGlobals
++ ___block_literal_global.242
++ ___isPlatformVersionAtLeast
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.265
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.271
++ ___swift_closure_destructor.272
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.276
++ ___swift_closure_destructor.279
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.283
++ ___swift_closure_destructor.284
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.288
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.295
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.299
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.304
++ ___swift_closure_destructor.307
++ ___swift_closure_destructor.308
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.311
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.315
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.319
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.323
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.331
++ ___swift_closure_destructor.335
++ ___swift_closure_destructor.339
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.342
++ ___swift_closure_destructor.346
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.350
++ ___swift_closure_destructor.354
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.363
++ ___swift_closure_destructor.366
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.370
++ ___swift_closure_destructor.374
++ ___swift_closure_destructor.378
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.382
++ ___swift_closure_destructor.388
++ ___swift_closure_destructor.389
++ ___swift_closure_destructor.391
++ ___swift_closure_destructor.394
++ ___swift_closure_destructor.398
++ ___swift_closure_destructor.402
++ ___swift_closure_destructor.406
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.410
++ ___swift_closure_destructor.414
++ ___swift_closure_destructor.418
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.421
++ ___swift_closure_destructor.424
++ ___swift_closure_destructor.428
++ ___swift_closure_destructor.437
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.440
++ ___swift_closure_destructor.443
++ ___swift_closure_destructor.447
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.451
++ ___swift_closure_destructor.455
++ ___swift_closure_destructor.459
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.463
++ ___swift_closure_destructor.467
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.471
++ ___swift_closure_destructor.475
++ ___swift_closure_destructor.479
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.482
++ ___swift_closure_destructor.485
++ ___swift_closure_destructor.489
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.493
++ ___swift_closure_destructor.497
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.501
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.509
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.513
++ ___swift_closure_destructor.517
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.99
++ ___swift_memcpy2896_8
++ ___swift_memcpy70032_8
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swift_implicitisolationactor_to_executor_cast
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _initializeAvailabilityCheck
++ _malloc
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x26
++ _objc_retain_x3
++ _objc_retain_x4
++ _rewind
++ _swift_release_x8
++ _swift_willThrowTypedImpl
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- ___block_literal_global.243
+- ___swift_memcpy1872_8
+- ___swift_memcpy69008_8
+- _create_pcap_on_interface.cold.2
+- _create_pcap_on_interface.cold.3
+- _create_pcap_on_interface.cold.4
+- _create_pcap_on_interface.cold.5
+- _create_pcap_on_interface.ebuf
+- _create_pcap_on_interface.filter_str
+- _exit
+- _gethostbyaddr
+- _inet_ntoa
+- _setvbuf
+- _traceroute4_run.cold.2
+CStrings:
++ "%d.%d.%d"
++ "%s: %s: %s\n"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "ProductVersion"
++ "kCFAllocatorNull"
++ "r"
+- "#16@0:8"
+- "$__lazy_storage_$_systemConfiguration"
+- "%s: bad host %s\n"
+- "%s: unknown host %s\n"
+- "%s: unknown protocol %s\n"
+- ".cxx_destruct"
+- "@\"<ICMPPingProbeDelegate>\""
+- "@\"<PacketCaptureurDelegate>\""
+- "@\"NSData\""
+- "@\"NSMutableArray\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@16@0:8"
+- "@20@0:8I16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8r*16@24@?32"
+- "@?"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8Q16Q24"
+- "B48@0:8@16^B24^S32^B40"
+- "HostResolver"
+- "I"
+- "I16@0:8"
+- "ICMPPingProbe"
+- "NSObject"
+- "NSURLSessionDelegate"
+- "NSURLSessionTaskDelegate"
+- "NetworkInfo"
+- "NetworkInfoAssessment"
+- "NetworkInfoConfiguration"
+- "NetworkInfoResults"
+- "NetworkInfoSnapshotter"
+- "PacketCaptureur"
+- "PacketCaptureurDelegate"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "S"
+- "T#,R"
+- "T@\"<ICMPPingProbeDelegate>\",N,V_delegate"
+- "T@\"<PacketCaptureurDelegate>\",&,N,V_delegate"
+- "T@\"NSMutableArray\",&,N,V_pings"
+- "T@\"NSMutableArray\",R,N,V_probeOutputFilePaths"
+- "T@\"NSObject<OS_dispatch_queue>\",N,V_queue"
+- "T@\"NSObject<OS_dispatch_semaphore>\",&,N,V_pingRunLoopReady"
+- "T@\"NSObject<OS_dispatch_source>\",N,V_periodicTimer"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,V_diagSessionUUID"
+- "T@\"NSString\",N,V_hostName"
+- "T@\"NSString\",N,V_ipAddress"
+- "T@\"NSString\",R,C"
+- "T@\"NSUUID\",N,V_uuid"
+- "TB,N,V_hostAddressIsIPv6"
+- "TB,V_running"
+- "TI,N,V_interfaceIndex"
+- "TI,N,V_status"
+- "TQ,N,V_burstCount"
+- "TQ,N,V_currentBurst"
+- "TQ,N,V_failedCount"
+- "TQ,N,V_payloadSize"
+- "TQ,N,V_pingCount"
+- "TQ,N,V_successCount"
+- "TQ,R"
+- "T^{__CFRunLoop=},N,V_pingRunLoop"
+- "T^{__CFRunLoopSource=},N,V_rls"
+- "T^{_opaque_pthread_t=q^{__darwin_pthread_handler_rec}[8176c]},N,V_pingThread"
+- "Td,N,V_interBurstInterval"
+- "Td,N,V_interPingInterval"
+- "TestProbe"
+- "Tf,N,V_percentComplete"
+- "TraceRoute"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didCreateTask:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didCompleteWithError:"
+- "URLSession:task:didFinishCollectingMetrics:"
+- "URLSession:task:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didReceiveInformationalResponse:"
+- "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:"
+- "URLSession:task:needNewBodyStream:"
+- "URLSession:task:needNewBodyStreamFromOffset:completionHandler:"
+- "URLSession:task:willBeginDelayedRequest:completionHandler:"
+- "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
+- "URLSession:taskIsWaitingForConnectivity:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "UTF8String"
+- "UUID"
+- "Vv16@0:8"
+- "^v16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__CFHost=}"
+- "^{__CFRunLoop=}"
+- "^{__CFRunLoop=}16@0:8"
+- "^{__CFRunLoopSource=}"
+- "^{__CFRunLoopSource=}16@0:8"
+- "^{__CFSocket=}"
+- "^{_opaque_pthread_t=q^{__darwin_pthread_handler_rec}[8176c]}"
+- "^{_opaque_pthread_t=q^{__darwin_pthread_handler_rec}[8176c]}16@0:8"
+- "_TtC11NetworkInfo11TraceRoute4"
+- "_TtC11NetworkInfo11TraceRoute6"
+- "_TtC11NetworkInfo13SCDNSSettings"
+- "_TtC11NetworkInfo16TraceRouteResult"
+- "_TtC11NetworkInfo17TraceRouteOptions"
+- "_TtC11NetworkInfo21NetworkInfoPingResult"
+- "_TtC11NetworkInfo22JSONTracerouteDelegate"
+- "_TtC11NetworkInfo23SummaryTraceRouteResult"
+- "_TtC11NetworkInfo24PrettyTracerouteDelegate"
+- "_TtC11NetworkInfo27NetworkInfoDNSConfiguration"
+- "_TtC11NetworkInfo27NetworkInfoTCPConnectResult"
+- "_TtC11NetworkInfo29NetworkInfoURLRetrievalResult"
+- "_TtC11NetworkInfo30NetworkInfoSystemConfiguration"
+- "_TtC11NetworkInfo34NetworkInfoPacketCaptureurDelegate"
+- "_TtC11NetworkInfo4HTTP"
+- "_TtC11NetworkInfo6Sysctl"
+- "_TtC11NetworkInfo8TCPProbe"
+- "_TtC11NetworkInfo9LogLevels"
+- "_TtCE11NetworkInfoaSo16SCPreferencesRef4Info"
+- "_TtCE11NetworkInfoaSo17SCDynamicStoreRef4Info"
+- "_burstCount"
+- "_completionHandler"
+- "_completionHandlerCalled"
+- "_connectionForServiceNamed:queue:connectionInvalidHandler:"
+- "_currentBurst"
+- "_delegate"
+- "_diagSessionUUID"
+- "_failedCount"
+- "_host"
+- "_hostAddressData"
+- "_hostAddressIsIPv6"
+- "_hostName"
+- "_identifier"
+- "_interBurstInterval"
+- "_interPingInterval"
+- "_interfaceIndex"
+- "_ipAddress"
+- "_nextSequenceNumber"
+- "_payloadSize"
+- "_percentComplete"
+- "_periodicTimer"
+- "_pingCount"
+- "_pingRunLoopReady"
+- "_pingThread"
+- "_pings"
+- "_probeOutputFilePaths"
+- "_queue"
+- "_rls"
+- "_running"
+- "_shortErrorFromError:"
+- "_socket"
+- "_status"
+- "_successCount"
+- "_uuid"
+- "addObject:"
+- "array"
+- "autorelease"
+- "burstCount"
+- "burstTimer"
+- "bytes"
+- "cStringUsingEncoding:"
+- "cancelTest:"
+- "cfg"
+- "class"
+- "conformsToProtocol:"
+- "connectEndDate"
+- "connectStartDate"
+- "connectToXPCService"
+- "connectionTime"
+- "continuation"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createNotificationListener"
+- "ctx"
+- "currentBurst"
+- "d"
+- "d16@0:8"
+- "dataUsingEncoding:"
+- "dataWithBytes:length:"
+- "dataWithLength:"
+- "dealloc"
+- "debugDescription"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "delegate"
+- "description"
+- "diagSessionUUID"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithObjectsAndKeys:"
+- "didFailWithError:"
+- "disablePacketCapture"
+- "disableRaisingLogLevels"
+- "dispatchQueue"
+- "dnsOnlyDomains"
+- "domainLookupEndDate"
+- "domainLookupStartDate"
+- "domains"
+- "enableNetworkSnapshot"
+- "errorWithDomain:code:userInfo:"
+- "extraURLs"
+- "f"
+- "f16@0:8"
+- "failedCount"
+- "fetchStartDate"
+- "hash"
+- "hostAddressIsIPv6"
+- "hostName"
+- "icmpIPv4OffsetInPacket:"
+- "icmpPingProbe:completedIterations:successfulCount:withError:"
+- "icmpPingProbe:echoRequestSent:success:"
+- "icmpPingProbe:echoResponseReceived:success:"
+- "init"
+- "initWithBytes:length:"
+- "initWithCapacity:"
+- "initWithQueue:"
+- "initWithQueue:service:"
+- "initialize"
+- "integerValue"
+- "interBurstInterval"
+- "interPingInterval"
+- "interfaceIndex"
+- "internalDelegate"
+- "invalidateAndCancel"
+- "invalidateConnections"
+- "ip"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isValidIPv4PingResponsePacket:isForMe:sequence:isBadPacket:"
+- "isValidIPv6PingResponsePacket:isForMe:sequence:isBadPacket:"
+- "lastResult"
+- "length"
+- "loadCoreUtils"
+- "loadStringUtils"
+- "localizedDescription"
+- "localizedFailureReason"
+- "logLeveler"
+- "logger"
+- "metrics"
+- "mutableBytes"
+- "netDiagConnQueue"
+- "netDiagMsgQueue"
+- "netDiagNotificationConnection"
+- "netDiagNotificationListener"
+- "netDiagServiceConnection"
+- "numberWithInt:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "originalLogLevels"
+- "packetCaptureurTaskStatusChangedFor:toStatus:"
+- "payloadSize"
+- "percentComplete"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "periodicTimer"
+- "periodicTimerFired:"
+- "pingCount"
+- "pingDidFailToSendToAddress:packet:sequence:error:"
+- "pingDidReceivePingResponseFromAddress:packet:sequence:"
+- "pingDidReceiveUnexpectedPingResponseFromAddress:packet:sequence:"
+- "pingDidSendToAddress:packet:sequence:"
+- "pingRunLoop"
+- "pingRunLoopReady"
+- "pingThread"
+- "pingTimer"
+- "probeOutputFilePaths"
+- "queue"
+- "readData"
+- "release"
+- "requestEndDate"
+- "requestStartDate"
+- "resolv"
+- "resolveHostname:withCompletion:"
+- "respondsToSelector:"
+- "responseEndDate"
+- "responseStartDate"
+- "retain"
+- "retainCount"
+- "rls"
+- "runWithCompletionHandler:"
+- "runWithWorkingDir:completionHandler:"
+- "running"
+- "scutil"
+- "secureConnectionEndDate"
+- "secureConnectionStartDate"
+- "self"
+- "sendNotificationListener"
+- "sendPing"
+- "sendPingWithData:"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "setBurstCount:"
+- "setCurrentBurst:"
+- "setDelegate:"
+- "setDiagSessionUUID:"
+- "setFailedCount:"
+- "setHostAddressIsIPv6:"
+- "setHostName:"
+- "setInterBurstInterval:"
+- "setInterPingInterval:"
+- "setInterfaceIndex:"
+- "setIpAddress:"
+- "setObject:forKeyedSubscript:"
+- "setPayloadSize:"
+- "setPercentComplete:"
+- "setPeriodicTimer:"
+- "setPingCount:"
+- "setPingRunLoop:"
+- "setPingRunLoopReady:"
+- "setPingThread:"
+- "setPings:"
+- "setQueue:"
+- "setRequestCachePolicy:"
+- "setRls:"
+- "setRunning:"
+- "setStatus:"
+- "setSuccessCount:"
+- "setTimeoutIntervalForRequest:"
+- "setTimeoutIntervalForResource:"
+- "setUuid:"
+- "startICMPPingTestTo:hostName:interface:pingCount:interPingInterval:burstCount:interBurstInterval:timeout:stopTestOnFirstSuccess:"
+- "startPeriodicTimer"
+- "startPeriodicTimerAt:repeatInterval:"
+- "startPing:hostName:interface:pingCount:interPingInterval:burstCount:interBurstInterval:timeout:stopTestOnFirstSuccess:withCompletion:"
+- "startRunLoop"
+- "startTask:destination:withCompletion:"
+- "startThePinging"
+- "status"
+- "stopDataTransfer"
+- "stopPeriodicTimer"
+- "stopPingTestOnFirstSuccess"
+- "stopRunLoop"
+- "stopTask:withCompletion:"
+- "stopTest"
+- "stopTestOnFirstSuccess"
+- "stringWithCString:encoding:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "successCount"
+- "superclass"
+- "tcpProbedHosts"
+- "testProbeStatusString:"
+- "timeoutTimer"
+- "transactionMetrics"
+- "unsignedLongLongValue"
+- "urls"
+- "uuid"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v20@?0B8@\"NSArray\"12"
+- "v20@?0B8@\"NSDictionary\"12"
+- "v24@0:8@\"NSURLSession\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NetworkInfoResults\"@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8^{__CFRunLoop=}16"
+- "v24@0:8^{__CFRunLoopSource=}16"
+- "v24@0:8^{_opaque_pthread_t=q^{__darwin_pthread_handler_rec}[8176c]}16"
+- "v24@0:8d16"
+- "v28@0:8@\"NSString\"16i24"
+- "v28@0:8@16i24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@16@24I32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLSessionTaskMetrics\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@?<v@?@\"NSInputStream\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@16@24I32@36"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLAuthenticationChallenge\"32@?<v@?q@\"NSURLCredential\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?q@\"NSURLRequest\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32@?<v@?@\"NSInputStream\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24q32@?40"
+- "v4Results"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32@\"NSURLRequest\"40@?<v@?@\"NSURLRequest\">48"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32q40q48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24q32q40q48"
+- "v6Results"
+- "v80@0:8@16@24I32q36d44q52d60d68B76"
+- "v88@0:8@16@24I32q36d44q52d60d68B76@?80"
+- "workingDir"
+- "xpcServiceName"
+- "zone"
+
+```

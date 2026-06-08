@@ -1,0 +1,277 @@
+## TextInput_vi
+
+> `/System/Library/TextInput/TextInput_vi.bundle/TextInput_vi`
+
+```diff
+
+-3532.5.3.100.0
+-  __TEXT.__text: 0x3ff4
+-  __TEXT.__auth_stubs: 0x600
++3557.12.1.0.0
++  __TEXT.__text: 0x4074
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x250
+-  __TEXT.__cstring: 0x173
++  __TEXT.__cstring: 0x2fd
+   __TEXT.__const: 0x10
+-  __TEXT.__unwind_info: 0x98
+-  __TEXT.__objc_classname: 0x90
+-  __TEXT.__objc_methname: 0x7d4
+-  __TEXT.__objc_methtype: 0xfe
+-  __TEXT.__objc_stubs: 0x780
+-  __DATA_CONST.__got: 0x70
++  __TEXT.__unwind_info: 0x2b0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x48
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x288
++  __DATA_CONST.__objc_selrefs: 0x290
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x308
+-  __AUTH_CONST.__const: 0x310
++  __DATA_CONST.__got: 0x70
++  __AUTH_CONST.__const: 0x368
+   __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0x348
++  __AUTH_CONST.__weak_auth_got: 0x20
++  __AUTH_CONST.__auth_got: 0x310
+   __AUTH.__objc_data: 0x140
+   __DATA.__objc_ivar: 0xc
+   __DATA.__data: 0x90
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/LanguageModeling.framework/LanguageModeling
++  - /System/Library/PrivateFrameworks/LinguisticData.framework/LinguisticData
+   - /System/Library/PrivateFrameworks/TextInput.framework/TextInput
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0443E3B1-CEF8-3BA8-A5F5-48BAF51B27BC
+-  Functions: 150
+-  Symbols:   551
+-  CStrings:  147
++  UUID: B2C867C9-D127-30B0-99CA-6F1C80E7EC03
++  Functions: 159
++  Symbols:   578
++  CStrings:  35
+ 
+Symbols:
++ __ZN17TIInputManager_vi28configure_candidate_refineryENSt3__110shared_ptrIN2KB17CandidateRefineryEEE
++ __ZN2KB6StringaSERKS0_
++ __ZNK17TIInputManager_vi48should_exclude_filter_number_like_token_mismatchEv
++ __ZNK2KB9Candidate14compute_stringEv
++ __ZNKSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEE7__cloneEPNS0_6__baseISE_EE
++ __ZNKSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B9fon220100ERKS7_
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B9fon220100Ev
++ __ZNSt3__110__function12__value_funcIFvRNS_6vectorIN2KB9CandidateENS_9allocatorIS4_EEEEEED2B9fon220100Ev
++ __ZNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEED0Ev
++ __ZNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEED1Ev
++ __ZNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEEclESD_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEE22__deallocate_node_listB9fon220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev.cold.1
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fon220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fon220100Em
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB9fon220100Ev
++ __ZNSt3__119__allocate_at_leastB9fon220100INS_9allocatorIN2KB10FilterFlagEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fon220100INS_9allocatorIN2KB6StringEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fon220100INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fon220100Ev
++ __ZNSt3__122__libcpp_verbose_abortEPKcz
++ __ZNSt3__127__throw_bad_optional_accessB9fon220100Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEEEENS_9allocatorIS6_EEE14__tree_deleterclB9fon220100EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB9fon220100Em
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE20__throw_length_errorB9fon220100Ev
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEEC2B9fon220100ERKS5_
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE11__vallocateB9fon220100Em
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB9fon220100Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__init_with_sizeB9fon220100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE20__throw_length_errorB9fon220100Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B9fon220100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9fon220100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9fon220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9fon220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9fon220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRKS4_EEEPS4_DpOT_
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE5clearB9fon220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE9push_backB9fon220100ERKS4_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fon220100Ev
++ __ZNSt3__19remove_ifB9fon220100INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
++ __ZSt28__throw_bad_array_new_lengthB9fon220100v
++ __ZTVNSt3__110__function6__funcIZN17TIInputManager_vi28configure_candidate_refineryENS_10shared_ptrIN2KB17CandidateRefineryEEEE3$_0FvRNS_6vectorINS4_9CandidateENS_9allocatorIS9_EEEEEEE
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$invertedSet
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
+- __ZNK17TIInputManager_vi27vni_filter_pre_lookup_inputERKN2KB6StringE
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B9nqn210106ERKS7_
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B9nqn210106Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqn210106ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB9nqn210106Ev
+- __ZNSt3__119__allocate_at_leastB9nqn210106INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqn210106INS_9allocatorIN2KB6StringEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqn210106INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqn210106Ev
+- __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB9nqn210106Em
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEEC2B9nqn210106ERKS5_
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE11__vallocateB9nqn210106Em
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB9nqn210106Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__init_with_sizeB9nqn210106IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B9nqn210106Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqn210106Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9nqn210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqn210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE5clearB9nqn210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE9push_backB9nqn210106ERKS4_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqn210106Ev
+- __ZNSt3__19remove_ifB9nqn210106INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZSt28__throw_bad_array_new_lengthB9nqn210106v
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x28
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CQOjugCVxxoBLlkkF1gRI3o0c5FqldVQqw2WJyU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1156: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "bad_optional_access was thrown in -fno-exceptions mode"
+- ".cxx_destruct"
+- "@\"NSNumber\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8^Q16"
+- "@28@0:8@16B24"
+- "@32@0:8@16@24"
+- "@32@0:8@16B24B28"
+- "@52@0:8@16I24{CGPoint=dd}28^Q44"
+- "B"
+- "B16@0:8"
+- "B20@0:8S16"
+- "I16@0:8"
+- "Q24@0:8@16"
+- "T@\"NSCharacterSet\",R"
+- "TI,R,N"
+- "TIKeyboardFeatureSpecialization_vi"
+- "TIKeyboardInputManager_vi"
+- "TIKeyboardInputManager_vi_VIQR"
+- "TIKeyboardInputManager_vi_VNI"
+- "TI_vietnameseBaseCharacterSet"
+- "TI_vietnameseTelexSpecialsCharacterSet"
+- "TI_vietnameseVIQRSpecialsCharacterSet"
+- "TI_vietnameseVNISpecialsCharacterSet"
+- "UTF8String"
+- "VietnameseAdditions"
+- "^^v"
+- "^^v16@0:8"
+- "^v16@0:8"
+- "acceptInput"
+- "addCharactersInString:"
+- "addInput:flags:point:firstDelete:"
+- "allowsAutocorrectionForCurrentInputString"
+- "appendString:"
+- "autocorrectionEnabled"
+- "boolForPreferenceKey:"
+- "canHandleCharacter:"
+- "characterAtIndex:"
+- "characterIsMember:"
+- "characterSetWithCharactersInString:"
+- "choseSecondary"
+- "cleanupUnikey"
+- "compositionDisabled"
+- "config"
+- "copy"
+- "createTransliterator"
+- "dealloc"
+- "decomposeString:"
+- "deleteFromInput:"
+- "deleteLengthForString:"
+- "doesComposeText"
+- "dynamicResourcePath"
+- "emphasizesAlternativeInput"
+- "externalStringToInternal:"
+- "externalStringToInternal:ignoreCompositionDisabled:useReverseMap:"
+- "getCharacters:"
+- "getCharacters:range:"
+- "i16@0:8"
+- "initImplementation"
+- "initWithBaseCharacterSet:"
+- "initWithConfig:keyboardState:"
+- "inputIndex"
+- "inputMode"
+- "inputTypeSupportsDecomposition"
+- "internalStringToExternal:"
+- "internalStringToExternal:ignoreCompositionDisabled:"
+- "isEqualToString:"
+- "isUsingMultilingual"
+- "isUsingMultiscript"
+- "keyboardState"
+- "length"
+- "letterCharacterSet"
+- "lexiconID"
+- "locale"
+- "localeIdentifier"
+- "m_lexiconID"
+- "m_transliterator"
+- "m_useInternalIndex"
+- "numberWithUnsignedInt:"
+- "pathForResource:ofType:"
+- "q16@0:8"
+- "rangeOfCharacterFromSet:"
+- "rangeOfComposedCharacterSequenceAtIndex:"
+- "replaceCharactersInRange:withString:"
+- "setChoseSecondary:"
+- "setCompositionDisabled:"
+- "setInput:withIndex:"
+- "setInputIndex:"
+- "setString:"
+- "setupUnikey"
+- "sharedPreferencesController"
+- "shouldConvertCandidateToExternal"
+- "shouldDynamicallySwitchBetweenPrimaryAndSecondary"
+- "stringWithCapacity:"
+- "stringWithCharacters:length:"
+- "stringWithContentsOfFile:encoding:error:"
+- "stringWithUTF8String:"
+- "substringToIndex:"
+- "substringWithRange:"
+- "suffixOfDesiredString:toAppendToInputString:withInputIndex:afterDeletionCount:"
+- "supportedReasonsForInputMethodChoiceFreeze"
+- "transliteratorID"
+- "unsignedIntValue"
+- "updateChoseSecondaryOnBackspaceIntoWord"
+- "updateUnikeyWithVietnameseType:"
+- "usesContinuousPathRetrocorrection"
+- "usesRetrocorrection"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v28@0:8@16I24"
+- "vietnameseType"
+- "wordCharacters"
+
+```

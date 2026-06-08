@@ -1,0 +1,3142 @@
+## ScreenSharingKit
+
+> `/System/Library/PrivateFrameworks/ScreenSharingKit.framework/ScreenSharingKit`
+
+```diff
+
+-98.5.0.0.0
+-  __TEXT.__text: 0x194724
+-  __TEXT.__auth_stubs: 0x29d0
+-  __TEXT.__objc_methlist: 0xe5c
+-  __TEXT.__const: 0x15204
+-  __TEXT.__constg_swiftt: 0x750c
+-  __TEXT.__swift5_typeref: 0x6328
+-  __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_reflstr: 0x6575
+-  __TEXT.__swift5_fieldmd: 0x5814
+-  __TEXT.__swift5_assocty: 0x608
+-  __TEXT.__oslogstring: 0x9cb5
+-  __TEXT.__swift5_proto: 0xe94
+-  __TEXT.__swift5_types: 0x600
+-  __TEXT.__swift5_capture: 0x1644
+-  __TEXT.__cstring: 0x5495
+-  __TEXT.__swift_as_entry: 0x568
+-  __TEXT.__swift_as_ret: 0x6bc
+-  __TEXT.__swift5_protos: 0x104
+-  __TEXT.__swift5_mpenum: 0xe4
+-  __TEXT.__unwind_info: 0x62a8
+-  __TEXT.__eh_frame: 0xef94
+-  __TEXT.__objc_classname: 0x1f00
+-  __TEXT.__objc_methname: 0x5d23
+-  __TEXT.__objc_methtype: 0x18c4
+-  __TEXT.__objc_stubs: 0x23e0
+-  __DATA_CONST.__got: 0x948
++114.38.11.1.0
++  __TEXT.__text: 0x25ec30
++  __TEXT.__objc_methlist: 0xf64
++  __TEXT.__const: 0x19724
++  __TEXT.__constg_swiftt: 0x88f0
++  __TEXT.__swift5_typeref: 0x794c
++  __TEXT.__swift5_reflstr: 0x8e95
++  __TEXT.__swift5_fieldmd: 0x70f4
++  __TEXT.__swift5_builtin: 0x294
++  __TEXT.__swift5_assocty: 0x798
++  __TEXT.__swift5_capture: 0x3c9c
++  __TEXT.__oslogstring: 0xb955
++  __TEXT.__cstring: 0x8f55
++  __TEXT.__swift5_proto: 0x10a8
++  __TEXT.__swift5_types: 0x6f8
++  __TEXT.__swift_as_entry: 0x9cc
++  __TEXT.__swift_as_ret: 0xa64
++  __TEXT.__swift_as_cont: 0x18c8
++  __TEXT.__swift5_protos: 0x14c
++  __TEXT.__swift5_mpenum: 0x1a0
++  __TEXT.__unwind_info: 0x8e50
++  __TEXT.__eh_frame: 0x17f40
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x2e8
+-  __DATA_CONST.__objc_classlist: 0x388
+-  __DATA_CONST.__objc_protolist: 0x188
++  __DATA_CONST.__objc_classlist: 0x448
++  __DATA_CONST.__objc_protolist: 0x1a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd88
+-  __DATA_CONST.__objc_protorefs: 0xc8
+-  __AUTH_CONST.__auth_got: 0x14f0
+-  __AUTH_CONST.__const: 0xbbe0
+-  __AUTH_CONST.__objc_const: 0x8220
+-  __AUTH.__objc_data: 0x2648
+-  __AUTH.__data: 0x6f18
+-  __DATA.__data: 0x4bb0
+-  __DATA.__bss: 0x1a1b0
+-  __DATA.__common: 0x210
++  __DATA_CONST.__objc_selrefs: 0xe08
++  __DATA_CONST.__objc_protorefs: 0xd8
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x109f0
++  __AUTH_CONST.__objc_const: 0xab20
++  __AUTH_CONST.__auth_got: 0x1838
++  __AUTH.__objc_data: 0x2b40
++  __AUTH.__data: 0x8c18
++  __DATA.__data: 0x57e8
++  __DATA.__bss: 0x1d778
++  __DATA.__common: 0x278
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityPlatformTranslation.framework/AccessibilityPlatformTranslation
+   - /System/Library/PrivateFrameworks/AccessibilityUI.framework/AccessibilityUI
++  - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
++  - /System/Library/PrivateFrameworks/AutoUnlock.framework/AutoUnlock
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
+
+   - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
++  - /System/Library/PrivateFrameworks/MediaContinuityKit.framework/MediaContinuityKit
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 95E399F6-044A-329E-BC07-6B0D2BAF539C
+-  Functions: 7345
+-  Symbols:   3819
+-  CStrings:  2293
++  UUID: 266B24A4-560B-37B0-9537-9E78E67D48BF
++  Functions: 9642
++  Symbols:   5696
++  CStrings:  1547
+ 
+Symbols:
++ _NSUserDefaultsDidChangeNotification
++ _OBJC_CLASS_$_RPRemoteDisplayDevice
++ _OBJC_CLASS_$__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ _OBJC_METACLASS_$__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ __DATA__TtC16ScreenSharingKit10AsyncQueue
++ __DATA__TtC16ScreenSharingKit12PriorityPump
++ __DATA__TtC16ScreenSharingKit13AssertionBank
++ __DATA__TtC16ScreenSharingKit20MediaTransportServer
++ __DATA__TtC16ScreenSharingKit20ServerSessionManager
++ __DATA__TtC16ScreenSharingKit21ScreenContinuityAngel
++ __DATA__TtC16ScreenSharingKit22MirroringSessionVendor
++ __DATA__TtC16ScreenSharingKit25MCKBackedContinuityServer
++ __DATA__TtC16ScreenSharingKit25MCKContinuityServerVendor
++ __DATA__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ __DATA__TtC16ScreenSharingKit26ContinuityMirroringSession
++ __DATA__TtC16ScreenSharingKit26MediaTransportStreamServer
++ __DATA__TtC16ScreenSharingKit27MockContinuityClientSession
++ __DATA__TtC16ScreenSharingKit30MediaTransportServerAndSession
++ __DATA__TtC16ScreenSharingKit31MockDeviceRestrictionPrimitives
++ __DATA__TtC16ScreenSharingKit32MCKBackedContinuityClientSession
++ __DATA__TtC16ScreenSharingKit32MCKBackedContinuityServerSession
++ __DATA__TtC16ScreenSharingKit33MockContinuityClientSessionVendor
++ __DATA__TtC16ScreenSharingKit35TimeBombedSessionReceivedReplyToken
++ __DATA__TtC16ScreenSharingKit36MediaTransportContinuityServerVendor
++ __DATA__TtC16ScreenSharingKit38AWDLBackedWiFiTrafficReservationVendor
++ __DATA__TtC16ScreenSharingKit38MCKControlStreamBackedControlTransport
++ __DATA__TtC16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitives
++ __DATA__TtC16ScreenSharingKit38SceneInteractorBackedContinuitySession
++ __DATA__TtC16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservation
++ __DATA__TtC16ScreenSharingKit39SceneInteractorWrappingContinuityServer
++ __DATA__TtC16ScreenSharingKit42RapportBackedContinuityClientSessionVendor
++ __DATA__TtC16ScreenSharingKit42ServerPolicyInputsBackedPolicyEngineVendor
++ __DATA__TtC16ScreenSharingKit43MediaTransportBackedContinuityClientSession
++ __DATA__TtC16ScreenSharingKit9AsyncGate
++ __DATA__TtCC16ScreenSharingKit10AsyncQueueP33_189F7B510C6B03DDFD89A0E7E9CF509D7Nucleus
++ __INSTANCE_METHODS__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ __IVARS__TtC16ScreenSharingKit10AsyncQueue
++ __IVARS__TtC16ScreenSharingKit12PriorityPump
++ __IVARS__TtC16ScreenSharingKit13AssertionBank
++ __IVARS__TtC16ScreenSharingKit20MediaTransportServer
++ __IVARS__TtC16ScreenSharingKit20ServerSessionManager
++ __IVARS__TtC16ScreenSharingKit21ScreenContinuityAngel
++ __IVARS__TtC16ScreenSharingKit22MirroringSessionVendor
++ __IVARS__TtC16ScreenSharingKit25MCKBackedContinuityServer
++ __IVARS__TtC16ScreenSharingKit25MCKContinuityServerVendor
++ __IVARS__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ __IVARS__TtC16ScreenSharingKit26ContinuityMirroringSession
++ __IVARS__TtC16ScreenSharingKit26MediaTransportStreamServer
++ __IVARS__TtC16ScreenSharingKit27MockContinuityClientSession
++ __IVARS__TtC16ScreenSharingKit30MediaTransportServerAndSession
++ __IVARS__TtC16ScreenSharingKit31MockDeviceRestrictionPrimitives
++ __IVARS__TtC16ScreenSharingKit32MCKBackedContinuityClientSession
++ __IVARS__TtC16ScreenSharingKit32MCKBackedContinuityServerSession
++ __IVARS__TtC16ScreenSharingKit33MockContinuityClientSessionVendor
++ __IVARS__TtC16ScreenSharingKit35TimeBombedSessionReceivedReplyToken
++ __IVARS__TtC16ScreenSharingKit36MediaTransportContinuityServerVendor
++ __IVARS__TtC16ScreenSharingKit38MCKControlStreamBackedControlTransport
++ __IVARS__TtC16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitives
++ __IVARS__TtC16ScreenSharingKit38SceneInteractorBackedContinuitySession
++ __IVARS__TtC16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservation
++ __IVARS__TtC16ScreenSharingKit39SceneInteractorWrappingContinuityServer
++ __IVARS__TtC16ScreenSharingKit42RapportBackedContinuityClientSessionVendor
++ __IVARS__TtC16ScreenSharingKit42ServerPolicyInputsBackedPolicyEngineVendor
++ __IVARS__TtC16ScreenSharingKit43MediaTransportBackedContinuityClientSession
++ __IVARS__TtC16ScreenSharingKit9AsyncGate
++ __IVARS__TtCC16ScreenSharingKit10AsyncQueueP33_189F7B510C6B03DDFD89A0E7E9CF509D7Nucleus
++ __METACLASS_DATA__TtC16ScreenSharingKit10AsyncQueue
++ __METACLASS_DATA__TtC16ScreenSharingKit12PriorityPump
++ __METACLASS_DATA__TtC16ScreenSharingKit13AssertionBank
++ __METACLASS_DATA__TtC16ScreenSharingKit20MediaTransportServer
++ __METACLASS_DATA__TtC16ScreenSharingKit20ServerSessionManager
++ __METACLASS_DATA__TtC16ScreenSharingKit21ScreenContinuityAngel
++ __METACLASS_DATA__TtC16ScreenSharingKit22MirroringSessionVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit25MCKBackedContinuityServer
++ __METACLASS_DATA__TtC16ScreenSharingKit25MCKContinuityServerVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit25SendOnceTelemetryProvider
++ __METACLASS_DATA__TtC16ScreenSharingKit26ContinuityMirroringSession
++ __METACLASS_DATA__TtC16ScreenSharingKit26MediaTransportStreamServer
++ __METACLASS_DATA__TtC16ScreenSharingKit27MockContinuityClientSession
++ __METACLASS_DATA__TtC16ScreenSharingKit30MediaTransportServerAndSession
++ __METACLASS_DATA__TtC16ScreenSharingKit31MockDeviceRestrictionPrimitives
++ __METACLASS_DATA__TtC16ScreenSharingKit32MCKBackedContinuityClientSession
++ __METACLASS_DATA__TtC16ScreenSharingKit32MCKBackedContinuityServerSession
++ __METACLASS_DATA__TtC16ScreenSharingKit33MockContinuityClientSessionVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit35TimeBombedSessionReceivedReplyToken
++ __METACLASS_DATA__TtC16ScreenSharingKit36MediaTransportContinuityServerVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit38AWDLBackedWiFiTrafficReservationVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit38MCKControlStreamBackedControlTransport
++ __METACLASS_DATA__TtC16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitives
++ __METACLASS_DATA__TtC16ScreenSharingKit38SceneInteractorBackedContinuitySession
++ __METACLASS_DATA__TtC16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservation
++ __METACLASS_DATA__TtC16ScreenSharingKit39SceneInteractorWrappingContinuityServer
++ __METACLASS_DATA__TtC16ScreenSharingKit42RapportBackedContinuityClientSessionVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit42ServerPolicyInputsBackedPolicyEngineVendor
++ __METACLASS_DATA__TtC16ScreenSharingKit43MediaTransportBackedContinuityClientSession
++ __METACLASS_DATA__TtC16ScreenSharingKit9AsyncGate
++ __METACLASS_DATA__TtCC16ScreenSharingKit10AsyncQueueP33_189F7B510C6B03DDFD89A0E7E9CF509D7Nucleus
++ __OBJC_$_PROP_LIST_RPMessageable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RPMessageable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RPMessageable
++ __OBJC_$_PROTOCOL_REFS_OS_xpc_object
++ __OBJC_LABEL_PROTOCOL_$_OS_xpc_object
++ __OBJC_LABEL_PROTOCOL_$_RPMessageable
++ __OBJC_PROTOCOL_$_OS_xpc_object
++ __OBJC_PROTOCOL_$_RPMessageable
++ ___swift__destructor
++ ___swift__destructor.108
++ ___swift__destructor.109
++ ___swift__destructor.110
++ ___swift__destructor.122
++ ___swift__destructor.124
++ ___swift__destructor.13
++ ___swift__destructor.136
++ ___swift__destructor.16
++ ___swift__destructor.197
++ ___swift__destructor.201
++ ___swift__destructor.208
++ ___swift__destructor.21
++ ___swift__destructor.274
++ ___swift__destructor.28
++ ___swift__destructor.30
++ ___swift__destructor.310
++ ___swift__destructor.321
++ ___swift__destructor.34
++ ___swift__destructor.35
++ ___swift__destructor.37
++ ___swift__destructor.39
++ ___swift__destructor.47
++ ___swift__destructor.58
++ ___swift__destructor.61
++ ___swift__destructor.66
++ ___swift__destructor.69
++ ___swift__destructor.70
++ ___swift__destructor.71
++ ___swift__destructor.74
++ ___swift__destructor.82
++ ___swift__destructor.84
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.109Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.115Tm
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.131Tm
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.161Tm
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.238Tm
++ ___swift_closure_destructor.239
++ ___swift_closure_destructor.23Tm
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.262
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.26Tm
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.272
++ ___swift_closure_destructor.276
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.283
++ ___swift_closure_destructor.284
++ ___swift_closure_destructor.288
++ ___swift_closure_destructor.289
++ ___swift_closure_destructor.28Tm
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.297
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.304
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.313
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.324
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.337
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.38Tm
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.43Tm
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.44Tm
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.60Tm
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.62Tm
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.70Tm
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.75Tm
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.77Tm
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.79Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.81Tm
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.83Tm
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.87Tm
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.88Tm
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.90Tm
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.99
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.122
++ ___swift_exist.box.addr_destructor.143
++ ___swift_exist.box.addr_destructor.167
++ ___swift_exist.box.addr_destructor.170
++ ___swift_exist.box.addr_destructor.182
++ ___swift_exist.box.addr_destructor.222
++ ___swift_exist.box.addr_destructor.237
++ ___swift_exist.box.addr_destructor.3
++ ___swift_exist.box.addr_destructor.71
++ ___swift_exist.box.addr_destructor.80
++ ___swift_memcpy145_8
++ ___swift_memcpy4_4
++ ___swift_memcpy50_8
++ ___swift_memcpy97_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_ScreenSharingKit
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_ScreenSharingKit
++ __swift_implicitisolationactor_to_executor_cast
++ _abort
++ _associated conformance 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkVs12IdentifiableAA2IDsAIP_SH
++ _associated conformance 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLOSHAASQ
++ _associated conformance 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit11ServerErrorO26SessionPreemptedCodingKeys33_D0993B040B0A9CAA744FC5D139F6677FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit11ServerErrorO26SessionPreemptedCodingKeys33_D0993B040B0A9CAA744FC5D139F6677FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit13AssertionBankC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOSHAASQ
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOSHAASQ
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO23ControlCenterCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO23ControlCenterCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOSHAASQ
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOSHAASQ
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16ScreenSharingKit19NegotiationDataTypeOSHAASQ
++ _associated conformance 16ScreenSharingKit20MediaTransportServerC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit20ServerSessionManagerC18InvalidationReasonOSHAASQ
++ _associated conformance 16ScreenSharingKit22ContinuitySessionStateOSHAASQ
++ _associated conformance 16ScreenSharingKit24XPCEventBackedReplyTokenVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16ScreenSharingKit25MCKBackedContinuityServerC5StateOSHAASQ
++ _associated conformance 16ScreenSharingKit25MCKBackedContinuityServerC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit26ContinuityMirroringSessionC0deF5ErrorOSHAASQ
++ _associated conformance 16ScreenSharingKit26MediaTransportStreamServerC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit27MediaTransportServerSessionC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit27MediaTransportServerSessionCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16ScreenSharingKit32MCKBackedContinuityClientSessionC5StateOSHAASQ
++ _associated conformance 16ScreenSharingKit32MCKBackedContinuityClientSessionC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit32MCKBackedContinuityServerSessionC5StateOSHAASQ
++ _associated conformance 16ScreenSharingKit32MCKBackedContinuityServerSessionC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit32MCKBackedContinuityServerSessionCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16ScreenSharingKit32MediaTransportNegotiationMessageV6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit35MediaTransportServerAndSessionErrorOSHAASQ
++ _associated conformance 16ScreenSharingKit35TimeBombedSessionReceivedReplyTokenCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16ScreenSharingKit38MCKControlStreamBackedControlTransportC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit38SceneInteractorBackedContinuitySessionC6ErrorsOSHAASQ
++ _associated conformance 16ScreenSharingKit38SceneInteractorBackedContinuitySessionCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservationC5State33_A93FC2E2BF5C691D526D82981F188922LLOSHAASQ
++ _associated conformance 16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservationC6Errors33_A93FC2E2BF5C691D526D82981F188922LLOSHAASQ
++ _associated conformance 16ScreenSharingKit42RapportBackedContinuityClientSessionVendorC12VendingErrorOSHAASQ
++ _associated conformance 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC6ErrorsOSHAASQ
++ _associated conformance So30AWDLTrafficRegistrationServiceaSHSCSQ
++ _associated conformance So30AWDLTrafficRegistrationServiceas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So30AWDLTrafficRegistrationServiceas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.101
++ _block_copy_helper.11
++ _block_copy_helper.110
++ _block_copy_helper.114
++ _block_copy_helper.118
++ _block_copy_helper.12
++ _block_copy_helper.126
++ _block_copy_helper.130
++ _block_copy_helper.136
++ _block_copy_helper.140
++ _block_copy_helper.144
++ _block_copy_helper.149
++ _block_copy_helper.169
++ _block_copy_helper.18
++ _block_copy_helper.181
++ _block_copy_helper.189
++ _block_copy_helper.191
++ _block_copy_helper.193
++ _block_copy_helper.197
++ _block_copy_helper.199
++ _block_copy_helper.20
++ _block_copy_helper.234
++ _block_copy_helper.30
++ _block_copy_helper.31
++ _block_copy_helper.39
++ _block_copy_helper.4
++ _block_copy_helper.42
++ _block_copy_helper.43
++ _block_copy_helper.44
++ _block_copy_helper.46
++ _block_copy_helper.50
++ _block_copy_helper.62
++ _block_copy_helper.64
++ _block_copy_helper.70
++ _block_copy_helper.76
++ _block_copy_helper.78
++ _block_copy_helper.79
++ _block_copy_helper.83
++ _block_copy_helper.87
++ _block_copy_helper.89
++ _block_copy_helper.97
++ _block_descriptor.103
++ _block_descriptor.112
++ _block_descriptor.116
++ _block_descriptor.120
++ _block_descriptor.128
++ _block_descriptor.13
++ _block_descriptor.132
++ _block_descriptor.138
++ _block_descriptor.14
++ _block_descriptor.142
++ _block_descriptor.146
++ _block_descriptor.151
++ _block_descriptor.171
++ _block_descriptor.183
++ _block_descriptor.191
++ _block_descriptor.193
++ _block_descriptor.195
++ _block_descriptor.199
++ _block_descriptor.20
++ _block_descriptor.201
++ _block_descriptor.22
++ _block_descriptor.236
++ _block_descriptor.32
++ _block_descriptor.33
++ _block_descriptor.41
++ _block_descriptor.44
++ _block_descriptor.45
++ _block_descriptor.46
++ _block_descriptor.48
++ _block_descriptor.52
++ _block_descriptor.6
++ _block_descriptor.64
++ _block_descriptor.66
++ _block_descriptor.72
++ _block_descriptor.78
++ _block_descriptor.80
++ _block_descriptor.81
++ _block_descriptor.85
++ _block_descriptor.89
++ _block_descriptor.91
++ _block_descriptor.99
++ _block_destroy_helper.102
++ _block_destroy_helper.111
++ _block_destroy_helper.115
++ _block_destroy_helper.119
++ _block_destroy_helper.12
++ _block_destroy_helper.127
++ _block_destroy_helper.13
++ _block_destroy_helper.131
++ _block_destroy_helper.137
++ _block_destroy_helper.141
++ _block_destroy_helper.145
++ _block_destroy_helper.150
++ _block_destroy_helper.170
++ _block_destroy_helper.182
++ _block_destroy_helper.19
++ _block_destroy_helper.190
++ _block_destroy_helper.192
++ _block_destroy_helper.194
++ _block_destroy_helper.198
++ _block_destroy_helper.200
++ _block_destroy_helper.21
++ _block_destroy_helper.235
++ _block_destroy_helper.31
++ _block_destroy_helper.32
++ _block_destroy_helper.40
++ _block_destroy_helper.43
++ _block_destroy_helper.44
++ _block_destroy_helper.45
++ _block_destroy_helper.47
++ _block_destroy_helper.5
++ _block_destroy_helper.51
++ _block_destroy_helper.63
++ _block_destroy_helper.65
++ _block_destroy_helper.71
++ _block_destroy_helper.77
++ _block_destroy_helper.79
++ _block_destroy_helper.80
++ _block_destroy_helper.84
++ _block_destroy_helper.88
++ _block_destroy_helper.90
++ _block_destroy_helper.98
++ _flat unique 16ScreenSharingKit15ThrowingVending_px10VendedTypeAaBPRts_XP
++ _flat unique 16ScreenSharingKit16VendingWithInput_px0F4TypeAaBPRts_q_06VendedG0ADRtsXP
++ _flat unique 16ScreenSharingKit25MainActorVendingWithInput_px0H4TypeAaBPRts_q_06VendedI0ADRtsXP
++ _flat unique So13OS_xpc_object_p
++ _flat unique So13RPMessageable_p
++ _get_enum_tag_for_layout_string 16ScreenSharingKit21MirroringSessionStateO
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVy16ScreenSharingKit16SingleCircleViewVGAA12_FrameLayoutVGAA0K0HPAiaMHPyHC_AkA0K8ModifierHPyHCHC.19
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE19allowsSecureDrawingQryFQOyAA6ZStackVyAA05TupleD0Vy16ScreenSharingKit07StrokesE0V_AK07RipplesE0VQPGG_Qo_AA16_FlexFrameLayoutVGAA017_SafeAreaIgnoringR0VGAaDHPAuaDHPqd__AaDHD2_ARHO_AtA0E8ModifierHPyHCHC_AwaYHPyHCHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA14GeometryReaderVyAA7ForEachVySay16ScreenSharingKit17IdentifiablePointVG10Foundation4UUIDVACyAH16CircleRippleViewVAA15_PositionLayoutVGGGAH024AnnotationBackdropEffectR8ModifierVGAA010_FlexFrameT0VGAA017_SafeAreaIgnoringT0VGAA0R0HPA_AAA3_HPAxAA3_HPAuAA3_HPyHC_AwA0rX0HPyHCHC_AzAA4_HPyHCHC_A1_AAA4_HPyHCHC.9
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyAA13_StrokedShapeVyAA6CircleVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA12_ScaleEffectVGAA010_AnimationJ0VySdGGAA08_OpacityM0VGATGAA05_BlurM0VGAA12_FrameLayoutVGAA017_AppearanceActionJ0VGAA4ViewHPA3_AAA7_HPA0_AAA7_HPAyAA7_HPAxAA7_HPAuAA7_HPAqAA7_HPAnAA7_HPAhAA7_HPyHC_AmA0uJ0HPyHCHC_ApAA8_HPyHCHC_AtAA8_HPyHCHC_AwAA8_HPyHCHC_AtAA8_HPyHCHC_A_AAA8_HPyHCHC_A2_AAA8_HPyHCHC_A5_AAA8_HPyHCHC.23
++ _keypath_get.20Tm
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$pointScale
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setContentsRect:
++ _objc_msgSend$setCornerRadiusForResizing:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setName:
++ _objc_msgSend$setStreamPrepareHandlerEx:
++ _objc_msgSend$sublayers
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$updatePreferredSize:toggleToOriginalSize:
++ _objc_retain_x1
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_conformsToProtocol2
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_getExistentialTypeMetadata
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_addPriorityEscalationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _swift_task_removePriorityEscalationHandler
++ _swift_unknownObjectRelease_n
++ _swift_willThrowTypedImpl
++ _symbolic $s16ScreenSharingKit10ReplyTokenP
++ _symbolic $s16ScreenSharingKit15ThrowingVendingP
++ _symbolic $s16ScreenSharingKit16ContinuityServerP
++ _symbolic $s16ScreenSharingKit16MirroringSessionP
++ _symbolic $s16ScreenSharingKit16RuntimeAssertionP
++ _symbolic $s16ScreenSharingKit21AsyncVendingWithInputP
++ _symbolic $s16ScreenSharingKit21CanvasSizesPrimitivesP
++ _symbolic $s16ScreenSharingKit22WiFiTrafficReservationP
++ _symbolic $s16ScreenSharingKit23ContinuityClientSessionP
++ _symbolic $s16ScreenSharingKit23ContinuityServerSessionP
++ _symbolic $s16ScreenSharingKit25MainActorVendingWithInputP
++ _symbolic $s16ScreenSharingKit26MediaTransportStreamServerC8DelegateP
++ _symbolic $s16ScreenSharingKit27MediaTransportServerSessionC0F6HandleP
++ _symbolic $s16ScreenSharingKit28DisplayInformationPrimitivesP
++ _symbolic $s16ScreenSharingKit29ContinuityClientSessionVendorP
++ _symbolic $s16ScreenSharingKit31MediaTransportContinuitySessionP
++ _symbolic $s16ScreenSharingKit34TransportProvidingContinuityServerP
++ _symbolic $s16ScreenSharingKit37SceneAcceptingContinuityServerSessionP
++ _symbolic $s16ScreenSharingKit41TransportProvidingContinuityServerSessionP
++ _symbolic $s16ScreenSharingKit52LiveActivityDelegateProvidingContinuityServerSessionP
++ _symbolic $s16ScreenSharingKit7AnyTaskP
++ _symbolic 10VendedType_____Qyd__ 16ScreenSharingKit15ThrowingVendingP
++ _symbolic 10VendedType_____Qyd__ 16ScreenSharingKit16VendingWithInputP
++ _symbolic 10VendedType_____Qyd__ 16ScreenSharingKit25MainActorVendingWithInputP
++ _symbolic 9InputType_____Qyd__ 16ScreenSharingKit16VendingWithInputP
++ _symbolic 9InputType_____Qyd__ 16ScreenSharingKit25MainActorVendingWithInputP
++ _symbolic SDySo22RPRemoteDisplaySessionC_____G 16ScreenSharingKit27MediaTransportServerSessionC
++ _symbolic SDy___________pG 10Foundation4UUIDV 16ScreenSharingKit16RuntimeAssertionP
++ _symbolic SH_p
++ _symbolic SO
++ _symbolic SS3key_yp5valuetSg
++ _symbolic SS______Sg11canvasSizest 16ScreenSharingKit11CanvasSizesV
++ _symbolic SS_yptSg
++ _symbolic SayScPG
++ _symbolic SayScTyyt______pGG s5ErrorP
++ _symbolic Say_____G 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic Say______pG 16ScreenSharingKit10ReplyTokenP
++ _symbolic ScCySo21RPRemoteDisplayDeviceC______pG s5ErrorP
++ _symbolic ScCySo21RPRemoteDisplayDeviceC______pGSg s5ErrorP
++ _symbolic ScCy______p______pG 16ScreenSharingKit16ControlTransportP s5ErrorP
++ _symbolic ScCy______p______pGSg 16ScreenSharingKit16ControlTransportP s5ErrorP
++ _symbolic ScSySSG
++ _symbolic ScSyScPG
++ _symbolic ScSy_____G 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic ScSy_____G 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic ScSy_____G 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic ScSy_____G 18MediaContinuityKit0aB7SessionC5EventO
++ _symbolic ScSy_____G So6CGRectV
++ _symbolic ScSy______pG 16ScreenSharingKit16ControlTransportP
++ _symbolic ScSyytG
++ _symbolic ScTySb______pG s5ErrorP
++ _symbolic ScTyScSy_____G______pG 16ScreenSharingKit21MirroringSessionStateO s5ErrorP
++ _symbolic ScTy_______________XjSg______pG r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq So6CGRectV s5NeverO s5ErrorP
++ _symbolic ScTy______p______pG 16ScreenSharingKit16ControlTransportP s5ErrorP
++ _symbolic ScTy_____y______p______pGAC_pG 23AsyncAlgorithmsInternal0A15ThrowingChannelC 16ScreenSharingKit41TransportProvidingContinuityServerSessionP s5ErrorP
++ _symbolic ScTyytSg______pG s5ErrorP
++ _symbolic ScTyyt______pG s5ErrorP
++ _symbolic ScsySo21RPRemoteDisplayDeviceC______pG s5ErrorP
++ _symbolic Scsy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit0aB7SessionC s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit16AudioStreamEventO s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit16VideoStreamEventO s5ErrorP
++ _symbolic Scsy___________pGSg 10Foundation4DataV s5ErrorP
++ _symbolic Scsyyt______pG s5ErrorP
++ _symbolic ShyScTyyt_____GG s5NeverO
++ _symbolic Shy_____G 16ScreenSharingKit14TelemetryEventO
++ _symbolic Si10generation______Sg13serverSessiont 16ScreenSharingKit30MediaTransportServerAndSessionC
++ _symbolic So13UIWindowSceneC
++ _symbolic So14RPStreamServerC
++ _symbolic So21RPRemoteDisplayDeviceC______pIeghHrzo_ s5ErrorP
++ _symbolic So21RPRemoteDisplayServerC
++ _symbolic So37WiFiP2PTrafficRegistrationReservationC
++ _symbolic _____ 16ScreenSharingKit024ServerPolicyInputsBackedE12EngineVendorC
++ _symbolic _____ 16ScreenSharingKit0A15ContinuityAngelC
++ _symbolic _____ 16ScreenSharingKit10AsyncQueueC
++ _symbolic _____ 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC
++ _symbolic _____ 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____ 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____ 16ScreenSharingKit11CanvasSizesV
++ _symbolic _____ 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLO
++ _symbolic _____ 16ScreenSharingKit11ServerErrorO26SessionPreemptedCodingKeys33_D0993B040B0A9CAA744FC5D139F6677FLLO
++ _symbolic _____ 16ScreenSharingKit12PriorityPumpC
++ _symbolic _____ 16ScreenSharingKit13AssertionBankC
++ _symbolic _____ 16ScreenSharingKit13AssertionBankC11TransactionO
++ _symbolic _____ 16ScreenSharingKit13AssertionBankC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____ 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____ 16ScreenSharingKit18SystemGestureEventO23ControlCenterCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____ 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____ 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____ 16ScreenSharingKit19NegotiationDataTypeO
++ _symbolic _____ 16ScreenSharingKit20MediaTransportServerC
++ _symbolic _____ 16ScreenSharingKit20MediaTransportServerC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit20ServerSessionManagerC
++ _symbolic _____ 16ScreenSharingKit20ServerSessionManagerC18InvalidationReasonO
++ _symbolic _____ 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____ 16ScreenSharingKit22ContinuitySessionStateO
++ _symbolic _____ 16ScreenSharingKit22MirroringSessionVendorC
++ _symbolic _____ 16ScreenSharingKit24ClientInvalidationReasonO
++ _symbolic _____ 16ScreenSharingKit24XPCEventBackedReplyTokenV
++ _symbolic _____ 16ScreenSharingKit25MCKBackedContinuityServerC
++ _symbolic _____ 16ScreenSharingKit25MCKBackedContinuityServerC5StateO
++ _symbolic _____ 16ScreenSharingKit25MCKBackedContinuityServerC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit25MCKContinuityServerVendorC
++ _symbolic _____ 16ScreenSharingKit25SendOnceTelemetryProviderC
++ _symbolic _____ 16ScreenSharingKit26ContinuityMirroringSessionC
++ _symbolic _____ 16ScreenSharingKit26ContinuityMirroringSessionC0deF5ErrorO
++ _symbolic _____ 16ScreenSharingKit26MediaTransportStreamServerC
++ _symbolic _____ 16ScreenSharingKit26MediaTransportStreamServerC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit27MediaTransportServerSessionC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit27MockContinuityClientSessionC
++ _symbolic _____ 16ScreenSharingKit28ContinuityClientSessionStateO
++ _symbolic _____ 16ScreenSharingKit30HardcodedCanvasSizesPrimitivesV
++ _symbolic _____ 16ScreenSharingKit30MediaTransportServerAndSessionC
++ _symbolic _____ 16ScreenSharingKit31MockDeviceRestrictionPrimitivesC
++ _symbolic _____ 16ScreenSharingKit32AbortBackedTerminationPrimitivesV
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityClientSessionC
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityClientSessionC5StateO
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityClientSessionC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityServerSessionC
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityServerSessionC5StateO
++ _symbolic _____ 16ScreenSharingKit32MCKBackedContinuityServerSessionC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit32MediaTransportNegotiationMessageV
++ _symbolic _____ 16ScreenSharingKit32MediaTransportNegotiationMessageV6ErrorsO
++ _symbolic _____ 16ScreenSharingKit33MockContinuityClientSessionVendorC
++ _symbolic _____ 16ScreenSharingKit35MediaTransportServerAndSessionErrorO
++ _symbolic _____ 16ScreenSharingKit35TimeBombedSessionReceivedReplyTokenC
++ _symbolic _____ 16ScreenSharingKit36MediaTransportContinuityServerVendorC
++ _symbolic _____ 16ScreenSharingKit38AWDLBackedWiFiTrafficReservationVendorC
++ _symbolic _____ 16ScreenSharingKit38MCKControlStreamBackedControlTransportC
++ _symbolic _____ 16ScreenSharingKit38MCKControlStreamBackedControlTransportC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitivesC
++ _symbolic _____ 16ScreenSharingKit38SceneInteractorBackedContinuitySessionC
++ _symbolic _____ 16ScreenSharingKit38SceneInteractorBackedContinuitySessionC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservationC
++ _symbolic _____ 16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservationC5State33_A93FC2E2BF5C691D526D82981F188922LLO
++ _symbolic _____ 16ScreenSharingKit39AWDLServiceBackedWiFiTrafficReservationC6Errors33_A93FC2E2BF5C691D526D82981F188922LLO
++ _symbolic _____ 16ScreenSharingKit39SceneInteractorWrappingContinuityServerC
++ _symbolic _____ 16ScreenSharingKit40DeviceModelCheckingCanvasSizesPrimitivesV
++ _symbolic _____ 16ScreenSharingKit41FeatureFlagSwitchingCanvasSizesPrimitivesV
++ _symbolic _____ 16ScreenSharingKit42RapportBackedContinuityClientSessionVendorC
++ _symbolic _____ 16ScreenSharingKit42RapportBackedContinuityClientSessionVendorC12VendingErrorO
++ _symbolic _____ 16ScreenSharingKit42RunningBoardServicesBackedRuntimeAssertionV
++ _symbolic _____ 16ScreenSharingKit43CADisplayBackedDisplayInformationPrimitivesV
++ _symbolic _____ 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC
++ _symbolic _____ 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC6ErrorsO
++ _symbolic _____ 16ScreenSharingKit48RunningBoardServicesBackedRuntimeAssertionVendorV
++ _symbolic _____ 16ScreenSharingKit9AsyncGateC
++ _symbolic _____ 18MediaContinuityKit0aB7SessionC
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So25SBUIContinuitySessionStepV
++ _symbolic _____ So30AWDLTrafficRegistrationServicea
++ _symbolic _____11awdlService_Sb19showsUIAlertOnErrort So30AWDLTrafficRegistrationServicea
++ _symbolic _____12cornerRadius_t 12CoreGraphics7CGFloatV
++ _symbolic _____3key_yp5valuetSg s11AnyHashableV
++ _symbolic _____7newSize_Sb010isOriginalB0t So6CGSizeV
++ _symbolic _____9sessionID_t 10Foundation4UUIDV
++ _symbolic _____ScP_____Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq s5NeverO
++ _symbolic _____Sg 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____Sg 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____Sg 16ScreenSharingKit11CanvasSizesV
++ _symbolic _____Sg 16ScreenSharingKit15TaskBackedTimerC
++ _symbolic _____Sg 16ScreenSharingKit20ServerSessionManagerC18InvalidationReasonO
++ _symbolic _____Sg 16ScreenSharingKit24MockControlMessageStreamC
++ _symbolic _____Sg 16ScreenSharingKit25MediaTransportAudioStreamC
++ _symbolic _____Sg 16ScreenSharingKit25MediaTransportStreamStateO
++ _symbolic _____Sg 16ScreenSharingKit25MediaTransportVideoStreamC
++ _symbolic _____Sg 16ScreenSharingKit26MediaTransportStreamServerC
++ _symbolic _____Sg 16ScreenSharingKit27MockContinuityClientSessionC
++ _symbolic _____Sg 18MediaContinuityKit0aB6ServerC
++ _symbolic _____Sg 18MediaContinuityKit0aB7SessionC
++ _symbolic _____Sg 18MediaContinuityKit0aB7SessionC5EventO
++ _symbolic _____Sg 18MediaContinuityKit16AudioStreamEventO
++ _symbolic _____Sg 18MediaContinuityKit16VideoStreamEventO
++ _symbolic _____Sg14completionGate_t 16ScreenSharingKit9AsyncGateC
++ _symbolic _____SgXw 16ScreenSharingKit0A15ContinuityAngelC
++ _symbolic _____SgXw 16ScreenSharingKit10AsyncQueueC
++ _symbolic _____SgXw 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC
++ _symbolic _____SgXw 16ScreenSharingKit20MediaTransportServerC
++ _symbolic _____SgXw 16ScreenSharingKit20ServerSessionManagerC
++ _symbolic _____SgXw 16ScreenSharingKit25MCKBackedContinuityServerC
++ _symbolic _____SgXw 16ScreenSharingKit26ContinuityMirroringSessionC
++ _symbolic _____SgXw 16ScreenSharingKit26MediaTransportStreamServerC
++ _symbolic _____SgXw 16ScreenSharingKit30MediaTransportServerAndSessionC
++ _symbolic _____SgXw 16ScreenSharingKit32MCKBackedContinuityClientSessionC
++ _symbolic _____SgXw 16ScreenSharingKit32MCKBackedContinuityServerSessionC
++ _symbolic _____SgXw 16ScreenSharingKit35TimeBombedSessionReceivedReplyTokenC
++ _symbolic _____SgXw 16ScreenSharingKit38SceneInteractorBackedContinuitySessionC
++ _symbolic _____SgXw 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit0A15ContinuityAngelC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit10AsyncQueueC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit20ServerSessionManagerC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit25MCKBackedContinuityServerC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit26ContinuityMirroringSessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit30MediaTransportServerAndSessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit32MCKBackedContinuityClientSessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit32MCKBackedContinuityServerSessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit35TimeBombedSessionReceivedReplyTokenC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit38SceneInteractorBackedContinuitySessionC
++ _symbolic _____SgXwz_Xx 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC
++ _symbolic _____XDXMT 16ScreenSharingKit30MediaTransportServerAndSessionC
++ _symbolic ______AAt 16ScreenSharingKit13AssertionBankC11TransactionO
++ _symbolic ______AAt 16ScreenSharingKit18SystemGestureEventO
++ _symbolic ______AAt 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic ______AAt 16ScreenSharingKit28ContinuityClientSessionStateO
++ _symbolic __________11awdlService_Sb19showsUIAlertOnErrort______pXj r0_l16ScreenSharingKit16VendingWithInput_px0F4TypeRts_q_06VendedG0RtsXPXGMq So30AWDLTrafficRegistrationServicea AA22WiFiTrafficReservationP
++ _symbolic _______________Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq So6CGRectV s5NeverO
++ _symbolic _______________XjSg r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq So6CGRectV s5NeverO
++ _symbolic ___________pXj l16ScreenSharingKit15ThrowingVending_px10VendedTypeRts_XPXGMq AA16RuntimeAssertionP
++ _symbolic ___________pXj l16ScreenSharingKit7Vending_px10VendedTypeRts_XPXGMq AA16ContinuityServerP
++ _symbolic ___________pXj l16ScreenSharingKit7Vending_px10VendedTypeRts_XPXGMq AA22LiveActivityDisplayingP
++ _symbolic ___________pXj l16ScreenSharingKit7Vending_px10VendedTypeRts_XPXGMq AA28ConnectedDisplayRegistrationP
++ _symbolic ___________pXjSg l16ScreenSharingKit7Vending_px10VendedTypeRts_XPXGMq AA16ContinuityServerP
++ _symbolic __________yyt_____G_____Xj r0_l16ScreenSharingKit25MainActorVendingWithInput_px0H4TypeRts_q_06VendedI0RtsXPXGMq 7Combine12AnyPublisherV s5NeverO AA18ServerPolicyEngineC
++ _symbolic ______p 16ScreenSharingKit014MediaTransportD6StreamP
++ _symbolic ______p 16ScreenSharingKit10ReplyTokenP
++ _symbolic ______p 16ScreenSharingKit16ContinuityServerP
++ _symbolic ______p 16ScreenSharingKit16MirroringSessionP
++ _symbolic ______p 16ScreenSharingKit16RuntimeAssertionP
++ _symbolic ______p 16ScreenSharingKit21CanvasSizesPrimitivesP
++ _symbolic ______p 16ScreenSharingKit21TerminationPrimitivesP
++ _symbolic ______p 16ScreenSharingKit22LiveActivityDisplayingP
++ _symbolic ______p 16ScreenSharingKit22WiFiTrafficReservationP
++ _symbolic ______p 16ScreenSharingKit23ContinuityServerSessionP
++ _symbolic ______p 16ScreenSharingKit27MediaTransportServerSessionC0F6HandleP
++ _symbolic ______p 16ScreenSharingKit28ConnectedDisplayRegistrationP
++ _symbolic ______p 16ScreenSharingKit28DisplayInformationPrimitivesP
++ _symbolic ______p 16ScreenSharingKit29ContinuityClientSessionVendorP
++ _symbolic ______p 16ScreenSharingKit34TransportProvidingContinuityServerP
++ _symbolic ______p 16ScreenSharingKit41TransportProvidingContinuityServerSessionP
++ _symbolic ______p 16ScreenSharingKit7AnyTaskP
++ _symbolic ______p 18MediaContinuityKit11AudioStreamP
++ _symbolic ______p 18MediaContinuityKit11VideoStreamP
++ _symbolic ______p 18MediaContinuityKit13ControlStreamP
++ _symbolic ______p So13OS_xpc_objectP
++ _symbolic ______p So13RPMessageableP
++ _symbolic ______pSg 16ScreenSharingKit16ContinuityServerP
++ _symbolic ______pSg 16ScreenSharingKit16ControlTransportP
++ _symbolic ______pSg 16ScreenSharingKit16RuntimeAssertionP
++ _symbolic ______pSg 16ScreenSharingKit22WiFiTrafficReservationP
++ _symbolic ______pSg 16ScreenSharingKit23ContinuityClientSessionP
++ _symbolic ______pSg 16ScreenSharingKit23ContinuityServerSessionP
++ _symbolic ______pSg 16ScreenSharingKit28DisplayInformationPrimitivesP
++ _symbolic ______pSg 18MediaContinuityKit11AudioStreamP
++ _symbolic ______pSg 18MediaContinuityKit11VideoStreamP
++ _symbolic ______pSgXw 16ScreenSharingKit26MediaTransportStreamServerC8DelegateP
++ _symbolic ______pSgXw 16ScreenSharingKit27MediaTransportServerSessionC0F6HandleP
++ _symbolic ______pSgXw So13RPMessageableP
++ _symbolic ______p______pIegHgg_ 16ScreenSharingKit23ContinuityClientSessionP s5ErrorP
++ _symbolic ______p______pIegHgg_ 16ScreenSharingKit23ContinuityServerSessionP s5ErrorP
++ _symbolic ______yptSg s11AnyHashableV
++ _symbolic _____yAAyAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA15_PositionLayoutV AH024AnnotationBackdropEffectR8ModifierV AA010_FlexFrameT0V AA017_SafeAreaIgnoringT0V
++ _symbolic _____yAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA15_PositionLayoutV AH024AnnotationBackdropEffectR8ModifierV AA010_FlexFrameT0V
++ _symbolic _____yAAy_____y_____y_____y___________QPGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE19allowsSecureDrawingQryFQO AA6ZStackV AA05TupleD0V 16ScreenSharingKit07StrokesE0V AK07RipplesE0V AA16_FlexFrameLayoutV AA017_SafeAreaIgnoringR0V
++ _symbolic _____ySS_G ScS12ContinuationV
++ _symbolic _____ySS_G ScS8IteratorV
++ _symbolic _____ySS__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySS__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yScPG s23_ContiguousArrayStorageC
++ _symbolic _____yScP_G ScS12ContinuationV
++ _symbolic _____yScP__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yScP__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yScTyyt_____GG s11_SetStorageC s5NeverO
++ _symbolic _____yScTyyt______pGG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____ySdG 7SwiftUI9LazyStateV
++ _symbolic _____ySd_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo21RPRemoteDisplayDeviceC______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____ySo21RPRemoteDisplayDeviceC______p_G Scs8IteratorV s5ErrorP
++ _symbolic _____ySo21RPRemoteDisplayDeviceC______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____ySo21RPRemoteDisplayDeviceC______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic _____ySo22RPRemoteDisplaySessionC_____G s18_DictionaryStorageC 16ScreenSharingKit27MediaTransportServerSessionC
++ _symbolic _____y_____G s11_SetStorageC 16ScreenSharingKit14TelemetryEventO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit11ServerErrorO26SessionPreemptedCodingKeys33_D0993B040B0A9CAA744FC5D139F6677FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit18SystemGestureEventO23ControlCenterCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit11CanvasSizesV10CodingKeys33_DFC7E5F06DBEDE7AB9DAEA553DF0032FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit11ServerErrorO26SessionPreemptedCodingKeys33_D0993B040B0A9CAA744FC5D139F6677FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit17ServerStatusEventO26SceneSizeChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit17ServerStatusEventO34SceneResizabilityChangedCodingKeys33_4C16B2AEC22321BA8427DB3A3DBE1812LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit18SystemGestureEventO23ControlCenterCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit18SystemGestureEventO29CornerRadiusChangedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16ScreenSharingKit18SystemGestureEventO29SizeChangeRequestedCodingKeys33_E2EF3587A2F6325DD9D57C1EC9914605LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18MediaContinuityKit24AudioStreamConfigurationO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18MediaContinuityKit24VideoStreamConfigurationO
++ _symbolic _____y_____GSg 23AsyncAlgorithmsInternal0A7ChannelC 16ScreenSharingKit13AssertionBankC11TransactionO
++ _symbolic _____y_____SgG 7Combine9PublishedV 16ScreenSharingKit24MockControlMessageStreamC
++ _symbolic _____y_____SgG 7Combine9PublishedV 16ScreenSharingKit27MockContinuityClientSessionC
++ _symbolic _____y______G ScS12ContinuationV 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____y______G ScS12ContinuationV 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____y______G ScS12ContinuationV 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____y______G ScS12ContinuationV So6CGRectV
++ _symbolic _____y______G ScS8IteratorV 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____y______G ScS8IteratorV 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____y______G ScS8IteratorV 18MediaContinuityKit0bC7SessionC5EventO
++ _symbolic _____y______GSg ScS12ContinuationV 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____y______GSg ScS12ContinuationV So6CGRectV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO So6CGRectV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC4WorkV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16ScreenSharingKit10AsyncQueueC7Nucleus33_189F7B510C6B03DDFD89A0E7E9CF509DLLC7CommandO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO So6CGRectV
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic _____y__________G 7Combine12AnyPublisherV So6CGSizeV s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC So6CGSizeV s5NeverO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16ScreenSharingKit16CircleRippleViewV AA15_PositionLayoutV
++ _symbolic _____y___________G 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV 16ScreenSharingKit012SingleCircleD0V
++ _symbolic _____y___________pG s18_DictionaryStorageC 10Foundation4UUIDV 16ScreenSharingKit16RuntimeAssertionP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 16ScreenSharingKit32MediaTransportNegotiationMessageV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit0bC7SessionC s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit16AudioStreamEventO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit16VideoStreamEventO s5ErrorP
++ _symbolic _____y___________y___________QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV 16ScreenSharingKit07StrokesD0V AJ07RipplesD0V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 16ScreenSharingKit10ReplyTokenP
++ _symbolic _____y______p_G ScS12ContinuationV 16ScreenSharingKit16ControlTransportP
++ _symbolic _____y______p_G ScS8IteratorV 16ScreenSharingKit16ControlTransportP
++ _symbolic _____y______p__G ScS12ContinuationV11YieldResultO 16ScreenSharingKit16ControlTransportP
++ _symbolic _____y______p__G ScS12ContinuationV15BufferingPolicyO 16ScreenSharingKit16ControlTransportP
++ _symbolic _____y______p______pG 23AsyncAlgorithmsInternal0A15ThrowingChannelC 16ScreenSharingKit23ContinuityServerSessionP s5ErrorP
++ _symbolic _____y______p______pG 23AsyncAlgorithmsInternal0A15ThrowingChannelC 16ScreenSharingKit41TransportProvidingContinuityServerSessionP s5ErrorP
++ _symbolic _____y______p______pGSg 23AsyncAlgorithmsInternal0A15ThrowingChannelC 16ScreenSharingKit23ContinuityServerSessionP s5ErrorP
++ _symbolic _____y______p______p_G 23AsyncAlgorithmsInternal0A15ThrowingChannelC8IteratorV 16ScreenSharingKit41TransportProvidingContinuityServerSessionP s5ErrorP
++ _symbolic _____y______y__________GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV So6CGSizeV s5NeverO
++ _symbolic _____y______y______ySb_____GSo17OS_dispatch_queueCGG 7Combine10PublishersO16RemoveDuplicatesV AC9ReceiveOnV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______ytG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y_____ySay_____G__________y__________GGG 7SwiftUI14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AA15ModifiedContentV AF16CircleRippleViewV AA15_PositionLayoutV
++ _symbolic _____y_____y___________QPGG 7SwiftUI6ZStackV AA12TupleContentV 16ScreenSharingKit11StrokesViewV AF07RipplesJ0V
++ _symbolic _____y_____y______p______pGAEG 23AsyncAlgorithmsInternal0A14Merge2SequenceV AA0A15ThrowingChannelC 16ScreenSharingKit23ContinuityServerSessionP s5ErrorP
++ _symbolic _____y_____y_____ySay_____G_____AAy__________GGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA15_PositionLayoutV AH024AnnotationBackdropEffectR8ModifierV
++ _symbolic _____y_____y_____y_____y___________QPGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE19allowsSecureDrawingQryFQO AA6ZStackV AA05TupleD0V 16ScreenSharingKit07StrokesE0V AK07RipplesE0V AA16_FlexFrameLayoutV
++ _symbolic _____yytG 2os21OSAllocatedUnfairLockV
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt_G ScS8IteratorV
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____yyt______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____yyt______p_G Scs8IteratorV s5ErrorP
++ _symbolic _____yyt______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____yyt______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic xSgXwz____________RzlXX 16ScreenSharingKit27MediaTransportServerSessionC AA0de10ContinuityG0P
++ _symbolic xSgXwz____________RzlXX 16ScreenSharingKit43MediaTransportBackedContinuityClientSessionC AA0degI0P
++ _symbolic x______pIeAgHrzo_z_Sb_lXX s5ErrorP
++ _symbolic x______pIeAgHrzo_z_ScSy_____G_lXX s5ErrorP 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic x______pIeAgHrzo_z________________XjSg_lXX s5ErrorP r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq So6CGRectV s5NeverO
++ _symbolic x______pIeAgHrzo_z_______p_lXX s5ErrorP 16ScreenSharingKit16ControlTransportP
++ _symbolic x______pIeAgHrzo_z______y______pAA_pG_lXX s5ErrorP 23AsyncAlgorithmsInternal0B15ThrowingChannelC 16ScreenSharingKit41TransportProvidingContinuityServerSessionP
++ _symbolic x______pIeAgHrzo_z_x_lXX s5ErrorP
++ _symbolic x______pIeAgHrzo_z_ytSg_lXX s5ErrorP
++ _symbolic x______pIeAgHrzo_z_yt_lXX s5ErrorP
++ _symbolic x______pRi_zRi0_zlySbIseAgHrzo_ s5ErrorP
++ _symbolic x______pRi_zRi0_zlyScSy_____GIseAgHrzo_ s5ErrorP 16ScreenSharingKit21MirroringSessionStateO
++ _symbolic x______pRi_zRi0_zly_______________XjSgIseAgHrzo_ s5ErrorP r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq So6CGRectV s5NeverO
++ _symbolic x______pRi_zRi0_zly______pIseAgHrzo_ s5ErrorP 16ScreenSharingKit16ControlTransportP
++ _symbolic x______pRi_zRi0_zly_____y______pAA_pGIseAgHrzo_ s5ErrorP 23AsyncAlgorithmsInternal0B15ThrowingChannelC 16ScreenSharingKit41TransportProvidingContinuityServerSessionP
++ _symbolic x______pRi_zRi0_zlyxIseAgHrzo_ s5ErrorP
++ _symbolic x______pRi_zRi0_zlyytIseAgHrzo_ s5ErrorP
++ _symbolic x______pRi_zRi0_zlyytSgIseAgHrzo_ s5ErrorP
++ _symbolic y______p_______ptYacSg 16ScreenSharingKit23ContinuityClientSessionP s5ErrorP
++ _symbolic y______p_______ptYacSg 16ScreenSharingKit23ContinuityServerSessionP s5ErrorP
++ _symbolic yt______pIeghHrzo_ s5ErrorP
++ _type_layout_string 16ScreenSharingKit11CanvasSizesV
++ _type_layout_string 16ScreenSharingKit16CircleRippleViewV
++ _type_layout_string 16ScreenSharingKit21MirroringSessionStateO
++ _type_layout_string 16ScreenSharingKit32MediaTransportNegotiationMessageV
++ _type_layout_string 16ScreenSharingKit40DeviceModelCheckingCanvasSizesPrimitivesV
++ _type_layout_string 16ScreenSharingKit41FeatureFlagSwitchingCanvasSizesPrimitivesV
++ _type_layout_string So30AWDLTrafficRegistrationServicea
++ _xpc_dictionary_create_reply
++ _xpc_dictionary_send_reply
+- __DATA__TtC16ScreenSharingKit20ScreenSharingSession
+- __DATA__TtC16ScreenSharingKit27MediaTransportClientSession
+- __DATA__TtC16ScreenSharingKit31MockMediaTransportClientSession
+- __DATA__TtC16ScreenSharingKit33RapportBackedMediaTransportDevice
+- __DATA__TtC16ScreenSharingKit37MockMediaTransportClientSessionVendor
+- __DATA__TtC16ScreenSharingKit46MediaTransportBackedScreenSharingSessionVendor
+- __DATA__TtC16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendor
+- __IVARS__TtC16ScreenSharingKit20ScreenSharingSession
+- __IVARS__TtC16ScreenSharingKit27MediaTransportClientSession
+- __IVARS__TtC16ScreenSharingKit31MockMediaTransportClientSession
+- __IVARS__TtC16ScreenSharingKit33RapportBackedMediaTransportDevice
+- __IVARS__TtC16ScreenSharingKit37MockMediaTransportClientSessionVendor
+- __IVARS__TtC16ScreenSharingKit46MediaTransportBackedScreenSharingSessionVendor
+- __IVARS__TtC16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendor
+- __METACLASS_DATA__TtC16ScreenSharingKit20ScreenSharingSession
+- __METACLASS_DATA__TtC16ScreenSharingKit27MediaTransportClientSession
+- __METACLASS_DATA__TtC16ScreenSharingKit31MockMediaTransportClientSession
+- __METACLASS_DATA__TtC16ScreenSharingKit33RapportBackedMediaTransportDevice
+- __METACLASS_DATA__TtC16ScreenSharingKit37MockMediaTransportClientSessionVendor
+- __METACLASS_DATA__TtC16ScreenSharingKit46MediaTransportBackedScreenSharingSessionVendor
+- __METACLASS_DATA__TtC16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendor
+- ___swift_memcpy104_8
+- ___swift_memcpy41_8
+- ___swift_memcpy57_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_ScreenSharingKit
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_ScreenSharingKit
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_ScreenSharingKit
+- _associated conformance 16ScreenSharingKit0aB7SessionC0abD5ErrorOSHAASQ
+- _associated conformance 16ScreenSharingKit26MediaTransportControlErrorO06ClientG0OSHAASQ
+- _associated conformance 16ScreenSharingKit27MediaTransportClientSessionC6ErrorsOSHAASQ
+- _associated conformance 16ScreenSharingKit32MediaTransportServerSessionErrorOSHAASQ
+- _associated conformance 16ScreenSharingKit33RapportBackedMediaTransportDeviceCAA0fgH0AA2IDs12IdentifiableP_Sy
+- _associated conformance 16ScreenSharingKit33RapportBackedMediaTransportDeviceCs12IdentifiableAA2IDsADP_SH
+- _associated conformance 16ScreenSharingKit36MockMediaTransportClientSessionErrorOSHAASQ
+- _block_copy_helper.102
+- _block_copy_helper.122
+- _block_copy_helper.127
+- _block_copy_helper.135
+- _block_copy_helper.176
+- _block_copy_helper.187
+- _block_copy_helper.194
+- _block_copy_helper.22
+- _block_copy_helper.224
+- _block_copy_helper.235
+- _block_copy_helper.243
+- _block_copy_helper.25
+- _block_copy_helper.47
+- _block_copy_helper.51
+- _block_copy_helper.52
+- _block_copy_helper.55
+- _block_copy_helper.63
+- _block_copy_helper.66
+- _block_copy_helper.69
+- _block_copy_helper.81
+- _block_copy_helper.85
+- _block_copy_helper.88
+- _block_copy_helper.90
+- _block_copy_helper.92
+- _block_copy_helper.96
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.104
+- _block_descriptor.124
+- _block_descriptor.129
+- _block_descriptor.137
+- _block_descriptor.178
+- _block_descriptor.189
+- _block_descriptor.196
+- _block_descriptor.226
+- _block_descriptor.237
+- _block_descriptor.24
+- _block_descriptor.245
+- _block_descriptor.27
+- _block_descriptor.49
+- _block_descriptor.53
+- _block_descriptor.54
+- _block_descriptor.57
+- _block_descriptor.65
+- _block_descriptor.68
+- _block_descriptor.71
+- _block_descriptor.83
+- _block_descriptor.87
+- _block_descriptor.90
+- _block_descriptor.92
+- _block_descriptor.94
+- _block_descriptor.98
+- _block_destroy_helper.103
+- _block_destroy_helper.123
+- _block_destroy_helper.128
+- _block_destroy_helper.136
+- _block_destroy_helper.177
+- _block_destroy_helper.188
+- _block_destroy_helper.195
+- _block_destroy_helper.225
+- _block_destroy_helper.23
+- _block_destroy_helper.236
+- _block_destroy_helper.244
+- _block_destroy_helper.26
+- _block_destroy_helper.48
+- _block_destroy_helper.52
+- _block_destroy_helper.53
+- _block_destroy_helper.56
+- _block_destroy_helper.64
+- _block_destroy_helper.67
+- _block_destroy_helper.70
+- _block_destroy_helper.82
+- _block_destroy_helper.86
+- _block_destroy_helper.89
+- _block_destroy_helper.91
+- _block_destroy_helper.93
+- _block_destroy_helper.97
+- _block_destroy_helper.99
+- _get_enum_tag_for_layout_string 16ScreenSharingKit0aB7SessionC0abD5StateO
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVy16ScreenSharingKit16SingleCircleViewVGAA12_FrameLayoutVGAA0K0HPAiaMHPyHC_AkA0K8ModifierHPyHCHC.11
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE19allowsSecureDrawingQryFQOyAA6ZStackVyAA05TupleE0Vy16ScreenSharingKit07StrokesE0V_AK07RipplesE0VtGG_Qo_AA16_FlexFrameLayoutVGAA017_SafeAreaIgnoringR0VGAaDHPAuaDHPqd__AaDHD2_ARHO_AtA0E8ModifierHPyHCHC_AwaYHPyHCHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA14GeometryReaderVyAA7ForEachVySay16ScreenSharingKit17IdentifiablePointVG10Foundation4UUIDVACyACyAH16CircleRippleViewVAA12_FrameLayoutVGAA09_PositionT0VGGGAH024AnnotationBackdropEffectR8ModifierVGAA05_FlexsT0VGAA017_SafeAreaIgnoringT0VGAA0R0HPA2_AAA6_HPA_AAA6_HPAxAA6_HPyHC_AzA0rY0HPyHCHC_A1_AAA7_HPyHCHC_A4_AAA7_HPyHCHC.5
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyAA13_StrokedShapeVyAA6CircleVGAA24_ForegroundStyleModifierVyAA5ColorVGGAA12_ScaleEffectVGAA010_AnimationJ0VySdGGAA08_OpacityM0VGATGAA05_BlurM0VGAA12_FrameLayoutVGAA017_AppearanceActionJ0VGAA4ViewHPA3_AAA7_HPA0_AAA7_HPAyAA7_HPAxAA7_HPAuAA7_HPAqAA7_HPAnAA7_HPAhAA7_HPyHC_AmA0uJ0HPyHCHC_ApAA8_HPyHCHC_AtAA8_HPyHCHC_AwAA8_HPyHCHC_AtAA8_HPyHCHC_A_AAA8_HPyHCHC_A2_AAA8_HPyHCHC_A5_AAA8_HPyHCHC.15
+- _kCAGravityResizeAspect
+- _keypath_get.17Tm
+- _objc_msgSend$centerXAnchor
+- _objc_msgSend$centerYAnchor
+- _objc_msgSend$constraintEqualToAnchor:multiplier:
+- _objc_msgSend$deactivateConstraints:
+- _objc_msgSend$heightAnchor
+- _objc_msgSend$setContentsGravity:
+- _objc_msgSend$widthAnchor
+- _objc_retain_x10
+- _objectdestroy.128Tm
+- _objectdestroy.168Tm
+- _objectdestroy.16Tm
+- _objectdestroy.198Tm
+- _objectdestroy.210Tm
+- _objectdestroy.23Tm
+- _objectdestroy.34Tm
+- _objectdestroy.3Tm
+- _objectdestroy.57Tm
+- _objectdestroy.61Tm
+- _objectdestroy.67Tm
+- _objectdestroy.75Tm
+- _objectdestroy.82Tm
+- _objectdestroy.85Tm
+- _objectdestroy.92Tm
+- _objectdestroyTm
+- _swift_dynamicCastClass
+- _symbolic $s16ScreenSharingKit20MediaTransportDeviceP
+- _symbolic $s16ScreenSharingKit33MediaTransportClientSessionVendorP
+- _symbolic $s16ScreenSharingKit36MediaTransportClientSessionProvidingP
+- _symbolic 2ID_____Qz s12IdentifiableP
+- _symbolic SDySS_____G 16ScreenSharingKit24MockControlMessageStreamC
+- _symbolic SS3key_yp5valuet
+- _symbolic SaySo18NSLayoutConstraintCGSg
+- _symbolic ScCy______p______pG 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic ScCy______p______pGSg 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic Scsy______p______pG 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic Si10generation______Sg13serverSessiont 16ScreenSharingKit27MediaTransportServerSessionC
+- _symbolic So15RPStreamSessionCSgXw
+- _symbolic So37WiFiP2PTrafficRegistrationReservationCSg
+- _symbolic Sy_p
+- _symbolic _____ 16ScreenSharingKit020MediaTransportBackedaB13SessionVendorC
+- _symbolic _____ 16ScreenSharingKit0aB7SessionC
+- _symbolic _____ 16ScreenSharingKit0aB7SessionC0abD5ErrorO
+- _symbolic _____ 16ScreenSharingKit0aB7SessionC0abD5StateO
+- _symbolic _____ 16ScreenSharingKit0aB7SessionC6ConfigV
+- _symbolic _____ 16ScreenSharingKit26MediaTransportControlErrorO06ClientG0O
+- _symbolic _____ 16ScreenSharingKit27MediaTransportClientSessionC
+- _symbolic _____ 16ScreenSharingKit27MediaTransportClientSessionC6ErrorsO
+- _symbolic _____ 16ScreenSharingKit31MockDeviceRestrictionPrimitivesV
+- _symbolic _____ 16ScreenSharingKit31MockMediaTransportClientSessionC
+- _symbolic _____ 16ScreenSharingKit32MediaTransportServerSessionErrorO
+- _symbolic _____ 16ScreenSharingKit33RapportBackedMediaTransportDeviceC
+- _symbolic _____ 16ScreenSharingKit36MockMediaTransportClientSessionErrorO
+- _symbolic _____ 16ScreenSharingKit37MockMediaTransportClientSessionVendorC
+- _symbolic _____ 16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitivesV
+- _symbolic _____ 16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendorC
+- _symbolic _____3key_yp5valuet s11AnyHashableV
+- _symbolic _____Sg 16ScreenSharingKit31MockMediaTransportClientSessionC
+- _symbolic _____SgXw 16ScreenSharingKit0aB7SessionC
+- _symbolic _____SgXw 16ScreenSharingKit27MediaTransportClientSessionC
+- _symbolic _____SgXwz_Xx 16ScreenSharingKit0aB7SessionC
+- _symbolic _____SgXwz_Xx 16ScreenSharingKit27MediaTransportClientSessionC
+- _symbolic _____XDXMT 16ScreenSharingKit27MediaTransportServerSessionC
+- _symbolic ______p 16ScreenSharingKit20MediaTransportDeviceP
+- _symbolic ______p 16ScreenSharingKit33MediaTransportClientSessionVendorP
+- _symbolic ______p 16ScreenSharingKit36MediaTransportClientSessionProvidingP
+- _symbolic ______pSg 16ScreenSharingKit36MediaTransportClientSessionProvidingP
+- _symbolic ______pSgXw 16ScreenSharingKit21MediaTransportSessionP
+- _symbolic ______p______pIeghHrzo_ 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic _____yAAyAAy_____y_____ySay_____G_____AAyAAy__________G_____GGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA12_FrameLayoutV AA09_PositionT0V AH024AnnotationBackdropEffectR8ModifierV AA05_FlexsT0V AA017_SafeAreaIgnoringT0V
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 16ScreenSharingKit16CircleRippleViewV AA12_FrameLayoutV AA09_PositionL0V
+- _symbolic _____yAAy_____y_____ySay_____G_____AAyAAy__________G_____GGG_____G_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA12_FrameLayoutV AA09_PositionT0V AH024AnnotationBackdropEffectR8ModifierV AA05_FlexsT0V
+- _symbolic _____yAAy_____y_____y_____y___________tGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE19allowsSecureDrawingQryFQO AA6ZStackV AA05TupleE0V 16ScreenSharingKit07StrokesE0V AK07RipplesE0V AA16_FlexFrameLayoutV AA017_SafeAreaIgnoringR0V
+- _symbolic _____ySDySS_____GG 7Combine9PublishedV 16ScreenSharingKit24MockControlMessageStreamC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 16ScreenSharingKit24MockControlMessageStreamC
+- _symbolic _____ySdG 7SwiftUI5StateV
+- _symbolic _____ySo7CALayerCSgG 7Combine9PublishedV
+- _symbolic _____y_____G 7Combine9PublishedV 16ScreenSharingKit26MediaTransportSessionStateO
+- _symbolic _____y_____SgG 7Combine9PublishedV 16ScreenSharingKit31MockMediaTransportClientSessionC
+- _symbolic _____y______G ScS12ContinuationV 16ScreenSharingKit0bC7SessionC0bcE5StateO
+- _symbolic _____y______GSg ScS12ContinuationV 16ScreenSharingKit0bC7SessionC0bcE5StateO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16ScreenSharingKit0dE7SessionC0deG5StateO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16ScreenSharingKit0dE7SessionC0deG5StateO
+- _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 16ScreenSharingKit0dE7SessionC0deG5StateO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16ScreenSharingKit16CircleRippleViewV AA12_FrameLayoutV
+- _symbolic _____y___________y___________tGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V 16ScreenSharingKit07StrokesD0V AJ07RipplesD0V
+- _symbolic _____y______p______p_G Scs12ContinuationV 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic _____y______p______p_G Scs8IteratorV 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic _____y______p______p__G Scs12ContinuationV11YieldResultO 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic _____y______p______p__G Scs12ContinuationV15BufferingPolicyO 16ScreenSharingKit20MediaTransportDeviceP s5ErrorP
+- _symbolic _____y_____ySay_____G__________yAFy__________G_____GGG 7SwiftUI14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AA15ModifiedContentV AF16CircleRippleViewV AA12_FrameLayoutV AA09_PositionT0V
+- _symbolic _____y_____y___________tGG 7SwiftUI6ZStackV AA9TupleViewV 16ScreenSharingKit07StrokesE0V AF07RipplesE0V
+- _symbolic _____y_____y_____ySay_____G_____AAyAAy__________G_____GGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA7ForEachV 16ScreenSharingKit17IdentifiablePointV 10Foundation4UUIDV AH16CircleRippleViewV AA12_FrameLayoutV AA09_PositionT0V AH024AnnotationBackdropEffectR8ModifierV
+- _symbolic _____y_____y_____y_____y___________tGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE19allowsSecureDrawingQryFQO AA6ZStackV AA05TupleE0V 16ScreenSharingKit07StrokesE0V AK07RipplesE0V AA16_FlexFrameLayoutV
+- _type_layout_string 16ScreenSharingKit0aB7SessionC0abD5StateO
+- _type_layout_string 16ScreenSharingKit16SingleCircleViewV
+- _type_layout_string 16ScreenSharingKit31MockDeviceRestrictionPrimitivesV
+- _type_layout_string 16ScreenSharingKit38MockOnenessDeviceEligibilityPrimitivesV
+- _type_layout_string So18NSNotificationNamea
+CStrings:
++ "    Received controlStreamInvalidated before we have a control stream, \n    ignoring the event"
++ " awaiting transport"
++ " for stream type: "
++ " letting the client know we're alive"
++ " received transport"
++ " that has no matching server session"
++ " while in state: "
++ "%s stream invalidated"
++ "%s stream tearing down"
++ "%{public}s Current continuity device is: %{private}s"
++ "%{public}s Unable to fetch current continuity device information, interrupting"
++ "%{public}s calling interruptionHandler"
++ "%{public}s cannot send messages while in state: %{public}s, ignoring"
++ "%{public}s iPhone iCloud account needs repair, interrupting"
++ "%{public}s interrupted before acceptance, accept will re-throw this error"
++ "%{public}s interrupted: %{public}@"
++ "%{public}s is already invalidated, ignoring interruption due to: %{public}s"
++ "%{public}s is already tearing down, ignoring interruption due to: %{public}s"
++ "%{public}s registering event: %{public}s"
++ ", session will be declined: "
++ ", supportedOrientations: "
++ ", this event could not be decoded and will be ignored."
++ ", this event is not applicable and will be ignored."
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/App/ContinuityMirroringSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/App/ContinuityMirroringSession.swiftcleanupSession() called when session is not in a terminal state"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/ContinuityClient/MCKBackedContinuityClientSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/ContinuityClient/MCKControlStreamBackedControlTransport.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/ContinuityClient/MediaTransportBackedContinuityClientSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/ContinuityServer/MCKBackedContinuityServer.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/ContinuityServer/MCKBackedContinuityServerSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Launch Angel/SceneInteractorBackedContinuitySession_iOS.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Launch Angel/SceneInteractorSessionWrappingContinuityServer_iOS.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Launch Angel/ScreenContinuityAngel/ScreenContinuityAngel_iOS.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/API/Session/MediaTransportServerAndSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/Extensions/RPMessagable+Utils.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/Server/MediaTransportServer.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/Server/MediaTransportServerSession.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/Server/MediaTransportStreamServer.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Primitives/Implementations/Termination/AbortBackedTerminationPrimitives.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Primitives/Implementations/TimeBombedSessionReceivedReplyToken.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Primitives/Implementations/XPCEventBackedReplyToken.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/System Shell/SpringBoardUIServicesBackedSceneInteractor_iOS.swift"
++ "1. Checking for prior session"
++ "2. Checking device eligibility"
++ "2. MediaTransportServerAndSession #%{public}ld state: Activated #%{public}ld"
++ "3. Checking if device is restricted"
++ "A server interrupted, terminating: %{public}@"
++ "AWDLServiceBackedWiFiTrafficReservation deinited without calling invalidate"
++ "Accepting streamID %{public}s"
++ "Accepting transport providing session"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Acquired systemShell and PreventIdleSleep assertion"
++ "Activated MediaContinuitySession"
++ "Activated SceneInteractor"
++ "Activating SceneInteractor"
++ "Activating Servers..."
++ "Activating display registration"
++ "Activating video stream"
++ "Activation timeout fired for %{public}s, interrupting"
++ "Adding subLayer: "
++ "Already accepted"
++ "Already deactivated"
++ "Already have control stream, invalidating and ignoring the new one: %{public}s"
++ "Already have stream of type: %{public}s, invalidating and ignoring the new one: %{public}s"
++ "Already in invalidated state"
++ "Already interrupted"
++ "Already invalidated"
++ "Already invalidated, ignoring transition"
++ "Attempted to receiveData before dataStream is available"
++ "Attempting to accept session while in state: "
++ "Attempting to activate while in state: "
++ "Attempting to send message when notInActivatedState"
++ "Audio stream failed with error: "
++ "Awaiting connection readiness for "
++ "Awaiting display server invalidation"
++ "Calling interruptionHandler"
++ "Cancelled accessibility data monitoring"
++ "Cancelled all SceneInteractor monitors"
++ "Cancelled all queued tasks on asyncQueue"
++ "Cancelled all unified playback event contributors"
++ "Cancelled server monitoring task"
++ "Cannot create multiple audio streams"
++ "Cannot create multiple control streams"
++ "Cannot create multiple video streams"
++ "Cannot send accessibility message: %{public}s, invalid state: %{public}s"
++ "Cannot set video layer before video stream is created and activated"
++ "Cannot update region of interest before videoLayer exists"
++ "CaptureView bounds within the window updated from %{public}s to %{public}s"
++ "Checking for existing controlStream"
++ "Connection ready"
++ "ContinuityClientSession is nil while handling controlStream state change"
++ "ContinuityMirroringSession invalidation failed with error: %{public}@"
++ "ContinuityMirroringSession liveResizeInProgress update failed with error: %{public}@"
++ "Control message session setup failed with error: %{public}@"
++ "Control stream interrupted with error: %@"
++ "ControlMessageSession activated"
++ "ControlTransportStream yielded nil unexpectedly"
++ "Created MediaContinuityEndpoint"
++ "Creating TimeBombedSessionReceivedReplyToken"
++ "Creating video stream"
++ "Deactivating firstContinuityServer"
++ "Deactivating secondContinuityServer"
++ "Deactivation complete"
++ "Delegate accepted stream: "
++ "Delegate refused stream: %{public}@"
++ "Device is restricted"
++ "Dismissed live activity"
++ "Dispatch queue is configured incorrectly for stream, assertions will probably be triggered"
++ "Drag and drop scene connected but current session does not accept scenes, ignoring"
++ "Drag and drop scene connected but no session is active, ignoring"
++ "Dropping keepAliveAssertion for session #%{public}ld"
++ "Emitting session: %{public}s"
++ "Enqueue launching payload: "
++ "Error occurred during invalidation: "
++ "Error occurred during invalidation: %{public}@"
++ "Expected audio stream to move to activated, but the state updated to %{public}s"
++ "Expected video stream to move to activated, but the state updated to %{public}s"
++ "Failed to accept stream with ID %s: %@"
++ "Failed to activate servers, terminating: %{public}@"
++ "Failed to configure control stream for stream ID "
++ "Failed to configure incoming streamID: %{public}s due to: %{public}s, notifying delegate"
++ "Failed to create MediaTransportServerSession for %{public}@, session will be declined: %{public}@"
++ "Failed to create XPC reply, likely to be killed by Rapport"
++ "Failed to initialize %{public}s: %{public}@, interrupting"
++ "Failed to parse negotiation data type from event: %{public}s"
++ "Failed to parse stream type from event: %{public}s"
++ "Failed to receive a reply terminating the shell"
++ "Failed to setScreenSharingVideoLayer with error: %{public}@"
++ "Failed to updateRegionOfInterest with error: %{public}@"
++ "Failed to vend runtime assertion for "
++ "Failed to vend runtime assertion for %{public}@, session will be declined: %{public}@"
++ "Failed to withdraw assertion with ID: %{public}s"
++ "Failed to withdraw assertion with id: "
++ "Failed with error: "
++ "Finished deactivating firstContinuityServer"
++ "Finished deactivating secondContinuityServer"
++ "Finished deactivation"
++ "Finished invalidation"
++ "Found transport await on interruption, resuming continuation via throw"
++ "Ignoring interruption due to: %{public}@, already interrupted"
++ "Ignoring interruption due to: %{public}@, already invalidated"
++ "Ignoring sceneInteractorDidBecomeActive, invalid sceneInteractor state: "
++ "Ignoring sceneInteractorDidBecomeActive, invalid state: "
++ "Incoming MCK Session: "
++ "Incoming session %s accepted"
++ "Incoming session handled, draining reply tokens."
++ "Incoming session: %{public}s was rejected due to: %{public}@"
++ "Initializing SceneInteractor monitoring"
++ "Initializing bring up device sensor usage monitoring"
++ "Interrupted with error: "
++ "Interrupting MCKControlStreamBackedControlTransport with error: %@"
++ "Invalid session id: "
++ "Invalid stream type for media stream"
++ "Invalidated DisplayRegistration"
++ "Invalidated PlaybackServer"
++ "Invalidated SceneInteractor"
++ "Invalidated transport session"
++ "Invalidating MCK session"
++ "Invalidating MCKSession"
++ "Invalidating StreamServer"
++ "Invalidating audio stream"
++ "Invalidating controlStream"
++ "Invalidating media stream lifecycle monitoring"
++ "Invalidating mediaStream: "
++ "Invalidating prior session due to session preemption."
++ "Invalidating remoteDisplaySession"
++ "Invalidating video stream"
++ "Invalidating wifi reservation"
++ "Invalidation already in progress"
++ "Invalidation complete"
++ "Invalidation failed with error: "
++ "Live Activity is now visible"
++ "Live resize is in progress, ignoring HID event: %{public}s"
++ "Live resize is in progress, ignoring RTI message: %{public}s"
++ "Live resize is in progress, ignoring accessibility message: %{public}s"
++ "Live resize is in progress, ignoring drag event: %{public}s"
++ "Live resize is in progress, ignoring system gesture event: %{public}s"
++ "LiveActivity scene delegate requested in unsupported session, we are likely showing this erroneously!"
++ "LiveActivity scene delegate requested without session, we are likely showing this erroneously!"
++ "Local device is ineligible"
++ "Local rendering is now active"
++ "MCKBackedContinuityServerSession is nil on "
++ "Media stream creation failed with error: %{public}@"
++ "Media stream of type: %{public}s activated, cancelling timeout"
++ "Media stream of type: %{public}s failed to activate: %{public}@"
++ "Media stream of type: %{public}s interrupted: %{public}@"
++ "MediaContinuityClient"
++ "MediaContinuityKit FF is enabled and device supports MediaContinuityKit"
++ "MediaContinuityServer activated successfully with result: "
++ "MediaTransportServer interrupted"
++ "MediaTransportServer invalidated"
++ "MediaTransportServer.activate"
++ "MediaTransportServer.deactivate"
++ "MediaTransportServerAndSession #%{public}ld state: Interrupted with error: %{public}s"
++ "MediaTransportServerAndSession #%{public}ld state: Invalidated"
++ "MediaTransportServerAndSession #%{public}ld state: Tearing Down"
++ "MediaTransportServerAndSession #%{public}ld state: Unactivated"
++ "MediaTransportServerAndSession is in state: %{public}s, not tearing it down again"
++ "MediaTransportServerSession was not in a terminal state before deinit"
++ "MirroringSession: notification interaction"
++ "Missing client ID, cannot record end of session."
++ "Missing continuityClientSession"
++ "Missing mckSession"
++ "Missing playback server when trying to enqueue HID services, tearing down"
++ "Monitoring device sensor usage during a session"
++ "Monitoring resizability changes"
++ "Monitoring scene orientation changes"
++ "Monitoring scene size changes"
++ "Negotiation data missing from event: %{public}s"
++ "No controlStream yet, stashing continuation..."
++ "No matching session to remove"
++ "No prior session to handle"
++ "No session to clean up"
++ "Not removing currentSession as %{public}s does not match"
++ "Physical display missing"
++ "Policies are already being applied, ignoring request to apply again"
++ "Policies are not currently being applied, ignoring request to stop applying"
++ "Process termination requested - calling abort()"
++ "RPRemoteDisplayServer activated successfully"
++ "RPRemoteDisplaySession %{public}@ ended due to: %{public}s"
++ "RPRemoteDisplaySession %{public}@ started"
++ "RPRemoteDisplaySession %{public}@ started after server was interrupted, returning error to Rapport"
++ "RPRemoteDisplaySession %{public}@ started before server is activated, returning error to Rapport"
++ "RPRemoteDisplaySession did not pass an error,\ninterrupting the session with internalSessionError"
++ "RPRemoteDisplaySession did not pass an error, ignoring"
++ "RPRemoteDisplaySession encountered an error: %{public}@"
++ "RPRemoteDisplaySession interrupted"
++ "RPRemoteDisplaySession invalidated"
++ "RPStreamServer invalidated"
++ "RPStreamServer invalidated without being asked, notify the delegate"
++ "RavenStreamContinuityKit"
++ "Received %{public}s instead of %{public}s, interrupting."
++ "Received SceneInteractor status change while in invalid state: %{public}s, ignoring"
++ "Received bring up device sensor in use while in invalid state: %{public}s, ignoring"
++ "Received canvas sizes: %{public}s"
++ "Received client message: %{public}s"
++ "Received client startup configuration"
++ "Received interruption %{public}@ while already interrupted due to: %{public}@, allowing earlier error to take precedent"
++ "Received interruption before session has been accepted, handler will be called at accept time: %{public}@"
++ "Received interruption error: %{public}@ while in state: %{public}s with current interruption error set to: %{public}@"
++ "Received interruption error: %{public}@ while in state: %{public}s with interruption error: %{public}@"
++ "Received interruption while invalidated, ignoring: %{public}@"
++ "Received interruption without a interruptionHandler %{public}@"
++ "Received interruption without an interruptionHandler %{public}@"
++ "Received media stream invalidated event with an unknown stream ID: %{public}s, ignoring"
++ "Received more than one control stream"
++ "Received negotiation answer for %{public}s which is missing, interrupting."
++ "Received new stream connection while in state %{public}s, rejecting"
++ "Received resizability update from the server: %{bool,public}d"
++ "Received scene size change from the server: %{public}s"
++ "Received session event: "
++ "Received session: "
++ "Received unknown type from server (%{public}s), ignoring"
++ "Recorded end of session for audit purposes."
++ "Region of interest changed: %{public}s"
++ "Registering reply token: %{public}s"
++ "Releasing session: %{public}s"
++ "Replied to token: "
++ "ResizedAppDuringSession"
++ "Running MCK sessionMonitor Task"
++ "SSKBringupAVStreamsActivated"
++ "SSKBringupActivatingAVStreams"
++ "SSKBringupActivatingControlStream"
++ "SSKBringupBluetoothPoweredOn"
++ "SSKBringupCheckingDevicePairedForUnlock"
++ "SSKBringupContinuityDeviceInfoFetch"
++ "SSKBringupContinuityEnabled"
++ "SSKBringupControlStreamActivated"
++ "SSKBringupDeterminingInitialWindow"
++ "SSKBringupDeviceEligibility"
++ "SSKBringupDeviceIsOnSupportedOS"
++ "SSKBringupDeviceRestricted"
++ "SSKBringupDeviceScreenSizeIsAvailable"
++ "SSKBringupDeviceSupported"
++ "SSKBringupICloudHealth"
++ "SSKBringupICloudSignedIn"
++ "SSKBringupInitialHandshake"
++ "SSKBringupInitiatingSession"
++ "SSKBringupIsLocalAuthenticationRequired"
++ "SSKBringupLocalAuthenticationComplete"
++ "SSKBringupLocalAuthenticationIsNotRequired"
++ "SSKBringupLocalAuthenticationIsRequired"
++ "SSKBringupLocalAuthenticationStarted"
++ "SSKBringupLocalAuthorizationProvided"
++ "SSKBringupLocalPasscodeOrBiometricsSet"
++ "SSKBringupMissingDefaultsMovingToOnboarding"
++ "SSKBringupMissingUnlockPairingMovingToOnBoarding"
++ "SSKBringupOnboardingComplete"
++ "SSKBringupPriorOnboardingComplete"
++ "SSKBringupProgressBlocked"
++ "SSKBringupReadyToUnlock"
++ "SSKBringupRemoteDeviceUnlocked"
++ "SSKBringupRemoteUnlockPairingIsAvailable"
++ "SSKBringupReplicatorDeviceFound"
++ "SSKBringupSessionActive"
++ "SSKBringupSessionInitialized"
++ "SSKBringupWifiPoweredOn"
++ "ScaledDuringSession"
++ "ScaledUsingResizeCursor"
++ "ScaledUsingViewMenu"
++ "Scene orientation status changed, notifying client: %{public}s"
++ "Scene resizability changed, notifying client: %{public}s"
++ "Scene size changed, notifying client: %{public}s"
++ "SceneInteractor is blocked because: %{public}s, notifying client"
++ "SceneInteractor is ready for HID services to connect, enqueueing startup events"
++ "SceneInteractor is ready for audio/video streams, notifying client"
++ "SceneInteractor is ready to unlock, notifying client"
++ "SceneInteractor is waiting for active, notifying client"
++ "SceneInteractor provided displayIdentifier: "
++ "ScreenSharingKit.SendOnceTelemetryProvider"
++ "ScreenSharingKit.StrokeLayer"
++ "ScreenSharingKit/AWDLServiceBackedWiFiTrafficReservation.swift"
++ "ScreenSharingKit/ContinuityMirroringSession.swift"
++ "ScreenSharingKit/DisplayInformationBackedCanvasSizesPrimitives_iOS.swift"
++ "ScreenSharingKit/MCKBackedContinuityClientSession.swift"
++ "ScreenSharingKit/MCKControlStreamBackedControlTransport.swift"
++ "ScreenSharingKit/MediaTransportBackedContinuityClientSession.swift"
++ "ScreenSharingKit/MediaTransportServerAndSession.swift"
++ "ScreenSharingKit/MediaTransportStreamServer.swift"
++ "ScreenSharingKit/SceneInteractorBackedContinuitySession_iOS.swift"
++ "ScreenSharingKit/ScreenContinuityAngel_iOS.swift"
++ "ScreenSharingKit/StrokeLayer_iOS.swift"
++ "ScreenSharingKit/TransportProvidingContinuityServerSession.swift"
++ "Self disappeared before the invalidation continuation could be retrieved"
++ "Self missing after server interruption"
++ "Self went away before stream server could prepare, bailing out"
++ "Sending canvas sizes — canvas: %{public}s, stream: %{public}s"
++ "Sending session started message for %{public}s to the viewer"
++ "Sending stop message to peer"
++ "Sent .active to client"
++ "Sent .serverExiting("
++ "Sent .sessionEnd telemetry payload"
++ "Sent session started message for %{public}s to the viewer"
++ "Session %{public}s already has a control stream, rejecting"
++ "Session %{public}s already has a stream with ID %{public}s, rejecting"
++ "Session %{public}s failed to accept: %{public}@"
++ "Session %{public}s interrupted with error: %{public}@, invalidating"
++ "Session is already in a terminal state, ignoring interruption"
++ "Session monitor stream failed with error: "
++ "SessionManagement"
++ "Skipping resizability monitoring — canvas does not allow resizability"
++ "Started applying idle policies"
++ "Stopped applying policy engine policies"
++ "Stream server was invalidated without request, interrupting"
++ "Stream type: %{public}s invalidated, but was not found. Interrupting."
++ "Stream type: %{public}s invalidated, but we haven't created the stream, so ignoring the event"
++ "Telling server to clean up session: "
++ "This method should never be called for MediaTransport sessions"
++ "Timebomb already defused"
++ "Tracking session: %{public}s"
++ "Transport providing session interrupted: %{public}@"
++ "Transport sessions must use accept(canvasSizes:interruptionHandler:)"
++ "Trying to end session "
++ "Trying to invalidate while currently invalidating"
++ "Unable to remove session %@ due to: %@"
++ "Unexpected MediaContinuity session event: "
++ "Unexpected activation result: "
++ "Unexpected start event on the server side with sessionID: "
++ "Unexpected video stream event: "
++ "Unhandled event type: "
++ "Unhandled stream state: "
++ "UniversalResizability"
++ "Unknown streamID: %{public}s, rejecting"
++ "Unmapped SceneInteractorStep: %{public}s"
++ "Updated state to .invalidated"
++ "Updating MCKControlStreamBackedControlTransport state to %s"
++ "Using videoStreamConfiguration: %{public}s"
++ "Vending assertion for session: "
++ "Vending runtime assertion for %{public}@"
++ "Video stream failed with error: "
++ "Video stream supports region of interest changes, beginning monitoring"
++ "VideoStream attributes changed to %s"
++ "VideoStream receivedFirstFrame"
++ "We should never be told about activated state for stream type post activation: "
++ "We should never be told about unactivated state for stream type: "
++ "Withdrew assertion with ID: %{public}s, assertion: %{public}s"
++ "Wrapped server (%{public}s) emitted an error: %{public}@, emitting failure"
++ "Wrote session start to companion device"
++ "[INTERNAL ONLY] Scene size changes to any size besides systemUI size are unexpected,\nand very likely the result of size restoration state stored during a prior build."
++ "accept(canvasSizes:interruptionHandler:)"
++ "acceptIncoming(_:errorHandler:)"
++ "accepted"
++ "activateSceneInteractor()"
++ "activated"
++ "allowsResizability"
++ "attempt to create media streams without a session"
++ "audio state monitor ended with error: %{public}@"
++ "audio stream activation failed with error: "
++ "awaitServerReadiness()"
++ "awaitTransport()"
++ "checkiCloudHealth()"
++ "chromeRevealDuration"
++ "cleanupIfNeeded(for:)"
++ "com.apple.ScreenSharingKit.MediaTransportServer"
++ "configureDisplayServer(_:)"
++ "configureIncoming(_:streamID:)"
++ "connectedClientID missing, audit log for iPhone Mirroring sessions will be incorrect"
++ "continuitySession(_:didUpdateMinSize:maxSize:)"
++ "continuitySession(_:didUpdateResizability:)"
++ "continuitySession(_:didUpdateSceneSize:)"
++ "controlStream available, resuming continuation..."
++ "controlStream did change from %{public}s to %s, resuming continuation"
++ "controlStreamActivated failed with error: %@"
++ "controlStreamActivated()"
++ "cornerRadiusChanged"
++ "createAndActivateContinuityClientSession(for:)"
++ "createAudioStream()"
++ "createControlStream()"
++ "createControlStream(from:streamID:)"
++ "createMediaStream(from:type:)"
++ "createMediaStreams(for:)"
++ "createRPStreamSession(for:runInProcess:)"
++ "createVideoStream()"
++ "deactivate failed with error: "
++ "deactivateContinuityServers()"
++ "deactivated"
++ "deactivation complete"
++ "didReceive(controlStream:)"
++ "didReceive(mediaStream:)"
++ "dismissLiveActivity()"
++ "dragAndDropSceneConnected(_:)"
++ "drainReplyTokens()"
++ "enqueueKnownStartupMessages()"
++ "failed with error: "
++ "failedToConfigureControlStream(streamID:error:)"
++ "finished invalidation"
++ "handleIncomingSession(_:)"
++ "handleLocalSensorsInUseChange(with:)"
++ "handleSceneInteractorStatusChange(_:)"
++ "iPhone iCloud account needs repair for session #%{public}ld, tearing down"
++ "incoming session: "
++ "incomingAudioStream(_:)"
++ "incomingControlStream(_:)"
++ "incomingVideoStream(_:)"
++ "init(_:)"
++ "init(assertionBank:assertionVendor:terminationPrimitives:taskSleepPrimitives:timebombDuration:)"
++ "init(layer:)"
++ "init(rapportServiceType:displayInformationPrimitives:)"
++ "init(role:rapportStream:messenger:sessionID:)"
++ "init(role:rapportStream:messenger:sessionID:displayInformationPrimitives:)"
++ "initializePlaybackServer(using:)"
++ "initializeSceneInteractorMonitoring()"
++ "initializeSession()"
++ "initialized"
++ "interruptSession complete"
++ "interruptSession(withError:)"
++ "interrupted"
++ "invalid media stream type: %{public}s"
++ "invalidate(with:)"
++ "invalidated"
++ "liveResizeInProgress(_:)"
++ "mock-stream-indentifier"
++ "monitorAudioStreamStates(_:)"
++ "monitorIncomingClientMessages(from:)"
++ "monitorMCKSessionEvents(_:)"
++ "monitorMediaContinuitySessionEvents(_:)"
++ "monitorSessionStream(_:)"
++ "monitorVideoStreamStates(_:)"
++ "orientation information: "
++ "prepareIncoming(_:)"
++ "processCornerRadiusChangeEvent(_:)"
++ "processSizeChangeEvent(_:isOriginalSize:)"
++ "received(controlStreamInvalidated:)"
++ "received(mediaStreamInvalidated:)"
++ "receivedStarted(sessionID:)"
++ "receivedStopped()"
++ "receivedUnhandledEvent(_:options:)"
++ "registerTimeBombedSessionReceivedReplyToken()"
++ "remoteDisplaySession invalidation complete"
++ "removed session: "
++ "resizedApp"
++ "scaledUsingResizeCursor"
++ "scaledUsingViewMenu"
++ "sceneInteractorDidBecomeActive()"
++ "sceneResizabilityChanged"
++ "sceneSizeChanged"
++ "send(_:to:payload:)"
++ "serializeSessionInterruption(withError:)"
++ "session activated with session id: "
++ "sessionEnded(_:error:)"
++ "sessionPreempted"
++ "setScreenSharingVideoLayer(_:)"
++ "showLiveActivity()"
++ "sizeChangeRequested"
++ "startApplyingPolicies()"
++ "stopApplyingPolicies()"
++ "the audio stream was already started"
++ "unactivated"
++ "updateRegionOfInterest(_:)"
++ "video state monitor ended with error: %{public}@"
++ "video stream activation failed with error: %@"
++ "video stream attributesChanged with attrs: "
++ "writeCompanionDeviceSessionStart()"
+- "#16@0:8"
+- "$__lazy_storage_$_captureGestureRecognizer"
+- "$__lazy_storage_$_commandLineListener"
+- "$__lazy_storage_$_incomingControlMessagePublisher"
+- "$__lazy_storage_$_occurringActivityPublisher"
+- "$__lazy_storage_$_panGestureRecognizer"
+- "$__lazy_storage_$_policyResultPublisher"
+- "$__lazy_storage_$_remoteDisplaySession"
+- "$__lazy_storage_$_screenCapture"
+- "$__lazy_storage_$_tapGestureRecognizer"
+- "$defaultActor"
+- "%{public}s Client has completed in-flight teardown, returning"
+- "%{public}s Client in the process of tearing down, will wait for terminal state..."
+- "%{public}s Client is already in a terminal state, not interrupting again."
+- "%{public}s Client is already in a terminal state."
+- "%{public}s Client is in the process of tearing down, will wait for terminal state before resuming interruption call..."
+- "%{public}s cannot be activated because we've already become %s"
+- "%{public}s is already invalidated, ignoring interruption due to: %{public}s)"
+- "%{public}s is already tearing down, ignoring interruption due to: %{public}s)"
+- ".cxx_destruct"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/App/ScreenSharingSession.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/App/ScreenSharingSession.swiftcleanupSession() called when session is not in a terminal state"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/Extensions/CGPoint+PercentageLocation.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/API/Session/MediaTransportClientSession.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/ScreenSharingKit/ScreenSharingKit/MediaTransport/API/Session/MediaTransportServerSession.swift"
+- "2. MediaTransportServerSession #%{public}ld state: Activated #%{public}ld"
+- "@\"<AXPTranslationTransportCancellable>\"24@0:8@?<v@?@\"NSData\"@\"NSString\">16"
+- "@\"AXAccessQueue\"32@0:8@\"AXUIClient\"16Q24"
+- "@\"BSAuditToken\"16@0:8"
+- "@\"BSProcessHandle\"16@0:8"
+- "@\"NSDictionary\"48@0:8@\"AXUIClient\"16@\"NSDictionary\"24Q32^@40"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSString\"16@0:8"
+- "@\"UIView\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSArray\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@32@0:8:16@24"
+- "@32@0:8@16:24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16q24"
+- "@40@0:8:16@24@32"
+- "@48@0:8@16@24Q32^@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "AVCAudioStreamDelegate"
+- "AVCRemoteVideoClientDelegate"
+- "AVCScreenCaptureDelegate"
+- "AVCVideoStreamDelegate"
+- "AXPTranslationTransportCancellable"
+- "AXPTranslationTransportDelegate"
+- "AXUIClientDelegate"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Activating MediaTransportClientSession: Starting device discovery for %{public}s"
+- "Activating RPRemoteDisplaySession with device %s"
+- "Attempting to send stopped message to direct peer."
+- "Audio stream activated"
+- "Audio stream interrupted with: %{public}s"
+- "Audio stream invalidated"
+- "Audio stream tearing down"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"AXUIClient\"16Q24"
+- "B32@0:8@16Q24"
+- "BSCancellable"
+- "BSInvalidatable"
+- "BSServiceConnectionClient"
+- "BSServiceConnectionCommonConfiguring"
+- "BSServiceConnectionConfiguring"
+- "BSServiceConnectionHost"
+- "BSServiceConnectionListenerConfiguring"
+- "BSServiceConnectionListenerDelegate"
+- "BSXPCEncoding"
+- "CBCentralManagerDelegate"
+- "CGColor"
+- "CGImage"
+- "Captureview bounds within the window updated from %{public}s to %{public}s"
+- "Client session interrupted: %{public}s"
+- "Continuity session did update orientation information: %{public}s, supportedOrientations: %{public}s"
+- "Continuity session moved to step: %{public}s because: %{public}s"
+- "Control stream invalidated"
+- "Droppping keepAliveAssertion for session #%{public}ld"
+- "Failed to invalidate MediaTransportClientSession: %{public}s"
+- "Failed to send stopped message to server: %{public}@"
+- "Failed to set screen sharing video layer: %{public}@"
+- "FigCameraViewfinderDelegate"
+- "FigCameraViewfinderSessionDelegate"
+- "Found device matching identifier: %{public}s"
+- "Invalidated audio stream"
+- "Invalidated video stream"
+- "LayoutDirection: "
+- "Mac iCloud needs repair for session #%{public}ld, tearing down"
+- "MediaTransport is already tearing down. Ignoring interruption for %{public}s"
+- "MediaTransportClientSession is tearing down"
+- "MediaTransportClientSession state transitioned to: %{public}s"
+- "MediaTransportServerSession #%{public}ld state: Interrupted with error: %{public}s"
+- "MediaTransportServerSession #%{public}ld state: Invalidated"
+- "MediaTransportServerSession #%{public}ld state: Tearing Down"
+- "MediaTransportServerSession #%{public}ld state: Unactivated"
+- "MediaTransportServerSession is in state: %{public}s, not tearing it down again"
+- "MediaTransportServerSesssion was not in a terminal state before deinit"
+- "MediaTransportSession already terminal, ignoring error"
+- "Method not implemented yet. Do not use"
+- "NSObject"
+- "Not in a terminal or unactivated state at deinit: "
+- "Q16@0:8"
+- "QOS"
+- "RPRemoteDisplaySession activated!"
+- "RTIInputSystemDelegate"
+- "Received session started message from the server, but we're already terminal. Ignoring"
+- "Received session started message from the server, session is now activated..."
+- "Received unknown type from server (%{public}s, ignoring"
+- "Removing and invalidating AV streams"
+- "SBUIContinuitySessionDelegate"
+- "SFAuthenticationManagerDelegate"
+- "ScreenSharingKit/MediaTransportClientSession.swift"
+- "ScreenSharingKit/MediaTransportServerSession.swift"
+- "ScreenSharingKit/ScreenSharingSession.swift"
+- "ScreenSharingKit1"
+- "ScreenSharingKit2"
+- "ScreenSharingSession: notification interaction"
+- "Self disappeared before the invalidaiton continuation could be retrieved"
+- "Self went await before stream server could prepare, bailing out"
+- "Session activated"
+- "Session client state changed from %{public}s to %{public}s"
+- "SessionID is uninitialized"
+- "Setting sessionID: %s"
+- "Setting up monitoring for MediaTransportClientSession state"
+- "Starting up controlMessageTransport"
+- "T#,R"
+- "T@\"BSAuditToken\",R,N"
+- "T@\"BSProcessHandle\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIView\",N,&"
+- "T@\"UIView\",R,W,N"
+- "TQ,R"
+- "The session is already active, cannot activate"
+- "Tq,N"
+- "UIInteraction"
+- "URLForResource:withExtension:"
+- "Unable to create %{public}s, state is now: %{public}s"
+- "Video stream activated"
+- "Video stream interrupted with: %{public}s"
+- "Video stream invalidated"
+- "Video stream tearing down"
+- "Vv16@0:8"
+- "WiFi reservation failed: %{public}s"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_TtC16ScreenSharingKit11AngelClient"
+- "_TtC16ScreenSharingKit11AngelServer"
+- "_TtC16ScreenSharingKit11StrokeLayer"
+- "_TtC16ScreenSharingKit12HIDDebugInfo"
+- "_TtC16ScreenSharingKit14PlaybackServer"
+- "_TtC16ScreenSharingKit15MockMediaStream"
+- "_TtC16ScreenSharingKit15TaskBackedTimer"
+- "_TtC16ScreenSharingKit16PowerLogConsumer"
+- "_TtC16ScreenSharingKit16SignpostConsumer"
+- "_TtC16ScreenSharingKit17TelemetryProvider"
+- "_TtC16ScreenSharingKit18AnimatedStrokeView"
+- "_TtC16ScreenSharingKit18AppTelemetryVendor"
+- "_TtC16ScreenSharingKit18CAPackageViewLayer"
+- "_TtC16ScreenSharingKit18ConcreteAXUIClient"
+- "_TtC16ScreenSharingKit18PowerLogPrimitives"
+- "_TtC16ScreenSharingKit18RTIMessageConsumer"
+- "_TtC16ScreenSharingKit18ServerPolicyEngine"
+- "_TtC16ScreenSharingKit18iOSTelemetryVendor"
+- "_TtC16ScreenSharingKit19CATelemetryConsumer"
+- "_TtC16ScreenSharingKit19MockTelemetryVendor"
+- "_TtC16ScreenSharingKit20AngelServerAssertion"
+- "_TtC16ScreenSharingKit20CAOnboardingConsumer"
+- "_TtC16ScreenSharingKit20CaptureUIInteraction"
+- "_TtC16ScreenSharingKit20ScreenSharingSession"
+- "_TtC16ScreenSharingKit21ControlMessageSession"
+- "_TtC16ScreenSharingKit21SignpostingPrimitives"
+- "_TtC16ScreenSharingKit22CAEndOfSessionConsumer"
+- "_TtC16ScreenSharingKit22DragAndDropEventRouter"
+- "_TtC16ScreenSharingKit22ServerPolicyApplicator"
+- "_TtC16ScreenSharingKit23EmptyRTIMessageConsumer"
+- "_TtC16ScreenSharingKit23FaceTimeTelemetryVendor"
+- "_TtC16ScreenSharingKit23MockRTIStateCoordinator"
+- "_TtC16ScreenSharingKit23UIViewDrawEventProducer"
+- "_TtC16ScreenSharingKit24ActivityAssertionManager"
+- "_TtC16ScreenSharingKit24AnnotationServicesClient"
+- "_TtC16ScreenSharingKit24CaptureGestureRecognizer"
+- "_TtC16ScreenSharingKit24DragAndDropEventConsumer"
+- "_TtC16ScreenSharingKit24MockControlMessageStream"
+- "_TtC16ScreenSharingKit24MockHIDServicePrimitives"
+- "_TtC16ScreenSharingKit24MockNetworkStatusMonitor"
+- "_TtC16ScreenSharingKit25AppSessionTelemetryVendor"
+- "_TtC16ScreenSharingKit25DragAndDropSceneContainer"
+- "_TtC16ScreenSharingKit25MediaTransportAudioStream"
+- "_TtC16ScreenSharingKit25MediaTransportVideoStream"
+- "_TtC16ScreenSharingKit25MockFeatureFlagPrimitives"
+- "_TtC16ScreenSharingKit26GuaranteedCalledCompletion"
+- "_TtC16ScreenSharingKit26MockLaunchRequestAuthority"
+- "_TtC16ScreenSharingKit26MockUserDefaultsPrimitives"
+- "_TtC16ScreenSharingKit26ServerDragSurrogateManager"
+- "_TtC16ScreenSharingKit26ServerDragSurrogateSession"
+- "_TtC16ScreenSharingKit26SignpostingTelemetryVendor"
+- "_TtC16ScreenSharingKit26UIViewControlEventProducer"
+- "_TtC16ScreenSharingKit27MediaTransportClientSession"
+- "_TtC16ScreenSharingKit27MediaTransportControlStream"
+- "_TtC16ScreenSharingKit27MediaTransportServerSession"
+- "_TtC16ScreenSharingKit27ServerDragForwardingManager"
+- "_TtC16ScreenSharingKit27ServerDragForwardingSession"
+- "_TtC16ScreenSharingKit28AccessibilityTelemetryVendor"
+- "_TtC16ScreenSharingKit29EmptyDragAndDropEventConsumer"
+- "_TtC16ScreenSharingKit29TimeBackedTaskSleepPrimitives"
+- "_TtC16ScreenSharingKit29UHIDBackedSystemEventConsumer"
+- "_TtC16ScreenSharingKit29UIDeviceBackedPowerPrimitives"
+- "_TtC16ScreenSharingKit30DemoModeUserDefaultsPrimitives"
+- "_TtC16ScreenSharingKit30MockContinuityDevicePrimitives"
+- "_TtC16ScreenSharingKit30MockHIDEventObserverPrimitives"
+- "_TtC16ScreenSharingKit30NotifyingPlaybackEventConsumer"
+- "_TtC16ScreenSharingKit31CABackedMicaAnimationPrimitives"
+- "_TtC16ScreenSharingKit31MockMediaTransportClientSession"
+- "_TtC16ScreenSharingKit32CoreAnalyticsReportingPrimitives"
+- "_TtC16ScreenSharingKit32MockAccessibilityStatePrimitives"
+- "_TtC16ScreenSharingKit32ScreenSharingAnnotationViewModel"
+- "_TtC16ScreenSharingKit33CoreWiFiBackedLocalWiFiPrimitives"
+- "_TtC16ScreenSharingKit33InactivityTimeoutConditionMonitor"
+- "_TtC16ScreenSharingKit33ProxyingClientStatusEventConsumer"
+- "_TtC16ScreenSharingKit33RapportBackedMediaTransportDevice"
+- "_TtC16ScreenSharingKit33UHIDKitBackedControlEventConsumer"
+- "_TtC16ScreenSharingKit35FigCameraBackedDeviceSensorObserver"
+- "_TtC16ScreenSharingKit35UHIDBackedSystemEventConsumerVendor"
+- "_TtC16ScreenSharingKit36AccessibilityBackedDrawEventConsumer"
+- "_TtC16ScreenSharingKit36MockHIDEventObserverPrimitivesVendor"
+- "_TtC16ScreenSharingKit36MockLocalDeviceInformationPrimitives"
+- "_TtC16ScreenSharingKit36ProxyingAccessibilityMessageConsumer"
+- "_TtC16ScreenSharingKit36SpringBoardBackedSystemEventConsumer"
+- "_TtC16ScreenSharingKit37MockMediaTransportClientSessionVendor"
+- "_TtC16ScreenSharingKit37SharingBackedAuthenticationPrimitives"
+- "_TtC16ScreenSharingKit38AXPBackedAccessibilityServerPrimitives"
+- "_TtC16ScreenSharingKit38DemoModeRemoteAuthenticationPrimitives"
+- "_TtC16ScreenSharingKit38FoundationBackedUserDefaultsPrimitives"
+- "_TtC16ScreenSharingKit39NWPathMonitorBackedNetworkStatusMonitor"
+- "_TtC16ScreenSharingKit39UHIDKitBackedControlEventConsumerVendor"
+- "_TtC16ScreenSharingKit40AppleAccountBackedAccountStorePrimitives"
+- "_TtC16ScreenSharingKit42AccessibilityBackedDrawEventConsumerVendor"
+- "_TtC16ScreenSharingKit42SpringBoardBackedSystemEventConsumerVendor"
+- "_TtC16ScreenSharingKit42SpringBoardUIServicesBackedSceneInteractor"
+- "_TtC16ScreenSharingKit42UHIDBackedHIDEventObserverPrimitivesVendor"
+- "_TtC16ScreenSharingKit43CoreBluetoothBackedLocalBluetoothPrimitives"
+- "_TtC16ScreenSharingKit43RapportBackedMediaTransportDeviceDiscoverer"
+- "_TtC16ScreenSharingKit44DemoModeRemoteAuthenticationPrimitivesVendor"
+- "_TtC16ScreenSharingKit46MediaTransportBackedScreenSharingSessionVendor"
+- "_TtC16ScreenSharingKit47LSAppWorkspaceBackedApplicationLaunchPrimitives"
+- "_TtC16ScreenSharingKit50MediaExperienceBackedMediaPlaybackStatusPrimitives"
+- "_TtC16ScreenSharingKit51MediaExperienceBackedMicrophoneDeviceSensorObserver"
+- "_TtC16ScreenSharingKit54AVSystemControllerBackedMicrophoneDeviceSensorObserver"
+- "_TtC16ScreenSharingKit55ContinuityDeviceBackedMediaTransportClientSessionVendor"
+- "_TtC16ScreenSharingKit55NotificationSettingsBackedRemoteNotificationsPrimitives"
+- "_TtC16ScreenSharingKit56ScreenContinuityServicesBackedContinuityDevicePrimitives"
+- "_TtC16ScreenSharingKit58ContinuityDeviceBackedRemoteAuthenticationPrimitivesVendor"
+- "_TtC16ScreenSharingKit6Stroke"
+- "_TtC16ScreenSharingKitP33_12D681FD0EE506CBA19615B588CDC09820KeyboardEventService"
+- "_TtC16ScreenSharingKitP33_C4BC145587B8D96BAC0EAFA20E073A4D19ResourceBundleClass"
+- "_TtC16ScreenSharingKitP33_E486BC24D0FBB1CF7CA8A1F0DF314F0833ScreenSharingKitBundleMarkerClass"
+- "_TtCC16ScreenSharingKit22CAEndOfSessionConsumer9EOSReport"
+- "_TtCC16ScreenSharingKit24ActivityAssertionManager9Assertion"
+- "_TtP16ScreenSharingKit26CommandLineServerInterface_"
+- "_assertions"
+- "_availableHardwareGestures"
+- "_bluetoothState"
+- "_bringUpDeviceSensorsInUse"
+- "_clearStroke"
+- "_clearStrokes"
+- "_clearStrokesTimerSubscription"
+- "_continuityDeviceInfo"
+- "_currentHIDServices"
+- "_currentState"
+- "_currentStateNeedsAccessibility"
+- "_deviceOrientation"
+- "_forceRefresh"
+- "_interactionState"
+- "_isActive"
+- "_isWiFiPoweredOn"
+- "_mediaStreamsByType"
+- "_mediaTransportClientSession"
+- "_networkStatus"
+- "_points"
+- "_scene"
+- "_sensorsInUse"
+- "_sentMessages"
+- "_startSessionCalled"
+- "_streamsByIdentifier"
+- "_strokes"
+- "_tapPoints"
+- "_videoLayer"
+- "_view"
+- "aa_primaryAppleAccount"
+- "accessbilityDataSubject"
+- "accessibilityDataSubject"
+- "accessibilityEventCancellationHandle"
+- "accessibilityMessageConsumer"
+- "accessibilityMessageProducer"
+- "accessibilityPrimitives"
+- "accessibilityTrafficSeen"
+- "accessibilityTranslationTransportAddReceiveDataHandler:"
+- "accessibilityTranslationTransportCancel"
+- "accessibilityTranslationTransportSendData:completionHandler:"
+- "accessibilityUsed"
+- "acquireScreenRecordingAssertion"
+- "acquireWithError:"
+- "activate"
+- "activateConstraints:"
+- "activateWithCompletion:"
+- "activeStrokeID"
+- "activeStrokeUUID"
+- "addCommitHandler:forPhase:"
+- "addGestureRecognizer:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSublayer:"
+- "addSubview:"
+- "angelServerSignposts"
+- "angelServerTelemetry"
+- "annotationServiceClient"
+- "answer"
+- "appName"
+- "approveByMacDelegate"
+- "attributeForKey:"
+- "attributeWithDomain:name:"
+- "audioStream"
+- "audioStreamDelegateContinuation"
+- "audioVideoStreams"
+- "authenticateForType:withOptions:"
+- "authenticationManager"
+- "authenticationQueue"
+- "authenticationResponseDelay"
+- "autorelease"
+- "avController"
+- "avStreamActivationDelay"
+- "avSystemController"
+- "availableDeliveryModes"
+- "axPrimitivesDataSubscription"
+- "axpManager"
+- "axpTransportDataHandler"
+- "basicKeyboardServiceID"
+- "basicMouseServiceID"
+- "batteryState"
+- "begin"
+- "boolForKey:"
+- "bounds"
+- "bringupMicrophoneDeviceSensorPrimitives"
+- "bufferedSendingContinuation"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "cameraDeviceSensorPrimitives"
+- "cameraViewfinder"
+- "cameraViewfinder:viewfinderSessionDidBegin:"
+- "cameraViewfinder:viewfinderSessionDidEnd:"
+- "cameraViewfinder:viewfinderSessionWillBegin:"
+- "cameraViewfinderDelegateQueue"
+- "cameraViewfinderSession:didCapturePhotoWithStatus:thumbnailData:timestamp:"
+- "cameraViewfinderSession:previewStreamDidCloseWithStatus:"
+- "cameraViewfinderSessionDidFinishMovieRecording:"
+- "cameraViewfinderSessionDidStartMovieRecording:"
+- "cameraViewfinderSessionPreviewStreamDidOpen:"
+- "cancel"
+- "cancelAuthenticationSessionWithID:"
+- "captureSourceID"
+- "captureView"
+- "captureViewBounds"
+- "centerXAnchor"
+- "centerYAnchor"
+- "centralManager"
+- "centralManager:connectionEventDidOccur:forPeripheral:"
+- "centralManager:didConnectPeripheral:"
+- "centralManager:didDisconnectPeripheral:error:"
+- "centralManager:didDisconnectPeripheral:timestamp:isReconnecting:error:"
+- "centralManager:didDiscoverPeripheral:advertisementData:RSSI:"
+- "centralManager:didFailToConnectPeripheral:error:"
+- "centralManager:didUpdateANCSAuthorizationForPeripheral:"
+- "centralManager:willRestoreState:"
+- "centralManagerDidUpdateState:"
+- "class"
+- "clearColor"
+- "clientActivated"
+- "clientAuditToken"
+- "clientConfiguration"
+- "clientStatusEventCancellationHandle"
+- "clientStatusEventConsumer"
+- "code"
+- "commandLineConnections"
+- "commandLineServiceSpecification"
+- "commit"
+- "companionDeviceID"
+- "companionDeviceManager"
+- "conditionStorage"
+- "config"
+- "configure:error:"
+- "configureConnection:"
+- "conformsToProtocol:"
+- "connectionEndpoint"
+- "connectionIdentifier"
+- "connectionWithEndpoint:clientContextBuilder:"
+- "connectionWithServiceWasInterruptedForUserInterfaceClient:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:multiplier:"
+- "contextForPrimaryAccount"
+- "continuation"
+- "continuityDevice"
+- "continuityDevicePrimitives"
+- "continuityLaunchSubject"
+- "continuitySession:didUpdateContinuitySessionStep:reasons:"
+- "continuitySession:didUpdateCurrentInterfaceOrientation:supportedInterfaceOrientations:"
+- "controlChannelInvalidated error: %{public}s"
+- "controlEventCancellationHandle"
+- "controlEventConsumerProvider"
+- "controlEventProducer"
+- "controlMessageSession"
+- "controlMessageStream"
+- "controlMessageStreams"
+- "controlStreamContinuation"
+- "controlStreamIdentifiers"
+- "controlType"
+- "convertRect:toCoordinateSpace:"
+- "coordinateTransform"
+- "copy"
+- "coreWiFiInterface"
+- "createMediaStream(_:)"
+- "creationTimestamp"
+- "currentCommandLineSessionStateWithCompletionHandler:"
+- "currentContext"
+- "currentContinuityDevice"
+- "currentContinuityLiveActivity"
+- "currentControlEventConsumer"
+- "currentDataPayload"
+- "currentDevice"
+- "currentDisplayRegistration"
+- "currentDragAndDropEventConsumer"
+- "currentDrawEventConsumer"
+- "currentLaunchRequest"
+- "currentLaunchingProxy"
+- "currentProcess"
+- "currentRTIMessageConsumer"
+- "currentRemoteDisplaySession"
+- "currentSceneInteractor"
+- "currentSceneInteractorStep"
+- "currentServerState"
+- "currentSession"
+- "currentSessionInfo"
+- "currentState"
+- "currentState changed to %{public}s before we could setup audio stream"
+- "currentSystemEventConsumer"
+- "currentVideoLayer"
+- "customBlockedReasons"
+- "customConsumer"
+- "data"
+- "dataStream"
+- "dataStreamContinuation"
+- "dataWithJSONObject:options:error:"
+- "deactivateConstraints:"
+- "dealloc"
+- "debugDescription"
+- "decodeStringForKey:"
+- "defaultCenter"
+- "defaultStore"
+- "defaultWorkspace"
+- "defaults"
+- "delegate"
+- "demoDefaults"
+- "description"
+- "destinationDevice"
+- "deviceDiscovery"
+- "deviceEligibilityPrimitives"
+- "deviceID"
+- "deviceIDs"
+- "deviceIdentifier"
+- "deviceInformationPrimitives"
+- "deviceOrientation"
+- "deviceRestrictionPrimitives"
+- "deviceSensorInUseBringUpSubscription"
+- "deviceSensorInUseInSessionSubscription"
+- "deviceSensorsInUseSubject"
+- "didAnimate"
+- "didConsumeSubject"
+- "didEndTracking"
+- "didInterrupt"
+- "didMoveToView:"
+- "didRemoteStop"
+- "direction"
+- "disableDeviceContinuation"
+- "disableForType:withIDSDeviceID:"
+- "discoveryBluetoothRSSIThreshold"
+- "discoveryQueue"
+- "discoveryTimeout"
+- "dispatchQueue"
+- "displayHardwareIdentifier"
+- "displayRegistrationVendor"
+- "displayScale"
+- "displayServerHandlerContinuation"
+- "domain"
+- "dragAndDropEventCancellationHandle"
+- "dragAndDropEventConsumerProvider"
+- "dragAndDropEventEventCancellationHandle"
+- "dragAndDropEventSubject"
+- "dragAndDropShieldWindowSceneContainer"
+- "dragController"
+- "dragControllerEventContinuation"
+- "dragControllerEventMonitoringTask"
+- "dragControllerEventStream"
+- "dragCounter"
+- "dragIdentifier"
+- "dragObserver"
+- "dragObserverEventContinuation"
+- "dragObserverEventMonitoringTask"
+- "dragObserverEventStream"
+- "dragSessionProxy"
+- "drawEventCancellationHandle"
+- "drawEventConsumerProvider"
+- "drawEventProducer"
+- "duration"
+- "durationLandscapeLeft"
+- "durationLandscapeRight"
+- "durationPortrait"
+- "durationUpsideDown"
+- "emitterCell"
+- "emitterLayer"
+- "enabledAsLock"
+- "encodeBool:forKey:"
+- "encodeCGPoint:forKey:"
+- "encodeCGRect:forKey:"
+- "encodeCGSize:forKey:"
+- "encodeCollection:forKey:"
+- "encodeDictionary:forKey:"
+- "encodeDouble:forKey:"
+- "encodeInt64:forKey:"
+- "encodeObject:forKey:"
+- "encodeStruct:withObjCType:forKey:"
+- "encodeUInt64:forKey:"
+- "encodeWithError:"
+- "encodeXPCObject:forKey:"
+- "endpointForMachName:service:instance:"
+- "eosReport"
+- "eventConsumers"
+- "eventContinuation"
+- "eventHandler"
+- "eventMask"
+- "eventModifiersMask"
+- "eventName"
+- "eventObserver"
+- "eventObserverPrimitivesVendor"
+- "eventRouter"
+- "eventStream"
+- "eventSubject"
+- "facetimeSenderID"
+- "featureFlagPrimitives"
+- "featureFlagsState"
+- "foregroundDuration"
+- "forwardingManager"
+- "forwardingSessions"
+- "forwardingState"
+- "frame"
+- "generateMediaStreamConfigurationWithError:"
+- "generateMediaStreamInitOptionsWithError:"
+- "generationIdentifier"
+- "gestureRecognizerTouchesFilter"
+- "getDaemonProcessInfo"
+- "handleContinuityButtonEvent:"
+- "handleLaunchEventOfType:payload:"
+- "handlePan:"
+- "handleTap:"
+- "handleTextActionPayload:"
+- "hardwareIdentifier"
+- "hasActivated"
+- "hasEntitlement:"
+- "hasNotifiedSpringBoardOfConfiguredHIDServices"
+- "hasSentFirstMessage"
+- "hash"
+- "heightAnchor"
+- "hidDebugInfo"
+- "hidReportsCountByServiceID"
+- "hidServicePrimitives"
+- "iCloudHealthPrimitives"
+- "id"
+- "identifier"
+- "identity"
+- "idsDeviceID"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "inSessionMicrophoneDeviceSensorPrimitives"
+- "inactivityTimerIsRunningSubject"
+- "incomingDataPublisher"
+- "init"
+- "init(rapportServiceType:)"
+- "init(role:rapportStream:currentSession:sessionID:)"
+- "init(with:for:deviceDiscovery:telemetryProvider:testConfiguration:)"
+- "initForService:"
+- "initWithBool:"
+- "initWithBundleIdentifier:encodedRemoteAppIdentifier:"
+- "initWithCoder:"
+- "initWithContext:"
+- "initWithDelegate:withConfig:"
+- "initWithDomain:code:userInfo:"
+- "initWithExplanation:target:attributes:"
+- "initWithFrame:"
+- "initWithIdentifier:serviceBundleName:"
+- "initWithInteger:"
+- "initWithLayer:"
+- "initWithMachName:"
+- "initWithMode:error:"
+- "initWithNWConnectionClientID:options:error:"
+- "initWithNetworkSockets:options:error:"
+- "initWithOffer:error:"
+- "initWithQueue:"
+- "initWithRTPNWConnectionClientID:rtcpNWConnectionClientID:options:error:"
+- "initWithStreamToken:delegate:"
+- "initWithTarget:action:"
+- "initWithType:"
+- "initWithUnsignedInt:"
+- "inputSystemService:didCreateInputSession:"
+- "inputSystemService:inputSession:didAddRTISupplementalLexicon:"
+- "inputSystemService:inputSession:didAddSupplementalLexicon:"
+- "inputSystemService:inputSession:didRemoveRTISupplementalLexicon:"
+- "inputSystemService:inputSession:didRemoveSupplementalLexicon:"
+- "inputSystemService:inputSession:documentStateDidChange:"
+- "inputSystemService:inputSession:documentTraitsDidChange:"
+- "inputSystemService:inputSession:performInputOperation:"
+- "inputSystemService:inputSession:performInputOperation:withResponse:"
+- "inputSystemService:inputSession:textSuggestionsChanged:"
+- "inputSystemService:inputSessionDidBegin:"
+- "inputSystemService:inputSessionDidBegin:options:"
+- "inputSystemService:inputSessionDidDie:"
+- "inputSystemService:inputSessionDidEnd:"
+- "inputSystemService:inputSessionDidEnd:options:"
+- "inputSystemService:inputSessionDidEnd:options:completion:"
+- "inputSystemService:inputSessionDidPause:withReason:"
+- "inputSystemService:inputSessionDidUnpause:withReason:"
+- "inputSystemService:inputSessionDocumentDidChange:"
+- "inputSystemService:prepareForInputSession:options:"
+- "inputs"
+- "integerForKey:"
+- "interactionEventSubscription"
+- "interactionState"
+- "interestedEvents"
+- "interfaceWithIdentifier:"
+- "interruptionError"
+- "interruptionHandler"
+- "invalid meadia stream type: %{public}s"
+- "invalidate"
+- "invalidate:"
+- "isActivated"
+- "isAudioStreamRunning"
+- "isContinuityDisplay"
+- "isDeviceSupported"
+- "isEqual:"
+- "isFinished"
+- "isInternal"
+- "isInterrupted"
+- "isInvalidated"
+- "isKindOfClass:"
+- "isManateeAvailable:"
+- "isMemberOfClass:"
+- "isMonitoring"
+- "isNegotiationComplete"
+- "isOnenessAllowed"
+- "isPlayingNotificationSubscription"
+- "isPluggedInSubscription"
+- "isProcessingData"
+- "isProxy"
+- "isRTIEnabled"
+- "isRunInProcess"
+- "isStrokeActive"
+- "isTimerRunningSubject"
+- "isValid"
+- "isVideoStreamRunning"
+- "keepAliveAssertion"
+- "keyboardFilter"
+- "lastOrientationChange"
+- "launchEventType"
+- "launchOptions"
+- "launchPayloadProcessor"
+- "launchRequest"
+- "launchRequestAuthority"
+- "layer"
+- "layoutIfNeeded"
+- "layoutSublayers"
+- "layoutSubviews"
+- "listCandidateDevicesForType:completionHandler:"
+- "listener:didReceiveConnection:withContext:"
+- "listenerWithConfigurator:"
+- "localDeviceInformationPrimitives"
+- "localDevicePrimitives"
+- "localDrawingView"
+- "localDrawingViewConstraints"
+- "localDrawingViewModel"
+- "localizedDescription"
+- "locationFromPointPercentage(in:layoutDirection:)"
+- "locationInView:"
+- "mainAccessQueue"
+- "mainBundle"
+- "mainDisplay"
+- "mainQueue"
+- "mainRunLoop"
+- "manager"
+- "manager:didCompleteAuthenticationForSessionWithID:"
+- "manager:didDisableAuthenticationForSessionWithID:"
+- "manager:didEnableAuthenticationForSessionWithID:"
+- "manager:didFailApproveForSessionWithID:error:"
+- "manager:didFailAuthenticationForSessionWithID:error:"
+- "manager:didFailToDisableDeviceForSessionWithID:error:"
+- "manager:didFailToEnableDeviceForSessionWithID:error:"
+- "manager:didReceiveRequestToApproveForSessionID:info:completionHandler:"
+- "manager:didReceiveRequestToApproveForSessionWithID:info:completionHandler:"
+- "manager:didStartAuthenticationForSessionWithID:"
+- "mediaPlaybackStatusPrimitives"
+- "mediaStreamByType"
+- "mediaStreamContinuation"
+- "mediaTransportActivationContinuation"
+- "mediaTransportCancellable"
+- "mediaTransportClientSession"
+- "mediaTransportClientSessionVendor"
+- "mediaTransportIsTearingDown"
+- "mediaTransportSessionGeneration"
+- "mediaTransportStreamCancellables"
+- "messageSender"
+- "mockHIDEventObserverPrimitives"
+- "monitor"
+- "mutableCopy"
+- "name"
+- "negotiator"
+- "nextID"
+- "normalizedPath"
+- "noteHIDServicesConfigured"
+- "noteScreenshotCaptured"
+- "notificationInteractionType"
+- "notificationQueue"
+- "notificationShown"
+- "notificationToken"
+- "nsEventsCount"
+- "nwClientID"
+- "objectForKey:"
+- "objectForSlot:"
+- "offer"
+- "onDidEndTracking"
+- "onFinish"
+- "onFire"
+- "onboardingReport"
+- "openSensitiveURL:withOptions:error:"
+- "orientationStatusSubject"
+- "orientationSubject"
+- "osBuild"
+- "outgoingAccessibilityMessageSubscription"
+- "outgoingStatusEventSubscription"
+- "package"
+- "packageLayer"
+- "packageWithContentsOfURL:type:options:error:"
+- "path"
+- "payloadWithData:version:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentIdentifier"
+- "pingWithCompletionHandler:"
+- "platform"
+- "playbackActiveSubscription"
+- "playbackServer"
+- "plistDecoder"
+- "plistEncoder"
+- "policyApplicator"
+- "policyEngine"
+- "policyResultPublisher"
+- "policyResultSubject"
+- "policyResultSubscription"
+- "pongNumber"
+- "powerOn"
+- "powerPrimitives"
+- "prefsPrimitives"
+- "previousTapEventDate"
+- "primitives"
+- "processIdentifier"
+- "processInfo"
+- "protocolForProtocol:"
+- "proxyServiceID"
+- "proxyServiceIDsMap"
+- "q16@0:8"
+- "rapportDevice"
+- "rapportDispatchQueue"
+- "rapportQueue"
+- "rapportServiceType"
+- "rapportStream"
+- "receiveDataContinuation"
+- "receiveDataStream"
+- "recipientDisplayIdentifier"
+- "registerEventID:options:handler:"
+- "release"
+- "remoteDeviceControlIsAllowed:"
+- "remoteDisplayDiscovery"
+- "remoteDisplayServer"
+- "remoteDisplaySession %{public}s"
+- "remoteDisplaySession error handler called with no error"
+- "remoteDisplaySession interruptionHandler"
+- "remoteDisplaySession invalidationHandler"
+- "remoteNotificationsSetting"
+- "remoteProcess"
+- "remoteStreamServer"
+- "remoteTargetWithLaunchingAssertionAttributes:"
+- "remoteToken"
+- "remoteVideoClient"
+- "remoteVideoClient:didDetectSensitiveContentWithAnalysis:"
+- "remoteVideoClient:networkQualityDidDegrade:info:"
+- "remoteVideoClient:remoteMediaDidStall:"
+- "remoteVideoClient:remoteScreenAttributesDidChange:"
+- "remoteVideoClient:remoteVideoAttributesDidChange:"
+- "remoteVideoClient:remoteVideoDidPause:"
+- "remoteVideoClient:videoDidDegrade:"
+- "remoteVideoClient:videoDidSuspend:"
+- "remoteVideoClientDidReceiveFirstFrame:"
+- "remoteVideoClientDidReceiveLastFrame:"
+- "remoteVideoServerDidDie:"
+- "removeFromSuperlayer"
+- "removeFromSuperview"
+- "removeGestureRecognizer:"
+- "removeObserver:name:object:"
+- "reportDispatcher"
+- "reportSenderIDPairToReturn"
+- "reportingPrimitives"
+- "requestEnablementForType:withIDSDeviceID:"
+- "requiredStatusFlags"
+- "resetGeneration"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "role"
+- "rootLayer"
+- "rssiThreshold"
+- "rtiEventCancellationHandle"
+- "rtiMessageConsumerProvider"
+- "rtiMessages"
+- "rtiService"
+- "rtiStateCoordinator"
+- "runningBoardAssertion"
+- "savedReason"
+- "sceneDidBecomeActiveTask"
+- "sceneInteractor"
+- "sceneInteractorVendor"
+- "sceneObservationSubscriptions"
+- "screenCapture:didStart:withError:"
+- "screenCapture:didStop:withError:"
+- "screenCapture:didUpdateAttributes:error:"
+- "screenCapture:screenDidClear:"
+- "screenContinuityLiveActivityVendor"
+- "screenContinuityRTIMachServiceIdentifier"
+- "screenRecordingAssertions"
+- "screenSharingClient"
+- "screenSharingClientProvider"
+- "self"
+- "sendAsynchronousMessage:withIdentifier:targetAccessQueue:completion:"
+- "sendEventID:event:destinationID:options:completion:"
+- "sendEventID:event:options:completion:"
+- "serverDidDisconnect:"
+- "serverEventCancellationHandle"
+- "serverTerminator"
+- "serverVersion"
+- "serviceConnection"
+- "serviceIDForSenderID"
+- "serviceIDs"
+- "serviceInfoToReturn"
+- "serviceName"
+- "serviceSpecification"
+- "serviceType"
+- "session"
+- "sessionActionContinuation"
+- "sessionActionStream"
+- "sessionConfig"
+- "sessionDuration"
+- "sessionEndedReason"
+- "sessionHistoryTracker"
+- "sessionID"
+- "sessionInvalidationContinuation"
+- "sessionNumber"
+- "sessionRunning"
+- "sessionStartTime"
+- "sessionStateContinuation"
+- "sessionStateStreamContinuation"
+- "setActivationHandler:"
+- "setAllowedScrollTypesMask:"
+- "setAnimationDuration:"
+- "setAnswer:withError:"
+- "setAttribute:forKey:error:"
+- "setAuthorizationToken:"
+- "setBackgroundColor:"
+- "setBatteryMonitoringEnabled:"
+- "setBeginTime:"
+- "setBirthRate:"
+- "setCaptureSourceID:"
+- "setClientMessagingExpectation:"
+- "setConnectionReadyHandler:"
+- "setContents:"
+- "setContentsGravity:"
+- "setControlFlags:"
+- "setCustomHeight:"
+- "setCustomWidth:"
+- "setDelegate:"
+- "setDelegate:queue:"
+- "setDelegatedProcessUPID:"
+- "setDestinationDevice:"
+- "setDeviceChangedHandler:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostHandler:"
+- "setDisconnectHandler:"
+- "setDiscoverySessionStateChangedHandler:"
+- "setDispatchQueue:"
+- "setDisplayMode:"
+- "setDomain:"
+- "setEmissionRange:"
+- "setEmitterBehaviors:"
+- "setEmitterCells:"
+- "setEmitterMode:"
+- "setEmitterPath:"
+- "setEmitterPosition:"
+- "setEmitterShape:"
+- "setEmitterSize:"
+- "setErrorHandler:"
+- "setEventHandler:"
+- "setExternallyBlockedReasons:"
+- "setFillColor:"
+- "setFrame:"
+- "setGeometryFlipped:"
+- "setIdsDeviceID:"
+- "setInitialStatesOfLayer:transitionSpeed:"
+- "setInstance:"
+- "setInterface:"
+- "setInterfaceTarget:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLifetime:"
+- "setLifetimeRange:"
+- "setLineCap:"
+- "setLineWidth:"
+- "setMaximumNumberOfTouches:"
+- "setMessenger:"
+- "setMinimumNumberOfTouches:"
+- "setName:"
+- "setNeedsLayout"
+- "setNumberOfTapsRequired:"
+- "setNumberOfTouchesRequired:"
+- "setObject:forKey:"
+- "setOpacity:"
+- "setPath:"
+- "setPosition:"
+- "setQueue:"
+- "setReceiveMasterKey:"
+- "setReceivedEventHandler:"
+- "setReceivedRequestHandler:"
+- "setRemoteNotificationsSetting:"
+- "setRssiThreshold:"
+- "setSRTCPCipherSuite:"
+- "setSRTPCipherSuite:"
+- "setSeed:"
+- "setSendMasterKey:"
+- "setServer:"
+- "setService:"
+- "setServiceQuality:"
+- "setServiceType:"
+- "setSessionEndedHandler:"
+- "setSessionStartHandler:"
+- "setShowsUIAlertOnError:"
+- "setState:ofLayer:transitionSpeed:"
+- "setStatusChangedHandler:"
+- "setStreamAcceptHandler:"
+- "setStreamFlags:"
+- "setStreamID:"
+- "setStreamPrepareHandler:"
+- "setStreamQoS:"
+- "setStreamType:"
+- "setStrokeColor:"
+- "setTargetQueue:"
+- "setTrafficFlags:"
+- "setTransform:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setTransportDelegate:"
+- "setUserInfo:"
+- "setValue:forKey:"
+- "setVelocity:"
+- "setVelocityRange:"
+- "setVideoResolution:"
+- "setView:"
+- "set_deviceOrientation:"
+- "shapeBounds"
+- "shapeLayer"
+- "sharedConnection"
+- "sharedInstance"
+- "shieldWindowSceneContainer"
+- "signpostConsumer"
+- "signpostPrimitives"
+- "signpostVendor"
+- "signposter"
+- "sleepTask"
+- "slotForMode:"
+- "staging_adoptedMacDrivenScreenCaptureNotifications"
+- "standardUserDefaults"
+- "start"
+- "startCapture"
+- "startMonitoringEventType:error:"
+- "startWithOptions:"
+- "startupEventsQueue"
+- "state"
+- "stateContinuation"
+- "stateController"
+- "stateStream"
+- "stateSubject"
+- "states"
+- "statusEventProducer"
+- "statusEventProxy"
+- "statusFlags"
+- "stop"
+- "stopCapture"
+- "stopCommandLineSessionWithCompletionHandler:"
+- "storage"
+- "stream:didGetLastDecodedFrame:"
+- "stream:didPause:error:"
+- "stream:didReceiveDTMFEventWithDigit:"
+- "stream:didReceiveRTCPPackets:"
+- "stream:didResume:error:"
+- "stream:didStart:error:"
+- "stream:didStartSynchronizer:error:"
+- "stream:didUpdateVideoConfiguration:error:"
+- "stream:downlinkQualityDidChange:"
+- "stream:updateInputFrequencyLevel:"
+- "stream:updateOutputFrequencyLevel:"
+- "stream:uplinkQualityDidChange:"
+- "streamDidInterruptionBegin:"
+- "streamDidInterruptionEnd:"
+- "streamDidRTCPTimeOut:"
+- "streamDidRTPTimeOut:"
+- "streamDidRecoverFromRTCPTimeOut:"
+- "streamDidServerDie:"
+- "streamDidStop:"
+- "streamDidStopContinuation"
+- "streamID"
+- "streamIdentifier"
+- "streamKey"
+- "streamQoS"
+- "streamSessionSetup(streamSession:streamType:runInProcess:)"
+- "streamSocket"
+- "streamToken"
+- "streamType"
+- "stringForKey:"
+- "strokeBlueComponent"
+- "strokeGreenComponent"
+- "strokeLayer"
+- "strokeRedComponent"
+- "subject"
+- "subscriptions"
+- "superclass"
+- "surrogateManager"
+- "surrogateSessionsByDragIdentifier"
+- "systemEventCancellationHandle"
+- "systemGestureEventConsumerProvider"
+- "systemUptime"
+- "targetedDisplayIdentifier"
+- "task"
+- "taskSleepPrimitives"
+- "tearDownContinuations"
+- "telemetry"
+- "telemetryVendor"
+- "thisDeviceIdentifier"
+- "timedOut"
+- "timeoutConditionMonitor"
+- "timeoutHandler"
+- "timeoutPrimitives"
+- "timer"
+- "timestamp"
+- "touchesBegan:withEvent:"
+- "touchesCancelled:withEvent:"
+- "touchesEnded:withEvent:"
+- "touchesMoved:withEvent:"
+- "transport"
+- "trustDeviceContinuation"
+- "type"
+- "underlyingConsumer"
+- "underlyingVendor"
+- "unifiedPlaybackEventSubject"
+- "unifiedPlaybackEventSubscriptions"
+- "uniqueID"
+- "unknownOrientation"
+- "unlockDeviceContinuation"
+- "unlockGeneration"
+- "unprocessedData"
+- "unsignedIntValue"
+- "userDefaults"
+- "userDefaultsPrimitives"
+- "userInteractive"
+- "userInterfaceClient:accessQueueForProcessingMessageWithIdentifier:"
+- "userInterfaceClient:messageFromServerForWithIdentifierShouldBeProcessedAsynchronously:"
+- "userInterfaceClient:messageWithIdentifierRequiresWritingBlock:"
+- "userInterfaceClient:processMessageFromServer:withIdentifier:error:"
+- "userInterfaceClient:processMessageFromServerAsynchronously:withIdentifier:completion:"
+- "userInterfaceClient:willActivateUserInterfaceServiceWithInitializationMessage:"
+- "uuid"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"<BSServiceConnectionConfiguring>\"8"
+- "v16@?0@\"<BSServiceConnectionListenerConfiguring>\"8"
+- "v16@?0@\"<BSXPCEncoding>\"8"
+- "v16@?0@\"BSServiceConnection<BSServiceConnectionContext>\"8"
+- "v16@?0@\"CWFEvent\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"RPRemoteDisplayDevice\"8"
+- "v16@?0@\"RPStreamSession\"8"
+- "v20@?0@\"RPRemoteDisplayDevice\"8I16"
+- "v20@?0C8@\"NSString\"12"
+- "v24@0:8@\"<BSServiceConnectionListenerDelegate>\"16"
+- "v24@0:8@\"<NSCopying>\"16"
+- "v24@0:8@\"AVCAudioStream\"16"
+- "v24@0:8@\"AVCRemoteVideoClient\"16"
+- "v24@0:8@\"AVCScreenCapture\"16"
+- "v24@0:8@\"AVCVideoStream\"16"
+- "v24@0:8@\"AXUIClient\"16"
+- "v24@0:8@\"BSServiceInterface\"16"
+- "v24@0:8@\"BSServiceQuality\"16"
+- "v24@0:8@\"BSServiceQueue\"16"
+- "v24@0:8@\"CBCentralManager\"16"
+- "v24@0:8@\"FigCameraViewfinderSession\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"OS_dispatch_queue\"16"
+- "v24@0:8@\"UIView\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"BSServiceConnection<BSServiceConnectionContext>\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@0:8q16"
+- "v24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSSet\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"RPRemoteDisplaySession\"8@\"NSError\"16"
+- "v24@?0@\"RPRemoteDisplaySession\"8@?<v@?@\"NSError\">16"
+- "v24@?0@\"RPStreamSession\"8@?<v@?@\"NSError\">16"
+- "v28@0:8@\"AVCAudioStream\"16c24"
+- "v28@0:8@\"AVCRemoteVideoClient\"16B24"
+- "v28@0:8@\"AVCScreenCapture\"16B24"
+- "v28@0:8@\"FigCameraViewfinderSession\"16i24"
+- "v28@0:8@16B24"
+- "v28@0:8@16c24"
+- "v28@0:8@16i24"
+- "v28@0:8B16@\"NSString\"20"
+- "v28@0:8B16@20"
+- "v32@0:8@\"AVCAudioStream\"16@\"NSArray\"24"
+- "v32@0:8@\"AVCAudioStream\"16@\"NSData\"24"
+- "v32@0:8@\"AVCRemoteVideoClient\"16@\"NSData\"24"
+- "v32@0:8@\"AVCRemoteVideoClient\"16@\"VideoAttributes\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSArray\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSData\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSDictionary\"24"
+- "v32@0:8@\"AXUIClient\"16@\"NSMutableDictionary\"24"
+- "v32@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24"
+- "v32@0:8@\"CBCentralManager\"16@\"NSDictionary\"24"
+- "v32@0:8@\"FigCameraViewfinder\"16@\"FigCameraViewfinderSession\"24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@\"NSString\"24"
+- "v32@0:8@\"NSObject\"16@\"NSString\"24"
+- "v32@0:8@\"NSObject<BSCollection>\"16@\"NSString\"24"
+- "v32@0:8@\"NSObject<OS_xpc_object>\"16@\"NSString\"24"
+- "v32@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24"
+- "v32@0:8@\"SFAuthenticationManager\"16@\"NSUUID\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@\"NSString\"24"
+- "v32@0:8Q16@24"
+- "v32@0:8d16@\"NSString\"24"
+- "v32@0:8d16@24"
+- "v32@0:8q16@\"NSString\"24"
+- "v32@0:8q16@24"
+- "v32@?0@\"NSString\"8@\"NSDictionary\"16@\"NSDictionary\"24"
+- "v36@0:8@\"AVCAudioStream\"16B24@\"NSError\"28"
+- "v36@0:8@\"AVCRemoteVideoClient\"16B24@\"NSDictionary\"28"
+- "v36@0:8@\"AVCScreenCapture\"16B24@\"NSError\"28"
+- "v36@0:8@\"AVCVideoStream\"16B24@\"NSError\"28"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"AVCScreenCapture\"16@\"AVCScreenCaptureAttributes\"24@\"NSError\"32"
+- "v40@0:8@\"BSServiceConnectionListener\"16@\"BSServiceConnection<BSServiceConnectionHost>\"24@\"<BSXPCDecoding>\"32"
+- "v40@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24@\"NSError\"32"
+- "v40@0:8@\"CBCentralManager\"16q24@\"CBPeripheral\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"NSData\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"NSString\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTIDocumentState\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTIDocumentTraits\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTIInputOperation\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTISessionOptions\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTISupplementalLexicon\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"TISupplementalLexicon\"32"
+- "v40@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemSession\"24@\"RTISessionOptions\"32"
+- "v40@0:8@\"SBUIContinuitySession\"16Q24@\"NSSet\"32"
+- "v40@0:8@\"SBUIContinuitySession\"16q24Q32"
+- "v40@0:8@\"SFAuthenticationManager\"16@\"NSUUID\"24@\"NSError\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16Q24@32"
+- "v40@0:8@16q24@32"
+- "v40@0:8@16q24Q32"
+- "v40@0:8rn^v16r*24@\"NSString\"32"
+- "v40@0:8rn^v16r*24@32"
+- "v40@0:8{CGPoint=dd}16@\"NSString\"32"
+- "v40@0:8{CGPoint=dd}16@32"
+- "v40@0:8{CGSize=dd}16@\"NSString\"32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v40@?0@\"NSString\"8@\"NSDictionary\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">32"
+- "v48@0:8@\"AXUIClient\"16@\"NSDictionary\"24Q32@?<v@?@\"NSDictionary\"@\"NSError\">40"
+- "v48@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24@\"NSDictionary\"32@\"NSNumber\"40"
+- "v48@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTIInputOperation\"32@?<v@?Q>40"
+- "v48@0:8@\"RTIInputSystemService\"16@\"RTIInputSystemServiceSession\"24@\"RTISessionOptions\"32@?<v@?>40"
+- "v48@0:8@\"SFAuthenticationManager\"16@\"NSUUID\"24@\"SFAuthenticationApproveInfo\"32@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@\"SFAuthenticationManager\"16@\"NSUUID\"24@\"SFAuthenticationApproveInfo\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24Q32@?40"
+- "v52@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24d32B40@\"NSError\"44"
+- "v52@0:8@16@24d32B40@44"
+- "v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@\"NSString\"48"
+- "v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+- "v60@0:8@\"FigCameraViewfinderSession\"16i24@\"NSData\"28{?=qiIq}36"
+- "v60@0:8@16i24@28{?=qiIq}36"
+- "v8@?0"
+- "version"
+- "videoStream"
+- "videoStreamDelegateContinuation"
+- "view"
+- "viewSize"
+- "waitForApprovalRequestsForType:"
+- "whiteColor"
+- "widthAnchor"
+- "wifiReservation"
+- "willMoveToView:"
+- "window"
+- "workspace"
+- "wrappedValue"
+- "zone"
+
+```

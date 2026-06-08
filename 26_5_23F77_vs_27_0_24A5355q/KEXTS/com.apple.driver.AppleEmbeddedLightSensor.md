@@ -1,0 +1,45 @@
+## com.apple.driver.AppleEmbeddedLightSensor
+
+> `com.apple.driver.AppleEmbeddedLightSensor`
+
+```diff
+
+-2079.120.10.0.0
++2285.0.0.502.1
+   __TEXT.__const: 0x15b8
+-  __TEXT.__cstring: 0x4044
++  __TEXT.__cstring: 0x40d5
+   __TEXT.__os_log: 0x2c
+-  __TEXT_EXEC.__text: 0x14afc
++  __TEXT_EXEC.__text: 0x14ea0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x488
+   __DATA.__common: 0x158
+-  __DATA_CONST.__auth_got: 0x1c8
+-  __DATA_CONST.__got: 0xb8
+   __DATA_CONST.__mod_init_func: 0x40
+   __DATA_CONST.__mod_term_func: 0x40
+-  __DATA_CONST.__const: 0x4280
++  __DATA_CONST.__const: 0x4400
+   __DATA_CONST.__kalloc_type: 0x200
+-  UUID: 1F531249-EA00-3EE3-B2BD-9FF599DCF0F3
+-  Functions: 341
++  __DATA_CONST.__auth_got: 0x1d8
++  __DATA_CONST.__got: 0xb8
++  UUID: D2C68DCF-A6EE-32B6-A554-DCC05C533ECC
++  Functions: 347
+   Symbols:   0
+-  CStrings:  438
++  CStrings:  442
+ 
+CStrings:
++ "12111112122212121111111211111112222221211211222222222221112111121111212221122222"
++ "1211111212221212111111121111111222222121121122222222222111211112111121222112222211212111222222222222222222222222222222222222221221"
++ "Calibrated"
++ "Could not obtain ALS orientation!\n"
++ "Could not obtain ALS placement!\n"
++ "Successfully obtained ALS placement=%u and orientation=%u!\n"
+- "12111112122212121111111211111122222212112112222222222211121111211112122122222"
+- "1211111212221212111111121111112222221211211222222222221112111121111212212222211212111222222222222222222222222222222222222221221"
+
+```

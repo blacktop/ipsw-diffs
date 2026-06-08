@@ -1,0 +1,899 @@
+## MagnifierAngel
+
+> `/Applications/MagnifierAngel.app/MagnifierAngel`
+
+```diff
+
+-244.15.0.0.0
+-  __TEXT.__text: 0x4f1b0
+-  __TEXT.__auth_stubs: 0x23e0
+-  __TEXT.__objc_stubs: 0x13c0
+-  __TEXT.__objc_methlist: 0xcb4
+-  __TEXT.__const: 0x2e44
+-  __TEXT.__swift5_typeref: 0x31c4
+-  __TEXT.__swift5_capture: 0x63c
+-  __TEXT.__constg_swiftt: 0x10a8
++275.0.0.0.0
++  __TEXT.__text: 0x80bac
++  __TEXT.__auth_stubs: 0x3260
++  __TEXT.__objc_stubs: 0x16c0
++  __TEXT.__objc_methlist: 0xe7c
++  __TEXT.__const: 0x3994
++  __TEXT.__swift5_typeref: 0x706a
++  __TEXT.__swift5_capture: 0xc2c
++  __TEXT.__constg_swiftt: 0x1408
++  __TEXT.__swift5_fieldmd: 0x10d0
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0x1254
+-  __TEXT.__swift5_fieldmd: 0xcc4
+-  __TEXT.__swift5_assocty: 0x210
+-  __TEXT.__swift5_proto: 0x14c
+-  __TEXT.__swift5_types: 0xcc
+-  __TEXT.__objc_classname: 0x5be
+-  __TEXT.__objc_methname: 0x3325
+-  __TEXT.__oslogstring: 0xd7d
+-  __TEXT.__cstring: 0xfa6
+-  __TEXT.__swift_as_entry: 0x124
+-  __TEXT.__swift_as_ret: 0x118
+-  __TEXT.__objc_methtype: 0x1107
++  __TEXT.__swift5_reflstr: 0x19d9
++  __TEXT.__swift5_assocty: 0x230
++  __TEXT.__cstring: 0x18ee
++  __TEXT.__swift5_proto: 0x174
++  __TEXT.__swift5_types: 0xf4
++  __TEXT.__objc_classname: 0x64e
++  __TEXT.__objc_methname: 0x3cad
++  __TEXT.__oslogstring: 0x169d
++  __TEXT.__swift_as_entry: 0x194
++  __TEXT.__swift_as_ret: 0x178
++  __TEXT.__swift_as_cont: 0x3e4
++  __TEXT.__objc_methtype: 0x136d
++  __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x1478
+-  __TEXT.__eh_frame: 0x333c
+-  __DATA_CONST.__auth_got: 0x11f8
+-  __DATA_CONST.__got: 0x7e8
+-  __DATA_CONST.__auth_ptr: 0x708
+-  __DATA_CONST.__const: 0x1c78
+-  __DATA_CONST.__objc_classlist: 0x98
+-  __DATA_CONST.__objc_protolist: 0xd0
++  __TEXT.__unwind_info: 0x1d50
++  __TEXT.__eh_frame: 0x4844
++  __DATA_CONST.__const: 0x2c38
++  __DATA_CONST.__objc_classlist: 0xa8
++  __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x68
+-  __DATA.__objc_const: 0x1e18
+-  __DATA.__objc_selrefs: 0xa28
+-  __DATA.__objc_data: 0x10f0
+-  __DATA.__data: 0x1fb8
+-  __DATA.__bss: 0x2ac8
+-  __DATA.__common: 0x140
++  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__auth_got: 0x1938
++  __DATA_CONST.__got: 0xae8
++  __DATA_CONST.__auth_ptr: 0x938
++  __DATA.__objc_const: 0x2330
++  __DATA.__objc_selrefs: 0xba0
++  __DATA.__objc_data: 0x1348
++  __DATA.__data: 0x2a48
++  __DATA.__bss: 0x2f08
++  __DATA.__common: 0x178
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
++  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/Combine.framework/Combine
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SceneKit.framework/SceneKit
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
++  - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/CMCapture.framework/CMCapture
++  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/MagnifierServices.framework/MagnifierServices
+   - /System/Library/PrivateFrameworks/MagnifierSupport.framework/MagnifierSupport
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E0AE19F4-049A-38E1-905B-30C5DD700A3E
+-  Functions: 1468
+-  Symbols:   1031
+-  CStrings:  783
++  UUID: 20368CC6-78A0-3DAF-8F18-A10A1A3D4724
++  Functions: 2116
++  Symbols:   1415
++  CStrings:  967
+ 
+Symbols:
++ _$s10AppIntents09_SupportsA12DependenciesMp
++ _$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV06appendF0yyAA0acD5TokenOF
++ _$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV13appendLiteralyySSF
++ _$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV15literalCapacity18interpolationCountAEyx_GSi_SitcfC
++ _$s10AppIntents0A14ShortcutPhraseV19StringInterpolationVMn
++ _$s10AppIntents0A14ShortcutPhraseV19stringInterpolationACyxGAC06StringF0Vyx_G_tcfC
++ _$s10AppIntents0A14ShortcutPhraseVMn
++ _$s10AppIntents0A16ShortcutsBuilderO10buildBlockySayAA0A8ShortcutVGAGd_tFZ
++ _$s10AppIntents0A16ShortcutsBuilderO15buildExpressionySayAA0A8ShortcutVGAFFZ
++ _$s10AppIntents0A17ShortcutsProviderMp
++ _$s10AppIntents0A17ShortcutsProviderP03appC0SayAA0A8ShortcutVGvgZTq
++ _$s10AppIntents0A17ShortcutsProviderP17shortcutTileColorAA08ShortcutfG0OvgZTq
++ _$s10AppIntents0A17ShortcutsProviderPAAE17shortcutTileColorAA08ShortcutfG0OvgZ
++ _$s10AppIntents0A19ShortcutPhraseTokenO15applicationNameyA2CmFWC
++ _$s10AppIntents0A19ShortcutPhraseTokenOMa
++ _$s10AppIntents0A6IntentMp
++ _$s10AppIntents0A6IntentP04openA7WhenRunSbvgZTq
++ _$s10AppIntents0A6IntentP11descriptionAA0C11DescriptionVSgvgZTq
++ _$s10AppIntents0A6IntentP13PerformResultAC_AA0cE0Tn
++ _$s10AppIntents0A6IntentP14SummaryContentAC_AA09ParameterD0Tn
++ _$s10AppIntents0A6IntentP14isDiscoverableSbvgZTq
++ _$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq
++ _$s10AppIntents0A6IntentP16parameterSummary0E7ContentQzvgZTq
++ _$s10AppIntents0A6IntentP20authenticationPolicyAA0c14AuthenticationE0OvgZTq
++ _$s10AppIntents0A6IntentP23allowedExecutionTargetsAA0ceF0VvgZTq
++ _$s10AppIntents0A6IntentP5title10Foundation23LocalizedStringResourceVvgZTq
++ _$s10AppIntents0A6IntentP7perform13PerformResultQzyYaKFTq
++ _$s10AppIntents0A6IntentPAA09_SupportsA12DependenciesTb
++ _$s10AppIntents0A6IntentPAA24PersistentlyIdentifiableTb
++ _$s10AppIntents0A6IntentPAAE11descriptionAA0C11DescriptionVSgvgZ
++ _$s10AppIntents0A6IntentPAAE14isDiscoverableSbvgZ
++ _$s10AppIntents0A6IntentPAAE14supportedModesAA0cE0VvgZ
++ _$s10AppIntents0A6IntentPAAE16parameterSummaryQrvgZ
++ _$s10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOMQ
++ _$s10AppIntents0A6IntentPAAE20authenticationPolicyAA0c14AuthenticationE0OvgZ
++ _$s10AppIntents0A6IntentPAAE20persistentIdentifierSSvgZ
++ _$s10AppIntents0A6IntentPAAE23allowedExecutionTargetsAA0ceF0VvgZ
++ _$s10AppIntents0A6IntentPxycfCTq
++ _$s10AppIntents0A8ShortcutV6intent7phrases10shortTitle15systemImageNameACx_SayAA0aC6PhraseVyxGG10Foundation23LocalizedStringResourceVSSYttcAA0A6IntentRzlufC
++ _$s10AppIntents0A8ShortcutVMa
++ _$s10AppIntents0A8ShortcutVMn
++ _$s10AppIntents12IntentResultMp
++ _$s10AppIntents12IntentResultPAAE6resultAA0cD9ContainerVys5NeverOA3HGyAIRszrlFZ
++ _$s10AppIntents21IntentResultContainerVMn
++ _$s10AppIntents21IntentResultContainerVyxq_q0_q1_GAA0cD0AAMc
++ _$s10AppIntents24PersistentlyIdentifiableMp
++ _$s10AppIntents24PersistentlyIdentifiableP20persistentIdentifierSSvgZTq
++ _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
++ _$s10Foundation12CharacterSetVMa
++ _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
++ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg
++ _$s10Foundation12NotificationVMa
++ _$s10Foundation14LocalizedErrorMp
++ _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
++ _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
++ _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
++ _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
++ _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
++ _$s10Foundation14LocalizedErrorPs0C0Tb
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO4mainyA2EmFWC
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa
++ _$s10Foundation23LocalizedStringResourceVMa
++ _$s10Foundation23LocalizedStringResourceV_5table6locale6bundle7commentACSSAAE17LocalizationValueV_SSSgAA6LocaleVAC17BundleDescriptionOs06StaticC0VSgtcfC
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV6stringACSgSSh_tcfC
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s10Foundation6LocaleVMa
++ _$s11Observation0A9RegistrarV6didSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarV7willSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s12CoreGraphics7CGFloatVN
++ _$s12CoreGraphics7CGFloatVSQAAMc
++ _$s13PerformResult10AppIntents0C6IntentPTl
++ _$s14CoreFoundation9_CFObjectMp
++ _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
++ _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
++ _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
++ _$s14CoreFoundation9_CFObjectPSHTb
++ _$s14SummaryContent10AppIntents0C6IntentPTl
++ _$s15AXCoreUtilities15AXSettingRecordC10purgeCacheyyFTj
++ _$s15AXCoreUtilities23LiveRecognitionSettingsC22PreferredOneShotSourceOMa
++ _$s15AXCoreUtilities23LiveRecognitionSettingsC22preferredOneShotSourceAC09PreferredghI0Ovg
++ _$s15AXCoreUtilities23LiveRecognitionSettingsC23_$preferredAskInputTypeAA15AXSettingRecordCyAC09PreferredghI0OGvg
++ _$s15AXCoreUtilities23LiveRecognitionSettingsC42preferredAskInputTypeDidChangeNotificationSSvgZ
++ _$s15AXCoreUtilities23LiveRecognitionSettingsCMa
++ _$s15AXCoreUtilities25AccessibilityFeatureFlagsO20magnifierInfiniteVQAyA2CmFWC
++ _$s15AXCoreUtilities25AccessibilityFeatureFlagsO7enabledSbvg
++ _$s15AXCoreUtilities25AccessibilityFeatureFlagsOMa
++ _$s15AXCoreUtilities5AXLogO12magappIntent2os6LoggerVvgZ
++ _$s15AXCoreUtilities5AXLogO6magasr2os6LoggerVvgZ
++ _$s15AXCoreUtilities5AXLogO6magvqa2os6LoggerVvgZ
++ _$s16MagnifierSupport013MAGAutomationB0V24freezeFrameAutomationURL10Foundation0G0VSgvgZ
++ _$s16MagnifierSupport013MAGAutomationB0V28freezeFrameAutomationEnabledSbvgZ
++ _$s16MagnifierSupport10MAGMessageV5imageSo7UIImageCSgvg
++ _$s16MagnifierSupport10MAGMessageV6senderAA0C6SenderOvg
++ _$s16MagnifierSupport10MAGMessageV7content6sender5imageACSS_AA0C6SenderOSo7UIImageCSgtcfC
++ _$s16MagnifierSupport10MAGMessageV7contentSSvg
++ _$s16MagnifierSupport10MAGMessageVMa
++ _$s16MagnifierSupport10MAGMessageVMn
++ _$s16MagnifierSupport11MainControlO03askA0yA2CmFWC
++ _$s16MagnifierSupport11MainControlO8iconNameSSvg
++ _$s16MagnifierSupport11MainControlOMa
++ _$s16MagnifierSupport13MAGImageUtilsO14convertToImage_11orientationSo7UIImageCSo11CVBufferRefa_So0I11OrientationVtKFZ
++ _$s16MagnifierSupport13MAGImageUtilsO16convertToPNGData_11orientation10Foundation4DataVSo11CVBufferRefa_So18UIImageOrientationVtKFZ
++ _$s16MagnifierSupport13MAGImageUtilsO17PixelBufferFormatO4bgrayA2EmFWC
++ _$s16MagnifierSupport13MAGImageUtilsO17PixelBufferFormatOMa
++ _$s16MagnifierSupport13MAGImageUtilsO20convertToPixelBuffer8imageURLSo11CVBufferRefaSg10Foundation0J0V_tFZ
++ _$s16MagnifierSupport13MAGImageUtilsO20convertToPixelBufferySo11CVBufferRefaSo7UIImageCKFZ
++ _$s16MagnifierSupport13MAGImageUtilsO28createPixelBufferFromCGImage_6formatSo11CVBufferRefaSgSo0iL0a_AC0fG6FormatOtFZ
++ _$s16MagnifierSupport14MAGOutputEventV0D4TypeO17vqaProvidedResultyAESScAEmFWC
++ _$s16MagnifierSupport14MAGOutputEventV0D4TypeO18imageCaptionResultyAESScAEmFWC
++ _$s16MagnifierSupport14MAGOutputEventV0D4TypeO29vqaProvidedResultWithGuidanceyAESScAEmFWC
++ _$s16MagnifierSupport14MAGOutputEventV11descriptionSSvg
++ _$s16MagnifierSupport14MAGOutputEventV15modelProcessing6source11environmentAcA0cD6SourceO_AA0cD11EnvironmentOtFZ
++ _$s16MagnifierSupport14MAGOutputEventV17vqaProvidedResult_6source11environmentACSS_AA0cD6SourceOAA0cD11EnvironmentOtFZ
++ _$s16MagnifierSupport14MAGOutputEventV29vqaProvidedResultWithGuidance_6source11environmentACSS_AA0cD6SourceOAA0cD11EnvironmentOtFZ
++ _$s16MagnifierSupport14MAGOutputEventV9eventTypeAC0dF0Ovg
++ _$s16MagnifierSupport14MAGSoundEffectO12loopScanningyA2CmFWC
++ _$s16MagnifierSupport14MAGSoundEffectO14lockOnGuidanceyA2CmFWC
++ _$s16MagnifierSupport14MAGSoundEffectO15guidanceFailureyA2CmFWC
++ _$s16MagnifierSupport14MAGSoundEffectO15guidanceSuccessyA2CmFWC
++ _$s16MagnifierSupport14MAGSoundEffectO15lockOffGuidanceyA2CmFWC
++ _$s16MagnifierSupport14MAGSoundEffectO25conversationImageCapturedyA2CmFWC
++ _$s16MagnifierSupport15MAGOutputEngineC22microphoneSessionStateAA013MAGMicrophonefG0CSgvgTj
++ _$s16MagnifierSupport15MAGOutputEngineC22microphoneSessionStateAA013MAGMicrophonefG0CSgvsTj
++ _$s16MagnifierSupport15MAGOutputEngineC30suppressesMicrophoneAutoResumeSbvsTj
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO011didCompleteA12InputRequestyAESS_tcAEmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO12llmIsLoadingyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO12loopScanningyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO13vqaDidRespondyAESS_tcAEmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO14lockOnGuidanceyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO15guidanceFailureyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO15guidanceSuccessyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO15lockOffGuidanceyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO15modelProcessingyA2EmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO20didUpdateSearchImageyAESo11CVBufferRefa_tcAEmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO25vqaDidRespondWithGuidanceyAESS_tcAEmFWC
++ _$s16MagnifierSupport16MAGAdvancedEventV08AdvancedD4TypeO28didAddNewImageToConversationyAESo11CVBufferRefa_tcAEmFWC
++ _$s16MagnifierSupport16MAGFrameCapturerC13configurationAcA23MAGCaptureConfigurationV_tcfC
++ _$s16MagnifierSupport16MAGFrameCapturerC18capturePixelBufferSo11CVBufferRefayYaKFTjTu
++ _$s16MagnifierSupport16MAGFrameCapturerC20captureRotationAngle12CoreGraphics7CGFloatVvgTj
++ _$s16MagnifierSupport16MAGFrameCapturerC8shutdownyyFTj
++ _$s16MagnifierSupport16MAGFrameCapturerCMa
++ _$s16MagnifierSupport16MAGFrameCapturerCMn
++ _$s16MagnifierSupport16MAGFrameCapturerCScAAAMc
++ _$s16MagnifierSupport16MAGMessageSenderO2eeoiySbAC_ACtFZ
++ _$s16MagnifierSupport16MAGMessageSenderO4useryA2CmFWC
++ _$s16MagnifierSupport16MAGMessageSenderO9assistantyA2CmFWC
++ _$s16MagnifierSupport16MAGMessageSenderOMa
++ _$s16MagnifierSupport18MAGDeviceUtilitiesV8isIphoneSbvgZ
++ _$s16MagnifierSupport19TranscriptViewModelC05clearC0yyFTj
++ _$s16MagnifierSupport19TranscriptViewModelC10transcriptSayAA10MAGMessageVGvgTj
++ _$s16MagnifierSupport19TranscriptViewModelC13appendMessageyyAA10MAGMessageVFTj
++ _$s16MagnifierSupport19TranscriptViewModelC19recordAskedQuestion_010hasDefaultH007defaultH4TextySS_SbSSSgtFTj
++ _$s16MagnifierSupport19TranscriptViewModelC20appendLoadingMessageyySSFTj
++ _$s16MagnifierSupport19TranscriptViewModelC20removeLoadingMessageyyFTj
++ _$s16MagnifierSupport19TranscriptViewModelC20updateLoadingMessage4withySS_tFTj
++ _$s16MagnifierSupport19TranscriptViewModelC21isConnectedToInternetSbvgTj
++ _$s16MagnifierSupport19TranscriptViewModelC21replaceLoadingMessage4withySS_tFTj
++ _$s16MagnifierSupport19TranscriptViewModelC25addImageToLastUserMessageyySo7UIImageCFTj
++ _$s16MagnifierSupport19TranscriptViewModelC28activeKeyboardSubmissionTaskScTyyts5NeverOGSgvgTj
++ _$s16MagnifierSupport19TranscriptViewModelC28activeKeyboardSubmissionTaskScTyyts5NeverOGSgvsTj
++ _$s16MagnifierSupport19TranscriptViewModelCACycfc
++ _$s16MagnifierSupport19TranscriptViewModelCMa
++ _$s16MagnifierSupport19TranscriptViewModelCMn
++ _$s16MagnifierSupport20MAGVQATranscriptViewV7SwiftUI0D0AAMc
++ _$s16MagnifierSupport20MAGVQATranscriptViewV9viewModel22microphoneSessionState017showingTranscriptD08delegate17conversationImage9onDismiss0O8Collapse18transcriptForAngel12outputEngine24speechRecognitionService016generativeModelsY016initiallyFocused0o9RecaptureN00O6EscapeAcA0kdF0C_AA013MAGMicrophonehI0C7SwiftUI7BindingVySbGSo19UITextFieldDelegate_pAXySo7UIImageCSgGyycSgA3_SbAA09MAGOutputV0CAA09MAGSpeechxY0CAA019MAGGenerativeModelsY0CSbA1_ycSgA3_tcfC
++ _$s16MagnifierSupport20MAGVQATranscriptViewVMa
++ _$s16MagnifierSupport20MAGVQATranscriptViewVMn
++ _$s16MagnifierSupport23MAGCaptureConfigurationV10ResolutionO6mediumyA2EmFWC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV10ResolutionOMa
++ _$s16MagnifierSupport23MAGCaptureConfigurationV11PixelFormatO7yuv420fyA2EmFWC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV11PixelFormatOMa
++ _$s16MagnifierSupport23MAGCaptureConfigurationV14CameraPositionO4backyA2EmFWC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV14CameraPositionOMa
++ _$s16MagnifierSupport23MAGCaptureConfigurationV14cameraPosition9flashMode7quality10resolution11pixelFormatA2C06CameraF0O_AC05FlashH0OAC21QualityPrioritizationOAC10ResolutionOAC05PixelL0OtcfC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV21QualityPrioritizationO5speedyA2EmFWC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV21QualityPrioritizationOMa
++ _$s16MagnifierSupport23MAGCaptureConfigurationV9FlashModeO3offyA2EmFWC
++ _$s16MagnifierSupport23MAGCaptureConfigurationV9FlashModeOMa
++ _$s16MagnifierSupport23MAGCaptureConfigurationVMa
++ _$s16MagnifierSupport25CancellablePromptDelegateMp
++ _$s16MagnifierSupport25CancellablePromptDelegateP22cancelActiveSubmissionyyFTq
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC02isD6ActiveSbvgTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC02isD6ActiveSbvsTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC11isListeningSbvMTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC11isListeningSbvgTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC11isListeningSbvsTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC21isRecognitionStartingSbvsZ
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC25shouldFireDefaultQuestionSbvsTj
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC27isSubmittingDefaultQuestionSbvsZ
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateC7Combine16ObservableObjectAAMc
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateCACycfc
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateCMa
++ _$s16MagnifierSupport25MAGMicrophoneSessionStateCMn
++ _$s16MagnifierSupport25MAGVideoCaptioningServiceC07prepareD8ProvideryyYaKFTjTu
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC010generativeD9AvailableSbyFZ
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC013frameProviderE0013textDetectionE0012imageCaptionE012eventHandler015documentFramingE022pulseFeedbackProcessor017sceneIntelligenceE0AcA08MAGFramegE0C_AA07MAGTextiE0CAA08MAGImagekE0CAA016MAGAdvancedEventM0CAA011MAGDocumentoE0CAA08MAGPulseqR0CAA08MAGScenetE0Ctcfc
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC16handleVQARequest6prompt17conversationImage29shouldAnnounceErrorConditions12withGuidance10isFollowUp16imageOrientationS2S_So11CVBufferRefaS3bSo015CGImagePropertyU0VSgtYaKF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC16handleVQARequest6prompt17conversationImage29shouldAnnounceErrorConditions12withGuidance10isFollowUp16imageOrientationS2S_So11CVBufferRefaS3bSo015CGImagePropertyU0VSgtYaKFTu
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC17invalidateSessionyyF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC19stopGuidanceSessionyyF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC24clearConversationHistoryyyF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC24onGuidanceSessionStartedyycSgvs
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC29stopPeriodicWaitingSoundTimeryyF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC34handleSceneDescriptionModelRequest14capturedImages28additionalSystemInstructions010peripheralL029shouldAnnounceErrorConditionsSSSaySo11CVBufferRefaG_SSSgS2btYaKF
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC34handleSceneDescriptionModelRequest14capturedImages28additionalSystemInstructions010peripheralL029shouldAnnounceErrorConditionsSSSaySo11CVBufferRefaG_SSSgS2btYaKFTu
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceC6windowSo8UIWindowCSgvs
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceCMa
++ _$s16MagnifierSupport26MAGGenerativeModelsServiceCMn
++ _$s16MagnifierSupport27MAGSceneIntelligenceServiceCACycfc
++ _$s16MagnifierSupport27MAGSceneIntelligenceServiceCMa
++ _$s16MagnifierSupport27MAGSpeechRecognitionServiceC06cancelD06caller4file4lineySS_SSSitF
++ _$s16MagnifierSupport27MAGSpeechRecognitionServiceC8shutDownyyF
++ _$s16MagnifierSupport7ControlO23accessibilityIdentifierSSvg
++ _$s16MagnifierSupport8MAGErrorO20generativeModelErroryA2C016GenerativeModelsF6ReasonOcACmFWC
++ _$s16MagnifierSupport8MAGErrorO27GenerativeModelsErrorReasonO14inputImageDarkyA2EmFWC
++ _$s16MagnifierSupport8MAGErrorO27GenerativeModelsErrorReasonO16inputImageBlurryyA2EmFWC
++ _$s16MagnifierSupport8MAGErrorO27GenerativeModelsErrorReasonO34inputImageContainsSensitiveContentyA2EmFWC
++ _$s16MagnifierSupport8MAGErrorO27GenerativeModelsErrorReasonOMa
++ _$s16MagnifierSupport8MAGErrorOMa
++ _$s16MagnifierSupport8MAGErrorOMn
++ _$s22AccessibilityUtilities25AXLiveOnCollectionManagerC24appendVQATranscriptEntry8question8response12imagePNGDataySS_SS10Foundation4DataVSgtFTj
++ _$s5Value7SwiftUI13PreferenceKeyPTl
++ _$s7SwiftUI11StateObjectV12wrappedValuexvg
++ _$s7SwiftUI11StateObjectVMa
++ _$s7SwiftUI11StateObjectVMn
++ _$s7SwiftUI11_ClipEffectVMn
++ _$s7SwiftUI11_ClipEffectVyxGAA12ViewModifierAAMc
++ _$s7SwiftUI12TupleContentVMn
++ _$s7SwiftUI12TupleContentVyxxQp_QPGAA4ViewAARvzAaERzlMc
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI13GeometryProxyV4sizeSo6CGSizeVvg
++ _$s7SwiftUI13PreferenceKeyMp
++ _$s7SwiftUI13PreferenceKeyP12defaultValue0F0QzvgZTq
++ _$s7SwiftUI13PreferenceKeyP17_isReadableByHostSbvgZTq
++ _$s7SwiftUI13PreferenceKeyP22_includesRemovedValuesSbvgZTq
++ _$s7SwiftUI13PreferenceKeyP22_preferenceValuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI13PreferenceKeyP6reduce5value9nextValuey0H0Qzz_AHyXEtFZTq
++ _$s7SwiftUI13PreferenceKeyPAAE17_isReadableByHostSbvgZ
++ _$s7SwiftUI13PreferenceKeyPAAE22_includesRemovedValuesSbvgZ
++ _$s7SwiftUI13PreferenceKeyPAASQ5ValueRpzrlE22_preferenceValuesEqualySbAE_AEtFZ
++ _$s7SwiftUI13_OffsetEffectVMn
++ _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
++ _$s7SwiftUI14GeometryReaderVMn
++ _$s7SwiftUI14GeometryReaderVyxGAA4ViewAAMc
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF
++ _$s7SwiftUI15SafeAreaRegionsV3allACvgZ
++ _$s7SwiftUI15SafeAreaRegionsV8keyboardACvgZ
++ _$s7SwiftUI15SafeAreaRegionsV9containerACvgZ
++ _$s7SwiftUI16PlainButtonStyleVAA09PrimitivedE0AAMc
++ _$s7SwiftUI16PlainButtonStyleVACycfC
++ _$s7SwiftUI16PlainButtonStyleVMa
++ _$s7SwiftUI16PlainButtonStyleVMn
++ _$s7SwiftUI16RoundedRectangleVAA5ShapeAAMc
++ _$s7SwiftUI17ContentShapeKindsV13accessibilityACvgZ
++ _$s7SwiftUI17EnvironmentValuesV16MagnifierSupportE24presentingViewControllerSo06UIViewI0CSgvg
++ _$s7SwiftUI17EnvironmentValuesV16MagnifierSupportE24presentingViewControllerSo06UIViewI0CSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV16MagnifierSupportE24presentingViewControllerSo06UIViewI0CSgvs
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvg
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV17verticalSizeClassAA013UserInterfacefG0OSgvs
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvg
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV19horizontalSizeClassAA013UserInterfacefG0OSgvs
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvg
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvs
++ _$s7SwiftUI18_AnimationModifierVMn
++ _$s7SwiftUI19AccessibilityTraitsV8isHeaderACvgZ
++ _$s7SwiftUI19AccessibilityTraitsVMa
++ _$s7SwiftUI19ConcentricRectangleV7corners9isUniformAcA4EdgeOAAE6CornerO5StyleV_SbtcfC
++ _$s7SwiftUI19ConcentricRectangleVAA5ShapeAAMc
++ _$s7SwiftUI19ConcentricRectangleVMa
++ _$s7SwiftUI19UIHostingControllerC8rootViewxvsTj
++ _$s7SwiftUI19UIHostingControllerCMn
++ _$s7SwiftUI19_BackgroundModifierVMn
++ _$s7SwiftUI19_BackgroundModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI21_ContentShapeModifierVMn
++ _$s7SwiftUI21_ContentShapeModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI22UserInterfaceSizeClassO7regularyA2CmFWC
++ _$s7SwiftUI22UserInterfaceSizeClassOMa
++ _$s7SwiftUI22UserInterfaceSizeClassOMn
++ _$s7SwiftUI22UserInterfaceSizeClassOSQAAMc
++ _$s7SwiftUI22_MatchedGeometryEffectVMn
++ _$s7SwiftUI23DefaultGlassEffectShapeVAA0F0AAMc
++ _$s7SwiftUI23DefaultGlassEffectShapeVACycfC
++ _$s7SwiftUI23DefaultGlassEffectShapeVMa
++ _$s7SwiftUI23DefaultGlassEffectShapeVMn
++ _$s7SwiftUI24_BackgroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI25MatchedGeometryPropertiesV5frameACvgZ
++ _$s7SwiftUI25_ContentShapeKindModifierVMn
++ _$s7SwiftUI25_PreferenceActionModifierVMn
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVMn
++ _$s7SwiftUI4EdgeO3SetV10horizontalAEvgZ
++ _$s7SwiftUI4EdgeO3SetV8verticalAEvgZ
++ _$s7SwiftUI4EdgeOAAE6CornerO5StyleV10concentric7minimumA2GSg_tFZ
++ _$s7SwiftUI4EdgeOAAE6CornerO5StyleV14integerLiteralAGSi_tcfC
++ _$s7SwiftUI4EdgeOAAE6CornerO5StyleVMa
++ _$s7SwiftUI4EdgeOAAE6CornerO5StyleVMn
++ _$s7SwiftUI4FontV6DesignOMa
++ _$s7SwiftUI4FontV6DesignOMn
++ _$s7SwiftUI4FontV6WeightV6mediumAEvgZ
++ _$s7SwiftUI4FontV6WeightV7regularAEvgZ
++ _$s7SwiftUI4FontV6system4size6weight6designAC12CoreGraphics7CGFloatV_AC6WeightVSgAC6DesignOSgtFZ
++ _$s7SwiftUI4FontVMn
++ _$s7SwiftUI4TextV4fontyAcA4FontVSgF
++ _$s7SwiftUI4TextVAA4ViewAAWP
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI4ViewP24AccessibilityUIUtilitiesE18accessibilityGlass2inQrqd___tAA5ShapeRd__lF
++ _$s7SwiftUI4ViewP24AccessibilityUIUtilitiesE18accessibilityGlass2inQrqd___tAA5ShapeRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lF
++ _$s7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE22accessibilityAddTraitsyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0iF0VF
++ _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lF
++ _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOMQ
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOMQ
++ _$s7SwiftUI5ColorV5clearACvgZ
++ _$s7SwiftUI5ColorV5whiteACvgZ
++ _$s7SwiftUI5GlassV5clearACvgZ
++ _$s7SwiftUI5GlassV7regularACvgZ
++ _$s7SwiftUI5GlassVMa
++ _$s7SwiftUI5ImageV10systemNameACSS_tcfC
++ _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGqd___yyctcSyRd__lufC
++ _$s7SwiftUI6CircleVAA5ShapeAAMc
++ _$s7SwiftUI6CircleVN
++ _$s7SwiftUI6IDViewVMn
++ _$s7SwiftUI7AnyViewVMn
++ _$s7SwiftUI7BindingV12wrappedValuexvg
++ _$s7SwiftUI7BindingV14projectedValueACyxGvg
++ _$s7SwiftUI7BindingVMa
++ _$s7SwiftUI7DividerVACycfC
++ _$s7SwiftUI7DividerVMn
++ _$s7SwiftUI8AnyShapeVAA0D0AAMc
++ _$s7SwiftUI8AnyShapeVMn
++ _$s7SwiftUI8AnyShapeVN
++ _$s7SwiftUI8AnyShapeVyACxcAA0D0RzlufC
++ _$s7SwiftUI8BindableV12wrappedValuexvg
++ _$s7SwiftUI8BindableV14projectedValueACyxGvg
++ _$s7SwiftUI8BindableVAARlzC11Observation10ObservableRzlE12wrappedValueACyxGx_tcfC
++ _$s7SwiftUI8BindableVAARlzClE13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig
++ _$s7SwiftUI8BindableVMn
++ _$s7SwiftUI9AlignmentV6bottomACvgZ
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s7SwiftUI9AnimationV6easeIn8durationACSd_tFZ
++ _$s7SwiftUI9AnimationV6spring8response15dampingFraction13blendDurationACSd_S2dtFZ
++ _$s7SwiftUI9AnimationV7easeOut8durationACSd_tFZ
++ _$s7SwiftUI9AnimationV9easeInOut8durationACSd_tFZ
++ _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
++ _$s7SwiftUI9LazyStateV12wrappedValuexvg
++ _$s7SwiftUI9LazyStateV12wrappedValuexvs
++ _$s7SwiftUI9LazyStateV14projectedValueAA7BindingVyxGvg
++ _$s7SwiftUI9LazyStateV7StorageO5valueyAEyx_GxcAGmlFWC
++ _$s7SwiftUI9LazyStateV7StorageOMn
++ _$s7SwiftUI9LazyStateVMa
++ _$s7SwiftUI9LazyStateVMn
++ _$s7SwiftUI9NamespaceV12wrappedValueAC2IDVvg
++ _$s7SwiftUI9NamespaceVMn
++ _$s7SwiftUI9NamespaceVN
++ _$s7SwiftUI9RectangleVMn
++ _$s7SwiftUI9UnitPointV6centerACvgZ
++ _$sBbWV
++ _$sS2cEycfC
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS16MagnifierSupportE22noInternetErrorMessageSSvgZ
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSbSQsWP
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sScC6resume8throwingyq_n_tF
++ _$sScC6resume9returningyxn_tF
++ _$sScCMa
++ _$sScEs5ErrorsMc
++ _$sSo10AXSettingsC22AccessibilityUtilitiesE4coreSo14AXCoreSettingsCvpWvd
++ _$sSo13UIApplicationC16MagnifierSupportE26magnifier_foregroundScreenSo8UIScreenCSgvg
++ _$sSo14AXCoreSettingsC0A9UtilitiesE15liveRecognitionAC04LiveeB0CvpWvd
++ _$sSo8UIActionC5UIKitE5title8subtitle5image13selectedImage09preferredG10Visibility10identifier20discoverabilityTitle10attributes5state7handlerABSS_SSSgSo7UIImageCSgAQSo013UIMenuElementgI0VSo0A10IdentifieraSgANSo0qR10AttributesVSo0qR5StateVyABctcfC
++ _$sSy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss6ResultOMn
++ _$ss8DurationVMn
++ _AXIsInternalInstall
++ _CFNotificationCenterAddObserver
++ _CFNotificationCenterGetDarwinNotifyCenter
++ _CGRectGetHeight
++ _FBSOpenApplicationOptionKeyPromptUnlockDevice
++ _FBSOpenApplicationOptionKeyUnlockDevice
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_AXSpringBoardServer
++ _OBJC_CLASS_$_LSApplicationWorkspace
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSLock
++ _OBJC_CLASS_$_NSOperationQueue
++ _OBJC_CLASS_$_NSTimer
++ _UIAccessibilityPostNotification
++ _UIAccessibilityScreenChangedNotification
++ _UIApplicationProtectedDataWillBecomeUnavailable
++ _UIImagePNGRepresentation
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ _objc_release_x10
++ _objc_retain_x1
++ _os_variant_has_internal_ui
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_getFunctionTypeMetadata0
++ _swift_getTupleTypeMetadata3
++ _swift_initStackObject
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x4
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_setDeallocating
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_isCancelledWithFlags
++ _swift_task_removeCancellationHandler
++ _swift_unknownObjectWeakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
+- _$s16MagnifierSupport12MAGARServiceC19requireCurrentFrame7timeoutSo11CVBufferRefaSd_tYaKFTjTu
+- _$s16MagnifierSupport13MAGImageUtilsO16convertToPNGDatay10Foundation4DataVSo11CVBufferRefaKFZ
+- _$s16MagnifierSupport25MAGVideoCaptioningServiceC7prewarmyyYaKFTjTu
+- _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
+- _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
+- _$s7Combine16ObservableObjectMp
+- _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
+- _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
+- _$s7Combine16ObservableObjectP7SwiftUIE16environmentStores15WritableKeyPathCyAD17EnvironmentValuesVxSgGvgZ
+- _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
+- _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
+- _$s7Combine25ObservableObjectPublisherCMn
+- _$s7Combine9PublishedV12initialValueACyxGx_tcfC
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
+- _$s7Combine9PublishedVMa
+- _$s7Combine9PublishedVMn
+- _$s7SwiftUI11AnyLocationCMn
+- _$s7SwiftUI13AnyShapeStyleVMn
+- _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE19accessibilityActionyACyxAEGAA0eI4KindV_yyctF
+- _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI17ButtonBorderShapeV6circleACvgZ
+- _$s7SwiftUI17ButtonBorderShapeVMa
+- _$s7SwiftUI17ButtonBorderShapeVMn
+- _$s7SwiftUI17EnvironmentObjectV5errors5NeverOyF
+- _$s7SwiftUI17EnvironmentObjectVACyxGycfC
+- _$s7SwiftUI17EnvironmentObjectVMa
+- _$s7SwiftUI17EnvironmentObjectVMn
+- _$s7SwiftUI17EnvironmentValuesV18_buttonBorderShapeAA06ButtonfG0Vvg
+- _$s7SwiftUI17EnvironmentValuesV18_buttonBorderShapeAA06ButtonfG0VvpMV
+- _$s7SwiftUI17EnvironmentValuesV18_buttonBorderShapeAA06ButtonfG0Vvs
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvg
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvpMV
+- _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvs
+- _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
+- _$s7SwiftUI18_AspectRatioLayoutVMn
+- _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
+- _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
+- _$s7SwiftUI28BorderedProminentButtonStyleVAA09PrimitiveeF0AAMc
+- _$s7SwiftUI28BorderedProminentButtonStyleVACycfC
+- _$s7SwiftUI28BorderedProminentButtonStyleVMa
+- _$s7SwiftUI28BorderedProminentButtonStyleVMn
+- _$s7SwiftUI34_InsettableBackgroundShapeModifierVMn
+- _$s7SwiftUI34_InsettableBackgroundShapeModifierVyxq_GAA04ViewF0AAMc
+- _$s7SwiftUI4EdgeO3SetV7leadingAEvgZ
+- _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
+- _$s7SwiftUI5ColorVN
+- _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC
+- _$s7SwiftUI8MaterialV4thinACvgZ
+- _$s7SwiftUI8MaterialVMn
+- _$s7SwiftUI9EmptyViewVMn
+- _$s7SwiftUI9TupleViewVMn
+- _$sScT5valuexvg
+- _$sScT5valuexvgTu
+- _$sSo10AXSettingsC22AccessibilityUtilitiesE15LiveRecognitionC22preferredOneShotSourceAbCE09PreferredghI0Ovg
+- _$sSo10AXSettingsC22AccessibilityUtilitiesE15liveRecognitionAbCE04LiveE0CvpWvd
+- _$sSo10AXSettingsC22AccessibilityUtilitiesE22PreferredOneShotSourceOMa
+- _$sSo10AXSettingsCMa
+- _$sSo8UIActionC5UIKitE5title8subtitle5image13selectedImage10identifier20discoverabilityTitle10attributes5state7handlerABSS_SSSgSo7UIImageCSgAPSo0A10IdentifieraSgAMSo23UIMenuElementAttributesVSo0pQ5StateVyABctcfC
+- _$ss10__CocoaSetV10startIndexAB0D0Vvg
+- _$ss10__CocoaSetV5IndexV2eeoiySbAD_ADtFZ
+- _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
+- _$ss10__CocoaSetV5IndexV7elementyXlvg
+- _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
+- _$ss10__CocoaSetV8endIndexAB0D0Vvg
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlF
+- _$ss27withTaskCancellationHandler9operation8onCancel9isolationxxyYaKXE_yyYbXEScA_pSgYitYaKlFTu
+- _OBJC_CLASS_$_UIScreen
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_task_isCancelled
+CStrings:
++ "$__lazy_storage_$_advancedEventHandler"
++ "$__lazy_storage_$_angelDetectionManager"
++ "$__lazy_storage_$_angelPreferences"
++ "$__lazy_storage_$_appController"
++ "$__lazy_storage_$_arService"
++ "$__lazy_storage_$_outputEngine"
++ "$__lazy_storage_$_sceneActivationHandler"
++ "%s will call startARSession"
++ "%s: AFM+ image description produced an error. falling back to on-device model. %@"
++ "%s: Current session is nil or isFinished. Will start new one-shot scene description session with response"
++ "%s: Did finish request to activate scene: SBSUIMagnifierScene"
++ "%s: Done"
++ "%s: Done registering event handlers"
++ "%s: Failed to create UIImage from data"
++ "%s: Failed to create pixel buffer from provided image data"
++ "%s: Generating scene description from %ld provided images"
++ "%s: Generating scene description from provided device image"
++ "%s: No valid pixel buffers created from provided images"
++ "%s: Registering event handlers (deferred from didFinishLaunching)"
++ "%s: Skipping scene activation — eager activation already in flight"
++ "%s: Using %ld provided images"
++ "%s: Using provided image"
++ "%s: Will cancel speech recognition"
++ "%s: Will request image frame device camera"
++ "%s: Will sleep for %fs before giving up scene assertion"
++ "%s: isTaskFinishedOrCancelled=true. return=nil"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Magnifier/MagnifierAngel/Source/AppManagement/MAGAngelAppDelegate.swift"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
++ "@48@0:8@16{_NSRange=QQ}24@40"
++ "ASK_SOMETHING_BUTTON"
++ "ASK_VQA_APP_INTENT_TITLE"
++ "ASK_VQA_SHORTCUT_SHORT_TITLE"
++ "AXMAGAvoidanceRegionDidChangeNotification"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "B24@0:8@\"UITextField\"16"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
++ "B48@0:8@16{_NSRange=QQ}24@40"
++ "CGImage"
++ "DOCUMENT_MODE_BUTTON"
++ "Eager scene activation: Did request to activate scene"
++ "Eager scene activation: Failed to activate scene: %@"
++ "Eager scene activation: Will request to activate scene"
++ "Escape action: onEscape called, dismissing transcript"
++ "Failed to get scene description: %@"
++ "Failed to process provided image"
++ "Failed to process provided images"
++ "Keyboard VQA task was cancelled before request — discarding"
++ "Keyboard VQA task was cancelled — discarding response"
++ "Localizable-AskMagnifier"
++ "MAGAngelAppController"
++ "MAGAngelPreferences"
++ "MAGAngelRootView: dismissTranscript() called. caller=%s dismissHUD=%{bool}d clearTranscript=%{bool}d"
++ "MagnifierAngel.LiveRecognitionPromptDelegate"
++ "No scene description result returned"
++ "OPEN_SETTINGS_BUTTON"
++ "Optional<UserInterfaceSizeClass>"
++ "People Detection is active. will prewarm video captioning service"
++ "People Detection not active. will not prewarm video captioning service"
++ "PeripheralImage-"
++ "Recapture image requested via volume button"
++ "Scene description request timed out"
++ "Session already active"
++ "TB,N"
++ "Transcript already showing — cancelling in-flight request before re-asking"
++ "UITextFieldDelegate"
++ "Unable to open settings from Live Recognition: %@"
++ "VQA could not convert conversation image to pixel buffer"
++ "VQA request failed after recapture: %s"
++ "VQA request failed: %s"
++ "VQA timed out waiting for a camera frame"
++ "Video caption service prepareCaptioningProvider() failed: %@"
++ "Will peform intent: %s"
++ "[AngelContext] LiveRecognitionPromptDelegate submitting prompt='%s' isFollowUp=%{bool}d transcriptCount=%ld"
++ "_TtC14MagnifierAngel29LiveRecognitionPromptDelegate"
++ "_TtC14MagnifierAngel30MAGAngelVQATranscriptCollector"
++ "_accessibilityIsModalWithKeyboard"
++ "_avoidanceAxis"
++ "_conversationImage"
++ "_shouldFocusKeyboard"
++ "_shouldRecaptureImage"
++ "_showingTranscript"
++ "accessibilityViewIsModal"
++ "activationState"
++ "activeSubmissionTask"
++ "addObserverForName:object:queue:usingBlock:"
++ "ask.something.angel"
++ "askLiveRecognitionQuestion"
++ "askLiveRecognitionQuestion()"
++ "askMagnifier.defaultRequest.describeThisToMe"
++ "avoidanceObserver"
++ "cameraViewfinder(_:viewfinderSessionDidBegin:)"
++ "cameraViewfinder(_:viewfinderSessionDidEnd:)"
++ "cancelInflightVQARequest()"
++ "cannot.respond.to.image"
++ "captureLocalDeviceImage(_:_:)"
++ "cleanupTimer"
++ "close.recognition.button"
++ "com.apple.AXAutomation"
++ "completionHandler"
++ "consecutiveFramesWithoutPerson"
++ "control.name.doorDetection"
++ "control.name.imageCaption"
++ "control.name.objectUnderstanding"
++ "control.name.peopleDetection"
++ "control.name.pointSpeak"
++ "control.name.textDetection"
++ "conversationPixelBuffer"
++ "defaultWorkspace"
++ "detection.preferredInputType.alert.message"
++ "detection.preferredInputType.alert.title"
++ "detection.preferredInputType.keyboard"
++ "detection.preferredInputType.speech"
++ "document.scan.button"
++ "document.viewfinder"
++ "environmentMap"
++ "generateSceneDecriptionFromDeviceImage(_:_:)"
++ "generateSceneDescriptionFromDeviceImage(_:_:)"
++ "generateSceneDescriptionFromProvidedPeripheralImages(_:_:)"
++ "generativeModelsService"
++ "giveUpActivateAssertionAfterGracePeriod()"
++ "handleDefaultQuestionSubmitFromButton:"
++ "handleSubmitFromButton:"
++ "hasEagerlyActivatedScene"
++ "hasRegisteredEventHandlers"
++ "horizontalSizeClass"
++ "hostingController"
++ "imageSource"
++ "initWithData:"
++ "initWithDomain:code:userInfo:"
++ "labelColor"
++ "liveRecognitionDefaultQuestionText"
++ "liveRecognitionHasShownPreferredInputTypePrompt"
++ "liveRecognitionPreferredAskInputType"
++ "liveRecognitionUseDefaultQuestion"
++ "lock"
++ "mainQueue"
++ "open.settings.button"
++ "openSensitiveURL:withOptions:error:"
++ "pendingHUDDismissWorkItem"
++ "pendingSceneDescriptionRequests"
++ "questionmark.bubble.fill"
++ "recaptureImage"
++ "recaptureImage()"
++ "registerEventHandlersIfNeeded()"
++ "request.error.image.too.blurry.abbreviated"
++ "request.error.image.too.dark.abbreviated"
++ "request.error.long"
++ "requestId imageData speakResult "
++ "requestId imageDataArray speakResult "
++ "requestId speakResult "
++ "requestsLock"
++ "resolvedColorWithTraitCollection:"
++ "retrieveOneShotSceneDescription()"
++ "retrieveOneShotSceneDescriptionWithCompletion:"
++ "sceneActivationHandler: Activating scene"
++ "scheduledTimerWithTimeInterval:repeats:block:"
++ "screen"
++ "sendAwaitableRequest(_:)"
++ "server"
++ "setAccessibilityViewIsModal:"
++ "setLiveRecognitionHasShownPreferredInputTypePrompt:"
++ "setLiveRecognitionPreferredAskInputType:"
++ "setLiveRecognitionTranscriptOpen:"
++ "setLocalTarget:"
++ "settings-navigation://com.apple.Settings.Accessibility/VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION"
++ "showControlCenter:"
++ "speakResult"
++ "startOneShotSceneDescriptionSession(requestId:speakResult:deviceImageData:peripheralImageDataArray:sceneActivationHandler:)"
++ "text"
++ "textField"
++ "textField:editMenuForCharactersInRange:suggestedActions:"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:insertInputSuggestion:"
++ "textField:shouldChangeCharactersInRange:replacementString:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textField:willDismissEditMenuWithAnimator:"
++ "textField:willPresentEditMenuWithAnimator:"
++ "textFieldDidBeginEditing:"
++ "textFieldDidChangeSelection:"
++ "textFieldDidEndEditing:"
++ "textFieldDidEndEditing:reason:"
++ "textFieldShouldBeginEditing:"
++ "textFieldShouldClear:"
++ "textFieldShouldEndEditing:"
++ "textFieldShouldReturn:"
++ "traitCollection"
++ "traitCollectionWithUserInterfaceStyle:"
++ "transcriptPresentationDelay"
++ "unlock"
++ "v16@?0@\"NSNotification\"8"
++ "v16@?0@\"NSTimer\"8"
++ "v24@0:8@\"UITextField\"16"
++ "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
++ "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
++ "v32@0:8@\"UITextField\"16q24"
++ "verticalSizeClass"
++ "viewModel"
++ "vqa.response.processing"
+- "%s: Activating scene"
+- "%s: Did finish reuqest to activate scene: SBSUIMagnifierScene"
+- "%s: Will request image from ARKit session"
+- "%s: Will sleep for 10s before giving up scene assertion"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Video caption service prewarm() failed: %@"
+- "_accessibilityIsIsolatedWindow"
+- "advancedEventHandler"
+- "angelDetectionManager"
+- "appController"
+- "beginMonitoringClientRequests()"
+- "blackColor"
+- "captureLocalDeviceImage(_:)"
+- "mainScreen"
+- "stop.recognition.button"
+- "systemBlueColor"
+- "whiteColor"
+
+```

@@ -1,0 +1,816 @@
+## DeepThoughtBiomeFoundation
+
+> `/System/Library/PrivateFrameworks/DeepThoughtBiomeFoundation.framework/DeepThoughtBiomeFoundation`
+
+```diff
+
+-5.4.1.0.0
+-  __TEXT.__text: 0x70fa4
+-  __TEXT.__auth_stubs: 0x1b00
++6.0.1.0.0
++  __TEXT.__text: 0x70a50
+   __TEXT.__objc_methlist: 0x910
+-  __TEXT.__const: 0x3b88
++  __TEXT.__const: 0x3b48
+   __TEXT.__oslogstring: 0x1386
+   __TEXT.__constg_swiftt: 0x2ee4
+-  __TEXT.__swift5_typeref: 0x1300
++  __TEXT.__swift5_typeref: 0x12d8
+   __TEXT.__swift5_builtin: 0x21c
+   __TEXT.__swift5_reflstr: 0x7e6
+   __TEXT.__swift5_fieldmd: 0x1054
+   __TEXT.__swift5_assocty: 0x270
+   __TEXT.__swift5_proto: 0x158
+   __TEXT.__swift5_types: 0x290
+-  __TEXT.__cstring: 0x5a9c
++  __TEXT.__cstring: 0x5c5c
+   __TEXT.__swift5_protos: 0x24
+   __TEXT.__swift_as_entry: 0x7c
+   __TEXT.__swift5_capture: 0x4fc
+   __TEXT.__swift_as_ret: 0x74
++  __TEXT.__swift_as_cont: 0xb0
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x1810
+-  __TEXT.__eh_frame: 0x1670
+-  __TEXT.__objc_classname: 0x2008
+-  __TEXT.__objc_methname: 0x187c
+-  __TEXT.__objc_methtype: 0x4a5
+-  __TEXT.__objc_stubs: 0x1b80
+-  __DATA_CONST.__got: 0x578
++  __TEXT.__unwind_info: 0x1880
++  __TEXT.__eh_frame: 0x1790
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1be8
+   __DATA_CONST.__objc_classlist: 0x3a0
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x848
+   __DATA_CONST.__objc_protorefs: 0x48
+-  __AUTH_CONST.__auth_got: 0xd88
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x2638
+-  __AUTH_CONST.__cfstring: 0x3580
++  __AUTH_CONST.__cfstring: 0x3860
+   __AUTH_CONST.__objc_const: 0x49d8
+-  __AUTH.__objc_data: 0x3020
+-  __AUTH.__data: 0x3a78
+-  __DATA.__data: 0x1048
+-  __DATA.__bss: 0x1800
+-  __DATA.__common: 0x90
+-  __DATA_DIRTY.__objc_data: 0x438
+-  __DATA_DIRTY.__data: 0x440
+-  __DATA_DIRTY.__common: 0x18
+-  __DATA_DIRTY.__bss: 0x80
++  __AUTH_CONST.__auth_got: 0xe40
++  __AUTH.__objc_data: 0x2ce0
++  __AUTH.__data: 0x3958
++  __DATA.__data: 0xf50
++  __DATA.__bss: 0x1780
++  __DATA.__common: 0x78
++  __DATA_DIRTY.__objc_data: 0x778
++  __DATA_DIRTY.__data: 0x658
++  __DATA_DIRTY.__common: 0x30
++  __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8F120A68-18F3-3AA5-98A7-38688F3324D4
+-  Functions: 2733
+-  Symbols:   1726
+-  CStrings:  1742
++  UUID: F3827507-9E0D-303A-AB84-4966D9785D4B
++  Functions: 2742
++  Symbols:   1881
++  CStrings:  1255
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.15
++ ___swift__destructor.7
++ ___swift__destructor.9
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.9
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___unnamed_11
++ ___unnamed_13
++ ___unnamed_16
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_DeepThoughtBiomeFoundation
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.15
++ _block_copy_helper.29
++ _block_copy_helper.3
++ _block_copy_helper.35
++ _block_copy_helper.39
++ _block_copy_helper.45
++ _block_copy_helper.62
++ _block_copy_helper.9
++ _block_descriptor.11
++ _block_descriptor.17
++ _block_descriptor.31
++ _block_descriptor.37
++ _block_descriptor.41
++ _block_descriptor.47
++ _block_descriptor.5
++ _block_descriptor.64
++ _block_destroy_helper.10
++ _block_destroy_helper.16
++ _block_destroy_helper.30
++ _block_destroy_helper.36
++ _block_destroy_helper.4
++ _block_destroy_helper.40
++ _block_destroy_helper.46
++ _block_destroy_helper.63
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic SS3key_yp5valuetSg
++ _symbolic SS_yptSg
+- ___unnamed_10
+- ___unnamed_12
+- ___unnamed_15
+- ___unnamed_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DeepThoughtBiomeFoundation
+- _block_copy_helper.10
+- _block_copy_helper.30
+- _block_copy_helper.36
+- _block_copy_helper.4
+- _block_copy_helper.40
+- _block_copy_helper.46
+- _block_copy_helper.65
+- _block_descriptor.12
+- _block_descriptor.32
+- _block_descriptor.38
+- _block_descriptor.42
+- _block_descriptor.48
+- _block_descriptor.6
+- _block_descriptor.67
+- _block_destroy_helper.11
+- _block_destroy_helper.31
+- _block_destroy_helper.37
+- _block_destroy_helper.41
+- _block_destroy_helper.47
+- _block_destroy_helper.5
+- _block_destroy_helper.66
+- _objectdestroy.19Tm
+- _objectdestroy.34Tm
+- _objectdestroy.7Tm
+- _objectdestroyTm
+- _swift_unknownObjectRelease_n
+- _symbolic SS3key_yp5valuet
+- _symbolic SS_______pt 26DeepThoughtBiomeFoundation12PreprocessorP
+- _symbolic ______pSg 26DeepThoughtBiomeFoundation0C23VirtualTableConvertibleP
+- _symbolic ______pSg 26DeepThoughtBiomeFoundation12PreprocessorP
+- _symbolic ______pSg s19_HasContiguousBytesP
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+CStrings:
++ "APCT_CLIENT_EVENT"
++ "COLS_CLIENT_EVENT"
++ "CONTEXTRETRIEVAL_CLIENT_EVENT"
++ "CPR_CLIENT_EVENT"
++ "DER_CLIENT_EVENT"
++ "ES_CLIENT_EVENT"
++ "FLOWTOOLS_CLIENT_EVENT"
++ "FTD_CLIENT_EVENT"
++ "GAA_CLIENT_EVENT"
++ "IFTMGR_CLIENT_EVENT"
++ "PLANNERTOOL_CLIENT_EVENT"
++ "PLANNER_CLIENT_EVENT"
++ "RESOLVE_CLIENT_EVENT"
++ "RESPONSETOOLS_CLIENT_EVENT"
++ "SAM_SERVER_EVENT"
++ "SA_CLIENT_EVENT"
++ "SIRIXAGENT_CLIENT_EVENT"
++ "SKIMMER_CLIENT_EVENT"
++ "SPANMATCH_CLIENT_EVENT"
++ "TA_CLIENT_EVENT"
++ "TMSTURN_CLIENT_EVENT"
++ "TMS_CLIENT_EVENT"
++ "TR_CLIENT_EVENT"
+- "#16@0:8"
+- "$__lazy_storage_$_biomeDB"
+- ".cxx_destruct"
+- "?"
+- "@\"<BMBookmarkablePublisher>\"24@0:8d16"
+- "@\"<BMBookmarkablePublisher>\"44@0:8@\"NSNumber\"16@\"NSNumber\"24@\"NSNumber\"32B40"
+- "@\"<BMBookmarkablePublisher>\"52@0:8@\"NSNumber\"16@\"NSNumber\"24@\"NSNumber\"32@\"NSNumber\"40B48"
+- "@\"BMSource\"16@0:8"
+- "@\"NSData\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8Q16"
+- "@\"SISchemaInstrumentationMessage\"16@0:8"
+- "@16@0:8"
+- "@16@?0@\"BMPublisherOptions\"8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@24@?0@\"NSArray\"8^@16"
+- "@24@?0@8^@16"
+- "@28@0:8@\"NSData\"16I24"
+- "@28@0:8@16I24"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16q24@32"
+- "@44@0:8@16@24@32B40"
+- "@52@0:8@16@24@32@40B48"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BMSourceStream"
+- "BMStoreData"
+- "BMStream"
+- "BMTimeBasedPublisherStream"
+- "DeepThoughtBiomeFoundation"
+- "I16@0:8"
+- "JSONObjectWithData:options:error:"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "SISchemaInnerEventContainer"
+- "T#,R"
+- "T@\"NSArray\",N,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"SISchemaInstrumentationMessage\",R,N"
+- "TB,N"
+- "TB,R"
+- "TI,?,R,N"
+- "TI,R,N"
+- "TQ,R"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC26DeepThoughtBiomeFoundation10EventUtils"
+- "_TtC26DeepThoughtBiomeFoundation10FeatureKey"
+- "_TtC26DeepThoughtBiomeFoundation12Conversation"
+- "_TtC26DeepThoughtBiomeFoundation12EventFactory"
+- "_TtC26DeepThoughtBiomeFoundation12FlowTaskStep"
+- "_TtC26DeepThoughtBiomeFoundation12TurnFeatures"
+- "_TtC26DeepThoughtBiomeFoundation13EventFeatures"
+- "_TtC26DeepThoughtBiomeFoundation14BiomeSQLResult"
+- "_TtC26DeepThoughtBiomeFoundation14PSEActionEvent"
+- "_TtC26DeepThoughtBiomeFoundation14StreamsEndTime"
+- "_TtC26DeepThoughtBiomeFoundation14UndefinedField"
+- "_TtC26DeepThoughtBiomeFoundation15FeaturizedEvent"
+- "_TtC26DeepThoughtBiomeFoundation15StreamsBookmark"
+- "_TtC26DeepThoughtBiomeFoundation16BiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation16BiomeSQLDatabase"
+- "_TtC26DeepThoughtBiomeFoundation16ConversationTurn"
+- "_TtC26DeepThoughtBiomeFoundation16SQLDatabaseError"
+- "_TtC26DeepThoughtBiomeFoundation17ConversationUtils"
+- "_TtC26DeepThoughtBiomeFoundation18ConversationStream"
+- "_TtC26DeepThoughtBiomeFoundation18MHFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation19ConversationTurnPLL"
+- "_TtC26DeepThoughtBiomeFoundation19DIMFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation19FeatureConfigParser"
+- "_TtC26DeepThoughtBiomeFoundation19UnifiedSiriTurnBase"
+- "_TtC26DeepThoughtBiomeFoundation20ORCHFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation21BiomeAggregatedStream"
+- "_TtC26DeepThoughtBiomeFoundation21ConversationStreamPLL"
+- "_TtC26DeepThoughtBiomeFoundation22ConversationTurnAIMLIS"
+- "_TtC26DeepThoughtBiomeFoundation22FeaturizedConversation"
+- "_TtC26DeepThoughtBiomeFoundation22NumericalOneHotEncoder"
+- "_TtC26DeepThoughtBiomeFoundation22SiriUIBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation22SiriUIFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation23ConversationTurnFactory"
+- "_TtC26DeepThoughtBiomeFoundation24CategoricalOneHotEncoder"
+- "_TtC26DeepThoughtBiomeFoundation24ConversationStreamAIMLIS"
+- "_TtC26DeepThoughtBiomeFoundation24SemanticSimilarityScorer"
+- "_TtC26DeepThoughtBiomeFoundation24UserDefaultBookmarkStore"
+- "_TtC26DeepThoughtBiomeFoundation25AppIntentBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation25AppIntentFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation25ConversationStreamFactory"
+- "_TtC26DeepThoughtBiomeFoundation25InterTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation25IntraTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation25StreamsBookmarkCollection"
+- "_TtC26DeepThoughtBiomeFoundation25ValidTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation26AppInFocusBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation26AppInFocusFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation26FeaturizedConversationTurn"
+- "_TtC26DeepThoughtBiomeFoundation26IntraEventFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation28ASRIntraTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation28FlatFileStreamsBookmarkStore"
+- "_TtC26DeepThoughtBiomeFoundation28MessagesReadBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation28MessagesReadFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation28TTSIntraTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation28UEIIntraTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation29FlowIntraTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation29SiriExecutionBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation29SiriExecutionFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation29TurnUtteranceFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation31MediaNowPlayingBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation31MediaNowPlayingFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation32CarPlayConnectedBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation32CarPlayConnectedFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation32LocationSemanticBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation32LocationSemanticFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation32TextInputSessionBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation32TextInputSessionFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation33DeviceLockedEventFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation33NotificationUsageBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation33NotificationUsageFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation33SequenceInterTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation34DeviceScreenLockedBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation34UserFocusSleepModeBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation34UserFocusSleepModeFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation35IntraFeaturizedTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation36FeaturizedTurnsByBucketizedTimestamp"
+- "_TtC26DeepThoughtBiomeFoundation37FeaturizedEventsByBucketizedTimestamp"
+- "_TtC26DeepThoughtBiomeFoundation37UserFocusStatusChangeBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation37UserFocusStatusChangeFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation38SiriPostSiriEngagementBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation38SiriPostSiriEngagementFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation42SiriVoiceTriggerStatisticsBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation43VoiceTriggerStatisticsEventFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation45EmbeddingsIntraFeaturizedTurnFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation47LocationPointOfInterestCategoryBiomeEventStream"
+- "_TtC26DeepThoughtBiomeFoundation47LocationPointOfInterestCategoryFeatureExtractor"
+- "_TtC26DeepThoughtBiomeFoundation5Event"
+- "_TtC26DeepThoughtBiomeFoundation8FileLock"
+- "_TtC26DeepThoughtBiomeFoundationP33_F4B432E80DB2346BBC23321592F0992C21FileLockDarwinDefault"
+- "_TtC26DeepThoughtBiomeFoundationP33_F4B432E80DB2346BBC23321592F0992C24FileLockContextExclusive"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures10Embeddings"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures15RequestSequence"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures2MH"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures3ASR"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures3DIM"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures3TTS"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures3UEI"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures4Flow"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures4ORCH"
+- "_TtCC26DeepThoughtBiomeFoundation12TurnFeatures9ValidTurn"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures10AppInFocus"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures12MessagesRead"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures13SiriExecution"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures15MediaNowPlaying"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures16CarPlayConnected"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures16LocationSemantic"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures16TextInputSession"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures17NotificationUsage"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures18DeviceScreenLocked"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures18UserFocusSleepMode"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures21TextInputSessionEvent"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures21UserFocusStatusChange"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures22SiriPostSiriEngagement"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures26SiriVoiceTriggerStatistics"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures31LocationPointOfInterestCategory"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures6SiriUI"
+- "_TtCC26DeepThoughtBiomeFoundation13EventFeatures9AppIntent"
+- "absoluteTimestamp"
+- "action"
+- "additionalFunctions"
+- "aimlisTurn"
+- "album"
+- "anyEventType"
+- "appBundleID"
+- "appID"
+- "appPattern"
+- "appendSpaceAfter"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "artist"
+- "asrEvents"
+- "assistantDaemonAudioRecordingContext"
+- "audioDurationInNs"
+- "audioInputRoute"
+- "autorelease"
+- "biomeEventTypes"
+- "bookmark"
+- "bookmarkFileLock"
+- "bookmarks"
+- "boundaries"
+- "bucketSize"
+- "bundleForClass:"
+- "bundleID"
+- "cancelled"
+- "catIdToSpeakeasyCategory"
+- "categories"
+- "changeReason"
+- "class"
+- "clientSilenceProbability"
+- "clockID"
+- "clockId"
+- "clockStartTime"
+- "columns"
+- "confidence"
+- "configPath"
+- "configVersion"
+- "conformsToProtocol:"
+- "conversationID"
+- "conversationPath"
+- "conversationTurnType"
+- "conversationTurnTypeToStringWithTurnType:"
+- "conversationTurnsAfter"
+- "conversationTurnsBefore"
+- "copyWithZone:"
+- "count"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createWithType:"
+- "currentTaskName"
+- "data"
+- "dataSharingOptInState"
+- "dataVersion"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "debugDescription"
+- "debugString"
+- "defaultLocale"
+- "defaultManager"
+- "defaultModelVersion"
+- "defaults"
+- "description"
+- "deviceFixedContext"
+- "deviceType"
+- "dialogPhase"
+- "dictationContext"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dimEvents"
+- "discretizer"
+- "dismissalReason"
+- "dispatchGroup"
+- "displayedSiriDialogOutput"
+- "domain"
+- "domainSource"
+- "donatedBySiri"
+- "donatedTimestamp"
+- "duration"
+- "elapsed"
+- "embedder"
+- "embedding"
+- "embeddingDim"
+- "embeddingResults"
+- "embeddingTensor"
+- "embeddingVersion"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endOfSentenceLikelihood"
+- "endTimes"
+- "ended"
+- "endpointDetected"
+- "endpointFeaturesAtEndpoint"
+- "engagementEventsAfter"
+- "engagementEventsBefore"
+- "engagementUnderstandingFeatures"
+- "error"
+- "event"
+- "eventBody"
+- "eventMetadata"
+- "eventType"
+- "eventWithData:dataVersion:"
+- "expectedEndDate"
+- "failed"
+- "featureExtractorLibrary"
+- "featureName"
+- "featureType"
+- "features"
+- "fileDescriptor"
+- "fileLock"
+- "filePath"
+- "firstPassPeakScoreHS"
+- "firstPassPeakScoreJS"
+- "firstPassTriggerSource"
+- "flowEvents"
+- "flowState"
+- "flowStateReason"
+- "flowStateType"
+- "flowStep"
+- "formattedJsonBody"
+- "genre"
+- "getInnerTypeStringByTag:"
+- "handlingStatus"
+- "hash"
+- "hwSampleRate"
+- "identifier"
+- "idsHandle"
+- "idsHandles"
+- "imputeValue"
+- "imputer"
+- "init"
+- "initWithAdditionalVirtualTables:privileges:isColumnAccessLoggingEnabled:"
+- "initWithAnyEventType:payload:"
+- "initWithBytesAsData:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithDomain:code:userInfo:"
+- "initWithName:dataType:requestOnly:extractBlock:"
+- "initWithSchema:publisherBlockWithOptions:acceptPublisherOptions:"
+- "initWithStartDate:endDate:maxEvents:lastN:reversed:"
+- "initWithTableName:columns:"
+- "initWithTurns:"
+- "inner"
+- "innerEvent"
+- "integerValue"
+- "intentClass"
+- "intentName"
+- "intentType"
+- "intentVerb"
+- "interactionDirection"
+- "interpretationIndices"
+- "interpretations"
+- "intraEventFeatures"
+- "invocation"
+- "invocationSource"
+- "invocationTime"
+- "invocationTypeID"
+- "isConfirmInteraction"
+- "isDisambiguateInteraction"
+- "isDone"
+- "isEqual:"
+- "isEqualToString:"
+- "isFinal"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPostSiriEngagement"
+- "isPromptInteraction"
+- "isProxy"
+- "isSiriCompleted"
+- "isUnsupportedPromptInteraction"
+- "isUserAbandoned"
+- "isUserCancelled"
+- "itemID"
+- "itemType"
+- "json"
+- "jsonDict"
+- "keyboardInvocationContext"
+- "keyboardPresented"
+- "keywordThresholdHS"
+- "keywordThresholdJS"
+- "latestDataVersion"
+- "launchReason"
+- "launchType"
+- "libraryFeatureExtractor"
+- "linkId"
+- "linkIndex"
+- "lock"
+- "lockPath"
+- "maxSeconds"
+- "mean"
+- "mediaType"
+- "metrics"
+- "mhEvents"
+- "mitigationScore"
+- "nCategory"
+- "name"
+- "next"
+- "objectForKey:"
+- "oneHotEncoder"
+- "orchEvents"
+- "package"
+- "packageGenerated"
+- "partialResultGenerated"
+- "path"
+- "payload"
+- "performRequests:text:identifier:completionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phoneSequence"
+- "phrases"
+- "placeType"
+- "playbackState"
+- "pllTurn"
+- "poiCategory"
+- "postItn"
+- "processEmbeddingRequest:completionHandler:"
+- "pseDelta"
+- "pseEvents"
+- "publisherFromStartTime:"
+- "publisherWithOptions:"
+- "publisherWithStartTime:endTime:maxEvents:lastN:reversed:"
+- "publisherWithStartTime:endTime:maxEvents:reversed:"
+- "punchOut"
+- "punchOutUI"
+- "q24@0:8@16"
+- "queue"
+- "reason"
+- "recognitionResultTier1"
+- "recognizerScoreHS"
+- "recognizerScoreJS"
+- "registerFunctionWithName:numArgs:function:error:"
+- "release"
+- "repetitionSimilarityScore"
+- "requestContext"
+- "requestID"
+- "requestId"
+- "requestIds"
+- "requestMitigated"
+- "requestReceivedTier1"
+- "requestStatus"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "row"
+- "satTriggered"
+- "schema"
+- "score"
+- "sectionID"
+- "self"
+- "serialize"
+- "service"
+- "setExtendedContextLength:"
+- "setObject:forKey:"
+- "setSupportsSecureCoding:"
+- "setVersion:"
+- "setupWithLocale:embeddingVersion:completionHandler:"
+- "sinceUIEnd"
+- "sinceUIStart"
+- "sinkWithCompletion:receiveInput:"
+- "siriInputLocale"
+- "siriResponseContext"
+- "slotValue"
+- "sortedFeaturizedConversationTurns"
+- "source"
+- "startedOrChanged"
+- "starting"
+- "state"
+- "stateType"
+- "statusChangeType"
+- "statusReason"
+- "std"
+- "streamConversationsWithBookmark:completionHandler:"
+- "streamType"
+- "streamWithIdentifier:error:"
+- "streamsToType"
+- "stringToConversationTurnTypeWithTypeString:"
+- "subwordTokenChain"
+- "subwordTokenEmbedding"
+- "subwordTokens"
+- "subwordTokensAtIndex:"
+- "superclass"
+- "supportsSecureCoding"
+- "systemBuild"
+- "tableName"
+- "taskName"
+- "taskStep"
+- "taskSuccess"
+- "taskType"
+- "tdSpeakerRecognizerCombinedScore"
+- "tdSpeakerRecognizerCombinedThresholdHS"
+- "tdSpeakerRecognizerCombinedThresholdJS"
+- "text"
+- "textToSynthesize"
+- "threshold"
+- "timeIntervalSince1970"
+- "timeIntervals"
+- "timestamp"
+- "timestampMs"
+- "title"
+- "toSafeNSUUID"
+- "tokens"
+- "trailingSilenceDurationInNs"
+- "triggerScoreHS"
+- "triggerScoreJS"
+- "ttsEvents"
+- "turnFeatures"
+- "turnID"
+- "turnId"
+- "turns"
+- "type"
+- "typedText"
+- "ueiEvents"
+- "ueiInvocationTier1"
+- "ueiRequestCategorization"
+- "underlying"
+- "unifiedVirtualTables"
+- "unintendedResponseSuppressionExecutionContext"
+- "unwrap"
+- "usageType"
+- "userSpecificPlaceType"
+- "utterances"
+- "uufrPresented"
+- "uufrSaid"
+- "uufrShown"
+- "uufrShownTier1"
+- "v16@0:8"
+- "v16@?0@\"BPSCompletion\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@8"
+- "v20@0:8B16"
+- "v20@?0i8@\"NSError\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"SIRINLUEXTERNALSUBWORD_EMBEDDINGSubwordEmbeddingResponse\"8@\"NSError\"16"
+- "v32@0:8@\"_TtC26DeepThoughtBiomeFoundation15StreamsBookmark\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v8@?0"
+- "value"
+- "valueForKey:"
+- "valueForKeyPath:"
+- "valueForUndefinedKey:"
+- "valuesAtIndex:"
+- "valuesCount"
+- "viewContainer"
+- "viewMode"
+- "voiceTriggerContext"
+- "voiceTriggerEventInfo"
+- "whichInnerEventType"
+- "wrapAsAnyEvent"
+- "writeSequenceNumber"
+- "writeSequenceNumberLog"
+- "zone"
+
+```

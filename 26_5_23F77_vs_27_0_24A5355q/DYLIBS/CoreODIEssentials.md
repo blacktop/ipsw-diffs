@@ -1,0 +1,1832 @@
+## CoreODIEssentials
+
+> `/System/Library/PrivateFrameworks/CoreODIEssentials.framework/CoreODIEssentials`
+
+```diff
+
+-26.4.5.0.0
+-  __TEXT.__text: 0x1896a0
+-  __TEXT.__auth_stubs: 0x2710
+-  __TEXT.__objc_methlist: 0xcbc
+-  __TEXT.__const: 0x22360
+-  __TEXT.__cstring: 0x9c61
+-  __TEXT.__swift5_typeref: 0x3b0f
+-  __TEXT.__swift5_reflstr: 0xa4d7
+-  __TEXT.__swift5_assocty: 0x4f0
+-  __TEXT.__constg_swiftt: 0x4cb4
+-  __TEXT.__swift5_fieldmd: 0x7d50
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_proto: 0xdfc
+-  __TEXT.__swift5_types: 0x56c
+-  __TEXT.__swift5_capture: 0xeb8
+-  __TEXT.__swift_as_entry: 0x420
+-  __TEXT.__swift_as_ret: 0x590
+-  __TEXT.__swift5_mpenum: 0x78
+-  __TEXT.__oslogstring: 0xb46
+-  __TEXT.__swift5_protos: 0x90
++27.0.35.2.0
++  __TEXT.__text: 0x1ac858
++  __TEXT.__objc_methlist: 0xccc
++  __TEXT.__const: 0x25950
++  __TEXT.__cstring: 0xa73f
++  __TEXT.__swift5_typeref: 0x4571
++  __TEXT.__swift5_reflstr: 0xac47
++  __TEXT.__swift5_assocty: 0x538
++  __TEXT.__constg_swiftt: 0x522c
++  __TEXT.__swift5_fieldmd: 0x866c
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_proto: 0xf78
++  __TEXT.__swift5_types: 0x5f8
++  __TEXT.__swift5_capture: 0x1220
++  __TEXT.__swift_as_entry: 0x528
++  __TEXT.__swift_as_ret: 0x6c8
++  __TEXT.__swift_as_cont: 0xf44
++  __TEXT.__swift5_protos: 0xb0
++  __TEXT.__swift5_mpenum: 0x80
++  __TEXT.__oslogstring: 0xf66
+   __TEXT.__gcc_except_tab: 0x210
+-  __TEXT.__unwind_info: 0x5988
+-  __TEXT.__eh_frame: 0xe1e0
+-  __TEXT.__objc_classname: 0xed3
+-  __TEXT.__objc_methname: 0x3941
+-  __TEXT.__objc_methtype: 0x12f0
+-  __TEXT.__objc_stubs: 0x21a0
+-  __DATA_CONST.__got: 0x808
+-  __DATA_CONST.__const: 0x6e0
+-  __DATA_CONST.__objc_classlist: 0x208
++  __TEXT.__unwind_info: 0x6578
++  __TEXT.__eh_frame: 0x10520
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x6f0
++  __DATA_CONST.__objc_classlist: 0x200
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb58
++  __DATA_CONST.__objc_selrefs: 0xbd8
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1398
+-  __AUTH_CONST.__const: 0xe210
++  __DATA_CONST.__got: 0x8f0
++  __AUTH_CONST.__const: 0xfce0
+   __AUTH_CONST.__cfstring: 0x4c0
+-  __AUTH_CONST.__objc_const: 0x4a90
+-  __AUTH.__objc_data: 0x1a8
+-  __AUTH.__data: 0x490
++  __AUTH_CONST.__objc_const: 0x4a38
++  __AUTH_CONST.__auth_got: 0x1768
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x440
+   __DATA.__objc_ivar: 0x44
+-  __DATA.__data: 0x2058
+-  __DATA.__bss: 0x14710
+-  __DATA.__common: 0x3c0
+-  __DATA_DIRTY.__objc_data: 0x970
+-  __DATA_DIRTY.__data: 0x4b50
+-  __DATA_DIRTY.__bss: 0x61a0
+-  __DATA_DIRTY.__common: 0x418
++  __DATA.__data: 0x23d8
++  __DATA.__bss: 0x16090
++  __DATA.__common: 0x358
++  __DATA_DIRTY.__objc_data: 0xb08
++  __DATA_DIRTY.__data: 0x4fd0
++  __DATA_DIRTY.__bss: 0x72a0
++  __DATA_DIRTY.__common: 0x590
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/NearField.framework/NearField
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
++  - /System/Library/PrivateFrameworks/XPCDistributed.framework/XPCDistributed
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6F235589-6641-3386-90A5-0D4997042725
+-  Functions: 6673
+-  Symbols:   3377
+-  CStrings:  1977
++  UUID: 80780F80-1D2F-3542-80C0-63F8D31404A3
++  Functions: 7482
++  Symbols:   4114
++  CStrings:  1323
+ 
+Symbols:
++ -[GzVCsVtcKNcQqqNF I8ODmdzGy1CKsFTj:l8OCYbP9LFIvnTwG:ygOPXTiKN0J02x0j:]
++ _OBJC_CLASS_$_AKAnisetteProvisioningController
++ _OBJC_CLASS_$_CTQuickSwitchCircleDeviceInfo
++ _OBJC_CLASS_$_LSApplicationRecord
++ _OBJC_CLASS_$_LSBundleRecord
++ _OBJC_CLASS_$_NSDistributedNotificationCenter
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ __DATA__TtC17CoreODIEssentials10P2PNetwork
++ __DATA__TtC17CoreODIEssentials17ODINetworkBrowser
++ __DATA__TtC17CoreODIEssentials18ODINetworkListener
++ __DATA__TtC17CoreODIEssentials20ODINetworkConnection
++ __DATA__TtC17CoreODIEssentials8XPCEvent
++ __IVARS__TtC17CoreODIEssentials10P2PNetwork
++ __IVARS__TtC17CoreODIEssentials14TimeBoundCache
++ __IVARS__TtC17CoreODIEssentials8XPCEvent
++ __METACLASS_DATA__TtC17CoreODIEssentials10P2PNetwork
++ __METACLASS_DATA__TtC17CoreODIEssentials17ODINetworkBrowser
++ __METACLASS_DATA__TtC17CoreODIEssentials18ODINetworkListener
++ __METACLASS_DATA__TtC17CoreODIEssentials20ODINetworkConnection
++ __METACLASS_DATA__TtC17CoreODIEssentials8XPCEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_zClr2kpkWWOzbRnw
++ __OBJC_$_PROTOCOL_METHOD_TYPES_zClr2kpkWWOzbRnw
++ __OBJC_LABEL_PROTOCOL_$_zClr2kpkWWOzbRnw
++ __OBJC_PROTOCOL_$_zClr2kpkWWOzbRnw
++ __OBJC_PROTOCOL_REFERENCE_$_zClr2kpkWWOzbRnw
++ __PROTOCOLS__TtC17CoreODIEssentials20ODINFHardwareMonitor.6
++ __PROTOCOLS__TtCC17CoreODIEssentials13ODIDeviceInfoP33_B07CCE03E02CC77E93497B1A0FAD96D316DeviceInfoHelper.40
++ __PROTOCOLS__TtCC17CoreODIEssentials17ODILocationHelper23LocationManagerDelegate.44
++ ___71-[GzVCsVtcKNcQqqNF I8ODmdzGy1CKsFTj:l8OCYbP9LFIvnTwG:ygOPXTiKN0J02x0j:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e42_v36?0"NSData"8"NSData"16I24"NSError"28ls32l8
++ ___block_descriptor_56_e8_32s40bs48w_e42_v36?0"NSData"8"NSData"16I24"NSError"28lw48l8s32l8s40l8
++ ___swift__destructor
++ ___swift__destructor.2
++ ___swift__destructor.239
++ ___swift__destructor.6
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.251
++ ___swift_closure_destructor.252
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.265
++ ___swift_closure_destructor.265Tm
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.26Tm
++ ___swift_closure_destructor.273
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.281Tm
++ ___swift_closure_destructor.283
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.289
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.297
++ ___swift_closure_destructor.298
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.301
++ ___swift_closure_destructor.305
++ ___swift_closure_destructor.306
++ ___swift_closure_destructor.309
++ ___swift_closure_destructor.310
++ ___swift_closure_destructor.313
++ ___swift_closure_destructor.315
++ ___swift_closure_destructor.317
++ ___swift_closure_destructor.317Tm
++ ___swift_closure_destructor.320
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.361
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.36Tm
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.67Tm
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.68Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.70Tm
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.81Tm
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.90Tm
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.2
++ ___swift_exist.box.addr_destructor.27
++ ___swift_exist.box.addr_destructor.2Tm
++ ___swift_exist.box.addr_destructor.32
++ ___swift_exist.box.addr_destructor.380
++ ___swift_exist.box.addr_destructor.383
++ ___swift_exist.box.addr_destructor.386
++ ___swift_exist.box.addr_destructor.389
++ ___swift_exist.box.addr_destructor.392
++ ___swift_exist.box.addr_destructor.395
++ ___swift_exist.box.addr_destructor.398
++ ___swift_exist.box.addr_destructor.40
++ ___swift_exist.box.addr_destructor.401
++ ___swift_exist.box.addr_destructor.5
++ ___swift_exist.box.addr_destructor.8
++ ___swift_exist.box.addr_destructorTm
++ ___swift_memcpy106_8
++ ___swift_memcpy1123_8
++ ___swift_memcpy1133_8
++ ___swift_memcpy114_8
++ ___swift_memcpy1156_8
++ ___swift_memcpy123_8
++ ___swift_memcpy18_8
++ ___swift_memcpy200_8
++ ___swift_memcpy256_8
++ ___swift_memcpy282_8
++ ___swift_memcpy304_8
++ ___swift_memcpy352_8
++ ___swift_memcpy361_8
++ ___swift_memcpy376_8
++ ___swift_memcpy38_8
++ ___swift_memcpy3_1
++ ___swift_memcpy602_8
++ ___swift_memcpy66_8
++ ___swift_memcpy72_8
++ ___swift_memcpy83_8
++ ___swift_memcpy99_8
++ ___unnamed_2
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 17CoreODIEssentials0A14ODIFeatureFlagOSHAASQ
++ _associated conformance 17CoreODIEssentials10CallerInfoV0C11BundleErrorOSHAASQ
++ _associated conformance 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOSHAASQ
++ _associated conformance 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOSHAASQ
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO14NoneCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO14NoneCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO16OopjitCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO16OopjitCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO17RosettaCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO17RosettaCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO17UnknownCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO17UnknownCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO18AppStoreCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO18AppStoreCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO18PlatformCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO18PlatformCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO20EnterpriseCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO20EnterpriseCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO20TestflightCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO20TestflightCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO21DeveloperIdCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO21DeveloperIdCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO21DevelopmentCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO21DevelopmentCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO22LocalSigningCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeO22LocalSigningCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials10CallerInfoV11InstallTypeOSHAASQ
++ _associated conformance 17CoreODIEssentials13ProfileOriginOSHAASQ
++ _associated conformance 17CoreODIEssentials13ProfileOriginOSLAASQ
++ _associated conformance 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOSHAASQ
++ _associated conformance 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials15ConstantsSourceVSHAASQ
++ _associated conformance 17CoreODIEssentials16AssessmentOriginOSHAASQ
++ _associated conformance 17CoreODIEssentials16AssessmentOriginOSLAASQ
++ _associated conformance 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOSHAASQ
++ _associated conformance 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials16NWEndpointSourceVSHAASQ
++ _associated conformance 17CoreODIEssentials16QuickSwitchErrorOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOSHAASQ
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchF10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOSHAASQ
++ _associated conformance 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchF10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchF10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _audit_token_to_pid
++ _block_copy_helper.111
++ _block_copy_helper.136
++ _block_copy_helper.143
++ _block_copy_helper.147
++ _block_copy_helper.28
++ _block_copy_helper.3
++ _block_copy_helper.32
++ _block_copy_helper.54
++ _block_copy_helper.57
++ _block_copy_helper.58
++ _block_copy_helper.60
++ _block_copy_helper.73
++ _block_copy_helper.74
++ _block_copy_helper.78
++ _block_copy_helper.80
++ _block_copy_helper.84
++ _block_copy_helper.91
++ _block_copy_helper.92
++ _block_copy_helper.98
++ _block_copy_helper.99
++ _block_descriptor.100
++ _block_descriptor.101
++ _block_descriptor.113
++ _block_descriptor.138
++ _block_descriptor.145
++ _block_descriptor.149
++ _block_descriptor.30
++ _block_descriptor.34
++ _block_descriptor.5
++ _block_descriptor.56
++ _block_descriptor.59
++ _block_descriptor.60
++ _block_descriptor.62
++ _block_descriptor.75
++ _block_descriptor.76
++ _block_descriptor.80
++ _block_descriptor.82
++ _block_descriptor.86
++ _block_descriptor.93
++ _block_descriptor.94
++ _block_destroy_helper.100
++ _block_destroy_helper.112
++ _block_destroy_helper.137
++ _block_destroy_helper.144
++ _block_destroy_helper.148
++ _block_destroy_helper.29
++ _block_destroy_helper.33
++ _block_destroy_helper.4
++ _block_destroy_helper.55
++ _block_destroy_helper.58
++ _block_destroy_helper.59
++ _block_destroy_helper.61
++ _block_destroy_helper.74
++ _block_destroy_helper.75
++ _block_destroy_helper.79
++ _block_destroy_helper.81
++ _block_destroy_helper.85
++ _block_destroy_helper.92
++ _block_destroy_helper.93
++ _block_destroy_helper.99
++ _csops_audittoken
++ _get_enum_tag_for_layout_string 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveVSg
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$I8ODmdzGy1CKsFTj:l8OCYbP9LFIvnTwG:ygOPXTiKN0J02x0j:
++ _objc_msgSend$anisetteDataWithCompletion:
++ _objc_msgSend$bundleRecordForAuditToken:error:
++ _objc_msgSend$bundleVersion
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$developerType
++ _objc_msgSend$deviceIdentifierForVendor
++ _objc_msgSend$deviceIsSelf
++ _objc_msgSend$ephemeralSessionConfiguration
++ _objc_msgSend$getQuickSwitchCircleDevicesInfo:
++ _objc_msgSend$getQuickSwitchInfoWithError:
++ _objc_msgSend$lastTransitionTime
++ _objc_msgSend$localizedName
++ _objc_msgSend$localizedShortName
++ _objc_msgSend$machineID
++ _objc_msgSend$mode
++ _objc_msgSend$oneTimePassword
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$sessionWithConfiguration:
++ _objc_msgSend$shortVersionString
++ _objc_msgSend$teamIdentifier
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _swift_asyncLet_get
++ _swift_getTupleTypeMetadata3
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_deinitOnExecutor
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _symbolic $s17CoreODIEssentials13ConfigFetcherP
++ _symbolic $s17CoreODIEssentials15VersionRegistryP
++ _symbolic $s17CoreODIEssentials20AccountStoreProtocolP
++ _symbolic $s17CoreODIEssentials21FeatureFlagsResolvingP
++ _symbolic $s17CoreODIEssentials21NotificationsProtocolP
++ _symbolic $s17CoreODIEssentials21ODIDeviceInfoProviderP
++ _symbolic $s17CoreODIEssentials22StaticBindingsProviderP
++ _symbolic $s17CoreODIEssentials28TrustInsightsServerInterfaceP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic SDyS2SG7content______yA2A______G8metadatat 7Network5CoderV8MetadataV AA0A9JSONCoderV
++ _symbolic SDyS2SG7content______yA2A______G8metadatatSg 7Network5CoderV8MetadataV AA0A9JSONCoderV
++ _symbolic SDyS2SGIeAgHr_
++ _symbolic SDyS2SG______pIeghHrzo_ s5ErrorP
++ _symbolic SDySSSDyS2SGG
++ _symbolic SDySSSDyS2SGGSg
++ _symbolic SDySSScTyx______pGG s5ErrorP
++ _symbolic SDySSxG
++ _symbolic SS3key_SH_p5valuetSg
++ _symbolic SS3key______5valuet s11AnyHashableV
++ _symbolic SS3key_yp5valuet
++ _symbolic SS_SH_ptSg
++ _symbolic SaySiG
++ _symbolic SaySo29CTQuickSwitchCircleDeviceInfoCG
++ _symbolic Say_____G 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV
++ _symbolic Say_____G 17CoreODIEssentials7ODIPeerV
++ _symbolic Say_____G 7Network9NWBrowserC10DescriptorO7OptionsV10DeviceTypeV
++ _symbolic Say_____G______pIeghHrzo_ 17CoreODIEssentials7ODIPeerV s5ErrorP
++ _symbolic ScCySaySo29CTQuickSwitchCircleDeviceInfoCG______pG s5ErrorP
++ _symbolic ScCySo14AKAnisetteDataCSg______pG s5ErrorP
++ _symbolic ScCy_____Sg_AB_____t______pG 10Foundation4DataV s6UInt32V s5ErrorP
++ _symbolic ScCy___________pG 17CoreODIEssentials7ODNDataV s5ErrorP
++ _symbolic ScCy___________pGSg 17CoreODIEssentials7ODNDataV s5ErrorP
++ _symbolic ScGySDyS2SGG
++ _symbolic ScSySay_____GG 17CoreODIEssentials7ODIPeerV
++ _symbolic ScSy_____G So18NSNotificationNamea
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScsySDyS2SG7content______yA2A______G8metadatat______pG 7Network5CoderV8MetadataV AA0A9JSONCoderV s5ErrorP
++ _symbolic So14AKAnisetteDataCSg
++ _symbolic So15NSDateFormatterC
++ _symbolic So31NSDistributedNotificationCenterC
++ _symbolic So8NSStringC
++ _symbolic _____ 17CoreODIEssentials0A14ODIFeatureFlagO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV0C11BundleErrorO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO14NoneCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO16OopjitCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO17RosettaCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO17UnknownCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO18AppStoreCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO18PlatformCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO20EnterpriseCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO20TestflightCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO21DeveloperIdCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO21DevelopmentCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10CallerInfoV11InstallTypeO22LocalSigningCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____ 17CoreODIEssentials10P2PNetworkC
++ _symbolic _____ 17CoreODIEssentials13COSEValidatorO
++ _symbolic _____ 17CoreODIEssentials13ProfileOriginO
++ _symbolic _____ 17CoreODIEssentials14TimeBoundCacheC
++ _symbolic _____ 17CoreODIEssentials15ConstantsSourceV
++ _symbolic _____ 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____ 17CoreODIEssentials16AssessmentOriginO
++ _symbolic _____ 17CoreODIEssentials16NWEndpointSourceV
++ _symbolic _____ 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____ 17CoreODIEssentials16QuickSwitchErrorO
++ _symbolic _____ 17CoreODIEssentials17ODINetworkBrowserC
++ _symbolic _____ 17CoreODIEssentials18ODINetworkListenerC
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV
++ _symbolic _____ 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____ 17CoreODIEssentials20ODINetworkConnectionC
++ _symbolic _____ 17CoreODIEssentials21ConfigVersionRegistryV
++ _symbolic _____ 17CoreODIEssentials22QuickSwitchInformationV
++ _symbolic _____ 17CoreODIEssentials23EnvironmentFeatureFlagsV
++ _symbolic _____ 17CoreODIEssentials23ServiceProviderIdHelperV
++ _symbolic _____ 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchF10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____ 17CoreODIEssentials25TrustInsightsServerClientV
++ _symbolic _____ 17CoreODIEssentials28CBORAssessmentPayloadAdapterV
++ _symbolic _____ 17CoreODIEssentials33LiveDistributedNotificationStreamV
++ _symbolic _____ 17CoreODIEssentials7ODICBORO
++ _symbolic _____ 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ 17CoreODIEssentials8XPCEventC
++ _symbolic _____ 7Network10NWEndpointO
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____ s15ContinuousClockV
++ _symbolic _____ s8DurationV
++ _symbolic _____3key______5valuet 17CoreODIEssentials11AddressTypeO AA08GeoCoderC0V
++ _symbolic _____3key_yp5valuet 17CoreODIEssentials19DIPErrorPropertyKeyO
++ _symbolic _____3key_yp5valuet 17CoreODIEssentials19ODIErrorPropertyKeyO
++ _symbolic _____IeghHn_ 17CoreODIEssentials7ODNDataV
++ _symbolic _____Sg 10Foundation12NotificationV
++ _symbolic _____Sg 14XPCDistributed9XPCSystemC7SessionC15RemoteInterfaceV
++ _symbolic _____Sg 17CoreODIEssentials13ProfileOriginO
++ _symbolic _____Sg 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV
++ _symbolic _____Sg 17CoreODIEssentials20ODIWrappedAssessmentV
++ _symbolic _____Sg 7Network11NWTXTRecordV
++ _symbolic _____Sg 7Network9NWBrowserC10DescriptorO7OptionsV
++ _symbolic _____Sg_AB_____t 10Foundation4DataV s6UInt32V
++ _symbolic ________________Sgt 17CoreODIEssentials18ODIErrorAssessmentV AA010ODIWrappedD0V AA13ODIClientGUIDV
++ _symbolic ________________t 17CoreODIEssentials13ODIAssessmentV AA20ODIWrappedAssessmentV AA13ODIClientGUIDV
++ _symbolic ___________pIeghHrzo_ 17CoreODIEssentials7ODNDataV s5ErrorP
++ _symbolic ______p 17CoreODIEssentials13ConfigFetcherP
++ _symbolic ______p 17CoreODIEssentials20AccountStoreProtocolP
++ _symbolic ______p 17CoreODIEssentials21NotificationsProtocolP
++ _symbolic ______p 17CoreODIEssentials21ODIDeviceInfoProviderP
++ _symbolic ______pSg 17CoreODIEssentials20AccountStoreProtocolP
++ _symbolic ______pSg 17CoreODIEssentials21ODIDeviceInfoProviderP
++ _symbolic _____ySDyS2SG7content______yA2B______G8metadatat______p_G Scs8IteratorV 7Network5CoderV8MetadataV AC0B9JSONCoderV s5ErrorP
++ _symbolic _____ySDyS2SGAB_____G 7Network5CoderV AA0A9JSONCoderV
++ _symbolic _____ySDyS2SGAB______G 7Network5CoderV8MetadataV AA0A9JSONCoderV
++ _symbolic _____ySDyS2SGG 17CoreODIEssentials14TimeBoundCacheC
++ _symbolic _____ySDyS2SGG 17CoreODIEssentials21ArmandDeviceDataFieldV
++ _symbolic _____ySSSDyS2SGG s18_DictionaryStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ySSScTySDyS2SG______pGG s18_DictionaryStorageC s5ErrorP
++ _symbolic _____ySSScTySay_____G______pGG s18_DictionaryStorageC 17CoreODIEssentials7ODIPeerV s5ErrorP
++ _symbolic _____ySay_____GG 17CoreODIEssentials14TimeBoundCacheC AA7ODIPeerV
++ _symbolic _____ySay_____G_G ScS12ContinuationV 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ySay_____G_G ScS8IteratorV 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ySay_____G__G ScS12ContinuationV11YieldResultO 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ySay_____G__G ScS12ContinuationV15BufferingPolicyO 17CoreODIEssentials7ODIPeerV
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 17CoreODIEssentials13TimeoutHelper33_E1D57C3DF69486B68A9734243E51E0E2LLC AA7ODNDataV
++ _symbolic _____y_____G 7Network0A10ConnectionC AA4QUICV
++ _symbolic _____y_____G 7Network0A8ListenerC AA4QUICV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO14NoneCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO16OopjitCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO17RosettaCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO17UnknownCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO18AppStoreCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO18PlatformCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO20EnterpriseCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO20TestflightCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO21DeveloperIdCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO21DevelopmentCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO22LocalSigningCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchI10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO10CodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO14NoneCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO16OopjitCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO17RosettaCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO17UnknownCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO18AppStoreCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO18PlatformCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO20EnterpriseCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO20TestflightCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO21DeveloperIdCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO21DevelopmentCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials10CallerInfoV11InstallTypeO22LocalSigningCodingKeys33_CEBB83AE047E0849FFB95820AFFF11D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials15ConstantsSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials16NWEndpointSourceV10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials20FetchInsightsRequestV0gH18SpecWithAssessmentV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials20FetchInsightsRequestV0gH4SpecV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials20FetchInsightsRequestV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV10CodingKeys33_3469A297348E547E97244CB42239FEE6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials25ArmandDeviceDataErrorCodeO011QuickSwitchI10CodingKeys33_A47C6C39D6714E20350079BD16220E8ALLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17CoreODIEssentials7ODIPeerV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Network9NWBrowserC10DescriptorO7OptionsV10DeviceTypeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
++ _symbolic _____y______G 7Network0A7ChannelC5StateO AA4QUICV
++ _symbolic _____y______G 7Network0A8ListenerC5StateO AA4QUICV
++ _symbolic _____y______G 7Network24BrowserProviderFactoriesO18ApplicationServiceV AA0eF17MetadataProvidersO7DefaultV
++ _symbolic _____y______G ScS12ContinuationV So18NSNotificationNamea
++ _symbolic _____y______G ScS8IteratorV So18NSNotificationNamea
++ _symbolic _____y_______G 7Network24BrowserProviderFactoriesO18ApplicationServiceV8EndpointV AA0eF17MetadataProvidersO7DefaultV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO So18NSNotificationNamea
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO So18NSNotificationNamea
++ _symbolic _____y_____yQPG 7Network19NWParametersBuilderV AA4QUICV
++ _symbolic _____y_____y______GG 7Network0A7BrowserC AA0B17ProviderFactoriesO18ApplicationServiceV AA0eF17MetadataProvidersO7DefaultV
++ _symbolic _____y_____y______G_G 7Network0A7BrowserC5StateO AA0B17ProviderFactoriesO18ApplicationServiceV AA0fG17MetadataProvidersO7DefaultV
++ _symbolic _____y_____y______G_Say_____GG 7Network0A7BrowserC9RunResultO AA0B17ProviderFactoriesO18ApplicationServiceV AA0gH17MetadataProvidersO7DefaultV 17CoreODIEssentials7ODIPeerV
++ _type_layout_string 17CoreODIEssentials10CallerInfoV
++ _type_layout_string 17CoreODIEssentials19AccountStateUpdaterV
++ _type_layout_string 17CoreODIEssentials20FetchInsightsRequestV
++ _type_layout_string 17CoreODIEssentials20FetchInsightsRequestV0dE18SpecWithAssessmentV
++ _type_layout_string 17CoreODIEssentials20FetchInsightsRequestV0dE4SpecV
++ _type_layout_string 17CoreODIEssentials20FetchInsightsRequestV17SandboxPredictiveV
++ _type_layout_string 17CoreODIEssentials20FetchInsightsRequestV7ODIDataV
++ _type_layout_string 17CoreODIEssentials21ConfigVersionRegistryV
++ _type_layout_string 17CoreODIEssentials23ServiceProviderIdHelperV
++ _type_layout_string 17CoreODIEssentials28CBORAssessmentPayloadAdapterV
++ _type_layout_string So18NSNotificationNamea
++ _xpc_dictionary_get_string
+- __DATA__TtC17CoreODIEssentials13DIPWebRequest
+- __DATA__TtC17CoreODIEssentials13RequestHeader
+- __DATA__TtC17CoreODIEssentials15GenericResponse
+- __DATA__TtC17CoreODIEssentials16AppleCredentials
+- __DATA__TtC17CoreODIEssentials18DIPAppleWebRequest
+- __DATA__TtCC17CoreODIEssentials14DIPHTTPSession12SessionState
+- __IVARS__TtC17CoreODIEssentials13DIPWebRequest
+- __IVARS__TtC17CoreODIEssentials13RequestHeader
+- __IVARS__TtC17CoreODIEssentials15GenericResponse
+- __IVARS__TtC17CoreODIEssentials16AppleCredentials
+- __IVARS__TtC17CoreODIEssentials18DIPAppleWebRequest
+- __IVARS__TtCC17CoreODIEssentials14DIPHTTPSession12SessionState
+- __METACLASS_DATA__TtC17CoreODIEssentials13DIPWebRequest
+- __METACLASS_DATA__TtC17CoreODIEssentials13RequestHeader
+- __METACLASS_DATA__TtC17CoreODIEssentials15GenericResponse
+- __METACLASS_DATA__TtC17CoreODIEssentials16AppleCredentials
+- __METACLASS_DATA__TtC17CoreODIEssentials18DIPAppleWebRequest
+- __METACLASS_DATA__TtCC17CoreODIEssentials14DIPHTTPSession12SessionState
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_YPrbz3IaOz1JRlMd
+- __OBJC_$_PROTOCOL_METHOD_TYPES_YPrbz3IaOz1JRlMd
+- __OBJC_LABEL_PROTOCOL_$_YPrbz3IaOz1JRlMd
+- __OBJC_PROTOCOL_$_YPrbz3IaOz1JRlMd
+- __OBJC_PROTOCOL_REFERENCE_$_YPrbz3IaOz1JRlMd
+- __PROTOCOLS__TtC17CoreODIEssentials20ODINFHardwareMonitor.13
+- __PROTOCOLS__TtCC17CoreODIEssentials13ODIDeviceInfoP33_B07CCE03E02CC77E93497B1A0FAD96D316DeviceInfoHelper.44
+- __PROTOCOLS__TtCC17CoreODIEssentials17ODILocationHelper23LocationManagerDelegate.42
+- ___54-[GzVCsVtcKNcQqqNF MypqGKKWznx4xnYa:ygOPXTiKN0J02x0j:]_block_invoke
+- ___block_descriptor_40_e8_32bs_e53_v44?0"NSData"8"NSData"16"NSData"24I32"NSError"36ls32l8
+- ___block_descriptor_56_e8_32s40bs48w_e53_v44?0"NSData"8"NSData"16"NSData"24I32"NSError"36lw48l8s32l8s40l8
+- ___swift_memcpy1034_8
+- ___swift_memcpy1044_8
+- ___swift_memcpy1068_8
+- ___swift_memcpy120_8
+- ___swift_memcpy122_8
+- ___swift_memcpy192_8
+- ___swift_memcpy208_8
+- ___swift_memcpy240_8
+- ___swift_memcpy281_8
+- ___swift_memcpy297_8
+- ___swift_memcpy36_8
+- ___swift_memcpy586_8
+- ___swift_memcpy67_8
+- ___swift_memcpy82_8
+- ___swift_memcpy98_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_CoreODIEssentials
+- _associated conformance 17CoreODIEssentials13DIPWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials13DIPWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials13DIPWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CoreODIEssentials13PGAStoreErrorOSHAASQ
+- _associated conformance 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17CoreODIEssentials18DIPAppleWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOSHAASQ
+- _associated conformance 17CoreODIEssentials18DIPAppleWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 17CoreODIEssentials18DIPAppleWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.113
+- _block_copy_helper.118
+- _block_copy_helper.168
+- _block_copy_helper.248
+- _block_copy_helper.26
+- _block_copy_helper.30
+- _block_copy_helper.36
+- _block_copy_helper.37
+- _block_copy_helper.38
+- _block_copy_helper.62
+- _block_copy_helper.64
+- _block_copy_helper.67
+- _block_copy_helper.72
+- _block_copy_helper.75
+- _block_copy_helper.83
+- _block_copy_helper.89
+- _block_copy_helper.90
+- _block_copy_helper.97
+- _block_descriptor.115
+- _block_descriptor.120
+- _block_descriptor.170
+- _block_descriptor.250
+- _block_descriptor.28
+- _block_descriptor.32
+- _block_descriptor.38
+- _block_descriptor.39
+- _block_descriptor.40
+- _block_descriptor.64
+- _block_descriptor.66
+- _block_descriptor.69
+- _block_descriptor.74
+- _block_descriptor.77
+- _block_descriptor.85
+- _block_descriptor.91
+- _block_descriptor.92
+- _block_descriptor.99
+- _block_destroy_helper.114
+- _block_destroy_helper.119
+- _block_destroy_helper.169
+- _block_destroy_helper.249
+- _block_destroy_helper.27
+- _block_destroy_helper.31
+- _block_destroy_helper.37
+- _block_destroy_helper.38
+- _block_destroy_helper.39
+- _block_destroy_helper.63
+- _block_destroy_helper.65
+- _block_destroy_helper.68
+- _block_destroy_helper.73
+- _block_destroy_helper.76
+- _block_destroy_helper.84
+- _block_destroy_helper.90
+- _block_destroy_helper.91
+- _block_destroy_helper.98
+- _get_enum_tag_for_layout_string 17CoreODIEssentials24AssessmentAdditionalInfoVSg
+- _get_enum_tag_for_layout_string 17CoreODIEssentials28AssessmentServerDestinationsVSg
+- _objc_msgSend$MypqGKKWznx4xnYa:l8OCYbP9LFIvnTwG:ygOPXTiKN0J02x0j:
+- _objc_msgSend$aa_appleAccountWithAltDSID:
+- _objc_msgSend$aa_primaryAppleAccount
+- _objc_msgSend$aida_accountForAltDSID:
+- _objc_msgSend$appleIDHeadersWithCompletion:
+- _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
+- _objectdestroy.233Tm
+- _objectdestroy.256Tm
+- _objectdestroy.272Tm
+- _objectdestroy.2Tm
+- _objectdestroy.304Tm
+- _objectdestroy.46Tm
+- _objectdestroy.47Tm
+- _objectdestroy.55Tm
+- _objectdestroy.59Tm
+- _objectdestroy.63Tm
+- _objectdestroy.67Tm
+- _objectdestroy.76Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+- _symbolic SS3key______5valuetSg 17CoreODIEssentials18AnyODIKnownBindingV
+- _symbolic SS______t 17CoreODIEssentials10OTDRequestV
+- _symbolic ScCySDyS2SGSg______pG s5ErrorP
+- _symbolic ScCy_____Sg_A2B_____t______pG 10Foundation4DataV s6UInt32V s5ErrorP
+- _symbolic ScCy______Sbt______pG 17CoreODIEssentials7ODNDataV s5ErrorP
+- _symbolic ScCy______Sbt______pGSg 17CoreODIEssentials7ODNDataV s5ErrorP
+- _symbolic So15NSDateFormatterCSg
+- _symbolic _____ 17CoreODIEssentials12FeatureStoreV
+- _symbolic _____ 17CoreODIEssentials13COSEValidatorV
+- _symbolic _____ 17CoreODIEssentials13DIPWebRequestC
+- _symbolic _____ 17CoreODIEssentials13DIPWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials13PGAStoreErrorO
+- _symbolic _____ 17CoreODIEssentials13RequestHeaderC
+- _symbolic _____ 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials14DIPHTTPSessionC12SessionStateC
+- _symbolic _____ 17CoreODIEssentials14ResponseHeaderV
+- _symbolic _____ 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials15GenericResponseC
+- _symbolic _____ 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials16AppleCredentialsC
+- _symbolic _____ 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials18DIPAppleWebRequestC
+- _symbolic _____ 17CoreODIEssentials18DIPAppleWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____ 17CoreODIEssentials21ODNAssessmentsManagerC14ODNIdentifiersV
+- _symbolic _____Sg 17CoreODIEssentials13ODIDeviceInfoC06DeviceD6Helper33_B07CCE03E02CC77E93497B1A0FAD96D3LLC
+- _symbolic _____Sg 17CoreODIEssentials16AppleCredentialsC
+- _symbolic _____Sg 17CoreODIEssentials22PregeneratedAssessmentV
+- _symbolic _____Sg 17CoreODIEssentials24AssessmentAdditionalInfoV
+- _symbolic _____Sg 17CoreODIEssentials7ODNDataV
+- _symbolic _____Sg s11AnyHashableV
+- _symbolic _____Sg_A2B_____t 10Foundation4DataV s6UInt32V
+- _symbolic ______Sbt 17CoreODIEssentials7ODNDataV
+- _symbolic ______SbtIeghHn_ 17CoreODIEssentials7ODNDataV
+- _symbolic ______Sbt______pIeghHrzo_ 17CoreODIEssentials7ODNDataV s5ErrorP
+- _symbolic ___________t 17CoreODIEssentials11AddressTypeO AA08GeoCoderC0V
+- _symbolic ______p 17CoreODIEssentials15FeatureRegistryP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSg So13OS_xpc_objectP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials13DIPWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials13RequestHeaderC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials14ResponseHeaderV10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials15GenericResponseC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials16AppleCredentialsC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17CoreODIEssentials18DIPAppleWebRequestC10CodingKeys33_81B77E8DE1DFE4C3C64AF82229106A64LLO
+- _symbolic _____y______SbtG 17CoreODIEssentials13TimeoutHelper33_E1D57C3DF69486B68A9734243E51E0E2LLC AA7ODNDataV
+- _type_layout_string 17CoreODIEssentials14ResponseHeaderV
+- _type_layout_string 17CoreODIEssentials21ODNAssessmentsManagerC14ODNIdentifiersV
+- _type_layout_string 17CoreODIEssentials28AssessmentServerDestinationsV
+CStrings:
++ " is not encoded as UTF8, returning empty string"
++ "\",\"userAgent\":\"err\",\"sessionIdentifier\":\"err\",\"cacheAge\":0,\"isDeviceLocked\":true}}"
++ "\"}, \"additionalInfo\":{\"workflowId\":\""
++ ") in TypeAndVersionInformation.condensateInsightPresents."
++ ", but reloadPrimaryAccount threw "
++ ", setting account to nil"
++ "Accessing ODIAssessmentResult .error(payload: "
++ "Accessing ODIAssessmentResult .success(payload: "
++ "Call to request, URL: "
++ "Caught notification for "
++ "Connection initiated after cancellation"
++ "Constants"
++ "CoreODI"
++ "CoreODI config update scheduled with delay of %s"
++ "CoreODIEssentials/CBORObjects.swift"
++ "Device Data collection: proximity_device_list"
++ "Device Data collection: proximity_device_list collected"
++ "Device Data collection: quick switch mode"
++ "Device Data collection: quick switch timestamp"
++ "Error generating advice request"
++ "Error when calling request "
++ "LucanoUI"
++ "NWEndpoint"
++ "No more time for tasks"
++ "No tasks returned a result"
++ "No valid insight present ("
++ "ODIAssessmentAdapter: adapting into data from "
++ "ODNATorProxy getOutputPayloadAndOrigin with evaluate set to "
++ "Reloading primary account"
++ "Return code for request: "
++ "SiKACapability"
++ "TrustInsightsProfile"
++ "TrustInsightsSandboxServer"
++ "TrustInsightsServer"
++ "Unable to encode assessment "
++ "Welcome to ODNAtorQueue init, workflowID = "
++ "X-Mme-Client-Info"
++ "X-Request-Timestamp"
++ "XPCEvent: event_stream received %s"
++ "XPCEvent: name is %s"
++ "XPCEvent: register rapport"
++ "XPCEvent: unrecognized application service name: %s"
++ "_getDeviceDataInner(contextualProfile:profileInfo:idvData:odiRawData:externalDataArray:nonce:workflowID:computationContext:completion:)"
++ "_swr(service:workflowID:errorProperties:completion:)"
++ "additionalInfo"
++ "appleAuthHeader()"
++ "boundaryRequest"
++ "browse: in"
++ "browse: out"
++ "browse: sorted models: %s"
++ "browse: state: %s"
++ "com.apple.asd.icloudLoginRegistered"
++ "com.apple.asd.icloudLoginUnregistered"
++ "com.apple.notifyd.matching"
++ "com.apple.odi.trustinsights"
++ "com.apple.odi.xpc.event"
++ "com.apple.rapport.matching"
++ "connect to endpoint %s"
++ "connection closed %s"
++ "connection error: %@"
++ "connection state: %s"
++ "deviceIdentifierForVendor"
++ "discover endpoints error: %@"
++ "discover timeout"
++ "error: %@)"
++ "errorInfo"
++ "fetchProfileTask"
++ "first use of in-memory profile for "
++ "given time to collect payloads: %s"
++ "given time to discover: %s"
++ "https://api.eval.sbox.trustinsights.services.apple.com/v1"
++ "https://api.eval.trustinsights.services.apple.com/v1"
++ "in-memory profile is in-flight for "
++ "init(assessmentResult:)"
++ "insightTypeArray"
++ "insightVersion"
++ "insightsRequests"
++ "isLikelyBeingCoached"
++ "isLikelyBeingCoachedError"
++ "listen: in"
++ "listen: new connection"
++ "listen: out"
++ "listen: state: %s"
++ "listening for messages"
++ "localizedShortName"
++ "new payload: %s"
++ "odiData"
++ "odiSessionInternalConstants"
++ "odiSessionInternalDDProximity"
++ "open stream"
++ "operationCategory"
++ "payloads timeout"
++ "payloads: %s"
++ "profile fetch on runway for "
++ "proximityDeviceList"
++ "quickSwitchError"
++ "quickSwitchStatus"
++ "quickSwitchTimestamp"
++ "quick_switch_status"
++ "quick_switch_status_changed_at"
++ "reloadPrimaryAccount failed: "
++ "reloadPrimaryAccount: reloaded account is nil"
++ "renewGrandslamToken()"
++ "request '%s'"
++ "response sent"
++ "sandboxPredictive"
++ "schemaVersion"
++ "sds-services-odi-get-fraud-signals-assessments-override"
++ "sds-services-odi-get-fraud-signals-malformed"
++ "sds-services-odi-get-fraud-signals-prod-logic"
++ "sds-services-odi-get-fraud-signals-timeout"
++ "seeds"
++ "seidList"
++ "storeDeleteRequest"
++ "storeLoadRequest"
++ "storeSaveDataRequest"
++ "storeSaveFileRequest"
++ "stream available"
++ "tIRestrictedRegions"
++ "trustInsightsProfileBaseUrl"
++ "trustInsightsSandboxServerBaseUrl"
++ "trustInsightsServerBaseUrl"
++ "trustinsights.enablePredictiveHeaders"
++ "trustinsights.forceProviderAssessment"
++ "trustinsights.forceProviderMalformed"
++ "trustinsights.forceProviderTimeout"
++ "trustinsights.forceRateLimiting"
++ "trustinsights.forceSandbox"
++ "unable to get otp"
++ "using in-memory profile for "
++ "v36@?0@\"NSData\"8@\"NSData\"16I24@\"NSError\"28"
++ "value for key %s exists"
++ "value for key %s in flight"
++ "value for key %s on runway"
+- "#16@0:8"
+- "$__lazy_storage_$_formatter"
+- "$__lazy_storage_$_helper"
+- "$__lazy_storage_$_logger"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"CLLocation\""
+- "@\"CNPostalAddress\""
+- "@\"NSArray\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"8@?0"
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8^{__CFString=}16"
+- "@24@?0@\"NSError\"8@\"NSString\"16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8q16q24@32"
+- "@48@0:8@16@24@32@40"
+- "@64@0:8@16@24Q32@40@48@56"
+- "ASGeoCodeResult"
+- "ASGeoCodingKeyedUnarchiver"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"CLLocationManager\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BFzukpKGO3cStNGp:"
+- "BGiN5h2SLMRO6B9R"
+- "CLLocationManagerDelegate"
+- "Calling with option = %@"
+- "CoreODIEssentials"
+- "CoreTelephonyClientSuppServicesDelegate"
+- "DUA_ORD_ENDPOINT"
+- "DUA_TRAIN_ENDPOINT"
+- "DeviceData(--encoding failed--)"
+- "EAEQljC19TMgHjKh"
+- "Failed to create string from jsonData for milestone "
+- "GzVCsVtcKNcQqqNF"
+- "HEk7C2N6EkssFH3z"
+- "HTTPBody"
+- "HTTPMethod"
+- "HkbEJeZjAQnItubK"
+- "JI0A3nkqsab9cUj8:completion:"
+- "JSONObjectWithData:options:error:"
+- "Library/Caches/url/"
+- "Lt10zus2DOk3OfFf"
+- "MIMEType"
+- "Me7YKKqFAKjegMFz:hostChallenge:challengeResponse:seid:nonce:HY6FXG20397zwmVg:"
+- "MypqGKKWznx4xnYa:l8OCYbP9LFIvnTwG:ygOPXTiKN0J02x0j:"
+- "MypqGKKWznx4xnYa:ygOPXTiKN0J02x0j:"
+- "NFHardwareEventListener"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "NSURLSessionDelegate"
+- "NSURLSessionTaskDelegate"
+- "No CBOR Assessment Data returned by API"
+- "ODIGestaltHlpr"
+- "ODN no error and no cbor assessments"
+- "ODNATorProxy getOutputPayload with evaluate set to "
+- "ODNAtor proxy Config retrieved"
+- "ODNServices"
+- "OS_xpc_object"
+- "Q"
+- "Q16@0:8"
+- "QeMnG23X94qgz7jT:hostChallenge:challengeResponse:seid:nonce:completion:"
+- "Received cbor ODN data for "
+- "S08uY31jbmOEDLrH"
+- "SetupAssistantHelper"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"CLLocation\",R,V_location"
+- "T@\"CNPostalAddress\",R,V_address"
+- "T@\"NSArray\",&,N,V_profileIDs"
+- "T@\"NSArray\",&,N,V_rU1LRx5aI44CETG8"
+- "T@\"NSData\",&,N,V_HkbEJeZjAQnItubK"
+- "T@\"NSData\",&,N,V_TbX4HHO0pTPaerrJ"
+- "T@\"NSData\",&,N,V_challengeResponse"
+- "T@\"NSData\",&,N,V_hostChallenge"
+- "T@\"NSData\",&,N,V_yNHDWo3TCV"
+- "T@\"NSData\",&,N,V_zeXRCfLmM5cdkEtz"
+- "T@\"NSDate\",R,V_updated"
+- "T@\"NSDictionary\",&,N,V_BGiN5h2SLMRO6B9R"
+- "T@\"NSString\",&,N,V_seid"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "TB,R"
+- "TQ,N,V_S08uY31jbmOEDLrH"
+- "TQ,R"
+- "TbX4HHO0pTPaerrJ"
+- "URL"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didCreateTask:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didCompleteWithError:"
+- "URLSession:task:didFinishCollectingMetrics:"
+- "URLSession:task:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didReceiveInformationalResponse:"
+- "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:"
+- "URLSession:task:needNewBodyStream:"
+- "URLSession:task:needNewBodyStreamFromOffset:completionHandler:"
+- "URLSession:task:willBeginDelayedRequest:completionHandler:"
+- "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
+- "URLSession:taskIsWaitingForConnectivity:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "URLsForDirectory:inDomains:"
+- "UUID"
+- "UUIDString"
+- "Using in-memory profile for "
+- "Vv16@0:8"
+- "Welcome to ODNAtorQueue init, providerID = "
+- "YPrbz3IaOz1JRlMd"
+- "Z8aAH7stm0EYhyxg:dhAnc7b9U376IHnX:xz5EHXEN4FjlhJbi:uhVTXyAfCFn7u0Ue:EQUjQp7JcQbqcPcD:A5wDLa5TFdFZlz3A:TJKMyOe6zn5PdGIr:eCqgGM0WcnHOslnr:eCszfxdv3kUXvhgV:uWp4aZpP2vLhc04Q:QZYtNpvp0hKd248p:oCwPYmtRv8s31KUH:completion:"
+- "ZfE6lVphNUVrZcKx:completion:"
+- "^{_NSZone=}16@0:8"
+- "_BGiN5h2SLMRO6B9R"
+- "_HkbEJeZjAQnItubK"
+- "_S08uY31jbmOEDLrH"
+- "_TbX4HHO0pTPaerrJ"
+- "_TtC17CoreODIEssentials10TapToRadar"
+- "_TtC17CoreODIEssentials11DIPURLCache"
+- "_TtC17CoreODIEssentials12DIPODNHelper"
+- "_TtC17CoreODIEssentials12DeviceStatus"
+- "_TtC17CoreODIEssentials12ODNAtorProxy"
+- "_TtC17CoreODIEssentials13ConfigManager"
+- "_TtC17CoreODIEssentials13DIPSecureData"
+- "_TtC17CoreODIEssentials13DIPWebRequest"
+- "_TtC17CoreODIEssentials13DIPWebService"
+- "_TtC17CoreODIEssentials13ODIDeviceInfo"
+- "_TtC17CoreODIEssentials13RequestHeader"
+- "_TtC17CoreODIEssentials14AsyncWorkQueue"
+- "_TtC17CoreODIEssentials14DIPHTTPSession"
+- "_TtC17CoreODIEssentials14ProfileManager"
+- "_TtC17CoreODIEssentials15CertUsageMapper"
+- "_TtC17CoreODIEssentials15GenericResponse"
+- "_TtC17CoreODIEssentials16AppleCredentials"
+- "_TtC17CoreODIEssentials16ArmandDataFiller"
+- "_TtC17CoreODIEssentials17DIPCryptoKeychain"
+- "_TtC17CoreODIEssentials17DeviceInformation"
+- "_TtC17CoreODIEssentials17ODIAccountManager"
+- "_TtC17CoreODIEssentials17ODILocationHelper"
+- "_TtC17CoreODIEssentials18DIPAppleWebRequest"
+- "_TtC17CoreODIEssentials18RavioliFetcherImpl"
+- "_TtC17CoreODIEssentials19DIPECIESSessionECV3"
+- "_TtC17CoreODIEssentials19DIPKeystoreKeychain"
+- "_TtC17CoreODIEssentials19ODIAnalyticsManager"
+- "_TtC17CoreODIEssentials19ODNAtorQueueManager"
+- "_TtC17CoreODIEssentials20ODINFHardwareMonitor"
+- "_TtC17CoreODIEssentials21AMPCristalPayloadData"
+- "_TtC17CoreODIEssentials21DIPECIESSessionECV3SH"
+- "_TtC17CoreODIEssentials21ODNAssessmentsFactory"
+- "_TtC17CoreODIEssentials21ODNAssessmentsManager"
+- "_TtC17CoreODIEssentials21PrecomputationSession"
+- "_TtC17CoreODIEssentials22ServerTimeSeedProvider"
+- "_TtC17CoreODIEssentials23DIPAssessmentWebService"
+- "_TtC17CoreODIEssentials23DIPECIESSessionV3SecKey"
+- "_TtC17CoreODIEssentials23ODIiCloudAccountManager"
+- "_TtC17CoreODIEssentials24ODILocationHelperContext"
+- "_TtC17CoreODIEssentials24ODNAssessmentGUIDManager"
+- "_TtC17CoreODIEssentials29DIPAssessmentStaticWebService"
+- "_TtC17CoreODIEssentials29ODNAssessmentsFeedbackManager"
+- "_TtC17CoreODIEssentials38PhoneAuthenticationCertificateProvider"
+- "_TtC17CoreODIEssentials8DeepLink"
+- "_TtC17CoreODIEssentials8GeoCoder"
+- "_TtC17CoreODIEssentialsP33_62B399B2DD34B45DBAE8CA5FF1D3DB2321InUseAssertionManager"
+- "_TtC17CoreODIEssentialsP33_93F523180A2FE192D6FE57234EA1F16914ODNRequestTask"
+- "_TtC17CoreODIEssentialsP33_D0494594C9DBC46FB2CFFEDDF316B69929PhoneCertificateVendorWrapper"
+- "_TtCC17CoreODIEssentials13ODIDeviceInfoP33_B07CCE03E02CC77E93497B1A0FAD96D316DeviceInfoHelper"
+- "_TtCC17CoreODIEssentials14DIPHTTPSession12SessionState"
+- "_TtCC17CoreODIEssentials14DIPHTTPSession24ClientInfoHeaderProvider"
+- "_TtCC17CoreODIEssentials17ODILocationHelper23LocationManagerDelegate"
+- "_TtCC17CoreODIEssentials17ODILocationHelperP33_62B399B2DD34B45DBAE8CA5FF1D3DB2318ContinuationsActor"
+- "_TtCC17CoreODIEssentials8GeoCoderP33_0B04DE31428A4FF302A52C267E4F1B8419SharedCoordinateMap"
+- "_TtCC17CoreODIEssentials8GeoCoderP33_0B04DE31428A4FF302A52C267E4F1B8422GeocodeCompletionState"
+- "_TtCV17CoreODIEssentials16ProfileSetObject29SingleValidatedConfigProvider"
+- "_TtCVV17CoreODIEssentials37DistributedNotificationsAsyncSequence8IteratorP33_5CC43637C9D3F11591F1C209AA42A8437Handler"
+- "_address"
+- "_anonymousURLSession"
+- "_appleIDContext"
+- "_assessmentsComputation"
+- "_baaContinuations"
+- "_challengeResponse"
+- "_clientInfoHeader"
+- "_connection"
+- "_ctDefaultVoiceNumber"
+- "_ctPhoneNumbers"
+- "_ctSubscriptionsInUse"
+- "_ctSubscriptionsInUseNonHidden"
+- "_deviceLanguage"
+- "_disconnectionCallbacks"
+- "_generation"
+- "_getDeviceDataInner(contextualProfile:profileInfo:idvData:odiRawData:externalDataArray:nonce:workflowID:isCBOR:computationContext:completion:)"
+- "_guidManager"
+- "_guidManagerContinuations"
+- "_guidManagerSetupComplete"
+- "_hasLoadedPhoneNumbers"
+- "_hostChallenge"
+- "_location"
+- "_locationManager"
+- "_odnatorQueueManager"
+- "_primaryAccount"
+- "_profileIDs"
+- "_rU1LRx5aI44CETG8"
+- "_seIds"
+- "_seid"
+- "_swr(service:workflowID:isCBOR:errorProperties:completion:)"
+- "_syncQueue"
+- "_updated"
+- "_urlSession"
+- "_yNHDWo3TCV"
+- "_zeXRCfLmM5cdkEtz"
+- "aa_appleAccountWithAltDSID:"
+- "aa_primaryAppleAccount"
+- "aa_primaryAppleAccountWithCompletion:"
+- "accountStore"
+- "accountTypeWithAccountTypeIdentifier:"
+- "accountsWithAccountType:"
+- "addValue:forHTTPHeaderField:"
+- "aida_accountForAltDSID:"
+- "aida_accountForPrimaryiCloudAccount"
+- "aida_alternateDSID"
+- "aida_renewCredentialsForAccount:services:force:completion:"
+- "aida_tokenForService:"
+- "aida_tokenWithExpiryCheckForService:"
+- "ak_addClientInfoHeader"
+- "ak_addDeviceUDIDHeader"
+- "allHeaderFields"
+- "allValues"
+- "allowSimulatedLocations"
+- "allowedClasses"
+- "analyticsManager"
+- "anonymousNSURLSessionConfiguration"
+- "appendData:"
+- "appleAuthHeader(_:)"
+- "appleCredentials"
+- "appleID"
+- "appleIDHeadersWithCompletion:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "armandData"
+- "arrayWithObjects:count:"
+- "assessmentAdapter"
+- "assessmentWebService"
+- "assessmentsManager"
+- "authenticationCertificateSignatures"
+- "authenticationMethod"
+- "authorization"
+- "authorizationStatus"
+- "autorelease"
+- "boolForKey:"
+- "boolValue"
+- "bundle"
+- "bundleForClass:"
+- "bundlePath"
+- "bytes"
+- "cache"
+- "cacheData:forKey:andCategory:completion:"
+- "cacheDataXPC:forKey:andCategory:completion:"
+- "cachedCerts"
+- "cachedClientInfoHeader"
+- "cachedEmbeddedSecureElementSerialNumber:"
+- "cachedResponseForRequest:"
+- "callCenter"
+- "challengeResponse"
+- "characterAtIndex:"
+- "class"
+- "clientGUIDFactory"
+- "clientInfo"
+- "code"
+- "completionClosure"
+- "completionHandler"
+- "config"
+- "configuration"
+- "conformsToProtocol:"
+- "containerURLForSecurityApplicationGroupIdentifier:"
+- "contentCase"
+- "continuation"
+- "continuations"
+- "continuationsAwaitingWorkToken"
+- "conversation"
+- "conversationId"
+- "coordinate"
+- "copyAnswer:"
+- "copyMobileSubscriberIdentity:completion:"
+- "copySIMIdentity:completion:"
+- "countByEnumeratingWithState:objects:count:"
+- "ctClient"
+- "ctDefaultVoiceNumber"
+- "ctPhoneNumbers"
+- "ctResponseQueue"
+- "currentAudioAndVideoCalls"
+- "currentLocale"
+- "currentRequest"
+- "dKsJLlNX54lzKt5n:eqF2XJh3hHBJQf2K:"
+- "dataForKey:"
+- "dataWithBytes:length:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithData:"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "debugDescription"
+- "decodeObjectOfClass:forKey:"
+- "deepLink"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "defaultStore"
+- "defaultWorkspace"
+- "defaults"
+- "defaultsKey"
+- "deleteDataForKey:andCategory:completion:"
+- "deleteDataForKeyXPC:andCategory:completion:"
+- "description"
+- "deviceId"
+- "deviceInfo"
+- "dictionaryWithObjects:forKeys:count:"
+- "didCallLocationDelegate"
+- "didChangeRadioState:"
+- "didFireAnalyticsEvent"
+- "didReceiveFatalCommunicationError"
+- "diskCapacity"
+- "distanceFromLocation:"
+- "djoNSwl5j57W5mfl:eqF2XJh3hHBJQf2K:"
+- "domain"
+- "doubleForKey:"
+- "ePrivateKey"
+- "ePublicKey"
+- "ePublicKeyData"
+- "effectiveBoolValueForSetting:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endSession"
+- "errorWithDomain:code:userInfo:"
+- "evaluateProfile"
+- "evrtH713YbFfEOzk:completion:"
+- "executingTask"
+- "explicitlySetConfiguration"
+- "f9MGfLOgnHPuKTrU:HY6FXG20397zwmVg:"
+- "factory"
+- "feedbackManager"
+- "fetchConfigThrowingWithCompletion:"
+- "fetchConfigWithCompletion:"
+- "fetchConfigWithCompletionXPC:"
+- "fetchDataForKey:andCategory:completion:"
+- "fetchDataForKeyXPC:andCategory:completion:"
+- "fetchGeoCodingsForAddresses:completion:"
+- "fetchGeoCodingsForAddressesXPC:completion:"
+- "fillingContinuations"
+- "finished"
+- "generatePhoneAuthenticationSignatureOverData:withCompletion:"
+- "geocodePostalAddress:completionHandler:"
+- "getCryptogram:challengeResponse:"
+- "getHwSupport"
+- "getPhoneNumber:error:"
+- "getPhoneNumberWithCompletion:completion:"
+- "getSIMStatus:error:"
+- "getSharedInstance"
+- "getSubscriptionInfo:"
+- "getSubscriptionInfoWithError:"
+- "getUserDefaultVoiceSubscriptionContext:"
+- "hardwareStateDidChange"
+- "hasAssertion"
+- "hasCompletedUpdateArmandData"
+- "hasPKASupport"
+- "hash"
+- "helperBYSetupAssistantNeedsToRun"
+- "hostChallenge"
+- "httpSession"
+- "inMemoryBAACertificate"
+- "inMemoryProfile"
+- "inUseAssertion"
+- "inUseCount"
+- "infoDictionary"
+- "init"
+- "init(from:) has not been implemented"
+- "initWithAddress:location:updated:"
+- "initWithBool:"
+- "initWithBytes:length:"
+- "initWithCoder:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithEffectiveBundleIdentifier:delegate:onQueue:"
+- "initWithEffectiveBundlePath:delegate:onQueue:"
+- "initWithIdentifier:"
+- "initWithInteger:"
+- "initWithLatitude:longitude:"
+- "initWithLength:"
+- "initWithMachServiceName:options:"
+- "initWithMemoryCapacity:diskCapacity:directoryURL:"
+- "initWithMemoryCapacity:diskCapacity:diskPath:"
+- "initWithQAy7FB3BSYJUwsIc:BGiN5h2SLMRO6B9R:ldLN2KjBjKNycl3P:zeXRCfLmM5cdkEtz:"
+- "initWithQAy7FB3BSYJUwsIc:Zwvxi3fDtAHqlF0d:KufCqgU8RstLzBzT:BGiN5h2SLMRO6B9R:Jf7L4ypvXegQqMcE:zeXRCfLmM5cdkEtz:"
+- "initWithQAy7FB3BSYJUwsIc:Zwvxi3fDtAHqlF0d:KufCqgU8RstLzBzT:BGiN5h2SLMRO6B9R:ldLN2KjBjKNycl3P:zeXRCfLmM5cdkEtz:"
+- "initWithQueue:"
+- "initWithResponse:data:"
+- "initWithResponse:data:userInfo:storagePolicy:"
+- "initWithServiceName:"
+- "initWithSuiteName:"
+- "initWithTrust:"
+- "initWithURL:"
+- "initWithY2vJelgtPFLly7lh:Zwvxi3fDtAHqlF0d:KufCqgU8RstLzBzT:BGiN5h2SLMRO6B9R:Jf7L4ypvXegQqMcE:zeXRCfLmM5cdkEtz:"
+- "inputBindings"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invalidateAndCancel"
+- "isActive"
+- "isAuthenticated"
+- "isCancelled"
+- "isEqual:"
+- "isEqualToString:"
+- "isEvaluating"
+- "isFillingCoordinateMap"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isSimHidden"
+- "isSimulatedBySoftware"
+- "isUpdating"
+- "isUpdatingExecutingTask"
+- "k0p7Rchr49btq6wB:HY6FXG20397zwmVg:"
+- "k4eQYhyzyebbQqys:"
+- "kCLLocationManagerDelegateUninvokedErrorCode"
+- "l7UrdRfCzeduYqtA:"
+- "lJIqliFcwusu4FxD:be2xk53Wn161LTDz:completion:"
+- "laContext"
+- "length"
+- "llNEghuIdfPH7O8I:all:pregeneration:workflowID:completion:"
+- "localizedStringForKey:value:table:"
+- "locationFetchRequestedAt"
+- "locationManager"
+- "locationManager:didChangeAuthorizationStatus:"
+- "locationManager:didDetermineState:forRegion:"
+- "locationManager:didEnterRegion:"
+- "locationManager:didExitRegion:"
+- "locationManager:didFailRangingBeaconsForConstraint:error:"
+- "locationManager:didFailWithError:"
+- "locationManager:didFinishDeferredUpdatesWithError:"
+- "locationManager:didRangeBeacons:inRegion:"
+- "locationManager:didRangeBeacons:satisfyingConstraint:"
+- "locationManager:didStartMonitoringForRegion:"
+- "locationManager:didUpdateHeading:"
+- "locationManager:didUpdateLocations:"
+- "locationManager:didUpdateToLocation:fromLocation:"
+- "locationManager:didVisit:"
+- "locationManager:monitoringDidFailForRegion:withError:"
+- "locationManager:rangingBeaconsDidFailForRegion:withError:"
+- "locationManagerDelegate"
+- "locationManagerDidChangeAuthorization:"
+- "locationManagerDidPauseLocationUpdates:"
+- "locationManagerDidResumeLocationUpdates:"
+- "locationManagerShouldDisplayHeadingCalibration:"
+- "locationRequestSignpost"
+- "locationServicesAvailable"
+- "lock"
+- "logger"
+- "mainBundle"
+- "map"
+- "mapping"
+- "maxAge"
+- "memoryCapacity"
+- "mode"
+- "mutableBytes"
+- "mutableCopy"
+- "newAssertionForBundle:withReason:level:"
+- "newAssertionForBundleIdentifier:withReason:level:"
+- "nfData"
+- "nsurlSessionConfiguration"
+- "objectForInfoDictionaryKey:"
+- "objectForKeyedSubscript:"
+- "odiDeviceInfo"
+- "odiLocationManagerDelegate"
+- "odiRawData"
+- "odnatorIsReady"
+- "ofLBc0SV56ddaijH:i7D0Lridvo8oYoNd:completion:"
+- "openURL:withOptions:"
+- "operatingSystemVersion"
+- "overridingAltDSID"
+- "owner"
+- "pRo6qBDnfEL0sBNs:i7D0Lridvo8oYoNd:completion:"
+- "pacInfo"
+- "pacProvider"
+- "parent"
+- "payloadB64"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistenceCommand"
+- "persistentDomainForName:"
+- "personNameComponentsFromString:"
+- "phoneBookError:"
+- "phoneBookFetched:"
+- "phoneBookSelected:"
+- "phoneBookWritten:"
+- "phoneNumberAvailable:"
+- "phoneNumberChanged:"
+- "primaryAccount"
+- "processInfo"
+- "profileIDs"
+- "profileManager"
+- "protectedB64"
+- "protectedHeader"
+- "protectionSpace"
+- "q16@0:8"
+- "queue"
+- "rGvculjlqIwBJaoX:completion:"
+- "rU1LRx5aI44CETG8"
+- "rawAssessmentConfig"
+- "registerEventListener:"
+- "registerICloudLoginWithCompletion:"
+- "registerICloudLoginWithCompletionXPC:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeAllCachedResponses"
+- "removeAllObjects"
+- "removeCachedResponseForRequest:"
+- "removeObjectForKey:"
+- "renewCredentialsForAccount:force:reason:completion:"
+- "renewCredentialsForAccount:options:completion:"
+- "renewGrandslamToken(_:)"
+- "requestHeader"
+- "requestId"
+- "requestLocation"
+- "requireUserAuth"
+- "respondsToSelector:"
+- "response"
+- "responseHeader"
+- "resume"
+- "retain"
+- "retainCount"
+- "retainCycle"
+- "retrier"
+- "runtimeError"
+- "sPLljm0ZB9z7TiKd:nSLeS2inTAbpsUeZ:noUfOiGjp1iQmKZX:pPGyXmlDbN3mzzHm:iSOZt67ioKsVcqQZ:hjCrdFOLMJN0Cc5Q:lE40aye8U2u533Ka:JRuZv6Feh9qwrGmN:Wn0aIR2B54NCtGQc:B3l3lS18BITy5E4L:UywAszL6AB8Y6LTJ:uNao9X8A82jVmQkK:completion:"
+- "secureElement:didChangeRestrictedMode:"
+- "secureElementsWithError:"
+- "self"
+- "serialNumber"
+- "serverRepo"
+- "serverTime"
+- "serverTimeRequestInProgress"
+- "serverTimeWaitingContinuations"
+- "serverTrust"
+- "serviceQueue"
+- "sessionDescription"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "setBGiN5h2SLMRO6B9R:"
+- "setCachePolicy:"
+- "setChallengeResponse:"
+- "setCity:"
+- "setCountry:"
+- "setDateFormat:"
+- "setDelegate:"
+- "setDesiredAccuracy:"
+- "setDistanceFilter:"
+- "setHTTPBody:"
+- "setHTTPMethod:"
+- "setHkbEJeZjAQnItubK:"
+- "setHostChallenge:"
+- "setISOCountryCode:"
+- "setInterruptionHandler:"
+- "setLocale:"
+- "setMaximumFractionDigits:"
+- "setObject:forKey:"
+- "setPostalCode:"
+- "setProfileIDs:"
+- "setRU1LRx5aI44CETG8:"
+- "setRemoteObjectInterface:"
+- "setRequestCachePolicy:"
+- "setS08uY31jbmOEDLrH:"
+- "setSeid:"
+- "setState:"
+- "setStreet:"
+- "setSubLocality:"
+- "setTbX4HHO0pTPaerrJ:"
+- "setTimeZone:"
+- "setTimeoutIntervalForRequest:"
+- "setURLCache:"
+- "setUserInfoValueProviderForDomain:provider:"
+- "setValue:forHTTPHeaderField:"
+- "setWithArray:"
+- "setYNHDWo3TCV:"
+- "setZeXRCfLmM5cdkEtz:"
+- "set_appleIDContext:"
+- "sharedConnection"
+- "sharedHardwareManagerWithNoUI"
+- "sharedInstance"
+- "sharedLogger"
+- "sharedURLCache"
+- "signatureB64"
+- "sikaVersion"
+- "slotID"
+- "sourceInformation"
+- "spcUnlockSuccessful:"
+- "ssIPnsZyWHPGC5sg3Pzkiw"
+- "standardUserDefaults"
+- "startSecureElementManagerSession:"
+- "startSecureElementManagerSessionWithPriority:"
+- "staticWebService"
+- "stats"
+- "status"
+- "statusCode"
+- "stopUpdatingLocation"
+- "storagePolicy"
+- "storeCachedResponse:forDataTask:"
+- "storeCachedResponse:forRequest:"
+- "storedXpcFetchedConfig"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "stringWithUTF8String:"
+- "stsProvider"
+- "subscriptionsInUse"
+- "superclass"
+- "suppServicesCompleted:"
+- "suppServicesError:error:"
+- "suppServicesEvent:event:settingsType:data:"
+- "suppServicesStarted:"
+- "supportsSecureCoding"
+- "t5yVezCKaX2Zrwrw:uXxcS3vcKdsH38zZ:"
+- "taskList"
+- "temperatureChanged:"
+- "timeZone"
+- "toDictionary"
+- "triggeringCase"
+- "ttrDelay"
+- "tuQueue"
+- "uTtwJoGUgL3N0GVz"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unlock"
+- "unprotectedHeader"
+- "unregisterEventListener:"
+- "unregisterICloudLoginWithCompletion:"
+- "unregisterICloudLoginWithCompletionXPC:"
+- "updateGeoCodingsForAddresses:locations:"
+- "updateGeoCodingsForAddresses:locations:completion:"
+- "updateGeoCodingsXPC:completion:"
+- "updateRavioliWithCompletion:"
+- "updateRequestClosure"
+- "urlSession"
+- "useExplicitlySetConfiguration"
+- "userInfo"
+- "using altDSID for authorization"
+- "uuid"
+- "v120@0:8@\"NSData\"16@\"NSArray\"24@\"NSData\"32@\"NSDictionary\"40@\"NSArray\"48@\"NSData\"56@\"NSData\"64Q72Q80@\"NSData\"88@\"NSData\"96@\"NSString\"104@?<v@?@\"NSData\"@\"NSData\"@\"NSData\"I@\"NSError\">112"
+- "v120@0:8@16@24@32@40@48@56@64Q72Q80@88@96@104@?112"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"CLLocationManager\"16"
+- "v24@0:8@\"CTXPCServiceSubscriptionContext\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSURLSession\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
+- "v24@?0@\"CTPhoneNumberInfo\"8@\"NSError\"16"
+- "v24@?0@\"CTXPCServiceSubscriptionInfo\"8@\"NSError\"16"
+- "v24@?0@\"IDSAuthenticationSigningResult\"8@\"NSError\"16"
+- "v24@?0@\"NFSecureElementManagerSession\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0q8@\"NSError\"16"
+- "v28@0:8@\"CLLocationManager\"16i24"
+- "v28@0:8@\"NFSecureElement\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8@16i24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLRegion\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLVisit\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSError\"24"
+- "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"NSError\"24"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSString\"@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?I@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@\"NSArray\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24"
+- "v32@0:8@\"qgxl40ULPoCkqGZM\"16@?<v@?@\"NSString\"@\"NSData\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconIdentityConstraint\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLLocation\"24@\"CLLocation\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconIdentityConstraint\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconRegion\"32"
+- "v40@0:8@\"CLLocationManager\"16q24@\"CLRegion\"32"
+- "v40@0:8@\"CTXPCServiceSubscriptionContext\"16i24i28@\"CTSuppServicesNotificationData\"32"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16q24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16q24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLSessionTaskMetrics\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@?<v@?@\"NSInputStream\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16i24i28@32"
+- "v40@0:8@16q24@32"
+- "v40@0:8@16q24@?32"
+- "v44@0:8B16B20B24@\"NSString\"28@?<v@?@\"NSError\">36"
+- "v44@0:8B16B20B24@28@?36"
+- "v44@?0@\"NSData\"8@\"NSData\"16@\"NSData\"24I32@\"NSError\"36"
+- "v48@0:8@\"NSData\"16@\"NSString\"24q32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLAuthenticationChallenge\"32@?<v@?q@\"NSURLCredential\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?q@\"NSURLRequest\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32@?<v@?@\"NSInputStream\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24q32@?40"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32@\"NSURLRequest\"40@?<v@?@\"NSURLRequest\">48"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32q40q48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24q32q40q48"
+- "v64@0:8@\"NSString\"16@\"NSData\"24@\"NSData\"32@\"NSString\"40@\"NSData\"48@?<v@?@\"NSData\"@\"NSError\">56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "validator"
+- "vffg4lwI2HftPvpO:"
+- "waitingContinuations"
+- "webService"
+- "webServiceTokenIdentifier"
+- "workQueue"
+- "workTokenAvailable"
+- "xs00laTiKIpDUzDP:"
+- "yNHDWo3TCV"
+- "zeXRCfLmM5cdkEtz"
+- "zone"
+
+```

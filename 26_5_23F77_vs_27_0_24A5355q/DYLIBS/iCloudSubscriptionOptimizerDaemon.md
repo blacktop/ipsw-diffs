@@ -1,0 +1,662 @@
+## iCloudSubscriptionOptimizerDaemon
+
+> `/System/Library/PrivateFrameworks/iCloudSubscriptionOptimizerDaemon.framework/iCloudSubscriptionOptimizerDaemon`
+
+```diff
+
+-70.0.0.0.0
+-  __TEXT.__text: 0x74cdc
+-  __TEXT.__auth_stubs: 0x26a0
++71.0.0.0.0
++  __TEXT.__text: 0x70f5c
+   __TEXT.__objc_methlist: 0x2ac
+   __TEXT.__const: 0x36f0
+   __TEXT.__cstring: 0x55f6
+-  __TEXT.__swift5_typeref: 0x1103
++  __TEXT.__swift5_typeref: 0x1113
+   __TEXT.__swift5_fieldmd: 0x184c
+-  __TEXT.__constg_swiftt: 0x3108
++  __TEXT.__constg_swiftt: 0x3118
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_reflstr: 0x1c6f
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__swift5_protos: 0x24
+   __TEXT.__swift5_proto: 0x148
+   __TEXT.__swift5_types: 0x230
+-  __TEXT.__swift5_capture: 0x600
+-  __TEXT.__unwind_info: 0x1b48
+-  __TEXT.__eh_frame: 0x1fc8
+-  __TEXT.__objc_classname: 0x1bf2
+-  __TEXT.__objc_methname: 0x1895
+-  __TEXT.__objc_methtype: 0x3ee
+-  __TEXT.__objc_stubs: 0x11a0
+-  __DATA_CONST.__got: 0x630
+-  __DATA_CONST.__const: 0x2e0
++  __TEXT.__swift5_capture: 0x56c
++  __TEXT.__unwind_info: 0x1bc8
++  __TEXT.__eh_frame: 0x1f4c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x2f0
+   __DATA_CONST.__objc_classlist: 0x308
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x538
++  __DATA_CONST.__objc_selrefs: 0x530
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x1358
+-  __AUTH_CONST.__const: 0x3560
++  __DATA_CONST.__got: 0x5e0
++  __AUTH_CONST.__const: 0x3388
+   __AUTH_CONST.__cfstring: 0x80
+   __AUTH_CONST.__objc_const: 0x4fb8
++  __AUTH_CONST.__auth_got: 0x1408
+   __AUTH.__objc_data: 0x2c8
+   __AUTH.__data: 0x3cf8
+-  __DATA.__data: 0xf08
++  __DATA.__data: 0xf18
+   __DATA.__bss: 0x1f80
+   __DATA.__common: 0x128
+   __DATA_DIRTY.__objc_data: 0xc0
+-  __DATA_DIRTY.__data: 0x23f8
++  __DATA_DIRTY.__data: 0x2408
+   __DATA_DIRTY.__bss: 0x100
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C8A346B-4D5D-311A-A7A3-AC42A35A5B70
+-  Functions: 2836
+-  Symbols:   1438
+-  CStrings:  919
++  UUID: 083151A9-4270-37A8-8B40-E04B5175F4A0
++  Functions: 2806
++  Symbols:   1581
++  CStrings:  495
+ 
+Symbols:
++ __PROTOCOLS__TtC33iCloudSubscriptionOptimizerDaemon35XpcSubscriptionClientProtocolServer.19
++ ___swift__destructor
++ ___swift__destructor.10
++ ___swift__destructor.19
++ ___swift__destructor.2
++ ___swift__destructor.20
++ ___swift__destructor.37
++ ___swift__destructor.39
++ ___swift__destructor.4
++ ___swift__destructor.7
++ ___swift_closure_destructor
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.8
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_iCloudSubscriptionOptimizerDaemon
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_iCloudSubscriptionOptimizerDaemon
++ _block_copy_helper.21
++ _block_copy_helper.23
++ _block_copy_helper.24
++ _block_copy_helper.27
++ _block_copy_helper.31
++ _block_copy_helper.33
++ _block_copy_helper.39
++ _block_copy_helper.47
++ _block_copy_helper.9
++ _block_descriptor.11
++ _block_descriptor.23
++ _block_descriptor.25
++ _block_descriptor.26
++ _block_descriptor.29
++ _block_descriptor.33
++ _block_descriptor.35
++ _block_descriptor.41
++ _block_descriptor.49
++ _block_destroy_helper.10
++ _block_destroy_helper.22
++ _block_destroy_helper.24
++ _block_destroy_helper.25
++ _block_destroy_helper.28
++ _block_destroy_helper.32
++ _block_destroy_helper.34
++ _block_destroy_helper.40
++ _block_destroy_helper.48
++ _objc_msgSend$ComputedMode
++ _objc_msgSend$SleepMode
++ _objc_msgSend$UserFocus
++ _objc_msgSend$wasLocal
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SSSg5label_yp5valuetSg
++ _symbolic _____Sg 10Foundation3URLV
+- _OBJC_CLASS_$_BMStreams
+- __PROTOCOLS__TtC33iCloudSubscriptionOptimizerDaemon35XpcSubscriptionClientProtocolServer.38
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- _block_copy_helper.11
+- _block_copy_helper.13
+- _block_copy_helper.14
+- _block_copy_helper.19
+- _block_copy_helper.22
+- _block_copy_helper.28
+- _block_copy_helper.32
+- _block_copy_helper.35
+- _block_copy_helper.43
+- _block_copy_helper.49
+- _block_descriptor.13
+- _block_descriptor.15
+- _block_descriptor.16
+- _block_descriptor.21
+- _block_descriptor.24
+- _block_descriptor.30
+- _block_descriptor.34
+- _block_descriptor.37
+- _block_descriptor.45
+- _block_descriptor.51
+- _block_destroy_helper.12
+- _block_destroy_helper.14
+- _block_destroy_helper.15
+- _block_destroy_helper.20
+- _block_destroy_helper.23
+- _block_destroy_helper.29
+- _block_destroy_helper.33
+- _block_destroy_helper.36
+- _block_destroy_helper.44
+- _block_destroy_helper.50
+- _objc_msgSend$isStarting
+- _objc_msgSend$publisherWithStartTime:endTime:maxEvents:reversed:
+- _objc_msgSend$sleepModeState
+- _objc_msgSend$sleepModeStream
+- _objc_msgSend$userFocusComputedMode
+- _objc_release_x1
+- _objc_retain_x24
+- _objectdestroy.2Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unknownObjectRetain_n
+- _swift_willThrowTypedImpl
+- _symbolic _____Sg 31iCloudSubscriptionOptimizerCore0B13ClientRequestV10OneOf_TypeO
+- _symbolic _____Sg 31iCloudSubscriptionOptimizerCore0B14ClientResponseV10OneOf_TypeO
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_appLaunchCountsLast1w"
+- "$__lazy_storage_$_appLaunchCountsSameSlot"
+- "$__lazy_storage_$_appLaunchFeatureProvier"
+- "$__lazy_storage_$_appLaunchStats2w"
+- "$__lazy_storage_$_biomeFocusFeatureProvider"
+- "$__lazy_storage_$_biomeNotificationFeatureProvider"
+- "$__lazy_storage_$_enabledModeList"
+- "$__lazy_storage_$_icloudNotificationFeatures2w"
+- "$__lazy_storage_$_lastOpenApp24h"
+- "$__lazy_storage_$_notificationFeatures1w"
+- "$__lazy_storage_$_notificationFeaturesSameSlot"
+- "$__lazy_storage_$_notificationStats2w"
+- "$__lazy_storage_$_simpleTimeFeatureProvider"
+- "$__lazy_storage_$_usageTrackingFeatureProvider"
+- ".cxx_destruct"
+- "?"
+- "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@?0@8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "App"
+- "B16@0:8"
+- "B16@?0@8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "ISODeviceInfo"
+- "ISOINDaemonProtocol"
+- "ISOXpcSubscriptionClient"
+- "InFocus"
+- "MLFeatureProvider"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "Notification"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "StringAsDayOfWeek:"
+- "StringAsUserTier:"
+- "Subscription"
+- "T#,R"
+- "T@\"NSSet\",N,C"
+- "T@\"NSSet\",N,R"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,R"
+- "TQ,R"
+- "URLForResource:withExtension:"
+- "URLsForDirectory:inDomains:"
+- "Usage"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC33iCloudSubscriptionOptimizerDaemon10BiomeStats"
+- "_TtC33iCloudSubscriptionOptimizerDaemon10BiomeUtils"
+- "_TtC33iCloudSubscriptionOptimizerDaemon10ModelUtils"
+- "_TtC33iCloudSubscriptionOptimizerDaemon10PetDataAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon10PflDataAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon11DaemonEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon11FeaturesAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon11NewOfferAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon12DaemonEvents"
+- "_TtC33iCloudSubscriptionOptimizerDaemon12FeatureUtils"
+- "_TtC33iCloudSubscriptionOptimizerDaemon13ModelProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon14BiomeAppLaunch"
+- "_TtC33iCloudSubscriptionOptimizerDaemon14SystemActivity"
+- "_TtC33iCloudSubscriptionOptimizerDaemon15BiomeFocusSleep"
+- "_TtC33iCloudSubscriptionOptimizerDaemon15DaemonExitEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon15FeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon15MLDelayProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon16MockBiomeManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon16PETDataCollector"
+- "_TtC33iCloudSubscriptionOptimizerDaemon16PFLDataCollector"
+- "_TtC33iCloudSubscriptionOptimizerDaemon16RealBiomeManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon17PflDataStoreEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18CliDelayedActivity"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18DaemonStateManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18DataCollectorUtils"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18PFLFeatureNameList"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18PetFeatureNameList"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18RealAssetInterface"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18RealDESRecordStore"
+- "_TtC33iCloudSubscriptionOptimizerDaemon18SubscriptionDaemon"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19DaemonLaunchedEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19PetToDESRecordStore"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19ShadowEvaluationAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19ShadowModeEvaluator"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19SystemActivityEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon19XpcCallStartedEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon20DeleteDaemonStateAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon20MLEvaluationProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon20MlDelayProviderEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon20XpcCallFinishedEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon21BackingOffINDNotifier"
+- "_TtC33iCloudSubscriptionOptimizerDaemon21UsageTrackingFeatures"
+- "_TtC33iCloudSubscriptionOptimizerDaemon21XpcSubscriptionServer"
+- "_TtC33iCloudSubscriptionOptimizerDaemon22DeleteDaemonStateEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon22MobileAssetDownloadAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon22NotificationDelayEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon22NotificationPendingAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon22PetDataCollectionEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23BiomeNotificationStream"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23BuildPFLFeatureAndLabel"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23DESRecordStoreOperators"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23DelayActionDaemonWakeUp"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23MLDelayPerformanceEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23MLModelPerformanceEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23MobileAssetLocalManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23NotificationDataSources"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23NotificationDelayAction"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23ShadowModeModelProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon23SnapshotFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon24MobileAssetDownloadEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon24MobileAssetGetVersionAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon24RealBatteryStateProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon25BiomeFocusFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon25NotificationStateWriteAPI"
+- "_TtC33iCloudSubscriptionOptimizerDaemon25OTANotificationDelayModel"
+- "_TtC33iCloudSubscriptionOptimizerDaemon25SimpleTimeFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon25XpcCallToIndFinishedEvent"
+- "_TtC33iCloudSubscriptionOptimizerDaemon26DelayActionNewOfferRequest"
+- "_TtC33iCloudSubscriptionOptimizerDaemon26MobileAssetDownloadManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon26QuotaDaemonNotifierFactory"
+- "_TtC33iCloudSubscriptionOptimizerDaemon27DelayedNotificationActivity"
+- "_TtC33iCloudSubscriptionOptimizerDaemon27ICloudNotificationXpcClient"
+- "_TtC33iCloudSubscriptionOptimizerDaemon27MobileAssetDownloadActivity"
+- "_TtC33iCloudSubscriptionOptimizerDaemon28MobileAssetDaemonStateHelper"
+- "_TtC33iCloudSubscriptionOptimizerDaemon28NotificationDelayModelFormat"
+- "_TtC33iCloudSubscriptionOptimizerDaemon28SystemActivityHistoryManager"
+- "_TtC33iCloudSubscriptionOptimizerDaemon28UsageTrackingFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon29BiomeAppLaunchFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon29BundledNotificationDelayModel"
+- "_TtC33iCloudSubscriptionOptimizerDaemon29XpcSubscriptionServerDelegate"
+- "_TtC33iCloudSubscriptionOptimizerDaemon32BiomeNotificationFeatureProvider"
+- "_TtC33iCloudSubscriptionOptimizerDaemon33EventLoggingXpcSubscriptionClient"
+- "_TtC33iCloudSubscriptionOptimizerDaemon35XpcSubscriptionClientProtocolServer"
+- "_TtC33iCloudSubscriptionOptimizerDaemon40BundledNotificationDelaySamePropensities"
+- "_TtC33iCloudSubscriptionOptimizerDaemon45BundledNotificationDelaySamePropensitiesInput"
+- "_TtC33iCloudSubscriptionOptimizerDaemon46BundledNotificationDelaySamePropensitiesOutput"
+- "_TtC33iCloudSubscriptionOptimizerDaemon7Feature"
+- "_TtC33iCloudSubscriptionOptimizerDaemon7PingAPI"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon14BiomeAppLaunch13CountersByApp"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon14BiomeAppLaunch16LastOpenedApp24h"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon14BiomeAppLaunch22MinsSinceLastAppLaunch"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon23BiomeNotificationStream14ReceivedEvents"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon23BiomeNotificationStream19CountersByUsageType"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon23DelayActionDaemonWakeUp13DelayAndState"
+- "_TtCC33iCloudSubscriptionOptimizerDaemon26DelayActionNewOfferRequest19DelayAndStateUpdate"
+- "_TtCV33iCloudSubscriptionOptimizerDaemon23BiomeICloudSubscription13MlServerScore"
+- "aa_altDSID"
+- "aa_primaryAppleAccount"
+- "aa_primaryEmail"
+- "absoluteTimestamp"
+- "activityType"
+- "assetInterface"
+- "assetRefreshMinInterval"
+- "attributes"
+- "autorelease"
+- "backoffDuration"
+- "batteryState"
+- "batteryStateProvider"
+- "binaryLabel"
+- "biomeManager"
+- "boolValue"
+- "bundleForClass:"
+- "bundleID"
+- "catalogDownloadMinInterval"
+- "class"
+- "configurationInfoWithIdentifiers:forAltDSID:completion:"
+- "conformsToProtocol:"
+- "contentsOfDirectoryAtPath:error:"
+- "count"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "criteriaInternal"
+- "currentAccount"
+- "currentDevice"
+- "daemonStateManager"
+- "dealloc"
+- "debugDescription"
+- "decorated"
+- "defaultManager"
+- "defaultStore"
+- "delayCount"
+- "delayPerformanceMetricsList"
+- "delayTime"
+- "deleteSavedRecordWithIdentfier:completion:"
+- "description"
+- "dictionaryValue"
+- "displayDelayedOfferWithContext:completion:"
+- "displayTimestamp"
+- "doubleValue"
+- "downloadActivityRunMinInterval"
+- "dummyData"
+- "dummyPflData"
+- "durationMillis"
+- "encodeWithCoder:"
+- "error"
+- "eventBody"
+- "exitTimer"
+- "featureNames"
+- "featureNamesToBuildFeatureArray"
+- "featureProviderListForInference"
+- "featureProviderListForTrain"
+- "featureValueForName:"
+- "featureValueWithDouble:"
+- "featureValueWithInt64:"
+- "featureValueWithMultiArray:"
+- "featureValueWithString:"
+- "featuresAtIndex:"
+- "fetchReportsDuringInterval:partitionInterval:completionHandler:"
+- "fetchSavedRecordInfoWithCompletion:"
+- "fileExistsAtPath:"
+- "fileManager"
+- "fileName"
+- "filterWithIsIncluded:"
+- "formattedText"
+- "getLocalUrl"
+- "hasMlServerScore"
+- "hasTotalQuota"
+- "hash"
+- "hashedAltDsid"
+- "historyFile"
+- "iCloud"
+- "iCloudSubscriptionEventType"
+- "identifierInternal"
+- "init"
+- "initWithBundleIdentifier:"
+- "initWithCoder:"
+- "initWithDouble:"
+- "initWithFeatureProviderArray:"
+- "initWithInteger:"
+- "initWithLongLong:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithMlServerScore:totalQuota:totalUsed:totalAvailable:bundleQuotaInBytes:commerceQuotaInBytes:iCloudSubscriptionEventType:"
+- "initWithShape:dataType:error:"
+- "initWithStartDate:endDate:maxEvents:lastN:reversed:"
+- "initWithType:"
+- "innerClient"
+- "inputDescriptionsByName"
+- "int64Value"
+- "interfaceWithProtocol:"
+- "isCriteriaStale"
+- "isEqual:"
+- "isInternalBuild"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isStarting"
+- "isWaitingOnAssetDownload"
+- "isWaitingOnCatalogDownload"
+- "jsonDictionary"
+- "kShadowModeModelPrefix"
+- "labelAnnotation"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "litmusInfo"
+- "localHoursWhenInference"
+- "logMessage:"
+- "mainLoop"
+- "manager"
+- "max"
+- "maxDelayTimestamp"
+- "maxHistorySize"
+- "median"
+- "metadata"
+- "minsUntilOpen"
+- "mlModel"
+- "mobileAssetDeamonStateHelper"
+- "mobileAssetDownloadManager"
+- "mobileAssetLocalManager"
+- "model"
+- "modelDescription"
+- "modelPerformanceMetricsList"
+- "modelProvider"
+- "modelWithContentsOfURL:configuration:error:"
+- "modelWithContentsOfURL:error:"
+- "multiArrayValue"
+- "name"
+- "notificationID"
+- "notificationsFromNotifStream"
+- "notificationsFromSubStream"
+- "notifyQuotaDaemonCallback"
+- "now"
+- "numOffsets"
+- "objectAtIndexedSubscript:"
+- "offsetMinsList"
+- "offsetTimeInterval"
+- "onExitTimerRun"
+- "operatingSystemVersion"
+- "orderedFeatureNamesIfFeatureArray"
+- "overwriteDelay"
+- "pendingNotificationState"
+- "percentileToChooseOffsetList"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "petMessages"
+- "pflMessages"
+- "predictionsFromBatch:error:"
+- "processInfo"
+- "protoMessages"
+- "provider"
+- "publisherWithOptions:"
+- "publisherWithStartTime:endTime:maxEvents:reversed:"
+- "purgeSync"
+- "pushTimestamp"
+- "queryMetaDataSync"
+- "realMobileAsset"
+- "reduceWithInitial:nextPartialResult:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeItemAtPath:error:"
+- "request"
+- "request:withReply:"
+- "respondsToSelector:"
+- "response"
+- "results"
+- "resume"
+- "retain"
+- "retainCount"
+- "saveRecordWithData:recordInfo:completion:"
+- "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
+- "screenTime"
+- "self"
+- "semanticModeIdentifier"
+- "setAllowsCellularAccess:"
+- "setBatteryMonitoringEnabled:"
+- "setBuyLabel:"
+- "setComputeUnits:"
+- "setDaemonVersion:"
+- "setDayOfWeek:"
+- "setDelegate:"
+- "setDiscretionary:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFeatureNames:"
+- "setLabel:"
+- "setLabelMessage:"
+- "setMaximumSignificantDigits:"
+- "setMinsUntilICloudBuy:"
+- "setMinsUntilICloudNotificationOpened:"
+- "setMinsUntilICloudOpenedSubStream:"
+- "setObject:forKeyedSubscript:"
+- "setOpenLabelSubStream:"
+- "setRemoteObjectInterface:"
+- "setRequiresPowerPluggedIn:"
+- "setSystemTimerCallback"
+- "setTimestampMillis:"
+- "setTolerance:"
+- "setTrafficType:"
+- "setUserTier:"
+- "setUsesSignificantDigits:"
+- "setValue:forKey:"
+- "shadowModeModelProvider"
+- "shadowModeModels"
+- "shape"
+- "sharedInstance"
+- "sink"
+- "sinkWithCompletion:receiveInput:"
+- "skipLogMessageForTesting"
+- "skipPublishMetrics"
+- "sleepModeState"
+- "sleepModeStream"
+- "startCatalogDownload:options:then:"
+- "startDownload:then:"
+- "starting"
+- "state"
+- "stateManager"
+- "stopwatch"
+- "store"
+- "storeOperators"
+- "stringFromNumber:"
+- "stringValue"
+- "stringWithFormat:"
+- "superclass"
+- "supportsSecureCoding"
+- "threadID"
+- "timestamp"
+- "title"
+- "totalQuota"
+- "trafficType"
+- "trialSet"
+- "type"
+- "uniqueID"
+- "usageType"
+- "userFocusComputedMode"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"BPSCompletion\"8"
+- "v16@?0@\"ISOXpcSubscriptionClientResponse\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@8"
+- "v16@?0q8"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSUUID\"8@\"NSError\"16"
+- "v32@0:8@\"ISOXpcSubscriptionClientRequest\"16@?<v@?@\"ISOXpcSubscriptionClientResponse\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v40@?0@\"NSArray\"8@\"NSDictionary\"16@\"NSArray\"24@\"NSError\"32"
+- "value"
+- "valueForEntitlement:"
+- "xpcServer"
+- "xpcService"
+- "zone"
+
+```

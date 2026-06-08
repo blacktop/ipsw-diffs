@@ -1,0 +1,1378 @@
+## SoundBoardServices
+
+> `/System/Library/PrivateFrameworks/SoundBoardServices.framework/SoundBoardServices`
+
+```diff
+
+-830.50.4.0.0
+-  __TEXT.__text: 0x1394c
+-  __TEXT.__auth_stubs: 0x3f0
+-  __TEXT.__objc_methlist: 0x1dfc
++912.0.0.0.0
++  __TEXT.__text: 0x8190
++  __TEXT.__objc_methlist: 0x15dc
+   __TEXT.__const: 0xb8
+-  __TEXT.__cstring: 0x1181
++  __TEXT.__cstring: 0x441
+   __TEXT.__constg_swiftt: 0x2c
+   __TEXT.__swift5_typeref: 0x6
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x4
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__gcc_except_tab: 0x718
+-  __TEXT.__oslogstring: 0xa31
+-  __TEXT.__unwind_info: 0x8f0
+-  __TEXT.__objc_classname: 0x2e9
+-  __TEXT.__objc_methname: 0x2dd4
+-  __TEXT.__objc_methtype: 0x7b8
+-  __TEXT.__objc_stubs: 0x27e0
+-  __DATA_CONST.__got: 0x108
+-  __DATA_CONST.__const: 0x4a0
+-  __DATA_CONST.__objc_classlist: 0x90
++  __TEXT.__gcc_except_tab: 0x214
++  __TEXT.__oslogstring: 0x955
++  __TEXT.__unwind_info: 0x368
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1e8
++  __DATA_CONST.__objc_classlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xca0
++  __DATA_CONST.__objc_selrefs: 0x900
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x80
+-  __AUTH_CONST.__auth_got: 0x208
+-  __AUTH_CONST.__const: 0x500
+-  __AUTH_CONST.__cfstring: 0x1160
+-  __AUTH_CONST.__objc_const: 0x1d78
+-  __AUTH.__objc_data: 0x4b0
+-  __DATA.__objc_ivar: 0xe0
++  __DATA_CONST.__objc_superrefs: 0x70
++  __DATA_CONST.__got: 0xd8
++  __AUTH_CONST.__const: 0xa0
++  __AUTH_CONST.__cfstring: 0x700
++  __AUTH_CONST.__objc_const: 0x1a78
++  __AUTH_CONST.__auth_got: 0x1f0
++  __AUTH.__objc_data: 0x410
++  __DATA.__objc_ivar: 0xc8
+   __DATA.__data: 0x6c8
+   __DATA.__bss: 0xa0
+   __DATA_DIRTY.__objc_data: 0xf0
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 0D048BFC-F457-3FB5-AE5E-4810B63B131E
+-  Functions: 599
+-  Symbols:   2072
+-  CStrings:  986
++  UUID: DE2E5680-0860-3A5A-84BF-845A3055EFE3
++  Functions: 321
++  Symbols:   1239
++  CStrings:  178
+ 
+Symbols:
++ GCC_except_table195
++ GCC_except_table199
++ GCC_except_table200
++ GCC_except_table202
++ GCC_except_table203
++ GCC_except_table257
++ GCC_except_table258
++ ___block_literal_global.427
++ ___block_literal_global.731
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x26
++ _objc_retain_x28
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x8
+- +[SBSUtils createProxyConnectionForRapportTarget:]
+- -[SBSDebugInterface initWithTarget:]
+- -[SBSHomePodControlsInterface initWithTarget:]
+- -[SBSProfiles initWithTarget:]
+- -[SBSProximityHandoffUI initWithTarget:]
+- -[SBSRemoteDeviceReceiver .cxx_destruct]
+- -[SBSRemoteDeviceReceiver _deregisterClearHomeSWUpdate]
+- -[SBSRemoteDeviceReceiver _deregisterDisassociateCurrentNetwork]
+- -[SBSRemoteDeviceReceiver _deregisterDisassociateNetworkWithName]
+- -[SBSRemoteDeviceReceiver _deregisterEverything]
+- -[SBSRemoteDeviceReceiver _deregisterGetAllDebugInfo]
+- -[SBSRemoteDeviceReceiver _deregisterGetFeatureFlags]
+- -[SBSRemoteDeviceReceiver _deregisterGetInstalledProfiles]
+- -[SBSRemoteDeviceReceiver _deregisterGetLEDInfo]
+- -[SBSRemoteDeviceReceiver _deregisterGetSelectDebugInfo]
+- -[SBSRemoteDeviceReceiver _deregisterGetTuningInfo]
+- -[SBSRemoteDeviceReceiver _deregisterGetUserDefaults]
+- -[SBSRemoteDeviceReceiver _deregisterGetVolume]
+- -[SBSRemoteDeviceReceiver _deregisterHandoffCancel]
+- -[SBSRemoteDeviceReceiver _deregisterHandoffComplete]
+- -[SBSRemoteDeviceReceiver _deregisterHandoffStartWithArtworkColors]
+- -[SBSRemoteDeviceReceiver _deregisterHandoffStart]
+- -[SBSRemoteDeviceReceiver _deregisterHandoffUpdateIntensity]
+- -[SBSRemoteDeviceReceiver _deregisterIdentifyWithOptions]
+- -[SBSRemoteDeviceReceiver _deregisterInjectSWUpdateToHome]
+- -[SBSRemoteDeviceReceiver _deregisterInstallProfileData]
+- -[SBSRemoteDeviceReceiver _deregisterIntercomWithOptions]
+- -[SBSRemoteDeviceReceiver _deregisterIsDeviceStereoFollower]
+- -[SBSRemoteDeviceReceiver _deregisterObliterate]
+- -[SBSRemoteDeviceReceiver _deregisterPlayTone]
+- -[SBSRemoteDeviceReceiver _deregisterReboot]
+- -[SBSRemoteDeviceReceiver _deregisterRemoveProfileByIdentifier]
+- -[SBSRemoteDeviceReceiver _deregisterRender]
+- -[SBSRemoteDeviceReceiver _deregisterRequestDeferredReboot]
+- -[SBSRemoteDeviceReceiver _deregisterRequestForFetchingAlarmsAndTimers]
+- -[SBSRemoteDeviceReceiver _deregisterResetAllUserDefaults]
+- -[SBSRemoteDeviceReceiver _deregisterResetUserDefault]
+- -[SBSRemoteDeviceReceiver _deregisterSUScanForSoftwareUpdate]
+- -[SBSRemoteDeviceReceiver _deregisterSendButtonCommand]
+- -[SBSRemoteDeviceReceiver _deregisterSendLEDCommand]
+- -[SBSRemoteDeviceReceiver _deregisterSetBootSpinner]
+- -[SBSRemoteDeviceReceiver _deregisterSetDeviceAsStereoLeader]
+- -[SBSRemoteDeviceReceiver _deregisterSetFeatureFlags]
+- -[SBSRemoteDeviceReceiver _deregisterSetHomeUpdateState]
+- -[SBSRemoteDeviceReceiver _deregisterSetLEDContents]
+- -[SBSRemoteDeviceReceiver _deregisterSetTuningInfoOnBox]
+- -[SBSRemoteDeviceReceiver _deregisterSetUserDefaults]
+- -[SBSRemoteDeviceReceiver _deregisterSetVolume]
+- -[SBSRemoteDeviceReceiver _deregisterSetWifiEnabled]
+- -[SBSRemoteDeviceReceiver _deregisterSiriSay]
+- -[SBSRemoteDeviceReceiver _deregisterStopTone]
+- -[SBSRemoteDeviceReceiver _deregisterSysdiagnoseHasStarted]
+- -[SBSRemoteDeviceReceiver _deregisterTriggerWiFiCoreCapture]
+- -[SBSRemoteDeviceReceiver _registerClearHomeSWUpdate]
+- -[SBSRemoteDeviceReceiver _registerDisassociateCurrentNetwork]
+- -[SBSRemoteDeviceReceiver _registerDisassociateNetworkWithName]
+- -[SBSRemoteDeviceReceiver _registerEverything]
+- -[SBSRemoteDeviceReceiver _registerGetAllDebugInfo]
+- -[SBSRemoteDeviceReceiver _registerGetFeatureFlags]
+- -[SBSRemoteDeviceReceiver _registerGetInstalledProfiles]
+- -[SBSRemoteDeviceReceiver _registerGetLEDInfo]
+- -[SBSRemoteDeviceReceiver _registerGetSelectDebugInfo]
+- -[SBSRemoteDeviceReceiver _registerGetTuningInfo]
+- -[SBSRemoteDeviceReceiver _registerGetUserDefaults]
+- -[SBSRemoteDeviceReceiver _registerGetVolume]
+- -[SBSRemoteDeviceReceiver _registerHandoffCancel]
+- -[SBSRemoteDeviceReceiver _registerHandoffComplete]
+- -[SBSRemoteDeviceReceiver _registerHandoffStartWithArtworkColors]
+- -[SBSRemoteDeviceReceiver _registerHandoffStart]
+- -[SBSRemoteDeviceReceiver _registerHandoffUpdateIntensity]
+- -[SBSRemoteDeviceReceiver _registerIdentifyWithOptions]
+- -[SBSRemoteDeviceReceiver _registerInjectSWUpdateToHome]
+- -[SBSRemoteDeviceReceiver _registerInstallProfileData]
+- -[SBSRemoteDeviceReceiver _registerIntercomWithOptions]
+- -[SBSRemoteDeviceReceiver _registerIsDeviceStereoFollower]
+- -[SBSRemoteDeviceReceiver _registerObliterate]
+- -[SBSRemoteDeviceReceiver _registerPlayTone]
+- -[SBSRemoteDeviceReceiver _registerReboot]
+- -[SBSRemoteDeviceReceiver _registerRemoveProfileByIdentifier]
+- -[SBSRemoteDeviceReceiver _registerRender]
+- -[SBSRemoteDeviceReceiver _registerRequestDeferredReboot]
+- -[SBSRemoteDeviceReceiver _registerRequestForFetchingAlarmsAndTimers]
+- -[SBSRemoteDeviceReceiver _registerResetAllUserDefaults]
+- -[SBSRemoteDeviceReceiver _registerResetUserDefault]
+- -[SBSRemoteDeviceReceiver _registerSUScanForSoftwareUpdate]
+- -[SBSRemoteDeviceReceiver _registerSendButtonCommand]
+- -[SBSRemoteDeviceReceiver _registerSendLEDCommand]
+- -[SBSRemoteDeviceReceiver _registerSetBootSpinner]
+- -[SBSRemoteDeviceReceiver _registerSetDeviceAsStereoLeader]
+- -[SBSRemoteDeviceReceiver _registerSetFeatureFlags]
+- -[SBSRemoteDeviceReceiver _registerSetHomeUpdateState]
+- -[SBSRemoteDeviceReceiver _registerSetLEDContents]
+- -[SBSRemoteDeviceReceiver _registerSetTuningInfoOnBox]
+- -[SBSRemoteDeviceReceiver _registerSetUserDefaults]
+- -[SBSRemoteDeviceReceiver _registerSetVolume]
+- -[SBSRemoteDeviceReceiver _registerSetWifiEnabled]
+- -[SBSRemoteDeviceReceiver _registerSiriSay]
+- -[SBSRemoteDeviceReceiver _registerStopTone]
+- -[SBSRemoteDeviceReceiver _registerSysdiagnoseHasStarted]
+- -[SBSRemoteDeviceReceiver _registerTriggerWiFiCoreCapture]
+- -[SBSRemoteDeviceReceiver client]
+- -[SBSRemoteDeviceReceiver dealloc]
+- -[SBSRemoteDeviceReceiver delegate]
+- -[SBSRemoteDeviceReceiver initWithDelegate:]
+- -[SBSRemoteDeviceReceiver setClient:]
+- -[SBSRemoteDeviceReceiver setDelegate:]
+- -[SBSRemoteDeviceSender .cxx_destruct]
+- -[SBSRemoteDeviceSender airDropSysdiagnose:airDropID:completionHandler:]
+- -[SBSRemoteDeviceSender clearHomeSWUpdate]
+- -[SBSRemoteDeviceSender client]
+- -[SBSRemoteDeviceSender createSysdiagnose:]
+- -[SBSRemoteDeviceSender destinationID]
+- -[SBSRemoteDeviceSender disassociateCurrentNetwork]
+- -[SBSRemoteDeviceSender disassociateNetworkWithName:]
+- -[SBSRemoteDeviceSender fetchLatestEvents:completionHandler:]
+- -[SBSRemoteDeviceSender fetchLatestSignposts:completionHandler:]
+- -[SBSRemoteDeviceSender getAllDebugInfo:]
+- -[SBSRemoteDeviceSender getAllSyncedAlarmsAndTimers:]
+- -[SBSRemoteDeviceSender getFeatureFlags:]
+- -[SBSRemoteDeviceSender getInstalledProfiles:]
+- -[SBSRemoteDeviceSender getLEDInfo:]
+- -[SBSRemoteDeviceSender getSelectDebugInfo:reply:]
+- -[SBSRemoteDeviceSender getTuningInfo:]
+- -[SBSRemoteDeviceSender getUserDefaults:]
+- -[SBSRemoteDeviceSender getVolume:]
+- -[SBSRemoteDeviceSender handoffCancelWithHandoffType:]
+- -[SBSRemoteDeviceSender handoffCompleteWithHandoffType:]
+- -[SBSRemoteDeviceSender handoffSetDeviceAsStereoLeader:withOptions:]
+- -[SBSRemoteDeviceSender handoffStartWithArtworkColors:handoffType:]
+- -[SBSRemoteDeviceSender handoffStartWithHandoffType:]
+- -[SBSRemoteDeviceSender handoffUpdateIntensity:handoffType:]
+- -[SBSRemoteDeviceSender identifyWithOptions:]
+- -[SBSRemoteDeviceSender initWithDevice:]
+- -[SBSRemoteDeviceSender injectSWUpdateToHome:]
+- -[SBSRemoteDeviceSender installProfileData:completion:]
+- -[SBSRemoteDeviceSender intercomWithOptions:]
+- -[SBSRemoteDeviceSender isDeviceStereoFollower:]
+- -[SBSRemoteDeviceSender isMediaAlarm:]
+- -[SBSRemoteDeviceSender obliterate:]
+- -[SBSRemoteDeviceSender playTone:]
+- -[SBSRemoteDeviceSender rapportQueue]
+- -[SBSRemoteDeviceSender reboot:]
+- -[SBSRemoteDeviceSender removeProfileByIdentifier:completion:]
+- -[SBSRemoteDeviceSender render:]
+- -[SBSRemoteDeviceSender requestDeferredReboot]
+- -[SBSRemoteDeviceSender resetAllUserDefaults]
+- -[SBSRemoteDeviceSender resetUserDefault:]
+- -[SBSRemoteDeviceSender sendButtonCommand:]
+- -[SBSRemoteDeviceSender sendLEDCommand:]
+- -[SBSRemoteDeviceSender setBootSpinner:]
+- -[SBSRemoteDeviceSender setClient:]
+- -[SBSRemoteDeviceSender setDestinationID:]
+- -[SBSRemoteDeviceSender setDeviceAsStereoLeader:withOptions:]
+- -[SBSRemoteDeviceSender setFeatureFlags:]
+- -[SBSRemoteDeviceSender setHomeUpdateState:]
+- -[SBSRemoteDeviceSender setLEDContents:]
+- -[SBSRemoteDeviceSender setRapportQueue:]
+- -[SBSRemoteDeviceSender setTuningInfoOnBox:at:withValue:]
+- -[SBSRemoteDeviceSender setTurnOffBrightnessFactor:]
+- -[SBSRemoteDeviceSender setUserDefaults:withValue:]
+- -[SBSRemoteDeviceSender setVolume:]
+- -[SBSRemoteDeviceSender setWifiEnabled:]
+- -[SBSRemoteDeviceSender siriSay:]
+- -[SBSRemoteDeviceSender stopTone:]
+- -[SBSRemoteDeviceSender suScanForSoftwareUpdate]
+- -[SBSRemoteDeviceSender sysdiagnoseHasStarted:]
+- -[SBSRemoteDeviceSender triggerWiFiCoreCapture:]
+- -[SBSStereoLeaderInterface initWithTarget:]
+- -[SBSSysdiagnoseInterface initWithTarget:]
+- -[SBSSystemInterface initWithTarget:]
+- -[SBSVolumeEventMonitor initWithTarget:]
+- GCC_except_table205
+- GCC_except_table206
+- GCC_except_table207
+- GCC_except_table208
+- GCC_except_table209
+- GCC_except_table263
+- GCC_except_table264
+- GCC_except_table429
+- GCC_except_table432
+- GCC_except_table435
+- GCC_except_table438
+- GCC_except_table441
+- GCC_except_table444
+- GCC_except_table448
+- GCC_except_table452
+- GCC_except_table456
+- GCC_except_table460
+- GCC_except_table463
+- GCC_except_table466
+- GCC_except_table469
+- GCC_except_table472
+- GCC_except_table475
+- GCC_except_table478
+- GCC_except_table482
+- GCC_except_table485
+- GCC_except_table488
+- GCC_except_table492
+- GCC_except_table495
+- GCC_except_table498
+- GCC_except_table501
+- GCC_except_table504
+- GCC_except_table508
+- GCC_except_table511
+- GCC_except_table514
+- GCC_except_table517
+- GCC_except_table520
+- GCC_except_table523
+- GCC_except_table526
+- GCC_except_table529
+- GCC_except_table532
+- GCC_except_table535
+- GCC_except_table538
+- GCC_except_table541
+- GCC_except_table544
+- GCC_except_table547
+- GCC_except_table550
+- GCC_except_table554
+- GCC_except_table557
+- GCC_except_table560
+- GCC_except_table563
+- GCC_except_table567
+- GCC_except_table571
+- GCC_except_table575
+- _NSLog
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_RPCompanionLinkClient
+- _OBJC_CLASS_$_SBSRemoteDeviceReceiver
+- _OBJC_CLASS_$_SBSRemoteDeviceSender
+- _OBJC_IVAR_$_SBSRemoteDeviceReceiver._client
+- _OBJC_IVAR_$_SBSRemoteDeviceReceiver._delegate
+- _OBJC_IVAR_$_SBSRemoteDeviceSender._client
+- _OBJC_IVAR_$_SBSRemoteDeviceSender._destinationID
+- _OBJC_IVAR_$_SBSRemoteDeviceSender._rapportQueue
+- _OBJC_IVAR_$_SBSServer._receiver
+- _OBJC_METACLASS_$_SBSRemoteDeviceReceiver
+- _OBJC_METACLASS_$_SBSRemoteDeviceSender
+- __OBJC_$_INSTANCE_METHODS_SBSRemoteDeviceReceiver
+- __OBJC_$_INSTANCE_METHODS_SBSRemoteDeviceSender
+- __OBJC_$_INSTANCE_VARIABLES_SBSRemoteDeviceReceiver
+- __OBJC_$_INSTANCE_VARIABLES_SBSRemoteDeviceSender
+- __OBJC_$_PROP_LIST_SBSRemoteDeviceReceiver
+- __OBJC_$_PROP_LIST_SBSRemoteDeviceSender
+- __OBJC_CLASS_PROTOCOLS_$_SBSProximityHandoffUI
+- __OBJC_CLASS_PROTOCOLS_$_SBSRemoteDeviceSender
+- __OBJC_CLASS_RO_$_SBSRemoteDeviceReceiver
+- __OBJC_CLASS_RO_$_SBSRemoteDeviceSender
+- __OBJC_METACLASS_RO_$_SBSRemoteDeviceReceiver
+- __OBJC_METACLASS_RO_$_SBSRemoteDeviceSender
+- ___32-[SBSRemoteDeviceSender reboot:]_block_invoke
+- ___32-[SBSRemoteDeviceSender render:]_block_invoke
+- ___33-[SBSRemoteDeviceSender siriSay:]_block_invoke
+- ___34-[SBSRemoteDeviceSender playTone:]_block_invoke
+- ___34-[SBSRemoteDeviceSender stopTone:]_block_invoke
+- ___35-[SBSRemoteDeviceSender getVolume:]_block_invoke
+- ___35-[SBSRemoteDeviceSender setVolume:]_block_invoke
+- ___36-[SBSRemoteDeviceSender getLEDInfo:]_block_invoke
+- ___36-[SBSRemoteDeviceSender obliterate:]_block_invoke
+- ___39-[SBSRemoteDeviceSender getTuningInfo:]_block_invoke
+- ___40-[SBSRemoteDeviceSender initWithDevice:]_block_invoke
+- ___40-[SBSRemoteDeviceSender sendLEDCommand:]_block_invoke
+- ___40-[SBSRemoteDeviceSender setBootSpinner:]_block_invoke
+- ___40-[SBSRemoteDeviceSender setLEDContents:]_block_invoke
+- ___40-[SBSRemoteDeviceSender setWifiEnabled:]_block_invoke
+- ___41-[SBSRemoteDeviceSender getAllDebugInfo:]_block_invoke
+- ___41-[SBSRemoteDeviceSender getFeatureFlags:]_block_invoke
+- ___41-[SBSRemoteDeviceSender getUserDefaults:]_block_invoke
+- ___41-[SBSRemoteDeviceSender setFeatureFlags:]_block_invoke
+- ___42-[SBSRemoteDeviceReceiver _registerReboot]_block_invoke
+- ___42-[SBSRemoteDeviceReceiver _registerRender]_block_invoke
+- ___42-[SBSRemoteDeviceSender clearHomeSWUpdate]_block_invoke
+- ___42-[SBSRemoteDeviceSender resetUserDefault:]_block_invoke
+- ___43-[SBSRemoteDeviceReceiver _registerSiriSay]_block_invoke
+- ___43-[SBSRemoteDeviceSender sendButtonCommand:]_block_invoke
+- ___44-[SBSRemoteDeviceReceiver _registerPlayTone]_block_invoke
+- ___44-[SBSRemoteDeviceReceiver _registerStopTone]_block_invoke
+- ___44-[SBSRemoteDeviceReceiver initWithDelegate:]_block_invoke
+- ___44-[SBSRemoteDeviceSender setHomeUpdateState:]_block_invoke
+- ___45-[SBSRemoteDeviceReceiver _registerGetVolume]_block_invoke
+- ___45-[SBSRemoteDeviceReceiver _registerGetVolume]_block_invoke_2
+- ___45-[SBSRemoteDeviceReceiver _registerSetVolume]_block_invoke
+- ___45-[SBSRemoteDeviceSender identifyWithOptions:]_block_invoke
+- ___45-[SBSRemoteDeviceSender intercomWithOptions:]_block_invoke
+- ___45-[SBSRemoteDeviceSender resetAllUserDefaults]_block_invoke
+- ___46-[SBSRemoteDeviceReceiver _registerGetLEDInfo]_block_invoke
+- ___46-[SBSRemoteDeviceReceiver _registerGetLEDInfo]_block_invoke_2
+- ___46-[SBSRemoteDeviceReceiver _registerObliterate]_block_invoke
+- ___46-[SBSRemoteDeviceSender getInstalledProfiles:]_block_invoke
+- ___46-[SBSRemoteDeviceSender injectSWUpdateToHome:]_block_invoke
+- ___46-[SBSRemoteDeviceSender requestDeferredReboot]_block_invoke
+- ___47-[SBSRemoteDeviceSender sysdiagnoseHasStarted:]_block_invoke
+- ___48-[SBSRemoteDeviceReceiver _registerHandoffStart]_block_invoke
+- ___48-[SBSRemoteDeviceSender isDeviceStereoFollower:]_block_invoke
+- ___48-[SBSRemoteDeviceSender suScanForSoftwareUpdate]_block_invoke
+- ___48-[SBSRemoteDeviceSender triggerWiFiCoreCapture:]_block_invoke
+- ___49-[SBSRemoteDeviceReceiver _registerGetTuningInfo]_block_invoke
+- ___49-[SBSRemoteDeviceReceiver _registerGetTuningInfo]_block_invoke_2
+- ___49-[SBSRemoteDeviceReceiver _registerHandoffCancel]_block_invoke
+- ___50-[SBSRemoteDeviceReceiver _registerSendLEDCommand]_block_invoke
+- ___50-[SBSRemoteDeviceReceiver _registerSetBootSpinner]_block_invoke
+- ___50-[SBSRemoteDeviceReceiver _registerSetLEDContents]_block_invoke
+- ___50-[SBSRemoteDeviceReceiver _registerSetWifiEnabled]_block_invoke
+- ___50-[SBSRemoteDeviceSender getSelectDebugInfo:reply:]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerGetAllDebugInfo]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerGetAllDebugInfo]_block_invoke_2
+- ___51-[SBSRemoteDeviceReceiver _registerGetFeatureFlags]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerGetFeatureFlags]_block_invoke_2
+- ___51-[SBSRemoteDeviceReceiver _registerGetUserDefaults]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerGetUserDefaults]_block_invoke_2
+- ___51-[SBSRemoteDeviceReceiver _registerHandoffComplete]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerSetFeatureFlags]_block_invoke
+- ___51-[SBSRemoteDeviceReceiver _registerSetUserDefaults]_block_invoke
+- ___51-[SBSRemoteDeviceSender disassociateCurrentNetwork]_block_invoke
+- ___51-[SBSRemoteDeviceSender setUserDefaults:withValue:]_block_invoke
+- ___52-[SBSRemoteDeviceReceiver _registerResetUserDefault]_block_invoke
+- ___53-[SBSRemoteDeviceReceiver _registerClearHomeSWUpdate]_block_invoke
+- ___53-[SBSRemoteDeviceReceiver _registerSendButtonCommand]_block_invoke
+- ___53-[SBSRemoteDeviceSender disassociateNetworkWithName:]_block_invoke
+- ___53-[SBSRemoteDeviceSender getAllSyncedAlarmsAndTimers:]_block_invoke
+- ___53-[SBSRemoteDeviceSender handoffStartWithHandoffType:]_block_invoke
+- ___54-[SBSRemoteDeviceReceiver _registerGetSelectDebugInfo]_block_invoke
+- ___54-[SBSRemoteDeviceReceiver _registerGetSelectDebugInfo]_block_invoke_2
+- ___54-[SBSRemoteDeviceReceiver _registerInstallProfileData]_block_invoke
+- ___54-[SBSRemoteDeviceReceiver _registerInstallProfileData]_block_invoke_2
+- ___54-[SBSRemoteDeviceReceiver _registerSetHomeUpdateState]_block_invoke
+- ___54-[SBSRemoteDeviceReceiver _registerSetTuningInfoOnBox]_block_invoke
+- ___54-[SBSRemoteDeviceSender handoffCancelWithHandoffType:]_block_invoke
+- ___55-[SBSRemoteDeviceReceiver _registerIdentifyWithOptions]_block_invoke
+- ___55-[SBSRemoteDeviceReceiver _registerIntercomWithOptions]_block_invoke
+- ___55-[SBSRemoteDeviceSender installProfileData:completion:]_block_invoke
+- ___56-[SBSRemoteDeviceReceiver _registerGetInstalledProfiles]_block_invoke
+- ___56-[SBSRemoteDeviceReceiver _registerGetInstalledProfiles]_block_invoke_2
+- ___56-[SBSRemoteDeviceReceiver _registerInjectSWUpdateToHome]_block_invoke
+- ___56-[SBSRemoteDeviceReceiver _registerResetAllUserDefaults]_block_invoke
+- ___56-[SBSRemoteDeviceSender handoffCompleteWithHandoffType:]_block_invoke
+- ___57-[SBSRemoteDeviceReceiver _registerRequestDeferredReboot]_block_invoke
+- ___57-[SBSRemoteDeviceReceiver _registerSysdiagnoseHasStarted]_block_invoke
+- ___57-[SBSRemoteDeviceSender setTuningInfoOnBox:at:withValue:]_block_invoke
+- ___58-[SBSRemoteDeviceReceiver _registerHandoffUpdateIntensity]_block_invoke
+- ___58-[SBSRemoteDeviceReceiver _registerIsDeviceStereoFollower]_block_invoke
+- ___58-[SBSRemoteDeviceReceiver _registerIsDeviceStereoFollower]_block_invoke_2
+- ___58-[SBSRemoteDeviceReceiver _registerTriggerWiFiCoreCapture]_block_invoke
+- ___59-[SBSRemoteDeviceReceiver _registerSUScanForSoftwareUpdate]_block_invoke
+- ___59-[SBSRemoteDeviceReceiver _registerSetDeviceAsStereoLeader]_block_invoke
+- ___60-[SBSRemoteDeviceSender handoffUpdateIntensity:handoffType:]_block_invoke
+- ___61-[SBSRemoteDeviceReceiver _registerRemoveProfileByIdentifier]_block_invoke
+- ___61-[SBSRemoteDeviceReceiver _registerRemoveProfileByIdentifier]_block_invoke_2
+- ___61-[SBSRemoteDeviceSender setDeviceAsStereoLeader:withOptions:]_block_invoke
+- ___62-[SBSRemoteDeviceReceiver _registerDisassociateCurrentNetwork]_block_invoke
+- ___62-[SBSRemoteDeviceSender removeProfileByIdentifier:completion:]_block_invoke
+- ___63-[SBSRemoteDeviceReceiver _registerDisassociateNetworkWithName]_block_invoke
+- ___65-[SBSRemoteDeviceReceiver _registerHandoffStartWithArtworkColors]_block_invoke
+- ___67-[SBSRemoteDeviceSender handoffStartWithArtworkColors:handoffType:]_block_invoke
+- ___69-[SBSRemoteDeviceReceiver _registerRequestForFetchingAlarmsAndTimers]_block_invoke
+- ___69-[SBSRemoteDeviceReceiver _registerRequestForFetchingAlarmsAndTimers]_block_invoke_2
+- ___NSArray0__struct
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e51_v32?0"NSDictionary"8"NSDictionary"16"NSError"24l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32bs_e22_v16?0"NSDictionary"8ls32l8
+- ___block_descriptor_40_e8_32bs_e51_v32?0"NSDictionary"8"NSDictionary"16"NSError"24ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0f8ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32w_e88_v32?0"NSDictionary"8"NSDictionary"16?<v?"NSDictionary""NSDictionary""NSError">24lw32l8
+- ___block_literal_global.107
+- ___block_literal_global.1127
+- ___block_literal_global.115
+- ___block_literal_global.123
+- ___block_literal_global.137
+- ___block_literal_global.145
+- ___block_literal_global.151
+- ___block_literal_global.153
+- ___block_literal_global.155
+- ___block_literal_global.157
+- ___block_literal_global.159
+- ___block_literal_global.28
+- ___block_literal_global.30
+- ___block_literal_global.35
+- ___block_literal_global.37
+- ___block_literal_global.39
+- ___block_literal_global.41
+- ___block_literal_global.43
+- ___block_literal_global.45
+- ___block_literal_global.47
+- ___block_literal_global.52
+- ___block_literal_global.539
+- ___block_literal_global.54
+- ___block_literal_global.56
+- ___block_literal_global.58
+- ___block_literal_global.60
+- ___block_literal_global.62
+- ___block_literal_global.67
+- ___block_literal_global.72
+- ___block_literal_global.77
+- ___block_literal_global.79
+- ___block_literal_global.84
+- ___block_literal_global.86
+- ___block_literal_global.860
+- ___block_literal_global.91
+- ___block_literal_global.99
+- ___block_literal_global.994
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_wait
+- _dispatch_queue_attr_make_with_qos_class
+- _dispatch_queue_create
+- _dispatch_time
+- _kSBSDebugInfoClearHomeSWUpdate
+- _kSBSDebugInfoDisassociateCurrentNetwork
+- _kSBSDebugInfoDisassociateNetworkWithName
+- _kSBSDebugInfoGetAllDebugInfo
+- _kSBSDebugInfoGetFeatureFlags
+- _kSBSDebugInfoGetLEDInfo
+- _kSBSDebugInfoGetSelectDebugInfo
+- _kSBSDebugInfoGetTuningInfo
+- _kSBSDebugInfoGetUserDefaults
+- _kSBSDebugInfoGetVolume
+- _kSBSDebugInfoInjectSWUpdateToHome
+- _kSBSDebugInfoPlayTone
+- _kSBSDebugInfoRender
+- _kSBSDebugInfoResetAllUserDefaults
+- _kSBSDebugInfoResetUserDefault
+- _kSBSDebugInfoSUScanForSoftwareUpdate
+- _kSBSDebugInfoSendButtonCommand
+- _kSBSDebugInfoSendLEDCommand
+- _kSBSDebugInfoSetBootSpinner
+- _kSBSDebugInfoSetFeatureFlags
+- _kSBSDebugInfoSetHomeUpdateState
+- _kSBSDebugInfoSetLEDContents
+- _kSBSDebugInfoSetTuningInfoOnBox
+- _kSBSDebugInfoSetUserDefaults
+- _kSBSDebugInfoSetVolume
+- _kSBSDebugInfoSetWifiEnabled
+- _kSBSDebugInfoSiriSay
+- _kSBSDebugInfoStopTone
+- _kSBSDebugInfoTriggerWiFiCoreCapture
+- _kSBSProfilesGetInstalledProfiles
+- _kSBSProfilesInstallProfileData
+- _kSBSProfilesRemoveProfileByIdentifier
+- _kSBSProximityHandoffUICancelKey
+- _kSBSProximityHandoffUICompleteKey
+- _kSBSProximityHandoffUIRequestArtworkColorsKey
+- _kSBSProximityHandoffUIRequestHandoffTypeKey
+- _kSBSProximityHandoffUIRequestIntensityKey
+- _kSBSProximityHandoffUIStartKey
+- _kSBSProximityHandoffUIStartWithArtworkColorsKey
+- _kSBSProximityHandoffUIUpdateIntensityKey
+- _kSBSStereoLeaderRoleIsDeviceStereoFollower
+- _kSBSStereoLeaderRoleSetDeviceAsStereoLeader
+- _kSBSSysdiagnoseSysdiagnoseHasStarted
+- _kSBSSystemIdentify
+- _kSBSSystemIntercom
+- _kSBSSystemObliterate
+- _kSBSSystemReboot
+- _kSBSSystemRequestDeferredReboot
+- _kSBSSystemRequestFetchAlarmsAndTimers
+- _kdebug_trace
+- _objc_msgSend$_deregisterClearHomeSWUpdate
+- _objc_msgSend$_deregisterDisassociateCurrentNetwork
+- _objc_msgSend$_deregisterDisassociateNetworkWithName
+- _objc_msgSend$_deregisterEverything
+- _objc_msgSend$_deregisterGetAllDebugInfo
+- _objc_msgSend$_deregisterGetFeatureFlags
+- _objc_msgSend$_deregisterGetInstalledProfiles
+- _objc_msgSend$_deregisterGetLEDInfo
+- _objc_msgSend$_deregisterGetSelectDebugInfo
+- _objc_msgSend$_deregisterGetTuningInfo
+- _objc_msgSend$_deregisterGetUserDefaults
+- _objc_msgSend$_deregisterGetVolume
+- _objc_msgSend$_deregisterHandoffCancel
+- _objc_msgSend$_deregisterHandoffComplete
+- _objc_msgSend$_deregisterHandoffStart
+- _objc_msgSend$_deregisterHandoffStartWithArtworkColors
+- _objc_msgSend$_deregisterHandoffUpdateIntensity
+- _objc_msgSend$_deregisterIdentifyWithOptions
+- _objc_msgSend$_deregisterInjectSWUpdateToHome
+- _objc_msgSend$_deregisterInstallProfileData
+- _objc_msgSend$_deregisterIntercomWithOptions
+- _objc_msgSend$_deregisterIsDeviceStereoFollower
+- _objc_msgSend$_deregisterObliterate
+- _objc_msgSend$_deregisterPlayTone
+- _objc_msgSend$_deregisterReboot
+- _objc_msgSend$_deregisterRemoveProfileByIdentifier
+- _objc_msgSend$_deregisterRender
+- _objc_msgSend$_deregisterRequestDeferredReboot
+- _objc_msgSend$_deregisterRequestForFetchingAlarmsAndTimers
+- _objc_msgSend$_deregisterResetAllUserDefaults
+- _objc_msgSend$_deregisterResetUserDefault
+- _objc_msgSend$_deregisterSUScanForSoftwareUpdate
+- _objc_msgSend$_deregisterSendButtonCommand
+- _objc_msgSend$_deregisterSendLEDCommand
+- _objc_msgSend$_deregisterSetBootSpinner
+- _objc_msgSend$_deregisterSetDeviceAsStereoLeader
+- _objc_msgSend$_deregisterSetFeatureFlags
+- _objc_msgSend$_deregisterSetHomeUpdateState
+- _objc_msgSend$_deregisterSetLEDContents
+- _objc_msgSend$_deregisterSetTuningInfoOnBox
+- _objc_msgSend$_deregisterSetUserDefaults
+- _objc_msgSend$_deregisterSetVolume
+- _objc_msgSend$_deregisterSetWifiEnabled
+- _objc_msgSend$_deregisterSiriSay
+- _objc_msgSend$_deregisterStopTone
+- _objc_msgSend$_deregisterSysdiagnoseHasStarted
+- _objc_msgSend$_deregisterTriggerWiFiCoreCapture
+- _objc_msgSend$_isInternalBuild
+- _objc_msgSend$_registerClearHomeSWUpdate
+- _objc_msgSend$_registerDisassociateCurrentNetwork
+- _objc_msgSend$_registerDisassociateNetworkWithName
+- _objc_msgSend$_registerEverything
+- _objc_msgSend$_registerGetAllDebugInfo
+- _objc_msgSend$_registerGetFeatureFlags
+- _objc_msgSend$_registerGetInstalledProfiles
+- _objc_msgSend$_registerGetLEDInfo
+- _objc_msgSend$_registerGetSelectDebugInfo
+- _objc_msgSend$_registerGetTuningInfo
+- _objc_msgSend$_registerGetUserDefaults
+- _objc_msgSend$_registerGetVolume
+- _objc_msgSend$_registerHandoffCancel
+- _objc_msgSend$_registerHandoffComplete
+- _objc_msgSend$_registerHandoffStart
+- _objc_msgSend$_registerHandoffStartWithArtworkColors
+- _objc_msgSend$_registerHandoffUpdateIntensity
+- _objc_msgSend$_registerIdentifyWithOptions
+- _objc_msgSend$_registerInjectSWUpdateToHome
+- _objc_msgSend$_registerInstallProfileData
+- _objc_msgSend$_registerIntercomWithOptions
+- _objc_msgSend$_registerIsDeviceStereoFollower
+- _objc_msgSend$_registerObliterate
+- _objc_msgSend$_registerPlayTone
+- _objc_msgSend$_registerReboot
+- _objc_msgSend$_registerRemoveProfileByIdentifier
+- _objc_msgSend$_registerRender
+- _objc_msgSend$_registerRequestDeferredReboot
+- _objc_msgSend$_registerRequestForFetchingAlarmsAndTimers
+- _objc_msgSend$_registerResetAllUserDefaults
+- _objc_msgSend$_registerResetUserDefault
+- _objc_msgSend$_registerSUScanForSoftwareUpdate
+- _objc_msgSend$_registerSendButtonCommand
+- _objc_msgSend$_registerSendLEDCommand
+- _objc_msgSend$_registerSetBootSpinner
+- _objc_msgSend$_registerSetDeviceAsStereoLeader
+- _objc_msgSend$_registerSetFeatureFlags
+- _objc_msgSend$_registerSetHomeUpdateState
+- _objc_msgSend$_registerSetLEDContents
+- _objc_msgSend$_registerSetTuningInfoOnBox
+- _objc_msgSend$_registerSetUserDefaults
+- _objc_msgSend$_registerSetVolume
+- _objc_msgSend$_registerSetWifiEnabled
+- _objc_msgSend$_registerSiriSay
+- _objc_msgSend$_registerStopTone
+- _objc_msgSend$_registerSysdiagnoseHasStarted
+- _objc_msgSend$_registerTriggerWiFiCoreCapture
+- _objc_msgSend$activateWithCompletion:
+- _objc_msgSend$client
+- _objc_msgSend$createProxyConnectionForRapportTarget:
+- _objc_msgSend$deregisterRequestID:
+- _objc_msgSend$destinationID
+- _objc_msgSend$floatValue
+- _objc_msgSend$initWithDelegate:
+- _objc_msgSend$initWithDevice:
+- _objc_msgSend$initWithTarget:
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$rapportQueue
+- _objc_msgSend$registerRequestID:options:handler:
+- _objc_msgSend$sendRequestID:request:destinationID:options:responseHandler:
+- _objc_msgSend$setControlFlags:
+- _objc_msgSend$setDispatchQueue:
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x25
+CStrings:
++ "9"
+- "#16@0:8"
+- "%s is not supported."
+- "%s: Error activating companion link client '%@'"
+- "%s: companion link client activated succcessfully"
+- "%s: companion link client start"
+- "-[SBSRemoteDeviceReceiver initWithDelegate:]"
+- "-[SBSRemoteDeviceReceiver initWithDelegate:]_block_invoke"
+- "-[SBSRemoteDeviceSender fetchLatestSignposts:completionHandler:]"
+- ".cxx_destruct"
+- "@\"<SBSAirDropServiceImplementer>\""
+- "@\"<SBSDebugInfoImplementer>\""
+- "@\"<SBSHomePodControlsImplementer>\""
+- "@\"<SBSImplementer>\""
+- "@\"<SBSImplementerInternal>\""
+- "@\"<SBSProfilesImplementer>\""
+- "@\"<SBSProximityHandoffUIDelegate>\""
+- "@\"<SBSProximityHandoffUIImplementer>\""
+- "@\"<SBSStereoLeaderRoleImplementer>\""
+- "@\"<SBSSysdiagnoseImplementer>\""
+- "@\"<SBSSystemImplementer>\""
+- "@\"<SBSVolumeEventMonitorImplementer>\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_queue>\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@\"NSXPCListener\""
+- "@\"RPCompanionLinkClient\""
+- "@\"SBSColor\""
+- "@\"SBSRemoteDeviceReceiver\""
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@28@0:8@16B24"
+- "@28@0:8f16f20f24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@44@0:8@16@24@32B40"
+- "@48@0:8@16@24@32@40"
+- "@60@0:8@16@24@32@40@48B56"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "Error activating companion link client '%@'"
+- "Error sending ProximityHandoffUIStart request to companion link client '%@'"
+- "Error sending ProximityHandoffUIStartWithArtworkColors request to companion link client '%@'"
+- "Error sending ProximityHandoffUIUpdateIntensity request to companion link client '%@'"
+- "Error sending kSBSProximityHandoffUICancelKey request to companion link client '%@'"
+- "Error sending kSBSProximityHandoffUICompleteKey request to companion link client '%@'"
+- "Error sending request companion link client '%@'"
+- "Failed to receive role from companion link client '%@'"
+- "I"
+- "Internal"
+- "LEDContents"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "ProximityHandoffUIStart sent successfully"
+- "ProximityHandoffUIStartWithArtworkColors sent successfully"
+- "ProximityHandoffUIUpdateIntensity sent successfully"
+- "Q"
+- "Q16@0:8"
+- "SBSAirDropServiceImplementer"
+- "SBSCaller"
+- "SBSClient"
+- "SBSColor"
+- "SBSColorGroup"
+- "SBSDebugInfoImplementer"
+- "SBSDebugInterface"
+- "SBSDefaultInfo"
+- "SBSDispatch"
+- "SBSDispatchProtocol"
+- "SBSFeatureFlag"
+- "SBSHomePodControlsImplementer"
+- "SBSHomePodControlsInterface"
+- "SBSImplementer"
+- "SBSImplementerInternal"
+- "SBSProfiles"
+- "SBSProfilesImplementer"
+- "SBSProximityHandoffUI"
+- "SBSProximityHandoffUICallerDelegate"
+- "SBSProximityHandoffUIImplementer"
+- "SBSRemoteDeviceReceiver"
+- "SBSRemoteDeviceSender"
+- "SBSServer"
+- "SBSStereoLeaderInterface"
+- "SBSStereoLeaderRoleImplementer"
+- "SBSSysdiagnoseImplementer"
+- "SBSSysdiagnoseInterface"
+- "SBSSystemImplementer"
+- "SBSSystemInterface"
+- "SBSUtils"
+- "SBSVolumeEventMonitor"
+- "SBSVolumeEventMonitorImplementer"
+- "T#,R"
+- "T@\"<SBSAirDropServiceImplementer>\",W,N,V_airdropServiceDelegate"
+- "T@\"<SBSDebugInfoImplementer>\",W,N,V_debugInfoDelegate"
+- "T@\"<SBSHomePodControlsImplementer>\",W,N,V_controlsDelegate"
+- "T@\"<SBSImplementer>\",R,N,V_sbProxy"
+- "T@\"<SBSImplementerInternal>\",W,N,V_delegate"
+- "T@\"<SBSProfilesImplementer>\",W,N,V_profilesDelegate"
+- "T@\"<SBSProximityHandoffUIDelegate>\",W,N,V_delegate"
+- "T@\"<SBSProximityHandoffUIImplementer>\",W,N,V_proximityHandoffUIDelegate"
+- "T@\"<SBSStereoLeaderRoleImplementer>\",W,N,V_stereoLeaderDelegate"
+- "T@\"<SBSSysdiagnoseImplementer>\",W,N,V_sysdiagnoseDelegate"
+- "T@\"<SBSSystemImplementer>\",W,N,V_systemDelegate"
+- "T@\"<SBSVolumeEventMonitorImplementer>\",R,V_sbProxy"
+- "T@\"<SBSVolumeEventMonitorImplementer>\",W,N,V_volumeEventMonitorDelegate"
+- "T@\"NSData\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",C,N,V_value"
+- "T@\"NSNumber\",R,V_rangeMax"
+- "T@\"NSNumber\",R,V_rangeMin"
+- "T@\"NSObject\",R,V_defaultValue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,V_rapportQueue"
+- "T@\"NSString\",&,V_destinationID"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_domain"
+- "T@\"NSString\",C,N,V_feature"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,V_stringForUserDefault"
+- "T@\"NSString\",R,V_userDescription"
+- "T@\"NSXPCConnection\",&,N,V_connection"
+- "T@\"NSXPCConnection\",&,V_sbConnection"
+- "T@\"NSXPCConnection\",R,N,V_sbConnection"
+- "T@\"RPCompanionLinkClient\",&,V_client"
+- "T@\"SBSColor\",R,N,V_background"
+- "T@\"SBSColor\",R,N,V_primaryText"
+- "T@\"SBSColor\",R,N,V_secondaryText"
+- "TB,R"
+- "TB,R,V_isBool"
+- "TB,R,V_isDouble"
+- "TB,R,V_requiresReinit"
+- "TQ,N,V_clientType"
+- "TQ,N,V_defaultType"
+- "TQ,R"
+- "Tf,R,N,V_blueComponent"
+- "Tf,R,N,V_greenComponent"
+- "Tf,R,N,V_redComponent"
+- "User Notification Mix"
+- "User Notification No Mix"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_airdropServiceDelegate"
+- "_background"
+- "_blueComponent"
+- "_client"
+- "_clientType"
+- "_clients"
+- "_connection"
+- "_controlsDelegate"
+- "_debugInfoDelegate"
+- "_defaultType"
+- "_defaultValue"
+- "_delegate"
+- "_delegates"
+- "_deregisterClearHomeSWUpdate"
+- "_deregisterDisassociateCurrentNetwork"
+- "_deregisterDisassociateNetworkWithName"
+- "_deregisterEverything"
+- "_deregisterGetAllDebugInfo"
+- "_deregisterGetFeatureFlags"
+- "_deregisterGetInstalledProfiles"
+- "_deregisterGetLEDInfo"
+- "_deregisterGetSelectDebugInfo"
+- "_deregisterGetTuningInfo"
+- "_deregisterGetUserDefaults"
+- "_deregisterGetVolume"
+- "_deregisterHandoffCancel"
+- "_deregisterHandoffComplete"
+- "_deregisterHandoffStart"
+- "_deregisterHandoffStartWithArtworkColors"
+- "_deregisterHandoffUpdateIntensity"
+- "_deregisterIdentifyWithOptions"
+- "_deregisterInjectSWUpdateToHome"
+- "_deregisterInstallProfileData"
+- "_deregisterIntercomWithOptions"
+- "_deregisterIsDeviceStereoFollower"
+- "_deregisterObliterate"
+- "_deregisterPlayTone"
+- "_deregisterReboot"
+- "_deregisterRemoveProfileByIdentifier"
+- "_deregisterRender"
+- "_deregisterRequestDeferredReboot"
+- "_deregisterRequestForFetchingAlarmsAndTimers"
+- "_deregisterResetAllUserDefaults"
+- "_deregisterResetUserDefault"
+- "_deregisterSUScanForSoftwareUpdate"
+- "_deregisterSendButtonCommand"
+- "_deregisterSendLEDCommand"
+- "_deregisterSetBootSpinner"
+- "_deregisterSetDeviceAsStereoLeader"
+- "_deregisterSetFeatureFlags"
+- "_deregisterSetHomeUpdateState"
+- "_deregisterSetLEDContents"
+- "_deregisterSetTuningInfoOnBox"
+- "_deregisterSetUserDefaults"
+- "_deregisterSetVolume"
+- "_deregisterSetWifiEnabled"
+- "_deregisterSiriSay"
+- "_deregisterStopTone"
+- "_deregisterSysdiagnoseHasStarted"
+- "_deregisterTriggerWiFiCoreCapture"
+- "_destinationID"
+- "_domain"
+- "_feature"
+- "_findConnectionAndSetClientType:"
+- "_gatherXPCClientInfo:"
+- "_greenComponent"
+- "_hasEntitlement:"
+- "_isBool"
+- "_isDouble"
+- "_isInternalBuild"
+- "_primaryText"
+- "_processNameForPID:"
+- "_profilesDelegate"
+- "_proximityHandoffUIDelegate"
+- "_queue"
+- "_rangeMax"
+- "_rangeMin"
+- "_rapportQueue"
+- "_receiver"
+- "_redComponent"
+- "_registerClearHomeSWUpdate"
+- "_registerDisassociateCurrentNetwork"
+- "_registerDisassociateNetworkWithName"
+- "_registerEverything"
+- "_registerGetAllDebugInfo"
+- "_registerGetFeatureFlags"
+- "_registerGetInstalledProfiles"
+- "_registerGetLEDInfo"
+- "_registerGetSelectDebugInfo"
+- "_registerGetTuningInfo"
+- "_registerGetUserDefaults"
+- "_registerGetVolume"
+- "_registerHandoffCancel"
+- "_registerHandoffComplete"
+- "_registerHandoffStart"
+- "_registerHandoffStartWithArtworkColors"
+- "_registerHandoffUpdateIntensity"
+- "_registerIdentifyWithOptions"
+- "_registerInjectSWUpdateToHome"
+- "_registerInstallProfileData"
+- "_registerIntercomWithOptions"
+- "_registerIsDeviceStereoFollower"
+- "_registerObliterate"
+- "_registerPlayTone"
+- "_registerReboot"
+- "_registerRemoveProfileByIdentifier"
+- "_registerRender"
+- "_registerRequestDeferredReboot"
+- "_registerRequestForFetchingAlarmsAndTimers"
+- "_registerResetAllUserDefaults"
+- "_registerResetUserDefault"
+- "_registerSUScanForSoftwareUpdate"
+- "_registerSendButtonCommand"
+- "_registerSendLEDCommand"
+- "_registerSetBootSpinner"
+- "_registerSetDeviceAsStereoLeader"
+- "_registerSetFeatureFlags"
+- "_registerSetHomeUpdateState"
+- "_registerSetLEDContents"
+- "_registerSetTuningInfoOnBox"
+- "_registerSetUserDefaults"
+- "_registerSetVolume"
+- "_registerSetWifiEnabled"
+- "_registerSiriSay"
+- "_registerStopTone"
+- "_registerSysdiagnoseHasStarted"
+- "_registerTriggerWiFiCoreCapture"
+- "_requiresReinit"
+- "_sbConnection"
+- "_sbProxy"
+- "_secondaryText"
+- "_serverListener"
+- "_stereoLeaderDelegate"
+- "_stringForUserDefault"
+- "_sysdiagnoseDelegate"
+- "_systemDelegate"
+- "_userDescription"
+- "_value"
+- "_volumeEventMonitorDelegate"
+- "activateWithCompletion:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "airDropSysdiagnose:airDropID:completionHandler:"
+- "airDropSysdiagnoseInternal:airDropID:completionHandler:"
+- "airdropServiceDelegate"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arrayWithObjects:count:"
+- "artworkColors"
+- "async:"
+- "at"
+- "autorelease"
+- "boolValue"
+- "box"
+- "cancel:"
+- "cancelCurrentSysdiagnose:"
+- "cancelSysdiagnose:"
+- "cancelSysdiagnoseInternal:"
+- "cancelWithHandoffType:error:"
+- "class"
+- "classesForSelector:argumentIndex:ofReply:"
+- "clearHomeSWUpdate"
+- "clearHomeSWUpdateInternal"
+- "client"
+- "clientType"
+- "com.apple.sbs.DebugInfoDisassociateCurrentNetwork"
+- "com.apple.sbs.DebugInfoDisassociateNetworkWithName"
+- "com.apple.sbs.DebugInfoGetAllDebugInfo"
+- "com.apple.sbs.DebugInfoGetFeatureFlags"
+- "com.apple.sbs.DebugInfoGetLEDInfo"
+- "com.apple.sbs.DebugInfoGetSelectDebugInfo"
+- "com.apple.sbs.DebugInfoGetTuningInfo"
+- "com.apple.sbs.DebugInfoGetUserDefaults"
+- "com.apple.sbs.DebugInfoGetVolume"
+- "com.apple.sbs.DebugInfoInjectSWUpdateToHome"
+- "com.apple.sbs.DebugInfoPlayTone"
+- "com.apple.sbs.DebugInfoRender"
+- "com.apple.sbs.DebugInfoResetAllUserDefaults"
+- "com.apple.sbs.DebugInfoResetUserDefault"
+- "com.apple.sbs.DebugInfoSUScanForSoftwareUpdate"
+- "com.apple.sbs.DebugInfoSendButtonCommand"
+- "com.apple.sbs.DebugInfoSendLEDCommand"
+- "com.apple.sbs.DebugInfoSetBootSpinner"
+- "com.apple.sbs.DebugInfoSetFeatureFlags"
+- "com.apple.sbs.DebugInfoSetHomeUpdateState"
+- "com.apple.sbs.DebugInfoSetLEDContents"
+- "com.apple.sbs.DebugInfoSetTuningInfoOnBox"
+- "com.apple.sbs.DebugInfoSetUserDefaults"
+- "com.apple.sbs.DebugInfoSetVolume"
+- "com.apple.sbs.DebugInfoSetWifiEnabled"
+- "com.apple.sbs.DebugInfoSiriSay"
+- "com.apple.sbs.DebugInfoStopTone"
+- "com.apple.sbs.GetInstalledProfiles"
+- "com.apple.sbs.Identify"
+- "com.apple.sbs.InstallProfileData"
+- "com.apple.sbs.Intercom"
+- "com.apple.sbs.Obliterate"
+- "com.apple.sbs.RemoveProfileByIdentifier"
+- "com.apple.sbs.StereoLeaderRoleIsDeviceStereoFollower"
+- "com.apple.sbs.StereoLeaderRoleSetDeviceAsStereoLeader"
+- "com.apple.sbs.SysdiagnoseSysdiagnoseHasStarted"
+- "com.apple.sbs.SystemReboot"
+- "com.apple.sbs.SystemRequestDeferredReboot"
+- "com.apple.sbs.SystemRequestFetchAlarmsAndTimers"
+- "com.apple.sbs.TriggerWiFiCoreCapture"
+- "com.apple.sbs.kSBSProximityHandoffUICancelKey"
+- "com.apple.sbs.kSBSProximityHandoffUICompleteKey"
+- "com.apple.sbs.kSBSProximityHandoffUIStartKey"
+- "com.apple.sbs.kSBSProximityHandoffUIStartWithArtworkColorsKey"
+- "com.apple.sbs.kSBSProximityHandoffUIUpdateIntensityKey"
+- "com.apple.soundboardservices.RapportMessageHandlingQueue"
+- "com.apple.soundboardservices.RapportMessageReceivingQueue"
+- "companion link client activated succcessfully"
+- "companion sent correctly"
+- "complete"
+- "completeWithHandoffType:"
+- "conformsToProtocol:"
+- "connection"
+- "connectionWithExportedObject:"
+- "controlsDelegate"
+- "copy"
+- "countByEnumeratingWithState:objects:count:"
+- "createProxyConnectionForRapportTarget:"
+- "createProxyConnectionForXPCWithExportedObject:connection:"
+- "createSysdiagnose:"
+- "createSysdiagnoseInternal:"
+- "currentConnection"
+- "dealloc"
+- "debugDescription"
+- "debugInfoDelegate"
+- "decodeFloatForKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultKey"
+- "defaultsName:asBool:"
+- "defaultsName:asBool:userInfo:requiresReinit:"
+- "defaultsName:asDouble:"
+- "defaultsName:asDouble:rangeMin:rangeMax:"
+- "defaultsName:asDouble:rangeMin:rangeMax:userInfo:requiresReinit:"
+- "defaultsName:asDouble:userInfo:requiresReinit:"
+- "defaultsName:asInt:"
+- "defaultsName:asInt:rangeMin:rangeMax:"
+- "defaultsName:asInt:rangeMin:rangeMax:userInfo:requiresReinit:"
+- "defaultsName:asInt:userInfo:requiresReinit:"
+- "defaultsName:asString:"
+- "defaultsName:asString:userInfo:requiresReinit:"
+- "delegate"
+- "deregisterRequestID:"
+- "description"
+- "destinationID"
+- "dictionaryRepresentation"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "disassociateCurrentNetwork"
+- "disassociateCurrentNetworkInternal"
+- "disassociateNetworkWithName:"
+- "disassociateNetworkWithNameInternal:"
+- "doubleValue"
+- "enabled"
+- "encodeFloat:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "error"
+- "exportedInterface"
+- "f"
+- "f16@0:8"
+- "featureFlags"
+- "fetchLatestEvents:completionHandler:"
+- "fetchLatestSignposts:completionHandler:"
+- "floatValue"
+- "getAllDebugInfo:"
+- "getAllDebugInfoInternal:"
+- "getAllSyncedAlarmsAndTimers:"
+- "getAllSyncedAlarmsAndTimersInternal:"
+- "getCString:maxLength:encoding:"
+- "getFeatureFlags:"
+- "getFeatureFlagsInternal:"
+- "getHumanReadable:isDefaultSet:"
+- "getInstalledProfiles:"
+- "getInstalledProfilesInternal:"
+- "getLEDInfo:"
+- "getLEDInfoInternal:"
+- "getSelectDebugInfo:reply:"
+- "getSelectDebugInfoInternal:reply:"
+- "getTuningInfo:"
+- "getTuningInfoInternal:"
+- "getUserDefaults:"
+- "getUserDefaultsInternal:"
+- "getVolume:"
+- "getVolumeInternal:"
+- "handleClientDisconnection:"
+- "handoffCancelInternalWithHandoffType:"
+- "handoffCancelWithHandoffType:"
+- "handoffCancelled"
+- "handoffCompleteInternalWithHandoffType:"
+- "handoffCompleteWithHandoffType:"
+- "handoffCompleted"
+- "handoffInactive"
+- "handoffSetDeviceAsStereoLeader:withOptions:"
+- "handoffStartInternalWithHandoffType:"
+- "handoffStartWithArtworkColors:handoffType:"
+- "handoffStartWithArtworkColorsInternal:handoffType:"
+- "handoffStartWithHandoffType:"
+- "handoffStarted"
+- "handoffType"
+- "handoffUpdateIntensity:handoffType:"
+- "handoffUpdateIntensityInternal:handoffType:"
+- "handoffUpdating"
+- "hash"
+- "identifier"
+- "identifyWithOptions:"
+- "identifyWithOptionsInternal:"
+- "init"
+- "initWith:andFeature:andValue:"
+- "initWithBackground:primaryText:secondaryText:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithDelegate:"
+- "initWithDevice:"
+- "initWithDictionaryRepresentation:"
+- "initWithDomain:code:userInfo:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithQueue:"
+- "initWithRed:green:blue:"
+- "initWithTarget:"
+- "injectSWUpdateToHome:"
+- "injectSWUpdateToHomeInternal:"
+- "installProfileData:completion:"
+- "installProfileDataInternal:completion:"
+- "integerValue"
+- "intensity"
+- "intercomWithOptions:"
+- "intercomWithOptionsInternal:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isDeviceStereoFollower:"
+- "isDeviceStereoFollowerInternal:"
+- "isEqual:"
+- "isEqualToString:"
+- "isFollower:"
+- "isKindOfClass:"
+- "isMediaAlarm:"
+- "isMediaAlarmInternal:"
+- "isMemberOfClass:"
+- "isProxy"
+- "kSBSProximityHandoffUICancelKey sent successfully"
+- "kSBSProximityHandoffUICompleteKey sent successfully"
+- "keys"
+- "listener:shouldAcceptNewConnection:"
+- "localhost"
+- "mutableCopy"
+- "numberWithBool:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "obliterate:"
+- "obliterateInternal:"
+- "options"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phrase"
+- "playTone:"
+- "playToneInternal:"
+- "processIdentifier"
+- "profileData"
+- "profilesDelegate"
+- "proximityHandoffCancelled"
+- "proximityHandoffCompleted"
+- "proximityHandoffInactive"
+- "proximityHandoffStarted"
+- "proximityHandoffUI:stateTransition:"
+- "proximityHandoffUIDelegate"
+- "proximityHandoffUpdating"
+- "queue"
+- "rapportQueue"
+- "reboot:"
+- "rebootInternal:"
+- "registerRequestID:options:handler:"
+- "release"
+- "remoteObjectInterface"
+- "remoteObjectProxy"
+- "removeObject:"
+- "removeProfileByIdentifier:completion:"
+- "removeProfileByIdentifierInternal:completion:"
+- "render:"
+- "renderInternal:"
+- "reply"
+- "requestDeferredReboot"
+- "requestDeferredRebootInternal"
+- "resetAllUserDefaults"
+- "resetAllUserDefaultsInternal"
+- "resetUserDefault:"
+- "resetUserDefaultInternal:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "sbConnection"
+- "sbProxy"
+- "self"
+- "sendButtonCommand:"
+- "sendButtonCommandInternal:"
+- "sendLEDCommand:"
+- "sendLEDCommandInternal:"
+- "sendRequestID:request:destinationID:options:responseHandler:"
+- "setAirdropServiceDelegate:"
+- "setBootSpinner:"
+- "setBootSpinnerInternal:"
+- "setByAddingObjectsFromSet:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClient:"
+- "setClientType:"
+- "setConnection:"
+- "setControlFlags:"
+- "setControlsDelegate:"
+- "setDebugInfoDelegate:"
+- "setDefaultType:"
+- "setDelegate:"
+- "setDestinationID:"
+- "setDeviceAsStereoLeader:withOptions:"
+- "setDeviceAsStereoLeaderInternal:withOptions:"
+- "setDispatchQueue:"
+- "setDomain:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFeature:"
+- "setFeatureFlags:"
+- "setFeatureFlagsInternal:"
+- "setHomeUpdateState:"
+- "setHomeUpdateStateInternal:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLEDContents:"
+- "setLEDContentsInternal:"
+- "setObject:forKey:"
+- "setProfilesDelegate:"
+- "setProximityHandoffUIDelegate:"
+- "setQueue:"
+- "setRapportQueue:"
+- "setRemoteObjectInterface:"
+- "setSbConnection:"
+- "setStereoLeaderDelegate:"
+- "setSysdiagnoseDelegate:"
+- "setSystemDelegate:"
+- "setTuningInfoOnBox:at:withValue:"
+- "setTuningInfoOnBoxInternal:at:withValue:"
+- "setTurnOffBrightnessFactor:"
+- "setUserDefaults:withValue:"
+- "setUserDefaultsInternal:withValue:"
+- "setValue:"
+- "setVolume:"
+- "setVolumeEventMonitorDelegate:"
+- "setVolumeInternal:"
+- "setWifiEnabled:"
+- "setWifiEnabledInternal:"
+- "setWithObjects:"
+- "sharedInstance"
+- "siriSay:"
+- "siriSayInternal:"
+- "start"
+- "startWithArtworkColors:"
+- "startWithArtworkColors:handoffType:"
+- "startWithHandoffType:"
+- "started"
+- "state"
+- "stereoLeaderDelegate"
+- "stopTone:"
+- "stopToneInternal:"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "suScanForSoftwareUpdate"
+- "suScanForSoftwareUpdateInternal"
+- "superclass"
+- "supportsSecureCoding"
+- "sync:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "sysdiagnoseDelegate"
+- "sysdiagnoseHasStarted:"
+- "sysdiagnoseHasStartedInternal:"
+- "systemDelegate"
+- "tone"
+- "triggerWiFiCoreCapture:"
+- "triggerWiFiCoreCaptureInternal:"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unsignedIntegerValue"
+- "updateIntensity:"
+- "updateIntensity:handoffType:"
+- "v12@?0f8"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSObject<OS_dispatch_queue>\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSURL\"@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?f>16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v28@0:8B16@\"NSDictionary\"20"
+- "v28@0:8B16@20"
+- "v28@0:8f16Q20"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSData\"16Q24"
+- "v32@0:8@\"NSString\"16@\"NSString\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"SBSColorGroup\"16Q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8Q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"NSArray\">24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@\"NSError\"24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">24"
+- "v36@0:8@\"NSString\"16@\"NSString\"24f32"
+- "v36@0:8@16@24f32"
+- "v40@0:8@\"NSURL\"16@\"NSString\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "valueForEntitlement:"
+- "valueType"
+- "volume"
+- "volumeEventMonitorDelegate"
+- "withOptions"
+- "withValue"
+- "zone"
+
+```

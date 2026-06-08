@@ -1,0 +1,885 @@
+## Accessibility
+
+> `/System/Library/Frameworks/Accessibility.framework/Accessibility`
+
+```diff
+
+-545.18.0.0.0
+-  __TEXT.__text: 0x1662c
+-  __TEXT.__auth_stubs: 0xa80
++576.1.0.0.0
++  __TEXT.__text: 0x176e8
+   __TEXT.__objc_methlist: 0x130c
+-  __TEXT.__const: 0x12e8
+-  __TEXT.__gcc_except_tab: 0x32c
+-  __TEXT.__cstring: 0x1153
++  __TEXT.__const: 0x12d0
+   __TEXT.__dlopen_cstrs: 0x339
+-  __TEXT.__oslogstring: 0x108
+-  __TEXT.__swift5_typeref: 0x381
++  __TEXT.__swift5_typeref: 0x38a
+   __TEXT.__constg_swiftt: 0x28c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_reflstr: 0x2ac
+   __TEXT.__swift5_fieldmd: 0x30c
+   __TEXT.__swift5_types: 0x50
++  __TEXT.__cstring: 0x1163
+   __TEXT.__swift5_assocty: 0x210
+   __TEXT.__swift5_proto: 0x100
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_capture: 0x10
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0xa20
+-  __TEXT.__eh_frame: 0x590
+-  __TEXT.__objc_classname: 0x37c
+-  __TEXT.__objc_methname: 0x281e
+-  __TEXT.__objc_methtype: 0x572
+-  __TEXT.__objc_stubs: 0x1a60
+-  __DATA_CONST.__got: 0x218
++  __TEXT.__swift_as_cont: 0xc
++  __TEXT.__gcc_except_tab: 0x358
++  __TEXT.__oslogstring: 0x108
++  __TEXT.__unwind_info: 0x940
++  __TEXT.__eh_frame: 0x598
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x418
+   __DATA_CONST.__objc_classlist: 0x118
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0xe8
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x550
++  __DATA_CONST.__got: 0x218
+   __AUTH_CONST.__const: 0xae8
+   __AUTH_CONST.__cfstring: 0xd20
+   __AUTH_CONST.__objc_const: 0x2b50
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x690
+-  __AUTH.__data: 0x90
++  __AUTH_CONST.__auth_got: 0x5e8
++  __AUTH.__objc_data: 0x870
++  __AUTH.__data: 0xb8
+   __DATA.__objc_ivar: 0x15c
+-  __DATA.__data: 0x360
++  __DATA.__data: 0x388
+   __DATA.__bss: 0x1590
+   __DATA.__common: 0x19
+-  __DATA_DIRTY.__objc_data: 0x460
+-  __DATA_DIRTY.__data: 0xe8
+-  __DATA_DIRTY.__bss: 0xad0
++  __DATA_DIRTY.__objc_data: 0x280
++  __DATA_DIRTY.__data: 0xa0
++  __DATA_DIRTY.__bss: 0xad8
+   __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7643DEC9-5AB2-3B9F-BC4A-050E04A7DB9C
+-  Functions: 910
+-  Symbols:   2120
+-  CStrings:  922
++  UUID: 190EA3EF-8898-3B75-8453-799E8DFF999A
++  Functions: 881
++  Symbols:   2016
++  CStrings:  311
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table162
++ GCC_except_table171
++ GCC_except_table206
++ GCC_except_table209
++ GCC_except_table238
++ GCC_except_table239
++ GCC_except_table240
++ GCC_except_table241
++ GCC_except_table242
++ GCC_except_table243
++ GCC_except_table244
++ GCC_except_table268
++ GCC_except_table269
++ GCC_except_table329
++ GCC_except_table330
++ GCC_except_table331
++ GCC_except_table332
++ GCC_except_table333
++ GCC_except_table334
++ GCC_except_table335
++ GCC_except_table336
++ GCC_except_table350
++ GCC_except_table381
++ GCC_except_table382
++ GCC_except_table383
++ GCC_except_table384
++ GCC_except_table385
++ GCC_except_table386
++ GCC_except_table387
++ GCC_except_table399
++ GCC_except_table406
++ GCC_except_table446
++ GCC_except_table461
++ GCC_except_table78
++ GCC_except_table80
++ GCC_except_table82
++ GCC_except_table84
++ GCC_except_table86
++ GCC_except_table98
++ _AccessibilityUILibraryCore.frameworkLibrary.429
++ _UIKitLibraryCore.frameworkLibrary.383
++ ___AccessibilityUILibraryCore_block_invoke.430
++ ___UIKitLibraryCore_block_invoke.384
++ ___block_literal_global.102
++ ___block_literal_global.300
++ ___block_literal_global.382
++ ___block_literal_global.384
++ ___block_literal_global.386
++ ___block_literal_global.388
++ ___block_literal_global.390
++ ___block_literal_global.392
++ ___block_literal_global.397
++ ___block_literal_global.437
++ ___block_literal_global.466
++ ___block_literal_global.66
++ ___getAXUIClientClass_block_invoke.428
++ ___getUIAccessibilityPostNotificationSymbolLoc_block_invoke.381
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ __swift_implicitisolationactor_to_executor_cast
++ _audit_stringAccessibilityUI.433
++ _audit_stringUIKit.387
++ _getAXUIClientClass.softClass.427
++ _getUIAccessibilityPostNotificationSymbolLoc.ptr.380
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutorelease
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x27
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x9
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_getObjectType
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x24
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_willThrow
++ _symbolic ______p s5ErrorP
+- +[AXBrailleTranslator sharedLock].cold.1
+- +[AXFeatureOverrideSessionManager sharedInstance].cold.1
+- -[AXBrailleMap presentImage:].cold.1
+- -[AXCategoricalScale init].cold.1
+- -[AXChartDescriptor initWithDictionary:].cold.1
+- -[AXDataSeriesDescriptor initWithDictionary:].cold.1
+- -[AXDataSeriesDescriptor initWithDictionary:].cold.2
+- -[AXNumericScale init].cold.1
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table11
+- GCC_except_table119
+- GCC_except_table120
+- GCC_except_table121
+- GCC_except_table122
+- GCC_except_table123
+- GCC_except_table124
+- GCC_except_table125
+- GCC_except_table126
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table158
+- GCC_except_table2
+- GCC_except_table3
+- GCC_except_table35
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table5
+- GCC_except_table6
+- GCC_except_table7
+- GCC_except_table8
+- GCC_except_table88
+- GCC_except_table89
+- GCC_except_table9
+- GCC_except_table91
+- GCC_except_table92
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table97
+- _AXAnimatedImagesEnabled.cold.1
+- _AXApplicationFocusDidChange.cold.1
+- _AXAssistiveAccessEnabled.cold.1
+- _AXAudioGraphLog
+- _AXAudioGraphLog.cold.1
+- _AXColorGetLightnessDescription
+- _AXColorGetNameForHue.cold.1
+- _AXMediaUtilitiesLibrary
+- _AXNameFromColor.cold.1
+- _AXNameFromColor.cold.2
+- _AXNameFromColor.cold.3
+- _AXOpenSettingsFeature.cold.1
+- _AXPrefersHorizontalTextLayout.cold.1
+- _AXPrefersNonBlinkingTextInsertionIndicator.cold.1
+- _AXReduceHighlightingEffectsEnabled.cold.1
+- _AXShowBordersEnabled.cold.1
+- _AXSupportsBidirectionalAXMFiHearingDeviceStreaming.cold.1
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- __AXPostPlatformNotification.cold.1
+- ___AXRGBColorTransform_block_invoke.cold.1
+- ___block_literal_global.103
+- ___block_literal_global.383
+- ___block_literal_global.385
+- ___block_literal_global.387
+- ___block_literal_global.389
+- ___block_literal_global.391
+- ___block_literal_global.393
+- ___block_literal_global.467
+- ___getAXMDataSonificationManagerClass_block_invoke.cold.1
+- ___getAXSettingsClass_block_invoke.cold.1
+- ___getAXUIClientClass_block_invoke.cold.1
+- ___getCIImageClass_block_invoke.cold.1
+- ___getNSFontClass_block_invoke.cold.1
+- _accessibilityAXRuntimeRequestingClient.cold.1
+- _getkAXMChartAdditionalAxesKey.cold.1
+- _getkAXMChartAxisTitleKey.cold.1
+- _getkAXMChartAxisTypeCategorical.cold.1
+- _getkAXMChartAxisTypeKey.cold.1
+- _getkAXMChartAxisTypeNumeric.cold.1
+- _getkAXMChartCategoryAxisCategoriesKey.cold.1
+- _getkAXMChartContentDirectionKey.cold.1
+- _getkAXMChartNumericAxisGridlinePositionsKey.cold.1
+- _getkAXMChartNumericAxisLowerBoundKey.cold.1
+- _getkAXMChartNumericAxisScaleTypeKey.cold.1
+- _getkAXMChartNumericAxisUpperBoundKey.cold.1
+- _getkAXMChartSeriesContinuousKey.cold.1
+- _getkAXMChartSeriesKey.cold.1
+- _getkAXMChartSeriesMeanValueDescriptionKey.cold.1
+- _getkAXMChartSeriesNameKey.cold.1
+- _getkAXMChartSeriesValueDescriptionsKey.cold.1
+- _getkAXMChartSeriesXDataKey.cold.1
+- _getkAXMChartSeriesYDataKey.cold.1
+- _getkAXMChartSeriesZCategoricalDataKey.cold.1
+- _getkAXMChartSeriesZNumericDataKey.cold.1
+- _getkAXMChartSummaryKey.cold.1
+- _getkAXMChartTitleKey.cold.1
+- _getkAXMChartXAxisKey.cold.1
+- _getkAXMChartYAxisKey.cold.1
+- _initBRLTServiceTranslator.cold.1
+- _initBRLTTable.cold.1
+- _initBRLTTableEnumerator.cold.1
+- _swift_retain
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<AXDataAxisDescriptor>\""
+- "@\"AXDataPoint\""
+- "@\"AXDataPointValue\""
+- "@\"AXMathExpression\""
+- "@\"AXNumericDataAxisDescriptor\""
+- "@\"AXScale\""
+- "@\"AXUIClient\""
+- "@\"BRLTServiceTranslator\""
+- "@\"BRLTTable\""
+- "@\"CIImage\""
+- "@\"NSArray\""
+- "@\"NSAttributedString\""
+- "@\"NSAttributedString\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@\"NSDictionary\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8d16d24"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8Q16Q24^@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8d16d24@?32@?40"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16d24d32@40@?48"
+- "@64@0:8@16@24@32@40@48@56"
+- "@?"
+- "@?16@0:8"
+- "AXBrailleMap"
+- "AXBrailleMapProvider"
+- "AXBrailleTable"
+- "AXBrailleTranslationResult"
+- "AXBrailleTranslator"
+- "AXCategoricalDataAxisDescriptor"
+- "AXCategoricalScale"
+- "AXChartDescriptor"
+- "AXCustomContent"
+- "AXDataAnnotation"
+- "AXDataAxisDescriptor"
+- "AXDataPoint"
+- "AXDataPointValue"
+- "AXDataSeriesDescriptor"
+- "AXDictionaryRepresentable"
+- "AXFeatureOverrideSession"
+- "AXFeatureOverrideSessionManager"
+- "AXLiveAudioGraph"
+- "AXMRectValue"
+- "AXMathExpression"
+- "AXMathExpressionFenced"
+- "AXMathExpressionFraction"
+- "AXMathExpressionIdentifier"
+- "AXMathExpressionMultiscript"
+- "AXMathExpressionNumber"
+- "AXMathExpressionOperator"
+- "AXMathExpressionRoot"
+- "AXMathExpressionRow"
+- "AXMathExpressionSubSuperscript"
+- "AXMathExpressionTable"
+- "AXMathExpressionTableCell"
+- "AXMathExpressionTableRow"
+- "AXMathExpressionText"
+- "AXMathExpressionUnderOver"
+- "AXNumericDataAxisDescriptor"
+- "AXNumericScale"
+- "AXRequest"
+- "AXScale"
+- "AccessibilityFrameworkUtilities"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16^@24"
+- "Expressions"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<AXDataAxisDescriptor>\",&,N,V_xAxis"
+- "T@\"AXDataPoint\",&,N,V_location"
+- "T@\"AXDataPointValue\",C,N,V_xValue"
+- "T@\"AXDataPointValue\",C,N,V_yValue"
+- "T@\"AXFeatureOverrideSessionManager\",R"
+- "T@\"AXMathExpression\",&,N,V_baseExpression"
+- "T@\"AXMathExpression\",&,N,V_denimonatorExpression"
+- "T@\"AXMathExpression\",&,N,V_numeratorExpression"
+- "T@\"AXMathExpression\",&,N,V_overExpression"
+- "T@\"AXMathExpression\",&,N,V_rootIndexExpression"
+- "T@\"AXMathExpression\",&,N,V_underExpression"
+- "T@\"AXNumericDataAxisDescriptor\",&,N,V_yAxis"
+- "T@\"AXRequest\",R,N"
+- "T@\"AXScale\",&,N,V_scale"
+- "T@\"AXUIClient\",&,N,V_serverClient"
+- "T@\"BRLTServiceTranslator\",&,N,V_translator"
+- "T@\"BRLTTable\",&,N,V_brltTable"
+- "T@\"NSArray\",&,N,V_Expressions"
+- "T@\"NSArray\",&,N,V_expressions"
+- "T@\"NSArray\",&,N,V_postscriptExpressions"
+- "T@\"NSArray\",&,N,V_prescriptExpressions"
+- "T@\"NSArray\",&,N,V_radicandExpressions"
+- "T@\"NSArray\",&,N,V_subscriptExpressions"
+- "T@\"NSArray\",&,N,V_superscriptExpressions"
+- "T@\"NSArray\",C,N,V_additionalAxes"
+- "T@\"NSArray\",C,N,V_additionalValues"
+- "T@\"NSArray\",C,N,V_annotations"
+- "T@\"NSArray\",C,N,V_categoryOrder"
+- "T@\"NSArray\",C,N,V_dataPoints"
+- "T@\"NSArray\",C,N,V_domain"
+- "T@\"NSArray\",C,N,V_gridlinePositions"
+- "T@\"NSArray\",C,N,V_series"
+- "T@\"NSArray\",R,N,V_expressions"
+- "T@\"NSArray\",R,N,V_locationMap"
+- "T@\"NSAttributedString\",C,N"
+- "T@\"NSAttributedString\",C,N,V_attributedLabel"
+- "T@\"NSAttributedString\",C,N,V_attributedName"
+- "T@\"NSAttributedString\",C,N,V_attributedTitle"
+- "T@\"NSAttributedString\",C,N,V_attributedValue"
+- "T@\"NSNumber\",C,N,V_durationEncodingValue"
+- "T@\"NSNumber\",C,N,V_pitchEncodingValue"
+- "T@\"NSNumber\",C,N,V_timeEncodingValue"
+- "T@\"NSNumber\",C,N,V_volumeEncodingValue"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",&,N,V_closeString"
+- "T@\"NSString\",&,N,V_content"
+- "T@\"NSString\",&,N,V_openString"
+- "T@\"NSString\",&,N,V_technology"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,V_category"
+- "T@\"NSString\",C,N,V_categoryEncodingValue"
+- "T@\"NSString\",C,N,V_label"
+- "T@\"NSString\",C,N,V_meanValueDescription"
+- "T@\"NSString\",C,N,V_summary"
+- "T@\"NSString\",C,N,V_title"
+- "T@\"NSString\",C,N,V_value"
+- "T@\"NSString\",C,N,V_valueDescription"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_inputString"
+- "T@\"NSString\",R,N,V_resultString"
+- "T@\"NSUUID\",&,N,V_uuid"
+- "T@\"NSUUID\",C,N,V_identifier"
+- "T@?,C,N,V_apply"
+- "T@?,C,N,V_invert"
+- "T@?,C,N,V_valueDescriptionProvider"
+- "TB,N,V_isContinuous"
+- "TB,N,V_playsHaptic"
+- "TB,N,V_speakDuringPlayback"
+- "TB,R"
+- "TB,R,N"
+- "TQ,N,V_importance"
+- "TQ,R"
+- "Td,N,V_lowerBound"
+- "Td,N,V_number"
+- "Td,N,V_upperBound"
+- "Td,R,N"
+- "Tq,N,V_contentDirection"
+- "Tq,N,V_scaleType"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_contentFrame"
+- "T{CGSize=dd},N,V_dimensions"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_Expressions"
+- "_additionalAxes"
+- "_additionalCategoricalAxis"
+- "_additionalCategoricalValue"
+- "_additionalNumericAxis"
+- "_additionalNumericValue"
+- "_additionalValues"
+- "_annotations"
+- "_apply"
+- "_attributedLabel"
+- "_attributedName"
+- "_attributedTitle"
+- "_attributedValue"
+- "_baseExpression"
+- "_brltTable"
+- "_category"
+- "_categoryEncodingValue"
+- "_categoryOrder"
+- "_closeString"
+- "_commonInitWithContinuous:dataPoints:"
+- "_commonInitWithLowerBound:upperBound:gridlinePositions:valueDescriptionProvider:"
+- "_commonInitWithSummary:xAxisDescriptor:yAxisDescriptor:additionalAxes:series:"
+- "_content"
+- "_contentDirection"
+- "_contentFrame"
+- "_dataPoints"
+- "_denimonatorExpression"
+- "_dimensions"
+- "_domain"
+- "_durationEncodingValue"
+- "_expressions"
+- "_gridlinePositions"
+- "_identifier"
+- "_importance"
+- "_init"
+- "_inputString"
+- "_invert"
+- "_isContinuous"
+- "_label"
+- "_location"
+- "_locationMap"
+- "_lowerBound"
+- "_meanValueDescription"
+- "_mutableArrayOfNSNullWithCount:"
+- "_number"
+- "_numeratorExpression"
+- "_openString"
+- "_overExpression"
+- "_pitchEncodingValue"
+- "_playsHaptic"
+- "_postscriptExpressions"
+- "_prescriptExpressions"
+- "_presentedImage"
+- "_radicandExpressions"
+- "_resultString"
+- "_rootIndexExpression"
+- "_scale"
+- "_scaleType"
+- "_series"
+- "_serverClient"
+- "_speakDuringPlayback"
+- "_subscriptExpressions"
+- "_summary"
+- "_superscriptExpressions"
+- "_technology"
+- "_timeEncodingValue"
+- "_title"
+- "_translator"
+- "_underExpression"
+- "_upperBound"
+- "_uuid"
+- "_value"
+- "_valueDescription"
+- "_valueDescriptionProvider"
+- "_values"
+- "_volumeEncodingValue"
+- "_xAxis"
+- "_xValue"
+- "_yAxis"
+- "_yValue"
+- "accessibilityBrailleMapRenderRegion"
+- "accessibilityBrailleMapRenderer"
+- "addObject:"
+- "addObjectsFromArray:"
+- "additionalAxes"
+- "additionalValues"
+- "allValues"
+- "allocWithZone:"
+- "annotations"
+- "apply"
+- "array"
+- "arrayWithObjects:count:"
+- "attributedName"
+- "attributedTitle"
+- "autorelease"
+- "backTranslateBraille:"
+- "baseExpression"
+- "beginLiveModeSession"
+- "beginOverrideSessionEnablingOptions:disablingOptions:error:"
+- "boolForKey:"
+- "boolValue"
+- "brailleForText:locations:"
+- "brltTable"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "category"
+- "categoryEncodingValue"
+- "categoryOrder"
+- "class"
+- "closeString"
+- "componentsJoinedByString:"
+- "computeValueDescriptionsIfNeeded"
+- "conformsToProtocol:"
+- "connectedBrailleMap"
+- "content"
+- "contentDirection"
+- "contentFrame"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentRequest"
+- "customContentWithAttributedLabel:attributedValue:"
+- "customContentWithLabel:value:"
+- "d"
+- "d16@0:8"
+- "dataPoints"
+- "debugDescription"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultCenter"
+- "defaultTableForLocale:"
+- "defaultTablesArrayForLocale:"
+- "denimonatorExpression"
+- "description"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithObjects:forKeys:count:"
+- "domain"
+- "doubleValue"
+- "durationEncodingValue"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endLiveModeSession"
+- "endOverrideSession:error:"
+- "enumerateObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "expressions"
+- "externalServiceIdentifier"
+- "f32@0:8{CGPoint=dd}16"
+- "firstObject"
+- "floatValue"
+- "fontWithDescriptor:size:"
+- "gridlinePositions"
+- "hash"
+- "heightAtPoint:"
+- "init"
+- "initWithAttributedName:isContinuous:dataPoints:"
+- "initWithAttributedTitle:categoryOrder:"
+- "initWithAttributedTitle:lowerBound:upperBound:gridlinePositions:valueDescriptionProvider:"
+- "initWithAttributedTitle:summary:xAxisDescriptor:yAxisDescriptor:additionalAxes:series:"
+- "initWithAttributedTitle:summary:xAxisDescriptor:yAxisDescriptor:series:"
+- "initWithBRLTTable:"
+- "initWithBaseExpression:prescriptExpressions:postscriptExpressions:"
+- "initWithBaseExpression:subscriptExpressions:superscriptExpressions:"
+- "initWithBaseExpression:underExpression:overExpression:"
+- "initWithBrailleTable:"
+- "initWithCGImage:"
+- "initWithCoder:"
+- "initWithContent:"
+- "initWithDictionary:"
+- "initWithDomain:"
+- "initWithDouble:"
+- "initWithExpressions:"
+- "initWithExpressions:openString:closeString:"
+- "initWithExternalIdentifier:"
+- "initWithIdentifier:"
+- "initWithIdentifier:serviceBundleName:"
+- "initWithInputString:ResultString:locationMap:"
+- "initWithInteger:"
+- "initWithLocation:"
+- "initWithLocation:label:"
+- "initWithLowerBound:upperBound:apply:invert:"
+- "initWithName:isContinuous:dataPoints:"
+- "initWithNumeratorExpression:denimonatorExpression:"
+- "initWithObjects:forKeys:"
+- "initWithRadicandExpressions:rootIndexExpression:"
+- "initWithString:"
+- "initWithTable:"
+- "initWithTechnology:"
+- "initWithTitle:categoryOrder:"
+- "initWithTitle:lowerBound:upperBound:gridlinePositions:valueDescriptionProvider:"
+- "initWithTitle:summary:xAxisDescriptor:yAxisDescriptor:additionalAxes:series:"
+- "initWithTitle:summary:xAxisDescriptor:yAxisDescriptor:series:"
+- "initWithUUID:"
+- "initWithUUIDString:"
+- "initWithX:y:"
+- "initWithX:y:additionalValues:"
+- "initWithX:y:additionalValues:label:"
+- "inputString"
+- "integerValue"
+- "invert"
+- "isContinuous"
+- "isEightDot"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "language"
+- "languageAgnosticTables"
+- "lastObject"
+- "length"
+- "linearScaleWithLowerBound:upperBound:"
+- "lnScaleWithLowerBound:upperBound:"
+- "locales"
+- "localizedName"
+- "localizedProviderName"
+- "localizedService"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "location"
+- "lock"
+- "log10ScaleWithLowerBound:upperBound:"
+- "lowerBound"
+- "mainAccessQueue"
+- "mainBundle"
+- "meanValueDescription"
+- "meanYValue"
+- "mutableCopy"
+- "name"
+- "null"
+- "number"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "numeratorExpression"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "openString"
+- "overExpression"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pitchEncodingValue"
+- "playsHaptic"
+- "postNotificationName:object:"
+- "postscriptExpressions"
+- "preferActionSliderAlternative"
+- "prescriptExpressions"
+- "presentImage:"
+- "providerIdentifier"
+- "q"
+- "q16@0:8"
+- "radicandExpressions"
+- "rectValue"
+- "release"
+- "removeObjectForKey:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rootIndexExpression"
+- "scale"
+- "scaleType"
+- "self"
+- "sendAsynchronousMessage:withIdentifier:targetAccessQueue:completion:"
+- "sendSynchronousMessage:withIdentifier:error:"
+- "series"
+- "serverClient"
+- "setAccessibilityBrailleMapRenderRegion:"
+- "setAccessibilityBrailleMapRenderer:"
+- "setAdditionalAxes:"
+- "setAdditionalValues:"
+- "setAnnotations:"
+- "setApply:"
+- "setAttributedLabel:"
+- "setAttributedName:"
+- "setAttributedTitle:"
+- "setAttributedValue:"
+- "setBaseExpression:"
+- "setBool:forKey:"
+- "setBrltTable:"
+- "setCategory:"
+- "setCategoryEncodingValue:"
+- "setCategoryOrder:"
+- "setCloseString:"
+- "setContent:"
+- "setContentDirection:"
+- "setContentFrame:"
+- "setDataPoints:"
+- "setDenimonatorExpression:"
+- "setDimensions:"
+- "setDomain:"
+- "setDurationEncodingValue:"
+- "setExpressions:"
+- "setGridlinePositions:"
+- "setHeight:atPoint:"
+- "setIdentifier:"
+- "setImportance:"
+- "setInvert:"
+- "setIsContinuous:"
+- "setLabel:"
+- "setLiveModeValue:"
+- "setLocation:"
+- "setLowerBound:"
+- "setMeanValueDescription:"
+- "setName:"
+- "setNumber:"
+- "setNumeratorExpression:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOpenString:"
+- "setOverExpression:"
+- "setPitchEncodingValue:"
+- "setPlaysHaptic:"
+- "setPostscriptExpressions:"
+- "setPrescriptExpressions:"
+- "setRadicandExpressions:"
+- "setRootIndexExpression:"
+- "setScale:"
+- "setScaleType:"
+- "setSeries:"
+- "setServerClient:"
+- "setSpeakDuringPlayback:"
+- "setSubscriptExpressions:"
+- "setSummary:"
+- "setSuperscriptExpressions:"
+- "setTechnology:"
+- "setTimeEncodingValue:"
+- "setTitle:"
+- "setTranslator:"
+- "setUnderExpression:"
+- "setUpperBound:"
+- "setUuid:"
+- "setValue:"
+- "setValueDescription:"
+- "setValueDescriptionProvider:"
+- "setValuesForKeysWithDictionary:"
+- "setVolumeEncodingValue:"
+- "setWithArray:"
+- "setXAxis:"
+- "setXValue:"
+- "setYAxis:"
+- "setYValue:"
+- "sharedInstance"
+- "sharedLock"
+- "sharedManager"
+- "sizeValue"
+- "speakDuringPlayback"
+- "standardUserDefaults"
+- "start"
+- "stop"
+- "string"
+- "stringWithFormat:"
+- "subscriptExpressions"
+- "summary"
+- "superclass"
+- "superscriptExpressions"
+- "supportedLocales"
+- "supportsSecureCoding"
+- "supportsTranslationMode8Dot"
+- "tableEnumeratorWithSystemBundlePath"
+- "tableIdentifier"
+- "tablesForLocale:"
+- "tablesForLocale:inBundle:"
+- "textForBraille:locations:"
+- "timeEncodingValue"
+- "title"
+- "translatePrintText:"
+- "translator"
+- "translatorBundles"
+- "underExpression"
+- "unlock"
+- "updateValue:"
+- "upperBound"
+- "uuid"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSAttributedString\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8^{CGImage=}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8B16@20"
+- "v32@0:8{CGSize=dd}16"
+- "v36@0:8f16{CGPoint=dd}20"
+- "v48@0:8d16d24@32@?40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v56@0:8@16@24@32@40@48"
+- "valueDescription"
+- "valueDescriptionProvider"
+- "valueForKey:"
+- "valueWithCategory:"
+- "valueWithNumber:"
+- "valueWithRect:"
+- "valueWithSize:"
+- "volumeEncodingValue"
+- "xAxis"
+- "xValue"
+- "yAxis"
+- "yValue"
+- "zone"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+
+```

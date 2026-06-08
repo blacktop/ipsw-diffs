@@ -1,0 +1,51 @@
+## NPTWiFiDiagnosticsExtension
+
+> `/System/Library/PrivateFrameworks/NPTKit.framework/PlugIns/NPTWiFiDiagnosticsExtension.appex/NPTWiFiDiagnosticsExtension`
+
+```diff
+
+-202.1.0.0.0
+-  __TEXT.__text: 0x6a8
++202.14.0.0.0
++  __TEXT.__text: 0x63c
+   __TEXT.__auth_stubs: 0x170
+   __TEXT.__objc_stubs: 0x380
+   __TEXT.__objc_methlist: 0x80
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x7a
+-  __TEXT.__objc_classname: 0x1e
++  __TEXT.__cstring: 0x7c
++  __TEXT.__objc_classname: 0x1c
+   __TEXT.__objc_methname: 0x2cc
+   __TEXT.__objc_methtype: 0x5f
+   __TEXT.__unwind_info: 0x78
+-  __DATA_CONST.__auth_got: 0xc0
+-  __DATA_CONST.__got: 0x58
+   __DATA_CONST.__const: 0x28
+   __DATA_CONST.__cfstring: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0xc0
++  __DATA_CONST.__got: 0x58
+   __DATA.__objc_const: 0x130
+   __DATA.__objc_selrefs: 0xf8
+   __DATA.__objc_ivar: 0xc
+
+   - /System/Library/PrivateFrameworks/NPTKit.framework/NPTKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6C8C608A-2049-36F6-98ED-35311561264F
++  UUID: FD2986BF-3A99-39CE-B7CB-F24B3A50648C
+   Functions: 12
+   Symbols:   46
+   CStrings:  56
+Symbols:
++ _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleasedReturnValue
+Functions:
+~ sub_100000b6c : 684 -> 644
+~ sub_100000e18 -> sub_100000df0 : 248 -> 236
+~ sub_100000f10 -> sub_100000edc : 132 -> 124
+~ sub_100000f94 -> sub_100000f58 : 440 -> 392
+
+```

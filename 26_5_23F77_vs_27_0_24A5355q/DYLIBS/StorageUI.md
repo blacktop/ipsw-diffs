@@ -1,0 +1,213 @@
+## StorageUI
+
+> `/System/Library/PrivateFrameworks/StorageUI.framework/StorageUI`
+
+```diff
+
+-166.6.1.0.0
+-  __TEXT.__text: 0x13970
+-  __TEXT.__auth_stubs: 0x1090
++174.0.0.0.0
++  __TEXT.__text: 0x133d0
+   __TEXT.__objc_methlist: 0x58
+   __TEXT.__const: 0x11a0
+-  __TEXT.__cstring: 0x867
++  __TEXT.__cstring: 0x7d7
+   __TEXT.__constg_swiftt: 0x468
+-  __TEXT.__swift5_typeref: 0xf4a
++  __TEXT.__swift5_typeref: 0xe66
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_reflstr: 0x3cf
+   __TEXT.__swift5_fieldmd: 0x544
+   __TEXT.__swift5_assocty: 0x180
+   __TEXT.__swift5_proto: 0x90
+   __TEXT.__swift5_types: 0x4c
+-  __TEXT.__oslogstring: 0x219
++  __TEXT.__oslogstring: 0x2a9
+   __TEXT.__swift5_capture: 0x94
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift_as_entry: 0x4
+   __TEXT.__swift_as_ret: 0x4
++  __TEXT.__swift_as_cont: 0xc
+   __TEXT.__unwind_info: 0x5e0
+-  __TEXT.__eh_frame: 0x458
+-  __TEXT.__objc_classname: 0x50
+-  __TEXT.__objc_methname: 0x337
+-  __TEXT.__objc_methtype: 0x7f
+-  __TEXT.__objc_stubs: 0x460
+-  __DATA_CONST.__got: 0x268
++  __TEXT.__eh_frame: 0x508
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x158
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x138
+-  __AUTH_CONST.__auth_got: 0x850
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0xa60
+   __AUTH_CONST.__cfstring: 0x320
+   __AUTH_CONST.__objc_const: 0x268
++  __AUTH_CONST.__auth_got: 0x8f8
+   __AUTH.__objc_data: 0xf0
+   __AUTH.__data: 0x408
+-  __DATA.__data: 0x500
++  __DATA.__data: 0x4d8
+   __DATA.__bss: 0x1268
+   __DATA.__common: 0x68
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C26E1916-C00F-3D57-BB66-AB90F07E50B0
+-  Functions: 512
+-  Symbols:   504
+-  CStrings:  150
++  UUID: B843441B-2666-3A26-BEB8-2570E009EA58
++  Functions: 511
++  Symbols:   535
++  CStrings:  101
+ 
+Symbols:
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.8
++ ___swift_closure_destructorTm
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_StorageUI
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyAA4TextV_AIQPGGAA14_PaddingLayoutVGAA4ViewHPAkaOHPyHC_AmA0J8ModifierHPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA05TupleD0VyACyAA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQOyACyAiAE12onTapGesture5count7performQrSi_yyctFQOy07StorageB00X22GaugeElementBackgroundV_Qo_AA20_HoverRegionModifierVG_AZ0xy4ItemqG0VQo_AA24_BackgroundStyleModifierVyAA5ColorVGG_AA0G8ThatFitsVyAGyACyACyAA4TextVAA14_PaddingLayoutVGAA16_FixedSizeLayoutVG_AA6SpacerVQPGGSgQPGGAA013AccessibilityR8ModifierVGAA12_FrameLayoutVGAaHHPA33_AaHHPA30_AaHHPyHC_A32_AA0G8ModifierHPyHCHC_A35_AAA37_HPyHCHC.9
++ _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGy07StorageB00G22GaugeElementBackgroundVAA01_J13StyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA6CircleVGGAA12_FrameLayoutVGAA012_AspectRatioR0VG_AGyAA4TextVAA022_EnvironmentKeyWritingL0VySiSgGGQPGGAA4ViewHPyHC.2
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x21
++ _objc_retain_x24
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x5
++ _symbolic _____yAAy_____y_____yAAy_____yAAy_____y______Qo______G______Qo______y_____GG______yACyAAyAAy__________G_____G______QPGGSgQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqG0V AA24_BackgroundStyleModifierV AA5ColorV AA0G8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV AA013AccessibilityR8ModifierV AA12_FrameLayoutV
++ _symbolic _____ySbG 7SwiftUI9LazyStateV
++ _symbolic _____ySb_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____y___________y_____y_____yADy_____y______Qo______G______Qo______y_____GG______yACyADyADy__________G_____G______QPGGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentO0OAA0Q0OSgqd__yctAaLRd__lFQO AmAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB029StorageGaugeElementBackgroundV AA20_HoverRegionModifierV A2_016StorageGaugeItemtD0V AA24_BackgroundStyleModifierV AA5ColorV AA0D8ThatFitsV AA4TextV AA08_PaddingG0V AA010_FixedSizeG0V AA6SpacerV
++ _symbolic _____y_____yAAy_____y______Qo______G______Qo______y_____GG______y_____yAAyAAy__________G_____G______QPGGSgt 7SwiftUI15ModifiedContentV AA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentJ0OAA0L0OSgqd__yctAaDRd__lFQO AeAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00V22GaugeElementBackgroundV AA20_HoverRegionModifierV AV0vw4ItemoE0V AA01_Y13StyleModifierV AA5ColorV AA0E8ThatFitsV AA05TupleD0V AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV
++ _symbolic _____y_____y______ACQPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV
++ _symbolic _____y_____y_____yAAy_____yAAy_____y______Qo______G______Qo______y_____GG______yACyAAyAAy__________G_____G______QPGGSgQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqG0V AA24_BackgroundStyleModifierV AA5ColorV AA0G8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV AA013AccessibilityR8ModifierV
++ _symbolic _____y_____y_____yACyACyACy__________y_____GG_____y_____GG_____G_____G_ACy__________ySiSgGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V 07StorageB00G22GaugeElementBackgroundV AA01_J13StyleModifierV AA5ColorV AA11_ClipEffectV AA6CircleV AA12_FrameLayoutV AA012_AspectRatioR0V AA4TextV AA022_EnvironmentKeyWritingL0V
++ _symbolic _____y_____y_____yACy__________G_____G______QPGGSg 7SwiftUI12ViewThatFitsV AA12TupleContentV AA08ModifiedG0V AA4TextV AA14_PaddingLayoutV AA010_FixedSizeK0V AA6SpacerV
++ _symbolic _____y_____y_____y______ADQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yACy_____y______Qo______G______Qo______y_____GG______yAByACyACy__________G_____G______QPGGSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqG0V AA24_BackgroundStyleModifierV AA5ColorV AA0G8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV
+- _OUTLINED_FUNCTION_0
+- ___isOSVersionAtLeast.cold.1
+- ___isPlatformVersionAtLeast.cold.1
+- ___isPlatformVersionAtLeast.cold.2
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_StorageUI
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AItGGAA14_PaddingLayoutVGAA0G0HPAkaOHPyHC_AmA0G8ModifierHPyHCHC.1
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA9TupleViewVyACyAA0G0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQOyACyAiAE12onTapGesture5count7performQrSi_yyctFQOy07StorageB00X22GaugeElementBackgroundV_Qo_AA20_HoverRegionModifierVG_AZ0xy4ItemqG0VQo_AA24_BackgroundStyleModifierVyAA5ColorVGG_AA0G8ThatFitsVyAGyACyACyAA4TextVAA14_PaddingLayoutVGAA16_FixedSizeLayoutVG_AA6SpacerVtGGSgtGGAA013AccessibilityR8ModifierVGAA12_FrameLayoutVGAaHHPA33_AaHHPA30_AaHHPyHC_A32_AA0G8ModifierHPyHCHC_A35_AAA37_HPyHCHC.9
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGy07StorageB00H22GaugeElementBackgroundVAA01_K13StyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA6CircleVGGAA12_FrameLayoutVGAA012_AspectRatioS0VG_AGyAA4TextVAA022_EnvironmentKeyWritingM0VySiSgGGtGGAA0E0HPyHC.2
+- _objc_retain_x22
+- _objectdestroyTm
+- _symbolic _____yAAy_____y_____yAAy_____yAAy_____y______Qo______G______Qo______y_____GG______yACyAAyAAy__________G_____G______tGGSgtGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA0G0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqG0V AA24_BackgroundStyleModifierV AA5ColorV AA0G8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV AA013AccessibilityR8ModifierV AA12_FrameLayoutV
+- _symbolic _____ySbG 7SwiftUI5StateV
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV6_InsetV AA5ColorV AA05EmptyE0V
+- _symbolic _____y___________y_____y_____yADy_____y______Qo______G______Qo______y_____GG______yACyADyADy__________G_____G______tGGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentO0OAA0Q0OSgqd__yctAaLRd__lFQO AmAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB029StorageGaugeElementBackgroundV AA20_HoverRegionModifierV A2_016StorageGaugeItemtD0V AA24_BackgroundStyleModifierV AA5ColorV AA0D8ThatFitsV AA4TextV AA08_PaddingG0V AA010_FixedSizeG0V AA6SpacerV
+- _symbolic _____y_____yAAy_____y______Qo______G______Qo______y_____GG______y_____yAAyAAy__________G_____G______tGGSgt 7SwiftUI15ModifiedContentV AA4ViewPAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentJ0OAA0L0OSgqd__yctAaDRd__lFQO AeAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00V22GaugeElementBackgroundV AA20_HoverRegionModifierV AV0vw4ItemoE0V AA01_Y13StyleModifierV AA5ColorV AA0E8ThatFitsV AA05TupleE0V AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV
+- _symbolic _____y_____yAByAByABy__________y_____GG_____y_____GG_____G_____G_ABy__________ySiSgGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV 07StorageB00G22GaugeElementBackgroundV AA01_J13StyleModifierV AA5ColorV AA11_ClipEffectV AA6CircleV AA12_FrameLayoutV AA012_AspectRatioR0V AA4TextV AA022_EnvironmentKeyWritingL0V
+- _symbolic _____y_____yABy__________G_____G______tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeI0V AA6SpacerV
+- _symbolic _____y_____ySaySi6offset______7elementtGAD_____SgGG 7SwiftUI6HStackV AA7ForEachV 07StorageB013GaugeCategoryV AF0fG8ItemViewV
+- _symbolic _____y_____y______ACtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV
+- _symbolic _____y_____y_____yAAy_____yAAy_____y______Qo______G______Qo______y_____GG______yACyAAyAAy__________G_____G______tGGSgtGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA0G0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqG0V AA24_BackgroundStyleModifierV AA5ColorV AA0G8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV AA013AccessibilityR8ModifierV
+- _symbolic _____y_____y_____yACyACyACy__________y_____GG_____y_____GG_____G_____G_ACy__________ySiSgGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 07StorageB00H22GaugeElementBackgroundV AA01_K13StyleModifierV AA5ColorV AA11_ClipEffectV AA6CircleV AA12_FrameLayoutV AA012_AspectRatioS0V AA4TextV AA022_EnvironmentKeyWritingM0V
+- _symbolic _____y_____y_____yACy__________G_____G______tGG 7SwiftUI12ViewThatFitsV AA05TupleC0V AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeK0V AA6SpacerV
+- _symbolic _____y_____y_____yACy__________G_____G______tGGSg 7SwiftUI12ViewThatFitsV AA05TupleC0V AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FixedSizeK0V AA6SpacerV
+- _symbolic _____y_____y_____y______ADtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____yACy_____y______Qo______G______Qo______y_____GG______yAByACyACy__________G_____G______tGGSgtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaHRd__lFQO AiAE12onTapGesture5count7performQrSi_yyctFQO 07StorageB00X22GaugeElementBackgroundV AA20_HoverRegionModifierV AZ0xy4ItemqE0V AA24_BackgroundStyleModifierV AA5ColorV AA0E8ThatFitsV AA4TextV AA14_PaddingLayoutV AA16_FixedSizeLayoutV AA6SpacerV
+CStrings:
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+- "@\"UIColor\"16@?0@\"UITraitCollection\"8"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "SAAppSizerMock"
+- "SAURLSizerMock"
+- "SAVolumeSizerMock"
+- "_TtC9StorageUI15FollowupMonitor"
+- "bundleWithIdentifier:"
+- "computeSizeOfVolumeAtURL:completionHandler:"
+- "controller"
+- "dictionaryWithObjects:forKeys:count:"
+- "fileURLWithPath:"
+- "getHue:saturation:brightness:alpha:"
+- "getRed:green:blue:alpha:"
+- "informativeText"
+- "init"
+- "initWithCGColor:"
+- "initWithDynamicProvider:"
+- "initWithWhite:alpha:"
+- "integerValue"
+- "localizedStringForKey:value:table:"
+- "notification"
+- "numberWithBool:"
+- "numberWithUnsignedLong:"
+- "objectForKeyedSubscript:"
+- "opaqueSeparatorColor"
+- "pendingFollowUpItemsWithCompletion:"
+- "setAppData:"
+- "setCountStyle:"
+- "setDataSize:"
+- "setDateStyle:"
+- "setDoesRelativeDateFormatting:"
+- "setFixedSize:"
+- "setFormattingContext:"
+- "setSize:"
+- "setTimeStyle:"
+- "setUrlInfo:"
+- "setWithObject:"
+- "startObservingURLs:withUpdateHandler:"
+- "startObservingWithUpdateHandler:"
+- "stopObserving"
+- "stringFromByteCount:"
+- "stringFromDate:"
+- "systemGroupedBackgroundColor"
+- "title"
+- "uniqueIdentifier"
+- "userInterfaceStyle"
+- "v16@0:8"
+- "v24@0:8@?16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v32@0:8@16@?24"
+
+```

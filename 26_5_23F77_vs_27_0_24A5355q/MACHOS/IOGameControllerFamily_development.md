@@ -1,0 +1,231 @@
+## IOGameControllerFamily_development
+
+> `/System/Library/Extensions/IOGameControllerFamily.kext/IOGameControllerFamily_development`
+
+```diff
+
+-13.5.1.0.0
++14.0.14.0.0
+   __TEXT.__const: 0x480
+-  __TEXT.__cstring: 0x242d
+-  __TEXT.__os_log: 0x85e6
+-  __TEXT_EXEC.__text: 0x27748
+-  __TEXT_EXEC.__auth_stubs: 0x520
++  __TEXT.__cstring: 0x279e
++  __TEXT.__os_log: 0x901a
++  __TEXT_EXEC.__text: 0x2a57c
++  __TEXT_EXEC.__auth_stubs: 0x540
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x268
+-  __DATA.__bss: 0x10
+-  __DATA_CONST.__auth_got: 0x290
++  __DATA.__common: 0x2b8
++  __DATA.__bss: 0x18
++  __DATA_CONST.__mod_init_func: 0x60
++  __DATA_CONST.__mod_term_func: 0x60
++  __DATA_CONST.__const: 0x62b8
++  __DATA_CONST.__kalloc_type: 0x880
++  __DATA_CONST.__auth_got: 0x2a0
+   __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__mod_init_func: 0x50
+-  __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0x5578
+-  __DATA_CONST.__kalloc_type: 0x800
+-  UUID: C3E871B5-2DBA-3DA8-82D7-DDF37A0432BF
+-  Functions: 912
+-  Symbols:   2016
+-  CStrings:  576
++  UUID: BB1AF34B-2E0D-3AC7-923D-F552E2D4B5E2
++  Functions: 990
++  Symbols:   2171
++  CStrings:  614
+ 
+Symbols:
++ _GLOBAL__sub_I_IOGCDynamicDeviceProbe.cpp
++ _GLOBAL__sub_I_IOGCDynamicDeviceProbeUserClient.cpp
++ _ZN22IOGCDynamicDeviceProbe5probeEP9IOServicePi.cold.1
++ _ZN22IOGCDynamicDeviceProbe5startEP9IOService.cold.1
++ _ZN22IOGCDynamicDeviceProbe5startEP9IOService.cold.2
++ _ZN22IOGCDynamicDeviceProbe5startEP9IOService.cold.3
++ _ZN22IOGCDynamicDeviceProbe5startEP9IOService.cold.4
++ _ZN32IOGCDynamicDeviceProbeUserClient12initWithTaskEP4taskPvj.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArguments.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArguments.cold.2
++ _ZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArguments.cold.3
++ _ZN32IOGCDynamicDeviceProbeUserClient14externalMethodEjP31IOExternalMethodArgumentsOpaque.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient17_userAcceptDeviceEPS_PvP25IOExternalMethodArguments.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient17_userRejectDeviceEPS_PvP25IOExternalMethodArguments.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.2
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.3
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.4
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.5
++ _ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments.cold.6
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.1
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.2
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.3
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.4
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.5
++ _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.6
++ __ZL26IOGCDynamicDeviceProbe_ktv
++ __ZL36IOGCDynamicDeviceProbeUserClient_ktv
++ __ZN12IOUserClient19clientMemoryForTypeEjPjPP18IOMemoryDescriptor
++ __ZN22IOGCDynamicDeviceProbe10gMetaClassE
++ __ZN22IOGCDynamicDeviceProbe10handleOpenEP9IOServicejPv
++ __ZN22IOGCDynamicDeviceProbe10superClassE
++ __ZN22IOGCDynamicDeviceProbe11handleCloseEP9IOServicej
++ __ZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionary
++ __ZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicej
++ __ZN22IOGCDynamicDeviceProbe4stopEP9IOService
++ __ZN22IOGCDynamicDeviceProbe5probeEP9IOServicePi
++ __ZN22IOGCDynamicDeviceProbe5startEP9IOService
++ __ZN22IOGCDynamicDeviceProbe9MetaClassC1Ev
++ __ZN22IOGCDynamicDeviceProbe9MetaClassC2Ev
++ __ZN22IOGCDynamicDeviceProbe9MetaClassD0Ev
++ __ZN22IOGCDynamicDeviceProbe9MetaClassD1Ev
++ __ZN22IOGCDynamicDeviceProbe9getDeviceEv
++ __ZN22IOGCDynamicDeviceProbe9metaClassE
++ __ZN22IOGCDynamicDeviceProbeC1EPK11OSMetaClass
++ __ZN22IOGCDynamicDeviceProbeC1Ev
++ __ZN22IOGCDynamicDeviceProbeC2EPK11OSMetaClass
++ __ZN22IOGCDynamicDeviceProbeC2Ev
++ __ZN22IOGCDynamicDeviceProbeD0Ev
++ __ZN22IOGCDynamicDeviceProbeD1Ev
++ __ZN22IOGCDynamicDeviceProbeD2Ev
++ __ZN22IOGCDynamicDeviceProbedlEPvm
++ __ZN22IOGCDynamicDeviceProbenwEm
++ __ZN32IOGCDynamicDeviceProbeUserClient10gMetaClassE
++ __ZN32IOGCDynamicDeviceProbeUserClient10superClassE
++ __ZN32IOGCDynamicDeviceProbeUserClient11clientCloseEv
++ __ZN32IOGCDynamicDeviceProbeUserClient12didTerminateEP9IOServicejPb
++ __ZN32IOGCDynamicDeviceProbeUserClient12initWithTaskEP4taskPvj
++ __ZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArguments
++ __ZN32IOGCDynamicDeviceProbeUserClient14externalMethodEjP31IOExternalMethodArgumentsOpaque
++ __ZN32IOGCDynamicDeviceProbeUserClient17_userAcceptDeviceEPS_PvP25IOExternalMethodArguments
++ __ZN32IOGCDynamicDeviceProbeUserClient17_userRejectDeviceEPS_PvP25IOExternalMethodArguments
++ __ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments
++ __ZN32IOGCDynamicDeviceProbeUserClient40createMemoryDescriptorFromInputArgumentsEP25IOExternalMethodArguments
++ __ZN32IOGCDynamicDeviceProbeUserClient4freeEv
++ __ZN32IOGCDynamicDeviceProbeUserClient4stopEP9IOService
++ __ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService
++ __ZN32IOGCDynamicDeviceProbeUserClient8_methodsE
++ __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassC1Ev
++ __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassC2Ev
++ __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassD0Ev
++ __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassD1Ev
++ __ZN32IOGCDynamicDeviceProbeUserClient9metaClassE
++ __ZN32IOGCDynamicDeviceProbeUserClientC1EPK11OSMetaClass
++ __ZN32IOGCDynamicDeviceProbeUserClientC1Ev
++ __ZN32IOGCDynamicDeviceProbeUserClientC2EPK11OSMetaClass
++ __ZN32IOGCDynamicDeviceProbeUserClientC2Ev
++ __ZN32IOGCDynamicDeviceProbeUserClientD0Ev
++ __ZN32IOGCDynamicDeviceProbeUserClientD1Ev
++ __ZN32IOGCDynamicDeviceProbeUserClientD2Ev
++ __ZN32IOGCDynamicDeviceProbeUserClientdlEPvm
++ __ZN32IOGCDynamicDeviceProbeUserClientnwEm
++ __ZNK22IOGCDynamicDeviceProbe12getMetaClassEv
++ __ZNK22IOGCDynamicDeviceProbe9MetaClass5allocEv
++ __ZNK32IOGCDynamicDeviceProbeUserClient12getMetaClassEv
++ __ZNK32IOGCDynamicDeviceProbeUserClient9MetaClass5allocEv
++ __ZTV22IOGCDynamicDeviceProbe
++ __ZTV32IOGCDynamicDeviceProbeUserClient
++ __ZTVN22IOGCDynamicDeviceProbe9MetaClassE
++ __ZTVN32IOGCDynamicDeviceProbeUserClient9MetaClassE
++ __ZZN22IOGCDynamicDeviceProbe10handleOpenEP9IOServicejPvE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe11handleCloseEP9IOServicejE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionaryE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicejE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe5probeEP9IOServicePiE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe5probeEP9IOServicePiE11_os_log_fmt_0
++ __ZZN22IOGCDynamicDeviceProbe5probeEP9IOServicePiE11_os_log_fmt_1
++ __ZZN22IOGCDynamicDeviceProbe5probeEP9IOServicePiE11_os_log_fmt_2
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_0
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_1
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_2
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_3
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_4
++ __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_5
++ __ZZN32IOGCDynamicDeviceProbeUserClient11clientCloseEvE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient12didTerminateEP9IOServicejPbE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient12initWithTaskEP4taskPvjE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt_0
++ __ZZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt_1
++ __ZZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt_2
++ __ZZN32IOGCDynamicDeviceProbeUserClient14externalMethodEjP31IOExternalMethodArgumentsOpaqueE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient17_userAcceptDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient17_userAcceptDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt_0
++ __ZZN32IOGCDynamicDeviceProbeUserClient17_userRejectDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient17_userRejectDeviceEPS_PvP25IOExternalMethodArgumentsE11_os_log_fmt_0
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_0
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_1
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_2
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_3
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_4
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_5
++ __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt_6
++ __ZZN32IOGCDynamicDeviceProbeUserClient4stopEP9IOServiceE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_0
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_1
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_2
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_3
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_4
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_5
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_6
++ __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_7
++ __ZZZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionaryEUb0_E11_os_log_fmt
++ __ZZZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionaryEUb0_E11_os_log_fmt_0
++ __ZZZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicejEUb_E11_os_log_fmt
++ __ZZZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicejEUb_E11_os_log_fmt_0
++ ___ZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionary_block_invoke.cold.1
++ ___ZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicej_block_invoke.cold.1
++ ____ZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionary_block_invoke
++ ____ZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicej_block_invoke
++ __gc_log_dynamic_device
++ _gc_log_dynamic_device.Log
++ _strlen
++ _strncmp
+CStrings:
++ "((IOGCDynamicDeviceProbe *) OSMetaClassBase::safeMetaCast((provider), (IOGCDynamicDeviceProbe::metaClass)))"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreController_kext/IOGameControllerFamily/Device/Dynamic/IOGCDynamicDeviceProbe.cpp"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreController_kext/IOGameControllerFamily/Device/Dynamic/IOGCDynamicDeviceProbeUserClient.cpp"
++ "12111112122212121112"
++ "CFBundleIdentifier"
++ "DynamicDevice"
++ "GCSyntheticDevice"
++ "GameControllerClass"
++ "GameControllerSupportedHIDDevice"
++ "IOGCDynamicDeviceProbe"
++ "IOGCDynamicDeviceProbe not matching on <IOHIDDevice %#010llx> created by '%s'."
++ "IOGCDynamicDeviceProbe not matching on <IOHIDDevice %#010llx> unprivileged virtual device."
++ "IOGCDynamicDeviceProbe::probe(<IOHIDDevice %#010llx>)"
++ "IOGCDynamicDeviceProbeUserClient"
++ "IOGCDynamicDeviceProbeUserClient provider must be IOGCDynamicDeviceProbe."
++ "IOUserClass"
++ "Privileged"
++ "Rapport"
++ "[%#010llx] ::_userAcceptDevice()"
++ "[%#010llx] ::_userGetDevice()"
++ "[%#010llx] ::_userRejectDevice()"
++ "[%#010llx] ::didTerminate()"
++ "[%#010llx] <IOHIDDevice %#010llx> already probed."
++ "[%#010llx] Failed to open provider."
++ "[%#010llx] IOGCDynamicDeviceProbe::start(<IOService %#010llx>)"
++ "[%#010llx] IOGCDynamicDeviceProbeUserClient::start(<IOService %#010llx>) for pid %i, %s"
++ "[%#010llx] IOGCInspectionService::handleClose(<IOService %#010llx>)"
++ "[%#010llx] IOGCInspectionService::handleOpen(<IOService %#010llx>)"
++ "[%#010llx] IOGCInspectionService::markSupported(<IOService %#010llx>)"
++ "[%#010llx] IOGCInspectionService::markUnsupported(<IOService %#010llx>)"
++ "_Privileged"
++ "com.apple."
++ "com.apple.private.game-controller.dynamic-device-manager"
++ "dynamic"
++ "mfi"
++ "provider->open(this)"
++ "site.IOGCDynamicDeviceProbe"
++ "site.IOGCDynamicDeviceProbeUserClient"
+
+```

@@ -1,0 +1,776 @@
+## AskPermission
+
+> `/System/Library/PrivateFrameworks/AskPermission.framework/AskPermission`
+
+```diff
+
+-129.5.3.0.0
+-  __TEXT.__text: 0x11a2c
+-  __TEXT.__auth_stubs: 0x730
+-  __TEXT.__objc_methlist: 0xec4
+-  __TEXT.__const: 0x212
+-  __TEXT.__gcc_except_tab: 0x30c
+-  __TEXT.__cstring: 0xba8
++130.0.18.0.0
++  __TEXT.__text: 0x9cf8
++  __TEXT.__objc_methlist: 0xe44
++  __TEXT.__const: 0x88
++  __TEXT.__gcc_except_tab: 0x1c8
++  __TEXT.__cstring: 0x876
+   __TEXT.__oslogstring: 0xd1c
+-  __TEXT.__swift5_typeref: 0x162
+-  __TEXT.__constg_swiftt: 0x48
+-  __TEXT.__swift5_fieldmd: 0x10
+-  __TEXT.__swift5_capture: 0x198
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__swift_as_entry: 0x2c
+-  __TEXT.__swift_as_ret: 0x2c
+-  __TEXT.__unwind_info: 0x520
+-  __TEXT.__eh_frame: 0x420
+-  __TEXT.__objc_classname: 0x1ed
+-  __TEXT.__objc_methname: 0x2941
+-  __TEXT.__objc_methtype: 0x8ee
+-  __TEXT.__objc_stubs: 0x1880
+-  __DATA_CONST.__got: 0x140
+-  __DATA_CONST.__const: 0x488
+-  __DATA_CONST.__objc_classlist: 0x70
+-  __DATA_CONST.__objc_catlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x48
++  __TEXT.__unwind_info: 0x2d0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x420
++  __DATA_CONST.__objc_classlist: 0x68
++  __DATA_CONST.__objc_catlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa10
+-  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_selrefs: 0x9a0
++  __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x3a8
+-  __AUTH_CONST.__const: 0x450
+-  __AUTH_CONST.__cfstring: 0xf60
+-  __AUTH_CONST.__objc_const: 0x17f8
++  __DATA_CONST.__got: 0x120
++  __AUTH_CONST.__const: 0x40
++  __AUTH_CONST.__cfstring: 0xf80
++  __AUTH_CONST.__objc_const: 0x1750
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0x3d8
+-  __AUTH.__data: 0x28
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x320
+   __DATA.__objc_ivar: 0xd8
+-  __DATA.__data: 0x358
+-  __DATA.__bss: 0x70
+-  __DATA.__common: 0x20
++  __DATA.__data: 0x2a0
++  __DATA.__bss: 0x60
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+-  - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 87AD4989-6882-30FA-B1D8-FA1F04A73B79
+-  Functions: 396
+-  Symbols:   1267
+-  CStrings:  889
++  UUID: 06CB3F2B-5B19-3852-8C79-AF4F2D4DCAAE
++  Functions: 268
++  Symbols:   1124
++  CStrings:  324
+ 
+Symbols:
++ ___44-[APConnectionNotifier _newRemoteConnection]_block_invoke.101
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _os_variant_has_internal_content
+- _AMSError
+- _AMSSetLogKeyIfNeeded
+- _OBJC_CLASS_$_STExceptionApp
+- _OBJC_CLASS_$__TtC13AskPermission25ExportedScreenTimeMonitor
+- _OBJC_METACLASS_$__TtC13AskPermission25ExportedScreenTimeMonitor
+- __Block_copy
+- __Block_release
+- __CATEGORY_CLASS_METHODS_STExceptionApp_$_AskPermission
+- __CATEGORY_INSTANCE_METHODS_STExceptionApp_$_AskPermission
+- __CATEGORY_STExceptionApp_$_AskPermission
+- __DATA__TtC13AskPermission25ExportedScreenTimeMonitor
+- __INSTANCE_METHODS__TtC13AskPermission25ExportedScreenTimeMonitor
+- __METACLASS_DATA__TtC13AskPermission25ExportedScreenTimeMonitor
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_STAppExceptionsUpdateMonitoring
+- __OBJC_$_PROTOCOL_METHOD_TYPES_STAppExceptionsUpdateMonitoring
+- __OBJC_LABEL_PROTOCOL_$_STAppExceptionsUpdateMonitoring
+- __OBJC_PROTOCOL_$_STAppExceptionsUpdateMonitoring
+- __PROTOCOLS__TtC13AskPermission25ExportedScreenTimeMonitor
+- __PROTOCOLS__TtC13AskPermission25ExportedScreenTimeMonitor.10
+- ___44-[APConnectionNotifier _newRemoteConnection]_block_invoke.99
+- ___chkstk_darwin
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_value_buffer
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_AskPermission
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_AskPermission
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_AskPermission
+- _block_copy_helper
+- _block_copy_helper.104
+- _block_copy_helper.110
+- _block_copy_helper.86
+- _block_copy_helper.92
+- _block_copy_helper.98
+- _block_descriptor
+- _block_descriptor.100
+- _block_descriptor.106
+- _block_descriptor.112
+- _block_descriptor.88
+- _block_descriptor.94
+- _block_destroy_helper
+- _block_destroy_helper.105
+- _block_destroy_helper.111
+- _block_destroy_helper.87
+- _block_destroy_helper.93
+- _block_destroy_helper.99
+- _flat unique So31STAppExceptionsUpdateMonitoring_p
+- _objc_allocWithZone
+- _objc_msgSend$activate
+- _objc_msgSend$addExceptionFor:completionHandler:
+- _objc_msgSend$asynchronousExceptionServiceWithErrorHandler:
+- _objc_msgSend$deleteExceptionFor:completionHandler:
+- _objc_msgSend$exceptionConnection
+- _objc_msgSend$exportedObject
+- _objc_msgSend$fetchAllAppExceptionsForRequesterDSID:completionHandler:
+- _objc_msgSend$fetchExceptionsForRequesterDSID:adamID:completionHandler:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_opt_self
+- _objectdestroy.14Tm
+- _objectdestroy.81Tm
+- _objectdestroyTm
+- _swift_allocBox
+- _swift_allocObject
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_deallocObject
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getErrorValue
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getTypeByMangledNameInContext2
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_slowAlloc
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _symbolic IeAgH_
+- _symbolic IeghH_
+- _symbolic SaySo14STExceptionAppCG
+- _symbolic ScA_pSg
+- _symbolic ScCySaySo14STExceptionAppCG______pG s5ErrorP
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScPSg
+- _symbolic So14STExceptionAppC
+- _symbolic So14STExceptionAppCXMT
+- _symbolic So14STExceptionAppCXMo
+- _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_
+- _symbolic So7NSErrorCSgIeyBy_
+- _symbolic So8NSNumberC
+- _symbolic So8NSObjectC
+- _symbolic _____ 13AskPermission25ExportedScreenTimeMonitorC
+- _symbolic _____ s6UInt64V
+- _symbolic ______p So31STAppExceptionsUpdateMonitoringP
+- _symbolic ______pm So31STAppExceptionsUpdateMonitoringP
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18AppleMediaServices16LogInterpolationV
+- _symbolic ypSg
+- _symbolic ytIeAgHr_
+CStrings:
++ "<redacted>"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<PRRequestDelegate>\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSExtensionContext\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"NSXPCConnection\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^{__CFString=}24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16@24@32@40"
+- "APAskToAgeRestrictionMetadata"
+- "APConnectionNotifier"
+- "APDefaults"
+- "APLogConfig"
+- "APMetricsEvent"
+- "APMutableLogConfig"
+- "APRemoteApprovalBiometricsMetricsEvent"
+- "APRemoteApprovalPasswordEntryMetricsEvent"
+- "APRequestExtension"
+- "APRequestHandler"
+- "APResult"
+- "APSDevelopmentEnvironment"
+- "Activating connection:"
+- "Adding exception"
+- "AskPermission"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B28@0:8@16B24"
+- "B36@0:8@16B24^{__CFString=}28"
+- "Connection activated:"
+- "Connection has no exported object:"
+- "ConnectionProtocol"
+- "Creating exception service"
+- "Deleting exception:"
+- "Error adding exception:"
+- "Error creating exception service:"
+- "Error deleting exception:"
+- "Error fetching exceptions:"
+- "Exporting Interface:"
+- "Exporting Object:"
+- "Fetching exceptions for DSID:"
+- "NSCoding"
+- "NSCopying"
+- "NSExtensionRequestHandling"
+- "NSMutableCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "OSLogObject"
+- "PRRequest"
+- "PRRequestQueue"
+- "Q"
+- "Q16@0:8"
+- "Received STAppExceptionsUpdateMonitoring.appExceptionsDidUpdate"
+- "Received neither an error nor exceptions"
+- "Returning exception service:"
+- "STAppExceptionsUpdateMonitoring"
+- "Successfully added exception"
+- "Successfully deleted exception."
+- "Successfully fetched exceptions:"
+- "T#,R"
+- "T@\"<ConnectionProtocol>\",R,N"
+- "T@\"<PRRequestDelegate>\",W,N,V_delegate"
+- "T@\"APConnectionNotifier\",R,N"
+- "T@\"NSData\",&,N,V_authenticationContextData"
+- "T@\"NSDate\",C,V_dateAddedToLocalCache"
+- "T@\"NSDictionary\",C,V_requestInfo"
+- "T@\"NSExtensionContext\",&,N,V_extensionContext"
+- "T@\"NSNumber\",C,V_requesterDSID"
+- "T@\"NSNumber\",C,V_responderDSID"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_propertyAccessQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_connectionQueue"
+- "T@\"NSObject<OS_os_log>\",&,N,V_backingOSLogObject"
+- "T@\"NSObject<OS_os_log>\",R,N"
+- "T@\"NSString\",&,N,V_accountID"
+- "T@\"NSString\",&,N,V_ageRatingString"
+- "T@\"NSString\",&,N,V_appBundleID"
+- "T@\"NSString\",&,N,V_appName"
+- "T@\"NSString\",&,N,V_askerName"
+- "T@\"NSString\",&,N,V_clientID"
+- "T@\"NSString\",&,N,V_developerID"
+- "T@\"NSString\",&,N,V_developerName"
+- "T@\"NSString\",&,N,V_distributorBundleID"
+- "T@\"NSString\",&,N,V_distributorDomain"
+- "T@\"NSString\",&,N,V_distributorID"
+- "T@\"NSString\",&,N,V_distributorName"
+- "T@\"NSString\",&,N,V_distributorType"
+- "T@\"NSString\",&,N,V_installTypeRawValue"
+- "T@\"NSString\",&,N,V_installVerificationToken"
+- "T@\"NSString\",&,N,V_oAuthToken"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",C,N,V_category"
+- "T@\"NSString\",C,N,V_subsystem"
+- "T@\"NSString\",C,V_ask"
+- "T@\"NSString\",C,V_clientIdentifier"
+- "T@\"NSString\",C,V_requestID"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N,V_bundleIdentifier"
+- "T@\"NSString\",R,N,V_buyParams"
+- "T@\"NSString\",R,N,V_itemIdentifier"
+- "T@\"NSString\",R,N,V_productType"
+- "T@\"NSString\",R,V_identifier"
+- "T@\"NSString\",R,V_statusDescription"
+- "T@\"NSURL\",&,N,V_appShareURL"
+- "T@\"NSURL\",&,N,V_developerSupportURL"
+- "T@\"NSURL\",&,N,V_distributorIconURL"
+- "T@\"NSURL\",&,N,V_referrer"
+- "T@\"NSURL\",&,N,V_requestedAppIconURL"
+- "T@\"NSURL\",&,N,V_url"
+- "T@\"NSXPCConnection\",&,N,V_underlyingRemoteConnection"
+- "TB,N"
+- "TB,N,V_allowAccountPrompt"
+- "TB,N,V_isDistributor"
+- "TB,N,V_isWebApp"
+- "TB,N,V_userInitiatedOverride"
+- "TB,R"
+- "TB,V_requestedOnThisDevice"
+- "TQ,N"
+- "TQ,N,V_appItemID"
+- "TQ,N,V_appVersionID"
+- "TQ,N,V_itemIDFromButtonConfiguration"
+- "TQ,N,V_originallyRequestedVersionID"
+- "TQ,R"
+- "TQ,V_requestStatus"
+- "URL"
+- "URLHostAllowedCharacterSet"
+- "URLWithString:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC13AskPermission25ExportedScreenTimeMonitor"
+- "_accountID"
+- "_ageRatingString"
+- "_allowAccountPrompt"
+- "_appBundleID"
+- "_appItemID"
+- "_appName"
+- "_appShareURL"
+- "_appVersionID"
+- "_ask"
+- "_askerName"
+- "_attemptLocalApprovalForStorePurchaseRequestWithAdamID:completionHandler:"
+- "_attemptLocalApprovalForStorePurchaseRequestWithItemIdentifier:completionHandler:"
+- "_authenticationContextData"
+- "_backingOSLogObject"
+- "_boolForKey:defaultValue:"
+- "_boolForKey:defaultValue:domain:"
+- "_bundleIdentifier"
+- "_buyParams"
+- "_category"
+- "_clearCachedRequests"
+- "_clientID"
+- "_clientIdentifier"
+- "_connectionQueue"
+- "_createLogConfigWithBaseConfig:subystem:category:"
+- "_createLogConfigWithSubsystem:category:"
+- "_dateAddedToLocalCache"
+- "_delegate"
+- "_deleteTestValueFromTouchIDKeychain"
+- "_developerID"
+- "_developerName"
+- "_developerSupportURL"
+- "_didReceiveStorePushNotificationWithPayload:"
+- "_didStartNewPurchaseRequestWithInfo:"
+- "_distributorBundleID"
+- "_distributorDomain"
+- "_distributorID"
+- "_distributorIconURL"
+- "_distributorName"
+- "_distributorType"
+- "_extensionContext"
+- "_finish"
+- "_identifier"
+- "_installTypeRawValue"
+- "_installVerificationToken"
+- "_integerForKey:defaultValue:"
+- "_integerForKey:defaultValue:domain:"
+- "_isDistributor"
+- "_isWebApp"
+- "_itemIDFromButtonConfiguration"
+- "_itemIdentifier"
+- "_newRemoteConnection"
+- "_oAuthToken"
+- "_originallyRequestedVersionID"
+- "_pendingStorePurchaseRequestForItemIdentifier:replyBlock:"
+- "_productType"
+- "_propertyAccessQueue"
+- "_pushToken"
+- "_readTestValueFromTouchIDKeychain"
+- "_referrer"
+- "_registerPushToken"
+- "_remoteConnection"
+- "_requestID"
+- "_requestInfo"
+- "_requestQueueForIdentifier:"
+- "_requestStatus"
+- "_requestToBePresentedWithReply:"
+- "_requestedAppIconURL"
+- "_requestedOnThisDevice"
+- "_requesterDSID"
+- "_responderDSID"
+- "_setBool:forKey:"
+- "_setBool:forKey:domain:"
+- "_setInteger:forKey:"
+- "_setValue:forKey:"
+- "_setValue:forKey:domain:"
+- "_statusDescription"
+- "_subsystem"
+- "_underlyingRemoteConnection"
+- "_url"
+- "_userDidApproveRequestWithRequestID:"
+- "_userDidDenyRequestWithRequestID:"
+- "_userInitiatedOverride"
+- "_valueForKey:"
+- "_valueForKey:domain:"
+- "_writeTestValueToTouchIDKeychain"
+- "absoluteString"
+- "activate"
+- "addExceptionFor:completionHandler:"
+- "addExceptionRequestWithUUID:type:bundleIdentifier:adamID:distributorID:ageRatingValue:withCompletion:"
+- "addExceptionRequestWithUUID:type:bundleIdentifier:withCompletion:"
+- "addExceptionRequestWithUUID:type:title:message:bundleIdentifier:adamID:distributorID:ageRatingValue:preApprove:postApprove:preDecline:postDecline:responseBundleIdentifier:metadata:withCompletion:"
+- "addExceptionWithCompletionHandler:"
+- "addObject:"
+- "addRequestWithURL:account:completion:"
+- "allKeys"
+- "allocWithZone:"
+- "ams_DSID"
+- "ams_storefront"
+- "ap_addNullableObject:"
+- "ap_generateDescriptionWithSubObjects:"
+- "ap_percentEncodedString"
+- "ap_secureURL"
+- "ap_setNullableObject:forKey:"
+- "ap_setNullableValue:forHTTPHeaderField:"
+- "appExceptionsDidUpdate"
+- "appendFormat:"
+- "appendString:"
+- "arrayWithObjects:count:"
+- "ask"
+- "askPermissionTo:withRequestInfo:completionHandler:"
+- "asynchronousExceptionServiceWithErrorHandler:"
+- "attemptLocalApprovalForRequest:completionHandler:"
+- "autorelease"
+- "backingOSLogObject"
+- "base64EncodedStringWithOptions:"
+- "beginRequestWithExtensionContext:"
+- "boolValue"
+- "buildVersion"
+- "buyParamsWithString:"
+- "cacheRepresentation"
+- "caseInsensitiveCompare:"
+- "category"
+- "checkDownloadQueueWithContentType:"
+- "checkDownloadQueueWithContentType:completion:"
+- "class"
+- "clearExceptionRequestsWithCompletion:"
+- "clientIdentifier"
+- "compile"
+- "completeRequestReturningItems:completionHandler:"
+- "componentsSeparatedByString:"
+- "componentsWithURL:resolvingAgainstBaseURL:"
+- "conformsToProtocol:"
+- "connectionQueue"
+- "continueWithBlock:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "dateAddedToLocalCache"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeInt64ForKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultRequestQueue"
+- "delegate"
+- "deleteException(_:)"
+- "deleteException:completionHandler:"
+- "deleteExceptionFor:completionHandler:"
+- "description"
+- "dictionaryWithDictionary:"
+- "didReceiveStorePushNotificationWithPayload:"
+- "encodeBool:forKey:"
+- "encodeInt64:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "exceptionConnection"
+- "exportedObject"
+- "extensionContext"
+- "fetchAllAppExceptionsForRequesterDSID:completionHandler:"
+- "fetchExceptions(forRequesterDSID:)"
+- "fetchExceptions(forRequesterDSID:adamID:)"
+- "fetchExceptionsForRequesterDSID:adamID:completionHandler:"
+- "fetchExceptionsForRequesterDSID:completionHandler:"
+- "firstObject"
+- "generateEventFieldsForKeys:"
+- "getCachedRequestsWithCompletion:"
+- "getExceptionRequestWithDistributorIdentifier:completionHandler:"
+- "getExceptionRequestWithUniqueIdentifier:completionHandler:"
+- "getExceptionRequestsWithBundleIdentifier:completionHandler:"
+- "getExceptionRequestsWithCompletion:"
+- "getMatchingRequestsWithIdentifier:completion:"
+- "getRequestWithIdentifier:completion:"
+- "getRequestWithItemIdentifier:completion:"
+- "hash"
+- "identifier"
+- "identifierForAccount:bag:bagNamespace:keyName:"
+- "identifierStoreWithAccount:bagNamespace:bag:"
+- "init"
+- "initWithAccount:request:"
+- "initWithAsk:requestInfo:"
+- "initWithBase64EncodedString:options:"
+- "initWithBundleIdentifier:buyParams:itemIdentifier:productType:"
+- "initWithCacheRepresentation:"
+- "initWithCoder:"
+- "initWithDictionary:"
+- "initWithFormat:"
+- "initWithMachServiceName:options:"
+- "initWithTopic:"
+- "inputItems"
+- "interfaceWithProtocol:"
+- "isAuthenticated"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "keyWithName:crossDeviceSync:"
+- "length"
+- "lineOfBusiness"
+- "localApproveExceptionWithUniqueIdentifier:completionHandler:"
+- "localApproveRequestWithItemIdentifier:completion:"
+- "metricsApp"
+- "metricsEventWithAccount:request:"
+- "metricsID"
+- "metricsTopic"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "nonIdentifiableMetricsFieldsForAccount:"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "objectForKeyedSubscript:"
+- "operatingSystem"
+- "pendingRequestsWithCompletionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "presentApprovalSheetWithRequestIdentifier:completion:"
+- "presentProductPageWithTitle:body:approve:decline:itemIdentifier:previewURL:offerName:requestString:requestSummary:priceSummary:isException:"
+- "promiseWithError:"
+- "promiseWithResult:"
+- "propertyAccessQueue"
+- "q32@0:8@16q24"
+- "q40@0:8@16q24^{__CFString=}32"
+- "release"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "requestID"
+- "requestInfo"
+- "requestStatus"
+- "requestUpdatedWithResult:completion:"
+- "requestedOnThisDevice"
+- "requesterDSID"
+- "resetAccountWithType:"
+- "responderDSID"
+- "respondsToSelector:"
+- "restartAPNSConnection"
+- "resume"
+- "retain"
+- "retainCount"
+- "retryNotificationRegistration"
+- "self"
+- "setAPSDevelopmentEnvironment:"
+- "setAccountID:"
+- "setAgeRatingString:"
+- "setAllowAccountPrompt:"
+- "setAppBundleID:"
+- "setAppItemID:"
+- "setAppName:"
+- "setAppShareURL:"
+- "setAppVersionID:"
+- "setAsk:"
+- "setAskerName:"
+- "setAuthenticationContextData:"
+- "setBackingOSLogObject:"
+- "setCategory:"
+- "setClientID:"
+- "setClientIdentifier:"
+- "setDateAddedToLocalCache:"
+- "setDelegate:"
+- "setDeveloperID:"
+- "setDeveloperName:"
+- "setDeveloperSupportURL:"
+- "setDistributorBundleID:"
+- "setDistributorDomain:"
+- "setDistributorID:"
+- "setDistributorIconURL:"
+- "setDistributorName:"
+- "setDistributorType:"
+- "setEventVersion:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setExtensionContext:"
+- "setIncludeAccountMatchStatus:"
+- "setInstallTypeRawValue:"
+- "setInstallVerificationToken:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsApprover:"
+- "setIsDistributor:"
+- "setIsRequester:"
+- "setIsWebApp:"
+- "setItemIDFromButtonConfiguration:"
+- "setNotificationEnvironment:"
+- "setOAuthToken:"
+- "setObject:forKeyedSubscript:"
+- "setOriginallyRequestedVersionID:"
+- "setProperty:forBodyKey:"
+- "setPropertyAccessQueue:"
+- "setReferrer:"
+- "setRemoteObjectInterface:"
+- "setRequestID:"
+- "setRequestInfo:"
+- "setRequestStatus:"
+- "setRequestedAppIconURL:"
+- "setRequestedOnThisDevice:"
+- "setRequesterDSID:"
+- "setResponderDSID:"
+- "setRetryNotificationRegistration:"
+- "setScheme:"
+- "setSubsystem:"
+- "setUnderlyingRemoteConnection:"
+- "setUrl:"
+- "setUserInitiatedOverride:"
+- "setValue:forHTTPHeaderField:"
+- "sharedBag"
+- "sharedConfig"
+- "sharedDaemonConfig"
+- "sharedExtensionConfig"
+- "sharedFrameworkConfig"
+- "sharedNotifier"
+- "sharedPluginConfig"
+- "sharedSettingsConfig"
+- "sharedUIServiceConfig"
+- "sortedArrayUsingSelector:"
+- "start"
+- "startDaemon"
+- "statusDescription"
+- "stringByAddingPercentEncodingWithAllowedCharacters:"
+- "stringValue"
+- "stringWithFormat:"
+- "subsystem"
+- "superclass"
+- "supportsSecureCoding"
+- "underlyingRemoteConnection"
+- "unsignedLongLongValue"
+- "updateExceptionRequestWithUniqueIdentifier:action:completionHandler:"
+- "updateRequestWithIdentifier:action:completion:"
+- "userInfo"
+- "v100@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSString\"56@\"NSString\"64@\"NSString\"72@\"NSString\"80@\"NSString\"88B96"
+- "v100@0:8@16@24@32@40@48@56@64@72@80@88B96"
+- "v136@0:8@\"NSUUID\"16q24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSNumber\"56@\"NSString\"64@\"NSNumber\"72@\"NSString\"80@\"NSString\"88@\"NSString\"96@\"NSString\"104@\"NSString\"112@\"APAskToAgeRestrictionMetadata\"120@?<v@?B@\"NSError\">128"
+- "v136@0:8@16q24@32@40@48@56@64@72@80@88@96@104@112@120@?128"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSExtensionContext\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v28@0:8B16@20"
+- "v32@0:8@\"NSNumber\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"STExceptionApp\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@?24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"NSError\">24"
+- "v36@0:8B16@20^{__CFString=}28"
+- "v40@0:8@\"NSNumber\"16Q24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16q24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"ACAccount\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24^{__CFString=}32"
+- "v40@0:8@16q24@?32"
+- "v48@0:8@\"NSUUID\"16q24@\"NSString\"32@?<v@?B@\"NSUUID\"@\"NSError\">40"
+- "v48@0:8@16q24@32@?40"
+- "v72@0:8@\"NSUUID\"16q24@\"NSString\"32@\"NSNumber\"40@\"NSString\"48@\"NSNumber\"56@?<v@?B@\"NSUUID\"@\"NSError\">64"
+- "v72@0:8@16q24@32@40@48@56@?64"
+- "zone"
+
+```

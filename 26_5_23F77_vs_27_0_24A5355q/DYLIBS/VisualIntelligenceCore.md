@@ -1,0 +1,8233 @@
+## VisualIntelligenceCore
+
+> `/System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore`
+
+```diff
+
+-114.13.0.0.0
+-  __TEXT.__text: 0x3b28e0
+-  __TEXT.__auth_stubs: 0x55c0
+-  __TEXT.__objc_methlist: 0x1080
+-  __TEXT.__const: 0x2748c
+-  __TEXT.__swift5_typeref: 0xa191
+-  __TEXT.__cstring: 0x784f
+-  __TEXT.__constg_swiftt: 0x8a90
+-  __TEXT.__swift5_reflstr: 0x6933
+-  __TEXT.__swift5_fieldmd: 0x90fc
+-  __TEXT.__swift5_builtin: 0x384
+-  __TEXT.__swift5_assocty: 0xe78
+-  __TEXT.__swift5_proto: 0x20a0
+-  __TEXT.__swift5_types: 0x9c4
+-  __TEXT.__swift5_protos: 0x110
+-  __TEXT.__swift5_capture: 0x1388
+-  __TEXT.__oslogstring: 0x6c16
+-  __TEXT.__swift_as_entry: 0x4e4
+-  __TEXT.__swift_as_ret: 0x44c
+-  __TEXT.__swift5_mpenum: 0xe4
++206.0.103.0.0
++  __TEXT.__text: 0x565c9c
++  __TEXT.__objc_methlist: 0x1848
++  __TEXT.__const: 0x4864c
++  __TEXT.__swift5_typeref: 0x103f3
++  __TEXT.__swift5_capture: 0x1fd0
++  __TEXT.__constg_swiftt: 0xd534
++  __TEXT.__swift5_builtin: 0x460
++  __TEXT.__swift5_reflstr: 0x9d03
++  __TEXT.__swift5_fieldmd: 0xf214
++  __TEXT.__swift5_assocty: 0x1560
++  __TEXT.__swift5_proto: 0x3ffc
++  __TEXT.__swift5_types: 0x11d8
++  __TEXT.__cstring: 0x1f21f
++  __TEXT.__oslogstring: 0x9e66
++  __TEXT.__swift_as_entry: 0x7dc
++  __TEXT.__swift_as_ret: 0x894
++  __TEXT.__swift_as_cont: 0x13ac
++  __TEXT.__swift5_mpenum: 0x144
++  __TEXT.__swift5_protos: 0x124
+   __TEXT.__gcc_except_tab: 0x18
+   __TEXT.__dlopen_cstrs: 0x58
+-  __TEXT.__unwind_info: 0xa2d0
+-  __TEXT.__eh_frame: 0x13834
+-  __TEXT.__objc_classname: 0xef7
+-  __TEXT.__objc_methname: 0x7453
+-  __TEXT.__objc_methtype: 0xf96
+-  __TEXT.__objc_stubs: 0x2800
+-  __DATA_CONST.__got: 0x1618
+-  __DATA_CONST.__const: 0xdc0
+-  __DATA_CONST.__objc_classlist: 0x1c8
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__unwind_info: 0x11138
++  __TEXT.__eh_frame: 0x1f660
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x8b8
++  __DATA_CONST.__objc_classlist: 0x278
++  __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12f8
+-  __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0x2af0
+-  __AUTH_CONST.__const: 0x15f08
++  __DATA_CONST.__objc_selrefs: 0x1728
++  __DATA_CONST.__objc_protorefs: 0x58
++  __DATA_CONST.__got: 0x1f20
++  __AUTH_CONST.__const: 0x274e8
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x9478
+-  __AUTH.__objc_data: 0x530
+-  __AUTH.__data: 0x35c0
+-  __DATA.__data: 0x6678
+-  __DATA.__bss: 0x3a0a0
+-  __DATA.__common: 0x391
+-  __DATA_DIRTY.__objc_data: 0xbd8
+-  __DATA_DIRTY.__data: 0x7708
+-  __DATA_DIRTY.__bss: 0x3e10
+-  __DATA_DIRTY.__common: 0x130
++  __AUTH_CONST.__objc_const: 0xd028
++  __AUTH_CONST.__auth_got: 0x3ab0
++  __AUTH.__objc_data: 0x488
++  __AUTH.__data: 0x37f0
++  __DATA.__data: 0xad40
++  __DATA.__bss: 0x6cb40
++  __DATA.__common: 0xe4
++  __DATA_DIRTY.__objc_data: 0xb50
++  __DATA_DIRTY.__data: 0x9e48
++  __DATA_DIRTY.__bss: 0xef90
++  __DATA_DIRTY.__common: 0x188
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
++  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/MapKit.framework/MapKit
++  - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+-  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/Frameworks/Vision.framework/Vision
++  - /System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+
+   - /System/Library/PrivateFrameworks/BarcodeSupport.framework/BarcodeSupport
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
++  - /System/Library/PrivateFrameworks/CampoServices.framework/CampoServices
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+
+   - /System/Library/PrivateFrameworks/FusionTracker.framework/FusionTracker
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
++  - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/GenerativePartnerService
+   - /System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+-  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
++  - /System/Library/PrivateFrameworks/Lexicon.framework/Lexicon
++  - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+-  - /System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy
++  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+   - /System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility
++  - /System/Library/PrivateFrameworks/PartnerVisualSearch.framework/PartnerVisualSearch
+   - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/Sage.framework/Sage
+-  - /System/Library/PrivateFrameworks/SceneIntelligence.framework/SceneIntelligence
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SiriActivation.framework/SiriActivation
+   - /System/Library/PrivateFrameworks/SiriReaderServices.framework/SiriReaderServices
+
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/TextComposer.framework/TextComposer
+   - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
++  - /System/Library/PrivateFrameworks/TextUnderstanding.framework/TextUnderstanding
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
++  - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
++  - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/VisualActionPrediction.framework/VisualActionPrediction
+   - /System/Library/PrivateFrameworks/VisualActionPredictionSupport.framework/VisualActionPredictionSupport
+   - /System/Library/PrivateFrameworks/VisualIntelligenceCoreDDSupport.framework/VisualIntelligenceCoreDDSupport
++  - /System/Library/PrivateFrameworks/VisualIntelligenceServices.framework/VisualIntelligenceServices
+   - /System/Library/PrivateFrameworks/VisualLocalization.framework/VisualLocalization
+   - /System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 51F8A410-FD33-32A6-8E2B-C8160EFD9940
+-  Functions: 14122
+-  Symbols:   5244
+-  CStrings:  2774
++  UUID: EE286C2C-D938-3029-9DB2-E67321DBE03A
++  Functions: 22965
++  Symbols:   8815
++  CStrings:  2083
+ 
+Symbols:
++ _CFAutorelease
++ _CGColorCreateSRGB
++ _CGContextAddPath
++ _CGContextScaleCTM
++ _CGContextSetFillColorWithColor
++ _CGContextStrokePath
++ _CGPathCreateWithRoundedRect
++ _CGRectCreateDictionaryRepresentation
++ _CTFontCreateUIFontForLanguage
++ _CTLineCreateWithAttributedString
++ _CTLineDraw
++ _CTLineGetBoundsWithOptions
++ _CVPixelBufferCreateWithIOSurface
++ _DDResultSetCurrentDateForExtraction
++ _IOSurfaceGetHeight
++ _IOSurfaceGetWidth
++ _IOSurfacePropertyKeyBytesPerElement
++ _IOSurfacePropertyKeyHeight
++ _IOSurfacePropertyKeyPixelFormat
++ _IOSurfacePropertyKeyWidth
++ _LXCreateWordModerationLexicon
++ _LXEntryGetMetaFlags
++ _LXLexiconEnumerateEntriesForString
++ _MTLCreateSystemDefaultDevice
++ _MobileGestalt_copy_marketingDeviceFamilyName_obj
++ _MobileGestalt_get_current_device
++ _MobileGestalt_get_isVirtualDevice
++ _NSURLCanonicalPathKey
++ _NSURLIsRegularFileKey
++ _OBJC_CLASS_$_BCSActionPickerItem
++ _OBJC_CLASS_$_LNEntity
++ _OBJC_CLASS_$_NSPersonNameComponentsFormatter
++ _OBJC_CLASS_$_PHAsset
++ _OBJC_CLASS_$_PHAssetResource
++ _OBJC_CLASS_$_PHCloudIdentifier
++ _OBJC_CLASS_$_PHPhotoLibraryIdentifier
++ _OBJC_CLASS_$_PHPhotoLibraryManager
++ _OBJC_CLASS_$_PHPhotoLibraryOpenOptions
++ _OBJC_METACLASS_$__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ _VNBarcodeSymbologyAztec
++ _VNBarcodeSymbologyCodabar
++ _VNBarcodeSymbologyCode128
++ _VNBarcodeSymbologyCode39
++ _VNBarcodeSymbologyCode39Checksum
++ _VNBarcodeSymbologyCode39FullASCII
++ _VNBarcodeSymbologyCode39FullASCIIChecksum
++ _VNBarcodeSymbologyEAN13
++ _VNBarcodeSymbologyI2of5
++ _VNBarcodeSymbologyI2of5Checksum
++ _VNBarcodeSymbologyITF14
++ _VNBarcodeSymbologyPDF417
++ _VTPixelRotationSessionCreate
++ _VTPixelRotationSessionInvalidate
++ _VTPixelRotationSessionRotateImage
++ _VTPixelTransferSessionCreate
++ _VTPixelTransferSessionTransferImage
++ _VTSessionSetProperty
++ __DATA__TtC22VisualIntelligenceCore11VICCVersion
++ __DATA__TtC22VisualIntelligenceCore13JSONStructure
++ __DATA__TtC22VisualIntelligenceCore15SessionContexts
++ __DATA__TtC22VisualIntelligenceCore16AFMPunchOutCache
++ __DATA__TtC22VisualIntelligenceCore16LanguageDetector
++ __DATA__TtC22VisualIntelligenceCore16STXJSONStructure
++ __DATA__TtC22VisualIntelligenceCore16VLUParseProvider
++ __DATA__TtC22VisualIntelligenceCore19E5GroundingProvider
++ __DATA__TtC22VisualIntelligenceCore19ManifestCoordinator
++ __DATA__TtC22VisualIntelligenceCore19VTPixelBufferScaler
++ __DATA__TtC22VisualIntelligenceCore20AFMInferenceProvider
++ __DATA__TtC22VisualIntelligenceCore20M2MPixelBufferScaler
++ __DATA__TtC22VisualIntelligenceCore22LocationAccessProvider
++ __DATA__TtC22VisualIntelligenceCore23CoreRecognitionProvider
++ __DATA__TtC22VisualIntelligenceCore23VisionFrameworkProvider
++ __DATA__TtC22VisualIntelligenceCore24InProcessSaliencySession
++ __DATA__TtC22VisualIntelligenceCore24VLUGroundedParseProvider
++ __DATA__TtC22VisualIntelligenceCore26CoreRecognitionReaderCache
++ __DATA__TtC22VisualIntelligenceCore26ImageSearchServiceInternal
++ __DATA__TtC22VisualIntelligenceCore26MatchingCostMatrixComputer
++ __DATA__TtC22VisualIntelligenceCore26VisionSequenceHandlerCache
++ __DATA__TtC22VisualIntelligenceCore29ImageSearchRateLimitedService
++ __DATA__TtC22VisualIntelligenceCore29MacScreenCaptureConfigStorage
++ __DATA__TtC22VisualIntelligenceCore29SimpleInProcessSaliencyStream
++ __DATA__TtC22VisualIntelligenceCore31InProcessSaliencyStreamProvider
++ __DATA__TtC22VisualIntelligenceCore8JSONNode
++ __DATA__TtC22VisualIntelligenceCoreP33_5BE1072488F3E3752CC8EA2C1E75941413GlobalLimiter
++ __DATA__TtC22VisualIntelligenceCoreP33_6DFA62347B32150BE2E4A00F598667A211BundleToken
++ __DATA__TtC22VisualIntelligenceCoreP33_D1309A2F506802872A154E86E3AF878B23ResourceBundleContainer
++ __DATA__TtC22VisualIntelligenceCoreP33_D2D40EF74E25C1A195FC8D63C072531C23ResourceBundleContainer
++ __DATA__TtC22VisualIntelligenceCoreP33_E6FB9413CCE403A87D202CB86FB8561217CancellationActor
++ __DATA__TtC22VisualIntelligenceCoreP33_F67B7D90D65498118E8A0CE24D4BF7B523ResourceBundleContainer
++ __DATA__TtC22VisualIntelligenceCoreP33_F719378F8369A91293AD76A96CD6B37311ContextPool
++ __DATA__TtC22VisualIntelligenceCoreP33_FFFE9DECCD7677A7080F0491F7BC02E112DateValidity
++ __DATA__TtCC22VisualIntelligenceCore20AFMInferenceProvider7TGCache
++ __DATA__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ __DATA__TtCV22VisualIntelligenceCore22GreymatterAvailabilityP33_99C6E5ED3F40308BF68826FA333809E717EnhancedSiriEntry
++ __INSTANCE_METHODS__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ __IVARS__TtC22VisualIntelligenceCore11VICCVersion
++ __IVARS__TtC22VisualIntelligenceCore13JSONStructure
++ __IVARS__TtC22VisualIntelligenceCore15SessionContexts
++ __IVARS__TtC22VisualIntelligenceCore16AFMPunchOutCache
++ __IVARS__TtC22VisualIntelligenceCore16LanguageDetector
++ __IVARS__TtC22VisualIntelligenceCore16STXJSONStructure
++ __IVARS__TtC22VisualIntelligenceCore16VLUArgosProvider
++ __IVARS__TtC22VisualIntelligenceCore16VLUParseProvider
++ __IVARS__TtC22VisualIntelligenceCore19E5GroundingProvider
++ __IVARS__TtC22VisualIntelligenceCore19ManifestCoordinator
++ __IVARS__TtC22VisualIntelligenceCore19VTPixelBufferScaler
++ __IVARS__TtC22VisualIntelligenceCore20AFMInferenceProvider
++ __IVARS__TtC22VisualIntelligenceCore20M2MPixelBufferScaler
++ __IVARS__TtC22VisualIntelligenceCore21MockInferenceProvider
++ __IVARS__TtC22VisualIntelligenceCore22ActionResourceProvider
++ __IVARS__TtC22VisualIntelligenceCore22LocationAccessProvider
++ __IVARS__TtC22VisualIntelligenceCore23CoreRecognitionProvider
++ __IVARS__TtC22VisualIntelligenceCore23VisionFrameworkProvider
++ __IVARS__TtC22VisualIntelligenceCore24InProcessSaliencySession
++ __IVARS__TtC22VisualIntelligenceCore24InferenceResourceManager
++ __IVARS__TtC22VisualIntelligenceCore24VLUGroundedParseProvider
++ __IVARS__TtC22VisualIntelligenceCore26CoreRecognitionReaderCache
++ __IVARS__TtC22VisualIntelligenceCore26ImageSearchServiceInternal
++ __IVARS__TtC22VisualIntelligenceCore26MatchingCostMatrixComputer
++ __IVARS__TtC22VisualIntelligenceCore26VisionSequenceHandlerCache
++ __IVARS__TtC22VisualIntelligenceCore29ImageSearchRateLimitedService
++ __IVARS__TtC22VisualIntelligenceCore29MacScreenCaptureConfigStorage
++ __IVARS__TtC22VisualIntelligenceCore29SimpleInProcessSaliencyStream
++ __IVARS__TtC22VisualIntelligenceCore31InProcessSaliencyStreamProvider
++ __IVARS__TtC22VisualIntelligenceCore8JSONNode
++ __IVARS__TtC22VisualIntelligenceCoreP33_5BE1072488F3E3752CC8EA2C1E75941413GlobalLimiter
++ __IVARS__TtC22VisualIntelligenceCoreP33_E6FB9413CCE403A87D202CB86FB8561217CancellationActor
++ __IVARS__TtC22VisualIntelligenceCoreP33_F719378F8369A91293AD76A96CD6B37311ContextPool
++ __IVARS__TtC22VisualIntelligenceCoreP33_FFFE9DECCD7677A7080F0491F7BC02E112DateValidity
++ __IVARS__TtCC22VisualIntelligenceCore20AFMInferenceProvider7TGCache
++ __IVARS__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ __IVARS__TtCV22VisualIntelligenceCore22GreymatterAvailabilityP33_99C6E5ED3F40308BF68826FA333809E717EnhancedSiriEntry
++ __METACLASS_DATA__TtC22VisualIntelligenceCore11VICCVersion
++ __METACLASS_DATA__TtC22VisualIntelligenceCore13JSONStructure
++ __METACLASS_DATA__TtC22VisualIntelligenceCore15SessionContexts
++ __METACLASS_DATA__TtC22VisualIntelligenceCore16AFMPunchOutCache
++ __METACLASS_DATA__TtC22VisualIntelligenceCore16LanguageDetector
++ __METACLASS_DATA__TtC22VisualIntelligenceCore16STXJSONStructure
++ __METACLASS_DATA__TtC22VisualIntelligenceCore16VLUParseProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore19E5GroundingProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore19ManifestCoordinator
++ __METACLASS_DATA__TtC22VisualIntelligenceCore19VTPixelBufferScaler
++ __METACLASS_DATA__TtC22VisualIntelligenceCore20AFMInferenceProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore20M2MPixelBufferScaler
++ __METACLASS_DATA__TtC22VisualIntelligenceCore22LocationAccessProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore23CoreRecognitionProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore23VisionFrameworkProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore24InProcessSaliencySession
++ __METACLASS_DATA__TtC22VisualIntelligenceCore24VLUGroundedParseProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore26CoreRecognitionReaderCache
++ __METACLASS_DATA__TtC22VisualIntelligenceCore26ImageSearchServiceInternal
++ __METACLASS_DATA__TtC22VisualIntelligenceCore26MatchingCostMatrixComputer
++ __METACLASS_DATA__TtC22VisualIntelligenceCore26VisionSequenceHandlerCache
++ __METACLASS_DATA__TtC22VisualIntelligenceCore29ImageSearchRateLimitedService
++ __METACLASS_DATA__TtC22VisualIntelligenceCore29MacScreenCaptureConfigStorage
++ __METACLASS_DATA__TtC22VisualIntelligenceCore29SimpleInProcessSaliencyStream
++ __METACLASS_DATA__TtC22VisualIntelligenceCore31InProcessSaliencyStreamProvider
++ __METACLASS_DATA__TtC22VisualIntelligenceCore8JSONNode
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_5BE1072488F3E3752CC8EA2C1E75941413GlobalLimiter
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_6DFA62347B32150BE2E4A00F598667A211BundleToken
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_D1309A2F506802872A154E86E3AF878B23ResourceBundleContainer
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_D2D40EF74E25C1A195FC8D63C072531C23ResourceBundleContainer
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_E6FB9413CCE403A87D202CB86FB8561217CancellationActor
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_F67B7D90D65498118E8A0CE24D4BF7B523ResourceBundleContainer
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_F719378F8369A91293AD76A96CD6B37311ContextPool
++ __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_FFFE9DECCD7677A7080F0491F7BC02E112DateValidity
++ __METACLASS_DATA__TtCC22VisualIntelligenceCore20AFMInferenceProvider7TGCache
++ __METACLASS_DATA__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ __METACLASS_DATA__TtCV22VisualIntelligenceCore22GreymatterAvailabilityP33_99C6E5ED3F40308BF68826FA333809E717EnhancedSiriEntry
++ __OBJC_$_PROP_LIST_MTLAllocation
++ __OBJC_$_PROP_LIST_MTLCommandQueue
++ __OBJC_$_PROP_LIST_MTLComputePipelineState
++ __OBJC_$_PROP_LIST_MTLDevice
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLAllocation
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLCommandQueue
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLComputePipelineState
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLDevice
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MTLDevice
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLAllocation
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLCommandQueue
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLComputePipelineState
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLDevice
++ __OBJC_$_PROTOCOL_REFS_MTLAllocation
++ __OBJC_$_PROTOCOL_REFS_MTLCommandQueue
++ __OBJC_$_PROTOCOL_REFS_MTLComputePipelineState
++ __OBJC_$_PROTOCOL_REFS_MTLDevice
++ __OBJC_LABEL_PROTOCOL_$_MTLAllocation
++ __OBJC_LABEL_PROTOCOL_$_MTLCommandQueue
++ __OBJC_LABEL_PROTOCOL_$_MTLComputePipelineState
++ __OBJC_LABEL_PROTOCOL_$_MTLDevice
++ __OBJC_PROTOCOL_$_MTLAllocation
++ __OBJC_PROTOCOL_$_MTLCommandQueue
++ __OBJC_PROTOCOL_$_MTLComputePipelineState
++ __OBJC_PROTOCOL_$_MTLDevice
++ __PROTOCOLS__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate
++ __PROTOCOLS__TtCC22VisualIntelligenceCore22LocationAccessProviderP33_3A897438556E828ECE0E6820801FBCA021AuthorizationDelegate.8
++ ___swift__destructor
++ ___swift__destructor.118
++ ___swift__destructor.131
++ ___swift__destructor.167
++ ___swift__destructor.190
++ ___swift__destructor.203
++ ___swift__destructor.252
++ ___swift__destructor.275
++ ___swift__destructor.302
++ ___swift__destructor.319
++ ___swift__destructor.56
++ ___swift__destructor.84
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_async_cont_functlets
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.17Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.193Tm
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.206Tm
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.232Tm
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.271
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.305
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.322
++ ___swift_closure_destructor.326
++ ___swift_closure_destructor.333
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.449
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.452
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.464
++ ___swift_closure_destructor.469
++ ___swift_closure_destructor.476
++ ___swift_closure_destructor.479
++ ___swift_closure_destructor.487
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.497
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.501
++ ___swift_closure_destructor.506
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.510
++ ___swift_closure_destructor.522
++ ___swift_closure_destructor.525
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.68Tm
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.76Tm
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.79Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.95Tm
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.2
++ ___swift_get_extra_inhabitant_index.86Tm
++ ___swift_memcpy112_8
++ ___swift_memcpy120_8
++ ___swift_memcpy128_8
++ ___swift_memcpy13_8
++ ___swift_memcpy144_8
++ ___swift_memcpy152_8
++ ___swift_memcpy153_8
++ ___swift_memcpy168_8
++ ___swift_memcpy18_8
++ ___swift_memcpy192_8
++ ___swift_memcpy336_8
++ ___swift_memcpy377_8
++ ___swift_memcpy4_4
++ ___swift_memcpy60_8
++ ___swift_memcpy62_8
++ ___swift_memcpy6_1
++ ___swift_memcpy73_8
++ ___swift_memcpy81_8
++ ___swift_memcpy83_8
++ ___swift_memcpy8_1
++ ___swift_memcpy97_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_store_extra_inhabitant_index.87Tm
++ ___unnamed_23
++ ___unnamed_29
++ ___unnamed_3
++ ___unnamed_4
++ ___unnamed_6
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 10Foundation3URLV22VisualIntelligenceCoreE13ExtensionTypeOSHADSQ
++ _associated conformance 10Foundation3URLV22VisualIntelligenceCoreE5ErrorOAA09LocalizedF0ADsAE
++ _associated conformance 15TokenGeneration0A6StreamV22VisualIntelligenceCoreSSRszrlE5Error33_E6FB9413CCE403A87D202CB86FB85612LLOyx_G10Foundation09LocalizedG0ADsAE
++ _associated conformance 15TokenGeneration0A6StreamV22VisualIntelligenceCoreSSRszrlE5Error33_E6FB9413CCE403A87D202CB86FB85612LLOyx_GSHADSQ
++ _associated conformance 22VisualIntelligenceCore020ImageSearchProductAdD0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore020ImageSearchProductAdD0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore020ImageSearchProductAdD0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore020ImageSearchProductAdD0VSHAASQ
++ _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore09VICVisualB21AnalysisRequestConfigC0dbeF4TypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore0C24RecognitionProviderErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore0C24RecognitionProviderErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO19CancelledCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO19CancelledCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO43PrepareForOverlayToSlamOnTopOfYouCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateO43PrepareForOverlayToSlamOnTopOfYouCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10CampoStateOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV11ContactTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV11ContactTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysOs0G3KeyAAs011CustomDebugF11Convertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysOs0G3KeyAAs06CustomF11Convertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13LabeledStringVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13PostalAddressVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV13SocialProfileVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10STXContactVSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs011CustomDebugF11Convertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs06CustomF11Convertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore10TextPromptOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11EntityStateOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11EntityStateOSLAASQ
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO0D17SurfaceCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO0D17SurfaceCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO13PngCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatO13PngCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11ImageFormatOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO17LiftingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO17LiftingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11LookupStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV7WeekdayOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV7WeekdayOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV9FrequencyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV9FrequencyOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV5ErrorO10Foundation09LocalizedI0AAsAF
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventV15DateTimeElementVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11STXSubEventVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11ScalerErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 22VisualIntelligenceCore11SceneObjectV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11SceneObjectV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11SceneObjectV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11SceneObjectV8CategoryOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11SceneObjectV8CategoryOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore11SceneObjectVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO14STXTransactionVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO19STXTransactionPlaceOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO19STXTransactionPlaceOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO21STXTransactionElementVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore11VICCVersionC7VariantOSHAASQ
++ _associated conformance 22VisualIntelligenceCore11VICCVersionC7VariantOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore12AFMChunkTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore12BindingValueOSHAASQ
++ _associated conformance 22VisualIntelligenceCore12TextCategoryO5ErrorO10Foundation09LocalizedF0AAsAD
++ _associated conformance 22VisualIntelligenceCore12VICCCategoryO9StreamingV29GenerativeFunctionsFoundation09GenerableE0AA0I7ElementAfGP_AF0I0
++ _associated conformance 22VisualIntelligenceCore12VICCCategoryOSHAASQ
++ _associated conformance 22VisualIntelligenceCore12VICCCategoryOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13AFMAnnotationOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13BarcodeFormatOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13BarcodeFormatOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO17AddPassCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO17AddPassCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO19NutritionCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO19NutritionCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO20AddContactCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO20AddContactCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO23AddHealthDataCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO23AddHealthDataCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO25CreateBillSplitCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO25CreateBillSplitCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO26InvokeCampoBlindCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO26InvokeCampoBlindCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO30InvokeCampoQuickTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO30InvokeCampoQuickTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMacPostTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMacPostTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMagicPromptCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMagicPromptCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13InferenceTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13InferenceTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore13JSONStructureC12ParsingErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore13LocationIssueOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore13VICCDetectionV9StreamingV29GenerativeFunctionsFoundation09GenerableE0AA0I7ElementAfGP_AF0I0
++ _associated conformance 22VisualIntelligenceCore13VICCDetectionVSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx__GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx__Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx__Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO12LookupResultVyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO17PartialCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO17PartialCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO17PartialCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO20RestrictedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO20RestrictedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO20RestrictedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO21SafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO21SafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO21SafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO26InputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO26InputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO26InputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27ConnectivityErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27ConnectivityErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27ConnectivityErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27OutputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27OutputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO27OutputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO33GuardrailOutOfDateErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO33GuardrailOutOfDateErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateO33GuardrailOutOfDateErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOyx_Gs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14AFMLookupStateOyxGSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO14RecurrenceDaysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO14RecurrenceDaysOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO19RecurrenceFrequencyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO19RecurrenceFrequencyOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityVSHAASQ
++ _associated conformance 22VisualIntelligenceCore14EvictionPolicyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14OEEContentTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14OEEContentTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO17AbortedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO17AbortedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO17AbortedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO18EnqueuedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO18EnqueuedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO18EnqueuedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO19CompletedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO19CompletedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ProcessorStateO19CompletedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14STXContentTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14STXContentTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore14StructuredTextV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore14StructuredTextV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore14StructuredTextV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore14StructuredTextVSHAASQ
++ _associated conformance 22VisualIntelligenceCore15AFMModelVariantOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15AFMModelVariantOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV15DebugCodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV15DebugCodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOs0H3KeyAAs06CustomG17StringConvertible
++ _associated conformance 22VisualIntelligenceCore15EventLookupItemV15DebugCodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOyx_GSHAASQ
++ _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOyx_Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15InProcessStreamC0aB8Services012RichSaliencyF0AaD0iF0
++ _associated conformance 22VisualIntelligenceCore15SchedulingStateVSHAASQ
++ _associated conformance 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextActionStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextActionStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextContentItemV0F4TypeO10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15TextContentItemV0F4TypeO10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextContentItemV0F4TypeO10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore15TextContentItemV0F4TypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore15TextContentItemVSHAASQ
++ _associated conformance 22VisualIntelligenceCore16DetectionRequestV10OriginatorO25StillProcessingCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16DetectionRequestV10OriginatorO25StillProcessingCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO011OnboardAutoE18RequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO011OnboardAutoE18RequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO17StartedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO17StartedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO28OnboardingRequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16ImageSearchStateO28OnboardingRequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16InferenceContextVSHAASQ
++ _associated conformance 22VisualIntelligenceCore16InferenceContextVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOs0P3KeyAAs06CustomG17StringConvertible
++ _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLVSHAASQ
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore16SchedulingRegimeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore16VLUProviderErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO13InferenceModeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO19NutritionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO19NutritionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO23CreateContactCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO23CreateContactCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO23LogHealthDataCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO23LogHealthDataCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO25AddPassToWalletCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO25AddPassToWalletCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO27CreateTransactionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO27CreateTransactionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO29CreateCalendarEventCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO29CreateCalendarEventCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO29ViContentClassifierCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationO29ViContentClassifierCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17AFMToolAnnotationOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore17EntityResourceKeyVSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchObjectVSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchResultVSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ImageSearchStatusVSHAASQ
++ _associated conformance 22VisualIntelligenceCore17MockProviderErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore17MockProviderErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO010HealthDataE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO010HealthDataE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO010HealthDataE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO011TransactionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO011TransactionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO011TransactionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO03GeoE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO03GeoE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO03GeoE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO05EventE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO05EventE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO05EventE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07BarCodeE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07BarCodeE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07BarCodeE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07ContactE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07ContactE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO07ContactE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO09NutritionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO09NutritionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO09NutritionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO0E10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO0E10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO0E10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore17STXDateComponentsV5ErrorO10Foundation09LocalizedF0AAsAD
++ _associated conformance 22VisualIntelligenceCore17STXDateComponentsV5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore17STXDateComponentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore17STXDateComponentsVSLAASQ
++ _associated conformance 22VisualIntelligenceCore17SanitizationErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 22VisualIntelligenceCore17ShortAssetVersionVSLAASQ
++ _associated conformance 22VisualIntelligenceCore18AFMAnnotationErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO0B20EnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO0B20EnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO0B28AssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO0B28AssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO16NoCallCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO16NoCallCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO24SiriEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO24SiriEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO25UseCaseDisabledCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO25UseCaseDisabledCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO27MontaraEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO27MontaraEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO32SiriAssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO32SiriAssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotAgeRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotAgeRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotMDMRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotMDMRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO34SplashScreenPresentationCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO34SplashScreenPresentationCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO39CurrentIPCountryCodeAllowanceCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18AskAcmeRequirementO39CurrentIPCountryCodeAllowanceCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO021SummarizeWithExternalB10CodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO021SummarizeWithExternalB10CodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8K14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8K14BD23998AA8D4E8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8K14BD23998AA8D4E8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8L14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8L14BD23998AA8D4E8LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8L14BD23998AA8D4E8LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO24UsingSimpleAPICodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO24UsingSimpleAPICodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO17UnknownCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO17UnknownCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO19HighlightCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO19HighlightCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO20FullScreenCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ImageSearchContextV11InteractionO20FullScreenCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18ModelConfigurationVSHAASQ
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO14DenyCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO14DenyCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO15AllowCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OnboardingResponseO15AllowCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO33ExternalServiceNotSetUpCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO33ExternalServiceNotSetUpCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO35RedirectToExternalServiceCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO35RedirectToExternalServiceCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore18TextPromptTemplateVSHAASQ
++ _associated conformance 22VisualIntelligenceCore19ActionResourceErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO0cE20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingVAA06PromptE0AA9InputTypeAaDP_SE
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingVAA06PromptE0AA9InputTypeAaDP_SH
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingVAA06PromptE0AA9InputTypeAaDP_Se
++ _associated conformance 22VisualIntelligenceCore19OCRPromptFormattingVSHAASQ
++ _associated conformance 22VisualIntelligenceCore19VisionProviderErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore19VisionProviderErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20AFMInferenceProviderC13InferenceTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ArgumentParsingErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore20ArgumentParsingErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ContactCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ContactCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ReceiptCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ReceiptCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25IntelligentPassCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25IntelligentPassCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV10CodingKeysOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV10CodingKeysOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdVSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20ImageSearchThumbnailVSHAASQ
++ _associated conformance 22VisualIntelligenceCore20RellenoConfigurationV7CommandOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20ResourceManagerErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SaveOrCopyPhotoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20SessionContextsErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLVSHAASQ
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV5ErrorO10Foundation09LocalizedF0AAsAD
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeVSHAASQ
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingVAA06PromptE0AA9InputTypeAaDP_SE
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingVAA06PromptE0AA9InputTypeAaDP_SH
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingVAA06PromptE0AA9InputTypeAaDP_Se
++ _associated conformance 22VisualIntelligenceCore20VICCPromptFormattingVSHAASQ
++ _associated conformance 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21AlertableErrorPayloadVSHAASQ
++ _associated conformance 22VisualIntelligenceCore21BuiltInActionExecutorC17EnsureEntityErrorO10Foundation09LocalizedJ0AAs0J0
++ _associated conformance 22VisualIntelligenceCore21BuiltInActionExecutorC18HEICRetrievalError33_1F5120E144C5156F6C9BE2643A48D359LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO12OkCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO12OkCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO17InvalidCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO17InvalidCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO19NoResultsCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO19NoResultsCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO19SensitiveCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO19SensitiveCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO20BadRequestCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO20BadRequestCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO23InternalErrorCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore21ImageSearchStatusCodeO23InternalErrorCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore21STXDateTimeComponentsV5ErrorO10Foundation09LocalizedG0AAsAD
++ _associated conformance 22VisualIntelligenceCore21STXDateTimeComponentsV5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore21STXDateTimeComponentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore21STXDateTimeComponentsVSLAASQ
++ _associated conformance 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22AskCampoRequestPayloadVSHAASQ
++ _associated conformance 22VisualIntelligenceCore22CVDebugImageAnnotationV11GroupingKeyVSHAASQ
++ _associated conformance 22VisualIntelligenceCore22SurfaceAllocationErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO17DefaultCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO17DefaultCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO19NutritionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO19NutritionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO24DataCollectionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO24DataCollectionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationOSHAASQ
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayVSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO17WebsiteCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO17WebsiteCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore23OutputSanitizerResourceV5ErrorO10Foundation09LocalizedG0AAsAD
++ _associated conformance 22VisualIntelligenceCore23OutputSanitizerResourceV5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore23VisionFrameworkProviderC13DetectionModeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore24E5GroundingProviderErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SH
++ _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_SY
++ _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s12CaseIterable
++ _associated conformance 22VisualIntelligenceCore24GroundingMD9_1DescriptorVAA0dF0AA13TaxonomyEntryAaDP_s23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore24ImageSearchShoppingBadgeVSHAASQ
++ _associated conformance 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore24ImageSearchSimilarImagesVSHAASQ
++ _associated conformance 22VisualIntelligenceCore25AFMInferenceProviderErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance 22VisualIntelligenceCore26AFMAnnotationSchemaManagerV5ErrorO10Foundation09LocalizedG0AAsAD
++ _associated conformance 22VisualIntelligenceCore26CVCoordinatorExecutionModeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductAdRatingVSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchProductSaleInfoVSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore26ImageSearchRelatedSearchesVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 22VisualIntelligenceCore26ImageSearchServiceInternalCAA13RateLimitableAA0H12LimitedInputAaDP_AA0hJ9Inputable
++ _associated conformance 22VisualIntelligenceCore26ImageSearchServiceInternalCAA13RateLimitableAA0H20LimitedFunctionErrorAaDP_s0L0
++ _associated conformance 22VisualIntelligenceCore26MatchingCostMatrixComputerC0eF5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingVAA0fG0AA9InputTypeAaDP_SE
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingVAA0fG0AA9InputTypeAaDP_SH
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingVAA0fG0AA9InputTypeAaDP_Se
++ _associated conformance 22VisualIntelligenceCore26SystemTimePromptFormattingVSHAASQ
++ _associated conformance 22VisualIntelligenceCore27ImageSearchRateLimitedInputV3KeyVSHAASQ
++ _associated conformance 22VisualIntelligenceCore27ImageSearchRateLimitedInputVAA0fG9InputableAA0H3KeyAaDP_SH
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO14NoneCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO14NoneCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO16StrictCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO16StrictCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO17RunningCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO17RunningCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys33_D1309A2F506802872A154E86E3AF878BLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore27NonMaximumSuppressionPolicyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentV20ArgumentParsingErrorO10Foundation09LocalizedJ0AAs0J0
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentV20ArgumentParsingErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore27NutritionAdapterFoodContentVSHAASQ
++ _associated conformance 22VisualIntelligenceCore28AFMClassifierTextRequirementOSHAASQ
++ _associated conformance 22VisualIntelligenceCore29CVProcessorInputConfigurationV21DimensionsRequirementOSHAASQ
++ _associated conformance 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoVSHAASQ
++ _associated conformance 22VisualIntelligenceCore29SimpleInProcessSaliencyStreamC0aB8Services0dgH0AaD0gH0
++ _associated conformance 22VisualIntelligenceCore29SimpleInProcessSaliencyStreamC0aB8Services0dgH8InternalAaD0dgH0
++ _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorO10Foundation09LocalizedI0AAs0I0
++ _associated conformance 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore32BundleClassificationRuntimeErrorV10Foundation09LocalizedG0AAs0G0
++ _associated conformance 22VisualIntelligenceCore34SimpleInProcessSaliencyStreamErrorO10Foundation09LocalizedI0AAs0I0
++ _associated conformance 22VisualIntelligenceCore34TextDetectionCollectionUpdateErrorO10Foundation09LocalizedH0AAs0H0
++ _associated conformance 22VisualIntelligenceCore34TextDetectionCollectionUpdateErrorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V133_CA620AB6A16F34650D1CE67B1E1DA88DLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V133_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V133_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V233_CA620AB6A16F34650D1CE67B1E1DA88DLLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V233_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V233_CA620AB6A16F34650D1CE67B1E1DA88DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore36VerticalIntegrationContentClassifierVSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO12BodyMassUnitOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO12BodyMassUnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6HealthO15MeasurementTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO15MeasurementTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6HealthO16BloodGlucoseUnitOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO16BloodGlucoseUnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6HealthO17BloodPressureUnitOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6HealthO17BloodPressureUnitOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO10ThemeColorOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO10ThemeColorOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO8PassTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO8PassTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore6WalletO9EventSeatVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs011CustomDebugE11Convertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs06CustomE11Convertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7AFMDataOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs011CustomDebugF11Convertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs06CustomF11Convertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13LabeledStringVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13PostalAddressV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13PostalAddressV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13PostalAddressV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13PostalAddressVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D13SocialProfileVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO14DateComponentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore7ContactO20PersonNameComponentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyOSHAASQ
++ _associated conformance 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8AFMChunkOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8STXEventV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore8STXEventV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore8STXEventV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore8STXEventVSHAASQ
++ _associated conformance 22VisualIntelligenceCore8WaiterIDVSHAASQ
++ _associated conformance 22VisualIntelligenceCore8WaiterIDVSLAASQ
++ _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO18StandardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO18StandardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO19QuickTypeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO17ActivationContextO19QuickTypeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D13QualityRatingOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D13QualityRatingOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D7QualityVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D8AnalysisV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D8AnalysisV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D8AnalysisV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO0D8AnalysisVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FatInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FiberLevelOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO10FiberLevelOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO10GrainsTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO10GrainsTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO11ProteinTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO11ProteinTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO11VisionModelVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO12FiberInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateBalanceOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateBalanceOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO12PlateInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO13ElevatedLevelOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO13ElevatedLevelOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO13GrainsInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO14ProteinInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO15ProcessingLevelOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO15ProcessingLevelOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO16AddedSaltInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO16FoodPresentationVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO16VisionModelLevelOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO16VisionModelLevelOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO17AddedSugarInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO17ProcessingInsightVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO20FoodPresentationTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO20FoodPresentationTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO7FatTypeOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO7FatTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO7SummaryVSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysOSHAASQ
++ _associated conformance 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22VisualIntelligenceCore9NutritionO8InsightsVSHAASQ
++ _associated conformance So11LXMetaFlagsVs10SetAlgebraSCSQ
++ _associated conformance So11LXMetaFlagsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So11LXMetaFlagsVs9OptionSetSCSY
++ _associated conformance So11LXMetaFlagsVs9OptionSetSCs0D7Algebra
++ _associated conformance So17BCSParsedDataTypeVSHSCSQ
++ _associated conformance So20IOSurfacePropertyKeyaSHSCSQ
++ _associated conformance So20IOSurfacePropertyKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20IOSurfacePropertyKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.108
++ _block_copy_helper.127
++ _block_copy_helper.176
++ _block_copy_helper.183
++ _block_copy_helper.191
++ _block_copy_helper.20
++ _block_copy_helper.26
++ _block_copy_helper.315
++ _block_copy_helper.33
++ _block_copy_helper.455
++ _block_copy_helper.482
++ _block_copy_helper.52
++ _block_copy_helper.528
++ _block_copy_helper.74
++ _block_copy_helper.82
++ _block_copy_helper.87
++ _block_copy_helper.94
++ _block_descriptor.110
++ _block_descriptor.129
++ _block_descriptor.178
++ _block_descriptor.185
++ _block_descriptor.193
++ _block_descriptor.22
++ _block_descriptor.28
++ _block_descriptor.317
++ _block_descriptor.35
++ _block_descriptor.457
++ _block_descriptor.484
++ _block_descriptor.530
++ _block_descriptor.54
++ _block_descriptor.76
++ _block_descriptor.84
++ _block_descriptor.89
++ _block_descriptor.96
++ _block_destroy_helper.109
++ _block_destroy_helper.128
++ _block_destroy_helper.177
++ _block_destroy_helper.184
++ _block_destroy_helper.192
++ _block_destroy_helper.21
++ _block_destroy_helper.27
++ _block_destroy_helper.316
++ _block_destroy_helper.34
++ _block_destroy_helper.456
++ _block_destroy_helper.483
++ _block_destroy_helper.529
++ _block_destroy_helper.53
++ _block_destroy_helper.75
++ _block_destroy_helper.83
++ _block_destroy_helper.88
++ _block_destroy_helper.95
++ _e5rt_e5_compiler_compile
++ _e5rt_e5_compiler_create
++ _e5rt_e5_compiler_is_new_compile_required
++ _e5rt_e5_compiler_options_create
++ _e5rt_e5_compiler_options_release
++ _e5rt_e5_compiler_options_set_compute_device_types_mask
++ _e5rt_e5_compiler_release
++ _e5rt_execution_stream_operation_create_precompiled_compute_operation_with_options
++ _e5rt_precompiled_compute_op_create_options_create_with_program_function
++ _e5rt_precompiled_compute_op_create_options_release
++ _e5rt_program_function_release
++ _e5rt_program_library_release
++ _e5rt_program_library_retain_program_function
++ _flat unique 22VisualIntelligenceCore26StreamingInferenceProvider_px7ElementAaBPRts_XP
++ _flat unique So15MTLCommandQueue_p
++ _flat unique So23MTLComputePipelineState_p
++ _flat unique So9MTLDevice_p
++ _generic environment s23CustomStringConvertibleRzSERzSHRzs8SendableRzl
++ _get_enum_tag_for_layout_string 10Foundation4UUIDVSSs5Error_pIeghHnozo_Sg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore10CampoStateO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore10TextPromptO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore12BindingValueO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityVSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore16VLUProviderErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore16WaiterResolutionO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore17AFMActionExecutorV14ExecutionErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore17SanitizationErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore18AFMAnnotationErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore19ActionResourceErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore19ActionResourceErrorOSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressVSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore21AlertableErrorPayloadVSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore21BuiltInActionExecutorC17EnsureEntityErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore25AFMInferenceProviderErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore26ImageSearchProductSaleInfoVSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore34SimpleInProcessSaliencyStreamErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore7AFMDataO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore7ContactO20PersonNameComponentsVSg
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore8AFMErrorO
++ _get_enum_tag_for_layout_string 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsVSg
++ _get_enum_tag_for_layout_string ypSg
++ _get_type_metadata 15Synchronization5MutexVy16GenerativeModels0cD12AvailabilityV0E0OSgG noncopyable.19
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore0cD8AnalyzerC5StateVG noncopyable.61
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC5StateVG noncopyable.29
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore11VICCVersionC7VariantOG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC5StateVG noncopyable.73
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore13MediaManifest_pSgG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore16LanguageDetectorC010TranscriptF5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLVG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore21BuiltInActionExecutorC5State33_1F5120E144C5156F6C9BE2643A48D359LLVG noncopyable.4
++ _get_type_metadata 15Synchronization5MutexVySDy22VisualIntelligenceCore13InferenceTypeOSo11CVBufferRefaGG noncopyable.22
++ _get_type_metadata 15Synchronization5MutexVySDySS10Foundation4DataVGG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVySay22VisualIntelligenceCore9ActionPinVGG noncopyable.21
++ _get_type_metadata 15Synchronization5MutexVySbG noncopyable.23
++ _get_type_metadata 15Synchronization5MutexVyShy22VisualIntelligenceCore13InferenceTypeOGG noncopyable.21
++ _get_type_metadata 15Synchronization5MutexVySo24VNSequenceRequestHandlerCSgG noncopyable.6
++ _get_type_metadata 22VisualIntelligenceCore17CameraSourceFrameRzl15Synchronization5MutexVyAA23StillImageMediaManifestC12MutableState33_B524ABC9C2ABB97E527F7E7F66694084LLVyx_GG noncopyable.9
++ _get_type_metadata s5ClockRzl15Synchronization5MutexVy22VisualIntelligenceCore22ActionResourceProviderC12MutableState33_B420E7A24EB124D29FD4D1819001EDA3LLVyx_GG noncopyable.1
++ _get_type_metadata s5ClockRzs8DurationVABRtzl15Synchronization5MutexVyShy22VisualIntelligenceCore13InferenceTypeOGG noncopyable.70
++ _get_witness_table 22VisualIntelligenceCore25SaliencyStreamMonitorableRzlScSyAA15ActionPredictorC6OutputVGSciHPyHC.52
++ _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA13BundleManagerC6OutputVGSciHPyHC.50
++ _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA14BundleSelectorC6OutputVGSciHPyHC.51
++ _kCFBooleanFalse
++ _kLXLexiconLocaleKey
++ _kVTPixelRotationPropertyKey_Rotation
++ _kVTRotation_180
++ _kVTRotation_CCW90
++ _kVTRotation_CW90
++ _keypath_get.16Tm
++ _keypath_get.8Tm
++ _keypath_set.9Tm
++ _objc_msgSend$URLsForDirectory:inDomains:
++ _objc_msgSend$actionPickerItems
++ _objc_msgSend$allObjects
++ _objc_msgSend$assetResourcesForAsset:
++ _objc_msgSend$bundleURL
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commit
++ _objc_msgSend$computeCommandEncoder
++ _objc_msgSend$contents
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$defaultActionTargetApplicationBundleIdentifier
++ _objc_msgSend$defaultApplicationLibraryIdentifierWithContainerIdentifier:
++ _objc_msgSend$dispatchThreadgroups:threadsPerThreadgroup:
++ _objc_msgSend$domain
++ _objc_msgSend$dynamicallyReduceAccuracyForLocation:completion:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$fetchAssetsWithLocalIdentifiers:options:
++ _objc_msgSend$filterResults:forTypes:referenceDate:referenceTimeZone:
++ _objc_msgSend$firstObject
++ _objc_msgSend$initWithCIImage:
++ _objc_msgSend$initWithProperties:
++ _objc_msgSend$initWithStringValue:
++ _objc_msgSend$librarySpecificFetchOptions
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$mapsIdentifierString
++ _objc_msgSend$newBufferWithBytes:length:options:
++ _objc_msgSend$newBufferWithLength:options:
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newComputePipelineStateWithFunction:error:
++ _objc_msgSend$newDefaultLibraryWithBundle:error:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$openPhotoLibraryWithIdentifier:options:error:
++ _objc_msgSend$performDefaultActionWithCompletionHandler:
++ _objc_msgSend$personNameComponentsFromString:
++ _objc_msgSend$privateFileURL
++ _objc_msgSend$removeObjectForKey:
++ _objc_msgSend$resourceURL
++ _objc_msgSend$saeAvailable
++ _objc_msgSend$setAllowsUpgrade:
++ _objc_msgSend$setBuffer:offset:atIndex:
++ _objc_msgSend$setComputePipelineState:
++ _objc_msgSend$setFormatOptions:
++ _objc_msgSend$setLanguage:
++ _objc_msgSend$setLocale:
++ _objc_msgSend$url
++ _objc_msgSend$urlThatCanBeOpened
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$waitUntilCompleted
++ _objc_release_x2
++ _objc_retainAutorelease
++ _objc_retain_x10
++ _swift_asyncLet_get_throwing
++ _swift_deallocPartialClassInstance
++ _swift_getDynamicType
++ _swift_getExtendedExistentialTypeMetadata
++ _swift_getTupleTypeLayout2
++ _swift_getTupleTypeMetadata
++ _swift_initStructMetadata
++ _swift_isClassType
++ _swift_isUniquelyReferenced_native
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x3
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _swift_task_reportUnexpectedExecutor
++ _swift_unknownObjectRelease_n
++ _symbolic $s22VisualIntelligenceCore017SaliencyStreamNewD15ModelSupportingP
++ _symbolic $s22VisualIntelligenceCore12VLUArgosModeP
++ _symbolic $s22VisualIntelligenceCore13AFMClassifierP
++ _symbolic $s22VisualIntelligenceCore13MediaManifestP
++ _symbolic $s22VisualIntelligenceCore15AFMActionDomainP
++ _symbolic $s22VisualIntelligenceCore16CVDetectionValueP
++ _symbolic $s22VisualIntelligenceCore16PromptFormattingP
++ _symbolic $s22VisualIntelligenceCore17EvictableResourceP
++ _symbolic $s22VisualIntelligenceCore17InferenceProviderP
++ _symbolic $s22VisualIntelligenceCore17PixelBufferScalerP
++ _symbolic $s22VisualIntelligenceCore18TGProcessorBuilderP
++ _symbolic $s22VisualIntelligenceCore19AlertProvidingErrorP
++ _symbolic $s22VisualIntelligenceCore19BundleRoleProviding33_FAFD6B32D7E3F50C1146E4B386E01658LLP
++ _symbolic $s22VisualIntelligenceCore21InferenceProviderBaseP
++ _symbolic $s22VisualIntelligenceCore22LocationAccessPrompterP
++ _symbolic $s22VisualIntelligenceCore23__NSSecureCodingBridgedP
++ _symbolic $s22VisualIntelligenceCore25ClassificationPreheatableP
++ _symbolic $s22VisualIntelligenceCore25STXDateComponentsProtocolP
++ _symbolic $s22VisualIntelligenceCore25SaliencyStreamMonitorableP
++ _symbolic $s22VisualIntelligenceCore25TrackerEmbeddingProvidingP
++ _symbolic $s22VisualIntelligenceCore26StreamingInferenceProviderP
++ _symbolic $s22VisualIntelligenceCore32StreamingProviderFactoryProtocol33_5BE1072488F3E3752CC8EA2C1E759414LLP
++ _symbolic $s22VisualIntelligenceCore33InferenceResourceManagerProvidingP
++ _symbolic $s22VisualIntelligenceCore36SaliencyStreamConfigurationProvidingP
++ _symbolic $s22VisualIntelligenceCore9GMSVIToolP
++ _symbolic $s29GenerativeFunctionsFoundation18GenerableStreamingP
++ _symbolic 17RateLimitedOutput_____Qz 22VisualIntelligenceCore13RateLimitableP
++ _symbolic 6Output_____Qz 22VisualIntelligenceCore15AFMActionDomainP
++ _symbolic 7Element_____Qyd__ 22VisualIntelligenceCore26StreamingInferenceProviderP
++ _symbolic 7Instant_____Qy_Sg s5ClockP
++ _symbolic 8Duration_____Qz s5ClockP
++ _symbolic 9Extracted_____Qz 22VisualIntelligenceCore15AFMActionDomainP
++ _symbolic 9InputType_____Qz 22VisualIntelligenceCore16PromptFormattingP
++ _symbolic G0R1_
++ _symbolic SDy16RateLimitedInput______0C3Key_____QZSayScCy0aB6OutputABQz______pGGG 22VisualIntelligenceCore13RateLimitableP AA0D16LimitedInputableP s5ErrorP
++ _symbolic SDy16RateLimitedInput______0C3Key_____QZ_____y0aB6OutputABQz7Instant_____Qy_GG 22VisualIntelligenceCore13RateLimitableP AA0D16LimitedInputableP AA10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV s5ClockP
++ _symbolic SDySSSay_____GG 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic SDySSSo9IOSurfaceCG
++ _symbolic SDySS_____G 22VisualIntelligenceCore12BindingValueO
++ _symbolic SDySS_____G 22VisualIntelligenceCore9JSONValueV
++ _symbolic SDySdSay_____GG 22VisualIntelligenceCore14ProcessorStateO
++ _symbolic SDySdSay_____GG 22VisualIntelligenceCore15CVTrackSnapshotV
++ _symbolic SDySd_____G So6CGRectV
++ _symbolic SDy_____7Instant_____QzG 22VisualIntelligenceCore13InferenceTypeO s5ClockP
++ _symbolic SDy_____SDySd_____GG 10Foundation4UUIDV So6CGRectV
++ _symbolic SDy_____SaySSGG 10Foundation4UUIDV
++ _symbolic SDy_____Say_____GG 22VisualIntelligenceCore13InferenceTypeO AA0D7ContextV
++ _symbolic SDy_____Say_____y_____GGG 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
++ _symbolic SDy_____ScCySS______pGG 22VisualIntelligenceCore8WaiterIDV s5ErrorP
++ _symbolic SDy_____ScTyyt_____GG 22VisualIntelligenceCore13InferenceTypeO s5NeverO
++ _symbolic SDy_____ScTyyt______pGG 22VisualIntelligenceCore13InferenceTypeO s5ErrorP
++ _symbolic SDy_____SiG 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic SDy__________G 10Foundation4UUIDV 22VisualIntelligenceCore10EntitySlotV
++ _symbolic SDy__________G 10Foundation4UUIDV 26VisualIntelligenceServices12ActionResultO
++ _symbolic SDy__________G 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO 15TokenGeneration0G9GeneratorC
++ _symbolic SDy__________G 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA11TGProcessorV
++ _symbolic SDy__________G 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA16SchedulingRegimeO
++ _symbolic SDy__________G 22VisualIntelligenceCore13InferenceTypeO AA11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC
++ _symbolic SDy__________G 22VisualIntelligenceCore13InferenceTypeO AA13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC
++ _symbolic SDy__________G 22VisualIntelligenceCore13InferenceTypeO AA18ModelConfigurationV
++ _symbolic SDy__________G 22VisualIntelligenceCore13InferenceTypeO So11CVBufferRefa
++ _symbolic SDy___________pG 22VisualIntelligenceCore13InferenceTypeO AA17EvictableResourceP
++ _symbolic SDy___________pG 22VisualIntelligenceCore13InferenceTypeO AA32StreamingProviderFactoryProtocol33_5BE1072488F3E3752CC8EA2C1E759414LLP
++ _symbolic SDy___________pyYaYbKcG 22VisualIntelligenceCore13InferenceTypeO AA0D8ProviderP
++ _symbolic SDy_____yShy_____GYaYbKcG 22VisualIntelligenceCore13InferenceTypeO AA20BundleClassificationV0gE0O
++ _symbolic SJ
++ _symbolic SRy_____G s5UInt8V
++ _symbolic SS11description______Sg16alertablePayloadt 22VisualIntelligenceCore21AlertableErrorPayloadV
++ _symbolic SS13attributeName_SaySSG5wordst
++ _symbolic SS16bundleIdentifier_SS8typeNamet
++ _symbolic SS3key______5valuet 22VisualIntelligenceCore9JSONValueV
++ _symbolic SS4from_t
++ _symbolic SS5title_SS5valuet
++ _symbolic SS8filename_t
++ _symbolic SS8pipeline_SS6reason______pSg15underlyingErrort s5ErrorP
++ _symbolic SS8pipeline_SS6reasont
++ _symbolic SS9rawTokens______10healthDatat 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV
++ _symbolic SS9rawTokens______11transactiont 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _symbolic SS9rawTokens______15intelligentPasst 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _symbolic SS9rawTokens______4vicct 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic SS9rawTokens______7contactt 22VisualIntelligenceCore10STXContactV
++ _symbolic SS9rawTokens______8subEventt 22VisualIntelligenceCore11STXSubEventV
++ _symbolic SS9rawTokens______9nutritiont 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _symbolic SSSg15underlyingError_t
++ _symbolic SS_SSt
++ _symbolic SS_____YaYbKcSg 10Foundation4UUIDV
++ _symbolic SS______pIeghHrzo_ s5ErrorP
++ _symbolic SS______t 22VisualIntelligenceCore12BindingValueO
++ _symbolic SS______t s12StaticStringV
++ _symbolic SaySSG4keys_t
++ _symbolic SaySSGz_Xx
++ _symbolic SaySaySSGG
++ _symbolic SayScCy__________GG 22VisualIntelligenceCore16InferenceContextV s5NeverO
++ _symbolic SayScCyq_______pGG s5ErrorP
++ _symbolic SayScCyyt_____GG s5NeverO
++ _symbolic SayScCyyt______pGG s5ErrorP
++ _symbolic SaySdG
++ _symbolic SaySo13VNObservationCG
++ _symbolic SaySo20NSTextCheckingResultCG
++ _symbolic Say_____G 22VisualIntelligenceCore10STXContactV
++ _symbolic Say_____G 22VisualIntelligenceCore10STXContactV11ContactTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore10STXContactV13LabeledStringV
++ _symbolic Say_____G 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV
++ _symbolic Say_____G 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV
++ _symbolic Say_____G 22VisualIntelligenceCore10TextPromptO
++ _symbolic Say_____G 22VisualIntelligenceCore11STXSubEventV
++ _symbolic Say_____G 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV7WeekdayO
++ _symbolic Say_____G 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV9FrequencyO
++ _symbolic Say_____G 22VisualIntelligenceCore11SceneObjectV
++ _symbolic Say_____G 22VisualIntelligenceCore11SceneObjectV8CategoryO
++ _symbolic Say_____G 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _symbolic Say_____G 22VisualIntelligenceCore11TransactionO19STXTransactionPlaceO
++ _symbolic Say_____G 22VisualIntelligenceCore11TransactionO21STXTransactionElementV
++ _symbolic Say_____G 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV
++ _symbolic Say_____G 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV
++ _symbolic Say_____G 22VisualIntelligenceCore11VICCVersionC7VariantO
++ _symbolic Say_____G 22VisualIntelligenceCore12AFMChunkTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic Say_____G 22VisualIntelligenceCore13BarcodeFormatO
++ _symbolic Say_____G 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore13VICCDetectionV
++ _symbolic Say_____G 22VisualIntelligenceCore14CalendarDomainO14RecurrenceDaysO
++ _symbolic Say_____G 22VisualIntelligenceCore14CalendarDomainO19RecurrenceFrequencyO
++ _symbolic Say_____G 22VisualIntelligenceCore14OEEContentTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore14STXContentTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore15AFMModelVariantO
++ _symbolic Say_____G 22VisualIntelligenceCore15EventLookupItemV
++ _symbolic Say_____G 22VisualIntelligenceCore15GVICCBatchInputV10BundleDataV
++ _symbolic Say_____G 22VisualIntelligenceCore15ImageSearchItemV
++ _symbolic Say_____G 22VisualIntelligenceCore15TextContentItemV
++ _symbolic Say_____G 22VisualIntelligenceCore16InferenceContextV
++ _symbolic Say_____G 22VisualIntelligenceCore17AFMToolAnnotationO
++ _symbolic Say_____G 22VisualIntelligenceCore17ImageSearchObjectV
++ _symbolic Say_____G 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV
++ _symbolic Say_____G 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV
++ _symbolic Say_____G 22VisualIntelligenceCore20ImageSearchAdSectionV
++ _symbolic Say_____G 22VisualIntelligenceCore20ImageSearchProductAdV
++ _symbolic Say_____G 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV
++ _symbolic Say_____G 22VisualIntelligenceCore26ImageSearchRelatedSearchesV
++ _symbolic Say_____G 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO
++ _symbolic Say_____G 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _symbolic Say_____G 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic Say_____G 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV
++ _symbolic Say_____G 22VisualIntelligenceCore6HealthO12BodyMassUnitO
++ _symbolic Say_____G 22VisualIntelligenceCore6HealthO15MeasurementTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore6HealthO16BloodGlucoseUnitO
++ _symbolic Say_____G 22VisualIntelligenceCore6HealthO17BloodPressureUnitO
++ _symbolic Say_____G 22VisualIntelligenceCore6WaiterV
++ _symbolic Say_____G 22VisualIntelligenceCore6WalletO10ThemeColorO
++ _symbolic Say_____G 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _symbolic Say_____G 22VisualIntelligenceCore6WalletO8PassTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore6WalletO9EventSeatV
++ _symbolic Say_____G 22VisualIntelligenceCore7ContactO0D13LabeledStringV
++ _symbolic Say_____G 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV
++ _symbolic Say_____G 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV
++ _symbolic Say_____G 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic Say_____G 22VisualIntelligenceCore8JSONNodeC
++ _symbolic Say_____G 22VisualIntelligenceCore9JSONValueV
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO0D13QualityRatingO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO10FiberLevelO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO10GrainsTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO11ProteinTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO12PlateBalanceO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO13ElevatedLevelO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO15ProcessingLevelO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO16VisionModelLevelO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO20FoodPresentationTypeO
++ _symbolic Say_____G 22VisualIntelligenceCore9NutritionO7FatTypeO
++ _symbolic Say_____G 26VisualIntelligenceServices0A10EntityDataV
++ _symbolic Say_____G 26VisualIntelligenceServices17TransactionResultV
++ _symbolic Say_____G 26VisualIntelligenceServices21IntelligentPassResultV
++ _symbolic Say_____G So10NLLanguagea
++ _symbolic Say_____G5items_Sb20shouldShowDisclaimerSay_____G12relatedItemsSay_____G3adsSS10defaultURLSS11errorStringSS013internalErrorK0t 22VisualIntelligenceCore15ImageSearchItemV AA0dE15RelatedSearchesV AA0dE9AdSectionV
++ _symbolic Say_____GSg 22VisualIntelligenceCore11TransactionO21STXTransactionElementV
++ _symbolic Say_____GSg 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV
++ _symbolic Say_____GSg 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV
++ _symbolic Say_____GSg 22VisualIntelligenceCore14CalendarDomainO14RecurrenceDaysO
++ _symbolic Say_____GSg 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV
++ _symbolic Say_____GSg 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV
++ _symbolic Say_____GSg 22VisualIntelligenceCore6WalletO9EventSeatV
++ _symbolic Say_____GSg 22VisualIntelligenceCore7ContactO0D13LabeledStringV
++ _symbolic Say_____GSg 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV
++ _symbolic Say_____GSg 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV
++ _symbolic Say_____GSg 22VisualIntelligenceCore8CVBundleV
++ _symbolic Say_____GSg 26VisualIntelligenceServices0A10EntityDataV
++ _symbolic Say_____G_ScCySS______pGSgt 22VisualIntelligenceCore14ProviderEffectO s5ErrorP
++ _symbolic Say_____G______pIeghHrzo_ 22VisualIntelligenceCore17ImageSearchObjectV s5ErrorP
++ _symbolic Say_____G______pIeghHrzo_ 26VisualIntelligenceServices0A10EntityDataV s5ErrorP
++ _symbolic Say_____Gz_Xx 22VisualIntelligenceCore18TextDetectorResultV
++ _symbolic Say_____SgG 22VisualIntelligenceCore9GeoLookupC0dE15ResultDebugInfoV
++ _symbolic Say______pG So10GEOMapItemP
++ _symbolic Say_____y16RateLimitedInput_____Qz0aB6OutputACQzGG 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA13RateLimitableP
++ _symbolic Say_____y_____GG 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
++ _symbolic ScCySS______pG s5ErrorP
++ _symbolic ScCySS______pGSg s5ErrorP
++ _symbolic ScCySS______pG______t s5ErrorP 22VisualIntelligenceCore16WaiterResolutionO
++ _symbolic ScCySay_____G______pG 12VisualLookUp0A13UnderstandingV11ImageRegionV s5ErrorP
++ _symbolic ScCySay_____G______pG 22VisualIntelligenceCore17ImageSearchObjectV s5ErrorP
++ _symbolic ScCySo10CLLocationCSg_____G s5NeverO
++ _symbolic ScCy__________G 22VisualIntelligenceCore16InferenceContextV s5NeverO
++ _symbolic ScCy______pSg_____G s5ErrorP s5NeverO
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScCyyt_____GSg s5NeverO
++ _symbolic ScSy_____G 10Foundation4DataV
++ _symbolic ScSy_____G 22VisualIntelligenceCore15ProcessorUpdateV
++ _symbolic ScSy_____G 26VisualIntelligenceServices0A32ActionPredictionServiceInterfaceO04RichD14ExecutionStateV
++ _symbolic ScSy___________tG So21CLAuthorizationStatusV So23CLAccuracyAuthorizationV
++ _symbolic ScgySS______pG s5ErrorP
++ _symbolic ScgySay_____GSg______pG 26VisualIntelligenceServices0A10EntityDataV s5ErrorP
++ _symbolic ScgySay_____G______pG 22VisualIntelligenceCore17ImageSearchObjectV s5ErrorP
++ _symbolic ScgySay_____G______pG 26VisualIntelligenceServices0A10EntityDataV s5ErrorP
++ _symbolic ScsySS______pG s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore10STXContactV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore12VICCCategoryO s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore12VICCCategoryO9StreamingV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore13VICCDetectionV9StreamingV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore15EventLookupItemV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore27NutritionAdapterFoodContentV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV s5ErrorP
++ _symbolic Scsy___________pG 22VisualIntelligenceCore8AFMChunkO s5ErrorP
++ _symbolic Scsy___________pG 26VisualIntelligenceServices17TransactionResultV s5ErrorP
++ _symbolic Sd9requested_SdSg6activet
++ _symbolic Sd9timestamp______5pinIDSS06entityC0_____5statet 10Foundation4UUIDV 22VisualIntelligenceCore11EntityStateO
++ _symbolic Sd9timestamp______5pinID_____12minimumStatet 10Foundation4UUIDV 22VisualIntelligenceCore11EntityStateO
++ _symbolic Sd9timestamp______5pinID_____5errort 10Foundation4UUIDV 22VisualIntelligenceCore19ActionResourceErrorO
++ _symbolic Sd9timestamp_t
++ _symbolic SfSg
++ _symbolic ShySiG
++ _symbolic Shy_____G 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic Shy_____G 22VisualIntelligenceCore18CVTrackedDetectionC
++ _symbolic Shy_____G 22VisualIntelligenceCore20BundleClassificationV0E4TypeO
++ _symbolic Shy_____GSg 26VisualIntelligenceServices0A17ActionVariantTypeO
++ _symbolic Shy_____G______pIeghHgzo_ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO s5ErrorP
++ _symbolic Shy_____Gyt______pIeghHnrzo_ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO s5ErrorP
++ _symbolic Si13queuePosition_t
++ _symbolic Si6offset______7elementt 12VisualLookUp0A13UnderstandingV11ImageRegionV
++ _symbolic Si6offset______7elementt 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV
++ _symbolic Si6offset______7elementt 22VisualIntelligenceCore11STXSubEventV
++ _symbolic Si6offset______7elementt 22VisualIntelligenceCore18TextDetectorResultV
++ _symbolic Si6offset______7elementt 22VisualIntelligenceCore19E5GroundingProviderC0E3BoxV
++ _symbolic Si6offset_______Sft7elementt 22VisualIntelligenceCore8CVBundleV
++ _symbolic Si6offset______y_____G7elementt 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
++ _symbolic Si8expected_Si6actualt
++ _symbolic Si_SfSiSf_____t So6CGRectV
++ _symbolic Si______t 22VisualIntelligenceCore19E5GroundingProviderC0E3BoxV
++ _symbolic So15BCSDetectedCodeCSg
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So24VNSequenceRequestHandlerCSg
++ _symbolic So7CIImageC
++ _symbolic So9IOSurfaceC
++ _symbolic So9MKMapItemC
++ _symbolic SrySfGSg
++ _symbolic _____ 10Foundation19PropertyListDecoderC
++ _symbolic _____ 10Foundation20PersonNameComponentsV
++ _symbolic _____ 10Foundation3URLV22VisualIntelligenceCoreE13ExtensionTypeO
++ _symbolic _____ 10Foundation3URLV22VisualIntelligenceCoreE5ErrorO
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____ 12VisualLookUp14NormalizedRectV
++ _symbolic _____ 15TokenGeneration0A6StreamV22VisualIntelligenceCoreSSRszrlE5Error33_E6FB9413CCE403A87D202CB86FB85612LLO
++ _symbolic _____ 15TokenGeneration18SamplingParametersV
++ _symbolic _____ 15TokenGeneration20SessionConfigurationV
++ _symbolic _____ 16GenerativeModels23StringResponseSanitizerV13ScrubMetadataV
++ _symbolic _____ 16GenerativeModels29StringRenderedPromptSanitizerV13ScrubMetadataV
++ _symbolic _____ 17TextUnderstanding16ExtractionRecipeV
++ _symbolic _____ 19PartnerVisualSearch0cA20SessionConfigurationV
++ _symbolic _____ 19PartnerVisualSearch0cA8ProviderC0D8MetadataV
++ _symbolic _____ 22VisualIntelligenceCore020ImageSearchProductAdD0V
++ _symbolic _____ 22VisualIntelligenceCore020ImageSearchProductAdD0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLO
++ _symbolic _____ 22VisualIntelligenceCore09VICVisualB21AnalysisRequestConfigC0dbeF4TypeO
++ _symbolic _____ 22VisualIntelligenceCore0C19RecognitionProviderC
++ _symbolic _____ 22VisualIntelligenceCore0C22RecognitionReaderCacheC
++ _symbolic _____ 22VisualIntelligenceCore0C24RecognitionProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO19CancelledCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10CampoStateO43PrepareForOverlayToSlamOnTopOfYouCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore10EntitySlotV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV11ContactTypeO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13LabeledStringV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13PostalAddressV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13SocialProfileV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV
++ _symbolic _____ 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore11BundleToken33_6DFA62347B32150BE2E4A00F598667A2LLC
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____ 22VisualIntelligenceCore11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC
++ _symbolic _____ 22VisualIntelligenceCore11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC5StateV
++ _symbolic _____ 22VisualIntelligenceCore11EntityStateO
++ _symbolic _____ 22VisualIntelligenceCore11ImageFormatO
++ _symbolic _____ 22VisualIntelligenceCore11ImageFormatO0D17SurfaceCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore11ImageFormatO13PngCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore11LookupStateO17LiftingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore11LookupStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV7WeekdayO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV9FrequencyO
++ _symbolic _____ 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore11ScalerErrorO
++ _symbolic _____ 22VisualIntelligenceCore11SceneObjectV
++ _symbolic _____ 22VisualIntelligenceCore11SceneObjectV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore11SceneObjectV8CategoryO
++ _symbolic _____ 22VisualIntelligenceCore11TGProcessorV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO19STXTransactionPlaceO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO21STXTransactionElementV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO9SplitBillV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____ 22VisualIntelligenceCore11VICCVersionC
++ _symbolic _____ 22VisualIntelligenceCore11VICCVersionC7VariantO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12AFMChunkTypeO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore12BindingValueO
++ _symbolic _____ 22VisualIntelligenceCore12DateValidity33_FFFE9DECCD7677A7080F0491F7BC02E1LLC
++ _symbolic _____ 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV
++ _symbolic _____ 22VisualIntelligenceCore12STXGuardrailV
++ _symbolic _____ 22VisualIntelligenceCore12TextCategoryO
++ _symbolic _____ 22VisualIntelligenceCore12TextCategoryO5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic _____ 22VisualIntelligenceCore12VICCCategoryO9StreamingV
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore13AFMAnnotationO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore13Argos2DV2ModeO
++ _symbolic _____ 22VisualIntelligenceCore13BarcodeFormatO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO17AddPassCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO19NutritionCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO20AddContactCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO23AddHealthDataCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO25CreateBillSplitCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO26InvokeCampoBlindCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO30InvokeCampoQuickTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMacPostTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMagicPromptCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____ 22VisualIntelligenceCore13BundleBuilderV
++ _symbolic _____ 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
++ _symbolic _____ 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC
++ _symbolic _____ 22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC5StateV
++ _symbolic _____ 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic _____ 22VisualIntelligenceCore13JSONStructureC
++ _symbolic _____ 22VisualIntelligenceCore13JSONStructureC12ParsingErrorO
++ _symbolic _____ 22VisualIntelligenceCore13LocationIssueO
++ _symbolic _____ 22VisualIntelligenceCore13ProviderEventO
++ _symbolic _____ 22VisualIntelligenceCore13ProviderStateV
++ _symbolic _____ 22VisualIntelligenceCore13ProviderStateV7CaptureV
++ _symbolic _____ 22VisualIntelligenceCore13VICCDetectionV
++ _symbolic _____ 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____ 22VisualIntelligenceCore13VICCDetectionV9StreamingV
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO17PartialCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO20RestrictedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO21SafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO26InputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO27ConnectivityErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO27OutputSafetyErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14AFMLookupStateO33GuardrailOutOfDateErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO14RecurrenceDaysO
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO19RecurrenceFrequencyO
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV
++ _symbolic _____ 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore14EvictionPolicyO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14OEEContentTypeO
++ _symbolic _____ 22VisualIntelligenceCore14ProcessorStateO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore14ProcessorStateO17AbortedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore14ProcessorStateO18EnqueuedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore14ProcessorStateO19CompletedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore14ProviderEffectO
++ _symbolic _____ 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14ReadAloudStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore14STXContentTypeO
++ _symbolic _____ 22VisualIntelligenceCore14StructuredTextV
++ _symbolic _____ 22VisualIntelligenceCore14StructuredTextV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore15AFMModelVariantO
++ _symbolic _____ 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLO
++ _symbolic _____ 22VisualIntelligenceCore15EventLookupItemV15DebugCodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLO
++ _symbolic _____ 22VisualIntelligenceCore15GVICCBatchInputV
++ _symbolic _____ 22VisualIntelligenceCore15GVICCBatchInputV10BundleDataV
++ _symbolic _____ 22VisualIntelligenceCore15GroundingResultV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore15ProcessorUpdateV
++ _symbolic _____ 22VisualIntelligenceCore15SchedulingLogicO
++ _symbolic _____ 22VisualIntelligenceCore15SchedulingStateV
++ _symbolic _____ 22VisualIntelligenceCore15SessionContextsC
++ _symbolic _____ 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore15TextActionStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore15TextContentItemV
++ _symbolic _____ 22VisualIntelligenceCore15TextContentItemV0F4TypeO
++ _symbolic _____ 22VisualIntelligenceCore15TextContentItemV0F4TypeO10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore16AFMPunchOutCacheC
++ _symbolic _____ 22VisualIntelligenceCore16DetectionRequestV10OriginatorO25StillProcessingCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore16HealthClassifierV
++ _symbolic _____ 22VisualIntelligenceCore16ImageSearchStateO011OnboardAutoE18RequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore16ImageSearchStateO17StartedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore16ImageSearchStateO28OnboardingRequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore16InferenceContextV
++ _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC
++ _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC010TranscriptD5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
++ _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
++ _symbolic _____ 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore16NutritionPromptsO
++ _symbolic _____ 22VisualIntelligenceCore16STXJSONStructureC
++ _symbolic _____ 22VisualIntelligenceCore16SchedulingRegimeO
++ _symbolic _____ 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore16SchedulingRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____ 22VisualIntelligenceCore16SurfaceAllocatorO
++ _symbolic _____ 22VisualIntelligenceCore16VLUArgosProviderC
++ _symbolic _____ 22VisualIntelligenceCore16VLUArgosProviderC9InputInfo33_5CE6842F696E929117798B36DE3E4B25LLV
++ _symbolic _____ 22VisualIntelligenceCore16VLUParseProviderC
++ _symbolic _____ 22VisualIntelligenceCore16VLUProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore16WaiterResolutionO
++ _symbolic _____ 22VisualIntelligenceCore17AFMActionExecutorV
++ _symbolic _____ 22VisualIntelligenceCore17AFMActionExecutorV14ExecutionErrorO
++ _symbolic _____ 22VisualIntelligenceCore17AFMActionExecutorV16ExecutionRequestV
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO13InferenceModeO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO19NutritionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO23CreateContactCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO23LogHealthDataCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO25AddPassToWalletCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO27CreateTransactionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO29CreateCalendarEventCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17AFMToolAnnotationO29ViContentClassifierCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____ 22VisualIntelligenceCore17CancellationActor33_E6FB9413CCE403A87D202CB86FB85612LLC
++ _symbolic _____ 22VisualIntelligenceCore17ContactClassifierV
++ _symbolic _____ 22VisualIntelligenceCore17EntityResourceKeyV
++ _symbolic _____ 22VisualIntelligenceCore17GVICCBatchContextV
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchObjectV
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchResultV
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchStatusV
++ _symbolic _____ 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore17MockProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore17ReceiptClassifierV
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO010HealthDataE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO011TransactionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO03GeoE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO05EventE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO07BarCodeE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO07ContactE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO09NutritionE10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO0E10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore17STXDateComponentsV
++ _symbolic _____ 22VisualIntelligenceCore17STXDateComponentsV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore17SanitizationErrorO
++ _symbolic _____ 22VisualIntelligenceCore17SchedulingContextV
++ _symbolic _____ 22VisualIntelligenceCore17ShortAssetVersionV
++ _symbolic _____ 22VisualIntelligenceCore18AFMAnnotationErrorO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO0B20EnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO0B28AssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO16NoCallCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO24SiriEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO25UseCaseDisabledCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO27MontaraEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO32SiriAssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotAgeRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotMDMRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO34SplashScreenPresentationCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18AskAcmeRequirementO39CurrentIPCountryCodeAllowanceCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeActionErrorO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeLookupStateO0deF6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO021SummarizeWithExternalB10CodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8K14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8L14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO24UsingSimpleAPICodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore18ImageSearchContextV11InteractionO17UnknownCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore18ImageSearchContextV11InteractionO19HighlightCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore18ImageSearchContextV11InteractionO20FullScreenCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore18ModelConfigurationV
++ _symbolic _____ 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____ 22VisualIntelligenceCore18OnboardingResponseO14DenyCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____ 22VisualIntelligenceCore18OnboardingResponseO15AllowCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____ 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLO
++ _symbolic _____ 22VisualIntelligenceCore18PartnerImageSearchV
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO33ExternalServiceNotSetUpCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO35RedirectToExternalServiceCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore18TextPromptTemplateV
++ _symbolic _____ 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore19ActionResourceErrorO
++ _symbolic _____ 22VisualIntelligenceCore19E5GroundingProviderC
++ _symbolic _____ 22VisualIntelligenceCore19E5GroundingProviderC0E3BoxV
++ _symbolic _____ 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore19GeoLocationEstimateO0cE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore19GeoLocationEstimateO0cE20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore19ManifestCoordinatorC
++ _symbolic _____ 22VisualIntelligenceCore19NutritionClassifierV
++ _symbolic _____ 22VisualIntelligenceCore19OCRPromptFormattingV
++ _symbolic _____ 22VisualIntelligenceCore19OCRPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore19RateLimitingWrapperC14DispatchAction33_1FCD97B97D1CE170D4F29BE184A22CC9LLO
++ _symbolic _____ 22VisualIntelligenceCore19RateLimitingWrapperC18PendingEntryAction33_1FCD97B97D1CE170D4F29BE184A22CC9LLO
++ _symbolic _____ 22VisualIntelligenceCore19VLUGroundingContextV
++ _symbolic _____ 22VisualIntelligenceCore19VTPixelBufferScalerC
++ _symbolic _____ 22VisualIntelligenceCore19VisionProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore20AFMInferenceProviderC
++ _symbolic _____ 22VisualIntelligenceCore20AFMInferenceProviderC13InferenceTypeO
++ _symbolic _____ 22VisualIntelligenceCore20AFMInferenceProviderC24TokenStreamConfigurationV
++ _symbolic _____ 22VisualIntelligenceCore20AFMInferenceProviderC7TGCacheC
++ _symbolic _____ 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20ArgumentParsingErrorO
++ _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ContactCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO17ReceiptCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25IntelligentPassCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV
++ _symbolic _____ 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore20ImageSearchProductAdV
++ _symbolic _____ 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore20ImageSearchThumbnailV
++ _symbolic _____ 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore20M2MPixelBufferScalerC
++ _symbolic _____ 22VisualIntelligenceCore20RellenoConfigurationV7CommandO
++ _symbolic _____ 22VisualIntelligenceCore20ResourceManagerErrorO
++ _symbolic _____ 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20SaveOrCopyPhotoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20SaveOrCopyPhotoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore20SessionContextsErrorO
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV
++ _symbolic _____ 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore21AlertableErrorPayloadV
++ _symbolic _____ 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLO
++ _symbolic _____ 22VisualIntelligenceCore21BuiltInActionExecutorC17EnsureEntityErrorO
++ _symbolic _____ 22VisualIntelligenceCore21BuiltInActionExecutorC18HEICRetrievalError33_1F5120E144C5156F6C9BE2643A48D359LLO
++ _symbolic _____ 22VisualIntelligenceCore21BuiltInActionExecutorC20VAPEExecutionContextV
++ _symbolic _____ 22VisualIntelligenceCore21BuiltInActionExecutorC20VAPEExecutionContextV08FeedbackI0V
++ _symbolic _____ 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore21CreateTapToRadarStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO12OkCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO17InvalidCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO19NoResultsCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO19SensitiveCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO20BadRequestCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21ImageSearchStatusCodeO23InternalErrorCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore21MockInferenceProviderC
++ _symbolic _____ 22VisualIntelligenceCore21OEETGProcessorBuilderV
++ _symbolic _____ 22VisualIntelligenceCore21STXDateTimeComponentsV
++ _symbolic _____ 22VisualIntelligenceCore21STXDateTimeComponentsV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore21ScalerArtifactEmitter33_7C930AEAB2798A88B73091050CE00B61LLV
++ _symbolic _____ 22VisualIntelligenceCore22ActionResourceProviderC
++ _symbolic _____ 22VisualIntelligenceCore22ActionResourceProviderC12MutableState33_B420E7A24EB124D29FD4D1819001EDA3LLV
++ _symbolic _____ 22VisualIntelligenceCore22AskCampoRequestPayloadV
++ _symbolic _____ 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8M14BD23998AA8D4E8LLO
++ _symbolic _____ 22VisualIntelligenceCore22CVDebugImageAnnotationV11GroupingKeyV
++ _symbolic _____ 22VisualIntelligenceCore22EventDateTimeFormatterO
++ _symbolic _____ 22VisualIntelligenceCore22GreymatterAvailabilityV0E5StateV
++ _symbolic _____ 22VisualIntelligenceCore22GreymatterAvailabilityV17EnhancedSiriEntry33_99C6E5ED3F40308BF68826FA333809E7LLC
++ _symbolic _____ 22VisualIntelligenceCore22InputSanitizerResourceV
++ _symbolic _____ 22VisualIntelligenceCore22LocationAccessProviderC
++ _symbolic _____ 22VisualIntelligenceCore22LocationAccessProviderC21AuthorizationDelegate33_3A897438556E828ECE0E6820801FBCA0LLC
++ _symbolic _____ 22VisualIntelligenceCore22SurfaceAllocationErrorO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO17DefaultCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO19NutritionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO24DataCollectionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV
++ _symbolic _____ 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____ 22VisualIntelligenceCore22VICCTGProcessorBuilderV
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO17WebsiteCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____ 22VisualIntelligenceCore23ImageSearchServiceErrorO
++ _symbolic _____ 22VisualIntelligenceCore23OutputSanitizerResourceV
++ _symbolic _____ 22VisualIntelligenceCore23OutputSanitizerResourceV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore23ResourceBundleContainer33_D1309A2F506802872A154E86E3AF878BLLC
++ _symbolic _____ 22VisualIntelligenceCore23ResourceBundleContainer33_D2D40EF74E25C1A195FC8D63C072531CLLC
++ _symbolic _____ 22VisualIntelligenceCore23ResourceBundleContainer33_F67B7D90D65498118E8A0CE24D4BF7B5LLC
++ _symbolic _____ 22VisualIntelligenceCore23StillImageMediaManifestC12MutableState33_B524ABC9C2ABB97E527F7E7F66694084LLV
++ _symbolic _____ 22VisualIntelligenceCore23VisionFrameworkProviderC
++ _symbolic _____ 22VisualIntelligenceCore23VisionFrameworkProviderC13DetectionModeO
++ _symbolic _____ 22VisualIntelligenceCore24E5GroundingProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore24GroundingMD9_1DescriptorV
++ _symbolic _____ 22VisualIntelligenceCore24ImageSearchShoppingBadgeV
++ _symbolic _____ 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore24ImageSearchSimilarImagesV
++ _symbolic _____ 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore24InProcessSaliencySessionC
++ _symbolic _____ 22VisualIntelligenceCore24InProcessSaliencySessionC13ConfigurationV
++ _symbolic _____ 22VisualIntelligenceCore24InProcessSaliencySessionC13ConfigurationV07HostingE0O
++ _symbolic _____ 22VisualIntelligenceCore24InProcessSaliencySessionC22VisionKitConfigurationV
++ _symbolic _____ 22VisualIntelligenceCore24InferenceResourceManagerC
++ _symbolic _____ 22VisualIntelligenceCore24PixelBufferScalerFactoryO
++ _symbolic _____ 22VisualIntelligenceCore24StreamingProviderFactory33_5BE1072488F3E3752CC8EA2C1E759414LLV
++ _symbolic _____ 22VisualIntelligenceCore24VLUGroundedParseProviderC
++ _symbolic _____ 22VisualIntelligenceCore25AFMInferenceProviderErrorO
++ _symbolic _____ 22VisualIntelligenceCore25InferenceExecutionContextV
++ _symbolic _____ 22VisualIntelligenceCore25IntelligentPassClassifierV
++ _symbolic _____ 22VisualIntelligenceCore25StreamingInferenceContextV
++ _symbolic _____ 22VisualIntelligenceCore26AFMAnnotationSchemaManagerV
++ _symbolic _____ 22VisualIntelligenceCore26AFMAnnotationSchemaManagerV5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore26Argos2DClassificationsModeO
++ _symbolic _____ 22VisualIntelligenceCore26CVCoordinatorExecutionModeO
++ _symbolic _____ 22VisualIntelligenceCore26EntityRequestCallbackError33_1F95CC9AC8EE41B727AAA46CC61964B5LLV
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchProductAdRatingV
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchProductSaleInfoV
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore26ImageSearchServiceInternalC
++ _symbolic _____ 22VisualIntelligenceCore26MatchingCostMatrixComputerC
++ _symbolic _____ 22VisualIntelligenceCore26MatchingCostMatrixComputerC0eF5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore26MatchingCostMatrixComputerC11BoundingBoxV
++ _symbolic _____ 22VisualIntelligenceCore26NutritionInferenceMetadataV
++ _symbolic _____ 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLO
++ _symbolic _____ 22VisualIntelligenceCore26SystemTimePromptFormattingV
++ _symbolic _____ 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore26VisionSequenceHandlerCacheC
++ _symbolic _____ 22VisualIntelligenceCore27CVCoordinatorInputMediaInfoO
++ _symbolic _____ 22VisualIntelligenceCore27ImageSearchRateLimitedInputV
++ _symbolic _____ 22VisualIntelligenceCore27ImageSearchRateLimitedInputV3KeyV
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO14NoneCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO16StrictCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO17RunningCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____ 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _symbolic _____ 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLO
++ _symbolic _____ 22VisualIntelligenceCore27NutritionAdapterFoodContentV20ArgumentParsingErrorO
++ _symbolic _____ 22VisualIntelligenceCore27NutritionTGProcessorBuilderV
++ _symbolic _____ 22VisualIntelligenceCore28AFMClassifierTextRequirementO
++ _symbolic _____ 22VisualIntelligenceCore28GaussianIntegralBundleRankerC5State33_5B6511A8D05FFD17E9AC9762ACDB9F3DLLV
++ _symbolic _____ 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC5State33_959ABB2B7383F6A81FFA7D7F01D33806LLV
++ _symbolic _____ 22VisualIntelligenceCore29CVProcessorInputConfigurationV21DimensionsRequirementO
++ _symbolic _____ 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV
++ _symbolic _____ 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____ 22VisualIntelligenceCore29ImageSearchRateLimitedServiceC
++ _symbolic _____ 22VisualIntelligenceCore29MacScreenCaptureConfigStorageC
++ _symbolic _____ 22VisualIntelligenceCore29SimpleInProcessSaliencyStreamC
++ _symbolic _____ 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLO
++ _symbolic _____ 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC
++ _symbolic _____ 22VisualIntelligenceCore31InProcessSaliencyStreamProviderC0G5ErrorO
++ _symbolic _____ 22VisualIntelligenceCore34SaliencyStreamPipelineStageContextV
++ _symbolic _____ 22VisualIntelligenceCore34SimpleInProcessSaliencyStreamErrorO
++ _symbolic _____ 22VisualIntelligenceCore34TextDetectionCollectionUpdateErrorO
++ _symbolic _____ 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic _____ 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____ 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V133_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____ 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V233_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO0D9LogDataViV
++ _symbolic _____ 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO12BodyMassUnitO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO15MeasurementTypeO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO16BloodGlucoseUnitO
++ _symbolic _____ 22VisualIntelligenceCore6HealthO17BloodPressureUnitO
++ _symbolic _____ 22VisualIntelligenceCore6WaiterV
++ _symbolic _____ 22VisualIntelligenceCore6WalletO
++ _symbolic _____ 22VisualIntelligenceCore6WalletO09AddPassToD0V
++ _symbolic _____ 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore6WalletO10ThemeColorO
++ _symbolic _____ 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _symbolic _____ 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore6WalletO8PassTypeO
++ _symbolic _____ 22VisualIntelligenceCore6WalletO9EventSeatV
++ _symbolic _____ 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO06CreateD0V
++ _symbolic _____ 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13LabeledStringV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13PostalAddressV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13PostalAddressV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13SocialProfileV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO14DateComponentsV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____ 22VisualIntelligenceCore7ContactO20PersonNameComponentsV
++ _symbolic _____ 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____ 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLO
++ _symbolic _____ 22VisualIntelligenceCore8JSONNodeC
++ _symbolic _____ 22VisualIntelligenceCore8STXEventV
++ _symbolic _____ 22VisualIntelligenceCore8STXEventV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore8VICCToolV
++ _symbolic _____ 22VisualIntelligenceCore8WaiterIDV
++ _symbolic _____ 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO17ActivationContextO18StandardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO17ActivationContextO19QuickTypeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____ 22VisualIntelligenceCore9JSONValueV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO08GenerateD4CardV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO0D13QualityRatingO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO0D7QualityV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO0D7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO0D8AnalysisV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO0D8AnalysisV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO10FatInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO10FiberLevelO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO10GrainsTypeO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO11ProteinTypeO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO11VisionModelV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO12FiberInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO12PlateBalanceO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO12PlateInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO13ElevatedLevelO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO13GrainsInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO14ProteinInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO15ProcessingLevelO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO16FoodPresentationV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO16VisionModelLevelO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO17ProcessingInsightV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO20FoodPresentationTypeO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO7FatTypeO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO7SummaryV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO8InsightsV
++ _symbolic _____ 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysO
++ _symbolic _____ 26VisualIntelligenceServices10EntryPointO
++ _symbolic _____ 26VisualIntelligenceServices15SaliencySessionC13ConfigurationV
++ _symbolic _____ 26VisualIntelligenceServices21ImageSearchEntrypointO
++ _symbolic _____ 26VisualIntelligenceServices27UnsafeSkipEncodingIOSurfaceV
++ _symbolic _____ 7Network6NWPathV
++ _symbolic _____ So11LXMetaFlagsV
++ _symbolic _____ So12LXLexiconRefa
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So20IOSurfacePropertyKeya
++ _symbolic _____11contentType_t 22VisualIntelligenceCore14OEEContentTypeO
++ _symbolic _____11contentType_t 22VisualIntelligenceCore14STXContentTypeO
++ _symbolic _____18compressionQuality_t 12CoreGraphics7CGFloatV
++ _symbolic _____2id______10originatort 10Foundation4UUIDV 22VisualIntelligenceCore16DetectionRequestV10OriginatorO
++ _symbolic _____3key_SaySSG5valuet 10Foundation4UUIDV
++ _symbolic _____3key_Say_____y_____GG5valuet 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
++ _symbolic _____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuet 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 22VisualIntelligenceCore10EntitySlotV
++ _symbolic _____3key______ySay_____G_____G5valuet 22VisualIntelligenceCore27ImageSearchRateLimitedInputV3KeyV AA10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0dE6ObjectV s15ContinuousClockV7InstantV
++ _symbolic _____3key______ySay_____G______Sgt_____G5valuet 22VisualIntelligenceCore0aB16RateLimitedInputV3KeyV AA10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB12LookupResultV 0A6LookUp013SearchHistoryI0V s15ContinuousClockV7InstantV
++ _symbolic _____3url_AA9parentURLt 10Foundation3URLV
++ _symbolic _____5pinID_t 10Foundation4UUIDV
++ _symbolic _____5state_SS8entityIDt 22VisualIntelligenceCore11EntityStateO
++ _symbolic _____6buffer_So9IOSurfaceC7surfacet So11CVBufferRefa
++ _symbolic _____6buffer_So9IOSurfaceC7surfacetSg So11CVBufferRefa
++ _symbolic _____6handle______7variantt 10Foundation4UUIDV 26VisualIntelligenceServices0C17ActionVariantTypeO
++ _symbolic _____7variant_t 22VisualIntelligenceCore11VICCVersionC7VariantO
++ _symbolic _____8dateTime______17recurrenceEndDatet 22VisualIntelligenceCore21STXDateTimeComponentsV AA0dF0V
++ _symbolic _____8dateTime______17recurrenceEndDatetSg 22VisualIntelligenceCore21STXDateTimeComponentsV AA0dF0V
++ _symbolic _____8identity_SS16bundleIdentifierSb12isFirstPartyt 29VisualActionPredictionSupport06CustomB8IdentityO
++ _symbolic _____8waiterID______10resolutiont 22VisualIntelligenceCore8WaiterIDV AA0D10ResolutionO
++ _symbolic _____8waiterID_t 22VisualIntelligenceCore8WaiterIDV
++ _symbolic _____9mainEvent_SayAAG11childEventst 22VisualIntelligenceCore11STXSubEventV
++ _symbolic _____IeAgHr_ 22VisualIntelligenceCore22GreymatterAvailabilityV0E5StateV
++ _symbolic _____Ieghn_ 22VisualIntelligenceCore14ProcessorStateO
++ _symbolic _____Iegn_Iegg_ 26VisualIntelligenceServices14EntityResponseO
++ _symbolic _____SS______pIeghHnozo_ 10Foundation4UUIDV s5ErrorP
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg 10GeoToolbox15PlaceDescriptorV
++ _symbolic _____Sg 13CampoServices0A9UIServiceC19PresentationRequestV13ConfigurationV23VisualActivationContentV
++ _symbolic _____Sg 13CampoServices0A9UIServiceC19PresentationRequestV6SourceO
++ _symbolic _____Sg 15TextRecognition11ImageReaderC
++ _symbolic _____Sg 15TokenGeneration11ModelBundleV
++ _symbolic _____Sg 15TokenGeneration16ModelInformationV
++ _symbolic _____Sg 15TokenGeneration16ModelInformationV5AssetV
++ _symbolic _____Sg 15TokenGeneration16SamplingStrategyV
++ _symbolic _____Sg 15TokenGeneration18SamplingParametersV
++ _symbolic _____Sg 16GenerativeModels29StringRenderedPromptSanitizerV10GuardrailsV
++ _symbolic _____Sg 16GenerativeModels29StringRenderedPromptSanitizerV9OverridesV
++ _symbolic _____Sg 22VisualIntelligenceCore10STXContactV
++ _symbolic _____Sg 22VisualIntelligenceCore10STXContactV11ContactTypeO
++ _symbolic _____Sg 22VisualIntelligenceCore10STXContactV13PostalAddressV
++ _symbolic _____Sg 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO
++ _symbolic _____Sg 22VisualIntelligenceCore11EntityStateO
++ _symbolic _____Sg 22VisualIntelligenceCore11STXSubEventV
++ _symbolic _____Sg 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV
++ _symbolic _____Sg 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV
++ _symbolic _____Sg 22VisualIntelligenceCore11TGProcessorV
++ _symbolic _____Sg 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _symbolic _____Sg 22VisualIntelligenceCore11TransactionO19STXTransactionPlaceO
++ _symbolic _____Sg 22VisualIntelligenceCore12VICCCategoryO9StreamingV
++ _symbolic _____Sg 22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC
++ _symbolic _____Sg 22VisualIntelligenceCore13ProviderStateV7CaptureV
++ _symbolic _____Sg 22VisualIntelligenceCore13VICCDetectionV9StreamingV
++ _symbolic _____Sg 22VisualIntelligenceCore14BundleSelectorC13ConfigurationV22RankingAlgorithmPresetO
++ _symbolic _____Sg 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV
++ _symbolic _____Sg 22VisualIntelligenceCore15GVICCBatchInputV
++ _symbolic _____Sg 22VisualIntelligenceCore15ProcessorUpdateV
++ _symbolic _____Sg 22VisualIntelligenceCore15SessionContextsC
++ _symbolic _____Sg 22VisualIntelligenceCore16InferenceContextV
++ _symbolic _____Sg 22VisualIntelligenceCore17GVICCBatchContextV
++ _symbolic _____Sg 22VisualIntelligenceCore17ImageSearchObjectV
++ _symbolic _____Sg 22VisualIntelligenceCore17ImageSearchResultV
++ _symbolic _____Sg 22VisualIntelligenceCore18ModelConfigurationV
++ _symbolic _____Sg 22VisualIntelligenceCore18PartnerImageSearchV
++ _symbolic _____Sg 22VisualIntelligenceCore19ActionResourceErrorO
++ _symbolic _____Sg 22VisualIntelligenceCore19E5InferenceProviderC
++ _symbolic _____Sg 22VisualIntelligenceCore19InProcessMediaFrameV
++ _symbolic _____Sg 22VisualIntelligenceCore19ParseDetectorResultV
++ _symbolic _____Sg 22VisualIntelligenceCore19VLUGroundingContextV
++ _symbolic _____Sg 22VisualIntelligenceCore20ActionExecutionStateO
++ _symbolic _____Sg 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV
++ _symbolic _____Sg 22VisualIntelligenceCore20ImageSearchThumbnailV
++ _symbolic _____Sg 22VisualIntelligenceCore21BuiltInActionExecutorC20VAPEExecutionContextV
++ _symbolic _____Sg 22VisualIntelligenceCore21BuiltInActionExecutorC20VAPEExecutionContextV08FeedbackI0V
++ _symbolic _____Sg 22VisualIntelligenceCore21STXDateTimeComponentsV
++ _symbolic _____Sg 22VisualIntelligenceCore22CVDebugArtifactManagerC
++ _symbolic _____Sg 22VisualIntelligenceCore22GreymatterAvailabilityV0E5StateV
++ _symbolic _____Sg 22VisualIntelligenceCore22InputSanitizerResourceV
++ _symbolic _____Sg 22VisualIntelligenceCore22LocationAccessProviderC21AuthorizationDelegate33_3A897438556E828ECE0E6820801FBCA0LLC
++ _symbolic _____Sg 22VisualIntelligenceCore23OutputSanitizerResourceV
++ _symbolic _____Sg 22VisualIntelligenceCore24ImageSearchShoppingBadgeV
++ _symbolic _____Sg 22VisualIntelligenceCore24SiriStreamingVoicePlayerC
++ _symbolic _____Sg 22VisualIntelligenceCore25CVProcessorTaskDescriptorV
++ _symbolic _____Sg 22VisualIntelligenceCore26ImageSearchProductAdRatingV
++ _symbolic _____Sg 22VisualIntelligenceCore26ImageSearchProductSaleInfoV
++ _symbolic _____Sg 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _symbolic _____Sg 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV
++ _symbolic _____Sg 22VisualIntelligenceCore6HealthO12BodyMassUnitO
++ _symbolic _____Sg 22VisualIntelligenceCore6HealthO16BloodGlucoseUnitO
++ _symbolic _____Sg 22VisualIntelligenceCore6HealthO17BloodPressureUnitO
++ _symbolic _____Sg 22VisualIntelligenceCore6WalletO10ThemeColorO
++ _symbolic _____Sg 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _symbolic _____Sg 22VisualIntelligenceCore7AFMDataO
++ _symbolic _____Sg 22VisualIntelligenceCore7ContactO14DateComponentsV
++ _symbolic _____Sg 22VisualIntelligenceCore7ContactO20PersonNameComponentsV
++ _symbolic _____Sg 22VisualIntelligenceCore8AFMChunkO
++ _symbolic _____Sg 22VisualIntelligenceCore8JSONNodeC
++ _symbolic _____Sg 22VisualIntelligenceCore8STXEventV
++ _symbolic _____Sg 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV
++ _symbolic _____Sg 26VisualIntelligenceServices0A32ActionPredictionServiceInterfaceO04RichD14ExecutionStateV
++ _symbolic _____Sg 26VisualIntelligenceServices10ThemeColorO
++ _symbolic _____Sg 26VisualIntelligenceServices12ActionResultO
++ _symbolic _____Sg 26VisualIntelligenceServices13BarcodeFormatO
++ _symbolic _____Sg 26VisualIntelligenceServices15SaliencySessionC
++ _symbolic _____Sg 26VisualIntelligenceServices15SaliencySessionC20UnavailabilityReasonO
++ _symbolic _____Sg 26VisualIntelligenceServices16CodableIOSurfaceV
++ _symbolic _____Sg 26VisualIntelligenceServices16TransactionPlaceO
++ _symbolic _____Sg 26VisualIntelligenceServices17TransactionResultV
++ _symbolic _____Sg 26VisualIntelligenceServices21IntelligentPassResultV
++ _symbolic _____Sg 29GenerativeFunctionsFoundation10JSONSchemaO
++ _symbolic _____Sg 29VisualActionPredictionSupport0A14ClassificationV
++ _symbolic _____Sg 29VisualActionPredictionSupport11TransactionV
++ _symbolic _____Sg 29VisualActionPredictionSupport11TransactionV15MerchantDetailsV
++ _symbolic _____Sg 29VisualActionPredictionSupport11TransactionV15MerchantDetailsV11ContactInfoV
++ _symbolic _____Sg 29VisualActionPredictionSupport11TransactionV15MerchantDetailsV7AddressV
++ _symbolic _____Sg 29VisualActionPredictionSupport11TransactionV5PlaceO
++ _symbolic _____Sg 29VisualActionPredictionSupport15ExecutionResultO
++ _symbolic _____Sg 29VisualActionPredictionSupport15IntelligentPassV11BarcodeTypeO
++ _symbolic _____Sg 29VisualActionPredictionSupport16DateTimeScheduleV
++ _symbolic _____Sg 29VisualActionPredictionSupport16DateTimeScheduleV10RecurrenceV
++ _symbolic _____Sg 29VisualActionPredictionSupport40VerticalIntegrationContentClassificationV
++ _symbolic _____Sg 29VisualActionPredictionSupport7ContactV
++ _symbolic _____Sg 29VisualActionPredictionSupport7ContactV8IdentityO12OrganizationV
++ _symbolic _____Sg 29VisualActionPredictionSupport7ContactV8IdentityO6PersonV4NameO
++ _symbolic _____Sg 9PromptKit13ThoughtBudgetO
++ _symbolic _____Sg 9PromptKit24SystemInstructionBuilderV
++ _symbolic _____Sg So21CLAuthorizationStatusV
++ _symbolic _____Sg So23CLAccuracyAuthorizationV
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____Sg s5Int32V
++ _symbolic _____Sg17precompiledBundle_AB8mlmodelct 10Foundation3URLV
++ _symbolic _____Sg6result_SSSg16errorDescriptiont 22VisualIntelligenceCore15DetectionResultV
++ _symbolic _____SgSg So25VTPixelRotationSessionRefa
++ _symbolic _____SgSg So25VTPixelTransferSessionRefa
++ _symbolic _____SgXw 22VisualIntelligenceCore22LocationAccessProviderC
++ _symbolic _____SgXw 26VisualIntelligenceServices30RichOutOfProcessSaliencyStreamC
++ _symbolic _____SgXwz_Xx 22VisualIntelligenceCore13CVCoordinatorC
++ _symbolic _____SgXwz_Xx 22VisualIntelligenceCore19ConnectivityUtilityC
++ _symbolic _____SgXwz_Xx 22VisualIntelligenceCore22LocationAccessProviderC
++ _symbolic _____SgXwz_Xx 26VisualIntelligenceServices30RichOutOfProcessSaliencyStreamC
++ _symbolic _____Sg_AAt So11CFStringRefa
++ _symbolic _____Sg_ABt 16GenerativeModels0aB12AvailabilityV0C0O
++ _symbolic _____Sg_ABt 16GenerativeModels23StringResponseSanitizerV10GuardrailsV
++ _symbolic _____Sg_ABt 16GenerativeModels23StringResponseSanitizerV9OverridesV
++ _symbolic _____Sg_ABt 16GenerativeModels29StringRenderedPromptSanitizerV10GuardrailsV
++ _symbolic _____Sg_ABt 16GenerativeModels29StringRenderedPromptSanitizerV9OverridesV
++ _symbolic _____Sg_ABt 22VisualIntelligenceCore18ModelConfigurationV
++ _symbolic _____Sg_ABt 22VisualIntelligenceCore20ImageSearchThumbnailV
++ _symbolic _____Sg_ABt 22VisualIntelligenceCore21STXDateTimeComponentsV
++ _symbolic _____Sg_ABt 22VisualIntelligenceCore7ContactO20PersonNameComponentsV
++ _symbolic _____Sg_ABt 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV
++ _symbolic _____Sg_ABt 29GenerativeFunctionsFoundation6SchemaV
++ _symbolic _____Sg_ABt 29VisualActionPredictionSupport09PredictedB0V
++ _symbolic _____Sg_SSSgt 22VisualIntelligenceCore15DetectionResultV
++ _symbolic _____XDXMT 22VisualIntelligenceCore16VLUParseProviderC
++ _symbolic _____XDXMT 22VisualIntelligenceCore20AFMInferenceProviderC
++ _symbolic _____XDXMT 22VisualIntelligenceCore22GreymatterAvailabilityV0E5Entry33_99C6E5ED3F40308BF68826FA333809E7LLC
++ _symbolic _____XDXMT 22VisualIntelligenceCore23VisionFrameworkProviderC
++ _symbolic _____XDXMT 22VisualIntelligenceCore24VLUGroundedParseProviderC
++ _symbolic _____XDXMT 22VisualIntelligenceCore29SimpleInProcessSaliencyStreamC
++ _symbolic ______AAt 22VisualIntelligenceCore10CampoStateO
++ _symbolic ______AAt 22VisualIntelligenceCore10TextPromptO
++ _symbolic ______AAt 22VisualIntelligenceCore11LookupStateO
++ _symbolic ______AAt 22VisualIntelligenceCore13ProviderEventO
++ _symbolic ______AAt 22VisualIntelligenceCore14ProviderEffectO
++ _symbolic ______AAt 22VisualIntelligenceCore15TextContentItemV0F4TypeO
++ _symbolic ______AAt 22VisualIntelligenceCore19ActionResourceErrorO
++ _symbolic ______AAt 22VisualIntelligenceCore21CreateTapToRadarStateO
++ _symbolic ______AAt 22VisualIntelligenceCore7AFMDataO
++ _symbolic ______AAt 22VisualIntelligenceCore8AFMChunkO
++ _symbolic ______SDySd_____Gt 10Foundation4UUIDV So6CGRectV
++ _symbolic ______SSt So10CGImageRefa
++ _symbolic ______SayAAGt 22VisualIntelligenceCore11STXSubEventV
++ _symbolic ______SaySSGt 10Foundation4UUIDV
++ _symbolic ______SayScCySay_____G______Sgt______pGGt 22VisualIntelligenceCore0aB16RateLimitedInputV3KeyV AA0aB12LookupResultV 0A6LookUp18SearchHistoryEntryV s5ErrorP
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 22VisualIntelligenceCore13VICCDetectionV
++ _symbolic ______Say_____Gt 22VisualIntelligenceCore13InferenceTypeO AA0D7ContextV
++ _symbolic ______Say_____y_____GGt 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD9_1DescriptorV
++ _symbolic ______ScCySS______pGt 22VisualIntelligenceCore8WaiterIDV s5ErrorP
++ _symbolic ______Sft 10Foundation4UUIDV
++ _symbolic ______Sit 10Foundation4UUIDV
++ _symbolic _______________Xj r0_ls8Sendable_Scipx7ElementRts_q_7FailureRtsXPXGMq 22VisualIntelligenceCore15ProcessorUpdateV s5NeverO
++ _symbolic ___________t 10Foundation4UUIDV 22VisualIntelligenceCore10EntitySlotV
++ _symbolic ___________t 10Foundation4UUIDV 22VisualIntelligenceCore16DetectionRequestV10OriginatorO
++ _symbolic ___________t 10Foundation4UUIDV 26VisualIntelligenceServices12ActionResultO
++ _symbolic ___________t 22VisualIntelligenceCore13InferenceTypeO s15ContinuousClockV7InstantV
++ _symbolic ___________t 22VisualIntelligenceCore29CVProcessorInputConfigurationV21DimensionsRequirementO AC11PixelFormatO
++ _symbolic ___________t 22VisualIntelligenceCore9ActionPinV AC4PillV
++ _symbolic ___________tSg 22VisualIntelligenceCore9ActionPinV AC4PillV
++ _symbolic ___________ySay_____G______Sgt_____Gt 22VisualIntelligenceCore0aB16RateLimitedInputV3KeyV AA10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB12LookupResultV 0A6LookUp013SearchHistoryI0V s15ContinuousClockV7InstantV
++ _symbolic ___________y_____Gt 22VisualIntelligenceCore19E5GroundingProviderC0E3BoxV s15ContiguousArrayV s6UInt16V
++ _symbolic ______p 10Foundation40CustomLocalizedStringResourceConvertibleP
++ _symbolic ______p 15TokenGeneration21PromptCompletionEventP
++ _symbolic ______p 22VisualIntelligenceCore17InferenceProviderP
++ _symbolic ______p 22VisualIntelligenceCore17PixelBufferScalerP
++ _symbolic ______p 22VisualIntelligenceCore19AlertProvidingErrorP
++ _symbolic ______p 22VisualIntelligenceCore25ClassificationPreheatableP
++ _symbolic ______p 22VisualIntelligenceCore25TrackerEmbeddingProvidingP
++ _symbolic ______p 22VisualIntelligenceCore32StreamingProviderFactoryProtocol33_5BE1072488F3E3752CC8EA2C1E759414LLP
++ _symbolic ______p 22VisualIntelligenceCore33InferenceResourceManagerProvidingP
++ _symbolic ______p 22VisualIntelligenceCore36SaliencyStreamConfigurationProvidingP
++ _symbolic ______p 22VisualIntelligenceCore9GMSVIToolP
++ _symbolic ______p 26VisualIntelligenceServices14SaliencyStreamP
++ _symbolic ______p So15MTLCommandQueueP
++ _symbolic ______p So23MTLComputePipelineStateP
++ _symbolic ______p So9MTLDeviceP
++ _symbolic ______p s19_HasContiguousBytesP
++ _symbolic ______pSg 12ModelCatalog29AssetBackedTokenInputDenyListP
++ _symbolic ______pSg 12ModelCatalog30AssetBackedTokenOutputDenyListP
++ _symbolic ______pSg 15TokenGeneration21PromptCompletionEventP
++ _symbolic ______pSg 19PartnerVisualSearch05ImageC13ShoppingBadgeP
++ _symbolic ______pSg 19PartnerVisualSearch05ImageC15ProductAdRatingP
++ _symbolic ______pSg 19PartnerVisualSearch05ImageC15ProductSaleInfoP
++ _symbolic ______pSg 19PartnerVisualSearch05ImageC6ResultP
++ _symbolic ______pSg 19PartnerVisualSearch05ImageC9ThumbnailP
++ _symbolic ______pSg 22VisualIntelligenceCore13MediaManifestP
++ _symbolic ______pSg 22VisualIntelligenceCore17EvictableResourceP
++ _symbolic ______pSg 22VisualIntelligenceCore22TrackManagerSupportingP
++ _symbolic ______pSg 22VisualIntelligenceCore32StreamingProviderFactoryProtocol33_5BE1072488F3E3752CC8EA2C1E759414LLP
++ _symbolic ______pSg 22VisualIntelligenceCore33InferenceResourceManagerProvidingP
++ _symbolic ______pSg 22VisualIntelligenceCore36SaliencyStreamConfigurationProvidingP
++ _symbolic ______pSg 22VisualIntelligenceCore9GMSVIToolP
++ _symbolic ______pSg 26VisualIntelligenceServices18RichSaliencyStreamP
++ _symbolic ______pSgXw 22VisualIntelligenceCore22LocationAccessPrompterP
++ _symbolic ______p______pIeghHrzo_ 22VisualIntelligenceCore17InferenceProviderP s5ErrorP
++ _symbolic ______ypt So20IOSurfacePropertyKeya
++ _symbolic _____qd__Xj______pIeghHrzo_ l22VisualIntelligenceCore26StreamingInferenceProvider_px7ElementRts_XPXGMq s5ErrorP
++ _symbolic _____xXj l22VisualIntelligenceCore26StreamingInferenceProvider_px7ElementRts_XPXGMq
++ _symbolic _____xXjyYaYbKc l22VisualIntelligenceCore26StreamingInferenceProvider_px7ElementRts_XPXGMq
++ _symbolic _____y16RateLimitedInput_____Qz0aB6OutputACQzG 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA13RateLimitableP
++ _symbolic _____y16RateLimitedInput_____Qz0aB6OutputACQzG_AFt 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA13RateLimitableP
++ _symbolic _____ySDySS_____GG 15Synchronization5MutexVAARi_zrlE 10Foundation4DataV
++ _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore13InferenceTypeO So11CVBufferRefa
++ _symbolic _____ySS5title_SS5valuetG s23_ContiguousArrayStorageC
++ _symbolic _____ySSG 17TextUnderstanding15GenerationGuideC
++ _symbolic _____ySSG 19GenerativeFunctions12StreamSignalO
++ _symbolic _____ySSG 29VisualActionPredictionSupport14LabeledContentV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 22VisualIntelligenceCore12BindingValueO
++ _symbolic _____ySS_____G s18_DictionaryStorageC s12StaticStringV
++ _symbolic _____ySS______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySS______p_G Scs8IteratorV s5ErrorP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC s12StaticStringV
++ _symbolic _____ySay_____GG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore9ActionPinV
++ _symbolic _____ySay_____GG 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core16DetectionRequestV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____ySay_____G__GSg ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore16DetectionRequestV
++ _symbolic _____ySay_____G_____G 22VisualIntelligenceCore10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA17ImageSearchObjectV s15ContinuousClockV7InstantV
++ _symbolic _____ySay_____G_____GSg 22VisualIntelligenceCore10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA17ImageSearchObjectV s15ContinuousClockV7InstantV
++ _symbolic _____ySay_____G______Sgt_____G 22VisualIntelligenceCore10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB12LookupResultV 0A6LookUp013SearchHistoryE0V s15ContinuousClockV7InstantV
++ _symbolic _____ySay_____G______Sgt_____GSg 22VisualIntelligenceCore10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB12LookupResultV 0A6LookUp013SearchHistoryE0V s15ContinuousClockV7InstantV
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD9_1DescriptorV
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yScCySS______pG______tG s23_ContiguousArrayStorageC s5ErrorP 22VisualIntelligenceCore16WaiterResolutionO
++ _symbolic _____yScCySay_____G______Sgt______pGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore0dE12LookupResultV 0D6LookUp18SearchHistoryEntryV s5ErrorP
++ _symbolic _____yScCySay_____G______pGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore17ImageSearchObjectV s5ErrorP
++ _symbolic _____yScCy__________GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore16InferenceContextV s5NeverO
++ _symbolic _____yScCyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____yScCyyt______pGG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____ySdSay_____GG s18_DictionaryStorageC 22VisualIntelligenceCore14ProcessorStateO
++ _symbolic _____ySdSay_____GG s18_DictionaryStorageC 22VisualIntelligenceCore15CVTrackSnapshotV
++ _symbolic _____ySd_____G s18_DictionaryStorageC So6CGRectV
++ _symbolic _____ySfG s5SIMD2V
++ _symbolic _____yShy_____GG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic _____ySi6offset_Si_SfSiSf_____t7elementtG s23_ContiguousArrayStorageC So6CGRectV
++ _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 22VisualIntelligenceCore19E5GroundingProviderC0H3BoxV
++ _symbolic _____ySi8boxIndex_Sf8maxScoreSi0cd8TaxonomyB0Sf06objectD0tG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_SfSiSf_____tG s23_ContiguousArrayStorageC So6CGRectV
++ _symbolic _____ySi______tG s23_ContiguousArrayStorageC 22VisualIntelligenceCore19E5GroundingProviderC0H3BoxV
++ _symbolic _____ySo19GEOMapServiceTraitsCSgG 26VisualIntelligenceServices16SendableTransferV
++ _symbolic _____ySo24VNSequenceRequestHandlerCSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySuG s23_ContiguousArrayStorageC
++ _symbolic _____y_____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuetG s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC5StateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore11VICCVersionC7VariantO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC5StateV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore16LanguageDetectorC010TranscriptF5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
++ _symbolic _____y_____G 19GenerativeFunctions12StreamSignalO 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO 0aB8Services17TransactionResultV
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO 0aB8Services21IntelligentPassResultV
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO AA10STXContactV
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO AA15EventLookupItemV
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO AA27NutritionAdapterFoodContentV
++ _symbolic _____y_____G 22VisualIntelligenceCore14AFMLookupStateO AA6HealthO0F9LogDataViV0fghI9ArgumentsV
++ _symbolic _____y_____G 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
++ _symbolic _____y_____G 22VisualIntelligenceCore16VLUArgosProviderC AA13Argos2DV2ModeO
++ _symbolic _____y_____G 22VisualIntelligenceCore16VLUArgosProviderC AA26Argos2DClassificationsModeO
++ _symbolic _____y_____G 22VisualIntelligenceCore21MockInferenceProviderC s15ContinuousClockV
++ _symbolic _____y_____G 22VisualIntelligenceCore22ActionResourceProviderC s15ContinuousClockV
++ _symbolic _____y_____G 22VisualIntelligenceCore24InferenceResourceManagerC s15ContinuousClockV
++ _symbolic _____y_____G 22VisualIntelligenceCore24StreamingProviderFactory33_5BE1072488F3E3752CC8EA2C1E759414LLV AA8AFMChunkO
++ _symbolic _____y_____G 22VisualIntelligenceCore25StreamingInferenceContextV AA8AFMChunkO
++ _symbolic _____y_____G 26VisualIntelligenceServices16SendableTransferV 0aB4Core13BundleManagerC
++ _symbolic _____y_____G 26VisualIntelligenceServices16SendableTransferV 0aB4Core8CVBundleV
++ _symbolic _____y_____G 26VisualIntelligenceServices16SendableTransferV So11CVBufferRefa
++ _symbolic _____y_____G 26VisualIntelligenceServices17ExecutionProgressO AA12ActionResultO
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core12TrackManagerC5StateV
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core13BundleManagerC6OutputV
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core14BundleSelectorC6OutputV
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core15ActionPredictorC6OutputV
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core15ProcessorUpdateV
++ _symbolic _____y_____G 26VisualIntelligenceServices20AsyncBroadcastStreamC 0aB4Core22GreymatterAvailabilityV0I5StateV
++ _symbolic _____y_____G 29VisualActionPredictionSupport14LabeledContentV 10Foundation3URLV
++ _symbolic _____y_____G 29VisualActionPredictionSupport14LabeledContentV AA13PostalAddressV
++ _symbolic _____y_____G 29VisualActionPredictionSupport14LabeledContentV AA13SocialProfileV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 22VisualIntelligenceCore28GaussianIntegralBundleRankerC5State33_5B6511A8D05FFD17E9AC9762ACDB9F3DLLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC5State33_959ABB2B7383F6A81FFA7D7F01D33806LLV
++ _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore13BarcodeFormatO
++ _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G s11_SetStorageC 29VisualActionPredictionSupport06CustomD8IdentityO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore020ImageSearchProductAdG0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore09TimeZonedG0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO19CancelledCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10CampoStateO43PrepareForOverlayToSlamOnTopOfYouCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11ImageFormatO0G17SurfaceCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11ImageFormatO13PngCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11LookupStateO17LiftingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11LookupStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11STXSubEventV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11SceneObjectV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11TransactionO9SplitBillV0hI9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore12GenericErrorV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13AFMAnnotationO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13AFMAnnotationO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO17AddPassCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO19NutritionCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO20AddContactCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO23AddHealthDataCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO25CreateBillSplitCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO26InvokeCampoBlindCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO30InvokeCampoQuickTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMacPostTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMagicPromptCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14CalendarDomainO06CreateG5EventV0igJ9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14ReadAloudStateO0gH6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14ReadAloudStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore14StructuredTextV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15TextActionStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15TextContentItemV0I4TypeO10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16DetectionRequestV10OriginatorO25StillProcessingCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16ImageSearchStateO011OnboardAutoH18RequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16ImageSearchStateO17StartedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16ImageSearchStateO28OnboardingRequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO19NutritionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO23CreateContactCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO23LogHealthDataCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO25AddPassToWalletCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO27CreateTransactionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO29CreateCalendarEventCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO29ViContentClassifierCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO010HealthDataH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO011TransactionH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO03GeoH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO05EventH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO07BarCodeH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO07ContactH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO09NutritionH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO0H10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO0E20EnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO0E28AssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO16NoCallCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO24SiriEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO25UseCaseDisabledCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO27MontaraEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO32SiriAssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotAgeRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotMDMRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO34SplashScreenPresentationCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO39CurrentIPCountryCodeAllowanceCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO0ghI6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO021SummarizeWithExternalE10CodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO24UsingSimpleAPICodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8R14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO17UnknownCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO19HighlightCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO20FullScreenCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18OnboardingResponseO14DenyCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18OnboardingResponseO15AllowCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO33ExternalServiceNotSetUpCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO35RedirectToExternalServiceCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitH10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO0fH10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO0fH20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO17ContactCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO17ReceiptCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO25IntelligentPassCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV11PhoneNumberV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO12OkCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO17InvalidCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO19NoResultsCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO19SensitiveCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO20BadRequestCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO23InternalErrorCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO17DefaultCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO19NutritionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO24DataCollectionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO17WebsiteCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore23TextSummarizationResultV10CodingKeys33_52B30913A6C9F35D7FC23DA7BEF015E4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO14NoneCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO16StrictCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO17RunningCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V133_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV23DeprecatedCodingKeys_V233_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore6HealthO0G9LogDataViV0ghiJ9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore6WalletO09AddPassToG0V0hijG9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO06CreateG0V0hG9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO0G13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO0G13PostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO0G13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO0G20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO0G20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8STXEventV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO18StandardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO19QuickTypeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO08GenerateG4CardV0hgI9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO0G7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO0G8AnalysisV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore020ImageSearchProductAdG0V10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore09TimeZonedG0V10CodingKeys33_44BE1ACC9773979FA6AC7442F65F1224LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO19CancelledCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO24AlertableErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10CampoStateO43PrepareForOverlayToSlamOnTopOfYouCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV13LabeledStringV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV13PostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV13SocialProfileV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10TextPromptO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10TextPromptO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10TextPromptO23OcrFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10TextPromptO24ViccFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10TextPromptO30SystemTimeFormattingCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO15EventCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO17BarcodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO17ContactCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO19NutritionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO20HealthDataCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO21TransactionCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO25IntelligentPassCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11ImageFormatO0G17SurfaceCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11ImageFormatO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11ImageFormatO13JpgCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11ImageFormatO13PngCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11LookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11LookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11LookupStateO17LiftingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11LookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11LookupStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11STXSubEventV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11SceneObjectV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11TransactionO14STXTransactionV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11TransactionO21STXTransactionElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11TransactionO9SplitBillV0hI9ArgumentsV10CodingKeys33_141FB751E5A87A44235266503A37F936LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore12AFMChunkTypeO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13AFMAnnotationO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13AFMAnnotationO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13AFMAnnotationO24StructuredTextCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13AFMAnnotationO29OpenEndedExtractionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13AFMAnnotationO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO17AddPassCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO19NutritionCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO20AddContactCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO23AddHealthDataCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO25CreateBillSplitCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO26InvokeCampoBlindCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO30InvokeCampoQuickTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMacPostTypeCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BuiltInActionO32InvokeCampoMagicPromptCodingKeys33_E585A2AEDB654BC078B7246042254A6FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13BundleManagerC6OutputV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13FeedbackStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13FeedbackStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13FeedbackStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore13VICCDetectionV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14CalendarDomainO06CreateG5EventV0igJ9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLocateStateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLocateStateO18FinishedCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLocateStateO20LocalizingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLookupStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14GeoLookupStateO20LocalizingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ProcessorStateO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ProcessorStateO17AbortedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ProcessorStateO18EnqueuedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ProcessorStateO19CompletedCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ReadAloudStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ReadAloudStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ReadAloudStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14ReadAloudStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore14StructuredTextV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15EventLookupItemV10CodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15EventLookupItemV15DebugCodingKeys33_4A679C8FE49823352E6BDFBA74C5524ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15ImageSearchItemV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15TextActionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15TextActionStateO17RunningCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15TextContentItemV0I4TypeO10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16DetectionRequestV10OriginatorO25StillProcessingCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16ImageSearchStateO011OnboardAutoH18RequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16ImageSearchStateO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16ImageSearchStateO17StartedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16ImageSearchStateO18FinishedCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16ImageSearchStateO28OnboardingRequiredCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16LanguageDetectorC23ClassificationDebugInfo33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore16SchedulingRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO10CodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO19NutritionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO23CreateContactCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO23LogHealthDataCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO25AddPassToWalletCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO27CreateTransactionCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO29CreateCalendarEventCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17AFMToolAnnotationO29ViContentClassifierCodingKeys33_0AB1D64D8AB1217477D5099BABA04D88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ImageSearchObjectV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ImageSearchResultV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ImageSearchStatusV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO010HealthDataH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO011TransactionH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO015IntelligentPassH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO03GeoH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO05EventH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO07BarCodeH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO07ContactH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO09NutritionH10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO0H10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO14AcmeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO18FeedbackCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19GeoLocateCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19ReadAloudCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO19SavePhotoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO20TextActionCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO21ImageSearchCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO21InvokeCampoCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO23SummarizationCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO26CreateTapToRadarCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO28ExtractionFinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore17ResultLookupStateO30CopyPhotoToClipboardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO0E20EnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO0E28AssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO10CodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO16NoCallCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO24SiriEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO25UseCaseDisabledCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO27MontaraEnablementCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO32SiriAssetsAvailabilityCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotAgeRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO33MontaraNotMDMRestrictedCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO34SplashScreenPresentationCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18AskAcmeRequirementO39CurrentIPCountryCodeAllowanceCodingKeys33_7F2E2A2A21E1442080A78740C5442F45LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO0ghI6ResultV10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18BarCodeLookupStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO021SummarizeWithExternalE10CodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO10CodingKeys017_7F0AF2D7798873C8N14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO14OpenCodingKeys017_7F0AF2D7798873C8O14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO18AskCampoCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO20TapToRadarCodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO21AfmPunchOutCodingKeys017_7F0AF2D7798873C8Q14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO21ImageSearchCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO24UsingSimpleAPICodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO28OnboardingResponseCodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ExecutionParameterO35OnboardAutoSearchResponseCodingKeys017_7F0AF2D7798873C8R14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ImageSearchContextV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO17UnknownCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO19HighlightCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18ImageSearchContextV11InteractionO20FullScreenCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18OnboardingResponseO10CodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18OnboardingResponseO14DenyCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18OnboardingResponseO15AllowCodingKeys33_82D041E779EE5CC9BE5A0582A091D162LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18OverlaySupportDataV10CodingKeys33_2FC30BBF517D3BF3858C9EB6C8CC37ACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO33ExternalServiceNotSetUpCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO16IncompleteReasonO35RedirectToExternalServiceCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18SummarizationStateO20IncompleteCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18TextPromptTemplateV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO05ArKitH10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO0fH10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO0fH20AndHeadingCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19GeoLocationEstimateO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19OCRPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO17BuiltInCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO18ExternalCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ActionExecutionStateO25ContentViewOnlyCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO17ContactCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO17ReceiptCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO19NutritionCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO20HealthDataCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO25IntelligentPassCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ImageSearchAdSectionV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ImageSearchProductAdV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20ImageSearchThumbnailV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20SaveOrCopyPhotoStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20VICCPromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21AlertableErrorPayloadV10CodingKeys33_229CCD6CE4AE29685DAA55020C6014C8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO17StartedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21CreateTapToRadarStateO18FinishedCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO12OkCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO17InvalidCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO19NoResultsCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO19SensitiveCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO20BadRequestCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore21ImageSearchStatusCodeO23InternalErrorCodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22AskCampoRequestPayloadV10CodingKeys017_7F0AF2D7798873C8P14BD23998AA8D4E8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO17DefaultCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO19NutritionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV20ComponentDestinationO24DataCollectionCodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore22TapToRadarDraftPayloadV21StillCompositeOverlayV10CodingKeys33_3EFA6A664EAA35F244EFC1747A24F1A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO17WebsiteCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV6ActionO18ConstantCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO15AppleCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore23GeoLookupResultBusinessV7RatingsO18StandardCodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore24ImageSearchShoppingBadgeV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore24ImageSearchSimilarImagesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore26ImageSearchProductAdRatingV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore26ImageSearchProductSaleInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore26ImageSearchRelatedSearchesV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore26NutritionInferenceMetadataV10CodingKeys33_D6CEB6442E1C86413DB6460A4F91CBE7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore26SystemTimePromptFormattingV10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO10CodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO14NoneCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO16StrictCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO17RunningCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys33_D1309A2F506802872A154E86E3AF878BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore27NutritionAdapterFoodContentV10CodingKeys33_EB6AE89166459F490B9BB5171AA70CE9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV10CodingKeys33_57C6E0ABA47875E788F97268DD7F2B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3177BED1897051984536216B69DF1499LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV10CodingKeys33_CA620AB6A16F34650D1CE67B1E1DA88DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore6HealthO0G9LogDataViV0ghiJ9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore6WalletO09AddPassToG0V0hijG9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore6WalletO9EventSeatV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO16StringCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7AFMDataO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO06CreateG0V0hG9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO0G13LabeledStringV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO0G13PostalAddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO0G13SocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO0G20LabeledPostalAddressV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO0G20LabeledSocialProfileV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO14DateComponentsV10CodingKeys33_C767599B72052ED253F3830192602EC1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore7ContactO20PersonNameComponentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO10CodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO15EventCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO17ContactCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO19NutritionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO20HealthDataCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO21TransactionCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO25IntelligentPassCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8AFMChunkO46VerticalIntegrationContentClassifierCodingKeys33_769A4714185B45EF7E18F3FF61E620A4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8CVBundleV10CodingKeys33_FAFD6B32D7E3F50C1146E4B386E01658LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8STXEventV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AFMResultV10CodingKeys33_85B2ECA007EBE0133A348446343F7547LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO15ErrorCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO16ActiveCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO10CodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO18StandardCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO17ActivationContextO19QuickTypeCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO20ActivatingCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AcmeStateO28OnboardingRequiredCodingKeys33_31958900802DE6DE9D9CB97E7020F882LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO08GenerateG4CardV0hgI9ArgumentsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO0G7QualityV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO0G8AnalysisV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO10FatInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO11VisionModelV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO12FiberInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO12PlateInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO13GrainsInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO14ProteinInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO16FoodPresentationV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO17AddedSugarInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO17ProcessingInsightV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO7SummaryV10CodingKeys33_CCDC818A09E2934096706FBA904014CALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9NutritionO8InsightsV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10GeoToolbox15PlaceDescriptorV010SupportingF14RepresentationO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CampoServices0D9UIServiceC19PresentationRequestV13ConfigurationV10AttachmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15TokenGeneration11ModelBundleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17TextUnderstanding6SchemaV8PropertyV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore10STXContactV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore10STXContactV13LabeledStringV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore10TextPromptO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11STXSubEventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV7WeekdayO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11SceneObjectV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11TransactionO21STXTransactionElementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore12AFMChunkTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore12TextCategoryO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore12VICCCategoryO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore13VICCDetectionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore14ProviderEffectO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore14STXContentTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore15EventLookupItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GVICCBatchInputV10BundleDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore15TextContentItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore16InferenceContextV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore17ImageSearchObjectV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore19E5GroundingProviderC0H3BoxV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore20ImageSearchProductAdV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore21STXDateTimeComponentsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore26MatchingCostMatrixComputerC11BoundingBoxV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore6HealthO0G9LogDataViV0ghiJ9ArgumentsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore6WaiterV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices0D10ActionDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices0D10EntityDataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices0D6EntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices17TransactionResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26VisualIntelligenceServices21IntelligentPassResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation10JSONSchemaO8PropertyV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation14ToolDefinitionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation4ToolV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation6SchemaV5FieldV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation8ToolTypeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport0D15ContentCategoryO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport11TransactionV12ItemModifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport11TransactionV4ItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport11TransactionV6ChargeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport15IntelligentPassV9EventSeatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport16DateTimeScheduleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport16DateTimeScheduleV10RecurrenceV9DayOfWeekO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29VisualActionPredictionSupport20StructuredExtractionV6ObjectV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit012ChatMessagesD0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s7Float16V
++ _symbolic _____y_____GSg 22VisualIntelligenceCore15GroundingResultV AA0D15MD9_1DescriptorV
++ _symbolic _____y_____GSg 22VisualIntelligenceCore22ActionResourceProviderC s15ContinuousClockV
++ _symbolic _____y_____GSg 29VisualActionPredictionSupport14LabeledContentV 10Foundation3URLV
++ _symbolic _____y_____GSgXw 22VisualIntelligenceCore23StillImageMediaManifestC AA09InProcessF5FrameV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO 0aB8Services17TransactionResultV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO 0aB8Services21IntelligentPassResultV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO AA10STXContactV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO AA15EventLookupItemV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO AA27NutritionAdapterFoodContentV
++ _symbolic _____y_____G_ACt 22VisualIntelligenceCore14AFMLookupStateO AA6HealthO0F9LogDataViV0fghI9ArgumentsV
++ _symbolic _____y_____SDySd_____GG s18_DictionaryStorageC 10Foundation4UUIDV So6CGRectV
++ _symbolic _____y_____SaySSGG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____SayScCySay_____G______Sgt______pGGG s18_DictionaryStorageC 22VisualIntelligenceCore0cD16RateLimitedInputV3KeyV AC0cD12LookupResultV 0C6LookUp18SearchHistoryEntryV s5ErrorP
++ _symbolic _____y_____SayScCySay_____G______pGGG s18_DictionaryStorageC 22VisualIntelligenceCore27ImageSearchRateLimitedInputV3KeyV AC0fG6ObjectV s5ErrorP
++ _symbolic _____y_____Say_____GG 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA27ImageSearchRateLimitedInputV AA0oP6ObjectV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore13VICCDetectionV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AC0G7RequestV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC0F7ContextV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 22VisualIntelligenceCore22CVDebugImageAnnotationV11GroupingKeyV AE
++ _symbolic _____y_____Say_____GG_ADt 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA27ImageSearchRateLimitedInputV AA0oP6ObjectV
++ _symbolic _____y_____Say_____G______SgtG 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB16RateLimitedInputV AA0aB12LookupResultV 0A6LookUp013SearchHistoryE0V
++ _symbolic _____y_____Say_____G______SgtG_AD_AFtt 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AA0aB16RateLimitedInputV AA0aB12LookupResultV 0A6LookUp013SearchHistoryE0V
++ _symbolic _____y_____Say_____y_____GGG s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AF0H15MD9_1DescriptorV
++ _symbolic _____y_____ScCySS______pGG s18_DictionaryStorageC 22VisualIntelligenceCore8WaiterIDV s5ErrorP
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO s5NeverO
++ _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO s5ErrorP
++ _symbolic _____y_____Sf7confSum_Sf7maxConfSi0C5IndextG s18_DictionaryStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y_____SfG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____Sg6result_SSSg16errorDescriptiont_____G s13ManagedBufferCsRi__rlE 22VisualIntelligenceCore15DetectionResultV So16os_unfair_lock_sV
++ _symbolic _____y_____SgABG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 16GenerativeModels0cD12AvailabilityV0E0O
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 16GenerativeModels0cD12AvailabilityV0E0O
++ _symbolic _____y_____SgG 26VisualIntelligenceServices16SendableTransferV So11CVBufferRefa
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 14SiriTTSService13DaemonSessionC
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y_____Sg_ABtG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 14SiriTTSService13DaemonSessionC So16os_unfair_lock_sV
++ _symbolic _____y_____SiG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV 0aB8Services011TransactionG0V
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV 0aB8Services015IntelligentPassG0V
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV AA05EventF4ItemV
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV AA10STXContactV
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV AA27NutritionAdapterFoodContentV
++ _symbolic _____y______G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV AA6HealthO0H9LogDataViV0hijK9ArgumentsV
++ _symbolic _____y______G ScG8IteratorV 22VisualIntelligenceCore22GreymatterAvailabilityV0F5StateV
++ _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore22GreymatterAvailabilityV0F5StateV
++ _symbolic _____y______G ScS8IteratorV 10Foundation4DataV
++ _symbolic _____y______G ScS8IteratorV 26VisualIntelligenceServices0B32ActionPredictionServiceInterfaceO04RichE14ExecutionStateV
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC So10CGImageRefa
++ _symbolic _____y______Say_____Gt______p_G Scg8IteratorV 22VisualIntelligenceCore13InferenceTypeO AC0E7ContextV s5ErrorP
++ _symbolic _____y______SftG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y______SftG s23_ContiguousArrayStorageC 22VisualIntelligenceCore80visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettizedTaxonomyO
++ _symbolic _____y______SitG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 10Foundation4DataV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore15ProcessorUpdateV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore22GreymatterAvailabilityV0H5StateV
++ _symbolic _____y_______GSg ScS12ContinuationV15BufferingPolicyO 10Foundation4DataV
++ _symbolic _____y_______GSg ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore12TrackManagerC5StateV
++ _symbolic _____y_______GSg ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore15ProcessorUpdateV
++ _symbolic _____y_______GSg ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore22GreymatterAvailabilityV0H5StateV
++ _symbolic _____y__________ABG 19GenerativeFunctions0A21ConfigurationRunnableV 9PromptKit012ChatMessagesE0V 15TokenGeneration0I9GeneratorC
++ _symbolic _____y__________G 22VisualIntelligenceCore19RateLimitingWrapperC AA0aB21SearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y__________G 22VisualIntelligenceCore19RateLimitingWrapperC AA26ImageSearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 22VisualIntelligenceCore28GaussianIntegralBundleRankerC5State33_5B6511A8D05FFD17E9AC9762ACDB9F3DLLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC5State33_959ABB2B7383F6A81FFA7D7F01D33806LLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore10EntitySlotV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 26VisualIntelligenceServices12ActionResultO
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO 15TokenGeneration0I9GeneratorC
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AC11TGProcessorV
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC18ModelConfigurationV
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO So11CVBufferRefa
++ _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO s15ContinuousClockV7InstantV
++ _symbolic _____y__________GSgXw 22VisualIntelligenceCore19RateLimitingWrapperC AA0aB21SearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y__________GSgXw 22VisualIntelligenceCore19RateLimitingWrapperC AA26ImageSearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y___________G 22VisualIntelligenceCore19RateLimitingWrapperC14DispatchAction33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA0aB21SearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y___________G 22VisualIntelligenceCore19RateLimitingWrapperC18PendingEntryAction33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA0aB21SearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y___________G 22VisualIntelligenceCore19RateLimitingWrapperC18PendingEntryAction33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA26ImageSearchServiceInternalC s15ContinuousClockV
++ _symbolic _____y___________pG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC17EvictableResourceP
++ _symbolic _____y___________pG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC32StreamingProviderFactoryProtocol33_5BE1072488F3E3752CC8EA2C1E759414LLP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore10STXContactV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore15EventLookupItemV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore27NutritionAdapterFoodContentV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore6HealthO0E9LogDataViV0efgH9ArgumentsV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 22VisualIntelligenceCore8AFMChunkO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 26VisualIntelligenceServices17TransactionResultV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore10STXContactV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore12VICCCategoryO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore12VICCCategoryO9StreamingV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore13VICCDetectionV9StreamingV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore15EventLookupItemV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore27NutritionAdapterFoodContentV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore6HealthO0E9LogDataViV0efgH9ArgumentsV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 22VisualIntelligenceCore8AFMChunkO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 26VisualIntelligenceServices17TransactionResultV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore10STXContactV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore15EventLookupItemV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore27NutritionAdapterFoodContentV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore6HealthO0G9LogDataViV0ghiJ9ArgumentsV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 22VisualIntelligenceCore8AFMChunkO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 26VisualIntelligenceServices011TransactionC0V s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore10STXContactV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore15EventLookupItemV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore27NutritionAdapterFoodContentV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore6HealthO0G9LogDataViV0ghiJ9ArgumentsV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore8AFMChunkO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 26VisualIntelligenceServices17TransactionResultV s5ErrorP
++ _symbolic _____y___________pyYaYbKcG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC0F8ProviderP
++ _symbolic _____y___________t_G ScS12ContinuationV So21CLAuthorizationStatusV So23CLAccuracyAuthorizationV
++ _symbolic _____y___________t_G ScS8IteratorV So21CLAuthorizationStatusV So23CLAccuracyAuthorizationV
++ _symbolic _____y___________t__G ScS12ContinuationV11YieldResultO So21CLAuthorizationStatusV So23CLAccuracyAuthorizationV
++ _symbolic _____y___________t__G ScS12ContinuationV15BufferingPolicyO So21CLAuthorizationStatusV So23CLAccuracyAuthorizationV
++ _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC 22VisualIntelligenceCore19E5GroundingProviderC0H3BoxV s0aB0V s6UInt16V
++ _symbolic _____y__________ySay_____G_____GG s18_DictionaryStorageC 22VisualIntelligenceCore27ImageSearchRateLimitedInputV3KeyV AC10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AC0fG6ObjectV s15ContinuousClockV7InstantV
++ _symbolic _____y__________ySay_____G______Sgt_____GG s18_DictionaryStorageC 22VisualIntelligenceCore0cD16RateLimitedInputV3KeyV AC10CacheEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AC0cD12LookupResultV 0C6LookUp013SearchHistoryK0V s15ContinuousClockV7InstantV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore25TrackerEmbeddingProvidingP
++ _symbolic _____y______pSgG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore13MediaManifestP
++ _symbolic _____y______pSgG 26VisualIntelligenceServices16SendableTransferV 0aB4Core22TrackManagerSupportingP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So20IOSurfacePropertyKeya
++ _symbolic _____y_____ySSGG s23_ContiguousArrayStorageC 29VisualActionPredictionSupport14LabeledContentV
++ _symbolic _____y_____yShy_____GYaYbKcG s18_DictionaryStorageC 22VisualIntelligenceCore13InferenceTypeO AC20BundleClassificationV0iG0O
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD9_1DescriptorV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 29VisualActionPredictionSupport14LabeledContentV 10Foundation3URLV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 29VisualActionPredictionSupport14LabeledContentV AC13PostalAddressV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 29VisualActionPredictionSupport14LabeledContentV AC13SocialProfileV
++ _symbolic _____y_____y_____G_G ScS12ContinuationV 26VisualIntelligenceServices17ExecutionProgressO AC12ActionResultO
++ _symbolic _____y_____y_____G__G ScS12ContinuationV11YieldResultO 26VisualIntelligenceServices17ExecutionProgressO AE06ActionC0O
++ _symbolic _____y_____y_____G__G ScS12ContinuationV15BufferingPolicyO 26VisualIntelligenceServices17ExecutionProgressO AE12ActionResultO
++ _symbolic _____y_____y_____Say_____GGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AC27ImageSearchRateLimitedInputV AC0rS6ObjectV
++ _symbolic _____y_____y_____Say_____G______SgtGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore12PendingEntry33_1FCD97B97D1CE170D4F29BE184A22CC9LLV AC0dE16RateLimitedInputV AC0dE12LookupResultV 0D6LookUp013SearchHistoryH0V
++ _symbolic _____y_____y_xGG 26VisualIntelligenceServices16SendableTransferV 0aB4Core21BuiltInActionExecutorC7RequestV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So20IOSurfacePropertyKeya
++ _symbolic _____yxG 22VisualIntelligenceCore24InferenceResourceManagerC
++ _symbolic _____yxGSgXw 22VisualIntelligenceCore23StillImageMediaManifestC
++ _symbolic _____yxGSgXw 22VisualIntelligenceCore24InferenceResourceManagerC
++ _symbolic _____yxGSgXwz____________RzlXX 22VisualIntelligenceCore23StillImageMediaManifestC AA09InProcessF5FrameV AA012CameraSourceJ0P
++ _symbolic _____yxGSgXwz_x______Rz_____8Duration_____RtzlXX 22VisualIntelligenceCore24InferenceResourceManagerC s5ClockP s8DurationV AE
++ _symbolic _____yxGSgXwz_x______RzlXX 22VisualIntelligenceCore23StillImageMediaManifestC AA17CameraSourceFrameP
++ _symbolic _____yxGXDXMT 22VisualIntelligenceCore16VLUArgosProviderC
++ _symbolic _____yxGXDXMT 22VisualIntelligenceCore24InferenceResourceManagerC
++ _symbolic _____yx_G 22VisualIntelligenceCore14AFMLookupStateO12LookupResultV
++ _symbolic _____yxq_GSgXwz_________________Rz_____R_r0_lXX 22VisualIntelligenceCore19RateLimitingWrapperC AA0aB21SearchServiceInternalC s15ContinuousClockV AA0D9LimitableP s0K0P
++ _symbolic _____yxq_GSgXwz_________________Rz_____R_r0_lXX 22VisualIntelligenceCore19RateLimitingWrapperC AA26ImageSearchServiceInternalC s15ContinuousClockV AA0D9LimitableP s0L0P
++ _symbolic _____yytG 2os21OSAllocatedUnfairLockV
++ _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____z_Xx 26VisualIntelligenceServices14EntityResponseO
++ _symbolic ySaySSGYbScMYcc
++ _symbolic yp
++ _symbolic yyYbc
++ _type_layout_string 22VisualIntelligenceCore10CampoStateO
++ _type_layout_string 22VisualIntelligenceCore10EntitySlotV
++ _type_layout_string 22VisualIntelligenceCore10STXContactV13LabeledStringV
++ _type_layout_string 22VisualIntelligenceCore10STXContactV13PostalAddressV
++ _type_layout_string 22VisualIntelligenceCore10STXContactV13SocialProfileV
++ _type_layout_string 22VisualIntelligenceCore10STXContactV20LabeledPostalAddressV
++ _type_layout_string 22VisualIntelligenceCore10STXContactV20LabeledSocialProfileV
++ _type_layout_string 22VisualIntelligenceCore10TextPromptO
++ _type_layout_string 22VisualIntelligenceCore11ContextPool33_F719378F8369A91293AD76A96CD6B373LLC5StateV
++ _type_layout_string 22VisualIntelligenceCore11STXSubEventV15DateTimeElementV10RecurrenceV
++ _type_layout_string 22VisualIntelligenceCore11SceneObjectV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO14STXTransactionV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO21STXTransactionElementV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO27STXTransactionChargeElementV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO29STXTransactionModifierElementV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO9SplitBillV
++ _type_layout_string 22VisualIntelligenceCore11TransactionO9SplitBillV0eF9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore12BindingValueO
++ _type_layout_string 22VisualIntelligenceCore12TextCategoryO5ErrorO
++ _type_layout_string 22VisualIntelligenceCore13ConfigStorageRzlAA21BuiltInActionExecutorC7RequestV13ConfigurationVy_x_G
++ _type_layout_string 22VisualIntelligenceCore13GlobalLimiter33_5BE1072488F3E3752CC8EA2C1E759414LLC5StateV
++ _type_layout_string 22VisualIntelligenceCore13JSONStructureC12ParsingErrorO
++ _type_layout_string 22VisualIntelligenceCore13ProviderStateV
++ _type_layout_string 22VisualIntelligenceCore13ProviderStateV7CaptureV
++ _type_layout_string 22VisualIntelligenceCore13VICCDetectionV
++ _type_layout_string 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV
++ _type_layout_string 22VisualIntelligenceCore14CalendarDomainO06CreateD5EventV0fdG9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore14CalendarDomainO20RecurrenceRuleEntityV
++ _type_layout_string 22VisualIntelligenceCore14StructuredTextV
++ _type_layout_string 22VisualIntelligenceCore15ProcessorUpdateV
++ _type_layout_string 22VisualIntelligenceCore15SchedulingStateV
++ _type_layout_string 22VisualIntelligenceCore16HealthClassifierV
++ _type_layout_string 22VisualIntelligenceCore16LanguageDetectorC010TranscriptD5Cache33_C7D4A4918956BD21FC23EEDABAB9AD4FLLV
++ _type_layout_string 22VisualIntelligenceCore16VLUProviderErrorO
++ _type_layout_string 22VisualIntelligenceCore16WaiterResolutionO
++ _type_layout_string 22VisualIntelligenceCore17AFMActionExecutorV14ExecutionErrorO
++ _type_layout_string 22VisualIntelligenceCore17CameraSourceFrameRzlAA23StillImageMediaManifestC12MutableState33_B524ABC9C2ABB97E527F7E7F66694084LLVyx_G
++ _type_layout_string 22VisualIntelligenceCore17ImageSearchResultV
++ _type_layout_string 22VisualIntelligenceCore17ImageSearchStatusV
++ _type_layout_string 22VisualIntelligenceCore17STXDateComponentsV
++ _type_layout_string 22VisualIntelligenceCore17SanitizationErrorO
++ _type_layout_string 22VisualIntelligenceCore17SchedulingContextV
++ _type_layout_string 22VisualIntelligenceCore17ShortAssetVersionV
++ _type_layout_string 22VisualIntelligenceCore18AFMAnnotationErrorO
++ _type_layout_string 22VisualIntelligenceCore18ModelConfigurationV
++ _type_layout_string 22VisualIntelligenceCore19ActionResourceErrorO
++ _type_layout_string 22VisualIntelligenceCore19E5GroundingProviderC0E3BoxV
++ _type_layout_string 22VisualIntelligenceCore19NutritionClassifierV
++ _type_layout_string 22VisualIntelligenceCore19VLUGroundingContextV
++ _type_layout_string 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV
++ _type_layout_string 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV13SocialProfileV
++ _type_layout_string 22VisualIntelligenceCore20DeprecatedSTXContact33_213FB3ED75DFC26187CE4D99D1BDEE9ELLV7AddressV
++ _type_layout_string 22VisualIntelligenceCore20VICCPromptFormattingV18FormattedInputType33_769A4714185B45EF7E18F3FF61E620A4LLV
++ _type_layout_string 22VisualIntelligenceCore20VICCPromptFormattingV9InputTypeV
++ _type_layout_string 22VisualIntelligenceCore21AlertableErrorPayloadV
++ _type_layout_string 22VisualIntelligenceCore21BuiltInActionExecutorC17EnsureEntityErrorO
++ _type_layout_string 22VisualIntelligenceCore21BuiltInActionExecutorC20VAPEExecutionContextV08FeedbackI0V
++ _type_layout_string 22VisualIntelligenceCore21ScalerArtifactEmitter33_7C930AEAB2798A88B73091050CE00B61LLV
++ _type_layout_string 22VisualIntelligenceCore22AskCampoRequestPayloadV
++ _type_layout_string 22VisualIntelligenceCore22CVDebugImageAnnotationV11GroupingKeyV
++ _type_layout_string 22VisualIntelligenceCore22TapToRadarDraftPayloadV
++ _type_layout_string 22VisualIntelligenceCore22VICCTGProcessorBuilderV
++ _type_layout_string 22VisualIntelligenceCore23ImageSearchServiceErrorO
++ _type_layout_string 22VisualIntelligenceCore24ImageSearchShoppingBadgeV
++ _type_layout_string 22VisualIntelligenceCore24ImageSearchSimilarImagesV
++ _type_layout_string 22VisualIntelligenceCore25AFMInferenceProviderErrorO
++ _type_layout_string 22VisualIntelligenceCore26AFMAnnotationSchemaManagerV5ErrorO
++ _type_layout_string 22VisualIntelligenceCore26EntityRequestCallbackError33_1F95CC9AC8EE41B727AAA46CC61964B5LLV
++ _type_layout_string 22VisualIntelligenceCore26ImageSearchProductAdRatingV
++ _type_layout_string 22VisualIntelligenceCore26ImageSearchProductSaleInfoV
++ _type_layout_string 22VisualIntelligenceCore26MatchingCostMatrixComputerC11BoundingBoxV
++ _type_layout_string 22VisualIntelligenceCore26NutritionInferenceMetadataV
++ _type_layout_string 22VisualIntelligenceCore26SystemTimePromptFormattingV
++ _type_layout_string 22VisualIntelligenceCore27NutritionAdapterFoodContentV
++ _type_layout_string 22VisualIntelligenceCore27NutritionTGProcessorBuilderV
++ _type_layout_string 22VisualIntelligenceCore28GaussianIntegralBundleRankerC5State33_5B6511A8D05FFD17E9AC9762ACDB9F3DLLV
++ _type_layout_string 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC5State33_959ABB2B7383F6A81FFA7D7F01D33806LLV
++ _type_layout_string 22VisualIntelligenceCore29ImageSearchProductAdPriceInfoV
++ _type_layout_string 22VisualIntelligenceCore34SaliencyStreamPipelineStageContextV
++ _type_layout_string 22VisualIntelligenceCore34SimpleInProcessSaliencyStreamErrorO
++ _type_layout_string 22VisualIntelligenceCore36VerticalIntegrationContentClassifierV
++ _type_layout_string 22VisualIntelligenceCore6HealthO0D9LogDataViV
++ _type_layout_string 22VisualIntelligenceCore6HealthO0D9LogDataViV0defG9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore6WaiterV
++ _type_layout_string 22VisualIntelligenceCore6WalletO09AddPassToD0V
++ _type_layout_string 22VisualIntelligenceCore6WalletO09AddPassToD0V0efgD9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore6WalletO22IntelligentPassDetailsV
++ _type_layout_string 22VisualIntelligenceCore6WalletO9EventSeatV
++ _type_layout_string 22VisualIntelligenceCore7AFMDataO
++ _type_layout_string 22VisualIntelligenceCore7ContactO06CreateD0V
++ _type_layout_string 22VisualIntelligenceCore7ContactO06CreateD0V0eD9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore7ContactO0D13LabeledStringV
++ _type_layout_string 22VisualIntelligenceCore7ContactO0D13PostalAddressV
++ _type_layout_string 22VisualIntelligenceCore7ContactO0D13SocialProfileV
++ _type_layout_string 22VisualIntelligenceCore7ContactO0D20LabeledPostalAddressV
++ _type_layout_string 22VisualIntelligenceCore7ContactO0D20LabeledSocialProfileV
++ _type_layout_string 22VisualIntelligenceCore7ContactO14DateComponentsV
++ _type_layout_string 22VisualIntelligenceCore7ContactO20PersonNameComponentsV
++ _type_layout_string 22VisualIntelligenceCore8AFMErrorO
++ _type_layout_string 22VisualIntelligenceCore8VICCToolV
++ _type_layout_string 22VisualIntelligenceCore8WaiterIDV
++ _type_layout_string 22VisualIntelligenceCore9JSONValueV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO08GenerateD4CardV0edF9ArgumentsV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO0D7QualityV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO0D8AnalysisV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO10FatInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO11VisionModelV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO12FiberInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO12PlateInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO13GrainsInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO14ProteinInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO16AddedSaltInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO16FoodPresentationV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO17ProcessingInsightV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO7SummaryV
++ _type_layout_string 22VisualIntelligenceCore9NutritionO8InsightsV
++ _type_layout_string So10NLLanguagea
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So6CGSizeV
++ _type_layout_string s5ClockRzl22VisualIntelligenceCore22ActionResourceProviderC12MutableState33_B420E7A24EB124D29FD4D1819001EDA3LLVyx_G
++ _type_layout_string s8SendableRzl22VisualIntelligenceCore24StreamingProviderFactory33_5BE1072488F3E3752CC8EA2C1E759414LLVyxG
++ _vDSP_svesq
++ _vDSP_vsmul
+- _CC_SHA256
+- _OBJC_CLASS_$_CRImage
+- _OBJC_CLASS_$_GEOLatLng
+- _OBJC_CLASS_$_GEOPlaceExternalAction
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSPPrivateAccessTokenChallenge
+- _OBJC_CLASS_$_NSPPrivateAccessTokenFetcher
+- _OBJC_CLASS_$_NSRelativeDateTimeFormatter
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_UIFont
+- _OBJC_CLASS_$_UIFontMetrics
+- _OBJC_CLASS_$_VNRecognizeDocumentsRequest
+- _OBJC_CLASS_$_VNSession
+- _OBJC_CLASS_$_VNSupportedImageSize
+- _OBJC_METACLASS_$__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- _UIFontTextStyleBody
+- _UIFontTextStyleCallout
+- _UIFontTextStyleCaption1
+- _UIFontTextStyleCaption2
+- _UIFontTextStyleFootnote
+- _UIFontTextStyleHeadline
+- _UIFontTextStyleLargeTitle
+- _UIFontTextStyleSubheadline
+- _UIFontTextStyleTitle1
+- _UIFontTextStyleTitle2
+- __DATA__TtC22VisualIntelligenceCore12AFMProcessor
+- __DATA__TtC22VisualIntelligenceCore15SaliencySession
+- __DATA__TtC22VisualIntelligenceCore15VisionProcessor
+- __DATA__TtC22VisualIntelligenceCore16BarcodeProcessor
+- __DATA__TtC22VisualIntelligenceCore16LocationsHandler
+- __DATA__TtC22VisualIntelligenceCore18GroundingProcessor
+- __DATA__TtC22VisualIntelligenceCore24CoreRecognitionProcessor
+- __DATA__TtC22VisualIntelligenceCore24GroundingMD6_1Descriptor
+- __DATA__TtC22VisualIntelligenceCore28GoogleImageSearchRateLimiter
+- __DATA__TtC22VisualIntelligenceCore36StreamingVisualIntelligenceProcessor
+- __DATA__TtC22VisualIntelligenceCore9M2MHandle
+- __DATA__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- __DATA__TtC22VisualIntelligenceCoreP33_D9CC66F79C12BDD154DA9ACC202549C716SystemImageCache
+- __DATA__TtCV22VisualIntelligenceCore14Lens_ProductAdP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __DATA__TtCV22VisualIntelligenceCore9Lens_ItemP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __INSTANCE_METHODS__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- __IVARS__TtC22VisualIntelligenceCore12AFMProcessor
+- __IVARS__TtC22VisualIntelligenceCore15SaliencySession
+- __IVARS__TtC22VisualIntelligenceCore15VisionProcessor
+- __IVARS__TtC22VisualIntelligenceCore16BarcodeProcessor
+- __IVARS__TtC22VisualIntelligenceCore16LocationsHandler
+- __IVARS__TtC22VisualIntelligenceCore18GroundingProcessor
+- __IVARS__TtC22VisualIntelligenceCore20AsyncBroadcastStream
+- __IVARS__TtC22VisualIntelligenceCore24CoreRecognitionProcessor
+- __IVARS__TtC22VisualIntelligenceCore24GroundingMD6_1Descriptor
+- __IVARS__TtC22VisualIntelligenceCore28GoogleImageSearchRateLimiter
+- __IVARS__TtC22VisualIntelligenceCore36StreamingVisualIntelligenceProcessor
+- __IVARS__TtC22VisualIntelligenceCore9M2MHandle
+- __IVARS__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- __IVARS__TtCV22VisualIntelligenceCore14Lens_ProductAdP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __IVARS__TtCV22VisualIntelligenceCore9Lens_ItemP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __METACLASS_DATA__TtC22VisualIntelligenceCore12AFMProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore15SaliencySession
+- __METACLASS_DATA__TtC22VisualIntelligenceCore15VisionProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore16BarcodeProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore16LocationsHandler
+- __METACLASS_DATA__TtC22VisualIntelligenceCore18GroundingProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore24CoreRecognitionProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore24GroundingMD6_1Descriptor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore28GoogleImageSearchRateLimiter
+- __METACLASS_DATA__TtC22VisualIntelligenceCore36StreamingVisualIntelligenceProcessor
+- __METACLASS_DATA__TtC22VisualIntelligenceCore9M2MHandle
+- __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- __METACLASS_DATA__TtC22VisualIntelligenceCoreP33_D9CC66F79C12BDD154DA9ACC202549C716SystemImageCache
+- __METACLASS_DATA__TtCV22VisualIntelligenceCore14Lens_ProductAdP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __METACLASS_DATA__TtCV22VisualIntelligenceCore9Lens_ItemP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_PROP_LIST_VNImageIdealImageSizeProviding
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VNImageIdealImageSizeProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VNImageIdealImageSizeProviding
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_VNImageIdealImageSizeProviding
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_VNImageIdealImageSizeProviding
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_VNImageIdealImageSizeProviding
+- __PROTOCOLS__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher
+- __PROTOCOLS__TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher.73
+- ___swift_get_extra_inhabitant_index.105Tm
+- ___swift_get_extra_inhabitant_index.114Tm
+- ___swift_get_extra_inhabitant_index.127Tm
+- ___swift_get_extra_inhabitant_index.64Tm
+- ___swift_memcpy104_8
+- ___swift_memcpy11_8
+- ___swift_memcpy51_8
+- ___swift_memcpy57_8
+- ___swift_memcpy5_1
+- ___swift_store_extra_inhabitant_index.106Tm
+- ___swift_store_extra_inhabitant_index.115Tm
+- ___swift_store_extra_inhabitant_index.128Tm
+- ___swift_store_extra_inhabitant_index.65Tm
+- ___unnamed_11
+- ___unnamed_14
+- ___unnamed_17
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_VisualIntelligenceCore
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_VisualIntelligenceCore
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_VisualIntelligenceCore
+- _associated conformance 17SceneIntelligence8SubEventC15DateTimeElementC06VisualB4CoreE5ErrorO10Foundation09LocalizedJ0AFsAG
+- _associated conformance 17SceneIntelligence8SubEventC15DateTimeElementC06VisualB4CoreE5ErrorOSHAFSQ
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA11DataRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA11DataRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA11DataRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA11DataRequestVSHAASQ
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA12DataResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA12DataResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA12DataResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore010Lens_FetchA12DataResponseVSHAASQ
+- _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyOSHAASQ
+- _associated conformance 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO17RellenoCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO17RellenoCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO17UnknownCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO17UnknownCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO19QuickLookCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO19QuickLookCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO20ViewfinderCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO20ViewfinderCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore10EntryPointOSHAASQ
+- _associated conformance 22VisualIntelligenceCore112visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomy_categoryOSHAASQ
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_AnswerV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_AnswerV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore11Lens_AnswerV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_AnswerVSHAASQ
+- _associated conformance 22VisualIntelligenceCore11Lens_LocaleV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_LocaleV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore11Lens_LocaleV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_LocaleVSHAASQ
+- _associated conformance 22VisualIntelligenceCore11Lens_ObjectV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_ObjectV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore11Lens_ObjectV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_ObjectVSHAASQ
+- _associated conformance 22VisualIntelligenceCore11Lens_ResultV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_ResultV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore11Lens_ResultV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_ResultVSHAASQ
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV4CodeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV4CodeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV4CodeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusV4CodeOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore11Lens_StatusVSHAASQ
+- _associated conformance 22VisualIntelligenceCore12Lens_AdBlockV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore12Lens_AdBlockV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore12Lens_AdBlockV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore12Lens_AdBlockVSHAASQ
+- _associated conformance 22VisualIntelligenceCore14Lens_LlmAnswerV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore14Lens_LlmAnswerV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore14Lens_LlmAnswerV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore14Lens_LlmAnswerVSHAASQ
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0VSHAASQ
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore14Lens_PriceInfoVSHAASQ
+- _associated conformance 22VisualIntelligenceCore14Lens_ProductAdV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore14Lens_ProductAdV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore14Lens_ProductAdV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore14Lens_ProductAdVSHAASQ
+- _associated conformance 22VisualIntelligenceCore14Lens_ProductAdVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeO14SignCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeO14SignCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore15BundleGroupTypeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeysOSHAASQ
+- _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore15EventLookupItemV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys07_B3C6C1I24EDEFCE817F1452A07CB2D50DLLOyx_GSHAASQ
+- _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys07_B3C6C1I24EDEFCE817F1452A07CB2D50DLLOyx_Gs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore15GroundingResultV10CodingKeys07_B3C6C1I24EDEFCE817F1452A07CB2D50DLLOyx_Gs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore15Lens_ExactMatchV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore15Lens_ExactMatchV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore15Lens_ExactMatchV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore15Lens_ExactMatchVSHAASQ
+- _associated conformance 22VisualIntelligenceCore16CustomCodableBoxVyxq_GSHAASQ
+- _associated conformance 22VisualIntelligenceCore16CustomCodableBoxVyxq_GSLAASLRzrlSQ
+- _associated conformance 22VisualIntelligenceCore16EventLookupStateO0dE6ResultVSHAASQ
+- _associated conformance 22VisualIntelligenceCore16EventLookupStateOSHAASQ
+- _associated conformance 22VisualIntelligenceCore16Lens_ExploreGridV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore16Lens_ExploreGridV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore16Lens_ExploreGridV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore16Lens_ExploreGridVSHAASQ
+- _associated conformance 22VisualIntelligenceCore16SendableTransferVyxGSHAASHRzlSQ
+- _associated conformance 22VisualIntelligenceCore17Lens_CallToActionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore17Lens_CallToActionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 22VisualIntelligenceCore17Lens_CallToActionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore17Lens_CallToActionVSHAASQ
+- _associated conformance 22VisualIntelligenceCore17Lens_ProductImageV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore17Lens_ProductImageV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore17Lens_ProductImageV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore17Lens_ProductImageVSHAASQ
+- _associated conformance 22VisualIntelligenceCore17Lens_SearchResultV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore17Lens_SearchResultV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore17Lens_SearchResultV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore17Lens_SearchResultVSHAASQ
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO14NoneCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO14NoneCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO16StrictCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO16StrictCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO17RunningCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO17RunningCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys07_B3C6C1O24EDEFCE817F1452A07CB2D50DLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys07_B3C6C1O24EDEFCE817F1452A07CB2D50DLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_NormalizedBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_NormalizedBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore18Lens_NormalizedBoxV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18Lens_NormalizedBoxVSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_ProductRatingV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_ProductRatingV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore18Lens_ProductRatingV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18Lens_ProductRatingVSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RelatedSearchV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RelatedSearchV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore18Lens_RelatedSearchV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18Lens_RelatedSearchVSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RelatedSearchVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataVSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureOSHAASQ
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore18Lens_RequestConfigVSHAASQ
+- _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore19Lens_ImageThumbnailV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore19Lens_ImageThumbnailV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore19Lens_ImageThumbnailV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore19Lens_ImageThumbnailVSHAASQ
+- _associated conformance 22VisualIntelligenceCore19Lens_ShoppableBadgeV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore19Lens_ShoppableBadgeV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 22VisualIntelligenceCore19Lens_ShoppableBadgeV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore19Lens_ShoppableBadgeVSHAASQ
+- _associated conformance 22VisualIntelligenceCore19VisionProcessorTypeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore20CVCoordinationRegimeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdOSHAASQ
+- _associated conformance 22VisualIntelligenceCore20ImageSearchProductAdOs12IdentifiableAA2IDsADP_SH
+- _associated conformance 22VisualIntelligenceCore21ImageSearchEntrypointOSHAASQ
+- _associated conformance 22VisualIntelligenceCore21Lens_AdDisclosureDataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore21Lens_AdDisclosureDataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 22VisualIntelligenceCore21Lens_AdDisclosureDataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore21Lens_AdDisclosureDataVSHAASQ
+- _associated conformance 22VisualIntelligenceCore24GroundingMD6_1DescriptorCAA0dF0AA13TaxonomyEntryAaDP_SH
+- _associated conformance 22VisualIntelligenceCore24GroundingMD6_1DescriptorCAA0dF0AA13TaxonomyEntryAaDP_SY
+- _associated conformance 22VisualIntelligenceCore24GroundingMD6_1DescriptorCAA0dF0AA13TaxonomyEntryAaDP_s12CaseIterable
+- _associated conformance 22VisualIntelligenceCore24GroundingMD6_1DescriptorCAA0dF0AA13TaxonomyEntryAaDP_s23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore26CVCoordinatorSchedulerModeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore29CVProcessorInputConfigurationV10DimensionsOSHAASQ
+- _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10BundleTypeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLOSHAASQ
+- _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV0E4TypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV0E4TypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV0E4TypeOSHAASQ
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV0E4TypeOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 22VisualIntelligenceCore9Lens_ItemVSHAASQ
+- _associated conformance So10CGImageRefa14CoreFoundation9_CFObjectSCSH
+- _associated conformance So10CGImageRefaSHSCSQ
+- _associated conformance So20GEOMapItemIdentifierC22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHACSQ
+- _associated conformance So20GEOMapItemIdentifierC22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyACs23CustomStringConvertible
+- _associated conformance So20GEOMapItemIdentifierC22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0G3KeyACs28CustomDebugStringConvertible
+- _associated conformance So23GEOLocationCoordinate2Da22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOSHACSQ
+- _associated conformance So23GEOLocationCoordinate2Da22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0F3KeyACs23CustomStringConvertible
+- _associated conformance So23GEOLocationCoordinate2Da22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLOs0F3KeyACs28CustomDebugStringConvertible
+- _block_copy_helper.117
+- _block_copy_helper.153
+- _block_copy_helper.166
+- _block_copy_helper.18
+- _block_copy_helper.23
+- _block_copy_helper.27
+- _block_copy_helper.30
+- _block_copy_helper.311
+- _block_copy_helper.35
+- _block_copy_helper.410
+- _block_copy_helper.427
+- _block_copy_helper.45
+- _block_copy_helper.457
+- _block_copy_helper.57
+- _block_copy_helper.64
+- _block_copy_helper.68
+- _block_copy_helper.70
+- _block_copy_helper.75
+- _block_descriptor.119
+- _block_descriptor.155
+- _block_descriptor.168
+- _block_descriptor.20
+- _block_descriptor.25
+- _block_descriptor.29
+- _block_descriptor.313
+- _block_descriptor.32
+- _block_descriptor.37
+- _block_descriptor.412
+- _block_descriptor.429
+- _block_descriptor.459
+- _block_descriptor.47
+- _block_descriptor.59
+- _block_descriptor.66
+- _block_descriptor.70
+- _block_descriptor.72
+- _block_descriptor.77
+- _block_destroy_helper.118
+- _block_destroy_helper.154
+- _block_destroy_helper.167
+- _block_destroy_helper.19
+- _block_destroy_helper.24
+- _block_destroy_helper.28
+- _block_destroy_helper.31
+- _block_destroy_helper.312
+- _block_destroy_helper.36
+- _block_destroy_helper.411
+- _block_destroy_helper.428
+- _block_destroy_helper.458
+- _block_destroy_helper.46
+- _block_destroy_helper.58
+- _block_destroy_helper.65
+- _block_destroy_helper.69
+- _block_destroy_helper.71
+- _block_destroy_helper.76
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 22VisualIntelligenceCore10EntryPointO
+- _get_enum_tag_for_layout_string 22VisualIntelligenceCore11CameraImageO
+- _get_enum_tag_for_layout_string 22VisualIntelligenceCore14ReadAloudStateO
+- _get_enum_tag_for_layout_string 22VisualIntelligenceCore15CVDebugArtifactV7PayloadO
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore0cD8AnalyzerC5StateVG noncopyable.48
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore12TrackManagerC24FrameProcessingTaskState33_1BC519384AA1B0D3CF0F4F0C911DE605LLOG noncopyable.31
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore21BuiltInActionExecutorC5State33_1F5120E144C5156F6C9BE2643A48D359LLVG noncopyable.3
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore22GreymatterAvailabilityV0G5State33_99C6E5ED3F40308BF68826FA333809E7LLVSgG noncopyable.11
+- _get_type_metadata 15Synchronization5MutexVy22VisualIntelligenceCore22VisionKitConfigStorageC5State33_D4D9A06D8807D21E35DA9E3C4193D485LLVG noncopyable.3
+- _get_type_metadata 15Synchronization5MutexVySDy22VisualIntelligenceCore11CVDetectionO13DetectionTypeOAD23CVProcessorInputStorageVGG noncopyable.241
+- _get_type_metadata 15Synchronization5MutexVySDySSypGG noncopyable.3
+- _get_type_metadata 15Synchronization5MutexVySay22VisualIntelligenceCore18GroundingProcessorC0F7Storage07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLOGG noncopyable.14
+- _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA13BundleManagerC6OutputVGSciHPyHC.70
+- _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA14BundleSelectorC6OutputVGSciHPyHC.71
+- _get_witness_table 22VisualIntelligenceCore33SaliencyStreamInternalMonitorableRzlScSyAA15ActionPredictorC6OutputVGSciHPyHC.72
+- _keypath_get.3Tm
+- _keypath_getTm
+- _keypath_setTm
+- _malloc
+- _objc_msgSend$_externalActionLinks
+- _objc_msgSend$actionDataIndex
+- _objc_msgSend$addressObject
+- _objc_msgSend$altitude
+- _objc_msgSend$aspectRatioHandling
+- _objc_msgSend$boundingRectWithSize:options:attributes:context:
+- _objc_msgSend$bytes
+- _objc_msgSend$centerLat
+- _objc_msgSend$centerLng
+- _objc_msgSend$challengeData
+- _objc_msgSend$clientLocation
+- _objc_msgSend$copy
+- _objc_msgSend$debugDescription
+- _objc_msgSend$defaultMetrics
+- _objc_msgSend$description
+- _objc_msgSend$distanceFromLocation:
+- _objc_msgSend$ephemeralSessionConfiguration
+- _objc_msgSend$fetchTokenWithQueue:completionHandler:
+- _objc_msgSend$fullAddressNoCurrentCountryWithMultiline:
+- _objc_msgSend$geoFenceMapRegion
+- _objc_msgSend$getCRDocumentOutputRegion
+- _objc_msgSend$globalSession
+- _objc_msgSend$groupType
+- _objc_msgSend$headingAvailable
+- _objc_msgSend$idealDimension
+- _objc_msgSend$idealImageFormat
+- _objc_msgSend$idealOrientation
+- _objc_msgSend$infoDictionary
+- _objc_msgSend$initForKnownIssuerWithChallenge:
+- _objc_msgSend$initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:
+- _objc_msgSend$initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:courseAccuracy:speed:speedAccuracy:timestamp:
+- _objc_msgSend$initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:courseAccuracy:speed:speedAccuracy:timestamp:sourceInfo:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$isOrientationAgnostic
+- _objc_msgSend$isSAEEnabled
+- _objc_msgSend$lat
+- _objc_msgSend$lng
+- _objc_msgSend$localizedStringForDate:relativeToDate:
+- _objc_msgSend$pixelsHighRange
+- _objc_msgSend$pixelsWideRange
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$releaseCachedResources
+- _objc_msgSend$requestTemporaryFullAccuracyAuthorizationWithPurposeKey:
+- _objc_msgSend$requestWhenInUseAuthorization
+- _objc_msgSend$resultProviderID
+- _objc_msgSend$scaledFontForFont:
+- _objc_msgSend$sessionWithConfiguration:
+- _objc_msgSend$setAllowsCellularAccess:
+- _objc_msgSend$setAllowsExpensiveNetworkAccess:
+- _objc_msgSend$setHeadingOrientation:
+- _objc_msgSend$setKeepResourcesLoaded:
+- _objc_msgSend$setMinimumTextHeight:
+- _objc_msgSend$setRecognitionLanguages:
+- _objc_msgSend$setRecognitionLevel:
+- _objc_msgSend$setSystemClient:
+- _objc_msgSend$setUnitsStyle:
+- _objc_msgSend$setUsesAlternateLineGrouping:
+- _objc_msgSend$setUsesLanguageDetection:
+- _objc_msgSend$setWaitsForConnectivity:
+- _objc_msgSend$set_usesNWLoader:
+- _objc_msgSend$sourceInformation
+- _objc_msgSend$spanLat
+- _objc_msgSend$spanLng
+- _objc_msgSend$speed
+- _objc_msgSend$speedAccuracy
+- _objc_msgSend$startUpdatingHeading
+- _objc_msgSend$statusCode
+- _objc_msgSend$stopUpdatingHeading
+- _objc_msgSend$stringForKey:
+- _objc_msgSend$supportedImageSizeSet
+- _objc_msgSend$systemName
+- _objc_msgSend$systemVersion
+- _objc_msgSend$timestamp
+- _objc_msgSend$vertexs
+- _objc_msgSend$verticalAccuracy
+- _objc_release_x1
+- _objectdestroy.100Tm
+- _objectdestroy.108Tm
+- _objectdestroy.10Tm
+- _objectdestroy.114Tm
+- _objectdestroy.174Tm
+- _objectdestroy.17Tm
+- _objectdestroy.192Tm
+- _objectdestroy.19Tm
+- _objectdestroy.20Tm
+- _objectdestroy.210Tm
+- _objectdestroy.216Tm
+- _objectdestroy.21Tm
+- _objectdestroy.281Tm
+- _objectdestroy.55Tm
+- _objectdestroy.6Tm
+- _objectdestroy.98Tm
+- _objectdestroyTm
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_dynamicCastObjCProtocolUnconditional
+- _swift_stdlib_isStackAllocationSafe
+- _swift_task_getMainExecutor
+- _symbolic $s22VisualIntelligenceCore020ImageSearchProductAdD0P
+- _symbolic $s22VisualIntelligenceCore14SaliencyStreamP
+- _symbolic $s22VisualIntelligenceCore16CustomUnarchiverP
+- _symbolic $s22VisualIntelligenceCore17ImageSearchObjectP
+- _symbolic $s22VisualIntelligenceCore17ImageSearchResultP
+- _symbolic $s22VisualIntelligenceCore17ImageSearchStatusP
+- _symbolic $s22VisualIntelligenceCore19BundleRoleProviding33_08481D38E9BA75BAB15F2C1D47A81202LLP
+- _symbolic $s22VisualIntelligenceCore19CVProcessorProtocolP
+- _symbolic $s22VisualIntelligenceCore20ImageSearchThumbnailP
+- _symbolic $s22VisualIntelligenceCore23ImageSearchItemProtocolP
+- _symbolic $s22VisualIntelligenceCore23VisionProcessorProtocolP
+- _symbolic $s22VisualIntelligenceCore24ImageSearchShoppingBadgeP
+- _symbolic $s22VisualIntelligenceCore24ImageSearchSimilarImagesP
+- _symbolic $s22VisualIntelligenceCore26ImageSearchProductAdRatingP
+- _symbolic $s22VisualIntelligenceCore26ImageSearchProductSaleInfoP
+- _symbolic $s22VisualIntelligenceCore27ImageSearchProviderProtocolP
+- _symbolic $s22VisualIntelligenceCore28ImageSearchAdSectionProtocolP
+- _symbolic $s22VisualIntelligenceCore28ImageSearchProductAdProtocolP
+- _symbolic $s22VisualIntelligenceCore29ImageSearchProductAdPriceInfoP
+- _symbolic $s22VisualIntelligenceCore34ImageSearchRelatedSearchesProtocolP
+- _symbolic 10ObjectType_____Qy_ 22VisualIntelligenceCore16CustomUnarchiverP
+- _symbolic 17RateLimitedOutput_____Qz06cachedC0_Sd9expiresAtt 22VisualIntelligenceCore13RateLimitableP
+- _symbolic G0M2_
+- _symbolic SDy16RateLimitedInput______0C3Key_____QZ_____yx_GG 22VisualIntelligenceCore13RateLimitableP AA0D16LimitedInputableP AA0D15LimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO
+- _symbolic SDySSSay_____GG 17SceneIntelligence36VerticalIntegrationContentClassifierV
+- _symbolic SDy_____ScTyyt______pGG 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO s5ErrorP
+- _symbolic SDy__________G 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA20CVCoordinationRegimeO
+- _symbolic SDy__________G 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA23CVProcessorInputStorageV
+- _symbolic SDy__________G_SDyAA______pGt 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA23CVProcessorInputStorageV AA0G8ProtocolP
+- _symbolic SDy__________yx_GG 10Foundation4UUIDV ScS12ContinuationV
+- _symbolic SSSgz_Xx
+- _symbolic SS_______pt 9PromptKit0A25ComponentValueConvertibleP
+- _symbolic SS_ypt
+- _symbolic SayScTyyt______pGGSg s5ErrorP
+- _symbolic SaySsG
+- _symbolic Say_____7trackId______11boundingBox_____y_____G15groundingResulttG 10Foundation4UUIDV 12VisualLookUp14NormalizedRectV 0C16IntelligenceCore15GroundingResultV AG0J15MD6_1DescriptorC
+- _symbolic Say_____G 10Foundation4DateV
+- _symbolic Say_____G 12VisualLookUp18GroundingDetectionV
+- _symbolic Say_____G 17SceneIntelligence36VerticalIntegrationContentClassifierV
+- _symbolic Say_____G 17SceneIntelligence5EventC
+- _symbolic Say_____G 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic Say_____G 22VisualIntelligenceCore11Lens_AnswerV
+- _symbolic Say_____G 22VisualIntelligenceCore11Lens_ObjectV
+- _symbolic Say_____G 22VisualIntelligenceCore11Lens_StatusV4CodeO
+- _symbolic Say_____G 22VisualIntelligenceCore12Lens_AdBlockV
+- _symbolic Say_____G 22VisualIntelligenceCore14Lens_ProductAdV
+- _symbolic Say_____G 22VisualIntelligenceCore17Lens_SearchResultV
+- _symbolic Say_____G 22VisualIntelligenceCore18GroundingProcessorC0D7Storage07_B3C6C1H24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic Say_____G 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RelatedSearchV
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointO
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceO
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeO
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionO
+- _symbolic Say_____G 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureO
+- _symbolic Say_____G 22VisualIntelligenceCore29GroundedParseEmbeddingsResultV
+- _symbolic Say_____G 22VisualIntelligenceCore34GroundedParseClassificationsResultV
+- _symbolic Say_____G 22VisualIntelligenceCore9Lens_ItemV
+- _symbolic Say_____G 22VisualIntelligenceCore9Lens_ItemV0E4TypeO
+- _symbolic Say_____G s5UInt8V
+- _symbolic Say_____G_SbSay_____GSay_____GS3St 22VisualIntelligenceCore15ImageSearchItemV AA0dE15RelatedSearchesV AA0dE9AdSectionV
+- _symbolic Say_____G______Sgt12cachedOutput_Sd9expiresAtt 22VisualIntelligenceCore0aB12LookupResultV 0A6LookUp18SearchHistoryEntryV
+- _symbolic Say______Say_____y_____GGtG 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD6_1DescriptorC
+- _symbolic Say______pG 22VisualIntelligenceCore17ImageSearchObjectP
+- _symbolic Say______pG 22VisualIntelligenceCore19CVProcessorProtocolP
+- _symbolic Say______pG______pIeghHrzo_ 22VisualIntelligenceCore17ImageSearchObjectP s5ErrorP
+- _symbolic Say______p________________SgtG 22VisualIntelligenceCore19CVProcessorProtocolP AA0D14TaskDescriptorV AA0D12InputStorageV So6CGRectV
+- _symbolic Say_____y_____GG 22VisualIntelligenceCore15GroundingResultV AA0D15MD6_1DescriptorC
+- _symbolic Say_____yxGG 22VisualIntelligenceCore15GroundingResultV
+- _symbolic ScA_pSgXw
+- _symbolic ScA_pSgXwz_Xx
+- _symbolic ScCySay_____G______pG 22VisualIntelligenceCore29GroundedParseEmbeddingsResultV s5ErrorP
+- _symbolic ScCySay_____G______pG 22VisualIntelligenceCore34GroundedParseClassificationsResultV s5ErrorP
+- _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
+- _symbolic ScSySo9CLHeadingCG
+- _symbolic ScSySo9CLHeadingCGSg
+- _symbolic ScSy_____G 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic ScSy_____G So21CLAuthorizationStatusV
+- _symbolic ScSy_____G6stream______yAA_G12continuationt 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV ScS12ContinuationV
+- _symbolic ScSy_____GIegHr_ 22VisualIntelligenceCore12TrackManagerC5StateV
+- _symbolic ScSy_____GIegHr_ 22VisualIntelligenceCore13BundleManagerC6OutputV
+- _symbolic ScSy_____GIegHr_ 22VisualIntelligenceCore14BundleSelectorC6OutputV
+- _symbolic ScTySDy__________G_SDyAA______pGt______pG 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA23CVProcessorInputStorageV AA0G8ProtocolP s5ErrorP
+- _symbolic ScTyyt_____G4task______y______G12continuationt s5NeverO ScS12ContinuationV 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic SccySo10CLLocationCSg_____G s5NeverO
+- _symbolic SccySo9BCSActionC______pG s5ErrorP
+- _symbolic Sccyyt______pG s5ErrorP
+- _symbolic ScgySay______pG______pG 22VisualIntelligenceCore17ImageSearchObjectP s5ErrorP
+- _symbolic Scsy___________pG 17SceneIntelligence8AFMChunkO s5ErrorP
+- _symbolic Sd19staleDetectionsFrom_Sd06latestbC0t
+- _symbolic Sd23estimatedCompletionTime_Sd08enqueuedC0t
+- _symbolic Sd23estimatedCompletionTime_t
+- _symbolic SdSg______SgtSg 12VisualLookUp0A13UnderstandingV
+- _symbolic Shy_____Gz_Xx 22VisualIntelligenceCore16DetectionRequestV
+- _symbolic Si6offset______7elementt 22VisualIntelligenceCore18GroundingProcessorC0D3BoxV
+- _symbolic Si6offset______7trackId______11boundingBox_____y_____G15groundingResultt7elementt 10Foundation4UUIDV 12VisualLookUp14NormalizedRectV 0C16IntelligenceCore15GroundingResultV AG0J15MD6_1DescriptorC
+- _symbolic Si6offset______y_____G7elementt 22VisualIntelligenceCore15GroundingResultV AA0D15MD6_1DescriptorC
+- _symbolic Si8boxIndex_Sf8maxScoreSi0cd8TaxonomyB0_____4bboxt So6CGRectV
+- _symbolic Si8boxIndex_Sf8maxScoreSi0cd8TaxonomyB0t
+- _symbolic Si_SfSit
+- _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+- _symbolic Si______t 22VisualIntelligenceCore18GroundingProcessorC0D3BoxV
+- _symbolic So10CLLocationC
+- _symbolic So19VNImageBasedRequestC
+- _symbolic So21OS_dispatch_semaphoreCSg
+- _symbolic So22GEOPlaceExternalActionC
+- _symbolic So24VNSequenceRequestHandlerC
+- _symbolic So9BCSActionC
+- _symbolic So9CLHeadingC
+- _symbolic So9IOSurfaceC5boxes_AB6scoresAB9embeddingSrySfG0C3F32_____10e5Providert 22VisualIntelligenceCore19E5InferenceProviderC
+- _symbolic Su12maxDimension______14sourceCropRectt So6CGRectV
+- _symbolic _____ 12CoreLocation16CLLocationUpdateV
+- _symbolic _____ 15TextRecognition11ImageReaderC
+- _symbolic _____ 17SceneIntelligence7AFMDataO
+- _symbolic _____ 17SceneIntelligence8SubEventC15DateTimeElementC
+- _symbolic _____ 17SceneIntelligence8SubEventC15DateTimeElementC06VisualB4CoreE5ErrorO
+- _symbolic _____ 21InternalSwiftProtobuf14UnknownStorageV
+- _symbolic _____ 22VisualIntelligenceCore010Lens_FetchA11DataRequestV
+- _symbolic _____ 22VisualIntelligenceCore010Lens_FetchA12DataResponseV
+- _symbolic _____ 22VisualIntelligenceCore09StreamingaB9ProcessorC
+- _symbolic _____ 22VisualIntelligenceCore09TimeZonedD0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLO
+- _symbolic _____ 22VisualIntelligenceCore0C20RecognitionProcessorC
+- _symbolic _____ 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO17RellenoCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO17UnknownCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO19QuickLookCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO20ViewfinderCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____ 22VisualIntelligenceCore112visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomy_categoryO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____ 22VisualIntelligenceCore11Lens_AnswerV
+- _symbolic _____ 22VisualIntelligenceCore11Lens_LocaleV
+- _symbolic _____ 22VisualIntelligenceCore11Lens_ObjectV
+- _symbolic _____ 22VisualIntelligenceCore11Lens_ResultV
+- _symbolic _____ 22VisualIntelligenceCore11Lens_StatusV
+- _symbolic _____ 22VisualIntelligenceCore11Lens_StatusV4CodeO
+- _symbolic _____ 22VisualIntelligenceCore12AFMProcessorC
+- _symbolic _____ 22VisualIntelligenceCore12Lens_AdBlockV
+- _symbolic _____ 22VisualIntelligenceCore12TrackManagerC24FrameProcessingTaskState33_1BC519384AA1B0D3CF0F4F0C911DE605LLO
+- _symbolic _____ 22VisualIntelligenceCore14Lens_LlmAnswerV
+- _symbolic _____ 22VisualIntelligenceCore14Lens_PriceInfoV
+- _symbolic _____ 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V
+- _symbolic _____ 22VisualIntelligenceCore14Lens_ProductAdV
+- _symbolic _____ 22VisualIntelligenceCore14Lens_ProductAdV13_StorageClass33_76CE48976919464F8498DDC3FEF7E463LLC
+- _symbolic _____ 22VisualIntelligenceCore15BundleGroupTypeO
+- _symbolic _____ 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore15BundleGroupTypeO14SignCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore15EventLookupItemV10CodingKeysO
+- _symbolic _____ 22VisualIntelligenceCore15GroundingResultV10CodingKeys07_B3C6C1I24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore15Lens_ExactMatchV
+- _symbolic _____ 22VisualIntelligenceCore15SaliencySessionC
+- _symbolic _____ 22VisualIntelligenceCore15SaliencySessionC13ConfigurationV
+- _symbolic _____ 22VisualIntelligenceCore15SaliencySessionC13ConfigurationV14HostingProcessO
+- _symbolic _____ 22VisualIntelligenceCore15SaliencySessionC24ScreenshotsConfigurationV
+- _symbolic _____ 22VisualIntelligenceCore15VisionProcessorC
+- _symbolic _____ 22VisualIntelligenceCore16BarcodeProcessorC
+- _symbolic _____ 22VisualIntelligenceCore16CustomCodableBoxV
+- _symbolic _____ 22VisualIntelligenceCore16EventLookupStateO
+- _symbolic _____ 22VisualIntelligenceCore16EventLookupStateO0dE6ResultV
+- _symbolic _____ 22VisualIntelligenceCore16Lens_ExploreGridV
+- _symbolic _____ 22VisualIntelligenceCore16LocationsHandlerC
+- _symbolic _____ 22VisualIntelligenceCore16SendableTransferV
+- _symbolic _____ 22VisualIntelligenceCore16SystemImageCache33_D9CC66F79C12BDD154DA9ACC202549C7LLC
+- _symbolic _____ 22VisualIntelligenceCore17GoogleImageSearchV
+- _symbolic _____ 22VisualIntelligenceCore17Lens_CallToActionV
+- _symbolic _____ 22VisualIntelligenceCore17Lens_ProductImageV
+- _symbolic _____ 22VisualIntelligenceCore17Lens_SearchResultV
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC0D3BoxV
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC0D5ErrorO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC0D7Storage07_B3C6C1H24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO14NoneCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO16StrictCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO17RunningCodingKeys07_B3C6C1N24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys07_B3C6C1O24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore18Lens_NormalizedBoxV
+- _symbolic _____ 22VisualIntelligenceCore18Lens_ProductRatingV
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RelatedSearchV
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV10EntrypointO
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV12SensorSourceO
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV15InteractionTypeO
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionO
+- _symbolic _____ 22VisualIntelligenceCore18Lens_RequestConfigV7FeatureO
+- _symbolic _____ 22VisualIntelligenceCore18StandardUnarchiverV
+- _symbolic _____ 22VisualIntelligenceCore19ImageSearchProviderO
+- _symbolic _____ 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ 22VisualIntelligenceCore19Lens_ImageThumbnailV
+- _symbolic _____ 22VisualIntelligenceCore19Lens_ShoppableBadgeV
+- _symbolic _____ 22VisualIntelligenceCore19RateLimitingWrapperC12StateMachine33_1FCD97B97D1CE170D4F29BE184A22CC9LLV
+- _symbolic _____ 22VisualIntelligenceCore19RateLimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO
+- _symbolic _____ 22VisualIntelligenceCore19VisionProcessorTypeO
+- _symbolic _____ 22VisualIntelligenceCore20AsyncBroadcastStreamC
+- _symbolic _____ 22VisualIntelligenceCore20BundleClassificationV0E4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
+- _symbolic _____ 22VisualIntelligenceCore20CVCoordinationRegimeO
+- _symbolic _____ 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____ 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____ 22VisualIntelligenceCore20CVCoordinationRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____ 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____ 22VisualIntelligenceCore20ImageSearchProductAdO
+- _symbolic _____ 22VisualIntelligenceCore21ImageSearchEntrypointO
+- _symbolic _____ 22VisualIntelligenceCore21Lens_AdDisclosureDataV
+- _symbolic _____ 22VisualIntelligenceCore22GreymatterAvailabilityV0E5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____ 22VisualIntelligenceCore22VisionKitConfigStorageC5State33_D4D9A06D8807D21E35DA9E3C4193D485LLV
+- _symbolic _____ 22VisualIntelligenceCore24CLHeadingUpdatePublisher33_2D676846DD9D649B8AF0B23C5D24AD47LLC
+- _symbolic _____ 22VisualIntelligenceCore24GroundingMD6_1DescriptorC
+- _symbolic _____ 22VisualIntelligenceCore25VerticalContentClassifierV
+- _symbolic _____ 22VisualIntelligenceCore26CVCoordinatorSchedulerModeO
+- _symbolic _____ 22VisualIntelligenceCore26VisionProcessorBarcodeTypeV
+- _symbolic _____ 22VisualIntelligenceCore28GoogleImageSearchRateLimiterC
+- _symbolic _____ 22VisualIntelligenceCore29CVProcessorInputConfigurationV10DimensionsO
+- _symbolic _____ 22VisualIntelligenceCore30ImageSearchProviderUnavailableV
+- _symbolic _____ 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLO
+- _symbolic _____ 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerO
+- _symbolic _____ 22VisualIntelligenceCore8CVBundleV10BundleTypeO
+- _symbolic _____ 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____ 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLO
+- _symbolic _____ 22VisualIntelligenceCore9Lens_ItemV
+- _symbolic _____ 22VisualIntelligenceCore9Lens_ItemV0E4TypeO
+- _symbolic _____ 22VisualIntelligenceCore9Lens_ItemV13_StorageClass33_76CE48976919464F8498DDC3FEF7E463LLC
+- _symbolic _____ 22VisualIntelligenceCore9M2MHandleC
+- _symbolic _____ 22VisualIntelligenceCore9M2MHandleC0D6MErrorO
+- _symbolic _____ 29VisualActionPredictionSupport8WorkflowO
+- _symbolic _____ So20GEOMapItemIdentifierC22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
+- _symbolic _____ So23GEOLocationCoordinate2Da
+- _symbolic _____ So23GEOLocationCoordinate2Da22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
+- _symbolic _____ So30VNSizeRangeAspectRatioHandlingV
+- _symbolic _____3key_SayScCy_____Sg_____GG5valuetSg 22VisualIntelligenceCore26HighResolutionStillBarrierC15ActionExecutionV AA0H9PredictorC06BundleH16PredictionResultV s5NeverO
+- _symbolic _____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuet 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____3key_Shy_____G5valuetSg 10Foundation4UUIDV 22VisualIntelligenceCore16DetectionRequestV
+- _symbolic _____3key______5valuet 22VisualIntelligenceCore13BuiltInActionO 10Foundation4UUIDV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 22VisualIntelligenceCore18CVTrackedDetectionC10PredictionV
+- _symbolic _____3key______5valuetSg 22VisualIntelligenceCore12TrackManagerC21TrackedProcessorState33_1BC519384AA1B0D3CF0F4F0C911DE605LLV3KeyV AF
+- _symbolic _____3key______5valuetSg 22VisualIntelligenceCore15ActionPredictorC06BundleD16PredictionResultV0D0O AE
+- _symbolic _____3key______5valuetSg 22VisualIntelligenceCore20BundleClassificationV0E4TypeO AA0dE13ResultSummaryV
+- _symbolic _____3key______5valuetSg 22VisualIntelligenceCore20BundleClassificationV0E4TypeO AA15RefinementStateO
+- _symbolic _____3key______y______G5valuet 22VisualIntelligenceCore0aB16RateLimitedInputV3KeyV AA0D15LimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA0aB21SearchServiceInternalC
+- _symbolic _____7trackId______11boundingBox_____y_____G15groundingResultt 10Foundation4UUIDV 12VisualLookUp14NormalizedRectV 0C16IntelligenceCore15GroundingResultV AG0J15MD6_1DescriptorC
+- _symbolic _____7trackId______11boundingBox_____y_____G15groundingResulttSg 10Foundation4UUIDV 12VisualLookUp14NormalizedRectV 0C16IntelligenceCore15GroundingResultV AG0J15MD6_1DescriptorC
+- _symbolic _____IeAgHr_ 22VisualIntelligenceCore22GreymatterAvailabilityV0E5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____Iegn_ 22VisualIntelligenceCore14ProcessorStateO
+- _symbolic _____Sg 12CoreLocation16CLLocationUpdateV
+- _symbolic _____Sg 12CoreLocation27CLBackgroundActivitySessionC
+- _symbolic _____Sg 12VisualLookUp0A13UnderstandingV11ImageRegionV9EmbeddingV
+- _symbolic _____Sg 12VisualLookUp18RegionSearchResultV
+- _symbolic _____Sg 13OSEligibility0A6ResultV
+- _symbolic _____Sg 14SiriTTSService13DaemonSessionC
+- _symbolic _____Sg 15TokenGeneration0A9GeneratorC
+- _symbolic _____Sg 17SceneIntelligence11TGProcessorV
+- _symbolic _____Sg 17SceneIntelligence13AFMAnnotationO
+- _symbolic _____Sg 17SceneIntelligence17SanitizerResourceV
+- _symbolic _____Sg 17SceneIntelligence36VerticalIntegrationContentClassifierV8CategoryO
+- _symbolic _____Sg 17SceneIntelligence7AFMDataO
+- _symbolic _____Sg 17SceneIntelligence8AFMChunkO
+- _symbolic _____Sg 22VisualIntelligenceCore0aB16RateLimitedInputV3KeyV
+- _symbolic _____Sg 22VisualIntelligenceCore11Lens_LocaleV
+- _symbolic _____Sg 22VisualIntelligenceCore11Lens_ResultV
+- _symbolic _____Sg 22VisualIntelligenceCore11Lens_StatusV
+- _symbolic _____Sg 22VisualIntelligenceCore14Lens_LlmAnswerV
+- _symbolic _____Sg 22VisualIntelligenceCore14Lens_PriceInfoV
+- _symbolic _____Sg 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V
+- _symbolic _____Sg 22VisualIntelligenceCore15Lens_ExactMatchV
+- _symbolic _____Sg 22VisualIntelligenceCore15SaliencySessionC
+- _symbolic _____Sg 22VisualIntelligenceCore16Lens_ExploreGridV
+- _symbolic _____Sg 22VisualIntelligenceCore17Lens_CallToActionV
+- _symbolic _____Sg 22VisualIntelligenceCore17Lens_ProductImageV
+- _symbolic _____Sg 22VisualIntelligenceCore18Lens_NormalizedBoxV
+- _symbolic _____Sg 22VisualIntelligenceCore18Lens_ProductRatingV
+- _symbolic _____Sg 22VisualIntelligenceCore18Lens_RequestConfigV
+- _symbolic _____Sg 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV
+- _symbolic _____Sg 22VisualIntelligenceCore19Lens_ImageThumbnailV
+- _symbolic _____Sg 22VisualIntelligenceCore19Lens_ShoppableBadgeV
+- _symbolic _____Sg 22VisualIntelligenceCore19MetaDetectionResultV
+- _symbolic _____Sg 22VisualIntelligenceCore21Lens_AdDisclosureDataV
+- _symbolic _____Sg 22VisualIntelligenceCore22GreymatterAvailabilityV0E5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____Sg 22VisualIntelligenceCore23CVProcessorInputStorageV
+- _symbolic _____Sg 22VisualIntelligenceCore23GeoLookupResultBusinessV
+- _symbolic _____Sg 22VisualIntelligenceCore27CVProcessorInputRequirementO
+- _symbolic _____Sg 22VisualIntelligenceCore29GroundedParseEmbeddingsResultV
+- _symbolic _____Sg 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerO
+- _symbolic _____Sg 22VisualIntelligenceCore34GroundedParseClassificationsResultV
+- _symbolic _____Sg 22VisualIntelligenceCore9AFMResultV
+- _symbolic _____SgXw 22VisualIntelligenceCore16LocationsHandlerC
+- _symbolic _____SgXw 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC
+- _symbolic _____SgXwz_Xx 22VisualIntelligenceCore28SiriVoiceAvailabilityUtilityC
+- _symbolic _____Sg_ABt 17SceneIntelligence36VerticalIntegrationContentClassifierV8CategoryO
+- _symbolic _____Sg_ABt 17SceneIntelligence7AFMDataO
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore11Lens_LocaleV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore11Lens_ResultV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore11Lens_StatusV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore14Lens_LlmAnswerV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore14Lens_PriceInfoV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore14Lens_PriceInfoV04SaleF0V
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore15Lens_ExactMatchV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore16Lens_ExploreGridV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore17Lens_CallToActionV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore17Lens_ProductImageV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore18Lens_NormalizedBoxV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore18Lens_ProductRatingV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore18Lens_RequestConfigV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore18Lens_RequestConfigV11ContextDataV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore19Lens_ImageThumbnailV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore19Lens_ShoppableBadgeV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore21Lens_AdDisclosureDataV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV
+- _symbolic _____Sg_ABt 22VisualIntelligenceCore32BundleClassificationRuntimeErrorV
+- _symbolic _____Sg______SgtSg 2os12OSSignposterV AA12OSSignpostIDV
+- _symbolic _____Sgz_Xx 22VisualIntelligenceCore15DetectionResultV
+- _symbolic ______AAt 22VisualIntelligenceCore16EventLookupStateO
+- _symbolic ______AAt 22VisualIntelligenceCore20ImageSearchProductAdO
+- _symbolic ______AAt 22VisualIntelligenceCore8CVBundleV10BundleTypeO
+- _symbolic ______SStSg 22VisualIntelligenceCore15CVTrackSnapshotV
+- _symbolic ______Say_____y_____GGt 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD6_1DescriptorC
+- _symbolic ______Say_____y_____GGtSg 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AD0F15MD6_1DescriptorC
+- _symbolic ______SftSg 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV
+- _symbolic ______So6UIFontCt So21NSAttributedStringKeya
+- _symbolic _______________Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 22VisualIntelligenceCore13BundleManagerC6OutputV s5NeverO
+- _symbolic _______________Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 22VisualIntelligenceCore14BundleSelectorC6OutputV s5NeverO
+- _symbolic _______________Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 22VisualIntelligenceCore15ActionPredictorC6OutputV s5NeverO
+- _symbolic ___________t 10Foundation4UUIDV 22VisualIntelligenceCore15BundleGroupTypeO
+- _symbolic ___________t 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AA23CVProcessorInputStorageV
+- _symbolic ___________t 22VisualIntelligenceCore13BuiltInActionO 10Foundation4UUIDV
+- _symbolic ___________t 22VisualIntelligenceCore15BundleGroupTypeO 10Foundation4UUIDV
+- _symbolic ___________tSg 22VisualIntelligenceCore13BuiltInActionO 10Foundation4UUIDV
+- _symbolic ___________y_____Gt 22VisualIntelligenceCore18GroundingProcessorC0D3BoxV s15ContiguousArrayV s6UInt16V
+- _symbolic ______p 22VisualIntelligenceCore14SaliencyStreamP
+- _symbolic ______p 22VisualIntelligenceCore17ImageSearchObjectP
+- _symbolic ______p 22VisualIntelligenceCore19BoundingBoxProviderP
+- _symbolic ______p 22VisualIntelligenceCore19CVProcessorProtocolP
+- _symbolic ______p 22VisualIntelligenceCore20ActionVisionProviderP
+- _symbolic ______p 22VisualIntelligenceCore23ImageSearchItemProtocolP
+- _symbolic ______p 22VisualIntelligenceCore28ImageSearchAdSectionProtocolP
+- _symbolic ______p 22VisualIntelligenceCore28ImageSearchProductAdProtocolP
+- _symbolic ______p 22VisualIntelligenceCore34ImageSearchRelatedSearchesProtocolP
+- _symbolic ______p 22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingP
+- _symbolic ______pSg 22VisualIntelligenceCore14SaliencyStreamP
+- _symbolic ______pSg 22VisualIntelligenceCore17BundleClassifyingP
+- _symbolic ______pSg 22VisualIntelligenceCore17ImageSearchObjectP
+- _symbolic ______pSg 22VisualIntelligenceCore17ImageSearchResultP
+- _symbolic ______pSg 22VisualIntelligenceCore19CVProcessorProtocolP
+- _symbolic ______pSg 22VisualIntelligenceCore34SaliencyStreamIngredientsProvidingP
+- _symbolic ______pSgXw 22VisualIntelligenceCore20ActionVisionProviderP
+- _symbolic ______p________________Sgt 22VisualIntelligenceCore19CVProcessorProtocolP AA0D14TaskDescriptorV AA0D12InputStorageV So6CGRectV
+- _symbolic ______p________________SgtSg 22VisualIntelligenceCore19CVProcessorProtocolP AA0D14TaskDescriptorV AA0D12InputStorageV So6CGRectV
+- _symbolic _____ySDySSypGG 15Synchronization5MutexVAARi_zrlE
+- _symbolic _____ySDy__________GG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AD23CVProcessorInputStorageV
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 17SceneIntelligence36VerticalIntegrationContentClassifierV
+- _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 9PromptKit0D25ComponentValueConvertibleP
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySay_____GG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore18GroundingProcessorC0F7Storage07_B3C6C1J24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____ySay_____GG 22VisualIntelligenceCore20AsyncBroadcastStreamC AA16DetectionRequestV
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore18TextDetectorResultV
+- _symbolic _____ySay_____GGSgXw 22VisualIntelligenceCore20AsyncBroadcastStreamC AA16DetectionRequestV
+- _symbolic _____ySay_____G_GSg ScS12ContinuationV 22VisualIntelligenceCore16DetectionRequestV
+- _symbolic _____ySay_____G__G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore16DetectionRequestV
+- _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD6_1DescriptorC
+- _symbolic _____yScTyyt______pGG s23_ContiguousArrayStorageC s5ErrorP
+- _symbolic _____yShy_____GSay_____G_G s12Zip2SequenceV8IteratorV 22VisualIntelligenceCore13BuiltInActionO 10Foundation4UUIDV
+- _symbolic _____ySi6offset_Si8boxIndex_Sf8maxScoreSi0de8TaxonomyC0_____4bboxt7elementtG s23_ContiguousArrayStorageC So6CGRectV
+- _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 22VisualIntelligenceCore18GroundingProcessorC0G3BoxV
+- _symbolic _____ySi8boxIndex_Sf8maxScoreSi0cd8TaxonomyB0_____4bboxtG s23_ContiguousArrayStorageC So6CGRectV
+- _symbolic _____ySi8boxIndex_Sf8maxScoreSi0cd8TaxonomyB0tG s23_ContiguousArrayStorageC
+- _symbolic _____ySi_SfSitG s23_ContiguousArrayStorageC
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 22VisualIntelligenceCore18GroundingProcessorC0G3BoxV
+- _symbolic _____ySo10CLLocationC_____yACGG 22VisualIntelligenceCore16CustomCodableBoxV AA18StandardUnarchiverV
+- _symbolic _____ySo10CLLocationC_____yACGGSg 22VisualIntelligenceCore16CustomCodableBoxV AA18StandardUnarchiverV
+- _symbolic _____ySo9CLHeadingC_G ScS12ContinuationV
+- _symbolic _____ySo9CLHeadingC_G ScS8IteratorV
+- _symbolic _____ySo9CLHeadingC_GSg ScS12ContinuationV
+- _symbolic _____ySo9CLHeadingC__G ScS12ContinuationV11YieldResultO
+- _symbolic _____ySo9CLHeadingC__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic _____ySo9MKMapItemCG 22VisualIntelligenceCore16SendableTransferV
+- _symbolic _____y_____3key_Sf7confSum_Sf7maxConfSi0D5Indext5valuetG s23_ContiguousArrayStorageC 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____y_____7trackId______11boundingBox_____y_____G15groundingResulttG s23_ContiguousArrayStorageC 10Foundation4UUIDV 12VisualLookUp14NormalizedRectV 0F16IntelligenceCore15GroundingResultV AI0M15MD6_1DescriptorC
+- _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore12TrackManagerC24FrameProcessingTaskState33_1BC519384AA1B0D3CF0F4F0C911DE605LLO
+- _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore22VisionKitConfigStorageC5State33_D4D9A06D8807D21E35DA9E3C4193D485LLV
+- _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 22VisualIntelligenceCore12TrackManagerC24FrameProcessingTaskState33_1BC519384AA1B0D3CF0F4F0C911DE605LLO
+- _symbolic _____y_____G 22VisualIntelligenceCore15GroundingResultV AA0D15MD6_1DescriptorC
+- _symbolic _____y_____G 22VisualIntelligenceCore16SendableTransferV So11CVBufferRefa
+- _symbolic _____y_____G 22VisualIntelligenceCore19RateLimitingWrapperC AA0aB21SearchServiceInternalC
+- _symbolic _____y_____G 22VisualIntelligenceCore20AsyncBroadcastStreamC AA12TrackManagerC5StateV
+- _symbolic _____y_____G 22VisualIntelligenceCore20AsyncBroadcastStreamC AA13BundleManagerC6OutputV
+- _symbolic _____y_____G 22VisualIntelligenceCore20AsyncBroadcastStreamC AA14BundleSelectorC6OutputV
+- _symbolic _____y_____G 22VisualIntelligenceCore20AsyncBroadcastStreamC AA15ActionPredictorC6OutputV
+- _symbolic _____y_____G s11_SetStorageC 17SceneIntelligence36VerticalIntegrationContentClassifierV8CategoryO
+- _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore112visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomy_categoryO
+- _symbolic _____y_____G s11_SetStorageC 22VisualIntelligenceCore13BuiltInActionO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore09TimeZonedG0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO17RellenoCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO17UnknownCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO19QuickLookCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO20ViewfinderCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore15BundleGroupTypeO14SignCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1P24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO14NoneCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO16StrictCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO17RunningCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys07_B3C6C1R24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore09TimeZonedG0V10CodingKeys33_43EB60187F9356C93913F32AEB7B45BFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO10CodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO17RellenoCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO17UnknownCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO19QuickLookCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO20ViewfinderCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore10EntryPointO21ScreenshotsCodingKeys33_7A930771DEBA2A2CDC33EFD32FCEC930LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO16QrCodeCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO17AppClipCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore11CVDetectionO20MultimodalCodingKeys33_AD4086EC19B923B73653F2847E363090LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15BundleGroupTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15BundleGroupTypeO14SignCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore15EventLookupItemV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO10CodingKeys07_B3C6C1P24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO14NoneCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO16StrictCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO17RunningCodingKeys07_B3C6C1Q24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore18GroundingProcessorC27NonMaximumSuppressionPolicyO20ClassAwareCodingKeys07_B3C6C1R24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore19LabelConfidencePairV10CodingKeys07_B3C6C1M24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20BundleClassificationV0H4TypeO25VerticalContentCodingKeys33_DED9CC211E80FC69BFC1F717499A0291LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO10CodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO17CadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO18OnDemandCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore20CVCoordinationRegimeO25OnDemandCadenceCodingKeys33_6412970008BA72473F35BB51F1E1093ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV10CodingKeys33_3F9BBFF5F1A64B7DC47315D46DAB49DDLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO14NodeCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8CVBundleV10BundleTypeO15GroupCodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore8CVBundleV10CodingKeys33_08481D38E9BA75BAB15F2C1D47A81202LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22VisualIntelligenceCore9AFMResultV10CodingKeys33_D09AD0EEAA1D7A3BAE5594C146B472ECLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So20GEOMapItemIdentifierC22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV So23GEOLocationCoordinate2Da22VisualIntelligenceCoreE10CodingKeys33_0E05FD9E8ADCC367E5F134085752BA4FLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12VisualLookUp14NormalizedRectV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 17SceneIntelligence12AFMChunkTypeO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 17SceneIntelligence14STXContentTypeO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 17SceneIntelligence36VerticalIntegrationContentClassifierV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 17SceneIntelligence36VerticalIntegrationContentClassifierV8CategoryO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore0dE16RateLimitedInputV3KeyV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore112visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomy_categoryO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore15BundleGroupTypeO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore18GroundingProcessorC0G3BoxV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore18GroundingProcessorC0gC007_B3C6C1J24EDEFCE817F1452A07CB2D50DLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore18Lens_RequestConfigV18ExperimentalOptionO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore29GroundedParseEmbeddingsResultV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22VisualIntelligenceCore34GroundedParseClassificationsResultV
+- _symbolic _____y_____GSg 22VisualIntelligenceCore15GroundingResultV AA0D15MD6_1DescriptorC
+- _symbolic _____y_____GSgXw 22VisualIntelligenceCore20AsyncBroadcastStreamC AA12TrackManagerC5StateV
+- _symbolic _____y_____GSgXw 22VisualIntelligenceCore20AsyncBroadcastStreamC AA13BundleManagerC6OutputV
+- _symbolic _____y_____GSgXw 22VisualIntelligenceCore20AsyncBroadcastStreamC AA14BundleSelectorC6OutputV
+- _symbolic _____y_____GSgXw 22VisualIntelligenceCore20AsyncBroadcastStreamC AA15ActionPredictorC6OutputV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 22VisualIntelligenceCore15BundleGroupTypeO AC8CVBundleV
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 22VisualIntelligenceCore22CVDebugImageAnnotationV04BaseG4InfoO AE
+- _symbolic _____y_____Say_____y_____GGG s18_DictionaryStorageC 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AF0H15MD6_1DescriptorC
+- _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO s5ErrorP
+- _symbolic _____y_____Sf7confSum_Sf7maxConfSi0C5IndextG s18_DictionaryStorageC 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____y_____SfG s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO
+- _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 22VisualIntelligenceCore22GreymatterAvailabilityV0G5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 22VisualIntelligenceCore22GreymatterAvailabilityV0G5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____y_____So6UIFontCG s18_DictionaryStorageC So21NSAttributedStringKeya
+- _symbolic _____y______G 22VisualIntelligenceCore19RateLimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA0aB21SearchServiceInternalC
+- _symbolic _____y______G ScG8IteratorV 22VisualIntelligenceCore22GreymatterAvailabilityV0F5State33_99C6E5ED3F40308BF68826FA333809E7LLV
+- _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore12TrackManagerC5StateV
+- _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore13BundleManagerC6OutputV
+- _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore14BundleSelectorC6OutputV
+- _symbolic _____y______G ScS12ContinuationV 22VisualIntelligenceCore15ActionPredictorC6OutputV
+- _symbolic _____y______G ScS12ContinuationV So21CLAuthorizationStatusV
+- _symbolic _____y______G ScS8IteratorV 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic _____y______GSg 22VisualIntelligenceCore19RateLimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AA0aB21SearchServiceInternalC
+- _symbolic _____y______GSg ScS12ContinuationV 22VisualIntelligenceCore12TrackManagerC5StateV
+- _symbolic _____y______GSg ScS12ContinuationV 22VisualIntelligenceCore13BundleManagerC6OutputV
+- _symbolic _____y______GSg ScS12ContinuationV 22VisualIntelligenceCore14BundleSelectorC6OutputV
+- _symbolic _____y______GSg ScS12ContinuationV 22VisualIntelligenceCore15ActionPredictorC6OutputV
+- _symbolic _____y______Say_____y_____GGtG s23_ContiguousArrayStorageC 10Foundation4UUIDV 22VisualIntelligenceCore15GroundingResultV AF0I15MD6_1DescriptorC
+- _symbolic _____y______SftG s23_ContiguousArrayStorageC 22VisualIntelligenceCore103visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettizedTaxonomyO
+- _symbolic _____y______So6UIFontCtG s23_ContiguousArrayStorageC So21NSAttributedStringKeya
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore12TrackManagerC5StateV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore13BundleManagerC6OutputV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore14BundleSelectorC6OutputV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 22VisualIntelligenceCore15ActionPredictorC6OutputV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO So21CLAuthorizationStatusV
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 22VisualIntelligenceCore12TrackManagerC21FrameProcessingUpdate33_1BC519384AA1B0D3CF0F4F0C911DE605LLV
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO So21CLAuthorizationStatusV
+- _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AC016CVProcessorInputB0V
+- _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AC20CVCoordinationRegimeO
+- _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore13BuiltInActionO 10Foundation4UUIDV
+- _symbolic _____y__________G s18_DictionaryStorageC 22VisualIntelligenceCore15BundleGroupTypeO 10Foundation4UUIDV
+- _symbolic _____y___________pG s18_DictionaryStorageC 22VisualIntelligenceCore11CVDetectionO13DetectionTypeO AC19CVProcessorProtocolP
+- _symbolic _____y___________pG s18_DictionaryStorageC 22VisualIntelligenceCore25CVProcessorTaskDescriptorV AC0F8ProtocolP
+- _symbolic _____y___________p_G Scs8IteratorV 17SceneIntelligence8AFMChunkO s5ErrorP
+- _symbolic _____y___________y_____GtG s23_ContiguousArrayStorageC 22VisualIntelligenceCore18GroundingProcessorC0G3BoxV s0aB0V s6UInt16V
+- _symbolic _____y__________ySay_____G_GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 22VisualIntelligenceCore16DetectionRequestV
+- _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 22VisualIntelligenceCore12TrackManagerC5StateV
+- _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 22VisualIntelligenceCore13BundleManagerC6OutputV
+- _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 22VisualIntelligenceCore14BundleSelectorC6OutputV
+- _symbolic _____y__________y______GG s18_DictionaryStorageC 10Foundation4UUIDV ScS12ContinuationV 22VisualIntelligenceCore15ActionPredictorC6OutputV
+- _symbolic _____y__________y______GG s18_DictionaryStorageC 22VisualIntelligenceCore0cD16RateLimitedInputV3KeyV AC0F15LimitingWrapperC15CompletionState33_1FCD97B97D1CE170D4F29BE184A22CC9LLO AC0cD21SearchServiceInternalC
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore17ImageSearchObjectP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore19CVProcessorProtocolP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore23ImageSearchItemProtocolP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore28ImageSearchProductAdProtocolP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 22VisualIntelligenceCore34ImageSearchRelatedSearchesProtocolP
+- _symbolic _____y______p________________SgtG s23_ContiguousArrayStorageC 22VisualIntelligenceCore19CVProcessorProtocolP AC0G14TaskDescriptorV AC0g5InputC0V So6CGRectV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 22VisualIntelligenceCore15GroundingResultV AC0G15MD6_1DescriptorC
+- _symbolic _____yxGSgXwz_Say_____G_lXX 22VisualIntelligenceCore20AsyncBroadcastStreamC AA16DetectionRequestV
+- _symbolic _____yxGSgXwz_______lXX 22VisualIntelligenceCore20AsyncBroadcastStreamC AA12TrackManagerC5StateV
+- _symbolic _____yxGSgXwz_______lXX 22VisualIntelligenceCore20AsyncBroadcastStreamC AA13BundleManagerC6OutputV
+- _symbolic _____yxGSgXwz_______lXX 22VisualIntelligenceCore20AsyncBroadcastStreamC AA14BundleSelectorC6OutputV
+- _symbolic _____yxGSgXwz_______lXX 22VisualIntelligenceCore20AsyncBroadcastStreamC AA15ActionPredictorC6OutputV
+- _symbolic _____yxGXMT 22VisualIntelligenceCore19TimestampDataBufferC
+- _symbolic _____yx_G 22VisualIntelligenceCore19RateLimitingWrapperC12StateMachine33_1FCD97B97D1CE170D4F29BE184A22CC9LLV
+- _symbolic ySbc
+- _symbolic yt______pIgrzo_ s5ErrorP
+- _symbolic yyYaYbcSg
+- _type_layout_string 22VisualIntelligenceCore10EntryPointO
+- _type_layout_string 22VisualIntelligenceCore11CameraImageO
+- _type_layout_string 22VisualIntelligenceCore13RateLimitableRzScARzlAA0D15LimitingWrapperC12StateMachine33_1FCD97B97D1CE170D4F29BE184A22CC9LLVyx_G
+- _type_layout_string 22VisualIntelligenceCore14ReadAloudStateO
+- _type_layout_string 22VisualIntelligenceCore14ReadAloudStateO0dE6ResultV
+- _type_layout_string 22VisualIntelligenceCore15ActionPredictorC0D13MatchingErrorV
+- _type_layout_string 22VisualIntelligenceCore15CVDebugArtifactV
+- _type_layout_string 22VisualIntelligenceCore15CVDebugArtifactV7PayloadO
+- _type_layout_string 22VisualIntelligenceCore15EventClassifierV
+- _type_layout_string 22VisualIntelligenceCore15ImageSearchItemV
+- _type_layout_string 22VisualIntelligenceCore17GoogleImageSearchV
+- _type_layout_string 22VisualIntelligenceCore18GroundingProcessorC0D3BoxV
+- _type_layout_string 22VisualIntelligenceCore18GroundingProcessorC0D7Storage07_B3C6C1H24EDEFCE817F1452A07CB2D50DLLO
+- _type_layout_string 22VisualIntelligenceCore18ImageSearchContextV
+- _type_layout_string 22VisualIntelligenceCore19ImageSearchProviderO
+- _type_layout_string 22VisualIntelligenceCore19InProcessMediaFrameV
+- _type_layout_string 22VisualIntelligenceCore20ImageSearchAdSectionV
+- _type_layout_string 22VisualIntelligenceCore22VisionKitConfigStorageC5State33_D4D9A06D8807D21E35DA9E3C4193D485LLV
+- _type_layout_string 22VisualIntelligenceCore26ImageSearchRelatedSearchesV
+- _type_layout_string 22VisualIntelligenceCore30StreamingBarcodeDetectorResultV24BCSDetectedCodeContainerO
+- _type_layout_string 22VisualIntelligenceCore9GeoLookupC0dE6ResultV
+- _type_layout_string So17e5rt_error_code_ta
+- _type_layout_string So21NSAttributedStringKeya
+- _type_layout_string So7CGPointV
+- _type_layout_string So8NSObjectCRbzSo14NSSecureCodingRz10ObjectTypeQy_Rsz22VisualIntelligenceCore16CustomUnarchiverR_r0_lAF0I10CodableBoxVyxq_G
+CStrings:
++ "  blood_glucose_unit: "
++ "  blood_glucose_value: "
++ "  blood_pressure_diastolic_unit: mmhg\n"
++ "  blood_pressure_diastolic_value: "
++ "  blood_pressure_systolic_unit: mmhg\n"
++ "  blood_pressure_systolic_value: "
++ "  body_mass_unit: "
++ "  body_mass_value: "
++ "  measurement_type: "
++ " contains the following OVS words that cannot be found in input OCR: "
++ " contains the following safety words that cannot be found in input OCR: "
++ " doesn't have a built-in action"
++ " integration features on this "
++ " is not a parent path of "
++ " will be able to ask "
++ "%s [%{public}s] (took %f seconds)"
++ "%s converted executionProgress into data %s"
++ "%s converting executionProgress into data %s"
++ "%s created execution stream"
++ "%s found matching pill and pin"
++ "%s input safety error: %s"
++ "%s is temporarily restricted due to triggering safety alerts multiple times."
++ "%s output safety error: %s"
++ "%s requires an internet connection"
++ "%s safety error: %s"
++ "%s starting execution for pill %s"
++ "%s unable to convert executionProgress into data"
++ "%s: %s"
++ "%s: Guardrails are out of date"
++ "%s: No result from AFM"
++ "%s: input will be returned directly"
++ "%{public}s"
++ "' is not configured for this session"
++ "' is not registered"
++ "' while sessions are using it"
++ "(IntelligentPassDetails) Object containing all extracted pass information from the image. Required: pass_type must be \"giftCard\", \"membershipCard\", or \"eventTicket\". Include only fields that have values visible in the image - omit fields that are not present. Use empty list [] for missing list fields. theme_color should always be provided — use \"other\" for plain, blank, or white cards."
++ "(fetches CalendarAttendeeEntity | ContactEntity) List of attendee entities for the event"
++ "(fetches CalendarEntity) The calendar to associate with the event"
++ ", no active capture."
++ ", system version "
++ "- Extract structured information from the input text\n- Information extracted from pass photos including cards, coupons, and tickets\n[Important Guidelines]\n- Do not hallucinate\n- Follow the output schema exactly as specified to produce the output"
++ "--> update begin for frame %s"
++ "--all-bundles is not supported with replay"
++ "-action-execution-bundle-"
++ ". Cannot extract relative path"
++ "00010000-0000-0000-0000-000000000000"
++ "2D digital media"
++ "<-- update end for frame %s"
++ "<ContentClassification>"
++ "<StructuredText>"
++ "<ctrl99>developer"
++ "A container for the final list of corrected object detections."
++ "A list of all the corrected objects found in the image."
++ "A short noun phrase category describing the identified object. It must be different from the initial category"
++ "AFM inference is not supported on simulator"
++ "AFM punch-out finalize: cache miss or wrong shape, handle=%s"
++ "AFM punch-out finalize: missing execution context, handle=%s"
++ "AFM v11 proxy is not available on this device"
++ "AFM+ (Health data) inference result: %{sensitive}s"
++ "AFM+ (Intelligent pass) inference result: %{sensitive}s"
++ "AFM+ (Nutrition) inference result: %{sensitive}s"
++ "AFM+ (STX contacts) inference result: %{sensitive}s"
++ "AFM+ (STX events) inference result: %{sensitive}s"
++ "AFM+ (STX transaction) inference result: %{sensitive}s"
++ "AFM+ (VICC) inference result: %{sensitive}s"
++ "AFMActionExecutor requires concrete InferenceResourceManager<ContinuousClock>; got "
++ "AFMInferenceProvider execute complete"
++ "AFMInferenceProvider tool-calling execute complete"
++ "AFMInferenceProvider.execute"
++ "AFMLookupState connectivity error: "
++ "AFMLookupState error: "
++ "AFMLookupState finished: "
++ "AFMLookupState guardrail out-of-date error: "
++ "AFMLookupState input safety error: "
++ "AFMLookupState output safety error: "
++ "AFMLookupState partial: "
++ "AFMLookupState restricted due to multiple errors: "
++ "AFMLookupState safety error: "
++ "AFMLookupState started"
++ "AFMv11"
++ "AFMv11Proxy"
++ "ALLOW %s: lastExec=%s frameT=%s freq=%fHz"
++ "Action not found"
++ "Action stream is not finalized"
++ "ActionPredictor.fetchPredictionResult"
++ "ActionResourceProvider"
++ "Add Pass to Wallet"
++ "Add a pass to Apple Wallet with the provided details.\n\n## What to Extract (Intelligence Passes)\n\nExtract information ONLY from these pass types:\n- **Gift Cards**\n- **Membership Cards** (includes loyalty cards, rewards cards, store cards)\n- **Event Tickets**\n\n## What NOT to Extract\n\nDo NOT call this tool for:\n- Boarding passes (airline, train, bus)\n- Government IDs (driver's license, passport, ID cards)\n\n## Important Guidelines\n- Extract only information that is explicitly visible in the image\n- Do not hallucinate or infer values that are not present\n- Omit optional fields that are not visible in the image (do not include them with null values)\n- Use empty list [] for list fields (event_performer_names, event_seats) when no values are present\n- For dates/times, always use ISO 8601 format"
++ "Add all of the events to my calendar.\n\nReturn MULTIPLE tool calls for ALL events. Each sub-event (\"doors open\", \"register by\", \"RSVP by\", \"show starts\") MUST be a separate tool call.\n\nCRITICAL: Deadlines (\"sign up by\", \"register by\", \"RSVP by\", \"early bird until\") are events — extract each with the deadline date as start_date.\nCRITICAL: Look for the year in titles, headers, footers, and surrounding text. If any of year/month/day is missing from the image, you MUST use the corresponding value from the system time below — NEVER hallucinate or default to a hardcoded year.\n\n"
++ "Add this pass to my wallet.\n"
++ "Adding dispatch request %s to the dispatch queue. Queue size: %ld"
++ "Additional notes for / about the event"
++ "Airport"
++ "Analyze the food in this image and provide comprehensive nutrition information using the generate_nutrition_card tool."
++ "Another processPixelBuffer call is in flight, waiting"
++ "App in which to create the contact"
++ "Applied dynamic accuracy reduction (accuracy: %fm → %fm)"
++ "Applied narrow-still caps (maxStill=1, maxVICCPerBatch=%{public}ld, oneShotVICC) for entryPoint=%{public}s"
++ "Arguments are not in UTF8 format"
++ "AutoSearch highlight attempt — googleSearchCount = %ld"
++ "Automotive Repair"
++ "BCSActionErrorDomain"
++ "BLOCK %s: lastExec=%s frameT=%s elapsed=%ss freq=%fHz"
++ "Bakery"
++ "Barcode type not handled by BuiltInActionExecutor, deferring to UI: %s"
++ "Batch embedding cost matrix computation failed: %@. Falling back to pairwise matching."
++ "Beginning search request %s"
++ "Beverage"
++ "Blood glucose monitor"
++ "Blood pressure monitor"
++ "Brewery"
++ "Broadcasting decoded action predictor output"
++ "Broadcasting decoded bundle manager output"
++ "Broadcasting decoded bundle selector output"
++ "Built-in action identity %s has no classification in bundle %s"
++ "CVC: executionMode=%s, isRealtime=%{bool}d"
++ "CVC: isHighResolutionStill=%{bool}d, enabled types count=%ld"
++ "CVPixelBufferCreate failed with status %d"
++ "Cache hit for pending entry %s, resuming %ld continuations"
++ "Cafe"
++ "CampoState alertableError: "
++ "CampoState cancelled"
++ "CampoState error: "
++ "CampoState finished"
++ "CampoState prepareForOverlayToSlamOnTopOfYou"
++ "CampoState started"
++ "Cannot compute date: %s"
++ "Cannot decode sanitized content"
++ "Cannot decode text item: %s"
++ "Cannot get data from string"
++ "Cannot get valid date components from %ld/%ld/%ld"
++ "Cannot load lexicon for event sanitization: "
++ "Cannot preheat generator for %s: %s"
++ "Cannot read JSON content to sanitize it"
++ "Cannot serialize to JSON for debug artifact: %@"
++ "Cannot unpreheat '"
++ "Cannot update TextDetectionResults lines"
++ "Capture timestamp mismatch: requested "
++ "Car Rental"
++ "Classification preheat failed for %s: %@"
++ "Compiling E5 model on-device (first time for %s)"
++ "Completed %s, resuming %ld waiting duplicates"
++ "Concise nutritional analysis: overall quality score, per-nutrient insights (protein, grains, fat, salt, sugar, fiber, processing, plate balance), and a summary."
++ "Concise visual analysis of the food image: food presentation type, title, and recognition level."
++ "Conditional preheat complete"
++ "Conditionally preheating generators for %s"
++ "Contact Creation"
++ "Contact information"
++ "Content safety update required. This device will be able to use Visual Intelligence event creation once the automatic update completes."
++ "Convention Center"
++ "Copied E5 model to persistent cache path"
++ "CoreRecognition completed (%ld blocks detected)"
++ "CoreRecognition running (input pixel format %u)"
++ "CoreRecognitionProvider preheat complete"
++ "CoreRecognitionReaderCache: creating and loading ImageReader"
++ "CoreRecognitionReaderCache: evicting ImageReader"
++ "Coudn't find model version for %s: either the adapter is not in catalog or it's a PCC adapter"
++ "Could not create action because a safety guardrail needs to be updated."
++ "Could not create action due to a potential "
++ "Could not create action due to a potential safety issue."
++ "Could not generate TTR draft URL: %s"
++ "Could not get resource folder URL"
++ "Could not perform BCSAction"
++ "Could not retrieve image for Event Creation"
++ "Could not retrieve image for health data lookup"
++ "Could not retrieve image for intelligent pass lookup"
++ "Could not retrieve image for nutrition lookup"
++ "Could not retrieve image for single contact lookup"
++ "Could not retrieve image for transaction lookup"
++ "Couldn't decode VICC schema data from %s: %s"
++ "Couldn't get input overrides from %s: %s"
++ "Couldn't get output overrides from %s: %s"
++ "Couldn't sanitize input (%s), returning unsanitized string"
++ "Couldn't select events from STX result (%@), trying to fallback to text detection results..."
++ "Create Bill Split"
++ "Create Calendar Event"
++ "Create one or multiple new contact entries for persons/organizations."
++ "CreateTapToRadarState finished("
++ "Created VisualEntityData"
++ "Creates a calendar event."
++ "Creating session contexts for: %s"
++ "Daily"
++ "Data type not handled yet: "
++ "Deferring dispatch request %s for rate limiting."
++ "Department name in the organization"
++ "Descriptive title of the calendar event"
++ "DestinationRectangle"
++ "Detected unsupported language for gVICC classification"
++ "DeviceOrientation"
++ "Discarding %s detection with invalid bounds %s"
++ "Display Nutrition Facts"
++ "Distillery"
++ "Downloading Support for Siri. Once downloaded, this "
++ "Duplicate key found for request %s, attaching to pending entry at position %ld"
++ "Duplicate key found for request %s, registering for in-flight result"
++ "E5 model cache directory: %s"
++ "E5GroundingProvider execute complete: %ld detections"
++ "E5GroundingProvider preheat complete"
++ "E5GroundingProvider.preheat() must be called before execute()"
++ "End date/time of this event occurrence in ISO 8601 format (YYYY-MM-DD or YYYY-MM-DDThh:mm). Only set when explicitly stated — never infer."
++ "Enhanced Siri availability became available"
++ "Enhanced Siri availability preheated: %{bool}d"
++ "Entity ID mismatch on state advance: existing "
++ "Entity failure provided but no active capture. Timestamp: "
++ "Entity failure provided with mismatched timestamp. Expected: "
++ "Entity request callback did not respond"
++ "Entity request callback failed: %s"
++ "Entity request callback returned entity %s"
++ "Entity request callback timed out"
++ "Entity request handler failed for pin %s: %@"
++ "Entity request handler failed: "
++ "Entity request handler returned but no active capture timestamp"
++ "Entity state provided but no active capture. Timestamp: "
++ "Entity state provided with mismatched timestamp. Expected: "
++ "Error creating session: %@"
++ "Error for %s, resuming %ld waiting duplicates with error"
++ "Error making rich stream: %@"
++ "Error performing QR code action: %s"
++ "Event contains neither a start date not an end date"
++ "Event information"
++ "Event schedule"
++ "Evicting idle resources for %s — no activity for %llds"
++ "Expected built in actions only"
++ "Expected the description to be a value but found an end of stream"
++ "Expected the id to be a value but found an end of stream"
++ "Expected the value to be a value but found an end of stream"
++ "Extracted state and cancelled manifest at timestamp %f"
++ "Extracted state and cleared manifest at timestamp %f"
++ "Failed actionPinFromUserSelection over XPC: %@"
++ "Failed to allocate IOSurface"
++ "Failed to allocate rotation intermediate buffer"
++ "Failed to apply dynamic accuracy reduction"
++ "Failed to convert scores from Float16 to Float32: "
++ "Failed to convert the camera frame."
++ "Failed to create CVPixelBuffer (status: "
++ "Failed to create IOSurface"
++ "Failed to create IOSurface (%ldx%ld, %ld bpe)"
++ "Failed to create IRM contexts: %@"
++ "Failed to create a Token Generator for the inference mode"
++ "Failed to decode ActionExecutionState: %@"
++ "Failed to decode ActionPredictor.Output: %@"
++ "Failed to decode BundleManager.Configuration from daemon: %@"
++ "Failed to decode BundleManager.Output: %@"
++ "Failed to decode BundleSelector.Configuration from daemon: %@"
++ "Failed to decode BundleSelector.Output: %@"
++ "Failed to decode OverlaySupportData: %@"
++ "Failed to deserialize tool call arguments into AFMResult: %@"
++ "Failed to deserialize tool call arguments: %@"
++ "Failed to encode AFM result: %@ %s"
++ "Failed to execute action over XPC: "
++ "Failed to extract system prompt from "
++ "Failed to fetch pixels: "
++ "Failed to get pixels"
++ "Failed to initialize MatchingCostMatrixComputer: %@. Batch embedding matching will be unavailable."
++ "Failed to load model bundle for %s"
++ "Failed to open VI photo library: %@"
++ "Failed to send executeAction request: %@"
++ "Failed to unarchive "
++ "Falling back to legacy VICC adapter as gVICC (v11Pico base model) is not available."
++ "Fatal error from deprecated call to makeStream(): "
++ "FigM2MController transform failed"
++ "Filtering %s: area %f < threshold %f, score %f"
++ "Filtering generic object: area %f < threshold %f, bounds=%s"
++ "Food Market"
++ "For event tickets only: List of performer names. Each performer should be a separate element in the list. Output empty list ([]) if no performers are explicitly present. For non-event passes, output empty list ([])."
++ "For event tickets only: List of seating assignments for the event ticket. Each EventSeat contains section, row, and number when available. Output empty list ([]) if no seating information is present or for non-seated events. For non-event passes, output empty list ([])."
++ "For event tickets only: Seat number on the event ticket. Can be left empty if it does not exist. If event seat number is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: Seat row on the event ticket. Can be left empty if it does not exist. If event seat row is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: Seat section on the event ticket. Can be left empty if it does not exist. If event seat section is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: Seating information for event tickets, containing section, row, and seat number details when available. Each field can be left empty if it does not exist."
++ "For event tickets only: The event end date and time in ISO 8601 format (e.g., 'yyyy-mm-dd' or 'yyyy-mm-ddThh:mm:ss'). If event end datetime is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The event start date and time in ISO 8601 format (e.g., 'yyyy-mm-dd' or 'yyyy-mm-ddThh:mm:ss'). If event start datetime is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The location of the event, which is different from the venue name. This should be an actual location or address (e.g., '123 Main St, New York, NY', 'Central Park, Manhattan', 'Downtown Convention Center'). If event location is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The name of the event. If event name is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The name of the venue where the event takes place. Extract the venue name, not the address. If event venue name is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The person name that the event ticket belongs to. If event attendee name is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For event tickets only: The tier of entry for an event, such as General, VIP. If event admission type is not explicitly present then output 'null'. For non-event passes, output 'null'."
++ "For gift cards only: The ISO 4217 currency code (e.g., 'USD', 'EUR', 'GBP', 'JPY', 'CNY'). Extract the three-letter currency code when present. Output 'null' if no currency information is available. For non-gift card passes, output 'null'."
++ "For gift cards only: The PIN (Personal Identification Number) for the gift card. If gift card pin is not explicitly present then output 'null'. For non-gift card passes, output 'null'."
++ "For gift cards only: The card number on the gift card. If gift card number is not explicitly present then output 'null'. For non-gift card passes, output 'null'."
++ "For gift cards only: The original monetary amount as a numeric value (e.g., '12.34', '100.00', '50'). Extract only the numeric value without currency symbols or formatting. This should be representable as a double/float. Output 'null' if no numeric amount is present. For non-gift card passes, output 'null'."
++ "For membership cards only: A unique identifier assigned to each member within a membership program, typically alphanumeric. If membership number is not explicitly present then output 'null'. For non-membership cards, output 'null'."
++ "For membership cards only: The current standing and/or tier level of the member (e.g., Active, Inactive, Suspended, Expired, or tier levels like Platinum, Gold, Silver, Bronze, VIP, Premium). If member status is not explicitly present then output 'null'. For non-membership cards, output 'null'."
++ "For membership cards only: The date when the membership starts, in ISO 8601 format (e.g., 'yyyy-mm-dd' or 'yyyy-mm-ddThh:mm:ss'). If member since date is not explicitly present then output 'null'. For non-membership cards, output 'null'."
++ "For membership cards only: The full name of the member associated with the membership account. If member name is not explicitly present then output 'null'. For non-membership cards, output 'null'."
++ "For membership cards only: The name of the specific membership or loyalty program (e.g., Rewards Plus, Gold Club, Priority Pass). If membership program name is not explicitly present then output 'null'. For non-membership cards, output 'null'."
++ "Free-form string of the merchant location as it appears on the pass. Extract the location information when available. If merchant location is not explicitly present then output 'null'."
++ "Free-form string of the merchant name as it appears in the image. Should be capitalized and have no space at the end. Only fill in this field if the merchant name appears in the image. If merchant name is not visible in the image then output 'null'."
++ "Friday"
++ "GMS reported that use case identifier '%s' is not available for AFM classification."
++ "GVICC batch: %ld bundles, %ld grounding results"
++ "GVICC detection id '%s' has no matching bundle in batch context"
++ "GVICC prompt: %{sensitive}s"
++ "GVICC result: bundle=%s, categories=%s"
++ "Gas Station"
++ "GeoToolbox.PlaceDescriptorEntity"
++ "GlobalLimiter[%s] acquired after wait: %ld/%ld"
++ "GlobalLimiter[%s] acquired: %ld/%ld"
++ "GlobalLimiter[%s] initialized with limit=%ld"
++ "GlobalLimiter[%s] released: %ld/%ld"
++ "GreymatterAvailability '%s' became available"
++ "GreymatterAvailability preheated '%s': %{bool}d"
++ "GreymatterAvailability.EnhancedSiriEntry.preheat"
++ "GroundedParseDetectorResult should have supporting object IDs"
++ "Grounding result contained unexpected track ID: %s"
++ "HEIC: asset not yet available (attempt %ld/%ld), retrying..."
++ "HEIC: cloud ID mapping failed after %ld attempts for '%s': %s"
++ "Handling action %s"
++ "HealthDevices"
++ "Hotel"
++ "Human weight scale"
++ "IOSurfaceAccelerator error: "
++ "ISO country code"
++ "If used, heuristic classification must be reimplemented by conforming struct"
++ "Ignoring location issue report - running in Relleno"
++ "Image search not available due to use case availability"
++ "Image search provider is unavailable"
++ "Image search rate limited"
++ "Image search rate limiter unexpectedly deallocated"
++ "Image search rate limiter was unexpectedly deallocated."
++ "Image search was rate limited."
++ "Immediate dispatch for request %s"
++ "In depth reparation failed. JSON is still malformed"
++ "InProcessSaliencySession.makeStream() is always expected to return an InProcessStream"
++ "InProcessStream deallocated without explicit cancel() - performing safety cleanup"
++ "InProcessStream prepareTapToRadarDraft: image attachment failed: %s"
++ "InProcessStream.cancel() releasing resources"
++ "InProcessStream.invalidate() releasing resources synchronously"
++ "Indicates if the event spans the entire day"
++ "Inference type '"
++ "InferenceResourceManager"
++ "InferenceResourceManager.createSessionContext.forType"
++ "InferenceResourceManager.createSessionContexts"
++ "InferenceResourceManager.prewarmAll"
++ "Ingredients list"
++ "Intelligent Pass Creation"
++ "Intelligent pass"
++ "Intelligent pass validated with barcode format: %s"
++ "IntelligentPass"
++ "Invalid action for stable identifier: "
++ "Invalid configuration: crystalEraModels cannot be combined with groundingCadenceHz or groundingOnlyMode"
++ "Invalid recurrence end date components"
++ "Invalid state: extraction required but not available"
++ "JSON is not decodable into an UTF8 string"
++ "JSONValue cannot be decoded"
++ "JSONValue cannot be encoded"
++ "Job title of the person"
++ "Language is supported, proceeding with gVICC classification"
++ "Legacy VICC Asset available"
++ "Legacy streaming failed: %@"
++ "Library"
++ "List of content classes corresponding to this object."
++ "List of labeled email addresses. Each entry has \"label\" and \"value\" (e.g. \"johndoe@icloud.com\")."
++ "List of labeled phone numbers. Each entry has \"label\" (e.g. \"telephone\", \"mobile\", \"fax\", \"whatsApp\", \"sales\", \"office\") and \"value\" containing only the phone number itself (e.g. \"+1 (800) 275-2273\", \"03-1234-5678\", \"+49 30 12345678\"). Do not include descriptive labels like \"toll free\" in the value field."
++ "List of labeled postal address objects. Each entry has \"label\" (e.g. \"work\", \"home\") and \"value\" containing address components. A valid address must include at least a street. Components:\n- street: Street name, house number, and sub-street details (apartment, floor, building). Examples: \"921 E Arques Ave, Apt 100\", \"Kurfürstendamm 26\", \"六本木1-6-1 六本木ヒルズ36F\", \"建国门外大街1号\".\n- sub_locality: Named area smaller than a city that appears as part of a postal address. Examples - Japan: ward (区) in Tokyo or designated cities (e.g. 渋谷区, 港南区); China: 街道 or 镇/乡; Taiwan: village/neighborhood 里/村 (e.g. 中山里); Ireland/UK: village or hamlet (e.g. Little Hadham, Kilmore); Germany: Ortsteil (e.g. Ortsteil Kleinau).\n- city: City, town, or lowest municipality-level division. Japan: city (市), town (町), village (村); China: district (区) or county (县) under a prefecture-level city (e.g. 朝阳区); Taiwan: district (區) or county-level city/town (e.g. 大安區, 竹北市); Ireland/UK: postal town (e.g. Ballyhaunis, Ware); Germany: municipality (e.g. Gardelegen).\n- sub_administrative_area: Division between state/province and city. Japan: county (郡, e.g. 北設楽郡); China: prefecture-level city (地级市, e.g. 成都市); Ireland: county (e.g. Co. Mayo); UK: ceremonial county (e.g. Hertfordshire); US: county (e.g. Santa Clara County).\n- state: State, province, or region (e.g. \"California\", \"OH\", \"東京都\", \"四川省\", \"台北市\", \"新竹縣\").\n- postal_code: Postal or ZIP code (e.g. \"94085\", \"100-0001\", \"100004\", \"SG11 2DX\", \"39638\").\n- country: Full country name (e.g. \"United States\", \"Japan\", \"アメリカ合衆国\", \"美国\", \"Deutschland\").\n- iso_country_code: ISO country code (e.g. \"US\", \"JP\", \"CN\", \"DE\").\nOmit any component that is missing. Do not infer missing components."
++ "List of labeled relations"
++ "List of labeled social profile objects. Each entry has \"label\" (e.g. \"school\", \"work\") and \"value\" containing: \"service\" (platform name, e.g. \"Facebook\", \"Instagram\", \"X\", \"LinkedIn\"), \"username\" (handle), \"user_identifier\", and optionally \"url_string\"."
++ "List of labeled website URLs. Each entry has \"label\" and \"value\" (e.g. \"www.mysite.com\")."
++ "Loading E5 model from compiler cache (instant)"
++ "Localizable-STXExternalIntelligence"
++ "Location accuracy insufficient (%fm), need <%fm"
++ "Location issue reported but no delegate registered"
++ "Location lookup failed: no location in frame metadata"
++ "Location of the event"
++ "LocationAccessProvider delegate received authorization change: status=%d, accuracy=%s"
++ "LocationAccessProvider initialized"
++ "LocationAccessProvider received authorization update: status=%d, accuracy=%s"
++ "LocationAccessProvider seeded with initial status: %d, accuracy: %s"
++ "LocationAccessProvider: Relleno mode, no CLLocationManager access"
++ "LocationAccessProvider: delegate registered, will receive authorization updates from delegate"
++ "Log data into Health: Blood Pressure, Blood Glucose, Body Mass\n\nUse this to log any of the measurements/readings available in the functions parameter set into the Health app.\n\nWhen logging a measurement information about the measurements unit, or the date of the measurement may be available, which can also be logged.\n\nNote, you can only pass one measurement type in the parameters per function call. e.g it is not valid to pass values for blood pressure and blood glucose in a single call\n\nExamples:\n- Log my blood glucose level today as 100 mg/dL\n- Log my blood pressure as 120/80"
++ "Look Up Nutrition"
++ "M2M destination dimensions must be even for planar formats"
++ "Malformed JSON %s"
++ "Malformed JSON: "
++ "Malformed JSON: %s"
++ "MapsDynamicAccuracy"
++ "Merchant or event contact email, not the customer'. If contact email is not explicitly present then output 'null'."
++ "Merchant or event contact phone number, not the customer's. If contact phone number is not explicitly present then output 'null'."
++ "Merchant or event contact website. If contact website is not explicitly present then output 'null'."
++ "Mismatch: expected %ld, got %ld"
++ "Missing resource provider or timestamp"
++ "Mock execute failed (configured to fail)"
++ "Mock preheat failed (configured to fail)"
++ "MockInferenceProvider configure called"
++ "MockInferenceProvider execute complete (call #%ld)"
++ "MockInferenceProvider preheat complete (call #%ld)"
++ "Monday"
++ "Monthly"
++ "Movie Theater"
++ "Multi event information"
++ "MultiEventView"
++ "Museum"
++ "Music Venue"
++ "Night Life"
++ "No AFMAnnotation for detection type %s, skipping preheat"
++ "No AFMToolAnnotation for detection type %s, skipping preheat"
++ "No action pin found containing pill with ID "
++ "No active capture available"
++ "No bundle available for Event Creation."
++ "No bundle available for contact generation."
++ "No bundle available for health data lookup."
++ "No bundle available for intelligent pass lookup."
++ "No bundle available for nutrition lookup"
++ "No bundle available for transaction extraction."
++ "No cached tool TokenGenerator for %s, creating on-demand"
++ "No capture is currently active."
++ "No eligible barcode for classification"
++ "No grounding context provided for grounded VLU operation"
++ "No input bound. Call configure() with a pixel buffer before execute()"
++ "No narrow-still caps applied for entryPoint=%{public}s"
++ "No pending labels to report"
++ "No pixel buffer bound. Call bindPixelBuffer() before execute()"
++ "No pixel buffer bound. Call configure(with:) before execute()"
++ "No result from AFM"
++ "No supported category among "
++ "No track identifiers in combined originator: %s"
++ "No valid barcode detection found on bundle"
++ "Non packaged food"
++ "None"
++ "Nutrition"
++ "Nutrition Lookup"
++ "Nutrition Visual Intelligence"
++ "Nutrition inference metadata: model=%{public}s v.%{public}s, systemVersion=%{public}s, systemPromptID=%{public}s, resourceID=%{public}s, promptTemplateID=%{public}s, promptBundleID=%{public}s"
++ "Nutrition rejected: beverage override is enabled and VICC detected a beverage"
++ "Nutritional Value"
++ "On-device compilation failed: "
++ "Onboarding auto-search criteria met"
++ "Opening URL in Safari %s"
++ "Operation was cancelled"
++ "Organization name (required for organization contacts)"
++ "Other"
++ "Other list"
++ "Other transaction"
++ "Packaged food"
++ "Parking"
++ "Parking location"
++ "Parks and Recreation"
++ "PartnerImageSearch initialized, isChinaRegion=%{bool,public}d, onBehalfOfPID=%{public}d"
++ "Pending entry %s registered as waiter for in-flight request"
++ "Performing action using performDefaultActionWithCompletionHandler:"
++ "Performing action via \"perform\" (%ld actionPickerItems available)"
++ "Performing partner image search from %s : %s"
++ "Permanent action execution should not reach this point"
++ "Person name object containing given_name, middle_name, family_name, name_prefix, name_suffix, nickname, and phonetic variants (phonetic_given_name, phonetic_family_name, phonetic_middle_name). At least one of given_name or family_name is required."
++ "Personal Services"
++ "Pharmacy"
++ "Phonetic representation of the organization name"
++ "Pixel buffer is not IOSurface-backed"
++ "PlaceDescriptor: mapsIdentifierString is nil for %s, skipping descriptor"
++ "Preflight: Enhanced Siri unavailable — %s"
++ "Preflight: VICC asset not available for '%s' — %s"
++ "Preflight: use case '%s' unavailable — %s"
++ "Preheat complete for %s"
++ "Preheated legacy TGProcessor and TokenGenerator for %s"
++ "Preheated tool TokenGenerator for %s"
++ "Preheating %s"
++ "Preheating CoreRecognitionProvider"
++ "Preheating E5GroundingProvider"
++ "Preheating VLUArgosProvider<%s>"
++ "Preheating VLUGroundedParseProvider"
++ "Preheating VLUParseProvider"
++ "Preheating VisionFrameworkProvider for %s"
++ "Preheating for classifications: %s"
++ "Prewarming legacy "
++ "Processing timed out, returning %ld partial results"
++ "Public Transport"
++ "QuickLook summarization behavior has not been fully considered; defaulting to camera"
++ "REGISTER %s exec @ t=%s"
++ "Rate limiting wrapper deallocated"
++ "Rate limiting wrapper deallocated: bundle (%s)."
++ "Receipt"
++ "Received action execution state %s"
++ "Recurrence rule for repeating events"
++ "Registering %s"
++ "Rejecting searchable VLU domain with missing UI metadata: %s glyphName=%s displayLabel=%s"
++ "Request was not handled"
++ "Restaurant"
++ "Result count mismatch: expected "
++ "Results array is empty"
++ "Retrieved partner image search results in %f seconds, count=%ld"
++ "Return a split_bill tool call for the transaction in the image\nIf you cannot find any valid tool information, do NOT call any tools."
++ "Return create_contact tool call(s) for the contact information in the image.\nIf you cannot find any valid tool call information, do NOT call any tools."
++ "Returning preheated cached generator and processor for %s"
++ "Returning preheated cached generator for %s"
++ "Running AFM (%s) inference with prompt \"%{sensitive}s\""
++ "Running AFM tool-calling (%s) inference with prompt \"%{sensitive}s\""
++ "SSPreferencesVisualLookUpInSSSEnabled"
++ "Saturday"
++ "Scheduling scene label reporting for %ld labels"
++ "Schema folder doesn't exist"
++ "Session contexts created successfully"
++ "Shopping list"
++ "Single event information"
++ "Siri Unavailable"
++ "Skipping duplicate scene label report"
++ "Skipping scene label handling for entry point: %s"
++ "SourceCropRectangle"
++ "Split a bill or transaction among multiple parties."
++ "Stadium"
++ "Start date/time of the event in ISO 8601 format (YYYY-MM-DD or YYYY-MM-DDThh:mm)"
++ "Started manifest at timestamp %f"
++ "StillImageMediaManifest[%s] cancelled"
++ "StillImageMediaManifest[%s] generated %ld initial requests: %s"
++ "StillImageMediaManifest[%s] ingest() skipped - cancelled"
++ "StillImageMediaManifest[%s] service(requests:) skipped - cancelled"
++ "StillImageMediaManifest[%s] subscription error: %s"
++ "Stopgap push for %s with %ld tracks @ t=%s"
++ "Streaming provider Element type mismatch for '"
++ "Structured JSON schema for nutrition analysis of a food image. Captures visual observations and nutritional insights."
++ "Sub-administrative area"
++ "Sunday"
++ "Suppressing detection: all taxonomy labels pruned by size/score filtering, area %s"
++ "TGCache.clearedTGCache"
++ "TGCache.triggeredAFMMultimodalPrewarming"
++ "TGCache.triggeredVICCPrewarming"
++ "TTROverlayRenderer renderOverlay failed to create CGContext, no-op'ing."
++ "TTROverlayRenderer renderOverlay invalid dimensions w: %f h: %f, no-op'ing."
++ "Taxonomy index does not match descriptor"
++ "The app in which to create the event OR the id of an ApplicationEntity if you have it."
++ "The capture was cancelled."
++ "The capture was invalidated by a new capture."
++ "The current system time is "
++ "The date when the card expires, in ISO 8601 format (e.g., 'yyyy-mm-dd' or 'yyyy-mm-ddThh:mm:ss'). If expiration date is not explicitly present then output 'null'."
++ "The specified inference type is not supported"
++ "The unique identifier from the corresponding input object."
++ "Theater"
++ "This contact could not be added to Contacts"
++ "This health data could not be added to Health."
++ "This image cannot be used."
++ "This pass could not be added to Wallet."
++ "This transaction could not be extracted"
++ "Thursday"
++ "Timed out waiting for entity"
++ "Todo list"
++ "TokenGenerator.prewarm() completed for %s"
++ "TokenGenerator.prewarm() completed for %s (tool-calling)"
++ "TokenGenerator.prewarm() starting for %s (tool-calling)"
++ "TokenGenerator.prewarm() starting for %s, usesGuidedGeneration=%{bool}d"
++ "Too many requests. Please wait a moment and try again."
++ "Tool calling requests are not available with models prior to AFM v11"
++ "Tool calling streaming failed: %@"
++ "Transaction Extraction"
++ "Transaction object containing merchant, items, totals, taxes, tips, and other charges to split"
++ "Tried to preheat an already preheated EnhancedSiriEntry"
++ "Trying in-depth reparation..."
++ "Tuesday"
++ "Type of JSON value "
++ "Type of contact: \"person\" or \"organization\"."
++ "Type of the pass. Must be one of: membershipCard, giftCard, coupon, eventTicket, or other"
++ "URL associated with the event"
++ "Unable to connect to Siri. Try again later."
++ "Unable to create an event from this image."
++ "Unable to provide nutrition information for this image."
++ "Unable to resolve user caches directory"
++ "Unconditional preheat complete"
++ "Unconditional preheating is not supported for %s"
++ "Unconditionally preheating generators for %s"
++ "Unexpected ResultLookupState produced in the SimpleAPI. If we have a corresponding VisualActionVariantType, we should have a peer ExecutionProgressData"
++ "Unexpected error from image search provider: %@ (type: %s)"
++ "Unit of body mass measurement"
++ "Unit of diastolic measurement of blood pressure"
++ "Unit of glucose measurement"
++ "Unit of systolic measurement of blood pressure"
++ "Unknown permanent action identity %s"
++ "Unpreheating %s"
++ "Unsupported action type"
++ "Unsupported originator for AFM result: %s"
++ "User onboard auto-search -- onboarding response: %s"
++ "User opted in to auto-search"
++ "User opted in to image search"
++ "User opted out of auto-search"
++ "User opted out of image search"
++ "Using gVICC adapter"
++ "Using partner image search provider"
++ "VAPE action (%s) executed successfully"
++ "VAPE action (%s) executed successfully with followup"
++ "VAPE action (%s) failed: %s"
++ "VAPE action (%s) returned visual search query result"
++ "VAPE action returned unknown result type for %s"
++ "VAPE punch-out failed: %{private}s"
++ "VAPE punch-out threw: %{private}s"
++ "VI Tools cannot be invoked"
++ "VICC END: originator=%s, %s, error=%{public}s"
++ "VICC START: originator=%s, %s"
++ "VICC asset is not available"
++ "VICC categories: "
++ "VICC decoded result: %{sensitive}s"
++ "VICC didn't find any valid category for "
++ "VICC on-device version: %s"
++ "VICC returned .intelligentPass but no valid barcode found in bundle"
++ "VICC/RaveSTX classifiers: %s"
++ "VLU inference is not supported on this platform"
++ "VLU provider must be preheated before execute()"
++ "VLU service error: "
++ "VLU: %s failed with error: %@"
++ "VLUArgosProvider<%s> preheat complete"
++ "VLUArgosProvider<%s>: no eligible grounding boxes"
++ "VLUGroundedParseProvider execute complete: %ld detections"
++ "VLUGroundedParseProvider preheat complete"
++ "VLUGroundedParseProvider: no grounding boxes, returning empty"
++ "VLUParseProvider execute complete: %ld detections"
++ "VLUParseProvider preheat complete"
++ "VT pixel transfer failed with status "
++ "VTPixelRotationSession creation failed"
++ "VTPixelRotationSession does not support non-CW rotation nor ones in non-90 degree increments."
++ "VTPixelTransferSession creation failed"
++ "Value of body mass measurement"
++ "Value of diastolic measurement of blood pressure"
++ "Value of glucose measurement"
++ "Value of systolic measurement of blood pressure"
++ "Vertical Integration Content Classifier (VICC)"
++ "VisionFrameworkProvider found %ld observations"
++ "VisionFrameworkProvider preheat complete"
++ "VisionSequenceHandlerCache(%s): created handler"
++ "VisionSequenceHandlerCache(%s): evicted handler"
++ "VisualIntelligence.IntelligentPassCreation"
++ "VisualIntelligence.Nutrition"
++ "VisualIntelligence.gvicc"
++ "VisualIntelligence.structuredExtraction.addToCalendar"
++ "VisualIntelligence.structuredExtraction.addToContacts"
++ "VisualIntelligence.structuredExtraction.healthData"
++ "VisualIntelligence.structuredExtraction.receipt"
++ "VisualIntelligence.vi_content_classifier"
++ "VisualIntelligenceAnalyzer acting on a request config with request type .unknown, this may result in ambiguous behaviour. Attempting to default to Screenshots behaviour."
++ "VisualIntelligenceCore/AFMClassifier.swift"
++ "VisualIntelligenceCore/AFMTypes.swift"
++ "VisualIntelligenceCore/E5InferenceProvider.swift"
++ "VisualIntelligenceCore/GMSVITool.swift"
++ "VisualIntelligenceCore/GeoLookup.swift"
++ "VisualIntelligenceCore/InProcessSaliencySession.swift"
++ "VisualIntelligenceCore/JSONValue.swift"
++ "VisualIntelligenceCore/LocationAccessProvider.swift"
++ "VisualIntelligenceCore/PixelBufferScaler.swift"
++ "VisualIntelligenceCore/SimpleInProcessSaliencyStream.swift"
++ "VisualIntelligenceCore/SiriDirectActionManager.swift"
++ "VisualIntelligenceCore/SiriStreamingVoicePlayer.swift"
++ "Waiting for inflight types to drain: %s"
++ "Wednesday"
++ "Weekly"
++ "Which measurement type will be logged (Blood pressure monitor, Blood glucose monitor, or Human weight scale)"
++ "WiFi"
++ "Winery"
++ "WriteBlackPixelsOutsideDestRect"
++ "You are an expert food analysis AI specialized in analyzing food images to provide comprehensive nutritional insights. Your analysis must be purely observational and evidence-based, following established dietary standards.\n\nOUTPUT STRUCTURE:\nYour output has two sections:\n1. Observational fields: purely descriptive, based on what is visible in the image\n2. Nutrition analysis: assessment and insights based on observed ingredients and preparation\n\nKEY PRINCIPLES:\n- Prioritize accuracy over specificity — use generic terms when uncertain\n- Describe what food contains — do not describe health effects or body outcomes\n- Use objective, educational tone\n- Base portion estimates on FDA RACC standards\n\nCRITICAL ANTI-HALLUCINATION RULES:\n\n**Principle: ACCURACY > SPECIFICITY. Default to broader categories when evidence is weak.**\n\n1. **DO NOT default to common/familiar items** when specific type is uncertain:\n   - Common patterns in training data create bias toward frequent items\n   - Weak visual evidence → use generic/category terms\n   - Strong visual evidence → specific identification permitted\n\n2. **USE HIERARCHICAL SPECIFICITY** based on visual certainty:\n   - Clearly identifiable: Specific terms (\"brown rice\", \"kale\", identifiable protein source)\n   - Partially visible: Category terms (\"white meat\", \"grain\", \"dark leafy greens\")\n   - Unclear: Broad categories (\"protein\", \"grain\", \"vegetable\")\n\n3. **AMBIGUOUS CONTEXT PROTOCOL**:\n   When ingredients are NOT clearly visible (wraps, pastries, filled items, soups, sauces):\n   - Use functional descriptors: \"protein filling\", \"meat filling\", \"grain filling\", \"vegetable filling\"\n   - Use preparation-based terms: \"legume-based\", \"grain-based\", \"vegetable-based\"\n   - Never assume a specific protein type from the dish name or context alone — use\n     \"protein filling\" or \"meat filling\" even when the dish is commonly associated with\n     a particular protein.\n\n4. **PACKAGED FOOD — DO NOT STATE UNVERIFIABLE NUTRIENT CLAIMS AS FACT**:\n   Cite specific nutritional values only when the nutrition facts panel is visible (Tier 1).\n   For Tier 2/3 (Front-of-Package (FOP)-only or unknown product), specific per-nutrient level conclusions\n   (\"low saturated fat\", \"no added sugar\", \"high fiber\") may only be stated when directly\n   grounded in a visible FOP label claim for that nutrient or clearly observable ingredient\n   evidence. General category-level observations are permitted with hedging (e.g., \"typically contains\", \"likely includes\", \"may contain\"). Omit any\n   specific per-nutrient claim that is not directly supported by visible evidence.\n\n5. **DEFAULT TO PLANT-BASED** when protein type is ambiguous:\n   - Require clear meat evidence: muscle fiber texture, distinctive meat color/structure\n   - If uncertain: \"plant-based protein\", \"protein (type unclear)\", or category term\n   - Do NOT assume animal products in: wraps, pastries, sauces, broths without clear evidence\n\n6. **PROTEIN TYPE REQUIRES DISTINGUISHING VISUAL EVIDENCE**:\n   Training data contains disproportionately more images of certain protein types, creating\n   systematic bias toward predicting them from generic visual cues. Identifying a specific\n   protein type requires visual features that distinguish it from other proteins with similar\n   appearance — color, texture, cut, surface structure, and form must specifically support\n   the identification.\n   - Generic pale/white meat → \"white meat\" or \"lean meat\", not a specific species\n   - Generic dark/red meat → \"dark meat\" or \"red meat\", not a specific species\n   - Smooth, uniform cubes or slabs without visible muscle fiber → may be plant-based protein;\n     apply rule 5 before defaulting to any meat identification\n   The most visually common protein type must not be assumed when evidence is ambiguous.\n   Apply the same specificity threshold as for dish names: if the visual evidence does not\n   rule out other protein types, use the broader category term.\n\nANALYSIS SCOPE:\nFocus EXCLUSIVELY on the food and its nutritional properties. Do NOT include information about:\n- Environment (tables, countertops, backgrounds, settings)\n- Presentation context (plates, bowls, serving vessels - except for classification)\n- Photography (camera angles, lighting, composition)\n- Utensils and tools (forks, knives, spoons, chopsticks)\n- Human elements (hands, people, actions)\n- Non-food objects (napkins, placemats, decorations)\n\nException: Container dimensions may inform portion estimation but should not appear in output fields.\n\nIMAGE TYPE DETECTION\n\nDetect image type before proceeding. The image may be either:\n\nREGULAR PHOTO: Camera photo of food on a plate, table, or in packaging. No UI elements.\n→ Analysis is primarily visual. Proceed directly to FOOD PRESENTATION TYPE.\n\nSCREENSHOT: Screen capture from a phone, tablet, or computer — food ordering apps\n(UberEats, DoorDash, etc.), delivery platforms, recipe websites, grocery apps, etc.\nScreenshot indicators: UI elements (navigation bars, buttons, price tags, star ratings),\ntext overlays with dish names/descriptions, app branding, multiple listed food items.\n→ Extract ALL readable text before any visual analysis (see TEXT EXTRACTION below).\n\nSCREENSHOT TEXT EXTRACTION (skip for regular photos)\n\nINFORMATION PRIORITY HIERARCHY (highest to lowest):\n1. Nutrition facts panel (if visible) — regulatory data, highest authority\n2. Ingredient list — factual enumeration of components\n3. Portion size statements — explicit weight/volume (\"12 oz\", \"200g\", \"6-inch\")\n4. Dish descriptions — factual preparation and component details\n5. Dish names — may be marketing-focused; verify against visual\n6. Visual analysis — direct food observation\n7. Marketing language — ignore for nutrition analysis\n\nTEXT EXTRACTION STEPS:\n1. Scan and extract: dish name, description, ingredient list, portion size, nutrition facts, brand/restaurant name, dietary tags (vegan, gluten-free, etc.)\n2. Assess reliability: factual statements (ingredients, weights) → high; preparation descriptions → medium; marketing adjectives (\"delicious\", \"authentic\", \"amazing\") → ignore\n3. Cross-validate with visual: text + visual agree → use specific identification; text adds info not visually confirmable → use hedged language; text contradicts clear visual evidence → prioritize visual\n\nUI ELEMENTS TO IGNORE: Navigation bars, buttons, shopping cart icons, checkout UI,\nprices (unless they indicate standard sizing, e.g., \"20oz\"), ratings/reviews,\napp branding and logos, page layout and background elements.\n\nMULTIPLE ITEMS IN SCREENSHOT (skip for regular photos)\n\nScreenshots may show multiple distinct food items (menu pages, category listings,\nsearch results). Analyze exactly ONE item per analysis.\n\nSTEP 1 — Classify what is shown:\n- SINGLE MEAL (burger + fries + drink ordered together, combo meal, entrée + sides) → Analyze ALL as one meal\n- VARIETY PACK (one product, multiple flavors: granola bar assortment, yogurt multi-pack) → Analyze as ONE product, note variety in title\n- MULTIPLE DISHES (menu grid, category page, search results, \"You might also like\") → Select ONE item below\n\nSTEP 2 — Item selection priority (stop at first match):\n1. Visual prominence: item occupies >50% of food area, or is centered with others peripheral\n2. Text context: page title/header matches one item; item is UI-selected (highlighted, expanded, checked)\n3. UI/UX signals: hero position (top/prominent), \"View Details\" / \"See Nutrition\" button visible\n4. Visual completeness: one item fully shown while others are partial or thumbnails\n5. Fallback: top-left item in grid; first item in vertical list\n\nKey scenarios:\n- Item detail page with \"You might also like\" → Select main item, ignore suggestions\n- Recipe website with step-by-step photos → Select the final plated dish\n- Shopping cart with multiple items → Select largest/most prominent item\n- Do NOT aggregate nutrition across multiple items; do NOT analyze suggestions/ads\n\nCRITICAL: FOOD PRESENTATION TYPE (Foundational Classification)\n\nThis classification controls ALL downstream nutrition calculation scope. Incorrect classification leads to massive errors (10x over/under-estimation).\n\nPACKAGED (analyze 1 standard serving):\n- Branded package with nutrition label visible (chips, cereal, candy bars)\n- Bottled/canned beverages with commercial labeling\n- If it has a nutrition label — treat as packaged food\n\nNON-PACKAGED (analyze entire visible contents):\n- Food on plate, bowl, or serving dish\n- Home-cooked or restaurant-served food\n- Package opened and food transferred to plate/container\n- Loose produce items (single tomato from market, apple from bag, banana, whole vegetables)\n- Food in non-commercial containers (home tupperware, personal bowl)\n- Produce in commercial packaging (clamshell containers, branded bags)\n- Prepared food in clamshell containers, takeout boxes, etc.\n\nKEY PRINCIPLE: If there's no nutrition label visible, it's NON-PACKAGED.\n\nFOR SCREENSHOTS — additional decision points:\n- Restaurant menu item or made-to-order food → NON-PACKAGED\n- Retail/grocery product listing (in original packaging) → PACKAGED\n- Meal delivery photo (food transferred to plate) → NON-PACKAGED\n- Recipe website finished dish → NON-PACKAGED\n- Food on a ceramic/porcelain plate or bowl → NON-PACKAGED\n\nSECTION 1: VISION MODEL FIELDS (Purely Observational)\n\n1.1 FOOD_PRESENTATION\nDetermine whether the food is packaged or non_packaged/plated.\nThis classification affects how nutrition analysis is calculated.\n\n→ Output: type (packaged | non_packaged)\n\n1.2 TITLE\nShort, universally recognizable name for the dish.\n\nREQUIREMENTS:\n- Maximum 50 characters (critical failure if exceeded)\n- Dish name only, primary components\n- Concise, recognizable, neutral\n- NO descriptive adjectives, NO nutritional info, NO opinions\n- Include key modifiers only when essential to distinguish dish variants\n  (e.g., \"Chicken Pho\" vs \"Beef Pho\", \"Iced Latte\" vs \"Latte\"). Cooking\n  method adjectives and quality descriptors are not key modifiers.\n\nFOR SCREENSHOTS: Use app-provided dish name if clear and accurate. Simplify marketing\nnames (\"The Amazing Ultimate Burger\" → \"Burger\"). For packaged foods, start with brand\nname if visible (\"Starbucks Frappuccino\", \"Ben & Jerry's Ice Cream\").\n[Brand name rule under review — see open items in V11_PROMPT_DESIGN.md]\n\nFOR PACKAGED FOOD — two independent rules:\n\nBrand and flavor/variant — clearly readable text required (strict):\n- Include brand name only when it is clearly readable as text on the package.\n  Do not infer brand from logo shape, color scheme, packaging design, or any\n  non-text signal — even when the packaging style is strongly associated with\n  a known brand.\n- Include flavor or product variant only when clearly readable as text.\n  If brand is readable but flavor/variant is not, use \"Brand [Category]\"\n  (e.g., \"Lay's Chips\", not \"Lay's BBQ Chips\" if the flavor is not legible).\n- Include a product variant or characteristic when ALL of the following hold:\n    1. Clearly readable as text on the package (not inferred from color, logo, or design)\n    2. Visually prominent — significant text size on the main package face, NOT small\n       print, edge text, or fine-print disclaimers\n    3. AND at least one of:\n       a. Essential to product identification — strongly distinguishes from the base\n          product (e.g., \"Diet Coke\" vs \"Coke\", \"Zero Sugar\" vs regular, \"Decaf\" vs regular)\n       b. Nutritionally impacting — signals a meaningful nutritional difference:\n          \"Gluten Free\", \"Zero Sugar\", \"Sugar Free\", \"Reduced Fat\", \"No Salt Added\",\n          \"High Protein\", \"Keto\"\n  Do NOT include variants that are decorative, subjective, or minor:\n    ✗ \"Original\", \"Classic\", \"New & Improved\", \"Limited Edition\" (not identity-critical)\n    ✗ Pack size descriptors: \"Family Size\", \"Value Pack\", \"Mini\" (unless pack size is\n      the only distinguishing feature of the product variant)\n    ✗ Any text not meeting criteria 1 and 2 above\n\nFood name — visual evidence allowed:\n- Derive the food name from any available visual signal: readable text on the\n  package, product imagery printed on the packaging, or a see-through container\n  showing actual contents.\n- If no specific food name is determinable, use the broadest visually\n  supportable category (e.g., \"granola bar\", \"potato chips\", \"yogurt\").\n- BACK-OF-PACKAGE: Do not derive the product name from the ingredient list,\n  nutrition facts header, allergen block, preparation instructions, or any\n  other incidental text on the back. If the product title is not printed on\n  the visible face, fall back to the broadest visually supportable category.\n  Do not add flavor, texture, preparation, or presentation descriptors\n  (e.g., \"blueberry\", \"crispy\", \"baked\", \"original\") unless they are\n  explicitly printed as part of the product title on the visible face.\n\n**SPECIFICITY THRESHOLD — earn the dish name through unique visual evidence:**\n\nA specific dish name is only warranted when the visual evidence identifies features\nthat distinguish this dish from other dishes in the same category. Partial visual\nmatches — right ingredients, approximate appearance, or plausible interpretation —\ndo NOT warrant a specific name.\n\nDecision test: \"Does the visible evidence rule out similar dishes in the same\ncategory?\" If no, use a broader category or component-based description.\n\nWhen uncertain, always prefer the broader description over the specific name.\nThe cost of a wrong specific name (false confidence) exceeds the cost of a\ncorrect generic description (admitted uncertainty).\n\nUse the most specific title the evidence supports:\n- Distinguishable from similar dishes: use specific dish name\n- Category clear, specific variant uncertain: use preparation or category name\n- Components recognizable, dish type ambiguous: describe components directly\n  Pattern: \"[Protein] with [Grain/Starch] and [Vegetables]\"\n\nRegional and cultural variants must not default to their globally most-recognized\narchetype. If the specific variant is unclear, use the broader category.\n\n→ Output: title (string, max 50 chars)\n\n1.3 RECOGNITION\nClassify how reliably the dish and its key ingredients can be identified from\nvisual evidence in the image.\n\nCORE PRINCIPLE: Recognition reflects what is VISUALLY ACCESSIBLE — not what is\nknowable from the dish name, culinary knowledge, or common sense. If key ingredients\nare physically hidden (covered, wrapped, enclosed, or smothered), the dish cannot\nbe reliably identified from the image regardless of how well-known the dish is.\nAsk: \"Could someone identify the key ingredients by looking at this image alone?\"\n\nValue: \"high\" | \"low\" | \"no_food\"\n\nKEY INGREDIENTS: The 2–4 most significant ingredients that define and distinguish\nthe dish. Condiments, sauces, garnishes, and minor toppings are NOT key ingredients.\n\nhigh — Dish and key ingredients are reliably identifiable:\n- All key ingredients clearly visible\n- Packaged food with a visible nutrition label (always high; beverages excepted — see low)\n- App screenshot with visible food name, description, ingredients list, or nutrition\n  facts text (always high — on-screen text establishes food identity)\n- Form-identified foods where the outer form IS the nutritional content — shape\n  alone establishes what you are eating (e.g., cannoli, croissant, donut, éclair,\n  macaron, sushi roll). Contrast: foods where the form is a container with variable\n  filling are NOT form-identified — recognizing the container does not establish\n  what is inside.\n- Foods with a single unambiguous filling that the exterior form visually confirms\n  (e.g., har gow: translucent skin + shape → shrimp;\n   tikka masala: protein pieces visibly suspended in sauce)\n  The filling must be visually determinable from the exterior, not merely common\n  or expected. If multiple filling types are plausible from the exterior alone,\n  use low.\n- Fried foods accompanied by significant visible sides (at least ~half the plate\n  is clearly identifiable)\n- Soups/stews/curries where key ingredients are visible or discernible through broth\n- Sliced, bitten, or opened items exposing interior key ingredients\n- Dips/salsas pictured with clearly identifiable accompaniments (chips, vegetables)\n\nlow — Dish or key ingredients cannot be reliably identified:\n- Standalone fried foods where the core ingredient is fully occluded\n  (e.g., plain fried patty, fried ball of unknown filling, fried cutlet alone)\n- Any filled container food where the filling is not exposed — exterior toppings,\n  sauce, or garnish do not substitute for visible filling\n- Leaf-wrapped or husk-wrapped foods where all contents are enclosed and not visible\n  (e.g., lotus leaf wrap, banana leaf parcel, corn husk tamale)\n- Dishes where key ingredients are completely smothered under cheese, sauce, or\n  toppings (e.g., fully cheese-covered skillet, baked dish with no visible protein beneath)\n- Soups/stews/curries with opaque broth where key ingredients are not visible\n- Standalone dips or blended items with unclear ingredients (no context)\n- Heavily covered or layered dishes where interior key ingredients are not visible\n  (e.g., casserole; sliced open → not low)\n- Plain baked goods without distinctive shape or visible ingredients\n  (e.g., unmarked brown baked bar; a blueberry muffin or sugar cookie → not low)\n- All beverages: any drink in a glass, cup, can, or commercial bottle — labeled or\n  unlabeled (e.g., coffee, juice, cocktail, labeled soda can, sports drink, bottled water)\n\nno_food — No food that can be eaten is present in the image:\n- Empty plate or table setting with no food\n- Non-food objects only\n- Note: Food packaging where contents are not visible is treated as food (high),\n  not no_food\n\n→ Output: recognition (\"high\" | \"low\" | \"no_food\")\n\nWHEN RECOGNITION = no_food:\nOutput a minimal valid response. Set title to \"No food detected\". Set all insight\nvalues to \"none\" (protein, grains, fat, fiber) or their lowest value (added_salt,\nadded_sugar → \"none\"; processing → \"whole\"; plate → \"non_balanced\"). Set\nnutrition_quality rating to \"very_low\". Set summary to \"No food was identified in this image.\"\nDo not attempt nutritional analysis.\n\nINTERNAL ANALYSIS (Do NOT include in JSON output)\n\nPerform the following analysis mentally to support Section 2.\nDO NOT include any of this in the JSON output.\n\nINGREDIENT & COOKING ANALYSIS\n\nSTEP 1 — IDENTIFY INGREDIENTS (visible + likely hidden):\n- Estimate edible weight only; exclude bones, shells, pits, rinds, cobs\n  Edible %: chicken wings ~60%, drumsticks ~65%, ribs ~50%, shrimp ~55%, whole fish ~55%\n- For packaged food: use label serving size\n- Do NOT double-count; sum of ingredients ≈ total food volume\n- Default to plant-based / generic when animal product evidence is unclear\n  (\"cooking oil\" not \"butter\", \"dark sauce\" not \"soy sauce\", unless visually confirmed)\n- When protein is occluded, hidden, or only partially visible, use generic category\n  terms (\"white meat\", \"dark meat\", \"protein\") — do not commit to a specific protein\n  type based on the portion visible. Partial visibility is not sufficient evidence to\n  identify protein type; apply the same standard as for fully hidden protein.\n- FOR SCREENSHOTS: App ingredient list is a high-reliability source — use it to identify\n  components not fully visible. Use stated portion sizes (\"12 oz\", \"200g\") as primary\n  weight reference; visual estimation is secondary.\n\nSTEP 2 — IDENTIFY COOKING METHOD:\n- Deep-frying: uniformly golden-brown, crispy all around → counts as fried\n- Stir-frying: slight char, glossy oil coating → does NOT count as fried\n- Grilling: crosshatch marks; Steaming: soft/moist/no browning; Baking: evenly browned\n\nSTEP 3 — IDENTIFY HIDDEN CONTRIBUTORS (for semantic insight assessment):\nCooking fat type by method (informs fat insight):\n- Deep-frying → saturated/unhealthy fat absorbed into food\n- Stir-frying, sautéing, pan-frying → fat type depends on oil used (often neutral/healthy);\n  does NOT count as deep-fried\n- Roasting/baking → typically small amount of oil; fat type from oil or butter used\n\nSodium sources — ALL sources count (informs added_salt insight):\nAdded seasonings: table salt, soy sauce, fish sauce, oyster sauce, miso, XO sauce,\n  bouillon/broth, MSG, teriyaki sauce, hoisin sauce\nInherent sodium in ingredients: cured/processed meats (bacon, deli meat, sausage,\n  salami), aged cheeses (parmesan, feta, cheddar, blue cheese), commercial bread\n  and dough, canned/jarred vegetables and legumes, store-bought stocks and broths,\n  marinated proteins, pickled or fermented ingredients\nCuisine patterns that typically carry high sodium even when seasonings are not\n  directly visible: soy-glazed dishes, ramen/pho, Korean BBQ, Thai stir-fry,\n  Italian tomato-based pasta with cured meat or cheese\n\nAdded sugar sources (informs added_sugar insight):\n- Visible: glazes, sauces (teriyaki, sweet-and-sour, hoisin), dessert toppings\n- Hidden: standard in baked goods, sweetened beverages, processed condiments\n\nHidden protein — when protein is enclosed, covered, or submerged:\n- Classify type as generic (\"protein filling\", \"meat filling\", or \"protein\")\n- Do not infer a specific protein type from dish name or context alone\n\nCATEGORY RULES (for classifying ingredients):\n- Lean protein: seafood (all), skinless poultry/lean meat (≤10g fat/100g), eggs, legumes,\n  tofu/tempeh, nuts/seeds, derived proteins (whey, pea protein, TVP)\n- Non-lean protein: red meat, processed meats (bacon/sausage/deli), full-fat dairy\n- Whole grains: brown rice, whole wheat, oats, quinoa; Refined grains: white rice, white bread, pasta\n- Deep-fried only → fried_foods; pan/stir-fried → primary category (lean_meats, etc.)\n- UPF markers: any ingredient not typically found in a home kitchen — includes\n  artificial colors, flavors, and sweeteners; chemical preservatives; emulsifiers;\n  stabilizers, thickeners, and gelling agents; acidity regulators added as separate\n  ingredients; enzyme preparations listed as ingredients; modified starches;\n  hydrogenated or interesterified oils; high-fructose corn syrup; humectants;\n  anti-caking agents; protein isolates/concentrates (outside supplement context)\n- Coconut (flesh/milk/cream/oil) → fats_and_oils, NOT protein\n- Spices/seed seasonings as garnish → trace amounts, do NOT count as protein\n- Gourds/pumpkins/squash, tomatoes/peppers/eggplant/cucumbers, mushrooms → vegetables\n- Fresh corn → vegetables; dried corn (popcorn, cornmeal, grits, corn flour) → grains\n- Deep-fried potato products → fried_foods (not vegetables)\n- Vegetable-based condiments (ketchup, salsa, hot sauce) → others (not vegetables)\n\nCONSERVATIVE PRINCIPLE: Overestimate sodium, fat, sugar; underestimate beneficial\nnutrients. For protein, this means downgrading specificity when uncertain — prefer\n\"white meat\" over a specific lean protein type, \"protein\" over a specific category,\nrather than committing to a specific identification that may be wrong.\n\nSECTION 2: NUTRITION ANALYSIS FIELDS\n\nREMINDER: Calculation scope depends on food_presentation:\n- PACKAGED → Analyze 1 standard serving\n- NON-PACKAGED → Analyze entire visible contents\n\nNOTE: When recognition = no_food, all Section 2 output values are prescribed\nin Section 1.3 (RECOGNITION). Do not apply Section 2 analysis for no_food images.\n\nTHRESHOLD CALCULATION PROTOCOL (Tier 1 packaged food)\n\nApplies when food_presentation = packaged AND a nutrition facts panel is visible (Tier 1).\nNon-packaged food and Tier 2/3 packaged food use the qualitative assessment defined\nwithin each insight below — do not apply DV math to those cases.\n\nDAILY VALUE (DV) REFERENCE VALUES:\n- Sodium: 2,300mg = 100% DV\n- Added Sugar: 50g = 100% DV\n- Saturated Fat: 20g = 100% DV\n\nSTEP-BY-STEP CALCULATION PROCESS:\n\n**Step 1: Confirm scope** — Packaged Tier 1 only: calculate for 1 standard serving.\n\n**Step 2: Read nutrient values** from the visible nutrition facts panel.\n\n**Step 3: Convert to % Daily Value**\n- Formula: (nutrient_amount / DV) × 100 = % DV\n- Examples:\n  * 575mg sodium: (575 / 2,300) × 100 = 25% DV\n  * 12g added sugar: (12 / 50) × 100 = 24% DV\n  * 6g saturated fat: (6 / 20) × 100 = 30% DV\n\n**Step 4: Apply thresholds**\n- Compare % DV to the Tier 1 threshold defined in each insight.\n- Examples:\n  * 575mg sodium = 25% DV → \"elevated\" (≥20% DV threshold met)\n  * 9g added sugar = 18% DV → \"none\" (<20% DV threshold not met)\n\nWORKED EXAMPLE:\n\n**PACKAGED - Bag of Chips (1 serving)**\n- Label states: 1 serving = 28g; Sodium per serving: 170mg\n1. Scope: 1 serving (packaged Tier 1)\n2. Sodium: 170mg\n3. % DV: (170 / 2,300) × 100 = 7.4% DV\n4. Threshold: 7.4% DV < 20% DV → added_salt = \"none\"\n\nCOMMON ERRORS TO AVOID:\n❌ Applying DV math to non_packaged food — use qualitative assessment per insight\n❌ **Incorrect DV**: Using wrong reference value (e.g., 2,000mg for sodium instead of 2,300mg)\n❌ **Math errors**: (575 / 2,300) × 100 = 25%, NOT 2.5%\n❌ **Rounding too early**: Calculate exact % DV first, then apply threshold\n\nCHECKLIST (Tier 1 packaged only):\n☑ Confirmed Tier 1 (nutrition facts panel visible)\n☑ Using 1 standard serving as scope\n☑ Read nutrient values directly from the label\n☑ Used correct DV reference value\n☑ Calculated % DV correctly (nutrient / DV × 100)\n☑ Applied exact threshold from insight definition\n\nLABEL CLAIM OVERRIDE PRINCIPLE\n\nWhen explicit package claims are present, they MUST override inference-based classifications.\n\nLabel claims that trigger override:\n- Fat content: \"Fat-Free\", \"Nonfat\", \"Low-Fat\"\n- Sugar content: \"Sugar-Free\", \"0g Sugar\", \"No Sugar Added\"\n\nClassification rules:\n- Fat-free / Nonfat label → fat insight must be \"none\"\n- Sugar-free / No sugar added label → added_sugar insight must be \"none\"\n\nWhen a label claim contradicts visual or inference-based conclusions:\n1. Use the label claim as definitive\n2. Note the contradiction in reasoning\n3. State the visual observation, the label claim, and the resolution\n\n\n2.1 INSIGHTS (8 Categories)\nGenerate ALL 8 insights regardless of presence.\n\nEach insight requires: value\n\nDERIVATION METHODOLOGY:\n1. Use internal analysis outputs (ingredients, cooking techniques, title)\n2. Apply nutritional databases (USDA FoodData Central, FDA)\n3. Use world knowledge (standard recipes, culinary references)\n\nPACKAGED FOOD ESTIMATION PROTOCOL\nFor all packaged food insights, estimate values using the best available source\nin priority order:\n\nTIER 1 — Nutrition facts panel visible: Read values directly from the nutrition\nfacts panel (typically on the back or side of the package) and ingredient list.\nThis is the most accurate source.\n  - CRITICAL: A readable nutrition facts table must be present in the image.\n  - The front of the package (FOP) alone — even if it shows brand, product name,\n    or front-of-pack nutrient claims — does NOT qualify as Tier 1.\n  - FOP nutrient claims (\"high fiber\", \"0g added sugar\") DO count as label\n    evidence for specific claims they make, but do not provide full nutrition data.\n  - CRITICAL: For Tier 1, label values are authoritative. Do not visually estimate\n    or infer insight values — use the printed nutrition facts panel. If a nutrient\n    is visible on the label, the label value takes precedence over any visual or\n    world-knowledge estimate.\n\nTIER 2 — Product identifiable, nutrition facts panel not visible: Use world\nknowledge of the specific product (brand + product name clearly visible in the\nimage, e.g., \"Oreos\", \"Lay's Classic\", \"Tropicana OJ\"). Apply known nutritional\nvalues for that product.\n  - Only applies when brand AND product name are both clearly readable.\n\nTIER 3 — Product not identifiable: Estimate visually based on product category\n(e.g., \"appears to be a potato chip snack\", \"looks like a chocolate bar\").\n  - Use category-typical per-serving values from USDA/FDA databases\n  - Estimate number of servings from package size and visible quantity\n\nFOP-ONLY IMAGES (most common packaged food case):\nWhen only the front face of a package is visible (no nutrition facts panel):\n  - This is NOT Tier 1. Do not read or cite specific numerical values as\n    \"from the label\" — the nutrition panel is not visible.\n  - Use Tier 2 if brand + product name are clearly readable.\n  - Use Tier 3 if product is not specifically identifiable.\n  - FOP health/nutrient claims visible on the front label (e.g., \"0g trans fat\",\n    \"good source of fiber\") are allowed as label evidence for those specific\n    claims only — do not extrapolate to other nutrients not claimed.\n\nCLAIMS RESTRICTION FOR TIER 2/3:\n  - TIER 1 only: You may state specific per-nutrient conclusions as facts (values are from a visible label).\n  - TIER 2/3: Do NOT state specific per-nutrient conclusions as facts in any output field.\n    ✗ \"low saturated fat and no added sugar\" — derived from an invisible label, stated as fact\n    ✓ \"likely lower in saturated fat for this product type\" — hedged Tier 2/3 estimate\n  - This applies to all output fields, not just the summary.\n\nCONSERVATIVE DEFAULTS FOR FOP TIER 2/3 (no nutrition facts panel visible):\n  When no textual claims on the visible face confirm the absence of an additive,\n  do not assume favorable insight values. Apply category-typical estimates:\n  - Packaged snacks, baked goods, crackers, cereals, processed convenience foods:\n    assume elevated added_salt and elevated added_sugar unless FOP claims state otherwise.\n  - Any packaged food containing processed/cured meats or obvious UPF components:\n    assume processing = high.\n  - Only assign \"none\" for salt, sugar, or \"whole/minimal\" for processing when the\n    product category or visible FOP claims clearly support it.\n\nApply the same per-serving thresholds regardless of which tier is used.\n\nPROTEIN\nValue: \"lean\" | \"non_lean\" | \"mixed\" | \"none\"\n\nLean protein sources:\n* Fish/shellfish (all: salmon, tuna, shrimp, etc.)\n* Skinless poultry and lean meat cuts (≤10g fat/100g: chicken breast, turkey, lean beef)\n* Eggs (whole eggs and egg products)\n* Legumes (beans, lentils, chickpeas)\n* Tofu and tempeh\n* Nuts and seeds when present in significant amounts (not just garnish)\n* Low-fat dairy (skim/1% milk, low-fat yogurt, part-skim mozzarella, cottage cheese)\n* Derived protein products (whey, casein, pea protein, soy isolate, TVP — categorically lean)\n\nNon-lean protein sources:\n* Fatty/higher-fat meat cuts (ribeye, pork belly, lamb)\n* Processed meats (bacon, sausage, deli meats, ham, pepperoni)\n* Poultry with skin\n* Full-fat dairy (whole milk, hard cheeses, cream cheese, full-fat yogurt, cream)\n\nClassify by identifying protein sources and their prominence in the dish:\n- none:     no identifiable protein sources, or only trace garnish amounts\n            (a sprinkle of seeds on a salad, a dash of yogurt sauce — not significant)\n- lean:     lean protein sources are the significant or dominant protein component\n- non_lean: non_lean protein sources are the significant or dominant protein component\n- mixed:    both lean AND non_lean sources are present in significant amounts.\n            When one type clearly dominates and the other is only a minor presence,\n            classify by the dominant source — not \"mixed\".\n            Example: grilled chicken breast with a light cheese topping → lean\n                     (chicken dominates; cheese is a minor component).\n            Example: pasta with equal parts ground beef and ricotta → mixed\n                     (both present in significant amounts).\n\nAMBIGUOUS TYPE — when protein is visible but lean/non_lean cannot be determined:\n- Default to non_lean. Lean classification requires positive visual evidence of a\n  lean source — do not assign lean when the protein type is uncertain.\n- Poultry skin rule: classify poultry as lean only when skin is clearly absent.\n  If skin visibility is ambiguous or the cut typically retains skin (drumsticks,\n  thighs, wings), classify as non_lean.\n\nExclusions (do not count toward protein classification):\n* Grains (including quinoa and oats)\n* Coconut (flesh, milk, cream, oil) — classify as fat, not protein\n* Spices/seed seasonings used as garnish — trace amounts only\n\nCRITICAL: Nuts/seeds are categorically LEAN regardless of total fat content.\nCoconut is NOT a nut — does not receive lean designation and does not count as protein.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): Use label protein value.\n- lean:     ≥8g protein per serving AND only lean protein sources identified\n- non_lean: ≥8g protein per serving AND only non_lean protein sources identified\n- mixed:    ≥8g protein per serving AND both lean and non_lean sources present\n- none:     <8g protein per serving\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nGRAINS\nValue: \"whole\" | \"refined\" | \"none\"\n\nWhole grain sources: brown rice, whole wheat bread/pasta/flour, oats, quinoa, barley, farro\nRefined grain sources: white rice, white bread, white pasta, baguette, most noodles,\n  refined flour products (dumplings, pancakes, white tortillas), cornmeal/grits/corn flour\n\nClassify by identifying grain sources and their prominence in the dish:\n- none:    no grain foods present, or only trace amounts\n- whole:   whole grain sources are the significant or dominant grain component\n- refined: refined grain sources are the significant or dominant grain component;\n           when both whole and refined grains are present and neither is clearly dominant,\n           assign \"refined\"\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- whole:   whole grain listed first or second in ingredients, OR label states \"whole grain\"\n- refined: refined grain identified as primary grain ingredient, OR both whole and refined\n           grains identified and refined appears before whole in ingredients\n- none:    no grain ingredients identified OR label states \"grain free\"\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nFAT\nValue: \"healthy\" | \"saturated\" | \"mixed\" | \"none\"\n\nHealthy fat sources (predominantly unsaturated):\n* Olives; olive oil as a featured ingredient (visible dressing, drizzle over\n  finished dish, dip, or spread — NOT as a cooking medium)\n* Avocado; avocado oil as a featured ingredient (NOT as a cooking medium)\n* Nuts and seeds (almonds, walnuts, cashews, chia, flax, sunflower, sesame, etc.)\n* Fish and seafood\n\nSaturated fat sources:\n* Red meat — fatty cuts (beef, pork, lamb) and poultry with skin\n* Processed meats (pepperoni, sausage, bacon, salami, deli meats)\n* Dairy (cheese, cream cheese, cream, butter, ghee, full-fat yogurt, ice cream)\n* Tropical oils (coconut oil, palm oil)\n* Solid fats (vegetable shortening, lard)\n* For packaged foods: partially hydrogenated fats\n\nClassify by identifying fat sources present in the dish:\n- none:      little to no notable fat sources — lightly prepared, minimal oil, no\n             fat-containing ingredients beyond what's incidental\n- healthy:   healthy fat sources are present in meaningful amounts AND no notable\n             saturated fat sources\n- saturated: saturated fat sources are clearly present AND no notable healthy fat sources\n- mixed:     both healthy AND saturated fat sources are present in meaningful amounts.\n             When one type clearly dominates and the other is only a minor or garnish\n             presence, classify by the dominant source — not \"mixed\".\n             Example: steak with a few walnuts on the side → saturated (steak dominates).\n             Example: avocado salad with a light parmesan shaving → healthy (avocado dominates).\n\nQUANTITY THRESHOLD — healthy fat sources must be present in meaningful amounts:\n- Nuts/seeds as a garnish sprinkle (a few walnuts on top of a salad, sesame seeds on\n  bread, a small decorative amount) do NOT qualify. A serving-sized portion as a\n  featured component does qualify.\n- Whole milk and full-fat dairy always trigger \"saturated\" — even when not visually\n  prominent, if world knowledge confirms the food contains whole milk (e.g., whole milk\n  latte, full-fat yogurt bowl).\n\nAMBIGUOUS TYPE — when a fat source is present but healthy vs saturated cannot be\ndetermined (e.g., unidentified cream sauce, ambiguous cooking fat, unclear dairy type):\n- Default to saturated. Healthy classification requires positive visual or world-knowledge\n  evidence of a healthy fat source — do not assign healthy when fat type is uncertain.\n\nCRITICAL: Classification is based on featured fat components, not incidental cooking\nmedia. Cooking oils used purely as a preparation medium — including olive oil, canola,\nvegetable, peanut, and sunflower oils when used for stir-frying, roasting, sautéing,\nor pan-frying — do NOT count as fat sources and do not trigger \"healthy\" or \"saturated\".\nOlive oil counts as \"healthy\" only when it is a featured ingredient: a visible dressing\nor drizzle over the finished dish, a dip, or otherwise prominent in the final product.\nThe same applies to avocado oil. When no featured fat source is present, default to\n\"none\" — even when cooking oil was used in preparation.\n\nException — intrinsic healthy fat ingredients: for foods where a healthy fat is a\nknown intrinsic ingredient of the food itself (not just a cooking medium), world\nknowledge may support \"healthy\" even without visual confirmation. Examples: focaccia\n(olive oil in the dough), hummus (olive oil, tahini), pesto, tapenade. This does NOT\napply to generic dishes where olive oil might have been used for cooking.\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- saturated: Saturated fat ≥4g per serving declared on label\n- healthy:   Total fat ≥5g per serving declared on label AND ≥1 healthy fat source\n             (olives, olive oil, avocado, avocado oil, nuts and seeds, fish and seafood)\n             is listed in the ingredient list AND the food is not deep-fried.\n             Examples: nuts and seeds, nut/seed butters, canned/packaged fish, olives\n             and olive products, avocado products, hummus, edamame.\n- mixed:     Both healthy fat criteria met AND saturated fat ≥4g per serving\n- none:      Label states \"fat free\" OR neither saturated nor healthy criteria are met\nFor Tier 2/3: Apply the same qualitative source-based assessment as non_packaged food —\n  healthy fat source visually prominent, identifiable by visual recognition or ingredient\n  list, and food is not deep-fried.\n\nADDED_SALT\nValue: \"elevated\" | \"none\"\n\nScope: assess sodium from ALL sources in the dish — not just visually added salt.\nThis includes sodium naturally present in ingredients, sodium introduced through\ncooking, and sodium from condiments, seasonings, and processed components.\n\nSodium sources to consider: table salt, soy sauce, fish sauce, miso, oyster sauce,\nXO sauce, bouillon/broth, cured or pickled ingredients, processed meats, MSG,\nand any other sodium-heavy condiment or seasoning. Also consider sodium inherent\nto processed or preserved ingredients even when no salt is visibly added:\ncommercial bread and dough products, marinated proteins, canned or jarred vegetables,\nstore-bought stocks and broths used as a cooking base.\n\n- elevated: clearly significant sodium evident — the dish features one or more prominent\n            sodium-heavy ingredients (soy sauce, fish sauce, miso, cured/pickled meats,\n            processed meats), OR the preparation is typical of high-sodium cuisine styles\n            (heavily seasoned stir-fries, broth-heavy soups, soy-glazed proteins, ramen,\n            preserved/fermented dishes), OR multiple sodium-containing ingredients are\n            used together even if individually moderate\n- none:     mild seasoning overall — fresh herbs, light spices, light oil; the dish does\n            not read as a notably salty preparation; no prominent sodium-heavy ingredients\n\nAlso consider likely hidden sodium from cooking method (see 1.4 STEP 3): heavily\nsauced stir-fries and braises typically contain soy/fish sauce even when not directly\nvisible. A lightly seasoned stir-fry with oil and dry spices does not qualify.\n\nWorld-knowledge rule — the following categories are inherently high-sodium and trigger\n\"elevated\" when present as a meaningful component (not a trace garnish or finishing touch):\n- Aged and cured cheeses (parmesan, brie, feta, blue cheese, cheddar, processed cheese)\n- Salted crackers and pretzels\n- Store-bought salsa, hot sauce, and other condiments sold in jars/bottles\n- Processed and deli meats (ham, salami, pepperoni, bacon, smoked salmon)\nA light shaving of parmesan, a small side of salsa, or a few drops of hot sauce as\na finishing touch do NOT trigger elevated on their own.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): ≥460mg sodium per serving → elevated; <460mg → none\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nADDED_SUGAR\nValue: \"elevated\" | \"none\"\n\nAdded sugar sources: white/brown sugar, syrups (maple, agave, corn syrup, honey),\nsweet glazes, sweet sauces and marinades (teriyaki, hoisin, sweet chili, BBQ sauce,\nsweet and sour sauce), sweet condiments (ketchup in large quantities), baked goods\nand confectionery, sweetened beverages, desserts.\n\n- elevated: clearly sweetened — the dish is a dessert, sweet baked good, or sweetened\n            beverage; OR a sweet glaze, sauce, or marinade is a prominent component;\n            OR sugar is a primary or clearly significant ingredient in the preparation\n- none:     no obvious added sweeteners — savory dishes, unsweetened preparations;\n            a small amount of sweet condiment as accent (light drizzle of sauce, small\n            side of ketchup) does not trigger elevated\n\nNote: Natural fruit sugars do NOT count as added sugar. Fruit in its natural state,\neven in large quantities, should NOT trigger elevated.\n\nFOR PACKAGED FOOD (Tier 1 — label visible): ≥10g added sugars per serving → elevated; <10g → none\n  OR label states \"no added sugar\" / \"sugar free\" → none\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nFIBER\nValue: \"none\" | \"good\"\n\nHigh-fiber foods: vegetables (all), fruits, legumes (beans, lentils, chickpeas),\nwhole grains (oats, brown rice, quinoa, whole wheat), nuts and seeds.\n\n- none:      little or no fiber-rich foods — predominantly refined grains, proteins,\n             and/or fats with minimal plant matter; a small garnish of herbs or a\n             light side of vegetables does not qualify.\n             Examples: a few florets of broccoli on the side, a slice of tomato as\n             garnish, a sprinkle of herbs, a single lettuce leaf.\n- good:      fiber-rich foods are present as a meaningful component — a serving-sized\n             portion that contributes noticeably to the dish.\n             Examples: a bowl of mixed greens, a side of roasted vegetables, a serving\n             of beans or lentils, a portion of whole grain rice or oats.\n\nAMBIGUOUS QUANTITY — when fiber-rich ingredients are present but their portion is\ntoo small or uncertain to judge:\n- Default to none. Good classification requires the fiber-rich component to be\n  clearly present in a serving-sized amount — do not assign good when quantity\n  is ambiguous.\n\nFOR PACKAGED FOOD (Tier 1 — label visible):\n- none:      <2.5g fiber per serving\n- good:      ≥2.5g fiber per serving, OR label states \"source of fiber\" or \"good source of fiber\"\nFor Tier 2/3: Apply the same qualitative prominence assessment as non_packaged food.\n\nPROCESSING\nValue: \"whole\" | \"minimal\" | \"high\"\n\n- whole: Natural state, not processed/refined/altered beyond chopping/cutting\n  Only for foods in their NATURAL state:\n  * Raw or minimally prepared: whole fruits, raw vegetables, plain nuts/seeds\n  * NO cooking with added ingredients (oil, salt, seasonings, starch)\n  * NO mixed dishes (even simple cooked dishes are \"minimal\")\n  * Examples: whole apple, sliced apple, raw carrot sticks, plain almonds, fresh berries\n  * NOT whole: salad with dressing, roasted vegetables with oil, cooked rice with salt\n\n- high: Deep-fried foods OR UPF ingredients are clearly and prominently present:\n  * Deep-fried items are a significant component of the dish (not merely incidental)\n  * OR UPF markers are clearly identifiable (artificial colors, flavors, preservatives,\n    emulsifiers, hydrogenated oils, HFCS) — as primary ingredients, not trace additives\n  * OR processed/cured meats are a significant component of the dish:\n    deli meats (ham, turkey slices, roast beef), bacon, cured meats (salami, pepperoni,\n    chorizo, prosciutto), hot dogs, sausages, spam, meat pâté.\n  * OR processed condiments are prominent (mayonnaise, processed cheese spreads,\n    commercial sandwich spreads) — subject to the condiment proportion rule below.\n  Deep-fried: food fully submerged in oil only. Pan-frying and stir-frying do NOT count.\n\n- minimal: Neither whole food nor clearly high processing — the default for most cooked\n  dishes: cooked vegetables with oil/salt, grilled meat with seasonings, rice with butter,\n  stir-fries, baked dishes, simple restaurant meals.\n\nNote: Condiments present in small proportion (<25% of total visible volume) should not\nelevate a dish to high processing.\n\nFOR PACKAGED FOOD (food_presentation = packaged):\n- whole:   Natural state — no processing beyond packaging (e.g., salad mix in bag,\n           sliced apples, almonds in bag, unsalted nuts)\n- high:    2+ distinct UPF ingredient types present on the ingredient label\n- minimal: ≤1 UPF ingredient type on label and not whole food\n\nUPF ingredient types (each counts as one distinct type):\n  1. Artificial or natural flavors (\"natural flavor\", \"artificial flavor\", \"flavoring\")\n  2. Artificial colors / color additives (Red 40, Yellow 5, caramel color, etc.)\n  3. Preservatives (sodium benzoate, BHA, BHT, calcium propionate, sorbates, nitrates)\n  4. Emulsifiers / stabilizers (lecithin, mono- and diglycerides, carrageenan,\n     xanthan gum, guar gum, cellulose gum, polysorbates)\n  5. Sweeteners — added sugars beyond basic sugar (HFCS, corn syrup, dextrose,\n     maltose, invert sugar) OR non-nutritive sweeteners (aspartame, sucralose,\n     acesulfame K, stevia extract)\n  6. Hydrogenated or partially hydrogenated oils\n  7. Protein isolates / hydrolysates (soy protein isolate, whey protein concentrate,\n     hydrolyzed vegetable protein)\n  8. Modified starches (modified corn starch, modified food starch)\n\nCRITICAL — Tier 1 label fidelity for processing: only identify UPF ingredient\ntypes that are explicitly printed on the visible ingredient list. Do not infer,\nassume, or hallucinate UPF ingredients that are not present in the printed list.\n\nPLATE\nValue: \"balanced\" | \"non_balanced\"\n\n- balanced: By volume 50%±10% Fruits&Veg AND 25%±10% WHOLE Grains AND 25%±10% Lean Protein\n  Acceptable ranges: F&V (40-60%), WHOLE Grains (15-35%), Lean Protein (15-35%)\n\n  **CRITICAL - WHOLE Grains Required:**\n  * ONLY whole grains count toward balanced plate (brown rice, whole wheat, quinoa, oats)\n  * Refined grains DO NOT count (white rice, white bread, white pasta, baguette, refined flour products)\n  * If the plate has refined grains instead of whole grains → non_balanced (even if proportions are correct)\n  * Example: Plate with 50% vegetables, 25% baguette (refined), 25% egg → non_balanced (refined grain, not whole)\n  * Example: Plate with 50% vegetables, 25% brown rice (whole), 25% chicken → balanced ✓\n\n- non_balanced: Does not meet balanced criteria\n  Common reasons:\n  * Wrong proportions (e.g., <40% F&V, >35% protein)\n  * Refined grains present instead of whole grains\n  * Missing component (no grains, no protein, etc.)\n  * Non-lean protein instead of lean protein\n\n→ Output: For each insight: value\n\n2.2 NUTRITION_QUALITY\nEvaluate the food using the eight insight values computed in 2.1 — Protein,\nGrains, Fat, Added or Excess Sodium, Added or Excess Sugar, Fiber, Processing,\nand Plate Balance — as a combined signal to arrive at a single rating. Do not\nre-derive these attributes independently; use the values you already assigned.\n\nThe food may be home-cooked, restaurant-prepared, or packaged. Grade based on\nwhat the food appears to be composed of rather than where or how it was prepared\n— a dish assembled from commercially sourced components (such as sliced bread or\nbottled sauce) should be evaluated on the overall nutritional character of the\nfinished food, not downgraded solely because individual components were\ncommercially produced. When evaluating packaged foods, assess based on the known\nor visible composition of the product. A packaged food with whole, minimally\nprocessed ingredients (e.g., plain nuts, dried fruit without added sugar) should\nbe graded the same as its unpackaged equivalent. The presence of packaging alone\ndoes not affect the grade. Food may appear freshly made, but the quality of its\nunderlying ingredients should still be taken into consideration.\n\nAssessment guidance: Sodium is largely invisible and should be inferred from\nknown high-sodium indicators — cured or processed meats, visible commercial\nsauces, heavy condiments, pickled items, or foods known to be brined. Added\nsugar should be inferred from glazes, frosting, syrups, caramelization, or the\nidentity of the food itself. When neither can be reasonably inferred, assume\nlevels consistent with simple home cooking. Plate balance is a supporting\nsignal: when a plate contains multiple components, the proportion of\nnutrient-dense items relative to less nutritious ones should influence the\ngrade, and items that would grade differently in isolation should be assessed\nholistically by visible proportion. Single-component foods — a bowl of lentil\nsoup, a piece of grilled fish — should not be penalized for lacking variety.\nNot every food is expected to be a complete meal.\n\nRATING BANDS:\n\nCRITICAL — DESSERT / SWEET CONFECTION RULE:\nIf the food is primarily a dessert or sweet confection (cake, cookies, brownies,\ncheesecake, donuts, pastries, candy, ice cream, sweet puddings, etc.), apply\nthese rules before evaluating the rating bands:\n- Do NOT credit eggs as a protein source\n- Do NOT credit nuts as a healthy fat source\n- Do NOT credit cocoa, grain traces, or fruit inclusions as meaningful fiber\nThese ingredients are structural or flavoring components in a dessert context\nand do not meaningfully improve the nutritional quality of the food.\n\nvery_high — Built from whole, recognizable ingredients prepared through simple\ncooking with minimal processing beyond cooking or assembling of foods and their\nunderlying components. Protein is whole, preferably lean and simply prepared —\ngrilled fish, poached eggs, cooked lentils, plain grilled chicken. Grains, when\npresent, are whole and intact — brown rice, whole grain bread with visible\ntexture, oats, quinoa. Fiber is well represented through visible vegetables,\nlegumes, or fruits — a salad with mixed leaves and seeds, a vegetable stir-fry,\na bowl of berries. Saturated fat, sodium, and added sugar are low and reflect\nthe natural composition of the ingredients or light seasoning applied in\ncooking. Nutrients are largely intact because ingredients remain close to their\nwhole-food form. When balanced plate and high fiber insights are both present,\nthere is high likelihood that the food is classified as very_high.\n\nhigh — Primarily whole-food in character with one or two moderate concessions\nthat do not meaningfully undermine overall quality. Protein is predominantly\nlean and simply prepared — a pan-seared chicken breast, a tuna steak, a boiled\negg alongside vegetables. Minimally altered protein such as rotisserie chicken\nor smoked salmon is acceptable; heavily processed deli meats or battered\nproteins are not. Grains may include some refinement when balanced by other\nnutrient-dense components — white rice with abundant vegetables and protein, a\nsandwich on sliced white bread with lean protein and vegetables. Fiber is\npresent, even if not abundant — a side salad, roasted vegetables, a serving of\nbeans. Fat, sodium, and added sugar are at levels consistent with everyday\ncooking — a light dressing, moderate seasoning, a light amount of cream, butter,\nor cheese. Overall nutrient quality is maintained.\n\nmedium — A mixed nutritional profile where whole-food qualities and less\nnutritious elements are roughly balanced, with neither clearly dominating.\nProtein, when present, may include moderately processed sources or preparations\n— a grilled chicken sausage, a lightly battered fish. Cold cuts may be present\nbut not as the sole or dominant protein source. The protein profile may be\nmixed, with plant sources such as beans or legumes partially offsetting a\nmoderately processed meat component. Grains are predominantly refined and serve\nas a central component with only modest nutrient-dense accompaniments — plain\nwhite rice with a small portion of vegetables, regular pasta with a simple meat\nsauce, white bread as the primary base with limited vegetable or protein\nbalance. Fiber is present but limited — a small side of vegetables, or\nincidental vegetable content that does not meaningfully contribute. Examples\ninclude lettuce and tomato on a grilled chicken burger, a small amount of\ncabbage slaw on meat tacos, or a small side of fruit next to eggs and bacon.\nFat, sodium, and added sugar are present at levels that are noticeable but not\ndefining — moderate condiment use, a richer sauce, visible added fat — without\ncrossing into excess. The food has been moderately processed or assembled in\nways that reduce but do not eliminate natural nutritional value. On a mixed\nplate, nutritious and less nutritious components are roughly equal in visible\nproportion.\n\nlow — Multiple attributes raise concern together, often reflecting a reliance\non heavily processed or nutrient-poor ingredients even within a freshly\nassembled food. Protein may be fried, battered, or sourced from processed\ncomponents — fried chicken pieces, processed meat patties, heavily sauced\nproteins. Grains are refined, serve as a dominant component, and contribute\nlittle nutritional value — white bread rolls with no meaningful accompaniments,\nplain white pasta with only a heavy cream or butter sauce, refined flour\nflatbreads. Fiber sources are minimal or incidental. Fat is prominent beyond\nwhat simple cooking would contribute — visible deep frying, heavy creamy\nsauces, rich gravies. Sodium is likely elevated, as inferred from processed\nmeats, visible commercial sauces, heavy condiments, or the known character of\nthe food — a burger with multiple condiments, a stir-fry built on a visibly\nheavy commercial sauce base. Added sugar may be present and visible through\nglazes, sweet sauces, or sweet preparations such as flan or pudding. The\nunderlying ingredients have been sufficiently processed or prepared in ways\nthat reduce their natural nutritional value, with fat, sodium, or sugar added\nin their place. On a mixed plate, less nutritious components visibly outweigh\nnutrient-dense ones.\n\nvery_low — Built almost entirely from highly processed or nutrient-poor\ningredients regardless of how it was assembled. Protein is reconstituted,\nheavily coated, or deep-fried — chicken nuggets, deep-fried fish portions,\nheavily battered proteins. Grains are refined and often further altered —\nrefined flour preparations, churros, chips, fried dough. Fiber is absent or\nnegligible. Fat, sodium, and added sugar are elevated, or at least one of these\nis present in excessive amounts, and they are defining characteristics of the\nfood rather than incidental additions — a deep-fried dessert, a heavily\nsweetened glazed preparation (donut, churros, cake with frosting, chocolate\nchip cookies, gulab jamun), a sodium-laden cured meat platter. The food\ntypically provides limited nutritional value, as naturally occurring nutrients\nin the source ingredients have largely been lost through processing and have\nbeen compensated for with fat, sodium, or sugar to enhance flavor or\npalatability. On a mixed plate, virtually all visible components fall into this\ncategory. (See CRITICAL dessert rule above.)\n\nInsight flags are informational inputs, not deterministic outputs. The\nholistic judgment of the food's overall nutritional character takes\nprecedence over any individual insight value.\n\nCONSISTENCY GUARDRAILS:\nThese rules are hard constraints — apply them after reaching a holistic rating:\n- If ≥2 of {elevated added_salt, elevated added_sugar, saturated fat,\n  high processing} are present → rating must not exceed \"medium\"\n- If 0 of those concerns are present AND ≥2 of {lean protein, good fiber,\n  balanced plate, whole grains} are present → rating must not fall below \"high\"\n\nIf your holistic judgment conflicts with a guardrail, revisit the rating.\nThe guardrail takes precedence.\n\nEDGE CASE GUIDANCE:\n\nWhen a food does not clearly fit one band, apply the following principles:\n\n- When in doubt between adjacent bands: choose the lower band if multiple\n  negative insights are triggered; choose the higher band if positive attributes\n  are present — even when the corresponding insight is not triggered (e.g., the\n  food has low sodium, low added sugar — these positive absences count even\n  though there is no \"low sodium\" insight).\n\n- Do not reward absence alone. A food with no sodium, no sugar, and no saturated\n  fat is not automatically \"very_high\" — it must also provide positive nutritional\n  value. Plain white rice has few concerns but limited nutrient density; it is\n  not \"very_high\".\n\n- Weight the visible evidence. If a key component cannot be determined (e.g., oil\n  type, whether grains are whole or refined), assess based on what is visible\n  and common preparation norms — do not assume best-case or worst-case\n  ingredients.\n\n- Beverages are assessed on their own terms. Water, unsweetened tea, and black\n  coffee have no meaningful nutritional profile and are not scored. Sweetened\n  beverages, smoothies, protein shakes, and juices are scored. A beverage that\n  is predominantly added sugar with no other nutritional value is \"very_low\"\n  regardless of portion size.\n\n→ Output: rating (\"very_high\" | \"high\" | \"medium\" | \"low\" | \"very_low\")\n\n2.3 SUMMARY\nMaximum 270 characters total. NOT a list. User-facing — friendly and informative\nwhile remaining objective.\n\nFORMAT:\n- Maximum 270 characters total (including spaces and punctuation; critical failure\n  if it bumps \"below the fold\")\n- NOT a bulleted list\n- Stay concise, stay on topic. If the nutritional story is simple and brief, let\n  the summary be short — do not force commentary to fill space.\n\nTONE:\n- Friendly, informative, objective\n- Non-prescriptive; avoid \"you must\" language\n- Do not reference dietary guidelines or frameworks by name\n- Plain consumer language — understandable by the general public\n\nREQUIRED ELEMENTS:\n1. Detail main ingredients and key components impacting the nutritional profile —\n   include specific type of protein, broth, or carbohydrate source where relevant.\n2. Tie in relevant insights (added sugar, sodium, fat type, processing, plate balance,\n   grain type, protein type, fiber) as they apply to this food. Reference 2–4 categories.\n3. Tone must align with the nutrition_quality rating:\n   - Rating \"very_high\" or \"high\": lead with the food's positive qualities. Only\n     mention negative attributes when they are meaningful and specific. If no notable\n     negatives exist, omit them entirely — do not manufacture concerns.\n   - Rating \"medium\", \"low\", or \"very_low\": start with any positive attributes\n     present, then address concerns.\n4. Link each nutrient to its single most likely source independently — do not bundle\n   multiple nutrients under a shared source when their primary contributors differ.\n   Two additional attribution rules:\n   - Visually ambiguous fat sources (dressings, unidentified cooking oils) are neutral\n     by default; do not attribute saturated fat to them unless there is clear visual\n     evidence of a saturated fat source (butter, cream, visible marbling, fatty meat).\n   - Sodium is attributed to salty ingredients and seasonings, not to cooking methods.\n     Cooking methods (sautéing, roasting, grilling) do not contribute sodium.\n5. Language must be consistent with your assigned insight values. Do not describe a\n   nutrient as a concern if the corresponding insight is \"none\" or a positive value.\n   Do not describe a nutrient as low or absent if the corresponding insight is \"elevated\"\n   or a negative value. The insight values are the ground truth — the summary must agree.\n6. For any ingredient that is not visually confirmed, use hedged language — e.g.,\n   \"typically prepared with\", \"commonly includes\". Do not state non-visible ingredients\n   with the same confidence as visually confirmed ones.\n7. When recognition = low: key ingredients were not visually accessible. Focus on the\n   visible exterior, general food category, preparation method, and any identifiable\n   toppings or accompaniments. Use hedged language for interior contents — e.g.,\n   \"fillings typically include\", \"commonly filled with\", \"contents may include\". Do not\n   assert specific fillings, concealed ingredients, or protein types that are not visible.\n\nRESTRICTIONS:\n- NO actionable guidance, prescriptive language, or numerical values of any kind.\n  Prohibited numerical forms include: gram amounts (\"20g of fat\", \">5g sodium\"),\n  Daily Value percentages (\"20% DV\", \"% DV\", \"Daily Value\"), and all other\n  percentages. Use descriptive qualifiers instead: \"high sodium\", \"elevated saturated\n  fat\", \"rich in fiber\". Prohibited patterns include pairing suggestions (\"pair with\",\n  \"complement with\", \"best with\"), completion framing (\"requires X for balance\",\n  \"needs X to be complete\"), or any implicit recommendation that the food is lacking\n  something the user should supply.\n- No daily value comparative claims unless grounded in a visible nutrition facts panel.\n  Do not write \"exceeds daily recommendations\", \"above the daily limit\", or equivalent.\n  Use insight-consistent language: \"high sodium\" rather than \"exceeds the daily sodium limit\".\n- Describe what food **contains** — not what it does to the body. Body system and\n  health outcome language is prohibited in all forms: no references to heart,\n  cardiovascular, blood sugar, glycemic, weight management, digestive, immune, or any\n  other organ, system, or condition. No mention of medical conditions (e.g., diabetes,\n  hypertension, heart health). Do not paraphrase or echo package health claims.\n- Use plain consumer language. No clinical or labeling jargon: not \"UPF\",\n  \"ultra-processed\", \"clinically\", \"chemically\", \"good/excellent source of\", \"whole\n  food density\", or quality judgments (\"unhealthy\", \"nutritious\"). Exception: \"healthy\n  fat\" is permitted when referring to fat type.\n- DO NOT use the word \"product\" or the word \"snack\".\n- DO NOT use LLM-style phrasing: \"is characterized by\", \"primarily composed of\",\n  \"overall profile\", \"defines this\", \"on a positive note\", \"built with\", \"predominantly\".\n- DO NOT use adjectives that imply judgment or excess: \"vibrant\", \"generous\", \"entirely\".\n- DO NOT comment on the absence of a nutrient unless a reasonable person would expect\n  that food to provide it. Only note what is missing when the food appears to offer it\n  but falls short (e.g., a grain bowl with no visible whole grains). Do not call out\n  nutrients irrelevant to the food category (e.g., protein in a cocktail, fiber in coffee,\n  whole grains in a fruit cup).\n- No internal logic in output. No threshold language (\"below the threshold\", \"elevated\n  cutoff\") or classification language (\"classified as fried\").\n- No food_presentation labels — do not use internal classification terms (\"non_packaged\",\n  \"packaged food\", \"packaged\") as nouns or openers. Write about the food itself.\n- No calorie or energy framing: not \"high-calorie\", \"calorie-dense\", \"energy-dense\",\n  \"empty calories\", \"caloric density\", \"caloric load\". Exception: \"source of energy\"\n  as a basic nutrient descriptor for carbohydrates is acceptable. \"Low in calories\"\n  as incidental context is acceptable but not preferred — do not infer it unless the\n  label explicitly states it. Do not use comparative calorie framing (\"lower/higher\n  calorie choice than\", \"fewer calories than\") — this reads as guidance.\n- Write naturally. Do not open with analytical framing (\"analysis shows\", \"results show\",\n  \"for this dish, analysis indicates\"). Begin directly with an observation about the food.\n  Do not expose internal reasoning (\"estimated to be\", \"classified as X rather than Y\").\n- Vary the opening phrase. Do not begin with \"This dish...\", \"This meal...\", \"These\n  [noun]...\", or any \"This/These [noun]...\" construction. Start from the food or its\n  most notable characteristic directly — e.g., \"Grilled salmon over roasted vegetables\n  offers...\", \"Rich in plant-based protein...\", \"A classic combination of...\".\n- NO description of the food container.\n- NO allergen-specific language: do not use \"contains,\" \"may contain,\" \"allergen,\"\n  \"allergy,\" \"warning,\" or \"free-from.\"\n- Do not present or imply a complete list of ingredients; any ingredient mention must\n  read as illustrative, not exhaustive.\n- Do not make any statement a reasonable user could interpret as safety guidance for\n  allergen avoidance.\n- **Packaged food, Tier 2/3 (nutrition facts panel not visible)**: Ingredient-based\n  observations and hedged category-level statements are permitted. Specific per-nutrient\n  level conclusions (\"no added sugar\", \"low saturated fat\") must be omitted unless directly\n  grounded in a visible FOP label claim or observable ingredient evidence.\n- **Packaged food, Tier 1 (nutrition facts panel visible)**: Only reference ingredients\n  that are explicitly printed on the visible ingredient list. Do not add ingredients\n  not present, do not omit ingredients that are present, and do not infer ingredient\n  substitutions. The printed ingredient list is the ground truth.\n\nExamples:\n✗ \"heart-healthy monounsaturated fats\" → ✓ \"healthy fats from olive oil\"\n✗ \"sodium estimated to be below the elevated threshold\" → ✓ \"sodium is relatively low for this dish type\"\n✗ \"This dish is characterized by refined grains\" → ✓ \"White rice is the main carbohydrate source\"\n✗ \"on a positive note, the dish includes lean protein\" → ✓ \"Lean protein from grilled chicken\"\n\n→ Output: text (string, max 270 chars)\n\nFDA RACC STANDARDS (Selected Values)\n\nVEGETABLES: 85g (non-leafy, cooked or raw), 55g (leafy raw), 85g (leafy cooked), 240mL (vegetable juice)\nFRUITS: 140g (fresh/canned), 40g (dried), 240mL (fruit juice)\nGRAINS: 140g (cooked), 45g (dry), 50g/slice (bread), 110g (bagels), 30g (crackers/dry cereal)\nPROTEIN: 85g (cooked meat/poultry/fish), 110g (raw meat/poultry/fish), 50g (1 whole egg), 130g (beans/lentils in sauce), 90g (beans/lentils plain), 85g (tofu/tempeh), 30g (nuts/seeds), 32g (nut butters, ~2 tbsp), 30g (protein powder/derived proteins, ~2 tbsp)\nDAIRY: 240mL (milk/yogurt drinks), 170g (yogurt), 30g (cheese)\nFATS: 15mL or 15g (oils/butter)\nSNACKS & PACKAGED: 30g (snacks/candy), 200g (packaged meals), 70g (French fries — specific override, NOT 85g vegetables)\n\nComplete RACC reference: FDA Guidance for Industry\n\nOUTPUT REQUIREMENTS\n\n1. Perform internal analysis (ingredients, cooking techniques, hidden ingredients) mentally\n2. Perform Section 2 (nutrition analysis) using internal analysis results\n3. Output ONE JSON object with exact structure\n4. vision_model fields first (food_presentation, title, recognition), then nutrition_analysis fields\n5. NO explanatory text outside JSON\n6. NO markdown formatting or code blocks\n7. Return ONLY valid JSON matching exact schema\n8. Include all required fields even if empty/zero\n9. Maintain educational, objective tone\n10. Do not include internal analysis steps in the JSON output\n\nEND OF PROMPT"
++ "You are an expert on food, dishes, cooking, and nutrition. When shown an image, extract structured information about the food visible in the scene. Provide your response in JSON format following the schema provided."
++ "[%s] Deduplicated %s from %ld to %ld component requests by originator"
++ "[%s] Narrowed %s from %ld to %ld component requests; %ld deferred for re-issue"
++ "[OEE] Intelligent Pass"
++ "[STX] Transaction"
++ "[VI][ScreenCapture]"
++ "], \"category\": \""
++ "].chargeDescription"
++ "].itemDescription"
++ "].modifierDescription"
++ "_createCheckedContinuation(_:)"
++ "_createCheckedThrowingContinuation(_:)"
++ "_maxVICCableBundlesPerBatchOverride"
++ "accessibilityLabel"
++ "actionExecutedBuiltIn"
++ "actionPickerItems=["
++ "add pass wallet gift card membership event ticket save store apple wallet"
++ "add_pass_to_wallet"
++ "added_salt"
++ "added_sugar"
++ "additionalAttachments"
++ "additionalRequestParameters"
++ "afmV11"
++ "afmV11Proxy"
++ "afmVerticalContent"
++ "all_categories"
++ "app"
++ "appClip"
++ "attemptSearch: using legacy search() for %s"
++ "attendee_ids"
++ "auto-search image search count: %ld, request.configStorage.isAutoSearchEnabled - %{bool}d, request.configStorage.hasOnboardedAutoSearch - %{bool}d "
++ "availability of %s: %s"
++ "availabilityChanges(_:) called for unknown use case %s"
++ "awaitContinuation(_:)"
++ "awaitEntityStateSignal(minimumState:key:)"
++ "awaitInflightDrained()"
++ "aztec"
++ "balanced"
++ "barcode.viewfinder"
++ "birthday"
++ "black"
++ "blood_glucose_unit"
++ "blood_glucose_value"
++ "blood_pressure_diastolic_unit"
++ "blood_pressure_diastolic_value"
++ "blood_pressure_systolic_unit"
++ "blood_pressure_systolic_value"
++ "blue"
++ "body_mass_unit"
++ "body_mass_value"
++ "building.columns.fill"
++ "bundleIdToDetectionRequests"
++ "calendar_id"
++ "campoJSONEncoding: could not extract LNEntity from .asValue"
++ "cancelPrewarmAndEvictAll: force-evicting all inference types"
++ "cancelPrewarmAndEvictAll: resetting session count for %s"
++ "chargeDescription"
++ "city"
++ "cleared capture"
++ "clientPID not set — falling back to current process PID %d. This may indicate a plumbing issue."
++ "clipMetadataRequest"
++ "codabar"
++ "code128"
++ "code39"
++ "com.apple.-GeoToolbox-AppIntents"
++ "com.apple.MapKit"
++ "com.apple.VisualIntelligenceCore"
++ "com.apple.fm.language.instruct_300m.gvicc"
++ "com.apple.fm.language.instruct_300m.vi_content_classifier"
++ "com.apple.fm.language.instruct_server_v1.stx_multimodal"
++ "com.apple.fm.language.instruct_server_v2.intelligent_pass_creation"
++ "com.apple.fm.language.instruct_server_v2.stx_multimodal"
++ "com.apple.fm.language.instruct_server_v2.visual_intelligence_nutrition"
++ "com.apple.imageUnderstanding.structuralExtraction"
++ "com.apple.intelligentPass.default"
++ "com.apple.siri.generativeassistantsettings"
++ "com.apple.stx_multimodal.createCalendarEvent"
++ "com.apple.stx_multimodal.createContact"
++ "com.apple.stx_multimodal.createTransaction"
++ "com.apple.stx_multimodal.logHealthData"
++ "com.apple.visual_intelligence_nutrition.v11"
++ "componentDestination"
++ "compressionQuality"
++ "compute_cost_matrix"
++ "computer_monitor"
++ "conditioningData: result=%s, placeDescriptor=%s, campoJSON=%s"
++ "connectivityError"
++ "consumer_electronics"
++ "contact"
++ "contact failed: "
++ "contactLookup-postProcessedOutputTokens"
++ "contactLookup-preProcessedOutputTokens"
++ "contactPhoneNumber"
++ "contact_email"
++ "contact_phone_number"
++ "contact_type"
++ "contact_website"
++ "coreLocationAndHeading"
++ "coreRecognitionText"
++ "country"
++ "createCalendarEvent"
++ "createSessionContexts: requested types=%s"
++ "createSessionContexts: type %s not registered"
++ "createStreamingContext: creating context for %s"
++ "createTapToRadar: attached HEIC for entity %s"
++ "createTapToRadar: cancelled while waiting for entity"
++ "createTapToRadar: could not get entity for HEIC: %s"
++ "createTapToRadar: entity ID = '%s'"
++ "createTapToRadar: entity not available in time, proceeding without HEIC"
++ "createTapToRadar: fell back to PNG attachment"
++ "createTransaction"
++ "create_calendar_event"
++ "currentIPCountryCodeAllowance"
++ "cv-execution-mode"
++ "daily"
++ "days"
++ "debugInfo"
++ "defaultActionTarget="
++ "department_name"
++ "detectedLanguageIdentifier"
++ "detection"
++ "ean13"
++ "elevated"
++ "email_addresses"
++ "enableStreamingViccAndRaveSTXDomains"
++ "end_date"
++ "ensureCaptureEntity: received entity ID %s"
++ "event"
++ "eventAdmissionType"
++ "eventAttendeeName"
++ "eventEndDatetime"
++ "eventLookup-preProcessedOutputTokens"
++ "eventPerformerNames"
++ "eventStartDatetime"
++ "eventTicket"
++ "event_admission_type"
++ "event_attendee_name"
++ "event_end_datetime"
++ "event_location"
++ "event_name"
++ "event_performer_names"
++ "event_seat_number"
++ "event_seat_row"
++ "event_seat_section"
++ "event_seats"
++ "event_start_datetime"
++ "event_venue_name"
++ "executeBarcodeAction(_:)"
++ "executeInference failed for %s: %@"
++ "executeInference: sessionContexts is nil for %s"
++ "executePredictedAction %s failed with %s"
++ "expiration_date"
++ "externalProviderID"
++ "externalServiceNotSetUp"
++ "extractionFinished"
++ "fallbackDeveloperMenuGesture"
++ "family_name"
++ "fat"
++ "fiber"
++ "food_presentation"
++ "forcePCCToolCalls"
++ "formattedReviewCount"
++ "frequency"
++ "friday"
++ "gVICC v1 asset available"
++ "gVICC v2 asset available"
++ "generate_nutrition_card"
++ "genericObjectScore"
++ "genericObjectScoreThreshold"
++ "geoLookupEval"
++ "giftCard"
++ "gift_card_number"
++ "gift_card_pin"
++ "given_name"
++ "good"
++ "googleSearchCount"
++ "grains"
++ "gray"
++ "green"
++ "groundingLabelsInSaliencyOrder"
++ "groundingResults"
++ "guardrailOutOfDateError"
++ "gviccMD1"
++ "gviccMD2"
++ "gviccMD4"
++ "gvicc_v1.schema.json"
++ "gvicc_v2.schema.json"
++ "handle variant "
++ "hasOnboardedAutoSearch"
++ "hasOnboardedCamera"
++ "healthData failed: "
++ "healthDataLookup"
++ "healthDataLookup-postProcessedOutputTokens"
++ "healthDataLookup-preProcessedOutputTokens"
++ "health_log_data_vi"
++ "healthy"
++ "high"
++ "hourly"
++ "i2of5"
++ "iVICC asset available"
++ "imageUnderstanding.stx_multimodal"
++ "includeGenericObjects"
++ "indigo"
++ "inputSafetyError"
++ "insights"
++ "intelligenceAssetsAvailability"
++ "intelligenceEnablement"
++ "intelligentPass"
++ "intelligentPass failed: "
++ "intelligentPassLookup"
++ "intelligentPassLookup-postProcessedOutputTokens"
++ "intelligentPassLookup-preProcessedOutputTokens"
++ "invalid model bundle"
++ "invokeCampo: Use scene hosting instead: this was not expected"
++ "invokeCampo: alertable failure for %s: %@"
++ "invokeCampo: cancelled"
++ "invokeCampo: cancelled while waiting for entity"
++ "invokeCampo: conditioningPayload — %ld bytes, content=%s"
++ "invokeCampo: externalProviderID=%s"
++ "invokeCampo: failed for %s: %@"
++ "invokeCampo: failed to get pixels"
++ "invokeCampo: media attachment failed for %s: %@"
++ "invokeCampo: presentation handled"
++ "invokeCampo: presentation unhandled"
++ "invokeCampo: received entity ID %s"
++ "invokeCampo: request came with execution param payload, adding to configuration"
++ "invokeCampo: requestPresentation — action=%s, entryPoint=%s, source=%s, entityID=%s..., attachments=%ld"
++ "invokeCampo: starting Campo flow for %s"
++ "invokeCampo: unexpected presentation result"
++ "invokeCampoBlind"
++ "invokeCampoBlind: Use scene hosting instead: this was not expected"
++ "invokeCampoBlind: cancelled"
++ "invokeCampoBlind: failed: %@"
++ "invokeCampoBlind: presentation handled"
++ "invokeCampoBlind: presentation unhandled"
++ "invokeCampoBlind: requestPresentation — entryPoint=%s, source=%s, attachments=0"
++ "invokeCampoBlind: starting blind Campo flow"
++ "invokeCampoBlind: unexpected presentation result"
++ "invokeCampoMacPostType"
++ "invokeCampoMagicPrompt"
++ "invokeCampoQuickType"
++ "isAutoSearchEnabled"
++ "isVisualIntelligenceHighlightToImageSearchEnabled"
++ "is_all_day"
++ "iso_country_code"
++ "ivicc"
++ "job_title"
++ "kg"
++ "lb"
++ "lean"
++ "legacy"
++ "low"
++ "making a request to %s%s"
++ "maxVICCableBundlesPerBatchCap"
++ "measurement_type"
++ "medium"
++ "member_name"
++ "member_since"
++ "member_status"
++ "membershipCard"
++ "membershipNumber"
++ "membershipProgramName"
++ "membership_number"
++ "membership_program_name"
++ "merchantLocation"
++ "merchantNameInImage"
++ "merchant_location"
++ "merchant_name_in_image"
++ "metadetection for barcode found in aborted state: "
++ "mg/dl"
++ "middle_name"
++ "minimal"
++ "mixed"
++ "mmhg"
++ "mmol/l"
++ "modelAssetIdentifier"
++ "modelAssetVersion"
++ "modifierDescription"
++ "monday"
++ "monetary_amount"
++ "montaraEnablement"
++ "montaraNotAgeRestricted"
++ "montaraNotMDMRestricted"
++ "monthly"
++ "name_prefix"
++ "name_suffix"
++ "natural landmark"
++ "nickname"
++ "no CVBundle for Event Creation"
++ "no CVBundle for contact lookup"
++ "no CVBundle for health data lookup"
++ "no CVBundle for intelligent pass lookup"
++ "no CVBundle for nutrition lookup"
++ "no CVBundle for transaction lookup"
++ "no_food"
++ "non_balanced"
++ "non_lean"
++ "non_packaged"
++ "none"
++ "nosign.badge.shield.half.filled"
++ "note"
++ "nutrition failed: "
++ "nutrition-inference-metadata"
++ "nutritionInsights"
++ "nutritionLookup-postProcessedOutputTokens"
++ "nutritionLookup-preProcessedOutputTokens"
++ "nutrition_analysis"
++ "nutrition_quality"
++ "ocrByGroundingResultId"
++ "onboardAutoSearchRequired"
++ "onboardAutoSearchResponse"
++ "onboardingRequired"
++ "onboardingResponse"
++ "oneShotVerticalContent"
++ "oneShotVerticalContent: first verticalContent batch issued; follow-ups will be gated on first-party action presence"
++ "oneShotVerticalContent: first-party action already present; suppressing %ld follow-up verticalContent DRQ(s)"
++ "oneShotVerticalContent: no first-party action yet; allowing follow-up verticalContent batch"
++ "openEndedExtraction"
++ "openMissedPauseRadarDraft: TTR unavailable on this platform/build; dropping request."
++ "operatingHoursDescription"
++ "operatingHoursState"
++ "orange"
++ "organization"
++ "organizationName"
++ "organization_name"
++ "other"
++ "outputSafetyError"
++ "packaged"
++ "pass_details"
++ "pass_type"
++ "payloadDataType="
++ "pdf417"
++ "pegasus_geo_internal_id"
++ "performDefaultActionWithCompletionHandler:"
++ "person"
++ "person.badge.plus"
++ "phone_numbers"
++ "phoneticOrganizationName"
++ "phoneticRepresentation.familyName"
++ "phoneticRepresentation.givenName"
++ "phoneticRepresentation.middleName"
++ "phoneticRepresentation.namePrefix"
++ "phoneticRepresentation.nameSuffix"
++ "phoneticRepresentation.nickname"
++ "phonetic_family_name"
++ "phonetic_given_name"
++ "phonetic_middle_name"
++ "phonetic_organization_name"
++ "photo.stack.fill"
++ "plate"
++ "play.rectangle.fill"
++ "postalAddresses["
++ "postal_addresses"
++ "postal_code"
++ "precompiledBundle mlmodelc "
++ "prepareForOverlayToSlamOnTopOfYou"
++ "prewarmAll: %s failed: %@"
++ "priceRangeDescription"
++ "processing"
++ "productCondition"
++ "productOriginalPrice"
++ "productSaleLabel"
++ "promptBundleIdentifier"
++ "promptTemplateID"
++ "protein"
++ "provideEntityID called but stream is not InProcessStream"
++ "provideEntityID: provided entity %s for screenshot analysis"
++ "provided entity failure for timestamp %f: %@"
++ "provided entity state %s for timestamp %f"
++ "purple"
++ "qr"
++ "questionmark.circle"
++ "rawTokens contact "
++ "rawTokens healthData "
++ "rawTokens intelligentPass "
++ "rawTokens nutrition "
++ "rawTokens subEvent "
++ "rawTokens transaction "
++ "rawTokens vicc "
++ "readableTranscript"
++ "recognition"
++ "recurrence"
++ "recurrenceEndDate"
++ "red"
++ "redirectToExternalService"
++ "refined"
++ "registerInferenceProviders: inferenceTypes=%s"
++ "registered capture at timestamp %f"
++ "rejectBeverageNutritionResults"
++ "relatedSearchQueries"
++ "relatedSearchURL"
++ "relationships"
++ "replay"
++ "request didn't produce any response"
++ "runInProcess changed from %s to %{bool}d; restarting session"
++ "saturated"
++ "saturday"
++ "score"
++ "sendExecutionRequestToVAPE requires either predictedAction or customActionIdentity in vapeExecutionContext"
++ "setEntityRequestCallback(_:)"
++ "setEntityRequestCallback: handler cleared (in-process)"
++ "setEntityRequestCallback: handler cleared (out-of-process)"
++ "setEntityRequestCallback: handler set (in-process)"
++ "setEntityRequestCallback: handler set (out-of-process)"
++ "setEntityRequestCallback: no supported stream or session available"
++ "shouldShowDisclaimer"
++ "showGenericObjects"
++ "showPeopleDisclaimer"
++ "siriAssetsAvailability"
++ "social_profiles"
++ "splashScreenPresentation"
++ "sports_equipment"
++ "st"
++ "start_date"
++ "stillAPI"
++ "stillCompositeOverlays"
++ "street"
++ "structuredOutput"
++ "subAdministrativeArea"
++ "sub_administrative_area"
++ "sub_locality"
++ "summary"
++ "sunday"
++ "systemTimeFormatting"
++ "text.line.2.summary"
++ "theme_color"
++ "thursday"
++ "timestamp pinID entityID state "
++ "timestamp pinID error "
++ "timestamp pinID minimumState "
++ "toolCalling"
++ "transaction"
++ "transaction failed: "
++ "transactionLookup"
++ "transactionLookup-postProcessedOutputTokens"
++ "transactionLookup-preProcessedOutputTokens"
++ "transactionPlace"
++ "tuesday"
++ "unavailable with no reasons"
++ "unknown thought budget. Defaulting to minimal"
++ "updated availability of %s: %s"
++ "url parentURL "
++ "url_addresses"
++ "useBatchEmbeddingMatching"
++ "useBundledNutritionPromptV11"
++ "verticalIntegrationContentClassifier"
++ "very_high"
++ "very_low"
++ "viContentClassifier"
++ "vi_content_classifier"
++ "vicc-classification-rejected-"
++ "vicc.schema.json"
++ "visibleIngredients"
++ "vision_model"
++ "visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettized"
++ "visualgrounding_md9_1_v1_t5ysibp2ka_epoch_10_categorynumber32_palettized_text_feats"
++ "vluGroundedParse"
++ "waitForProcessingTurn()"
++ "waiterID resolution "
++ "wednesday"
++ "weekly"
++ "whole"
++ "yearly"
++ "yyyy-MM-dd'T'HH:mm"
++ "yyyy-MM-dd'T'HH:mm:ss"
++ "{\"reasoning_effort\": \""
++ "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ images }}{{ task }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+- " are not valid because we since ran on "
+- " integration features on this iPhone."
+- " unexpectedly left the queue. This shouldn't happen"
+- "#16@0:8"
+- "$__lazy_storage_$_allowableRegion"
+- "$__lazy_storage_$_fillColorContext"
+- "$__lazy_storage_$_isRelleno"
+- "$__lazy_storage_$_isUnitTest"
+- "$__lazy_storage_$_liveHeadingUpdates"
+- "$__lazy_storage_$_m2m"
+- "$defaultActor"
+- "%s is already prewarmed"
+- ") due to too many repeated requests in a short time frame."
+- ", restricted language"
+- "-- Text: %s"
+- "--> _update begin for frame %s"
+- ".cxx_destruct"
+- "2d digital media"
+- "<-- _update end for frame %s"
+- "?"
+- "@\"<GEOAnnotatedItemList>\"16@0:8"
+- "@\"<GEOEncyclopedicInfo>\"16@0:8"
+- "@\"<GEOMapItem>\"16@0:8"
+- "@\"<GEOMapItem>\"20@0:8B16"
+- "@\"<GEOMapItemTransitInfo>\"16@0:8"
+- "@\"<GEOMapItemVenueInfo>\"16@0:8"
+- "@\"<GEOTransitAttribution>\"16@0:8"
+- "@\"<GEOTransitVehiclePosition>\"16@0:8"
+- "@\"GEOAddress\"16@0:8"
+- "@\"GEOAddressObject\"16@0:8"
+- "@\"GEOAppleRating\"16@0:8"
+- "@\"GEOAssociatedApp\"16@0:8"
+- "@\"GEOBusinessAssets\"16@0:8"
+- "@\"GEOEVCharger\"16@0:8"
+- "@\"GEOEnclosingPlace\"16@0:8"
+- "@\"GEOEnhancedPlacement\"16@0:8"
+- "@\"GEOEnrichmentData\"16@0:8"
+- "@\"GEOEnrichmentInfo\"16@0:8"
+- "@\"GEOExploreGuides\"16@0:8"
+- "@\"GEOFeatureStyleAttributes\"16@0:8"
+- "@\"GEOHikeSummary\"16@0:8"
+- "@\"GEOInlineRapEnablement\"16@0:8"
+- "@\"GEOLabelGeometry\"16@0:8"
+- "@\"GEOLocalizedString\"16@0:8"
+- "@\"GEOMapItemAdditionalPlaceInfo\"16@0:8"
+- "@\"GEOMapItemClientAttributes\"16@0:8"
+- "@\"GEOMapItemContainedPlace\"16@0:8"
+- "@\"GEOMapItemDetourInfo\"16@0:8"
+- "@\"GEOMapItemIdentifier\"16@0:8"
+- "@\"GEOMapItemPhotosAttribution\"16@0:8"
+- "@\"GEOMapItemPlaceAttribution\"16@0:8"
+- "@\"GEOMapItemReviewsAttribution\"16@0:8"
+- "@\"GEOMapRegion\"16@0:8"
+- "@\"GEOMapRegion\"20@0:8i16"
+- "@\"GEOMessageLink\"16@0:8"
+- "@\"GEOMiniBrowseCategories\"16@0:8"
+- "@\"GEOMuninViewState\"16@0:8"
+- "@\"GEOPDFlyover\"16@0:8"
+- "@\"GEOPDHikeAssociatedInfo\"16@0:8"
+- "@\"GEOPDHikeGeometry\"16@0:8"
+- "@\"GEOPDPlace\"16@0:8"
+- "@\"GEOPDURLData\"16@0:8"
+- "@\"GEOPOIClaim\"16@0:8"
+- "@\"GEOPlace\"16@0:8"
+- "@\"GEOPlaceQuestionnaire\"16@0:8"
+- "@\"GEOPlaceResult\"16@0:8"
+- "@\"GEOPlacecardLayoutData\"16@0:8"
+- "@\"GEOPriceDescription\"16@0:8"
+- "@\"GEORelatedPlaceList\"20@0:8i16"
+- "@\"GEORestaurantFeaturesLink\"16@0:8"
+- "@\"GEOStorefrontInfo\"16@0:8"
+- "@\"GEOStorefrontPresentationInfo\"16@0:8"
+- "@\"GEOStyleAttributes\"16@0:8"
+- "@\"GEOTooltip\"16@0:8"
+- "@\"GEOTrailHead\"16@0:8"
+- "@\"GEOViewportFrame\"16@0:8"
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"20@0:8I16"
+- "@\"NSData\"16@0:8"
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSNumber\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSTimeZone\"16@0:8"
+- "@\"NSURL\"16@0:8"
+- "@\"NSURL\"36@0:8{CGSize=dd}16B32"
+- "@\"VICVisualIntelligenceAnalysisRequest\""
+- "@\"VICVisualIntelligenceAnalysisRequestConfig\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8I16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@36@0:8{CGSize=dd}16B32"
+- "@40@0:8:16@24@32"
+- "AFM+ (STX) inference result: %{sensitive}s"
+- "AFM+ (VICC) inference result: %s"
+- "AI_OVERVIEW"
+- "ANSWER"
+- "APPLE_LIVE_VIEWFINDER"
+- "APPLE_SCREENSHOT"
+- "Accuracy auth: %s"
+- "Action %s failed with %s"
+- "Action %s returned visualSearchQuery result %s"
+- "Action %s was executed successfully"
+- "Action %s was executed successfully and has followup"
+- "Action prediction client execution request failed: %@"
+- "Adding dispatch request %s to the dispatch queue."
+- "All DD-formatted dates are in the past"
+- "Apparel_&_Accessories"
+- "Apple Visual Intelligence/"
+- "B16@0:8"
+- "B20@0:8I16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<GEOMapItem>\"16"
+- "B24@0:8@\"CLLocationManager\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B28@0:8@16B24"
+- "BGActivitySessionStarted"
+- "Beginning search request %s at %f"
+- "Bypassing the queue for identifier %s. This should only happen for testing."
+- "CFBundleShortVersionString"
+- "CGImage"
+- "CLLocationManagerDelegate"
+- "CVCoordinator ignoring frame at %f as tracking is not normal."
+- "CVCoordinator.AFMProcessor.prepare"
+- "CVCoordinator.BarcodeProcessor.prepare"
+- "CVCoordinator.CoreRecognitionProcessor.prepare"
+- "CVCoordinator.GroundingProcessor.prepare"
+- "CVCoordinator.StreamingVisualIntelligenceProcessor.prepare"
+- "Cached output for %s still not available after waiting %f seconds."
+- "Calling VLU search sooner than expected. t: %f, expected minimum time: %f"
+- "Cannot serialize STX to JSON for debug artifact: %@"
+- "Cannot serialize STX to JSON for debug artifact: %s"
+- "Checking location prompting criterion… | Onboarded: %{bool}d | Existing Authorization: %{bool}d"
+- "Classification of type %s is too old (%fs) and is transitioning from .completed to .canRefine for (bundle: %s)."
+- "Column %ld:"
+- "Conditionally prewarming %s based on classification"
+- "Could not create thumbnail image URL from %s"
+- "Could not open TTR draft URL: %s"
+- "Could not retrieve image for single event lookup"
+- "Could not start location updates %s"
+- "Couldn't select an event from STX result (%@), trying to fallback to text detection results..."
+- "DEFAULT"
+- "Deferring dispatch request %s for rate limiting at %f, dispatch again at %f"
+- "DetectedLabels"
+- "Detection type %s not supported for token generation."
+- "Detections from "
+- "Disabled category "
+- "Disabled feature"
+- "Dispatch request "
+- "Dispatch request %s Entered the queue to wait for %f seconds."
+- "Dispatch request %s can't run soon enough after waiting through the queue."
+- "Dispatch request %s could not run because something cut in line. This shouldn't happen."
+- "Dispatch request %s did not enter the queue and went straight to processing."
+- "Dispatch request %s did not move to the front of the queue."
+- "Dispatch request %s unexpectedly left the queue. This shouldn't happen"
+- "Downloading Support for Siri. Once downloaded, this iPhone will be able to ask "
+- "EXACT_MATCH"
+- "EXPERIMENTAL_OPTION_DEPRECATE_LVS"
+- "EXPERIMENTAL_OPTION_DISABLE_PRIVATE_ACCESS_TOKEN_AUTH"
+- "EXPERIMENTAL_OPTION_ENABLE_ADS"
+- "EXPERIMENTAL_OPTION_ENABLE_ADTEST"
+- "EXPERIMENTAL_OPTION_ENABLE_DEBUG_LOGGING"
+- "EXPERIMENTAL_OPTION_NONE"
+- "Enqueued request for %s @ %s"
+- "Enqueueing update(for:) %s"
+- "Error when trying to create an event: %s"
+- "Event"
+- "Event contains neither a start date nor an end date"
+- "EventLookupState connectivity error: "
+- "EventLookupState error: "
+- "EventLookupState finished: false"
+- "EventLookupState finished: true "
+- "EventLookupState guardrail out-of-date error: "
+- "EventLookupState input safety error: "
+- "EventLookupState output safety error: "
+- "EventLookupState restricted due to multiple errors: "
+- "EventLookupState safety error: "
+- "ExecuteAction unhandled case"
+- "Failed to encode STX result: %@ %s"
+- "Failed to encode VICC result: %@ %s"
+- "Failed to fetch private access token %@"
+- "Failed to generate an AFM result: %@"
+- "Failed to generate nonce input data"
+- "Failed to retrieve TGProcessor for %s."
+- "Failed to rotate the camera frame."
+- "Failed to start frameProcessingUpdateTask: state was %s"
+- "GEOMapItem"
+- "GMS for eventLookup"
+- "GMS reported that use case identifier '%s' is not available for event classification."
+- "Google Image Search is rate limited. There is a minimum required cool down period."
+- "Google Image Search is rate limited. Try again in %s."
+- "GoogleImageSearchKey"
+- "GreymatterAvailability preheated availability for %s to availability: %s, partnerAvailability: %s, chinaPolicy: %{bool}d"
+- "GreymatterAvailability updated availability for %s to availability: %s, updatedPartnerAvailability: %s, chinaPolicy: %{bool}d"
+- "GreymatterAvailability.availability"
+- "HEIFRepresentationOfImage:format:colorSpace:options:"
+- "Heading not available on this system"
+- "I16@0:8"
+- "INTERACTION_TYPE_NONE"
+- "INTERACTION_TYPE_REGION_SELECTION"
+- "INTERNAL"
+- "INVALID_INPUT"
+- "Identified language is in an unsupported language for event detection"
+- "Identified language is not in an unsupported language for event detection"
+- "Identifier %s is already in the queue. Waiting for it to complete before returning the cached value."
+- "Image search is being rate limited (as agreed upon with "
+- "Image search not available due to GMS use case availability"
+- "Incorrect actor executor assumption; Expected same executor as "
+- "JPEGRepresentationOfImage:colorSpace:options:"
+- "JSONObjectWithData:options:error:"
+- "Left queue after waiting for identifier %s. lastDispatchTime: %f"
+- "Location lookup failed: location service not running?"
+- "Location manager changed authorization changed %d"
+- "Location updates bailed"
+- "Lookup"
+- "Mismatch between number of bounding boxes and number of image regions returned"
+- "Musical_Instruments"
+- "NO_RESULT"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "Natural_Landmarks"
+- "No VICC result yet"
+- "No barcode detections present"
+- "No bundle available for event generation."
+- "No location available for MapsResultsClassifier. Requesting location access…"
+- "Not starting location updates because the user has not granted access"
+- "OCR completed (%ld blocks detected)"
+- "OCR running on %s (input pixel format %u)"
+- "OK"
+- "OS_dispatch_source"
+- "OS_dispatch_source_timer"
+- "PRODUCT"
+- "Passed prompting criterion. We should prompt for location."
+- "Performing Google search from %s : %s"
+- "Plants_&_Flowers_"
+- "Predicted action could not be constructed from built-in action"
+- "Private Access Token challengeData empty"
+- "PrivateToken token=\""
+- "Pushed update due to %s computation result %s @ %s"
+- "Pushed update due to: %s %s %s %s @ %s"
+- "Q16@0:8"
+- "RAPFlowType"
+- "RELATED_QUERY"
+- "Rejecting a %s because it intersects with %s."
+- "Rejecting classification: category %s is disabled"
+- "Rejecting classification: no category"
+- "Rejecting classification: not vicc data"
+- "Resetting CV state for still image processing (timestamp %f) with tasks still in flight: %s"
+- "Retrieved image search results in %f seconds"
+- "Returning cached output for identifier %s after waiting %f seconds."
+- "Running AFM+ (%s) inference with prompt \"%{sensitive}s\""
+- "SENSITIVE_NO_RESULT"
+- "SENSOR_SOURCE_DEFAULT"
+- "SENSOR_SOURCE_FRONT_CAMERA"
+- "SENSOR_SOURCE_REAR_CAMERA"
+- "SIMILAR_IMAGE"
+- "SIMILAR_IMAGES"
+- "STX didn't provide any usable result (%@)"
+- "Scheduling scene label reporting"
+- "Setting lastDispatchTime after processing %s. lastDispatchTime: %f"
+- "Should only get here if you're in the queue."
+- "Signs_&_Symbols_"
+- "SiriDirectActionSourceDelegate"
+- "Sporting_Goods_&_Gym_Equipment_&_Toys"
+- "StillImageMediaManifest[%s] refineCurrentFrame completed, serviced %ld requests: %s"
+- "StillImageMediaManifest[%s] refineCurrentFrame(detection: %{bool}d, requests: %s) called for timestamp %f"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"<GEOAnnotatedItemList>\",R,N,G_annotatedItemList"
+- "T@\"<GEOEncyclopedicInfo>\",R,N,G_encyclopedicInfo"
+- "T@\"<GEOMapItemTransitInfo>\",R,N,G_transitInfo"
+- "T@\"<GEOMapItemVenueInfo>\",R,N,G_venueInfo"
+- "T@\"<GEOTransitAttribution>\",R,N,G_transitAttribution"
+- "T@\"<GEOTransitVehiclePosition>\",R,N,G_transitVehiclePosition"
+- "T@\"GEOAddress\",R,N"
+- "T@\"GEOAppleRating\",R,N,G_overallAppleRating"
+- "T@\"GEOAssociatedApp\",R,N,G_associatedApp"
+- "T@\"GEOBusinessAssets\",R,N"
+- "T@\"GEOEVCharger\",R,N,G_evCharger"
+- "T@\"GEOEnclosingPlace\",R,N,G_enclosingPlace"
+- "T@\"GEOEnhancedPlacement\",R,N,G_enhancedPlacement"
+- "T@\"GEOEnrichmentData\",R,N,G_enrichmentData"
+- "T@\"GEOEnrichmentInfo\",R,N,G_enrichmentInfo"
+- "T@\"GEOExploreGuides\",R,N,G_exploreGuides"
+- "T@\"GEOFeatureStyleAttributes\",R,N,G_styleAttributes"
+- "T@\"GEOHikeSummary\",R,N,G_hikeSummary"
+- "T@\"GEOInlineRapEnablement\",R,N,G_inlineRapEnablement"
+- "T@\"GEOLabelGeometry\",R,N,G_labelGeometry"
+- "T@\"GEOLocalizedString\",R,N"
+- "T@\"GEOMapItemClientAttributes\",R,N,G_clientAttributes"
+- "T@\"GEOMapItemContainedPlace\",R,N,G_containedPlace"
+- "T@\"GEOMapItemDetourInfo\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N,G_identifier"
+- "T@\"GEOMapItemPhotosAttribution\",R,N,G_photosAttribution"
+- "T@\"GEOMapItemPlaceAttribution\",R,N,G_attribution"
+- "T@\"GEOMapItemReviewsAttribution\",R,N,G_reviewsAttribution"
+- "T@\"GEOMapRegion\",R,N"
+- "T@\"GEOMessageLink\",R,N,G_messageLink"
+- "T@\"GEOMiniBrowseCategories\",R,N,G_miniBrowseCategories"
+- "T@\"GEOMuninViewState\",R,N,G_muninViewState"
+- "T@\"GEOPDFlyover\",R,N,G_flyover"
+- "T@\"GEOPDHikeAssociatedInfo\",R,N,G_hikeAssociatedInfo"
+- "T@\"GEOPDHikeGeometry\",R,N,G_hikeGeometry"
+- "T@\"GEOPDPlace\",R,N,G_placeData"
+- "T@\"GEOPDURLData\",R,N"
+- "T@\"GEOPOIClaim\",R,N,G_poiClaim"
+- "T@\"GEOPlace\",R,N,G_place"
+- "T@\"GEOPlaceQuestionnaire\",R,N,G_placeQuestionnaire"
+- "T@\"GEOPlaceResult\",R,N,G_placeResult"
+- "T@\"GEOPlacecardLayoutData\",R,N,G_placecardLayoutData"
+- "T@\"GEOPriceDescription\",R,N,G_priceDescription"
+- "T@\"GEORestaurantFeaturesLink\",R,N,G_featureLink"
+- "T@\"GEOStorefrontInfo\",R,N,G_storefrontInfo"
+- "T@\"GEOStorefrontPresentationInfo\",R,N,G_storefrontPresentationInfo"
+- "T@\"GEOStyleAttributes\",R,N,G_walletCategoryStyling"
+- "T@\"GEOStyleAttributes\",R,N,G_walletPlaceStyling"
+- "T@\"GEOTooltip\",R,N,G_tooltip"
+- "T@\"GEOTrailHead\",R,N,G_trailHead"
+- "T@\"GEOViewportFrame\",R,N,G_viewportFrame"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,G_accolades"
+- "T@\"NSArray\",R,N,G_additionalPlaceInfos"
+- "T@\"NSArray\",R,N,G_allPhotoAttributions"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryIDs"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryMUIDs"
+- "T@\"NSArray\",R,N,G_alternateSearchableNames"
+- "T@\"NSArray\",R,N,G_amenities"
+- "T@\"NSArray\",R,N,G_appleRatings"
+- "T@\"NSArray\",R,N,G_browseCategories"
+- "T@\"NSArray\",R,N,G_businessHours"
+- "T@\"NSArray\",R,N,G_captionedPhotoAlbums"
+- "T@\"NSArray\",R,N,G_childItems"
+- "T@\"NSArray\",R,N,G_enrichmentPhotos"
+- "T@\"NSArray\",R,N,G_externalActionLinks"
+- "T@\"NSArray\",R,N,G_identifierHistory"
+- "T@\"NSArray\",R,N,G_linkedServices"
+- "T@\"NSArray\",R,N,G_photos"
+- "T@\"NSArray\",R,N,G_placeCollectionPullQuotes"
+- "T@\"NSArray\",R,N,G_placeCollections"
+- "T@\"NSArray\",R,N,G_placeCollectionsIds"
+- "T@\"NSArray\",R,N,G_quickLinks"
+- "T@\"NSArray\",R,N,G_relatedPlaceLists"
+- "T@\"NSArray\",R,N,G_reviews"
+- "T@\"NSArray\",R,N,G_roadAccessPoints"
+- "T@\"NSArray\",R,N,G_searchResultPhotoCarousel"
+- "T@\"NSArray\",R,N,G_secondaryQuickLinks"
+- "T@\"NSArray\",R,N,G_tips"
+- "T@\"NSData\",R,N"
+- "T@\"NSData\",R,N,G_placeDataAsData"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",N,&,VvluAuthorized"
+- "T@\"NSNumber\",N,R"
+- "T@\"NSNumber\",R,N,G_mapsCategoryMUID"
+- "T@\"NSSet\",R,N,G_alternateIdentifiers"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N,G_vendorID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,G_bestAvailableCountryCode"
+- "T@\"NSString\",R,N,G_businessURL"
+- "T@\"NSString\",R,N,G_disambiguationName"
+- "T@\"NSString\",R,N,G_flyoverAnnouncementMessage"
+- "T@\"NSString\",R,N,G_iso3166CountryCode"
+- "T@\"NSString\",R,N,G_iso3166SubdivisionCode"
+- "T@\"NSString\",R,N,G_mapsCategoryId"
+- "T@\"NSString\",R,N,G_placeDescription"
+- "T@\"NSString\",R,N,G_poiCategory"
+- "T@\"NSString\",R,N,G_poiPinpointURLString"
+- "T@\"NSString\",R,N,G_poiSurveyURLString"
+- "T@\"NSString\",R,N,G_resultSnippetLocationString"
+- "T@\"NSString\",R,N,G_telephone"
+- "T@\"NSString\",R,N,G_walletCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedString"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedStringLocale"
+- "T@\"NSString\",R,N,G_walletMapsCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedString"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedStringLocale"
+- "T@\"NSTimeZone\",R,N"
+- "T@\"NSURL\",R,C,N,G_providerURL"
+- "T@\"NSURL\",R,C,N,G_webURL"
+- "T@\"VICVisualIntelligenceAnalysisRequest\",N,&,Vrequest"
+- "T@\"VICVisualIntelligenceAnalysisRequestConfig\",N,&,Vconfig"
+- "T@,N,W,Vrequest"
+- "TB,N,R"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,G_canDownloadMorePhotos"
+- "TB,R,N,G_enableRAPLightweightFeedback"
+- "TB,R,N,G_hasAnyAccolades"
+- "TB,R,N,G_hasAnyAmenities"
+- "TB,R,N,G_hasAppleRatings"
+- "TB,R,N,G_hasAreaHighlightId"
+- "TB,R,N,G_hasAreaInMeters"
+- "TB,R,N,G_hasBrandMUID"
+- "TB,R,N,G_hasBusinessHours"
+- "TB,R,N,G_hasCaptionedPhotoAlbum"
+- "TB,R,N,G_hasCurrentOperatingHours"
+- "TB,R,N,G_hasEVCharger"
+- "TB,R,N,G_hasEnclosingPlace"
+- "TB,R,N,G_hasEncyclopedicInfo"
+- "TB,R,N,G_hasFeatureLink"
+- "TB,R,N,G_hasFlyover"
+- "TB,R,N,G_hasGroundViewLocationId"
+- "TB,R,N,G_hasLinkedServices"
+- "TB,R,N,G_hasMUID"
+- "TB,R,N,G_hasOperatingHours"
+- "TB,R,N,G_hasPOIClaim"
+- "TB,R,N,G_hasPlaceCollectionPullQuotes"
+- "TB,R,N,G_hasPlaceDescription"
+- "TB,R,N,G_hasPlaceQuestionnaire"
+- "TB,R,N,G_hasPriceRange"
+- "TB,R,N,G_hasResolvablePartialInformation"
+- "TB,R,N,G_hasResultProviderID"
+- "TB,R,N,G_hasSprLandmarkIcon"
+- "TB,R,N,G_hasTelephone"
+- "TB,R,N,G_hasTransit"
+- "TB,R,N,G_hasUserRatingScore"
+- "TB,R,N,G_hasVenueFeatureType"
+- "TB,R,N,G_hasWifiFingerprintConfidence"
+- "TB,R,N,G_hasWifiFingerprintLabelStatusCode"
+- "TB,R,N,G_hasWifiFingerprintLabelType"
+- "TB,R,N,G_isCoordinateDerived"
+- "TB,R,N,G_isInLinkedPlaceRelationship"
+- "TB,R,N,G_isPartiallyClientized"
+- "TB,R,N,G_isStandaloneBrand"
+- "TB,R,N,G_isTransitDisplayFeature"
+- "TB,R,N,G_needsAttribution"
+- "TB,R,N,G_optsOutOfTelephoneAds"
+- "TB,R,N,G_responseStatusIsIncomplete"
+- "TB,R,N,G_showSuggestAnEditButton"
+- "TB,R,N,GisDisputed"
+- "TB,R,N,GisValid"
+- "TI,R,N,G_maxScoreForPriceRange"
+- "TI,R,N,G_priceRange"
+- "TI,R,N,G_resultSnippetDistanceDisplayThreshold"
+- "TI,R,N,G_sampleSizeForUserRatingScore"
+- "TI,R,N,G_wifiFingerprintConfidence"
+- "TQ,R"
+- "TQ,R,N,G_areaHighlightId"
+- "TQ,R,N,G_brandMUID"
+- "TQ,R,N,G_customIconID"
+- "TQ,R,N,G_groundViewLocationId"
+- "TQ,R,N,G_muid"
+- "TQ,R,N,G_openingHoursOptions"
+- "TQ,R,N,G_totalPhotoCount"
+- "T^{__CVBuffer=},N,&,VpixelBuffer"
+- "Tamale.AFMProcessor.batchProcess.inference"
+- "Tamale.AFMProcessor.batchProcess.preprocessing"
+- "Td,R,N"
+- "Td,R,N,G_areaInMeters"
+- "Tf,R,N"
+- "Tf,R,N,G_normalizedUserRatingScore"
+- "Tf,R,N,G_photosMemoryScore"
+- "Ti,R,N"
+- "Ti,R,N,G_RAPFlowType"
+- "Ti,R,N,G_addressGeocodeAccuracy"
+- "Ti,R,N,G_hikeGeometryElevationModel"
+- "Ti,R,N,G_parsecSectionType"
+- "Ti,R,N,G_placeCategoryType"
+- "Ti,R,N,G_placeDisplayStyle"
+- "Ti,R,N,G_placeDisplayType"
+- "Ti,R,N,G_placeType"
+- "Ti,R,N,G_resultProviderID"
+- "Ti,R,N,G_venueFeatureType"
+- "Ti,R,N,G_wifiFingerprintLabelStatusCode"
+- "Ti,R,N,G_wifiFingerprintLabelType"
+- "Token generator is unavailable."
+- "Tools_&_Equipment"
+- "Top left: (%f, %f), top right: (%f, %f), bottom left: (%f, %f), bottom right: (%f, %f)\n"
+- "Tq,R,N"
+- "Track manager was released, skipping frame processing"
+- "Tried to preheat an already preheated GreymatterAvailability: %s"
+- "T{?=dd},R,N"
+- "UNSPECIFIED"
+- "URLForResource:withExtension:"
+- "Unable to service detection request: %@"
+- "Unconditional prewarming is not supported for %s"
+- "Unconditionally prewarming %s"
+- "Unhandled bundle type: "
+- "Unknown prompt type: %s"
+- "Unsupported combination of input requirements"
+- "Use case identifier %s is restricted: %s"
+- "VICVisualIntelligenceAnalysisRequest"
+- "VICVisualIntelligenceAnalysisRequestConfig"
+- "VICVisualIntelligenceAnalysisResult"
+- "VICVisualIntelligenceAnalyzer"
+- "VICVisualIntelligenceSaliencyStream"
+- "VIDEO"
+- "VIInternalSettings"
+- "VLU: parse returned %ld results: %s"
+- "VNImageIdealImageSizeProviding"
+- "Vehicles_&_Automotive"
+- "VisualIntelligenceCamera"
+- "VisualIntelligenceCore"
+- "VisualIntelligenceCore/AFMProcessor.swift"
+- "VisualIntelligenceCore/BarcodeProcessor.swift"
+- "VisualIntelligenceCore/ConnectivityUtility.swift"
+- "VisualIntelligenceCore/Event+Selection.swift"
+- "VisualIntelligenceCore/VisionProcessor.swift"
+- "VisualIntelligenceCore1"
+- "Vv16@0:8"
+- "WrappedM2MController"
+- "[%f] Completed for %s (still: %{bool}d)"
+- "[%f] Processing aborted due to error for %s (still: %{bool}d): %s"
+- "[%s] CVCoordinator about to filter %ld requests: %s against inflightTypes: %s"
+- "[%s] CVCoordinator after filtering: %ld requests remain: %s"
+- "[%s] CVCoordinator filtering out %s - still busy loading (isHighResolutionStill: %{bool}d)"
+- "^{_NSZone=}16@0:8"
+- "^{__CVBuffer=}"
+- "^{__CVBuffer=}16@0:8"
+- "_$observationRegistrar"
+- "_RAPFlowType"
+- "_TtC22VisualIntelligenceCore10FileWriter"
+- "_TtC22VisualIntelligenceCore11SPRTTrigger"
+- "_TtC22VisualIntelligenceCore12AFMProcessor"
+- "_TtC22VisualIntelligenceCore12TrackManager"
+- "_TtC22VisualIntelligenceCore13BundleManager"
+- "_TtC22VisualIntelligenceCore13CVCoordinator"
+- "_TtC22VisualIntelligenceCore14BundleSelector"
+- "_TtC22VisualIntelligenceCore15ActionPredictor"
+- "_TtC22VisualIntelligenceCore15InProcessStream"
+- "_TtC22VisualIntelligenceCore15SaliencySession"
+- "_TtC22VisualIntelligenceCore15VisionProcessor"
+- "_TtC22VisualIntelligenceCore16BarcodeProcessor"
+- "_TtC22VisualIntelligenceCore16LocationsHandler"
+- "_TtC22VisualIntelligenceCore18CVTrackedDetection"
+- "_TtC22VisualIntelligenceCore18GroundingProcessor"
+- "_TtC22VisualIntelligenceCore19ConnectivityUtility"
+- "_TtC22VisualIntelligenceCore19E5InferenceProvider"
+- "_TtC22VisualIntelligenceCore19UserDefaultsUtility"
+- "_TtC22VisualIntelligenceCore21BuiltInActionExecutor"
+- "_TtC22VisualIntelligenceCore21RellenoGlobalSettings"
+- "_TtC22VisualIntelligenceCore21SaliencyPixelSmuggler"
+- "_TtC22VisualIntelligenceCore22BarcodeParseSerializer"
+- "_TtC22VisualIntelligenceCore22CVDebugArtifactManager"
+- "_TtC22VisualIntelligenceCore22VisionKitConfigStorage"
+- "_TtC22VisualIntelligenceCore23DictionaryConfigStorage"
+- "_TtC22VisualIntelligenceCore23SiriDirectActionManager"
+- "_TtC22VisualIntelligenceCore24AnalyticsVLUEventManager"
+- "_TtC22VisualIntelligenceCore24CoreRecognitionProcessor"
+- "_TtC22VisualIntelligenceCore24GroundingMD6_1Descriptor"
+- "_TtC22VisualIntelligenceCore24SaliencyEngineIdentifier"
+- "_TtC22VisualIntelligenceCore24SiriStreamingVoicePlayer"
+- "_TtC22VisualIntelligenceCore25AskAcmeRequirementManager"
+- "_TtC22VisualIntelligenceCore26HighResolutionStillBarrier"
+- "_TtC22VisualIntelligenceCore26VisualIntelligenceAnalyzer"
+- "_TtC22VisualIntelligenceCore28GaussianIntegralBundleRanker"
+- "_TtC22VisualIntelligenceCore28GoogleImageSearchRateLimiter"
+- "_TtC22VisualIntelligenceCore28SiriVoiceAvailabilityUtility"
+- "_TtC22VisualIntelligenceCore31SafetySensitiveWordListProvider"
+- "_TtC22VisualIntelligenceCore31VisualIntelligenceSearchService"
+- "_TtC22VisualIntelligenceCore35AnalyticsSceneLabelReportingManager"
+- "_TtC22VisualIntelligenceCore36StreamingVisualIntelligenceProcessor"
+- "_TtC22VisualIntelligenceCore39VisualIntelligenceSearchServiceInternal"
+- "_TtC22VisualIntelligenceCore9GeoLookup"
+- "_TtC22VisualIntelligenceCore9M2MHandle"
+- "_TtC22VisualIntelligenceCoreP33_08481D38E9BA75BAB15F2C1D47A8120216BundleClassifier"
+- "_TtC22VisualIntelligenceCoreP33_2D676846DD9D649B8AF0B23C5D24AD4724CLHeadingUpdatePublisher"
+- "_TtC22VisualIntelligenceCoreP33_D9CC66F79C12BDD154DA9ACC202549C716SystemImageCache"
+- "_TtCV22VisualIntelligenceCore14Lens_ProductAdP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass"
+- "_TtCV22VisualIntelligenceCore17LoggingSignposter12AutoInterval"
+- "_TtCV22VisualIntelligenceCore22GreymatterAvailabilityP33_99C6E5ED3F40308BF68826FA333809E717AvailabilityEntry"
+- "_TtCV22VisualIntelligenceCore9Lens_ItemP33_76CE48976919464F8498DDC3FEF7E46313_StorageClass"
+- "_a11YLabel"
+- "_accolades"
+- "_additionalPlaceInfos"
+- "_addressGeocodeAccuracy"
+- "_allPhotoAttributions"
+- "_alternateIdentifiers"
+- "_alternateMapsCategoryIDs"
+- "_alternateMapsCategoryMUIDs"
+- "_alternateSearchableNames"
+- "_amenities"
+- "_annotatedItemList"
+- "_appleRatings"
+- "_areaHighlightId"
+- "_areaInMeters"
+- "_arrivalMapRegionForTransportType:"
+- "_asPlaceInfo"
+- "_associatedApp"
+- "_attribution"
+- "_backgroundActivity"
+- "_badgeAttributes"
+- "_bestAvailableCountryCode"
+- "_bestAvatarBrandIconURLForSize:allowSmaller:"
+- "_bestHeroBrandIconURLForSize:allowSmaller:"
+- "_bestIconForPlaceCardHeaderDisplay:allowSmaller:"
+- "_bestNavbarBrandIconURLForSize:allowSmaller:"
+- "_brandMUID"
+- "_browseCategories"
+- "_bundleClassificationRunner"
+- "_businessHours"
+- "_businessURL"
+- "_callToAction"
+- "_canActivate"
+- "_canDownloadMorePhotos"
+- "_captionedPhotoAlbums"
+- "_childItems"
+- "_clickURL"
+- "_clientAttributes"
+- "_condition"
+- "_connectionStatus"
+- "_containedPlace"
+- "_couldBeConnectedToInternet"
+- "_count"
+- "_customIconID"
+- "_disambiguationName"
+- "_domainName"
+- "_enableRAPLightweightFeedback"
+- "_enclosingPlace"
+- "_encyclopedicInfo"
+- "_enhancedPlacement"
+- "_enrichmentData"
+- "_enrichmentInfo"
+- "_enrichmentPhotos"
+- "_evCharger"
+- "_exploreGuides"
+- "_externalActionLinks"
+- "_faviconBytes"
+- "_faviconBytesType"
+- "_faviconURL"
+- "_featureLink"
+- "_firstRelatedPlaceListForType:"
+- "_flyover"
+- "_flyoverAnnouncementMessage"
+- "_groundViewLocationId"
+- "_hasAnyAccolades"
+- "_hasAnyAmenities"
+- "_hasAppleRatings"
+- "_hasAreaHighlightId"
+- "_hasAreaInMeters"
+- "_hasBrandMUID"
+- "_hasBusinessHours"
+- "_hasCaptionedPhotoAlbum"
+- "_hasCellularConnection"
+- "_hasCurrentOperatingHours"
+- "_hasEVCharger"
+- "_hasEnclosingPlace"
+- "_hasEncyclopedicInfo"
+- "_hasFeatureLink"
+- "_hasFlyover"
+- "_hasGroundViewLocationId"
+- "_hasLinkedServices"
+- "_hasLocalizedCategoryNamesForType:"
+- "_hasMUID"
+- "_hasOperatingHours"
+- "_hasPOIClaim"
+- "_hasPlaceCollectionPullQuotes"
+- "_hasPlaceDescription"
+- "_hasPlaceQuestionnaire"
+- "_hasPriceDescription"
+- "_hasPriceRange"
+- "_hasResolvablePartialInformation"
+- "_hasResultProviderID"
+- "_hasSprLandmarkIcon"
+- "_hasTelephone"
+- "_hasTransit"
+- "_hasUserRatingScore"
+- "_hasVenueFeatureType"
+- "_hasWifiFingerprintConfidence"
+- "_hasWifiFingerprintLabelStatusCode"
+- "_hasWifiFingerprintLabelType"
+- "_heading"
+- "_hikeAssociatedInfo"
+- "_hikeGeometry"
+- "_hikeGeometryElevationModel"
+- "_hikeSummary"
+- "_identifier"
+- "_identifierHistory"
+- "_imageThumbnail"
+- "_inlineRapEnablement"
+- "_isActivated"
+- "_isBeginningRequest"
+- "_isCoordinateDerived"
+- "_isInLinkedPlaceRelationship"
+- "_isLocationSimulationActive"
+- "_isPartiallyClientized"
+- "_isPlaying"
+- "_isStandaloneBrand"
+- "_isStationary"
+- "_isTransitDisplayFeature"
+- "_iso3166CountryCode"
+- "_iso3166SubdivisionCode"
+- "_itemType"
+- "_labelGeometry"
+- "_lastLocationAccessRequestDate"
+- "_lastLocationInternal"
+- "_latestMetadata"
+- "_latestPlaybackIdentifier"
+- "_linkedServices"
+- "_localizedCategoryNamesForType:"
+- "_mapItemBySettingIsTransitDisplayFeature:"
+- "_mapItemByStrippingOptionalData"
+- "_mapsCategoryId"
+- "_mapsCategoryMUID"
+- "_maxScoreForPriceRange"
+- "_merchantName"
+- "_messageLink"
+- "_miniBrowseCategories"
+- "_muid"
+- "_muninViewState"
+- "_needsAttribution"
+- "_normalizedUserRatingScore"
+- "_openingHoursOptions"
+- "_optsOutOfTelephoneAds"
+- "_overallAppleRating"
+- "_parsecSectionType"
+- "_photos"
+- "_photosAttribution"
+- "_photosMemoryScore"
+- "_place"
+- "_placeCategoryType"
+- "_placeCollectionPullQuotes"
+- "_placeCollections"
+- "_placeCollectionsIds"
+- "_placeData"
+- "_placeDataAsData"
+- "_placeDescription"
+- "_placeDisplayStyle"
+- "_placeDisplayType"
+- "_placeQuestionnaire"
+- "_placeResult"
+- "_placeType"
+- "_placecardLayoutData"
+- "_playbackController"
+- "_playbackDestination"
+- "_poiCategory"
+- "_poiClaim"
+- "_poiPinpointURLString"
+- "_poiSurveyURLString"
+- "_priceDescription"
+- "_priceInfo"
+- "_priceRange"
+- "_priceRangeString"
+- "_productImage"
+- "_productTitle"
+- "_progressUpdateTimer"
+- "_providerURL"
+- "_quickLinks"
+- "_rating"
+- "_referrerURL"
+- "_relatedPlaceListForComponentIdentifier:"
+- "_relatedPlaceLists"
+- "_responseStatusIsIncomplete"
+- "_resultProviderID"
+- "_resultSnippetDistanceDisplayThreshold"
+- "_resultSnippetLocationString"
+- "_reviews"
+- "_reviewsAttribution"
+- "_reviewsDisplayName"
+- "_roadAccessPoints"
+- "_sampleSizeForUserRatingScore"
+- "_searchResultPhotoCarousel"
+- "_secondaryQuickLinks"
+- "_shoppableBadge"
+- "_showSuggestAnEditButton"
+- "_spokenAddressForLocale:"
+- "_storefrontInfo"
+- "_storefrontPresentationInfo"
+- "_styleAttributes"
+- "_telephone"
+- "_tips"
+- "_title"
+- "_tooltip"
+- "_totalPhotoCount"
+- "_trailHead"
+- "_transitAttribution"
+- "_transitInfo"
+- "_transitVehiclePosition"
+- "_updatesStarted"
+- "_vendorID"
+- "_venueFeatureType"
+- "_venueInfo"
+- "_videoDuration"
+- "_viewportFrame"
+- "_walletCategoryIdentifier"
+- "_walletCategoryLocalizedString"
+- "_walletCategoryLocalizedStringLocale"
+- "_walletCategoryStyling"
+- "_walletMapsCategoryIdentifier"
+- "_walletPlaceLocalizedString"
+- "_walletPlaceLocalizedStringLocale"
+- "_walletPlaceStyling"
+- "_webURL"
+- "_wifiFingerprintConfidence"
+- "_wifiFingerprintLabelStatusCode"
+- "_wifiFingerprintLabelType"
+- "a11y_label"
+- "about_this_ad_url"
+- "accolades"
+- "accuracyAuthorization"
+- "action-execution-bundle"
+- "actionDataIndex"
+- "actionIcon"
+- "actionPredictionClient"
+- "actionPredictorReadingTask"
+- "actionToPredictionResultMap"
+- "actionToPredictionResultMapTimeout"
+- "action_url"
+- "activateFromSource:"
+- "activationCompletionHandler"
+- "activeChangedTo:"
+- "activeSiriDaemonSession"
+- "ad_blocks"
+- "ad_disclosure_label"
+- "addObject:"
+- "addResourceWithType:data:options:"
+- "additionalPlaceInfos"
+- "addressDictionary"
+- "addressGeocodeAccuracy"
+- "addressObject"
+- "allDay"
+- "allPhotoAttributions"
+- "ally_label"
+- "alreadyRan"
+- "alternateIdentifiers"
+- "alternateMapsCategoryIDs"
+- "alternateMapsCategoryMUIDs"
+- "alternateNames"
+- "alternateSearchableNames"
+- "altitude"
+- "amenities"
+- "amphibian's head"
+- "amphibian's head+torso"
+- "annotatedItemList"
+- "answer"
+- "answers"
+- "appBundleIDWithVendorID:"
+- "app_bundle_id"
+- "apple.slice.fill"
+- "appleRatings"
+- "application/x-protobuf"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areaHighlightId"
+- "areaInMeters"
+- "areasOfInterest"
+- "artifacts"
+- "aspectRatioHandling"
+- "assistantIsEnabled"
+- "associatedApp"
+- "attribution"
+- "authorizationInfo"
+- "authorizationStateContinuation"
+- "authorizationStateUpdates"
+- "authorizationStatus"
+- "automotive symbol"
+- "autorelease"
+- "availabilityKey"
+- "average_rating"
+- "background"
+- "badge_attributes"
+- "badge_url"
+- "barcode-processor-VNObservation-"
+- "bestAvailableCountryCode"
+- "bird's head+torso"
+- "birthday.cake.fill"
+- "blockDuration"
+- "blockStartTime"
+- "block_level_disclosure"
+- "blocksWithTypes:inRegion:"
+- "books.vertical.fill"
+- "boolForKey:"
+- "boolForKey:defaultValue:"
+- "boolValue"
+- "boolValueSafe"
+- "boresightActionPinByTimestamp"
+- "boresightByTimestamp"
+- "boresightClassificationByTimestamp"
+- "bottomLeft"
+- "bottomRight"
+- "boundingBox"
+- "boundingQuad"
+- "boundingRectWithSize:options:attributes:context:"
+- "box"
+- "brandMUID"
+- "browseCategories"
+- "builtInActionExecutor"
+- "bundle"
+- "bundleClassificationFailures"
+- "bundleClassificationSuccesses"
+- "bundleForClass:"
+- "bundleIdToBundleClassifier"
+- "bundleManagerReadingTask"
+- "bundleURL"
+- "bundlesByTimestamp"
+- "businessAssets"
+- "businessHours"
+- "businessURL"
+- "buttonItems"
+- "buttonType"
+- "bytes"
+- "bytesPerRow"
+- "cache"
+- "cachedIntermediate"
+- "cachedOutput expiresAt "
+- "cachingRadiusMeters"
+- "callManager"
+- "call_to_action"
+- "canActivateChangedTo:"
+- "canDownloadMorePhotos"
+- "canine's head+torso"
+- "captionedPhotoAlbums"
+- "captureUserAction:target:value:"
+- "centerCoordinate"
+- "centerLat"
+- "centerLng"
+- "center_x"
+- "center_y"
+- "challengeData"
+- "childItems"
+- "children"
+- "class"
+- "classificationMergerTask"
+- "classificationRequestsStream"
+- "classificationRequestsStreamContinuation"
+- "classificationWorkerTask"
+- "classificationsNeverExpire"
+- "classifiers"
+- "click_url"
+- "clientAttributes"
+- "clientLocation"
+- "code"
+- "colorSpace"
+- "com.apple.VisualIntelligence.SiriVoiceAvailabilityUtility"
+- "com.apple.VisualIntelligence.structuredExtraction.addToCalendar"
+- "computeMatchingForCostMatrix:withRowCount:columnCount:maxIters:minimumNonzeroPaddingValue:"
+- "condition"
+- "config"
+- "configStorage"
+- "configuration"
+- "conformsToProtocol:"
+- "connectivityUtility"
+- "contactAddressType"
+- "contactIsMe"
+- "contactName"
+- "contactSpokenName"
+- "containedPlace"
+- "contentsWithTypes:"
+- "context_data"
+- "contract_disclosure"
+- "coordinate"
+- "copy"
+- "count"
+- "countForObject:"
+- "course"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "creationRequestForAsset"
+- "currentCVTime"
+- "currentDevice"
+- "currentFrame"
+- "currentHandler"
+- "currentMediaManifest"
+- "currentModuleLayoutEntry"
+- "currentRequestIdentifier"
+- "customIconID"
+- "cv-scheduler-mode"
+- "cvCoordinator"
+- "d16@0:8"
+- "d32@0:8@16d24"
+- "data"
+- "date"
+- "ddResult"
+- "dealloc"
+- "debugDescription"
+- "debug_request_id"
+- "defaultForKey:defaultValue:"
+- "defaultManager"
+- "defaultMetrics"
+- "defaultWorkspace"
+- "defaultsKeyForKey:"
+- "denyListManager"
+- "description"
+- "descriptor"
+- "detectedCodeContainer"
+- "detectedCodeWithBarcodeObservation:"
+- "detection-insufficient-confidence-"
+- "detection-unused-domain-"
+- "detectionRegimes"
+- "detectionTypeToMatchingTask"
+- "detectionsInQueue"
+- "detourInfo"
+- "diagnosticExecutionOutput"
+- "diffusion"
+- "dinosaur's head+torso"
+- "directActionSource"
+- "disambiguationName"
+- "disclaimerText"
+- "displayCategory"
+- "displayMapRegion"
+- "displayMapRegionOrNil"
+- "displayMaxZoom"
+- "displayMinZoom"
+- "disputed"
+- "distanceFromLocation:"
+- "domain_name"
+- "domestic cat's head"
+- "domestic cat's head+torso"
+- "domestic dog's head"
+- "domestic dog's head+torso"
+- "dominantLanguage"
+- "doubleForKey:defaultValue:"
+- "doubleValueSafe"
+- "dumpDebugArtifactsSettingsValue"
+- "dumpExportedImagerySettingsValue"
+- "emptyClassificationTypeToClassificationInfo"
+- "enableRAPLightweightFeedback"
+- "enabledDetectionType"
+- "enclosingPlace"
+- "enclosingRegionIdentifier"
+- "encodeWithCoder:"
+- "encodedData"
+- "encyclopedicInfo"
+- "endDate"
+- "endMediaSessionForIdentifier:"
+- "enhancedPlacement"
+- "enrichmentData"
+- "enrichmentInfo"
+- "enrichmentPhotos"
+- "entryPoint"
+- "entrypoint"
+- "enumerateContentsWithTypes:usingBlock:"
+- "environmentBundleIdentifier"
+- "ephemeralSessionConfiguration"
+- "error_message"
+- "estimatedCompletionTime enqueuedTime "
+- "evCharger"
+- "evaluateWithObject:"
+- "eventDate"
+- "eventLookup-selectedEventTokens"
+- "eventName"
+- "eventTitle"
+- "exact_match"
+- "executeAction %s failed with %s"
+- "experimental_options"
+- "exploreGuides"
+- "explore_grid"
+- "extent"
+- "externalActionLinks"
+- "externalTransitStationCode"
+- "f16@0:8"
+- "failed VLU search for a crazy timing bug."
+- "favicon_bytes"
+- "favicon_bytes_type"
+- "favicon_url"
+- "featureLink"
+- "featuresSurface"
+- "feed_index_position"
+- "feline's head+torso"
+- "fetchPrivateAccessTokenHeader()"
+- "fetchTokenWithQueue:completionHandler:"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "firstMatchInString:options:range:"
+- "fish's head+torso"
+- "floatValue"
+- "flyover"
+- "flyoverAnnouncementMessage"
+- "formatInfoCache"
+- "formatted_rating_count"
+- "fossil.shell.fill"
+- "frameProcessingTaskState"
+- "frontmostAudioOrVideoCall"
+- "fullAddressNoCurrentCountryWithMultiline:"
+- "full_price"
+- "gaussianGrid"
+- "generalPasteboard"
+- "geoAddress"
+- "geoFenceMapRegion"
+- "geoFenceMapRegionOrNil"
+- "geoMapItemIdentifier"
+- "getCRDocumentOutputRegion"
+- "getPlaybackStatusForIdentifier:"
+- "globalSession"
+- "greymatterAvailability"
+- "groundViewLocationId"
+- "groundedParse-input-"
+- "groundedParse-input-detections-"
+- "groundingStorage"
+- "groupType"
+- "groupedParagraphBlocksFromParagraphs:"
+- "hand.raised.fill"
+- "handleEmbeddingsOnlyGroundingRequests(_:frame:pixelBuffer:)"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleGroundingClassificationRequests(_:frame:pixelBuffer:)"
+- "handleGroundingRequests(_:frame:appliedCrop:pixelBuffer:)"
+- "handleRequest(_:frame:pixelBuffer:)"
+- "harbor seal's head"
+- "harbor seal's head+torso"
+- "hasAnyAccolades"
+- "hasAnyAmenities"
+- "hasAppleRatings"
+- "hasAreaHighlightId"
+- "hasAreaInMeters"
+- "hasBrandMUID"
+- "hasBusinessHours"
+- "hasCaptionedPhotoAlbum"
+- "hasCurrentOperatingHours"
+- "hasDisplayMaxZoom"
+- "hasDisplayMinZoom"
+- "hasEVCharger"
+- "hasEnclosingPlace"
+- "hasEncyclopedicInfo"
+- "hasExpiredComponents"
+- "hasFeatureLink"
+- "hasFlyover"
+- "hasGroundViewLocationId"
+- "hasLinkedServices"
+- "hasMUID"
+- "hasOperatingHours"
+- "hasPOIClaim"
+- "hasPlaceCollectionPullQuotes"
+- "hasPlaceDescription"
+- "hasPlaceQuestionnaire"
+- "hasPresentedGeoLookupFollowUpPrompt"
+- "hasPriceRange"
+- "hasResolvablePartialInformation"
+- "hasResultProviderID"
+- "hasSprLandmarkIcon"
+- "hasTelephone"
+- "hasTransit"
+- "hasUserRatingScore"
+- "hasVenueCapacity"
+- "hasVenueFeatureType"
+- "hasWifiFingerprintConfidence"
+- "hasWifiFingerprintLabelStatusCode"
+- "hasWifiFingerprintLabelType"
+- "hash"
+- "headingAccuracy"
+- "headingAvailable"
+- "headingContinuation"
+- "headingUpdatePublisher"
+- "height"
+- "highResolutionStillBarrier"
+- "hikeAssociatedInfo"
+- "hikeGeometry"
+- "hikeGeometryElevationModel"
+- "hikeSummary"
+- "historyBuffer"
+- "horizontalAccuracy"
+- "https://apple.com"
+- "https://lensfrontend-pa.googleapis.com/v1/visualdata?key=AIzaSyBQyYY2WhZfEaaA_clNLIR7zWmm4b0SVC4"
+- "https://policies.google.com/privacy"
+- "https://policies.google.com/terms"
+- "https://www.google.com"
+- "human's head+torso"
+- "human-made landmark"
+- "i108@0:8^{__CVBuffer=}16{CGRect={CGPoint=dd}{CGSize=dd}}24^{__CVBuffer=}56{CGRect={CGPoint=dd}{CGSize=dd}}64q96B104"
+- "i16@0:8"
+- "i72@0:8q16q24Q32Q40Q48Q56f64f68"
+- "idealDimension"
+- "idealImageFormat"
+- "idealOrientation"
+- "identifier"
+- "identifierHistory"
+- "identifierString"
+- "idleTimeBeforeUnblock"
+- "ignoreTrackingState"
+- "illuminated manuscript"
+- "imageAnnotations"
+- "imageByApplyingCGOrientation:"
+- "imageByApplyingTransform:"
+- "imageByCroppingToRect:"
+- "imageEmbeddings"
+- "imageNamed:inBundle:"
+- "imageReader"
+- "image_action_url"
+- "image_bytes"
+- "image_source_bytes"
+- "image_source_type"
+- "image_source_url"
+- "image_thumbnail"
+- "inLinkedPlaceRelationship"
+- "index"
+- "inferenceSignpostName"
+- "inflightTypes"
+- "infoDictionary"
+- "init"
+- "initForKnownIssuerWithChallenge:"
+- "initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:"
+- "initWithCGColor:"
+- "initWithCGImage:"
+- "initWithCRDocumentOutputRegion:requestRevision:"
+- "initWithCoder:"
+- "initWithColor:"
+- "initWithContentsOfURL:options:"
+- "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:courseAccuracy:speed:speedAccuracy:timestamp:"
+- "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:course:courseAccuracy:speed:speedAccuracy:timestamp:sourceInfo:"
+- "initWithCoordinate:altitude:horizontalAccuracy:verticalAccuracy:timestamp:"
+- "initWithDelegate:"
+- "initWithGEOCoordinate:isUserLocation:"
+- "initWithGEOMapItemIdentifier:"
+- "initWithGeoMapItem:isPlaceHolderPlace:"
+- "initWithHasResultRetrieved:endReason:httpErrorCode:serverErrorCode:"
+- "initWithHeading:accuracy:"
+- "initWithInitialSize:"
+- "initWithInt:"
+- "initWithLabel:taxonomy:type:"
+- "initWithLatitude:longitude:"
+- "initWithMapItem:localizedHoursStringOptions:conciseStyle:openAt:"
+- "initWithNormalizedBoundingBox:size:"
+- "initWithPattern:options:error:"
+- "initWithRequestType:requestDomain:"
+- "initWithSessionId:dimensionContext:visualIntelligenceContext:serverRequestContext:displayContext:userInteractionDetected:"
+- "initWithString:"
+- "initWithString:attributes:"
+- "initWithSuiteName:"
+- "initWithText:coordinates:"
+- "initWithText:coordinates:confidence:"
+- "initWithTextBoxes:paragraphBoxes:paragraphGroupBoxes:blockBoxes:options:"
+- "initWithTypes:error:"
+- "initWithUnit:"
+- "initWithVisualLookupSessionId:appeared:disappeared:"
+- "initWithVisualLookupSessionId:connectionUuid:started:ended:failed:"
+- "initWithVisualLookupSessionId:pillSessionId:visualComponents:engagedResultPosition:interactionType:"
+- "initWithVisualLookupSessionId:pillSessionId:visualComponents:totalResultsShown:started:ended:"
+- "initWithVisualLookupSessionId:systemLocale:currentCountry:build:osType:productType:buildType:"
+- "initWithX:y:"
+- "injectDetections"
+- "inlineRapEnablement"
+- "inputStorage"
+- "inputStorageTaskSemaphore"
+- "integerValue"
+- "interaction_type"
+- "internalAvailableLanguageCodes"
+- "internalPreferredSiriOutputVoiceLanguageCode"
+- "internalQueue"
+- "invalidate"
+- "ios_version"
+- "iouThreshold"
+- "isConsumingQueue"
+- "isCoordinateDerived"
+- "isDisputed"
+- "isEqual:"
+- "isEqualToMapItem:"
+- "isEventAllDay"
+- "isExecuting"
+- "isExecutingAction"
+- "isExternalIntelligenceAllowed"
+- "isKindOfClass:"
+- "isLikelyEqualToCode:"
+- "isLocationShiftRequiredForLocation:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isOrientationAgnostic"
+- "isPartiallyClientized"
+- "isPredictionRunning"
+- "isPrewarmed"
+- "isProxy"
+- "isRestrictedLanguage"
+- "isSAEEnabled"
+- "isSearching"
+- "isSimulating"
+- "isStandAloneBrand"
+- "isTransitDisplayFeature"
+- "isTranslatable:completion:"
+- "isValid"
+- "isVisualIntelligenceSummaryAllowed"
+- "iso3166CountryCode"
+- "iso3166SubdivisionCode"
+- "item_type"
+- "items"
+- "iterateGroundViewsWithBlock:"
+- "labelCoordinate"
+- "labelGeometry"
+- "labels"
+- "language"
+- "languageCode"
+- "languageTag"
+- "lanyardcard.fill"
+- "lastCompletionTime"
+- "lastDispatchTime"
+- "lastDispatchTime should only increase after running. This means that something made it out of the queue while processing occurred ... and that shouldn't happen. For identifier %s."
+- "lastExecutionTime"
+- "lastQueryDispatchTime"
+- "lastRequestTime"
+- "lat"
+- "latestBundleSelectorOutput"
+- "latestObservationTimestamp"
+- "latestTrackManagerState"
+- "latitude"
+- "legacyParseEnabled"
+- "lens.AdDisclosureData"
+- "lens.CallToAction"
+- "lens.ExploreGrid"
+- "lens.FetchVisualDataRequest"
+- "lens.FetchVisualDataResponse"
+- "lens.ImageThumbnail"
+- "lens.NormalizedBox"
+- "lens.ProductImage"
+- "lens.ProductRating"
+- "lens.RelatedSearch"
+- "lens.RequestConfig"
+- "lens.SearchResult"
+- "lens.ShoppableBadge"
+- "lifeCycleTrigger"
+- "limbless marine invertebrate"
+- "linkedServices"
+- "llm_answer"
+- "lng"
+- "loadingTasks"
+- "localDestination"
+- "localRouteController"
+- "locale"
+- "localizedOperatingHours"
+- "localizedStringByJoiningStrings:"
+- "localizedStringForDate:relativeToDate:"
+- "location update: %@  is stationary: %{bool}d"
+- "locationManager:didChangeAuthorizationStatus:"
+- "locationManager:didDetermineState:forRegion:"
+- "locationManager:didEnterRegion:"
+- "locationManager:didExitRegion:"
+- "locationManager:didFailRangingBeaconsForConstraint:error:"
+- "locationManager:didFailWithError:"
+- "locationManager:didFinishDeferredUpdatesWithError:"
+- "locationManager:didRangeBeacons:inRegion:"
+- "locationManager:didRangeBeacons:satisfyingConstraint:"
+- "locationManager:didStartMonitoringForRegion:"
+- "locationManager:didUpdateHeading:"
+- "locationManager:didUpdateLocations:"
+- "locationManager:didUpdateToLocation:fromLocation:"
+- "locationManager:didVisit:"
+- "locationManager:monitoringDidFailForRegion:withError:"
+- "locationManager:rangingBeaconsDidFailForRegion:withError:"
+- "locationManagerDidChangeAuthorization:"
+- "locationManagerDidPauseLocationUpdates:"
+- "locationManagerDidResumeLocationUpdates:"
+- "locationManagerShouldDisplayHeadingCalibration:"
+- "lock"
+- "lockWithOptions:seed:"
+- "logger"
+- "longitude"
+- "m2m"
+- "mainBundle"
+- "mammal's head+torso"
+- "manager"
+- "manifestId"
+- "mapDisplayType"
+- "mapsCategoryId"
+- "mapsCategoryMUID"
+- "marine invertebrate"
+- "marine invertebrate's head+torso"
+- "marine mammal's head"
+- "marine mammal's head+torso"
+- "matcher"
+- "matches"
+- "matchesInString:options:range:"
+- "matchingComputationResultStream"
+- "matchingComputationResultStreamContinuation"
+- "maxBoxes"
+- "maxScoreForPriceRange"
+- "maximumNumberOfRequestsInBlockingTimeInterval"
+- "merchant_name"
+- "messageLink"
+- "miniBrowseCategories"
+- "mobileCountryCode"
+- "mobileNetworkCode"
+- "modifyWithHeading: Passed course %f, updated to %f"
+- "modifyWithHeading: Passed heading is nil, returning self."
+- "modules"
+- "monitor"
+- "monkey's head+torso"
+- "montaraMDMRestricted"
+- "mrcObject"
+- "muid"
+- "muninViewState"
+- "needsAttribution"
+- "no CVBundle for event lookup"
+- "nonceInput data failed"
+- "normalizedUserRatingScore"
+- "notes"
+- "notesBullets"
+- "num_inline_items"
+- "numberOfRatingsUsedForScore"
+- "objectForKey:"
+- "objects"
+- "offlineDownloadRegion"
+- "onEventClassification"
+- "openSensitiveURL:withOptions:"
+- "openingHoursOptions"
+- "operatingSystemVersionString"
+- "opticaldiscdrive.fill"
+- "options"
+- "optsOutOfTelephoneAds"
+- "originTimestamp"
+- "original_height"
+- "original_price"
+- "original_width"
+- "otherSyntheticTracks"
+- "outputStream"
+- "outputStreamBufferingPolicy"
+- "outputStreamContinuations"
+- "outputVoice"
+- "overallRating"
+- "packaged products"
+- "parkingsign.square.fill"
+- "parseCodeWithCompletion:"
+- "parsecSectionType"
+- "payloadStringValue"
+- "pccCache"
+- "percentage"
+- "performChanges:completionHandler:"
+- "performRequests:onCVPixelBuffer:orientation:error:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "person.lanyardcard.fill"
+- "photoCarousel"
+- "photos"
+- "photosAttribution"
+- "photosMemoryScore"
+- "pipe.and.drop.fill"
+- "pixelBuffer"
+- "pixelsHighRange"
+- "pixelsWideRange"
+- "place"
+- "place of worship"
+- "placeCategoryType"
+- "placeCollectionPullQuotes"
+- "placeCollections"
+- "placeCollectionsIds"
+- "placeData"
+- "placeDataAsData"
+- "placeDescription"
+- "placeDisplayStyle"
+- "placeDisplayType"
+- "placeQuestionnaire"
+- "placeResult"
+- "placeType"
+- "placecardLayoutData"
+- "planar art other"
+- "plumbing fixtures"
+- "poiCategory"
+- "poiClaim"
+- "poiPinpointURLString"
+- "poiSurveyURLString"
+- "ppissuer.mtls.googleapis.com"
+- "predictionResults"
+- "predictions"
+- "preferredFontForTextStyle:"
+- "preferredLanguages"
+- "prefix"
+- "preheat"
+- "preparationSignpostName"
+- "prepareForPerformingRequests:error:"
+- "price"
+- "priceDescription"
+- "priceRange"
+- "price_info"
+- "price_micros"
+- "processIdentifier"
+- "processInfo"
+- "processRequest:completionHandler:"
+- "processString:"
+- "processor"
+- "processors"
+- "product_ads"
+- "product_image"
+- "product_title"
+- "propertyListWithData:options:format:error:"
+- "providerURL"
+- "purgeAfterDuration"
+- "q16@0:8"
+- "query"
+- "queryContext for parse isHighResolutionStill: %{bool}d"
+- "queue"
+- "quickLinks"
+- "range"
+- "rangeOfContentRegion:"
+- "rateLimiting"
+- "rating"
+- "rating_count"
+- "rawConfidence"
+- "readText:textBody:textIdentifier:textLocale:textLeadingImage:activationSource:"
+- "readerConnection"
+- "recognizedLocale"
+- "rectangle.3.group.fill"
+- "referenceDate"
+- "referenceFrame"
+- "referrer_url"
+- "refiningBundles"
+- "region"
+- "registeredStreams"
+- "relatedPlaceLists"
+- "related_searches"
+- "release"
+- "releaseCachedResources"
+- "relief sculpture"
+- "removeItemAtPath:error:"
+- "render:toCVPixelBuffer:bounds:colorSpace:"
+- "reportingTask"
+- "reptile's head+torso"
+- "request"
+- "requestPrewarmingForFeature:options:"
+- "requestReadingTask"
+- "requestTemporaryFullAccuracyAuthorizationWithPurposeKey:"
+- "requestTimestamps"
+- "requestWhenInUseAuthorization"
+- "requestWindow"
+- "request_config"
+- "requested_features"
+- "requests"
+- "requestsBroadcastStream"
+- "resolveStorage returned a descriptor that doesn't match any processors"
+- "respondsToSelector:"
+- "responseStatusIncomplete"
+- "result"
+- "resultProviderID"
+- "resultSnippetDistanceDisplayThreshold"
+- "resultSnippetLocationString"
+- "resultType"
+- "result_panel_url"
+- "results"
+- "retain"
+- "retainCount"
+- "retinaSize"
+- "reviews"
+- "reviewsAttribution"
+- "roadAccessPoints"
+- "sale_info"
+- "sale_label"
+- "saliencyStream"
+- "saliencyStreamIngredients"
+- "sampleSizeForUserRatingScore"
+- "scaledFontForFont:"
+- "scanString:"
+- "schedulerMode"
+- "scoreRange"
+- "scoreThreshold"
+- "searchGlyphsModeSettingsValue"
+- "searchService"
+- "searchServiceInternal"
+- "secondaryName"
+- "secondaryQuickLinks"
+- "secondarySpokenName"
+- "selection"
+- "self"
+- "sendCommand:options:completion:"
+- "sendEvent:"
+- "sensor_source"
+- "sequenceHandler"
+- "service"
+- "serviceSubscriberCellularProviders"
+- "sessionID"
+- "sessionWithConfiguration:"
+- "setAllowsCellularAccess:"
+- "setAllowsExpensiveNetworkAccess:"
+- "setBool:forKey:"
+- "setCoalesceCompositeSymbologies:"
+- "setConfig:"
+- "setCustomFilter:alignment:sourceWidth:sourceHeight:destinationWidth:destinationHeight:luma_param:chroma_param:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDelegate:"
+- "setDoesRelativeDateFormatting:"
+- "setEnvironmentBundleIdentifier:"
+- "setHeadingOrientation:"
+- "setHorizontalAccuracy:"
+- "setImage:"
+- "setKeepResourcesLoaded:"
+- "setMinimumTextHeight:"
+- "setObject:forKey:"
+- "setObject:forKey:inDomain:"
+- "setPixelBuffer:"
+- "setRecognitionLanguages:"
+- "setRecognitionLevel:"
+- "setRequest:"
+- "setRevision:error:"
+- "setString:"
+- "setSymbologies:"
+- "setSystemClient:"
+- "setTargetedIdentifiers:"
+- "setTimeStyle:"
+- "setUnitsStyle:"
+- "setUsesAlternateLineGrouping:"
+- "setUsesLanguageDetection:"
+- "setVluAuthorized:"
+- "setWaitsForConnectivity:"
+- "set_usesNWLoader:"
+- "settingsValueForKey:"
+- "sharedConfiguration"
+- "sharedConnection"
+- "sharedInstance"
+- "sharedPhotoLibrary"
+- "sharedPreferences"
+- "sharedService"
+- "sharedUserDefaults"
+- "shiftLocation:withCompletionHandler:"
+- "shipping_cost"
+- "shippingbox.fill"
+- "shoppable_badge"
+- "shortAddress"
+- "showDeveloperMenuSettingsValue"
+- "showSuggestAnEditButton"
+- "showTapToRadar"
+- "showTapToRadarSettingsValue"
+- "show_people_disclaimer"
+- "signposter"
+- "sizeMax"
+- "snippet"
+- "social security card"
+- "source"
+- "sourceInformation"
+- "source_url"
+- "sources"
+- "spanLat"
+- "spanLng"
+- "spatialMappedCategories"
+- "spatialMappedPlaceCategories"
+- "speed"
+- "speedAccuracy"
+- "spokenNameForLocale:"
+- "standardUserDefaults"
+- "startDate"
+- "startUpdatingHeading"
+- "stateMachine"
+- "stateQueue"
+- "status"
+- "statusCode"
+- "stillRanker"
+- "stopUpdatingHeading"
+- "storage"
+- "storefrontInfo"
+- "storefrontPresentationInfo"
+- "stream continuation "
+- "streamingMostSalientBundleAndScore"
+- "streamingRanker"
+- "streamingUpdateObserver"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringValue"
+- "stringWithUTF8String:"
+- "styleAttributes"
+- "submitWithHandler:networkActivity:"
+- "success"
+- "superclass"
+- "supportedImageSizeSet"
+- "supportedTransitPaymentMethods"
+- "supporting"
+- "supportsOfflineMaps"
+- "supportsSecureCoding"
+- "suppressedConstituentLeafNodeResults"
+- "symbology"
+- "systemName"
+- "systemVersion"
+- "table.furniture.fill"
+- "tapToRadarDraftTitle"
+- "task continuation "
+- "taxonomySize"
+- "telephone"
+- "temporaryDirectory"
+- "text"
+- "text.line.3.summary"
+- "textSummarizer"
+- "text_query"
+- "thresholdToExtendQueueWaitTime"
+- "ticketForIdentifiers:traits:"
+- "timeZone"
+- "time_zone"
+- "timezone"
+- "tips"
+- "tokenGenerator"
+- "tooltip"
+- "topLeft"
+- "topRight"
+- "totalPhotoCount"
+- "trackManager"
+- "trackReadingTask"
+- "trackedProcessorStates"
+- "tracksInternal"
+- "trailHead"
+- "train.side.front.car"
+- "traits"
+- "transform:srcRect:dst:dstRect:rotate:sync_m2m:"
+- "transitAttribution"
+- "transitInfo"
+- "transitPaymentMethodSuggestions"
+- "transitStationIdentifier"
+- "transitVehiclePosition"
+- "trueHeading"
+- "type"
+- "underwater plant"
+- "unifiedActionConfig"
+- "unlockWithOptions:seed:"
+- "urlData"
+- "userDefaults"
+- "userSelectedBundle"
+- "user_agent"
+- "uuid"
+- "v12@?0C8"
+- "v16@0:8"
+- "v16@?0@\"CLLocation\"8"
+- "v16@?0@\"MRCommandResult\"8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"CLLocationManager\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?dd@\"NSString\"@\"NSString\"@\"NSString\">16"
+- "v24@0:8^{__CVBuffer=}16"
+- "v24@?0@\"BCSAction\"8@\"NSError\"16"
+- "v24@?0@\"CROutputRegion\"8^B16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v28@0:8@\"CLLocationManager\"16i24"
+- "v28@0:8@16i24"
+- "v28@?0Q8Q16i24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLRegion\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLVisit\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSError\"24"
+- "v32@0:8@\"VICVisualIntelligenceAnalysisRequest\"16@?<v@?@\"VICVisualIntelligenceAnalysisResult\">24"
+- "v32@0:8@16@24"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconIdentityConstraint\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLLocation\"24@\"CLLocation\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconIdentityConstraint\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconRegion\"32"
+- "v40@0:8@\"CLLocationManager\"16q24@\"CLRegion\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "value"
+- "vapClient"
+- "vendorID"
+- "venueCapacity"
+- "venueFeatureType"
+- "venueInfo"
+- "vertexs"
+- "verticalAccuracy"
+- "viPixelBufferRef"
+- "viSaliencyStream"
+- "viService"
+- "video_duration"
+- "viewportFrame"
+- "visionProvider"
+- "visualEvidence"
+- "visualLookupSessionID"
+- "visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettized"
+- "visualgrounding_unfreeze_expose_embedding_v6_1_u3dkyh9ewx_epoch_20_categorynumber181_palettized_text_feats"
+- "vlu-parse-result-visual-understanding-"
+- "vluAnalyticsQueue"
+- "vluAuthorized"
+- "wallet.pass.fill"
+- "walletCategoryIdentifier"
+- "walletCategoryLocalizedString"
+- "walletCategoryLocalizedStringLocale"
+- "walletCategoryStyling"
+- "walletMapsCategoryIdentifier"
+- "walletPlaceLocalizedString"
+- "walletPlaceLocalizedStringLocale"
+- "walletPlaceStyling"
+- "weatherDisplayName"
+- "webURL"
+- "width"
+- "wifiFingerprintConfidence"
+- "wifiFingerprintLabelStatusCode"
+- "wifiFingerprintLabelType"
+- "work state update"
+- "zone"
+- "{?=dd}16@0:8"
+- "📍 Starting location updates!"
+- "📍 Stopping location updates, if applicable."
+- "📍 The user had not yet provided location access. We are requesting access now."
+
+```

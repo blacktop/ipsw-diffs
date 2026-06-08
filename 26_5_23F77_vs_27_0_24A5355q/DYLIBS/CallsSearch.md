@@ -1,0 +1,1137 @@
+## CallsSearch
+
+> `/System/Library/PrivateFrameworks/CallsSearch.framework/CallsSearch`
+
+```diff
+
+-3027.600.41.2.1
+-  __TEXT.__text: 0x323e4
+-  __TEXT.__auth_stubs: 0x1290
++3060.100.14.2.1
++  __TEXT.__text: 0x32d30
+   __TEXT.__objc_methlist: 0x14a0
+-  __TEXT.__const: 0xa14
+-  __TEXT.__constg_swiftt: 0x640
+-  __TEXT.__swift5_typeref: 0xb43
+-  __TEXT.__swift5_fieldmd: 0x438
++  __TEXT.__const: 0xa1c
++  __TEXT.__swift5_typeref: 0xbab
++  __TEXT.__cstring: 0x994
++  __TEXT.__swift5_capture: 0x6d0
++  __TEXT.__swift5_fieldmd: 0x444
++  __TEXT.__constg_swiftt: 0x658
++  __TEXT.__swift5_reflstr: 0x6e5
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x6b5
+   __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0x20
+-  __TEXT.__swift5_types: 0x40
+-  __TEXT.__cstring: 0x974
+-  __TEXT.__swift5_capture: 0x670
+   __TEXT.__oslogstring: 0x1030
+   __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_proto: 0x20
++  __TEXT.__swift5_types: 0x40
+   __TEXT.__swift_as_entry: 0x64
+   __TEXT.__swift_as_ret: 0x60
+-  __TEXT.__unwind_info: 0xc60
+-  __TEXT.__eh_frame: 0x1130
+-  __TEXT.__objc_classname: 0x4f9
+-  __TEXT.__objc_methname: 0x4af5
+-  __TEXT.__objc_methtype: 0x16f5
+-  __TEXT.__objc_stubs: 0x2980
+-  __DATA_CONST.__got: 0x4a8
+-  __DATA_CONST.__const: 0x168
++  __TEXT.__swift_as_cont: 0xa8
++  __TEXT.__unwind_info: 0xd00
++  __TEXT.__eh_frame: 0x10e0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x170
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x120
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xfc8
++  __DATA_CONST.__objc_selrefs: 0xfb8
+   __DATA_CONST.__objc_protorefs: 0x90
+-  __AUTH_CONST.__auth_got: 0x950
+-  __AUTH_CONST.__const: 0x1570
+-  __AUTH_CONST.__objc_const: 0x23e8
++  __DATA_CONST.__got: 0x498
++  __AUTH_CONST.__const: 0x1660
++  __AUTH_CONST.__objc_const: 0x2428
++  __AUTH_CONST.__auth_got: 0xa08
+   __AUTH.__objc_data: 0x3d0
+   __AUTH.__data: 0x28
+-  __DATA.__data: 0xb60
++  __DATA.__data: 0xb80
+   __DATA.__bss: 0x400
+-  __DATA_DIRTY.__objc_data: 0xa40
+-  __DATA_DIRTY.__data: 0x858
+-  __DATA_DIRTY.__common: 0x88
++  __DATA_DIRTY.__objc_data: 0xa60
++  __DATA_DIRTY.__data: 0x868
++  __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 420A1E44-51B3-323C-B1AB-B3662E6E0BD1
+-  Functions: 1002
+-  Symbols:   1243
+-  CStrings:  936
++  UUID: CF31CD8A-2AAC-3201-911B-AAE3100C302C
++  Functions: 1027
++  Symbols:   1446
++  CStrings:  129
+ 
+Symbols:
++ __PROTOCOLS_MPSearchViewController.3
++ ___swift__destructor
++ ___swift__destructor.35
++ ___swift__destructor.45
++ ___swift__destructor.50
++ ___swift__destructor.78
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.101Tm
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.60Tm
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.89Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.112
++ _block_copy_helper.118
++ _block_copy_helper.122
++ _block_copy_helper.124
++ _block_copy_helper.130
++ _block_copy_helper.133
++ _block_copy_helper.25
++ _block_copy_helper.4
++ _block_copy_helper.47
++ _block_copy_helper.53
++ _block_copy_helper.55
++ _block_copy_helper.59
++ _block_copy_helper.66
++ _block_copy_helper.77
++ _block_copy_helper.8
++ _block_copy_helper.88
++ _block_descriptor.10
++ _block_descriptor.114
++ _block_descriptor.120
++ _block_descriptor.124
++ _block_descriptor.126
++ _block_descriptor.132
++ _block_descriptor.135
++ _block_descriptor.27
++ _block_descriptor.49
++ _block_descriptor.55
++ _block_descriptor.57
++ _block_descriptor.6
++ _block_descriptor.61
++ _block_descriptor.68
++ _block_descriptor.79
++ _block_descriptor.90
++ _block_destroy_helper.113
++ _block_destroy_helper.119
++ _block_destroy_helper.123
++ _block_destroy_helper.125
++ _block_destroy_helper.131
++ _block_destroy_helper.134
++ _block_destroy_helper.26
++ _block_destroy_helper.48
++ _block_destroy_helper.5
++ _block_destroy_helper.54
++ _block_destroy_helper.56
++ _block_destroy_helper.60
++ _block_destroy_helper.67
++ _block_destroy_helper.78
++ _block_destroy_helper.89
++ _block_destroy_helper.9
++ _swift_dynamicCastObjCClass
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SDyS2SG
++ _symbolic So23CNContactViewControllerCIegg_
++ _symbolic So23CNContactViewControllerCytIegnr_
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic ySo23CNContactViewControllerCcSg
+- _OBJC_CLASS_$_UIBlurEffect
+- __PROTOCOLS_MPSearchViewController.4
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_CallsSearch
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_CallsSearch
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_CallsSearch
+- _block_copy_helper.113
+- _block_copy_helper.119
+- _block_copy_helper.123
+- _block_copy_helper.125
+- _block_copy_helper.131
+- _block_copy_helper.134
+- _block_copy_helper.26
+- _block_copy_helper.46
+- _block_copy_helper.52
+- _block_copy_helper.56
+- _block_copy_helper.58
+- _block_copy_helper.67
+- _block_copy_helper.78
+- _block_copy_helper.89
+- _block_copy_helper.9
+- _block_descriptor.11
+- _block_descriptor.115
+- _block_descriptor.121
+- _block_descriptor.125
+- _block_descriptor.127
+- _block_descriptor.133
+- _block_descriptor.136
+- _block_descriptor.28
+- _block_descriptor.48
+- _block_descriptor.54
+- _block_descriptor.58
+- _block_descriptor.60
+- _block_descriptor.69
+- _block_descriptor.80
+- _block_descriptor.91
+- _block_destroy_helper.10
+- _block_destroy_helper.114
+- _block_destroy_helper.120
+- _block_destroy_helper.124
+- _block_destroy_helper.126
+- _block_destroy_helper.132
+- _block_destroy_helper.135
+- _block_destroy_helper.27
+- _block_destroy_helper.47
+- _block_destroy_helper.53
+- _block_destroy_helper.57
+- _block_destroy_helper.59
+- _block_destroy_helper.68
+- _block_destroy_helper.79
+- _block_destroy_helper.90
+- _objc_msgSend$effectWithStyle:
+- _objc_msgSend$phoneLargeFormatUIEnabled
+- _objectdestroy.102Tm
+- _objectdestroy.5Tm
+- _objectdestroy.61Tm
+- _objectdestroy.89Tm
+- _objectdestroyTm
+- _symbolic _____Sg 5UIKit25UIBackgroundConfigurationV
+- _symbolic _____SgXw 11CallsSearch0B10HeaderCellC
+CStrings:
++ "^[\\d\\s\\(\\)\\-\\+]+$"
+- "#16@0:8"
+- "$__lazy_storage_$_axConstraints"
+- "$__lazy_storage_$_cardController"
+- "$__lazy_storage_$_commonConstraints"
+- "$__lazy_storage_$_contactAvatarCardController"
+- "$__lazy_storage_$_datasource"
+- "$__lazy_storage_$_footerView"
+- "$__lazy_storage_$_nonAXConstraints"
+- "$__lazy_storage_$_searchManager"
+- "$__lazy_storage_$_tableView"
+- "$__lazy_storage_$_textContainer"
+- "$__lazy_storage_$_videoButtonVisibleConstraints"
+- ".cxx_destruct"
+- "?"
+- "@\"<MPSearchResultsUpdatingProtocol>\"16@0:8"
+- "@\"CNContactStore\""
+- "@\"CNContactViewController\"16@?0@\"CNContact\"8"
+- "@\"CSSuggestion\""
+- "@\"CSUserQueryContext\""
+- "@\"MPAnalyticsLogger\""
+- "@\"MPContactSearchManager\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"16@?0@\"NSArray\"8"
+- "@\"NSArray\"24@0:8@\"UITableView\"16"
+- "@\"NSArray\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSArray\"40@0:8@\"CNAvatarCardController\"16@\"NSArray\"24@\"NSString\"32"
+- "@\"NSArray\"8@?0"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSIndexPath\"24@0:8@\"UITableView\"16"
+- "@\"NSIndexPath\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSIndexPath\"40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSString\"32@0:8@\"UITableView\"16q24"
+- "@\"OS_dispatch_queue\""
+- "@\"TUCallProviderManager\""
+- "@\"TUCallProviderManager\"8@?0"
+- "@\"TUFeatureFlags\""
+- "@\"TUSenderIdentity\"16@?0@\"CNContact\"8"
+- "@\"UIColor\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UIContextMenuConfiguration\"48@0:8@\"UITableView\"16@\"NSIndexPath\"24{CGPoint=dd}32"
+- "@\"UINavigationController\"16@0:8"
+- "@\"UISwipeActionsConfiguration\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITableView\""
+- "@\"UITableViewCell\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITargetedPreview\"32@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView\"24@0:8@\"UITableView\"16"
+- "@\"UIView\"32@0:8@\"UITableView\"16q24"
+- "@\"UIViewController\"16@0:8"
+- "@\"UIViewController\"24@0:8@\"CNAvatarCardController\"16"
+- "@\"_TtC11CallsSearch32ContactSearchTableViewController\""
+- "@\"_UITableViewCellActionButton\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16q24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8q16@24@?32"
+- "@48@0:8@16@24{CGPoint=dd}32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8q16@?24@?32@?40@?48"
+- "@64@0:8q16@24@32@?40@?48@?56"
+- "@?16@0:8"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"CNAvatarCardController\"16@\"CNContact\"24"
+- "B32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "B32@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24"
+- "B32@0:8@\"UITableView\"16q24"
+- "B32@0:8@16@24"
+- "B32@0:8@16q24"
+- "B40@0:8@\"CNAvatarCardController\"16{CGPoint=dd}24"
+- "B40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"<UISpringLoadedInteractionContext>\"32"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16{CGPoint=dd}24"
+- "B48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "B48@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"UIView\"32Q40"
+- "B48@0:8@16:24@32@40"
+- "B48@0:8@16@24@32Q40"
+- "CNAvatarCardControllerDelegate"
+- "CNKeyDescriptor"
+- "CSSearchMetrics"
+- "I"
+- "I16@0:8"
+- "IDSFormattedDestinationID"
+- "MPAnalyticsLogger"
+- "MPContactAvatarCardControllerProtocol"
+- "MPContactSearchManager"
+- "MPContactsSearchController"
+- "MPSearchController"
+- "MPSearchControllersWithResultsProtocol"
+- "MPSearchManager"
+- "MPSearchResultsUpdatingProtocol"
+- "MPSearchViewController"
+- "MPSuggestedSearch"
+- "MPSuggestionsSearchController"
+- "MPSuggestionsSearchTableViewController"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "RecentsSupportedSuggestionTypes"
+- "T#,R"
+- "T@\"<MPSearchResultsUpdatingProtocol>\",N,W,Vdelegate"
+- "T@\"<MPSearchResultsUpdatingProtocol>\",W,N"
+- "T@\"<MPSearchViewControllerDelegate>\",N,W,Vdelegate"
+- "T@\"<MPSuggestedSearch>\",N,W,VsuggestionsDelegate"
+- "T@\"CNContactStore\",N,R,VcontactStore"
+- "T@\"CSSearchQueryContext\",N,R"
+- "T@\"CSSuggestion\",N,&,Vsuggestion"
+- "T@\"CSUserQueryContext\",N,&,VuserQueryContext"
+- "T@\"MPAnalyticsLogger\",N,R,VanalyticsLogger"
+- "T@\"MPContactSearchManager\",N,R,VsearchManager"
+- "T@\"NSArray\",&,N"
+- "T@\"NSArray\",N,C"
+- "T@\"NSArray\",N,R"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"OS_dispatch_queue\",N,R,VaccessQueue"
+- "T@\"OS_dispatch_queue\",N,R,VsearchLatencyDictQueue"
+- "T@\"OS_dispatch_queue\",N,R,VserialQueue"
+- "T@\"TUCallProviderManager\",N,R,VcallProviderManager"
+- "T@\"TUFeatureFlags\",N,R,VfeatureFlags"
+- "T@\"UINavigationController\",N,W"
+- "T@\"UINavigationController\",N,W,VhostingNavigationController"
+- "T@\"UINavigationController\",W,N"
+- "T@\"UITableView\",N,R,VtableView"
+- "T@\"_TtC11CallsSearch16SearchFooterCell\",N,&"
+- "T@\"_TtC11CallsSearch27ContactAvatarCardController\",N,&"
+- "T@\"_TtC11CallsSearch32ContactSearchTableViewController\",N,R,VcontactsTableViewController"
+- "T@?,N,C"
+- "T@?,N,R"
+- "TB,R"
+- "TI,N,VsectionType"
+- "TI,R,N"
+- "TQ,R"
+- "TUCallProviderManagerDelegate"
+- "Tq,N"
+- "Tq,N,R"
+- "Tq,N,R,VcontactSearchType"
+- "Tq,N,VsectionIndex"
+- "Tq,R,N"
+- "UIScrollViewDelegate"
+- "UISearchResultsUpdating"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- "UITableViewDelegatePrivate"
+- "UITableViewFocusDelegateLegacy"
+- "URL"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC11CallsSearch16SearchFooterCell"
+- "_TtC11CallsSearch16SearchHeaderCell"
+- "_TtC11CallsSearch21ContactSearchViewCell"
+- "_TtC11CallsSearch24VoicemailUnreadIndicator"
+- "_TtC11CallsSearch25SuggestionsSearchViewCell"
+- "_TtC11CallsSearch27ContactAvatarCardController"
+- "_TtC11CallsSearch32ContactSearchTableViewController"
+- "_TtC11CallsSearch33SearchTableViewDiffableDataSource"
+- "_TtC11CallsSearchP33_1EA0DAA1EAC74DD144111F4E2F21622011BundleClass"
+- "_TtC11CallsSearchP33_A128077F03EEA6072F0178D28C0D48CB8Throttle"
+- "_contactSearchResults"
+- "_preferredFontForTextStyle:weight:"
+- "_searchString"
+- "_setSectionHeaderFooterPadding:"
+- "_setUseLegacySectionHeaderFooterPinningBehavior:"
+- "_tableView:canFocusRowAtIndexPath:"
+- "_tableView:shouldSpringLoadRowAtIndexPath:withContext:"
+- "accessQueue"
+- "accountUUID"
+- "activateConstraints:"
+- "addArrangedSubview:"
+- "addDelegate:queue:"
+- "addObserver:selector:name:object:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "analyticsLogger"
+- "array"
+- "attributedStringToHighlightText:"
+- "attributedStringToHighlightText:style:"
+- "autorelease"
+- "avatarCardController:orderedPropertiesForProperties:category:"
+- "avatarCardController:presentationResultForLocation:"
+- "avatarCardController:shouldPresentForLocation:"
+- "avatarCardController:shouldShowContact:"
+- "avatarCardControllerDidDismiss:"
+- "avatarCardControllerWillBeginPreviewInteraction:"
+- "avatarCardControllerWillDismiss:"
+- "avatarView"
+- "avatarViewController"
+- "avatarViewControllerSettings"
+- "beginQueryWithDestinations:services:"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "callButton"
+- "callButtonTapped"
+- "callHistorySearchEnabled"
+- "callProviderManager"
+- "callProviderManagerProvider"
+- "cancel"
+- "cancelPreviousSearch"
+- "cancelPreviousSearchRequests"
+- "cellForRowAtIndexPath:"
+- "centerYAnchor"
+- "class"
+- "compositeSearchText"
+- "configurationWithFont:"
+- "configureForImage:"
+- "configureWith:presentationResultForIndex:"
+- "configureWithCardController:presentationResultForIndex:"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "constraintGreaterThanOrEqualToAnchor:constant:"
+- "constraintLessThanOrEqualToAnchor:constant:"
+- "contact"
+- "contactAvatarCardController"
+- "contactIDSQuerySubject"
+- "contactSearchResults"
+- "contactSearchType"
+- "contactStore"
+- "contactSummarizer"
+- "contactViewControllerProvider"
+- "contacts"
+- "contactsTableViewController"
+- "contentInsetAdjustmentBehavior"
+- "contentView"
+- "convertPoint:toCoordinateSpace:"
+- "convertRect:toView:"
+- "copyWithZone:"
+- "currentDevice"
+- "currentIDSStatusPage"
+- "currentToken"
+- "d24@0:8@\"UITableView\"16"
+- "d24@0:8@16"
+- "d32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "d32@0:8@\"UITableView\"16q24"
+- "d32@0:8@16@24"
+- "d32@0:8@16q24"
+- "dataSourceNeedsReload"
+- "deactivateConstraints:"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "delegate"
+- "dequeueReusableCellWithIdentifier:forIndexPath:"
+- "dequeueReusableHeaderFooterViewWithIdentifier:"
+- "description"
+- "descriptorForRequiredKeys"
+- "descriptorForRequiredKeysForStyle:"
+- "deselectRowAtIndexPath:animated:"
+- "detailLabel"
+- "detailsPresenter"
+- "diameter"
+- "didCompleteSearch"
+- "didCompleteSearchFor:"
+- "didSelectSeeAllButton"
+- "didSelectSuggestedSearchWithToken:"
+- "dismissViewControllerAnimated:completion:"
+- "displayName"
+- "dynamicLabelColor"
+- "effectWithStyle:"
+- "emptySuggestion"
+- "encodeWithCoder:"
+- "enumerateContactsAndMatchInfoWithFetchRequest:error:usingBlock:"
+- "faceTimeProvider"
+- "faceTimeVideoAvailabilityForDestination:"
+- "featureFlags"
+- "fetchResultsForSimSearchWithSearchText:completionHandler:"
+- "fetchSubscriptionsInUseMap"
+- "footerHeight"
+- "footerLabel"
+- "footerView"
+- "formattedStringValue"
+- "frame"
+- "handleContentSizeCategoryDidChange:"
+- "handleTUIDSLookupManagerStatusChanged"
+- "handles"
+- "hash"
+- "heightAnchor"
+- "heightForFooterInTableView:"
+- "heightForHeaderInTableView:"
+- "highlightMatchedTextIn:"
+- "hostingNavigationController"
+- "identifier"
+- "idsCanonicalDestinations"
+- "idsQueryPageSize"
+- "idsStatusSubscription"
+- "indexPathForCell:"
+- "indexPathForPreferredFocusedItemForTableView:"
+- "indexPathForPreferredFocusedViewInTableView:"
+- "indexPathForRowAtPoint:"
+- "init"
+- "initForTextStyle:"
+- "initWithArrangedSubviews:"
+- "initWithCoder:"
+- "initWithConfiguration:"
+- "initWithContact:matchInfo:preferredPhoneNumber:"
+- "initWithContactSearchType:contactViewControllerProvider:searchResultsRanker:senderIdentityProvider:callProviderManagerProvider:"
+- "initWithContactSearchType:searchManager:featureFlags:contactViewControllerProvider:senderIdentityProvider:callProviderManagerProvider:"
+- "initWithDouble:"
+- "initWithFrame:"
+- "initWithFrame:style:"
+- "initWithImage:"
+- "initWithImage:highlightedImage:"
+- "initWithInteger:"
+- "initWithItemType:callProviderManager:"
+- "initWithKeysToFetch:"
+- "initWithNibName:bundle:"
+- "initWithProvider:"
+- "initWithQueryString:queryContext:"
+- "initWithReuseIdentifier:"
+- "initWithSettings:"
+- "initWithStyle:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithTableViewController:callProviderManager:"
+- "initWithTableViewController:feautureFlags:callProviderManager:"
+- "initWithType:contactStore:searchResultsRanker:"
+- "initWithUnsignedInt:"
+- "initWithUserQueryString:userQueryContext:"
+- "inputCancellable"
+- "insertToken:atIndex:"
+- "isCancelled"
+- "isDecelerating"
+- "isDragging"
+- "isEditing"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMatchInfoValidWithMatchInfo:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRelayCallingEnabled"
+- "isThumperCallingEnabled"
+- "junkFilteringEnabled"
+- "kCSQueryFlags"
+- "keypadButtonInteractedWithButtonType:"
+- "labelColor"
+- "labelFontSize"
+- "lastBaselineAnchor"
+- "lastSearchStartTime"
+- "layer"
+- "layoutMarginsGuide"
+- "leadingAnchor"
+- "loadConstraints"
+- "localizedName"
+- "logCustomGreetingUpdated"
+- "logEvent:"
+- "logEvent:withCoreAnalyticsDictionary:"
+- "logLatencyCancellable"
+- "logLatencySubject"
+- "logPrefix"
+- "logSIMLineSelection:"
+- "logSearchBarTap"
+- "logSearchLatency"
+- "logSearchResultInteraction:cellType:searchLength:"
+- "logger"
+- "mainScreen"
+- "marginForTableView:"
+- "matchInfo"
+- "matchedPhoneNumber"
+- "matchedPhoneNumberFor:searchText:allowMatchingLastFour:"
+- "matchedProperties"
+- "matchedProperties:contains:"
+- "maximumNumberOfRowsInSection"
+- "navigationItem"
+- "needsReindexing"
+- "nickname"
+- "normalizedHandleWithDestinationID:"
+- "numberOfRowsInConsolidatedView"
+- "numberOfSectionsInTableView:"
+- "openURL:withCompletionHandler:"
+- "organizationName"
+- "performSearch::"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phoneLargeFormatUIEnabled"
+- "phoneNumberStrings"
+- "phoneNumbers"
+- "predicateForContactsMatchingFullTextSearch:containerIdentifiers:groupIdentifiers:"
+- "predicateForContactsMatchingSmartDialerString:"
+- "predicateWithValue:"
+- "preferredContentSizeCategory"
+- "preferredContentSizeCategoryAllowsMultilineTitleForDoubleLineCells"
+- "preferredFontForTextStyle:"
+- "preferredPhoneNumber"
+- "prepareForReuse"
+- "presentSeeAllViewControllerFor:"
+- "presentingViewController"
+- "presentingViewControllerForAvatarCardController:"
+- "prewarmSearchControllersAfterSeconds:"
+- "prioritizedSenderIdentities"
+- "providersChangedForProviderManager:"
+- "pushViewController:animated:"
+- "q"
+- "q16@0:8"
+- "q24@0:8@\"UITableView\"16"
+- "q24@0:8@16"
+- "q32@0:8@\"CNAvatarCardController\"16@\"NSIndexPath\"24"
+- "q32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "q32@0:8@\"UITableView\"16q24"
+- "q32@0:8@16@24"
+- "q32@0:8@16q24"
+- "q40@0:8@\"CNAvatarCardController\"16{CGPoint=dd}24"
+- "q40@0:8@\"UITableView\"16@\"NSString\"24q32"
+- "q40@0:8@16@24q32"
+- "q40@0:8@16{CGPoint=dd}24"
+- "query"
+- "queryContext"
+- "queryStringForSimSearchWithSearchText:"
+- "ranker"
+- "registerCellWith:"
+- "registerClass:forCellReuseIdentifier:"
+- "registerClass:forHeaderFooterViewReuseIdentifier:"
+- "release"
+- "reloadData"
+- "representedObject"
+- "respondsToSelector:"
+- "resultIDs"
+- "results"
+- "retain"
+- "retainCount"
+- "scaledFontForFont:"
+- "scheduledWorkItem"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "searchBar"
+- "searchCompleteControllerSet"
+- "searchController"
+- "searchControllerBeginDragging"
+- "searchControllerDidSelectRow"
+- "searchControllerProvider"
+- "searchControllers"
+- "searchControllersWithResults"
+- "searchFinishedForController:startTime:searchLength:resultsCount:"
+- "searchFor:shouldRefreshResult:completionHandler:"
+- "searchItemType"
+- "searchLatencyDict"
+- "searchLatencyDictQueue"
+- "searchManager"
+- "searchSuggestionsWithText:completion:"
+- "searchTask"
+- "searchText"
+- "searchTextField"
+- "searchTokens"
+- "searchType"
+- "searchWith:searchTokens:completion:"
+- "searchWithQueryString:completion:"
+- "searchWithText:searchTokens:completion:"
+- "secondaryLabelColor"
+- "sectionIndex"
+- "sectionIndexTitlesForTableView:"
+- "sectionNeedsIndexing"
+- "sectionTitle"
+- "sectionType"
+- "seeAllButton"
+- "seeAllTapHandler"
+- "self"
+- "senderIdentityProvider"
+- "separatorInsetForContentSizeCategory:isEditing:"
+- "serialQueue"
+- "setAccessibilityIdentifier:"
+- "setAlignment:"
+- "setAttributedText:"
+- "setAxis:"
+- "setBackgroundColor:"
+- "setBorderColor:"
+- "setBorderWidth:"
+- "setBundleIDs:"
+- "setClipsToBounds:"
+- "setCompletionHandler:"
+- "setContact:"
+- "setContactAvatarCardController:"
+- "setContactIdentifier:"
+- "setContacts:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHorizontalAlignment:"
+- "setContentHuggingPriority:forAxis:"
+- "setContentInsetAdjustmentBehavior:"
+- "setCornerRadius:"
+- "setDataSource:"
+- "setDelegate:"
+- "setDistribution:"
+- "setEnableSuggestionTokens:"
+- "setFillerRowHeight:"
+- "setFilterQueries:"
+- "setFont:"
+- "setFooterView:"
+- "setFoundItemsHandler:"
+- "setFoundSuggestionsHandler:"
+- "setFrame:"
+- "setHandle:"
+- "setHidden:"
+- "setHighlightView:"
+- "setHostingNavigationController:"
+- "setIncludeAcceptedIntroductions:"
+- "setLargeTitleDisplayMode:"
+- "setLineBreakMode:"
+- "setLocalSenderIdentityAccountUUID:"
+- "setMasksToBounds:"
+- "setMessage:"
+- "setNavigationBarHidden:animated:"
+- "setNumberOfLines:"
+- "setOpaque:"
+- "setOriginatingUIType:"
+- "setPredicate:"
+- "setPreferredPhoneNumber:"
+- "setPreservesSuperviewLayoutMargins:"
+- "setRepresentedObject:"
+- "setResultIDs:"
+- "setResults:"
+- "setRowHeight:"
+- "setSearchControllerProvider:"
+- "setSearchControllers:"
+- "setSearchLatencyDict:"
+- "setSearchText:"
+- "setSearchTokens:"
+- "setSectionHeaderTopPadding:"
+- "setSectionIndex:"
+- "setSectionType:"
+- "setSeparatorInset:"
+- "setSeparatorInsetReference:"
+- "setSortOrder:"
+- "setSourceRect:"
+- "setSourceView:"
+- "setSpacing:"
+- "setStartTimeDict:"
+- "setSubscriptionsLabelIDByLabel:"
+- "setSuggestion:"
+- "setSuggestions:"
+- "setSuggestionsDelegate:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTintColor:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTitleColor:forState:"
+- "setTitleView:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInteractionEnabled:"
+- "setUserQueryContext:"
+- "setVideo:"
+- "set_contactSearchResults:"
+- "set_searchString:"
+- "settingsWithContactStore:threeDTouchEnabled:"
+- "shared"
+- "sharedApplication"
+- "sharedInstance"
+- "sharedManager"
+- "sizeToFit"
+- "smartDialerRankingEnabled"
+- "sourceView"
+- "start"
+- "startTimeDict"
+- "string"
+- "stringFromContact:style:"
+- "stringValue"
+- "subject"
+- "subscriptionsLabelIDByLabel"
+- "suggestion"
+- "suggestionImage"
+- "suggestionText"
+- "suggestionTokens"
+- "suggestions"
+- "suggestionsDelegate"
+- "suggestionsTableViewController"
+- "summaryForContact:matchInfo:"
+- "superclass"
+- "supportsSecureCoding"
+- "supportsTelephonyCalls"
+- "systemBackgroundColor"
+- "systemBlueColor"
+- "systemFontOfSize:"
+- "systemImageNamed:"
+- "tableView"
+- "tableView:accessoryButtonTappedForRowWithIndexPath:"
+- "tableView:accessoryTypeForRowWithIndexPath:"
+- "tableView:backgroundColorForDeleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:backgroundColorForSwipeAccessoryButtonForRowAtIndexPath:"
+- "tableView:calloutTargetRectForCell:forRowAtIndexPath:"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:canFocusRowAtIndexPath:"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:canPerformAction:forRowAtIndexPath:withSender:"
+- "tableView:canPerformPrimaryActionForRowAtIndexPath:"
+- "tableView:cellForRowAt:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:contextMenuConfigurationForRowAtIndexPath:point:"
+- "tableView:deleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:didBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:didCancelReorderingRowAtIndexPath:"
+- "tableView:didDeselectRowAtIndexPath:"
+- "tableView:didEndDisplayingCell:forRowAtIndexPath:"
+- "tableView:didEndDisplayingFooterView:forSection:"
+- "tableView:didEndDisplayingHeaderView:forSection:"
+- "tableView:didEndEditingRowAtIndexPath:"
+- "tableView:didEndReorderingRowAtIndexPath:"
+- "tableView:didEndSwipingRowAtIndexPath:"
+- "tableView:didFocusRowAtIndexPath:"
+- "tableView:didHighlightRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:didUnfocusRowAtIndexPath:"
+- "tableView:didUnhighlightRowAtIndexPath:"
+- "tableView:didUpdateFocusInContext:withAnimationCoordinator:"
+- "tableView:didUpdateTextFieldForRowAtIndexPath:withValue:"
+- "tableView:editActionsForRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:estimatedHeightForFooterInSection:"
+- "tableView:estimatedHeightForHeaderInSection:"
+- "tableView:estimatedHeightForRowAtIndexPath:"
+- "tableView:frameForSectionIndexGivenProposedFrame:"
+- "tableView:heightForFooterInSection:"
+- "tableView:heightForHeaderInSection:"
+- "tableView:heightForRowAtIndexPath:"
+- "tableView:indentationLevelForRowAtIndexPath:"
+- "tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:leadingSwipeActionsForRowAtIndexPath:"
+- "tableView:maxTitleWidthForFooterInSection:"
+- "tableView:maxTitleWidthForHeaderInSection:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:newContentOffsetAfterUpdate:context:"
+- "tableView:numberOfRowsInSection:"
+- "tableView:performAction:forRowAtIndexPath:withSender:"
+- "tableView:performPrimaryActionForRowAtIndexPath:"
+- "tableView:previewForDismissingContextMenuWithConfiguration:"
+- "tableView:previewForHighlightingContextMenuWithConfiguration:"
+- "tableView:sectionForSectionIndexTitle:atIndex:"
+- "tableView:selectionFollowsFocusForRowAtIndexPath:"
+- "tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:shouldDrawBottomSeparatorForSection:"
+- "tableView:shouldDrawTopSeparatorForSection:"
+- "tableView:shouldHaveFullLengthBottomSeparatorForSection:"
+- "tableView:shouldHaveFullLengthTopSeparatorForSection:"
+- "tableView:shouldHighlightRowAtIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:shouldShowMenuForRowAtIndexPath:"
+- "tableView:shouldSpringLoadRowAtIndexPath:withContext:"
+- "tableView:shouldUpdateFocusFromRowAtIndexPath:toView:heading:"
+- "tableView:shouldUpdateFocusInContext:"
+- "tableView:swipeAccessoryButtonForRowAtIndexPath:"
+- "tableView:swipeAccessoryButtonPushedForRowAtIndexPath:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "tableView:titleAlignmentForFooterInSection:"
+- "tableView:titleAlignmentForHeaderInSection:"
+- "tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:titleForFooterInSection:"
+- "tableView:titleForHeaderInSection:"
+- "tableView:titleForSwipeAccessoryButtonForRowAtIndexPath:"
+- "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:trailingSwipeActionsForRowAtIndexPath:"
+- "tableView:viewForFooterInSection:"
+- "tableView:viewForHeaderInSection:"
+- "tableView:wantsHeaderForSection:"
+- "tableView:willBeginEditingRowAtIndexPath:"
+- "tableView:willBeginReorderingRowAtIndexPath:"
+- "tableView:willBeginSwipingRowAtIndexPath:"
+- "tableView:willCommitMenuWithAnimator:"
+- "tableView:willDeselectRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tableView:willDisplayContextMenuWithConfiguration:animator:"
+- "tableView:willDisplayFooterView:forSection:"
+- "tableView:willDisplayHeaderView:forSection:"
+- "tableView:willEndContextMenuInteractionWithConfiguration:animator:"
+- "tableView:willPerformPreviewActionForMenuWithConfiguration:animator:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tableViewController"
+- "tableViewDidEndMultipleSelectionInteraction:"
+- "tableViewDidFinishReload:"
+- "tableViewReloadTask"
+- "tableViewSpacingForExtraSeparators:"
+- "telephonyProvider"
+- "telephonyUIBodyShortEmphasizedFont"
+- "telephonyUISubheadlineShortFont"
+- "telephonyUIUnreadIndicatorGlyphImage"
+- "text"
+- "throttle"
+- "throttleTime"
+- "titleLabel"
+- "titleStackView"
+- "tokenKind"
+- "tokenWithIcon:text:"
+- "tokens"
+- "topAnchor"
+- "trailingAnchor"
+- "traitCollection"
+- "unformattedNumberInLatin"
+- "unifiedContactWithIdentifier:keysToFetch:error:"
+- "uniqueIdentifier"
+- "updateSearchResultsForSearchController:"
+- "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+- "updateTableViewSeperatorInset"
+- "updatedSuggestionWithCurrentSuggestion:userString:tokens:"
+- "userInterfaceIdiom"
+- "userQuery"
+- "userQueryContext"
+- "userQueryContextFor:"
+- "userQueryContextWithCurrentSuggestion:"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v24@0:8@\"<MPSearchController>\"16"
+- "v24@0:8@\"<MPSearchResultsUpdatingProtocol>\"16"
+- "v24@0:8@\"CNAvatarCardController\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"TUCallProviderManager\"16"
+- "v24@0:8@\"UINavigationController\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UISearchController\"16"
+- "v24@0:8@\"UISearchToken\"16"
+- "v24@0:8@\"UITableView\"16"
+- "v24@0:8@\"UITableViewCell\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UISearchController\"16@\"<UISearchSuggestion>\"24"
+- "v32@0:8@\"UITableView\"16@\"<UIContextMenuInteractionCommitAnimating>\"24"
+- "v32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "v32@0:8@16@24"
+- "v32@0:8I16I20q24"
+- "v32@?0@\"CNContact\"8@\"CNContactMatchInfo\"16^B24"
+- "v36@0:8@\"NSString\"16B24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?>32"
+- "v40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSString\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionCommitAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewCell\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24@\"UIFocusAnimationCoordinator\"32"
+- "v40@0:8@\"UITableView\"16@\"UIView\"24q32"
+- "v40@0:8@\"UITableView\"16q24@\"NSIndexPath\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16q24@32"
+- "v44@0:8I16@20q28q36"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "v48@0:8@16:24@32@40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v8@?0"
+- "value"
+- "videoButton"
+- "videoButtonTapped"
+- "videoCapableHandle"
+- "view"
+- "viewDidAppear:"
+- "viewDidLoad"
+- "viewForDetails"
+- "viewForFooterInTableView:"
+- "viewForHeaderInTableView:"
+- "viewForZoomingInScrollView:"
+- "viewIsAppearing:"
+- "viewWillAppear:"
+- "visibleCells"
+- "widthAnchor"
+- "window"
+- "zone"
+- "{CGPoint=dd}48@0:8@\"UITableView\"16{CGPoint=dd}24@40"
+- "{CGPoint=dd}48@0:8@16{CGPoint=dd}24@40"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}40@0:8@\"UITableView\"16@\"UITableViewCell\"24@\"NSIndexPath\"32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}40@0:8@16@24@32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8@\"UITableView\"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+
+```

@@ -1,0 +1,764 @@
+## NanoMediaBridgeUI
+
+> `/System/Library/PrivateFrameworks/NanoMediaBridgeUI.framework/NanoMediaBridgeUI`
+
+```diff
+
+-2023.600.2.0.0
+-  __TEXT.__text: 0xbf04
+-  __TEXT.__auth_stubs: 0x520
+-  __TEXT.__objc_methlist: 0xbfc
+-  __TEXT.__const: 0xb8
+-  __TEXT.__cstring: 0x19bd
+-  __TEXT.__oslogstring: 0x338
++2024.100.38.0.0
++  __TEXT.__text: 0xa4fc
++  __TEXT.__objc_methlist: 0xb4c
++  __TEXT.__const: 0xa8
++  __TEXT.__cstring: 0x1986
++  __TEXT.__oslogstring: 0x27e
+   __TEXT.__ustring: 0x1ea0
+-  __TEXT.__gcc_except_tab: 0x74
+-  __TEXT.__unwind_info: 0x340
+-  __TEXT.__objc_classname: 0x27d
+-  __TEXT.__objc_methname: 0x2a91
+-  __TEXT.__objc_methtype: 0x606
+-  __TEXT.__objc_stubs: 0x25e0
+-  __DATA_CONST.__got: 0x2a8
+-  __DATA_CONST.__const: 0x5f0
+-  __DATA_CONST.__objc_classlist: 0xa0
++  __TEXT.__gcc_except_tab: 0x48
++  __TEXT.__unwind_info: 0x2a0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x550
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc30
+-  __DATA_CONST.__objc_superrefs: 0x70
++  __DATA_CONST.__objc_selrefs: 0xbc0
++  __DATA_CONST.__objc_superrefs: 0x60
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x2a0
++  __DATA_CONST.__got: 0x280
+   __AUTH_CONST.__const: 0xa0
+   __AUTH_CONST.__cfstring: 0x2700
+-  __AUTH_CONST.__objc_const: 0x1960
++  __AUTH_CONST.__objc_const: 0x1750
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x640
+-  __DATA.__objc_ivar: 0x110
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x5a0
++  __DATA.__objc_ivar: 0xf4
+   __DATA.__data: 0xc0
+   __DATA.__bss: 0xb0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/BridgePreferences.framework/BridgePreferences
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/NanoMusicSync.framework/NanoMusicSync
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/NanoSystemSettings.framework/NanoSystemSettings
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 54E106F6-64A1-3EA3-8BB4-7395E7B986E5
+-  Functions: 247
+-  Symbols:   1236
+-  CStrings:  1209
++  UUID: AFB9F013-C109-3A97-AAB7-C219B6D726B1
++  Functions: 227
++  Symbols:   1152
++  CStrings:  613
+ 
+Symbols:
++ -[NMUKeepLocalErrorAlertConfiguration _setGenericErrorWithOKActionIfNeeded]
++ _IDSErrorDomain
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_setGenericErrorWithOKActionIfNeeded
++ _objc_msgSend$actions
++ _objc_msgSend$message
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x4
++ _objc_retain_x5
+- +[NMUDownloadWaitingAlertController requiredPropertiesForModelKind:]
+- +[NMUKeepLocalRequestController requiredPropertiesForModelKind:]
+- -[NMUDownloadWaitingAlertController .cxx_destruct]
+- -[NMUDownloadWaitingAlertController initWithModelObject:status:downloadPauseReason:options:presentingViewController:]
+- -[NMUDownloadWaitingAlertController presentWithCompletion:]
+- -[NMUKeepLocalAlertConfiguration alertViewControllerWithKeepLocalBlock:]
+- -[NMUKeepLocalErrorAlertConfiguration _setGenericErrorWithOKAction]
+- -[NMUKeepLocalRequestController .cxx_destruct]
+- -[NMUKeepLocalRequestController _handleResponseForRequest:options:error:completion:]
+- -[NMUKeepLocalRequestController _handleResponseForRequest:options:error:completion:].cold.1
+- -[NMUKeepLocalRequestController _presentAlertForRequest:options:error:completion:]
+- -[NMUKeepLocalRequestController initWithRequest:presentingViewController:]
+- -[NMUKeepLocalRequestController performRequestWithOptions:completion:]
+- _OBJC_CLASS_$_NMSKeepLocalRequestProxy
+- _OBJC_CLASS_$_NMUDownloadWaitingAlertController
+- _OBJC_CLASS_$_NMUKeepLocalRequestController
+- _OBJC_CLASS_$_UIAlertAction
+- _OBJC_CLASS_$_UIAlertController
+- _OBJC_IVAR_$_NMUDownloadWaitingAlertController._downloadPauseReason
+- _OBJC_IVAR_$_NMUDownloadWaitingAlertController._keepLocalRequestOptions
+- _OBJC_IVAR_$_NMUDownloadWaitingAlertController._modelObject
+- _OBJC_IVAR_$_NMUDownloadWaitingAlertController._presentingViewController
+- _OBJC_IVAR_$_NMUDownloadWaitingAlertController._status
+- _OBJC_IVAR_$_NMUKeepLocalRequestController._presentingViewController
+- _OBJC_IVAR_$_NMUKeepLocalRequestController._request
+- _OBJC_METACLASS_$_NMUDownloadWaitingAlertController
+- _OBJC_METACLASS_$_NMUKeepLocalRequestController
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- __OBJC_$_CLASS_METHODS_NMUDownloadWaitingAlertController
+- __OBJC_$_CLASS_METHODS_NMUKeepLocalRequestController
+- __OBJC_$_INSTANCE_METHODS_NMUDownloadWaitingAlertController
+- __OBJC_$_INSTANCE_METHODS_NMUKeepLocalRequestController
+- __OBJC_$_INSTANCE_VARIABLES_NMUDownloadWaitingAlertController
+- __OBJC_$_INSTANCE_VARIABLES_NMUKeepLocalRequestController
+- __OBJC_CLASS_RO_$_NMUDownloadWaitingAlertController
+- __OBJC_CLASS_RO_$_NMUKeepLocalRequestController
+- __OBJC_METACLASS_RO_$_NMUDownloadWaitingAlertController
+- __OBJC_METACLASS_RO_$_NMUKeepLocalRequestController
+- ___59-[NMUDownloadWaitingAlertController presentWithCompletion:]_block_invoke
+- ___70-[NMUKeepLocalRequestController performRequestWithOptions:completion:]_block_invoke
+- ___72-[NMUKeepLocalAlertConfiguration alertViewControllerWithKeepLocalBlock:]_block_invoke
+- ___72-[NMUKeepLocalAlertConfiguration alertViewControllerWithKeepLocalBlock:]_block_invoke_2
+- ___82-[NMUKeepLocalRequestController _presentAlertForRequest:options:error:completion:]_block_invoke
+- ___84-[NMUKeepLocalRequestController _handleResponseForRequest:options:error:completion:]_block_invoke
+- ___block_descriptor_48_e8_32s40bs_e23_v16?0"UIAlertAction"8ls40l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e33_v16?0"NMUKeepLocalAlertAction"8ls32l8s48l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- _objc_msgSend$_handleResponseForRequest:options:error:completion:
+- _objc_msgSend$_presentAlertForRequest:options:error:completion:
+- _objc_msgSend$_setGenericErrorWithOKAction
+- _objc_msgSend$actionWithTitle:style:handler:
+- _objc_msgSend$addAction:
+- _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
+- _objc_msgSend$alertViewControllerWithKeepLocalBlock:
+- _objc_msgSend$downloadAction
+- _objc_msgSend$enableState
+- _objc_msgSend$incrementTapCountForDownloadWaitingReason:action:
+- _objc_msgSend$incrementTapCountForKeepLocalErrorAlertReason:action:
+- _objc_msgSend$initWithModelObject:enableState:
+- _objc_msgSend$initWithModelObject:error:options:
+- _objc_msgSend$initWithModelObject:status:downloadPauseReason:options:
+- _objc_msgSend$initWithRequest:presentingViewController:
+- _objc_msgSend$keepLocalRequestOptions
+- _objc_msgSend$modelObject
+- _objc_msgSend$performRequestWithOptions:completion:
+- _objc_msgSend$performWithOptions:completion:
+- _objc_msgSend$presentViewController:animated:completion:
+- _objc_msgSend$reason
+- _objc_msgSend$requiredPropertiesForModelKind:
+- _objc_msgSend$shouldPerformKeepLocalRequest
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x24
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@"
+- "@\"<NMBUIPowerSourceInfoDelegate>\""
+- "@\"<NMBUISyncInfoControllerDataSource>\""
+- "@\"ACAccount\""
+- "@\"CAShapeLayer\""
+- "@\"MPArtworkCatalog\""
+- "@\"MPModelObject\""
+- "@\"NMBUIDownloadProgressView\""
+- "@\"NMBUIMediaTableCellDownloadState\""
+- "@\"NMBUINotificationObserver\""
+- "@\"NMBUIPowerSourceInfo\""
+- "@\"NMSKeepLocalRequest\""
+- "@\"NMSKeepLocalRequestOptions\""
+- "@\"NMSMediaSyncInfo\""
+- "@\"NMSMediaSyncInfoUpdaterHeartbeat\""
+- "@\"NMUKeepLocalAlertAction\""
+- "@\"NSArray\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUserDefaults\""
+- "@\"UIActivityIndicatorView\""
+- "@\"UIButton\""
+- "@\"UIColor\""
+- "@\"UIImage\""
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UIProgressView\""
+- "@\"UIStackView\""
+- "@\"UIView\""
+- "@\"UIViewController\""
+- "@\"UIVisualEffectView\""
+- "@16@0:8"
+- "@20@0:8I16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8Q16Q24"
+- "@32@0:8Q16d24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16{CGSize=dd}24"
+- "@40@0:8q16@24@32"
+- "@44@0:8@16B24@28Q36"
+- "@48@0:8@16Q24Q32@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8@16Q24Q32@40@48"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CGColor"
+- "CGPath"
+- "MPArtworkCatalog"
+- "NMBUIAccountUtil"
+- "NMBUIAlertHeaderView"
+- "NMBUIContentHeaderView"
+- "NMBUIDisclosureMediaTableCell"
+- "NMBUIDownloadProgressView"
+- "NMBUIMediaTableCell"
+- "NMBUIMediaTableCellConfiguration"
+- "NMBUIMediaTableCellDownloadState"
+- "NMBUINotificationObserver"
+- "NMBUIPowerSourceInfo"
+- "NMBUIPowerSourceInfoDelegate"
+- "NMBUISubtitleDisclosureTableCell"
+- "NMBUISyncInfoController"
+- "NMBUISyncProgressView"
+- "NMUDownloadWaitingAlertConfiguration"
+- "NMUDownloadWaitingAlertController"
+- "NMUKeepLocalAlertAction"
+- "NMUKeepLocalAlertConfiguration"
+- "NMUKeepLocalErrorAlertConfiguration"
+- "NMUKeepLocalRequestController"
+- "NMUMetricsReporter"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "T#,R"
+- "T@\"<NMBUIPowerSourceInfoDelegate>\",W,N,V_delegate"
+- "T@\"<NMBUISyncInfoControllerDataSource>\",W,N,V_dataSource"
+- "T@\"MPArtworkCatalog\",&,N,V_artworkCatalog"
+- "T@\"NMBUIDownloadProgressView\",&,N,V_downloadProgressView"
+- "T@\"NMBUIMediaTableCellDownloadState\",&,N,V_downloadState"
+- "T@\"NMSKeepLocalRequestOptions\",&,N,V_keepLocalRequestOptions"
+- "T@\"NMSMediaSyncInfo\",R,N,V_syncInfo"
+- "T@\"NMUKeepLocalAlertAction\",&,N,V_cancelAction"
+- "T@\"NSArray\",&,N,V_actions"
+- "T@\"NSString\",&,N,V_message"
+- "T@\"NSString\",&,N,V_placeholderSystemImageName"
+- "T@\"NSString\",&,N,V_subtitle"
+- "T@\"NSString\",&,N,V_title"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIColor\",&,N,V_placeholderIconColor"
+- "T@\"UIImage\",&,N,V_placeholderImage"
+- "T@\"UILabel\",R,N"
+- "T@\"UIProgressView\",R,N"
+- "T@,&,N,V_modelObject"
+- "T@?,C,N,V_actionHandler"
+- "T@?,C,N,V_downloadIndicatorTapAction"
+- "TB,N,V_shouldPerformKeepLocalRequest"
+- "TB,R,N,GhasExternalPowerSourceConnected"
+- "TQ,N,V_downloadAction"
+- "TQ,N,V_reason"
+- "TQ,N,V_state"
+- "TQ,R"
+- "TQ,R,N,V_target"
+- "Td,N,V_progress"
+- "Tf,N,V_progress"
+- "UTF8String"
+- "Vv16@0:8"
+- "[NMUKeepLocalRequestController] Successfully set keepLocalState:%ld for modelObject: %@"
+- "[NMUKeepLocalRequestController] error (%@) while trying to validate for download model object: %@"
+- "^{_NSZone=}16@0:8"
+- "_accessoryNotificationObserver"
+- "_account"
+- "_actionHandler"
+- "_actionNameFromAlertAction:"
+- "_actionNameFromMoreActionType:"
+- "_actions"
+- "_alertReasonFromDownloadWaitingReason:"
+- "_alertReasonFromKeepLocalErrorAlertReason:"
+- "_artworkCatalog"
+- "_backgroundView"
+- "_bundleIdentifierForTarget"
+- "_cancelAction"
+- "_configurationFromSpecifier:"
+- "_contentFrame"
+- "_contentStackView"
+- "_contextNameFromMoreActionContextType:"
+- "_dataSource"
+- "_delegate"
+- "_detailTextLabel"
+- "_downloadAction"
+- "_downloadIndicatorTapAction"
+- "_downloadNowOffPowerActionWithOptions:"
+- "_downloadNowOffPowerOnCellularActionWithOptions:"
+- "_downloadNowOnCellularActionWithOptions:"
+- "_downloadOnPowerActionWithOptions:"
+- "_downloadPauseReason"
+- "_downloadProgressView"
+- "_downloadState"
+- "_downloadableIconView"
+- "_downloadingRingProgressLayer"
+- "_downloadingRingTrackLayer"
+- "_errorButton"
+- "_errorButtonWithSpecifier:"
+- "_errorIconButton"
+- "_greenTeaDefaults"
+- "_handleActiveUserIdentityDidChangeNotification:"
+- "_handleDownloadIndicatorTapGesture:"
+- "_handleMediaSyncInfoDidUpdateNotification:"
+- "_handleMusicCellularDownloadsAllowedDidChangeNotification:"
+- "_handlePowerSourceNotification"
+- "_handleResponseForRequest:options:error:completion:"
+- "_handleUserIdentityStoreDidChangeNotification:"
+- "_hasExternalPowerSourceConnected"
+- "_imageFromImage:scaledToSize:"
+- "_isObservingSyncInfo"
+- "_isSyncing"
+- "_keepLocalRequestOptions"
+- "_lastNotifiedExternalPowerSourceConnected"
+- "_launcherNameForLaunchURLType:"
+- "_legacyTrackProgressTextWithFormat:"
+- "_message"
+- "_modelObject"
+- "_musicCellularDownloadingAllowedOnWatch"
+- "_musicSyncInfoMessageWithStatus:downloadPauseReason:"
+- "_notificationToken"
+- "_okAction"
+- "_placeholderIconColor"
+- "_placeholderImage"
+- "_placeholderSystemImageName"
+- "_powerSourceInfo"
+- "_powerSourceNotificationObserver"
+- "_presentAlertForRequest:options:error:completion:"
+- "_presentingViewController"
+- "_processName"
+- "_progress"
+- "_progressContainerView"
+- "_progressIndicator"
+- "_progressTextLabel"
+- "_progressView"
+- "_queue"
+- "_reason"
+- "_request"
+- "_ringPath"
+- "_sendEvent:payload:"
+- "_setBadgeText:"
+- "_setContinuousCornerRadius:"
+- "_setDownloadState:"
+- "_setGenericErrorWithOKAction"
+- "_shouldDisplayDownloadProgressViewForDownloadState:"
+- "_shouldPerformKeepLocalRequest"
+- "_shouldShowProgressDetails"
+- "_state"
+- "_status"
+- "_stringForRoutePickingResult:"
+- "_stringFromSuggestionsContextType:"
+- "_stringFromSuggestionsMediaType:"
+- "_subtitle"
+- "_syncInfo"
+- "_syncInfoUpdaterHeartbeat"
+- "_syncProgressTextForMediaType:"
+- "_systemImageNamed:"
+- "_target"
+- "_textLabel"
+- "_title"
+- "_trackProgressTextForMediaType:"
+- "_tryAgainWithOptions:"
+- "_updateActiveAccount"
+- "_updateDownloadingRingProgressLayerStrokeEnd"
+- "_viewNameForViewType:"
+- "_waitingRingLayer"
+- "account"
+- "actionHandler"
+- "actionWithTitle:shouldPerformKeepLocalRequest:keepLocalRequestOptions:downloadAction:"
+- "actionWithTitle:style:handler:"
+- "actions"
+- "activateConstraints:"
+- "activePairedDeviceSelectorBlock"
+- "activeStoreAccountWithError:"
+- "addAction:"
+- "addAnimation:forKey:"
+- "addGestureRecognizer:"
+- "addObject:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:selector:name:object:"
+- "addSublayer:"
+- "addSubview:"
+- "addTarget:action:forEvents:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "alertViewControllerWithKeepLocalBlock:"
+- "animationWithKeyPath:"
+- "arrangedSubviews"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "artworkCatalog"
+- "artworkSize"
+- "autorelease"
+- "beginObservingSyncInfo"
+- "bezierPathWithOvalInRect:"
+- "boolForKey:"
+- "boolValue"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "bundleWithIdentifier:"
+- "buttonWithType:"
+- "cancelAction"
+- "class"
+- "clearArtworkCatalogs"
+- "code"
+- "colorWithAlphaComponent:"
+- "colorWithRed:green:blue:alpha:"
+- "componentsSeparatedByString:"
+- "configurationWithPointSize:"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "containers"
+- "containsObject:"
+- "contentView"
+- "control"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "d"
+- "d16@0:8"
+- "dataSource"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "delegate"
+- "description"
+- "detailTextLabel"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "domain"
+- "downloadAction"
+- "downloadIndicatorTapAction"
+- "downloadPauseReason"
+- "downloadPauseReasonForContainer:"
+- "downloadProgressView"
+- "downloadState"
+- "downloadStateForModelObject:"
+- "drawInRect:"
+- "effectWithStyle:"
+- "effectiveUserInterfaceLayoutDirection"
+- "emptyPropertySet"
+- "enableState"
+- "endObservingSyncInfo"
+- "exceptionWithName:reason:userInfo:"
+- "externalPowerSourceConnected"
+- "f"
+- "f16@0:8"
+- "f24@0:8@16"
+- "firstObject"
+- "floatValue"
+- "frame"
+- "getActivePairedDevice"
+- "getAllDevicesWithArchivedAltAccountDevicesMatching:"
+- "hasExternalPowerSourceConnected"
+- "hasITunesAccount"
+- "hasItemsOverStorageLimitForContainer:"
+- "hasItemsWaitingWithoutPauseReason"
+- "hasItemsWaitingWithoutPauseReasonForContainer:"
+- "hasValidGetter"
+- "hash"
+- "heightAnchor"
+- "ic_DSID"
+- "identityKind"
+- "imageNamed:inBundle:"
+- "imageView"
+- "imageWithRenderingMode:"
+- "imageWithSymbolConfiguration:"
+- "incrementAutoPlayChangeCountWithEndpointType:"
+- "incrementBrowsingCountForViewType:"
+- "incrementBrowsingCountForViewType:endpointType:"
+- "incrementCrownBasedVolumeControlCountWithEndpointType:"
+- "incrementLaunchCountForLaunchURLType:"
+- "incrementMediaSuggestionsTappedWithEndpointType:contextType:mediaType:"
+- "incrementPlaybackRoutePickerPresentationCount"
+- "incrementPlaybackShuffleAllCountFromViewType:endpointType:"
+- "incrementPlaybackStartCountFromViewType:endpointType:"
+- "incrementPlaybackStartCountFromViewType:index:endpointType:playerBundleID:"
+- "incrementPlaybackStartCountWithPath:shuffled:endpointType:"
+- "incrementRepeatModeChangeCountWithEndpointType:"
+- "incrementRouteAutoSelectionResult:"
+- "incrementRouteChangeCountWithEndpointType:"
+- "incrementRouteSelectCountWithEndpointType:"
+- "incrementRouteSelectionResult:endpointType:"
+- "incrementShuffleModeChangeCountWithEndpointType:"
+- "incrementTapCountForDownloadWaitingReason:action:"
+- "incrementTapCountForKeepLocalErrorAlertReason:action:"
+- "incrementTapCountForMoreActionType:context:"
+- "incrementTrackListTrackSelectionCountWithEndpointType:"
+- "init"
+- "initWithActivityIndicatorStyle:"
+- "initWithArrangedSubviews:"
+- "initWithBundleIdentifier:"
+- "initWithEffect:"
+- "initWithFrame:"
+- "initWithImage:"
+- "initWithItemName:error:options:"
+- "initWithItemName:status:downloadPauseReason:options:"
+- "initWithModelObject:enableState:"
+- "initWithModelObject:error:options:"
+- "initWithModelObject:status:downloadPauseReason:options:"
+- "initWithModelObject:status:downloadPauseReason:options:presentingViewController:"
+- "initWithNotificationName:queue:block:"
+- "initWithProgressViewStyle:"
+- "initWithRequest:presentingViewController:"
+- "initWithState:progress:"
+- "initWithStyle:reuseIdentifier:specifier:"
+- "initWithSuiteName:"
+- "initWithSyncInfoTarget:"
+- "initWithTarget:"
+- "initWithTarget:action:"
+- "initWithUUIDString:"
+- "insertArrangedSubview:atIndex:"
+- "integerValue"
+- "intrinsicContentSize"
+- "isAnimating"
+- "isAppleTVRoute"
+- "isB520Route"
+- "isDeviceRoute"
+- "isEqual:"
+- "isEqualToString:"
+- "isHomePodRoute"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isMusicCellularDownloadingAllowed"
+- "isPhoneRoute"
+- "isProxy"
+- "keepLocalRequestOptions"
+- "lastObject"
+- "layer"
+- "layoutMarginsGuide"
+- "layoutSubviews"
+- "leadingAnchor"
+- "length"
+- "lineWidth"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromNumber:numberStyle:"
+- "localizedStringWithFormat:"
+- "mainScreen"
+- "message"
+- "modelObject"
+- "name"
+- "nanoMediaBridgeUIBundle"
+- "nmu_metricsMoreActionContentType"
+- "numberOfAssetItems"
+- "numberOfAssetItemsSynced"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "object"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "performGetter"
+- "performRequestWithOptions:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWithOptions:completion:"
+- "placeholderIconColor"
+- "placeholderImage"
+- "placeholderSystemImageName"
+- "postNotificationName:object:"
+- "powerSourceInfoHasExternalPowerSourceConnectedDidChange:"
+- "preferredFontForTextStyle:"
+- "prepareForReuse"
+- "presentViewController:animated:completion:"
+- "presentWithCompletion:"
+- "processInfo"
+- "progress"
+- "progressForContainer:"
+- "progressForModelObject:"
+- "progressView"
+- "propertyForKey:"
+- "propertySetWithProperties:"
+- "redColor"
+- "refreshCellContentsWithSpecifier:"
+- "release"
+- "removeFromSuperlayer"
+- "removeFromSuperview"
+- "removeObserver:forKeyPath:context:"
+- "removeObserver:name:object:"
+- "removeTarget:action:forControlEvents:"
+- "requiredPropertiesForModelKind:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "scale"
+- "self"
+- "set"
+- "setAccessoryType:"
+- "setAccessoryView:"
+- "setActionHandler:"
+- "setActions:"
+- "setAdjustsFontForContentSizeCategory:"
+- "setAffineTransform:"
+- "setArtworkCatalog:"
+- "setArtworkCatalog:withPlaceholderImage:withDesiredSize:"
+- "setAxis:"
+- "setBackgroundColor:"
+- "setBeginTime:"
+- "setCancelAction:"
+- "setCellularPolicy:"
+- "setClipsToBounds:"
+- "setContentMode:"
+- "setCornerRadius:"
+- "setCustomSpacing:afterView:"
+- "setDataSource:"
+- "setDelegate:"
+- "setDestination:configurationBlock:"
+- "setDestinationScale:"
+- "setDownloadAction:"
+- "setDownloadIndicatorTapAction:"
+- "setDownloadProgressView:"
+- "setDownloadState:"
+- "setDuration:"
+- "setFillColor:"
+- "setFittingSize:"
+- "setFont:"
+- "setFrame:"
+- "setFrameInterval:"
+- "setFromValue:"
+- "setHidden:"
+- "setImage:"
+- "setKeepLocalRequestOptions:"
+- "setLineCap:"
+- "setLineWidth:"
+- "setMessage:"
+- "setModelObject:"
+- "setNeedsLayout"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setPath:"
+- "setPlaceholderIconColor:"
+- "setPlaceholderImage:"
+- "setPlaceholderSystemImageName:"
+- "setPowerPolicy:"
+- "setProgress:"
+- "setProgressTintColor:"
+- "setReason:"
+- "setRemovedOnCompletion:"
+- "setRepeatCount:"
+- "setShouldPerformKeepLocalRequest:"
+- "setSpacing:"
+- "setState:"
+- "setStrokeColor:"
+- "setStrokeEnd:"
+- "setSubtitle:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTintColor:"
+- "setTitle:"
+- "setToValue:"
+- "setTrackTintColor:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInteractionEnabled:"
+- "sharedAccountStore"
+- "sharedInstance"
+- "sharedMetricsReporter"
+- "sharedNetworkObserver"
+- "shouldPerformKeepLocalRequest"
+- "size"
+- "sizeThatFits:"
+- "specifier"
+- "start"
+- "startAnimating"
+- "state"
+- "status"
+- "statusForContainer:"
+- "stop"
+- "stopAnimating"
+- "stringWithFormat:"
+- "style"
+- "subtitle"
+- "superclass"
+- "superview"
+- "supportsCapability:"
+- "syncInfo"
+- "syncInfoController:containerIdentifierForModelObject:"
+- "syncState"
+- "syncStatusDetailText"
+- "syncWaitingSubstate"
+- "systemGrayColor"
+- "systemLayoutSizeFittingSize:"
+- "systemYellowColor"
+- "target"
+- "text"
+- "textLabel"
+- "tintColor"
+- "tintColorDidChange"
+- "title"
+- "titleLabel"
+- "topAnchor"
+- "trailingAnchor"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "updatePinnedAlbumsCount:"
+- "updatePinnedPlaylistsCount:"
+- "updatePinnedRecommendationsCount:"
+- "updateTopLevelContainersCount:"
+- "updateWithShouldShowProgressBar:progress:progressText:"
+- "userInfo"
+- "v16@0:8"
+- "v16@?0@\"NMUKeepLocalAlertAction\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"UIAlertAction\"8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v24@0:8@\"NMBUIPowerSourceInfo\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8B16f20@24"
+- "v32@0:8Q16Q24"
+- "v36@0:8@16B24Q28"
+- "v40@0:8Q16Q24Q32"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8@16@24{CGSize=dd}32"
+- "v48@0:8Q16q24Q32@40"
+- "valueForProperty:"
+- "whiteColor"
+- "zone"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+
+```

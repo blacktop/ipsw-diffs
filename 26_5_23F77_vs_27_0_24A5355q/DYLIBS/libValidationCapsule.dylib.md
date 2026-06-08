@@ -1,0 +1,328 @@
+## libValidationCapsule.dylib
+
+> `/System/Library/Frameworks/AudioToolbox.framework/libValidationCapsule.dylib`
+
+```diff
+
+-1556.604.2.0.0
+-  __TEXT.__text: 0x1a424
+-  __TEXT.__auth_stubs: 0xc20
+-  __TEXT.__const: 0x1d8
+-  __TEXT.__gcc_except_tab: 0xd2c
+-  __TEXT.__cstring: 0x3ba1
++1619.4.0.0.0
++  __TEXT.__text: 0x1a174
++  __TEXT.__realtime: 0x480
++  __TEXT.__const: 0x1e8
++  __TEXT.__gcc_except_tab: 0xd18
+   __TEXT.__oslogstring: 0xca
+-  __TEXT.__unwind_info: 0x738
+-  __TEXT.__objc_classname: 0x11
+-  __TEXT.__objc_methname: 0x5a
+-  __TEXT.__objc_stubs: 0xa0
+-  __DATA_CONST.__got: 0x108
++  __TEXT.__cstring: 0x4048
++  __TEXT.__unwind_info: 0x778
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_methname: 0x0
+   __DATA_CONST.__const: 0x220
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x620
+-  __AUTH_CONST.__const: 0x5f0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x578
+   __AUTH_CONST.__cfstring: 0x140
++  __AUTH_CONST.__weak_auth_got: 0x28
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x4
+   __DATA.__common: 0x8
+   __DATA.__bss: 0x848
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 90CC9707-D1EF-3863-94E3-B048BEA73497
+-  Functions: 376
+-  Symbols:   915
+-  CStrings:  504
++  UUID: FF7043E8-380E-34DB-9176-BEC845BAB58D
++  Functions: 381
++  Symbols:   938
++  CStrings:  483
+ 
+Symbols:
++ GCC_except_table10
++ GCC_except_table109
++ GCC_except_table111
++ GCC_except_table121
++ GCC_except_table126
++ GCC_except_table133
++ GCC_except_table134
++ GCC_except_table146
++ GCC_except_table147
++ GCC_except_table165
++ GCC_except_table166
++ GCC_except_table17
++ GCC_except_table192
++ GCC_except_table193
++ GCC_except_table202
++ GCC_except_table215
++ GCC_except_table220
++ GCC_except_table253
++ GCC_except_table257
++ GCC_except_table259
++ GCC_except_table26
++ GCC_except_table264
++ GCC_except_table270
++ GCC_except_table275
++ GCC_except_table285
++ GCC_except_table293
++ GCC_except_table294
++ GCC_except_table297
++ GCC_except_table298
++ GCC_except_table30
++ GCC_except_table306
++ GCC_except_table307
++ GCC_except_table309
++ GCC_except_table324
++ GCC_except_table326
++ GCC_except_table330
++ GCC_except_table333
++ GCC_except_table336
++ GCC_except_table337
++ GCC_except_table350
++ GCC_except_table351
++ GCC_except_table372
++ GCC_except_table379
++ GCC_except_table382
++ GCC_except_table383
++ GCC_except_table385
++ GCC_except_table39
++ GCC_except_table43
++ GCC_except_table54
++ GCC_except_table6
++ GCC_except_table75
++ GCC_except_table76
++ GCC_except_table77
++ GCC_except_table9
++ GCC_except_table94
++ GCC_except_table95
++ __Z15MakeCAExceptioni
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9foe220100EPKcm
++ __ZNSt12length_errorC1B9foe220100EPKc
++ __ZNSt14overflow_errorC1B9foe220100EPKc
++ __ZNSt3__110__function12__value_funcIFvvEEC2B9foe220100EOS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B9foe220100Ev
++ __ZNSt3__110unique_ptrI16BufferListObjectNS_14default_deleteIS1_EEED1B9foe220100Ev
++ __ZNSt3__110unique_ptrI20PropertyExpectationsNS_14default_deleteIS1_EEED1B9foe220100Ev
++ __ZNSt3__110unique_ptrIN12CADeprecated10AUOutputBLENS_14default_deleteIS2_EEE5resetB9foe220100EPS2_
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9foe220100Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_1EEENS3_IS8_EEED1B9foe220100Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_2EEENS3_IS8_EEED1B9foe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9foe220100Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB9foe220100IPKcLi0EEERS5_T_SA_
++ __ZNSt3__112system_errorC1EiRKNS_14error_categoryE
++ __ZNSt3__114__thread_proxyB9foe220100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_1EEEEEPvSA_
++ __ZNSt3__114__thread_proxyB9foe220100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_2EEEEEPvSA_
++ __ZNSt3__115system_categoryEv
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_6threadEEEE9constructB9foe220100IS2_JZN19AUValidationCapsule11RenderTestsEvE3$_1ELi0EEEvRS3_PT_DpOT0_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_6threadEEEE9constructB9foe220100IS2_JZN19AUValidationCapsule11RenderTestsEvE3$_2ELi0EEEvRS3_PT_DpOT0_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe220100ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionEEEEDaRT_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev
++ __ZNSt3__120__throw_length_errorB9foe220100EPKc
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm8__fill_nEJNS_17__single_iteratorINS_14__bit_iteratorINS_8__bitsetILm1ELm3EEELb0ELm0EEEEEEEclB9foe220100ImbEES7_S7_T_RKT0_
++ __ZNSt3__123mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EEclB9foe220100Ev
++ __ZNSt3__124__put_character_sequenceB9foe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9foe220100Ev
++ __ZNSt3__132__internal_log_hardening_failureEPKc
++ __ZNSt3__14endlB9foe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
++ __ZNSt3__16__treeINS_12__value_typeIjNS_6vectorI9ParamInfoNS_9allocatorIS3_EEEEEENS_19__map_value_compareIjNS_4pairIKjS6_EENS_4lessIjEEEENS4_ISB_EEE14__tree_deleterclB9foe220100EPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16vectorI12AUParamValueNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorI12AUParamValueNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI9ParamInfoNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorI9ParamInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE16__destroy_vectorclB9foe220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE9push_backB9foe220100EOS3_
++ __ZNSt3__16vectorINS_10unique_ptrI16BufferListObjectNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9foe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrI16BufferListObjectNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrI16BufferListObjectNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJPcEEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE16__destroy_vectorclB9foe220100Ev
++ __ZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionNS_9allocatorIS2_EEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionNS_9allocatorIS2_EEEC1B9foe220100ERKS5_
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJRKjEEEPjDpOT_
++ __ZNSt3__19allocatorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEE17allocate_at_leastB9foe220100Em
++ __ZNSt3__19allocatorINS_6threadEE17allocate_at_leastB9foe220100Em
++ __ZSt28__throw_bad_array_new_lengthB9foe220100v
++ __ZZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE12emplace_backIJZN19AUValidationCapsule11RenderTestsEvE3$_1EEERS1_DpOT_ENKUlvE0_clEv
++ __ZZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE12emplace_backIJZN19AUValidationCapsule11RenderTestsEvE3$_2EEERS1_DpOT_ENKUlvE0_clEv
++ __ZZNSt3__16vectorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionNS_9allocatorIS2_EEE12emplace_backIJRKjS8_S8_RfS9_EEERS2_DpOT_ENKUlvE0_clEv
++ _objc_claimAutoreleasedReturnValue
++ _objc_release_x20
++ _objc_release_x27
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x25
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x9
+- GCC_except_table100
+- GCC_except_table114
+- GCC_except_table116
+- GCC_except_table130
+- GCC_except_table137
+- GCC_except_table138
+- GCC_except_table150
+- GCC_except_table151
+- GCC_except_table16
+- GCC_except_table169
+- GCC_except_table171
+- GCC_except_table18
+- GCC_except_table199
+- GCC_except_table201
+- GCC_except_table208
+- GCC_except_table21
+- GCC_except_table218
+- GCC_except_table223
+- GCC_except_table23
+- GCC_except_table255
+- GCC_except_table258
+- GCC_except_table260
+- GCC_except_table265
+- GCC_except_table273
+- GCC_except_table283
+- GCC_except_table287
+- GCC_except_table290
+- GCC_except_table295
+- GCC_except_table302
+- GCC_except_table303
+- GCC_except_table319
+- GCC_except_table32
+- GCC_except_table321
+- GCC_except_table323
+- GCC_except_table325
+- GCC_except_table331
+- GCC_except_table345
+- GCC_except_table346
+- GCC_except_table36
+- GCC_except_table367
+- GCC_except_table374
+- GCC_except_table377
+- GCC_except_table378
+- GCC_except_table380
+- GCC_except_table44
+- GCC_except_table48
+- GCC_except_table59
+- GCC_except_table80
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table99
+- __ZN11CAExceptionD0Ev
+- __ZN11CAExceptionD1Ev
+- __ZN11CAExceptionD2Ev
+- __ZNK11CAException4whatEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9nqe210106EPKcm
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt14overflow_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFvvEEC2B9nqe210106EOS3_
+- __ZNSt3__110__function12__value_funcIFvvEED2B9nqe210106Ev
+- __ZNSt3__110unique_ptrI16BufferListObjectNS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrI20PropertyExpectationsNS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrIN12CADeprecated10AUOutputBLENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_1EEENS3_IS8_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_2EEENS3_IS8_EEED1B9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB9nqe210106IPKcLi0EEERS5_T_SA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
+- __ZNSt3__113__fill_n_boolB9nqe210106ILb0ENS_8__bitsetILm1ELm3EEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS4_vE9size_typeE
+- __ZNSt3__114__thread_proxyB9nqe210106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_1EEEEEPvSA_
+- __ZNSt3__114__thread_proxyB9nqe210106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN19AUValidationCapsule11RenderTestsEvE3$_2EEEEEPvSA_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEE9constructB9nqe210106IS6_JPcELi0EEEvRS7_PT_DpOT0_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_6threadEEEE9constructB9nqe210106IS2_JZN19AUValidationCapsule11RenderTestsEvE3$_1ELi0EEEvRS3_PT_DpOT0_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_6threadEEEE9constructB9nqe210106IS2_JZN19AUValidationCapsule11RenderTestsEvE3$_2ELi0EEEvRS3_PT_DpOT0_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionEEEEDaRT_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
+- __ZNSt3__119piecewise_constructE
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__123mersenne_twister_engineIyLm64ELm312ELm156ELm31ELy13043109905998158313ELm29ELy6148914691236517205ELm17ELy8202884508482404352ELm37ELy18444473444759240704ELm43ELy6364136223846793005EEclEv
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__14endlB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_6vectorI9ParamInfoNS_9allocatorIS3_EEEEEENS_19__map_value_compareIjNS_4pairIKjS6_EENS_4lessIjEELb1EEENS4_ISB_EEE7destroyEPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16vectorI12AUParamValueNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI9ParamInfoNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrI20PropertyExpectationsEENS_9allocatorIS3_EEE9push_backB9nqe210106EOS3_
+- __ZNSt3__16vectorINS_10unique_ptrI16BufferListObjectNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrI16BufferListObjectNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_6threadENS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIZN19AUValidationCapsule11RenderTestsEvE17ParamDistributionNS_9allocatorIS2_EEEC1B9nqe210106ERKS5_
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__19allocatorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorINS_6threadEE17allocate_at_leastB9nqe210106Em
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZTI11CAException
+- __ZTS11CAException
+- __ZTT11CAException
+- __ZTV11CAException
+- __ZTVN10__cxxabiv121__vmi_class_type_infoE
+- __ZTv0_n24_N11CAExceptionD0Ev
+- __ZTv0_n24_N11CAExceptionD1Ev
+- _objc_release_x24
+- _objc_retain_x22
+- _objc_retain_x24
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CQM0ugBmljniJOFo4ChbeRjW-W0aiq-NalgZrbE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1156: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
++ "/AppleInternal/Library/BuildRoots/4~CQM0ugBmljniJOFo4ChbeRjW-W0aiq-NalgZrbE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:413: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CQM0ugBmljniJOFo4ChbeRjW-W0aiq-NalgZrbE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/array:279: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
++ "/AppleInternal/Library/BuildRoots/4~CQM0ugBmljniJOFo4ChbeRjW-W0aiq-NalgZrbE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/include/c++/v1/optional:1130: libc++ Hardening assertion this->has_value() failed: optional operator* called on a disengaged value\n"
+- "CAException"
+- "addObject:"
+- "calloc"
+- "fclose"
+- "fgets"
+- "fopen"
+- "fread"
+- "free"
+- "fwrite"
+- "isMainThread"
+- "malloc"
+- "mmap"
+- "numberWithInt:"
+- "open"
+- "pread"
+- "pwrite"
+- "read"
+- "realloc"
+- "recv"
+- "send"
+- "sendto"
+- "setObject:forKeyedSubscript:"
+- "stringWithUTF8String:"
+- "valloc"
+- "write"
+
+```

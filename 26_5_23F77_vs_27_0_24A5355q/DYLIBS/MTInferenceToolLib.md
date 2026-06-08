@@ -1,0 +1,420 @@
+## MTInferenceToolLib
+
+> `/System/Library/PrivateFrameworks/MTInferenceToolLib.framework/MTInferenceToolLib`
+
+```diff
+
+-365.13.0.0.0
+-  __TEXT.__text: 0x9acc
+-  __TEXT.__auth_stubs: 0x9a0
+-  __TEXT.__const: 0xd78
+-  __TEXT.__swift5_typeref: 0x315
+-  __TEXT.__cstring: 0x27c
+-  __TEXT.__swift5_reflstr: 0x27d
+-  __TEXT.__swift5_assocty: 0x150
+-  __TEXT.__constg_swiftt: 0x35c
+-  __TEXT.__swift5_fieldmd: 0x430
+-  __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift5_proto: 0xb4
+-  __TEXT.__swift5_types: 0x4c
++380.1.0.0.0
++  __TEXT.__text: 0x1c4fc
++  __TEXT.__const: 0x3098
++  __TEXT.__constg_swiftt: 0x7c8
++  __TEXT.__swift5_typeref: 0x7e8
++  __TEXT.__swift5_fieldmd: 0xf30
++  __TEXT.__cstring: 0xec7
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_reflstr: 0xb66
++  __TEXT.__swift5_assocty: 0x270
++  __TEXT.__swift5_proto: 0x2c4
++  __TEXT.__swift5_types: 0xd8
++  __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0x410
+-  __TEXT.__eh_frame: 0x608
+-  __TEXT.__objc_methname: 0x83
+-  __TEXT.__objc_stubs: 0xa0
+-  __DATA_CONST.__got: 0x188
+-  __DATA_CONST.__const: 0x70
++  __TEXT.__swift_as_cont: 0x10
++  __TEXT.__unwind_info: 0xa00
++  __TEXT.__eh_frame: 0x1060
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_methname: 0x0
++  __DATA_CONST.__const: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x4d8
+-  __AUTH_CONST.__const: 0xb68
+-  __AUTH.__data: 0x240
+-  __DATA.__data: 0x3f0
+-  __DATA.__bss: 0x1410
++  __DATA_CONST.__objc_selrefs: 0xb8
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x2730
++  __AUTH_CONST.__auth_got: 0x690
++  __AUTH.__data: 0x248
++  __DATA.__data: 0xa60
++  __DATA.__bss: 0x5690
++  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/PrivateFrameworks/ArgumentParserInternal.framework/ArgumentParserInternal
+   - /System/Library/PrivateFrameworks/TranslationInference.framework/TranslationInference
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48C861A5-2729-3667-BA15-BA20B6C17EB3
+-  Functions: 318
+-  Symbols:   215
+-  CStrings:  38
++  UUID: 8C411AFB-00C8-3CAF-AAB7-6E16AF65FCD0
++  Functions: 983
++  Symbols:   459
++  CStrings:  122
+ 
+Symbols:
++ _AVFormatIDKey
++ _AVLinearPCMBitDepthKey
++ _AVLinearPCMIsBigEndianKey
++ _AVLinearPCMIsFloatKey
++ _AVLinearPCMIsNonInterleaved
++ _AVNumberOfChannelsKey
++ _AVSampleRateKey
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_AVAudioFile
++ _OBJC_CLASS_$_AVAudioPCMBuffer
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSObject
++ ___swift_allocate_value_buffer
++ ___swift_async_cont_functlets
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy1088_8
++ ___swift_memcpy112_8
++ ___swift_memcpy1632_8
++ ___swift_memcpy224_8
++ ___swift_memcpy281_8
++ ___swift_memcpy28_8
++ ___swift_memcpy32_8
++ ___swift_memcpy393_8
++ ___swift_memcpy56_8
++ ___swift_memcpy680_8
++ ___swift_memcpy89_8
++ ___swift_project_value_buffer
++ ___unnamed_13
++ __swiftEmptyDictionarySingleton
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_MTInferenceToolLib
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_MTInferenceToolLib
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_MTInferenceToolLib
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_MTInferenceToolLib
++ _associated conformance 18MTInferenceToolLib08SpeechToD14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD15PipelineLatencyV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD15PipelineLatencyV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD15PipelineLatencyV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD9InputItemV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib08SpeechToD9InputItemV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib08SpeechToD9InputItemV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib10TTSWavDataV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib10TTSWavDataV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib10TTSWavDataV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLOSHAASQ
++ _associated conformance 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOSHAASQ
++ _associated conformance 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib16InferenceLatencyV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib16InferenceLatencyV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib16InferenceLatencyV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOSHAASQ
++ _associated conformance 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V10CodingKeysOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV0E4TypeOSHAASQ
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysOSHAASQ
++ _associated conformance 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _memcpy
++ _objc_allocWithZone
++ _objc_msgSend$channelCount
++ _objc_msgSend$commonFormat
++ _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$floatChannelData
++ _objc_msgSend$format
++ _objc_msgSend$frameLength
++ _objc_msgSend$initForWriting:settings:commonFormat:interleaved:error:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithPCMFormat:frameCapacity:
++ _objc_msgSend$int16ChannelData
++ _objc_msgSend$int32ChannelData
++ _objc_msgSend$sampleRate
++ _objc_msgSend$setFrameLength:
++ _objc_msgSend$streamDescription
++ _objc_msgSend$stringByDeletingLastPathComponent
++ _objc_msgSend$stringByExpandingTildeInPath
++ _objc_msgSend$stringByStandardizingPath
++ _objc_msgSend$writeFromBuffer:error:
++ _objc_release_x20
++ _objc_release_x25
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x8
++ _swift_arrayDestroy
++ _swift_dynamicCast
++ _swift_getForeignTypeMetadata
++ _swift_initStackObject
++ _swift_once
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x27
++ _swift_release_x9
++ _swift_retain_x20
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _symbolic $s18MTInferenceToolLib22SentencePieceProvidingP
++ _symbolic SS_ypt
++ _symbolic SaySaySiGG
++ _symbolic SaySdG
++ _symbolic SaySiG
++ _symbolic SaySuG
++ _symbolic Say_____G 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V
++ _symbolic Su
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD14LatencyMetricsV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD15PipelineLatencyV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD15PipelineLatencyV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD7MetricsV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD9InputItemV
++ _symbolic _____ 18MTInferenceToolLib08SpeechToD9InputItemV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib0A3LogO
++ _symbolic _____ 18MTInferenceToolLib10TTSWavDataV
++ _symbolic _____ 18MTInferenceToolLib10TTSWavDataV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib13AlignmentPairV
++ _symbolic _____ 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLO
++ _symbolic _____ 18MTInferenceToolLib14ComponentStatsV
++ _symbolic _____ 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____ 18MTInferenceToolLib16InferenceLatencyV
++ _symbolic _____ 18MTInferenceToolLib16InferenceLatencyV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib16StatisticalValueV
++ _symbolic _____ 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____ 18MTInferenceToolLib18DetokenizerLatencyV
++ _symbolic _____ 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib20TranslationModelInfoV
++ _symbolic _____ 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V
++ _symbolic _____ 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib20TranslationModelInfoV0E4TypeO
++ _symbolic _____ 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysO
++ _symbolic _____ 18MTInferenceToolLib22TokenizerEngineMetricsV
++ _symbolic _____ 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysO
++ _symbolic _____ So19AVAudioCommonFormatV
++ _symbolic _____ s5Int32V
++ _symbolic _____Sg 18MTInferenceToolLib16StatisticalValueV
++ _symbolic _____Sg 20TranslationInference0A9ModelInfoV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG15PipelineLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG25PipelineProcessingMetricsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG38PipelineAudioArrivalIndependentMetricsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib08SpeechToG9InputItemV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib10TTSWavDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib16InferenceLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib20TranslationModelInfoV05AssetI0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG14LatencyMetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG15PipelineLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG16TokenizerLatencyV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG25PipelineProcessingMetricsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG38PipelineAudioArrivalIndependentMetricsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG7MetricsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib08SpeechToG9InputItemV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib10TTSWavDataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib13AlignmentPairV10CodingKeys33_DC33CD1EFFEFD4FD6A6949699D59522DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib14ComponentStatsV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib16InferenceLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib16StatisticalValueV10CodingKeys33_614679112C422D3A65AF159E16895C22LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib18DetokenizerLatencyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib20TranslationModelInfoV05AssetI0V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib20TranslationModelInfoV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18MTInferenceToolLib22TokenizerEngineMetricsV10CodingKeysO
++ _symbolic xSSc
++ _type_layout_string 18MTInferenceToolLib08SpeechToD14LatencyMetricsV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD15PipelineLatencyV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD16TokenizerLatencyV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD25PipelineProcessingMetricsV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD38PipelineAudioArrivalIndependentMetricsV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD7MetricsV
++ _type_layout_string 18MTInferenceToolLib08SpeechToD9InputItemV
++ _type_layout_string 18MTInferenceToolLib10TTSWavDataV
++ _type_layout_string 18MTInferenceToolLib13AlignmentPairV
++ _type_layout_string 18MTInferenceToolLib14ComponentStatsV
++ _type_layout_string 18MTInferenceToolLib16InferenceLatencyV
++ _type_layout_string 18MTInferenceToolLib16StatisticalValueV
++ _type_layout_string 18MTInferenceToolLib18DetokenizerLatencyV
++ _type_layout_string 18MTInferenceToolLib20TranslationModelInfoV
++ _type_layout_string 18MTInferenceToolLib20TranslationModelInfoV05AssetF0V
++ _type_layout_string 18MTInferenceToolLib22TokenizerEngineMetricsV
++ _type_layout_string SeRzSERzl18MTInferenceToolLib15PlainTextParserVyxG
+- _swift_retain
+CStrings:
++ ": Unsupported audio format."
++ "Can't merge AudioBuffers: Failed to initialize target audio buffer."
++ "Can't write TTS audio file "
++ "Cannot merge AudioBuffers: AudioBuffers have different format settings."
++ "Cannot merge AudioBuffers: No Audio Buffers received"
++ "Cannot merge AudioBuffers: Unable to access audio channel data."
++ "Could not get floatChannelData from AVAudioPCMBuffer, "
++ "Could not get int16ChannelData from AVAudioPCMBuffer"
++ "Could not get int32ChannelData from AVAudioPCMBuffer"
++ "Failed to parse timing info dictionary"
++ "Frame count mismatch (expected "
++ "Unsupported PCM Format"
++ "afm_lora"
++ "anetec"
++ "anetecWaitTimes"
++ "asr_to_mt_latency_in_ms"
++ "assets"
++ "audio"
++ "audioDuration"
++ "audioSampleCount"
++ "audio_arrival_independent"
++ "audio_rate_dependent"
++ "audio_to_asr_latency_in_ms"
++ "audio_token_batch_latencies_in_ms"
++ "average_token_generation_time_per_chunk_in_ms"
++ "avg_compute_duration_in_ms"
++ "channel_count"
++ "com.apple.Translation.mt-inference"
++ "context_size_supported_by_model"
++ "convertAudioBufferToWAVData: Unsupported AVAudioFormat"
++ "display_version"
++ "encoder"
++ "encoderAndDecoder"
++ "finalization_latency_audio_in_ms"
++ "finalization_latency_detokenizer_tokens_in_ms"
++ "format"
++ "frame_count"
++ "identifier"
++ "inference_chunk_latencies_in_ms"
++ "inference_time_per_chunk_in_ms"
++ "infernence_plus_tokenizer_compute_time_in_ms"
++ "input_audio_buffer_size_in_ms"
++ "input_audio_length_in_ms"
++ "max_compute_duration_in_ms"
++ "min_compute_duration_in_ms"
++ "model_bundle_identifier"
++ "model_info"
++ "model_type"
++ "mt_expert"
++ "mt_to_audio_token_latency_in_ms"
++ "none"
++ "real_time_factor"
++ "real_time_factor_inference"
++ "requestDuration"
++ "rtfRequestDurationPerSecondOfAudio"
++ "sample_rate"
++ "sequence_audio_token_batch_latencies_in_ms"
++ "sequence_average_token_generation_time_per_chunk_in_ms"
++ "sequence_inference_chunk_latencies_in_ms"
++ "sequence_inference_time_per_chunk_in_ms"
++ "sequence_infernence_plus_tokenizer_compute_time_in_ms"
++ "sequence_number_of_prompt_tokens"
++ "sequence_percentage_of_context_used"
++ "sequence_tokenizer_processing_times_in_ms"
++ "sequence_tokens_per_chunk_per_second"
++ "sequence_ttts_audio_buffer_rendering_time_per_infernce_chunk_in_ms"
++ "source"
++ "source_locale"
++ "target"
++ "target_locale"
++ "timeDecoder"
++ "time_to_first_asr_result_in_ms"
++ "time_to_first_audio_token_batch_in_ms"
++ "time_to_first_inference_result_in_ms"
++ "time_to_first_mt_result_in_ms"
++ "time_to_first_rendered_audio_in_ms"
++ "time_to_first_tts_token_in_ms"
++ "tokenizer_processing_times_in_ms"
++ "tokens_per_chunk_per_second"
++ "total_inference_time_in_ms"
++ "total_processing_time_in_ms"
++ "total_tokenizer_processing_time_in_ms"
++ "total_ttts_audio_buffer_rendering_time_per_inference_chunk_in_ms"
++ "tts_audio_truth"
++ "ttts_audio_buffer_rendering_time_per_infernce_chunk_in_ms"
++ "values_calculated_over_n_durations"
++ "version"
++ "waitTimeFor7Tokens"
++ "wav_base64"
+- "closeAndReturnError:"
+- "createFileAtPath:contents:attributes:"
+- "defaultManager"
+- "fileHandleForWritingToURL:error:"
+- "removeItemAtPath:error:"
+
+```

@@ -1,0 +1,1457 @@
+## MediaContinuityKit
+
+> `/System/Library/PrivateFrameworks/MediaContinuityKit.framework/MediaContinuityKit`
+
+```diff
+
+-60.1.0.0.0
+-  __TEXT.__text: 0xdbde0
+-  __TEXT.__auth_stubs: 0x21f0
+-  __TEXT.__objc_methlist: 0x6e0
+-  __TEXT.__const: 0xa774
+-  __TEXT.__constg_swiftt: 0x408c
+-  __TEXT.__swift5_typeref: 0x2fbd
+-  __TEXT.__swift5_reflstr: 0x3fe2
+-  __TEXT.__swift5_fieldmd: 0x3304
+-  __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_assocty: 0x3a0
+-  __TEXT.__cstring: 0x120e
+-  __TEXT.__oslogstring: 0x261d
+-  __TEXT.__swift5_capture: 0x7c8
+-  __TEXT.__swift5_proto: 0x660
+-  __TEXT.__swift5_types: 0x2b4
+-  __TEXT.__swift_as_entry: 0x3e4
+-  __TEXT.__swift_as_ret: 0x580
+-  __TEXT.__swift5_protos: 0xd4
+-  __TEXT.__swift5_mpenum: 0x90
+-  __TEXT.__unwind_info: 0x3a78
+-  __TEXT.__eh_frame: 0xb354
+-  __TEXT.__objc_classname: 0xd82
+-  __TEXT.__objc_methname: 0x23e5
+-  __TEXT.__objc_methtype: 0x62b
+-  __TEXT.__objc_stubs: 0xd40
+-  __DATA_CONST.__got: 0x658
+-  __DATA_CONST.__const: 0x88
+-  __DATA_CONST.__objc_classlist: 0x170
+-  __DATA_CONST.__objc_protolist: 0xe0
++100.40.1.0.0
++  __TEXT.__text: 0x127240
++  __TEXT.__objc_methlist: 0x850
++  __TEXT.__const: 0xd9e4
++  __TEXT.__constg_swiftt: 0x530c
++  __TEXT.__swift5_typeref: 0x3e51
++  __TEXT.__swift5_builtin: 0x208
++  __TEXT.__swift5_reflstr: 0x5f14
++  __TEXT.__swift5_fieldmd: 0x4640
++  __TEXT.__swift5_proto: 0x800
++  __TEXT.__swift5_types: 0x39c
++  __TEXT.__swift5_assocty: 0x3d0
++  __TEXT.__cstring: 0x192e
++  __TEXT.__oslogstring: 0x3835
++  __TEXT.__swift5_capture: 0xd08
++  __TEXT.__swift_as_entry: 0x564
++  __TEXT.__swift_as_ret: 0x780
++  __TEXT.__swift_as_cont: 0xefc
++  __TEXT.__swift5_protos: 0x114
++  __TEXT.__swift5_mpenum: 0x10c
++  __TEXT.__unwind_info: 0x51c8
++  __TEXT.__eh_frame: 0xf934
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x78
++  __DATA_CONST.__objc_classlist: 0x200
++  __DATA_CONST.__objc_protolist: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x540
+-  __DATA_CONST.__objc_protorefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x1100
+-  __AUTH_CONST.__const: 0x67f0
+-  __AUTH_CONST.__objc_const: 0x4008
+-  __AUTH.__objc_data: 0xd70
+-  __AUTH.__data: 0x3348
+-  __DATA.__data: 0x2208
+-  __DATA.__bss: 0xb500
+-  __DATA.__common: 0x3a0
++  __DATA_CONST.__objc_selrefs: 0x640
++  __DATA_CONST.__objc_protorefs: 0x88
++  __DATA_CONST.__got: 0x768
++  __AUTH_CONST.__const: 0x89c8
++  __AUTH_CONST.__objc_const: 0x5588
++  __AUTH_CONST.__auth_got: 0x13a0
++  __AUTH.__objc_data: 0x1190
++  __AUTH.__data: 0x46c8
++  __DATA.__data: 0x2c00
++  __DATA.__bss: 0xe180
++  __DATA.__common: 0x418
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
++  - /System/Library/PrivateFrameworks/CoreAUC.framework/CoreAUC
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 82A5284D-6AAA-3E0E-A936-F3E652D32479
+-  Functions: 3367
+-  Symbols:   1744
+-  CStrings:  823
++  UUID: 631A950B-354D-3F74-A5AF-1C93D78D1418
++  Functions: 4434
++  Symbols:   2570
++  CStrings:  496
+ 
+Symbols:
++ +[FigPWDCallBackWrapper keyExchangeSenderCallbacksWithContext:sendMessageAsync:handleFailure:]
++ _AIp6m6e0e4SJ5Ql
++ _AUCWirelessHDCPSessionManagerGetAggregateProtectionBits
++ _AVCMediaStreamNegotiatorRequireSetupEncryption
++ _CGRectEqualToRect
++ _CMBaseObjectCopyCFArrayProperty
++ _CMBaseObjectCopyCFDictionaryProperty
++ _CMBaseObjectGetVTable
++ _FigPWDKeyExchangeReceiverCopyCFArrayProperty
++ _FigPWDKeyExchangeReceiverCreate
++ _FigPWDKeyExchangeReceiverProcessIncomingMessageAndCreateReply
++ _FigPWDKeyExchangeReceiverStop
++ _FigPWDKeyExchangeSenderCopyCFArrayProperty
++ _FigPWDKeyExchangeSenderCopyCFDictionaryProperty
++ _FigPWDKeyExchangeSenderCreate
++ _FigPWDKeyExchangeSenderProcessIncomingMessage
++ _FigPWDKeyExchangeSenderStart
++ _FigPWDKeyExchangeSenderStop
++ _Gnf6vZyAVLNQta0BwC
++ _OBJC_CLASS_$_AVCEndpoint
++ _OBJC_CLASS_$_AVCProtectedContentDecryptionContext
++ _OBJC_CLASS_$_AVCProtectedContentEncryptionContext
++ _OBJC_CLASS_$_AVCScreenCapture
++ _OBJC_CLASS_$_AVCScreenCaptureConfiguration
++ _OBJC_CLASS_$_AVCStreamOutput
++ _OBJC_CLASS_$_FigPWDCallBackWrapper
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSProcessInfo
++ _OBJC_CLASS_$__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ _OBJC_CLASS_$__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ _OBJC_METACLASS_$_FigPWDCallBackWrapper
++ _OBJC_METACLASS_$__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ _OBJC_METACLASS_$__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __DATA__TtC18MediaContinuityKit20ControlStreamManager
++ __DATA__TtC18MediaContinuityKit29ConnectionBackedControlStream
++ __DATA__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ __DATA__TtC18MediaContinuityKit31AVConferenceBackedScreenCapture
++ __DATA__TtC18MediaContinuityKit34CurrentProcessDelegatedPIDProvider
++ __DATA__TtC18MediaContinuityKit35ConnectionBackedControlStreamVendor
++ __DATA__TtC18MediaContinuityKit37AVConferenceBackedScreenCaptureVendor
++ __DATA__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __DATA__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiator
++ __DATA__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponder
++ __DATA__TtC18MediaContinuityKit42AVConferenceBackedMediaStreamOutputVending
++ __DATA__TtC18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitor
++ __DATA__TtC18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiator
++ __DATA__TtC18MediaContinuityKit47ProtectedDisplayKeyNegotiationCoordinatorVendor
++ __DATA__TtC18MediaContinuityKit48CoreAUCBackedDisplayProtectionLevelMonitorVendor
++ __DATA__TtC18MediaContinuityKit49FigPWDReceiverBackedProtectedDisplayKeyNegotiator
++ __DATA__TtC18MediaContinuityKit55FigPWDSenderBackedProtectedDisplayKeyNegotiatorDelegate
++ __INSTANCE_METHODS__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __IVARS__TtC18MediaContinuityKit20ControlStreamManager
++ __IVARS__TtC18MediaContinuityKit26RequestResponseCoordinator
++ __IVARS__TtC18MediaContinuityKit29ConnectionBackedControlStream
++ __IVARS__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ __IVARS__TtC18MediaContinuityKit31AVConferenceBackedScreenCapture
++ __IVARS__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __IVARS__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiator
++ __IVARS__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponder
++ __IVARS__TtC18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitor
++ __IVARS__TtC18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiator
++ __IVARS__TtC18MediaContinuityKit49FigPWDReceiverBackedProtectedDisplayKeyNegotiator
++ __IVARS__TtC18MediaContinuityKit55FigPWDSenderBackedProtectedDisplayKeyNegotiatorDelegate
++ __METACLASS_DATA__TtC18MediaContinuityKit20ControlStreamManager
++ __METACLASS_DATA__TtC18MediaContinuityKit29ConnectionBackedControlStream
++ __METACLASS_DATA__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ __METACLASS_DATA__TtC18MediaContinuityKit31AVConferenceBackedScreenCapture
++ __METACLASS_DATA__TtC18MediaContinuityKit34CurrentProcessDelegatedPIDProvider
++ __METACLASS_DATA__TtC18MediaContinuityKit35ConnectionBackedControlStreamVendor
++ __METACLASS_DATA__TtC18MediaContinuityKit37AVConferenceBackedScreenCaptureVendor
++ __METACLASS_DATA__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __METACLASS_DATA__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiator
++ __METACLASS_DATA__TtC18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponder
++ __METACLASS_DATA__TtC18MediaContinuityKit42AVConferenceBackedMediaStreamOutputVending
++ __METACLASS_DATA__TtC18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitor
++ __METACLASS_DATA__TtC18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiator
++ __METACLASS_DATA__TtC18MediaContinuityKit47ProtectedDisplayKeyNegotiationCoordinatorVendor
++ __METACLASS_DATA__TtC18MediaContinuityKit48CoreAUCBackedDisplayProtectionLevelMonitorVendor
++ __METACLASS_DATA__TtC18MediaContinuityKit49FigPWDReceiverBackedProtectedDisplayKeyNegotiator
++ __METACLASS_DATA__TtC18MediaContinuityKit55FigPWDSenderBackedProtectedDisplayKeyNegotiatorDelegate
++ __OBJC_$_CLASS_METHODS_FigPWDCallBackWrapper
++ __OBJC_$_INSTANCE_METHODS__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput(MediaContinuityKit)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCStreamOutputDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCScreenCaptureDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCStreamOutputDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCScreenCaptureDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCStreamOutputDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCScreenCaptureDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCStreamOutputDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput(MediaContinuityKit)
++ __OBJC_CLASS_RO_$_FigPWDCallBackWrapper
++ __OBJC_LABEL_PROTOCOL_$_AVCScreenCaptureDelegate
++ __OBJC_LABEL_PROTOCOL_$_AVCStreamOutputDelegate
++ __OBJC_METACLASS_RO_$_FigPWDCallBackWrapper
++ __OBJC_PROTOCOL_$_AVCScreenCaptureDelegate
++ __OBJC_PROTOCOL_$_AVCStreamOutputDelegate
++ __PROPERTIES__TtC18MediaContinuityKit30AVConferenceBackedStreamOutput
++ __PROTOCOLS__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate
++ __PROTOCOLS__TtC18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegate.2
++ ___copy_assignment_8_8_t0w16_pa0_46156_16_pa0_61312_24
++ ___swift__destructor
++ ___swift__destructor.10
++ ___swift__destructor.25
++ ___swift__destructor.36
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.156Tm
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.159Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.166Tm
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.173Tm
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.177Tm
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.232Tm
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.321
++ ___swift_closure_destructor.325
++ ___swift_closure_destructor.344
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.350
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.68Tm
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.165
++ ___swift_exist.box.addr_destructor.3
++ ___swift_exist.box.addr_destructorTm
++ ___swift_memcpy129_8
++ ___swift_memcpy147_8
++ ___swift_memcpy272_8
++ ___swift_memcpy33_4
++ ___swift_memcpy5_4
++ ___swift_mutable_project_boxed_opaque_existential_0
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 18MediaContinuityKit0aB8EndpointV6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit13StreamMessageO32KeyNegotiationResponseStatusType33_85B06C874455D57EA7D387C51C8851A1LLOSHAASQ
++ _associated conformance 18MediaContinuityKit19ControlStreamErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit19StreamInternalEventOSHAASQ
++ _associated conformance 18MediaContinuityKit20ControlStreamManagerC6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit20FigPWDCryptorUtilityO22CryptorExtractionErrorOSHAASQ
++ _associated conformance 18MediaContinuityKit20NetworkConfigurationOSHAASQ
++ _associated conformance 18MediaContinuityKit26RequestResponseCoordinatorC6ErrorsOyx_GSHAASQ
++ _associated conformance 18MediaContinuityKit29ConnectionBackedControlStreamC5State33_2C6CE939DA3BB2E4AD603AE836505ACALLOSHAASQ
++ _associated conformance 18MediaContinuityKit29ConnectionBackedControlStreamC5State33_2C6CE939DA3BB2E4AD603AE836505ACALLOSLAASQ
++ _associated conformance 18MediaContinuityKit30AVConferenceBackedStreamOutputC5State33_D1CBA89BF89B90D86F222A707DF13BFCLLOSHAASQ
++ _associated conformance 18MediaContinuityKit30AVConferenceBackedStreamOutputC5State33_D1CBA89BF89B90D86F222A707DF13BFCLLOSLAASQ
++ _associated conformance 18MediaContinuityKit30AVConferenceBackedStreamOutputC6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit34CurrentProcessDelegatedPIDProviderC6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiatorC5State33_48478CF3BCD5D2885C83E06F3F5A2593LLOSHAASQ
++ _associated conformance 18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiatorC5State33_48478CF3BCD5D2885C83E06F3F5A2593LLOSLAASQ
++ _associated conformance 18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponderC6ErrorsOSHAASQ
++ _associated conformance 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC5State33_374A9A08C4F2A186C5C900C1C1805F4DLLOSHAASQ
++ _associated conformance 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC5State33_374A9A08C4F2A186C5C900C1C1805F4DLLOSLAASQ
++ _associated conformance 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateOSHAASQ
++ _associated conformance 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateOSLAASQ
++ _block_copy_helper.11
++ _block_copy_helper.40
++ _block_copy_helper.42
++ _block_copy_helper.57
++ _block_copy_helper.60
++ _block_copy_helper.75
++ _block_copy_helper.80
++ _block_copy_helper.84
++ _block_copy_helper.87
++ _block_descriptor.13
++ _block_descriptor.42
++ _block_descriptor.44
++ _block_descriptor.59
++ _block_descriptor.62
++ _block_descriptor.77
++ _block_descriptor.82
++ _block_descriptor.86
++ _block_descriptor.89
++ _block_destroy_helper.12
++ _block_destroy_helper.41
++ _block_destroy_helper.43
++ _block_destroy_helper.58
++ _block_destroy_helper.61
++ _block_destroy_helper.76
++ _block_destroy_helper.81
++ _block_destroy_helper.85
++ _block_destroy_helper.88
++ _cVtdPOVleEtmSPBdy
++ _flat unique 18MediaContinuityKit29ProtectedDisplayKeyNegotiator_px7CryptorAaBPRts_XP
++ _get_enum_tag_for_layout_string 18MediaContinuityKit22KeyNegotiationResponseV6StatusO
++ _get_enum_tag_for_layout_string 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO
++ _get_enum_tag_for_layout_string 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _get_type_metadata 15Synchronization5MutexVy18MediaContinuityKit11CoexSessionC5StateOG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVy18MediaContinuityKit11CoexSessionCSgG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVySS_SStSgG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVySo17OS_os_transaction_pSgG noncopyable.2
++ _get_type_metadata 15Synchronization5MutexVyyycSgG noncopyable.2
++ _getpid
++ _kAVCMediaStreamOptionClientName
++ _kAVCMediaStreamOptionRunInProcess
++ _kCFAllocatorDefault
++ _kFigCAStatsReporting_PayloadKey_KECertDataReqTime
++ _kFigCAStatsReporting_PayloadKey_KECertURLReqTime
++ _kFigCAStatsReporting_PayloadKey_KEEndpointReqTime
++ _kFigCAStatsReporting_PayloadKey_KEEndpointURLReqTime
++ _kFigCAStatsReporting_PayloadKey_KEInitBagCacheTime
++ _kFigCAStatsReporting_PayloadKey_KEInitFPCacheTime
++ _kFigCAStatsReporting_PayloadKey_KEResultCode
++ _kFigCAStatsReporting_PayloadKey_KESenderReceiverRTT
++ _kFigCAStatsReporting_PayloadKey_KETotalTime
++ _kFigPWDKeyExchangeReceiverCreationOption_FeatureOptions
++ _kFigPWDKeyExchangeReceiverProperty_CryptorBundle
++ _kFigPWDKeyExchangeSenderCreationOption_FeatureOptions
++ _kFigPWDKeyExchangeSenderProperty_EncryptorBundle
++ _kFigPWDKeyExchangeSenderProperty_TelemetryData
++ _nw_connection_copy_endpoint
++ _nw_endpoint_copy_dictionary
++ _nw_endpoint_get_device_id
++ _nw_parameters_is_equal
++ _nw_parameters_set_attach_protocol_listener
++ _nw_parameters_set_local_only
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$captureSourceID
++ _objc_msgSend$contentsRect
++ _objc_msgSend$initWithCryptor:protectionLevel:
++ _objc_msgSend$initWithDelegate:withConfig:
++ _objc_msgSend$initWithNWEndpoint:
++ _objc_msgSend$initWithRemoteRTPEndpoint:rtcpEndpoint:options:error:
++ _objc_msgSend$initWithStreamToken:delegate:queue:error:
++ _objc_msgSend$keyExchangeSenderCallbacksWithContext:sendMessageAsync:handleFailure:
++ _objc_msgSend$setCaptureSourceID:
++ _objc_msgSend$setContentBasedDisplayProtectionSwitchingEnabled:
++ _objc_msgSend$setDisplayMode:
++ _objc_msgSend$setParameters:
++ _objc_msgSend$setPdProtectionOptions:
++ _objc_msgSend$setProtectedContentDecryptionContext:
++ _objc_msgSend$setProtectedContentEncryptionContext:
++ _objc_msgSend$setRemoteEndpoints:
++ _objc_msgSend$setTransformForRemoteVideoOrientationEnabled:
++ _objc_msgSend$setVideoLayerHost:forMode:
++ _objc_msgSend$setVirtualDisplayResolution:
++ _objc_msgSend$startCapture
++ _objc_msgSend$stopCapture
++ _objc_msgSend$unsignedLongLongValue
++ _objc_release_x1
++ _objc_retain_x21
++ _objc_retain_x24
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _proc_pidinfo
++ _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
++ _swift_isEscapingClosureAtFileLocation
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_isCurrentExecutor
++ _swift_task_removeCancellationHandler
++ _symbolic $s18MediaContinuityKit0A12StreamOutputP
++ _symbolic $s18MediaContinuityKit0A19StreamOutputVendingP
++ _symbolic $s18MediaContinuityKit0A38ConnectionPrerequisitesProviderVendingP
++ _symbolic $s18MediaContinuityKit13ControlStreamP
++ _symbolic $s18MediaContinuityKit13ScreenCaptureP
++ _symbolic $s18MediaContinuityKit14VideoStreamAVCP
++ _symbolic $s18MediaContinuityKit19ControlStreamVendorP
++ _symbolic $s18MediaContinuityKit20ScreenCaptureVendingP
++ _symbolic $s18MediaContinuityKit25ProtectedDisplayDecryptorP
++ _symbolic $s18MediaContinuityKit25ProtectedDisplayEncryptorP
++ _symbolic $s18MediaContinuityKit29DisplayProtectionLevelMonitorP
++ _symbolic $s18MediaContinuityKit29ProtectedDisplayKeyNegotiatorP
++ _symbolic $s18MediaContinuityKit36DisplayProtectionLevelMonitorVendingP
++ _symbolic $s18MediaContinuityKit40ProtectedDisplayKeyNegotiationInitiatingP
++ _symbolic $s18MediaContinuityKit40ProtectedDisplayKeyNegotiationRespondingP
++ _symbolic $s18MediaContinuityKit48ProtectedDisplayKeyNegotiationCoordinatorVendingP
++ _symbolic $s18MediaContinuityKit8RunnableP
++ _symbolic 7Cryptor_____Qyd__ 18MediaContinuityKit29ProtectedDisplayKeyNegotiatorP
++ _symbolic Ieg_
++ _symbolic IeyBh_
++ _symbolic SDy13Configuration______10Identifier_____QZScTyyt_____GG 18MediaContinuityKit0A6StreamP AA0aD13ConfigurationP s5NeverO
++ _symbolic SDySS______pG 18MediaContinuityKit13ControlStreamP
++ _symbolic SS3key_yp5valuetSg
++ _symbolic SS_yptSg
++ _symbolic Say_____G 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic Say_____G 7Network9NWBrowserC10DescriptorO7OptionsV10DeviceTypeV
++ _symbolic Sb10didSucceed_______pSg5errort s5ErrorP
++ _symbolic Sb______pSgIeghyg_ s5ErrorP
++ _symbolic ScCy___________pG 18MediaContinuityKit14SessionMessageO s5ErrorP
++ _symbolic ScCy___________pGSg 18MediaContinuityKit14SessionMessageO s5ErrorP
++ _symbolic ScCy______p______pG 18MediaContinuityKit25ProtectedDisplayDecryptorP s5ErrorP
++ _symbolic ScCy______p______pGSg 18MediaContinuityKit25ProtectedDisplayDecryptorP s5ErrorP
++ _symbolic ScCy_____y______pG______pG 18MediaContinuityKit36ProtectedDisplayKeyNegotiationStatusO AA0dE9EncryptorP s5ErrorP
++ _symbolic ScCy_____y______pG______pGSg 18MediaContinuityKit36ProtectedDisplayKeyNegotiationStatusO AA0dE9EncryptorP s5ErrorP
++ _symbolic ScCyx______pGSg s5ErrorP
++ _symbolic ScSy_____G 18MediaContinuityKit19StreamInternalEventO
++ _symbolic ScSy_____G 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic ScSy_____G 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic ScSy_____G s6UInt64V
++ _symbolic ScSy_____GyYaKc 18MediaContinuityKit19StreamInternalEventO
++ _symbolic Scsy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit0A17StreamOutputEventO s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic Scsy___________pG 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic Scsy___________pGSg 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic Scsy___________pGSg 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic Scsyq_______pGyYaYbKc s5ErrorP
++ _symbolic So15AVCStreamOutputCSg
++ _symbolic So16AVCScreenCaptureC
++ _symbolic So26AVCScreenCaptureAttributesC
++ _symbolic So36AVCProtectedContentDecryptionContextC
++ _symbolic So36AVCProtectedContentEncryptionContextC
++ _symbolic So36AWDLTrafficRegistrationConfigurationC
++ _symbolic Su
++ _symbolic _____ 18MediaContinuityKit018AVConferenceBackedA19StreamOutputVendingC
++ _symbolic _____ 18MediaContinuityKit0A17StreamOutputEventO
++ _symbolic _____ 18MediaContinuityKit0A23ConnectionConfigurationO
++ _symbolic _____ 18MediaContinuityKit0aB8EndpointV6ErrorsO
++ _symbolic _____ 18MediaContinuityKit13StreamMessageO32KeyNegotiationResponseStatusType33_85B06C874455D57EA7D387C51C8851A1LLO
++ _symbolic _____ 18MediaContinuityKit15VideoAttributesV
++ _symbolic _____ 18MediaContinuityKit18ScreenCaptureEventO
++ _symbolic _____ 18MediaContinuityKit19ControlStreamErrorsO
++ _symbolic _____ 18MediaContinuityKit19StreamInternalEventO
++ _symbolic _____ 18MediaContinuityKit20ControlStreamManagerC
++ _symbolic _____ 18MediaContinuityKit20ControlStreamManagerC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit20FigPWDCryptorUtilityO
++ _symbolic _____ 18MediaContinuityKit20FigPWDCryptorUtilityO22CryptorExtractionErrorO
++ _symbolic _____ 18MediaContinuityKit20NetworkConfigurationO
++ _symbolic _____ 18MediaContinuityKit21KeyNegotiationRequestV
++ _symbolic _____ 18MediaContinuityKit22KeyNegotiationResponseV
++ _symbolic _____ 18MediaContinuityKit22KeyNegotiationResponseV6StatusO
++ _symbolic _____ 18MediaContinuityKit26RequestResponseCoordinatorC
++ _symbolic _____ 18MediaContinuityKit26RequestResponseCoordinatorC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit29ConnectionBackedControlStreamC
++ _symbolic _____ 18MediaContinuityKit29ConnectionBackedControlStreamC5State33_2C6CE939DA3BB2E4AD603AE836505ACALLO
++ _symbolic _____ 18MediaContinuityKit30AVConferenceBackedStreamOutputC
++ _symbolic _____ 18MediaContinuityKit30AVConferenceBackedStreamOutputC5State33_D1CBA89BF89B90D86F222A707DF13BFCLLO
++ _symbolic _____ 18MediaContinuityKit30AVConferenceBackedStreamOutputC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit31AVConferenceBackedScreenCaptureC
++ _symbolic _____ 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO
++ _symbolic _____ 18MediaContinuityKit34CurrentProcessDelegatedPIDProviderC
++ _symbolic _____ 18MediaContinuityKit34CurrentProcessDelegatedPIDProviderC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit35ConnectionBackedControlStreamVendorC
++ _symbolic _____ 18MediaContinuityKit36ProtectedDisplayKeyNegotiationStatusO
++ _symbolic _____ 18MediaContinuityKit37AVConferenceBackedScreenCaptureVendorC
++ _symbolic _____ 18MediaContinuityKit39AVConferenceBackedScreenCaptureDelegateC
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiatorC
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiatorC5State33_48478CF3BCD5D2885C83E06F3F5A2593LLO
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationInitiatorC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponderC
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationResponderC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic _____ 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC
++ _symbolic _____ 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC5State33_374A9A08C4F2A186C5C900C1C1805F4DLLO
++ _symbolic _____ 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit43AVConferenceBackedProtectedDisplayDecryptorV
++ _symbolic _____ 18MediaContinuityKit43AVConferenceBackedProtectedDisplayEncryptorV
++ _symbolic _____ 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____ 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC
++ _symbolic _____ 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic _____ 18MediaContinuityKit47ProtectedDisplayKeyNegotiationCoordinatorVendorC
++ _symbolic _____ 18MediaContinuityKit48CoreAUCBackedDisplayProtectionLevelMonitorVendorC
++ _symbolic _____ 18MediaContinuityKit49FigPWDReceiverBackedProtectedDisplayKeyNegotiatorC
++ _symbolic _____ 18MediaContinuityKit49FigPWDReceiverBackedProtectedDisplayKeyNegotiatorC6ErrorsO
++ _symbolic _____ 18MediaContinuityKit55FigPWDSenderBackedProtectedDisplayKeyNegotiatorDelegateC
++ _symbolic _____ So17CMSampleBufferRefa
++ _symbolic _____ So26FigPWDKeyExchangeSenderRefa
++ _symbolic _____ So28FigPWDKeyExchangeReceiverRefa
++ _symbolic _____ So32FigPWDKeyExchangeSenderCallbacksa
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So7CGPointV
++ _symbolic _____10identifier______15protectionLevelt 18MediaContinuityKit21VideoStreamIdentifierO s6UInt64V
++ _symbolic _____10identifier_______pSg5error_____Sg9telemetryt 18MediaContinuityKit21VideoStreamIdentifierO s5ErrorP AA39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic _____10identifier_t 18MediaContinuityKit21VideoStreamIdentifierO
++ _symbolic _____12responseData_t 10Foundation4DataV
++ _symbolic _____15protectionLevel_t s6UInt64V
++ _symbolic _____20networkConfiguration_t 18MediaContinuityKit20NetworkConfigurationO
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____5error_t s5Int32V
++ _symbolic _____7session_ySb_______pSgtYbc17completionHandlert 18MediaContinuityKit11CoexSessionC s5ErrorP
++ _symbolic _____8endpoint______10parameterst 7Network10NWEndpointO AA12NWParametersC
++ _symbolic _____IeAghy_ 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____Sg 18MediaContinuityKit0A17StreamOutputEventO
++ _symbolic _____Sg 18MediaContinuityKit14TelemetryEventO
++ _symbolic _____Sg 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic _____Sg 18MediaContinuityKit7VersionV
++ _symbolic _____Sg So17AUCHDCPMonitorRefa
++ _symbolic _____Sg So32FigPWDKeyExchangeSenderCallbacksa
++ _symbolic _____Sg s5Int32V
++ _symbolic _____SgXw 18MediaContinuityKit20ControlStreamManagerC
++ _symbolic _____SgXw 18MediaContinuityKit25CoexSessionXPCServerProxyC
++ _symbolic _____SgXw 18MediaContinuityKit31AVConferenceBackedScreenCaptureC
++ _symbolic _____SgXw 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC
++ _symbolic _____SgXw 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC
++ _symbolic _____SgXwz_Xx 18MediaContinuityKit20ControlStreamManagerC
++ _symbolic _____SgXwz_Xx 18MediaContinuityKit31AVConferenceBackedScreenCaptureC
++ _symbolic _____SgXwz_Xx 18MediaContinuityKit42CoreAUCBackedDisplayProtectionLevelMonitorC
++ _symbolic _____SgXwz_Xx 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC
++ _symbolic _____Sg_ABt 18MediaContinuityKit0aB8EndpointV
++ _symbolic _____So7NSErrorCSgIeyBhyy_ 10ObjectiveC8ObjCBoolV
++ _symbolic ______AAt 18MediaContinuityKit0A23ConnectionConfigurationO
++ _symbolic ______Sit So11CFStringRefa
++ _symbolic ___________pIeghHnzo_ 18MediaContinuityKit13StreamMessageO s5ErrorP
++ _symbolic ___________pIeghHnzo_ 18MediaContinuityKit14SessionMessageO s5ErrorP
++ _symbolic ___________pXj l18MediaContinuityKit29ProtectedDisplayKeyNegotiator_px7CryptorRts_XPXG AA0dE9DecryptorP
++ _symbolic ___________pXj l18MediaContinuityKit29ProtectedDisplayKeyNegotiator_px7CryptorRts_XPXG AA0dE9EncryptorP
++ _symbolic ___________t 7Network11NWInterfaceV13InterfaceTypeO AC0C7SubtypeO
++ _symbolic ______p 18MediaContinuityKit0A19StreamOutputVendingP
++ _symbolic ______p 18MediaContinuityKit0A38ConnectionPrerequisitesProviderVendingP
++ _symbolic ______p 18MediaContinuityKit13ControlStreamP
++ _symbolic ______p 18MediaContinuityKit19ControlStreamVendorP
++ _symbolic ______p 18MediaContinuityKit20ScreenCaptureVendingP
++ _symbolic ______p 18MediaContinuityKit25ProtectedDisplayDecryptorP
++ _symbolic ______p 18MediaContinuityKit25ProtectedDisplayEncryptorP
++ _symbolic ______p 18MediaContinuityKit29DisplayProtectionLevelMonitorP
++ _symbolic ______p 18MediaContinuityKit36DisplayProtectionLevelMonitorVendingP
++ _symbolic ______p 18MediaContinuityKit48ProtectedDisplayKeyNegotiationCoordinatorVendingP
++ _symbolic ______p 18MediaContinuityKit8RunnableP
++ _symbolic ______p5error______Sg9telemetryt s5ErrorP 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic ______pSg 18MediaContinuityKit0A12StreamOutputP
++ _symbolic ______pSg 18MediaContinuityKit13ScreenCaptureP
++ _symbolic ______pSg 18MediaContinuityKit14VideoStreamAVCP
++ _symbolic ______pSg 18MediaContinuityKit15TelemetryReportP
++ _symbolic ______pSg 18MediaContinuityKit29DisplayProtectionLevelMonitorP
++ _symbolic ______pSg 18MediaContinuityKit40ProtectedDisplayKeyNegotiationInitiatingP
++ _symbolic ______pSg 18MediaContinuityKit40ProtectedDisplayKeyNegotiationRespondingP
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SStSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySS______pG s18_DictionaryStorageC 18MediaContinuityKit13ControlStreamP
++ _symbolic _____yXl______tXC s5Int32V So9CFDataRefa
++ _symbolic _____y_____ABGSg 18MediaContinuityKit22ControlConnectionEventO AA13StreamMessageO
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 18MediaContinuityKit11CoexSessionC5StateO
++ _symbolic _____y_____G 18MediaContinuityKit26RequestResponseCoordinatorC AA13StreamMessageO
++ _symbolic _____y_____G 18MediaContinuityKit26RequestResponseCoordinatorC AA14SessionMessageO
++ _symbolic _____y_____G 9CoreMedia19CMReadySampleBufferV AA019CMReadOnlyDataBlockE0V
++ _symbolic _____y_____G 9CoreMedia19CMReadySampleBufferV So08CMSampleE3RefaAAE14DynamicContentO
++ _symbolic _____y_____G s11_SetStorageC 7Network11NWInterfaceV13InterfaceTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7Network9NWBrowserC10DescriptorO7OptionsV10DeviceTypeV
++ _symbolic _____y_____GSg 9CoreMedia19CMReadySampleBufferV AA019CMReadOnlyDataBlockE0V
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 18MediaContinuityKit21AudioStreamIdentifierO s5NeverO
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 18MediaContinuityKit21VideoStreamIdentifierO s5NeverO
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 18MediaContinuityKit11CoexSessionC
++ _symbolic _____y_____SiG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____y______G 18MediaContinuityKit26RequestResponseCoordinatorC6ErrorsO AA13StreamMessageO
++ _symbolic _____y______G 18MediaContinuityKit26RequestResponseCoordinatorC6ErrorsO AA14SessionMessageO
++ _symbolic _____y______G ScS12ContinuationV 18MediaContinuityKit19StreamInternalEventO
++ _symbolic _____y______G ScS12ContinuationV 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y______G ScS12ContinuationV 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic _____y______G ScS12ContinuationV s6UInt64V
++ _symbolic _____y______G ScS8IteratorV 18MediaContinuityKit19StreamInternalEventO
++ _symbolic _____y______G ScS8IteratorV 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y______G ScS8IteratorV 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic _____y______G ScS8IteratorV s6UInt64V
++ _symbolic _____y______GSg ScS12ContinuationV 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y______SitG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 18MediaContinuityKit19StreamInternalEventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO s6UInt64V
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 18MediaContinuityKit19StreamInternalEventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO s6UInt64V
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 18MediaContinuityKit45ProtectedDisplayKeyNegotiationRespondingStateO
++ _symbolic _____y___________p_G Scs12ContinuationV 10Foundation4DataV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 18MediaContinuityKit0B17StreamOutputEventO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit0B17StreamOutputEventO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic _____y___________p_GSg Scs12ContinuationV 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 10Foundation4DataV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 18MediaContinuityKit0D17StreamOutputEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 18MediaContinuityKit16AudioStreamEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 10Foundation4DataV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 18MediaContinuityKit0D17StreamOutputEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 18MediaContinuityKit18ScreenCaptureEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 7Network11NWInterfaceV13InterfaceTypeO AE0F7SubtypeO
++ _symbolic _____y______pG 18MediaContinuityKit36ProtectedDisplayKeyNegotiationStatusO AA0dE9DecryptorP
++ _symbolic _____y______pG 18MediaContinuityKit36ProtectedDisplayKeyNegotiationStatusO AA0dE9EncryptorP
++ _symbolic _____y______pSgG 15Synchronization5MutexVAARi_zrlE So17OS_os_transactionP
++ _symbolic _____yt______pIeggIrzo_ 18MediaContinuityKit013NetworkBackedA31ConnectionPrerequisitesProviderC s5ErrorP
++ _symbolic _____yt______pIeggIrzo_ 18MediaContinuityKit49NetworkBackedControlConnectionMigrationControllerC s5ErrorP
++ _symbolic _____yt______pIggIrzo_ 18MediaContinuityKit013NetworkBackedA31ConnectionPrerequisitesProviderC s5ErrorP
++ _symbolic _____yt______pIggIrzo_ 18MediaContinuityKit49NetworkBackedControlConnectionMigrationControllerC s5ErrorP
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yyXlG s9UnmanagedV
++ _symbolic _____yyycSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic x7cryptor______Sg9telemetryt 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _symbolic xyYbc
++ _symbolic yp
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yxYaYbcSg
++ _symbolic yyXl______tXC s5Int32V
++ _symbolic yyYacSg
++ _symbolic yyYbc17completionHandler_t
++ _type_layout_string 18MediaContinuityKit15VideoAttributesV
++ _type_layout_string 18MediaContinuityKit21KeyNegotiationRequestV
++ _type_layout_string 18MediaContinuityKit22KeyNegotiationResponseV
++ _type_layout_string 18MediaContinuityKit22KeyNegotiationResponseV6StatusO
++ _type_layout_string 18MediaContinuityKit31AVConferenceBackedScreenCaptureC6EventsO
++ _type_layout_string 18MediaContinuityKit39ProtectedDisplayKeyNegotiationTelemetryV
++ _type_layout_string 18MediaContinuityKit43AVConferenceBackedProtectedDisplayDecryptorV
++ _type_layout_string 18MediaContinuityKit43AVConferenceBackedProtectedDisplayEncryptorV
++ _type_layout_string 18MediaContinuityKit47FigPWDSenderBackedProtectedDisplayKeyNegotiatorC6EventsO
++ _type_layout_string So6CGRectV
++ _xpc_equal
+- _OBJC_CLASS_$_NSBundle
+- ___swift_memcpy120_8
+- ___swift_memcpy34_4
+- ___swift_memcpy50_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_MediaContinuityKit
+- _associated conformance 18MediaContinuityKit0A19StreamInternalEventOSHAASQ
+- _associated conformance 18MediaContinuityKit16VideoStreamEventOSHAASQ
+- _block_copy_helper.18
+- _block_copy_helper.32
+- _block_copy_helper.41
+- _block_copy_helper.51
+- _block_copy_helper.54
+- _block_copy_helper.69
+- _block_copy_helper.78
+- _block_copy_helper.82
+- _block_copy_helper.88
+- _block_descriptor.20
+- _block_descriptor.34
+- _block_descriptor.43
+- _block_descriptor.53
+- _block_descriptor.56
+- _block_descriptor.71
+- _block_descriptor.80
+- _block_descriptor.84
+- _block_descriptor.90
+- _block_destroy_helper.19
+- _block_destroy_helper.33
+- _block_destroy_helper.42
+- _block_destroy_helper.52
+- _block_destroy_helper.55
+- _block_destroy_helper.70
+- _block_destroy_helper.79
+- _block_destroy_helper.83
+- _block_destroy_helper.89
+- _flat unique 18MediaContinuityKit7Vending_px10VendedTypeAaBPRts_XP
+- _get_enum_tag_for_layout_string 18MediaContinuityKit22RemoteVideoClientEventO
+- _objc_msgSend$bundleIdentifier
+- _objc_msgSend$mainBundle
+- _objc_msgSend$setVideoLayer:forMode:
+- _objectdestroy.145Tm
+- _objectdestroy.155Tm
+- _objectdestroy.162Tm
+- _objectdestroy.166Tm
+- _objectdestroy.21Tm
+- _objectdestroy.228Tm
+- _objectdestroy.32Tm
+- _objectdestroy.46Tm
+- _objectdestroy.67Tm
+- _objectdestroy.8Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic $s18MediaContinuityKit9StartableP
+- _symbolic 10VendedType_____Qyd__ 18MediaContinuityKit7VendingP
+- _symbolic IeyB_
+- _symbolic SDy13Configuration______10Identifier_____QZScTyyt______pGG 18MediaContinuityKit0A6StreamP AA0aD13ConfigurationP s5ErrorP
+- _symbolic SS3key_yp5valuet
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Sb______pSgIegyg_ s5ErrorP
+- _symbolic ScSy_____G 18MediaContinuityKit0A19StreamInternalEventO
+- _symbolic ScSy_____GyYaKc 18MediaContinuityKit0A19StreamInternalEventO
+- _symbolic Scsyq_______pGyYaKc s5ErrorP
+- _symbolic So15VideoAttributesC
+- _symbolic So17OS_dispatch_queueC
+- _symbolic SuSg
+- _symbolic _____ 18MediaContinuityKit0A19StreamInternalEventO
+- _symbolic _____ 18MediaContinuityKit10SystemInfoO
+- _symbolic _____7session_ySb_______pSgtc17completionHandlert 18MediaContinuityKit11CoexSessionC s5ErrorP
+- _symbolic _____SgXw 18MediaContinuityKit17TelemetryProviderC
+- _symbolic _____SgXw 18MediaContinuityKit17TimeSyncHeartbeatC
+- _symbolic _____SgXwz_Xx 18MediaContinuityKit17TelemetryProviderC
+- _symbolic _____SgXwz_Xx 18MediaContinuityKit17TimeSyncHeartbeatC
+- _symbolic _____So7NSErrorCSgIeyByy_ 10ObjectiveC8ObjCBoolV
+- _symbolic ___________pXj l18MediaContinuityKit7Vending_px10VendedTypeRts_XPXG AA0A32ConnectionPrerequisitesProvidingP
+- _symbolic ______pSg 18MediaContinuityKit0aB5ErrorP
+- _symbolic ______pSg 18MediaContinuityKit18RTCReportingReportP
+- _symbolic ______pSg 18MediaContinuityKit9StartableP
+- _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 18MediaContinuityKit21AudioStreamIdentifierO s5ErrorP
+- _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 18MediaContinuityKit21VideoStreamIdentifierO s5ErrorP
+- _symbolic _____y______G ScS12ContinuationV 18MediaContinuityKit0B19StreamInternalEventO
+- _symbolic _____y______G ScS8IteratorV 18MediaContinuityKit0B19StreamInternalEventO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 18MediaContinuityKit0D19StreamInternalEventO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 18MediaContinuityKit0D19StreamInternalEventO
+- _symbolic xyc
+- _symbolic yxYacSg
+- _symbolic yyc17completionHandler_t
+- _type_layout_string 18MediaContinuityKit22RemoteVideoClientEventO
+CStrings:
++ "%@ Deinitializing stream output"
++ "%@ Initializing and activating stream output"
++ "%@ Invalidated stream output"
++ "%@ Stream output became invalid"
++ "%@ Stream output interrupted with error:%@"
++ "%@ Stream output server died"
++ "%s Aborting key negotiation due to error: %@. Not interrupting stream"
++ "%s Created screen capture"
++ "%s Deinitializing screen capture"
++ "%s Failed to cast telemetry dictionary to [String: Any]"
++ "%s Failed to set protection level: %@"
++ "%s Invalid state: protection options update already in progress"
++ "%s Key negotiation setup failed with error: %@"
++ "%s Key negotiation task failed with error: %@"
++ "%s Protection level monitoring failed with error: %@"
++ "%s Protection level set successfully to %llu"
++ "%s Retrieved Fig key exchange sender telemetry: %@"
++ "%s Screen capture failed to start: %@"
++ "%s Screen capture failed to stop: %@"
++ "%s Screen capture started successfully"
++ "%s Screen capture stopped successfully"
++ "%s Setting protection level to %llu"
++ "%s Starting screen capture"
++ "%s Stop monitoring events, session stopped"
++ "%s Stop monitoring events, session terminated"
++ "%s Stopping screen capture"
++ "%s Unexpected sample buffer type: %s"
++ "%s connections monitor received DefunctConnection, deferring to listener event handler"
++ "%s failed to recover from DefunctConnection error:%@"
++ "%s handlePeeledNWConnection failed, error: %@"
++ "%s received screen capture event: %s"
++ "%s received stream output event: %s"
++ "%s recovered from DefunctConnection"
++ "%s recovering from DefunctConnection, recreating listener"
++ "%s remote ended with reason: %s"
++ "%s screen capture failed with error: %@"
++ "%s stream output failed with error: %@"
++ "%s:%ld %s %s"
++ "AVConferenceBackedStreamOutput["
++ "Allowing Infra WiFi Interface, not limiting discovery to BLE"
++ "Allowing to browse for iPhones"
++ "AudioStreamAVConference["
++ "ConnectionBackedControlStream["
++ "ContinuityCamera"
++ "CoreAUCBackedDisplayProtectionLevelMonitor cleaning up"
++ "CoreAUCBackedDisplayProtectionLevelMonitor failed with error: %@"
++ "CoreAUCBackedDisplayProtectionLevelMonitor task cancelled"
++ "Created and started protection level monitor"
++ "Cryptor not found for protection level %llu in %s"
++ "Failed to copy decryptorBundle property, status: %d"
++ "Failed to copy encryptorBundle property, status: %d"
++ "Failed to copy telemetryData property, status: %d"
++ "Failed to create key exchange receiver status:%d"
++ "Failed to create key exchange sender status:%d"
++ "Failed to create monitor with status: %d"
++ "Failed to fetch UPID for our own process"
++ "Failed to fetch protection level in callback: %@"
++ "Failed to send request with error: %@"
++ "Failed to start key exchange sender status:%d"
++ "Failed to stop key exchange receiver during cleanup, status: %d"
++ "Failed to stop key exchange sender during cleanup, status: %d"
++ "Found cryptor: %{private}@ at protectionLevel: %llu, %s: %{private}@"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Initializing screen capture for usage=%s identifier=%s \nprotectionLevel=%s"
++ "Key exchange completed without start time"
++ "Key exchange receiver encountered error while processing incoming message, status: %d"
++ "Key exchange sender encountered error while processing incoming message, status: %d"
++ "Key exchange telemetry unavailable."
++ "Key exchanger generated failure with status %d"
++ "MacVirtualDisplay"
++ "MediaContinuityKit.AVConferenceBackedScreenCaptureDelegate"
++ "MediaContinuityKit.AVConferenceBackedStreamOutput"
++ "MediaContinuityKit/NetworkBackedControlConnectionMigrationController.swift"
++ "MediaContinuityKit/NetworkBackedMediaConnectionPrerequisitesProvider.swift"
++ "NearbyScreenSharing"
++ "Next data became available without delegate waiting for result"
++ "PCKEYNEGCERTDATATIME"
++ "PCKEYNEGCERTURLTIME"
++ "PCKEYNEGENDPTREQTIME"
++ "PCKEYNEGENDPTURLTIME"
++ "PCKEYNEGINITBAGTIME"
++ "PCKEYNEGINITFPTIME"
++ "ProtectedDisplayKeyNegotiationInitiator cleaning up"
++ "ProtectedDisplayKeyNegotiationInitiator deallocating"
++ "ProtectedDisplayKeyNegotiationInitiator failed with error: %@"
++ "ProtectedDisplayKeyNegotiationInitiator negotiation completed"
++ "ProtectedDisplayKeyNegotiationInitiator running"
++ "ProtectedDisplayKeyNegotiationInitiator task cancelled"
++ "ProtectedDisplayKeyNegotiationResponder cleaning up"
++ "ProtectedDisplayKeyNegotiationResponder deallocating"
++ "ProtectedDisplayKeyNegotiationResponder failed with error:%@"
++ "ProtectedDisplayKeyNegotiationResponder running"
++ "ProtectedDisplayKeyNegotiationResponder succeeded"
++ "ProtectedDisplayKeyNegotiationResponder task cancelled"
++ "Protection level status changed!"
++ "Received failed key negotiation response with reason: %s"
++ "Receiver is now waiting for initial remote data"
++ "Retrieved aggregated protection bits=%llu"
++ "Stopping protection level monitor"
++ "Stream activated without activation start time"
++ "Traffic registration already exists"
++ "UPID for our own process is: %{public}llu"
++ "Unable to get delegate context for failed callback"
++ "Unable to get delegate context for sendMessageAsync"
++ "VideoAttributes(contentsRect: "
++ "VideoStreamAVConference["
++ "camera"
++ "com.apple.MediaContinuityKit."
++ "com.apple.MediaContinuityKit.VideoStream."
++ "com.apple.networkrelay"
++ "continuityCamera (ASQUIC)"
++ "continuityCamera (ASQUICCoupledDevices)"
++ "controlMessage"
++ "controlMessage: "
++ "controlMessageData"
++ "controlStreamIdentifier"
++ "controlStreamSetupRequest"
++ "controlStreamSetupRequest: "
++ "controlStreamSetupResponse"
++ "controlStreamSetupResponse: "
++ "createEventStreamAndStart()"
++ "cryptor telemetry "
++ "endpoint parameters "
++ "error telemetry "
++ "failed"
++ "inProgress"
++ "keyNegotiationProtectionLevel"
++ "keyNegotiationRequest"
++ "keyNegotiationRequest: seq="
++ "keyNegotiationRequestData"
++ "keyNegotiationResponse"
++ "keyNegotiationResponse: seq="
++ "keyNegotiationResponseData"
++ "keyNegotiationResponseStatus"
++ "keyNegotiationSequenceNumber"
++ "primaryScreen"
++ "primaryVirtualDisplay"
++ "processIncomingKeyNegotiationData(_:)"
++ "processIncomingKeyNegotiationResult called on receiver - this should not happen"
++ "processRequest called before run() or after completion"
++ "protectedDisplay"
++ "protectionOption"
++ "run(onStateUpdate:)"
++ "sendRequestAndWait(message:sender:)"
++ "setProtectionLevel(_:)"
++ "setupReceiverProtectedDisplayKeyNegotiation()"
++ "startKeyNegotiator()"
++ "succeeded"
++ "succeeded(protectionLevel="
++ "systemAudio"
++ "useVTLForConnectedMode"
+- "#16@0:8"
+- "$defaultActor"
+- "%s Send message failed with error: %@"
+- "%s Stop monitoring events"
+- "%s already started"
+- "%s not started"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "AVCAudioStreamDelegate"
+- "AVCRemoteVideoClientDelegate"
+- "AVCStreamInputDelegate"
+- "AVCVideoStreamDelegate"
+- "Allowing CompositorServices to browse for iPhones"
+- "Allowing Infra WiFi Interface, not limiting discovery to BLE "
+- "AudioStreamAVConference[appAudio]"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "Duplicate values for key: '"
+- "MediaContinuityCoexSessionConfig"
+- "MediaContinuityKit"
+- "MediaContinuityKit1"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "OS_nw_endpoint"
+- "OS_nw_path"
+- "OS_nw_path_evaluator"
+- "OS_os_transaction"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "Swift/NativeDictionary.swift"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "TB,N"
+- "TB,R"
+- "TQ,R"
+- "UTF8String"
+- "VideoStreamAVConference[stereoContent]"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC18MediaContinuityKit11CoexSession"
+- "_TtC18MediaContinuityKit17CoexSessionVendor"
+- "_TtC18MediaContinuityKit17StreamEndReporter"
+- "_TtC18MediaContinuityKit17TelemetryProvider"
+- "_TtC18MediaContinuityKit17TimeSyncHeartbeat"
+- "_TtC18MediaContinuityKit18CoexSessionManager"
+- "_TtC18MediaContinuityKit18SessionEndReporter"
+- "_TtC18MediaContinuityKit19NullTelemetryServer"
+- "_TtC18MediaContinuityKit21CoexServerXPCListener"
+- "_TtC18MediaContinuityKit21MediaContinuityServer"
+- "_TtC18MediaContinuityKit22DateBackedTimeProvider"
+- "_TtC18MediaContinuityKit22MediaContinuitySession"
+- "_TtC18MediaContinuityKit23AudioStreamAVConference"
+- "_TtC18MediaContinuityKit23TelemetryProviderVendor"
+- "_TtC18MediaContinuityKit23TimeSyncHeartbeatVendor"
+- "_TtC18MediaContinuityKit23VideoStreamAVConference"
+- "_TtC18MediaContinuityKit24RTCBackedTelemetryServer"
+- "_TtC18MediaContinuityKit25CoexSessionXPCServerProxy"
+- "_TtC18MediaContinuityKit25TrafficRegistrationVendor"
+- "_TtC18MediaContinuityKit26MediaContinuityCoexSession"
+- "_TtC18MediaContinuityKit28KTraceBackedSignpostReporter"
+- "_TtC18MediaContinuityKit29AVConferenceBackedAudioStream"
+- "_TtC18MediaContinuityKit29AVConferenceBackedStreamInput"
+- "_TtC18MediaContinuityKit29AVConferenceBackedVideoStream"
+- "_TtC18MediaContinuityKit29CoreOSBackedDaemonTransaction"
+- "_TtC18MediaContinuityKit29MediaStreamVendorAVConference"
+- "_TtC18MediaContinuityKit30TimeSyncBackedTimeSynchronizer"
+- "_TtC18MediaContinuityKit31TimeSyncBackedSynchronizedClock"
+- "_TtC18MediaContinuityKit32WiFiP2PBackedTrafficRegistration"
+- "_TtC18MediaContinuityKit33ControlConnectionMigrationManager"
+- "_TtC18MediaContinuityKit35AVConferenceBackedRemoteVideoClient"
+- "_TtC18MediaContinuityKit36FoundationBackedUserDefaultsProvider"
+- "_TtC18MediaContinuityKit36NetworkBackedControlConnectionVendor"
+- "_TtC18MediaContinuityKit36TimeSyncBackedTimeSynchronizerVendor"
+- "_TtC18MediaContinuityKit38AVConferenceBackedDelegatedPIDProvider"
+- "_TtC18MediaContinuityKit38AVConferenceBackedMediaStreamAVCVendor"
+- "_TtC18MediaContinuityKit39AVConferenceBackedMediaStreamNegotiator"
+- "_TtC18MediaContinuityKit39MediaContinuityUsageSecureCodingWrapper"
+- "_TtC18MediaContinuityKit40AVConferenceBackedMediaStreamInputVendor"
+- "_TtC18MediaContinuityKit41AVConferenceBackedRemoteVideoClientVendor"
+- "_TtC18MediaContinuityKit45AVConferenceBackedMediaStreamNegotiatorVendor"
+- "_TtC18MediaContinuityKit49NetworkBackedControlConnectionMigrationController"
+- "_TtC18MediaContinuityKit49NetworkBackedMediaConnectionPrerequisitesProvider"
+- "_TtC18MediaContinuityKit55NetworkBackedMediaConnectionPrerequisitesProviderVendor"
+- "_TtCC18MediaContinuityKit17TelemetryProviderP33_769BE98AA431735F17D03AC177FB93E615ReporterContext"
+- "_TtP18MediaContinuityKit19CoexSessionProtocol_"
+- "_TtP18MediaContinuityKit27CoexSessionDelegateProtocol_"
+- "_activate"
+- "_configuration"
+- "_invalidate"
+- "_migrate"
+- "_pause"
+- "_prepare"
+- "_resume"
+- "activate"
+- "activatedEventInfo"
+- "activatedInfo"
+- "activatedStartTimeInSeconds"
+- "activatingContinuation"
+- "activatingInfo"
+- "activationCompleteTime"
+- "activationTimeMilliSeconds"
+- "addPTPInstance:error:"
+- "addUnicastUDPv4EtEPortOnInterfaceNamed:withDestinationAddress:allocatedPortNumber:error:"
+- "addUnicastUDPv6EtEPortOnInterfaceNamed:withDestinationAddress:allocatedPortNumber:error:"
+- "addgPTPServicesWithError:"
+- "answer"
+- "audio"
+- "audioStream"
+- "audioStreamManager"
+- "autorelease"
+- "avaiableIntefacesStreamContinuation"
+- "availableInterfacesMonitor"
+- "availableInterfacesStream"
+- "awdlServiceDiscoveryManager"
+- "backingConnectionEventMonitor"
+- "backingConnectionEventStream"
+- "backingConnectionEventStreamContinuation"
+- "bundleID"
+- "bundleIdentifier"
+- "cachedNetworkPath"
+- "cachedStreamDirection"
+- "captureSource"
+- "class"
+- "clearTrafficRegistration:error:"
+- "clientSessionID"
+- "clock"
+- "clockIdentifier"
+- "clockIdentity"
+- "clockManager"
+- "clockWithClockIdentifier:"
+- "code"
+- "coexListener"
+- "coexManager"
+- "coexSession"
+- "coexSessionVendor"
+- "coexSessions"
+- "com.apple.MediaContinuityKit.VideoStream.stereoContent"
+- "config"
+- "configuration"
+- "configure:error:"
+- "conformsToProtocol:"
+- "connection"
+- "connectionEventTask"
+- "connectionGroup"
+- "connectionId"
+- "connectionMonitor"
+- "connectionPrerequisites"
+- "connectionReadyContinuation"
+- "connectionStream"
+- "connectionStreamContinuation"
+- "connectionVendor"
+- "continuityCamera"
+- "controlConnection"
+- "controlConnectionEventMonitor"
+- "controlConnectionEventStream"
+- "controlConnectionMigrationManager"
+- "controlConnectionPath"
+- "convertFromMachAbsoluteToDomainTime:"
+- "currentAddressInterface"
+- "currentInterface"
+- "currentInterfaceType"
+- "customHeight"
+- "customWidth"
+- "daemonTransaction"
+- "dealloc"
+- "debugDescription"
+- "decodeIntegerForKey:"
+- "decodeObjectForKey:"
+- "delegate"
+- "delegatedPID"
+- "delegatedPIDProvider"
+- "description"
+- "didResumeStreamInput:"
+- "didStartStreamInput:"
+- "didStopStreamInput:"
+- "didSuspendStreamInput:"
+- "dispatchQueue"
+- "domain"
+- "durationOnInterfaceHistogram"
+- "durationOnInterfaceStartTime"
+- "durationsHistogram"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endReason"
+- "endReasons"
+- "endpoint"
+- "eventHandler"
+- "eventMonitor"
+- "eventStream"
+- "eventStreamContinuation"
+- "eventTask"
+- "exportedObject"
+- "failWithError:"
+- "firstIncomingPeeledConnection"
+- "frameworksToCheck"
+- "gPTPClock"
+- "generateMediaStreamConfigurationWithError:"
+- "generateMediaStreamInitOptionsWithError:"
+- "getDaemonProcessInfo"
+- "grandmasterIdentity"
+- "hash"
+- "heartbeatTask"
+- "i16@?0@\"<OS_nw_endpoint>\"8"
+- "id"
+- "incomingMediaStreamConfigurations"
+- "init"
+- "initWithAddress:"
+- "initWithAuditToken:"
+- "initWithBool:"
+- "initWithCoder:"
+- "initWithDelegate:delegateQueue:format:options:error:"
+- "initWithInteger:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithMode:options:error:"
+- "initWithNWConnectionClientID:options:error:"
+- "initWithOffer:options:error:"
+- "initWithRTPNWConnectionClientID:rtcpNWConnectionClientID:options:error:"
+- "initWithSessionInfo:userInfo:frameworksToCheck:"
+- "initWithStreamToken:delegate:"
+- "initWithStreamToken:endpointID:delegate:"
+- "initWithString:"
+- "initWithSuiteName:"
+- "initWithUniqueIdentifier:peerAddress:"
+- "interface"
+- "interfaceWithProtocol:"
+- "internalEventMonitorTask"
+- "internalEventStream"
+- "internalEventStreamContinuation"
+- "interruptionHandler"
+- "interval"
+- "invalidate"
+- "isConnectionPrepared"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isOfferer"
+- "isPaused"
+- "isProxy"
+- "isStarted"
+- "isValid"
+- "isWiredInterfaceAvailable"
+- "keepAliveInterval"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "listenerQueue"
+- "listenerReadyContinuation"
+- "listenerStarted"
+- "localEndpoint"
+- "localIPv6Address"
+- "localMACAddress"
+- "lockState"
+- "logger"
+- "mainBundle"
+- "mediaConnectionPrerequisitesProvider"
+- "mediaConnectionPrerequisitesProviderVendor"
+- "mediaStream"
+- "mediaStreamInputVendor"
+- "mediaStreamKeepAliveTimedOutHandler"
+- "mediaStreamNegotiator"
+- "mediaStreamStateMonitorTasks"
+- "mediaStreamVendor"
+- "mediaStreams"
+- "messageReceiver"
+- "migrationCount"
+- "migrationStartTime"
+- "migrationTimeHistogram"
+- "monitorTask"
+- "negotiator"
+- "networkPathInfoProvider"
+- "networkPathVendor"
+- "notifyWhenClockManagerIsAvailable:"
+- "notifyWhengPTPManagerIsAvailable:"
+- "objectForKey:"
+- "offer"
+- "pathEvaluator"
+- "pause"
+- "peeledConnectionListener"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pid"
+- "pixelFormat"
+- "preferredInterfaceType"
+- "processIdentifier"
+- "pushSampleBuffer:error:"
+- "queue"
+- "release"
+- "remoteActivationContinuation"
+- "remoteAddress"
+- "remoteAudioOffer"
+- "remoteDeviceID"
+- "remoteMacAddress"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "remoteVideoClient"
+- "remoteVideoClient:didDetectSensitiveContentWithAnalysis:"
+- "remoteVideoClient:networkQualityDidDegrade:info:"
+- "remoteVideoClient:remoteMediaDidStall:"
+- "remoteVideoClient:remoteScreenAttributesDidChange:"
+- "remoteVideoClient:remoteVideoAttributesDidChange:"
+- "remoteVideoClient:remoteVideoDidPause:"
+- "remoteVideoClient:videoDidDegrade:"
+- "remoteVideoClient:videoDidSuspend:"
+- "remoteVideoClientDidReceiveFirstFrame:"
+- "remoteVideoClientDidReceiveLastFrame:"
+- "remoteVideoClientEventMonitor"
+- "remoteVideoClientVendor"
+- "remoteVideoOffer"
+- "remoteVideoServerDidDie:"
+- "removePTPInstanceWithIdentifier:error:"
+- "removeUnicastUDPv4EtEPortFromInterfaceNamed:withDestinationAddress:error:"
+- "removeUnicastUDPv6EtEPortFromInterfaceNamed:withDestinationAddress:error:"
+- "removegPTPServicesWithError:"
+- "reportStream"
+- "reportStreamContinuation"
+- "reporter"
+- "reporterContexts"
+- "reportingAgent"
+- "respondsToSelector:"
+- "resume"
+- "resumeSessionWithCompletionHandler:"
+- "retain"
+- "retainCount"
+- "self"
+- "sendMessageAndWaitForResponse(_:)"
+- "sendMessageWithCategory:type:payload:error:"
+- "serverDidDie"
+- "servers"
+- "serviceName"
+- "sessionDurationSeconds"
+- "sessionEventStream"
+- "sessionEventsContinuation"
+- "setAnswer:withError:"
+- "setByAddingObjectsFromArray:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setCustomHeight:"
+- "setCustomWidth:"
+- "setDelegate:"
+- "setDirection:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setRemoteObjectInterface:"
+- "setRtpNWConnectionClientID:"
+- "setStreamInputID:"
+- "setSupportsSecureCoding:"
+- "setSystemAudioCaptureIncludedAuditTokens:"
+- "setTrafficRegistration:onInvalidationHandler:error:"
+- "setVideoLayer:forMode:"
+- "setVideoResolution:"
+- "sharedClockManager"
+- "sharedgPTPManager"
+- "shouldAdvertise"
+- "shouldPerformTrafficRegistration"
+- "signpostReporter"
+- "start"
+- "startConfigurationWithCompletionHandler:"
+- "startContinuation"
+- "startSuspendedWithUuid:config:completionHandler:"
+- "startWithUuid:config:completionHandler:"
+- "state"
+- "stop"
+- "stopTransitionContinuation"
+- "stopWithCompletionHandler:"
+- "stream:didGetLastDecodedFrame:"
+- "stream:didPause:error:"
+- "stream:didReceiveDTMFEventWithDigit:"
+- "stream:didReceiveRTCPPackets:"
+- "stream:didResume:error:"
+- "stream:didStart:error:"
+- "stream:didStartSynchronizer:error:"
+- "stream:didUpdateVideoConfiguration:error:"
+- "stream:downlinkQualityDidChange:"
+- "stream:updateInputFrequencyLevel:"
+- "stream:updateOutputFrequencyLevel:"
+- "stream:uplinkQualityDidChange:"
+- "streamDidInterruptionBegin:"
+- "streamDidInterruptionEnd:"
+- "streamDidRTCPTimeOut:"
+- "streamDidRTPTimeOut:"
+- "streamDidRecoverFromRTCPTimeOut:"
+- "streamDidServerDie:"
+- "streamDidStop:"
+- "streamDirection"
+- "streamEndReporters"
+- "streamEventMonitor"
+- "streamInput"
+- "streamInputID"
+- "streamToken"
+- "superclass"
+- "supportsSecureCoding"
+- "suspend"
+- "suspendSessionWithCompletionHandler:"
+- "telemetryProvider"
+- "terminateSessionWithCompletion:"
+- "timeProvider"
+- "timeSyncHeartbeat"
+- "timeSyncHeartbeatVendor"
+- "timeSynchronizer"
+- "timeSynchronizerVendingTask"
+- "timeSynchronizerVendor"
+- "totalDurations"
+- "trafficRegistration"
+- "trafficRegistrationVendor"
+- "transaction"
+- "transitionContinuation"
+- "usage"
+- "useLLW0Interface"
+- "userDefaults"
+- "userDefaultsProvider"
+- "uuid"
+- "v16@0:8"
+- "v16@?0@\"<OS_nw_protocol_options>\"8"
+- "v16@?0@\"AWDLTrafficRegistrationConfiguration\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"AVCAudioStream\"16"
+- "v24@0:8@\"AVCRemoteVideoClient\"16"
+- "v24@0:8@\"AVCStreamInput\"16"
+- "v24@0:8@\"AVCVideoStream\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v28@0:8@\"AVCAudioStream\"16c24"
+- "v28@0:8@\"AVCRemoteVideoClient\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8@16c24"
+- "v32@0:8@\"AVCAudioStream\"16@\"NSArray\"24"
+- "v32@0:8@\"AVCAudioStream\"16@\"NSData\"24"
+- "v32@0:8@\"AVCRemoteVideoClient\"16@\"NSData\"24"
+- "v32@0:8@\"AVCRemoteVideoClient\"16@\"VideoAttributes\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSArray\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSData\"24"
+- "v32@0:8@\"AVCVideoStream\"16@\"NSDictionary\"24"
+- "v32@0:8@16@24"
+- "v36@0:8@\"AVCAudioStream\"16B24@\"NSError\"28"
+- "v36@0:8@\"AVCRemoteVideoClient\"16B24@\"NSDictionary\"28"
+- "v36@0:8@\"AVCVideoStream\"16B24@\"NSError\"28"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"NSUUID\"16@\"MediaContinuityCoexSessionConfig\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v8@?0"
+- "valueForEntitlement:"
+- "video"
+- "videoResolution"
+- "videoStream"
+- "videoStreamManager"
+- "waitForResponseContinuation"
+- "wrappedValue"
+- "xpcConnection"
+- "xpcProxyObject"
+- "zone"
+
+```

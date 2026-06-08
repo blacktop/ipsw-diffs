@@ -1,0 +1,309 @@
+## MusicUIEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicUIEngagementExtension.appex/MusicUIEngagementExtension`
+
+```diff
+
+-4025.610.1.0.0
+-  __TEXT.__text: 0xdad8
+-  __TEXT.__auth_stubs: 0x860
++4026.100.64.0.0
++  __TEXT.__text: 0xf250
++  __TEXT.__auth_stubs: 0x9f0
+   __TEXT.__objc_stubs: 0x4a0
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0x1648
+-  __TEXT.__cstring: 0x59e
++  __TEXT.__const: 0x1690
++  __TEXT.__cstring: 0x5ce
+   __TEXT.__constg_swiftt: 0x364
+-  __TEXT.__swift5_typeref: 0x3e3
+-  __TEXT.__swift5_reflstr: 0x4d4
+-  __TEXT.__swift5_fieldmd: 0x574
++  __TEXT.__swift5_typeref: 0x47c
++  __TEXT.__swift5_reflstr: 0x4f7
++  __TEXT.__swift5_fieldmd: 0x580
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_proto: 0x150
+   __TEXT.__swift5_types: 0x6c
+   __TEXT.__objc_classname: 0x62
+   __TEXT.__objc_methname: 0x523
+   __TEXT.__objc_methtype: 0x133
+-  __TEXT.__swift5_capture: 0x50
++  __TEXT.__swift5_capture: 0x210
+   __TEXT.__oslogstring: 0x37a
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x5c8
+-  __TEXT.__eh_frame: 0x7a0
+-  __DATA_CONST.__auth_got: 0x438
+-  __DATA_CONST.__got: 0x190
+-  __DATA_CONST.__auth_ptr: 0x160
+-  __DATA_CONST.__const: 0x1350
++  __TEXT.__swift_as_cont: 0x30
++  __TEXT.__unwind_info: 0x668
++  __TEXT.__eh_frame: 0x7f0
++  __DATA_CONST.__const: 0x1791
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__auth_got: 0x500
++  __DATA_CONST.__got: 0x190
++  __DATA_CONST.__auth_ptr: 0x160
+   __DATA.__objc_const: 0x170
+   __DATA.__objc_selrefs: 0x1e8
+   __DATA.__objc_data: 0xb0
+-  __DATA.__data: 0x470
++  __DATA.__data: 0x490
+   __DATA.__bss: 0x2a00
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 65466D3E-CBF9-3B19-8471-4BD7DE1EBE61
+-  Functions: 659
+-  Symbols:   4762
+-  CStrings:  154
++  UUID: 298880F2-070A-3D8D-B227-4BFAC99318D9
++  Functions: 753
++  Symbols:   5297
++  CStrings:  155
+ 
+Symbols:
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.103
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.108
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.112
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.116
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.120
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.17
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.21
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.28
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.44
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.51
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.57
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.64
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.72
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.77
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.85
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.89
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.68
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.81
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.99
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/ExtensionErrors.o
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/ExtensionRequest.o
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/FeatureFlags.o
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension.o
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension.swiftmodule
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension_vers.o
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Sources/MusicUI/MusicUI/Application/
++ /Library/Caches/com.apple.xbs/05654200-65B1-476F-A7C2-05A6C39C76CF/TemporaryDirectory.7p0NBz/Sources/MusicUI/MusicUIEngagementExtension/
++ _$s26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorVSgMR
++ _$s26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorVSgMd
++ _$s26MusicUIEngagementExtension11ODJResponseV16JSONPayloadErrorVSgWOy
++ _$s26MusicUIEngagementExtension11ODJResponseVWOc
++ _$s26MusicUIEngagementExtension11ODJResponseVWOh
++ _$s26MusicUIEngagementExtension8PropertyO3key_SE_pSg5valuetMR
++ _$s26MusicUIEngagementExtension8PropertyO3key_SE_pSg5valuetMd
++ _$s26MusicUIEngagementExtension8PropertyO3key_SE_pSg5valuetWOhTm
++ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZAA8PropertyOycfu7_TA
++ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu5_
++ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu5_TA
++ _$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu9_TA
++ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu2_TA
++ _$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZsAG_pycfu4_TA
++ _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_
++ _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA
++ _$s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_
++ _$s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_AFTf3nnnnpSi32_n
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_AFTf3nnnnpSi34_n
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_AFTf3nnnnpSi66_n
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_AFTf3nnnnpSi8_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_100$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu0_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_100$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu1_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_100$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu3_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_100$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu5_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_154$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu0_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu1_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu2_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu3_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu4_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu6_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu6_Tf3pf_nTm
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_155$s26MusicUIEngagementExtensionAAC12parseRequest33_EA789E05BBD64A42E246779C8A97871CLL7request10completionypAA10ODJRequestV_yypSg_s5Error_pSgtctYaKFZSSycfu8_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_99$s26MusicUIEngagementExtensionAAC14performRequest4with10completionyyp_yypSg_s5Error_pSgtctFZSSycfu_Tf3pf_n
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_26MusicUIEngagementExtension8PropertyO_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_26MusicUIEngagementExtension8PropertyO_Tg5TA
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesySo8NSObjectCyXA_AA0B7PrivacyVSStFAHSgycfu_TA
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_TA
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$sSDy26MusicUIEngagementExtension8PropertyOSE_pSgGSgMR
++ _$sSDy26MusicUIEngagementExtension8PropertyOSE_pSgGSgMd
++ _$sSDy26MusicUIEngagementExtension8PropertyOSE_pSgGSgWOcTm
++ _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGSgMR
++ _$sSDySS26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVGSgMd
++ _$sSDyq_SgxcigSS_26MusicUIEngagementExtension25PropertyIdentifierRequestVTg5
++ _$sSDyq_Sgxcis26MusicUIEngagementExtension8PropertyO_SE_pSgTg5
++ _$sSE_pWOc
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSo20NSJSONReadingOptionsVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo20NSJSONReadingOptionsVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW
++ _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW
++ _$ss10SetAlgebraPsE10isSuperset2ofSbx_tFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss10SetAlgebraPsE8isSubset2ofSbx_tFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF26MusicUIEngagementExtension8PropertyO_SE_pSgTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF26MusicUIEngagementExtension8PropertyO_SE_pSgTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_26MusicUIEngagementExtension11ODJResponseV26PropertyIdentifierResponseVTg5
++ _$ss23_ContiguousArrayStorageCfDySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztc_Tg5
++ _$ss23_ContiguousArrayStorageCyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMR
++ _$ss23_ContiguousArrayStorageCyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcGMd
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss9OptionSetPs7ElementQzRszrlE8containsySbxFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss9OptionSetPs7ElementQzRszs17FixedWidthInteger8RawValueRpzrlE6insertySb8inserted_x17memberAfterInserttxFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss9OptionSetPsE12intersectionyxxFSo20NSJSONReadingOptionsV_Tgq5
++ _$ss9OptionSetPss17FixedWidthInteger8RawValueRpzrlE16formIntersectionyyxFSo20NSJSONReadingOptionsV_Tgq5
++ _$syycMR
++ _$syycMd
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ _OUTLINED_FUNCTION_128
++ _OUTLINED_FUNCTION_129
++ _OUTLINED_FUNCTION_130
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ __swift_closure_destructor.101
++ __swift_closure_destructor.106
++ __swift_closure_destructor.11
++ __swift_closure_destructor.110
++ __swift_closure_destructor.114
++ __swift_closure_destructor.118
++ __swift_closure_destructor.15
++ __swift_closure_destructor.19
++ __swift_closure_destructor.23
++ __swift_closure_destructor.26
++ __swift_closure_destructor.30
++ __swift_closure_destructor.33
++ __swift_closure_destructor.36
++ __swift_closure_destructor.39
++ __swift_closure_destructor.4
++ __swift_closure_destructor.42
++ __swift_closure_destructor.46
++ __swift_closure_destructor.49
++ __swift_closure_destructor.55
++ __swift_closure_destructor.59
++ __swift_closure_destructor.62
++ __swift_closure_destructor.66
++ __swift_closure_destructor.7
++ __swift_closure_destructor.70
++ __swift_closure_destructor.75
++ __swift_closure_destructor.79
++ __swift_closure_destructor.83
++ __swift_closure_destructor.87
++ __swift_closure_destructor.91
++ __swift_closure_destructor.94
++ __swift_closure_destructor.97
++ _objc_release
++ _objc_release_x27
++ _swift_deallocClassInstance
++ _swift_initStackObject
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_setDeallocating
++ _symbolic SSIego_
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____3key_SE_pSg5valuet 26MusicUIEngagementExtension8PropertyO
++ _symbolic _____Iegr_ 26MusicUIEngagementExtension8PropertyO
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic yyc
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.14
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.14TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.14Tu
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/ExtensionErrors.o
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/ExtensionRequest.o
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/FeatureFlags.o
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension.o
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension.swiftmodule
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Binaries/MusicUI/install/TempContent/Objects/MusicUI.build/MusicUIEngagementExtension.build/Objects-normal/arm64e/MusicUIEngagementExtension_vers.o
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Sources/MusicUI/MusicUI/Application/
+- /Library/Caches/com.apple.xbs/E7690178-1F62-427B-AA9B-AC7BBC750DE4/TemporaryDirectory.SpcpbK/Sources/MusicUI/MusicUIEngagementExtension/
+- _$sSE_pSgWOh
+- _$sSE_pWOb
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sScPSgWOcTm
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$ss11_StringGutsV4growyySiF
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_MusicUIEngagementExtension
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_MusicUIEngagementExtension
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_MusicUIEngagementExtension
+- _objc_release_x23
+- _swift_retain
+CStrings:
++ "on_device_concert_ranking"
+
+```

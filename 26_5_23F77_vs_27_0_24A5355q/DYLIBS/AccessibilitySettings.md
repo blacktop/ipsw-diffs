@@ -1,0 +1,1600 @@
+## AccessibilitySettings
+
+> `/System/Library/NanoPreferenceBundles/General/AccessibilitySettings.bundle/AccessibilitySettings`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x371c0
+-  __TEXT.__auth_stubs: 0x1010
+-  __TEXT.__objc_methlist: 0x2648
+-  __TEXT.__const: 0x4d4
+-  __TEXT.__oslogstring: 0x22a
+-  __TEXT.__cstring: 0x414d
+-  __TEXT.__gcc_except_tab: 0x130
++3036.2.0.0.0
++  __TEXT.__text: 0x39074
++  __TEXT.__objc_methlist: 0x2938
++  __TEXT.__const: 0x480
+   __TEXT.__constg_swiftt: 0x318
+-  __TEXT.__swift5_typeref: 0x2f0
++  __TEXT.__swift5_typeref: 0x308
+   __TEXT.__swift5_reflstr: 0xb3
+   __TEXT.__swift5_fieldmd: 0xf0
+   __TEXT.__swift5_capture: 0x1c4
+   __TEXT.__swift5_types: 0x24
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x34
++  __TEXT.__swift_as_cont: 0x48
++  __TEXT.__cstring: 0x4450
+   __TEXT.__swift5_proto: 0x8
+   __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__unwind_info: 0xc60
+-  __TEXT.__eh_frame: 0x400
+-  __TEXT.__objc_classname: 0xbd5
+-  __TEXT.__objc_methname: 0x5aee
+-  __TEXT.__objc_methtype: 0xa3d
+-  __TEXT.__objc_stubs: 0x4bc0
+-  __DATA_CONST.__got: 0x990
+-  __DATA_CONST.__const: 0x750
+-  __DATA_CONST.__objc_classlist: 0x220
+-  __DATA_CONST.__objc_protolist: 0x78
++  __TEXT.__gcc_except_tab: 0x12c
++  __TEXT.__oslogstring: 0x266
++  __TEXT.__unwind_info: 0xd30
++  __TEXT.__eh_frame: 0x510
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x770
++  __DATA_CONST.__objc_classlist: 0x248
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1ab0
++  __DATA_CONST.__objc_selrefs: 0x1b70
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x1c8
++  __DATA_CONST.__objc_superrefs: 0x1e0
+   __DATA_CONST.__objc_arraydata: 0xf0
+-  __AUTH_CONST.__auth_got: 0x818
+-  __AUTH_CONST.__const: 0x518
+-  __AUTH_CONST.__cfstring: 0x4780
+-  __AUTH_CONST.__objc_const: 0x34b0
+-  __AUTH_CONST.__objc_intobj: 0x360
++  __DATA_CONST.__got: 0x9d0
++  __AUTH_CONST.__const: 0x520
++  __AUTH_CONST.__cfstring: 0x4ac0
++  __AUTH_CONST.__objc_const: 0x39f8
++  __AUTH_CONST.__objc_intobj: 0x3a8
+   __AUTH_CONST.__objc_doubleobj: 0x40
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_floatobj: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x16e0
++  __AUTH_CONST.__auth_got: 0x8f8
++  __AUTH.__objc_data: 0x1870
+   __AUTH.__data: 0x298
+-  __DATA.__objc_ivar: 0x78
+-  __DATA.__data: 0x6d0
++  __DATA.__objc_ivar: 0x84
++  __DATA.__data: 0x698
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x1e0
+   __DATA.__common: 0x18
+
+   - /System/Library/PrivateFrameworks/HearingUtilities.framework/HearingUtilities
+   - /System/Library/PrivateFrameworks/LiveSpeechServices.framework/LiveSpeechServices
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+-  - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PBBridgeSupport.framework/PBBridgeSupport
++  - /System/Library/PrivateFrameworks/PairedDeviceRegistry.framework/PairedDeviceRegistry
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/RTTUI.framework/RTTUI
+   - /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+
+   - /System/Library/PrivateFrameworks/TinCanShared.framework/TinCanShared
+   - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /System/Library/PrivateFrameworks/WatchControlSettings.framework/WatchControlSettings
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B5ACB64-E9D9-3C9F-BC48-4FFFE59A4047
+-  Functions: 1008
+-  Symbols:   3305
+-  CStrings:  2294
++  UUID: A94415F1-D7F7-3C8C-ADBD-9DCE9C283140
++  Functions: 1073
++  Symbols:   3520
++  CStrings:  1247
+ 
+Symbols:
++ +[AccessibilityBridgeBaseController ComfortSoundsDomainAccessor]
++ +[AccessibilityBridgeBaseController voiceOverDomainAccessor]
++ -[AccessibilityBridgeBaseController ComfortSoundsDomainAccessor]
++ -[AccessibilityBridgeBaseController voiceOverDomainAccessor]
++ -[AccessibilityBridgeSettingsController comfortSoundsEnabled:]
++ -[ComfortSoundsController .cxx_destruct]
++ -[ComfortSoundsController comfortSoundLevel]
++ -[ComfortSoundsController comfortSoundsEnabled]
++ -[ComfortSoundsController comfortSoundsMediaLevel]
++ -[ComfortSoundsController configureSpecifiersForNanoSync:]
++ -[ComfortSoundsController csDomainAccessor]
++ -[ComfortSoundsController didReceiveNPSValueChangedNotificationWithName:]
++ -[ComfortSoundsController getRelativeVolumeSliderLabel]
++ -[ComfortSoundsController init]
++ -[ComfortSoundsController localizedPickerFooterText]
++ -[ComfortSoundsController localizedTitle]
++ -[ComfortSoundsController mediaMixingEnabled]
++ -[ComfortSoundsController reloadSpecifiers]
++ -[ComfortSoundsController selectedComfortSound:]
++ -[ComfortSoundsController setComfortSoundLevel:]
++ -[ComfortSoundsController setComfortSoundsEnabled:]
++ -[ComfortSoundsController setComfortSoundsMediaLevel:]
++ -[ComfortSoundsController setCsDomainAccessor:]
++ -[ComfortSoundsController setMediaMixingEnabled:]
++ -[ComfortSoundsController specifiers]
++ -[ComfortSoundsController viewWillAppear:]
++ -[ComfortSoundsDetailViewController .cxx_destruct]
++ -[ComfortSoundsDetailViewController specifiers]
++ -[ReduceMotionController tableView:cellForRowAtIndexPath:]
++ -[TouchAccommodationsAdvancedController dealloc]
++ -[TouchAccommodationsAdvancedController init]
++ -[TouchAccommodationsAdvancedController touchAccommodationsConfigurationClass]
++ -[TouchAccommodationsAdvancedController touchAccommodationsSwipeGestureViewControllerClass]
++ -[TouchAccommodationsAllowSwipeGesturesController touchAccommodationsConfigurationClass]
++ -[TouchAccommodationsConfiguration _noteManualEditIfApplicable]
++ -[TouchAccommodationsConfiguration allowsSwipeGesturesToBypass]
++ -[TouchAccommodationsConfiguration holdDurationEnabled]
++ -[TouchAccommodationsConfiguration holdDuration]
++ -[TouchAccommodationsConfiguration ignoreRepeatDuration]
++ -[TouchAccommodationsConfiguration ignoreRepeatEnabled]
++ -[TouchAccommodationsConfiguration isConfigured]
++ -[TouchAccommodationsConfiguration performSetupAssistantUpdatesWithHandler:]
++ -[TouchAccommodationsConfiguration resetHoldDurationSettings]
++ -[TouchAccommodationsConfiguration resetIgnoreRepeatSettings]
++ -[TouchAccommodationsConfiguration resetSwipeGesturesSettings]
++ -[TouchAccommodationsConfiguration resetTapAssistanceSettings]
++ -[TouchAccommodationsConfiguration setAllowsSwipeGesturesToBypass:]
++ -[TouchAccommodationsConfiguration setHoldDuration:]
++ -[TouchAccommodationsConfiguration setHoldDurationEnabled:]
++ -[TouchAccommodationsConfiguration setIgnoreRepeatDuration:]
++ -[TouchAccommodationsConfiguration setIgnoreRepeatEnabled:]
++ -[TouchAccommodationsConfiguration setSwipeGestureMinimumDistance:]
++ -[TouchAccommodationsConfiguration setTapActivationMethod:]
++ -[TouchAccommodationsConfiguration setTapActivationTimeout:]
++ -[TouchAccommodationsConfiguration swipeGestureMinimumDistance]
++ -[TouchAccommodationsConfiguration tapActivationMethod]
++ -[TouchAccommodationsConfiguration tapActivationTimeout]
++ -[TouchAccommodationsController additionalFooterTextForTripleClick]
++ -[TouchAccommodationsController canShowSetupAssistant]
++ -[TouchAccommodationsController footerText]
++ -[TouchAccommodationsController reset]
++ -[TouchAccommodationsController touchAccommodationsAdvancedViewControllerClass]
++ -[TouchAccommodationsController touchAccommodationsConfigurationClass]
++ -[VoiceOverBrailleAllLanguagesController init]
++ -[VoiceOverBrailleInputOutputController tableView:cellForRowAtIndexPath:]
++ -[VoiceOverController voiceOverHintOption:]
++ -[VoiceOverHintsController _selectedHintOption]
++ -[VoiceOverHintsController specifiers]
++ -[VoiceOverHintsController tableView:cellForRowAtIndexPath:]
++ -[VoiceOverHintsController tableView:didSelectRowAtIndexPath:]
++ -[VoiceOverSoundsAndHapticsController tableView:cellForRowAtIndexPath:]
++ GCC_except_table141
++ GCC_except_table189
++ GCC_except_table446
++ GCC_except_table597
++ GCC_except_table698
++ GCC_except_table818
++ _AXActivePairedDeviceIsOrchidOrLater
++ _AXGetActivePairedDeviceSystemVersion
++ _AXGizmoTouchAccommodationsResetHoldDurationSettings
++ _AXGizmoTouchAccommodationsResetIgnoreRepeatSettings
++ _AXGizmoTouchAccommodationsResetPrefs
++ _AXGizmoTouchAccommodationsResetSwipeGesturesSettings
++ _AXGizmoTouchAccommodationsResetTapAssistanceSettings
++ _AXGizmoTouchAccommodationsSetSettingsSource
++ _AXGizmoTouchAccommodationsSettingsSource
++ _AXLogTouchAccommodations
++ _AXUILocalizedStringForKeyWithTable
++ _NSClassFromString
++ _OBJC_CLASS_$_AXUISettingsTouchAccommodationsAdvancedController
++ _OBJC_CLASS_$_ComfortSoundsController
++ _OBJC_CLASS_$_ComfortSoundsDetailViewController
++ _OBJC_CLASS_$_HUComfortSound
++ _OBJC_CLASS_$_HUComfortSoundsSettings
++ _OBJC_CLASS_$_PDRRegistry
++ _OBJC_CLASS_$_TouchAccommodationsAdvancedController
++ _OBJC_CLASS_$_TouchAccommodationsConfiguration
++ _OBJC_CLASS_$_VoiceOverHintsController
++ _OBJC_IVAR_$_ComfortSoundsController._csDomainAccessor
++ _OBJC_IVAR_$_ComfortSoundsDetailViewController._checkmarkAccessory
++ _OBJC_IVAR_$_ComfortSoundsDetailViewController._soundsOptions
++ _OBJC_METACLASS_$_AXUISettingsTouchAccommodationsAdvancedController
++ _OBJC_METACLASS_$_ComfortSoundsController
++ _OBJC_METACLASS_$_ComfortSoundsDetailViewController
++ _OBJC_METACLASS_$_TouchAccommodationsAdvancedController
++ _OBJC_METACLASS_$_TouchAccommodationsConfiguration
++ _OBJC_METACLASS_$_VoiceOverHintsController
++ _PDRDevicePropertyKeyHWModelString
++ _PDRDevicePropertyKeySystemVersion
++ _PDRVersionIsGreaterThanOrEqual
++ _PDRWatchOSVersionForRemoteDevice
++ _PSTitleKey
++ _UIKeyboardWillShowNotification
++ _WCInputSourceTypeIsSupportedOnPDRDevice
++ __AXGizmoResetPrefsForKeysAndDomainAccessor
++ __OBJC_$_INSTANCE_METHODS_ComfortSoundsController
++ __OBJC_$_INSTANCE_METHODS_ComfortSoundsDetailViewController
++ __OBJC_$_INSTANCE_METHODS_TouchAccommodationsAdvancedController
++ __OBJC_$_INSTANCE_METHODS_TouchAccommodationsConfiguration
++ __OBJC_$_INSTANCE_METHODS_VoiceOverHintsController
++ __OBJC_$_INSTANCE_VARIABLES_ComfortSoundsController
++ __OBJC_$_INSTANCE_VARIABLES_ComfortSoundsDetailViewController
++ __OBJC_$_PROP_LIST_AXTAConfiguration
++ __OBJC_$_PROP_LIST_ComfortSoundsController
++ __OBJC_$_PROP_LIST_TouchAccommodationsConfiguration
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXTAConfiguration
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AXTAConfiguration
++ __OBJC_$_PROTOCOL_REFS_AXTAConfiguration
++ __OBJC_CLASS_PROTOCOLS_$_TouchAccommodationsConfiguration
++ __OBJC_CLASS_RO_$_ComfortSoundsController
++ __OBJC_CLASS_RO_$_ComfortSoundsDetailViewController
++ __OBJC_CLASS_RO_$_TouchAccommodationsAdvancedController
++ __OBJC_CLASS_RO_$_TouchAccommodationsConfiguration
++ __OBJC_CLASS_RO_$_VoiceOverHintsController
++ __OBJC_LABEL_PROTOCOL_$_AXTAConfiguration
++ __OBJC_METACLASS_RO_$_ComfortSoundsController
++ __OBJC_METACLASS_RO_$_ComfortSoundsDetailViewController
++ __OBJC_METACLASS_RO_$_TouchAccommodationsAdvancedController
++ __OBJC_METACLASS_RO_$_TouchAccommodationsConfiguration
++ __OBJC_METACLASS_RO_$_VoiceOverHintsController
++ __OBJC_PROTOCOL_$_AXTAConfiguration
++ ___47-[ComfortSoundsDetailViewController specifiers]_block_invoke
++ ___47-[ComfortSoundsDetailViewController specifiers]_block_invoke_2
++ ___block_descriptor_40_e8_32s_e24_v32?0"AXAsset"8Q16^B24ls32l8
++ ___block_descriptor_64_e8_32s40s48s56s_e31_v32?0"HUComfortSound"8Q16^B24ls32l8s40l8s48l8s56l8
++ ___block_literal_global.1551
++ ___block_literal_global.2732
++ ___block_literal_global.3435
++ ___block_literal_global.375
++ ___block_literal_global.375.1553
++ ___block_literal_global.380
++ ___block_literal_global.3859
++ ___block_literal_global.433
++ ___block_literal_global.4422
++ ___block_literal_global.84
++ ___swift__destructor
++ ___swift__destructor.64
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ __reloadSettings.2085
++ __reloadSettings.2159
++ __reloadSettings.39
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBP021AccessibilitySettingsB0E06speechC7ContextyQrAD020AXSUIVoiceOverSpeechcG0OFQOyAcDE12voiceFetcheryQr06TextToj12VoiceBankingB00o8PickableL0_pFQOyAcDE0K8ResolveryQr0mnJ00oR0CFQOyx_Qo__Qo__Qo_HO.37
++ _hearingLocString
++ _kAXSTouchAccommodationsHoldDurationMin
++ _kAXSTouchAccommodationsSettingsSourcePreference
++ _kAXSVoiceOverPreferenceDomain
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$ComfortSoundsDomainAccessor
++ _objc_msgSend$_noteManualEditIfApplicable
++ _objc_msgSend$_selectedHintOption
++ _objc_msgSend$comfortSoundWithAsset:
++ _objc_msgSend$copyKeyList
++ _objc_msgSend$csDomainAccessor
++ _objc_msgSend$defaultComfortSoundForGroup:
++ _objc_msgSend$getActivePairedDeviceIncludingAltAccount
++ _objc_msgSend$hcSafeAddObject:
++ _objc_msgSend$isAltAccount
++ _objc_msgSend$localizedNameForBrailleLanguage:userLocale:
++ _objc_msgSend$localizedPickerFooterText
++ _objc_msgSend$localizedTitle
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$selectedComfortSound
++ _objc_msgSend$sizeFromPdrDevice:
++ _objc_msgSend$soundGroup
++ _objc_msgSend$stringByAppendingString:
++ _objc_msgSend$voiceOverDomainAccessor
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getFunctionTypeMetadata0
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_storeEnumTagSinglePayloadGeneric
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 21AccessibilitySettings39BridgeCoreSynthesisVoicePickableFetcher33_3EFF4405581A89EFEA8DFD6024346C61LLC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 21AccessibilitySettings39BridgeCoreSynthesisVoicePickableFetcher33_3EFF4405581A89EFEA8DFD6024346C61LLC
++ _symbolic _____y______G_yXlSgt 7SwiftUI9LazyStateV7StorageO 21AccessibilitySettings39BridgeCoreSynthesisVoicePickableFetcher33_3EFF4405581A89EFEA8DFD6024346C61LLC
+- -[AccessibilityBridgeSettingsController contentSizeCategories].cold.1
+- -[DisplayFilterController specifiers].cold.1
+- -[RTTCannedMessagesController tableView:moveRowAtIndexPath:toIndexPath:].cold.1
+- -[TouchAccommodationsAllowSwipeGesturesController setTouchAccommodationsAllowsSwipeGesturesToBypass:]
+- -[TouchAccommodationsAllowSwipeGesturesController setTouchAccommodationsSwipeGestureMinimumDistance:]
+- -[TouchAccommodationsAllowSwipeGesturesController touchAccommodationsAllowsSwipeGesturesToBypass]
+- -[TouchAccommodationsAllowSwipeGesturesController touchAccommodationsSwipeGestureMinimumDistance]
+- -[TouchAccommodationsController setTouchAccommodationsAllowsSwipeGesturesToBypass:]
+- -[TouchAccommodationsController setTouchAccommodationsHoldDuration:]
+- -[TouchAccommodationsController setTouchAccommodationsHoldDurationEnabled:]
+- -[TouchAccommodationsController setTouchAccommodationsIgnoreRepeatDuration:]
+- -[TouchAccommodationsController setTouchAccommodationsIgnoreRepeatEnabled:]
+- -[TouchAccommodationsController setTouchAccommodationsTapActivationMethod:]
+- -[TouchAccommodationsController setTouchAccommodationsTapActivationTimeout:]
+- -[TouchAccommodationsController touchAccommodationsAllowsSwipeGesturesToBypass]
+- -[TouchAccommodationsController touchAccommodationsAreConfigured]
+- -[TouchAccommodationsController touchAccommodationsHoldDurationEnabled]
+- -[TouchAccommodationsController touchAccommodationsHoldDuration]
+- -[TouchAccommodationsController touchAccommodationsIgnoreRepeatDuration]
+- -[TouchAccommodationsController touchAccommodationsIgnoreRepeatEnabled]
+- -[TouchAccommodationsController touchAccommodationsTapActivationMethod]
+- -[TouchAccommodationsController touchAccommodationsTapActivationTimeout]
+- -[TouchAccommodationsController touchAccomodationsSwipeGestureViewControllerClass]
+- -[VoiceOverBrailleInputOutputController tableView:willDisplayCell:forRowAtIndexPath:]
+- -[VoiceOverBrailleTableVariantsTableController tableView:didSelectRowAtIndexPath:].cold.1
+- GCC_except_table0
+- GCC_except_table14
+- GCC_except_table2
+- GCC_except_table5
+- _AXResizeImageToSystemImage.cold.1
+- _AXTouchAccommodationsDomainAccessor
+- _NRDevicePropertyHWModelString
+- _NRDevicePropertyIsAltAccount
+- _NRDevicePropertyIsArchived
+- _NRDevicePropertySystemVersion
+- _NRVersionIsGreaterThanOrEqual
+- _NRWatchOSVersionForRemoteDevice
+- _OBJC_CLASS_$_NRPairedDeviceRegistry
+- _OBJC_CLASS_$_NSUUID
+- _WCInputSourceTypeIsSupportedOnDevice
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISearchBarDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UISearchBarDelegate
+- __OBJC_$_PROTOCOL_REFS_UIBarPositioningDelegate
+- __OBJC_$_PROTOCOL_REFS_UISearchBarDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+- __OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
+- __OBJC_PROTOCOL_$_UIBarPositioningDelegate
+- __OBJC_PROTOCOL_$_UISearchBarDelegate
+- ___block_descriptor_32_e23_v16?0"UIAlertAction"8l
+- ___block_literal_global.351
+- ___block_literal_global.354
+- ___block_literal_global.356
+- ___block_literal_global.417
+- ___swift_memcpy48_8
+- ___unnamed_2
+- __reloadSettings.cold.1
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AccessibilitySettings
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_AccessibilitySettings
+- _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBP021AccessibilitySettingsB0E06speechC7ContextyQrAD020AXSUIVoiceOverSpeechcG0OFQOyAcDE12voiceFetcheryQr06TextToj12VoiceBankingB00o8PickableL0_pFQOyAcDE0K8ResolveryQr0mnJ00oR0CFQOyx_Qo__Qo__Qo_HO.33
+- _objc_msgSend$activePairedDeviceSelectorBlock
+- _objc_msgSend$getAllDevicesWithArchivedAltAccountDevicesMatching:
+- _objc_msgSend$initWithUUIDString:
+- _objc_msgSend$localizedStringForLanguage:context:
+- _objc_msgSend$sizeFromDevice:
+- _objectdestroy.59Tm
+- _objectdestroy.6Tm
+- _swift_cvw_instantiateLayoutString
+- _swift_retain
+- _swift_retain_n
+- _symbolic SS3key_yp5valuet
+- _symbolic _____Sg s11AnyHashableV
+- _type_layout_string 7SwiftUI4ViewRzl21AccessibilitySettings013BridgeWrapperC0VyxG
+CStrings:
++ " Volume"
++ "-[TouchAccommodationsConfiguration performSetupAssistantUpdatesWithHandler:]"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AccessibilityBundles_Alias2/BridgeSettingsAccessibility/Source/SideButtonController.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AccessibilityBundles_Alias2/BridgeSettingsAccessibility/Source/TouchAccommodationsConfiguration.m"
++ "AUTO_PLAY_MESSAGE_EFFECTS_SWITCH_ID"
++ "COMFORT_SOUNDS_SWITCH_ID"
++ "CSMediaMixingSwitchID"
++ "CS_GROUP_ID"
++ "CS_MEDIA_MIX_SECTION"
++ "CS_SELECTED_SOUND_ID"
++ "CS_SOUND_SECTION_ID"
++ "ComfortSoundsDetailViewController"
++ "ComfortSoundsFooter"
++ "ComfortSoundsMenuViewName"
++ "ComfortSoundsMixingName"
++ "ComfortSoundsName"
++ "ComfortSoundsSelectedSound"
++ "DEFAULT_BRAILLE_TABLE"
++ "HINTS_OPTION_ALWAYS"
++ "HINTS_OPTION_NEVER"
++ "HINTS_OPTION_NON_STANDARD"
++ "HearingGroup"
++ "HintOptionValue"
++ "NanoComfortSoundsDefaultsChanged"
++ "No setup assistant in the Watch companion app."
++ "OTHER_BRAILLE_TABLES"
++ "Sound"
++ "TOUCH_ACCOMMODATIONS_FOOTER_TEXT_TRIPLE_CLICK_WATCH"
++ "TOUCH_ACCOMMODATIONS_FOOTER_TEXT_WATCH"
++ "TapToWake"
++ "TouchAccommodationsAdvancedBridgeSettings: observer is null"
++ "VOICEOVER_SOUND_VOLUME_MATCHES_SPEECH_SWITCH_ID"
++ "VoiceOverHintOption"
++ "VoiceOverHintsSettings"
++ "WatchBackgroundSounds"
++ "com.apple.ComfortSounds"
++ "comfortSoundsEnabled"
++ "comfortSoundsGroup"
++ "comfortSoundsSwitchID"
++ "footerText"
++ "mediaVolume"
++ "mixesWithMedia"
++ "relativeVolume"
++ "v32@?0@\"AXAsset\"8Q16^B24"
++ "v32@?0@\"HUComfortSound\"8Q16^B24"
+- "#16@0:8"
+- "#24@0:8Q16"
+- "$__lazy_storage_$_decoder"
+- "$__lazy_storage_$_npsStore"
+- ".cxx_destruct"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AccessibilityBundles_Alias2/BridgeSettingsAccessibility/Accessibility/SideButtonController.m"
+- "0e581e21-36ba-4770-9408-0467585e8495"
+- "0eefeb2d-0ddd-44cc-b240-ba8ede9a1bc5"
+- "1e189be1-6a71-44aa-b116-0066a83035e8"
+- "78e1881c-f6e1-421f-bc90-a1ebf1784bb1"
+- "8620d455-7f5a-4871-b19e-88f914c977a7"
+- "93ea0155-dfc4-4f9d-b8f0-decc5b9c0c1d"
+- "9a815cf5-4377-41e5-a00a-161fc5c51956"
+- "@\"<UIViewControllerAnimatedTransitioning>\"48@0:8@\"UINavigationController\"16q24@\"UIViewController\"32@\"UIViewController\"40"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UINavigationController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"<VoiceOverHandGesturesActionDetailControllerDelegate>\""
+- "@\"<WatchControlActionDetailControllerDelegate>\""
+- "@\"ADASManager\""
+- "@\"AXUISettingsLeftRightSliderCell\""
+- "@\"BRLTTableEnumerator\""
+- "@\"NPSDomainAccessor\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSIndexPath\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSNumber\"20@0:8B16"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"PSSpecifier\"16"
+- "@\"NSString\"24@0:8@\"VoiceOverHandGesturesActionDetailController\"16"
+- "@\"NSString\"32@0:8q16@\"WatchControlActionDetailController\"24"
+- "@\"NSTimer\""
+- "@\"OBTrayButton\""
+- "@\"OBWelcomeController\""
+- "@\"PSSpecifier\""
+- "@\"UIImpactFeedbackGenerator\""
+- "@\"UISearchController\""
+- "@\"UISlider\""
+- "@\"WorkoutVoiceAvailabilityProviderBridge\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16q24@32@40"
+- "AXIDSServicesClient"
+- "AXSiriSettingsController"
+- "AXUIBridgeVoiceOverBrailleAlertIntervalController"
+- "AXUISettingsEditableTableCellWithStepperDelegate"
+- "AccessibilityBridgeBaseController"
+- "AirPodChooserSettingsController"
+- "AirPodSettingsController"
+- "AutoAnswerCallsController"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UISearchBar\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSString\"16@\"VoiceOverHandGesturesActionDetailController\"24"
+- "B32@0:8@16@24"
+- "B32@0:8Q16@\"WatchControlActionDetailController\"24"
+- "B32@0:8Q16@24"
+- "B40@0:8@\"UISearchBar\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B48@0:8@\"UISearchBar\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "BridgeZoomLabeledSliderCell"
+- "DisplayFilterController"
+- "EltonManagement"
+- "HearingDeviceComplicationController"
+- "LiveSpeechSwiftUI"
+- "NSObject"
+- "Q16@0:8"
+- "Q24@0:8@\"UINavigationController\"16"
+- "Q24@0:8@\"WatchControlActionDetailController\"16"
+- "Q24@0:8@16"
+- "QuickActionsV2Controller"
+- "RTTCannedMessagesController"
+- "RTTRelayController"
+- "RTTSettingsController"
+- "ReduceMotionController"
+- "SideButtonController"
+- "T#,R"
+- "T@\"<VoiceOverHandGesturesActionDetailControllerDelegate>\",W,N,V_delegate"
+- "T@\"<WatchControlActionDetailControllerDelegate>\",W,N,V_delegate"
+- "T@\"ADASManager\",&,N,V_headphoneLevelManager"
+- "T@\"BRLTTableEnumerator\",&,N,V_tableEnumerator"
+- "T@\"BRLTTableEnumerator\",R,N"
+- "T@\"NPSDomainAccessor\",&,N,V_domainAccessor"
+- "T@\"NPSDomainAccessor\",&,V_zoomDomainAccessor"
+- "T@\"NPSDomainAccessor\",R,N"
+- "T@\"NSArray\",&,N,V_allSpecifiers"
+- "T@\"NSIndexPath\",&,N,V_selectedIndexPath"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSTimer\",&,N,V_flashTimer"
+- "T@\"NSTimer\",&,N,V_vibrationTimer"
+- "T@\"UISearchController\",&,N,V_searchController"
+- "T@\"WorkoutVoiceAvailabilityProviderBridge\",&,N,V_workoutVoiceAvailabilityProvider"
+- "TB,N,V_workoutVoiceIsSupported"
+- "TB,R,N"
+- "TQ,R"
+- "TQ,R,N"
+- "TTYSoftwareEnabled"
+- "TapticChimesController"
+- "TapticChimesScheduleController"
+- "TapticChimesSoundsController"
+- "Tf,N"
+- "TouchAccommodationsAllowSwipeGesturesController"
+- "TouchAccommodationsController"
+- "Tq,N,V_flashCount"
+- "Tq,R,N"
+- "TripleClickCell"
+- "TripleClickController"
+- "UIBarPositioningDelegate"
+- "UINavigationControllerDelegate"
+- "UISearchBarDelegate"
+- "UISearchResultsUpdating"
+- "URLWithString:"
+- "VoiceOverAudioController"
+- "VoiceOverAudioDuckingController"
+- "VoiceOverBrailleAllLanguagesController"
+- "VoiceOverBrailleController"
+- "VoiceOverBrailleInputOutputController"
+- "VoiceOverBrailleTableController"
+- "VoiceOverBrailleTableVariantsTableController"
+- "VoiceOverController"
+- "VoiceOverDelayUntilSpeakController"
+- "VoiceOverDoubleTapIntervalController"
+- "VoiceOverGestureDirectionDetailController"
+- "VoiceOverHandGesturesActionDetailController"
+- "VoiceOverHandGesturesActionDetailControllerDelegate"
+- "VoiceOverHandGesturesActivationController"
+- "VoiceOverHandGesturesController"
+- "VoiceOverKeyboardController"
+- "VoiceOverKeyboardModifierKeyController"
+- "VoiceOverKeyboardModifierKeyControllerDelegate"
+- "VoiceOverKeyboardPhoneticFeedbackController"
+- "VoiceOverKeyboardPhoneticFeedbackControllerDelegate"
+- "VoiceOverKeyboardTimeoutController"
+- "VoiceOverKeyboardTimeoutControllerDelegate"
+- "VoiceOverKeyboardTypingFeedbackController"
+- "VoiceOverKeyboardTypingFeedbackControllerDelegate"
+- "VoiceOverSoundsAndHapticsController"
+- "VoiceOverSpeakSecondsDetailController"
+- "VoiceOverSpeechSwiftUI"
+- "Vv16@0:8"
+- "WCOnboardingObserver"
+- "WatchControlActionDetailController"
+- "WatchControlActionDetailControllerDelegate"
+- "WatchControlController"
+- "WatchControlCustomActionDetailControllerDelegate"
+- "WatchControlCustomizeActionMenuController"
+- "WatchControlDwellControlController"
+- "WatchControlFocusMovementController"
+- "WatchControlFocusRingColorController"
+- "WatchControlGreyActivationController"
+- "WatchControlGreyInputController"
+- "WatchControlGreyQuickActionController"
+- "WatchControlInputSourceController"
+- "WatchControlMotionPointerInputController"
+- "WatchControlSecureIntentEnrollmentController"
+- "WatchControlStringLookup"
+- "WatchQuickActions"
+- "WorkoutVoiceAvailabilityProviderBridge"
+- "WristFlickController"
+- "ZoomController"
+- "ZoomHandGesturesActionDetailController"
+- "ZoomHandGesturesActivationController"
+- "ZoomHandGesturesController"
+- "^{_NSZone=}16@0:8"
+- "_TtC21AccessibilitySettings16VOSettingsHelper"
+- "_TtC21AccessibilitySettings17BridgeVoiceSource"
+- "_TtC21AccessibilitySettingsP33_3EFF4405581A89EFEA8DFD6024346C6139BridgeCoreSynthesisVoicePickableFetcher"
+- "_TtC21AccessibilitySettingsP33_C8C4CB70404CF8062500A6588DEF2F8A19ResourceBundleClass"
+- "_accessibilitySecureIntentProvider"
+- "_actionValueForSpecifier:"
+- "_activeDeviceSupportsWorkoutBuddy"
+- "_addLanguage:"
+- "_addNewSpecifier"
+- "_addNewTableSpecifier"
+- "_allSpecifiers"
+- "_autoSpeedGroupSpecifier"
+- "_axConvertAudioBalanceValueToDisplay:"
+- "_blueCorrectionIntensity"
+- "_brailleDisplayAlertDuration:"
+- "_cancelEnrollment"
+- "_clearSoundVolumeSpecifiers"
+- "_continueButton"
+- "_continueEnrollment"
+- "_createGenericSpecifiersForActionGroup:"
+- "_createSiriShortcutsSpecifiersForActionGroup:"
+- "_createSoundVolumeSpecifiers"
+- "_createSpecifiersForActionGroup:"
+- "_currentBrailleTable:"
+- "_defaultAccessoryView"
+- "_defaultTable"
+- "_delegate"
+- "_descriptionForInputSource:"
+- "_detailClassForInputSourceType:"
+- "_deviceConnected:"
+- "_deviceSupportsShortcutMenu"
+- "_deviceSupportsSideButtonClickSpeed"
+- "_didStartEnrollment"
+- "_didTapLearnMore"
+- "_dismiss"
+- "_dismissEnrollment"
+- "_domainAccessor"
+- "_donePressed"
+- "_editPressed:"
+- "_ensureDefaultRotorItemExists"
+- "_flashCount"
+- "_flashSelectedRow"
+- "_flashTimer"
+- "_focusMovementStyleGroup"
+- "_gizmoHasTapticTime"
+- "_gizmoLocaleIsRTL"
+- "_gizmoSupportsAXAirPodSettings"
+- "_gizmoSupportsBraille"
+- "_gizmoSupportsDetents"
+- "_gizmoVoiceOverHandGesturesEnabled"
+- "_greenCorrectionIntensity"
+- "_greyEventActionCustomizations"
+- "_handleWorkoutVoiceFeatureAvailabilityChanged"
+- "_hapticGenerator"
+- "_headphoneLevelManager"
+- "_identifierForInputSourceType:"
+- "_indexOfDefaultRotorItem"
+- "_isActivityMode"
+- "_isDisplayInput"
+- "_isGesturesInput"
+- "_isSystemBundle:"
+- "_leftRightCell"
+- "_leftRightSlider"
+- "_localizedAudioTranscriptionsFooterText"
+- "_localizedStringForAccessibleEndpointerThreshold:"
+- "_manageEditButton"
+- "_mapVOTActionToWCImage:"
+- "_mapZoomActionToWCImage:"
+- "_notNowButton"
+- "_optionFromSpecifierKey:"
+- "_phoneticFeedbackArray"
+- "_popToTopOfBrailleSettings"
+- "_previewHapticSpeed"
+- "_redCorrectionIntensity"
+- "_removeActionSpecifier:"
+- "_removeTableSpecifier:"
+- "_requestOnboardingEnrollment:"
+- "_returnKeyPressed:"
+- "_saveTripleClickOptions:"
+- "_searchController"
+- "_selectedDuckingMode"
+- "_selectedEncoding"
+- "_selectedFilter"
+- "_selectedIndexPath"
+- "_setAccessibilityDecrementBlock:"
+- "_setAccessibilityIncrementBlock:"
+- "_setBlueCorrectionIntensity:"
+- "_setGreenCorrectionIntensity:"
+- "_setHyphenationFactor:"
+- "_setRedCorrectionIntensity:"
+- "_setTapticChimesEnabled:"
+- "_shouldShowAutoTranslate"
+- "_shouldShowColorIntensitySlider"
+- "_shouldShowEightDotBraille"
+- "_sideButtonDoubleTapInterval"
+- "_sideClickSpeedFromSpecifierKey:"
+- "_siriIsEnabled"
+- "_soundGroupSpecifier"
+- "_soundVolumeMatchesSpeechSwitchSpecifier"
+- "_soundVolumeSliderSpecifier"
+- "_soundVolumeSpecifiers"
+- "_soundsEnabledSpecifier"
+- "_specifiersForSoftware:"
+- "_stringForBrailleMode:"
+- "_subtitleForSpec:"
+- "_supportedDisplayFilters"
+- "_supportsAudioTranscriptions"
+- "_supportsAutoAnswerCalls"
+- "_supportsLiveSpeech"
+- "_supportsWatchControl"
+- "_systemImageNamed:"
+- "_systemImageNamed:withConfiguration:"
+- "_tableEnumerator"
+- "_tableSpecifiers"
+- "_tapticChimesCurrentSchedule"
+- "_tapticChimesCurrentSounds"
+- "_tapticChimesEnabled"
+- "_tapticChimesIsSupported"
+- "_tapticTimeSpeedAdjustmentSupported"
+- "_titleForFilter:"
+- "_translatorBundlesWithSystemAtFirst"
+- "_typeToSiriIsSupported"
+- "_typingFeedbackArray"
+- "_updateCheckedStatusForCell:"
+- "_updateGreyEventActionCustomizations:"
+- "_updateSoundVolumeSpecifiers:"
+- "_vibrateSelectedRow"
+- "_vibrationPattern"
+- "_vibrationTimer"
+- "_walkieTalkieIsSupported"
+- "_watchControlDescription"
+- "_watchQuickActionsV2Description"
+- "_watchQuickActionsV2SwitchDescription"
+- "_welcomeController"
+- "_workoutVoiceAvailabilityProvider"
+- "_workoutVoiceIsSupported"
+- "_wristFlickSpeedFromSpecifierKey:"
+- "_zoomDomainAccessor"
+- "a334d6d2-9bec-414e-bd6c-8ac1e5fb8ca3"
+- "accessibilityDomainAccessor"
+- "accessibilityLabel"
+- "accessibilityPerformEscape"
+- "accessibilityPreferenceForSpecifier:"
+- "accessibilitySetPreference:specifier:"
+- "accessibilityShortcut:"
+- "accessibilityTraits"
+- "accessibilityValue"
+- "actionDetailControllerDelegate"
+- "actionMenuFavorites"
+- "actionMenuLargerSize"
+- "actionMenuPosition"
+- "actionWithTitle:style:handler:"
+- "activationGestureTitle"
+- "activePairedDeviceSelectorBlock"
+- "addAction:"
+- "addButton:"
+- "addEntriesFromDictionary:"
+- "addNewReply:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addTarget:action:forEvents:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "allSpecifiers"
+- "appearanceWhenContainedInInstancesOfClasses:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areVoiceOverHandGesturesEnabled"
+- "areZoomHandGesturesEnabled"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "audioTranscriptionsEnabled:"
+- "autoAnswerCallDescription:"
+- "autoFocusNavigationSpeed"
+- "autorelease"
+- "availabilityProvider"
+- "ax_stepperSpecifierWithDelegate:"
+- "b4fbd189-bf37-4c38-a2c3-a0471795086c"
+- "becomeFirstResponder"
+- "beginUpdates"
+- "boldButton"
+- "boldTextEnabled:"
+- "boolForKey:"
+- "boolForKey:keyExistsAndHasValidFormat:"
+- "boolValue"
+- "brailleDisplayInput:"
+- "brailleDisplayOutput:"
+- "brailleSettingsInputValue"
+- "brailleSettingsOutputValue"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleURL"
+- "buttonTray"
+- "buttonWithType:"
+- "cachedVoices"
+- "canBeShownFromSuspendedState"
+- "canShowAction:forDetailController:"
+- "canShowActionGroup:forDetailController:"
+- "cannedReplies"
+- "cannedRepliesFromSpecifiers"
+- "cannedResponses"
+- "cellForRowAtIndexPath:"
+- "cellReuseIdentifier"
+- "cellType"
+- "characterDirectionForLanguage:"
+- "class"
+- "colorWithRed:green:blue:alpha:"
+- "colorWithWhite:alpha:"
+- "compare:"
+- "componentsInTimeZone:fromDate:"
+- "componentsSeparatedByString:"
+- "configurationWithTextStyle:"
+- "conformsToProtocol:"
+- "connected"
+- "connectedDevices"
+- "connectedDevicesDidChange:"
+- "containsObject:"
+- "contentSizeCategories"
+- "control"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createSpecifiersForRTTEnabled"
+- "currentCalendar"
+- "currentLocale"
+- "customActionDetailControllerDelegate"
+- "customReply:"
+- "customizeEnableInputSourceGroupSpecifier:"
+- "d16@0:8"
+- "d24@0:8@\"PSSpecifier\"16"
+- "d24@0:8@16"
+- "d24@0:8d16"
+- "d5834418-f4a0-4c74-aa38-8ed5f7765bd1"
+- "d7b1db8f-6f20-44a7-b454-95b8a418d208"
+- "date"
+- "dealloc"
+- "debugDescription"
+- "defaultActions"
+- "defaultAutoScrollSpeed"
+- "defaultCenter"
+- "defaultCustomizeGestures"
+- "defaultFormat"
+- "defaultTableForLocale:"
+- "delegate"
+- "deregisterForIncomingData:"
+- "description"
+- "deselectRowAtIndexPath:animated:"
+- "dictionaryForKey:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didCancelOnboarding"
+- "didConfirmFromOnboarding"
+- "didReceiveIncomingData:"
+- "didReceiveNPSValueChangedNotificationWithName:"
+- "disableInputSourceType:"
+- "disambiguationString"
+- "dismissViewControllerAnimated:completion:"
+- "dismissViewControllerWithTransition:completion:"
+- "domain"
+- "domainAccessor"
+- "domainAccessorForDomain:"
+- "doubleForKey:"
+- "doubleValue"
+- "drawInRect:"
+- "dwellControlEnabled"
+- "dwellControlShakeToStart"
+- "dwellControlShakeToStartEnabled"
+- "dwellControlTimerAction"
+- "editButtonItem"
+- "editableTextField"
+- "eligibleGreyActivationGestures"
+- "emitNavigationEventForSystemSettingWithIconSpecifierIdentifier:title:localizedNavigationComponents:deepLink:"
+- "emptyGroupSpecifier"
+- "enableInputSourceSpecifiers"
+- "enableInputSourceType:"
+- "enabledInputSourceTypes"
+- "enabledTripleClickSettings"
+- "endUpdates"
+- "enumerateObjectsUsingBlock:"
+- "f16@0:8"
+- "featureEnabled"
+- "fee09f8c-155a-48c0-af0e-5f62f88238bc"
+- "filteredGestures"
+- "firstObject"
+- "firstResponder"
+- "flashCount"
+- "flashTimer"
+- "floatForKey:"
+- "floatForKey:keyExistsAndHasValidFormat:"
+- "floatValue"
+- "focusMovementStyle"
+- "focusMovementStyleDescription"
+- "focusRingColor"
+- "focusRingColorDescription"
+- "focusRingHighContrastEnabled"
+- "getAllDevicesWithArchivedAltAccountDevicesMatching:"
+- "getNanoPreferenceFor:"
+- "getPreferenceFor:"
+- "gizmoValueForKey:domainAccessor:"
+- "globalColorFilterEnabled"
+- "glyphCharacter"
+- "gradeTwoAutoTranslatedEnabled:"
+- "greyActivationGesture"
+- "greyEvent"
+- "greyEventActionCustomizations"
+- "greyEventCustomActionCustomizations"
+- "greyQuickActionAutoScrollNotificationEnabled"
+- "greyQuickActionAutoScrollNotificationsEnabled"
+- "greyQuickActionsEnabled"
+- "greyVisualIndicator"
+- "groupSpecifierWithID:"
+- "groupSpecifierWithID:name:"
+- "groupSpecifierWithName:"
+- "handGesturesEnabled:"
+- "handleSliderDidFinishDrag:"
+- "hasPrefix:"
+- "hasShownInitialOnboarding"
+- "hasSoundVolumeSpecifiers"
+- "hash"
+- "headphoneLevelManager"
+- "headphoneNotificationsEnabled:"
+- "hearingDevicesComplicationPreferredDisplayMode:"
+- "highContrastFocusRingEnabled"
+- "i16@0:8"
+- "i24@0:8@16"
+- "identifier"
+- "imageForKey:"
+- "imageNamed:inBundle:"
+- "imageWithActions:"
+- "imageWithTintColor:renderingMode:"
+- "impactOccurred"
+- "increaseContrastEnabled:"
+- "indexForIndexPath:"
+- "indexOfGroup:"
+- "indexOfObject:"
+- "indexOfObjectPassingTest:"
+- "indexOfSpecifier:"
+- "indexOfSpecifierWithID:"
+- "indexPathForRow:inSection:"
+- "indexPathForSpecifier:"
+- "indexesOfObjectsPassingTest:"
+- "init"
+- "initWithActivityIndicatorStyle:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithCapacity:"
+- "initWithCoder:"
+- "initWithCustomView:"
+- "initWithDomain:"
+- "initWithIdentifier:"
+- "initWithKey:table:locale:bundleURL:"
+- "initWithNibName:bundle:"
+- "initWithRootViewController:"
+- "initWithSize:format:"
+- "initWithStyle:"
+- "initWithTitle:detailText:icon:"
+- "initWithUUIDString:"
+- "initialValue"
+- "inputSourceCustomizationSpecifiers"
+- "inputSourceType"
+- "inputSourceTypeEnabled"
+- "inputSourceTypeEnabled:"
+- "inputSourceTypeSetEnabled:specifier:"
+- "insertContiguousSpecifiers:afterSpecifier:animated:"
+- "insertContiguousSpecifiers:atIndex:"
+- "insertObject:atIndex:"
+- "insertSpecifier:afterSpecifier:animated:"
+- "insertSpecifier:atIndex:animated:"
+- "instructionsText"
+- "intValue"
+- "integerForKey:"
+- "integerForKey:keyExistsAndHasValidFormat:"
+- "integerValue"
+- "invalidate"
+- "isChecked"
+- "isCustomBrailleTable"
+- "isEditing"
+- "isEmergencyRTTSupported"
+- "isEmergencyRelayRTTSupported"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isInWatchSettings"
+- "isIncreaseBrightnessFloorEnabled:"
+- "isKindOfClass:"
+- "isLoaded"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRTTSupported"
+- "isTracking"
+- "isTypeToSiriEnabled"
+- "isVoiceOverGreyFeatureOn"
+- "isZoomGreyFeatureOn"
+- "keyboardInteractionTime"
+- "keyboardLanguageCodes"
+- "keyboardTimeout"
+- "keyboardTypeForSpecifier:"
+- "labelTextColor"
+- "languageAgnosticTableIdentifiers"
+- "languageAgnosticTablesForIdentifier:inBundle:"
+- "languageCode"
+- "lastObject"
+- "layoutSubviews"
+- "length"
+- "liveSpeechEnabled:"
+- "load"
+- "loadSpecifiersFromPlistName:target:"
+- "localeIdentifier"
+- "localeWithLocaleIdentifier:"
+- "localizedCaseInsensitiveCompare:"
+- "localizedCaseInsensitiveContainsString:"
+- "localizedCompare:"
+- "localizedName"
+- "localizedNameForLanguageAgnosticTableIdentifier:"
+- "localizedNameForServiceWithIdentifier:"
+- "localizedNameWithService"
+- "localizedPickerFooterText"
+- "localizedStringForKey:value:table:"
+- "localizedStringForLanguage:context:"
+- "localizedStringForTapticChimesFrequencyEncoding:"
+- "localizedStringForTapticChimesSoundType:"
+- "localizedStringWithFormat:"
+- "localizedTitle"
+- "lowercaseString"
+- "makeController"
+- "maximumValue"
+- "maximumValueForSpecifier:"
+- "minimumValue"
+- "minimumValueForSpecifier:"
+- "modifierKey"
+- "modifierShortStringDescription:"
+- "monoAudioEnabled:"
+- "motionPointerActivationDuration"
+- "motionPointerActivationDurationMax"
+- "motionPointerActivationDurationMin"
+- "motionPointerEdge"
+- "motionPointerEdgeActionCustomizations"
+- "motionPointerMovementTolerance"
+- "motionPointerSensitivity"
+- "motionPointerSensitivityMax"
+- "motionPointerSensitivityMin"
+- "mutableCopy"
+- "name"
+- "nameForAction:"
+- "nanoAssistantEnabled"
+- "nanoDictationEnabled"
+- "nanoPrefsChanged"
+- "nanoSettingsChanged:"
+- "navigationController"
+- "navigationController:animationControllerForOperation:fromViewController:toViewController:"
+- "navigationController:didShowViewController:animated:"
+- "navigationController:interactionControllerForAnimationController:"
+- "navigationController:willShowViewController:animated:"
+- "navigationControllerPreferredInterfaceOrientationForPresentation:"
+- "navigationControllerSupportedInterfaceOrientations:"
+- "navigationItem"
+- "newCannedReplySpecifier"
+- "numberOfRowsInSection:"
+- "numberOfSections"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "numericalPreferenceEnabled"
+- "numericalPreferenceValue"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "outputHours:"
+- "pairedAirPods"
+- "parentController"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phoneNumberStringFromString:"
+- "phoneticFeedbackShortStringDescription:"
+- "phoneticKey"
+- "popToViewController:animated:"
+- "popViewControllerAnimated:"
+- "positionForBar:"
+- "postNotificationName:object:"
+- "preCustomBrailleSpecifiers"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferredLanguageIDsFromUserSelectedKeyboards"
+- "preferredLanguages"
+- "preferredRelayNumber"
+- "present"
+- "presentDisableEltonAlert:greyOptional:confirmBlock:disableGreyBlock:"
+- "presentDisableQuickActionsAlertIfNeeded"
+- "presentGesturesOverviewFromViewController:withObserver:"
+- "presentModalViewController:withTransition:"
+- "presentOnboardingFromViewController:withObserver:"
+- "presentViewController:animated:completion:"
+- "presentViewController:withTransition:completion:"
+- "presentedViewController"
+- "presenterForPrivacySplashWithIdentifier:"
+- "presentingViewController"
+- "progressDictionary"
+- "properties"
+- "propertyForKey:"
+- "ps_addGroup:afterGroup:"
+- "ps_addSpecifier:toGroup:"
+- "ps_insertObjectsFromArray:afterObject:"
+- "publishMessage:priority:requestingResponse:"
+- "pushViewController:animated:"
+- "q16@0:8"
+- "q24@0:8@\"<UIBarPositioning>\"16"
+- "q24@0:8@\"PSSpecifier\"16"
+- "q24@0:8@\"UINavigationController\"16"
+- "q24@0:8@16"
+- "q32@0:8@16@24"
+- "quickActionSwitchState"
+- "rangeOfString:"
+- "reduceMotionEnabled:"
+- "reduceTransparencyEnabled:"
+- "refreshIsFeatureSupportedWithCompletionHandler:"
+- "registerClass:forCellReuseIdentifier:"
+- "registerForIncomingData:"
+- "registerUpdateBlock:forRetrieveSelector:withListener:"
+- "release"
+- "reload"
+- "reloadData"
+- "reloadSpecifier:"
+- "reloadSpecifier:animated:"
+- "reloadSpecifierID:"
+- "reloadSpecifierID:animated:"
+- "reloadSpecifiers"
+- "removeContiguousSpecifiers:"
+- "removeContiguousSpecifiers:animated:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsAtIndexes:"
+- "removeObserver:"
+- "removeSpecifier:animated:"
+- "replacements"
+- "resetGreyCustomizations"
+- "resetGreyEventActionCustomizations"
+- "resetMotionPointerEdgeActionCustomizations"
+- "resetMotionPointerEdgeCustomizations"
+- "resignFirstResponder"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "returnPressedAtEnd"
+- "reverseObjectEnumerator"
+- "row"
+- "rttEnabled:"
+- "rttRelayNumber:"
+- "saveReplies"
+- "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
+- "searchBar"
+- "searchBar:selectedScopeButtonIndexDidChange:"
+- "searchBar:shouldChangeTextInRange:replacementText:"
+- "searchBar:shouldChangeTextInRanges:replacementText:"
+- "searchBar:textDidChange:"
+- "searchBarBookmarkButtonClicked:"
+- "searchBarCancelButtonClicked:"
+- "searchBarResultsListButtonClicked:"
+- "searchBarSearchButtonClicked:"
+- "searchBarShouldBeginEditing:"
+- "searchBarShouldEndEditing:"
+- "searchBarTextDidBeginEditing:"
+- "searchBarTextDidEndEditing:"
+- "searchController"
+- "section"
+- "selectRowAtIndexPath:animated:scrollPosition:"
+- "selectedActionForDetailController:"
+- "selectedCustomActionIdentifierForCustomActionType:forDetailController:"
+- "selectedIndexPath"
+- "selectedModifier"
+- "selectedPhoneticFeedback"
+- "selectedTypingFeedbackWithSoftware:"
+- "self"
+- "serverConnectionWasInterrupted"
+- "set"
+- "setAccessibilityLabelBlock:"
+- "setAccessibilityTraitsBlock:"
+- "setAccessibilityValueBlock:"
+- "setAccessoryType:"
+- "setAction:forDetailController:"
+- "setAction:forGreyEvent:"
+- "setAction:forMotionPointerEdge:"
+- "setActionMenuFavorites:"
+- "setActionMenuLargerSize:"
+- "setActionMenuPosition:"
+- "setAdjustsFontSizeToFitWidth:"
+- "setAllSpecifiers:"
+- "setAlpha:"
+- "setAudioTranscriptionsEnabled:specifier:"
+- "setAutoFocusNavigationSpeed:"
+- "setAutocapitalizationType:"
+- "setAutocorrectionType:"
+- "setAutomaticallyShowsCancelButton:"
+- "setAutoresizesSubviews:"
+- "setAutoresizingMask:"
+- "setBoldTextEnabled:specifier:"
+- "setBool:forKey:"
+- "setButtonAction:"
+- "setCancelButton:"
+- "setCannedResponses:"
+- "setCellEnabled:"
+- "setChecked:"
+- "setClearButtonMode:"
+- "setCustomActionType:withCustomActionIdentifier:forDetailController:"
+- "setCustomActionType:withCustomActionIdentifier:forGreyEvent:"
+- "setCustomReply:specifier:"
+- "setDateOverride:"
+- "setDefaultAutoScrollSpeed:"
+- "setDelegate:"
+- "setDisplayValue:"
+- "setDomainAccessor:"
+- "setDouble:forKey:"
+- "setDwellControlEnabled:"
+- "setDwellControlShakeToStart:"
+- "setDwellControlShakeToStartEnabled:"
+- "setDwellControlTimerAction:"
+- "setEditing:animated:"
+- "setEnabled:"
+- "setFeatureEnabled:"
+- "setFlashCount:"
+- "setFlashTimer:"
+- "setFocusMovementStyle:"
+- "setFocusRingColor:"
+- "setFocusRingHighContrastEnabled:"
+- "setGizmoAccessibilityPref:forKey:"
+- "setGizmoAccessibilityPref:forKey:reloadSpecifiers:"
+- "setGizmoPref:forKey:domainAccessor:"
+- "setGizmoPref:forKey:domainAccessor:reloadSpecifiers:"
+- "setGlobalColorFilterEnabled:"
+- "setGradeTwoAutoTransateEnabled:specifier:"
+- "setGreyActivationGesture:"
+- "setGreyQuickActionAutoScrollNotificationEnabled:"
+- "setGreyQuickActionAutoScrollNotificationsEnabled:"
+- "setGreyQuickActionsEnabled:"
+- "setGreyVisualIndicator:"
+- "setHandGestures:specifier:"
+- "setHasShownInitialOnboarding:"
+- "setHeadphoneLevelManager:"
+- "setHeadphoneNotificationsEnabled:specifier:"
+- "setHidesNavigationBarDuringPresentation:"
+- "setHidesSearchBarWhenScrolling:"
+- "setHighContrastFocusRingEnabled:"
+- "setHour:"
+- "setIdentifier:"
+- "setIncreaseBrightnessFloorEnabled:specifier:"
+- "setKeyboardTimeout:"
+- "setLeftBarButtonItem:"
+- "setMinimumTrackTintColor:"
+- "setMinute:"
+- "setModalInPresentation:"
+- "setModalPresentationStyle:"
+- "setModifier:"
+- "setMonoAudioEnabled:specifier:"
+- "setMotionPointerActivationDuration:"
+- "setMotionPointerMovementTolerance:"
+- "setMotionPointerSensitivity:"
+- "setName:"
+- "setNanoDictationEnabled:"
+- "setNanoPreferenceFor:value:"
+- "setNumberOfLines:"
+- "setNumericalPreferenceEnabledFromUser:"
+- "setNumericalPreferenceValueFromUser:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObscuresBackgroundDuringPresentation:"
+- "setPhoneticFeedback:"
+- "setPreferredRelayNumber:"
+- "setPresentingViewController:"
+- "setPrompt:"
+- "setProperty:forKey:"
+- "setQuickActionSwitchState:"
+- "setQuickActionsV2State:"
+- "setRTTEnabled:forSpecifier:"
+- "setRTTRelayNumber:specifier:"
+- "setReduceMotionEnabled:specifier:"
+- "setReturnKeyType:"
+- "setRightBarButtonItem:"
+- "setSearchController:"
+- "setSearchResultsUpdater:"
+- "setSelectedIndexPath:"
+- "setSendImmediately:forSpecifier:"
+- "setShowDetectedGestureBanner:"
+- "setShowGestureRecognizerIndicator:"
+- "setShowsReorderControl:"
+- "setSideButtonConfirmWithWatchControl:specifier:"
+- "setSleepOnWristDownEnabled:"
+- "setSpeakingRate:"
+- "setSpeakingRate:specifier:"
+- "setSpecifier:"
+- "setSyncTablesEnabled:specifier:"
+- "setTTYSoftwareEnabled:"
+- "setTableEnumerator:"
+- "setTapticTimeSpeed:specifier:"
+- "setTextSize:specifier:"
+- "setTintColor:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTouchAccommodationsAllowsSwipeGesturesToBypass:"
+- "setTouchAccommodationsEnabled:"
+- "setTouchAccommodationsHoldDuration:"
+- "setTouchAccommodationsHoldDurationEnabled:"
+- "setTouchAccommodationsIgnoreRepeatDuration:"
+- "setTouchAccommodationsIgnoreRepeatEnabled:"
+- "setTouchAccommodationsSwipeGestureMinimumDistance:"
+- "setTouchAccommodationsTapActivationMethod:"
+- "setTouchAccommodationsTapActivationTimeout:"
+- "setTtyShouldBeRealtime:"
+- "setTypeToSiriEnabled:"
+- "setTypingFeedback:isSoftware:"
+- "setUserInfo:"
+- "setUserInteractionEnabled:"
+- "setValue:animated:"
+- "setVibrationTimer:"
+- "setVoiceOverDuckingAmount:specifier:"
+- "setVoiceOverHandGestures:"
+- "setVoiceOverHapticsEnabled:"
+- "setVoiceOverSoundVolume:"
+- "setVoiceOverSoundsEnabled:"
+- "setVoiceOverSoundsMatchSpeechVolumeEnabled:"
+- "setVoiceOverTapticChimesEnabled:"
+- "setVoiceOverTapticChimesFrequencyEncoding:"
+- "setVoiceOverTapticChimesSoundType:"
+- "setVoiceOverTapticTimeSpeed:"
+- "setVoiceOverTouchEnabled:specifier:"
+- "setWatchControlEnabled:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWordWrap:specifier:"
+- "setWorkoutVoiceAvailabilityProvider:"
+- "setWorkoutVoiceIsSupported:"
+- "setZoomDomainAccessor:"
+- "setZoomEnabled:specifier:"
+- "setZoomHandGestures:"
+- "sharedInstance"
+- "sharedManager"
+- "sharedPreferences"
+- "shortcutForIdentifier:"
+- "shortcutName"
+- "shortcuts"
+- "shortcutsManagerForSource:"
+- "shouldSelectResponderOnAppearance"
+- "shouldSendImmediately:"
+- "showDetectedGestureBanner"
+- "showGestureRecognizerIndicator"
+- "sideButtonConfirmWithWatchControl"
+- "sideButtonStatus:"
+- "size"
+- "sizeFromDevice:"
+- "sleepOnWristDownEnabled"
+- "sortUsingComparator:"
+- "speakingRate"
+- "speakingRate:"
+- "specifier"
+- "specifier:setValue:"
+- "specifierAtIndex:"
+- "specifierAtIndexPath:"
+- "specifierForID:"
+- "specifierForIndexPath:"
+- "specifierIdentifierForGreyEvent:"
+- "specifierIdentifierForHandGestureEvent:"
+- "specifierIdentifierForPointerEdge:"
+- "specifiers"
+- "specifiersForIDs:"
+- "startAnimating"
+- "stepAmount"
+- "stepValueForSpecifier:"
+- "stringArrayForKey:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringForKey:"
+- "stringResouceForGreyEvent:"
+- "stringResouceForMotionPointerEdge:"
+- "stringResourceForAXHandGestures:"
+- "stringResourceForEltonKey:"
+- "stringResourceForKey:"
+- "stringValueForSpecifier:"
+- "stringWithFormat:"
+- "superclass"
+- "supportedLanguageLocales"
+- "supportsCapability:"
+- "supportsTranslationMode8Dot"
+- "supportsTranslationModeContracted"
+- "suspend"
+- "symbolNameForAction:"
+- "syncTablesEnabled:"
+- "synchronize"
+- "synchronizeNanoDomain:keys:"
+- "systemImageNamed:"
+- "table"
+- "tableEnumerator"
+- "tableEnumeratorWithSystemBundlePath"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tablesForLocale:inBundle:"
+- "tag"
+- "tapticChimesFrequencyOptions"
+- "tapticChimesLocalizedCurrentFrequency"
+- "tapticChimesLocalizedCurrentSounds"
+- "tapticChimesLocalizedDescription"
+- "tapticChimesLocalizedTitle"
+- "tapticChimesScheduleLocalizedTitle"
+- "tapticChimesSoundsLocalizedTitle"
+- "tapticChimesSoundsOptions"
+- "tapticTimeSpeed:"
+- "text"
+- "textLabel"
+- "textSize:"
+- "timeZone"
+- "titleForSettings"
+- "titleForTripleClickOption:"
+- "titleLabel"
+- "touchAccommodationsAllowsSwipeGesturesToBypass"
+- "touchAccommodationsAreConfigured"
+- "touchAccommodationsDomainAccessor"
+- "touchAccommodationsEnabled"
+- "touchAccommodationsEnabled:"
+- "touchAccommodationsHoldDuration"
+- "touchAccommodationsHoldDurationEnabled"
+- "touchAccommodationsIgnoreRepeatDuration"
+- "touchAccommodationsIgnoreRepeatEnabled"
+- "touchAccommodationsSwipeGestureMinimumDistance"
+- "touchAccommodationsTapActivationMethod"
+- "touchAccommodationsTapActivationTimeout"
+- "touchAccomodationsSwipeGestureViewControllerClass"
+- "translatorBundles"
+- "ttyShouldBeRealtime"
+- "typingFeedbackShortStringDescription:"
+- "unarchivedDictionaryWithKeysOfClass:objectsOfClass:fromData:error:"
+- "unitsStringForSpecifier:"
+- "unsignedIntegerValue"
+- "updateSearchResultsForSearchController:"
+- "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+- "updateTableCheckedSelection:"
+- "userCanDisableNumericalPreference"
+- "userInfo"
+- "userLocale"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSNumber\"16"
+- "v24@0:8@\"UISearchBar\"16"
+- "v24@0:8@\"UISearchController\"16"
+- "v24@0:8@16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8B16B20"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@\"NSNumber\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"NSString\"16@\"VoiceOverHandGesturesActionDetailController\"24"
+- "v32@0:8@\"PSSpecifier\"16d24"
+- "v32@0:8@\"UISearchBar\"16@\"NSString\"24"
+- "v32@0:8@\"UISearchBar\"16q24"
+- "v32@0:8@\"UISearchController\"16@\"<UISearchSuggestion>\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16d24"
+- "v32@0:8@16q24"
+- "v32@0:8Q16@\"WatchControlActionDetailController\"24"
+- "v32@0:8Q16@24"
+- "v36@0:8@\"UINavigationController\"16@\"UIViewController\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v40@0:8q16@\"NSString\"24@\"WatchControlActionDetailController\"32"
+- "v40@0:8q16@24@32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v44@0:8@16@24@32B40"
+- "v44@0:8@16B24@?28@?36"
+- "value"
+- "valueForProperty:"
+- "valueForSpecifier:"
+- "valueWithNonretainedObject:"
+- "vibrationTimer"
+- "view"
+- "viewControllers"
+- "viewDidLoad"
+- "viewWillAppear:"
+- "viewWillDisappear:"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "visibleCells"
+- "voiceOverBrailleTableIdentifier"
+- "voiceOverDelayUntilSpeakInterval:"
+- "voiceOverDigitalCrownNavigationEnabled:"
+- "voiceOverDoubleTapInterval:"
+- "voiceOverDuckingAmount:"
+- "voiceOverGestureDirectionSummary:"
+- "voiceOverHandGesturesEnabled"
+- "voiceOverHapticsEnabled"
+- "voiceOverNavigationDirectionMode"
+- "voiceOverSetDigitalCrownNavigationEnabled:specifier:"
+- "voiceOverSoundVolume"
+- "voiceOverSoundsEnabled"
+- "voiceOverSoundsMatchSpeechVolumeEnabled"
+- "voiceOverTapticChimesEnabled"
+- "voiceOverTapticChimesFrequencyEncoding"
+- "voiceOverTapticChimesSoundType"
+- "voiceOverTapticTimeSummary:"
+- "voiceOverTouchBrailleDisplayInputMode"
+- "voiceOverTouchBrailleDisplayOutputMode"
+- "voiceOverTouchEnabled:"
+- "watchControlEnabled"
+- "whiteColor"
+- "willBecomeActive"
+- "window"
+- "wordWrapEnabled:"
+- "workoutVoiceAvailabilityProvider"
+- "workoutVoiceIsSupported"
+- "wristFlickSpeed"
+- "wristFlickSpeedDomainAccessor"
+- "zone"
+- "zoomDomainAccessor"
+- "zoomEnabled:"
+- "zoomHandGesturesEnabled"
+
+```

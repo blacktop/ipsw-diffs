@@ -1,0 +1,604 @@
+## FlightUtilitiesCore
+
+> `/System/Library/PrivateFrameworks/FlightUtilitiesCore.framework/FlightUtilitiesCore`
+
+```diff
+
+-182.0.0.0.0
+-  __TEXT.__text: 0x11aec
+-  __TEXT.__auth_stubs: 0x8f0
+-  __TEXT.__objc_methlist: 0xf3c
++185.0.0.0.0
++  __TEXT.__text: 0x1116c
++  __TEXT.__objc_methlist: 0xf54
+   __TEXT.__const: 0x2ea
+-  __TEXT.__cstring: 0xa80
++  __TEXT.__cstring: 0xb00
+   __TEXT.__swift5_typeref: 0x10f
+   __TEXT.__swift5_capture: 0x180
+   __TEXT.__constg_swiftt: 0x98
+
+   __TEXT.__swift5_types: 0xc
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x3c
+-  __TEXT.__unwind_info: 0x448
++  __TEXT.__swift_as_cont: 0x44
++  __TEXT.__unwind_info: 0x438
+   __TEXT.__eh_frame: 0x6f8
+-  __TEXT.__objc_classname: 0x1db
+-  __TEXT.__objc_methname: 0x21cc
+-  __TEXT.__objc_methtype: 0x7cd
+-  __TEXT.__objc_stubs: 0x1d00
+-  __DATA_CONST.__got: 0x1a8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1f8
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8f8
++  __DATA_CONST.__objc_selrefs: 0x928
+   __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x480
++  __DATA_CONST.__got: 0x1a8
+   __AUTH_CONST.__const: 0x360
+-  __AUTH_CONST.__cfstring: 0xca0
+-  __AUTH_CONST.__objc_const: 0x1a98
++  __AUTH_CONST.__cfstring: 0xce0
++  __AUTH_CONST.__objc_const: 0x1ac8
+   __AUTH_CONST.__objc_intobj: 0x30
++  __AUTH_CONST.__auth_got: 0x508
+   __AUTH.__objc_data: 0x4c0
+   __AUTH.__data: 0xc8
+-  __DATA.__objc_ivar: 0xfc
++  __DATA.__objc_ivar: 0x100
+   __DATA.__data: 0x328
+   __DATA.__bss: 0x130
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 01687994-93AA-32C2-9F51-A15FDAC4B1FC
+-  Functions: 370
+-  Symbols:   1170
+-  CStrings:  735
++  UUID: 573947A4-F9F2-34EF-99F0-7A63F62AEE0E
++  Functions: 369
++  Symbols:   1235
++  CStrings:  217
+ 
+Symbols:
++ -[FUAirport countryCode]
++ -[FUAirport setCountryCode:]
++ _OBJC_IVAR_$_FUAirport._countryCode
++ ___block_descriptor_64_e8_32s40s48bs_e29_v24?0"NSArray"8"NSError"16ls48l8s32l8s40l8
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$componentsInTimeZone:fromDate:
++ _objc_msgSend$countryCode
++ _objc_msgSend$day
++ _objc_msgSend$month
++ _objc_msgSend$setCountryCode:
++ _objc_msgSend$year
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _swift_release_x19
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x21
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x8
+- ___block_descriptor_48_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls40l8s32l8
+- _objc_retainAutoreleasedReturnValue
+- _objectdestroy.13Tm
+- _objectdestroy.34Tm
+- _swift_retain
+CStrings:
++ "We received more than one flight, this should not happen when a date is specified. Fixing up as best as possible."
++ "countryCode"
++ "trying to handle flight with unsupported date type"
+- "#16@0:8"
+- "#24@0:8@16"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"CLPlacemark\""
+- "@\"FUAirline\""
+- "@\"FUAirport\""
+- "@\"FUAirport\"16@0:8"
+- "@\"FUArrivalInfo\""
+- "@\"FUDepartureInfo\""
+- "@\"FUFlightStep\""
+- "@\"FUStepTime\""
+- "@\"NSArray\""
+- "@\"NSArray\"32@0:8@\"NSData\"16^@24"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSError\"24@0:8@\"NSString\"16"
+- "@\"NSNumber\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSTimeZone\""
+- "@\"NSURL\""
+- "@112@0:8@16@24@32@40@48@56@64@72@80@88@96@104"
+- "@144@0:8@16@24Q32@40Q48@56@64Q72@80@88@96@104Q112Q120@128@136"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8Q16@24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8Q16@24^@32"
+- "@80@0:8q16d24@32@40q48@56@64@72"
+- "@92@0:8@16@24@32q40@48@56@64@72@80B88"
+- "@96@0:8@16@24@32@40@48@56@64@72@80@88"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "FUAirline"
+- "FUAirport"
+- "FUArrivalInfo"
+- "FUBaseStopInfo"
+- "FUDepartureInfo"
+- "FUFlight"
+- "FUFlightFactory"
+- "FUFlightFactoryInternalProtocol"
+- "FUFlightFactoryPrivateProtocol"
+- "FUFlightFactoryProtocol"
+- "FUFlightFactory_Parsec"
+- "FUFlightLeg"
+- "FUFlightStep"
+- "FUFutureFlightState"
+- "FUStepTime"
+- "FUStopInfo"
+- "FUUtils"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"CLPlacemark\",&,V_placemark"
+- "T@\"FUAirline\",&,V_airline"
+- "T@\"FUAirline\",&,V_displayAirline"
+- "T@\"FUAirline\",&,V_operatorAirline"
+- "T@\"FUAirport\",&,V_airport"
+- "T@\"FUAirport\",&,V_divertedAirport"
+- "T@\"FUAirport\",R,V_airport"
+- "T@\"FUArrivalInfo\",&,V_arrivalInfo"
+- "T@\"FUDepartureInfo\",&,V_departureInfo"
+- "T@\"FUFlightStep\",&,V_arrival"
+- "T@\"FUFlightStep\",&,V_departure"
+- "T@\"FUFlightStep\",R"
+- "T@\"FUStepTime\",&,V_actualTime"
+- "T@\"FUStepTime\",&,V_estimatedTime"
+- "T@\"FUStepTime\",&,V_plannedTime"
+- "T@\"FUStepTime\",&,V_runwayTime"
+- "T@\"FUStepTime\",&,V_scheduledTime"
+- "T@\"FUStepTime\",R"
+- "T@\"NSArray\",&,N,V_allLegs"
+- "T@\"NSArray\",&,V_legs"
+- "T@\"NSDate\",&,V_date"
+- "T@\"NSDate\",&,V_dateLastUpdated"
+- "T@\"NSDate\",&,V_expirationDate"
+- "T@\"NSDate\",C,V_expectedDate"
+- "T@\"NSDate\",R"
+- "T@\"NSDate\",R,V_currentGateTime"
+- "T@\"NSDate\",R,V_currentRunwayTime"
+- "T@\"NSDate\",R,V_scheduledGateTime"
+- "T@\"NSDate\",R,V_scheduledRunwayTime"
+- "T@\"NSNumber\",&,N"
+- "T@\"NSNumber\",R,V_gateBufferMinutes"
+- "T@\"NSNumber\",R,V_runwayBufferMinutes"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,V_FAACode"
+- "T@\"NSString\",&,V_IATACode"
+- "T@\"NSString\",&,V_cancellationMessage"
+- "T@\"NSString\",&,V_city"
+- "T@\"NSString\",&,V_flightIdentifier"
+- "T@\"NSString\",&,V_gate"
+- "T@\"NSString\",&,V_name"
+- "T@\"NSString\",&,V_phoneNumber"
+- "T@\"NSString\",&,V_queriedAirlineTitle"
+- "T@\"NSString\",&,V_rawResponse"
+- "T@\"NSString\",&,V_terminal"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,V_baggageClaim"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,V_gate"
+- "T@\"NSString\",R,V_terminal"
+- "T@\"NSTimeZone\",&,N,V_timeZone"
+- "T@\"NSURL\",&,V_URL"
+- "TB,R"
+- "TB,V_departure"
+- "TB,V_legacy"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,V_arrivalLegIndex"
+- "TQ,V_departureLegIndex"
+- "TQ,V_displayFlightNumber"
+- "TQ,V_flightNumber"
+- "TQ,V_operatorFlightNumber"
+- "TQ,V_type"
+- "Td,R"
+- "Td,V_duration"
+- "Tq,R"
+- "Tq,V_flightState"
+- "Tq,V_futureState"
+- "Tq,V_legStatus"
+- "Tq,V_status"
+- "T{CLLocationCoordinate2D=dd},V_location"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_FAACode"
+- "_IATACode"
+- "_TtC19FlightUtilitiesCore15FUPegasusBridge"
+- "_TtC19FlightUtilitiesCoreP33_82CA416D011F476DE6B2459D8021B5EC10ProxyActor"
+- "_URL"
+- "_actualTime"
+- "_airline"
+- "_airport"
+- "_allLegs"
+- "_arrival"
+- "_arrivalInfo"
+- "_arrivalLegIndex"
+- "_baggageClaim"
+- "_calculateCurrentProgress"
+- "_cancellationMessage"
+- "_city"
+- "_computedFlightStateWithBuffer:"
+- "_currentGateTime"
+- "_currentProgress"
+- "_currentRunwayTime"
+- "_date"
+- "_dateLastUpdated"
+- "_delayFromSchedule"
+- "_deltaGateMinutes"
+- "_departure"
+- "_departureInfo"
+- "_departureLegIndex"
+- "_displayAirline"
+- "_displayFlightNumber"
+- "_displayTime"
+- "_divertedAirport"
+- "_duration"
+- "_estimatedTime"
+- "_expectedDate"
+- "_expirationDate"
+- "_flightIdentifier"
+- "_flightNumber"
+- "_flightState"
+- "_futureState"
+- "_gate"
+- "_gateBufferMinutes"
+- "_identifier"
+- "_legStatus"
+- "_legacy"
+- "_legs"
+- "_location"
+- "_name"
+- "_nowDate"
+- "_operatorAirline"
+- "_operatorFlightNumber"
+- "_phoneNumber"
+- "_placemark"
+- "_plannedTime"
+- "_queriedAirlineTitle"
+- "_rawResponse"
+- "_runwayBufferMinutes"
+- "_runwayTime"
+- "_scheduledGateTime"
+- "_scheduledRunwayTime"
+- "_scheduledTime"
+- "_status"
+- "_terminal"
+- "_timeZone"
+- "_type"
+- "addObject:"
+- "airportFromSFAirport:"
+- "allocWithZone:"
+- "array"
+- "arrayWithObjects:count:"
+- "arrivalActualTime"
+- "arrivalAirport"
+- "arrivalGate"
+- "arrivalGateTime"
+- "arrivalPublishedTime"
+- "arrivalRunwayTime"
+- "arrivalTerminal"
+- "arrivalTime"
+- "autorelease"
+- "bufferMinutes"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "calendarWithIdentifier:"
+- "carrierCode"
+- "carrierName"
+- "class"
+- "code"
+- "compare:"
+- "components:fromDate:toDate:options:"
+- "componentsSeparatedByString:"
+- "computedFlightState"
+- "conformsToProtocol:"
+- "convertFlightModel:withError:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "current"
+- "currentCalendar"
+- "currentProgress"
+- "d"
+- "d16@0:8"
+- "dateByAddingComponents:toDate:options:"
+- "dateFromString:"
+- "dateOfNextExpectedUpdate"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeDoubleForKey:"
+- "decodeIntForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "departureActualTime"
+- "departureAirport"
+- "departureGate"
+- "departureGateClosedTime"
+- "departurePublishedTime"
+- "departureRunwayTime"
+- "departureTerminal"
+- "departureTime"
+- "description"
+- "displayFlightCode"
+- "doesNotRecognizeSelector:"
+- "doubleValue"
+- "encodeBool:forKey:"
+- "encodeDouble:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enumerateFlightCodesInString:usingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "extractTimeForFlightStep:fromLeg:"
+- "fetchPlacemarkWithCompletionHandler:"
+- "fetchUpdateFor:completionHandler:"
+- "fetchUpdateForChannelId:completionHandler:"
+- "firstLeg"
+- "firstObject"
+- "flightCode"
+- "flightFactoryClassWithProvider:"
+- "flightID"
+- "flightIdentifier"
+- "flightRequestForQuery:date:appBundleId:"
+- "flightResults"
+- "flightSearchResponseFor:date:clientBundleIdentifier:completionHandler:"
+- "flightTimeStatus"
+- "gRPCQuery:date:bundleIdentifier:completionHandler:"
+- "gateArrivalTimes"
+- "gateDepartureTimes"
+- "hash"
+- "httpQuery:date:bundleIdentifier:userAgent:sessionID:completionHandler:"
+- "init"
+- "initWithAirport:gate:terminal:baggageClaim:divertedAirport:displayTime:scheduledGateTime:currentGateTime:scheduledRunwayTime:currentRunwayTime:gateBufferMinutes:runwayBufferMinutes:"
+- "initWithAirport:gate:terminal:displayTime:scheduledGateTime:currentGateTime:scheduledRunwayTime:currentRunwayTime:gateBufferMinutes:runwayBufferMinutes:"
+- "initWithAirport:gate:terminal:legStatus:delayFromSchedule:scheduledTime:estimatedTime:actualTime:runwayTime:departure:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithDisplayAirline:queriedAirlineTitle:displayFlightNumber:airline:flightNumber:flightIdentifier:operatorAirline:operatorFlightNumber:cancellationMessage:allLegs:legs:identifier:departureLegIndex:arrivalLegIndex:expirationDate:rawResponse:"
+- "initWithId:userAgent:"
+- "initWithLatitude:longitude:"
+- "initWithProtobuf:"
+- "initWithState:andDate:"
+- "initWithStatus:duration:departure:arrival:flightState:departureInfo:arrivalInfo:dateLastUpdated:"
+- "initWithType:date:"
+- "integerValue"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "lastLeg"
+- "lastObject"
+- "lastUpdatedTime"
+- "lat"
+- "legacy"
+- "legsAsFlights"
+- "length"
+- "lng"
+- "loadFlightDataWithFlightNumber:airlineCode:date:dateType:completionHandler:"
+- "loadFlightStructuresWithFlightNumber:airlineCode:date:dateType:userAgent:sessionID:completionHandler:"
+- "loadFlightWithIdentifier:completionHandler:"
+- "loadFlightsWithNumber:airlineCode:date:dateType:completionHandler:"
+- "loadFlightsWithNumber:airlineCode:date:dateType:userAgent:sessionID:completionHandler:"
+- "localeWithLocaleIdentifier:"
+- "location"
+- "mainBundle"
+- "minute"
+- "newWithState:andDate:"
+- "now"
+- "numberWithDouble:"
+- "numberWithInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForInfoDictionaryKey:"
+- "operatorCarrierCode"
+- "operatorFlightCode"
+- "parseFlightData:withError:"
+- "pegasusDefinedState"
+- "pegasusDisplayFields"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "q"
+- "q16@0:8"
+- "q20@0:8B16"
+- "release"
+- "relevantLeg"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "reverseGeocodeLocation:completionHandler:"
+- "runwayArrivalTimes"
+- "runwayDepartureTimes"
+- "scheduled"
+- "self"
+- "setActualTime:"
+- "setAirline:"
+- "setAirport:"
+- "setAllLegs:"
+- "setArrival:"
+- "setArrivalInfo:"
+- "setArrivalLegIndex:"
+- "setBaggageClaim:"
+- "setCalendar:"
+- "setCancellationMessage:"
+- "setCity:"
+- "setDate:"
+- "setDateFormat:"
+- "setDateLastUpdated:"
+- "setDelayFromSchedule:"
+- "setDeparture:"
+- "setDepartureInfo:"
+- "setDepartureLegIndex:"
+- "setDepartureLegIndex:arrivalLegIndex:"
+- "setDisplayAirline:"
+- "setDisplayFlightNumber:"
+- "setDisplayTime:"
+- "setDivertedAirport:"
+- "setDuration:"
+- "setEstimatedTime:"
+- "setExpectedDate:"
+- "setExpirationDate:"
+- "setFAACode:"
+- "setFlightIdentifier:"
+- "setFlightNumber:"
+- "setFlightState:"
+- "setFutureState:"
+- "setGate:"
+- "setIATACode:"
+- "setIdentifier:"
+- "setLegStatus:"
+- "setLegacy:"
+- "setLegs:"
+- "setLocale:"
+- "setLocation:"
+- "setMinute:"
+- "setName:"
+- "setOperatorAirline:"
+- "setOperatorFlightNumber:"
+- "setPhoneNumber:"
+- "setPlacemark:"
+- "setPlannedTime:"
+- "setQueriedAirlineTitle:"
+- "setRawResponse:"
+- "setRunwayTime:"
+- "setScheduledTime:"
+- "setStatus:"
+- "setTerminal:"
+- "setTestDate:"
+- "setTimeZone:"
+- "setType:"
+- "setURL:"
+- "setWithObjects:"
+- "sharedPARSessionWithConfiguration:"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "subscribeTo:date:clientBundleIdentifier:completionHandler:"
+- "subscribeTo:date:clientBundleIdentifier:pushMessagesHandler:completionHandler:"
+- "subscribeToUpdatesForFlightsWithNumber:airlineCode:date:completionHandler:"
+- "subscribeToUpdatesForFlightsWithNumber:airlineCode:date:updatesHandler:completionHandler:"
+- "superclass"
+- "supportsSecureCoding"
+- "taskWithRequest:completion:"
+- "taxiing"
+- "testDate"
+- "time"
+- "timeFormatterForIdentifier"
+- "timeIntervalSince1970"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timezone"
+- "trying to handle flight with unsupported date type, using departure by default"
+- "unsubscribeFromFlightUpdateChannel:"
+- "unsubscribeWithChannelId:"
+- "uppercaseStringWithLocale:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v32@0:8@\"NSString\"16@?<v@?@\"FUFlight\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16Q24"
+- "v32@0:8{CLLocationCoordinate2D=dd}16"
+- "v48@0:8@\"NSString\"16@\"NSDate\"24@\"NSString\"32@?<v@?@\"NSArray\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSDate\"24@\"NSString\"32@?<v@?@\"NSString\"@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8Q16@\"NSString\"24@\"NSDate\"32@?<v@?@\"NSString\"@\"NSError\">40"
+- "v48@0:8Q16@24@32@?40"
+- "v56@0:8@\"NSString\"16@\"NSDate\"24@\"NSString\"32@?<v@?@\"NSArray\">40@?<v@?@\"NSString\"@\"NSError\">48"
+- "v56@0:8Q16@\"NSString\"24@\"NSDate\"32@?<v@?@\"NSArray\">40@?<v@?@\"NSString\"@\"NSError\">48"
+- "v56@0:8Q16@\"NSString\"24@\"NSDate\"32q40@?<v@?@\"NSArray\"@\"NSError\">48"
+- "v56@0:8Q16@\"NSString\"24@\"NSDate\"32q40@?<v@?@\"NSData\"@\"NSError\">48"
+- "v56@0:8Q16@24@32@?40@?48"
+- "v56@0:8Q16@24@32q40@?48"
+- "v64@0:8@16@24@32@40@48@?56"
+- "v72@0:8Q16@\"NSString\"24@\"NSDate\"32q40@\"NSString\"48@\"NSString\"56@?<v@?@\"NSArray\"@\"NSError\">64"
+- "v72@0:8Q16@24@32q40@48@56@?64"
+- "validatedFlightNumber:airlineCode:error:"
+- "zone"
+- "{CLLocationCoordinate2D=\"latitude\"d\"longitude\"d}"
+- "{CLLocationCoordinate2D=dd}16@0:8"
+
+```

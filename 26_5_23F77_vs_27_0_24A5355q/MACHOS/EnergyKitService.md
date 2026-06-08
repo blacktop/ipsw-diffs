@@ -1,0 +1,3463 @@
+## EnergyKitService
+
+> `/System/Library/PrivateFrameworks/EnergyKitInternal.framework/XPCServices/EnergyKitService.xpc/EnergyKitService`
+
+```diff
+
+-422.6.2.0.0
+-  __TEXT.__text: 0xaabc0
+-  __TEXT.__auth_stubs: 0x25d0
+-  __TEXT.__objc_stubs: 0x1120
+-  __TEXT.__objc_methlist: 0xa78
+-  __TEXT.__const: 0x1980
+-  __TEXT.__oslogstring: 0x25b6
+-  __TEXT.__swift5_typeref: 0x99e
++471.0.0.0.2
++  __TEXT.__text: 0x1161fc
++  __TEXT.__auth_stubs: 0x37f0
++  __TEXT.__objc_stubs: 0x1a00
++  __TEXT.__objc_methlist: 0xb98
++  __TEXT.__const: 0x2478
++  __TEXT.__oslogstring: 0x3ae6
++  __TEXT.__swift5_typeref: 0x10cc
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0xe14
+-  __TEXT.__swift5_types: 0xa0
+-  __TEXT.__objc_classname: 0x8a2
+-  __TEXT.__objc_methname: 0x24d1
+-  __TEXT.__objc_methtype: 0x100e
+-  __TEXT.__cstring: 0x95a
+-  __TEXT.__swift_as_entry: 0x214
+-  __TEXT.__swift5_reflstr: 0x60a
+-  __TEXT.__swift5_fieldmd: 0x730
+-  __TEXT.__swift5_proto: 0x5c
+-  __TEXT.__swift5_capture: 0xadc
+-  __TEXT.__swift_as_ret: 0x2e0
++  __TEXT.__constg_swiftt: 0x1158
++  __TEXT.__swift5_types: 0xcc
++  __TEXT.__objc_classname: 0xa82
++  __TEXT.__objc_methname: 0x2c98
++  __TEXT.__objc_methtype: 0x147a
++  __TEXT.__cstring: 0xdda
++  __TEXT.__swift_as_entry: 0x2c0
++  __TEXT.__swift_as_cont: 0x9f0
++  __TEXT.__swift5_reflstr: 0x80a
++  __TEXT.__swift5_fieldmd: 0x9cc
++  __TEXT.__swift5_capture: 0x1234
++  __TEXT.__swift5_proto: 0x88
++  __TEXT.__swift_as_ret: 0x438
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x2430
+-  __TEXT.__eh_frame: 0x70bc
+-  __DATA_CONST.__auth_got: 0x12f0
+-  __DATA_CONST.__got: 0x610
+-  __DATA_CONST.__auth_ptr: 0x358
+-  __DATA_CONST.__const: 0x2320
+-  __DATA_CONST.__objc_classlist: 0x100
++  __TEXT.__unwind_info: 0x2fe8
++  __TEXT.__eh_frame: 0xa0f4
++  __DATA_CONST.__const: 0x3518
++  __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA.__objc_const: 0x2a90
+-  __DATA.__objc_selrefs: 0x898
+-  __DATA.__objc_data: 0x530
+-  __DATA.__data: 0x2220
+-  __DATA.__common: 0x128
+-  __DATA.__bss: 0xb80
++  __DATA_CONST.__auth_got: 0x1c00
++  __DATA_CONST.__got: 0xb48
++  __DATA_CONST.__auth_ptr: 0x4f0
++  __DATA.__objc_const: 0x3610
++  __DATA.__objc_selrefs: 0xaf0
++  __DATA.__objc_data: 0x520
++  __DATA.__data: 0x2e48
++  __DATA.__common: 0x198
++  __DATA.__bss: 0x1100
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EA8BECED-F475-374F-BB20-09A8B598BEA3
+-  Functions: 2002
+-  Symbols:   13574
+-  CStrings:  720
++  UUID: B158F11B-8412-3269-A498-EC579D20B41A
++  Functions: 2751
++  Symbols:   19993
++  CStrings:  927
+ 
+Symbols:
++ $s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TRTA.195
++ $s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.30
++ $s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.30TQ0_
++ $s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.30Tu
++ $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.117
++ $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.117TQ0_
++ $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.117Tu
++ $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.108
++ $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.108TQ0_
++ $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.108Tu
++ $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.92
++ $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.92TQ0_
++ $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.92Tu
++ $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.100
++ $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.100TQ0_
++ $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.100Tu
++ $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.29
++ $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.29TQ0_
++ $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.29Tu
++ $s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TA.30
++ $s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TA.30TQ0_
++ $s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TA.30Tu
++ $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.67
++ $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.67TQ0_
++ $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.67Tu
++ $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.12
++ $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.12TQ0_
++ $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.12Tu
++ $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.21
++ $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.21TQ0_
++ $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.21Tu
++ $s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.21
++ $s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.21TQ0_
++ $s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.21Tu
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.23
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.23TQ0_
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.23Tu
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.32
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.32TQ0_
++ $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.32Tu
++ $s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.75
++ $s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.75TQ0_
++ $s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.75Tu
++ $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.97
++ $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.97TQ0_
++ $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.97Tu
++ $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.84
++ $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.84TQ0_
++ $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.84Tu
++ $s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TA.85
++ $s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TA.85TQ0_
++ $s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TA.85Tu
++ $s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TA.76
++ $s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TA.76TQ0_
++ $s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TA.76Tu
++ $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.38
++ $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.38TQ0_
++ $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.38Tu
++ $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.47
++ $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.47TQ0_
++ $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.47Tu
++ $s16EnergyKitService0A9SiteQueryC4site33_B33CB455DD48027DE2B28F2DCA54A929LL3for7context0aB10Foundation08EKEnergyD0CSgSS_So22NSManagedObjectContextCtFZAKyXEfU_yyYbXEfU_TA.43
++ $s16EnergyKitService0A9SiteQueryC4site33_B33CB455DD48027DE2B28F2DCA54A929LL3for7context0aB10Foundation08EKEnergyD0CSgSS_So22NSManagedObjectContextCtFZAKyXEfU_yyYbXEfU_TA.54
++ $s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateInterval7contextSayAA0dE6ResultVGSS_SS10Foundation04DateM0VSo22NSManagedObjectContextCtFZAKyXEfU_AKyYbXEfU_TA.4
++ $s16EnergyKitService21CoreDataInsightStreamC05setupeG0ScSySay10Foundation0E0VGGyFyScS12ContinuationVyAH_GXEfU_TA.169
++ $s16EnergyKitService21CoreDataInsightStreamC05setupeG0ScSySay10Foundation0E0VGGyFyScS12ContinuationVyAH_GXEfU_TA.2
++ $s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFAFyYbXEfU_TA.20
++ $s9EnergyKit23XPCEnergyTrendContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.26
++ $s9EnergyKit23XPCEnergyTrendContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.59
++ $s9EnergyKit23XPCEnergyVenueContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.113
++ $s9EnergyKit23XPCEnergyVenueContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.226
++ $s9EnergyKit31XPCElectricityGuidanceContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.131
++ $s9EnergyKit31XPCElectricityGuidanceContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.28
++ $sIeAgH_ytIeAgHr_TRTA.34
++ $sIeAgH_ytIeAgHr_TRTA.34TQ0_
++ $sIeAgH_ytIeAgHr_TRTA.34Tu
++ $sIeghH_IeAgH_TRTA.29
++ $sIeghH_IeAgH_TRTA.29TQ0_
++ $sIeghH_IeAgH_TRTA.29Tu
++ $sIeyB_Ieg_TRTA.102
++ $sIeyB_Ieg_TRTA.106
++ $sIeyB_Ieg_TRTA.112
++ $sIeyB_Ieg_TRTA.169
++ $sIeyB_Ieg_TRTA.72
++ $sIeyB_Ieg_TRTA.79
++ $sIeyB_Ieg_TRTA.81
++ $sIeyB_Ieg_TRTA.86
++ $sIeyB_Ieg_TRTA.90
++ $sIgh_Iegh_TRTA.10
++ $sIgh_Iegh_TRTA.24
++ $sIgh_Iegh_TRTA.26
++ $sIgh_Iegh_TRTA.36
++ $sIgh_Iegh_TRTA.42
++ $sIgh_Iegh_TRTA.47
++ $sIgh_Iegh_TRTA.50
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.185
++ $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.80
++ $sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Error_pSgIeggg_TRTA.153
++ $sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Error_pSgIeggg_TRTA.43
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.102
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.102TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.102Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.112
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.112TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.112Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.13Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.22Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.23
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.23TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.23Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.32
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.32TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.32Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.37
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.37TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.37Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.47
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.47TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.47Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.56
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.56TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.56Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.59
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.59TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.59Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.73
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.73TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.73Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.82
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.82TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.82Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.92
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.92TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.92Tu
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/AMIQueryEngine+Extension.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/AMIQueryEngine.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/ApplicationIdentifiers.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/AuditTokenValidator.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedProtocol.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+EntitlementCheck.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+GridOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+GuidanceOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+InsightsOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+LoadEventOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+MockOptions.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+RatePeriodOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+SandboxOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+TrendOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+VenueOperations.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedServiceDelegate.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedServiceListener.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CoreDataInsightStream.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/DeviceInsights.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKLogger.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSAnalytics.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSAnalyticsEvent.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSHomeManagerActor.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKit+HomeKitEvents+Extension.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitAppTrackerQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitCloudConfigQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitService.swiftmodule
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergySiteQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyTrendQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/GridProvider.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/GuidanceIDTrackerQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/GuidanceProvider.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HMHome+Extension.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HistoricalGuidanceCache.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HistoricalGuidanceQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/InsightBucketBoundaries.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/IntervalBlocksPredicate.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/LoadEventManager.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/LoadEventsQueryEngine.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/MockGuidance.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/MockOptions.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/NSXPCConnection+Entitlements.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/PendingInsightQueryEngine.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/PendingInsightSubscriptionManager.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/RatePlanQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/RawLoadEventInsert.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/RawLoadEventQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/ServiceSandbox.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/TOUPeakQuery.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/Utilities.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/WholeHomeInsights.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/XPCCoreDataStore.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/XPCStoreDriver.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/Analytics/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/EnergyKitService+Extensions/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/EnergyKitService+Extensions/EnergyKitPublic/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/HomeKit/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/Mock/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/XPCStore/
++ /Library/Caches/com.apple.xbs/D3145532-9070-4654-94DA-984EF3B1B61D/TemporaryDirectory.4X6D3N/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/XPCStore/InsightsGeneration/
++ CombinedService+RatePeriodOperations.swift
++ CombinedService+TrendOperations.swift
++ EnergyTrendQuery.swift
++ GuidanceIDTrackerQuery.swift
++ PendingInsightQueryEngine.swift
++ PendingInsightSubscriptionManager.swift
++ RawLoadEventInsert.swift
++ RawLoadEventQuery.swift
++ TOUPeakQuery.swift
++ _$s10Foundation11MeasurementV5valueSdvg
++ _$s10Foundation11MeasurementVAASo11NSDimensionCRbzrlE9converted2toACyxGx_tF
++ _$s10Foundation11MeasurementVMn
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCGMR
++ _$s10Foundation11MeasurementVySo11NSUnitPowerCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitEnergyCGMR
++ _$s10Foundation11MeasurementVySo12NSUnitEnergyCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGMR
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGMd
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGSgMR
++ _$s10Foundation11MeasurementVySo12NSUnitLengthCGSgMd
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGMR
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGMd
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgMR
++ _$s10Foundation11MeasurementVySo17NSUnitTemperatureCGSgMd
++ _$s10Foundation12DateIntervalV19_bridgeToObjectiveCSo06NSDateC0CyF
++ _$s10Foundation12DateIntervalV36_unconditionallyBridgeFromObjectiveCyACSo06NSDateC0CSgFZ
++ _$s10Foundation12DateIntervalVMn
++ _$s10Foundation3URLVMn
++ _$s10Foundation3URLVSgMR
++ _$s10Foundation3URLVSgMd
++ _$s10Foundation4DataV14RangeReferenceCMa
++ _$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV9repeating5countACs5UInt8V_SitcfCTf4nnd_n
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DateV11descriptionSSvg
++ _$s10Foundation4DateV20timeIntervalSinceNowSdvg
++ _$s10Foundation4DateV21timeIntervalSince1970ACSd_tcfC
++ _$s10Foundation4DateV4date_Si4ranktMR
++ _$s10Foundation4DateV4date_Si4ranktMd
++ _$s10Foundation4DateV4date_Si4ranktWOc
++ _$s10Foundation4DateV5lower_AC5uppertMR
++ _$s10Foundation4DateV5lower_AC5uppertMd
++ _$s10Foundation4DateV5start_AC3endtMR
++ _$s10Foundation4DateV5start_AC3endtMd
++ _$s10Foundation4DateV5start_AC3endtSgMR
++ _$s10Foundation4DateV5start_AC3endtSgMd
++ _$s10Foundation4DateVACSQAAWL
++ _$s10Foundation4DateVSQAAMc
++ _$s10Foundation4DateVSgML
++ _$s10Foundation4DateVSgWOdTm
++ _$s10Foundation4DateVSg_ADtMR
++ _$s10Foundation4DateVSg_ADtMd
++ _$s10Foundation4UUIDV3key_SS5valuetWOb
++ _$s10Foundation4UUIDV3key_So6HMHomeC5valuetWOb
++ _$s10Foundation4UUIDV5venue_SS6gridIDtSgWOcTm
++ _$s10Foundation4UUIDV5venue_SS6gridIDtSgWOdTm
++ _$s10Foundation4UUIDV5venue_SS6gridIDtSgWOhTm
++ _$s10Foundation4UUIDV5venue_SS6gridIDtWObTm
++ _$s10Foundation4UUIDVACs23CustomStringConvertibleAAWlTm
++ _$s10Foundation4UUIDVSgML
++ _$s10Foundation4UUIDVSgMaTm
++ _$s10Foundation4UUIDVSgWOcTm
++ _$s10Foundation4UUIDVSg_ADtMR
++ _$s10Foundation4UUIDVSg_ADtMd
++ _$s10Foundation4UUIDV_AA4DateVtMR
++ _$s10Foundation4UUIDV_AA4DateVtMd
++ _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOSo6HMHomeCtMR
++ _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOSo6HMHomeCtMd
++ _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOSo6HMHomeCtSgMR
++ _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOSo6HMHomeCtSgMd
++ _$s10Foundation8CalendarV10startOfDay3forAA4DateVAG_tF
++ _$s10Foundation8CalendarV4date8byAdding5value2to18wrappingComponentsAA4DateVSgAC9ComponentO_SiAJSbtF
++ _$s10Foundation8CalendarV9ComponentO5monthyA2EmFWC
++ _$s10Foundation8TimeZoneV10identifierSSvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueV06hourlyD0SayAC04LoadfgH0VAFVGvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueV14lastCumulativeAC14MilliwattHoursVvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVAGSeAAWL
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVMa
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVMn
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVSeAAMc
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVSgMR
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueVSgMd
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV10deviceNameSSSgvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO10productionyA2G5ValueOcAGmFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO11consumptionyA2G5ValueOcAGmFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO24consumptionAndProductionyA2G5ValueO_AJtcAGmFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO14energyAndPoweryAiC14MilliwattHoursV_AC10MilliwattsVtcAImFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO5poweryAiC10MilliwattsVcAImFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO6energyyAiC14MilliwattHoursVcAImFWC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueOMa
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueOMn
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO_AItMR
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO_AItMd
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementOMa
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11isCertifiedSbvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV14homeIdentifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV14siteIdentifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV16deviceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV16sourceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV4date10Foundation4DateVvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV4date14homeIdentifier04siteJ006sourceJ006deviceJ00M4Name5scope9certified11measurement8guidanceAE10Foundation4DateV_AP4UUIDVATS3SSgAC12CircuitScopeOSgSbAE11MeasurementOAC16GuidanceBehaviorOtcfC
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV5StateV11measurementAE11MeasurementOvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV5StateV8guidanceAC16GuidanceBehaviorOvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV5StateVMa
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV5scopeAC12CircuitScopeOSgvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV5stateAE5StateVvg
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventVMa
++ _$s13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventVMn
++ _$s13HomeKitEvents06EnergyB0O04SomedB5EventO010continuousD0yAeC010Continuousd4LoadF0VcAEmFWC
++ _$s13HomeKitEvents06EnergyB0O04SomedB5EventO21electricVehicleStatusyAeC08ElectrichiF0VcAEmFWC
++ _$s13HomeKitEvents06EnergyB0O10KilometersV8rawValueSivg
++ _$s13HomeKitEvents06EnergyB0O10KilometersVMa
++ _$s13HomeKitEvents06EnergyB0O10KilometersVMn
++ _$s13HomeKitEvents06EnergyB0O10KilometersVSgMR
++ _$s13HomeKitEvents06EnergyB0O10KilometersVSgMd
++ _$s13HomeKitEvents06EnergyB0O10KilometersVyAESicfC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO0dB7ServiceE8intValueAESgs5Int64V_tcfC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO0dB7ServiceE8intValueSivg
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO0dB7ServiceE8intValueSivpMV
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO0dB7ServiceEyAESgAB010ContinuousD9LoadEventV010MonitoringF0OcfC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO10subBreakeryA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO11mainBreakeryA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO12utilityMeteryA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO15subBreakerPanelyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO16mainBreakerPanelyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO9applianceyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeO9ngomMeteryA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeOMa
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeOMn
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeOSgMR
++ _$s13HomeKitEvents06EnergyB0O12CircuitScopeOSgMd
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO10userActionyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO11higherRatesyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO11powerSupplyyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO12chargerFaultyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO13batteryHealthyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO13loadBalancingyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO13targetReachedyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO14batteryThermalyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO14demandResponseyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO15capacityReachedyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO7unknownyAESicAEmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO9lessCleanyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonO9scheduledyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O25ElectricVehicleIdleReasonOMa
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV0G0O12chargingIdleyA2GmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV0G0O14chargingActiveyA2GmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV0G0O16chargerPluggedInyA2GmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV0G0O16chargerUnpluggedyA2GmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV0G0OMa
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV10deviceNameSSSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV11isCertifiedSbvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV14homeIdentifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageV8rawValueSivg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageVMa
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageVMn
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageVSgMR
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageVSgMd
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageVyAGSicfC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16deviceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16sourceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV4date10Foundation4DateVvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV4date14homeIdentifier04siteK006sourceK006deviceK00N4Name5scope9certified5stateAE10Foundation4DateV_AO4UUIDVASS3SSgAC12CircuitScopeOSgSbAE5StateVtcfC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV06targetI8OfChargeAE0L10PercentageVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV13stateOfChargeAE0L10PercentageVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV14estimatedRangeAC10KilometersVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV17sessionIdentifier10Foundation4UUIDVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV18scheduledStartTime10Foundation4DateVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV20targetCompletionTime10Foundation4DateVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV22estimatedRangeAtTargetAC10KilometersVSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV6energyAC04LoadH0V5ValueOSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV6reasonAE6ReasonOSgvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV6status6reason13stateOfCharge6energy14estimatedRange17sessionIdentifier06targetimN00T14CompletionTime014scheduledStartV00pQ8AtTargetAgE0G0O_AE6ReasonOSgAE0N10PercentageVSgAC04LoadH0V5ValueOSgAC10KilometersVSg10Foundation4UUIDVSgAYA6_4DateVSgA12_A5_tcfC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateV6statusAE0G0Ovg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5StateVMa
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV5stateAE5StateVvg
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonO11notChargingyAgC0ef4IdleI0OcAGmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonO8chargingyAgC0ef8ChargingI0OcAGmFWC
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonOMa
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonOMn
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonOSgMR
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonOSgMd
++ _$s13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventVMa
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO10lowerRatesyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO10userActionyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO11powerSupplyyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO12chargerFaultyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO13batteryHealthyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO13loadBalancingyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO14batteryThermalyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO14demandResponseyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO7cleaneryA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO7unknownyAESicAEmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonO9scheduledyA2EmFWC
++ _$s13HomeKitEvents06EnergyB0O29ElectricVehicleChargingReasonOMa
++ _$s13HomeKitEvents06EnergyB0O7CelsiusVMa
++ _$s13HomeKitEvents06EnergyB0O7CelsiusVMn
++ _$s13HomeKitEvents06EnergyB0O7CelsiusVSgMR
++ _$s13HomeKitEvents06EnergyB0O7CelsiusVSgMd
++ _$s13HomeKitEvents06EnergyB0O7CelsiusVyAESicfC
++ _$s13HomeKitEvents06EnergyB0O8LoadTypeOAESQAAWL
++ _$s13HomeKitEvents06EnergyB0O8LoadTypeOSQAAMc
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV0E5StateO8rawValueSSvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV10deviceNameSSSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV11isCertifiedSbvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV14homeIdentifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV14siteIdentifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV16deviceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV16sourceIdentifierSSvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsV14estimatedRange18batteryTemperatureAgC10KilometersVSg_AC7CelsiusVSgtcfC
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsV14estimatedRangeAC10KilometersVSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsVMa
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsVMn
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsVSgMR
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsVSgMd
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV4date10Foundation4DateVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV4date14homeIdentifier04siteI006sourceI006deviceI00L4Name5scope9certified5stateAE10Foundation4DateV_AO4UUIDVASS3SSgAC12CircuitScopeOSgSbAE5StateVtcfC
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV10productionAE5ValueOSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV11consumptionAE5ValueOSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV18performanceMetricsAE011PerformanceI0VSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV4type5state5level8guidance7session11consumption10production18performanceMetricsAgC0E4TypeO_AE0eG0OAC0E5LevelVAC16GuidanceBehaviorOAE7SessionVSgAE5ValueOSgA1_AE011PerformanceP0VSgtcfC
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV4typeAC0E4TypeOvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV5levelAC0E5LevelVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV5stateAE0eG0Ovg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV7sessionAE7SessionVSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV8guidanceAC16GuidanceBehaviorOvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5ValueOSgWOcTm
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5ValueOSgWOhTm
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5scopeAC12CircuitScopeOSgvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV5stateAE5StateVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV7SessionV10identifier10Foundation4UUIDVvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV7SessionV5StateO8rawValueSSvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventV7SessionV5stateAG5StateOvg
++ _$s13HomeKitEvents06EnergyB0O9LoadEventVMn
++ _$s13HomeKitEvents06EnergyB0O9LoadLevelV8rawValueSivg
++ _$s13HomeKitEvents10KilometersVMa
++ _$s13HomeKitEvents10KilometersVMn
++ _$s13HomeKitEvents10KilometersVSgMR
++ _$s13HomeKitEvents10KilometersVSgMd
++ _$s13HomeKitEvents10KilometersVyACSicfC
++ _$s13HomeKitEvents13EVChargeEventV13SessionStatusO3endyA2EmFWC
++ _$s13HomeKitEvents13EVChargeEventV13SessionStatusO5beginyA2EmFWC
++ _$s13HomeKitEvents13EVChargeEventV13SessionStatusO6activeyA2EmFWC
++ _$s13HomeKitEvents13EVChargeEventV13SessionStatusOMa
++ _$s13HomeKitEvents13EVChargeEventV4date14homeIdentifier06deviceH00I4Name06sourceH016chargePercentage6energy07sessionH00O6Status14estimatedRangeAC10Foundation4DateV_AN4UUIDVS3SAA06ChargeM0VAA06EnergyB0O14MilliwattHoursVArC07SessionP0OAA10KilometersVSgtcfC
++ _$s13HomeKitEvents13EVChargeEventVMa
++ _$s13HomeKitEvents16ChargePercentageV8rawValueACSgSi_tcfC
++ _$s13HomeKitEvents16ChargePercentageVMa
++ _$s13HomeKitEvents16ChargePercentageVMn
++ _$s13HomeKitEvents16ChargePercentageVSgMR
++ _$s13HomeKitEvents16ChargePercentageVSgMd
++ _$s13HomeKitEvents16ChargePercentageVyACSicfC
++ _$s13HomeKitEvents16EventWriterScopeOACSQAAWL
++ _$s13HomeKitEvents16EventWriterScopeOSQAAMc
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO10lowerRatesyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO10userActionyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO11powerSupplyyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO12chargerFaultyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO13batteryHealthyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO13loadBalancingyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO14batteryThermalyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO14demandResponseyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO7cleaneryA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO7unknownyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonO9scheduledyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV14ChargingReasonOMa
++ _$s13HomeKitEvents17EVConnectionEventV16ConnectionStatusO11notChargingyAeC03NotI6ReasonOcAEmFWC
++ _$s13HomeKitEvents17EVConnectionEventV16ConnectionStatusO8chargingyAeC14ChargingReasonOcAEmFWC
++ _$s13HomeKitEvents17EVConnectionEventV16ConnectionStatusO9pluggedInyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV16ConnectionStatusO9unpluggedyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV16ConnectionStatusOMa
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO10userActionyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO11higherRatesyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO11powerSupplyyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO12chargerFaultyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO13batteryHealthyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO13loadBalancingyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO13targetReachedyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO14batteryThermalyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO14demandResponseyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO15capacityReachedyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO7unknownyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO9lessCleanyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonO9scheduledyA2EmFWC
++ _$s13HomeKitEvents17EVConnectionEventV17NotChargingReasonOMa
++ _$s13HomeKitEvents17EVConnectionEventV4date14homeIdentifier06deviceH00I4Name06sourceH06status16chargePercentage6energy14estimatedRange012targetChargeN00R14CompletionTime014scheduledStartU00pQ8AtTarget07sessionH0AC10Foundation4DateV_AR4UUIDVS3SAC16ConnectionStatusOAA0sN0VSgAA06EnergyB0O14MilliwattHoursVSgAA10KilometersVSgA_ATSgA8_A7_AVSgtcfC
++ _$s13HomeKitEvents17EVConnectionEventVMa
++ _$s13HomeKitEvents24SomeElectricVehicleEventO10connectionyAcA012EVConnectionG0VcACmFWC
++ _$s13HomeKitEvents24SomeElectricVehicleEventO6chargeyAcA08EVChargeG0VcACmFWC
++ _$s13HomeKitEvents24SomeElectricVehicleEventOMa
++ _$s13HomeKitEvents9SomeEventO14encodeForOwnery10Foundation4DataVSayACGKFZ
++ _$s13HomeKitEvents9SomeEventO15electricVehicleyAcA0d8ElectricgE0OcACmFWC
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctF
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFTo
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFys5Error_pcfU0_TA
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TA
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TATQ0_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TATu
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TQ10_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TQ2_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TQ4_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TQ6_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TQ8_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY0_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY11_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY1_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY3_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY5_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY7_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_TY9_
++ _$s16EnergyKitService08CombinedC0C017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateI0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxO9ContainerCSgyyctFyyYacfU1_Tu
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctF
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TQ0_
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C11energyTrend11forDeviceID011applicationI005trendI07atVenue5replyySS_SS10Foundation4UUIDVALy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_n
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTQ5_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY1_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY4_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY6_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY7_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTY8_
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFTf4nnnnd_nTu
++ _$s16EnergyKitService08CombinedC0C11energyTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL11forDeviceID011applicationP005trendP07atVenue0aB009XPCEnergyF9ContainerCSgSS_SS10Foundation4UUIDVAPtYaFyyXEfU_Tm
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_n
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ10_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ13_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ15_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ18_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ21_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ5_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTQ7_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY11_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY12_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY14_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY16_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY17_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY19_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY1_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY20_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY22_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY4_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY6_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY8_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTY9_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID33_6070ECBE1E82CC707DAF5394E9AEB10ELL5venue6source16sandboxExtensionSS_Sit10Foundation4UUIDV_Si0aB0010XPCSandboxQ9ContainerCSgtYaKFTf4nnnd_nTu
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctF
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFTo
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TQ0_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_TY2_
++ _$s16EnergyKitService08CombinedC0C14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxK9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_n
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTQ1_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTY4_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTY5_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend33_E4B4EB9030636ACCBBD237A24CB8FCAELL6siteID06deviceP0011applicationP00aB009XPCEnergyG9ContainerCSg10Foundation4UUIDV_S2StYaFTf4nnnd_nTu
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctF
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TQ0_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C18mostProminentTrend6siteID06deviceI0011applicationI05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyG9ContainerCSg_s5Error_pSgtctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ12_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ14_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ28_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ30_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ32_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ34_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ37_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ8_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY10_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY24_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY25_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY26_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY27_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY29_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY31_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY33_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY35_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY36_
++ _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY38_
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctF
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TQ0_
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalfG9ContainerCSg_s5Error_pSgtctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TQ1_
++ _$s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TY2_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TA
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TATu
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TQ1_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TQ3_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TY0_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TY2_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_Tu
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_n
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ1_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ5_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ8_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY4_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY6_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY7_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY9_
++ _$s16EnergyKitService08CombinedC0C22gridIDFromHomeLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTu
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctF
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFTo
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TY0_
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_TY2_
++ _$s16EnergyKitService08CombinedC0C23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004DateN0VAW8TimeZoneVtFZ
++ _$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004DateN0VAW8TimeZoneVtFZTf4nnnd_n
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctF
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFTo
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFys5Error_pcfU0_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFys5Error_pcfU0_TA
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyXEfU_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TA
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TATQ0_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TATu
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ10_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ12_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ14_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ16_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ18_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ2_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ4_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ6_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TQ8_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY0_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY11_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY13_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY15_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY17_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY19_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY1_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY3_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY5_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY7_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_TY9_
++ _$s16EnergyKitService08CombinedC0C24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateJ0V_AI4UUIDVSo21NSXPCListenerEndpointCyyctFyyYacfU1_Tu
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TA
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TATu
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TQ1_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TQ3_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TY0_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_TY2_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFSSyYaKXEfU_Tu
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_n
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ1_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ5_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTQ8_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY4_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY6_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY7_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTY9_
++ _$s16EnergyKitService08CombinedC0C24gridIDFromUtilityAddress33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteID16sandboxExtensionSSSg10Foundation4UUIDV_0aB0010XPCSandboxR9ContainerCSgtYaKFTf4nnd_nTu
++ _$s16EnergyKitService08CombinedC0C25convertHistoricalGuidancey0aB00fA7WindowsVSgSay12HomeServices012HSHistoricalG0VGFZ
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctF
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFTo
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TA
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TATQ0_
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TATu
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TY0_
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TY1_
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_TY2_
++ _$s16EnergyKitService08CombinedC0C25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyYacfU_Tu
++ _$s16EnergyKitService08CombinedC0C26convertToRatePeriodWindows11parsedPeaks12dateIntervalSay0aB00gH6WindowVGSay10Foundation4DateV0L0_Si4ranktG_AK0pM0VtFZ
++ _$s16EnergyKitService08CombinedC0C26convertToRatePeriodWindows11parsedPeaks12dateIntervalSay0aB00gH6WindowVGSay10Foundation4DateV0L0_Si4ranktG_AK0pM0VtFZTf4nnd_n
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF04$s16ab9Service08d11C0C26ensurefg76Refreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15pQ21CtYaFfA0_SbAJYaYbcfU_Tf1ncnn_nTf4nnd_n
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF04$s16ab9Service08d11C0C26ensurefg76Refreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15pQ21CtYaFfA0_SbAJYaYbcfU_Tf1ncnn_nTf4nnd_nTQ2_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF04$s16ab9Service08d11C0C26ensurefg76Refreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15pQ21CtYaFfA0_SbAJYaYbcfU_Tf1ncnn_nTf4nnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF04$s16ab9Service08d11C0C26ensurefg76Refreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15pQ21CtYaFfA0_SbAJYaYbcfU_Tf1ncnn_nTf4nnd_nTY1_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaF04$s16ab9Service08d11C0C26ensurefg76Refreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15pQ21CtYaFfA0_SbAJYaYbcfU_Tf1ncnn_nTf4nnd_nTu
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFTQ2_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFTY0_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFTY1_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFTu
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA0_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA0_SbAJYaYbcfU_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA0_SbAJYaYbcfU_TQ1_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA0_SbAJYaYbcfU_TY0_
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA0_SbAJYaYbcfU_Tu
++ _$s16EnergyKitService08CombinedC0C26ensurePendingDataRefreshed6siteID13refreshAction8debounceSb10Foundation4UUIDV_SbAJYaYbcAA0F15RefreshDebounceCtYaFfA1_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_n
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTQ3_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTQ5_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTY0_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTY1_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTY2_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTY4_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTY6_
++ _$s16EnergyKitService08CombinedC0C26fetchElectricalLoadDevices33_E345613BE81119FC98C594E7928ECA1BLL3for0aB0013XPCElectricalgH9ContainerCSg10Foundation4UUIDV_tYaFTf4nd_nTu
++ _$s16EnergyKitService08CombinedC0C27certifiedCapabilityEntitled10ignoreMockS2b_tYaF
++ _$s16EnergyKitService08CombinedC0C27certifiedCapabilityEntitled10ignoreMockS2b_tYaFTY0_
++ _$s16EnergyKitService08CombinedC0C27certifiedCapabilityEntitled10ignoreMockS2b_tYaFTY1_
++ _$s16EnergyKitService08CombinedC0C27certifiedCapabilityEntitled10ignoreMockS2b_tYaFTu
++ _$s16EnergyKitService08CombinedC0C27certifiedCapabilityEntitled10ignoreMockS2b_tYaFfA_
++ _$s16EnergyKitService08CombinedC0C30readAndStitchRatePeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011TOUPopulateU0V_0Y004DateW0VtYaFZTf4nnd_n
++ _$s16EnergyKitService08CombinedC0C30readAndStitchRatePeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011TOUPopulateU0V_0Y004DateW0VtYaFZTf4nnd_nTQ1_
++ _$s16EnergyKitService08CombinedC0C30readAndStitchRatePeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011TOUPopulateU0V_0Y004DateW0VtYaFZTf4nnd_nTY0_
++ _$s16EnergyKitService08CombinedC0C30readAndStitchRatePeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011TOUPopulateU0V_0Y004DateW0VtYaFZTf4nnd_nTY2_
++ _$s16EnergyKitService08CombinedC0C30readAndStitchRatePeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011TOUPopulateU0V_0Y004DateW0VtYaFZTf4nnd_nTu
++ _$s16EnergyKitService08CombinedC0C32gridIDFromInferredDeviceLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteIDSSSg10Foundation4UUIDV_tYaFTf4nd_n
++ _$s16EnergyKitService08CombinedC0C32gridIDFromInferredDeviceLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteIDSSSg10Foundation4UUIDV_tYaFTf4nd_nTQ1_
++ _$s16EnergyKitService08CombinedC0C32gridIDFromInferredDeviceLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteIDSSSg10Foundation4UUIDV_tYaFTf4nd_nTY0_
++ _$s16EnergyKitService08CombinedC0C32gridIDFromInferredDeviceLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteIDSSSg10Foundation4UUIDV_tYaFTf4nd_nTY2_
++ _$s16EnergyKitService08CombinedC0C32gridIDFromInferredDeviceLocation33_6070ECBE1E82CC707DAF5394E9AEB10ELL6siteIDSSSg10Foundation4UUIDV_tYaFTf4nd_nTu
++ _$s16EnergyKitService08CombinedC8DelegateC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyyYacfU2_TQ5_
++ _$s16EnergyKitService08CombinedC8DelegateC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyyYacfU2_TY6_
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaF
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFTQ1_
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFTY0_
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFTY2_
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFTq
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFTu
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFyyYbXEfU_
++ _$s16EnergyKitService0A10TrendQueryC013mostProminentD06siteID06deviceI0011applicationI07context0aB00aD0VSg10Foundation4UUIDV_S2SSgSo22NSManagedObjectContextCSgtYaFyyYbXEfU_TA
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKF
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFTQ0_
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFTY1_
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFTq
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFTu
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFyyYbXEfU_
++ _$s16EnergyKitService0A10TrendQueryC06energyD011forDeviceID011applicationI005trendI07atVenue0aB00aD0VSS_SS10Foundation4UUIDVANtYaKFyyYbXEfU_TA
++ _$s16EnergyKitService0A10TrendQueryC14privateContext33_E230A0669FA0817B9EB6A8FDFED4BE68LLSo015NSManagedObjectG0CSgvpWvd
++ _$s16EnergyKitService0A10TrendQueryC14privateContext33_E230A0669FA0817B9EB6A8FDFED4BE68LLSo015NSManagedObjectG0CSgvpfi
++ _$s16EnergyKitService0A10TrendQueryC15unownedExecutorScevg
++ _$s16EnergyKitService0A10TrendQueryC15unownedExecutorScevpMV
++ _$s16EnergyKitService0A10TrendQueryC6sharedACvau
++ _$s16EnergyKitService0A10TrendQueryC6sharedACvgZ
++ _$s16EnergyKitService0A10TrendQueryC6sharedACvpZ
++ _$s16EnergyKitService0A10TrendQueryC6sharedACvpZMV
++ _$s16EnergyKitService0A10TrendQueryC6shared_WZ
++ _$s16EnergyKitService0A10TrendQueryC6shared_Wz
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvg
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvgTY0_
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvgTY1_
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvgTY2_
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvgTq
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvgTu
++ _$s16EnergyKitService0A10TrendQueryC7contextSo22NSManagedObjectContextCvpMV
++ _$s16EnergyKitService0A10TrendQueryCACycfC
++ _$s16EnergyKitService0A10TrendQueryCACycfCTq
++ _$s16EnergyKitService0A10TrendQueryCACycfc
++ _$s16EnergyKitService0A10TrendQueryCMF
++ _$s16EnergyKitService0A10TrendQueryCMa
++ _$s16EnergyKitService0A10TrendQueryCMf
++ _$s16EnergyKitService0A10TrendQueryCMm
++ _$s16EnergyKitService0A10TrendQueryCMn
++ _$s16EnergyKitService0A10TrendQueryCN
++ _$s16EnergyKitService0A10TrendQueryCScAAAMc
++ _$s16EnergyKitService0A10TrendQueryCScAAAMcMK
++ _$s16EnergyKitService0A10TrendQueryCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService0A10TrendQueryCfD
++ _$s16EnergyKitService0A10TrendQueryCfd
++ _$s16EnergyKitService0C7SandboxC8_confstr33_50B0EC3EC474E478C6CF19F1F880294CLLySSSgs5Int32VFZTf4nd_n
++ _$s16EnergyKitService0aB15AppTrackerQueryC16addGridIDToTrack6gridID04siteL0ySS_10Foundation4UUIDVtYaFyyYbXEfU_SbSS3key_Sd5valuet_tXEfU_TA
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVADSQAAWL
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVADSQAAWl
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVMF
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVMXX
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVMa
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVMf
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVMn
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVN
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAAMc
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAAMcMK
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAASH9hashValueSivgTW
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAASQWb
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSQAAMc
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSQAAMcMK
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSQAASQ2eeoiySbx_xtFZTW
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVWV
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVwet
++ _$s16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVwst
++ _$s16EnergyKitService12TOUPeakQueryC15unownedExecutorScevg
++ _$s16EnergyKitService12TOUPeakQueryC15unownedExecutorScevpMV
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateInterval7contextSayAA0dE6ResultVGSS_SS10Foundation04DateM0VSo22NSManagedObjectContextCtFZ
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateInterval7contextSayAA0dE6ResultVGSS_SS10Foundation04DateM0VSo22NSManagedObjectContextCtFZAKyXEfU_AKyYbXEfU_
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateInterval7contextSayAA0dE6ResultVGSS_SS10Foundation04DateM0VSo22NSManagedObjectContextCtFZAKyXEfU_AKyYbXEfU_TA
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateInterval7contextSayAA0dE6ResultVGSS_SS10Foundation04DateM0VSo22NSManagedObjectContextCtFZAKyXEfU_AKyYbXEfU_TATm
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZ
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTQ0_
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTf4nnnd_n
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTf4nnnd_nTY0_
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTf4nnnd_nTY1_
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTf4nnnd_nTY2_
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTf4nnnd_nTu
++ _$s16EnergyKitService12TOUPeakQueryC8touPeaks15tariffProfileID07utilityJ012dateIntervalSayAA0dE6ResultVGSS_SS10Foundation04DateM0VtYaFZTu
++ _$s16EnergyKitService12TOUPeakQueryCACycfC
++ _$s16EnergyKitService12TOUPeakQueryCACycfCTq
++ _$s16EnergyKitService12TOUPeakQueryCACycfc
++ _$s16EnergyKitService12TOUPeakQueryCMF
++ _$s16EnergyKitService12TOUPeakQueryCMa
++ _$s16EnergyKitService12TOUPeakQueryCMf
++ _$s16EnergyKitService12TOUPeakQueryCMm
++ _$s16EnergyKitService12TOUPeakQueryCMn
++ _$s16EnergyKitService12TOUPeakQueryCN
++ _$s16EnergyKitService12TOUPeakQueryCScAAAMc
++ _$s16EnergyKitService12TOUPeakQueryCScAAAMcMK
++ _$s16EnergyKitService12TOUPeakQueryCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService12TOUPeakQueryCfD
++ _$s16EnergyKitService12TOUPeakQueryCfd
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKF
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFSSSgyYbcfU_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFSSSgyYbcfU_TA
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFSay19HomeUtilityServices0T10PeakPeriodVGSgyYbKcfU0_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFSay19HomeUtilityServices0T10PeakPeriodVGSgyYbKcfU0_TA
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTQ11_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTQ1_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTQ7_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY0_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY10_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY12_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY13_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY14_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY15_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY16_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY17_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY2_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY3_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY4_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY5_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY6_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY8_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTY9_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTq
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFTu
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TA
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TATQ0_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TATu
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TQ1_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TY0_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TY2_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TY3_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TY4_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_TY5_
++ _$s16EnergyKitService14DeviceInsightsC015generatePendingdE05query6siteID06deviceJ003appJ0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYacfU1_Tu
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ1_
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ4_
++ _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY5_
++ _$s16EnergyKitService14EKSHomeManagerC04homeE0_6didAddySo06HMHomeE0C_So0I0CtFTf4ndd_n
++ _$s16EnergyKitService14EKSHomeManagerC04homeE0_9didRemoveySo06HMHomeE0C_So0I0CtFTf4ndd_n
++ _$s16EnergyKitService14EKSHomeManagerC04homeE14DidUpdateHomesyySo06HMHomeE0CFTf4nd_n
++ _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFTf4dd_n
++ _$s16EnergyKitService14EKSHomeManagerC4home_9didUpdateySo6HMHomeC_So10CLLocationCSgtFTf4ddd_n
++ _$s16EnergyKitService14EKSHomeManagerC7options11cachePolicy6bundleACSo06HMHomeE7OptionsV_So0je5CacheH0VSo8NSBundleCtcfcTf4nngn_n
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKF
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTQ1_
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTY0_
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTY2_
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTY3_
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC11processHVAC5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL016ElectricHVACLoadE0V_10Foundation4UUIDVA2TSSSbtYaKFTu
++ _$s16EnergyKitService16LoadEventManagerC15processEVStatus5event6siteID04homeK016sourceIdentifier9certified04HomeB6Events0aB0O021ElectricVehicleStatusE0VAkMV_10Foundation4UUIDVARSSSbtYaKF
++ _$s16EnergyKitService16LoadEventManagerC15processEVStatus5event6siteID04homeK016sourceIdentifier9certified04HomeB6Events0aB0O021ElectricVehicleStatusE0VAkMV_10Foundation4UUIDVARSSSbtYaKFTY0_
++ _$s16EnergyKitService16LoadEventManagerC15processEVStatus5event6siteID04homeK016sourceIdentifier9certified04HomeB6Events0aB0O021ElectricVehicleStatusE0VAkMV_10Foundation4UUIDVARSSSbtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC15processEVStatus5event6siteID04homeK016sourceIdentifier9certified04HomeB6Events0aB0O021ElectricVehicleStatusE0VAkMV_10Foundation4UUIDVARSSSbtYaKFTu
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaF
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TQ0_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TQ3_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TY1_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TY2_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TY4_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_TY5_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOSo6HMHomeCtSgyYaKXEfU_Tu
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ12_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ15_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ17_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ19_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ21_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ23_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ5_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ7_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTQ9_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY0_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY10_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY11_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY13_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY14_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY16_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY18_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY1_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY20_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY22_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY24_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY25_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY26_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY27_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY28_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY29_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY2_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY30_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY3_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY4_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY6_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTY8_
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTq
++ _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB08XPCEventOG_10Foundation4UUIDVtYaFTu
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKF
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKFTQ0_
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKFTY1_
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKFTY2_
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC17processContinuous5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0hadE0VAlNV_10Foundation4UUIDVA2SSSSbtYaKFTu
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKF
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTQ1_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTQ4_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTQ6_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY0_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY2_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY3_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY5_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY7_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTY8_
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC20gridIDFromVenueToken7venueID04siteL0SSSg10Foundation4UUIDV_AJtYaKFTu
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKF
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTQ1_
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTY0_
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTY2_
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTY3_
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5token6siteID05venueM0SSSg10Foundation4UUIDV_A2KtYaKFTu
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaF
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaFTY0_
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaFTY1_
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaFTY2_
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaFTq
++ _$s16EnergyKitService16LoadEventManagerC27directWriteEventsToRawStoreyyShy04HomebI004SomeE0OGYaFTu
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKF
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTQ1_
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTY0_
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTY2_
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTY3_
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTq
++ _$s16EnergyKitService16LoadEventManagerC9processEV5event6siteID05venueK004homeK016sourceIdentifier9certified04HomeB6Events0aB0O0dE0VAL015ElectricVehicledE0V_10Foundation4UUIDVA2TSSSbtYaKFTu
++ _$s16EnergyKitService17RawLoadEventQueryC15unownedExecutorScevg
++ _$s16EnergyKitService17RawLoadEventQueryC15unownedExecutorScevpMV
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZ
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTQ0_
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTf4nd_n
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTf4nd_nTY0_
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTf4nd_nTY1_
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTf4nd_nTY2_
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTf4nd_nTu
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID04siteL0SSSg10Foundation4UUIDV_tYaFZTu
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID33_CEA0188787A28307593C35949E185B65LL04siteL07contextSSSg10Foundation4UUIDV_So22NSManagedObjectContextCtFZAHyXEfU_AHyYbXEfU_
++ _$s16EnergyKitService17RawLoadEventQueryC19getMostCommonGridID33_CEA0188787A28307593C35949E185B65LL04siteL07contextSSSg10Foundation4UUIDV_So22NSManagedObjectContextCtFZAHyXEfU_AHyYbXEfU_TA
++ _$s16EnergyKitService17RawLoadEventQueryCACycfC
++ _$s16EnergyKitService17RawLoadEventQueryCACycfCTq
++ _$s16EnergyKitService17RawLoadEventQueryCACycfc
++ _$s16EnergyKitService17RawLoadEventQueryCMF
++ _$s16EnergyKitService17RawLoadEventQueryCMa
++ _$s16EnergyKitService17RawLoadEventQueryCMf
++ _$s16EnergyKitService17RawLoadEventQueryCMm
++ _$s16EnergyKitService17RawLoadEventQueryCMn
++ _$s16EnergyKitService17RawLoadEventQueryCN
++ _$s16EnergyKitService17RawLoadEventQueryCScAAAMc
++ _$s16EnergyKitService17RawLoadEventQueryCScAAAMcMK
++ _$s16EnergyKitService17RawLoadEventQueryCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService17RawLoadEventQueryCfD
++ _$s16EnergyKitService17RawLoadEventQueryCfd
++ _$s16EnergyKitService18RawLoadEventInsertC011kContinuousF9SessionID33_6BF2A7D4BA6E5D6272D69202BFE72643LL10Foundation4UUIDVvpZ
++ _$s16EnergyKitService18RawLoadEventInsertC011kContinuousF9SessionID33_6BF2A7D4BA6E5D6272D69202BFE72643LL_WZ
++ _$s16EnergyKitService18RawLoadEventInsertC011kContinuousF9SessionID33_6BF2A7D4BA6E5D6272D69202BFE72643LL_Wz
++ _$s16EnergyKitService18RawLoadEventInsertC06insertE6Events_7contextySay04HomebI00aB0O0eF0VG_So22NSManagedObjectContextCtFZ
++ _$s16EnergyKitService18RawLoadEventInsertC06insertE6Events_7contextySay04HomebI00aB0O0eF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_
++ _$s16EnergyKitService18RawLoadEventInsertC06insertE6Events_7contextySay04HomebI00aB0O0eF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_TA
++ _$s16EnergyKitService18RawLoadEventInsertC06insertE6Events_7contextySay04HomebI00aB0O0eF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_yyXEfU_
++ _$s16EnergyKitService18RawLoadEventInsertC15unownedExecutorScevg
++ _$s16EnergyKitService18RawLoadEventInsertC15unownedExecutorScevpMV
++ _$s16EnergyKitService18RawLoadEventInsertC22insertContinuousEvents_7contextySay04HomebJ00aB0O0iaeF0VG_So22NSManagedObjectContextCtFZ
++ _$s16EnergyKitService18RawLoadEventInsertC22insertContinuousEvents_7contextySay04HomebJ00aB0O0iaeF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_
++ _$s16EnergyKitService18RawLoadEventInsertC22insertContinuousEvents_7contextySay04HomebJ00aB0O0iaeF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_TA
++ _$s16EnergyKitService18RawLoadEventInsertC22insertContinuousEvents_7contextySay04HomebJ00aB0O0iaeF0VG_So22NSManagedObjectContextCtFZyyYbXEfU_yyXEfU_
++ _$s16EnergyKitService18RawLoadEventInsertCACycfC
++ _$s16EnergyKitService18RawLoadEventInsertCACycfCTq
++ _$s16EnergyKitService18RawLoadEventInsertCACycfc
++ _$s16EnergyKitService18RawLoadEventInsertCMF
++ _$s16EnergyKitService18RawLoadEventInsertCMa
++ _$s16EnergyKitService18RawLoadEventInsertCMf
++ _$s16EnergyKitService18RawLoadEventInsertCMm
++ _$s16EnergyKitService18RawLoadEventInsertCMn
++ _$s16EnergyKitService18RawLoadEventInsertCN
++ _$s16EnergyKitService18RawLoadEventInsertCScAAAMc
++ _$s16EnergyKitService18RawLoadEventInsertCScAAAMcMK
++ _$s16EnergyKitService18RawLoadEventInsertCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService18RawLoadEventInsertCfD
++ _$s16EnergyKitService18RawLoadEventInsertCfd
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateT0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxZ9ContainerCSgyyctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateT0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxZ9ContainerCSgyyctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC017batchedHistoricalA7Windows12dateInterval6gridID8endpoint18ekSandboxExtension10completiony10Foundation04DateT0V_SSSo21NSXPCListenerEndpointC0aB0010XPCSandboxZ9ContainerCSgyyctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyTrend11forDeviceID011applicationT005trendT07atVenue5replyySS_SS10Foundation4UUIDVAMy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyTrend11forDeviceID011applicationT005trendT07atVenue5replyySS_SS10Foundation4UUIDVAMy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyTrend11forDeviceID011applicationT005trendT07atVenue5replyySS_SS10Foundation4UUIDVAMy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23vqw27CSgSo7NSErrorCSgIeyByy_ADs5X12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23wqx27CSgSo7NSErrorCSgIeyByy_ADs5Y12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC12energyVenues5replyyy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtc_tF03$s9a5Kit24sqt13CSgSo7NSErrorx11IeyByy_ADs5U12_pSgIeggg_TRAJSo0Z0CSgIeyByy_Tf1cn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14getMockOptionsSiyYaFyyYacfU_ToTQ0_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14getMockOptionsSiyYaFyyYacfU_ToTY1_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctF77$sSo8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_SSSgAFs5Error_pSgIegggg_TRSo8NSStringCSgATSo7NSErrorCSgIeyByyy_Tf1nnncn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14inferredGridID5venue6source16sandboxExtension5replyy10Foundation4UUIDV_Si0aB0010XPCSandboxV9ContainerCSgySSSg_So8NSNumberCSgs5Error_pSgtctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14setMockOptions7optionsySi_tYaFyyYacfU_ToTQ0_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14setMockOptions7optionsySi_tYaFyyYacfU_ToTY1_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18mostProminentTrend6siteID06deviceT0011applicationT05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyR9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18mostProminentTrend6siteID06deviceT0011applicationT05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyR9ContainerCSg_s5Error_pSgtctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18mostProminentTrend6siteID06deviceT0011applicationT05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyR9ContainerCSg_s5Error_pSgtctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18mostProminentTrend6siteID06deviceT0011applicationT05replyy10Foundation4UUIDV_S2Sy0aB009XPCEnergyR9ContainerCSg_s5Error_pSgtctFyyXEfU_TATm
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_n
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTQ1_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTQ3_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTY0_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTY2_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTY4_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTu
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalqR9ContainerCSg_s5Error_pSgtctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalqR9ContainerCSg_s5Error_pSgtctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC21electricalLoadDevices3for5replyy10Foundation4UUIDV_y0aB0013XPCElectricalqR9ContainerCSg_s5Error_pSgtctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC23registerPendingInterest6siteID15refreshInterval5replyy10Foundation4UUIDV_SdyyctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateU0V_AJ4UUIDVSo21NSXPCListenerEndpointCyyctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateU0V_AJ4UUIDVSo21NSXPCListenerEndpointCyyctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC24batchedRatePeriodWindows12dateInterval7venueID8endpoint10completiony10Foundation04DateU0V_AJ4UUIDVSo21NSXPCListenerEndpointCyyctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFTo
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyXEfU_
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC25unregisterPendingInterest6siteID5replyy10Foundation4UUIDV_yyctFyyXEfU_TA
++ _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxT9ContainerCSgySSSg_s5Error_pSgtctF042$sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Z12_pSgIeggg_TRSo8NSStringCSgSo7NSErrorCSgIeyByy_Tf1nncn_n
++ _$s16EnergyKitService18TOUPeakQueryResultV10descriptorSSvg
++ _$s16EnergyKitService18TOUPeakQueryResultV10descriptorSSvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultV11decodePeaks33_06FF9F889BA95C4B9FC0A6F4905E889ALL4fromSay19HomeUtilityServices0T10PeakPeriodVG10Foundation4DataV_tFZAJyKXEfU_
++ _$s16EnergyKitService18TOUPeakQueryResultV11decodePeaks33_06FF9F889BA95C4B9FC0A6F4905E889ALL4fromSay19HomeUtilityServices0T10PeakPeriodVG10Foundation4DataV_tFZTf4nd_n
++ _$s16EnergyKitService18TOUPeakQueryResultV15tariffProfileID07utilityI05start3end5peaks10descriptorACSS_SS10Foundation4DateVALSay19HomeUtilityServices0R10PeakPeriodVGSStcfC
++ _$s16EnergyKitService18TOUPeakQueryResultV15tariffProfileIDSSvg
++ _$s16EnergyKitService18TOUPeakQueryResultV15tariffProfileIDSSvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultV3end10Foundation4DateVvg
++ _$s16EnergyKitService18TOUPeakQueryResultV3end10Foundation4DateVvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultV5entryAC0aB10Foundation8TOUPeaksC_tcfC
++ _$s16EnergyKitService18TOUPeakQueryResultV5peaksSay19HomeUtilityServices0I10PeakPeriodVGvg
++ _$s16EnergyKitService18TOUPeakQueryResultV5peaksSay19HomeUtilityServices0I10PeakPeriodVGvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultV5start10Foundation4DateVvg
++ _$s16EnergyKitService18TOUPeakQueryResultV5start10Foundation4DateVvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultV9utilityIDSSvg
++ _$s16EnergyKitService18TOUPeakQueryResultV9utilityIDSSvpMV
++ _$s16EnergyKitService18TOUPeakQueryResultVMF
++ _$s16EnergyKitService18TOUPeakQueryResultVMa
++ _$s16EnergyKitService18TOUPeakQueryResultVMf
++ _$s16EnergyKitService18TOUPeakQueryResultVMl
++ _$s16EnergyKitService18TOUPeakQueryResultVMn
++ _$s16EnergyKitService18TOUPeakQueryResultVMr
++ _$s16EnergyKitService18TOUPeakQueryResultVN
++ _$s16EnergyKitService18TOUPeakQueryResultVWOb
++ _$s16EnergyKitService18TOUPeakQueryResultVWV
++ _$s16EnergyKitService18TOUPeakQueryResultVwet
++ _$s16EnergyKitService18TOUPeakQueryResultVwst
++ _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTQ1_
++ _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTQ3_
++ _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTY2_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZ
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZAIyYbXEfU_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZAIyYbXEfU_TA
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTQ0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTf4nd_n
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTf4nd_nTY0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTf4nd_nTY1_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTf4nd_nTY2_
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTf4nd_nTu
++ _$s16EnergyKitService21LoadEventsQueryEngineC010electricalD7Devices3forSay0aB0010ElectricalD6DeviceVG10Foundation4UUIDV_tYaFZTu
++ _$s16EnergyKitService21LoadEventsQueryEngineC15getSiteTimezone33_BB877CBED572784499F8A072683C0723LL3for10Foundation8TimeZoneVAG4UUIDV_tYaFZ
++ _$s16EnergyKitService21LoadEventsQueryEngineC15getSiteTimezone33_BB877CBED572784499F8A072683C0723LL3for10Foundation8TimeZoneVAG4UUIDV_tYaFZTQ1_
++ _$s16EnergyKitService21LoadEventsQueryEngineC15getSiteTimezone33_BB877CBED572784499F8A072683C0723LL3for10Foundation8TimeZoneVAG4UUIDV_tYaFZTY0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC15getSiteTimezone33_BB877CBED572784499F8A072683C0723LL3for10Foundation8TimeZoneVAG4UUIDV_tYaFZTY2_
++ _$s16EnergyKitService21LoadEventsQueryEngineC15getSiteTimezone33_BB877CBED572784499F8A072683C0723LL3for10Foundation8TimeZoneVAG4UUIDV_tYaFZTu
++ _$s16EnergyKitService21LoadEventsQueryEngineC32unsafeFetchCertifiedDailyObjects12fetchRequest10rackOfPegs05batchF013flowDirectionySo07NSFetchN0Cy0aB10Foundation0dK6DigestCG_SayAK20InsightRecordPayloadVGz0aB00xfN0CSitKF
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTQ0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTQ0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_n
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTQ1_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTY0_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTY2_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTY3_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTY4_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTY5_
++ _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTf4nnnggn_nTu
++ _$s16EnergyKitService22ApplicationIdentifiersC27certifiedCapabilityEntitled33_013C6DAB81559F29BE19E73999FB6344LLSbvpWvd
++ _$s16EnergyKitService22ApplicationIdentifiersC27certifiedCapabilityEntitled33_013C6DAB81559F29BE19E73999FB6344LLSbvpfi
++ _$s16EnergyKitService22ApplicationIdentifiersC29isCertifiedCapabilityEntitled10ignoreMockS2b_tF
++ _$s16EnergyKitService22ApplicationIdentifiersC29isCertifiedCapabilityEntitled10ignoreMockS2b_tFTq
++ _$s16EnergyKitService22ApplicationIdentifiersC29isCertifiedCapabilityEntitled10ignoreMockS2b_tFfA_
++ _$s16EnergyKitService22ApplicationIdentifiersC30setCertifiedCapabilityEntitledyyF
++ _$s16EnergyKitService22ApplicationIdentifiersC30setCertifiedCapabilityEntitledyyFTq
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC14privateContext33_25D8F478870BDD1AA6E22B312E053FBALLSo015NSManagedObjectH0CSgvpWvd
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC14privateContext33_25D8F478870BDD1AA6E22B312E053FBALLSo015NSManagedObjectH0CSgvpfi
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC15unownedExecutorScevg
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC15unownedExecutorScevpMV
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6sharedACvau
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6sharedACvgZ
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6sharedACvpZ
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6sharedACvpZMV
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6shared_WZ
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC6shared_Wz
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextACSo22NSManagedObjectContextC_tcfC
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextACSo22NSManagedObjectContextC_tcfCTq
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextACSo22NSManagedObjectContextC_tcfc
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvg
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvgTY0_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvgTY1_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvgTY2_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvgTq
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvgTu
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC7contextSo22NSManagedObjectContextCvpMV
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaF
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFAFyYbXEfU_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFAFyYbXEfU_TA
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFTQ0_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFTY1_
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFTq
++ _$s16EnergyKitService22GuidanceIDTrackerQueryC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFTu
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCMF
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCMa
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCMf
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCMm
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCMn
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCN
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCScAAAMc
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCScAAAMcMK
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCfD
++ _$s16EnergyKitService22GuidanceIDTrackerQueryCfd
++ _$s16EnergyKitService22PendingRefreshDebounceC04lastE4Time33_38FD4A3BE2140AF9AC740410412B9A68LLSDy10Foundation4UUIDVAF4DateVGvpWvd
++ _$s16EnergyKitService22PendingRefreshDebounceC04lastE4Time33_38FD4A3BE2140AF9AC740410412B9A68LLSDy10Foundation4UUIDVAF4DateVGvpfi
++ _$s16EnergyKitService22PendingRefreshDebounceC14checkAndRecord6siteIDSb10Foundation4UUIDV_tF
++ _$s16EnergyKitService22PendingRefreshDebounceC14checkAndRecord6siteIDSb10Foundation4UUIDV_tFTq
++ _$s16EnergyKitService22PendingRefreshDebounceC15unownedExecutorScevg
++ _$s16EnergyKitService22PendingRefreshDebounceC15unownedExecutorScevpMV
++ _$s16EnergyKitService22PendingRefreshDebounceC5resetyyF
++ _$s16EnergyKitService22PendingRefreshDebounceC5resetyyFTq
++ _$s16EnergyKitService22PendingRefreshDebounceC6sharedACvau
++ _$s16EnergyKitService22PendingRefreshDebounceC6sharedACvgZ
++ _$s16EnergyKitService22PendingRefreshDebounceC6sharedACvpZ
++ _$s16EnergyKitService22PendingRefreshDebounceC6sharedACvpZMV
++ _$s16EnergyKitService22PendingRefreshDebounceC6shared_WZ
++ _$s16EnergyKitService22PendingRefreshDebounceC6shared_Wz
++ _$s16EnergyKitService22PendingRefreshDebounceC8cooldown33_38FD4A3BE2140AF9AC740410412B9A68LLSdvpWvd
++ _$s16EnergyKitService22PendingRefreshDebounceC8cooldownACSd_tcfC
++ _$s16EnergyKitService22PendingRefreshDebounceC8cooldownACSd_tcfCTq
++ _$s16EnergyKitService22PendingRefreshDebounceC8cooldownACSd_tcfc
++ _$s16EnergyKitService22PendingRefreshDebounceC8cooldownACSd_tcfcfA_
++ _$s16EnergyKitService22PendingRefreshDebounceCMF
++ _$s16EnergyKitService22PendingRefreshDebounceCMa
++ _$s16EnergyKitService22PendingRefreshDebounceCMf
++ _$s16EnergyKitService22PendingRefreshDebounceCMm
++ _$s16EnergyKitService22PendingRefreshDebounceCMn
++ _$s16EnergyKitService22PendingRefreshDebounceCN
++ _$s16EnergyKitService22PendingRefreshDebounceCScAAAMc
++ _$s16EnergyKitService22PendingRefreshDebounceCScAAAMcMK
++ _$s16EnergyKitService22PendingRefreshDebounceCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService22PendingRefreshDebounceCfD
++ _$s16EnergyKitService22PendingRefreshDebounceCfd
++ _$s16EnergyKitService25PendingInsightQueryEngineC11gmtCalendar10Foundation0I0Vvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC11gmtCalendar10Foundation0I0VvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC11gmtCalendar10Foundation0I0VvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC11granularity0aB0011ElectricityeF0V11GranularityOvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC11granularity0aB0011ElectricityeF0V11GranularityOvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC11granularity0aB0011ElectricityeF0V11GranularityOvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC13flowDirectionSivg
++ _$s16EnergyKitService25PendingInsightQueryEngineC13flowDirectionSivpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC13flowDirectionSivpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV5start10Foundation4DateVvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV5start10Foundation4DateVvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV5start6energy7runtimeAE10Foundation4DateV_s5Int64VSdtcfC
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV6energys5Int64Vvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV6energys5Int64VvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV7runtimeSdvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV7runtimeSdvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMF
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMa
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMaTm
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMf
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMl
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMn
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVMr
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVN
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVWObTm
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVWV
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVwet
++ _$s16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVwst
++ _$s16EnergyKitService25PendingInsightQueryEngineC15unownedExecutorScevg
++ _$s16EnergyKitService25PendingInsightQueryEngineC15unownedExecutorScevpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC16regroupAndStream031_1D593D4A5A8F49B9A9366D0687F776M0LLyySayAC14HalfHourBucketVGYaF
++ _$s16EnergyKitService25PendingInsightQueryEngineC16regroupAndStream031_1D593D4A5A8F49B9A9366D0687F776M0LLyySayAC14HalfHourBucketVGYaFTY0_
++ _$s16EnergyKitService25PendingInsightQueryEngineC16regroupAndStream031_1D593D4A5A8F49B9A9366D0687F776M0LLyySayAC14HalfHourBucketVGYaFTY1_
++ _$s16EnergyKitService25PendingInsightQueryEngineC16regroupAndStream031_1D593D4A5A8F49B9A9366D0687F776M0LLyySayAC14HalfHourBucketVGYaFTY2_
++ _$s16EnergyKitService25PendingInsightQueryEngineC16regroupAndStream031_1D593D4A5A8F49B9A9366D0687F776M0LLyySayAC14HalfHourBucketVGYaFTu
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKF
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTQ1_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTQ3_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTQ5_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTQ7_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY0_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY10_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY2_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY4_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY6_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY8_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTY9_
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTq
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processLoadEventsyyYaKFTu
++ _$s16EnergyKitService25PendingInsightQueryEngineC17processOneSession031_1D593D4A5A8F49B9A9366D0687F776M0LL11accumulator9isRuntime13flowDirectionSayAC14HalfHourBucketVGAC0J11AccumulatorAELLV_SbSitFZTf4nnnd_n
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMF
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMXX
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMa
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMf
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMl
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMn
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVMr
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVSgMR
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVSgMd
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWOb
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWOc
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWOcTm
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWOd
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWOhTm
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVWV
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVwet
++ _$s16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLVwst
++ _$s16EnergyKitService25PendingInsightQueryEngineC20aggregateTariffStats031_1D593D4A5A8F49B9A9366D0687F776M0LL8existing4fromy0aB10Foundation0E13RecordPayloadV0i4PeakJ0Vz_ALtFZTf4nnd_n
++ _$s16EnergyKitService25PendingInsightQueryEngineC22collectHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776N0LL4from4intoy0aB10Foundation27StreamingDirectionProcessorV_SayAC0iJ6BucketVGztFZTf4nnd_n
++ _$s16EnergyKitService25PendingInsightQueryEngineC24tariffStatsFromBreakdown031_1D593D4A5A8F49B9A9366D0687F776N0LLy0aB10Foundation0E13RecordPayloadV010TariffPeakI0VAF0xaK0VFZ
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaF
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFTQ1_
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFTY0_
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFTY2_
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFTu
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFyyYbcfU_
++ _$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFyyYbcfU_TA
++ _$s16EnergyKitService25PendingInsightQueryEngineC32tariffStatsFromDurationBreakdown031_1D593D4A5A8F49B9A9366D0687F776O0LLy0aB10Foundation0E13RecordPayloadV010TariffPeakI0VAF0ykL0VFZ
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaF
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTQ1_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTQ3_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTY0_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTY2_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTY4_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFTu
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFyyYbcfU0_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFyyYbcfU0_TA
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFyyYbcfU_
++ _$s16EnergyKitService25PendingInsightQueryEngineC33generateContinuousHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LLSayAC0jK6BucketVGyYaFyyYbcfU_TA
++ _$s16EnergyKitService25PendingInsightQueryEngineC5appIDSSvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC5appIDSSvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC5appIDSSvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC5peaksSay19HomeUtilityServices0J10PeakPeriodVGvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC5peaksSay19HomeUtilityServices0J10PeakPeriodVGvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC5peaksSay19HomeUtilityServices0J10PeakPeriodVGvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC5query0aB00eF7RequestCvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC5query0aB00eF7RequestCvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC5query0aB00eF7RequestCvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID03appI006deviceI05query6stream7context8timezone5peaksAC10Foundation4UUIDV_S2S0aB00eF7RequestCAA08CoreDataE6StreamCSo22NSManagedObjectContextCAL8TimeZoneVSay19HomeUtilityServices17UtilityPeakPeriodVGtcfC
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID03appI006deviceI05query6stream7context8timezone5peaksAC10Foundation4UUIDV_S2S0aB00eF7RequestCAA08CoreDataE6StreamCSo22NSManagedObjectContextCAL8TimeZoneVSay19HomeUtilityServices17UtilityPeakPeriodVGtcfCTq
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID03appI006deviceI05query6stream7context8timezone5peaksAC10Foundation4UUIDV_S2S0aB00eF7RequestCAA08CoreDataE6StreamCSo22NSManagedObjectContextCAL8TimeZoneVSay19HomeUtilityServices17UtilityPeakPeriodVGtcfc
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID10Foundation4UUIDVvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID10Foundation4UUIDVvgTm
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID10Foundation4UUIDVvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC6siteID10Foundation4UUIDVvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC6streamAA08CoreDataE6StreamCvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC6streamAA08CoreDataE6StreamCvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC6streamAA08CoreDataE6StreamCvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC7contextSo22NSManagedObjectContextCvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC7contextSo22NSManagedObjectContextCvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC7contextSo22NSManagedObjectContextCvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC7options0aB0011ElectricityeF0V7OptionsVvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC7options0aB0011ElectricityeF0V7OptionsVvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC7options0aB0011ElectricityeF0V7OptionsVvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC8calendar10Foundation8CalendarVvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC8calendar10Foundation8CalendarVvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC8calendar10Foundation8CalendarVvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC8deviceIDSSvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC8deviceIDSSvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC8deviceIDSSvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineC8timezone10Foundation8TimeZoneVvg
++ _$s16EnergyKitService25PendingInsightQueryEngineC8timezone10Foundation8TimeZoneVvpMV
++ _$s16EnergyKitService25PendingInsightQueryEngineC8timezone10Foundation8TimeZoneVvpWvd
++ _$s16EnergyKitService25PendingInsightQueryEngineCMF
++ _$s16EnergyKitService25PendingInsightQueryEngineCMU
++ _$s16EnergyKitService25PendingInsightQueryEngineCMa
++ _$s16EnergyKitService25PendingInsightQueryEngineCMf
++ _$s16EnergyKitService25PendingInsightQueryEngineCMl
++ _$s16EnergyKitService25PendingInsightQueryEngineCMm
++ _$s16EnergyKitService25PendingInsightQueryEngineCMn
++ _$s16EnergyKitService25PendingInsightQueryEngineCMr
++ _$s16EnergyKitService25PendingInsightQueryEngineCN
++ _$s16EnergyKitService25PendingInsightQueryEngineCScAAAMc
++ _$s16EnergyKitService25PendingInsightQueryEngineCScAAAMcMK
++ _$s16EnergyKitService25PendingInsightQueryEngineCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService25PendingInsightQueryEngineCfD
++ _$s16EnergyKitService25PendingInsightQueryEngineCfd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC10unregister6siteIDy10Foundation4UUIDV_tF
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC10unregister6siteIDy10Foundation4UUIDV_tFTq
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC12nextFireDate33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation0J0VSgvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC12nextFireDate33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation0J0VSgvpfi
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13currentSiteID33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation4UUIDVSgvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13currentSiteID33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation4UUIDVSgvpfi
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13currentSiteID33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation4UUIDVSgvpfiTm
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshAction33_D5F8032292BA46AD0FF7C2B38A5E3642LLySb10Foundation4UUIDVYaYbcvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfC
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfCTq
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfc
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_SbAGYaYbcfU_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_SbAGYaYbcfU_TQ1_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_SbAGYaYbcfU_TY0_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_SbAGYaYbcfU_TY2_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC13refreshActionACSb10Foundation4UUIDVYaYbc_tcfcfA_SbAGYaYbcfU_Tu
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC15unownedExecutorScevg
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC15unownedExecutorScevpMV
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC16postNotification33_D5F8032292BA46AD0FF7C2B38A5E3642LL6siteIDy10Foundation4UUIDV_tF
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC16registrationDate33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation0I0VSgvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC16registrationDate33_D5F8032292BA46AD0FF7C2B38A5E3642LL10Foundation0I0VSgvpfi
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC18notificationCenter33_D5F8032292BA46AD0FF7C2B38A5E3642LLSo025NSDistributedNotificationI0CvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC18notificationCenter33_D5F8032292BA46AD0FF7C2B38A5E3642LLSo025NSDistributedNotificationI0Cvpfi
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tF
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TA
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TATQ0_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TATu
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TQ1_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TQ3_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TY0_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TY2_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TY4_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_TY5_
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC5start33_D5F8032292BA46AD0FF7C2B38A5E3642LL15refreshIntervalySd_tFyyYacfU_Tu
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6sharedACvau
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6sharedACvgZ
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6sharedACvpZ
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6sharedACvpZMV
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6shared_WZ
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC6shared_Wz
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC8register6siteID15refreshIntervaly10Foundation4UUIDV_SdtF
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC8register6siteID15refreshIntervaly10Foundation4UUIDV_SdtFTq
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC9timerTask33_D5F8032292BA46AD0FF7C2B38A5E3642LLScTyyts5NeverOGSgvpWvd
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerC9timerTask33_D5F8032292BA46AD0FF7C2B38A5E3642LLScTyyts5NeverOGSgvpfi
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCACScAAAWL
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMF
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMU
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMa
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMf
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMl
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMm
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMn
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCMr
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCN
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCScAAAMc
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCScAAAMcMK
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCScAAAScA15unownedExecutorScevgTW
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCfD
++ _$s16EnergyKitService33PendingInsightSubscriptionManagerCfd
++ _$s17EnergyKitInternal04HomeA7ManagerC18refreshPendingData6siteIDSb10Foundation4UUIDV_tYaFTjTu
++ _$s17EnergyKitInternal04HomeA7ManagerC20addVenueTokenToTrack5token6gridID04siteM0y10Foundation4UUIDV_SSAJtYaKFTjTu
++ _$s17EnergyKitInternal04HomeA7ManagerC23ensureTOUPeaksPopulated6siteID12dateInterval0aB10Foundation17TOUPopulateResultVSgSS_0M004DateL0VtYaFTjTu
++ _$s17EnergyKitInternal04MockaB7OptionsV31mockDirectWriteEventsToRawStoreACvgZ
++ _$s17EnergyKitInternal04MockaB7OptionsV42mockCertifiedCapabilityEntitlementDisabledACvgZ
++ _$s19EnergyKitFoundation06TariffA9BreakdownV11partialPeaks5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownV12criticalPeaks5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownV12superOffPeaks5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownV6onPeaks5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownV7offPeaks5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownV7unknowns5Int64VSgvg
++ _$s19EnergyKitFoundation06TariffA9BreakdownVMa
++ _$s19EnergyKitFoundation0A10TrendCacheC12fetchRequestSo07NSFetchG0CyACGyFZ
++ _$s19EnergyKitFoundation0A10TrendCacheCMa
++ _$s19EnergyKitFoundation0A9DirectionO10productionyA2CmFWC
++ _$s19EnergyKitFoundation0A9DirectionO11consumptionyA2CmFWC
++ _$s19EnergyKitFoundation0A9DirectionOMa
++ _$s19EnergyKitFoundation0A9DirectionOMn
++ _$s19EnergyKitFoundation0aB12FeatureCheckO9isEnabledySbAA0aB8FeaturesOFZ
++ _$s19EnergyKitFoundation0aB8FeaturesO21deviceInsightsSPI2026yA2CmFWC
++ _$s19EnergyKitFoundation0aB8FeaturesO21ephemeralInsights2026yA2CmFWC
++ _$s19EnergyKitFoundation0aB8FeaturesO27parallelInsightSessions2026yA2CmFWC
++ _$s19EnergyKitFoundation0aB9ConstantsV32pendingDataRefreshedNotificationSSvgZ
++ _$s19EnergyKitFoundation12RawLoadEventC12fetchRequestSo07NSFetchH0CyACGyFZ
++ _$s19EnergyKitFoundation12RawLoadEventCMa
++ _$s19EnergyKitFoundation12TOUPeakValueMp
++ _$s19EnergyKitFoundation12TOUPeakValueP4rankSivgTq
++ _$s19EnergyKitFoundation12TOUPeakValueP5startSSvgTq
++ _$s19EnergyKitFoundation14CDRawLoadEventV010productionA14MilliwattHourss5Int64Vvg
++ _$s19EnergyKitFoundation14CDRawLoadEventV011consumptionA14MilliwattHourss5Int64Vvg
++ _$s19EnergyKitFoundation14CDRawLoadEventV12sessionStateSSvg
++ _$s19EnergyKitFoundation14CDRawLoadEventV5entryAcA03RaweF0C_tcfC
++ _$s19EnergyKitFoundation14CDRawLoadEventV9sessionID0C04UUIDVvg
++ _$s19EnergyKitFoundation14CDRawLoadEventV9timestamp0C04DateVvg
++ _$s19EnergyKitFoundation14CDRawLoadEventVMa
++ _$s19EnergyKitFoundation14CDRawLoadEventVMn
++ _$s19EnergyKitFoundation14CDRawLoadEventVSgMR
++ _$s19EnergyKitFoundation14CDRawLoadEventVSgMd
++ _$s19EnergyKitFoundation14CDRawLoadEventV_ACtMR
++ _$s19EnergyKitFoundation14CDRawLoadEventV_ACtMd
++ _$s19EnergyKitFoundation15EKDateUtilitiesV12isoFormatNoZ2in0C04DateV07ISO8601G5StyleVAF8TimeZoneV_tFZ
++ _$s19EnergyKitFoundation15LoadDailyDigestC0aB7ServiceE16hourlyProduction33_BB877CBED572784499F8A072683C0723LLSay04HomeB6Events0aB0O0deF5EventV5ValueVGSgvg
++ _$s19EnergyKitFoundation15LoadDailyDigestC0aB7ServiceE17hourlyConsumption33_BB877CBED572784499F8A072683C0723LLSay04HomeB6Events0aB0O0deF5EventV5ValueVGSgvg
++ _$s19EnergyKitFoundation15LoadDailyDigestC0aB7ServiceE20continuousProduction33_BB877CBED572784499F8A072683C0723LL04HomeB6Events0aB0O010ContinuousaeF5EventV5ValueVSgvg
++ _$s19EnergyKitFoundation15LoadDailyDigestC0aB7ServiceE21continuousConsumption33_BB877CBED572784499F8A072683C0723LL04HomeB6Events0aB0O010ContinuousaeF5EventV5ValueVSgvg
++ _$s19EnergyKitFoundation15LoadDeviceCacheC12fetchRequestSo07NSFetchH0CyACGyFZ
++ _$s19EnergyKitFoundation15LoadDeviceCacheCMa
++ _$s19EnergyKitFoundation17AttributionEngineV015attributeTariffA06energy5peaks9timeRange8timezoneAA0gA9BreakdownVs5Int64V_SayxGSny0C04DateVGAN8TimeZoneVtAA12TOUPeakValueRzlFZ
++ _$s19EnergyKitFoundation17AttributionEngineV23attributeTariffDuration8duration5peaks9timeRange8timezoneAA0gH9BreakdownVSd_SayxGSny0C04DateVGAL8TimeZoneVtAA12TOUPeakValueRzlFZ
++ _$s19EnergyKitFoundation17GuidanceIDTrackerC12fetchRequestSo07NSFetchG0CyACGyFZ
++ _$s19EnergyKitFoundation17GuidanceIDTrackerCMa
++ _$s19EnergyKitFoundation17PropertyListCoderV7decoder0C00dE7DecoderCvgZ
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV04rateG0_Say0aB7Service012TOUPeakQueryE0VG7resultstMR
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV04rateG0_Say0aB7Service012TOUPeakQueryE0VG7resultstMd
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV15tariffProfileIDSSvg
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV7endDate0C00I0VSgvg
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV9startDate0C00I0Vvg
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanV9utilityIDSSvg
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanVMa
++ _$s19EnergyKitFoundation17TOUPopulateResultV8RatePlanVMn
++ _$s19EnergyKitFoundation17TOUPopulateResultV8timezone0C08TimeZoneVvg
++ _$s19EnergyKitFoundation17TOUPopulateResultV9ratePlansSayAC8RatePlanVGvg
++ _$s19EnergyKitFoundation17TOUPopulateResultVMa
++ _$s19EnergyKitFoundation17TOUPopulateResultVMn
++ _$s19EnergyKitFoundation17TOUPopulateResultVSgMR
++ _$s19EnergyKitFoundation17TOUPopulateResultVSgMd
++ _$s19EnergyKitFoundation17UsagePointPayloadV13TariffProfileVAE21InternalSwiftProtobuf7MessageAAWlTm
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV11partialPeakSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV12criticalPeakSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV12superOffPeakSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV6onPeakSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV7offPeakSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownV7unknownSdSgvg
++ _$s19EnergyKitFoundation23TariffDurationBreakdownVMa
++ _$s19EnergyKitFoundation23TrendProminencePriorityO8priority7subType06deviceI0SiSSSg_s5Int32VtFZ
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV10rawBucketsSays5Int64V6energy_AA14CDRawLoadEventVSg04lastM0Sb10isBaselinetGvg
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV12processBatchyySayAA14CDRawLoadEventVGF
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV13lastSeenEventAA09CDRawLoadI0VSgvg
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV17getLastCumulatives5Int64VyF
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV21closeRemainingBucketsyyF
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV8dayStart0C04DateVvg
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorV9direction8dayStart18previousCumulative24skipFirstEventAsBaselineAcA0aE0O_0C04DateVs5Int64VSbtcfC
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorVMa
++ _$s19EnergyKitFoundation27StreamingDirectionProcessorVMn
++ _$s19EnergyKitFoundation8TOUPeaksC12fetchRequestSo07NSFetchF0CyACGyFZ
++ _$s19EnergyKitFoundation8TOUPeaksCMa
++ _$s19HomeUtilityServices0B10PeakPeriodV19EnergyKitFoundation12TOUPeakValue0fG7ServiceAdEP4rankSivgTW
++ _$s19HomeUtilityServices0B10PeakPeriodV19EnergyKitFoundation12TOUPeakValue0fG7ServiceAdEP5startSSvgTW
++ _$s19HomeUtilityServices0B10PeakPeriodV19EnergyKitFoundation12TOUPeakValue0fG7ServiceMc
++ _$s19HomeUtilityServices0B10PeakPeriodV19EnergyKitFoundation12TOUPeakValue0fG7ServiceMcMK
++ _$s19HomeUtilityServices0B10PeakPeriodV4rankSivg
++ _$s19HomeUtilityServices0B10PeakPeriodV5startSSvg
++ _$s19HomeUtilityServices0B10PeakPeriodVAC19EnergyKitFoundation12TOUPeakValue0fG7ServiceWL
++ _$s19HomeUtilityServices0B10PeakPeriodVACSeAAWL
++ _$s19HomeUtilityServices0B10PeakPeriodVACSeAAWl
++ _$s19HomeUtilityServices0B10PeakPeriodVMa
++ _$s19HomeUtilityServices0B10PeakPeriodVMn
++ _$s19HomeUtilityServices0B10PeakPeriodVSeAAMc
++ _$s19HomeUtilityServices0B10PeakPeriodVSgMR
++ _$s19HomeUtilityServices0B10PeakPeriodVSgMd
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Su_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s5Int32V_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s6UInt32V_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation12DateIntervalV_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation4DateV_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation4UUIDV_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation4UUIDV_Tg5Tm
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_SbtcfcfA0_
++ _$s9EnergyKit010ContinuousA9LoadEventV10deviceNameSSvg
++ _$s9EnergyKit010ContinuousA9LoadEventV11measurementAC21ElectricalMeasurementVvg
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO10subBreakeryA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO11mainBreakeryA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO12utilityMeteryA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO15subBreakerPanelyA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO16mainBreakerPanelyA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO8intValueSivg
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO9applianceyA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeO9ngomMeteryA2EmFWC
++ _$s9EnergyKit010ContinuousA9LoadEventV15MonitoringScopeOMa
++ _$s9EnergyKit010ContinuousA9LoadEventV15monitoringScopeAC010MonitoringG0Ovg
++ _$s9EnergyKit010ContinuousA9LoadEventV21ElectricalMeasurementV5power10Foundation0G0VySo11NSUnitPowerCGvg
++ _$s9EnergyKit010ContinuousA9LoadEventV21ElectricalMeasurementV6energy10Foundation0G0VySo06NSUnitA0CGvg
++ _$s9EnergyKit010ContinuousA9LoadEventV21ElectricalMeasurementV9directionAA24ElectricityFlowDirectionOvg
++ _$s9EnergyKit010ContinuousA9LoadEventV21ElectricalMeasurementVMa
++ _$s9EnergyKit010ContinuousA9LoadEventV8deviceIDSSvg
++ _$s9EnergyKit010ContinuousA9LoadEventV9timestamp10Foundation4DateVvg
++ _$s9EnergyKit010ContinuousA9LoadEventVMa
++ _$s9EnergyKit010HistoricalA12WindowRatingO4bestyA2CmFWC
++ _$s9EnergyKit010HistoricalA12WindowRatingO5worstyA2CmFWC
++ _$s9EnergyKit010HistoricalA12WindowRatingO6reduceyA2CmFWC
++ _$s9EnergyKit010HistoricalA12WindowRatingOACSQAAWL
++ _$s9EnergyKit010HistoricalA12WindowRatingOMa
++ _$s9EnergyKit010HistoricalA12WindowRatingOMn
++ _$s9EnergyKit010HistoricalA12WindowRatingOSQAAMc
++ _$s9EnergyKit010HistoricalA12WindowRatingOSgMR
++ _$s9EnergyKit010HistoricalA12WindowRatingOSgMd
++ _$s9EnergyKit010HistoricalA12WindowRatingOSgWOc
++ _$s9EnergyKit010HistoricalA12WindowRatingOSg_ADtMR
++ _$s9EnergyKit010HistoricalA12WindowRatingOSg_ADtMd
++ _$s9EnergyKit010HistoricalA6WindowV9startDate03endF06ratingAC10Foundation0F0V_AiA0caD6RatingOtcfC
++ _$s9EnergyKit010HistoricalA6WindowVMa
++ _$s9EnergyKit010HistoricalA6WindowVMn
++ _$s9EnergyKit010HistoricalA7WindowsV7windows13validIntervalACSayAA0cA6WindowVG_10Foundation04DateG0VtcfC
++ _$s9EnergyKit010HistoricalA7WindowsV7windowsSayAA0cA6WindowVGvg
++ _$s9EnergyKit010HistoricalA7WindowsVMa
++ _$s9EnergyKit010HistoricalA7WindowsVMn
++ _$s9EnergyKit010HistoricalA7WindowsVSgMR
++ _$s9EnergyKit010HistoricalA7WindowsVSgMd
++ _$s9EnergyKit013XPCHistoricalA16WindowsContainerC5valueAcA010HistoricalaD0V_tcfc
++ _$s9EnergyKit013XPCHistoricalA16WindowsContainerCMa
++ _$s9EnergyKit0A5TrendV7summary7details4type12intervalType11generatedAt10identifier13currentPeriod010comparisonM007expiresJ012learnMoreURLACSS_SSAA0acH0OAA23ElectricityInsightQueryV11GranularityO10Foundation4DateVAT4UUIDVAT0X8IntervalVAzVSgAT0R0VSgtcfC
++ _$s9EnergyKit0A5TrendVMa
++ _$s9EnergyKit0A5TrendVMn
++ _$s9EnergyKit0A5TrendVSgMR
++ _$s9EnergyKit0A5TrendVSgMd
++ _$s9EnergyKit0A5TrendVSgWOd
++ _$s9EnergyKit0A5TrendVSgWOhTm
++ _$s9EnergyKit0A9TrendTypeO8intValueACs5Int32V_tcfC
++ _$s9EnergyKit0A9TrendTypeOMa
++ _$s9EnergyKit0aB14LocationSourceO014inferredDeviceC0yA2CmFWC
++ _$s9EnergyKit0aB14LocationSourceO04homeC0yA2CmFWC
++ _$s9EnergyKit0aB14LocationSourceO14utilityAddressyA2CmFWC
++ _$s9EnergyKit0aB14LocationSourceO3allyA2CmFWC
++ _$s9EnergyKit0aB14LocationSourceO8rawValueACSgSi_tcfC
++ _$s9EnergyKit0aB14LocationSourceO8rawValueSivg
++ _$s9EnergyKit0aB14LocationSourceOMa
++ _$s9EnergyKit0aB14LocationSourceOMn
++ _$s9EnergyKit0aB14LocationSourceOSgMR
++ _$s9EnergyKit0aB14LocationSourceOSgMd
++ _$s9EnergyKit16RatePeriodRatingO11unsupportedyA2CmFWC
++ _$s9EnergyKit16RatePeriodRatingO8rawValueACSgSi_tcfC
++ _$s9EnergyKit16RatePeriodRatingOMa
++ _$s9EnergyKit16RatePeriodRatingOMn
++ _$s9EnergyKit16RatePeriodRatingOSgMR
++ _$s9EnergyKit16RatePeriodRatingOSgMd
++ _$s9EnergyKit16RatePeriodWindowV8interval4peakAC10Foundation12DateIntervalV_AA0cD6RatingOtcfC
++ _$s9EnergyKit16RatePeriodWindowVMa
++ _$s9EnergyKit16RatePeriodWindowVMn
++ _$s9EnergyKit17RatePeriodWindowsV7windows8intervalACSayAA0cD6WindowVG_10Foundation12DateIntervalVtcfC
++ _$s9EnergyKit17RatePeriodWindowsVMa
++ _$s9EnergyKit19InsightQueryRequestC10deviceTypeSSSgvg
++ _$s9EnergyKit19InsightQueryRequestC5range7options4type11granularity13flowDirection7venueID06deviceM00N4Type03appM09certified7pendingAC10Foundation12DateIntervalV_S4uAO4UUIDVSSSgATSSS2btcfc
++ _$s9EnergyKit19InsightQueryRequestC7pendingSbvg
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeO5otheryA2EmFWC
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeO8rawValueAESgSS_tcfC
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeOMa
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeOMn
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeOSgMR
++ _$s9EnergyKit20ElectricalLoadDeviceV0E4TypeOSgMd
++ _$s9EnergyKit20ElectricalLoadDeviceV2id5appID4type4nameACSS_SSAC0E4TypeOSStcfC
++ _$s9EnergyKit20ElectricalLoadDeviceVMa
++ _$s9EnergyKit20ElectricalLoadDeviceVMn
++ _$s9EnergyKit21ElectricHVACLoadEventV10deviceNameSSvg
++ _$s9EnergyKit21ElectricHVACLoadEventV11measurementAC21ElectricalMeasurementVvg
++ _$s9EnergyKit21ElectricHVACLoadEventV21ElectricalMeasurementV5stageSivg
++ _$s9EnergyKit21ElectricHVACLoadEventV21ElectricalMeasurementVMa
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV13GuidanceStateV012wasFollowingG0Sbvg
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV13GuidanceStateV13guidanceToken10Foundation4UUIDVvg
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV13GuidanceStateVMa
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV13guidanceStateAE08GuidanceH0Vvg
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV2id10Foundation4UUIDVvg
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV5StateO3endyA2GmFWC
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV5StateO5beginyA2GmFWC
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV5StateO6activeyA2GmFWC
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV5StateOMa
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionV5stateAE5StateOvg
++ _$s9EnergyKit21ElectricHVACLoadEventV7SessionVMa
++ _$s9EnergyKit21ElectricHVACLoadEventV7sessionAC7SessionVvg
++ _$s9EnergyKit21ElectricHVACLoadEventV8deviceIDSSvg
++ _$s9EnergyKit21ElectricHVACLoadEventV9timestamp10Foundation4DateVvg
++ _$s9EnergyKit21ElectricHVACLoadEventVMa
++ _$s9EnergyKit23ElectricityInsightQueryV11GranularityO13trendIntervalAEs5Int32V_tcfC
++ _$s9EnergyKit23ElectricityInsightQueryV11GranularityO2eeoiySbAE_AEtFZ
++ _$s9EnergyKit23XPCEnergyTrendContainerC5valueAcA0aD0V_tcfc
++ _$s9EnergyKit23XPCEnergyTrendContainerCMa
++ _$s9EnergyKit23XPCEnergyTrendContainerCMn
++ _$s9EnergyKit23XPCEnergyTrendContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TR
++ _$s9EnergyKit23XPCEnergyTrendContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA
++ _$s9EnergyKit23XPCEnergyTrendContainerCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TR
++ _$s9EnergyKit24ElectricVehicleLoadEventV10deviceNameSSvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV11measurementAC21ElectricalMeasurementVvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV13stateOfChargeSivg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsV14estimatedRange10Foundation0H0VySo12NSUnitLengthCGSgvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsV18batteryTemperature10Foundation0H0VySo06NSUnitL0CGSgvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsVMa
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsVMn
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsVSgMR
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsVSgMd
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18performanceMetricsAE011PerformanceJ0VSgvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV5power10Foundation0H0VySo11NSUnitPowerCGvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV6energy10Foundation0H0VySo06NSUnitA0CGvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV9directionAA24ElectricityFlowDirectionOvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementVMa
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV13GuidanceStateV012wasFollowingH0Sbvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV13GuidanceStateV13guidanceToken10Foundation4UUIDVvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV13GuidanceStateVMa
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV13guidanceStateAE08GuidanceI0Vvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV2id10Foundation4UUIDVvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV5StateO3endyA2GmFWC
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV5StateO5beginyA2GmFWC
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV5StateO6activeyA2GmFWC
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV5StateOMa
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionV5stateAE5StateOvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV7SessionVMa
++ _$s9EnergyKit24ElectricVehicleLoadEventV7sessionAC7SessionVvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV8deviceIDSSvg
++ _$s9EnergyKit24ElectricVehicleLoadEventV9timestamp10Foundation4DateVvg
++ _$s9EnergyKit24ElectricVehicleLoadEventVMa
++ _$s9EnergyKit26ElectricVehicleStatusEventV0E0O12chargingIdleyAeA0cD14ChargingReasonO0hJ0OcAEmFWC
++ _$s9EnergyKit26ElectricVehicleStatusEventV0E0O14chargingActiveyAeA0cD14ChargingReasonO0hJ0OcAEmFWC
++ _$s9EnergyKit26ElectricVehicleStatusEventV0E0O16chargerPluggedInyA2EmFWC
++ _$s9EnergyKit26ElectricVehicleStatusEventV0E0O16chargerUnpluggedyA2EmFWC
++ _$s9EnergyKit26ElectricVehicleStatusEventV0E0OMa
++ _$s9EnergyKit26ElectricVehicleStatusEventV10deviceNameSSvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV13stateOfChargeSivg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetV016estimatedRangeAtH010Foundation11MeasurementVySo12NSUnitLengthCGSgvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetV13stateOfChargeSivg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetV18scheduledStartTime10Foundation4DateVvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetV23estimatedCompletionTime10Foundation4DateVvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetVMa
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetVMn
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetVSgMR
++ _$s9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetVSgMd
++ _$s9EnergyKit26ElectricVehicleStatusEventV14chargingTargetAC08ChargingH0VSgvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV14estimatedRange10Foundation11MeasurementVySo12NSUnitLengthCGSgvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV17sessionIdentifier10Foundation4UUIDVSgvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV6energy10Foundation11MeasurementVySo06NSUnitA0CGvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV6statusAC0E0Ovg
++ _$s9EnergyKit26ElectricVehicleStatusEventV8deviceIDSSvg
++ _$s9EnergyKit26ElectricVehicleStatusEventV9timestamp10Foundation4DateVvg
++ _$s9EnergyKit26ElectricVehicleStatusEventVMa
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O017waitingForCleanerA0yA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O0aB7ServiceE02toabF004HomeB6EventsAAO0cdgF0OyF
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O10userPausedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O11batteryFullyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O11userStoppedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O12chargerFaultyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O12scheduledEndyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O13loadBalancingyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O14scheduledPauseyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O17insufficientPoweryA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O20demandResponseActiveyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O20targetAlreadyReachedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O23batteryHealthManagementyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O24batteryThermalManagementyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O26targetStateOfChargeReachedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0O31waitingForLowerElectricityRatesyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO04IdleF0OMa
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O07cleanerA9AvailableyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O0aB7ServiceE02toabF004HomeB6EventsAAOABOyF
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O11userResumedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O13userInitiatedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O14scheduledStartyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O15scheduledResumeyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O19chargerFaultClearedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O19demandResponseEndedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O22loadBalancingCompletedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O23sufficientPowerRestoredyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O30lowerElectricityRatesAvailableyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O32batteryHealthManagementCompletedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0O33batteryThermalManagementCompletedyA2EmFWC
++ _$s9EnergyKit29ElectricVehicleChargingReasonO06ActiveF0OMa
++ _$s9EnergyKit29XPCRatePeriodWindowsContainerC5valueAcA04RatedE0V_tcfc
++ _$s9EnergyKit29XPCRatePeriodWindowsContainerCMa
++ _$s9EnergyKit31XPCElectricalLoadEventContainerC5valueSayAA8XPCEventOGvg
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerC5valueACSayAA010ElectricalD6DeviceVG_tcfc
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerCMa
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerCMn
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TR
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA
++ _$s9EnergyKit33XPCElectricalLoadDevicesContainerCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TR
++ _$s9EnergyKit8XPCEventO15electricVehicleyAcA08ElectricE9LoadEventVcACmFWC
++ _$s9EnergyKit8XPCEventO20continuousMonitoringyAcA010ContinuousA9LoadEventVcACmFWC
++ _$s9EnergyKit8XPCEventO21electricVehicleStatusyAcA08ElectriceF5EventVcACmFWC
++ _$s9EnergyKit8XPCEventO4hvacyAcA21ElectricHVACLoadEventVcACmFWC
++ _$s9EnergyKit8XPCEventOMa
++ _$sBbWV
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_19EnergyKitFoundation14CDRawLoadEventVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTt0g5Tf4g_n
++ _$sSD8IteratorV8_VariantOy10Foundation4UUIDV16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLV__GWOe
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF10Foundation4UUIDV_AF4DateVTg5
++ _$sSDMa
++ _$sSDySi19EnergyKitFoundation14CDRawLoadEventVGML
++ _$sSDySi19EnergyKitFoundation14CDRawLoadEventVGMa
++ _$sSDyq_Sgxcis10Foundation4UUIDV_AB4DateVTg5
++ _$sSDyq_SgxcisSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry10Foundation4DateV4date_Si4ranktG_Tg50215$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004J58N0VAW8TimeZoneVtFZSbAW0X0V0M0_Si4rankt_A1_A2__SiA3_ttXEfU_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry10Foundation4UUIDV_AJ4DateVtG_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4K16Vt_AM_AOttXEfU1_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVG_Tg504$s16ij9Service25lmno32C17processLoadEventsyyYaKFSbAC14pqR10V_AFtXEfU_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776T0LLVG_Tg504$s16ij9Service25lmno11C30generatep20HalfHourBuckets031_1rstuvwxyz63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11Q15AELLV_ALtXEfU2_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry19EnergyKitFoundation17TOUPopulateResultV8RatePlanVG_Tg504$s16ij35Service08CombinedC0C30readAndStitchn117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011l28U0V_0Y004DateW0VtYaFZSbAN0H4O10V_AStXEfU_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg5
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy10Foundation4UUIDV_AG4DateVtG_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4H16Vt_AM_AOttXEfU1_Tf1cn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776Q0LLVG_Tg504$s16fg9Service25ijkl11C30generatem20HalfHourBuckets031_1opqrstuvw63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11N15AELLV_ALtXEfU2_Tf1cn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy19EnergyKitFoundation17TOUPopulateResultV8RatePlanVG_Tg504$s16fg35Service08CombinedC0C30readAndStitchk117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011i28U0V_0Y004DateW0VtYaFZSbAN0H4L10V_AStXEfU_Tf1cn_n
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS3key_yp5valuetMR
++ _$sSS3key_yp5valuetMd
++ _$sSSSgSo8NSNumberCSgs5Error_pSgIegggg_So8NSStringCSgADSo7NSErrorCSgIeyByyy_TR
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD4KeysVySi19EnergyKitFoundation14CDRawLoadEventV_G_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD6ValuesVy10Foundation4UUIDV16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776U0LLV_G_Tg5
++ _$sSTsSL7ElementRpzrlE3maxABSgyFSay10Foundation4DateVG_Tg5
++ _$sSTsSL7ElementRpzrlE3minABSgyFSay10Foundation4DateVG_Tg5
++ _$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_SD4KeysVySi19EnergyKitFoundation14CDRawLoadEventV_G_Tt1G5
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF19EnergyKitFoundation20InsightRecordPayloadV_s15EmptyCollectionVyAHGTg5Tf4ndn_n
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_SayAIGTg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF9EnergyKit16RatePeriodWindowV_SayAGGTg5
++ _$sSa6remove2atxSi_tFSnySiG_Tgq5
++ _$sSaMa
++ _$sSay13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVGMR
++ _$sSay13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVGMd
++ _$sSay13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVGSayxGSesSeRzlWL
++ _$sSay13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVGSayxGSesSeRzlWl
++ _$sSay16EnergyKitService18TOUPeakQueryResultVGMR
++ _$sSay16EnergyKitService18TOUPeakQueryResultVGMd
++ _$sSay19HomeUtilityServices0B10PeakPeriodVGML
++ _$sSay19HomeUtilityServices0B10PeakPeriodVGMa
++ _$sSay19HomeUtilityServices0B10PeakPeriodVGSgMR
++ _$sSay19HomeUtilityServices0B10PeakPeriodVGSgMd
++ _$sSay9EnergyKit20ElectricalLoadDeviceVGMR
++ _$sSay9EnergyKit20ElectricalLoadDeviceVGMd
++ _$sSayxGSesSeRzlMc
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sScT6cancelyyF
++ _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
++ _$sSds7CVarArgsWP
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSd_Tg5
++ _$sSi6offset_10Foundation4DateV4date_Si4rankt7elementtMR
++ _$sSi6offset_10Foundation4DateV4date_Si4rankt7elementtMd
++ _$sSi6offset_10Foundation4DateV4date_Si4rankt7elementtWObTm
++ _$sSi6offset_12HomeServices15HSGuidanceValueV7elementtMR
++ _$sSi6offset_12HomeServices15HSGuidanceValueV7elementtMd
++ _$sSi6offset_12HomeServices15HSGuidanceValueV7elementtWObTm
++ _$sSi6offset_12HomeServices15HSGuidanceValueV7elementtWOhTm
++ _$sSi6offset_13HomeKitEvents06EnergyC0O20LoadDailyDigestEventV5ValueV7elementtMR
++ _$sSi6offset_13HomeKitEvents06EnergyC0O20LoadDailyDigestEventV5ValueV7elementtMd
++ _$sSi6offset_13HomeKitEvents06EnergyC0O20LoadDailyDigestEventV5ValueV7elementtWObTm
++ _$sSi6offset_s5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastI0Sb10isBaselinet7elementtMR
++ _$sSi6offset_s5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastI0Sb10isBaselinet7elementtMd
++ _$sSi6offset_s5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastI0Sb10isBaselinet7elementtWObTm
++ _$sSiSHsWP
++ _$sSi_19EnergyKitFoundation14CDRawLoadEventVtMR
++ _$sSi_19EnergyKitFoundation14CDRawLoadEventVtMd
++ _$sSny10Foundation4DateVGMR
++ _$sSny10Foundation4DateVGMd
++ _$sSo12NSDictionaryCML
++ _$sSo12NSExpressionCML
++ _$sSo12NSUnitEnergyC0B3KitEACC14milliwattHoursABvgZ
++ _$sSo12NSUnitEnergyC0B3KitEACCMa
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE14setSPIEntitledyyYaFTY4_
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE14setSPIEntitledyyYaFTY5_
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE30setCertifiedCapabilityEntitledyyYaF
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE30setCertifiedCapabilityEntitledyyYaFTY0_
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE30setCertifiedCapabilityEntitledyyYaFTY1_
++ _$sSo15NSXPCConnectionC16EnergyKitServiceE30setCertifiedCapabilityEntitledyyYaFTu
++ _$sSo20HMHomeManagerOptionsVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW
++ _$sSo20HMHomeManagerOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW
++ _$sSo22NSManagedObjectContextC8CoreDataE17ScheduledTaskTypeO9immediateyA2EmFWC
++ _$sSo22NSManagedObjectContextC8CoreDataE17ScheduledTaskTypeOMa
++ _$sSo22NSManagedObjectContextC8CoreDataE7perform8schedule_xAbCE17ScheduledTaskTypeO_xyKctYaKlF
++ _$sSo22NSManagedObjectContextC8CoreDataE7perform8schedule_xAbCE17ScheduledTaskTypeO_xyKctYaKlFTu
++ _$sSo23NSExpressionDescriptionCML
++ _$sSo6HMHomeC16EnergyKitServiceE016createContinuousB5Event5event16sourceIdentifier6siteID04gridL004homeL09certified04HomeC6Events0bC0O0fb4LoadG0VAlNV_SS10Foundation4UUIDVSSASSbtKFZ
++ _$sSo6HMHomeC16EnergyKitServiceE06createbC13EVStatusEvent5event16sourceIdentifier6siteID04homeL09certified04HomeC6Events0bC0O021ElectricVehicleStatusG0VAkMV_SS10Foundation4UUIDVARSbtKFZ
++ _$sSo6HMHomeC16EnergyKitServiceE07convertbC23IdleReasonToActivityLog33_C32BE145428BC23509406B7CC153C99ALLy04HomeC6Events17EVConnectionEventV011NotChargingG0OAF0bC0O015ElectricVehiclefG0OFZ
++ _$sSo6HMHomeC16EnergyKitServiceE07convertbC27ChargingReasonToActivityLog33_C32BE145428BC23509406B7CC153C99ALLy04HomeC6Events17EVConnectionEventV0fG0OAF0bC0O015ElectricVehiclefG0OFZ
++ _$sSo6HMHomeC16EnergyKitServiceE23createElectricHVACEvent5event16sourceIdentifier6siteID04gridL004homeL09certified04HomeC6Events0bC0O9LoadEventVAL0f8HVACLoadS0V_SS10Foundation4UUIDVSSATSbtKFZ
++ _$sSo6HMHomeC16EnergyKitServiceE26createElectricVehicleEvent5event16sourceIdentifier6siteID04gridM004homeM09certified04HomeC6Events0bC0O04LoadH0VAL0fgsH0V_SS10Foundation4UUIDVSSATSbtKFZ
++ _$sSo6HMHomeC16EnergyKitServiceE30createActivityLogEVChargeEvent4from04HomeC6Events0hI0VAF0bC0O04LoadI0V_tKFZ
++ _$sSo6HMHomeC16EnergyKitServiceE34createActivityLogEVConnectionEvent4from04HomeC6Events0hI0VAF0bC0O021ElectricVehicleStatusI0V_tKFZ
++ _$sSo6HMHomeC7HomeKitE27writeActivityEventsForOwneryy10Foundation4DataVYaKF
++ _$sSo6HMHomeC7HomeKitE27writeActivityEventsForOwneryy10Foundation4DataVYaKFTu
++ _$sSo6HMHomeCMaTm
++ _$sSo6NSDateCSo8NSObjectCs7CVarArg10ObjectiveCWlTm
++ _$sSo7NSArrayCMaTm
++ _$sSo8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_SSSgAFs5Error_pSgIegggg_TR
++ _$sSo8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_SSSgAFs5Error_pSgIegggg_TRTA
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF10Foundation4DateV4date_Si4rankt_Tg50215$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004G58N0VAW8TimeZoneVtFZSbAW0X0V0M0_Si4rankt_A1_A2__SiA3_ttXEfU_Tf1nncn_n
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF10Foundation4UUIDV_AG4DateVt_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4H16Vt_AM_AOttXEfU1_Tf1nncn_n
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776Q0LLV_Tg504$s16fg9Service25ijkl11C30generatem20HalfHourBuckets031_1opqrstuvw63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11N15AELLV_ALtXEfU2_Tf1nncn_nTm
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg504$s16fg35Service08CombinedC0C30readAndStitchk117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011i28U0V_0Y004DateW0VtYaFZSbAN0H4L10V_AStXEfU_Tf1nncn_n
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSi_Tg5
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10Foundation4DateV4date_Si4rankt_Tg50215$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004F58N0VAW8TimeZoneVtFZSbAW0X0V0M0_Si4rankt_A1_A2__SiA3_ttXEfU_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF10Foundation4UUIDV_AC4DateVt_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4G16Vt_AM_AOttXEfU1_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLV_Tg504$s16ef9Service25hijk11C30generatel20HalfHourBuckets031_1nopqrstuv63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11M15AELLV_ALtXEfU2_Tf1cn_nTm
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg504$s16ef35Service08CombinedC0C30readAndStitchj117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011h28U0V_0Y004DateW0VtYaFZSbAN0H4K10V_AStXEfU_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg5
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_10Foundation4DateV4date_Si4rankt_Tg50215$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004F58N0VAW8TimeZoneVtFZSbAW0X0V0M0_Si4rankt_A1_A2__SiA3_ttXEfU_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_10Foundation4UUIDV_AD4DateVt_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4G16Vt_AM_AOttXEfU1_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg504$s16ef9Service25hijk32C17processLoadEventsyyYaKFSbAC14lmN10V_AFtXEfU_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLV_Tg504$s16ef9Service25hijk11C30generatel20HalfHourBuckets031_1nopqrstuv63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11M15AELLV_ALtXEfU2_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg504$s16ef35Service08CombinedC0C30readAndStitchj117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011h28U0V_0Y004DateW0VtYaFZSbAN0H4K10V_AStXEfU_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Si_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSd_Tg5
++ _$ss10_NativeSetV4copyyyF10Foundation4UUIDV_Tg5Tm
++ _$ss10_NativeSetV4copyyyF16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV_Tg5
++ _$ss10_NativeSetV4copyyyFSd_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSd_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSd_Tg5
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVSHsWP
++ _$ss11AnyHashableVWOc
++ _$ss11AnyHashableVWOh
++ _$ss11AnyHashableV_yptMR
++ _$ss11AnyHashableV_yptMd
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss11_SetStorageCy10Foundation4UUIDVGMR
++ _$ss11_SetStorageCy10Foundation4UUIDVGMd
++ _$ss11_SetStorageCy16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVGMR
++ _$ss11_SetStorageCy16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVGMd
++ _$ss11_SetStorageCySdGMR
++ _$ss11_SetStorageCySdGMd
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DateV4date_Si4rankt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_AH4DateVt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_AH4DateVt_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF13HomeKitEvents9SomeEventO_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService18TOUPeakQueryResultV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation14CDRawLoadEventV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV04rateU0_Say0oP7Service012TOUPeakQueryS0VG7resultst_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19HomeUtilityServices0P10PeakPeriodV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9EnergyKit010HistoricalO6WindowV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9EnergyKit16RatePeriodWindowV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF10Foundation4DateV4date_Si4rankt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSnySiG_Tgq5
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSdG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab19Vqd__YKXEfU_SS_Sds5M4OTG5ALxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSSdANIsgnndzr_Tf1nc_n
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10Foundation4DateV4date_Si4rankt_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10Foundation4DateV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19EnergyKitFoundation14CDRawLoadEventV_AIt_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19EnergyKitFoundation14CDRawLoadEventV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19HomeUtilityServices0O10PeakPeriodV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF9EnergyKit20ElectricalLoadDeviceV_Tg5
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776X0LLVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_AF4DateVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776Q0LLVTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_AD4DateVTg5
++ _$ss17_NativeDictionaryV4copyyyFSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_Sds5NeverOTg5
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFSS_Sds5NeverOTg5134$s16EnergyKitService0aB15AppTrackerQueryC16addGridIDToTrack6gridID04siteL0ySS_10Foundation4UUIDVtYaFyyYbXEfU_SbSS3key_Sd5valuet_tXEfU_0iJ7Service0ijmnO0CXDXMTTf1cn_n
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776U0LLVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776U0LLVTg5Tm
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776W0LLVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF10Foundation4UUIDV_AK4DateVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF10Foundation4UUIDV_16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776V0LLVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF10Foundation4UUIDV_AF4DateVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSi_19EnergyKitFoundation14CDRawLoadEventVTg5
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLVGMR
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLVGMd
++ _$ss18_DictionaryStorageCy10Foundation4UUIDVAC4DateVGMR
++ _$ss18_DictionaryStorageCy10Foundation4UUIDVAC4DateVGMd
++ _$ss18_DictionaryStorageCySi19EnergyKitFoundation14CDRawLoadEventVGMR
++ _$ss18_DictionaryStorageCySi19EnergyKitFoundation14CDRawLoadEventVGMd
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy19EnergyKitFoundation20InsightRecordPayloadVG_s15EmptyCollectionVyANGTg5Tf4nndn_n
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776S0LLV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776S0LLV_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19EnergyKitFoundation20InsightRecordPayloadV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSi_Tt1g5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DateV4date_Si4rankt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_AH4DateVt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator33_1D593D4A5A8F49B9A9366D0687F776A5LLV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator33_1D593D4A5A8F49B9A9366D0687F776A5LLV_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation14CDRawLoadEventV_AJt_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyF10Foundation4UUIDV_AE4DateVt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776S0LLV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyFSi_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSi_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSi_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateV4date_Si4ranktGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateV4date_Si4ranktGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateVGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4DateVGMd
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDV_AC4DateVtGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDV_AC4DateVtGMd
++ _$ss23_ContiguousArrayStorageCy13HomeKitEvents06EnergyE0O010ContinuousG9LoadEventVGMR
++ _$ss23_ContiguousArrayStorageCy13HomeKitEvents06EnergyE0O010ContinuousG9LoadEventVGMd
++ _$ss23_ContiguousArrayStorageCy13HomeKitEvents06EnergyE0O9LoadEventVGMR
++ _$ss23_ContiguousArrayStorageCy13HomeKitEvents06EnergyE0O9LoadEventVGMd
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService18TOUPeakQueryResultVGMR
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService18TOUPeakQueryResultVGMd
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVGMR
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketVGMd
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776O0LLVGMR
++ _$ss23_ContiguousArrayStorageCy16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776O0LLVGMd
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation14CDRawLoadEventVGMR
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation14CDRawLoadEventVGMd
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation14CDRawLoadEventV_AEtGMR
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation14CDRawLoadEventV_AEtGMd
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation17TOUPopulateResultV8RatePlanV04rateJ0_Say0dE7Service012TOUPeakQueryH0VG7resultstGMR
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation17TOUPopulateResultV8RatePlanV04rateJ0_Say0dE7Service012TOUPeakQueryH0VG7resultstGMd
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation17TOUPopulateResultV8RatePlanVGMR
++ _$ss23_ContiguousArrayStorageCy19EnergyKitFoundation17TOUPopulateResultV8RatePlanVGMd
++ _$ss23_ContiguousArrayStorageCy19HomeUtilityServices0E10PeakPeriodVGMR
++ _$ss23_ContiguousArrayStorageCy19HomeUtilityServices0E10PeakPeriodVGMd
++ _$ss23_ContiguousArrayStorageCy9EnergyKit010HistoricalD6WindowVGMR
++ _$ss23_ContiguousArrayStorageCy9EnergyKit010HistoricalD6WindowVGMd
++ _$ss23_ContiguousArrayStorageCy9EnergyKit16RatePeriodWindowVGMR
++ _$ss23_ContiguousArrayStorageCy9EnergyKit16RatePeriodWindowVGMd
++ _$ss23_ContiguousArrayStorageCy9EnergyKit20ElectricalLoadDeviceVGMR
++ _$ss23_ContiguousArrayStorageCy9EnergyKit20ElectricalLoadDeviceVGMd
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _$ss23_ContiguousArrayStorageCySi_19EnergyKitFoundation14CDRawLoadEventVtGMR
++ _$ss23_ContiguousArrayStorageCySi_19EnergyKitFoundation14CDRawLoadEventVtGMd
++ _$ss23_ContiguousArrayStorageCySnySiGGMR
++ _$ss23_ContiguousArrayStorageCySnySiGGMd
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMR
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMd
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$ss5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastH0Sb10isBaselinetMR
++ _$ss5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastH0Sb10isBaselinetMd
++ _$ss5Int64V6energy_19EnergyKitFoundation14CDRawLoadEventVSg04lastH0Sb10isBaselinetWOcTm
++ _$ss5Int64VMn
++ _$ss5Int64VN
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
++ _$ss6HasherV8_combineyys6UInt64VF
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF10Foundation4DateV4date_Si4rankt_Tg50215$s16EnergyKitService08CombinedC0C23stitchRatePeriodWindows014queryResultsByF4Plan12dateInterval8timezoneSay0aB00fG6WindowVGSay0aB10Foundation17TOUPopulateResultV0fL0V04rateL0_SayAA012TOUPeakQueryS0VG7resultstG_0Q004H58N0VAW8TimeZoneVtFZSbAW0X0V0M0_Si4rankt_A1_A2__SiA3_ttXEfU_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF10Foundation4UUIDV_AH4DateVt_Tg50193$s16EnergyKitService25PendingInsightQueryEngineC30generateSessionHalfHourBuckets031_1D593D4A5A8F49B9A9366D0687F776O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSb10Foundation4UUIDV_AK4I16Vt_AM_AOttXEfU1_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg504$s16gh9Service25jklm32C17processLoadEventsyyYaKFSbAC14noP10V_AFtXEfU_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776R0LLV_Tg504$s16gh9Service25jklm11C30generaten20HalfHourBuckets031_1pqrstuvwx63O0LL13loadEventType9isRuntimeSayAC0jK6BucketVGSS_SbtYaFSbAC0I11O15AELLV_ALtXEfU2_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF19EnergyKitFoundation17TOUPopulateResultV8RatePlanV_Tg504$s16gh35Service08CombinedC0C30readAndStitchl117PeriodWindows33_1A992F470D0FB8C629B0BD6EAE46FD6BLL14populateResult12dateIntervalSay0aB00hI6WindowVG0aB10Foundation011j28U0V_0Y004DateW0VtYaFZSbAN0H4M10V_AStXEfU_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF10Foundation4UUIDV_AI4DateVt_Tg5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF10Foundation4UUIDV_AI4DateVt_Tg5Tm
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV_Tg5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776S0LLV_Tg5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776S0LLV_Tg5Tm
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg5
++ _$sypSgWOhTm
++ _$syycWV
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSDistributedNotificationCenter
++ _OBJC_CLASS_$_NSExpression
++ _OBJC_CLASS_$_NSExpressionDescription
++ _OBJC_CLASS_$_NSFetchRequest
++ _OBJC_CLASS_$_NSUnitLength
++ _OBJC_CLASS_$_NSUnitPower
++ _OBJC_CLASS_$_NSUnitTemperature
++ __DATA__TtC16EnergyKitService12TOUPeakQuery
++ __DATA__TtC16EnergyKitService16EnergyTrendQuery
++ __DATA__TtC16EnergyKitService17RawLoadEventQuery
++ __DATA__TtC16EnergyKitService18RawLoadEventInsert
++ __DATA__TtC16EnergyKitService22GuidanceIDTrackerQuery
++ __DATA__TtC16EnergyKitService22PendingRefreshDebounce
++ __DATA__TtC16EnergyKitService25PendingInsightQueryEngine
++ __DATA__TtC16EnergyKitService33PendingInsightSubscriptionManager
++ __IVARS__TtC16EnergyKitService12TOUPeakQuery
++ __IVARS__TtC16EnergyKitService16EnergyTrendQuery
++ __IVARS__TtC16EnergyKitService17RawLoadEventQuery
++ __IVARS__TtC16EnergyKitService18RawLoadEventInsert
++ __IVARS__TtC16EnergyKitService22GuidanceIDTrackerQuery
++ __IVARS__TtC16EnergyKitService22PendingRefreshDebounce
++ __IVARS__TtC16EnergyKitService25PendingInsightQueryEngine
++ __IVARS__TtC16EnergyKitService33PendingInsightSubscriptionManager
++ __METACLASS_DATA__TtC16EnergyKitService12TOUPeakQuery
++ __METACLASS_DATA__TtC16EnergyKitService16EnergyTrendQuery
++ __METACLASS_DATA__TtC16EnergyKitService17RawLoadEventQuery
++ __METACLASS_DATA__TtC16EnergyKitService18RawLoadEventInsert
++ __METACLASS_DATA__TtC16EnergyKitService22GuidanceIDTrackerQuery
++ __METACLASS_DATA__TtC16EnergyKitService22PendingRefreshDebounce
++ __METACLASS_DATA__TtC16EnergyKitService25PendingInsightQueryEngine
++ __METACLASS_DATA__TtC16EnergyKitService33PendingInsightSubscriptionManager
++ __OBJC_$_INSTANCE_METHODS__TtC16EnergyKitService15CombinedService(EnergyKitService|EnergyKitService1|EnergyKitService2|EnergyKitService3|EnergyKitService4|EnergyKitService5|EnergyKitService6|EnergyKitService7|EnergyKitService8)
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ ___swift_memcpy16_8
++ __swift__destructor.10
++ __swift__destructor.13
++ __swift__destructor.27
++ __swift__destructor.30
++ __swift_closure_destructor.10
++ __swift_closure_destructor.100
++ __swift_closure_destructor.103
++ __swift_closure_destructor.104
++ __swift_closure_destructor.106
++ __swift_closure_destructor.10Tm
++ __swift_closure_destructor.11
++ __swift_closure_destructor.110
++ __swift_closure_destructor.111
++ __swift_closure_destructor.115
++ __swift_closure_destructor.116
++ __swift_closure_destructor.12
++ __swift_closure_destructor.120
++ __swift_closure_destructor.128
++ __swift_closure_destructor.129
++ __swift_closure_destructor.13
++ __swift_closure_destructor.136
++ __swift_closure_destructor.14
++ __swift_closure_destructor.145
++ __swift_closure_destructor.151
++ __swift_closure_destructor.158
++ __swift_closure_destructor.16
++ __swift_closure_destructor.167
++ __swift_closure_destructor.16Tm
++ __swift_closure_destructor.17
++ __swift_closure_destructor.171
++ __swift_closure_destructor.177
++ __swift_closure_destructor.18
++ __swift_closure_destructor.183
++ __swift_closure_destructor.19
++ __swift_closure_destructor.193
++ __swift_closure_destructor.2
++ __swift_closure_destructor.20
++ __swift_closure_destructor.203
++ __swift_closure_destructor.209
++ __swift_closure_destructor.21
++ __swift_closure_destructor.218
++ __swift_closure_destructor.22
++ __swift_closure_destructor.224
++ __swift_closure_destructor.23
++ __swift_closure_destructor.231
++ __swift_closure_destructor.237
++ __swift_closure_destructor.24
++ __swift_closure_destructor.243
++ __swift_closure_destructor.247
++ __swift_closure_destructor.25
++ __swift_closure_destructor.26
++ __swift_closure_destructor.26Tm
++ __swift_closure_destructor.27
++ __swift_closure_destructor.28
++ __swift_closure_destructor.29
++ __swift_closure_destructor.3
++ __swift_closure_destructor.30
++ __swift_closure_destructor.31
++ __swift_closure_destructor.32
++ __swift_closure_destructor.33
++ __swift_closure_destructor.34
++ __swift_closure_destructor.35
++ __swift_closure_destructor.36
++ __swift_closure_destructor.37
++ __swift_closure_destructor.38
++ __swift_closure_destructor.39
++ __swift_closure_destructor.4
++ __swift_closure_destructor.40
++ __swift_closure_destructor.41
++ __swift_closure_destructor.44
++ __swift_closure_destructor.45
++ __swift_closure_destructor.48
++ __swift_closure_destructor.5
++ __swift_closure_destructor.50
++ __swift_closure_destructor.50Tm
++ __swift_closure_destructor.51
++ __swift_closure_destructor.52
++ __swift_closure_destructor.53
++ __swift_closure_destructor.53Tm
++ __swift_closure_destructor.54
++ __swift_closure_destructor.56
++ __swift_closure_destructor.57
++ __swift_closure_destructor.59
++ __swift_closure_destructor.59Tm
++ __swift_closure_destructor.5Tm
++ __swift_closure_destructor.6
++ __swift_closure_destructor.61
++ __swift_closure_destructor.62
++ __swift_closure_destructor.63
++ __swift_closure_destructor.64
++ __swift_closure_destructor.65
++ __swift_closure_destructor.67
++ __swift_closure_destructor.67Tm
++ __swift_closure_destructor.7
++ __swift_closure_destructor.70
++ __swift_closure_destructor.71
++ __swift_closure_destructor.73
++ __swift_closure_destructor.74
++ __swift_closure_destructor.76
++ __swift_closure_destructor.77
++ __swift_closure_destructor.78
++ __swift_closure_destructor.79
++ __swift_closure_destructor.7Tm
++ __swift_closure_destructor.8
++ __swift_closure_destructor.80
++ __swift_closure_destructor.82
++ __swift_closure_destructor.83
++ __swift_closure_destructor.84
++ __swift_closure_destructor.86
++ __swift_closure_destructor.87
++ __swift_closure_destructor.88
++ __swift_closure_destructor.9
++ __swift_closure_destructor.90
++ __swift_closure_destructor.91
++ __swift_closure_destructor.92
++ __swift_closure_destructor.95
++ __swift_closure_destructor.96
++ __swift_closure_destructor.98
++ __swift_closure_destructor.9Tm
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLVSHAASQ
++ _memset
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$batchedHistoricalEnergyWindowsWithDateInterval:gridID:endpoint:ekSandboxExtension:completion:
++ _objc_msgSend$batchedRatePeriodWindowsWithDateInterval:venueID:endpoint:completion:
++ _objc_msgSend$celsius
++ _objc_msgSend$createdAt
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$descriptor
++ _objc_msgSend$deviceIdentifier
++ _objc_msgSend$deviceName
++ _objc_msgSend$deviceType
++ _objc_msgSend$electricalLoadDevicesFor:reply:
++ _objc_msgSend$end
++ _objc_msgSend$energyTrendForDeviceID:applicationID:trendID:atVenue:reply:
++ _objc_msgSend$expirationDate
++ _objc_msgSend$expressionForFunction:arguments:
++ _objc_msgSend$expressionForKeyPath:
++ _objc_msgSend$generationDate
++ _objc_msgSend$gridID
++ _objc_msgSend$hourlyConsumptionData
++ _objc_msgSend$hourlyProductionData
++ _objc_msgSend$inferredGridIDWithVenue:source:sandboxExtension:reply:
++ _objc_msgSend$initWithEntityName:
++ _objc_msgSend$interval
++ _objc_msgSend$isVenueToken
++ _objc_msgSend$kilometers
++ _objc_msgSend$learnMoreURL
++ _objc_msgSend$milliwatts
++ _objc_msgSend$mostProminentTrendWithSiteID:deviceID:applicationID:reply:
++ _objc_msgSend$peaks
++ _objc_msgSend$postNotificationName:object:userInfo:deliverImmediately:
++ _objc_msgSend$receiveHistoricalEnergyWindows:finished:completionHandler:
++ _objc_msgSend$receiveRatePeriodWindows:finished:completionHandler:
++ _objc_msgSend$registerPendingInterestWithSiteID:refreshInterval:reply:
++ _objc_msgSend$setCertified:
++ _objc_msgSend$setCircuitScope:
++ _objc_msgSend$setConsumptionEnergyMilliwattHours:
++ _objc_msgSend$setConsumptionPowerMilliwatts:
++ _objc_msgSend$setDeviceIdentifier:
++ _objc_msgSend$setDeviceName:
++ _objc_msgSend$setExpression:
++ _objc_msgSend$setExpressionResultType:
++ _objc_msgSend$setFetchOffset:
++ _objc_msgSend$setGuidanceFollowed:
++ _objc_msgSend$setGuidanceGridID:
++ _objc_msgSend$setHasEnergyData:
++ _objc_msgSend$setHomeIdentifier:
++ _objc_msgSend$setLevel:
++ _objc_msgSend$setLoadEventType:
++ _objc_msgSend$setLoadState:
++ _objc_msgSend$setName:
++ _objc_msgSend$setPerformanceMetricsData:
++ _objc_msgSend$setProductionEnergyMilliwattHours:
++ _objc_msgSend$setProductionPowerMilliwatts:
++ _objc_msgSend$setPropertiesToGroupBy:
++ _objc_msgSend$setSessionID:
++ _objc_msgSend$setSessionState:
++ _objc_msgSend$setSiteIdentifier:
++ _objc_msgSend$setSourceIdentifier:
++ _objc_msgSend$setTimestamp:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$sourceIdentifier
++ _objc_msgSend$start
++ _objc_msgSend$subType
++ _objc_msgSend$tariffProfileID
++ _objc_msgSend$trendBody
++ _objc_msgSend$trendComparisonIntervalEnd
++ _objc_msgSend$trendComparisonIntervalStart
++ _objc_msgSend$trendCurrentIntervalEnd
++ _objc_msgSend$trendCurrentIntervalStart
++ _objc_msgSend$trendID
++ _objc_msgSend$trendTitle
++ _objc_msgSend$trendType
++ _objc_msgSend$unregisterPendingInterestWithSiteID:reply:
++ _objc_msgSend$utilityID
++ _swift_bridgeObjectRetain_n
++ _swift_projectBox
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SDySi_____G 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic SDy__________G 10Foundation4UUIDV 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776N0LLV
++ _symbolic SDy__________G 10Foundation4UUIDV AA4DateV
++ _symbolic SDy__________Gz_Xx 10Foundation4UUIDV 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776N0LLV
++ _symbolic SS3key_yp5valuet
++ _symbolic SSSgSo8NSNumberCSg______pSgIegggg_ s5ErrorP
++ _symbolic Say_____G 13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV
++ _symbolic Say_____G 13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueV
++ _symbolic Say_____G 13HomeKitEvents06EnergyB0O9LoadEventV
++ _symbolic Say_____G 16EnergyKitService18TOUPeakQueryResultV
++ _symbolic Say_____G 16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV
++ _symbolic Say_____G 19EnergyKitFoundation20InsightRecordPayloadV
++ _symbolic Say_____G 19HomeUtilityServices0B10PeakPeriodV
++ _symbolic Say_____G 9EnergyKit20ElectricalLoadDeviceV
++ _symbolic Say_____GSg 19HomeUtilityServices0B10PeakPeriodV
++ _symbolic Say_____Gz_Xx 16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV
++ _symbolic Sb_____YaYbc 10Foundation4UUIDV
++ _symbolic Sbz_Xx
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScTyyt_____GSgz_Xx s5NeverO
++ _symbolic Sd
++ _symbolic Shy_____G 10Foundation4UUIDV
++ _symbolic Shy_____Gz_Xx 10Foundation4UUIDV
++ _symbolic Si6offset______4date_Si4rankt7elementt 10Foundation4DateV
++ _symbolic Si6offset______6energy______Sg9lastEventSb10isBaselinet7elementt s5Int64V 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic Si6offset______7elementt 12HomeServices15HSGuidanceValueV
++ _symbolic Si6offset______7elementt 13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueV
++ _symbolic Si______t 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic Siz_Xx
++ _symbolic Sny_____G 10Foundation4DateV
++ _symbolic So31NSDistributedNotificationCenterC
++ _symbolic So8NSStringCSgSo8NSNumberCSgSo7NSErrorCSgIeyByyy_
++ _symbolic _____ 10Foundation12DateIntervalV
++ _symbolic _____ 10Foundation8TimeZoneV
++ _symbolic _____ 16EnergyKitService0A10TrendQueryC
++ _symbolic _____ 16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV
++ _symbolic _____ 16EnergyKitService12TOUPeakQueryC
++ _symbolic _____ 16EnergyKitService17RawLoadEventQueryC
++ _symbolic _____ 16EnergyKitService18RawLoadEventInsertC
++ _symbolic _____ 16EnergyKitService18TOUPeakQueryResultV
++ _symbolic _____ 16EnergyKitService22GuidanceIDTrackerQueryC
++ _symbolic _____ 16EnergyKitService22PendingRefreshDebounceC
++ _symbolic _____ 16EnergyKitService25PendingInsightQueryEngineC
++ _symbolic _____ 16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV
++ _symbolic _____ 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLV
++ _symbolic _____ 16EnergyKitService33PendingInsightSubscriptionManagerC
++ _symbolic _____ 19EnergyKitFoundation0A9DirectionO
++ _symbolic _____ 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____ s5Int64V
++ _symbolic _____4date_Si4rankt 10Foundation4DateV
++ _symbolic _____5lower_AA5uppert 10Foundation4DateV
++ _symbolic _____5start_AA3endt 10Foundation4DateV
++ _symbolic _____5start_AA3endtSg 10Foundation4DateV
++ _symbolic _____6energy______Sg9lastEventSb10isBaselinet s5Int64V 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____8ratePlan_Say_____G7resultst 19EnergyKitFoundation17TOUPopulateResultV8RatePlanV 0aB7Service012TOUPeakQueryE0V
++ _symbolic _____SbIeghHnd_ 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O010ContinuousD16DailyDigestEventV5ValueV
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O10KilometersV
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O12CircuitScopeO
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV16ChargePercentageV
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O26ElectricVehicleStatusEventV6ReasonO
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O7CelsiusV
++ _symbolic _____Sg 13HomeKitEvents06EnergyB0O9LoadEventV18PerformanceMetricsV
++ _symbolic _____Sg 13HomeKitEvents10KilometersV
++ _symbolic _____Sg 13HomeKitEvents16ChargePercentageV
++ _symbolic _____Sg 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776L0LLV
++ _symbolic _____Sg 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____Sg 19EnergyKitFoundation17TOUPopulateResultV
++ _symbolic _____Sg 19HomeUtilityServices0B10PeakPeriodV
++ _symbolic _____Sg 9EnergyKit010HistoricalA12WindowRatingO
++ _symbolic _____Sg 9EnergyKit010HistoricalA7WindowsV
++ _symbolic _____Sg 9EnergyKit0A5TrendV
++ _symbolic _____Sg 9EnergyKit0aB14LocationSourceO
++ _symbolic _____Sg 9EnergyKit16RatePeriodRatingO
++ _symbolic _____Sg 9EnergyKit20ElectricalLoadDeviceV0E4TypeO
++ _symbolic _____Sg 9EnergyKit24ElectricVehicleLoadEventV21ElectricalMeasurementV18PerformanceMetricsV
++ _symbolic _____Sg 9EnergyKit26ElectricVehicleStatusEventV14ChargingTargetV
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 9EnergyKit23XPCEnergyTrendContainerC
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 9EnergyKit33XPCElectricalLoadDevicesContainerC
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 9EnergyKit010HistoricalA12WindowRatingO
++ _symbolic _____Sg______pSgIeggg_ 9EnergyKit23XPCEnergyTrendContainerC s5ErrorP
++ _symbolic _____Sg______pSgIeggg_ 9EnergyKit33XPCElectricalLoadDevicesContainerC s5ErrorP
++ _symbolic _____XDXMT 16EnergyKitService08CombinedC0C
++ _symbolic _____XDXMT 16EnergyKitService25PendingInsightQueryEngineC
++ _symbolic _____XMT 16EnergyKitService18RawLoadEventInsertC
++ _symbolic ______AA_____So6HMHomeCt 10Foundation4UUIDV 13HomeKitEvents16EventWriterScopeO
++ _symbolic ______AA_____So6HMHomeCtSg 10Foundation4UUIDV 13HomeKitEvents16EventWriterScopeO
++ _symbolic ______AAt 13HomeKitEvents06EnergyB0O010ContinuousD9LoadEventV11MeasurementO5ValueO
++ _symbolic ______AAt 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic ___________t 10Foundation4UUIDV AA4DateV
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySdG s11_SetStorageC
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_____G s18_DictionaryStorageC 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____ySi______tG s23_ContiguousArrayStorageC 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo11NSUnitPowerCG 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitEnergyCG 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitLengthCG 10Foundation11MeasurementV
++ _symbolic _____ySo12NSUnitLengthCGSg 10Foundation11MeasurementV
++ _symbolic _____ySo17NSUnitTemperatureCG 10Foundation11MeasurementV
++ _symbolic _____ySo17NSUnitTemperatureCGSg 10Foundation11MeasurementV
++ _symbolic _____y_____4date_Si4ranktG s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____y_____8ratePlan_Say_____G7resultstG s23_ContiguousArrayStorageC 19EnergyKitFoundation17TOUPopulateResultV8RatePlanV 0dE7Service012TOUPeakQueryH0V
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s11_SetStorageC 16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeKitEvents06EnergyE0O010ContinuousG9LoadEventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeKitEvents06EnergyE0O9LoadEventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16EnergyKitService18TOUPeakQueryResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16EnergyKitService25PendingInsightQueryEngineC14HalfHourBucketV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776O0LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19EnergyKitFoundation17TOUPopulateResultV8RatePlanV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19HomeUtilityServices0E10PeakPeriodV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9EnergyKit010HistoricalD6WindowV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9EnergyKit16RatePeriodWindowV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9EnergyKit20ElectricalLoadDeviceV
++ _symbolic _____y______ABtG s23_ContiguousArrayStorageC 19EnergyKitFoundation14CDRawLoadEventV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 16EnergyKitService25PendingInsightQueryEngineC18SessionAccumulator031_1D593D4A5A8F49B9A9366D0687F776P0LLV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV AC4DateV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV AC4DateV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____z_Xx 10Foundation4DateV
++ _symbolic _____z_Xx 19EnergyKitFoundation27StreamingDirectionProcessorV
++ _symbolic _____z_Xx s5Int64V
++ _type_layout_string 16EnergyKitService12DateRangeKey33_06FF9F889BA95C4B9FC0A6F4905E889ALLV
++ block_copy_helper.103
++ block_copy_helper.106
++ block_copy_helper.107
++ block_copy_helper.11
++ block_copy_helper.111
++ block_copy_helper.113
++ block_copy_helper.115
++ block_copy_helper.116
++ block_copy_helper.119
++ block_copy_helper.122
++ block_copy_helper.124
++ block_copy_helper.125
++ block_copy_helper.132
++ block_copy_helper.135
++ block_copy_helper.138
++ block_copy_helper.14
++ block_copy_helper.141
++ block_copy_helper.142
++ block_copy_helper.146
++ block_copy_helper.149
++ block_copy_helper.15
++ block_copy_helper.152
++ block_copy_helper.154
++ block_copy_helper.155
++ block_copy_helper.158
++ block_copy_helper.162
++ block_copy_helper.163
++ block_copy_helper.170
++ block_copy_helper.175
++ block_copy_helper.179
++ block_copy_helper.189
++ block_copy_helper.19
++ block_copy_helper.196
++ block_copy_helper.199
++ block_copy_helper.205
++ block_copy_helper.211
++ block_copy_helper.227
++ block_copy_helper.23
++ block_copy_helper.233
++ block_copy_helper.239
++ block_copy_helper.25
++ block_copy_helper.26
++ block_copy_helper.27
++ block_copy_helper.30
++ block_copy_helper.37
++ block_copy_helper.41
++ block_copy_helper.43
++ block_copy_helper.48
++ block_copy_helper.51
++ block_copy_helper.60
++ block_copy_helper.73
++ block_copy_helper.80
++ block_descriptor.105
++ block_descriptor.108
++ block_descriptor.109
++ block_descriptor.113
++ block_descriptor.115
++ block_descriptor.117
++ block_descriptor.118
++ block_descriptor.121
++ block_descriptor.124
++ block_descriptor.126
++ block_descriptor.127
++ block_descriptor.13
++ block_descriptor.134
++ block_descriptor.137
++ block_descriptor.140
++ block_descriptor.143
++ block_descriptor.144
++ block_descriptor.148
++ block_descriptor.151
++ block_descriptor.154
++ block_descriptor.156
++ block_descriptor.157
++ block_descriptor.16
++ block_descriptor.160
++ block_descriptor.164
++ block_descriptor.165
++ block_descriptor.17
++ block_descriptor.172
++ block_descriptor.177
++ block_descriptor.181
++ block_descriptor.191
++ block_descriptor.198
++ block_descriptor.201
++ block_descriptor.207
++ block_descriptor.21
++ block_descriptor.213
++ block_descriptor.229
++ block_descriptor.235
++ block_descriptor.241
++ block_descriptor.25
++ block_descriptor.27
++ block_descriptor.28
++ block_descriptor.29
++ block_descriptor.32
++ block_descriptor.39
++ block_descriptor.43
++ block_descriptor.45
++ block_descriptor.50
++ block_descriptor.53
++ block_descriptor.62
++ block_descriptor.75
++ block_descriptor.82
++ block_destroy_helper.104
++ block_destroy_helper.107
++ block_destroy_helper.108
++ block_destroy_helper.112
++ block_destroy_helper.114
++ block_destroy_helper.116
++ block_destroy_helper.117
++ block_destroy_helper.12
++ block_destroy_helper.120
++ block_destroy_helper.123
++ block_destroy_helper.125
++ block_destroy_helper.126
++ block_destroy_helper.133
++ block_destroy_helper.136
++ block_destroy_helper.139
++ block_destroy_helper.142
++ block_destroy_helper.143
++ block_destroy_helper.147
++ block_destroy_helper.15
++ block_destroy_helper.150
++ block_destroy_helper.153
++ block_destroy_helper.155
++ block_destroy_helper.156
++ block_destroy_helper.159
++ block_destroy_helper.16
++ block_destroy_helper.163
++ block_destroy_helper.164
++ block_destroy_helper.171
++ block_destroy_helper.176
++ block_destroy_helper.180
++ block_destroy_helper.190
++ block_destroy_helper.197
++ block_destroy_helper.20
++ block_destroy_helper.200
++ block_destroy_helper.206
++ block_destroy_helper.212
++ block_destroy_helper.228
++ block_destroy_helper.234
++ block_destroy_helper.24
++ block_destroy_helper.240
++ block_destroy_helper.26
++ block_destroy_helper.27
++ block_destroy_helper.28
++ block_destroy_helper.31
++ block_destroy_helper.38
++ block_destroy_helper.42
++ block_destroy_helper.44
++ block_destroy_helper.49
++ block_destroy_helper.52
++ block_destroy_helper.61
++ block_destroy_helper.74
++ block_destroy_helper.81
+- $s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TRTA.182
+- $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.96
+- $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.96TQ0_
+- $s16EnergyKitService08CombinedC0C11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.96Tu
+- $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.87
+- $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.87TQ0_
+- $s16EnergyKitService08CombinedC0C11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtctFyyYacfU_TA.87Tu
+- $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.71
+- $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.71TQ0_
+- $s16EnergyKitService08CombinedC0C11hasAnyHomes5replyyySbc_tFyyYacfU_TA.71Tu
+- $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.79
+- $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.79TQ0_
+- $s16EnergyKitService08CombinedC0C12energyVenues5replyyy0aB009XPCEnergyF9ContainerCSg_s5Error_pSgtc_tFyyYacfU_TA.79Tu
+- $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.20
+- $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.20TQ0_
+- $s16EnergyKitService08CombinedC0C12setUpSandbox16sandboxExtension5replyy0aB0010XPCSandboxI9ContainerCSg_yyctFyyYacfU_TA.20Tu
+- $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.37
+- $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.37TQ0_
+- $s16EnergyKitService08CombinedC0C15createFirstHome5replyyys5Error_pSgc_tFyyYacfU_TA.37Tu
+- $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.8
+- $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.8TQ0_
+- $s16EnergyKitService08CombinedC0C16submitLoadEvents6events5venue16sandboxExtension5replyy0aB0013XPCElectricalF14EventContainerC_10Foundation4UUIDVAI010XPCSandboxkO0CSgySi_s5Error_pSgtctFyyYacfU_TA.8Tu
+- $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.12
+- $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.12TQ0_
+- $s16EnergyKitService08CombinedC0C17validateTCCAccess5replyyySbc_tFyyYacfU_TA.12Tu
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.14
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.14TQ0_
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5query6gridID5replyy0aB0014XPCElectricityF14QueryContainerC_SSyAH0kfM0CSg_s5Error_pSgtctFyyYacfU_TA.14Tu
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.23
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.23TQ0_
+- $s16EnergyKitService08CombinedC0C19electricityGuidance5venue5query6gridID5replyy10Foundation4UUIDV_0aB0014XPCElectricityF14QueryContainerCSSyAL0nfP0CSg_s5Error_pSgtctFyyYacfU_TA.23Tu
+- $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.25
+- $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.25TQ0_
+- $s16EnergyKitService08CombinedC0C21permittedSessionCount5replyyySic_tFyyYacfU_TA.25Tu
+- $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.46
+- $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.46TQ0_
+- $s16EnergyKitService08CombinedC0C23deleteGridIDAppTracking3for5replyy10Foundation4UUIDV_ys5Error_pSgctFyyYacfU_TA.46Tu
+- $s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TA.55
+- $s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TA.55TQ0_
+- $s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TA.55Tu
+- $s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TA.63
+- $s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TA.63TQ0_
+- $s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TA.63Tu
+- $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.12
+- $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.12TQ0_
+- $s16EnergyKitService08CombinedC0C6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.12Tu
+- $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.21
+- $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.21TQ0_
+- $s16EnergyKitService08CombinedC0C6gridID8location16sandboxExtension5replyySo10CLLocationC_0aB0010XPCSandboxI9ContainerCSgySSSg_s5Error_pSgtctFyyYacfU_TA.21Tu
+- $s16EnergyKitService0A9SiteQueryC4site33_B33CB455DD48027DE2B28F2DCA54A929LL3for7context0aB10Foundation08EKEnergyD0CSgSS_So22NSManagedObjectContextCtFZAKyXEfU_yyYbXEfU_TA.23
+- $s16EnergyKitService0A9SiteQueryC4site33_B33CB455DD48027DE2B28F2DCA54A929LL3for7context0aB10Foundation08EKEnergyD0CSgSS_So22NSManagedObjectContextCtFZAKyXEfU_yyYbXEfU_TA.34
+- $s16EnergyKitService14EKSHomeManagerC10createHome4nameSo6HMHomeCSS_tYaKFyScCyAGs5Error_pGXEfU_TA.15
+- $s16EnergyKitService21CoreDataInsightStreamC05setupeG0ScSySay10Foundation0E0VGGyFyScS12ContinuationVyAH_GXEfU_TA.77
+- $s9EnergyKit23XPCEnergyVenueContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.207
+- $s9EnergyKit23XPCEnergyVenueContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.92
+- $s9EnergyKit31XPCElectricityGuidanceContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.111
+- $s9EnergyKit31XPCElectricityGuidanceContainerCSgSo7NSErrorCSgIeyByy_ADs5Error_pSgIeggg_TRTA.19
+- $sIeAgH_ytIeAgHr_TRTA.55
+- $sIeAgH_ytIeAgHr_TRTA.55TQ0_
+- $sIeAgH_ytIeAgHr_TRTA.55Tu
+- $sIeghH_IeAgH_TRTA.50
+- $sIeghH_IeAgH_TRTA.50TQ0_
+- $sIeghH_IeAgH_TRTA.50Tu
+- $sIeyB_Ieg_TRTA.143
+- $sIeyB_Ieg_TRTA.33
+- $sIeyB_Ieg_TRTA.92
+- $sIgh_Iegh_TRTA.23
+- $sIgh_Iegh_TRTA.27
+- $sIgh_Iegh_TRTA.34
+- $sIgh_Iegh_TRTA.38
+- $sIgh_Iegh_TRTA.46
+- $sIgh_Iegh_TRTA.48
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.159
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.172
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.42
+- $sSo7NSErrorCSgIeyBy_s5Error_pSgIegg_TRTA.51
+- $sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Error_pSgIeggg_TRTA.127
+- $sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Error_pSgIeggg_TRTA.17
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30Tu
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/AMIQueryEngine+Extension.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/ApplicationIdentifiers.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/AuditTokenValidator.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/ClientBackingStore.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedProtocol.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+EntitlementCheck.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+GridOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+GuidanceOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+InsightsOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+LoadEventOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+MockOptions.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+SandboxOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService+VenueOperations.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedService.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedServiceDelegate.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CombinedServiceListener.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/CoreDataInsightStream.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/DeviceInsights.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKLogger.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSAnalytics.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSAnalyticsEvent.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EKSHomeManagerActor.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKit+HomeKitEvents+Extension.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitAppTrackerQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitCloudConfigQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergyKitService.swiftmodule
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/EnergySiteQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/GridProvider.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/GuidanceProvider.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HMHome+Extension.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HistoricalGuidanceCache.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/HistoricalGuidanceQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/InsightBucketBoundaries.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/IntervalBlocksPredicate.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/LoadEventManager.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/LoadEventProcessingContext.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/LoadEventsQueryEngine.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/MockGuidance.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/MockOptions.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/RatePlanQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/RawLoadEventQuery.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/ServiceSandbox.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/Utilities.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/WholeHomeInsights.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/XPCCoreDataStore.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/XPCStoreDriver.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Binaries/HomeEnergy/install/TempContent/Objects/homeenergyd.build/EnergyKitService.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/Analytics/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/EnergyKitService+Extensions/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/EnergyKitService+Extensions/EnergyKitPublic/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/HomeKit/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/Mock/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/XPCStore/
+- /Library/Caches/com.apple.xbs/7C4D7BC2-1ED7-409A-AB0B-72507A96677C/TemporaryDirectory.FdrGvo/Sources/HomeEnergy/Daemons/homeenergyd/HomeEnergy/EnergyKitService/XPCStore/InsightsGeneration/
+- LoadEventProcessingContext.swift
+- _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFSSSg_Tg5126$s16EnergyKitService0C7SandboxC8_confstr33_50B0EC3EC474E478C6CF19F1F880294CLLySSSgs5Int32VFZAFyXEfU_AFSwXEfU_AHTf3nnpSi65537_nTf1ncn_nTm
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFSSSg_Tg5126$s16EnergyKitService0C7SandboxC8_confstr33_50B0EC3EC474E478C6CF19F1F880294CLLySSSgs5Int32VFZAFyXEfU_AFSwXEfU_AHTf3nnpSi65537_nTf1cn_nTm
+- _$s10Foundation4DateVSgWOb
+- _$s10Foundation4DateVSgWOc
+- _$s10Foundation4UUIDV5token_SS6gridIDtSgWOcTm
+- _$s10Foundation4UUIDV5token_SS6gridIDtSgWOdTm
+- _$s10Foundation4UUIDV5token_SS6gridIDtSgWOhTm
+- _$s10Foundation4UUIDV5token_SS6gridIDtWObTm
+- _$s10Foundation4UUIDVSgWOb
+- _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOtMR
+- _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOtMd
+- _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOtSgMR
+- _$s10Foundation4UUIDV_AC13HomeKitEvents16EventWriterScopeOtSgMd
+- _$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TR
+- _$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA
+- _$s12HomeServices12NetworkErrorO016responseDecodingD0yA2CmFWC
+- _$s12HomeServices12NetworkErrorO7unknownyA2CmFWC
+- _$s12HomeServices12NetworkErrorOMn
+- _$s12HomeServices12NetworkErrorOSgMR
+- _$s12HomeServices12NetworkErrorOSgMd
+- _$s12HomeServices20HSHistoricalGuidanceVSgMR
+- _$s12HomeServices20HSHistoricalGuidanceVSgMd
+- _$s13HomeKitEvents06EnergyB0O16LoadSessionEventV5BlockVSgMR
+- _$s13HomeKitEvents06EnergyB0O16LoadSessionEventV5BlockVSgMd
+- _$s13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVSgMR
+- _$s13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueVSgMd
+- _$s13HomeKitEvents06EnergyB0O9LoadEventV4date14homeIdentifier04siteI006sourceI006deviceI05stateAE10Foundation4DateV_AL4UUIDVAPS2SAE5StateVtcfC
+- _$s13HomeKitEvents06EnergyB0O9LoadEventV5StateV4type5state5level8guidance7session11consumption10productionAgC0E4TypeO_AE0eG0OAC0E5LevelVAC16GuidanceBehaviorOAE7SessionVSgAE5ValueOSgA0_tcfC
+- _$s13HomeKitEvents06EnergyB0O9LoadEventV5ValueOSgWOb
+- _$s13HomeKitEvents06EnergyB0O9LoadEventV5ValueOSgWOc
+- _$s13HomeKitEvents06EnergyB0O9LoadEventV5ValueOSgWOh
+- _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TQ10_
+- _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY12_
+- _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY14_
+- _$s16EnergyKitService08CombinedC0C21batchedDeviceInsights7request8endpoint18ekSandboxExtension10completiony0aB019InsightQueryRequestC_So21NSXPCListenerEndpointCAI010XPCSandboxL9ContainerCSgyyctFyyYacfU1_TY8_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctF
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFTo
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TA
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TATQ0_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TATu
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TQ0_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_TY1_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyYacfU_Tu
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_n
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTQ5_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTQ7_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY0_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY1_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY2_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY3_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY4_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY6_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTY8_
+- _$s16EnergyKitService08CombinedC0C33configureCostInclusionForGuidance33_E345613BE81119FC98C594E7928ECA1BLL10isIncluded3forySb_10Foundation4UUIDVtYaFTf4nnd_nTu
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_n
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTQ5_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTQ7_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY0_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY1_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY2_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY3_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY4_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY6_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTY8_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance33_E345613BE81119FC98C594E7928ECA1BLL3forSb10Foundation4UUIDV_tYaFTf4nd_nTu
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctF
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFTo
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TA
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TATQ0_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TATu
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TQ0_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_TY1_
+- _$s16EnergyKitService08CombinedC0C36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyYacfU_Tu
+- _$s16EnergyKitService08CombinedC8DelegateC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyyYacfU2_TY5_
+- _$s16EnergyKitService08CombinedC8DelegateCfDTm
+- _$s16EnergyKitService0C7SandboxC8_confstr33_50B0EC3EC474E478C6CF19F1F880294CLLySSSgs5Int32VFZAFyXEfU_AFSwXEfU_AHTf3nnpSi65537_nTm
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaF
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTQ2_
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTY0_
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTY1_
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTY3_
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTq
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFTu
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFyyYbXEfU_
+- _$s16EnergyKitService0aB15AppTrackerQueryC18isCostIncorporated6siteIDSb10Foundation4UUIDV_tYaFyyYbXEfU_TA
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaF
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTQ2_
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTY0_
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTY1_
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTY3_
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTq
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFTu
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFyyYbXEfU_
+- _$s16EnergyKitService0aB15AppTrackerQueryC29toggleCostInclusionInGuidance6siteID07includeH0y10Foundation4UUIDV_SbtYaFyyYbXEfU_TA
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TQ5_
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY1_
+- _$s16EnergyKitService14DeviceInsightsC08generatedE05query6siteID06deviceI003appI0ScSySay10Foundation4DataVGG0aB019InsightQueryRequestC_AI4UUIDVS2StYaKFyyYaKcfU_TY4_
+- _$s16EnergyKitService14EKSHomeManagerC04homeE14DidUpdateHomesyySo06HMHomeE0CFTf4nd_nTm
+- _$s16EnergyKitService14EKSHomeManagerC10createHome4nameSo6HMHomeCSS_tYaKFyScCyAGs5Error_pGXEfU_
+- _$s16EnergyKitService14EKSHomeManagerC10createHome4nameSo6HMHomeCSS_tYaKFyScCyAGs5Error_pGXEfU_TA
+- _$s16EnergyKitService14EKSHomeManagerC17homeDidUpdateNameyySo6HMHomeCFTf4dd_nTm
+- _$s16EnergyKitService14EKSHomeManagerC9loadHomes33_EBCEF85564FEE208F9A37CB1430129D7LLyyYaFTY11_
+- _$s16EnergyKitService14EKSHomeManagerC9loadHomes33_EBCEF85564FEE208F9A37CB1430129D7LLyyYaFTY12_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaF
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TQ0_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TQ3_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TY1_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TY2_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TY4_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_TY5_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFAM_AM04HomeB6Events0E11WriterScopeOtSgyYaKXEfU_Tu
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTQ0_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTQ2_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTQ6_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY10_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY1_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY3_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY4_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY5_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY7_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY8_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTY9_
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTq
+- _$s16EnergyKitService16LoadEventManagerC16processAndUpload6events5venueSiSay0aB0010ElectricaldE0VG_10Foundation4UUIDVtYaFTu
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKF
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKFTQ1_
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKFTY0_
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKFTY2_
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKFTq
+- _$s16EnergyKitService16LoadEventManagerC23gridIDFromGuidanceToken5event6siteID05venueM0SSSg0aB0010ElectricaldE0V_10Foundation4UUIDVANtYaKFTu
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKF
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTQ3_
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTY0_
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTY1_
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTY2_
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTY4_
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTq
+- _$s16EnergyKitService16LoadEventManagerC7process5event6siteID05venueJ004homeJ004HomeB6Events0aB0O0dE0VAJ010ElectricaldE0V_10Foundation4UUIDVA2RtYaKFTu
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue3for5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23vqw27CSgSo7NSErrorCSgIeyByy_ADs5X12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC11energyVenue6homeID5replyy10Foundation4UUIDV_y0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtctF03$s9a5Kit23wqx27CSgSo7NSErrorCSgIeyByy_ADs5Y12_pSgIeggg_TRANSo7NSErrorCSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC12energyVenues5replyyy0aB009XPCEnergyQ9ContainerCSg_s5Error_pSgtc_tF03$s9a5Kit24sqt13CSgSo7NSErrorx11IeyByy_ADs5U12_pSgIeggg_TRAJSo0Z0CSgIeyByy_Tf1cn_nTf4ng_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14getMockOptionsSiyYaFyyYacfU_ToTQ1_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14getMockOptionsSiyYaFyyYacfU_ToTY0_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14getMockOptionsSiyYaFyyYacfU_ToTY3_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14setMockOptions7optionsySi_tYaFyyYacfU_ToTQ1_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14setMockOptions7optionsySi_tYaFyyYacfU_ToTY0_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC14setMockOptions7optionsySi_tYaFyyYacfU_ToTY3_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_n
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTQ1_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTQ3_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTY0_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTY2_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTY4_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC18validateAndForward10methodName9operationxSS_xyYaKXEtYaKlFSi_Tg504$s16ab9Service18d9Proxy33_2fghijklmN38AEDLLC14getMockOptionsSiyYaFSiyYaXEfU_ADTf1ncn_nTf4nng_nTu
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFTo
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyXEfU_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC33configureCostInclusionForGuidance10isIncluded3for5replyySb_10Foundation4UUIDVys5Error_pSgctFyyXEfU_TA
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFTo
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyXEfU_
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC36isCostInclusionConfiguredForGuidance3for5replyy10Foundation4UUIDV_ySb_s5Error_pSgtctFyyXEfU_TA
+- _$s16EnergyKitService18TCCValidatingProxy33_2D2DC1C7D933FC71CE72A1C07FFB3AEDLLC6gridID5venue16sandboxExtension5replyy10Foundation4UUIDV_0aB0010XPCSandboxT9ContainerCSgySSSg_s5Error_pSgtctF042$sSo8NSStringCSgSo7NSErrorCSgIeyByy_SSSgs5Z12_pSgIeggg_TRSo8NSStringCSgSo7NSErrorCSgIeyByy_Tf1nncn_nTf4nnng_n
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTQ2_
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTQ6_
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTY1_
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTY3_
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTY5_
+- _$s16EnergyKitService19EKSHomeManagerActorC15createFirstHomeSo6HMHomeCyYaKFTY7_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY0_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY1_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY2_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfCTY3_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTY0_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTY1_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTY2_
+- _$s16EnergyKitService21LoadEventsQueryEngineC6siteID03appI006deviceI05query6streamAC10Foundation4UUIDV_S2S0aB007InsightF7RequestCAA08CoreDataP6StreamCtYaKcfcTY3_
+- _$s16EnergyKitService26LoadEventProcessingContextV16sourceIdentifierSSvg
+- _$s16EnergyKitService26LoadEventProcessingContextV16sourceIdentifierSSvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextV5event0aB0010ElectricaldE0Vvg
+- _$s16EnergyKitService26LoadEventProcessingContextV5event0aB0010ElectricaldE0VvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextV5event16sourceIdentifier6siteID04gridL004homeL09certifiedAC0aB0010ElectricaldE0V_SS10Foundation4UUIDVSSAOSbtcfC
+- _$s16EnergyKitService26LoadEventProcessingContextV6gridIDSSvg
+- _$s16EnergyKitService26LoadEventProcessingContextV6gridIDSSvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextV6homeID10Foundation4UUIDVvg
+- _$s16EnergyKitService26LoadEventProcessingContextV6homeID10Foundation4UUIDVvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextV6siteID10Foundation4UUIDVvg
+- _$s16EnergyKitService26LoadEventProcessingContextV6siteID10Foundation4UUIDVvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextV9certifiedSbvg
+- _$s16EnergyKitService26LoadEventProcessingContextV9certifiedSbvpMV
+- _$s16EnergyKitService26LoadEventProcessingContextVMF
+- _$s16EnergyKitService26LoadEventProcessingContextVMa
+- _$s16EnergyKitService26LoadEventProcessingContextVMf
+- _$s16EnergyKitService26LoadEventProcessingContextVMl
+- _$s16EnergyKitService26LoadEventProcessingContextVMn
+- _$s16EnergyKitService26LoadEventProcessingContextVMr
+- _$s16EnergyKitService26LoadEventProcessingContextVN
+- _$s16EnergyKitService26LoadEventProcessingContextVWOh
+- _$s16EnergyKitService26LoadEventProcessingContextVWV
+- _$s16EnergyKitService26LoadEventProcessingContextVwet
+- _$s16EnergyKitService26LoadEventProcessingContextVwst
+- _$s17EnergyKitInternal04HomeA7ManagerC9getGridID5tokenSSSg10Foundation4UUIDV_tYaFTjTu
+- _$s17EnergyKitInternal04MockaB7OptionsVACSQAAWL
+- _$s17EnergyKitInternal04MockaB7OptionsVSQAAMc
+- _$s19EnergyKitFoundation0aB8FeaturesO30costInclusionInGuidanceAPI2025yA2CmFWC
+- _$s19EnergyKitFoundation0aB8FeaturesOAC12FeatureFlags0eF3KeyAAWlTm
+- _$s9EnergyKit19ElectricalLoadEventV0C11MeasurementV5levelSuvg
+- _$s9EnergyKit19ElectricalLoadEventV0C11MeasurementV5powerSuSgvg
+- _$s9EnergyKit19ElectricalLoadEventV0C11MeasurementV6energySuSgvg
+- _$s9EnergyKit19ElectricalLoadEventV0C11MeasurementV9directionAA24ElectricityFlowDirectionOvg
+- _$s9EnergyKit19ElectricalLoadEventV0C11MeasurementVMa
+- _$s9EnergyKit19ElectricalLoadEventV10DeviceTypeO15electricVehicleyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV10DeviceTypeO4hvacyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV10DeviceTypeO5otheryA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV10DeviceTypeOMa
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateV13guidanceToken10Foundation4UUIDVvg
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateV20wasFollowingGuidanceSbvg
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateV4typeAC0F4TypeOvg
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateV5stateAC0G0Ovg
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateV8deviceIDSSvg
+- _$s9EnergyKit19ElectricalLoadEventV11DeviceStateVMa
+- _$s9EnergyKit19ElectricalLoadEventV11deviceStateAC06DeviceG0Vvg
+- _$s9EnergyKit19ElectricalLoadEventV21electricalMeasurementAC0cG0Vvg
+- _$s9EnergyKit19ElectricalLoadEventV2id10Foundation4UUIDVvg
+- _$s9EnergyKit19ElectricalLoadEventV5StateO2onyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV5StateO3offyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV5StateO7pluggedyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV5StateO9unpluggedyA2EmFWC
+- _$s9EnergyKit19ElectricalLoadEventV5StateOMa
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV2id10Foundation4UUIDVvg
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV5StateO3endyA2GmFWC
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV5StateO5beginyA2GmFWC
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV5StateO6activeyA2GmFWC
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV5StateOMa
+- _$s9EnergyKit19ElectricalLoadEventV7SessionV5stateAE5StateOvg
+- _$s9EnergyKit19ElectricalLoadEventV7SessionVMa
+- _$s9EnergyKit19ElectricalLoadEventV7sessionAC7SessionVvg
+- _$s9EnergyKit19ElectricalLoadEventV7venueID10Foundation4UUIDVvg
+- _$s9EnergyKit19ElectricalLoadEventV9timestamp10Foundation4DateVvg
+- _$s9EnergyKit19ElectricalLoadEventVMa
+- _$s9EnergyKit19ElectricalLoadEventVMn
+- _$s9EnergyKit19InsightQueryRequestC10deviceTypeSuSgvg
+- _$s9EnergyKit19InsightQueryRequestC5range7options4type11granularity13flowDirection7venueID06deviceM00N4Type03appM09certifiedAC10Foundation12DateIntervalV_S4uAN4UUIDVSSSgSuSgSSSbtcfc
+- _$s9EnergyKit31XPCElectricalLoadEventContainerC5valueSayAA010ElectricaldE0VGvg
+- _$sSD6filterySDyxq_GSbx3key_q_5valuet_tKXEKFSS_SdTg50129$s16EnergyKitService0aB15AppTrackerQueryC16addGridIDToTrack6gridID04siteL0ySS_10Foundation4UUIDVtYaFyyYbXEfU_SbSS3key_Sd5valuet_tX10U_Tf4nnd_nTf1cn_nTf4g_n
+- _$sSS_yptWOc
+- _$sSbs5Error_pSgIegyg_10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_TR
+- _$sScPSgWOc
+- _$sScS12ContinuationVySay10Foundation4DataVG_GSgWOcTm
+- _$sScTss5Error_pRs_rlE8detached4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntFZyt_Tt2g5
+- _$sScTss5NeverORs_rlE8detached4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntFZyt_Tt2g5
+- _$sSo6HMHomeC16EnergyKitServiceE021createActivityHistoryB5Event7context04HomeC6Events0bC0O04LoadH0VAC0lH17ProcessingContextV_tKFZ
+- _$sSo6HMHomeC16EnergyKitServiceE11createEvent7context04HomeC6Events0bC0O04LoadF0VAC0jF17ProcessingContextV_tKFZ
+- _$sSo6HMHomeC16EnergyKitServiceE11createEvent7context04HomeC6Events0bC0O04LoadF0VAC0jF17ProcessingContextV_tKFZTm
+- _$sSo6HMHomeC16EnergyKitServiceE16createEventState5event6gridID04HomeC6Events0bC0O04LoadF0V0G0VAH010ElectricalmF0V_SStKFZ
+- _$sSo6HMHomeC16EnergyKitServiceE18createEventSession5event04HomeC6Events0bC0O04LoadF0V0G0VAG010ElectricalkF0V_tKFZ
+- _$sSo6HMHomeC16EnergyKitServiceE27createEventGuidanceBehavior5event6gridID04HomeC6Events0bC0O0gH0OAH014ElectricalLoadF0V_SStFZ
+- _$sSo6HMHomeC16EnergyKitServiceE28createElectricHVACEventState5event6gridID04HomeC6Events0bC0O9LoadEventV0H0VAH010ElectricalnO0V_SStKFZ
+- _$sSo6HMHomeC16EnergyKitServiceE31createElectricVehicleEventState5event6gridID04HomeC6Events0bC0O04LoadH0V0I0VAH010ElectricaloH0V_SStKFZ
+- _$sSo6HMUserCMa
+- _$ss10_NativeSetV4copyyyF13HomeKitEvents9SomeEventO_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation20InsightRecordPayloadV_Tg5Tm
+- _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s17_NativeDictionaryVySSSdG_Tg506$ss17_gh46V6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_aB15VKXEfU_SS_SdTG5AHxq_Sbs5Error_pRi_zRi0_zRi__Ri0__r0_lySSSdIsgnndzo_Tf1nc_n075$s16EnergyKitService0aB15AppTrackerQueryC16addGridIDToTrack6gridID04siteL0yP65_10Foundation4UUIDVtYaFyyYbXEfU_SbSS3key_Sd5valuet_tXEfU_Tf4nnd_nTf1nnc_n
+- _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_UnsafeBitsetVKXEfU_SS_SdTg5142$s16EnergyKitService0aB15AppTrackerQueryC16addGridIDToTrack6gridID04siteL0ySS_10Foundation4UUIDVtYaFyyYbXEfU_SbSS3key_Sd5valuet_tXEfU_Tf4nnd_nTf1nnc_n
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19EnergyKitFoundation17UsagePointPayloadV13TariffProfileV_Tg5
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$sypWOb
+- __OBJC_$_INSTANCE_METHODS__TtC16EnergyKitService15CombinedService(EnergyKitService|EnergyKitService1|EnergyKitService2|EnergyKitService3|EnergyKitService4|EnergyKitService5|EnergyKitService6)
+- ___swift_destroy_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_EnergyKitService
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_EnergyKitService
+- _objc_msgSend$configureCostInclusionForGuidanceWithIsIncluded:for:reply:
+- _objc_msgSend$includeCost
+- _objc_msgSend$isCostInclusionConfiguredForGuidanceFor:reply:
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unknownObjectRelease_n
+- _symbolic Sb______pSgIegyg_ s5ErrorP
+- _symbolic _____ 16EnergyKitService26LoadEventProcessingContextV
+- _symbolic _____ 9EnergyKit19ElectricalLoadEventV
+- _symbolic _____Sg 12HomeServices12NetworkErrorO
+- _symbolic _____Sg 12HomeServices20HSHistoricalGuidanceV
+- _symbolic _____Sg 13HomeKitEvents06EnergyB0O16LoadSessionEventV5BlockV
+- _symbolic _____Sg 13HomeKitEvents06EnergyB0O20LoadDailyDigestEventV5ValueV
+- _symbolic _____So7NSErrorCSgIeyByy_ 10ObjectiveC8ObjCBoolV
+- _symbolic ______AA_____t 10Foundation4UUIDV 13HomeKitEvents16EventWriterScopeO
+- _symbolic ______AA_____tSg 10Foundation4UUIDV 13HomeKitEvents16EventWriterScopeO
+- block_copy_helper.102
+- block_copy_helper.105
+- block_copy_helper.112
+- block_copy_helper.121
+- block_copy_helper.128
+- block_copy_helper.134
+- block_copy_helper.137
+- block_copy_helper.144
+- block_copy_helper.153
+- block_copy_helper.176
+- block_copy_helper.183
+- block_copy_helper.192
+- block_copy_helper.195
+- block_copy_helper.201
+- block_copy_helper.208
+- block_copy_helper.24
+- block_copy_helper.28
+- block_copy_helper.34
+- block_copy_helper.35
+- block_copy_helper.39
+- block_copy_helper.40
+- block_copy_helper.49
+- block_copy_helper.50
+- block_copy_helper.58
+- block_copy_helper.62
+- block_copy_helper.68
+- block_copy_helper.70
+- block_copy_helper.74
+- block_copy_helper.77
+- block_copy_helper.8
+- block_copy_helper.81
+- block_copy_helper.83
+- block_copy_helper.86
+- block_descriptor.10
+- block_descriptor.104
+- block_descriptor.107
+- block_descriptor.114
+- block_descriptor.123
+- block_descriptor.130
+- block_descriptor.136
+- block_descriptor.139
+- block_descriptor.146
+- block_descriptor.155
+- block_descriptor.178
+- block_descriptor.185
+- block_descriptor.194
+- block_descriptor.197
+- block_descriptor.203
+- block_descriptor.210
+- block_descriptor.26
+- block_descriptor.30
+- block_descriptor.36
+- block_descriptor.37
+- block_descriptor.41
+- block_descriptor.42
+- block_descriptor.51
+- block_descriptor.52
+- block_descriptor.60
+- block_descriptor.64
+- block_descriptor.70
+- block_descriptor.72
+- block_descriptor.76
+- block_descriptor.79
+- block_descriptor.83
+- block_descriptor.85
+- block_descriptor.88
+- block_destroy_helper.103
+- block_destroy_helper.106
+- block_destroy_helper.113
+- block_destroy_helper.122
+- block_destroy_helper.129
+- block_destroy_helper.135
+- block_destroy_helper.138
+- block_destroy_helper.145
+- block_destroy_helper.154
+- block_destroy_helper.177
+- block_destroy_helper.184
+- block_destroy_helper.193
+- block_destroy_helper.196
+- block_destroy_helper.202
+- block_destroy_helper.209
+- block_destroy_helper.25
+- block_destroy_helper.29
+- block_destroy_helper.35
+- block_destroy_helper.36
+- block_destroy_helper.40
+- block_destroy_helper.41
+- block_destroy_helper.50
+- block_destroy_helper.51
+- block_destroy_helper.59
+- block_destroy_helper.63
+- block_destroy_helper.69
+- block_destroy_helper.71
+- block_destroy_helper.75
+- block_destroy_helper.78
+- block_destroy_helper.82
+- block_destroy_helper.84
+- block_destroy_helper.87
+- block_destroy_helper.9
+- objectdestroy.16Tm
+- objectdestroy.19Tm
+- objectdestroy.28Tm
+- objectdestroy.31Tm
+- objectdestroy.3Tm
+- objectdestroy.54Tm
+- objectdestroy.5Tm
+- objectdestroy.7Tm
+CStrings:
++ "\"Failed to fetch energy trend %s for device %{private}sapp %{private}s at venue %{private}s: %@"
++ "769BE669-2661-4F74-B58D-F266C135BAE4"
++ "Connection established to EnergyKit API for electricalLoadDevices"
++ "EnergyKitService7"
++ "EnergyKitService8"
++ "Permission denied: certified queries require SPI entitlement"
++ "[DeviceInsights] Pending insight generation failed: %@"
++ "[EnergyTrendQuery] Failed to fetch most prominent trend for device %{private}s at site %s: %@"
++ "[GuidanceIDTrackerQuery] Failed to fetch gridID for token: %@"
++ "[GuidanceIDTrackerQuery] Venue token expired, needs refresh"
++ "[GuidanceIDTrackerQuery] Venue token missing timestamp, treating as expired"
++ "[HistoricalWindows] Converter returned nil for chunk %s to %s"
++ "[HistoricalWindows] Failed to create client proxy"
++ "[HistoricalWindows] Failed to setup client connection with error %@"
++ "[HistoricalWindows] No guidance data for chunk %s to %s"
++ "[HistoricalWindows] Permission denied: client not entitled"
++ "[HistoricalWindows] Sending batch with %ld windows for %s to %s"
++ "[HistoricalWindows] Taking extended lifetime"
++ "[InsightOperations] Feature disabled - sessions permitted: 1"
++ "[InsightOperations] Feature enabled - sessions permitted: %ld"
++ "[LoadEventManager] Direct write mock enabled. Writing to raw store"
++ "[LoadEventManager] Failed to forward activity log events to owner: %@"
++ "[LoadEventManager] Fetched and cached GridID for continuous event: %s"
++ "[LoadEventManager] Forwarding %ld activity log events to owner"
++ "[LoadEventManager] Grid lookup failed for continuous event, proceeding without gridID: %@"
++ "[LoadEventManager] Guidance token lookup failed for continuous monitoring event,fetching gridID from venue"
++ "[LoadEventManager] Missing application identifier"
++ "[LoadEventManager] Processing %ld events from%s (certified: %{bool}d)"
++ "[LoadEventManager] Rejecting status event from uncertified client"
++ "[LoadEventManager] Retrieved GridID from cache using venueID token"
++ "[LoadEventsQueryEngine] Certified hourly insights using GMT timezone"
++ "[LoadEventsQueryEngine] Certified insights using timezone: %s"
++ "[LoadEventsQueryEngine] Device cache is empty for siteID: %s."
++ "[LoadEventsQueryEngine] ERROR: aggregateIntoLastRecord called with empty array"
++ "[LoadEventsQueryEngine] Failed to decode continuous consumption: %@"
++ "[LoadEventsQueryEngine] Failed to decode continuous production: %@"
++ "[LoadEventsQueryEngine] Failed to decode hourly consumption: %@"
++ "[LoadEventsQueryEngine] Failed to decode hourly production: %@"
++ "[LoadEventsQueryEngine] Failed to fetch devices from cache: %@"
++ "[LoadEventsQueryEngine] No certified %s digest data found for query range"
++ "[LoadEventsQueryEngine] No site timezone found, using GMT fallback"
++ "[LoadEventsQueryEngine] Returning %ld electrical load devices from cache for siteID: %s"
++ "[LoadEventsQueryEngine] Using site timezone: %s"
++ "[PendingInsightQueryEngine] Continuous fetch error: %@"
++ "[PendingInsightQueryEngine] Session fetch error: %@"
++ "[PendingRefresh] Debounce blocked refresh for siteID %s"
++ "[PendingRefresh] Debounce passed, refreshing siteID %s"
++ "[PendingSubscription] New events downloaded, posting notification for siteID %s"
++ "[PendingSubscription] No new events, skipping notification for siteID %s"
++ "[PendingSubscription] Timer exited unexpectedly: %@"
++ "[PendingSubscription] register: first registration for %s, interval=%fs"
++ "[PendingSubscription] register: new venue %s, interval=%fs"
++ "[PendingSubscription] register: resume for %s, nextFireDate=%s"
++ "[PendingSubscription] start: pre-first-tick, firstDelay=%ss (interval=%fs)"
++ "[PendingSubscription] start: resuming mid-interval, firstDelay=%ss"
++ "[PendingSubscription] tick: refreshing siteID %s, nextFireDate=%s"
++ "[PendingSubscription] unregister: ignored stale siteID %s"
++ "[PendingSubscription] unregister: pausing timer for %s, nextFireDate=%s"
++ "[RatePeriodWindows] Failed to create client proxy"
++ "[RatePeriodWindows] Failed to resolve venue %s"
++ "[RatePeriodWindows] Failed to setup client connection with error %@"
++ "[RatePeriodWindows] Permission denied: client not entitled"
++ "[RatePeriodWindows] Sending batch with %ld windows for %s to %s"
++ "[RatePeriodWindows] Site not utility-onboarded or population failed"
++ "[RatePeriodWindows] Taking extended lifetime"
++ "[RawLoadEventInsert] Failed to save continuous events: %@"
++ "[RawLoadEventInsert] Failed to save load events: %@"
++ "[RawLoadEvent] Failed to fetch most common gridID: %@"
++ "[RawLoadEvent] Most common gridID for site %s: %s"
++ "[SiteOperations] Cannot find site for venue: %s"
++ "[SiteOperations] Found gridID from home location"
++ "[SiteOperations] Found gridID from inferred device location"
++ "[SiteOperations] Found gridID from utility address"
++ "[SiteOperations] Inferred gridID from load events: %s"
++ "[SiteOperations] Inferring gridID from device load events"
++ "[SiteOperations] Invalid location source: %ld"
++ "[SiteOperations] Looking up gridID for venue %s with source: %s"
++ "[SiteOperations] No gridID found in load events"
++ "[SiteOperations] Use home location for gridID"
++ "[TOUPeakQueryResult] Failed to decode peaks: %@"
++ "[TOUPeakQueryResult] Failed to decode single peak: %@"
++ "[TOUPeakQuery] Failed to fetch TOUPeaks for %s:%s: %@"
++ "[TrendOperations] Connection established to EnergyKit API"
++ "[TrendOperations] Failed to fetch trend %s: %@"
++ "[TrendOperations] Invalid application-identifier"
++ "[TrendOperations] Taking extended lifetime"
++ "[TrendOperations] missing SPI entitlement"
++ "[WholeHomeInsights] Failed to get Grid Guidance"
++ "_TtC16EnergyKitService12TOUPeakQuery"
++ "_TtC16EnergyKitService16EnergyTrendQuery"
++ "_TtC16EnergyKitService17RawLoadEventQuery"
++ "_TtC16EnergyKitService18RawLoadEventInsert"
++ "_TtC16EnergyKitService22GuidanceIDTrackerQuery"
++ "_TtC16EnergyKitService22PendingRefreshDebounce"
++ "_TtC16EnergyKitService25PendingInsightQueryEngine"
++ "_TtC16EnergyKitService33PendingInsightSubscriptionManager"
++ "__swift_objectForKeyedSubscript:"
++ "batchedHistoricalEnergyWindows"
++ "batchedHistoricalEnergyWindowsWithDateInterval:gridID:endpoint:ekSandboxExtension:completion:"
++ "batchedRatePeriodWindows"
++ "batchedRatePeriodWindowsWithDateInterval:venueID:endpoint:completion:"
++ "celsius"
++ "certifiedCapabilityEntitled"
++ "com.apple.EnergyKitService.historicalWindows"
++ "com.apple.EnergyKitService.ratePeriodWindows"
++ "com.apple.developer.energykit.loadevents-experience"
++ "cooldown"
++ "createdAt"
++ "currentSiteID"
++ "defaultCenter"
++ "descriptor"
++ "deviceIdentifier"
++ "deviceName"
++ "deviceType"
++ "electricalLoadDevices"
++ "electricalLoadDevicesFor:reply:"
++ "end"
++ "energyTrendForDeviceID:applicationID:trendID:atVenue:reply:"
++ "expirationDate"
++ "expressionForFunction:arguments:"
++ "expressionForKeyPath:"
++ "generationDate"
++ "gmtCalendar"
++ "home:didUpdateAudioGroupsController:"
++ "home:didUpdateClipCaptionLocales:"
++ "home:didUpdateClipCaptioningEnabled:"
++ "home:didUpdateClipCaptioningEnabledCameras:"
++ "hourlyConsumptionData"
++ "hourlyProductionData"
++ "inferredGridID(venue:source:)"
++ "inferredGridIDWithVenue:source:sandboxExtension:reply:"
++ "initWithEntityName:"
++ "interval"
++ "isVenueToken"
++ "kilometers"
++ "lastRefreshTime"
++ "learnMoreURL"
++ "loadEventType == %@ AND siteIdentifier == %@ AND sourceIdentifier == %@ AND deviceIdentifier == %@ AND timestamp >= %@ AND timestamp < %@"
++ "milliwatts"
++ "mostProminentTrend"
++ "mostProminentTrendWithSiteID:deviceID:applicationID:reply:"
++ "nextFireDate"
++ "notificationCenter"
++ "peaks"
++ "postNotificationName:object:userInfo:deliverImmediately:"
++ "receiveHistoricalEnergyWindows:finished:completionHandler:"
++ "receiveRatePeriodWindows:finished:completionHandler:"
++ "refreshAction"
++ "registerPendingInterest"
++ "registerPendingInterestWithSiteID:refreshInterval:reply:"
++ "registrationDate"
++ "setCertified:"
++ "setCircuitScope:"
++ "setConsumptionEnergyMilliwattHours:"
++ "setConsumptionPowerMilliwatts:"
++ "setDeviceIdentifier:"
++ "setDeviceName:"
++ "setExpression:"
++ "setExpressionResultType:"
++ "setFetchOffset:"
++ "setGuidanceFollowed:"
++ "setGuidanceGridID:"
++ "setHasEnergyData:"
++ "setHomeIdentifier:"
++ "setLevel:"
++ "setLoadEventType:"
++ "setLoadState:"
++ "setName:"
++ "setPerformanceMetricsData:"
++ "setProductionEnergyMilliwattHours:"
++ "setProductionPowerMilliwatts:"
++ "setPropertiesToGroupBy:"
++ "setSessionID:"
++ "setSessionState:"
++ "setSiteIdentifier:"
++ "setSourceIdentifier:"
++ "setTimestamp:"
++ "setVersion:"
++ "siteID == %@ AND deviceID == %@ AND isSuppressed == NO AND (expirationDate == nil OR expirationDate > %@)"
++ "siteID == %@ AND deviceID == %@ AND sourceID == %@ AND isSuppressed == NO AND (expirationDate == nil OR expirationDate > %@)"
++ "siteIdentifier = %@ AND sourceIdentifier = %@ AND deviceIdentifier = %@ AND blockStart >= %@ AND blockStart < %@ AND isConsumptionBlock = %@"
++ "siteIdentifier == %@"
++ "siteIdentifier == %@ AND sourceIdentifier == %@ AND deviceIdentifier == %@ AND loadType == %@ AND endDate == %@"
++ "sourceIdentifier"
++ "start"
++ "subType"
++ "subscriptionID == %@ AND utilityID == %@"
++ "tariffProfileID"
++ "tariffProfileID = %@ AND utilityID = %@ AND start < %@ AND end > %@"
++ "tariffProfileID == %@ AND utilityID == %@ AND start <= %@ AND end >= %@"
++ "timerTask"
++ "timezone"
++ "trendBody"
++ "trendComparisonIntervalEnd"
++ "trendComparisonIntervalStart"
++ "trendCurrentIntervalEnd"
++ "trendCurrentIntervalStart"
++ "trendID"
++ "trendID == %@ AND deviceID == %@ AND sourceID == %@ AND siteID == %@"
++ "trendTitle"
++ "trendType"
++ "unregisterPendingInterest"
++ "unregisterPendingInterestWithSiteID:reply:"
++ "v24@?0@\"_TtC9EnergyKit23XPCEnergyTrendContainer\"8@\"NSError\"16"
++ "v24@?0@\"_TtC9EnergyKit33XPCElectricalLoadDevicesContainer\"8@\"NSError\"16"
++ "v32@0:8@\"HMHome\"16@\"HMMediaGroupsController\"24"
++ "v32@0:8@\"HMHome\"16@\"NSSet\"24"
++ "v32@0:8@\"NSUUID\"16@?<v@?>24"
++ "v32@0:8@\"NSUUID\"16@?<v@?@\"_TtC9EnergyKit33XPCElectricalLoadDevicesContainer\"@\"NSError\">24"
++ "v32@?0@\"NSString\"8@\"NSNumber\"16@\"NSError\"24"
++ "v36@0:8@\"_TtC9EnergyKit29XPCRatePeriodWindowsContainer\"16B24@?<v@?>28"
++ "v36@0:8@\"_TtC9EnergyKit35XPCHistoricalEnergyWindowsContainer\"16B24@?<v@?>28"
++ "v36@0:8@16B24@?28"
++ "v40@0:8@\"NSUUID\"16d24@?<v@?>32"
++ "v40@0:8@16d24@?32"
++ "v48@0:8@\"NSDateInterval\"16@\"NSUUID\"24@\"NSXPCListenerEndpoint\"32@?<v@?>40"
++ "v48@0:8@\"NSUUID\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"_TtC9EnergyKit23XPCEnergyTrendContainer\"@\"NSError\">40"
++ "v48@0:8@\"NSUUID\"16q24@\"_TtC9EnergyKit28XPCSandboxExtensionContainer\"32@?<v@?@\"NSString\"@\"NSNumber\"@\"NSError\">40"
++ "v48@0:8@16q24@32@?40"
++ "v56@0:8@\"NSDateInterval\"16@\"NSString\"24@\"NSXPCListenerEndpoint\"32@\"_TtC9EnergyKit28XPCSandboxExtensionContainer\"40@?<v@?>48"
++ "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSUUID\"32@\"NSUUID\"40@?<v@?@\"_TtC9EnergyKit23XPCEnergyTrendContainer\"@\"NSError\">48"
++ "v56@0:8@16@24@32@40@?48"
+- "Failed to fetch cost inclusion for %s at site %{private}s: %@"
+- "[InsightOperations] Compile flag disabled - sessions permitted: 1"
+- "[LoadEventManager] Did not process unsupported event"
+- "[LoadEventManager] Event has venueID different from submission venueID"
+- "[LoadEventManager] Processing Load %s from %s (certified: %{bool}d)"
+- "configureCostInclusionForGuidance"
+- "configureCostInclusionForGuidanceWithIsIncluded:for:reply:"
+- "includeCost"
+- "isCostInclusionConfiguredForGuidance"
+- "isCostInclusionConfiguredForGuidanceFor:reply:"
+- "siteIdentifier = %@ AND sourceIdentifier = %@ AND deviceIdentifier = %@ AND blockStart >= %@ AND blockEnd <= %@ AND isConsumptionBlock = %@"
+- "v20@?0B8@\"NSError\"12"
+- "v32@0:8@\"NSUUID\"16@?<v@?B@\"NSError\">24"
+- "v36@0:8B16@\"NSUUID\"20@?<v@?@\"NSError\">28"
+- "v36@0:8B16@20@?28"
+
+```

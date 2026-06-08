@@ -1,0 +1,810 @@
+## DropletUI
+
+> `/System/Library/PrivateFrameworks/DropletUI.framework/DropletUI`
+
+```diff
+
+-82.2.1.100.0
+-  __TEXT.__text: 0x35454
+-  __TEXT.__auth_stubs: 0x9d0
++100.0.0.0.0
++  __TEXT.__text: 0x34b10
+   __TEXT.__objc_methlist: 0x1344
+   __TEXT.__const: 0xc48
+   __TEXT.__constg_swiftt: 0xee8
+-  __TEXT.__swift5_typeref: 0x7fd
++  __TEXT.__swift5_typeref: 0x811
+   __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_reflstr: 0xa02
+   __TEXT.__swift5_fieldmd: 0x85c
+
+   __TEXT.__cstring: 0x1099
+   __TEXT.__swift5_capture: 0x71c
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0xdc0
++  __TEXT.__unwind_info: 0xe10
+   __TEXT.__eh_frame: 0x80
+-  __TEXT.__objc_classname: 0x444
+-  __TEXT.__objc_methname: 0x44a5
+-  __TEXT.__objc_methtype: 0xa82
+-  __TEXT.__objc_stubs: 0x2660
+-  __DATA_CONST.__got: 0x258
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x678
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xad0
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x4f0
++  __DATA_CONST.__got: 0x258
+   __AUTH_CONST.__const: 0x1a60
+   __AUTH_CONST.__objc_const: 0x2578
++  __AUTH_CONST.__auth_got: 0x598
+   __AUTH.__objc_data: 0x5e8
+-  __DATA.__data: 0x878
++  __DATA.__data: 0x888
+   __DATA.__bss: 0x480
+   __DATA_DIRTY.__objc_data: 0x1448
+-  __DATA_DIRTY.__data: 0x5f8
++  __DATA_DIRTY.__data: 0x638
+   __DATA_DIRTY.__bss: 0x500
+   __DATA_DIRTY.__common: 0xb0
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9181C831-E680-31FA-B21B-D7B1ABF8BF63
+-  Functions: 1534
+-  Symbols:   1167
+-  CStrings:  709
++  UUID: 06834BB6-54CF-305C-8FF6-8ADBD75336E2
++  Functions: 1536
++  Symbols:   1372
++  CStrings:  108
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_closure_destructor
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.239
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.247
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.251
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.280Tm
++ ___swift_closure_destructor.283
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.82Tm
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_DropletUI
++ _block_copy_helper.11
++ _block_copy_helper.268
++ _block_copy_helper.273
++ _block_copy_helper.276
++ _block_copy_helper.285
++ _block_copy_helper.296
++ _block_copy_helper.32
++ _block_descriptor.13
++ _block_descriptor.270
++ _block_descriptor.275
++ _block_descriptor.278
++ _block_descriptor.287
++ _block_descriptor.298
++ _block_descriptor.34
++ _block_destroy_helper.12
++ _block_destroy_helper.269
++ _block_destroy_helper.274
++ _block_destroy_helper.277
++ _block_destroy_helper.286
++ _block_destroy_helper.297
++ _block_destroy_helper.33
++ _objc_retain_x9
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x8
++ _symbolic SO3key______5valuet 9DropletUI0A14BackgroundViewC0C4TypeO
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DropletUI
+- _block_copy_helper.246
+- _block_copy_helper.251
+- _block_copy_helper.254
+- _block_copy_helper.263
+- _block_copy_helper.274
+- _block_copy_helper.281
+- _block_descriptor.248
+- _block_descriptor.253
+- _block_descriptor.256
+- _block_descriptor.265
+- _block_descriptor.276
+- _block_descriptor.283
+- _block_destroy_helper.247
+- _block_destroy_helper.252
+- _block_destroy_helper.255
+- _block_destroy_helper.264
+- _block_destroy_helper.275
+- _block_destroy_helper.282
+- _objectdestroy.13Tm
+- _objectdestroy.258Tm
+- _objectdestroy.75Tm
+- _objectdestroyTm
+- _swift_unknownObjectRelease_n
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_adaptiveColorMatrixView"
+- "$__lazy_storage_$_blurredKeylineEffectView"
+- "$__lazy_storage_$_bottomGradientView"
+- "$__lazy_storage_$_colorView"
+- "$__lazy_storage_$_containerViewsParentView"
+- "$__lazy_storage_$_defaultBehaviorSettings"
+- "$__lazy_storage_$_dropletShapeView"
+- "$__lazy_storage_$_gradientViews"
+- "$__lazy_storage_$_keylineEffectView"
+- "$__lazy_storage_$_leftGradientView"
+- "$__lazy_storage_$_lightView"
+- "$__lazy_storage_$_mainEffectView"
+- "$__lazy_storage_$_noiseView"
+- "$__lazy_storage_$_rightGradientView"
+- "$__lazy_storage_$_shadowEffectView"
+- "$__lazy_storage_$_topGradientView"
+- "$__lazy_storage_$_whiteView"
+- ".cxx_destruct"
+- "@\"<DRPDropletContextKeylineStyle>\""
+- "@\"NSString\"16@0:8"
+- "@\"SUIAColorMatrixPrototypeSettings\""
+- "@\"SUIAFluidBehaviorSettings\""
+- "@\"UIColor\""
+- "@\"UIView\""
+- "@104@0:8d16d24{UIEdgeInsets=dddd}32{UIEdgeInsets=dddd}64@96"
+- "@112@0:8d16d24{CAColorMatrix=ffffffffffffffffffff}32"
+- "@120@0:8d16d24{UIEdgeInsets=dddd}32{UIEdgeInsets=dddd}64d96d104@112"
+- "@16@0:8"
+- "@176@0:8d16d24{UIEdgeInsets=dddd}32{UIEdgeInsets=dddd}64{CAColorMatrix=ffffffffffffffffffff}96"
+- "@180@0:8B16Q20B28B32d36d44d52d60d68d76d84d92{UIEdgeInsets=dddd}100{UIEdgeInsets=dddd}132d164d172"
+- "@192@0:8d16d24{UIEdgeInsets=dddd}32{UIEdgeInsets=dddd}64d96d104{CAColorMatrix=ffffffffffffffffffff}112"
+- "@20@0:8B16"
+- "@216@0:8{CGSize=dd}16Q32d40d48{CGSize=dd}56d72{CATransform3D=dddddddddddddddd}80d208"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@252@0:8d16d24Q32d40d48d56{CATransform3D=dddddddddddddddd}64@192d200B208{UIEdgeInsets=dddd}212@244"
+- "@28@0:8B16Q20"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8d16d24@32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@48@0:8{CGSize=dd}16d32d40"
+- "@52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48"
+- "@72@0:8{CGSize=dd}16d32Q40d48d56d64"
+- "@76@0:8{CGSize=dd}16{CGSize=dd}32d48d56B64d68"
+- "@80@0:8{CGSize=dd}16Q32d40d48d56d64d72"
+- "@?16@0:8"
+- "@?24@0:8@16"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BSInvalidatable"
+- "CGColor"
+- "DRPDropletAnimationCoordinator"
+- "DRPDropletContainerView"
+- "DRPDropletContextAdaptiveKeylineStyle"
+- "DRPDropletContextIntelligentEdgeLightKeylineStyle"
+- "DRPDropletContextKeylineStyle"
+- "DRPDropletContextSolidColorKeylineStyle"
+- "DRPDropletContextView"
+- "DRPDropletPrototypeSettings"
+- "DRPDropletPrototypeSettingsDomain"
+- "DRPDropletViewConfiguration"
+- "NSObject"
+- "PTSettingsKeyObserver"
+- "Q"
+- "Q16@0:8"
+- "T#,N,R"
+- "T#,R"
+- "T@\"<DRPDropletContextKeylineStyle>\",N,&,VkeylineStyle"
+- "T@\"<UIViewSpringAnimationBehaviorDescribing>\",N,&"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"SUIAColorMatrixPrototypeSettings\",N,&,VedgeContentPresentedKeylineAdaptiveColorMatrix"
+- "T@\"SUIAColorMatrixPrototypeSettings\",N,&,VedgeHintKeylineAdaptiveColorMatrix"
+- "T@\"SUIAColorMatrixPrototypeSettings\",N,&,VintelligentEdgeLightKeylineStyleColorMatrix"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeContentPresentedCenterXAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeContentPresentedCenterYAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeContentPresentedContainerHeightAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeContentPresentedContainerWidthAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeContentPresentedKeylineStyleAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeHintCenterXAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeHintCenterYAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeHintContainerHeightAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeHintContainerWidthAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VedgeHintKeylineStyleAnimationSettings"
+- "T@\"SUIAFluidBehaviorSettings\",N,&,VintelligentEdgeLightKeylineStyleDefaultBehaviorSettings"
+- "T@\"UIColor\",N,&,Vcolor"
+- "T@\"UIColor\",N,&,VdropletColor"
+- "T@\"UIView\",N,&,VcontentView"
+- "TB,N"
+- "TB,N,VdisableDropletEffectFilters"
+- "TB,N,VintelligentEdgeLightKeylineStyleHardRimIsSoft"
+- "TB,N,VintelligentEdgeLightKeylineStyleHardScreenBlendMode"
+- "TB,N,VintelligentEdgeLightKeylineStyleSoftRimIsSoft"
+- "TB,N,VintelligentEdgeLightKeylineStyleSoftScreenBlendMode"
+- "TB,N,VpreferAudioReactivity"
+- "TB,N,VscreenBlendMode"
+- "TB,N,VsoftRim"
+- "TB,N,VsuppressCompositingFilterDestOut"
+- "TB,N,VsuppressCompositingFilterMultiply"
+- "TB,N,VsuppressDropletEffectFilters"
+- "TQ,N"
+- "TQ,N,VboundaryEdges"
+- "TQ,N,Vstyle"
+- "TQ,R"
+- "Td,N"
+- "Td,N,Valpha"
+- "Td,N,VcenterX"
+- "Td,N,VcenterY"
+- "Td,N,VcontainerCornerRadius"
+- "Td,N,VcontainerHeight"
+- "Td,N,VcontainerWidth"
+- "Td,N,VdropletRadius"
+- "Td,N,VedgeContentPresentedKeylineInnerWidth"
+- "Td,N,VedgeContentPresentedKeylineOuterWidth"
+- "Td,N,VedgeHintKeylineInnerWidth"
+- "Td,N,VedgeHintKeylineOuterWidth"
+- "Td,N,VedrGain"
+- "Td,N,VinnerWidth"
+- "Td,N,VintelligentEdgeLightEDRGainAmount"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardAlpha"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardLargeAmount"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardLargeBlurRadius"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardLargeEnd"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardLargeStart"
+- "Td,N,VintelligentEdgeLightKeylineStyleHardSmallWidth"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftAlpha"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftLargeAmount"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftLargeBlurRadius"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftLargeEnd"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftLargeStart"
+- "Td,N,VintelligentEdgeLightKeylineStyleSoftSmallWidth"
+- "Td,N,VkeylineBlurRadius"
+- "Td,N,VkeylineInputAmount"
+- "Td,N,VkeylineInputEnd"
+- "Td,N,VkeylineInputStart"
+- "Td,N,VnormalizedStartLocation"
+- "Td,N,VnormalizedStopLocation"
+- "Td,N,VouterWidth"
+- "Td,N,VrightEdgeHintDropletRadius"
+- "Td,N,VrightEdgeHintSize"
+- "T{CAColorMatrix=ffffffffffffffffffff},N,VadaptiveColorMatrix"
+- "T{CATransform3D=dddddddddddddddd},N"
+- "T{CATransform3D=dddddddddddddddd},N,VcontainerTransform"
+- "T{CGAffineTransform=dddddd},N"
+- "T{CGPoint=dd},N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
+- "T{UIEdgeInsets=dddd},N"
+- "T{UIEdgeInsets=dddd},N,VboundaryOutsets"
+- "T{UIEdgeInsets=dddd},N,VkeylineFadeLengths"
+- "T{UIEdgeInsets=dddd},N,VkeylineOutsets"
+- "UIViewSpringAnimationBehaviorDescribing"
+- "Vv16@0:8"
+- "WellKnownDropletConfigurations"
+- "^{_NSZone=}16@0:8"
+- "_TtC9DropletUI11BlurredView"
+- "_TtC9DropletUI12GradientView"
+- "_TtC9DropletUI16DropletGroupView"
+- "_TtC9DropletUI16DropletShapeView"
+- "_TtC9DropletUI17DropletEffectView"
+- "_TtC9DropletUI19DropletBoundaryView"
+- "_TtC9DropletUI21DropletBackgroundView"
+- "_TtC9DropletUI22DropletParticipantView"
+- "_TtC9DropletUI25AnimatableIntelligentView"
+- "_TtC9DropletUI30DropletParticipantTrackingView"
+- "_TtC9DropletUI33AnimatableAdaptiveColorMatrixView"
+- "_TtC9DropletUIP33_1A307C73748F469B76839B7113A1F63419AnimatableLightView"
+- "_animateUsingSpringBehavior:tracking:animations:completion:"
+- "_anyAnimationCompletionBlock"
+- "_continuousCornerRadius"
+- "_createTransformerWithInputAnimatableProperties:modelValueSetter:presentationValueSetter:"
+- "_modifyAnimationsByDecomposingGeometricTypes:animations:"
+- "_performWithoutRetargetingAnimations:"
+- "_removeAllRetargetableAnimations:"
+- "_setContinuousCornerRadius:"
+- "_setPresentationValue:forKey:"
+- "_setVelocity:forKey:"
+- "_shouldAnimatePropertyWithKey:"
+- "acquireForReason:"
+- "acquireGeometricChangeAssertionForReason:"
+- "actionWithSettingsKeyPath:"
+- "adaptiveColorMatrix"
+- "addAlongsideAnimationBlockForKeyPath:animationBlock:"
+- "addAnimationCompletionBlockForKeyPath:animationCompletionBlock:"
+- "addAnyAnimationCompletionBlock:"
+- "addContainerWithContentView:"
+- "addKeyObserver:"
+- "addSubview:"
+- "alpha"
+- "alphaThresholdEnabledAnimatableProperty"
+- "animateWithSettingsBlock"
+- "animationBlockForKeyPath:"
+- "animationBlockMap"
+- "animationCompletionBlockForKeyPath:"
+- "animationCompletionBlockMap"
+- "anyAnimationCompletionBlock"
+- "appliedViewConfigurationMapTable"
+- "applyKeylineStyle:forContainerView:"
+- "applyViewConfiguration:animated:tracking:containerView:contextView:"
+- "assertionWithIdentifier:stateDidChangeHandler:"
+- "autorelease"
+- "backgroundType"
+- "behaviorSettingsForKeyPath:"
+- "behaviorSettingsMap"
+- "between:and:"
+- "blackColor"
+- "blurEnabledAnimatableProperty"
+- "boundaryEdges"
+- "boundaryEdgesPreference"
+- "boundaryOutsets"
+- "boundaryReferenceBounds"
+- "bounds"
+- "caColorMatrix"
+- "center"
+- "centerX"
+- "centerY"
+- "changeToIntelligentLightStyle:preferAudioReactivity:canvasSize:"
+- "class"
+- "clearColor"
+- "color"
+- "colorMatrix"
+- "colorWithAlphaComponent:"
+- "compositingFilter"
+- "conformsToProtocol:"
+- "containerHeight"
+- "containerWidth"
+- "contentView"
+- "continuousCornerRadius"
+- "copy"
+- "d"
+- "d16@0:8"
+- "dealloc"
+- "debugDescription"
+- "defaultBehaviorSettings"
+- "defaultResetKeylineForCanvasSize:"
+- "description"
+- "didMoveToSuperview"
+- "disableAlphaThresholdFilterOverride"
+- "disableBlurFilterOverride"
+- "displayScale"
+- "domainGroupName"
+- "domainName"
+- "dropletColor"
+- "dropletGroupView"
+- "dropletParticipantRadiusOfInfluence"
+- "dropletRadius"
+- "edge"
+- "edgeAdaptiveKeylineWithCanvasSize:edge:protrusionFromEdge:centerAlongEdge:containerSize:containerCornerRadius:transform3D:dropletRadius:"
+- "edgeContentPresentedWithCanvasSize:edge:lengthAlongEdge:protrusionFromEdge:centerAlongEdge:inflationProgress:dropletRadius:"
+- "edgeHintWithCanvasSize:hintSize:edge:centerAlongEdge:progress:dropletRadius:"
+- "edrGain"
+- "effect"
+- "filters"
+- "frame"
+- "gaussianBlurInputRadius"
+- "geometryChangingAssertions"
+- "getRed:green:blue:alpha:"
+- "hash"
+- "hidden"
+- "hitTest:withEvent:"
+- "id"
+- "init"
+- "initWithCGColor:"
+- "initWithCenterX:centerY:boundaryEdges:containerCornerRadius:containerHeight:containerWidth:containerTransform:dropletColor:dropletRadius:disableDropletEffectFilters:boundaryOutsets:keylineStyle:"
+- "initWithCoder:"
+- "initWithDefaultValues"
+- "initWithFrame:"
+- "initWithFrame:preferringAudioReactivity:"
+- "initWithInnerWidth:outerWidth:keylineOutsets:keylineFadeLengths:adaptiveColorMatrix:"
+- "initWithInnerWidth:outerWidth:keylineOutsets:keylineFadeLengths:color:"
+- "initWithInnerWidth:outerWidth:keylineOutsets:keylineFadeLengths:normalizedStartLocation:normalizedStopLocation:adaptiveColorMatrix:"
+- "initWithInnerWidth:outerWidth:keylineOutsets:keylineFadeLengths:normalizedStartLocation:normalizedStopLocation:color:"
+- "initWithPreferringAudioReactivity:"
+- "initWithPreferringAudioReactivity:style:"
+- "initWithPreferringAudioReactivity:style:softRim:screenBlendMode:alpha:innerWidth:outerWidth:keylineBlurRadius:keylineInputAmount:keylineInputStart:keylineInputEnd:edrGain:keylineOutsets:keylineFadeLengths:normalizedStartLocation:normalizedStopLocation:"
+- "initWithType:"
+- "initWithViewConfiguration:"
+- "initWithWidth:boundaryFadeLength:adaptiveColorMatrix:"
+- "initWithWidth:boundaryFadeLength:color:"
+- "innerStroke"
+- "innerWidth"
+- "inputColor"
+- "inputColorMatrix"
+- "insertSubview:aboveSubview:"
+- "insertSubview:atIndex:"
+- "intelligentEdgeLightKeylineStyleHardAlpha"
+- "intelligentEdgeLightKeylineStyleHardLargeAmount"
+- "intelligentEdgeLightKeylineStyleHardLargeBlurRadius"
+- "intelligentEdgeLightKeylineStyleHardLargeEnd"
+- "intelligentEdgeLightKeylineStyleHardLargeStart"
+- "intelligentEdgeLightKeylineStyleHardRimIsSoft"
+- "intelligentEdgeLightKeylineStyleHardScreenBlendMode"
+- "intelligentEdgeLightKeylineStyleHardSmallWidth"
+- "intelligentEdgeLightKeylineStyleSoftAlpha"
+- "intelligentEdgeLightKeylineStyleSoftLargeAmount"
+- "intelligentEdgeLightKeylineStyleSoftLargeBlurRadius"
+- "intelligentEdgeLightKeylineStyleSoftLargeEnd"
+- "intelligentEdgeLightKeylineStyleSoftLargeStart"
+- "intelligentEdgeLightKeylineStyleSoftRimIsSoft"
+- "intelligentEdgeLightKeylineStyleSoftScreenBlendMode"
+- "intelligentEdgeLightKeylineStyleSoftSmallWidth"
+- "intelligentView"
+- "invalidate"
+- "isActive"
+- "isEqual:"
+- "isHidden"
+- "isIntelligentLightViewHidden"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "keylineBlurRadius"
+- "keylineEDRGain"
+- "keylineFadeLengths"
+- "keylineFadeLengthsPreference"
+- "keylineFillParentView"
+- "keylineInputAmount"
+- "keylineInputEnd"
+- "keylineInputStart"
+- "keylineOutsets"
+- "keylineParticipantView"
+- "keylineStyle"
+- "keylineType"
+- "keylineTypePreference"
+- "keylineWidth"
+- "lastParticipantGeometry"
+- "layer"
+- "layerClass"
+- "layoutIfNeeded"
+- "layoutSubviews"
+- "locations"
+- "mainKeylineStrokeWidth"
+- "minValue:maxValue:"
+- "moduleWithTitle:contents:"
+- "normalizedStartLocation"
+- "normalizedStopLocation"
+- "objectForKey:"
+- "outerStroke"
+- "outerWidth"
+- "parametersForTransitionFromState:toState:"
+- "participantBoundaryOutsets"
+- "participantIsHidden"
+- "participantKeylineFadeLengths"
+- "participantKeylineOutsets"
+- "participantKeylineTypes"
+- "participantNormalizedStartLocation"
+- "participantNormalizedStopLocation"
+- "participantRequestedBoundaryEdges"
+- "participantViews"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "precision:"
+- "preferAudioReactivity"
+- "preferringAudioReactivity"
+- "presentationValue"
+- "release"
+- "removeAnyAnimationCompletionBlocks"
+- "removeContainer:"
+- "removeFromSuperview"
+- "resolvedColorWithTraitCollection:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rightEdgeContentPresentedWithCanvasSize:contentSize:centerY:dropletRadius:isOffscreen:inflationProgress:"
+- "rightEdgeHintWithCanvasSize:centerY:progress:"
+- "rootSettings"
+- "rootSettingsClass"
+- "rowWithTitle:action:"
+- "rowWithTitle:childSettingsKeyPath:"
+- "rowWithTitle:valueKeyPath:"
+- "screenBlendMode"
+- "sectionWithRows:"
+- "sectionWithRows:title:"
+- "self"
+- "setAccessibilityIdentifier:"
+- "setAdaptiveColorMatrix:"
+- "setAllowsHitTesting:"
+- "setAllowsInPlaceFiltering:"
+- "setAllowsLimitedHeadroom:"
+- "setAlpha:"
+- "setBackgroundColor:"
+- "setBehaviorSettingsForKeyPath:behaviorSettings:"
+- "setBehaviorType:"
+- "setBorderColor:"
+- "setBorderPathIsBounds:"
+- "setBorderWidth:"
+- "setBoundaryEdges:"
+- "setBoundaryOutsets:"
+- "setBounds:"
+- "setCenter:"
+- "setCenterX:"
+- "setCenterY:"
+- "setColor:"
+- "setColors:"
+- "setCompositingFilter:"
+- "setContainerCornerRadius:"
+- "setContainerHeight:"
+- "setContainerTransform:"
+- "setContainerWidth:"
+- "setContentView:"
+- "setContinuousCornerRadius:"
+- "setDampingRatio:"
+- "setDefaultBehaviorSettings:"
+- "setDefaultValues"
+- "setDisableDropletEffectFilters:"
+- "setDropletColor:"
+- "setDropletRadius:"
+- "setEdgeContentPresentedCenterXAnimationSettings:"
+- "setEdgeContentPresentedCenterYAnimationSettings:"
+- "setEdgeContentPresentedContainerHeightAnimationSettings:"
+- "setEdgeContentPresentedContainerWidthAnimationSettings:"
+- "setEdgeContentPresentedKeylineAdaptiveColorMatrix:"
+- "setEdgeContentPresentedKeylineInnerWidth:"
+- "setEdgeContentPresentedKeylineOuterWidth:"
+- "setEdgeContentPresentedKeylineStyleAnimationSettings:"
+- "setEdgeHintCenterXAnimationSettings:"
+- "setEdgeHintCenterYAnimationSettings:"
+- "setEdgeHintContainerHeightAnimationSettings:"
+- "setEdgeHintContainerWidthAnimationSettings:"
+- "setEdgeHintKeylineAdaptiveColorMatrix:"
+- "setEdgeHintKeylineInnerWidth:"
+- "setEdgeHintKeylineOuterWidth:"
+- "setEdgeHintKeylineStyleAnimationSettings:"
+- "setEdrGain:"
+- "setEnabled:"
+- "setEndPoint:"
+- "setFilters:"
+- "setFrame:"
+- "setFrameRateRange:highFrameRateReason:"
+- "setGain:"
+- "setHidden:"
+- "setInnerWidth:"
+- "setIntelligentEdgeLightEDRGainAmount:"
+- "setIntelligentEdgeLightKeylineStyleColorMatrix:"
+- "setIntelligentEdgeLightKeylineStyleDefaultBehaviorSettings:"
+- "setIntelligentEdgeLightKeylineStyleHardAlpha:"
+- "setIntelligentEdgeLightKeylineStyleHardLargeAmount:"
+- "setIntelligentEdgeLightKeylineStyleHardLargeBlurRadius:"
+- "setIntelligentEdgeLightKeylineStyleHardLargeEnd:"
+- "setIntelligentEdgeLightKeylineStyleHardLargeStart:"
+- "setIntelligentEdgeLightKeylineStyleHardRimIsSoft:"
+- "setIntelligentEdgeLightKeylineStyleHardScreenBlendMode:"
+- "setIntelligentEdgeLightKeylineStyleHardSmallWidth:"
+- "setIntelligentEdgeLightKeylineStyleSoftAlpha:"
+- "setIntelligentEdgeLightKeylineStyleSoftLargeAmount:"
+- "setIntelligentEdgeLightKeylineStyleSoftLargeBlurRadius:"
+- "setIntelligentEdgeLightKeylineStyleSoftLargeEnd:"
+- "setIntelligentEdgeLightKeylineStyleSoftLargeStart:"
+- "setIntelligentEdgeLightKeylineStyleSoftRimIsSoft:"
+- "setIntelligentEdgeLightKeylineStyleSoftScreenBlendMode:"
+- "setIntelligentEdgeLightKeylineStyleSoftSmallWidth:"
+- "setKeylineBlurRadius:"
+- "setKeylineFadeLengths:"
+- "setKeylineInputAmount:"
+- "setKeylineInputEnd:"
+- "setKeylineInputStart:"
+- "setKeylineOutsets:"
+- "setKeylineStyle:"
+- "setLocations:"
+- "setM11:"
+- "setM12:"
+- "setM13:"
+- "setM14:"
+- "setM15:"
+- "setM21:"
+- "setM22:"
+- "setM23:"
+- "setM24:"
+- "setM25:"
+- "setM31:"
+- "setM32:"
+- "setM33:"
+- "setM34:"
+- "setM35:"
+- "setM41:"
+- "setM42:"
+- "setM43:"
+- "setM44:"
+- "setM45:"
+- "setMaskView:"
+- "setName:"
+- "setNeedsLayout"
+- "setNormalizedStartLocation:"
+- "setNormalizedStopLocation:"
+- "setObject:forKey:"
+- "setOuterWidth:"
+- "setOverrideUserInterfaceStyle:"
+- "setPreferAudioReactivity:"
+- "setPreferredFrameRateRange:"
+- "setRasterizationScale:"
+- "setResponse:"
+- "setRightEdgeHintDropletRadius:"
+- "setRightEdgeHintSize:"
+- "setRimColor:"
+- "setRimOpacity:"
+- "setRimPathIsBounds:"
+- "setRimWidth:"
+- "setScreenBlendMode:"
+- "setShouldRasterize:"
+- "setSoftRim:"
+- "setStartPoint:"
+- "setStyle:"
+- "setSuppressCompositingFilterDestOut:"
+- "setSuppressCompositingFilterMultiply:"
+- "setSuppressDropletEffectFilters:"
+- "setTrackingDampingRatio:"
+- "setTrackingResponse:"
+- "setTransform3D:"
+- "setTransform:"
+- "setType:"
+- "setValue:"
+- "setValue:forKey:"
+- "setValue:forKeyPath:"
+- "setWantsExtendedDynamicRangeContent:"
+- "setWidth:"
+- "settings:changedValueForKey:"
+- "settingsControllerModule"
+- "softRim"
+- "style"
+- "subviews"
+- "superclass"
+- "superview"
+- "trackingViews"
+- "trailingContentPresentedWithCanvasSize:contentSize:centerY:dropletRadius:isOffscreen:inflationProgress:"
+- "trailingHintWithCanvasSize:centerY:progress:"
+- "traitCollection"
+- "transform"
+- "transform3D"
+- "v144@0:8{CATransform3D=dddddddddddddddd}16"
+- "v16@0:8"
+- "v16@?0@\"<BSCompoundAssertionState>\"8"
+- "v16@?0@\"DRPDropletViewConfiguration\"8"
+- "v16@?0B8B12"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@?0@\"NSString\"8B16B20"
+- "v32@0:8@\"PTSettings\"16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8{CGPoint=dd}16"
+- "v32@0:8{CGSize=dd}16"
+- "v44@0:8Q16B24{CGSize=dd}28"
+- "v48@0:8@16B24B28@32@40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v48@0:8{UIEdgeInsets=dddd}16"
+- "v64@0:8{CGAffineTransform=dddddd}16"
+- "v8@?0"
+- "v96@0:8{CAColorMatrix=ffffffffffffffffffff}16"
+- "value"
+- "valueWithCAColorMatrix:"
+- "weakToStrongObjectsMapTable"
+- "whiteColor"
+- "width"
+- "zone"
+- "{?=ddBBddddddd}24@0:8i16i20"
+- "{CAColorMatrix=ffffffffffffffffffff}"
+- "{CAColorMatrix=ffffffffffffffffffff}16@0:8"
+- "{CATransform3D=dddddddddddddddd}"
+- "{CATransform3D=dddddddddddddddd}16@0:8"
+- "{CGAffineTransform=dddddd}16@0:8"
+- "{CGPoint=dd}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{UIEdgeInsets=dddd}"
+- "{UIEdgeInsets=dddd}16@0:8"
+
+```

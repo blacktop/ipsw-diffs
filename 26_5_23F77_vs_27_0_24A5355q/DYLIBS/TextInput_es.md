@@ -1,0 +1,86 @@
+## TextInput_es
+
+> `/System/Library/TextInput/TextInput_es.bundle/TextInput_es`
+
+```diff
+
+-3532.5.3.100.0
+-  __TEXT.__text: 0xbdc
+-  __TEXT.__auth_stubs: 0x190
++3557.12.1.0.0
++  __TEXT.__text: 0xbb0
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x2c
+   __TEXT.__cstring: 0xc
+-  __TEXT.__objc_classname: 0x4a
+-  __TEXT.__objc_methname: 0xa4
+-  __TEXT.__objc_methtype: 0x14
+-  __TEXT.__objc_stubs: 0xc0
+-  __DATA_CONST.__got: 0x10
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x20
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xd0
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x118
+   __AUTH_CONST.__objc_const: 0x120
++  __AUTH_CONST.__weak_auth_got: 0x20
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0xa0
+   __DATA.__data: 0x40
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 181906A9-2CA1-30DF-A324-20D4C7E37DFC
+-  Functions: 37
+-  Symbols:   140
+-  CStrings:  14
++  UUID: 3EDC20FC-FCBD-327F-911B-8A86F04B9106
++  Functions: 36
++  Symbols:   138
++  CStrings:  2
+ 
+Symbols:
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEE22__deallocate_node_listB9fon220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev.cold.1
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fon220100Ev
++ __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEEEENS_9allocatorIS6_EEE14__tree_deleterclB9fon220100EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9fon220100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9fon220100Ev
++ _objc_claimAutoreleasedReturnValue
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEED2Ev
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqn210106Ev
+- __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqn210106Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9nqn210106Ev
+- _objc_retainAutoreleasedReturnValue
+CStrings:
+- "@16@0:8"
+- "TIKeyboardFeatureSpecialization_es"
+- "TIKeyboardFeatureSpecialization_es_419"
+- "^v24@0:8@16"
+- "createInputManager:"
+- "dictionaryInputMode"
+- "inputMode"
+- "inputModeWithIdentifier:isSiriMode:originalIdentifier:"
+- "isSiriMode"
+- "locale"
+- "originalIdentifier"
+- "stringWithUTF8String:"
+
+```

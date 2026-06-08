@@ -1,0 +1,1233 @@
+## ProximityReader
+
+> `/System/Library/Frameworks/ProximityReader.framework/ProximityReader`
+
+```diff
+
+-145.2.0.0.0
+-  __TEXT.__text: 0x9bd4c
+-  __TEXT.__auth_stubs: 0x2540
+-  __TEXT.__objc_methlist: 0x468
+-  __TEXT.__const: 0x6660
+-  __TEXT.__cstring: 0x328a
+-  __TEXT.__swift5_typeref: 0x1f92
+-  __TEXT.__swift5_reflstr: 0x2684
+-  __TEXT.__swift5_assocty: 0x320
+-  __TEXT.__constg_swiftt: 0x1d24
+-  __TEXT.__swift5_fieldmd: 0x2258
+-  __TEXT.__swift5_proto: 0x3c8
+-  __TEXT.__swift5_types: 0x224
+-  __TEXT.__swift_as_entry: 0x1e8
+-  __TEXT.__swift_as_ret: 0x1f0
+-  __TEXT.__swift5_capture: 0x758
+-  __TEXT.__oslogstring: 0x2066
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_mpenum: 0x10
++150.26.1.0.0
++  __TEXT.__text: 0xc91d4
++  __TEXT.__objc_methlist: 0x630
++  __TEXT.__const: 0x7b20
++  __TEXT.__cstring: 0x36fa
++  __TEXT.__swift5_typeref: 0x2550
++  __TEXT.__swift5_reflstr: 0x2f74
++  __TEXT.__swift5_assocty: 0x350
++  __TEXT.__constg_swiftt: 0x240c
++  __TEXT.__swift5_fieldmd: 0x2b90
++  __TEXT.__swift5_proto: 0x474
++  __TEXT.__swift5_types: 0x2bc
++  __TEXT.__swift5_capture: 0xd50
++  __TEXT.__oslogstring: 0x29f6
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift_as_entry: 0x2dc
++  __TEXT.__swift_as_ret: 0x2e8
++  __TEXT.__swift_as_cont: 0x6fc
++  __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_protos: 0x24
+-  __TEXT.__unwind_info: 0x28e0
+-  __TEXT.__eh_frame: 0x4dc0
+-  __TEXT.__objc_classname: 0x680
+-  __TEXT.__objc_methname: 0x155a
+-  __TEXT.__objc_methtype: 0xe94
+-  __TEXT.__objc_stubs: 0x10e0
+-  __DATA_CONST.__got: 0x888
+-  __DATA_CONST.__const: 0x1e8
+-  __DATA_CONST.__objc_classlist: 0xb8
+-  __DATA_CONST.__objc_protolist: 0x50
++  __TEXT.__unwind_info: 0x3480
++  __TEXT.__eh_frame: 0x6ed8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x228
++  __DATA_CONST.__objc_classlist: 0xe0
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x590
+-  __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x12a8
+-  __AUTH_CONST.__const: 0x41a0
+-  __AUTH_CONST.__cfstring: 0x5c0
+-  __AUTH_CONST.__objc_const: 0x1700
+-  __AUTH.__objc_data: 0x4f8
+-  __AUTH.__data: 0x2a18
+-  __DATA.__data: 0xeb8
+-  __DATA.__bss: 0x89a0
+-  __DATA.__common: 0x79
++  __DATA_CONST.__objc_selrefs: 0x6b8
++  __DATA_CONST.__objc_protorefs: 0x60
++  __DATA_CONST.__got: 0x9b0
++  __AUTH_CONST.__const: 0x5de0
++  __AUTH_CONST.__cfstring: 0x5a0
++  __AUTH_CONST.__objc_const: 0x1dc0
++  __AUTH_CONST.__auth_got: 0x1730
++  __AUTH.__objc_data: 0x5f8
++  __AUTH.__data: 0x3448
++  __DATA.__data: 0x1240
++  __DATA.__bss: 0xa180
++  __DATA.__common: 0xa9
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftPassKit.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 305CA704-3CA4-34D9-AC2D-5AA3584B06F2
+-  Functions: 3329
+-  Symbols:   1442
+-  CStrings:  851
++  UUID: 4A9F2917-33C7-3EB1-BAFB-B1F7F312940B
++  Functions: 4204
++  Symbols:   2120
++  CStrings:  607
+ 
+Symbols:
++ -[PKPaymentAuthorizationController(PrivateDelegate) pr_privateDelegate]
++ -[PKPaymentAuthorizationController(PrivateDelegate) setPr_privateDelegate:]
++ _OBJC_CLASS_$_CNPhoneNumber
++ _OBJC_CLASS_$_NSKeyedArchiver
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$_PKPaymentAuthorizationController
++ _OBJC_CLASS_$_PKPaymentRequest
++ _OBJC_CLASS_$__TtC15ProximityReader20RemotePaymentHandler
++ _OBJC_METACLASS_$__TtC15ProximityReader20RemotePaymentHandler
++ __DATA__TtC15ProximityReader15EngagementActor
++ __DATA__TtC15ProximityReader20AsyncReentranceGuard
++ __DATA__TtC15ProximityReader20RemotePaymentHandler
++ __DATA__TtC15ProximityReader25CustomerEngagementSession
++ __DATA__TtC15ProximityReader25EngagementSessionDelegate
++ __DATA__TtCC15ProximityReader15EngagementActor13SessionHandle
++ __INSTANCE_METHODS__TtC15ProximityReader20RemotePaymentHandler
++ __INSTANCE_METHODS__TtC15ProximityReader25EngagementSessionDelegate
++ __IVARS__TtC15ProximityReader15EngagementActor
++ __IVARS__TtC15ProximityReader20AsyncReentranceGuard
++ __IVARS__TtC15ProximityReader25CustomerEngagementSession
++ __IVARS__TtCC15ProximityReader15EngagementActor13SessionHandle
++ __METACLASS_DATA__TtC15ProximityReader15EngagementActor
++ __METACLASS_DATA__TtC15ProximityReader20AsyncReentranceGuard
++ __METACLASS_DATA__TtC15ProximityReader20RemotePaymentHandler
++ __METACLASS_DATA__TtC15ProximityReader25CustomerEngagementSession
++ __METACLASS_DATA__TtC15ProximityReader25EngagementSessionDelegate
++ __METACLASS_DATA__TtCC15ProximityReader15EngagementActor13SessionHandle
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_PKPaymentAuthorizationController_$_PrivateDelegate
++ __OBJC_$_CATEGORY_PKPaymentAuthorizationController_$_PrivateDelegate
++ __OBJC_$_PROP_LIST_PKPaymentAuthorizationController_$_PrivateDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PKPaymentAuthorizationControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PRPaymentControllerPrivateDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPaymentAuthorizationControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PKPaymentAuthorizationControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PRPaymentControllerPrivateDelegate
++ __OBJC_$_PROTOCOL_REFS_PKPaymentAuthorizationControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_PRPaymentControllerPrivateDelegate
++ __OBJC_LABEL_PROTOCOL_$_PKPaymentAuthorizationControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_PRPaymentControllerPrivateDelegate
++ __OBJC_PROTOCOL_$_PKPaymentAuthorizationControllerDelegate
++ __OBJC_PROTOCOL_$_PRPaymentControllerPrivateDelegate
++ __PROTOCOLS__TtC15ProximityReader20RemotePaymentHandler
++ __PROTOCOLS__TtC15ProximityReader20RemotePaymentHandler.85
++ __PROTOCOLS__TtC15ProximityReader25EngagementSessionDelegate
++ __PROTOCOLS__TtC15ProximityReader25EngagementSessionDelegate.83
++ __PROTOCOLS__TtC15ProximityReader25PaymentCardReaderDelegate.173
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore25EngagementServiceDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore26EngagementServiceInterface_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore25EngagementServiceDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore26EngagementServiceInterface_
++ __PROTOCOL__TtP19ProximityReaderCore25EngagementServiceDelegate_
++ __PROTOCOL__TtP19ProximityReaderCore26EngagementServiceInterface_
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.102Tm
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.110Tm
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.116Tm
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.125Tm
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.154Tm
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.222Tm
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.251
++ ___swift_closure_destructor.252
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.270Tm
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.279
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.297
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.303
++ ___swift_closure_destructor.308
++ ___swift_closure_destructor.310
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.320
++ ___swift_closure_destructor.322
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.328
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.336
++ ___swift_closure_destructor.338
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.346
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.352
++ ___swift_closure_destructor.356
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.44Tm
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.52Tm
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.77Tm
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.92Tm
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_memcpy104_8
++ ___swift_memcpy21_8
++ ___swift_memcpy37_8
++ ___swift_memcpy44_8
++ ___swift_memcpy52_8
++ ___swift_memcpy56_8
++ __swift_FORCE_LOAD_$_swiftPassKit
++ __swift_FORCE_LOAD_$_swiftPassKit_$_ProximityReader
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 15ProximityReader18CustomerEngagementO12ShoppingCartV4ItemVSHAASQ
++ _associated conformance 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV5ValueOSHAASQ
++ _associated conformance 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemVSHAASQ
++ _associated conformance 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryVSHAASQ
++ _associated conformance 15ProximityReader18CustomerEngagementO6StatusOSHAASQ
++ _associated conformance 15ProximityReader20AsyncReentranceGuardC12AcquireErrorOSHAASQ
++ _associated conformance 15ProximityReader24MobileDocumentHolderNameVSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC13ConsentOptionOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC14PeerClientTypeOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5ErrorOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5EventOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5FieldOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLOSHAASQ
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15ProximityReader25CustomerEngagementSessionC7PurposeOSHAASQ
++ _associated conformance So16PKPaymentNetworkaSHSCSQ
++ _associated conformance So16PKPaymentNetworkas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16PKPaymentNetworkas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.112
++ _block_copy_helper.145
++ _block_copy_helper.15
++ _block_copy_helper.162
++ _block_copy_helper.178
++ _block_copy_helper.197
++ _block_copy_helper.203
++ _block_copy_helper.217
++ _block_copy_helper.218
++ _block_copy_helper.221
++ _block_copy_helper.224
++ _block_copy_helper.227
++ _block_copy_helper.247
++ _block_copy_helper.257
++ _block_copy_helper.263
++ _block_copy_helper.279
++ _block_copy_helper.288
++ _block_copy_helper.289
++ _block_copy_helper.295
++ _block_copy_helper.304
++ _block_copy_helper.305
++ _block_copy_helper.312
++ _block_copy_helper.323
++ _block_copy_helper.330
++ _block_copy_helper.341
++ _block_copy_helper.348
++ _block_copy_helper.36
++ _block_copy_helper.362
++ _block_copy_helper.377
++ _block_copy_helper.40
++ _block_copy_helper.43
++ _block_copy_helper.59
++ _block_copy_helper.62
++ _block_copy_helper.74
++ _block_copy_helper.76
++ _block_copy_helper.78
++ _block_copy_helper.85
++ _block_copy_helper.88
++ _block_copy_helper.92
++ _block_descriptor.114
++ _block_descriptor.147
++ _block_descriptor.164
++ _block_descriptor.17
++ _block_descriptor.180
++ _block_descriptor.199
++ _block_descriptor.205
++ _block_descriptor.219
++ _block_descriptor.220
++ _block_descriptor.223
++ _block_descriptor.226
++ _block_descriptor.229
++ _block_descriptor.249
++ _block_descriptor.259
++ _block_descriptor.265
++ _block_descriptor.281
++ _block_descriptor.290
++ _block_descriptor.291
++ _block_descriptor.297
++ _block_descriptor.306
++ _block_descriptor.307
++ _block_descriptor.314
++ _block_descriptor.325
++ _block_descriptor.332
++ _block_descriptor.343
++ _block_descriptor.350
++ _block_descriptor.364
++ _block_descriptor.379
++ _block_descriptor.38
++ _block_descriptor.42
++ _block_descriptor.45
++ _block_descriptor.61
++ _block_descriptor.64
++ _block_descriptor.76
++ _block_descriptor.78
++ _block_descriptor.80
++ _block_descriptor.87
++ _block_descriptor.90
++ _block_descriptor.94
++ _block_destroy_helper.113
++ _block_destroy_helper.146
++ _block_destroy_helper.16
++ _block_destroy_helper.163
++ _block_destroy_helper.179
++ _block_destroy_helper.198
++ _block_destroy_helper.204
++ _block_destroy_helper.218
++ _block_destroy_helper.219
++ _block_destroy_helper.222
++ _block_destroy_helper.225
++ _block_destroy_helper.228
++ _block_destroy_helper.248
++ _block_destroy_helper.258
++ _block_destroy_helper.264
++ _block_destroy_helper.280
++ _block_destroy_helper.289
++ _block_destroy_helper.290
++ _block_destroy_helper.296
++ _block_destroy_helper.305
++ _block_destroy_helper.306
++ _block_destroy_helper.313
++ _block_destroy_helper.324
++ _block_destroy_helper.331
++ _block_destroy_helper.342
++ _block_destroy_helper.349
++ _block_destroy_helper.363
++ _block_destroy_helper.37
++ _block_destroy_helper.378
++ _block_destroy_helper.41
++ _block_destroy_helper.44
++ _block_destroy_helper.60
++ _block_destroy_helper.63
++ _block_destroy_helper.75
++ _block_destroy_helper.77
++ _block_destroy_helper.79
++ _block_destroy_helper.86
++ _block_destroy_helper.89
++ _block_destroy_helper.93
++ _flat unique 19ProximityReaderCore26EngagementServiceInterface_p
++ _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
++ _flat unique So40PKPaymentAuthorizationControllerDelegate_p
++ _free
++ _get_type_metadata_for_layout_string 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV5ValueO
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA05TupleD0VyAA6HStackVyAGyAA6SpacerV_AA6ButtonVyACyACyACyAA5ImageVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA08_PaddingL0VGGQPGG_ACy15ProximityReader18DiscoveryErrorViewVAA017_AppearanceActionP0VGQPGGAA024_SafeAreaRegionsIgnoringL0VGAA0W0HPA11_AAA15_HPyHC_A13_AA0wP0HPyHCHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA05TupleD0VyAA6SpacerV_ACyACyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAMy12CoreGraphics7CGFloatVGGAA14_PaddingLayoutVGAXGAXGAzIQPGGAA06_FrameR0VGAA024_SafeAreaRegionsIgnoringR0VGAA011_BackgroundL0VyAA7AnyViewVGGAA0Z0HPA7_AAA14_HPA4_AAA14_HPA1_AAA14_HPyHC_A3_AA0zL0HPyHCHC_A6_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.2
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyAIyAA6ZStackVyAIyAcAEAdEQrAG_tFQOyAA6VStackVyAA05TupleK0VyAA6SpacerV_AIyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGAA14_PaddingLayoutVGAIyAIyAsUyAA0P9AlignmentOGGAYGAQQPGG_Qo_AA0g10AttachmentT0VGGAA010_FlexFrameY0VGAA016_BackgroundStyleT0VyAA8MaterialVGG_Qo_HO.3
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$cancelRequestWithCompletion:
++ _objc_msgSend$closeSessionWithOriginator:completion:
++ _objc_msgSend$description
++ _objc_msgSend$dismissWithCompletion:
++ _objc_msgSend$initWithPaymentRequest:
++ _objc_msgSend$initWithStringValue:
++ _objc_msgSend$openSession:completion:
++ _objc_msgSend$postalAddressWithDictionaryRepresentation:
++ _objc_msgSend$prepareRemotePaymentWithReference::completion:
++ _objc_msgSend$presentWithCompletion:
++ _objc_msgSend$privateDelegate
++ _objc_msgSend$reportPaymentFlowTerminated
++ _objc_msgSend$request:completion:
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setPr_privateDelegate:
++ _objc_msgSend$setPrivateDelegate:
++ _objc_msgSend$supportedNetworks
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_coroFrameAlloc
++ _swift_initStackObject
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_removeCancellationHandler
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic 7ElementSciQyd__
++ _symbolic 7FailureSciQyd__
++ _symbolic SDy_____Say_____GG 19ProximityReaderCore20IdentityDocumentTypeO 10Foundation4DataV
++ _symbolic SDy__________G 10Foundation4UUIDV 15ProximityReader15EngagementActorC13SessionHandleC
++ _symbolic SS_SSt
++ _symbolic Say_____G 15ProximityReader18CustomerEngagementO12ShoppingCartV4ItemV
++ _symbolic Say_____G 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV
++ _symbolic Say_____G 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
++ _symbolic ScCySo32PKPaymentAuthorizationControllerC______pG s5ErrorP
++ _symbolic ScCySo32PKPaymentAuthorizationControllerC______pGSg s5ErrorP
++ _symbolic ScCy___________pG 10Foundation4UUIDV s5ErrorP
++ _symbolic ScCy___________pG 19ProximityReaderCore25EngagementMerchantMessageO s5ErrorP
++ _symbolic ScSy_____G 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SccySb_____G s5NeverO
++ _symbolic So13CNPhoneNumberCSg
++ _symbolic So15CNPostalAddressC
++ _symbolic So8NSStringC
++ _symbolic _____ 10Foundation20PersonNameComponentsV
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____ 10Foundation6LocaleV8CurrencyV
++ _symbolic _____ 15ProximityReader15EngagementActorC
++ _symbolic _____ 15ProximityReader15EngagementActorC13SessionHandleC
++ _symbolic _____ 15ProximityReader15EngagementActorC13SessionHandleC5Inner33_9DAF425A07026A8D6B7A0CE1CDA177EDLLV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO
++ _symbolic _____ 15ProximityReader18CustomerEngagementO0C4InfoV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO12ShoppingCartV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO12ShoppingCartV4ItemV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV5ValueO
++ _symbolic _____ 15ProximityReader18CustomerEngagementO17ShoppingCartTokenV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO5TokenV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO6SignUpV
++ _symbolic _____ 15ProximityReader18CustomerEngagementO6StatusO
++ _symbolic _____ 15ProximityReader18CustomerEngagementO7AddressV
++ _symbolic _____ 15ProximityReader20AsyncReentranceGuardC
++ _symbolic _____ 15ProximityReader20AsyncReentranceGuardC12AcquireErrorO
++ _symbolic _____ 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV
++ _symbolic _____ 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
++ _symbolic _____ 15ProximityReader20RemotePaymentHandlerC
++ _symbolic _____ 15ProximityReader24MobileDocumentHolderNameV
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC0C13ConfigurationV
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC13ConfigurationV
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC13ConsentOptionO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC14PeerClientTypeO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC5ErrorO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC5FieldO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC5TokenV
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLO
++ _symbolic _____ 15ProximityReader25CustomerEngagementSessionC7PurposeO
++ _symbolic _____ 15ProximityReader25EngagementSessionDelegateC
++ _symbolic _____ 15ProximityReader9PRLoggingV
++ _symbolic _____ 19ProximityReaderCore23EngagementEventInternalO
++ _symbolic _____ So16PKPaymentNetworka
++ _symbolic _____ s8DurationV
++ _symbolic _____3key_Say_____G5valuet 19ProximityReaderCore20IdentityDocumentTypeO 10Foundation4DataV
++ _symbolic _____Sg 15ProximityReader24MobileDocumentHolderNameV
++ _symbolic _____Sg 15ProximityReader25CustomerEngagementSessionC0C13ConfigurationV
++ _symbolic _____Sg 15ProximityReader25CustomerEngagementSessionC5TokenV
++ _symbolic _____Sg 19ProximityReaderCore13FormTitleTypeO
++ _symbolic _____Sg 19ProximityReaderCore23EngagementErrorInternalC
++ _symbolic _____Sg 19ProximityReaderCore25EngagementMerchantMessageO
++ _symbolic _____Sg 7CoreIDV28MobileDocumentReaderResponseV0c8IdentityD8ElementsV4NameV
++ _symbolic _____Sg So9NSDecimala
++ _symbolic _____SgXw 15ProximityReader15EngagementActorC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 15ProximityReader24MobileDocumentHolderNameV
++ _symbolic ______Say_____Gt 19ProximityReaderCore20IdentityDocumentTypeO 10Foundation4DataV
++ _symbolic _______________Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 15ProximityReader25CustomerEngagementSessionC5EventO s5NeverO
++ _symbolic ___________t 10Foundation4UUIDV 15ProximityReader15EngagementActorC13SessionHandleC
++ _symbolic ______p 19ProximityReaderCore26EngagementServiceInterfaceP
++ _symbolic ______p So40PKPaymentAuthorizationControllerDelegateP
++ _symbolic ______pScCySS______pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP s5ErrorP
++ _symbolic ______pScCySb______pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP s5ErrorP
++ _symbolic ______pScCySo32PKPaymentAuthorizationControllerC______pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP s5ErrorP
++ _symbolic ______pScCy___________pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP AA0D15MerchantMessageO s5ErrorP
++ _symbolic ______pScCyyt______pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP s5ErrorP
++ _symbolic _____yAAyAAy_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDQPGG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameR0V AA024_SafeAreaRegionsIgnoringR0V AA011_BackgroundL0V AA7AnyViewV
++ _symbolic _____yAAy_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEQPGG_Qo______GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V AA010_FlexFrameY0V AA016_BackgroundStyleT0V AA8MaterialV
++ _symbolic _____yAAy_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameR0V AA024_SafeAreaRegionsIgnoringR0V
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySb_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 15ProximityReader15EngagementActorC13SessionHandleC5Inner33_9DAF425A07026A8D6B7A0CE1CDA177EDLLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15ProximityReader25CustomerEngagementSessionC5TokenV10CodingKeys33_F8317E04821F985EEC8A43694E3DA957LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ProximityReaderCore12UpdateBasketV4ItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ProximityReaderCore12UpdateBasketV7SummaryV8LineItemV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 19ProximityReaderCore20IdentityDocumentTypeO 10Foundation4DataV
++ _symbolic _____y______G ScS12ContinuationV 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____y______GSg ScS12ContinuationV 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 19ProximityReaderCore20IdentityDocumentTypeO 10Foundation4DataV
++ _symbolic _____y_______G ScS12ContinuationV11TerminationO 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 15ProximityReader25CustomerEngagementSessionC5EventO
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 15ProximityReader15EngagementActorC13SessionHandleC5Inner33_9DAF425A07026A8D6B7A0CE1CDA177EDLLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 15ProximityReader15EngagementActorC13SessionHandleC
++ _symbolic _____y___________y___________y_____yAFyAFy__________G_____y_____SgGG_____GGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6SpacerV AA6ButtonV AA08ModifiedI0V AA5ImageV AA06_FrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingG0V
++ _symbolic _____y___________y_____yACy___________y_____yAGyAGy__________G_____y_____SgGG_____GGQPGG_AGy__________GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA6HStackV AA6SpacerV AA6ButtonV AA08ModifiedI0V AA5ImageV AA06_FrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingG0V 15ProximityReader014DiscoveryErrorD0V AA017_AppearanceActionS0V
++ _symbolic _____y___________y_____y_____y_____y______ACyACy__________y_____GG_____GACyACyAgHy_____GGAJGAFQPGG_Qo______GG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleI0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA08_PaddingG0V AA0S9AlignmentO AA0m10AttachmentW0V
++ _symbolic _____y______pG 19ProximityReaderCore30UncheckedSendableXPCConnectionV AA26EngagementServiceInterfaceP
++ _symbolic _____y_____yAAy_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEQPGG_Qo______GG_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6ZStackV AcAEAdEQrAG_tFQO AA6VStackV AA05TupleK0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0g10AttachmentT0V AA010_FlexFrameY0V AA016_BackgroundStyleT0V AA8MaterialV
++ _symbolic _____y_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEQPGG_Qo______GG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V AA010_FlexFrameY0V
++ _symbolic _____y_____y___________yADyADyADyADy__________y_____GGAFy_____GG_____GAMGAMGAoCQPGG 7SwiftUI6VStackV AA12TupleContentV AA6SpacerV AA08ModifiedE0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV
++ _symbolic _____y_____y___________yADy__________y_____GG_____GADyADyAeFy_____GGAHGACQPGG 7SwiftUI6VStackV AA12TupleContentV AA6SpacerV AA08ModifiedE0V AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0H9AlignmentO
++ _symbolic _____y_____y___________y_____yAEyAEy__________G_____y_____SgGG_____GGQPGG 7SwiftUI6HStackV AA12TupleContentV AA6SpacerV AA6ButtonV AA08ModifiedE0V AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingK0V
++ _symbolic _____y_____y___________y_____yAEyAEy__________G_____y_____SgGG_____GGQPGG_AEy__________Gt 7SwiftUI6HStackV AA12TupleContentV AA6SpacerV AA6ButtonV AA08ModifiedE0V AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingK0V 15ProximityReader18DiscoveryErrorViewV AA017_AppearanceActionO0V
++ _symbolic _____y_____y_____yABy___________y_____yAFyAFy__________G_____y_____SgGG_____GGQPGG_AFy__________GQPGG 7SwiftUI6ZStackV AA12TupleContentV AA6HStackV AA6SpacerV AA6ButtonV AA08ModifiedE0V AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingL0V 15ProximityReader18DiscoveryErrorViewV AA017_AppearanceActionP0V
++ _symbolic _____y_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameR0V
++ _symbolic _____y_____y_____y___________yADy__________y_____GG_____GADyADyAeFy_____GGAHGACQPGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA12TupleContentV AA6SpacerV AA08ModifiedL0V AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0O9AlignmentO
++ _symbolic _____y_____y_____y_____yACy___________yAAyAAyAAy__________G_____y_____SgGG_____GGQPGG_AAy__________GQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA6HStackV AA6SpacerV AA6ButtonV AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingL0V 15ProximityReader18DiscoveryErrorViewV AA017_AppearanceActionP0V AA024_SafeAreaRegionsIgnoringL0V
++ _symbolic _____y_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAeFy_____GGAHGADQPGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0O9AlignmentO AA0i10AttachmentS0V
++ _symbolic _____y_____y_____y_____y_____y______AByABy__________y_____GG_____GAByAByAfGy_____GGAIGAEQPGG_Qo______GG 7SwiftUI6ZStackV AA15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleE0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V
++ _symbolic q_
++ _symbolic qd__
++ _symbolic ypSg
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 15ProximityReader18CustomerEngagementO0C4InfoV
++ _type_layout_string 15ProximityReader18CustomerEngagementO12ShoppingCartV7SummaryV8LineItemV
++ _type_layout_string 15ProximityReader18CustomerEngagementO5TokenV
++ _type_layout_string So16PKPaymentNetworka
+- +[PRNotifyEvents notifyIncomingCallAction:]
+- _OBJC_CLASS_$_PRNotifyEvents
+- _OBJC_METACLASS_$_PRNotifyEvents
+- __OBJC_$_CLASS_METHODS_PRNotifyEvents
+- __OBJC_CLASS_RO_$_PRNotifyEvents
+- __OBJC_METACLASS_RO_$_PRNotifyEvents
+- __PROTOCOLS__TtC15ProximityReader25PaymentCardReaderDelegate.116
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_ProximityReader
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_ProximityReader
+- _block_copy_helper.115
+- _block_copy_helper.122
+- _block_copy_helper.141
+- _block_copy_helper.147
+- _block_copy_helper.161
+- _block_copy_helper.189
+- _block_copy_helper.195
+- _block_copy_helper.201
+- _block_copy_helper.210
+- _block_copy_helper.216
+- _block_copy_helper.225
+- _block_copy_helper.237
+- _block_copy_helper.255
+- _block_copy_helper.261
+- _block_copy_helper.285
+- _block_copy_helper.291
+- _block_copy_helper.297
+- _block_copy_helper.310
+- _block_copy_helper.317
+- _block_copy_helper.35
+- _block_copy_helper.70
+- _block_copy_helper.73
+- _block_copy_helper.77
+- _block_copy_helper.91
+- _block_descriptor.117
+- _block_descriptor.124
+- _block_descriptor.143
+- _block_descriptor.149
+- _block_descriptor.163
+- _block_descriptor.191
+- _block_descriptor.197
+- _block_descriptor.203
+- _block_descriptor.212
+- _block_descriptor.218
+- _block_descriptor.227
+- _block_descriptor.239
+- _block_descriptor.257
+- _block_descriptor.263
+- _block_descriptor.287
+- _block_descriptor.293
+- _block_descriptor.299
+- _block_descriptor.312
+- _block_descriptor.319
+- _block_descriptor.37
+- _block_descriptor.72
+- _block_descriptor.75
+- _block_descriptor.79
+- _block_descriptor.93
+- _block_destroy_helper.116
+- _block_destroy_helper.123
+- _block_destroy_helper.142
+- _block_destroy_helper.148
+- _block_destroy_helper.162
+- _block_destroy_helper.190
+- _block_destroy_helper.196
+- _block_destroy_helper.202
+- _block_destroy_helper.211
+- _block_destroy_helper.217
+- _block_destroy_helper.226
+- _block_destroy_helper.238
+- _block_destroy_helper.256
+- _block_destroy_helper.262
+- _block_destroy_helper.286
+- _block_destroy_helper.292
+- _block_destroy_helper.298
+- _block_destroy_helper.311
+- _block_destroy_helper.318
+- _block_destroy_helper.36
+- _block_destroy_helper.71
+- _block_destroy_helper.74
+- _block_destroy_helper.78
+- _block_destroy_helper.92
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyAA6HStackVyAGyAA6SpacerV_AA6ButtonVyACyACyACyAA5ImageVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA08_PaddingM0VGGtGG_ACy15ProximityReader014DiscoveryErrorG0VAA017_AppearanceActionQ0VGtGGAA024_SafeAreaRegionsIgnoringM0VGAA0G0HPA11_AAA15_HPyHC_A13_AA0gQ0HPyHCHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyAA6SpacerV_ACyACyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0I9AlignmentOGGAMy12CoreGraphics7CGFloatVGGAA14_PaddingLayoutVGAXGAXGAzItGGAA06_FrameS0VGAA024_SafeAreaRegionsIgnoringS0VGAA011_BackgroundM0VyAA03AnyG0VGGAA0G0HPA7_AAA14_HPA4_AAA14_HPA1_AAA14_HPyHC_A3_AA0gM0HPyHCHC_A6_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.2
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyAIyAA6ZStackVyAIyAcAEAdEQrAG_tFQOyAA6VStackVyAA05TupleC0VyAA6SpacerV_AIyAIyAA4TextVAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGAA14_PaddingLayoutVGAIyAIyAsUyAA0P9AlignmentOGGAYGAQtGG_Qo_AA0g10AttachmentT0VGGAA010_FlexFrameY0VGAA016_BackgroundStyleT0VyAA8MaterialVGG_Qo_HO.3
+- _objectdestroy.10Tm
+- _objectdestroy.112Tm
+- _objectdestroy.159Tm
+- _objectdestroy.165Tm
+- _objectdestroy.199Tm
+- _objectdestroy.21Tm
+- _objectdestroy.52Tm
+- _objectdestroy.67Tm
+- _objectdestroy.77Tm
+- _objectdestroyTm
+- _symbolic _____3key_SDy_____SbG5valuetSg 19ProximityReaderCore20IdentityDocumentTypeO AA06MobileE15ElementInternalO
+- _symbolic _____3key_Sb5valuetSg 19ProximityReaderCore29MobileDocumentElementInternalO
+- _symbolic _____Sg 10Foundation8URLErrorV
+- _symbolic _____Sg_ABt 10Foundation20PersonNameComponentsV
+- _symbolic _____yAAyAAy_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDtGG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameS0V AA024_SafeAreaRegionsIgnoringS0V AA011_BackgroundM0V AA03AnyG0V
+- _symbolic _____yAAy_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEtGG_Qo______GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleF0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V AA010_FlexFrameY0V AA016_BackgroundStyleT0V AA8MaterialV
+- _symbolic _____yAAy_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameS0V AA024_SafeAreaRegionsIgnoringS0V
+- _symbolic _____y___________yACyACyACyACy__________y_____GGAEy_____GG_____GALGALGAnBtG 7SwiftUI9TupleViewV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV
+- _symbolic _____y___________yACy__________y_____GG_____GACyACyAdEy_____GGAGGABtG 7SwiftUI9TupleViewV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0H9AlignmentO
+- _symbolic _____y___________y___________y_____yAFyAFy__________G_____y_____SgGG_____GGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA6ButtonV AA15ModifiedContentV AA5ImageV AA06_FrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingG0V
+- _symbolic _____y___________y_____yACy___________y_____yAGyAGy__________G_____y_____SgGG_____GGtGG_AGy__________GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA6HStackV AA6SpacerV AA6ButtonV AA15ModifiedContentV AA5ImageV AA06_FrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingG0V 15ProximityReader014DiscoveryErrorD0V AA017_AppearanceActionS0V
+- _symbolic _____y___________y_____y_____y_____y______ACyACy__________y_____GG_____GACyACyAgHy_____GGAJGAFtGG_Qo______GG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA15ModifiedContentV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA08_PaddingG0V AA0S9AlignmentO AA0m10AttachmentW0V
+- _symbolic _____y_____yAAy_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEtGG_Qo______GG_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6ZStackV AcAEAdEQrAG_tFQO AA6VStackV AA05TupleC0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0g10AttachmentT0V AA010_FlexFrameY0V AA016_BackgroundStyleT0V AA8MaterialV
+- _symbolic _____y_____yAAy_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAfGy_____GGAIGAEtGG_Qo______GG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleF0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V AA010_FlexFrameY0V
+- _symbolic _____y_____y___________yADyADyADyADy__________y_____GGAFy_____GG_____GAMGAMGAoCtGG 7SwiftUI6VStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV
+- _symbolic _____y_____y___________yADy__________y_____GG_____GADyADyAeFy_____GGAHGACtGG 7SwiftUI6VStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0I9AlignmentO
+- _symbolic _____y_____y___________y_____yAEyAEy__________G_____y_____SgGG_____GGtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA6ButtonV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingL0V
+- _symbolic _____y_____y___________y_____yAEyAEy__________G_____y_____SgGG_____GGtGG_AEy__________Gt 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA6ButtonV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingL0V 15ProximityReader014DiscoveryErrorE0V AA017_AppearanceActionP0V
+- _symbolic _____y_____y_____yABy___________y_____yAFyAFy__________G_____y_____SgGG_____GGtGG_AFy__________GtGG 7SwiftUI6ZStackV AA9TupleViewV AA6HStackV AA6SpacerV AA6ButtonV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingM0V 15ProximityReader014DiscoveryErrorE0V AA017_AppearanceActionQ0V
+- _symbolic _____y_____y_____y______AAyAAyAAyAAyAAy__________y_____GGAFy_____GG_____GAMGAMGAoDtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA06_FrameS0V
+- _symbolic _____y_____y_____y___________yADy__________y_____GG_____GADyADyAeFy_____GGAHGACtGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleC0V AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0O9AlignmentO
+- _symbolic _____y_____y_____y_____yACy___________yAAyAAyAAy__________G_____y_____SgGG_____GGtGG_AAy__________GtGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA6HStackV AA6SpacerV AA6ButtonV AA5ImageV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingM0V 15ProximityReader014DiscoveryErrorG0V AA017_AppearanceActionQ0V AA024_SafeAreaRegionsIgnoringM0V
+- _symbolic _____y_____y_____y_____y______AAyAAy__________y_____GG_____GAAyAAyAeFy_____GGAHGADtGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleE0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0O9AlignmentO AA0i10AttachmentS0V
+- _symbolic _____y_____y_____y_____y_____y______AByABy__________y_____GG_____GAByAByAfGy_____GGAIGAEtGG_Qo______GG 7SwiftUI6ZStackV AA15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleF0V AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA14_PaddingLayoutV AA0P9AlignmentO AA0j10AttachmentT0V
+CStrings:
++ "%s - timed out waiting for previous request"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Connection to EngagementService interrupted"
++ "CustomerEngagementSession %@"
++ "CustomerEngagementSession closeSession"
++ "Email consent requires email field.)"
++ "Email consent requires phone number field.)"
++ "Engagement session closed successfully"
++ "Engagement session does NOT match current active"
++ "Engagement session is not ready yet; rejecting payment request"
++ "Engagement session is not ready yet; rejecting request"
++ "EngagementMerchantMessage"
++ "Error (EngagementErrorInternal): %s"
++ "Error (openSession): nil"
++ "Error (payment request): archive error"
++ "Error (request): encoding error"
++ "Error (request): nil"
++ "Error (request): parse %s"
++ "Error (request): parse error"
++ "Error (request): request task was cancelled"
++ "Error paymentRemoteLinkID is nil"
++ "Fields cannot be empty)"
++ "Fields must contain at least .emailAddress or .phoneNumber"
++ "Invalid purpose for requestCustomerInfo"
++ "Invalid purpose for requestSignup"
++ "No engagement session to close"
++ "OTHER selection"
++ "RemotePaymentHandler - reporting payment flow termination"
++ "RemotePaymentHandler - willFinishWithError"
++ "RemotePaymentHandler: didPresent"
++ "RemotePaymentHandler: didUpdateRemoteLinkID: %s"
++ "Result (openSession): success %s"
++ "Result (request): success %s"
++ "Unexpected error type"
++ "Unexpected merchant message type: %s"
++ "acquire(timeout:)"
++ "autoMenu"
++ "bypassAckCertificateValidation"
++ "bypassBIPServer"
++ "bypassDeviceGateway"
++ "clientURL"
++ "closeSession(sessionID:)"
++ "connection obtained"
++ "decrementSession(_:)"
++ "engagementForceWebFlow"
++ "engagementRSSIDisabled"
++ "engagementRSSILogEnabled"
++ "engagementRSSIThreshold"
++ "engagementShowAnalyticsLog"
++ "failed to present - cleaning up"
++ "forceBrandData"
++ "forceMCCFallback"
++ "hostWebSocket"
++ "incrementSession(_:)"
++ "last session removed, releasing connection"
++ "marsUseCase"
++ "merchantBrandURL"
++ "mockAppIdentifier"
++ "mockBIPServer"
++ "mockBrandCategory"
++ "mockBrandDomain"
++ "mockBrandName"
++ "mockBubbleDelay"
++ "mockConnectionFailure"
++ "mockHMENo2FA"
++ "mockHMENoForwarding"
++ "onXPCDisconnect - XPC lost mid-session, surfacing as close"
++ "onXPCDisconnect - session already closed, no-op"
++ "openSession rejected - an engagement session is already active"
++ "openSession(_:sessionID:config:)"
++ "overrideURLForNDEF"
++ "payment option is Apple Pay"
++ "payment option is OTHER"
++ "presenting controller"
++ "registerSession(with:forID:)"
++ "requestAddress(for:fields:message:)"
++ "requestCustomerInfo(for:fields:message:)"
++ "requestPayment(basketToken:request:delegate:sessionID:)"
++ "requestPayment(for:using:delegate:)"
++ "requestSignup(for:fields:message:emailConsent:smsConsent:termsAndConditions:)"
++ "sanitizationMockMode"
++ "send >>> %{private}s"
++ "send(_:sessionID:)"
++ "session [%s], [%ld]"
++ "session [%s], [%ld] left"
++ "session cleaned up: %s"
++ "session delayed cleanup failed "
++ "session delayed cleanup scheduled"
++ "session delayed cleanup success"
++ "skipNdefURL"
++ "skipRelayID"
++ "startRemotePayment: accepted %{bool}d"
++ "starting local setup"
++ "update stream cancelled"
++ "updateCustomerInfo: version=%s isWeb=%{bool}d rc=%s"
++ "updateEvent: %{public}s"
++ "updateShoppingCart(_:)"
++ "updateStatus(_:)"
++ "useMockBrandURL"
++ "useTestBAA"
+- "#16@0:8"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24q32"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "JSONObjectWithData:options:error:"
+- "NSObject"
+- "PKProximityReaderDiscoveryDelegate"
+- "PRNotifyEvents"
+- "PRNotifyEvents: notifyIncomingCallAction, no longer active"
+- "PRSettingsProvider"
+- "ProximityReader"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC15ProximityReader10VASRequest"
+- "_TtC15ProximityReader12BatchBuilder"
+- "_TtC15ProximityReader17PaymentCardReader"
+- "_TtC15ProximityReader19IdentityReaderActor"
+- "_TtC15ProximityReader19LayoutBundleManager"
+- "_TtC15ProximityReader20MobileDocumentReader"
+- "_TtC15ProximityReader20TransactionValidator"
+- "_TtC15ProximityReader22PaymentCardReaderActor"
+- "_TtC15ProximityReader24PaymentCardReaderSession"
+- "_TtC15ProximityReader24ProximityReaderDiscovery"
+- "_TtC15ProximityReader25PaymentCardReaderDelegate"
+- "_TtC15ProximityReader25UIForegroundActiveArbiter"
+- "_TtC15ProximityReader27MobileDocumentReaderSession"
+- "_TtC15ProximityReader27PaymentCardReaderStoreActor"
+- "_TtC15ProximityReader29ProximityReaderDiscoveryActor"
+- "_TtC15ProximityReader30DiscoveryArticleViewController"
+- "_TtC15ProximityReader32PaymentReadResultStorageDelegate"
+- "_TtC15ProximityReader35PaymentCardReaderForegroundObserver"
+- "_TtC15ProximityReader39StoreAndForwardPaymentCardReaderSession"
+- "_TtC15ProximityReader40ProximityReaderDiscoveryAnalyticsManager"
+- "_TtC15ProximityReader9PRLoggers"
+- "_TtP19ProximityReaderCore25DiscoveryServiceInterface_"
+- "_TtP19ProximityReaderCore30IdentityReaderServiceInterface_"
+- "_TtP19ProximityReaderCore30PaymentTerminalServiceDelegate_"
+- "_TtP19ProximityReaderCore30PaymentTerminalStorageDelegate_"
+- "_TtP19ProximityReaderCore31PaymentTerminalServiceInterface_"
+- "_TtP19ProximityReaderCore31PaymentTerminalStorageInterface_"
+- "_setBackgroundColor:"
+- "activate"
+- "activateConstraints:"
+- "active"
+- "activeReaderSession"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSubview:"
+- "applicationState"
+- "arbiter"
+- "autorelease"
+- "backgroundAllowed"
+- "boolValue"
+- "bounds"
+- "bundleManager"
+- "bundlePath"
+- "cancelReadWithCompletion:"
+- "cancelRequestWithCompletionHandler:"
+- "cancelTransactionWithCompletion:"
+- "centerXAnchor"
+- "centerYAnchor"
+- "class"
+- "classesForSelector:argumentIndex:ofReply:"
+- "clearColor"
+- "closeSessionWithDelete:backgrounded:"
+- "closed:"
+- "code"
+- "collectionView"
+- "collectionViewContentSize"
+- "collectionViewLayout"
+- "componentsSeparatedByString:"
+- "configuredCountryCode"
+- "conformsToProtocol:"
+- "connectedScenes"
+- "connection"
+- "constraintEqualToAnchor:"
+- "contentListWithCompletionHandler:"
+- "contentWithTopic:subtopic:completionHandler:"
+- "contentsOfDirectoryAtPath:error:"
+- "copy"
+- "count"
+- "createContextWithCompletion:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "currentDevice"
+- "currentOSVersionDeprecationDate"
+- "currentState"
+- "dealloc"
+- "debugDescription"
+- "declineTransaction:completionHandler:"
+- "defaultCenter"
+- "defaultManager"
+- "delegate"
+- "delegateInterface"
+- "description"
+- "discoveryAnalyticsManager"
+- "discoveryItemWithIdentifier:position:"
+- "discoveryService"
+- "dismissHandler"
+- "dismissViewControllerAnimated:completion:"
+- "dismissingContinuation"
+- "domain"
+- "entitlements"
+- "ephemeralSessionConfiguration"
+- "eventHandlers"
+- "events"
+- "eventsContinuations"
+- "fetchStoredPaymentCardReadResultBatchWithSize:completionHandler:"
+- "fetchStoredPaymentCardReadResultCountWithCompletionHandler:"
+- "fileExistsAtPath:"
+- "fileManager"
+- "foregroundObserver"
+- "foregroundState"
+- "foregroundStateObservers"
+- "getAlwaysPlaySoundForBundleID:"
+- "getEnableDiagnosticsForBundleID:"
+- "getPINPrivacyLockForBundleID:"
+- "getTerminalIdWithCompletion:"
+- "hasEntitlement:"
+- "hasPrefix:"
+- "hash"
+- "header"
+- "heightAnchor"
+- "id"
+- "init"
+- "initWithArray:"
+- "initWithArticleLayout:referrerIdentifier:cardSize:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCoder:"
+- "initWithDecimal:"
+- "initWithDictionary:"
+- "initWithItemIdentifier:referrerIdentifier:"
+- "initWithMachServiceName:options:"
+- "initWithNibName:bundle:"
+- "initWithPath:"
+- "initWithRootViewController:"
+- "intValue"
+- "integerValue"
+- "interfaceOrientation"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isAccountLinked:completion:"
+- "isBeingDismissed"
+- "isContextCreated"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isProximityReaderSupported:"
+- "isProxy"
+- "isScrollable"
+- "keyEnumerator"
+- "lastCardReadTransactionID"
+- "lastQuantile"
+- "layoutBundleWithContentId:completionHandler:"
+- "layoutIfNeeded"
+- "layoutSet"
+- "length"
+- "linkAccount:relink:completion:"
+- "loading:"
+- "localizeWithBundle:"
+- "localizedVASType"
+- "lock"
+- "mainBundle"
+- "mainScreen"
+- "mapTableWithKeyOptions:valueOptions:"
+- "notificationCenterObservers"
+- "notifyIncomingCallAction:"
+- "numberWithBool:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "options"
+- "orientation"
+- "parentViewController"
+- "paymentCardReadResultsWithBatch:completionHandler:"
+- "payments"
+- "performDataRequest:completion:"
+- "performDisplayRequest:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "preferredLocalizations"
+- "prepareUsing:completion:"
+- "presentViewController:animated:completion:"
+- "readFeedback:"
+- "readerConfigurationWithCompletion:"
+- "readerCount"
+- "readerIdentifierCache"
+- "region"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeFromSuperview"
+- "removeItemAtPath:error:"
+- "removeMDMAppAttribute:forBundleID:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "requestRunning"
+- "resetBatchStateWithCompletionHandler:"
+- "resolveBatchWithBatchDeletionToken:completionHandler:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "rotatedViewTag"
+- "self"
+- "sendAnalyticsWithAnalyticsData:"
+- "service"
+- "sessionData"
+- "sessionIdentifier"
+- "sessionWithConfiguration:"
+- "setAccessibilityViewIsModal:"
+- "setAlwaysPlaySound:forBundleID:"
+- "setArticleLayout:animated:"
+- "setBackgroundColor:"
+- "setCity:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setEnableDiagnostics:forBundleID:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setISOCountryCode:"
+- "setInterruptionHandler:"
+- "setIsDownloading:"
+- "setItemIdentifier:"
+- "setMDMAppAttribute:withValue:forBundleID:"
+- "setObject:forKey:"
+- "setPINPrivacyLock:forBundleID:"
+- "setPostalCode:"
+- "setProximityReaderDelegate:"
+- "setRemoteObjectInterface:"
+- "setState:"
+- "setStreet:"
+- "setTag:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInteractionEnabled:"
+- "sharedApplication"
+- "shouldDisablePINPrivacyLockForBundleID:"
+- "shouldShowPINPrivacyLockForBundleID:"
+- "sleepForTimeInterval:"
+- "startIssuerPINEntry:transactionId:completion:"
+- "startSession:completion:"
+- "startTransaction:completion:"
+- "status:completion:"
+- "statusCode"
+- "storeAndForwardStatusWithCompletionHandler:"
+- "stringWithFormat:"
+- "substringFromIndex:"
+- "subviews"
+- "superclass"
+- "superview"
+- "systemBackgroundColor"
+- "systemDarkGrayColor"
+- "tag"
+- "temporaryDirectory"
+- "updateHandlers"
+- "userInterfaceLanguage"
+- "uuid"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0B8B12"
+- "v20@0:8B16"
+- "v20@?0B8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"12"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">16"
+- "v24@0:8@?<v@?@\"_TtC19ProximityReaderCore29IdentityConfigurationInternal\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"_TtC19ProximityReaderCore29StoreAndForwardStatusInternal\"@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?BB>16"
+- "v24@0:8@?<v@?q@\"NSError\">16"
+- "v24@0:8B16B20"
+- "v24@0:8q16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore10ReadResult\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore13SessionResult\"8@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore19LayoutBundleDetails\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore29IdentityConfigurationInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore29StoreAndForwardStatusInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore34StoreAndForwardBatchHeaderInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore40MobileDriversLicenseDataResponseInternal\"8@\"NSError\"16"
+- "v24@?0@\"_TtC19ProximityReaderCore40MobileDriversLicenseViewResponseInternal\"8@\"NSError\"16"
+- "v24@?0q8@\"NSError\"16"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v32@0:8@\"NSArray\"16@?<v@?>24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"_TtC19ProximityReaderCore19LayoutBundleDetails\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
+- "v32@0:8@\"NSString\"16@?<v@?q@\"NSError\">24"
+- "v32@0:8@\"NSString\"16d24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"_TtC19ProximityReaderCore19TransactionInternal\"16@?<v@?@\"_TtC19ProximityReaderCore10ReadResult\"@\"NSError\">24"
+- "v32@0:8@\"_TtC19ProximityReaderCore22SessionRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore13SessionResult\"@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">24"
+- "v32@0:8@\"_TtC19ProximityReaderCore39MobileDriversLicenseDataRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore40MobileDriversLicenseDataResponseInternal\"@\"NSError\">24"
+- "v32@0:8@\"_TtC19ProximityReaderCore39MobileDriversLicenseViewRequestInternal\"16@?<v@?@\"_TtC19ProximityReaderCore40MobileDriversLicenseViewResponseInternal\"@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16d24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"_TtC19ProximityReaderCore34StoreAndForwardBatchHeaderInternal\"@\"NSError\">24"
+- "v36@0:8@\"NSString\"16B24@?<v@?B@\"_TtC19ProximityReaderCore23CardReaderErrorInternal\">28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8q16B24@28"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"_TtC19ProximityReaderCore10ReadResult\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v8@?0"
+- "vasMerchants"
+- "view"
+- "viewDidDisappear:"
+- "viewDismissed"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "widthAnchor"
+- "xpcDisconnectionExpected"
+- "zone"
+
+```

@@ -1,0 +1,808 @@
+## Asen.dylib
+
+> `/System/Library/PrivateFrameworks/Asen.framework/Asen.dylib`
+
+```diff
+
+-83.0.1.0.0
+-  __TEXT.__text: 0x25884
+-  __TEXT.__auth_stubs: 0x1010
+-  __TEXT.__cstring: 0xa5c
+-  __TEXT.__const: 0x1078
+-  __TEXT.__constg_swiftt: 0x998
+-  __TEXT.__swift5_typeref: 0x65a
+-  __TEXT.__swift5_fieldmd: 0x594
++112.0.1.0.0
++  __TEXT.__text: 0x2bc24
++  __TEXT.__cstring: 0xc10
++  __TEXT.__const: 0x13c8
++  __TEXT.__constg_swiftt: 0xa78
++  __TEXT.__swift5_typeref: 0x72b
++  __TEXT.__swift5_fieldmd: 0x6b8
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_reflstr: 0x342
+-  __TEXT.__swift5_assocty: 0xa8
+-  __TEXT.__swift5_proto: 0x7c
+-  __TEXT.__swift5_types: 0x7c
+-  __TEXT.__gcc_except_tab: 0x584
+-  __TEXT.__swift5_capture: 0x4e4
+-  __TEXT.__oslogstring: 0xdea
++  __TEXT.__swift5_reflstr: 0x462
++  __TEXT.__swift5_assocty: 0xd8
++  __TEXT.__swift5_proto: 0x98
++  __TEXT.__swift5_types: 0x8c
++  __TEXT.__gcc_except_tab: 0x600
++  __TEXT.__swift5_capture: 0x5c4
++  __TEXT.__oslogstring: 0xf0a
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift_as_entry: 0x44
+-  __TEXT.__swift_as_ret: 0x44
++  __TEXT.__swift_as_entry: 0x50
++  __TEXT.__swift_as_ret: 0x50
++  __TEXT.__swift_as_cont: 0xcc
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xb18
+-  __TEXT.__eh_frame: 0x1bd0
+-  __TEXT.__objc_classname: 0x255
+-  __TEXT.__objc_methname: 0x234
+-  __TEXT.__objc_methtype: 0x1e
+-  __TEXT.__objc_stubs: 0x160
+-  __DATA_CONST.__got: 0x220
+-  __DATA_CONST.__const: 0x180
+-  __DATA_CONST.__objc_classlist: 0x68
++  __TEXT.__unwind_info: 0xc10
++  __TEXT.__eh_frame: 0x2000
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x198
++  __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x58
+-  __AUTH_CONST.__auth_got: 0x818
+-  __AUTH_CONST.__const: 0x1620
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x1a78
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0xbb0
++  __AUTH_CONST.__objc_const: 0xc48
++  __AUTH_CONST.__auth_got: 0x938
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0xb20
+-  __DATA.__data: 0x500
+-  __DATA.__bss: 0xe88
++  __AUTH.__data: 0xbf8
++  __DATA.__data: 0x530
++  __DATA.__bss: 0x1188
+   __DATA.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: D15DD1C9-BE27-3D2A-A308-6E2CA75B92D2
+-  Functions: 894
+-  Symbols:   2771
+-  CStrings:  208
++  UUID: 06931633-BE4F-31E8-82BF-ACE00BD3B7F5
++  Functions: 1025
++  Symbols:   3305
++  CStrings:  174
+ 
+Symbols:
++ GCC_except_table36
++ GCC_except_table38
++ GCC_except_table39
++ GCC_except_table41
++ GCC_except_table44
++ GCC_except_table5
++ GCC_except_table53
++ GCC_except_table54
++ GCC_except_table9
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Su_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s5Int32V_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s6UInt64V_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_4Asen0L12ServiceEventO_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_Says6UInt32VG_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$s4Asen0A10SPUServiceC10debugStateyyKF
++ _$s4Asen0A10SPUServiceC10debugStateyyKFTj
++ _$s4Asen0A10SPUServiceC10debugStateyyKFTq
++ _$s4Asen0A10SPUServiceC13btDaemonResetyyKFTm
++ _$s4Asen0A12ServiceEventO11serviceDatayACSays5UInt8VG_s6UInt64VAItcACmFWC
++ _$s4Asen0A12ServiceEventO12activityDatayACSays5UInt8VGcACmFWC
++ _$s4Asen0A12ServiceEventO15calibrationDatayACSays5UInt8VGcACmFWC
++ _$s4Asen0A12ServiceEventO15getMadTypeLabelSSSgyF
++ _$s4Asen0A12ServiceEventO17extractImageAsset33_495BD002303E54301B100F89F0738E6ALLSbSg9isLeftBud_Says5UInt8VGSg5assettyF
++ _$s4Asen0A12ServiceEventO23extractCalibrationAsset33_495BD002303E54301B100F89F0738E6ALLSbSg9isLeftBud_Says5UInt8VGSg5assettyF
++ _$s4Asen0A12ServiceEventOWOe
++ _$s4Asen0A12ServiceEventOWOy
++ _$s4Asen0A22AoeDataServiceEndpointO011kInputEkCalD2IdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO011kInputEkCalD2IdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO011kInputEkCalD2IdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO011kInputEkCalD2IdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO012kPolarisPathD2IdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO012kPolarisPathD2IdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO012kPolarisPathD2IdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO012kPolarisPathD2IdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO013kPcEkActivityD2IdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO013kPcEkActivityD2IdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO013kPcEkActivityD2IdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO013kPcEkActivityD2IdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO04fromD2Id_06sourceG0ACs6UInt64V_AGtFZ
++ _$s4Asen0A22AoeDataServiceEndpointO04fromD2Id_06sourceG0ACs6UInt64V_AGtFZTf4nnd_n
++ _$s4Asen0A22AoeDataServiceEndpointO09kPsWriterD2IdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO09kPsWriterD2IdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO09kPsWriterD2IdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO09kPsWriterD2IdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO17kPsWriterSourceIdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO17kPsWriterSourceIdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO17kPsWriterSourceIdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO17kPsWriterSourceIdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO19kInputEkCalSourceIdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO19kInputEkCalSourceIdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO19kInputEkCalSourceIdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO19kInputEkCalSourceIdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO20kPolatisPathSourceIdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO20kPolatisPathSourceIdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO20kPolatisPathSourceIdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO20kPolatisPathSourceIdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointO21kPcEkActivitySourceIdSuvau
++ _$s4Asen0A22AoeDataServiceEndpointO21kPcEkActivitySourceIdSuvgZ
++ _$s4Asen0A22AoeDataServiceEndpointO21kPcEkActivitySourceIdSuvpZ
++ _$s4Asen0A22AoeDataServiceEndpointO21kPcEkActivitySourceIdSuvpZMV
++ _$s4Asen0A22AoeDataServiceEndpointOMF
++ _$s4Asen0A22AoeDataServiceEndpointOMa
++ _$s4Asen0A22AoeDataServiceEndpointOMf
++ _$s4Asen0A22AoeDataServiceEndpointOMn
++ _$s4Asen0A22AoeDataServiceEndpointON
++ _$s4Asen0A22AoeDataServiceEndpointOWV
++ _$s4Asen0A22AoeDataServiceEndpointOwet
++ _$s4Asen0A22AoeDataServiceEndpointOwst
++ _$s4Asen0A22AoeDataServiceEndpointOwug
++ _$s4Asen0A22AoeDataServiceEndpointOwui
++ _$s4Asen0A22AoeDataServiceEndpointOwup
++ _$s4Asen0A3HIDC9getReport_6reportySi_Says5UInt8VGztKFySryAGGzKXEfU_
++ _$s4Asen0A6IODataV4sideAC7BudSideOvg
++ _$s4Asen0A6IODataV4sideAC7BudSideOvpMV
++ _$s4Asen0A6IODataV6btAddr18machContinuousTime0cG04data4sideACs6UInt64V_AJs6UInt32VSays5UInt8VGAC7BudSideOtcfC
++ _$s4Asen0A6IODataV7BudSideO4leftyA2EmFWC
++ _$s4Asen0A6IODataV7BudSideO5rightyA2EmFWC
++ _$s4Asen0A6IODataV7BudSideO8rawValueAESgs4Int8V_tcfC
++ _$s4Asen0A6IODataV7BudSideO8rawValues4Int8Vvg
++ _$s4Asen0A6IODataV7BudSideO8rawValues4Int8VvpMV
++ _$s4Asen0A6IODataV7BudSideOAESQAAWL
++ _$s4Asen0A6IODataV7BudSideOAESQAAWl
++ _$s4Asen0A6IODataV7BudSideOMF
++ _$s4Asen0A6IODataV7BudSideOMa
++ _$s4Asen0A6IODataV7BudSideOMf
++ _$s4Asen0A6IODataV7BudSideOMn
++ _$s4Asen0A6IODataV7BudSideON
++ _$s4Asen0A6IODataV7BudSideOSHAAMc
++ _$s4Asen0A6IODataV7BudSideOSHAAMcMK
++ _$s4Asen0A6IODataV7BudSideOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s4Asen0A6IODataV7BudSideOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s4Asen0A6IODataV7BudSideOSHAASH9hashValueSivgTW
++ _$s4Asen0A6IODataV7BudSideOSHAASQWb
++ _$s4Asen0A6IODataV7BudSideOSQAAMc
++ _$s4Asen0A6IODataV7BudSideOSQAAMcMK
++ _$s4Asen0A6IODataV7BudSideOSQAASQ2eeoiySbx_xtFZTW
++ _$s4Asen0A6IODataV7BudSideOSYAAMA
++ _$s4Asen0A6IODataV7BudSideOSYAAMc
++ _$s4Asen0A6IODataV7BudSideOSYAAMcMK
++ _$s4Asen0A6IODataV7BudSideOSYAASY8rawValue03RawF0QzvgTW
++ _$s4Asen0A6IODataV7BudSideOSYAASY8rawValuexSg03RawF0Qz_tcfCTW
++ _$s4Asen0A6IODataV7BudSideOWV
++ _$s4Asen0A6IODataV7BudSideOwet
++ _$s4Asen0A6IODataV7BudSideOwst
++ _$s4Asen0A6IODataV7BudSideOwug
++ _$s4Asen0A6IODataV7BudSideOwui
++ _$s4Asen0A6IODataV7BudSideOwup
++ _$s4Asen0A7ServiceC19configDebugDataPath6enableySb_tYaKFyScCyyts5Error_pGXEfU_ys6ResultOyytsAF_pGcfU_TATm
++ _$s4Asen0A7ServiceC4ping6numbers6UInt64VAG_tYaKFyScCyAGs5Error_pGXEfU_ys6ResultOyAGsAH_pGcfU_TATm
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctF
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFTj
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFTq
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFyyYbcfU_
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFyyYbcfU_TA
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFyyYbcfU_yyYbcfU0_TA
++ _$s4Asen0A7ServiceC7getCFGs_10completionySays6UInt32VG_ys6ResultOyAHs5Error_pGctFyyYbcfU_yyYbcfU_TA
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKF
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTQ1_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTY0_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTY2_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTY3_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTj
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTjTQ0_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTjTu
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTq
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFTu
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFyScCyAGs5Error_pGXEfU_ys6ResultOyAGsAH_pGcfU_
++ _$s4Asen0A7ServiceC7getCFGsySays6UInt32VGAGYaKFyScCyAGs5Error_pGXEfU_ys6ResultOyAGsAH_pGcfU_TA
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctF
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFTj
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFTq
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFyyYbcfU_
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFyyYbcfU_TA
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFyyYbcfU_yyYbcfU0_TA
++ _$s4Asen0A7ServiceC7setCFGs_6values10completionySays6UInt32VG_AIys6ResultOyyts5Error_pGctFyyYbcfU_yyYbcfU_TA
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKF
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTQ1_
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTY0_
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTY2_
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTY3_
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTj
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTjTQ0_
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTjTu
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTq
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFTu
++ _$s4Asen0A7ServiceC7setCFGs_6valuesySays6UInt32VG_AHtYaKFyScCyyts5Error_pGXEfU_ys6ResultOyytsAI_pGcfU_TA
++ _$s4Asen11ASTDataTypeO12microAmbientyA2CmFWC
++ _$s4Asen11ASTDataTypeO15imageTerminatoryA2CmFWC
++ _$s4Asen11ASTDataTypeO18infieldCalibrationyA2CmFWC
++ _$s4Asen11ASTDataTypeOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s4Asen11ASTDataTypeOSHAASH9hashValueSivgTWTm
++ _$s4Asen15DarwinRPCServerC12endpointName0D06parent8delegate0G5QueueACSS_9Tightbeam0I8EndpointOAA0A7ServiceCAA0aK8Delegate_pSgSo17OS_dispatch_queueCtcfC
++ _$s4Asen15DarwinRPCServerC12endpointName0D06parent8delegate0G5QueueACSS_9Tightbeam0I8EndpointOAA0A7ServiceCAA0aK8Delegate_pSgSo17OS_dispatch_queueCtcfCTj
++ _$s4Asen15DarwinRPCServerC12endpointName0D06parent8delegate0G5QueueACSS_9Tightbeam0I8EndpointOAA0A7ServiceCAA0aK8Delegate_pSgSo17OS_dispatch_queueCtcfCTq
++ _$s4Asen15DarwinRPCServerC12endpointName0D06parent8delegate0G5QueueACSS_9Tightbeam0I8EndpointOAA0A7ServiceCAA0aK8Delegate_pSgSo17OS_dispatch_queueCtcfc
++ _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALLSDySSAA17asenaop2_callbackC0E0C5sever_AA0bC11WeakWrapperC7handlertGvpZ
++ _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALL_WZ
++ _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALL_Wz
++ _$s4Asen16asenaop2_serviceC7ServiceC7getCFGs6cfgIdsSays6UInt32VGAJ_tKF
++ _$s4Asen16asenaop2_serviceC7ServiceC7setCFGs6cfgIds6valuesySays6UInt32VG_AKtKF
++ _$s4Asen17asenaop2_callbackC6ServerC5sever_AA26DarwinRPCServerWeakWrapperC7handlertSgWOe
++ _$s4Asen17asenaop2_callbackC6ServerC8endpoint7handlerAE9Tightbeam0G8EndpointO_xtcAA0b1_C7HandlerRzlufcAH0G7MessageVSgAH0G7DecoderVnSo10tb_error_taYKcfU_AA26DarwinRPCServerWeakWrapperC_TG5TA
++ _$s4Asen17asenaop2_callbackC6ServerC8endpoint7handlerAE9Tightbeam0G8EndpointO_xtcAA0b1_C7HandlerRzlufcAH0G7MessageVSgAH0G7DecoderVnSo10tb_error_taYKcfU_AA26DarwinRPCServerWeakWrapperC_Tg5
++ _$s4Asen19SubscriptionManagerC9subscribe3for7handler15replaceExistingSbx_ys6ResultOyq_s5Error_pGcSbtFSSycfu0_
++ _$s4Asen19SubscriptionManagerC9subscribe3for7handler15replaceExistingSbx_ys6ResultOyq_s5Error_pGcSbtFSSycfu1_
++ _$s4Asen19SubscriptionManagerC9subscribe3for7handler15replaceExistingSbx_ys6ResultOyq_s5Error_pGcSbtFSSycfu2_
++ _$s4Asen19getMicroAmbientData11payloadType0F0Says5UInt8VGAA08ASTMicrod7PayloadG0O_AGtF
++ _$s4Asen23asenaop2_serviceHandlerP7getCFGs6cfgIdsSays6UInt32VGAH_tFTj
++ _$s4Asen23asenaop2_serviceHandlerP7getCFGs6cfgIdsSays6UInt32VGAH_tFTq
++ _$s4Asen23asenaop2_serviceHandlerP7setCFGs6cfgIds6valuesySays6UInt32VG_AItFTj
++ _$s4Asen23asenaop2_serviceHandlerP7setCFGs6cfgIds6valuesySays6UInt32VG_AItFTq
++ _$s4Asen26ASTMicroAmbientPayloadTypeO15headsetActivityyA2CmFWC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO3maxyA2CmFWC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO6cValueACSgs5UInt8V_tcfC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO6cValues5UInt8Vvg
++ _$s4Asen26ASTMicroAmbientPayloadTypeO6cValues5UInt8VvpMV
++ _$s4Asen26ASTMicroAmbientPayloadTypeO6ioDatayA2CmFWC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO7unknownyA2CmFWC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO8rawValueACSgs5UInt8V_tcfC
++ _$s4Asen26ASTMicroAmbientPayloadTypeO8rawValues5UInt8Vvg
++ _$s4Asen26ASTMicroAmbientPayloadTypeO8rawValues5UInt8VvpMV
++ _$s4Asen26ASTMicroAmbientPayloadTypeO8sitStandyA2CmFWC
++ _$s4Asen26ASTMicroAmbientPayloadTypeOACSQAAWL
++ _$s4Asen26ASTMicroAmbientPayloadTypeOACSQAAWl
++ _$s4Asen26ASTMicroAmbientPayloadTypeOMF
++ _$s4Asen26ASTMicroAmbientPayloadTypeOMa
++ _$s4Asen26ASTMicroAmbientPayloadTypeOMf
++ _$s4Asen26ASTMicroAmbientPayloadTypeOMn
++ _$s4Asen26ASTMicroAmbientPayloadTypeON
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAAMc
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAAMcMK
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAASH9hashValueSivgTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSHAASQWb
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSQAAMc
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSQAAMcMK
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSYAAMA
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSYAAMc
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSYAAMcMK
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSYAASY8rawValue03RawG0QzvgTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
++ _$s4Asen26ASTMicroAmbientPayloadTypeOWV
++ _$s4Asen26ASTMicroAmbientPayloadTypeOwet
++ _$s4Asen26ASTMicroAmbientPayloadTypeOwst
++ _$s4Asen26ASTMicroAmbientPayloadTypeOwug
++ _$s4Asen26ASTMicroAmbientPayloadTypeOwui
++ _$s4Asen26ASTMicroAmbientPayloadTypeOwup
++ _$s4Asen26DarwinRPCServerWeakWrapperC14ioDataReceivedyyF
++ _$s4Asen26DarwinRPCServerWeakWrapperC14ioDataReceivedyyFTj
++ _$s4Asen26DarwinRPCServerWeakWrapperC14ioDataReceivedyyFTq
++ _$s4Asen26DarwinRPCServerWeakWrapperC14translatedTime02btG2Us02mcgI0ys6UInt64V_AHtF
++ _$s4Asen26DarwinRPCServerWeakWrapperC14translatedTime02btG2Us02mcgI0ys6UInt64V_AHtFTj
++ _$s4Asen26DarwinRPCServerWeakWrapperC14translatedTime02btG2Us02mcgI0ys6UInt64V_AHtFTq
++ _$s4Asen26DarwinRPCServerWeakWrapperC15message_enqueue12aoeServiceID06sourceJ00F4Datays6UInt64V_AISays5UInt8VGtF
++ _$s4Asen26DarwinRPCServerWeakWrapperC15message_enqueue12aoeServiceID06sourceJ00F4Datays6UInt64V_AISays5UInt8VGtFTj
++ _$s4Asen26DarwinRPCServerWeakWrapperC15message_enqueue12aoeServiceID06sourceJ00F4Datays6UInt64V_AISays5UInt8VGtFTq
++ _$s4Asen26DarwinRPCServerWeakWrapperC7wrapped33_804BE5DF9879A905129989D27153EC8ALLAA0bC0CSgvM
++ _$s4Asen26DarwinRPCServerWeakWrapperC7wrapped33_804BE5DF9879A905129989D27153EC8ALLAA0bC0CSgvg
++ _$s4Asen26DarwinRPCServerWeakWrapperC7wrapped33_804BE5DF9879A905129989D27153EC8ALLAA0bC0CSgvpWvd
++ _$s4Asen26DarwinRPCServerWeakWrapperC7wrapped33_804BE5DF9879A905129989D27153EC8ALLAA0bC0CSgvs
++ _$s4Asen26DarwinRPCServerWeakWrapperCAA24asenaop2_callbackHandlerA2aDP14ioDataReceivedyyFTW
++ _$s4Asen26DarwinRPCServerWeakWrapperCAA24asenaop2_callbackHandlerA2aDP14translatedTime02btJ2Us02mcjL0ys6UInt64V_AJtFTW
++ _$s4Asen26DarwinRPCServerWeakWrapperCAA24asenaop2_callbackHandlerA2aDP15message_enqueue12aoeServiceID06sourceM00I4Datays6UInt64V_AKSays5UInt8VGtFTW
++ _$s4Asen26DarwinRPCServerWeakWrapperCAA24asenaop2_callbackHandlerAAMc
++ _$s4Asen26DarwinRPCServerWeakWrapperCAA24asenaop2_callbackHandlerAAWP
++ _$s4Asen26DarwinRPCServerWeakWrapperCMF
++ _$s4Asen26DarwinRPCServerWeakWrapperCMa
++ _$s4Asen26DarwinRPCServerWeakWrapperCMf
++ _$s4Asen26DarwinRPCServerWeakWrapperCMm
++ _$s4Asen26DarwinRPCServerWeakWrapperCMn
++ _$s4Asen26DarwinRPCServerWeakWrapperCMo
++ _$s4Asen26DarwinRPCServerWeakWrapperCMu
++ _$s4Asen26DarwinRPCServerWeakWrapperCN
++ _$s4Asen26DarwinRPCServerWeakWrapperCfD
++ _$s4Asen26DarwinRPCServerWeakWrapperCfd
++ _$s4Asen26DarwinRPCServerWeakWrapperCyAcA0bC0CcfC
++ _$s4Asen26DarwinRPCServerWeakWrapperCyAcA0bC0CcfCTj
++ _$s4Asen26DarwinRPCServerWeakWrapperCyAcA0bC0CcfCTq
++ _$s4Asen26DarwinRPCServerWeakWrapperCyAcA0bC0Ccfc
++ _$s4Asen6ASTGenC18kOneSlotSduMaxSizes6UInt16Vvau
++ _$s4Asen6ASTGenC18kOneSlotSduMaxSizes6UInt16VvgZ
++ _$s4Asen6ASTGenC18kOneSlotSduMaxSizes6UInt16VvpZ
++ _$s4Asen6ASTGenC18kOneSlotSduMaxSizes6UInt16VvpZMV
++ _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCT06madSubF0ACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2VSgs6UInt64VSgA2w2zA022ASTMicroAmbientPayloadF0OSgtKcfC
++ _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCT06madSubF0ACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2VSgs6UInt64VSgA2w2zA022ASTMicroAmbientPayloadF0OSgtKcfCTj
++ _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCT06madSubF0ACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2VSgs6UInt64VSgA2w2zA022ASTMicroAmbientPayloadF0OSgtKcfCTq
++ _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCT06madSubF0ACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2VSgs6UInt64VSgA2w2zA022ASTMicroAmbientPayloadF0OSgtKcfc
++ _$s9Tightbeam0A7DecoderV6decode2ass6UInt32VAGm_tF
++ _$s9Tightbeam0A7EncoderV6encodeyys6UInt32VF
++ _$s9Tightbeam16ClientConnectionC10sendOneway7messageyAA0A7MessageVn_tSo10tb_error_taYKF
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSa11descriptionSSvg
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF
++ _$sSays6UInt32VGMR
++ _$sSays6UInt32VGMd
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sScCySays6UInt32VGs5Error_pGMR
++ _$sScCySays6UInt32VGs5Error_pGMd
++ _$sScPSgWOh
++ _$sSo15astgen_status_tVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo16ast_ihtlv_type_tVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo16ast_ihtlv_type_tVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo25ast_mad_ih_payload_type_tVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo25ast_mad_ih_payload_type_tVSYSCSY8rawValue03RawG0QzvgTW
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFs13OpaquePointerVSg_s5NeverOTg5072$s4Asen25rpcFindTightbeamEndpointsy0D00D8EndpointO3fwd_AE3revtSS_SStFs13hi8VSgSPys4F7VGXEfU_Tf1cn_n
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGq_YKXEq_YKs5ErrorR_r0_lFs5Int32V_s5NeverOTg5071$s4Asen25rpcFindTightbeamEndpointsy0D00D8EndpointO3fwd_AE3revtSS_SStFs5h6VSPys4F8VGXEfU0_s13OpaquePointerVs6UInt32VAPTf1cn_n
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFs6UInt32V_Tg5
++ _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_4Asen17asenaop2_callbackC6ServerC5sever_AF26DarwinRPCServerWeakWrapperC7handlertTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_4Asen17asenaop2_callbackC6ServerC5sever_AD26DarwinRPCServerWeakWrapperC7handlertTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_4Asen17asenaop2_callbackC6ServerC5sever_AF26DarwinRPCServerWeakWrapperC7handlertTg5
++ _$ss18_DictionaryStorageCySS4Asen17asenaop2_callbackC6ServerC5sever_AC26DarwinRPCServerWeakWrapperC7handlertGMR
++ _$ss18_DictionaryStorageCySS4Asen17asenaop2_callbackC6ServerC5sever_AC26DarwinRPCServerWeakWrapperC7handlertGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt32V_Tg5
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMR
++ _$ss23_ContiguousArrayStorageCys6UInt32VGMd
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalF
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTQ0_
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTY1_
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTu
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFyBcXEfU_
++ _$ss4Int8VMn
++ _$ss4Int8VN
++ _$ss4Int8Vs7CVarArgsWP
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss6ResultOySays6UInt32VGs5Error_pGWOy
++ _$ss6ResultOys6UInt64V8btTimeUs_AD02mcdE0ts5Error_pGWOhTm
++ _$ss6UInt16Vs23CustomStringConvertiblesWP
++ _$ss6UInt32VN
++ _IOConnectUnmapMemory64
++ __DATA__TtC4Asen26DarwinRPCServerWeakWrapper
++ __IVARS__TtC4Asen26DarwinRPCServerWeakWrapper
++ __METACLASS_DATA__TtC4Asen26DarwinRPCServerWeakWrapper
++ __ZL33$So16AsenIODataHeadera$len$getter16AsenIODataHeader
++ __ZL38$So16AsenIODataHeadera$bud_side$getter16AsenIODataHeader
++ __ZN8ShmQueueI15AsenIODataBlockLb1EE12NElementsMaxEm
++ ___swift__destructor
++ ___swift__destructor.2
++ ___swift__destructor.24
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.164Tm
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.239
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.251
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.74Tm
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_memcpy17_8
++ ___swift_memcpy25_8
++ ___swift_memcpy33_8
++ ___unnamed_3
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 4Asen0A6IODataV7BudSideOSHAASQ
++ _associated conformance 4Asen26ASTMicroAmbientPayloadTypeOSHAASQ
++ _block_copy_helper.14
++ _block_copy_helper.166
++ _block_copy_helper.172
++ _block_copy_helper.178
++ _block_copy_helper.184
++ _block_copy_helper.190
++ _block_copy_helper.21
++ _block_copy_helper.229
++ _block_copy_helper.235
++ _block_copy_helper.241
++ _block_copy_helper.247
++ _block_copy_helper.253
++ _block_copy_helper.259
++ _block_copy_helper.265
++ _block_copy_helper.271
++ _block_copy_helper.277
++ _block_copy_helper.28
++ _block_copy_helper.283
++ _block_copy_helper.289
++ _block_copy_helper.35
++ _block_copy_helper.42
++ _block_copy_helper.49
++ _block_copy_helper.56
++ _block_copy_helper.63
++ _block_copy_helper.7
++ _block_copy_helper.70
++ _block_descriptor.16
++ _block_descriptor.168
++ _block_descriptor.174
++ _block_descriptor.180
++ _block_descriptor.186
++ _block_descriptor.192
++ _block_descriptor.23
++ _block_descriptor.231
++ _block_descriptor.237
++ _block_descriptor.243
++ _block_descriptor.249
++ _block_descriptor.255
++ _block_descriptor.261
++ _block_descriptor.267
++ _block_descriptor.273
++ _block_descriptor.279
++ _block_descriptor.285
++ _block_descriptor.291
++ _block_descriptor.30
++ _block_descriptor.37
++ _block_descriptor.44
++ _block_descriptor.51
++ _block_descriptor.58
++ _block_descriptor.65
++ _block_descriptor.72
++ _block_descriptor.9
++ _block_destroy_helper.15
++ _block_destroy_helper.167
++ _block_destroy_helper.173
++ _block_destroy_helper.179
++ _block_destroy_helper.185
++ _block_destroy_helper.191
++ _block_destroy_helper.22
++ _block_destroy_helper.230
++ _block_destroy_helper.236
++ _block_destroy_helper.242
++ _block_destroy_helper.248
++ _block_destroy_helper.254
++ _block_destroy_helper.260
++ _block_destroy_helper.266
++ _block_destroy_helper.272
++ _block_destroy_helper.278
++ _block_destroy_helper.284
++ _block_destroy_helper.29
++ _block_destroy_helper.290
++ _block_destroy_helper.36
++ _block_destroy_helper.43
++ _block_destroy_helper.50
++ _block_destroy_helper.57
++ _block_destroy_helper.64
++ _block_destroy_helper.71
++ _block_destroy_helper.8
++ _objc_retain_x27
++ _shmem_close
++ _shmem_map_memory
++ _shmem_open
++ _shmem_unmap_memory
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_n
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic Say_____G s6UInt32V
++ _symbolic Say_____G4data______12aoeServiceIDAD06sourceD0t s5UInt8V s6UInt64V
++ _symbolic ScCySay_____G______pG s6UInt32V s5ErrorP
++ _symbolic _____ 4Asen0A22AoeDataServiceEndpointO
++ _symbolic _____ 4Asen0A6IODataV7BudSideO
++ _symbolic _____ 4Asen26ASTMicroAmbientPayloadTypeO
++ _symbolic _____ 4Asen26DarwinRPCServerWeakWrapperC
++ _symbolic _____ s4Int8V
++ _symbolic _____9serviceId_AA06sourceB0t s6UInt64V
++ _symbolic _____ySS_____5sever______7handlertG s18_DictionaryStorageC 4Asen17asenaop2_callbackC6ServerC AC26DarwinRPCServerWeakWrapperC
++ _symbolic _____ySay_____G______pGIegg_ s6ResultOsRi_zRi0_zrlE s6UInt32V s5ErrorP
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
+- GCC_except_table10
+- GCC_except_table13
+- GCC_except_table26
+- GCC_except_table29
+- GCC_except_table6
+- GCC_except_table8
+- _$s4Asen0A6IODataV6btAddr18machContinuousTime0cG04dataACs6UInt64V_AIs6UInt32VSays5UInt8VGtcfC
+- _$s4Asen0A7ServiceC13translateTime02btD2Uss6UInt64VAE_AG02mcdF0tAG_tYaKFyScCyAgE_AgHts5Error_pGXEfU_
+- _$s4Asen0A7ServiceC13translateTime02btD2Uss6UInt64VAE_AG02mcdF0tAG_tYaKFyScCyAgE_AgHts5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC15configAOEReplay6enable8periodUs5countS2b_s6UInt64VAItYaKFyScCySbs5Error_pGXEfU_
+- _$s4Asen0A7ServiceC15configAOEReplay6enable8periodUs5countS2b_s6UInt64VAItYaKFyScCySbs5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC16configIODataPath6enableySb_tYaKFyScCyyts5Error_pGXEfU_
+- _$s4Asen0A7ServiceC16configIODataPath6enableySb_tYaKFyScCyyts5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC17configAssetReplay6enable8periodUs5countS2b_s6UInt64VAItYaKFyScCySbs5Error_pGXEfU_
+- _$s4Asen0A7ServiceC17configAssetReplay6enable8periodUs5countS2b_s6UInt64VAItYaKFyScCySbs5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC19configDebugDataPath6enableySb_tYaKFyScCyyts5Error_pGXEfU_
+- _$s4Asen0A7ServiceC19configDebugDataPath6enableySb_tYaKFyScCyyts5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC19setMockAPAwakeState5awakeySb_tYaKFyScCyyts5Error_pGXEfU_
+- _$s4Asen0A7ServiceC19setMockAPAwakeState5awakeySb_tYaKFyScCyyts5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC19setMockAPAwakeState5awakeySb_tYaKFyScCyyts5Error_pGXEfU_ys6ResultOyytsAF_pGcfU_TATm
+- _$s4Asen0A7ServiceC20setActivePathEnabledyySbYaKFyScCyyts5Error_pGXEfU_
+- _$s4Asen0A7ServiceC20setActivePathEnabledyySbYaKFyScCyyts5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC4ping6numbers6UInt64VAG_tYaKFyScCyAGs5Error_pGXEfU_
+- _$s4Asen0A7ServiceC4ping6numbers6UInt64VAG_tYaKFyScCyAGs5Error_pGXEfU_TA
+- _$s4Asen0A7ServiceC7aoeSend9serviceId08resourceF04dataSbs6UInt64V_AISays5UInt8VGtYaKFyScCySbs5Error_pGXEfU_
+- _$s4Asen0A7ServiceC7aoeSend9serviceId08resourceF04dataSbs6UInt64V_AISays5UInt8VGtYaKFyScCySbs5Error_pGXEfU_TA
+- _$s4Asen12AsyncChannelC4sendyyxFAA0A12ServiceEventO_TB5
+- _$s4Asen15DarwinRPCServerC8endpoint6parent8delegate0F5QueueAC9Tightbeam0H8EndpointO_AA0A7ServiceCAA0aJ8Delegate_pSgSo17OS_dispatch_queueCtcfC
+- _$s4Asen15DarwinRPCServerC8endpoint6parent8delegate0F5QueueAC9Tightbeam0H8EndpointO_AA0A7ServiceCAA0aJ8Delegate_pSgSo17OS_dispatch_queueCtcfCTj
+- _$s4Asen15DarwinRPCServerC8endpoint6parent8delegate0F5QueueAC9Tightbeam0H8EndpointO_AA0A7ServiceCAA0aJ8Delegate_pSgSo17OS_dispatch_queueCtcfCTq
+- _$s4Asen15DarwinRPCServerC8endpoint6parent8delegate0F5QueueAC9Tightbeam0H8EndpointO_AA0A7ServiceCAA0aJ8Delegate_pSgSo17OS_dispatch_queueCtcfc
+- _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALLAA17asenaop2_callbackC0E0CSgvM
+- _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALLAA17asenaop2_callbackC0E0CSgvg
+- _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALLAA17asenaop2_callbackC0E0CSgvpWvd
+- _$s4Asen15DarwinRPCServerC9_tbServer33_804BE5DF9879A905129989D27153EC8ALLAA17asenaop2_callbackC0E0CSgvs
+- _$s4Asen17asenaop2_callbackC6ServerC8endpoint7handlerAE9Tightbeam0G8EndpointO_xtcAA0b1_C7HandlerRzlufcAH0G7MessageVSgAH0G7DecoderVnSo10tb_error_taYKcfU_AA15DarwinRPCServerC_TG5TA
+- _$s4Asen17asenaop2_callbackC6ServerC8endpoint7handlerAE9Tightbeam0G8EndpointO_xtcAA0b1_C7HandlerRzlufcAH0G7MessageVSgAH0G7DecoderVnSo10tb_error_taYKcfU_AA15DarwinRPCServerC_Tg5
+- _$s4Asen18AsyncTimeoutStreamV8IteratorV4next7timeout7ElementQzSgs8DurationV_tYaKFTY5_
+- _$s4Asen18AsyncTimeoutStreamV8IteratorV4next7timeout7ElementQzSgs8DurationV_tYaKFTY6_
+- _$s4Asen25rpcFindTightbeamEndpointsy0D00D8EndpointO3fwd_AE3revtSS_SStFs13OpaquePointerVSgSPys4Int8VGXEfU_
+- _$s4Asen25rpcFindTightbeamEndpointsy0D00D8EndpointO3fwd_AE3revtSS_SStFs5Int32VSPys4Int8VGXEfU0_TA
+- _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCTACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2Us6UInt64VSgAUSgAy2XtKcfC
+- _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCTACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2Us6UInt64VSgAUSgAy2XtKcfCTj
+- _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCTACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2Us6UInt64VSgAUSgAy2XtKcfCTq
+- _$s4Asen6ASTGenC4data7leftBud0C4Type13aclConnHandle8l2capCID10sduMTUSize9btAddress3pid7frameID13insecureBTClk0S3MCTACSays5UInt8VG_SbAA07ASTDataF0Os6UInt16VA2Us6UInt64VSgAUSgAy2XtKcfc
+- _$sSS_yptWOc
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFScCy4Asen0E12ServiceEventOs5NeverOG_s15EmptyCollectionVyAKGTg5Tf4ndn_n
+- _$sScCy4Asen0A12ServiceEventOs5NeverOGSgMR
+- _$sScCy4Asen0A12ServiceEventOs5NeverOGSgMd
+- _$sScPSgWOc
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF
+- _$ss13OpaquePointerVSgMR
+- _$ss13OpaquePointerVSgMd
+- _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VyScCy4Asen0J12ServiceEventOs5NeverOGG_s15EmptyCollectionVyAQGTg5Tf4nndn_n
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.119
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.119TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.119Tu
+- _$sypWOb
+- ___swift_memcpy9_8
+- ___unnamed_2
+- _block_copy_helper.15
+- _block_copy_helper.157
+- _block_copy_helper.163
+- _block_copy_helper.169
+- _block_copy_helper.175
+- _block_copy_helper.181
+- _block_copy_helper.187
+- _block_copy_helper.22
+- _block_copy_helper.226
+- _block_copy_helper.232
+- _block_copy_helper.238
+- _block_copy_helper.244
+- _block_copy_helper.250
+- _block_copy_helper.256
+- _block_copy_helper.29
+- _block_copy_helper.36
+- _block_copy_helper.43
+- _block_copy_helper.50
+- _block_copy_helper.57
+- _block_copy_helper.8
+- _block_descriptor.10
+- _block_descriptor.159
+- _block_descriptor.165
+- _block_descriptor.17
+- _block_descriptor.171
+- _block_descriptor.177
+- _block_descriptor.183
+- _block_descriptor.189
+- _block_descriptor.228
+- _block_descriptor.234
+- _block_descriptor.24
+- _block_descriptor.240
+- _block_descriptor.246
+- _block_descriptor.252
+- _block_descriptor.258
+- _block_descriptor.31
+- _block_descriptor.38
+- _block_descriptor.45
+- _block_descriptor.52
+- _block_descriptor.59
+- _block_destroy_helper.158
+- _block_destroy_helper.16
+- _block_destroy_helper.164
+- _block_destroy_helper.170
+- _block_destroy_helper.176
+- _block_destroy_helper.182
+- _block_destroy_helper.188
+- _block_destroy_helper.227
+- _block_destroy_helper.23
+- _block_destroy_helper.233
+- _block_destroy_helper.239
+- _block_destroy_helper.245
+- _block_destroy_helper.251
+- _block_destroy_helper.257
+- _block_destroy_helper.30
+- _block_destroy_helper.37
+- _block_destroy_helper.44
+- _block_destroy_helper.51
+- _block_destroy_helper.58
+- _block_destroy_helper.9
+- _objectdestroy.128Tm
+- _objectdestroy.155Tm
+- _objectdestroy.2Tm
+- _objectdestroyTm
+- _swift_bridgeObjectRetain_n
+- _symbolic ScCy__________GSg 4Asen0A12ServiceEventO s5NeverO
+- _symbolic _____Sg 4Asen17asenaop2_callbackC6ServerC
+CStrings:
++ " SDU MTU should fit in a one slot packet ("
++ "AFKSharedMemoryRegionBase"
++ "AST_DATA_TYPE_FACTORY_CALIBRATION"
++ "AST_DATA_TYPE_IMAGE_TERMINATOR"
++ "AST_DATA_TYPE_INFIELD_CALIBRATION"
++ "AST_DATA_TYPE_MAD"
++ "AST_DATA_TYPE_SECURE_SIGNALING"
++ "Debug State request"
++ "MicroAmbient data must have a madSubType"
++ "Shmem map failed to close: "
++ "Shmem map failed, "
++ "Shmem open failed, "
++ "[AsenAOP2] getCFGs(%s) %s"
++ "[AsenAOP2] getCFGs(%s) error: %@"
++ "[AsenAOP2] getCFGs(%s) returned -> %s"
++ "[AsenAOP2] setCFGs(%s, %s) %s"
++ "[AsenAOP2] setCFGs(%s, %s) error: %@"
++ "[AsenAOP2] setCFGs(%s, %s) returned"
++ "calibrationData("
++ "getCFGs(_:completion:)"
++ "serviceData[serviceID: "
++ "setCFGs(_:values:)"
++ "setCFGs(_:values:completion:)"
++ "wrong sduMTUSize "
+- "$defaultActor"
+- "AFKSharedMemoryRegion"
+- "AST_DATA_TYPE_CALIBRATION"
+- "AST_DATA_TYPE_SIGNALING"
+- "Shmem map failed to initialize: "
+- "_TtC4Asen11AsenService"
+- "_TtC4Asen14AsenSPUService"
+- "_TtC4Asen15DarwinRPCServer"
+- "_TtC4Asen16asenaop2_service"
+- "_TtC4Asen17asenaop2_callback"
+- "_TtC4Asen22AsenIODataQueueWrapper"
+- "_TtC4Asen6ASTGen"
+- "_TtC4Asen7AsenHID"
+- "_TtCC4Asen16asenaop2_service6Server"
+- "_TtCC4Asen16asenaop2_service7Service"
+- "_TtCC4Asen17asenaop2_callback6Server"
+- "_TtCC4Asen17asenaop2_callback7Service"
+- "_TtCFFC4Asen11AsenService11eventStreamFT_GVs11AsyncStreamOS_16AsenServiceEvent_U_FGVS1_12ContinuationS2___T_L_24StreamConversionDelegate"
+- "_aop2Client"
+- "_darwinServer"
+- "_device"
+- "_internalQueue"
+- "_parent"
+- "_tbServer"
+- "activate"
+- "asenHID"
+- "btAddress"
+- "connection"
+- "continuation"
+- "ctx"
+- "delegate"
+- "delegateQueue"
+- "dramQueue"
+- "getReport:reportLength:withIdentifier:forType:error:"
+- "hid"
+- "init"
+- "insecureMCT"
+- "lock"
+- "logger"
+- "newStyle"
+- "open"
+- "params"
+- "pid"
+- "savedDelegate"
+- "setDeviceMatching:"
+- "setDeviceNotificationHandler:"
+- "setDispatchQueue:"
+- "setReport:reportLength:withIdentifier:forType:error:"
+- "shmHandle"
+- "shmSize"
+- "sleepForTimeInterval:"
+- "store"
+- "subscriptions"
+- "timeTranslationSubscriptions"
+- "unlock"
+- "v20@?0@\"HIDDevice\"8B16"
+- "v8@?0"
+- "waiters"
+
+```

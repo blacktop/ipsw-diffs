@@ -1,0 +1,3084 @@
+## Trial
+
+> `/System/Library/PrivateFrameworks/Trial.framework/Trial`
+
+```diff
+
+-474.2.18.2.0
+-  __TEXT.__text: 0x6d114
+-  __TEXT.__auth_stubs: 0xb00
+-  __TEXT.__objc_methlist: 0x5cb8
+-  __TEXT.__const: 0xe10
+-  __TEXT.__cstring: 0x8403
+-  __TEXT.__oslogstring: 0x3ec1
+-  __TEXT.__gcc_except_tab: 0x5318
++501.0.0.0.0
++  __TEXT.__text: 0x6720c
++  __TEXT.__objc_methlist: 0x5bdc
++  __TEXT.__const: 0xe1a
++  __TEXT.__cstring: 0x80d7
++  __TEXT.__oslogstring: 0x434b
++  __TEXT.__gcc_except_tab: 0x5274
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x2188
+-  __TEXT.__objc_classname: 0x106b
+-  __TEXT.__objc_methname: 0xc15c
+-  __TEXT.__objc_methtype: 0x25c5
+-  __TEXT.__objc_stubs: 0x83c0
+-  __DATA_CONST.__got: 0x708
+-  __DATA_CONST.__const: 0x1940
+-  __DATA_CONST.__objc_classlist: 0x418
++  __TEXT.__unwind_info: 0x2180
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1890
++  __DATA_CONST.__objc_classlist: 0x3f0
+   __DATA_CONST.__objc_catlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0xb0
++  __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2d70
+-  __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0x2a8
+-  __DATA_CONST.__objc_arraydata: 0x1c8
+-  __AUTH_CONST.__auth_got: 0x598
+-  __AUTH_CONST.__const: 0xda0
+-  __AUTH_CONST.__cfstring: 0x67e0
+-  __AUTH_CONST.__objc_const: 0xa5e0
+-  __AUTH_CONST.__objc_intobj: 0x168
++  __DATA_CONST.__weak_got: 0x20
++  __DATA_CONST.__objc_selrefs: 0x2d30
++  __DATA_CONST.__objc_protorefs: 0x38
++  __DATA_CONST.__objc_superrefs: 0x280
++  __DATA_CONST.__objc_arraydata: 0x150
++  __DATA_CONST.__got: 0x6d8
++  __AUTH_CONST.__const: 0xd80
++  __AUTH_CONST.__cfstring: 0x6100
++  __AUTH_CONST.__objc_const: 0xa1c8
++  __AUTH_CONST.__weak_auth_got: 0x28
++  __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__objc_arrayobj: 0x120
+-  __AUTH.__objc_data: 0xa78
++  __AUTH_CONST.__objc_arrayobj: 0x60
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0xcd0
+   __AUTH.__data: 0xb8
+-  __DATA.__objc_ivar: 0x5d4
+-  __DATA.__data: 0xb30
+-  __DATA.__bss: 0x61
++  __DATA.__objc_ivar: 0x5cc
++  __DATA.__data: 0xb90
++  __DATA.__bss: 0x68
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x1e78
++  __DATA_DIRTY.__objc_data: 0x1a90
+   __DATA_DIRTY.__data: 0x28
+-  __DATA_DIRTY.__bss: 0x1a8
++  __DATA_DIRTY.__bss: 0x1b0
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AppleFlatBuffers.framework/AppleFlatBuffers
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+-  - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE0283E9-54F7-3933-B89E-BF3C0166EC7B
+-  Functions: 2099
+-  Symbols:   7726
+-  CStrings:  4431
++  UUID: A95EB875-BA73-3097-9759-8FC6ED11E03A
++  Functions: 2096
++  Symbols:   7662
++  CStrings:  1998
+ 
+Symbols:
++ +[TRIActiveFactorProvidersParser _hasValidExperimentInPlpList:withExperimentId:]
++ +[TRIActiveFactorProvidersParser _hasValidExperimentSetupForPlpList:withExperimentId:]
++ +[TRIActiveFactorProvidersParser _hasValidStagedExperimentInPlpList:withExperimentId:]
++ +[TRIBuildVariantInfo _validatedPopulationFromNumber:]
++ +[TRIBuildVariantInfo isInternalBuild]
++ +[TRIBuildVariantInfo isSeedBuild]
++ +[TRIBuildVariantInfo populationOverride]
++ +[TRIBuildVariantInfo population]
++ +[TRIClient _isAuthorizedForSandboxExtensionQuery]
++ +[TRIPartialExperimentRecord recordWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:encryptionStatus:]
++ +[TRIPartialRolloutRecord recordWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:encryptionStatus:]
++ +[TRIProcessInfo hostingProcessIsModelCatalog]
++ +[TRIProcessInfo processIsAuthorizedForSandboxExtensionQueryWithAuditToken:]
++ +[TRIXPCSysdiagnoseClient currentConsoleUser:]
++ -[TRIActiveFactorProvidersParser _stagedDeploymentIdForExperiment:fromResolverList:]
++ -[TRIActiveFactorProvidersParser resolveStagedFactorProviderForNamespaceName:]
++ -[TRIActiveFactorProvidersParser stagedExperimentIdentifiersForNamespace:]
++ -[TRIClient _experimentIdentifiersWithNamespaceName:usingFactorProvider:]
++ -[TRIClient requestExperimentActivationForNamespaceName:completion:]
++ -[TRIClient stagedExperimentIdentifiersWithNamespaceName:]
++ -[TRIClient stagedLevelForFactor:withNamespaceName:]
++ -[TRIDefaultFactorProvider stagedLevelForFactor:withNamespaceName:]
++ -[TRIFPNamespaceFactorProvider stagedLevelForFactor:withNamespaceName:]
++ -[TRINamespaceFactorProvider stagedLevelForFactor:withNamespaceName:]
++ -[TRINamespaceFactorProviderChain stagedLevelForFactor:withNamespaceName:]
++ -[TRINamespaceResolver stagedExperimentIdentifiersForNamespace:]
++ -[TRINamespaceResolver stagedFactorProviderForNamespaceName:]
++ -[TRIPartialExperimentRecord copyWithReplacementEncryptionStatus:]
++ -[TRIPartialExperimentRecord encryptionStatus]
++ -[TRIPartialExperimentRecord initWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:encryptionStatus:]
++ -[TRIPartialRolloutRecord copyWithReplacementEncryptionStatus:]
++ -[TRIPartialRolloutRecord encryptionStatus]
++ -[TRIPartialRolloutRecord initWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:encryptionStatus:]
++ -[TRIStagedFactorProvider .cxx_destruct]
++ -[TRIStagedFactorProvider _experimentDeploymentFromActiveFactorProviderWithNamespaceName:]
++ -[TRIStagedFactorProvider _experimentDeploymentWithNamespaceName:]
++ -[TRIStagedFactorProvider _providerForNamespace:]
++ -[TRIStagedFactorProvider _treatmentIdFromActiveFactorProviderWithNamespaceName:]
++ -[TRIStagedFactorProvider cacheFactorLevelsWithNamespaceName:]
++ -[TRIStagedFactorProvider experimentDeploymentWithNamespaceName:]
++ -[TRIStagedFactorProvider factorLevelsWithNamespace:]
++ -[TRIStagedFactorProvider factorLevelsWithNamespaceName:]
++ -[TRIStagedFactorProvider initWithPaths:]
++ -[TRIStagedFactorProvider init]
++ -[TRIStagedFactorProvider invalidateAllFactorProviders]
++ -[TRIStagedFactorProvider levelForFactor:withNamespace:]
++ -[TRIStagedFactorProvider levelForFactor:withNamespaceName:]
++ -[TRIStagedFactorProvider stagedLevelForFactor:withNamespaceName:]
++ -[TRIStagedFactorProvider treatmentIdWithNamespaceName:]
++ -[TRIStagedFactorProviderGuardedData .cxx_destruct]
++ -[TRIXPCNamespaceManagementClient requestExperimentActivationForNamespaceName:error:]
++ -[TRIXPCSysdiagnoseClient .cxx_destruct]
++ -[TRIXPCSysdiagnoseClient dealloc]
++ -[TRIXPCSysdiagnoseClient initForTrialdSystem:]
++ -[TRIXPCSysdiagnoseClient init]
++ -[TRIXPCSysdiagnoseClient setOutputDir:]
++ -[TRIXPCSysdiagnoseClient sysdiagnoseInfoToDir:error:]
++ -[TRIXPCSysdiagnoseClient writeSysdiagnoseFile:withLines:pending:]
++ GCC_except_table47
++ GCC_except_table60
++ GCC_except_table616
++ GCC_except_table625
++ GCC_except_table635
++ GCC_except_table644
++ GCC_except_table654
++ GCC_except_table663
++ GCC_except_table673
++ OBJC_IVAR_$_TRIStagedFactorProviderGuardedData.factorProviders
++ OBJC_IVAR_$_TRIStagedFactorProviderGuardedData.namespaceResolver
++ _NSInternalInconsistencyException
++ _OBJC_CLASS_$_NSXPCConnection
++ _OBJC_CLASS_$_TRIBuildVariantInfo
++ _OBJC_CLASS_$_TRIStagedFactorProvider
++ _OBJC_CLASS_$_TRIStagedFactorProviderGuardedData
++ _OBJC_CLASS_$_TRIXPCSysdiagnoseClient
++ _OBJC_IVAR_$_TRIClient._stagedFactorProvider
++ _OBJC_IVAR_$_TRIPartialExperimentRecord._encryptionStatus
++ _OBJC_IVAR_$_TRIPartialRolloutRecord._encryptionStatus
++ _OBJC_IVAR_$_TRIStagedFactorProvider._lock
++ _OBJC_IVAR_$_TRIStagedFactorProvider._paths
++ _OBJC_IVAR_$_TRIXPCSysdiagnoseClient._connectionLock
++ _OBJC_IVAR_$_TRIXPCSysdiagnoseClient._loggingSemaphore
++ _OBJC_IVAR_$_TRIXPCSysdiagnoseClient._outputDirectory
++ _OBJC_IVAR_$_TRIXPCSysdiagnoseClient._sysdiagnoseLogQueryQueue
++ _OBJC_IVAR_$_TRIXPCSysdiagnoseClient._xpcConnection
++ _OBJC_METACLASS_$_TRIBuildVariantInfo
++ _OBJC_METACLASS_$_TRIStagedFactorProvider
++ _OBJC_METACLASS_$_TRIStagedFactorProviderGuardedData
++ _OBJC_METACLASS_$_TRIXPCSysdiagnoseClient
++ _TRIPopulationOverrideKey
++ __OBJC_$_CLASS_METHODS_TRIActiveFactorProvidersParser
++ __OBJC_$_CLASS_METHODS_TRIBuildVariantInfo
++ __OBJC_$_CLASS_METHODS_TRIXPCSysdiagnoseClient
++ __OBJC_$_INSTANCE_METHODS_TRIStagedFactorProvider
++ __OBJC_$_INSTANCE_METHODS_TRIStagedFactorProviderGuardedData
++ __OBJC_$_INSTANCE_METHODS_TRIVersionedNamespace
++ __OBJC_$_INSTANCE_METHODS_TRIXPCSysdiagnoseClient
++ __OBJC_$_INSTANCE_VARIABLES_TRIStagedFactorProvider
++ __OBJC_$_INSTANCE_VARIABLES_TRIStagedFactorProviderGuardedData
++ __OBJC_$_INSTANCE_VARIABLES_TRIXPCSysdiagnoseClient
++ __OBJC_$_PROP_LIST_TRIStagedFactorProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TRIXPCSysdiagnoseClientProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TRIXPCSysdiagnoseServiceProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TRIXPCSysdiagnoseClientProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TRIXPCSysdiagnoseServiceProtocol
++ __OBJC_CLASS_PROTOCOLS_$_TRIStagedFactorProvider
++ __OBJC_CLASS_PROTOCOLS_$_TRIXPCSysdiagnoseClient
++ __OBJC_CLASS_RO_$_TRIBuildVariantInfo
++ __OBJC_CLASS_RO_$_TRIStagedFactorProvider
++ __OBJC_CLASS_RO_$_TRIStagedFactorProviderGuardedData
++ __OBJC_CLASS_RO_$_TRIXPCSysdiagnoseClient
++ __OBJC_LABEL_PROTOCOL_$_TRIXPCSysdiagnoseClientProtocol
++ __OBJC_LABEL_PROTOCOL_$_TRIXPCSysdiagnoseServiceProtocol
++ __OBJC_METACLASS_RO_$_TRIBuildVariantInfo
++ __OBJC_METACLASS_RO_$_TRIStagedFactorProvider
++ __OBJC_METACLASS_RO_$_TRIStagedFactorProviderGuardedData
++ __OBJC_METACLASS_RO_$_TRIXPCSysdiagnoseClient
++ __OBJC_PROTOCOL_$_TRIXPCSysdiagnoseClientProtocol
++ __OBJC_PROTOCOL_$_TRIXPCSysdiagnoseServiceProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_TRIXPCSysdiagnoseClientProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_TRIXPCSysdiagnoseServiceProtocol
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFN5apple4aiml12flatbuffers26OffsetIvEEmEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFvmP10BoxedInt64EED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFvmP11BoxedDoubleEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFvmP9BoxedBoolEED2B9fqe220100Ev
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetI11FactorLevelEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN5apple4aiml12flatbuffers26OffsetI22FactorMetadataKeyValueEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI11FactorLevelEEPNS4_6OffsetIS7_EEEEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI22FactorMetadataKeyValueEEPNS4_6OffsetIS7_EEEEbT1_SD_T0_
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI11FactorLevelEENS_9allocatorIS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI11FactorLevelEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI22FactorMetadataKeyValueEENS_9allocatorIS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI22FactorMetadataKeyValueEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI11FactorLevelEEPNS4_6OffsetIS7_EELi0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI22FactorMetadataKeyValueEEPNS4_6OffsetIS7_EELi0EEEvT1_SD_SD_SD_SD_T0_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___100+[TRIFlatbufferUtils convertFBFactorLevelToProtoFactorLevel:parentDir:namespaceName:isRelativePath:]_block_invoke.5
++ ___101-[TRIXPCNamespaceManagementClient immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:]_block_invoke.192
++ ___109-[TRIXPCNamespaceManagementClient removeLevelsForFactors:withNamespace:factorsState:removeImmediately:error:]_block_invoke.203
++ ___121-[TRIXPCNamespaceManagementClient downloadLevelsForFactors:withNamespace:queue:factorsState:options:progress:completion:]_block_invoke.183
++ ___121-[TRIXPCNamespaceManagementClient downloadLevelsForFactors:withNamespace:queue:factorsState:options:progress:completion:]_block_invoke.184
++ ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.234
++ ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.235
++ ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.236
++ ___203+[TRIFactorDownloadValidator validateDownloadForFactors:withNamespace:paths:container:factorsState:assetIndexesByTreatment:experimentIds:assetIdsByFactorPack:rolloutFactorNames:rolloutDeployments:error:]_block_invoke.113
++ ___34-[TRIXPCSysdiagnoseClient dealloc]_block_invoke
++ ___46+[TRIProcessInfo hostingProcessIsModelCatalog]_block_invoke
++ ___47-[TRIXPCSysdiagnoseClient initForTrialdSystem:]_block_invoke
++ ___47-[TRIXPCSysdiagnoseClient initForTrialdSystem:]_block_invoke.37
++ ___47-[TRIXPCSysdiagnoseClient initForTrialdSystem:]_block_invoke.38
++ ___49-[TRIStagedFactorProvider _providerForNamespace:]_block_invoke
++ ___54-[TRIXPCSysdiagnoseClient sysdiagnoseInfoToDir:error:]_block_invoke
++ ___54-[TRIXPCSysdiagnoseClient sysdiagnoseInfoToDir:error:]_block_invoke_2
++ ___54-[TRIXPCSysdiagnoseClient sysdiagnoseInfoToDir:error:]_block_invoke_3
++ ___54-[TRIXPCSysdiagnoseClient sysdiagnoseInfoToDir:error:]_block_invoke_4
++ ___55-[TRIStagedFactorProvider invalidateAllFactorProviders]_block_invoke
++ ___55-[TRIStagedFactorProvider invalidateAllFactorProviders]_block_invoke_2
++ ___62-[TRIPruningFactorLevelCache enumerateFactorLevelsUsingBlock:]_block_invoke.42
++ ___63-[TRIClient sizesForFactors:withNamespaceName:forMetric:error:]_block_invoke.275
++ ___66-[TRIXPCSysdiagnoseClient writeSysdiagnoseFile:withLines:pending:]_block_invoke
++ ___66-[TRIXPCSysdiagnoseClient writeSysdiagnoseFile:withLines:pending:]_block_invoke.50
++ ___66-[TRIXPCSysdiagnoseClient writeSysdiagnoseFile:withLines:pending:]_block_invoke_2
++ ___66-[TRIXPCSysdiagnoseClient writeSysdiagnoseFile:withLines:pending:]_block_invoke_3
++ ___67-[TRIClient downloadNamespaceWithName:options:progress:completion:]_block_invoke.263
++ ___81-[TRIStagedFactorProvider _treatmentIdFromActiveFactorProviderWithNamespaceName:]_block_invoke
++ ___85-[TRIXPCNamespaceManagementClient requestExperimentActivationForNamespaceName:error:]_block_invoke
++ ___85-[TRIXPCNamespaceManagementClient requestExperimentActivationForNamespaceName:error:]_block_invoke_2
++ ___86-[TRIClient statusOfDownloadForFactors:withNamespace:token:queue:progress:completion:]_block_invoke.319
++ ___90-[TRIStagedFactorProvider _experimentDeploymentFromActiveFactorProviderWithNamespaceName:]_block_invoke
++ ___Block_byref_object_copy_.640
++ ___Block_byref_object_dispose_.641
++ ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
++ ___block_descriptor_40_e8_32s_e44_v16?0"TRIStagedFactorProviderGuardedData"8ls32l8
++ ___block_descriptor_41_e8_32w_e5_v8?0lw32l8
++ ___block_descriptor_48_e8_32s40r_e44_v16?0"TRIStagedFactorProviderGuardedData"8ls32l8r40l8
++ ___block_descriptor_56_e8_32s40s48s_e14_"NSArray"8?0ls32l8s40l8s48l8
++ ___block_descriptor_57_e8_32s40s48s_e8_v16?0Q8ls32l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40bs48r56r64w_e5_v8?0ls32l8w64l8s40l8r48l8r56l8
++ ___block_literal_global.102
++ ___block_literal_global.115
++ ___block_literal_global.118
++ ___block_literal_global.121
++ ___block_literal_global.136
++ ___block_literal_global.148
++ ___block_literal_global.149
++ ___block_literal_global.155
++ ___block_literal_global.157
++ ___block_literal_global.163
++ ___block_literal_global.167
++ ___block_literal_global.197
++ ___block_literal_global.21
++ ___block_literal_global.211
++ ___block_literal_global.23
++ ___block_literal_global.25
++ ___block_literal_global.27
++ ___block_literal_global.271
++ ___block_literal_global.277
++ ___block_literal_global.30
++ ___block_literal_global.301
++ ___block_literal_global.315
++ ___block_literal_global.325
++ ___block_literal_global.352
++ _kBundleIdentifierMc
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_experimentDeploymentWithNamespaceName:
++ _objc_msgSend$_experimentIdentifiersWithNamespaceName:usingFactorProvider:
++ _objc_msgSend$_hasValidExperimentInPlpList:withExperimentId:
++ _objc_msgSend$_hasValidExperimentSetupForPlpList:withExperimentId:
++ _objc_msgSend$_hasValidStagedExperimentInPlpList:withExperimentId:
++ _objc_msgSend$_isAuthorizedForSandboxExtensionQuery
++ _objc_msgSend$_stagedDeploymentIdForExperiment:fromResolverList:
++ _objc_msgSend$_validatedPopulationFromNumber:
++ _objc_msgSend$activate
++ _objc_msgSend$applicationBundleIdentifierWithAuditToken:
++ _objc_msgSend$encryptionStatus
++ _objc_msgSend$hostingProcessIsModelCatalog
++ _objc_msgSend$initWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:encryptionStatus:
++ _objc_msgSend$initWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:encryptionStatus:
++ _objc_msgSend$initWithMachServiceName:options:
++ _objc_msgSend$isSeedBuild
++ _objc_msgSend$population
++ _objc_msgSend$populationOverride
++ _objc_msgSend$requestExperimentActivationForNamespaceName:completion:
++ _objc_msgSend$requestExperimentActivationForNamespaceName:error:
++ _objc_msgSend$resolveStagedFactorProviderForNamespaceName:
++ _objc_msgSend$setExportedInterface:
++ _objc_msgSend$setExportedObject:
++ _objc_msgSend$setInterruptionHandler:
++ _objc_msgSend$setInvalidationHandler:
++ _objc_msgSend$setRemoteObjectInterface:
++ _objc_msgSend$stagedExperimentIdentifiersForNamespace:
++ _objc_msgSend$stagedExperimentIdentifiersWithNamespaceName:
++ _objc_msgSend$stagedFactorProviderForNamespaceName:
++ _objc_msgSend$stagedLevelForFactor:withNamespaceName:
++ _objc_msgSend$sysdiagnoseInfoToDir:error:
++ _objc_msgSend$sysdiagnoseInfoWithCompletion:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _objc_retain_x6
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
+- +[TRIActiveExperimentsSysdiagnoseProvider _isFactorRecordFileType:]
+- +[TRIActiveRolloutsSysdiagnoseProvider _isFactorRecordFileType:]
+- +[TRIClient _sysdiagnoseLogProviders]
+- +[TRIExperimentHistorySysdiagnoseProvider defaultProvider]
+- +[TRIFlatbufferUtils _maAutoAssetReferencedInDir:byFactorName:]
+- +[TRIFullMAAssetId identWithType:specifier:version:]
+- +[TRIFullMAAssetId supportsSecureCoding]
+- +[TRIMASpecVer specVerWithSpecifier:version:]
+- +[TRINamespaceFactorProvider _maAutoAssetReferencedInDir:byFactorName:]
+- +[TRINamespaceFactorProvider populateMAPathsForFactorLevels:loadedFromParentDir:]
+- +[TRIPartialExperimentRecord recordWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:]
+- +[TRIPartialRolloutRecord recordWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:]
+- +[TRISysdiagnoseOutputFormatter formatRecords:]
+- -[TRIActiveExperimentsSysdiagnoseProvider .cxx_destruct]
+- -[TRIActiveExperimentsSysdiagnoseProvider filename]
+- -[TRIActiveExperimentsSysdiagnoseProvider initWithAllocationStatusProvider:outputFilename:environments:]
+- -[TRIActiveExperimentsSysdiagnoseProvider sysdiagnoseLinesWithError:]
+- -[TRIActiveRolloutsSysdiagnoseProvider .cxx_destruct]
+- -[TRIActiveRolloutsSysdiagnoseProvider filename]
+- -[TRIActiveRolloutsSysdiagnoseProvider initWithNamespaceManagementClient:]
+- -[TRIActiveRolloutsSysdiagnoseProvider init]
+- -[TRIActiveRolloutsSysdiagnoseProvider sysdiagnoseLinesWithError:]
+- -[TRIBlockBasedSysdiagnoseInfoProvider .cxx_destruct]
+- -[TRIBlockBasedSysdiagnoseInfoProvider block]
+- -[TRIBlockBasedSysdiagnoseInfoProvider filename]
+- -[TRIBlockBasedSysdiagnoseInfoProvider initWithOutputFilename:block:]
+- -[TRIBlockBasedSysdiagnoseInfoProvider outputFilename]
+- -[TRIBlockBasedSysdiagnoseInfoProvider sysdiagnoseLinesWithError:]
+- -[TRIExperimentHistorySysdiagnoseProvider .cxx_destruct]
+- -[TRIExperimentHistorySysdiagnoseProvider _allHistoryRecordsWithError:]
+- -[TRIExperimentHistorySysdiagnoseProvider _experimentHistoryRecordsForEnvironment:error:]
+- -[TRIExperimentHistorySysdiagnoseProvider filename]
+- -[TRIExperimentHistorySysdiagnoseProvider initIncompleteProvider]
+- -[TRIExperimentHistorySysdiagnoseProvider setSyncStatusProvider:]
+- -[TRIExperimentHistorySysdiagnoseProvider setXpcError:]
+- -[TRIExperimentHistorySysdiagnoseProvider syncStatusProvider]
+- -[TRIExperimentHistorySysdiagnoseProvider sysdiagnoseLinesWithError:]
+- -[TRIExperimentHistorySysdiagnoseProvider xpcError]
+- -[TRIFullMAAssetId .cxx_destruct]
+- -[TRIFullMAAssetId copyWithReplacementSpecifier:]
+- -[TRIFullMAAssetId copyWithReplacementType:]
+- -[TRIFullMAAssetId copyWithReplacementVersion:]
+- -[TRIFullMAAssetId copyWithZone:]
+- -[TRIFullMAAssetId description]
+- -[TRIFullMAAssetId encodeWithCoder:]
+- -[TRIFullMAAssetId hash]
+- -[TRIFullMAAssetId initWithCoder:]
+- -[TRIFullMAAssetId initWithType:specifier:version:]
+- -[TRIFullMAAssetId init]
+- -[TRIFullMAAssetId isEqual:]
+- -[TRIFullMAAssetId isEqualToIdent:]
+- -[TRIFullMAAssetId specifier]
+- -[TRIFullMAAssetId type]
+- -[TRIFullMAAssetId version]
+- -[TRIMASpecVer .cxx_destruct]
+- -[TRIMASpecVer copyWithReplacementSpecifier:]
+- -[TRIMASpecVer copyWithReplacementVersion:]
+- -[TRIMASpecVer copyWithZone:]
+- -[TRIMASpecVer description]
+- -[TRIMASpecVer hash]
+- -[TRIMASpecVer initWithSpecifier:version:]
+- -[TRIMASpecVer init]
+- -[TRIMASpecVer isEqual:]
+- -[TRIMASpecVer isEqualToSpecVer:]
+- -[TRIMASpecVer specifier]
+- -[TRIMASpecVer version]
+- -[TRIPartialExperimentRecord initWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:]
+- -[TRIPartialRolloutRecord initWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:]
+- -[TRIPlaceholderTriallogSysdiagnoseProvider filename]
+- -[TRIPlaceholderTriallogSysdiagnoseProvider sysdiagnoseLinesWithError:]
+- -[TRISysdiagnoseLogWriter .cxx_destruct]
+- -[TRISysdiagnoseLogWriter initWithDirectory:]
+- -[TRISysdiagnoseLogWriter outputDirectory]
+- -[TRISysdiagnoseLogWriter writeSysdiagnoseInfoForProvider:error:]
+- -[TRIVersionedNamespace(StringFormatting) userFacingString]
+- GCC_except_table1
+- GCC_except_table20
+- GCC_except_table32
+- GCC_except_table614
+- GCC_except_table623
+- GCC_except_table633
+- GCC_except_table642
+- GCC_except_table652
+- GCC_except_table661
+- GCC_except_table671
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_TRIActiveExperimentsSysdiagnoseProvider
+- _OBJC_CLASS_$_TRIActiveRolloutsSysdiagnoseProvider
+- _OBJC_CLASS_$_TRIBlockBasedSysdiagnoseInfoProvider
+- _OBJC_CLASS_$_TRIExperimentHistorySysdiagnoseProvider
+- _OBJC_CLASS_$_TRIFullMAAssetId
+- _OBJC_CLASS_$_TRIMASpecVer
+- _OBJC_CLASS_$_TRIPlaceholderTriallogSysdiagnoseProvider
+- _OBJC_CLASS_$_TRISysdiagnoseLogWriter
+- _OBJC_CLASS_$_TRISysdiagnoseOutputFormatter
+- _OBJC_IVAR_$_TRIActiveExperimentsSysdiagnoseProvider._environments
+- _OBJC_IVAR_$_TRIActiveExperimentsSysdiagnoseProvider._filename
+- _OBJC_IVAR_$_TRIActiveExperimentsSysdiagnoseProvider._statusProvider
+- _OBJC_IVAR_$_TRIActiveRolloutsSysdiagnoseProvider._namespaceClient
+- _OBJC_IVAR_$_TRIBlockBasedSysdiagnoseInfoProvider._block
+- _OBJC_IVAR_$_TRIBlockBasedSysdiagnoseInfoProvider._outputFilename
+- _OBJC_IVAR_$_TRIExperimentHistorySysdiagnoseProvider._syncStatusProvider
+- _OBJC_IVAR_$_TRIExperimentHistorySysdiagnoseProvider._xpcError
+- _OBJC_IVAR_$_TRIFullMAAssetId._specifier
+- _OBJC_IVAR_$_TRIFullMAAssetId._type
+- _OBJC_IVAR_$_TRIFullMAAssetId._version
+- _OBJC_IVAR_$_TRIMASpecVer._specifier
+- _OBJC_IVAR_$_TRIMASpecVer._version
+- _OBJC_IVAR_$_TRISysdiagnoseLogWriter._outputDirectory
+- _OBJC_METACLASS_$_TRIActiveExperimentsSysdiagnoseProvider
+- _OBJC_METACLASS_$_TRIActiveRolloutsSysdiagnoseProvider
+- _OBJC_METACLASS_$_TRIBlockBasedSysdiagnoseInfoProvider
+- _OBJC_METACLASS_$_TRIExperimentHistorySysdiagnoseProvider
+- _OBJC_METACLASS_$_TRIFullMAAssetId
+- _OBJC_METACLASS_$_TRIMASpecVer
+- _OBJC_METACLASS_$_TRIPlaceholderTriallogSysdiagnoseProvider
+- _OBJC_METACLASS_$_TRISysdiagnoseLogWriter
+- _OBJC_METACLASS_$_TRISysdiagnoseOutputFormatter
+- _TRISysdiagnoseKey_ActiveFactorPackSetId
+- _TRISysdiagnoseKey_AssetReference
+- _TRISysdiagnoseKey_Compatibility
+- _TRISysdiagnoseKey_CounterfactualTreatments
+- _TRISysdiagnoseKey_DeploymentId
+- _TRISysdiagnoseKey_Experiment
+- _TRISysdiagnoseKey_FactorPackId
+- _TRISysdiagnoseKey_Factors
+- _TRISysdiagnoseKey_LevelValue
+- _TRISysdiagnoseKey_Metadata
+- _TRISysdiagnoseKey_Name
+- _TRISysdiagnoseKey_Namespaces
+- _TRISysdiagnoseKey_Ncvs
+- _TRISysdiagnoseKey_Path
+- _TRISysdiagnoseKey_RampId
+- _TRISysdiagnoseKey_RolloutId
+- _TRISysdiagnoseKey_Size
+- _TRISysdiagnoseKey_Status
+- _TRISysdiagnoseKey_TargetedFactorPackSetId
+- _TRISysdiagnoseKey_TreatmentId
+- _TRISysdiagnoseKey_Type
+- __OBJC_$_CLASS_METHODS_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_$_CLASS_METHODS_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_$_CLASS_METHODS_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_$_CLASS_METHODS_TRIFullMAAssetId
+- __OBJC_$_CLASS_METHODS_TRIMASpecVer
+- __OBJC_$_CLASS_METHODS_TRISysdiagnoseOutputFormatter
+- __OBJC_$_CLASS_PROP_LIST_TRIFullMAAssetId
+- __OBJC_$_INSTANCE_METHODS_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_$_INSTANCE_METHODS_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_$_INSTANCE_METHODS_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_$_INSTANCE_METHODS_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_$_INSTANCE_METHODS_TRIFullMAAssetId
+- __OBJC_$_INSTANCE_METHODS_TRIMASpecVer
+- __OBJC_$_INSTANCE_METHODS_TRIPlaceholderTriallogSysdiagnoseProvider
+- __OBJC_$_INSTANCE_METHODS_TRISysdiagnoseLogWriter
+- __OBJC_$_INSTANCE_METHODS_TRIVersionedNamespace(StringFormatting)
+- __OBJC_$_INSTANCE_VARIABLES_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_$_INSTANCE_VARIABLES_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_$_INSTANCE_VARIABLES_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_$_INSTANCE_VARIABLES_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_$_INSTANCE_VARIABLES_TRIFullMAAssetId
+- __OBJC_$_INSTANCE_VARIABLES_TRIMASpecVer
+- __OBJC_$_INSTANCE_VARIABLES_TRISysdiagnoseLogWriter
+- __OBJC_$_PROP_LIST_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_$_PROP_LIST_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_$_PROP_LIST_TRIFullMAAssetId
+- __OBJC_$_PROP_LIST_TRIMASpecVer
+- __OBJC_$_PROP_LIST_TRISysdiagnoseLogWriter
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TRISysdiagnoseInfoProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TRISysdiagnoseInfoProviding
+- __OBJC_CLASS_PROTOCOLS_$_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_CLASS_PROTOCOLS_$_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_CLASS_PROTOCOLS_$_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_CLASS_PROTOCOLS_$_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_CLASS_PROTOCOLS_$_TRIFullMAAssetId
+- __OBJC_CLASS_PROTOCOLS_$_TRIMASpecVer
+- __OBJC_CLASS_PROTOCOLS_$_TRIPlaceholderTriallogSysdiagnoseProvider
+- __OBJC_CLASS_RO_$_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_CLASS_RO_$_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_CLASS_RO_$_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_CLASS_RO_$_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_CLASS_RO_$_TRIFullMAAssetId
+- __OBJC_CLASS_RO_$_TRIMASpecVer
+- __OBJC_CLASS_RO_$_TRIPlaceholderTriallogSysdiagnoseProvider
+- __OBJC_CLASS_RO_$_TRISysdiagnoseLogWriter
+- __OBJC_CLASS_RO_$_TRISysdiagnoseOutputFormatter
+- __OBJC_LABEL_PROTOCOL_$_TRISysdiagnoseInfoProviding
+- __OBJC_METACLASS_RO_$_TRIActiveExperimentsSysdiagnoseProvider
+- __OBJC_METACLASS_RO_$_TRIActiveRolloutsSysdiagnoseProvider
+- __OBJC_METACLASS_RO_$_TRIBlockBasedSysdiagnoseInfoProvider
+- __OBJC_METACLASS_RO_$_TRIExperimentHistorySysdiagnoseProvider
+- __OBJC_METACLASS_RO_$_TRIFullMAAssetId
+- __OBJC_METACLASS_RO_$_TRIMASpecVer
+- __OBJC_METACLASS_RO_$_TRIPlaceholderTriallogSysdiagnoseProvider
+- __OBJC_METACLASS_RO_$_TRISysdiagnoseLogWriter
+- __OBJC_METACLASS_RO_$_TRISysdiagnoseOutputFormatter
+- __OBJC_PROTOCOL_$_TRISysdiagnoseInfoProviding
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFN5apple4aiml12flatbuffers26OffsetIvEEmEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFvmP10BoxedInt64EED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFvmP11BoxedDoubleEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFvmP9BoxedBoolEED2B9nqe210106Ev
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetI11FactorLevelEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN5apple4aiml12flatbuffers26OffsetI22FactorMetadataKeyValueEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI11FactorLevelEEPNS4_6OffsetIS7_EEEEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI22FactorMetadataKeyValueEEPNS4_6OffsetIS7_EEEEbT1_SD_T0_
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI11FactorLevelEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetI22FactorMetadataKeyValueEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN5apple4aiml12flatbuffers26OffsetIvEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI11FactorLevelEEPNS4_6OffsetIS7_EELi0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERN5apple4aiml12flatbuffers217FlatBufferBuilder18TableKeyComparatorI22FactorMetadataKeyValueEEPNS4_6OffsetIS7_EELi0EEEvT1_SD_SD_SD_SD_T0_
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___100+[TRIFlatbufferUtils convertFBFactorLevelToProtoFactorLevel:parentDir:namespaceName:isRelativePath:]_block_invoke_3
+- ___101-[TRIXPCNamespaceManagementClient immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:]_block_invoke.194
+- ___109-[TRIXPCNamespaceManagementClient removeLevelsForFactors:withNamespace:factorsState:removeImmediately:error:]_block_invoke.205
+- ___121-[TRIXPCNamespaceManagementClient downloadLevelsForFactors:withNamespace:queue:factorsState:options:progress:completion:]_block_invoke.185
+- ___121-[TRIXPCNamespaceManagementClient downloadLevelsForFactors:withNamespace:queue:factorsState:options:progress:completion:]_block_invoke.186
+- ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.231
+- ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.232
+- ___139-[TRIClient _registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:]_block_invoke.233
+- ___203+[TRIFactorDownloadValidator validateDownloadForFactors:withNamespace:paths:container:factorsState:assetIndexesByTreatment:experimentIds:assetIdsByFactorPack:rolloutFactorNames:rolloutDeployments:error:]_block_invoke.110
+- ___37+[TRIClient _sysdiagnoseLogProviders]_block_invoke
+- ___47+[TRISysdiagnoseOutputFormatter formatRecords:]_block_invoke
+- ___47+[TRISysdiagnoseOutputFormatter formatRecords:]_block_invoke_2
+- ___47+[TRISysdiagnoseOutputFormatter formatRecords:]_block_invoke_3
+- ___58+[TRIExperimentHistorySysdiagnoseProvider defaultProvider]_block_invoke
+- ___62-[TRIPruningFactorLevelCache enumerateFactorLevelsUsingBlock:]_block_invoke.49
+- ___63-[TRIClient sizesForFactors:withNamespaceName:forMetric:error:]_block_invoke.276
+- ___66-[TRIActiveRolloutsSysdiagnoseProvider sysdiagnoseLinesWithError:]_block_invoke
+- ___67-[TRIClient downloadNamespaceWithName:options:progress:completion:]_block_invoke.264
+- ___69-[TRIActiveExperimentsSysdiagnoseProvider sysdiagnoseLinesWithError:]_block_invoke
+- ___81+[TRINamespaceFactorProvider populateMAPathsForFactorLevels:loadedFromParentDir:]_block_invoke
+- ___86-[TRIClient statusOfDownloadForFactors:withNamespace:token:queue:progress:completion:]_block_invoke.320
+- ___89-[TRIExperimentHistorySysdiagnoseProvider _experimentHistoryRecordsForEnvironment:error:]_block_invoke
+- ___Block_byref_object_copy_.641
+- ___Block_byref_object_dispose_.642
+- ___block_descriptor_32_e18_"NSArray"16?0^8l
+- ___block_descriptor_32_e31_16?0"TRIVersionedNamespace"8l
+- ___block_descriptor_32_e67_q24?0"TRIExperimentHistoryRecord"8"TRIExperimentHistoryRecord"16l
+- ___block_descriptor_40_e8_32w_e17_v16?0"NSError"8lw32l8
+- ___block_descriptor_48_e8_32r40r_e53_v40?0"NSNumber"8"NSArray"16"NSDate"24"NSError"32lr32l8r40l8
+- ___block_descriptor_56_e8_32s40s_e31_v32?0"TRIFactorLevel"8Q16^B24ls32l8s40l8
+- ___block_descriptor_60_e8_32s40s48s_e5_B8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e28_v24?0"TRIFactorLevel"8^B16ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s_e14_"NSArray"8?0ls32l8s40l8s48l8
+- ___block_literal_global.103
+- ___block_literal_global.113
+- ___block_literal_global.116
+- ___block_literal_global.119
+- ___block_literal_global.133
+- ___block_literal_global.146
+- ___block_literal_global.158
+- ___block_literal_global.164
+- ___block_literal_global.168
+- ___block_literal_global.199
+- ___block_literal_global.205
+- ___block_literal_global.24
+- ___block_literal_global.26
+- ___block_literal_global.272
+- ___block_literal_global.278
+- ___block_literal_global.28
+- ___block_literal_global.302
+- ___block_literal_global.31
+- ___block_literal_global.316
+- ___block_literal_global.322
+- ___block_literal_global.346
+- ___block_literal_global.385
+- ___block_literal_global.59
+- _objc_msgSend$_allHistoryRecordsWithError:
+- _objc_msgSend$_experimentHistoryRecordsForEnvironment:error:
+- _objc_msgSend$_isFactorRecordFileType:
+- _objc_msgSend$_maAutoAssetReferencedInDir:byFactorName:
+- _objc_msgSend$_sysdiagnoseLogProviders
+- _objc_msgSend$array
+- _objc_msgSend$assetSpecifier
+- _objc_msgSend$assetType
+- _objc_msgSend$assetVersion
+- _objc_msgSend$block
+- _objc_msgSend$defaultProvider
+- _objc_msgSend$filename
+- _objc_msgSend$formatRecords:
+- _objc_msgSend$hasFileType
+- _objc_msgSend$hasIsFileFactor
+- _objc_msgSend$hasIsOnDemand
+- _objc_msgSend$initIncompleteProvider
+- _objc_msgSend$initWithAllocationStatusProvider:outputFilename:environments:
+- _objc_msgSend$initWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:
+- _objc_msgSend$initWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:
+- _objc_msgSend$initWithDirectory:
+- _objc_msgSend$initWithNamespaceManagementClient:
+- _objc_msgSend$initWithOutputFilename:block:
+- _objc_msgSend$initWithSpecifier:version:
+- _objc_msgSend$initWithType:specifier:version:
+- _objc_msgSend$isEqualToSpecVer:
+- _objc_msgSend$isFileFactor
+- _objc_msgSend$isOptedOutOfExperimentation
+- _objc_msgSend$mobileAssetReferenceValue
+- _objc_msgSend$object
+- _objc_msgSend$outputDirectory
+- _objc_msgSend$outputFilename
+- _objc_msgSend$populateMAPathsForFactorLevels:loadedFromParentDir:
+- _objc_msgSend$printedNCVInformation
+- _objc_msgSend$setDateFormat:
+- _objc_msgSend$setSyncStatusProvider:
+- _objc_msgSend$setXpcError:
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$syncStatusProvider
+- _objc_msgSend$sysdiagnoseLinesWithError:
+- _objc_msgSend$timeZoneWithAbbreviation:
+- _objc_msgSend$triFilenameForFactorName
+- _objc_msgSend$userFacingString
+- _objc_msgSend$writeSysdiagnoseInfoForProvider:error:
+- _objc_msgSend$xpcError
+CStrings:
++ "%{public}@ %p: %s writeSysdiagnoseFile:%@ withLines:%@ pending:%d"
++ "(unknown: %i)"
++ "-[TRIClient stagedLevelForFactor:withNamespaceName:]"
++ "<TRIPartialExperimentRecord | deploymentEnvironment:%@ experimentDeployment:%@ treatmentId:%@ factorPackSetId:%@ type:%@ status:%@ startDate:%@ endDate:%@ namespaces:%@ experimentType:%@ counterfactualTreatmentIds:%@ encryptionStatus:%@>"
++ "<TRIPartialRolloutRecord | deployment:%@ rampId:%@ activeFactorPackSetId:%@ activeTargetingRuleIndex:%@ targetedFactorPackSetId:%@ targetedTargetingRuleIndex:%@ status:%@ namespaces:%@ encryptionStatus:%@>"
++ "BETA_PROGRAM"
++ "Connection to %@ interrupted."
++ "Connection to %@ invalidated."
++ "Could not resolve to staged experiment deployment. Attempting to read from active factor provider."
++ "Current population is %@"
++ "Current population is %@ due to an override."
++ "Establishing new connection to %@ ."
++ "Failed to parse treatment data into factor levels in TRINamespaceFactorProvider with error %@."
++ "Failed to write sysdiagnose line: %@ to %@ - %@"
++ "Finished getting sysdiagnose: %d - %@"
++ "Found staged experiment %{public}@ (deployment %d, treatment %{public}@) for namespace %{public}@ in plplist, proceeding with activation request"
++ "LIMITED_CARRY"
++ "MA fctor levels not supported, returning none for: %{public}@"
++ "No staged experiment found for namespace %{public}@, skipping activation request"
++ "ORGANIZATION"
++ "POPULATION_UNKNOWN"
++ "Process is not entitled for requesting activation."
++ "Provided directory %@ doesn't exist"
++ "Provided directory %@ is not a directory"
++ "Reading currentPopulation from NSUserDefaults: BETA_PROGRAM"
++ "Reading currentPopulation from NSUserDefaults: GENERAL_PUBLIC"
++ "Reading currentPopulation from NSUserDefaults: INTERNAL"
++ "Reading currentPopulation from NSUserDefaults: LIMITED_CARRY, which is not supported"
++ "Reading currentPopulation from NSUserDefaults: ORGANIZATION, which is not supported"
++ "Reading currentPopulation from NSUserDefaults: POPULATION_UNKNOWN"
++ "Reading currentPopulation from NSUserDefaults: other (%@), using POPULATION_UNKNOWN"
++ "TRIXPCSysdiagnoseClient was unable to establish a connection to TrialServer."
++ "TrialXP_ClientFramework-501"
++ "Using population override: %d"
++ "begin"
++ "cacheFactorLevelsWithNamespaceName: is not supported by TRIStagedFactorProvider."
++ "com.apple.Trial.SysdiagnoseLoggingQueue"
++ "com.apple.modelcatalogd"
++ "com.apple.triald.sysdiagnose"
++ "com.apple.triald.system.sysdiagnose"
++ "encryptionStatus"
++ "end"
++ "experiment-allocation-disqualified"
++ "experiment-notification-received"
++ "experiment-processing-failed"
++ "factorLevelsWithNamespace: is not supported by TRIStagedFactorProvider. This method is deprecated."
++ "factorLevelsWithNamespaceName: is not supported by TRIStagedFactorProvider. Use staged methods instead."
++ "levelForFactor:withNamespace: is not supported by TRIStagedFactorProvider. This method is deprecated."
++ "levelForFactor:withNamespaceName: is not supported by TRIStagedFactorProvider. Use stagedLevelForFactor:withNamespaceName: instead."
++ "plplist contains bad staged experiment deployment: %@ for map: %@"
++ "plplist contains staged experiment deployment with bad treatment ID: %@"
++ "plplist: %@ contains multiple staged experiment deployments in map: %@"
++ "rollout-allocation-disqualified"
++ "rollout-notification-received"
++ "rollout-processing-failed"
++ "stagedExperimentDeployments"
++ "stagedLevelForFactor:withNamespaceName: is not supported by TRIDefaultFactorProvider"
++ "treatment-staging-failure"
++ "treatment-staging-successful"
++ "v16@?0@\"TRIStagedFactorProviderGuardedData\"8"
++ "v16@?0Q8"
+- "              %@: %@"
+- "            assetReference: %@"
+- "            levelValue: %@"
+- "            metadata:"
+- "            overrideLevel: %@"
+- "            path: %@"
+- "            type: %@"
+- "          - factor: %@"
+- "         NCVs: [%@]"
+- "         factorPackId: %@"
+- "         factors:"
+- "        - %@ -> %@"
+- "       - %@"
+- "       - namespace: %@"
+- "       - namespace: %@.%d"
+- "      activeFactorPackSetid: %@"
+- "      counterfactualTreatments:"
+- "      namespaces:"
+- "      namespaces: [%@]"
+- "      rampId: %@"
+- "      states    :"
+- "      status: %@"
+- "      treatment : %@"
+- "    - experiment: %@.%d"
+- "    - rollout: %@.%d"
+- "  Experiments information has moved to trial-experiment-info.log"
+- "  Namespace Compatibility Version information has moved to trial-namespace-compatibility-versions.log"
+- "  Rollouts information has moved to trial-rollout-info.log"
+- "#16@0:8"
+- "%@-%@-%@"
+- "%@.%u"
+- "%@/factorPacks/%@/maRefs/%@"
+- "%@/maRefs/%@"
+- "*32@0:8r*16*24"
+- ".cxx_destruct"
+- "<TRIFullMAAssetId | type:%@ specifier:%@ version:%@>"
+- "<TRIMASpecVer | specifier:%@ version:%@>"
+- "<TRIPartialExperimentRecord | deploymentEnvironment:%@ experimentDeployment:%@ treatmentId:%@ factorPackSetId:%@ type:%@ status:%@ startDate:%@ endDate:%@ namespaces:%@ experimentType:%@ counterfactualTreatmentIds:%@>"
+- "<TRIPartialRolloutRecord | deployment:%@ rampId:%@ activeFactorPackSetId:%@ activeTargetingRuleIndex:%@ targetedFactorPackSetId:%@ targetedTargetingRuleIndex:%@ status:%@ namespaces:%@>"
+- "@"
+- "@\"<TRIClientNamespaceMetadataStoring>\""
+- "@\"<TRIFactorLevelCaching>\""
+- "@\"<TRINamespaceFactorProviding>\""
+- "@\"<TRINamespaceManagementProtocol>\""
+- "@\"<TRINotificationToken>\""
+- "@\"<TRINotificationToken>\"16@0:8"
+- "@\"<TRINotificationToken>\"36@0:8i16@\"NSObject<OS_dispatch_queue>\"20@?<v@?>28"
+- "@\"<TRIPaths>\""
+- "@\"<TRIXPCStatusServiceProtocol>\""
+- "@\"AFBBufRef\""
+- "@\"AFBBufferBuilder\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"16@?0^@8"
+- "@\"NSArray\"20@0:8I16"
+- "@\"NSArray\"24@0:8@\"NSString\"16"
+- "@\"NSArray\"24@0:8^@16"
+- "@\"NSArray\"36@0:8@\"NSString\"16B24^B28"
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"32@0:8@\"NSString\"16^@24"
+- "@\"NSError\""
+- "@\"NSError\"16@0:8"
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSOutputStream\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"20@0:8B16"
+- "@\"NSString\"24@0:8@\"NSArray\"16"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSString\"24@0:8Q16"
+- "@\"NSString<TRIAssetId>\""
+- "@\"NSString<TRIFactorPackId>\""
+- "@\"NSString<TRIFactorPackSetId>\""
+- "@\"NSString<TRIRampId>\""
+- "@\"NSURL\""
+- "@\"NSURL\"24@0:8@\"NSString\"16"
+- "@\"NSUUID\""
+- "@\"TRIActiveFactorProvidersParser\""
+- "@\"TRIAllocationStatusCursor\"44@0:8i16@\"TRIAllocationStatusCursor\"20^@28@?<v@?@\"TRIAllocationStatus\"^B>36"
+- "@\"TRIAllocationStatusDefaultProvider\""
+- "@\"TRIAppContainer\""
+- "@\"TRIAppContainer\"16@0:8"
+- "@\"TRIClientNamespaceMetadata\"32@0:8@\"NSString\"16^@24"
+- "@\"TRIClientSelectedNamespace\""
+- "@\"TRIDefaultFactorProvider\""
+- "@\"TRIExcessiveStaleFactorsUsageTimer\""
+- "@\"TRIExperimentDeployment\""
+- "@\"TRIExperimentFactorsState\""
+- "@\"TRIFBFastFactorLevels\""
+- "@\"TRIFactorLevel\"24@0:8@\"NSString\"16"
+- "@\"TRIFactorsState\""
+- "@\"TRILevel\""
+- "@\"TRILevel\"24@0:8@\"NSString\"16"
+- "@\"TRILevel\"28@0:8@\"NSString\"16I24"
+- "@\"TRILevel\"32@0:8@\"NSString\"16@\"NSString\"24"
+- "@\"TRINamespaceResolver\""
+- "@\"TRIPBCodedOutputStream\""
+- "@\"TRIReferenceManagedDirReaderLock\""
+- "@\"TRIRolloutDeployment\""
+- "@\"TRISubject\""
+- "@\"TRISubjectProvider\""
+- "@\"TRITrackingId\""
+- "@\"_PASLock\""
+- "@\"_PASSimpleCoalescingTimer\""
+- "@\"_PASXPCClientHelper\""
+- "@16@0:8"
+- "@16@?0@\"TRIVersionedNamespace\"8"
+- "@20@0:8B16"
+- "@20@0:8C16"
+- "@20@0:8I16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8i16B20"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8@16I24"
+- "@28@0:8@16i24"
+- "@28@0:8B16Q20"
+- "@28@0:8C16@20"
+- "@28@0:8I16@?20"
+- "@28@0:8I16I20B24"
+- "@28@0:8i16@20"
+- "@28@0:8i16^@20"
+- "@32@0:8:16@24"
+- "@32@0:8@\"AFBBufRef\"16r^v24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16^{__SecTask=}24"
+- "@32@0:8@16i24B28"
+- "@32@0:8@16q24"
+- "@32@0:8@16r^v24"
+- "@32@0:8@16r^{CloudKitAssetRecordAsset=[1C]}24"
+- "@32@0:8@16r^{CloudKitTreatmentRecordAsset=[1C]}24"
+- "@32@0:8@16r^{FactorLevel=[1C]}24"
+- "@32@0:8@16r^{FactorMetadataKeyValue=[1C]}24"
+- "@32@0:8@16r^{FastFactorLevels=[1C]}24"
+- "@32@0:8@16r^{MobileAssetReference=[1C]}24"
+- "@32@0:8@16r^{TrialManagedAsset=[1C]}24"
+- "@32@0:8B16Q20B28"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16@?24"
+- "@32@0:8Q16^@24"
+- "@32@0:8d16@?24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16@24I32"
+- "@36@0:8@16B24I28I32"
+- "@36@0:8@16B24^@28"
+- "@36@0:8@16B24^B28"
+- "@36@0:8@16I24@28"
+- "@36@0:8@16i24@28"
+- "@36@0:8B16Q20@28"
+- "@36@0:8I16@20@?28"
+- "@36@0:8Q16B24^@28"
+- "@36@0:8i16@20@28"
+- "@36@0:8i16@20@?28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24B32B36"
+- "@40@0:8@16@24Q32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16I24@28B36"
+- "@40@0:8@16^{__SecTask=}24^Q32"
+- "@40@0:8@16d24@?32"
+- "@40@0:8Q16@24@32"
+- "@40@0:8Q16Q24@32"
+- "@44@0:8@16@24@32B40"
+- "@44@0:8@16i24@28@36"
+- "@44@0:8i16@20^@28@?36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32Q40"
+- "@48@0:8@16@24Q32B40B44"
+- "@48@0:8@16@24Q32^@40"
+- "@48@0:8@16@24^@32^@40"
+- "@48@0:8@16@24i32@36B44"
+- "@48@0:8C16@20@28i36@40"
+- "@48@0:8{?=[8I]}16"
+- "@52@0:8@16@24@32@40i48"
+- "@52@0:8@16@24@32i40^B44"
+- "@52@0:8i16@20@28d36@44"
+- "@56@0:8@16@24@32^@40^@48"
+- "@56@0:8@16@24^@32^@40^@48"
+- "@56@0:8@16{?=[8I]}24"
+- "@56@0:8C16@20@28i36@40@48"
+- "@60@0:8@16@24i32@36@44^@52"
+- "@64@0:8@16C24@28@36@44i52@56"
+- "@68@0:8@16C24i28@32i40@44@52@60"
+- "@72@0:8@16@24I32@36@44B52@56^@64"
+- "@76@0:8@16I24@28@36@44@52@60@68"
+- "@80@0:8@16@24@32@40@48@56q64@72"
+- "@92@0:8i16@20@28@36i44q48@56@64@72i80@84"
+- "@?"
+- "@?16@0:8"
+- "AFBBufferReferencing"
+- "B"
+- "B104@0:8@16@24@32^i40@48^@56^@64^@72^@80^@88^@96"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<TRINotificationToken>\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8@?16"
+- "B24@0:8Q16"
+- "B24@0:8^@16"
+- "B28@0:8@16B24"
+- "B32@0:8@\"NSString\"16^@24"
+- "B32@0:8@16@24"
+- "B32@0:8@16@?24"
+- "B32@0:8@16Q24"
+- "B32@0:8@16^@24"
+- "B32@0:8Q16@24"
+- "B32@0:8^@16@?24"
+- "B32@0:8^@16@?<v@?@\"TRIRolloutAllocationStatus\"^B>24"
+- "B32@0:8r*16@?24"
+- "B36@0:8@\"NSSet\"16B24^@28"
+- "B36@0:8@16B24^@28"
+- "B36@0:8@16i24^Q28"
+- "B36@0:8@16i24^q28"
+- "B36@0:8i16^@20@?28"
+- "B36@0:8i16^@20@?<v@?@\"TRIExperimentAllocationStatus\"^B>28"
+- "B40@0:8@\"NSDictionary\"16@\"NSString\"24^@32"
+- "B40@0:8@\"NSString\"16@\"TRIDownloadOptions\"24^@32"
+- "B40@0:8@\"NSString\"16^@24@?<v@?@\"TRIRolloutAllocationStatus\"^B>32"
+- "B40@0:8@\"NSString<TRIFactorPackId>\"16@\"NSString\"24^@32"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16^@24@?32"
+- "B44@0:8i16@\"NSString\"20^@28@?<v@?@\"TRIExperimentAllocationStatus\"^B>36"
+- "B44@0:8i16@20^@28@?36"
+- "B48@0:8@\"NSString<TRIFactorPackId>\"16@\"NSString\"24@\"TRIRolloutDeployment\"32^@40"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16@24^@32@?40"
+- "B48@0:8@16^@24^i32^@40"
+- "B52@0:8@\"NSArray\"16@\"NSString\"24@\"TRIFactorsState\"32B40^@44"
+- "B52@0:8@16@24@32B40^@44"
+- "B56@0:8@\"NSString\"16I24@\"NSURL\"28@\"NSString\"36i44^@48"
+- "B56@0:8@16I24@28@36i44^@48"
+- "B56@0:8@16{?=[8I]}24"
+- "C16@0:8"
+- "Current population is %@ with population override: %@"
+- "Factory"
+- "I"
+- "I16@0:8"
+- "I24@0:8@16"
+- "JSONObjectWithData:options:error:"
+- "Looking for experiment identifiers for namespace name: %{private}@ and namespace id: %d"
+- "NSCoding"
+- "NSCopying"
+- "NSMutableCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Path for factor %{public}@ is empty. This usually means that the level is about to be deleted."
+- "Persisted"
+- "Provided directory doesn't exist"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8Q16"
+- "Q56@0:8@\"NSArray\"16@\"NSString\"24@\"TRIFactorsState\"32^@40^@48"
+- "Q56@0:8@16@24@32^@40^@48"
+- "Q64@0:8@16@24^@32@40@?48@?56"
+- "Retrieved nil serialized value for nonnull TRIFullMAAssetId.specifier"
+- "Retrieved nil serialized value for nonnull TRIFullMAAssetId.type"
+- "Retrieved nil serialized value for nonnull TRIFullMAAssetId.version"
+- "StringFormatting"
+- "T#,R"
+- "T@\"<TRINamespaceFactorProviding>\",R,N,V_provider"
+- "T@\"<TRINotificationToken>\",R,N"
+- "T@\"<TRINotificationToken>\",R,N,V_token"
+- "T@\"<TRIXPCStatusServiceProtocol>\",&,N,V_syncStatusProvider"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_counterfactualTreatmentIds"
+- "T@\"NSArray\",R,N,V_namespaces"
+- "T@\"NSArray\",R,N,V_treatments"
+- "T@\"NSData\",R,N"
+- "T@\"NSData\",R,N,V_data"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_date"
+- "T@\"NSDate\",R,N,V_endDate"
+- "T@\"NSDate\",R,N,V_eventDate"
+- "T@\"NSDate\",R,N,V_eventLogTime"
+- "T@\"NSDate\",R,N,V_lastFetchAttempt"
+- "T@\"NSDate\",R,N,V_startDate"
+- "T@\"NSDate\",R,N,V_time"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_factorPackIds"
+- "T@\"NSError\",&,N,V_xpcError"
+- "T@\"NSError\",R,N"
+- "T@\"NSError\",R,N,V_error"
+- "T@\"NSMutableArray\",&,D,N"
+- "T@\"NSNumber\",R,N,V_activeTargetingRuleIndex"
+- "T@\"NSNumber\",R,N,V_majorVersion"
+- "T@\"NSNumber\",R,N,V_minorVersion"
+- "T@\"NSNumber\",R,N,V_patchVersion"
+- "T@\"NSNumber\",R,N,V_targetedTargetingRuleIndex"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSObject<OS_xpc_object>\",&,N,V_activity"
+- "T@\"NSSet\",C,N,V_upgradeNCVs"
+- "T@\"NSSet\",R,N,V_namespacesInFactorsState"
+- "T@\"NSSet\",R,N,V_upgradeNCVs"
+- "T@\"NSString\",&,N,V_experimentId"
+- "T@\"NSString\",&,N,V_namespaceName"
+- "T@\"NSString\",&,N,V_treatmentId"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",C,N,V_resourceAttributionIdentifier"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_errorOrDeactivationReason"
+- "T@\"NSString\",R,N,V_experimentId"
+- "T@\"NSString\",R,N,V_factorName"
+- "T@\"NSString\",R,N,V_factorPackId"
+- "T@\"NSString\",R,N,V_identifier"
+- "T@\"NSString\",R,N,V_logDesc"
+- "T@\"NSString\",R,N,V_name"
+- "T@\"NSString\",R,N,V_namespaceName"
+- "T@\"NSString\",R,N,V_outputDirectory"
+- "T@\"NSString\",R,N,V_outputFilename"
+- "T@\"NSString\",R,N,V_path"
+- "T@\"NSString\",R,N,V_rampId"
+- "T@\"NSString\",R,N,V_resourceAttributionIdentifier"
+- "T@\"NSString\",R,N,V_rolloutId"
+- "T@\"NSString\",R,N,V_specifier"
+- "T@\"NSString\",R,N,V_treatmentId"
+- "T@\"NSString\",R,N,V_type"
+- "T@\"NSString\",R,N,V_value"
+- "T@\"NSString\",R,N,V_version"
+- "T@\"NSString<TRIAssetId>\",R,N,V_assetId"
+- "T@\"NSString<TRIFactorPackId>\",R,N,V_factorPackId"
+- "T@\"NSString<TRIFactorPackSetId>\",R,N,V_activeFactorPackSetId"
+- "T@\"NSString<TRIFactorPackSetId>\",R,N,V_factorPackSetId"
+- "T@\"NSString<TRIFactorPackSetId>\",R,N,V_targetedFactorPackSetId"
+- "T@\"NSString<TRIRampId>\",R,N,V_rampId"
+- "T@\"NSURL\",C,N,V_factorsURL"
+- "T@\"NSURL\",R,N,V_factorsURL"
+- "T@\"NSURL\",R,N,V_treatmentURL"
+- "T@\"NSUUID\",R,N,V_uuid"
+- "T@\"TRIActiveFactorProvidersParser\",R,N,V_activeFactorProvidersParser"
+- "T@\"TRIAppContainer\",C,N,V_appContainer"
+- "T@\"TRIAppContainer\",R,N,V_appContainer"
+- "T@\"TRIClientSelectedNamespace\",R,N"
+- "T@\"TRIExperimentDeployment\",R,N,V_deployment"
+- "T@\"TRIExperimentDeployment\",R,N,V_experimentDeployment"
+- "T@\"TRIExperimentFactorsState\",R,N,V_overrideExperimentFactorsState"
+- "T@\"TRIFBBoxedBool\",R,N"
+- "T@\"TRIFBBoxedDouble\",R,N"
+- "T@\"TRIFBBoxedInt64\",R,N"
+- "T@\"TRIFBCloudKitAssetRecordAsset\",R,N"
+- "T@\"TRIFBCloudKitTreatmentRecordAsset\",R,N"
+- "T@\"TRIFBMobileAssetReference\",R,N"
+- "T@\"TRIFBTrialManagedAsset\",R,N"
+- "T@\"TRIFactorsStateExperimentIdentifiers\",R,N"
+- "T@\"TRIPBStringEnumDictionary\",&,D,N"
+- "T@\"TRIPBTimestamp\",&,D,N"
+- "T@\"TRIPersistedAllocationCommon\",&,D,N"
+- "T@\"TRIPersistedExperimentFactorsState\",&,D,N"
+- "T@\"TRIReferenceManagedDirReaderLock\",R,N,V_lock"
+- "T@\"TRIRolloutDeployment\",R,N,V_deployment"
+- "T@\"TRISubject\",R,N"
+- "T@\"TRITrackingId\",R,N"
+- "T@,R,N,V_logger"
+- "T@?,C,N,V_handler"
+- "T@?,R,N,V_block"
+- "TB,D,N"
+- "TB,N"
+- "TB,N,V_allowsBatteryUsage"
+- "TB,N,V_allowsCellularAccess"
+- "TB,N,V_availableToRootUser"
+- "TB,N,V_boostPriority"
+- "TB,N,V_enableFetchDuringSetupAssistant"
+- "TB,N,V_expensiveNetworkingAllowed"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_availableToRootUser"
+- "TB,R,N,V_enableFetchDuringSetupAssistant"
+- "TB,R,N,V_expensiveNetworkingAllowed"
+- "TB,R,N,V_forTrialdSystem"
+- "TB,R,N,V_lastFetchWasSuccess"
+- "TB,R,N,V_optedOutOfDefaults"
+- "TB,R,N,V_promotable"
+- "TC,R,N"
+- "TC,R,N,V_eventType"
+- "TC,R,N,V_type"
+- "TI,D,N"
+- "TI,R,N"
+- "TI,R,N,V_compatibilityVersion"
+- "TI,R,N,V_downloadNCV"
+- "TQ,N,V_discretionaryBehavior"
+- "TQ,R"
+- "TQ,R,D,N"
+- "TQ,R,N"
+- "TQ,R,N,V_count"
+- "TQ,R,N,V_progress"
+- "TQ,R,N,V_type"
+- "TQ,R,V_id"
+- "TRIActiveExperimentsSysdiagnoseProvider"
+- "TRIActiveFactorProvidersParser"
+- "TRIActiveFactorProvidersParserGuardedData"
+- "TRIActiveRolloutsSysdiagnoseProvider"
+- "TRIAllocationStatus"
+- "TRIAllocationStatusCursor"
+- "TRIAllocationStatusDefaultProvider"
+- "TRIAllocationStatusProvider"
+- "TRIAllocationStatusProviderGuardedData"
+- "TRIAppContainer"
+- "TRIAssetIdFactorName"
+- "TRIBlockBasedSysdiagnoseInfoProvider"
+- "TRICCommandRunner"
+- "TRICEnvironmentManager"
+- "TRICPrinter"
+- "TRIClient"
+- "TRIClientFactorPackStreamingParser"
+- "TRIClientFactorPackStreamingWriter"
+- "TRIClientGuardedData"
+- "TRIClientNamespaceMetadata"
+- "TRIClientNamespaceMetadataStorage"
+- "TRIClientNamespaceMetadataStoring"
+- "TRIDefaultFactorProvider"
+- "TRIDefaultFactorProviderGuardedData"
+- "TRIDownloadNotification"
+- "TRIDownloadNotificationProtocol"
+- "TRIDownloadOptions"
+- "TRIEntitlement"
+- "TRIExcessiveStaleFactorsUsageTimer"
+- "TRIExcessiveStaleFactorsUsageTimerGuardedData"
+- "TRIExperimentAllocationStatus"
+- "TRIExperimentDeployment"
+- "TRIExperimentFactorsState"
+- "TRIExperimentHistoryRecord"
+- "TRIExperimentHistorySysdiagnoseProvider"
+- "TRIExperimentIdentifiers"
+- "TRIFBBoxedBool"
+- "TRIFBBoxedDouble"
+- "TRIFBBoxedInt64"
+- "TRIFBCloudKitAssetRecordAsset"
+- "TRIFBCloudKitAssetRecordAssetBuilder"
+- "TRIFBCloudKitAssetRecordAssetChanges"
+- "TRIFBCloudKitTreatmentRecordAsset"
+- "TRIFBCloudKitTreatmentRecordAssetBuilder"
+- "TRIFBCloudKitTreatmentRecordAssetChanges"
+- "TRIFBFactorLevel"
+- "TRIFBFactorLevelBuilder"
+- "TRIFBFactorLevelChanges"
+- "TRIFBFactorMetadataKeyValue"
+- "TRIFBFactorMetadataKeyValueBuilder"
+- "TRIFBFactorMetadataKeyValueChanges"
+- "TRIFBFastFactorLevels"
+- "TRIFBFastFactorLevelsBuilder"
+- "TRIFBFastFactorLevelsChanges"
+- "TRIFBImmutableBoxedBool"
+- "TRIFBImmutableBoxedDouble"
+- "TRIFBImmutableBoxedInt64"
+- "TRIFBMobileAssetReference"
+- "TRIFBMobileAssetReferenceBuilder"
+- "TRIFBMobileAssetReferenceChanges"
+- "TRIFBMutableBoxedBool"
+- "TRIFBMutableBoxedDouble"
+- "TRIFBMutableBoxedInt64"
+- "TRIFBTrialManagedAsset"
+- "TRIFBTrialManagedAssetBuilder"
+- "TRIFBTrialManagedAssetChanges"
+- "TRIFPNamespaceFactorProvider"
+- "TRIFactorDownloadValidator"
+- "TRIFactorLevelCaching"
+- "TRIFactorProviderIdent"
+- "TRIFactorProviding"
+- "TRIFactorsState"
+- "TRIFactorsStateExperimentIdentifiers"
+- "TRIFileBackedMutableStringArray"
+- "TRIFileLock"
+- "TRIFlatbufferUtils"
+- "TRIFullMAAssetId"
+- "TRIFullMAAssetIdOCNTErrorDomain"
+- "TRILevelChecked"
+- "TRILockedFactorPackSet"
+- "TRILogTreatmentReader"
+- "TRIMASpecVer"
+- "TRIMisc"
+- "TRINaiveFactorLevelCache"
+- "TRINamespaceDescriptor"
+- "TRINamespaceFactorProvider"
+- "TRINamespaceFactorProviderChain"
+- "TRINamespaceFactorProviding"
+- "TRINamespaceManagementProtocol"
+- "TRINamespaceOptionalParams"
+- "TRINamespaceRecord"
+- "TRINamespaceResolver"
+- "TRINamespaceResolving"
+- "TRINamespaceStatus"
+- "TRINamespaceStatusProvider"
+- "TRINamespaceUpdateNotification"
+- "TRINamespaceUpdateProtocol"
+- "TRINotificationCallback"
+- "TRINotificationState"
+- "TRINotificationToken"
+- "TRIPartialExperimentRecord"
+- "TRIPartialRolloutRecord"
+- "TRIPaths"
+- "TRIPersistedAllocationStatusCursor"
+- "TRIPersistedFactorsState"
+- "TRIPersistedNamespaceStatus"
+- "TRIPersistedNetworkBehavior"
+- "TRIPlaceholderTriallogSysdiagnoseProvider"
+- "TRIProcessInfo"
+- "TRIPruningFactorLevelCache"
+- "TRIPruningFactorLevelCacheGuardedData"
+- "TRIPurgeabilityLevelMapper"
+- "TRIReferenceManagedDirReaderLock"
+- "TRIReferenceManagedDirReaderLockGuardedData"
+- "TRIRolloutAllocationStatus"
+- "TRIRolloutDeployment"
+- "TRIRolloutHistoryRecord"
+- "TRIRolloutIdentifiers"
+- "TRIStandardPaths"
+- "TRISubjectProvider"
+- "TRISubjectProviderGuardedData"
+- "TRISubjectRotationNotification"
+- "TRISysdiagnoseInfoProviding"
+- "TRISysdiagnoseLogWriter"
+- "TRISysdiagnoseOutputFormatter"
+- "TRITrackingId"
+- "TRITreatmentInfo"
+- "TRITriclientNamespaceMetadataRoot"
+- "TRITripersistedAllocationStatusRoot"
+- "TRITripersistedEvaluationStatusRoot"
+- "TRITripersistedNamespaceStatusRoot"
+- "TRITripersistedNetworkBehaviorRoot"
+- "TRITripurgeabilityLevelRoot"
+- "TRITypedFactorProvider"
+- "TRIVersion"
+- "TRIVersionedNamespace"
+- "TRIXPCInternalAgentToSystemServiceProtocol"
+- "TRIXPCInternalServiceProtocol"
+- "TRIXPCNamespaceManagementClient"
+- "TRIXPCNamespaceManagementServiceProtocol"
+- "TRIXPCStatusServiceProtocol"
+- "TRIXPCUtils"
+- "Td,N"
+- "Td,R,N"
+- "Ti,D,N"
+- "Ti,N,V_cloudKitContainerId"
+- "Ti,N,V_deploymentId"
+- "Ti,N,V_purgeabilityLevel"
+- "Ti,R,D,N"
+- "Ti,R,N,V_cloudKitContainerId"
+- "Ti,R,N,V_deploymentEnvironment"
+- "Ti,R,N,V_deploymentId"
+- "Ti,R,N,V_experimentType"
+- "Ti,R,N,V_purgeabilityLevel"
+- "Ti,R,N,V_token"
+- "Ti,R,N,V_type"
+- "Tq,N"
+- "Tq,R,N"
+- "Tq,R,N,V_status"
+- "Tq,R,N,V_type"
+- "Tr*,R,N"
+- "Tr^{BoxedBool=C},R,N"
+- "Tr^{BoxedDouble=d},R,N"
+- "Tr^{BoxedInt64=q},R,N"
+- "Trial asset path does not exist on disk: %{public}@."
+- "TrialXP_ClientFramework-474.2.18.2"
+- "URLByAppendingPathComponent:"
+- "URLByDeletingLastPathComponent"
+- "URLByResolvingSymlinksInPath"
+- "URLWithString:"
+- "URLsForDirectory:inDomains:"
+- "UTC"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unable to read MA path from reference path: %{public}@: %@"
+- "Unarchived unexpected class for TRIFullMAAssetId key \"specifier\" (expected %@, decoded %@)"
+- "Unarchived unexpected class for TRIFullMAAssetId key \"type\" (expected %@, decoded %@)"
+- "Unarchived unexpected class for TRIFullMAAssetId key \"version\" (expected %@, decoded %@)"
+- "Utils"
+- "Vv16@0:8"
+- "^{BoxedBool=C}"
+- "^{BoxedDouble=d}"
+- "^{BoxedInt64=q}"
+- "^{CloudKitAssetRecordAssetBuilder=^{FlatBufferBuilder}I}"
+- "^{CloudKitTreatmentRecordAssetBuilder=^{FlatBufferBuilder}I}"
+- "^{FactorLevelBuilder=^{FlatBufferBuilder}I}"
+- "^{FactorMetadataKeyValueBuilder=^{FlatBufferBuilder}I}"
+- "^{FastFactorLevelsBuilder=^{FlatBufferBuilder}I}"
+- "^{MobileAssetReferenceBuilder=^{FlatBufferBuilder}I}"
+- "^{TrialManagedAssetBuilder=^{FlatBufferBuilder}I}"
+- "^{_NSZone=}16@0:8"
+- "_activeFactorPackSetId"
+- "_activeFactorProvidersParser"
+- "_activeTargetingRuleIndex"
+- "_activity"
+- "_aliasMap"
+- "_allHistoryRecordsWithError:"
+- "_allowMutation"
+- "_allowsBatteryUsage"
+- "_allowsCellularAccess"
+- "_appBundleContainerDirectoryAsOwner"
+- "_appBundleContainerDirectoryAsSystemWithError:"
+- "_appContainer"
+- "_appContainerDirectoryAsSystemWithContainerClass:error:"
+- "_appContainerType:"
+- "_appDataContainerDirectoryAsOwner"
+- "_appDataContainerDirectoryAsSystemWithError:"
+- "_assetFilenameForFactor:"
+- "_assetId"
+- "_availableToRootUser"
+- "_bldr"
+- "_block"
+- "_boostPriority"
+- "_br"
+- "_changeTypeAlias"
+- "_changeTypeAssetId"
+- "_changeTypeAssetIndex"
+- "_changeTypeAssetName"
+- "_changeTypeCacheKey"
+- "_changeTypeCloudKitMetadata"
+- "_changeTypeContainer"
+- "_changeTypeDownloadSize"
+- "_changeTypeFactorId"
+- "_changeTypeFactorNamespaceName"
+- "_changeTypeFileType"
+- "_changeTypeHasCkIndex"
+- "_changeTypeHasOnDemandFlag"
+- "_changeTypeIsOnDemand"
+- "_changeTypeKey"
+- "_changeTypeLevel"
+- "_changeTypeLevels"
+- "_changeTypeMetadata"
+- "_changeTypeName"
+- "_changeTypeNamespaceId"
+- "_changeTypeNamespaceName"
+- "_changeTypeNcvs"
+- "_changeTypePath"
+- "_changeTypeSource"
+- "_changeTypeSpecifier"
+- "_changeTypeTreatmentId"
+- "_changeTypeType"
+- "_changeTypeVal"
+- "_changeTypeVersion"
+- "_checkEntitlements"
+- "_clientHelper"
+- "_cloudKitContainerId"
+- "_compatibilityVersion"
+- "_container"
+- "_containerError:withFormat:"
+- "_containerPath"
+- "_containerURLWithError:"
+- "_copyAssetsToDirectory:"
+- "_count"
+- "_counterfactualTreatmentIds"
+- "_data"
+- "_date"
+- "_dealiasedFactorLevelForFactorLevel:unaliasedName:"
+- "_defaultFactorProvider"
+- "_defaultProviderImpl"
+- "_defaultQueue"
+- "_deleteWhenDone"
+- "_deployment"
+- "_deploymentEnvironment"
+- "_deploymentId"
+- "_deploymentIdForExperiment:fromResolverList:"
+- "_descriptionForErrorCode:"
+- "_devOverrideProvider"
+- "_dir"
+- "_dirLock"
+- "_discretionaryBehavior"
+- "_dispatchQueue"
+- "_downloadNCV"
+- "_emittedUnrecognizedFieldWarning"
+- "_enableFetchDuringSetupAssistant"
+- "_endDate"
+- "_environments"
+- "_error"
+- "_errorIsInsufficientDiskSpaceCloudKitError:"
+- "_errorOrDeactivationReason"
+- "_eventDate"
+- "_eventLogTime"
+- "_eventType"
+- "_expensiveNetworkingAllowed"
+- "_experimentDeployment"
+- "_experimentDeploymentFromActiveFactorProviderWithNamespaceName:"
+- "_experimentDeploymentWithNamespaceName:treatmentLayer:"
+- "_experimentHistoryRecordsForEnvironment:error:"
+- "_experimentId"
+- "_experimentIdForNamespace:fromResolverList:"
+- "_experimentProvider"
+- "_experimentType"
+- "_factorDirectoryLock"
+- "_factorLevels"
+- "_factorLevelsWithFactorPackData:referencePath:outFactorPackId:outNamespaceName:outNCVs:"
+- "_factorName"
+- "_factorPackExperimentProvider"
+- "_factorPackId"
+- "_factorPackIds"
+- "_factorPackSetId"
+- "_factorsState"
+- "_factorsURL"
+- "_fastFactorLevels"
+- "_faultOnceWithMessage:"
+- "_fbFactorPath"
+- "_fd"
+- "_fieldNumberForFieldName:"
+- "_fieldTagForFieldName:"
+- "_filename"
+- "_finish"
+- "_firstError"
+- "_forTrialdSystem"
+- "_forUserId"
+- "_getFactorPackPathForNamespaceName:withCandidatePath:parentId:deploymentId:promotable:"
+- "_getLogger"
+- "_groupContainerDirectoryAsOwner"
+- "_groupContainerDirectoryAsSystemWithError:"
+- "_handler"
+- "_hasAccessToDirectory:"
+- "_hasAppropriatePermissionsForNamespaceName:"
+- "_hasFactorPackId"
+- "_hasOverrideExperimentFactorsState"
+- "_hasSelectedNamespace"
+- "_helper"
+- "_id"
+- "_identifier"
+- "_installedProvider"
+- "_internalAgentToSystemHelper"
+- "_internalHelper"
+- "_invalidateFactors"
+- "_isEqualToNamespaceDescriptor:"
+- "_isEqualToState:"
+- "_isFBFilePresent"
+- "_isFactorRecordFileType:"
+- "_isFlatbufferReadEnabled"
+- "_isFlatbufferWriteEnabled"
+- "_isValidFormatForTeamId:"
+- "_lastFetchAttempt"
+- "_lastFetchWasSuccess"
+- "_lazyInit"
+- "_lock"
+- "_lockingFlagsFromFileLockMode:"
+- "_logDesc"
+- "_loggedRootDir"
+- "_logger"
+- "_maAutoAssetReferencedInDir:byFactorName:"
+- "_majorVersion"
+- "_minorVersion"
+- "_name"
+- "_namespaceClient"
+- "_namespaceCompatibilityVersion"
+- "_namespaceCompatibilityVersions"
+- "_namespaceMetadataStorage"
+- "_namespaceName"
+- "_namespacePathComponentsFromEntitlements"
+- "_namespaces"
+- "_namespacesInFactorsState"
+- "_notificationQueue"
+- "_notificationWithState:"
+- "_notifyDownloadUpdateForKey:withState:"
+- "_optedOutOfDefaults"
+- "_outputDirectory"
+- "_outputFilename"
+- "_overrideExperimentFactorsState"
+- "_owner"
+- "_parentId"
+- "_parseWithHandleFactorLevel:"
+- "_pas_filteredArrayWithTest:"
+- "_pas_mappedArrayWithTransform:"
+- "_pas_shuffledArrayUsingRng:"
+- "_patchVersion"
+- "_path"
+- "_pathErrorWithDescription:"
+- "_pbFactorPath"
+- "_populateCacheForRequiredKey:guardedData:"
+- "_prepareFactorsState:"
+- "_prepareFactorsStateForCounterfactualsOrInvestigationsForFactorsState:"
+- "_printAndLogString:error:"
+- "_progress"
+- "_projectId"
+- "_promotable"
+- "_provider"
+- "_providerChain"
+- "_providerForNamespace:"
+- "_pruningDelaySeconds"
+- "_pruningTimer"
+- "_ptr"
+- "_purgeabilityLevel"
+- "_queue"
+- "_rampId"
+- "_rampIdForRolloutDeployment:"
+- "_readAllFactorLevelsFromStorage"
+- "_realHomeDirectory"
+- "_realpathWithFileSystemRepresentation:buffer:"
+- "_referencePath"
+- "_refresh:"
+- "_registerUpdateHandlerForNamespaceName:notificationCallback:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:"
+- "_repeatString:length:"
+- "_replacementAlias"
+- "_replacementAssetId"
+- "_replacementAssetIndex"
+- "_replacementAssetName"
+- "_replacementCacheKey"
+- "_replacementCloudKitMetadata"
+- "_replacementCloudKitMetadataType"
+- "_replacementContainer"
+- "_replacementDownloadSize"
+- "_replacementFactorId"
+- "_replacementFactorNamespaceName"
+- "_replacementFileType"
+- "_replacementHasCkIndex"
+- "_replacementHasOnDemandFlag"
+- "_replacementIsOnDemand"
+- "_replacementKey"
+- "_replacementLevel"
+- "_replacementLevelType"
+- "_replacementLevels"
+- "_replacementMetadata"
+- "_replacementName"
+- "_replacementNamespaceId"
+- "_replacementNamespaceName"
+- "_replacementNcvs"
+- "_replacementPath"
+- "_replacementSource"
+- "_replacementSourceType"
+- "_replacementSpecifier"
+- "_replacementTreatmentId"
+- "_replacementType"
+- "_replacementVal"
+- "_replacementVersion"
+- "_resolveCounterfactualTreatmentsMap"
+- "_resolveTreatmentFactorPackSetIdMap"
+- "_resolverPropertyListWithGlobalRolloutsResolvedPath:"
+- "_resolverPropertyListWithResolvedPath:"
+- "_resourceAttributionIdentifier"
+- "_rolloutId"
+- "_rolloutProvider"
+- "_schemaVersion"
+- "_secondsFromEpoch"
+- "_selectedNamespace"
+- "_setupExcessiveStaleFactorsUsageTimerWithGuardedData:namespace:clientMethodNameForLogging:callingFunctionReturnAddressForLogging:"
+- "_specifier"
+- "_staleFactorsUsageGracePeriod"
+- "_startDate"
+- "_status"
+- "_statusProvider"
+- "_stream"
+- "_streamExecWithError:block:"
+- "_subject"
+- "_subjectProvider"
+- "_syncStatusProvider"
+- "_sysdiagnoseLogProviders"
+- "_targetedFactorPackSetId"
+- "_targetedTargetingRuleIndex"
+- "_teamIdFromSecTaskWithAuditToken:"
+- "_time"
+- "_token"
+- "_treatmentBasePath"
+- "_treatmentId"
+- "_treatmentIdForExperiment:fromResolverList:"
+- "_treatmentIdFromActiveFactorProviderWithNamespaceName:"
+- "_treatmentIdWithNamespaceName:treatmentLayer:"
+- "_treatmentURL"
+- "_treatments"
+- "_trialSystemRootDir"
+- "_trialSystemRootDirWithError:"
+- "_type"
+- "_underlying"
+- "_upgradeNCVs"
+- "_upgradeNCVsArePositiveIntegers:"
+- "_upgradeNCVsIsValid:"
+- "_uuid"
+- "_value"
+- "_version"
+- "_versionSpecificStorageDir"
+- "_versionSpecificStorageDirUsingGlobal:"
+- "_versionSpecificSystemStorageDir"
+- "_warmupPersistentFactorLevelCache"
+- "_withLoggingRunCommand:arguments:output:"
+- "_withoutLoggingRunCommand:withArgs:output:error:"
+- "_wrapped"
+- "_xpcError"
+- "absoluteString"
+- "acquireLockOnPath:fileLockMode:blocking:andRunBlock:"
+- "activated  "
+- "activation failure"
+- "activeExperimentInformationWithEnvironments:completion:"
+- "activeExperimentInformationWithEnvironments:error:"
+- "activeFactorProvidersParser"
+- "activeLowLevelFactorsFile"
+- "activeRolloutInformation:"
+- "activeRolloutInformationWithCompletion:"
+- "activity"
+- "addIndex:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addStatusUpdateHandlerForEnvironment:queue:block:"
+- "addString:"
+- "addSymlinkFromAssetWithIdentifier:toPath:flockWitness:completion:"
+- "addTreatment:"
+- "addUpdateHandlerForNamespaceId:queue:usingBlock:"
+- "addUpdateHandlerForNamespaceId:usingBlock:"
+- "addUpdateHandlerForNamespaceName:queue:usingBlock:"
+- "addUpdateHandlerForNamespaceName:usingBlock:"
+- "addWithoutRunningForTask:options:completion:"
+- "alias"
+- "aliasAsCString"
+- "aliasAsData"
+- "allKeys"
+- "allKeysForObject:"
+- "allObjects"
+- "allValues"
+- "allocDescriptorForClass:rootClass:file:fields:fieldCount:storageSize:flags:"
+- "allocDescriptorForName:valueNames:values:count:enumVerifier:"
+- "allocDescriptorForName:valueNames:values:count:enumVerifier:extraTextFormatInfo:"
+- "allocated  "
+- "allocation failure"
+- "allowEnvVarDefaultLevelsDir"
+- "allowsBatteryUsage"
+- "allowsCellularAccess"
+- "allowsExpensiveNetworkAccess"
+- "anchorDate"
+- "appContainer"
+- "appendBytes:length:"
+- "appendData:"
+- "appendFactorLevel:"
+- "appendString:"
+- "applicationBundleIdentifierFromSelf"
+- "applicationBundleIdentifierWithAuditToken:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayFromDirectory:"
+- "arrayWithObjects:count:"
+- "asData"
+- "asFactorsState"
+- "assetIdAsCString"
+- "assetIdAsData"
+- "assetIndex"
+- "assetName"
+- "assetNameAsCString"
+- "assetNameAsData"
+- "assetSpecifier"
+- "assetStore"
+- "assetStoreUsingGlobal:"
+- "assetType"
+- "assetVersion"
+- "attempts"
+- "autorelease"
+- "autoreleasingSerialQueueWithLabel:qosClass:"
+- "availableSpaceClassForFactorNames:namespaceName:"
+- "availableSpaceClassFromPurgeabilityLevel:"
+- "availableToRootUser"
+- "base64EncodedStringWithOptions:"
+- "baseURL"
+- "baseUrlForTreatment:namespaceName:"
+- "baseUrlForTreatmentsWithNamespaceName:"
+- "bestEffortSymbolicateAddress:"
+- "binaryValue"
+- "boolValue"
+- "booleanValue"
+- "bundleIdentifier"
+- "bundleURL"
+- "bytes"
+- "cacheFactorLevels"
+- "cacheFactorLevelsWithNamespaceName:"
+- "cacheKey"
+- "calendarWithIdentifier:"
+- "callbackTokens"
+- "callerBundleId"
+- "callerIsRunningFromSystemContext"
+- "categoricalValueForExperimentAllocationStatus:"
+- "categoricalValueForRolloutAllocationStatus:"
+- "characterAtIndex:"
+- "characterSetWithCharactersInString:"
+- "checkDeviceUnlocked"
+- "checkIfConnectedToVPN:"
+- "class"
+- "client"
+- "clientForTrialdSystem:"
+- "clientTreatmentWithFactorLevels:parentDir:isRelativePath:"
+- "clientWithExperimentIdentifiers:"
+- "clientWithIdentifier:"
+- "clientWithIdentifier:forTrialdSystem:"
+- "clientWithProjectId:factorsState:"
+- "closeWithError:"
+- "cloudKitContainer"
+- "cloudKitContainerId"
+- "cloudKitIndex"
+- "cloudKitMetadataAsAsset"
+- "cloudKitMetadataAsTreatment"
+- "cloudKitMetadataType"
+- "code"
+- "codeSignIdentifierWithAuditToken:"
+- "collectGarbageOlderThanNumScans:deletedAssetSize:ignoreRecentlyCreatedAssets:dryRun:includedCacheDeletableAssetIds:completion:"
+- "compare:"
+- "compatibility"
+- "compatibilityVersionArray"
+- "compatibilityVersionArray_Count"
+- "compatibilityVersionWithNamespaceName:"
+- "components:fromDate:toDate:options:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "computeTreatmentAssetIndexes:withAssociatedExperimentIds:andFactorPackAssetIds:withAssociatedRolloutDeployments:withExperimentFactorNames:andRolloutFactorNames:forFactors:usingFilter:"
+- "conformsToProtocol:"
+- "containerDir"
+- "containerIds"
+- "containerURL"
+- "containerURLAsOwner"
+- "containerURLForSecurityApplicationGroupIdentifier:"
+- "containerWithIdentifier:type:"
+- "containsObject:"
+- "containsString:"
+- "containsValueForKey:"
+- "contentsOfDirectoryAtPath:error:"
+- "contextWithTrackingId:projectId:"
+- "convertFBFactorLevelToProtoFactorLevel:parentDir:namespaceName:isRelativePath:"
+- "convertFromString:usingBase:toI64:"
+- "convertFromString:usingBase:toU64:"
+- "convertToTrialToolArgs:"
+- "convertToTrialToolCommand:"
+- "copy"
+- "copyItemAtPath:toPath:error:"
+- "copySourceFactorPack:toDestPath:error:modifyFactorLevel:"
+- "copyTo:"
+- "copyWithReplacementActiveFactorPackSetId:"
+- "copyWithReplacementActiveTargetingRuleIndex:"
+- "copyWithReplacementAssetId:"
+- "copyWithReplacementCompatibilityVersion:"
+- "copyWithReplacementCounterfactualTreatmentIds:"
+- "copyWithReplacementDeployment:"
+- "copyWithReplacementDeploymentEnvironment:"
+- "copyWithReplacementDeploymentId:"
+- "copyWithReplacementEndDate:"
+- "copyWithReplacementErrorOrDeactivationReason:"
+- "copyWithReplacementEventDate:"
+- "copyWithReplacementEventLogTime:"
+- "copyWithReplacementEventType:"
+- "copyWithReplacementExperimentDeployment:"
+- "copyWithReplacementExperimentId:"
+- "copyWithReplacementExperimentType:"
+- "copyWithReplacementFactorName:"
+- "copyWithReplacementFactorPackSetId:"
+- "copyWithReplacementIdentifier:"
+- "copyWithReplacementLastFetchAttempt:"
+- "copyWithReplacementLastFetchWasSuccess:"
+- "copyWithReplacementLock:"
+- "copyWithReplacementLogDesc:"
+- "copyWithReplacementMajorVersion:"
+- "copyWithReplacementMinorVersion:"
+- "copyWithReplacementName:"
+- "copyWithReplacementNamespaceName:"
+- "copyWithReplacementNamespaces:"
+- "copyWithReplacementPatchVersion:"
+- "copyWithReplacementPath:"
+- "copyWithReplacementProvider:"
+- "copyWithReplacementRampId:"
+- "copyWithReplacementRolloutId:"
+- "copyWithReplacementSpecifier:"
+- "copyWithReplacementStartDate:"
+- "copyWithReplacementStatus:"
+- "copyWithReplacementTargetedFactorPackSetId:"
+- "copyWithReplacementTargetedTargetingRuleIndex:"
+- "copyWithReplacementTreatmentId:"
+- "copyWithReplacementTreatmentURL:"
+- "copyWithReplacementType:"
+- "copyWithReplacementValue:"
+- "copyWithReplacementVersion:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "counterfactualFactorsStatesForNamespace:"
+- "cppPointer"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "createStringWithCString:"
+- "createVectorOfUInt32WithArray:"
+- "currentEnv"
+- "currentHandler"
+- "currentSchemaVersion"
+- "currentTime"
+- "d"
+- "d16@0:8"
+- "dataUsingEncoding:"
+- "dataUsingEncoding:allowLossyConversion:"
+- "dataWithBytes:length:"
+- "dataWithCapacity:"
+- "dataWithContentsOfFile:options:error:"
+- "dataWithContentsOfURL:options:error:"
+- "dataWithLength:"
+- "dataWithPropertyList:format:options:error:"
+- "databaseDir"
+- "dateByAddingComponents:toDate:options:"
+- "day"
+- "deactivated"
+- "deactivation failure"
+- "dealloc"
+- "deallocator"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeInt64ForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "decodeWithCoder:guardedData:"
+- "decryptionKeyDirForAppleInternal:"
+- "deepCopyUsingBufferBuilder:"
+- "deepCopyUsingBufferBuilder:changes:"
+- "defaultManager"
+- "defaultProvider"
+- "defaultProviderWithPaths:"
+- "deleteStatusForNamespaceWithName:"
+- "denormalizedEvent"
+- "deploymentWithExperimentId:deploymentId:"
+- "deploymentWithRolloutId:deploymentId:"
+- "deregisterNamespaceName:error:"
+- "deregisterNamespaceWithNamespaceName:completion:"
+- "deregisterNamespaceWithNamespaceName:error:"
+- "deregisterNamespaceWithNamespaceName:teamId:completion:"
+- "deregisterNotificationWithToken:"
+- "deregisterUpdateWithToken:"
+- "description"
+- "descriptor"
+- "descriptorPathForNamespaceName:fromDirectory:"
+- "descriptorsForDirectory:filterBlock:"
+- "destinationOfSymbolicLinkAtPath:error:"
+- "deviceId"
+- "deviceIdentifierFile"
+- "dictionary"
+- "dictionaryWithContentsOfURL:error:"
+- "dictionaryWithObjects:forKeys:count:"
+- "directoryValue"
+- "discretionaryBehavior"
+- "dispatchTimeWithSecondsFromNow:"
+- "dispose"
+- "disqualified"
+- "disqualified-allocation"
+- "distantPast"
+- "domain"
+- "doubleValue"
+- "downloadLevelsForFactors:withNamespace:queue:factorsState:options:progress:completion:"
+- "downloadLevelsForFactors:withNamespace:queue:options:progress:completion:"
+- "downloadNCV"
+- "downloadNamespaceWithName:options:completion:"
+- "downloadNamespaceWithName:options:progress:completion:"
+- "downloadSize"
+- "downloadedFactorsWithPaths:"
+- "dynamicNamespaceRecordsWithCompletion:"
+- "enableFetchDuringSetupAssistant"
+- "encodeBool:forKey:"
+- "encodeInt64:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodeWithCoder:guardedData:"
+- "encodedData"
+- "entitlementKeyForApplicationBundleIdentifier"
+- "enumerateActiveExperimentsForEnvironment:error:block:"
+- "enumerateActiveRolloutsWithError:block:"
+- "enumerateCounterfactualsWithNamespace:error:usingBlock:"
+- "enumerateDescriptorsInDirectory:block:"
+- "enumerateExperimentStatusesForEnvironment:startingFromCursor:error:block:"
+- "enumerateFactorLevelsUsingBlock:"
+- "enumerateFactorLevelsWithBlock:"
+- "enumerateKeysAndEnumsUsingBlock:"
+- "enumerateNcvsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateSampledActiveExperimentsForEnvironment:correlationID:error:block:"
+- "enumerateSampledActiveRolloutsForCorrelationID:error:block:"
+- "enumerateStringsWithBlock:"
+- "enumerateValuesWithBlock:"
+- "enumeratorAtPath:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "envToString:"
+- "environment"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "eventWithTrackingId:projectId:"
+- "exceptionWithName:reason:userInfo:"
+- "excessiveStaleFactorUsageTimer"
+- "excessiveStaleFactorsUsageTimer"
+- "expensiveNetworkingAllowed"
+- "experimentDeploymentWithNamespaceName:"
+- "experimentHasMatchingNCV:completion:"
+- "experimentHistoryRecordsWithLimit:newerThanDate:deploymentEnvironment:completion:"
+- "experimentIdWithNamespace:"
+- "experimentIdWithNamespaceName:"
+- "experimentIdentifiers"
+- "experimentIdentifiersForNamespace:"
+- "experimentIdentifiersWithNamespaceName:"
+- "experimentIdsWithActiveStateAndNamespaceName:completion:"
+- "experimentNotificationsWithExperimentId:cloudKitContainer:teamId:completion:"
+- "experimentRecordsWithDeploymentEnvironments:completion:"
+- "experiments history:"
+- "experiments:"
+- "experimentsDir"
+- "externalParametersFile"
+- "f16@0:8"
+- "factor"
+- "factorId"
+- "factorIdAsCString"
+- "factorIdAsData"
+- "factorLevelArray_Count"
+- "factorLevelCurrentlyCachedForFactorName:"
+- "factorLevelsWithNamespace:"
+- "factorLevelsWithNamespaceName:"
+- "factorLevelsWithTreatmentData:referencePath:filteredByNamespaceName:outTreatmentId:error:"
+- "factorName"
+- "factorNamePurgeabilityLevels_Count"
+- "factorNamesWithObfuscation:"
+- "factorNamespaceName"
+- "factorNamespaceNameAsCString"
+- "factorNamespaceNameAsData"
+- "factorPackIdForRolloutWithNamespaceName:"
+- "factorProviderForNamespaceName:parentId:deploymentId:treatmentId:fromFactorPackSetWithDir:resolvedPath:"
+- "factorProviderWithNamespaceDescriptor:paths:faultOnMissingFactors:shouldLockFactorDirectory:"
+- "factorProviderWithNamespaceName:paths:treatmentLayer:faultOnMissingFactors:shouldLockFactorDirectory:"
+- "factorProviderWithPaths:namespaceName:"
+- "factorProviderWithPaths:namespaceName:excludingTreatmentLayers:"
+- "factorProviderWithPaths:namespaceName:resolver:faultOnMissingInstalledFactors:"
+- "factorProviders"
+- "factorsAbsolutePathAsOwner:"
+- "factorsURL"
+- "factorsURLFromPath:"
+- "failWithError:"
+- "fbb"
+- "fd"
+- "fetch failure"
+- "fetchRolloutLogNamespaces"
+- "fetchStatus"
+- "fetched    "
+- "fields"
+- "fileAttributes"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "fileHandleForReading"
+- "fileHandleForWritingAtPath:"
+- "fileHandleWithStandardError"
+- "fileHandleWithStandardOutput"
+- "fileOrDirectoryLevelWithIsDir:"
+- "fileSystemRepresentation"
+- "fileType"
+- "fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "fileURLWithPath:isDirectory:relativeToURL:"
+- "fileURLWithPathComponents:"
+- "fileValue"
+- "filename"
+- "finalizeWithSelector:"
+- "finalizeWithSelector:allocatorBufferAddr:size:error:"
+- "firstError"
+- "firstObject"
+- "fixFileProtectionForAssetStoreWithCompletion:"
+- "flatbufferLevelForFactor:"
+- "floatValue"
+- "flush"
+- "forTrialdSystem"
+- "formatRecords:"
+- "forwardingTargetForSelector:"
+- "generalErrorFromDownloadNotificationError:"
+- "getDateFromCursor:"
+- "getEnum:forKey:"
+- "getLoginPasswd"
+- "getOnDemandReferenceCountsPerUserAtGlobalPath:completion:"
+- "getOnDemandReferenceCountsPerUserAtGlobalPath:error:"
+- "getSandboxExtensionTokensForIdentifierQueryWithCompletion:"
+- "getSandboxExtensionTokensForIdentifierQueryWithError:"
+- "getValue:forEnumTextFormatName:"
+- "globalFactorProviderForNamespaceName:parentId:deploymentId:treatmentId:fromFactorPackId:resolvedPath:"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "handler"
+- "hasAlias"
+- "hasAllowsCellular"
+- "hasAnyTreatmentInLayers:"
+- "hasAsset"
+- "hasAssetIndex"
+- "hasAttempts"
+- "hasBoostPriority"
+- "hasCacheKey"
+- "hasCkIndex"
+- "hasCloudKitContainer"
+- "hasCloudKitIndex"
+- "hasCommon"
+- "hasCompatibilityVersion"
+- "hasContainer"
+- "hasCounterfactualsForNamespace:"
+- "hasDeploymentId"
+- "hasDeviceId"
+- "hasDownloadSize"
+- "hasDownloadedNamespaceWithName:"
+- "hasExperimentId"
+- "hasFactor"
+- "hasFactorPack"
+- "hasFactorPackId"
+- "hasFileType"
+- "hasHasCkIndex"
+- "hasHasOnDemandFlag"
+- "hasIsFileFactor"
+- "hasIsOnDemand"
+- "hasIssuedWarnings"
+- "hasLastFetchWasSuccess"
+- "hasLatestNotificationQueryLocalTime"
+- "hasLevel"
+- "hasLowerBoundExclusive"
+- "hasName"
+- "hasNamespaceCompatibilityVersion"
+- "hasNamespaceId"
+- "hasNamespaceName"
+- "hasNamespace_p"
+- "hasNetworkBehavior"
+- "hasOnDemandFlag"
+- "hasPath"
+- "hasPrefix:"
+- "hasRampId"
+- "hasRegisteredNamespaceWithName:"
+- "hasRejected"
+- "hasRolloutId"
+- "hasSelectedNamespace"
+- "hasSize"
+- "hasSuffix:"
+- "hasTimestamp"
+- "hasTreatmentId"
+- "hasTreatmentInAnyOfLayers:withNamespaceName:"
+- "hasTrueBooleanEntitlement:logHandle:"
+- "hasType"
+- "hash"
+- "host"
+- "hostingProcessIsCoreAnalytics"
+- "hostingProcessIsSystemProcess"
+- "hostingProcessIsTriald"
+- "hostingProcessIsTrialdSystem"
+- "hostingProcessName"
+- "i16@0:8"
+- "i17@0:8{?=C}16"
+- "i20@0:8i16"
+- "i24@0:8@16"
+- "i24@0:8^B16"
+- "i32@0:8@16@24"
+- "i40@0:8@16@24^@32"
+- "i48@0:8@16@24^@32^@40"
+- "i48@0:8@16@24q32d40"
+- "id"
+- "id_p"
+- "identWithType:specifier:version:"
+- "identWithType:value:"
+- "immediateDownloadForNamespaceNames:allowExpensiveNetworking:completion:"
+- "immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:"
+- "immediateDownloadNotificationKeyForNamespaceNames:"
+- "immediatelySchedulePostUpgradeActivityWithCompletion:"
+- "indexOfObjectPassingTest:"
+- "inexpensiveOptions"
+- "infoDictionary"
+- "init"
+- "initForReadingFromData:error:"
+- "initForTrialdSystem:"
+- "initFromPersistedBehavior:"
+- "initIncompleteProvider"
+- "initRequiringSecureCoding:"
+- "initVerifiedRootObjectFromData:"
+- "initVerifiedRootObjectFromData:requireUTF8:"
+- "initVerifiedRootObjectFromData:requireUTF8:maxDepth:maxTables:"
+- "initWithAllocationStatusProvider:outputFilename:environments:"
+- "initWithAllowsCellular:discretionaryBehavior:"
+- "initWithAllowsCellular:discretionaryBehavior:activity:"
+- "initWithAllowsCellular:discretionaryBehavior:boostPriority:"
+- "initWithArray:"
+- "initWithArray:copyItems:"
+- "initWithAssetId:factorName:"
+- "initWithBehavior:copyWithZone:"
+- "initWithBufRef:count:keyClass:keyAtIndex:tableAtIndex:objectForValidKey:"
+- "initWithBufRef:count:objectAtIndex:"
+- "initWithBufRef:cppPointer:"
+- "initWithBufRef:rawPointer:"
+- "initWithBytesNoCopy:length:deallocator:"
+- "initWithBytesNoCopy:length:encoding:freeWhenDone:"
+- "initWithBytesNoCopy:length:freeWhenDone:"
+- "initWithCapacity:"
+- "initWithClientIdentifier:paths:factorsState:staleFactorsUsageGracePeriod:logger:"
+- "initWithCoder:"
+- "initWithContentsOfFile:options:error:"
+- "initWithContentsOfURL:options:error:"
+- "initWithData:"
+- "initWithData:encoding:"
+- "initWithData:error:"
+- "initWithDate:"
+- "initWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:"
+- "initWithDeployment:treatmentId:"
+- "initWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:"
+- "initWithDictionary:"
+- "initWithDir:"
+- "initWithDirectory:"
+- "initWithDomain:code:userInfo:"
+- "initWithEventDate:eventType:deploymentEnvironment:experimentId:deploymentId:treatmentId:errorOrDeactivationReason:namespaces:"
+- "initWithEventLogTime:eventType:rolloutId:rampId:factorPackSetId:deploymentId:namespaces:"
+- "initWithExperimentId:deploymentId:"
+- "initWithExperimentId:deploymentId:treatmentId:"
+- "initWithFactorLevels:"
+- "initWithFactorPackSetId:path:lock:"
+- "initWithFileDescriptor:closeOnDealloc:"
+- "initWithFormat:"
+- "initWithFormat:arguments:"
+- "initWithGuardedData:"
+- "initWithIdentifier:type:"
+- "initWithLength:"
+- "initWithLevel:"
+- "initWithLongLong:"
+- "initWithMajorVersion:minorVersion:patchVersion:"
+- "initWithName:compatibilityVersion:"
+- "initWithName:compatibilityVersion:treatmentURL:"
+- "initWithNamespaceManagementClient:"
+- "initWithNamespaceName:compatibilityVersion:lastFetchAttempt:lastFetchWasSuccess:"
+- "initWithNamespaceName:delayTimeInSeconds:block:"
+- "initWithNamespaceName:downloadNCV:optionalParams:"
+- "initWithNamespaceName:namespaceCompatibilityVersion:paths:referencePath:factorLevels:fastFactorLevels:treatmentId:factorDirectoryLock:"
+- "initWithNamespaceName:token:"
+- "initWithNamespaceName:treatmentData:namespaceCompatibilityVersion:paths:referencePath:isFlatbufferStorage:factorDirectoryLock:error:"
+- "initWithNamespaceName:typedProviderChain:paths:"
+- "initWithNamespaceName:typedProviderChain:paths:excludingTreatmentLayers:"
+- "initWithNonLoggingClientIdentifier:paths:"
+- "initWithObjects:"
+- "initWithOutputFilename:block:"
+- "initWithOutputStream:"
+- "initWithPackage:objcPrefix:syntax:"
+- "initWithParentId:deploymentId:promotable:"
+- "initWithPath:"
+- "initWithPath:parentId:deploymentId:treatmentId:promotable:"
+- "initWithPaths:"
+- "initWithPaths:activeFactorProvidersParser:"
+- "initWithPaths:factorsState:"
+- "initWithPaths:factorsState:activeFactorProvidersParser:"
+- "initWithPaths:namespaceMetadataStorage:"
+- "initWithPersisted:"
+- "initWithProjectId:paths:"
+- "initWithPruningDelaySeconds:loadFactorLevels:"
+- "initWithQueue:leewaySeconds:operation:"
+- "initWithRolloutId:deploymentId:"
+- "initWithRolloutId:deploymentId:factorPackId:"
+- "initWithRolloutId:deploymentId:factorPackId:rampId:"
+- "initWithRolloutId:deploymentId:rampId:factorPackIds:"
+- "initWithSchemaVersion:forUser:forTrialdSystem:"
+- "initWithSecondsFromEpoch:"
+- "initWithSeed:"
+- "initWithServiceName:connectionOptions:allowlistedServerInterface:allowlistedClientInterface:serverInitiatedRequestHandler:allowSystemToUserConnection:interruptionHandler:invalidationHandler:logHandle:"
+- "initWithSet:copyItems:"
+- "initWithSpecifier:version:"
+- "initWithSuiteName:"
+- "initWithTimeIntervalSince1970:"
+- "initWithTimeIntervalSinceReferenceDate:"
+- "initWithToken:"
+- "initWithType:date:"
+- "initWithType:date:experimentId:deploymentId:treatmentId:"
+- "initWithType:date:experimentId:deploymentId:treatmentId:namespaces:"
+- "initWithType:progress:error:"
+- "initWithType:provider:logDesc:"
+- "initWithType:specifier:version:"
+- "initWithType:value:"
+- "initWithUTF8String:"
+- "initWithUUID:time:treatments:subject:"
+- "initWithUUID:time:treatments:subjectProvider:projectId:"
+- "initWithUUIDBytes:"
+- "initWithUnsignedInt:"
+- "initWithUnsignedInteger:"
+- "initWithVal:"
+- "init_"
+- "insertObject:atIndex:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "intern:"
+- "internalToExternalStatusMapping"
+- "invalidate"
+- "invalidateAllFactorProviders"
+- "invertedSet"
+- "isAbsolutePath"
+- "isClassCLocked"
+- "isEntitledToApplicationGroup:withAuditToken:"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToContainer:"
+- "isEqualToDate:"
+- "isEqualToDeployment:"
+- "isEqualToDictionary:"
+- "isEqualToExperimentIdentifiers:"
+- "isEqualToIdent:"
+- "isEqualToIdentifiers:"
+- "isEqualToLockedSet:"
+- "isEqualToName:"
+- "isEqualToProvider:"
+- "isEqualToRecord:"
+- "isEqualToRolloutIdentifiers:"
+- "isEqualToSet:"
+- "isEqualToSpecVer:"
+- "isEqualToStatus:"
+- "isEqualToString:"
+- "isEqualToVersion:"
+- "isEqualToVersionedNamespace:"
+- "isFileFactor"
+- "isFileURL"
+- "isInNamespaceName:"
+- "isInternalBuild"
+- "isKindOfClass:"
+- "isLazyInitComplete"
+- "isMemberOfClass:"
+- "isOnDemand"
+- "isOptedOutOfExperimentation"
+- "isOptedOutOfExperimentationWithCompletion:"
+- "isPlatformBinary"
+- "isProxy"
+- "isReadableFileAtPath:"
+- "isRegistered"
+- "key"
+- "keyAsCString"
+- "keyAsData"
+- "lastFetchDateForContainer:teamId:completion:"
+- "lastObject"
+- "lastPathComponent"
+- "launchAndReturnError:"
+- "legacySchemaVersion"
+- "length"
+- "levelAsBoolVal"
+- "levelAsDoubleVal"
+- "levelAsInt64Val"
+- "levelAsMaRefVal"
+- "levelAsStringVal"
+- "levelAsStringValCString"
+- "levelAsStringValData"
+- "levelAsTrialAssetVal"
+- "levelForFactor:"
+- "levelForFactor:outProvider:"
+- "levelForFactor:withNamespace:"
+- "levelForFactor:withNamespaceName:"
+- "levelOneOfCase"
+- "levelType"
+- "levelValue"
+- "levels"
+- "levelsAsDict"
+- "load"
+- "loadFactorLevels"
+- "loadFromFile:"
+- "loadFromUrl:"
+- "loadInfoForTreatment:namespaceName:paths:"
+- "loadNamespaceMetadataForNamespaceName:completion:"
+- "loadNamespaceMetadataForNamespaceName:error:"
+- "loadNamespaceStatusFromURL:"
+- "loadUsingGuardedData:"
+- "loadWithNamespaceName:fromDirectory:"
+- "localTempDir"
+- "localizedDescription"
+- "localizedFailureReason"
+- "localizedStringForKey:value:table:"
+- "lock"
+- "lockedSetWithFactorPackSetId:path:lock:"
+- "logDesc"
+- "logDir"
+- "logSystemCovariates"
+- "logSystemCovariatesWithError:"
+- "logTimeFromDate:"
+- "logger"
+- "longValue"
+- "mainBundle"
+- "majorVersion"
+- "metadata"
+- "metadataAsDict"
+- "metadataKeysArray"
+- "migrateToGlobalAssetStoreIfNeededFromLocalStore:sourceExtension:completion:"
+- "minorVersion"
+- "mkstempWithPrefix:error:"
+- "mobileAssetReferenceValue"
+- "mutableBytes"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "nameAsCString"
+- "nameAsData"
+- "nameWithAssetId:factorName:"
+- "namespaceArray_Count"
+- "namespaceCallbacks"
+- "namespaceDescriptorsDefaultDir"
+- "namespaceDescriptorsDevOverrideDir"
+- "namespaceDescriptorsDir"
+- "namespaceDescriptorsDirUsingGlobal:"
+- "namespaceDescriptorsExperimentDir"
+- "namespaceDescriptorsPathForLayer:"
+- "namespaceFactorPackArray_Count"
+- "namespaceId"
+- "namespaceIdFromName:"
+- "namespaceLoggingTreatmentPath"
+- "namespaceNameAsCString"
+- "namespaceNameAsData"
+- "namespaceNameFromId:"
+- "namespaceResolver"
+- "namespaceUpdateHandlerTokens"
+- "namespacesCount"
+- "namespacesInFactorsState"
+- "ncvs"
+- "ncvsAsCArrayWithCount:"
+- "new"
+- "newTrackingId"
+- "newTrackingIdWithTreatmentRefresh:"
+- "nextObject"
+- "nextRotationDate"
+- "nextRotationDateAfter:"
+- "no experiments"
+- "no experiments because the device is opted-out of experimentation"
+- "no experiments history"
+- "no rollouts"
+- "notificationNameForDeploymentEnvironment:"
+- "notificationNameForKey:"
+- "notificationNameForNamespaceName:"
+- "notifyDownloadCompletedForKey:"
+- "notifyDownloadFailedForKey:withCloudKitError:"
+- "notifyDownloadFailedForKey:withError:"
+- "notifyDownloadProgressForKey:withProgress:"
+- "notifyDownloadStalledForKey:withProgress:"
+- "notifySubjectRotation"
+- "notifyUpdateForNamespaceName:"
+- "number"
+- "numberOfWeeksPerRotation"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "object"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForCurrentProcessEntitlement:"
+- "objectForEntitlement:withAuditToken:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "omitAlias"
+- "omitAssetIndex"
+- "omitAssetName"
+- "omitCacheKey"
+- "omitContainer"
+- "omitDownloadSize"
+- "omitFactorId"
+- "omitFactorNamespaceName"
+- "omitFileType"
+- "omitHasCkIndex"
+- "omitHasOnDemandFlag"
+- "omitIsOnDemand"
+- "omitNamespaceId"
+- "omitNcvs"
+- "omitPath"
+- "oneofs"
+- "optedOutOfDefaults"
+- "outputDirectory"
+- "outputFilename"
+- "outputStreamToFileAtPath:append:"
+- "overrideExperimentFactorsState"
+- "overrideFactorPackDeploymentMap"
+- "overwriteGlobalActiveFactorProvidersWithNamespaceMap:factorPackMap:rolloutDeploymentMap:completion:"
+- "overwriteItemAtPath:withItemAtPath:error:"
+- "parseFromData:error:"
+- "parseVersionFromString:withPrefix:"
+- "partialRecordWithFullRecord:"
+- "patchVersion"
+- "pathAsCString"
+- "pathAsData"
+- "pathComponents"
+- "pathExtension"
+- "pathForFactor:directory:"
+- "pathWithComponents:"
+- "pathsForUser:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pipe"
+- "plplistGlobal"
+- "plplistLocal"
+- "populateMAPathsForFactorLevels:loadedFromParentDir:"
+- "port"
+- "preferredPathForFactorDataWithCandidatePaths:"
+- "prefetchedLevels"
+- "preserveAlias"
+- "preserveAssetId"
+- "preserveAssetIndex"
+- "preserveAssetName"
+- "preserveCacheKey"
+- "preserveCloudKitMetadata"
+- "preserveContainer"
+- "preserveDownloadSize"
+- "preserveFactorId"
+- "preserveFactorNamespaceName"
+- "preserveFileType"
+- "preserveHasCkIndex"
+- "preserveHasOnDemandFlag"
+- "preserveIsOnDemand"
+- "preserveKey"
+- "preserveLevel"
+- "preserveLevels"
+- "preserveMetadata"
+- "preserveName"
+- "preserveNamespaceId"
+- "preserveNamespaceName"
+- "preserveNcvs"
+- "preservePath"
+- "preserveSource"
+- "preserveSpecifier"
+- "preserveTreatmentId"
+- "preserveType"
+- "preserveVal"
+- "preserveVersion"
+- "printAndLogDefaultWithFormat:"
+- "printAndLogErrorWithFormat:"
+- "printCurrentSettings"
+- "printNewlineAndLogDefaultWithFormat:"
+- "printNewlineAndLogErrorWithFormat:"
+- "printNewlineUsingStderr:format:"
+- "printTabularWithLogDefaultForLines:"
+- "printedNCVInformation"
+- "printedOnDemandReferenceCountsPerUserInformationWithError:"
+- "processInfo"
+- "processName"
+- "progress"
+- "progressMaxValue"
+- "promotable"
+- "promotableFactorPackId"
+- "promotableFactorPackIdForNamespaceName:"
+- "promoteFactorPackId:forNamespaceName:rolloutDeployment:completion:"
+- "promoteFactorPackId:forNamespaceName:rolloutDeployment:error:"
+- "promoteFactorsForNamespace:error:"
+- "promotionDirForNamespaceName:withPaths:"
+- "propertyListWithPath:error:"
+- "protobufLevelForFactor:"
+- "providerForTreatmentLayer:"
+- "providerWithType:provider:logDesc:"
+- "pruneSynchronously"
+- "purgeabilityLevel"
+- "purgeabilityLevelForNamespace:"
+- "purgeabilityLevelFromCacheDeleteUrgency:"
+- "purgeabilityLevelsForFactorsWithNamespaceName:"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q24@?0@\"TRIExperimentHistoryRecord\"8@\"TRIExperimentHistoryRecord\"16"
+- "queue"
+- "r*16@0:8"
+- "r^I24@0:8^Q16"
+- "r^{BoxedBool=C}"
+- "r^{BoxedBool=C}16@0:8"
+- "r^{BoxedDouble=d}"
+- "r^{BoxedDouble=d}16@0:8"
+- "r^{BoxedInt64=q}"
+- "r^{BoxedInt64=q}16@0:8"
+- "r^{CloudKitAssetRecordAsset=[1C]}"
+- "r^{CloudKitTreatmentRecordAsset=[1C]}"
+- "r^{FactorLevel=[1C]}"
+- "r^{FactorMetadataKeyValue=[1C]}"
+- "r^{FastFactorLevels=[1C]}"
+- "r^{MobileAssetReference=[1C]}"
+- "r^{TrialManagedAsset=[1C]}"
+- "r^{passwd=**IIq****q}16@0:8"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:"
+- "readDataToEndOfFile"
+- "readMessage:extensionRegistry:"
+- "readString"
+- "readTag"
+- "readerWithProjectId:paths:"
+- "recordWithDeployment:rampId:activeFactorPackSetId:activeTargetingRuleIndex:targetedFactorPackSetId:targetedTargetingRuleIndex:status:namespaces:"
+- "recordWithDeploymentEnvironment:experimentDeployment:treatmentId:factorPackSetId:type:status:startDate:endDate:namespaces:experimentType:counterfactualTreatmentIds:"
+- "recordWithEventDate:eventType:deploymentEnvironment:experimentId:deploymentId:treatmentId:errorOrDeactivationReason:namespaces:"
+- "recordWithEventLogTime:eventType:rolloutId:rampId:factorPackSetId:deploymentId:namespaces:"
+- "recordWithName:compatibilityVersion:treatmentURL:"
+- "referenceMAAutoAssetWithId:futurePath:currentPath:isFileFactor:sourceExtension:completion:"
+- "refresh"
+- "registerDownloadNotificationForKey:queue:usingBlock:"
+- "registerNamespaceName:compatibilityVersion:defaultsFileURL:applicationGroup:cloudKitContainerId:error:"
+- "registerNamespaceWithNamespaceName:compatibilityVersion:defaultsFileURL:applicationGroup:cloudKitContainerId:completion:"
+- "registerNamespaceWithNamespaceName:compatibilityVersion:defaultsFileURL:applicationGroup:cloudKitContainerId:error:"
+- "registerNamespaceWithNamespaceName:compatibilityVersion:defaultsFileURL:teamId:appContainerId:appContainerType:cloudKitContainerId:completion:"
+- "registerSubjectRotationWithQueue:usingBlock:"
+- "registerUpdateForNamespaceName:queue:usingBlock:"
+- "rejectFactorPackId:forNamespaceName:rolloutDeployment:completion:"
+- "rejectFactorPackId:forNamespaceName:rolloutDeployment:error:"
+- "rejected"
+- "relativePath"
+- "release"
+- "releaseBuf"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeAllObjects"
+- "removeAssetWithIdentifier:completion:"
+- "removeDescriptorWithNamespaceName:fromDirectory:"
+- "removeDownloadStatusHandlersWithToken:"
+- "removeFromDirectory:"
+- "removeItemAtPath:error:"
+- "removeItemAtURL:error:"
+- "removeLastObject"
+- "removeLevelsForFactors:withNamespace:factorsState:removeImmediately:completion:"
+- "removeLevelsForFactors:withNamespace:factorsState:removeImmediately:error:"
+- "removeLevelsForFactors:withNamespace:queue:completion:"
+- "removeLevelsForFactorsImmediately:withNamespace:queue:completion:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeUnreferencedGlobalFactorPacksWithCompletion:"
+- "removeUnusedChannelsWithCompletion:"
+- "removeUpdateHandlerForToken:"
+- "replaceAlias:"
+- "replaceAssetId:"
+- "replaceAssetIndex:"
+- "replaceAssetName:"
+- "replaceCacheKey:"
+- "replaceCharactersInRange:withString:"
+- "replaceCloudKitMetadataWithAsset:"
+- "replaceCloudKitMetadataWithTreatment:"
+- "replaceContainer:"
+- "replaceDownloadSize:"
+- "replaceFactorId:"
+- "replaceFactorNamespaceName:"
+- "replaceFileType:"
+- "replaceHasCkIndex:"
+- "replaceHasOnDemandFlag:"
+- "replaceIsOnDemand:"
+- "replaceKey:"
+- "replaceLevelWithBoolVal:"
+- "replaceLevelWithDoubleVal:"
+- "replaceLevelWithInt64Val:"
+- "replaceLevelWithMaRefVal:"
+- "replaceLevelWithStringVal:"
+- "replaceLevelWithTrialAssetVal:"
+- "replaceLevels:"
+- "replaceMetadata:"
+- "replaceName:"
+- "replaceNamespaceId:"
+- "replaceNamespaceName:"
+- "replaceNcvs:"
+- "replacePath:"
+- "replaceSourceWithDefaults:"
+- "replaceSourceWithFactorPackId:"
+- "replaceSourceWithTreatmentId:"
+- "replaceSpecifier:"
+- "replaceTreatmentId:"
+- "replaceType:"
+- "replaceVal:"
+- "replaceVersion:"
+- "requiredCapability"
+- "requiredLevels"
+- "requiresLogging"
+- "requiresTrialDataVaultAccess"
+- "resetDaemonProcess"
+- "resetDefaultProvider"
+- "resetStorageRequestSchemaVersion"
+- "resolveFactorProviderChainForNamespaceName:faultOnMissingInstalledFactors:installedFactorsAccessible:"
+- "resolveHardCodedPath:"
+- "resolvePropertyListFactorProviderChainForNamespaceName:"
+- "resolvePropertyListGlobalFactorProviderChainForNamespaceName:"
+- "resolveTargetedFactorPackSetForExperimentDeployment:"
+- "resolveTargetedFactorPackSetForExperimentFactorsState:"
+- "resolveTargetedFactorPackSetForRolloutDeployment:"
+- "resourceAttributionIdentifier"
+- "respondsToSelector:"
+- "resumeSQLiteCKDatabaseQueueWithCompletion:"
+- "resumeTaskQueueWithCompletion:"
+- "retain"
+- "retainBuf"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "rolloutAllocationStatusWithCompletion:"
+- "rolloutDeploymentWithNamespaceName:"
+- "rolloutIdWithNamespaceName:"
+- "rolloutIdentifiersWithNamespaceName:"
+- "rolloutNotificationWithLatestDeploymentForRolloutId:cloudKitContainer:teamId:completion:"
+- "rolloutRecordsWithCompletion:"
+- "rollouts:"
+- "rotateSubject"
+- "roundToOneSignificantDigitWithU64:"
+- "runAfterDelaySeconds:coalescingBehavior:"
+- "runBlockWhenDeviceIsClassCUnlockedWithQoS:block:"
+- "runCommand:withArgs:"
+- "runCommand:withArgs:output:error:"
+- "runCommand:withArgs:withTimesToAttemptOnTimeOut:withTimeOut:"
+- "runCommandAsTrialDaemonUserName:withArgs:output:error:"
+- "runCommandAsync:withArgs:taskOutputOut:error:"
+- "runWithLockAcquired:"
+- "runWithRootPrivilegesDroppedDescription:block:"
+- "sampleAllocationStatuses:correlationId:nrSamples:"
+- "sanitizedIdentifier"
+- "save"
+- "saveAssetWithIdentifier:sourcePath:flockWitness:removeSourceOnFailure:sourceExtension:completion:"
+- "saveFactorPackForUserId:toGlobalPath:fromTemporaryPath:factors:sourceExtension:completion:"
+- "saveNamespaceStatus:toURL:"
+- "saveStatus:"
+- "saveToDir:"
+- "saveToDirectory:"
+- "saveToPath:copyAssets:"
+- "saveToUrl:"
+- "schemaVersionFile"
+- "scheme"
+- "self"
+- "serializeToPersistedBehavior"
+- "setActivity:"
+- "setAlias:"
+- "setAllowsBatteryUsage:"
+- "setAllowsCellular:"
+- "setAllowsCellularAccess:"
+- "setAppContainer:"
+- "setArguments:"
+- "setAssetId:"
+- "setAssetIndex:"
+- "setAssetName:"
+- "setAvailableToRootUser:"
+- "setBooleanValue:"
+- "setBoostPriority:"
+- "setByAddingObjectsFromArray:"
+- "setCacheKey:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setCloudKitContainer:"
+- "setCloudKitContainerId:"
+- "setCloudKitIndex:"
+- "setCloudKitMetadataWithAsset:"
+- "setCloudKitMetadataWithTreatment:"
+- "setCompatibilityVersion:"
+- "setContainer:"
+- "setContainer:forNamespaceName:"
+- "setContext:"
+- "setDate:"
+- "setDateFormat:"
+- "setDay:"
+- "setDenormalizedEvent:"
+- "setDeploymentId:"
+- "setDeviceId:"
+- "setDeviceLogTime:"
+- "setDeviceTrackingTime:"
+- "setDirectoryValue:"
+- "setDiscretionaryBehavior:"
+- "setDoubleValue:"
+- "setDownloadSize:"
+- "setEnableFetchDuringSetupAssistant:"
+- "setEnvironment:"
+- "setError:"
+- "setExecutableURL:"
+- "setExpensiveNetworkingAllowed:"
+- "setExperimentId:"
+- "setFactor:"
+- "setFactorId:"
+- "setFactorLevelArray:"
+- "setFactorNamespaceName:"
+- "setFactorPack:"
+- "setFactorsProvisionalForNamespace:error:"
+- "setFactorsURL:"
+- "setFailureInjectionDelegate:"
+- "setFileType:"
+- "setFileValue:"
+- "setHandler:"
+- "setHasCkIndex:"
+- "setHasOnDemandFlag:"
+- "setHasPath:"
+- "setId_p:"
+- "setIsOnDemand:"
+- "setKey:"
+- "setLastFetchDate:forContainer:teamId:completion:"
+- "setLastFetchWasSuccess:"
+- "setLatestNotificationQueryLocalTime:"
+- "setLevel:"
+- "setLevelWithBoolVal:"
+- "setLevelWithDoubleVal:"
+- "setLevelWithInt64Val:"
+- "setLevelWithMaRefVal:"
+- "setLevelWithStringVal:"
+- "setLevelWithTrialAssetVal:"
+- "setLevels:"
+- "setLogEventId:"
+- "setLogger:"
+- "setLongValue:"
+- "setLowerBoundExclusive:"
+- "setMetadata:"
+- "setMetadataKeysArray:"
+- "setName:"
+- "setNamespaceCompatibilityVersion:"
+- "setNamespaceId:"
+- "setNamespaceName:"
+- "setNamespace_p:"
+- "setNcvs:"
+- "setNetworkBehavior:"
+- "setNextRotationDate:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setPath:"
+- "setProjectId:"
+- "setProvisionalFactorPackId:forNamespaceName:completion:"
+- "setProvisionalFactorPackId:forNamespaceName:error:"
+- "setPurgeabilityLevel:"
+- "setPurgeabilityLevelsForFactors:forNamespaceName:completion:"
+- "setPurgeabilityLevelsForFactors:forNamespaceName:error:"
+- "setPurgeabilityLevelsForFactors:withNamespaceName:"
+- "setQueue:"
+- "setRampId:"
+- "setResourceAttributionIdentifier:"
+- "setRolloutId:"
+- "setSize:"
+- "setSourceWithDefaults:"
+- "setSourceWithFactorPackId:"
+- "setSourceWithTreatmentId:"
+- "setSpecifier:"
+- "setStandardError:"
+- "setStandardOutput:"
+- "setStringValue:"
+- "setSubject:"
+- "setSubscription:namespaceName:completion:"
+- "setSyncStatusProvider:"
+- "setTimeZone:"
+- "setTimestamp:"
+- "setTrackingId:"
+- "setTreatmentId:"
+- "setType:"
+- "setUpgradeNCVs:"
+- "setUseTrialTool:"
+- "setVal:"
+- "setVersion:"
+- "setWithArray:"
+- "setWithObjects:"
+- "setWithSet:"
+- "setXpcError:"
+- "setupContainingMessageClassName:"
+- "setupExtraTextInfo:"
+- "setupOneofs:count:firstHasIndex:"
+- "sharedPaths"
+- "sharedPathsForSystem"
+- "shortDesc"
+- "size"
+- "sizesForFactors:withNamespaceName:forMetric:error:"
+- "skipField:"
+- "sortedArrayUsingComparator:"
+- "sourceAsDefaults"
+- "sourceAsDefaultsCString"
+- "sourceAsDefaultsData"
+- "sourceAsFactorPackId"
+- "sourceAsFactorPackIdCString"
+- "sourceAsFactorPackIdData"
+- "sourceAsTreatmentId"
+- "sourceAsTreatmentIdCString"
+- "sourceAsTreatmentIdData"
+- "sourceType"
+- "specVerWithSpecifier:version:"
+- "specifier"
+- "specifier != nil"
+- "specifierAsCString"
+- "specifierAsData"
+- "standardUserDefaults"
+- "startDownloadLevelsForFactors:withNamespace:factorsState:options:completion:"
+- "startDownloadNamespaceWithName:options:completion:"
+- "startDownloadNamespaceWithName:teamId:options:completion:"
+- "startNamespaceDownloadWithName:options:error:"
+- "startOfDayForDate:"
+- "stateOneOfCase"
+- "statusForNamespaceWithName:"
+- "statusFromData:"
+- "statusOfDownloadForFactors:withNamespace:factorsState:completion:"
+- "statusOfDownloadForFactors:withNamespace:factorsState:notificationKey:error:"
+- "statusOfDownloadForFactors:withNamespace:token:queue:progress:completion:"
+- "statusWithNamespaceName:compatibilityVersion:lastFetchAttempt:lastFetchWasSuccess:"
+- "streamError"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByDeletingLastPathComponent"
+- "stringByDeletingPathExtension"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByResolvingSymlinksInPath"
+- "stringByStandardizingPath"
+- "stringByTrimmingCharactersInSet:"
+- "stringForCurrentProcessEntitlement:"
+- "stringForEntitlement:fromSecTask:"
+- "stringForEntitlement:withAuditToken:"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringValue"
+- "stringWithContentsOfFile:encoding:error:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "subarrayWithRange:"
+- "subdataWithRange:"
+- "subjectDataFile"
+- "subjectWithProjectId:"
+- "submitTask:options:completion:"
+- "subscriptionForNamespaceName:completion:"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "superclass"
+- "supportsSecureCoding"
+- "suspendSQLiteCKDatabaseQueueWithCompletion:"
+- "syncProxyWithErrorHandler:"
+- "syncStatusProvider"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "sysdiagnoseInfoToDir:error:"
+- "sysdiagnoseLinesWithError:"
+- "systemDataFile"
+- "systemInteropDirectory"
+- "targetedExperimentFactorPackDeploymentMap"
+- "targetedRolloutDeploymentMap"
+- "taskRecordsWithCompletion:"
+- "taskTag"
+- "teamIdWithAuditToken:"
+- "tempDeviceIds"
+- "terminationStatus"
+- "textFormatNameForValue:"
+- "throwIfFinalizedWithSelector:"
+- "timeIntervalSince1970"
+- "timeIntervalSinceReferenceDate"
+- "timeZoneForSecondsFromGMT:"
+- "timeZoneWithAbbreviation:"
+- "token"
+- "trackingId"
+- "trackingIdWithProjectId:paths:"
+- "trackingIdWithProjectId:paths:treatments:"
+- "treatmentDirectory"
+- "treatmentIdAsCString"
+- "treatmentIdAsData"
+- "treatmentIdWithNamespace:"
+- "treatmentIdWithNamespaceName:"
+- "treatmentValidForExperimentWithId:treatmentId:completion:"
+- "treatmentsCount"
+- "treatmentsDir"
+- "treatmentsDirUsingGlobal:"
+- "triArbitraryFileInDirWithPath:"
+- "triContainerURLWithPath:containerId:containerType:"
+- "triCreateDirectoryForPath:isDirectory:error:"
+- "triDataWithHexString:"
+- "triFilenameForFactorName"
+- "triHasFileProtection:"
+- "triHashStrings:withDataSalt:"
+- "triHashWithDataSalt:"
+- "triHashWithIntegerSalt:"
+- "triHexlify"
+- "triIdempotentCreateDirectoryOrFaultWithPath:"
+- "triIsContainerURL"
+- "triIsEqual:"
+- "triIsPathSafe"
+- "triIsPathSafePlausibleUniqueId"
+- "triJavaHash"
+- "triMoveFirstItemToFrontPassingTest:"
+- "triNullableStringsAreEqualWithString:andOther:"
+- "triParseJson"
+- "triParseURLFromString:"
+- "triParseURLFromString:isDirectory:"
+- "triPath:relativeToParentPath:"
+- "triPathAsOwner:"
+- "triRemoveFileProtectionIfPresentForPath:"
+- "triRemoveFirstItemPassingTest:"
+- "triRemoveItemAtPath:error:"
+- "triSafeCopyItemAtPath:toPath:error:"
+- "triSanitizedPathComponentWithMaxLength:addHash:error:"
+- "triSaveURLToString"
+- "triSha256"
+- "triSha256Base64String"
+- "triStringByResolvingSymlinksInPath"
+- "triTrim"
+- "triURLByResolvingSymlinksInPathIncludingPrivate"
+- "triVerifiedMappedDataWithFile:error:"
+- "trial-experiment-history.log"
+- "trial-experiment-info.log"
+- "trial-mixed-experiment-info.log"
+- "trial-namespace-compatibility-versions.log"
+- "trial-pcc-experiment-info.log"
+- "trial-rollout-info.log"
+- "trial-server-side-experiment-info.log"
+- "trial.log"
+- "trialDaemonUserName"
+- "trialIdentifiersWithNamespaceName:experimentId:deploymentId:treatmentId:"
+- "trialRootDir"
+- "trialRootDirUsingGlobal:"
+- "trialRootDirWithError:"
+- "trialVolume"
+- "trifbCreateBoxedBoolFromBoxedBool:"
+- "trifbCreateBoxedDoubleFromBoxedDouble:"
+- "trifbCreateBoxedInt64FromBoxedInt64:"
+- "trifbCreateCloudKitAssetRecordAssetUsingBlock:"
+- "trifbCreateCloudKitTreatmentRecordAssetUsingBlock:"
+- "trifbCreateFactorLevelUsingBlock:"
+- "trifbCreateFactorMetadataKeyValueUsingBlock:"
+- "trifbCreateFastFactorLevelsUsingBlock:"
+- "trifbCreateMobileAssetReferenceUsingBlock:"
+- "trifbCreateSortedVectorOfFactorLevelWithOffsets:"
+- "trifbCreateSortedVectorOfFactorMetadataKeyValueWithOffsets:"
+- "trifbCreateTrialManagedAssetUsingBlock:"
+- "trifbCreateVectorOfBoxedBoolFromArray:"
+- "trifbCreateVectorOfBoxedBoolWithCount:block:"
+- "trifbCreateVectorOfBoxedDoubleFromArray:"
+- "trifbCreateVectorOfBoxedDoubleWithCount:block:"
+- "trifbCreateVectorOfBoxedInt64FromArray:"
+- "trifbCreateVectorOfBoxedInt64WithCount:block:"
+- "trifbCreateVectorOfCloudKitAssetRecordAssetWithOffsets:"
+- "trifbCreateVectorOfCloudKitTreatmentRecordAssetWithOffsets:"
+- "trifbCreateVectorOfFastFactorLevelsWithOffsets:"
+- "trifbCreateVectorOfMobileAssetReferenceWithOffsets:"
+- "trifbCreateVectorOfTrialManagedAssetWithOffsets:"
+- "trifbFinishBufferWithRootCloudKitAssetRecordAssetOfs:error:"
+- "trifbFinishBufferWithRootCloudKitTreatmentRecordAssetOfs:error:"
+- "trifbFinishBufferWithRootFactorLevelOfs:error:"
+- "trifbFinishBufferWithRootFactorMetadataKeyValueOfs:error:"
+- "trifbFinishBufferWithRootFastFactorLevelsOfs:error:"
+- "trifbFinishBufferWithRootMobileAssetReferenceOfs:error:"
+- "trifbFinishBufferWithRootTrialManagedAssetOfs:error:"
+- "trifbFinishedBufferWithRootCloudKitAssetRecordAssetOfs:error:"
+- "trifbFinishedBufferWithRootCloudKitTreatmentRecordAssetOfs:error:"
+- "trifbFinishedBufferWithRootFactorLevelOfs:error:"
+- "trifbFinishedBufferWithRootFactorMetadataKeyValueOfs:error:"
+- "trifbFinishedBufferWithRootFastFactorLevelsOfs:error:"
+- "trifbFinishedBufferWithRootMobileAssetReferenceOfs:error:"
+- "trifbFinishedBufferWithRootTrialManagedAssetOfs:error:"
+- "type != nil"
+- "typeAsCString"
+- "typeAsData"
+- "unable to get experiment info"
+- "unable to get rollout info"
+- "unknown"
+- "unlock"
+- "unsafeFirstAuthenticationState"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedShortValue"
+- "updateFactorPackForUserId:atGlobalPath:deletingFactors:completion:"
+- "updateFactorPackForUserId:atGlobalPath:populatingFactors:completion:"
+- "updateStatusForNamespaceWithName:usingBlock:"
+- "upgradeNCVs"
+- "url"
+- "urlForNamespaceMetadataForNamespaceName:"
+- "urlForStatusWithNamespaceName:"
+- "urlWithDir:"
+- "useTrialTool"
+- "userFacingString"
+- "userInfo"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8C16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"TRISQLiteCKDatabaseFailureInjectionDelegate\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"TRIFactorLevel\"^B>16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?BI>16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v32@0:8@\"NSSet\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSSet\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"TRIClientNamespaceMetadata\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString<TRIAssetId>\"16@?<v@?B>24"
+- "v32@0:8@\"TRIExperimentDeployment\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"NSSet\"16B24@?<v@?@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8i16@\"NSString\"20@?<v@?@\"NSDate\"@\"NSError\">28"
+- "v36@0:8i16@20@?28"
+- "v40@0:8@\"<TRITask>\"16@\"TRITaskQueuingOptions\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSDictionary\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B>32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"TRIDownloadOptions\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString<TRIFactorPackId>\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@\"NSDate\"16i24@\"NSString\"28@?<v@?B@\"NSError\">36"
+- "v44@0:8@\"NSString\"16i24@\"NSString\"28@?<v@?@\"NSArray\"@\"NSError\">36"
+- "v44@0:8@\"NSString\"16i24@\"NSString\"28@?<v@?@\"TRIClientRolloutArtifact\"@\"NSError\">36"
+- "v44@0:8@16i24@28@?36"
+- "v44@0:8Q16@\"NSDate\"24i32@?<v@?@\"NSNumber\"@\"NSArray\"@\"NSDate\"@\"NSError\">36"
+- "v44@0:8Q16@24i32@?36"
+- "v48@0:8@\"NSArray\"16@\"NSString\"24@\"TRIFactorsState\"32@?<v@?Q@\"NSString\"@\"NSError\">40"
+- "v48@0:8@\"NSDictionary\"16@\"NSDictionary\"24@\"NSDictionary\"32@?<v@?B>40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSSet\"32@?<v@?B>40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"TRIDownloadOptions\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8@\"NSString<TRIAssetId>\"16@\"NSString\"24^{TRIFlockWitness_=i}32@?<v@?B>40"
+- "v48@0:8@\"NSString<TRIFactorPackId>\"16@\"NSString\"24@\"TRIRolloutDeployment\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@?32@?40"
+- "v48@0:8@16@24^{TRIFlockWitness_=i}32@?40"
+- "v48@0:8@16@24r*32^v40"
+- "v52@0:8@\"NSArray\"16@\"NSString\"24@\"TRIFactorsState\"32B40@?<v@?@\"NSError\">44"
+- "v52@0:8@16@24@32B40@?44"
+- "v52@0:8I16^Q20B28B32@\"NSDictionary\"36@?<v@?B@\"NSMutableSet\">44"
+- "v52@0:8I16^Q20B28B32@36@?44"
+- "v56@0:8@\"NSArray\"16@\"NSString\"24@\"TRIFactorsState\"32@\"TRIDownloadOptions\"40@?<v@?@\"NSString\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16I24@\"NSURL\"28@\"NSString\"36i44@?<v@?B@\"NSError\">48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16I24@28@36i44@?48"
+- "v60@0:8@\"NSString<TRIAssetId>\"16@\"NSString\"24^{TRIFlockWitness_=i}32B40@\"NSString\"44@?<v@?B>52"
+- "v60@0:8@\"TRIFullMAAssetId\"16@\"NSString\"24@\"NSString\"32B40@\"NSString\"44@?<v@?@\"NSString\">52"
+- "v60@0:8@16@24@32B40@44@?52"
+- "v60@0:8@16@24^{TRIFlockWitness_=i}32B40@44@?52"
+- "v64@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSSet\"40@\"NSString\"48@?<v@?B>56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "v64@0:8@16@24@32@40@?48@?56"
+- "v72@0:8@\"NSArray\"16@\"NSString\"24@\"NSObject<OS_dispatch_queue>\"32@\"TRIFactorsState\"40@\"TRIDownloadOptions\"48@?<v@?Q>56@?<v@?B@\"NSError\">64"
+- "v72@0:8@\"NSString\"16I24@\"NSURL\"28@\"NSString\"36@\"NSString\"44q52i60@?<v@?B@\"NSError\">64"
+- "v72@0:8@16@24@32@40@48@?56@?64"
+- "v72@0:8@16I24@28@36@44q52i60@?64"
+- "v80@0:8^@16^@24^@32^@40^@48^@56@64@?72"
+- "val"
+- "valAsCString"
+- "valAsData"
+- "validateDownloadForFactors:withNamespace:paths:container:factorsState:assetIndexesByTreatment:experimentIds:assetIdsByFactorPack:rolloutFactorNames:rolloutDeployments:error:"
+- "validateSafeASCIISubsetIdentifier:"
+- "validateTrialPath:requireUserPath:"
+- "validateWithError:"
+- "valueForEntitlement:fromSecTask:ofType:"
+- "valueForKey:"
+- "verifyUTF8Fields"
+- "version"
+- "version != nil"
+- "versionAsCString"
+- "versionAsData"
+- "versionWithMajorVersion:minorVersion:patchVersion:"
+- "versionedNamespaceWithName:compatibilityVersion:"
+- "volumeForDirectory:"
+- "waitForSemaphore:timeoutSeconds:"
+- "waitUntilExit"
+- "whitespaceAndNewlineCharacterSet"
+- "wrapLevel:"
+- "writeData:error:"
+- "writeFactorPackId:"
+- "writeMessage:value:"
+- "writeSelectedNamespace:"
+- "writeString:value:"
+- "writeSysdiagnoseInfoForProvider:error:"
+- "writeToFile:"
+- "writeToFile:options:error:"
+- "writeToURL:error:"
+- "writeToURL:options:error:"
+- "xpcError"
+- "yyyy-MM-dd HH:mm:ss Z"
+- "zone"
+- "{?=C}37@0:8@16{?=C}24B25@?29"
+- "{atomic_flag=\"_Value\"AB}"
+
+```

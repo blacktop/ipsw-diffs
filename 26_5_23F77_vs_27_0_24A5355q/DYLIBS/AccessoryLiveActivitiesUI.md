@@ -1,0 +1,476 @@
+## AccessoryLiveActivitiesUI
+
+> `/System/Library/PrivateFrameworks/AccessoryLiveActivitiesUI.framework/AccessoryLiveActivitiesUI`
+
+```diff
+
+-664.5.28.100.0
+-  __TEXT.__text: 0x155f0
+-  __TEXT.__auth_stubs: 0xf20
++721.0.0.0.0
++  __TEXT.__text: 0x3758
+   __TEXT.__objc_methlist: 0x20c
+-  __TEXT.__const: 0x7d0
+-  __TEXT.__cstring: 0x4f6
+-  __TEXT.__swift5_typeref: 0x1bff
+-  __TEXT.__swift5_capture: 0x1d0
+-  __TEXT.__constg_swiftt: 0x260
+-  __TEXT.__swift5_reflstr: 0x13c
+-  __TEXT.__swift5_fieldmd: 0x190
+-  __TEXT.__swift5_types: 0x1c
+-  __TEXT.__swift_as_entry: 0x2c
+-  __TEXT.__swift_as_ret: 0x34
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__oslogstring: 0x9c
+-  __TEXT.__swift5_proto: 0x18
+-  __TEXT.__unwind_info: 0x558
+-  __TEXT.__eh_frame: 0xa80
+-  __TEXT.__objc_classname: 0xdb
+-  __TEXT.__objc_methname: 0x5be
+-  __TEXT.__objc_methtype: 0x1e9
+-  __TEXT.__objc_stubs: 0x400
+-  __DATA_CONST.__got: 0x308
+-  __DATA_CONST.__const: 0x148
+-  __DATA_CONST.__objc_classlist: 0x18
++  __TEXT.__const: 0x162
++  __TEXT.__cstring: 0x10e
++  __TEXT.__swift5_typeref: 0x111
++  __TEXT.__swift5_capture: 0xe0
++  __TEXT.__constg_swiftt: 0x70
++  __TEXT.__swift5_reflstr: 0x11
++  __TEXT.__swift5_fieldmd: 0x1c
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__swift_as_entry: 0xc
++  __TEXT.__swift_as_ret: 0x10
++  __TEXT.__swift_as_cont: 0x18
++  __TEXT.__unwind_info: 0x188
++  __TEXT.__eh_frame: 0x1f0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x140
++  __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1d0
++  __DATA_CONST.__objc_selrefs: 0x188
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x798
+-  __AUTH_CONST.__const: 0x4d0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x190
+   __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0x3a0
++  __AUTH_CONST.__objc_const: 0x310
++  __AUTH_CONST.__auth_got: 0x2e0
+   __AUTH.__objc_data: 0x138
+-  __AUTH.__data: 0x280
++  __AUTH.__data: 0x30
+   __DATA.__objc_ivar: 0x14
+-  __DATA.__data: 0x5b0
+-  __DATA.__bss: 0x350
+-  __DATA.__common: 0x18
++  __DATA.__data: 0x130
++  __DATA.__bss: 0x10
+   - /System/Library/Frameworks/AccessoryLiveActivities.framework/AccessoryLiveActivities
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+-  - /System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation
+-  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0135E91F-44CC-37CF-B51F-F22B44803EC3
+-  Functions: 357
+-  Symbols:   458
+-  CStrings:  160
++  UUID: 09B06CE0-0F71-3EE9-80CC-A553777B5517
++  Functions: 88
++  Symbols:   276
++  CStrings:  24
+ 
+Symbols:
++ __PROTOCOLS_AccessorySettingsDataProvider.16
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructorTm
++ __swiftEmptyDictionarySingleton
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _swift_initStackObject
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x25
++ _swift_release_x8
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_setDeallocating
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _OBJC_CLASS_$_CHSWidgetExtensionProvider
+- _OBJC_CLASS_$_IFImage
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _OUTLINED_FUNCTION_0
+- __DATA__TtC25AccessoryLiveActivitiesUIP33_75802C3FA24A7747660185C14494ECE721_AppSheetBundleAnchor
+- __METACLASS_DATA__TtC25AccessoryLiveActivitiesUIP33_75802C3FA24A7747660185C14494ECE721_AppSheetBundleAnchor
+- __MergedGlobals
+- __PROTOCOLS_AccessorySettingsDataProvider.9
+- ___isOSVersionAtLeast
+- ___isOSVersionAtLeast.cold.1
+- ___isPlatformVersionAtLeast
+- ___isPlatformVersionAtLeast.cold.1
+- ___isPlatformVersionAtLeast.cold.2
+- ___swift_allocate_value_buffer
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_memcpy16_8
+- ___swift_memcpy1_1
+- ___swift_noop_void_return
+- ___swift_project_value_buffer
+- __availability_version_check
+- __initializeAvailabilityCheck
+- __os_log_impl
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AccessoryLiveActivitiesUI
+- __swift_stdlib_bridgeErrorToNSError
+- _associated conformance 25AccessoryLiveActivitiesUI16ForwardingOptionOSHAASQ
+- _associated conformance 25AccessoryLiveActivitiesUI17AppIconGridHeaderV05SwiftD04ViewAA4BodyAdEP_AdE
+- _associated conformance 25AccessoryLiveActivitiesUI25AuthorizationAppSheetViewV05SwiftD00H0AA4BodyAdEP_AdE
+- _associated conformance 25AccessoryLiveActivitiesUI6AppRowV05SwiftD04ViewAA4BodyAdEP_AdE
+- _associated conformance 25AccessoryLiveActivitiesUI7AppItemVs12IdentifiableAA2IDsADP_SH
+- _bzero
+- _compatibilityInitializeAvailabilityCheck
+- _dispatch_once_f
+- _dlsym
+- _fclose
+- _fopen
+- _fread
+- _free
+- _fseek
+- _ftell
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.6
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.7
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA19_ConditionalContentVyAA08ModifiedG0VyAIyAIyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAIyAqA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGG_AA4TextVAA6SpacerVAA0E0PAAE12labelsHiddenQryFQOyAA6ToggleVyA5_G_Qo_tGGAAA8_HPyHC.105
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA9LazyVGridVyAA7ForEachVySay023AccessoryLiveActivitiesB07AppItemVG10Foundation4UUIDVAA15ModifiedContentVyARyAA5ImageVAA18_AspectRatioLayoutVGAA11_ClipEffectVyAA16RoundedRectangleVGGSgGG_ACyAA4TextVGtGGAA0E0HPyHC.106
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA15NavigationStackVyAA0I4PathVAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE29navigationBarTitleDisplayModeyQrAA0iQ4ItemV0rsT0OFQOyAcAE0pR0yQrqd__SyRd__lFQOyAA6VStackVyAA012_ConditionalO0VyAA08ModifiedO0VyAA08ProgressC0VyAA05EmptyC0VA4_GAA16_FlexFrameLayoutVGAcAE9listStyleyQrqd__AA9ListStyleRd__lFQOyAA4ListVys5NeverOAA05TupleC0VyAA7SectionVyA4_A0_y023AccessoryLiveActivitiesB017AppIconGridHeaderVAA21_TraitWritingModifierVyAA21ListRowInsetsTraitKeyVGGAA4TextVG_A18_yA0_yA29_AA30_EnvironmentKeyWritingModifierVyA29_4CaseOSgGGA16_yAA6ButtonVyAA6HStackVyA16_yA29__AA6SpacerVA0_yAA5ImageVA32_yAA5ColorVSgGGSgtGGG_A39_yA41_yA16_yAXyA16_yA29__A29_tGG_A43_A51_tGGGA59_tGA29_GA18_yA37_AA7ForEachVySayA19_03AppU0VG10Foundation4UUIDVA19_6AppRowVGA4_GSgtGG_AA21InsetGroupedListStyleVQo_GG_SSQo__Qo__AA0nO7BuilderV10buildBlockyQrxAaPRzlFZQOy_AZyA85_A86_yQrxAaPRzlFZQOy_AA0nU0VyytA39_yA0_yA45_A32_yAA4FontVSgGGGGQo_AA05TuplenO0VyA95__A95_tGGQo_Qo_G_Qo_HO.9
+- _initializeAvailabilityCheck
+- _malloc
+- _memcpy
+- _objc_msgSend$CGImage
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$initWithBundleIdentifier:
+- _objc_msgSend$initWithOptions:
+- _objc_msgSend$initWithSize:scale:
+- _objc_msgSend$localizedContainerDisplayName
+- _objc_msgSend$prepareImageForDescriptor:
+- _objc_msgSend$scale
+- _objc_msgSend$setShouldApplyMask:
+- _objc_msgSend$widgetExtensionContainerForContainerBundleIdentifier:
+- _objc_release_x24
+- _objc_release_x25
+- _objc_retainAutoreleasedReturnValue
+- _objectdestroy.3Tm
+- _objectdestroy.41Tm
+- _objectdestroy.51Tm
+- _objectdestroyTm
+- _os_log_type_enabled
+- _rewind
+- _sscanf
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocClassInstance
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getFunctionTypeMetadata0
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getOpaqueTypeConformance2
+- _swift_getSingletonMetadata
+- _swift_retain
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _symbolic $s7SwiftUI4ViewP
+- _symbolic $ss12IdentifiableP
+- _symbolic Say_____G 25AccessoryLiveActivitiesUI7AppItemV
+- _symbolic Say_____G 7SwiftUI8GridItemV
+- _symbolic ShySSG
+- _symbolic So7IFImageCSg
+- _symbolic So8NSObjectCSg
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 23AccessoryLiveActivities0abC9AppClientC
+- _symbolic _____ 25AccessoryLiveActivitiesUI16ForwardingOptionO
+- _symbolic _____ 25AccessoryLiveActivitiesUI17AppIconGridHeaderV
+- _symbolic _____ 25AccessoryLiveActivitiesUI21_AppSheetBundleAnchor33_75802C3FA24A7747660185C14494ECE7LLC
+- _symbolic _____ 25AccessoryLiveActivitiesUI25AuthorizationAppSheetViewV
+- _symbolic _____ 25AccessoryLiveActivitiesUI6AppRowV
+- _symbolic _____ 25AccessoryLiveActivitiesUI7AppItemV
+- _symbolic _____ 7SwiftUI13DismissActionV
+- _symbolic _____ 7SwiftUI17EnvironmentValuesV
+- _symbolic _____Sg 23AccessoryLiveActivities0A18AuthorizationStateO
+- _symbolic _____Sg 23AccessoryLiveActivities0A6DeviceV
+- _symbolic _____Sg 7SwiftUI4FontV
+- _symbolic _____Sg 7SwiftUI4TextV4CaseO
+- _symbolic _____Sg 7SwiftUI5ColorV
+- _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
+- _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAy__________G_____y_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____ySSG s11_SetStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySay_____GG 7SwiftUI5StateV 023AccessoryLiveActivitiesB07AppItemV
+- _symbolic _____ySay_____G__________G 7SwiftUI7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AD0H3RowV
+- _symbolic _____ySay_____G__________yAEy__________G_____y_____GGSgG 7SwiftUI7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____ySbG 7SwiftUI5StateV
+- _symbolic _____yShySSGG 7SwiftUI5StateV
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____y_____ABG 7SwiftUI12ProgressViewV AA05EmptyD0V
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV AA13DismissActionV
+- _symbolic _____y_____G 7SwiftUI11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA013ListRowInsetsC3KeyV
+- _symbolic _____y_____G 7SwiftUI5StateV 023AccessoryLiveActivitiesB016ForwardingOptionO
+- _symbolic _____y_____G 7SwiftUI6ToggleV AA4TextV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 25AccessoryLiveActivitiesUI7AppItemV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4TextV4CaseO
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA13DismissActionV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
+- _symbolic _____y________________y__________y_____SgGGSgtG 7SwiftUI9TupleViewV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y___________y_____y_____yAEyAEy__________G_____G_____y_____GGAEyAJ_____y_____SgGGG________________y_____yAUG_Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4TextV AA6SpacerV AA0D0PAAE12labelsHiddenQryFQO AA6ToggleV
+- _symbolic _____y___________y_____y_____ySay_____G__________yAIy__________G_____y_____GGSgGG______y_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA9LazyVGridV AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA11_ClipEffectV AA16RoundedRectangleV AA0F0V AA4TextV
+- _symbolic _____y___________y_____y_____y_____AFG_____G_____y_____y__________y_____yAfDy__________y_____GG_____G_AMyADyAS_____y_____SgGGALy_____y_____yALyAS______ADy_____AUy_____SgGGSgtGGG_AZyA_yALy_____yALyAS_AStGG_A0_A6_tGGGA15_tGASGAMyAY_____ySay_____G__________GAFGSgtGG______Qo_GG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA08ModifiedI0V AA08ProgressD0V AA05EmptyD0V AA010_FlexFrameG0V AA0D0PAAE9listStyleyQrqd__AA04ListP0Rd__lFQO AA0Q0V s5NeverO AA05TupleD0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0Q17RowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A10_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA0F0V AA7ForEachV A2_0X4ItemV 10Foundation4UUIDV A2_0X3RowV AA012InsetGroupedqP0V
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA013ListRowInsetsL3KeyV
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE4CaseO
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y__________y__________y_____GG_____G 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA013ListRowInsetsO3KeyV AA4TextV
+- _symbolic _____y__________y__________y_____GG_____G_AAyACyAI_____y_____SgGG_____y_____y_____yAPyAI______ACy_____AKy_____SgGGSgtGGG_AQyARyAPy_____yAPyAI_AItGG_AsYtGGGA6_tGAIGAAyAO_____ySay_____G__________GABGSgt 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA013ListRowInsetsO3KeyV AA4TextV AA012_EnvironmentupQ0V AP4CaseO AA05TupleE0V AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV AA7ForEachV AH0K4ItemV 10Foundation4UUIDV AH0kS0V
+- _symbolic _____y__________y_____y__________y__________y_____GG_____G_ADyAFyAL_____y_____SgGGACy_____y_____yACyAL______AFy_____ANy_____SgGGSgtGGG_ASyATyACy_____yACyAL_ALtGG_AUA_tGGGA8_tGALGADyAR_____ySay_____G__________GAEGSgtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA05EmptyF0V AA15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0c9RowInsetsR3KeyV AA4TextV AA012_EnvironmentwsT0V AV4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV AA7ForEachV AN0N4ItemV 10Foundation4UUIDV AN0nU0V
+- _symbolic _____y__________y_____y_____y_____y_____y_____y_____y_____AGG_____G_____y_____y__________y_____yAgEy__________y_____GG_____G_ANyAEyAT_____y_____SgGGAMy_____y_____yAMyAT______AEy_____AVy_____SgGGSgtGGG_A_yA0_yAMyACyAMyAT_ATtGG_A1_A7_tGGGA15_tGATGANyAZ_____ySay_____G__________GAGGSgtGG______Qo_GG_SSQo__Qo_______y_ADy_____y______yytA_yAEyA2_AVy_____SgGGGGQo______yA40__A40_tGGQo_Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE29navigationBarTitleDisplayModeyQrAA0cL4ItemV0mnO0OFQO AgAE0kM0yQrqd__SyRd__lFQO AA6VStackV AA012_ConditionalJ0V AA08ModifiedJ0V AA08ProgressF0V AA05EmptyF0V AA16_FlexFrameLayoutV AgAE9listStyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV s5NeverO AA05TupleF0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA21ListRowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A19_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A11_03AppP0V 10Foundation4UUIDV A11_6AppRowV AA016InsetGroupedListZ0V AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQO A46_A47_yQrxAaJRzlFZQO AA0iP0V AA4FontV AA05TupleiJ0V
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic _____y______y_____y______yyt_____y_____y__________y_____SgGGGGQo______yAL_ALtGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA012_ConditionalD0V AcDyQrxAaERzlFZQO AA0C4ItemV AA6ButtonV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TuplecD0V
+- _symbolic _____y______yyt_____y_____y__________y_____SgGGGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____yAAy______ACtGG___________y__________y_____SgGGSgtG 7SwiftUI9TupleViewV AA6VStackV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____yAByABy__________G_____G_____y_____GGAByAG_____y_____SgGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____yAByABy__________G_____G_____y_____GGAByAG_____y_____SgGGG________________y_____yARG_Qo_t 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4TextV AA6SpacerV AA4ViewPAAE12labelsHiddenQryFQO AA6ToggleV
+- _symbolic _____y_____yAByABy__________G_____G_____y_____GGAByAG_____y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____ySay_____G__________yAFy__________G_____y_____GGSgGG 7SwiftUI9LazyVGridV AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____ySay_____G__________yAFy__________G_____y_____GGSgGG______y_____Gt 7SwiftUI9LazyVGridV AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA4TextV
+- _symbolic _____y_____y_____ACG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____GG s11_SetStorageC 14ChronoServices15TypedIdentifierV AC0F4TypeO6BundleO9ContainerO
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 14ChronoServices15TypedIdentifierV AC0G4TypeO6BundleO9ContainerO
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE12labelsHiddenQryFQO AA6ToggleV AA4TextV
+- _symbolic _____y_____y______ACtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV
+- _symbolic _____y_____y________________y__________y_____SgGGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y__________y_____SgGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y__________y_____SgGG_____ySay_____G__________G_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AG4CaseO AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AN0Q3RowV AA9EmptyViewV
+- _symbolic _____y_____y__________y_____SgGG_____ySay_____G__________G_____GSg 7SwiftUI7SectionV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AG4CaseO AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AN0Q3RowV AA9EmptyViewV
+- _symbolic _____y_____y__________y_____SgGG_____y_____y_____yAIyAC______ABy_____ADy_____SgGGSgtGGG_AJyAKyAIy_____yAIyAC_ACtGG_AlRtGGGA_tGACG 7SwiftUI7SectionV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AG4CaseO AA9TupleViewV AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV
+- _symbolic _____y_____y__________y__________y_____GG_____G_AByADyAJ_____y_____SgGGAAy_____y_____yAAyAJ______ADy_____ALy_____SgGGSgtGGG_AQyARyAAy_____yAAyAJ_AJtGG_AsYtGGGA6_tGAJGAByAP_____ySay_____G__________GACGSgtG 7SwiftUI9TupleViewV AA7SectionV AA05EmptyD0V AA15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA013ListRowInsetsP3KeyV AA4TextV AA012_EnvironmentvqR0V AR4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV AA7ForEachV AJ0L4ItemV 10Foundation4UUIDV AJ0lT0V
+- _symbolic _____y_____y__________y_____y__________y__________y_____GG_____G_ADyAFyAL_____y_____SgGGACy_____y_____yACyAL______AFy_____ANy_____SgGGSgtGGG_ASyATyACy_____yACyAL_ALtGG_AUA_tGGGA8_tGALGADyAR_____ySay_____G__________GAEGSgtGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA15ModifiedContentV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0f9RowInsetsT3KeyV AA4TextV AA012_EnvironmentyuV0V AZ4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV AA7ForEachV AR0P4ItemV 10Foundation4UUIDV AR0pW0V AA012InsetGroupedfE0V
+- _symbolic _____y_____y__________y_____y_____y_____y_____yAAy_____y_____AGG_____G_____y_____y__________y_____yAgAy__________y_____GG_____G_ANyAAyAT_____y_____SgGGAMy_____y_____yAMyAT______AAy_____AVy_____SgGGSgtGGG_A_yA0_yAMyADyAMyAT_ATtGG_A1_A7_tGGGA15_tGATGANyAZ_____ySay_____G__________GAGGSgtGG______Qo_GG_SSQo__Qo_______y_AEy_____y______yytA_yAAyA2_AVy_____SgGGGGQo______yA40__A40_tGGQo_Qo_G_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQO AiAE0lN0yQrqd__SyRd__lFQO AA6VStackV AA012_ConditionalD0V AA08ProgressH0V AA05EmptyH0V AA16_FlexFrameLayoutV AiAE9listStyleyQrqd__AA04ListZ0Rd__lFQO AA4ListV s5NeverO AA05TupleH0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA21ListRowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A19_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A11_03AppQ0V 10Foundation4UUIDV A11_6AppRowV AA016InsetGroupedListZ0V AA0kD7BuilderV10buildBlockyQrxAaLRzlFZQO A46_A47_yQrxAaLRzlFZQO AA0kQ0V AA4FontV AA05TuplekD0V AA14_TaskModifier2V
+- _symbolic _____y_____y__________y_____y_____y_____y_____y_____y_____y_____AGG_____G_____y_____y__________y_____yAgEy__________y_____GG_____G_ANyAEyAT_____y_____SgGGAMy_____y_____yAMyAT______AEy_____AVy_____SgGGSgtGGG_A_yA0_yAMyACyAMyAT_ATtGG_A1_A7_tGGGA15_tGATGANyAZ_____ySay_____G__________GAGGSgtGG______Qo_GG_SSQo__Qo_______y_ADy_____y______yytA_yAEyA2_AVy_____SgGGGGQo______yA40__A40_tGGQo_Qo_G_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15NavigationStackV AA0I4PathV AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA0iQ4ItemV0rsT0OFQO AcAE0pR0yQrqd__SyRd__lFQO AA6VStackV AA012_ConditionalO0V AA08ModifiedO0V AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AcAE9listStyleyQrqd__AA9ListStyleRd__lFQO AA4ListV s5NeverO AA05TupleC0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA21ListRowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A25_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A17_03AppU0V 10Foundation4UUIDV A17_6AppRowV AA21InsetGroupedListStyleV AA0nO7BuilderV10buildBlockyQrxAaPRzlFZQO A52_A53_yQrxAaPRzlFZQO AA0nU0V AA4FontV AA05TuplenO0V
+- _symbolic _____y_____y______yyt_____y_____y__________y_____SgGGGGQo______yAL_ALtGG 7SwiftUI19_ConditionalContentV AA07ToolbarD7BuilderV10buildBlockyQrxAA0eD0RzlFZQO AA0E4ItemV AA6ButtonV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleeD0V
+- _symbolic _____y_____y_____yAAy________________y__________y_____SgGGSgtGGG_AByACyAAy_____yAAyAD_ADtGG_AeMtGGGAVtG 7SwiftUI9TupleViewV AA6ButtonV AA6HStackV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6VStackV
+- _symbolic _____y_____y_____yABy______ADtGG___________y__________y_____SgGGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA6VStackV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y_____y_____ADG_____G_____y_____y__________y_____yAdBy__________y_____GG_____G_AKyAByAQ_____y_____SgGGAJy_____y_____yAJyAQ______ABy_____ASy_____SgGGSgtGGG_AXyAYyAJy_____yAJyAQ_AQtGG_AZA4_tGGGA13_tGAQGAKyAW_____ySay_____G__________GADGSgtGG______Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA12ProgressViewV AA05EmptyH0V AA16_FlexFrameLayoutV AA0H0PAAE9listStyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleH0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0o9RowInsetsZ3KeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A6_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA6VStackV AA7ForEachV AZ0V4ItemV 10Foundation4UUIDV AZ0V3RowV AA012InsetGroupedoN0V
+- _symbolic _____y_____y_____y________________y__________y_____SgGGSgtGGG 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y_____y________________y__________y_____SgGGSgtGGG_AAyAByACy_____yACyAD_ADtGG_AeMtGGGAVt 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6VStackV
+- _symbolic _____y_____y_____y_____yACy______AEtGG___________y__________y_____SgGGSgtGGG 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA6VStackV AA4TextV AA6SpacerV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y_____y_____yADyADy__________G_____G_____y_____GGADyAI_____y_____SgGGG________________y_____yATG_Qo_tGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4TextV AA6SpacerV AA0E0PAAE12labelsHiddenQryFQO AA6ToggleV
+- _symbolic _____y_____y_____y_____ySay_____G__________yAHy__________G_____y_____GGSgGG_AAy_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA9LazyVGridV AA7ForEachV 023AccessoryLiveActivitiesB07AppItemV 10Foundation4UUIDV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA11_ClipEffectV AA16RoundedRectangleV AA4TextV
+- _symbolic _____y_____y_____y_____y_____AEG_____G_____y_____y__________y_____yAeCy__________y_____GG_____G_ALyACyAR_____y_____SgGGAKy_____y_____yAKyAR______ACy_____ATy_____SgGGSgtGGG_AYyAZyAKyAAyAKyAR_ARtGG_A_A5_tGGGA13_tGARGALyAX_____ySay_____G__________GAEGSgtGG______Qo_GG 7SwiftUI6VStackV AA19_ConditionalContentV AA08ModifiedE0V AA12ProgressViewV AA05EmptyH0V AA16_FlexFrameLayoutV AA0H0PAAE9listStyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleH0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0o9RowInsetsZ3KeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A6_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV AZ0V4ItemV 10Foundation4UUIDV AZ0V3RowV AA012InsetGroupedoN0V
+- _symbolic _____y_____y_____y_____y_____y_____AEG_____G_____y_____y__________y_____yAeCy__________y_____GG_____G_ALyACyAR_____y_____SgGGAKy_____y_____yAKyAR______ACy_____ATy_____SgGGSgtGGG_AYyAZyAKyAAyAKyAR_ARtGG_A_A5_tGGGA13_tGARGALyAX_____ySay_____G__________GAEGSgtGG______Qo_GG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedH0V AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AcAE9listStyleyQrqd__AA04ListP0Rd__lFQO AA0Q0V s5NeverO AA05TupleC0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0Q17RowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A7_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A_0X4ItemV 10Foundation4UUIDV A_0X3RowV AA012InsetGroupedqP0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____AEG_____G_____y_____y__________y_____yAeCy__________y_____GG_____G_ALyACyAR_____y_____SgGGAKy_____y_____yAKyAR______ACy_____ATy_____SgGGSgtGGG_AYyAZyAKyAAyAKyAR_ARtGG_A_A5_tGGGA13_tGARGALyAX_____ySay_____G__________GAEGSgtGG______Qo_GG_SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO AA6VStackV AA19_ConditionalContentV AA08ModifiedM0V AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AcAE9listStyleyQrqd__AA04ListU0Rd__lFQO AA0V0V s5NeverO AA05TupleC0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0V17RowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A12_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A4_03AppJ0V 10Foundation4UUIDV A4_6AppRowV AA012InsetGroupedvU0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____AEG_____G_____y_____y__________y_____yAeCy__________y_____GG_____G_ALyACyAR_____y_____SgGGAKy_____y_____yAKyAR______ACy_____ATy_____SgGGSgtGGG_AYyAZyAKyAAyAKyAR_ARtGG_A_A5_tGGGA13_tGARGALyAX_____ySay_____G__________GAEGSgtGG______Qo_GG_SSQo__Qo_______y_ABy_____y______yytAYyACyA0_ATy_____SgGGGGQo______yA38__A38_tGGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrqd__SyRd__lFQO AA6VStackV AA012_ConditionalG0V AA08ModifiedG0V AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AcAE9listStyleyQrqd__AA04ListX0Rd__lFQO AA0Y0V s5NeverO AA05TupleC0V AA7SectionV 023AccessoryLiveActivitiesB017AppIconGridHeaderV AA21_TraitWritingModifierV AA0Y17RowInsetsTraitKeyV AA4TextV AA30_EnvironmentKeyWritingModifierV A15_4CaseO AA6ButtonV AA6HStackV AA6SpacerV AA5ImageV AA5ColorV AA7ForEachV A7_03AppN0V 10Foundation4UUIDV A7_6AppRowV AA012InsetGroupedyX0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO A42_A43_yQrxAaFRzlFZQO AA0fN0V AA4FontV AA05TuplefG0V
+- _symbolic _____y_____yyt_____y_____y__________y_____SgGGGG_ALtG 7SwiftUI19TupleToolbarContentV AA0D4ItemV AA6ButtonV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____yyt_____y_____y__________y_____SgGGGG 7SwiftUI11ToolbarItemV AA6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____yyt_____y_____y__________y_____SgGGGG_AKt 7SwiftUI11ToolbarItemV AA6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic qd__
+- _symbolic x
+- _symbolic yyc
+- _type_layout_string 25AccessoryLiveActivitiesUI17AppIconGridHeaderV
+CStrings:
+- "#16@0:8"
+- "%d.%d.%d"
+- ".cxx_destruct"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "@\"AccessorySettingsDataProvider\""
+- "@\"NSArray\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@?"
+- "ALActivitySettingsDetailExtension"
+- "APP_SHEET_APP_COUNT_NONE"
+- "APP_SHEET_APP_COUNT_PLURAL"
+- "APP_SHEET_APP_COUNT_SINGULAR"
+- "APP_SHEET_FORWARDING_OPTION_FULL"
+- "APP_SHEET_FORWARDING_OPTION_LIMITED"
+- "APP_SHEET_FORWARDING_OPTION_NONE"
+- "APP_SHEET_FORWARDING_SECTION_FOOTER"
+- "APP_SHEET_FORWARDING_SECTION_HEADER"
+- "APP_SHEET_FORWARD_FROM_SECTION_HEADER"
+- "APP_SHEET_ICON_HEADER_PRIVACY_DESCRIPTION"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "AccessoryActivitiesSettingsDataProvider"
+- "AccessorySettingsDataProvider"
+- "AuthorizationAppSheet"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSString\"16@\"NSString\"24"
+- "B32@0:8@16@24"
+- "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "CGImage"
+- "Error loading current authorization state: %@"
+- "Error: %@"
+- "Failed to fetch available live activity apps: %@"
+- "NSObject"
+- "ProductVersion"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"AccessorySettingsDataProvider\",N,R"
+- "T@\"NSArray\",&,N,V_devices"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "View.task @ AccessoryLiveActivitiesUI/AuthorizationAppSheetView.swift:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC25AccessoryLiveActivitiesUIP33_75802C3FA24A7747660185C14494ECE721_AppSheetBundleAnchor"
+- "_bundleIdentifier"
+- "_dataProvider"
+- "_devices"
+- "_forwardingEnabled"
+- "_loadDevices"
+- "_reloadBlock"
+- "accessoryDevices"
+- "addObject:"
+- "array"
+- "autorelease"
+- "boolValue"
+- "bundleForClass:"
+- "bundleWithIdentifier:"
+- "class"
+- "com.apple.chrono"
+- "conformsToProtocol:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "devices"
+- "forwardingSpecifiers"
+- "groupSpecifierWithName:"
+- "hash"
+- "init"
+- "initWithBundleIdentifier:"
+- "initWithOptions:"
+- "initWithSize:scale:"
+- "isDeviceEnabled:"
+- "isEqual:"
+- "isForwardingEnabledForDeviceID:bundleID:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "kCFAllocatorNull"
+- "loadDevicesWithCompletion:"
+- "localizedContainerDisplayName"
+- "localizedStringForKey:value:table:"
+- "numberWithBool:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "prepareImageForDescriptor:"
+- "propertyForKey:"
+- "r"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "scale"
+- "self"
+- "setDeviceEnabled:forSpecifier:"
+- "setDevices:"
+- "setLiveActivityForwardingEnabled:forAccessoryID:bundleID:completion:"
+- "setProperty:forKey:"
+- "setReloadBlock:"
+- "setShouldApplyMask:"
+- "shared"
+- "superclass"
+- "updated authorization to %s"
+- "v16@0:8"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v32@0:8@16@24"
+- "v44@0:8B16@\"NSString\"20@\"NSString\"28@?<v@?@\"NSError\">36"
+- "v44@0:8B16@20@28@?36"
+- "valueForKey:"
+- "widgetExtensionContainerForContainerBundleIdentifier:"
+- "zone"
+
+```

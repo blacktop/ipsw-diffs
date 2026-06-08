@@ -1,0 +1,398 @@
+## AppDistributionUI
+
+> `/System/Library/PrivateFrameworks/AppDistributionUI.framework/AppDistributionUI`
+
+```diff
+
+-3.5.8.0.0
+-  __TEXT.__text: 0x12e0c
+-  __TEXT.__auth_stubs: 0xb90
+-  __TEXT.__objc_methlist: 0xa4
+-  __TEXT.__const: 0x1e04
+-  __TEXT.__constg_swiftt: 0x510
+-  __TEXT.__swift5_typeref: 0x8ad
+-  __TEXT.__swift5_fieldmd: 0x688
++4.0.30.0.0
++  __TEXT.__text: 0x15ef8
++  __TEXT.__objc_methlist: 0xac
++  __TEXT.__const: 0x2354
++  __TEXT.__swift5_typeref: 0x82f
+   __TEXT.__cstring: 0x681
+-  __TEXT.__swift5_proto: 0x194
+-  __TEXT.__swift5_types: 0x7c
+-  __TEXT.__swift5_capture: 0x10c
++  __TEXT.__constg_swiftt: 0x6a8
++  __TEXT.__swift5_fieldmd: 0x778
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__swift5_proto: 0x1f8
++  __TEXT.__swift5_types: 0x94
++  __TEXT.__swift5_capture: 0x12c
+   __TEXT.__oslogstring: 0x15a
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x10
++  __TEXT.__swift_as_cont: 0x24
+   __TEXT.__swift5_reflstr: 0xe
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x650
+-  __TEXT.__eh_frame: 0x970
+-  __TEXT.__objc_classname: 0x79
+-  __TEXT.__objc_methname: 0x6a3
+-  __TEXT.__objc_methtype: 0x4b
+-  __TEXT.__objc_stubs: 0x820
+-  __DATA_CONST.__got: 0x190
++  __TEXT.__unwind_info: 0x730
++  __TEXT.__eh_frame: 0x978
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xb0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x250
+-  __AUTH_CONST.__auth_got: 0x5d0
+-  __AUTH_CONST.__const: 0x1180
+-  __AUTH_CONST.__objc_const: 0x1e0
+-  __AUTH.__objc_data: 0x280
+-  __AUTH.__data: 0x50
+-  __DATA.__data: 0x550
+-  __DATA.__bss: 0x3290
+-  __DATA.__common: 0x30
++  __DATA_CONST.__objc_selrefs: 0x2f0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x14a8
++  __AUTH_CONST.__objc_const: 0x280
++  __AUTH_CONST.__auth_got: 0x6a8
++  __AUTH.__objc_data: 0x360
++  __AUTH.__data: 0xf8
++  __DATA.__data: 0x6b0
++  __DATA.__bss: 0x3f00
++  __DATA.__common: 0x38
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C46C0105-9875-3FD7-A9C8-138889DCB2FB
+-  Functions: 560
+-  Symbols:   458
+-  CStrings:  133
++  UUID: EA9652BA-43E6-334B-8878-543B7CC7AEA1
++  Functions: 649
++  Symbols:   572
++  CStrings:  42
+ 
+Symbols:
++ _CGRectGetHeight
++ _CGRectGetWidth
++ _OBJC_CLASS_$_UILayoutGuide
++ _OBJC_CLASS_$_UIStackView
++ __Block_copy
++ __Block_release
++ __NSConcreteStackBlock
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.9
++ ___swift_memcpy33_8
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_AppDistributionUI
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs0G17StringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs0G22DebugStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15BlackCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15BlackCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17AppDistributionUI32ConfirmationSheetButtonTextStyleOSHAASQ
++ _associated conformance 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
++ _associated conformance 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs0F17StringConvertible
++ _associated conformance 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs0F22DebugStringConvertible
++ _block_copy_helper
++ _block_copy_helper.47
++ _block_descriptor
++ _block_descriptor.49
++ _block_destroy_helper
++ _block_destroy_helper.48
++ _get_enum_tag_for_layout_string 17AppDistributionUI24ConfirmationSheetSectionO
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyACyAA4TextVAA16_FlexFrameLayoutVG_AlCyAA6SpacerVAA01_iJ0VGAA6ButtonVyAIGSgQPGGAKGAA4ViewHPAwaYHPyHC_AkA0M8ModifierHPyHCHC.2
++ _objc_msgSend$_systemImageNamed:
++ _objc_msgSend$addArrangedSubview:
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$arrangedSubviews
++ _objc_msgSend$bounds
++ _objc_msgSend$constraints
++ _objc_msgSend$deactivateConstraints:
++ _objc_msgSend$firstAttribute
++ _objc_msgSend$firstItem
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$removeArrangedSubview:
++ _objc_msgSend$secondItem
++ _objc_msgSend$setAxis:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setDistribution:
++ _objc_msgSend$setLineBreakStrategy:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$valueForKey:
++ _objc_release_x9
++ _objc_retain_x2
++ _objc_retain_x22
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_dynamicCastObjCClass
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getSingletonMetadata
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_release_x1
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_updateClassMetadata2
++ _symbolic SaySo18NSLayoutConstraintCG
++ _symbolic Say_____G 17AppDistributionUI24ConfirmationSheetSectionO
++ _symbolic So18NSLayoutConstraintCSg
++ _symbolic _____ 17AppDistributionUI24ConfirmationSheetSectionO
++ _symbolic _____ 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI32ConfirmationSheetButtonTextStyleO
++ _symbolic _____ 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI32ConfirmationSheetButtonTextStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15BlackCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____ 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV
++ _symbolic _____ 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15BlackCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO20CustomViewCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO22BulletPointsCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI24ConfirmationSheetSectionO29MoreInformationLinkCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15BlackCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI32ConfirmationSheetButtonTextStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
++ _symbolic _____y_____GSg 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y__________G_AdAy__________G_____yABGSgt 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA6SpacerV AA01_gH0V AA6ButtonV
++ _symbolic _____y___________y_____y__________G_AgDy__________G_____yAEGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA4TextV AA010_FlexFrameG0V AA6SpacerV AA01_mG0V AA6ButtonV
++ _symbolic _____y_____y_____yAAy__________G_AfAy__________G_____yADGSgQPGGAEG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA16_FlexFrameLayoutV AA6SpacerV AA01_iJ0V AA6ButtonV
++ _symbolic _____y_____y_____y__________G_AfCy__________G_____yADGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4TextV AA16_FlexFrameLayoutV AA6SpacerV AA01_iJ0V AA6ButtonV
++ _type_layout_string 17AppDistributionUI24ConfirmationSheetSectionO
++ _type_layout_string 17AppDistributionUI40ConfirmationSheetCustomViewConfigurationV
+- ___swift_memcpy232_8
+- ___swift_memcpy48_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AppDistributionUI
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 17AppDistributionUI28ConfirmationSheetButtonStyleOSHAASQ
+- _associated conformance 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOSHAASQ
+- _associated conformance 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _get_enum_tag_for_layout_string 17AppDistributionUI36ConfirmationSheetMoreInformationLinkVSg
+- _get_enum_tag_for_layout_string 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationVSg
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyACyAA4TextVAA16_FlexFrameLayoutVGG_AoCyAIyAA05EmptyG0VGAA01_kL0VGAIyAA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQOyACyACyAA0Q0VyAKGAMGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA010BorderlessqO0VQo_GtGGAMGAaVHPA14_AaVHPyHC_AmA0gU0HPyHCHC.1
+- _objc_msgSend$constraintLessThanOrEqualToAnchor:constant:
+- _objc_release_x1
+- _objc_retain_x19
+- _objc_retain_x26
+- _swift_getKeyPath
+- _symbolic SS_ypt
+- _symbolic Say_____GSg 17AppDistributionUI28ConfirmationSheetBulletPointV
+- _symbolic _____ 17AppDistributionUI28ConfirmationSheetButtonStyleO
+- _symbolic _____ 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____ 17AppDistributionUI28ConfirmationSheetButtonStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____ 17AppDistributionUI28ConfirmationSheetButtonStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____ 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV
+- _symbolic _____ 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____ 7SwiftUI17EnvironmentValuesV
+- _symbolic _____Sg 17AppDistributionUI36ConfirmationSheetMoreInformationLinkV
+- _symbolic _____Sg 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV
+- _symbolic _____Sg 7SwiftUI5ColorV
+- _symbolic _____yAAy_____y_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO14BlueCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI28ConfirmationSheetButtonStyleO15WhiteCodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV10CodingKeys33_03307EB74A06E6D818DB1C9303CD4077LLO
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y___________y_____yACy_____y_____G_____G_____y_____SgGG______Qo_G 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA15ModifiedContentV AA0K0V AA4TextV AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlesskI0V
+- _symbolic _____y___________y_____y_____y__________GG_AiEyADy_____G_____GADy_____yAEyAEy_____yAFGAGG_____y_____SgGG______Qo_GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6HStackV AA15ModifiedContentV AA4TextV AA010_FlexFrameG0V AA05EmptyD0V AA01_nG0V AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonQ0Rd__lFQO AA0S0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlesssQ0V
+- _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y__________GG 7SwiftUI6HStackV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y__________GG_AfByAAy_____G_____GAAy_____yAByABy_____yACGADG_____y_____SgGG______Qo_Gt 7SwiftUI6HStackV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA9EmptyViewV AA01_hI0V AA0K0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlessoM0V
+- _symbolic _____y_____y_____yABy_____y_____G_____G_____y_____SgGG______Qo_G 7SwiftUI6HStackV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonF0Rd__lFQO AA15ModifiedContentV AA0H0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlesshF0V
+- _symbolic _____y_____y_____y_____yAAy__________GG_AhAyADy_____G_____GADy_____yAAyAAy_____yAEGAFG_____y_____SgGG______Qo_GtGGAFG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA16_FlexFrameLayoutV AA05EmptyG0V AA01_kL0V AA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlessqO0V
+- _symbolic _____y_____y_____y_____y__________GG_AhDyACy_____G_____GACy_____yADyADy_____yAEGAFG_____y_____SgGG______Qo_GtGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA05EmptyE0V AA01_kL0V AA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010BorderlessqO0V
+- _type_layout_string 17AppDistributionUI24ConfirmationSheetContextV
+- _type_layout_string 17AppDistributionUI45ConfirmationSheetMiniProductPageConfigurationV
+CStrings:
++ "buttonLayoutGuide"
+- ".cxx_destruct"
+- "@24@0:8@16"
+- "@32@0:8#16#24"
+- "@32@0:8@16@24"
+- "@48@0:8@16@24@32q40"
+- "_TtC17AppDistributionUI31ConfirmationSheetViewController"
+- "_TtC17AppDistributionUI31SignificantChangeViewController"
+- "_detailedResponseHandler"
+- "_systemImageNamed:withConfiguration:"
+- "activateConstraints:"
+- "addButton:"
+- "addGestureRecognizer:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "boldButton"
+- "bottomAnchor"
+- "buttonTray"
+- "centerYAnchor"
+- "clearColor"
+- "configurationWithHierarchicalColor:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "constraintLessThanOrEqualToAnchor:constant:"
+- "constraintLessThanOrEqualToConstant:"
+- "contentView"
+- "context"
+- "currentDevice"
+- "customBodyView"
+- "dealloc"
+- "decompressedDataUsingAlgorithm:error:"
+- "defaultWorkspace"
+- "dismissAction"
+- "headerView"
+- "heightAnchor"
+- "init"
+- "initWithCGImage:"
+- "initWithCoder:"
+- "initWithImage:"
+- "initWithNavigationBarClass:toolbarClass:"
+- "initWithNibName:bundle:"
+- "initWithRootViewController:"
+- "initWithTarget:action:"
+- "initWithTitle:detailText:icon:contentLayout:"
+- "initWithTitle:detailText:symbolName:contentLayout:"
+- "isIPad"
+- "labelColor"
+- "leadingAnchor"
+- "linkButton"
+- "localizedContent"
+- "metadata"
+- "miniProductPageConfiguration"
+- "moreInformationPressed"
+- "navigationItem"
+- "openSensitiveURL:withOptions:"
+- "preferredFontForTextStyle:"
+- "primaryButton"
+- "primaryButtonPressed"
+- "responseHandler"
+- "secondaryButton"
+- "secondaryButtonPressed"
+- "secondaryLabelColor"
+- "setActive:"
+- "setBackgroundColor:"
+- "setContentMode:"
+- "setDefinesPresentationContext:"
+- "setDirectionalLayoutMargins:"
+- "setFont:"
+- "setImage:"
+- "setModalInPresentation:"
+- "setNumberOfLines:"
+- "setRightBarButtonItem:"
+- "setText:"
+- "setTextColor:"
+- "setTintColor:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTitleView:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInteractionEnabled:"
+- "superview"
+- "systemBlueColor"
+- "systemImageNamed:"
+- "systemImageNamed:withConfiguration:"
+- "tintColor"
+- "topAnchor"
+- "trailingAnchor"
+- "userInterfaceIdiom"
+- "v16@0:8"
+- "view"
+- "viewDidLoad"
+- "widthAnchor"
+
+```

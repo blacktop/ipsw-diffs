@@ -1,0 +1,1394 @@
+## AppProtection
+
+> `/System/Library/PrivateFrameworks/AppProtection.framework/AppProtection`
+
+```diff
+
+-46.4.3.0.0
+-  __TEXT.__text: 0xaf988
+-  __TEXT.__auth_stubs: 0x1f40
++54.0.0.0.0
++  __TEXT.__text: 0xb16c8
+   __TEXT.__delay_helper: 0xdc
+-  __TEXT.__objc_methlist: 0x170c
+-  __TEXT.__const: 0x4fd0
+-  __TEXT.__oslogstring: 0x3e48
+-  __TEXT.__cstring: 0x3172
++  __TEXT.__objc_methlist: 0x16ec
++  __TEXT.__const: 0x5180
++  __TEXT.__oslogstring: 0x3e98
++  __TEXT.__cstring: 0x3212
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0x2d4a
+-  __TEXT.__swift5_fieldmd: 0x1e5c
+-  __TEXT.__constg_swiftt: 0x3678
+-  __TEXT.__swift5_reflstr: 0x1a81
++  __TEXT.__swift5_typeref: 0x2dca
++  __TEXT.__swift5_fieldmd: 0x1ecc
++  __TEXT.__constg_swiftt: 0x36ac
++  __TEXT.__swift5_reflstr: 0x1ad1
+   __TEXT.__swift5_builtin: 0x140
+   __TEXT.__swift5_assocty: 0x468
+-  __TEXT.__swift5_capture: 0x1844
++  __TEXT.__swift5_capture: 0x17d8
+   __TEXT.__swift5_protos: 0xc4
+-  __TEXT.__swift5_proto: 0x314
+-  __TEXT.__swift5_types: 0x274
++  __TEXT.__swift5_proto: 0x330
++  __TEXT.__swift5_types: 0x278
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__unwind_info: 0x2280
+-  __TEXT.__eh_frame: 0x2ac0
+-  __TEXT.__objc_classname: 0x14a7
+-  __TEXT.__objc_methname: 0x3599
+-  __TEXT.__objc_methtype: 0xd3b
+-  __TEXT.__objc_stubs: 0x2100
+-  __DATA_CONST.__got: 0x5c0
+-  __DATA_CONST.__const: 0x368
+-  __DATA_CONST.__objc_classlist: 0x2a0
++  __TEXT.__unwind_info: 0x22b8
++  __TEXT.__eh_frame: 0x2758
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x380
++  __DATA_CONST.__objc_classlist: 0x298
+   __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xad0
++  __DATA_CONST.__objc_selrefs: 0xaf0
+   __DATA_CONST.__objc_protorefs: 0x130
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xfb0
+-  __AUTH_CONST.__const: 0x7268
++  __DATA_CONST.__got: 0x5b8
++  __AUTH_CONST.__const: 0x72f8
+   __AUTH_CONST.__cfstring: 0x6a0
+-  __AUTH_CONST.__objc_const: 0x48c8
+-  __AUTH.__objc_data: 0x2248
++  __AUTH_CONST.__objc_const: 0x4828
++  __AUTH_CONST.__auth_got: 0x1100
++  __AUTH.__objc_data: 0x2188
+   __AUTH.__data: 0x22f8
+   __DATA.__objc_ivar: 0x1c
+-  __DATA.__data: 0x2480
+-  __DATA.__bss: 0x4790
++  __DATA.__data: 0x2468
++  __DATA.__bss: 0x4b00
+   __DATA.__common: 0x110
+   __DATA_DIRTY.__objc_data: 0x4f0
+-  __DATA_DIRTY.__data: 0x8b0
++  __DATA_DIRTY.__data: 0x8f0
+   __DATA_DIRTY.__bss: 0x370
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 12461849-1EBA-3494-9863-C0B6ABA65646
+-  Functions: 3507
+-  Symbols:   3390
+-  CStrings:  1412
++  UUID: 6C8B4410-6D74-3CD8-A6F8-CBFF37A10F42
++  Functions: 3509
++  Symbols:   3968
++  CStrings:  677
+ 
+Symbols:
++ _OBJC_CLASS_$_NSManagedObjectID
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_PDCPreflightManager$loadHelper_x21
++ _OBJC_METACLASS_$__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357021PolicySnapshotWrapper
++ __DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357021PolicySnapshotWrapper
++ __INSTANCE_METHODS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357021PolicySnapshotWrapper
++ __IVARS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357021PolicySnapshotWrapper
++ __METACLASS_DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357021PolicySnapshotWrapper
++ __PROTOCOLS_APStateDump.5
++ __PROTOCOLS__TtC13AppProtection13APServiceImpl.5
++ ___swift__destructor
++ ___swift__destructor.10
++ ___swift__destructor.104
++ ___swift__destructor.116
++ ___swift__destructor.119
++ ___swift__destructor.14
++ ___swift__destructor.16
++ ___swift__destructor.17
++ ___swift__destructor.31
++ ___swift__destructor.32
++ ___swift__destructor.33
++ ___swift__destructor.36
++ ___swift__destructor.38
++ ___swift__destructor.41
++ ___swift__destructor.43
++ ___swift__destructor.52
++ ___swift__destructor.55
++ ___swift__destructor.72
++ ___swift__destructor.74
++ ___swift__destructor.78
++ ___swift__destructor.89
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.109Tm
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.112Tm
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.115Tm
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.247
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.39Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.44Tm
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.62Tm
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.85Tm
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.99
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_AppProtection
++ _associated conformance 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLOSHAASQ
++ _associated conformance 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.10
++ _block_copy_helper.100
++ _block_copy_helper.109
++ _block_copy_helper.112
++ _block_copy_helper.116
++ _block_copy_helper.120
++ _block_copy_helper.124
++ _block_copy_helper.126
++ _block_copy_helper.130
++ _block_copy_helper.133
++ _block_copy_helper.137
++ _block_copy_helper.140
++ _block_copy_helper.15
++ _block_copy_helper.150
++ _block_copy_helper.156
++ _block_copy_helper.166
++ _block_copy_helper.169
++ _block_copy_helper.179
++ _block_copy_helper.182
++ _block_copy_helper.191
++ _block_copy_helper.197
++ _block_copy_helper.200
++ _block_copy_helper.210
++ _block_copy_helper.216
++ _block_copy_helper.22
++ _block_copy_helper.222
++ _block_copy_helper.236
++ _block_copy_helper.239
++ _block_copy_helper.249
++ _block_copy_helper.255
++ _block_copy_helper.261
++ _block_copy_helper.28
++ _block_copy_helper.30
++ _block_copy_helper.33
++ _block_copy_helper.44
++ _block_copy_helper.45
++ _block_copy_helper.60
++ _block_copy_helper.61
++ _block_copy_helper.64
++ _block_copy_helper.70
++ _block_copy_helper.76
++ _block_copy_helper.81
++ _block_copy_helper.85
++ _block_copy_helper.87
++ _block_descriptor.102
++ _block_descriptor.111
++ _block_descriptor.114
++ _block_descriptor.118
++ _block_descriptor.12
++ _block_descriptor.122
++ _block_descriptor.126
++ _block_descriptor.128
++ _block_descriptor.132
++ _block_descriptor.135
++ _block_descriptor.139
++ _block_descriptor.142
++ _block_descriptor.152
++ _block_descriptor.158
++ _block_descriptor.168
++ _block_descriptor.17
++ _block_descriptor.171
++ _block_descriptor.181
++ _block_descriptor.184
++ _block_descriptor.193
++ _block_descriptor.199
++ _block_descriptor.202
++ _block_descriptor.212
++ _block_descriptor.218
++ _block_descriptor.224
++ _block_descriptor.238
++ _block_descriptor.24
++ _block_descriptor.241
++ _block_descriptor.251
++ _block_descriptor.257
++ _block_descriptor.263
++ _block_descriptor.30
++ _block_descriptor.32
++ _block_descriptor.35
++ _block_descriptor.46
++ _block_descriptor.47
++ _block_descriptor.62
++ _block_descriptor.63
++ _block_descriptor.66
++ _block_descriptor.72
++ _block_descriptor.78
++ _block_descriptor.83
++ _block_descriptor.87
++ _block_descriptor.89
++ _block_destroy_helper.101
++ _block_destroy_helper.11
++ _block_destroy_helper.110
++ _block_destroy_helper.113
++ _block_destroy_helper.117
++ _block_destroy_helper.121
++ _block_destroy_helper.125
++ _block_destroy_helper.127
++ _block_destroy_helper.131
++ _block_destroy_helper.134
++ _block_destroy_helper.138
++ _block_destroy_helper.141
++ _block_destroy_helper.151
++ _block_destroy_helper.157
++ _block_destroy_helper.16
++ _block_destroy_helper.167
++ _block_destroy_helper.170
++ _block_destroy_helper.180
++ _block_destroy_helper.183
++ _block_destroy_helper.192
++ _block_destroy_helper.198
++ _block_destroy_helper.201
++ _block_destroy_helper.211
++ _block_destroy_helper.217
++ _block_destroy_helper.223
++ _block_destroy_helper.23
++ _block_destroy_helper.237
++ _block_destroy_helper.240
++ _block_destroy_helper.250
++ _block_destroy_helper.256
++ _block_destroy_helper.262
++ _block_destroy_helper.29
++ _block_destroy_helper.31
++ _block_destroy_helper.34
++ _block_destroy_helper.45
++ _block_destroy_helper.46
++ _block_destroy_helper.61
++ _block_destroy_helper.62
++ _block_destroy_helper.65
++ _block_destroy_helper.71
++ _block_destroy_helper.77
++ _block_destroy_helper.82
++ _block_destroy_helper.86
++ _block_destroy_helper.88
++ _keypath_get_selector_representingBundleID
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$initWithPolicySnapshot:dtoEnabled:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$representedBundleIdentifier
++ _objc_msgSend$representingBundleID
++ _objc_msgSend$setRepresentingBundleID:
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x9
++ _swift_deallocUninitializedObject
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic SDyS2SG
++ _symbolic SbSg______pSgIegyg_ s5ErrorP
++ _symbolic _____ 13AppProtection14PolicySnapshotV
++ _symbolic _____ 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLO
++ _symbolic _____ So11APStateDumpC13AppProtectionE21PolicySnapshotWrapper33_08AD371E34EDC7245D13D99B42283570LLC
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySo17NSManagedObjectIDCG s11_SetStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13AppProtection14PolicySnapshotV10CodingKeys33_08AD371E34EDC7245D13D99B42283570LLO
++ _type_layout_string 13AppProtection14PolicySnapshotV
++ _xpc_data_get_bytes_ptr
++ _xpc_data_get_length
++ _xpc_dictionary_get_value
+- _OBJC_METACLASS_$__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper
+- _OBJC_METACLASS_$__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- __CFXPCCreateCFObjectFromXPCObject
+- __DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper
+- __DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper
+- __INSTANCE_METHODS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper
+- __INSTANCE_METHODS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper
+- __IVARS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper
+- __IVARS__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper
+- __METACLASS_DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper
+- __METACLASS_DATA__TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper
+- __PROTOCOLS_APStateDump.10
+- __PROTOCOLS__TtC13AppProtection13APServiceImpl.2
+- ___unnamed_2
+- _block_copy_helper.107
+- _block_copy_helper.110
+- _block_copy_helper.114
+- _block_copy_helper.117
+- _block_copy_helper.119
+- _block_copy_helper.125
+- _block_copy_helper.127
+- _block_copy_helper.128
+- _block_copy_helper.131
+- _block_copy_helper.134
+- _block_copy_helper.138
+- _block_copy_helper.141
+- _block_copy_helper.151
+- _block_copy_helper.157
+- _block_copy_helper.167
+- _block_copy_helper.170
+- _block_copy_helper.180
+- _block_copy_helper.183
+- _block_copy_helper.192
+- _block_copy_helper.198
+- _block_copy_helper.201
+- _block_copy_helper.211
+- _block_copy_helper.217
+- _block_copy_helper.223
+- _block_copy_helper.237
+- _block_copy_helper.240
+- _block_copy_helper.250
+- _block_copy_helper.256
+- _block_copy_helper.262
+- _block_copy_helper.31
+- _block_copy_helper.37
+- _block_copy_helper.39
+- _block_copy_helper.50
+- _block_copy_helper.51
+- _block_copy_helper.58
+- _block_copy_helper.62
+- _block_copy_helper.66
+- _block_copy_helper.67
+- _block_copy_helper.68
+- _block_copy_helper.72
+- _block_copy_helper.78
+- _block_copy_helper.82
+- _block_copy_helper.86
+- _block_copy_helper.88
+- _block_copy_helper.92
+- _block_descriptor.109
+- _block_descriptor.112
+- _block_descriptor.116
+- _block_descriptor.119
+- _block_descriptor.121
+- _block_descriptor.127
+- _block_descriptor.129
+- _block_descriptor.130
+- _block_descriptor.133
+- _block_descriptor.136
+- _block_descriptor.140
+- _block_descriptor.143
+- _block_descriptor.153
+- _block_descriptor.159
+- _block_descriptor.169
+- _block_descriptor.172
+- _block_descriptor.182
+- _block_descriptor.185
+- _block_descriptor.194
+- _block_descriptor.200
+- _block_descriptor.203
+- _block_descriptor.213
+- _block_descriptor.219
+- _block_descriptor.225
+- _block_descriptor.239
+- _block_descriptor.242
+- _block_descriptor.252
+- _block_descriptor.258
+- _block_descriptor.264
+- _block_descriptor.33
+- _block_descriptor.39
+- _block_descriptor.41
+- _block_descriptor.52
+- _block_descriptor.53
+- _block_descriptor.60
+- _block_descriptor.64
+- _block_descriptor.68
+- _block_descriptor.69
+- _block_descriptor.70
+- _block_descriptor.74
+- _block_descriptor.80
+- _block_descriptor.84
+- _block_descriptor.88
+- _block_descriptor.90
+- _block_descriptor.94
+- _block_destroy_helper.108
+- _block_destroy_helper.111
+- _block_destroy_helper.115
+- _block_destroy_helper.118
+- _block_destroy_helper.120
+- _block_destroy_helper.126
+- _block_destroy_helper.128
+- _block_destroy_helper.129
+- _block_destroy_helper.132
+- _block_destroy_helper.135
+- _block_destroy_helper.139
+- _block_destroy_helper.142
+- _block_destroy_helper.152
+- _block_destroy_helper.158
+- _block_destroy_helper.168
+- _block_destroy_helper.171
+- _block_destroy_helper.181
+- _block_destroy_helper.184
+- _block_destroy_helper.193
+- _block_destroy_helper.199
+- _block_destroy_helper.202
+- _block_destroy_helper.212
+- _block_destroy_helper.218
+- _block_destroy_helper.224
+- _block_destroy_helper.238
+- _block_destroy_helper.241
+- _block_destroy_helper.251
+- _block_destroy_helper.257
+- _block_destroy_helper.263
+- _block_destroy_helper.32
+- _block_destroy_helper.38
+- _block_destroy_helper.40
+- _block_destroy_helper.51
+- _block_destroy_helper.52
+- _block_destroy_helper.59
+- _block_destroy_helper.63
+- _block_destroy_helper.67
+- _block_destroy_helper.68
+- _block_destroy_helper.69
+- _block_destroy_helper.73
+- _block_destroy_helper.79
+- _block_destroy_helper.83
+- _block_destroy_helper.87
+- _block_destroy_helper.89
+- _block_destroy_helper.93
+- _gotLoadHelper_x21$_OBJC_CLASS_$_PDCPreflightManager
+- _objc_msgSend$initWithState:accesses:authAssertions:dtoEnabled:
+- _objectdestroy.121Tm
+- _objectdestroy.124Tm
+- _objectdestroy.127Tm
+- _objectdestroy.12Tm
+- _objectdestroy.29Tm
+- _objectdestroy.43Tm
+- _objectdestroy.46Tm
+- _objectdestroy.52Tm
+- _objectdestroy.53Tm
+- _objectdestroy.54Tm
+- _objectdestroy.63Tm
+- _objectdestroy.73Tm
+- _objectdestroy.95Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic _____ So11APStateDumpC13AppProtectionE17AccessListWrapper33_08AD371E34EDC7245D13D99B42283570LLC
+- _symbolic _____ So11APStateDumpC13AppProtectionE19AssertionMapWrapper33_08AD371E34EDC7245D13D99B42283570LLC
+- _xpc_dictionary_get_dictionary
+CStrings:
++ "AppProtection.PolicySnapshotWrapper"
++ "Received (secure) distnoted event %s"
++ "changed app preferences for %s to locked: %{bool}d, hidden: %{bool}d"
++ "com.apple.distnoted.matching.trusted"
++ "command"
++ "could not create plist from data: %@"
++ "could not set %s as being represented by %s: %@"
++ "couldn't search for settings represented by %s: %@"
++ "policySnapshotData"
++ "representedAppsWithPreferences"
++ "representingBundleID != nil"
++ "representingBundleID = %@"
++ "representingBundleID == %@"
++ "resuming distnoted translator(s)"
++ "shield"
++ "shieldStyle"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<APSubjectMonitorSubscription>\"24@0:8@\"<APSubjectMonitor>\"16"
+- "@\"<APSubjectMonitorSubscription>\"32@0:8@\"<APSubjectMonitor>\"16Q24"
+- "@\"<APSubjectMonitorSubscription>\"40@0:8@\"<APSubjectMonitor>\"16Q24Q32"
+- "@\"APApplication\""
+- "@\"APApplication\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSSet\""
+- "@\"NSString\"16@0:8"
+- "@\"PDCPreflightManager\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8B16B20"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16Q24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16Q24Q32"
+- "@44@0:8@16@24@32B40"
+- "@56@0:8@16{?=[8I]}24"
+- "APApplication"
+- "APAuthAssertion"
+- "APClientState"
+- "APExtension"
+- "APExtensionSubjectMonitorRegistry"
+- "APGuard"
+- "APLazyRecordApplication"
+- "APMaintenanceHandle"
+- "APManagedAppProtectability"
+- "APPerAppManagedProtectability"
+- "APPrivacyDisclosureAdapter"
+- "APPrivacyDisclosureInterface"
+- "APServerActivityScheduler"
+- "APSettingsManager"
+- "APShield"
+- "APStateDump"
+- "APSubject"
+- "APSubjectAccessAssertion"
+- "APSubjectMonitor"
+- "APSubjectMonitorRegistry"
+- "APSubjectMonitorSubscription"
+- "APSystemAppOutlet"
+- "APSystemAppOutletShield"
+- "APTCCManager"
+- "APViewSubject"
+- "APViewSubjectMonitorRegistry"
+- "APVisionOSDummyServer"
+- "APXPCClientExtensionMonitor"
+- "APXPCClientViewSubjectMonitor"
+- "APXPCExtensionInfoService"
+- "APXPCExtensionMonitorService"
+- "APXPCGuardService"
+- "APXPCMaintenanceService"
+- "APXPCReadService"
+- "APXPCViewSubjectInfoService"
+- "APXPCViewSubjectMonitorService"
+- "APXPCWriteService"
+- "AppProtection.AccessListWrapper"
+- "AppProtection.AssertionMapWrapper"
+- "AppProtection1"
+- "AppProtection2"
+- "AppProtection3"
+- "AppProtection4"
+- "AppProtection5"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<APSystemAppOutletShield>\"16"
+- "B24@0:8@\"LSApplicationRecord\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B24@?0q8@\"<OS_xpc_object>\"16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B36@0:8@16B24^@28"
+- "B72@0:8@16{?=[8I]}24q56^@64"
+- "Could not set clarity version of %s error: %@"
+- "Extensions"
+- "ForAppProtectionUI"
+- "ForAppProtectionUIOnly"
+- "Internal"
+- "LSDetachable"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "OS_dispatch_source"
+- "OS_dispatch_source_proc"
+- "OS_dispatch_source_timer"
+- "OS_os_transaction"
+- "OS_tcc_object"
+- "OS_tcc_server"
+- "OS_xpc_object"
+- "PrivateDecls"
+- "Q16@0:8"
+- "Received distnoted event %s"
+- "SearchAndSiriPrivate"
+- "SyncInterfaces"
+- "T#,R"
+- "T@\"APApplication\",N,R,Vapplication"
+- "T@\"APApplication\",R,N"
+- "T@\"APSubject\",N,R"
+- "T@\"NSData\",N,D,C"
+- "T@\"NSSet\",R,V_effectivelyLockedAppBundleIdentifiers"
+- "T@\"NSSet\",R,V_hiddenAppBundleIdentifiers"
+- "T@\"NSSet\",R,V_lockedAppBundleIdentifiers"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSUUID\",N,D,C"
+- "TB,N,D"
+- "TB,N,R"
+- "TB,R"
+- "TB,R,GisHideable,V_hideable"
+- "TB,R,GisLockable,V_lockable"
+- "TCCServicesForBundleIdentifier:"
+- "TQ,R"
+- "Targeting"
+- "Tq,N,R"
+- "Ts,N,D"
+- "URLForResource:withExtension:"
+- "UTF8String"
+- "ViewSubjects"
+- "Vv16@0:8"
+- "Vv28@0:8@\"NSUUID\"16B24"
+- "Vv28@0:8@16B24"
+- "^{_NSZone=}16@0:8"
+- "_TtC13AppProtection10DataAccess"
+- "_TtC13AppProtection10WeakShield"
+- "_TtC13AppProtection11Preferences"
+- "_TtC13AppProtection12APReadClient"
+- "_TtC13AppProtection13APGuardClient"
+- "_TtC13AppProtection13APReadService"
+- "_TtC13AppProtection13APWriteClient"
+- "_TtC13AppProtection14APGuardService"
+- "_TtC13AppProtection14APWriteService"
+- "_TtC13AppProtection15SaturatingTimer"
+- "_TtC13AppProtection17APPersistentStore"
+- "_TtC13AppProtection17PreferenceSetting"
+- "_TtC13AppProtection19APMaintenanceClient"
+- "_TtC13AppProtection20APChangeEventManager"
+- "_TtC13AppProtection20APMaintenanceService"
+- "_TtC13AppProtection20DispatchDeathMonitor"
+- "_TtC13AppProtection21APDeviceKeyBagManager"
+- "_TtC13AppProtection21APExtensionInfoClient"
+- "_TtC13AppProtection21LanguageChangeManager"
+- "_TtC13AppProtection21ServerAccountsManager"
+- "_TtC13AppProtection22APExtensionInfoService"
+- "_TtC13AppProtection23APHiddenAppsMetaSubject"
+- "_TtC13AppProtection23APLockedAppsMetaSubject"
+- "_TtC13AppProtection23APViewSubjectInfoClient"
+- "_TtC13AppProtection23ServerActivityScheduler"
+- "_TtC13AppProtection24APAppInstallationManager"
+- "_TtC13AppProtection24APExtensionMonitorClient"
+- "_TtC13AppProtection24APViewSubjectInfoService"
+- "_TtC13AppProtection24ServerNotificationHandle"
+- "_TtC13AppProtection25APExtensionMonitorService"
+- "_TtC13AppProtection26APViewSubjectMonitorClient"
+- "_TtC13AppProtection26DefaultSubjectMonitorToken"
+- "_TtC13AppProtection26ManagedProtectabilityCache"
+- "_TtC13AppProtection27APDaemonPersistentContainer"
+- "_TtC13AppProtection27APViewSubjectMonitorService"
+- "_TtC13AppProtection27ContainerBasedBackupManager"
+- "_TtC13AppProtection28ClientPolicyObservationToken"
+- "_TtC13AppProtection28NotificationReceiverObjCShim"
+- "_TtC13AppProtection29DefaultSubjectMonitorRegistry"
+- "_TtC13AppProtection29ServerBackedClientPolicyStore"
+- "_TtC13AppProtection31APSystemAppClientXPCEventStream"
+- "_TtC13AppProtection31APSystemAppXPCEventStreamClient"
+- "_TtC13AppProtection31APSystemAppXPCEventStreamServer"
+- "_TtC13AppProtection31LocalAuthenticationAuthProvider"
+- "_TtC13AppProtection31NotifydXPCEventStreamTranslator"
+- "_TtC13AppProtection32APViewSubjectMonitorSubscription"
+- "_TtC13AppProtection33AccountsdXPCEventStreamTranslator"
+- "_TtC13AppProtection33DistnotedXPCEventStreamTranslator"
+- "_TtC13AppProtection35ServerBackedSystemAppOutletRegistry"
+- "_TtC13AppProtection36ServerBackedExtensionMonitorRegistry"
+- "_TtC13AppProtection37APExtensionSubjectMonitorSubscription"
+- "_TtC13AppProtection38ServerBackedViewSubjectMonitorRegistry"
+- "_TtC13AppProtection8APServer"
+- "_TtC13AppProtectionP33_20C1C3669C1ABC4672827815FE46681E8PidWatch"
+- "_TtC13AppProtectionP33_215D8CF8FF516198782505704A9473C518ClientArenaWrapper"
+- "_TtC13AppProtectionP33_6EDA1217EB79794B9F0C6A54952007A220_PreferenceUtilities"
+- "_TtC13AppProtectionP33_D5166DC3C354ECCF2AE9EE69E5553F5918ContainerErrorCopy"
+- "_TtCC13AppProtection36ServerBackedExtensionMonitorRegistryP33_0D76BCD90F39FFE5BC347065C6051DB119MonitorClientExport"
+- "_TtCC13AppProtection38ServerBackedViewSubjectMonitorRegistryP33_AEF08B296327CA843F853682A2B6132219MonitorClientExport"
+- "_TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357017AccessListWrapper"
+- "_TtCE13AppProtectionCSo11APStateDumpP33_08AD371E34EDC7245D13D99B4228357019AssertionMapWrapper"
+- "_TtCE13AppProtectionCSo17APSystemAppOutlet29SystemAppOutletSubjectMonitor"
+- "_TtCFC13AppProtection29ServerBackedClientPolicyStore31currentStateFetchingIfNecessaryFT_CSo13APClientStateL_7Wrapper"
+- "_anyPublisher"
+- "_app_hide_7_day_event_count"
+- "_app_locked_7_day_event_count"
+- "_app_unhide_7_day_event_count"
+- "_app_unlock_7_day_event_count"
+- "_bundleIdentifier"
+- "_defaultKey"
+- "_defaultValue"
+- "_domain"
+- "_effectivelyLockedAppBundleIdentifiers"
+- "_hiddenAppBundleIdentifiers"
+- "_hideable"
+- "_isAppleInternalBuild"
+- "_lastAuthenticationTimeNS"
+- "_lastFenceTimeNS"
+- "_lock"
+- "_lock_lastValuePublished"
+- "_lockable"
+- "_lockedAppBundleIdentifiers"
+- "_map"
+- "_observer"
+- "_overrideValue"
+- "_owner"
+- "_preflightManager"
+- "_publisher"
+- "_retryTimeout"
+- "_setQueue:"
+- "_userDefaults"
+- "_xpcConnection"
+- "aa_ageCategory"
+- "aa_primaryAppleAccount"
+- "abortOngoingAuthWithCompletion:"
+- "accessQueue"
+- "accessed_bundle_id"
+- "accesses"
+- "accessingRecordsForTCCService:completion:"
+- "accessor_bundle_id"
+- "accountsEventsSubscription"
+- "accountsManager"
+- "acquireForSubject:completion:"
+- "acquireForSubject:onBehalfOfProcessWithAuditToken:accessGrantReason:completion:"
+- "activityScheduler"
+- "addEntriesFromDictionary:"
+- "addMonitor:"
+- "addMonitor:subjectMask:"
+- "addMonitor:subjectMask:subscriptionOptions:"
+- "addObserver:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:selector:name:object:"
+- "addShield:"
+- "allKeys"
+- "anonymousListener"
+- "appProtectionEffectiveContainer"
+- "appProtectionSubjectsChanged:forSubscription:"
+- "appendFormat:"
+- "appendString:"
+- "application"
+- "applicationIsInstalled:"
+- "applicationRequiresPreflight:"
+- "applicationWithBundleIdentifier:"
+- "applicationsWithContentHiddenFromSearch"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arena"
+- "arrayWithObjects:count:"
+- "assertion:didInvalidateWithError:"
+- "auditToken"
+- "authAssertionBundleIDToCountMap"
+- "authAssertionUUIDToAssertionMap"
+- "authAssertions"
+- "authAssertionsData"
+- "authProvider"
+- "authenticateForBundle:completion:"
+- "authenticateForBundle:interfacePresentationTarget:completion:"
+- "authenticateForExtension:completion:"
+- "authenticateForExtension:reasonDescription:completion:"
+- "authenticateForExtensionWithUUID:reasonDescription:completion:"
+- "authenticateForShieldDismissalForSubject:completion:"
+- "authenticateForShieldUnlockOfBundle:completion:"
+- "authenticateForSubject:completion:"
+- "authenticateForSubject:interfacePresentationTarget:completion:"
+- "authenticateForSubject:relayingAuditToken:completion:"
+- "authenticateForViewSubject:reasonDescription:completion:"
+- "authenticateForViewSubjectWithBundleID:reasonDescription:completion:"
+- "authenticateSyncForSubject:error:"
+- "authenticateSyncUnconditionallyWithError:"
+- "authenticateSyncUnconditionallyWithReason:error:"
+- "authenticateUnconditionallyWithCompletion:"
+- "authenticateUnconditionallyWithReason:completion:"
+- "autorelease"
+- "backgroundQueue"
+- "backupManager"
+- "beginAuthTimeoutExtensionTransactionForBundle:transactionUUID:completion:"
+- "beginMonitoringForExtensionUUID:monitorUUID:"
+- "beginMonitoringForViewSubjectBundleID:monitorUUID:"
+- "beginTransactionForAccessOfBundle:onBehalfOfProcessWithAuditToken:accessGrantReason:transactionUUID:completion:"
+- "biometry"
+- "boolValue"
+- "bundleForClass:"
+- "bundleIDToFailedAuthAttemptMap"
+- "bundleIdentifier"
+- "bundleIdentifiersWithContentHiddenFromSearch"
+- "bundleRecord"
+- "bundleRecordForAuditToken:error:"
+- "bundleRecordWithBundleIdentifier:allowPlaceholder:error:"
+- "bytes"
+- "callback"
+- "callbackQueue"
+- "canChangeHiddenStatusOfSubject:"
+- "canChangeLockedStatusOfSubject:"
+- "canChangeShownInSearchAndSiriForSubject:"
+- "canEvaluatePolicy:error:"
+- "changeEventManager"
+- "changeEventQueue"
+- "changeEventSubject"
+- "changeEventSubscription"
+- "changeEventsPublisher"
+- "changeEventsSubscription"
+- "changeEventsXPCPublisher"
+- "changed app preferences for %s to locked: %{bool}d, hidden: %{bool}d, notifying subscribers"
+- "checkToken"
+- "claimQueue"
+- "class"
+- "clearAccessTable:"
+- "clearAccessTableWithCompletion:"
+- "clientArenaStorage"
+- "clientAuthorizer"
+- "clientExport"
+- "clientState"
+- "clients"
+- "code"
+- "com.apple.distnoted.matching"
+- "conformsToProtocol:"
+- "connection"
+- "containingBundleRecord"
+- "containsObject:"
+- "contentHiddenFromSearch"
+- "context"
+- "copy"
+- "copyWithZone:"
+- "countByEnumeratingWithState:objects:count:"
+- "currentUser"
+- "dataWithBytes:length:"
+- "dealloc"
+- "deathMonitor"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntForKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultManager"
+- "defaultStore"
+- "defaultWorkspace"
+- "delegate"
+- "deleteObject:"
+- "description"
+- "detach"
+- "developerType"
+- "dictionaryWithObjects:forKeys:count:"
+- "dispatchTimer"
+- "domain"
+- "doubleValue"
+- "dtoEnabled"
+- "dummyServiceConnectionForServiceName:"
+- "duration"
+- "effectiveBundleIdentifier"
+- "effectiveContainer"
+- "effectiveContainerFor:completion:"
+- "effectiveContainerLocalizedName"
+- "effectiveContainerLocalizedNameFor:completion:"
+- "effectivelyLocked"
+- "encodeBool:forKey:"
+- "encodeInt:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endAuthTimeoutExtensionTransactionWithUUID:completion:"
+- "endMonitoringForMonitorUUID:"
+- "endTransactionWithUUID:completion:"
+- "endpoint"
+- "entitlements"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumeratorWithOptions:"
+- "environment"
+- "evaluatePolicy:options:reply:"
+- "eventEmissionQueue"
+- "events"
+- "execute:"
+- "executeRequest:error:"
+- "extantAccesses"
+- "extensionMonitorWithUUID:lockedStatusUpdate:"
+- "extensionRequiresAuthentication:"
+- "extensionRequiresAuthentication:completion:"
+- "extensionSubject"
+- "extensionUUIDStorage"
+- "externalSystemStateManager"
+- "failWithError:"
+- "fetchRequest"
+- "fetchUsersForRecord:completion:"
+- "fileExistsAtPath:"
+- "findApplicationRecordWithError:"
+- "fired"
+- "firstRunWorkManager"
+- "forcedLockedValue"
+- "getConfiguration:"
+- "getExtensionIsFirstPartyForUUID:completion:"
+- "getExtensionIsLockedForUUID:completion:"
+- "getIsChallengeCurrentlyRequiredForBundle:completion:"
+- "getIsChallengeCurrentlyRequiredForSubject:completion:"
+- "getPerAppManagedProtectability:"
+- "getProcessCanHostViewSubjectWithBundleID:completion:"
+- "getStateDumpWithCompletion:"
+- "getStateDumpWithError:"
+- "getViewSubjectIsLockedForBundleID:completion:"
+- "handleForIdentifier:error:"
+- "handleForPredicate:error:"
+- "handshakeState"
+- "hasAwaited"
+- "hash"
+- "haveUnlockedUnacceptedPrivacyDisclosureApps"
+- "hidden"
+- "hiddenApplications"
+- "hiddenMetaSubject"
+- "hideable"
+- "identities"
+- "impl"
+- "infoDictionary"
+- "init"
+- "initFileprivWithBundleID:arena:"
+- "initLockable:hideable:"
+- "initWithApplication:"
+- "initWithApplicationExtensionRecord:"
+- "initWithArena:"
+- "initWithBool:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCoder:"
+- "initWithContentsOfURL:"
+- "initWithContext:"
+- "initWithDomain:authenticationContext:"
+- "initWithDomain:code:userInfo:"
+- "initWithEntity:insertIntoManagedObjectContext:"
+- "initWithEntityName:"
+- "initWithExtensionIdentity:auditToken:"
+- "initWithExtensionSubject:"
+- "initWithExtensionUUID:bundleIdentifier:"
+- "initWithFetchRequest:"
+- "initWithFormat:"
+- "initWithListenerEndpoint:"
+- "initWithLockedAppBundleIdentifiers:hiddenAppBundleIdentifiers:effectivelyLockedBundleIdentifiers:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithName:managedObjectModel:"
+- "initWithPerAppProtectability:"
+- "initWithPreflightManger:"
+- "initWithState:accesses:authAssertions:dtoEnabled:"
+- "initWithSubject:uuid:"
+- "initWithSuiteName:"
+- "initWithSystemAppInterface:"
+- "initWithTargetQueue:"
+- "initWithURL:"
+- "initWithURL:allowPlaceholder:error:"
+- "initWithURL:error:"
+- "initWithUUID:error:"
+- "initWithViewSubject:"
+- "initiateAuthenticationWithShieldingForBundle:completion:"
+- "initiateAuthenticationWithShieldingForBundle:onBehalfOfProcessWithAuditToken:accessGrantReason:completion:"
+- "initiateAuthenticationWithShieldingForSubject:completion:"
+- "initiateAuthenticationWithShieldingForSubject:onBehalfOfProcessWithAuditToken:accessGrantReason:completion:"
+- "initiateSyncAuthenticationWithShieldingForSubject:error:"
+- "initiateSyncAuthenticationWithShieldingForSubject:onBehalfOfProcessWithAuditToken:accessGrantReason:error:"
+- "installationManager"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invalidated"
+- "invalidationHandler"
+- "isAppHidingAvailable"
+- "isAppLockingAvailable"
+- "isAvailable"
+- "isContentHiddenFromSearch"
+- "isEffectivelyLocked"
+- "isEqual:"
+- "isEqualTo:"
+- "isFeatureEnabled"
+- "isFirstParty"
+- "isHidden"
+- "isHideable"
+- "isHidingAppsAllowed"
+- "isKindOfClass:"
+- "isLockable"
+- "isLocked"
+- "isLockingAppsAllowed"
+- "isMailClient"
+- "isMemberOfClass:"
+- "isProxy"
+- "isUsable"
+- "isWebBrowser"
+- "keyBagManager"
+- "languageChangeManager"
+- "lastLockedState"
+- "lazyRecord"
+- "length"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "loadPersistentStoresWithCompletionHandler:"
+- "loadRecordWithError:"
+- "localizedName"
+- "lockable"
+- "locked"
+- "lockedApplications"
+- "lockedMetaSubject"
+- "lockedState"
+- "mainBundle"
+- "managedBundleIdentifiers"
+- "managementEventsSubscription"
+- "managementExpert"
+- "manager"
+- "mergeChangesFromRemoteContextSave:intoContexts:"
+- "monitorAssociations"
+- "monitorRef"
+- "monitorTransactionWithUUID:invalidationBlock:"
+- "mutableCopy"
+- "mutableState"
+- "newBackgroundContext"
+- "noteAllScenesDismissedForApplication:"
+- "noteAllScenesDismissedForBundleID:completion:"
+- "noteSceneWillBecomeForegroundVisibleForApplication:"
+- "notificationCenter"
+- "notificationName"
+- "nsuuid"
+- "numberForKey:error:"
+- "numberWithInt:"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "objectForKey:ofClass:valuesOfClass:"
+- "objectID"
+- "observationQueue"
+- "observationToken"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observers"
+- "optsOutOfAppProtectionShield"
+- "originUUID"
+- "outlet"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentContainer"
+- "persistentStore"
+- "policy"
+- "policyQueue"
+- "policyStore"
+- "postNotification:"
+- "predicateMatchingLSApplicationIdentity:"
+- "processIdentifier"
+- "processInfo"
+- "protectabilityForBundleIdentifier:"
+- "provisional"
+- "publisher"
+- "q16@0:8"
+- "queue"
+- "raw_accessor_type"
+- "raw_audit_token"
+- "receivedNotification:"
+- "registerAccountChangeEventHandler:"
+- "registerWeeklyActivityWithName:work:"
+- "registry"
+- "regulatoryPrivacyDisclosureVersion"
+- "release"
+- "remoteBackupFuture"
+- "remoteMonitor"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeItemAtURL:error:"
+- "removeObjectForKey:"
+- "removeObserver:forKeyPath:"
+- "removeShield:"
+- "requiresPreflightForApplicationRecord:"
+- "requiresShielding"
+- "resetShield"
+- "respondsToSelector:"
+- "result"
+- "resume"
+- "resumed"
+- "resuming distnoted translator"
+- "retain"
+- "retainCount"
+- "save:"
+- "self"
+- "service"
+- "serviceInfo"
+- "serviceQueue"
+- "services"
+- "setAccessed_bundle_id:"
+- "setAccessor_bundle_id:"
+- "setApplication:shielded:forOutlet:completion:"
+- "setAttributes:ofItemAtPath:error:"
+- "setBundleIdentifier:hidden:completion:"
+- "setBundleIdentifier:locked:completion:"
+- "setBundleid:"
+- "setClass:forSelector:argumentIndex:ofReply:"
+- "setDelegate:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setHidden:"
+- "setHiddenApplications:completion:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLocalizedFallbackTitle:"
+- "setLocked:"
+- "setLockedApplications:completion:"
+- "setObject:forKey:"
+- "setOption:forKey:"
+- "setOptionAuthenticationReason:"
+- "setOptionCallerAuditToken:"
+- "setOptionCallerAuditTokenUsage:"
+- "setOptionLightweightUIMode:"
+- "setOptionMaxBiometryFailures:"
+- "setOptionNoFailureUI:"
+- "setOptionPresentingEmbeddedUI:"
+- "setOptionUseShortExpirationTimer:"
+- "setPersistentStoreDescriptions:"
+- "setPredicate:"
+- "setProvisional:"
+- "setRaw_accessor_type:"
+- "setRaw_audit_token:"
+- "setRemoteObjectInterface:"
+- "setResultType:"
+- "setShieldStyle:"
+- "setSubject:isHidden:completion:"
+- "setSubject:isHidden:error:"
+- "setSubject:isLocked:completion:"
+- "setSubject:isLocked:error:"
+- "setSubject:shownInSearchAndSiri:completion:"
+- "setTransaction_uuid:"
+- "setWithArray:"
+- "setWithObjects:"
+- "settingsAuthority"
+- "settingsAuthorityEventSubscription"
+- "sharedConnection"
+- "sharedGuard"
+- "sharedInstance"
+- "sharedManager"
+- "sharedSubscriber"
+- "shieldStateManager"
+- "shieldable"
+- "shieldedApplication"
+- "shouldShieldLaunchOfApplication:"
+- "source"
+- "standardUserDefaults"
+- "state"
+- "store"
+- "storeChangeSubscription"
+- "storeQueue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "strongToWeakObjectsMapTable"
+- "subject"
+- "subjectMask"
+- "subjectMonitor"
+- "subjectMonitorRegistry"
+- "subscriberTokensForEvent"
+- "subscribers"
+- "subscription"
+- "superclass"
+- "supportsSecureCoding"
+- "swift_forEach:"
+- "syncReadProxyFactory"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemAppInterface"
+- "target"
+- "tccManager"
+- "token"
+- "transaction"
+- "transaction_uuid"
+- "typeForInstallMachinery"
+- "unable to cast UserInfo to dictionary: %s"
+- "underlyingProvider"
+- "uniqueIdentifier"
+- "uuid"
+- "uuidToInvalidationBlockMap"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"LSApplicationRecord\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@?<v@?>8"
+- "v20@?0@\"ACAccount\"8i16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSUUID\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"APClientState\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"APPerAppManagedProtectability\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"APStateDump\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@?0@\"<OS_tcc_authorization_record>\"8^{__CFError=}16"
+- "v24@?0@\"APClientState\"8@\"NSError\"16"
+- "v24@?0@\"APPerAppManagedProtectability\"8@\"NSError\"16"
+- "v24@?0@\"APStateDump\"8@\"NSError\"16"
+- "v24@?0@\"APSubjectAccessAssertion\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSNumber\"8@\"NSError\"16"
+- "v24@?0@\"NSPersistentStoreDescription\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v28@0:8@16B24"
+- "v28@?0I8Q12@\"<OS_xpc_object>\"20"
+- "v32@0:8@\"NSArray\"16@\"<APSubjectMonitorSubscription>\"24"
+- "v32@0:8@\"NSString\"16@\"NSUUID\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSNumber\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@\"NSUUID\"24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSNumber\"@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"NSString\"16B24@?<v@?@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16r^{?=[8I]}24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSUUID\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16r^{?=[8I]}24@?32"
+- "v48@0:8@\"NSString\"16r^{?=[8I]}24q32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8@16r^{?=[8I]}24q32@?40"
+- "v56@0:8@\"NSString\"16r^{?=[8I]}24q32@\"NSUUID\"40@?<v@?@\"NSError\">48"
+- "v56@0:8@16r^{?=[8I]}24q32@40@?48"
+- "v64@0:8@16{?=[8I]}24@?56"
+- "v72@0:8@16{?=[8I]}24q56@?64"
+- "value"
+- "valueForEntitlement:"
+- "valueForKey:"
+- "viewSubject"
+- "viewSubjectMonitorWithUUID:lockedStatusUpdate:"
+- "viewSubjectRequiresAuthentication:"
+- "viewSubjectRequiresAuthentication:completion:"
+- "waitForManagedProtectability:"
+- "workItem"
+- "writeTimer"
+- "writeToFileHandle:error:"
+- "zone"
+
+```

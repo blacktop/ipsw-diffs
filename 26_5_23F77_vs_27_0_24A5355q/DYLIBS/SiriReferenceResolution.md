@@ -1,0 +1,1063 @@
+## SiriReferenceResolution
+
+> `/System/Library/PrivateFrameworks/SiriReferenceResolution.framework/SiriReferenceResolution`
+
+```diff
+
+ 3500.13.1.0.0
+-  __TEXT.__text: 0xb6284
+-  __TEXT.__auth_stubs: 0x3820
++  __TEXT.__text: 0xb53f8
+   __TEXT.__objc_methlist: 0x108c
+-  __TEXT.__const: 0x4168
+-  __TEXT.__cstring: 0x17a1
+-  __TEXT.__swift5_typeref: 0x1dd1
+-  __TEXT.__swift5_capture: 0x6c8
++  __TEXT.__const: 0x4154
++  __TEXT.__cstring: 0x17ab
++  __TEXT.__swift5_typeref: 0x1ed1
++  __TEXT.__swift5_capture: 0x11d8
+   __TEXT.__oslogstring: 0x34e9
+   __TEXT.__constg_swiftt: 0x1d38
+   __TEXT.__swift5_reflstr: 0xc71
+
+   __TEXT.__swift5_types: 0x164
+   __TEXT.__swift_as_entry: 0xe0
+   __TEXT.__swift_as_ret: 0xc4
++  __TEXT.__swift_as_cont: 0x15c
+   __TEXT.__swift5_protos: 0x60
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2820
+-  __TEXT.__eh_frame: 0x42ec
+-  __TEXT.__objc_classname: 0x8dd
+-  __TEXT.__objc_methname: 0x2a33
+-  __TEXT.__objc_methtype: 0x72f
+-  __TEXT.__objc_stubs: 0x21a0
+-  __DATA_CONST.__got: 0xc28
+-  __DATA_CONST.__const: 0x370
++  __TEXT.__unwind_info: 0x2950
++  __TEXT.__eh_frame: 0x4324
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x368
+   __DATA_CONST.__objc_classlist: 0x150
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xbb8
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x80
+-  __AUTH_CONST.__auth_got: 0x1c18
+-  __AUTH_CONST.__const: 0x3b98
++  __DATA_CONST.__got: 0xc30
++  __AUTH_CONST.__const: 0x5790
+   __AUTH_CONST.__cfstring: 0x660
+   __AUTH_CONST.__objc_const: 0x31a8
+   __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH_CONST.__auth_got: 0x1ce8
+   __AUTH.__objc_data: 0x598
+   __AUTH.__data: 0x680
+   __DATA.__objc_ivar: 0x118
+-  __DATA.__data: 0xc08
++  __DATA.__data: 0xc20
+   __DATA.__common: 0xa0
+-  __DATA.__bss: 0x25a0
++  __DATA.__bss: 0x2520
+   __DATA_DIRTY.__objc_data: 0x598
+-  __DATA_DIRTY.__data: 0x2320
+-  __DATA_DIRTY.__bss: 0xd80
++  __DATA_DIRTY.__data: 0x2330
++  __DATA_DIRTY.__bss: 0xe00
+   __DATA_DIRTY.__common: 0x578
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9C2873E3-A7E2-395B-9AB7-82F96B929CB0
+-  Functions: 4839
+-  Symbols:   6316
+-  CStrings:  1157
++  UUID: FEC397FE-8AC6-3C19-AA02-19991BCBA8DC
++  Functions: 5083
++  Symbols:   6887
++  CStrings:  468
+ 
+Symbols:
++ _OUTLINED_FUNCTION_184
++ _OUTLINED_FUNCTION_185
++ _OUTLINED_FUNCTION_186
++ _OUTLINED_FUNCTION_187
++ _OUTLINED_FUNCTION_188
++ _OUTLINED_FUNCTION_189
++ _OUTLINED_FUNCTION_190
++ _OUTLINED_FUNCTION_191
++ _OUTLINED_FUNCTION_192
++ _OUTLINED_FUNCTION_193
++ _OUTLINED_FUNCTION_194
++ _OUTLINED_FUNCTION_195
++ _OUTLINED_FUNCTION_196
++ _OUTLINED_FUNCTION_197
++ _OUTLINED_FUNCTION_198
++ _OUTLINED_FUNCTION_199
++ _OUTLINED_FUNCTION_200
++ _OUTLINED_FUNCTION_201
++ _OUTLINED_FUNCTION_202
++ _OUTLINED_FUNCTION_203
++ _OUTLINED_FUNCTION_204
++ _OUTLINED_FUNCTION_205
++ _OUTLINED_FUNCTION_206
++ _OUTLINED_FUNCTION_207
++ _OUTLINED_FUNCTION_208
++ _OUTLINED_FUNCTION_209
++ ___swift__destructor
++ ___swift__destructor.137
++ ___swift__destructor.145
++ ___swift__destructor.2
++ ___swift__destructor.3
++ ___swift__destructor.5
++ ___swift__destructor.54
++ ___swift__destructor.6
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.51Tm
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.111
++ _block_copy_helper.12
++ _block_copy_helper.129
++ _block_copy_helper.133
++ _block_copy_helper.141
++ _block_copy_helper.147
++ _block_copy_helper.15
++ _block_copy_helper.150
++ _block_copy_helper.198
++ _block_copy_helper.21
++ _block_copy_helper.24
++ _block_copy_helper.32
++ _block_copy_helper.36
++ _block_copy_helper.59
++ _block_copy_helper.71
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.113
++ _block_descriptor.131
++ _block_descriptor.135
++ _block_descriptor.14
++ _block_descriptor.143
++ _block_descriptor.149
++ _block_descriptor.152
++ _block_descriptor.17
++ _block_descriptor.200
++ _block_descriptor.23
++ _block_descriptor.26
++ _block_descriptor.34
++ _block_descriptor.38
++ _block_descriptor.61
++ _block_descriptor.73
++ _block_destroy_helper.100
++ _block_destroy_helper.112
++ _block_destroy_helper.13
++ _block_destroy_helper.130
++ _block_destroy_helper.134
++ _block_destroy_helper.142
++ _block_destroy_helper.148
++ _block_destroy_helper.151
++ _block_destroy_helper.16
++ _block_destroy_helper.199
++ _block_destroy_helper.22
++ _block_destroy_helper.25
++ _block_destroy_helper.33
++ _block_destroy_helper.37
++ _block_destroy_helper.60
++ _block_destroy_helper.72
++ _objc_claimAutoreleasedReturnValue
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SDySSSaySo12LNViewEntityCGG
++ _symbolic SDySS_____G So6CGRectV
++ _symbolic SS3key_______pSg5valuet 8RRSQLite7BindingP
++ _symbolic SSIego_
++ _symbolic SaySDyS2SGG
++ _symbolic SaySDyS2SGGIegr_
++ _symbolic SdIegd_
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic So11NSPredicateC
++ _symbolic So15CKContextResultC
++ _symbolic _____ 32SiriReferenceResolutionDataModel17RRAnnotatedEntityC
++ _symbolic _____Iegr_ 32SiriReferenceResolutionDataModel12ResolveQueryC
++ _symbolic _____Iegr_ 32SiriReferenceResolutionDataModel8RRResultO
++ _symbolic _____y_____y_____y_____GGG s12_SequenceBoxC s013_ClosureBasedA0V s11AnyIteratorV 32SiriReferenceResolutionDataModel17RRAnnotatedEntityC
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic ypSg
++ _symbolic yyc
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SiriReferenceResolution
+- _block_copy_helper.11
+- _block_copy_helper.13
+- _block_copy_helper.17
+- _block_copy_helper.19
+- _block_copy_helper.20
+- _block_copy_helper.23
+- _block_copy_helper.25
+- _block_copy_helper.35
+- _block_copy_helper.52
+- _block_copy_helper.60
+- _block_copy_helper.66
+- _block_copy_helper.69
+- _block_descriptor.13
+- _block_descriptor.15
+- _block_descriptor.19
+- _block_descriptor.21
+- _block_descriptor.22
+- _block_descriptor.25
+- _block_descriptor.27
+- _block_descriptor.37
+- _block_descriptor.54
+- _block_descriptor.62
+- _block_descriptor.68
+- _block_descriptor.71
+- _block_destroy_helper.12
+- _block_destroy_helper.14
+- _block_destroy_helper.18
+- _block_destroy_helper.20
+- _block_destroy_helper.21
+- _block_destroy_helper.24
+- _block_destroy_helper.26
+- _block_destroy_helper.36
+- _block_destroy_helper.53
+- _block_destroy_helper.61
+- _block_destroy_helper.67
+- _block_destroy_helper.70
+- _objectdestroy.18Tm
+- _objectdestroy.8Tm
+- _objectdestroyTm
+- _symbolic SS3key______5valuetSg 32SiriReferenceResolutionDataModel17RRAnnotationValueO
+- _symbolic _____Sg 32SiriReferenceResolutionDataModel8RREntityV
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_columnCount"
+- "$__lazy_storage_$_columnNames"
+- "$__lazy_storage_$_contactStore"
+- "$__lazy_storage_$_queueContext"
+- "$__lazy_storage_$_row"
+- ".cxx_destruct"
+- "@\"NSArray\""
+- "@\"NSData\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"RRSchemaProvisionalPullerContext\""
+- "@\"RRSchemaProvisionalPullerEnded\""
+- "@\"RRSchemaProvisionalPullerFailed\""
+- "@\"RRSchemaProvisionalPullerStarted\""
+- "@\"RRSchemaProvisionalRRClientEventMetadata\""
+- "@\"RRSchemaProvisionalRREntityPoolResolveContext\""
+- "@\"RRSchemaProvisionalRREntityPoolResolveEnded\""
+- "@\"RRSchemaProvisionalRREntityPoolResolveFailed\""
+- "@\"RRSchemaProvisionalRREntityPoolResolveStarted\""
+- "@\"RRSchemaProvisionalRREntityPoolReturned\""
+- "@\"RRSchemaProvisionalRRGroupIdentifier\""
+- "@\"RRSchemaProvisionalRRUsoGraphTier1\""
+- "@\"SISchemaUUID\""
+- "@\"SRRReferenceResolutionClientInternal\""
+- "@\"USOSchemaUSOGraph\""
+- "@\"USOSchemaUSOGraphTier1\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8@\"NSData\"16I24"
+- "@28@0:8@16I24"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "App"
+- "B"
+- "B16@0:8"
+- "B16@?0@8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BMStoreData"
+- "CNKeyDescriptor"
+- "ContextualUnderstanding"
+- "I"
+- "I16@0:8"
+- "InFocus"
+- "InstrumentationAdditions"
+- "JSONObjectWithData:options:error:"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "PeopleDiscovery"
+- "Q"
+- "Q16@0:8"
+- "RRSchemaProvisionalPullerContext"
+- "RRSchemaProvisionalPullerEnded"
+- "RRSchemaProvisionalPullerFailed"
+- "RRSchemaProvisionalPullerStarted"
+- "RRSchemaProvisionalRRAnnotatedEntity"
+- "RRSchemaProvisionalRRAnnotation"
+- "RRSchemaProvisionalRRClientEvent"
+- "RRSchemaProvisionalRRClientEventMetadata"
+- "RRSchemaProvisionalRREntityPoolResolveContext"
+- "RRSchemaProvisionalRREntityPoolResolveEnded"
+- "RRSchemaProvisionalRREntityPoolResolveFailed"
+- "RRSchemaProvisionalRREntityPoolResolveStarted"
+- "RRSchemaProvisionalRREntityPoolReturned"
+- "RRSchemaProvisionalRRGroupIdentifier"
+- "RRSchemaProvisionalRRUsoGraphTier1"
+- "SRRReferenceResolutionClient"
+- "SRRReferenceResolutionClientInternal"
+- "T#,R"
+- "T@\"NSArray\",C,N,V_annotations"
+- "T@\"NSArray\",C,N,V_candidateEntities"
+- "T@\"NSArray\",C,N,V_queryResults"
+- "T@\"NSData\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_groupId"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_swiftClassName"
+- "T@\"NSString\",R,C"
+- "T@\"RRSchemaProvisionalPullerContext\",&,N,V_pullerContext"
+- "T@\"RRSchemaProvisionalPullerEnded\",&,N,V_ended"
+- "T@\"RRSchemaProvisionalPullerFailed\",&,N,V_failed"
+- "T@\"RRSchemaProvisionalPullerStarted\",&,N,V_started"
+- "T@\"RRSchemaProvisionalRRClientEventMetadata\",&,N,V_eventMetadata"
+- "T@\"RRSchemaProvisionalRREntityPoolResolveContext\",&,N,V_entityPoolResolveContext"
+- "T@\"RRSchemaProvisionalRREntityPoolResolveEnded\",&,N,V_ended"
+- "T@\"RRSchemaProvisionalRREntityPoolResolveFailed\",&,N,V_failed"
+- "T@\"RRSchemaProvisionalRREntityPoolResolveStarted\",&,N,V_startedOrChanged"
+- "T@\"RRSchemaProvisionalRREntityPoolReturned\",&,N,V_entityPoolReturned"
+- "T@\"RRSchemaProvisionalRRGroupIdentifier\",&,N,V_group"
+- "T@\"RRSchemaProvisionalRRUsoGraphTier1\",&,N,V_rrUsoGraphTier1"
+- "T@\"SISchemaUUID\",&,N,V_requestId"
+- "T@\"SISchemaUUID\",&,N,V_rrID"
+- "T@\"SRRReferenceResolutionClientInternal\",R,V_underlyingObject"
+- "T@\"USOSchemaUSOGraph\",&,N,V_usoGraph"
+- "T@\"USOSchemaUSOGraph\",&,N,V_usoQuery"
+- "T@\"USOSchemaUSOGraphTier1\",&,N,V_usoGraphTier1"
+- "TB,N"
+- "TB,N,V_hasEnded"
+- "TB,N,V_hasEntityPoolResolveContext"
+- "TB,N,V_hasEntityPoolReturned"
+- "TB,N,V_hasEventMetadata"
+- "TB,N,V_hasFailed"
+- "TB,N,V_hasGroup"
+- "TB,N,V_hasGroupId"
+- "TB,N,V_hasName"
+- "TB,N,V_hasPullerContext"
+- "TB,N,V_hasReference"
+- "TB,N,V_hasRequestId"
+- "TB,N,V_hasRrID"
+- "TB,N,V_hasRrUsoGraphTier1"
+- "TB,N,V_hasStarted"
+- "TB,N,V_hasStartedOrChanged"
+- "TB,N,V_hasSwiftClassName"
+- "TB,N,V_hasUsoGraph"
+- "TB,N,V_hasUsoGraphTier1"
+- "TB,N,V_hasUsoQuery"
+- "TB,N,V_timeout"
+- "TB,R"
+- "TI,?,R,N"
+- "TI,N,V_entityCount"
+- "TI,N,V_seq"
+- "TI,R,N"
+- "TQ,N,V_annotationAddedTimestampInSeconds"
+- "TQ,N,V_saliencyComputedAtTimestampInSeconds"
+- "TQ,R"
+- "TQ,R,N,V_whichContextevent"
+- "TQ,R,N,V_whichEvent_Type"
+- "Tf,N,V_saliencyScore"
+- "Ti,N,V_entityCount"
+- "Ti,N,V_name"
+- "Ti,N,V_outcome"
+- "Ti,N,V_reason"
+- "URL"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC23SiriReferenceResolution11RRLNService"
+- "_TtC23SiriReferenceResolution11SRRDefaults"
+- "_TtC23SiriReferenceResolution15RRMemoryStorage"
+- "_TtC23SiriReferenceResolution15RRSQLiteStorage"
+- "_TtC23SiriReferenceResolution16RREventProcessor"
+- "_TtC23SiriReferenceResolution18RRContextKitPuller"
+- "_TtC23SiriReferenceResolution18RRFrontBoardPuller"
+- "_TtC23SiriReferenceResolution19RRIFUIContextPuller"
+- "_TtC23SiriReferenceResolution20RRRunningBoardPuller"
+- "_TtC23SiriReferenceResolution23RRForegroundedAppPuller"
+- "_TtC23SiriReferenceResolution23RRNowPlayingMediaPuller"
+- "_TtC23SiriReferenceResolution24RRIntelligenceFlowPuller"
+- "_TtC23SiriReferenceResolution25RRBiomeNearbyPeoplePuller"
+- "_TtC23SiriReferenceResolution25RRBiomeNotificationPuller"
+- "_TtC23SiriReferenceResolution25RROnScreenAppEntityPuller"
+- "_TtC23SiriReferenceResolution25ReferenceResolutionClient"
+- "_TtC23SiriReferenceResolution27RRVoiceShortcutClientPuller"
+- "_TtC23SiriReferenceResolution27SalientEntitiesDataProvider"
+- "_TtC23SiriReferenceResolution28RRHeuristicSaliencyEstimator"
+- "_TtC23SiriReferenceResolution28RRIntelligencePlatformPuller"
+- "_TtC23SiriReferenceResolution30SiriReferenceResolutionService"
+- "_TtC23SiriReferenceResolution33ReferenceResolutionInternalClient"
+- "_TtC23SiriReferenceResolution37ScopedReferenceResolutionDataProvider"
+- "_TtC8RRSQLite10Connection"
+- "_TtC8RRSQLite12TableBuilder"
+- "_TtC8RRSQLite9Statement"
+- "_annotationAddedTimestampInSeconds"
+- "_annotations"
+- "_candidateEntities"
+- "_dataForCurrentRequest"
+- "_ended"
+- "_entityCount"
+- "_entityPoolResolveContext"
+- "_entityPoolReturned"
+- "_eventMetadata"
+- "_failed"
+- "_group"
+- "_groupId"
+- "_handle"
+- "_has"
+- "_hasEnded"
+- "_hasEntityPoolResolveContext"
+- "_hasEntityPoolReturned"
+- "_hasEventMetadata"
+- "_hasFailed"
+- "_hasGroup"
+- "_hasGroupId"
+- "_hasName"
+- "_hasPullerContext"
+- "_hasReference"
+- "_hasRequestId"
+- "_hasRrID"
+- "_hasRrUsoGraphTier1"
+- "_hasStarted"
+- "_hasStartedOrChanged"
+- "_hasSwiftClassName"
+- "_hasUsoGraph"
+- "_hasUsoGraphTier1"
+- "_hasUsoQuery"
+- "_instance"
+- "_name"
+- "_outcome"
+- "_pullerContext"
+- "_queryResults"
+- "_reason"
+- "_requestId"
+- "_rrID"
+- "_rrUsoGraphTier1"
+- "_saliencyComputedAtTimestampInSeconds"
+- "_saliencyScore"
+- "_salientEntities"
+- "_seq"
+- "_setError"
+- "_started"
+- "_startedOrChanged"
+- "_swiftClassName"
+- "_timeout"
+- "_underlyingObject"
+- "_usoGraph"
+- "_usoGraphTier1"
+- "_usoQuery"
+- "_whichContextevent"
+- "_whichEvent_Type"
+- "absoluteOriginOnScreen"
+- "absoluteTimestamp"
+- "addAnnotations:"
+- "addCandidateEntities:"
+- "addObject:"
+- "addQueryResults:"
+- "addTimer:forMode:"
+- "additionalBundleProviders"
+- "albumName"
+- "annotationsAtIndex:"
+- "annotationsColumn"
+- "annotationsCount"
+- "appBundleIdColumn"
+- "appTags"
+- "applicationBundleIdentifier"
+- "applicationProxyForIdentifier:"
+- "applicationType"
+- "array"
+- "arrayWithObject:"
+- "associatedResults"
+- "autorelease"
+- "availableLayoutSize"
+- "boolValue"
+- "boundingBox"
+- "bounds"
+- "brandIdentifier"
+- "bundle"
+- "bundleID"
+- "bundleIdentifier"
+- "busyHandler"
+- "busyTimeout"
+- "candidateEntitiesAtIndex:"
+- "candidateEntitiesCount"
+- "capacity"
+- "chatRegistryContinuityKey"
+- "class"
+- "clearAnnotations"
+- "clearCandidateEntities"
+- "clearQueryResults"
+- "client"
+- "clientName"
+- "clientWithDefaultRequestType:"
+- "collations"
+- "collectEntityStringsWithCompletion:"
+- "collectOnScreenEntityStringsWithCompletion:"
+- "collectSalientEntityStringsWithCompletion:"
+- "collectSalientStringsWithCompletion:"
+- "commitHook"
+- "confidence"
+- "configurationForDefaultMainDisplayMonitor"
+- "conformsToProtocol:"
+- "connection"
+- "contactID"
+- "contactIdentifier"
+- "contactIdentifiers"
+- "contentIdentifier"
+- "contentItems"
+- "controller"
+- "convertNonTier1UsoGraph:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "customIdentifier"
+- "data"
+- "dataColumn"
+- "dataTypeColumn"
+- "dataVersion"
+- "dataWithJSONObject:options:error:"
+- "dateFromString:"
+- "db"
+- "dealloc"
+- "debugDescription"
+- "defaultManager"
+- "definitions"
+- "derivedIdentifierForComponent:fromSourceIdentifier:"
+- "description"
+- "descriptorForRequiredKeysForStyle:"
+- "dictionary"
+- "dictionaryRepresentation"
+- "discoveredPersons"
+- "displayName"
+- "dominantLanguage"
+- "donorBundleIdentifiers"
+- "elements"
+- "emitMessage:"
+- "emitMessage:timestamp:"
+- "encodeWithCoder:"
+- "endowmentNamespaces"
+- "entities"
+- "error"
+- "evaluateWithObject:"
+- "eventBody"
+- "eventWithData:dataVersion:"
+- "executeWithReply:"
+- "extractedAddressComponents"
+- "extractedEndDateComponents"
+- "extractedStartDateComponents"
+- "f"
+- "f16@0:8"
+- "familyNames"
+- "featureFlags"
+- "fetchEntitiesFromActiveApplicationsWithInteractionIDs:bundleIdentifiers:completionHandler:"
+- "file"
+- "fileURL"
+- "filterWithIsIncluded:"
+- "floatValue"
+- "frameInWindow"
+- "fullName"
+- "functions"
+- "getAnyEventType"
+- "getBytes:range:"
+- "getOnScreenContentWithOptions:completionHandler:"
+- "getTypeId"
+- "getVersion"
+- "getWithStreamId:"
+- "givenNames"
+- "groupIdColumn"
+- "groupSeqColumn"
+- "handle"
+- "hasActivityLevel"
+- "hasAnnotationAddedTimestampInSeconds"
+- "hasEnded"
+- "hasEntityCount"
+- "hasEntityPoolResolveContext"
+- "hasEntityPoolReturned"
+- "hasError"
+- "hasEventMetadata"
+- "hasFailed"
+- "hasGroup"
+- "hasGroupId"
+- "hasHasReference"
+- "hasITunesStoreAlbumIdentifier"
+- "hasITunesStoreArtistIdentifier"
+- "hasITunesStoreIdentifier"
+- "hasName"
+- "hasOutcome"
+- "hasPullerContext"
+- "hasReason"
+- "hasRequestId"
+- "hasRrID"
+- "hasRrUsoGraphTier1"
+- "hasSaliencyComputedAtTimestampInSeconds"
+- "hasSaliencyScore"
+- "hasSeq"
+- "hasStarted"
+- "hasStartedOrChanged"
+- "hasSwiftClassName"
+- "hasTimeout"
+- "hasUsoGraph"
+- "hasUsoGraphTier1"
+- "hasUsoQuery"
+- "hash"
+- "head"
+- "i12@?0i8"
+- "i16@0:8"
+- "i24@?0^v8^v16"
+- "i8@?0"
+- "iTunesStoreAlbumIdentifier"
+- "iTunesStoreArtistIdentifier"
+- "iTunesStoreIdentifier"
+- "idColumn"
+- "identifier"
+- "init"
+- "initWithCVPixelBuffer:"
+- "initWithCoder:"
+- "initWithConfiguration:"
+- "initWithContactID:identifier:name:flags:activityLevel:proximity:"
+- "initWithDestination:"
+- "initWithDictionary:"
+- "initWithJSON:"
+- "initWithJsonStr:interactionId:dataVersion:"
+- "initWithNSUUID:"
+- "initWithProperties:"
+- "initWithStartDate:endDate:maxEvents:lastN:reversed:"
+- "initWithStreamId:"
+- "insert:error:"
+- "instanceIdentifier"
+- "intValue"
+- "internalService"
+- "invalidate"
+- "isEqual:"
+- "isGroupMessage"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isOnScreen"
+- "isProvisional"
+- "isProxy"
+- "isSupportedUser"
+- "isValidJSONObject:"
+- "json"
+- "jsonData"
+- "jsonDict"
+- "keyedNodes"
+- "label"
+- "latestDataVersion"
+- "length"
+- "lnService"
+- "localDestination"
+- "lock"
+- "lockBeforeDate:"
+- "lockWithOptions:seed:"
+- "logger"
+- "mainDisplay"
+- "mainRunLoop"
+- "mediaAnalysisService"
+- "mediaSubType"
+- "mediaType"
+- "metadata"
+- "metadataColumn"
+- "mock"
+- "monitorWithConfiguration:"
+- "monitors"
+- "nameComponents"
+- "names"
+- "newRequest"
+- "next"
+- "notificationID"
+- "null"
+- "numberWithBool:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "onScreenContentService"
+- "onScreenSaliencyAdjustmentColumn"
+- "partsOfSpeechToTexts"
+- "performRequestWithCompletion:"
+- "performRequests:onCIImage:withOrientation:andIdentifier:completionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "personForIdentifier:"
+- "personHandle"
+- "personIdentifier"
+- "phoneNumbers"
+- "photoAssetIdentifier"
+- "playbackQueue"
+- "playbackState"
+- "playerPath"
+- "position"
+- "predicateFormat"
+- "predicateMatchingProcessTypeApplication"
+- "prev"
+- "process"
+- "processInfo"
+- "processName"
+- "processString:"
+- "proximity"
+- "publisherWithOptions:"
+- "pullers"
+- "qualifiedMessageName"
+- "queryResultsAtIndex:"
+- "queryResultsCount"
+- "queue"
+- "ranker"
+- "rbsProcessState"
+- "readFrom:"
+- "referenceResolutionClient"
+- "release"
+- "removeAllObjects"
+- "resourceSpecifier"
+- "respondsToSelector:"
+- "resultItems"
+- "results"
+- "retain"
+- "retainCount"
+- "rollbackHook"
+- "rrVisualGroups"
+- "saliencyComputedAtColumn"
+- "saliencyScoreColumn"
+- "self"
+- "serialize"
+- "service"
+- "setAnnotationAddedTimestampInSeconds:"
+- "setAnnotations:"
+- "setCandidateEntities:"
+- "setComponent:"
+- "setDateFormat:"
+- "setEnded:"
+- "setEndowmentNamespaces:"
+- "setEntityCount:"
+- "setEntityPoolResolveContext:"
+- "setEntityPoolReturned:"
+- "setEventMetadata:"
+- "setFailed:"
+- "setGroup:"
+- "setGroupId:"
+- "setHasAnnotationAddedTimestampInSeconds:"
+- "setHasEnded:"
+- "setHasEntityCount:"
+- "setHasEntityPoolResolveContext:"
+- "setHasEntityPoolReturned:"
+- "setHasEventMetadata:"
+- "setHasFailed:"
+- "setHasGroup:"
+- "setHasGroupId:"
+- "setHasHasReference:"
+- "setHasName:"
+- "setHasOutcome:"
+- "setHasPullerContext:"
+- "setHasReason:"
+- "setHasReference:"
+- "setHasRequestId:"
+- "setHasRrID:"
+- "setHasRrUsoGraphTier1:"
+- "setHasSaliencyComputedAtTimestampInSeconds:"
+- "setHasSaliencyScore:"
+- "setHasSeq:"
+- "setHasStarted:"
+- "setHasStartedOrChanged:"
+- "setHasSwiftClassName:"
+- "setHasTimeout:"
+- "setHasUsoGraph:"
+- "setHasUsoGraphTier1:"
+- "setHasUsoQuery:"
+- "setIncludePartsOfSpeech:"
+- "setIncludeStructuredExtractionResults:"
+- "setLocale:"
+- "setName:"
+- "setNeedsUserInteractivePriority:"
+- "setObject:forKeyedSubscript:"
+- "setOutcome:"
+- "setPosition:"
+- "setPullerContext:"
+- "setQueryResults:"
+- "setReason:"
+- "setRequestClientProperties:"
+- "setRequestId:"
+- "setRequestPlaybackQueue:"
+- "setRequestPlaybackState:"
+- "setRrID:"
+- "setRrUsoGraphTier1:"
+- "setSaliencyComputedAtTimestampInSeconds:"
+- "setSaliencyScore:"
+- "setSeq:"
+- "setSource:"
+- "setStarted:"
+- "setStartedOrChanged:"
+- "setSubRequestId:"
+- "setSwiftClassName:"
+- "setTarget:"
+- "setTimeZone:"
+- "setTimeout:"
+- "setTolerance:"
+- "setTransitionHandler:"
+- "setUsoGraph:"
+- "setUsoGraphTier1:"
+- "setUsoQuery:"
+- "setUuid:"
+- "setValue:forKey:"
+- "sharedService"
+- "sharedStream"
+- "sinkWithCompletion:receiveInput:"
+- "starting"
+- "statesForPredicate:withDescriptor:error:"
+- "storage"
+- "stream"
+- "stringFromDate:"
+- "stringFromPostalAddress:"
+- "structuredDataRepresentations"
+- "superclass"
+- "supportsSecureCoding"
+- "tags"
+- "tail"
+- "taskState"
+- "testMode"
+- "threadID"
+- "timerWithTimeInterval:repeats:block:"
+- "title"
+- "topicId"
+- "trace"
+- "trackArtistName"
+- "type"
+- "typeIdentifier"
+- "typedValueColumn"
+- "underlyingObject"
+- "unifiedContactWithIdentifier:keysToFetch:error:"
+- "uniqueID"
+- "unlock"
+- "unsignedIntValue"
+- "unsignedLongLongValue"
+- "updateHook"
+- "usageType"
+- "userIdColumn"
+- "usoEntityColumn"
+- "v16@0:8"
+- "v16@?0@\"BPSCompletion\"8"
+- "v16@?0@\"CKContextResponse\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0@8"
+- "v16@?0^v8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v20@0:8i16"
+- "v20@?0i8@\"NSError\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@?0@\"MRNowPlayingPlayerResponse\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"WFOnScreenContentNode\"8@\"NSError\"16"
+- "v28@?0^v8i16^^v20"
+- "v32@?0@\"FBSDisplayLayoutMonitor\"8@\"FBSDisplayLayout\"16@\"FBSDisplayLayoutTransitionContext\"24"
+- "v36@?0i8r*12r*20q28"
+- "v8@?0"
+- "value"
+- "viewService"
+- "visualIdentifierViewWithError:"
+- "wasCalled"
+- "whichContextevent"
+- "whichEvent_Type"
+- "wikiPersons"
+- "willProduceDictionaryRepresentation:"
+- "wrappedContinuation"
+- "writeTo:"
+- "zone"
+- "{?=\"entityCount\"b1}"
+- "{?=\"name\"b1\"annotationAddedTimestampInSeconds\"b1}"
+- "{?=\"outcome\"b1}"
+- "{?=\"reason\"b1}"
+- "{?=\"saliencyScore\"b1\"saliencyComputedAtTimestampInSeconds\"b1\"hasReference\"b1}"
+- "{?=\"seq\"b1}"
+- "{?=\"timeout\"b1}"
+
+```

@@ -1,0 +1,1605 @@
+## WeatherKit
+
+> `/System/Library/Frameworks/WeatherKit.framework/WeatherKit`
+
+```diff
+
+-1318.0.0.0.0
+-  __TEXT.__text: 0x17e5d0
+-  __TEXT.__auth_stubs: 0x37e0
++1431.1.0.0.0
++  __TEXT.__text: 0x19f10c
+   __TEXT.__objc_methlist: 0xc5c
+-  __TEXT.__const: 0x198be
+-  __TEXT.__swift5_typeref: 0x5822
+-  __TEXT.__constg_swiftt: 0x43e0
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x40a3
+-  __TEXT.__swift5_fieldmd: 0x66c8
+-  __TEXT.__swift5_types: 0x6b0
+-  __TEXT.__cstring: 0x10bf3
+-  __TEXT.__swift5_proto: 0x16e0
+-  __TEXT.__oslogstring: 0x3888
+-  __TEXT.__swift5_capture: 0x9f0
+-  __TEXT.__swift5_assocty: 0x9d0
++  __TEXT.__const: 0x1bf6e
++  __TEXT.__swift5_typeref: 0x5f82
++  __TEXT.__constg_swiftt: 0x49cc
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_reflstr: 0x45a3
++  __TEXT.__swift5_fieldmd: 0x7070
++  __TEXT.__swift5_types: 0x764
++  __TEXT.__cstring: 0x10dd3
++  __TEXT.__swift5_proto: 0x192c
++  __TEXT.__swift5_capture: 0x17f8
++  __TEXT.__oslogstring: 0x3b78
++  __TEXT.__swift5_assocty: 0xa90
++  __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift_as_entry: 0xf8
+-  __TEXT.__swift_as_ret: 0x154
+-  __TEXT.__unwind_info: 0x62e0
+-  __TEXT.__eh_frame: 0x8a8c
+-  __TEXT.__objc_classname: 0x41f
+-  __TEXT.__objc_methname: 0x3ff4
+-  __TEXT.__objc_methtype: 0x99d
+-  __TEXT.__objc_stubs: 0x600
+-  __DATA_CONST.__got: 0xac0
+-  __DATA_CONST.__const: 0x198
+-  __DATA_CONST.__objc_classlist: 0x98
++  __TEXT.__swift_as_entry: 0x108
++  __TEXT.__swift_as_ret: 0x164
++  __TEXT.__swift_as_cont: 0x258
++  __TEXT.__unwind_info: 0x6da0
++  __TEXT.__eh_frame: 0x8e3c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1b8
++  __DATA_CONST.__objc_classlist: 0xa0
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x990
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1bf8
+-  __AUTH_CONST.__const: 0xa310
+-  __AUTH_CONST.__objc_const: 0x26a0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xd800
++  __AUTH_CONST.__objc_const: 0x27b8
++  __AUTH_CONST.__auth_got: 0x1e08
+   __AUTH.__data: 0x678
+-  __DATA.__data: 0x3bb0
+-  __DATA.__bss: 0x24d00
++  __DATA.__data: 0x4140
++  __DATA.__bss: 0x29380
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__objc_data: 0xf0
+-  __DATA_DIRTY.__data: 0x4940
+-  __DATA_DIRTY.__bss: 0x8d80
++  __DATA_DIRTY.__data: 0x4cf8
++  __DATA_DIRTY.__bss: 0x9080
+   __DATA_DIRTY.__common: 0xc0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 14D673F0-D1D9-331E-88D1-43799A4A2C3B
+-  Functions: 11608
+-  Symbols:   9573
+-  CStrings:  2300
++  UUID: 0BC00088-5704-3506-9469-4FC274D5A2B2
++  Functions: 12654
++  Symbols:   10644
++  CStrings:  1509
+ 
+Symbols:
++ _OUTLINED_FUNCTION_384
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _OUTLINED_FUNCTION_393
++ _OUTLINED_FUNCTION_394
++ _OUTLINED_FUNCTION_395
++ _OUTLINED_FUNCTION_396
++ _OUTLINED_FUNCTION_397
++ _OUTLINED_FUNCTION_398
++ _OUTLINED_FUNCTION_399
++ _OUTLINED_FUNCTION_400
++ _OUTLINED_FUNCTION_401
++ _OUTLINED_FUNCTION_402
++ _OUTLINED_FUNCTION_403
++ _OUTLINED_FUNCTION_404
++ _OUTLINED_FUNCTION_405
++ _OUTLINED_FUNCTION_406
++ _OUTLINED_FUNCTION_407
++ _OUTLINED_FUNCTION_408
++ _OUTLINED_FUNCTION_409
++ _OUTLINED_FUNCTION_410
++ _OUTLINED_FUNCTION_411
++ _OUTLINED_FUNCTION_412
++ _OUTLINED_FUNCTION_413
++ _OUTLINED_FUNCTION_414
++ _OUTLINED_FUNCTION_415
++ _OUTLINED_FUNCTION_416
++ _OUTLINED_FUNCTION_417
++ _OUTLINED_FUNCTION_418
++ _OUTLINED_FUNCTION_419
++ _OUTLINED_FUNCTION_420
++ _OUTLINED_FUNCTION_421
++ _OUTLINED_FUNCTION_422
++ _OUTLINED_FUNCTION_423
++ _OUTLINED_FUNCTION_424
++ _OUTLINED_FUNCTION_425
++ _OUTLINED_FUNCTION_426
++ _OUTLINED_FUNCTION_427
++ _OUTLINED_FUNCTION_428
++ _OUTLINED_FUNCTION_429
++ _OUTLINED_FUNCTION_430
++ _OUTLINED_FUNCTION_431
++ _OUTLINED_FUNCTION_432
++ _OUTLINED_FUNCTION_433
++ _OUTLINED_FUNCTION_434
++ _OUTLINED_FUNCTION_435
++ _OUTLINED_FUNCTION_436
++ _OUTLINED_FUNCTION_437
++ _OUTLINED_FUNCTION_438
++ _OUTLINED_FUNCTION_439
++ _OUTLINED_FUNCTION_440
++ _OUTLINED_FUNCTION_441
++ _OUTLINED_FUNCTION_442
++ _OUTLINED_FUNCTION_443
++ _OUTLINED_FUNCTION_444
++ _OUTLINED_FUNCTION_445
++ _OUTLINED_FUNCTION_446
++ _OUTLINED_FUNCTION_447
++ _OUTLINED_FUNCTION_448
++ _OUTLINED_FUNCTION_449
++ _OUTLINED_FUNCTION_450
++ _OUTLINED_FUNCTION_451
++ _OUTLINED_FUNCTION_452
++ _OUTLINED_FUNCTION_453
++ _OUTLINED_FUNCTION_454
++ _OUTLINED_FUNCTION_455
++ _OUTLINED_FUNCTION_456
++ _OUTLINED_FUNCTION_457
++ _OUTLINED_FUNCTION_458
++ _OUTLINED_FUNCTION_459
++ _OUTLINED_FUNCTION_460
++ _OUTLINED_FUNCTION_461
++ _OUTLINED_FUNCTION_462
++ _OUTLINED_FUNCTION_463
++ _OUTLINED_FUNCTION_464
++ _OUTLINED_FUNCTION_465
++ _OUTLINED_FUNCTION_466
++ _OUTLINED_FUNCTION_467
++ _OUTLINED_FUNCTION_468
++ _OUTLINED_FUNCTION_469
++ _OUTLINED_FUNCTION_470
++ _OUTLINED_FUNCTION_471
++ _OUTLINED_FUNCTION_472
++ _OUTLINED_FUNCTION_473
++ _OUTLINED_FUNCTION_474
++ _OUTLINED_FUNCTION_475
++ _OUTLINED_FUNCTION_476
++ _OUTLINED_FUNCTION_477
++ _OUTLINED_FUNCTION_478
++ _OUTLINED_FUNCTION_479
++ _OUTLINED_FUNCTION_480
++ _OUTLINED_FUNCTION_481
++ _OUTLINED_FUNCTION_482
++ _OUTLINED_FUNCTION_483
++ _OUTLINED_FUNCTION_484
++ _OUTLINED_FUNCTION_485
++ _OUTLINED_FUNCTION_486
++ _OUTLINED_FUNCTION_487
++ __DATA__TtC10WeatherKitP33_A99F38E5CB9E5FDDBEBD64CB4DB07BED32WeatherRequestUnitProviderBridge
++ __IVARS__TtC10WeatherKitP33_A99F38E5CB9E5FDDBEBD64CB4DB07BED32WeatherRequestUnitProviderBridge
++ __METACLASS_DATA__TtC10WeatherKitP33_A99F38E5CB9E5FDDBEBD64CB4DB07BED32WeatherRequestUnitProviderBridge
++ ___exp10
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.100Tm
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.106Tm
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.114Tm
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.117Tm
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.119Tm
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.150Tm
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.252
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.262
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.266
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.273
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.278Tm
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.288
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.296Tm
++ ___swift_closure_destructor.299
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.303
++ ___swift_closure_destructor.307
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.310
++ ___swift_closure_destructor.313
++ ___swift_closure_destructor.314
++ ___swift_closure_destructor.317
++ ___swift_closure_destructor.321
++ ___swift_closure_destructor.324
++ ___swift_closure_destructor.325
++ ___swift_closure_destructor.328
++ ___swift_closure_destructor.328Tm
++ ___swift_closure_destructor.329
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.331
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.336
++ ___swift_closure_destructor.339
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.340
++ ___swift_closure_destructor.343
++ ___swift_closure_destructor.346
++ ___swift_closure_destructor.347
++ ___swift_closure_destructor.351
++ ___swift_closure_destructor.354
++ ___swift_closure_destructor.355
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.359
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.362
++ ___swift_closure_destructor.365
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.371
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.376
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.380
++ ___swift_closure_destructor.384
++ ___swift_closure_destructor.387
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.391
++ ___swift_closure_destructor.395
++ ___swift_closure_destructor.398
++ ___swift_closure_destructor.402
++ ___swift_closure_destructor.406
++ ___swift_closure_destructor.409
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.412
++ ___swift_closure_destructor.416
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.420
++ ___swift_closure_destructor.424
++ ___swift_closure_destructor.428
++ ___swift_closure_destructor.431
++ ___swift_closure_destructor.435
++ ___swift_closure_destructor.439
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.442
++ ___swift_closure_destructor.445
++ ___swift_closure_destructor.449
++ ___swift_closure_destructor.453
++ ___swift_closure_destructor.457
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.461
++ ___swift_closure_destructor.464
++ ___swift_closure_destructor.468
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.472
++ ___swift_closure_destructor.475
++ ___swift_closure_destructor.478
++ ___swift_closure_destructor.482
++ ___swift_closure_destructor.486
++ ___swift_closure_destructor.490
++ ___swift_closure_destructor.494
++ ___swift_closure_destructor.497
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.501
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.508
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.511
++ ___swift_closure_destructor.515
++ ___swift_closure_destructor.519
++ ___swift_closure_destructor.523
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.93Tm
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.97Tm
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy49_8
++ ___swift_memcpy5_1
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 10WeatherKit0A10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLOSHAASQ
++ _associated conformance 10WeatherKit0A10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit0A10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit0A10HighlightsVSHAASQ
++ _associated conformance 10WeatherKit0A19HighlightsConditionOSHAASQ
++ _associated conformance 10WeatherKit0A19HighlightsConditionOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10WeatherKit0A9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLOSHAASQ
++ _associated conformance 10WeatherKit0A9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit0A9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit0A9StatementVSHAASQ
++ _associated conformance 10WeatherKit12DistanceUnitOSHAASQ
++ _associated conformance 10WeatherKit12PressureUnitOSHAASQ
++ _associated conformance 10WeatherKit13DistanceUnitsOSHAASQ
++ _associated conformance 10WeatherKit13PressureUnitsOSHAASQ
++ _associated conformance 10WeatherKit13WindSpeedUnitOSHAASQ
++ _associated conformance 10WeatherKit15TemperatureUnitOSHAASQ
++ _associated conformance 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOSHAASQ
++ _associated conformance 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO12UvCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO12UvCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO13SunCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO13SunCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14MoonCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14MoonCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14SnowCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14SnowCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14TideCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14TideCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14WindCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO14WindCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO15StormCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO15StormCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO16MarineCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO16MarineCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO16TrendsCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO16TrendsCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO18HumidityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO18HumidityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO19LightningCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO19LightningCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20AirQualityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20AirQualityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20CloudCoverCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20CloudCoverCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20VisibilityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO20VisibilityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO21TemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO21TemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO23PrecipitationCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO23PrecipitationCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO30FeelsLikeTemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionO30FeelsLikeTemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit16NotableConditionOSHAASQ
++ _associated conformance 10WeatherKit16ResponseMetadataV10DataSourceOSHAASQ
++ _associated conformance 10WeatherKit16TemperatureUnitsOSHAASQ
++ _associated conformance 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOSHAASQ
++ _associated conformance 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOSHAASQ
++ _associated conformance 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO14NoneCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO14NoneCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOSHAASQ
++ _associated conformance 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit17NotableConditionsOSHAASQ
++ _associated conformance 10WeatherKit17PrecipitationUnitOSHAASQ
++ _associated conformance 10WeatherKit18PrecipitationUnitsOSHAASQ
++ _associated conformance 10WeatherKit9WindUnitsOSHAASQ
++ _block_copy_helper.5
++ _block_descriptor.7
++ _block_destroy_helper.6
++ _get_enum_tag_for_layout_string 10WeatherKit17NotableConditionsO
++ _objc_retain_x9
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic Say_____G 10WeatherKit0A19HighlightsConditionO
++ _symbolic Say_____G 10WeatherKit0A9StatementV
++ _symbolic Say_____G 10WeatherKit16NotableConditionO
++ _symbolic SbIegd_
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____ 10WeatherKit0A10HighlightsV
++ _symbolic _____ 10WeatherKit0A10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLO
++ _symbolic _____ 10WeatherKit0A19HighlightsConditionO
++ _symbolic _____ 10WeatherKit0A19RequestUnitProviderV
++ _symbolic _____ 10WeatherKit0A22ServiceFallbackOptionsV
++ _symbolic _____ 10WeatherKit0A25RequestUnitProviderBridge012_A99F38E5CB9I19FDDBEBD64CB4DB07BEDLLC
++ _symbolic _____ 10WeatherKit0A5UnitsV
++ _symbolic _____ 10WeatherKit0A9StatementV
++ _symbolic _____ 10WeatherKit0A9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLO
++ _symbolic _____ 10WeatherKit12DistanceUnitO
++ _symbolic _____ 10WeatherKit12PressureUnitO
++ _symbolic _____ 10WeatherKit13DistanceUnitsO
++ _symbolic _____ 10WeatherKit13PressureUnitsO
++ _symbolic _____ 10WeatherKit13WindSpeedUnitO
++ _symbolic _____ 10WeatherKit15TemperatureUnitO
++ _symbolic _____ 10WeatherKit16NotableConditionO
++ _symbolic _____ 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO12UvCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO13SunCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO14MoonCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO14SnowCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO14TideCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO14WindCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO15StormCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO16MarineCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO16TrendsCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO18HumidityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO19LightningCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO20AirQualityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO20CloudCoverCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO20VisibilityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO21TemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO23PrecipitationCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16NotableConditionO30FeelsLikeTemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit16ResponseMetadataV
++ _symbolic _____ 10WeatherKit16ResponseMetadataV10DataSourceO
++ _symbolic _____ 10WeatherKit16TemperatureUnitsO
++ _symbolic _____ 10WeatherKit17NotableConditionsO
++ _symbolic _____ 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit17NotableConditionsO14NoneCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____ 10WeatherKit17PrecipitationUnitO
++ _symbolic _____ 10WeatherKit18PrecipitationUnitsO
++ _symbolic _____ 10WeatherKit9WindUnitsO
++ _symbolic _____ 13WeatherDaemon13PollutantTypeO
++ _symbolic _____ 13WeatherDaemon14HistoricalFactV
++ _symbolic _____Iegr_ s6UInt64V
++ _symbolic _____Sg 10WeatherKit05CloudB12FetchOptionsV
++ _symbolic _____Sg 10WeatherKit0A10HighlightsV
++ _symbolic _____Sg 10WeatherKit0A22ServiceFallbackOptionsV
++ _symbolic _____Sg 10WeatherKit12DistanceUnitO
++ _symbolic _____Sg 10WeatherKit12PressureUnitO
++ _symbolic _____Sg 10WeatherKit13WindSpeedUnitO
++ _symbolic _____Sg 10WeatherKit15TemperatureUnitO
++ _symbolic _____Sg 10WeatherKit16ResponseMetadataV
++ _symbolic _____Sg 10WeatherKit17PrecipitationUnitO
++ _symbolic _____Sg 13WeatherDaemon0aB5UnitsV11TemperatureO
++ _symbolic _____Sg 13WeatherDaemon0aB5UnitsV13PrecipitationO
++ _symbolic _____Sg 13WeatherDaemon0aB5UnitsV8DistanceO
++ _symbolic _____Sg 13WeatherDaemon0aB5UnitsV8PressureO
++ _symbolic _____Sg 13WeatherDaemon0aB5UnitsV9WindSpeedO
++ _symbolic _____SgXw 10WeatherKit0A7ServiceC
++ _symbolic _____SgXwz_Xx 10WeatherKit0A7ServiceC
++ _symbolic _____SgyYbc 10WeatherKit0A5UnitsV
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic ______pSg 13WeatherDaemon0A19RequestUnitProviderP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit0D10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit0D9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO12UvCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO13SunCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO14MoonCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO14SnowCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO14TideCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO14WindCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO15StormCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO16MarineCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO16TrendsCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO18HumidityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO19LightningCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO20AirQualityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO20CloudCoverCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO20VisibilityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO21TemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO23PrecipitationCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit16NotableConditionO30FeelsLikeTemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit17NotableConditionsO14NoneCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit0D10HighlightsV10CodingKeys33_F3BA5CA50DF5358210603D5C8E29D8E4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit0D9StatementV10CodingKeys33_D678E3DC95FCB2082EB537B772A67508LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO12UvCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO13SunCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO14MoonCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO14SnowCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO14TideCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO14WindCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO15StormCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO16MarineCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO16TrendsCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO18HumidityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO19LightningCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO20AirQualityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO20CloudCoverCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO20VisibilityCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO21TemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO23PrecipitationCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit16NotableConditionO30FeelsLikeTemperatureCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit17NotableConditionsO10CodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit17NotableConditionsO14ManyCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit17NotableConditionsO14NoneCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit17NotableConditionsO16SingleCodingKeys33_76F7CB272DB3A3E85D00CE3ABF140083LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit0D19HighlightsConditionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit0D9StatementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit16NotableConditionO
++ _symbolic _____y_____SgG 10WeatherKit0A5QueryV AA0A10HighlightsV
++ _symbolic _____y_____SgG 10WeatherKit0A5QueryV AA16ResponseMetadataV
++ _symbolic _____y_____SiG s18_DictionaryStorageC 10WeatherKit16NotableConditionO
++ _symbolic _____y______SitG s23_ContiguousArrayStorageC 10WeatherKit16NotableConditionO
++ _symbolic _____y___________y_____GSgACy_____GACy_____GSay_____GSg__________Sg_____Sgt______pGSg s6ResultOsRi_zRi0_zrlE 10WeatherKit07CurrentB0V AC8ForecastV AC06MinuteB0V AC04HourB0V AC03DayB0V AC0B5AlertV AC0B12AvailabilityV AC10AirQualityV AC0B7ChangesV s5ErrorP
++ _symbolic _____y_____y___________y_____GSgADy_____GADy_____GSay_____GSg__________Sg_____Sgt______pGG 13TeaFoundation7PromiseC s6ResultOsRi_zRi0_zrlE 10WeatherKit07CurrentE0V AF8ForecastV AF06MinuteE0V AF04HourE0V AF03DayE0V AF0E5AlertV AF0E12AvailabilityV AF10AirQualityV AF0E7ChangesV s5ErrorP
++ _type_layout_string 10WeatherKit0A19RequestUnitProviderV
++ _type_layout_string 10WeatherKit0A22ServiceFallbackOptionsV
++ _type_layout_string 10WeatherKit0A5UnitsV
++ _type_layout_string 10WeatherKit16ResponseMetadataV
++ _type_layout_string 10WeatherKit17NotableConditionsO
+- _block_copy_helper.6
+- _block_descriptor.8
+- _block_destroy_helper.7
+- _objectdestroy.103Tm
+- _objectdestroy.109Tm
+- _objectdestroy.11Tm
+- _objectdestroy.120Tm
+- _objectdestroy.122Tm
+- _objectdestroy.30Tm
+- _objectdestroy.33Tm
+- _objectdestroy.5Tm
+- _objectdestroy.66Tm
+- _objectdestroy.86Tm
+- _objectdestroy.90Tm
+- _objectdestroyTm
+- _symbolic SS3key______5valuetSg 10WeatherKit12AirPollutantV
+- _symbolic SS3key______5valuetSg 13WeatherDaemon15AirQualityScaleV
+- _symbolic _____Sg 10WeatherKit0A8MetadataV
+- _symbolic _____Sg 10WeatherKit14HistoricalFactV
+- _symbolic _____Sg 13WeatherDaemon0A11ComparisonsV
+- _symbolic _____Sg 13WeatherDaemon15HistoricalFactsV
+- _symbolic _____Sg 13WeatherDaemon15WDSClientErrorsO
+- _symbolic _____y_____GSg 10WeatherKit0A5QueryV AA17PeriodicForecastsV
+- _symbolic _____y_____SgGSg 10WeatherKit0A5QueryV AA10TideEventsV
+- _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10WeatherKit014ReverseGeocodeA0V s5ErrorP
+- _symbolic _____y_____y_____GGSg 10WeatherKit0A5QueryV AA8ForecastV AA03DayA0V
+- _symbolic _____y_____y_____GGSg 10WeatherKit0A5QueryV AA8ForecastV AA04HourA0V
+- _symbolic _____y_____y_____GSgGSg 10WeatherKit0A5QueryV AA8ForecastV AA010HourMarineA0V
+CStrings:
++ "All fallbacks exhausted; location=%{private,mask.hash}@, originalError=%{public}s"
++ "Attempting fallback cache lookup; location=%{private,mask.hash}@"
++ "CloudKit fallback failed; location=%{private,mask.hash}@, error=%{public}s"
++ "CloudKit fallback succeeded; location=%{private,mask.hash}@"
++ "Duplicate values for key: '"
++ "Fallback cache policy is .ignoreCache, skipping fallback"
++ "Feels-Like Temperature"
++ "Merging cached severe alerts with CloudKit fallback data; count=%ld"
++ "No fallback cache policy; failing."
++ "Returning fallback cache data after network failure; location=%{private,mask.hash}@"
++ "Successfully built highlights; location=%{private,mask.hash}s"
++ "Swift/NativeDictionary.swift"
++ "Unhandled case in WeatherHighlightsCondition.init with case: %{public}s))"
++ "beaufort"
++ "cloudCover"
++ "feelsLikeTemperature"
++ "hectopascals"
++ "highlightsVersion"
++ "humidity"
++ "imperial"
++ "inHg"
++ "kilopascals"
++ "knots"
++ "lightning"
++ "marine"
++ "metersPerSec"
++ "metric"
++ "millibar"
++ "mmHg"
++ "moon"
++ "periodicForecasts"
++ "storm"
++ "sun"
++ "tide"
++ "trends"
++ "uv"
++ "visibility"
++ "wind"
+- "#16@0:8"
+- "$__lazy_storage_$_minuteForecastStringBuilder"
+- "@\"<GEOAnnotatedItemList>\"16@0:8"
+- "@\"<GEOEncyclopedicInfo>\"16@0:8"
+- "@\"<GEOMapItem>\"16@0:8"
+- "@\"<GEOMapItem>\"20@0:8B16"
+- "@\"<GEOMapItemTransitInfo>\"16@0:8"
+- "@\"<GEOMapItemVenueInfo>\"16@0:8"
+- "@\"<GEOTransitAttribution>\"16@0:8"
+- "@\"<GEOTransitVehiclePosition>\"16@0:8"
+- "@\"GEOAddress\"16@0:8"
+- "@\"GEOAddressObject\"16@0:8"
+- "@\"GEOAppleRating\"16@0:8"
+- "@\"GEOAssociatedApp\"16@0:8"
+- "@\"GEOBusinessAssets\"16@0:8"
+- "@\"GEOEVCharger\"16@0:8"
+- "@\"GEOEnclosingPlace\"16@0:8"
+- "@\"GEOEnhancedPlacement\"16@0:8"
+- "@\"GEOEnrichmentData\"16@0:8"
+- "@\"GEOEnrichmentInfo\"16@0:8"
+- "@\"GEOExploreGuides\"16@0:8"
+- "@\"GEOFeatureStyleAttributes\"16@0:8"
+- "@\"GEOHikeSummary\"16@0:8"
+- "@\"GEOInlineRapEnablement\"16@0:8"
+- "@\"GEOLabelGeometry\"16@0:8"
+- "@\"GEOLocalizedString\"16@0:8"
+- "@\"GEOMapItemAdditionalPlaceInfo\"16@0:8"
+- "@\"GEOMapItemClientAttributes\"16@0:8"
+- "@\"GEOMapItemContainedPlace\"16@0:8"
+- "@\"GEOMapItemDetourInfo\"16@0:8"
+- "@\"GEOMapItemIdentifier\"16@0:8"
+- "@\"GEOMapItemPhotosAttribution\"16@0:8"
+- "@\"GEOMapItemPlaceAttribution\"16@0:8"
+- "@\"GEOMapItemReviewsAttribution\"16@0:8"
+- "@\"GEOMapRegion\"16@0:8"
+- "@\"GEOMapRegion\"20@0:8i16"
+- "@\"GEOMessageLink\"16@0:8"
+- "@\"GEOMiniBrowseCategories\"16@0:8"
+- "@\"GEOMuninViewState\"16@0:8"
+- "@\"GEOPDFlyover\"16@0:8"
+- "@\"GEOPDHikeAssociatedInfo\"16@0:8"
+- "@\"GEOPDHikeGeometry\"16@0:8"
+- "@\"GEOPDPlace\"16@0:8"
+- "@\"GEOPDURLData\"16@0:8"
+- "@\"GEOPOIClaim\"16@0:8"
+- "@\"GEOPlace\"16@0:8"
+- "@\"GEOPlaceQuestionnaire\"16@0:8"
+- "@\"GEOPlaceResult\"16@0:8"
+- "@\"GEOPlacecardLayoutData\"16@0:8"
+- "@\"GEOPriceDescription\"16@0:8"
+- "@\"GEORelatedPlaceList\"20@0:8i16"
+- "@\"GEORestaurantFeaturesLink\"16@0:8"
+- "@\"GEOStorefrontInfo\"16@0:8"
+- "@\"GEOStorefrontPresentationInfo\"16@0:8"
+- "@\"GEOStyleAttributes\"16@0:8"
+- "@\"GEOTooltip\"16@0:8"
+- "@\"GEOTrailHead\"16@0:8"
+- "@\"GEOViewportFrame\"16@0:8"
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"20@0:8I16"
+- "@\"NSData\"16@0:8"
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSNumber\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSTimeZone\"16@0:8"
+- "@\"NSURL\"16@0:8"
+- "@\"NSURL\"36@0:8{CGSize=dd}16B32"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8I16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@36@0:8{CGSize=dd}16B32"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B20@0:8I16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<GEOMapItem>\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "GEOMapItem"
+- "I16@0:8"
+- "ISOcountryCode"
+- "NSObject"
+- "Q16@0:8"
+- "RAPFlowType"
+- "T#,R"
+- "T@\"<GEOAnnotatedItemList>\",R,N,G_annotatedItemList"
+- "T@\"<GEOEncyclopedicInfo>\",R,N,G_encyclopedicInfo"
+- "T@\"<GEOMapItemTransitInfo>\",R,N,G_transitInfo"
+- "T@\"<GEOMapItemVenueInfo>\",R,N,G_venueInfo"
+- "T@\"<GEOTransitAttribution>\",R,N,G_transitAttribution"
+- "T@\"<GEOTransitVehiclePosition>\",R,N,G_transitVehiclePosition"
+- "T@\"GEOAddress\",R,N"
+- "T@\"GEOAppleRating\",R,N,G_overallAppleRating"
+- "T@\"GEOAssociatedApp\",R,N,G_associatedApp"
+- "T@\"GEOBusinessAssets\",R,N"
+- "T@\"GEOEVCharger\",R,N,G_evCharger"
+- "T@\"GEOEnclosingPlace\",R,N,G_enclosingPlace"
+- "T@\"GEOEnhancedPlacement\",R,N,G_enhancedPlacement"
+- "T@\"GEOEnrichmentData\",R,N,G_enrichmentData"
+- "T@\"GEOEnrichmentInfo\",R,N,G_enrichmentInfo"
+- "T@\"GEOExploreGuides\",R,N,G_exploreGuides"
+- "T@\"GEOFeatureStyleAttributes\",R,N,G_styleAttributes"
+- "T@\"GEOHikeSummary\",R,N,G_hikeSummary"
+- "T@\"GEOInlineRapEnablement\",R,N,G_inlineRapEnablement"
+- "T@\"GEOLabelGeometry\",R,N,G_labelGeometry"
+- "T@\"GEOLocalizedString\",R,N"
+- "T@\"GEOMapItemClientAttributes\",R,N,G_clientAttributes"
+- "T@\"GEOMapItemContainedPlace\",R,N,G_containedPlace"
+- "T@\"GEOMapItemDetourInfo\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N"
+- "T@\"GEOMapItemIdentifier\",R,N,G_identifier"
+- "T@\"GEOMapItemPhotosAttribution\",R,N,G_photosAttribution"
+- "T@\"GEOMapItemPlaceAttribution\",R,N,G_attribution"
+- "T@\"GEOMapItemReviewsAttribution\",R,N,G_reviewsAttribution"
+- "T@\"GEOMapRegion\",R,N"
+- "T@\"GEOMessageLink\",R,N,G_messageLink"
+- "T@\"GEOMiniBrowseCategories\",R,N,G_miniBrowseCategories"
+- "T@\"GEOMuninViewState\",R,N,G_muninViewState"
+- "T@\"GEOPDFlyover\",R,N,G_flyover"
+- "T@\"GEOPDHikeAssociatedInfo\",R,N,G_hikeAssociatedInfo"
+- "T@\"GEOPDHikeGeometry\",R,N,G_hikeGeometry"
+- "T@\"GEOPDPlace\",R,N,G_placeData"
+- "T@\"GEOPDURLData\",R,N"
+- "T@\"GEOPOIClaim\",R,N,G_poiClaim"
+- "T@\"GEOPlace\",R,N,G_place"
+- "T@\"GEOPlaceQuestionnaire\",R,N,G_placeQuestionnaire"
+- "T@\"GEOPlaceResult\",R,N,G_placeResult"
+- "T@\"GEOPlacecardLayoutData\",R,N,G_placecardLayoutData"
+- "T@\"GEOPriceDescription\",R,N,G_priceDescription"
+- "T@\"GEORestaurantFeaturesLink\",R,N,G_featureLink"
+- "T@\"GEOStorefrontInfo\",R,N,G_storefrontInfo"
+- "T@\"GEOStorefrontPresentationInfo\",R,N,G_storefrontPresentationInfo"
+- "T@\"GEOStyleAttributes\",R,N,G_walletCategoryStyling"
+- "T@\"GEOStyleAttributes\",R,N,G_walletPlaceStyling"
+- "T@\"GEOTooltip\",R,N,G_tooltip"
+- "T@\"GEOTrailHead\",R,N,G_trailHead"
+- "T@\"GEOViewportFrame\",R,N,G_viewportFrame"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,G_accolades"
+- "T@\"NSArray\",R,N,G_additionalPlaceInfos"
+- "T@\"NSArray\",R,N,G_allPhotoAttributions"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryIDs"
+- "T@\"NSArray\",R,N,G_alternateMapsCategoryMUIDs"
+- "T@\"NSArray\",R,N,G_alternateSearchableNames"
+- "T@\"NSArray\",R,N,G_amenities"
+- "T@\"NSArray\",R,N,G_appleRatings"
+- "T@\"NSArray\",R,N,G_browseCategories"
+- "T@\"NSArray\",R,N,G_businessHours"
+- "T@\"NSArray\",R,N,G_captionedPhotoAlbums"
+- "T@\"NSArray\",R,N,G_childItems"
+- "T@\"NSArray\",R,N,G_enrichmentPhotos"
+- "T@\"NSArray\",R,N,G_externalActionLinks"
+- "T@\"NSArray\",R,N,G_identifierHistory"
+- "T@\"NSArray\",R,N,G_linkedServices"
+- "T@\"NSArray\",R,N,G_photos"
+- "T@\"NSArray\",R,N,G_placeCollectionPullQuotes"
+- "T@\"NSArray\",R,N,G_placeCollections"
+- "T@\"NSArray\",R,N,G_placeCollectionsIds"
+- "T@\"NSArray\",R,N,G_quickLinks"
+- "T@\"NSArray\",R,N,G_relatedPlaceLists"
+- "T@\"NSArray\",R,N,G_reviews"
+- "T@\"NSArray\",R,N,G_roadAccessPoints"
+- "T@\"NSArray\",R,N,G_searchResultPhotoCarousel"
+- "T@\"NSArray\",R,N,G_secondaryQuickLinks"
+- "T@\"NSArray\",R,N,G_tips"
+- "T@\"NSData\",R,N"
+- "T@\"NSData\",R,N,G_placeDataAsData"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",R,N,G_mapsCategoryMUID"
+- "T@\"NSSet\",R,N,G_alternateIdentifiers"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N,G_vendorID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,G_bestAvailableCountryCode"
+- "T@\"NSString\",R,N,G_businessURL"
+- "T@\"NSString\",R,N,G_disambiguationName"
+- "T@\"NSString\",R,N,G_flyoverAnnouncementMessage"
+- "T@\"NSString\",R,N,G_iso3166CountryCode"
+- "T@\"NSString\",R,N,G_iso3166SubdivisionCode"
+- "T@\"NSString\",R,N,G_mapsCategoryId"
+- "T@\"NSString\",R,N,G_placeDescription"
+- "T@\"NSString\",R,N,G_poiCategory"
+- "T@\"NSString\",R,N,G_poiPinpointURLString"
+- "T@\"NSString\",R,N,G_poiSurveyURLString"
+- "T@\"NSString\",R,N,G_resultSnippetLocationString"
+- "T@\"NSString\",R,N,G_telephone"
+- "T@\"NSString\",R,N,G_walletCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedString"
+- "T@\"NSString\",R,N,G_walletCategoryLocalizedStringLocale"
+- "T@\"NSString\",R,N,G_walletMapsCategoryIdentifier"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedString"
+- "T@\"NSString\",R,N,G_walletPlaceLocalizedStringLocale"
+- "T@\"NSTimeZone\",R,N"
+- "T@\"NSURL\",R,C,N,G_providerURL"
+- "T@\"NSURL\",R,C,N,G_webURL"
+- "TB,R,N"
+- "TB,R,N,G_canDownloadMorePhotos"
+- "TB,R,N,G_enableRAPLightweightFeedback"
+- "TB,R,N,G_hasAnyAccolades"
+- "TB,R,N,G_hasAnyAmenities"
+- "TB,R,N,G_hasAppleRatings"
+- "TB,R,N,G_hasAreaHighlightId"
+- "TB,R,N,G_hasAreaInMeters"
+- "TB,R,N,G_hasBrandMUID"
+- "TB,R,N,G_hasBusinessHours"
+- "TB,R,N,G_hasCaptionedPhotoAlbum"
+- "TB,R,N,G_hasCurrentOperatingHours"
+- "TB,R,N,G_hasEVCharger"
+- "TB,R,N,G_hasEnclosingPlace"
+- "TB,R,N,G_hasEncyclopedicInfo"
+- "TB,R,N,G_hasFeatureLink"
+- "TB,R,N,G_hasFlyover"
+- "TB,R,N,G_hasGroundViewLocationId"
+- "TB,R,N,G_hasLinkedServices"
+- "TB,R,N,G_hasMUID"
+- "TB,R,N,G_hasOperatingHours"
+- "TB,R,N,G_hasPOIClaim"
+- "TB,R,N,G_hasPlaceCollectionPullQuotes"
+- "TB,R,N,G_hasPlaceDescription"
+- "TB,R,N,G_hasPlaceQuestionnaire"
+- "TB,R,N,G_hasPriceRange"
+- "TB,R,N,G_hasResolvablePartialInformation"
+- "TB,R,N,G_hasResultProviderID"
+- "TB,R,N,G_hasSprLandmarkIcon"
+- "TB,R,N,G_hasTelephone"
+- "TB,R,N,G_hasTransit"
+- "TB,R,N,G_hasUserRatingScore"
+- "TB,R,N,G_hasVenueFeatureType"
+- "TB,R,N,G_hasWifiFingerprintConfidence"
+- "TB,R,N,G_hasWifiFingerprintLabelStatusCode"
+- "TB,R,N,G_hasWifiFingerprintLabelType"
+- "TB,R,N,G_isCoordinateDerived"
+- "TB,R,N,G_isInLinkedPlaceRelationship"
+- "TB,R,N,G_isPartiallyClientized"
+- "TB,R,N,G_isStandaloneBrand"
+- "TB,R,N,G_isTransitDisplayFeature"
+- "TB,R,N,G_needsAttribution"
+- "TB,R,N,G_optsOutOfTelephoneAds"
+- "TB,R,N,G_responseStatusIsIncomplete"
+- "TB,R,N,G_showSuggestAnEditButton"
+- "TB,R,N,GisDisputed"
+- "TB,R,N,GisValid"
+- "TI,R,N,G_maxScoreForPriceRange"
+- "TI,R,N,G_priceRange"
+- "TI,R,N,G_resultSnippetDistanceDisplayThreshold"
+- "TI,R,N,G_sampleSizeForUserRatingScore"
+- "TI,R,N,G_wifiFingerprintConfidence"
+- "TQ,R"
+- "TQ,R,N,G_areaHighlightId"
+- "TQ,R,N,G_brandMUID"
+- "TQ,R,N,G_customIconID"
+- "TQ,R,N,G_groundViewLocationId"
+- "TQ,R,N,G_muid"
+- "TQ,R,N,G_openingHoursOptions"
+- "TQ,R,N,G_totalPhotoCount"
+- "Td,R,N"
+- "Td,R,N,G_areaInMeters"
+- "Tf,R,N"
+- "Tf,R,N,G_normalizedUserRatingScore"
+- "Tf,R,N,G_photosMemoryScore"
+- "Ti,R,N"
+- "Ti,R,N,G_RAPFlowType"
+- "Ti,R,N,G_addressGeocodeAccuracy"
+- "Ti,R,N,G_hikeGeometryElevationModel"
+- "Ti,R,N,G_parsecSectionType"
+- "Ti,R,N,G_placeCategoryType"
+- "Ti,R,N,G_placeDisplayStyle"
+- "Ti,R,N,G_placeDisplayType"
+- "Ti,R,N,G_placeType"
+- "Ti,R,N,G_resultProviderID"
+- "Ti,R,N,G_venueFeatureType"
+- "Ti,R,N,G_wifiFingerprintLabelStatusCode"
+- "Ti,R,N,G_wifiFingerprintLabelType"
+- "Tq,R,N"
+- "T{?=dd},R,N"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_RAPFlowType"
+- "_TtC10WeatherKit10Automation"
+- "_TtC10WeatherKit12GeocodeStore"
+- "_TtC10WeatherKit13AQIScaleStore"
+- "_TtC10WeatherKit14GeocodeManager"
+- "_TtC10WeatherKit14GeocodeService"
+- "_TtC10WeatherKit14WeatherService"
+- "_TtC10WeatherKit17MockDataConstants"
+- "_TtC10WeatherKit19WeatherModelFactory"
+- "_TtC10WeatherKit22WeatherAQIScaleService"
+- "_TtC10WeatherKit26ProductRequirementsFactory"
+- "_TtC10WeatherKit27MinuteForecastStringBuilder"
+- "_TtC10WeatherKit27WeatherAQIScaleCacheManager"
+- "_TtC10WeatherKit28WeatherConditionSymbolMapper"
+- "_TtC10WeatherKit34StaticServiceConfigurationProvider"
+- "_TtC10WeatherKit34WeatherServiceFetchOptionsProvider"
+- "_TtC10WeatherKit36WeatherServiceClientSettingsProvider"
+- "_TtC10WeatherKitP33_1D999C2980F3DD691D6C028F635E9A6012BundleLookup"
+- "_TtCV10WeatherKit16WeatherDataModelP33_F7CB3AD3091A0ACC4A7EE9D64C438A297Storage"
+- "_TtCV10WeatherKit18WeatherAttributionP33_58EC53A9C2B4F8A1CC73F192127C76C07Storage"
+- "_accolades"
+- "_additionalPlaceInfos"
+- "_addressGeocodeAccuracy"
+- "_allPhotoAttributions"
+- "_alternateIdentifiers"
+- "_alternateMapsCategoryIDs"
+- "_alternateMapsCategoryMUIDs"
+- "_alternateSearchableNames"
+- "_amenities"
+- "_annotatedItemList"
+- "_appleRatings"
+- "_areaHighlightId"
+- "_areaInMeters"
+- "_arrivalMapRegionForTransportType:"
+- "_asPlaceInfo"
+- "_associatedApp"
+- "_attribution"
+- "_auditToken"
+- "_bestAvailableCountryCode"
+- "_bestAvatarBrandIconURLForSize:allowSmaller:"
+- "_bestHeroBrandIconURLForSize:allowSmaller:"
+- "_bestIconForPlaceCardHeaderDisplay:allowSmaller:"
+- "_bestNavbarBrandIconURLForSize:allowSmaller:"
+- "_brandMUID"
+- "_browseCategories"
+- "_businessHours"
+- "_businessURL"
+- "_canDownloadMorePhotos"
+- "_captionedPhotoAlbums"
+- "_childItems"
+- "_clientAttributes"
+- "_containedPlace"
+- "_customIconID"
+- "_disambiguationName"
+- "_enableRAPLightweightFeedback"
+- "_enclosingPlace"
+- "_encyclopedicInfo"
+- "_enhancedPlacement"
+- "_enrichmentData"
+- "_enrichmentInfo"
+- "_enrichmentPhotos"
+- "_evCharger"
+- "_exploreGuides"
+- "_externalActionLinks"
+- "_featureLink"
+- "_firstRelatedPlaceListForType:"
+- "_flyover"
+- "_flyoverAnnouncementMessage"
+- "_groundViewLocationId"
+- "_hasAnyAccolades"
+- "_hasAnyAmenities"
+- "_hasAppleRatings"
+- "_hasAreaHighlightId"
+- "_hasAreaInMeters"
+- "_hasBrandMUID"
+- "_hasBusinessHours"
+- "_hasCaptionedPhotoAlbum"
+- "_hasCurrentOperatingHours"
+- "_hasEVCharger"
+- "_hasEnclosingPlace"
+- "_hasEncyclopedicInfo"
+- "_hasFeatureLink"
+- "_hasFlyover"
+- "_hasGroundViewLocationId"
+- "_hasLinkedServices"
+- "_hasLocalizedCategoryNamesForType:"
+- "_hasMUID"
+- "_hasOperatingHours"
+- "_hasPOIClaim"
+- "_hasPlaceCollectionPullQuotes"
+- "_hasPlaceDescription"
+- "_hasPlaceQuestionnaire"
+- "_hasPriceRange"
+- "_hasResolvablePartialInformation"
+- "_hasResultProviderID"
+- "_hasSprLandmarkIcon"
+- "_hasTelephone"
+- "_hasTransit"
+- "_hasUserRatingScore"
+- "_hasVenueFeatureType"
+- "_hasWifiFingerprintConfidence"
+- "_hasWifiFingerprintLabelStatusCode"
+- "_hasWifiFingerprintLabelType"
+- "_hikeAssociatedInfo"
+- "_hikeGeometry"
+- "_hikeGeometryElevationModel"
+- "_hikeSummary"
+- "_identifier"
+- "_identifierHistory"
+- "_inlineRapEnablement"
+- "_isCoordinateDerived"
+- "_isInLinkedPlaceRelationship"
+- "_isPartiallyClientized"
+- "_isStandaloneBrand"
+- "_isTransitDisplayFeature"
+- "_iso3166CountryCode"
+- "_iso3166SubdivisionCode"
+- "_labelGeometry"
+- "_linkedServices"
+- "_localizedCategoryNamesForType:"
+- "_mapItemBySettingIsTransitDisplayFeature:"
+- "_mapItemByStrippingOptionalData"
+- "_mapsCategoryId"
+- "_mapsCategoryMUID"
+- "_maxScoreForPriceRange"
+- "_messageLink"
+- "_miniBrowseCategories"
+- "_muid"
+- "_muninViewState"
+- "_needsAttribution"
+- "_normalizedUserRatingScore"
+- "_openingHoursOptions"
+- "_optsOutOfTelephoneAds"
+- "_overallAppleRating"
+- "_parsecSectionType"
+- "_photos"
+- "_photosAttribution"
+- "_photosMemoryScore"
+- "_place"
+- "_placeCategoryType"
+- "_placeCollectionPullQuotes"
+- "_placeCollections"
+- "_placeCollectionsIds"
+- "_placeData"
+- "_placeDataAsData"
+- "_placeDescription"
+- "_placeDisplayStyle"
+- "_placeDisplayType"
+- "_placeQuestionnaire"
+- "_placeResult"
+- "_placeType"
+- "_placecardLayoutData"
+- "_poiCategory"
+- "_poiClaim"
+- "_poiPinpointURLString"
+- "_poiSurveyURLString"
+- "_priceDescription"
+- "_priceRange"
+- "_providerURL"
+- "_quickLinks"
+- "_relatedPlaceListForComponentIdentifier:"
+- "_relatedPlaceLists"
+- "_responseStatusIsIncomplete"
+- "_resultProviderID"
+- "_resultSnippetDistanceDisplayThreshold"
+- "_resultSnippetLocationString"
+- "_reviews"
+- "_reviewsAttribution"
+- "_roadAccessPoints"
+- "_sampleSizeForUserRatingScore"
+- "_searchResultPhotoCarousel"
+- "_secondaryQuickLinks"
+- "_showSuggestAnEditButton"
+- "_spokenAddressForLocale:"
+- "_storefrontInfo"
+- "_storefrontPresentationInfo"
+- "_styleAttributes"
+- "_telephone"
+- "_tips"
+- "_tooltip"
+- "_totalPhotoCount"
+- "_trailHead"
+- "_transitAttribution"
+- "_transitInfo"
+- "_transitVehiclePosition"
+- "_vendorID"
+- "_venueFeatureType"
+- "_venueInfo"
+- "_viewportFrame"
+- "_walletCategoryIdentifier"
+- "_walletCategoryLocalizedString"
+- "_walletCategoryLocalizedStringLocale"
+- "_walletCategoryStyling"
+- "_walletMapsCategoryIdentifier"
+- "_walletPlaceLocalizedString"
+- "_walletPlaceLocalizedStringLocale"
+- "_walletPlaceStyling"
+- "_webURL"
+- "_wifiFingerprintConfidence"
+- "_wifiFingerprintLabelStatusCode"
+- "_wifiFingerprintLabelType"
+- "accolades"
+- "addObserver:selector:name:object:"
+- "additionalPlaceInfos"
+- "addressDictionary"
+- "addressGeocodeAccuracy"
+- "addressObject"
+- "airQualityScaleService"
+- "allPhotoAttributions"
+- "alternateIdentifiers"
+- "alternateMapsCategoryIDs"
+- "alternateMapsCategoryMUIDs"
+- "alternateNames"
+- "alternateSearchableNames"
+- "amenities"
+- "annotatedItemList"
+- "appBundleIDWithVendorID:"
+- "appleRatings"
+- "areaHighlightId"
+- "areaInMeters"
+- "areasOfInterest"
+- "associatedApp"
+- "attribution"
+- "attributionBundleIdentifier"
+- "autorelease"
+- "availability"
+- "bestAvailableCountryCode"
+- "boolForKey:"
+- "brandMUID"
+- "browseCategories"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "businessAssets"
+- "businessHours"
+- "businessURL"
+- "cachingRadiusMeters"
+- "canDownloadMorePhotos"
+- "captionedPhotoAlbums"
+- "centerCoordinate"
+- "childItems"
+- "class"
+- "clientAttributes"
+- "code"
+- "comparisonHash"
+- "configuration"
+- "conformsToProtocol:"
+- "contactAddressType"
+- "contactIsMe"
+- "contactName"
+- "contactSpokenName"
+- "containedPlace"
+- "coordinate"
+- "countryCode"
+- "currentConnection"
+- "currentCountryConfiguration"
+- "currentWeather"
+- "customIconID"
+- "d16@0:8"
+- "dailyForecast"
+- "dataNotice"
+- "debugDescription"
+- "defaultCenter"
+- "defaultTraits"
+- "degrees"
+- "description"
+- "detourInfo"
+- "disambiguationName"
+- "disclaimerText"
+- "displayMapRegion"
+- "displayMapRegionOrNil"
+- "displayMaxZoom"
+- "displayMinZoom"
+- "disputed"
+- "enableRAPLightweightFeedback"
+- "enclosingPlace"
+- "enclosingRegionIdentifier"
+- "encodedData"
+- "encyclopedicInfo"
+- "endpoint"
+- "enhancedPlacement"
+- "enrichmentData"
+- "enrichmentInfo"
+- "enrichmentPhotos"
+- "evCharger"
+- "eventDate"
+- "eventName"
+- "exploreGuides"
+- "externalActionLinks"
+- "externalTransitStationCode"
+- "f16@0:8"
+- "featureLink"
+- "feet"
+- "fetchOptionsProvider"
+- "flyover"
+- "flyoverAnnouncementMessage"
+- "forecastDayCount"
+- "forecastHourCount"
+- "forecastMinuteCount"
+- "geoAddress"
+- "geoFenceMapRegion"
+- "geoFenceMapRegionOrNil"
+- "geocodeManager"
+- "gmtLocalDateFormatter"
+- "groundViewLocationId"
+- "handleCountryConfigurationChange:"
+- "hasAnyAccolades"
+- "hasAnyAmenities"
+- "hasAppleRatings"
+- "hasAreaHighlightId"
+- "hasAreaInMeters"
+- "hasBrandMUID"
+- "hasBusinessHours"
+- "hasCaptionedPhotoAlbum"
+- "hasCurrentOperatingHours"
+- "hasDisplayMaxZoom"
+- "hasDisplayMinZoom"
+- "hasEVCharger"
+- "hasEnclosingPlace"
+- "hasEncyclopedicInfo"
+- "hasExpiredComponents"
+- "hasFeatureLink"
+- "hasFlyover"
+- "hasGroundViewLocationId"
+- "hasLinkedServices"
+- "hasMUID"
+- "hasOperatingHours"
+- "hasPOIClaim"
+- "hasPlaceCollectionPullQuotes"
+- "hasPlaceDescription"
+- "hasPlaceQuestionnaire"
+- "hasPriceRange"
+- "hasResolvablePartialInformation"
+- "hasResultProviderID"
+- "hasSprLandmarkIcon"
+- "hasTelephone"
+- "hasTransit"
+- "hasUserRatingScore"
+- "hasVenueCapacity"
+- "hasVenueFeatureType"
+- "hasWifiFingerprintConfidence"
+- "hasWifiFingerprintLabelStatusCode"
+- "hasWifiFingerprintLabelType"
+- "hash"
+- "hikeAssociatedInfo"
+- "hikeGeometry"
+- "hikeGeometryElevationModel"
+- "hikeSummary"
+- "historicalFacts"
+- "hourlyForecast"
+- "i16@0:8"
+- "identifier"
+- "identifierHistory"
+- "imageEmbeddings"
+- "inLinkedPlaceRelationship"
+- "inchesOfMercury"
+- "init"
+- "initWithCoefficient:"
+- "initWithLatitude:longitude:"
+- "initWithLocation:time:altitudeInDegrees:accuracy:"
+- "initWithProxiedApplicationBundleId:"
+- "initWithSymbol:converter:"
+- "inlineRapEnablement"
+- "isCoordinateDerived"
+- "isDisputed"
+- "isEqual:"
+- "isEqualToMapItem:"
+- "isEventAllDay"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPartiallyClientized"
+- "isProxy"
+- "isStandAloneBrand"
+- "isTransitDisplayFeature"
+- "isValid"
+- "iso3166CountryCode"
+- "iso3166SubdivisionCode"
+- "iterateGroundViewsWithBlock:"
+- "labelCoordinate"
+- "labelGeometry"
+- "lazyStore"
+- "legalPageURL"
+- "linkedServices"
+- "logoURL"
+- "mainBundle"
+- "mapDisplayType"
+- "mapsCategoryId"
+- "mapsCategoryMUID"
+- "maxScoreForPriceRange"
+- "messageLink"
+- "meters"
+- "miles"
+- "millibars"
+- "millimeters"
+- "miniBrowseCategories"
+- "minuteForecast"
+- "modelFactory"
+- "muid"
+- "muninViewState"
+- "name"
+- "needsAttribution"
+- "nextDays"
+- "nextEventOfType:"
+- "nextHours"
+- "nextMinutes"
+- "normalizedUserRatingScore"
+- "offlineDownloadRegion"
+- "openingHoursOptions"
+- "optsOutOfTelephoneAds"
+- "overallRating"
+- "parsecSectionType"
+- "partsPerMillion"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "photoCarousel"
+- "photos"
+- "photosAttribution"
+- "photosMemoryScore"
+- "place"
+- "placeCategoryType"
+- "placeCollectionPullQuotes"
+- "placeCollections"
+- "placeCollectionsIds"
+- "placeData"
+- "placeDataAsData"
+- "placeDescription"
+- "placeDisplayStyle"
+- "placeDisplayType"
+- "placeQuestionnaire"
+- "placeResult"
+- "placeType"
+- "placecardLayoutData"
+- "placemarkWithGEOMapItem:"
+- "poiCategory"
+- "poiClaim"
+- "poiPinpointURLString"
+- "poiSurveyURLString"
+- "priceDescription"
+- "priceRange"
+- "providerURL"
+- "q16@0:8"
+- "quickLinks"
+- "referenceFrame"
+- "relatedPlaceLists"
+- "release"
+- "respondsToSelector:"
+- "responseStatusIncomplete"
+- "resultProviderID"
+- "resultSnippetDistanceDisplayThreshold"
+- "resultSnippetLocationString"
+- "retain"
+- "retainCount"
+- "reverseGeocodeResults"
+- "reviews"
+- "reviewsAttribution"
+- "roadAccessPoints"
+- "sampleSizeForUserRatingScore"
+- "scaleCache"
+- "scaleCacheManager"
+- "scales"
+- "secondaryName"
+- "secondaryQuickLinks"
+- "secondarySpokenName"
+- "self"
+- "service"
+- "serviceConfigurationProvider"
+- "setBool:forKey:"
+- "setDateFormat:"
+- "setDisplayRegion:"
+- "setLocale:"
+- "setTimeZone:"
+- "sharedConfiguration"
+- "sharedService"
+- "sharedSession"
+- "shiftedReferenceFrame"
+- "shortAddress"
+- "shouldShowSimulatedAlert"
+- "showSuggestAnEditButton"
+- "sourceURL"
+- "spatialMappedCategories"
+- "spatialMappedPlaceCategories"
+- "spokenNameForLocale:"
+- "squareMarkURL"
+- "standardUserDefaults"
+- "statusCode"
+- "storefrontInfo"
+- "storefrontPresentationInfo"
+- "styleAttributes"
+- "submitWithHandler:auditToken:timeout:networkActivity:"
+- "superclass"
+- "supportedTransitPaymentMethods"
+- "supportsOfflineMaps"
+- "telephone"
+- "ticketForReverseGeocodeCoordinate:shiftLocationsIfNeeded:preserveOriginalLocation:traits:"
+- "timeZone"
+- "timezone"
+- "tips"
+- "tooltip"
+- "totalPhotoCount"
+- "trailHead"
+- "transitAttribution"
+- "transitInfo"
+- "transitPaymentMethodSuggestions"
+- "transitStationIdentifier"
+- "transitVehiclePosition"
+- "updateCacheAsynchronously"
+- "urlData"
+- "v12@?0B8"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?dd@\"NSString\"@\"NSString\"@\"NSString\">16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "valid"
+- "vendorID"
+- "venueCapacity"
+- "venueFeatureType"
+- "venueInfo"
+- "viewportFrame"
+- "visualEvidence"
+- "walletCategoryIdentifier"
+- "walletCategoryLocalizedString"
+- "walletCategoryLocalizedStringLocale"
+- "walletCategoryStyling"
+- "walletMapsCategoryIdentifier"
+- "walletPlaceLocalizedString"
+- "walletPlaceLocalizedStringLocale"
+- "walletPlaceStyling"
+- "wd_bundleIdentifier"
+- "weatherAlerts"
+- "weatherChanges"
+- "weatherDataService"
+- "weatherDisplayName"
+- "webURL"
+- "wifiFingerprintConfidence"
+- "wifiFingerprintLabelStatusCode"
+- "wifiFingerprintLabelType"
+- "zone"
+- "{?=dd}16@0:8"
+
+```

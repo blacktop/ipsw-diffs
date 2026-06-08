@@ -1,0 +1,891 @@
+## AirPlayKit
+
+> `/System/Library/PrivateFrameworks/AirPlayKit.framework/AirPlayKit`
+
+```diff
+
+-2026.5.2.0.0
+-  __TEXT.__text: 0xeb244
+-  __TEXT.__auth_stubs: 0x1a20
+-  __TEXT.__objc_methlist: 0xe80
+-  __TEXT.__const: 0xdc3a
+-  __TEXT.__cstring: 0x1945
++2027.0.6.0.0
++  __TEXT.__text: 0xdeea4
++  __TEXT.__objc_methlist: 0xe90
++  __TEXT.__const: 0xdcfa
++  __TEXT.__cstring: 0x1955
+   __TEXT.__gcc_except_tab: 0x20
+   __TEXT.__oslogstring: 0xbd4
+-  __TEXT.__swift5_typeref: 0x3b38
+-  __TEXT.__constg_swiftt: 0x28b0
++  __TEXT.__swift5_typeref: 0x3af4
++  __TEXT.__constg_swiftt: 0x28c0
+   __TEXT.__swift5_builtin: 0x190
+   __TEXT.__swift5_mpenum: 0xb8
+   __TEXT.__swift5_reflstr: 0x1e15
+
+   __TEXT.__swift5_proto: 0xcdc
+   __TEXT.__swift5_types: 0x324
+   __TEXT.__swift5_protos: 0x88
+-  __TEXT.__swift5_capture: 0x9e8
+-  __TEXT.__swift_as_entry: 0x270
+-  __TEXT.__swift_as_ret: 0x20c
+-  __TEXT.__unwind_info: 0x3c60
+-  __TEXT.__eh_frame: 0x762c
+-  __TEXT.__objc_classname: 0x6bd
+-  __TEXT.__objc_methname: 0x3625
+-  __TEXT.__objc_methtype: 0x1fbb
+-  __TEXT.__objc_stubs: 0x1440
+-  __DATA_CONST.__got: 0x478
++  __TEXT.__swift5_capture: 0xc00
++  __TEXT.__swift_as_entry: 0x27c
++  __TEXT.__swift_as_ret: 0x210
++  __TEXT.__swift_as_cont: 0x340
++  __TEXT.__unwind_info: 0x3b68
++  __TEXT.__eh_frame: 0x70d4
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x268
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x108
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9a0
++  __DATA_CONST.__objc_selrefs: 0x9a8
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xd20
+-  __AUTH_CONST.__const: 0x99b0
++  __DATA_CONST.__got: 0x478
++  __AUTH_CONST.__const: 0x9eb0
+   __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0x2ad0
++  __AUTH_CONST.__objc_const: 0x2ad8
++  __AUTH_CONST.__auth_got: 0xdf0
+   __AUTH.__objc_data: 0x478
+-  __AUTH.__data: 0x1b78
++  __AUTH.__data: 0x1b88
+   __DATA.__objc_ivar: 0x54
+-  __DATA.__data: 0x3878
++  __DATA.__data: 0x3818
+   __DATA.__bss: 0x18010
+   __DATA.__common: 0xa0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 206A6851-10DE-3F10-B893-063B5BD0E354
+-  Functions: 4888
+-  Symbols:   2439
+-  CStrings:  1009
++  UUID: 975228D1-012C-359B-A1B8-ED4B555C6429
++  Functions: 4886
++  Symbols:   2784
++  CStrings:  363
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.18
++ ___swift__destructor.76
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_AirPlayKit
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.10
++ _block_copy_helper.13
++ _block_copy_helper.14
++ _block_copy_helper.7
++ _block_descriptor.12
++ _block_descriptor.15
++ _block_descriptor.16
++ _block_descriptor.9
++ _block_destroy_helper.11
++ _block_destroy_helper.14
++ _block_destroy_helper.15
++ _block_destroy_helper.8
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _swift_deallocUninitializedObject
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x3
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_unknownObjectRelease_n
++ _symbolic SS3key______5valuetSg s11AnyHashableV
++ _symbolic SS______tSg s11AnyHashableV
++ _symbolic ______pSg So35APKOutputDeviceCommunicationChannelP
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AirPlayKit
+- _block_copy_helper.15
+- _block_copy_helper.8
+- _block_descriptor.10
+- _block_descriptor.17
+- _block_destroy_helper.16
+- _block_destroy_helper.9
+- _objc_retain_x26
+- _objc_retain_x27
+- _objectdestroy.10Tm
+- _objectdestroy.11Tm
+- _objectdestroy.29Tm
+- _objectdestroy.2Tm
+- _objectdestroy.3Tm
+- _objectdestroy.5Tm
+- _objectdestroy.8Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic SE_pSg
+- _symbolic SO_______pt 10AirPlayKit19NotificationPayloadP
+- _symbolic SS______t 10AirPlayKit0aB17OverlayAssetStoreC0E0V
+- _symbolic _____Sg 10AirPlayKit11TextContentV
+- _symbolic _____Sg 10AirPlayKit12ImageContentV0E4TypeO
+- _symbolic _____Sg 10AirPlayKit18UserActionResponseV
+- _symbolic ______pSg 10AirPlayKit20RenderActionLoggableP
+- _symbolic ______pSg 10AirPlayKit33RemoteInspectorNodeChangeProtocolP
+- _symbolic ______pSg s28SingleValueDecodingContainerP
+- _symbolic _____y_____GSg s22KeyedDecodingContainerV 10AirPlayKit11RenderAssetV9ImageTypeO10CodingKeysO
+- _symbolic _____y_____GSg s22KeyedDecodingContainerV 10AirPlayKit18UserActionResponseV11WrapperKeysO
+CStrings:
+- "#16@0:8"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@"
+- "@\"<APKRemoteInspectorCSSAgentDelegate>\""
+- "@\"<APKRemoteInspectorCSSEventDispatcherProtocol>\""
+- "@\"<APKRemoteInspectorDOMAgentDelegate>\""
+- "@\"<APKRemoteInspectorDOMEventDispatcherProtocol>\""
+- "@\"<APKRemoteInspectorNetworkAgentDelegate>\""
+- "@\"<APKRemoteInspectorNetworkEventDispatcherProtocol>\""
+- "@\"<APKRemoteInspectorPageAgentDelegate>\""
+- "@\"<APKRemoteInspectorPageEventDispatcherProtocol>\""
+- "@\"APKKeyValueObserver\"24@0:8@?<v@?>16"
+- "@\"APKRemoteInspectorCSSAgent\""
+- "@\"APKRemoteInspectorDOMAgent\""
+- "@\"APKRemoteInspectorNetworkAgent\""
+- "@\"APKRemoteInspectorPageAgent\""
+- "@\"AVOutputDeviceCommunicationChannel\""
+- "@\"AVOutputDeviceDiscoverySession\""
+- "@\"JSContext\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@\"NSString\"16q24@\"NSString\"32"
+- "@40@0:8@16q24@32"
+- "@44@0:8i16@20q28@36"
+- "@48@0:8@16@24Q32@?40"
+- "@?"
+- "@?16@0:8"
+- "@?<v@?>16@0:8"
+- "@?<v@?@\"NSData\">16@0:8"
+- "APKCommunicationChannel"
+- "APKInspectorLogger"
+- "APKKeyValueObserver"
+- "APKOutputDeviceCommunicationChannel"
+- "APKOutputDeviceDiscoverySession"
+- "APKOutputDeviceProtocol"
+- "APKPlayerProtocol"
+- "APKRemoteInspector"
+- "APKRemoteInspectorCSSAgent"
+- "APKRemoteInspectorCSSAgentDelegate"
+- "APKRemoteInspectorDOMAgent"
+- "APKRemoteInspectorDOMAgentDelegate"
+- "APKRemoteInspectorNetworkAgent"
+- "APKRemoteInspectorNetworkAgentDelegate"
+- "APKRemoteInspectorNodeProtocol"
+- "APKRemoteInspectorPageAgent"
+- "APKRemoteInspectorPageAgentDelegate"
+- "APKRemoteInspectorResourceProtocol"
+- "APKRemoteInspectorStylePropertyProtocol"
+- "APKRemoteInspectorStyleProtocol"
+- "AVOutputDeviceCommunicationChannelDelegate"
+- "AirPLayKit"
+- "AirPlayKit"
+- "AirPlayKit1"
+- "AirPlayKit2"
+- "AirPlayKit3"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CSSAgent"
+- "CSSAgent:onComputedStylesRequestWithIdentifier:completion:"
+- "CSSAgent:onInlineStylesRequestWithIdentifier:completion:"
+- "DOMAgent"
+- "DOMAgent:onAttributesRequestWithIdentifier:completion:"
+- "DOMAgent:onChildNodeRequestWithParentIdentifier:depth:completion:"
+- "DOMAgent:onDocumentWithCompletion:"
+- "DOMAgent:onOuterHTMLRequestWithIdentifier:completion:"
+- "JSONObjectWithData:options:error:"
+- "NSObject"
+- "OS_dispatch_source"
+- "OS_dispatch_source_timer"
+- "Q"
+- "Q16@0:8"
+- "RWIProtocolCSSDomainHandler"
+- "RWIProtocolDOMDomainHandler"
+- "RWIProtocolNetworkDomainHandler"
+- "RWIProtocolPageDomainHandler"
+- "T#,R"
+- "T@\"<APKRemoteInspectorCSSAgentDelegate>\",W,N,V_delegate"
+- "T@\"<APKRemoteInspectorCSSEventDispatcherProtocol>\",R,N,V_dispatcher"
+- "T@\"<APKRemoteInspectorDOMAgentDelegate>\",W,N,V_delegate"
+- "T@\"<APKRemoteInspectorDOMEventDispatcherProtocol>\",R,N,V_dispatcher"
+- "T@\"<APKRemoteInspectorNetworkAgentDelegate>\",W,N,V_delegate"
+- "T@\"<APKRemoteInspectorNetworkEventDispatcherProtocol>\",R,N,V_dispatcher"
+- "T@\"<APKRemoteInspectorPageAgentDelegate>\",W,N,V_delegate"
+- "T@\"<APKRemoteInspectorPageEventDispatcherProtocol>\",R,N,V_dispatcher"
+- "T@\"APKRemoteInspectorCSSAgent\",R,N,V_CSSAgent"
+- "T@\"APKRemoteInspectorDOMAgent\",R,N,V_DOMAgent"
+- "T@\"APKRemoteInspectorNetworkAgent\",R,N,V_networkAgent"
+- "T@\"APKRemoteInspectorPageAgent\",R,N,V_pageAgent"
+- "T@\"AVOutputDeviceCommunicationChannel\",R,N,V_channel"
+- "T@\"AVOutputDeviceDiscoverySession\",R,N,V_session"
+- "T@\"JSContext\",R,N,V_context"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_keyPath"
+- "T@\"NSString\",R,N"
+- "T@,R,N,V_observeredObject"
+- "T@?,C,N"
+- "T@?,C,N,V_onClose"
+- "T@?,C,N,V_onData"
+- "T@?,R,C,N,V_changeHandler"
+- "TB,R,N,GisConnected"
+- "TB,R,N,GisExternalPlaybackActive"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_options"
+- "Ti,N"
+- "Tq,N"
+- "Tq,R,N"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_CSSAgent"
+- "_DOMAgent"
+- "_TtC10AirPlayKit17AirPlayConnection"
+- "_TtC10AirPlayKit18RequestCoordinator"
+- "_TtC10AirPlayKit19RunLoopWorkerThread"
+- "_TtC10AirPlayKit21AirPlayOverlayAdaptor"
+- "_TtC10AirPlayKit21NotificationPublisher"
+- "_TtC10AirPlayKit21NullAirPlayConnection"
+- "_TtC10AirPlayKit23RenderActionsFileLogger"
+- "_TtC10AirPlayKit24AirPlayOverlayAssetStore"
+- "_TtC10AirPlayKit25AirPlayConnectionProvider"
+- "_TtC10AirPlayKit25AirPlayOverlayCoordinator"
+- "_TtC10AirPlayKit25AirPlayOverlayDisplayLink"
+- "_TtC10AirPlayKit26AVPlayerOverlayCoordinator"
+- "_TtC10AirPlayKit26RemoteInspectorCoordinator"
+- "_TtC10AirPlayKit27RemoteInspectorNodeRegistry"
+- "_TtC10AirPlayKit28AVPlayerOverlaySystemAdaptor"
+- "_TtC10AirPlayKit29NullAirPlayConnectionProvider"
+- "_TtC10AirPlayKit40AVOuputDeviceCommunicationsChannelBroker"
+- "_changeHandler"
+- "_channel"
+- "_context"
+- "_delegate"
+- "_dispatcher"
+- "_inspector"
+- "_keyPath"
+- "_networkAgent"
+- "_observeredObject"
+- "_onClose"
+- "_onData"
+- "_options"
+- "_pageAgent"
+- "_session"
+- "_setDebuggerRunLoop:"
+- "_setITMLDebuggableType"
+- "_setRemoteInspectionEnabled:"
+- "activate"
+- "adaptor"
+- "addInterceptionWithErrorCallback:successCallback:url:stage:caseSensitive:isRegex:"
+- "addObject:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addRuleWithErrorCallback:successCallback:styleSheetId:selector:"
+- "arrayWithCapacity:"
+- "assetStore"
+- "assets"
+- "attributeModifiedWithNodeId:name:value:"
+- "attributeRemovedWithNodeId:name:"
+- "attributes"
+- "autorelease"
+- "availableDevicesDidChange"
+- "availableOutputDevices"
+- "beginObserveringExternalPlaybackChangeWithChangeHandler:"
+- "beginObserveringTimeControlStatusWithChangeHandler:"
+- "boolForKey:"
+- "broker"
+- "bundleIdentifier"
+- "cStringUsingEncoding:"
+- "cancel"
+- "changeHandler"
+- "channel"
+- "characterDataModifiedWithNodeId:characterData:"
+- "childNodeCount"
+- "childNodeCountUpdatedWithNodeId:childNodeCount:"
+- "childNodeInsertedWithParentNodeId:previousNodeId:node:"
+- "childNodeRemovedWithParentNodeId:nodeId:"
+- "children"
+- "class"
+- "close"
+- "code"
+- "communicationChannel:didReceiveData:"
+- "communicationChannelDidClose:"
+- "compare:"
+- "computedStyleWithName:value:"
+- "configuration"
+- "conformsToProtocol:"
+- "connected"
+- "connection"
+- "connectionProvider"
+- "context"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "createStyleSheetWithErrorCallback:successCallback:frameId:"
+- "cssEventDispatcher"
+- "cssProperties"
+- "currentIdentifier"
+- "currentValues"
+- "dataWithJSONObject:options:error:"
+- "dataWithPropertyList:format:options:error:"
+- "deactivate"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultManager"
+- "delegate"
+- "deleteCookieWithErrorCallback:successCallback:cookieName:url:"
+- "depth"
+- "description"
+- "deviceID"
+- "deviceName"
+- "directoryURL"
+- "disableWithErrorCallback:successCallback:"
+- "discardSearchResultsWithErrorCallback:successCallback:searchId:"
+- "discovery"
+- "discoveryTimeout"
+- "dispatcher"
+- "displayLink"
+- "displayTree"
+- "displayTreeBuilder"
+- "documentURL"
+- "documentUpdated"
+- "domEventDispatcher"
+- "domain"
+- "enableWithErrorCallback:successCallback:"
+- "enumerateAttribute:inRange:options:usingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "fileExistsAtPath:"
+- "firstObject"
+- "floatValue"
+- "focusWithErrorCallback:successCallback:nodeId:"
+- "fontName"
+- "forcePseudoStateWithErrorCallback:successCallback:nodeId:forcedPseudoClasses:"
+- "formatter"
+- "frameId"
+- "getAccessibilityPropertiesForNodeWithErrorCallback:successCallback:nodeId:"
+- "getAllStyleSheetsWithErrorCallback:successCallback:"
+- "getAttributesWithErrorCallback:successCallback:nodeId:"
+- "getComputedStyleForNodeWithErrorCallback:successCallback:nodeId:"
+- "getCookiesWithErrorCallback:successCallback:"
+- "getDocumentWithErrorCallback:successCallback:"
+- "getEventListenersForNodeWithErrorCallback:successCallback:nodeId:includeAncestors:"
+- "getFontDataForNodeWithErrorCallback:successCallback:nodeId:"
+- "getInlineStylesForNodeWithErrorCallback:successCallback:nodeId:"
+- "getMatchedStylesForNodeWithErrorCallback:successCallback:nodeId:includePseudo:includeInherited:"
+- "getMediaStatsWithErrorCallback:successCallback:nodeId:"
+- "getOuterHTMLWithErrorCallback:successCallback:nodeId:"
+- "getRed:green:blue:alpha:"
+- "getResourceContentWithErrorCallback:successCallback:frameId:url:"
+- "getResourceTreeWithErrorCallback:successCallback:"
+- "getResponseBodyWithErrorCallback:successCallback:requestId:"
+- "getSearchResultsWithErrorCallback:successCallback:searchId:fromIndex:toIndex:"
+- "getSerializedCertificateWithErrorCallback:successCallback:requestId:"
+- "getStyleSheetTextWithErrorCallback:successCallback:styleSheetId:"
+- "getStyleSheetWithErrorCallback:successCallback:styleSheetId:"
+- "getSupportedCSSPropertiesWithErrorCallback:successCallback:"
+- "getSupportedEventNamesWithErrorCallback:successCallback:"
+- "getSupportedSystemFontFamilyNamesWithErrorCallback:successCallback:"
+- "hash"
+- "hideFlexOverlayWithErrorCallback:successCallback:nodeId:"
+- "hideGridOverlayWithErrorCallback:successCallback:nodeId:"
+- "hideHighlightWithErrorCallback:successCallback:"
+- "highlightFrameWithErrorCallback:successCallback:frameId:contentColor:contentOutlineColor:"
+- "highlightNodeListWithErrorCallback:successCallback:nodeIds:highlightConfig:gridOverlayConfig:flexOverlayConfig:showRulers:"
+- "highlightNodeWithErrorCallback:successCallback:nodeId:objectId:highlightConfig:gridOverlayConfig:flexOverlayConfig:showRulers:"
+- "highlightQuadWithErrorCallback:successCallback:quad:color:outlineColor:usePageCoordinates:"
+- "highlightRectWithErrorCallback:successCallback:x:y:width:height:color:outlineColor:usePageCoordinates:"
+- "highlightSelectorWithErrorCallback:successCallback:selectorString:frameId:highlightConfig:gridOverlayConfig:flexOverlayConfig:showRulers:"
+- "i16@0:8"
+- "identifiers"
+- "indexPathByAddingIndex:"
+- "indexPathWithIndex:"
+- "init"
+- "initToFileAtPath:append:"
+- "initWithCommunicationChannel:"
+- "initWithCssProperties:shorthandEntries:"
+- "initWithDeviceFeatures:"
+- "initWithDispatcher:"
+- "initWithFrame:resources:"
+- "initWithIdentifier:loaderId:url:securityOrigin:mimeType:"
+- "initWithInt:"
+- "initWithName:"
+- "initWithName:value:"
+- "initWithNodeId:nodeType:nodeName:localName:nodeValue:"
+- "initWithObservedObject:keyPath:options:changeHandler:"
+- "initWithUrl:type:mimeType:"
+- "inlineStyleInvalidatedWithNodeIds:"
+- "insertAdjacentHTMLWithErrorCallback:successCallback:nodeId:position:html:"
+- "inspectorLogger"
+- "interceptContinueWithErrorCallback:successCallback:requestId:stage:"
+- "interceptRequestWithErrorWithErrorCallback:successCallback:requestId:errorType:"
+- "interceptRequestWithResponseWithErrorCallback:successCallback:requestId:content:base64Encoded:mimeType:status:statusText:headers:"
+- "interceptWithRequestWithErrorCallback:successCallback:requestId:url:method:headers:postData:"
+- "interceptWithResponseWithErrorCallback:successCallback:requestId:content:base64Encoded:mimeType:status:statusText:headers:"
+- "invalidate"
+- "isCancelled"
+- "isConnected"
+- "isEqual:"
+- "isEqualToString:"
+- "isExternalPlaybackActive"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isValidJSONObject:"
+- "keyPath"
+- "length"
+- "loadResourceWithErrorCallback:successCallback:frameId:url:"
+- "localName"
+- "localizedDescription"
+- "lock"
+- "log:"
+- "logger"
+- "main"
+- "mainBundle"
+- "mainQueue"
+- "markUndoableStateWithErrorCallback:successCallback:"
+- "maximumIndexPathFromIndexPath:"
+- "moveToWithErrorCallback:successCallback:nodeId:targetNodeId:insertBeforeNodeId:"
+- "networkAgent"
+- "networkEventDispatcher"
+- "nextMessageID"
+- "nodeId"
+- "nodeName"
+- "nodeType"
+- "nodeValue"
+- "nodeWithIdentifier:name:type:value:"
+- "nodes"
+- "objectAtIndex:"
+- "objectForKey:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observeredObject"
+- "onClose"
+- "onConnect"
+- "onConnectionError"
+- "onConnectionFailed"
+- "onData"
+- "onDataReceived"
+- "onDisconnect"
+- "onReady"
+- "onResourceContentRequest"
+- "onResourcesRequest"
+- "onRootNodeUpdated"
+- "open"
+- "openCommunicationChannelToDestination:completionHandler:"
+- "openCommunicationChannelToDestination:options:completionHandler:"
+- "options"
+- "outputContext"
+- "outputDevice:didCloseCommunicationChannel:"
+- "outputDevice:didReceiveData:fromCommunicationChannel:"
+- "outputDevices"
+- "overrideSettingWithErrorCallback:successCallback:setting:value:"
+- "overrideUserAgentWithErrorCallback:successCallback:value:"
+- "overrideUserPreferenceWithErrorCallback:successCallback:name:value:"
+- "pageAgent"
+- "pageAgent:onResourceContentRequestWithIdentifier:completion:"
+- "pageAgent:onResourcesRequestWithCompletion:"
+- "pageEventDispatcher"
+- "parents"
+- "pendingRequests"
+- "performSearchWithErrorCallback:successCallback:query:nodeIds:caseSensitive:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "playerTimeControlStatus"
+- "pointSize"
+- "propertyListWithData:options:format:error:"
+- "pushNodeByPathToFrontendWithErrorCallback:successCallback:path:"
+- "q16@0:8"
+- "querySelectorAllWithErrorCallback:successCallback:nodeId:selector:"
+- "querySelectorWithErrorCallback:successCallback:nodeId:selector:"
+- "queue"
+- "redoWithErrorCallback:successCallback:"
+- "registry"
+- "release"
+- "reloadWithErrorCallback:successCallback:ignoreCache:revalidateAllResources:"
+- "removeAttributeWithErrorCallback:successCallback:nodeId:name:"
+- "removeBreakpointForEventListenerWithErrorCallback:successCallback:eventListenerId:"
+- "removeInterceptionWithErrorCallback:successCallback:url:stage:caseSensitive:isRegex:"
+- "removeNodeWithErrorCallback:successCallback:nodeId:"
+- "removeObserver:"
+- "removeObserver:forKeyPath:"
+- "requestAssignedNodesWithErrorCallback:successCallback:slotElementId:"
+- "requestAssignedSlotWithErrorCallback:successCallback:nodeId:"
+- "requestChildNodesWithErrorCallback:successCallback:nodeId:depth:"
+- "requestNodeWithErrorCallback:successCallback:objectId:"
+- "resolveNodeWithErrorCallback:successCallback:nodeId:objectGroup:"
+- "resolveWebSocketWithErrorCallback:successCallback:requestId:objectGroup:"
+- "resourceWithURL:type:MIMEType:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "searchInResourceWithErrorCallback:successCallback:frameId:url:query:caseSensitive:isRegex:requestId:"
+- "searchInResourcesWithErrorCallback:successCallback:text:caseSensitive:isRegex:"
+- "self"
+- "sendActions"
+- "sendData:completionHandler:"
+- "session"
+- "setAllowEditingUserAgentShadowTreesWithErrorCallback:successCallback:allow:"
+- "setAttributeValueWithErrorCallback:successCallback:nodeId:name:value:"
+- "setAttributes:"
+- "setAttributesAsTextWithErrorCallback:successCallback:nodeId:text:name:"
+- "setBootstrapScriptWithErrorCallback:successCallback:source:"
+- "setBreakpointForEventListenerWithErrorCallback:successCallback:eventListenerId:options:"
+- "setCSSHandler:"
+- "setChildNodeCount:"
+- "setChildNodesWithParentId:nodes:"
+- "setChildren:"
+- "setCookieWithErrorCallback:successCallback:cookie:shouldPartition:"
+- "setDOMHandler:"
+- "setDateFormat:"
+- "setDelegate:"
+- "setDiscoveryMode:"
+- "setDocumentURL:"
+- "setEmulatedMediaWithErrorCallback:successCallback:media:"
+- "setEventListenerDisabledWithErrorCallback:successCallback:eventListenerId:disabled:"
+- "setExtraHTTPHeadersWithErrorCallback:successCallback:headers:"
+- "setFrameId:"
+- "setGroupingHeaderTextWithErrorCallback:successCallback:ruleId:headerText:"
+- "setInspectModeEnabledWithErrorCallback:successCallback:enabled:highlightConfig:gridOverlayConfig:flexOverlayConfig:showRulers:"
+- "setInspectedNodeWithErrorCallback:successCallback:nodeId:"
+- "setInterceptionEnabledWithErrorCallback:successCallback:enabled:"
+- "setLayoutContextTypeChangedModeWithErrorCallback:successCallback:mode:"
+- "setLocalName:"
+- "setLocale:"
+- "setMimeType:"
+- "setName:"
+- "setNetworkHandler:"
+- "setNodeId:"
+- "setNodeName:"
+- "setNodeNameWithErrorCallback:successCallback:nodeId:name:"
+- "setNodeType:"
+- "setNodeValue:"
+- "setNodeValueWithErrorCallback:successCallback:nodeId:value:"
+- "setOnClose:"
+- "setOnData:"
+- "setOuterHTMLWithErrorCallback:successCallback:nodeId:outerHTML:"
+- "setPageHandler:"
+- "setQualityOfService:"
+- "setResourceCachingDisabledWithErrorCallback:successCallback:disabled:"
+- "setRuleSelectorWithErrorCallback:successCallback:ruleId:selector:"
+- "setScreenSizeOverrideWithErrorCallback:successCallback:width:height:"
+- "setShowPaintRectsWithErrorCallback:successCallback:result:"
+- "setShowRulersWithErrorCallback:successCallback:result:"
+- "setStyleSheetTextWithErrorCallback:successCallback:styleSheetId:text:"
+- "setStyleTextWithErrorCallback:successCallback:styleId:text:"
+- "setType:"
+- "setUrl:"
+- "setXmlVersion:"
+- "showFlexOverlayWithErrorCallback:successCallback:nodeId:flexOverlayConfig:"
+- "showGridOverlayWithErrorCallback:successCallback:nodeId:gridOverlayConfig:"
+- "snapshotNodeWithErrorCallback:successCallback:nodeId:"
+- "snapshotRectWithErrorCallback:successCallback:x:y:width:height:coordinateSystem:"
+- "sortUsingComparator:"
+- "standardUserDefaults"
+- "start"
+- "state"
+- "streamError"
+- "streamStatus"
+- "string"
+- "stringFromDate:"
+- "stringWithFormat:"
+- "styleWithProperties:"
+- "subscriptions"
+- "superclass"
+- "supportsCommunicationChannelToDestination:"
+- "supportsFitnessDataDestination"
+- "system"
+- "timerProvider"
+- "treeBuilder"
+- "undoWithErrorCallback:successCallback:"
+- "v16@0:8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v20@0:8i16"
+- "v24@0:8@\"AVOutputDeviceCommunicationChannel\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8q16"
+- "v24@?0@\"<APKOutputDeviceCommunicationChannel>\"8@\"NSError\"16"
+- "v32@0:8@\"APKRemoteInspectorDOMAgent\"16@?<v@?@\"<APKRemoteInspectorNodeProtocol>\"@\"NSError\">24"
+- "v32@0:8@\"APKRemoteInspectorPageAgent\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"AVOutputDevice\"16@\"AVOutputDeviceCommunicationChannel\"24"
+- "v32@0:8@\"AVOutputDeviceCommunicationChannel\"16@\"NSData\"24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"<APKOutputDeviceCommunicationChannel>\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@?16@?24"
+- "v32@0:8@?<v@?@\"NSString\">16@?<v@?>24"
+- "v32@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24"
+- "v32@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolDOMNode\">24"
+- "v32@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolPageFrameResourceTree\">24"
+- "v36@0:8@\"APKRemoteInspectorCSSAgent\"16i24@?<v@?@\"<APKRemoteInspectorStyleProtocol>\"@\"NSError\">28"
+- "v36@0:8@\"APKRemoteInspectorCSSAgent\"16i24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@\"APKRemoteInspectorDOMAgent\"16i24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@\"APKRemoteInspectorDOMAgent\"16i24@?<v@?@\"NSString\"@\"NSError\">28"
+- "v36@0:8@16i24@?28"
+- "v36@0:8@?16@?24B32"
+- "v36@0:8@?16@?24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?>24B32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?>24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\">24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSFont\">24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolDOMAccessibilityProperties\">24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolDOMMediaStats\">24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?^@^@>24i32"
+- "v36@0:8@?<v@?@\"NSString\">16@?<v@?^i>24i32"
+- "v40@0:8@\"APKRemoteInspectorDOMAgent\"16i24i28@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@\"APKRemoteInspectorPageAgent\"16@\"NSString\"24@?<v@?@\"NSString\"B@\"NSError\">32"
+- "v40@0:8@\"AVOutputDevice\"16@\"NSData\"24@\"AVOutputDeviceCommunicationChannel\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16i24i28@?32"
+- "v40@0:8@?16@?24@32"
+- "v40@0:8@?16@?24^@32"
+- "v40@0:8@?16@?24^i32"
+- "v40@0:8@?16@?24i32B36"
+- "v40@0:8@?16@?24q32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"RWIProtocolNetworkHeaders\"32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24^@32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24^i32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24i32B36"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?>24q32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\">24@\"NSString\"32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\"B>24@\"NSString\"32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSStyleSheetBody\">24@\"NSString\"32"
+- "v40@0:8@?<v@?@\"NSString\">16@?<v@?i>24@\"NSString\"32"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "v44@0:8@?16@?24i32@36"
+- "v44@0:8@?16@?24i32^@36"
+- "v44@0:8@?16@?24i32^B36"
+- "v44@0:8@?16@?24i32^i36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"NSArray\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"NSString\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"RWIProtocolDOMFlexOverlayConfig\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"RWIProtocolDOMGridOverlayConfig\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32^@36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?>24i32^i36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24i32@\"NSString\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24i32^B36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolRuntimeRemoteObject\">24i32^@36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?^i>24i32@\"NSString\"36"
+- "v44@0:8@?<v@?@\"NSString\">16@?<v@?i>24i32@\"NSString\"36"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8@?16@?24@32@40"
+- "v48@0:8@?16@?24@32^@40"
+- "v48@0:8@?16@?24@32^B40"
+- "v48@0:8@?16@?24@32i40i44"
+- "v48@0:8@?16@?24@32q40"
+- "v48@0:8@?16@?24^B32^B40"
+- "v48@0:8@?16@?24^i32^i40"
+- "v48@0:8@?16@?24i32i36^i40"
+- "v48@0:8@?16@?24q32^B40"
+- "v48@0:8@?16@?24q32^q40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32q40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"RWIProtocolPageCookie\"32^B40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24^B32^B40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24^i32^i40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24q32^B40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?>24q32^q40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24@\"NSString\"32i40i44"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\"@\"NSString\"i>24@\"NSString\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\"B>24@\"NSString\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSGrouping\">24@\"RWIProtocolCSSRuleId\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSRule\">24@\"NSString\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSRule\">24@\"RWIProtocolCSSRuleId\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolCSSStyle\">24@\"RWIProtocolCSSStyleId\"32@\"NSString\"40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?@\"RWIProtocolRuntimeRemoteObject\">24@\"NSString\"32^@40"
+- "v48@0:8@?<v@?@\"NSString\">16@?<v@?i>24i32i36^i40"
+- "v52@0:8@?16@?24i32@36@44"
+- "v52@0:8@?16@?24i32@36^@44"
+- "v52@0:8@?16@?24i32^B36^B44"
+- "v52@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"NSString\"36@\"NSString\"44"
+- "v52@0:8@?<v@?@\"NSString\">16@?<v@?>24i32@\"NSString\"36^@44"
+- "v52@0:8@?<v@?@\"NSString\">16@?<v@?^@^@^@>24i32^B36^B44"
+- "v56@0:8@?16@?24@32^@40^@48"
+- "v56@0:8@?16@?24@32^@40^B48"
+- "v56@0:8@?16@?24@32^B40^B48"
+- "v56@0:8@?16@?24i32i36i40i44q48"
+- "v56@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32^@40^@48"
+- "v56@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24@\"NSString\"32^B40^B48"
+- "v56@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\">24i32i36i40i44q48"
+- "v56@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSString\"i>24@\"NSString\"32^@40^B48"
+- "v64@0:8@?16@?24@32^@40^@48^B56"
+- "v64@0:8@?16@?24@32q40^B48^B56"
+- "v64@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSArray\"32^@40^@48^B56"
+- "v64@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32q40^B48^B56"
+- "v68@0:8@?16@?24B32^@36^@44^@52^B60"
+- "v68@0:8@?<v@?@\"NSString\">16@?<v@?>24B32^@36^@44^@52^B60"
+- "v72@0:8@?16@?24@32@40^@48^@56^B64"
+- "v72@0:8@?16@?24@32^@40^@48^@56^@64"
+- "v72@0:8@?16@?24i32i36i40i44^@48^@56^B64"
+- "v72@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSArray\"32@\"RWIProtocolDOMHighlightConfig\"40^@48^@56^B64"
+- "v72@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32^@40^@48^@56^@64"
+- "v72@0:8@?<v@?@\"NSString\">16@?<v@?>24i32i36i40i44^@48^@56^B64"
+- "v80@0:8@?16@?24@32@40@48^B56^B64^@72"
+- "v80@0:8@?16@?24@32@40B48@52i60@64@72"
+- "v80@0:8@?16@?24@32^@40@48^@56^@64^B72"
+- "v80@0:8@?16@?24^i32^@40@48^@56^@64^B72"
+- "v80@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32@\"NSString\"40B48@\"NSString\"52i60@\"NSString\"64@\"RWIProtocolNetworkHeaders\"72"
+- "v80@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32^@40@\"RWIProtocolDOMHighlightConfig\"48^@56^@64^B72"
+- "v80@0:8@?<v@?@\"NSString\">16@?<v@?>24^i32^@40@\"RWIProtocolDOMHighlightConfig\"48^@56^@64^B72"
+- "v80@0:8@?<v@?@\"NSString\">16@?<v@?@\"NSArray\">24@\"NSString\"32@\"NSString\"40@\"NSString\"48^B56^B64^@72"
+- "v84@0:8@?16@?24@32@40B48^@52^i60^@68^@76"
+- "v84@0:8@?<v@?@\"NSString\">16@?<v@?>24@\"NSString\"32@\"NSString\"40B48^@52^i60^@68^@76"
+- "write:maxLength:"
+- "xmlVersion"
+- "zone"
+
+```

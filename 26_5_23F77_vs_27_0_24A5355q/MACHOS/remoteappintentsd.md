@@ -1,0 +1,785 @@
+## remoteappintentsd
+
+> `/usr/libexec/remoteappintentsd`
+
+```diff
+
+-40.5.2.0.0
+-  __TEXT.__text: 0x3f8e8
+-  __TEXT.__auth_stubs: 0x1e50
+-  __TEXT.__objc_stubs: 0xc40
+-  __TEXT.__objc_methlist: 0x2d4
++41.0.41.16.0
++  __TEXT.__text: 0x72cdc
++  __TEXT.__auth_stubs: 0x29e0
++  __TEXT.__objc_stubs: 0xd80
++  __TEXT.__objc_methlist: 0x3ac
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__const: 0x18a8
+-  __TEXT.__swift5_typeref: 0xc6f
+-  __TEXT.__cstring: 0xde3
+-  __TEXT.__objc_classname: 0x495
+-  __TEXT.__objc_methname: 0x11e1
+-  __TEXT.__objc_methtype: 0x520
+-  __TEXT.__constg_swiftt: 0xa88
+-  __TEXT.__swift5_fieldmd: 0x790
+-  __TEXT.__oslogstring: 0xcb2
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0x64d
++  __TEXT.__const: 0x22d8
++  __TEXT.__swift5_typeref: 0x14a8
++  __TEXT.__cstring: 0x13f8
++  __TEXT.__objc_classname: 0x785
++  __TEXT.__objc_methname: 0x1495
++  __TEXT.__constg_swiftt: 0xea0
++  __TEXT.__swift5_fieldmd: 0x9b8
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_reflstr: 0x884
++  __TEXT.__oslogstring: 0x1bba
+   __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_proto: 0x8c
+-  __TEXT.__swift5_types: 0xa4
+-  __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_capture: 0x568
+-  __TEXT.__swift_as_entry: 0x160
+-  __TEXT.__swift_as_ret: 0x150
+-  __TEXT.__unwind_info: 0x1110
+-  __TEXT.__eh_frame: 0x2bf8
+-  __DATA_CONST.__auth_got: 0xf30
+-  __DATA_CONST.__got: 0x590
+-  __DATA_CONST.__auth_ptr: 0x5a8
+-  __DATA_CONST.__const: 0x18c8
+-  __DATA_CONST.__objc_classlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x60
++  __TEXT.__swift5_proto: 0x98
++  __TEXT.__swift5_types: 0xdc
++  __TEXT.__swift5_capture: 0x132c
++  __TEXT.__swift_as_entry: 0x28c
++  __TEXT.__swift_as_ret: 0x2a4
++  __TEXT.__swift_as_cont: 0x3ec
++  __TEXT.__objc_methtype: 0x615
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__unwind_info: 0x1ed8
++  __TEXT.__eh_frame: 0x5b50
++  __DATA_CONST.__const: 0x37b8
++  __DATA_CONST.__objc_classlist: 0x98
++  __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA.__objc_const: 0x1030
+-  __DATA.__objc_selrefs: 0x438
+-  __DATA.__objc_data: 0x278
+-  __DATA.__data: 0x15e0
+-  __DATA.__bss: 0xc80
+-  __DATA.__common: 0x2f0
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__auth_got: 0x14f8
++  __DATA_CONST.__got: 0x7b8
++  __DATA_CONST.__auth_ptr: 0xa88
++  __DATA.__objc_const: 0x15b8
++  __DATA.__objc_selrefs: 0x4a8
++  __DATA.__objc_data: 0x498
++  __DATA.__data: 0x2238
++  __DATA.__bss: 0xd80
++  __DATA.__common: 0x390
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+-  - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+-  - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 18C2A973-0EBF-3045-A454-26C5726FBEA4
+-  Functions: 1499
+-  Symbols:   803
+-  CStrings:  406
++  UUID: 6E0FC5E2-9B68-3984-8AD6-842DE9C8BE32
++  Functions: 2712
++  Symbols:   1078
++  CStrings:  558
+ 
+Symbols:
++ _$s10Foundation3URLV14absoluteStringSSvg
++ _$s10Foundation3URLV22appendingPathComponentyACSSF
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4UUIDV11descriptionSSvg
++ _$s18AppIntentsServices010AttributedA16EntityIdentifierVMa
++ _$s18AppIntentsServices03AnyA19IntentSpecificationV13schemaVersionAA06SchemaH0VSgvg
++ _$s18AppIntentsServices06RemoteA16NotificationSinkC4sendyySayAA0aE5EventVGYaKFTE
++ _$s18AppIntentsServices06RemoteA16NotificationSinkC4sendyySayAA0aE5EventVGYaKFTETu
++ _$s18AppIntentsServices06RemoteA16NotificationSinkCMn
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP05fetchA11Description_4peerAA0abG0O05FetchaI0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP12performQuery_4peerAA0abG0O07PerformI0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP13entitySnippet_4peerAA0abG0O011FetchEntityI0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP13performIntent_4peerAA0abG0O13PerformActionO8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP13stopObserving_4peeryAA0abG0O13NotificationsO04StopI7RequestV_7Network11NWActorPeer_ptKFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP14spotlightQuery_4peerAA0abG0O09SpotlightI0O8ResponseVAK7RequestV_7Network11NWActorPeer_ptYaKFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP14startObserving_4with4peerAA0abG0O13NotificationsO05StartI8ResponseVAL0mI7RequestV_AA0dA16NotificationSinkC7Network11NWActorPeer_ptKFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP15cancelExecution_4peerAA0abG0O06CancelI0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP16restartObserving_4with4peeryAA0abG0O13NotificationsO07RestartI7RequestV_AA0dA16NotificationSinkC7Network11NWActorPeer_ptKFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP19createAsyncIterator_4peerAA0abG0O06CreateiJ0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP20releaseAsyncSequence_4peeryAA0abG0O07ReleaseiJ0O7RequestV_7Network11NWActorPeer_ptYaKFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent014withContinueInA8Response4peerAA0abG0O0I6ActionO0N0OAL0lmaN0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent18withChoiceResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent22withNeedsValueResponse4peerAA0abG0O0I6ActionO0N0OAL0lmN0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent24withConfirmationResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent26withDisambiguationResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent26withUnknownRequestResponse4peerAA0abG0O0I6ActionO0N0OAL0lmN0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent30withActionConfirmationResponse4peerAA0abG0O0iL0O0N0OAL0lmN0V_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21fetchOptionsForAction_4peerAA0abG0O05FetchijK0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP24fetchNextIteratorResults_4peerAA0abG0O05Fetchi5AsyncjK0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP26fetchDeferredPropertyValue_4peerAA0abG0O05FetchijK0O8ResponseOAK7RequestV_7Network11NWActorPeer_ptYaFTq
++ _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP9fileChunk_4peer10Foundation4DataVSgAA0abG0O09FetchFileI0O7RequestV_7Network11NWActorPeer_ptKFTq
++ _$s18AppIntentsServices0A10IdentifierV06bundleD0yACSSFZ
++ _$s18AppIntentsServices0A16EntityIdentifierMp
++ _$s18AppIntentsServices0A17NotificationEventV0E4TypeO7createdyA2EmFWC
++ _$s18AppIntentsServices0A17NotificationEventV0E4TypeO7deletedyA2EmFWC
++ _$s18AppIntentsServices0A17NotificationEventV0E4TypeO7updatedyA2EmFWC
++ _$s18AppIntentsServices0A17NotificationEventV0E4TypeOMa
++ _$s18AppIntentsServices0A17NotificationEventV10entityType19instanceIdentifiers05eventG0ACSS_SaySSGSgAC0eG0OtcfC
++ _$s18AppIntentsServices0A17NotificationEventV8coalesceySayACGAEFZ
++ _$s18AppIntentsServices0A17NotificationEventVMa
++ _$s18AppIntentsServices0A17NotificationEventVMn
++ _$s18AppIntentsServices0A17NotificationTopicV10entityTypeSSSgvg
++ _$s18AppIntentsServices0A17NotificationTopicV16bundleIdentifier10entityTypeACSS_SSSgtcfC
++ _$s18AppIntentsServices0A17NotificationTopicVMn
++ _$s18AppIntentsServices0A17NotificationTopicVSHAAMc
++ _$s18AppIntentsServices0A17NotificationTopicVSQAAMc
++ _$s18AppIntentsServices0A19IntentSpecificationV7metricsSDySSs8Sendable_pGvg
++ _$s18AppIntentsServices0A24IntentFetchOptionsResultVAASo7LNValueCRszrlE20resolvingProxyImagesACyAEGyYaKF
++ _$s18AppIntentsServices0A24IntentFetchOptionsResultVAASo7LNValueCRszrlE20resolvingProxyImagesACyAEGyYaKFTu
++ _$s18AppIntentsServices0aB8ProtocolO05FetchA11DescriptionO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO12PerformQueryO7RequestV11description7privacySSAA0bC0O14PayloadPrivacyO_tF
++ _$s18AppIntentsServices0aB8ProtocolO12PerformQueryO8ResponseO11description7privacySSAA0bC0O14PayloadPrivacyO_tF
++ _$s18AppIntentsServices0aB8ProtocolO12PerformQueryO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO13NotificationsO22StartObservingResponseVMn
++ _$s18AppIntentsServices0aB8ProtocolO13PerformActionO7RequestV11description7privacySSAA0bC0O14PayloadPrivacyO_tF
++ _$s18AppIntentsServices0aB8ProtocolO13PerformActionO7RequestV7OptionsVs23CustomStringConvertibleAAMc
++ _$s18AppIntentsServices0aB8ProtocolO13PerformActionO8ResponseO11description7privacySSAA0bC0O14PayloadPrivacyO_tF
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestV04userF0SSSgvg
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestV15useManagedIndexSbvg
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestV3appAA0A10IdentifierVvg
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestVMa
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO7RequestVMn
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO8ResponseV17entityIdentifiersAGSayAA0A16EntityIdentifier_pG_tcfC
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO8ResponseVMa
++ _$s18AppIntentsServices0aB8ProtocolO14SpotlightQueryO8ResponseVMn
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestV14reasonRawValueSivg
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestV15requestMetadataAA0gI0Vvg
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestV19executionIdentifier10Foundation4UUIDVvg
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestV6reasonSo08LNActionfE6ReasonVvg
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestVMa
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO7RequestVMn
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO8ResponseO5erroryAGSo7NSErrorCcAGmFWC
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO8ResponseO7successyA2GmFWC
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO8ResponseOMa
++ _$s18AppIntentsServices0aB8ProtocolO15CancelExecutionO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO7RequestV15requestMetadataAA0hJ0Vvg
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO7RequestV17entityIdentifiersSayAA010AttributedaF10IdentifierVGvg
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO7RequestVMa
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO7RequestVMn
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO8ResponseO5erroryAGSo7NSErrorCcAGmFWC
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO8ResponseO7successyAgA04ViewG0_pSg_tcAGmFWC
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO8ResponseOMa
++ _$s18AppIntentsServices0aB8ProtocolO18FetchEntitySnippetO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO19CreateAsyncIteratorO7RequestVs23CustomStringConvertibleAAMc
++ _$s18AppIntentsServices0aB8ProtocolO19CreateAsyncIteratorO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO20ReleaseAsyncSequenceO7RequestVs23CustomStringConvertibleAAMc
++ _$s18AppIntentsServices0aB8ProtocolO21FetchOptionsForActionO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO26FetchDeferredPropertyValueO8ResponseOMn
++ _$s18AppIntentsServices0aB8ProtocolO29FetchNextAsyncIteratorResultsO7RequestVs23CustomStringConvertibleAAMc
++ _$s18AppIntentsServices0aB8ProtocolO29FetchNextAsyncIteratorResultsO8ResponseOMn
++ _$s18AppIntentsServices0bC0O10DeviceInfoO07currentD4TypeAC0dG0OvgZ
++ _$s18AppIntentsServices0bC0O10DeviceTypeO03forD5ModelyAESSSgFZ
++ _$s18AppIntentsServices0bC0O10DeviceTypeO2eeoiySbAE_AEtFZ
++ _$s18AppIntentsServices0bC0O10DeviceTypeO3macyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeO4iPadyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeO5watchyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeO6iPhoneyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeO7appleTVyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeO7homePodyA2EmFWC
++ _$s18AppIntentsServices0bC0O10DeviceTypeOMa
++ _$s18AppIntentsServices0bC0O10DeviceTypeOMn
++ _$s18AppIntentsServices0bC0O10DeviceTypeOSHAAMc
++ _$s18AppIntentsServices0bC0O10DeviceTypeOSQAAMc
++ _$s18AppIntentsServices0bC0O10DeviceTypeOs23CustomStringConvertibleAAMc
++ _$s18AppIntentsServices0bC0O21RemoteDispatcherErrorO18cancellationFailedyA2EmFWC
++ _$s18AppIntentsServices0bC0O21RemoteDispatcherErrorO28homeDeviceConnectionDisabledyA2EmFWC
++ _$s18AppIntentsServices0bC0O21RemoteDispatcherErrorO29pairedWatchConnectionDisabledyA2EmFWC
++ _$s18AppIntentsServices0bC0O21RemoteDispatcherErrorO7timeoutyAESScAEmFWC
++ _$s18AppIntentsServices0bC0O6ErrorsO12notSupportedyAESScAEmFWC
++ _$s18AppIntentsServices0bC0O8EndpointV2nw7Network10NWEndpointOvg
++ _$s18AppIntentsServices0bC0O8EndpointVMa
++ _$s18AppIntentsServices0bC0O8EndpointV_9transportAE7Network10NWEndpointO_xtcAA0F18TransportProvidingRzlufC
++ _$s18AppIntentsServices0bC0OMn
++ _$s18AppIntentsServices12UserInternalV07currentD0ACvgZ
++ _$s18AppIntentsServices12UserInternalVMa
++ _$s18AppIntentsServices13SchemaVersionV5majors6UInt64Vvg
++ _$s18AppIntentsServices13SchemaVersionV5minors6UInt64Vvg
++ _$s18AppIntentsServices13SchemaVersionV5patchs6UInt64Vvg
++ _$s18AppIntentsServices13SchemaVersionVMa
++ _$s18AppIntentsServices13SchemaVersionVMn
++ _$s18AppIntentsServices15InstrumentationO15ActivityTrackerO18inFlightActivitiesSayAA0E8Protocol_pGvgZ
++ _$s18AppIntentsServices15InstrumentationO18ActivityDescriptorV_21emitTailspinThreshold02nwE010powerLogId7timeoutAEs12StaticStringV_s8DurationVSgAE15NWActivityLabelVSgSiSgANtcfC
++ _$s18AppIntentsServices15InstrumentationO8ActivityC10addMetricsyySDySSs8Sendable_pGF
++ _$s18AppIntentsServices15InstrumentationO8ActivityC4names12StaticStringVvg
++ _$s18AppIntentsServices15InstrumentationO8ActivityC7timeouts8DurationVSgvg
++ _$s18AppIntentsServices15InstrumentationO8ActivityCMn
++ _$s18AppIntentsServices15InstrumentationO8ActivityCy_xGAA0E8ProtocolAAMc
++ _$s18AppIntentsServices16ActivityProtocolP20addCompletionHandleryyyyYbcFTj
++ _$s18AppIntentsServices16ActivityProtocolP9logPrefixSSvgTj
++ _$s18AppIntentsServices16ActivityProtocolP9startedAts15ContinuousClockV7InstantVSgvgTj
++ _$s18AppIntentsServices16DiagnosticReportV10formatTree_6indentSaySSGSayAC0G0OG_SStFZ
++ _$s18AppIntentsServices16DiagnosticReportV10formatTree_6indentSaySSGSayAC0G0OG_SStFZfA0_
++ _$s18AppIntentsServices16DiagnosticReportV4TreeO4itemyAESScAEmFWC
++ _$s18AppIntentsServices16DiagnosticReportV4TreeO5groupyAESS_SayAEGtcAEmFWC
++ _$s18AppIntentsServices16DiagnosticReportV4TreeOMa
++ _$s18AppIntentsServices16DiagnosticReportV4TreeOMn
++ _$s18AppIntentsServices16DiagnosticReportV5linesSaySSGvg
++ _$s18AppIntentsServices16DiagnosticReportV5title5count5itemsACSS_SiSgSaySSGtcfC
++ _$s18AppIntentsServices16DiagnosticReportVMa
++ _$s18AppIntentsServices16DiagnosticReportVMn
++ _$s18AppIntentsServices17NetworkTransportsO25preferredRapportTransportAA0dH9Providing_pXpvgZ
++ _$s18AppIntentsServices18LocalQueryExecutorC10connectionSo12LNConnectionCvgTu
++ _$s18AppIntentsServices18LocalQueryExecutorC3app18querySpecification12userIdentityAcA0A10IdentifierV_AA0eI0OSo06LNUserK0CSgtcfC
++ _$s18AppIntentsServices18QuerySpecificationO7metricsSDySSs8Sendable_pGvg
++ _$s18AppIntentsServices19AsyncSerialExecutorC3add_5labelyyyYaYbKc_SStFTj
++ _$s18AppIntentsServices19AsyncSerialExecutorCACycfC
++ _$s18AppIntentsServices19AsyncSerialExecutorCMa
++ _$s18AppIntentsServices19AsyncSerialExecutorCMn
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsV7rapportAEvgZ
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsV8rawValueAESi_tcfC
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsV8terminusAEvgZ
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsVMa
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsVMn
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO10TransportsVs10SetAlgebraAAMc
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO15machServiceNameSSvgZ
++ _$s18AppIntentsServices19RemoteDaemonPrewarmO16makeXPCInterfaceSo14NSXPCInterfaceCyFZ
++ _$s18AppIntentsServices19RemoteDaemonPrewarmOMn
++ _$s18AppIntentsServices21PerformActionExecutorO13DelegateStoreC5countSivg
++ _$s18AppIntentsServices21PerformActionExecutorO13DelegateStoreC9removeAllyyF
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationV14callerPriorityScPvg
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationV6resume9returningyx_tF
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationV6updateyyScCyxs5NeverOGF
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationVMa
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationVMn
++ _$s18AppIntentsServices21PerformActionExecutorO16CallContinuationVyAEy_xGScCyxs5NeverOGcfC
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingP15pendingRequestsAC07PendingJ5StoreCvgTq
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE012handleChoiceG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE012handleChoiceG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleContinueInaG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkaG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleContinueInaG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkaG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleNeedsValueG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleNeedsValueG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE018handleConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE018handleConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE020handleDisambiguationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE020handleDisambiguationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE06handlee12ConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0ejG0V_yyXEtYaF
++ _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE06handlee12ConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0ejG0V_yyXEtYaFTu
++ _$s18AppIntentsServices21PerformActionExecutorO20PendingRequestsStoreCAEycfC
++ _$s18AppIntentsServices21PerformActionExecutorO20PendingRequestsStoreCMa
++ _$s18AppIntentsServices21PerformActionExecutorO20PendingRequestsStoreCMn
++ _$s18AppIntentsServices23ASQUICTerminusTransportV22applicationServiceNameSSvgZ
++ _$s18AppIntentsServices23ASQUICTerminusTransportVAA07NetworkE9ProvidingAAMc
++ _$s18AppIntentsServices23ASQUICTerminusTransportVMa
++ _$s18AppIntentsServices25NetworkTransportProvidingP15listenerService0D010NWListenerC0H0VvgZTj
++ _$s18AppIntentsServices25NetworkTransportProvidingP4userxAA12UserInternalV_tcfCTj
++ _$s18AppIntentsServices25NetworkTransportProvidingPAAE10attributesAA0dE10AttributesVvg
++ _$s18AppIntentsServices26CachedLinkMetadataProviderC06actionF016bundleIdentifier0hJ0So08LNActionF0CSS_SStYaKFTjTu
++ _$s18AppIntentsServices26CachedLinkMetadataProviderC06entityF016bundleIdentifier0h4TypeJ0So08LNEntityF0CSS_SStYaKFTjTu
++ _$s18AppIntentsServices26CachedLinkMetadataProviderC18isBundleRegisteredySbSSYaKFTjTu
++ _$s18AppIntentsServices26CachedLinkMetadataProviderC6sharedACvgZ
++ _$s18AppIntentsServices26EntitySnippetFetchExecutorC12userIdentityACSo06LNUserI0CSg_tcfC
++ _$s18AppIntentsServices26EntitySnippetFetchExecutorC7perform11identifiersAA04ViewE0_pSgSayAA010AttributedaD10IdentifierVG_tYaKF
++ _$s18AppIntentsServices26EntitySnippetFetchExecutorC7perform11identifiersAA04ViewE0_pSgSayAA010AttributedaD10IdentifierVG_tYaKFTu
++ _$s18AppIntentsServices26EntitySnippetFetchExecutorCMa
++ _$s18AppIntentsServices26NetworkTransportAttributesV15isCoupledDeviceSbvg
++ _$s18AppIntentsServices26NetworkTransportAttributesVMa
++ _$s18AppIntentsServices26NetworkTransportAttributesVMn
++ _$s18AppIntentsServices5TasksO11withTimeout_8throwing7closurexs8DurationV_q_xyYaYbKctYaKs8SendableRzs5ErrorR_r0_lFZ
++ _$s18AppIntentsServices5TasksO11withTimeout_8throwing7closurexs8DurationV_q_xyYaYbKctYaKs8SendableRzs5ErrorR_r0_lFZTu
++ _$s2os6LoggerV18AppIntentsServicesE19withInstrumentation_10basePrefix11clientLabel18diagnosticsEnabled15logUponEntering0nO7Leaving0nO8Throwing14parentActivity14payloadPrivacy10signposter10signpostID9isolation7closurexAD0G0O0T10DescriptorV_SSSgAVSbSgSSyYbcSgSSxYbcSgSSs5Error_pYbcSgAD0T8Protocol_pSgAD0dE0O07PayloadV0OAA12OSSignposterVSgAA010OSSignpostY0VSgScA_pSgYixAS0T0Cy_xGYaKXEtYaKs8SendableRzlFfA7_
++ _$s6Darwin7SIG_IGNyys5Int32VXCvg
++ _$s7Network10NWEndpointO11deviceModelSSSgvg
++ _$s7Network10NWEndpointO18AppIntentsServicesE11descriptionSSvg
++ _$s7Network10NWEndpointOSHAAMc
++ _$s7Network10NWEndpointOs23CustomStringConvertible18AppIntentsServicesMc
++ _$s7Network11NWActorPeerP18AppIntentsServicesE26safeAddInterruptionHandleryyys5Error_pSgYbcF
++ _$s7Network13NWActorSystemC22publishAndWaitForReadyyyxYaKAA25NWSingletonPublishedActorRzAA0B2IDV0L0RtzlF
++ _$s7Network13NWActorSystemC22publishAndWaitForReadyyyxYaKAA25NWSingletonPublishedActorRzAA0B2IDV0L0RtzlFTu
++ _$s7Network15NWApplicationIDV4selfACSgvgZ
++ _$s7Network18NWActorSystemErrorO18AppIntentsServicesE10isTerminalSbvg
++ _$s7Network18NWActorSystemErrorOMa
++ _$s7Network18NWActorSystemErrorOs0D0AAMc
++ _$sSD11descriptionSSvg
++ _$sSD18AppIntentsServicesSSRszs8Sendable_pRs_rlE1poiySDySSsAB_pGAD_ADtFZ
++ _$sSD8_VariantV9removeAll15keepingCapacityySb_tF
++ _$sSD8_VariantVMn
++ _$sSDyq_Sgxcig
++ _$sSDyq_Sgxcis
++ _$sSJSQsWP
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS7cStringSSSPys4Int8VG_tcfC
++ _$sSSSlsMc
++ _$sSSSmsMc
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSayxGSKsMc
++ _$sScI4next7ElementQzSgyYaKFTj
++ _$sScI4next7ElementQzSgyYaKFTjTu
++ _$sScP13userInitiatedScPvgZ
++ _$sSh11descriptionSSvg
++ _$sSis23CustomStringConvertiblesWP
++ _$sSm17_StringProcessingSQ7ElementRpzrlE9replacing_4with15maxReplacementsxqd___qd_0_SitSlRd__SlRd_0_ABQyd__ACRSABQyd_0_AGRSr0_lF
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV17makeAsyncIteratorAE0H0VyF
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV4ItemV4itemSo012CSSearchableF0Cvg
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV4ItemVMa
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV4ItemVMn
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV8IteratorVMa
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsV8IteratorVScIACMc
++ _$sSo13CSSearchQueryC13CoreSpotlightE7ResultsVMa
++ _$sSo13CSSearchQueryC13CoreSpotlightE7resultsAbCE7ResultsVvg
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo18LNEntityIdentifierC18AppIntentsServices0c6EntityB0ACMc
++ _$sSo18OS_dispatch_sourceC8DispatchE16makeSignalSource6signal5queueSo0a1_b1_c1_H0_ps5Int32V_So0a1_b1_I0CSgtFZ
++ _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
++ _$sSo18OS_dispatch_sourceP8DispatchE8activateyyF
++ _$sSy10FoundationE5write2to10atomically8encodingyAA3URLV_SbSSAAE8EncodingVtKF
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableV4hash4intoys6HasherVz_tF
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
++ _$ss12StaticStringV11descriptionSSvg
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss15ContinuousClockV3nowAB7InstantVvgZ
++ _$ss15ContinuousClockV7InstantV1loiySbAD_ADtFZ
++ _$ss15ContinuousClockV7InstantV3nowADvgZ
++ _$ss15ContinuousClockV7InstantV8duration2tos8DurationVAD_tF
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVMn
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss6UInt32VMn
++ _$ss8DurationV18AppIntentsServicesE13humanReadableSSvg
++ _$ss8DurationV4zeroABvgZ
++ _$ss9TaskLocalC12wrappedValueAByxGx_tcfc
++ _$ss9TaskLocalC3getxyF
++ _$ss9TaskLocalCMn
++ _CFRunLoopRun
++ _LNAppNotificationEventListenerMachServiceNameSuffix
++ _NSTemporaryDirectory
++ _OBJC_CLASS_$_CSSearchQuery
++ _OBJC_CLASS_$_CSSearchQueryContext
++ _OBJC_CLASS_$_LNAppNotificationEvent
++ _OBJC_CLASS_$_LNAppNotificationEventRegistrationProvider
++ _OBJC_CLASS_$_LNEntityIdentifier
++ _OBJC_CLASS_$_LNSchemaVersion
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSXPCListener
++ _OBJC_CLASS_$_OS_dispatch_source
++ __set_user_dir_suffix
++ __xpc_event_key_name
++ _clock_gettime_nsec_np
++ _os_transaction_get_description
++ _os_transaction_get_timestamp
++ _qos_class_self
++ _signal
++ _swift_bridgeObjectRelease_n
++ _swift_dynamicCastClass
++ _swift_makeBoxUnique
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_task_future_wait_throwing
++ _swift_task_localValueGet
++ _swift_unownedRelease
++ _swift_unownedRetain
++ _swift_unownedRetainStrong
++ _swift_willThrowTypedImpl
++ _xpc_dictionary_create_reply
++ _xpc_dictionary_get_bool
++ _xpc_dictionary_get_string
++ _xpc_dictionary_send_reply
++ _xpc_set_event_stream_handler
+- _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
+- _$s12FeatureFlags0aB3KeyMp
+- _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
+- _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
+- _$s15Synchronization5_CellVMn
+- _$s18AppIntentsServices06RemoteaB5ActorC15listenerService7Network10NWListenerC0G0VvgZ
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP05fetchA11Description_4peerAA0abG0O05FetchaI0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP12performQuery_4peerAA0abG0O07PerformI0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP13performIntent_4peerAA0abG0O13PerformActionO8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP13stopObserving_4peeryAA0abG0O13NotificationsO04StopI7RequestV_7Network11NWActorPeer_pSgtKFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP14startObserving_4with4peerAA0abG0O13NotificationsO05StartI8ResponseVAL0mI7RequestV_AA0dA16NotificationSinkC7Network11NWActorPeer_pSgtKFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP16restartObserving_4with4peeryAA0abG0O13NotificationsO07RestartI7RequestV_AA0dA16NotificationSinkC7Network11NWActorPeer_pSgtKFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP19createAsyncIterator_4peerAA0abG0O06CreateiJ0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP20releaseAsyncSequence_4peeryAA0abG0O07ReleaseiJ0O7RequestV_7Network11NWActorPeer_pSgtYaKFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent014withContinueInA8Response4peerAA0abG0O0I6ActionO0N0OAL0lmaN0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent18withChoiceResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent22withNeedsValueResponse4peerAA0abG0O0I6ActionO0N0OAL0lmN0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent24withConfirmationResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent26withDisambiguationResponse4peerAA0abG0O0I6ActionO0M0OAL0lM0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent26withUnknownRequestResponse4peerAA0abG0O0I6ActionO0N0OAL0lmN0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21continuePerformIntent30withActionConfirmationResponse4peerAA0abG0O0iL0O0N0OAL0lmN0V_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP21fetchOptionsForAction_4peerAA0abG0O05FetchijK0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP24fetchNextIteratorResults_4peerAA0abG0O05Fetchi5AsyncjK0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP26fetchDeferredPropertyValue_4peerAA0abG0O05FetchijK0O8ResponseOAK7RequestV_7Network11NWActorPeer_pSgtYaFTq
+- _$s18AppIntentsServices06RemoteaB5ActorC16DelegateProtocolP9fileChunk_4peer10Foundation4DataVSgAA0abG0O09FetchFileI0O7RequestV_7Network11NWActorPeer_pSgtKFTq
+- _$s18AppIntentsServices0A10IdentifierV06bundleD08locationACSS_AA0A16InstanceLocationVSgtcfC
+- _$s18AppIntentsServices0A16InstanceLocationVMa
+- _$s18AppIntentsServices0A16InstanceLocationVMn
+- _$s18AppIntentsServices0A19IntentSpecificationV7metricsSDySSypGvg
+- _$s18AppIntentsServices0A25NotificationEventRegistryC15stopObservation3for12observerUUIDyAA0aD5TopicV_10Foundation0K0VtKFZ
+- _$s18AppIntentsServices0A25NotificationEventRegistryC16startObservation3for4sink10Foundation4UUIDVAA0aD5TopicV_AA06RemoteaD4SinkCtKFZ
+- _$s18AppIntentsServices0A25NotificationEventRegistryC18restartObservation3for10identifier4sinkyAA0aD5TopicV_10Foundation4UUIDVAA06RemoteaD4SinkCtKFZ
+- _$s18AppIntentsServices0A25NotificationEventRegistryC6sharedACvgZ
+- _$s18AppIntentsServices0A25NotificationEventRegistryCMa
+- _$s18AppIntentsServices0bC0O14PayloadPrivacyO20formattedDescriptionySSxlF
+- _$s18AppIntentsServices15InstrumentationO18ActivityDescriptorV_21emitTailspinThreshold02nwE010powerLogIdAEs12StaticStringV_s8DurationVSgAE15NWActivityLabelVSgSiSgtcfC
+- _$s18AppIntentsServices15InstrumentationO8ActivityC10addMetricsyySDySSypGF
+- _$s18AppIntentsServices18LocalQueryExecutorC3app18querySpecificationAcA0A10IdentifierV_AA0eI0OtcfC
+- _$s18AppIntentsServices18QuerySpecificationO7metricsSDySSypGvg
+- _$s18AppIntentsServices21PerformActionExecutorO15PendingRequestsV21disambiguationRequest010needsValueJ0012confirmationJ0018actionConfirmationJ0010continueInaJ006choiceJ0AESo016LNDisambiguationJ0CSg_So07LNNeedslJ0CSgSo014LNConfirmationJ0CSgSo08LNActionoJ0CSgSo010LNContinueqaJ0CSgSo08LNChoiceJ0CSgtcfC
+- _$s18AppIntentsServices21PerformActionExecutorO15PendingRequestsVMa
+- _$s18AppIntentsServices21PerformActionExecutorO15PendingRequestsVMn
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingP15pendingRequests15Synchronization5MutexVyAC07PendingJ0VGvrTq
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE012handleChoiceG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtF
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleContinueInaG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkaG0V_yyXEtF
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE016handleNeedsValueG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jkG0V_yyXEtF
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE018handleConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtF
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE020handleDisambiguationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0jG0V_yyXEtF
+- _$s18AppIntentsServices21PerformActionExecutorO16ResponseHandlingPAAE06handlee12ConfirmationG0_15requestNotFoundyAA0aB8ProtocolO0dE0O0ejG0V_yyXEtF
+- _$s18AppIntentsServices26CachedLinkMetadataProviderC06entityF016bundleIdentifier0h4TypeJ0So08LNEntityF0CSS_SStKFTj
+- _$s18AppIntentsServices26CachedLinkMetadataProviderCACycfC
+- _$s7Network10NWListenerC7ServiceVMn
+- _$s7Network11NWActorPeerP22addInterruptionHandleryyys5Error_pSgcFTj
+- _$sSD18AppIntentsServicesSSRszypRs_rlE1poiySDySSypGAC_ACtFZ
+- _$sSS10describingSSx_tcs23CustomStringConvertibleRzlufC
+- _$sScCMa
+- _$sSo18LNMetadataProviderC18AppIntentsServicesE18isBundleRegisteredySbSSKF
+- _$sSo18LNMetadataProviderC18AppIntentsServicesE36actionMetadataThrowingMappedAISError19forBundleIdentifier09andActionM0So08LNActionG0CSS_SStKF
+- _$sSo18LNMetadataProviderC18AppIntentsServicesE6sharedABvgZ
+- _$ss12StaticStringVMn
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _OBJC_CLASS_$_CUSystemMonitor
+- _OBJC_CLASS_$_LNMetadataProvider
+- _OBJC_CLASS_$_RPCompanionLinkClient
+- _swift_bridgeObjectRetain_n
+CStrings:
++ " [connected for "
++ " failed (attempt "
++ " timed out after "
++ "%s disconnected with no active session"
++ "%s disconnected: tearing down session, details: %s"
++ "%s pre-teardown state: %s"
++ "%s%{public}s is a communal device, personal identity not supported, bypassing user policy."
++ "%s: Listener activated for %s"
++ "%s: Starting Event Listener: %s"
++ "%s: Starting prewarm listener: %s"
++ "%s: actor already published, start() called twice?"
++ "%s: actor published over %s"
++ "%s: actorSystem.publishAndWaitForReady completed"
++ "%s: already cancelled, start() called after stop()?"
++ "%s: already started publishing actor, start() called twice?"
++ "%s: calling actorSystem.publishAndWaitForReady..."
++ "%s: cancelled while actor was publishing, invalidating actor"
++ "%s: listener ready to accept connections"
++ "%s: starting publish for actor over %s"
++ "%s: waiting for Rapport event"
++ "%s: waiting for Terminus notification"
++ "%sAllowing request: peer device type (%{public}s) is not subject to MDM pairing restrictions."
++ "%sAllowing request: peer is a home device and home-device pairing is allowed."
++ "%sAllowing request: peer is a watch and watch pairing is allowed."
++ "%sBypassing policy as device pairing is not manageable by MDM on this device."
++ "%sCompleted with %s results"
++ "%sConstructed query: %s"
++ "%sDenying request: Biometric authentication required"
++ "%sDenying request: Device is passcode locked with 3 or more failed attempts"
++ "%sDenying request: Home device connection is disabled by MDM"
++ "%sDenying request: Invalid peer (peerEndpoint.isOwner: %{bool}d, isCoupledDevice: %{bool}d)"
++ "%sDenying request: Paired watch connection is disabled by MDM"
++ "%sDenying request: Unable to retrieve peer endpoint from context"
++ "%sPerforming %ld queries"
++ "%sPersona identity not supported, returning nil."
++ "%sQuery failed: %s"
++ "%sReleased AsyncSequence %@"
++ "%sSearching Spotlight for userQuery=%s in %s"
++ "ASQUICTerminusTransport"
++ "Active transactions"
++ "Activities: (none)"
++ "Adding observer with %s for %s"
++ "AppIntentsTestKit"
++ "BUG? A listener was already active for %s"
++ "BUG? Removing stale observer %s for %s after failed send attempts. Did the observer disconnect without calling into its peer interruption handler?"
++ "Bailing out of retry for observer %s/%s: newer events pending"
++ "Cancelling remote execution: "
++ "Cannot cancel execution: executor is nil"
++ "Connected clients"
++ "END DIAGNOSTIC DUMP (SIGUSR2)"
++ "Failed to cancel remote execution %s: %@"
++ "Failed to fetch entity snippet: %@"
++ "Failed to query donated entities: "
++ "Failed to reply to Rapport wake event: %s"
++ "Failed to reply to Terminus wake event: %s"
++ "Failed to stop observation on registry after client session ended for %s/%s: %@"
++ "Failed to write state dump to %s: %@"
++ "Fetching entity snippet via remote execution for "
++ "File: %@ is %ld bytes,\nremaining inline budget is %ld, returning a remote file descriptor"
++ "File: %@ is %ld bytes,\nremaining inline budget is %ld, transfering inline"
++ "File: %@ is URL based, returning a remote file descriptor"
++ "File: %@ is empty, returing empty INFile"
++ "First observer added - listening for topic: %s"
++ "Home device pairing management disabled. Default to allow: true."
++ "In-flight activities"
++ "Incorrect listener"
++ "Initializing Rapport service %s with QoS class: %s"
++ "Initializing Terminus service %s with QoS class: %s"
++ "LNAppNotificationEventListenerInterface"
++ "Last observer removed - stop listening for topic: %s"
++ "No declared Rapport service named: %s"
++ "No declared Terminus service named: %s"
++ "No delegate found for execution %s"
++ "No observer identifiers for topic %s: %s"
++ "No observer with %s for %s"
++ "No sender %s for %s"
++ "No sender for topic %s observerUUID %s: %s"
++ "OS_xpc_object"
++ "Observers for %s: %s"
++ "Observers: (none)"
++ "PerformActionDelegates: "
++ "Prewarm failed: %@"
++ "Prewarm requested for transports: %ld"
++ "Prewarm: Rapport listener activated"
++ "Prewarm: Terminus listener activated"
++ "Process with PID %d attempting prewarm — requires entitlement: %s"
++ "QOS_CLASS_BACKGROUND"
++ "QOS_CLASS_DEFAULT"
++ "QOS_CLASS_UNSPECIFIED"
++ "QOS_CLASS_USER_INITIATED"
++ "QOS_CLASS_USER_INTERACTIVE"
++ "QOS_CLASS_UTILITY"
++ "Querying donated entities via remote execution for "
++ "Rapport service %s has already been initialized. Rapport bug?"
++ "Rapport service %s initialization completed, success: %{bool}d"
++ "Received Rapport wake event for: %s"
++ "Received Terminus wake event for: %s"
++ "RemoteAppIntentsActor: received hello() call from peer"
++ "RemoteAppIntentsDaemon"
++ "RemoteAppIntentsDaemon.Delegate"
++ "RemoteAppIntentsDaemon.PrewarmHandler"
++ "RemoteAppIntentsDaemon/AppNotificationEventRegistry+Observer.swift"
++ "RemoteOperationTimeout"
++ "Removing observer with %s for %s"
++ "Replacing sink for observer %s for %s"
++ "Replying to Rapport wake event for: %s"
++ "Replying to Terminus wake event for: %s"
++ "Resuming completion with error"
++ "START DIAGNOSTIC DUMP (SIGUSR2) — %s"
++ "Sending to observer "
++ "Starting observer %s for %s"
++ "Stopping observation for %s/%s: client session ended"
++ "Stopping observer %s for %s"
++ "Terminus service %s has already been initialized"
++ "Terminus service %s initialization completed, success: %{bool}d"
++ "Timed out sending events to observer "
++ "Topic %s has no observers, unregistering from event source"
++ "Tracking new peer: %s"
++ "Unable to start listening for Rapport: %@"
++ "Unable to start listening for Terminus: %@"
++ "Undefined NWApplicationID.self"
++ "Unknown EventType %ld in %@"
++ "Watch pairing management enabled. Default to allow: true."
++ "_TtC22RemoteAppIntentsDaemon13GroundControl"
++ "_TtC22RemoteAppIntentsDaemon19TerminusWakeHandler"
++ "_TtC22RemoteAppIntentsDaemon28AppNotificationEventRegistry"
++ "_TtCC22RemoteAppIntentsDaemon28AppNotificationEventRegistry20LinkServicesListener"
++ "_TtCC22RemoteAppIntentsDaemon28AppNotificationEventRegistry8Listener"
++ "_TtCC22RemoteAppIntentsDaemon28AppNotificationEventRegistry8Observer"
++ "_TtCE22RemoteAppIntentsDaemonC18AppIntentsServices21RemoteAppIntentsActor13ClientSession"
++ "_TtCE22RemoteAppIntentsDaemonO18AppIntentsServices19RemoteDaemonPrewarm8Delegate"
++ "_TtCE22RemoteAppIntentsDaemonO18AppIntentsServices19RemoteDaemonPrewarmP33_D6BB9F8047141A24CEC78B31F5DFC59414PrewarmHandler"
++ "_TtPO18AppIntentsServices19RemoteDaemonPrewarm12XPCInterface_"
++ "_kMDItemAppEntityInstanceIdentifier"
++ "_kMDItemAppEntityTypeIdentifier"
++ "actorListenerManager"
++ "appEntityInstanceId"
++ "appEntityType"
++ "asyncExecutor"
++ "attributeSet"
++ "cancelExecution"
++ "cancelWithReason:"
++ "client"
++ "clientTracker"
++ "com.apple.RemoteAppIntentsDaemon.rapport.internal"
++ "com.apple.RemoteAppIntentsDaemon.terminus.internal"
++ "com.apple.applicationservice.matching"
++ "com.apple.private.appintents.remoteappintentsd-prewarm"
++ "com.apple.rapport.matching"
++ "com.apple.remoteappintentsd"
++ "connectedAt"
++ "connectionWithUserIdentity:error:"
++ "entityType"
++ "eventType"
++ "executor"
++ "executor:streamingEventRequest:"
++ "executor:willPerformForegroundActionWithSceneId:"
++ "fetchEntitySnippet"
++ "firstObserverAdded"
++ "firstTopicObserverAdded"
++ "handler"
++ "inFlightActivities"
++ "initWithMachServiceName:"
++ "initWithMajorVersion:minorVersion:patchVersion:"
++ "initWithQueryString:queryContext:"
++ "initWithTypeIdentifier:instanceIdentifier:"
++ "instanceIdentifiers"
++ "lastObserverRemoved"
++ "lastTopicObserverRemoved"
++ "lastTopicObserverRemoved (self-healing for "
++ "listener"
++ "notificationObservers"
++ "onExhaustion"
++ "perform(intent:options:environment:executionIdentifier:peer:session:requestMetadata:systemContext:)"
++ "performActionDelegateStore"
++ "policyWithActionMetadata:signals:schemaVersion:"
++ "prewarmListenerDelegate"
++ "prewarmWithTransports:reply:"
++ "rapportServiceName"
++ "registerForAppNotificationEventsOfBundleIdentifier:entityType:completion:"
++ "remoteappintentsd.statedump-"
++ "replyRequired"
++ "sendAppNotificationEvents:reply:"
++ "sendEvents"
++ "sendImplementation"
++ "setBundleIDs:"
++ "setDelegate:"
++ "setFetchAttributes:"
++ "setOrigin:"
++ "setReason:"
++ "spotlightQuery"
++ "stringFromDate:"
++ "temporaryDirectory"
++ "terminusServiceName"
++ "terminusWakeHandler"
++ "topic"
++ "unregisterForAppNotificationEventsOfBundleIdentifier:entityType:completion:"
++ "uuid"
++ "v16@?0@\"<OS_xpc_object>\"8"
++ "v32@0:8@\"LNActionExecutor\"16@\"LNStreamRequest\"24"
++ "v32@0:8@\"LNActionExecutor\"16@\"NSString\"24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8q16@?24"
++ "v32@0:8q16@?<v@?@\"NSError\">24"
+- " is not the 'me device'"
+- "%s: Activated companion link monitor"
+- "%s: Activated system monitor"
+- "%s: Failed to activate companion link monitor: %@"
+- "%s: Invalidated companion link monitor"
+- "%s: Invalidated system monitor"
+- "%s: Me device status updated %{bool}d"
+- "%s: me device changed handler called"
+- "%sReleased AsyncSequence %s"
+- "AppIntentsServices"
+- "CompanionLinkMonitor: failed to resolve strong self"
+- "CompanionLinkMonitor<"
+- "File: %s is %ld bytes,\nremaining inline budget is %ld, returning a remote file descriptor"
+- "File: %s is %ld bytes,\nremaining inline budget is %ld, transfering inline"
+- "File: %s is URL based, returning a remote file descriptor"
+- "File: %s is empty, returing empty INFile"
+- "Mismatching user account"
+- "NWActorPeer unavailable"
+- "Peer actor interrupted with: %@, releasing associated LNConnection with assertable id: %s"
+- "Peer device is not logged in to the same account as this device"
+- "Re-stopping observation for %s/%s on connection interruption: %@"
+- "Rejecting request: Biometric authentication required"
+- "Rejecting request: Device is passcode locked with 3 or more failed attempts"
+- "Stopping observation for %s/%s on connection interruption: %@"
+- "_TtCC22RemoteAppIntentsDaemon17DeviceStateHelper13SystemMonitor"
+- "_TtCC22RemoteAppIntentsDaemon17DeviceStateHelper20CompanionLinkMonitor"
+- "_isMeDevice"
+- "activateWithCompletion:"
+- "allowsNonMeDevice"
+- "com.apple.appintentsservices.systemmonitor"
+- "companionLink"
+- "companionMonitor"
+- "connectionWithError:"
+- "inFlightPerformStore"
+- "invalidate"
+- "listenerPersona"
+- "meDeviceIsMe"
+- "meDeviceValid"
+- "peer"
+- "perform(intent:options:environment:executionIdentifier:peer:requestMetadata:systemContext:)"
+- "policyWithActionMetadata:signals:"
+- "service"
+- "setDispatchQueue:"
+- "setInvalidationHandler:"
+- "setLocalDeviceUpdatedHandler:"
+- "setMeDeviceChangedHandler:"
+- "setMeDeviceUseFindMyLocate:"
+- "statusFlags"
+- "systemMonitor"
+- "transactionManager"
+- "v16@?0@\"RPCompanionLinkDevice\"8"
+
+```

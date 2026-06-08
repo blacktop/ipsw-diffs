@@ -1,0 +1,590 @@
+## RoyaReplay
+
+> `/System/Library/PrivateFrameworks/RoyaReplay.framework/RoyaReplay`
+
+```diff
+
+-14.100.20.0.1
+-  __TEXT.__text: 0x5e58
+-  __TEXT.__auth_stubs: 0x7c0
+-  __TEXT.__objc_methlist: 0x138
+-  __TEXT.__const: 0x398
+-  __TEXT.__gcc_except_tab: 0x74c
+-  __TEXT.__cstring: 0x152
+-  __TEXT.__oslogstring: 0xb6
+-  __TEXT.__constg_swiftt: 0x2b0
+-  __TEXT.__swift5_typeref: 0x1f1
+-  __TEXT.__swift5_fieldmd: 0x11c
+-  __TEXT.__swift5_types: 0x1c
+-  __TEXT.__swift5_reflstr: 0x61
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_proto: 0x8
+-  __TEXT.__swift5_capture: 0x38
+-  __TEXT.__unwind_info: 0x3c0
+-  __TEXT.__eh_frame: 0x6b0
+-  __TEXT.__objc_classname: 0x185
+-  __TEXT.__objc_methname: 0x2f0
+-  __TEXT.__objc_methtype: 0x192
+-  __TEXT.__objc_stubs: 0x440
+-  __DATA_CONST.__got: 0x150
+-  __DATA_CONST.__const: 0x118
+-  __DATA_CONST.__objc_classlist: 0x50
++47.0.0.500.2
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x32
++  __DATA_CONST.__const: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x130
+-  __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x400
+-  __AUTH_CONST.__const: 0x2d8
+-  __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0x790
+-  __AUTH_CONST.__objc_intobj: 0xd8
+-  __AUTH.__objc_data: 0x190
+-  __AUTH.__data: 0x538
+-  __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0x60
+-  __DATA.__bss: 0xb0
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+-  - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
++  - /System/Library/PrivateFrameworks/ExclavePolarisBufferService.framework/ExclavePolarisBufferService
++  - /System/Library/PrivateFrameworks/Polaris.framework/Polaris
++  - /System/Library/PrivateFrameworks/PolarisExclaveSupport.framework/PolarisExclaveSupport
++  - /System/Library/PrivateFrameworks/PolarisRuntime.framework/PolarisRuntime
+   - /System/Library/PrivateFrameworks/RoyaReplayCore.framework/RoyaReplayCore
+   - /System/Library/PrivateFrameworks/RoyaUtilities.framework/RoyaUtilities
++  - /System/Library/PrivateFrameworks/RoyaUtilitiesSwift.framework/RoyaUtilitiesSwift
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 70E3AC2D-2A01-3CFE-B81C-A41E4DB0109D
+-  Functions: 159
+-  Symbols:   482
+-  CStrings:  115
++  UUID: 98EEB99C-D1F6-3967-BBFE-43ED6B5ED8E1
++  Functions: 0
++  Symbols:   15
++  CStrings:  0
+ 
+Symbols:
+- -[EmbeddedNPoCCVPixelBufferSource .cxx_construct]
+- -[EmbeddedNPoCCVPixelBufferSource .cxx_destruct]
+- -[EmbeddedNPoCCVPixelBufferSource config]
+- -[EmbeddedNPoCCVPixelBufferSource init:]
+- -[EmbeddedNPoCCVPixelBufferSource processFirstSample:]
+- -[EmbeddedNPoCCVPixelBufferSource processSample:]
+- -[EmbeddedNPoCDeviceMotionSource processSample:]
+- -[EmbeddedNPoCSessionBase .cxx_destruct]
+- -[EmbeddedNPoCSessionBase initWithMode:sessionQueue:delegateQueue:sessionOptions:]
+- -[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]
+- -[EmbeddedNPoCSessionBase sources]
+- -[EmbeddedNPoCSimpleSource .cxx_destruct]
+- -[EmbeddedNPoCSimpleSource init:requiresFirstSample:]
+- -[EmbeddedNPoCSimpleSource nextSample]
+- -[EmbeddedNPoCSource .cxx_destruct]
+- -[EmbeddedNPoCSource config]
+- -[EmbeddedNPoCSource init:]
+- -[EmbeddedNPoCSource name]
+- -[EmbeddedNPoCSource nextSample]
+- -[EmbeddedNPoCSource source]
+- -[EmbeddedNPoCSource stream]
+- -[EmbeddedNPoCSource type]
+- <redacted>
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table13
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table16
+- GCC_except_table18
+- GCC_except_table2
+- GCC_except_table26
+- GCC_except_table3
+- GCC_except_table34
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table8
+- GCC_except_table9
+- _CFRelease
+- _CFRetain
+- _CMTimeGetSeconds
+- _CVPixelBufferCreate
+- _CVPixelBufferGetBaseAddress
+- _CVPixelBufferGetBaseAddressOfPlane
+- _CVPixelBufferGetBytesPerRow
+- _CVPixelBufferGetBytesPerRowOfPlane
+- _CVPixelBufferGetDataSize
+- _CVPixelBufferGetHeight
+- _CVPixelBufferGetWidth
+- _CVPixelBufferLockBaseAddress
+- _CVPixelBufferUnlockBaseAddress
+- _CVPixelFormatDescriptionRegisterDescriptionWithPixelFormatType
+- _OBJC_CLASS_$_EmbeddedNPoCCVPixelBufferSource
+- _OBJC_CLASS_$_EmbeddedNPoCDeviceMotionSource
+- _OBJC_CLASS_$_EmbeddedNPoCSessionBase
+- _OBJC_CLASS_$_EmbeddedNPoCSimpleSource
+- _OBJC_CLASS_$_EmbeddedNPoCSource
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_RoyaReplay3CVPixelBufferSample
+- _OBJC_CLASS_$_RoyaReplay3DataSample
+- _OBJC_CLASS_$_RoyaReplay3EndOfStream
+- _OBJC_CLASS_$_RoyaReplay3Error
+- _OBJC_CLASS_$_RoyaReplay3MutableDataSample
+- _OBJC_CLASS_$_RoyaReplay3Session
+- _OBJC_CLASS_$_RoyaReplay3Source
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_EHTYPE_$_NSError
+- _OBJC_IVAR_$_EmbeddedNPoCCVPixelBufferSource._config
+- _OBJC_IVAR_$_EmbeddedNPoCCVPixelBufferSource._converter
+- _OBJC_IVAR_$_EmbeddedNPoCSessionBase._sources
+- _OBJC_IVAR_$_EmbeddedNPoCSimpleSource._nextError
+- _OBJC_IVAR_$_EmbeddedNPoCSimpleSource._nextSample
+- _OBJC_IVAR_$_EmbeddedNPoCSource._source
+- _OBJC_METACLASS_$_EmbeddedNPoCCVPixelBufferSource
+- _OBJC_METACLASS_$_EmbeddedNPoCDeviceMotionSource
+- _OBJC_METACLASS_$_EmbeddedNPoCSessionBase
+- _OBJC_METACLASS_$_EmbeddedNPoCSimpleSource
+- _OBJC_METACLASS_$_EmbeddedNPoCSource
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_RoyaReplay3Session
+- _OBJC_METACLASS_$_RoyaReplay3Source
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _VTPixelTransferSessionCreate
+- _VTPixelTransferSessionTransferImage
+- __Block_copy
+- __Block_release
+- __DATA__TtC10RoyaReplay16ResourceProvider
+- __DATA__TtC10RoyaReplay18EmbeddedNPoCSource
+- __DATA__TtC10RoyaReplay19EmbeddedNPoCSession
+- __DATA__TtC10RoyaReplay24EmbeddedNPoCNSDataSource
+- __DATA__TtC10RoyaReplay37EmbeddedNPoCPackedCVPixelBufferSource
+- __IVARS__TtC10RoyaReplay16ResourceProvider
+- __IVARS__TtC10RoyaReplay18EmbeddedNPoCSource
+- __IVARS__TtC10RoyaReplay19EmbeddedNPoCSession
+- __METACLASS_DATA__TtC10RoyaReplay16ResourceProvider
+- __METACLASS_DATA__TtC10RoyaReplay18EmbeddedNPoCSource
+- __METACLASS_DATA__TtC10RoyaReplay19EmbeddedNPoCSession
+- __METACLASS_DATA__TtC10RoyaReplay24EmbeddedNPoCNSDataSource
+- __METACLASS_DATA__TtC10RoyaReplay37EmbeddedNPoCPackedCVPixelBufferSource
+- __NSConcreteStackBlock
+- __OBJC_$_INSTANCE_METHODS_EmbeddedNPoCCVPixelBufferSource
+- __OBJC_$_INSTANCE_METHODS_EmbeddedNPoCDeviceMotionSource
+- __OBJC_$_INSTANCE_METHODS_EmbeddedNPoCSessionBase
+- __OBJC_$_INSTANCE_METHODS_EmbeddedNPoCSimpleSource
+- __OBJC_$_INSTANCE_METHODS_EmbeddedNPoCSource
+- __OBJC_$_INSTANCE_VARIABLES_EmbeddedNPoCCVPixelBufferSource
+- __OBJC_$_INSTANCE_VARIABLES_EmbeddedNPoCSessionBase
+- __OBJC_$_INSTANCE_VARIABLES_EmbeddedNPoCSimpleSource
+- __OBJC_$_INSTANCE_VARIABLES_EmbeddedNPoCSource
+- __OBJC_$_PROP_LIST_EmbeddedNPoCSource
+- __OBJC_CLASS_RO_$_EmbeddedNPoCCVPixelBufferSource
+- __OBJC_CLASS_RO_$_EmbeddedNPoCDeviceMotionSource
+- __OBJC_CLASS_RO_$_EmbeddedNPoCSessionBase
+- __OBJC_CLASS_RO_$_EmbeddedNPoCSimpleSource
+- __OBJC_CLASS_RO_$_EmbeddedNPoCSource
+- __OBJC_METACLASS_RO_$_EmbeddedNPoCCVPixelBufferSource
+- __OBJC_METACLASS_RO_$_EmbeddedNPoCDeviceMotionSource
+- __OBJC_METACLASS_RO_$_EmbeddedNPoCSessionBase
+- __OBJC_METACLASS_RO_$_EmbeddedNPoCSimpleSource
+- __OBJC_METACLASS_RO_$_EmbeddedNPoCSource
+- __Unwind_Resume
+- __ZGVZ49-[EmbeddedNPoCCVPixelBufferSource processSample:]E11kBlackBlock
+- __ZGVZ49-[EmbeddedNPoCCVPixelBufferSource processSample:]E6kPlane
+- __ZGVZ53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]E8REGISTRY
+- __ZL25_swift_stdlib_malloc_sizePKv
+- __ZL41$So20RoyaReplay3MediaTypeV$version$getter20RoyaReplay3MediaType
+- __ZN4roya17CVReturnExceptionD0Ev
+- __ZN4roya17CVReturnExceptionD1Ev
+- __ZN4roya17OSStatusExceptionD0Ev
+- __ZN4roya17OSStatusExceptionD1Ev
+- __ZN4roya5cvrefINS_14CVPixelBuffer_ES1_ED1Ev
+- __ZN4roya9CoreVideo20PlanarRasterOfPixelsIJfffEE9make_rowsIJLm0ELm1ELm2EEEEDaRKNS_5cvrefINS_14CVPixelBuffer_ES6_EENSt3__116integer_sequenceImJXspT_EEEE
+- __ZNK20RoyaReplay3MediaType11descriptionEv
+- __ZNK21RoyaReplay3SampleType11descriptionEv
+- __ZNKSt9exception4whatEv
+- __ZNSt9exceptionD2Ev
+- __ZSt9terminatev
+- __ZTIN4roya17CVReturnExceptionE
+- __ZTIN4roya17OSStatusExceptionE
+- __ZTIN4roya19exception_with_codeINS_17CVReturnExceptionEiLi0EEE
+- __ZTIN4roya19exception_with_codeINS_17OSStatusExceptionEiLi0EEE
+- __ZTISt9exception
+- __ZTSN4roya17CVReturnExceptionE
+- __ZTSN4roya17OSStatusExceptionE
+- __ZTSN4roya19exception_with_codeINS_17CVReturnExceptionEiLi0EEE
+- __ZTSN4roya19exception_with_codeINS_17OSStatusExceptionEiLi0EEE
+- __ZTVN10__cxxabiv120__si_class_type_infoE
+- __ZTVN4roya17CVReturnExceptionE
+- __ZTVN4roya17OSStatusExceptionE
+- __ZZ49-[EmbeddedNPoCCVPixelBufferSource processSample:]E11kBlackBlock
+- __ZZ49-[EmbeddedNPoCCVPixelBufferSource processSample:]E12_kBlackBlock
+- __ZZ49-[EmbeddedNPoCCVPixelBufferSource processSample:]E6kPlane
+- __ZZ53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]E8REGISTRY
+- __ZdlPvSt19__type_descriptor_t
+- ___53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]_block_invoke
+- ___53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]_block_invoke.77
+- ___53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]_block_invoke.77.cold.1
+- ___53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]_block_invoke.79
+- ___53-[EmbeddedNPoCSessionBase open:onDone:onFail:onWarn:]_block_invoke.79.cold.1
+- ___CFConstantStringClassReference
+- ___block_descriptor_40_ea8_32bs_e17_B16?0"NSError"8ls32l8
+- ___block_descriptor_40_ea8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_48_ea8_32s40bs_e5_v8?0ls32l8s40l8
+- ___chkstk_darwin
+- ___clang_call_terminate
+- ___cxa_allocate_exception
+- ___cxa_begin_catch
+- ___cxa_guard_abort
+- ___cxa_guard_acquire
+- ___cxa_guard_release
+- ___cxa_throw
+- ___gxx_personality_v0
+- ___objc_personality_v0
+- ___sincos_stret
+- ___stack_chk_fail
+- ___stack_chk_guard
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy40_8
+- ___swift_memcpy8_8
+- ___swift_project_boxed_opaque_existential_1
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __objc_empty_cache
+- __os_log_error_impl
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_RoyaReplay
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_RoyaReplay
+- __swift_exceptionPersonality
+- _block_copy_helper
+- _block_copy_helper.10
+- _block_copy_helper.4
+- _block_descriptor
+- _block_descriptor.12
+- _block_descriptor.6
+- _block_destroy_helper
+- _block_destroy_helper.11
+- _block_destroy_helper.5
+- _kCFAllocatorDefault
+- _kCFBooleanFalse
+- _kCFBooleanTrue
+- _kCVPixelFormatBitsPerBlock
+- _kCVPixelFormatBlackBlock
+- _kCVPixelFormatConstant
+- _kCVPixelFormatContainsAlpha
+- _kCVPixelFormatContainsGrayscale
+- _kCVPixelFormatContainsRGB
+- _kCVPixelFormatContainsYCbCr
+- _kCVPixelFormatHorizontalSubsampling
+- _kCVPixelFormatPlanes
+- _kCVPixelFormatVerticalSubsampling
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_alloc
+- _objc_allocWithZone
+- _objc_alloc_init
+- _objc_autorelease
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_autoreleaseReturnValue
+- _objc_begin_catch
+- _objc_claimAutoreleasedReturnValue
+- _objc_ehtype_vtable
+- _objc_end_catch
+- _objc_enumerationMutation
+- _objc_exception_throw
+- _objc_msgSend
+- _objc_msgSend$addObject:
+- _objc_msgSend$alloc
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$buffer
+- _objc_msgSend$bytes
+- _objc_msgSend$config
+- _objc_msgSend$containsObject:
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$error
+- _objc_msgSend$errorWithOSStatus:reason:userInfo:
+- _objc_msgSend$init:
+- _objc_msgSend$init:buffer:
+- _objc_msgSend$init:length:
+- _objc_msgSend$initWarning:userInfo:
+- _objc_msgSend$initWithBytes:length:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithMode:sessionQueue:delegateQueue:sessionOptions:
+- _objc_msgSend$initWithObjects:
+- _objc_msgSend$length
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$name
+- _objc_msgSend$nextSample
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$open:onDone:onFail:onWarn:
+- _objc_msgSend$owner
+- _objc_msgSend$processFirstSample:
+- _objc_msgSend$processSample:
+- _objc_msgSend$source
+- _objc_msgSend$sources
+- _objc_msgSend$stream
+- _objc_msgSend$time
+- _objc_msgSend$type
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x8
+- _objc_storeStrong
+- _os_log_type_enabled
+- _roya_os_log_instance
+- _swift_allocObject
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initWithCopy
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deletedMethodError
+- _swift_dynamicCastObjCClassUnconditional
+- _swift_endAccess
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_lookUpClassMethod
+- _swift_release
+- _swift_retain
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _symbolic $s10RoyaReplay8ResourceP
+- _symbolic Ieg_
+- _symbolic SS_ypt
+- _symbolic SaySry_____GG s5UInt8V
+- _symbolic Say_____4name_______p8resourcetG s6UInt32V 10RoyaReplay8ResourceP
+- _symbolic Say_____G 10RoyaReplay16ResourceProviderC5EventV
+- _symbolic Say_____G 10RoyaReplay18EmbeddedNPoCSourceC
+- _symbolic Say_____G s6UInt64V
+- _symbolic Si
+- _symbolic So17RoyaReplay3SampleCSg
+- _symbolic So17RoyaReplay3SourceC
+- _symbolic So17RoyaReplay3SourceCySo0aB6SampleCSo8NSObjectCG
+- _symbolic So23EmbeddedNPoCSessionBaseC
+- _symbolic Sry_____G s5UInt8V
+- _symbolic _____ 10RoyaReplay15StreamingResultO
+- _symbolic _____ 10RoyaReplay16ResourceProviderC
+- _symbolic _____ 10RoyaReplay16ResourceProviderC5EventV
+- _symbolic _____ 10RoyaReplay18EmbeddedNPoCSourceC
+- _symbolic _____ 10RoyaReplay19EmbeddedNPoCSessionC
+- _symbolic _____ 10RoyaReplay24EmbeddedNPoCNSDataSourceC
+- _symbolic _____ 10RoyaReplay37EmbeddedNPoCPackedCVPixelBufferSourceC
+- _symbolic _____ s6UInt32V
+- _symbolic _____ s6UInt64V
+- _symbolic _____4name_______p8resourcet s6UInt32V 10RoyaReplay8ResourceP
+- _symbolic ______pIegg_ s5ErrorP
+- _symbolic ______pSbIeggd_ s5ErrorP
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____ySry_____GG s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y_____4name_______p8resourcetG s23_ContiguousArrayStorageC s6UInt32V 10RoyaReplay8ResourceP
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10RoyaReplay16ResourceProviderC5EventV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
+- _type_layout_string 10RoyaReplay15StreamingResultO
+- _type_layout_string 10RoyaReplay16ResourceProviderC5EventV
+CStrings:
+- "%@;'%s'"
+- "%@;version=%u;flags=0x%06X"
+- "'%s'/'%s'"
+- ".cxx_construct"
+- ".cxx_destruct"
+- "@\"NSError\""
+- "@\"NSMutableArray\""
+- "@\"RoyaReplay3CVPixelBufferSample\""
+- "@\"RoyaReplay3Sample\""
+- "@\"RoyaReplay3Source\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@28@0:8@16B24"
+- "@48@0:8q16@24@32@40"
+- "B16@?0@\"NSError\"8"
+- "EmbeddedNPoCCVPixelBufferSource"
+- "EmbeddedNPoCDeviceMotionSource"
+- "EmbeddedNPoCSessionBase"
+- "EmbeddedNPoCSessionBase open: Loading source (%@) %@"
+- "EmbeddedNPoCSessionBase open: Using source (%@) %@"
+- "EmbeddedNPoCSessionBase open: fail: %@"
+- "EmbeddedNPoCSessionBase open: warn: %@"
+- "EmbeddedNPoCSimpleSource"
+- "EmbeddedNPoCSource"
+- "Fatal error"
+- "I"
+- "NSError"
+- "Q"
+- "RoyaReplay"
+- "RoyaReplay/Source.swift"
+- "T@\"RoyaReplay3Source\",R,N,V_source"
+- "_TtC10RoyaReplay16ResourceProvider"
+- "_TtC10RoyaReplay18EmbeddedNPoCSource"
+- "_TtC10RoyaReplay19EmbeddedNPoCSession"
+- "_TtC10RoyaReplay24EmbeddedNPoCNSDataSource"
+- "_TtC10RoyaReplay37EmbeddedNPoCPackedCVPixelBufferSource"
+- "_config"
+- "_converter"
+- "_nextError"
+- "_nextSample"
+- "_sample"
+- "_sampleSize"
+- "_session"
+- "_source"
+- "_sources"
+- "addObject:"
+- "alloc"
+- "arrayWithObjects:count:"
+- "buffer"
+- "bytes"
+- "class"
+- "com.apple.roya"
+- "config"
+- "containsObject:"
+- "copy(_:,_:) has not been implemented"
+- "countByEnumeratingWithState:objects:count:"
+- "device-motion"
+- "dictionaryWithObjects:forKeys:count:"
+- "error"
+- "errorWithOSStatus:reason:userInfo:"
+- "i"
+- "init:"
+- "init:buffer:"
+- "init:length:"
+- "init:requiresFirstSample:"
+- "init:stream:"
+- "initWarning:userInfo:"
+- "initWithBytes:length:"
+- "initWithFormat:"
+- "initWithMode:sessionQueue:delegateQueue:sessionOptions:"
+- "initWithObjects:"
+- "length"
+- "majorTyoe"
+- "mcaml_s3w"
+- "mcamr_s3w"
+- "minorType"
+- "mutableBytes"
+- "name"
+- "names"
+- "nextSample"
+- "numberWithUnsignedInt:"
+- "objectForKeyedSubscript:"
+- "open:onDone:onFail:onWarn:"
+- "owner"
+- "processFirstSample:"
+- "processSample:"
+- "queue"
+- "size(_:) has not been implemented"
+- "source"
+- "sources"
+- "stream"
+- "streams"
+- "time"
+- "type"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v48@0:8@16@?24@?32@?40"
+- "v8@?0"
+- "version"
+- "{RoyaReplay3SampleType={RoyaReplay3MediaType=IIb8b24}I}16@0:8"
+- "{cfref<OpaqueVTPixelTransferSession *>=\"p\"^{OpaqueVTPixelTransferSession}}"
+
+```

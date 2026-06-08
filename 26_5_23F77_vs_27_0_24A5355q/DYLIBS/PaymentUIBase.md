@@ -1,0 +1,625 @@
+## PaymentUIBase
+
+> `/System/Library/PrivateFrameworks/PaymentUIBase.framework/PaymentUIBase`
+
+```diff
+
+-1642.6.5.0.0
+-  __TEXT.__text: 0x2d60c
+-  __TEXT.__auth_stubs: 0x14c0
+-  __TEXT.__objc_methlist: 0x30c
+-  __TEXT.__const: 0x2be4
+-  __TEXT.__constg_swiftt: 0x12c0
+-  __TEXT.__swift5_typeref: 0x17b5
+-  __TEXT.__swift5_fieldmd: 0x9f8
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_types: 0xbc
+-  __TEXT.__cstring: 0x722
+-  __TEXT.__swift5_reflstr: 0xba4
+-  __TEXT.__swift5_assocty: 0x3f0
+-  __TEXT.__swift5_proto: 0xf8
+-  __TEXT.__swift5_capture: 0x184
+-  __TEXT.__oslogstring: 0x4d
++1677.4.0.0.0
++  __TEXT.__text: 0x41f8c
++  __TEXT.__objc_methlist: 0x4bc
++  __TEXT.__const: 0x34f4
++  __TEXT.__constg_swiftt: 0x18ec
++  __TEXT.__swift5_typeref: 0x1e83
++  __TEXT.__swift5_fieldmd: 0xcb8
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_reflstr: 0xf14
++  __TEXT.__swift5_assocty: 0x468
++  __TEXT.__swift5_proto: 0x13c
++  __TEXT.__swift5_types: 0xdc
++  __TEXT.__cstring: 0x762
++  __TEXT.__swift5_capture: 0x490
++  __TEXT.__oslogstring: 0xdd
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0xc08
+-  __TEXT.__objc_classname: 0x158
+-  __TEXT.__objc_methname: 0xe76
+-  __TEXT.__objc_methtype: 0x4e4
+-  __TEXT.__objc_stubs: 0x680
+-  __DATA_CONST.__got: 0x398
+-  __DATA_CONST.__const: 0x420
++  __TEXT.__unwind_info: 0xf50
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x4f8
+   __DATA_CONST.__objc_classlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x40
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x328
+-  __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xa68
+-  __AUTH_CONST.__const: 0x1560
+-  __AUTH_CONST.__objc_const: 0x7f8
++  __DATA_CONST.__objc_selrefs: 0x548
++  __DATA_CONST.__objc_protorefs: 0x38
++  __DATA_CONST.__got: 0x590
++  __AUTH_CONST.__const: 0x1d28
++  __AUTH_CONST.__objc_const: 0xb38
++  __AUTH_CONST.__auth_got: 0xdd8
+   __AUTH.__objc_data: 0xc0
+   __AUTH.__data: 0x250
+-  __DATA.__data: 0xd90
+-  __DATA.__bss: 0x16d0
+-  __DATA.__common: 0x18
++  __DATA.__data: 0xec0
++  __DATA.__bss: 0x1950
++  __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0xf0
+-  __DATA_DIRTY.__data: 0xb60
+-  __DATA_DIRTY.__bss: 0xa80
+-  __DATA_DIRTY.__common: 0x38
++  __DATA_DIRTY.__data: 0x1168
++  __DATA_DIRTY.__bss: 0x1100
++  __DATA_DIRTY.__common: 0x58
+   - /System/Library/Frameworks/Combine.framework/Combine
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D590DCA3-E405-3210-9D05-1725A30C8E6E
+-  Functions: 1474
+-  Symbols:   678
+-  CStrings:  248
++  UUID: 5E921D75-66F1-3348-BBD1-54F781B47962
++  Functions: 1854
++  Symbols:   958
++  CStrings:  60
+ 
+Symbols:
++ _CGRectGetMaxY
++ _CGRectGetMinY
++ _CGRectInset
++ _CGRectIntersectsRect
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_UIColorEffect
++ _OBJC_CLASS_$_UILongPressGestureRecognizer
++ _OBJC_CLASS_$_UISheetPresentationControllerDetent
++ _UISheetPresentationControllerDetentIdentifierLarge
++ __INSTANCE_METHODS__TtC13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentation
++ __IVARS__TtC13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentation
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISheetPresentationControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UISheetPresentationControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
++ __OBJC_$_PROTOCOL_REFS_UISheetPresentationControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
++ __OBJC_LABEL_PROTOCOL_$_UISheetPresentationControllerDelegate
++ __OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
++ __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
++ __OBJC_PROTOCOL_$_UISheetPresentationControllerDelegate
++ __PROPERTIES__TtC13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentation
++ __PROTOCOLS__TtC13PaymentUIBase34AuthorizationViewHostingController.145
++ __PROTOCOLS__TtC13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentation
++ __PROTOCOLS__TtC13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentation.147
++ ___swift__destructor
++ ___swift__destructor.96
++ ___swift_closure_destructor
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___unnamed_12
++ ___unnamed_21
++ ___unnamed_24
++ __swiftEmptySetSingleton
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_PaymentUIBase
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_PaymentUIBase
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_PaymentUIBase
++ _associated conformance 13PaymentUIBase0A27SheetHeroListItemsContainerV2ID33_D9D7008EBF5A57F24F9B089E25E0C17CLLOyxq_q0_q1__GSHAASQ
++ _associated conformance 13PaymentUIBase0A27SheetHeroListItemsContainerVyxq_q0_q1_G7SwiftUI4ViewAA4BodyAeFP_AeF
++ _associated conformance 13PaymentUIBase19ContainerLayoutModeOSHAASQ
++ _associated conformance 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLV4ModeOyxq__GSHAASQ
++ _associated conformance 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLVyxq_G7SwiftUI0F0AA4BodyAfGP_AfG
++ _associated conformance 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeOSHAASQ
++ _associated conformance So45UISheetPresentationControllerDetentIdentifieraSHSCSQ
++ _associated conformance So45UISheetPresentationControllerDetentIdentifieras20_SwiftNewtypeWrapperSCSY
++ _associated conformance So45UISheetPresentationControllerDetentIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.112
++ _block_copy_helper.158
++ _block_copy_helper.169
++ _block_copy_helper.179
++ _block_copy_helper.75
++ _block_copy_helper.83
++ _block_copy_helper.89
++ _block_descriptor.114
++ _block_descriptor.160
++ _block_descriptor.171
++ _block_descriptor.181
++ _block_descriptor.77
++ _block_descriptor.85
++ _block_descriptor.91
++ _block_destroy_helper.113
++ _block_destroy_helper.159
++ _block_destroy_helper.170
++ _block_destroy_helper.180
++ _block_destroy_helper.76
++ _block_destroy_helper.84
++ _block_destroy_helper.90
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA05TupleD0Vy13PaymentUIBase11KeyPathViewV_A5JQPGGAA012_EnvironmentI15WritingModifierVySDySSAJGGGAA0K0HPAlaRHPAkaRHPAjaRHPyHC_AjaRHPyHCAjaRHPyHCAjaRHPyHCAjaRHPyHCAjaRHPyHCHX_HC_HC_ApA0kN0HPyHCHC.11
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_AaBR1_r2_lAA19_ConditionalContentVyAA08ModifiedE0VyAFyAFyAA6HStackVyAA05TupleE0VyAFyAA6ZStackVyAJyAFyAA6VStackVyAJyAA6SpacerV_AA6IDViewVyAaBPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicnO0O5BoundRtd__lFQOyq__s19PartialRangeThroughVyAVGQo_13PaymentUIBase0U27SheetHeroListItemsContainerV2ID33_D9D7008EBF5A57F24F9B089E25E0C17CLLOyxq_q0_q1__GGAPQPGGAA16_FlexFrameLayoutVG_AFyANyAJyAP_q1_QPGGA12_GSgQPGGA12_G_AFyAsAE06scrollE10BackgroundyQrAA10VisibilityOFQOyAsAE22scrollEdgeEffectHidden_3forQrSb_AA4EdgeO3SetVtFQOyAFyARyAFyAsAE21scrollIndicatorsFlash8onAppearQrSb_tFQOyAsAE20scrollBounceBehavior_4axesQrAA20ScrollBounceBehaviorV_AA4AxisOA28_VtFQOyAFyAA06ScrollC0VyAFyAsAE9listStyleyQrqd__AA0Y5StyleRd__lFQOyAFyAFyAsAE24listHasLazyStackBehaviorQryFQOyAA0Y0Vys5NeverOAJyAsAE16listRowSeparator_5edgesQrA23__AA12VerticalEdgeOA28_VtFQOyAFyAsAE18listSectionMarginsyQrA29__12CoreGraphics7CGFloatVSgtFQOyAsAEA53_yQrA29__A57_tFQOyAFyAA7SectionVyAA05EmptyC0VAFyAFyq0_AA14_PaddingLayoutVGA12_GA61_GAA21_TraitWritingModifierVyAA0Y21RowBackgroundTraitKeyVGG_Qo__Qo_A68_yAA0Y17RowInsetsTraitKeyVGG_Qo_Sg_xQPGG_Qo_A68_yAA0Y22SectionSpacingTraitKeyVGGAA30_EnvironmentKeyWritingModifierVyAA0Y14SectionSpacingVSgGG_AA012InsetGroupedY5StyleVQo_AA23_GeometryActionModifierVyA56_GGGA100_G_Qo__Qo_AA24_BackgroundStyleModifierVyAA5ColorVGGA7_GA12_G_Qo__Qo_A68_yAA18TransitionTraitKeyVGGSgQPGGAA18_AnimationModifierVyA1_19ContainerLayoutModeOGGAA30_SafeAreaRegionsIgnoringLayoutVGA110_GAsAE11safeAreaBar4edge9alignment7spacing7contentQrA51__AA19HorizontalAlignmentVA57_qd__yXEtAaBRd__lFQOyAsAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAFyAsAEA30_A31_QrSb_tFQOyAsAEA32__A33_QrA35__A38_tFQOyAFyA40_yAFyAsAEA41_yQrqd__AAA42_Rd__lFQOyAFyAFyAsAEA43_QryFQOyA45_yA47_AJyAsAEA48__A49_QrA23__A52_tFQOyAFyAsAEA53_yQrA29__A57_tFQOyAsAEA53_yQrA29__A57_tFQOyAFyA59_yA61_AFyAFyA8_A63_GA12_GA61_GA71_G_Qo__Qo_A77_G_Qo__ARyxA7_GSgQPGG_Qo_A86_GA93_G_A96_Qo_A100_GGA100_G_Qo__Qo_A110_G_A56_Qo__AsAE18scrollPocketTag_v15styleQrAA19BarMagicPocketStyleV_tFQOyAFyq1_A100_G_Qo_SgQo_GAaBHPA132_AaBHPA131_AaBHPA128_AaBHPA122_AaBHPyHC_A127_AA0C8ModifierHPyHCHC_A130_AAA175_HPyHCHC_A110_AAA175_HPyHCHC_qd0__AaBHD3_A173_HOHC.39
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_AaBR1_r2_lAA19_ConditionalContentVyAA6VStackVyAA05TupleE0VyADyADyAA6ButtonVyAA08ModifiedE0VyALyALyALyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAFyAHyALyAA6HStackVyAHyASyAHyALyAmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQOyALyxAA12_FrameLayoutVG_Qo_AA0M18AttachmentModifierVG_ALyq_AA05_FlexuV0VGQPGG_ASyAHyq0_Sg_13PaymentUIBase09AccessoryC0VQPGGSgQPGGAA08_PaddingV0VG_AHyAmAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyALyAA7DividerVA17_G_AA8SolariumVALyA24_A17_GQo__ALyAmAEAnOQrAQ_tFQOyALyALyALyALyq1_A3_GA17_GA17_GA17_G_Qo_A0_GQPGSgQPGG_Qo_A0_GA3_GAA011_BackgroundX0VyAA14GeometryReaderVyAmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyALyAA5ColorVAA017_AppearanceActionX0VG_12CoreGraphics7CGFloatVQo_GGGAA11_ClipEffectVyAA16RoundedRectangleVGGGAmAE12onTapGesture5count7performQrSi_yyctFQOyA66__Qo_GA66_G_A23_QPGGA73_GAaBHPA75_AaBHPyHC_A73_AaBHPA72_AaBHPA67_AaBHPyHC_qd__AaBHD2_A71_HOHC_A66_AaBHPA60_AaBHPA41_AaBHPA40_AaBHPqd__AaBHD2_A39_HO_A0_AA0cX0HPyHCHC_A3_AAA77_HPyHCHC_A59_AAA77_HPyHCHC_A65_AAA77_HPyHCHCHCHC.17
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA19_ConditionalContentVyq_xGAaBHPq_AaBHD2__xAaBHD1_HC.92
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lqd__AaBHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyAIyAA6HStackVyAA05TupleK0VyAIyAIyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGGAA0g10AttachmentR0VGAA14_OpacityEffectVGSg_q_AA6VStackVyAIyxAA12_FrameLayoutVGGQPGGAA08_PaddingZ0VGAA05_FlexyZ0VG_Qo_HO.6
++ _get_witness_table 7SwiftUI4ViewRzAaBRd__r__l13PaymentUIBase023ColumnLayoutConditionalC033_D9D7008EBF5A57F24F9B089E25E0C17CLLVyxqd__GAaBHPyHC.40
++ _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA12TupleContentVyAA08ModifiedF0VyAHyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAA023AccessibilityAttachmentL0VGSg_xQPGGAaBHPyHC.17
++ _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA15ModifiedContentVyAFyAFyADyAA05TupleF0VyAA7DividerVSg_ADyxGQPGGAA14_PaddingLayoutVG13PaymentUIBase0k4ItemC18BackgroundModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingO0VyAA8MaterialVSgGGGAaBHPyHC.38
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE5alert_11isPresented10presenting7actions7messageQrAA4TextV_AA7BindingVySbGqd_1_Sgqd__qd_1_XEqd_0_qd_1_XEtAaBRd__AaBRd_0_r1_lFQOyAA01_C16Modifier_ContentVy13PaymentUIBase010ErrorAlertL0VG_AA05TupleM0VyAcAE16keyboardShortcutyQrAA08KeyboardT0VFQOyAA6ButtonVyAJG_Qo__A0_SgQPGAJSgAQ0qP0_pQo_HO.10
++ _keypath_setTm
++ _objc_msgSend$_currentPresentedViewFrame
++ _objc_msgSend$_setAllowsDraggingToDismiss:
++ _objc_msgSend$_setLargeBackground:
++ _objc_msgSend$_setNonLargeBackground:
++ _objc_msgSend$addGestureRecognizer:
++ _objc_msgSend$animateChanges:
++ _objc_msgSend$animationStyle
++ _objc_msgSend$convertRect:toCoordinateSpace:
++ _objc_msgSend$displayIdentity
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$initWithDynamicProvider:
++ _objc_msgSend$initWithTarget:action:
++ _objc_msgSend$initWithWhite:alpha:
++ _objc_msgSend$instruction
++ _objc_msgSend$invalidateDetents
++ _objc_msgSend$isAnimating
++ _objc_msgSend$isBeingDismissed
++ _objc_msgSend$isExternal
++ _objc_msgSend$largeDetent
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$maximumDetentValue
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$presentationController
++ _objc_msgSend$presentedView
++ _objc_msgSend$removeGestureRecognizer:
++ _objc_msgSend$resolvedColorWithTraitCollection:
++ _objc_msgSend$setAccessibilityElementsHidden:
++ _objc_msgSend$setCancelsTouchesInView:
++ _objc_msgSend$setDelaysTouchesBegan:
++ _objc_msgSend$setDetents:
++ _objc_msgSend$setMinimumPressDuration:
++ _objc_msgSend$setModalInPresentation:
++ _objc_msgSend$setNeedsUpdateOfSupportedInterfaceOrientations
++ _objc_msgSend$setPreferredContentSize:
++ _objc_msgSend$setPrefersGrabberVisible:
++ _objc_msgSend$setSelectedDetentIdentifier:
++ _objc_msgSend$setStyle:
++ _objc_msgSend$setUserInteractionEnabled:
++ _objc_msgSend$sheetPresentationController
++ _objc_msgSend$state
++ _objc_msgSend$style
++ _objc_msgSend$systemGroupedBackgroundColor
++ _objc_msgSend$traitCollection
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$verticalSizeClass
++ _objc_msgSend$windowScene
++ _objc_release_x1
++ _objc_release_x26
++ _objc_release_x9
++ _objc_retain_x25
++ _swift_getFunctionTypeMetadata0
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x27
++ _swift_retain_x8
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic B4
++ _symbolic G0R0_
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Shy_____G 7Combine14AnyCancellableC
++ _symbolic So22LAUIPhysicalButtonViewCSg
++ _symbolic So28UILongPressGestureRecognizerCSg
++ _symbolic So29UISheetPresentationControllerC
++ _symbolic So8NSStringC
++ _symbolic _____ 13PaymentUIBase0A27SheetHeroListItemsContainerV
++ _symbolic _____ 13PaymentUIBase0A27SheetHeroListItemsContainerV2ID33_D9D7008EBF5A57F24F9B089E25E0C17CLLO
++ _symbolic _____ 13PaymentUIBase19ContainerLayoutModeO
++ _symbolic _____ 13PaymentUIBase21UseTwoColumnLayoutKey33_73460A381CB25B89DB3C6B387C19EF62LLV
++ _symbolic _____ 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLV
++ _symbolic _____ 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLV4ModeO
++ _symbolic _____ 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO
++ _symbolic _____ 13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentationC
++ _symbolic _____ So45UISheetPresentationControllerDetentIdentifiera
++ _symbolic _____Sg So9NSRunLoopC10FoundationE16SchedulerOptionsV
++ _symbolic __________Iegny_ 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO 12CoreGraphics7CGFloatV
++ _symbolic _____ySSG 7Combine9PublishedV
++ _symbolic _____ySS_G 7Combine9PublishedV9PublisherV
++ _symbolic _____y_____G 7Combine9PublishedV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7Combine9PublishedV 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO
++ _symbolic _____y_____G 7SwiftUI17EnvironmentObjectV 13PaymentUIBase41AuthorizationViewHostingControllerContextC
++ _symbolic _____y_____G 7SwiftUI18_AnimationModifierV 13PaymentUIBase19ContainerLayoutModeO
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA010TransitionC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA013ListRowInsetsC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA017ListRowBackgroundC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA018ListSectionSpacingC3KeyV
++ _symbolic _____y_____G 7SwiftUI23_GeometryActionModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s19PartialRangeThroughV 7SwiftUI15DynamicTypeSizeO
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV AA22UserInterfaceSizeClassO
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA18ListSectionSpacingV
++ _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO AA22UserInterfaceSizeClassO
++ _symbolic _____y______A5BQPG 7SwiftUI12TupleContentV 13PaymentUIBase11KeyPathViewV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 12CoreGraphics7CGFloatV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 12CoreGraphics7CGFloatV
++ _symbolic _____y______G_yXlSgt 7SwiftUI9LazyStateV7StorageO 12CoreGraphics7CGFloatV
++ _symbolic _____y___________Qo_ 7SwiftUI10TransitionPAAE8combined4withQrqd___tAaBRd__lFQO AA07OpacityC0V AA04MoveC0V
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 5UIKit17UITraitDefinitionP
++ _symbolic _____y______ySb_GAcBySS_GG 7Combine10PublishersO0A7Latest3V AA9PublishedV9PublisherV
++ _symbolic _____y______y______GG 7Combine10PublishersO16RemoveDuplicatesV AA9PublishedV9PublisherV 12CoreGraphics7CGFloatV
++ _symbolic _____y______y______GG 7Combine10PublishersO16RemoveDuplicatesV AA9PublishedV9PublisherV 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO
++ _symbolic _____y______y______ySb_GAdCySS_GGG 7Combine10PublishersO16RemoveDuplicatesV AC0A7Latest3V AA9PublishedV9PublisherV
++ _symbolic _____y______y______y______GGABy_ACy______GGG 7Combine10PublishersO0A6LatestV AC16RemoveDuplicatesV AA9PublishedV9PublisherV 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO 12CoreGraphics7CGFloatV
++ _symbolic _____y______y______y______ySb_GAeDySS_GGGSo9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AC0A7Latest3V AA9PublishedV9PublisherV
++ _symbolic _____y______y______y______y______GGACy_ADy______GGGG 7Combine10PublishersO4DropV AC0A6LatestV AC16RemoveDuplicatesV AA9PublishedV9PublisherV 13PaymentUIBase41AuthorizationViewHostingControllerContextC15SheetDetentModeO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____SgGG_____G_____GSg_q______yAAyx_____GGQPGG_____G_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6HStackV AA05TupleK0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA0g10AttachmentR0V AA14_OpacityEffectV AA6VStackV AA12_FrameLayoutV AA08_PaddingZ0V AA05_FlexyZ0V
++ _symbolic _____y_____yAByAByAAy_____y_____Sg_AAyxGQPGG_____G_____y_____GG_____y_____SgGGG 7SwiftUI6VStackV AA15ModifiedContentV AA05TupleE0V AA7DividerV AA14_PaddingLayoutV 13PaymentUIBase0J26ItemViewBackgroundModifierV AA5ColorV AA022_EnvironmentKeyWritingO0V AA8MaterialV
++ _symbolic _____y_____yAByABy_____y_____yABy_____yADyABy_____yADy___________y_____yq_______y_____GQo______yxq_q0_q1__GGAGQPGG_____G_AByAFyADyAG_q1_QPGGARGSgQPGGARG_ABy_____y_____yAByAHyABy_____y_____yABy_____yABy_____yAByABy_____y_____y_____ADy_____yABy_____y_____yABy_____y_____AByAByq0______GARGA3_G_____y_____GG_Qo__Qo_A8_y_____GG_Qo_Sg_xQPGG_Qo_A8_y_____GG_____y_____SgGG______Qo______y_____GGGA34_G_Qo__Qo______y_____GGANGARG_Qo__Qo_A8_y_____GGSgQPGG_____y_____GG_____GA42_G_____y_____yABy_____y_____yAByA_yABy_____yAByABy_____yA0_yA1_ADy_____yABy_____y_____yAByA2_yA3_AByAByAOA4_GARGA3_GA10_G_Qo__Qo_A15_G_Qo__AHyxANGSgQPGG_Qo_A23_GA28_G_A30_Qo_A34_GGA34_G_Qo__Qo_A42_G_A33_Qo_______yAByq1_A34_G_Qo_SgQo_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6HStackV AA05TupleD0V AA6ZStackV AA6VStackV AA6SpacerV AA6IDViewV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicnO0O5BoundRtd__lFQO s19PartialRangeThroughV AV 13PaymentUIBase0U27SheetHeroListItemsContainerV2ID33_D9D7008EBF5A57F24F9B089E25E0C17CLLO AA16_FlexFrameLayoutV AsAE06scrollD10BackgroundyQrAA10VisibilityOFQO AsAE22scrollEdgeEffectHidden_3forQrSb_AA4EdgeO3SetVtFQO AsAE21scrollIndicatorsFlash8onAppearQrSb_tFQO AsAE20scrollBounceBehavior_4axesQrAA20ScrollBounceBehaviorV_AA4AxisOA14_VtFQO AA06ScrollL0V AsAE9listStyleyQrqd__AA0Y5StyleRd__lFQO AsAE24listHasLazyStackBehaviorQryFQO AA0Y0V s5NeverO AsAE16listRowSeparator_5edgesQrA9__AA12VerticalEdgeOA14_VtFQO AsAE18listSectionMarginsyQrA15__12CoreGraphics7CGFloatVSgtFQO AsAEA39_yQrA15__A43_tFQO AA7SectionV AA05EmptyL0V AA14_PaddingLayoutV AA21_TraitWritingModifierV AA0Y21RowBackgroundTraitKeyV AA0Y17RowInsetsTraitKeyV AA0Y22SectionSpacingTraitKeyV AA30_EnvironmentKeyWritingModifierV AA0Y14SectionSpacingV AA012InsetGroupedY5StyleV AA23_GeometryActionModifierV A42_ AA24_BackgroundStyleModifierV AA5ColorV AA18TransitionTraitKeyV AA18_AnimationModifierV A_19ContainerLayoutModeO AA30_SafeAreaRegionsIgnoringLayoutV AsAE11safeAreaBar4edge9alignment7spacing7contentQrA37__AA19HorizontalAlignmentVA43_qd__yXEtAaRRd__lFQO AsAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AsAEA16_A17_QrSb_tFQO AsAEA18__A19_QrA21__A24_tFQO AsAEA27_yQrqd__AAA28_Rd__lFQO AsAEA29_QryFQO AsAEA34__A35_QrA9__A38_tFQO AsAEA39_yQrA15__A43_tFQO AsAEA39_yQrA15__A43_tFQO AsAE18scrollPocketTag_v15styleQrAA19BarMagicPocketStyleV_tFQO
++ _symbolic _____y_____y_____G______y_____y_____y_____G_Qo__AGSgQPGAFSg______pQo_ 7SwiftUI4ViewPAAE5alert_11isPresented10presenting7actions7messageQrAA4TextV_AA7BindingVySbGqd_1_Sgqd__qd_1_XEqd_0_qd_1_XEtAaBRd__AaBRd_0_r1_lFQO AA01_C16Modifier_ContentV 13PaymentUIBase010ErrorAlertL0V AA05TupleM0V AcAE16keyboardShortcutyQrAA08KeyboardT0VFQO AA6ButtonV AJ AQ0qP0P
++ _symbolic _____y_____y______A5CQPGG 7SwiftUI5GroupV AA12TupleContentV 13PaymentUIBase11KeyPathViewV
++ _symbolic _____y_____y______ACQPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV
++ _symbolic _____y_____y_____yAAyAAy_____y_____yAEyAEyAEy_____yAByACyAEy_____yACyAFyACyAEy_____yAEyx_____G_Qo______G_AEyq______GQPGG_AFyACyq0_Sg______QPGGSgQPGG_____G_ACy_____yAEy_____AWG______AEyAzWGQo__AEy_____yAEyAEyAEyAEyq1_ALGAWGAWGAWG_Qo_AJGQPGSgQPGG_Qo_AJGALG_____y_____y_____yAEy__________G______Qo_GGG_____y_____GGG_____yA28__Qo_GA28_G_AYQPGGA32_G 7SwiftUI19_ConditionalContentV AA6VStackV AA05TupleD0V AA6ButtonV AA08ModifiedD0V AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQO AA12_FrameLayoutV AA0M18AttachmentModifierV AA05_FlexuV0V 13PaymentUIBase09AccessoryI0V AA08_PaddingV0V AmAE8staticIf_4thenQrqd___qd_0_xXEtAA0I14InputPredicateRd__AaLRd_0_r0_lFQO AA7DividerV AA8SolariumV AmAEAnOQrAQ_tFQO AA011_BackgroundX0V AA14GeometryReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5ColorV AA017_AppearanceActionX0V 12CoreGraphics7CGFloatV AA11_ClipEffectV AA16RoundedRectangleV AmAE12onTapGesture5count7performQrSi_yyctFQO
++ _symbolic _____y_____y_____yACy__________y_____GG_____GSg_xQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA023AccessibilityAttachmentK0V
++ _symbolic _____y_____y_____y_____G_Qo__ADSgQPG 7SwiftUI12TupleContentV AA4ViewPAAE16keyboardShortcutyQrAA08KeyboardG0VFQO AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y______A5DQPGG_____ySDySSADGGG 7SwiftUI15ModifiedContentV AA5GroupV AA05TupleD0V 13PaymentUIBase11KeyPathViewV AA012_EnvironmentI15WritingModifierV
++ _symbolic _____y_____y_____y______ADQPGGG 7SwiftUI5GroupV AA6VStackV AA12TupleContentV AA4TextV
++ _symbolic _____yq_xG 7SwiftUI19_ConditionalContentV
++ _symbolic _____yxG 13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentationC
++ _symbolic _____yxGSgXw 13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentationC
++ _symbolic _____yxGSgXwz_x______RzlXX 13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentationC 7SwiftUI0D0P
++ _symbolic _____yxGXDXMT 13PaymentUIBase56AuthorizationViewHostingControllerUsingSheetPresentationC
++ _symbolic _____yxq__G 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLV4ModeO
++ _symbolic _____yxq_q0_q1_G 13PaymentUIBase0A27SheetHeroListItemsContainerV
++ _symbolic _____yxqd__G 13PaymentUIBase27ColumnLayoutConditionalView33_D9D7008EBF5A57F24F9B089E25E0C17CLLV
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic q0_Iegr_
++ _symbolic q0_ycSg
++ _symbolic q1_ycSg
++ _symbolic q_xc
++ _symbolic q_yc
++ _symbolic y_____cSg 12CoreGraphics7CGFloatV
++ _type_layout_string So45UISheetPresentationControllerDetentIdentifiera
+- __PROTOCOLS__TtC13PaymentUIBase34AuthorizationViewHostingController.75
+- ___unnamed_11
+- ___unnamed_2
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_PaymentUIBase
+- _block_copy_helper.41
+- _block_copy_helper.50
+- _block_copy_helper.56
+- _block_descriptor.43
+- _block_descriptor.52
+- _block_descriptor.58
+- _block_destroy_helper.42
+- _block_destroy_helper.51
+- _block_destroy_helper.57
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA9TupleViewVy13PaymentUIBase07KeyPathG0V_A5JtGGAA012_EnvironmentJ15WritingModifierVySDySSAJGGGAA0G0HPAlaRHPAkaRHPyHC_HC_ApA0gN0HPyHCHC.11
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_AaBR1_r2_lAA19_ConditionalContentVyAA6VStackVyAA05TupleC0VyADyADyAA6ButtonVyAA08ModifiedE0VyALyALyALyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAFyAHyALyAA6HStackVyAHyASyAHyALyAmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQOyALyxAA12_FrameLayoutVG_Qo_AA0M18AttachmentModifierVG_ALyq_AA05_FlexuV0VGtGG_ASyAHyq0_Sg_13PaymentUIBase09AccessoryC0VtGGSgtGGAA08_PaddingV0VG_AHyAmAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyALyAA7DividerVA17_G_AA8SolariumVALyA24_A17_GQo__ALyAmAEAnOQrAQ_tFQOyALyALyALyALyq1_A3_GA17_GA17_GA17_G_Qo_A0_GtGSgtGG_Qo_A0_GA3_GAA011_BackgroundX0VyAA14GeometryReaderVyAmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyALyAA5ColorVAA017_AppearanceActionX0VG_12CoreGraphics7CGFloatVQo_GGGAA11_ClipEffectVyAA16RoundedRectangleVGGGAmAE12onTapGesture5count7performQrSi_yyctFQOyA66__Qo_GA66_G_A23_tGGA73_GAaBHPA75_AaBHPyHC_A73_AaBHPA72_AaBHPA67_AaBHPyHC_qd__AaBHD2_A71_HOHC_A66_AaBHPA60_AaBHPA41_AaBHPA40_AaBHPqd__AaBHD2_A39_HO_A0_AA0cX0HPyHCHC_A3_AAA77_HPyHCHC_A59_AAA77_HPyHCHC_A65_AAA77_HPyHCHCHCHC.16
+- _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lqd__AaBHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyAIyAA6HStackVyAA05TupleC0VyAIyAIyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAQyAA5ColorVSgGGAA0g10AttachmentR0VGAA14_OpacityEffectVGSg_q_AA6VStackVyAIyxAA12_FrameLayoutVGGtGGAA08_PaddingZ0VGAA05_FlexyZ0VG_Qo_HO.6
+- _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA05TupleC0VyAA15ModifiedContentVyAHyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAA023AccessibilityAttachmentL0VGSg_xtGGAaBHPyHC.17
+- _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA15ModifiedContentVyAFyAFyADyAA05TupleC0VyAA7DividerVSg_ADyxGtGGAA14_PaddingLayoutVG13PaymentUIBase0k4ItemC18BackgroundModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingO0VyAA8MaterialVSgGGGAaBHPyHC.5
+- _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE5alert_11isPresented10presenting7actions7messageQrAA4TextV_AA7BindingVySbGqd_1_Sgqd__qd_1_XEqd_0_qd_1_XEtAaBRd__AaBRd_0_r1_lFQOyAA01_C16Modifier_ContentVy13PaymentUIBase010ErrorAlertL0VG_AA05TupleC0VyAcAE16keyboardShortcutyQrAA08KeyboardT0VFQOyAA6ButtonVyAJG_Qo__A0_SgtGAJSgAQ0qP0_pQo_HO.9
+- _keypath_set.5Tm
+- _objc_retain_x24
+- _objectdestroy.18Tm
+- _objectdestroyTm
+- _symbolic _____ 13PaymentUIBase13IsPadIdiomKey33_73460A381CB25B89DB3C6B387C19EF62LLV
+- _symbolic _____y______A5BtG 7SwiftUI9TupleViewV 13PaymentUIBase07KeyPathD0V
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO 13PaymentUIBase07ChevronC0V
+- _symbolic _____y_____yAAy_____yAAy__________y_____SgGG_Qo_ACy_____SgGG_____y_____ANGG_Qo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA15ModifiedContentV AcAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AK AA19SymbolRenderingModeV AA25_ForegroundStyleModifier2V AA5ColorV
+- _symbolic _____y_____yAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____SgGG_____G_____GSg_q______yAAyx_____GGtGG_____G_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6HStackV AA05TupleC0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA0g10AttachmentR0V AA14_OpacityEffectV AA6VStackV AA12_FrameLayoutV AA08_PaddingZ0V AA05_FlexyZ0V
+- _symbolic _____y_____yAByAByAAy_____y_____Sg_AAyxGtGG_____G_____y_____GG_____y_____SgGGG 7SwiftUI6VStackV AA15ModifiedContentV AA9TupleViewV AA7DividerV AA14_PaddingLayoutV 13PaymentUIBase0k4ItemG18BackgroundModifierV AA5ColorV AA022_EnvironmentKeyWritingO0V AA8MaterialV
+- _symbolic _____y_____y_____G______y_____y_____y_____G_Qo__AGSgtGAFSg______pQo_ 7SwiftUI4ViewPAAE5alert_11isPresented10presenting7actions7messageQrAA4TextV_AA7BindingVySbGqd_1_Sgqd__qd_1_XEqd_0_qd_1_XEtAaBRd__AaBRd_0_r1_lFQO AA01_C16Modifier_ContentV 13PaymentUIBase010ErrorAlertL0V AA05TupleC0V AcAE16keyboardShortcutyQrAA08KeyboardT0VFQO AA6ButtonV AJ AQ0qP0P
+- _symbolic _____y_____y______A5CtGG 7SwiftUI5GroupV AA9TupleViewV 13PaymentUIBase07KeyPathE0V
+- _symbolic _____y_____y______ACtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV
+- _symbolic _____y_____y_____yAAyAAy_____y_____yAEyAEyAEy_____yAByACyAEy_____yACyAFyACyAEy_____yAEyx_____G_Qo______G_AEyq______GtGG_AFyACyq0_Sg______tGGSgtGG_____G_ACy_____yAEy_____AWG______AEyAzWGQo__AEy_____yAEyAEyAEyAEyq1_ALGAWGAWGAWG_Qo_AJGtGSgtGG_Qo_AJGALG_____y_____y_____yAEy__________G______Qo_GGG_____y_____GGG_____yA28__Qo_GA28_G_AYtGGA32_G 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV AA6ButtonV AA08ModifiedD0V AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQO AA12_FrameLayoutV AA0M18AttachmentModifierV AA05_FlexuV0V 13PaymentUIBase09AccessoryG0V AA08_PaddingV0V AmAE8staticIf_4thenQrqd___qd_0_xXEtAA0G14InputPredicateRd__AaLRd_0_r0_lFQO AA7DividerV AA8SolariumV AmAEAnOQrAQ_tFQO AA011_BackgroundX0V AA14GeometryReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5ColorV AA017_AppearanceActionX0V 12CoreGraphics7CGFloatV AA11_ClipEffectV AA16RoundedRectangleV AmAE12onTapGesture5count7performQrSi_yyctFQO
+- _symbolic _____y_____y_____yACy__________y_____GG_____GSg_xtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA023AccessibilityAttachmentL0V
+- _symbolic _____y_____y_____y_____G_Qo__ADSgtG 7SwiftUI9TupleViewV AA0D0PAAE16keyboardShortcutyQrAA08KeyboardF0VFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y______A5DtGG_____ySDySSADGGG 7SwiftUI15ModifiedContentV AA5GroupV AA9TupleViewV 13PaymentUIBase07KeyPathG0V AA012_EnvironmentJ15WritingModifierV
+- _symbolic _____y_____y_____y______ADtGGG 7SwiftUI5GroupV AA6VStackV AA9TupleViewV AA4TextV
+CStrings:
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Dictionary<String, KeyPathView>"
++ "PaymentUIBase.AuthorizationViewHostingControllerUsingSheetPresentation"
++ "UserInterfaceType"
++ "contentHeightDetent"
++ "contentHero"
++ "contentList"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<UIViewControllerAnimatedTransitioning>\"24@0:8@\"UIViewController\"16"
+- "@\"<UIViewControllerAnimatedTransitioning>\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"<UIViewControllerInteractiveTransitioning>\"24@0:8@\"<UIViewControllerAnimatedTransitioning>\"16"
+- "@\"<UIViewImplicitlyAnimating>\"24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "@\"NSString\"16@0:8"
+- "@\"UIPresentationController\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"UIView\"16@0:8"
+- "@\"UIView\"24@0:8@\"NSString\"16"
+- "@\"UIViewController\"24@0:8@\"NSString\"16"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIView\",R,N"
+- "TB,N,R"
+- "TB,R,N"
+- "TB,R,N,GisAnimated"
+- "TB,R,N,GisInteractive"
+- "TQ,N,R"
+- "TQ,R"
+- "Tq,R,N"
+- "T{CGAffineTransform=dddddd},R,N"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+- "UIViewControllerTransitioningDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC13PaymentUIBase18AuthorizationModel"
+- "_TtC13PaymentUIBase22BaseAuthenticatorModel"
+- "_TtC13PaymentUIBase27PhysicalButtonContainerView"
+- "_TtC13PaymentUIBase41AuthorizationViewHostingControllerContext"
+- "_armableObserverError"
+- "_authenticating"
+- "_authorizationError"
+- "_bundleWithIdentifier:andLibraryName:"
+- "_bypassAuthenticator"
+- "_canShowDetailSheet"
+- "_disableInteractivity"
+- "_disablePasscodeFallback"
+- "_externalPasswordEntry"
+- "_footerViewType"
+- "_isAnimating"
+- "_isArmable"
+- "_isAuthenticationDetached"
+- "_isDetachedAuthenticationSheetPresented"
+- "_isEvaluationPaused"
+- "_isInBioLockout"
+- "_isPresented"
+- "_isSheetFullHeightOverrideEnabled"
+- "_passcodeEntry"
+- "_physicalButtonEdge"
+- "_screen"
+- "_shouldDisplaySheetFullHeight"
+- "_showEnterPasswordButton"
+- "addSubview:"
+- "alwaysHidePhysicalButton"
+- "animateAlongsideTransition:completion:"
+- "animateTransition:"
+- "animated"
+- "animationControllerForDismissedController:"
+- "animationControllerForPresentedController:presentingController:sourceController:"
+- "animationDuration"
+- "animationEnded:"
+- "autorelease"
+- "bounds"
+- "bundleURL"
+- "bundleWithIdentifier:"
+- "buttonView"
+- "cancelInteractiveTransition"
+- "class"
+- "clearColor"
+- "completeTransition:"
+- "conformsToProtocol:"
+- "containerView"
+- "context"
+- "convertRect:fromCoordinateSpace:"
+- "coordinateSpace"
+- "currentDevice"
+- "d24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "d24@0:8@16"
+- "dealloc"
+- "debugDescription"
+- "defaultWorkspace"
+- "description"
+- "finalFrameForViewController:"
+- "finishInteractiveTransition"
+- "fixedCoordinateSpace"
+- "hasPearl"
+- "hash"
+- "headerTitle"
+- "init"
+- "initWithCoder:"
+- "initWithFrame:"
+- "initWithStyle:"
+- "initWithURL:"
+- "initialFrameForViewController:"
+- "interactionControllerForDismissal:"
+- "interactionControllerForPresentation:"
+- "interactive"
+- "interruptibleAnimatorForTransition:"
+- "isAnimated"
+- "isEqual:"
+- "isInteractive"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "localizedStringForKey:value:table:"
+- "localizedStringForKey:value:table:localization:"
+- "mainScreen"
+- "openSensitiveURL:withOptions:"
+- "pauseInteractiveTransition"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWithoutAnimation:"
+- "physicalButtonEdge"
+- "prefersStatusBarHidden"
+- "presentationControllerForPresentedViewController:presentingViewController:sourceViewController:"
+- "presentationStyle"
+- "q16@0:8"
+- "release"
+- "removeFromSuperview"
+- "resignFirstResponder"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "screen"
+- "secondaryLabelColor"
+- "secondarySystemBackgroundColor"
+- "secondarySystemGroupedBackgroundColor"
+- "self"
+- "setAccessibilityIdentifier:"
+- "setAnimating:"
+- "setAnimationStyle:"
+- "setBackgroundColor:"
+- "setContext:"
+- "setDelegate:"
+- "setFrame:"
+- "setInstruction:"
+- "setModalPresentationStyle:"
+- "setPresentingViewController:"
+- "setTransitioningDelegate:"
+- "shouldSupportLandscapeOrientation"
+- "springAnimationDuration"
+- "subviews"
+- "superclass"
+- "supportedInterfaceOrientations"
+- "systemBackgroundColor"
+- "systemFillColor"
+- "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
+- "targetTransform"
+- "tertiaryLabelColor"
+- "tertiarySystemFillColor"
+- "tertiarySystemGroupedBackgroundColor"
+- "transitionDuration:"
+- "transitionWasCancelled"
+- "updateFrame"
+- "updateInteractiveTransition:"
+- "userInterfaceIdiom"
+- "userInterfaceType"
+- "v16@0:8"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v40@0:8{CGSize=dd}16@32"
+- "v8@?0"
+- "view"
+- "viewControllerForKey:"
+- "viewDidAppear:"
+- "viewDidLoad"
+- "viewForKey:"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "window"
+- "zone"
+- "{CGAffineTransform=dddddd}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIViewController\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+
+```

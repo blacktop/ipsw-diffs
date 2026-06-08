@@ -1,0 +1,2230 @@
+## Fitness
+
+> `/System/Library/PrivateFrameworks/Fitness.framework/Fitness`
+
+```diff
+
+-2026.4.15.0.0
+-  __TEXT.__text: 0x4ceb8
+-  __TEXT.__auth_stubs: 0x14a0
+-  __TEXT.__objc_methlist: 0x2a4c
+-  __TEXT.__const: 0x1ac0
+-  __TEXT.__oslogstring: 0x27e6
+-  __TEXT.__cstring: 0x5af3
+-  __TEXT.__gcc_except_tab: 0x464
++2027.0.51.0.0
++  __TEXT.__text: 0x5fd70
++  __TEXT.__objc_methlist: 0x2b74
++  __TEXT.__const: 0x2250
++  __TEXT.__oslogstring: 0x2b8d
++  __TEXT.__cstring: 0x5dde
++  __TEXT.__gcc_except_tab: 0x3fc
+   __TEXT.__ustring: 0x10
+   __TEXT.__dlopen_cstrs: 0xf5
+-  __TEXT.__constg_swiftt: 0x2a8
+-  __TEXT.__swift5_typeref: 0x854
+-  __TEXT.__swift5_reflstr: 0x813
+-  __TEXT.__swift5_fieldmd: 0x6d4
+-  __TEXT.__swift5_proto: 0x110
+-  __TEXT.__swift5_types: 0x3c
+-  __TEXT.__swift5_assocty: 0x218
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift_as_entry: 0x14
+-  __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__swift5_capture: 0x2ac
++  __TEXT.__constg_swiftt: 0x6e8
++  __TEXT.__swift5_typeref: 0xb00
++  __TEXT.__swift5_reflstr: 0x9d8
++  __TEXT.__swift5_fieldmd: 0x844
++  __TEXT.__swift5_proto: 0x134
++  __TEXT.__swift5_types: 0x58
++  __TEXT.__swift5_assocty: 0x260
++  __TEXT.__swift5_capture: 0x530
++  __TEXT.__swift_as_entry: 0x70
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__swift_as_cont: 0xc4
++  __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__unwind_info: 0x1500
+-  __TEXT.__eh_frame: 0x2a8
+-  __TEXT.__objc_classname: 0x548
+-  __TEXT.__objc_methname: 0x94bf
+-  __TEXT.__objc_methtype: 0x1160
+-  __TEXT.__objc_stubs: 0x64e0
+-  __DATA_CONST.__got: 0x6a0
+-  __DATA_CONST.__const: 0x1298
+-  __DATA_CONST.__objc_classlist: 0x128
++  __TEXT.__unwind_info: 0x1a28
++  __TEXT.__eh_frame: 0xeb0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1310
++  __DATA_CONST.__objc_classlist: 0x158
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x22a0
++  __DATA_CONST.__objc_selrefs: 0x22f8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0xe8
+-  __DATA_CONST.__objc_arraydata: 0x1100
+-  __AUTH_CONST.__auth_got: 0xa60
+-  __AUTH_CONST.__const: 0x2350
+-  __AUTH_CONST.__cfstring: 0x5200
+-  __AUTH_CONST.__objc_const: 0x45c0
++  __DATA_CONST.__objc_arraydata: 0x1108
++  __DATA_CONST.__got: 0x7d0
++  __AUTH_CONST.__const: 0x2af0
++  __AUTH_CONST.__cfstring: 0x5280
++  __AUTH_CONST.__objc_const: 0x4b20
+   __AUTH_CONST.__objc_intobj: 0xdb0
+-  __AUTH_CONST.__objc_arrayobj: 0x9a8
++  __AUTH_CONST.__objc_arrayobj: 0x9c0
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x5e0
+-  __AUTH.__data: 0xf0
+-  __DATA.__objc_ivar: 0x214
+-  __DATA.__data: 0x900
+-  __DATA.__bss: 0x2430
+-  __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x5f0
++  __AUTH_CONST.__auth_got: 0xdd8
++  __AUTH.__objc_data: 0xa90
++  __AUTH.__data: 0x630
++  __DATA.__objc_ivar: 0x218
++  __DATA.__data: 0xa40
++  __DATA.__bss: 0x2bf0
++  __DATA.__common: 0x38
++  __DATA_DIRTY.__objc_data: 0x3c0
+   __DATA_DIRTY.__data: 0xc0
+-  __DATA_DIRTY.__bss: 0x288
++  __DATA_DIRTY.__bss: 0xb8
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+-  - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+-  - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
++  - /System/Library/PrivateFrameworks/Dormancy.framework/Dormancy
++  - /System/Library/PrivateFrameworks/DormancyCore.framework/DormancyCore
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9AF308A8-FB5E-3911-B19E-8243FE7ADE78
+-  Functions: 1925
+-  Symbols:   4688
+-  CStrings:  3325
++  UUID: 743E27DD-53BE-31B3-A37C-DEE087E6A63F
++  Functions: 2288
++  Symbols:   4963
++  CStrings:  1754
+ 
+Symbols:
++ -[FIWorkoutActivityType name]
++ -[HKWorkout(Fitness) fi_totalDistance]
++ _FIActivityNameWithFormatting
++ _FIActivityNameWithFormattingPrefix
++ _FIActivityNameWithWorkout
++ _FIActivitySummaryAnalyticsPayloadForActivitySummary
++ _FIActivitySummaryNumberOfRingsCompletedForActivitySummary
++ _FIIsStartRemindersWithDormancyEnabled
++ _FILocalizedActivityNameWithFormattingPrefixAndIsLocationAgnosticPluralWithDesiredLanguage
++ _FINameForActivityType
++ _FINameForIndoorAgnosticActivityType
++ _FISetStartRemindersEnabled
++ _FISetStartRemindersWithDormancyEnabled
++ _FIVegaPlaceholderAnimationsUseGrid
++ _HKErrorDomain
++ _HKMetadataKeyCrossTrainerDistance
++ _HKMetadataKeyIndoorBikeDistance
++ _HKQuantityTypeIdentifierFlightsClimbed
++ _HKQuantityTypeIdentifierPushCount
++ _HKQuantityTypeIdentifierStepCount
++ _NSCalendarDayChangedNotification
++ _OBJC_CLASS_$_FIDormancyUnifiedDefaults
++ _OBJC_CLASS_$_HKCurrentActivityCacheQuery
++ _OBJC_CLASS_$_HKCurrentActivityCacheQueryResult
++ _OBJC_CLASS_$_HKQuery
++ _OBJC_CLASS_$_HKStatistics
++ _OBJC_CLASS_$_OS_os_log
++ _OBJC_CLASS_$_PedometerData
++ _OBJC_CLASS_$__TtC7Fitness16FIDeviceFeatures
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_FIUnitManager._isUsingTestUnits
++ _OBJC_METACLASS_$_FIDormancyUnifiedDefaults
++ _OBJC_METACLASS_$_PedometerData
++ _OBJC_METACLASS_$__TtC7Fitness16FIDeviceFeatures
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __DATA_FIDormancyUnifiedDefaults
++ __DATA_PedometerData
++ __DATA__TtC7Fitness16FIDeviceFeatures
++ __DATA__TtC7Fitness19FIPedometerProvider
++ __DATA__TtC7Fitness28FIActivityStatisticsProvider
++ __DATA__TtCC7Fitness19FIPedometerProvider13ObserverToken
++ __FIIsStartRemindersEnabled
++ __INSTANCE_METHODS_FIDormancyUnifiedDefaults
++ __INSTANCE_METHODS_PedometerData
++ __INSTANCE_METHODS__TtC7Fitness16FIDeviceFeatures
++ __IVARS_FIDormancyUnifiedDefaults
++ __IVARS_PedometerData
++ __IVARS__TtC7Fitness19FIPedometerProvider
++ __IVARS__TtC7Fitness28FIActivityStatisticsProvider
++ __IVARS__TtC7Fitness9FIWeakBox
++ __IVARS__TtCC7Fitness19FIPedometerProvider13ObserverToken
++ __METACLASS_DATA_FIDormancyUnifiedDefaults
++ __METACLASS_DATA_PedometerData
++ __METACLASS_DATA__TtC7Fitness16FIDeviceFeatures
++ __METACLASS_DATA__TtC7Fitness19FIPedometerProvider
++ __METACLASS_DATA__TtC7Fitness28FIActivityStatisticsProvider
++ __METACLASS_DATA__TtCC7Fitness19FIPedometerProvider13ObserverToken
++ __PROPERTIES_FIDormancyUnifiedDefaults
++ __PROPERTIES_PedometerData
++ ___38-[FIUnitManager _updatePreferredUnits]_block_invoke.420
++ ___52-[FIBluetoothSensorLookup _queueCheckForPeripherals]_block_invoke.389
++ ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.407
++ ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.407.cold.1
++ ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.409
++ ___82-[FIMindfulnessSessionDataProvider _createMindfulnessSessionsQueryWithRetryCount:]_block_invoke.374
++ ___FIIsStartRemindersWithDormancyEnabled_block_invoke
++ ___FISetStartRemindersWithDormancyEnabled_block_invoke
++ ___block_literal_global.366
++ ___block_literal_global.373
++ ___block_literal_global.375
++ ___block_literal_global.379
++ ___block_literal_global.381
++ ___block_literal_global.392
++ ___block_literal_global.395
++ ___block_literal_global.397
++ ___block_literal_global.399
++ ___block_literal_global.401
++ ___block_literal_global.403
++ ___block_literal_global.412
++ ___block_literal_global.42
++ ___block_literal_global.426
++ ___block_literal_global.448
++ ___block_literal_global.453
++ ___block_literal_global.458
++ ___block_literal_global.461
++ ___block_literal_global.463
++ ___block_literal_global.464
++ ___block_literal_global.466
++ ___block_literal_global.47
++ ___block_literal_global.484
++ ___block_literal_global.489
++ ___block_literal_global.493
++ ___block_literal_global.52
++ ___block_literal_global.57
++ ___block_literal_global.63
++ ___block_literal_global.68
++ ___block_literal_global.73
++ ___block_literal_global.78
++ ___block_literal_global.83
++ ___block_literal_global.89
++ ___block_literal_global.94
++ ___kCFBooleanFalse
++ ___kCFBooleanTrue
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.117Tm
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.78Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.98Tm
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_instantiateGenericMetadata
++ ___unnamed_1
++ __swift_dead_method_stub
++ _associated conformance 7Fitness19FIPedometerProviderC0B10MetricTypeOSHAASQ
++ _associated conformance 7Fitness19FIPedometerProviderC0B10MetricTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 7Fitness19FIPedometerProviderC7Combine16ObservableObjectAA0F19WillChangePublisherAdEP_AD0I0
++ _associated conformance 7Fitness28FIActivityStatisticsProviderC7Combine16ObservableObjectAA0G19WillChangePublisherAdEP_AD0J0
++ _block_copy_helper.100
++ _block_copy_helper.106
++ _block_copy_helper.11
++ _block_copy_helper.112
++ _block_copy_helper.118
++ _block_copy_helper.125
++ _block_copy_helper.131
++ _block_copy_helper.138
++ _block_copy_helper.144
++ _block_copy_helper.150
++ _block_copy_helper.154
++ _block_copy_helper.160
++ _block_copy_helper.166
++ _block_copy_helper.172
++ _block_copy_helper.21
++ _block_copy_helper.43
++ _block_copy_helper.62
++ _block_copy_helper.85
++ _block_copy_helper.88
++ _block_copy_helper.94
++ _block_descriptor.102
++ _block_descriptor.108
++ _block_descriptor.114
++ _block_descriptor.120
++ _block_descriptor.127
++ _block_descriptor.13
++ _block_descriptor.133
++ _block_descriptor.140
++ _block_descriptor.146
++ _block_descriptor.152
++ _block_descriptor.156
++ _block_descriptor.162
++ _block_descriptor.168
++ _block_descriptor.174
++ _block_descriptor.23
++ _block_descriptor.45
++ _block_descriptor.64
++ _block_descriptor.87
++ _block_descriptor.90
++ _block_descriptor.96
++ _block_destroy_helper.101
++ _block_destroy_helper.107
++ _block_destroy_helper.113
++ _block_destroy_helper.119
++ _block_destroy_helper.12
++ _block_destroy_helper.126
++ _block_destroy_helper.132
++ _block_destroy_helper.139
++ _block_destroy_helper.145
++ _block_destroy_helper.151
++ _block_destroy_helper.155
++ _block_destroy_helper.161
++ _block_destroy_helper.167
++ _block_destroy_helper.173
++ _block_destroy_helper.22
++ _block_destroy_helper.44
++ _block_destroy_helper.63
++ _block_destroy_helper.86
++ _block_destroy_helper.89
++ _block_destroy_helper.95
++ _bzero
++ _kFIStartRemindersWithDormancyFeatureBundleID
++ _kFIStartRemindersWithDormancyFeatureID
++ _kNLKeyVegaPlaceholderAnimationsUseGrid
++ _keypath_get_selector_distance
++ _keypath_get_selector_flights
++ _keypath_get_selector_pushes
++ _keypath_get_selector_steps
++ _notify_cancel
++ _notify_register_dispatch
++ _objc_msgSend$_initWithActivityCache:shouldIncludePrivateProperties:
++ _objc_msgSend$boolWithErrorFallback:
++ _objc_msgSend$code
++ _objc_msgSend$currentActivityCache
++ _objc_msgSend$dateByAddingComponents:toDate:options:
++ _objc_msgSend$didUpdateValue
++ _objc_msgSend$distance
++ _objc_msgSend$domain
++ _objc_msgSend$fi_totalDistance
++ _objc_msgSend$flights
++ _objc_msgSend$initWithFeatureBundleID:featureID:
++ _objc_msgSend$initWithStatisticsIntervalComponents:updateHandler:
++ _objc_msgSend$initWithSteps:pushes:flights:distance:
++ _objc_msgSend$isDate:inSameDayAsDate:
++ _objc_msgSend$localizedStringForKey:value:table:localizations:
++ _objc_msgSend$mostRecentQuantityDateInterval
++ _objc_msgSend$predicateForSamplesWithStartDate:endDate:options:
++ _objc_msgSend$pushes
++ _objc_msgSend$setAtUserDefaults:errorFallback:
++ _objc_msgSend$setDistance:
++ _objc_msgSend$setFlights:
++ _objc_msgSend$setPushes:
++ _objc_msgSend$setSteps:
++ _objc_msgSend$statistics
++ _objc_msgSend$steps
++ _objc_release_x10
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x9
++ _swift_allocateGenericClassMetadata
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_deletedAsyncMethodErrorTu
++ _swift_deletedMethodError
++ _swift_getErrorValue
++ _swift_getGenericMetadata
++ _swift_initClassMetadata2
++ _swift_lookUpClassMethod
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_create
++ _swift_unknownObjectWeakAssign
++ _swift_updateClassMetadata2
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrowTypedImpl
++ _symbolic $s7Combine16ObservableObjectP
++ _symbolic $s7Fitness19FIPedometerObserverP
++ _symbolic SDy__________y______pGG 10Foundation4UUIDV 7Fitness9FIWeakBoxC AD19FIPedometerObserverP
++ _symbolic Say_____G 7Fitness19FIPedometerProviderC0B10MetricTypeO
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Scgyyt______pG s5ErrorP
++ _symbolic So10HKQuantityC
++ _symbolic So13HKHealthStoreC
++ _symbolic So13PedometerDataC
++ _symbolic So27HKCurrentActivityCacheQueryCSg
++ _symbolic So33HKCurrentActivityCacheQueryResultCSg
++ _symbolic So8NSObjectC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 7Combine25ObservableObjectPublisherC
++ _symbolic _____ 7Fitness16FIDeviceFeaturesC
++ _symbolic _____ 7Fitness19FIPedometerProviderC
++ _symbolic _____ 7Fitness19FIPedometerProviderC0B10MetricTypeO
++ _symbolic _____ 7Fitness19FIPedometerProviderC13ObserverTokenC
++ _symbolic _____ 7Fitness22MobileGestaltConstantsV
++ _symbolic _____ 7Fitness28FIActivityStatisticsProviderC
++ _symbolic _____ 7Fitness9FIWeakBoxC
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____ s5Int32V
++ _symbolic _____3key______y______pG5valuet 10Foundation4UUIDV 7Fitness9FIWeakBoxC AD19FIPedometerObserverP
++ _symbolic _____Sg 10Foundation12NotificationV
++ _symbolic _____Sg 9HealthKit37HKStatisticsCollectionQueryDescriptorV6ResultV
++ _symbolic _____SgXw 7Fitness19FIPedometerProviderC
++ _symbolic _____SgXw 7Fitness28FIActivityStatisticsProviderC
++ _symbolic _____SgXwz_Xx 7Fitness19FIPedometerProviderC
++ _symbolic _____SgXwz_Xx 7Fitness28FIActivityStatisticsProviderC
++ _symbolic _____XDXMT 7Fitness19FIPedometerProviderC
++ _symbolic _____XDXMT 7Fitness28FIActivityStatisticsProviderC
++ _symbolic ___________y______pGt 10Foundation4UUIDV 7Fitness9FIWeakBoxC AD19FIPedometerObserverP
++ _symbolic _____ySo16HKQuantitySampleCG 9HealthKit17HKSamplePredicateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y__________y______pGG s18_DictionaryStorageC 10Foundation4UUIDV 7Fitness9FIWeakBoxC AF19FIPedometerObserverP
++ _symbolic _____y______pG 7Fitness9FIWeakBoxC AA19FIPedometerObserverP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic yXlSg
++ _symbolic yXlSgXw
++ _symbolic ytIeAgHr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
+- GCC_except_table66
+- _FIActivitySummaryAnalyticsHasCompletedWorkoutWithProfile
+- _FIActivitySummaryAnalyticsHasCompletedWorkoutWithProfile.cold.1
+- _FIActivitySummaryAnalyticsHasCompletedWorkoutWithProfile.cold.2
+- _FIActivitySummaryAnalyticsNumberOfRingsCompletedWithProfile
+- _FIActivitySummaryAnalyticsNumberOfRingsCompletedWithProfile.cold.1
+- _FIActivitySummaryAnalyticsNumberOfRingsCompletedWithProfile.cold.2
+- _FIActivitySummaryAnalyticsPayloadForProfileAndSummaryCacheIndex
+- _FIActivitySummaryAnalyticsPayloadForProfileAndSummaryCacheIndex.cold.1
+- _FIActivitySummaryAnalyticsPayloadForProfileAndSummaryCacheIndex.cold.2
+- _FIActivitySummaryForSummaryIndex
+- _HDActivityCacheEntityPredicateForCacheIndex
+- _HDSampleEntityPropertyEndDate
+- _HDSampleEntityPropertyStartDate
+- _OBJC_CLASS_$_HDActivitySummaryBuilder
+- _OBJC_CLASS_$_HDSQLiteComparisonPredicate
+- _OBJC_CLASS_$_HDSQLitePredicate
+- _OBJC_CLASS_$_HDWorkoutEntity
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- ___38-[FIUnitManager _updatePreferredUnits]_block_invoke.399
+- ___52-[FIBluetoothSensorLookup _queueCheckForPeripherals]_block_invoke.368
+- ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.386
+- ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.386.cold.1
+- ___68+[FIAppStoreAvailability _isSupportedDeviceAvailableWithCompletion:]_block_invoke.388
+- ___82-[FIMindfulnessSessionDataProvider _createMindfulnessSessionsQueryWithRetryCount:]_block_invoke.353
+- ___FIActivitySummaryAnalyticsHasCompletedWorkoutWithProfile_block_invoke
+- ___FIActivitySummaryForSummaryIndex_block_invoke
+- ___block_descriptor_40_e8_32r_e25_B32?0"HKObject"8q16^24lr32l8
+- ___block_descriptor_48_e8_32r_e31_v24?0"HKActivitySummary"8^B16lr32l8
+- ___block_literal_global.345
+- ___block_literal_global.352
+- ___block_literal_global.354
+- ___block_literal_global.360
+- ___block_literal_global.371
+- ___block_literal_global.374
+- ___block_literal_global.376
+- ___block_literal_global.378
+- ___block_literal_global.380
+- ___block_literal_global.382
+- ___block_literal_global.391
+- ___block_literal_global.402
+- ___block_literal_global.405
+- ___block_literal_global.413
+- ___block_literal_global.418
+- ___block_literal_global.43
+- ___block_literal_global.441
+- ___block_literal_global.444
+- ___block_literal_global.446
+- ___block_literal_global.467
+- ___block_literal_global.471
+- ___block_literal_global.48
+- ___block_literal_global.53
+- ___block_literal_global.59
+- ___block_literal_global.64
+- ___block_literal_global.69
+- ___block_literal_global.74
+- ___block_literal_global.79
+- ___block_literal_global.84
+- ___block_literal_global.90
+- ___block_literal_global.95
+- _block_copy_helper.105
+- _block_copy_helper.111
+- _block_copy_helper.117
+- _block_copy_helper.123
+- _block_copy_helper.130
+- _block_copy_helper.136
+- _block_copy_helper.143
+- _block_copy_helper.149
+- _block_copy_helper.155
+- _block_copy_helper.161
+- _block_copy_helper.167
+- _block_copy_helper.17
+- _block_copy_helper.173
+- _block_copy_helper.39
+- _block_copy_helper.49
+- _block_copy_helper.7
+- _block_copy_helper.86
+- _block_copy_helper.90
+- _block_copy_helper.93
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.107
+- _block_descriptor.113
+- _block_descriptor.119
+- _block_descriptor.125
+- _block_descriptor.132
+- _block_descriptor.138
+- _block_descriptor.145
+- _block_descriptor.151
+- _block_descriptor.157
+- _block_descriptor.163
+- _block_descriptor.169
+- _block_descriptor.175
+- _block_descriptor.19
+- _block_descriptor.41
+- _block_descriptor.51
+- _block_descriptor.88
+- _block_descriptor.9
+- _block_descriptor.92
+- _block_descriptor.95
+- _block_destroy_helper.100
+- _block_destroy_helper.106
+- _block_destroy_helper.112
+- _block_destroy_helper.118
+- _block_destroy_helper.124
+- _block_destroy_helper.131
+- _block_destroy_helper.137
+- _block_destroy_helper.144
+- _block_destroy_helper.150
+- _block_destroy_helper.156
+- _block_destroy_helper.162
+- _block_destroy_helper.168
+- _block_destroy_helper.174
+- _block_destroy_helper.18
+- _block_destroy_helper.40
+- _block_destroy_helper.50
+- _block_destroy_helper.8
+- _block_destroy_helper.87
+- _block_destroy_helper.91
+- _block_destroy_helper.94
+- _objc_msgSend$compoundPredicateWithPredicate:otherPredicate:
+- _objc_msgSend$entityEnumeratorWithProfile:
+- _objc_msgSend$enumerateActivitySummariesWithPredicate:error:handler:
+- _objc_msgSend$enumerateWithError:handler:
+- _objc_msgSend$features
+- _objc_msgSend$hk_dateByAddingDays:toDate:
+- _objc_msgSend$hk_isDatabaseAccessibilityError
+- _objc_msgSend$initWithProfile:
+- _objc_msgSend$pauseRings
+- _objc_msgSend$predicateWithProperty:greaterThanOrEqualToValue:
+- _objc_msgSend$predicateWithProperty:lessThanValue:
+- _objc_msgSend$setLimitCount:
+- _objc_msgSend$setPredicate:
+- _objc_msgSend$setShouldIncludePrivateProperties:
+- _objectdestroy.103Tm
+- _objectdestroy.84Tm
+- _swift_bridgeObjectRetain_n
+CStrings:
++ "%s authorization denied — stopping query and disabling restarts"
++ "%s id=%s Error from current activity statistics cache query: %s"
++ "%s id=%s Received graph samples from current activity statistics cache query: %@"
++ "%s id=%s Restarting activity statistics cache query. Retry attempt: %ld"
++ "%s id=%s retryStatisticsQuery"
++ "DeviceSupportsContinuousHeartRate"
++ "Dormancy"
++ "FIPedometerProvider day changed, restarting pedometer queries"
++ "FIPedometerProvider received NSCalendarDayChangedNotification"
++ "FIPedometerProvider received SignificantTimeChangeNotification"
++ "FIPedometerProvider time change notification received but start of day has not changed, skipping restart"
++ "FIPedometerProvider unable to register for SignificantTimeChangeNotification: %d"
++ "Fitness.FIDormancyUnifiedDefaults"
++ "Pedometer queries failed: %s"
++ "Pedometer query date mismatch for %{public}@ — query was for %{public}@, current day is %{public}@. Breaking."
++ "Restarting pedometer queries. Retry attempt: %ld"
++ "SignificantTimeChangeNotification"
++ "UNKNOWN"
++ "VegaPlaceholderAnimationsUseGrid"
++ "[FIDormancyUnifiedDefaults] didUpdateValueFor featureID: %s, didUpdateValue handler is set: %{bool}d"
++ "[FIDormancyUnifiedDefaults] failed to read bool value for feature (bundleID: %s, featureID: %s), errorFallback() returned (%{bool}d), error: %@"
++ "[FIDormancyUnifiedDefaults] failed to set bool value for feature (bundleID: %s, featureID: %s), errorFallback(%{bool}d) performed, error: %@"
++ "[FIDormancyUnifiedDefaults] read bool value (%{bool}d) for feature (bundleID: %s, featureID: %s)"
++ "[FIDormancyUnifiedDefaults] set bool value (%{bool}d) for feature (bundleID: %s, featureID: %s)"
++ "com.apple.workout.features"
++ "en"
++ "feature_dormancy"
++ "predicted.start"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@"
+- "@\"<FIFitnessAppsStateObserverDelegate>\""
+- "@\"<FISleepDataProviderDelegate>\""
+- "@\"<FITypicalDayActivityModelDelegate>\""
+- "@\"CBCentralManager\""
+- "@\"FIIntervalDefinition\""
+- "@\"FIIntervalQuantityTrigger\""
+- "@\"FIMutableTimeSliceGroup\""
+- "@\"FIQuantityTimeSlice\""
+- "@\"FISimpleHistogram\""
+- "@\"FISleepDataProvider\""
+- "@\"FISleepUserDay\""
+- "@\"FIUnitManager\""
+- "@\"FIWorkoutActivityType\""
+- "@\"HKActivitySummary\""
+- "@\"HKAnchoredObjectQuery\""
+- "@\"HKHealthStore\""
+- "@\"HKMCPregnancyModel\"16@0:8"
+- "@\"HKQuantity\""
+- "@\"HKQuantityType\""
+- "@\"HKSPSleepStore\""
+- "@\"HKSortedSampleArray\""
+- "@\"NPSDomainAccessor\""
+- "@\"NPSManager\""
+- "@\"NSArray\""
+- "@\"NSCalendar\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDateComponents\""
+- "@\"NSDateInterval\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUserDefaults\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8B16B20"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8B16@20"
+- "@28@0:8Q16B24"
+- "@28@0:8d16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"NSDictionary\"16^@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@32@0:8B16B20q24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16Q24"
+- "@32@0:8Q16d24"
+- "@32@0:8Q16q24"
+- "@32@0:8d16@24"
+- "@32@0:8d16Q24"
+- "@32@0:8d16d24"
+- "@32@0:8q16@24"
+- "@32@0:8q16Q24"
+- "@32@0:8q16q24"
+- "@36@0:8@16Q24B32"
+- "@36@0:8@16^@24B32"
+- "@36@0:8Q16B24@28"
+- "@36@0:8Q16Q24B32"
+- "@36@0:8Q16q24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8@16Q24Q32"
+- "@40@0:8@16Q24q32"
+- "@40@0:8@16d24q32"
+- "@40@0:8@16q24@32"
+- "@40@0:8@16q24q32"
+- "@40@0:8Q16B24B28@32"
+- "@40@0:8Q16Q24q32"
+- "@40@0:8Q16d24@32"
+- "@40@0:8Q16d24Q32"
+- "@40@0:8d16Q24Q32"
+- "@40@0:8d16d24@32"
+- "@40@0:8q16@24q32"
+- "@40@0:8{_NSRange=QQ}16@?32"
+- "@44@0:8@16@24q32B40"
+- "@44@0:8@16^@24B32@36"
+- "@44@0:8Q16B24@28Q36"
+- "@44@0:8Q16q24B32@36"
+- "@44@0:8Q16q24q32B40"
+- "@44@0:8q16@24Q32B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16Q24Q32Q40"
+- "@48@0:8@16d24q32Q40"
+- "@48@0:8Q16B24B28@32Q40"
+- "@48@0:8d16Q24Q32Q40"
+- "@48@0:8d16Q24Q32^Q40"
+- "@48@0:8q16@24q32B40B44"
+- "@52@0:8@16d24q32Q40B48"
+- "@52@0:8Q16q24B32@36Q44"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24Q32B40q44B52"
+- "@56@0:8@16d24Q32Q40Q48"
+- "@56@0:8Q16Q24Q32q40B48B52"
+- "@56@0:8d16Q24Q32Q40Q48"
+- "@56@0:8d16Q24Q32^Q40Q48"
+- "@64@0:8@16@24@32@40@48@56"
+- "@64@0:8@16d24q32Q40Q48Q56"
+- "@64@0:8Q16d24q32Q40Q48Q56"
+- "@64@0:8d16Q24Q32Q40Q48Q56"
+- "@68@0:8@16@24@32@40@48@56B64"
+- "@68@0:8@16d24d32d40q48B56d60"
+- "@68@0:8@16d24q32Q40Q48Q56B64"
+- "@76@0:8@16@24@32@40@48@56@64B72"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8Q16"
+- "B24@0:8^@16"
+- "B24@0:8d16"
+- "B24@0:8q16"
+- "B28@0:8@16B24"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@0:8^@16@24"
+- "B32@0:8q16d24"
+- "B32@0:8q16q24"
+- "B32@?0@\"HKObject\"8q16^@24"
+- "B36@0:8Q16B24@28"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16^@24@?32"
+- "B44@0:8@16@24@32f40"
+- "B48@0:8@16@24@?32@?40"
+- "B64@0:8{?=qqq}16{?=qqq}40"
+- "CBCentralManagerDelegate"
+- "Error fetching activity summary: %{public}@"
+- "Error fetching workouts: %{public}@"
+- "FIActivitySettingsController"
+- "FIAdditions"
+- "FIAppStoreAvailability"
+- "FIBackupSupport"
+- "FIBluetoothSensorLookup"
+- "FICelebrationAssetURLProvider"
+- "FIDefaultSecondPlatterMetrics"
+- "FIDictionaryRepresentable"
+- "FIFitnessAppsStateObserver"
+- "FIFormattingManager"
+- "FIIntervalController"
+- "FIIntervalDefinition"
+- "FIIntervalQuantityTrigger"
+- "FIIntervalSetDefinition"
+- "FIMindfulnessAppMigrator"
+- "FIMindfulnessCustomReminderProvider"
+- "FIMindfulnessReminder"
+- "FIMindfulnessSessionDataProvider"
+- "FIMutableTimeSliceGroup"
+- "FINPSDomainAccessorWrapper"
+- "FINumberFormatter"
+- "FIPauseRingsCoordinator"
+- "FIPregnancyStateChangeObserving"
+- "FIPregnancyStateProvider"
+- "FIPregnancyStateProviding"
+- "FIQuantityInterval"
+- "FIQuantityIntervalController"
+- "FIQuantityTimeSlice"
+- "FIReduction"
+- "FISimpleHistogram"
+- "FISleepDataProvider"
+- "FISleepDataProviderDelegate"
+- "FISleepUserDay"
+- "FIStoreDemoModeProvider"
+- "FITrailingIntervalController"
+- "FITrailingQuantityTimeSlice"
+- "FITypicalDayActivityModel"
+- "FIUnitManager"
+- "FIValidation"
+- "FIWorkoutActivityType"
+- "FIWorkoutDefaultMetricsProvider"
+- "FIWorkoutInitiation"
+- "FIWorkoutSplit"
+- "FIWorkoutStatistics"
+- "HKActivityMoveModeNotSet"
+- "HKSPSleepStoreObserver"
+- "LSApplicationWorkspaceObserverProtocol"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "No activity summary found for yesterday"
+- "OpenGoalUUIDSupport"
+- "PlistSupport"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Q24@0:8Q16"
+- "Q24@0:8q16"
+- "Q28@0:8Q16B24"
+- "Q32@0:8d16Q24"
+- "SafetyCheckIn"
+- "SampleProcessing"
+- "T#,R"
+- "T@\"<FIFitnessAppsStateObserverDelegate>\",W,N,V_delegate"
+- "T@\"<FITypicalDayActivityModelDelegate>\",W,N,V_delegate"
+- "T@\"CBCentralManager\",&,N,V_centralManager"
+- "T@\"FIIntervalDefinition\",R,N,V_definition"
+- "T@\"FISleepUserDay\",&,N,V_sleepUserDay"
+- "T@\"FIUnitManager\",R,N,V_unitManager"
+- "T@\"HKQuantity\",&,N,V_height"
+- "T@\"HKQuantity\",&,N,V_threshold"
+- "T@\"HKQuantity\",&,N,V_weight"
+- "T@\"HKQuantity\",R,N"
+- "T@\"HKQuantity\",R,N,V_averageActiveEnergyBurn"
+- "T@\"HKQuantity\",R,N,V_averageDistance"
+- "T@\"HKQuantity\",R,N,V_committedTotal"
+- "T@\"HKQuantity\",R,N,V_quantity"
+- "T@\"HKQuantity\",R,N,V_threshold"
+- "T@\"HKQuantity\",R,N,V_totalActiveEnergyBurn"
+- "T@\"HKQuantity\",R,N,V_totalDistance"
+- "T@\"HKQuantityType\",R,D,N"
+- "T@\"HKQuantityType\",R,N,V_quantityType"
+- "T@\"HKQuantityType\",R,N,V_trackedQuantityType"
+- "T@\"HKWorkout\",R,N"
+- "T@\"NPSDomainAccessor\",&,N,V_npsDomainAccessor"
+- "T@\"NSArray\",R,C,N,V_defaultEnabledMetrics"
+- "T@\"NSArray\",R,C,N,V_defaultSecondPlatterMetrics"
+- "T@\"NSArray\",R,C,N,V_supportedMetrics"
+- "T@\"NSArray\",R,N,V_committedSamples"
+- "T@\"NSArray\",R,N,V_intervalDefinitions"
+- "T@\"NSArray\",R,N,V_pauseResumeEvents"
+- "T@\"NSArray\",R,N,V_slices"
+- "T@\"NSDate\",C,N,V_creationDate"
+- "T@\"NSDate\",C,N,V_dateOfBirth"
+- "T@\"NSDate\",C,N,V_endOfDay"
+- "T@\"NSDate\",C,N,V_lastAlarmWakeUpDate"
+- "T@\"NSDate\",C,N,V_lastGoodMorningDismissedDate"
+- "T@\"NSDate\",C,N,V_startOfDay"
+- "T@\"NSDate\",N,R"
+- "T@\"NSDate\",R,D,N"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_endDate"
+- "T@\"NSDate\",R,N,V_startDate"
+- "T@\"NSDate\",R,N,V_startOfMonth"
+- "T@\"NSDate\",R,N,V_triggeredDate"
+- "T@\"NSDateComponents\",R,N,V_customDateComponents"
+- "T@\"NSDateInterval\",C,N,V_dateInterval"
+- "T@\"NSDictionary\",R,N,V_metadata"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSString\",&,N,V_domain"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_name"
+- "T@\"NSUUID\",R,N"
+- "T@\"NSUserDefaults\",&,N,V_userDefaults"
+- "T@,R,N,V_object"
+- "T@?,C,N,V_updateHandler"
+- "T@?,R,N,V_test"
+- "TB,N,V_isGoodMorningAlertNotificationEnabled"
+- "TB,N,V_isPartialSplit"
+- "TB,N,V_isUserAwake"
+- "TB,R"
+- "TB,R,D,N"
+- "TB,R,N"
+- "TB,R,N,V_enabled"
+- "TB,R,N,V_finalized"
+- "TB,R,N,V_isPartOfMultiSport"
+- "TB,R,N,V_thresholdReached"
+- "TQ,R"
+- "TQ,R,D,N"
+- "TQ,R,N"
+- "TQ,R,N,V_auxiliaryTypeIdentifier"
+- "TQ,R,N,V_customWeekdaySelection"
+- "TQ,R,N,V_identifier"
+- "TQ,R,N,V_workoutsWithDistance"
+- "TQ,R,N,V_workoutsWithEnergyBurned"
+- "Td,N,V_averagePowerQuantityInWatts"
+- "Td,N,V_distanceInMeters"
+- "Td,N,V_duration"
+- "Td,N,V_totalDistanceUpToThisPointInMeters"
+- "Td,R,N"
+- "Td,R,N,V_averageWorkoutDuration"
+- "Td,R,N,V_totalWorkoutDuration"
+- "Tq,N,V_biologicalSex"
+- "Tq,N,V_measurementSystem"
+- "Tq,N,V_pendingTypes"
+- "Tq,N,V_wheelchairUse"
+- "Tq,R,N"
+- "Tq,R,N,V_location"
+- "Tq,R,N,V_metricsVersion"
+- "Tq,R,N,V_repeatCount"
+- "Tq,R,N,V_setType"
+- "Tq,R,N,V_type"
+- "URL"
+- "URLForResource:withExtension:subdirectory:"
+- "UUID"
+- "ViewModel"
+- "Vv16@0:8"
+- "WorkoutVoiceMotivation"
+- "^{?=qd}"
+- "^{_NSZone=}16@0:8"
+- "_FitnessInternalClass"
+- "_activeEnergyCompletionPercentage"
+- "_activityMoveMode"
+- "_activityMoveModeWithError:"
+- "_activitySummaryBarrierGroup"
+- "_activitySummaryIndex"
+- "_activitySummaryLoaded"
+- "_activityType"
+- "_addPauseEvent:"
+- "_addResumeEvent:"
+- "_appBundleIdentifersToMonitor"
+- "_auxiliaryTypeIdentifier"
+- "_averageActiveEnergyBurn"
+- "_averageDistance"
+- "_averagePowerQuantityInWatts"
+- "_averageWorkoutDuration"
+- "_biologicalSex"
+- "_bodyMassCharacteristicQuantityWithError:"
+- "_bucketCount"
+- "_bucketDateForIndex:startOfDay:"
+- "_bucketIndexForDate:startOfDay:bucketDates:"
+- "_buckets"
+- "_cacheInitialFitnessAppsInstallState"
+- "_cacheInitialFitnessAppsRestrictedState"
+- "_cacheSleepUserDay:"
+- "_calculateAverages"
+- "_calculateStats"
+- "_celebrationMovieSubdirectory"
+- "_centralManager"
+- "_clearCurrentSleepScheduleState"
+- "_clearSleepUserDay"
+- "_commitValue:forPropertyKey:error:"
+- "_commitingSamples:toPreviousCommittedTotal:toPreviousCommittedSamples:untilDate:startDate:endDate:"
+- "_commitingSamples:toPreviousCommittedTotal:untilDate:startDate:endDate:"
+- "_committedSamples"
+- "_committedTotal"
+- "_completion"
+- "_container"
+- "_countPerMinuteUnit"
+- "_createMindfulnessSessionsQueryWithRetryCount:"
+- "_creationDate"
+- "_currentSleepScheduleState"
+- "_customDateComponents"
+- "_customWeekdaySelection"
+- "_dailyBriskMinutesStatistics"
+- "_dailyEnergyBurnedStatistics"
+- "_dailyMoveMinutesStatistics"
+- "_dateInterval"
+- "_dateOfBirth"
+- "_defaultEnabledMetrics"
+- "_defaultEnabledMetricsForActivityType:metricsVersion:"
+- "_defaultEnabledMetricsForSwimmingWithLocationType:metricsVersion:"
+- "_defaultEnabledSecondPlatterMetricsForActivityType:metricsVersion:"
+- "_defaultGloryIndoorEnabledMetricsForActivityType:"
+- "_defaultGloryOutdoorEnabledMetricsForActivityType:supportsElevationMetrics:"
+- "_defaultLuckIndoorEnabledMetricsForActivityType:"
+- "_defaultLuckOutdoorEnabledMetricsForActivityType:supportsElevationMetrics:"
+- "_defaultMoonstoneIndoorEnabledMetricsForActivityType:"
+- "_defaultMoonstoneOutdoorEnabledMetricsForActivityType:supportsElevationMetrics:"
+- "_defaultOutdoorEnabledMetricsForActivityType:metricsVersion:supportsElevationMetrics:"
+- "_defaultPreGloryIndoorEnabledMetricsForActivityType:"
+- "_defaultPreGloryOutdoorEnabledMetricsForActivityType:"
+- "_defaultSecondPlatterMetrics"
+- "_definition"
+- "_delegate"
+- "_determineAndProcessThresholdReached"
+- "_didUpdateBTSensorSeenStatus:"
+- "_dirtyPropertiesMap"
+- "_distanceInMeters"
+- "_domain"
+- "_duration"
+- "_effectiveGoalTypeForWorkout:"
+- "_emptySimpleHistogram"
+- "_enabled"
+- "_endDate"
+- "_endOfDay"
+- "_energyBurnedUnitStringForUnit:useShortString:"
+- "_exerciseTimeCompletionPercentage"
+- "_fetchCachedSleepUserDay"
+- "_fetchGoodMorningAlertNotificationEnabled"
+- "_fetchLastAlarmWakeUpDate"
+- "_fetchLastGoodMorningDismissedDate"
+- "_filteredAppProxies:"
+- "_finalized"
+- "_finalizedTriggerByAddingSample:toSlice:withPreviousTotal:threshold:"
+- "_fitnessAppsInstallationState"
+- "_fitnessAppsRestrictedState"
+- "_formattedDuration:formattingManager:"
+- "_formattedEnergyBurn:formattingManager:"
+- "_goal"
+- "_goalType"
+- "_goodMorningAlertDismissedDateForToday"
+- "_hasDirtyPropertyForPropertyKey:"
+- "_hasEnergyBurnedGoal"
+- "_hasFirstPartyBundleID"
+- "_healthStore"
+- "_height"
+- "_heightCharacteristicQuantityWithError:"
+- "_identifier"
+- "_indoorDefaultEnabledMetricsForActivityType:metricsVersion:"
+- "_initialLoadSleepUserDay"
+- "_integerForKey:exists:"
+- "_interval"
+- "_intervalDefinitions"
+- "_isAppleWatch"
+- "_isConnectedGymDevice"
+- "_isDataLoading"
+- "_isDate:within24HoursOfDate:"
+- "_isDeviceTablet"
+- "_isGoodMorningAlertNotificationEnabled"
+- "_isIndoor"
+- "_isMetricDistance"
+- "_isPartOfMultiSport"
+- "_isPartialSplit"
+- "_isSupportedDeviceAvailableWithCompletion:"
+- "_isUserAwake"
+- "_isWatchWorkout"
+- "_isZero"
+- "_lastAlarmWakeUpDate"
+- "_lastCommitDate"
+- "_lastGoodMorningDismissedDate"
+- "_launchURLWithHostname:workoutIdentifier:"
+- "_launchURLWithHostname:workoutIdentifier:date:source:"
+- "_loadPreferredUnitsFromDefaults"
+- "_localeDidChange:"
+- "_localizedEnergyDescriptionForWorkout:withValue:appendActivityType:activityTypeString:"
+- "_localizedKeyMetricCyclingStringWithWorkout:withUnitStyle:"
+- "_localizedKeyMetricDistanceStringForWorkout:withUnitStyle:"
+- "_localizedKeyMetricDurationStringWithWorkout:"
+- "_localizedKeyMetricEnergyBurnedStringForWorkout:withUnitStyle:"
+- "_localizedOpenGoalKeyMetricStringForWorkout:withUnitStyle:"
+- "_localizedStringWithDistanceUnit:distanceInUnit:unitStyle:decimalPrecision:roundingMode:decimalTrimmingMode:"
+- "_localizedTimeDescriptionForWorkout:withValue:appendActivityType:activityTypeString:"
+- "_localizedTimeValueForWorkout:"
+- "_location"
+- "_lock"
+- "_lock_installStateForBundleIdentifier:"
+- "_logAndNilError:operationDescription:"
+- "_machineProvidedMetricsForActivityType:"
+- "_measurementSystem"
+- "_metadata"
+- "_metricsVersion"
+- "_mindfulnessSessions"
+- "_mindfulnessSessionsQuery"
+- "_monthFormatter"
+- "_moveMinutesCompletionPercentage"
+- "_movieNameForAchievementIdentifier:variantNumber:"
+- "_movieNameForGoalType:variantNumber:"
+- "_name"
+- "_notifyUnitPreferencesChanged"
+- "_npsDomainAccessor"
+- "_object"
+- "_pauseResumeEvents"
+- "_pendingTypes"
+- "_percentageOfTypicalDayComparedToNowForGoal:"
+- "_preferredHKUnitForQuantityType:"
+- "_preferredUnits"
+- "_processUncommittedSamples"
+- "_projectedOffWristDateToday"
+- "_quantity"
+- "_quantityByAddingQuantity:"
+- "_quantityTrigger"
+- "_quantityType"
+- "_queue"
+- "_queueCheckForPeripherals"
+- "_queueSpinUpBTCheck:"
+- "_queue_briskWalkTimeToCompleteMoveGoalWithDateOfBirth:biologicalSex:height:weight:wheelchairUse:experienceType:"
+- "_queue_bucketDates"
+- "_queue_calculateProjectedOffWristDateFromHistogram:activeDays:"
+- "_queue_currentActivitySummary"
+- "_queue_currentValueForHistogram:"
+- "_queue_enumerateActivitySummariesOrderedByCacheIndexWithCalendar:error:handler:"
+- "_queue_exerciseHistogram"
+- "_queue_moveHistogram"
+- "_queue_populateHistogramsAndOffWristDateForToday"
+- "_queue_retryMindfulSessionQueryWithRetryCount:"
+- "_queue_startMindfulnessSessionQueryWithRetryCount:"
+- "_queue_stopMindfulSessionQuery"
+- "_queue_updateHistogram:goalType:activitySummary:"
+- "_queue_updateProjectedOffWristDateHistogram:activitySummary:activeDays:"
+- "_removeObjectForKey:"
+- "_repeatCount"
+- "_serialQueue"
+- "_setBiologicalSex:error:"
+- "_setBodyMassCharacteristicQuantity:error:"
+- "_setDateOfBirthComponents:error:"
+- "_setEmptySleepUserDay:"
+- "_setHeightCharacteristicQuantity:error:"
+- "_setInteger:key:"
+- "_setPreferredHKUnit:forQuantityType:"
+- "_setPreferredUnit:forType:completion:"
+- "_setProjectedOffWristDateToday:"
+- "_setSleepUserDay:"
+- "_setSleepUserDayWithStartOfDay:endOfDay:"
+- "_setType"
+- "_setUncommitedValue:forPropertyKey:"
+- "_setUserDefaults:"
+- "_setWheelchairUse:error:"
+- "_sleepDataProvider"
+- "_sleepStore"
+- "_sleepUserDay"
+- "_sleepUserDayLock"
+- "_slice"
+- "_sliceGroup"
+- "_slices"
+- "_spinUpCheck"
+- "_standHoursCompletionPercentage"
+- "_standardSupportedMetricsWithMetricsVersion:"
+- "_startDate"
+- "_startOfDay"
+- "_startOfMonth"
+- "_storePreferredUnitsInDefaults:"
+- "_stringByReplacingThirdsIfNeeded:distanceInMeters:distanceUnit:roundingMode:decimalTrimmingMode:"
+- "_supportedMetrics"
+- "_supportedMetricsForActivityType:metricsVersion:"
+- "_supportsElevationMetrics"
+- "_supportsGroundElevationMetrics"
+- "_syncManager"
+- "_synchronize"
+- "_test"
+- "_threshold"
+- "_thresholdReached"
+- "_totalActiveDays"
+- "_totalActiveEnergyBurn"
+- "_totalByCommittingSample:toPreviousTotal:startDate:endDate:"
+- "_totalDistance"
+- "_totalDistanceUpToThisPointInMeters"
+- "_totalWorkoutDuration"
+- "_trackedQuantityType"
+- "_triggeredDate"
+- "_type"
+- "_typeDescription"
+- "_uncommittedSamples"
+- "_unit"
+- "_unitManager"
+- "_updateCurrentFitnessAppsInstallStateWithProxies:newState:"
+- "_updateCurrentFitnessAppsRestrictedStateWithProxies:"
+- "_updateCurrentSleepScheduleState"
+- "_updateGoodMorningAlertNotificationEnabledIfNeeded:"
+- "_updateHandler"
+- "_updateLastAlarmWakeUpDateIfNeeded:"
+- "_updateLastGoodMorningDismissedDateIfNeeded:"
+- "_updatePreferredUnits"
+- "_updateSleepUserDay"
+- "_updateSleepUserDayFromWakeUp:currentDate:"
+- "_updateSleepUserDayFromWindDownOrBedtime:currentDate:"
+- "_updateSlicesWithSamples:"
+- "_updateSupportedMetrics"
+- "_updateTriggerWithSample:"
+- "_userDefaults"
+- "_userPreferencesDidChange:"
+- "_value"
+- "_valueByConvertingValue:toUnit:"
+- "_variantCountForGoalType:"
+- "_waitUntilActivitySummaryLoaded"
+- "_weight"
+- "_wheelchairUse"
+- "_willCompleteGoalWithType:bufferPercentage:"
+- "_workoutSupportsDistanceMetricForGoalDisplay:"
+- "_workouts"
+- "_workoutsWithDistance"
+- "_workoutsWithEnergyBurned"
+- "activate"
+- "activeDurationUntilDate:"
+- "activeEnergyBurnedGoal"
+- "activePairedDeviceSelectorBlock"
+- "activityMoveMode"
+- "activitySummaryCacheChangedNotification"
+- "activitySummaryRangeNotificationKey"
+- "activityTypeByAddingLapLength:"
+- "activityTypeFromUniqueIdentifier:"
+- "activityTypePlistKey"
+- "activityTypeWithHKWorkoutActivityTypeIdentifier:isIndoor:"
+- "activityTypeWithHKWorkoutActivityTypeIdentifier:isIndoor:metadata:"
+- "activityTypeWithWorkout:"
+- "addEvent:withError:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addSample:"
+- "addSamples:"
+- "addValue:toBucketAtIndex:"
+- "addingSample:error:"
+- "addingSamples:error:"
+- "allActivityTypes"
+- "allAuthKitAccounts"
+- "allKeys"
+- "allMindfulnessSessions"
+- "allMindfulnessSessionsWithCompletion:"
+- "allObjects"
+- "allSamples"
+- "allSlicesFinalized"
+- "ams_altDSID"
+- "appState"
+- "appendMachineMetricsToMetrics:maxNumMetrics:activityType:"
+- "appendString:"
+- "appleExerciseTime"
+- "appleExerciseTimeGoal"
+- "appleMoveMinutes"
+- "appleMoveMinutesGoal"
+- "appleMoveTime"
+- "appleStandHours"
+- "appleStandHoursGoal"
+- "applicationIconDidChange:"
+- "applicationInstallsArePrioritized:arePaused:"
+- "applicationInstallsDidCancel:"
+- "applicationInstallsDidChange:"
+- "applicationInstallsDidPause:"
+- "applicationInstallsDidPrioritize:"
+- "applicationInstallsDidResume:"
+- "applicationInstallsDidStart:"
+- "applicationInstallsDidUpdateIcon:"
+- "applicationProxyForIdentifier:"
+- "applicationStateDidChange:"
+- "applicationsDidChangePersonas:"
+- "applicationsDidFailToInstall:"
+- "applicationsDidFailToUninstall:"
+- "applicationsDidInstall:"
+- "applicationsDidUninstall:"
+- "applicationsDidUpdateMetadata:"
+- "applicationsWillInstall:"
+- "applicationsWillUninstall:"
+- "applyTextCase:toString:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areFitnessAppsRestricted"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "authorizationStatus"
+- "autoCommitDateForSamples:"
+- "autorelease"
+- "autoupdatingCurrentCalendar"
+- "auxiliaryTypeIdentifier"
+- "averageActiveEnergyBurn"
+- "averageDistance"
+- "averagePowerQuantityInWatts"
+- "averageWorkoutDuration"
+- "bagForProfile:profileVersion:"
+- "bestMoveStreak"
+- "bestMoveValue"
+- "biologicalSex"
+- "biologicalSexWithError:"
+- "boltDefaultNonDistance"
+- "boltMetricsForActivityType:"
+- "boolForKey:"
+- "boolValue"
+- "briskWalkTimeToCompleteMoveGoalWithAcitivitySettingsController:"
+- "bucketCount"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleWithPath:"
+- "byAddingIntervalDefinition:"
+- "byChangingRepeatCount:"
+- "byChangingSetType:"
+- "byChangingType:quantity:"
+- "byInsertingIntervalDefinition:atIndex:"
+- "byRemovingIntervalDefinitionAtIndex:"
+- "byReplacingIntervalDefinitionAtIndex:withIntervalDefinition:"
+- "calendarWithIdentifier:"
+- "calorieGoal"
+- "caloriesForEnergyBurnedInUserUnit:"
+- "canonicalUnit"
+- "categorySampleWithType:value:startDate:endDate:"
+- "categoryTypeForIdentifier:"
+- "celebrationMovieURLForAchievementIdentifer:"
+- "celebrationMovieURLForGoalType:"
+- "centralManager"
+- "centralManager:connectionEventDidOccur:forPeripheral:"
+- "centralManager:didConnectPeripheral:"
+- "centralManager:didDisconnectPeripheral:error:"
+- "centralManager:didDisconnectPeripheral:timestamp:isReconnecting:error:"
+- "centralManager:didDiscoverPeripheral:advertisementData:RSSI:"
+- "centralManager:didFailToConnectPeripheral:error:"
+- "centralManager:didUpdateANCSAuthorizationForPeripheral:"
+- "centralManager:willRestoreState:"
+- "centralManagerDidUpdateState:"
+- "characterSetWithCharactersInString:"
+- "class"
+- "clientProvidedDefaultEndOfDay"
+- "clientProvidedUserEndOfDay"
+- "clientProvidedUserStartOfDay"
+- "commitAllSlicesToDate:"
+- "committedAndAddedTotal"
+- "committedDuration"
+- "committedSamples"
+- "committedTotal"
+- "committingUntilDate:"
+- "commmitWithError:"
+- "compare:"
+- "component:fromDate:"
+- "components:fromDate:"
+- "components:fromDate:toDate:options:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "compoundPredicateWithPredicate:otherPredicate:"
+- "computeTimeToActiveCalories:user:workoutType:"
+- "conformsToProtocol:"
+- "containsDate:"
+- "containsObject:"
+- "containsString:"
+- "containsValueForKey:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countUnit"
+- "currentCalendar"
+- "currentDate"
+- "currentExerciseGoalPercentage"
+- "currentLocale"
+- "currentModel"
+- "currentMoveGoalPercentage"
+- "currentMoveStreak"
+- "currentSleepEventRecordWithError:"
+- "currentSleepScheduleStateWithError:"
+- "currentStandGoalPercentage"
+- "customDateComponents"
+- "customWeekdaySelection"
+- "d"
+- "d16@0:8"
+- "d24@0:8@16"
+- "d24@0:8Q16"
+- "d24@0:8d16"
+- "d24@0:8q16"
+- "d32@0:8Q16d24"
+- "d32@0:8d16Q24"
+- "d32@0:8d16q24"
+- "d48@0:8@16d24q32Q40"
+- "d64@0:8@16q24@32@40q48Q56"
+- "dataForKey:"
+- "databaseWasRebuilt"
+- "dateByAddingTimeInterval:"
+- "dateByAddingUnit:value:toDate:options:"
+- "dateFormatFromTemplate:options:locale:"
+- "dateFromComponents:"
+- "dateOfBirthComponentsWithError:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "dealloc"
+- "debugDescription"
+- "decimalPrecisionForPaceFormat:"
+- "decimalSeparator"
+- "decodeBoolForKey:"
+- "decodeDoubleForKey:"
+- "decodeIntForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultActivityTypesWithIsWheelchairUser:isSwimmingSupported:activityMoveMode:"
+- "defaultCenter"
+- "defaultEnabledMetrics"
+- "defaultPrecisionForDistanceUnit:"
+- "defaultSecondPlatterMetrics"
+- "defaultWorkspace"
+- "definition"
+- "definitionFromDictionary:error:"
+- "delegate"
+- "deleteObject:options:withCompletion:"
+- "deprecatedActivityTypes"
+- "description"
+- "descriptionArray"
+- "device"
+- "deviceManagementPolicyDidChange:"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithCapacity:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didUpdateBTSensorSeenStatus"
+- "didUpdatePauseStateNotification"
+- "distanceInDistanceUnit:forDistanceInMeters:"
+- "distanceInMeters"
+- "distanceInMetersForDistanceInUserUnit:distanceType:"
+- "distanceInUserDistanceUnitForDistanceInMeters:distanceType:"
+- "distantFuture"
+- "distantPast"
+- "domain"
+- "doubleValue"
+- "doubleValueForUnit:"
+- "dueDate"
+- "earlierDate:"
+- "effectiveActivityTypeWithWorkout:"
+- "effectiveTypeIdentifier"
+- "enabled"
+- "encodeBool:forKey:"
+- "encodeDouble:forKey:"
+- "encodeInt:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endDateIndex"
+- "energyBurnedInUserUnitForCalories:"
+- "energyFormatterUnitFromUnit:"
+- "entityEnumeratorWithProfile:"
+- "enumerateActivitySummariesFromDateComponents:toDateComponents:error:handler:"
+- "enumerateActivitySummariesWithPredicate:error:handler:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateObjectsWithOptions:usingBlock:"
+- "enumerateWithError:handler:"
+- "errorWithDomain:code:userInfo:"
+- "executeQuery:"
+- "exerciseGoal"
+- "exerciseTimeGoal"
+- "experienceType"
+- "features"
+- "fetchDeviceListWithContext:completion:"
+- "fetchIsFitnessAvailableForDeviceWithCompletion:"
+- "fi_activityType"
+- "fi_arrayByEnumeratingRange:usingBlock:"
+- "fi_backupAndSetBool:forKey:"
+- "fi_backupAndSetDouble:forKey:"
+- "fi_backupAndSetFloat:forKey:"
+- "fi_backupAndSetInteger:forKey:"
+- "fi_backupAndSetObject:forKey:"
+- "fi_backupAndSetURL:forKey:"
+- "fi_backupStandardUserDefaultsKey:"
+- "fi_backupStandardUserDefaultsKey:useContainer:"
+- "fi_distanceGoalCompletionTime"
+- "fi_doubleValueByDividingByQuantity:"
+- "fi_elevationGain"
+- "fi_endWorkoutURLWithIdentifier:"
+- "fi_filteredArrayUsingBlock:"
+- "fi_flatMapUsingBlock:"
+- "fi_hasNonZeroElevationGain"
+- "fi_isAfterDate:"
+- "fi_isBeforeDate:"
+- "fi_isConnectedGymWorkout"
+- "fi_isCustomSplitEvent"
+- "fi_isDistanceGoalCompleteEvent"
+- "fi_isNonzero"
+- "fi_isSplitEvent"
+- "fi_logPredictionDateWorkoutURLWithIdentifier:date:"
+- "fi_mapUsingBlock:"
+- "fi_npsManager"
+- "fi_overlapsStartDate:endDate:"
+- "fi_pauseWorkoutURLWithIdentifier:"
+- "fi_reduceWithReduction:block:"
+- "fi_resumeWorkoutURLWithIdentifier:date:source:"
+- "fi_spansDate:useStrictDateLimits:"
+- "fi_splitActiveDuration"
+- "fi_splitDistance"
+- "fi_splitPaceInMetersPerSecond"
+- "fi_startBackdatedWorkoutURLWithDate:workoutIdentifier:workoutType:isIndoor:swimmingLocationType:showPicker:"
+- "fi_swimmingLocationType"
+- "fi_synchronizeStandardUserDefaultsKey:"
+- "fi_synchronizeStandardUserDefaultsKey:useContainer:"
+- "filteredArrayUsingPredicate:"
+- "finalLocalizedKeyForKey:multiline:"
+- "finalized"
+- "firstObject"
+- "firstOnWristDateToday"
+- "fitnessAppsStateObserver:applicationInstallStateDidChangeForBundleIdentifiers:"
+- "fitnessAppsStateObserver:restrictedStateDidChange:"
+- "footUnit"
+- "forceNanoSyncWithOptions:completion:"
+- "formattedActiveEnergyBurnWithFormattingManager:"
+- "formattedAverageActiveEnergyBurnWithFormattingManager:"
+- "formattedAverageWorkoutDurationWithFormattingManager:"
+- "formattedDistanceWithFormattingManager:distanceType:amountType:"
+- "formattedMonth"
+- "formattedPaceWithFormattingManager:distanceType:"
+- "formattedResumeDate"
+- "formattedTotalActiveEnergyBurnWithFormattingManager:"
+- "formattedTotalWorkoutDurationWithFormattingManager:"
+- "formattedWorkoutDurationWithFormattingManager:"
+- "getAllDevicesWithArchivedAltAccountDevicesMatching:"
+- "goodMorningAlertNotificationEnabled"
+- "goodMorningDismissedDate"
+- "gramUnitWithMetricPrefix:"
+- "gymKitCapableActivityTypes"
+- "handleUpdatedCurrentActivitySummary:"
+- "hasHadPairedCyclingCadenceSensors"
+- "hasHadPairedCyclingPowerSensors"
+- "hasHadPairedCyclingSpeedSensors"
+- "hasLocationTypePool"
+- "hasPrefix:"
+- "hasTag:"
+- "hash"
+- "healthStore"
+- "helperPlaceholdersInstalled:"
+- "helperPlaceholdersUninstalled:"
+- "hideBluetoothPowerAlert"
+- "hk_canonicalDateOfBirthDateComponentsWithDate:"
+- "hk_dateByAddingDays:toDate:"
+- "hk_filter:"
+- "hk_firstObjectPassingTest:"
+- "hk_gregorianCalendar"
+- "hk_gregorianCalendarWithUTCTimeZone"
+- "hk_isAfterDate:"
+- "hk_isAfterOrEqualToDate:"
+- "hk_isBeforeDate:"
+- "hk_isBeforeOrEqualToDate:"
+- "hk_isDatabaseAccessibilityError"
+- "hk_isGreaterThanQuantity:"
+- "hk_isLessThanQuantity:"
+- "hk_mapToSet:"
+- "hk_startOfDateByAddingDays:toDate:"
+- "hk_weekendDays"
+- "hour"
+- "identifier"
+- "idleDurationUntilDate:"
+- "init"
+- "initEmptySleepUserDay"
+- "initForDateInterval:delegate:"
+- "initForDateInterval:delegate:sleepDataProvider:"
+- "initWithActivityTypeIdentifier:isIndoor:"
+- "initWithActivityTypeIdentifier:isIndoor:isPartOfMultiSport:metadata:"
+- "initWithActivityTypeIdentifier:isIndoor:isPartOfMultiSport:metadata:auxiliaryTypeIdentifier:"
+- "initWithActivityTypeIdentifier:isIndoor:metadata:"
+- "initWithActivityTypeIdentifier:isIndoor:metadata:auxiliaryTypeIdentifier:"
+- "initWithActivityTypeIdentifier:location:isPartOfMultiSport:metadata:"
+- "initWithActivityTypeIdentifier:location:isPartOfMultiSport:metadata:auxiliaryTypeIdentifier:"
+- "initWithAge:gender:height:weight:condition:"
+- "initWithArray:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifiers:"
+- "initWithCapacity:"
+- "initWithCoder:"
+- "initWithContainer:"
+- "initWithDateInterval:duration:distanceInMeters:totalDistanceUpToThisPointInMeters:measurementSystem:isPartialSplit:averagePowerQuantityInWatts:"
+- "initWithDelegate:queue:options:"
+- "initWithDictionary:"
+- "initWithDistance:duration:"
+- "initWithDistance:duration:dateInterval:"
+- "initWithDomain:"
+- "initWithDomain:code:userInfo:"
+- "initWithEvent:"
+- "initWithHealthStore:"
+- "initWithIntervalDefinition:activityType:startDate:"
+- "initWithIntervalDefinitions:repeatCount:setType:"
+- "initWithIntervalQuantityType:threshold:startDate:trackedQuantityTypes:"
+- "initWithKey:ascending:"
+- "initWithMetricsVersion:activityType:activityMoveMode:deviceSupportsElevationMetrics:deviceSupportsGroundElevationMetrics:"
+- "initWithNumberOfBuckets:"
+- "initWithObject:"
+- "initWithProfile:"
+- "initWithQuantityTimeslice:threshold:triggeredDate:"
+- "initWithQuantityType:startDate:"
+- "initWithQuantityType:startDate:endDate:"
+- "initWithQuantityType:startDate:endDate:committedSamples:uncommittedSamples:lastCommitDate:committedTotal:finalized:"
+- "initWithQuantityType:startDate:endDate:uncommitedSamples:lastCommitDate:committedTotal:finalized:"
+- "initWithQuantityType:startDate:threshold:"
+- "initWithQuantityType:threshold:startDate:"
+- "initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:"
+- "initWithSampleType:predicate:updateHandler:"
+- "initWithSleepStore:delegate:"
+- "initWithStartDate:endDate:"
+- "initWithStartOfDay:endOfDay:"
+- "initWithString:"
+- "initWithSuiteName:"
+- "initWithTimeSlices:"
+- "initWithType:"
+- "initWithType:customDateComponents:"
+- "initWithType:customDateComponents:customWeekdaySelection:enabled:"
+- "initWithType:predicate:anchor:limit:resultsHandler:"
+- "initWithTypeIdentifier:quantity:"
+- "initWithUUIDString:"
+- "initWithUnitManager:"
+- "initWithUpdateHandler:"
+- "initWithWorkouts:"
+- "initialPauseStateLoadedNotification"
+- "initialize"
+- "insertObject:atIndex:"
+- "insertSamples:"
+- "installStateForBundleIdentifier:"
+- "integerValue"
+- "internalQueue"
+- "intersectionWithDateInterval:"
+- "intervalAtIndex:"
+- "intervalComplete"
+- "intervalCount"
+- "intervalDefinitionWithTypeIdentifier:quantity:"
+- "intervalEndDate"
+- "isAbsoluteAltitudeAvailable"
+- "isActiveDeviceAltAccount"
+- "isCategorizedOtherWorkout"
+- "isDateInToday:"
+- "isEffectivelyIndoorForWorkout:"
+- "isElevationAvailable"
+- "isEmpty"
+- "isEqual:"
+- "isEqualToDate:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isExpressGymKitAllowed"
+- "isFitnessPlusStorefrontContentAvailableWithCompletion:"
+- "isGoodMorningAlertNotificationEnabled"
+- "isHealthDataSubmissionAllowed"
+- "isInstalled"
+- "isIntervalEndDate"
+- "isKindOfClass:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isMetricTypeSupported:isMachineWorkout:activityType:"
+- "isNoticeablyDifferentFromActivitySummary:comparingGoalTypes:userActiveEnergyBurnedUnit:"
+- "isNoticeablyDifferentFromActivitySummary:comparingGoalTypes:userActiveEnergyBurnedUnit:requiredDelta:"
+- "isPaused"
+- "isPausedForActivitySummary:"
+- "isPausedForActivitySummaryCacheIndex:"
+- "isPausedForActivitySummaryCacheIndexStart:end:"
+- "isPoolSwimming"
+- "isPregnant"
+- "isProxy"
+- "isRestricted"
+- "isRunningFormAvailable"
+- "isRunningInStoreDemoMode"
+- "isSleepAlarmEnabledForToday"
+- "isStandalonePhoneFitnessMode"
+- "isUserAwake"
+- "isWaterLockActivity"
+- "isWorkoutEndReminderEnabledWhenDeviceIsInMoveTimeMode:withCurrentSetting:"
+- "isWorkoutResumeReminderEnabledWhenDeviceIsInMoveTimeMode:withCurrentSetting:"
+- "isWorkoutStartReminderEnabledWhenDeviceIsSatellitePaired:isInMoveTimeMode:withCurrentSetting:"
+- "jouleUnitWithMetricPrefix:"
+- "kilocalorieUnit"
+- "lapLength"
+- "largeCalorieUnit"
+- "lastAlarmWakeUpDate"
+- "lastGoodMorningDismissedDate"
+- "lastObject"
+- "leanBodyMass"
+- "legacyUniqueIdentifier"
+- "lengthFormatterUnitFromUnit:"
+- "localDevice"
+- "localizationKey"
+- "localizationKeyForDistanceBaseKey:distanceType:"
+- "localizationKeyForEnergyBaseKey:"
+- "localizationKeyForMoveBaseKey:activityMoveMode:"
+- "localizationKeyForMoveMinutesBaseKey:"
+- "localizedCapitalizedString"
+- "localizedCompactGoalDescriptionForGoalType:goalValue:activityType:"
+- "localizedCompactNaturalScaleStringWithDistanceInMeters:distanceType:unitStyle:usedUnit:"
+- "localizedDescription"
+- "localizedDistanceByStrokeStyle:isPoolSwim:"
+- "localizedDistinguishingCadenceUnitStringWithMetricType:"
+- "localizedDistinguishingPaceUnitStringWithMetricType:distanceType:distanceUnit:paceFormat:abbreviated:multiline:"
+- "localizedDistinguishingPowerStringWithMetricType:"
+- "localizedDistinguishingPowerUnitStringWithMetricType:"
+- "localizedGoalDescriptionForGoalType:goalValue:activityType:"
+- "localizedGoalDescriptionForWorkout:withValue:appendActivityType:"
+- "localizedGoalUnitForWorkout:"
+- "localizedGoalValueForWorkout:"
+- "localizedHeartRateUnitString"
+- "localizedInSessionDescriptionForElevation:"
+- "localizedInSessionDescriptionForGroundElevation:"
+- "localizedKeyMetricStringForWorkout:unitStyle:"
+- "localizedLongActiveEnergyUnitString"
+- "localizedLongActiveEnergyUnitStringWithTextCase:"
+- "localizedLongActiveHoursUnitString"
+- "localizedLongActiveHoursUnitStringForValue:"
+- "localizedLongBriskMinutesUnitString"
+- "localizedLongBriskMinutesUnitStringForValue:"
+- "localizedLongMoveMinutesUnitString"
+- "localizedLongMoveMinutesUnitStringForValue:"
+- "localizedLongMoveMinutesUnitStringWithTextCase:"
+- "localizedLongMoveMinutesUnitStringWithTextCase:value:"
+- "localizedLongMoveUnitStringWithActivityMoveMode:"
+- "localizedLongMoveUnitStringWithActivityMoveMode:value:"
+- "localizedLongUnitStringForDistanceUnit:distanceInUnit:"
+- "localizedLongUnitStringForDistanceUnit:distanceInUnit:textCase:"
+- "localizedLowercaseString"
+- "localizedMediumMoveMinutesUnitString"
+- "localizedMediumMoveMinutesUnitStringForValue:"
+- "localizedMediumMoveMinutesUnitStringWithTextCase:"
+- "localizedMediumMoveMinutesUnitStringWithTextCase:value:"
+- "localizedName"
+- "localizedNameComponents"
+- "localizedNamePlural"
+- "localizedNaturalScaleStringWithDistanceInMeters:distanceType:unitStyle:usedUnit:"
+- "localizedNaturalScaleStringWithDistanceInMeters:distanceType:unitStyle:usedUnit:decimalTrimmingMode:"
+- "localizedPaceAndUnitStringForSpeed:activityType:"
+- "localizedPaceAndUnitWithDistance:overDuration:paceFormat:distanceType:unitStyle:decimalTrimmingMode:"
+- "localizedPaceStringWithDistance:overDuration:paceFormat:distanceType:"
+- "localizedPaceStringWithDistance:overDuration:paceFormat:distanceType:zeroShowsDashes:"
+- "localizedPaceStringWithDistance:overDuration:paceFormat:unitStyle:decimalTrimmingMode:distanceType:"
+- "localizedPaceStringWithDistance:overDuration:paceFormat:unitStyle:decimalTrimmingMode:distanceType:zeroShowsDashes:"
+- "localizedPaceUnitStringWithDistanceType:distanceUnit:"
+- "localizedPaceUnitStringWithDistanceType:distanceUnit:unitStyle:"
+- "localizedPaceValueForSplit:activityType:"
+- "localizedPowerUnitStringForPower:"
+- "localizedShareTextWithWorkout:shareValue:"
+- "localizedShortActiveEnergyUnitString"
+- "localizedShortActiveHoursUnitString"
+- "localizedShortBriskMinutesUnitString"
+- "localizedShortCadenceUnitStringForActivityType:"
+- "localizedShortPowerUnitString"
+- "localizedShortTypeDistinguishingUnitStringForEnergyType:workoutSectionType:multiline:"
+- "localizedShortTypeDistinguishingUnitStringForPowerType:unitString:"
+- "localizedShortUnitStringForDistanceType:"
+- "localizedShortUnitStringForDistanceUnit:"
+- "localizedShortUnitStringForDistanceUnit:textCase:"
+- "localizedSpeedUnitString"
+- "localizedSpeedUnitStringForActivityType:"
+- "localizedSpeedUnitStringForDistanceType:unitStyle:"
+- "localizedSpeedUnitStringForDistanceUnit:unitStyle:"
+- "localizedStringForKey:value:table:"
+- "localizedStringForMetricType:paceFormat:"
+- "localizedStringWithActiveEnergy:"
+- "localizedStringWithActiveEnergy:unitStyle:"
+- "localizedStringWithActiveHours:"
+- "localizedStringWithBeatsPerMinute:"
+- "localizedStringWithBeatsPerMinute:requirePositiveValue:"
+- "localizedStringWithBriskMinutes:"
+- "localizedStringWithDistanceInMeters:distanceType:distanceUnit:unitStyle:roundingMode:"
+- "localizedStringWithDistanceInMeters:distanceType:unitStyle:"
+- "localizedStringWithDistanceInMeters:distanceType:unitStyle:roundingMode:"
+- "localizedStringWithDistanceInMeters:distanceUnit:unitStyle:decimalPrecision:"
+- "localizedStringWithDistanceInMeters:distanceUnit:unitStyle:decimalPrecision:roundingMode:decimalTrimmingMode:"
+- "localizedStringWithEnergy:energyType:unitStyle:"
+- "localizedStringWithEnergyInCalories:energyType:unitStyle:"
+- "localizedStringWithFormat:"
+- "localizedStringWithHeartRate:"
+- "localizedStringWithHeartRate:unitStyle:"
+- "localizedStringWithHeartRate:unitStyle:requirePositiveValue:"
+- "localizedStringWithMoveMinutes:"
+- "localizedStringWithMoveMinutes:unitStyle:"
+- "localizedStringWithMoveQuantity:activityMoveMode:"
+- "localizedStringWithMoveQuantity:unitStyle:activityMoveMode:"
+- "localizedStringWithPersonHeight:unitStyle:"
+- "localizedStrokeCountStringWithCount:overDistance:paceFormat:"
+- "localizedSwimmingPaceStringWithDistance:overDuration:paceFormat:"
+- "localizedTitleForSplit:unit:lapIndex:useShortFormat:"
+- "localizedUnitStringForDistanceUnit:distanceInUnit:unitStyle:"
+- "localizedUppercaseString"
+- "mainBundle"
+- "mapWheelchairUserActivityType:isWheelchairUser:"
+- "maximumFractionDigits"
+- "metadata"
+- "meterUnit"
+- "meterUnitWithMetricPrefix:"
+- "metricQueue"
+- "metricsForActivityType:metricsVersion:"
+- "metricsVersion"
+- "metricsVersionForWorkout:"
+- "migrateIfNeeded"
+- "migrateUserDefaultsToNPS"
+- "mileUnit"
+- "minute"
+- "minuteUnit"
+- "model"
+- "moonstoneMetricsForActivityType:"
+- "mostRecentWorkout"
+- "moveMinuteGoal"
+- "mutableCopy"
+- "name"
+- "naturalScaleUnitForDistanceInMeters:distanceType:"
+- "networkUsageChanged:"
+- "nextEventDueAfterDate:error:"
+- "nonOptimizedActivityTypes"
+- "notificationSettings"
+- "notifyObservers:"
+- "npsDomainAccessor"
+- "numberOfValuesInBucketAtIndex:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "objCType"
+- "object"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observeLaunchProhibitedApps"
+- "observers"
+- "openApplicationWithBundleID:"
+- "openGoalUUID"
+- "openURL:configuration:completionHandler:"
+- "operatingSystemName"
+- "operatingSystemVersion"
+- "operatingSystemVersion:atLeastVersion:"
+- "optimizedActivityTypesWithIsWheelchairUser:isSwimmingSupported:"
+- "otherWorkoutActivityTypes"
+- "paceDistanceUnitForDistanceType:"
+- "paceWithDistance:overDuration:paceFormat:distanceType:"
+- "paddingCharacter"
+- "pauseIntervals"
+- "pauseResumeEvents"
+- "pauseRings"
+- "pauseRingsScheduleType"
+- "pauseRingsScheduleWithStartDateIndex:endDateIndex:device:metadata:"
+- "pauseRingsUntilDate:completionHandler:"
+- "paused"
+- "pendingTypes"
+- "percentStringWithNumber:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performValidations:withObject:error:"
+- "persistentDomainForName:"
+- "phoneAndHeartRateMonitorSupportedActivityTypes"
+- "phoneOnlySupportedActivityTypes"
+- "pluginsDidInstall:"
+- "pluginsDidUninstall:"
+- "pluginsWillUninstall:"
+- "populateExistingCharacteristics"
+- "possibleActivityTypesForIdentifier:locationType:swimmingLocationType:wheelchairUser:"
+- "postNotificationName:object:"
+- "postNotificationName:object:userInfo:"
+- "predicateWithBlock:"
+- "predicateWithProperty:greaterThanOrEqualToValue:"
+- "predicateWithProperty:lessThanValue:"
+- "preferredUnitsForQuantityTypes:completion:"
+- "pregnancyModel"
+- "pregnancyModelDidChangeWithModel:"
+- "pregnancyModelDidChangeWithProvider:model:"
+- "previousEventWithIdentifier:dueBeforeDate:"
+- "productType"
+- "projectedDayDuration"
+- "projectedOffWrist"
+- "projectedToBeatMoveRecordByEndOfDay"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q24@0:8Q16"
+- "q32@0:8@16^B24"
+- "q40@0:8@16@24@32"
+- "quantitySampleWithType:quantity:startDate:endDate:"
+- "quantityType"
+- "quantityTypeForDistanceType:"
+- "quantityTypeForIdentifier:"
+- "quantityValue"
+- "quantityWithUnit:doubleValue:"
+- "query"
+- "queryItemWithName:value:"
+- "raise:format:"
+- "rangeOfString:"
+- "rebuildWithInterval:"
+- "reductionWithObject:"
+- "release"
+- "reminders"
+- "removeAllObjects"
+- "removeAllSamples"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsInArray:"
+- "removeObserver:"
+- "removePersistentDomainForName:"
+- "removeSamplesWithUUIDs:"
+- "removeUnsupportedFitnessJuniorMetricsFrom:"
+- "replaceObjectAtIndex:withObject:"
+- "requiresDisambiguation"
+- "requiresLocationDisambiguation"
+- "requiresSwimmingLocationDisambiguation"
+- "respondsToSelector:"
+- "resumeDate"
+- "retain"
+- "retainCount"
+- "retrievePeripheralsWithCustomProperties:completion:"
+- "reverseObjectEnumerator"
+- "roundedDailyMoveGoal:activityMoveMode:"
+- "roundedDailyMoveGoalForCalories:"
+- "roundedDailyMoveGoalForMoveMinutes:"
+- "roundingMode"
+- "saveObject:withCompletion:"
+- "saveObjects:deleteObjects:associations:completion:"
+- "saveObjects:withCompletion:"
+- "secondUnit"
+- "sectionTypeForMetricType:"
+- "self"
+- "set"
+- "setAllowedUnits:"
+- "setAltDSID:"
+- "setAveragePowerQuantityInWatts:"
+- "setBiologicalSex:"
+- "setBool:forKey:"
+- "setCalendar:"
+- "setCentralManager:"
+- "setCreationDate:"
+- "setDateFormat:"
+- "setDateInterval:"
+- "setDateOfBirth:"
+- "setDateStyle:"
+- "setDelegate:"
+- "setDistanceInMeters:"
+- "setDomain:"
+- "setDouble:forKey:"
+- "setDuration:"
+- "setEndOfDay:"
+- "setFloat:forKey:"
+- "setForFoodEnergyUse:"
+- "setForPersonHeightUse:"
+- "setFormattingContext:"
+- "setHeight:"
+- "setHost:"
+- "setInteger:forKey:"
+- "setIsGoodMorningAlertNotificationEnabled:"
+- "setIsPartialSplit:"
+- "setIsUserAwake:"
+- "setLastAlarmWakeUpDate:"
+- "setLastGoodMorningDismissedDate:"
+- "setLimitCount:"
+- "setLocale:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setMaximumFractionDigits:"
+- "setMeasurementSystem:"
+- "setMinimumFractionDigits:"
+- "setMinimumIntegerDigits:"
+- "setNpsDomainAccessor:"
+- "setNumberFormatter:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOperatingSystems:"
+- "setPaddingCharacter:"
+- "setPaddingPosition:"
+- "setPendingTypes:"
+- "setPredicate:"
+- "setPreferredUnitsForTesting:"
+- "setQueryItems:"
+- "setQueue:"
+- "setRoundingMode:"
+- "setScheme:"
+- "setShouldIncludePrivateProperties:"
+- "setSleepUserDay:"
+- "setSortDescriptor:"
+- "setStartOfDay:"
+- "setThreshold:"
+- "setTimeStyle:"
+- "setTotalDistanceUpToThisPointInMeters:"
+- "setURL:forKey:"
+- "setUnitStyle:"
+- "setUnitsStyle:"
+- "setUpdateHandler:"
+- "setUserActiveEnergyBurnedUnit:"
+- "setUserBasalEnergyBurnedUnit:"
+- "setUserDefaults:"
+- "setUserDepthHKUnit:"
+- "setUserDistanceCyclingUnit:"
+- "setUserDistanceUnit:forDistanceType:"
+- "setUserDistanceWalkingRunningUnit:"
+- "setUserWaterTemperatureHKUnit:"
+- "setWeight:"
+- "setWheelchairUse:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setZeroFormattingBehavior:"
+- "settingEndDate:"
+- "settingStartDate:"
+- "settingTimeSlice:"
+- "settingTotalQuantityLimit:"
+- "shared"
+- "sharedBehavior"
+- "sharedConnection"
+- "sharedInstance"
+- "shouldDisambiguateOnLocationType:"
+- "shouldSuggestWalkWithActivitySettingsController:"
+- "simpleWorkoutCount"
+- "sleepDataProviderLastAlarmWakeUpDateDidChange"
+- "sleepDataProviderLastGoodMorningDismissedDateDidChange"
+- "sleepDataProviderUserDayDidUpdate"
+- "sleepEventRecord"
+- "sleepScheduleModelWithError:"
+- "sleepStore:sleepEventDidOccur:"
+- "sleepStore:sleepEventRecordDidChange:"
+- "sleepStore:sleepModeOnDidChange:"
+- "sleepStore:sleepScheduleDidChange:"
+- "sleepStore:sleepScheduleModelDidChange:"
+- "sleepStore:sleepScheduleStateDidChange:"
+- "sleepStore:sleepSettingsDidChange:"
+- "sleepUserDay"
+- "slices"
+- "smallCalorieUnit"
+- "sortDescriptorWithKey:ascending:"
+- "sortUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sourceRevision"
+- "speedPerHourWithDistance:overDuration:paceFormat:distanceType:"
+- "standGoal"
+- "standHoursGoal"
+- "standardUserDefaults"
+- "startDate"
+- "startDateIndex"
+- "startMindfulnessSessionQueryIfNeeded"
+- "startOfDayForDate:"
+- "startOfMonth"
+- "state"
+- "statisticsForType:"
+- "stopQuery"
+- "stopQuery:"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByReplacingOccurrencesOfString:withString:options:range:"
+- "stringByTrimmingCharactersInSet:"
+- "stringFromDate:"
+- "stringFromMeters:"
+- "stringFromNumber:"
+- "stringFromTimeInterval:"
+- "stringFromValue:unit:"
+- "stringValue"
+- "stringWithDuration:durationFormat:"
+- "stringWithFormat:"
+- "stringWithNumber:decimalPrecision:"
+- "stringWithNumber:decimalPrecision:roundingMode:"
+- "stringWithNumber:decimalPrecision:roundingMode:decimalTrimmingMode:"
+- "stringWithString:"
+- "stringWithValidatedFormat:validFormatSpecifiers:error:"
+- "subarrayWithRange:"
+- "sumQuantity"
+- "superclass"
+- "supportedMetrics"
+- "supportedMetricsWithIsMachineWorkout:activityType:"
+- "supportsCapability:"
+- "supportsSafetyCheckInPrompt"
+- "supportsSecureCoding"
+- "supportsWorkoutMetricType:"
+- "supportsWorkoutVoiceMotivation"
+- "supportsWorkoutVoiceMotivationBreakthroughMoments"
+- "supportsWorkoutVoiceMotivationProgressMoments"
+- "swimmingOptimizedActivityTypes"
+- "swimmingOtherActivityTypes"
+- "syncQueue"
+- "synchronize"
+- "synchronizeNanoDomain:keys:"
+- "synchronizeUserDefaultsDomain:keys:"
+- "synchronizeUserDefaultsDomain:keys:container:"
+- "test"
+- "testAndSetPeripheral:forTag:existingValueCheck:valueSetting:"
+- "threshold"
+- "thresholdReached"
+- "timeIntervalSince1970"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceReferenceDate"
+- "timeSliceGroupForQuantityTypes:startDate:"
+- "totalActiveEnergyBurn"
+- "totalDistanceUpToThisPointInMeters"
+- "totalEnergyBurned"
+- "totalMoveGoalsAttempted"
+- "totalWorkoutDuration"
+- "trackedQuantityType"
+- "triggered"
+- "triggeredDate"
+- "typicalDayActivityModelDidUpdate"
+- "unarchivedObjectOfClasses:fromData:error:"
+- "uniqueIdentifier"
+- "unitFromString:"
+- "unitManager"
+- "unitString"
+- "unitStringFromValue:unit:"
+- "unpauseRingsWithCompletionHandler:"
+- "unsignedIntegerValue"
+- "unsupportedActivityTypesWithIsWheelchairUser:isSwimmingSupported:"
+- "updateHandler"
+- "updateReminders:"
+- "updateSlicesWithEndDate:"
+- "updateSlicesWithSample:"
+- "uppercaseString"
+- "userActiveEnergyBurnedUnit"
+- "userBasalEnergyBurnedUnit"
+- "userDefaults"
+- "userDepthHKUnit"
+- "userDistanceCrossCountrySkiingHKUnit"
+- "userDistanceCyclingHKUnit"
+- "userDistanceCyclingUnit"
+- "userDistanceDownhillSnowSportsHKUnit"
+- "userDistanceElevationHKUnit"
+- "userDistanceElevationUnit"
+- "userDistanceHKUnitForActivityType:"
+- "userDistanceHKUnitForDistanceType:"
+- "userDistancePaddleSportsHKUnit"
+- "userDistanceRowingHKUnit"
+- "userDistanceSkatingSportsHKUnit"
+- "userDistanceUnitForDistanceType:"
+- "userDistanceUnitForSwimmingLapLength"
+- "userDistanceWalkingRunningHKUnit"
+- "userDistanceWalkingRunningUnit"
+- "userLapLengthHKUnit"
+- "userWakeUpDateForToday"
+- "userWaterTemperatureHKUnit"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"CBCentralManager\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"HKActivitySummary\"8^B16"
+- "v28@0:8@\"HKSPSleepStore\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v28@0:8f16@20"
+- "v32@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24"
+- "v32@0:8@\"CBCentralManager\"16@\"NSDictionary\"24"
+- "v32@0:8@\"FIPregnancyStateProvider\"16@\"HKMCPregnancyModel\"24"
+- "v32@0:8@\"HKSPSleepStore\"16@\"HKSPSleepEvent\"24"
+- "v32@0:8@\"HKSPSleepStore\"16@\"HKSPSleepSchedule\"24"
+- "v32@0:8@\"HKSPSleepStore\"16@\"HKSPSleepSettings\"24"
+- "v32@0:8@\"HKSPSleepStore\"16Q24"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@0:8Q16Q24"
+- "v32@0:8d16@24"
+- "v32@0:8d16Q24"
+- "v32@0:8q16@24"
+- "v32@?0@\"HKMCPregnancyStateQuery\"8@\"HKMCPregnancyModel\"16@\"NSError\"24"
+- "v32@?0@\"HKObserverQuery\"8@?<v@?>16@\"NSError\"24"
+- "v40@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24@\"NSError\"32"
+- "v40@0:8@\"CBCentralManager\"16q24@\"CBPeripheral\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24^q32"
+- "v40@0:8@16q24@32"
+- "v48@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24@\"NSDictionary\"32@\"NSNumber\"40"
+- "v48@0:8@16@24@32@40"
+- "v52@0:8@\"CBCentralManager\"16@\"CBPeripheral\"24d32B40@\"NSError\"44"
+- "v52@0:8@16@24d32B40@44"
+- "validateObject:withError:"
+- "validationWithName:test:"
+- "valueForBucketAtIndex:"
+- "valueForKey:"
+- "valueForProperty:"
+- "valueOfTypicalDayBriskMinutesEarnedByNow"
+- "valueOfTypicalDayMoveEarnedByNow"
+- "valueWithCompletion:"
+- "velocityMetricsForActivityType:"
+- "wakeUpAlarmDismissedDate"
+- "wattUnit"
+- "weakObjectsHashTable"
+- "wheelchairActivityTypes"
+- "wheelchairUseWithError:"
+- "whitespaceCharacterSet"
+- "willCompleteExerciseGoalWithBufferPercentage:"
+- "willCompleteMoveGoalWithBufferPercentage:"
+- "willCompleteStandGoalOrItIsTooLateWithBufferPercentage:"
+- "willCompletingMoveRingEarnStreakAchievement"
+- "workoutActivityType"
+- "workoutCount"
+- "workoutsWithDistance"
+- "workoutsWithEnergyBurned"
+- "yardUnit"
+- "year"
+- "zone"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

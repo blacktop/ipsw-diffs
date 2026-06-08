@@ -1,0 +1,717 @@
+## CloudRecommendation
+
+> `/System/Library/PrivateFrameworks/CloudRecommendation.framework/CloudRecommendation`
+
+```diff
+
+-301.23.4.2.0
+-  __TEXT.__text: 0x2b640
+-  __TEXT.__auth_stubs: 0xe60
++301.24.0.2.0
++  __TEXT.__text: 0x2acf0
+   __TEXT.__objc_methlist: 0x13f0
+-  __TEXT.__const: 0xc00
+-  __TEXT.__cstring: 0xf3f
++  __TEXT.__const: 0xc30
++  __TEXT.__cstring: 0xf5f
+   __TEXT.__oslogstring: 0x198c
+   __TEXT.__gcc_except_tab: 0xd0
+   __TEXT.__dlopen_cstrs: 0x172
+
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__swift5_proto: 0x4c
+   __TEXT.__swift5_types: 0x2c
+-  __TEXT.__swift5_capture: 0x558
++  __TEXT.__swift5_capture: 0x5a8
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0x8c
+   __TEXT.__swift_as_ret: 0x8c
+-  __TEXT.__unwind_info: 0xda0
+-  __TEXT.__eh_frame: 0x14f8
+-  __TEXT.__objc_classname: 0x41b
+-  __TEXT.__objc_methname: 0x2962
+-  __TEXT.__objc_methtype: 0x4ca
+-  __TEXT.__objc_stubs: 0x14a0
+-  __DATA_CONST.__got: 0x260
+-  __DATA_CONST.__const: 0x370
++  __TEXT.__swift_as_cont: 0x2d8
++  __TEXT.__unwind_info: 0xcc0
++  __TEXT.__eh_frame: 0x1500
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x378
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8b0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0xc0
+-  __AUTH_CONST.__auth_got: 0x740
+-  __AUTH_CONST.__const: 0xcb8
++  __DATA_CONST.__got: 0x258
++  __AUTH_CONST.__const: 0xd80
+   __AUTH_CONST.__cfstring: 0xf80
+   __AUTH_CONST.__objc_const: 0x31d0
++  __AUTH_CONST.__auth_got: 0x828
+   __AUTH.__objc_data: 0xa78
+   __AUTH.__data: 0x500
+   __DATA.__objc_ivar: 0x158
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 13BE6561-5E88-3EEA-9AA9-45925EFE8ACB
+-  Functions: 1158
+-  Symbols:   2149
+-  CStrings:  959
++  UUID: 917ED843-9307-38F5-BAF5-74FCE4E1ECE1
++  Functions: 1153
++  Symbols:   2290
++  CStrings:  411
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.6
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.126Tm
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.130Tm
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructorTm
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_CloudRecommendation
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.113
++ _block_copy_helper.117
++ _block_copy_helper.121
++ _block_copy_helper.17
++ _block_copy_helper.23
++ _block_descriptor.115
++ _block_descriptor.119
++ _block_descriptor.123
++ _block_descriptor.19
++ _block_descriptor.25
++ _block_destroy_helper.114
++ _block_destroy_helper.118
++ _block_destroy_helper.122
++ _block_destroy_helper.18
++ _block_destroy_helper.24
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutorelease
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x9
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_n
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x9
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _block_copy_helper.18
+- _block_copy_helper.24
+- _block_copy_helper.91
+- _block_copy_helper.95
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.20
+- _block_descriptor.26
+- _block_descriptor.93
+- _block_descriptor.97
+- _block_destroy_helper.100
+- _block_destroy_helper.19
+- _block_destroy_helper.25
+- _block_destroy_helper.92
+- _block_destroy_helper.96
+- _objc_autorelease
+- _objectdestroy.104Tm
+- _objectdestroy.108Tm
+- _objectdestroy.13Tm
+- _objectdestroy.3Tm
+- _objectdestroyTm
+CStrings:
+- "#"
+- "#16@0:8"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"ACAccount\""
+- "@\"CEIcon\""
+- "@\"CEImageIcon\""
+- "@\"CERecommendationInfo\""
+- "@\"CERecommendationPage\""
+- "@\"CERecommendationStringTemplate\""
+- "@\"CERuleCriteria\""
+- "@\"MBManager\""
+- "@\"NSArray\""
+- "@\"NSDictionary\""
+- "@\"NSNumber\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"NSUserDefaults\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24#32"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16@24@32@40"
+- "@72@0:8@16@24@32@40@48@56@64"
+- "@80@0:8@16@24@32@40@48@56@64@72"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BackupManagerProvider"
+- "CEAppInstallRecommendationAction"
+- "CEDataclassRecommendationAction"
+- "CEGraphicIcon"
+- "CEIcon"
+- "CEImageIcon"
+- "CENativeModalRecommendationAction"
+- "CERecommendation"
+- "CERecommendationAction"
+- "CERecommendationActionCache"
+- "CERecommendationDataController"
+- "CERecommendationInfo"
+- "CERecommendationPage"
+- "CERecommendationRule"
+- "CERecommendationSection"
+- "CERecommendationStringTemplate"
+- "CERuleConfiguration"
+- "CERuleCriteria"
+- "CERuleset"
+- "CEServerRecommendations"
+- "CESymbolIcon"
+- "CEURLRecommendationAction"
+- "INDaemonConnectionProvider"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "QuotaInfoChangeNotification"
+- "RecommendationsProvider"
+- "T#,&,N,V_detailControllerClass"
+- "T#,R"
+- "T@\"ACAccount\",&,N,V_account"
+- "T@\"CEIcon\",&,N,V_icon"
+- "T@\"CEImageIcon\",&,N,V_icon"
+- "T@\"CERecommendationInfo\",&,N,V_recommendationInfo"
+- "T@\"CERecommendationPage\",&,N,V_page"
+- "T@\"CERecommendationStringTemplate\",&,N,V_templates"
+- "T@\"CERuleCriteria\",&,N,V_criteria"
+- "T@\"MBManager\",&,N,V_backupManager"
+- "T@\"NSArray\",&,N,V_actions"
+- "T@\"NSArray\",&,N,V_context"
+- "T@\"NSArray\",&,N,V_dataclasses"
+- "T@\"NSArray\",&,N,V_recommendations"
+- "T@\"NSArray\",&,N,V_sections"
+- "T@\"NSArray\",R,N,V_context"
+- "T@\"NSArray\",R,N,V_recommendationRules"
+- "T@\"NSArray\",R,N,V_ruleset"
+- "T@\"NSDictionary\",&,N,V_actionTitleTemplates"
+- "T@\"NSDictionary\",&,N,V_messageTemplates"
+- "T@\"NSDictionary\",&,N,V_subTitleTemplates"
+- "T@\"NSDictionary\",&,N,V_subtitleTemplates"
+- "T@\"NSDictionary\",&,N,V_thresholds"
+- "T@\"NSDictionary\",&,N,V_titleTemplates"
+- "T@\"NSNumber\",&,N,V_lastCompletedTimeStamp"
+- "T@\"NSNumber\",&,N,V_max"
+- "T@\"NSNumber\",&,N,V_maxRecommendations"
+- "T@\"NSNumber\",&,N,V_maxRecommendationsToShow"
+- "T@\"NSNumber\",&,N,V_min"
+- "T@\"NSNumber\",&,N,V_storageRecoverable"
+- "T@\"NSNumber\",&,N,V_totalStorage"
+- "T@\"NSNumber\",&,N,V_usedStorage"
+- "T@\"NSNumber\",C,N,V_rankingHint"
+- "T@\"NSString\",&,N,V_type"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_actionIdentifier"
+- "T@\"NSString\",C,N,V_actionTitle"
+- "T@\"NSString\",C,N,V_actionType"
+- "T@\"NSString\",C,N,V_appStoreID"
+- "T@\"NSString\",C,N,V_backgroundSystemColorName"
+- "T@\"NSString\",C,N,V_backupDeviceUUID"
+- "T@\"NSString\",C,N,V_bundleID"
+- "T@\"NSString\",C,N,V_category"
+- "T@\"NSString\",C,N,V_foregroundSystemColorName"
+- "T@\"NSString\",C,N,V_identifier"
+- "T@\"NSString\",C,N,V_message"
+- "T@\"NSString\",C,N,V_messageHint"
+- "T@\"NSString\",C,N,V_path"
+- "T@\"NSString\",C,N,V_recommendationID"
+- "T@\"NSString\",C,N,V_recommendationSpecifierSubtitle"
+- "T@\"NSString\",C,N,V_recommendationSpecifierTitle"
+- "T@\"NSString\",C,N,V_sectionFooter"
+- "T@\"NSString\",C,N,V_sectionHeader"
+- "T@\"NSString\",C,N,V_sectionID"
+- "T@\"NSString\",C,N,V_status"
+- "T@\"NSString\",C,N,V_subTitle"
+- "T@\"NSString\",C,N,V_systemColorName"
+- "T@\"NSString\",C,N,V_title"
+- "T@\"NSString\",C,N,V_titleHint"
+- "T@\"NSString\",C,N,V_userType"
+- "T@\"NSString\",R,C"
+- "T@\"NSURL\",&,N,V_URL1x"
+- "T@\"NSURL\",&,N,V_URL2x"
+- "T@\"NSURL\",&,N,V_URL3x"
+- "T@\"NSURL\",&,N,V_actionURL"
+- "T@\"NSURL\",&,N,V_completedRecommendationsURL"
+- "T@\"NSURL\",&,N,V_completedURL"
+- "T@\"NSURL\",&,N,V_dismissURL"
+- "T@\"NSURL\",&,N,V_displayURL"
+- "T@\"NSURL\",&,N,V_serverRecommendationsURL"
+- "T@\"NSURL\",&,N,V_serverRulesURL"
+- "T@\"NSUserDefaults\",&,N,V_defaults"
+- "T@\"_TtC19CloudRecommendation22RecommendationsFetcher\",N,R"
+- "TB,N,V_completed"
+- "TB,N,V_ignoreClientRank"
+- "TB,N,V_ignoreClientSectionRank"
+- "TB,N,V_isiCloudPlusSubscriber"
+- "TB,R"
+- "TQ,R"
+- "URL1x"
+- "URL2x"
+- "URL3x"
+- "URLWithString:"
+- "URLsForDirectory:inDomains:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC19CloudRecommendation22RecommendationsFetcher"
+- "_TtC19CloudRecommendation26ClientRecommendationsCache"
+- "_TtC19CloudRecommendation27RecommendationsPluginLoader"
+- "_TtC19CloudRecommendation31ClientRecommendationsRepository"
+- "_TtC19CloudRecommendationP33_AFF0F38A07FEA7D3E0443E6C0DD7FA6B11DataFetcher"
+- "_TtC19CloudRecommendationP33_AFF0F38A07FEA7D3E0443E6C0DD7FA6B12DataFetchers"
+- "_URL1x"
+- "_URL2x"
+- "_URL3x"
+- "_account"
+- "_actionIdentifier"
+- "_actionTitle"
+- "_actionTitleTemplates"
+- "_actionType"
+- "_actionURL"
+- "_actions"
+- "_appStoreID"
+- "_backgroundSystemColorName"
+- "_backupDeviceUUID"
+- "_backupManager"
+- "_bundleID"
+- "_category"
+- "_clearAction:tableName:"
+- "_completed"
+- "_completedRecommendationsURL"
+- "_completedURL"
+- "_context"
+- "_criteria"
+- "_dataclasses"
+- "_defaults"
+- "_detailControllerClass"
+- "_dismissURL"
+- "_displayURL"
+- "_foregroundSystemColorName"
+- "_icon"
+- "_identifier"
+- "_ignoreClientRank"
+- "_ignoreClientSectionRank"
+- "_isiCloudPlusSubscriber"
+- "_lastCompletedTimeStamp"
+- "_lock"
+- "_max"
+- "_maxRecommendations"
+- "_maxRecommendationsToShow"
+- "_message"
+- "_messageHint"
+- "_messageTemplates"
+- "_min"
+- "_page"
+- "_path"
+- "_rankingHint"
+- "_recommendationID"
+- "_recommendationInfo"
+- "_recommendationRules"
+- "_recommendationSpecifierSubtitle"
+- "_recommendationSpecifierTitle"
+- "_recommendations"
+- "_ruleset"
+- "_sectionFooter"
+- "_sectionHeader"
+- "_sectionID"
+- "_sections"
+- "_serverRecommendationsURL"
+- "_serverRulesURL"
+- "_status"
+- "_storageRecoverable"
+- "_subTitle"
+- "_subTitleTemplates"
+- "_subtitleTemplates"
+- "_systemColorName"
+- "_templates"
+- "_thresholds"
+- "_timestamp:tableName:"
+- "_title"
+- "_titleHint"
+- "_titleTemplates"
+- "_totalStorage"
+- "_trackAction:tableName:"
+- "_type"
+- "_usedStorage"
+- "_userType"
+- "aa_altDSID"
+- "aa_isAccountClass:"
+- "aa_isManagedAppleID"
+- "aa_personID"
+- "account"
+- "accountStore"
+- "actionTitleTemplateForKey:"
+- "actionTitleTemplates"
+- "addObject:"
+- "allocWithZone:"
+- "arrayWithObjects:count:"
+- "autorelease"
+- "backupDeviceUDID"
+- "backupDeviceUUID"
+- "backupManager"
+- "boolValue"
+- "cache"
+- "cacheLock"
+- "cachedClientRecommendations"
+- "cachedCompletedRecommendations"
+- "cachedRecommendations"
+- "cachedRuleset"
+- "calculateExtraQuotaNeededToSyncIsAccountFull:completion:"
+- "class"
+- "clearLastDismissed:"
+- "code"
+- "completedRecommendationsURL"
+- "conformsToProtocol:"
+- "controller"
+- "copy"
+- "copyWithZone:"
+- "daemonWithErrorHandler:"
+- "dataFetchers"
+- "date"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultCenter"
+- "defaultManager"
+- "defaultStore"
+- "defaultThresholdDictionary"
+- "defaults"
+- "description"
+- "detailControllerClass"
+- "dictionaryForKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "domain"
+- "encodeBool:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enumerateObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "fetchClientRecommendationsAsyncFor:shouldIgnoreCache:completionHandler:"
+- "fetchClientRecommendationsFor:shouldIgnoreCache:completion:"
+- "fetchCloudStorageInfo:completion:"
+- "fetchCompletedAndDismissedRecommendationsForAltDSID:configuration:completion:"
+- "fetchCompletedAndDismissedRecommendationsForAltDSID:recommendationInfo:completion:"
+- "fetchCompletedRecommendations:completion:"
+- "fetchCompletedRecommendations:recommendationInfo:completion:"
+- "fetchCompletedRecommendationsFor:shouldIgnoreCache:completion:"
+- "fetchCompletedRecommendationsFor:shouldIgnoreCache:completionHandler:"
+- "fetchRecommendationsForAltDSID:completion:"
+- "fetchRecommendationsForAltDSID:recommendationInfo:completion:"
+- "fetchRecommendationsRulesetForAltDSID:completion:"
+- "fetchRecommendationsRulesetForAltDSID:recommendationInfo:completion:"
+- "fetchRecommendationsRulesetWithCompletion:"
+- "fetchRecommendationsRulesetWithInfo:completion:"
+- "fetchRecommendationsWithCompletion:"
+- "fetchRecommendationsWithInfo:completion:"
+- "fetchRulesFor:shouldIgnoreCache:completionHandler:"
+- "fetchRulesetsAsyncFor:shouldIgnoreCache:completionHandler:"
+- "fetchRulesetsFor:shouldIgnoreCache:completion:"
+- "fetchServerRecommendationsAsyncFor:shouldIgnoreCache:completionHandler:"
+- "fetchServerRecommendationsFor:shouldIgnoreCache:completion:"
+- "fetchStorageSummary:"
+- "fetchStorageSummaryWithCompletion:"
+- "fetchers"
+- "flushCache"
+- "hash"
+- "iCloudStorageController"
+- "iCloudStorageSummary"
+- "ignoreClientCache"
+- "init"
+- "initWithAccount:"
+- "initWithAccount:delegate:eventQueue:error:"
+- "initWithCoder:"
+- "initWithDictionary:"
+- "initWithDomain:code:userInfo:"
+- "initWithIdentifier:actionTitle:actionType:"
+- "initWithIdentifier:actionType:title:actionURL:"
+- "initWithIdentifier:title:appIdentifier:"
+- "initWithIdentifier:title:dataclasses:"
+- "initWithIdentifier:title:detailControllerClass:"
+- "initWithIdentifier:title:message:bundleID:storageRecoverable:category:actions:"
+- "initWithIdentifier:title:subtitle:message:bundleID:storageRecoverable:category:actions:"
+- "initWithStorageSummary:"
+- "initWithSuiteName:"
+- "initWithURL:"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isiCloudPlusSubscriber"
+- "lastDismissedTimestamp:"
+- "localizedDescription"
+- "messageTemplateForKey:"
+- "messageTemplates"
+- "mutableCopy"
+- "notificationCenter"
+- "objectForKeyedSubscript:"
+- "parseActions:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pluginsLoader"
+- "principalClass"
+- "quotaDidChangeNotificationObserver"
+- "recommendationInfo"
+- "recommendationSpecifierSubtitle"
+- "recommendationSpecifierTitle"
+- "recommendationsForThresholds:afterTimestamp:completion:"
+- "refreshCacheFor:"
+- "refreshCacheFor:completion:"
+- "release"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "renewCredentialsWithCompletion:"
+- "repository"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "sendRecommendationStatus:configuration:recommendationIdentifiers:storageRecovered:context:completion:"
+- "sendStatusForRecommendationsWithAltDSID:configuration:params:completion:"
+- "sendStatusForRecommendationsWithAltDSID:configuration:status:recommendationIdentifiers:storageRecovered:completion:"
+- "serialQueue"
+- "serverRecommendationsURL"
+- "serverRulesURL"
+- "setAccount:"
+- "setActionIdentifier:"
+- "setActionTitle:"
+- "setActionTitleTemplates:"
+- "setActionType:"
+- "setActionURL:"
+- "setActions:"
+- "setAppStoreID:"
+- "setBackgroundSystemColorName:"
+- "setBackupDeviceUUID:"
+- "setBackupManager:"
+- "setBundleID:"
+- "setCategory:"
+- "setCompleted:"
+- "setCompletedRecommendationsURL:"
+- "setCompletedURL:"
+- "setContext:"
+- "setCriteria:"
+- "setDataclasses:"
+- "setDefaults:"
+- "setDetailControllerClass:"
+- "setDismissURL:"
+- "setDisplayURL:"
+- "setForegroundSystemColorName:"
+- "setIcon:"
+- "setIdentifier:"
+- "setIgnoreClientRank:"
+- "setIgnoreClientSectionRank:"
+- "setIsiCloudPlusSubscriber:"
+- "setLastCompletedTimeStamp:"
+- "setMax:"
+- "setMaxRecommendations:"
+- "setMaxRecommendationsToShow:"
+- "setMessage:"
+- "setMessageHint:"
+- "setMessageTemplates:"
+- "setMin:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setPage:"
+- "setPath:"
+- "setRankingHint:"
+- "setRecommendationID:"
+- "setRecommendationInfo:"
+- "setRecommendationSpecifierSubtitle:"
+- "setRecommendationSpecifierTitle:"
+- "setRecommendations:"
+- "setSectionFooter:"
+- "setSectionHeader:"
+- "setSectionID:"
+- "setSections:"
+- "setServerRecommendationsURL:"
+- "setServerRulesURL:"
+- "setStatus:"
+- "setStorageRecoverable:"
+- "setSubTitle:"
+- "setSubTitleTemplates:"
+- "setSubtitleTemplates:"
+- "setSystemColorName:"
+- "setTemplates:"
+- "setThresholds:"
+- "setTitle:"
+- "setTitleHint:"
+- "setTitleTemplates:"
+- "setTotalStorage:"
+- "setType:"
+- "setURL1x:"
+- "setURL2x:"
+- "setURL3x:"
+- "setUsedStorage:"
+- "setUserType:"
+- "setWithArray:"
+- "shared"
+- "shouldUseISIcon"
+- "sortRecommendationRulesUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sourcesDirectoryName"
+- "stringByAppendingFormat:"
+- "stringWithFormat:"
+- "subTitle"
+- "subTitleTemplateForKey:"
+- "subTitleTemplates"
+- "subscriptionInfo"
+- "superclass"
+- "supportsSecureCoding"
+- "synchronousDaemonWithErrorHandler:"
+- "taskLimiters"
+- "thresholdForKey:"
+- "timeoutInSeconds"
+- "timestampForLastCanceled:"
+- "timestampForLastCompleted:"
+- "titleTemplateForKey:"
+- "titleTemplates"
+- "topLevelDirectoryName"
+- "totalStorage"
+- "trackActionCanceledForRecommendation:"
+- "trackActionCompletedForRecommendation:"
+- "trackActionDismissedForRecommendation:"
+- "usedStorage"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8#16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v28@0:8B16@?20"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"ACAccount\"16B24@?<v@?@\"CERuleConfiguration\">28"
+- "v36@0:8@\"ACAccount\"16B24@?<v@?@\"NSArray\">28"
+- "v36@0:8@\"ACAccount\"16B24@?<v@?@\"NSDictionary\">28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSDictionary\"16@\"NSNumber\"24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v64@0:8@16@24@32@40@48@?56"
+- "valueForKey:"
+- "zone"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

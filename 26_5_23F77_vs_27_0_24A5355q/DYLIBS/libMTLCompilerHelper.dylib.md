@@ -1,0 +1,98 @@
+## libMTLCompilerHelper.dylib
+
+> `/System/Library/PrivateFrameworks/MTLCompiler.framework/libMTLCompilerHelper.dylib`
+
+```diff
+
+-373.2.0.0.0
+-  __TEXT.__text: 0x1468
+-  __TEXT.__auth_stubs: 0x1c0
+-  __TEXT.__gcc_except_tab: 0xdc
++381.0.0.0.0
++  __TEXT.__text: 0x14bc
++  __TEXT.__gcc_except_tab: 0xd0
+   __TEXT.__cstring: 0x28
+-  __TEXT.__const: 0x73
+-  __TEXT.__unwind_info: 0x118
+-  __DATA_CONST.__got: 0x30
+-  __AUTH_CONST.__auth_got: 0xe8
+-  __AUTH_CONST.__const: 0xa8
++  __TEXT.__const: 0x54
++  __TEXT.__unwind_info: 0x120
++  __TEXT.__auth_stubs: 0x0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xc8
++  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x10
+-  - /usr/lib/libLLVM.dylib
++  - /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libLLVM.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: D9F18B72-1C45-3B42-9C3E-50202E87AA7A
+-  Functions: 38
+-  Symbols:   134
++  UUID: 111F3DAD-6850-3E14-82B3-1824B1BB711E
++  Functions: 40
++  Symbols:   138
+   CStrings:  3
+ 
+Symbols:
++ GCC_except_table13
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFvRN4llvm6ModuleERKNS2_9StringSetINS2_15MallocAllocatorEEEEED2B9fqe220100Ev
++ __ZNSt3__110unique_ptrIN4llvm6ModuleENS_14default_deleteIS2_EEED1B9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9fqe220100EPS6_
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPN4llvm6ModuleEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ __ZTISt11logic_error
++ __ZTISt9bad_alloc
++ __ZTISt9exception
++ __ZTSSt11logic_error
++ __ZTSSt12length_error
++ __ZTSSt20bad_array_new_length
++ __ZTSSt9bad_alloc
++ __ZTSSt9exception
+- GCC_except_table15
+- __ZNK4llvm9StringRef3strEv
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFvRN4llvm6ModuleERKNS2_9StringSetINS2_15MallocAllocatorEEEEED2B9nqe210106Ev
+- __ZNSt3__110unique_ptrIN4llvm6ModuleENS_14default_deleteIS2_EEED1B9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPN4llvm6ModuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZTI17MTLCompilerHelper
+- __ZTI26MTLCompilerHelperInterface
+- __ZTI28MTLCompilerBuiltInFileReader
+- __ZTI32MTLCompilerBuiltInFileReaderImpl
+- __ZTS17MTLCompilerHelper
+- __ZTS26MTLCompilerHelperInterface
+- __ZTS28MTLCompilerBuiltInFileReader
+- __ZTS32MTLCompilerBuiltInFileReaderImpl
+Functions:
+~ __ZN32MTLCompilerBuiltInFileReaderImpl17getBuiltinsModuleERN4llvm11LLVMContextERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEE : 820 -> 748
+- __ZNK4llvm9StringRef3strEv
+~ __ZN32MTLCompilerBuiltInFileReaderImpl32getBuiltinsModuleForSourceModuleERN4llvm6ModuleE : 556 -> 376
+~ __ZN32MTLCompilerBuiltInFileReaderImpl4openEPKc : 680 -> 592
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
+
+```

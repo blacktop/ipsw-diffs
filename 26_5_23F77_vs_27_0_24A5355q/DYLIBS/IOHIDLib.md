@@ -1,0 +1,697 @@
+## IOHIDLib
+
+> `/System/Library/Extensions/IOHIDFamily.kext/PlugIns/IOHIDLib.plugin/IOHIDLib`
+
+```diff
+
+-2238.120.5.0.0
+-  __TEXT.__text: 0xe438
+-  __TEXT.__auth_stubs: 0x950
+-  __TEXT.__objc_methlist: 0x7d8
+-  __TEXT.__const: 0xa8
+-  __TEXT.__oslogstring: 0xa0f
+-  __TEXT.__cstring: 0xb25
+-  __TEXT.__gcc_except_tab: 0x314
+-  __TEXT.__dof_iohidfami: 0x28d
+-  __TEXT.__unwind_info: 0x450
+-  __TEXT.__objc_classname: 0xca
+-  __TEXT.__objc_methname: 0x1204
+-  __TEXT.__objc_methtype: 0xbdd
+-  __TEXT.__objc_stubs: 0x13c0
+-  __DATA_CONST.__got: 0x108
+-  __DATA_CONST.__const: 0xe0
+-  __DATA_CONST.__objc_classlist: 0x50
++2353.0.0.0.1
++  __TEXT.__text: 0x5184
++  __TEXT.__objc_methlist: 0x110
++  __TEXT.__gcc_except_tab: 0x60
++  __TEXT.__oslogstring: 0x6c4
++  __TEXT.__const: 0x98
++  __TEXT.__cstring: 0x788
++  __TEXT.__unwind_info: 0x180
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x50
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x548
+-  __DATA_CONST.__objc_superrefs: 0x50
+-  __AUTH_CONST.__auth_got: 0x4c0
+-  __AUTH_CONST.__const: 0xb8
+-  __AUTH_CONST.__cfstring: 0x1160
+-  __AUTH_CONST.__objc_const: 0x1240
++  __DATA_CONST.__objc_selrefs: 0x208
++  __DATA_CONST.__objc_superrefs: 0x8
++  __DATA_CONST.__got: 0xa8
++  __AUTH_CONST.__const: 0x98
++  __AUTH_CONST.__cfstring: 0xbe0
++  __AUTH_CONST.__objc_const: 0x2d8
++  __AUTH_CONST.__weak_auth_got: 0x10
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH.__objc_data: 0x190
+-  __AUTH.__data: 0x98
+-  __DATA.__objc_ivar: 0x154
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x88
++  __DATA.__objc_ivar: 0x48
+   __DATA.__common: 0x4
+-  __DATA.__bss: 0x18
+-  __DATA_DIRTY.__objc_data: 0x190
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1EBC4D8A-43DB-37DC-9A3A-EF5FE7C03FE0
+-  Functions: 370
+-  Symbols:   337
+-  CStrings:  722
++  UUID: 3F0386E5-BD32-3A21-B3BD-EF87CA449806
++  Functions: 97
++  Symbols:   172
++  CStrings:  239
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x23
++ _objc_retain_x8
+- OBJC_IVAR_$_HIDLibElement._defaultValue
+- OBJC_IVAR_$_HIDLibElement._element
+- OBJC_IVAR_$_HIDLibElement._elementStruct
+- OBJC_IVAR_$_HIDLibElement._isConstant
+- OBJC_IVAR_$_HIDLibElement._isUpdated
+- OBJC_IVAR_$_HIDLibElement._psKey
+- OBJC_IVAR_$_IOHIDDeviceClass._callbackLock
+- OBJC_IVAR_$_IOHIDDeviceClass._connect
+- OBJC_IVAR_$_IOHIDDeviceClass._device
+- OBJC_IVAR_$_IOHIDDeviceClass._deviceLock
+- OBJC_IVAR_$_IOHIDDeviceClass._elements
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportBuffer
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportBufferLength
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportCallback
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportContext
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportTimestampCallback
+- OBJC_IVAR_$_IOHIDDeviceClass._machPort
+- OBJC_IVAR_$_IOHIDDeviceClass._opened
+- OBJC_IVAR_$_IOHIDDeviceClass._pendingCallbacks
+- OBJC_IVAR_$_IOHIDDeviceClass._port
+- OBJC_IVAR_$_IOHIDDeviceClass._properties
+- OBJC_IVAR_$_IOHIDDeviceClass._protectedEvent
+- OBJC_IVAR_$_IOHIDDeviceClass._queue
+- OBJC_IVAR_$_IOHIDDeviceClass._reportElements
+- OBJC_IVAR_$_IOHIDDeviceClass._runLoopSource
+- OBJC_IVAR_$_IOHIDDeviceClass._service
+- OBJC_IVAR_$_IOHIDDeviceClass._sortedElements
+- OBJC_IVAR_$_IOHIDDeviceClass._tccGranted
+- OBJC_IVAR_$_IOHIDDeviceClass._tccRequested
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._interface
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._notification
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._notifyPort
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalCallback
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalRefcon
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalTarget
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallback
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallbackRefcon
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallbackTarget
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallback
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallbackRefcon
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallbackTarget
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._interface
+- OBJC_IVAR_$_IOHIDOutputTransactionClass._outputInterface
+- OBJC_IVAR_$_IOHIDQueueClass._depth
+- OBJC_IVAR_$_IOHIDQueueClass._device
+- OBJC_IVAR_$_IOHIDQueueClass._lastTail
+- OBJC_IVAR_$_IOHIDQueueClass._machPort
+- OBJC_IVAR_$_IOHIDQueueClass._port
+- OBJC_IVAR_$_IOHIDQueueClass._queue
+- OBJC_IVAR_$_IOHIDQueueClass._queueHeader
+- OBJC_IVAR_$_IOHIDQueueClass._queueLock
+- OBJC_IVAR_$_IOHIDQueueClass._queueMemory
+- OBJC_IVAR_$_IOHIDQueueClass._queueMemorySize
+- OBJC_IVAR_$_IOHIDQueueClass._queueSizeChanged
+- OBJC_IVAR_$_IOHIDQueueClass._queueToken
+- OBJC_IVAR_$_IOHIDQueueClass._runLoopSource
+- OBJC_IVAR_$_IOHIDQueueClass._usageAnalytics
+- OBJC_IVAR_$_IOHIDQueueClass._valueAvailableCallback
+- OBJC_IVAR_$_IOHIDQueueClass._valueAvailableContext
+- OBJC_IVAR_$_IOHIDTransactionClass._callbackLock
+- OBJC_IVAR_$_IOHIDTransactionClass._device
+- OBJC_IVAR_$_IOHIDTransactionClass._direction
+- OBJC_IVAR_$_IOHIDTransactionClass._elements
+- OBJC_IVAR_$_IOHIDTransactionClass._interface
+- OBJC_IVAR_$_IOHIDTransactionClass._pendingCallbacks
+- _CFDataCreateMutable
+- _CFGetRetainCount
+- _CFMachPortCreateRunLoopSource
+- _CFMachPortCreateWithPort
+- _CFMachPortInvalidate
+- _CFNumberCreate
+- _CFPropertyListCreateDeepCopy
+- _CFStringCreateWithCString
+- _GP_SIGNAL_WAIT_TIME_S
+- _IOConnectCallAsyncMethod
+- _IOConnectCallAsyncScalarMethod
+- _IODataQueueAllocateNotificationPort
+- _IODataQueueDequeue
+- _IODataQueuePeek
+- _IODispatchCalloutFromMessage
+- _IOHIDAnalyticsEventActivate
+- _IOHIDAnalyticsEventCancel
+- _IOHIDAnalyticsGetConsoleModeStatus
+- _IOHIDAnalyticsHistogramEventCreate
+- _IOHIDAnalyticsHistogramEventSetIntegerValue
+- _IOHIDElementGetCollectionType
+- _IOHIDElementGetCookie
+- _IOHIDElementGetReportID
+- _IOHIDElementGetType
+- _IOHIDElementGetUnit
+- _IOHIDElementGetUnitExponent
+- _IOHIDElementGetUsage
+- _IOHIDElementGetUsagePage
+- _IOHIDValueCreateWithBytes
+- _IOHIDValueCreateWithIntegerValue
+- _IOHIDValueGetBytePtr
+- _IOHIDValueGetIntegerValue
+- _IOHIDValueGetLength
+- _IOHIDValueGetTimeStamp
+- _IONotificationPortCreate
+- _IONotificationPortDestroy
+- _IONotificationPortSetDispatchQueue
+- _IOObjectGetClass
+- _IORegistryEntryGetRegistryEntryID
+- _IORegistryEntrySearchCFProperty
+- _IOServiceAddInterestNotification
+- _NSClassFromString
+- _OBJC_CLASS_$_IOHIDIUnknown2
+- _OBJC_CLASS_$_IOHIDObsoleteQueueClass
+- _OBJC_CLASS_$_IOHIDOutputTransactionClass
+- _OBJC_CLASS_$_IOHIDQueueClass
+- _OBJC_CLASS_$_IOHIDTransactionClass
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSComparisonPredicate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSExpression
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSValue
+- _OBJC_EHTYPE_$_NSException
+- _OBJC_METACLASS_$_HIDLibElement
+- _OBJC_METACLASS_$_IOHIDDeviceClass
+- _OBJC_METACLASS_$_IOHIDIUnknown2
+- _OBJC_METACLASS_$_IOHIDObsoleteDeviceClass
+- _OBJC_METACLASS_$_IOHIDObsoleteQueueClass
+- _OBJC_METACLASS_$_IOHIDOutputTransactionClass
+- _OBJC_METACLASS_$_IOHIDQueueClass
+- _OBJC_METACLASS_$_IOHIDTransactionClass
+- __IOHIDElementCreateWithParentAndData
+- __IOHIDElementGetLength
+- __IOHIDElementGetValue
+- __IOHIDElementSetDeviceInterface
+- __IOHIDElementSetValue
+- __IOHIDValueCopyToElementValueHeader
+- __IOHIDValueCreateWithElementValuePtr
+- __IOHIDValueCreateWithStruct
+- __IOHIDValueGetFlags
+- __NSConcreteGlobalBlock
+- ___objc_personality_v0
+- __dispatch_main_q
+- _dispatch_once
+- _dlopen
+- _dlsym
+- _kIOMainPortDefault
+- _mach_absolute_time
+- _mach_port_mod_refs
+- _malloc_type_calloc
+- _memmove
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_begin_catch
+- _objc_copyStruct
+- _objc_destroyWeak
+- _objc_end_catch
+- _objc_getProperty
+- _objc_loadWeakRetained
+- _objc_release_x1
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x22
+- _objc_retain_x26
+- _objc_retain_x28
+- _objc_setProperty_atomic_copy
+- _objc_storeWeak
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_unfair_recursive_lock_lock_with_options
+- _os_unfair_recursive_lock_unlock
+- _sel_getUid
+CStrings:
+- "!"
+- "*"
+- ".cxx_destruct"
+- "/System/Library/PrivateFrameworks/GamePolicy.framework/GamePolicy"
+- "/usr/lib/libRosetta.dylib"
+- "@\"IOHIDDeviceClass\""
+- "@\"IOHIDQueueClass\""
+- "@\"NSDictionary\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSString\""
+- "@\"NSTimer\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8^{__IOHIDElement=}16"
+- "@32@0:8@16@24"
+- "@36@0:8@16I24^{__CFRunLoopSource=}28"
+- "@36@0:8^{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII}16^{__IOHIDElement=}24I32"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "Built-In"
+- "C16@0:8"
+- "CollectionCookie"
+- "Device is seized, reports will be dropped until the seizing client closes\n"
+- "DeviceUsagePairs"
+- "DuplicateIndex"
+- "ElementCookie"
+- "ElementCookieMax"
+- "ElementCookieMin"
+- "Failed to create IOHIDQueue plugin result: 0x%x\n"
+- "Failed to create queue\n"
+- "GPProcessMonitor"
+- "HIDLibElement"
+- "HasNullState"
+- "HasPreferredState"
+- "I"
+- "I16@0:8"
+- "IOClass"
+- "IOConnectCallMethod(kIOHIDLibUserClientGetElements):%x\n"
+- "IOConnectCallMethod(kIOHIDLibUserClientOpen):%x\n"
+- "IOConnectCallScalarMethod(kIOHIDLibUserClientGetElementCount):%x\n"
+- "IOGeneralInterest"
+- "IOHIDDeviceClass"
+- "IOHIDDeviceClass failed to retain service object with err %x\n"
+- "IOHIDDeviceForceInterfaceRematch"
+- "IOHIDDeviceSuspend"
+- "IOHIDIUnknown2"
+- "IOHIDObsoleteDeviceClass"
+- "IOHIDObsoleteQueueClass"
+- "IOHIDOutputTransactionClass"
+- "IOHIDPlugin"
+- "IOHIDQueueClass"
+- "IOHIDTransactionClass"
+- "IOHIDUPSClass"
+- "IOService"
+- "IOServiceOpen failed: 0x%x\n"
+- "IsArray"
+- "IsNonLinear"
+- "IsRelative"
+- "IsWrapping"
+- "Max"
+- "MaxReportBufferCount"
+- "Min"
+- "Q"
+- "Q16@0:8"
+- "ReportBufferEntrySize"
+- "ReportCount"
+- "ReportID"
+- "ReportSize"
+- "ScaledMax"
+- "ScaledMin"
+- "Size"
+- "T@\"NSData\",&"
+- "T@\"NSString\",C,V_psKey"
+- "TB,V_isConstant"
+- "TB,V_isUpdated"
+- "TC,R"
+- "TI,R"
+- "TI,R,V_connect"
+- "TI,R,V_port"
+- "TI,R,V_service"
+- "TQ,R"
+- "T^{__CFRunLoopSource=},R,V_runLoopSource"
+- "T^{__IOHIDElement=},V_element"
+- "T^{__IOHIDValue=}"
+- "T^{__IOHIDValue=},V_defaultValue"
+- "Ti,R"
+- "TimeSyncEnabled"
+- "Tq"
+- "Tq,R"
+- "Type"
+- "T{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII},R,V_elementStruct"
+- "Unable to copy back value for element, unexpected cookie(%ld) expected:%d\n"
+- "Unable to copy back value for element, unexpected size(%d)\n"
+- "Unable to create queue analytics\n"
+- "UniqueID"
+- "Unit"
+- "UnitExponent"
+- "Unsupported matching criteria: %@ %@\n"
+- "Usage"
+- "UsageMax"
+- "UsageMin"
+- "UsagePage"
+- "UsagePercent"
+- "^?"
+- "^^{IOHIDDeviceQueueInterface}"
+- "^^{IOHIDDeviceTimeStampedDeviceInterface}"
+- "^^{IOHIDDeviceTransactionInterface}"
+- "^^{IOHIDOutputTransactionInterface}16@0:8"
+- "^^{IOHIDQueueInterface}16@0:8"
+- "^v"
+- "^{IOCFPlugInInterfaceStruct=^v^?^?^?SS^?^?^?}"
+- "^{IOHIDDeviceInterface122=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceQueueInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceTimeStampedDeviceInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceTransactionInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDOutputTransactionInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDQueueInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IONotificationPort=}"
+- "^{IOUPSPlugInInterface_v140=^v^?^?^?^?^?^?^?^?^?}"
+- "^{IUnknownVTbl=^v^?^?^?}"
+- "^{_IODataQueueMemory=III[1{_IODataQueueEntry=I[4C]}]}"
+- "^{_IOHIDQueueHeader=AQ}"
+- "^{__CFMachPort=}"
+- "^{__CFRunLoopSource=}"
+- "^{__CFRunLoopSource=}16@0:8"
+- "^{__IOHIDElement=}"
+- "^{__IOHIDElement=}16@0:8"
+- "^{__IOHIDElement=}20@0:8I16"
+- "^{__IOHIDValue=}"
+- "^{__IOHIDValue=}16@0:8"
+- "_callbackLock"
+- "_capabilities"
+- "_commandElements"
+- "_connect"
+- "_debugInformation"
+- "_defaultValue"
+- "_depth"
+- "_device"
+- "_deviceLock"
+- "_direction"
+- "_element"
+- "_elementStruct"
+- "_elements"
+- "_eventCallback"
+- "_eventCallbackRefcon"
+- "_eventCallbackTarget"
+- "_eventElements"
+- "_eventRefcon"
+- "_eventTarget"
+- "_inputReportBuffer"
+- "_inputReportBufferLength"
+- "_inputReportCallback"
+- "_inputReportContext"
+- "_inputReportTimestampCallback"
+- "_interface"
+- "_isConstant"
+- "_isUpdated"
+- "_lastTail"
+- "_machPort"
+- "_notification"
+- "_notifyPort"
+- "_opened"
+- "_outputInterface"
+- "_pendingCallbacks"
+- "_plugin"
+- "_port"
+- "_powerFeaturePollInterval"
+- "_properties"
+- "_protectedEvent"
+- "_psKey"
+- "_queue"
+- "_queueHeader"
+- "_queueLock"
+- "_queueMemory"
+- "_queueMemorySize"
+- "_queueSizeChanged"
+- "_queueToken"
+- "_removalCallback"
+- "_removalRefcon"
+- "_removalTarget"
+- "_reportCallback"
+- "_reportCallbackRefcon"
+- "_reportCallbackTarget"
+- "_reportElements"
+- "_runLoopSource"
+- "_service"
+- "_sortedElements"
+- "_tccGranted"
+- "_tccRequested"
+- "_timer"
+- "_transaction"
+- "_ups"
+- "_upsEvent"
+- "_upsUpdatedEvent"
+- "_usageAnalytics"
+- "_valueAvailableCallback"
+- "_valueAvailableContext"
+- "_vtbl"
+- "addElement:"
+- "addEntriesFromDictionary:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allocOutputTransaction"
+- "allocQueue"
+- "arrayWithArray:"
+- "boolValue"
+- "bytes"
+- "clear"
+- "close:"
+- "collectionCookie"
+- "collectionType"
+- "com.apple.hid.queueUsage"
+- "commit:timeout:callback:options:"
+- "connect"
+- "containsElement:pValue:"
+- "containsElement:value:"
+- "containsObject:"
+- "copy"
+- "copyElements:psKey:"
+- "copyMatchingElements:element:"
+- "copyMatchingElements:elements:options:"
+- "copyNextValue:"
+- "copyObsoleteDictionary:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createAsyncEventSource:"
+- "d"
+- "dataValue"
+- "dataWithBytes:length:"
+- "date"
+- "dealloc"
+- "defaultValueRef"
+- "description"
+- "device"
+- "deviceQueue"
+- "dictionaryWithObjects:forKeys:count:"
+- "doubleValue"
+- "element: %p type: %d uP: 0x%02x u: 0x%02x cookie: %d val: %ld"
+- "elementCookie"
+- "elementRef"
+- "elementStruct"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "expressionForConstantValue:"
+- "expressionForKeyPath:"
+- "filterUsingPredicate:"
+- "getAsyncEventSource:"
+- "getCapabilities:"
+- "getDepth:"
+- "getDirection:"
+- "getElement:"
+- "getElementValue:value:options:"
+- "getEvent:"
+- "getNextEvent:"
+- "getPort"
+- "getProperties:"
+- "getProperty:property:"
+- "getReport:reportID:report:reportLength:timeout:callback:context:options:"
+- "getValue(%#llx):%#x\n"
+- "getValue:value:options:"
+- "getValue:value:timeout:callback:context:options:"
+- "i16@0:8"
+- "i20@0:8I16"
+- "i24@0:8@16"
+- "i24@0:8^I16"
+- "i24@0:8^^{__IOHIDValue}16"
+- "i24@0:8^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}16"
+- "i24@0:8^{__IOHIDElement=}16"
+- "i24@0:8r^^v16"
+- "i24@0:8r^^{__CFDictionary}16"
+- "i24@0:8r^^{__CFSet}16"
+- "i28@0:8@16I24"
+- "i28@0:8I16^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}20"
+- "i32@0:8@16@24"
+- "i32@0:8@16r^^v24"
+- "i32@0:8I16^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}20I28"
+- "i32@0:8^?16^v24"
+- "i32@0:8^{__CFDictionary=}16r^^{__CFArray}24"
+- "i32@0:8^{__IOHIDElement=}16*24"
+- "i36@0:8@16I24^i28"
+- "i36@0:8@16r^^{__CFArray}24I32"
+- "i36@0:8^{__IOHIDElement=}16^^{__IOHIDValue}24I32"
+- "i36@0:8^{__IOHIDElement=}16^{__IOHIDValue=}24I32"
+- "i40@0:8^?16^v24^v32"
+- "i40@0:8^v16I24^?28I36"
+- "i40@0:8{?=CCCCCCCCCCCCCCCC}16^^v32"
+- "i52@0:8*16q24^?32^v40I48"
+- "i52@0:8^v16I24^?28^v36^v44"
+- "i56@0:8^{__IOHIDElement=}16^^{__IOHIDValue}24I32^?36^v44I52"
+- "i56@0:8^{__IOHIDElement=}16^{__IOHIDValue=}24I32^?36^v44I52"
+- "i64@0:8i16I20*24^q32I40^?44^v52I60"
+- "i64@0:8i16I20r*24q32I40^?44^v52I60"
+- "indexOfObject:"
+- "init"
+- "initConnect"
+- "initElements"
+- "initPort"
+- "initQueue"
+- "initWithArray:"
+- "initWithCapacity:"
+- "initWithDevice:"
+- "initWithDevice:port:source:"
+- "initWithElementRef:"
+- "initWithElementStruct:parent:index:"
+- "initWithFireDate:interval:repeats:block:"
+- "initWithLength:"
+- "initialEventUpdate"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "isConstant"
+- "isEqual:"
+- "isEqualToHIDLibElement:"
+- "isEqualToString:"
+- "isIdentifiedGame"
+- "isUpdated"
+- "kIOHIDLibUserClientPostElementValues(%#llx):%#x\n"
+- "kIOHIDLibUserClientPostElementValues(%llx):%x\n"
+- "kIOHIDLibUserClientResumeReports:%#x\n"
+- "kIOHIDLibUserClientUpdateElementValues(%#llx):%#x\n"
+- "latestElement:psKey:"
+- "length"
+- "lowercaseString"
+- "mapMemory"
+- "monitorForCurrentProcess"
+- "mutableBytes"
+- "mutableCopy"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLong:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "open:"
+- "parseElements:"
+- "parseProperties:"
+- "performSelector:"
+- "pointerValue"
+- "pollEventUpdate"
+- "port"
+- "predicateWithLeftExpression:rightExpression:modifier:type:options:"
+- "probe:service:outScore:"
+- "propertyForElementKey:"
+- "psKey"
+- "q"
+- "q16@0:8"
+- "queryInterface:outInterface:"
+- "queueCallback:msg:size:info:"
+- "queueType"
+- "releaseReport:"
+- "removeAllObjects"
+- "removeElement:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "replaceObjectAtIndex:withObject:"
+- "reportID"
+- "rosetta_convert_to_rosetta_absolute_time"
+- "rosetta_is_current_process_translated"
+- "runLoopSource"
+- "sendCommand:"
+- "service"
+- "setDataValue:"
+- "setDefaultValueRef:"
+- "setDepth:"
+- "setDevice:"
+- "setDirection:"
+- "setElementRef:"
+- "setElementValue:value:"
+- "setElementValue:value:options:"
+- "setEventCallback:target:refcon:"
+- "setEventCallout:callbackTarget:callbackRefcon:"
+- "setInputReportCallback:reportLength:callback:context:options:"
+- "setInputReportWithTimeStampCallback:reportLength:callback:context:options:"
+- "setIntegerValue:"
+- "setInterruptReportHandlerCallback:reportBufferSize:callback:callbackTarget:callbackRefcon:"
+- "setIsConstant:"
+- "setIsUpdated:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKeyedSubscript:"
+- "setProperty:property:"
+- "setPsKey:"
+- "setRemovalCallback:removalTarget:removalRefcon:"
+- "setReport:reportID:report:reportLength:timeout:callback:context:options:"
+- "setUpdateHandler:"
+- "setValue(%#llx):%#x\n"
+- "setValue:value:options:"
+- "setValue:value:timeout:callback:context:options:"
+- "setValueAvailableCallback:context:"
+- "setValueRef:"
+- "setupAnalytics"
+- "signalQueueEmpty"
+- "start"
+- "start:service:"
+- "staticSize"
+- "stop"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringWithFormat:"
+- "substringToIndex:"
+- "timestamp"
+- "transport"
+- "type"
+- "ub"
+- "unit"
+- "unitExponent"
+- "unmapMemory"
+- "updateElements:"
+- "updateEvent"
+- "updateUsageAnalytics"
+- "usage"
+- "usageMax"
+- "usageMin"
+- "usagePage"
+- "usagePairs"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8^{__IOHIDElement=}16"
+- "v24@0:8^{__IOHIDValue=}16"
+- "v24@0:8q16"
+- "v24@?0@\"GPProcessMonitor\"8@\"GPProcessInfo\"16"
+- "v32@?0@\"NSString\"8@\"NSNumber\"16^B24"
+- "v48@0:8^{__CFMachPort=}16^{?=IIIIIi}24q32^v40"
+- "v8@?0"
+- "valueAvailableCallback:"
+- "valueRef"
+- "valueWithPointer:"
+- "{?=\"input\"@\"NSMutableArray\"\"output\"@\"NSMutableArray\"\"feature\"@\"NSMutableArray\"}"
+- "{IOHIDElementStruct=\"cookieMin\"I\"cookieMax\"I\"parentCookie\"I\"type\"I\"collectionType\"I\"flags\"I\"usagePage\"I\"usageMin\"I\"usageMax\"I\"min\"i\"max\"i\"scaledMin\"i\"scaledMax\"i\"size\"I\"reportSize\"I\"reportCount\"I\"reportID\"I\"unit\"I\"unitExponent\"I\"duplicateValueSize\"I\"duplicateIndex\"I\"bytes\"I\"valueSize\"I\"rawReportCount\"I}"
+- "{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII}16@0:8"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "{os_unfair_recursive_lock_s=\"ourl_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}\"ourl_count\"I}"
+
+```

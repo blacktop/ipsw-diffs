@@ -1,0 +1,638 @@
+## FamilyControls
+
+> `/System/Library/Frameworks/FamilyControls.framework/FamilyControls`
+
+```diff
+
+-1223.120.2.0.0
+-  __TEXT.__text: 0x41758
+-  __TEXT.__auth_stubs: 0x1870
++1242.0.0.0.0
++  __TEXT.__text: 0x40aa4
+   __TEXT.__objc_methlist: 0x4f4
+-  __TEXT.__const: 0x2b94
+-  __TEXT.__swift5_typeref: 0x13c0
++  __TEXT.__const: 0x2b44
++  __TEXT.__swift5_typeref: 0x13b6
+   __TEXT.__swift5_capture: 0x7a8
+   __TEXT.__swift5_fieldmd: 0xbec
+   __TEXT.__constg_swiftt: 0x112c
+
+   __TEXT.__swift5_assocty: 0x218
+   __TEXT.__swift_as_entry: 0x24
+   __TEXT.__swift_as_ret: 0x24
+-  __TEXT.__unwind_info: 0x1168
+-  __TEXT.__eh_frame: 0xc58
+-  __TEXT.__objc_classname: 0x54e
+-  __TEXT.__objc_methname: 0x15f7
+-  __TEXT.__objc_methtype: 0x81f
+-  __TEXT.__objc_stubs: 0x1080
+-  __DATA_CONST.__got: 0x458
+-  __DATA_CONST.__const: 0x2b8
++  __TEXT.__swift_as_cont: 0x44
++  __TEXT.__unwind_info: 0x11d0
++  __TEXT.__eh_frame: 0xc98
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x298
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x570
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0xc40
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x2a38
+   __AUTH_CONST.__cfstring: 0x20
+   __AUTH_CONST.__objc_const: 0x1578
++  __AUTH_CONST.__auth_got: 0xd08
+   __AUTH.__objc_data: 0x508
+   __AUTH.__data: 0xc60
+-  __DATA.__data: 0x9a8
+-  __DATA.__bss: 0x36c8
++  __DATA.__data: 0x998
++  __DATA.__bss: 0x36b8
+   __DATA.__common: 0x178
+   __DATA_DIRTY.__data: 0x348
+-  __DATA_DIRTY.__bss: 0x370
++  __DATA_DIRTY.__bss: 0x388
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A5B17924-5B5E-3D2B-9CC2-4D10AE429A15
+-  Functions: 1955
+-  Symbols:   1175
+-  CStrings:  426
++  UUID: 9008A3F3-5C3D-3029-93D1-439159F1E234
++  Functions: 1969
++  Symbols:   1389
++  CStrings:  120
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.158
++ ___swift__destructor.65
++ ___swift__destructor.70
++ ___swift__destructor.9
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.26Tm
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.38Tm
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.100
++ _block_copy_helper.106
++ _block_copy_helper.112
++ _block_copy_helper.118
++ _block_copy_helper.124
++ _block_copy_helper.130
++ _block_copy_helper.137
++ _block_copy_helper.142
++ _block_copy_helper.145
++ _block_copy_helper.15
++ _block_copy_helper.154
++ _block_copy_helper.163
++ _block_copy_helper.40
++ _block_copy_helper.46
++ _block_copy_helper.58
++ _block_copy_helper.61
++ _block_copy_helper.70
++ _block_copy_helper.75
++ _block_copy_helper.82
++ _block_copy_helper.88
++ _block_copy_helper.94
++ _block_descriptor.102
++ _block_descriptor.108
++ _block_descriptor.114
++ _block_descriptor.120
++ _block_descriptor.126
++ _block_descriptor.132
++ _block_descriptor.139
++ _block_descriptor.144
++ _block_descriptor.147
++ _block_descriptor.156
++ _block_descriptor.165
++ _block_descriptor.17
++ _block_descriptor.42
++ _block_descriptor.48
++ _block_descriptor.60
++ _block_descriptor.63
++ _block_descriptor.72
++ _block_descriptor.77
++ _block_descriptor.84
++ _block_descriptor.90
++ _block_descriptor.96
++ _block_destroy_helper.101
++ _block_destroy_helper.107
++ _block_destroy_helper.113
++ _block_destroy_helper.119
++ _block_destroy_helper.125
++ _block_destroy_helper.131
++ _block_destroy_helper.138
++ _block_destroy_helper.143
++ _block_destroy_helper.146
++ _block_destroy_helper.155
++ _block_destroy_helper.16
++ _block_destroy_helper.164
++ _block_destroy_helper.41
++ _block_destroy_helper.47
++ _block_destroy_helper.59
++ _block_destroy_helper.62
++ _block_destroy_helper.71
++ _block_destroy_helper.76
++ _block_destroy_helper.83
++ _block_destroy_helper.89
++ _block_destroy_helper.95
++ _objc_retain_x3
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_FamilyControls
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_FamilyControls
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_FamilyControls
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_FamilyControls
+- _block_copy_helper.103
+- _block_copy_helper.109
+- _block_copy_helper.115
+- _block_copy_helper.121
+- _block_copy_helper.127
+- _block_copy_helper.134
+- _block_copy_helper.148
+- _block_copy_helper.157
+- _block_copy_helper.166
+- _block_copy_helper.169
+- _block_copy_helper.48
+- _block_copy_helper.59
+- _block_copy_helper.62
+- _block_copy_helper.67
+- _block_copy_helper.73
+- _block_copy_helper.79
+- _block_copy_helper.85
+- _block_copy_helper.91
+- _block_copy_helper.97
+- _block_descriptor.105
+- _block_descriptor.111
+- _block_descriptor.117
+- _block_descriptor.123
+- _block_descriptor.129
+- _block_descriptor.136
+- _block_descriptor.150
+- _block_descriptor.159
+- _block_descriptor.168
+- _block_descriptor.171
+- _block_descriptor.50
+- _block_descriptor.61
+- _block_descriptor.64
+- _block_descriptor.69
+- _block_descriptor.75
+- _block_descriptor.81
+- _block_descriptor.87
+- _block_descriptor.93
+- _block_descriptor.99
+- _block_destroy_helper.104
+- _block_destroy_helper.110
+- _block_destroy_helper.116
+- _block_destroy_helper.122
+- _block_destroy_helper.128
+- _block_destroy_helper.135
+- _block_destroy_helper.149
+- _block_destroy_helper.158
+- _block_destroy_helper.167
+- _block_destroy_helper.170
+- _block_destroy_helper.49
+- _block_destroy_helper.60
+- _block_destroy_helper.63
+- _block_destroy_helper.68
+- _block_destroy_helper.74
+- _block_destroy_helper.80
+- _block_destroy_helper.86
+- _block_destroy_helper.92
+- _block_destroy_helper.98
+- _objectdestroy.15Tm
+- _objectdestroy.23Tm
+- _objectdestroy.2Tm
+- _objectdestroy.40Tm
+- _objectdestroy.4Tm
+- _objectdestroy.8Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _symbolic SS______t 14FamilyControls15UsageItemRecordV
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<UISSlotAnyContent>\"40@0:8@\"_UISlotView\"16@\"UISSlotStyle\"24@\"UISSlotTag\"32"
+- "@\"<UISSlotAnyContent>\"48@0:8@\"_UISlotView\"16@\"<UISSlotAnyContent>\"24@\"UISSlotStyle\"32@\"UISSlotTag\"40"
+- "@\"<UISSlotMachineProtocol>\"24@0:8@\"_UISlotView\"16"
+- "@\"NSString\"16@0:8"
+- "@\"UISSlotTag\"24@0:8@\"_UISlotView\"16"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8@?<v@?@\"NSError\">16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16@24@32@40"
+- "ActivityPickerRemoteViewController"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"_UISlotView\"16"
+- "B24@0:8@16"
+- "B40@0:8@\"_UISlotView\"16@\"UISSlotStyle\"24@\"UISSlotTag\"32"
+- "B40@0:8@16@24@32"
+- "CGImage"
+- "FamilyControls"
+- "FamilyControls1"
+- "JSONObjectWithData:options:error:"
+- "NSObject"
+- "NSXPCProxyCreating"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "UISSlotMachineProtocol"
+- "URL"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC14FamilyControls10UsageStore"
+- "_TtC14FamilyControls12AppInfoCache"
+- "_TtC14FamilyControls12FamilyCircle"
+- "_TtC14FamilyControls13XPCConnection"
+- "_TtC14FamilyControls18FamilyActivityData"
+- "_TtC14FamilyControls18FamilyActivitySlot"
+- "_TtC14FamilyControls19AuthorizationCenter"
+- "_TtC14FamilyControls28ActivityPickerViewController"
+- "_TtC14FamilyControls37FamilyControlsAuthenticationUIService"
+- "_TtC14FamilyControls7AppInfo"
+- "_TtC14FamilyControlsP33_2BFD24FC81DA2FC15D428DD571BC482719ResourceBundleClass"
+- "_TtCC14FamilyControls18FamilyActivitySlot11Coordinator"
+- "_TtCC14FamilyControls18FamilyActivitySlot12SlotDelegate"
+- "_TtP14FamilyControls19FamilyControlsAgent_"
+- "_TtP14FamilyControls20FamilyControlsClient_"
+- "_TtP14FamilyControls26FamilyControlsAgentPrivate_"
+- "_TtP14FamilyControls27FamilyControlsClientPrivate_"
+- "_TtP14FamilyControls29ActivityPickerClientInterface_"
+- "_TtP14FamilyControls29FamilyControlsAgentDataAccess_"
+- "_TtP14FamilyControls30ActivityPickerServiceInterface_"
+- "_TtP14FamilyControls37FamilyControlsAuthenticationUIResults_"
+- "_UISlotViewContentDelegate"
+- "_authorizationStatus"
+- "_children"
+- "_currentMember"
+- "_guardians"
+- "_members"
+- "_setContentDelegate:"
+- "aa_altDSID"
+- "aa_firstName"
+- "aa_fullName"
+- "aa_lastName"
+- "aa_primaryAppleAccount"
+- "aa_primaryEmail"
+- "accessQueue"
+- "activate"
+- "activateConstraints:"
+- "activityCategories:"
+- "addChildViewController:"
+- "addSubview:"
+- "altDSID"
+- "appInfoCache"
+- "appleID"
+- "artworkURL"
+- "authorizationRecordsWithReplyHandler:"
+- "autorelease"
+- "bottomAnchor"
+- "bundleForClass:"
+- "class"
+- "cleanupViewAndExtension"
+- "code"
+- "completeRequestReturningItems:completionHandler:"
+- "configureWithIsEmbedded:title:headerText:footerText:includeEntireCategory:selectedApplications:selectedCategories:selectedWebDomains:selectedUntokenizedApplications:selectedUntokenizedCategories:selectedUntokenizedWebDomains:"
+- "conformsToProtocol:"
+- "connection"
+- "connectionLock"
+- "constraintEqualToAnchor:"
+- "contents"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "currentConnection"
+- "currentPrivateConnection"
+- "currentPublicConnection"
+- "currentSlot"
+- "currentTagForSlotView:"
+- "dataTaskWithRequest:completionHandler:"
+- "dealloc"
+- "debugDescription"
+- "defaultManager"
+- "description"
+- "didCancel"
+- "didCancelCallback"
+- "didCompleteAuthenticationRequestWithStatus:error:"
+- "didFinishSelection"
+- "didFinishSelectionCallback"
+- "didMoveToParentViewController:"
+- "didSelectCallback"
+- "didSelectWithApplications:categories:webDomains:untokenizedApplications:untokenizedCategories:untokenizedWebDomains:"
+- "disconnect"
+- "dismissCallback"
+- "dismissViewControllerAnimated:completion:"
+- "displayName"
+- "domain"
+- "elements"
+- "ephemeralSessionConfiguration"
+- "exportedInterface"
+- "exportedObject"
+- "extensionContext"
+- "extensionsWithMatchingAttributes:error:"
+- "fetchAllSharedActivityWithReplyHandler:"
+- "fetchElements"
+- "fileExistsAtPath:"
+- "firstName"
+- "footerText"
+- "getAuthorizationStatus:"
+- "getRecordChangedNotification:"
+- "getRemoteContentForLayerContextWithId:style:tag:reply:"
+- "hash"
+- "headerText"
+- "imageDescriptorNamed:"
+- "index"
+- "init"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCGImage:"
+- "initWithCoder:"
+- "initWithListenerEndpoint:"
+- "initWithMachServiceName:options:"
+- "initWithNibName:bundle:"
+- "initWithStyle:diameter:"
+- "installedApplications:"
+- "instantiateViewControllerWithInputItems:connectionHandler:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "interruptionHandler"
+- "invalidate"
+- "invalidationHandler"
+- "isEmbedded"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMe"
+- "isMemberOfClass:"
+- "isParent"
+- "isProxy"
+- "lastName"
+- "leadingAnchor"
+- "leftAnchor"
+- "loadView"
+- "localURL"
+- "localizedNameForIdentifier:"
+- "localizedNameWithPreferredLocalizations:"
+- "localizedStringFromPersonNameComponents:style:options:"
+- "lock"
+- "lookupQueue"
+- "memberType"
+- "members"
+- "monogramForPersonWithFirstName:lastName:"
+- "name"
+- "notificationQueue"
+- "objectForKey:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "prepareImageForDescriptor:"
+- "recordChangedNotificationToken"
+- "release"
+- "remoteObjectInterface"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "remoteViewController"
+- "removeAllActivityWithReplyHandler:"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "requestAuthorizationFor::"
+- "requestAuthorizationWithRecordIdentifier:replyHandler:"
+- "requestDataAccessAuthorizationWithRecordIdentifier:replyHandler:"
+- "requestInternalAuthorizationForMember:replyHandler:"
+- "resetAuthorizationWithRecordIdentifier:replyHandler:"
+- "resetDataAccessAuthorizationsWithReplyHandler:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "revokeAuthorization:"
+- "revokeAuthorizationForDeletionWithRecordIdentifier:replyHandler:"
+- "revokeAuthorizationWithRecordIdentifier:replyHandler:"
+- "revokeInternalAuthorizationWithReplyHandler:"
+- "rightAnchor"
+- "scale"
+- "selection"
+- "self"
+- "serviceName"
+- "serviceViewControllerInterface"
+- "serviceViewControllerProxyWithErrorHandler:"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "setActive:"
+- "setCachePolicy:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClipsToBounds:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHuggingPriority:forAxis:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setHTTPShouldUsePipelining:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setName:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setRemoteObjectInterface:"
+- "setRequestCachePolicy:"
+- "setScale:"
+- "setSessionDescription:"
+- "setText:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setURLCache:"
+- "setUnderlyingQueue:"
+- "setView:"
+- "sharedURLCache"
+- "shouldGetFinalContentSynchronouslyInSlotView:"
+- "silentlyResetAuthorizationWithRecordIdentifier:replyHandler:"
+- "slotDelegate"
+- "slotMachineForFinalContentInSlotView:"
+- "slotView"
+- "slotView:didSetFinalContent:forStyle:tag:"
+- "slotView:didSetInitialContent:forStyle:tag:"
+- "slotView:initialContentForStyle:tag:"
+- "slotView:replacementForFinalContent:style:tag:"
+- "slotView:shouldSetFinalContentForStyle:tag:"
+- "slotView:shouldSetInitialContentForStyle:tag:"
+- "source"
+- "startRequestWithCompletionHandler:"
+- "status"
+- "superclass"
+- "syncQueue"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "tag"
+- "teamIdentifier"
+- "token"
+- "topAnchor"
+- "trailingAnchor"
+- "type"
+- "unlock"
+- "updateActivityWithReplyHandler:"
+- "urlSession"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSNumber\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v32@0:8@\"NSNumber\"16@\"NSError\"24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"NSError\">24"
+- "v32@0:8q16@?<v@?@\"NSNumber\"@\"NSError\">24"
+- "v32@?0@\"<NSCopying>\"8@\"UIViewController\"16@\"NSError\"24"
+- "v32@?0@\"NSArray\"8@\"NSArray\"16@\"NSError\"24"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v44@0:8@\"_UISlotView\"16B24@\"UISSlotStyle\"28@\"UISSlotTag\"36"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8Q16@\"UISSlotStyle\"24@\"UISSlotTag\"32@?<v@?@\"UISSlotRemoteContent\"@\"NSError\">40"
+- "v48@0:8Q16@24@32@?40"
+- "v64@0:8@\"NSArray\"16@\"NSArray\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@\"NSArray\"56"
+- "v64@0:8@16@24@32@40@48@56"
+- "v8@?0"
+- "v96@0:8B16@\"NSString\"20@\"NSString\"28@\"NSString\"36B44@\"NSArray\"48@\"NSArray\"56@\"NSArray\"64@\"NSArray\"72@\"NSArray\"80@\"NSArray\"88"
+- "v96@0:8B16@20@28@36B44@48@56@64@72@80@88"
+- "view"
+- "viewTitle"
+- "visitedWebDomains:"
+- "width"
+- "willMoveToParentViewController:"
+- "zone"
+
+```

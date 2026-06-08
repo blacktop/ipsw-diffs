@@ -1,0 +1,243 @@
+## FitnessSharePlaySession
+
+> `/System/Library/PrivateFrameworks/FitnessSharePlaySession.framework/FitnessSharePlaySession`
+
+```diff
+
+-2026.5.5.0.0
+-  __TEXT.__text: 0x6548
+-  __TEXT.__auth_stubs: 0x3e0
+-  __TEXT.__const: 0xdb8
+-  __TEXT.__swift5_typeref: 0x350
+-  __TEXT.__constg_swiftt: 0x208
+-  __TEXT.__swift5_reflstr: 0x18d
+-  __TEXT.__swift5_fieldmd: 0x228
+-  __TEXT.__swift5_proto: 0xc8
+-  __TEXT.__swift5_types: 0x3c
+-  __TEXT.__cstring: 0x87
+-  __TEXT.__swift5_capture: 0x24
+-  __TEXT.__swift5_assocty: 0x28
+-  __TEXT.__swift_as_entry: 0x8
+-  __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x330
+-  __TEXT.__eh_frame: 0x450
+-  __DATA_CONST.__got: 0xb0
+-  __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x1f0
+-  __AUTH_CONST.__const: 0x620
+-  __DATA.__data: 0x180
+-  __DATA.__bss: 0x1190
+-  __DATA_DIRTY.__data: 0x1d0
+-  __DATA_DIRTY.__bss: 0x780
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
++2027.0.107.1.3
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x40
+   - /System/Library/PrivateFrameworks/DataFlow.framework/DataFlow
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C1046457-3FF6-3B4F-A757-B9C9FB1F422E
+-  Functions: 242
+-  Symbols:   180
+-  CStrings:  4
++  UUID: 0C88B1E7-9901-31B1-93F9-58F187EE9191
++  Functions: 0
++  Symbols:   2
++  CStrings:  0
+ 
+Symbols:
+- <redacted>
+- ___chkstk_darwin
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy1_1
+- ___swift_memcpy32_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_reflection_version
+- __swiftEmptyArrayStorage
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftSpatial
+- __swift_FORCE_LOAD_$_swiftSpatial_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftUIKit
+- __swift_FORCE_LOAD_$_swiftUIKit_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_FitnessSharePlaySession
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_FitnessSharePlaySession
+- __swift_stdlib_malloc_size
+- _associated conformance 23FitnessSharePlaySession0bC5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bC5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateO14IdleCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateO14IdleCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateO16ActiveCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateO16ActiveCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC5StateOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bC8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bC8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bC8ActivityVSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bcD5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bcD5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO22ViewAppearedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO22ViewAppearedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 23FitnessSharePlaySession0bcD7FeatureV14TaskIdentifierOSHAASQ
+- _associated conformance 23FitnessSharePlaySession0bcD7FeatureV8DataFlow0E0AA10LocalStateAdEP_SQ
+- _associated conformance 23FitnessSharePlaySession0bcD7FeatureV8DataFlow0E0AA11SharedStateAdEP_SQ
+- _associated conformance 23FitnessSharePlaySession0bcD7FeatureV8DataFlow0E0AA6ActionAdEP_SE
+- _associated conformance 23FitnessSharePlaySession0bcD7FeatureV8DataFlow0E0AA6ActionAdEP_Se
+- _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
+- _malloc_size
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocObject
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getWitnessTable
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_makeBoxUnique
+- _swift_release
+- _swift_retain
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_willThrow
+- _symbolic $s8DataFlow7FeatureP
+- _symbolic 7ElementSciQyd__
+- _symbolic 7FailureSciQyd__
+- _symbolic SS
+- _symbolic Su
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 23FitnessSharePlaySession0bC5StateO
+- _symbolic _____ 23FitnessSharePlaySession0bC5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____ 23FitnessSharePlaySession0bC5StateO14IdleCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____ 23FitnessSharePlaySession0bC5StateO16ActiveCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____ 23FitnessSharePlaySession0bC8ActivityV
+- _symbolic _____ 23FitnessSharePlaySession0bC8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLO
+- _symbolic _____ 23FitnessSharePlaySession0bcD11EnvironmentV
+- _symbolic _____ 23FitnessSharePlaySession0bcD5StateV
+- _symbolic _____ 23FitnessSharePlaySession0bcD5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLO
+- _symbolic _____ 23FitnessSharePlaySession0bcD6ActionO
+- _symbolic _____ 23FitnessSharePlaySession0bcD6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____ 23FitnessSharePlaySession0bcD6ActionO22ViewAppearedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____ 23FitnessSharePlaySession0bcD6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____ 23FitnessSharePlaySession0bcD7FeatureV
+- _symbolic _____ 23FitnessSharePlaySession0bcD7FeatureV14TaskIdentifierO
+- _symbolic _____ 8DataFlow10EmptyStateV
+- _symbolic _____Sg 23FitnessSharePlaySession0bC8ActivityV
+- _symbolic _____Sg3key_ScP8priority_____11onCollision_____0C8Disposalyyc9operationt s11AnyHashableV 8DataFlow27SideEffectCollisionBehaviorO AC0ef8DisposalH0O
+- _symbolic _______________XjyYaKc r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 23FitnessSharePlaySession0dE8ActivityV s5NeverO
+- _symbolic _____y_____G 8DataFlow10SideEffectO 23FitnessSharePlaySession0fgH6ActionO
+- _symbolic _____y_____G 8DataFlow10StoreProxyV 23FitnessSharePlaySession0fgH6ActionO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0eF5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0eF5StateO14IdleCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0eF5StateO16ActiveCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0eF8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0efG5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0efG6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0efG6ActionO22ViewAppearedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 23FitnessSharePlaySession0efG6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0eF5StateO10CodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0eF5StateO14IdleCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0eF5StateO16ActiveCodingKeys33_8B931D40A630C4A9352FEA387F6220FELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0eF8ActivityV10CodingKeys33_9EA55E776F419188B07AA610113B32F2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0efG5StateV10CodingKeys33_59AC5C73385F509316C72EAA89AD074ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0efG6ActionO10CodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0efG6ActionO22ViewAppearedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 23FitnessSharePlaySession0efG6ActionO32BeginActivityRequestedCodingKeys33_6738EFA2A6E08D4DAF85723AC51D8AFCLLO
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 23FitnessSharePlaySession0ijK6ActionO
+- _symbolic q_
+- _symbolic qd__
+- _symbolic x
+- _symbolic y_____YaKc 23FitnessSharePlaySession0bC8ActivityV
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+- _type_layout_string 23FitnessSharePlaySession0bcD11EnvironmentV
+- _type_layout_string 23FitnessSharePlaySession0bcD5StateV
+- _type_layout_string 23FitnessSharePlaySession0bcD7FeatureV
+CStrings:
+- "Invalid number of keys found, expected one."
+- "beginActivityRequested"
+- "sessionIdentifier"
+- "workoutIdentifier"
+
+```

@@ -1,0 +1,2061 @@
+## CommunicationsUICore
+
+> `/System/Library/PrivateFrameworks/CommunicationsUICore.framework/CommunicationsUICore`
+
+```diff
+
+-106.600.51.2.2
+-  __TEXT.__text: 0x8eadc
+-  __TEXT.__auth_stubs: 0x21b0
+-  __TEXT.__objc_methlist: 0x1134
+-  __TEXT.__const: 0x59c4
+-  __TEXT.__swift5_typeref: 0x217a
+-  __TEXT.__cstring: 0x127a
+-  __TEXT.__swift5_capture: 0x908
+-  __TEXT.__oslogstring: 0x2cd3
+-  __TEXT.__swift5_fieldmd: 0x1ab0
+-  __TEXT.__constg_swiftt: 0x219c
+-  __TEXT.__swift5_reflstr: 0x17b5
+-  __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_assocty: 0x150
+-  __TEXT.__swift5_protos: 0x64
+-  __TEXT.__swift5_proto: 0x2f4
+-  __TEXT.__swift5_types: 0x1c0
+-  __TEXT.__swift_as_entry: 0x10c
+-  __TEXT.__swift_as_ret: 0xf0
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2108
+-  __TEXT.__eh_frame: 0x3464
+-  __TEXT.__objc_classname: 0xc04
+-  __TEXT.__objc_methname: 0x577c
+-  __TEXT.__objc_methtype: 0x9f7
+-  __TEXT.__objc_stubs: 0x1c20
+-  __DATA_CONST.__got: 0x7d0
+-  __DATA_CONST.__const: 0x470
+-  __DATA_CONST.__objc_classlist: 0x170
+-  __DATA_CONST.__objc_protolist: 0xb0
++139.100.27.2.9
++  __TEXT.__text: 0xdcda4
++  __TEXT.__objc_methlist: 0x1534
++  __TEXT.__const: 0x7eb4
++  __TEXT.__swift5_typeref: 0x3e86
++  __TEXT.__cstring: 0x2081
++  __TEXT.__swift5_capture: 0xff8
++  __TEXT.__oslogstring: 0x4e81
++  __TEXT.__swift5_fieldmd: 0x27a4
++  __TEXT.__constg_swiftt: 0x306c
++  __TEXT.__swift5_reflstr: 0x2625
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_assocty: 0x1e0
++  __TEXT.__swift5_protos: 0x84
++  __TEXT.__swift5_proto: 0x404
++  __TEXT.__swift5_types: 0x2a4
++  __TEXT.__swift_as_entry: 0x124
++  __TEXT.__swift_as_ret: 0xfc
++  __TEXT.__swift_as_cont: 0x1b4
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__unwind_info: 0x2d50
++  __TEXT.__eh_frame: 0x3a58
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x4c8
++  __DATA_CONST.__objc_classlist: 0x230
++  __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x10d0
+-  __DATA_CONST.__objc_protorefs: 0x58
+-  __AUTH_CONST.__auth_got: 0x10e0
+-  __AUTH_CONST.__const: 0x30c0
+-  __AUTH_CONST.__objc_const: 0x95a8
+-  __AUTH.__objc_data: 0x520
+-  __AUTH.__data: 0x1260
+-  __DATA.__data: 0x14b0
+-  __DATA.__bss: 0x48b0
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__objc_data: 0x790
+-  __DATA_DIRTY.__data: 0x1ab8
+-  __DATA_DIRTY.__common: 0x60
+-  __DATA_DIRTY.__bss: 0xb80
++  __DATA_CONST.__objc_selrefs: 0x1548
++  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__got: 0xa20
++  __AUTH_CONST.__const: 0x5280
++  __AUTH_CONST.__objc_const: 0x14578
++  __AUTH_CONST.__auth_got: 0x1488
++  __AUTH.__objc_data: 0xab8
++  __AUTH.__data: 0x1a38
++  __DATA.__data: 0x2028
++  __DATA.__bss: 0x5dd0
++  __DATA.__common: 0x90
++  __DATA_DIRTY.__objc_data: 0xae0
++  __DATA_DIRTY.__data: 0x26e8
++  __DATA_DIRTY.__common: 0x68
++  __DATA_DIRTY.__bss: 0x1380
++  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
++  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/GroupActivities.framework/GroupActivities
+   - /System/Library/Frameworks/LiveCommunicationKit.framework/LiveCommunicationKit
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
++  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SensitiveContentAnalysis.framework/SensitiveContentAnalysis
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Translation.framework/Translation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
++  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AudioAccessoryAssetManagement.framework/AudioAccessoryAssetManagement
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/FTServices.framework/FTServices
+   - /System/Library/PrivateFrameworks/FaceTimeFeatureControl.framework/FaceTimeFeatureControl
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
+   - /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
+   - /System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant
++  - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F8FAA9D-C541-3772-B37C-F861C3715B28
+-  Functions: 2909
+-  Symbols:   1695
+-  CStrings:  1167
++  UUID: 18CD6BF0-8B59-3240-ADC9-E1A588C42171
++  Functions: 4309
++  Symbols:   2810
++  CStrings:  559
+ 
+Symbols:
++ _AFOutputLanguageDidChangeDarwinNotification
++ _AVAudioSessionCategoryVoiceOver
++ _AVCaptureDeviceTypeBuiltInDualCamera
++ _AVCaptureDeviceTypeBuiltInDualWideCamera
++ _AVCaptureDeviceTypeBuiltInTripleCamera
++ _CGRectEqualToRect
++ _CGRectMakeWithDictionaryRepresentation
++ _OBJC_CLASS_$_AFPreferences
++ _OBJC_CLASS_$_AVAudioSession
++ _OBJC_CLASS_$_AVCMediaAnalyzer
++ _OBJC_CLASS_$_AVCRemoteVideoClient
++ _OBJC_CLASS_$_AVCaptureDevice
++ _OBJC_CLASS_$_CAContext
++ _OBJC_CLASS_$_CATransaction
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_UIApplication
++ _OBJC_CLASS_$_UIColorEffect
++ _OBJC_CLASS_$_UIScene
++ _OBJC_CLASS_$_UIWindow
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_CLASS_$__TtC20CommunicationsUICore18RemoteVideoService
++ _OBJC_CLASS_$__TtC20CommunicationsUICore20LocalCameraViewModel
++ _OBJC_CLASS_$__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ _OBJC_CLASS_$__TtC20CommunicationsUICore22FTAccessibilityService
++ _OBJC_CLASS_$__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ _OBJC_CLASS_$__TtC20CommunicationsUICore36FTAccessibilityInteractionController
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore18RemoteVideoService
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore20LocalCameraViewModel
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore22FTAccessibilityService
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore36FTAccessibilityInteractionController
++ _OBJC_METACLASS_$__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ _OBJC_METACLASS_$__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ _OBJC_METACLASS_$__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ _TUCallCenterVideoCallPauseChangedNotification
++ _TUCallIsSharingScreenChangedNotification
++ _TUCallVideoCaptureModeChangedNotification
++ _TUVideoDeviceControllerDidChangeLocalCameraUIDNotification
++ _TUVideoDeviceControllerDidPausePreviewNotification
++ _TUVideoDeviceControllerDidStartPreviewNotification
++ _TUVideoDeviceControllerDidStopPreviewNotification
++ _TUVideoDeviceControllerLocalAttributesChangedAspectRatioKey
++ _TUVideoDeviceControllerLocalAttributesChangedNotification
++ _TUVideoDeviceControllerPrimarySessionEnabledDidChangeNotification
++ _TUVideoDeviceControllerReceivedFirstPreviewFrameNotification
++ _TUVideoDeviceControllerReceivedFirstSecondaryFrameNotification
++ _TUVideoDeviceControllerSecondaryAttributesChangedAspectRatioKey
++ _TUVideoDeviceControllerSecondaryAttributesChangedNotification
++ _TUVideoDeviceControllerSecondaryCameraZoomAvailabilityChangedNotification
++ _TUVideoDeviceControllerSecondarySessionEnabledDidChangeNotification
++ _TUVideoDeviceControllerSecondaryZoomAvailabilityKey
++ _UIDeviceOrientationDidChangeNotification
++ __CLASS_METHODS__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __CLASS_METHODS__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ __CLASS_PROPERTIES__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __CLASS_PROPERTIES__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ __DATA__TtC20CommunicationsUICore11TTSSpellOut
++ __DATA__TtC20CommunicationsUICore12MockFeatures
++ __DATA__TtC20CommunicationsUICore16TraitEnvironment
++ __DATA__TtC20CommunicationsUICore18RemoteVideoService
++ __DATA__TtC20CommunicationsUICore19CameraDeviceService
++ __DATA__TtC20CommunicationsUICore19CameraZoomViewModel
++ __DATA__TtC20CommunicationsUICore20LocalCameraViewModel
++ __DATA__TtC20CommunicationsUICore20MockCallCenterFacade
++ __DATA__TtC20CommunicationsUICore20RemoteVideoViewModel
++ __DATA__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __DATA__TtC20CommunicationsUICore21ParticipantsViewModel
++ __DATA__TtC20CommunicationsUICore22FTAccessibilityService
++ __DATA__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ __DATA__TtC20CommunicationsUICore26IntelligentCroppingService
++ __DATA__TtC20CommunicationsUICore30DualCaptureTelemetryController
++ __DATA__TtC20CommunicationsUICore30SharePlayActivityStateObserver
++ __DATA__TtC20CommunicationsUICore33FTAccessibilityInteractionSession
++ __DATA__TtC20CommunicationsUICore36FTAccessibilityInteractionController
++ __DATA__TtC20CommunicationsUICore8Features
++ __DATA__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ __DATA__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ __DATA__TtC20CommunicationsUICoreP33_5B5BDB4FDD3979F90C6054F8D80EFD5112WeakDelegate
++ __DATA__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ __DATA__TtC20CommunicationsUICoreP33_F7FEED997626FAABE94AFF48619AACAB12WeakDelegate
++ __INSTANCE_METHODS__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __INSTANCE_METHODS__TtC20CommunicationsUICore22FTAccessibilityService
++ __INSTANCE_METHODS__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ __INSTANCE_METHODS__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ __INSTANCE_METHODS__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ __INSTANCE_METHODS__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ __IVARS__TtC20CommunicationsUICore11TTSSpellOut
++ __IVARS__TtC20CommunicationsUICore12MockFeatures
++ __IVARS__TtC20CommunicationsUICore16TraitEnvironment
++ __IVARS__TtC20CommunicationsUICore18RemoteVideoService
++ __IVARS__TtC20CommunicationsUICore19CameraDeviceService
++ __IVARS__TtC20CommunicationsUICore19CameraZoomViewModel
++ __IVARS__TtC20CommunicationsUICore20LocalCameraViewModel
++ __IVARS__TtC20CommunicationsUICore20RemoteVideoViewModel
++ __IVARS__TtC20CommunicationsUICore21ParticipantsViewModel
++ __IVARS__TtC20CommunicationsUICore22FTAccessibilityService
++ __IVARS__TtC20CommunicationsUICore26IntelligentCroppingService
++ __IVARS__TtC20CommunicationsUICore30DualCaptureTelemetryController
++ __IVARS__TtC20CommunicationsUICore30SharePlayActivityStateObserver
++ __IVARS__TtC20CommunicationsUICore33FTAccessibilityInteractionSession
++ __IVARS__TtC20CommunicationsUICore36FTAccessibilityInteractionController
++ __IVARS__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_5B5BDB4FDD3979F90C6054F8D80EFD5112WeakDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_F7FEED997626FAABE94AFF48619AACAB12WeakDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICore11TTSSpellOut
++ __METACLASS_DATA__TtC20CommunicationsUICore12MockFeatures
++ __METACLASS_DATA__TtC20CommunicationsUICore16TraitEnvironment
++ __METACLASS_DATA__TtC20CommunicationsUICore18RemoteVideoService
++ __METACLASS_DATA__TtC20CommunicationsUICore19CameraDeviceService
++ __METACLASS_DATA__TtC20CommunicationsUICore19CameraZoomViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore20LocalCameraViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore20MockCallCenterFacade
++ __METACLASS_DATA__TtC20CommunicationsUICore20RemoteVideoViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __METACLASS_DATA__TtC20CommunicationsUICore21ParticipantsViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore22FTAccessibilityService
++ __METACLASS_DATA__TtC20CommunicationsUICore24PlatformCapabilitiesObjC
++ __METACLASS_DATA__TtC20CommunicationsUICore26IntelligentCroppingService
++ __METACLASS_DATA__TtC20CommunicationsUICore30DualCaptureTelemetryController
++ __METACLASS_DATA__TtC20CommunicationsUICore30SharePlayActivityStateObserver
++ __METACLASS_DATA__TtC20CommunicationsUICore33FTAccessibilityInteractionSession
++ __METACLASS_DATA__TtC20CommunicationsUICore36FTAccessibilityInteractionController
++ __METACLASS_DATA__TtC20CommunicationsUICore8Features
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_5B5BDB4FDD3979F90C6054F8D80EFD5112WeakDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_F7FEED997626FAABE94AFF48619AACAB12WeakDelegate
++ __OBJC_$_INSTANCE_METHODS__TtC20CommunicationsUICore18RemoteVideoService(CommunicationsUICore)
++ __OBJC_$_INSTANCE_METHODS__TtC20CommunicationsUICore20LocalCameraViewModel(CommunicationsUICore)
++ __OBJC_$_INSTANCE_METHODS__TtC20CommunicationsUICore36FTAccessibilityInteractionController(CommunicationsUICore)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCMediaAnalyzerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCMediaAnalyzerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCRemoteVideoClientDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCMediaAnalyzerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCRemoteVideoClientDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCMediaAnalyzerDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCRemoteVideoClientDelegate
++ __OBJC_$_PROTOCOL_REFS_UITraitChangeRegistration
++ __OBJC_CLASS_PROTOCOLS_$__TtC20CommunicationsUICore18RemoteVideoService(CommunicationsUICore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC20CommunicationsUICore20LocalCameraViewModel(CommunicationsUICore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC20CommunicationsUICore36FTAccessibilityInteractionController(CommunicationsUICore)
++ __OBJC_LABEL_PROTOCOL_$_AVCMediaAnalyzerDelegate
++ __OBJC_LABEL_PROTOCOL_$_AVCRemoteVideoClientDelegate
++ __OBJC_LABEL_PROTOCOL_$_UITraitChangeRegistration
++ __OBJC_PROTOCOL_$_AVCMediaAnalyzerDelegate
++ __OBJC_PROTOCOL_$_AVCRemoteVideoClientDelegate
++ __OBJC_PROTOCOL_$_UITraitChangeRegistration
++ __PROPERTIES__TtC20CommunicationsUICore20TraitEnvironmentObjC
++ __PROTOCOLS__TtC20CommunicationsUICore20ConversationObserver.33
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_290B492B4CD9B0E62269807D6DBE053832SharePlayActivitySessionDelegate.4
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_2C6FE6CD1CD385DAE4A8DB064192147716AnalyzerDelegate.4
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_A7852591389A57C1945075C1FBAAE5CB33RemoteConversationManagerDelegate.4
++ ___swift__destructor
++ ___swift__destructor.8
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.107Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.59Tm
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.94Tm
++ ___swift_closure_destructorTm
++ ___swift_memcpy2_1
++ ___swift_memcpy48_8
++ ___swift_memcpy79_8
++ ___swift_memcpy81_8
++ _associated conformance 20CommunicationsUICore11RemoteVideoO0D7QualityOSHAASQ
++ _associated conformance 20CommunicationsUICore11RemoteVideoO15ConnectionStateOSHAASQ
++ _associated conformance 20CommunicationsUICore11TTSSpellOutC17CustomStringRange33_1063155398BFEEBFB6D07D264E2B3036LLVSHAASQ
++ _associated conformance 20CommunicationsUICore11TTSSpellOutC44ConfirmationNumberReadAloudUnsupportedReasonOSHAASQ
++ _associated conformance 20CommunicationsUICore12CameraDeviceO11OrientationOSHAASQ
++ _associated conformance 20CommunicationsUICore12CameraDeviceO11OrientationOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 20CommunicationsUICore12CameraDeviceO8PositionOSHAASQ
++ _associated conformance 20CommunicationsUICore12CameraDeviceO8PositionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 20CommunicationsUICore17DualCaptureMetricVSHAASQ
++ _associated conformance 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderV5StyleOSHAASQ
++ _associated conformance 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderV7SwiftUI0eF0AASH
++ _associated conformance 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderVSHAASQ
++ _associated conformance 20CommunicationsUICore23PosterLoadingPRSEnabled33_6B955CBEDB24EAEF875FB52DD93B4829LLOSHAASQ
++ _associated conformance 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLOSHAASQ
++ _associated conformance 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore32AccessibilityInteractionActivityV10CodingKeys33_F7FEED997626FAABE94AFF48619AACABLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore32AccessibilityInteractionActivityV10CodingKeys33_F7FEED997626FAABE94AFF48619AACABLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore32AccessibilityInteractionActivityV15GroupActivities0fE0AASE
++ _associated conformance 20CommunicationsUICore32AccessibilityInteractionActivityV15GroupActivities0fE0AASe
++ _associated conformance 20CommunicationsUICore8AVModule33_6B955CBEDB24EAEF875FB52DD93B4829LLOSHAASQ
++ _block_copy_helper.13
++ _block_copy_helper.24
++ _block_copy_helper.5
++ _block_copy_helper.51
++ _block_copy_helper.8
++ _block_copy_helper.88
++ _block_copy_helper.97
++ _block_descriptor.10
++ _block_descriptor.15
++ _block_descriptor.26
++ _block_descriptor.53
++ _block_descriptor.7
++ _block_descriptor.90
++ _block_descriptor.99
++ _block_destroy_helper.14
++ _block_destroy_helper.25
++ _block_destroy_helper.52
++ _block_destroy_helper.6
++ _block_destroy_helper.89
++ _block_destroy_helper.9
++ _block_destroy_helper.98
++ _flat unique So25UITraitChangeRegistration_p
++ _flat unique So28AVCRemoteVideoClientDelegate_p
++ _get_type_metadata 15Synchronization5MutexVySo17UITraitCollectionCG noncopyable.5
++ _get_type_metadata 15Synchronization5MutexVySo25UITraitChangeRegistration_pSgG noncopyable.6
++ _get_witness_table 7SwiftUI5LabelVyAA4TextVAA19_ConditionalContentVyAA5ImageVAA9EmptyViewVGGAA0I0HPyHC.137
++ _kAVCRemoteVideoClientOptionKey_IsLocalConnectionUnstable
++ _kCAGravityResizeAspectFill
++ _objc_msgSend$CGSizeValue
++ _objc_msgSend$_colorEffectCAMatrix:
++ _objc_msgSend$activeFormat
++ _objc_msgSend$activitySessions
++ _objc_msgSend$analysisResult
++ _objc_msgSend$begin
++ _objc_msgSend$callForConversationWithGroupUUID:
++ _objc_msgSend$camera
++ _objc_msgSend$captionDeliveryForFaceTimeEnabled
++ _objc_msgSend$commit
++ _objc_msgSend$connectedScenes
++ _objc_msgSend$contentsRect
++ _objc_msgSend$currentInputDevice
++ _objc_msgSend$currentInputIsExternal
++ _objc_msgSend$currentInputSupportsCinematicFraming
++ _objc_msgSend$disabledRoutes
++ _objc_msgSend$displayScale
++ _objc_msgSend$doubleValue
++ _objc_msgSend$dualCameraCaptureSendingSupported
++ _objc_msgSend$enableMediaAnalyzer:
++ _objc_msgSend$hasOnlyBuiltInRoutes
++ _objc_msgSend$horizontalSizeClass
++ _objc_msgSend$hostAudioTranscriptionAnalysisServerEnabled
++ _objc_msgSend$initWithConfiguration:delegate:
++ _objc_msgSend$initWithDelegate:delegateQueue:analysisType:streamToken:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithStreamToken:delegate:
++ _objc_msgSend$inputDevices
++ _objc_msgSend$isAirPodsRoute
++ _objc_msgSend$isCinematicFramingEnabled
++ _objc_msgSend$isContinuityCamera
++ _objc_msgSend$isDisabled
++ _objc_msgSend$isDualCaptureAvailable
++ _objc_msgSend$isEqual:
++ _objc_msgSend$isPreviewRunning
++ _objc_msgSend$isPrimarySessionEnabled
++ _objc_msgSend$isSecondaryCameraRunning
++ _objc_msgSend$isSecondarySessionEnabled
++ _objc_msgSend$isSharingScreen
++ _objc_msgSend$isVideoPaused
++ _objc_msgSend$languageCode
++ _objc_msgSend$layoutDirection
++ _objc_msgSend$localVideoLandscapeAspectRatio
++ _objc_msgSend$localVideoPortraitAspectRatio
++ _objc_msgSend$objectForSlot:
++ _objc_msgSend$opaqueSessionID
++ _objc_msgSend$orientation
++ _objc_msgSend$outputVoice
++ _objc_msgSend$pausePreview
++ _objc_msgSend$position
++ _objc_msgSend$preferredContentSizeCategory
++ _objc_msgSend$previewMSROptimizationEnabled
++ _objc_msgSend$rampSecondaryCameraZoomFactor:withRate:
++ _objc_msgSend$ratio
++ _objc_msgSend$removeDelegate:
++ _objc_msgSend$reportDualCaptureMetric:forConversationGroupUUID:
++ _objc_msgSend$resizablePhoneAppEnabled
++ _objc_msgSend$secondaryCameraLandscapeAspectRatio
++ _objc_msgSend$secondaryCameraMaxZoomFactor
++ _objc_msgSend$secondaryCameraPortraitAspectRatio
++ _objc_msgSend$secondaryCameraUID
++ _objc_msgSend$secondaryCameraZoomAvailable
++ _objc_msgSend$secondaryCameraZoomFactor
++ _objc_msgSend$secondaryInputDevices
++ _objc_msgSend$secondaryStreamToken
++ _objc_msgSend$setActive:error:
++ _objc_msgSend$setAllowsDisplayCompositing:
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setCategory:withOptions:error:
++ _objc_msgSend$setCinematicFramingEnabled:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setContentsGravity:
++ _objc_msgSend$setCreatesCompositingGroup:
++ _objc_msgSend$setCurrentInputDevice:isUserPreferred:
++ _objc_msgSend$setCurrentVideoOrientation:
++ _objc_msgSend$setDirection:
++ _objc_msgSend$setHorizontalSizeClass:
++ _objc_msgSend$setIsSendingVideo:
++ _objc_msgSend$setLocalBackLayer:
++ _objc_msgSend$setLocalBackLayerHost:
++ _objc_msgSend$setLocalFrontLayer:
++ _objc_msgSend$setLocalFrontLayerHost:
++ _objc_msgSend$setPreferredMicrophoneInjectionMode:error:
++ _objc_msgSend$setPresentationAspectRatioStyle:conversation:
++ _objc_msgSend$setPrimarySessionEnabled:
++ _objc_msgSend$setProviderIdentifier:
++ _objc_msgSend$setReportingSamplingUUID:
++ _objc_msgSend$setSecondaryCameraUID:
++ _objc_msgSend$setSecondaryCameraZoomFactor:
++ _objc_msgSend$setSecondarySessionEnabled:
++ _objc_msgSend$setTranscriptionProvider:
++ _objc_msgSend$setVerticalSizeClass:
++ _objc_msgSend$setVideoCaptureMode:
++ _objc_msgSend$setVideoPaused:
++ _objc_msgSend$sharedApplication
++ _objc_msgSend$sharedPreferences
++ _objc_msgSend$slotForMode:
++ _objc_msgSend$startPreview
++ _objc_msgSend$stopPreview
++ _objc_msgSend$streamToken
++ _objc_msgSend$traitCollection
++ _objc_msgSend$traitCollectionWithTraits:
++ _objc_msgSend$uniqueID
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$userInterfaceStyle
++ _objc_msgSend$verticalSizeClass
++ _objc_msgSend$videoCaptureMode
++ _objc_msgSend$videoDeviceController
++ _objc_msgSend$virtualDeviceSwitchOverVideoZoomFactors
++ _objc_msgSend$windows
++ _objc_retainAutoreleaseReturnValue
++ _os_variant_allows_internal_security_policies
++ _os_variant_has_internal_content
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x2
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_deinitOnExecutor
++ _swift_task_reportUnexpectedExecutor
++ _symbolic $s20CommunicationsUICore20RemoteVideoServicingP
++ _symbolic $s20CommunicationsUICore24FTAccessibilityServicingP
++ _symbolic $s20CommunicationsUICore24TUVideoDeviceControllingP
++ _symbolic $s20CommunicationsUICore25RemoteVideoClientProtocolP
++ _symbolic $s20CommunicationsUICore31SharePlayActivityStateObservingP
++ _symbolic $s20CommunicationsUICore37FTAccessibilityInteractionControllingP
++ _symbolic $s20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic $s20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic $ss12CaseIterableP
++ _symbolic SDySny_____GSiG SS5IndexV
++ _symbolic SDy__________G s6UInt64V 20CommunicationsUICore20RemoteVideoViewModelC
++ _symbolic SDy__________G s6UInt64V 7Combine14AnyCancellableC
++ _symbolic SDy__________y_____Sg_____GG 20CommunicationsUICore12CameraDeviceO8PositionO 7Combine19CurrentValueSubjectC AC11AspectRatioO s5NeverO
++ _symbolic SDy__________y_____Sg_____GG 20CommunicationsUICore12CameraDeviceO8PositionO 7Combine19CurrentValueSubjectC AC11OrientationO s5NeverO
++ _symbolic SS_SSt
++ _symbolic SaySDy_____ypGG s11AnyHashableV
++ _symbolic Say_____G 12CoreGraphics7CGFloatV
++ _symbolic Say_____G 20CommunicationsUICore12CameraDeviceO11OrientationO
++ _symbolic Say_____G 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic Say_____G 20CommunicationsUICore12WeakDelegate33_5B5BDB4FDD3979F90C6054F8D80EFD51LLC
++ _symbolic Say_____G 20CommunicationsUICore12WeakDelegate33_F7FEED997626FAABE94AFF48619AACABLLC
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____GIegg_ 20CommunicationsUICore11TTSSpellOutC05SpellD14WordTimingInfoV
++ _symbolic Say_____GSg 12CoreGraphics7CGFloatV
++ _symbolic Say______pG 20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic Say______pG 20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic SbSg25isLocalConnectionUnstable_t
++ _symbolic Sbyc
++ _symbolic Shy_____G 20CommunicationsUICore17DualCaptureMetricV
++ _symbolic SiIegy_
++ _symbolic Sny_____G SS5IndexV
++ _symbolic So13UIWindowSceneC
++ _symbolic So14NSUserDefaultsCSg
++ _symbolic So15AVCaptureDeviceC6device_t
++ _symbolic So16AVCMediaAnalyzerCSg
++ _symbolic So21TUConversationManagerC
++ _symbolic _____ 20CommunicationsUICore11RemoteVideoO
++ _symbolic _____ 20CommunicationsUICore11RemoteVideoO0D5StateV
++ _symbolic _____ 20CommunicationsUICore11RemoteVideoO0D7QualityO
++ _symbolic _____ 20CommunicationsUICore11RemoteVideoO14NetworkQualityO
++ _symbolic _____ 20CommunicationsUICore11RemoteVideoO15ConnectionStateO
++ _symbolic _____ 20CommunicationsUICore11TTSSpellOutC
++ _symbolic _____ 20CommunicationsUICore11TTSSpellOutC05SpellD14WordTimingInfoV
++ _symbolic _____ 20CommunicationsUICore11TTSSpellOutC17CustomStringRange33_1063155398BFEEBFB6D07D264E2B3036LLV
++ _symbolic _____ 20CommunicationsUICore11TTSSpellOutC44ConfirmationNumberReadAloudUnsupportedReasonO
++ _symbolic _____ 20CommunicationsUICore12CameraDeviceO
++ _symbolic _____ 20CommunicationsUICore12CameraDeviceO11AspectRatioO
++ _symbolic _____ 20CommunicationsUICore12CameraDeviceO11OrientationO
++ _symbolic _____ 20CommunicationsUICore12CameraDeviceO16ZoomCapabilitiesV
++ _symbolic _____ 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____ 20CommunicationsUICore12MockFeaturesC
++ _symbolic _____ 20CommunicationsUICore12VideoOverlayV
++ _symbolic _____ 20CommunicationsUICore12WeakDelegate33_5B5BDB4FDD3979F90C6054F8D80EFD51LLC
++ _symbolic _____ 20CommunicationsUICore12WeakDelegate33_F7FEED997626FAABE94AFF48619AACABLLC
++ _symbolic _____ 20CommunicationsUICore16AnalyzerDelegate33_2C6FE6CD1CD385DAE4A8DB0641921477LLC
++ _symbolic _____ 20CommunicationsUICore16CallsColorMatrixV
++ _symbolic _____ 20CommunicationsUICore16TraitEnvironmentC
++ _symbolic _____ 20CommunicationsUICore17DualCaptureMetricV
++ _symbolic _____ 20CommunicationsUICore18RemoteVideoServiceC
++ _symbolic _____ 20CommunicationsUICore19CameraDeviceServiceC
++ _symbolic _____ 20CommunicationsUICore19CameraZoomViewModelC
++ _symbolic _____ 20CommunicationsUICore19CameraZoomViewModelC09SecondaryD10CapabilityO
++ _symbolic _____ 20CommunicationsUICore20LocalCameraViewModelC
++ _symbolic _____ 20CommunicationsUICore20LocalCameraViewModelC11DisplayModeO
++ _symbolic _____ 20CommunicationsUICore20MockCallCenterFacadeC
++ _symbolic _____ 20CommunicationsUICore20PlatformCapabilitiesV
++ _symbolic _____ 20CommunicationsUICore20RemoteVideoViewModelC
++ _symbolic _____ 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO
++ _symbolic _____ 20CommunicationsUICore20TraitEnvironmentObjCC
++ _symbolic _____ 20CommunicationsUICore21ColorMatrixConvertionV
++ _symbolic _____ 20CommunicationsUICore21ParticipantsViewModelC
++ _symbolic _____ 20CommunicationsUICore22FTAccessibilityServiceC
++ _symbolic _____ 20CommunicationsUICore23CallTranscriptsMaterialV
++ _symbolic _____ 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderV
++ _symbolic _____ 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderV5StyleO
++ _symbolic _____ 20CommunicationsUICore23PosterLoadingPRSEnabled33_6B955CBEDB24EAEF875FB52DD93B4829LLO
++ _symbolic _____ 20CommunicationsUICore24PlatformCapabilitiesObjCC
++ _symbolic _____ 20CommunicationsUICore26IntelligentCroppingServiceC
++ _symbolic _____ 20CommunicationsUICore30DualCaptureTelemetryControllerC
++ _symbolic _____ 20CommunicationsUICore30SharePlayActivityStateObserverC
++ _symbolic _____ 20CommunicationsUICore31AccessibilityCaptionsTranscriptV
++ _symbolic _____ 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLO
++ _symbolic _____ 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____ 20CommunicationsUICore32AccessibilityInteractionActivityV10CodingKeys33_F7FEED997626FAABE94AFF48619AACABLLO
++ _symbolic _____ 20CommunicationsUICore32SharePlayActivitySessionDelegate33_290B492B4CD9B0E62269807D6DBE0538LLC
++ _symbolic _____ 20CommunicationsUICore33FTAccessibilityInteractionSessionC
++ _symbolic _____ 20CommunicationsUICore33RemoteConversationManagerDelegate33_A7852591389A57C1945075C1FBAAE5CBLLC
++ _symbolic _____ 20CommunicationsUICore36FTAccessibilityInteractionControllerC
++ _symbolic _____ 20CommunicationsUICore8AVModule33_6B955CBEDB24EAEF875FB52DD93B4829LLO
++ _symbolic _____ 20CommunicationsUICore8FeaturesC
++ _symbolic _____ SS5IndexV
++ _symbolic _____ So19UIDeviceOrientationV
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ s6UInt64V
++ _symbolic _____2id______13speechRequestt 10Foundation4UUIDV 14SiriTTSService13SpeechRequestC
++ _symbolic _____2id______13speechRequesttSg 10Foundation4UUIDV 14SiriTTSService13SpeechRequestC
++ _symbolic _____7primary_AA9secondaryt 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____8portrait_AA9landscapet So6CGSizeV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 14SiriTTSService13DaemonSessionC
++ _symbolic _____Sg 20CommunicationsUICore11RemoteVideoO0D5StateV
++ _symbolic _____Sg 20CommunicationsUICore12CameraDeviceO11AspectRatioO
++ _symbolic _____Sg 20CommunicationsUICore12CameraDeviceO11OrientationO
++ _symbolic _____Sg 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____Sg 20CommunicationsUICore12VideoOverlayV
++ _symbolic _____Sg 20CommunicationsUICore16AnalyzerDelegate33_2C6FE6CD1CD385DAE4A8DB0641921477LLC
++ _symbolic _____Sg 20CommunicationsUICore19CameraZoomViewModelC09SecondaryD10CapabilityO
++ _symbolic _____Sg 20CommunicationsUICore26IntelligentCroppingServiceC
++ _symbolic _____Sg 20CommunicationsUICore30DualCaptureTelemetryControllerC
++ _symbolic _____Sg 20CommunicationsUICore33FTAccessibilityInteractionSessionC
++ _symbolic _____Sg So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV
++ _symbolic _____Sg So6CGRectV
++ _symbolic _____SgAB_____SgIegnnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV AA12CameraDeviceO11AspectRatioO
++ _symbolic _____SgAB_____SgIegnnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV AA12CameraDeviceO11OrientationO
++ _symbolic _____SgAB_____SgIegnnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV So6CGRectV
++ _symbolic _____SgXw 20CommunicationsUICore11TTSSpellOutC
++ _symbolic _____SgXw 20CommunicationsUICore16TraitEnvironmentC
++ _symbolic _____SgXw 20CommunicationsUICore19CameraDeviceServiceC
++ _symbolic _____SgXw 20CommunicationsUICore20LocalCameraViewModelC
++ _symbolic _____SgXw 20CommunicationsUICore20RemoteVideoViewModelC
++ _symbolic _____SgXw 20CommunicationsUICore21ParticipantsViewModelC
++ _symbolic _____SgXw 20CommunicationsUICore22FTAccessibilityServiceC
++ _symbolic _____SgXw 20CommunicationsUICore23FTMenuItemStateProviderC
++ _symbolic _____SgXw 20CommunicationsUICore26IntelligentCroppingServiceC
++ _symbolic _____SgXw 20CommunicationsUICore30SharePlayActivityStateObserverC
++ _symbolic _____SgXw 20CommunicationsUICore33FTAccessibilityInteractionSessionC
++ _symbolic _____SgXw 20CommunicationsUICore36FTAccessibilityInteractionControllerC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore11TTSSpellOutC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore16TraitEnvironmentC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore19CameraDeviceServiceC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore20RemoteVideoViewModelC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore21ParticipantsViewModelC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore23FTMenuItemStateProviderC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore36FTAccessibilityInteractionControllerC
++ _symbolic _____XDXMT 20CommunicationsUICore11TTSSpellOutC
++ _symbolic _____XMT 20CommunicationsUICore11TTSSpellOutC
++ _symbolic ______AAtSg 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic __________Iegnn_ 20CommunicationsUICore31AccessibilityCaptionsTranscriptV 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic __________Iegnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV AA12CameraDeviceO11AspectRatioO
++ _symbolic __________Iegnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV AA12CameraDeviceO11OrientationO
++ _symbolic __________Iegnr_ 20CommunicationsUICore11RemoteVideoO0D5StateV So6CGRectV
++ _symbolic __________SgAC______pSgIegnnnr_ 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO AA0cD0O0D5StateV AA0cD9ServicingP
++ _symbolic __________SgIegnn_ 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO AA12CameraDeviceO8PositionO
++ _symbolic ___________Sgt 10Foundation6LocaleV 20CommunicationsUICore11TTSSpellOutC44ConfirmationNumberReadAloudUnsupportedReasonO
++ _symbolic ___________SgtSg 10Foundation6LocaleV 20CommunicationsUICore11TTSSpellOutC44ConfirmationNumberReadAloudUnsupportedReasonO
++ _symbolic _______________SgIegnnr_ 20CommunicationsUICore11RemoteVideoO0D7QualityO AC07NetworkE0O AA0D7OverlayV
++ _symbolic ___________t 20CommunicationsUICore11RemoteVideoO0D7QualityO AC07NetworkE0O
++ _symbolic ___________t 20CommunicationsUICore12CameraDeviceO8PositionO AC11AspectRatioO
++ _symbolic ___________t 20CommunicationsUICore31AccessibilityCaptionsTranscriptV 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic ___________tSg 20CommunicationsUICore12CameraDeviceO8PositionO AC11AspectRatioO
++ _symbolic ______p 20CommunicationsUICore24TUVideoDeviceControllingP
++ _symbolic ______p 20CommunicationsUICore31SharePlayActivityStateObservingP
++ _symbolic ______p 20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic ______p 20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic ______pIegg_ 20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic ______pIegg_ 20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic ______pSg 20CommunicationsUICore20RemoteVideoServicingP
++ _symbolic ______pSg 20CommunicationsUICore25RemoteVideoClientProtocolP
++ _symbolic ______pSg 20CommunicationsUICore37FTAccessibilityInteractionControllingP
++ _symbolic ______pSg So25UITraitChangeRegistrationP
++ _symbolic ______pSgSi_______ptc 20CommunicationsUICore25RemoteVideoClientProtocolP So09AVCRemotedE8DelegateP
++ _symbolic ______pSgXw 20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic ______pSgXw 20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic ______pSic 20CommunicationsUICore20RemoteVideoServicingP
++ _symbolic _____ySJG s11_SetStorageC
++ _symbolic _____ySay_____G_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC s5NeverO
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____ySb_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySny_____GSiG s18_DictionaryStorageC SS5IndexV
++ _symbolic _____ySo17UITraitCollectionCG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySo25TUConversationParticipantCG s11_SetStorageC
++ _symbolic _____ySo29TUConversationActivitySessionCG s11_SetStorageC
++ _symbolic _____y_____G 15GroupActivities0A7SessionC 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____y_____G 7Combine4JustV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO
++ _symbolic _____y_____G s11_SetStorageC 20CommunicationsUICore17DualCaptureMetricV
++ _symbolic _____y_____G s11_SetStorageC s6UInt64V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore31AccessibilityCaptionsTranscriptV10CodingKeys33_DEB9CE25D5250E58410D09B1F5D4E240LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore32AccessibilityInteractionActivityV10CodingKeys33_F7FEED997626FAABE94AFF48619AACABLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore11TTSSpellOutC05SpellG14WordTimingInfoV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI8MaterialVACE5LayerV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI8MaterialVACE5LayerV6FilterV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CGRectV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
++ _symbolic _____y_____SgG 7Combine4JustV 20CommunicationsUICore11RemoteVideoO0F5StateV
++ _symbolic _____y_____SgG 7Combine4JustV So6CGRectV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0G5StateV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 20CommunicationsUICore12CameraDeviceO11AspectRatioO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV So6CGRectV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0H5StateV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore12CameraDeviceO11AspectRatioO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore12CameraDeviceO11OrientationO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore31AccessibilityCaptionsTranscriptV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC So6CGRectV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine5EmptyV 20CommunicationsUICore11RemoteVideoO0F5StateV s5NeverO
++ _symbolic _____y_____SiG s18_DictionaryStorageC 20CommunicationsUICore11TTSSpellOutC17CustomStringRange33_1063155398BFEEBFB6D07D264E2B3036LLV
++ _symbolic _____y______G 15GroupActivities0A16SessionMessengerC13MessageStreamV 20CommunicationsUICore31AccessibilityCaptionsTranscriptV
++ _symbolic _____y______G 15GroupActivities0A7SessionC5StateO 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC8SessionsV 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____y______G 7Combine10PublishersO9MergeManyV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______SbG 7Combine10PublishersO10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______SbG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y_______G 15GroupActivities0A7SessionC8SessionsV8IteratorV 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____y__________G 7Combine12AnyPublisherV 10Foundation4DataV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0G7QualityO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore11RemoteVideoO14NetworkQualityO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 10Foundation4DataV s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0H7QualityO s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO14NetworkQualityO s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 20CommunicationsUICore20LocalCameraViewModelC11DisplayModeO s5NeverO
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 20CommunicationsUICore20RemoteVideoViewModelC
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 7Combine14AnyCancellableC
++ _symbolic _____y___________G 7Combine10PublishersO10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____y___________G 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV So19UIDeviceOrientationV
++ _symbolic _____y___________SgG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____y_________________tG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV 20CommunicationsUICore12CameraDeviceO8PositionO AM11AspectRatioO
++ _symbolic _____y_________________tSgG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV 20CommunicationsUICore12CameraDeviceO8PositionO AM11AspectRatioO
++ _symbolic _____y___________tG 7Combine4JustV 20CommunicationsUICore11RemoteVideoO0F7QualityO AF07NetworkG0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 20CommunicationsUICore12CameraDeviceO8PositionO AE11AspectRatioO
++ _symbolic _____y___________tSgG s23_ContiguousArrayStorageC 20CommunicationsUICore12CameraDeviceO8PositionO AE11AspectRatioO
++ _symbolic _____y___________tSg_____G 7Combine12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO AF11AspectRatioO s5NeverO
++ _symbolic _____y___________t_____G 7Combine12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0G7QualityO AF07NetworkH0O s5NeverO
++ _symbolic _____y___________t_____G 7Combine12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO AF11AspectRatioO s5NeverO
++ _symbolic _____y__________y_____Sg_____GG s18_DictionaryStorageC 20CommunicationsUICore12CameraDeviceO8PositionO 7Combine19CurrentValueSubjectC AE11AspectRatioO s5NeverO
++ _symbolic _____y__________y_____Sg_____GG s18_DictionaryStorageC 20CommunicationsUICore12CameraDeviceO8PositionO 7Combine19CurrentValueSubjectC AE11OrientationO s5NeverO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 20CommunicationsUICore41FTAccessibilityInteractionSessionDelegateP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 20CommunicationsUICore44FTAccessibilityInteractionControllerDelegateP
++ _symbolic _____y______pSgG 15Synchronization5MutexVAARi_zrlE So25UITraitChangeRegistrationP
++ _symbolic _____y______pSg_____G 7Combine12AnyPublisherV 20CommunicationsUICore20RemoteVideoServicingP s5NeverO
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 5UIKit17UITraitDefinitionP
++ _symbolic _____y______y_AAy______y__________G_____GGACy_____SgAEGG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AJ12CameraDeviceO8PositionO So6CGRectV
++ _symbolic _____y______y_AAy______y__________G_____SgGAAy______y_ACy___________tAEGAAy_ACy______pSgAEGAMGGAHGGAHG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO AJ0J7OverlayV AC08SwitchToD0V AL0J7QualityO AL07NetworkQ0O AJ0iJ9ServicingP
++ _symbolic _____y______y_SaySbG_____G_____y______SbGG 7Combine10PublishersO11ConcatenateV AC8SequenceV s5NeverO AC10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_SaySbG_____G_____y______SbGG 7Combine10PublishersO11ConcatenateV AC8SequenceV s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_SaySbG_____G_____y______y______GSbGG 7Combine10PublishersO11ConcatenateV AC8SequenceV s5NeverO AC3MapV AC9MergeManyV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_Say_____SgG_____G_____y______ADGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_Say_____SgG_____G_____y______y______ADGGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO AC9MergeManyV AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_Say___________tG_____G_____y______AC_ADtGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO AJ11AspectRatioO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_Say___________tSgG_____G_____y______AEGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO AJ11AspectRatioO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_____Sg_____GACG 7Combine10PublishersO10CompactMapV AA19CurrentValueSubjectC 20CommunicationsUICore31AccessibilityCaptionsTranscriptV s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO12HandleEventsV AA12AnyPublisherV 20CommunicationsUICore12CameraDeviceO11AspectRatioO s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0K5StateV s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore12CameraDeviceO11AspectRatioO s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore12CameraDeviceO11OrientationO s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC So6CGRectV s5NeverO
++ _symbolic _____y______y_____Sg_____G_____SgG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0I5StateV s5NeverO AH12CameraDeviceO8PositionO
++ _symbolic _____y______y_____Sg_____G_____yAdEGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0I5StateV s5NeverO AA19CurrentValueSubjectC
++ _symbolic _____y______y_____Sg_____G_____y_ABy______pSgAEGAFGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV So6CGRectV s5NeverO AC3MapV 20CommunicationsUICore20RemoteVideoServicingP
++ _symbolic _____y______y_____Sg_____G_____y______y_AGy_ABy_____AEG_____GGAFGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV So6CGRectV s5NeverO AC3MapV AC16RemoveDuplicatesV 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO AP12CameraDeviceO8PositionO
++ _symbolic _____y______y______GSbG 7Combine10PublishersO3MapV AC9MergeManyV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y__________GABy_____ADGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0I7QualityO s5NeverO AJ07NetworkJ0O
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0K7QualityO s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO14NetworkQualityO s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore20LocalCameraViewModelC11DisplayModeO s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO
++ _symbolic _____y______y__________GSo9NSRunLoopCG 7Combine10PublishersO7TimeoutV AA12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO
++ _symbolic _____y______y__________G_____G 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AH12CameraDeviceO8PositionO
++ _symbolic _____y______y__________G_____SgG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO AH0I7OverlayV
++ _symbolic _____y______y__________G_____y_ABy______pSgADGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO AC3MapV AH0jK9ServicingP
++ _symbolic _____y______y__________G_____y_____SgADGAByAhDGG 7Combine10PublishersO0A7Latest3V AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AA12AnyPublisherV AH0iJ0O0J5StateV
++ _symbolic _____y______y___________G_____G 7Combine10PublishersO10CompactMapV AC0D0V So20NSNotificationCenterC10FoundationE9PublisherV So19UIDeviceOrientationV 20CommunicationsUICore12CameraDeviceO0J0O
++ _symbolic _____y______y___________SgGG 7Combine10PublishersO9MergeManyV AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV 20CommunicationsUICore12CameraDeviceO8PositionO
++ _symbolic _____y______y___________t_____GADG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore12CameraDeviceO8PositionO AJ11AspectRatioO s5NeverO
++ _symbolic _____y______y___________t_____G_____y_ABy______pSgAEGAFGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0K7QualityO AJ07NetworkL0O s5NeverO AC3MapV AH0jK9ServicingP
++ _symbolic _____y______y______pSg_____GABy_____AEGG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoServicingP s5NeverO AH0hI0O15ConnectionStateO
++ _symbolic _____y______y______pSg_____GABy_____SgAEGG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoServicingP s5NeverO So6CGRectV
++ _symbolic _____y______y______pSg_____GABy___________tAEGG 7Combine10PublishersO3MapV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoServicingP s5NeverO AH0hI0O0I7QualityO AN07NetworkL0O
++ _symbolic _____y______y______y_AAy______y__________GGABy______y_____SgAFG_____SgGABy_AAy_ADyAkFGGANGGAM_AMtSgGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC0A7Latest3V AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AA12AnyPublisherV AL0lM0O0M5StateV AL12CameraDeviceO8PositionO
++ _symbolic _____y______y______y_ABy______y__________G_____SgGABy______y_ADy___________tAFGABy_ADy______pSgAFGANGGAIGGAIGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO AL0L7OverlayV AC08SwitchToF0V AN0L7QualityO AN07NetworkS0O AL0kL9ServicingP
++ _symbolic _____y______y______y_SaySbG_____G_____y______SbGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_SaySbG_____G_____y______SbGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_SaySbG_____G_____y______y______GSbGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC3MapV AC9MergeManyV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_Say_____SgG_____G_____y______AEGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_Say_____SgG_____G_____y______y______AEGGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO s5NeverO AC9MergeManyV AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_Say___________tG_____G_____y______AD_AEtGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO AL11AspectRatioO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_Say___________tSgG_____G_____y______AFGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV 20CommunicationsUICore12CameraDeviceO8PositionO AL11AspectRatioO s5NeverO AC3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y_____Sg_____GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0M5StateV s5NeverO
++ _symbolic _____y______y______y_____Sg_____GG_____SgG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0L5StateV s5NeverO AJ12CameraDeviceO8PositionO
++ _symbolic _____y______y______y_____Sg_____G_____yAeFGG_____SgG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0J5StateV s5NeverO AA19CurrentValueSubjectC AJ12CameraDeviceO11AspectRatioO
++ _symbolic _____y______y______y_____Sg_____G_____yAeFGG_____SgG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0J5StateV s5NeverO AA19CurrentValueSubjectC AJ12CameraDeviceO11OrientationO
++ _symbolic _____y______y______y_____Sg_____G_____yAeFGG_____SgG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0J5StateV s5NeverO AA19CurrentValueSubjectC So6CGRectV
++ _symbolic _____y______y______y__________GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO0M7QualityO s5NeverO
++ _symbolic _____y______y______y__________GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO14NetworkQualityO s5NeverO
++ _symbolic _____y______y______y__________GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO
++ _symbolic _____y______y______y__________GG_____y______y_____SgAEG_____SgGAHy_ABy_ACyAkEGGANGG 7Combine10PublishersO0A7Latest3V AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AC3MapV AA12AnyPublisherV AJ0kL0O0L5StateV AJ12CameraDeviceO8PositionO
++ _symbolic _____y______y______y__________GG_____y______y_____SgAEG_____SgGG 7Combine10PublishersO0A6LatestV AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AC3MapV AA12AnyPublisherV AJ0kL0O0L5StateV AJ12CameraDeviceO8PositionO
++ _symbolic _____y______y______y__________G_____GG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AA12AnyPublisherV 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AJ12CameraDeviceO8PositionO
++ _symbolic _____y______y______y__________G_____SgGABy______y_ACy___________tAEGABy_ACy______pSgAEGAMGGAHGG 7Combine10PublishersO0A6LatestV AC3MapV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO15ConnectionStateO s5NeverO AJ0J7OverlayV AC08SwitchToC0V AL0J7QualityO AL07NetworkQ0O AJ0iJ9ServicingP
++ _symbolic _____y______y______y__________G_____y_____SgAEGACyAiEGG______pSgG 7Combine10PublishersO3MapV AC0A7Latest3V AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AA12AnyPublisherV AJ0jK0O0K5StateV AJ0jK9ServicingP
++ _symbolic _____y______y______y___________t_____GAAy_ACy______pSgAFGAGGG_____SgG 7Combine10PublishersO3MapV AC14SwitchToLatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0L7QualityO AL07NetworkM0O s5NeverO AJ0kL9ServicingP AJ0L7OverlayV
++ _symbolic _____y______y______y______y_____Sg_____G_____yAfGGG_____SgGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0L5StateV s5NeverO AA19CurrentValueSubjectC AL12CameraDeviceO11AspectRatioO
++ _symbolic _____y______y______y______y_____Sg_____G_____yAfGGG_____SgGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0L5StateV s5NeverO AA19CurrentValueSubjectC AL12CameraDeviceO11OrientationO
++ _symbolic _____y______y______y______y_____Sg_____G_____yAfGGG_____SgGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AC0A6LatestV AA12AnyPublisherV 20CommunicationsUICore11RemoteVideoO0L5StateV s5NeverO AA19CurrentValueSubjectC So6CGRectV
++ _symbolic _____y______y______y______y__________GGAAy______y_____SgAFG_____SgGAAy_ACy_ADyAkFGGANGGAM_AMtSgG 7Combine10PublishersO3MapV AC0A7Latest3V AC16RemoveDuplicatesV AA19CurrentValueSubjectC 20CommunicationsUICore20RemoteVideoViewModelC11DisplayModeO s5NeverO AA12AnyPublisherV AL0lM0O0M5StateV AL12CameraDeviceO8PositionO
++ _symbolic _____y______ytG 7Combine10PublishersO3MapV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______yyt_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y______yyt_____GSo9NSRunLoopCG 7Combine10PublishersO7TimeoutV AA12AnyPublisherV s5NeverO
++ _symbolic _____y_____y______G_G 7Combine9PublishedV9PublisherV 15GroupActivities0D7SessionC5StateO 20CommunicationsUICore32AccessibilityInteractionActivityV
++ _symbolic _____yyt_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____yyt_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic ySDy_____ypGc s11AnyHashableV
++ _symbolic ySaySo25TUConversationParticipantCGcSg
++ _symbolic ySb_SbtcSg
++ _type_layout_string 20CommunicationsUICore11RemoteVideoO0D5StateV
++ _type_layout_string 20CommunicationsUICore11TTSSpellOutC05SpellD14WordTimingInfoV
++ _type_layout_string 20CommunicationsUICore11TTSSpellOutC17CustomStringRange33_1063155398BFEEBFB6D07D264E2B3036LLV
++ _type_layout_string 20CommunicationsUICore12CameraDeviceO16ZoomCapabilitiesV
++ _type_layout_string 20CommunicationsUICore12VideoOverlayV
++ _type_layout_string 20CommunicationsUICore17DualCaptureMetricV
++ _type_layout_string 20CommunicationsUICore19CameraZoomViewModelC09SecondaryD10CapabilityO
++ _type_layout_string 20CommunicationsUICore23CallTranscriptsMaterialV8ProviderV
++ _type_layout_string 20CommunicationsUICore31AccessibilityCaptionsTranscriptV
++ _type_layout_string So6CGRectV
++ _type_layout_string So6CGSizeV
+- __PROTOCOLS__TtC20CommunicationsUICore20ConversationObserver.30
+- ___swift_memcpy75_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_CommunicationsUICore
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_CommunicationsUICore
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_CommunicationsUICore
+- _block_copy_helper.10
+- _block_copy_helper.46
+- _block_copy_helper.6
+- _block_copy_helper.82
+- _block_copy_helper.95
+- _block_descriptor.12
+- _block_descriptor.48
+- _block_descriptor.8
+- _block_descriptor.84
+- _block_descriptor.97
+- _block_destroy_helper.11
+- _block_destroy_helper.47
+- _block_destroy_helper.7
+- _block_destroy_helper.83
+- _block_destroy_helper.96
+- _get_witness_table 7SwiftUI5LabelVyAA4TextVAA19_ConditionalContentVyAA5ImageVAA9EmptyViewVGGAA0I0HPyHC.135
+- _objc_retain_x1
+- _objectdestroy.105Tm
+- _objectdestroy.11Tm
+- _objectdestroy.17Tm
+- _objectdestroy.20Tm
+- _objectdestroy.2Tm
+- _objectdestroy.60Tm
+- _objectdestroy.92Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _symbolic _____y______pSgG s23_ContiguousArrayStorageC 20CommunicationsUICore18FTMenuItemProviderP
+- _type_layout_string So7CGPointV
+CStrings:
++ "\n  Content Size: "
++ ", trailing subtitle character count:"
++ ", trailing title character count:"
++ ", trailingSubtitle:"
++ ", trailingTitle:"
++ "AVCMediaAnalyzer didEnable: %{bool}d, error: %s"
++ "AVCMediaAnalyzer disabled for stream token %ld"
++ "AVCMediaAnalyzer enabled for stream token %ld"
++ "AVCMediaAnalyzer server died"
++ "AVLiveActivity"
++ "Accessibility already started. Remote start: %{bool}d"
++ "Accessibility already stopped. Remote start: %{bool}d"
++ "Accessibility has started on remote"
++ "Accessibility session cancelled."
++ "Activity sessions changed: hasActive = %{bool}d, hasLocallyInitiated = %{bool}d"
++ "Add/update participant: %llu, secondaryToken: %ld"
++ "Already requested remote captions"
++ "Already showing %s, ignoring"
++ "Available input devices: %ld"
++ "Both position and first frame ready! Updating display mode to %s"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_%@_AS_IN_%@"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_APPEND"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_DIGIT_%@"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_LETTER_%@"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_A"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_B"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_C"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_D"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_E"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_F"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_G"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_H"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_I"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_J"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_K"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_L"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_M"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_N"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_O"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_P"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_Q"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_R"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_S"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_T"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_U"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_V"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_W"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_X"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_Y"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PHONETIC_LETTER_Z"
++ "CALL_CONTEXT_CARDS_READ_CONFIRMATION_NUMBER_PREPEND"
++ "CONNECTION_UNSTABLE_LABEL"
++ "Cancelling active request"
++ "Cancelling active speaking request"
++ "Cannot find device for UID: %s"
++ "Cannot flip camera in dual mode"
++ "Cannot select camera in dual mode"
++ "Caption sourceClient %s"
++ "Caption targetClient %s"
++ "Cleared cache"
++ "Clearing all dual camera participants"
++ "CommunicationsUICore.AnalyzerDelegate"
++ "CommunicationsUICore.FTAccessibilityInteractionController"
++ "CommunicationsUICore.FTAccessibilityService"
++ "CommunicationsUICore.LocalCameraViewModel"
++ "CommunicationsUICore.RemoteConversationManagerDelegate"
++ "CommunicationsUICore.RemoteVideoService"
++ "CommunicationsUICore.SharePlayActivitySessionDelegate"
++ "CommunicationsUICore/FTAccessibilityService.swift"
++ "CommunicationsUICore/TTSSpellOut.swift"
++ "Contacts"
++ "ControlCenter"
++ "Created RemoteVideoService with token %ld"
++ "Creating accessibility interaction session for group session: %s"
++ "Current input device already at position %s, skipping selection"
++ "Delegate callback - %ld dual capture participant(s)"
++ "Device orientation invalid, skipping initial orientation setup"
++ "Didn't create FT accessibility interactionController for call %s"
++ "Disabling secondary camera"
++ "Display mode changed to dual - participant: %llu"
++ "Display mode dual - adding view model for participant: %llu"
++ "Display mode not dual yet - pending for participant: %llu"
++ "Dual camera mode disabled"
++ "Dual camera mode disabled: restored previous position: %s, isTakenOver: %{bool}d, shouldKeepFrontOff: %{bool}d"
++ "Dual camera mode enabled after secondary stream connected"
++ "Dual camera mode enabled timeout."
++ "Dual camera mode enabled: primary=front, secondary=back"
++ "Dual camera mode requested, waiting for secondary stream connection"
++ "EnablePrimaryCamera"
++ "Error while setting up speaking: %@"
++ "Error while speaking: %@"
++ "Estimated duration: %f"
++ "FTAccessibilityInteraction"
++ "FTAccessibilityService: init"
++ "FTAccessibilityService: invalid call"
++ "Failed to create the activity"
++ "Fetched and cached unsupported reason for locale %s: %s"
++ "First frame arrived for expected %s"
++ "First frame arrived timeout: %s"
++ "First frame notification missing camera UID, cannot determine position"
++ "First frame received for camera at position: %s (UID: %s)"
++ "Flipping camera from %s to %s"
++ "Generated SSML \"%{private}s\" with mapping %s"
++ "Got callback for AFPreferences change"
++ "Ignore. Already waiting for secondary camera first frame."
++ "Ignore. Cannot perform dual capture."
++ "Ignore. Dual camera mode already enabled"
++ "Ignore. It's already single camera mode."
++ "Initial activity sessions check: hasActive = %{bool}d, hasLocallyInitiated = %{bool}d"
++ "Intelligent cropping disabled"
++ "Intelligent cropping enabled"
++ "IntelligentCropping"
++ "Invalidating accessibility interaction session: %s"
++ "Join accessibility session, since accessibility has started locally."
++ "Joining session for FaceTime call."
++ "LOCAL_CONNECTION_UNSTABLE_LABEL"
++ "Locale %s does not support read-aloud: %s"
++ "No active conversation, skipping aspect ratio style update"
++ "No camera found for position: %s continuity: %{bool}d"
++ "No camera found for position: %s, using first available"
++ "Not a FaceTime call"
++ "Not handling non-FaceTime providers."
++ "Not ready to flip yet: position=%{bool}d, frame=%{bool}d"
++ "Notify remote has started accessibility."
++ "Observing accessibility session. created locally: %{bool}d"
++ "Position changed to expected %s"
++ "Preferred languages: %s, possibleLanguages.count %ld, availableLanguage count: %ld, possibleLanguages: %s"
++ "REMOTE_%@_CONNECTION_UNSTABLE_LABEL"
++ "Ramping secondary camera zoom factor: %f with rate: %f"
++ "Read aloud is supported for locale %s: voice %s, locale %s"
++ "Read aloud unsupported for %s (unsupportedLanguage)"
++ "Read aloud unsupported: %s != %s (siriAndLocaleLanguageCodeMismatch)"
++ "Read aloud unsupported: Voice does not have a name (noVoiceName)"
++ "Read aloud unsupported: Voice language code unavailable (noVoiceLanguageCode)"
++ "Read aloud unsupported: output voice is nil (noSiriVoice)"
++ "Receive assistant message: %{private}s %s"
++ "Received Activity observation ending with state update: %s"
++ "Received Activity state update: %s: %s"
++ "Received Activity: %s"
++ "Received TUVideoDeviceControllerDidChangeLocalCameraUID notification"
++ "Received TUVideoDeviceControllerDidStartPreview notification"
++ "Received TUVideoDeviceControllerReceivedFirstSecondaryFrame notification"
++ "Registered for trait changes on window scene"
++ "Registered layer for primary stream (position: %s, slot: %d)"
++ "Registered layer for secondary stream (position: %s, slot: %d)"
++ "Registering Darwin notification for AFPreferences change"
++ "Remote captions already stopped"
++ "Remote stops accessibility, receiver also needs to stop the captions"
++ "Removing participant: %llu"
++ "Request to get remote captions, but accessibility starts locally."
++ "Requested to read out confirmation number: %{private}s"
++ "Requested to reset if id is %s"
++ "Requesting Activity with contentState: %s and with attributes: %s"
++ "Resetting for id %s"
++ "Returning cached unsupported reason for locale %s: %s"
++ "Secondary camera zoom not available"
++ "SecondaryCameraMaxZoomLevel"
++ "Selected camera: %s"
++ "Selecting camera: %s"
++ "Setting TU video orientation to: %d (%s)"
++ "Setting active request to id %s"
++ "Setting secondary camera to: %s (UID: %s)"
++ "Setting secondary camera zoom factor: %f"
++ "Skip update - participant: %llu, secondaryToken: %ld"
++ "Speaking done callback for id %s"
++ "Speaking finished"
++ "Speaking requested, synthesis voice language: %s, name: %s"
++ "SpringBoard has updated value to: %{bool}d"
++ "Start accessibility"
++ "Starting accessibility interaction session"
++ "Stop accessibility"
++ "Stopping speaking"
++ "System camera position change to %s, updating immediately"
++ "TTS unsupported reason requested for locale %s"
++ "TTSSpellOutPreferenceChange"
++ "TUVideoDeviceControllerDidStartPreviewDeviceUniqueID"
++ "TraitEnvironment:\n  Horizontal: "
++ "Traits changed for scene, updating environment"
++ "Transitioning to dual mode (connection is .connected and displayMode is .single)"
++ "Updated stream: position=%s, aspectRatio=%s, orientation=%s"
++ "Updating call identifier: %s"
++ "Updating presentation aspect ratio style to: %s"
++ "Updating with %ld dual capture participant(s)"
++ "VIDEO_SUSPENDED_LABEL"
++ "Waiting to show %s, ignoring"
++ "[%s]: blocking phoneNumbers %s \n\n emailAddresses: %s"
++ "accessibility session has already started."
++ "accessibility session has already stopped."
++ "addPeople is telephony call. Checking if in lost mode or running setup assistant"
++ "already start dual cam with token: %ld"
++ "aspectRatioPublisher(for: %s): emitted %s"
++ "back"
++ "cameraSwitchDuringStaging"
++ "captionDeliveryForFaceTimeEnabled is not enabled, not joining the conversation"
++ "com.apple.CommunicationsUICore"
++ "com.apple.FaceTime.Accessibility.Captions"
++ "com.apple.facetime"
++ "controller: remoteEndsAccessibility"
++ "didDetectSensitiveContentWithAnalysis for token: %ld"
++ "exclamationmark.triangle.fill"
++ "external"
++ "forceCinematicFramingForDualCapture: before=%{bool}d, savedState=%s"
++ "forceCinematicFramingForDualCapture: forcing ON"
++ "forceCinematicFramingForDualCapture: not available, skipping"
++ "front"
++ "init FTAccessibilityInteractionController for call %s"
++ "init FTAccessibilityInteractionSession for %s"
++ "landscapeLeft"
++ "landscapeRight"
++ "mePiPLocationChanged"
++ "networkQualityDidDegrade: %{bool}d, token: %ld"
++ "noVoiceLanguageCode"
++ "portrait"
++ "portraitUpsideDown"
++ "poster_loading_prs"
++ "primaryCameraPosition: %s"
++ "primaryCameraPosition: currentInputDevice is nil"
++ "primaryCameraPosition: external camera"
++ "received mute state did change notification for a different call"
++ "rectangle(portrait: "
++ "registerLayer failed for mode=%d"
++ "registerLayer for mode=%d, slot=%u, position=%s"
++ "registerLayer for position: %s"
++ "remote ends accessibility from callback"
++ "remote joins the groupSession for accessibility %s"
++ "remote joins the groupSession for accessibility %s. Accessibility starts locally."
++ "remote leaves the groupSession for accessibility %s"
++ "remote leaves the groupSession for accessibility starts locally."
++ "remoteEndsAccessibility"
++ "remoteMediaDidStall: %{bool}d token: %ld"
++ "remoteStartsAccessibility"
++ "remoteVideoAttributesDidChange: camera=%u, orientation=%u, ratio=%fx%f token: %ld"
++ "remoteVideoClientDidReceiveFirstFrame token: %ld"
++ "remoteVideoDidPause: %{bool}d token: %ld"
++ "requestRemoteCaptions"
++ "restoreCinematicFramingAfterDualCapture: no saved state, skipping"
++ "restoreCinematicFramingAfterDualCapture: restoring to %{bool}d, current=%{bool}d"
++ "siriAndLocaleLanguageCodeMismatch"
++ "start observeAccessibilityActivity"
++ "startAccessibilitySession"
++ "startGettingRemoteAccessibilityCaptions"
++ "stop observeAccessibilityActivity"
++ "stopAccessibilitySession"
++ "stopRemoteCaptions, remoteLeaves: %{bool}d"
++ "trailingSubtitle"
++ "translateAspectRatio: ratio=%s, orientation=%u"
++ "tuCallProvider is not FaceTimeProvider"
++ "unsupportedLanguage"
++ "videoDidDegrade: %{bool}d token: %ld"
++ "videoDidSuspend: %{bool}d token: %ld"
++ "x\n  Layout Direction: "
+- "#16@0:8"
+- "$__lazy_storage_$_eventSource"
+- "$__lazy_storage_$_isInLostMode"
+- "$__lazy_storage_$_isSetupAssistantRunning"
+- "$__lazy_storage_$_isSpringBoardPasscodeSubject"
+- "$__lazy_storage_$_routeDelegate"
+- "$__lazy_storage_$_sqlDatabase"
+- "$__lazy_storage_$_waitOnHoldController"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "AVCCaptionsClientDelegate"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CCFTMenuItemRegistry"
+- "CNKeyDescriptor"
+- "CUICPhoneLockStateObserver"
+- "Communication"
+- "CommunicationsUICore"
+- "FTUserScore"
+- "Failed to creat the activity"
+- "IMAVSunsetEnabled"
+- "LVMEverywhere"
+- "LVMMessageQueueingEnabled"
+- "LanguageCode"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "OS_tcc_identity"
+- "OS_tcc_object"
+- "Preferred languages: %s, possibleLanguges.count %ld, availableLanguage count: %ld, possibleLanguages: %s"
+- "Q16@0:8"
+- "Receive assistent message: %{private}s %s"
+- "Recieved Activity observation ending with state update: %s"
+- "Recieved Activity state update: %s: %s"
+- "Recieved Activity: %s"
+- "Requesting Activity with contentState: %s and with attrbutes: %s"
+- "Spring Board has updated value to: %{bool}d"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "TB,R"
+- "TB,R,N"
+- "TQ,R"
+- "TTRBannerEnabled"
+- "TUConversationManagerDelegate"
+- "TUFeatureFlags"
+- "TURouteControllerDelegate"
+- "Translation"
+- "UUID"
+- "Vv16@0:8"
+- "[%s]: blocking phoneNumbers %s \n\n emailAddreses: %s"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_TtC20CommunicationsUICore10CallFacade"
+- "_TtC20CommunicationsUICore10FTMenuItem"
+- "_TtC20CommunicationsUICore11ContactKeys"
+- "_TtC20CommunicationsUICore15ActivityWrapper"
+- "_TtC20CommunicationsUICore15ContactsService"
+- "_TtC20CommunicationsUICore15DebounceHandler"
+- "_TtC20CommunicationsUICore15FTMenuViewModel"
+- "_TtC20CommunicationsUICore16AudioMuteService"
+- "_TtC20CommunicationsUICore16CallCenterFacade"
+- "_TtC20CommunicationsUICore16DeviceConditions"
+- "_TtC20CommunicationsUICore17AudioRouteService"
+- "_TtC20CommunicationsUICore18BlocklistViewModel"
+- "_TtC20CommunicationsUICore20ContactStoreProvider"
+- "_TtC20CommunicationsUICore20ConversationObserver"
+- "_TtC20CommunicationsUICore20LanguageAssetManager"
+- "_TtC20CommunicationsUICore21ContactChangeObserver"
+- "_TtC20CommunicationsUICore22BlockUnblockController"
+- "_TtC20CommunicationsUICore22CallTranslationService"
+- "_TtC20CommunicationsUICore22CaptionsClientDelegate"
+- "_TtC20CommunicationsUICore23FTMenuItemStateProvider"
+- "_TtC20CommunicationsUICore23PodcastRecordingService"
+- "_TtC20CommunicationsUICore24CallTranslationRTTHelper"
+- "_TtC20CommunicationsUICore24SensitiveContentSettings"
+- "_TtC20CommunicationsUICore25DarwinNotificationWrapper"
+- "_TtC20CommunicationsUICore26LanguageSelectionViewModel"
+- "_TtC20CommunicationsUICore27FTMenuItemProviderContainer"
+- "_TtC20CommunicationsUICore27SettingsPersonListViewModel"
+- "_TtC20CommunicationsUICore29TranslationInteractionSession"
+- "_TtC20CommunicationsUICore30CallTranslationCaptionsClients"
+- "_TtC20CommunicationsUICore30LanguageSelectionDownloadModel"
+- "_TtC20CommunicationsUICore31CallScreeningTranscriptsService"
+- "_TtC20CommunicationsUICore32CallRecordingAvailabilityManager"
+- "_TtC20CommunicationsUICore32TranslationInteractionController"
+- "_TtC20CommunicationsUICore34AudioAccessoryAssetDownloadService"
+- "_TtC20CommunicationsUICore34AudioCallPunchOutMoreMenuViewModel"
+- "_TtC20CommunicationsUICore35AudioCallSplitCallMoreMenuViewModel"
+- "_TtC20CommunicationsUICore38CallTranslationBiomeLanguageController"
+- "_TtC20CommunicationsUICore47AudioCallConferenceParticipantMoreMenuViewModel"
+- "_TtC20CommunicationsUICoreP33_5859C44149DEFA644EBE5CBE4DBC65E711StringDummy"
+- "_TtC20CommunicationsUICoreP33_794E5A3136078D8D4D40DFBEB8BAB2CB12WeakDelegate"
+- "_TtC20CommunicationsUICoreP33_846D0A5282A3A64002ADFB6C0FB782F512WeakDelegate"
+- "_TtC20CommunicationsUICoreP33_8E92376F0F5C36D11E88C838831E7D4E19ResourceBundleClass"
+- "_TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate"
+- "_TtC20CommunicationsUICoreP33_C60C12309A0D8B4C6B24B2867827D64715MockTranscripts"
+- "_availableLanguages"
+- "_customEditMode"
+- "_deleteEntryAction"
+- "_dismissOnTap"
+- "_downloadSize"
+- "_entries"
+- "_hasReportedSpam"
+- "_icon"
+- "_isCommunicationSafetyEnabled"
+- "_isContactAnalysisEnabled"
+- "_isDefaultModel"
+- "_isPresentingSecondaryView"
+- "_isReady"
+- "_isSafetyCheckActive"
+- "_isSessionActive"
+- "_isVideoVoiceMailAnalysisEnabled"
+- "_items"
+- "_knownPersonListViewModel"
+- "_presentContactPicker"
+- "_primaryViewProvider"
+- "_progress"
+- "_rowAction"
+- "_secondaryView"
+- "_state"
+- "_stopAction"
+- "_stopTint"
+- "_stopTitle"
+- "_subEntryText"
+- "_subtitle"
+- "_suggestedLanguages"
+- "_title"
+- "_titleBadge"
+- "_unknownContacts"
+- "_unknownPersonListViewModel"
+- "_wantsToDismiss"
+- "aTVHandoff"
+- "acceptedContactsLabelsEnabled"
+- "action"
+- "activeConversationForCall:"
+- "activeParticipentUpdateSubject"
+- "activeRemoteParticipants"
+- "activity"
+- "activityIdentifier"
+- "activityObserver"
+- "activitySession"
+- "addDelegate:"
+- "addDelegate:queue:"
+- "addEntryAction"
+- "addEntryText"
+- "addPeople is telephony call. Checking if in lost mode or runnining setup assistant"
+- "afbEnabled"
+- "analysisFeatureEnablement"
+- "analyzer"
+- "announceCalls"
+- "answeringMachineStreamToken"
+- "appProtectionEnabled"
+- "appleAccountRebrandEnabled"
+- "areAuxiliaryRoutesAvailable"
+- "assistantName"
+- "aswanEnabled"
+- "audioCallTranslationEnabled"
+- "audioCallUIModernizationEnabled"
+- "automaticCallActivationDisabled"
+- "autorelease"
+- "avLessSharePlayEnabled"
+- "avMode"
+- "availableLocaleIdentifiers"
+- "avcCameraSelectionEnabled"
+- "betterBlockingEnabled"
+- "biomeLanguageController"
+- "biometryType"
+- "blockListSyncingEnabled"
+- "boolValue"
+- "bottomDivider"
+- "btScanAbstraction"
+- "bundleForClass:"
+- "cachedIdentityToContactStore"
+- "call"
+- "callCenter"
+- "callConnectHapticsEnabled"
+- "callDirectoryIdentityType"
+- "callExperiencePhoneAppEnabled"
+- "callExperienceVoicemailDetailsEnabled"
+- "callGroupUUID"
+- "callHistorySearchEnabled"
+- "callManagementMuteControl"
+- "callManagerEnabled"
+- "callRecording"
+- "callRecordingEnabled"
+- "callRemindersEnabled"
+- "callScreeningEnabled"
+- "callScreeningEnabledM3"
+- "callScreeningRTTEnabled"
+- "callStatus"
+- "callTranscriptionExpansionEnabled"
+- "callTranscriptionGASRExpansionEnabled"
+- "callTranscriptionGASRMigrationEnabled"
+- "callUUID"
+- "callWithUniqueProxyIdentifier:"
+- "callerIDSyncMacEnabled"
+- "calls"
+- "callsBusinessMetadataQuery"
+- "canEvaluatePolicy:error:"
+- "cancel"
+- "cancellables"
+- "capabilities"
+- "captionDraggingEnabled"
+- "captionsClient:didChangeSourceLocale:"
+- "captionsClient:didConfigureCaptionsWithError:"
+- "captionsClient:didDetectGibberish:"
+- "captionsClient:didDisableCaptions:error:"
+- "captionsClient:didEnableCaptions:error:"
+- "captionsClient:didProduceLanguageHypothesis:"
+- "captionsClient:didStartCaptioningWithReason:"
+- "captionsClient:didStopCaptioningWithReason:"
+- "captionsClient:didStopLanguageDetectorWithError:"
+- "captionsClient:didUpdateCaptions:source:"
+- "captionsProvider"
+- "captionsServerDidDie:"
+- "carPlayBannersEnabled"
+- "changeStream"
+- "civicBlurAvatarsEnabled"
+- "civicBlurPosterEnabled"
+- "class"
+- "collaborateTogetherEnabled"
+- "com.apple.CommunicationUICore"
+- "com.apple.communicationuicore"
+- "communicationDetailsEnabled"
+- "communicationTrustAdoption"
+- "completions"
+- "conferenceParticipantCalls"
+- "conferenceParticipants"
+- "configureCaptions:"
+- "conformsToProtocol:"
+- "contact"
+- "contactForDestinationId:"
+- "contactForIdentifier:keysToFetch:"
+- "contactIdentifiers"
+- "contactStore"
+- "contactWithDisplayName:handleStrings:"
+- "contacts"
+- "continuityCaptureEnabled"
+- "continuityEmergencyMultiDeviceDiscoveryEnabled"
+- "controlMessageOverQREnabled"
+- "controller"
+- "conversationHandoffEnabled"
+- "conversationManager"
+- "conversationManager:activeRemoteParticipantsChangedForConversation:"
+- "conversationManager:activeRemoteParticipantsChangedForConversation:fromOldConversation:"
+- "conversationManager:activitySessionsChangedForConversation:"
+- "conversationManager:activitySessionsChangedForConversation:fromOldConversation:"
+- "conversationManager:addedActiveConversation:"
+- "conversationManager:avModeChangedForConversation:"
+- "conversationManager:avModeChangedForConversation:fromOldConversation:"
+- "conversationManager:cameraMixedWithScreenDidChangeForConversation:"
+- "conversationManager:cameraMixedWithScreenDidChangeForConversation:fromOldConversation:"
+- "conversationManager:changedActivityAuthorizationForBundleIdentifier:"
+- "conversationManager:collaborationChanged:forConversation:collaborationState:"
+- "conversationManager:conversation:addedMembersLocally:"
+- "conversationManager:conversation:buzzedMember:"
+- "conversationManager:conversation:didChangeSceneAssociationForActivitySession:"
+- "conversationManager:conversation:didChangeStateForActivitySession:"
+- "conversationManager:conversation:launchStateChanged:forActivitySession:"
+- "conversationManager:conversation:participant:addedCollaborationNotice:"
+- "conversationManager:conversation:participant:addedNotice:"
+- "conversationManager:conversation:receivedActivitySessionEvent:"
+- "conversationManager:conversation:requestedScreenShareForParticipant:"
+- "conversationManager:conversation:screenSharingChangedForParticipant:"
+- "conversationManager:conversation:updatedMessagesGroupPhoto:"
+- "conversationManager:conversationUpdatedMessagesGroupName:"
+- "conversationManager:conversationUpdatedMessagesGroupName:fromOldConversation:"
+- "conversationManager:conversationUpdatedMessagesGroupUUID:"
+- "conversationManager:didChangeActivatedLinks:"
+- "conversationManager:didChangeConversationAdvertisement:"
+- "conversationManager:handoffEligibilityChangedForConversation:"
+- "conversationManager:handoffEligibilityChangedToConversation:fromPreviousConversation:"
+- "conversationManager:ignoreLMIRequestsChangedForConversation:"
+- "conversationManager:kickedMembersChangedForConversation:"
+- "conversationManager:kickedMembersChangedForConversation:fromOldConversation:"
+- "conversationManager:letMeInRequestStateChangedForConversation:"
+- "conversationManager:letMeInRequestStateChangedForConversation:fromOldConversation:"
+- "conversationManager:linkChangedForConversation:"
+- "conversationManager:linkChangedForConversation:fromOldConversation:"
+- "conversationManager:linkInvitedMemberHandlesChangedForConversation:"
+- "conversationManager:linkInvitedMemberHandlesChangedForConversation:fromOldConversation:"
+- "conversationManager:localParticipantClusterDidChangeForConversation:"
+- "conversationManager:localParticipantClusterDidChangeForConversation:fromOldConversation:"
+- "conversationManager:localVideoToggledForConversation:"
+- "conversationManager:localVideoToggledForConversation:fromOldConversation:"
+- "conversationManager:migratingFromConversation:toConversation:"
+- "conversationManager:nearbySharePlayToggledForConversation:"
+- "conversationManager:nearbySharePlayToggledForConversation:fromOldConversation:"
+- "conversationManager:oneToOneModeChangedForConversation:"
+- "conversationManager:oneToOneModeChangedForConversation:fromOldConversation:"
+- "conversationManager:otherInvitedHandlesChangedForConversation:"
+- "conversationManager:otherInvitedHandlesChangedForConversation:fromOldConversation:"
+- "conversationManager:pendingMembersChangedForConversation:"
+- "conversationManager:pendingMembersChangedForConversation:fromOldConversation:"
+- "conversationManager:presentationContextChangedForConversation:"
+- "conversationManager:presentationContextChangedForConversation:fromOldConversation:"
+- "conversationManager:rejectedMembersChangedForConversation:"
+- "conversationManager:rejectedMembersChangedForConversation:fromOldConversation:"
+- "conversationManager:remoteMembersChangedForConversation:"
+- "conversationManager:remoteMembersChangedForConversation:fromOldConversation:"
+- "conversationManager:remoteScreenShareAttributesChanged:isLocallySharing:"
+- "conversationManager:remoteScreenShareEndedWithReason:"
+- "conversationManager:removedActiveConversation:"
+- "conversationManager:resolvedAudioVideoModeChangedForConversation:"
+- "conversationManager:resolvedAudioVideoModeChangedForConversation:fromOldConversation:"
+- "conversationManager:screenSharingAvailableChanged:"
+- "conversationManager:screenSharingRequestsChangedForConversation:fromOldConversation:"
+- "conversationManager:screeningChangedForConversation:"
+- "conversationManager:sharePlayAvailableChanged:"
+- "conversationManager:stateChangedForConversation:"
+- "conversationManager:stateChangedForConversation:fromOldConversation:"
+- "conversationManager:systemActivitySessionsChangedForConversation:"
+- "conversationManager:systemActivitySessionsChangedForConversation:fromOldConversation:"
+- "conversationManager:trackedPendingMember:forConversationLink:"
+- "conversationManager:updatedIncomingPendingConversations:"
+- "conversationObserver"
+- "conversationOneToOneModeEnabled"
+- "conversationsChangedForConversationManager:"
+- "copyWithZone:"
+- "currentActivity"
+- "currentAudioAndVideoCallCount"
+- "currentAudioAndVideoCallGroups"
+- "currentCallCount"
+- "currentCallGroups"
+- "currentDevice"
+- "currentHistoryToken"
+- "currentSelected"
+- "currentStartSessionTask"
+- "currentTelephonyConversation"
+- "currentTranscripts"
+- "currentTranslateTo"
+- "currentTranslateToLocale"
+- "dealloc"
+- "debugDescription"
+- "defaultAppsEnabled"
+- "defaultAssumedIdentity"
+- "defaultCallingAppsGracefulFallbackEnabled"
+- "defaultCenter"
+- "defaultLocalScript"
+- "defaultRemoteScript"
+- "defaultTranslateToLocale"
+- "delay"
+- "delayStartReply"
+- "delegate"
+- "deleteEntryAction"
+- "deleteText"
+- "description"
+- "descriptorForRequiredKeys"
+- "descriptorForRequiredKeysForStyle:"
+- "descriptorForUsedKeys"
+- "deskView"
+- "deviceExpertMigrationEnabled"
+- "deviceType"
+- "dialerInterceptEnabled"
+- "digits"
+- "disconnectCall:"
+- "displayContext"
+- "displayFirstName"
+- "displayName"
+- "downlinkCaptions"
+- "downlinkTranslatorIdentifier"
+- "downloadSize"
+- "downloadTranslationAssets:useCellular:showDownloadCompleteNotification:completion:"
+- "dualSIMRingtoneEnabled"
+- "emailAddresses"
+- "embedSwapBannerEnabled"
+- "enableCaptions:"
+- "encodeWithCoder:"
+- "enhancedCallRecordingEnabled"
+- "error"
+- "evaluatePolicy:options:reply:"
+- "expanseBTSwitchingEnabled"
+- "expanseEnabled"
+- "faceTimeMessageStoreOnMacEnabled"
+- "favoritesCallTapTargetsEnabled"
+- "featureFlags"
+- "features"
+- "filterGFTaaSCalls"
+- "footerText"
+- "frontmostCall"
+- "frsvEnabled"
+- "ftAppDeletionEnabled"
+- "ftCallFilteringHideNotificationsEnabled"
+- "ftlcGeneralASRExpansionEnabled"
+- "ftlcGeneralASRMigrationEnabled"
+- "ftlcPrimaryLanguageControlledEnabled"
+- "ftvSpatialAudioEnabled"
+- "fullScreenVoicemailDetailsEnabled"
+- "gameCenterSharePlayIntegration"
+- "gameControllerSystemButton"
+- "gameOverlayEnabled"
+- "gelatoEnabled"
+- "getRed:green:blue:alpha:"
+- "gftDowngradeToOneToOne"
+- "gftOnWatch"
+- "granularCallFilteringForFaceTimeEnabled"
+- "greenTeaLagunaEnabled"
+- "greenTeaLinksEnabled"
+- "groupConversations"
+- "groupFacetimeAsAServiceEnabled"
+- "groupSession"
+- "groupUUID"
+- "guardOnLockState"
+- "handler"
+- "hasSubscribed"
+- "hash"
+- "holdAssistQfaLocaleExpansionEnabled"
+- "holdAssistQfaMobileAssetsEnabled"
+- "iPadCallRecordingEnabled"
+- "iconTemplateImageData"
+- "id"
+- "identifier"
+- "imageBadgeRendererEnabled"
+- "imageNamed:inBundle:"
+- "imageURL"
+- "imageWithRenderingMode:"
+- "inAppMacNotificationsEnabled"
+- "incomingBannerOverSixUpEnabled"
+- "incomingCallNotificationForwardingEnabled"
+- "increaseCallHistoryEnabled"
+- "init"
+- "initWithBool:"
+- "initWithCall:"
+- "initWithCall:localLocale:remoteLocale:translationLinks:remoteAudioMode:translationMode:"
+- "initWithCall:mode:isInitiatedLocally:"
+- "initWithCoder:"
+- "initWithConfiguration:"
+- "initWithConversation:originatingUIType:"
+- "initWithData:"
+- "initWithDelegate:translatorIdentifier:direction:reportingSamplingUUID:"
+- "initWithDigits:countryCode:"
+- "initWithHandles:translationLanguageCode:source:translationToLanguageCode:"
+- "initWithInteger:"
+- "initWithSuiteName:"
+- "initWithTaskHint:useDedicatedMachPort:observations:"
+- "initWithUseCase:"
+- "initialMessage"
+- "initialUpdateTask"
+- "initiatorName"
+- "intelligentRoutingEnabled"
+- "interactionController"
+- "isAddCallAllowed"
+- "isAddPersonEnabled"
+- "isAmbiguous"
+- "isAuxiliary"
+- "isBackedByGroupSession"
+- "isConversation"
+- "isCurrentlyPicked"
+- "isDefaultRoute"
+- "isDownlink"
+- "isDualSimParityEnabled"
+- "isEligibleForScreening"
+- "isEqual:"
+- "isFaceTimeProvider"
+- "isFocusBasedSimSilencingEnabled"
+- "isGuest"
+- "isHostedOnCurrentDevice"
+- "isIncomingCommunicationBlockedForEmailAddress:"
+- "isIncomingCommunicationBlockedForPhoneNumber:"
+- "isKindOfClass:"
+- "isLocallyInitiated"
+- "isLocked"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isOneToOneFaceTimeMyself"
+- "isPodcastRecordingAllowed"
+- "isPreferredAndActive"
+- "isProxy"
+- "isRTT"
+- "isReceiver"
+- "isRecommended"
+- "isRecording"
+- "isRecordingAllowed"
+- "isRecordingPodcast"
+- "isRemoteCallControlOnWatchEnabled"
+- "isRemoteStartedSubject"
+- "isSameWiFiNetworkPingCheckEnabled"
+- "isScreening"
+- "isScreeningDueToUserInteraction"
+- "isSensitiveContentWarningEnabledForService:"
+- "isSharePlayCapable"
+- "isShowingRemoteLocale"
+- "isSpeaker"
+- "isSystemProvider"
+- "isTTY"
+- "isTelephonyProvider"
+- "isTranslationAvailable"
+- "isTranslationStartedSubject"
+- "isUplinkMuted"
+- "isVideo"
+- "isWiredHeadphones"
+- "isWiredHeadset"
+- "isWirelessHeadset"
+- "joinConversationWithRequest:"
+- "junkFilteringEnabled"
+- "keepCallsEnabled"
+- "keys"
+- "keysToFetch"
+- "lagunaAudioCallsEnabled"
+- "lagunaContinuityCompanionModeEnabled"
+- "lagunaContinuityCompanionModeMessageSupport"
+- "lagunaEnabled"
+- "lagunaIncomingCallsEnabled"
+- "lagunaLiveCaptionsEnabled"
+- "lagunaPullBackEnabled"
+- "languageAvailability"
+- "languageManager"
+- "languagePairSubject"
+- "lastReceptionistMessage"
+- "linkNamesEnabled"
+- "listenWith:"
+- "liveCaptions"
+- "liveIDLookupEnabled"
+- "livePhotoDonation"
+- "livePhotoXPCServiceEnabled"
+- "liveReply"
+- "liveTranslation"
+- "localLocale"
+- "locale"
+- "localizedName"
+- "localizedStringForRegion:context:short:"
+- "lock"
+- "lockEventNotification"
+- "lockEventNotificationName"
+- "lockStateNotification"
+- "logger"
+- "lostModeIsActive"
+- "lostModeNotification"
+- "lvmExpansionLiveOnEnabled"
+- "lvmGeneralASRExpansionEnabled"
+- "lvmGeneralASRMigrationEnabled"
+- "macCallRecordingEnabled"
+- "mainBundle"
+- "mainRunLoop"
+- "manager"
+- "mediaTokensEnabled"
+- "memojiCameraEnabled"
+- "menuItem"
+- "menuItemProviders"
+- "messageSubscription"
+- "mochiEnabled"
+- "mockTranscripts"
+- "model"
+- "modelIconCache"
+- "modelIdentifier"
+- "modelMap"
+- "mooseEnabled"
+- "muteSubject"
+- "name"
+- "nameAndPhotoBackwardsCompatibilityEnabled"
+- "nameAndPhotoEnabled"
+- "nameAndPhotoEnabledC3"
+- "nearbyFaceTimeEnabled"
+- "needsToJoinGroupSession"
+- "needsToReportRemoteStarted"
+- "newCallHistoryStoreEnabled"
+- "next"
+- "nonInterruptingCalls"
+- "normalizedValue"
+- "notificationCenter"
+- "notificationName"
+- "notificationTask"
+- "nudityDetectionEnabled"
+- "objectForKey:"
+- "observationStarted"
+- "observationTask"
+- "observer"
+- "observers"
+- "offlineTranscriptionEnabled"
+- "offrampEnabled"
+- "oneToOneFaceTimeMyselfEnabled"
+- "outgoingCallCallerIDEnabled"
+- "participantIDToURIRemovedEnabled"
+- "pendingReply"
+- "performActionAfterDismiss"
+- "performRecordingRequest:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performTranslationRequest:completion:"
+- "personNameComponents"
+- "phoneAppCoupledRelayEnabled"
+- "phoneClassicEnabled"
+- "phoneClassicNewFavoritesEnabled"
+- "phoneLargeFormatUIEnabled"
+- "phoneNumbers"
+- "phoneRecentsAvatarsCarplayEnabled"
+- "phoneRecentsAvatarsEnabled"
+- "pickRouteWithUniqueIdentifier:"
+- "pickedRoute"
+- "pickedRouteSubject"
+- "postNotificationName:object:"
+- "posterLiveRenderEnabledMac"
+- "posterSnapshotEnabledMac"
+- "preferredLanguages"
+- "previewMSROptimizationEnabled"
+- "previousTranscriptID"
+- "progress"
+- "provider"
+- "punchOutProvider"
+- "qrPluginEncryptionEnabled"
+- "queue"
+- "reactionsEnabled"
+- "recentsCallTapTargetsEnabled"
+- "receptionistEnabled"
+- "receptionistSession"
+- "receptionistState"
+- "recived mute state did change notification for a different call"
+- "relayCallRecordingEnabled"
+- "relayCallTranslationEnabled"
+- "release"
+- "reliableMessenger"
+- "remoteLocale"
+- "remoteParticipantHandles"
+- "replyStateCancellable"
+- "reportSpamHandler"
+- "requestA2DPOverIncomingCalls"
+- "requestToScreenShareEnabled"
+- "resolvedColorWithTraitCollection:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "routeController"
+- "routes"
+- "routesChangedForRouteController:"
+- "routesSubject"
+- "row"
+- "scEnabled"
+- "sckSystemPickerEnabled"
+- "screenShare"
+- "screenSharingCALayerHostMode"
+- "screenSharingDeskViewEnabled"
+- "screenSharingDeskViewSqueegeeEnabled"
+- "screenSharingDrawToHighlightEnabled"
+- "screenSharingRemoteControlEnabled"
+- "screenSharingSpringBoardEssoniteEnabled"
+- "screeningAnnouncementHasFinished"
+- "self"
+- "sendEvent:"
+- "sendMessageWithPayload:andIdentifier:"
+- "sendReceptionistReply:"
+- "sendTranscriptToRemoteForCallEnabled"
+- "sendTranscriptToRemoteForFaceTimeAudioEnabled"
+- "serverBag"
+- "serverDisconnectedForConversationManager:"
+- "session"
+- "sessionBasedMutingEnabled"
+- "sessionCancellables"
+- "sessionObserverTask"
+- "setActivity:"
+- "setAdditionalContactKeyDescriptors:"
+- "setAssumedIdentity:"
+- "setBlockIncomingCommunication:forEmailAddress:"
+- "setBlockIncomingCommunication:forPhoneNumber:"
+- "setCallType:"
+- "setExplicitLanguageFilterEnabled:"
+- "setIncludeAcceptedIntroductions:"
+- "setIncludeLocalContacts:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLocale:"
+- "setObject:forKey:"
+- "setProvider:"
+- "setShouldUnifyResults:"
+- "setSourceLocale:"
+- "setStartingToken:"
+- "setStyle:"
+- "setUUID:"
+- "setUplinkMuted:"
+- "setUsage:"
+- "setupAssistantNotification"
+- "sharePlay"
+- "sharePlayAvailability"
+- "sharePlayCanEndWhenInitiatorLeaves"
+- "sharePlayDisabled"
+- "sharePlayDiscoverabilityEnabled"
+- "sharePlayInCallsEnabled"
+- "sharePlayInCallsForRelayEnabled"
+- "sharePlayInFaceTimeCanvasEnabled"
+- "sharePlaySFXViaInCallServiceEnabled"
+- "sharedInstance"
+- "sharedPrivacyManager"
+- "shouldRingForIncomingCallEnabled"
+- "silencedCallNotificationBlockAndReportEnabled"
+- "simLinePickerEnabled"
+- "simulatedModeEnabled"
+- "simultaneousTranslationDisclosureEnabled"
+- "smartCallActionsEnabled"
+- "smartDialerExpandedSearchEnabled"
+- "smartDialerLastFourDigitsSearchEnabled"
+- "smartDialerLocalizationEnabled"
+- "smartDialerRankingEnabled"
+- "smartHoldingAvailability"
+- "smartHoldingRelayEnabled"
+- "smartHoldingSession"
+- "smartVoicemailActionsEnabled"
+- "source"
+- "sourceClient"
+- "speechCancellable"
+- "splitCalls"
+- "state"
+- "status"
+- "stringForKey:"
+- "stringForReceptionistState:"
+- "stringFromContact:"
+- "stringValue"
+- "subject"
+- "subscribeForAnalysisAvailabilityChanges:"
+- "subscriptions"
+- "suggestedLocales"
+- "suggestionsReloadForSelectedRecipients"
+- "summary"
+- "superclass"
+- "supportsConversations"
+- "supportsRelay"
+- "supportsScreenSharing"
+- "supportsSecureCoding"
+- "supportsSharePlay"
+- "supportsUngrouping"
+- "systemActivitySessions"
+- "systemImageNameForDeviceType:"
+- "systemImageNameForModelId:completion:"
+- "systemOrangeColor"
+- "target"
+- "targetClient"
+- "taskHint"
+- "telephonyCallNotificationsEnabled"
+- "text"
+- "thirdPartyTranslationEnabled"
+- "title"
+- "token"
+- "trackedContactIDs"
+- "traitCollectionWithUserInterfaceStyle:"
+- "transcriptCancellable"
+- "transcriptDidUpdate"
+- "transcriptTranslationEnabled"
+- "transcriptionEvaluationEnabled"
+- "transcripts"
+- "transcriptsSubject"
+- "translationAvailability"
+- "translationLinks"
+- "translationSession"
+- "translationState"
+- "tu_acceptedContactStoreConfiguration"
+- "tu_assumedIdentity"
+- "tu_defaults"
+- "uNNotificationsMacOSEnabled"
+- "uPlusNDowngrade"
+- "uPlusOneFullBleedHandoffEnabled"
+- "uPlusOneScreenSharing"
+- "uPlusOneSessionWithCapabilitiesEnabled"
+- "unblockByAppEnabled"
+- "ungroupCall:"
+- "unifiedContactWithIdentifier:keysToFetch:error:"
+- "unifiedContactsMatchingPredicate:keysToFetch:error:"
+- "uninstalledAppStoreLockupEnabled"
+- "uniqueIdentifier"
+- "uniqueProxyIdentifier"
+- "uniqueProxyIdentifierUUID"
+- "uniquelyFaceTimeEnabled"
+- "unknownInitiator"
+- "unreliableMessengerEnabled"
+- "updateTranscript"
+- "uplevelFTAEnabled"
+- "uplinkCaptions"
+- "uplinkTranslatorIdentifier"
+- "useDedicatedMachPort"
+- "useSharedRecentsViewModel"
+- "usesMediaSafetyNetPillDataSource"
+- "usesModernScreenSharingFromMessages"
+- "utteranceComplete"
+- "utteranceNumber"
+- "v12@?0C8"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSString\"8"
+- "v16@?0q8"
+- "v24@0:8@\"AVCCaptionsClient\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"TUConversationManager\"16"
+- "v24@0:8@\"TURouteController\"16"
+- "v24@0:8@16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v28@0:8@\"AVCCaptionsClient\"16B24"
+- "v28@0:8@\"AVCCaptionsClient\"16C24"
+- "v28@0:8@\"TUConversationManager\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8@16C24"
+- "v32@0:8@\"AVCCaptionsClient\"16@\"AVCCaptionsLanguageDetectorResults\"24"
+- "v32@0:8@\"AVCCaptionsClient\"16@\"NSError\"24"
+- "v32@0:8@\"AVCCaptionsClient\"16@\"NSLocale\"24"
+- "v32@0:8@\"TUConversationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"TUConversationManager\"16@\"NSError\"24"
+- "v32@0:8@\"TUConversationManager\"16@\"NSString\"24"
+- "v32@0:8@\"TUConversationManager\"16@\"TUConversation\"24"
+- "v32@0:8@\"TUConversationManager\"16@\"TUConversationActivityAdvertisement\"24"
+- "v32@0:8@16@24"
+- "v36@0:8@\"AVCCaptionsClient\"16@\"AVCCaptionsResult\"24i32"
+- "v36@0:8@\"AVCCaptionsClient\"16B24@\"NSError\"28"
+- "v36@0:8@\"TUConversationManager\"16@\"<TUScreenShareAttributes>\"24B32"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16@24i32"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"NSData\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"NSSet\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversation\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationActivityEvent\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationActivitySession\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationMember\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32"
+- "v40@0:8@\"TUConversationManager\"16@\"TUConversationMember\"24@\"TUConversationLink\"32"
+- "v40@0:8@16@24@32"
+- "v48@0:8@\"TUConversationManager\"16@\"SWCollaborationHighlight\"24@\"TUConversation\"32q40"
+- "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32@\"TUCollaborationNotice\"40"
+- "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32@\"TUConversationNotice\"40"
+- "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24Q32@\"TUConversationActivitySession\"40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32q40"
+- "v48@0:8@16@24Q32@40"
+- "v8@?0"
+- "value"
+- "videoCall"
+- "videoCallTranslationEnabled"
+- "videoMessagingCalalystEnabled"
+- "videoMessagingEnabled"
+- "videoMessagingSpamReportEnabled"
+- "visionCallRecordingEnabled"
+- "vmCatchUpDonationEnabled"
+- "voiceTranslationEnabled"
+- "voicemailInboxOnIPadEnabled"
+- "voicemailSearchEnabled"
+- "volumeChangedForRouteController:"
+- "wagoneerEnabled"
+- "waitOnHoldEnabled"
+- "waitOnHoldLoggingEnabled"
+- "wantsSubtitle"
+- "wombatWisdomEnabled"
+- "workItem"
+- "zone"
+- "zoneHierarchiesEnabled"
+
+```

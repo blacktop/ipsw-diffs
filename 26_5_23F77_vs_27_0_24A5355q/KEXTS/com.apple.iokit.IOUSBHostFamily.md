@@ -1,0 +1,97 @@
+## com.apple.iokit.IOUSBHostFamily
+
+> `com.apple.iokit.IOUSBHostFamily`
+
+```diff
+
+-1504.120.4.0.0
+-  __TEXT.__cstring: 0xa116
+-  __TEXT.__os_log: 0x8586
++1616.0.0.0.0
++  __TEXT.__cstring: 0xa423
++  __TEXT.__os_log: 0x86e6
+   __TEXT.__const: 0x2008
+-  __TEXT_EXEC.__text: 0x918d0
++  __TEXT_EXEC.__text: 0x942a8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1f0
+-  __DATA.__common: 0x920
++  __DATA.__common: 0x970
+   __DATA.__bss: 0x10
+-  __DATA_CONST.__auth_got: 0x6a8
+-  __DATA_CONST.__got: 0x1f8
+-  __DATA_CONST.__mod_init_func: 0xe0
+-  __DATA_CONST.__mod_term_func: 0xd8
+-  __DATA_CONST.__const: 0xc268
+-  __DATA_CONST.__kalloc_type: 0x1b00
++  __DATA_CONST.__mod_init_func: 0xf0
++  __DATA_CONST.__mod_term_func: 0xe8
++  __DATA_CONST.__const: 0xc878
++  __DATA_CONST.__kalloc_type: 0x1b80
+   __DATA_CONST.__kalloc_var: 0x280
+-  UUID: A7DB0FB9-53DA-3D87-A5CE-01436D5D22D1
+-  Functions: 1913
++  __DATA_CONST.__auth_got: 0x6a0
++  __DATA_CONST.__got: 0x1f0
++  UUID: 725C8FAC-D9E8-3DEE-A389-3E8252189180
++  Functions: 1972
+   Symbols:   0
+-  CStrings:  1626
++  CStrings:  1652
+ 
+CStrings:
++ "%s: %s::%s: failed to find AppleUSBHostController\n"
++ "%s@%s: %s::%s: [%d] Function - %s - failed to start on device.\n"
++ "%s@%s: %s::%s: alignment %u\n"
++ "%s@%s: %s::%s: failed to create _bufferCollection\n"
++ "%s@%s: %s::%s: failed to create _deferredTeardownBufferCollection\n"
++ "%s@%s: %s::%s: flushed %u IO buffer mappings\n"
++ "%s@%s: %s::%s: flushing %u buffer mappings\n"
++ "%s@%s: %s::%s: kIOUSBPlatformCapabilityFailedFunctionsDescriptorUUID failed validation checks\n"
++ "12111112122212121111111111111111112222"
++ "121111121222121211111111111111111122221"
++ "1211111212221212112111112222222222222222222222222222222222222222222222222222222222222222121211211111222222222222222212112222222222222222222222222222222222222222222222222121111111112221122222222"
++ "121111121222121211211111222222222222222222222222222222222222222222222222222222222222222212121121111122222222222222221211222222222222222222222222222222222222222222222222212111111111222112222222221212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121211"
++ "1211122211122211111"
++ "12112112111"
++ "121121121111"
++ "121121212122121322132111212122111222"
++ "A745B2DF-FB29-4E45-844D-BEFD6D125F9A"
++ "AppleUSBHostBufferMemoryDescriptor"
++ "AppleUSBHostClientBufferMemoryDescriptor"
++ "AppleUSBHostControllerDMACommand"
++ "AppleUSBHostRequestPool"
++ "B16@?0^{OSSerialize=^^?i*III^{OSArray}BB^v^v^{OSData}I}8"
++ "IOMemoryMapNewMap"
++ "IOMemoryMapPreMap"
++ "UsbDeviceFunction"
++ "clock-gates"
++ "dart-options"
++ "getBufferSpecification"
++ "getDMASpecification"
++ "getMapperSpecification"
++ "initForServiceInTaskWithOptions"
++ "powerStateWillChangeTo_block_invoke"
++ "service-gates"
++ "site.AppleUSBHostBufferMemoryDescriptor"
++ "site.AppleUSBHostClientBufferMemoryDescriptor"
++ "site.AppleUSBHostControllerDMACommand"
++ "site.AppleUSBHostRequestPool"
+- "%s@%s: %s::%s: _mapper %p\n"
+- "%s@%s: %s::%s: could not find provider IOUSBHostDevice\n"
+- "%s@%s: %s::%s: preferred alignment 0x%08x permitted alignment 0x%08x\n"
+- "121111121222121211111111111111111222"
+- "1211111212221212111111111111111112221"
+- "12111112122212121121111122222222222222222222222222222222222222222222222222222222222222221212112111121211222222222222222222222222222222222222222222222222212111111111222122222222"
+- "1211111212221212112111112222222222222222222222222222222222222222222222222222222222222222121211211112121122222222222222222222222222222222222222222222222221211111111122212222222221212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121211"
+- "12111222111222111"
+- "1211211122222112"
+- "121121121"
+- "AppleUSBHostBouncedDMACommand"
+- "AppleUSBHostDMACommandPool"
+- "B16@?0^{OSSerialize=^^?i*III^{OSArray}BB^v^v^{OSData}}8"
+- "createIOBuffer"
+- "site.AppleUSBHostBouncedDMACommand"
+- "site.AppleUSBHostDMACommandPool"
+
+```

@@ -1,0 +1,732 @@
+## SecureCaptureKit
+
+> `/System/Library/PrivateFrameworks/SecureCaptureKit.framework/SecureCaptureKit`
+
+```diff
+
+-117.4.5.0.0
+-  __TEXT.__text: 0x20ca4
+-  __TEXT.__auth_stubs: 0x10b0
+-  __TEXT.__objc_methlist: 0x760
+-  __TEXT.__const: 0xf2c
+-  __TEXT.__cstring: 0x6ec
+-  __TEXT.__swift5_typeref: 0xa3a
+-  __TEXT.__swift5_capture: 0x56c
++146.0.1.0.0
++  __TEXT.__text: 0x212c8
++  __TEXT.__objc_methlist: 0x770
++  __TEXT.__const: 0xfac
++  __TEXT.__cstring: 0x6cc
++  __TEXT.__swift5_typeref: 0xa08
++  __TEXT.__swift5_capture: 0x65c
+   __TEXT.__swift5_reflstr: 0x310
+   __TEXT.__swift5_assocty: 0x78
+   __TEXT.__constg_swiftt: 0x7f8
+
+   __TEXT.__swift5_types: 0x50
+   __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_ret: 0xc
++  __TEXT.__swift_as_cont: 0x74
+   __TEXT.__oslogstring: 0xbb4
+-  __TEXT.__unwind_info: 0x9a0
+-  __TEXT.__eh_frame: 0x9d8
+-  __TEXT.__objc_classname: 0x525
+-  __TEXT.__objc_methname: 0x1d6b
+-  __TEXT.__objc_methtype: 0xa1b
+-  __TEXT.__objc_stubs: 0x1580
+-  __DATA_CONST.__got: 0x2d0
+-  __DATA_CONST.__const: 0x178
++  __TEXT.__unwind_info: 0x990
++  __TEXT.__eh_frame: 0x9e0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x170
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x788
++  __DATA_CONST.__objc_selrefs: 0x7a0
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x860
+-  __AUTH_CONST.__const: 0x1458
++  __DATA_CONST.__got: 0x2c0
++  __AUTH_CONST.__const: 0x16b0
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x1cf0
++  __AUTH_CONST.__objc_const: 0x1d10
++  __AUTH_CONST.__auth_got: 0x930
+   __AUTH.__objc_data: 0x688
+   __AUTH.__data: 0x868
+-  __DATA.__data: 0x988
++  __DATA.__data: 0x978
+   __DATA.__common: 0x30
+   __DATA.__bss: 0xc20
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 442E0727-D748-32AC-9E5A-C38CCEF24666
+-  Functions: 874
+-  Symbols:   967
+-  CStrings:  480
++  UUID: 62071E49-BE19-35F5-86CB-4AAF02E12E07
++  Functions: 890
++  Symbols:   1165
++  CStrings:  81
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.2
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.70Tm
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.105
++ _block_copy_helper.107
++ _block_copy_helper.111
++ _block_copy_helper.115
++ _block_copy_helper.121
++ _block_copy_helper.131
++ _block_copy_helper.137
++ _block_copy_helper.146
++ _block_copy_helper.152
++ _block_copy_helper.32
++ _block_copy_helper.38
++ _block_copy_helper.44
++ _block_copy_helper.47
++ _block_copy_helper.54
++ _block_copy_helper.6
++ _block_copy_helper.60
++ _block_copy_helper.64
++ _block_copy_helper.75
++ _block_copy_helper.81
++ _block_copy_helper.87
++ _block_copy_helper.93
++ _block_copy_helper.96
++ _block_descriptor.107
++ _block_descriptor.109
++ _block_descriptor.113
++ _block_descriptor.117
++ _block_descriptor.123
++ _block_descriptor.133
++ _block_descriptor.139
++ _block_descriptor.148
++ _block_descriptor.154
++ _block_descriptor.34
++ _block_descriptor.40
++ _block_descriptor.46
++ _block_descriptor.49
++ _block_descriptor.56
++ _block_descriptor.62
++ _block_descriptor.66
++ _block_descriptor.77
++ _block_descriptor.8
++ _block_descriptor.83
++ _block_descriptor.89
++ _block_descriptor.95
++ _block_descriptor.98
++ _block_destroy_helper.106
++ _block_destroy_helper.108
++ _block_destroy_helper.112
++ _block_destroy_helper.116
++ _block_destroy_helper.122
++ _block_destroy_helper.132
++ _block_destroy_helper.138
++ _block_destroy_helper.147
++ _block_destroy_helper.153
++ _block_destroy_helper.33
++ _block_destroy_helper.39
++ _block_destroy_helper.45
++ _block_destroy_helper.48
++ _block_destroy_helper.55
++ _block_destroy_helper.61
++ _block_destroy_helper.65
++ _block_destroy_helper.7
++ _block_destroy_helper.76
++ _block_destroy_helper.82
++ _block_destroy_helper.88
++ _block_destroy_helper.94
++ _block_destroy_helper.97
++ _get_witness_table s16AsyncMapSequenceVyScSySo16UIOpenURLContextCG10Foundation3URLVGSciHPyHC.96
++ _objc_retain_x3
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x27
++ _swift_retain_x8
++ _symbolic So23FBSMutableSceneSettingsCIgg_
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SecureCaptureKit
+- _block_copy_helper.101
+- _block_copy_helper.106
+- _block_copy_helper.11
+- _block_copy_helper.116
+- _block_copy_helper.132
+- _block_copy_helper.138
+- _block_copy_helper.147
+- _block_copy_helper.153
+- _block_copy_helper.33
+- _block_copy_helper.45
+- _block_copy_helper.48
+- _block_copy_helper.50
+- _block_copy_helper.55
+- _block_copy_helper.61
+- _block_copy_helper.7
+- _block_copy_helper.72
+- _block_copy_helper.76
+- _block_copy_helper.82
+- _block_copy_helper.88
+- _block_copy_helper.91
+- _block_copy_helper.94
+- _block_copy_helper.97
+- _block_descriptor.103
+- _block_descriptor.108
+- _block_descriptor.118
+- _block_descriptor.13
+- _block_descriptor.134
+- _block_descriptor.140
+- _block_descriptor.149
+- _block_descriptor.155
+- _block_descriptor.35
+- _block_descriptor.47
+- _block_descriptor.50
+- _block_descriptor.52
+- _block_descriptor.57
+- _block_descriptor.63
+- _block_descriptor.74
+- _block_descriptor.78
+- _block_descriptor.84
+- _block_descriptor.9
+- _block_descriptor.90
+- _block_descriptor.93
+- _block_descriptor.96
+- _block_descriptor.99
+- _block_destroy_helper.102
+- _block_destroy_helper.107
+- _block_destroy_helper.117
+- _block_destroy_helper.12
+- _block_destroy_helper.133
+- _block_destroy_helper.139
+- _block_destroy_helper.148
+- _block_destroy_helper.154
+- _block_destroy_helper.34
+- _block_destroy_helper.46
+- _block_destroy_helper.49
+- _block_destroy_helper.51
+- _block_destroy_helper.56
+- _block_destroy_helper.62
+- _block_destroy_helper.73
+- _block_destroy_helper.77
+- _block_destroy_helper.8
+- _block_destroy_helper.83
+- _block_destroy_helper.89
+- _block_destroy_helper.92
+- _block_destroy_helper.95
+- _block_destroy_helper.98
+- _get_witness_table s16AsyncMapSequenceVyScSySo16UIOpenURLContextCG10Foundation3URLVGSciHPyHC.59
+- _objectdestroy.71Tm
+- _objectdestroy.73Tm
+- _objectdestroyTm
+- _swift_unexpectedError
+- _symbolic So23FBSMutableSceneSettingsCIghg_
+- _symbolic _____3key_So14LCSSessionPathC5valuetSg 10Foundation3URLV
+- _symbolic ______ypt s11AnyHashableV
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_clientSettingsDiffInspector"
+- "$__lazy_storage_$_logIdentifier"
+- "$__lazy_storage_$_queue"
+- "$defaultActor"
+- ".cxx_destruct"
+- "?"
+- "@\"<LCSExtensionDescribing>\""
+- "@\"LCSSessionPath\"16@0:8"
+- "@\"NSSet\"32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "@\"NSString\"16@0:8"
+- "@\"NSUserActivity\"24@0:8@\"UIScene\"16"
+- "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
+- "@\"UIWindow\""
+- "@\"UIWindow\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@48@0:8@16d24@32@?40"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BSInvalidatable"
+- "FBSceneCreating"
+- "FBSceneDelegate"
+- "FBSceneLayerManagerObserver"
+- "FBSceneObserver"
+- "IOSurface"
+- "LCSExtensionAppProtectionObserver"
+- "NSObject"
+- "OS_dispatch_source"
+- "OS_dispatch_source_vnode"
+- "Q16@0:8"
+- "SEAdditions"
+- "SESecureCaptureOpenApplicationAction"
+- "SESecureCaptureOpenApplicationAfterTransitionCompletionAction"
+- "SESecureCaptureSceneViewController"
+- "SecureCaptureKit"
+- "SecureCaptureKit1"
+- "SecureCaptureKit2"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"<LCSExtensionDescribing>\",N,&,VextensionProvider"
+- "T@\"<SESecureCaptureSceneViewControllerDelegate>\",N,W,Vdelegate"
+- "T@\"FBScene\",N,R"
+- "T@\"LCSSessionPath\",N,&"
+- "T@\"NSSet\",N,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIWindow\",?,&,N"
+- "T@\"UIWindow\",N,&,Vwindow"
+- "TB,N,R"
+- "TQ,N"
+- "TQ,R"
+- "UISceneDelegate"
+- "UIWindowSceneDelegate"
+- "URL"
+- "URLContexts"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_FBSScene"
+- "_TtC16SecureCaptureKit18CaptureManagerURLs"
+- "_TtC16SecureCaptureKit20CaptureSceneDelegate"
+- "_TtC16SecureCaptureKit20SecureCaptureManager"
+- "_TtC16SecureCaptureKit20SecureCaptureSession"
+- "_TtC16SecureCaptureKit25CaptureManagerFSObserving"
+- "_TtC16SecureCaptureKit27SecureCaptureSceneExtension"
+- "_TtC16SecureCaptureKit27SecureCaptureSessionStorage"
+- "_TtC16SecureCaptureKit31SharedSecureCaptureSessionActor"
+- "_TtC16SecureCaptureKit38SharedSecureCaptureSessionStorageActor"
+- "_TtC16SecureCaptureKit40SecureCaptureSceneStatusBarHostComponent"
+- "_TtC16SecureCaptureKit41SecureCaptureSessionPathSettingsExtension"
+- "_TtC16SecureCaptureKit42SecureCaptureSceneSessionPathHostComponent"
+- "_TtP16SecureCaptureKit42SecureCaptureSettingsPathExtensionProtocol_"
+- "__sceneDelegate"
+- "__urlToSessionPathMap"
+- "_canShowWhileLocked"
+- "_createUserActivityDataWithOptions:completionHandler:"
+- "_initWithUserActivityData:"
+- "_presentationMode"
+- "_referenceBounds"
+- "_requestsIdleTimerDisabled"
+- "_scene"
+- "_sessionContentURLs"
+- "_sessionPaths"
+- "acquireWithInvalidationHandler:"
+- "activate"
+- "activate:"
+- "activatedSceneView"
+- "addChildViewController:"
+- "addExtension:"
+- "addObserver:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSubview:"
+- "animateWithDuration:animations:completion:"
+- "animationSettings"
+- "appProtectionAssistant"
+- "appProtectionViewController"
+- "applicationDidCompleteTransition"
+- "assertion"
+- "attributeWithTag:"
+- "autorelease"
+- "bounds"
+- "bringSubviewToFront:"
+- "bundleIdentifier"
+- "cachedURLs"
+- "cachedUrlToSessionPathMap"
+- "canSendResponse"
+- "capture"
+- "captureSessionPath"
+- "class"
+- "clearColor"
+- "clientHandle"
+- "clientSettings"
+- "clientSettingsExtensions"
+- "code"
+- "componentForExtension:ofClass:"
+- "configureParameters:"
+- "conformsToProtocol:"
+- "containerBundleIdentifier"
+- "contentState"
+- "createPresenterWithIdentifier:"
+- "createScene:"
+- "currentPath"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultStatusBarHeightInOrientation:"
+- "delegate"
+- "description"
+- "didEnterBackgroundObserver"
+- "didMoveToParentViewController:"
+- "dispatchSource"
+- "domain"
+- "error"
+- "evaluateWithInspector:context:"
+- "extensionAppProtectionAssistantShouldShieldDidChange:"
+- "extensionProvider"
+- "extensionWithIdentity:"
+- "fallbackIOSurface"
+- "fbsScene"
+- "finalizeTemporarySessionPathForExtension:"
+- "finalizedSessionPathsWithType:"
+- "finalizedSessionsContainerURLForCurrentApplication"
+- "fsObservation"
+- "hasFetchedURLs"
+- "hash"
+- "hostComponents"
+- "identifier"
+- "identity"
+- "idleTimerDisabled"
+- "info"
+- "init"
+- "initWithAssistant:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithExplanation:target:attributes:"
+- "initWithExtension:"
+- "initWithIdentifier:"
+- "initWithInfo:responder:"
+- "initWithInfo:timeout:forResponseOnQueue:withHandler:"
+- "initWithNibName:bundle:"
+- "initWithProvider:"
+- "initWithProvider:launchActions:"
+- "initWithScene:"
+- "initWithSettings:"
+- "initWithTypeIdentifier:"
+- "initWithURL:"
+- "initWithURL:responder:"
+- "initWithUserActivity:responder:"
+- "initWithWindowScene:"
+- "initWithXPCDictionary:"
+- "insertSubview:belowSubview:"
+- "interfaceOrientation"
+- "invalidate"
+- "invalidated"
+- "isEqual:"
+- "isForeground"
+- "isHidden"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isTemporaryPath"
+- "launchActions"
+- "layer"
+- "layerManager"
+- "liveSceneSnapshotView"
+- "localizedDescription"
+- "mainConfiguration"
+- "makeKeyAndVisible"
+- "modifyPresentationContext:"
+- "mutableSettings"
+- "newSnapshot"
+- "objectForSetting:"
+- "observeIdleTimerDisabledWithBlock:"
+- "otherSettings"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performUpdate:"
+- "performUpdate:withCompletion:"
+- "preferredWindowingControlStyleForScene:"
+- "presentationMode"
+- "presentationView"
+- "previousSettings"
+- "processHandle"
+- "processIdentity"
+- "protocol"
+- "reactivateWithLaunchActions:"
+- "release"
+- "remove:"
+- "removeContentsOfExtensionDataContainerForBundleProvider:"
+- "removeFromSuperview"
+- "removeObserver:"
+- "requestsIdleTimerDisabled"
+- "responderWithHandler:"
+- "respondsToSelector:"
+- "responseForError:"
+- "retain"
+- "retainCount"
+- "rootViewController"
+- "scene"
+- "scene:clientDidConnect:"
+- "scene:continueUserActivity:"
+- "scene:didApplyUpdateWithContext:"
+- "scene:didCompleteUpdateWithContext:error:"
+- "scene:didFailToContinueUserActivityWithType:error:"
+- "scene:didPrepareUpdateWithContext:"
+- "scene:didReceiveActions:"
+- "scene:didUpdateClientSettings:"
+- "scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:"
+- "scene:didUpdateSettings:"
+- "scene:didUpdateUserActivity:"
+- "scene:handleActions:"
+- "scene:openURLContexts:"
+- "scene:restoreInteractionStateWithUserActivity:"
+- "scene:willConnectToSession:options:"
+- "scene:willContinueUserActivityWithType:"
+- "scene:willUpdateSettings:"
+- "scene:willUpdateSettings:withTransitionContext:"
+- "sceneActivated"
+- "sceneContentStateDidChange:"
+- "sceneDidActivate:"
+- "sceneDidBecomeActive:"
+- "sceneDidDeactivate:withContext:"
+- "sceneDidDeactivate:withError:"
+- "sceneDidDisconnect:"
+- "sceneDidEnterBackground:"
+- "sceneDidInvalidate:"
+- "sceneDidInvalidate:withContext:"
+- "sceneForeground"
+- "sceneLayerManagerDidStartTrackingLayers:"
+- "sceneLayerManagerDidStopTrackingLayers:"
+- "sceneLayerManagerDidUpdateLayers:"
+- "scenePresenter"
+- "sceneWillActivate:"
+- "sceneWillDeactivate:withContext:"
+- "sceneWillDeactivate:withError:"
+- "sceneWillEnterForeground:"
+- "sceneWillResignActive:"
+- "screen"
+- "secureCaptureSceneViewController:didCreateScene:"
+- "secureCaptureSceneViewController:didDestroyScene:"
+- "secureCaptureSceneViewController:requestsIdleTimerDisabled:"
+- "secureCaptureSceneViewController:requestsLaunchAfterTransitionCompletionWithAction:completion:"
+- "secureCaptureSceneViewController:requestsLaunchWithAction:"
+- "secureCaptureSceneViewController:requestsLaunchWithAction:completion:"
+- "secureCaptureSceneViewController:requestsSceneReactivation:"
+- "secureCaptureSceneViewController:sceneContentStateDidChange:"
+- "secureCaptureSceneViewController:sceneDidDeactivate:"
+- "self"
+- "sendActions:"
+- "sendResponse:"
+- "sessionContentsPath"
+- "sessionPath"
+- "setActions:"
+- "setActivityMode:"
+- "setAlpha:"
+- "setAppearanceStyle:"
+- "setAutoresizingMask:"
+- "setBackgroundColor:"
+- "setBackgroundColorWhileHosting:"
+- "setBackgroundColorWhileNotHosting:"
+- "setCaptureSessionPath:"
+- "setClientIdentity:"
+- "setClipsToBounds:"
+- "setContents:"
+- "setDefaultStatusBarHeight:forOrientation:"
+- "setDelegate:"
+- "setDisplayConfiguration:"
+- "setExtensionProvider:"
+- "setForeground:"
+- "setFrame:"
+- "setHidden:"
+- "setIdentifier:"
+- "setInheritsSecurity:"
+- "setInterfaceOrientation:"
+- "setInterfaceOrientationMode:"
+- "setName:"
+- "setNeedsLayout"
+- "setNeedsSave:"
+- "setObject:forSetting:"
+- "setPreferredContentSize:"
+- "setPresentationMode:"
+- "setPresentedLayerTypes:"
+- "setResizesHostedContext:"
+- "setRootViewController:"
+- "setSecurityMode:"
+- "setSpecification:"
+- "setUserInterfaceStyle:"
+- "setWindow:"
+- "settings"
+- "sharedInstance"
+- "shouldShield"
+- "stateRestorationActivityForScene:"
+- "statusBarHidden"
+- "statusBarManager"
+- "superclass"
+- "targetWithProcessIdentity:"
+- "temporarySessionPathWithType:"
+- "traitCollection"
+- "transitionContext"
+- "uiPresentationManager"
+- "underlyingErrors"
+- "updateClientSettings:"
+- "updateSettingsWithBlock:"
+- "url"
+- "urlContexts"
+- "urlContextsProducerContinuation"
+- "urlStorage"
+- "userInterfaceStyle"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"<FBSceneCreating>\"8"
+- "v16@?0@\"BSActionResponse\"8"
+- "v16@?0@\"FBSMutableSceneParameters\"8"
+- "v16@?0@\"FBSMutableSceneSettings\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"UIMutableScenePresentationContext\"8"
+- "v16@?0^v8"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"<FBSSceneClientIdentifying>\"16"
+- "v24@0:8@\"FBSSceneSpecification\"16"
+- "v24@0:8@\"FBScene\"16"
+- "v24@0:8@\"FBSceneLayerManager\"16"
+- "v24@0:8@\"LCSExtensionAppProtectionAssistant\"16"
+- "v24@0:8@\"LCSSessionPath\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"UIScene\"16"
+- "v24@0:8@\"UIWindow\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"FBSMutableSceneParameters\">16"
+- "v24@0:8Q16"
+- "v24@?0@\"FBSMutableSceneClientSettings\"8@\"FBSSceneTransitionContext\"16"
+- "v24@?0@\"FBSMutableSceneSettings\"8@\"FBSSceneTransitionContext\"16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"RBSAssertion\"8@\"NSError\"16"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneTransitionContext\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneUpdate\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneClientHandle\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24"
+- "v32@0:8@\"FBScene\"16@\"NSError\"24"
+- "v32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "v32@0:8@\"UIScene\"16@\"NSSet\"24"
+- "v32@0:8@\"UIScene\"16@\"NSString\"24"
+- "v32@0:8@\"UIScene\"16@\"NSUserActivity\"24"
+- "v32@0:8@\"UIWindowScene\"16@\"CKShareMetadata\"24"
+- "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
+- "v32@0:8@16@24"
+- "v40@0:8@\"FBScene\"16@\"FBSMutableSceneSettings\"24@\"FBSSceneTransitionContext\"32"
+- "v40@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24@\"NSError\"32"
+- "v40@0:8@\"UIScene\"16@\"NSString\"24@\"NSError\"32"
+- "v40@0:8@\"UIScene\"16@\"UISceneSession\"24@\"UISceneConnectionOptions\"32"
+- "v40@0:8@\"UIWindowScene\"16@\"UIApplicationShortcutItem\"24@?<v@?B>32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v48@0:8@\"FBScene\"16@\"FBSSceneClientSettingsDiff\"24@\"FBSSceneClientSettings\"32@\"FBSSceneTransitionContext\"40"
+- "v48@0:8@\"UIWindowScene\"16@\"<UICoordinateSpace>\"24q32@\"UITraitCollection\"40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24q32@40"
+- "v8@?0"
+- "view"
+- "viewDidLoad"
+- "willEnterForegroundObserver"
+- "window"
+- "windowScene"
+- "windowScene:didUpdateCoordinateSpace:interfaceOrientation:traitCollection:"
+- "windowScene:didUpdateEffectiveGeometry:"
+- "windowScene:performActionForShortcutItem:completionHandler:"
+- "windowScene:userDidAcceptCloudKitShareWithMetadata:"
+- "zone"
+
+```

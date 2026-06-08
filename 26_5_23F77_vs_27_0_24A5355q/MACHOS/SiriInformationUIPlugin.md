@@ -1,0 +1,175 @@
+## SiriInformationUIPlugin
+
+> `/System/Library/Snippets/UIPlugins/SiriInformationUIPlugin.bundle/SiriInformationUIPlugin`
+
+```diff
+
+-3525.4.3.0.0
+-  __TEXT.__text: 0x8c08
+-  __TEXT.__auth_stubs: 0x9f0
++3600.35.13.0.0
++  __TEXT.__text: 0x8bcc
++  __TEXT.__auth_stubs: 0xa70
+   __TEXT.__objc_stubs: 0x40
+   __TEXT.__const: 0xbd2
+-  __TEXT.__swift5_typeref: 0x367
++  __TEXT.__swift5_typeref: 0x361
+   __TEXT.__swift5_capture: 0xc0
+   __TEXT.__swift5_reflstr: 0x106
+   __TEXT.__swift5_assocty: 0x60
+
+   __TEXT.__objc_methname: 0x25
+   __TEXT.__swift_as_entry: 0x8
+   __TEXT.__swift_as_ret: 0x8
++  __TEXT.__swift_as_cont: 0x18
+   __TEXT.__unwind_info: 0x3b0
+   __TEXT.__eh_frame: 0x2b0
+-  __DATA_CONST.__auth_got: 0x500
+-  __DATA_CONST.__got: 0xd0
+-  __DATA_CONST.__auth_ptr: 0x2a0
+-  __DATA_CONST.__const: 0x8c0
++  __DATA_CONST.__const: 0x8a8
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x540
++  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__auth_ptr: 0x2a0
+   __DATA.__objc_const: 0x100
+   __DATA.__objc_selrefs: 0x10
+   __DATA.__objc_data: 0x50
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2FB7F0CD-9DBB-3595-8FF3-161DD93233E9
+-  Functions: 374
+-  Symbols:   2886
++  UUID: 1F608676-1305-3A47-AE16-BE87428F8F8A
++  Functions: 375
++  Symbols:   2949
+   CStrings:  23
+ 
+Symbols:
++ $s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_TA.20
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/CommandThrottle.o
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/InformationLog.o
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationDataModels.o
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin.o
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin.swiftmodule
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin_vers.o
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Sources/SiriInformationPlugin/InformationFlowPlugin/
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Sources/SiriInformationPlugin/SiriInformationUIPlugin/
++ /Library/Caches/com.apple.xbs/1385B5EB-C96F-4B0F-981A-B3C379DC6FF8/TemporaryDirectory.6jnUW4/Sources/SiriInformationPlugin/SiriInformationUIPlugin/Utils/
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_AVyXEfU0_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_AVyXEfU_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_yycACcfu1_yycfu2_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_yycACcfu_yycfu0_TA
++ _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI12TupleContentVyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWQPGycfU_yycACcfu_yycfu0_TATm
++ _$s7SwiftUI12TupleContentVMn
++ _$s7SwiftUI12TupleContentVyAA08ModifiedD0VyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJQPGACyxxQp_QPGAA4ViewAARvzAaPRzlWL
++ _$s7SwiftUI12TupleContentVyAA08ModifiedD0VyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJQPGACyxxQp_QPGAA4ViewAARvzAaPRzlWl
++ _$s7SwiftUI12TupleContentVyAA08ModifiedD0VyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJQPGMR
++ _$s7SwiftUI12TupleContentVyAA08ModifiedD0VyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJQPGMd
++ _$s7SwiftUI12TupleContentVyxxQp_QPGAA4ViewAARvzAaERzlMc
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVGACyxq_GAA4ViewA2aMRzAA0I8ModifierR_rlWL
++ _$s7SwiftUI15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVGACyxq_GAA4ViewA2aMRzAA0I8ModifierR_rlWl
++ _$s7SwiftUI15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVGWOb
++ _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
++ _$s7SwiftUI6ButtonVyAA4TextVGACyxGAA4ViewAAWlTm
++ _$s9SnippetUI14ComponentStackVy05SwiftB012TupleContentVyAD08ModifiedG0VyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMQPGGACyxGAD4ViewAAWL
++ _$s9SnippetUI14ComponentStackVy05SwiftB012TupleContentVyAD08ModifiedG0VyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMQPGGMR
++ _$s9SnippetUI14ComponentStackVy05SwiftB012TupleContentVyAD08ModifiedG0VyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMQPGGMd
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ __swift_closure_destructor.18
++ __swift_closure_destructor.2
++ __swift_closure_destructor.22
++ __swift_closure_destructor.26
++ __swift_closure_destructor.29
++ __swift_closure_destructor.32
++ __swift_closure_destructor.35
++ __swift_closure_destructor.38
++ __swift_closure_destructor.41
++ __swift_closure_destructor.44
++ __swift_closure_destructor.49
++ _objc_release_x27
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x8
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x26
++ _symbolic _____y_____y_____y_____G_____G_AEQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA6ButtonV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____G_____G_AFQPGG 9SnippetUI14ComponentStackV 05SwiftB012TupleContentV AD08ModifiedG0V AD6ButtonV AD4TextV AD14_PaddingLayoutV
++ get_witness_table 9SnippetUI14ComponentStackVy05SwiftB012TupleContentVyAD08ModifiedG0VyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMQPGGAD4ViewHPyHC.16
+- $s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_TA.20
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/CommandThrottle.o
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/InformationLog.o
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationDataModels.o
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin.o
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin.swiftmodule
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Binaries/SiriInformationPlugin/install/TempContent/Objects/SiriInformation.build/SiriInformationUIPlugin.build/Objects-normal/arm64e/SiriInformationUIPlugin_vers.o
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Sources/SiriInformationPlugin/InformationFlowPlugin/
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Sources/SiriInformationPlugin/SiriInformationUIPlugin/
+- /Library/Caches/com.apple.xbs/B2737F7F-DF74-4A1D-BF6B-24F485C6EFFB/TemporaryDirectory.dCpE3C/Sources/SiriInformationPlugin/SiriInformationUIPlugin/Utils/
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_AVyXEfU0_TA
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_AVyXEfU_TA
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_TA
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_yycACcfu1_yycfu2_TA
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_yycACcfu_yycfu0_TA
+- _$s23SiriInformationUIPlugin38DisableConfirmRequestsConfirmationViewV4bodyQrvg7SwiftUI05TupleH0VyAE0H0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAE6ButtonVyAE4TextVG_Qo__AWtGycfU_yycACcfu_yycfu0_TATm
+- _$s2os6LoggerVMn
+- _$s2os6LoggerVSgMR
+- _$s2os6LoggerVSgMd
+- _$s2os6LoggerVSgWOc
+- _$s2os6LoggerVSgWOh
+- _$s7SwiftUI9TupleViewVMn
+- _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJtGACyxGAA0D0AAWL
+- _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJtGACyxGAA0D0AAWlTm
+- _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJtGMR
+- _$s7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6ButtonVyAA4TextVGAA14_PaddingLayoutVG_AJtGMd
+- _$s7SwiftUI9TupleViewVyxGAA0D0AAMc
+- _$s9SnippetUI14ComponentStackVy05SwiftB09TupleViewVyAD15ModifiedContentVyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMtGGACyxGAD0G0AAWL
+- _$s9SnippetUI14ComponentStackVy05SwiftB09TupleViewVyAD15ModifiedContentVyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMtGGMR
+- _$s9SnippetUI14ComponentStackVy05SwiftB09TupleViewVyAD15ModifiedContentVyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMtGGMd
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SiriInformationUIPlugin
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_SiriInformationUIPlugin
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_SiriInformationUIPlugin
+- _objc_release_x21
+- _objectdestroyTm
+- _symbolic _____Sg 2os6LoggerV
+- _symbolic _____y_____y_____y_____G_____G_AEtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6ButtonV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____G_____G_AFtGG 9SnippetUI14ComponentStackV 05SwiftB09TupleViewV AD15ModifiedContentV AD6ButtonV AD4TextV AD14_PaddingLayoutV
+- get_witness_table 9SnippetUI14ComponentStackVy05SwiftB09TupleViewVyAD15ModifiedContentVyAD6ButtonVyAD4TextVGAD14_PaddingLayoutVG_AMtGGAD0G0HPyHC.16
+
+```

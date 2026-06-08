@@ -1,0 +1,2196 @@
+## HomeKitClips
+
+> `/System/Library/PrivateFrameworks/HomeKitClips.framework/HomeKitClips`
+
+```diff
+
+-1418.6.20.0.0
+-  __TEXT.__text: 0x1290d4
+-  __TEXT.__auth_stubs: 0x20e0
+-  __TEXT.__objc_methlist: 0x39c
+-  __TEXT.__const: 0x8560
+-  __TEXT.__cstring: 0x38bf
+-  __TEXT.__swift5_typeref: 0x235a
+-  __TEXT.__oslogstring: 0x404e
+-  __TEXT.__constg_swiftt: 0x2524
+-  __TEXT.__swift5_reflstr: 0x1bb9
+-  __TEXT.__swift5_fieldmd: 0x2154
+-  __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_assocty: 0x4c0
+-  __TEXT.__swift5_proto: 0x5fc
+-  __TEXT.__swift5_types: 0x2a4
+-  __TEXT.__swift_as_entry: 0x2a8
+-  __TEXT.__swift_as_ret: 0x30c
+-  __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift5_capture: 0x8a4
+-  __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x3b80
+-  __TEXT.__eh_frame: 0x9610
+-  __TEXT.__objc_classname: 0x59c
+-  __TEXT.__objc_methname: 0x10f0
+-  __TEXT.__objc_methtype: 0x25d
+-  __TEXT.__objc_stubs: 0x11c0
+-  __DATA_CONST.__got: 0x630
+-  __DATA_CONST.__const: 0x98
+-  __DATA_CONST.__objc_classlist: 0xd0
+-  __DATA_CONST.__objc_protolist: 0x40
++1468.5.0.0.6
++  __TEXT.__text: 0x210f0c
++  __TEXT.__objc_methlist: 0x694
++  __TEXT.__const: 0xe3a0
++  __TEXT.__swift5_typeref: 0x4858
++  __TEXT.__constg_swiftt: 0x3d20
++  __TEXT.__swift5_fieldmd: 0x37e8
++  __TEXT.__swift5_reflstr: 0x2e79
++  __TEXT.__swift5_builtin: 0x190
++  __TEXT.__swift5_assocty: 0x6b0
++  __TEXT.__swift5_proto: 0x9c4
++  __TEXT.__swift5_types: 0x464
++  __TEXT.__cstring: 0x5380
++  __TEXT.__oslogstring: 0x6933
++  __TEXT.__swift_as_entry: 0x514
++  __TEXT.__swift_as_ret: 0x6a4
++  __TEXT.__swift_as_cont: 0xc80
++  __TEXT.__swift5_protos: 0x68
++  __TEXT.__swift5_capture: 0x13ec
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__unwind_info: 0x65b0
++  __TEXT.__eh_frame: 0x120e4
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x108
++  __DATA_CONST.__objc_classlist: 0x158
++  __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x540
+-  __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x1078
+-  __AUTH_CONST.__const: 0x4cd8
++  __DATA_CONST.__objc_selrefs: 0xab0
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x8f28
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x16a0
+-  __AUTH.__objc_data: 0x688
+-  __AUTH.__data: 0x3718
+-  __DATA.__data: 0x1b90
+-  __DATA.__bss: 0xb580
+-  __DATA.__common: 0x230
++  __AUTH_CONST.__objc_const: 0x2618
++  __AUTH_CONST.__auth_got: 0x16e0
++  __AUTH.__objc_data: 0xb88
++  __AUTH.__data: 0x4b28
++  __DATA.__data: 0x32a0
++  __DATA.__bss: 0x12890
++  __DATA.__common: 0x358
++  __DATA_DIRTY.__objc_data: 0x50
++  __DATA_DIRTY.__data: 0x788
++  __DATA_DIRTY.__common: 0x30
++  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
++  - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
++  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/CloudKitCode.framework/CloudKitCode
+
+   - /System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation
+   - /System/Library/PrivateFrameworks/HomeKitFeatures.framework/HomeKitFeatures
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/MobileStoreDemoKit.framework/MobileStoreDemoKit
++  - /System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 30439C85-A8AF-3E87-9911-A0F89AB3C0AB
+-  Functions: 4276
+-  Symbols:   1574
+-  CStrings:  876
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: C30B2B25-2B7F-3188-B23F-4459C2B310AB
++  Functions: 7154
++  Symbols:   3130
++  CStrings:  924
+ 
+Symbols:
++ +[HKCUtilities floatArrayFromFloat16Data:]
++ +[HKCUtilities unifiedEmbeddingVersion]
++ _AVAssetExportPresetPassthrough
++ _AVFileTypeMPEG4
++ _AVStreamingKeyDeliveryContentKeyType
++ _AVURLAssetAlternativeConfigurationOptionsKey
++ _AVURLAssetAlternativeConfigurationServiceIdentifierKey
++ _CGImageCreateWithImageInRect
++ _CGImageDestinationAddImage
++ _CGImageDestinationCreateWithData
++ _CGImageDestinationFinalize
++ _CGImageSourceCopyPropertiesAtIndex
++ _CGImageSourceCreateImageAtIndex
++ _CGImageSourceCreateWithData
++ _CGImageSourceCreateWithURL
++ _CGRectGetHeight
++ _CGRectGetWidth
++ _CGRectIntegral
++ _HMFHomeKitLoggingSubsystem
++ _NSURLErrorDomain
++ _OBJC_CLASS_$_ACAccountStore
++ _OBJC_CLASS_$_AKAppleIDSession
++ _OBJC_CLASS_$_AKDevice
++ _OBJC_CLASS_$_AVAssetDownloadConfiguration
++ _OBJC_CLASS_$_AVAssetDownloadSession
++ _OBJC_CLASS_$_AVAssetDownloadTask
++ _OBJC_CLASS_$_AVAssetDownloadURLSession
++ _OBJC_CLASS_$_AVAssetExportSession
++ _OBJC_CLASS_$_AVAssetImageGenerator
++ _OBJC_CLASS_$_AVAssetVariant
++ _OBJC_CLASS_$_AVAssetVariantQualifier
++ _OBJC_CLASS_$_AVMutableComposition
++ _OBJC_CLASS_$_AVOfflineMediaSegmentInfo
++ _OBJC_CLASS_$_AVOfflineMediaStreamInfo
++ _OBJC_CLASS_$_AVURLAsset
++ _OBJC_CLASS_$_CKFetchRecordZoneChangesConfiguration
++ _OBJC_CLASS_$_CKFetchRecordZoneChangesOperation
++ _OBJC_CLASS_$_CKServerChangeToken
++ _OBJC_CLASS_$_CSCustomAttributeKey
++ _OBJC_CLASS_$_CSSearchQuery
++ _OBJC_CLASS_$_CSSearchQueryContext
++ _OBJC_CLASS_$_CSSearchableIndex
++ _OBJC_CLASS_$_CSSearchableItem
++ _OBJC_CLASS_$_CSSearchableItemAttributeSet
++ _OBJC_CLASS_$_MADHKSVClip
++ _OBJC_CLASS_$_MADHKSVEmbedding
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSHTTPURLResponse
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSOperationQueue
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_NSTextCheckingResult
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_VCPHomeKitAnalysisService
++ _OBJC_CLASS_$_VCPMediaAnalyzer
++ _OBJC_CLASS_$__CSEmbedding
++ _OBJC_CLASS_$__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ _OBJC_CLASS_$__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ _OBJC_CLASS_$__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ _OBJC_CLASS_$__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ _OBJC_METACLASS_$_AVURLAsset
++ _OBJC_METACLASS_$__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ _OBJC_METACLASS_$__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ _OBJC_METACLASS_$__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ _OBJC_METACLASS_$__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ _SecCertificateCopyData
++ _SecCertificateCreateWithData
++ _SecGenerateSelfSignedCertificateWithError
++ _SecIdentityCreate
++ _SecIdentitySignCertificateWithParameters
++ _SecKeyCopyExternalRepresentation
++ _SecKeyCopyPublicKey
++ _SecKeyCopyPublicKeyHash
++ _SecKeyCreateRandomKey
++ _SecVerifyCertificateRequest
++ __DATA__TtC12HomeKitClips16IndexedDataStore
++ __DATA__TtC12HomeKitClips32GenerativeAnalysisResultUploader
++ __DATA__TtCC12HomeKitClips16IndexedDataStore21DefaultTimeRangeIndex
++ __DATA__TtCCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager11CancelState
++ __DATA__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ __DATA__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ __DATA__TtCO12HomeKitClips18CameraCloudStorage18CertificateManager
++ __DATA__TtCO12HomeKitClips18CameraCloudStorage20AuthorizationManager
++ __DATA__TtCO12HomeKitClips18CameraCloudStorage7Manager
++ __DATA__TtCO12HomeKitClips2AV19AssetImageGenerator
++ __DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading11DataRequest
++ __DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading25ContentInformationRequest
++ __DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading7Request
++ __DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ __DATA__TtCV12HomeKitClips5HKSV322CameraDataStoreContext
++ __DATA__TtCV12HomeKitClips5HKSV323CameraRecordingExporter
++ __DATA__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ __DATA__TtCVV12HomeKitClips10CameraClip5Media14ImageGenerator
++ __INSTANCE_METHODS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ __INSTANCE_METHODS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ __INSTANCE_METHODS__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ __INSTANCE_METHODS__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ __IVARS__TtC12HomeKitClips16IndexedDataStore
++ __IVARS__TtC12HomeKitClips32GenerativeAnalysisResultUploader
++ __IVARS__TtCCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager11CancelState
++ __IVARS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ __IVARS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ __IVARS__TtCO12HomeKitClips18CameraCloudStorage20AuthorizationManager
++ __IVARS__TtCO12HomeKitClips18CameraCloudStorage7Manager
++ __IVARS__TtCO12HomeKitClips2AV19AssetImageGenerator
++ __IVARS__TtCOO12HomeKitClips2AV20AssetResourceLoading11DataRequest
++ __IVARS__TtCOO12HomeKitClips2AV20AssetResourceLoading25ContentInformationRequest
++ __IVARS__TtCOO12HomeKitClips2AV20AssetResourceLoading7Request
++ __IVARS__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ __IVARS__TtCV12HomeKitClips5HKSV322CameraDataStoreContext
++ __IVARS__TtCV12HomeKitClips5HKSV323CameraRecordingExporter
++ __IVARS__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ __IVARS__TtCVV12HomeKitClips10CameraClip5Media14ImageGenerator
++ __METACLASS_DATA__TtC12HomeKitClips16IndexedDataStore
++ __METACLASS_DATA__TtC12HomeKitClips32GenerativeAnalysisResultUploader
++ __METACLASS_DATA__TtCC12HomeKitClips16IndexedDataStore21DefaultTimeRangeIndex
++ __METACLASS_DATA__TtCCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager11CancelState
++ __METACLASS_DATA__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ __METACLASS_DATA__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ __METACLASS_DATA__TtCO12HomeKitClips18CameraCloudStorage18CertificateManager
++ __METACLASS_DATA__TtCO12HomeKitClips18CameraCloudStorage20AuthorizationManager
++ __METACLASS_DATA__TtCO12HomeKitClips18CameraCloudStorage7Manager
++ __METACLASS_DATA__TtCO12HomeKitClips2AV19AssetImageGenerator
++ __METACLASS_DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading11DataRequest
++ __METACLASS_DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading25ContentInformationRequest
++ __METACLASS_DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading7Request
++ __METACLASS_DATA__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ __METACLASS_DATA__TtCV12HomeKitClips5HKSV322CameraDataStoreContext
++ __METACLASS_DATA__TtCV12HomeKitClips5HKSV323CameraRecordingExporter
++ __METACLASS_DATA__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ __METACLASS_DATA__TtCVV12HomeKitClips10CameraClip5Media14ImageGenerator
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVAssetDownloadDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVAssetDownloadSessionDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVAssetResourceLoaderDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionTaskDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAssetDownloadDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAssetDownloadSessionDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAssetResourceLoaderDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionTaskDelegate
++ __OBJC_$_PROTOCOL_REFS_AVAssetDownloadDelegate
++ __OBJC_$_PROTOCOL_REFS_AVAssetResourceLoaderDelegate
++ __OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
++ __OBJC_$_PROTOCOL_REFS_NSURLSessionTaskDelegate
++ __OBJC_LABEL_PROTOCOL_$_AVAssetDownloadDelegate
++ __OBJC_LABEL_PROTOCOL_$_AVAssetDownloadSessionDelegate
++ __OBJC_LABEL_PROTOCOL_$_AVAssetResourceLoaderDelegate
++ __OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
++ __OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
++ __OBJC_PROTOCOL_$_AVAssetDownloadDelegate
++ __OBJC_PROTOCOL_$_AVAssetDownloadSessionDelegate
++ __OBJC_PROTOCOL_$_AVAssetResourceLoaderDelegate
++ __OBJC_PROTOCOL_$_NSURLSessionDelegate
++ __OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
++ __PROTOCOLS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession
++ __PROTOCOLS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter20AssetDownloadSession.2
++ __PROTOCOLS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager
++ __PROTOCOLS__TtCCV12HomeKitClips5HKSV323CameraRecordingExporter24AssetDownloadTaskManager.31
++ __PROTOCOLS__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate
++ __PROTOCOLS__TtCOO12HomeKitClips2AV20AssetResourceLoading8Delegate.2
++ __PROTOCOLS__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset
++ __PROTOCOLS__TtCV12HomeKitClips5HKSV327CameraRecordingSessionAsset.1
++ ___NSArray0__struct
++ ___swift__destructor
++ ___swift__destructor.113
++ ___swift__destructor.12
++ ___swift__destructor.15
++ ___swift__destructor.18
++ ___swift__destructor.2
++ ___swift__destructor.46
++ ___swift__destructor.48
++ ___swift__destructor.49
++ ___swift__destructor.61
++ ___swift__destructor.67
++ ___swift__destructor.70
++ ___swift__destructor.74
++ ___swift__destructor.85
++ ___swift__destructor.89
++ ___swift__destructorTm
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.123Tm
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.126Tm
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.135Tm
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.38Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.44Tm
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.47Tm
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.50Tm
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.79Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.88Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy24_4
++ ___swift_memcpy26_8
++ ___swift_memcpy2_2
++ ___swift_memcpy48_4
++ ___swift_memcpy56_8
++ ___swift_memcpy88_8
++ ___swift_memcpy8_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_HomeKitClips
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_HomeKitClips
++ _associated conformance 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLOSHAASQ
++ _associated conformance 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV6ReasonOSHAASQ
++ _associated conformance 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventVSHAASQ
++ _associated conformance 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameVSHAASQ
++ _associated conformance 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLOSHAASQ
++ _associated conformance 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips11IndexedClipVSHAASQ
++ _associated conformance 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLOSHAASQ
++ _associated conformance 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips15CameraDataStoreC10ChangeKindVSHAASQ
++ _associated conformance 12HomeKitClips15CameraDataStoreC10ChangeKindVs10SetAlgebraAASQ
++ _associated conformance 12HomeKitClips15CameraDataStoreC10ChangeKindVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12HomeKitClips15CameraDataStoreC10ChangeKindVs9OptionSetAASY
++ _associated conformance 12HomeKitClips15CameraDataStoreC10ChangeKindVs9OptionSetAAs0J7Algebra
++ _associated conformance 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLOSHAASQ
++ _associated conformance 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips15CameraDataStoreC11ChangeTokenVSHAASQ
++ _associated conformance 12HomeKitClips15CameraDataStoreC6ChangeOSHAASQ
++ _associated conformance 12HomeKitClips15CameraDataStoreCAA0dE7StorageAA0D27RecordingEventAsyncSequenceAaDP_Sci
++ _associated conformance 12HomeKitClips15CameraDataStoreCAA0dE7StorageAA0D29SignificantEventAsyncSequenceAaDP_Sci
++ _associated conformance 12HomeKitClips15CameraDataStoreCAA0dE7StorageAA0D34SignificantEventsByIDAsyncSequenceAaDP_Sci
++ _associated conformance 12HomeKitClips15CameraDataStoreCAA0dE7StorageAA19ChangeAsyncSequenceAaDP_Sci
++ _associated conformance 12HomeKitClips16IndexedDataStoreC05FetchdC7RequestVSHAASQ
++ _associated conformance 12HomeKitClips16IndexedDataStoreC11ChangeTokenVSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionV10CodingKeysOSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips17CameraClipCaptionV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLOSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips17CameraClipCaptionV2IDVSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionV6FieldsOSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionV7ChapterVSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionVAA14RecordStorableAA2IDAaDP_AA0G12Identifiable
++ _associated conformance 12HomeKitClips17CameraClipCaptionVAA14RecordStorableAA6FieldsAaDP_AA0G8FieldKey
++ _associated conformance 12HomeKitClips17CameraClipCaptionVSHAASQ
++ _associated conformance 12HomeKitClips17CameraClipCaptionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0L0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV21InternalSwiftProtobuf26_MessageImplementationBaseAaJ0M0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV21InternalSwiftProtobuf26_MessageImplementationBaseAaJ0M0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV4RectVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV21InternalSwiftProtobuf26_MessageImplementationBaseAaH0L0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonOSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameV5EventVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV5FrameVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeOSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0K0
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips18CameraClipMetadataV7SegmentVSHAASQ
++ _associated conformance 12HomeKitClips18CameraClipMetadataVSHAASQ
++ _associated conformance 12HomeKitClips18CameraCloudStorageO0eF7VersionOSHAASQ
++ _associated conformance 12HomeKitClips18CameraCloudStorageO16CertificateErrorOSHAASQ
++ _associated conformance 12HomeKitClips18CameraCloudStorageO18AuthorizationErrorV10Foundation13CustomNSErrorAAs0H0
++ _associated conformance 12HomeKitClips18CameraCloudStorageO5ErrorOSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV10CodingKeysOSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV2IDVSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV6FieldsOSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingV7SegmentVSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingVAA14RecordStorableAA2IDAaDP_AA0G12Identifiable
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingVAA14RecordStorableAA6FieldsAaDP_AA0G8FieldKey
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingVSHAASQ
++ _associated conformance 12HomeKitClips19CameraClipEmbeddingVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLOSHAASQ
++ _associated conformance 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLOSHAASQ
++ _associated conformance 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips22CameraSignificantEventV6ReasonOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLOSHAASQ
++ _associated conformance 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips26CameraClipEmbeddingSegmentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12HomeKitClips26CameraClipEmbeddingSegmentV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 12HomeKitClips26CameraClipEmbeddingSegmentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips26CameraClipEmbeddingSegmentVSHAASQ
++ _associated conformance 12HomeKitClips3PKIO5ErrorOSHAASQ
++ _associated conformance 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLOSHAASQ
++ _associated conformance 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12HomeKitClips5HKSV3V15CameraRecordingV2IDVSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V15CameraRecordingV4ModeOSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V15CameraRecordingVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 12HomeKitClips5HKSV3V22CameraRecordingSessionV6StatusOSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDVSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV6FieldsOSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataVAA14RecordStorableAA2IDAaFP_AA0I12Identifiable
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataVAA14RecordStorableAA6FieldsAaFP_AA0I8FieldKey
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataVSHAASQ
++ _associated conformance 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 12HomeKitClips7CryptorV6SchemeOSHAASQ
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _block_copy_helper.11
++ _block_copy_helper.111
++ _block_copy_helper.19
++ _block_copy_helper.25
++ _block_copy_helper.26
++ _block_copy_helper.43
++ _block_copy_helper.58
++ _block_copy_helper.73
++ _block_copy_helper.88
++ _block_descriptor.113
++ _block_descriptor.13
++ _block_descriptor.21
++ _block_descriptor.27
++ _block_descriptor.28
++ _block_descriptor.45
++ _block_descriptor.60
++ _block_descriptor.75
++ _block_descriptor.90
++ _block_destroy_helper.112
++ _block_destroy_helper.12
++ _block_destroy_helper.20
++ _block_destroy_helper.26
++ _block_destroy_helper.27
++ _block_destroy_helper.44
++ _block_destroy_helper.59
++ _block_destroy_helper.74
++ _block_destroy_helper.89
++ _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
++ _get_enum_tag_for_layout_string 12HomeKitClips14CloudZoneStoreC12RecordChangeO
++ _get_type_metadata 15Synchronization5MutexVy12HomeKitClips10CameraClipVG noncopyable.35
++ _get_type_metadata 15Synchronization5MutexVy12HomeKitClips17CameraClipCaptionVG noncopyable.60
++ _get_type_metadata 15Synchronization5MutexVy12HomeKitClips18CameraClipUploaderC5State33_1B40B053D25DDCC9188F90FEA1BA5965LLVG noncopyable.34
++ _get_type_metadata 15Synchronization5MutexVy12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLVG noncopyable.58
++ _get_type_metadata 15Synchronization5MutexVy12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC11CancelStateC0O033_DA448B66B33D79D69615B0B2CE54836CLLVG noncopyable.38
++ _get_type_metadata 15Synchronization5MutexVySDySi12HomeKitClips19CameraClipEmbeddingVGG noncopyable.59
++ _get_type_metadata 15Synchronization5MutexVySDySi12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0kL5StateVGG noncopyable.32
++ _get_type_metadata 15Synchronization5MutexVySb12HomeKitClips2AVO20AssetResourceLoadingO10Requesting_pYbcSgG noncopyable.3
++ _get_witness_table Scsy12HomeKitClips10CameraClipV_AA0dE10EventAssetVts5Error_pGSciHPyHC.12
++ _get_witness_table Scsy12HomeKitClips10CameraClipV_AA0dE10EventAssetVts5Error_pGSciHPyHC.99
++ _get_witness_table Scsy12HomeKitClips14PersonFaceCropVs5Error_pGSciHPyHC.46
++ _get_witness_table Scsy12HomeKitClips15CameraDataStoreC6ChangeOs5Error_pGSciHPyHC.12
++ _get_witness_table Scsy12HomeKitClips17CameraClipCaptionVs5Error_pGSciHPyHC.50
++ _get_witness_table Scsy12HomeKitClips19CameraClipEmbeddingVs5Error_pGSciHPyHC.49
++ _get_witness_table Scsy12HomeKitClips20CameraRecordingEventOs5Error_pGSciHPyHC.10
++ _get_witness_table Scsy12HomeKitClips20CameraRecordingEventOs5Error_pGSciHPyHC.97
++ _get_witness_table Scsy12HomeKitClips20UnassociatedFaceCropVs5Error_pGSciHPyHC.47
++ _get_witness_table Scsy12HomeKitClips22CameraSignificantEventVs5Error_pGSciHPyHC.98
++ _get_witness_table s16AsyncMapSequenceVyScsy12HomeKitClips22CameraSignificantEventVs5Error_pGAC0g9RecordingI0OGSciHPyHC.11
++ _get_witness_table s24AsyncThrowingMapSequenceVyScsySo10CGImageRefas5Error_pG12HomeKitClips10ImageAssetVGSciHPyHC.10
++ _kCFAllocatorDefault
++ _kCGImageDestinationLossyCompressionQuality
++ _kCGImagePropertyPixelHeight
++ _kCGImagePropertyPixelWidth
++ _kCMTimeZero
++ _kSecAttrKeySizeInBits
++ _kSecAttrKeyType
++ _kSecAttrKeyTypeECSECPrimeRandom
++ _kSecCSRBasicConstraintsCA
++ _kSecCSRBasicContraintsPathLen
++ _kSecCertificateExtendedKeyUsage
++ _kSecCertificateExtensions
++ _kSecCertificateExtensionsEncoded
++ _kSecCertificateKeyUsage
++ _kSecCertificateLifetime
++ _kSecCertificateSerialNumber
++ _kSecEKUClientAuth
++ _kSecOidCommonName
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$aa_cloudKitVideoToken
++ _objc_msgSend$aa_personID
++ _objc_msgSend$aa_primaryAppleAccountWithCompletion:
++ _objc_msgSend$addMutableTrackWithMediaType:preferredTrackID:
++ _objc_msgSend$addObject:
++ _objc_msgSend$allHeaderFields
++ _objc_msgSend$arrayWithCapacity:
++ _objc_msgSend$assetCache
++ _objc_msgSend$assetDownloadSessionWithAsset:destinationURL:options:
++ _objc_msgSend$assetDownloadTaskWithConfiguration:
++ _objc_msgSend$assetVariantQualifierWithVariant:
++ _objc_msgSend$attributeSet
++ _objc_msgSend$backgroundSessionConfigurationWithIdentifier:
++ _objc_msgSend$bytes
++ _objc_msgSend$camera
++ _objc_msgSend$closeFile
++ _objc_msgSend$contentCreationDate
++ _objc_msgSend$contentInformationRequest
++ _objc_msgSend$contentKeyInfo
++ _objc_msgSend$countOfBytesExpectedToReceive
++ _objc_msgSend$countOfBytesReceived
++ _objc_msgSend$createFileAtPath:contents:attributes:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$customMediaEmbedding
++ _objc_msgSend$dataRequest
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$defaultStore
++ _objc_msgSend$deleteAllSearchableItemsWithCompletionHandler:
++ _objc_msgSend$deleteSearchableItemsWithDomainIdentifiers:completionHandler:
++ _objc_msgSend$deleteSearchableItemsWithIdentifiers:completionHandler:
++ _objc_msgSend$doubleValue
++ _objc_msgSend$downloadConfigurationWithAsset:title:
++ _objc_msgSend$duration
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileHandleForWritingToURL:error:
++ _objc_msgSend$finishLoading
++ _objc_msgSend$finishLoadingWithError:
++ _objc_msgSend$floatArrayFromFloat16Data:
++ _objc_msgSend$floatValue
++ _objc_msgSend$getUnifiedEmbeddingVersion
++ _objc_msgSend$home
++ _objc_msgSend$indexSearchableItems:completionHandler:
++ _objc_msgSend$initWithAsset:
++ _objc_msgSend$initWithAsset:presetName:
++ _objc_msgSend$initWithContentType:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithFormat:dimension:version:vectors:
++ _objc_msgSend$initWithKeyName:
++ _objc_msgSend$initWithKeyName:searchable:searchableByDefault:unique:multiValued:
++ _objc_msgSend$initWithName:bundleIdentifier:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithQueryString:queryContext:
++ _objc_msgSend$initWithURL:options:
++ _objc_msgSend$initWithUniqueIdentifier:domainIdentifier:attributeSet:
++ _objc_msgSend$initWithZoneID:
++ _objc_msgSend$insertTimeRange:ofTrack:atTime:error:
++ _objc_msgSend$keyIdentifier
++ _objc_msgSend$keyName
++ _objc_msgSend$length
++ _objc_msgSend$mainBundle
++ _objc_msgSend$mainQueue
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$mediaType
++ _objc_msgSend$moveItemAtURL:toURL:error:
++ _objc_msgSend$numberWithFloat:
++ _objc_msgSend$path
++ _objc_msgSend$primaryContentConfiguration
++ _objc_msgSend$range
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$renewCredentialsForAccount:completion:
++ _objc_msgSend$request
++ _objc_msgSend$requestHKSVClipIngestion:progressHandler:completionHandler:
++ _objc_msgSend$requestRemovalForHKSVClipIDs:completionHandler:
++ _objc_msgSend$requestedLength
++ _objc_msgSend$requestedOffset
++ _objc_msgSend$requestsAllDataToEndOfResource
++ _objc_msgSend$resourceLoader
++ _objc_msgSend$respondWithData:
++ _objc_msgSend$resume
++ _objc_msgSend$retrieveMediaStreamInfosForVariant:mediaSelection:completionHandler:
++ _objc_msgSend$room
++ _objc_msgSend$segments
++ _objc_msgSend$serverFriendlyDescription
++ _objc_msgSend$sessionWithConfiguration:
++ _objc_msgSend$sessionWithConfiguration:assetDownloadDelegate:delegateQueue:
++ _objc_msgSend$setAppliesPreferredTrackTransform:
++ _objc_msgSend$setBundleIDs:
++ _objc_msgSend$setByteRangeAccessSupported:
++ _objc_msgSend$setCamera:
++ _objc_msgSend$setContentCreationDate:
++ _objc_msgSend$setContentDescription:
++ _objc_msgSend$setContentLength:
++ _objc_msgSend$setContentType:
++ _objc_msgSend$setCreationDate:
++ _objc_msgSend$setCustomMediaEmbedding:
++ _objc_msgSend$setDelegate:queue:
++ _objc_msgSend$setDiscretionary:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setDurationTimeScale:
++ _objc_msgSend$setDurationTimeValue:
++ _objc_msgSend$setEmbedding:
++ _objc_msgSend$setEmbeddings:
++ _objc_msgSend$setExpirationDate:
++ _objc_msgSend$setFetchAllChanges:
++ _objc_msgSend$setFetchAttributes:
++ _objc_msgSend$setFetchNewestChangesFirst:
++ _objc_msgSend$setFormatOptions:
++ _objc_msgSend$setHome:
++ _objc_msgSend$setHomeID:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setIndexDelegate:
++ _objc_msgSend$setKeywords:
++ _objc_msgSend$setPreviousServerChangeToken:
++ _objc_msgSend$setRequestedTimeToleranceAfter:
++ _objc_msgSend$setRequestedTimeToleranceBefore:
++ _objc_msgSend$setRoom:
++ _objc_msgSend$setSessionSendsLaunchEvents:
++ _objc_msgSend$setStartTimeScale:
++ _objc_msgSend$setStartTimeValue:
++ _objc_msgSend$setTextContent:
++ _objc_msgSend$setThumbnailData:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setValue:forCustomKey:
++ _objc_msgSend$setVariantQualifiers:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$set_appleIDContext:
++ _objc_msgSend$start
++ _objc_msgSend$statusCode
++ _objc_msgSend$stop
++ _objc_msgSend$taskIdentifier
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$title
++ _objc_msgSend$unifiedEmbeddingVersion
++ _objc_msgSend$uniqueDeviceIdentifier
++ _objc_msgSend$uniqueIdentifier
++ _objc_msgSend$valueForCustomKey:
++ _objc_msgSend$vectors
++ _objc_msgSend$version
++ _objc_msgSend$writeData:
++ _swift_getExistentialTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_getMetatypeMetadata
++ _swift_getOpaqueTypeConformance2
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _symbolic $s12HomeKitClips16IndexedDataStoreC14TimeRangeIndexP
++ _symbolic $s12HomeKitClips16IndexedDataStoreC15SearchableIndexP
++ _symbolic $s12HomeKitClips17CameraDataStorageP
++ _symbolic $s12HomeKitClips18CameraCloudStorageO15QuotaManagementP
++ _symbolic $s12HomeKitClips18CameraCloudStorageO19CertificateManagingP
++ _symbolic $s12HomeKitClips18CameraCloudStorageO21AuthorizationManagingP
++ _symbolic $s12HomeKitClips18CameraCloudStorageO7CapableP
++ _symbolic $s12HomeKitClips26CameraClipCaptionResolvingP
++ _symbolic $s12HomeKitClips2AVO20AssetImageGeneratingP
++ _symbolic $s12HomeKitClips2AVO20AssetResourceLoadingO10RequestingP
++ _symbolic $s12HomeKitClips2AVO20AssetResourceLoadingO14DataRequestingP
++ _symbolic $s12HomeKitClips2AVO20AssetResourceLoadingO28ContentInformationRequestingP
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic 19ChangeAsyncSequence_____Qz 12HomeKitClips17CameraDataStorageP
++ _symbolic 19ChangeAsyncSequence______7ElementSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 19ChangeAsyncSequence______7FailureSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 33CameraRecordingEventAsyncSequence_____Qz 12HomeKitClips17CameraDataStorageP
++ _symbolic 33CameraRecordingEventAsyncSequence______7ElementSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 33CameraRecordingEventAsyncSequence______7FailureSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 35CameraSignificantEventAsyncSequence_____Qz 12HomeKitClips17CameraDataStorageP
++ _symbolic 35CameraSignificantEventAsyncSequence______7ElementSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 35CameraSignificantEventAsyncSequence______7FailureSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 40CameraSignificantEventsByIDAsyncSequence_____Qz 12HomeKitClips17CameraDataStorageP
++ _symbolic 40CameraSignificantEventsByIDAsyncSequence______7ElementSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 40CameraSignificantEventsByIDAsyncSequence______7FailureSciQZ 12HomeKitClips17CameraDataStorageP
++ _symbolic 7ElementSciQyd__
++ _symbolic 7FailureSciQyd__
++ _symbolic SDyS2SG
++ _symbolic SDySi_____G 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic SDySi_____G 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV013ClipEmbeddingH0V
++ _symbolic SDySi_____G 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0iJ5StateV
++ _symbolic SDy__________G So11CFStringRefa 10Foundation4DataV
++ _symbolic SDy__________G_____YaYbKc 12HomeKitClips22CameraSignificantEventV2IDV AA18FaceClassificationV 10Foundation12DateIntervalV
++ _symbolic SS3key______5valuet s11AnyHashableV
++ _symbolic SS5field_SaySo11CKReferenceCG10referencest
++ _symbolic SS5field_So11CKReferenceC9referencet
++ _symbolic SaySayypGG
++ _symbolic SaySdG
++ _symbolic SaySo11CKReferenceCG
++ _symbolic SaySo16CSSearchableItemCG
++ _symbolic SaySo24AVOfflineMediaStreamInfoCG
++ _symbolic SaySo7CKQueryCG
++ _symbolic Say_____G 10Foundation4UUIDV
++ _symbolic Say_____G 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV
++ _symbolic Say_____G 12HomeKitClips16IndexedDataStoreC13TimeRangeItemV
++ _symbolic Say_____G 12HomeKitClips17CameraClipCaptionV
++ _symbolic Say_____G 12HomeKitClips17CameraClipCaptionV2IDV
++ _symbolic Say_____G 12HomeKitClips18CameraClipMetadataV5FrameV
++ _symbolic Say_____G 12HomeKitClips18CameraClipMetadataV5FrameV5EventV
++ _symbolic Say_____G 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonO
++ _symbolic Say_____G 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeO
++ _symbolic Say_____G 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic Say_____G 12HomeKitClips19CameraClipEmbeddingV2IDV
++ _symbolic Say_____G 12HomeKitClips19CameraClipEmbeddingV7SegmentV
++ _symbolic Say_____G 12HomeKitClips22CameraSignificantEventV6ReasonO
++ _symbolic Say_____G 12HomeKitClips32CameraClipCaptionUpdateOperationV
++ _symbolic Say_____G 12HomeKitClips41CameraClipEmbeddingAppendSegmentOperationV
++ _symbolic Say_____G 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic Say_____G 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV
++ _symbolic Say_____G So11CFStringRefa
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____G So6CMTimea
++ _symbolic ScCySaySo24AVOfflineMediaStreamInfoCG______pG s5ErrorP
++ _symbolic ScCySo9ACAccountCSg______pG s5ErrorP
++ _symbolic ScCy___________pG 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV6ResultV s5ErrorP
++ _symbolic ScCy___________pGSg 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV6ResultV s5ErrorP
++ _symbolic ScSy_____G 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic ScTy___________pG 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV6ResultV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips14PersonFaceCropV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips15CameraDataStoreC6ChangeO s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips17CameraClipCaptionV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips19CameraClipEmbeddingV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips20CameraRecordingEventO s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips20UnassociatedFaceCropV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips22CameraSignificantEventV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V15CameraRecordingV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V20CameraRecordingTrackV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V23CameraJournalCheckpointV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV s5ErrorP
++ _symbolic Scsy___________pG 12HomeKitClips5HKSV3V9CameraKeyV s5ErrorP
++ _symbolic Scsy___________pG So10CGImageRefa s5ErrorP
++ _symbolic Scsy___________t______pG 12HomeKitClips10CameraClipV AA0dE10EventAssetV s5ErrorP
++ _symbolic Sd10timeOffset_Sd8durationSay_____G6framest 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV
++ _symbolic Si3key______5valuet 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic Si6offset______7elementt 12HomeKitClips5HKSV3V22CameraRecordingSessionV
++ _symbolic SiIegy_Sg
++ _symbolic Si______t 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0iJ5StateV
++ _symbolic Sny_____G SS5IndexV
++ _symbolic So10AVURLAssetC
++ _symbolic So10CKRecordIDC06recordB0_SS0C4Typet
++ _symbolic So12NSURLSessionCSg
++ _symbolic So14ACAccountStoreC
++ _symbolic So14AVAssetVariantC
++ _symbolic So14CKRecordZoneIDC_So013CKFetchRecordB20ChangesConfigurationCt
++ _symbolic So16NSURLSessionTaskCSg
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So19CKServerChangeTokenC
++ _symbolic So19CKServerChangeTokenCSg
++ _symbolic So21AVAssetImageGeneratorC
++ _symbolic So22AVAssetDownloadSessionC
++ _symbolic So25AVAssetDownloadURLSessionCSg
++ _symbolic So28AVAssetDownloadConfigurationC
++ _symbolic So29AVAssetResourceLoadingRequestC
++ _symbolic So33AVAssetResourceLoadingDataRequestC
++ _symbolic So33CKFetchRecordZoneChangesOperationC
++ _symbolic So33CKFetchRecordZoneChangesOperationCSgXw
++ _symbolic So33CKFetchRecordZoneChangesOperationCSgXwz_Xx
++ _symbolic So47AVAssetResourceLoadingContentInformationRequestC
++ _symbolic So9ACAccountCSg
++ _symbolic _____ 10Foundation12DateIntervalV
++ _symbolic _____ 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLO
++ _symbolic _____ 12HomeKitClips10CameraClipV5MediaV14ImageGeneratorC
++ _symbolic _____ 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV
++ _symbolic _____ 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV
++ _symbolic _____ 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV6ReasonO
++ _symbolic _____ 12HomeKitClips10ImageAssetV11CropOptionsV
++ _symbolic _____ 12HomeKitClips11IndexedClipV
++ _symbolic _____ 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLO
++ _symbolic _____ 12HomeKitClips14CloudZoneStoreC12RecordChangeO
++ _symbolic _____ 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLO
++ _symbolic _____ 12HomeKitClips15CameraDataStoreC10ChangeKindV
++ _symbolic _____ 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____ 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLO
++ _symbolic _____ 12HomeKitClips15CameraDataStoreC6ChangeO
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC05FetchdC7RequestV
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC05IndexC7RequestV
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC0D11ClipContext33_4E4668F2218B1DD75EA720B95F56983CLLV
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC11ChangeTokenV
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC13TimeRangeItemV
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC21DefaultTimeRangeIndexC
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC22CustomAttributeKeyNameO
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV10CodingKeysO
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV2IDV
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLO
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV6FieldsO
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV7ChapterV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV4RectV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV5EventV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonO
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV7SegmentV
++ _symbolic _____ 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeO
++ _symbolic _____ 12HomeKitClips18CameraClipUploaderC22SkippedProcessingError33_1B40B053D25DDCC9188F90FEA1BA5965LLV
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO0eF7VersionO
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO13AuthorizationV
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO16CertificateErrorO
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO18AuthorizationErrorV
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO18CertificateManagerC
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO20AuthorizationManagerC
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO5ErrorO
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO7ManagerC
++ _symbolic _____ 12HomeKitClips18CameraCloudStorageO9CSRBundleV
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV10CodingKeysO
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV2IDV
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV6FieldsO
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV7SegmentV
++ _symbolic _____ 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____ 12HomeKitClips19CloudQueryPredicateO
++ _symbolic _____ 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLO
++ _symbolic _____ 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLO
++ _symbolic _____ 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLO
++ _symbolic _____ 12HomeKitClips25CameraClipCaptionResolverV
++ _symbolic _____ 12HomeKitClips25CameraClipCaptionResolverV19replacePersonTokens2in4withS2S_SDy10Foundation4UUIDVSSGtFZ0I5TokenL_V
++ _symbolic _____ 12HomeKitClips26CameraClipEmbeddingSegmentV
++ _symbolic _____ 12HomeKitClips2AVO
++ _symbolic _____ 12HomeKitClips2AVO19AssetImageGeneratorC
++ _symbolic _____ 12HomeKitClips2AVO20AssetResourceLoadingO
++ _symbolic _____ 12HomeKitClips2AVO20AssetResourceLoadingO11DataRequestC
++ _symbolic _____ 12HomeKitClips2AVO20AssetResourceLoadingO25ContentInformationRequestC
++ _symbolic _____ 12HomeKitClips2AVO20AssetResourceLoadingO7RequestC
++ _symbolic _____ 12HomeKitClips2AVO20AssetResourceLoadingO8DelegateC
++ _symbolic _____ 12HomeKitClips32CameraClipCaptionCreateOperationV
++ _symbolic _____ 12HomeKitClips32CameraClipCaptionCreateOperationV6ResultV
++ _symbolic _____ 12HomeKitClips32CameraClipCaptionUpdateOperationV
++ _symbolic _____ 12HomeKitClips32CameraClipCaptionUpdateOperationV6ResultO
++ _symbolic _____ 12HomeKitClips32GenerativeAnalysisResultUploaderC
++ _symbolic _____ 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV
++ _symbolic _____ 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV013ClipEmbeddingH0V
++ _symbolic _____ 12HomeKitClips34CameraClipCaptionFinalizeOperationV
++ _symbolic _____ 12HomeKitClips34CameraClipCaptionFinalizeOperationV6ResultO
++ _symbolic _____ 12HomeKitClips34CameraClipEmbeddingCreateOperationV
++ _symbolic _____ 12HomeKitClips34CameraClipEmbeddingCreateOperationV6ResultV
++ _symbolic _____ 12HomeKitClips36CameraClipEmbeddingFinalizeOperationV
++ _symbolic _____ 12HomeKitClips36CameraClipEmbeddingFinalizeOperationV6ResultO
++ _symbolic _____ 12HomeKitClips3PKIO
++ _symbolic _____ 12HomeKitClips3PKIO17IssuedCertificateV
++ _symbolic _____ 12HomeKitClips3PKIO20CertificateAuthorityV
++ _symbolic _____ 12HomeKitClips3PKIO5ErrorO
++ _symbolic _____ 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLO
++ _symbolic _____ 12HomeKitClips41CameraClipEmbeddingAppendSegmentOperationV
++ _symbolic _____ 12HomeKitClips41CameraClipEmbeddingAppendSegmentOperationV6ResultV
++ _symbolic _____ 12HomeKitClips5HKSV3V15CameraDataStoreC22SessionPlaybackRequestV
++ _symbolic _____ 12HomeKitClips5HKSV3V15CameraRecordingV
++ _symbolic _____ 12HomeKitClips5HKSV3V15CameraRecordingV2IDV
++ _symbolic _____ 12HomeKitClips5HKSV3V15CameraRecordingV4ModeO
++ _symbolic _____ 12HomeKitClips5HKSV3V22CameraDataStoreContextC
++ _symbolic _____ 12HomeKitClips5HKSV3V22CameraRecordingSessionV6StatusO
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC20AssetDownloadSessionC
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0iJ5StateV
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC11CancelStateC
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC11CancelStateC0M033_DA448B66B33D79D69615B0B2CE54836CLLV
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV6ResultV
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____ 12HomeKitClips5HKSV3V27CameraRecordingSessionAssetC
++ _symbolic _____ 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____ 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV
++ _symbolic _____ 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV6FieldsO
++ _symbolic _____ 12HomeKitClips7CryptorV
++ _symbolic _____ 12HomeKitClips7CryptorV6SchemeO
++ _symbolic _____ So11CMTimeFlagsV
++ _symbolic _____ So11CMTimeRangea
++ _symbolic _____ So30ACAccountCredentialRenewResultV
++ _symbolic _____ So6CMTimea
++ _symbolic _____ So9SecKeyRefa
++ _symbolic _____ s5Int32V
++ _symbolic _____ s6UInt16V
++ _symbolic _____11clipCaption_t 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____14updatedCaption_t 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____15underlyingError_t 12HomeKitClips3PKIO5ErrorO
++ _symbolic _____22finalizedClipEmbedding_t 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____3key______5valuet 12HomeKitClips22CameraSignificantEventV2IDV AA18FaceClassificationV
++ _symbolic _____SDy__________G______pIeghHnozo_ 10Foundation12DateIntervalV 12HomeKitClips22CameraSignificantEventV2IDV AD18FaceClassificationV s5ErrorP
++ _symbolic _____SDy__________G______pIeghHnrzo_ 10Foundation12DateIntervalV 12HomeKitClips22CameraSignificantEventV2IDV AD18FaceClassificationV s5ErrorP
++ _symbolic _____Sg 10Foundation13URLComponentsV
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 12HomeKitClips11IndexedClipV
++ _symbolic _____Sg 12HomeKitClips14CloudZoneStoreC
++ _symbolic _____Sg 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____Sg 12HomeKitClips15CameraDataStoreC6ChangeO
++ _symbolic _____Sg 12HomeKitClips16IndexedDataStoreC13TimeRangeItemV
++ _symbolic _____Sg 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____Sg 12HomeKitClips18CameraClipMetadataV5FrameV4RectV
++ _symbolic _____Sg 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV
++ _symbolic _____Sg 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV
++ _symbolic _____Sg 12HomeKitClips18CameraClipMetadataV5FrameV5EventV6ReasonO
++ _symbolic _____Sg 12HomeKitClips18CameraClipMetadataV7SegmentV0G4TypeO
++ _symbolic _____Sg 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____Sg 12HomeKitClips19CameraClipEmbeddingV2IDV
++ _symbolic _____Sg 12HomeKitClips22CameraSignificantEventV
++ _symbolic _____Sg 12HomeKitClips32CameraClipCaptionCreateOperationV
++ _symbolic _____Sg 12HomeKitClips34CameraClipCaptionFinalizeOperationV
++ _symbolic _____Sg 12HomeKitClips34CameraClipEmbeddingCreateOperationV
++ _symbolic _____Sg 12HomeKitClips36CameraClipEmbeddingFinalizeOperationV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V20CameraRecordingTrackV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V22CameraRecordingSessionV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V23CameraJournalCheckpointV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0iJ5StateV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____Sg So10CFErrorRefa
++ _symbolic _____Sg So13CSSearchQueryC13CoreSpotlightE7ResultsV4ItemV
++ _symbolic _____Sg So21AVAssetImageGeneratorC12AVFoundationE6ImagesV7ElementO
++ _symbolic _____Sg_ABt 12HomeKitClips18CameraClipMetadataV5FrameV4RectV
++ _symbolic _____Sg_ABt 12HomeKitClips18CameraClipMetadataV5FrameV4RectV4SizeV
++ _symbolic _____Sg_ABt 12HomeKitClips18CameraClipMetadataV5FrameV4RectV5PointV
++ _symbolic _____XDXMT 12HomeKitClips10CameraClipV5MediaV14ImageGeneratorC
++ _symbolic _____XDXMT 12HomeKitClips5HKSV3V15CameraDataStoreC
++ _symbolic _____XDXMT 12HomeKitClips5HKSV3V27CameraRecordingSessionAssetC
++ _symbolic ______AAt 12HomeKitClips15CameraDataStoreC6ChangeO
++ _symbolic ________________pXjAB_pIeghHrzo_ r0_ls8Sendable_Scipx7ElementRts_q_7FailureRtsXPXGMq 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic ___________t So11CFStringRefa 10Foundation4DataV
++ _symbolic ___________tSg 12HomeKitClips10CameraClipV AA0dE10EventAssetV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV s5ErrorP AA5HKSV3V20CameraRecordingTrackV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV s5ErrorP AA5HKSV3V22CameraRecordingSessionV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV s5ErrorP AA5HKSV3V23CameraJournalCheckpointV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV s5ErrorP AA5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV s5ErrorP AA5HKSV3V9CameraKeyV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s24AsyncThrowingMapSequenceV s5ErrorP AA22CameraSignificantEventV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA14PersonFaceCropV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA17CameraClipCaptionV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA19CameraClipEmbeddingV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA20CameraRecordingEventO
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA20UnassociatedFaceCropV
++ _symbolic __________yScsySo8CKRecordC______pG_____GAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s31AsyncThrowingCompactMapSequenceV s5ErrorP AA22CameraSignificantEventV
++ _symbolic __________yScsySo8CKRecordC______pG___________tGAE_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s24AsyncThrowingMapSequenceV s5ErrorP AA10CameraClipV AA0lM10EventAssetV
++ _symbolic __________yScsy___________pG_____GAD_pIeghHgrzo_ 12HomeKitClips14CloudZoneStoreC s23AsyncCompactMapSequenceV AC12RecordChangeO s5ErrorP AA010CameraDataF0C0L0O
++ _symbolic ______p 12HomeKitClips16IndexedDataStoreC14TimeRangeIndexP
++ _symbolic ______p 12HomeKitClips16IndexedDataStoreC15SearchableIndexP
++ _symbolic ______p 12HomeKitClips17CameraDataStorageP
++ _symbolic ______p 12HomeKitClips18CameraCloudStorageO15QuotaManagementP
++ _symbolic ______p 12HomeKitClips18CameraCloudStorageO19CertificateManagingP
++ _symbolic ______p 12HomeKitClips18CameraCloudStorageO21AuthorizationManagingP
++ _symbolic ______p 12HomeKitClips18CameraCloudStorageO7CapableP
++ _symbolic ______p 12HomeKitClips2AVO20AssetImageGeneratingP
++ _symbolic ______p So14NSSecureCodingP
++ _symbolic ______pSbIeghgd_ 12HomeKitClips2AVO20AssetResourceLoadingO10RequestingP
++ _symbolic ______pSbIeghnr_ 12HomeKitClips2AVO20AssetResourceLoadingO10RequestingP
++ _symbolic ______pz_Xx 12HomeKitClips18CameraCloudStorageO7CapableP
++ _symbolic ______ypt So11CFStringRefa
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____m 12HomeKitClips17CameraClipCaptionV7ChapterV
++ _symbolic _____m 12HomeKitClips19CameraClipEmbeddingV7SegmentV
++ _symbolic _____m 12HomeKitClips5HKSV3V15CameraRecordingV2IDV
++ _symbolic _____m 12HomeKitClips5HKSV3V20CameraRecordingTrackV
++ _symbolic _____m 12HomeKitClips5HKSV3V20CameraRecordingTrackV2IDV
++ _symbolic _____m 12HomeKitClips5HKSV3V22CameraRecordingSessionV
++ _symbolic _____m 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV
++ _symbolic _____m 12HomeKitClips5HKSV3V23CameraJournalCheckpointV2IDV
++ _symbolic _____m 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV
++ _symbolic _____m 12HomeKitClips5HKSV3V9CameraKeyV2IDV
++ _symbolic _____ySDySi_____GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____ySDySi_____GG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0kL5StateV
++ _symbolic _____ySaySayypGGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySo11CKReferenceCGG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG s18DiscontiguousSliceV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic _____ySay_____G_G s18DiscontiguousSliceV5IndexV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic _____ySayypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySb______pYbcSgG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips2AVO20AssetResourceLoadingO10RequestingP
++ _symbolic _____yScsySo8CKRecordC______pG_____G s23AsyncCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V20CameraRecordingTrackV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s23AsyncCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V22CameraRecordingSessionV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s23AsyncCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V23CameraJournalCheckpointV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s23AsyncCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s23AsyncCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V9CameraKeyV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s24AsyncThrowingMapSequenceV s5ErrorP 12HomeKitClips22CameraSignificantEventV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____yScsySo8CKRecordC______pG______G s23AsyncCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips5HKSV3V20CameraRecordingTrackV
++ _symbolic _____yScsySo8CKRecordC______pG______G s23AsyncCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips5HKSV3V22CameraRecordingSessionV
++ _symbolic _____yScsySo8CKRecordC______pG______G s23AsyncCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips5HKSV3V23CameraJournalCheckpointV
++ _symbolic _____yScsySo8CKRecordC______pG______G s23AsyncCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____yScsySo8CKRecordC______pG______G s23AsyncCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips5HKSV3V9CameraKeyV
++ _symbolic _____yScsySo8CKRecordC______pG______G s24AsyncThrowingMapSequenceV8IteratorV s5ErrorP 12HomeKitClips22CameraSignificantEventV
++ _symbolic _____yScsySo8CKRecordC______pG______G s31AsyncThrowingCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips14PersonFaceCropV
++ _symbolic _____yScsySo8CKRecordC______pG______G s31AsyncThrowingCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____yScsySo8CKRecordC______pG______G s31AsyncThrowingCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____yScsySo8CKRecordC______pG______G s31AsyncThrowingCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips20UnassociatedFaceCropV
++ _symbolic _____yScsySo8CKRecordC______pG______G s31AsyncThrowingCompactMapSequenceV8IteratorV s5ErrorP 12HomeKitClips22CameraSignificantEventV
++ _symbolic _____yScsySo8CKRecordC______pG___________t_G s24AsyncThrowingMapSequenceV8IteratorV s5ErrorP 12HomeKitClips10CameraClipV AG0jK10EventAssetV
++ _symbolic _____yScsy___________pG_____G s16AsyncMapSequenceV 12HomeKitClips22CameraSignificantEventV s5ErrorP AC0g9RecordingI0O
++ _symbolic _____yScsy___________pG_____G s23AsyncCompactMapSequenceV 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP AC010CameraDataJ0C0L0O
++ _symbolic _____yScsy___________pG_____G s23AsyncCompactMapSequenceV 12HomeKitClips20CameraRecordingEventO s5ErrorP AC0h11SignificantJ18FaceClassificationV
++ _symbolic _____yScsy___________pG_____G s24AsyncThrowingMapSequenceV So10CGImageRefa s5ErrorP 12HomeKitClips10ImageAssetV
++ _symbolic _____yScsy___________pG______G s23AsyncCompactMapSequenceV8IteratorV 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP AE010CameraDataK0C0M0O
++ _symbolic _____yScsy___________pG______G s23AsyncCompactMapSequenceV8IteratorV 12HomeKitClips20CameraRecordingEventO s5ErrorP AE0i11SignificantK18FaceClassificationV
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySfG s23_ContiguousArrayStorageC
++ _symbolic _____ySiG s8RangeSetV
++ _symbolic _____ySi_G s8RangeSetV6RangesV
++ _symbolic _____ySi_____G s18_DictionaryStorageC 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____ySi_____G s18_DictionaryStorageC 12HomeKitClips19CameraClipEmbeddingV2IDV
++ _symbolic _____ySi_____G s18_DictionaryStorageC 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV013ClipEmbeddingJ0V
++ _symbolic _____ySi_____G s18_DictionaryStorageC 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC0kL5StateV
++ _symbolic _____ySo10AVURLAssetCSaySo12AVAssetTrackCGG 12AVFoundation15AVAsyncPropertyC
++ _symbolic _____ySo10AVURLAssetCSo16AVMediaSelectionCG 12AVFoundation15AVAsyncPropertyC
++ _symbolic _____ySo10CKRecordIDCG s10ArraySliceV
++ _symbolic _____ySo12AVAssetTrackC_____G 12AVFoundation15AVAsyncPropertyC So11CMTimeRangea
++ _symbolic _____ySo14CKRecordZoneIDCSo013CKFetchRecordB20ChangesConfigurationCG s18_DictionaryStorageC
++ _symbolic _____ySo14CKRecordZoneIDC_So013CKFetchRecordB20ChangesConfigurationCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo16MADHKSVEmbeddingCG s11_SetStorageC
++ _symbolic _____y_____G 12HomeKitClips13RecordStorageV AA17CameraClipCaptionV
++ _symbolic _____y_____G 12HomeKitClips13RecordStorageV AA19CameraClipEmbeddingV
++ _symbolic _____y_____G 12HomeKitClips13RecordStorageV AA5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC11CancelStateC0O033_DA448B66B33D79D69615B0B2CE54836CLLV
++ _symbolic _____y_____G 15Synchronization5_CellVAARi_zrlE 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____y_____G s11_SetStorageC 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV
++ _symbolic _____y_____G s16PartialRangeFromV SS5IndexV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips17CameraClipCaptionV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips19CameraClipEmbeddingV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips10CameraClipV2IDV10CodingKeys33_719376A874AB29ED465EA0B9A1BD3C54LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips11IndexedClipV10CodingKeys33_B1240325145AB5FB482D35980311B7FBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips14PersonFaceCropV2IDV10CodingKeys33_5BE065440EA775AC87540736CA52B6EELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips15CameraDataStoreC11ChangeTokenV10CodingKeys33_EC10FCDEEB8E311E55FB40710883AEB9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips17CameraClipCaptionV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips17CameraClipCaptionV2IDV10CodingKeys33_6E34393FB143FE9B3E86CEB2F4950FE2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips19CameraClipEmbeddingV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips19CameraClipEmbeddingV2IDV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips19CameraClipEmbeddingV7SegmentV10CodingKeys33_5055F69F8198FB5D085C8258A8A777DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips20UnassociatedFaceCropV2IDV10CodingKeys33_1DB25EABBF6402F8F756BBDF72F9334ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips22CameraSignificantEventV2IDV10CodingKeys33_0400DFC988FFA68DBAAB6F82E746CD30LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips23CameraReachabilityEventV2IDV10CodingKeys33_AD023C37A94AE91BF686FEFE98D98808LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12HomeKitClips40CameraSignificantEventFaceClassificationV2IDV10CodingKeys33_649E2A54A5BA681AE9C36D017DF63B01LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation12URLQueryItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips11IndexedClipV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips16IndexedDataStoreC13TimeRangeItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips17CameraClipCaptionV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips18CameraClipMetadataV5FrameV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips18CameraClipMetadataV5FrameV5EventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips18CameraClipMetadataV7SegmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips19CameraClipEmbeddingV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips19CameraClipEmbeddingV7SegmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips22CameraSignificantEventV6ReasonO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips25CameraClipCaptionResolverV19replacePersonTokens2in4withS2S_SDy10Foundation4UUIDVSSGtFZ0L5TokenL_V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips32CameraClipCaptionUpdateOperationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips41CameraClipEmbeddingAppendSegmentOperationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CMTimea
++ _symbolic _____y_____SSG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y______G 12HMFoundation3HMFO22SleepTaskTimerProviderV s15ContinuousClockV
++ _symbolic _____y______G ScS12ContinuationV 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y______GSg ScS12ContinuationV 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y______GSg_ADt ScS12ContinuationV 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y_______G 12HomeKitClips5HKSV3V7JournalV14ModelLifecycleV AC30CameraRecordingSessionMetadataV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips10CameraClipV2IDV AC16IndexedDataStoreC0iG7Context33_4E4668F2218B1DD75EA720B95F56983CLLV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV2IDV AG
++ _symbolic _____y__________G s18_DictionaryStorageC So11CFStringRefa 10Foundation4DataV
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips14PersonFaceCropV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips15CameraDataStoreC6ChangeO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips17CameraClipCaptionV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips19CameraClipEmbeddingV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips20CameraRecordingEventO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips20UnassociatedFaceCropV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips22CameraSignificantEventV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V15CameraRecordingV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V20CameraRecordingTrackV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V23CameraJournalCheckpointV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 12HomeKitClips5HKSV3V9CameraKeyV s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV So10CGImageRefa s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 12HomeKitClips20CameraRecordingEventO s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 12HomeKitClips22CameraSignificantEventV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11TerminationO 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips14PersonFaceCropV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips15CameraDataStoreC6ChangeO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips17CameraClipCaptionV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips19CameraClipEmbeddingV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips20CameraRecordingEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips20UnassociatedFaceCropV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips22CameraSignificantEventV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V15CameraRecordingV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V20CameraRecordingTrackV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V23CameraJournalCheckpointV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 12HomeKitClips5HKSV3V9CameraKeyV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO So10CGImageRefa s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips14CloudZoneStoreC12RecordChangeO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips14PersonFaceCropV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips15CameraDataStoreC6ChangeO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips17CameraClipCaptionV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips19CameraClipEmbeddingV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips20CameraRecordingEventO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips20UnassociatedFaceCropV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips22CameraSignificantEventV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V15CameraRecordingV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V20CameraRecordingTrackV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V22CameraRecordingSessionV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V23CameraJournalCheckpointV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V30CameraRecordingSessionMetadataV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips5HKSV3V9CameraKeyV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO So10CGImageRefa s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC So11CFStringRefa 10Foundation4DataV
++ _symbolic _____y___________t______p_G Scs12ContinuationV 12HomeKitClips10CameraClipV AC0eF10EventAssetV s5ErrorP
++ _symbolic _____y___________t______p__G Scs12ContinuationV11YieldResultO 12HomeKitClips10CameraClipV AE0gH10EventAssetV s5ErrorP
++ _symbolic _____y___________t______p__G Scs12ContinuationV15BufferingPolicyO 12HomeKitClips10CameraClipV AE0gH10EventAssetV s5ErrorP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ySay_____GGG s16IndexingIteratorV s18DiscontiguousSliceV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic _____y_____ySi_GG s16IndexingIteratorV s8RangeSetV6RangesV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic q_
++ _symbolic qd__
++ _symbolic yycSg
++ _type_layout_string 12HomeKitClips018CameraClipFinalizeE9OperationV
++ _type_layout_string 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV4KindO
++ _type_layout_string 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV
++ _type_layout_string 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV5FrameV5EventV
++ _type_layout_string 12HomeKitClips10ImageAssetV11CropOptionsV
++ _type_layout_string 12HomeKitClips14CloudZoneStoreC12RecordChangeO
++ _type_layout_string 12HomeKitClips14RecordStorableRzlAA5HKSV3V7JournalV14ModelLifecycleVy__AD30CameraRecordingSessionMetadataVG
++ _type_layout_string 12HomeKitClips15CameraDataStoreC10ChangeKindV
++ _type_layout_string 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _type_layout_string 12HomeKitClips15CameraDataStoreC27GenerativeAnalysisSaveBatchV
++ _type_layout_string 12HomeKitClips16IndexedDataStoreC05FetchdC7RequestV
++ _type_layout_string 12HomeKitClips16IndexedDataStoreC11ChangeTokenV
++ _type_layout_string 12HomeKitClips17CameraClipCaptionV7ChapterV
++ _type_layout_string 12HomeKitClips18CameraCloudStorageO18AuthorizationErrorV
++ _type_layout_string 12HomeKitClips18CameraCloudStorageO9CSRBundleV
++ _type_layout_string 12HomeKitClips19CameraClipEmbeddingV7SegmentV
++ _type_layout_string 12HomeKitClips25CameraClipCaptionResolverV
++ _type_layout_string 12HomeKitClips32CameraClipCaptionUpdateOperationV
++ _type_layout_string 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV
++ _type_layout_string 12HomeKitClips32GenerativeAnalysisResultUploaderC5State33_65358B9E26543C623D1C14C9183DE4F0LLV013ClipEmbeddingH0V
++ _type_layout_string 12HomeKitClips34CameraClipEmbeddingCreateOperationV
++ _type_layout_string 12HomeKitClips3PKIO17IssuedCertificateV
++ _type_layout_string 12HomeKitClips3PKIO20CertificateAuthorityV
++ _type_layout_string 12HomeKitClips41CameraClipEmbeddingAppendSegmentOperationV
++ _type_layout_string 12HomeKitClips5HKSV3V15CameraRecordingV2IDV
++ _type_layout_string 12HomeKitClips5HKSV3V20CameraRecordingTrackV
++ _type_layout_string 12HomeKitClips5HKSV3V20CameraRecordingTrackV2IDV
++ _type_layout_string 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV
++ _type_layout_string 12HomeKitClips5HKSV3V23CameraRecordingExporterC24AssetDownloadTaskManagerC11CancelStateC0M033_DA448B66B33D79D69615B0B2CE54836CLLV
++ _type_layout_string 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _type_layout_string 12HomeKitClips5HKSV3V9CameraKeyV
++ _type_layout_string 12HomeKitClips5HKSV3V9CameraKeyV2IDV
++ _type_layout_string 12HomeKitClips7CryptorV
++ _type_layout_string So11CMTimeRangea
++ _type_layout_string So6CMTimea
+- _OBJC_CLASS_$_NSExpression
+- __DATA__TtC12HomeKitClips31CloudDeviceAuthorizationManager
+- __IVARS__TtC12HomeKitClips31CloudDeviceAuthorizationManager
+- __METACLASS_DATA__TtC12HomeKitClips31CloudDeviceAuthorizationManager
+- ___swift_allocate_boxed_opaque_existential_0Tm
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeOSHAASQ
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12HomeKitClips25CameraClipSegmentMetadataVSHAASQ
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDVSHAASQ
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipV6FieldsOSHAASQ
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipVAA14RecordStorableAA2IDAaFP_AA0H12Identifiable
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipVAA14RecordStorableAA6FieldsAaFP_AA0H8FieldKey
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipVSHAASQ
+- _associated conformance 12HomeKitClips5HKSV3V19CameraRecordingClipVs12IdentifiableAA2IDsAFP_SH
+- _block_copy_helper.34
+- _block_copy_helper.47
+- _block_copy_helper.6
+- _block_copy_helper.60
+- _block_copy_helper.75
+- _block_descriptor.36
+- _block_descriptor.49
+- _block_descriptor.62
+- _block_descriptor.77
+- _block_descriptor.8
+- _block_destroy_helper.35
+- _block_destroy_helper.48
+- _block_destroy_helper.61
+- _block_destroy_helper.7
+- _block_destroy_helper.76
+- _get_enum_tag_for_layout_string 12HomeKitClips29CloudDeviceAuthorizationErrorO
+- _get_type_metadata 15Synchronization5MutexVy12HomeKitClips10CameraClipVG noncopyable.47
+- _get_type_metadata 15Synchronization5MutexVy12HomeKitClips18CameraClipUploaderC5State33_1B40B053D25DDCC9188F90FEA1BA5965LLVG noncopyable.46
+- _get_witness_table s16AsyncMapSequenceVys0a15ThrowingCompactbC0VyScsySo8CKRecordCs5Error_pG12HomeKitClips22CameraSignificantEventVGAI0k9RecordingM0OGSciHPyHC.11
+- _get_witness_table s24AsyncThrowingMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips10CameraClipV_AG0jK10EventAssetVtGSciHPyHC.12
+- _get_witness_table s24AsyncThrowingMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips10CameraClipV_AG0jK10EventAssetVtGSciHPyHC.57
+- _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips14PersonFaceCropVGSciHPyHC.32
+- _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips20CameraRecordingEventOGSciHPyHC.10
+- _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips20CameraRecordingEventOGSciHPyHC.55
+- _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips20UnassociatedFaceCropVGSciHPyHC.33
+- _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsySo8CKRecordCs5Error_pG12HomeKitClips22CameraSignificantEventVGSciHPyHC.56
+- _objc_msgSend$expressionForKeyPath:
+- _objc_msgSend$fetchAllRecordZonesWithCompletionHandler:
+- _objc_msgSend$fetchRecordWithID:completionHandler:
+- _objectdestroy.25Tm
+- _objectdestroy.28Tm
+- _objectdestroy.31Tm
+- _objectdestroy.34Tm
+- _objectdestroy.38Tm
+- _objectdestroy.41Tm
+- _objectdestroyTm
+- _swift_unexpectedError
+- _swift_unknownObjectRetain_n
+- _symbolic $s12HomeKitClips32CloudDeviceAuthorizationManagingP
+- _symbolic SS3key_yp5valuet
+- _symbolic Say_____G 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeO
+- _symbolic Say_____G 12HomeKitClips5HKSV3V19CameraRecordingClipV
+- _symbolic Say_____G 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDV
+- _symbolic ScCySo8CKRecordC______pG s5ErrorP
+- _symbolic Sd10timeOffset_Sd8durationt
+- _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+- _symbolic SnySiG
+- _symbolic _____ 12HomeKitClips24CloudDeviceAuthorizationV
+- _symbolic _____ 12HomeKitClips25CameraClipSegmentMetadataV
+- _symbolic _____ 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeO
+- _symbolic _____ 12HomeKitClips29CloudDeviceAuthorizationErrorO
+- _symbolic _____ 12HomeKitClips31CloudDeviceAuthorizationManagerC
+- _symbolic _____ 12HomeKitClips5HKSV3V19CameraRecordingClipV
+- _symbolic _____ 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDV
+- _symbolic _____ 12HomeKitClips5HKSV3V19CameraRecordingClipV6FieldsO
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 12HomeKitClips16ShareParticipantV
+- _symbolic _____Sg 12HomeKitClips12ModelStorageV
+- _symbolic _____Sg 12HomeKitClips15CameraDataStoreC
+- _symbolic _____Sg 12HomeKitClips25CameraClipSegmentMetadataV0F4TypeO
+- _symbolic _____Sg 12HomeKitClips5HKSV3V19CameraRecordingClipV
+- _symbolic _____Sg 12HomeKitClips5HKSV3V9CameraKeyV
+- _symbolic _____Sg 12HomeKitClips6PersonV
+- _symbolic _____Sg_ABt 12HomeKitClips18FaceClassificationV
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V19CameraRecordingClipV
+- _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V20CameraRecordingTrackV
+- _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V22CameraRecordingSessionV
+- _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V23CameraJournalCheckpointV
+- _symbolic _____yScsySo8CKRecordC______pG_____G s31AsyncThrowingCompactMapSequenceV s5ErrorP 12HomeKitClips5HKSV3V9CameraKeyV
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+- _symbolic _____y_____G 12HomeKitClips13RecordStorageV AA5HKSV3V19CameraRecordingClipV
+- _symbolic _____y_____G s11_SetStorageC 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips25CameraClipSegmentMetadataV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V19CameraRecordingClipV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDV
+- _symbolic _____y_______G 12HomeKitClips5HKSV3V7JournalV14ModelLifecycleV AC19CameraRecordingClipV
+- _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips5HKSV3V19CameraRecordingClipV2IDV AG
+- _symbolic _____y_____yScsySo8CKRecordC______pG_____G_____G s16AsyncMapSequenceV s0a15ThrowingCompactbC0V s5ErrorP 12HomeKitClips22CameraSignificantEventV AG0j9RecordingL0O
+- _symbolic _____y_____yScsySo8CKRecordC______pG_____G_____G s23AsyncCompactMapSequenceV s0a8ThrowingbcD0V s5ErrorP 12HomeKitClips20CameraRecordingEventO AG0j11SignificantL18FaceClassificationV
+- _symbolic _____y_____yScsySo8CKRecordC______pG_____G______G s23AsyncCompactMapSequenceV8IteratorV s0a8ThrowingbcD0V s5ErrorP 12HomeKitClips20CameraRecordingEventO AI0k11SignificantM18FaceClassificationV
+- _type_layout_string 12HomeKitClips14RecordStorableRzlAA5HKSV3V7JournalV14ModelLifecycleVy__AD19CameraRecordingClipVG
+- _type_layout_string 12HomeKitClips29CloudDeviceAuthorizationErrorO
+CStrings:
++ "\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-STREAM-INF:BANDWIDTH=2000000\nHMCC://mediaPlaylist.m3u8\n#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=200000,URI=\"HMCC://iFrameOnlyPlaylist.m3u8\""
++ " and image height ("
++ " assets is supported."
++ " beyond data length "
++ " is beyond playlist length "
++ " must be greater than 0"
++ " prefix, string: "
++ " records remaining)"
++ " suffix, string: "
++ "#EXT-X-I-FRAMES-ONLY\n"
++ "#EXTM3U\n#EXT-X-VERSION:"
++ "%s"
++ "%s, %ld %ld"
++ "%s, error: %@"
++ "%s, variants: %s"
++ ") plus its byte length ("
++ ", EmbeddingData: "
++ ", invalid UUID: "
++ "088B7EB9-1F3B-4EED-0000-000000000000"
++ ": record name doesn't have a valid format: "
++ ": record name doesn't have a valid key number: "
++ ": record name doesn't have a valid prefix: "
++ ": record name doesn't have a valid session number: "
++ "A segment's byte offset ("
++ "AVAssetDownloadTaskDownloadConfigurationKey"
++ "AVURLAssetHTTPHeaderFieldsKey"
++ "Apple account is not available."
++ "Apple account not available for credential renewal"
++ "Asset Variant: %@"
++ "Asset cache is not available for the asset."
++ "Authentication returned no results for zone '"
++ "Bounding boundingBox resulted in zero-dimension crop rect: "
++ "CMAF ingest server info retrieved. URL: %s"
++ "CSR verification succeeded but no public key extracted"
++ "CSR verified, public key extracted"
++ "Camera %s authorization expires at %s (%ld days remaining)"
++ "Camera certificate provisioned"
++ "Camera iCloud authorization obtained. Token: %s, expiration: %s"
++ "Camera identifier not available"
++ "Camera recording session %s does not have a date, ensure that it was materialized."
++ "CameraClipCaption"
++ "CameraClipEmbedding"
++ "CameraClipMetadata.Frame"
++ "CameraClipMetadata.Segment"
++ "CameraDataStoreContext.AssetLoaderQueue"
++ "CameraKey"
++ "CameraRecordingSessionAsset"
++ "CameraRecordingSessionMetadata"
++ "CancelState activated twice, cancelling previous task"
++ "Cannot compute duration for %s, error: %@"
++ "Cannot compute duration for session %s because it has no tracks."
++ "Cannot construct custom playback URL with custom scheme."
++ "Cannot create asset export session."
++ "Cannot create mutable composition track."
++ "Cannot export composition with empty media stream URLs."
++ "Cannot fetch encryption key, only fetching keys from "
++ "Cannot fetch keys, error: %@"
++ "Cannot fetch session "
++ "Cannot find METHOD attribute."
++ "Cannot find URI attribute."
++ "Cannot fully initialize %s: value for %s is '%s', defaulting to %s."
++ "Cannot initialize IndexedClip from CSSearchableItem: CSSearchableItem.uniqueIdentifier is not a valid UUID: '"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.camera"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.contentCreationDate"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.duration"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.home"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.noteworthiness"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.room"
++ "Cannot initialize IndexedClip from CSSearchableItem: Missing value for attributeSet.significantEventReasons"
++ "Cannot materialize session %s, error: %@"
++ "Cannot read keyIDs, error: %@"
++ "Cannot recreated original request URL."
++ "Certificate is valid, no renewal needed for camera %s"
++ "Certificate within renewal threshold for camera %s, initiating renewal"
++ "Checking certificate expiration for camera %s"
++ "Checking if cloud storage is enabled for camera %s, zone: %s"
++ "Cleaning up orphaned cloud storage resources. Valid cameras: %ld, Valid zones: %ld"
++ "Client info is not available."
++ "Clip media downloader was given media with no segments"
++ "Cloud Kit Video Token is not available, using a fake token."
++ "Cloud storage check failed: %@"
++ "Cloud storage disable failed: %@"
++ "Cloud storage enable failed: %@"
++ "Cloud storage is %s for zone: %s"
++ "Cloud zone enabled, expiration date: %s"
++ "Could not create CSCustomAttributeKey with key name: "
++ "Could not create CameraSignificantEvent: bounding box numbers array does not contain 4 elements: "
++ "Could not create IndexedClip from CSSearchableItem %s: %@"
++ "Could not find updated record for clip caption "
++ "Could not find updated record for clip embedding "
++ "Credential renewal failed: "
++ "Credential renewal unknown result: "
++ "Deleting all items"
++ "Deleting camera clip caption with IDs: %s"
++ "Deleting camera clip embeddings with IDs: %s"
++ "Deleting items with domain identifier: %s"
++ "Destination Package URL is missing."
++ "Determining quota error based on underlying quota server error code: %@"
++ "Device ID is not available."
++ "Disabling cloud storage for camera %s, version: %s, zone: %s"
++ "Duplicate task ID %{public}ld, overwriting"
++ "Enable zone response is missing expiration date"
++ "Enabling cloud storage for camera %s, version: %s, zone: %s"
++ "Encrypted data was less than "
++ "Encryption key loading request is missing a data request"
++ "Expecting at least one media stream info."
++ "Export superseded by duplicate task ID."
++ "Exporting Media Stream: %@ to %s"
++ "FSRecord"
++ "Failed to OPACK decode data: %@"
++ "Failed to OPACK encode dictionary: %@"
++ "Failed to clean up any orphaned cloud storage resources"
++ "Failed to compute session durations, error: %@"
++ "Failed to convert HLS playlist to data"
++ "Failed to convert UUID string to UUID in caption token: %s"
++ "Failed to copy image properties from image source"
++ "Failed to create %s from record %@: %@"
++ "Failed to create CGImage for cropping"
++ "Failed to create JPEG image destination"
++ "Failed to create authentication controller"
++ "Failed to create custom attribute key for "
++ "Failed to create image destination for cropped image"
++ "Failed to create image source: CGImageSourceCreateWithData() returned nil"
++ "Failed to create image source: CGImageSourceCreateWithURL() returned nil"
++ "Failed to create regex with pattern: %s, error: %@"
++ "Failed to create searchable item for clip %s: %@"
++ "Failed to crop image to rect: "
++ "Failed to delete %ld time-range item(s): %@"
++ "Failed to disable orphaned zone %s: %@"
++ "Failed to export public key: %s"
++ "Failed to fetch enabled zones for cleanup: %@"
++ "Failed to finalize JPEG image data"
++ "Failed to finalize after hitting previous failure: %@"
++ "Failed to finalize cropped image data"
++ "Failed to generate root CA: %@"
++ "Failed to get image width and height from image properties: "
++ "Failed to index %ld time-range item(s): %@"
++ "Failed to load thumbnail data from URL %s: %s"
++ "Failed to parse 'tokenExpirationTimestamp' from AuthKit/IdMS response"
++ "Failed to parse record %s: %@"
++ "Failed to read certificate expiration date for camera %s: %@"
++ "Failed to remove device registration for zone '"
++ "Failed to renew authorization for camera %s: %@"
++ "Failed to revoke client certificate: %@"
++ "Failed to revoke publishing point: %@"
++ "Failed to sign certificate: %@"
++ "Failed to verify CSR"
++ "Failed to verify CSR or extract public key for nonce verification"
++ "Fetch zone changes finished without sending a change token update"
++ "Fetching %s with sessionID: %s"
++ "Fetching %s with sessionIDs: %s"
++ "Fetching Camera Clip Captions with date interval: %s, limit: %ld, ascending: %{bool}d"
++ "Fetching Camera Clip Embeddings with date interval: %s, limit: %ld, ascending: %{bool}d"
++ "Fetching camera clip captions for clip IDs: %s"
++ "Fetching camera clip embeddings for clip IDs: %s"
++ "Fetching clips with request: %s"
++ "Fetching significant events stream with IDs: %s, includeHeroFrame: %{bool}d, includeFaceCrop: %{bool}d"
++ "File URL must have the .mp4 path extension, got: %{public}s"
++ "File URL must have the .mp4 path extension."
++ "Found %ld items in the index"
++ "Found orphaned zones to clean up: %s"
++ "Generated root CA (%ld bytes)"
++ "Generating images for clip %s"
++ "Generating root CA"
++ "Generic Failure: "
++ "HKSV3 %s completed successfully for camera %s"
++ "HMCC://iFrameOnlyPlaylist.m3u8"
++ "HMCC://mediaPlaylist.m3u8"
++ "HMCC://multivariantPlaylist.m3u8"
++ "HMDFaceScanModel"
++ "HTTP Status Code: "
++ "HomeKitClips.AssetDownloadSession"
++ "HomeKitClips.AssetDownloadTaskManager"
++ "HomeKitClips.CameraRecordingSessionAsset"
++ "HomeKitClips/CameraDataStore+GenerativeAnalysis.swift"
++ "HomeKitClips/HKSV3.CameraDataStoreContext.swift"
++ "HomeKitClips/IndexedDataStore.swift"
++ "HomeKit_cameraName"
++ "HomeKit_cameraUniqueIdentifier"
++ "HomeKit_homeName"
++ "HomeKit_homeUniqueIdentifier"
++ "HomeKit_noteworthiness"
++ "HomeKit_roomName"
++ "HomeKit_roomUniqueIdentifier"
++ "HomeKit_significantEventReasons"
++ "Indexing %ld clip(s)"
++ "Initializing cloud zone store with zone name: %s, zone owner name: %s%s%s"
++ "KeyURI string does not have the "
++ "Loading request has a unsupported URL scheme."
++ "Loading request is missing a URL"
++ "Loading request is missing the URL scheme."
++ "Loading request is missing the URL."
++ "Media playlist is not available."
++ "Method must be AES-256-GCM."
++ "Missing or empty thirdPartyDeviceData in AuthKit/IdMS response"
++ "Modify called with nothing to save or delete. Skipping."
++ "Moved exported mp4 file to %s"
++ "No caption record found for clip %s"
++ "No orphaned zones found during cleanup"
++ "No primary iCloud account found"
++ "Nonce signature verification failed: %@"
++ "Nonce signature verified"
++ "Not processing operations because uploader has already finished"
++ "Offline media stream infos are not available for the specified variant."
++ "Package URL must have .movpkg extension, got: %{public}s"
++ "Package URL must have the .movpkg path extension."
++ "Person ID is not available."
++ "Person tokens: %ld found, %ld unknown"
++ "Playback URL does not have a scheme."
++ "Playlist loading request is missing a data request"
++ "Previous uploader failure prevented processing of operations"
++ "Progress continuation unexpectedly nil"
++ "Provided bounding boundingBox contains values outside of normalized range: "
++ "Received resource load request for URL: %s"
++ "RecordStorage<CameraClipCaption>"
++ "RecordStorage<CameraClipEmbedding>"
++ "RecordStorage<CameraRecordingSessionMetadata>"
++ "Requested offset "
++ "Resolved caption for clip %s with %ld person name(s)"
++ "Response is not HTTPURLResponse"
++ "Result was not of class %@: %@ (%@)"
++ "Retrying %s code operation due to database error (attempt %ld of %ld): %@"
++ "Revoked AuthKit/IdMS registration for orphaned zone: %s"
++ "Sessions %s, has a zero duration, computing its duration from one of its tracks."
++ "Signed certificate for camera %s (%ld bytes)"
++ "Signing CSR for camera: %s"
++ "Starting HKSV3 %s for camera %s, zone: %s"
++ "Successfully cleaned up orphaned cloud storage resources"
++ "Successfully disabled orphaned zone: %s"
++ "Successfully renewed authorization for camera %s"
++ "The process '%s' does not have a bundle identifier, which is required for communicating with CloudKit directly"
++ "The process '%s' does not have an allow-listed bundle identifier (%s), and it does not have the required entitlement (%s) to allow it to override the bundle identifier"
++ "The process '%s' does not have an allow-listed bundle identifier (%s), and its bundle identifier override entitlement (%s) does not contain an allow-listed bundle identifier: '%s'"
++ "The zoneOwnerName is empty, falling back to zone fetching when resolving the CloudZoneStore."
++ "Unexpected tag value for "
++ "Unexpectedly found poster frame metadata in camera clip video segment metadata"
++ "Unhandled loading request URL: "
++ "User rejected credential renewal"
++ "VCPHomekitAnalysisService returned VCPHomeKitRequestID_Invalid"
++ "Value does not exist for custom attribute key: "
++ "Value was a string but was not a valid UUID for custom attribute key "
++ "Value was of unexpected type for custom attribute key "
++ "X-MMe-Client-Info"
++ "Zone name not available for camera"
++ "[%s] (Prefix) %s"
++ "[%s] (Suffix) %s"
++ "[%s] Appending embedding segment for version %ld"
++ "[%s] Authenticated download complete: %ld bytes"
++ "[%s] Created searchable item: %@"
++ "[%s] Creating camera clip caption with UUID: %s"
++ "[%s] Creating camera clip embedding version %ld with UUID: %s"
++ "[%s] Credential renewal failed: %s"
++ "[%s] Credential renewal unknown result: %s"
++ "[%s] Credentials renewed successfully"
++ "[%s] Data Request: %@"
++ "[%s] Deleting %ld clip(s) from Spotlight index"
++ "[%s] Did not find any items to index"
++ "[%s] Error downloading authenticated resource: %@"
++ "[%s] Failed to create searchable item for clip: %s: %@"
++ "[%s] Failed to fetch key, error: %@"
++ "[%s] Failed to index clip with UUID %s: %@"
++ "[%s] Failed to process accumulated clip %s: %@"
++ "[%s] Fetched %ld clips to index"
++ "[%s] Fetched camera key for keyID: %s"
++ "[%s] Finishing camera clip caption"
++ "[%s] Finishing camera clip embedding for version %ld"
++ "[%s] Got playback URL for zone %s, zoneOwner %s, session %lld"
++ "[%s] HTTP Status Code: %ld, headers: %s"
++ "[%s] Handling request for URL: %s"
++ "[%s] Hero image asset does not exist on first significant event for clip: %s"
++ "[%s] Ignoring attempt to create camera clip caption because it already exists"
++ "[%s] Ignoring attempt to create camera clip embedding with version %ld because it already exists"
++ "[%s] Ignoring attempt to finalize camera clip caption because it was never created"
++ "[%s] Ignoring attempt to finalize camera clip embedding with version %ld because it was never created"
++ "[%s] Ignoring camera clip caption update operation with no changes"
++ "[%s] Indexing %ld clip(s) that have no clip record changes but do have related record changes"
++ "[%s] Indexing %ld clips by ID"
++ "[%s] Indexing batch of %ld searchable items %ld time-range items"
++ "[%s] Indexing clip %s from change stream data"
++ "[%s] Indexing clip with ID: %s, serverCreationDate: %s, duration: %s"
++ "[%s] Indexing clips for zone: %s, change token: %s"
++ "[%s] Indexing final batch of %ld items (%ld total) %ld time-range items"
++ "[%s] Indexing final batch of %ld items and %ld time-range items"
++ "[%s] Marking caption for deletion since it has no data"
++ "[%s] Marking embedding for deletion since it has no data"
++ "[%s] Not enqueueing finalize clip operation because the uploader has already finished"
++ "[%s] Performing clip caption create operation"
++ "[%s] Performing clip caption finalize operation"
++ "[%s] Performing clip caption update operation"
++ "[%s] Performing clip embedding append segment operation for segment: %s"
++ "[%s] Performing clip embedding create operation"
++ "[%s] Performing clip embedding finalize operation"
++ "[%s] Preserving zero-duration clip"
++ "[%s] Processing camera clip caption operations"
++ "[%s] Processing camera clip embedding operations for version %ld"
++ "[%s] Range: %s"
++ "[%s] Received 401, renewing credentials"
++ "[%s] Skipping clip %s with no significant events"
++ "[%s] Splitting query into %ld batches"
++ "[%s] Successfully appended to streaming asset"
++ "[%s] Successfully indexed %ld clips"
++ "[%s] Successfully synced and indexed %ld clips"
++ "[%s] Sync completed with no new clips to index"
++ "[%s] Updating camera clip caption"
++ "[%s] User rejected credential renewal"
++ "[%s] [%s] CKFetchRecordZoneChangesOperation failed and cannot be retried: %@"
++ "[%s] [%s] CKFetchRecordZoneChangesOperation failed: %@"
++ "[%s] [%s] CKFetchRecordZoneChangesOperation succeeded"
++ "[%s] [%s] CKFetchRecordZoneChangesOperation will be retried"
++ "[%s] [%s] CKModifyRecordsOperation encountered at least one per-record failure: %@"
++ "[%s] [%s] CKModifyRecordsOperation encountered conflicts"
++ "[%s] [%s] CKModifyRecordsOperation per-record failure will be retried: %@"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to 'dropped' yield result in record changed block"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to 'dropped' yield result in record deleted block"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to 'terminated' yield result in record changed block"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to 'terminated' yield result in record deleted block"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to cancelled stream termination"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to unknown yield result in record changed block"
++ "[%s] [%s] Canceling CKFetchRecordZoneChangesOperation due to unknown yield result in record deleted block"
++ "[%s] [%s] Canceling CKFetchRecordsOperation due to cancelled stream termination"
++ "[%s] [%s] Canceling CKQueryOperation due to cancelled stream termination"
++ "[%s] [%s] Change token expired, retrying with nil token"
++ "[%s] [%s] Failed to fetch changed record with ID %s: %@"
++ "[%s] [%s] Fetched changed record: %s"
++ "[%s] [%s] Fetched deleted record ID: %s"
++ "[%s] [%s] Record zone fetch failed: %@"
++ "[%s] [%s] Starting CKFetchRecordZoneChangesOperation operationID: %s"
++ "[%s] [%s] Starting CKFetchRecordsOperation with record IDs: %s operationID: %s%s"
++ "[%{public}@] Failed to OPACK decode data: %@"
++ "[%{public}@] Failed to OPACK encode dictionary: %@"
++ "[%{public}@] Result was not of class %@: %@ (%@)"
++ "\\[PERSON_([0-9A-Fa-f-]+)\\]"
++ "_kMDItemCustomMediaEmbedding"
++ "_kMDItemThumbnailData"
++ "all_tracks_completed"
++ "application/vnd.apple.mpegurl"
++ "assetDownloadSession(_:didFailWithError:)"
++ "assetDownloadSession(_:didUpdateProgressWithExpectedBytes:bytesDownloaded:)"
++ "assetDownloadSession(_:willDownloadVariants:)"
++ "assetDownloadSessionDidFinishDownload(_:)"
++ "boundingBoxNumbers"
++ "camera.certificate.manager"
++ "camera.cloud.storage.manager"
++ "camera.recording.uploader"
++ "camera.recording.uploader.op.add-significant-event"
++ "camera.recording.uploader.op.append-media-segment"
++ "camera.recording.uploader.op.create-clip"
++ "camera.recording.uploader.op.finalize-clip"
++ "cameraProfileUniqueIdentifier"
++ "ckvs"
++ "clip"
++ "clipID"
++ "com.apple.encrypted-"
++ "com.apple.homekit.hksv3"
++ "com.apple.homekit.sensor-id"
++ "contentCreationDate"
++ "contentDescription"
++ "deleteTimeRangeItems(withIdentifiers:)"
++ "embeddingVectors"
++ "embeddingVersion"
++ "export(asset:variant:destinationFileURL:)"
++ "fetchRecordChanges(since:desiredKeys:fetchNewestChangesFirst:resultsLimit:fetchAllChanges:)"
++ "field reference "
++ "field references "
++ "heroFrameImageAsset"
++ "hksv3"
++ "homeUniqueIdentifier"
++ "https"
++ "id"
++ "indexTimeRangeItems(_:)"
++ "init(url:options:)"
++ "kSecCMSHashingAlgorithmSHA256"
++ "kSecCMSSignHashAlgorithm"
++ "noteworthiness"
++ "renewCredentials()"
++ "roomUniqueIdentifier"
++ "segments"
++ "serverCreationDate"
++ "significantEventReasons"
++ "some_tracks_completed"
++ "summary"
++ "title"
++ "unknown"
++ "version"
+- " is invalid for the encrypted data's start index ("
+- " plus its byte length ("
+- "#16@0:8"
+- "$defaultActor"
+- "%{public}@Failed to OPACK decode data: %@"
+- "%{public}@Failed to OPACK encode dictionary: %@"
+- "%{public}@Result was not of class %@: %@ (%@)"
+- "' does not have a bundle identifier, which is required for communicating with CloudKit directly"
+- "' does not have an allow-listed bundle identifier ("
+- ") does not contain an allow-listed bundle identifier: '"
+- ") to allow it to override the bundle identifier"
+- "), and it does not have the required entitlement ("
+- "), and its bundle identifier override entitlement ("
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16^@24"
+- "@40@0:8:16@24@32"
+- "A segment's a byte offset ("
+- "AKAppleIDAuthenticationController is nil"
+- "AuthKit removeDevices returned false without error for zone '"
+- "AuthKit returned nil authentication results for zone '"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BCA368A0-BB57-11F0-B558-0800200C9A66"
+- "C109CB41-BF44-4E39-92C1-AE8491383CE2"
+- "CKRecordValue"
+- "CameraRecordingClip"
+- "Cannot determine byte range string for empty collection of segments"
+- "Determining quota error based on underlying quota server error: %@"
+- "FMP4_INIT"
+- "FMP4_SEGMENT"
+- "Failed to parse tokenExpirationTimestamp Date from AuthKit/IdMS response"
+- "Failed to read image asset data at %s: %@"
+- "Fetching Camera Journal Checkpoints"
+- "Fetching Camera Keys"
+- "Fetching Camera Recording Sessions with date interval: %s, limit: %ld, ascending: %{bool}d"
+- "Fetching Camera Recording Track with date interval: %s, limit: %ld, ascending: %{bool}d"
+- "Fetching Clips with date interval: %s, limit: %ld, ascending: %{bool}d"
+- "Fetching significant events with IDs: %s, includeHeroFrame: %{bool}d, includeFaceCrop: %{bool}d"
+- "HKCUtilities"
+- "HomeKitClips"
+- "HomeKitClips/CameraClip.Media.Downloader.swift"
+- "Invalid Response: "
+- "Missing or empty thirdPartyDeviceData key in AuthKit/IdMS response"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "No primary account altDSID found in AKAccountManager"
+- "Not processing operations because uploader has failed"
+- "OPACKEncodedDataFromDictionary:error:"
+- "Overall CKModifyRecordsOperation succeeded but at least one record failed to save or delete: "
+- "POSTER_FRAME"
+- "Q16@0:8"
+- "RecordStorage<CameraRecordingClip>"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,N,R"
+- "TB,R"
+- "TQ,R"
+- "Tq,N,R"
+- "URL"
+- "Unexpected tag value for EXT-X-SESSION-DATA."
+- "Vv16@0:8"
+- "[%s] Enqueueing add video init data operation with data: %s"
+- "[%s] Enqueueing add video segment data operation with data: %s, timeOffsetWithinClip: %f, duration: %f"
+- "[%s] Got playback URL for zone %s, session %lld"
+- "[%s] Starting CKFetchRecordZonesOperation"
+- "[%s] [%s] Starting CKFetchRecordsOperation with record IDs: %s operationID: %s"
+- "^{_NSZone=}16@0:8"
+- "_TtC12HomeKitClips10CloudStore"
+- "_TtC12HomeKitClips14CloudZoneStore"
+- "_TtC12HomeKitClips15CameraDataStore"
+- "_TtC12HomeKitClips15PersonDataStore"
+- "_TtC12HomeKitClips16CloudZoneManager"
+- "_TtC12HomeKitClips17CloudQuotaManager"
+- "_TtC12HomeKitClips18CameraClipUploader"
+- "_TtC12HomeKitClips22CloudOwnedShareManager"
+- "_TtC12HomeKitClips23CloudSharedShareManager"
+- "_TtC12HomeKitClips26FaceClassificationResolver"
+- "_TtC12HomeKitClips27CameraRecordingEventManager"
+- "_TtC12HomeKitClips27TransformableHMBCloudZoneID"
+- "_TtC12HomeKitClips31CloudDeviceAuthorizationManager"
+- "_TtC12HomeKitClips31TransformableHMBShareInvitation"
+- "_TtC12HomeKitClips32TransformableHMBShareParticipant"
+- "_TtC12HomeKitClips35TransformableHMBModelCloudReference"
+- "_TtC12HomeKitClips36CloudCredentialsAvailabilityListener"
+- "_TtC12HomeKitClips38TransformableHMBShareInvitationContext"
+- "_TtC12HomeKitClips9DataStore"
+- "_TtCV12HomeKitClips5HKSV315CameraDataStore"
+- "_TtCV12HomeKitClips5HKSV316CameraKeyManager"
+- "_TtCV12HomeKitClips5HKSV318CameraKeyDataStore"
+- "_TtCVV12HomeKitClips10CameraClip5Media10Downloader"
+- "_TtCVV12HomeKitClips10CameraClip5Media9Decryptor"
+- "_TtCVV12HomeKitClips10CameraClip5Media9Encryptor"
+- "_cameraDataStore"
+- "_enableStrictSecureDecodingMode"
+- "_participantsByUserUUID"
+- "_share"
+- "acceptanceStatus"
+- "accountInfoWithCompletionHandler:"
+- "accountStatus"
+- "action"
+- "addObserver:selector:name:object:"
+- "addOperation:"
+- "addParticipant:"
+- "altDSIDForAccount:"
+- "appendBytes:length:"
+- "appendSegmentWithData:completionHandler:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "authKitAppContext"
+- "authToken"
+- "authenticateWithContext:completion:"
+- "autorelease"
+- "bundleIdentifier"
+- "byteLength"
+- "byteOffset"
+- "bytesUploaded"
+- "cameraDataStore"
+- "cameraKeyCache"
+- "cameraKeysToFetch"
+- "cancel"
+- "ckShareParticipant"
+- "class"
+- "clientIdentifier"
+- "clipMutex"
+- "cloudStore"
+- "cloudZoneID"
+- "code"
+- "codeServiceWithName:databaseScope:"
+- "conformsToProtocol:"
+- "container"
+- "containerID"
+- "containerIdentifier"
+- "contentDownloadURL"
+- "contentDownloadURLExpirationDate"
+- "context"
+- "contextForRemovalWithAltDSID:hkdIDs:"
+- "copy"
+- "creationDate"
+- "credentialsAvailabilityListener"
+- "currentUserParticipant"
+- "currentUserPhotosPersonDataSet"
+- "data"
+- "dataByCompressingData:error:"
+- "dataByDecompressingData:error:"
+- "dataStore"
+- "database"
+- "databaseScope"
+- "dateCreated"
+- "dateFromString:"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "decryptor"
+- "defaultCenter"
+- "description"
+- "dictionaryFromOPACKEncodedData:error:"
+- "dictionaryWithObjects:forKeys:count:"
+- "domain"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "encryptedValues"
+- "encryptor"
+- "environment"
+- "error"
+- "expirationTime"
+- "expressionForKeyPath:"
+- "fetchAllRecordZonesOperation"
+- "fetchAllRecordZonesWithCompletionHandler:"
+- "fetchRecordWithID:completionHandler:"
+- "fileURL"
+- "finishDecoding"
+- "finishEncoding"
+- "group_id"
+- "handleAccountChangedNotification:"
+- "handleIdentityUpdateNotification:"
+- "hasValidCredentials"
+- "hash"
+- "height"
+- "hmfErrorWithCode:"
+- "homePersonDataSet"
+- "identifier"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithAssetContent:itemTypeHint:"
+- "initWithCoder:"
+- "initWithContainerID:options:"
+- "initWithContainerIdentifier:environment:"
+- "initWithCursor:"
+- "initWithDomain:code:userInfo:"
+- "initWithEmailAddress:"
+- "initWithExpectedSizeBytes:"
+- "initWithFileURL:"
+- "initWithInteger:"
+- "initWithKey:ascending:"
+- "initWithName:"
+- "initWithName:options:"
+- "initWithPhoneNumber:"
+- "initWithQuery:"
+- "initWithRecordID:action:"
+- "initWithRecordIDs:"
+- "initWithRecordZoneID:"
+- "initWithRecordZoneIDs:"
+- "initWithStreamingAsset:"
+- "initWithString:"
+- "initWithType:subpredicates:"
+- "initWithUserRecordID:"
+- "initWithZoneName:"
+- "invitationToken"
+- "isCurrentUser"
+- "isEqual:"
+- "isKindOfClass:"
+- "isLowPowerModeEnabled"
+- "isMemberOfClass:"
+- "isProxy"
+- "logIdentifier"
+- "lookupInfo"
+- "media"
+- "modelID"
+- "modificationDate"
+- "modifiedByDevice"
+- "mutex"
+- "name"
+- "notificationCenter"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "options"
+- "ownerName"
+- "participantClientIdentifier"
+- "participants"
+- "pendingInvitation"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "permission"
+- "playbackURL"
+- "predicateWithValue:"
+- "primaryAuthKitAccount"
+- "privateCloudDatabase"
+- "processInfo"
+- "publishingURL"
+- "q16@0:8"
+- "queue"
+- "recordChangeTag"
+- "recordID"
+- "recordName"
+- "rectValue"
+- "release"
+- "removeDevicesWithContext:completion:"
+- "removeObserver:name:object:"
+- "removeParticipant:"
+- "requestUUID"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "role"
+- "rootCertificates"
+- "scope"
+- "secureRandomDataGenerator"
+- "self"
+- "sessionID"
+- "setAltDSID:"
+- "setAppProvidedContext:"
+- "setAppProvidedData:"
+- "setApplicationBundleIdentifierOverride:"
+- "setClass:forClassName:"
+- "setClassName:forClass:"
+- "setConfiguration:"
+- "setMarkAsParticipantNeedsNewInvitationToken:"
+- "setParticipantVisibility:"
+- "setPermission:"
+- "setQualityOfService:"
+- "setRecordID:"
+- "setRecordZoneIDsToDelete:"
+- "setRecordZonesToSave:"
+- "setRequestCompletedBlock:"
+- "setResultsLimit:"
+- "setSavePolicy:"
+- "setShareInvitationTokensByShareURL:"
+- "setShareMetadatas:"
+- "setShareURLs:"
+- "setSortDescriptors:"
+- "setUseZoneWidePCS:"
+- "setUserIdentityLookupInfos:"
+- "setZoneID:"
+- "shareURL"
+- "sharedCloudDatabase"
+- "sharedInstance"
+- "sharedSession"
+- "shouldGrantWriteAccess"
+- "stateMutex"
+- "stringWithUTF8String:"
+- "superclass"
+- "supportsDeviceToDeviceEncryption"
+- "supportsSecureCoding"
+- "timeOffset"
+- "timerProvider"
+- "token"
+- "type"
+- "urlSession"
+- "useZoneWidePCS"
+- "userInfo"
+- "v16@0:8"
+- "v16@?0@\"CKRequestInfo\"8"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"CKAccountInfo\"8@\"NSError\"16"
+- "v24@?0@\"CKRecord\"8@\"NSError\"16"
+- "v24@?0@\"CKStreamingAsset\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "valueForEntitlement:"
+- "valueWithRect:"
+- "width"
+- "zone"
+- "zoneID"
+- "zoneName"
+- "zones"
+
+```

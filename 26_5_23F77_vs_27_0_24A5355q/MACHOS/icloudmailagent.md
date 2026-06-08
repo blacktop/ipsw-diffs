@@ -1,0 +1,388 @@
+## icloudmailagent
+
+> `/usr/libexec/icloudmailagent`
+
+```diff
+
+-2025.4.3.0.0
+-  __TEXT.__text: 0x407b4
+-  __TEXT.__auth_stubs: 0x1750
++2027.0.3.0.0
++  __TEXT.__text: 0x3ffcc
++  __TEXT.__auth_stubs: 0x1900
+   __TEXT.__objc_stubs: 0xb00
+   __TEXT.__objc_methlist: 0x60c
+-  __TEXT.__const: 0x2328
++  __TEXT.__const: 0x2340
+   __TEXT.__oslogstring: 0x1b91
+   __TEXT.__cstring: 0x735
+   __TEXT.__objc_methname: 0x1617
+-  __TEXT.__swift5_typeref: 0xad0
++  __TEXT.__swift5_typeref: 0xabe
+   __TEXT.__objc_classname: 0x2c7
+   __TEXT.__objc_methtype: 0x8ba
+   __TEXT.__constg_swiftt: 0x9d0
+
+   __TEXT.__swift5_assocty: 0xf0
+   __TEXT.__swift5_proto: 0x184
+   __TEXT.__swift5_types: 0xb4
+-  __TEXT.__swift5_capture: 0x330
++  __TEXT.__swift5_capture: 0x3c0
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0x40
+   __TEXT.__swift_as_ret: 0x54
+-  __TEXT.__unwind_info: 0xdc0
+-  __TEXT.__eh_frame: 0x16f0
+-  __DATA_CONST.__auth_got: 0xbb0
+-  __DATA_CONST.__got: 0x568
+-  __DATA_CONST.__auth_ptr: 0x4c0
+-  __DATA_CONST.__const: 0x1b10
++  __TEXT.__swift_as_cont: 0xc4
++  __TEXT.__unwind_info: 0xdf0
++  __TEXT.__eh_frame: 0x16d0
++  __DATA_CONST.__const: 0x1c98
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__auth_got: 0xc88
++  __DATA_CONST.__got: 0x560
++  __DATA_CONST.__auth_ptr: 0x4c0
+   __DATA.__objc_const: 0x1708
+   __DATA.__objc_selrefs: 0x4d8
+   __DATA.__objc_data: 0x868
+-  __DATA.__data: 0xf78
++  __DATA.__data: 0xf68
+   __DATA.__bss: 0x3090
+   __DATA.__common: 0x90
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8B5970C2-5A88-3DD4-81C7-1066C0A7EB68
+-  Functions: 1193
+-  Symbols:   9617
++  UUID: 2ABEF5BA-8599-3949-8FF8-62205F503C22
++  Functions: 1207
++  Symbols:   9900
+   CStrings:  491
+ 
+Symbols:
++ $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.33
++ $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.37
++ $s15icloudmailagent18DeviceLockObserverC6lockedSbvgSbyXEfU_TA.117
++ $s15icloudmailagent18DeviceLockObserverC6lockedSbvgSbyXEfU_TA.132
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.136
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.136TQ0_
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.136Tu
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.162
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.162TQ0_
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.162Tu
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.45
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.45TQ0_
++ $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.45Tu
++ $s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU0_TA.111
++ $s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU_TA.103
++ $s15icloudmailagent25CategorizationSyncManagerC8newTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSo7NSTimerCyFyAGYbcfU_TA.95
++ $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.11
++ $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.11TQ0_
++ $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.11Tu
++ $sSo12NSDictionaryCSgSo7NSErrorCSgIeyByy_SDys11AnyHashableVypGSgs5Error_pSgIeggg_TRTA.41
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.128
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.128TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.128Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.141
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.141TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.141Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.155
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.155TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.155Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.16
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.167
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.167TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.167Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.16TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.16Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.30Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.50Tu
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APIManager.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APIRequestModel.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APNSManager.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationManager+Error.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationManager.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationSyncManager.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/Constants.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/DeviceLockObserver.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/Logger.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/MCCAgentConnectionManager.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/MCCSecretAgentService.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/OSTransactionHelper.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/PDSRegistrarService.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/RCOverrideHelper.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/SyncAPIs.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/icloudmailagent.swiftmodule
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/icloudmailagent_vers.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/APNS/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/Categorization Sync/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/Categorization/
++ /Library/Caches/com.apple.xbs/7A4008F2-143A-4DF7-8DAD-792B53069C5F/TemporaryDirectory.QRO2Dm/Sources/icloudMCCKit/icloudmailagent/Utilities/
++ _$s10Foundation3URLVACs23CustomStringConvertibleAAWlTm
++ _$s15icloudmailagent21CategorizationManagerC02isB9Supported9forLocale10completionySS_ySb_s5Error_pSgtXEtF047$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIyByy_Tf1ncn_nTf4ndn_n
++ _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_n
++ _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctF028$sSiSo7NSErrorCSgIeyByy_Sis5I12_pSgIegyg_TRSiSo0M0CSgIeyByy_Tf1ncn_nTm
++ _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1ncn_n
++ _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_n
++ _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF031$sSo12NSDictionaryCSgSo7NSErroro13IeyByy_SDys11ij8VypGSgs5K12_pSgIeggg_TRSo0N0CSgSo0Q0CSgIeyByy_Tf1cn_n
++ _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1ncn_n
++ _$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8NSNumberCGFSbSS3key_AF5valuet_tXEfU_
++ _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5S12_pSgIegyg_TR0U1C0wX0VSo0Z0CSgIeyByy_Tf1nncn_n
++ _$s15icloudmailagent25MCCAgentConnectionManagerC023_hasValidEntitlementsOnC033_3CCBC74AE3A10B2C415E2E3C20548CCCLLySbSo15NSXPCConnectionCFTv_r
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation3URLV_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_SDys11AnyHashableVypG_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS3key_So8NSNumberC5valuetSgWOe
++ _$sSSSgWOc
++ _$sSSWOh
++ _$sScPSgWOhTm
++ _$sSo20NSJSONWritingOptionsVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo22ACXPCAccountChangeTypeaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo22ACXPCAccountChangeTypeaSYSCSY8rawValue03RawE0QzvgTW
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_s17_NativeDictionaryVySSSo8NSNumberCG_s5NeverOTg506$ss17_kl51V6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5i12Rd__lFADs13_ab18Vqd__YKXEfU_SS_So8m3Cs5N4OTG5ANxq_Sbq0_Ri_zRi0_zRi__Ri0__Ri_0_Ri0_0_r1_lySSAmPIsgnndzr_Tf1nc_n
++ _$ss15LazyMapSequenceV8IteratorV4nextq_SgyFSDySSSo8NSNumberCG_SS_AHtTg5
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tqd_0_YKXEtqd_0_YKSTRd__s5ErrorRd_0_x_q_t7ElementRtd__r0_lFSS_So8NSNumberCs15LazyMapSequenceVySDySSAJGSS_AJtGs5NeverOTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8K16CGFA2F_AFtXEfU0_Tf1nncn_n
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFADs13_UnsafeBitsetVqd__YKXEfU_SS_So8NSNumberCs5NeverOTg5
++ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFSS_So8NSNumberCs5NeverOTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8G28CGFSbSS3key_AF5valuet_tXEfU_Tf1cn_n
++ _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzs5ErrorRd__r0__lTRSS_So8NSNumberCs5NeverOTG5064$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tqd__YKXEtqd__YKs5c26Rd__lFx_q_tx_q_tcfU_SS_So8d3Cs5E4OTG5Tf3nnpf_n
++ _PROTOCOLS__TtC15icloudmailagent21MCCSecretAgentService.7
++ ___swift__destructor
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ __swift_closure_destructor.10
++ __swift_closure_destructor.101
++ __swift_closure_destructor.109
++ __swift_closure_destructor.10Tm
++ __swift_closure_destructor.122
++ __swift_closure_destructor.126
++ __swift_closure_destructor.134
++ __swift_closure_destructor.139
++ __swift_closure_destructor.14
++ __swift_closure_destructor.149
++ __swift_closure_destructor.153
++ __swift_closure_destructor.160
++ __swift_closure_destructor.165
++ __swift_closure_destructor.19
++ __swift_closure_destructor.22
++ __swift_closure_destructor.24
++ __swift_closure_destructor.24Tm
++ __swift_closure_destructor.25
++ __swift_closure_destructor.28
++ __swift_closure_destructor.3
++ __swift_closure_destructor.31
++ __swift_closure_destructor.33
++ __swift_closure_destructor.35
++ __swift_closure_destructor.37
++ __swift_closure_destructor.39
++ __swift_closure_destructor.4
++ __swift_closure_destructor.42
++ __swift_closure_destructor.42Tm
++ __swift_closure_destructor.43
++ __swift_closure_destructor.48
++ __swift_closure_destructor.4Tm
++ __swift_closure_destructor.60
++ __swift_closure_destructor.64
++ __swift_closure_destructor.9
++ _objc_claimAutoreleasedReturnValue
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ block_copy_helper.10
++ block_copy_helper.104
++ block_copy_helper.112
++ block_copy_helper.14
++ block_copy_helper.144
++ block_copy_helper.19
++ block_copy_helper.6
++ block_copy_helper.96
++ block_descriptor.106
++ block_descriptor.114
++ block_descriptor.12
++ block_descriptor.146
++ block_descriptor.16
++ block_descriptor.21
++ block_descriptor.8
++ block_descriptor.98
++ block_destroy_helper.105
++ block_destroy_helper.11
++ block_destroy_helper.113
++ block_destroy_helper.145
++ block_destroy_helper.15
++ block_destroy_helper.20
++ block_destroy_helper.7
++ block_destroy_helper.97
+- $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.24
+- $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5Error_pSgIegyg_TRTA.28
+- $s15icloudmailagent18DeviceLockObserverC6lockedSbvgSbyXEfU_TA.104
+- $s15icloudmailagent18DeviceLockObserverC6lockedSbvgSbyXEfU_TA.113
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.117
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.117TQ0_
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.117Tu
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.133
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.133TQ0_
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.133Tu
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.32
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.32TQ0_
+- $s15icloudmailagent25CategorizationSyncManagerC09startFullC033_D3B0FCFF93C920EE1A43E2A9ED08676CLL8fromPushySb_tFyyYacfU_TA.32Tu
+- $s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU0_TA.97
+- $s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctFyycfU_TA.89
+- $s15icloudmailagent25CategorizationSyncManagerC8newTimer33_D3B0FCFF93C920EE1A43E2A9ED08676CLLSo7NSTimerCyFyAGYbcfU_TA.81
+- $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.7
+- $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.7TQ0_
+- $s15icloudmailagent25CategorizationSyncManagerC9syncToWeb33_D3B0FCFF93C920EE1A43E2A9ED08676CLL5rulesySaySo14RCOverrideRuleCG_tFyyYacfU_TA.7Tu
+- $sSo12NSDictionaryCSgSo7NSErrorCSgIeyByy_SDys11AnyHashableVypGSgs5Error_pSgIeggg_TRTA.32
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.40Tu
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APIManager.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APIRequestModel.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/APNSManager.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationManager+Error.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationManager.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/CategorizationSyncManager.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/Constants.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/DeviceLockObserver.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/Logger.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/MCCAgentConnectionManager.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/MCCSecretAgentService.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/OSTransactionHelper.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/PDSRegistrarService.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/RCOverrideHelper.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/SyncAPIs.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/icloudmailagent.swiftmodule
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/icloudmailagent_vers.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Binaries/icloudMCCKit/install/TempContent/Objects/icloudMCCKit.build/icloudmailagent.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/APNS/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/Categorization Sync/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/Secret Agent Service/Categorization/
+- /Library/Caches/com.apple.xbs/69A6314F-F920-4D32-88B8-203412A3AF1D/TemporaryDirectory.Eqbqjp/Sources/icloudMCCKit/icloudmailagent/Utilities/
+- _$s15icloudmailagent21CategorizationManagerC02isB9Supported9forLocale10completionySS_ySb_s5Error_pSgtXEtFTf4nnd_n
+- _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_nTf4ng_n
+- _$s15icloudmailagent21CategorizationManagerC12isModelReady10completionyySb_s5Error_pSgtc_tFToTm
+- _$s15icloudmailagent21CategorizationManagerC16getIABCategoryID4with10completionySS_ySi_s5Error_pSgtctF028$sSiSo7NSErrorCSgIeyByy_Sis5I12_pSgIegyg_TRSiSo0M0CSgIeyByy_Tf1ncn_nTf4nng_nTm
+- _$s15icloudmailagent21CategorizationManagerC16isPersonalDomain4with10completionySS_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5I12_pSgIegyg_TR0K1C0mN0VSo0P0CSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s15icloudmailagent21CategorizationManagerC19invokeModelDownload10completionyySb_s5Error_pSgtc_tF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5H12_pSgIegyg_TR0J1C0lM0VSo0O0CSgIeyByy_Tf1cn_nTf4ng_n
+- _$s15icloudmailagent21CategorizationManagerC20getBlackPearlVersion10completionyySDys11AnyHashableVypGSg_s5Error_pSgtc_tF031$sSo12NSDictionaryCSgSo7NSErroro13IeyByy_SDys11ij8VypGSgs5K12_pSgIeggg_TRSo0N0CSgSo0Q0CSgIeyByy_Tf1cn_nTf4ng_n
+- _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctF031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1ncn_nTf4nng_n
+- _$s15icloudmailagent21CategorizationManagerC20predictCommerceEmail4with10completionySo18MCCCategoryContextC_ySDys11AnyHashableVypGSg_s5Error_pSgtctFyyXEfU_031$sSo12NSDictionaryCSgSo7NSErrorq13IeyByy_SDys11kl8VypGSgs5M12_pSgIeggg_TRSo0P0CSgSo0S0CSgIeyByy_Tf1nnnnnc_n
+- _$s15icloudmailagent25CategorizationSyncManagerC37registerCategoryRulesCallbackListener8endpoint17notificationTypes10completionySo21NSXPCListenerEndpointC_So08MCCRulesI16NotificationTypeVySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5S12_pSgIegyg_TR0U1C0wX0VSo0Z0CSgIeyByy_Tf1nncn_nTf4nnng_n
+- _$sSD6filterySDyxq_GSbx3key_q_5valuet_tKXEKFSS_So8NSNumberCTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8D28CGFSbSS3key_AF5valuet_tXEfU_Tf1cn_nTf4g_n
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
+- _$sSS3key_yp5valuetMR
+- _$sSS3key_yp5valuetMd
+- _$sSSSgWOcTm
+- _$sSSSgWOh
+- _$sScPSgWOc
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSaySo15NSXPCConnectionCG_Tg5
+- _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgWOhTm
+- _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s17_NativeDictionaryVySSSo8NSNumberCG_Tg506$ss17_gh46V6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_ab13VKXEfU_SS_So8I4CTG5AJxq_Sbs5Error_pRi_zRi0_zRi__Ri0__r0_lySSAIIsgnndzo_Tf1nc_n087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8I28CGFSbSS3key_AF5valuet_tXEfU_Tf1nnc_n
+- _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_So8NSNumberCs15LazyMapSequenceVySDySSAIGSS_AItGTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8J16CGFA2F_AFtXEfU0_Tf1nncn_nTf4gnn_n
+- _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_UnsafeBitsetVKXEfU_SS_So8NSNumberCTg5087$s15icloudmailagent25CategorizationSyncManagerC28syncNewOldCategoryTimestampsyySDySSSo8H28CGFSbSS3key_AF5valuet_tXEfU_Tf1nnc_n
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
+- _$ss5ErrorWS
+- _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzr0_lTRSS_So8NSNumberCTG5073$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tKXEtKFx_q_tx_q_tcfU_SS_So8C4CTG5Tf3nnpf_n
+- _$sypSgWOhTm
+- _PROTOCOLS__TtC15icloudmailagent21MCCSecretAgentService.3
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_icloudmailagent
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_icloudmailagent
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic SS3key_yp5valuet
+- block_copy_helper.11
+- block_copy_helper.120
+- block_copy_helper.15
+- block_copy_helper.16
+- block_copy_helper.7
+- block_copy_helper.82
+- block_copy_helper.90
+- block_copy_helper.98
+- block_descriptor.100
+- block_descriptor.122
+- block_descriptor.13
+- block_descriptor.17
+- block_descriptor.18
+- block_descriptor.84
+- block_descriptor.9
+- block_descriptor.92
+- block_destroy_helper.12
+- block_destroy_helper.121
+- block_destroy_helper.16
+- block_destroy_helper.17
+- block_destroy_helper.8
+- block_destroy_helper.83
+- block_destroy_helper.91
+- block_destroy_helper.99
+- objectdestroy.11Tm
+- objectdestroy.21Tm
+- objectdestroy.42Tm
+- objectdestroy.5Tm
+
+```

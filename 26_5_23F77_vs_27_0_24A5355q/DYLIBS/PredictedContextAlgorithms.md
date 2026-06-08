@@ -1,0 +1,3022 @@
+## PredictedContextAlgorithms
+
+> `/System/Library/PrivateFrameworks/PredictedContextAlgorithms.framework/PredictedContextAlgorithms`
+
+```diff
+
+-37.0.1.0.0
+-  __TEXT.__text: 0x931dc
+-  __TEXT.__auth_stubs: 0x1070
+-  __TEXT.__objc_methlist: 0x6b0c
+-  __TEXT.__const: 0xcaf
+-  __TEXT.__cstring: 0x30d0
+-  __TEXT.__oslogstring: 0x6261
+-  __TEXT.__swift5_typeref: 0x2e0
++45.0.0.0.0
++  __TEXT.__text: 0x97f0c
++  __TEXT.__objc_methlist: 0x6db4
++  __TEXT.__const: 0xcd8
++  __TEXT.__cstring: 0x31d0
++  __TEXT.__oslogstring: 0x67e3
++  __TEXT.__swift5_typeref: 0x2ec
++  __TEXT.__swift5_capture: 0xe0
+   __TEXT.__swift5_reflstr: 0x14d
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__constg_swiftt: 0x4a8
++  __TEXT.__constg_swiftt: 0x4b0
+   __TEXT.__swift5_fieldmd: 0x250
+   __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_capture: 0xa0
+   __TEXT.__swift5_proto: 0x4c
+   __TEXT.__swift5_types: 0x20
+   __TEXT.__swift_as_entry: 0x1c
+-  __TEXT.__swift_as_ret: 0x20
+-  __TEXT.__gcc_except_tab: 0xe98
++  __TEXT.__swift_as_ret: 0x24
++  __TEXT.__swift_as_cont: 0x28
++  __TEXT.__gcc_except_tab: 0x13e8
+   __TEXT.__ustring: 0xbe
+-  __TEXT.__unwind_info: 0x1e70
+-  __TEXT.__eh_frame: 0x5d8
+-  __TEXT.__objc_classname: 0xa49
+-  __TEXT.__objc_methname: 0xd6c7
+-  __TEXT.__objc_methtype: 0x1805
+-  __TEXT.__objc_stubs: 0x8b00
+-  __DATA_CONST.__got: 0x680
+-  __DATA_CONST.__const: 0xb68
+-  __DATA_CONST.__objc_classlist: 0x370
++  __TEXT.__unwind_info: 0x19e0
++  __TEXT.__eh_frame: 0x648
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xbb8
++  __DATA_CONST.__objc_classlist: 0x378
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2f00
++  __DATA_CONST.__weak_got: 0x10
++  __DATA_CONST.__objc_selrefs: 0x2f90
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x298
++  __DATA_CONST.__objc_superrefs: 0x2a0
+   __DATA_CONST.__objc_arraydata: 0xe8
+-  __AUTH_CONST.__auth_got: 0x850
+-  __AUTH_CONST.__const: 0x830
+-  __AUTH_CONST.__cfstring: 0x42c0
+-  __AUTH_CONST.__objc_const: 0xacb8
++  __DATA_CONST.__got: 0x678
++  __AUTH_CONST.__const: 0x8a8
++  __AUTH_CONST.__cfstring: 0x4340
++  __AUTH_CONST.__objc_const: 0xb0e8
++  __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_doubleobj: 0x180
+   __AUTH_CONST.__objc_arrayobj: 0x60
+-  __AUTH_CONST.__objc_intobj: 0xd8
++  __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x860
++  __AUTH_CONST.__auth_got: 0x8b8
++  __AUTH.__objc_data: 0x270
+   __AUTH.__data: 0x1b0
+-  __DATA.__objc_ivar: 0x738
+-  __DATA.__data: 0x368
++  __DATA.__objc_ivar: 0x780
++  __DATA.__data: 0x2a0
+   __DATA.__bss: 0x4a0
+-  __DATA.__common: 0x10
+-  __DATA_DIRTY.__objc_data: 0x1e00
+-  __DATA_DIRTY.__data: 0x3a8
+-  __DATA_DIRTY.__common: 0x38
++  __DATA_DIRTY.__objc_data: 0x2448
++  __DATA_DIRTY.__data: 0x490
++  __DATA_DIRTY.__common: 0x48
+   __DATA_DIRTY.__bss: 0x5d0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5611BEC9-82D5-3594-BD92-D46F6F9B3977
+-  Functions: 2837
+-  Symbols:   9204
+-  CStrings:  4088
++  UUID: 4110B87E-B835-3E3D-9406-EC0532E68C95
++  Functions: 2917
++  Symbols:   9451
++  CStrings:  1589
+ 
+Symbols:
++ +[PCVisitHistoryPredictorNew supportsSecureCoding]
++ +[PCVisitHistoryPredictorOld supportsSecureCoding]
++ -[PCAlgorithmsConfig setUseNewMLModel:]
++ -[PCAlgorithmsConfig useNewMLModel]
++ -[PCVisitHistoryPredictorConfig initWithUseNewModel:]
++ -[PCVisitHistoryPredictorConfig probabilityBoostFactor]
++ -[PCVisitHistoryPredictorConfig setProbabilityBoostFactor:]
++ -[PCVisitHistoryPredictorNew .cxx_destruct]
++ -[PCVisitHistoryPredictorNew candidateLoiToHomeMap]
++ -[PCVisitHistoryPredictorNew candidateLoiToLocationMap]
++ -[PCVisitHistoryPredictorNew candidateLoiToWorkMap]
++ -[PCVisitHistoryPredictorNew candidateModel]
++ -[PCVisitHistoryPredictorNew candidateTimeZone]
++ -[PCVisitHistoryPredictorNew candidateVisitIndicies]
++ -[PCVisitHistoryPredictorNew computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]
++ -[PCVisitHistoryPredictorNew config]
++ -[PCVisitHistoryPredictorNew encodeWithCoder:]
++ -[PCVisitHistoryPredictorNew findMismatchedTrainedLois:visitHistory:]
++ -[PCVisitHistoryPredictorNew getModelName]
++ -[PCVisitHistoryPredictorNew hasTrainedModel]
++ -[PCVisitHistoryPredictorNew initWithCoder:]
++ -[PCVisitHistoryPredictorNew initWithConfig:]
++ -[PCVisitHistoryPredictorNew interruptTraining]
++ -[PCVisitHistoryPredictorNew loiToHomeMap]
++ -[PCVisitHistoryPredictorNew loiToLocationMap]
++ -[PCVisitHistoryPredictorNew loiToWorkMap]
++ -[PCVisitHistoryPredictorNew model]
++ -[PCVisitHistoryPredictorNew predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]
++ -[PCVisitHistoryPredictorNew purgeModel]
++ -[PCVisitHistoryPredictorNew setCandidateLoiToHomeMap:]
++ -[PCVisitHistoryPredictorNew setCandidateLoiToLocationMap:]
++ -[PCVisitHistoryPredictorNew setCandidateLoiToWorkMap:]
++ -[PCVisitHistoryPredictorNew setCandidateModel:]
++ -[PCVisitHistoryPredictorNew setCandidateTimeZone:]
++ -[PCVisitHistoryPredictorNew setCandidateVisitIndicies:]
++ -[PCVisitHistoryPredictorNew setConfig:]
++ -[PCVisitHistoryPredictorNew setLoiToHomeMap:]
++ -[PCVisitHistoryPredictorNew setLoiToLocationMap:]
++ -[PCVisitHistoryPredictorNew setLoiToWorkMap:]
++ -[PCVisitHistoryPredictorNew setModel:]
++ -[PCVisitHistoryPredictorNew setTimeZone:]
++ -[PCVisitHistoryPredictorNew setVisitIndicies:]
++ -[PCVisitHistoryPredictorNew storeHomeLoisTo:workLoisTo:from:withVisitIndices:]
++ -[PCVisitHistoryPredictorNew timeZone]
++ -[PCVisitHistoryPredictorNew visitIndicies]
++ -[PCVisitHistoryPredictorOld .cxx_destruct]
++ -[PCVisitHistoryPredictorOld candidateLoiToHomeMap]
++ -[PCVisitHistoryPredictorOld candidateLoiToLocationMap]
++ -[PCVisitHistoryPredictorOld candidateLoiToWorkMap]
++ -[PCVisitHistoryPredictorOld candidateModel]
++ -[PCVisitHistoryPredictorOld candidateTimeZone]
++ -[PCVisitHistoryPredictorOld candidateVisitIndicies]
++ -[PCVisitHistoryPredictorOld computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]
++ -[PCVisitHistoryPredictorOld config]
++ -[PCVisitHistoryPredictorOld encodeWithCoder:]
++ -[PCVisitHistoryPredictorOld findMismatchedTrainedLois:visitHistory:]
++ -[PCVisitHistoryPredictorOld getModelName]
++ -[PCVisitHistoryPredictorOld hasTrainedModel]
++ -[PCVisitHistoryPredictorOld initWithCoder:]
++ -[PCVisitHistoryPredictorOld initWithConfig:]
++ -[PCVisitHistoryPredictorOld interruptTraining]
++ -[PCVisitHistoryPredictorOld loiToHomeMap]
++ -[PCVisitHistoryPredictorOld loiToLocationMap]
++ -[PCVisitHistoryPredictorOld loiToWorkMap]
++ -[PCVisitHistoryPredictorOld model]
++ -[PCVisitHistoryPredictorOld predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]
++ -[PCVisitHistoryPredictorOld purgeModel]
++ -[PCVisitHistoryPredictorOld setCandidateLoiToHomeMap:]
++ -[PCVisitHistoryPredictorOld setCandidateLoiToLocationMap:]
++ -[PCVisitHistoryPredictorOld setCandidateLoiToWorkMap:]
++ -[PCVisitHistoryPredictorOld setCandidateModel:]
++ -[PCVisitHistoryPredictorOld setCandidateTimeZone:]
++ -[PCVisitHistoryPredictorOld setCandidateVisitIndicies:]
++ -[PCVisitHistoryPredictorOld setConfig:]
++ -[PCVisitHistoryPredictorOld setLoiToHomeMap:]
++ -[PCVisitHistoryPredictorOld setLoiToLocationMap:]
++ -[PCVisitHistoryPredictorOld setLoiToWorkMap:]
++ -[PCVisitHistoryPredictorOld setModel:]
++ -[PCVisitHistoryPredictorOld setTimeZone:]
++ -[PCVisitHistoryPredictorOld setVisitIndicies:]
++ -[PCVisitHistoryPredictorOld storeHomeLoisTo:workLoisTo:from:withVisitIndices:]
++ -[PCVisitHistoryPredictorOld timeZone]
++ -[PCVisitHistoryPredictorOld visitIndicies]
++ -[PCWorkoutAnnotationManager annotateBaseEvents:contextEvents:locationsOfInterest:]
++ -[PCWorkoutAnnotationManager annotateEventBundle:withContextEvents:andBaseEventReference:locationsOfInterest:]
++ -[PCWorkoutAnnotationManager nearestLOIForLocation:fromLOIs:]
++ -[PCWorkoutAnnotationManager performAnnotationWithEvents:locationsOfInterest:]
++ -[PCWorkoutAnnotationManager performAnnotationWithEventsInternal:locationsOfInterest:]
++ -[PCWorkoutAnnotationManager resolveLocationForEventBundle:majorVisitEvents:locationsOfInterest:]
++ -[PCWorkoutPrediction _annotateEventBundlesWithStartDate:endDate:allEvents:locationsOfInterest:]
++ -[PCWorkoutPrediction _bundleEvents:locationsOfInterest:]
++ -[PCWorkoutPrediction _bundleEvents:startDate:endDate:locationsOfInterest:]
++ -[TimestepDataset durationAtTimestepArray]
++ -[TimestepDataset getFeatureMatrixNewWithUnknownLoiLabel:]
++ -[TimestepDataset getFeatureMatrixOldWithUnknownLoiLabel:]
++ -[TimestepDataset prevLoiAtTimestepArray]
++ -[TimestepDataset prevOrdinalLoiLabels]
++ -[TimestepDataset setDurationAtTimestepArray:]
++ -[TimestepDataset setPrevLoiAtTimestepArray:]
++ -[TimestepDataset setPrevOrdinalLoiLabels:]
++ GCC_except_table27
++ GCC_except_table28
++ GCC_except_table29
++ GCC_except_table33
++ GCC_except_table34
++ GCC_except_table9
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC03getF14ParameterCountSiyF
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC03getF14ParameterCountSiyFTj
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC03getF14ParameterCountSiyFTo
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC03getF14ParameterCountSiyFTq
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC22encodeWithLabelEncoder5arraySaySiGSgSaySSG_tYaFTQ4_
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC22encodeWithLabelEncoder5arraySaySiGSgSaySSG_tYaFTY5_
++ _$s28PCNeuralNetworkSupportBridge0A8NetModelC22encodeWithLabelEncoder5arraySaySiGSgSaySSG_tYaFTY6_
++ _$sIeAgH_ytIeAgHr_TRTA.102
++ _$sIeAgH_ytIeAgHr_TRTA.102TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.102Tu
++ _$sIeghH_IeAgH_TRTA.97
++ _$sIeghH_IeAgH_TRTA.97TQ0_
++ _$sIeghH_IeAgH_TRTA.97Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.84
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.84TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.84Tu
++ _OBJC_CLASS_$_PCVisitHistoryPredictorNew
++ _OBJC_CLASS_$_PCVisitHistoryPredictorOld
++ _OBJC_IVAR_$_PCAlgorithmsConfig._useNewMLModel
++ _OBJC_IVAR_$_PCVisitHistoryPredictorConfig._probabilityBoostFactor
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateLoiToHomeMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateLoiToLocationMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateLoiToWorkMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateModel
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateTimeZone
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._candidateVisitIndicies
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._config
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._loiToHomeMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._loiToLocationMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._loiToWorkMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._model
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._timeZone
++ _OBJC_IVAR_$_PCVisitHistoryPredictorNew._visitIndicies
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateLoiToHomeMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateLoiToLocationMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateLoiToWorkMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateModel
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateTimeZone
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._candidateVisitIndicies
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._config
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._loiToHomeMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._loiToLocationMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._loiToWorkMap
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._model
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._timeZone
++ _OBJC_IVAR_$_PCVisitHistoryPredictorOld._visitIndicies
++ _OBJC_IVAR_$_TimestepDataset._durationAtTimestepArray
++ _OBJC_IVAR_$_TimestepDataset._prevLoiAtTimestepArray
++ _OBJC_IVAR_$_TimestepDataset._prevOrdinalLoiLabels
++ _OBJC_METACLASS_$_PCVisitHistoryPredictorNew
++ _OBJC_METACLASS_$_PCVisitHistoryPredictorOld
++ __OBJC_$_CLASS_METHODS_PCVisitHistoryPredictorNew
++ __OBJC_$_CLASS_METHODS_PCVisitHistoryPredictorOld
++ __OBJC_$_CLASS_PROP_LIST_PCVisitHistoryPredictorNew
++ __OBJC_$_CLASS_PROP_LIST_PCVisitHistoryPredictorOld
++ __OBJC_$_INSTANCE_METHODS_PCVisitHistoryPredictorNew
++ __OBJC_$_INSTANCE_METHODS_PCVisitHistoryPredictorOld
++ __OBJC_$_INSTANCE_VARIABLES_PCVisitHistoryPredictorNew
++ __OBJC_$_INSTANCE_VARIABLES_PCVisitHistoryPredictorOld
++ __OBJC_$_PROP_LIST_PCVisitHistoryPredictorNew
++ __OBJC_$_PROP_LIST_PCVisitHistoryPredictorOld
++ __OBJC_CLASS_PROTOCOLS_$_PCVisitHistoryPredictorNew
++ __OBJC_CLASS_PROTOCOLS_$_PCVisitHistoryPredictorOld
++ __OBJC_CLASS_RO_$_PCVisitHistoryPredictorNew
++ __OBJC_CLASS_RO_$_PCVisitHistoryPredictorOld
++ __OBJC_METACLASS_RO_$_PCVisitHistoryPredictorNew
++ __OBJC_METACLASS_RO_$_PCVisitHistoryPredictorOld
++ __ZNKSt3__111__copy_implclB9fqe220100IPNS_6vectorIdNS_9allocatorIdEEEES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_EclB9fqe220100Ev
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt16invalid_argumentC1B9fqe220100EPKc
++ __ZNSt3__110unique_ptrI7HdbscanNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI7clusterNS_14default_deleteIS1_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeIiPvEENS_6__treeIiNS_4lessIiEENS_9allocatorIiEEE14__tree_deleterEE5resetB9fqe220100EPS3_
++ __ZNSt3__112__destroy_atB9fqe220100I7clusterEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__113__tree_removeB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI12outlierScoreEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI17hdbscanConstraintEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrI7clusterNS_14default_deleteIS3_EEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_6vectorIdNS1_IdEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_6vectorIiNS1_IiEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP7clusterEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm8__fill_nEJNS_17__single_iteratorINS_14__bit_iteratorINS_6vectorIbNS_9allocatorIbEEEELb0ELm0EEEEEEEclB9fqe220100ImbEES9_S9_T_RKT0_
++ __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__tuple_compare_three_wayB9fqe220100INS_16partial_orderingENS_5tupleIJRKdS4_RKiEEES7_JLm0ELm1ELm2EEEET_RKT0_RKT1_NS_16integer_sequenceImJXspT2_EEEE
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP12outlierScoreEEbT1_S7_T0_
++ __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS2_IdEEEEEEPS5_EEED2B9fqe220100Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__13mapIiNS_6vectorIiNS_9allocatorIiEEEENS_4lessIiEENS2_INS_4pairIKiS4_EEEEEixERS8_
++ __ZNSt3__13mapIiP7clusterNS_4lessIiEENS_9allocatorINS_4pairIKiS2_EEEEE6insertB9fqe220100EOS8_
++ __ZNSt3__13mapIiiNS_4lessIiEENS_9allocatorINS_4pairIKiiEEEEEixERS5_
++ __ZNSt3__13setIiNS_4lessIiEENS_9allocatorIiEEE6insertB9fqe220100ERKi
++ __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorIiNS_9allocatorIiEEEEEENS_19__map_value_compareIiNS_4pairIKiS5_EENS_4lessIiEEEENS3_ISA_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiP7clusterEENS_19__map_value_compareIiNS_4pairIKiS3_EENS_4lessIiEEEENS_9allocatorIS8_EEE14__erase_uniqueIiEEmRKT_
++ __ZNSt3__16__treeINS_12__value_typeIiP7clusterEENS_19__map_value_compareIiNS_4pairIKiS3_EENS_4lessIiEEEENS_9allocatorIS8_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS4_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiiEENS_19__map_value_compareIiNS_4pairIKiiEENS_4lessIiEEEENS_9allocatorIS6_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIiPvEE
++ __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE21__construct_from_treeB9fqe220100IZNS5_21__copy_construct_treeB9fqe220100EPNS_11__tree_nodeIiPvEEEUlRKiE_EESA_SA_T_
++ __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEEC2ERKS5_
++ __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220100IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220100IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE30__emplace_back_assume_capacityB9fqe220100IJRKS1_EEEvDpOT_
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__init_with_sizeB9fqe220100IPS3_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPS3_S8_EEvT0_T1_l
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEEC2B9fqe220100Em
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE30__emplace_back_assume_capacityB9fqe220100IJRKS3_EEEvDpOT_
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE9push_backB9fqe220100ERKS3_
++ __ZNSt3__16vectorINS_10unique_ptrI7clusterNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrI7clusterNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrI7clusterNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE18__insert_with_sizeB9fqe220100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS2_EESA_EESA_NS8_IPKS2_EET0_T1_l
++ __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE7reserveEm
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9fqe220100IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPdS6_EEvT0_T1_l
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9fqe220100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9fqe220100IPiS5_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPiS6_EEvT0_T1_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJRKiEEEPiDpOT_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJiEEEPiDpOT_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9fqe220100Em
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP12outlierScoreLi0EEEvT1_S7_S7_S7_T0_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___122-[PCVisitHistoryPredictorNew computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]_block_invoke
++ ___122-[PCVisitHistoryPredictorNew computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]_block_invoke.53
++ ___122-[PCVisitHistoryPredictorNew computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]_block_invoke.54
++ ___122-[PCVisitHistoryPredictorOld computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]_block_invoke
++ ___170-[PCVisitHistoryPredictorNew predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]_block_invoke
++ ___170-[PCVisitHistoryPredictorNew predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]_block_invoke.63
++ ___170-[PCVisitHistoryPredictorOld predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]_block_invoke
++ ___55-[PCLocationsWindow initWithRawHistory:maxUncertainty:]_block_invoke.37
++ ___block_descriptor_40_e8_32s_e17_v16?0"NSArray"8ls32l8
++ ___block_literal_global.212
++ ___swift__destructor
++ ___swift__destructor.16
++ ___swift__destructor.19
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.70Tm
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.95
++ ___swift_closure_destructorTm
++ __os_feature_enabled_impl
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_PCNeuralNetworkSupportBridge
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_annotateEventBundlesWithStartDate:endDate:allEvents:locationsOfInterest:
++ _objc_msgSend$_bundleEvents:locationsOfInterest:
++ _objc_msgSend$_bundleEvents:startDate:endDate:locationsOfInterest:
++ _objc_msgSend$annotateBaseEvents:contextEvents:locationsOfInterest:
++ _objc_msgSend$annotateEventBundle:withContextEvents:andBaseEventReference:locationsOfInterest:
++ _objc_msgSend$getFeatureMatrixNewWithUnknownLoiLabel:
++ _objc_msgSend$getFeatureMatrixOldWithUnknownLoiLabel:
++ _objc_msgSend$getModelName
++ _objc_msgSend$getModelParameterCount
++ _objc_msgSend$hasPlaceMapItem
++ _objc_msgSend$hasVisitIdentifierOrigin
++ _objc_msgSend$initWithFloat:
++ _objc_msgSend$initWithUseNewModel:
++ _objc_msgSend$nearestLOIForLocation:fromLOIs:
++ _objc_msgSend$performAnnotationWithEvents:locationsOfInterest:
++ _objc_msgSend$performAnnotationWithEventsInternal:locationsOfInterest:
++ _objc_msgSend$prevLoiAtTimestepArray
++ _objc_msgSend$probabilityBoostFactor
++ _objc_msgSend$resolveLocationForEventBundle:majorVisitEvents:locationsOfInterest:
++ _objc_msgSend$setDurationAtTimestepArray:
++ _objc_msgSend$setPrevLoiAtTimestepArray:
++ _objc_msgSend$setPrevOrdinalLoiLabels:
++ _objc_msgSend$setUseNewMLModel:
++ _objc_msgSend$useNewMLModel
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x5
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_x21
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _symbolic SaySSG
++ _symbolic Sd
+- +[PCVisitHistoryPredictor supportsSecureCoding]
+- -[PCVisitHistoryPredictor .cxx_destruct]
+- -[PCVisitHistoryPredictor candidateLoiToHomeMap]
+- -[PCVisitHistoryPredictor candidateLoiToLocationMap]
+- -[PCVisitHistoryPredictor candidateLoiToWorkMap]
+- -[PCVisitHistoryPredictor candidateModel]
+- -[PCVisitHistoryPredictor candidateTimeZone]
+- -[PCVisitHistoryPredictor candidateVisitIndicies]
+- -[PCVisitHistoryPredictor computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]
+- -[PCVisitHistoryPredictor config]
+- -[PCVisitHistoryPredictor encodeWithCoder:]
+- -[PCVisitHistoryPredictor findMismatchedTrainedLois:visitHistory:]
+- -[PCVisitHistoryPredictor hasTrainedModel]
+- -[PCVisitHistoryPredictor initWithCoder:]
+- -[PCVisitHistoryPredictor initWithConfig:]
+- -[PCVisitHistoryPredictor init]
+- -[PCVisitHistoryPredictor interruptTraining]
+- -[PCVisitHistoryPredictor loiToHomeMap]
+- -[PCVisitHistoryPredictor loiToLocationMap]
+- -[PCVisitHistoryPredictor loiToWorkMap]
+- -[PCVisitHistoryPredictor model]
+- -[PCVisitHistoryPredictor predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]
+- -[PCVisitHistoryPredictor purgeModel]
+- -[PCVisitHistoryPredictor setCandidateLoiToHomeMap:]
+- -[PCVisitHistoryPredictor setCandidateLoiToLocationMap:]
+- -[PCVisitHistoryPredictor setCandidateLoiToWorkMap:]
+- -[PCVisitHistoryPredictor setCandidateModel:]
+- -[PCVisitHistoryPredictor setCandidateTimeZone:]
+- -[PCVisitHistoryPredictor setCandidateVisitIndicies:]
+- -[PCVisitHistoryPredictor setConfig:]
+- -[PCVisitHistoryPredictor setLoiToHomeMap:]
+- -[PCVisitHistoryPredictor setLoiToLocationMap:]
+- -[PCVisitHistoryPredictor setLoiToWorkMap:]
+- -[PCVisitHistoryPredictor setModel:]
+- -[PCVisitHistoryPredictor setTimeZone:]
+- -[PCVisitHistoryPredictor setVisitIndicies:]
+- -[PCVisitHistoryPredictor storeHomeLoisTo:workLoisTo:from:withVisitIndices:]
+- -[PCVisitHistoryPredictor timeZone]
+- -[PCVisitHistoryPredictor visitIndicies]
+- -[PCWorkoutAnnotationManager annotateBaseEvents:contextEvents:]
+- -[PCWorkoutAnnotationManager annotateEventBundle:withContextEvents:andBaseEventReference:]
+- -[PCWorkoutAnnotationManager performAnnotationWithEventsInternal:]
+- -[PCWorkoutPrediction _annotateEventBundlesWithStartDate:endDate:allEvents:]
+- -[PCWorkoutPrediction _bundleEvents:]
+- -[PCWorkoutPrediction _bundleEvents:startDate:endDate:]
+- -[TimestepDataset getFeatureMatrixWithUnknownLoiLabel:]
+- GCC_except_table24
+- GCC_except_table30
+- GCC_except_table37
+- _$s14NeuralNetworks13ComputeDeviceVSgWOb
+- _$sIeAgH_ytIeAgHr_TRTA.92
+- _$sIeAgH_ytIeAgHr_TRTA.92TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.92Tu
+- _$sIeghH_IeAgH_TRTA.87
+- _$sIeghH_IeAgH_TRTA.87TQ0_
+- _$sIeghH_IeAgH_TRTA.87Tu
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSnySiG_Tg5Tm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.74
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.74TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.74Tu
+- _OBJC_CLASS_$_PCVisitHistoryPredictor
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateLoiToHomeMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateLoiToLocationMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateLoiToWorkMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateModel
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateTimeZone
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._candidateVisitIndicies
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._config
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._loiToHomeMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._loiToLocationMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._loiToWorkMap
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._model
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._timeZone
+- _OBJC_IVAR_$_PCVisitHistoryPredictor._visitIndicies
+- _OBJC_METACLASS_$_PCVisitHistoryPredictor
+- __OBJC_$_CLASS_METHODS_PCVisitHistoryPredictor
+- __OBJC_$_CLASS_PROP_LIST_PCVisitHistoryPredictor
+- __OBJC_$_INSTANCE_METHODS_PCVisitHistoryPredictor
+- __OBJC_$_INSTANCE_VARIABLES_PCVisitHistoryPredictor
+- __OBJC_$_PROP_LIST_PCVisitHistoryPredictor
+- __OBJC_CLASS_PROTOCOLS_$_PCVisitHistoryPredictor
+- __OBJC_CLASS_RO_$_PCVisitHistoryPredictor
+- __OBJC_METACLASS_RO_$_PCVisitHistoryPredictor
+- __ZNKSt3__111__copy_implclB9nqe210106IPNS_6vectorIdNS_9allocatorIdEEEES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_EclB9nqe210106Ev
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt16invalid_argumentC1B9nqe210106EPKc
+- __ZNSt3__110unique_ptrI7HdbscanNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrI7clusterNS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__112__destroy_atB9nqe210106I7clusterLi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__113__tree_removeB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI12outlierScoreEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI17hdbscanConstraintEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrI7clusterNS_14default_deleteIS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_6vectorIdNS1_IdEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_6vectorIiNS1_IiEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP7clusterEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119piecewise_constructE
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__tuple_compare_three_wayB9nqe210106IJRKdS2_RKiEJS2_S2_S4_EJLm0ELm1ELm2EEEEDaRKNS_5tupleIJDpT_EEERKNS6_IJDpT0_EEENS_16integer_sequenceImJXspT1_EEEE
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP12outlierScoreEEbT1_S7_T0_
+- __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIdNS2_IdEEEEEEPS5_EEED2B9nqe210106Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorINS_6vectorIdNS1_IdEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__13setIiNS_4lessIiEENS_9allocatorIiEEEC2B9nqe210106ERKS5_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorIiNS_9allocatorIiEEEEEENS_19__map_value_compareIiNS_4pairIKiS5_EENS_4lessIiEELb1EEENS3_ISA_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRS9_EEENSK_IJEEEEEENS8_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorIiNS_9allocatorIiEEEEEENS_19__map_value_compareIiNS_4pairIKiS5_EENS_4lessIiEELb1EEENS3_ISA_EEE7destroyEPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiP7clusterEENS_19__map_value_compareIiNS_4pairIKiS3_EENS_4lessIiEELb1EEENS_9allocatorIS8_EEE14__erase_uniqueIiEEmRKT_
+- __ZNSt3__16__treeINS_12__value_typeIiP7clusterEENS_19__map_value_compareIiNS_4pairIKiS3_EENS_4lessIiEELb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIiJS8_EEENS6_INS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIiP7clusterEENS_19__map_value_compareIiNS_4pairIKiS3_EENS_4lessIiEELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiiEENS_19__map_value_compareIiNS_4pairIKiiEENS_4lessIiEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSH_IJEEEEEENS4_INS_15__tree_iteratorIS2_PNS_11__tree_nodeIS2_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIiiEENS_19__map_value_compareIiNS_4pairIKiiEENS_4lessIiEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeIiNS_4lessIiEENS_9allocatorIiEEE25__emplace_unique_key_argsIiJRKiEEENS_4pairINS_15__tree_iteratorIiPNS_11__tree_nodeIiPvEElEEbEERKT_DpOT0_
+- __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe210106IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI12outlierScoreNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI17hdbscanConstraintNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorI7clusterNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE16__init_with_sizeB9nqe210106IPS3_S7_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE18__assign_with_sizeB9nqe210106IPS3_S7_EEvT_T0_l
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEEC2B9nqe210106Em
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE9push_backB9nqe210106ERKS3_
+- __ZNSt3__16vectorINS_10unique_ptrI7clusterNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrI7clusterNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE18__insert_with_sizeB9nqe210106INS_11__wrap_iterIPS2_EES9_EES9_NS7_IPKS2_EET_T0_l
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
+- __ZNSt3__16vectorIP7clusterNS_9allocatorIS2_EEE9push_backB9nqe210106ERKS2_
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9nqe210106IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB9nqe210106IPdS5_EEvT_T0_l
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE8__appendEm
+- __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9nqe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9nqe210106IPiS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9nqe210106IPiS5_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106ERKi
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9nqe210106Em
+- __ZNSt3__17__sort4B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP12outlierScoreLi0EEEvT1_S7_S7_S7_T0_
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___119-[PCVisitHistoryPredictor computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:]_block_invoke
+- ___167-[PCVisitHistoryPredictor predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:]_block_invoke
+- ___55-[PCLocationsWindow initWithRawHistory:maxUncertainty:]_block_invoke.38
+- ___block_literal_global.197
+- ___cxa_rethrow
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_PCNeuralNetworkSupportBridge
+- _objc_msgSend$_annotateEventBundlesWithStartDate:endDate:allEvents:
+- _objc_msgSend$_bundleEvents:
+- _objc_msgSend$_bundleEvents:startDate:endDate:
+- _objc_msgSend$annotateBaseEvents:contextEvents:
+- _objc_msgSend$annotateEventBundle:withContextEvents:andBaseEventReference:
+- _objc_msgSend$getFeatureMatrixWithUnknownLoiLabel:
+- _objc_msgSend$performAnnotationWithEvents:
+- _objc_msgSend$performAnnotationWithEventsInternal:
+- _objc_retain_x10
+- _objectdestroy.60Tm
+- _objectdestroyTm
+- _swift_retain
+CStrings:
++ "ContextAlgorithms"
++ "Error: feature matrix columns have non-homgenous lengths, onehot: %lu, dayofweeksin: %lu, dayofweekcos: %lu, todsin: %lu, todcos: %lu, duration: %lu, prevLoi: %lu"
++ "Error: timed out while encoding lois with label encoder"
++ "Error: timed out while encoding prediction prev lois with one hot encoder"
++ "Error: timed out while encoding prev lois with label encoder"
++ "Failed to decode as NEW model, will retrain from scratch"
++ "Failed to decode as OLD model, will retrain from scratch"
++ "Location resolved: No location available for workout bundle."
++ "Location resolved: Using visit location. placeName=%{sensitive}@, location=%{sensitive}@"
++ "Location resolved: Using workout location (LOI enriched). placeName=%{sensitive}@, placeUserType=%@, location=%{sensitive}@"
++ "Location resolved: Using workout location. location=%{sensitive}@"
++ "ML_MODEL,model=%@,inputSeqLen=%d,epochs=%d,batchSize=%d,timestepMin=%.1f,hiddenLayers=%d,outSteps=%d,trainOnGpu=%d"
++ "ML_TRAIN,HOME_LOI,%@,WORK_LOI,%@,curr_time,%.4f,model_version,%@,params_num,%ld,training_time_s,%.4f"
++ "PLC_MODEL_OPTIMIZATIONS"
++ "Using NEW ML model (v3: 7 features, seqLen=1)"
++ "Using OLD ML model (pre-v3: 5 features, seqLen=8)"
++ "Visit location is %.0f meters from workout start location (threshold: %.0f meters). This may indicate multi-device location confusion. Rejecting visit location."
++ "deferral request ignored due to initial model training"
++ "error encoding array %s, falling back to per-entry encoding with unknownLoiId %ld"
++ "feature matrix has %ld rows but inputSteps is %ld; dataset is unusable"
++ "is a first run computation, deferral will not be honored"
++ "nnmodelv6.1.0"
++ "probabilityBoostFactor"
++ "sequence endIndex %ld exceeds x.count %ld"
++ "timestepSizeMinutes, %f, inputSeqLength, %d, visitProbThreshold, %f, numVisitsThreshold, %d, hiddenLayers, %d, outSteps, %d, epochs, %d, probabilityBoostFactor, %f"
+- "#16@0:8"
+- ".cxx_construct"
+- ".cxx_destruct"
+- "@"
+- "@\"<PCDynamicsScaleFactorEstimator>\""
+- "@\"NSArray\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDateInterval\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"68@0:8@\"NSMapTable\"16@\"NSArray\"24@\"NSArray\"32@\"PCXYZCoordinate\"40d48d56B64"
+- "@\"NSEnumerator\""
+- "@\"NSFileHandle\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSTimeZone\""
+- "@\"NSUUID\""
+- "@\"PCAlgorithmsConfig\""
+- "@\"PCClusterMetadata\""
+- "@\"PCClusteringManager\""
+- "@\"PCDistanceWeightingConfig\""
+- "@\"PCDynamicsWeighting\""
+- "@\"PCDynamicsWeightingConfig\""
+- "@\"PCEventVisit\""
+- "@\"PCEventWorkout\""
+- "@\"PCHDBSCANClustering\""
+- "@\"PCLatLon\""
+- "@\"PCLocationDirectionEstimatorConfig\""
+- "@\"PCLocationsWindow\""
+- "@\"PCObservedSpeedETAEstimatorConfig\""
+- "@\"PCOutOfPatternLogic\""
+- "@\"PCPAlgorithmState\""
+- "@\"PCPApplyState\""
+- "@\"PCPCalendarEvent\""
+- "@\"PCPClusterEmbeddingActivity\""
+- "@\"PCPClusterEmbeddingLocation\""
+- "@\"PCPClusterEmbeddingTime\""
+- "@\"PCPClusterPhenotype\""
+- "@\"PCPComputeInterruptRequest\""
+- "@\"PCPComputeRequest\""
+- "@\"PCPHealthKitWorkout\""
+- "@\"PCPHomeKitHome\""
+- "@\"PCPInputSignals\""
+- "@\"PCPLifecycleEvent\""
+- "@\"PCPLocation\""
+- "@\"PCPLocationHistory\""
+- "@\"PCPLocationOfInterest\""
+- "@\"PCPLocationWithTimestamp\""
+- "@\"PCPMapItem\""
+- "@\"PCPMapsActiveNavigation\""
+- "@\"PCPMapsViewedPlace\""
+- "@\"PCPMotionActivity\""
+- "@\"PCPParkedCar\""
+- "@\"PCPPredictRequest\""
+- "@\"PCPPredictedContext\""
+- "@\"PCPPredictedContextAnalytics\""
+- "@\"PCPPredictedContextDate\""
+- "@\"PCPPredictedContextDateInterval\""
+- "@\"PCPPredictedContextResult\""
+- "@\"PCPPredictedContextSource\""
+- "@\"PCPRetrieveState\""
+- "@\"PCPRolledLoiAnalytics\""
+- "@\"PCPVisit\""
+- "@\"PCTime\""
+- "@\"PCTimeZoneManager\""
+- "@\"PCVisitHistoryPredictor\""
+- "@\"PCVisitHistoryPredictorConfig\""
+- "@\"PCWorkoutPrediction\""
+- "@\"PCWorkoutPredictionAlgorithm\""
+- "@\"PCXYZCoordinate\""
+- "@\"_TtC28PCNeuralNetworkSupportBridge16PCNeuralNetModel\""
+- "@160@0:8@16@24@32@40@48@56@64Q72@80@88@96@104@112@120@128@136Q144Q152"
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16i24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16^B24"
+- "@32@0:8@16d24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16Q24"
+- "@32@0:8d16d24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24d32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16d24@32"
+- "@40@0:8@16f24@28i36"
+- "@40@0:8@16q24@32"
+- "@40@0:8d16@24d32"
+- "@40@0:8d16d24d32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32d40"
+- "@48@0:8@16d24@32@40"
+- "@48@0:8@16d24^B32^d40"
+- "@48@0:8d16@24@32Q40"
+- "@48@0:8d16@24@32d40"
+- "@52@0:8q16q24q32q40B48"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24d32d40d48"
+- "@56@0:8@16d24@32@40@48"
+- "@56@0:8@16d24@32@40Q48"
+- "@56@0:8@16d24d32@40d48"
+- "@56@0:8@16q24@32@40@48"
+- "@56@0:8d16d24d32d40d48"
+- "@56@0:8f16d20d28@36q44f52"
+- "@60@0:8d16f24@28f36i40q44f52i56"
+- "@64@0:8@16@24@32@40Q48Q56"
+- "@64@0:8@16d24d32d40d48d56"
+- "@64@0:8d16d24@32@40d48@56"
+- "@68@0:8@16@24@32@40d48d56B64"
+- "@68@0:8f16q20d28i36f40@44@52d60"
+- "@72@0:8d16d24d32d40d48d56d64"
+- "@72@0:8d16i24d28i36i40i44d48i56i60B64B68"
+- "@80@0:8@16d24d32d40d48d56@64@72"
+- "@96@0:8@16@24@32@40@48@56@64@72@80@88"
+- "@?"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8@?16"
+- "B24@0:8^@16"
+- "B24@0:8d16"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@0:8^@16^@24"
+- "B36@0:8@16B24^@28"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16^@24^@32"
+- "B56@0:8@16@24@32d40^@48"
+- "EventBundle has no associated visit, using HealthKit workout location=%{sensitive}@, workout=%{public}@"
+- "I"
+- "I16@0:8"
+- "JSONObjectWithData:options:error:"
+- "LoiLocation"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "PCAlgorithms"
+- "PCAlgorithmsCommonUtils"
+- "PCAlgorithmsConfig"
+- "PCCalendarAssociatedVisit"
+- "PCCalendarProbableVisit"
+- "PCCalendarVisitPredictor"
+- "PCCandidateVisitData"
+- "PCCluster"
+- "PCClusterMetadata"
+- "PCClusteringManager"
+- "PCConstraintsWeighting"
+- "PCConstraintsWeightingUtils"
+- "PCContextAnnotationUtilities"
+- "PCCullingLogic"
+- "PCDictionaryEncoder"
+- "PCDistanceWeightingConfig"
+- "PCDynamicsScaleFactorEstimator"
+- "PCDynamicsUtils"
+- "PCDynamicsWeighting"
+- "PCDynamicsWeightingConfig"
+- "PCDynamicsWindowContext"
+- "PCEmbedding"
+- "PCEmbeddingDistanceCalculator"
+- "PCEvent"
+- "PCEventBundle"
+- "PCEventVisit"
+- "PCEventWorkout"
+- "PCExtensions"
+- "PCHDBSCANClustering"
+- "PCHomeKitPredictor"
+- "PCLatLon"
+- "PCLocationDirectionEstimatorConfig"
+- "PCLocationOnlyDirectionScaleFactorEstimator"
+- "PCLocationUtils"
+- "PCLocationsWindow"
+- "PCLoggingUtils"
+- "PCMapsViewedPlacesPredictor"
+- "PCMergeResult"
+- "PCNeuralNetworkUtilities"
+- "PCObjectZipper"
+- "PCObservedSpeedETAEstimator"
+- "PCObservedSpeedETAEstimatorConfig"
+- "PCOutOfPatternLogic"
+- "PCPAlgorithmState"
+- "PCPApplyState"
+- "PCPCalendarEvent"
+- "PCPClusterEmbedding"
+- "PCPClusterEmbeddingActivity"
+- "PCPClusterEmbeddingLocation"
+- "PCPClusterEmbeddingTime"
+- "PCPClusterPhenotype"
+- "PCPComputeInterruptRequest"
+- "PCPComputeRequest"
+- "PCPHealthKitWorkout"
+- "PCPHomeKitHome"
+- "PCPInputSignals"
+- "PCPInteractionRecord"
+- "PCPLifecycleEvent"
+- "PCPLocation"
+- "PCPLocationHistory"
+- "PCPLocationOfInterest"
+- "PCPLocationWithTimestamp"
+- "PCPMapItem"
+- "PCPMapsActiveNavigation"
+- "PCPMapsHistoricalNavigation"
+- "PCPMapsViewedPlace"
+- "PCPMotionActivity"
+- "PCPParkedCar"
+- "PCPPredictRequest"
+- "PCPPredictedContext"
+- "PCPPredictedContextAnalytics"
+- "PCPPredictedContextDate"
+- "PCPPredictedContextDateInterval"
+- "PCPPredictedContextLocation"
+- "PCPPredictedContextResult"
+- "PCPPredictedContextSource"
+- "PCPPredictedContextTransition"
+- "PCPPredictedContextTransport"
+- "PCPPredictedContextWorkout"
+- "PCPRetrieveState"
+- "PCPRolledLoiAnalytics"
+- "PCPRolledLoiKeyValuePair"
+- "PCPSource"
+- "PCPTransition"
+- "PCPVisit"
+- "PCPWorkout"
+- "PCPWorkoutCluster"
+- "PCParkedCarLocationPredictor"
+- "PCPropagatedPositionPredictor"
+- "PCRasterBin"
+- "PCScheduledTravelPredictor"
+- "PCTime"
+- "PCTimeTagInterval"
+- "PCTimeZoneManager"
+- "PCTransitionPredictionInfo"
+- "PCTravelPredictor"
+- "PCVisitHistoryPredictorConfig"
+- "PCWorkoutAnnotationManager"
+- "PCWorkoutPrediction"
+- "PCWorkoutPredictionAlgorithm"
+- "PCXYZCoordinate"
+- "PredictionCluster"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Q32@0:8@16@24"
+- "Q32@0:8d16d24"
+- "Q40@0:8@16@24@32"
+- "Q48@0:8@16@24@32@40"
+- "StringAsCompletionStatus:"
+- "StringAsContextType:"
+- "StringAsInteractionCommand:"
+- "StringAsLocationReferenceFrame:"
+- "StringAsMotionActivityConfidence:"
+- "StringAsMotionActivityType:"
+- "StringAsPlaceType:"
+- "StringAsPredictedContextSource:"
+- "StringAsSessionLocationType:"
+- "StringAsStatus:"
+- "StringAsSwimmingLocationType:"
+- "StringAsTransportMode:"
+- "StringAsType:"
+- "StringAsWorkoutLocationType:"
+- "T#,R"
+- "T@\"<PCDynamicsScaleFactorEstimator>\",&,N,V_directionScaleFactorEstimator"
+- "T@\"<PCDynamicsScaleFactorEstimator>\",&,N,V_etaScaleFactorEstimator"
+- "T@\"NSArray\",&,N,V_events"
+- "T@\"NSArray\",&,N,V_predictedTransports"
+- "T@\"NSArray\",&,N,V_subBundleIDs"
+- "T@\"NSArray\",&,N,V_subHKObjectIDs"
+- "T@\"NSArray\",&,N,V_subSuggestionIDs"
+- "T@\"NSArray\",&,N,V_subSuggestionIDsBeforePruning"
+- "T@\"NSArray\",&,N,V_transports"
+- "T@\"NSArray\",&,V_oneHotEncodedLois"
+- "T@\"NSArray\",R,N,V_objects"
+- "T@\"NSArray\",R,N,V_others"
+- "T@\"NSArray\",R,N,V_sorted"
+- "T@\"NSData\",&,N,V_algorithmState"
+- "T@\"NSData\",&,N,V_algorithmStateWorkouts"
+- "T@\"NSData\",&,N,V_hkObjectUUID"
+- "T@\"NSData\",&,N,V_identifier"
+- "T@\"NSData\",&,N,V_loiId"
+- "T@\"NSData\",&,N,V_loiIdentifier"
+- "T@\"NSData\",&,N,V_visitIdentifierDestination"
+- "T@\"NSData\",&,N,V_visitIdentifierOrigin"
+- "T@\"NSData\",C,N,V_loiIdentifier"
+- "T@\"NSData\",C,N,V_visitIdentifier"
+- "T@\"NSDate\",&,N,V_endDate"
+- "T@\"NSDate\",&,N,V_firstCreationDate"
+- "T@\"NSDate\",&,N,V_startDate"
+- "T@\"NSDate\",R,N,V_creationDate"
+- "T@\"NSDate\",R,N,V_endDate"
+- "T@\"NSDate\",R,N,V_startDate"
+- "T@\"NSDateInterval\",&,N,V_dateInterval"
+- "T@\"NSDictionary\",&,N,V_activityContextEmbedding"
+- "T@\"NSDictionary\",&,N,V_activityTypeHistogram"
+- "T@\"NSDictionary\",&,N,V_combinedPlaceTypeHistogram"
+- "T@\"NSDictionary\",&,N,V_condensedRecords"
+- "T@\"NSDictionary\",&,N,V_dayOfWeekHistogram"
+- "T@\"NSDictionary\",&,N,V_enclosingPlaceNameHistogram"
+- "T@\"NSDictionary\",&,N,V_locationContextEmbedding"
+- "T@\"NSDictionary\",&,N,V_phenotype"
+- "T@\"NSDictionary\",&,N,V_placeNameHistogram"
+- "T@\"NSDictionary\",&,N,V_timeContextEmbedding"
+- "T@\"NSDictionary\",&,N,V_timeTagHistogram"
+- "T@\"NSDictionary\",&,N,V_timeZoneRecords"
+- "T@\"NSDictionary\",&,N,V_weekOfYearHistogram"
+- "T@\"NSDictionary\",&,N,V_weights"
+- "T@\"NSMutableArray\",&,N,V_calendarEvents"
+- "T@\"NSMutableArray\",&,N,V_clusters"
+- "T@\"NSMutableArray\",&,N,V_embeddingIdentifiers"
+- "T@\"NSMutableArray\",&,N,V_embeddingIdentifiersWithPhenotypes"
+- "T@\"NSMutableArray\",&,N,V_embeddings"
+- "T@\"NSMutableArray\",&,N,V_homeKitHomes"
+- "T@\"NSMutableArray\",&,N,V_locationHistorys"
+- "T@\"NSMutableArray\",&,N,V_locationOfInterests"
+- "T@\"NSMutableArray\",&,N,V_mapsHistoricalNavigations"
+- "T@\"NSMutableArray\",&,N,V_mapsViewedPlaces"
+- "T@\"NSMutableArray\",&,N,V_motionActivitys"
+- "T@\"NSMutableArray\",&,N,V_predictedContextLocations"
+- "T@\"NSMutableArray\",&,N,V_predictedContextTransitions"
+- "T@\"NSMutableArray\",&,N,V_predictedContextTransports"
+- "T@\"NSMutableArray\",&,N,V_predictedContextWorkouts"
+- "T@\"NSMutableArray\",&,N,V_predictedTransports"
+- "T@\"NSMutableArray\",&,N,V_propagatedLocations"
+- "T@\"NSMutableArray\",&,N,V_rolledLoiAnalyticsDictionarys"
+- "T@\"NSMutableArray\",&,N,V_sources"
+- "T@\"NSMutableArray\",&,N,V_transitions"
+- "T@\"NSMutableArray\",&,N,V_visits"
+- "T@\"NSMutableArray\",&,N,V_workouts"
+- "T@\"NSMutableArray\",&,V_dayOfWeekArray"
+- "T@\"NSMutableArray\",&,V_dayOfWeekCosArray"
+- "T@\"NSMutableArray\",&,V_dayOfWeekSinArray"
+- "T@\"NSMutableArray\",&,V_locationAtTimestepArray"
+- "T@\"NSMutableArray\",&,V_loiAtTimestepArray"
+- "T@\"NSMutableArray\",&,V_ordinalLoiLabels"
+- "T@\"NSMutableArray\",&,V_timeOfDayCosArray"
+- "T@\"NSMutableArray\",&,V_timeOfDaySinArray"
+- "T@\"NSMutableArray\",&,V_timestepCFAbsArray"
+- "T@\"NSMutableDictionary\",&,N,V_candidateLoiToHomeMap"
+- "T@\"NSMutableDictionary\",&,N,V_candidateLoiToLocationMap"
+- "T@\"NSMutableDictionary\",&,N,V_candidateLoiToWorkMap"
+- "T@\"NSMutableDictionary\",&,N,V_candidateVisitIndicies"
+- "T@\"NSMutableDictionary\",&,N,V_loiProbs"
+- "T@\"NSMutableDictionary\",&,N,V_loiSources"
+- "T@\"NSMutableDictionary\",&,N,V_loiToHomeMap"
+- "T@\"NSMutableDictionary\",&,N,V_loiToLocationMap"
+- "T@\"NSMutableDictionary\",&,N,V_loiToWorkMap"
+- "T@\"NSMutableDictionary\",&,N,V_visitIndicies"
+- "T@\"NSNumber\",&,V_currentComputeDate"
+- "T@\"NSNumber\",&,V_lastComputeDate"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_queue"
+- "T@\"NSSet\",&,N,V_sources"
+- "T@\"NSString\",&,N,V_activityType"
+- "T@\"NSString\",&,N,V_bundleType"
+- "T@\"NSString\",&,N,V_calendarId"
+- "T@\"NSString\",&,N,V_category"
+- "T@\"NSString\",&,N,V_configName"
+- "T@\"NSString\",&,N,V_currentTimeZoneAbbreviation"
+- "T@\"NSString\",&,N,V_dominantSourceBundleIdentifier"
+- "T@\"NSString\",&,N,V_enclosingArea"
+- "T@\"NSString\",&,N,V_eventId"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_identifierFromProvider"
+- "T@\"NSString\",&,N,V_locationTitle"
+- "T@\"NSString\",&,N,V_placeName"
+- "T@\"NSString\",&,N,V_placeType"
+- "T@\"NSString\",&,N,V_poiCategory"
+- "T@\"NSString\",&,N,V_sourceBundleIdentifier"
+- "T@\"NSString\",&,N,V_titleOfEvent"
+- "T@\"NSString\",&,N,V_workoutType"
+- "T@\"NSString\",&,V_visitLoiString"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,&,N,V_timeString"
+- "T@\"NSString\",R,&,N,V_timeZone"
+- "T@\"NSString\",R,C"
+- "T@\"NSTimeZone\",&,N,V_candidateTimeZone"
+- "T@\"NSTimeZone\",&,N,V_timeZone"
+- "T@\"NSUUID\",&,N,V_bundleIdentifier"
+- "T@\"NSUUID\",&,N,V_eventIdentifier"
+- "T@\"NSUUID\",&,N,V_hkObjectIdentifier"
+- "T@\"NSUUID\",&,N,V_suggestionID"
+- "T@\"NSUUID\",R,N,V_bundleIdentifier"
+- "T@\"NSUUID\",R,N,V_identifier"
+- "T@\"PCAlgorithmsConfig\",&,N,V_config"
+- "T@\"PCClusterMetadata\",&,N,V_clusterMetadata"
+- "T@\"PCClusteringManager\",&,N,V_clusteringManager"
+- "T@\"PCDistanceWeightingConfig\",R,N,V_config"
+- "T@\"PCDynamicsWeighting\",&,N,V_dynamicsWeighting"
+- "T@\"PCDynamicsWeightingConfig\",&,N,V_dynamicsConfig"
+- "T@\"PCEventVisit\",&,N,V_routineEvent"
+- "T@\"PCEventWorkout\",&,N,V_workoutEvent"
+- "T@\"PCLatLon\",&,N,V_modelCentroid"
+- "T@\"PCLocationDirectionEstimatorConfig\",&,N,V_cfg"
+- "T@\"PCLocationsWindow\",R,N,V_locationWindow"
+- "T@\"PCObservedSpeedETAEstimatorConfig\",&,N,V_cfg"
+- "T@\"PCOutOfPatternLogic\",&,N,V_outOfPatternLogic"
+- "T@\"PCPAlgorithmState\",&,N,V_inState"
+- "T@\"PCPAlgorithmState\",&,N,V_outState"
+- "T@\"PCPApplyState\",&,N,V_applyStateEvent"
+- "T@\"PCPCalendarEvent\",&,N,V_calendarEvent"
+- "T@\"PCPClusterEmbeddingActivity\",&,N,V_activityContext"
+- "T@\"PCPClusterEmbeddingLocation\",&,N,V_locationContext"
+- "T@\"PCPClusterEmbeddingTime\",&,N,V_timeContext"
+- "T@\"PCPClusterPhenotype\",&,N,V_clusterPhenotype"
+- "T@\"PCPComputeInterruptRequest\",&,N,V_interruptRequest"
+- "T@\"PCPComputeRequest\",&,N,V_computeEvent"
+- "T@\"PCPHealthKitWorkout\",&,N,V_healthKitWorkout"
+- "T@\"PCPHomeKitHome\",&,N,V_homekitHome"
+- "T@\"PCPInputSignals\",&,N,V_input"
+- "T@\"PCPLifecycleEvent\",&,N,V_lifecycleEvent"
+- "T@\"PCPLocation\",&,N,V_destinationLocation"
+- "T@\"PCPLocation\",&,N,V_location"
+- "T@\"PCPLocation\",&,N,V_originLocation"
+- "T@\"PCPLocation\",&,N,V_placeLocation"
+- "T@\"PCPLocation\",&,N,V_workoutLocationStart"
+- "T@\"PCPLocation\",&,N,V_workoutStartLocation"
+- "T@\"PCPLocationHistory\",R,N,V_startFix"
+- "T@\"PCPLocationOfInterest\",&,N,V_locationOfInterest"
+- "T@\"PCPLocationWithTimestamp\",&,N,V_propagatedLocation"
+- "T@\"PCPMapItem\",&,N,V_placeMapItem"
+- "T@\"PCPMapsActiveNavigation\",&,N,V_mapsActiveNavigation"
+- "T@\"PCPMapsViewedPlace\",&,N,V_mapsViewedPlace"
+- "T@\"PCPMotionActivity\",&,N,V_predominantMotionActivity"
+- "T@\"PCPParkedCar\",&,N,V_parkedCar"
+- "T@\"PCPPredictRequest\",&,N,V_predictEvent"
+- "T@\"PCPPredictedContext\",&,N,V_predictedContext"
+- "T@\"PCPPredictedContextAnalytics\",&,N,V_predictedContextAnalytics"
+- "T@\"PCPPredictedContextDate\",&,N,V_endDate"
+- "T@\"PCPPredictedContextDate\",&,N,V_startDate"
+- "T@\"PCPPredictedContextDateInterval\",&,N,V_dateInterval"
+- "T@\"PCPPredictedContextResult\",&,N,V_result"
+- "T@\"PCPPredictedContextSource\",&,N,V_predictedContextSource"
+- "T@\"PCPRetrieveState\",&,N,V_retrieveStateEvent"
+- "T@\"PCPRolledLoiAnalytics\",&,N,V_analytics"
+- "T@\"PCPVisit\",&,N,V_visit"
+- "T@\"PCTime\",&,N,V_time"
+- "T@\"PCVisitHistoryPredictor\",&,N,V_visitHistoryPred"
+- "T@\"PCVisitHistoryPredictorConfig\",&,N,V_config"
+- "T@\"PCVisitHistoryPredictorConfig\",&,N,V_visitHistoryConfig"
+- "T@\"PCWorkoutPrediction\",&,N,V_workoutPrediction"
+- "T@\"PCWorkoutPredictionAlgorithm\",&,N,V_predictionAlgorithm"
+- "T@\"PCXYZCoordinate\",&,N,V_coordinate"
+- "T@\"_TtC28PCNeuralNetworkSupportBridge16PCNeuralNetModel\",&,N,V_candidateModel"
+- "T@\"_TtC28PCNeuralNetworkSupportBridge16PCNeuralNetModel\",&,N,V_model"
+- "TB,N"
+- "TB,N,V_allowDuplicatedWorkouts"
+- "TB,N,V_computeRequested"
+- "TB,N,V_fromFirstParty"
+- "TB,N,V_isAwaitingRetrain"
+- "TB,N,V_isHome"
+- "TB,N,V_isWeekend"
+- "TB,N,V_isWork"
+- "TB,N,V_logTrainingDebugOutputs"
+- "TB,N,V_loiIsMissingFromCurrentVisitHistory"
+- "TB,N,V_primary"
+- "TB,N,V_receivedInterruptRequest"
+- "TB,N,V_trainOnGpu"
+- "TB,N,V_useCalendarVisitPredictor"
+- "TB,N,V_useHomeKitPredictor"
+- "TB,N,V_useMapsViewedPlacesPredictor"
+- "TB,N,V_useParkedCarLocationPredictor"
+- "TB,N,V_useProbabilityCuller"
+- "TB,N,V_useProbabilityModifier"
+- "TB,N,V_usePropagatedPosition"
+- "TB,N,V_useScheduledTravelPredictor"
+- "TB,N,V_useVisitHistoryPredictor"
+- "TB,R"
+- "TB,R,N"
+- "TI,N,V_weekOfYear"
+- "TQ,N,V_bundleSubType"
+- "TQ,N,V_bundleSuperType"
+- "TQ,N,V_clusterPhenotypeMinimumCountThreshold"
+- "TQ,N,V_dateReferenceTag"
+- "TQ,N,V_embeddingType"
+- "TQ,N,V_interfaceType"
+- "TQ,N,V_mapItemID"
+- "TQ,N,V_mapItemMUID"
+- "TQ,N,V_minClusterSize"
+- "TQ,N,V_minPoints"
+- "TQ,N,V_minimumCountThreshold"
+- "TQ,N,V_placeSource"
+- "TQ,N,V_timetag"
+- "TQ,N,V_workoutActivityType"
+- "TQ,R"
+- "TQ,R,N,V_category"
+- "TQ,R,N,V_provider"
+- "TQ,R,N,V_timeTag"
+- "Td,N,V_aoiVisitLabelConfidentThreshold"
+- "Td,N,V_binEnd"
+- "Td,N,V_binStart"
+- "Td,N,V_confidence"
+- "Td,N,V_confidenceInterval"
+- "Td,N,V_currentTimeCFAbsolute"
+- "Td,N,V_date"
+- "Td,N,V_dayOfWeekCos"
+- "Td,N,V_dayOfWeekSin"
+- "Td,N,V_durationInSec"
+- "Td,N,V_endTimeCFAbsolute"
+- "Td,N,V_entryTime"
+- "Td,N,V_entryTimeCFAbsolute"
+- "Td,N,V_entryUnc"
+- "Td,N,V_etaPenaltyRatioRange"
+- "Td,N,V_etaPenaltyTriggerRatio"
+- "Td,N,V_evidence"
+- "Td,N,V_exitTime"
+- "Td,N,V_exitTimeCFAbsolute"
+- "Td,N,V_exitUnc"
+- "Td,N,V_fractionOfCalDuration"
+- "Td,N,V_fullEffectTimeSec"
+- "Td,N,V_lastVisitTimeCFAbsolute"
+- "Td,N,V_latLongCircularStd"
+- "Td,N,V_latitudeDeg"
+- "Td,N,V_locationHorizontalUncertaintyMeters"
+- "Td,N,V_locationLatitudeDeg"
+- "Td,N,V_locationLongitudeDeg"
+- "Td,N,V_loiEncodingTimeoutSeconds"
+- "Td,N,V_longitudeDeg"
+- "Td,N,V_maxLocationUncertaintyM"
+- "Td,N,V_maximumWatchPhoneVisitDistance"
+- "Td,N,V_minDistanceToDestinationM"
+- "Td,N,V_minReliableSpeedM_Sec"
+- "Td,N,V_minTravelTimeSec"
+- "Td,N,V_minimumRatioThreshold"
+- "Td,N,V_normalizedDuration"
+- "Td,N,V_parkTimeCFAbsolute"
+- "Td,N,V_probability"
+- "Td,N,V_startTimeCFAbsolute"
+- "Td,N,V_stopTimeCFAbsolute"
+- "Td,N,V_timeCFAbsolute"
+- "Td,N,V_timeOfDayCircularStd"
+- "Td,N,V_timeOfDayCos"
+- "Td,N,V_timeOfDaySin"
+- "Td,N,V_timestepSizeMinutes"
+- "Td,N,V_travelTime"
+- "Td,N,V_usageTimeCFAbsolute"
+- "Td,N,V_visitFrequency"
+- "Td,N,V_visitLabelHighConfidenceThreshold"
+- "Td,N,V_visitLabelMediumConfidenceThreshold"
+- "Td,N,V_visitMinimumIntersectionWithActivityAbsoluteTime"
+- "Td,N,V_visitProbabilityThreshold"
+- "Td,N,V_x"
+- "Td,N,V_y"
+- "Td,N,V_z"
+- "Td,R,N,V_fullEffectTimeSec"
+- "Td,R,N,V_maxLocationUncertaintyM"
+- "Td,R,N,V_minDistanceToDestinationM"
+- "Td,R,N,V_minReliableDistanceM"
+- "Td,R,N,V_minTravelTimeSec"
+- "Td,R,N,V_rampWeight"
+- "Td,R,N,V_startTime"
+- "Td,R,N,V_timestamp"
+- "Td,R,N,V_travelTimeSec"
+- "Td,V_locationHorizontalUncertaintyMeters"
+- "Td,V_locationLatitudeDeg"
+- "Td,V_locationLongitudeDeg"
+- "Td,V_visitEntryTime"
+- "Td,V_visitEntryUnc"
+- "Td,V_visitExitTime"
+- "Td,V_visitExitUnc"
+- "Td,V_visitProbability"
+- "Ti,N,V_batchSize"
+- "Ti,N,V_completionStatus"
+- "Ti,N,V_contextType"
+- "Ti,N,V_epochs"
+- "Ti,N,V_hiddenLayers"
+- "Ti,N,V_inputSequenceLength"
+- "Ti,N,V_interactionCommand"
+- "Ti,N,V_locationReferenceFrame"
+- "Ti,N,V_mapItemPlaceType"
+- "Ti,N,V_motionActivityConfidence"
+- "Ti,N,V_motionActivityType"
+- "Ti,N,V_numVisitsThreshold"
+- "Ti,N,V_outSteps"
+- "Ti,N,V_placeType"
+- "Ti,N,V_placeUserType"
+- "Ti,N,V_predictedContextSource"
+- "Ti,N,V_sessionLocationType"
+- "Ti,N,V_status"
+- "Ti,N,V_swimmingLocationType"
+- "Ti,N,V_transportMode"
+- "Ti,N,V_type"
+- "Ti,N,V_workoutLocationType"
+- "Ti,N,V_workoutSessionLocationType"
+- "Ti,N,V_workoutSwimmingLocationType"
+- "Ti,V_locationReferenceFrame"
+- "Ti,V_visitEndIdx"
+- "Ti,V_visitStartIdx"
+- "TimestepDataset"
+- "Tq,N,V_configType"
+- "Tq,V_visitLoiIdx"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_HDBSCAN"
+- "_TtC28PCNeuralNetworkSupportBridge15NeuralNetConfig"
+- "_TtC28PCNeuralNetworkSupportBridge16PCNeuralNetModel"
+- "_TtC28PCNeuralNetworkSupportBridge20DataSetFeatureMatrix"
+- "_TtC28PCNeuralNetworkSupportBridge24LCGRandomNumberGenerator"
+- "_TtC28PCNeuralNetworkSupportBridge9DataPoint"
+- "_activityContext"
+- "_activityContextEmbedding"
+- "_activityType"
+- "_activityTypeHistogram"
+- "_addConstraintSourceToBin:loiId:"
+- "_aggregateMergeResults:"
+- "_algorithmState"
+- "_algorithmStateWorkouts"
+- "_allLOIFromBins:"
+- "_allowDuplicatedWorkouts"
+- "_analytics"
+- "_annotateEventBundlesWithStartDate:endDate:allEvents:"
+- "_aoiVisitLabelConfidentThreshold"
+- "_applyStateEvent"
+- "_batchSize"
+- "_binEnd"
+- "_binStart"
+- "_buildWorkoutTypeLocationMapping:"
+- "_bundleEvents:"
+- "_bundleEvents:startDate:endDate:"
+- "_bundleIDs"
+- "_bundleIdentifier"
+- "_bundleSubType"
+- "_bundleSuperType"
+- "_bundleType"
+- "_cachedClusters"
+- "_calculateLoiProbabilitiesWithLocation:forEvent:usingHistory:andCalendar:atTime:"
+- "_calculateOverlapFraction:betweenVisit:andCalendar:"
+- "_calculateRasterizationWindowWithVisits:transitions:currentTimeInSec:windowInHours:windowStartOut:windowEndOut:"
+- "_calendarEvent"
+- "_calendarEvents"
+- "_calendarId"
+- "_candidateLoiToHomeMap"
+- "_candidateLoiToLocationMap"
+- "_candidateLoiToWorkMap"
+- "_candidateModel"
+- "_candidateTimeZone"
+- "_candidateVisitIndicies"
+- "_category"
+- "_cfg"
+- "_clusterMetadata"
+- "_clusterPhenotype"
+- "_clusterPhenotypeMinimumCountThreshold"
+- "_clusteringManager"
+- "_clusters"
+- "_combinedPlaceTypeHistogram"
+- "_completionStatus"
+- "_computeEvent"
+- "_computeRequested"
+- "_condensedRecords"
+- "_confidence"
+- "_confidenceInterval"
+- "_config"
+- "_configName"
+- "_configType"
+- "_contextType"
+- "_convertContextvalueToString:forKey:"
+- "_coordinate"
+- "_createDateIntervalStartingAt:probability:embeddings:"
+- "_createEmbeddingFromVisitEvent:atTime:"
+- "_createEventFromVisit:loiMap:"
+- "_createEventFromWorkout:"
+- "_createPredictionFromCluster:probability:atTime:embeddings:"
+- "_createSourcesFromEmbeddings:"
+- "_creationDate"
+- "_currentComputeDate"
+- "_currentContextPredictionFromMergeResults:currentLoiIdentifier:currentTime:"
+- "_currentTimeCFAbsolute"
+- "_currentTimeZoneAbbreviation"
+- "_date"
+- "_dateInterval"
+- "_dateReferenceTag"
+- "_dayOfWeekArray"
+- "_dayOfWeekCos"
+- "_dayOfWeekCosArray"
+- "_dayOfWeekHistogram"
+- "_dayOfWeekSin"
+- "_dayOfWeekSinArray"
+- "_decodeClustersFromProtobuf"
+- "_decodeEmbeddingsFromProtobuf"
+- "_destinationLocation"
+- "_directionScaleFactorEstimator"
+- "_distributeProbabilityToBins:loiId:fullProb:effectiveStart:rampUpEnd:rampDownStart:effectiveEnd:sources:transports:"
+- "_dominantSourceBundleIdentifier"
+- "_dominantSourceBundleIdentifierFromEvents:"
+- "_durationInSec"
+- "_dynamicsConfig"
+- "_dynamicsWeighting"
+- "_earliestSignificantMergeResultAfterTime:excludingLoiId:inMergeResults:confidenceThreshold:"
+- "_embeddingIdentifiers"
+- "_embeddingIdentifiersWithPhenotypes"
+- "_embeddingType"
+- "_embeddings"
+- "_enclosingArea"
+- "_enclosingPlaceNameHistogram"
+- "_endDate"
+- "_endTimeCFAbsolute"
+- "_entryTime"
+- "_entryTimeCFAbsolute"
+- "_entryUnc"
+- "_eofReached"
+- "_epochs"
+- "_estimatedTransitionDurationFromTransitions:originVisitId:destinationVisitId:"
+- "_estimatedTransitionDurationInSecondsForDistance:drivingProbability:"
+- "_estimatedTransportsFromTransitions:originVisitId:destinationVisitId:"
+- "_etaPenaltyRatioRange"
+- "_etaPenaltyTriggerRatio"
+- "_etaScaleFactorEstimator"
+- "_eventId"
+- "_eventIdentifier"
+- "_events"
+- "_evidence"
+- "_exitTime"
+- "_exitTimeCFAbsolute"
+- "_exitUnc"
+- "_extractSourcesLogString:"
+- "_extractTransportString:"
+- "_fileHandle"
+- "_finalizeMergeResults:currentTime:windowEndTime:currentContext:currentExitTime:currentExitUnc:"
+- "_findAssociatedVisits:forCalendarEvent:usingVisitHistory:"
+- "_firstCreationDate"
+- "_formPrediction:fromLocationCalEvent:probability:currentTime:"
+- "_formPrediction:fromNoLocationCalEvent:probableVisit:currentTime:"
+- "_formPredictionCommon:begin:end:probability:currentTime:"
+- "_fractionOfCalDuration"
+- "_fromFirstParty"
+- "_fullEffectTimeSec"
+- "_generateClustersFromBundles:"
+- "_getClusterFrom:withEmbeddings:andCreationDate:"
+- "_getDistanceMatrixFrom:"
+- "_has"
+- "_hasUserWorkedOutForActivityType:nearCurrentVisit:workoutTypeLocationMap:"
+- "_hdbscanClustering"
+- "_healthKitWorkout"
+- "_hiddenLayers"
+- "_hkObjectIdentifier"
+- "_hkObjectUUID"
+- "_homeKitHomes"
+- "_homeWorkScoreAnchorsX"
+- "_homekitHome"
+- "_identifier"
+- "_identifierFromProvider"
+- "_inState"
+- "_initVisitHistoryAndOutOfPattern"
+- "_input"
+- "_inputSequenceLength"
+- "_insertTransitionPredictionWithNextResult:currentExitTime:currentExitUnc:transitionInfo:mergeResults:"
+- "_interactionCommand"
+- "_interfaceType"
+- "_interruptRequest"
+- "_isAwaitingRetrain"
+- "_isGeneratedCurrentContext:"
+- "_isHome"
+- "_isWeekend"
+- "_isWork"
+- "_isWorkoutTypeAlreadyPredicted:inPredictions:"
+- "_lastComputeDate"
+- "_lastVisitTimeCFAbsolute"
+- "_latLongCircularStd"
+- "_latitudeDeg"
+- "_lifecycleEvent"
+- "_location"
+- "_locationAtTimestepArray"
+- "_locationContext"
+- "_locationContextEmbedding"
+- "_locationHistorys"
+- "_locationHorizontalUncertaintyMeters"
+- "_locationIsValid:"
+- "_locationLatitudeDeg"
+- "_locationLongitudeDeg"
+- "_locationOfInterest"
+- "_locationOfInterests"
+- "_locationReferenceFrame"
+- "_locationTitle"
+- "_locationWindow"
+- "_logMergeResults:withDescription:"
+- "_logTrainingDebugOutputs"
+- "_loiAtTimestepArray"
+- "_loiEncodingTimeoutSeconds"
+- "_loiId"
+- "_loiIdentifier"
+- "_loiIsMissingFromCurrentVisitHistory"
+- "_loiProbs"
+- "_loiSources"
+- "_loiToHomeMap"
+- "_loiToLocationMap"
+- "_loiToWorkMap"
+- "_longitudeDeg"
+- "_mapItemID"
+- "_mapItemMUID"
+- "_mapItemPlaceType"
+- "_mapsActiveNavigation"
+- "_mapsHistoricalNavigations"
+- "_mapsViewedPlace"
+- "_mapsViewedPlaces"
+- "_maxLocationUncertaintyM"
+- "_maximumWatchPhoneVisitDistance"
+- "_minClusterSize"
+- "_minDistanceToDestinationM"
+- "_minPoints"
+- "_minReliableDistanceM"
+- "_minReliableSpeedM_Sec"
+- "_minTravelTimeSec"
+- "_minimumCountThreshold"
+- "_minimumRatioThreshold"
+- "_minimumStayAtCurrentContextInSec"
+- "_model"
+- "_modelCentroid"
+- "_motionActivityConfidence"
+- "_motionActivityType"
+- "_motionActivitys"
+- "_movingAverageForSeries:windowSize:loiIdForPadding:currentContextId:bins:"
+- "_normalizedDuration"
+- "_numVisitsThreshold"
+- "_objects"
+- "_oneHotEncodedLois"
+- "_ordinalLoiLabels"
+- "_originLocation"
+- "_otherScoreAnchorsX"
+- "_others"
+- "_outOfPatternLogic"
+- "_outState"
+- "_outSteps"
+- "_parkTimeCFAbsolute"
+- "_parkedCar"
+- "_parseLocationList:intoArray:"
+- "_phenotype"
+- "_piecewiseLinearMap:anchorsX:anchorsY:minValue:maxValue:"
+- "_placeLocation"
+- "_placeMapItem"
+- "_placeName"
+- "_placeNameHistogram"
+- "_placeSource"
+- "_placeType"
+- "_placeUserType"
+- "_poiCategory"
+- "_predictEvent"
+- "_predictWorkoutsForVisit:atTime:"
+- "_predictedContext"
+- "_predictedContextAnalytics"
+- "_predictedContextLocations"
+- "_predictedContextSource"
+- "_predictedContextTransitions"
+- "_predictedContextTransports"
+- "_predictedContextWorkouts"
+- "_predictedTransitionInfoFromHistoricalTransitions:originVisitId:destinationVisitId:"
+- "_predictedTransports"
+- "_predictionAlgorithm"
+- "_predominantMotionActivity"
+- "_primary"
+- "_probability"
+- "_probabilityAnchorsY"
+- "_probabilitySeriesFromBins:loiId:"
+- "_propagatedLocation"
+- "_propagatedLocations"
+- "_provider"
+- "_queue"
+- "_rampWeight"
+- "_receivedInterruptRequest"
+- "_removeExistingTransitionPredictionsFromMergeResults:beforeMergeResult:"
+- "_requestRetrainIfNeededWithReason:"
+- "_result"
+- "_retrieveStateEvent"
+- "_rolledLoiAnalyticsDictionarys"
+- "_routineEvent"
+- "_sessionLocationType"
+- "_setError"
+- "_sortClustersByProbability:"
+- "_sorted"
+- "_sourceBundleIdentifier"
+- "_sources"
+- "_startDate"
+- "_startFix"
+- "_startTime"
+- "_startTimeCFAbsolute"
+- "_status"
+- "_stopTimeCFAbsolute"
+- "_subBundleIDs"
+- "_subHKObjectIDs"
+- "_subSuggestionIDs"
+- "_subSuggestionIDsBeforePruning"
+- "_subselectEmbeddings:fromCluster:"
+- "_suggestionID"
+- "_swimmingLocationType"
+- "_time"
+- "_timeCFAbsolute"
+- "_timeContext"
+- "_timeContextEmbedding"
+- "_timeOfDayCircularStd"
+- "_timeOfDayCos"
+- "_timeOfDayCosArray"
+- "_timeOfDaySin"
+- "_timeOfDaySinArray"
+- "_timeString"
+- "_timeTag"
+- "_timeTagHistogram"
+- "_timeZone"
+- "_timeZoneRecords"
+- "_timestamp"
+- "_timestepCFAbsArray"
+- "_timestepSizeMinutes"
+- "_timetag"
+- "_titleOfEvent"
+- "_trainOnGpu"
+- "_transitionEstimationInfoWithNextResult:currentLoiIdentifier:transitionHistory:loiToLocation:"
+- "_transitions"
+- "_transportMode"
+- "_transports"
+- "_travelTime"
+- "_travelTimeSec"
+- "_trimResults:currentTime:windowEndTime:"
+- "_type"
+- "_updateActivityInfoForPrediction:fromActivityType:"
+- "_updateBins:withFilteredSeries:loiId:"
+- "_updateExitTimeAndUncertaintyOfCurrentContextWithNextResult:currentTime:defaultDurationAtCurrentContext:transitionDuration:inOutExitTime:inOutExitUnc:isGeneratedCurrentContext:"
+- "_updateProtobufCluster:withNewFeatures:"
+- "_usageTimeCFAbsolute"
+- "_useCalendarVisitPredictor"
+- "_useHomeKitPredictor"
+- "_useMapsViewedPlacesPredictor"
+- "_useParkedCarLocationPredictor"
+- "_useProbabilityCuller"
+- "_useProbabilityModifier"
+- "_usePropagatedPosition"
+- "_useScheduledTravelPredictor"
+- "_useVisitHistoryPredictor"
+- "_visit"
+- "_visitEndIdx"
+- "_visitEntryTime"
+- "_visitEntryUnc"
+- "_visitExitTime"
+- "_visitExitUnc"
+- "_visitFrequency"
+- "_visitHistoryConfig"
+- "_visitHistoryPred"
+- "_visitIdentifier"
+- "_visitIdentifierDestination"
+- "_visitIdentifierOrigin"
+- "_visitIndicies"
+- "_visitLabelHighConfidenceThreshold"
+- "_visitLabelMediumConfidenceThreshold"
+- "_visitLoiIdx"
+- "_visitLoiString"
+- "_visitMinimumIntersectionWithActivityAbsoluteTime"
+- "_visitProbability"
+- "_visitProbabilityThreshold"
+- "_visitStartIdx"
+- "_visits"
+- "_weekOfYear"
+- "_weekOfYearHistogram"
+- "_weights"
+- "_workoutActivityType"
+- "_workoutEvent"
+- "_workoutLocationStart"
+- "_workoutLocationType"
+- "_workoutPrediction"
+- "_workoutSessionLocationType"
+- "_workoutStartLocation"
+- "_workoutSwimmingLocationType"
+- "_workoutType"
+- "_workouts"
+- "_x"
+- "_y"
+- "_z"
+- "abbreviation"
+- "activityContextEmbedding"
+- "adaptMergedClusters:bins:loiToColMap:"
+- "addCalendarEvents:"
+- "addEmbedding:"
+- "addEmbeddingIdentifiers:"
+- "addEmbeddingIdentifiersWithPhenotype:"
+- "addEntriesFromDictionary:"
+- "addEvent:"
+- "addEvents:"
+- "addHomeKitHomes:"
+- "addIndex:"
+- "addLocationHistory:"
+- "addLocationOfInterests:"
+- "addMapsHistoricalNavigation:"
+- "addMapsViewedPlaces:"
+- "addMotionActivity:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addPredictedContextLocations:"
+- "addPredictedContextTransitions:"
+- "addPredictedContextTransport:"
+- "addPredictedContextWorkouts:"
+- "addProbability:forLoiID:withSources:"
+- "addPropagatedLocations:"
+- "addRolledLoiAnalyticsDictionary:"
+- "addSources:"
+- "addTransitions:"
+- "addTransports:"
+- "addVisit:"
+- "addWorkouts:"
+- "adjustedScaleFactorWithOriginalScaleFactor:timeUntilEntrySeconds:"
+- "allKeys"
+- "allObjects"
+- "allValues"
+- "allocWithZone:"
+- "allowDuplicatedWorkouts"
+- "annotateBaseEvents:contextEvents:"
+- "annotateEventBundle:visitEvents:"
+- "annotateEventBundle:withContextEvents:andBaseEventReference:"
+- "aoiVisitLabelConfidentThreshold"
+- "appendBytes:length:"
+- "appendData:"
+- "appendFormat:"
+- "appendString:"
+- "applyAlgorithmState:outError:"
+- "applyMovingAverage:windowSize:currentContextId:"
+- "applySinCosTransform:timeZone:"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "autorelease"
+- "autoupdatingCurrentLocale"
+- "betweenDate:andDate:"
+- "binEnd"
+- "binStart"
+- "boolForKey:"
+- "boolValue"
+- "boundValue:toMin:max:"
+- "buildLoiCoordinateMapFromCandidateDataMap:"
+- "buildMutableArrayCopyOfSwiftBridgedArray:"
+- "buildSimpleMealTagIntervalsForDate:"
+- "buildSimpleTimeTagIntervalsForDate:"
+- "buildTimeTagIntervalsForDate:"
+- "bundleType"
+- "bytes"
+- "calculateCircularStandardDeviation:cosValues:"
+- "calculateCircularStandardDeviationsForCluster:fromEmbeddings:"
+- "calculateCircularStandardDeviationsForClusters:fromEmbeddings:"
+- "calculateClusterProbabilities:embeddings:clusters:"
+- "calculateDistanceBetweenEmbedding:andEmbedding:withCluster:withWeights:"
+- "calculateDistanceBetweenEmbedding:andEmbedding:withWeights:"
+- "calculateDistanceFromFeatures:withWeights:fromEmbedding:toEmbedding:"
+- "calculateGeographicalStandardDeviation:longValues:"
+- "calculateMinDistanceFrom:to:"
+- "calculateProbabilityFromDistance:"
+- "calculateScoreFromFeatures:identifier:"
+- "calculateValidMean:"
+- "calculateVisitValues:endTime:probs:thresholdStartTime:loi:probabilityCalculationMode:probabilityPercentile:startIdx:"
+- "calendarEventsAtIndex:"
+- "calendarEventsCount"
+- "calendarEventsType"
+- "calendarWithIdentifier:"
+- "candidateDataMapFromVisits:"
+- "candidateLoiToHomeMap"
+- "candidateLoiToLocationMap"
+- "candidateLoiToWorkMap"
+- "candidateModel"
+- "candidateTimeZone"
+- "candidateVisitIndicies"
+- "cartesianFromProtoLocation:"
+- "cfg"
+- "class"
+- "cleanCurrentVisitWithMissingData:"
+- "clearCalendarEvents"
+- "clearEmbeddingIdentifiers"
+- "clearEmbeddingIdentifiersWithPhenotypes"
+- "clearHomeKitHomes"
+- "clearLocationHistorys"
+- "clearLocationOfInterests"
+- "clearMapsHistoricalNavigations"
+- "clearMapsViewedPlaces"
+- "clearMotionActivitys"
+- "clearOneofValuesForInteractionCommand"
+- "clearOneofValuesForPredictedContextSource"
+- "clearPredictedContextLocations"
+- "clearPredictedContextTransitions"
+- "clearPredictedContextTransports"
+- "clearPredictedContextWorkouts"
+- "clearPropagatedLocations"
+- "clearRolledLoiAnalyticsDictionarys"
+- "clearSources"
+- "clearTransitions"
+- "clearVisits"
+- "clearWorkouts"
+- "closeFile"
+- "closestHomeLOIFromCandidates:toLocation:"
+- "clusterMetadata"
+- "clusterObjectsFromProtobuf:"
+- "clusterPhenotypeMinimumCountThreshold"
+- "clusteringConfiguration"
+- "clusteringManager"
+- "clusters"
+- "code"
+- "collectStatistics:history:searchesWithVisits:totalGap:totalDuration:timeBlockVisits:timeBlockDurations:timeBlockGaps:timeBlockGapVariances:timeBlockDurationVariances:"
+- "compare:"
+- "completionStatusAsString:"
+- "component:fromDate:"
+- "components:fromDate:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "computeProgressScaleFromCandidateDataMap:lastVisit:currentLocation:"
+- "computeProgressScaleWithLOIs:lastVisit:currentLocation:"
+- "computeScaleForCandidates:locationHistory:motionActivity:currentLocation:currentTime:lastVisitExitTime:isInTransition:"
+- "computeTravelFeasibilityForCandidateDataMap:currentLocation:currentTime:"
+- "computeWithHistory:transitions:locationsOfInterest:homekitHomes:atTime:inTimeZone:withError:"
+- "computeWithInputSignals:outError:"
+- "computeWithLocationHistory:workoutHistory:LOIs:atTime:error:"
+- "computeWithScheduledTravelWithActiveNav:previousNav:"
+- "computeWithViewedPlaces:history:"
+- "condensedRecords"
+- "condensedRecordsFromRecords:"
+- "confidence"
+- "configName"
+- "configType"
+- "conformsToProtocol:"
+- "containsDate:"
+- "containsObject:"
+- "containsValueForKey:"
+- "contextTypeAsString:"
+- "convertBinsToPredSample:loiToColMap:"
+- "convertData:error:"
+- "convertMergeResultToLocation:withLocationMap:"
+- "convertMergeResultToTransition:"
+- "convertToTimestepDataset:currentTime:visitHistory:transitionHistory:startTime:visitIndicies:"
+- "coordinate"
+- "copy"
+- "copyTo:"
+- "copyWithZone:"
+- "cosineSimilarityBetween:and:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createFileAtPath:contents:attributes:"
+- "createHomeKitLocationPredictionWithHome:probability:distanceFromUser:candidateVisits:currentTime:"
+- "createParkedCarLocationPredictionWithCar:probability:distanceFromUser:candidateVisits:currentTime:"
+- "createPredictedContextDateIntervalAtTime:fromCandidateVisits:distanceFromUser:"
+- "createPredictedContextFromPredSequence:timestepSize:currentTime:preds:probabilityCalculationMode:probabilityPercentile:"
+- "cullLowProbabilityVisits:"
+- "currentCalendar"
+- "currentComputeDate"
+- "currentLocale"
+- "currentLocationWithLocationHistory:currentTime:"
+- "currentLocationWithLocationHistory:visitHistory:currentTime:"
+- "d"
+- "d16@0:8"
+- "d24@0:8@16"
+- "d24@0:8d16"
+- "d32@0:8@16@24"
+- "d32@0:8d16@24"
+- "d32@0:8d16^d24"
+- "d32@0:8d16d24"
+- "d40@0:8@16@24@32"
+- "d40@0:8d16d24d32"
+- "d48@0:8@16@24@32@40"
+- "d48@0:8d16d24d32d40"
+- "d56@0:8d16@24@32d40d48"
+- "d56@0:8d16d24d32d40d48"
+- "data"
+- "dataFromUUID:"
+- "dataUsingEncoding:"
+- "dataWithBytes:length:"
+- "dataWithCapacity:"
+- "dataWithData:"
+- "dataWithJSONObject:options:error:"
+- "dateByAddingComponents:toDate:options:"
+- "dateByAddingTimeInterval:"
+- "dateFormatFromTemplate:options:locale:"
+- "dateFormatter"
+- "dateFromComponents:"
+- "dateFromDate:hour:"
+- "dateReferenceTagFromStartDate:endDate:"
+- "dateReferenceTagFromStartDate:endDate:nowDate:timeZone:"
+- "dateReferenceTagFromStartDate:endDate:timeZone:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "dayNameFormatterInEnglish"
+- "dayOfWeekArray"
+- "dayOfWeekCosArray"
+- "dayOfWeekFromDate:"
+- "dayOfWeekFromStartDate:endDate:timeZoneManager:"
+- "dayOfWeekSinArray"
+- "dayOfWeekString:"
+- "dayOfWeekTagFromDate:"
+- "dayOfWeekTagFromStartDate:endDate:"
+- "dealloc"
+- "debugDescription"
+- "decodeArrayOfObjectsOfClass:forKey:"
+- "decodeBoolForKey:"
+- "decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:"
+- "decodeDoubleForKey:"
+- "decodeInt64ForKey:"
+- "decodeIntForKey:"
+- "decodeIntegerForKey:"
+- "decodeLabelWithIndex:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "decodeToDictionary:"
+- "deduplicateSources:"
+- "defaultManager"
+- "describeCategory"
+- "describeCategory:"
+- "describeProvider"
+- "describeProvider:"
+- "description"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithCapacity:"
+- "dictionaryWithObjects:forKeys:count:"
+- "directionFactorFromCosineSimilarity:"
+- "directionScaleFactorEstimator"
+- "displayEndDate"
+- "displayStartDate"
+- "distanceFromLat1:lon1:toLat2:lon2:"
+- "distanceInMetersBetweenLocation:andLocation:"
+- "distanceTo:"
+- "distantFuture"
+- "distantPast"
+- "doubleValue"
+- "duration"
+- "durationInSec"
+- "dynamicsConfig"
+- "dynamicsWeighting"
+- "embeddingIdentifiersAtIndex:"
+- "embeddingIdentifiersCount"
+- "embeddingIdentifiersType"
+- "embeddingIdentifiersWithPhenotypeAtIndex:"
+- "embeddingIdentifiersWithPhenotypeType"
+- "embeddingIdentifiersWithPhenotypes"
+- "embeddingIdentifiersWithPhenotypesCount"
+- "embeddingObjectsFromProtobuf:"
+- "embeddingType"
+- "embeddings"
+- "enclosingArea"
+- "encodeBool:forKey:"
+- "encodeDictionary:"
+- "encodeDouble:forKey:"
+- "encodeInt64:forKey:"
+- "encodeInt:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodeWithLabelEncoderWithArray:completionHandler:"
+- "encodedData"
+- "entryTime"
+- "entryUnc"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "error encoding array %s"
+- "errorWithDomain:code:userInfo:"
+- "estimateTravelTimeForCurrentLocation:destination:"
+- "etaPenaltyRatioRange"
+- "etaPenaltyTriggerRatio"
+- "etaScaleFactorEstimator"
+- "evidence"
+- "exitTime"
+- "exitUnc"
+- "extractActivityContextDistances:embedding2:intoFeatureDistances:"
+- "extractActivityContextEmbedding:"
+- "extractActivityContextEmbeddingFromProtobufEquivalent:"
+- "extractActivityType:"
+- "extractFeatureDistancesBetweenEmbedding:andEmbedding:"
+- "extractFeatureDistancesBetweenEmbedding:andEmbedding:withCluster:"
+- "extractLocationContextDistances:embedding2:intoFeatureDistances:"
+- "extractLocationContextEmbedding:"
+- "extractLocationContextEmbeddingFromProtobufEquivalent:"
+- "extractTimeContextDistances:embedding2:intoFeatureDistances:"
+- "extractTimeContextEmbedding:"
+- "extractTimeContextEmbeddingFromProtobufEquivalent:"
+- "fetchCachedClusters"
+- "fetchClusters"
+- "fetchEmbeddings"
+- "fetchPCPEmbeddings"
+- "fileExistsAtPath:"
+- "fileHandleForReadingFromURL:error:"
+- "fileHandleForWritingToURL:error:"
+- "fileURLWithPath:"
+- "filterCalendarEvents:"
+- "filterInputSignals:"
+- "filterItems:usingLocationBlock:"
+- "filterMapsViewedPlaces:"
+- "filterTransitions:withLocationOfInterests:"
+- "filterUsingPredicate:"
+- "filterValidLocationPredictions:"
+- "filterVisits:"
+- "filteredArrayUsingPredicate:"
+- "findFirstVisitWithin24HoursAfterNavigationSession:visitHistory:"
+- "findFirstVisitWithin24HoursAfterPlaceViewed:fromHistory:"
+- "findMismatchedTrainedLois:visitHistory:"
+- "findNextMessageStart"
+- "firstObject"
+- "firstSaturdayBeforeReferenceDate:"
+- "fitLabelEncoderWithArray:completionHandler:"
+- "fixAtOrAfter:"
+- "fixAtOrBefore:"
+- "floatValue"
+- "formatDate:"
+- "formattedStringForLocationPrediction:"
+- "formattedStringForTransitionPrediction:"
+- "formattedStringForWorkoutPrediction:"
+- "fractionOfCalDuration"
+- "fromFirstParty"
+- "fullEffectTimeSec"
+- "generateClusters:withEmbeddings:error:"
+- "generateClustersAndRemoveBias:calcMode:currentTime:loiIdx:percentile:predSample:predictionArray:timestepSizeMinutes:"
+- "generateWorkoutPredictionsFromProbabilities:atTime:currentVisit:embeddings:clusters:"
+- "getBaseEvents:"
+- "getBundleRelativeDate"
+- "getBundleType"
+- "getBytes:length:"
+- "getBytes:range:"
+- "getClusterLabels"
+- "getConfig"
+- "getContextEventsForBaseEvents:sortedEvents:"
+- "getDistanceArrayFrom:toEmbeddings:"
+- "getDistanceFrom:withWeights:"
+- "getEmbeddingDistanceFrom:to:withWeights:"
+- "getEmbeddingsFromBundles:forEmbeddingType:"
+- "getEncodedModel"
+- "getFeatureMatrixWithUnknownLoiLabel:"
+- "getInterfaceTypeEnum:"
+- "getInterfaceTypeString:superType:"
+- "getMembershipProbability"
+- "getNormalizedClusterLabels"
+- "getOutlierScoreDict"
+- "getTimeBlock:"
+- "getUUIDBytes:"
+- "getUnknownLoiIdLabel"
+- "groupBaseEvents:"
+- "groupedEventsFromEvents:"
+- "groupedEventsFromEvents:nestedPropertyPath:"
+- "groupedEventsFromEvents:propertyPath:"
+- "hasActivityContext"
+- "hasActivityType"
+- "hasAlgorithmState"
+- "hasAlgorithmStateWorkouts"
+- "hasApplyStateEvent"
+- "hasCalendarEvent"
+- "hasCalendarId"
+- "hasCategory"
+- "hasClusterPhenotype"
+- "hasCompletionStatus"
+- "hasComputeEvent"
+- "hasComputeRequested"
+- "hasConfidenceInterval"
+- "hasContextType"
+- "hasCurrentTimeCFAbsolute"
+- "hasCurrentTimeZoneAbbreviation"
+- "hasDate"
+- "hasDateInterval"
+- "hasDayOfWeekCos"
+- "hasDayOfWeekSin"
+- "hasDestinationLocation"
+- "hasDominantSourceBundleIdentifier"
+- "hasEndDate"
+- "hasEndTimeCFAbsolute"
+- "hasEntryTimeCFAbsolute"
+- "hasError"
+- "hasEventId"
+- "hasExitTimeCFAbsolute"
+- "hasHealthKitWorkout"
+- "hasHkObjectUUID"
+- "hasHomekitHome"
+- "hasIdentifier"
+- "hasInState"
+- "hasInput"
+- "hasInteractionCommand"
+- "hasInterruptRequest"
+- "hasIsHome"
+- "hasIsWeekend"
+- "hasIsWork"
+- "hasLastVisitTimeCFAbsolute"
+- "hasLatLongCircularStd"
+- "hasLifecycleEvent"
+- "hasLocation"
+- "hasLocationContext"
+- "hasLocationHorizontalUncertaintyMeters"
+- "hasLocationLatitudeDeg"
+- "hasLocationLongitudeDeg"
+- "hasLocationOfInterest"
+- "hasLocationReferenceFrame"
+- "hasLocationTitle"
+- "hasLoiIdentifier"
+- "hasLoiIsMissingFromCurrentVisitHistory"
+- "hasMapItemMUID"
+- "hasMapsActiveNavigation"
+- "hasMapsViewedPlace"
+- "hasMotionActivityConfidence"
+- "hasMotionActivityType"
+- "hasNextObjectPair"
+- "hasNormalizedDuration"
+- "hasOriginLocation"
+- "hasOutState"
+- "hasParkTimeCFAbsolute"
+- "hasParkedCar"
+- "hasPlaceLocation"
+- "hasPlaceMapItem"
+- "hasPlaceName"
+- "hasPlaceSource"
+- "hasPlaceType"
+- "hasPredictEvent"
+- "hasPredictedContext"
+- "hasPredictedContextAnalytics"
+- "hasPredictedContextSource"
+- "hasPredominantMotionActivity"
+- "hasPrefix:"
+- "hasPrimary"
+- "hasProbability"
+- "hasPropagatedLocation"
+- "hasReceivedInterruptRequest"
+- "hasResult"
+- "hasRetrieveStateEvent"
+- "hasSessionLocationType"
+- "hasSourceBundleIdentifier"
+- "hasStartDate"
+- "hasStartTimeCFAbsolute"
+- "hasStatus"
+- "hasStopTimeCFAbsolute"
+- "hasSwimmingLocationType"
+- "hasTimeCFAbsolute"
+- "hasTimeContext"
+- "hasTimeOfDayCircularStd"
+- "hasTimeOfDayCos"
+- "hasTimeOfDaySin"
+- "hasTitleOfEvent"
+- "hasTrainedModel"
+- "hasTransportMode"
+- "hasTravelTime"
+- "hasType"
+- "hasUsageTimeCFAbsolute"
+- "hasVisitFrequency"
+- "hasVisitIdentifierDestination"
+- "hasVisitIdentifierOrigin"
+- "hasWeekOfYear"
+- "hasWorkoutActivityType"
+- "hasWorkoutLocationType"
+- "hasWorkoutStartLocation"
+- "hash"
+- "hiddenLayerSize"
+- "hkObjectIdentifier"
+- "homeKitHomesAtIndex:"
+- "homeKitHomesCount"
+- "homeKitHomesType"
+- "homeLOIsWithinBoundingBoxCenteredAtLocation:fromLocationOfInterests:"
+- "hour"
+- "hours"
+- "i16@0:8"
+- "i24@0:8@16"
+- "i52@0:8i16^@20@28@36^@44"
+- "increment"
+- "indexSet"
+- "indexesOfObjectsPassingTest:"
+- "indoorOutdoorCategoryActivityTypes"
+- "init"
+- "initForReadingFromData:error:"
+- "initFrom:"
+- "initRequiringSecureCoding:"
+- "initSubEvent"
+- "initWithBundleIdentifier:creationDate:"
+- "initWithBundleIdentifier:suggestionID:bundleType:creationDate:firstCreationDate:endDate:events:interfaceType:startDate:action:actions:place:time:places:subBundleIDs:subSuggestionIDs:bundleSubType:bundleSuperType:"
+- "initWithBundleIdentifier:suggestionID:startDate:endDate:creationDate:"
+- "initWithCalendarIdentifier:"
+- "initWithCapacity:"
+- "initWithCluster:"
+- "initWithCoder:"
+- "initWithConfig:"
+- "initWithData:"
+- "initWithDirectionScaleFactorEstimator:ETAScaleFactorEstimator:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithEmbedding:"
+- "initWithEventBundle:forEmbeddingType:"
+- "initWithEventIdentifier:startDate:endDate:creationDate:provider:category:"
+- "initWithFormat:"
+- "initWithHiddenLayers:outSteps:epochs:batchSize:trainOnGpu:"
+- "initWithIdentifier:"
+- "initWithIdentifier:creationDate:"
+- "initWithIdentifier:phenoType:"
+- "initWithIdentifier:phenoType:activityTypeHistogram:timeTagHistogram:dayOfWeekHistogram:weekOfYearHistogram:placeNameHistogram:combinedPlaceTypeHistogram:enclosingPlaceNameHistogram:subSuggestionIDsBeforePruning:"
+- "initWithIdentifier:startDate:endDate:creationDate:"
+- "initWithIdentifier:timestamp:timeString:timeZone:timeTag:"
+- "initWithInt:"
+- "initWithKey:ascending:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithLatitude:longitude:"
+- "initWithLocaleIdentifier:"
+- "initWithLocation:"
+- "initWithLocation:atFraction:"
+- "initWithLocation:withEvidence:"
+- "initWithLoiId:confidence:entryTime:exitTime:entryUnc:exitUnc:sources:transports:"
+- "initWithMinTravelTimeSec:fullEffectTimeSec:minDistanceToDestinationM:minReliableDistanceM:maxLocationUncertaintyM:"
+- "initWithMinTravelTimeSec:fullEffectTimeSec:minDistanceToDestinationM:minReliableSpeedM_Sec:maxLocationUncertaintyM:etaPenaltyTriggerRatio:etaPenaltyRatioRange:"
+- "initWithModelCentroidLatLon:"
+- "initWithName:"
+- "initWithObjects:others:comparator:"
+- "initWithProtobufEquivalent:"
+- "initWithRawHistory:currentTime:lastVisitExitTime:minTravelTime:fullEffectTime:maxUncertainty:"
+- "initWithRawHistory:maxUncertainty:"
+- "initWithStartDate:duration:"
+- "initWithStartDate:endDate:"
+- "initWithTimeTag:dateInterval:"
+- "initWithTimestamp:timeString:timeZone:timeTag:"
+- "initWithTimestepSize:inputSeqLength:visitProbabilityThreshold:hiddenLayers:outSteps:epochs:encodingTimeout:numVisitsThreshold:batchSize:trainOnGpu:logTrainingDebugOutputs:"
+- "initWithUUIDBytes:"
+- "initWithUUIDString:"
+- "initWithVisitIdentifier:loiIdentifier:coordinate:entryTime:"
+- "initWithX:y:z:"
+- "inputSteps"
+- "insertEscapeSequenceTo:"
+- "insertObject:atIndex:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interactionCommand"
+- "interactionCommandAsString:"
+- "interruptComputeWithError:"
+- "interruptRequest"
+- "interruptTraining"
+- "intersectSet:"
+- "intersectionWithDateInterval:"
+- "intersectsDateInterval:"
+- "intervalsFromEvents:boundaryInterval:"
+- "isAfterDate:"
+- "isBeforeDate:"
+- "isCarLocation:awayFromHomeLocations:"
+- "isDate:equalToDate:toUnitGranularity:"
+- "isDate:inSameDayAsDate:"
+- "isDominantPlaceForVisits:startDate:endDate:"
+- "isEqual:"
+- "isEqualToData:"
+- "isEqualToDate:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isEqualToTimeZone:"
+- "isFollowingDayAfterDate:"
+- "isFollowingMonthAfterDate:"
+- "isFollowingWeekAfterDate:"
+- "isFollowingYearAfterDate:"
+- "isHomeOrWorkLocation:"
+- "isKindOfClass:"
+- "isLatLon:insideBoundingBoxWithCentroid:"
+- "isLocation:withinThreshold:"
+- "isMemberOfClass:"
+- "isOnOrAfter:"
+- "isOnOrBefore:"
+- "isOutOfPatternForInputSignals:"
+- "isProxy"
+- "isSameDayWithDate:"
+- "isSameDayWithDate:timeZone:"
+- "isSameMonthWithDate:"
+- "isSameWeekWithDate:"
+- "isSameYearWithDate:"
+- "isUserCloseToCarWithDistance:"
+- "isWaitingRetrain"
+- "kInfrequentString"
+- "kNilString"
+- "kTravelingString"
+- "kUnknownString"
+- "keysSortedByValueUsingComparator:"
+- "keysSortedByValueUsingSelector:"
+- "keywordForDate:"
+- "lastComputeDate"
+- "lastObject"
+- "latLonToCartesianWithLatLon:"
+- "lateralDeviationToWeightWithLateralRatio:minWeight:penaltyStep:graceZoneRatio:gamma:"
+- "latitudeDeg"
+- "length"
+- "loadDistanceMatrix:"
+- "localEndDate"
+- "localStartDate"
+- "localTime"
+- "localTimeOfDate:timeZone:"
+- "localizedDateStringFromDate:"
+- "localizedStringFromDate:dateStyle:timeStyle:"
+- "locationAtTimestepArray"
+- "locationContextEmbedding"
+- "locationHistoryAtIndex:"
+- "locationHistoryType"
+- "locationHistorys"
+- "locationHistorysCount"
+- "locationOfInterestForIdentifier:fromArray:"
+- "locationOfInterestsAtIndex:"
+- "locationOfInterestsCount"
+- "locationOfInterestsType"
+- "locationOfLastVisitWithVisitHistory:currentTime:isInTransition:exitTime:"
+- "locationReferenceFrameAsString:"
+- "locationWindow"
+- "lock"
+- "logTrainingDebugOutputs"
+- "loiAtTimestepArray"
+- "loiEncodingTimeoutSeconds"
+- "loiId"
+- "loiIdOfCurrentContextFromVisitHistory:transitionHistory:currentTime:"
+- "loiProbs"
+- "loiSources"
+- "loiToHomeMap"
+- "loiToLocationMap"
+- "loiToWorkMap"
+- "longitudeDeg"
+- "majorVisitsFromVisits:referenceDate:"
+- "mapActivityContext:toEmbedding:"
+- "mapItemID"
+- "mapItemPlaceType"
+- "mapLOIToLocationsFromPredictedVisits:currentLoiIdentifier:visitHistory:"
+- "mapLocationContext:toEmbedding:"
+- "mapPhenotypeData:toCluster:"
+- "mapScoreToProbability:forVisit:"
+- "mapTimeContext:toEmbedding:"
+- "mapTimeProperties:toPhenotype:"
+- "mapTimePropertiesFromPhenotype:toDictionary:"
+- "mapsHistoricalNavigationAtIndex:"
+- "mapsHistoricalNavigationType"
+- "mapsHistoricalNavigations"
+- "mapsHistoricalNavigationsCount"
+- "mapsViewedPlacesAtIndex:"
+- "mapsViewedPlacesCount"
+- "mapsViewedPlacesType"
+- "mask"
+- "maxLocationUncertaintyM"
+- "maximumWatchPhoneVisitDistance"
+- "mealtagFromStartDate:endDate:"
+- "mergeFrom:"
+- "mergeTransportArrays:"
+- "minClusterSize"
+- "minDistanceToDestinationM"
+- "minPoints"
+- "minReliableDistanceM"
+- "minReliableSpeedM_Sec"
+- "minTravelTimeSec"
+- "minimumCountThreshold"
+- "minimumRatioThreshold"
+- "minute"
+- "minutes"
+- "modifyCandidateProbabilities:atTime:visitHistory:locationHistory:motionActivity:"
+- "modifyCandidateVisitProbabilities:transitProbabilities:atTime:withVisitHistory:transitionHistory:"
+- "modulus"
+- "month"
+- "monthDayFormatter"
+- "motionActivityAtIndex:"
+- "motionActivityConfidenceAsString:"
+- "motionActivityTypeAsString:"
+- "motionActivitys"
+- "motionActivitysCount"
+- "multiplier"
+- "mutableCopy"
+- "nDataPoints"
+- "name"
+- "neutralScaleFactorsForDataMap:"
+- "nextObject"
+- "nextObjectPairWithHandler:"
+- "normalizeBins:"
+- "now"
+- "null"
+- "numVisitsThreshold"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "object"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectComparator"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objects"
+- "objectsAtIndexes:"
+- "offsetInFile"
+- "oneHotEncodedLois"
+- "openFileWithName:append:error:"
+- "openFileWithName:error:"
+- "ordinalLoiLabels"
+- "otherEnumerator"
+- "others"
+- "outOfPatternLogic"
+- "outputShape"
+- "outputSteps"
+- "overlapsIndexOfBaseEvents:contextEvents:"
+- "overlapsScoreForStartDate:endDate:"
+- "performAnnotationWithEvents:"
+- "performAnnotationWithEventsInternal:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phenotypeDescription:"
+- "placeTypeAsString:"
+- "position"
+- "postprocessMergeResults:currentLoiIdentifier:currentTime:windowEndTime:transitionHistory:loiToLocation:"
+- "predicateWithBlock:"
+- "predicateWithFormat:"
+- "predicateWithStartDate:endDate:"
+- "predicateWithStartDate:endDate:distanceThreshold:"
+- "predictContextWithInputSignals:result:outError:"
+- "predictFromTensorWithXPredict:xPredictMatrix:timesteps:"
+- "predictHomeKitLocation:locationHistory:locationsOfInterest:candidateVisits:atTime:locations:"
+- "predictHomeLocation:locationHistory:locationsOfInterest:candidateVisits:atTime:locations:"
+- "predictParkedCarLocation:locationHistory:locationsOfInterest:candidateVisits:atTime:locations:"
+- "predictPropagatedPosition:locations:atTime:"
+- "predictTravel:results:"
+- "predictWithHistory:calendarEvents:atTime:results:"
+- "predictWithHistory:transitionHistory:locationHistory:homekitHomes:atTime:locations:transitions:containsHomeKitPredictions:missingLoiResults:"
+- "predictWithLocationHistory:workoutHistory:LOIs:atTime:workoutPredictions:"
+- "predictWithScheduledTravelWithActiveNav:previousNav:visitHistory:locationHistory:atTime:results:"
+- "predictWithViewedPlaces:history:atTime:results:"
+- "predictedContextLocationsAtIndex:"
+- "predictedContextLocationsCount"
+- "predictedContextLocationsType"
+- "predictedContextSourceAsString:"
+- "predictedContextTransitionsAtIndex:"
+- "predictedContextTransitionsCount"
+- "predictedContextTransitionsType"
+- "predictedContextTransportAtIndex:"
+- "predictedContextTransportType"
+- "predictedContextTransports"
+- "predictedContextTransportsCount"
+- "predictedContextWorkoutsAtIndex:"
+- "predictedContextWorkoutsCount"
+- "predictedContextWorkoutsType"
+- "predictedTransports"
+- "predictionAlgorithm"
+- "predictionConfiguration"
+- "processInputSignals:isOutOfPattern:"
+- "processTimeZoneEvents:"
+- "progressToWeightWithProgressRatio:minWeight:penaltyStep:graceZone:gamma:"
+- "propagatedLocationsAtIndex:"
+- "propagatedLocationsCount"
+- "propagatedLocationsType"
+- "purgeModel"
+- "q"
+- "q16@0:8"
+- "q24@0:8d16"
+- "q40@0:8@16@24q32"
+- "queue"
+- "rampWeight"
+- "rangeOfString:"
+- "rangeOfWeekendStartDate:interval:containingDate:"
+- "rasterizeCandidateVisitPredictions:transitPredictions:currentTimeInSec:windowInHours:binSizeMin:"
+- "readDataOfLength:"
+- "readDataToEndOfFile"
+- "readFrom:"
+- "readRecord:error:"
+- "readRemainingBytes"
+- "readUntilNextMessageStart"
+- "referenceDateFromStartDate:endDate:index:"
+- "relativeBundleDateFormatter"
+- "release"
+- "removeAllObjects"
+- "removeBiasFromCluster:percentile:prediction:startIdx:"
+- "removeBiasesWith:loiIdx:mutablePreds:"
+- "removeDuplicateWorkouts:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsAtIndexes:"
+- "removeObjectsInArray:"
+- "removePhoneActivitiesOverlappingWorkouts:"
+- "resetAwaitingRetrainWithCurrentLocation:inputSignals:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "retrieveAlgorithmState:outError:"
+- "retrieveWorkoutClusters:outError:"
+- "rolledLoiAnalyticsDictionaryAtIndex:"
+- "rolledLoiAnalyticsDictionaryType"
+- "rolledLoiAnalyticsDictionarys"
+- "rolledLoiAnalyticsDictionarysCount"
+- "runHDBSCANClusteringOn:"
+- "second"
+- "secondsFromGMTForDate:"
+- "secondsFromTimeOfDay:toTimeOfDay:"
+- "seed"
+- "seekToEndOfFile"
+- "seekToFileOffset:"
+- "self"
+- "sensitiveDescription"
+- "sequenceDataMatrix:seqLength:"
+- "sequenceYlabels:xTrain:outData:seqDataMat:yRows:"
+- "sessionLocationTypeAsString:"
+- "set"
+- "setActivityContext:"
+- "setActivityContextEmbedding:"
+- "setActivityType:"
+- "setActivityTypeHistogram:"
+- "setAlgorithmState:"
+- "setAlgorithmStateWorkouts:"
+- "setAllowDuplicatedWorkouts:"
+- "setAnalytics:"
+- "setAoiVisitLabelConfidentThreshold:"
+- "setApplyStateEvent:"
+- "setBatchSize:"
+- "setBinEnd:"
+- "setBinStart:"
+- "setBundleIdentifier:"
+- "setBundleSubType:"
+- "setBundleSuperType:"
+- "setBundleType:"
+- "setCalendarEvent:"
+- "setCalendarEvents:"
+- "setCalendarId:"
+- "setCandidateLoiToHomeMap:"
+- "setCandidateLoiToLocationMap:"
+- "setCandidateLoiToWorkMap:"
+- "setCandidateModel:"
+- "setCandidateTimeZone:"
+- "setCandidateVisitIndicies:"
+- "setCategory:"
+- "setCfg:"
+- "setClusterMetadata:"
+- "setClusterPhenotype:"
+- "setClusterPhenotypeMinimumCountThreshold:"
+- "setClusteringManager:"
+- "setClusters:"
+- "setCombinedPlaceTypeHistogram:"
+- "setCompletionStatus:"
+- "setComputeEvent:"
+- "setComputeRequested:"
+- "setCondensedRecords:"
+- "setConfidence:"
+- "setConfidenceInterval:"
+- "setConfig:"
+- "setConfigName:"
+- "setConfigType:"
+- "setContextType:"
+- "setCoordinate:"
+- "setCurrentComputeDate:"
+- "setCurrentTimeCFAbsolute:"
+- "setCurrentTimeZoneAbbreviation:"
+- "setDate:"
+- "setDateFormat:"
+- "setDateInterval:"
+- "setDateReferenceTag:"
+- "setDateStyle:"
+- "setDay:"
+- "setDayOfWeekArray:"
+- "setDayOfWeekCos:"
+- "setDayOfWeekCosArray:"
+- "setDayOfWeekHistogram:"
+- "setDayOfWeekSin:"
+- "setDayOfWeekSinArray:"
+- "setDestinationLocation:"
+- "setDirectionScaleFactorEstimator:"
+- "setDoesRelativeDateFormatting:"
+- "setDominantSourceBundleIdentifier:"
+- "setDurationInSec:"
+- "setDynamicsConfig:"
+- "setDynamicsWeighting:"
+- "setEmbeddingIdentifiers:"
+- "setEmbeddingIdentifiersWithPhenotypes:"
+- "setEmbeddingType:"
+- "setEmbeddings:"
+- "setEnclosingArea:"
+- "setEnclosingPlaceNameHistogram:"
+- "setEndDate:"
+- "setEndTimeCFAbsolute:"
+- "setEntryTime:"
+- "setEntryTimeCFAbsolute:"
+- "setEntryUnc:"
+- "setEpochs:"
+- "setEtaPenaltyRatioRange:"
+- "setEtaPenaltyTriggerRatio:"
+- "setEtaScaleFactorEstimator:"
+- "setEventId:"
+- "setEventIdentifier:"
+- "setEvents:"
+- "setEvidence:"
+- "setExitTime:"
+- "setExitTimeCFAbsolute:"
+- "setExitUnc:"
+- "setFirstCreationDate:"
+- "setFirstWeekday:"
+- "setFormattingContext:"
+- "setFractionOfCalDuration:"
+- "setFromFirstParty:"
+- "setFullEffectTimeSec:"
+- "setHasCompletionStatus:"
+- "setHasComputeRequested:"
+- "setHasConfidenceInterval:"
+- "setHasContextType:"
+- "setHasCurrentTimeCFAbsolute:"
+- "setHasDate:"
+- "setHasDayOfWeekCos:"
+- "setHasDayOfWeekSin:"
+- "setHasEndTimeCFAbsolute:"
+- "setHasEntryTimeCFAbsolute:"
+- "setHasExitTimeCFAbsolute:"
+- "setHasInteractionCommand:"
+- "setHasIsHome:"
+- "setHasIsWeekend:"
+- "setHasIsWork:"
+- "setHasLastVisitTimeCFAbsolute:"
+- "setHasLatLongCircularStd:"
+- "setHasLocationHorizontalUncertaintyMeters:"
+- "setHasLocationLatitudeDeg:"
+- "setHasLocationLongitudeDeg:"
+- "setHasLocationReferenceFrame:"
+- "setHasLoiIsMissingFromCurrentVisitHistory:"
+- "setHasMapItemMUID:"
+- "setHasMotionActivityConfidence:"
+- "setHasMotionActivityType:"
+- "setHasNormalizedDuration:"
+- "setHasParkTimeCFAbsolute:"
+- "setHasPlaceSource:"
+- "setHasPlaceType:"
+- "setHasPredictedContextSource:"
+- "setHasPrimary:"
+- "setHasProbability:"
+- "setHasReceivedInterruptRequest:"
+- "setHasSessionLocationType:"
+- "setHasStartTimeCFAbsolute:"
+- "setHasStatus:"
+- "setHasStopTimeCFAbsolute:"
+- "setHasSwimmingLocationType:"
+- "setHasTimeCFAbsolute:"
+- "setHasTimeOfDayCircularStd:"
+- "setHasTimeOfDayCos:"
+- "setHasTimeOfDaySin:"
+- "setHasTransportMode:"
+- "setHasTravelTime:"
+- "setHasType:"
+- "setHasUsageTimeCFAbsolute:"
+- "setHasVisitFrequency:"
+- "setHasWeekOfYear:"
+- "setHasWorkoutActivityType:"
+- "setHasWorkoutLocationType:"
+- "setHealthKitWorkout:"
+- "setHiddenLayers:"
+- "setHkObjectIdentifier:"
+- "setHkObjectUUID:"
+- "setHomeKitHomes:"
+- "setHomekitHome:"
+- "setHour:"
+- "setIdentifier:"
+- "setIdentifierFromProvider:"
+- "setInState:"
+- "setInput:"
+- "setInputSequenceLength:"
+- "setInteractionCommand:"
+- "setInterfaceType:"
+- "setInterruptRequest:"
+- "setIsAwaitingRetrain:"
+- "setIsHome:"
+- "setIsWeekend:"
+- "setIsWork:"
+- "setLastComputeDate:"
+- "setLastVisitTimeCFAbsolute:"
+- "setLatLongCircularStd:"
+- "setLatitudeDeg:"
+- "setLifecycleEvent:"
+- "setLocale:"
+- "setLocation:"
+- "setLocationAtTimestepArray:"
+- "setLocationContext:"
+- "setLocationContextEmbedding:"
+- "setLocationHistorys:"
+- "setLocationHorizontalUncertaintyMeters:"
+- "setLocationLatitudeDeg:"
+- "setLocationLongitudeDeg:"
+- "setLocationOfInterest:"
+- "setLocationOfInterests:"
+- "setLocationReferenceFrame:"
+- "setLocationTitle:"
+- "setLogTrainingDebugOutputs:"
+- "setLoiAtTimestepArray:"
+- "setLoiEncodingTimeoutSeconds:"
+- "setLoiId:"
+- "setLoiIdentifier:"
+- "setLoiIsMissingFromCurrentVisitHistory:"
+- "setLoiProbs:"
+- "setLoiSources:"
+- "setLoiToHomeMap:"
+- "setLoiToLocationMap:"
+- "setLoiToWorkMap:"
+- "setLongitudeDeg:"
+- "setMapItemID:"
+- "setMapItemMUID:"
+- "setMapItemPlaceType:"
+- "setMapsActiveNavigation:"
+- "setMapsHistoricalNavigations:"
+- "setMapsViewedPlace:"
+- "setMapsViewedPlaces:"
+- "setMaxLocationUncertaintyM:"
+- "setMaximumWatchPhoneVisitDistance:"
+- "setMinClusterSize:"
+- "setMinDistanceToDestinationM:"
+- "setMinPoints:"
+- "setMinReliableSpeedM_Sec:"
+- "setMinTravelTimeSec:"
+- "setMinimumCountThreshold:"
+- "setMinimumRatioThreshold:"
+- "setMinute:"
+- "setModel:"
+- "setModelCentroid:"
+- "setMotionActivityConfidence:"
+- "setMotionActivityType:"
+- "setMotionActivitys:"
+- "setNormalizedDuration:"
+- "setNumVisitsThreshold:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOneHotEncodedLois:"
+- "setOrdinalLoiLabels:"
+- "setOriginLocation:"
+- "setOutOfPatternLogic:"
+- "setOutState:"
+- "setOutSteps:"
+- "setParkTimeCFAbsolute:"
+- "setParkedCar:"
+- "setPhenotype:"
+- "setPlaceLocation:"
+- "setPlaceMapItem:"
+- "setPlaceName:"
+- "setPlaceNameHistogram:"
+- "setPlaceSource:"
+- "setPlaceType:"
+- "setPlaceUserType:"
+- "setPoiCategory:"
+- "setPosition:"
+- "setPredictEvent:"
+- "setPredictedContext:"
+- "setPredictedContextAnalytics:"
+- "setPredictedContextLocations:"
+- "setPredictedContextSource:"
+- "setPredictedContextTransitions:"
+- "setPredictedContextTransports:"
+- "setPredictedContextWorkouts:"
+- "setPredictedTransports:"
+- "setPredictionAlgorithm:"
+- "setPredominantMotionActivity:"
+- "setPrimary:"
+- "setProbability:"
+- "setPropagatedLocation:"
+- "setPropagatedLocations:"
+- "setPropertiesBasedOnEvents"
+- "setReceivedInterruptRequest:"
+- "setResult:"
+- "setRetrieveStateEvent:"
+- "setRolledLoiAnalyticsDictionarys:"
+- "setRoutineEvent:"
+- "setSecond:"
+- "setSessionLocationType:"
+- "setSourceBundleIdentifier:"
+- "setSources:"
+- "setStartDate:"
+- "setStartTimeCFAbsolute:"
+- "setStatus:"
+- "setStopTimeCFAbsolute:"
+- "setSubBundleIDs:"
+- "setSubHKObjectIDs:"
+- "setSubSuggestionIDs:"
+- "setSubSuggestionIDsBeforePruning:"
+- "setSuggestionID:"
+- "setSwimmingLocationType:"
+- "setTime:"
+- "setTimeCFAbsolute:"
+- "setTimeContext:"
+- "setTimeContextEmbedding:"
+- "setTimeOfDayCircularStd:"
+- "setTimeOfDayCos:"
+- "setTimeOfDayCosArray:"
+- "setTimeOfDaySin:"
+- "setTimeOfDaySinArray:"
+- "setTimeStyle:"
+- "setTimeTagHistogram:"
+- "setTimeZone:"
+- "setTimeZoneRecords:"
+- "setTimestepCFAbsArray:"
+- "setTimestepSizeMinutes:"
+- "setTimetag:"
+- "setTitleOfEvent:"
+- "setTrainOnGpu:"
+- "setTransitions:"
+- "setTransportMode:"
+- "setTransports:"
+- "setTravelTime:"
+- "setType:"
+- "setUsageTimeCFAbsolute:"
+- "setUseCalendarVisitPredictor:"
+- "setUseHomeKitPredictor:"
+- "setUseMapsViewedPlacesPredictor:"
+- "setUseParkedCarLocationPredictor:"
+- "setUseProbabilityCuller:"
+- "setUseProbabilityModifier:"
+- "setUsePropagatedPosition:"
+- "setUseScheduledTravelPredictor:"
+- "setUseVisitHistoryPredictor:"
+- "setVisit:"
+- "setVisitEndIdx:"
+- "setVisitEntryTime:"
+- "setVisitEntryUnc:"
+- "setVisitExitTime:"
+- "setVisitExitUnc:"
+- "setVisitFrequency:"
+- "setVisitHistoryConfig:"
+- "setVisitHistoryPred:"
+- "setVisitIdentifier:"
+- "setVisitIdentifierDestination:"
+- "setVisitIdentifierOrigin:"
+- "setVisitIndicies:"
+- "setVisitLabelHighConfidenceThreshold:"
+- "setVisitLabelMediumConfidenceThreshold:"
+- "setVisitLoiIdx:"
+- "setVisitLoiString:"
+- "setVisitMinimumIntersectionWithActivityAbsoluteTime:"
+- "setVisitProbability:"
+- "setVisitProbabilityThreshold:"
+- "setVisitStartIdx:"
+- "setVisits:"
+- "setWeekOfYear:"
+- "setWeekOfYearHistogram:"
+- "setWeights:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setWorkoutActivityType:"
+- "setWorkoutEvent:"
+- "setWorkoutLocationStart:"
+- "setWorkoutLocationType:"
+- "setWorkoutPrediction:"
+- "setWorkoutSessionLocationType:"
+- "setWorkoutStartLocation:"
+- "setWorkoutSwimmingLocationType:"
+- "setWorkoutType:"
+- "setWorkouts:"
+- "setX:"
+- "setY:"
+- "setZ:"
+- "shouldInterruptTraining"
+- "simpleTimetagFromStartDate:endDate:"
+- "smoothPenaltyForETAGrowth:graceRatio:penaltyRange:minScaleFactor:"
+- "snapModelCentroidForCurrentLocation:withInputSignals:"
+- "snapToTheDay"
+- "sortDescriptorWithKey:ascending:"
+- "sortDictionaryByValues:"
+- "sortLocationHistory:"
+- "sortTransitionHistory:"
+- "sortUsingComparator:"
+- "sortVisitHistory:"
+- "sorted"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingDescriptors:"
+- "sortedArrayUsingSelector:"
+- "sourcesAtIndex:"
+- "sourcesCount"
+- "sourcesType"
+- "standardDateFormat"
+- "standardUserDefaults"
+- "startFix"
+- "startOfDay"
+- "startOfDayWithBoundaryOfADay:"
+- "startTime"
+- "statusAsString:"
+- "storeHomeLoisTo:workLoisTo:from:withVisitIndices:"
+- "string"
+- "stringByAppendingFormat:"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringFromDate"
+- "stringFromDate:"
+- "stringValue"
+- "stringWithFormat:"
+- "subHKObjectIDs"
+- "subarrayWithRange:"
+- "subdataWithRange:"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "summaryDictionary"
+- "superclass"
+- "supportsSecureCoding"
+- "swimmingLocationTypeAsString:"
+- "systemTimeZone"
+- "timeContextEmbedding"
+- "timeForDate:"
+- "timeForDate:timeZoneManager:"
+- "timeFromStartDate:endDate:"
+- "timeFromStartDate:endDate:timeZoneManager:"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "timeOfDay"
+- "timeOfDayCosArray"
+- "timeOfDayPrefixFromDate:"
+- "timeOfDayPrefixFromStartDate:endDate:"
+- "timeOfDaySinArray"
+- "timeStringFromTimeTag:"
+- "timeTagFromTimeOfDayCos:timeOfDaySin:"
+- "timeZoneAtDate:"
+- "timeZoneManager"
+- "timeZoneObject"
+- "timeZoneRecords"
+- "timeZoneWithAbbreviation:"
+- "timeZoneWithName:"
+- "timespanFromEvents:boundaryInterval:"
+- "timestepCFAbsArray"
+- "timestepSizeMinutes"
+- "timestepSizeMinutes, %f, inputSeqLength, %d, visitProbThreshold, %f, numVisitsThreshold, %d, hiddenLayers, %d, outSteps, %d, epochs, %d"
+- "timetag"
+- "timetagFromStartDate:endDate:"
+- "toLocation"
+- "trainFromTensorsWithDatasetX:datasetY:timesteps:"
+- "transitionDummyLOI"
+- "transitionsAtIndex:"
+- "transitionsCount"
+- "transitionsType"
+- "transportModeAsString:"
+- "transports"
+- "travelTimeSec"
+- "truncateFileAtOffset:"
+- "typeAsString:"
+- "typeOfDayTagFromStartDate:endDate:timeZone:"
+- "unescapeMessage:"
+- "unionSet:"
+- "unknownLoiID"
+- "unknownLoiId"
+- "unlock"
+- "unsignedIntValue"
+- "unsignedLongValue"
+- "updateProbabilitiesForCandidateVisits:withCandidateDataMap:progressScaleByVisitMap:feasibilityByVisitMap:dirctionScaleByVisitMap:etaScaleByVisitMap:currentTime:"
+- "updateProbabilityForCandidateVisit:withCandidateDataMap:progressScaleByVisitMap:feasibilityByVisitMap:dirctionScaleByVisitMap:etaScaleByVisitMap:currentTime:"
+- "useCalendarVisitPredictor"
+- "useHomeKitPredictor"
+- "useMapsViewedPlacesPredictor"
+- "useParkedCarLocationPredictor"
+- "useProbabilityCuller"
+- "useProbabilityModifier"
+- "usePropagatedPosition"
+- "useScheduledTravelPredictor"
+- "useVisitHistoryPredictor"
+- "uuidStringFromData:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16^@24"
+- "v32@0:8^@16@24"
+- "v36@0:8@16i24@28"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16^@24d32"
+- "v40@0:8@16d24d32"
+- "v40@0:8^@16@24@32"
+- "v40@0:8^d16@24@32"
+- "v40@0:8d16@24@32"
+- "v40@0:8{vector<std::vector<double>, std::allocator<std::vector<double>>>=^v^v{?=^v}}16"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24d32^@40"
+- "v48@0:8^@16@24@32d40"
+- "v48@0:8^@16@24d32d40"
+- "v56@0:8@16@24@32d40^@48"
+- "v56@0:8@16@24d32@40@48"
+- "v56@0:8@16d24@32@40@48"
+- "v56@0:8@16d24d32@40@48"
+- "v56@0:8^@16d24d32d40d48"
+- "v56@0:8^d16@24@32@40d48"
+- "v64@0:8@16@24@32@40d48^@56"
+- "v64@0:8@16@24d32d40@48@56"
+- "v64@0:8@16@24d32d40^d48^d56"
+- "v64@0:8@16d24d32@40d48d56"
+- "v68@0:8@16d24d32d40^d48^d56B64"
+- "v72@0:8@16@24@32@40@48@56d64"
+- "v72@0:8@16@24@32@40d48@56^@64"
+- "v88@0:8@16@24@32@40d48^@56^@64^@72^@80"
+- "v88@0:8@16@24d32d40d48d56d64@72@80"
+- "v96@0:8@16@24^q32^d40^d48^@56^@64^@72^@80^@88"
+- "validateCandidateTransitions:validTransitions:invalidTransitions:"
+- "validateCandidateVisits:validVisits:invalidVisits:"
+- "valueForKey:"
+- "valueForKeyPath:"
+- "vectorFrom:to:"
+- "visitAtIndex:"
+- "visitEndIdx"
+- "visitEntryTime"
+- "visitEntryUnc"
+- "visitExitTime"
+- "visitExitUnc"
+- "visitHistoryConfig"
+- "visitHistoryPred"
+- "visitIdentifier"
+- "visitIndicies"
+- "visitLabelHighConfidenceThreshold"
+- "visitLabelMediumConfidenceThreshold"
+- "visitLoiIdx"
+- "visitLoiString"
+- "visitMinimumIntersectionWithActivityAbsoluteTime"
+- "visitProbability"
+- "visitStartIdx"
+- "visitType"
+- "visits"
+- "visitsCount"
+- "volatileDomainNames"
+- "weights"
+- "workoutLocationTypeAsString:"
+- "workoutPrediction"
+- "workoutsAtIndex:"
+- "workoutsCount"
+- "workoutsType"
+- "writeData:"
+- "writeRecord:error:"
+- "writeTo:"
+- "x"
+- "y"
+- "year"
+- "z"
+- "zone"
+- "{?=\"completionStatus\"b1\"receivedInterruptRequest\"b1}"
+- "{?=\"computeRequested\"b1}"
+- "{?=\"confidenceInterval\"b1\"date\"b1}"
+- "{?=\"currentTimeCFAbsolute\"b1}"
+- "{?=\"dayOfWeekCos\"b1\"dayOfWeekSin\"b1\"latLongCircularStd\"b1\"normalizedDuration\"b1\"timeOfDayCircularStd\"b1\"timeOfDayCos\"b1\"timeOfDaySin\"b1\"weekOfYear\"b1\"isWeekend\"b1}"
+- "{?=\"dayOfWeekCos\"b1\"dayOfWeekSin\"b1\"normalizedDuration\"b1\"timeOfDayCos\"b1\"timeOfDaySin\"b1\"weekOfYear\"b1\"isWeekend\"b1}"
+- "{?=\"endTimeCFAbsolute\"b1\"startTimeCFAbsolute\"b1\"status\"b1}"
+- "{?=\"endTimeCFAbsolute\"b1\"startTimeCFAbsolute\"b1\"workoutActivityType\"b1\"sessionLocationType\"b1\"swimmingLocationType\"b1}"
+- "{?=\"endTimeCFAbsolute\"b1\"startTimeCFAbsolute\"b1}"
+- "{?=\"entryTimeCFAbsolute\"b1\"exitTimeCFAbsolute\"b1}"
+- "{?=\"interactionCommand\"b1}"
+- "{?=\"isHome\"b1\"isWork\"b1\"loiIsMissingFromCurrentVisitHistory\"b1}"
+- "{?=\"lastVisitTimeCFAbsolute\"b1\"visitFrequency\"b1\"placeType\"b1}"
+- "{?=\"locationHorizontalUncertaintyMeters\"b1\"locationLatitudeDeg\"b1\"locationLongitudeDeg\"b1\"locationReferenceFrame\"b1}"
+- "{?=\"mapItemMUID\"b1\"placeSource\"b1\"placeType\"b1}"
+- "{?=\"parkTimeCFAbsolute\"b1}"
+- "{?=\"predictedContextSource\"b1}"
+- "{?=\"primary\"b1}"
+- "{?=\"probability\"b1\"contextType\"b1}"
+- "{?=\"probability\"b1\"transportMode\"b1}"
+- "{?=\"startTimeCFAbsolute\"b1\"motionActivityConfidence\"b1\"motionActivityType\"b1}"
+- "{?=\"startTimeCFAbsolute\"b1\"stopTimeCFAbsolute\"b1}"
+- "{?=\"startTimeCFAbsolute\"b1}"
+- "{?=\"timeCFAbsolute\"b1}"
+- "{?=\"travelTime\"b1\"usageTimeCFAbsolute\"b1}"
+- "{?=\"type\"b1}"
+- "{?=\"usageTimeCFAbsolute\"b1}"
+- "{?=\"workoutActivityType\"b1\"workoutLocationType\"b1}"
+- "{unique_ptr<Hdbscan, std::default_delete<Hdbscan>>=\"\"{?=\"__ptr_\"^{Hdbscan}}}"
+- "{vector<std::vector<double>, std::allocator<std::vector<double>>>=^v^v{?=^v}}24@0:8@16"
+
+```

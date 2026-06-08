@@ -1,0 +1,533 @@
+## powerd
+
+> `/System/Library/CoreServices/powerd.bundle/powerd`
+
+```diff
+
+-1846.120.8.0.1
+-  __TEXT.__text: 0x6e2cc
+-  __TEXT.__auth_stubs: 0x1b50
+-  __TEXT.__objc_stubs: 0x4ea0
+-  __TEXT.__objc_methlist: 0x28e4
+-  __TEXT.__const: 0x4b0
+-  __TEXT.__cstring: 0x6869
+-  __TEXT.__objc_methname: 0x6c6d
+-  __TEXT.__oslogstring: 0xc188
+-  __TEXT.__objc_classname: 0x328
+-  __TEXT.__objc_methtype: 0x871
+-  __TEXT.__gcc_except_tab: 0x4e0
++2015.0.0.0.1
++  __TEXT.__text: 0x6ff80
++  __TEXT.__auth_stubs: 0x1be0
++  __TEXT.__objc_stubs: 0x53c0
++  __TEXT.__objc_methlist: 0x2b8c
++  __TEXT.__const: 0x4f8
++  __TEXT.__cstring: 0x6cbb
++  __TEXT.__objc_methname: 0x7180
++  __TEXT.__oslogstring: 0xd79b
++  __TEXT.__objc_classname: 0x38e
++  __TEXT.__objc_methtype: 0xa1b
++  __TEXT.__gcc_except_tab: 0x46c
+   __TEXT.__dlopen_cstrs: 0x300
+   __TEXT.__ustring: 0x10
+-  __TEXT.__unwind_info: 0x15b0
+-  __DATA_CONST.__auth_got: 0xdb8
+-  __DATA_CONST.__got: 0x368
+-  __DATA_CONST.__auth_ptr: 0x30
+-  __DATA_CONST.__const: 0x25b0
+-  __DATA_CONST.__cfstring: 0x71c0
+-  __DATA_CONST.__objc_classlist: 0xa8
+-  __DATA_CONST.__objc_protolist: 0x50
++  __TEXT.__unwind_info: 0x1510
++  __DATA_CONST.__const: 0x2530
++  __DATA_CONST.__cfstring: 0x7460
++  __DATA_CONST.__objc_classlist: 0xc8
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0xa0
+-  __DATA_CONST.__objc_intobj: 0x390
++  __DATA_CONST.__objc_superrefs: 0xc0
++  __DATA_CONST.__objc_intobj: 0x3c0
+   __DATA_CONST.__objc_arraydata: 0x248
+   __DATA_CONST.__objc_dictobj: 0x168
+   __DATA_CONST.__objc_arrayobj: 0x300
+-  __DATA.__objc_const: 0x4a10
+-  __DATA.__objc_selrefs: 0x1a38
+-  __DATA.__objc_ivar: 0x3bc
+-  __DATA.__objc_data: 0x690
+-  __DATA.__data: 0xa34
+-  __DATA.__common: 0x11e8
+-  __DATA.__bss: 0xc00
++  __DATA_CONST.__auth_got: 0xe00
++  __DATA_CONST.__got: 0x380
++  __DATA_CONST.__auth_ptr: 0x30
++  __DATA.__objc_const: 0x5460
++  __DATA.__objc_selrefs: 0x1bb0
++  __DATA.__objc_ivar: 0x3dc
++  __DATA.__objc_data: 0x7d0
++  __DATA.__data: 0xbbc
++  __DATA.__bss: 0xd00
++  __DATA.__common: 0x11d8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libenergytrace.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E0B5A350-0D1C-35B6-A185-54472A5D6E6D
+-  Functions: 2383
+-  Symbols:   560
+-  CStrings:  4706
++  UUID: 3408F65A-DBF9-31A3-B827-702DDC744E8E
++  Functions: 2541
++  Symbols:   572
++  CStrings:  4934
+ 
+Symbols:
++ _IOObjectConformsTo
++ _IOObjectRetain
++ _IORegistryEntryGetParentEntry
++ _OBJC_CLASS_$_NSJSONSerialization
++ __xpc_type_int64
++ _kIOMasterPortDefault
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x8
++ _objc_retain_x9
++ _xpc_array_get_count
++ _xpc_array_get_string
+- _CFArrayCreate
+CStrings:
++ "%@:battery-health"
++ "%s Failed to create storage identifier (pack=%p key=%lu)"
++ "%s Failed to init storage"
++ "%s Failed to init super"
++ "%s storageKey=%@ result=%@"
++ "%s storageKey=%@ value=%@"
++ "%u"
++ "%u:%lu"
++ "(Test) TLC start time:%@ Elapsed:%1.f mins\n"
++ "-[BHVolatileStorage init]"
++ "-[BHVolatileStorage setValue:forKey:pack:]"
++ "-[BHVolatileStorage storageIdentifierForKey:pack:]"
++ "-[BHVolatileStorage valueForKey:pack:]"
++ "43"
++ "@24@0:8^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}16"
++ "@32@0:8Q16^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}24"
++ "AppleBatteryAuth belongs to pack %u, skipping (our pack: %u)"
++ "AppleSmartBatteryPack"
++ "Available keys in packProps: %@"
++ "AverageCurrent"
++ "BHPersistentStorage"
++ "BHPersistentStorageProtocol"
++ "BHVolatileStorage"
++ "BHVolatileStorageProtocol"
++ "Battery cell disconnect count check failed (packId=%d count=%u threshold=%u)"
++ "Battery health auth gate check (authState=%d)"
++ "Battery health service state determined (serviceState=%d serviceFlags=0x%llx peakPowerDegraded=%d batteryInfoSupported=%d)"
++ "BatteryData dictionary not found in pack %d properties"
++ "BatteryHealth"
++ "BatteryHealthVolatileStorage.m"
++ "BatteryPackCount"
++ "BatteryPacks"
++ "BatteryShippingChargeLimitManager"
++ "Copied data for pack (keyCount=%lu packId=%@)"
++ "Copied from CFPreferences (fromCurrent=%d fromLegacy=%d fromPowerlog=%d)"
++ "Copied pack health data (packId=%u packDataCount=%lu)"
++ "Copied root dict from storage (resultCount=%lu type=%ld)"
++ "Creating %u BatteryTrustedData instance(s)"
++ "Data copied from powerlog (oldServiceFlags=0x%llx oldServiceState=%d migratedServiceFlags=0x%llx)"
++ "Deleted keys from pack health data (packId=%u keyCount=%lu)"
++ "Derived battery health state (batteryState=%d serviceState=%d serviceFlags=0x%llx)"
++ "DeviceSupportsAlwaysOnTime"
++ "Evaluated pack for fusion (packIndex=%u packServiceFlags=0x%llx packServiceState=%d serviceFlags=0x%llx serviceState=%d)"
++ "Extracted auth state for pack (packId=%u authState=%d)"
++ "Failed to allocate battery health data for a device that failed pack auth"
++ "Failed to allocate battery packs array"
++ "Failed to build battery health data (status=0x%x)"
++ "Failed to copy data for pack (packId=%@ status=0x%x)"
++ "Failed to copy pack health data (packId=%u pack=%p status=0x%x)"
++ "Failed to copy powerlog container data (status=0x%x containerError=%llu)"
++ "Failed to copy powerlog data (status=0x%x)"
++ "Failed to copy raw data from NVRAM (status=0x%x)"
++ "Failed to copy root dict (status=0x%x type=%ld)"
++ "Failed to copy root dict from NVRAM (status=0x%x)"
++ "Failed to create NVRAM path string"
++ "Failed to create UUID for NVRAM path"
++ "Failed to create cycle data for pack %d\n"
++ "Failed to create matching dictionary for AppleSmartBatteryPack"
++ "Failed to create notification port for AppleSmartBattery"
++ "Failed to create xpc reply for battery health state"
++ "Failed to create xpc reply for delete battery health data"
++ "Failed to create xpc reply for set battery health data"
++ "Failed to delete keys from pack health data (packId=%u status=0x%x)"
++ "Failed to extract auth state from service (status=0x%x)"
++ "Failed to find battery pack with ID %u"
++ "Failed to fuse battery health data (packIndex=%u status=0x%x)"
++ "Failed to get AppleSmartBattery\n"
++ "Failed to get auth state for pack (packId=%u status=0x%x)"
++ "Failed to get battery health state for pack (packId=%d status=0x%x)"
++ "Failed to get battery pack from index (packIndex=%u, battery=%p)"
++ "Failed to get battery properties\n"
++ "Failed to get cycle count for pack %d\n"
++ "Failed to get matching services, kr=0x%x"
++ "Failed to handle delete battery health data (keyCount=%lu)"
++ "Failed to handle delete battery health data (keysArray=%p)"
++ "Failed to handle delete battery health data (remoteConnection=%p msg=%p)"
++ "Failed to handle get battery health state (invalid parameters)"
++ "Failed to handle set battery health data (remoteConnection=%p msg=%p)"
++ "Failed to handle set battery health data (xpcData=%p)"
++ "Failed to initialize PackAuthManager (status=0x%x)"
++ "Failed to initialize super class"
++ "Failed to merge battery health data (status=0x%x packIndex=%u)"
++ "Failed to migrate powerlog service flags (oldServiceFlags=0x%llx version=0x%llx oldServiceState=%d)"
++ "Failed to migrate powerlog service flags for version 0 (oldServiceState=%d oldServiceFlags=0x%llx)"
++ "Failed to parse batteryShippingChargeLimitAction\n"
++ "Failed to populate battery health data (batteries not available)"
++ "Failed to read properties for battery pack %u, kr=0x%x"
++ "Failed to register for AppleSmartBattery notifications: %d"
++ "Failed to retrieve dictionary\n"
++ "Failed to set ShipChargeLimitEnabled: 0x%x\n"
++ "Failed to set keys in pack health data (packId=%u status=0x%x)"
++ "Failed to write data for pack (packId=%@ status=0x%x)"
++ "Failed to write pack health data (packId=%u pack=%p status=0x%x)"
++ "Failed to write raw data to NVRAM (status=0x%x)"
++ "Failed to write root dict (status=0x%x type=%ld)"
++ "Failed to write root dict to NVRAM (status=0x%x)"
++ "Found AppleSmartBatteryPack with ID %u"
++ "Found an auth service in the registry"
++ "Found battery pack with ID %u, reading properties"
++ "Found failing auth flags after passing authentication, recovering (flags=0x%llx)"
++ "Fused battery health data (serviceFlags=0x%llx serviceState=%d packCount=%lu)"
++ "Fused shipping charge limit status: %@\n"
++ "Ignoring custom trusted battery message from unprivileged sender\n"
++ "Ignoring request for battery health persistent data from unprivileged sender\n"
++ "Ignoring request to delete battery health persistent data from unprivileged sender"
++ "Ignoring request to set battery health persistent data from unprivileged sender"
++ "InDiagnosticsMode"
++ "Inconclusive cycleCount, svcFlags: 0x%llx\n"
++ "Inconclusive maximumCapacity, svcFlags: 0x%llx\n"
++ "Initialized battery health pack authentication"
++ "Invalid battery pack count: %u"
++ "Invalid pack auth state (authState=%d)"
++ "JSONObjectWithData:options:error:"
++ "MaximumChargeCurrent"
++ "MaximumDischargeCurrent"
++ "Multi-battery system detected with %d packs"
++ "No AppleSmartBatteryPack found with ID %u"
++ "No ID property found for AppleSmartBatteryPack entry"
++ "No Pack_0 data found for multi-battery system, returning raw data\n"
++ "No data found for pack %lld\n"
++ "No data found in NVRAM (nvramPath=%@)"
++ "No data found in powerlog container"
++ "PMStore.m"
++ "Pack %d: Found BatteryData dictionary"
++ "Pack %d: New cycle count: %d. Previous cycle count: %d\n"
++ "Pack %u: currentCap=%d, maxCap=%d, voltage=%d, cycleCount=%d, serial=%@"
++ "Pack ID property not found"
++ "Pack auth supported status checked (isSupported=%d)"
++ "Pack entry not found"
++ "PackAuthManager"
++ "PackID"
++ "PackIndex"
++ "Pack_"
++ "Pack_%d"
++ "Pack_%lld"
++ "Pack_0"
++ "Q28@0:8Q16i24"
++ "Re-published actual trusted data after reset\n"
++ "Read pack auth state %d"
++ "RemainingCapacity"
++ "Resetting Overrides for trusted battery data\n"
++ "Retrieved auth state for pack (packId=%u authState=%d)"
++ "Returning cycle count data as-is (no Pack_0 found)\n"
++ "Returning cycle count data as-is (pack count=%d)\n"
++ "Returning cycle count data for pack %lld\n"
++ "Returning flattened cycle count data for single battery\n"
++ "Returning merged cycle count data for multi-battery (count=%d)\n"
++ "Searching for battery pack with ID %u"
++ "Set keys in pack health data (packId=%u keyCount=%lu)"
++ "Setting Overrides for trusted battery data\n"
++ "ShipChargeLimitCompliant"
++ "ShipChargeLimitData"
++ "ShipChargeLimitData incomplete\n"
++ "ShipChargeLimitData not found\n"
++ "ShipChargeLimitEnabled"
++ "ShipChargeLimitSupported"
++ "ShippingChargeLimit"
++ "Single battery system detected, populating pack[0] with fusion data"
++ "Skipped powerlog container read because device has not unlocked since boot"
++ "Skipping battery health loop due to missing auth [0x%llx]"
++ "Successfully read properties for battery pack %u, unpacking"
++ "Successfully resolved auth service (packId=%u isTrusted=%d)"
++ "Successfully set ShipChargeLimitEnabled to %@\n"
++ "T@\"NSNumber\",&,N,V_testTlcStartTimestamp"
++ "T@\"PackAuthManager\",R,N"
++ "TI,V_packIndex"
++ "Triggered battery update notification\n"
++ "Trusted property not found"
++ "Unable to create instance for BatteryTrustedData pack %u"
++ "Unable to get previous battery health state. Service Flags:0x%llx Service State:%d\n"
++ "Unable to get serial number of the battery. Service Flags:0x%llx Service State:%d\n"
++ "Unexpected BatteryPackCount %u, defaulting to 1"
++ "Unknown pack service state (packServiceState=%d)"
++ "Wrote data for pack (dataCount=%lu packId=%@)"
++ "Wrote pack health data (packId=%u dataCount=%lu)"
++ "Wrote root dict to storage (rootDictCount=%lu type=%ld)"
++ "[ENTER] kiosk mode: %d flags: 0x%llx K/Q:%d/%d qmax:%d currentTime:%llu"
++ "[EXIT] kiosk mode: %d flags: 0x%llx K/Q:%d/%d"
++ "[pack %u] %@ key is NULL, timer value is %@ seconds"
++ "[pack %u] (%llu) is greater than current time(%llu), timer value is %@ seconds"
++ "[pack %u] AppleBatteryAuth indicates auth unknown/failure, still continue..."
++ "[pack %u] Arming a new timer for %@ seconds\n"
++ "[pack %u] Auth Failed"
++ "[pack %u] Auth Passed"
++ "[pack %u] Auth has failed/state Unknown"
++ "[pack %u] Auth state unknown yet"
++ "[pack %u] Battery Trusted Data start completed"
++ "[pack %u] Callback triggered"
++ "[pack %u] Cancelling any existing Alarms\n"
++ "[pack %u] CoreAccessories.framework loaded, continue running !!\n"
++ "[pack %u] CoreAccessories.framework not loaded!!\n"
++ "[pack %u] CoreAccessories.framework not loaded, bail out!!\n"
++ "[pack %u] Could not create ppsId with subsystem BatteryTrustedData and Daily as BatteryTrustedData"
++ "[pack %u] Data is %@"
++ "[pack %u] Decoding Nonce now"
++ "[pack %u] End time(%llu) is greater than current time(%llu), timer value is %@ seconds"
++ "[pack %u] Error getting initial message from AppleBatteryAuth: %d"
++ "[pack %u] Error getting message from AppleBatteryAuth: %d"
++ "[pack %u] Failed to create queue %s"
++ "[pack %u] Failed to install notification for AppleBatteryAuth: %d"
++ "[pack %u] Failed to register for kIOGeneralInterest notifications from %s. rc:0x%x"
++ "[pack %u] Got Null data from AppleBatteryAuth."
++ "[pack %u] Initial auth suggest it has failed, timer value is %@ seconds"
++ "[pack %u] Last auth passed time (%llu) is greater than current time(%llu), timer value is %@ seconds"
++ "[pack %u] Nil payload. Nothing to send to PPS"
++ "[pack %u] No CoreAccessories Framework to run, EXIT"
++ "[pack %u] No Override found for timer, using default timer value"
++ "[pack %u] PPS request object not found. Unable to send data to powerlog"
++ "[pack %u] Periodic Timer Fired\n"
++ "[pack %u] Read defaults Override time in seconds: %@"
++ "[pack %u] STOP Called: Removing transport matching notifications..."
++ "[pack %u] Service matching notification callback fired!"
++ "[pack %u] Timer value determined to be %@ seconds"
++ "[pack %u] Timer value is %@ seconds"
++ "[pack %u] Trigger auth!"
++ "[pack %u] Trusted Data feature disabled, EXIT"
++ "[pack %u] Trusted data path disabled."
++ "[pack %u] Trusted data path enabled."
++ "[pack %u] We have been told to bail out!"
++ "[pack %u] doNotRunAnymore is true, return and dont set any more timers"
++ "[pack %u] ppsId created with subsystem BatteryTrustedData and Daily as BatteryTrustedData"
++ "_authQueue"
++ "_authStateExtractFromService:packId:authState:"
++ "_authStates"
++ "_notificationQueue"
++ "_nvramCache"
++ "_nvramPath"
++ "_packIndex"
++ "_serviceMatchHandle:"
++ "_storage"
++ "_testTlcStartTimestamp"
++ "allKeys"
++ "arrayWithObject:"
++ "authStateForPack:"
++ "batteryHealth"
++ "batteryHealthAuth"
++ "batteryHealthStorage"
++ "batteryPackId"
++ "batteryShippingChargeLimit"
++ "batteryShippingChargeLimitAction"
++ "batteryShippingChargeLimitEnable"
++ "batteryShippingChargeLimitEvent received\n"
++ "batteryShippingChargeLimitManager_prime init\n"
++ "batteryShippingChargeLimitState"
++ "batterydata"
++ "batteryshipchargelimit"
++ "calib0: updating calibraiton flags using psvc%d psvcflag0x%llx -> svc%d svcflag0x%llx"
++ "calib1/current: ncc %d/%d svcFlags %llx/%llx"
++ "calib1: ncc %d svcFlags %llx"
++ "calib: svcFlags post: 0x%llx"
++ "calib: svcFlags pre: 0x%llx"
++ "cfprefsRawDataCurrentContainerCopy"
++ "cfprefsRawDataCurrentContainerWrite:"
++ "cfprefsRawDataLegacyContainerClear"
++ "cfprefsRawDataLegacyContainerCopy"
++ "com.apple.powerd.chargestate"
++ "com.apple.private.iokit.battery-shipping-charge-limit"
++ "com.apple.private.powerd.batteryAuthNotificationQ"
++ "com.apple.private.powerd.batteryAuthQ"
++ "com.apple.private.powerd.batteryShippingChargeLimitQ"
++ "dataCopyForPack:outData:"
++ "dataWithJSONObject:options:error:"
++ "dataWrite:forPack:"
++ "deleteBatteryHealthPersistentData"
++ "deleteBatteryHealthPersistentDataKeys"
++ "enumerateKeysAndObjectsUsingBlock:"
++ "hasPrefix:"
++ "i20@0:8I16"
++ "i24@0:8@16"
++ "i24@0:8^@16"
++ "i32@0:8@\"NSDictionary\"16^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}24"
++ "i32@0:8@16^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}24"
++ "i32@0:8^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}16^@24"
++ "i36@0:8I16^I20^i28"
++ "initBatteryShippingChargeLimitData"
++ "initWithBytesNoCopy:length:encoding:freeWhenDone:"
++ "initWithUUIDBytes:"
++ "insertObject:atIndex:"
++ "isSupported"
++ "lastObject"
++ "nvramRawDataCopy:"
++ "nvramRawDataWrite:"
++ "packIdForPack:"
++ "packIndex"
++ "powerlogDataCopy"
++ "powerlogDataMigrateFlags:forState:"
++ "powerlogRawDataContainerCopy"
++ "q16@0:8"
++ "readBatteryHealthPersistentData"
++ "removeObjectsForKeys:"
++ "replaceObjectAtIndex:withObject:"
++ "resetTrustedBatteryData"
++ "rootDictCFPrefsCopy:"
++ "rootDictCFPrefsWrite:"
++ "rootDictCopy:"
++ "rootDictNVRAMCopy:"
++ "rootDictNVRAMWrite:"
++ "rootDictWrite:"
++ "setBatteryHealthPersistentData"
++ "setBatteryHealthPersistentDataEntries"
++ "setObject:atIndexedSubscript:"
++ "setPackIndex:"
++ "setTestTlcStartTimestamp:"
++ "setTrustedBatteryData"
++ "setValue:forKey:pack:"
++ "sharedManager"
++ "sharedStorage"
++ "shippingChargeLimitStatusGet"
++ "shippingChargeLimitSystemControl:"
++ "storageIdentifierForKey:pack:"
++ "storageKey"
++ "storageTypeGet"
++ "testTlcStartTimestamp"
++ "v24@0:8^@16"
++ "v32@?0@8@16^B24"
++ "v40@0:8@16Q24^{?=IIb1b1b1b1b1iiiiiiIiiiiiiQIiiii@@@qi}32"
++ "valueForKey:pack:"
+- "$3"
+- "%@ key is NULL, timer value is %@ seconds"
+- "%s: %d %s: %d"
+- "(%llu) is greater than current time(%llu), timer value is %@ seconds"
+- "0"
+- "3kmXfug8VcxLI5yEmsqQKw"
+- "AppleBatteryAuth indicates auth unknown/failure, still continue..."
+- "Arming a new timer for %@ seconds\n"
+- "Auth Failed"
+- "Auth Passed"
+- "Auth has failed/state Unknown"
+- "Auth state unknown yet"
+- "BCDC(%d) is greater than the threshold(%d)\n"
+- "BHT Range not supported\n"
+- "Battery Auth"
+- "Battery Health data from powerlog's prefs. SvcFlags:0x%x SvcState:%d MaxCapacity:%{public}@\n"
+- "Battery Trusted Data start completed"
+- "Battery data read from default prefs\n"
+- "Battery service flags after migration: 0x%x\n"
+- "BatteryAuth.m"
+- "Calibration failed. Service Flags:0x%x Service State:%d"
+- "Callback triggered"
+- "Cancelling any existing Alarms\n"
+- "CoreAccessories.framework loaded, continue running !!\n"
+- "CoreAccessories.framework not loaded!!\n"
+- "CoreAccessories.framework not loaded, bail out!!\n"
+- "Could not create ppsId with subsystem BatteryTrustedData and Daily as BatteryTrustedData"
+- "Data is %@"
+- "Decoding Nonce now"
+- "Deleting key %@ from old store\n"
+- "End time(%llu) is greater than current time(%llu), timer value is %@ seconds"
+- "Error fetching group container systemgroup.com.apple.powerlog : %llu"
+- "Error getting initial message from AppleBatteryAuth: %d"
+- "Error getting message from AppleBatteryAuth: %d"
+- "Failed to allocate memory to delete battery data from default prefs\n"
+- "Failed to create XPC object\n"
+- "Failed to create dictionary to hold battery data\n"
+- "Failed to create queue %s"
+- "Failed to create response data\n"
+- "Failed to get matching dict handles\n"
+- "Failed to install notification for AppleBatteryAuth: %d"
+- "Failed to read battery cell disconnect count\n"
+- "Failed to read battery data from default prefs\n"
+- "Failed to read battery health data from custom container location\n"
+- "Failed to register"
+- "Failed to register for kIOGeneralInterest notifications from %s. rc:0x%x"
+- "Got Null data from AppleBatteryAuth."
+- "IOPSBatteryHealthServiceState"
+- "Inconclusive cycleCount, svcFlags: 0x%x\n"
+- "Inconclusive maximumCapacity, svcFlags: 0x%x\n"
+- "Index"
+- "Initial auth suggest it has failed, timer value is %@ seconds"
+- "Invalid auth condition: recoveredflags:0x%x"
+- "Invalid auth flags detected: authOk:%d flags:0x%x"
+- "Invalid type\n"
+- "Last auth passed time (%llu) is greater than current time(%llu), timer value is %@ seconds"
+- "MaximimChargeCurrent"
+- "MaximimDischargeCurrent"
+- "New cycle count: %d. Previous cycle count at which data is saved: %d\n"
+- "Nil payload. Nothing to send to PPS"
+- "No CoreAccessories Framework to run, EXIT"
+- "No MaxBatteryCapacity found in powerlog's battery health state\n"
+- "No Override found for timer, using default timer value"
+- "No battery serial number found powerlog's battery health state.\n"
+- "PMStore.c"
+- "PPS request object not found. Unable to send data to powerlog"
+- "Periodic Timer Fired\n"
+- "Powerlog Service Flags 0x%x with version 0x%x is unexpected\n"
+- "Read battery auth state %d"
+- "Read defaults Override time in seconds: %@"
+- "STOP Called: Removing transport matching notifications..."
+- "Skipping battery health loop due to missing auth [0x%x]"
+- "Timer value determined to be %@ seconds"
+- "Timer value is %@ seconds"
+- "Trigger auth!"
+- "Trusted Data feature disabled, EXIT"
+- "Trusted data path disabled."
+- "Trusted data path enabled."
+- "Unable to create instance for BatteryTrustedData"
+- "Unable to determine Battery Health Service state. Service Flags:0x%x Service State:%d\n"
+- "Unable to get previous battery health state. Service Flags:0x%x Service State:%d\n"
+- "Unable to get serial number of the battery. Service Flags:0x%x Service State:%d\n"
+- "Unexpected Service state %d\n"
+- "We have been told to bail out!"
+- "[ENTER] kiosk mode: %d flags: 0x%x K/Q:%d/%d qmax:%d currentTime:%llu"
+- "[EXIT] kiosk mode: %d flags: 0x%x K/Q:%d/%d"
+- "battery auth state: %d flags: 0x%x"
+- "batteryAuth"
+- "batteryAuthQ"
+- "batteryHealthServiceBCDC support: %d"
+- "batteryhealth"
+- "calib0: updating calibraiton flags using psvc%d psvcflag0x%x -> svc%d svcflag0x%x"
+- "calib1/current: ncc %d/%d svcFlags %d/%d"
+- "calib1: ncc %d svcFlags %d"
+- "calib: calculating svc option from 0x%x"
+- "calib: clearing bits"
+- "calib: read current calibration flags 0x%lx"
+- "calib: skipping due to precedence"
+- "calib: svcFlags post: 0x%x"
+- "calib: svcFlags pre: 0x%x"
+- "doNotRunAnymore is true, return and dont set any more timers"
+- "failed to migrate cycleCountData\n"
+- "initializeBatteryAuth"
+- "isTrustedForUI: %d"
+- "j8/Omm6s1lsmTDFsXjsBfA"
+- "not supported"
+- "notify"
+- "powerlog's battery health data can't be migrated until first unlock\n"
+- "ppsId created with subsystem BatteryTrustedData and Daily as BatteryTrustedData"
+- "sharedAVSystemController"
+- "supported"
+
+```

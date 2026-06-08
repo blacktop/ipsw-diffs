@@ -1,0 +1,34 @@
+## com.apple.driver.AppleA7IOP-ASCWrap-v6
+
+> `com.apple.driver.AppleA7IOP-ASCWrap-v6`
+
+```diff
+
+-304.100.17.0.0
+-  __TEXT.__cstring: 0x4f2
++337.0.0.0.0
++  __TEXT.__cstring: 0x4f4
+   __TEXT_EXEC.__text: 0x1e0c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x88
+-  __DATA_CONST.__auth_got: 0xd0
+-  __DATA_CONST.__got: 0x10
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x1788
+   __DATA_CONST.__kalloc_type: 0xc0
+-  UUID: 4AEDAA87-7C8F-335A-8C56-F5BDDDEB773B
++  __DATA_CONST.__auth_got: 0xd0
++  __DATA_CONST.__got: 0x10
++  UUID: 380B26FB-312C-3935-B8DC-C95C2507237B
+   Functions: 124
+   Symbols:   0
+   CStrings:  33
+CStrings:
++ "1211111212221212111222111112121112112121122222111211121"
++ "121111121222121211122211111212111211212112222211121112111"
+- "121111121222121211122211111212111211212112222111211121"
+- "12111112122212121112221111121211121121211222211121112111"
+
+```

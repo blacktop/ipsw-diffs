@@ -1,0 +1,1693 @@
+## SwiftCRLite
+
+> `/System/Library/PrivateFrameworks/SwiftCRLite.framework/SwiftCRLite`
+
+```diff
+
+-3.100.17.0.0
+-  __TEXT.__text: 0x2dbb8
+-  __TEXT.__auth_stubs: 0x14e0
+-  __TEXT.__objc_methlist: 0x460
+-  __TEXT.__const: 0x2e6c
+-  __TEXT.__cstring: 0x195c
+-  __TEXT.__oslogstring: 0x2e1
+-  __TEXT.__swift5_typeref: 0x977
+-  __TEXT.__swift5_reflstr: 0x98f
+-  __TEXT.__swift5_assocty: 0x198
+-  __TEXT.__constg_swiftt: 0xb60
+-  __TEXT.__swift5_fieldmd: 0xd50
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_proto: 0x24c
+-  __TEXT.__swift5_types: 0xd4
+-  __TEXT.__swift_as_entry: 0x4
+-  __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_capture: 0xd4
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xc98
+-  __TEXT.__eh_frame: 0x1818
+-  __TEXT.__objc_classname: 0x193
+-  __TEXT.__objc_methname: 0x7ab
+-  __TEXT.__objc_methtype: 0x3e2
+-  __TEXT.__objc_stubs: 0x8a0
+-  __DATA_CONST.__got: 0x298
+-  __DATA_CONST.__const: 0xb8
+-  __DATA_CONST.__objc_classlist: 0x50
++116.0.0.0.2
++  __TEXT.__text: 0x936b8
++  __TEXT.__objc_methlist: 0x38c
++  __TEXT.__const: 0x7ad8
++  __TEXT.__cstring: 0x3aaf
++  __TEXT.__oslogstring: 0x1256
++  __TEXT.__swift5_typeref: 0x1a83
++  __TEXT.__swift5_reflstr: 0x1692
++  __TEXT.__swift5_assocty: 0x330
++  __TEXT.__constg_swiftt: 0x1794
++  __TEXT.__swift5_fieldmd: 0x2290
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_proto: 0x61c
++  __TEXT.__swift5_types: 0x208
++  __TEXT.__swift5_protos: 0x14
++  __TEXT.__swift_as_entry: 0x4c
++  __TEXT.__swift_as_ret: 0x80
++  __TEXT.__swift_as_cont: 0x74
++  __TEXT.__swift5_capture: 0x368
++  __TEXT.__swift5_mpenum: 0x84
++  __TEXT.__unwind_info: 0x1ef0
++  __TEXT.__eh_frame: 0x3ec8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xd0
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x310
++  __DATA_CONST.__objc_selrefs: 0x2b0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xa78
+-  __AUTH_CONST.__const: 0x1c80
+-  __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0xa00
+-  __AUTH.__objc_data: 0x1f0
+-  __AUTH.__data: 0xc00
+-  __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0x8f0
+-  __DATA.__bss: 0x4910
+-  __DATA.__common: 0x30
++  __DATA_CONST.__got: 0x4e0
++  __AUTH_CONST.__const: 0x4a70
++  __AUTH_CONST.__cfstring: 0x40
++  __AUTH_CONST.__objc_const: 0x1158
++  __AUTH_CONST.__auth_got: 0x1148
++  __AUTH.__objc_data: 0xe0
++  __AUTH.__data: 0x2d8
++  __DATA.__objc_ivar: 0x10
++  __DATA.__data: 0xef8
++  __DATA.__bss: 0x9500
++  __DATA.__common: 0x18
++  __DATA_DIRTY.__objc_data: 0x590
++  __DATA_DIRTY.__data: 0x18d0
++  __DATA_DIRTY.__bss: 0x2b80
++  __DATA_DIRTY.__common: 0xa8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/CascadingFilters.framework/CascadingFilters
++  - /System/Library/PrivateFrameworks/CloudTelemetry.framework/CloudTelemetry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 74F0522C-20D1-3000-AC53-DFA9AE06D07B
+-  Functions: 1112
+-  Symbols:   773
+-  CStrings:  381
++  UUID: 9F3B852B-BBB4-3159-9A86-CA85A7910CCF
++  Functions: 2750
++  Symbols:   1367
++  CStrings:  463
+ 
+Symbols:
++ +[SwiftCRLiteClient initialSetup:]
++ +[SwiftCRLiteClient provisionDatabaseAt:environment:completionHandler:]
++ +[SwiftCRLiteClient resetDatabase:]
++ -[SwiftCRLiteClient .cxx_destruct]
++ -[SwiftCRLiteClient client]
++ -[SwiftCRLiteClient doSQLite:]
++ -[SwiftCRLiteClient findCRLiteForCertificate:issuer:additionalSCTs:]
++ -[SwiftCRLiteClient initWithURL:creationAllowed:error:]
++ -[SwiftCRLiteClient initialSetup:]
++ -[SwiftCRLiteClient isSetup]
++ -[SwiftCRLiteClient requestUpdateValid:]
++ -[SwiftCRLiteClient setClient:]
++ -[SwiftCRLiteInfo generationUsed]
++ -[SwiftCRLiteInfo initWithStatus:generationUsed:versionUsed:]
++ -[SwiftCRLiteInfo status]
++ -[SwiftCRLiteInfo versionUsed]
++ _CFNotificationCenterGetDarwinNotifyCenter
++ _CFNotificationCenterPostNotification
++ _CFPreferencesCopyValue
++ _CFPreferencesSetValue
++ _NSFileGroupOwnerAccountID
++ _NSFileModificationDate
++ _NSFileOwnerAccountID
++ _NSFilePosixPermissions
++ _NSFileProtectionKey
++ _NSFileProtectionNone
++ _NSMultipleUnderlyingErrorsKey
++ _NSURLAuthenticationMethodServerTrust
++ _NSURLContentModificationDateKey
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSProcessInfo
++ _OBJC_CLASS_$_NSURLCredential
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$_SwiftCRLiteClient
++ _OBJC_CLASS_$_SwiftCRLiteInfo
++ _OBJC_CLASS_$__TtC11SwiftCRLite11ValidClient
++ _OBJC_CLASS_$__TtC11SwiftCRLite14ValidDaemonIPC
++ _OBJC_CLASS_$__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ _OBJC_IVAR_$_SwiftCRLiteClient._client
++ _OBJC_IVAR_$_SwiftCRLiteInfo._generationUsed
++ _OBJC_IVAR_$_SwiftCRLiteInfo._status
++ _OBJC_IVAR_$_SwiftCRLiteInfo._versionUsed
++ _OBJC_METACLASS_$_SwiftCRLiteClient
++ _OBJC_METACLASS_$_SwiftCRLiteInfo
++ _OBJC_METACLASS_$__TtC11SwiftCRLite11ValidClient
++ _OBJC_METACLASS_$__TtC11SwiftCRLite14ValidDaemonIPC
++ _OBJC_METACLASS_$__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ _SecCRLiteUpdateValid
++ _SecCertificateCopySignedCertificateTimestamps
++ _SecPolicyCreateAppleValidCMS
++ _SecPolicyCreateAppleValidHTTPS
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ _SecTrustCopyResult
++ _SecTrustEvaluateWithError
++ _SecTrustSetPolicies
++ _SwiftCRLiteIngestFullDump
++ __CLASS_METHODS__TtC11SwiftCRLite11ValidClient
++ __CLASS_METHODS__TtC11SwiftCRLite14ValidDaemonIPC
++ __DATA__TtC11SwiftCRLite11ValidClient
++ __DATA__TtC11SwiftCRLite11ValidDBStmt
++ __DATA__TtC11SwiftCRLite14ValidDaemonIPC
++ __DATA__TtC11SwiftCRLite15ValidDaemonCore
++ __DATA__TtC11SwiftCRLite16ValidCompression
++ __DATA__TtC11SwiftCRLite17DownloadValidator
++ __DATA__TtC11SwiftCRLite19ValidDatabaseFilter
++ __DATA__TtC11SwiftCRLite25ValidMetricCloudTelemetry
++ __DATA__TtC11SwiftCRLite6CRLite
++ __DATA__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ __INSTANCE_METHODS__TtC11SwiftCRLite11ValidClient
++ __INSTANCE_METHODS__TtC11SwiftCRLite14ValidDaemonIPC
++ __INSTANCE_METHODS__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ __IVARS__TtC11SwiftCRLite11ValidClient
++ __IVARS__TtC11SwiftCRLite11ValidDBStmt
++ __IVARS__TtC11SwiftCRLite14ValidDaemonIPC
++ __IVARS__TtC11SwiftCRLite15ValidDaemonCore
++ __IVARS__TtC11SwiftCRLite15ValidDownloader
++ __IVARS__TtC11SwiftCRLite17DownloadValidator
++ __IVARS__TtC11SwiftCRLite19ValidDatabaseFilter
++ __IVARS__TtC11SwiftCRLite25ValidMetricCloudTelemetry
++ __IVARS__TtC11SwiftCRLite6CRLite
++ __IVARS__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ __METACLASS_DATA__TtC11SwiftCRLite11ValidClient
++ __METACLASS_DATA__TtC11SwiftCRLite11ValidDBStmt
++ __METACLASS_DATA__TtC11SwiftCRLite14ValidDaemonIPC
++ __METACLASS_DATA__TtC11SwiftCRLite15ValidDaemonCore
++ __METACLASS_DATA__TtC11SwiftCRLite16ValidCompression
++ __METACLASS_DATA__TtC11SwiftCRLite17DownloadValidator
++ __METACLASS_DATA__TtC11SwiftCRLite19ValidDatabaseFilter
++ __METACLASS_DATA__TtC11SwiftCRLite25ValidMetricCloudTelemetry
++ __METACLASS_DATA__TtC11SwiftCRLite6CRLite
++ __METACLASS_DATA__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ __OBJC_$_CLASS_METHODS_SwiftCRLiteClient
++ __OBJC_$_INSTANCE_METHODS_SwiftCRLiteClient
++ __OBJC_$_INSTANCE_METHODS_SwiftCRLiteInfo
++ __OBJC_$_INSTANCE_VARIABLES_SwiftCRLiteClient
++ __OBJC_$_INSTANCE_VARIABLES_SwiftCRLiteInfo
++ __OBJC_$_PROP_LIST_SwiftCRLiteClient
++ __OBJC_$_PROP_LIST_SwiftCRLiteInfo
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
++ __OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
++ __OBJC_CLASS_RO_$_SwiftCRLiteClient
++ __OBJC_CLASS_RO_$_SwiftCRLiteInfo
++ __OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
++ __OBJC_METACLASS_RO_$_SwiftCRLiteClient
++ __OBJC_METACLASS_RO_$_SwiftCRLiteInfo
++ __OBJC_PROTOCOL_$_NSURLSessionDelegate
++ __PROTOCOLS__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate
++ __PROTOCOLS__TtCC11SwiftCRLite15ValidDownloader15SessionDelegate.19
++ ___30-[SwiftCRLiteClient doSQLite:]_block_invoke
++ ___34-[SwiftCRLiteClient initialSetup:]_block_invoke
++ ___40-[SwiftCRLiteClient requestUpdateValid:]_block_invoke
++ ___71+[SwiftCRLiteClient provisionDatabaseAt:environment:completionHandler:]_block_invoke
++ ___SecCRLiteUpdateValid_block_invoke
++ ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
++ ___block_descriptor_40_e8_32bs_e9_v16?0^v8ls32l8
++ ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8ls32l8
++ ___swift__destructor
++ ___swift__destructor.4
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.46Tm
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.285
++ ___swift_exist.box.addr_destructor.288
++ ___swift_memcpy136_8
++ ___swift_memcpy2_1
++ ___swift_memcpy33_8
++ ___swift_memcpy41_8
++ ___swift_memcpy56_8
++ ___swift_memcpy72_8
++ ___swift_memcpy88_8
++ __os_log_default
++ __swiftEmptySetSingleton
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 11SwiftCRLite0B14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite0B14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite0B14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite0B6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite0B6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite0B6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite0B6ResultV6StatusOSHAASQ
++ _associated conformance 11SwiftCRLite0B6StatusOSHAASQ
++ _associated conformance 11SwiftCRLite0aB5ErrorO10Foundation09LocalizedC0AAs0C0
++ _associated conformance 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs011CustomDebugH11Convertible
++ _associated conformance 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs06CustomH11Convertible
++ _associated conformance 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0I20B812CDB9A1B19594C35ELLOSHAASQ
++ _associated conformance 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0I20B812CDB9A1B19594C35ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0I20B812CDB9A1B19594C35ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite12ValidOptionsVs10SetAlgebraAASQ
++ _associated conformance 11SwiftCRLite12ValidOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 11SwiftCRLite12ValidOptionsVs9OptionSetAASY
++ _associated conformance 11SwiftCRLite12ValidOptionsVs9OptionSetAAs0F7Algebra
++ _associated conformance 11SwiftCRLite13ValidDatabaseC04SeedD6ResultOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0C6SourceOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0C6UpdateV10CodingKeysOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0C6UpdateV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC0C6UpdateV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0K20B812CDB9A1B19594C35ELLOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0K20B812CDB9A1B19594C35ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0K20B812CDB9A1B19594C35ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite13ValidDatabaseC17IntegritySeverityOSHAASQ
++ _associated conformance 11SwiftCRLite13ValidHashTypeOSHAASQ
++ _associated conformance 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLOSHAASQ
++ _associated conformance 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLOSHAASQ
++ _associated conformance 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite17ValidUpdateServerOSHAASQ
++ _associated conformance 11SwiftCRLite17ValidUpdateServerOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO21FetchUpdateCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO21FetchUpdateCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO22InitialSetupCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO22InitialSetupCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO23ResetDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO23ResetDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO24DeleteDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO24DeleteDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO26CheckPermissionsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite18ValidDaemonRequestO26CheckPermissionsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19FilePermissionIssueV10Foundation13CustomNSErrorAAs5Error
++ _associated conformance 11SwiftCRLite19FilePermissionIssueV4CodeOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO010SetVersionE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO010SetVersionE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO010SetVersionE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO012InitialSetupE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO012InitialSetupE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013SetGenerationE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013SetGenerationE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO013SetGenerationE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06StatusE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06StatusE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06StatusE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO0D6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO0D6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO0D6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite20ValidDownloadMetricsV0D4TypeOSHAASQ
++ _associated conformance 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
++ _associated conformance 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SwiftCRLite8MachTimeVSLAASQ
++ _associated conformance 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLOSHAASQ
++ _associated conformance 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance So16NSURLResourceKeyaSHSCSQ
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So18NSFileAttributeKeyaSHSCSQ
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So20NSFileProtectionTypeaSHSCSQ
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.142
++ _block_copy_helper.152
++ _block_descriptor.144
++ _block_descriptor.154
++ _block_destroy_helper.143
++ _block_destroy_helper.153
++ _chmod
++ _close
++ _dispatch_sync
++ _fchmod
++ _get_enum_tag_for_layout_string 11SwiftCRLite10ValidErrorV14UserInfoValuesO
++ _get_enum_tag_for_layout_string 11SwiftCRLite10ValidErrorVSg
++ _get_enum_tag_for_layout_string 11SwiftCRLite13DaemonCommandO
++ _get_enum_tag_for_layout_string 11SwiftCRLite17ValidDBStepResultO
++ _get_enum_tag_for_layout_string 11SwiftCRLite19ValidDaemonResponseO
++ _get_type_metadata 15Synchronization5MutexVy11SwiftCRLite11ValidHashesVG noncopyable.26
++ _get_type_metadata 15Synchronization5MutexVy11SwiftCRLite13ValidDatabaseC9AdminDataVSgG noncopyable.31
++ _get_type_metadata 15Synchronization5MutexVy11SwiftCRLite16CachedFilterFile011_DB83DCB2C0J20B812CDB9A1B19594C35ELLVSgG noncopyable.30
++ _get_type_metadata 15Synchronization5MutexVySbG noncopyable.27
++ _get_type_metadata 15Synchronization5MutexVySiG noncopyable.25
++ _getgrnam
++ _getpwnam
++ _kCFPreferencesAnyHost
++ _kCFPreferencesAnyUser
++ _link
++ _lstat
++ _mach_absolute_time
++ _mach_timebase_info
++ _notify_cancel
++ _notify_check
++ _notify_register_check
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$attributesOfItemAtPath:error:
++ _objc_msgSend$authenticationMethod
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$client
++ _objc_msgSend$code
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$createAndReturnError:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$createWithUrl:creationAllowed:error:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$doSQLiteWithBlock:
++ _objc_msgSend$domain
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$findCRLiteForCertificate:issuerCert:scts:error:
++ _objc_msgSend$host
++ _objc_msgSend$ingestFullDumpWithDatabasePath:validData:server:generation:verifyCMS:error:
++ _objc_msgSend$initWithContentsOfFile:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithStatus:generationUsed:versionUsed:
++ _objc_msgSend$initWithTrust:
++ _objc_msgSend$initialSetupWithCompletion:
++ _objc_msgSend$isSetup
++ _objc_msgSend$mainBundle
++ _objc_msgSend$moveItemAtURL:toURL:error:
++ _objc_msgSend$operatingSystemVersionString
++ _objc_msgSend$processInfo
++ _objc_msgSend$protectionSpace
++ _objc_msgSend$provisionedTestDatabaseAt:environment:completionHandler:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$requestUpdateValidWithComplete:
++ _objc_msgSend$requestUpdateValidWithCompletion:
++ _objc_msgSend$resetDatabaseWithCompletion:
++ _objc_msgSend$serverTrust
++ _objc_msgSend$sessionWithConfiguration:delegate:delegateQueue:
++ _objc_msgSend$setAttributes:ofItemAtPath:error:
++ _objc_msgSend$setClient:
++ _objc_msgSend$setHTTPAdditionalHeaders:
++ _objc_msgSend$setHTTPCookieStorage:
++ _objc_msgSend$setTLSMinimumSupportedProtocolVersion:
++ _objc_msgSend$setURLCache:
++ _objc_msgSend$underlyingErrors
++ _objc_msgSend$userInfo
++ _objc_retain_x4
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _os_variant_allows_internal_security_policies
++ _os_variant_has_internal_diagnostics
++ _rename
++ _sqlite3_free
++ _sqlite3_vmprintf
++ _strerror
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_cvw_enumFn_getEnumTag
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getErrorValue
++ _swift_getTupleTypeLayout2
++ _swift_isEscapingClosureAtFileLocation
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x13
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_stdlib_random
++ _swift_task_create
++ _swift_willThrowTypedImpl
++ _symbolic $s11SwiftCRLite10ValidDBRowP
++ _symbolic $s11SwiftCRLite19ValidMetricProtocolP
++ _symbolic $s11SwiftCRLite21ValidDownloadProtocolP
++ _symbolic $s11SwiftCRLite22ValidDaemonIPCProtocolP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic BD
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic Ig_
++ _symbolic SDySSSiGSg
++ _symbolic SDySS_____G 11SwiftCRLite05ValidA2DBC8SQLValueO
++ _symbolic SDySS_____G 11SwiftCRLite10ValidErrorV14UserInfoValuesO
++ _symbolic SDySS_____G 14CloudTelemetry10EventValueO
++ _symbolic SDySS_____Gz_Xx 11SwiftCRLite05ValidA2DBC8SQLValueO
++ _symbolic SDy__________G 11SwiftCRLite13ValidHashTypeO 10Foundation4DataV
++ _symbolic SPy_____G s4Int8V
++ _symbolic SS3key_yp5valuet
++ _symbolic SS6string_t
++ _symbolic SSSgSg
++ _symbolic SS______t 11SwiftCRLite05ValidA2DBC8SQLValueO
++ _symbolic SS______t 14CloudTelemetry10EventValueO
++ _symbolic SaySo7NSErrorCG
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 11SwiftCRLite0B14CoverageRecordV
++ _symbolic Say_____G 11SwiftCRLite10ValidErrorV
++ _symbolic Say_____G 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV
++ _symbolic Say_____G 11SwiftCRLite13ValidDatabaseC14IntegrityIssueV
++ _symbolic Say_____G 11SwiftCRLite16ValidFilterEntryV
++ _symbolic Say_____G 11SwiftCRLite17ValidUpdateServerO
++ _symbolic Say_____G 11SwiftCRLite19FilePermissionIssueV
++ _symbolic Say_____G 3XPC10XPCSessionC21InitializationOptionsV
++ _symbolic Say_____G6errors_t 11SwiftCRLite10ValidErrorV
++ _symbolic Say_____GSg 11SwiftCRLite19FilePermissionIssueV
++ _symbolic SayypG
++ _symbolic SayypGz_Xx
++ _symbolic SbIeghy_
++ _symbolic ScA_pSg
++ _symbolic ScCy__________G 11SwiftCRLite19ValidDaemonResponseO s5NeverO
++ _symbolic ScPSg
++ _symbolic ScSy_____G 11SwiftCRLite13DaemonCommandO
++ _symbolic ScSy_____G6stream______yAA_G12continuationt 11SwiftCRLite13DaemonCommandO ScS12ContinuationV
++ _symbolic SdSg
++ _symbolic Shy_____G 10Foundation4DataV
++ _symbolic Si3int_t
++ _symbolic Si6offset______3key______5valuet7elementt 10Foundation4DataV 16CascadingFilters18ClubcardIndexEntryV
++ _symbolic Si7current_Si3gott
++ _symbolic Si7current_t
++ _symbolic Si7version______7optionst 11SwiftCRLite12ValidOptionsV
++ _symbolic Si7version______7optionsy_____Ybc8completet 11SwiftCRLite12ValidOptionsV AA0C14DaemonResponseO
++ _symbolic Si8expected_Si3gott
++ _symbolic SiSg10generation_t
++ _symbolic SiSg13newGeneration_y_____Ybc8completet 11SwiftCRLite19ValidDaemonResponseO
++ _symbolic SiSg7version_t
++ _symbolic So12NSURLSessionC
++ _symbolic So5NSURLC
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic So8NSStringC
++ _symbolic _____ 11SwiftCRLite0B0C
++ _symbolic _____ 11SwiftCRLite0B14CoverageRecordV
++ _symbolic _____ 11SwiftCRLite0B14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite0B6ResultV
++ _symbolic _____ 11SwiftCRLite0B6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite0B6ResultV6StatusO
++ _symbolic _____ 11SwiftCRLite0B6StatusO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV
++ _symbolic _____ 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV14UserInfoValuesO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite11ValidClientC
++ _symbolic _____ 11SwiftCRLite11ValidDBStmtC
++ _symbolic _____ 11SwiftCRLite11ValidHashesV
++ _symbolic _____ 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0I20B812CDB9A1B19594C35ELLO
++ _symbolic _____ 11SwiftCRLite12ValidOptionsV
++ _symbolic _____ 11SwiftCRLite13DaemonCommandO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC04SeedD6ResultO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC0C6SourceO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC0C6UpdateV
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC0C6UpdateV10CodingKeysO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC10AdminValueV
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0K20B812CDB9A1B19594C35ELLO
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC14IntegrityIssueV
++ _symbolic _____ 11SwiftCRLite13ValidDatabaseC17IntegritySeverityO
++ _symbolic _____ 11SwiftCRLite13ValidHashTypeO
++ _symbolic _____ 11SwiftCRLite14MappedClubcardV
++ _symbolic _____ 11SwiftCRLite14ValidDaemonIPCC
++ _symbolic _____ 11SwiftCRLite15DownloadContextV
++ _symbolic _____ 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLO
++ _symbolic _____ 11SwiftCRLite15ValidDaemonCoreC
++ _symbolic _____ 11SwiftCRLite15ValidDownloaderC15SessionDelegateC
++ _symbolic _____ 11SwiftCRLite16CachedFilterFile011_DB83DCB2C0H20B812CDB9A1B19594C35ELLV
++ _symbolic _____ 11SwiftCRLite16MachTimeIntervalV
++ _symbolic _____ 11SwiftCRLite16ValidCompressionC
++ _symbolic _____ 11SwiftCRLite16ValidEnvironmentO7MappingV
++ _symbolic _____ 11SwiftCRLite16ValidFilterEntryV
++ _symbolic _____ 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLO
++ _symbolic _____ 11SwiftCRLite17DownloadValidatorC
++ _symbolic _____ 11SwiftCRLite17ValidDBStepResultO
++ _symbolic _____ 11SwiftCRLite17ValidUpdateServerO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO21FetchUpdateCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO22InitialSetupCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO23ResetDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO24DeleteDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite18ValidDaemonRequestO26CheckPermissionsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19FilePermissionIssueV
++ _symbolic _____ 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19FilePermissionIssueV4CodeO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO010SetVersionE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO012InitialSetupE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO013SetGenerationE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO06StatusE10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO0D6StatusV
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO0D6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite19ValidDatabaseFilterC
++ _symbolic _____ 11SwiftCRLite20ValidDownloadMetricsV
++ _symbolic _____ 11SwiftCRLite20ValidDownloadMetricsV0D4TypeO
++ _symbolic _____ 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____ 11SwiftCRLite23ValidFilterFileV2ReaderV
++ _symbolic _____ 11SwiftCRLite23ValidFilterFileV4WriterV
++ _symbolic _____ 11SwiftCRLite25ValidMetricCloudTelemetryC
++ _symbolic _____ 11SwiftCRLite28ValidClientRevocationRequestV
++ _symbolic _____ 11SwiftCRLite8MachTimeV
++ _symbolic _____ 11SwiftCRLite8ParsedV233_42E5C1E080902E9BD1559007910C9F46LLV
++ _symbolic _____ 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLO
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 3XPC10XPCSessionC
++ _symbolic _____ 3XPC10XPCSessionC21InitializationOptionsV
++ _symbolic _____ 9CryptoKit6SHA256V
++ _symbolic _____ So16NSURLResourceKeya
++ _symbolic _____ So17SecCertificateRefa
++ _symbolic _____ So18NSFileAttributeKeya
++ _symbolic _____ So18SecTrustResultTypeV
++ _symbolic _____ So20NSFileProtectionTypea
++ _symbolic _____ s13OpaquePointerV
++ _symbolic _____ s6UInt32V
++ _symbolic _____ s6UInt64V
++ _symbolic _____3key______5valuet 10Foundation4DataV 16CascadingFilters18ClubcardIndexEntryV
++ _symbolic _____4code_SS7messaget s5Int32V
++ _symbolic _____4file______5errnot 10Foundation3URLV s5Int32V
++ _symbolic _____4file_t 10Foundation3URLV
++ _symbolic _____4type_y_____Ybc8completet 11SwiftCRLite20ValidDownloadMetricsV0D4TypeO AA0C14DaemonResponseO
++ _symbolic _____5errno_t s5Int32V
++ _symbolic _____8filterID_Sd5startSd3endt s5Int32V
++ _symbolic _____8filterID_t s5Int64V
++ _symbolic _____Ieghn_ 11SwiftCRLite19ValidDaemonResponseO
++ _symbolic _____Sg 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg 11SwiftCRLite10ValidErrorV
++ _symbolic _____Sg 11SwiftCRLite11ValidDBStmtC
++ _symbolic _____Sg 11SwiftCRLite13ValidDatabaseC10AdminValueV
++ _symbolic _____Sg 11SwiftCRLite13ValidDatabaseC9AdminDataV
++ _symbolic _____Sg 11SwiftCRLite14MappedClubcardV
++ _symbolic _____Sg 11SwiftCRLite16CachedFilterFile011_DB83DCB2C0H20B812CDB9A1B19594C35ELLV
++ _symbolic _____Sg 11SwiftCRLite16ValidEnvironmentO
++ _symbolic _____Sg 11SwiftCRLite20ValidDownloadMetricsV0D4TypeO
++ _symbolic _____Sg 14CloudTelemetry10EventValueO
++ _symbolic _____Sg 14CloudTelemetry22TransportConfigurationV
++ _symbolic _____Sg 16CascadingFilters10ByteBufferV
++ _symbolic _____Sg 16CascadingFilters14CRLiteClubcardV
++ _symbolic _____Sg 16CascadingFilters18ClubcardIndexEntryV
++ _symbolic _____Sg So10CFErrorRefa
++ _symbolic _____Sg So23CFNotificationCenterRefa
++ _symbolic _____Sg s13OpaquePointerV
++ _symbolic _____Sg s6UInt64V
++ _symbolic _____Sg11environment_t 11SwiftCRLite16ValidEnvironmentO
++ _symbolic _____Sg14newEnvironment_y_____Ybc8completet 11SwiftCRLite16ValidEnvironmentO AA0C14DaemonResponseO
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____XDXMT 11SwiftCRLite13ValidDatabaseC
++ _symbolic _____XMo 11SwiftCRLite11ValidClientC
++ _symbolic ______AAt 11SwiftCRLite05ValidA2DBC8SQLValueO
++ _symbolic ______SSt 11SwiftCRLite12ValidOptionsV
++ _symbolic ___________t 11SwiftCRLite13ValidHashTypeO 10Foundation4DataV
++ _symbolic ______p 11SwiftCRLite10ValidDBRowP
++ _symbolic ______p 11SwiftCRLite19ValidMetricProtocolP
++ _symbolic ______p 11SwiftCRLite21ValidDownloadProtocolP
++ _symbolic ______p 11SwiftCRLite22ValidDaemonIPCProtocolP
++ _symbolic ______pSg 11SwiftCRLite19ValidMetricProtocolP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic ______ypt So18NSFileAttributeKeya
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 11SwiftCRLite05ValidC2DBC8SQLValueO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 11SwiftCRLite10ValidErrorV14UserInfoValuesO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 14CloudTelemetry10EventValueO
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 14CloudTelemetry10EventValueO
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySiG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____3key______5valuetG s23_ContiguousArrayStorageC 10Foundation4DataV 16CascadingFilters18ClubcardIndexEntryV
++ _symbolic _____y_____6offset______5counttG s23_ContiguousArrayStorageC s6UInt16V s5UInt8V
++ _symbolic _____y_____8filterID_Sd5startSd3endtG s23_ContiguousArrayStorageC s5Int32V
++ _symbolic _____y_____8filterID_Si0A10GenerationtG s23_ContiguousArrayStorageC s5Int64V
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 11SwiftCRLite11ValidHashesV
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4DataV
++ _symbolic _____y_____G s11_SetStorageC 16CascadingFilters18CRLiteLogTimestampV
++ _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s11_SetStorageC s5Int64V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite0E14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite0E6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite13ValidDatabaseC0E15CoverageHotPathV10CodingKeys011_DB83DCB2C0O20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite13ValidDatabaseC0F6UpdateV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0N20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO21FetchUpdateCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO22InitialSetupCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO23ResetDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO24DeleteDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite18ValidDaemonRequestO26CheckPermissionsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO010SetVersionH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO012InitialSetupH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO013SetGenerationH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO06StatusH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO06UpdateH0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO0G6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite0E14CoverageRecordV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite0E6ResultV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite10ValidErrorV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO13IntCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO16ErrorsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite10ValidErrorV14UserInfoValuesO16StringCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite11ValidHashesV10CodingKeys011_DB83DCB2C0L20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite13ValidDatabaseC0E15CoverageHotPathV10CodingKeys011_DB83DCB2C0O20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite13ValidDatabaseC0F6UpdateV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite13ValidDatabaseC10AdminValueV10CodingKeys011_DB83DCB2C0N20B812CDB9A1B19594C35ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite15DownloadContextV10CodingKeys33_1666189628132F99924DFE8EA4664B5DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite16ValidFilterEntryV10CodingKeys33_42E5C1E080902E9BD1559007910C9F46LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO20SetVersionCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO21FetchUpdateCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO22InitialSetupCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO23ResetDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO23SetGenerationCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO24DeleteDatabaseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO24SetEnvironmentCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite18ValidDaemonRequestO26CheckPermissionsCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19FilePermissionIssueV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO010SetVersionH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO012InitialSetupH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO013ResetDatabaseH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO013SetGenerationH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO014DeleteDatabaseH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO014SetEnvironmentH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO016CheckPermissionsH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO06StatusH10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO06UpdateH0V10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO0G6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO15ErrorCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO28FetchUpdateReponseCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite20ValidDownloadMetricsV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite9ValidInfoV10CodingKeys33_77EDB170686374F9C77A51EC76408F86LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite0E14CoverageRecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite10ValidErrorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite13ValidDatabaseC0E15CoverageHotPathV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite13ValidDatabaseC14IntegrityIssueV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite16ValidEnvironmentO7MappingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite16ValidFilterEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SwiftCRLite19FilePermissionIssueV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 3XPC10XPCSessionC21InitializationOptionsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int64V
++ _symbolic _____y_____Say_____8filterID_Sd5startSd3endtGG s18_DictionaryStorageC 10Foundation4DataV s5Int32V
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 11SwiftCRLite13ValidDatabaseC9AdminDataV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 11SwiftCRLite16CachedFilterFile011_DB83DCB2C0J20B812CDB9A1B19594C35ELLV
++ _symbolic _____y_____SgG 15Synchronization5_CellVAARi_zrlE 11SwiftCRLite13ValidDatabaseC9AdminDataV
++ _symbolic _____y______G ScS12ContinuationV 11SwiftCRLite13DaemonCommandO
++ _symbolic _____y______G ScS8IteratorV 11SwiftCRLite13DaemonCommandO
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 11SwiftCRLite12ValidOptionsV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 11SwiftCRLite13DaemonCommandO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 11SwiftCRLite13DaemonCommandO
++ _symbolic _____y__________G s18_DictionaryStorageC 11SwiftCRLite13ValidHashTypeO 10Foundation4DataV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 11SwiftCRLite13ValidHashTypeO 10Foundation4DataV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So18NSFileAttributeKeya
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So18NSFileAttributeKeya
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic ySbc
++ _symbolic y_____Ybc8complete_t 11SwiftCRLite19ValidDaemonResponseO
++ _symbolic ypSg
++ _symbolic ytIeAgHr_
++ _symbolic yyYbc8complete_t
++ _type_layout_string 11SwiftCRLite0B6ResultV
++ _type_layout_string 11SwiftCRLite10ValidErrorV
++ _type_layout_string 11SwiftCRLite10ValidErrorV14UserInfoValuesO
++ _type_layout_string 11SwiftCRLite11ValidHashesV
++ _type_layout_string 11SwiftCRLite13DaemonCommandO
++ _type_layout_string 11SwiftCRLite13ValidDatabaseC0B15CoverageHotPathV
++ _type_layout_string 11SwiftCRLite13ValidDatabaseC0C6UpdateV
++ _type_layout_string 11SwiftCRLite13ValidDatabaseC10AdminValueV
++ _type_layout_string 11SwiftCRLite13ValidDatabaseC14IntegrityIssueV
++ _type_layout_string 11SwiftCRLite14MappedClubcardV
++ _type_layout_string 11SwiftCRLite16CachedFilterFile011_DB83DCB2C0H20B812CDB9A1B19594C35ELLV
++ _type_layout_string 11SwiftCRLite16MachTimeIntervalV
++ _type_layout_string 11SwiftCRLite16ValidEnvironmentO7MappingV
++ _type_layout_string 11SwiftCRLite16ValidFilterEntryV
++ _type_layout_string 11SwiftCRLite17ValidDBStepResultO
++ _type_layout_string 11SwiftCRLite19FilePermissionIssueV
++ _type_layout_string 11SwiftCRLite19ValidDaemonResponseO
++ _type_layout_string 11SwiftCRLite19ValidDaemonResponseO06UpdateE0V
++ _type_layout_string 11SwiftCRLite19ValidDaemonResponseO0D6StatusV
++ _type_layout_string 11SwiftCRLite20ValidDownloadMetricsV
++ _type_layout_string 11SwiftCRLite23ValidFilterFileV2ReaderV
++ _type_layout_string 11SwiftCRLite28ValidClientRevocationRequestV
++ _type_layout_string 11SwiftCRLite8ParsedV233_42E5C1E080902E9BD1559007910C9F46LLV
++ _type_layout_string So20NSFileProtectionTypea
++ _unlink
++ _write
+- -[ValidDBObjc .cxx_destruct]
+- -[ValidDBObjc autoVacuumSetting]
+- -[ValidDBObjc close]
+- -[ValidDBObjc db]
+- -[ValidDBObjc dealloc]
+- -[ValidDBObjc executeSQL:]
+- -[ValidDBObjc executeSQL:arguments:]
+- -[ValidDBObjc executeSQLStmt:]
+- -[ValidDBObjc initDatabaseWithURL:]
+- -[ValidDBObjc log]
+- -[ValidDBObjc prepareStatement:error:]
+- -[ValidDBObjc setDb:]
+- -[ValidDBObjc setLog:]
+- -[ValidDBStmt .cxx_destruct]
+- -[ValidDBStmt allObjectsByColumnName]
+- -[ValidDBStmt allObjects]
+- -[ValidDBStmt bindData:column:]
+- -[ValidDBStmt bindDate:column:]
+- -[ValidDBStmt bindDouble:column:]
+- -[ValidDBStmt bindInt64:column:]
+- -[ValidDBStmt bindInt:column:]
+- -[ValidDBStmt bindNullAtColumn:]
+- -[ValidDBStmt bindString:column:]
+- -[ValidDBStmt blobAtColumn:]
+- -[ValidDBStmt clearBindings]
+- -[ValidDBStmt columnCount]
+- -[ValidDBStmt columnNameAtColumn:]
+- -[ValidDBStmt columnTypeAtColumn:]
+- -[ValidDBStmt dateAtColumn:]
+- -[ValidDBStmt db]
+- -[ValidDBStmt dealloc]
+- -[ValidDBStmt doubleAtColumn:]
+- -[ValidDBStmt enumerateColumnsUsingBlock:]
+- -[ValidDBStmt generateDone]
+- -[ValidDBStmt generateDone].cold.1
+- -[ValidDBStmt generateError:method:]
+- -[ValidDBStmt indexForColumnName:]
+- -[ValidDBStmt indexesByColumnName]
+- -[ValidDBStmt initWithStatement:db:error:]
+- -[ValidDBStmt int64AtColumn:]
+- -[ValidDBStmt intAtColumn:]
+- -[ValidDBStmt needReset]
+- -[ValidDBStmt objectAtColumn:]
+- -[ValidDBStmt reset]
+- -[ValidDBStmt setDb:]
+- -[ValidDBStmt setIndexesByColumnName:]
+- -[ValidDBStmt setNeedReset:]
+- -[ValidDBStmt setStmt:]
+- -[ValidDBStmt stepWithError:]
+- -[ValidDBStmt steps:error:]
+- -[ValidDBStmt stmt]
+- -[ValidDBStmt textAtColumn:]
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_ValidDBObjc
+- _OBJC_CLASS_$_ValidDBStmt
+- _OBJC_IVAR_$_ValidDBObjc._db
+- _OBJC_IVAR_$_ValidDBObjc._log
+- _OBJC_IVAR_$_ValidDBStmt._db
+- _OBJC_IVAR_$_ValidDBStmt._indexesByColumnName
+- _OBJC_IVAR_$_ValidDBStmt._needReset
+- _OBJC_IVAR_$_ValidDBStmt._stmt
+- _OBJC_METACLASS_$_ValidDBObjc
+- _OBJC_METACLASS_$_ValidDBStmt
+- _SecPolicyCreateApplePinned
+- _ValidDBObjcErrorDomain
+- _ValidDeflatedNTO1Data
+- _ValidInflatedNTO1Data
+- __DATA__TtCC11SwiftCRLite12ValidSwiftDB12SQLStatement
+- __DATA__TtCC11SwiftCRLite12ValidSwiftDB6SQLRow
+- __IVARS__TtCC11SwiftCRLite12ValidSwiftDB12SQLStatement
+- __IVARS__TtCC11SwiftCRLite12ValidSwiftDB6SQLRow
+- __METACLASS_DATA__TtCC11SwiftCRLite12ValidSwiftDB12SQLStatement
+- __METACLASS_DATA__TtCC11SwiftCRLite12ValidSwiftDB6SQLRow
+- __NSConcreteGlobalBlock
+- __OBJC_$_INSTANCE_METHODS_ValidDBObjc
+- __OBJC_$_INSTANCE_METHODS_ValidDBStmt
+- __OBJC_$_INSTANCE_VARIABLES_ValidDBObjc
+- __OBJC_$_INSTANCE_VARIABLES_ValidDBStmt
+- __OBJC_$_PROP_LIST_ValidDBObjc
+- __OBJC_$_PROP_LIST_ValidDBStmt
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ValidDBRow
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ValidDBRow
+- __OBJC_$_PROTOCOL_REFS_ValidDBRow
+- __OBJC_CLASS_PROTOCOLS_$_ValidDBStmt
+- __OBJC_CLASS_RO_$_ValidDBObjc
+- __OBJC_CLASS_RO_$_ValidDBStmt
+- __OBJC_LABEL_PROTOCOL_$_ValidDBRow
+- __OBJC_METACLASS_RO_$_ValidDBObjc
+- __OBJC_METACLASS_RO_$_ValidDBStmt
+- __OBJC_PROTOCOL_$_ValidDBRow
+- ___25-[ValidDBStmt allObjects]_block_invoke
+- ___27-[ValidDBStmt generateDone]_block_invoke
+- ___37-[ValidDBStmt allObjectsByColumnName]_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_48_e8_32s40s_e21_v24?0Q8"NSString"16ls32l8s40l8
+- ___block_literal_global
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_memcpy80_8
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- _associated conformance 11SwiftCRLite05ValidA7DBErrorO10Foundation13CustomNSErrorAAs5Error
+- _associated conformance 11SwiftCRLite05ValidA7DBErrorO10Foundation14LocalizedErrorAAs0G0
+- _associated conformance 11SwiftCRLite05ValidA7DBErrorOSHAASQ
+- _associated conformance 11SwiftCRLite10ByteBufferVSHAASQ
+- _associated conformance 11SwiftCRLite13ValidDatabaseC0C8HashTypeOSHAASQ
+- _associated conformance 11SwiftCRLite15ByteBufferErrorOSHAASQ
+- _associated conformance 11SwiftCRLite18ValidDaemonRequestOSHAASQ
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO0cD6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO0cD6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO0cD6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOSHAASQ
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation021_ObjectiveCBridgeableC0SCs0C0
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation13CustomNSErrorSCs0C0
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_cH8Protocol
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableC0
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomG0
+- _associated conformance SC16ValidDBObjcErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
+- _associated conformance SC16ValidDBObjcErrorLeVSHSCSQ
+- _associated conformance So16ValidDBObjcErrorV10Foundation01_C12CodeProtocolSC01_C4TypeAcDP_AC21_BridgedStoredNSError
+- _associated conformance So16ValidDBObjcErrorV10Foundation01_C12CodeProtocolSCSQ
+- _dispatch_once
+- _flat unique So10ValidDBRow_p
+- _free
+- _generateDone.done
+- _generateDone.onceToken
+- _malloc_good_size
+- _malloc_type_malloc
+- _objc_alloc
+- _objc_msgSend$UTF8String
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$autoVacuumSetting
+- _objc_msgSend$bindData:column:
+- _objc_msgSend$bindDate:column:
+- _objc_msgSend$bindDouble:column:
+- _objc_msgSend$bindInt64:column:
+- _objc_msgSend$bindInt:column:
+- _objc_msgSend$bindNullAtColumn:
+- _objc_msgSend$bindString:column:
+- _objc_msgSend$blobAtColumn:
+- _objc_msgSend$bytes
+- _objc_msgSend$columnCount
+- _objc_msgSend$columnNameAtColumn:
+- _objc_msgSend$columnTypeAtColumn:
+- _objc_msgSend$copy
+- _objc_msgSend$data
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$dateAtColumn:
+- _objc_msgSend$dateWithTimeIntervalSinceReferenceDate:
+- _objc_msgSend$db
+- _objc_msgSend$dictionaryWithCapacity:
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$doubleAtColumn:
+- _objc_msgSend$enumerateColumnsUsingBlock:
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$executeSQL:
+- _objc_msgSend$executeSQL:arguments:
+- _objc_msgSend$executeSQLStmt:
+- _objc_msgSend$fileSystemRepresentation
+- _objc_msgSend$generateDone
+- _objc_msgSend$generateError:method:
+- _objc_msgSend$initDatabaseWithURL:
+- _objc_msgSend$initWithFormat:arguments:
+- _objc_msgSend$initWithStatement:db:error:
+- _objc_msgSend$int64AtColumn:
+- _objc_msgSend$intAtColumn:
+- _objc_msgSend$isEqual:
+- _objc_msgSend$length
+- _objc_msgSend$log
+- _objc_msgSend$needReset
+- _objc_msgSend$null
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithLongLong:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$objectAtColumn:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$prepareStatement:error:
+- _objc_msgSend$reset
+- _objc_msgSend$setDb:
+- _objc_msgSend$setLog:
+- _objc_msgSend$setNeedReset:
+- _objc_msgSend$setObject:atIndexedSubscript:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$sharedSession
+- _objc_msgSend$stepWithError:
+- _objc_msgSend$steps:error:
+- _objc_msgSend$stmt
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$textAtColumn:
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$unsignedIntegerValue
+- _objc_release_x1
+- _objc_retainAutorelease
+- _objc_retain_x12
+- _objectdestroy.71Tm
+- _os_log_create
+- _swift_projectBox
+- _symbolic $s10Foundation18_ErrorCodeProtocolP
+- _symbolic $s10Foundation21_BridgedStoredNSErrorP
+- _symbolic SDy__________G 11SwiftCRLite13ValidDatabaseC0C8HashTypeO 10Foundation4DataV
+- _symbolic Say_____G s5UInt8V
+- _symbolic Sdz_Xx
+- _symbolic SnySiG
+- _symbolic So11ValidDBObjcCSg
+- _symbolic So11ValidDBStmtC
+- _symbolic So7NSErrorC
+- _symbolic _____ 11SwiftCRLite05ValidA2DBC12SQLStatementC
+- _symbolic _____ 11SwiftCRLite05ValidA2DBC6SQLRowC
+- _symbolic _____ 11SwiftCRLite05ValidA7DBErrorO
+- _symbolic _____ 11SwiftCRLite10ByteBufferV
+- _symbolic _____ 11SwiftCRLite13ValidDatabaseC0C8HashTypeO
+- _symbolic _____ 11SwiftCRLite15ByteBufferErrorO
+- _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO0cD6StatusV
+- _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO0cD6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____ 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____ SC16ValidDBObjcErrorLeV
+- _symbolic _____ So16ValidDBObjcErrorV
+- _symbolic _____3key______5valuetSg 10Foundation4DataV 16CascadingFilters17TimestampIntervalV
+- _symbolic _____SbIeggd_ 11SwiftCRLite05ValidA2DBC6SQLRowC
+- _symbolic _____Sg s5Int64V
+- _symbolic ___________t 11SwiftCRLite13ValidDatabaseC0C8HashTypeO 10Foundation4DataV
+- _symbolic ______p So10ValidDBRowP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO0fG6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO0fG6StatusV10CodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 11SwiftCRLite19ValidDaemonResponseO16StatusCodingKeys33_09663FE52D983112A60B038FA6E8E857LLO
+- _symbolic _____y__________G s18_DictionaryStorageC 11SwiftCRLite13ValidDatabaseC0E8HashTypeO 10Foundation4DataV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 11SwiftCRLite13ValidDatabaseC0F8HashTypeO 10Foundation4DataV
+- _symbolic _____z_Xx 9CryptoKit6SHA256V
+- _type_layout_string 11SwiftCRLite10ByteBufferV
+- _type_layout_string 11SwiftCRLite16ValidUpdatePlistV
+- _type_layout_string SC16ValidDBObjcErrorLeV
+CStrings:
++ "    CREATE TABLE crlitefilters_new(\n       filterid INTEGER PRIMARY KEY NOT NULL,\n       filterversion INTEGER,\n       filterhash BLOB,\n       filtersize INTEGER,\n       filteroffset INTEGER\n    )"
++ "    CREATE TRIGGER IF NOT EXISTS crlitefilters_del\n       BEFORE DELETE ON crlitefilters FOR EACH ROW\n       BEGIN\n           DELETE FROM crlitefiltercoverage WHERE filterid=OLD.filterid;\n       END"
++ "    INSERT INTO crlitefilters_new\n       SELECT filterid, filterversion, filterhash, filtersize, filteroffset\n       FROM crlitefilters"
++ " in crlitefilters but not in merged file"
++ " in merged file but not in crlitefilters"
++ " offset mismatch: db="
++ " payload parse failed: "
++ " size mismatch: db="
++ "%Q"
++ "%s: sqlite3_exec: %s[%d]"
++ ".admin WHERE key='db_format'"
++ ".crlitefiltercoverage"
++ "/AppleInternal/Library/Security/ValidCarry"
++ "/Library/Preferences/com.apple.security.plist"
++ "/System/Library/Security/Certificates.bundle/ValidProduction"
++ "/private/var/protected/trustd/valid.sqlite3"
++ "ALTER TABLE crlitefilters ADD COLUMN filtergeneration INTEGER DEFAULT 0"
++ "ALTER TABLE crlitefilters ADD COLUMN filterhash BLOB"
++ "ALTER TABLE crlitefilters ADD COLUMN filteroffset INTEGER"
++ "ALTER TABLE crlitefilters ADD COLUMN filtersize INTEGER"
++ "ALTER TABLE crlitefilters_new RENAME TO crlitefilters"
++ "ATTACH DATABASE \""
++ "Apply database filed with error: %@"
++ "BEGIN TRANSACTION"
++ "CREATE INDEX IF NOT EXISTS crlitefiltercoverage_logid_idx\n    ON crlitefiltercoverage(logid, start, end, filterid);"
++ "CREATE INDEX IF NOT EXISTS issuer_groupid_idx ON issuers(groupid);"
++ "CREATE INDEX IF NOT EXISTS issuer_idx ON issuers(issuer_hash);"
++ "CREATE TABLE IF NOT EXISTS admin(\n    key TEXT PRIMARY KEY NOT NULL,\n    ival INTEGER NOT NULL,\n    value BLOB\n);"
++ "CREATE TABLE IF NOT EXISTS crlitefiltercoverage(\n   filterid INTEGER NOT NULL,\n   logid BLOB NOT NULL,\n   generatedat REAL,\n   start REAL,\n   end REAL,\n   UNIQUE(filterid,logid)\n);"
++ "CREATE TABLE IF NOT EXISTS crlitefilters(\n   filterid INTEGER PRIMARY KEY NOT NULL,\n   filterversion INTEGER,\n   filterhash BLOB,\n   filtersize INTEGER,\n   filteroffset INTEGER,\n   filtergeneration INTEGER DEFAULT 0\n);"
++ "CREATE TABLE IF NOT EXISTS dates(\n   groupid INTEGER PRIMARY KEY NOT NULL,\n   notbefore REAL,\n   notafter REAL\n);"
++ "CREATE TABLE IF NOT EXISTS groups(\n   groupid INTEGER PRIMARY KEY,\n   flags INTEGER,\n   format INTEGER,\n   data BLOB,\n   policies BLOB\n);"
++ "CREATE TABLE IF NOT EXISTS hashes(\n   groupid INTEGER NOT NULL,\n   sha256 BLOB NOT NULL,\n   UNIQUE(groupid,sha256)\n);"
++ "CREATE TABLE IF NOT EXISTS issuers(\n   groupid INTEGER NOT NULL,\n   issuer_hash BLOB PRIMARY KEY NOT NULL\n);"
++ "CREATE TABLE IF NOT EXISTS serials(\n   groupid INTEGER NOT NULL,\n   serial BLOB NOT NULL,\n   UNIQUE(groupid,serial)\n);"
++ "CREATE TRIGGER IF NOT EXISTS crlitefilters_del\n   BEFORE DELETE ON crlitefilters FOR EACH ROW\n   BEGIN\n       DELETE FROM crlitefiltercoverage WHERE filterid=OLD.filterid;\n   END;"
++ "CREATE TRIGGER IF NOT EXISTS group_del \n   BEFORE DELETE ON groups FOR EACH ROW \n   BEGIN \n       DELETE FROM serials WHERE groupid=OLD.groupid; \n       DELETE FROM hashes WHERE groupid=OLD.groupid; \n       DELETE FROM issuers WHERE groupid=OLD.groupid; \n       DELETE FROM dates WHERE groupid=OLD.groupid; \n   END;"
++ "CRLFilter hash check failed: "
++ "CRLFilter hash mismatch for filterID "
++ "CRLite filterID "
++ "CRLite key extraction failed: %{public}@"
++ "CRLite version is unsupported (expected 1): %ld"
++ "Can't parse db source"
++ "Can't seed database for non-production environment %s, asking for download"
++ "Copy per-filter files from the seed's cache directory"
++ "Creating table required, schema: %s"
++ "Custom SecTrust evaluation failed: %s"
++ "DELETE FROM admin"
++ "DELETE FROM admin WHERE key=?"
++ "DELETE FROM crlitefiltercoverage;"
++ "DELETE FROM crlitefilters WHERE filterid=?"
++ "DELETE FROM crlitefilters;"
++ "DELETE FROM dates;"
++ "DELETE FROM groups;"
++ "DELETE FROM hashes WHERE groupid=? AND substr(sha256,?) = ?"
++ "DELETE FROM hashes;"
++ "DELETE FROM issuers;"
++ "DELETE FROM serials WHERE groupid=? AND substr(serial,?) = ?"
++ "DELETE FROM serials;"
++ "DETACH DATABASE sourceDb"
++ "DROP INDEX IF EXISTS crlitefiltercoverage_logid_idx;"
++ "DROP INDEX IF EXISTS issuer_groupid_idx;"
++ "DROP INDEX IF EXISTS issuer_idx;"
++ "DROP TABLE IF EXISTS admin;"
++ "DROP TABLE IF EXISTS crlitefiltercoverage;"
++ "DROP TABLE IF EXISTS crlitefilters;"
++ "DROP TABLE IF EXISTS dates;"
++ "DROP TABLE IF EXISTS groups;"
++ "DROP TABLE IF EXISTS hashes;"
++ "DROP TABLE IF EXISTS issuers;"
++ "DROP TABLE IF EXISTS serials;"
++ "DROP TABLE crlitefilters"
++ "DROP TRIGGER IF EXISTS  crlitefilters_del;"
++ "DROP TRIGGER IF EXISTS group_del;"
++ "Database already at uptodate version, skipping update"
++ "Database already at version %ld, skipping update"
++ "Delete databases filed with error: %@"
++ "Environment %s, already setup, skipping download"
++ "Expected full update, got incremental"
++ "Failed to insert CRLite data"
++ "Failed to open database: "
++ "Failed to set custom SecPolicy: %d"
++ "Failed to sqlite quote of the string"
++ "Filter file has invalid magic"
++ "Filter file has unsupported version: "
++ "Filter file index out of range: "
++ "Filter file is truncated"
++ "Filter file v2 index entry too small: "
++ "Filter file v2 integer overflow"
++ "Filter file write failed with errno: "
++ "Format"
++ "Generation"
++ "Hashes are missing from full update"
++ "INSERT INTO crlitefiltercoverage (filterid,logid,generatedat,start,end) VALUES (?,?,?,?,?)"
++ "INSERT INTO crlitefilters (filterversion,filterhash) VALUES (?,?) RETURNING filterid"
++ "INSERT INTO main.admin                SELECT * FROM "
++ "INSERT INTO main.crlitefiltercoverage SELECT * FROM "
++ "INSERT INTO main.crlitefilters (filterid, filterversion, filterhash, filtersize, filteroffset)\nSELECT filterid, filterversion, filterhash, filtersize, filteroffset\nFROM "
++ "INSERT INTO main.dates                SELECT * FROM "
++ "INSERT INTO main.groups               SELECT * FROM "
++ "INSERT INTO main.hashes               SELECT * FROM "
++ "INSERT INTO main.issuers              SELECT * FROM "
++ "INSERT INTO main.serials              SELECT * FROM "
++ "INSERT OR REPLACE INTO groups (groupid,flags,format,data,policies) VALUES (?,?,?,?,?) RETURNING groupid"
++ "Import seed database"
++ "ImportDataFrom failed with: %@"
++ "Incremental patch not an update, already have version: "
++ "Incremental updated older, got: "
++ "Invalid daemon command"
++ "Mismatch on generation in patch and expected value"
++ "Missing entitlement"
++ "Moving database to class D"
++ "PRAGMA auto_vacuum = incremental"
++ "PRAGMA integrity_check"
++ "PRAGMA integrity_check failed: "
++ "PRAGMA integrity_check: "
++ "PRAGMA journal_mode = WAL"
++ "PRAGMA journal_mode=DELETE"
++ "PRAGMA wal_checkpoint(TRUNCATE)"
++ "Patch complete"
++ "Patch file mismatches with current database environment"
++ "Patch file mismatches with current database generation"
++ "Patch file mismatches with current database version"
++ "Rewrite filter file"
++ "SCT extension missing from certificate"
++ "SELECT DISTINCT c.filterid FROM crlitefiltercoverage c\nLEFT JOIN crlitefilters f ON c.filterid = f.filterid\nWHERE f.filterid IS NULL"
++ "SELECT DISTINCT c.filterid, COALESCE(f.filtergeneration, 0)\nFROM crlitefiltercoverage c\nJOIN crlitefilters f ON c.filterid = f.filterid\nWHERE c.logid = ?1 AND c.start <= ?2 AND c.end >= ?2"
++ "SELECT c.filterid, c.logid, c.generatedat, c.start, c.end,\n       COALESCE(f.filtergeneration, 0)\nFROM crlitefiltercoverage c\nJOIN crlitefilters f ON c.filterid = f.filterid"
++ "SELECT c.filterid, c.logid, c.generatedat, c.start, c.end,\n       COALESCE(f.filtergeneration, 0)\nFROM crlitefiltercoverage c\nJOIN crlitefilters f ON c.filterid = f.filterid\nORDER BY c.logid, c.filterid"
++ "SELECT c.filterid, c.logid, c.generatedat, c.start, c.end,\n       COALESCE(f.filtergeneration, 0)\nFROM crlitefiltercoverage c\nJOIN crlitefilters f ON c.filterid = f.filterid\nWHERE c.logid = ?1 AND c.start <= ?2 AND c.end >= ?2"
++ "SELECT count(*) FROM hashes WHERE groupid=?"
++ "SELECT count(*) FROM issuers WHERE groupid=?"
++ "SELECT count(*) FROM serials WHERE groupid=?"
++ "SELECT filterhash FROM crlitefilters"
++ "SELECT filterhash FROM crlitefilters WHERE filterhash IS NOT NULL"
++ "SELECT filterhash FROM crlitefilters WHERE filterid=?"
++ "SELECT filterid, data FROM crlitefilters WHERE data IS NOT NULL"
++ "SELECT filterid, filterhash FROM crlitefilters ORDER BY filterid ASC"
++ "SELECT filteroffset, filtersize FROM crlitefilters WHERE filterid=?"
++ "SELECT ival FROM "
++ "SELECT ival, value FROM admin WHERE key = ? LIMIT 1"
++ "SELECT value FROM admin WHERE key = 'disable_crlite'"
++ "SELECT value FROM admin WHERE key = 'disable_valid'"
++ "SELECT value FROM admin WHERE key=?"
++ "Schema creation complete"
++ "Schema creation failed with %@)"
++ "Schema upgrade failed: %@"
++ "SecCRLiteUpdateValid: completed with: %@"
++ "SecCRLiteUpdateValid: requesting update"
++ "SecPolicyCreateAppleValidCMS failed"
++ "SecTrustEvaluate not trusted: %u details: %{public}@"
++ "Seed database applied"
++ "Seed database is generation is too old %ld, expected %ld"
++ "Seed database is version is %ld, have %ld"
++ "Seed database is version is too old %ld, already have %ld"
++ "SwiftCRLite.SessionDelegate"
++ "SwiftCRLite.ValidClient"
++ "SwiftCRLite.ValidDaemonIPC"
++ "This seed database already applied, skipping"
++ "UPDATE crlitefilters SET filterhash=? WHERE filterid=?"
++ "UPDATE crlitefilters SET filteroffset=?,filtersize=?,filtergeneration=? WHERE filterid=?"
++ "Unknown reply in update"
++ "Unknown reply to initial setup"
++ "Valid update failed with: %@"
++ "Valid-filter-v3-"
++ "ValidCacheFiles/ directory permissions (0o"
++ "ValidCacheFiles/ group gid "
++ "ValidCacheFiles/ owner uid "
++ "ValidClient.create failed: %{public}@"
++ "ValidDBStmt prepare: %s"
++ "ValidUpdate.plist"
++ "ValidUpdateGeneration"
++ "ValidUpdateInterval"
++ "ValidUpdateServer"
++ "Version"
++ "Wrong generation expected: "
++ "_trustd"
++ "allowInvalidCMSSignature"
++ "allowNoneValidHTTPS"
++ "apply delta"
++ "background update completed with: %s"
++ "background update started"
++ "can't set permissions on cache file: %s"
++ "carry-qa"
++ "checkPermissions"
++ "checkPermissions: %@"
++ "checkPermissionsResponse"
++ "cleaning up stale cache file: %s"
++ "cleanupCacheFiles failed: %@"
++ "code message "
++ "com.apple.CascadingFilters.CRLite"
++ "com.apple.ValidUpdater"
++ "com.apple.ValidUpdater.update"
++ "com.apple.private.cloudtelemetry"
++ "com.apple.sqlite"
++ "com.apple.valid"
++ "com.apple.valid.FilePermission"
++ "coverage references missing filterID "
++ "coverage referential check failed: "
++ "crliteDownload: %s"
++ "crliteEval: %s"
++ "current full update"
++ "current got "
++ "database cleanup failed: %@"
++ "default schema"
++ "deleteDatabase"
++ "deleteDatabase: %@"
++ "deleteDatabaseResponse"
++ "deleting cache file: %s"
++ "dev"
++ "disableValid"
++ "disable_crlite"
++ "disable_valid"
++ "done"
++ "error"
++ "expected got "
++ "failed to prepare seed directory: %@"
++ "failed to read merged filter file: "
++ "failed to rename filter file %s to %s: %s (%d)"
++ "failed to unlink temp file %s: %s (%d)"
++ "fetch new database complete"
++ "fetchNextUpdate complete: %s %ld %ld"
++ "fetchNextUpdate: %@"
++ "fetchNextUpdate: %s %ld"
++ "fetchUpdateReponse"
++ "file errno "
++ "file permission check failed ("
++ "filterGeneration"
++ "filter_generation"
++ "filter_generation missing or 0 (legacy database)"
++ "filter_hash"
++ "filter_hash missing from admin table"
++ "garbageCollect failed: %@"
++ "generatedAt"
++ "generation mismatch: file="
++ "getgrnam(_trustd) failed — cannot verify file ownership"
++ "getgrnam(_trustd) failed, skipping ownership checks"
++ "getpwnam(_trustd) failed — cannot verify file ownership"
++ "getpwnam(_trustd) failed, skipping ownership checks"
++ "handleIPC(database:message:)"
++ "hash mismatch for filter %lld, skipping"
++ "hash mismatch for filterid=%lld, deleting"
++ "historical full update: "
++ "incremental update: "
++ "ingestFullDump: unknown server '%{public}s'"
++ "init()"
++ "initialSetup: %s %ld"
++ "initialSetup: scheduled download task"
++ "initialSetupResponse"
++ "installed new filter file at %s"
++ "keeping old filter file"
++ "last_patched_at"
++ "merged filter file SHA256 mismatch"
++ "merged filter file generation mismatch: file=%llu admin=%d, deleting"
++ "merged filter file group gid "
++ "merged filter file invalid or missing, needs rebuild"
++ "merged filter file missing: "
++ "merged filter file not world-readable (0o"
++ "merged filter file owner uid "
++ "merged filter file parse failed: "
++ "mergedFilterFile"
++ "metric reporter not configured, skipping download telemetry"
++ "missing CRLFilter file for filterID "
++ "missing filter file for filterid=%lld"
++ "moving filter file in place %s"
++ "next update in %ld seconds"
++ "nil schema version"
++ "no schema available"
++ "no update required"
++ "notCovered"
++ "notEnrolled"
++ "notRevoked"
++ "orphan filter file: %s.%s"
++ "outsideUniverseOfKnownLogs"
++ "permission check failed: "
++ "permission issue: %s: %s"
++ "permissionIssues"
++ "processing issuerHashes: %s"
++ "repaired permissions on %{public}s: 0o%s -> 0o%s"
++ "replacing filter file at %s"
++ "resetDatabase"
++ "resetDatabase done, request fetch new database"
++ "resetDatabase: %@"
++ "resetDatabaseResponse"
++ "revoked"
++ "seedDatabaseIfNeeded failed with: %@"
++ "setEnvironment: %@"
++ "setEnvironment: %s"
++ "setEnvironmentResponse"
++ "setGeneration: %@"
++ "setGeneration: %s"
++ "setGenerationResponse"
++ "setVersion: %@"
++ "setVersion: %ld %ld"
++ "setVersionResponse"
++ "setting class D on %s"
++ "signature invalid, but allowed: %@"
++ "signature invalid: %@ options: %s"
++ "sqlite3_bind_blob(rawbuffer): %d"
++ "sqlite3_bind_null: %d"
++ "starting database over with %s %ld"
++ "starting start download: %s with options: %s"
++ "stepWithError %d error: %s"
++ "touchReferencedFiles failed: %@"
++ "unexpected reply: %s"
++ "unknown schema version: "
++ "unknown schema version: %ld"
++ "update completed with: %s"
++ "update failed with: %s"
++ "v16@?0@\"NSError\"8"
++ "v16@?0^v8"
++ "valid-dev.apple.com"
++ "valid.apple.com"
++ "valid_base_image"
++ "valid_generated_at"
++ "valid_source"
++ "warning"
+- "#16@0:8"
+- "%@"
+- "%@: %s"
+- ".cxx_destruct"
+- "1.2.840.113635.100.6.2.10"
+- "1.2.840.113635.100.6.51"
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\"24@0:8Q16"
+- "@\"NSDate\"24@0:8Q16"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8Q16"
+- "@\"ValidDBObjc\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@28@0:8i16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16^@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24^@32"
+- "ATTACH DATABASE ? AS source_db;\nINSERT INTO issuers              SELECT * FROM source_db.issuers;\nINSERT INTO serials              SELECT * FROM source_db.serials;\nINSERT INTO hashes               SELECT * FROM source_db.hashes;\nINSERT INTO dates                SELECT * FROM source_db.dates;\nINSERT INTO crlitefiltercoverage SELECT * FROM source_db.crlitefiltercoverage;\nINSERT INTO crlitefilters        SELECT * FROM source_db.crlitefilters;\nDEATTACH DATABASE source_db;"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"<ValidDBRow>\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16*24"
+- "B32@0:8@16^@24"
+- "B32@0:8@?16^@24"
+- "CREATE TABLE IF NOT EXISTS admin(\n    key TEXT PRIMARY KEY NOT NULL,\n    ival INTEGER NOT NULL,\n    value BLOB\n);\nCREATE TABLE IF NOT EXISTS issuers(\n   groupid INTEGER NOT NULL,\n   issuer_hash BLOB PRIMARY KEY NOT NULL\n);\nCREATE INDEX IF NOT EXISTS issuer_idx ON issuers(issuer_hash);\nCREATE TABLE IF NOT EXISTS groups(\n   groupid INTEGER PRIMARY KEY AUTOINCREMENT,\n   flags INTEGER,\n   format INTEGER,\n   data BLOB,\n   policies BLOB\n);\nCREATE TABLE IF NOT EXISTS serials(\n   groupid INTEGER NOT NULL,\n   serial BLOB NOT NULL,\n   UNIQUE(groupid,serial)\n);\nCREATE TABLE IF NOT EXISTS hashes(\n   groupid INTEGER NOT NULL,\n   sha256 BLOB NOT NULL,\n   UNIQUE(groupid,sha256)\n);\nCREATE TABLE IF NOT EXISTS dates(\n   groupid INTEGER PRIMARY KEY NOT NULL,\n   notbefore REAL,\n   notafter REAL\n);\nCREATE TABLE IF NOT EXISTS crlitefilters(\n   filterid INTEGER PRIMARY KEY NOT NULL,\n   filterversion INTEGER,\n   data BLOB\n);\nCREATE TABLE IF NOT EXISTS crlitefiltercoverage(\n   filterid INTEGER NOT NULL,\n   logid BLOB NOT NULL,\n   generatedat REAL,\n   start REAL,\n   end REAL,\n   UNIQUE(filterid,logid)\n);\nCREATE TRIGGER IF NOT EXISTS group_del \n   BEFORE DELETE ON groups FOR EACH ROW \n   BEGIN \n       DELETE FROM serials WHERE groupid=OLD.groupid; \n       DELETE FROM hashes WHERE groupid=OLD.groupid; \n       DELETE FROM issuers WHERE groupid=OLD.groupid; \n       DELETE FROM dates WHERE groupid=OLD.groupid; \n   END"
+- "DELETE FROM admin;"
+- "DELETE FROM crlitefiltercoverage;\nDELETE FROM crlitefilters;"
+- "DELETE FROM groups;\nDELETE FROM dates;\nDELETE FROM hashes;\nDELETE FROM serials;\nDELETE FROM issuers;"
+- "DELETE FROM hashes WHERE groupid=? AND sha256 = ?"
+- "DELETE FROM serials WHERE groupid=? AND serial = ?"
+- "INSERT OR REPLACE INTO groups  (groupid,flags,format,data,policies) VALUES (?,?,?,?,?) RETURNING groupid"
+- "NSObject"
+- "Q16@0:8"
+- "Q24@0:8@\"NSString\"16"
+- "Q24@0:8@16"
+- "SCT is too short (%ld) to contain a logID and timestamp"
+- "SELECT data FROM crlitefilters ORDER by data ASC"
+- "SecTrustEvaluate not trusted: %u"
+- "SwiftCRLite.CRLiteError"
+- "T#,R"
+- "T@\"NSDictionary\",&,N,V_indexesByColumnName"
+- "T@\"NSObject<OS_os_log>\",&,V_log"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"ValidDBObjc\",&,V_db"
+- "TB,V_needReset"
+- "TQ,R"
+- "T^{sqlite3=},V_db"
+- "T^{sqlite3_stmt=},V_stmt"
+- "UTF8String"
+- "Unsupported SCT version (%hhu)"
+- "VACUUM"
+- "ValidDBObjc"
+- "ValidDBObjcError"
+- "ValidDBRow"
+- "ValidDBStmt"
+- "ValidDBStmt prepare: %@"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{sqlite3=}"
+- "^{sqlite3=}16@0:8"
+- "^{sqlite3_stmt=}"
+- "^{sqlite3_stmt=}16@0:8"
+- "_TtC11SwiftCRLite12ValidSwiftDB"
+- "_TtC11SwiftCRLite13ValidDatabase"
+- "_TtC11SwiftCRLite15ValidDownloader"
+- "_TtC11SwiftCRLite15ValidPatchApply"
+- "_TtC11SwiftCRLite17ValidUpdateParser"
+- "_TtC11SwiftCRLite9SecCRLite"
+- "_TtCC11SwiftCRLite12ValidSwiftDB12SQLStatement"
+- "_TtCC11SwiftCRLite12ValidSwiftDB6SQLRow"
+- "_db"
+- "_indexesByColumnName"
+- "_log"
+- "_needReset"
+- "_stmt"
+- "allObjects"
+- "allObjectsByColumnName"
+- "appendBytes:length:"
+- "arrayWithCapacity:"
+- "autoVacuumSetting"
+- "autorelease"
+- "bindData:column:"
+- "bindDate:column:"
+- "bindDouble:column:"
+- "bindInt64:column:"
+- "bindInt:column:"
+- "bindNullAtColumn:"
+- "bindString:column:"
+- "blobAtColumn:"
+- "bytes"
+- "certStatus:issuerCert:scts:error:"
+- "class"
+- "clearBindings"
+- "close"
+- "columnCount"
+- "columnNameAtColumn:"
+- "columnTypeAtColumn:"
+- "com.apple.ValidSwiftDBError"
+- "conformsToProtocol:"
+- "copy"
+- "d24@0:8Q16"
+- "data"
+- "dataWithBytes:length:"
+- "database"
+- "dateAtColumn:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "db"
+- "dealloc"
+- "debugDescription"
+- "decoder"
+- "description"
+- "dictionaryWithCapacity:"
+- "dictionaryWithObjects:forKeys:count:"
+- "doubleAtColumn:"
+- "enumerateColumnsUsingBlock:"
+- "environment"
+- "errorWithDomain:code:userInfo:"
+- "executeSQL:"
+- "executeSQL:arguments:"
+- "executeSQLStmt:"
+- "fileSystemRepresentation"
+- "filters"
+- "firstUpdate"
+- "generateDone"
+- "generateError:method:"
+- "getCoverageInfo"
+- "hashes"
+- "i16@0:8"
+- "i24@0:8Q16"
+- "indexForColumnName:"
+- "indexesByColumnName"
+- "init"
+- "initDatabaseWithURL:"
+- "initWithFormat:arguments:"
+- "initWithStatement:db:error:"
+- "int64AtColumn:"
+- "intAtColumn:"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "length"
+- "loadFilter:error:"
+- "log"
+- "needReset"
+- "nto1 applier here"
+- "null"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "objectAtColumn:"
+- "objectForKeyedSubscript:"
+- "patchDatabase"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pragma auto_vacuum = incremental"
+- "pragma journal_mode = WAL"
+- "prepareStatement:error:"
+- "q24@0:8Q16"
+- "q48@0:8^{__SecCertificate=}16^{__SecCertificate=}24@32^@40"
+- "qa-carry"
+- "queue"
+- "release"
+- "reset"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "row"
+- "self"
+- "setDb:"
+- "setIndexesByColumnName:"
+- "setLog:"
+- "setNeedReset:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKeyedSubscript:"
+- "setStmt:"
+- "sharedSession"
+- "sqlite3_exec: %s[%d]"
+- "sqliteCode"
+- "step"
+- "stepWithError %d error: %@"
+- "stepWithError:"
+- "steps"
+- "steps: %@"
+- "steps:error:"
+- "stmt"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "superclass"
+- "textAtColumn:"
+- "timeIntervalSinceReferenceDate"
+- "unsignedIntegerValue"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8^{sqlite3=}16"
+- "v24@0:8^{sqlite3_stmt=}16"
+- "v24@?0Q8@\"NSString\"16"
+- "v28@0:8i16Q20"
+- "v32@0:8@16Q24"
+- "v32@0:8d16Q24"
+- "v32@0:8q16Q24"
+- "v8@?0"
+- "zone"
+
+```

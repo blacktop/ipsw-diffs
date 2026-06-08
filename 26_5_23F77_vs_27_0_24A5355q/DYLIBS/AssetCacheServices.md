@@ -1,0 +1,590 @@
+## AssetCacheServices
+
+> `/System/Library/PrivateFrameworks/AssetCacheServices.framework/AssetCacheServices`
+
+```diff
+
+-140.120.2.0.0
+-  __TEXT.__text: 0x158e8
+-  __TEXT.__auth_stubs: 0xab0
++151.0.0.0.0
++  __TEXT.__text: 0x1492c
+   __TEXT.__objc_methlist: 0xa6c
+-  __TEXT.__const: 0x118
+-  __TEXT.__gcc_except_tab: 0x1f8
+-  __TEXT.__cstring: 0x1062
++  __TEXT.__const: 0x110
++  __TEXT.__gcc_except_tab: 0x1cc
++  __TEXT.__cstring: 0x1176
+   __TEXT.__oslogstring: 0xda1
+   __TEXT.__unwind_info: 0x480
+-  __TEXT.__objc_classname: 0x150
+-  __TEXT.__objc_methname: 0x1dfa
+-  __TEXT.__objc_methtype: 0xa1e
+-  __TEXT.__objc_stubs: 0x1820
+-  __DATA_CONST.__got: 0x188
+-  __DATA_CONST.__const: 0xe18
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xe48
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x780
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x568
++  __DATA_CONST.__got: 0x188
+   __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0xe60
++  __AUTH_CONST.__cfstring: 0xf20
+   __AUTH_CONST.__objc_const: 0xed8
+   __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x54
+   __DATA.__data: 0x300
+   __DATA.__bss: 0x20
+
+   - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 86435F29-8203-3612-988F-3AFD5744E2D7
+-  Functions: 397
++  UUID: EDC0E986-61C5-36CB-8960-B92DDC4F6D6D
++  Functions: 395
+   Symbols:   1463
+-  CStrings:  771
++  CStrings:  381
+ 
+Symbols:
++ ___ACSImportFileIntoCachingServer_block_invoke.182
++ ___ACSImportFileIntoCachingServer_block_invoke.182.cold.1
++ ___ACSImportFileIntoCachingServer_block_invoke.187
++ ___ACSImportFileIntoCachingServer_block_invoke.187.cold.1
++ ___ACSImportFileIntoCachingServer_block_invoke_2.185
++ ___ACSImportFileIntoCachingServer_block_invoke_2.185.cold.1
++ ___ACSLocateCachingServer_block_invoke.103
++ ___ACSLocateCachingServer_block_invoke.103.cold.1
++ ___ACSLocateCachingServer_block_invoke.103.cold.2
++ ___ACSLocateCachingServer_block_invoke.103.cold.3
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.133
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.133.cold.1
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.141
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.141.cold.1
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke_2.136
++ ___ACSMightCurrentNetworkHaveCachingServer_block_invoke_2.136.cold.1
++ ____ACSIntrospect_block_invoke.193
++ ____ACSIntrospect_block_invoke.193.cold.1
++ ____ACSIntrospect_block_invoke.196
++ ____ACSIntrospect_block_invoke.196.cold.1
++ ____ACSIntrospect_block_invoke.196.cold.2
++ ____ACSLocateAllCachingServers_block_invoke.114
++ ____ACSLocateAllCachingServers_block_invoke.114.cold.1
++ ____ACSLocateAllCachingServers_block_invoke.114.cold.2
++ ___aclLocateCommon_block_invoke_2.268
++ ___block_descriptor_tmp.113
++ ___block_descriptor_tmp.118
++ ___block_descriptor_tmp.119
++ ___block_descriptor_tmp.135
++ ___block_descriptor_tmp.142
++ ___block_descriptor_tmp.144
++ ___block_descriptor_tmp.145
++ ___block_descriptor_tmp.164
++ ___block_descriptor_tmp.168
++ ___block_descriptor_tmp.184
++ ___block_descriptor_tmp.188
++ ___block_descriptor_tmp.189
++ ___block_descriptor_tmp.190
++ ___block_descriptor_tmp.194
++ ___block_descriptor_tmp.198
++ ___block_descriptor_tmp.199
++ ___block_descriptor_tmp.200
++ ___block_descriptor_tmp.204
++ ___block_descriptor_tmp.205
++ ___block_descriptor_tmp.261
++ ___block_descriptor_tmp.265
++ ___block_descriptor_tmp.266
++ ___block_descriptor_tmp.269
++ ___block_descriptor_tmp.273
++ ___block_descriptor_tmp.277
++ ___block_descriptor_tmp.288
++ ___block_descriptor_tmp.289
++ ___block_descriptor_tmp.290
++ ___block_descriptor_tmp.294
++ __kACSCacheMetricsNotification
++ __kACSCacheParentStatusNotification
++ __kACSCachePeerStatusNotification
++ __kACSCacheSettingsNotification
++ __kACSCacheStateNotification
++ __kACSRegistrationNotification
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x6
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- ___ACSImportFileIntoCachingServer_block_invoke.164
+- ___ACSImportFileIntoCachingServer_block_invoke.164.cold.1
+- ___ACSImportFileIntoCachingServer_block_invoke.169
+- ___ACSImportFileIntoCachingServer_block_invoke.169.cold.1
+- ___ACSImportFileIntoCachingServer_block_invoke_2.167
+- ___ACSImportFileIntoCachingServer_block_invoke_2.167.cold.1
+- ___ACSLocateCachingServer_block_invoke.85
+- ___ACSLocateCachingServer_block_invoke.85.cold.1
+- ___ACSLocateCachingServer_block_invoke.85.cold.2
+- ___ACSLocateCachingServer_block_invoke.85.cold.3
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.105
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.105.cold.1
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.115
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke.115.cold.1
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke_2.118
+- ___ACSMightCurrentNetworkHaveCachingServer_block_invoke_2.118.cold.1
+- ____ACSIntrospect_block_invoke.175
+- ____ACSIntrospect_block_invoke.175.cold.1
+- ____ACSIntrospect_block_invoke.178
+- ____ACSIntrospect_block_invoke.178.cold.1
+- ____ACSIntrospect_block_invoke.178.cold.2
+- ____ACSLocateAllCachingServers_block_invoke.96
+- ____ACSLocateAllCachingServers_block_invoke.96.cold.1
+- ____ACSLocateAllCachingServers_block_invoke.96.cold.2
+- ___aclLocateCommon_block_invoke_2.250
+- ___block_descriptor_tmp.100
+- ___block_descriptor_tmp.101
+- ___block_descriptor_tmp.106
+- ___block_descriptor_tmp.126
+- ___block_descriptor_tmp.127
+- ___block_descriptor_tmp.146
+- ___block_descriptor_tmp.150
+- ___block_descriptor_tmp.166
+- ___block_descriptor_tmp.170
+- ___block_descriptor_tmp.171
+- ___block_descriptor_tmp.172
+- ___block_descriptor_tmp.176
+- ___block_descriptor_tmp.180
+- ___block_descriptor_tmp.181
+- ___block_descriptor_tmp.182
+- ___block_descriptor_tmp.186
+- ___block_descriptor_tmp.187
+- ___block_descriptor_tmp.237
+- ___block_descriptor_tmp.243
+- ___block_descriptor_tmp.247
+- ___block_descriptor_tmp.248
+- ___block_descriptor_tmp.251
+- ___block_descriptor_tmp.259
+- ___block_descriptor_tmp.270
+- ___block_descriptor_tmp.271
+- ___block_descriptor_tmp.272
+- ___block_descriptor_tmp.276
+- ___block_descriptor_tmp.95
+- ___block_descriptor_tmp.99
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+- _objc_retain_x28
+CStrings:
++ "com.apple.contentcache.metrics.notification"
++ "com.apple.contentcache.parents.notification"
++ "com.apple.contentcache.peers.notification"
++ "com.apple.contentcache.registration.notification"
++ "com.apple.contentcache.settings.notification"
++ "com.apple.contentcache.state.notification"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<ACSURLSessionDelegate>\""
+- "@\"ACSURLSession\""
+- "@\"NSDictionary\""
+- "@\"NSError\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSOperationQueue\""
+- "@\"NSProgress\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSURLRequest\""
+- "@\"NSURLSession\""
+- "@\"NSURLSessionTask\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@?16@24@32"
+- "@48@0:8@16@24@32^@40"
+- "@52@0:8@16B24@28@36@44"
+- "@?"
+- "@?16@0:8"
+- "ACSURLSession"
+- "ACSURLSessionAsynchronousConvenience"
+- "ACSURLSessionTask"
+- "ACSURLSessionUploadTask"
+- "ACSURLSession_Impl"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B56@0:8@16^@24^@32^@40^@48"
+- "NSCopying"
+- "NSObject"
+- "NSProgressReporting"
+- "NSURLSessionDataDelegate"
+- "NSURLSessionDelegate"
+- "NSURLSessionDownloadDelegate"
+- "NSURLSessionStreamDelegate"
+- "NSURLSessionTaskDelegate"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<ACSURLSessionDelegate>\",&,V__clientDelegate"
+- "T@\"<ACSURLSessionDelegate>\",R,&"
+- "T@\"ACSURLSession\",R"
+- "T@\"ACSURLSession\",W,V__weakSession"
+- "T@\"NSDictionary\",&,V__locateOptions"
+- "T@\"NSDictionary\",R,C"
+- "T@\"NSError\",&,V__deferredLinkError"
+- "T@\"NSError\",R,C"
+- "T@\"NSMutableDictionary\",&,V__tasks"
+- "T@\"NSObject<OS_dispatch_queue>\",&,V__queue"
+- "T@\"NSObject<OS_os_log>\",&,V__logHandle"
+- "T@\"NSOperationQueue\",&,V__clientDelegateOpQueue"
+- "T@\"NSOperationQueue\",R,&"
+- "T@\"NSProgress\",R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C"
+- "T@\"NSString\",R,C"
+- "T@\"NSURLRequest\",&,V__resumedOriginalRequest"
+- "T@\"NSURLRequest\",R,C"
+- "T@\"NSURLResponse\",R,C"
+- "T@\"NSURLSession\",&,V__nsurlSession"
+- "T@\"NSURLSessionConfiguration\",R,C"
+- "T@\"NSURLSessionTask\",&,V__nsurlTaskToCachingServer"
+- "T@\"NSURLSessionTask\",&,V__nsurlTaskToOrigin"
+- "T@?,C,V__clientDataCompletionHandler"
+- "T@?,C,V__clientLocationCompletionHandler"
+- "T@?,C,V__nsurlTaskCreator"
+- "TB,R"
+- "TB,V__failBackToOrigin"
+- "TB,V__suspended"
+- "TB,V__tryCachingServer"
+- "TB,V_canUseCachingServer"
+- "TQ,R"
+- "Tf"
+- "Ti,V__phase"
+- "Tq"
+- "Tq,R"
+- "Tq,V__internalState"
+- "URL"
+- "URLSession:betterRouteDiscoveredForStreamTask:"
+- "URLSession:dataTask:didBecomeDownloadTask:"
+- "URLSession:dataTask:didBecomeStreamTask:"
+- "URLSession:dataTask:didReceiveData:"
+- "URLSession:dataTask:didReceiveResponse:completionHandler:"
+- "URLSession:dataTask:willCacheResponse:completionHandler:"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didCreateTask:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSession:downloadTask:didFinishDownloadingToURL:"
+- "URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:"
+- "URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:"
+- "URLSession:readClosedForStreamTask:"
+- "URLSession:streamTask:didBecomeInputStream:outputStream:"
+- "URLSession:task:didCompleteWithError:"
+- "URLSession:task:didFinishCollectingMetrics:"
+- "URLSession:task:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didReceiveInformationalResponse:"
+- "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:"
+- "URLSession:task:needNewBodyStream:"
+- "URLSession:task:needNewBodyStreamFromOffset:completionHandler:"
+- "URLSession:task:willBeginDelayedRequest:completionHandler:"
+- "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
+- "URLSession:task:willUseCachingServer:newRequest:completionHandler:"
+- "URLSession:taskIsWaitingForConnectivity:"
+- "URLSession:writeClosedForStreamTask:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "URLWithString:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "__clientDataCompletionHandler"
+- "__clientDelegate"
+- "__clientDelegateOpQueue"
+- "__clientLocationCompletionHandler"
+- "__deferredLinkError"
+- "__failBackToOrigin"
+- "__internalState"
+- "__locateOptions"
+- "__logHandle"
+- "__nsurlSession"
+- "__nsurlTaskCreator"
+- "__nsurlTaskToCachingServer"
+- "__nsurlTaskToOrigin"
+- "__phase"
+- "__queue"
+- "__resumedOriginalRequest"
+- "__suspended"
+- "__tasks"
+- "__tryCachingServer"
+- "__weakSession"
+- "_addTask:"
+- "_canUseCachingServer"
+- "_cancelDownloadTask:byProducingResumeData:"
+- "_cancelTask:"
+- "_clientDataCompletionHandler"
+- "_clientDelegate"
+- "_clientDelegateOpQueue"
+- "_clientLocationCompletionHandler"
+- "_copyAttributesFromNSURLTask:toNSURLTask:"
+- "_dataTask:completedWithData:response:error:completionHandler:"
+- "_deferredLinkError"
+- "_downloadTask:completedWithLocation:response:error:completionHandler:"
+- "_downloadTaskWithResumeData:completionHandler:"
+- "_errorWithResumeDataFromError:originalRequest:currentRequest:"
+- "_failBackToOrigin"
+- "_internalState"
+- "_isUpload"
+- "_keyForNSURLTask:"
+- "_linkedLocationWithLocation:"
+- "_locateCachingServerForURL:isUpload:completionHandler:"
+- "_locateOptions"
+- "_logHandle"
+- "_nsurlSession"
+- "_nsurlTaskCreator"
+- "_nsurlTaskForRequest:"
+- "_nsurlTaskToCachingServer"
+- "_nsurlTaskToOrigin"
+- "_onqueue_addTask:forNSURLTask:"
+- "_onqueue_removeTaskForNSURLTask:"
+- "_onqueue_resumeTask:"
+- "_onqueue_task:willUseCachingServer:newRequest:completionHandler:"
+- "_onqueue_taskForNSURLTask:"
+- "_onqueue_uniqueTasks"
+- "_phase"
+- "_queue"
+- "_removeTask:"
+- "_resumeData:toNSURLResumeData:originalRequest:currentRequest:error:"
+- "_resumeDataWithNSURLResumeData:originalRequest:currentRequest:error:"
+- "_resumeTask:"
+- "_resumedOriginalRequest"
+- "_setRequiresShortConnectionTimeout:"
+- "_suspendTask:"
+- "_suspended"
+- "_tasks"
+- "_tryCachingServer"
+- "_weakSession"
+- "absoluteString"
+- "addObject:"
+- "addOperationWithBlock:"
+- "allValues"
+- "appendFormat:"
+- "appendString:"
+- "array"
+- "arrayWithCapacity:"
+- "autorelease"
+- "canUseCachingServer"
+- "cancel"
+- "cancelByProducingResumeData:"
+- "class"
+- "code"
+- "configuration"
+- "conformsToProtocol:"
+- "containsObject:"
+- "containsString:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countOfBytesClientExpectsToReceive"
+- "countOfBytesClientExpectsToSend"
+- "countOfBytesExpectedToReceive"
+- "countOfBytesExpectedToSend"
+- "countOfBytesReceived"
+- "countOfBytesSent"
+- "currentHandler"
+- "dataTaskWithRequest:"
+- "dataTaskWithRequest:completionHandler:"
+- "dataTaskWithURL:"
+- "dataTaskWithURL:completionHandler:"
+- "dataWithPropertyList:format:options:error:"
+- "dealloc"
+- "debugDescription"
+- "decodeObjectOfClasses:forKey:"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "delegate"
+- "delegateQueue"
+- "description"
+- "descriptionWithAddress"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "domain"
+- "doubleValue"
+- "downloadTaskWithRequest:"
+- "downloadTaskWithRequest:completionHandler:"
+- "downloadTaskWithResumeData:"
+- "downloadTaskWithResumeData:completionHandler:"
+- "downloadTaskWithURL:"
+- "downloadTaskWithURL:completionHandler:"
+- "encodeObject:forKey:"
+- "encodedData"
+- "enumerateObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "exceptionWithName:reason:userInfo:"
+- "f16@0:8"
+- "fileURLWithPath:"
+- "finishDecoding"
+- "finishTasksAndInvalidate"
+- "flushWithCompletionHandler:"
+- "getAllTasksWithCompletionHandler:"
+- "getTasksWithCompletionHandler:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasPrefix:"
+- "hash"
+- "i16@0:8"
+- "identifier"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithConfiguration:canUseCachingServer:locateOptions:delegate:delegateQueue:"
+- "initWithNSURLDataTaskCreator:initialRequest:forSession:"
+- "initWithNSURLDownloadTaskCreator:initialRequest:forSession:"
+- "initWithNSURLTaskCreator:initialRequest:forSession:"
+- "initWithNSURLUploadTaskCreator:initialRequest:forSession:"
+- "insertString:atIndex:"
+- "invalidateAndCancel"
+- "isEqual:"
+- "isFileReferenceURL"
+- "isFileURL"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "knownSZExtractorImplementations"
+- "length"
+- "linkItemAtURL:toURL:error:"
+- "locateOptions"
+- "maxConcurrentOperationCount"
+- "mutableCopy"
+- "objectForKeyedSubscript:"
+- "path"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "priority"
+- "progress"
+- "propertyListWithData:options:format:error:"
+- "q"
+- "q16@0:8"
+- "query"
+- "rangeOfString:options:"
+- "release"
+- "removeItemAtURL:error:"
+- "removeObjectForKey:"
+- "requestWithURL:"
+- "resetWithCompletionHandler:"
+- "respondsToSelector:"
+- "response"
+- "resume"
+- "retain"
+- "retainCount"
+- "self"
+- "sessionDescription"
+- "sessionWithConfiguration:canUseCachingServer:locateOptions:"
+- "sessionWithConfiguration:canUseCachingServer:locateOptions:delegate:delegateQueue:"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "setAllowsCellularAccess:"
+- "setCanUseCachingServer:"
+- "setCountOfBytesClientExpectsToReceive:"
+- "setCountOfBytesClientExpectsToSend:"
+- "setObject:forKeyedSubscript:"
+- "setPriority:"
+- "setSessionDescription:"
+- "setTaskDescription:"
+- "setURL:"
+- "setWithCapacity:"
+- "setWithObjects:"
+- "set_clientDataCompletionHandler:"
+- "set_clientDelegate:"
+- "set_clientDelegateOpQueue:"
+- "set_clientLocationCompletionHandler:"
+- "set_deferredLinkError:"
+- "set_failBackToOrigin:"
+- "set_internalState:"
+- "set_locateOptions:"
+- "set_logHandle:"
+- "set_nsurlSession:"
+- "set_nsurlTaskCreator:"
+- "set_nsurlTaskToCachingServer:"
+- "set_nsurlTaskToOrigin:"
+- "set_phase:"
+- "set_queue:"
+- "set_resumedOriginalRequest:"
+- "set_suspended:"
+- "set_tasks:"
+- "set_tryCachingServer:"
+- "set_weakSession:"
+- "sharedSession"
+- "state"
+- "statusCode"
+- "stringWithFormat:"
+- "superclass"
+- "suspend"
+- "taskDescription"
+- "taskIdentifier"
+- "unionSet:"
+- "uploadTaskWithRequest:fromData:"
+- "uploadTaskWithRequest:fromData:completionHandler:"
+- "uploadTaskWithRequest:fromFile:"
+- "uploadTaskWithRequest:fromFile:completionHandler:"
+- "uploadTaskWithStreamedRequest:"
+- "userInfo"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v20@0:8i16"
+- "v24@0:8@\"NSURLSession\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8q16"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionStreamTask\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSData\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLSessionDownloadTask\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLSessionStreamTask\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDownloadTask\"24@\"NSURL\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLSessionTaskMetrics\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@?<v@?@\"NSInputStream\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@16B24@28@?36"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSCachedURLResponse\"32@?<v@?@\"NSCachedURLResponse\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLResponse\"32@?<v@?q>40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDownloadTask\"24q32q40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionStreamTask\"24@\"NSInputStream\"32@\"NSOutputStream\"40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLAuthenticationChallenge\"32@?<v@?q@\"NSURLCredential\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?q@\"NSURLRequest\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32@?<v@?@\"NSInputStream\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24q32@?40"
+- "v48@0:8@16@24q32q40"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionDownloadTask\"24q32q40q48"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32@\"NSURLRequest\"40@?<v@?@\"NSURLRequest\">48"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32q40q48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24q32q40q48"
+- "zone"
+
+```

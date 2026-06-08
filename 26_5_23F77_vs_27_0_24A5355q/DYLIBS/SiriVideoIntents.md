@@ -1,0 +1,1703 @@
+## SiriVideoIntents
+
+> `/System/Library/PrivateFrameworks/SiriVideoIntents.framework/SiriVideoIntents`
+
+```diff
+
+-3525.2.1.0.0
+-  __TEXT.__text: 0x1bcf84
+-  __TEXT.__auth_stubs: 0x4a20
++3600.22.2.0.0
++  __TEXT.__text: 0x1c5ab8
+   __TEXT.__objc_methlist: 0x12b0
+-  __TEXT.__const: 0x14b1e
+-  __TEXT.__oslogstring: 0xdb67
+-  __TEXT.__cstring: 0x5654
+-  __TEXT.__constg_swiftt: 0x6ae0
+-  __TEXT.__swift5_typeref: 0x6266
+-  __TEXT.__swift5_fieldmd: 0x61f4
++  __TEXT.__const: 0x150e0
++  __TEXT.__oslogstring: 0xdfd7
++  __TEXT.__cstring: 0x5736
++  __TEXT.__constg_swiftt: 0x6c48
++  __TEXT.__swift5_typeref: 0x638a
++  __TEXT.__swift5_fieldmd: 0x6368
+   __TEXT.__swift5_builtin: 0x21c
+-  __TEXT.__swift5_reflstr: 0x5a67
+-  __TEXT.__swift5_assocty: 0xe80
+-  __TEXT.__swift5_capture: 0x199c
+-  __TEXT.__swift5_proto: 0xcfc
+-  __TEXT.__swift5_types: 0x674
++  __TEXT.__swift5_reflstr: 0x5c17
++  __TEXT.__swift5_assocty: 0xee8
++  __TEXT.__swift5_capture: 0x2e5c
++  __TEXT.__swift5_proto: 0xd3c
++  __TEXT.__swift5_types: 0x688
+   __TEXT.__swift5_protos: 0x108
+-  __TEXT.__swift_as_entry: 0x7f4
+-  __TEXT.__swift_as_ret: 0x91c
++  __TEXT.__swift_as_entry: 0x82c
++  __TEXT.__swift_as_ret: 0x94c
++  __TEXT.__swift_as_cont: 0xab4
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x7320
+-  __TEXT.__eh_frame: 0x1036c
+-  __TEXT.__objc_classname: 0x1c5d
+-  __TEXT.__objc_methname: 0x5675
+-  __TEXT.__objc_methtype: 0xc92
+-  __TEXT.__objc_stubs: 0x4b60
+-  __DATA_CONST.__got: 0x10a8
+-  __DATA_CONST.__const: 0x1d0
+-  __DATA_CONST.__objc_classlist: 0x3f0
++  __TEXT.__unwind_info: 0x7968
++  __TEXT.__eh_frame: 0x105f0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1c0
++  __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x148
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x16b8
++  __DATA_CONST.__objc_selrefs: 0x16c0
+   __DATA_CONST.__objc_protorefs: 0xb8
+-  __AUTH_CONST.__auth_got: 0x2518
+-  __AUTH_CONST.__const: 0xea18
+-  __AUTH_CONST.__objc_const: 0xd5a8
++  __DATA_CONST.__got: 0x10a0
++  __AUTH_CONST.__const: 0x12028
++  __AUTH_CONST.__objc_const: 0xd838
++  __AUTH_CONST.__auth_got: 0x2620
+   __AUTH.__objc_data: 0x2850
+-  __AUTH.__data: 0x67f8
+-  __DATA.__data: 0x4340
+-  __DATA.__bss: 0x17100
+-  __DATA.__common: 0x3a0
++  __AUTH.__data: 0x6a18
++  __DATA.__data: 0x43d0
++  __DATA.__bss: 0x17900
++  __DATA.__common: 0x3a8
+   __DATA_DIRTY.__data: 0x2a0
+   __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D9BAFB1D-EEE2-3D10-937F-F69C1A8A6702
+-  Functions: 10935
+-  Symbols:   12886
+-  CStrings:  2621
++  UUID: C131B93E-D997-33CD-A8CE-FAF7CCCF75B6
++  Functions: 11578
++  Symbols:   14637
++  CStrings:  1450
+ 
+Symbols:
++ __DATA__TtC16SiriVideoIntents24PlayOnRemoteFlowStrategy
++ __DATA__TtC16SiriVideoIntents29PlayOnRemoteDeviceWrapperFlow
++ __IVARS__TtC16SiriVideoIntents24PlayOnRemoteFlowStrategy
++ __IVARS__TtC16SiriVideoIntents29PlayOnRemoteDeviceWrapperFlow
++ __METACLASS_DATA__TtC16SiriVideoIntents24PlayOnRemoteFlowStrategy
++ __METACLASS_DATA__TtC16SiriVideoIntents29PlayOnRemoteDeviceWrapperFlow
++ __PROTOCOLS__TtC16SiriVideoIntents22PlayVideoIntentHandler.18
++ __PROTOCOLS__TtC16SiriVideoIntents28PlayLiveServiceIntentHandler.4
++ __PROTOCOLS__TtC16SiriVideoIntents29WatchSportsEventIntentHandler.10
++ ___swift__destructor
++ ___swift__destructor.11
++ ___swift__destructor.14
++ ___swift__destructor.17
++ ___swift__destructor.23
++ ___swift__destructor.3
++ ___swift__destructor.31
++ ___swift__destructor.35
++ ___swift__destructor.37
++ ___swift__destructor.42
++ ___swift__destructor.47
++ ___swift__destructor.59
++ ___swift__destructor.6
++ ___swift__destructor.68
++ ___swift__destructor.7
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.26Tm
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.42Tm
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.48Tm
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.96Tm
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.124
++ ___swift_exist.box.addr_destructor.18
++ ___swift_exist.box.addr_destructor.18Tm
++ ___swift_exist.box.addr_destructor.2
++ ___swift_exist.box.addr_destructor.23
++ ___swift_exist.box.addr_destructor.24
++ ___swift_exist.box.addr_destructor.26
++ ___swift_exist.box.addr_destructor.27
++ ___swift_exist.box.addr_destructor.28
++ ___swift_exist.box.addr_destructor.4
++ ___swift_exist.box.addr_destructor.41
++ ___swift_exist.box.addr_destructor.7
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteDeviceParamsV0defG5ErrorOSHAASQ
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLOSHAASQ
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteFlowStrategyC0a3KitG0014ResolveConfirmgH5AsyncAaD028IntentExtensionCommunicatingL0
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteFlowStrategyC0a3KitG0014ResolveConfirmgH5AsyncAaD05Routek14IntentResponseghL0
++ _associated conformance 16SiriVideoIntents24PlayOnRemoteFlowStrategyC0a3KitG007RCHFlowH5AsyncAaD014ResolveConfirmghK0
++ _block_copy_helper.11
++ _block_copy_helper.161
++ _block_copy_helper.20
++ _block_copy_helper.26
++ _block_copy_helper.28
++ _block_copy_helper.29
++ _block_copy_helper.42
++ _block_copy_helper.5
++ _block_copy_helper.52
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.13
++ _block_descriptor.163
++ _block_descriptor.22
++ _block_descriptor.28
++ _block_descriptor.30
++ _block_descriptor.31
++ _block_descriptor.44
++ _block_descriptor.54
++ _block_descriptor.7
++ _block_destroy_helper.12
++ _block_destroy_helper.162
++ _block_destroy_helper.21
++ _block_destroy_helper.27
++ _block_destroy_helper.29
++ _block_destroy_helper.30
++ _block_destroy_helper.43
++ _block_destroy_helper.53
++ _block_destroy_helper.6
++ _block_destroy_helper.99
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_metadata
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _swift_deallocUninitializedObject
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_future_wait_throwing
++ _symbolic SDySSSaySSGGIegr_
++ _symbolic SDySSSay_____GGIegr_ 10AppIntents13VideoCategoryO
++ _symbolic SDySSSay_____GGIegr_ 10AppIntents17StringSearchScopeO
++ _symbolic SNySiG
++ _symbolic SNySiGIegr_
++ _symbolic SSIego_
++ _symbolic SaySDySSSiGG
++ _symbolic SaySSGIegr_
++ _symbolic SaySo19LSApplicationRecordCG
++ _symbolic Say_____G 16SiriVideoIntents11LiveServiceC
++ _symbolic SbIegd_
++ _symbolic ScCy__________G 11SiriSignals14SignalGathererC17ValuesWithTimingsV AA0cD5ErrorO
++ _symbolic SdIegd_
++ _symbolic ShySSGIegr_
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic So13SABaseCommandC
++ _symbolic So13TRITrackingIdC
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic _____ 11SiriKitFlow5ParseO16DirectInvocationV
++ _symbolic _____ 16SiriVideoIntents24PlayOnRemoteDeviceParamsV
++ _symbolic _____ 16SiriVideoIntents24PlayOnRemoteDeviceParamsV0defG5ErrorO
++ _symbolic _____ 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLO
++ _symbolic _____ 16SiriVideoIntents24PlayOnRemoteFlowStrategyC
++ _symbolic _____ 16SiriVideoIntents29ABComparisonMessageCodePathIdO
++ _symbolic _____ 16SiriVideoIntents29PlayOnRemoteDeviceWrapperFlowC
++ _symbolic _____Iegd_ s5Int32V
++ _symbolic _____Iegd_ s6UInt32V
++ _symbolic _____Iegr_ 10Foundation4UUIDV
++ _symbolic _____Iegr_ s5Int32V
++ _symbolic _____Iegr_ s6UInt32V
++ _symbolic _____Sg 16SiriVideoIntents24PlayOnRemoteDeviceParamsV
++ _symbolic _____Sg 16SiriVideoIntents7UTSDataV19SportsEventPlayableV
++ _symbolic _____ySSSo20MLFeatureDescriptionC_GIegr_ SD4KeysV
++ _symbolic _____y_____G 11SiriKitFlow14RCHFlowFactoryV 0A12VideoIntents012PlayOnRemoteC8StrategyC
++ _symbolic _____y_____G s10ArraySliceV 16SiriVideoIntents7ContentC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16SiriVideoIntents24PlayOnRemoteDeviceParamsV10CodingKeys33_831F8EBB069FA874A8EB839007713A10LLO
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _type_layout_string 16SiriVideoIntents24PlayOnRemoteDeviceParamsV
+- _OUTLINED_FUNCTION_195
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_197
+- _OUTLINED_FUNCTION_198
+- _OUTLINED_FUNCTION_199
+- __PROTOCOLS__TtC16SiriVideoIntents22PlayVideoIntentHandler.22
+- __PROTOCOLS__TtC16SiriVideoIntents28PlayLiveServiceIntentHandler.7
+- __PROTOCOLS__TtC16SiriVideoIntents29WatchSportsEventIntentHandler.4
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SiriVideoIntents
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_SiriVideoIntents
+- _block_copy_helper.12
+- _block_copy_helper.18
+- _block_copy_helper.21
+- _block_copy_helper.24
+- _block_copy_helper.30
+- _block_copy_helper.33
+- _block_copy_helper.39
+- _block_copy_helper.45
+- _block_copy_helper.46
+- _block_copy_helper.51
+- _block_copy_helper.54
+- _block_copy_helper.58
+- _block_copy_helper.63
+- _block_copy_helper.69
+- _block_copy_helper.74
+- _block_copy_helper.9
+- _block_descriptor.11
+- _block_descriptor.14
+- _block_descriptor.20
+- _block_descriptor.23
+- _block_descriptor.26
+- _block_descriptor.32
+- _block_descriptor.35
+- _block_descriptor.41
+- _block_descriptor.47
+- _block_descriptor.48
+- _block_descriptor.53
+- _block_descriptor.56
+- _block_descriptor.60
+- _block_descriptor.65
+- _block_descriptor.71
+- _block_descriptor.76
+- _block_destroy_helper.10
+- _block_destroy_helper.13
+- _block_destroy_helper.19
+- _block_destroy_helper.22
+- _block_destroy_helper.25
+- _block_destroy_helper.31
+- _block_destroy_helper.34
+- _block_destroy_helper.40
+- _block_destroy_helper.46
+- _block_destroy_helper.47
+- _block_destroy_helper.52
+- _block_destroy_helper.55
+- _block_destroy_helper.59
+- _block_destroy_helper.64
+- _block_destroy_helper.70
+- _block_destroy_helper.75
+- _objectdestroy.10Tm
+- _objectdestroy.11Tm
+- _objectdestroy.13Tm
+- _objectdestroy.16Tm
+- _objectdestroy.17Tm
+- _objectdestroy.19Tm
+- _objectdestroy.26Tm
+- _objectdestroy.28Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.35Tm
+- _objectdestroy.38Tm
+- _objectdestroy.5Tm
+- _objectdestroy.6Tm
+- _objectdestroy.7Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+- _symbolic ScCy___________pG 11SiriSignals14SignalGathererC17ValuesWithTimingsV s5ErrorP
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 16SiriVideoIntents0D15PlaybackMonitorC6Client33_773551337043E4A575C4156C447B20D6LLC
+- _symbolic _____3key______5valuetSg 27SiriVirtualDeviceResolution0C4UnitC 0A12VideoIntents0C29SelectionDonationAggregationsV
+- _symbolic _____Sg 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____Sg 12SiriNLUTypes0A22_Nlu_External_UsoGraphV
+- _symbolic _____Sg 12SiriOntology13UsoIdentifierV
+- _symbolic _____SgXw 16SiriVideoIntents0B15PlaybackMonitorC
+- _symbolic _____ySSSay_____GG s17_NativeDictionaryV s5Int16V
+- _symbolic _____ySSSo64INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppDependentSignalsCG s17_NativeDictionaryV
+- _symbolic _____ySSSo76INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationDependentSignalsCG s17_NativeDictionaryV
+- _symbolic _____ySS_____G s17_NativeDictionaryV 16SiriVideoIntents30SupportedMediaCategoriesSignalV8Category33_DB74ABD8F8C6B6FCDBA20CCADD73D137LLV
+- _symbolic _____yyyyccG s23_ContiguousArrayStorageC
+CStrings:
++ "Cannot execute PlayOnRemoteDeviceWrapperFlow without required parameters"
++ "Donating to SiriRemembers %@"
++ "Executing PlayOnRemoteDeviceWrapperFlow"
++ "OPEN_ON_REMOTE_TV"
++ "PLAY_ON_REMOTE_TV"
++ "PlayOnRemoteDeviceParams.decode could not decode dictionary: %s, error: %s, returning nil"
++ "PlayOnRemoteDeviceWrapperFlow SVDR query failed: %s"
++ "PlayOnRemoteDeviceWrapperFlow couldn't resolve input device via SVDR for mediaRoute: %s"
++ "PlayOnRemoteDeviceWrapperFlow execute called without params set in on(input:)"
++ "PlayOnRemoteDeviceWrapperFlow failed to decode userData into expected params, will not handle"
++ "PlayOnRemoteDeviceWrapperFlow failed to generate failure dialog due to error: %@"
++ "PlayOnRemoteDeviceWrapperFlow handing off to RCH flow for device: %s, assistantId: %s"
++ "PlayOnRemoteDeviceWrapperFlow on called"
++ "PlayOnRemoteDeviceWrapperFlow on called with incorrect direct invocation id, or missing userData, will not handle"
++ "PlayOnRemoteFlowStrategy actionForInput called with invalid input, ignoring"
++ "PlayOnRemoteFlowStrategy building PlayVideoIntent — umcId: %s, remoteDevice: %s"
++ "SiriVideoIntents/PlayOnRemoteDeviceWrapperFlow.swift"
++ "VideoFlowProvider makeFlow() returning playOnRemoteDeviceWrapperFlow"
++ "com.apple.siri.video.PlayOnRemoteDevice"
+- "#16@0:8"
+- "$__lazy_storage_$_result_isRequestedApp"
+- "$__lazy_storage_$_result_isRequestedAppProbability"
+- "$defaultActor"
+- ".cxx_destruct"
+- "?"
+- "@\"<TRINotificationToken>\"16@0:8"
+- "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSMutableDictionary\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@\"NSDictionary\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@28@0:8@\"NSData\"16I24"
+- "@28@0:8@16I24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"NSDictionary\"16@\"<AceContext>\"24"
+- "@32@0:8@16@24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "AceObject"
+- "Activity"
+- "AddToWatchListContentResolutionResult"
+- "AddToWatchListIntent"
+- "AddToWatchListIntentHandling"
+- "AddToWatchListIntentResponse"
+- "App"
+- "ArchiveExtractor"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B32@0:8^{archive=}16@24"
+- "B32@0:8^{archive=}16^{archive=}24"
+- "BMStoreData"
+- "CARSessionObserving"
+- "CarPlay"
+- "Connected"
+- "Content"
+- "ContentImage"
+- "ContentImageResolutionResult"
+- "ContentResolutionResult"
+- "ContentSearch"
+- "ContentSearchResolutionResult"
+- "ContentSortResolutionResult"
+- "ContentTypeResolutionResult"
+- "Health"
+- "I16@0:8"
+- "ImageTypeResolutionResult"
+- "InFocus"
+- "JSONObjectWithData:options:error:"
+- "LNSystemProtocolMetadata"
+- "LiveService"
+- "LiveServiceResolutionResult"
+- "MLFeatureProvider"
+- "MRNowPlayingControllerDelegate"
+- "Maps"
+- "Media"
+- "Motion"
+- "NSCoding"
+- "NSCopying"
+- "NSMutableCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Navigation"
+- "NowPlaying"
+- "OrdinalReferenceResolutionResult"
+- "Person"
+- "PersonResolutionResult"
+- "PersonRoleResolutionResult"
+- "PlayLiveServiceIntent"
+- "PlayLiveServiceIntentHandling"
+- "PlayLiveServiceIntentResponse"
+- "PlayLiveServiceLiveServiceResolutionResult"
+- "PlayVideoContentResolutionResult"
+- "PlayVideoIntent"
+- "PlayVideoIntentHandling"
+- "PlayVideoIntentResponse"
+- "Q16@0:8"
+- "RBSProcessMonitorConfiguring"
+- "RemoveFromWatchListContentResolutionResult"
+- "RemoveFromWatchListIntent"
+- "RemoveFromWatchListIntentHandling"
+- "RemoveFromWatchListIntentResponse"
+- "ResultEntity"
+- "ResultEntityResolutionResult"
+- "SAAceCommand"
+- "SAAceReferable"
+- "SAAceSerializable"
+- "SAClientBoundCommand"
+- "SAServerBoundCommand"
+- "ScreenLocked"
+- "SearchAttributes"
+- "SearchAttributesResolutionResult"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"<TRINotificationToken>\",R,N"
+- "T@\"Content\",N,D,&"
+- "T@\"ContentImage\",N,D,&"
+- "T@\"ContentSearch\",N,D,&"
+- "T@\"INDateComponentsRange\",N,D,&"
+- "T@\"LiveService\",N,D,&"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",N,D,C"
+- "T@\"NSData\",N,D,C"
+- "T@\"NSDate\",N,D,C"
+- "T@\"NSNumber\",N,D,&"
+- "T@\"NSSet\",N,R"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSURL\",N,D,C"
+- "T@\"ResultEntity\",N,D,&"
+- "T@\"SearchAttributes\",N,D,&"
+- "TB,N,R"
+- "TB,R"
+- "TI,?,R,N"
+- "TI,R,N"
+- "TQ,R"
+- "TRINamespaceUpdateProtocol"
+- "Tq,N,D"
+- "Tq,N,Vcode"
+- "URLByResolvingSymlinksInPath"
+- "URLOverrideForURL:"
+- "UtsSearchParam"
+- "UtsSearchParamResolutionResult"
+- "Vv16@0:8"
+- "WatchSportsEventIntent"
+- "WatchSportsEventIntentHandling"
+- "WatchSportsEventIntentResponse"
+- "Workout"
+- "^{_NSZone=}16@0:8"
+- "^{archive=}16@0:8"
+- "_TtC16SiriVideoIntents10AtomicOnce"
+- "_TtC16SiriVideoIntents11AppSelector"
+- "_TtC16SiriVideoIntents11GlobalsImpl"
+- "_TtC16SiriVideoIntents12GetterSignal"
+- "_TtC16SiriVideoIntents13NoResultsFlow"
+- "_TtC16SiriVideoIntents14LockAtomicOnce"
+- "_TtC16SiriVideoIntents15AccountProvider"
+- "_TtC16SiriVideoIntents15SearchVideoFlow"
+- "_TtC16SiriVideoIntents17ModelAppPredictor"
+- "_TtC16SiriVideoIntents18BaseDialogProvider"
+- "_TtC16SiriVideoIntents18CarSessionProvider"
+- "_TtC16SiriVideoIntents19LiveServiceResolver"
+- "_TtC16SiriVideoIntents19RoutingAppPredictor"
+- "_TtC16SiriVideoIntents19SiriSignalsRecorder"
+- "_TtC16SiriVideoIntents20DeviceLockedProvider"
+- "_TtC16SiriVideoIntents20PlayVideoWrapperFlow"
+- "_TtC16SiriVideoIntents20VideoPlaybackMonitor"
+- "_TtC16SiriVideoIntents21PlayMediaAppSelection"
+- "_TtC16SiriVideoIntents21PlayVideoFlowStrategy"
+- "_TtC16SiriVideoIntents21TvAppNotInstalledFlow"
+- "_TtC16SiriVideoIntents22CarPlaySupportProvider"
+- "_TtC16SiriVideoIntents22OpenOnRemoteDeviceFlow"
+- "_TtC16SiriVideoIntents22PlayVideoIntentHandler"
+- "_TtC16SiriVideoIntents23BackgroundPlayableFetch"
+- "_TtC16SiriVideoIntents23SpotlightSearchProvider"
+- "_TtC16SiriVideoIntents24UserDefaultsProviderImpl"
+- "_TtC16SiriVideoIntents25AVAllowBackgroundPlayback"
+- "_TtC16SiriVideoIntents25ContentWith3pAppsProvider"
+- "_TtC16SiriVideoIntents25ThirdPartyFindWrapperFlow"
+- "_TtC16SiriVideoIntents25ThirdPartyPlayWrapperFlow"
+- "_TtC16SiriVideoIntents26AddToWatchListFlowStrategy"
+- "_TtC16SiriVideoIntents26AppIdentifierAppResolution"
+- "_TtC16SiriVideoIntents26DeviceConfirmationStrategy"
+- "_TtC16SiriVideoIntents26ExecutePlayVideoIntentFlow"
+- "_TtC16SiriVideoIntents26MoveToGroupDevicesProvider"
+- "_TtC16SiriVideoIntents26PlayLiveServiceWrapperFlow"
+- "_TtC16SiriVideoIntents26PlayMediaAppSelectionInput"
+- "_TtC16SiriVideoIntents26SiriRemembersEntitySignals"
+- "_TtC16SiriVideoIntents27AddToWatchListIntentHandler"
+- "_TtC16SiriVideoIntents27PlayLiveServiceFlowStrategy"
+- "_TtC16SiriVideoIntents27PlayMediaAppSelectionOutput"
+- "_TtC16SiriVideoIntents27ThirdPartyAppResolutionFlow"
+- "_TtC16SiriVideoIntents27WatchSportsEventWrapperFlow"
+- "_TtC16SiriVideoIntents28DeviceDisambiguationStrategy"
+- "_TtC16SiriVideoIntents28IntDictionaryFeatureProvider"
+- "_TtC16SiriVideoIntents28PlayLiveServiceIntentHandler"
+- "_TtC16SiriVideoIntents28SpotlightRelativeCountSignal"
+- "_TtC16SiriVideoIntents28WatchSportsEventFlowStrategy"
+- "_TtC16SiriVideoIntents29ExecutionDeviceResolutionFlow"
+- "_TtC16SiriVideoIntents29PlayVideoHandleIntentStrategy"
+- "_TtC16SiriVideoIntents29PommesResponseLoggingProvider"
+- "_TtC16SiriVideoIntents29ServerNeedsDisambiguationFlow"
+- "_TtC16SiriVideoIntents29VideoLiveTuneInDialogProvider"
+- "_TtC16SiriVideoIntents29WatchSportsEventIntentHandler"
+- "_TtC16SiriVideoIntents31DeviceSelectionDonationProvider"
+- "_TtC16SiriVideoIntents31RemoveFromWatchListFlowStrategy"
+- "_TtC16SiriVideoIntents31TrialAppPredictorConfigProvider"
+- "_TtC16SiriVideoIntents32FrontBoardOpenApplicationService"
+- "_TtC16SiriVideoIntents32RemoveFromWatchListIntentHandler"
+- "_TtC16SiriVideoIntents32TrialSignalCollectConfigProvider"
+- "_TtC16SiriVideoIntents33AppSelectionResultAnalyticsLogger"
+- "_TtC16SiriVideoIntents33PlayVideoDeviceResolutionStrategy"
+- "_TtC16SiriVideoIntents33PlayVideoUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents34AddToWatchListHandleIntentStrategy"
+- "_TtC16SiriVideoIntents34SiriRemembersInteractionDataSource"
+- "_TtC16SiriVideoIntents35CommonIntentThirdPartyAppResolution"
+- "_TtC16SiriVideoIntents35INPlayMediaUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents35PlayLiveServiceHandleIntentStrategy"
+- "_TtC16SiriVideoIntents35ThirdPartyAppDisambiguationStrategy"
+- "_TtC16SiriVideoIntents36WatchSportsEventHandleIntentStrategy"
+- "_TtC16SiriVideoIntents37PlayLiveServiceDisambiguationStrategy"
+- "_TtC16SiriVideoIntents38ABComparisonPlayOnThirdPartyAppHandler"
+- "_TtC16SiriVideoIntents38AddToWatchListUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents38SiriRemembersPartialMatchEntitySignals"
+- "_TtC16SiriVideoIntents39ExecuteShowInAppSearchResultsIntentFlow"
+- "_TtC16SiriVideoIntents39PlayLiveServiceUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents39RemoveFromWatchListHandleIntentStrategy"
+- "_TtC16SiriVideoIntents40INSearchForMediaUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents41PlayOnThirdPartyAppSignalRecordingHandler"
+- "_TtC16SiriVideoIntents43RemoveFromWatchListUnsupportedValueStrategy"
+- "_TtC16SiriVideoIntents4Once"
+- "_TtC16SiriVideoIntents7LocUtil"
+- "_TtCC16SiriVideoIntents20VideoPlaybackMonitorP33_773551337043E4A575C4156C447B20D66Client"
+- "_TtCO16SiriVideoIntents23ForcedAppDisambiguation26AppSelectionResultRemapper"
+- "_TtCV16SiriVideoIntents13MediaNLIntent20MediaAppOntologyNode"
+- "_TtCV16SiriVideoIntents13MediaNLIntent23MediaPersonOntologyNode"
+- "_TtCV16SiriVideoIntents14AppUsageSignal16AppUsageProvider"
+- "_TtCV16SiriVideoIntents15SpotlightSignal14SearchProvider"
+- "_TtCV16SiriVideoIntents15SpotlightSignal4Keys"
+- "_TtCV16SiriVideoIntents17UserContextSignal15ContextProvider"
+- "_TtCV16SiriVideoIntents19NowPlayingAppSignal16NowPlayingClient"
+- "_TtCV16SiriVideoIntents21NowPlayingStateSignal21NowPlayingStateClient"
+- "_imageData"
+- "_imageSize"
+- "_setDonatedBySiri:"
+- "_setLaunchId:"
+- "_setMetadata:"
+- "_uri"
+- "absoluteTimestamp"
+- "accountProvider"
+- "aceId"
+- "aceService"
+- "aceServiceInvoker"
+- "acquireWithError:"
+- "actionsConformingToSystemProtocols:logicalType:bundleIdentifier:error:"
+- "activeAppBundle"
+- "addSessionObserver:"
+- "addUpdateHandlerForNamespaceName:queue:usingBlock:"
+- "addUpdateHandlerForNamespaceName:usingBlock:"
+- "albumName"
+- "allUmcIds"
+- "allowAppsToInitiatePlayback:clientType:isTemporary:"
+- "allowBackgroundPlayback"
+- "ams_activeiCloudAccount"
+- "ams_activeiTunesAccount"
+- "ams_altDSID"
+- "ams_localiTunesAccount"
+- "ams_sharedAccountStore"
+- "ams_storefront"
+- "analyticsLogger"
+- "analyticsService"
+- "app"
+- "appAdamId"
+- "appBundleIdentifier"
+- "appDisambiguation"
+- "appDisambiguationContext"
+- "appId"
+- "appIdentifier"
+- "appImage"
+- "appInfoProvider"
+- "appInfoWithApplicationRecord:"
+- "appIntentsMetadata"
+- "appIntentsMetadataProvider"
+- "appLinksWithURL:limit:error:"
+- "appName"
+- "appPredictor"
+- "appProtectionHidden"
+- "appProvider"
+- "appRecordProvider"
+- "appStorePunchoutUrl"
+- "appStoreUrl"
+- "applicationRecordProvider"
+- "applicationsAvailableForOpeningURL:"
+- "appsProvider"
+- "appsShuffler"
+- "artistName"
+- "artwork"
+- "asset"
+- "assistantIdentifier"
+- "attributeWithDomain:name:"
+- "attributes"
+- "autorelease"
+- "backgroundFetch"
+- "backgroundPlayableFetch"
+- "beginLoadingUpdates"
+- "boolForKey:"
+- "boolValue"
+- "booleanValue"
+- "bundle"
+- "bundleForClass:"
+- "bundleID"
+- "bundleIdentifier"
+- "bundleRecordWithApplicationIdentifier:error:"
+- "bytes"
+- "callbacks"
+- "cancelledConnectionAttemptOnTransport:"
+- "candidateAppBundleIds"
+- "candidateApps"
+- "candidateAppsProvider"
+- "carSessionProvider"
+- "carSessionStatus"
+- "catId"
+- "category"
+- "categoryType"
+- "channelIds"
+- "class"
+- "client"
+- "clientWithIdentifier:"
+- "clients"
+- "code"
+- "compatibilityVersionWithNamespaceName:"
+- "complete"
+- "completions"
+- "config"
+- "configProvider"
+- "configuration"
+- "confirmAddToWatchList:completion:"
+- "confirmPlayLiveService:completion:"
+- "confirmPlayVideo:completion:"
+- "confirmRemoveFromWatchList:completion:"
+- "confirmWatchSportsEvent:completion:"
+- "confirmationRequiredWithContentImageToConfirm:"
+- "confirmationRequiredWithContentSearchToConfirm:"
+- "confirmationRequiredWithContentSortToConfirm:"
+- "confirmationRequiredWithContentToConfirm:"
+- "confirmationRequiredWithContentTypeToConfirm:"
+- "confirmationRequiredWithImageTypeToConfirm:"
+- "confirmationRequiredWithLiveServiceToConfirm:"
+- "confirmationRequiredWithObjectToConfirm:"
+- "confirmationRequiredWithOrdinalReferenceToConfirm:"
+- "confirmationRequiredWithPersonRoleToConfirm:"
+- "confirmationRequiredWithPersonToConfirm:"
+- "confirmationRequiredWithResultEntityToConfirm:"
+- "confirmationRequiredWithSearchAttributesToConfirm:"
+- "confirmationRequiredWithUtsSearchParamToConfirm:"
+- "confirmationRequiredWithValueToConfirm:"
+- "conformsToProtocol:"
+- "content"
+- "contentResolver"
+- "contentSearch"
+- "contentUrl"
+- "contentWith3pAppsProviding"
+- "contextService"
+- "continuation"
+- "controller:clientPropertiesDidChangeFrom:to:"
+- "controller:contentItemsDidUpdate:"
+- "controller:contentItemsDidUpdateWithContentItemChanges:"
+- "controller:deviceLastPlayingDateDidChange:"
+- "controller:didFailWithError:"
+- "controller:didLoadArtworkForContentItems:"
+- "controller:didLoadResponse:"
+- "controller:didUpdateResponse:"
+- "controller:playbackQueueDidChangeFrom:to:"
+- "controller:playbackRateDidChangeFrom:to:"
+- "controller:playbackStateDidChangeFrom:to:"
+- "controller:playerLastPlayingDateDidChange:"
+- "controller:playerPathDidChange:"
+- "controller:repeatModeDidChangeFrom:to:"
+- "controller:shuffleModeDidChangeFrom:to:"
+- "controller:supportedCommandsDidChangeFrom:to:"
+- "controllerWillReloadForInvalidation:"
+- "copyDataFromReadArchive:toWriteDiskArchive:"
+- "copyWithZone:"
+- "count"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createReadArchive"
+- "createTriggerMessageSender"
+- "createWriteDiskArchive"
+- "crossDeviceRequestInitiator"
+- "currentConfig"
+- "currentConfigLock"
+- "currentPlaybackState"
+- "currentSession"
+- "customErrorCode"
+- "customErrorDomain"
+- "dataSource"
+- "dataVersion"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "debugDescription"
+- "decodeHashedRouteUIDs:completion:"
+- "defaultManager"
+- "defaultMessageStream"
+- "deleteIsDecisionCorrect"
+- "deleteModelVersion"
+- "deleteNumCandidateApps"
+- "deploymentId"
+- "description"
+- "detailsUrl"
+- "developerType"
+- "deviceIdentifier"
+- "deviceLockedProvider"
+- "deviceLoggingUtil"
+- "deviceResolutionAnalytics"
+- "deviceResolutionProvider"
+- "deviceResolutionService"
+- "deviceSelectionDonationProvider"
+- "deviceState"
+- "dialog"
+- "dialogProvider"
+- "dictionary"
+- "dictionaryValue"
+- "didSucceedPriorToWait"
+- "directoryValue"
+- "disambiguationStrategy"
+- "disambiguationWithContentImagesToDisambiguate:"
+- "disambiguationWithContentSearchsToDisambiguate:"
+- "disambiguationWithContentsToDisambiguate:"
+- "disambiguationWithLiveServicesToDisambiguate:"
+- "disambiguationWithObjectsToDisambiguate:"
+- "disambiguationWithPersonsToDisambiguate:"
+- "disambiguationWithResultEntitysToDisambiguate:"
+- "disambiguationWithSearchAttributessToDisambiguate:"
+- "disambiguationWithUtsSearchParamsToDisambiguate:"
+- "discoverabilitySignal"
+- "displayAppName"
+- "dnuAllowedProvider"
+- "domain"
+- "doubleValue"
+- "eligibilityManager"
+- "emitMessage:isolatedStreamUUID:"
+- "encodeHashedRouteUIDs:completion:"
+- "encodeWithCoder:"
+- "encodedClassName"
+- "encryptionProvider"
+- "endDate"
+- "endLoadingUpdates"
+- "endowmentNamespaces"
+- "entityExperienceUrl"
+- "enumeratorWithOptions:"
+- "episodeNumber"
+- "episodeReference"
+- "error"
+- "eventBody"
+- "eventSender"
+- "eventWithData:dataVersion:"
+- "executionDevice"
+- "experimentId"
+- "experimentIdentifiersWithNamespaceName:"
+- "extractArchiveAtURL:toDestinationDirectoryURL:"
+- "fallbackToWebSearch"
+- "fallbackWebSearchQueryFromResolveApp"
+- "featureFlagService"
+- "featureFlags"
+- "featureNames"
+- "featureValueForName:"
+- "featureValueWithDouble:"
+- "featureValueWithInt64:"
+- "featureValueWithString:"
+- "featuresAtIndex:"
+- "fileSystemRepresentation"
+- "fileURLWithPathComponents:"
+- "fileValue"
+- "finaleDate"
+- "firstItemIndex"
+- "flowFactory"
+- "foregroundAppProvider"
+- "format"
+- "formatted_text"
+- "fullPrint"
+- "fullSpeak"
+- "function"
+- "gender"
+- "genre"
+- "genreNames"
+- "getTrialIdentifiers"
+- "globals"
+- "groupIdentifier"
+- "handleAddToWatchList:completion:"
+- "handleForLegacyHandle:error:"
+- "handlePlayLiveService:completion:"
+- "handlePlayVideo:completion:"
+- "handleRemoveFromWatchList:completion:"
+- "handleWatchSportsEvent:completion:"
+- "handlers"
+- "hasMoreResults"
+- "hasPath"
+- "hasRun"
+- "hash"
+- "height"
+- "id"
+- "identifier"
+- "imageWithData:"
+- "images"
+- "inTheaters"
+- "infoDictionary"
+- "init"
+- "initWithAppSelectionEnabled:appInferred:audioSearchResults:"
+- "initWithBackingStore:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCode:userActivity:"
+- "initWithCoder:"
+- "initWithConfiguration:"
+- "initWithContentsOfFile:options:error:"
+- "initWithDestination:"
+- "initWithDictionary:"
+- "initWithDictionary:context:"
+- "initWithDomain:verb:parametersByName:"
+- "initWithDouble:"
+- "initWithExplanation:target:attributes:"
+- "initWithFeatureProviderArray:"
+- "initWithIdentifier:"
+- "initWithIdentifier:backingStore:"
+- "initWithIdentifier:bundleID:context:userInfo:"
+- "initWithIdentifier:displayString:"
+- "initWithIdentifier:displayString:pronunciationHint:"
+- "initWithInteger:"
+- "initWithIntent:response:"
+- "initWithJSONDictionary:forIntent:"
+- "initWithNSUUID:"
+- "initWithPrivateMediaIntentData:audioSearchResults:internalSignals:appInferred:"
+- "initWithPropertiesByName:"
+- "initWithQueryString:attributes:"
+- "initWithQueryString:context:"
+- "initWithRequestProperties:"
+- "initWithSerializedBackingStore:"
+- "initWithStartDate:endDate:maxEvents:lastN:reversed:"
+- "initWithSuiteName:"
+- "initWithTagSchemes:"
+- "initWithURL:"
+- "initWithUTF8String:"
+- "initWithUUIDString:"
+- "input"
+- "integerValue"
+- "intent"
+- "intentSupportProvider"
+- "interactionStore"
+- "invalidate"
+- "isAppInstalled"
+- "isDiagnosticSubmissionAllowed"
+- "isDolbyAtmos"
+- "isDolbyVision"
+- "isEntitled"
+- "isEqual:"
+- "isEqualToString:"
+- "isFree"
+- "isHdr"
+- "isInWatchList"
+- "isInstalled"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isObservingController"
+- "isProxy"
+- "isRemoteExecution"
+- "isRemoteResult"
+- "isSubscribed"
+- "isUhd"
+- "itemLimit"
+- "itemToConfirm"
+- "json"
+- "jsonDict"
+- "key"
+- "languageCode"
+- "latestDataVersion"
+- "legacyAppSelector"
+- "length"
+- "levelForFactor:withNamespaceName:"
+- "liveService"
+- "liveServiceId"
+- "liveServiceResolver"
+- "liveTuneInDialogs"
+- "locUtil"
+- "localDestination"
+- "localServiceResults"
+- "localizedName"
+- "localizedStringForKey:table:bundle:languageCode:"
+- "lock"
+- "longValue"
+- "machineGeneratedUtterance"
+- "machineUtteranceForRestartingRequest"
+- "matchupId"
+- "maxCount"
+- "mediaIdentifier"
+- "mediaItems"
+- "mediaNLIntent"
+- "mediaName"
+- "mediaSearch"
+- "mediaType"
+- "metadata"
+- "model"
+- "modelDescription"
+- "modelWithContentsOfURL:configuration:error:"
+- "modelWithContentsOfURL:error:"
+- "monitorWithConfiguration:"
+- "moodNames"
+- "moveToGroupDevices"
+- "mutableCopyWithZone:"
+- "name"
+- "namespaceId"
+- "namespaceName"
+- "noData"
+- "nowPlayingActivityAcquireProvider"
+- "nowPlayingController"
+- "nowProvider"
+- "numSelfMessages"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "openApplication:withOptions:completion:"
+- "openApplicationService"
+- "optedIn"
+- "optionsWithDictionary:"
+- "outputDescriptionsByName"
+- "outputPublisher"
+- "outputVoice"
+- "path"
+- "performExtractionForArchive:toDestinationDirectory:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pid"
+- "playPunchoutUrl"
+- "playVideoProtocol"
+- "playableMap"
+- "playablePunchoutUrl"
+- "playbackState"
+- "playerPath"
+- "predicateMatchingHandle:"
+- "predicateMatchingProcessTypeApplication"
+- "predictedProbabilitiesName"
+- "predictionsFromBatch:error:"
+- "predictionsFromBatch:options:error:"
+- "preheat:"
+- "prewarm"
+- "process"
+- "promptSearchInAppStore"
+- "properties"
+- "provider"
+- "proximity"
+- "publisherWithOptions:"
+- "punchoutUrl"
+- "q"
+- "q16@0:8"
+- "qos"
+- "queue"
+- "randomProvider"
+- "ratingSystem"
+- "ratingValue"
+- "rbsProcessMonitor"
+- "recommendedAge"
+- "refId"
+- "reference"
+- "refresh"
+- "relativeAppUsageProbabilitiesForCandidateBundleIds:daysAgo:"
+- "release"
+- "releaseDate"
+- "releaseDateRange"
+- "remoteDevice"
+- "request"
+- "requestPropertiesWithEndpoint:queryParameters:httpMethod:httpBody:headers:caller:timeout:apiVersion:options:"
+- "requiresResponse"
+- "resolutionResultDisambiguationWithItemsToDisambiguate:"
+- "resolveContentForAddToWatchList:withCompletion:"
+- "resolveContentForPlayVideo:withCompletion:"
+- "resolveContentForRemoveFromWatchList:withCompletion:"
+- "resolveLiveServiceForPlayLiveService:withCompletion:"
+- "respondsToSelector:"
+- "responseDictionary"
+- "responseGenerator"
+- "responseStatusCode"
+- "resultEntity"
+- "result_appUsageScore1Day"
+- "result_appUsageScore7Days"
+- "result_clientCarConnected"
+- "result_clientCarplay"
+- "result_clientDaylight"
+- "result_clientDevice"
+- "result_clientHourOfDay"
+- "result_clientIsActiveForegroundApp"
+- "result_clientLocaleIdentifier"
+- "result_clientLocaleLanguage"
+- "result_clientLocked"
+- "result_clientMotion"
+- "result_clientNavigating"
+- "result_clientWorkout"
+- "result_entitySearchAllTimeInteractionShare"
+- "result_entitySearchNormalizedSecondsSinceLastInteraction"
+- "result_entitySearchTrailing10MinuteInteractionShare"
+- "result_entitySearchTrailing1DayInteractionShare"
+- "result_entitySearchTrailing1HourInteractionShare"
+- "result_entitySearchTrailing28DayInteractionShare"
+- "result_entitySearchTrailing2MinuteInteractionShare"
+- "result_entitySearchTrailing6HourInteractionShare"
+- "result_entitySearchTrailing7DayInteractionShare"
+- "result_foregroundAppDuetElapsedSeconds"
+- "result_foregroundAppIsLastUsed"
+- "result_isNowPlayingApp"
+- "result_isNowPlayingDuetApp"
+- "result_libraryItems"
+- "result_mediaNamePresent"
+- "result_mediaType"
+- "result_nowPlayingDuetElapsedSeconds"
+- "result_nowPlayingState"
+- "result_nowPlayingUsage7Days"
+- "result_spotlightMatches"
+- "result_subscriptionStatus"
+- "retain"
+- "retainCount"
+- "role"
+- "roles"
+- "room"
+- "roomName"
+- "runState"
+- "runtimeInMinutes"
+- "sampleRateGetter"
+- "searchQueryCreator"
+- "searchScopes"
+- "searchTerm"
+- "season"
+- "seasonCount"
+- "seasonNumber"
+- "seasonReference"
+- "self"
+- "selfMessageStream"
+- "sendEvent:"
+- "serialize"
+- "serializedContextByKey"
+- "serviceNameSearch"
+- "serviceWithDefaultShellEndpoint"
+- "session:didUpdateConfiguration:"
+- "sessionDidConnect"
+- "sessionDidConnect:"
+- "sessionDidDisconnect:"
+- "setAbModelEvaluated:"
+- "setAbModelResultTriggered:"
+- "setAceId:"
+- "setAllUmcIds:"
+- "setAppBundleIdentifier:"
+- "setAppDisambiguation:"
+- "setAppId:"
+- "setAppImage:"
+- "setAppName:"
+- "setAppStorePunchoutUrl:"
+- "setAppStoreUrl:"
+- "setAspect_ratio:"
+- "setAthleteName:"
+- "setAthleteQId:"
+- "setAttributes:"
+- "setBucketedDeviceMotionState:"
+- "setBundleIDs:"
+- "setBundleId:"
+- "setCallbacks:"
+- "setCard:"
+- "setCardSectionDetail:"
+- "setCardSnippet:"
+- "setCatId:"
+- "setChannelId:"
+- "setChannelIds:"
+- "setClientHourOfDay:"
+- "setClientLanguage:"
+- "setClientLocale:"
+- "setClientRegion:"
+- "setCode:"
+- "setCommand:"
+- "setCommands:"
+- "setCompletionBlock:"
+- "setCompletionHandler:"
+- "setComponent:"
+- "setComputeUnits:"
+- "setContent:"
+- "setContentSearch:"
+- "setContentType:"
+- "setCornerRoundingStyle:"
+- "setCrossDeviceRequestInitiator:"
+- "setDelegate:"
+- "setDependentSignals:"
+- "setDescriptions:"
+- "setDetailsUrl:"
+- "setDeviceClass:"
+- "setDialog:"
+- "setDialogPhase:"
+- "setDisambiguationAppOrdinal:"
+- "setDisambiguationAppsOrder:"
+- "setDisambiguationReasons:"
+- "setEndowmentNamespaces:"
+- "setEntityAbsoluteCount10Min:"
+- "setEntityAbsoluteCount14Day:"
+- "setEntityAbsoluteCount1Day:"
+- "setEntityAbsoluteCount1Hr:"
+- "setEntityAbsoluteCount28Day:"
+- "setEntityAbsoluteCount2Min:"
+- "setEntityAbsoluteCount6Hr:"
+- "setEntityAbsoluteCount7Day:"
+- "setEntityExperienceUrl:"
+- "setEntityPartialAppCount10Min:"
+- "setEntityPartialAppCount1Day:"
+- "setEntityPartialAppCount1Hr:"
+- "setEntityPartialAppCount28Day:"
+- "setEntityPartialAppCount2Min:"
+- "setEntityPartialAppCount6Hr:"
+- "setEntityPartialAppCount7Day:"
+- "setEntityPartialSiriCount10Min:"
+- "setEntityPartialSiriCount1Day:"
+- "setEntityPartialSiriCount1Hr:"
+- "setEntityPartialSiriCount28Day:"
+- "setEntityPartialSiriCount2Min:"
+- "setEntityPartialSiriCount6Hr:"
+- "setEntityPartialSiriCount7Day:"
+- "setEntityRecency:"
+- "setEpisodeNumber:"
+- "setEpisodeReference:"
+- "setEventMetadata:"
+- "setEvents:"
+- "setFetchAttributes:"
+- "setFinaleDate:"
+- "setFormat:"
+- "setFormatted_text:"
+- "setForward:"
+- "setFoundItemsHandler:"
+- "setFullPrint:"
+- "setFullSpeak:"
+- "setGenre:"
+- "setHasMoreResults:"
+- "setHashedRouteId:"
+- "setHeight:"
+- "setHomeKitAccessoryIdentifier:"
+- "setId:"
+- "setImage:"
+- "setImage_element:"
+- "setImages:"
+- "setIndependentSignal:"
+- "setInferenceId:"
+- "setIntentType:"
+- "setInteractionType:"
+- "setIsAppInstalled:"
+- "setIsApprovedForGrading:"
+- "setIsDecisionCorrect:"
+- "setIsDeviceLockStatus:"
+- "setIsDisambiguatedApp:"
+- "setIsDolbyAtmos:"
+- "setIsDolbyVision:"
+- "setIsEntitled:"
+- "setIsEntitledToPlayOnDevice:"
+- "setIsEvod:"
+- "setIsForegroundApp:"
+- "setIsFree:"
+- "setIsHdr:"
+- "setIsInWatchList:"
+- "setIsInstalled:"
+- "setIsLastForegroundApp:"
+- "setIsLastNowPlayingApp:"
+- "setIsNowPlayingApp:"
+- "setIsRemoteExecution:"
+- "setIsRemoteResult:"
+- "setIsSelectedApp:"
+- "setIsSubscribed:"
+- "setIsUhd:"
+- "setItemLimit:"
+- "setItemType:"
+- "setKey:"
+- "setLaunchId:"
+- "setLaunchOptions:"
+- "setLeagueName:"
+- "setLeagueQId:"
+- "setLine_limit:"
+- "setLiveService:"
+- "setLiveServiceId:"
+- "setLoadingText:"
+- "setLocalServiceResults:"
+- "setMachineGeneratedUtterance:"
+- "setMatchupId:"
+- "setMaxCount:"
+- "setMediaRouteIdentifier:"
+- "setMediaUserContextNumberOfLibraryItems:"
+- "setMediaUserContextSubscriptionStatus:"
+- "setModelAppConfidence:"
+- "setModelData:"
+- "setModelVersion:"
+- "setName:"
+- "setNowPlayingAbsoluteCount10Min:"
+- "setNowPlayingAbsoluteCount1Day:"
+- "setNowPlayingAbsoluteCount1Hr:"
+- "setNowPlayingAbsoluteCount28Day:"
+- "setNowPlayingAbsoluteCount2Min:"
+- "setNowPlayingAbsoluteCount6Hr:"
+- "setNowPlayingAbsoluteCount7Day:"
+- "setNowPlayingState:"
+- "setNumCandidateApps:"
+- "setNumDisambiguationApps:"
+- "setOrigin:"
+- "setPersonaAccessLevel:"
+- "setPersonaId:"
+- "setPixelHeight:"
+- "setPixelWidth:"
+- "setPlayOnThirdPartyAppSignals:"
+- "setPlayPunchoutUrl:"
+- "setPlayablePunchoutUrl:"
+- "setPredicates:"
+- "setPreventLaunchUpdateHandle:"
+- "setPrivatePlayMediaIntentData:"
+- "setPrivateSearchForMediaIntentData:"
+- "setProjectIntent:"
+- "setProtectionClasses:"
+- "setPunchOutUri:"
+- "setPunchoutUrl:"
+- "setRatingSystem:"
+- "setRatingValue:"
+- "setReason:"
+- "setRecommendedAge:"
+- "setRedactedFullPrint:"
+- "setRedactedFullSpeak:"
+- "setRedactedSupportingPrint:"
+- "setRedactedSupportingSpeak:"
+- "setRefId:"
+- "setRelativeAppUsage14Day:"
+- "setRelativeAppUsage1Day:"
+- "setRelativeAppUsage7Day:"
+- "setReleaseDate:"
+- "setReleaseDateRange:"
+- "setRemoteDeviceID:"
+- "setRequestPlaybackState:"
+- "setRequestTime:"
+- "setResourceUrl:"
+- "setResponseViewId:"
+- "setResultEntity:"
+- "setRole:"
+- "setRoles:"
+- "setRoomName:"
+- "setRuntimeInMinutes:"
+- "setScale:"
+- "setScaleFactor:"
+- "setSeason:"
+- "setSeasonCount:"
+- "setSeasonNumber:"
+- "setSeasonReference:"
+- "setSeparatorStyle:"
+- "setServiceClass:"
+- "setServiceNameSearch:"
+- "setShow:"
+- "setSize:"
+- "setSizing_mode:"
+- "setSort:"
+- "setSource:"
+- "setSources:"
+- "setSpokenOnly:"
+- "setSportName:"
+- "setSportQId:"
+- "setSpotlightRelativeCount:"
+- "setStateDescriptor:"
+- "setString:"
+- "setStudio:"
+- "setStyle:"
+- "setSuggestedContent:"
+- "setSummary:"
+- "setSupportedMediaCategories:"
+- "setSupportingPrint:"
+- "setSupportingSpeak:"
+- "setSystemExtensionBundleId:"
+- "setTarget:"
+- "setTeamName:"
+- "setTeamQId:"
+- "setTemplateUrl:"
+- "setTemporary:"
+- "setText:"
+- "setText_1:"
+- "setText_2:"
+- "setText_elements:"
+- "setText_encapsulation:"
+- "setThumbnail:"
+- "setTimeSinceLastForegroundAppEndInSec:"
+- "setTimeSinceLastForegroundAppStartInSec:"
+- "setTimeSinceLastNowPlayingAppEndInSec:"
+- "setTimeSinceLastNowPlayingAppStartInSec:"
+- "setTitle:"
+- "setTrialDeploymentId:"
+- "setTrialTreatmentId:"
+- "setTriggerReason:"
+- "setType:"
+- "setUmcId:"
+- "setUpdateHandler:"
+- "setUrl:"
+- "setUrlFormatString:"
+- "setUrlToLaunch:"
+- "setUrlValue:"
+- "setUserActivity:"
+- "setUserData:"
+- "setUserDriven:"
+- "setUsoEntity:"
+- "setUsoEntityData:"
+- "setUtsId:"
+- "setUtsSearchParams:"
+- "setUtterance:"
+- "setUuid:"
+- "setValue:forKey:"
+- "setValues:"
+- "setVideoPlayOnThirdPartyAppGroundTruthGenerated:"
+- "setVideoSmartAppSelectionDisambiguation:"
+- "setViewIdentifier:"
+- "setViews:"
+- "setVisual_elements:"
+- "setWantsChangeCallbacksDuringInitialLoad:"
+- "setWatchListIdentifier:"
+- "setWatchListItem:"
+- "setWidth:"
+- "sharedAVSystemController"
+- "sharedAnalytics"
+- "sharedConnection"
+- "sharedInstance"
+- "sharedPreferences"
+- "sharedSettings"
+- "sharedStore"
+- "show"
+- "showInAppStringSearchResultsProtocol"
+- "signalCollectConfigProvider"
+- "signalNamePrefix"
+- "signalRecorder"
+- "signalsCreator"
+- "sinkWithCompletion:receiveInput:"
+- "siriRemembersProvider"
+- "siriSignalsGatherer"
+- "size"
+- "skipDisambiguationSelectionCount"
+- "sleepState"
+- "smartAppSelector"
+- "sort"
+- "sortOrder"
+- "source"
+- "sportsTuneInDialogs"
+- "spotlight"
+- "start"
+- "startDate"
+- "startTime"
+- "startedConnectionAttemptOnTransport:"
+- "starting"
+- "state"
+- "statesForPredicate:withDescriptor:error:"
+- "stationary"
+- "strategy"
+- "stringByAppendingPathComponent:"
+- "stringForKey:"
+- "stringValue"
+- "studio"
+- "successWithResolvedContent:"
+- "successWithResolvedContentImage:"
+- "successWithResolvedContentSearch:"
+- "successWithResolvedContentSort:"
+- "successWithResolvedContentType:"
+- "successWithResolvedImageType:"
+- "successWithResolvedLiveService:"
+- "successWithResolvedObject:"
+- "successWithResolvedOrdinalReference:"
+- "successWithResolvedPerson:"
+- "successWithResolvedPersonRole:"
+- "successWithResolvedResultEntity:"
+- "successWithResolvedSearchAttributes:"
+- "successWithResolvedUtsSearchParam:"
+- "successWithResolvedValue:"
+- "suggestedContent"
+- "summary"
+- "superclass"
+- "supportProvider"
+- "supportedCategories"
+- "supportedIntents"
+- "supportedMediaCategories"
+- "supportsMultiwindow"
+- "supportsSecureCoding"
+- "supports_audiobooks"
+- "supports_general"
+- "supports_podcasts"
+- "systemProtocolMetadata"
+- "systemProtocols"
+- "targetApplicationRecord"
+- "targetWithPid:"
+- "taskState"
+- "templateUrl"
+- "thirdPartyIntentSupportProvider"
+- "timeout"
+- "tipService"
+- "title"
+- "token"
+- "trackingId"
+- "treatmentId"
+- "trialConfiguration"
+- "trialProvider"
+- "tvProfileSelector"
+- "type"
+- "typeName"
+- "umcId"
+- "unarchiveData:toDestinationDirectory:"
+- "uniqueIdentifier"
+- "unlock"
+- "unsupportedDialogProvider"
+- "unsupportedForReason:"
+- "unsupportedReason"
+- "unsupportedWithReason:"
+- "urlToLaunch"
+- "usecase"
+- "userContextOfClass:forBundleIdentifiers:withCompletion:"
+- "userDefaults"
+- "userDefaultsProvider"
+- "usoEntity"
+- "usoEntityData"
+- "utsProvider"
+- "utsSearchParams"
+- "utsSearchUrl"
+- "v12@?0I8"
+- "v16@0:8"
+- "v16@?0@\"<RBSProcessMonitorConfiguring>\"8"
+- "v16@?0@\"<TRINamespaceUpdateProtocol>\"8"
+- "v16@?0@\"BPSCompletion\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@8"
+- "v16@?0^{__CFError=}8"
+- "v20@0:8I16"
+- "v24@0:8@\"CARSession\"16"
+- "v24@0:8@\"MRNowPlayingController\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"RBSProcessStateDescriptor\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"RBSProcessMonitor\"@\"NSSet\">16"
+- "v24@0:8@?<v@?@\"RBSProcessMonitor\"@\"RBSProcessHandle\"@\"RBSProcessStateUpdate\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"BSProcessHandle\"8@\"NSError\"16"
+- "v24@?0^v8^{__CFError=}16"
+- "v32@0:8@\"AddToWatchListIntent\"16@?<v@?@\"AddToWatchListContentResolutionResult\">24"
+- "v32@0:8@\"AddToWatchListIntent\"16@?<v@?@\"AddToWatchListIntentResponse\">24"
+- "v32@0:8@\"CARSession\"16@\"CARSessionConfiguration\"24"
+- "v32@0:8@\"MRNowPlayingController\"16@\"MRNowPlayingPlayerResponse\"24"
+- "v32@0:8@\"MRNowPlayingController\"16@\"MRPlayerPath\"24"
+- "v32@0:8@\"MRNowPlayingController\"16@\"NSArray\"24"
+- "v32@0:8@\"MRNowPlayingController\"16@\"NSDate\"24"
+- "v32@0:8@\"MRNowPlayingController\"16@\"NSError\"24"
+- "v32@0:8@\"MRNowPlayingController\"16I24I28"
+- "v32@0:8@\"MRNowPlayingController\"16f24f28"
+- "v32@0:8@\"MRNowPlayingController\"16i24i28"
+- "v32@0:8@\"PlayLiveServiceIntent\"16@?<v@?@\"PlayLiveServiceIntentResponse\">24"
+- "v32@0:8@\"PlayLiveServiceIntent\"16@?<v@?@\"PlayLiveServiceLiveServiceResolutionResult\">24"
+- "v32@0:8@\"PlayVideoIntent\"16@?<v@?@\"PlayVideoContentResolutionResult\">24"
+- "v32@0:8@\"PlayVideoIntent\"16@?<v@?@\"PlayVideoIntentResponse\">24"
+- "v32@0:8@\"RemoveFromWatchListIntent\"16@?<v@?@\"RemoveFromWatchListContentResolutionResult\">24"
+- "v32@0:8@\"RemoveFromWatchListIntent\"16@?<v@?@\"RemoveFromWatchListIntentResponse\">24"
+- "v32@0:8@\"WatchSportsEventIntent\"16@?<v@?@\"WatchSportsEventIntentResponse\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16I24I28"
+- "v32@0:8@16f24f28"
+- "v32@0:8@16i24i28"
+- "v32@?0@\"RBSProcessMonitor\"8@\"RBSProcessHandle\"16@\"RBSProcessStateUpdate\"24"
+- "v40@0:8@\"MRNowPlayingController\"16@\"MRClient\"24@\"MRClient\"32"
+- "v40@0:8@\"MRNowPlayingController\"16@\"MRPlaybackQueue\"24@\"MRPlaybackQueue\"32"
+- "v40@0:8@\"MRNowPlayingController\"16@\"NSArray\"24@\"NSArray\"32"
+- "v40@0:8@16@24@32"
+- "value"
+- "valueGetter"
+- "values"
+- "videoAppsOverrideProvider"
+- "videoDialogProvider"
+- "videoDialogs"
+- "videoPlaybackMonitor"
+- "videoPlaybackSupported"
+- "viewFactory"
+- "waitForSessionInitialization"
+- "watchBundleId"
+- "watchListDialogs"
+- "watchListService"
+- "width"
+- "zone"
+
+```

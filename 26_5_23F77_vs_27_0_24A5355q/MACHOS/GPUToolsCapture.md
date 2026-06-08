@@ -1,0 +1,4253 @@
+## GPUToolsCapture
+
+> `/System/Library/PrivateFrameworks/GPUToolsCapture.framework/GPUToolsCapture`
+
+```diff
+
+-314.14.0.0.0
+-  __TEXT.__text: 0x27ab5c
+-  __TEXT.__auth_stubs: 0x1770
+-  __TEXT.__objc_stubs: 0x172a0
++2027.0.28.0.0
++  __TEXT.__text: 0x29225c
++  __TEXT.__auth_stubs: 0x1930
++  __TEXT.__objc_stubs: 0x18320
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x12adc
+-  __TEXT.__const: 0x46d0
+-  __TEXT.__cstring: 0x27b55
+-  __TEXT.__gcc_except_tab: 0xd84
+-  __TEXT.__objc_methname: 0x1a98c
+-  __TEXT.__objc_classname: 0x15f1
+-  __TEXT.__objc_methtype: 0xab28
+-  __TEXT.__oslogstring: 0x17a1
++  __TEXT.__objc_methlist: 0x13454
++  __TEXT.__const: 0x9f30
++  __TEXT.__cstring: 0x30589
++  __TEXT.__oslogstring: 0x2382
++  __TEXT.__gcc_except_tab: 0x1634
++  __TEXT.__objc_methname: 0x1b7c2
++  __TEXT.__objc_classname: 0x15a3
++  __TEXT.__objc_methtype: 0xaf91
+   __TEXT.__ustring: 0x20a
+-  __TEXT.__unwind_info: 0x43e0
+-  __DATA_CONST.__auth_got: 0xbd0
+-  __DATA_CONST.__got: 0x7f8
+-  __DATA_CONST.__auth_ptr: 0x10
+-  __DATA_CONST.__const: 0x1df0
+-  __DATA_CONST.__cfstring: 0x43c0
+-  __DATA_CONST.__objc_classlist: 0x340
++  __TEXT.__unwind_info: 0x4c00
++  __DATA_CONST.__const: 0x2178
++  __DATA_CONST.__cfstring: 0x4900
++  __DATA_CONST.__objc_classlist: 0x350
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x428
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__objc_superrefs: 0x320
++  __DATA_CONST.__objc_superrefs: 0x328
+   __DATA_CONST.__objc_intobj: 0xd8
+   __DATA_CONST.__objc_arraydata: 0x90
+   __DATA_CONST.__objc_dictobj: 0xa0
+   __DATA_CONST.__objc_arrayobj: 0x30
+-  __DATA.__objc_const: 0x1a660
+-  __DATA.__objc_selrefs: 0x6d18
+-  __DATA.__objc_ivar: 0xb30
+-  __DATA.__objc_data: 0x2080
+-  __DATA.__data: 0x34a0
++  __DATA_CONST.__auth_got: 0xcb0
++  __DATA_CONST.__got: 0x810
++  __DATA_CONST.__auth_ptr: 0x48
++  __AUTH_CONST.__interpose: 0x50
++  __DATA.__objc_const: 0x1b1e0
++  __DATA.__objc_selrefs: 0x6fe0
++  __DATA.__objc_ivar: 0xb90
++  __DATA.__objc_data: 0x2120
++  __DATA.__data: 0x34d0
+   __DATA.__thread_vars: 0x48
+-  __DATA.__thread_bss: 0x1018
+-  __DATA.__bss: 0x558
+-  __DATA.__common: 0x55
++  __DATA.__thread_bss: 0x101010
++  __DATA.__bss: 0x4688
++  __DATA.__common: 0x75
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/Frameworks/MetalFX.framework/MetalFX
+   - /System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/GPUToolsTransport.framework/GPUToolsTransport
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/MetalTools.framework/MetalTools
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 457E2DD1-832E-34CF-AF97-57CF3B6F295E
+-  Functions: 7933
+-  Symbols:   47199
+-  CStrings:  9432
++  UUID: D4B15D48-80C5-30A7-8F01-432C111F1DB6
++  Functions: 9780
++  Symbols:   37808
++  CStrings:  10173
+ 
+Symbols:
++ +[SparseBufferPageTable computeRequiredBufferByteCountWithLength:placementSparsePageSize:]
++ +[SparseTexturePageTable computeRequiredBufferByteCountWithDevice:descriptor:texture:]
++ -[CaptureMTL4CommandBuffer accelerationStructureDescriptorDownloaderResidencySet]
++ -[CaptureMTL4CommandBuffer releaseRetainedCommandEncoders]
++ -[CaptureMTL4CommandQueue addInternalResidencySet:]
++ -[CaptureMTL4CommandQueue addInternalResidencySets:count:]
++ -[CaptureMTL4CommandQueue commitBlock:]
++ -[CaptureMTL4CommandQueue getBackgroundGPUPriority]
++ -[CaptureMTL4CommandQueue getGPUPriority]
++ -[CaptureMTL4CommandQueue removeInternalResidencySet:]
++ -[CaptureMTL4CommandQueue removeInternalResidencySets:count:]
++ -[CaptureMTL4CommandQueue setBackgroundGPUPriority:]
++ -[CaptureMTL4CommandQueue setGPUPriority:]
++ -[CaptureMTL4CommandQueue waitForEvent:value:timeout:]
++ -[CaptureMTL4ComputeCommandEncoder copyFromTensor:sourceOrigin:sourceDimensions:sourcePlane:toTensor:destinationOrigin:destinationDimensions:destinationPlane:]
++ -[CaptureMTL4FXFrameInterpolator contentHeight]
++ -[CaptureMTL4FXFrameInterpolator contentWidth]
++ -[CaptureMTL4FXFrameInterpolator depthContentOffsetX]
++ -[CaptureMTL4FXFrameInterpolator depthContentOffsetY]
++ -[CaptureMTL4FXFrameInterpolator distortionHeight]
++ -[CaptureMTL4FXFrameInterpolator distortionOffsetX]
++ -[CaptureMTL4FXFrameInterpolator distortionOffsetY]
++ -[CaptureMTL4FXFrameInterpolator distortionTexture]
++ -[CaptureMTL4FXFrameInterpolator distortionWidth]
++ -[CaptureMTL4FXFrameInterpolator motionContentOffsetX]
++ -[CaptureMTL4FXFrameInterpolator motionContentOffsetY]
++ -[CaptureMTL4FXFrameInterpolator outputOffsetX]
++ -[CaptureMTL4FXFrameInterpolator outputOffsetY]
++ -[CaptureMTL4FXFrameInterpolator setContentHeight:]
++ -[CaptureMTL4FXFrameInterpolator setContentWidth:]
++ -[CaptureMTL4FXFrameInterpolator setDepthContentOffsetX:]
++ -[CaptureMTL4FXFrameInterpolator setDepthContentOffsetY:]
++ -[CaptureMTL4FXFrameInterpolator setDistortionHeight:]
++ -[CaptureMTL4FXFrameInterpolator setDistortionOffsetX:]
++ -[CaptureMTL4FXFrameInterpolator setDistortionOffsetY:]
++ -[CaptureMTL4FXFrameInterpolator setDistortionTexture:]
++ -[CaptureMTL4FXFrameInterpolator setDistortionWidth:]
++ -[CaptureMTL4FXFrameInterpolator setMotionContentOffsetX:]
++ -[CaptureMTL4FXFrameInterpolator setMotionContentOffsetY:]
++ -[CaptureMTL4FXFrameInterpolator setOutputOffsetX:]
++ -[CaptureMTL4FXFrameInterpolator setOutputOffsetY:]
++ -[CaptureMTL4FXFrameInterpolator uiTextureUsage]
++ -[CaptureMTL4FXTemporalDenoisedScaler reactiveMaskTextureUsage]
++ -[CaptureMTL4FXTemporalScaler colorContentOffsetX]
++ -[CaptureMTL4FXTemporalScaler colorContentOffsetY]
++ -[CaptureMTL4FXTemporalScaler depthContentOffsetX]
++ -[CaptureMTL4FXTemporalScaler depthContentOffsetY]
++ -[CaptureMTL4FXTemporalScaler motionContentOffsetX]
++ -[CaptureMTL4FXTemporalScaler motionContentOffsetY]
++ -[CaptureMTL4FXTemporalScaler outputOffsetX]
++ -[CaptureMTL4FXTemporalScaler outputOffsetY]
++ -[CaptureMTL4FXTemporalScaler reactiveMaskContentOffsetX]
++ -[CaptureMTL4FXTemporalScaler reactiveMaskContentOffsetY]
++ -[CaptureMTL4FXTemporalScaler reactiveMaskTextureUsage]
++ -[CaptureMTL4FXTemporalScaler setColorContentOffsetX:]
++ -[CaptureMTL4FXTemporalScaler setColorContentOffsetY:]
++ -[CaptureMTL4FXTemporalScaler setDepthContentOffsetX:]
++ -[CaptureMTL4FXTemporalScaler setDepthContentOffsetY:]
++ -[CaptureMTL4FXTemporalScaler setMotionContentOffsetX:]
++ -[CaptureMTL4FXTemporalScaler setMotionContentOffsetY:]
++ -[CaptureMTL4FXTemporalScaler setOutputOffsetX:]
++ -[CaptureMTL4FXTemporalScaler setOutputOffsetY:]
++ -[CaptureMTL4FXTemporalScaler setReactiveMaskContentOffsetX:]
++ -[CaptureMTL4FXTemporalScaler setReactiveMaskContentOffsetY:]
++ -[CaptureMTLBlitCommandEncoder copyFromTensor:sourceOrigin:sourceDimensions:sourcePlane:toTensor:destinationOrigin:destinationDimensions:destinationPlane:]
++ -[CaptureMTLCommandBuffer sampledAccelerationStructureCommandEncoder:capacity:]
++ -[CaptureMTLCommandBuffer sampledAccelerationStructureCommandEncoderWithDescriptor:programInfoBuffer:capacity:]
++ -[CaptureMTLCommandBuffer sampledBlitCommandEncoder:capacity:]
++ -[CaptureMTLCommandBuffer sampledBlitCommandEncoderWithDescriptor:programInfoBuffer:capacity:]
++ -[CaptureMTLComputePipelineState globalConstantsBase]
++ -[CaptureMTLComputePipelineState globalConstantsSize]
++ -[CaptureMTLDevice captureAllocatedObjects]
++ -[CaptureMTLDevice dummyEncodeMTL4ComputePSOIntoArgumentBufferForResourceIndex:withDescriptor:]
++ -[CaptureMTLDevice dummyEncodeMTL4RenderPSOIntoArgumentBufferForResourceIndex:withDescriptor:]
++ -[CaptureMTLDevice featureQueries]
++ -[CaptureMTLDevice genericAddressSpaceDispatchInfo]
++ -[CaptureMTLDevice newTensorWithDescriptor:attachments:error:]
++ -[CaptureMTLDevice originalDefaultCompilerProcessesCount]
++ -[CaptureMTLDevice originalThreadsPerCompilerProcess]
++ -[CaptureMTLDynamicLibrary globalConstantsBase]
++ -[CaptureMTLDynamicLibrary globalConstantsSize]
++ -[CaptureMTLFXFrameInterpolator contentHeight]
++ -[CaptureMTLFXFrameInterpolator contentWidth]
++ -[CaptureMTLFXFrameInterpolator depthContentOffsetX]
++ -[CaptureMTLFXFrameInterpolator depthContentOffsetY]
++ -[CaptureMTLFXFrameInterpolator distortionHeight]
++ -[CaptureMTLFXFrameInterpolator distortionOffsetX]
++ -[CaptureMTLFXFrameInterpolator distortionOffsetY]
++ -[CaptureMTLFXFrameInterpolator distortionTexture]
++ -[CaptureMTLFXFrameInterpolator distortionWidth]
++ -[CaptureMTLFXFrameInterpolator motionContentOffsetX]
++ -[CaptureMTLFXFrameInterpolator motionContentOffsetY]
++ -[CaptureMTLFXFrameInterpolator outputOffsetX]
++ -[CaptureMTLFXFrameInterpolator outputOffsetY]
++ -[CaptureMTLFXFrameInterpolator setContentHeight:]
++ -[CaptureMTLFXFrameInterpolator setContentWidth:]
++ -[CaptureMTLFXFrameInterpolator setDepthContentOffsetX:]
++ -[CaptureMTLFXFrameInterpolator setDepthContentOffsetY:]
++ -[CaptureMTLFXFrameInterpolator setDistortionHeight:]
++ -[CaptureMTLFXFrameInterpolator setDistortionOffsetX:]
++ -[CaptureMTLFXFrameInterpolator setDistortionOffsetY:]
++ -[CaptureMTLFXFrameInterpolator setDistortionTexture:]
++ -[CaptureMTLFXFrameInterpolator setDistortionWidth:]
++ -[CaptureMTLFXFrameInterpolator setMotionContentOffsetX:]
++ -[CaptureMTLFXFrameInterpolator setMotionContentOffsetY:]
++ -[CaptureMTLFXFrameInterpolator setOutputOffsetX:]
++ -[CaptureMTLFXFrameInterpolator setOutputOffsetY:]
++ -[CaptureMTLFXFrameInterpolator uiTextureUsage]
++ -[CaptureMTLFXTemporalDenoisedScaler reactiveMaskTextureUsage]
++ -[CaptureMTLFXTemporalScaler colorContentOffsetX]
++ -[CaptureMTLFXTemporalScaler colorContentOffsetY]
++ -[CaptureMTLFXTemporalScaler depthContentOffsetX]
++ -[CaptureMTLFXTemporalScaler depthContentOffsetY]
++ -[CaptureMTLFXTemporalScaler motionContentOffsetX]
++ -[CaptureMTLFXTemporalScaler motionContentOffsetY]
++ -[CaptureMTLFXTemporalScaler outputOffsetX]
++ -[CaptureMTLFXTemporalScaler outputOffsetY]
++ -[CaptureMTLFXTemporalScaler reactiveMaskContentOffsetX]
++ -[CaptureMTLFXTemporalScaler reactiveMaskContentOffsetY]
++ -[CaptureMTLFXTemporalScaler reactiveMaskTextureUsage]
++ -[CaptureMTLFXTemporalScaler setColorContentOffsetX:]
++ -[CaptureMTLFXTemporalScaler setColorContentOffsetY:]
++ -[CaptureMTLFXTemporalScaler setDepthContentOffsetX:]
++ -[CaptureMTLFXTemporalScaler setDepthContentOffsetY:]
++ -[CaptureMTLFXTemporalScaler setMotionContentOffsetX:]
++ -[CaptureMTLFXTemporalScaler setMotionContentOffsetY:]
++ -[CaptureMTLFXTemporalScaler setOutputOffsetX:]
++ -[CaptureMTLFXTemporalScaler setOutputOffsetY:]
++ -[CaptureMTLFXTemporalScaler setReactiveMaskContentOffsetX:]
++ -[CaptureMTLFXTemporalScaler setReactiveMaskContentOffsetY:]
++ -[CaptureMTLHeap accelerationStructures]
++ -[CaptureMTLRenderPipelineState fragmentGlobalConstantsBase]
++ -[CaptureMTLRenderPipelineState fragmentGlobalConstantsSize]
++ -[CaptureMTLRenderPipelineState meshGlobalConstantsBase]
++ -[CaptureMTLRenderPipelineState meshGlobalConstantsSize]
++ -[CaptureMTLRenderPipelineState objectGlobalConstantsBase]
++ -[CaptureMTLRenderPipelineState objectGlobalConstantsSize]
++ -[CaptureMTLRenderPipelineState tileGlobalConstantsBase]
++ -[CaptureMTLRenderPipelineState tileGlobalConstantsSize]
++ -[CaptureMTLRenderPipelineState vertexGlobalConstantsBase]
++ -[CaptureMTLRenderPipelineState vertexGlobalConstantsSize]
++ -[CaptureMTLTensor auxiliaryPlanes]
++ -[CaptureMTLTensor getBytes:strides:fromSliceOrigin:sliceDimensions:plane:]
++ -[CaptureMTLTensor replaceSliceOrigin:sliceDimensions:plane:withBytes:strides:]
++ -[GTDownloadContext downloadCallback]
++ -[GTDownloadContext initWithQueue:forRequest:downloadCallback:]
++ -[GTDownloadContext setDownloadCallback:]
++ -[GTDownloadPoint createContext:downloadCallback:]
++ -[GTMTLCaptureResourcePool acquireResidencySet]
++ -[GTMTLCaptureResourcePool releaseResidencySet:]
++ -[GTMTLCaptureSparsePageTables copyBufferMappings:source:destination:operations:count:]
++ -[GTMTLCaptureSparsePageTables downloadCompressionMetadataForTexture:gpuAddress:length:]
++ -[GTMTLCaptureSparsePageTables dumpBufferMappingsWithCallback:buffer:]
++ -[GTMTLCaptureSparsePageTables dumpTextureMappingsWithCallback:texture:]
++ -[GTMTLCaptureSparsePageTables enumerateHeapsWithBlock:]
++ -[GTMTLCaptureSparsePageTables registerBuffer:length:placementSparsePageSize:]
++ -[GTMTLCaptureSparsePageTables registerTexture:descriptor:texture:]
++ -[GTMTLCaptureSparsePageTables unregisterBuffer:]
++ -[GTMTLCaptureSparsePageTables updateBufferMappings:buffer:heap:operations:count:]
++ -[GTMTLResidencySetResource .cxx_destruct]
++ -[GTMTLResidencySetResource inUse]
++ -[GTMTLResidencySetResource object]
++ -[GTMTLResidencySetResource setInUse:]
++ -[GTMTLResidencySetResource setObject:]
++ -[GTResourceDownloader _downloadRequest:atPoint:dispatchGroup:downloadCallback:]
++ -[GTResourceDownloader downloadRequest:atPoint:downloadCallback:]
++ -[GTResourceDownloader downloadRequest:downloadCallback:]
++ -[MTLCaptureDescriptorInternal countMetalFXHistory]
++ -[MTLCaptureDescriptorInternal setCountMetalFXHistory:]
++ -[SparseBufferPageTable .cxx_destruct]
++ -[SparseBufferPageTable arraySizeWithCopyOps:sourceLength:apiOpCount:]
++ -[SparseBufferPageTable arraySizeWithUpdateOps:apiOpCount:]
++ -[SparseBufferPageTable bufferStream]
++ -[SparseBufferPageTable buffer]
++ -[SparseBufferPageTable fillArrayWithCopyOps:sourceLength:apiOpCount:gpuOps:]
++ -[SparseBufferPageTable fillArrayWithUpdateOps:apiOpCount:gpuOps:]
++ -[SparseBufferPageTable initWithBuffer:length:placementSparsePageSize:]
++ -[SparseBufferPageTable placementSparsePageSize]
++ -[SparseBufferPageTable setBuffer:]
++ -[SparseBufferPageTable setBufferStream:]
++ -[SparseBufferPageTable setPlacementSparsePageSize:]
++ -[SparseBufferPageTable setTargetBufferLength:]
++ -[SparseBufferPageTable targetBufferLength]
++ -[SparseTexturePageTable arraySizeWithCopyOps:fromPageTable:apiOpCount:]
++ -[SparseTexturePageTable fillArrayWithCopyOps:fromPageTable:apiOpCount:gpuOps:]
++ -[SparseTexturePageTable firstMipmapInTail]
++ -[SparseTexturePageTable initWithBuffer:descriptor:texture:]
++ -[SparseTexturePageTable setFirstMipmapInTail:]
++ -[SparseTexturePageTable tailSizeInTiles]
++ /Library/Caches/com.apple.xbs/790219B7-E843-4253-8AFB-4C50E4AB3C4B/TemporaryDirectory.1yAkMf/Binaries/GPUToolsDevice/install/TempContent/Objects/GPUToolsFoundation.build/GPUToolsCapture.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/790219B7-E843-4253-8AFB-4C50E4AB3C4B/TemporaryDirectory.1yAkMf/Binaries/GPUToolsDevice/install/TempContent/Objects/GPUToolsFoundation.build/GPUToolsCapture.build/Objects-normal/arm64e/GPUToolsCapture_lto.o
++ CaptureServiceInit.onceToken
++ EncodeIncludedSources.cold.1
++ ExtractIncludePathsFromSource.onceToken
++ ExtractIncludePathsFromSource.regex
++ GCC_except_table1413
++ GCC_except_table1446
++ GCC_except_table153
++ GCC_except_table1651
++ GCC_except_table1676
++ GCC_except_table1762
++ GCC_except_table1763
++ GCC_except_table1767
++ GCC_except_table1768
++ GCC_except_table1769
++ GCC_except_table1770
++ GCC_except_table1771
++ GCC_except_table2013
++ GCC_except_table2181
++ GCC_except_table2226
++ GCC_except_table2348
++ GCC_except_table2349
++ GCC_except_table2350
++ GCC_except_table2351
++ GCC_except_table2352
++ GCC_except_table2353
++ GCC_except_table2379
++ GCC_except_table265
++ GCC_except_table288
++ GCC_except_table289
++ GCC_except_table3060
++ GCC_except_table3068
++ GCC_except_table3204
++ GCC_except_table3355
++ GCC_except_table3362
++ GCC_except_table3371
++ GCC_except_table344
++ GCC_except_table3471
++ GCC_except_table3579
++ GCC_except_table369
++ GCC_except_table4205
++ GCC_except_table4384
++ GCC_except_table4386
++ GCC_except_table4388
++ GCC_except_table4390
++ GCC_except_table4392
++ GCC_except_table4393
++ GCC_except_table4394
++ GCC_except_table4395
++ GCC_except_table4396
++ GCC_except_table4567
++ GCC_except_table4568
++ GCC_except_table4569
++ GCC_except_table4570
++ GCC_except_table4571
++ GCC_except_table4572
++ GCC_except_table4843
++ GCC_except_table61
++ GCC_except_table682
++ GCC_except_table76
++ GCC_except_table81
++ GCC_except_table89
++ GTChunkTable_logStats.cold.1
++ GTChunkTable_logStats.cold.2
++ GTChunkTable_logStats.cold.3
++ GTChunkTable_logStats.cold.4
++ GTChunkTable_logStats.cold.5
++ GTChunkTable_logStats.cold.6
++ GTChunkTable_logStats.cold.7
++ GTChunkTable_logStats.cold.8
++ GTCoreAlloc.cold.1
++ GTCoreAlloc.cold.2
++ GTCoreLogInit.cold.1
++ GTCorePlatformInfoGet.cold.1
++ GTData_MakeDictionary.cold.1
++ GTError_addError.cold.1
++ GTError_description.cold.1
++ GTError_initialize.cold.1
++ GTError_string.cold.1
++ GTMemWatch_installExceptionHandler.once
++ OBJC_IVAR_$_CaptureMTL4CommandBuffer._accelerationStructureDescriptorDownloaderResidencySet
++ OBJC_IVAR_$_CaptureMTL4CommandBuffer._retainedCommandEncoders
++ OBJC_IVAR_$_CaptureMTL4FXFrameInterpolator._captureDistortionTexture
++ OBJC_IVAR_$_CaptureMTLBuffer._pool
++ OBJC_IVAR_$_CaptureMTLDevice._captureAllocatedObjects
++ OBJC_IVAR_$_CaptureMTLFXFrameInterpolator._captureDistortionTexture
++ OBJC_IVAR_$_CaptureMTLHeap._accelerationStructures
++ OBJC_IVAR_$_CaptureMTLHeap._pool
++ OBJC_IVAR_$_CaptureMTLTextureViewPool._lock
++ OBJC_IVAR_$_GTDownloadContext._downloadCallback
++ OBJC_IVAR_$_GTMTLCaptureResourcePool._residencySets
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._bufferTables
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._copyMappingsPipeline
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._copyMetadataPipeline
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._deallocatedBuffers
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._metadataCommandQueue
++ OBJC_IVAR_$_GTMTLCaptureSparsePageTables._updateMappingsPipeline
++ OBJC_IVAR_$_GTMTLResidencySetResource._inUse
++ OBJC_IVAR_$_GTMTLResidencySetResource._object
++ OBJC_IVAR_$_GTResourceDownloader._downloadVersions
++ OBJC_IVAR_$_MTLCaptureDescriptorInternal.countMetalFXHistory
++ OBJC_IVAR_$_SparseBufferPageTable._buffer
++ OBJC_IVAR_$_SparseBufferPageTable._bufferStream
++ OBJC_IVAR_$_SparseBufferPageTable._placementSparsePageSize
++ OBJC_IVAR_$_SparseBufferPageTable._targetBufferLength
++ OBJC_IVAR_$_SparseTexturePageTable._firstMipmapInTail
++ OBJC_IVAR_$_SparseTexturePageTable._tailSizeInTiles
++ RetainObjectForDescriptorDownloader.9684
++ _AddMetalFXBoundaryCondition
++ _BeginTrackedWrite
++ _BeginTrackedWriteV
++ _CaptureCAMetalLayer_getStream
++ _CaptureMTLDevice_allocateBuffer
++ _CaptureMTLHeap_registerBackbuffer
++ _CaptureServiceInit
++ _CheckReflectionArgumentBufferSupportParavirt
++ _CheckTriggerInGroup
++ _ComputeTimestampForObject
++ _CopyConditionCallback
++ _CountAllConditionsInGroup
++ _CountConditionsWithHitCountInGroup
++ _DYTraceDecode_Boundary_Frame
++ _DYTraceDecode_CALayer_setAnchorPoint
++ _DYTraceDecode_CALayer_setTransform
++ _DYTraceDecode_CAMetalDrawable_dealloc
++ _DYTraceDecode_CAMetalDrawable_present
++ _DYTraceDecode_CAMetalDrawable_presentAfterMinimumDuration
++ _DYTraceDecode_CAMetalDrawable_presentAtTime
++ _DYTraceDecode_CAMetalDrawable_texture
++ _DYTraceDecode_CAMetalLayer_nextDrawable
++ _DYTraceDecode_CAMetalLayer_setBounds_contentsScale
++ _DYTraceDecode_CAMetalLayer_setBounds_contentsScale_windowBounds_windowProperties
++ _DYTraceDecode_CAMetalLayer_setColorspace
++ _DYTraceDecode_CAMetalLayer_setDevice
++ _DYTraceDecode_CAMetalLayer_setDrawableSize
++ _DYTraceDecode_CAMetalLayer_setFramebufferOnly
++ _DYTraceDecode_CAMetalLayer_setPixelFormat
++ _DYTraceDecode_CAMetalLayer_setWantsExtendedDynamicRangeContent
++ _DYTraceDecode_EnterStateGroup
++ _DYTraceDecode_ExitStateGroup
++ _DYTraceDecode_InternalData
++ _DYTraceDecode_MPSExternalCNNBinary_encodeBatchToCommandBuffer_computeCommandEncoder_options_pluginOptions_primaryTextures_primaryInfo_secondaryTextures_secondaryInfo_destinationTextures_destinationInfo_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNBinary_encodeToCommandBuffer_computeCommandEncoder_options_pluginOptions_primaryTexture_primaryInfo_secondaryTexture_secondaryInfo_destinationTexture_destinationInfo
++ _DYTraceDecode_MPSExternalCNNBinary_maxBatchSize
++ _DYTraceDecode_MPSExternalCNNConvolutionGradient_encodeBatchToCommandBuffer_computeCommandEncoder_options_pluginOptions_primaryTextures_primaryInfo_secondaryTextures_secondaryInfo_weightsGradient_biasesGradient_accumulate_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolutionGradient_reloadWeights
++ _DYTraceDecode_MPSExternalCNNConvolutionGradient_reloadWeightsWithCommandBuffer_encoder_weights_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolutionGradient_reloadWeightsWithCommandBuffer_encoder_weights_weightsDataType_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolution_exportWeightsAndBiasesWithCommandBuffer_encoder_weights_biases_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolution_exportWeightsAndBiasesWithCommandBuffer_encoder_weights_weightsDataType_biases_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolution_reloadWeightsAndBiases
++ _DYTraceDecode_MPSExternalCNNConvolution_reloadWeightsAndBiasesWithCommandBuffer_encoder_weights_biases_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNConvolution_reloadWeightsAndBiasesWithCommandBuffer_encoder_weights_weightsDataType_biases_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNPoolingAverage_encodeBatchToCommandBuffer_computeCommandEncoder_options_sourceTextures_sourceInfo_destinationTextures_destinationInfo_zeroPadSizeX_zeroPadSizeY_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNPoolingAverage_encodeToCommandBuffer_computeCommandEncoder_options_sourceTexture_sourceInfo_destinationTexture_destinationInfo
++ _DYTraceDecode_MPSExternalCNNPoolingAverage_encodeToCommandBuffer_computeCommandEncoder_options_sourceTexture_sourceInfo_destinationTexture_destinationInfo_zeroPadSizeX_zeroPadSizeY
++ _DYTraceDecode_MPSExternalCNNUnary_encodeBatchToCommandBuffer_computeCommandEncoder_options_pluginOptions_sourceTextures_sourceInfo_destinationTextures_destinationInfo_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalCNNUnary_encodeToCommandBuffer_computeCommandEncoder_options_pluginOptions_sourceTexture_sourceInfo_destinationTexture_destinationInfo
++ _DYTraceDecode_MPSExternalCNNUnary_encodeToCommandBuffer_computeCommandEncoder_options_sourceTexture_sourceInfo_destinationTexture_destinationInfo
++ _DYTraceDecode_MPSExternalCNNUnary_maxBatchSize
++ _DYTraceDecode_MPSExternalMatrixFullyConnected_encodeToCommandBuffer_encoder_optionsAndBatchSize_inputMatrix_inputMatrixInfo_weightMatrix_weightMatrixInfo_biasVector_biasVectorInfo_resultMatrix_resultMatrixInfo_alpha_numberOfFeatureVectorsAndInputFeatureChannelsAndOutputFeatureChannelsAndNeuronTypeAndPredicationOffset_neuronParameters_predicationBuffer
++ _DYTraceDecode_MPSExternalMatrixFullyConnected_encodeToCommandBuffer_encoder_optionsAndBatchSize_inputMatrix_inputMatrixInfo_weightMatrix_weightMatrixInfo_biasVector_biasVectorInfo_resultMatrix_resultMatrixInfo_alpha_numberOfFeatureVectorsAndInputFeatureChannelsAndOutputFeatureChannels_neuronType_neuronParameters
++ _DYTraceDecode_MPSExternalMatrixMultiplication_encodeToCommandBuffer_encoder_options_batchSize_A_aInfo_B_bInfo_C_cInfo
++ _DYTraceDecode_MPSExternalMatrixMultiplication_encodeToCommandBuffer_encoder_options_batchSize_resultRowsAndResultColumnsAndInteriorColumns_alphaAndBeta_A_aInfo_B_bInfo_C_cInfo_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalMatrixMultiplication_encodeToCommandBuffer_encoder_options_batchSize_resultRows_resultColumns_interiorColumns_alpha_beta_A_aInfo_B_bInfo_C_cInfo
++ _DYTraceDecode_MPSExternalMatrixMultiplication_encodeToCommandBuffer_encoder_options_batchSize_resultRows_resultColumns_interiorColumns_alpha_beta_A_aInfo_B_bInfo_C_cInfo_predicationBuffer_predicationOffset_transA_transB
++ _DYTraceDecode_MPSExternalMatrixVectorMultiplication_encodeToCommandBuffer_encoder_options_batchSize_matrix_matrixStructure_vector_vectorStructure_result_resultStructure
++ _DYTraceDecode_MPSExternalMatrixVectorMultiplication_encodeToCommandBuffer_encoder_options_batchSize_matrix_matrixStructure_vector_vectorStructure_result_resultStructure_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalNDArrayBinaryGradient_encodePrimaryGradientToCommandBuffer_encoder_options_pluginOptions_primaryBuffer_primaryInfo_secondaryBuffer_secondaryInfo_gradientBuffer_gradientInfo_destination_destinationInfo_accumulate_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalNDArrayBinaryGradient_encodeSecondaryGradientToCommandBuffer_encoder_options_pluginOptions_primaryBuffer_primaryInfo_secondaryBuffer_secondaryInfo_gradientBuffer_gradientInfo_destination_destinationInfo_accumulate_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalNDArrayBinary_encodeToCommandBuffer_encoder_options_pluginOptions_primaryBuffer_primaryInfo_secondaryBuffer_secondaryInfo_destinationBuffer_destinationInfo_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalNDArrayConvolution2DGradient_encodePrimaryGradientToCommandBuffer_encoder_options_pluginOptions_primary_primaryInfo_secondary_secondaryInfo_gradient_gradientInfo_destination_destinationInfo_accumulate_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalNDArrayConvolution2DGradient_encodeSecondaryGradientToCommandBuffer_encoder_options_pluginOptions_primary_primaryInfo_secondary_secondaryInfo_gradient_gradientInfo_destination_destinationInfo_accumulate_predicationBuffer_predicationOffset
++ _DYTraceDecode_MPSExternalPluginBase_dealloc
++ _DYTraceDecode_MPSPlugin_newCNNConvolutionGradientWithDescriptor_convolutionData
++ _DYTraceDecode_MPSPlugin_newCNNConvolutionWithDescriptor_convolutionData
++ _DYTraceDecode_MPSPlugin_newCNNConvolutionWithDescriptor_dataSource_fullyConnected
++ _DYTraceDecode_MPSPlugin_newCNNDilatedPoolingMaxWithKernelWidth_kernelHeight_strideInPixelsX_strideInPixelsY_dilationRateX_dilationRateY
++ _DYTraceDecode_MPSPlugin_newCNNNeuronWithNeuronType_neuronParameterAArray_count
++ _DYTraceDecode_MPSPlugin_newCNNNeuronWithNeuronType_neuronParameterA_neuronParameterB_neuronParameterC
++ _DYTraceDecode_MPSPlugin_newCNNPoolingAverageWithKernelWidth_kernelHeight_strideInPixelsX_strideInPixelsY
++ _DYTraceDecode_MPSPlugin_newCNNPoolingMaxWithKernelWidth_kernelHeight_strideInPixelsX_strideInPixelsY
++ _DYTraceDecode_MPSPlugin_newCNNSoftMax
++ _DYTraceDecode_MPSPlugin_newMatrixFullyConnected
++ _DYTraceDecode_MPSPlugin_newMatrixMultiplicationWithTransposeLeft_transposeRight_resultRows_resultColumns_interiorColumns_alpha_beta
++ _DYTraceDecode_MPSPlugin_newMatrixVectorMultiplicationWithTranspose_rows_columns_alpha_beta
++ _DYTraceDecode_MPSPlugin_newNDArrayConvolution2DGradientWithDescriptor
++ _DYTraceDecode_MPSPlugin_newNDArrayConvolution2DWithDescriptor
++ _DYTraceDecode_MTL4ArgumentTable_dealloc
++ _DYTraceDecode_MTL4ArgumentTable_setAddress_atIndex
++ _DYTraceDecode_MTL4ArgumentTable_setAddress_attributeStride_atIndex
++ _DYTraceDecode_MTL4ArgumentTable_setResource_atBufferIndex
++ _DYTraceDecode_MTL4ArgumentTable_setSamplerState_atIndex
++ _DYTraceDecode_MTL4ArgumentTable_setTexture_atIndex
++ _DYTraceDecode_MTL4CommandAllocator_dealloc
++ _DYTraceDecode_MTL4CommandAllocator_reset
++ _DYTraceDecode_MTL4CommandBuffer_beginCommandBufferWithAllocator
++ _DYTraceDecode_MTL4CommandBuffer_beginCommandBufferWithAllocator_options
++ _DYTraceDecode_MTL4CommandBuffer_computeCommandEncoder
++ _DYTraceDecode_MTL4CommandBuffer_dealloc
++ _DYTraceDecode_MTL4CommandBuffer_endCommandBuffer
++ _DYTraceDecode_MTL4CommandBuffer_machineLearningCommandEncoder
++ _DYTraceDecode_MTL4CommandBuffer_popDebugGroup
++ _DYTraceDecode_MTL4CommandBuffer_pushDebugGroup
++ _DYTraceDecode_MTL4CommandBuffer_renderCommandEncoderWithDescriptor
++ _DYTraceDecode_MTL4CommandBuffer_renderCommandEncoderWithDescriptor_options
++ _DYTraceDecode_MTL4CommandBuffer_setLabel
++ _DYTraceDecode_MTL4CommandBuffer_useResidencySet
++ _DYTraceDecode_MTL4CommandBuffer_useResidencySets_count
++ _DYTraceDecode_MTL4CommandQueue_addInternalResidencySet
++ _DYTraceDecode_MTL4CommandQueue_addInternalResidencySets_count
++ _DYTraceDecode_MTL4CommandQueue_addResidencySet
++ _DYTraceDecode_MTL4CommandQueue_addResidencySets_count
++ _DYTraceDecode_MTL4CommandQueue_commit_count
++ _DYTraceDecode_MTL4CommandQueue_commit_count_options
++ _DYTraceDecode_MTL4CommandQueue_copyBufferMappingsFromBuffer_toBuffer_operations_count
++ _DYTraceDecode_MTL4CommandQueue_copyTextureMappingsFromTexture_toTexture_operations_count
++ _DYTraceDecode_MTL4CommandQueue_dealloc
++ _DYTraceDecode_MTL4CommandQueue_removeInternalResidencySet
++ _DYTraceDecode_MTL4CommandQueue_removeInternalResidencySets_count
++ _DYTraceDecode_MTL4CommandQueue_removeResidencySet
++ _DYTraceDecode_MTL4CommandQueue_removeResidencySets_count
++ _DYTraceDecode_MTL4CommandQueue_setBackgroundGPUPriority
++ _DYTraceDecode_MTL4CommandQueue_setGPUPriority
++ _DYTraceDecode_MTL4CommandQueue_signalDrawable
++ _DYTraceDecode_MTL4CommandQueue_signalEvent_value
++ _DYTraceDecode_MTL4CommandQueue_updateBufferMappings_heap_operations_count
++ _DYTraceDecode_MTL4CommandQueue_updateTextureMappings_heap_operations_count
++ _DYTraceDecode_MTL4CommandQueue_waitForDrawable
++ _DYTraceDecode_MTL4CommandQueue_waitForEvent_value
++ _DYTraceDecode_MTL4CommandQueue_waitForEvent_value_timeout
++ _DYTraceDecode_MTL4Compiler_newComputePipelineStateWithDescriptor_compilerTaskOptions_completionHandler
++ _DYTraceDecode_MTL4Compiler_newComputePipelineStateWithDescriptor_compilerTaskOptions_error
++ _DYTraceDecode_MTL4Compiler_newComputePipelineStateWithDescriptor_dynamicLinkingDescriptor_compilerTaskOptions_completionHandler
++ _DYTraceDecode_MTL4Compiler_newComputePipelineStateWithDescriptor_dynamicLinkingDescriptor_compilerTaskOptions_error
++ _DYTraceDecode_MTL4Compiler_newDynamicLibraryWithURL_completionHandler
++ _DYTraceDecode_MTL4Compiler_newDynamicLibraryWithURL_error
++ _DYTraceDecode_MTL4Compiler_newDynamicLibrary_completionHandler
++ _DYTraceDecode_MTL4Compiler_newDynamicLibrary_error
++ _DYTraceDecode_MTL4Compiler_newLibraryWithDescriptor_completionHandler
++ _DYTraceDecode_MTL4Compiler_newLibraryWithDescriptor_error
++ _DYTraceDecode_MTL4Compiler_newMachineLearningPipelineStateWithDescriptor_completionHandler
++ _DYTraceDecode_MTL4Compiler_newMachineLearningPipelineStateWithDescriptor_error
++ _DYTraceDecode_MTL4Compiler_newRenderPipelineStateWithDescriptor_compilerTaskOptions_completionHandler
++ _DYTraceDecode_MTL4Compiler_newRenderPipelineStateWithDescriptor_compilerTaskOptions_error
++ _DYTraceDecode_MTL4Compiler_newRenderPipelineStateWithDescriptor_dynamicLinkingDescriptor_compilerTaskOptions_completionHandler
++ _DYTraceDecode_MTL4Compiler_newRenderPipelineStateWithDescriptor_dynamicLinkingDescriptor_compilerTaskOptions_error
++ _DYTraceDecode_MTL4ComputeCommandEncoder_barrierAfterEncoderStages_beforeEncoderStages_visibilityOptions
++ _DYTraceDecode_MTL4ComputeCommandEncoder_barrierAfterQueueStages_beforeStages_visibilityOptions
++ _DYTraceDecode_MTL4ComputeCommandEncoder_barrierAfterStages_beforeQueueStages_visibilityOptions
++ _DYTraceDecode_MTL4ComputeCommandEncoder_buildAccelerationStructure_descriptor_scratchBuffer
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyAccelerationStructure_toAccelerationStructure
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyAndCompactAccelerationStructure_toAccelerationStructure
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromBuffer_sourceOffset_sourceBytesPerRow_sourceBytesPerImage_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromBuffer_sourceOffset_sourceBytesPerRow_sourceBytesPerImage_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin_options
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromBuffer_sourceOffset_toBuffer_destinationOffset_size
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTensor_sourceOrigin_sourceDimensions_toTensor_destinationOrigin_destinationDimensions
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toBuffer_destinationOffset_destinationBytesPerRow_destinationBytesPerImage
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toBuffer_destinationOffset_destinationBytesPerRow_destinationBytesPerImage_options
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_toTexture_destinationSlice_destinationLevel_sliceCount_levelCount
++ _DYTraceDecode_MTL4ComputeCommandEncoder_copyFromTexture_toTexture
++ _DYTraceDecode_MTL4ComputeCommandEncoder_dealloc
++ _DYTraceDecode_MTL4ComputeCommandEncoder_dispatchThreadgroupsWithIndirectBuffer_threadsPerThreadgroup
++ _DYTraceDecode_MTL4ComputeCommandEncoder_dispatchThreadgroups_threadsPerThreadgroup
++ _DYTraceDecode_MTL4ComputeCommandEncoder_dispatchThreadsWithIndirectBuffer
++ _DYTraceDecode_MTL4ComputeCommandEncoder_dispatchThreads_threadsPerThreadgroup
++ _DYTraceDecode_MTL4ComputeCommandEncoder_endEncoding
++ _DYTraceDecode_MTL4ComputeCommandEncoder_executeCommandsInBuffer_indirectBuffer
++ _DYTraceDecode_MTL4ComputeCommandEncoder_executeCommandsInBuffer_withRange
++ _DYTraceDecode_MTL4ComputeCommandEncoder_fillBuffer_range_value
++ _DYTraceDecode_MTL4ComputeCommandEncoder_generateMipmapsForTexture
++ _DYTraceDecode_MTL4ComputeCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTL4ComputeCommandEncoder_optimizeContentsForCPUAccess
++ _DYTraceDecode_MTL4ComputeCommandEncoder_optimizeContentsForCPUAccess_slice_level
++ _DYTraceDecode_MTL4ComputeCommandEncoder_optimizeContentsForGPUAccess
++ _DYTraceDecode_MTL4ComputeCommandEncoder_optimizeContentsForGPUAccess_slice_level
++ _DYTraceDecode_MTL4ComputeCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTL4ComputeCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTL4ComputeCommandEncoder_refitAccelerationStructure_descriptor_destination_scratchBuffer
++ _DYTraceDecode_MTL4ComputeCommandEncoder_refitAccelerationStructure_descriptor_destination_scratchBuffer_options
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setAccelerationStructureDescriptor
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setAccelerationStructureState
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setArgumentTable
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setComputePipelineState
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setImageblockWidth_height
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setLabel
++ _DYTraceDecode_MTL4ComputeCommandEncoder_setThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTL4ComputeCommandEncoder_updateFence_afterEncoderStages
++ _DYTraceDecode_MTL4ComputeCommandEncoder_waitForFence_beforeEncoderStages
++ _DYTraceDecode_MTL4ComputeCommandEncoder_writeAccelerationStructureTraversalDepth_toBuffer
++ _DYTraceDecode_MTL4ComputeCommandEncoder_writeCompactedAccelerationStructureSize_toBuffer
++ _DYTraceDecode_MTL4FXFrameInterpolator_dealloc
++ _DYTraceDecode_MTL4FXFrameInterpolator_encodeToCommandBuffer
++ _DYTraceDecode_MTL4FXFrameInterpolator_setAspectRatio
++ _DYTraceDecode_MTL4FXFrameInterpolator_setColorTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setColorTextureBarrierStages
++ _DYTraceDecode_MTL4FXFrameInterpolator_setContentHeight
++ _DYTraceDecode_MTL4FXFrameInterpolator_setContentWidth
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDeltaTime
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDepthContentOffsetX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDepthContentOffsetY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDepthReversed
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDepthTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDistortionHeight
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDistortionOffsetX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDistortionOffsetY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDistortionTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setDistortionWidth
++ _DYTraceDecode_MTL4FXFrameInterpolator_setFarPlane
++ _DYTraceDecode_MTL4FXFrameInterpolator_setFence
++ _DYTraceDecode_MTL4FXFrameInterpolator_setFieldOfView
++ _DYTraceDecode_MTL4FXFrameInterpolator_setIsUITextureComposited
++ _DYTraceDecode_MTL4FXFrameInterpolator_setJitterOffsetX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setJitterOffsetY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setMotionContentOffsetX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setMotionContentOffsetY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setMotionTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setMotionVectorScaleX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setMotionVectorScaleY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setNearPlane
++ _DYTraceDecode_MTL4FXFrameInterpolator_setOutputOffsetX
++ _DYTraceDecode_MTL4FXFrameInterpolator_setOutputOffsetY
++ _DYTraceDecode_MTL4FXFrameInterpolator_setOutputTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setPrevColorTexture
++ _DYTraceDecode_MTL4FXFrameInterpolator_setShouldResetHistory
++ _DYTraceDecode_MTL4FXFrameInterpolator_setUITexture
++ _DYTraceDecode_MTL4FXSpatialScaler_dealloc
++ _DYTraceDecode_MTL4FXSpatialScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTL4FXSpatialScaler_setColorTexture
++ _DYTraceDecode_MTL4FXSpatialScaler_setColorTextureBarrierStages
++ _DYTraceDecode_MTL4FXSpatialScaler_setFence
++ _DYTraceDecode_MTL4FXSpatialScaler_setInputContentHeight
++ _DYTraceDecode_MTL4FXSpatialScaler_setInputContentWidth
++ _DYTraceDecode_MTL4FXSpatialScaler_setOutputTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_dealloc
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setColorTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setColorTextureBarrierStages
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setDenoiseStrengthMaskTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setDepthReversed
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setDepthTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setDiffuseAlbedoTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setExposureTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setFence
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setInputContentHeight
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setInputContentWidth
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setJitterOffsetX
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setJitterOffsetY
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setMotionTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setMotionVectorScaleX
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setMotionVectorScaleY
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setNormalTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setOutputTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setPreExposure
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setReactiveMaskTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setRoughnessTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setShouldResetHistory
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setSpecularAlbedoTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setSpecularHitDistanceTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setTransparencyOverlayTexture
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setViewToClipMatrix
++ _DYTraceDecode_MTL4FXTemporalDenoisedScaler_setWorldToViewMatrix
++ _DYTraceDecode_MTL4FXTemporalScaler_dealloc
++ _DYTraceDecode_MTL4FXTemporalScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTL4FXTemporalScaler_executionMode
++ _DYTraceDecode_MTL4FXTemporalScaler_setColorContentOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setColorContentOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setColorTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setColorTextureBarrierStages
++ _DYTraceDecode_MTL4FXTemporalScaler_setDepthContentOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setDepthContentOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setDepthReversed
++ _DYTraceDecode_MTL4FXTemporalScaler_setDepthTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setExposureTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setFence
++ _DYTraceDecode_MTL4FXTemporalScaler_setInputContentHeight
++ _DYTraceDecode_MTL4FXTemporalScaler_setInputContentWidth
++ _DYTraceDecode_MTL4FXTemporalScaler_setJitterOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setJitterOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setMotionContentOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setMotionContentOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setMotionTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setMotionVectorScaleX
++ _DYTraceDecode_MTL4FXTemporalScaler_setMotionVectorScaleY
++ _DYTraceDecode_MTL4FXTemporalScaler_setOutputOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setOutputOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setOutputTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setPreExposure
++ _DYTraceDecode_MTL4FXTemporalScaler_setReactiveMaskContentOffsetX
++ _DYTraceDecode_MTL4FXTemporalScaler_setReactiveMaskContentOffsetY
++ _DYTraceDecode_MTL4FXTemporalScaler_setReactiveMaskTexture
++ _DYTraceDecode_MTL4FXTemporalScaler_setReset
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_barrierAfterEncoderStages_beforeEncoderStages_visibilityOptions
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_barrierAfterQueueStages_beforeStages_visibilityOptions
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_barrierAfterStages_beforeQueueStages_visibilityOptions
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_dealloc
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_dispatchNetworkWithIntermediatesHeap
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_endEncoding
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_setArgumentTable
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_setLabel
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_setPipelineState
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_updateFence_afterEncoderStages
++ _DYTraceDecode_MTL4MachineLearningCommandEncoder_waitForFence_beforeEncoderStages
++ _DYTraceDecode_MTL4MachineLearningPipelineState_allocatedSize
++ _DYTraceDecode_MTL4MachineLearningPipelineState_dealloc
++ _DYTraceDecode_MTL4RenderCommandEncoder_barrierAfterEncoderStages_beforeEncoderStages_visibilityOptions
++ _DYTraceDecode_MTL4RenderCommandEncoder_barrierAfterQueueStages_beforeStages_visibilityOptions
++ _DYTraceDecode_MTL4RenderCommandEncoder_barrierAfterStages_beforeQueueStages_visibilityOptions
++ _DYTraceDecode_MTL4RenderCommandEncoder_dealloc
++ _DYTraceDecode_MTL4RenderCommandEncoder_dispatchThreadsPerTile
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferLength
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferLength_instanceCount
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferLength_instanceCount_baseVertex_baseInstance
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawIndexedPrimitives_indexType_indexBuffer_indexBufferLength_indirectBuffer
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawMeshThreadgroupsWithIndirectBuffer_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawMeshThreadgroups_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawMeshThreads_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawPrimitives_indirectBuffer
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawPrimitives_vertexStart_vertexCount
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawPrimitives_vertexStart_vertexCount_instanceCount
++ _DYTraceDecode_MTL4RenderCommandEncoder_drawPrimitives_vertexStart_vertexCount_instanceCount_baseInstance
++ _DYTraceDecode_MTL4RenderCommandEncoder_endEncoding
++ _DYTraceDecode_MTL4RenderCommandEncoder_executeCommandsInBuffer_indirectBuffer
++ _DYTraceDecode_MTL4RenderCommandEncoder_executeCommandsInBuffer_withRange
++ _DYTraceDecode_MTL4RenderCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTL4RenderCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTL4RenderCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTL4RenderCommandEncoder_setArgumentTable_atStages
++ _DYTraceDecode_MTL4RenderCommandEncoder_setBlendColorRed_green_blue_alpha
++ _DYTraceDecode_MTL4RenderCommandEncoder_setColorAttachmentMap
++ _DYTraceDecode_MTL4RenderCommandEncoder_setColorStoreAction_atIndex
++ _DYTraceDecode_MTL4RenderCommandEncoder_setCullMode
++ _DYTraceDecode_MTL4RenderCommandEncoder_setDepthBias_slopeScale_clamp
++ _DYTraceDecode_MTL4RenderCommandEncoder_setDepthClipMode
++ _DYTraceDecode_MTL4RenderCommandEncoder_setDepthStencilState
++ _DYTraceDecode_MTL4RenderCommandEncoder_setDepthStoreAction
++ _DYTraceDecode_MTL4RenderCommandEncoder_setDepthTestMinBound_maxBound
++ _DYTraceDecode_MTL4RenderCommandEncoder_setFrontFacingWinding
++ _DYTraceDecode_MTL4RenderCommandEncoder_setLabel
++ _DYTraceDecode_MTL4RenderCommandEncoder_setLineWidth
++ _DYTraceDecode_MTL4RenderCommandEncoder_setObjectThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTL4RenderCommandEncoder_setRenderPipelineState
++ _DYTraceDecode_MTL4RenderCommandEncoder_setScissorRect
++ _DYTraceDecode_MTL4RenderCommandEncoder_setScissorRects_count
++ _DYTraceDecode_MTL4RenderCommandEncoder_setStencilFrontReferenceValue_backReferenceValue
++ _DYTraceDecode_MTL4RenderCommandEncoder_setStencilReferenceValue
++ _DYTraceDecode_MTL4RenderCommandEncoder_setStencilStoreAction
++ _DYTraceDecode_MTL4RenderCommandEncoder_setThreadgroupMemoryLength_offset_atIndex
++ _DYTraceDecode_MTL4RenderCommandEncoder_setTriangleFillMode
++ _DYTraceDecode_MTL4RenderCommandEncoder_setVertexAmplificationCount_viewMappings
++ _DYTraceDecode_MTL4RenderCommandEncoder_setViewport
++ _DYTraceDecode_MTL4RenderCommandEncoder_setViewports_count
++ _DYTraceDecode_MTL4RenderCommandEncoder_setVisibilityResultMode_offset
++ _DYTraceDecode_MTL4RenderCommandEncoder_updateFence_afterEncoderStages
++ _DYTraceDecode_MTL4RenderCommandEncoder_waitForFence_beforeEncoderStages
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_buildAccelerationStructure_descriptor_scratchBuffer_scratchBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_copyAccelerationStructure_toAccelerationStructure
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_copyAndCompactAccelerationStructure_toAccelerationStructure
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_dealloc
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_deserializeInstanceAccelerationStructure_primitiveAccelerationStructures_fromBuffer_serializedBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_deserializeInstanceAccelerationStructure_primitiveAccelerationStructures_fromBuffer_serializedBufferOffset_withDescriptor
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_deserializePrimitiveAccelerationStructure_fromBuffer_serializedBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_deserializePrimitiveAccelerationStructure_fromBuffer_serializedBufferOffset_withDescriptor
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_endEncoding
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_refitAccelerationStructure_descriptor_destination_scratchBuffer_scratchBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_refitAccelerationStructure_descriptor_destination_scratchBuffer_scratchBufferOffset_options
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_sampleCountersInBuffer_atSampleIndex_withBarrier
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_serializeInstanceAccelerationStructure_primitiveAccelerationStructures_toBuffer_serializedBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_serializePrimitiveAccelerationStructure_toBuffer_serializedBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_setAccelerationStructureDescriptor
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_setAccelerationStructureState
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_setLabel
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_updateFence
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_useHeap
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_useHeaps_count
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_useResource_usage
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_useResources_count_usage
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_waitForFence
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeAccelerationStructureSerializationData_toBuffer_offset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeAccelerationStructureTraversalDepth_toBuffer_offset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeCompactedAccelerationStructureSize_toBuffer_offset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeCompactedAccelerationStructureSize_toBuffer_offset_sizeDataType
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeDeserializedAccelerationStructureSize_serializedOffset_toBuffer_sizeBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeDeserializedPrimitiveAccelerationStructureSizes_serializedOffset_toBuffer_sizesBufferOffset
++ _DYTraceDecode_MTLAccelerationStructureCommandEncoder_writeSerializedAccelerationStructureSize_toBuffer_sizeBufferOffset
++ _DYTraceDecode_MTLAccelerationStructure_allocatedSize
++ _DYTraceDecode_MTLAccelerationStructure_allocationID
++ _DYTraceDecode_MTLAccelerationStructure_allocationInfo
++ _DYTraceDecode_MTLAccelerationStructure_children
++ _DYTraceDecode_MTLAccelerationStructure_dealloc
++ _DYTraceDecode_MTLAccelerationStructure_gpuResourceID
++ _DYTraceDecode_MTLAccelerationStructure_heapOffset
++ _DYTraceDecode_MTLAccelerationStructure_indexInfo
++ _DYTraceDecode_MTLAccelerationStructure_makeAliasable
++ _DYTraceDecode_MTLAccelerationStructure_rebuildMTLAccelerationStructure
++ _DYTraceDecode_MTLAccelerationStructure_resourceIndex
++ _DYTraceDecode_MTLAccelerationStructure_resourceUsage
++ _DYTraceDecode_MTLAccelerationStructure_restoreMTLAccelerationStructure
++ _DYTraceDecode_MTLAccelerationStructure_restoreMTLAccelerationStructure_instance
++ _DYTraceDecode_MTLAccelerationStructure_setDescriptor
++ _DYTraceDecode_MTLAccelerationStructure_setLabel
++ _DYTraceDecode_MTLAccelerationStructure_setPurgeableState
++ _DYTraceDecode_MTLAccelerationStructure_setResponsibleProcess
++ _DYTraceDecode_MTLAccelerationStructure_state
++ _DYTraceDecode_MTLAccelerationStructure_timeSinceTouched
++ _DYTraceDecode_MTLAccelerationStructure_uniqueIdentifier
++ _DYTraceDecode_MTLAccelerationStructure_usage
++ _DYTraceDecode_MTLAccelerationStructure_waitUntilComplete
++ _DYTraceDecode_MTLArgumentEncoder_constantDataAtIndex
++ _DYTraceDecode_MTLArgumentEncoder_dealloc
++ _DYTraceDecode_MTLArgumentEncoder_newArgumentEncoderForBufferAtIndex
++ _DYTraceDecode_MTLArgumentEncoder_setAccelerationStructure_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setArgumentBuffer_offset
++ _DYTraceDecode_MTLArgumentEncoder_setArgumentBuffer_startOffset_arrayElement
++ _DYTraceDecode_MTLArgumentEncoder_setBuffer_offset_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setBuffers_offsets_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setDepthStencilState_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setDepthStencilStates_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setIndirectCommandBuffer_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setIndirectCommandBuffers_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setIntersectionFunctionTable_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setIntersectionFunctionTables_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setLabel
++ _DYTraceDecode_MTLArgumentEncoder_setRenderPipelineState_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setRenderPipelineStates_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setSamplerState_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setSamplerStates_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setTexture_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setTextures_withRange
++ _DYTraceDecode_MTLArgumentEncoder_setVisibleFunctionTable_atIndex
++ _DYTraceDecode_MTLArgumentEncoder_setVisibleFunctionTables_withRange
++ _DYTraceDecode_MTLBinaryArchive_addComputePipelineFunctionsWithDescriptor_error
++ _DYTraceDecode_MTLBinaryArchive_addLibraryWithDescriptor_error
++ _DYTraceDecode_MTLBinaryArchive_addRenderPipelineFunctionsWithDescriptor_error
++ _DYTraceDecode_MTLBinaryArchive_addTileRenderPipelineFunctionsWithDescriptor_error
++ _DYTraceDecode_MTLBinaryArchive_dealloc
++ _DYTraceDecode_MTLBinaryArchive_setLabel
++ _DYTraceDecode_MTLBlitCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromBuffer_sourceOffset_sourceBytesPerRow_sourceBytesPerImage_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromBuffer_sourceOffset_sourceBytesPerRow_sourceBytesPerImage_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin_options
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromBuffer_sourceOffset_toBuffer_destinationOffset_size
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTensor_sourceOrigin_sourceDimensions_toTensor_destinationOrigin_destinationDimensions
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toBuffer_destinationOffset_destinationBytesPerRow_destinationBytesPerImage
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toBuffer_destinationOffset_destinationBytesPerRow_destinationBytesPerImage_options
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_sourceOrigin_sourceSize_toTexture_destinationSlice_destinationLevel_destinationOrigin_options
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_sourceSlice_sourceLevel_toTexture_destinationSlice_destinationLevel_sliceCount_levelCount
++ _DYTraceDecode_MTLBlitCommandEncoder_copyFromTexture_toTexture
++ _DYTraceDecode_MTLBlitCommandEncoder_copyIndirectCommandBuffer_sourceRange_destination_destinationIndex
++ _DYTraceDecode_MTLBlitCommandEncoder_dealloc
++ _DYTraceDecode_MTLBlitCommandEncoder_endEncoding
++ _DYTraceDecode_MTLBlitCommandEncoder_fillBuffer_range_pattern4
++ _DYTraceDecode_MTLBlitCommandEncoder_fillBuffer_range_value
++ _DYTraceDecode_MTLBlitCommandEncoder_fillTexture_level_slice_region_bytes_length
++ _DYTraceDecode_MTLBlitCommandEncoder_fillTexture_level_slice_region_color
++ _DYTraceDecode_MTLBlitCommandEncoder_fillTexture_level_slice_region_color_pixelFormat
++ _DYTraceDecode_MTLBlitCommandEncoder_generateMipmapsForTexture
++ _DYTraceDecode_MTLBlitCommandEncoder_getTextureAccessCounters_region_mipLevel_slice_resetCounters_countersBuffer_countersBufferOffset
++ _DYTraceDecode_MTLBlitCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLBlitCommandEncoder_invalidateCompressedTexture
++ _DYTraceDecode_MTLBlitCommandEncoder_invalidateCompressedTexture_slice_level
++ _DYTraceDecode_MTLBlitCommandEncoder_optimizeContentsForCPUAccess
++ _DYTraceDecode_MTLBlitCommandEncoder_optimizeContentsForCPUAccess_slice_level
++ _DYTraceDecode_MTLBlitCommandEncoder_optimizeContentsForGPUAccess
++ _DYTraceDecode_MTLBlitCommandEncoder_optimizeContentsForGPUAccess_slice_level
++ _DYTraceDecode_MTLBlitCommandEncoder_optimizeIndirectCommandBuffer_withRange
++ _DYTraceDecode_MTLBlitCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLBlitCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLBlitCommandEncoder_resetCommandsInBuffer_withRange
++ _DYTraceDecode_MTLBlitCommandEncoder_resetTextureAccessCounters_region_mipLevel_slice
++ _DYTraceDecode_MTLBlitCommandEncoder_resolveCounters_inRange_destinationBuffer_destinationOffset
++ _DYTraceDecode_MTLBlitCommandEncoder_sampleCountersInBuffer_atSampleIndex_withBarrier
++ _DYTraceDecode_MTLBlitCommandEncoder_setLabel
++ _DYTraceDecode_MTLBlitCommandEncoder_synchronizeResource
++ _DYTraceDecode_MTLBlitCommandEncoder_synchronizeTexture_slice_level
++ _DYTraceDecode_MTLBlitCommandEncoder_updateFence
++ _DYTraceDecode_MTLBlitCommandEncoder_waitForFence
++ _DYTraceDecode_MTLBuffer_addDebugMarker_range
++ _DYTraceDecode_MTLBuffer_allocatedSize
++ _DYTraceDecode_MTLBuffer_allocationID
++ _DYTraceDecode_MTLBuffer_contents
++ _DYTraceDecode_MTLBuffer_dealloc
++ _DYTraceDecode_MTLBuffer_didModifyRange
++ _DYTraceDecode_MTLBuffer_gpuVirtualAddress
++ _DYTraceDecode_MTLBuffer_heapOffset
++ _DYTraceDecode_MTLBuffer_isAliasable
++ _DYTraceDecode_MTLBuffer_isPurgeable
++ _DYTraceDecode_MTLBuffer_makeAliasable
++ _DYTraceDecode_MTLBuffer_newLinearTextureWithDescriptor_offset_bytesPerRow_bytesPerImage
++ _DYTraceDecode_MTLBuffer_newRemoteBufferViewForDevice
++ _DYTraceDecode_MTLBuffer_newTensorWithDescriptor_offset_error
++ _DYTraceDecode_MTLBuffer_newTextureWithDescriptor_offset_bytesPerRow
++ _DYTraceDecode_MTLBuffer_newTiledTextureWithDescriptor_offset_bytesPerRow
++ _DYTraceDecode_MTLBuffer_parentGPUAddress_parentGPUSize
++ _DYTraceDecode_MTLBuffer_resourceUsage
++ _DYTraceDecode_MTLBuffer_saveContentsToPath
++ _DYTraceDecode_MTLBuffer_setLabel
++ _DYTraceDecode_MTLBuffer_setParentGPUAddress
++ _DYTraceDecode_MTLBuffer_setParentGPUSize
++ _DYTraceDecode_MTLBuffer_setPurgeableState
++ _DYTraceDecode_MTLBuffer_setResponsibleProcess
++ _DYTraceDecode_MTLBuffer_timeSinceTouched
++ _DYTraceDecode_MTLCaptureManager_newCaptureScopeWithCommandQueue
++ _DYTraceDecode_MTLCaptureManager_newCaptureScopeWithDevice
++ _DYTraceDecode_MTLCaptureManager_notifyPostPresentHandoffSPI
++ _DYTraceDecode_MTLCaptureManager_notifySubmissionForEyeSPI_iosurface_bounds_submitFlags
++ _DYTraceDecode_MTLCaptureManager_sharedCaptureManager
++ _DYTraceDecode_MTLCaptureManager_startCaptureWithCommandQueue
++ _DYTraceDecode_MTLCaptureManager_startCaptureWithDescriptor_error
++ _DYTraceDecode_MTLCaptureManager_startCaptureWithDevice
++ _DYTraceDecode_MTLCaptureManager_startCaptureWithScope
++ _DYTraceDecode_MTLCaptureManager_stopCapture
++ _DYTraceDecode_MTLCaptureScope_beginScope
++ _DYTraceDecode_MTLCaptureScope_dealloc
++ _DYTraceDecode_MTLCaptureScope_endScope
++ _DYTraceDecode_MTLCaptureScope_setLabel
++ _DYTraceDecode_MTLCommandBuffer___waitUntilCompletedAsync
++ _DYTraceDecode_MTLCommandBuffer___waitUntilScheduledAsync
++ _DYTraceDecode_MTLCommandBuffer_accelerationStructureCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_accelerationStructureCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_addCompletedHandler
++ _DYTraceDecode_MTLCommandBuffer_addPurgedHeap
++ _DYTraceDecode_MTLCommandBuffer_addPurgedResource
++ _DYTraceDecode_MTLCommandBuffer_addScheduledHandler
++ _DYTraceDecode_MTLCommandBuffer_blitCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_blitCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_commit
++ _DYTraceDecode_MTLCommandBuffer_commitAndHold
++ _DYTraceDecode_MTLCommandBuffer_commitAndWaitUntilSubmitted
++ _DYTraceDecode_MTLCommandBuffer_commitAndWaitUntilSubmittedWithDeadline
++ _DYTraceDecode_MTLCommandBuffer_commitWithDeadline
++ _DYTraceDecode_MTLCommandBuffer_computeCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_computeCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_computeCommandEncoderWithDispatchType
++ _DYTraceDecode_MTLCommandBuffer_computeCommandEncoderWithDispatchType_substreamCount
++ _DYTraceDecode_MTLCommandBuffer_dealloc
++ _DYTraceDecode_MTLCommandBuffer_debugCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_doCorruptCBSPI
++ _DYTraceDecode_MTLCommandBuffer_dropResourceGroups_count
++ _DYTraceDecode_MTLCommandBuffer_encodeDashboardFinalizeForResourceGroup_dashboard_value_forIndex
++ _DYTraceDecode_MTLCommandBuffer_encodeDashboardFinalizeForResourceGroup_dashboard_values_indices_count
++ _DYTraceDecode_MTLCommandBuffer_encodeDashboardTagForResourceGroup
++ _DYTraceDecode_MTLCommandBuffer_encodeSignalEventScheduled_value
++ _DYTraceDecode_MTLCommandBuffer_encodeSignalEvent_value
++ _DYTraceDecode_MTLCommandBuffer_encodeSignalEvent_value_agentMask
++ _DYTraceDecode_MTLCommandBuffer_encodeWaitForEvent_value
++ _DYTraceDecode_MTLCommandBuffer_encodeWaitForEvent_value_timeout
++ _DYTraceDecode_MTLCommandBuffer_enqueue
++ _DYTraceDecode_MTLCommandBuffer_indirectArgumentBufferData
++ _DYTraceDecode_MTLCommandBuffer_parallelRenderCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_popDebugGroup
++ _DYTraceDecode_MTLCommandBuffer_presentDrawable
++ _DYTraceDecode_MTLCommandBuffer_presentDrawable_afterMinimumDuration
++ _DYTraceDecode_MTLCommandBuffer_presentDrawable_atTime
++ _DYTraceDecode_MTLCommandBuffer_pushDebugGroup
++ _DYTraceDecode_MTLCommandBuffer_renderCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_resourceStateCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_resourceStateCommandEncoderWithDescriptor
++ _DYTraceDecode_MTLCommandBuffer_restoreMTLBufferContents
++ _DYTraceDecode_MTLCommandBuffer_setLabel
++ _DYTraceDecode_MTLCommandBuffer_setProfilingEnabled
++ _DYTraceDecode_MTLCommandBuffer_setResourceGroups_count
++ _DYTraceDecode_MTLCommandBuffer_setSharedIndirectionTable
++ _DYTraceDecode_MTLCommandBuffer_useResidencySet
++ _DYTraceDecode_MTLCommandBuffer_useResidencySets_count
++ _DYTraceDecode_MTLCommandBuffer_videoCommandEncoder
++ _DYTraceDecode_MTLCommandBuffer_waitUntilCompleted
++ _DYTraceDecode_MTLCommandBuffer_waitUntilScheduled
++ _DYTraceDecode_MTLCommandQueue_addResidencySet
++ _DYTraceDecode_MTLCommandQueue_addResidencySets_count
++ _DYTraceDecode_MTLCommandQueue_commandBuffer
++ _DYTraceDecode_MTLCommandQueue_commandBufferWithDescriptor
++ _DYTraceDecode_MTLCommandQueue_commandBufferWithUnretainedReferences
++ _DYTraceDecode_MTLCommandQueue_continueCommandBuffer_retainReferences
++ _DYTraceDecode_MTLCommandQueue_dealloc
++ _DYTraceDecode_MTLCommandQueue_finish
++ _DYTraceDecode_MTLCommandQueue_getSPIStats
++ _DYTraceDecode_MTLCommandQueue_insertDebugCaptureBoundary
++ _DYTraceDecode_MTLCommandQueue_removeResidencySet
++ _DYTraceDecode_MTLCommandQueue_removeResidencySets_count
++ _DYTraceDecode_MTLCommandQueue_setBackgroundGPUPriority
++ _DYTraceDecode_MTLCommandQueue_setBackgroundGPUPriority_offset
++ _DYTraceDecode_MTLCommandQueue_setBackgroundTrackingPID
++ _DYTraceDecode_MTLCommandQueue_setCompletionQueue
++ _DYTraceDecode_MTLCommandQueue_setExecutionEnabled
++ _DYTraceDecode_MTLCommandQueue_setGPUPriority
++ _DYTraceDecode_MTLCommandQueue_setGPUPriority_offset
++ _DYTraceDecode_MTLCommandQueue_setLabel
++ _DYTraceDecode_MTLCommandQueue_setProfilingEnabled
++ _DYTraceDecode_MTLCommandQueue_setSkipRender
++ _DYTraceDecode_MTLCommandQueue_setSubmissionQueue
++ _DYTraceDecode_MTLComputeCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLComputeCommandEncoder_dealloc
++ _DYTraceDecode_MTLComputeCommandEncoder_dispatchThreadgroupsWithIndirectBuffer_indirectBufferOffset_threadsPerThreadgroup
++ _DYTraceDecode_MTLComputeCommandEncoder_dispatchThreadgroups_threadsPerThreadgroup
++ _DYTraceDecode_MTLComputeCommandEncoder_dispatchThreadsWithIndirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLComputeCommandEncoder_dispatchThreads_threadsPerThreadgroup
++ _DYTraceDecode_MTLComputeCommandEncoder_enableNullBufferBinds
++ _DYTraceDecode_MTLComputeCommandEncoder_endEncoding
++ _DYTraceDecode_MTLComputeCommandEncoder_executeCommandsInBuffer_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLComputeCommandEncoder_executeCommandsInBuffer_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_insertCompressedTextureReinterpretationFlush
++ _DYTraceDecode_MTLComputeCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLComputeCommandEncoder_memoryBarrierWithResources_count
++ _DYTraceDecode_MTLComputeCommandEncoder_memoryBarrierWithScope
++ _DYTraceDecode_MTLComputeCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLComputeCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLComputeCommandEncoder_sampleCountersInBuffer_atSampleIndex_withBarrier
++ _DYTraceDecode_MTLComputeCommandEncoder_setAccelerationStructure_atBufferIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBufferOffset_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBufferOffset_attributeStride_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBuffer_offset_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBuffer_offset_attributeStride_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBuffers_offsets_attributeStrides_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setBuffers_offsets_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setBytes_length_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setBytes_length_attributeStride_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setComputePipelineState
++ _DYTraceDecode_MTLComputeCommandEncoder_setImageblockWidth_height
++ _DYTraceDecode_MTLComputeCommandEncoder_setIntersectionFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setIntersectionFunctionTables_withBufferRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setLabel
++ _DYTraceDecode_MTLComputeCommandEncoder_setSamplerState_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setSamplerStates_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setStageInRegion
++ _DYTraceDecode_MTLComputeCommandEncoder_setStageInRegionWithIndirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLComputeCommandEncoder_setSubstream
++ _DYTraceDecode_MTLComputeCommandEncoder_setTexture_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setTextures_withRange
++ _DYTraceDecode_MTLComputeCommandEncoder_setThreadgroupDistributionMode
++ _DYTraceDecode_MTLComputeCommandEncoder_setThreadgroupDistributionModeWithClusterGroupIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setThreadgroupPackingDisabled
++ _DYTraceDecode_MTLComputeCommandEncoder_setVisibleFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLComputeCommandEncoder_setVisibleFunctionTables_withBufferRange
++ _DYTraceDecode_MTLComputeCommandEncoder_signalProgress
++ _DYTraceDecode_MTLComputeCommandEncoder_updateFence
++ _DYTraceDecode_MTLComputeCommandEncoder_useHeap
++ _DYTraceDecode_MTLComputeCommandEncoder_useHeaps_count
++ _DYTraceDecode_MTLComputeCommandEncoder_useResource_usage
++ _DYTraceDecode_MTLComputeCommandEncoder_useResources_count_usage
++ _DYTraceDecode_MTLComputeCommandEncoder_waitForFence
++ _DYTraceDecode_MTLComputeCommandEncoder_waitForProgress
++ _DYTraceDecode_MTLComputePipelineState_allocatedSize
++ _DYTraceDecode_MTLComputePipelineState_dealloc
++ _DYTraceDecode_MTLComputePipelineState_functionHandleWithFunction
++ _DYTraceDecode_MTLComputePipelineState_functionHandleWithName
++ _DYTraceDecode_MTLComputePipelineState_gpuResourceID
++ _DYTraceDecode_MTLComputePipelineState_newComputePipelineStateWithAdditionalBinaryFunctions_error
++ _DYTraceDecode_MTLComputePipelineState_newIntersectionFunctionTableWithDescriptor
++ _DYTraceDecode_MTLComputePipelineState_newVisibleFunctionTableWithDescriptor
++ _DYTraceDecode_MTLComputePipelineState_resourceIndex
++ _DYTraceDecode_MTLComputePipelineState_timeSinceTouched
++ _DYTraceDecode_MTLComputePipelineState_uniqueIdentifier
++ _DYTraceDecode_MTLCounterSampleBuffer_dealloc
++ _DYTraceDecode_MTLCounterSampleBuffer_resolveCounterRange
++ _DYTraceDecode_MTLDeadlineProfile_dealloc
++ _DYTraceDecode_MTLDepthStencilState_dealloc
++ _DYTraceDecode_MTLDepthStencilState_gpuResourceID
++ _DYTraceDecode_MTLDepthStencilState_uniqueIdentifier
++ _DYTraceDecode_MTLDevice_compileVisibleFunction_withDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_compileVisibleFunction_withDescriptor_destinationBinaryArchive_error
++ _DYTraceDecode_MTLDevice_convertSparsePixelRegions_toTileRegions_withTileSize_alignmentMode_numRegions
++ _DYTraceDecode_MTLDevice_convertSparseTileRegions_toPixelRegions_withTileSize_numRegions
++ _DYTraceDecode_MTLDevice_copyShaderCacheToPath
++ _DYTraceDecode_MTLDevice_dealloc
++ _DYTraceDecode_MTLDevice_deserializeInstanceAccelerationStructure_fromBytes_primitiveAccelerationStructures_withDescriptor
++ _DYTraceDecode_MTLDevice_deserializePrimitiveAccelerationStructure_fromBytes_withDescriptor
++ _DYTraceDecode_MTLDevice_deviceReference
++ _DYTraceDecode_MTLDevice_functionHandleWithFunction
++ _DYTraceDecode_MTLDevice_heapBufferSizeAndAlignWithLength_options
++ _DYTraceDecode_MTLDevice_heapTextureSizeAndAlignWithDescriptor
++ _DYTraceDecode_MTLDevice_loadDynamicLibrariesForComputeDescriptor_options_error
++ _DYTraceDecode_MTLDevice_loadDynamicLibrariesForFunction_insertLibraries_options_error
++ _DYTraceDecode_MTLDevice_minLinearTextureAlignmentForPixelFormat
++ _DYTraceDecode_MTLDevice_minLinearTextureBaseAddressAlignmentForDescriptor
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithBuffer_offset
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithBuffer_offset_resourceIndex
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithDescriptor
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithSize
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithSize_resourceIndex
++ _DYTraceDecode_MTLDevice_newAccelerationStructureWithSize_withDescriptor
++ _DYTraceDecode_MTLDevice_newArgumentEncoderWithArguments
++ _DYTraceDecode_MTLDevice_newArgumentEncoderWithBufferBinding
++ _DYTraceDecode_MTLDevice_newArgumentTableWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newBinaryArchiveWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newBufferWithBytesNoCopy_length_options_deallocator
++ _DYTraceDecode_MTLDevice_newBufferWithBytes_length_options
++ _DYTraceDecode_MTLDevice_newBufferWithBytes_length_options_gpuAddress
++ _DYTraceDecode_MTLDevice_newBufferWithDescriptor
++ _DYTraceDecode_MTLDevice_newBufferWithIOSurface
++ _DYTraceDecode_MTLDevice_newBufferWithLength_options
++ _DYTraceDecode_MTLDevice_newBufferWithLength_options_gpuAddress
++ _DYTraceDecode_MTLDevice_newBufferWithLength_options_placementSparsePageSize
++ _DYTraceDecode_MTLDevice_newCommandAllocator
++ _DYTraceDecode_MTLDevice_newCommandAllocatorWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newCommandBuffer
++ _DYTraceDecode_MTLDevice_newCommandQueue
++ _DYTraceDecode_MTLDevice_newCommandQueueWithDescriptor
++ _DYTraceDecode_MTLDevice_newCommandQueueWithMaxCommandBufferCount
++ _DYTraceDecode_MTLDevice_newCompilerWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithDescriptor_options_completionHandler
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithDescriptor_options_reflection_error
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithFunction_completionHandler
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithFunction_error
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithFunction_options_completionHandler
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithFunction_options_reflection_error
++ _DYTraceDecode_MTLDevice_newComputePipelineStateWithImageFilterFunctionsSPI_imageFilterFunctionInfo_error
++ _DYTraceDecode_MTLDevice_newCounterSampleBufferWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newDefaultLibrary
++ _DYTraceDecode_MTLDevice_newDefaultLibraryWithBundle_error
++ _DYTraceDecode_MTLDevice_newDepthStencilStateWithDescriptor
++ _DYTraceDecode_MTLDevice_newDynamicLibraryWithURL_error
++ _DYTraceDecode_MTLDevice_newDynamicLibraryWithURL_options_error
++ _DYTraceDecode_MTLDevice_newDynamicLibrary_error
++ _DYTraceDecode_MTLDevice_newEvent
++ _DYTraceDecode_MTLDevice_newFence
++ _DYTraceDecode_MTLDevice_newFrameInterpolatorWithDescriptor
++ _DYTraceDecode_MTLDevice_newFunctionWithGLCoreIR_functionType
++ _DYTraceDecode_MTLDevice_newFunctionWithGLCoreIR_inputsDescription_functionType
++ _DYTraceDecode_MTLDevice_newFunctionWithGLESIR_functionType
++ _DYTraceDecode_MTLDevice_newFunctionWithGLESIR_inputsDescription_functionType
++ _DYTraceDecode_MTLDevice_newFunctionWithGLIR_functionType
++ _DYTraceDecode_MTLDevice_newFunctionWithGLIR_inputsDescription_functionType
++ _DYTraceDecode_MTLDevice_newHeapWithDescriptor
++ _DYTraceDecode_MTLDevice_newIOCommandQueueWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newIOFileHandleWithURL_compressionMethod_error
++ _DYTraceDecode_MTLDevice_newIOFileHandleWithURL_error
++ _DYTraceDecode_MTLDevice_newIOHandleWithURL_compressionMethod_error
++ _DYTraceDecode_MTLDevice_newIOHandleWithURL_error
++ _DYTraceDecode_MTLDevice_newIndirectCommandBufferWithDescriptor_maxCommandCount_options
++ _DYTraceDecode_MTLDevice_newIndirectCommandBufferWithDescriptor_maxCount_options
++ _DYTraceDecode_MTLDevice_newIntersectionFunctionTableWithDescriptor
++ _DYTraceDecode_MTLDevice_newLateEvalEvent
++ _DYTraceDecode_MTLDevice_newLibraryWithCIFiltersForComputePipeline_imageFilterFunctionInfo_error
++ _DYTraceDecode_MTLDevice_newLibraryWithCIFilters_imageFilterFunctionInfo_error
++ _DYTraceDecode_MTLDevice_newLibraryWithDAG_functions_error
++ _DYTraceDecode_MTLDevice_newLibraryWithData_error
++ _DYTraceDecode_MTLDevice_newLibraryWithDescriptorSPI_error
++ _DYTraceDecode_MTLDevice_newLibraryWithDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newLibraryWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newLibraryWithFile_error
++ _DYTraceDecode_MTLDevice_newLibraryWithImageFilterFunctionsSPI_imageFilterFunctionInfo_error
++ _DYTraceDecode_MTLDevice_newLibraryWithSource_options_completionHandler
++ _DYTraceDecode_MTLDevice_newLibraryWithSource_options_error
++ _DYTraceDecode_MTLDevice_newLibraryWithStitchedDescriptorSPI_error
++ _DYTraceDecode_MTLDevice_newLibraryWithStitchedDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newLibraryWithStitchedDescriptor_error
++ _DYTraceDecode_MTLDevice_newLibraryWithURL_error
++ _DYTraceDecode_MTLDevice_newMTL4CommandQueue
++ _DYTraceDecode_MTLDevice_newMTL4CommandQueueWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newMTL4FrameInterpolatorWithDescriptor_compiler
++ _DYTraceDecode_MTLDevice_newMTL4SpatialScalerWithDescriptor_compiler
++ _DYTraceDecode_MTLDevice_newMTL4TemporalDenoisedScalerWithDescriptor_compiler
++ _DYTraceDecode_MTLDevice_newMTL4TemporalScalerWithDescriptor_compiler
++ _DYTraceDecode_MTLDevice_newMotionEstimationPipelineWithDescriptor
++ _DYTraceDecode_MTLDevice_newPipelineLibraryWithFilePath_error
++ _DYTraceDecode_MTLDevice_newProfileWithExecutionSize
++ _DYTraceDecode_MTLDevice_newRasterizationRateMapWithDescriptor
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithDescriptor_options_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithDescriptor_options_reflection_error
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithMeshDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithMeshDescriptor_error
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithMeshDescriptor_options_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithMeshDescriptor_options_reflection_error
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithTileDescriptor_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithTileDescriptor_error
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithTileDescriptor_options_completionHandler
++ _DYTraceDecode_MTLDevice_newRenderPipelineStateWithTileDescriptor_options_reflection_error
++ _DYTraceDecode_MTLDevice_newResidencySetWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newResourceGroupFromResources_count
++ _DYTraceDecode_MTLDevice_newSamplerStateWithDescriptor
++ _DYTraceDecode_MTLDevice_newSharedEvent
++ _DYTraceDecode_MTLDevice_newSharedEventWithHandle
++ _DYTraceDecode_MTLDevice_newSharedEventWithMachPort
++ _DYTraceDecode_MTLDevice_newSharedTextureWithDescriptor
++ _DYTraceDecode_MTLDevice_newSharedTextureWithHandle
++ _DYTraceDecode_MTLDevice_newSpatialScalerWithDescriptor
++ _DYTraceDecode_MTLDevice_newTemporalDenoisedScalerWithDescriptor
++ _DYTraceDecode_MTLDevice_newTemporalScalerWithDescriptor
++ _DYTraceDecode_MTLDevice_newTensorWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newTextureLayoutWithDescriptor_isHeapOrBufferBacked
++ _DYTraceDecode_MTLDevice_newTextureViewPoolWithDescriptor_error
++ _DYTraceDecode_MTLDevice_newTextureWithBytesNoCopy_length_descriptor_deallocator
++ _DYTraceDecode_MTLDevice_newTextureWithDescriptor
++ _DYTraceDecode_MTLDevice_newTextureWithDescriptor_iosurface_plane
++ _DYTraceDecode_MTLDevice_newTiledTextureWithBytesNoCopy_length_deallocator_descriptor_offset_bytesPerRow
++ _DYTraceDecode_MTLDevice_newTiledTextureWithBytesNoCopy_length_descriptor_offset_bytesPerRow
++ _DYTraceDecode_MTLDevice_requiredLinearTextureBytesPerRowForDescriptor
++ _DYTraceDecode_MTLDevice_reserveResourceIndicesForResourceType_indices_indexCount
++ _DYTraceDecode_MTLDevice_serializeStructType_version
++ _DYTraceDecode_MTLDevice_setCapturingCommandQueueAddress
++ _DYTraceDecode_MTLDevice_setCommandBufferErrorOptions
++ _DYTraceDecode_MTLDevice_setMetalAssertionsEnabled
++ _DYTraceDecode_MTLDevice_setPluginData
++ _DYTraceDecode_MTLDevice_setRequiresLegacyCompilerProcessesCount
++ _DYTraceDecode_MTLDevice_setWritableHeapsEnabled
++ _DYTraceDecode_MTLDevice_sparseTileSizeInBytesForSparsePageSize
++ _DYTraceDecode_MTLDevice_sparseTileSizeWithTextureType_pixelFormat_sampleCount
++ _DYTraceDecode_MTLDevice_sparseTileSizeWithTextureType_pixelFormat_sampleCount_sparsePageSize
++ _DYTraceDecode_MTLDevice_supportsPrimitiveType
++ _DYTraceDecode_MTLDevice_supportsRasterizationRateMapWithLayerCount
++ _DYTraceDecode_MTLDevice_supportsSampleCount
++ _DYTraceDecode_MTLDevice_supportsTextureSampleCount
++ _DYTraceDecode_MTLDevice_tileSizeWithSparsePageSize_textureType_pixelFormat_sampleCount
++ _DYTraceDecode_MTLDevice_unmapShaderSampleBuffer
++ _DYTraceDecode_MTLDynamicLibrary_dealloc
++ _DYTraceDecode_MTLDynamicLibrary_serializeToURL_error
++ _DYTraceDecode_MTLDynamicLibrary_setLabel
++ _DYTraceDecode_MTLEvent_dealloc
++ _DYTraceDecode_MTLEvent_setEnableBarrier
++ _DYTraceDecode_MTLEvent_setLabel
++ _DYTraceDecode_MTLFXFrameInterpolator_dealloc
++ _DYTraceDecode_MTLFXFrameInterpolator_encodeToCommandBuffer
++ _DYTraceDecode_MTLFXFrameInterpolator_setAspectRatio
++ _DYTraceDecode_MTLFXFrameInterpolator_setColorTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setContentHeight
++ _DYTraceDecode_MTLFXFrameInterpolator_setContentWidth
++ _DYTraceDecode_MTLFXFrameInterpolator_setDeltaTime
++ _DYTraceDecode_MTLFXFrameInterpolator_setDepthContentOffsetX
++ _DYTraceDecode_MTLFXFrameInterpolator_setDepthContentOffsetY
++ _DYTraceDecode_MTLFXFrameInterpolator_setDepthReversed
++ _DYTraceDecode_MTLFXFrameInterpolator_setDepthTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setDistortionHeight
++ _DYTraceDecode_MTLFXFrameInterpolator_setDistortionOffsetX
++ _DYTraceDecode_MTLFXFrameInterpolator_setDistortionOffsetY
++ _DYTraceDecode_MTLFXFrameInterpolator_setDistortionTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setDistortionWidth
++ _DYTraceDecode_MTLFXFrameInterpolator_setFarPlane
++ _DYTraceDecode_MTLFXFrameInterpolator_setFence
++ _DYTraceDecode_MTLFXFrameInterpolator_setFieldOfView
++ _DYTraceDecode_MTLFXFrameInterpolator_setIsUITextureComposited
++ _DYTraceDecode_MTLFXFrameInterpolator_setJitterOffsetX
++ _DYTraceDecode_MTLFXFrameInterpolator_setJitterOffsetY
++ _DYTraceDecode_MTLFXFrameInterpolator_setMotionContentOffsetX
++ _DYTraceDecode_MTLFXFrameInterpolator_setMotionContentOffsetY
++ _DYTraceDecode_MTLFXFrameInterpolator_setMotionTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setMotionVectorScaleX
++ _DYTraceDecode_MTLFXFrameInterpolator_setMotionVectorScaleY
++ _DYTraceDecode_MTLFXFrameInterpolator_setNearPlane
++ _DYTraceDecode_MTLFXFrameInterpolator_setOutputOffsetX
++ _DYTraceDecode_MTLFXFrameInterpolator_setOutputOffsetY
++ _DYTraceDecode_MTLFXFrameInterpolator_setOutputTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setPrevColorTexture
++ _DYTraceDecode_MTLFXFrameInterpolator_setShouldResetHistory
++ _DYTraceDecode_MTLFXFrameInterpolator_setUITexture
++ _DYTraceDecode_MTLFXSpatialScaler_dealloc
++ _DYTraceDecode_MTLFXSpatialScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTLFXSpatialScaler_setColorTexture
++ _DYTraceDecode_MTLFXSpatialScaler_setFence
++ _DYTraceDecode_MTLFXSpatialScaler_setInputContentHeight
++ _DYTraceDecode_MTLFXSpatialScaler_setInputContentWidth
++ _DYTraceDecode_MTLFXSpatialScaler_setOutputTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_dealloc
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_encodeToCommandQueue
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_executionMode
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setColorTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setDenoiseStrengthMaskTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setDepthReversed
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setDepthTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setDiffuseAlbedoTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setExposureTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setFence
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setInputContentHeight
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setInputContentWidth
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setJitterOffsetX
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setJitterOffsetY
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setMotionTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setMotionVectorScaleX
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setMotionVectorScaleY
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setNormalTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setOutputTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setPreExposure
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setReactiveMaskTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setRoughnessTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setShouldResetHistory
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setSpecularAlbedoTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setSpecularHitDistanceTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setTransparencyOverlayTexture
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setViewToClipMatrix
++ _DYTraceDecode_MTLFXTemporalDenoisedScaler_setWorldToViewMatrix
++ _DYTraceDecode_MTLFXTemporalScaler_dealloc
++ _DYTraceDecode_MTLFXTemporalScaler_encodeToCommandBuffer
++ _DYTraceDecode_MTLFXTemporalScaler_executionMode
++ _DYTraceDecode_MTLFXTemporalScaler_setColorContentOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setColorContentOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setColorTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setDepthContentOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setDepthContentOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setDepthReversed
++ _DYTraceDecode_MTLFXTemporalScaler_setDepthTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setExposureTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setFence
++ _DYTraceDecode_MTLFXTemporalScaler_setInputContentHeight
++ _DYTraceDecode_MTLFXTemporalScaler_setInputContentWidth
++ _DYTraceDecode_MTLFXTemporalScaler_setJitterOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setJitterOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setMotionContentOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setMotionContentOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setMotionTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setMotionVectorScaleX
++ _DYTraceDecode_MTLFXTemporalScaler_setMotionVectorScaleY
++ _DYTraceDecode_MTLFXTemporalScaler_setOutputOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setOutputOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setOutputTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setPreExposure
++ _DYTraceDecode_MTLFXTemporalScaler_setReactiveMaskContentOffsetX
++ _DYTraceDecode_MTLFXTemporalScaler_setReactiveMaskContentOffsetY
++ _DYTraceDecode_MTLFXTemporalScaler_setReactiveMaskTexture
++ _DYTraceDecode_MTLFXTemporalScaler_setReset
++ _DYTraceDecode_MTLFence_dealloc
++ _DYTraceDecode_MTLFence_setLabel
++ _DYTraceDecode_MTLFunctionHandle_dealloc
++ _DYTraceDecode_MTLFunctionHandle_gpuResourceID
++ _DYTraceDecode_MTLFunctionHandle_resourceIndex
++ _DYTraceDecode_MTLFunctionPointerHandle_dealloc
++ _DYTraceDecode_MTLFunctionPrivateArgument_dealloc
++ _DYTraceDecode_MTLFunction_dealloc
++ _DYTraceDecode_MTLFunction_newArgumentEncoderWithBufferIndex
++ _DYTraceDecode_MTLFunction_newArgumentEncoderWithBufferIndex_pipelineLibrary
++ _DYTraceDecode_MTLFunction_newArgumentEncoderWithBufferIndex_reflection
++ _DYTraceDecode_MTLFunction_newArgumentEncoderWithBufferIndex_reflection_pipelineLibrary
++ _DYTraceDecode_MTLFunction_newFunctionWithPluginData_bitcodeType
++ _DYTraceDecode_MTLFunction_setDescriptor_library
++ _DYTraceDecode_MTLFunction_setLabel
++ _DYTraceDecode_MTLHeap_currentAllocatedSize
++ _DYTraceDecode_MTLHeap_dealloc
++ _DYTraceDecode_MTLHeap_maxAvailableSizeWithAlignment
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithDescriptor
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithDescriptor_offset
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithSize
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithSize_offset
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithSize_offset_resourceIndex
++ _DYTraceDecode_MTLHeap_newAccelerationStructureWithSize_resourceIndex
++ _DYTraceDecode_MTLHeap_newBufferWithLength_options
++ _DYTraceDecode_MTLHeap_newBufferWithLength_options_offset
++ _DYTraceDecode_MTLHeap_newTextureWithDescriptor
++ _DYTraceDecode_MTLHeap_newTextureWithDescriptor_offset
++ _DYTraceDecode_MTLHeap_setLabel
++ _DYTraceDecode_MTLHeap_setPurgeableState
++ _DYTraceDecode_MTLHeap_timeSinceTouched
++ _DYTraceDecode_MTLHeap_usedSize
++ _DYTraceDecode_MTLIOCommandBuffer_addBarrier
++ _DYTraceDecode_MTLIOCommandBuffer_addCompletedHandler
++ _DYTraceDecode_MTLIOCommandBuffer_barrier
++ _DYTraceDecode_MTLIOCommandBuffer_commit
++ _DYTraceDecode_MTLIOCommandBuffer_copyStatusToBuffer_offset
++ _DYTraceDecode_MTLIOCommandBuffer_dealloc
++ _DYTraceDecode_MTLIOCommandBuffer_encodeSignalEvent_value
++ _DYTraceDecode_MTLIOCommandBuffer_encodeWaitForEvent_value
++ _DYTraceDecode_MTLIOCommandBuffer_enqueue
++ _DYTraceDecode_MTLIOCommandBuffer_loadBuffer_offset_size_sourceHandle_sourceHandleOffset
++ _DYTraceDecode_MTLIOCommandBuffer_loadBytes_size_sourceHandle_sourceHandleOffset
++ _DYTraceDecode_MTLIOCommandBuffer_loadTexture_slice_level_size_sourceBytesPerRow_sourceBytesPerImage_destinationOrigin_sourceHandle_sourceHandleOffset
++ _DYTraceDecode_MTLIOCommandBuffer_popDebugGroup
++ _DYTraceDecode_MTLIOCommandBuffer_pushDebugGroup
++ _DYTraceDecode_MTLIOCommandBuffer_setLabel
++ _DYTraceDecode_MTLIOCommandBuffer_signalEvent_value
++ _DYTraceDecode_MTLIOCommandBuffer_tryCancel
++ _DYTraceDecode_MTLIOCommandBuffer_waitForEvent_value
++ _DYTraceDecode_MTLIOCommandBuffer_waitUntilCompleted
++ _DYTraceDecode_MTLIOCommandQueue_barrier
++ _DYTraceDecode_MTLIOCommandQueue_commandBuffer
++ _DYTraceDecode_MTLIOCommandQueue_commandBufferWithUnretainedReferences
++ _DYTraceDecode_MTLIOCommandQueue_continueCommandBuffer_retainReferences
++ _DYTraceDecode_MTLIOCommandQueue_dealloc
++ _DYTraceDecode_MTLIOCommandQueue_enqueueBarrier
++ _DYTraceDecode_MTLIOCommandQueue_setLabel
++ _DYTraceDecode_MTLIOFileHandle_dealloc
++ _DYTraceDecode_MTLIOFileHandle_setLabel
++ _DYTraceDecode_MTLIOHandle_setLabel
++ _DYTraceDecode_MTLIOScratchBufferAllocator_dealloc
++ _DYTraceDecode_MTLIOScratchBufferAllocator_newScratchBufferWithMinimumSize
++ _DYTraceDecode_MTLIOScratchBuffer_dealloc
++ _DYTraceDecode_MTLIndirectCommandBuffer_allocatedSize
++ _DYTraceDecode_MTLIndirectCommandBuffer_allocationID
++ _DYTraceDecode_MTLIndirectCommandBuffer_dealloc
++ _DYTraceDecode_MTLIndirectCommandBuffer_gpuResourceID
++ _DYTraceDecode_MTLIndirectCommandBuffer_indirectComputeCommandAtIndex
++ _DYTraceDecode_MTLIndirectCommandBuffer_indirectRenderCommandAtIndex
++ _DYTraceDecode_MTLIndirectCommandBuffer_isAliasable
++ _DYTraceDecode_MTLIndirectCommandBuffer_isPurgeable
++ _DYTraceDecode_MTLIndirectCommandBuffer_makeAliasable
++ _DYTraceDecode_MTLIndirectCommandBuffer_resetWithRange
++ _DYTraceDecode_MTLIndirectCommandBuffer_restoreData
++ _DYTraceDecode_MTLIndirectCommandBuffer_setLabel
++ _DYTraceDecode_MTLIndirectCommandBuffer_setPurgeableState
++ _DYTraceDecode_MTLIndirectCommandBuffer_setResponsibleProcess
++ _DYTraceDecode_MTLIndirectCommandBuffer_timeSinceTouched
++ _DYTraceDecode_MTLIndirectCommandBuffer_uniqueIdentifier
++ _DYTraceDecode_MTLIndirectComputeCommand_concurrentDispatchThreadgroups_threadsPerThreadgroup
++ _DYTraceDecode_MTLIndirectComputeCommand_dealloc
++ _DYTraceDecode_MTLIndirectComputeCommand_reset
++ _DYTraceDecode_MTLIndirectComputeCommand_setComputePipelineState
++ _DYTraceDecode_MTLIndirectComputeCommand_setKernelBuffer_offset_atIndex
++ _DYTraceDecode_MTLIndirectComputeCommand_setKernelBuffer_offset_attributeStride_atIndex
++ _DYTraceDecode_MTLIndirectComputeCommand_setStageInRegion
++ _DYTraceDecode_MTLIndirectComputeCommand_setThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_dealloc
++ _DYTraceDecode_MTLIndirectRenderCommand_drawIndexedPatches_patchStart_patchCount_patchIndexBuffer_patchIndexBufferOffset_controlPointIndexBuffer_controlPointIndexBufferOffset_instanceCount_baseInstance_tessellationFactorBuffer_tessellationFactorBufferOffset_tessellationFactorBufferInstanceStride
++ _DYTraceDecode_MTLIndirectRenderCommand_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferOffset_instanceCount_baseVertex_baseInstance
++ _DYTraceDecode_MTLIndirectRenderCommand_drawMeshThreadgroups_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTLIndirectRenderCommand_drawMeshThreads_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTLIndirectRenderCommand_drawPatches_patchStart_patchCount_patchIndexBuffer_patchIndexBufferOffset_instanceCount_baseInstance_tessellationFactorBuffer_tessellationFactorBufferOffset_tessellationFactorBufferInstanceStride
++ _DYTraceDecode_MTLIndirectRenderCommand_drawPrimitives_vertexStart_vertexCount_instanceCount_baseInstance
++ _DYTraceDecode_MTLIndirectRenderCommand_reset
++ _DYTraceDecode_MTLIndirectRenderCommand_setBlendColorRed_green_blue_alpha
++ _DYTraceDecode_MTLIndirectRenderCommand_setCullMode
++ _DYTraceDecode_MTLIndirectRenderCommand_setDepthBias_slopeScale_clamp
++ _DYTraceDecode_MTLIndirectRenderCommand_setDepthClipMode
++ _DYTraceDecode_MTLIndirectRenderCommand_setDepthStencilState
++ _DYTraceDecode_MTLIndirectRenderCommand_setDepthTestMinBound_maxBound
++ _DYTraceDecode_MTLIndirectRenderCommand_setFragmentBuffer_offset_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setFrontFacingWinding
++ _DYTraceDecode_MTLIndirectRenderCommand_setMeshBuffer_offset_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setObjectBuffer_offset_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setObjectThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setRenderPipelineState
++ _DYTraceDecode_MTLIndirectRenderCommand_setScissorRect
++ _DYTraceDecode_MTLIndirectRenderCommand_setScissorRects_count
++ _DYTraceDecode_MTLIndirectRenderCommand_setStencilFrontReferenceValue_backReferenceValue
++ _DYTraceDecode_MTLIndirectRenderCommand_setStencilReferenceValue
++ _DYTraceDecode_MTLIndirectRenderCommand_setTriangleFillMode
++ _DYTraceDecode_MTLIndirectRenderCommand_setVertexBuffer_offset_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setVertexBuffer_offset_attributeStride_atIndex
++ _DYTraceDecode_MTLIndirectRenderCommand_setViewport
++ _DYTraceDecode_MTLIndirectRenderCommand_setViewports_count
++ _DYTraceDecode_MTLIntersectionFunctionTable_allocatedSize
++ _DYTraceDecode_MTLIntersectionFunctionTable_allocationID
++ _DYTraceDecode_MTLIntersectionFunctionTable_dealloc
++ _DYTraceDecode_MTLIntersectionFunctionTable_gpuResourceID
++ _DYTraceDecode_MTLIntersectionFunctionTable_makeAliasable
++ _DYTraceDecode_MTLIntersectionFunctionTable_setBuffer_offset_atIndex
++ _DYTraceDecode_MTLIntersectionFunctionTable_setBuffers
++ _DYTraceDecode_MTLIntersectionFunctionTable_setBuffers_offsets_withRange
++ _DYTraceDecode_MTLIntersectionFunctionTable_setFunction_atIndex
++ _DYTraceDecode_MTLIntersectionFunctionTable_setFunctions_withRange
++ _DYTraceDecode_MTLIntersectionFunctionTable_setLabel
++ _DYTraceDecode_MTLIntersectionFunctionTable_setOpaqueCurveIntersectionFunctionWithSignature_atIndex
++ _DYTraceDecode_MTLIntersectionFunctionTable_setOpaqueCurveIntersectionFunctionWithSignature_withRange
++ _DYTraceDecode_MTLIntersectionFunctionTable_setOpaqueTriangleIntersectionFunctionWithSignature_atIndex
++ _DYTraceDecode_MTLIntersectionFunctionTable_setOpaqueTriangleIntersectionFunctionWithSignature_withRange
++ _DYTraceDecode_MTLIntersectionFunctionTable_setPurgeableState
++ _DYTraceDecode_MTLIntersectionFunctionTable_setResponsibleProcess
++ _DYTraceDecode_MTLIntersectionFunctionTable_setVisibleFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLIntersectionFunctionTable_setVisibleFunctionTables_withBufferRange
++ _DYTraceDecode_MTLIntersectionFunctionTable_timeSinceTouched
++ _DYTraceDecode_MTLIntersectionFunctionTable_uniqueIdentifier
++ _DYTraceDecode_MTLLateEvalEvent_dealloc
++ _DYTraceDecode_MTLLateEvalEvent_newSharedEventHandle
++ _DYTraceDecode_MTLLateEvalEvent_setEnableBarrier
++ _DYTraceDecode_MTLLateEvalEvent_setLabel
++ _DYTraceDecode_MTLLateEvalEvent_setSignaledValue
++ _DYTraceDecode_MTLLateEvalEvent_waitUntilSignaledValue_timeoutMS
++ _DYTraceDecode_MTLLibrary_dealloc
++ _DYTraceDecode_MTLLibrary_libraryIdentifier
++ _DYTraceDecode_MTLLibrary_newExternFunctionWithName
++ _DYTraceDecode_MTLLibrary_newFunctionWithDescriptor_completionHandler
++ _DYTraceDecode_MTLLibrary_newFunctionWithDescriptor_error
++ _DYTraceDecode_MTLLibrary_newFunctionWithName
++ _DYTraceDecode_MTLLibrary_newFunctionWithName_constantValues_completionHandler
++ _DYTraceDecode_MTLLibrary_newFunctionWithName_constantValues_error
++ _DYTraceDecode_MTLLibrary_newFunctionWithName_constantValues_pipelineLibrary_completionHandler
++ _DYTraceDecode_MTLLibrary_newFunctionWithName_constantValues_pipelineLibrary_error
++ _DYTraceDecode_MTLLibrary_newIntersectionFunctionWithDescriptor_completionHandler
++ _DYTraceDecode_MTLLibrary_newIntersectionFunctionWithDescriptor_error
++ _DYTraceDecode_MTLLibrary_setLabel
++ _DYTraceDecode_MTLLibrary_setOverrideTriple
++ _DYTraceDecode_MTLLibrary_type
++ _DYTraceDecode_MTLMotionEstimationPipeline_dealloc
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_dealloc
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_endEncoding
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_renderCommandEncoder
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setColorStoreActionOptions_atIndex
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setColorStoreAction_atIndex
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setDepthStoreAction
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setDepthStoreActionOptions
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setLabel
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setStencilStoreAction
++ _DYTraceDecode_MTLParallelRenderCommandEncoder_setStencilStoreActionOptions
++ _DYTraceDecode_MTLPipelineLibrary_dealloc
++ _DYTraceDecode_MTLPipelineLibrary_newComputePipelineDescriptorWithName_error
++ _DYTraceDecode_MTLPipelineLibrary_newComputePipelineStateWithName_options_reflection_error
++ _DYTraceDecode_MTLPipelineLibrary_newRenderPipelineDescriptorWithName_error
++ _DYTraceDecode_MTLPipelineLibrary_newRenderPipelineStateWithName_options_reflection_error
++ _DYTraceDecode_MTLPipelineLibrary_setDisableRunTimeCompilation
++ _DYTraceDecode_MTLPipelineLibrary_setLabel
++ _DYTraceDecode_MTLRasterizationRateMap_copyParameterDataToBuffer_offset
++ _DYTraceDecode_MTLRasterizationRateMap_dealloc
++ _DYTraceDecode_MTLRasterizationRateMap_mapScreenToPhysicalCoordinates_forLayer
++ _DYTraceDecode_MTLRasterizationRateMap_physicalSizeForLayer
++ _DYTraceDecode_MTLRasterizationRateMap_resetUsingDescriptor
++ _DYTraceDecode_MTLRenderCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLRenderCommandEncoder_dealloc
++ _DYTraceDecode_MTLRenderCommandEncoder_dispatchThreadsPerTile
++ _DYTraceDecode_MTLRenderCommandEncoder_dispatchThreadsPerTile_inRegion
++ _DYTraceDecode_MTLRenderCommandEncoder_dispatchThreadsPerTile_inRegion_withRenderTargetArrayIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPatches_patchIndexBuffer_patchIndexBufferOffset_controlPointIndexBuffer_controlPointIndexBufferOffset_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPatches_patchStart_patchCount_patchIndexBuffer_patchIndexBufferOffset_controlPointIndexBuffer_controlPointIndexBufferOffset_instanceCount_baseInstance
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferOffset_instanceCount
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPrimitives_indexCount_indexType_indexBuffer_indexBufferOffset_instanceCount_baseVertex_baseInstance
++ _DYTraceDecode_MTLRenderCommandEncoder_drawIndexedPrimitives_indexType_indexBuffer_indexBufferOffset_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_drawMeshThreadgroupsWithIndirectBuffer_indirectBufferOffset_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTLRenderCommandEncoder_drawMeshThreadgroups_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTLRenderCommandEncoder_drawMeshThreads_threadsPerObjectThreadgroup_threadsPerMeshThreadgroup
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPatches_patchIndexBuffer_patchIndexBufferOffset_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPatches_patchStart_patchCount_patchIndexBuffer_patchIndexBufferOffset_instanceCount_baseInstance
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPrimitives_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPrimitives_vertexStart_vertexCount
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPrimitives_vertexStart_vertexCount_instanceCount
++ _DYTraceDecode_MTLRenderCommandEncoder_drawPrimitives_vertexStart_vertexCount_instanceCount_baseInstance
++ _DYTraceDecode_MTLRenderCommandEncoder_endEncoding
++ _DYTraceDecode_MTLRenderCommandEncoder_executeCommandsInBuffer_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLRenderCommandEncoder_executeCommandsInBuffer_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLRenderCommandEncoder_memoryBarrierWithResources_count_afterStages_beforeStages
++ _DYTraceDecode_MTLRenderCommandEncoder_memoryBarrierWithScope_afterStages_beforeStages
++ _DYTraceDecode_MTLRenderCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLRenderCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLRenderCommandEncoder_sampleCountersInBuffer_atSampleIndex_withBarrier
++ _DYTraceDecode_MTLRenderCommandEncoder_setAlphaTestReferenceValue
++ _DYTraceDecode_MTLRenderCommandEncoder_setBlendColorRed_green_blue_alpha
++ _DYTraceDecode_MTLRenderCommandEncoder_setColorAttachmentMap
++ _DYTraceDecode_MTLRenderCommandEncoder_setColorResolveTexture_slice_depthPlane_level_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setColorResolveTexture_slice_depthPlane_level_yInvert_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setColorStoreActionOptions_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setColorStoreAction_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setCullMode
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthBias_slopeScale_clamp
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthCleared
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthClipMode
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthResolveTexture_slice_depthPlane_level
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthResolveTexture_slice_depthPlane_level_yInvert
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthStencilState
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthStoreAction
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthStoreActionOptions
++ _DYTraceDecode_MTLRenderCommandEncoder_setDepthTestMinBound_maxBound
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentAccelerationStructure_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentBufferOffset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentBuffer_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentBuffers_offsets_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentBytes_length_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentIntersectionFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentIntersectionFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentSamplerState_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentSamplerStates_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentTexture_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentTexture_atTextureIndex_samplerState_atSamplerIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentTextures_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentVisibleFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setFragmentVisibleFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setFrontFacingWinding
++ _DYTraceDecode_MTLRenderCommandEncoder_setLabel
++ _DYTraceDecode_MTLRenderCommandEncoder_setLineWidth
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshBufferOffset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshBuffer_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshBuffers_offsets_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshBytes_length_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshSamplerState_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshSamplerStates_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshTexture_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setMeshTextures_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectBufferOffset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectBuffer_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectBuffers_offsets_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectBytes_length_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectSamplerState_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectSamplerStates_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectTexture_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectTextures_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setObjectThreadgroupMemoryLength_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setPointSize
++ _DYTraceDecode_MTLRenderCommandEncoder_setPrimitiveRestartEnabled
++ _DYTraceDecode_MTLRenderCommandEncoder_setPrimitiveRestartEnabled_index
++ _DYTraceDecode_MTLRenderCommandEncoder_setProvokingVertexMode
++ _DYTraceDecode_MTLRenderCommandEncoder_setRenderPipelineState
++ _DYTraceDecode_MTLRenderCommandEncoder_setScissorRect
++ _DYTraceDecode_MTLRenderCommandEncoder_setScissorRects_count
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilCleared
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilFrontReferenceValue_backReferenceValue
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilReferenceValue
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilResolveTexture_slice_depthPlane_level
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilResolveTexture_slice_depthPlane_level_yInvert
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilStoreAction
++ _DYTraceDecode_MTLRenderCommandEncoder_setStencilStoreActionOptions
++ _DYTraceDecode_MTLRenderCommandEncoder_setTessellationFactorBuffer_offset_instanceStride
++ _DYTraceDecode_MTLRenderCommandEncoder_setTessellationFactorScale
++ _DYTraceDecode_MTLRenderCommandEncoder_setThreadgroupMemoryLength_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileAccelerationStructure_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileBufferOffset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileBuffer_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileBuffers_offsets_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileBytes_length_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileIntersectionFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileIntersectionFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileSamplerState_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileSamplerStates_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileTexture_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileTextures_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileVisibleFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setTileVisibleFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setTriangleFillMode
++ _DYTraceDecode_MTLRenderCommandEncoder_setTriangleFrontFillMode_backFillMode
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexAccelerationStructure_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexAmplificationCount_viewMappings
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexAmplificationMode_value
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBufferOffset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBufferOffset_attributeStride_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBuffer_offset_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBuffer_offset_attributeStride_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBuffers_offsets_attributeStrides_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBuffers_offsets_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBytes_length_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexBytes_length_attributeStride_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexIntersectionFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexIntersectionFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexSamplerState_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexSamplerState_lodMinClamp_lodMaxClamp_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexSamplerStates_lodMinClamps_lodMaxClamps_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexSamplerStates_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexTexture_atIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexTextures_withRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexVisibleFunctionTable_atBufferIndex
++ _DYTraceDecode_MTLRenderCommandEncoder_setVertexVisibleFunctionTables_withBufferRange
++ _DYTraceDecode_MTLRenderCommandEncoder_setViewport
++ _DYTraceDecode_MTLRenderCommandEncoder_setViewportTransformEnabled
++ _DYTraceDecode_MTLRenderCommandEncoder_setViewports_count
++ _DYTraceDecode_MTLRenderCommandEncoder_setVisibilityResultMode_offset
++ _DYTraceDecode_MTLRenderCommandEncoder_textureBarrier
++ _DYTraceDecode_MTLRenderCommandEncoder_updateFence_afterStages
++ _DYTraceDecode_MTLRenderCommandEncoder_useHeap
++ _DYTraceDecode_MTLRenderCommandEncoder_useHeap_stages
++ _DYTraceDecode_MTLRenderCommandEncoder_useHeaps_count
++ _DYTraceDecode_MTLRenderCommandEncoder_useHeaps_count_stages
++ _DYTraceDecode_MTLRenderCommandEncoder_useResource_usage
++ _DYTraceDecode_MTLRenderCommandEncoder_useResource_usage_stages
++ _DYTraceDecode_MTLRenderCommandEncoder_useResources_count_usage
++ _DYTraceDecode_MTLRenderCommandEncoder_useResources_count_usage_stages
++ _DYTraceDecode_MTLRenderCommandEncoder_waitForFence_beforeStages
++ _DYTraceDecode_MTLRenderPipelineState_allocatedSize
++ _DYTraceDecode_MTLRenderPipelineState_dealloc
++ _DYTraceDecode_MTLRenderPipelineState_fragmentFunctionHandleWithFunction
++ _DYTraceDecode_MTLRenderPipelineState_functionHandleWithFunction_stage
++ _DYTraceDecode_MTLRenderPipelineState_functionHandleWithName_stage
++ _DYTraceDecode_MTLRenderPipelineState_gpuResourceID
++ _DYTraceDecode_MTLRenderPipelineState_imageblockSampleLength
++ _DYTraceDecode_MTLRenderPipelineState_newFragmentIntersectionFunctionTableWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newIntersectionFunctionTableWithDescriptor_stage
++ _DYTraceDecode_MTLRenderPipelineState_newRenderPipelineStateWithAdditionalBinaryFunctions_error
++ _DYTraceDecode_MTLRenderPipelineState_newTileIntersectionFunctionTableWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newVertexIntersectionFunctionTableWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newVisibleFunctionTableFromFragmentStageWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newVisibleFunctionTableFromTileStageWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newVisibleFunctionTableFromVertexStageWithDescriptor
++ _DYTraceDecode_MTLRenderPipelineState_newVisibleFunctionTableWithDescriptor_stage
++ _DYTraceDecode_MTLRenderPipelineState_setEmulationPayloadMemoryLength
++ _DYTraceDecode_MTLRenderPipelineState_setEmulationPrimitiveTopology
++ _DYTraceDecode_MTLRenderPipelineState_tileFunctionHandleWithFunction
++ _DYTraceDecode_MTLRenderPipelineState_timeSinceTouched
++ _DYTraceDecode_MTLRenderPipelineState_uniqueIdentifier
++ _DYTraceDecode_MTLRenderPipelineState_vertexFunctionHandleWithFunction
++ _DYTraceDecode_MTLResidencySet_addAllocation
++ _DYTraceDecode_MTLResidencySet_addAllocations_count
++ _DYTraceDecode_MTLResidencySet_commit
++ _DYTraceDecode_MTLResidencySet_dealloc
++ _DYTraceDecode_MTLResidencySet_endResidency
++ _DYTraceDecode_MTLResidencySet_removeAllAllocations
++ _DYTraceDecode_MTLResidencySet_removeAllocation
++ _DYTraceDecode_MTLResidencySet_removeAllocations_count
++ _DYTraceDecode_MTLResidencySet_requestResidency
++ _DYTraceDecode_MTLResourceGroup_dealloc
++ _DYTraceDecode_MTLResourceStateCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLResourceStateCommandEncoder_copyMappingStateFromTexture_mipLevel_slice_toBuffer_offset_numTiles
++ _DYTraceDecode_MTLResourceStateCommandEncoder_dealloc
++ _DYTraceDecode_MTLResourceStateCommandEncoder_endEncoding
++ _DYTraceDecode_MTLResourceStateCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLResourceStateCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLResourceStateCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLResourceStateCommandEncoder_setLabel
++ _DYTraceDecode_MTLResourceStateCommandEncoder_updateFence
++ _DYTraceDecode_MTLResourceStateCommandEncoder_updateTextureMapping_mode_indirectBuffer_indirectBufferOffset
++ _DYTraceDecode_MTLResourceStateCommandEncoder_updateTextureMapping_mode_region_mipLevel_slice
++ _DYTraceDecode_MTLResourceStateCommandEncoder_updateTextureMappings_mode_regions_mipLevels_slices_numRegions
++ _DYTraceDecode_MTLResourceStateCommandEncoder_waitForFence
++ _DYTraceDecode_MTLSamplerState_dealloc
++ _DYTraceDecode_MTLSamplerState_gpuResourceID
++ _DYTraceDecode_MTLSamplerState_uniqueIdentifier
++ _DYTraceDecode_MTLSharedEvent_dealloc
++ _DYTraceDecode_MTLSharedEvent_newSharedEventHandle
++ _DYTraceDecode_MTLSharedEvent_setEnableBarrier
++ _DYTraceDecode_MTLSharedEvent_setLabel
++ _DYTraceDecode_MTLSharedEvent_setSignaledValue
++ _DYTraceDecode_MTLSharedEvent_waitUntilSignaledValue_timeoutMS
++ _DYTraceDecode_MTLTensor_allocatedSize
++ _DYTraceDecode_MTLTensor_allocationID
++ _DYTraceDecode_MTLTensor_dealloc
++ _DYTraceDecode_MTLTensor_gpuResourceID
++ _DYTraceDecode_MTLTensor_makeAliasable
++ _DYTraceDecode_MTLTensor_replaceSliceOrigin_sliceDimensions_withBytes_strides
++ _DYTraceDecode_MTLTensor_resourceIndex
++ _DYTraceDecode_MTLTensor_setLabel
++ _DYTraceDecode_MTLTensor_setPurgeableState
++ _DYTraceDecode_MTLTensor_setResponsibleProcess
++ _DYTraceDecode_MTLTensor_timeSinceTouched
++ _DYTraceDecode_MTLTensor_uniqueIdentifier
++ _DYTraceDecode_MTLTextureLayout_dealloc
++ _DYTraceDecode_MTLTextureViewPool_copyResourceViewsFromPool_sourceRange_destinationIndex
++ _DYTraceDecode_MTLTextureViewPool_dealloc
++ _DYTraceDecode_MTLTextureViewPool_setTextureViewFromBuffer_descriptor_offset_bytesPerRow_atIndex
++ _DYTraceDecode_MTLTextureViewPool_setTextureView_atIndex
++ _DYTraceDecode_MTLTextureViewPool_setTextureView_descriptor_atIndex
++ _DYTraceDecode_MTLTexture_allocatedSize
++ _DYTraceDecode_MTLTexture_allocationID
++ _DYTraceDecode_MTLTexture_compressionFeedback
++ _DYTraceDecode_MTLTexture_dealloc
++ _DYTraceDecode_MTLTexture_didModifyData
++ _DYTraceDecode_MTLTexture_getBytes_bytesPerRow_bytesPerImage_fromRegion_mipmapLevel_slice
++ _DYTraceDecode_MTLTexture_getBytes_bytesPerRow_fromRegion_mipmapLevel
++ _DYTraceDecode_MTLTexture_gpuResourceID
++ _DYTraceDecode_MTLTexture_heapOffset
++ _DYTraceDecode_MTLTexture_isAliasable
++ _DYTraceDecode_MTLTexture_isPurgeable
++ _DYTraceDecode_MTLTexture_makeAliasable
++ _DYTraceDecode_MTLTexture_mipmapInfo
++ _DYTraceDecode_MTLTexture_newRemoteTextureViewForDevice
++ _DYTraceDecode_MTLTexture_newSharedTextureHandle
++ _DYTraceDecode_MTLTexture_newTextureViewWithDescriptor
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat_resourceIndex
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat_textureType_levels_slices
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat_textureType_levels_slices_resourceIndex
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat_textureType_levels_slices_swizzle
++ _DYTraceDecode_MTLTexture_newTextureViewWithPixelFormat_textureType_levels_slices_swizzle_resourceIndex
++ _DYTraceDecode_MTLTexture_replaceRegion_mipmapLevel_slice_withBytes_bytesPerRow_bytesPerImage
++ _DYTraceDecode_MTLTexture_replaceRegion_mipmapLevel_withBytes_bytesPerRow
++ _DYTraceDecode_MTLTexture_resourceIndex
++ _DYTraceDecode_MTLTexture_resourceUsage
++ _DYTraceDecode_MTLTexture_restoreIOSurfaceData_length_forPlane
++ _DYTraceDecode_MTLTexture_saveSlice_level_zPlane_normalize_blitOption_toPath
++ _DYTraceDecode_MTLTexture_setLabel
++ _DYTraceDecode_MTLTexture_setPurgeableState
++ _DYTraceDecode_MTLTexture_setResponsibleProcess
++ _DYTraceDecode_MTLTexture_timeSinceTouched
++ _DYTraceDecode_MTLTexture_uniqueIdentifier
++ _DYTraceDecode_MTLVideoCommandEncoder_barrierAfterQueueStages_beforeStages
++ _DYTraceDecode_MTLVideoCommandEncoder_dealloc
++ _DYTraceDecode_MTLVideoCommandEncoder_endEncoding
++ _DYTraceDecode_MTLVideoCommandEncoder_generateMotionVectorsForTexture_previousTexture_resultBuffer_bufferOffset
++ _DYTraceDecode_MTLVideoCommandEncoder_insertDebugSignpost
++ _DYTraceDecode_MTLVideoCommandEncoder_popDebugGroup
++ _DYTraceDecode_MTLVideoCommandEncoder_pushDebugGroup
++ _DYTraceDecode_MTLVideoCommandEncoder_setLabel
++ _DYTraceDecode_MTLVideoCommandEncoder_setMotionEstimationPipeline
++ _DYTraceDecode_MTLVideoCommandEncoder_updateFence
++ _DYTraceDecode_MTLVideoCommandEncoder_waitForFence
++ _DYTraceDecode_MTLVisibleFunctionTable_allocatedSize
++ _DYTraceDecode_MTLVisibleFunctionTable_allocationID
++ _DYTraceDecode_MTLVisibleFunctionTable_dealloc
++ _DYTraceDecode_MTLVisibleFunctionTable_gpuAddress
++ _DYTraceDecode_MTLVisibleFunctionTable_gpuResourceID
++ _DYTraceDecode_MTLVisibleFunctionTable_setFunction_atIndex
++ _DYTraceDecode_MTLVisibleFunctionTable_setFunctions_withRange
++ _DYTraceDecode_MTLVisibleFunctionTable_setLabel
++ _DYTraceDecode_MTLVisibleFunctionTable_setResponsibleProcess
++ _DYTraceDecode_MTLVisibleFunctionTable_timeSinceTouched
++ _DYTraceDecode_MTLVisibleFunctionTable_uniqueIdentifier
++ _DYTraceDecode_NSHMDMetalSession_initWithMetalDevice_deviceReference_hmdName
++ _DYTraceDecode_NSHMDMetalSession_nextDrawable
++ _DYTraceDecode_NSHMDMetalSession_setDrawablePixelFormat
++ _DYTraceDecode_NSHMDMetalSession_setDrawableSize
++ _DYTraceDecode_UIScreen_setInterfaceOrientation
++ _DYTraceEncode_MTL4CommandQueue_addInternalResidencySet
++ _DYTraceEncode_MTL4CommandQueue_addInternalResidencySets_count
++ _DYTraceEncode_MTL4CommandQueue_removeInternalResidencySet
++ _DYTraceEncode_MTL4CommandQueue_removeInternalResidencySets_count
++ _DYTraceEncode_MTL4CommandQueue_setBackgroundGPUPriority
++ _DYTraceEncode_MTL4CommandQueue_setGPUPriority
++ _DYTraceEncode_MTL4CommandQueue_waitForEvent_value_timeout
++ _DYTraceEncode_MTL4FXFrameInterpolator_setContentHeight
++ _DYTraceEncode_MTL4FXFrameInterpolator_setContentWidth
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDepthContentOffsetX
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDepthContentOffsetY
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDistortionHeight
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDistortionOffsetX
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDistortionOffsetY
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDistortionTexture
++ _DYTraceEncode_MTL4FXFrameInterpolator_setDistortionWidth
++ _DYTraceEncode_MTL4FXFrameInterpolator_setMotionContentOffsetX
++ _DYTraceEncode_MTL4FXFrameInterpolator_setMotionContentOffsetY
++ _DYTraceEncode_MTL4FXFrameInterpolator_setOutputOffsetX
++ _DYTraceEncode_MTL4FXFrameInterpolator_setOutputOffsetY
++ _DYTraceEncode_MTL4FXTemporalScaler_setColorContentOffsetX
++ _DYTraceEncode_MTL4FXTemporalScaler_setColorContentOffsetY
++ _DYTraceEncode_MTL4FXTemporalScaler_setDepthContentOffsetX
++ _DYTraceEncode_MTL4FXTemporalScaler_setDepthContentOffsetY
++ _DYTraceEncode_MTL4FXTemporalScaler_setMotionContentOffsetX
++ _DYTraceEncode_MTL4FXTemporalScaler_setMotionContentOffsetY
++ _DYTraceEncode_MTL4FXTemporalScaler_setOutputOffsetX
++ _DYTraceEncode_MTL4FXTemporalScaler_setOutputOffsetY
++ _DYTraceEncode_MTL4FXTemporalScaler_setReactiveMaskContentOffsetX
++ _DYTraceEncode_MTL4FXTemporalScaler_setReactiveMaskContentOffsetY
++ _DYTraceEncode_MTLAccelerationStructure_indexInfo
++ _DYTraceEncode_MTLAccelerationStructure_rebuildMTLAccelerationStructure
++ _DYTraceEncode_MTLAccelerationStructure_usage
++ _DYTraceEncode_MTLFXFrameInterpolator_setContentHeight
++ _DYTraceEncode_MTLFXFrameInterpolator_setContentWidth
++ _DYTraceEncode_MTLFXFrameInterpolator_setDepthContentOffsetX
++ _DYTraceEncode_MTLFXFrameInterpolator_setDepthContentOffsetY
++ _DYTraceEncode_MTLFXFrameInterpolator_setDistortionHeight
++ _DYTraceEncode_MTLFXFrameInterpolator_setDistortionOffsetX
++ _DYTraceEncode_MTLFXFrameInterpolator_setDistortionOffsetY
++ _DYTraceEncode_MTLFXFrameInterpolator_setDistortionTexture
++ _DYTraceEncode_MTLFXFrameInterpolator_setDistortionWidth
++ _DYTraceEncode_MTLFXFrameInterpolator_setMotionContentOffsetX
++ _DYTraceEncode_MTLFXFrameInterpolator_setMotionContentOffsetY
++ _DYTraceEncode_MTLFXFrameInterpolator_setOutputOffsetX
++ _DYTraceEncode_MTLFXFrameInterpolator_setOutputOffsetY
++ _DYTraceEncode_MTLFXTemporalScaler_setColorContentOffsetX
++ _DYTraceEncode_MTLFXTemporalScaler_setColorContentOffsetY
++ _DYTraceEncode_MTLFXTemporalScaler_setDepthContentOffsetX
++ _DYTraceEncode_MTLFXTemporalScaler_setDepthContentOffsetY
++ _DYTraceEncode_MTLFXTemporalScaler_setMotionContentOffsetX
++ _DYTraceEncode_MTLFXTemporalScaler_setMotionContentOffsetY
++ _DYTraceEncode_MTLFXTemporalScaler_setOutputOffsetX
++ _DYTraceEncode_MTLFXTemporalScaler_setOutputOffsetY
++ _DYTraceEncode_MTLFXTemporalScaler_setReactiveMaskContentOffsetX
++ _DYTraceEncode_MTLFXTemporalScaler_setReactiveMaskContentOffsetY
++ _DecodeDYMTL4MachineLearningPipelineReflection
++ _DecodeDYMTLArrayType
++ _DecodeDYMTLBinding
++ _DecodeDYMTLComputePipelineReflection
++ _DecodeDYMTLDynamicLibraryInfo
++ _DecodeDYMTLFunctionInfo
++ _DecodeDYMTLLibraryInfo
++ _DecodeDYMTLPipelineLibraryInfo
++ _DecodeDYMTLPointerType
++ _DecodeDYMTLRenderPipelineReflection
++ _DecodeDYMTLStructType
++ _DownloadBufferDirectly
++ _DownloadBufferWithMemWatch
++ _DrainInflightSyscalls
++ _EncodeBacktrace
++ _EncodeIncludedSources
++ _EscapePathSeparators
++ _EvaluateConditionGroup
++ _ExtractAndResolveIncludes
++ _ExtractIncludePathsFromSource
++ _FillPrimitiveAccelerationStructureHeader
++ _FinalizeThreadState
++ _FindConditionInGroup
++ _FindConditionWithTriggerTypeInGroup
++ _FindIncludes
++ _ForEachConditionInGroup
++ _ForwardExceptionToOldHandler
++ _GTAccelerationStructureDescriptorDownloader_MTL4_processBuild
++ _GTAccelerationStructureDescriptorDownloader_MTL4_processCopy
++ _GTAccelerationStructureDescriptorDownloader_MTL4_processEndEncoding
++ _GTAccelerationStructureDescriptorDownloader_MTL4_processRefit
++ _GTAccelerationStructureDescriptorDownloader_MTL4_suballocate
++ _GTAccelerationStructureDescriptorDownloader_buildPipelines
++ _GTAccelerationStructureDescriptorDownloader_suballocate_common
++ _GTBitSet_clearRange
++ _GTBitSet_getNextInterval
++ _GTBitSet_iterateRuns
++ _GTBitSet_mask
++ _GTBitSet_popcount
++ _GTBitSet_setBit
++ _GTBitSet_setRange
++ _GTBitSet_setRangeWithMask
++ _GTBitSet_testBit
++ _GTCaptureBoundaryTracker_currentPhase
++ _GTCaptureBoundaryTracker_currentPhaseID
++ _GTCaptureBoundaryTracker_isCaptureMetalFXHistory
++ _GTCaptureBoundaryTracker_isInitialized
++ _GTCapturePhase_copyConditionsWithTriggerType
++ _GTCapturePhase_countConditionsWithHitCount
++ _GTCapturePhase_createGroup
++ _GTCapturePhase_forEachCondition
++ _GTCapturePhase_getRootGroup
++ _GTCapturePhase_setRootGroup
++ _GTCapturePhase_setRootGroupLogicalOperator
++ _GTChunkTable_clearDirtyRange
++ _GTChunkTable_clearWatchedRange
++ _GTChunkTable_init
++ _GTChunkTable_isDirty
++ _GTChunkTable_isWatched
++ _GTChunkTable_iterateSnapshot
++ _GTChunkTable_logStats
++ _GTChunkTable_registerRange
++ _GTChunkTable_reset
++ _GTChunkTable_setDirty
++ _GTChunkTable_setDirtyRange
++ _GTChunkTable_setWatchedRange
++ _GTChunkTable_snapshotAndClear
++ _GTChunkTable_stats
++ _GTConditionGroup_addCondition
++ _GTConditionGroup_addSubgroup
++ _GTConditionGroup_print
++ _GTConditionLogicOperatorAsString
++ _GTEventTracker_signalEventValue
++ _GTEventTracker_unblock
++ _GTFenum_createsNewLibraryWithSource
++ _GTFenum_isBufferWithBytesNoCopy
++ _GTFenum_isInsertDebugSignpost
++ _GTFenum_isMIOLoad
++ _GTFenum_isRenderCommandEncoder
++ _GTFenum_isSetResourceInArgumentTable
++ _GTFileSystem_workingDirectory
++ _GTFormatDuration
++ _GTMTLArrayType_isArgumentBuffer
++ _GTMTLBinding_isArgumentBuffer
++ _GTMTLCaptureSparsePageTables_dumpBufferMappings
++ _GTMTLCaptureSparsePageTables_enumeratePlacementSparseHeaps
++ _GTMTLCaptureState_appendDownloadRequest
++ _GTMTLCaptureState_isMemWatchActive
++ _GTMTLCapture_isPlacementSparseBuffer
++ _GTMTLCapture_isPlacementSparseTexture
++ _GTMTLCapture_streamNSArrayScratch
++ _GTMTLCoreSync_waitForMTL3CPU
++ _GTMTLCoreSync_waitForMTL4CPU
++ _GTMTLResourceOptions_getCPUCacheMode
++ _GTMTLResourceOptions_getHazardTrackingMode
++ _GTMTLResourceOptions_getStorageMode
++ _GTMTLResourceOptions_setHazardTrackingMode
++ _GTMTLResourceViewPoolResource_fillHashMapByKey_apr_array
++ _GTMemWatchBufferMap_insert
++ _GTMemWatchBufferMap_iterate
++ _GTMemWatchBufferMap_lookupAddr
++ _GTMemWatchBufferMap_remove
++ _GTMemWatchLock_activateLockingMode
++ _GTMemWatchLock_drainAndLock
++ _GTMemWatchLock_finishSyscall
++ _GTMemWatchLock_lock
++ _GTMemWatchLock_lockForSyscall
++ _GTMemWatchLock_unlock
++ _GTMemWatchLock_unlockForSyscall
++ _GTMemWatchSyscallInterposer_isActive
++ _GTMemWatch_cleanup
++ _GTMemWatch_hasCPUAddress
++ _GTMemWatch_installExceptionHandler
++ _GTMemWatch_isEligibleForProtection
++ _GTMemWatch_isEnabled
++ _GTMemWatch_protectRange
++ _GTMemWatch_registerBuffer
++ _GTMemWatch_shouldBeEnabled
++ _GTMemWatch_unprotectAndMarkDirty
++ _GTMemWatch_unwatchBuffer
++ _GTSMMTL4ArgumentTable_bufferBindingHasAttributeStride
++ _GTSMMTL4ArgumentTable_clearBufferBindingHasAttributeStride
++ _GTSMMTL4ArgumentTable_init
++ _GTSMMTL4ArgumentTable_initializeBindings
++ _GTSMMTL4ArgumentTable_isBufferBindingGPUAddress
++ _GTSMMTL4ArgumentTable_isBufferBindingInitialized
++ _GTSMMTL4ArgumentTable_isSamplerStateBindingInitialized
++ _GTSMMTL4ArgumentTable_isTextureBindingInitialized
++ _GTSMMTL4ArgumentTable_processTraceFuncWithMap
++ _GTSMMTL4ArgumentTable_processTraceFuncWithPool
++ _GTSMMTL4ArgumentTable_setBufferBindingAsGPUAddress
++ _GTSMMTL4ArgumentTable_setBufferBindingAsInitialized
++ _GTSMMTL4ArgumentTable_setBufferBindingAsResourceID
++ _GTSMMTL4ArgumentTable_setBufferBindingHasAttributeStride
++ _GTSMMTL4ArgumentTable_setSamplerStateBindingAsInitialized
++ _GTSMMTL4ArgumentTable_setTextureBindingAsInitialized
++ _GTSMMTL4Builder_argumentTable
++ _GTSMMTL4Builder_commandAllocator
++ _GTSMMTL4Builder_commandBuffer
++ _GTSMMTL4Builder_commandQueue
++ _GTSMMTL4Builder_compiler
++ _GTSMMTL4Builder_machineLearningPipelineState
++ _GTSMMTL4CommandAllocator_init
++ _GTSMMTL4CommandAllocator_processTraceFuncWithMap
++ _GTSMMTL4CommandAllocator_processTraceFuncWithPool
++ _GTSMMTL4CommandBuffer_init
++ _GTSMMTL4CommandBuffer_processTraceFunc
++ _GTSMMTL4CommandEncoder_renderCommandEncoder
++ _GTSMMTL4CommandEncoder_renderPassDescriptor
++ _GTSMMTL4CommandQueue_init
++ _GTSMMTL4CommandQueue_processTraceFuncWithMap
++ _GTSMMTL4CommandQueue_processTraceFuncWithPool
++ _GTSMMTL4Compiler_init
++ _GTSMMTL4Compiler_processTraceFuncWithMap
++ _GTSMMTL4Compiler_processTraceFuncWithPool
++ _GTSMMTL4ComputeCommandEncoder_init
++ _GTSMMTL4ComputeCommandEncoder_loadIndirectCommand
++ _GTSMMTL4Context_getArgumentTable
++ _GTSMMTL4Context_getArgumentTables
++ _GTSMMTL4Context_getCommandAllocators
++ _GTSMMTL4Context_getCommandBuffers
++ _GTSMMTL4Context_getCommandQueues
++ _GTSMMTL4Context_getFrameInterpolator
++ _GTSMMTL4Context_getFrameInterpolators
++ _GTSMMTL4Context_getMachineLearningPipelineState
++ _GTSMMTL4Context_getMachineLearningPipelineStates
++ _GTSMMTL4Context_getSpatialScaler
++ _GTSMMTL4Context_getSpatialScalers
++ _GTSMMTL4Context_getTemporalDenoisedScaler
++ _GTSMMTL4Context_getTemporalDenoisedScalers
++ _GTSMMTL4Context_getTemporalScaler
++ _GTSMMTL4Context_getTemporalScalers
++ _GTSMMTL4FXFrameInterpolator_init
++ _GTSMMTL4FXFrameInterpolator_processTraceFuncWithMap
++ _GTSMMTL4FXFrameInterpolator_processTraceFuncWithPool
++ _GTSMMTL4FXSpatialScaler_init
++ _GTSMMTL4FXSpatialScaler_processTraceFuncWithMap
++ _GTSMMTL4FXSpatialScaler_processTraceFuncWithPool
++ _GTSMMTL4FXTemporalDenoisedScaler_init
++ _GTSMMTL4FXTemporalDenoisedScaler_processTraceFuncWithMap
++ _GTSMMTL4FXTemporalDenoisedScaler_processTraceFuncWithPool
++ _GTSMMTL4FXTemporalScaler_init
++ _GTSMMTL4FXTemporalScaler_processTraceFuncWithMap
++ _GTSMMTL4FXTemporalScaler_processTraceFuncWithPool
++ _GTSMMTL4MachineLearningCommandEncoder_init
++ _GTSMMTL4MachineLearningPipelineState_init
++ _GTSMMTL4MachineLearningPipelineState_processTraceFuncWithMap
++ _GTSMMTL4MachineLearningPipelineState_processTraceFuncWithPool
++ _GTSMMTL4RenderCommandEncoder_init
++ _GTSMMTL4RenderCommandEncoder_loadIndirectCommand
++ _GTSMMTLAccelerationStructure_init
++ _GTSMMTLAccelerationStructure_processTraceFuncWithMap
++ _GTSMMTLAccelerationStructure_processTraceFuncWithPool
++ _GTSMMTLBuffer_gpuAddressArray
++ _GTSMMTLBuffer_init
++ _GTSMMTLBuffer_processTraceFuncWithMap
++ _GTSMMTLBuffer_processTraceFuncWithPool
++ _GTSMMTLBuilder_accelerationStructure
++ _GTSMMTLBuilder_buffer
++ _GTSMMTLBuilder_commandQueue
++ _GTSMMTLBuilder_commitObject
++ _GTSMMTLBuilder_compareStreams
++ _GTSMMTLBuilder_computePipelineState
++ _GTSMMTLBuilder_counterSampleBuffer
++ _GTSMMTLBuilder_depthStencilState
++ _GTSMMTLBuilder_device
++ _GTSMMTLBuilder_drawable
++ _GTSMMTLBuilder_dynamicLibrary
++ _GTSMMTLBuilder_event
++ _GTSMMTLBuilder_fence
++ _GTSMMTLBuilder_filter
++ _GTSMMTLBuilder_frameInterpolator
++ _GTSMMTLBuilder_function
++ _GTSMMTLBuilder_functionHandle
++ _GTSMMTLBuilder_getStreamObjectType
++ _GTSMMTLBuilder_heap
++ _GTSMMTLBuilder_indirectCommandBuffer
++ _GTSMMTLBuilder_indirectComputeCommand
++ _GTSMMTLBuilder_indirectRenderCommand
++ _GTSMMTLBuilder_intersectionFunctionTable
++ _GTSMMTLBuilder_ioCommandQueue
++ _GTSMMTLBuilder_ioFileHandle
++ _GTSMMTLBuilder_lateEvalEvent
++ _GTSMMTLBuilder_layer
++ _GTSMMTLBuilder_library
++ _GTSMMTLBuilder_motionEstimationPipeline
++ _GTSMMTLBuilder_mtl4FrameInterpolator
++ _GTSMMTLBuilder_mtl4SpatialScaler
++ _GTSMMTLBuilder_mtl4TemporalDenoisedScaler
++ _GTSMMTLBuilder_mtl4TemporalScaler
++ _GTSMMTLBuilder_pipelineLibrary
++ _GTSMMTLBuilder_rasterizationRateMap
++ _GTSMMTLBuilder_renderPipelineState
++ _GTSMMTLBuilder_residencySet
++ _GTSMMTLBuilder_resourceGroup
++ _GTSMMTLBuilder_samplerState
++ _GTSMMTLBuilder_sharedEvent
++ _GTSMMTLBuilder_spatialScaler
++ _GTSMMTLBuilder_streamIntersectionRange
++ _GTSMMTLBuilder_temporalDenoisedScaler
++ _GTSMMTLBuilder_temporalScaler
++ _GTSMMTLBuilder_tensor
++ _GTSMMTLBuilder_texture
++ _GTSMMTLBuilder_textureViewPool
++ _GTSMMTLBuilder_visibleFunctionTable
++ _GTSMMTLCommandBuffer_init
++ _GTSMMTLCommandBuffer_processTraceFunc
++ _GTSMMTLCommandEncoder_computePipelineState
++ _GTSMMTLCommandEncoder_hasEnded
++ _GTSMMTLCommandEncoder_init
++ _GTSMMTLCommandEncoder_processTraceFunc
++ _GTSMMTLCommandEncoder_renderCommandEncoder
++ _GTSMMTLCommandEncoder_renderPassDescriptor
++ _GTSMMTLCommandEncoder_renderPipelineState
++ _GTSMMTLCommandQueue_init
++ _GTSMMTLCommandQueue_processTraceFuncWithMap
++ _GTSMMTLCommandQueue_processTraceFuncWithPool
++ _GTSMMTLComputeCommandEncoder_init
++ _GTSMMTLComputeCommandEncoder_loadIndirectCommand
++ _GTSMMTLComputePipelineState_computeFunction
++ _GTSMMTLComputePipelineState_computePipelineDescriptor
++ _GTSMMTLComputePipelineState_computePipelineDescriptor4
++ _GTSMMTLComputePipelineState_hasDescriptor4
++ _GTSMMTLComputePipelineState_init
++ _GTSMMTLComputePipelineState_processTraceFuncWithMap
++ _GTSMMTLComputePipelineState_processTraceFuncWithPool
++ _GTSMMTLComputePipelineState_resourceAccess
++ _GTSMMTLComputePipelineState_uniqueIdentifierArray
++ _GTSMMTLContext_buildDeviceMirrorWithIgnoreFlags
++ _GTSMMTLContext_buildLibraryFunctionsMap
++ _GTSMMTLContext_buildResourceChildrenMap
++ _GTSMMTLContext_buildResourceChildrenMap2
++ _GTSMMTLContext_createDescriptorFromBuffer
++ _GTSMMTLContext_firstObject
++ _GTSMMTLContext_firstTensor
++ _GTSMMTLContext_getAccelerationStructure
++ _GTSMMTLContext_getAccelerationStructures
++ _GTSMMTLContext_getBuffer
++ _GTSMMTLContext_getBufferDescriptor
++ _GTSMMTLContext_getBuffers
++ _GTSMMTLContext_getCommandQueue
++ _GTSMMTLContext_getCommandQueues
++ _GTSMMTLContext_getCompilers
++ _GTSMMTLContext_getComputePipelineState
++ _GTSMMTLContext_getComputePipelineStates
++ _GTSMMTLContext_getCounterSampleBuffer
++ _GTSMMTLContext_getCounterSampleBuffers
++ _GTSMMTLContext_getDepthStencilState
++ _GTSMMTLContext_getDepthStencilStates
++ _GTSMMTLContext_getDevice
++ _GTSMMTLContext_getDrawable
++ _GTSMMTLContext_getDrawableTexture
++ _GTSMMTLContext_getDrawables
++ _GTSMMTLContext_getDynamicLibraries
++ _GTSMMTLContext_getEvent
++ _GTSMMTLContext_getEvents
++ _GTSMMTLContext_getFence
++ _GTSMMTLContext_getFences
++ _GTSMMTLContext_getFilter
++ _GTSMMTLContext_getFilters
++ _GTSMMTLContext_getFrameInterpolator
++ _GTSMMTLContext_getFrameInterpolators
++ _GTSMMTLContext_getFunction
++ _GTSMMTLContext_getFunctionHandle
++ _GTSMMTLContext_getFunctionHandles
++ _GTSMMTLContext_getFunctions
++ _GTSMMTLContext_getHeap
++ _GTSMMTLContext_getHeapAccelerationStructures
++ _GTSMMTLContext_getHeapBuffers
++ _GTSMMTLContext_getHeapResourcesWithType
++ _GTSMMTLContext_getHeapTextures
++ _GTSMMTLContext_getHeaps
++ _GTSMMTLContext_getIOCommandQueue
++ _GTSMMTLContext_getIOCommandQueues
++ _GTSMMTLContext_getIndirectCommandBuffer
++ _GTSMMTLContext_getIndirectCommandBuffers
++ _GTSMMTLContext_getIndirectComputeCommand
++ _GTSMMTLContext_getIndirectComputeCommands
++ _GTSMMTLContext_getIndirectRenderCommand
++ _GTSMMTLContext_getIndirectRenderCommands
++ _GTSMMTLContext_getIntersectionFunctionTable
++ _GTSMMTLContext_getIntersectionFunctionTables
++ _GTSMMTLContext_getLateEvalEvents
++ _GTSMMTLContext_getLayer
++ _GTSMMTLContext_getLayers
++ _GTSMMTLContext_getLibraries
++ _GTSMMTLContext_getMotionPipelineState
++ _GTSMMTLContext_getMotionPipelineStates
++ _GTSMMTLContext_getObject
++ _GTSMMTLContext_getObjectFunctionIndexRange
++ _GTSMMTLContext_getObjectTypeArray
++ _GTSMMTLContext_getObjects
++ _GTSMMTLContext_getParentAllocation
++ _GTSMMTLContext_getParentResource
++ _GTSMMTLContext_getPipelineLibraries
++ _GTSMMTLContext_getRasterizationRateMap
++ _GTSMMTLContext_getRasterizationRateMaps
++ _GTSMMTLContext_getRenderPipelineState
++ _GTSMMTLContext_getRenderPipelineStates
++ _GTSMMTLContext_getResidencySet
++ _GTSMMTLContext_getResidencySets
++ _GTSMMTLContext_getResourceGroup
++ _GTSMMTLContext_getResourceGroups
++ _GTSMMTLContext_getRootAllocation
++ _GTSMMTLContext_getRootResource
++ _GTSMMTLContext_getSamplerState
++ _GTSMMTLContext_getSamplerStates
++ _GTSMMTLContext_getSharedEvent
++ _GTSMMTLContext_getSharedEvents
++ _GTSMMTLContext_getSpatialScaler
++ _GTSMMTLContext_getSpatialScalers
++ _GTSMMTLContext_getTemporalDenoisedScaler
++ _GTSMMTLContext_getTemporalDenoisedScalers
++ _GTSMMTLContext_getTemporalScaler
++ _GTSMMTLContext_getTemporalScalers
++ _GTSMMTLContext_getTensor
++ _GTSMMTLContext_getTensors
++ _GTSMMTLContext_getTexture
++ _GTSMMTLContext_getTextureDescriptor
++ _GTSMMTLContext_getTextureInfo
++ _GTSMMTLContext_getTextureViewPool
++ _GTSMMTLContext_getTextureViewPools
++ _GTSMMTLContext_getTextures
++ _GTSMMTLContext_getVisibleFunctionTable
++ _GTSMMTLContext_getVisibleFunctionTables
++ _GTSMMTLContext_hasArgumentBuffers
++ _GTSMMTLContext_indirectCommandBufferResources
++ _GTSMMTLContext_intersectionFunctionTableBufferResources
++ _GTSMMTLContext_lastComputePipelineState
++ _GTSMMTLContext_lastFunction
++ _GTSMMTLContext_lastLibraries
++ _GTSMMTLContext_lastLibrary
++ _GTSMMTLContext_lastObject
++ _GTSMMTLContext_lastRenderPipelineState
++ _GTSMMTLContext_lastTexture
++ _GTSMMTLContext_maxCommandBufferCount
++ _GTSMMTLContext_removeDuplicatesFromChildrenMap
++ _GTSMMTLContext_resolveResourceHazardTrackingMode
++ _GTSMMTLContext_resolveRootResourceAllocatedSize
++ _GTSMMTLContext_resourcesAllocated
++ _GTSMMTLContext_resourcesDeallocated
++ _GTSMMTLCounterSampleBuffer_init
++ _GTSMMTLCounterSampleBuffer_processTraceFuncWithMap
++ _GTSMMTLCounterSampleBuffer_processTraceFuncWithPool
++ _GTSMMTLDepthStencilState_init
++ _GTSMMTLDepthStencilState_processTraceFuncWithMap
++ _GTSMMTLDepthStencilState_processTraceFuncWithPool
++ _GTSMMTLDepthStencilState_uniqueIdentifierArray
++ _GTSMMTLDevice_init
++ _GTSMMTLDevice_processTraceFuncWithMap
++ _GTSMMTLDevice_processTraceFuncWithPool
++ _GTSMMTLDrawable_init
++ _GTSMMTLDrawable_processTraceFuncWithMap
++ _GTSMMTLDrawable_processTraceFuncWithPool
++ _GTSMMTLDynamicLibrary_init
++ _GTSMMTLDynamicLibrary_processTraceFuncWithMap
++ _GTSMMTLDynamicLibrary_processTraceFuncWithPool
++ _GTSMMTLEvent_init
++ _GTSMMTLEvent_processTraceFuncWithMap
++ _GTSMMTLEvent_processTraceFuncWithPool
++ _GTSMMTLFXFrameInterpolator_init
++ _GTSMMTLFXFrameInterpolator_processTraceFuncWithMap
++ _GTSMMTLFXFrameInterpolator_processTraceFuncWithPool
++ _GTSMMTLFXSpatialScaler_init
++ _GTSMMTLFXSpatialScaler_processTraceFuncWithMap
++ _GTSMMTLFXSpatialScaler_processTraceFuncWithPool
++ _GTSMMTLFXTemporalDenoisedScaler_init
++ _GTSMMTLFXTemporalDenoisedScaler_processTraceFuncWithMap
++ _GTSMMTLFXTemporalDenoisedScaler_processTraceFuncWithPool
++ _GTSMMTLFXTemporalScaler_init
++ _GTSMMTLFXTemporalScaler_processTraceFuncWithMap
++ _GTSMMTLFXTemporalScaler_processTraceFuncWithPool
++ _GTSMMTLFence_init
++ _GTSMMTLFence_processTraceFuncWithMap
++ _GTSMMTLFence_processTraceFuncWithPool
++ _GTSMMTLFilter_init
++ _GTSMMTLFilter_processTraceFuncWithMap
++ _GTSMMTLFilter_processTraceFuncWithPool
++ _GTSMMTLFunctionHandle_init
++ _GTSMMTLFunctionHandle_processTraceFuncWithMap
++ _GTSMMTLFunctionHandle_processTraceFuncWithPool
++ _GTSMMTLFunction_init
++ _GTSMMTLFunction_processTraceFuncWithMap
++ _GTSMMTLFunction_processTraceFuncWithPool
++ _GTSMMTLHeap_init
++ _GTSMMTLHeap_processTraceFuncWithMap
++ _GTSMMTLHeap_processTraceFuncWithPool
++ _GTSMMTLIOCommandBuffer_init
++ _GTSMMTLIOCommandBuffer_processTraceFunc
++ _GTSMMTLIOCommandQueue_init
++ _GTSMMTLIOCommandQueue_processTraceFuncWithMap
++ _GTSMMTLIOCommandQueue_processTraceFuncWithPool
++ _GTSMMTLIOFileHandle_init
++ _GTSMMTLIOHandle_processTraceFuncWithMap
++ _GTSMMTLIOHandle_processTraceFuncWithPool
++ _GTSMMTLIndirectCommandBuffer_init
++ _GTSMMTLIndirectCommandBuffer_processTraceFuncWithMap
++ _GTSMMTLIndirectCommandBuffer_processTraceFuncWithPool
++ _GTSMMTLIndirectCommandBuffer_uniqueIdentifierArray
++ _GTSMMTLIndirectComputeCommand_init
++ _GTSMMTLIndirectComputeCommand_processTraceFuncWithMap
++ _GTSMMTLIndirectComputeCommand_processTraceFuncWithPool
++ _GTSMMTLIndirectRenderCommand_init
++ _GTSMMTLIndirectRenderCommand_processTraceFuncWithMap
++ _GTSMMTLIndirectRenderCommand_processTraceFuncWithPool
++ _GTSMMTLIntersectionFunctionTableStateful_init
++ _GTSMMTLIntersectionFunctionTableStateful_processTraceFuncWithMap
++ _GTSMMTLIntersectionFunctionTableStateful_processTraceFuncWithPool
++ _GTSMMTLIntersectionFunctionTable_init
++ _GTSMMTLIntersectionFunctionTable_processTraceFuncWithMap
++ _GTSMMTLIntersectionFunctionTable_processTraceFuncWithPool
++ _GTSMMTLLateEvalEvent_init
++ _GTSMMTLLateEvalEvent_processTraceFuncWithMap
++ _GTSMMTLLateEvalEvent_processTraceFuncWithPool
++ _GTSMMTLLayer_init
++ _GTSMMTLLayer_processTraceFuncWithMap
++ _GTSMMTLLayer_processTraceFuncWithPool
++ _GTSMMTLLibrary_init
++ _GTSMMTLLibrary_processTraceFuncWithMap
++ _GTSMMTLLibrary_processTraceFuncWithPool
++ _GTSMMTLMotionEstimationPipelineState_init
++ _GTSMMTLMotionEstimationPipelineState_processTraceFuncWithMap
++ _GTSMMTLMotionEstimationPipelineState_processTraceFuncWithPool
++ _GTSMMTLObjectPtr_compare
++ _GTSMMTLObject_compare
++ _GTSMMTLObject_lastObject
++ _GTSMMTLObject_objectAtIndex
++ _GTSMMTLObject_sortUsedResources
++ _GTSMMTLParallelCommandEncoder_init
++ _GTSMMTLPipelineLibrary_init
++ _GTSMMTLPipelineLibrary_processTraceFuncWithMap
++ _GTSMMTLPipelineLibrary_processTraceFuncWithPool
++ _GTSMMTLPipelineState_isIntersectionFunctionTableCompatible
++ _GTSMMTLPipelineState_isVisibleFunctionTableCompatible
++ _GTSMMTLPipelineState_resourceIndex
++ _GTSMMTLPipelineState_sortIndirectResources
++ _GTSMMTLPipelineState_supportsIndirectCommandBuffers
++ _GTSMMTLRasterizationRateMap_init
++ _GTSMMTLRasterizationRateMap_processTraceFuncWithMap
++ _GTSMMTLRasterizationRateMap_processTraceFuncWithPool
++ _GTSMMTLRenderCommandEncoder_init
++ _GTSMMTLRenderCommandEncoder_loadIndirectCommand
++ _GTSMMTLRenderPipelineState_MTL4MeshPipelineDescriptor
++ _GTSMMTLRenderPipelineState_MTL4RenderPipelineDescriptor
++ _GTSMMTLRenderPipelineState_MTL4TilePipelineDescriptor
++ _GTSMMTLRenderPipelineState_alphaToCoverageEnabled
++ _GTSMMTLRenderPipelineState_anyRenderPipelineDescriptor
++ _GTSMMTLRenderPipelineState_colorAttachment
++ _GTSMMTLRenderPipelineState_depthAttachmentPixelFormat
++ _GTSMMTLRenderPipelineState_fragmentFunction
++ _GTSMMTLRenderPipelineState_init
++ _GTSMMTLRenderPipelineState_inputPrimitiveTopology
++ _GTSMMTLRenderPipelineState_label
++ _GTSMMTLRenderPipelineState_maxTessellationFactor
++ _GTSMMTLRenderPipelineState_meshPipelineDescriptor
++ _GTSMMTLRenderPipelineState_processTraceFuncWithMap
++ _GTSMMTLRenderPipelineState_processTraceFuncWithPool
++ _GTSMMTLRenderPipelineState_rasterSampleCount
++ _GTSMMTLRenderPipelineState_rasterizationEnabled
++ _GTSMMTLRenderPipelineState_renderPipelineDescriptor
++ _GTSMMTLRenderPipelineState_renderPipelineDescriptorType
++ _GTSMMTLRenderPipelineState_resourceAccess
++ _GTSMMTLRenderPipelineState_stencilAttachmentPixelFormat
++ _GTSMMTLRenderPipelineState_supportIndirectCommandBuffers
++ _GTSMMTLRenderPipelineState_tessellationFactorFormat
++ _GTSMMTLRenderPipelineState_tessellationFactorStepFunction
++ _GTSMMTLRenderPipelineState_tessellationOutputWindingOrder
++ _GTSMMTLRenderPipelineState_tessellationPartitionMode
++ _GTSMMTLRenderPipelineState_tilePipelineDescriptor
++ _GTSMMTLRenderPipelineState_uniqueIdentifierArray
++ _GTSMMTLRenderPipelineState_vertexDescriptor
++ _GTSMMTLResidencySetAllocations_init
++ _GTSMMTLResidencySetAllocations_reset
++ _GTSMMTLResidencySet_init
++ _GTSMMTLResidencySet_processTraceFuncWithMap
++ _GTSMMTLResidencySet_processTraceFuncWithPool
++ _GTSMMTLResourceGroup_init
++ _GTSMMTLResourceGroup_processTraceFuncWithMap
++ _GTSMMTLResourceGroup_processTraceFuncWithPool
++ _GTSMMTLSamplerState_init
++ _GTSMMTLSamplerState_processTraceFuncWithMap
++ _GTSMMTLSamplerState_processTraceFuncWithPool
++ _GTSMMTLSamplerState_sortIndirectResources
++ _GTSMMTLSamplerState_uniqueIdentifierArray
++ _GTSMMTLSharedEvent_init
++ _GTSMMTLSharedEvent_processTraceFuncWithMap
++ _GTSMMTLSharedEvent_processTraceFuncWithPool
++ _GTSMMTLTensor_init
++ _GTSMMTLTensor_processTraceFuncWithMap
++ _GTSMMTLTensor_processTraceFuncWithPool
++ _GTSMMTLTextureViewPool_init
++ _GTSMMTLTextureViewPool_processTraceFuncWithMap
++ _GTSMMTLTextureViewPool_processTraceFuncWithPool
++ _GTSMMTLTexture_init
++ _GTSMMTLTexture_processTraceFuncWithMap
++ _GTSMMTLTexture_processTraceFuncWithPool
++ _GTSMMTLTexture_resolveTextureDescriptor
++ _GTSMMTLTexture_uniqueIdentifierArray
++ _GTSMMTLVisibleFunctionTableStateful_init
++ _GTSMMTLVisibleFunctionTableStateful_processTraceFuncWithMap
++ _GTSMMTLVisibleFunctionTableStateful_processTraceFuncWithPool
++ _GTSMMTLVisibleFunctionTable_init
++ _GTSMMTLVisibleFunctionTable_processTraceFuncWithMap
++ _GTSMMTLVisibleFunctionTable_processTraceFuncWithPool
++ _GTString_quote
++ _GTTelemetry_trackNewTemporalScaler
++ _GTTopologicalOrder
++ _GTTraceDispatch_createArgumentTableStateMap
++ _GTTraceDispatch_createArgumentTableStateMapFromParams
++ _GTTraceDispatch_getArgumentTableStateForGPUCommandStage
++ _GTTraceMemPool_buildMemoryMapForMetalFXHistory
++ _GetConditionByIndexInGroup
++ _GetThreadPortFromContext
++ _GetThreadState
++ _HandleWatchedMemoryWrite
++ _InternalDataArgumentChainEnd
++ _InterposerActive
++ _IsDebuggerAttached
++ _L3Iterator_next
++ _Lock
++ _MTLBuffer_isCPUWritable
++ _MTLStorageMode_isCPUWritable
++ _MakeDYMTLTensorAuxiliaryPlaneDescriptor
++ _MakeDYMTLTensorAuxiliaryPlaneDescriptorMap
++ _MakeDYMTLTensorAuxiliaryPlaneDescriptorMapItem
++ _MakeMTL4PipelineDescriptorWithResourceIndex
++ _MakeMTL4PipelineDescriptorWithoutResourceIndex
++ _MakeNestedMTLTensorAuxiliaryPlaneDescriptor
++ _MakeNestedMTLTensorAuxiliaryPlaneDescriptorMap
++ _OBJC_CLASS_$_GTMTLResidencySetResource
++ _OBJC_CLASS_$_MTLTensorAuxiliaryPlaneDescriptor
++ _OBJC_CLASS_$_NSCharacterSet
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_SparseBufferPageTable
++ _OBJC_METACLASS_$_GTMTLResidencySetResource
++ _OBJC_METACLASS_$_SparseBufferPageTable
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _PerformanceStatisticsURL
++ _ProcessPresentCondition
++ _ReadGTMTLClearColor
++ _ReadGTMTLTensorExtents
++ _ResetHitCountInGroup
++ _ResourceTracker_addMtl4StaticLinkingLibraries
++ _SanitizedShortString
++ _SaveDYMTLTensorAuxiliaryPlaneDescriptor
++ _SaveDYMTLTensorAuxiliaryPlaneDescriptorMap
++ _SaveDYMTLTensorAuxiliaryPlaneDescriptorMapItem
++ _SaveMTLCaptureDescriptorInternal
++ _SaveMTLLibraryInfoWithSources
++ _SaveURL
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ _TranslateGTMTLCaptureDescriptorInternal
++ _TranslateGTMTLLibraryInfoWithSources
++ _TranslateNestedGTMTLTensorAuxiliaryPlaneDescriptor
++ _TranslateNestedGTMTLTensorAuxiliaryPlaneDescriptorMap
++ _UnprotectAndMarkDirty
++ _UpdateAccess
++ _WakeInflightWaiters
++ _WriteDynamicBuffer
++ _WriteGTMTL4FXFrameInterpolator
++ _WriteGTMTL4FXSpatialScaler
++ _WriteGTMTL4FXTemporalDenoisedScaler
++ _WriteGTMTL4FXTemporalScaler
++ _WriteGTMTLFXFrameInterpolator
++ _WriteGTMTLFXSpatialScaler
++ _WriteGTMTLFXTemporalDenoisedScaler
++ _WriteGTMTLFXTemporalScaler
++ _WriteGTSMMTLAccelerationStructure_new
++ _WriteGTSMMTLAccelerationStructure_properties
++ _WriteGTSMMTLBuffer_debugMarkers
++ _WriteGTSMMTLBuffer_properties
++ _WriteGTSMMTLBuffer_resources
++ _WriteGTSMMTLBuffer_restore
++ _WriteGTSMMTLDynamicLibrary
++ _WriteGTSMMTLEvent
++ _WriteGTSMMTLFence
++ _WriteGTSMMTLFunction
++ _WriteGTSMMTLFunctionHandle
++ _WriteGTSMMTLIndirectCommandBuffer_restore
++ _WriteGTSMMTLLateEvalEvent
++ _WriteGTSMMTLLibrary
++ _WriteGTSMMTLResidencySet
++ _WriteGTSMMTLResourceGroup
++ _WriteGTSMMTLSharedEvent
++ _WriteGTSMMTLTextureViewPool
++ _WriteGTSMMTLTexture_downloads
++ _WriteGTSMMTLTexture_properties
++ _WriteGTSMMTLTexture_restoreTextureData
++ _WriteGTSMMTLTexture_textureViews
++ _WriteGTSMMTLVisibleFunctionTable
++ __Block_byref_object_copy_.11866
++ __Block_byref_object_copy_.4039
++ __Block_byref_object_copy_.4569
++ __Block_byref_object_copy_.7301
++ __Block_byref_object_copy_.8496
++ __Block_byref_object_dispose_.11867
++ __Block_byref_object_dispose_.4040
++ __Block_byref_object_dispose_.4570
++ __Block_byref_object_dispose_.7302
++ __Block_byref_object_dispose_.8497
++ __GTAccelerationStructureDescriptorDownloader_MTL4_postProcess_block_invoke.40
++ __GTCoreAlloc_block_invoke.cold.1
++ __GTMTLQL_EncodeBuffer_block_invoke.44
++ __OBJC_$_CLASS_METHODS_SparseBufferPageTable
++ __OBJC_$_INSTANCE_METHODS_GTMTLResidencySetResource
++ __OBJC_$_INSTANCE_METHODS_SparseBufferPageTable
++ __OBJC_$_INSTANCE_VARIABLES_GTMTLResidencySetResource
++ __OBJC_$_INSTANCE_VARIABLES_SparseBufferPageTable
++ __OBJC_$_PROP_LIST_GTMTLResidencySetResource
++ __OBJC_$_PROP_LIST_SparseBufferPageTable
++ __OBJC_CLASS_RO_$_GTMTLResidencySetResource
++ __OBJC_CLASS_RO_$_SparseBufferPageTable
++ __OBJC_METACLASS_RO_$_GTMTLResidencySetResource
++ __OBJC_METACLASS_RO_$_SparseBufferPageTable
++ __Xmach_exception_raise_identity_protected
++ __Xmach_exception_raise_state_identity_protected
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS8_SC_SA_EENS_9allocatorIS8_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS8_SC_SA_EENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS8_SC_SA_EENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__16vectorI16GTTelemetryLayerNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220100Ev
++ __ZNSt3__16vectorI16GTTelemetryLayerNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI16GTTelemetryQueueNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220100Ev
++ __ZNSt3__16vectorI16GTTelemetryQueueNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI17GTTelemetryDeviceNS_9allocatorIS1_EEE20__throw_length_errorB9fqn220100Ev
++ __ZNSt3__16vectorI17GTTelemetryDeviceNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqn220100v
++ ___48-[CaptureMTL4CommandQueue _encodeDownloadPoint:]_block_invoke
++ ___64-[CaptureMTLCommandBuffer addRequestsToDownloadQueue:withIndex:]_block_invoke
++ ___64-[CaptureMTLCommandBuffer addRequestsToDownloadQueue:withIndex:]_block_invoke_2
++ ___64-[CaptureMTLCommandBuffer addRequestsToDownloadQueue:withIndex:]_block_invoke_3
++ ___80-[GTResourceDownloader _downloadRequest:atPoint:dispatchGroup:downloadCallback:]_block_invoke
++ ___82-[GTMTLCaptureSparsePageTables updateBufferMappings:buffer:heap:operations:count:]_block_invoke
++ ___87-[GTMTLCaptureSparsePageTables copyBufferMappings:source:destination:operations:count:]_block_invoke
++ ___CaptureServiceInit_block_invoke
++ ___DownloadBufferWithMemWatch_block_invoke
++ ___DownloadBufferWithMemWatch_block_invoke_2
++ ___DownloadFromDevice_block_invoke
++ ___DownloadPresentedDrawable_block_invoke_2
++ ___ExtractIncludePathsFromSource_block_invoke
++ ___ExtractIncludePathsFromSource_block_invoke_2
++ ___GTChunkTable_iterateSnapshot_block_invoke
++ ___GTMTLCaptureManager_prepareForSerialization_block_invoke
++ ___GTMTLQL_EncodeTexture_block_invoke_3
++ ___GTMemWatch_cleanup_block_invoke
++ ___GTMemWatch_installExceptionHandler_block_invoke
++ ___GTMemWatch_installExceptionHandler_block_invoke_2
++ ___GTMemWatch_installExceptionHandler_block_invoke_3
++ ___GTTopologicalOrder_block_invoke
++ ___WriteGTSMMTLBuffer_placementSparse_block_invoke
++ ___WriteGTSMMTLTexture_placementSparse_block_invoke
++ ___block_descriptor_32_e344_v16?0r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}8l
++ ___block_descriptor_40_e344_v16?0r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}8l
++ ___block_descriptor_48_e8_32s40s_e37_v32?0"NSTextCheckingResult"8Q16^B24ls32l8s40l8
++ ___block_descriptor_56_e8_32s40bs_e29_v24?0"<MTLSharedEvent>"8Q16ls40l8s32l8
++ ___block_descriptor_56_e8_v16?0Q8l
++ ___block_descriptor_72_e8_32s40s48s56s64s_e30_v16?0"<MTL4CommitFeedback>"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_72_e8_32s40s48s_e19_B24?0{GTRange=QQ}8ls32l8s40l8s48l8
++ ___destructor_8_s0_s8_s16_s24
++ __block_descriptor_tmp.1
++ __block_descriptor_tmp.16
++ __block_descriptor_tmp.5545
++ __block_descriptor_tmp.63
++ __block_descriptor_tmp.7
++ __block_literal_global.10560
++ __block_literal_global.1084
++ __block_literal_global.11076
++ __block_literal_global.11870
++ __block_literal_global.12316
++ __block_literal_global.129
++ __block_literal_global.131
++ __block_literal_global.15652
++ __block_literal_global.18
++ __block_literal_global.1830
++ __block_literal_global.185
++ __block_literal_global.202
++ __block_literal_global.263
++ __block_literal_global.27
++ __block_literal_global.284
++ __block_literal_global.287
++ __block_literal_global.3
++ __block_literal_global.3067
++ __block_literal_global.368
++ __block_literal_global.374
++ __block_literal_global.4038
++ __block_literal_global.4386
++ __block_literal_global.4585
++ __block_literal_global.466
++ __block_literal_global.51
++ __block_literal_global.51.4043
++ __block_literal_global.512
++ __block_literal_global.8222
++ __block_literal_global.8646
++ __block_literal_global.9
++ __block_literal_global.9660
++ __interpose_getrlimit
++ __interpose_pread
++ __interpose_preadv
++ __interpose_read
++ __interpose_readv
++ _catch_mach_exception_raise_identity_protected
++ _catch_mach_exception_raise_state_identity_protected
++ _clock_gettime_nsec_np
++ _exceptionHandlerState
++ _exception_raise
++ _exception_raise_state
++ _exception_raise_state_identity
++ _gStreamNSArrayScratch
++ _gStreamNSArrayScratch$tlv$init
++ _g_null_string_token
++ _getcwd
++ _getrlimit
++ _interposed_getrlimit
++ _interposed_pread
++ _interposed_preadv
++ _interposed_read
++ _interposed_readv
++ _mach_exception_raise_identity_protected
++ _mach_exception_raise_state_identity_protected
++ _mtl4ArgumentTable_markUsedSamplersAtIndex
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_downloadRequest:atPoint:dispatchGroup:downloadCallback:
++ _objc_msgSend$accelerationStructureDescriptorDownloaderResidencySet
++ _objc_msgSend$accelerationStructures
++ _objc_msgSend$acquireResidencySet
++ _objc_msgSend$addInternalResidencySet:
++ _objc_msgSend$addInternalResidencySets:count:
++ _objc_msgSend$alphanumericCharacterSet
++ _objc_msgSend$arraySizeWithCopyOps:fromPageTable:apiOpCount:
++ _objc_msgSend$arraySizeWithCopyOps:sourceLength:apiOpCount:
++ _objc_msgSend$auxiliaryPlanes
++ _objc_msgSend$blockFactors
++ _objc_msgSend$bufferStream
++ _objc_msgSend$captureAllocatedObjects
++ _objc_msgSend$colorContentOffsetX
++ _objc_msgSend$colorContentOffsetY
++ _objc_msgSend$commit:count:
++ _objc_msgSend$commitBlock:
++ _objc_msgSend$componentsSeparatedByCharactersInSet:
++ _objc_msgSend$computeRequiredBufferByteCountWithDevice:descriptor:texture:
++ _objc_msgSend$computeRequiredBufferByteCountWithLength:placementSparsePageSize:
++ _objc_msgSend$contentHeight
++ _objc_msgSend$contentWidth
++ _objc_msgSend$copyBufferMappings:source:destination:operations:count:
++ _objc_msgSend$copyFromTensor:sourceOrigin:sourceDimensions:sourcePlane:toTensor:destinationOrigin:destinationDimensions:destinationPlane:
++ _objc_msgSend$countMetalFXHistory
++ _objc_msgSend$createContext:downloadCallback:
++ _objc_msgSend$dataWithContentsOfFile:options:error:
++ _objc_msgSend$depthContentOffsetX
++ _objc_msgSend$depthContentOffsetY
++ _objc_msgSend$descriptorForPlane:
++ _objc_msgSend$distortionHeight
++ _objc_msgSend$distortionOffsetX
++ _objc_msgSend$distortionOffsetY
++ _objc_msgSend$distortionWidth
++ _objc_msgSend$downloadRequest:atPoint:downloadCallback:
++ _objc_msgSend$downloadRequest:downloadCallback:
++ _objc_msgSend$dummyEncodeMTL4ComputePSOIntoArgumentBufferForResourceIndex:withDescriptor:
++ _objc_msgSend$dummyEncodeMTL4RenderPSOIntoArgumentBufferForResourceIndex:withDescriptor:
++ _objc_msgSend$dumpBufferMappingsWithCallback:buffer:
++ _objc_msgSend$dumpTextureMappingsWithCallback:texture:
++ _objc_msgSend$enumerateHeapsWithBlock:
++ _objc_msgSend$enumerateMatchesInString:options:range:usingBlock:
++ _objc_msgSend$featureQueries
++ _objc_msgSend$fillArrayWithCopyOps:fromPageTable:apiOpCount:gpuOps:
++ _objc_msgSend$fillArrayWithCopyOps:sourceLength:apiOpCount:gpuOps:
++ _objc_msgSend$fragmentGlobalConstantsBase
++ _objc_msgSend$fragmentGlobalConstantsSize
++ _objc_msgSend$fragmentGlobalConstantsTag
++ _objc_msgSend$genericAddressSpaceDispatchInfo
++ _objc_msgSend$getBytes:strides:fromSliceOrigin:sliceDimensions:plane:
++ _objc_msgSend$globalConstantsBase
++ _objc_msgSend$globalConstantsSize
++ _objc_msgSend$globalConstantsTag
++ _objc_msgSend$initWithBuffer:descriptor:texture:
++ _objc_msgSend$initWithBuffer:length:placementSparsePageSize:
++ _objc_msgSend$initWithName:
++ _objc_msgSend$initWithQueue:forRequest:downloadCallback:
++ _objc_msgSend$invertedSet
++ _objc_msgSend$isAbsolutePath
++ _objc_msgSend$isDistortionTextureEnabled
++ _objc_msgSend$isJitteredMotionVectorsEnabled
++ _objc_msgSend$isOutputResolutionMotionVectorsEnabled
++ _objc_msgSend$memWatchMode
++ _objc_msgSend$meshGlobalConstantsBase
++ _objc_msgSend$meshGlobalConstantsSize
++ _objc_msgSend$meshGlobalConstantsTag
++ _objc_msgSend$motionContentOffsetX
++ _objc_msgSend$motionContentOffsetY
++ _objc_msgSend$newTensorWithDescriptor:attachments:error:
++ _objc_msgSend$numberOfRanges
++ _objc_msgSend$objectGlobalConstantsBase
++ _objc_msgSend$objectGlobalConstantsSize
++ _objc_msgSend$objectGlobalConstantsTag
++ _objc_msgSend$originalDefaultCompilerProcessesCount
++ _objc_msgSend$originalThreadsPerCompilerProcess
++ _objc_msgSend$outputOffsetX
++ _objc_msgSend$outputOffsetY
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$reactiveMaskContentOffsetX
++ _objc_msgSend$reactiveMaskContentOffsetY
++ _objc_msgSend$reactiveMaskTextureUsage
++ _objc_msgSend$registerBuffer:length:placementSparsePageSize:
++ _objc_msgSend$registerTexture:descriptor:texture:
++ _objc_msgSend$regularExpressionWithPattern:options:error:
++ _objc_msgSend$releaseResidencySet:
++ _objc_msgSend$releaseRetainedCommandEncoders
++ _objc_msgSend$removeInternalResidencySet:
++ _objc_msgSend$removeInternalResidencySets:count:
++ _objc_msgSend$replaceSliceOrigin:sliceDimensions:plane:withBytes:strides:
++ _objc_msgSend$resourcePath
++ _objc_msgSend$sampledAccelerationStructureCommandEncoder:capacity:
++ _objc_msgSend$sampledAccelerationStructureCommandEncoderWithDescriptor:programInfoBuffer:capacity:
++ _objc_msgSend$sampledBlitCommandEncoder:capacity:
++ _objc_msgSend$sampledBlitCommandEncoderWithDescriptor:programInfoBuffer:capacity:
++ _objc_msgSend$setBlockFactors:
++ _objc_msgSend$setBufferStream:
++ _objc_msgSend$setColorContentOffsetX:
++ _objc_msgSend$setColorContentOffsetY:
++ _objc_msgSend$setContentHeight:
++ _objc_msgSend$setContentWidth:
++ _objc_msgSend$setCountMetalFXHistory:
++ _objc_msgSend$setDepthContentOffsetX:
++ _objc_msgSend$setDepthContentOffsetY:
++ _objc_msgSend$setDescriptor:forPlane:
++ _objc_msgSend$setDistortionHeight:
++ _objc_msgSend$setDistortionOffsetX:
++ _objc_msgSend$setDistortionOffsetY:
++ _objc_msgSend$setDistortionTexture:
++ _objc_msgSend$setDistortionTextureEnabled:
++ _objc_msgSend$setDistortionWidth:
++ _objc_msgSend$setFragmentGlobalConstantsTag:
++ _objc_msgSend$setGlobalConstantsTag:
++ _objc_msgSend$setJitteredMotionVectorsEnabled:
++ _objc_msgSend$setMemWatchMode:
++ _objc_msgSend$setMeshGlobalConstantsTag:
++ _objc_msgSend$setMotionContentOffsetX:
++ _objc_msgSend$setMotionContentOffsetY:
++ _objc_msgSend$setObjectGlobalConstantsTag:
++ _objc_msgSend$setOutputOffsetX:
++ _objc_msgSend$setOutputOffsetY:
++ _objc_msgSend$setOutputResolutionMotionVectorsEnabled:
++ _objc_msgSend$setReactiveMaskContentOffsetX:
++ _objc_msgSend$setReactiveMaskContentOffsetY:
++ _objc_msgSend$setTemporalScalers:
++ _objc_msgSend$setTileGlobalConstantsTag:
++ _objc_msgSend$setUseExplicitRenderTargetDimensions:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setVertexGlobalConstantsTag:
++ _objc_msgSend$stringByStandardizingPath
++ _objc_msgSend$stringWithContentsOfFile:encoding:error:
++ _objc_msgSend$substringToIndex:
++ _objc_msgSend$substringWithRange:
++ _objc_msgSend$tailSizeInTiles
++ _objc_msgSend$targetBufferLength
++ _objc_msgSend$tileGlobalConstantsBase
++ _objc_msgSend$tileGlobalConstantsSize
++ _objc_msgSend$tileGlobalConstantsTag
++ _objc_msgSend$uiTextureUsage
++ _objc_msgSend$unregisterBuffer:
++ _objc_msgSend$updateBufferMappings:buffer:heap:operations:count:
++ _objc_msgSend$useExplicitRenderTargetDimensions
++ _objc_msgSend$useInternalResidencySet:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$vertexGlobalConstantsBase
++ _objc_msgSend$vertexGlobalConstantsSize
++ _objc_msgSend$vertexGlobalConstantsTag
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x7
++ _objc_retain_x9
++ _objc_terminate
++ _os_sync_wait_on_address
++ _os_sync_wait_on_address_with_timeout
++ _os_sync_wake_by_address_any
++ _pread
++ _preadv
++ _readv
++ _sBufferMap
++ _sLock
++ _sLog
++ _sTable
++ _s_downloaderPipelines
++ _sscanf
++ _strerror
++ _task_threads
++ _thread_get_state
++ _thread_info
++ _thread_set_state
++ _ulimit
++ gt_tagged_log.cold.1
++ newHeapWithDescriptor:.onceToken.285
++ s_accelerationStructureDescriptorDownloaderPipelinesToken.8030
++ s_downloaderPipelines.8031
++ waitUntilSignaledValue:timeoutMS:.onceToken.13941
+- +[SparseTexturePageTable computeRequiredBufferByteCountWithDevice:descriptor:]
+- -[CaptureMTLResidencySet addHeaps:count:]
+- -[CaptureMTLResidencySet addResource:]
+- -[CaptureMTLResidencySet addResources:count:]
+- -[CaptureMTLResidencySet allCommittedHeaps]
+- -[CaptureMTLResidencySet allCommittedResources]
+- -[CaptureMTLResidencySet allHeaps]
+- -[CaptureMTLResidencySet allResources]
+- -[CaptureMTLResidencySet containsHeap:]
+- -[CaptureMTLResidencySet containsResource:]
+- -[CaptureMTLResidencySet countForHeap:]
+- -[CaptureMTLResidencySet countForResource:]
+- -[CaptureMTLResidencySet generationForHeap:]
+- -[CaptureMTLResidencySet generationForResource:]
+- -[CaptureMTLResidencySet removeAllHeaps]
+- -[CaptureMTLResidencySet removeAllResources]
+- -[CaptureMTLResidencySet removeHeap:]
+- -[CaptureMTLResidencySet removeHeaps:count:]
+- -[CaptureMTLResidencySet removeResource:]
+- -[CaptureMTLResidencySet removeResources:count:]
+- -[CaptureMTLTensor internalMTLBuffer]
+- -[GTDownloadContext initWithQueue:forRequest:]
+- -[GTDownloadPoint createContext:]
+- -[GTMTLCaptureSparsePageTables dumpTextureMappingsWithCallback:texture:userdata:]
+- -[GTMTLCaptureSparsePageTables heaps]
+- -[GTMTLCaptureSparsePageTables registerTexture:descriptor:]
+- -[GTResourceDownloader _downloadRequest:atPoint:dispatchGroup:]
+- -[GTResourceDownloader _downloadRequestOld:atPoint:dispatchGroup:]
+- -[GTResourceDownloader downloadRequest:]
+- -[GTResourceDownloader downloadRequest:atPoint:]
+- -[SparseTexturePageTable arraySizeWithCopyOps:fromTexture:apiOpCount:]
+- -[SparseTexturePageTable fillArrayWithCopyOps:fromTexture:apiOpCount:gpuOps:]
+- -[SparseTexturePageTable initWithBuffer:descriptor:]
+- /Library/Caches/com.apple.xbs/89B1359A-A5CF-4768-A4DB-623574C12166/TemporaryDirectory.VP58rU/Binaries/GPUToolsDevice/install/TempContent/Objects/GPUToolsFoundation.build/GPUToolsCapture.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/89B1359A-A5CF-4768-A4DB-623574C12166/TemporaryDirectory.VP58rU/Binaries/GPUToolsDevice/install/TempContent/Objects/GPUToolsFoundation.build/GPUToolsCapture.build/Objects-normal/arm64e/GPUToolsCapture_lto.o
+- GCC_except_table107
+- GCC_except_table1551
+- GCC_except_table1576
+- GCC_except_table16
+- GCC_except_table1681
+- GCC_except_table1682
+- GCC_except_table1686
+- GCC_except_table1687
+- GCC_except_table1688
+- GCC_except_table1689
+- GCC_except_table1690
+- GCC_except_table1898
+- GCC_except_table1899
+- GCC_except_table1901
+- GCC_except_table1903
+- GCC_except_table1911
+- GCC_except_table2055
+- GCC_except_table2091
+- GCC_except_table219
+- GCC_except_table242
+- GCC_except_table243
+- GCC_except_table2905
+- GCC_except_table2913
+- GCC_except_table298
+- GCC_except_table30
+- GCC_except_table3050
+- GCC_except_table3201
+- GCC_except_table3208
+- GCC_except_table3217
+- GCC_except_table323
+- GCC_except_table3315
+- GCC_except_table35
+- GCC_except_table4034
+- GCC_except_table4206
+- GCC_except_table4207
+- GCC_except_table4208
+- GCC_except_table4210
+- GCC_except_table4212
+- GCC_except_table4213
+- GCC_except_table4214
+- GCC_except_table43
+- GTAccelerationStructureDescriptorDownloader_processCopy.7920
+- GTAccelerationStructureDescriptorDownloader_processRefit.7921
+- GTMemoryGuard_initialize.onceGuard
+- GetStream.20280
+- OBJC_IVAR_$_GTMTLCaptureSparsePageTables._copyTextureMappingsPipeline
+- OBJC_IVAR_$_GTMTLCaptureSparsePageTables._residencySet
+- OBJC_IVAR_$_GTMTLCaptureSparsePageTables._updateTextureMappingsPipeline
+- RetainObjectForDescriptorDownloader.9581
+- StoreMTLCompileOptionsUsingEncode.16702
+- _BuildPipelines
+- _CaptureMTLBuffer_registerBaseBufferForTracing
+- _CaptureMTLBuffer_registerForTracing
+- _ChangeProtection
+- _ClearAccelerationStructureChildren
+- _GTAccelerationStructureDescriptorDownloader_processBuild
+- _GTAccelerationStructureDescriptorDownloader_processEndEncoding
+- _GTAccelerationStructureDescriptorDownloader_suballocate
+- _GTFenum_isMTL4EndEncoding
+- _GTFenum_isPatchCall
+- _GTMTL4FXSMFrameInterpolator_init
+- _GTMTL4FXSMFrameInterpolator_processTraceFuncWithMap
+- _GTMTL4FXSMFrameInterpolator_processTraceFuncWithPool
+- _GTMTL4FXSMSpatialScaler_init
+- _GTMTL4FXSMSpatialScaler_processTraceFuncWithMap
+- _GTMTL4FXSMSpatialScaler_processTraceFuncWithPool
+- _GTMTL4FXSMTemporalDenoisedScaler_init
+- _GTMTL4FXSMTemporalDenoisedScaler_processTraceFuncWithMap
+- _GTMTL4FXSMTemporalDenoisedScaler_processTraceFuncWithPool
+- _GTMTL4FXSMTemporalScaler_init
+- _GTMTL4FXSMTemporalScaler_processTraceFuncWithMap
+- _GTMTL4FXSMTemporalScaler_processTraceFuncWithPool
+- _GTMTL4SMArgumentTable_bufferBindingHasAttributeStride
+- _GTMTL4SMArgumentTable_clearBufferBindingHasAttributeStride
+- _GTMTL4SMArgumentTable_init
+- _GTMTL4SMArgumentTable_initializeBindings
+- _GTMTL4SMArgumentTable_isBufferBindingGPUAddress
+- _GTMTL4SMArgumentTable_isBufferBindingInitialized
+- _GTMTL4SMArgumentTable_isSamplerStateBindingInitialized
+- _GTMTL4SMArgumentTable_isTextureBindingInitialized
+- _GTMTL4SMArgumentTable_processTraceFuncWithMap
+- _GTMTL4SMArgumentTable_processTraceFuncWithPool
+- _GTMTL4SMArgumentTable_setBufferBindingAsGPUAddress
+- _GTMTL4SMArgumentTable_setBufferBindingAsInitialized
+- _GTMTL4SMArgumentTable_setBufferBindingAsResourceID
+- _GTMTL4SMArgumentTable_setBufferBindingHasAttributeStride
+- _GTMTL4SMArgumentTable_setSamplerStateBindingAsInitialized
+- _GTMTL4SMArgumentTable_setTextureBindingAsInitialized
+- _GTMTL4SMBuilder_argumentTable
+- _GTMTL4SMBuilder_commandAllocator
+- _GTMTL4SMBuilder_commandBuffer
+- _GTMTL4SMBuilder_commandQueue
+- _GTMTL4SMBuilder_compiler
+- _GTMTL4SMBuilder_machineLearningPipelineState
+- _GTMTL4SMCommandAllocator_init
+- _GTMTL4SMCommandAllocator_processTraceFuncWithMap
+- _GTMTL4SMCommandAllocator_processTraceFuncWithPool
+- _GTMTL4SMCommandBuffer_init
+- _GTMTL4SMCommandBuffer_processTraceFunc
+- _GTMTL4SMCommandEncoder_renderCommandEncoder
+- _GTMTL4SMCommandEncoder_renderPassDescriptor
+- _GTMTL4SMCommandQueue_init
+- _GTMTL4SMCommandQueue_processTraceFuncWithMap
+- _GTMTL4SMCommandQueue_processTraceFuncWithPool
+- _GTMTL4SMCompiler_init
+- _GTMTL4SMCompiler_processTraceFuncWithMap
+- _GTMTL4SMCompiler_processTraceFuncWithPool
+- _GTMTL4SMComputeCommandEncoder_init
+- _GTMTL4SMComputeCommandEncoder_loadIndirectCommand
+- _GTMTL4SMContext_getArgumentTable
+- _GTMTL4SMContext_getArgumentTables
+- _GTMTL4SMContext_getCommandAllocators
+- _GTMTL4SMContext_getCommandBuffers
+- _GTMTL4SMContext_getCommandQueues
+- _GTMTL4SMContext_getMachineLearningPipelineState
+- _GTMTL4SMContext_getMachineLearningPipelineStates
+- _GTMTL4SMMachineLearningCommandEncoder_init
+- _GTMTL4SMMachineLearningPipelineState_init
+- _GTMTL4SMMachineLearningPipelineState_processTraceFuncWithMap
+- _GTMTL4SMMachineLearningPipelineState_processTraceFuncWithPool
+- _GTMTL4SMRenderCommandEncoder_init
+- _GTMTL4SMRenderCommandEncoder_loadIndirectCommand
+- _GTMTLCaptureSparsePageTables_getPlacementSparseHeaps
+- _GTMTLFXSMFrameInterpolator_init
+- _GTMTLFXSMFrameInterpolator_processTraceFuncWithMap
+- _GTMTLFXSMFrameInterpolator_processTraceFuncWithPool
+- _GTMTLFXSMSpatialScaler_init
+- _GTMTLFXSMSpatialScaler_processTraceFuncWithMap
+- _GTMTLFXSMSpatialScaler_processTraceFuncWithPool
+- _GTMTLFXSMTemporalDenoisedScaler_init
+- _GTMTLFXSMTemporalDenoisedScaler_processTraceFuncWithMap
+- _GTMTLFXSMTemporalDenoisedScaler_processTraceFuncWithPool
+- _GTMTLFXSMTemporalScaler_init
+- _GTMTLFXSMTemporalScaler_processTraceFuncWithMap
+- _GTMTLFXSMTemporalScaler_processTraceFuncWithPool
+- _GTMTLSMAccelerationStructure_init
+- _GTMTLSMAccelerationStructure_processTraceFuncWithMap
+- _GTMTLSMAccelerationStructure_processTraceFuncWithPool
+- _GTMTLSMBuffer_gpuAddressArray
+- _GTMTLSMBuffer_init
+- _GTMTLSMBuffer_processTraceFuncWithMap
+- _GTMTLSMBuffer_processTraceFuncWithPool
+- _GTMTLSMBuilder_accelerationStructure
+- _GTMTLSMBuilder_buffer
+- _GTMTLSMBuilder_commandQueue
+- _GTMTLSMBuilder_commitObject
+- _GTMTLSMBuilder_compareStreams
+- _GTMTLSMBuilder_computePipelineState
+- _GTMTLSMBuilder_counterSampleBuffer
+- _GTMTLSMBuilder_depthStencilState
+- _GTMTLSMBuilder_device
+- _GTMTLSMBuilder_drawable
+- _GTMTLSMBuilder_dynamicLibrary
+- _GTMTLSMBuilder_event
+- _GTMTLSMBuilder_fence
+- _GTMTLSMBuilder_filter
+- _GTMTLSMBuilder_frameInterpolator
+- _GTMTLSMBuilder_function
+- _GTMTLSMBuilder_functionHandle
+- _GTMTLSMBuilder_getStreamObjectType
+- _GTMTLSMBuilder_heap
+- _GTMTLSMBuilder_indirectCommandBuffer
+- _GTMTLSMBuilder_indirectComputeCommand
+- _GTMTLSMBuilder_indirectRenderCommand
+- _GTMTLSMBuilder_intersectionFunctionTable
+- _GTMTLSMBuilder_ioCommandQueue
+- _GTMTLSMBuilder_ioFileHandle
+- _GTMTLSMBuilder_lateEvalEvent
+- _GTMTLSMBuilder_layer
+- _GTMTLSMBuilder_library
+- _GTMTLSMBuilder_motionEstimationPipeline
+- _GTMTLSMBuilder_mtl4FrameInterpolator
+- _GTMTLSMBuilder_mtl4SpatialScaler
+- _GTMTLSMBuilder_mtl4TemporalDenoisedScaler
+- _GTMTLSMBuilder_mtl4TemporalScaler
+- _GTMTLSMBuilder_pipelineLibrary
+- _GTMTLSMBuilder_rasterizationRateMap
+- _GTMTLSMBuilder_renderPipelineState
+- _GTMTLSMBuilder_residencySet
+- _GTMTLSMBuilder_resourceGroup
+- _GTMTLSMBuilder_samplerState
+- _GTMTLSMBuilder_sharedEvent
+- _GTMTLSMBuilder_spatialScaler
+- _GTMTLSMBuilder_streamIntersectionRange
+- _GTMTLSMBuilder_temporalDenoisedScaler
+- _GTMTLSMBuilder_temporalScaler
+- _GTMTLSMBuilder_tensor
+- _GTMTLSMBuilder_texture
+- _GTMTLSMBuilder_textureViewPool
+- _GTMTLSMBuilder_visibleFunctionTable
+- _GTMTLSMCommandBuffer_init
+- _GTMTLSMCommandBuffer_processTraceFunc
+- _GTMTLSMCommandEncoder_computePipelineState
+- _GTMTLSMCommandEncoder_hasEnded
+- _GTMTLSMCommandEncoder_init
+- _GTMTLSMCommandEncoder_processTraceFunc
+- _GTMTLSMCommandEncoder_renderCommandEncoder
+- _GTMTLSMCommandEncoder_renderPassDescriptor
+- _GTMTLSMCommandEncoder_renderPipelineState
+- _GTMTLSMCommandQueue_init
+- _GTMTLSMCommandQueue_processTraceFuncWithMap
+- _GTMTLSMCommandQueue_processTraceFuncWithPool
+- _GTMTLSMComputeCommandEncoder_init
+- _GTMTLSMComputeCommandEncoder_loadIndirectCommand
+- _GTMTLSMComputePipelineState_computeFunction
+- _GTMTLSMComputePipelineState_computePipelineDescriptor
+- _GTMTLSMComputePipelineState_computePipelineDescriptor4
+- _GTMTLSMComputePipelineState_hasDescriptor4
+- _GTMTLSMComputePipelineState_init
+- _GTMTLSMComputePipelineState_processTraceFuncWithMap
+- _GTMTLSMComputePipelineState_processTraceFuncWithPool
+- _GTMTLSMComputePipelineState_resourceAccess
+- _GTMTLSMComputePipelineState_uniqueIdentifierArray
+- _GTMTLSMContext_buildDeviceMirrorWithIgnoreFlags
+- _GTMTLSMContext_buildLibraryFunctionsMap
+- _GTMTLSMContext_buildResourceChildrenMap
+- _GTMTLSMContext_buildResourceChildrenMap2
+- _GTMTLSMContext_createDescriptorFromBuffer
+- _GTMTLSMContext_firstObject
+- _GTMTLSMContext_firstTensor
+- _GTMTLSMContext_getAccelerationStructure
+- _GTMTLSMContext_getAccelerationStructures
+- _GTMTLSMContext_getBuffer
+- _GTMTLSMContext_getBufferDescriptor
+- _GTMTLSMContext_getBuffers
+- _GTMTLSMContext_getCommandQueue
+- _GTMTLSMContext_getCommandQueues
+- _GTMTLSMContext_getCompilers
+- _GTMTLSMContext_getComputePipelineState
+- _GTMTLSMContext_getComputePipelineStates
+- _GTMTLSMContext_getCounterSampleBuffer
+- _GTMTLSMContext_getCounterSampleBuffers
+- _GTMTLSMContext_getDepthStencilState
+- _GTMTLSMContext_getDepthStencilStates
+- _GTMTLSMContext_getDevice
+- _GTMTLSMContext_getDrawable
+- _GTMTLSMContext_getDrawableTexture
+- _GTMTLSMContext_getDrawables
+- _GTMTLSMContext_getDynamicLibraries
+- _GTMTLSMContext_getEvent
+- _GTMTLSMContext_getEvents
+- _GTMTLSMContext_getFence
+- _GTMTLSMContext_getFences
+- _GTMTLSMContext_getFilter
+- _GTMTLSMContext_getFilters
+- _GTMTLSMContext_getFrameInterpolator
+- _GTMTLSMContext_getFrameInterpolators
+- _GTMTLSMContext_getFunction
+- _GTMTLSMContext_getFunctionHandle
+- _GTMTLSMContext_getFunctionHandles
+- _GTMTLSMContext_getFunctions
+- _GTMTLSMContext_getHeap
+- _GTMTLSMContext_getHeapAccelerationStructures
+- _GTMTLSMContext_getHeapBuffers
+- _GTMTLSMContext_getHeapResourcesWithType
+- _GTMTLSMContext_getHeapTextures
+- _GTMTLSMContext_getHeaps
+- _GTMTLSMContext_getIOCommandQueue
+- _GTMTLSMContext_getIOCommandQueues
+- _GTMTLSMContext_getIndirectCommandBuffer
+- _GTMTLSMContext_getIndirectCommandBuffers
+- _GTMTLSMContext_getIndirectComputeCommand
+- _GTMTLSMContext_getIndirectComputeCommands
+- _GTMTLSMContext_getIndirectRenderCommand
+- _GTMTLSMContext_getIndirectRenderCommands
+- _GTMTLSMContext_getIntersectionFunctionTable
+- _GTMTLSMContext_getIntersectionFunctionTables
+- _GTMTLSMContext_getLateEvalEvents
+- _GTMTLSMContext_getLayer
+- _GTMTLSMContext_getLayers
+- _GTMTLSMContext_getLibraries
+- _GTMTLSMContext_getMotionPipelineState
+- _GTMTLSMContext_getMotionPipelineStates
+- _GTMTLSMContext_getObject
+- _GTMTLSMContext_getObjectFunctionIndexRange
+- _GTMTLSMContext_getObjectTypeArray
+- _GTMTLSMContext_getObjects
+- _GTMTLSMContext_getParentAllocation
+- _GTMTLSMContext_getParentResource
+- _GTMTLSMContext_getPipelineLibraries
+- _GTMTLSMContext_getRasterizationRateMap
+- _GTMTLSMContext_getRasterizationRateMaps
+- _GTMTLSMContext_getRenderPipelineState
+- _GTMTLSMContext_getRenderPipelineStates
+- _GTMTLSMContext_getResidencySet
+- _GTMTLSMContext_getResidencySets
+- _GTMTLSMContext_getResourceGroup
+- _GTMTLSMContext_getResourceGroups
+- _GTMTLSMContext_getRootAllocation
+- _GTMTLSMContext_getRootResource
+- _GTMTLSMContext_getSamplerState
+- _GTMTLSMContext_getSamplerStates
+- _GTMTLSMContext_getSharedEvent
+- _GTMTLSMContext_getSharedEvents
+- _GTMTLSMContext_getSpatialScaler
+- _GTMTLSMContext_getSpatialScalers
+- _GTMTLSMContext_getTemporalDenoisedScaler
+- _GTMTLSMContext_getTemporalDenoisedScalers
+- _GTMTLSMContext_getTemporalScaler
+- _GTMTLSMContext_getTemporalScalers
+- _GTMTLSMContext_getTensor
+- _GTMTLSMContext_getTensors
+- _GTMTLSMContext_getTexture
+- _GTMTLSMContext_getTextureDescriptor
+- _GTMTLSMContext_getTextureInfo
+- _GTMTLSMContext_getTextureViewPool
+- _GTMTLSMContext_getTextureViewPools
+- _GTMTLSMContext_getTextures
+- _GTMTLSMContext_getVisibleFunctionTable
+- _GTMTLSMContext_getVisibleFunctionTables
+- _GTMTLSMContext_hasArgumentBuffers
+- _GTMTLSMContext_indirectCommandBufferResources
+- _GTMTLSMContext_intersectionFunctionTableBufferResources
+- _GTMTLSMContext_lastComputePipelineState
+- _GTMTLSMContext_lastFunction
+- _GTMTLSMContext_lastLibraries
+- _GTMTLSMContext_lastLibrary
+- _GTMTLSMContext_lastObject
+- _GTMTLSMContext_lastRenderPipelineState
+- _GTMTLSMContext_lastTexture
+- _GTMTLSMContext_maxCommandBufferCount
+- _GTMTLSMContext_removeDuplicatesFromChildrenMap
+- _GTMTLSMContext_resolveResourceHazardTrackingMode
+- _GTMTLSMContext_resolveRootResourceAllocatedSize
+- _GTMTLSMContext_resourcesAllocated
+- _GTMTLSMContext_resourcesDeallocated
+- _GTMTLSMCounterSampleBuffer_init
+- _GTMTLSMCounterSampleBuffer_processTraceFuncWithMap
+- _GTMTLSMCounterSampleBuffer_processTraceFuncWithPool
+- _GTMTLSMDepthStencilState_init
+- _GTMTLSMDepthStencilState_processTraceFuncWithMap
+- _GTMTLSMDepthStencilState_processTraceFuncWithPool
+- _GTMTLSMDepthStencilState_uniqueIdentifierArray
+- _GTMTLSMDevice_init
+- _GTMTLSMDevice_processTraceFuncWithMap
+- _GTMTLSMDevice_processTraceFuncWithPool
+- _GTMTLSMDrawable_init
+- _GTMTLSMDrawable_processTraceFuncWithMap
+- _GTMTLSMDrawable_processTraceFuncWithPool
+- _GTMTLSMDynamicLibrary_init
+- _GTMTLSMDynamicLibrary_processTraceFuncWithMap
+- _GTMTLSMDynamicLibrary_processTraceFuncWithPool
+- _GTMTLSMEvent_init
+- _GTMTLSMEvent_processTraceFuncWithMap
+- _GTMTLSMEvent_processTraceFuncWithPool
+- _GTMTLSMFence_init
+- _GTMTLSMFence_processTraceFuncWithMap
+- _GTMTLSMFence_processTraceFuncWithPool
+- _GTMTLSMFilter_init
+- _GTMTLSMFilter_processTraceFuncWithMap
+- _GTMTLSMFilter_processTraceFuncWithPool
+- _GTMTLSMFunctionHandle_init
+- _GTMTLSMFunctionHandle_processTraceFuncWithMap
+- _GTMTLSMFunctionHandle_processTraceFuncWithPool
+- _GTMTLSMFunction_init
+- _GTMTLSMFunction_processTraceFuncWithMap
+- _GTMTLSMFunction_processTraceFuncWithPool
+- _GTMTLSMHeap_init
+- _GTMTLSMHeap_processTraceFuncWithMap
+- _GTMTLSMHeap_processTraceFuncWithPool
+- _GTMTLSMIOCommandBuffer_init
+- _GTMTLSMIOCommandBuffer_processTraceFunc
+- _GTMTLSMIOCommandQueue_init
+- _GTMTLSMIOCommandQueue_processTraceFuncWithMap
+- _GTMTLSMIOCommandQueue_processTraceFuncWithPool
+- _GTMTLSMIOFileHandle_init
+- _GTMTLSMIOHandle_processTraceFuncWithMap
+- _GTMTLSMIOHandle_processTraceFuncWithPool
+- _GTMTLSMIndirectCommandBuffer_init
+- _GTMTLSMIndirectCommandBuffer_processTraceFuncWithMap
+- _GTMTLSMIndirectCommandBuffer_processTraceFuncWithPool
+- _GTMTLSMIndirectCommandBuffer_uniqueIdentifierArray
+- _GTMTLSMIndirectComputeCommand_init
+- _GTMTLSMIndirectComputeCommand_processTraceFuncWithMap
+- _GTMTLSMIndirectComputeCommand_processTraceFuncWithPool
+- _GTMTLSMIndirectRenderCommand_init
+- _GTMTLSMIndirectRenderCommand_processTraceFuncWithMap
+- _GTMTLSMIndirectRenderCommand_processTraceFuncWithPool
+- _GTMTLSMIntersectionFunctionTableStateful_init
+- _GTMTLSMIntersectionFunctionTableStateful_processTraceFuncWithMap
+- _GTMTLSMIntersectionFunctionTableStateful_processTraceFuncWithPool
+- _GTMTLSMIntersectionFunctionTable_init
+- _GTMTLSMIntersectionFunctionTable_processTraceFuncWithMap
+- _GTMTLSMIntersectionFunctionTable_processTraceFuncWithPool
+- _GTMTLSMLateEvalEvent_init
+- _GTMTLSMLateEvalEvent_processTraceFuncWithMap
+- _GTMTLSMLateEvalEvent_processTraceFuncWithPool
+- _GTMTLSMLayer_init
+- _GTMTLSMLayer_processTraceFuncWithMap
+- _GTMTLSMLayer_processTraceFuncWithPool
+- _GTMTLSMLibrary_init
+- _GTMTLSMLibrary_processTraceFuncWithMap
+- _GTMTLSMLibrary_processTraceFuncWithPool
+- _GTMTLSMMotionEstimationPipelineState_init
+- _GTMTLSMMotionEstimationPipelineState_processTraceFuncWithMap
+- _GTMTLSMMotionEstimationPipelineState_processTraceFuncWithPool
+- _GTMTLSMObjectPtr_compare
+- _GTMTLSMObject_compare
+- _GTMTLSMObject_lastObject
+- _GTMTLSMObject_objectAtIndex
+- _GTMTLSMObject_sortUsedResources
+- _GTMTLSMParallelCommandEncoder_init
+- _GTMTLSMPipelineLibrary_init
+- _GTMTLSMPipelineLibrary_processTraceFuncWithMap
+- _GTMTLSMPipelineLibrary_processTraceFuncWithPool
+- _GTMTLSMPipelineState_isIntersectionFunctionTableCompatible
+- _GTMTLSMPipelineState_isVisibleFunctionTableCompatible
+- _GTMTLSMPipelineState_sortIndirectResources
+- _GTMTLSMPipelineState_supportsIndirectCommandBuffers
+- _GTMTLSMRasterizationRateMap_init
+- _GTMTLSMRasterizationRateMap_processTraceFuncWithMap
+- _GTMTLSMRasterizationRateMap_processTraceFuncWithPool
+- _GTMTLSMRenderCommandEncoder_init
+- _GTMTLSMRenderCommandEncoder_loadIndirectCommand
+- _GTMTLSMRenderPipelineState_MTL4MeshPipelineDescriptor
+- _GTMTLSMRenderPipelineState_MTL4RenderPipelineDescriptor
+- _GTMTLSMRenderPipelineState_MTL4TilePipelineDescriptor
+- _GTMTLSMRenderPipelineState_anyRenderPipelineDescriptor
+- _GTMTLSMRenderPipelineState_fragmentFunction
+- _GTMTLSMRenderPipelineState_init
+- _GTMTLSMRenderPipelineState_meshPipelineDescriptor
+- _GTMTLSMRenderPipelineState_processTraceFuncWithMap
+- _GTMTLSMRenderPipelineState_processTraceFuncWithPool
+- _GTMTLSMRenderPipelineState_rasterSampleCount
+- _GTMTLSMRenderPipelineState_renderPipelineDescriptor
+- _GTMTLSMRenderPipelineState_renderPipelineDescriptorType
+- _GTMTLSMRenderPipelineState_resourceAccess
+- _GTMTLSMRenderPipelineState_tilePipelineDescriptor
+- _GTMTLSMRenderPipelineState_uniqueIdentifierArray
+- _GTMTLSMResidencySetAllocations_init
+- _GTMTLSMResidencySetAllocations_reset
+- _GTMTLSMResidencySet_init
+- _GTMTLSMResidencySet_processTraceFuncWithMap
+- _GTMTLSMResidencySet_processTraceFuncWithPool
+- _GTMTLSMResourceGroup_init
+- _GTMTLSMResourceGroup_processTraceFuncWithMap
+- _GTMTLSMResourceGroup_processTraceFuncWithPool
+- _GTMTLSMSamplerState_init
+- _GTMTLSMSamplerState_processTraceFuncWithMap
+- _GTMTLSMSamplerState_processTraceFuncWithPool
+- _GTMTLSMSamplerState_sortIndirectResources
+- _GTMTLSMSamplerState_uniqueIdentifierArray
+- _GTMTLSMSharedEvent_init
+- _GTMTLSMSharedEvent_processTraceFuncWithMap
+- _GTMTLSMSharedEvent_processTraceFuncWithPool
+- _GTMTLSMTensor_init
+- _GTMTLSMTensor_processTraceFuncWithMap
+- _GTMTLSMTensor_processTraceFuncWithPool
+- _GTMTLSMTextureViewPool_init
+- _GTMTLSMTextureViewPool_processTraceFuncWithMap
+- _GTMTLSMTextureViewPool_processTraceFuncWithPool
+- _GTMTLSMTexture_init
+- _GTMTLSMTexture_processTraceFuncWithMap
+- _GTMTLSMTexture_processTraceFuncWithPool
+- _GTMTLSMTexture_uniqueIdentifierArray
+- _GTMTLSMVisibleFunctionTableStateful_init
+- _GTMTLSMVisibleFunctionTableStateful_processTraceFuncWithMap
+- _GTMTLSMVisibleFunctionTableStateful_processTraceFuncWithPool
+- _GTMTLSMVisibleFunctionTable_init
+- _GTMTLSMVisibleFunctionTable_processTraceFuncWithMap
+- _GTMTLSMVisibleFunctionTable_processTraceFuncWithPool
+- _GTMemoryGuard_copyTracedChunks
+- _GTMemoryGuard_registerRegion
+- _GTMemoryGuard_unregisterRegion
+- _GTResourceDownloaderRequest_compareType
+- _InitializeMemoryGuardOnce
+- _MakeMTL4PipelineDescriptor
+- _ProcessDeviceBuffer
+- _ResourceTypeSortOrder
+- _SaveMTLCaptureDescriptor
+- _ShouldRegisterBufferForTracing
+- _StreamForLayer
+- _TranslateGTMTLCaptureDescriptor
+- _WriteGTMTLSMAccelerationStructure_new
+- _WriteGTMTLSMAccelerationStructure_properties
+- _WriteGTMTLSMBuffer_debugMarkers
+- _WriteGTMTLSMBuffer_properties
+- _WriteGTMTLSMBuffer_resources
+- _WriteGTMTLSMBuffer_restore
+- _WriteGTMTLSMDynamicLibrary
+- _WriteGTMTLSMEvent
+- _WriteGTMTLSMFence
+- _WriteGTMTLSMFunction
+- _WriteGTMTLSMFunctionHandle
+- _WriteGTMTLSMIndirectCommandBuffer_restore
+- _WriteGTMTLSMLateEvalEvent
+- _WriteGTMTLSMLibrary
+- _WriteGTMTLSMResidencySet
+- _WriteGTMTLSMResourceGroup
+- _WriteGTMTLSMSharedEvent
+- _WriteGTMTLSMTextureViewPool
+- _WriteGTMTLSMTexture_downloads
+- _WriteGTMTLSMTexture_properties
+- _WriteGTMTLSMTexture_restoreTextureData
+- _WriteGTMTLSMTexture_textureViews
+- _WriteGTMTLSMVisibleFunctionTable
+- __Block_byref_object_copy_.11702
+- __Block_byref_object_copy_.4006
+- __Block_byref_object_copy_.4509
+- __Block_byref_object_copy_.7172
+- __Block_byref_object_copy_.8387
+- __Block_byref_object_dispose_.11703
+- __Block_byref_object_dispose_.4007
+- __Block_byref_object_dispose_.4510
+- __Block_byref_object_dispose_.7173
+- __Block_byref_object_dispose_.8388
+- __GTAccelerationStructureDescriptorDownloader_MTL4_postProcess_block_invoke.41
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE4findIxEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxPU18objcproto8NSObject11objc_objectEENS_22__unordered_map_hasherIxNS_4pairIKxS3_EENS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS8_SC_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__16vectorI16GTTelemetryLayerNS_9allocatorIS1_EEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__16vectorI16GTTelemetryQueueNS_9allocatorIS1_EEE20__throw_length_errorB9nqn210106Ev
+- __ZNSt3__16vectorI16GTTelemetryQueueNS_9allocatorIS1_EEE9push_backB9nqn210106ERKS1_
+- __ZNSt3__16vectorI17GTTelemetryDeviceNS_9allocatorIS1_EEE20__throw_length_errorB9nqn210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqn210106v
+- ___66-[GTResourceDownloader _downloadRequestOld:atPoint:dispatchGroup:]_block_invoke
+- ___block_descriptor_56_e8_32s40s48bs_e46_v24?0"<MTLRenderPipelineState>"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e30_v16?0"<MTL4CommitFeedback>"8ls32l8s40l8s48l8s56l8
+- __block_descriptor_tmp.15394
+- __block_literal_global.10437
+- __block_literal_global.10933
+- __block_literal_global.11706
+- __block_literal_global.12148
+- __block_literal_global.127
+- __block_literal_global.128
+- __block_literal_global.138
+- __block_literal_global.15257
+- __block_literal_global.15493
+- __block_literal_global.15564
+- __block_literal_global.15578
+- __block_literal_global.1698
+- __block_literal_global.205
+- __block_literal_global.20665
+- __block_literal_global.269
+- __block_literal_global.275
+- __block_literal_global.3054
+- __block_literal_global.363
+- __block_literal_global.369
+- __block_literal_global.4336
+- __block_literal_global.4521
+- __block_literal_global.459
+- __block_literal_global.8107
+- __block_literal_global.8543
+- __block_literal_global.9558
+- _objc_msgSend$_downloadRequest:atPoint:dispatchGroup:
+- _objc_msgSend$_downloadRequestOld:atPoint:dispatchGroup:
+- _objc_msgSend$arraySizeWithCopyOps:fromTexture:apiOpCount:
+- _objc_msgSend$computeRequiredBufferByteCountWithDevice:descriptor:
+- _objc_msgSend$createContext:
+- _objc_msgSend$downloadRequest:
+- _objc_msgSend$downloadRequest:atPoint:
+- _objc_msgSend$dumpTextureMappingsWithCallback:texture:userdata:
+- _objc_msgSend$fillArrayWithCopyOps:fromTexture:apiOpCount:gpuOps:
+- _objc_msgSend$heaps
+- _objc_msgSend$initWithBuffer:descriptor:
+- _objc_msgSend$initWithQueue:forRequest:
+- _objc_msgSend$internalMTLBuffer
+- _objc_msgSend$registerTexture:descriptor:
+- _pthread_once
+- _sparseMappingsCallback
+- _tempAlloc
+- _tempAlloc$tlv$init
+- _tracedChunks
+- _tracingMutex
+- _tracingPool
+- _tracingRegions
+- name_array.16647
+- newHeapWithDescriptor:.onceToken.273
+- s_accelerationStructureDescriptorDownloaderPipelinesToken.7896
+- s_downloaderPipelines.0
+- s_downloaderPipelines.0.7902
+- s_downloaderPipelines.1
+- s_downloaderPipelines.1.7903
+- s_downloaderPipelines.2
+- s_downloaderPipelines.2.7904
+- s_downloaderPipelines.3
+- s_downloaderPipelines.3.7905
+- s_downloaderPipelines.4
+- s_downloaderPipelines.4.7906
+- waitUntilSignaledValue:timeoutMS:.onceToken.13711
+CStrings:
++ "\nA"
++ "\r"
++ "        countMetalFXHistory: %llu"
++ "        countMetalFXHistory: %llu\n"
++ "  allocated: L2=%zu/%zu (×%zu B = %zu B)  L3=%zu/%zu (×%zu B = %zu B)"
++ "  allocated: L2=%zu/%zu (×%zu B = %zu B)  L3=%zu/%zu (×%zu B = %zu B)\n"
++ "  config:    chunk=%zu B  L1=%zu  L2=%zu  L3=%zu bits"
++ "  config:    chunk=%zu B  L1=%zu  L2=%zu  L3=%zu bits\n"
++ "  dirty:     %zu chunks"
++ "  dirty:     %zu chunks\n"
++ "  memory:    L1=%zu B  L2=%zu B  L3=%zu B  snapshot=%zu B  total=%zu B"
++ "  memory:    L1=%zu B  L2=%zu B  L3=%zu B  snapshot=%zu B  total=%zu B\n"
++ "  page:      %zu bytes"
++ "  page:      %zu bytes\n"
++ "  snapshot:  %zu B allocated  %zu chunks last snapshot"
++ "  snapshot:  %zu B allocated  %zu chunks last snapshot\n"
++ "  watched:   %zu chunks  (%zu B tracked)"
++ "  watched:   %zu chunks  (%zu B tracked)\n"
++ " stateDispIdx:%lluu usageDispIdx:%llu"
++ "!(header->flags & 0x00002000)"
++ "\"%s\""
++ "%@[name=%lu, ref=%llu]"
++ "%dh %dm"
++ "%dm %ds"
++ "%ds"
++ "%s  Condition #%d: %s/%s [%u/%u]"
++ "%s  Condition #%d: %s/%s [%u/%u]\n"
++ "%s  Subgroup #%d:"
++ "%s  Subgroup #%d:\n"
++ "%s--🛡️ --%s:"
++ "%s--🛡️ --%s:\n"
++ "%sGroup (%s):"
++ "%sGroup (%s):\n"
++ "%s[name=%lu, ref=%llu]"
++ "(memcmp((const char*)bytes + offset + 1, (\"p@16ddd\") + 1, sizeof(\"p@16ddd\") - 1) == 0)"
++ "(memcmp((const char*)bytes + offset + 1, (\"p@2d\") + 1, sizeof(\"p@2d\") - 1) == 0)"
++ "*(const char*)bytes == 'p' || *(const char*)bytes == 't'"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_hash.c:95"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_proc.c:33"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_proc_mutex.c:1155"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_random.c:135"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_random.c:136"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:189"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:271"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:70"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_thread_mutex.c:50"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/capture/mtl/CaptureMTLTextureViewPool.m:53"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/core/GTCoreErrors.m:327"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/core/GTCoreErrors.m:339"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/core/GTCoreMetal.m:456"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/download/GTAccelerationStructureDescriptorDownloader.m:99"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/download/GTAccelerationStructureDescriptorDownloader_MTL4.m:57"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/download/memwatch/GTChunkTable.c:133"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/download/memwatch/GTChunkTable.c:141"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/dump/GTTraceDispatch.c:1175"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/dump/GTTraceDump.c:53"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:278"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:349"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:408"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:685"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTMTLCaptureManager_prepareForSerialization.m:564"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTMTLCaptureState.m:28"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/fbstream.m:37"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/sm/GTSMMTLBuilder.c:2612"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trace/GTTraceContext.c:162"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trace/GTTraceStoreDebug.c:143"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trace/GTTraceStoreDebug.c:166"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTCaptureBoundaryTracker.c:156"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTEventTracker.c:289"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTEventTracker.c:313"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceHarvest.c:52"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceTracker.c:230"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceTracker_abs.c:570"
++ "0xffffc0e9"
++ "0xffffc0ea"
++ "10 <= parser.ntokens"
++ "12 <= parser.ntokens"
++ "13 <= parser.ntokens"
++ "2 <= parser.ntokens"
++ "4 <= parser.ntokens"
++ "6 <= parser.ntokens"
++ "7 <= parser.ntokens"
++ "9 <= parser.ntokens"
++ "@\"<MTL4CommandQueue>\""
++ "@\"<MTL4CommandQueueGGDSPI>\""
++ "@\"<MTLTensor>\"40@0:8@\"MTLTensorDescriptor\"16@\"MTLTensorBufferAttachments\"24^@32"
++ "@\"<MTLTexture>\"32@0:8@\"MTLSharedTextureHandle\"16Q24"
++ "@\"MTLGenericAddressSpaceDispatchInfo\"16@0:8"
++ "@40@0:8@16Q24q32"
++ "@40@0:8@16^{apr_array_header_t=^{apr_pool_t}iii*}24@?32"
++ "A blocking syscall is writing to GPU shared memory, preventing optimized shared memory capture from safely protecting pages."
++ "AND"
++ "Apple Paravirtual device GPU"
++ "Argument Buffers"
++ "Argument buffers are not supported on paravirtual devices."
++ "Avoid performing blocking I/O directly into GPU shared memory or set optimized shared memory capture to disabled"
++ "B24@?0{GTRange=QQ}8"
++ "B32@0:8@?16Q24"
++ "C@4dd@4dulil"
++ "C@6ulululU<b>ulul"
++ "CU<b>tt"
++ "CU<b>ulul@6ulululul"
++ "CUUUU"
++ "CUUt"
++ "CUt"
++ "CUulul"
++ "Cannot restore old exception handler (behavior=0x%x port=0x%x)"
++ "Cannot restore old exception handler (behavior=0x%x port=0x%x)\n"
++ "Chunk table stats:"
++ "Chunk table stats:\n"
++ "CiulSl"
++ "CiulSlS"
++ "Could not find included source (%s). Error: %s"
++ "Cui"
++ "Cult"
++ "Culult"
++ "DownloadBuffer"
++ "DownloadHeap"
++ "DrainInflightSyscalls timed out after %llu ms with %d syscalls still in flight"
++ "DrainInflightSyscalls timed out after %llu ms with %d syscalls still in flight\n"
++ "Dump"
++ "Event buffer (CPU) index %i: function index: %7llu"
++ "Event buffer (GPU) index %4i: function index: %7llu"
++ "Failed to acquire working directory"
++ "Failed to allocate exception port: %s"
++ "Failed to allocate exception port: %s\n"
++ "Failed to allocate sparse page table buffer of size %lu"
++ "Failed to create exception server thread: %s"
++ "Failed to create exception server thread: %s\n"
++ "Failed to detach exception server thread: %s"
++ "Failed to detach exception server thread: %s\n"
++ "Failed to get thread port for EXCEPTION_DEFAULT forwarding"
++ "Failed to get thread port for EXCEPTION_DEFAULT forwarding\n"
++ "Failed to get thread port for state-based forwarding"
++ "Failed to get thread port for state-based forwarding\n"
++ "Failed to insert send right for exception port: %s"
++ "Failed to insert send right for exception port: %s\n"
++ "Failed to protect %p size:%zu"
++ "Failed to protect %p size:%zu\n"
++ "Failed to restore old exception handler: %s"
++ "Failed to restore old exception handler: %s\n"
++ "Failed to restore r/w protection during cleanup: mprotect(%p, %zu, rw-) errno:%d (%s)"
++ "Failed to restore r/w protection during cleanup: mprotect(%p, %zu, rw-) errno:%d (%s)\n"
++ "Failed to restore r/w protection during unwatch: mprotect(%p, %zu, rw-) errno:%d (%s)"
++ "Failed to restore r/w protection during unwatch: mprotect(%p, %zu, rw-) errno:%d (%s)\n"
++ "Failed to swap exception ports: %s"
++ "Failed to swap exception ports: %s\n"
++ "Failed to unprotect pages at %p length %zu"
++ "Failed to unprotect pages at %p length %zu\n"
++ "FillPrimitiveAccelerationStructureHeader"
++ "FillPrimitiveHeader"
++ "FillPrimitiveaccelerationStructureHeader"
++ "GTMTLCaptureEventBuffer_append"
++ "GTMTLCapture_copyCompressionMetadata"
++ "GTMTLResidencySetResource"
++ "IsDebuggerAttached sysctl KERN_PROC_PID failed: %s"
++ "IsDebuggerAttached sysctl KERN_PROC_PID failed: %s\n"
++ "MFXTemporalScalerEncoded"
++ "MTLAccelerationStructure-indexCounts-%llu-%u"
++ "MTLAccelerationStructure-indexTypes-%llu-%u"
++ "MTLCAPTURE_MEMWATCH_DRAIN_TIMEOUT_MS"
++ "MTLCAPTURE_MEMWATCH_MODE"
++ "MTLCAPTURE_MEMWATCH_SMALLEST_BUFFER_SIZE"
++ "MTLCAPTURE_METALFX_HISTORY"
++ "MTLCAPTURE_TRACK_ACCELERATION_STRUCTURE_INDEX_COUNT"
++ "MTLTensorAuxiliaryPlane"
++ "MTLTexture-%llu-%u-compressionMetadata"
++ "MemWatch"
++ "Multiplanar tensors"
++ "OR"
++ "Old exception handler (behavior %d) returned %s, trying next"
++ "Old exception handler (behavior %d) returned %s, trying next\n"
++ "Optimized shared memory capture will not work under Rosetta with a debugger attached"
++ "OptimizedSharedMemoryCapture"
++ "Q32@0:8Q16q24"
++ "Q32@0:8r^{?=Q{_NSRange=QQ}Q}16Q24"
++ "Q40@0:8@16@24@32"
++ "Q40@0:8r^{?=Q{_NSRange=QQ}Q}16Q24^{SparsePageTableUpdateOpGPU=QQQ}32"
++ "Q40@0:8r^{?={_NSRange=QQ}Q}16Q24Q32"
++ "Q48@0:8r^{?={_NSRange=QQ}Q}16Q24Q32^{SparsePageTableCopyOpGPU=QQ}40"
++ "Restored old exception handler (behavior=0x%x port=0x%x)"
++ "Restored old exception handler (behavior=0x%x port=0x%x)\n"
++ "Set optimized shared memory capture to automatic or disabled"
++ "SparseBufferPageTable"
++ "T@\"<MTLResidencySet>\",&,N,V_object"
++ "T@\"<MTLResidencySet>\",R,V_accelerationStructureDescriptorDownloaderResidencySet"
++ "T@\"MTLGenericAddressSpaceDispatchInfo\",R"
++ "T@\"NSMutableArray\",R,N,V_captureAllocatedObjects"
++ "T@\"NSMutableDictionary\",R"
++ "T@?,C,N,V_downloadCallback"
++ "TQ,N,V_bufferStream"
++ "TQ,N,V_firstMipmapInTail"
++ "TQ,N,V_targetBufferLength"
++ "TQ,N,VcountMetalFXHistory"
++ "TQ,R,N,V_tailSizeInTiles"
++ "Telemetry"
++ "Tq,N,V_placementSparsePageSize"
++ "Try relaunching your application and capturing with optimized shared memory capture set to automatic or disabled"
++ "Unable to set up optimized shared memory capture"
++ "Unknown exception behavior %d for old handler"
++ "Unknown exception behavior %d for old handler\n"
++ "\\"
++ "\\/"
++ "\\\\"
++ "^\\s*#(?:include|import)\\s+\"([^\"]+)\""
++ "^{TextureViewSlot={MTLResourceID=Q}b63b1(?={?=QQ{GTMTLTextureDescriptor=QQIIISSSSSCCCCCCCCCCCCCC[4C]}}{?=B[7c]{GTMTLTextureViewDescriptor={GTRange=QQ}{GTRange=QQ}fISC[5C]}})}"
++ "_accelerationStructureDescriptorDownloaderResidencySet"
++ "_accelerationStructures"
++ "_bufferStream"
++ "_bufferTables"
++ "_captureAllocatedObjects"
++ "_captureDistortionTexture"
++ "_copyMappingsPipeline"
++ "_copyMetadataPipeline"
++ "_deallocatedBuffers"
++ "_downloadCallback"
++ "_downloadRequest:atPoint:dispatchGroup:downloadCallback:"
++ "_downloadVersions"
++ "_firstMipmapInTail"
++ "_metadataCommandQueue"
++ "_placementSparsePageSize"
++ "_residencySets"
++ "_retainedCommandEncoders"
++ "_tailSizeInTiles"
++ "_targetBufferLength"
++ "_updateMappingsPipeline"
++ "accelerationStructureDescriptorDownloaderResidencySet"
++ "accelerationStructures"
++ "acquireResidencySet"
++ "addInternalResidencySet:"
++ "addInternalResidencySets:count:"
++ "alphanumericCharacterSet"
++ "arraySizeWithCopyOps:fromPageTable:apiOpCount:"
++ "arraySizeWithCopyOps:sourceLength:apiOpCount:"
++ "attribs != ((void*)0)"
++ "auxiliaryPlanes"
++ "blockFactors"
++ "bufferStream"
++ "captureAllocatedObjects"
++ "colorContentOffsetX"
++ "colorContentOffsetY"
++ "com.apple.gputools.CompressionMetadataCopyArgs"
++ "com.apple.gputools.CompressionMetadataStaging"
++ "com.apple.gputools.DownloadCompressionMetadata"
++ "com.apple.gputools.GTResourceDownloader"
++ "com.apple.gputools.GTResourceDownloader.downloadQueue"
++ "com.apple.gputools.SparseTextureMappingBuffer"
++ "com.apple.gputools.shared-mem-opt"
++ "com.apple.private.set-exception-port"
++ "commitBlock:"
++ "componentsSeparatedByCharactersInSet:"
++ "computeRequiredBufferByteCountWithDevice:descriptor:texture:"
++ "computeRequiredBufferByteCountWithLength:placementSparsePageSize:"
++ "copyBufferMappings:source:destination:operations:count:"
++ "copyFromTensor:sourceOrigin:sourceDimensions:sourcePlane:toTensor:destinationOrigin:destinationDimensions:destinationPlane:"
++ "countMetalFXHistory"
++ "createContext:downloadCallback:"
++ "dataWithContentsOfFile:options:error:"
++ "depthContentOffsetX"
++ "depthContentOffsetY"
++ "descriptorForPlane:"
++ "distortionHeight"
++ "distortionOffsetX"
++ "distortionOffsetY"
++ "distortionTexture"
++ "distortionWidth"
++ "downloadCallback"
++ "downloadCompressionMetadataForTexture:gpuAddress:length:"
++ "downloadRequest:atPoint:downloadCallback:"
++ "downloadRequest:downloadCallback:"
++ "dummyEncodeMTL4ComputePSOIntoArgumentBufferForResourceIndex:withDescriptor:"
++ "dummyEncodeMTL4RenderPSOIntoArgumentBufferForResourceIndex:withDescriptor:"
++ "dumpBufferMappingsWithCallback:buffer:"
++ "dumpTextureMappingsWithCallback:texture:"
++ "enumerateHeapsWithBlock:"
++ "enumerateMatchesInString:options:range:usingBlock:"
++ "err == 0"
++ "err == 0 || err == 2"
++ "fail: Failed to create acceleration structure descriptor downloader residency set: %@"
++ "fail: Failed to create acceleration structure descriptor process event"
++ "fail: GTMTLCaptureEventBuffer - Failed to create MTLLibrary: %s"
++ "fail: GTMTLCaptureSparsePageTables - Failed to get MSL shader for sparse page tables: copyCompressionMetadata"
++ "fail: GTMTLCaptureSparsePageTables - Unable to create command queue for compression metadata: %s"
++ "fail: GTMTLCaptureSparsePageTables - Unable to create compute pipeline for sparse page tables (copyCompressionMetadata): %s"
++ "fail: GTMTLCaptureSparsePageTables - Unable to create compute pipeline for sparse page tables (copyMappings): %s"
++ "fail: GTMTLCaptureSparsePageTables - Unable to create compute pipeline for sparse page tables (updateMappings): %s"
++ "fail: sparseTileSizeInBytes returned 0"
++ "fillArrayWithCopyOps:fromPageTable:apiOpCount:gpuOps:"
++ "fillArrayWithCopyOps:sourceLength:apiOpCount:gpuOps:"
++ "fragmentGlobalConstantsTag"
++ "genericAddressSpaceDispatchInfo"
++ "getBytes:strides:fromSliceOrigin:sliceDimensions:plane:"
++ "globalConstantsTag"
++ "header->fenum == kDYFEInternalData"
++ "header->flags & 0x00001000"
++ "i32@?0r^v8^{apr_hash_t=}16^{apr_array_header_t=^{apr_pool_t}iii*}24"
++ "initWithBuffer:descriptor:texture:"
++ "initWithBuffer:length:placementSparsePageSize:"
++ "initWithName:"
++ "initWithQueue:forRequest:downloadCallback:"
++ "invertedSet"
++ "isAbsolutePath"
++ "isArrayType"
++ "isDistortionTextureEnabled"
++ "isJitteredMotionVectorsEnabled"
++ "isOutputResolutionMotionVectorsEnabled"
++ "isStructType"
++ "is_memwatch"
++ "it->fenum == kDYFEInternalData"
++ "kDYFEMTL4CommandQueue_addInternalResidencySet"
++ "kDYFEMTL4CommandQueue_addInternalResidencySets_count"
++ "kDYFEMTL4CommandQueue_commitBlock"
++ "kDYFEMTL4CommandQueue_getBackgroundGPUPriority"
++ "kDYFEMTL4CommandQueue_getGPUPriority"
++ "kDYFEMTL4CommandQueue_preCommit_count_error"
++ "kDYFEMTL4CommandQueue_preCommit_count_options"
++ "kDYFEMTL4CommandQueue_removeInternalResidencySet"
++ "kDYFEMTL4CommandQueue_removeInternalResidencySets_count"
++ "kDYFEMTL4CommandQueue_setBackgroundGPUPriority"
++ "kDYFEMTL4CommandQueue_setGPUPriority"
++ "kDYFEMTL4CommandQueue_waitForEvent_value_timeout"
++ "kDYFEMTL4ComputeCommandEncoder_copyFromTensor_sourceOrigin_sourceDimensions_sourcePlane_toTensor_destinationOrigin_destinationDimensions_destinationPlane"
++ "kDYFEMTL4FXFrameInterpolator_setContentHeight"
++ "kDYFEMTL4FXFrameInterpolator_setContentWidth"
++ "kDYFEMTL4FXFrameInterpolator_setDepthContentOffsetX"
++ "kDYFEMTL4FXFrameInterpolator_setDepthContentOffsetY"
++ "kDYFEMTL4FXFrameInterpolator_setDistortionHeight"
++ "kDYFEMTL4FXFrameInterpolator_setDistortionOffsetX"
++ "kDYFEMTL4FXFrameInterpolator_setDistortionOffsetY"
++ "kDYFEMTL4FXFrameInterpolator_setDistortionTexture"
++ "kDYFEMTL4FXFrameInterpolator_setDistortionWidth"
++ "kDYFEMTL4FXFrameInterpolator_setMotionContentOffsetX"
++ "kDYFEMTL4FXFrameInterpolator_setMotionContentOffsetY"
++ "kDYFEMTL4FXFrameInterpolator_setOutputOffsetX"
++ "kDYFEMTL4FXFrameInterpolator_setOutputOffsetY"
++ "kDYFEMTL4FXTemporalScaler_setColorContentOffsetX"
++ "kDYFEMTL4FXTemporalScaler_setColorContentOffsetY"
++ "kDYFEMTL4FXTemporalScaler_setDepthContentOffsetX"
++ "kDYFEMTL4FXTemporalScaler_setDepthContentOffsetY"
++ "kDYFEMTL4FXTemporalScaler_setMotionContentOffsetX"
++ "kDYFEMTL4FXTemporalScaler_setMotionContentOffsetY"
++ "kDYFEMTL4FXTemporalScaler_setOutputOffsetX"
++ "kDYFEMTL4FXTemporalScaler_setOutputOffsetY"
++ "kDYFEMTL4FXTemporalScaler_setReactiveMaskContentOffsetX"
++ "kDYFEMTL4FXTemporalScaler_setReactiveMaskContentOffsetY"
++ "kDYFEMTLAccelerationStructure_indexInfo"
++ "kDYFEMTLAccelerationStructure_usage"
++ "kDYFEMTLBlitCommandEncoder_copyFromTensor_sourceOrigin_sourceDimensions_sourcePlane_toTensor_destinationOrigin_destinationDimensions_destinationPlane"
++ "kDYFEMTLCommandBuffer_sampledAccelerationStructureCommandEncoderWithDescriptor_programInfoBuffer_capacity"
++ "kDYFEMTLCommandBuffer_sampledAccelerationStructureCommandEncoder_capacity"
++ "kDYFEMTLCommandBuffer_sampledBlitCommandEncoderWithDescriptor_programInfoBuffer_capacity"
++ "kDYFEMTLCommandBuffer_sampledBlitCommandEncoder_capacity"
++ "kDYFEMTLCommandBuffer_useInternalResidencySet"
++ "kDYFEMTLCommandBuffer_useInternalResidencySets_count"
++ "kDYFEMTLComputePipelineState_recommendedPersistentThreadgroupsPerGridFor"
++ "kDYFEMTLComputePipelineState_recommendedPersistentThreadgroupsPerGridForThreadsPerThreadgroup"
++ "kDYFEMTLDevice_newSharedTextureWithHandle_withResourceIndex"
++ "kDYFEMTLDevice_newTensorWithDescriptor_attachments_error"
++ "kDYFEMTLDevice_originalDefaultCompilerProcessesCount"
++ "kDYFEMTLDevice_originalThreadsPerCompilerProcess"
++ "kDYFEMTLFXFrameInterpolator_setContentHeight"
++ "kDYFEMTLFXFrameInterpolator_setContentWidth"
++ "kDYFEMTLFXFrameInterpolator_setDepthContentOffsetX"
++ "kDYFEMTLFXFrameInterpolator_setDepthContentOffsetY"
++ "kDYFEMTLFXFrameInterpolator_setDistortionHeight"
++ "kDYFEMTLFXFrameInterpolator_setDistortionOffsetX"
++ "kDYFEMTLFXFrameInterpolator_setDistortionOffsetY"
++ "kDYFEMTLFXFrameInterpolator_setDistortionTexture"
++ "kDYFEMTLFXFrameInterpolator_setDistortionWidth"
++ "kDYFEMTLFXFrameInterpolator_setMotionContentOffsetX"
++ "kDYFEMTLFXFrameInterpolator_setMotionContentOffsetY"
++ "kDYFEMTLFXFrameInterpolator_setOutputOffsetX"
++ "kDYFEMTLFXFrameInterpolator_setOutputOffsetY"
++ "kDYFEMTLFXTemporalScaler_setColorContentOffsetX"
++ "kDYFEMTLFXTemporalScaler_setColorContentOffsetY"
++ "kDYFEMTLFXTemporalScaler_setDepthContentOffsetX"
++ "kDYFEMTLFXTemporalScaler_setDepthContentOffsetY"
++ "kDYFEMTLFXTemporalScaler_setMotionContentOffsetX"
++ "kDYFEMTLFXTemporalScaler_setMotionContentOffsetY"
++ "kDYFEMTLFXTemporalScaler_setOutputOffsetX"
++ "kDYFEMTLFXTemporalScaler_setOutputOffsetY"
++ "kDYFEMTLFXTemporalScaler_setReactiveMaskContentOffsetX"
++ "kDYFEMTLFXTemporalScaler_setReactiveMaskContentOffsetY"
++ "kDYFEMTLTensorAuxiliaryPlane_dealloc"
++ "kDYFEMTLTensor_getBytes_strides_fromSliceOrigin_sliceDimensions_plane"
++ "kDYFEMTLTensor_internalScalesMTLBuffer"
++ "kDYFEMTLTensor_replaceSliceOrigin_sliceDimensions_plane_withBytes_strides"
++ "memWatchMode"
++ "memcmp((const char*)bytes + offset, (\"@2f\"), sizeof(\"@2f\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"@2ul\"), sizeof(\"@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"@3ul\"), sizeof(\"@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C\"), sizeof(\"C\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@16f\"), sizeof(\"C@16f\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@17ul@17ulU<b>@17ul\"), sizeof(\"C@17ul@17ulU<b>@17ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@2d\"), sizeof(\"C@2d\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@2ful\"), sizeof(\"C@2ful\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@2ul\"), sizeof(\"C@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@3ul\"), sizeof(\"C@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@3ul@3ul\"), sizeof(\"C@3ul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@3ul@3ul@3ul\"), sizeof(\"C@3ul@3ul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@3ul@6ul\"), sizeof(\"C@3ul@6ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@3ul@6ului\"), sizeof(\"C@3ul@6ului\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@4dd\"), sizeof(\"C@4dd\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@4dd@4dulil\"), sizeof(\"C@4dd@4dulil\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@4dd@4dull\"), sizeof(\"C@4dd@4dull\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@4l\"), sizeof(\"C@4l\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@4ul\"), sizeof(\"C@4ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@6d\"), sizeof(\"C@6d\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@6ul\"), sizeof(\"C@6ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@6ululU<b>ul\"), sizeof(\"C@6ululU<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@6ulululU<b>ulul\"), sizeof(\"C@6ulululU<b>ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@6ulululU<b>ululul\"), sizeof(\"C@6ulululU<b>ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"C@8ub\"), sizeof(\"C@8ub\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CS\"), sizeof(\"CS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CS@2ul\"), sizeof(\"CS@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSU<b>t\"), sizeof(\"CSU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSU<b>tt\"), sizeof(\"CSU<b>tt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSUt\"), sizeof(\"CSUt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSt\"), sizeof(\"CSt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSul\"), sizeof(\"CSul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSultt\"), sizeof(\"CSultt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CSuwuw\"), sizeof(\"CSuwuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU\"), sizeof(\"CU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>\"), sizeof(\"CU<b>\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>U<b>@3ulul\"), sizeof(\"CU<b>U<b>@3ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>U<b>@3ululul\"), sizeof(\"CU<b>U<b>@3ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>U<b>t\"), sizeof(\"CU<b>U<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>U<b>ul\"), sizeof(\"CU<b>U<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>Ut\"), sizeof(\"CU<b>Ut\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>Uult\"), sizeof(\"CU<b>Uult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>t\"), sizeof(\"CU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>tt\"), sizeof(\"CU<b>tt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ub\"), sizeof(\"CU<b>ub\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ui\"), sizeof(\"CU<b>ui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ul\"), sizeof(\"CU<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ul@6ulul\"), sizeof(\"CU<b>ul@6ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulU<b>ul\"), sizeof(\"CU<b>ulU<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulUt\"), sizeof(\"CU<b>ulUt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulUulul\"), sizeof(\"CU<b>ulUulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ult\"), sizeof(\"CU<b>ult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ultUulul\"), sizeof(\"CU<b>ultUulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ultul\"), sizeof(\"CU<b>ultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulul\"), sizeof(\"CU<b>ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulul@6ululul\"), sizeof(\"CU<b>ulul@6ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulul@6ulululul\"), sizeof(\"CU<b>ulul@6ulululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ulult\"), sizeof(\"CU<b>ulult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ululul\"), sizeof(\"CU<b>ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU<b>ululuw\"), sizeof(\"CU<b>ululuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CU@2ul\"), sizeof(\"CU@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUU\"), sizeof(\"CUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUU<b>t\"), sizeof(\"CUU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUU\"), sizeof(\"CUUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUU<b>t\"), sizeof(\"CUUU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUUU\"), sizeof(\"CUUUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUi\"), sizeof(\"CUUi\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUt\"), sizeof(\"CUUt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUUul\"), sizeof(\"CUUul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUt\"), sizeof(\"CUt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUttt\"), sizeof(\"CUttt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUui\"), sizeof(\"CUui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUul\"), sizeof(\"CUul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUulU<b>t\"), sizeof(\"CUulU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUult\"), sizeof(\"CUult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUultt\"), sizeof(\"CUultt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUulul\"), sizeof(\"CUulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CUululul\"), sizeof(\"CUululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cd\"), sizeof(\"Cd\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cf\"), sizeof(\"Cf\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cff\"), sizeof(\"Cff\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cfff\"), sizeof(\"Cfff\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cffff\"), sizeof(\"Cffff\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ci\"), sizeof(\"Ci\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiS\"), sizeof(\"CiS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiSS\"), sizeof(\"CiSS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiSululb\"), sizeof(\"CiSululb\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiU\"), sizeof(\"CiU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiUul\"), sizeof(\"CiUul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cifff\"), sizeof(\"Cifff\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciiulululdd\"), sizeof(\"Ciiulululdd\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CitS\"), sizeof(\"CitS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciui\"), sizeof(\"Ciui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiuiSSS\"), sizeof(\"CiuiSSS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciul\"), sizeof(\"Ciul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiulSl\"), sizeof(\"CiulSl\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CiulSlS\"), sizeof(\"CiulSlS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciuli\"), sizeof(\"Ciuli\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciulul\"), sizeof(\"Ciulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ciululdd\"), sizeof(\"Ciululdd\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct\"), sizeof(\"Ct\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@17ul@17ult@17ul@17ul\"), sizeof(\"Ct@17ul@17ult@17ul@17ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ul\"), sizeof(\"Ct@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ulU\"), sizeof(\"Ct@2ulU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ultul\"), sizeof(\"Ct@2ultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ultulU<b>\"), sizeof(\"Ct@2ultulU<b>\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ulub\"), sizeof(\"Ct@2ulub\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@2ului\"), sizeof(\"Ct@2ului\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@6ululul\"), sizeof(\"Ct@6ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ct@6ulululuitul\"), sizeof(\"Ct@6ulululuitul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtU\"), sizeof(\"CtU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtU<b>U\"), sizeof(\"CtU<b>U\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtU<b>UU\"), sizeof(\"CtU<b>UU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtU<b>ulul\"), sizeof(\"CtU<b>ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtU@2ul\"), sizeof(\"CtU@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUS\"), sizeof(\"CtUS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUt\"), sizeof(\"CtUt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUt@2ul\"), sizeof(\"CtUt@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUt@2ulul\"), sizeof(\"CtUt@2ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUtt\"), sizeof(\"CtUtt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUttul\"), sizeof(\"CtUttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUttulul\"), sizeof(\"CtUttulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUtul\"), sizeof(\"CtUtul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUtulU\"), sizeof(\"CtUtulU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUult\"), sizeof(\"CtUult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtUululult\"), sizeof(\"CtUululult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctd\"), sizeof(\"Ctd\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctfful\"), sizeof(\"Ctfful\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cti\"), sizeof(\"Cti\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctt\"), sizeof(\"Ctt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctt@2ult@4ult@4ult@3ult@4uld@3uli@3f\"), sizeof(\"Ctt@2ult@4ult@4ult@3ult@4uld@3uli@3f\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctt@2ult@4ult@4ult@3ult@4uld@5ul@3ft\"), sizeof(\"Ctt@2ult@4ult@4ult@3ult@4uld@5ul@3ft\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttU<b>ul\"), sizeof(\"CttU<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctttttt\"), sizeof(\"Ctttttt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctttttul\"), sizeof(\"Ctttttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttttul\"), sizeof(\"Cttttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctttul\"), sizeof(\"Ctttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctttulttul\"), sizeof(\"Ctttulttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctttultul\"), sizeof(\"Ctttultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttul\"), sizeof(\"Cttul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulU\"), sizeof(\"CttulU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulUU\"), sizeof(\"CttulUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttultUtU\"), sizeof(\"CttultUtU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttultUtUulul\"), sizeof(\"CttultUtUulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulul\"), sizeof(\"Cttulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulul@3ul@2dt@4ult@4ult@4ultul\"), sizeof(\"Cttulul@3ul@2dt@4ult@4ult@4ultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulul@3ul@2dt@4ult@4ult@4ultulii\"), sizeof(\"Cttulul@3ul@2dt@4ult@4ult@4ultulii\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulult@4ult@3ult@3ul\"), sizeof(\"Cttulult@4ult@3ult@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulult@4ult@3ult@3ultul\"), sizeof(\"Cttulult@4ult@3ult@3ultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulult@4ult@4ult@4ul\"), sizeof(\"Cttulult@4ult@4ult@4ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulultUtU\"), sizeof(\"CttulultUtU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulultUtUtU\"), sizeof(\"CttulultUtUtU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulultUtUtUtUitul\"), sizeof(\"CttulultUtUtUtUitul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CttulultUtUtUtul\"), sizeof(\"CttulultUtUtUtul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cttulululululddt@4ult@4ult@4ul\"), sizeof(\"Cttulululululddt@4ult@4ult@4ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuiuiuiui\"), sizeof(\"Ctuiuiuiui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuiuw\"), sizeof(\"Ctuiuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctul\"), sizeof(\"Ctul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctul@3ul\"), sizeof(\"Ctul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctul@3ul@3ul\"), sizeof(\"Ctul@3ul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctul@6ululul\"), sizeof(\"Ctul@6ululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtulU<b>U<b>U<b>ul\"), sizeof(\"CtulU<b>U<b>U<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctult\"), sizeof(\"Ctult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctultt\"), sizeof(\"Ctultt\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctultul\"), sizeof(\"Ctultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctultulul\"), sizeof(\"Ctultulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctului\"), sizeof(\"Ctului\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul\"), sizeof(\"Ctulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@3ul@3ultulul@3ul\"), sizeof(\"Ctulul@3ul@3ultulul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@3ul@3ultulul@3ulul\"), sizeof(\"Ctulul@3ul@3ultulul@3ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@3ul@3ultululul\"), sizeof(\"Ctulul@3ul@3ultululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@3ul@3ultulululul\"), sizeof(\"Ctulul@3ul@3ultulululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@3ululul@3ultul\"), sizeof(\"Ctulul@3ululul@3ultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@6ul@4d\"), sizeof(\"Ctulul@6ul@4d\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@6ul@4dul\"), sizeof(\"Ctulul@6ul@4dul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulul@6ulU<b>ul\"), sizeof(\"Ctulul@6ulU<b>ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulultul\"), sizeof(\"Ctulultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulultulul\"), sizeof(\"Ctulultulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulultulululul\"), sizeof(\"Ctulultulululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctululul\"), sizeof(\"Ctululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctululul@3ultulul@3ul\"), sizeof(\"Ctululul@3ultulul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctululul@3ultulul@3ulul\"), sizeof(\"Ctululul@3ultulul@3ulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctululului\"), sizeof(\"Ctululului\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulululuiul\"), sizeof(\"Ctulululuiul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctulululul\"), sizeof(\"Ctulululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuluw\"), sizeof(\"Ctuluw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuw\"), sizeof(\"Ctuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CtuwUU\"), sizeof(\"CtuwUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuwui\"), sizeof(\"Ctuwui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuwus\"), sizeof(\"Ctuwus\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Ctuwuw\"), sizeof(\"Ctuwuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cui\"), sizeof(\"Cui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuiui\"), sizeof(\"Cuiui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuiuiuiui\"), sizeof(\"Cuiuiuiui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuiul\"), sizeof(\"Cuiul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuiuw\"), sizeof(\"Cuiuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cul\"), sizeof(\"Cul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cul@2ul\"), sizeof(\"Cul@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CulU\"), sizeof(\"CulU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CulU<b>\"), sizeof(\"CulU<b>\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CulU<b>t\"), sizeof(\"CulU<b>t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CulUul\"), sizeof(\"CulUul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cult\"), sizeof(\"Cult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cult@4dul\"), sizeof(\"Cult@4dul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cultul\"), sizeof(\"Cultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cultultul\"), sizeof(\"Cultultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cultultultul\"), sizeof(\"Cultultultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cului\"), sizeof(\"Cului\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culul\"), sizeof(\"Culul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culul@2ul@2ul\"), sizeof(\"Culul@2ul@2ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culul@2ul@2ul@4ub\"), sizeof(\"Culul@2ul@2ul@4ub\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culul@2ul@2ul@4ubuw\"), sizeof(\"Culul@2ul@2ul@4ubuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culul@2ul@2uluw\"), sizeof(\"Culul@2ul@2uluw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culult\"), sizeof(\"Culult\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culultultul\"), sizeof(\"Culultultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululul\"), sizeof(\"Cululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultul\"), sizeof(\"Cululultul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultultululul\"), sizeof(\"Cululultultululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultultululultulul\"), sizeof(\"Cululultultululultulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultulul\"), sizeof(\"Cululultulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultulullul\"), sizeof(\"Cululultulullul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultululul\"), sizeof(\"Cululultululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululultululultulul\"), sizeof(\"Cululultululultulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CulululuiulS\"), sizeof(\"CulululuiulS\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culululul\"), sizeof(\"Culululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululululul\"), sizeof(\"Cululululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culululululul\"), sizeof(\"Culululululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culululuwul\"), sizeof(\"Culululuwul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culululuwulul\"), sizeof(\"Culululuwulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culululuwulullul\"), sizeof(\"Culululuwulullul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululuw\"), sizeof(\"Cululuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cululuwuluw\"), sizeof(\"Cululuwuluw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culus\"), sizeof(\"Culus\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Culuw\"), sizeof(\"Culuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuw\"), sizeof(\"Cuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuw@3ul\"), sizeof(\"Cuw@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuw@3ul@3ul\"), sizeof(\"Cuw@3ul@3ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"CuwUU\"), sizeof(\"CuwUU\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuwul\"), sizeof(\"Cuwul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuwulul\"), sizeof(\"Cuwulul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuwuw\"), sizeof(\"Cuwuw\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"Cuwuwuwululul\"), sizeof(\"Cuwuwuwululul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"U\"), sizeof(\"U\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"U<b>\"), sizeof(\"U<b>\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"t\"), sizeof(\"t\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"ui\"), sizeof(\"ui\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"ul\"), sizeof(\"ul\")) == 0"
++ "memcmp((const char*)bytes + offset, (\"uw\"), sizeof(\"uw\")) == 0"
++ "meshGlobalConstantsTag"
++ "motionContentOffsetX"
++ "motionContentOffsetY"
++ "newSharedTextureWithHandle:withResourceIndex:"
++ "newTensorWithDescriptor:attachments:error:"
++ "numberOfRanges"
++ "objectGlobalConstantsTag"
++ "offset <= length"
++ "originalDefaultCompilerProcessesCount"
++ "originalThreadsPerCompilerProcess"
++ "os_sync_wait_on_address failed: %s (errno=%d)"
++ "os_sync_wait_on_address failed: %s (errno=%d)\n"
++ "os_sync_wait_on_address_with_timeout failed: %s (errno=%d)"
++ "os_sync_wait_on_address_with_timeout failed: %s (errno=%d)\n"
++ "os_sync_wake_by_address_any failed: %s (errno=%d)"
++ "outputOffsetX"
++ "outputOffsetY"
++ "pixelFormat == DataTypeToPixelFormat(result.dataType)"
++ "pixelFormat == DataTypeToPixelFormat(result.elementType)"
++ "rangeAtIndex:"
++ "reactiveMaskContentOffsetX"
++ "reactiveMaskContentOffsetY"
++ "reactiveMaskTextureUsage"
++ "registerBuffer:length:placementSparsePageSize:"
++ "registerTexture:descriptor:texture:"
++ "regularExpressionWithPattern:options:error:"
++ "releaseResidencySet:"
++ "releaseRetainedCommandEncoders"
++ "removeInternalResidencySet:"
++ "removeInternalResidencySets:count:"
++ "replaceSliceOrigin:sliceDimensions:plane:withBytes:strides:"
++ "resourcePath"
++ "result.buffer.dataType == GTMTLDataTypeStruct"
++ "result.threadgroupMemory.dataType == GTMTLDataTypeStruct"
++ "setBlockFactors:"
++ "setBufferStream:"
++ "setColorContentOffsetX:"
++ "setColorContentOffsetY:"
++ "setCountMetalFXHistory:"
++ "setDepthContentOffsetX:"
++ "setDepthContentOffsetY:"
++ "setDescriptor:forPlane:"
++ "setDistortionHeight:"
++ "setDistortionOffsetX:"
++ "setDistortionOffsetY:"
++ "setDistortionTexture:"
++ "setDistortionTextureEnabled:"
++ "setDistortionWidth:"
++ "setDownloadCallback:"
++ "setFirstMipmapInTail:"
++ "setFragmentGlobalConstantsTag:"
++ "setGlobalConstantsTag:"
++ "setJitteredMotionVectorsEnabled:"
++ "setMemWatchMode:"
++ "setMeshGlobalConstantsTag:"
++ "setMotionContentOffsetX:"
++ "setMotionContentOffsetY:"
++ "setObjectGlobalConstantsTag:"
++ "setOutputOffsetX:"
++ "setOutputOffsetY:"
++ "setOutputResolutionMotionVectorsEnabled:"
++ "setReactiveMaskContentOffsetX:"
++ "setReactiveMaskContentOffsetY:"
++ "setTargetBufferLength:"
++ "setTemporalScalers:"
++ "setTileGlobalConstantsTag:"
++ "setUseExplicitRenderTargetDimensions:"
++ "setValue:forKey:"
++ "setVertexGlobalConstantsTag:"
++ "stringByStandardizingPath"
++ "stringWithContentsOfFile:encoding:error:"
++ "substringToIndex:"
++ "substringWithRange:"
++ "supportsMultiPlaneTensors"
++ "supportsPVRTC"
++ "supportsTextureMultifetch"
++ "tailSizeInTiles"
++ "targetBufferLength"
++ "task_threads failed: %s"
++ "task_threads failed: %s\n"
++ "thread_get_state failed: %s"
++ "thread_get_state failed: %s\n"
++ "thread_set_state failed after forwarding: %s"
++ "thread_set_state failed after forwarding: %s\n"
++ "tileGlobalConstantsTag"
++ "unregisterBuffer:"
++ "updateBufferMappings:buffer:heap:operations:count:"
++ "useExplicitRenderTargetDimensions"
++ "useInternalResidencySet:"
++ "useInternalResidencySets:count:"
++ "v16@?0Q8"
++ "v16@?0r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}8"
++ "v24@?0Q8Q16"
++ "v32@0:8^{apr_array_header_t=^{apr_pool_t}iii*}16@?24"
++ "v32@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}16@24"
++ "v32@?0@\"NSTextCheckingResult\"8Q16^B24"
++ "v36@0:8@16Q24S32"
++ "v36@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}16@24I32"
++ "v40@0:8Q16@24@32"
++ "v40@0:8Q16Q24q32"
++ "v40@0:8^{apr_array_header_t=^{apr_pool_t}iii*}16@24@?32"
++ "v40@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b1b4(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=QQ}{?=Q}{?=QQ}{?=QQ{GTRange=QQ}{GTRange=QQ}}{GTRange=QQ})}16@24@32"
++ "v40@?0Q8Q16^{GTMTL4UpdateSparseBufferMappingOperation=Q{GTRange=QQ}Q}24Q32"
++ "v40@?0Q8Q16^{GTMTL4UpdateSparseTextureMappingOperation=Q{?={?=QQQ}{?=QQQ}}QQQ}24Q32"
++ "v48@0:8^{apr_array_header_t=^{apr_pool_t}iii*}16@24@32@?40"
++ "v56@0:8@\"MTLTensorExtents\"16@\"MTLTensorExtents\"24q32r^v40@\"MTLTensorExtents\"48"
++ "v56@0:8@16@24q32r^v40@48"
++ "v56@0:8@16Q24Q32r^{?=Q{_NSRange=QQ}Q}40Q48"
++ "v56@0:8@16Q24Q32r^{?={_NSRange=QQ}Q}40Q48"
++ "v56@0:8^v16@\"MTLTensorExtents\"24@\"MTLTensorExtents\"32@\"MTLTensorExtents\"40q48"
++ "v56@0:8^v16@24@32@40q48"
++ "v80@0:8@\"<MTLTensor>\"16@\"MTLTensorExtents\"24@\"MTLTensorExtents\"32q40@\"<MTLTensor>\"48@\"MTLTensorExtents\"56@\"MTLTensorExtents\"64q72"
++ "v80@0:8@16@24@32q40@48@56@64q72"
++ "valueForKey:"
++ "vertexGlobalConstantsTag"
++ "viewMappings == 0"
++ "warning: Failed to acquire staging buffer (%llu bytes) for compression metadata download"
++ "warning: No sparse page table buffer found for buffer %llu"
++ "warning: Stored user-defined headerPath is nil"
++ "warning: Syscall drain timed out (timeout=%llu ms); disabling memwatch for this capture"
++ "warning: Syscall drain timed out in force-enabled mode (timeout=%llu ms); proceeding with memwatch"
++ "warning: Timed out waiting for compression metadata download (%llu bytes); staging buffer contents are indeterminate"
++ "warning: Trying to include empty header (%s)"
++ "warning: Trying to serialize an included source (%s) which has no data. Error: %s"
++ "{GTSMMTLCommandEncoder={GTSMMTLObject=IIQQQ^{GTSMMTLObject}}Q*(?=(?={GTSMMTLRenderCommandEncoder=^{GTMTLRenderPassDescriptor}[1Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[31Q][128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q]QQ[16{GTMTLViewport=dddddd}]Q[16{GTMTLScissorRect=QQQQ}]Q^{GTMTLVertexAmplificationViewMapping}Q[8Q][8Q]{GTMTLLogicalToPhysicalColorAttachmentMap=[8C]}fffff[4f]II[16f][16f][16f][16f][16f][16f][16f][16f][16f][16f]ffIII[31I][31I][31I]IIICCCCCCCCCCC[5c]}{?=^{GTMTLComputePassDescriptor}Q[1Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[31Q][128Q][16Q]{?={?=QQQ}{?=QQQ}}Q[31I]III[16f][16f]C[7c]}{?=Q}{?=^{GTMTLBlitPassDescriptor}}{GTSMMTLParallelCommandEncoder=^{GTMTLRenderPassDescriptor}[8Q][8Q]CCCC[4c]}{?=^{GTMTLResourceStatePassDescriptor}}{?=^{GTMTLAccelerationStructurePassDescriptor}})(?={GTSMMTL4RenderCommandEncoder=^{GTMTL4RenderPassDescriptor}[5Q]{?=[31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q]}QQQ[16{GTMTLViewport=dddddd}]Q[16{GTMTLScissorRect=QQQQ}]Q^{GTMTLVertexAmplificationViewMapping}[8Q]{GTMTLLogicalToPhysicalColorAttachmentMap=[8C]}fff[4f]IIf[31I][31I][31I]IICCCCCCC[5C]}{GTSMMTL4ComputeCommandEncoder=QQ{?=[31Q][31Q]}[31I]II[4c]}{GTSMMTL4MachineLearningCommandEncoder=QQ}))}24@0:8^{apr_pool_t=}16"
++ "✍️  Copying condition: %s/%s (Layer %llu) [%u/%u]"
++ "✍️  Copying condition: %s/%s (Layer %llu) [%u/%u]\n"
++ "✍️  Copying condition: %s/%s [%u/%u]"
++ "✍️  Copying condition: %s/%s [%u/%u]\n"
++ "🔄 Transition Aborted: MetalFX history complete, waiting for frame boundary before transitioning to Capture"
++ "🔄 Transition Aborted: MetalFX history complete, waiting for frame boundary before transitioning to Capture\n"
+- "\v"
+- "    CAMetalLayer stream ref: %llu"
+- "    CAMetalLayer stream ref: %llu\n"
+- "    Hit count: %u/%u"
+- "    Hit count: %u/%u\n"
+- " dispIdx:%llu"
+- "#include <metal_stdlib>\nusing namespace metal;kernel void AddEventToBuffer(device atomic_uint& count [[buffer(0)]], device ulong* events [[buffer(1)]], constant ulong& event [[buffer(2)]]){ events[atomic_fetch_add_explicit(&count, 1, memory_order_relaxed)] = event; }"
+- "%s--🛡️ --%s Condition #%d"
+- "%s--🛡️ --%s Condition #%d\n"
+- "@\"<MTL4CommandQueueSPI>\""
+- "@32@0:8@16^{apr_array_header_t=^{apr_pool_t}iii*}24"
+- "AddEventToBuffer"
+- "B40@0:8^?16Q24^v32"
+- "ClearAccelerationStructureChildren"
+- "ClearPrimitiveAccelerationStructureChildren"
+- "DownloadBuffer[name=%lu, ref=%llu]"
+- "DownloadHeap[name=%lu, ref=%llu]"
+- "Event buffer (CPU) index %i: function index %llu"
+- "Event buffer (GPU) index %i: function index %llu"
+- "MTLCAPTURE_ENABLE_MPROTECT"
+- "MTLCAPTURE_ENABLE_MPROTECT_BUFFER_SPLITTING"
+- "Q32@0:8@16@24"
+- "^{TextureViewSlot={MTLResourceID=Q}b63b1(?={?=QQ{GTMTLTextureDescriptor=QQIIISSSSSCCCCCCCCCCCCCC[4C]}}{?=B[7c]{GTMTLTextureViewDescriptor={GTRange=QQ}{GTRange=QQ}ISC[1C]}})}"
+- "_copyTextureMappingsPipeline"
+- "_downloadRequest:atPoint:dispatchGroup:"
+- "_downloadRequestOld:atPoint:dispatchGroup:"
+- "_residencySet"
+- "_updateTextureMappingsPipeline"
+- "addHeaps:count:"
+- "addResource:"
+- "addResources:count:"
+- "allCommittedHeaps"
+- "allCommittedResources"
+- "allHeaps"
+- "allResources"
+- "arraySizeWithCopyOps:fromTexture:apiOpCount:"
+- "computeRequiredBufferByteCountWithDevice:descriptor:"
+- "containsHeap:"
+- "countForHeap:"
+- "countForResource:"
+- "createContext:"
+- "downloadRequest:"
+- "downloadRequest:atPoint:"
+- "dumpTextureMappingsWithCallback:texture:userdata:"
+- "fail: GTMTLCaptureEventBuffer - Failed creating the library: %s"
+- "fail: GTMTLCaptureSparsePageTables - Failed creating the residency set: %s"
+- "fail: GTMTLCaptureSparsePageTables - Unable to create Metal 4 pipeline for sparse page tables (copyMappings): %s"
+- "fail: GTMTLCaptureSparsePageTables - Unable to create Metal 4 pipeline for sparse page tables (updateMappings): %s"
+- "fillArrayWithCopyOps:fromTexture:apiOpCount:gpuOps:"
+- "generationForHeap:"
+- "generationForResource:"
+- "initWithBuffer:descriptor:"
+- "initWithQueue:forRequest:"
+- "internalMTLBuffer"
+- "kDYFEMTLCommandBuffer_computeCommandEncoderWithParallelExecution"
+- "kDYFEMTLComputeCommandEncoder_dispatchBarrier"
+- "registerTexture:descriptor:"
+- "removeAllHeaps"
+- "removeAllResources"
+- "removeHeap:"
+- "removeHeaps:count:"
+- "removeResource:"
+- "removeResources:count:"
+- "setFragmentGlobalConstantsBase:"
+- "setFragmentGlobalConstantsSize:"
+- "setGlobalConstantsBase:"
+- "setGlobalConstantsSize:"
+- "setMeshGlobalConstantsBase:"
+- "setMeshGlobalConstantsSize:"
+- "setObjectGlobalConstantsBase:"
+- "setObjectGlobalConstantsSize:"
+- "setTileGlobalConstantsBase:"
+- "setTileGlobalConstantsSize:"
+- "setVertexGlobalConstantsBase:"
+- "setVertexGlobalConstantsSize:"
+- "supportsAtomicWaitNotify"
+- "usedDrawableMap"
+- "v32@0:8Q16@24"
+- "v32@0:8^{apr_array_header_t=^{apr_pool_t}iii*}16@24"
+- "v32@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b5(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=Q}{?=Q}{?=QQ})}16@24"
+- "v36@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b5(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=Q}{?=Q}{?=QQ})}16@24I32"
+- "v40@0:8^{apr_array_header_t=^{apr_pool_t}iii*}16@24@32"
+- "v40@0:8r^{GTResourceDownloaderRequest=QQQQQISCb1b1b1b5(?={?=QQ}{?={GTMTLTensorSlice={GTMTLTensorExtents=Q[16Q]}{GTMTLTensorExtents=Q[16Q]}}{GTMTLTensorExtents=Q[16Q]}}{?=SS{?={?=ISS}{?=ISS}}IIISS[4c]}{?=QQ}{?={GTMTLIndirectCommandBufferDescriptor=QQSCCCCCCCCCCCCCCCCCCCCCCCCC[5C]}}{?=Q}{?=Q}{?=QQ})}16@24@32"
+- "{GTMTLSMCommandEncoder={GTMTLSMObject=IIQQQ^{GTMTLSMObject}}Q*(?=(?={GTMTLSMRenderCommandEncoder=^{GTMTLRenderPassDescriptor}[1Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[31Q][128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[128Q][16Q]QQ[16{GTMTLViewport=dddddd}]Q[16{GTMTLScissorRect=QQQQ}]Q^{GTMTLVertexAmplificationViewMapping}Q[8Q][8Q]{GTMTLLogicalToPhysicalColorAttachmentMap=[8C]}fffff[4f]II[16f][16f][16f][16f][16f][16f][16f][16f][16f][16f]ffIII[31I][31I][31I]IIICCCCCCCCCCC[5c]}{?=^{GTMTLComputePassDescriptor}Q[1Q][1Q](?={?=[31Q][31Q]}{?=[31Q][31Q]})[31Q][128Q][16Q]{?={?=QQQ}{?=QQQ}}Q[31I]III[16f][16f]C[7c]}{?=Q}{?=^{GTMTLBlitPassDescriptor}}{GTMTLSMParallelCommandEncoder=^{GTMTLRenderPassDescriptor}[8Q][8Q]CCCC[4c]}{?=^{GTMTLResourceStatePassDescriptor}}{?=^{GTMTLAccelerationStructurePassDescriptor}})(?={GTMTL4SMRenderCommandEncoder=^{GTMTL4RenderPassDescriptor}[5Q]{?=[31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q][31Q]}QQQ[16{GTMTLViewport=dddddd}]Q[16{GTMTLScissorRect=QQQQ}]Q^{GTMTLVertexAmplificationViewMapping}[8Q]{GTMTLLogicalToPhysicalColorAttachmentMap=[8C]}fff[4f]IIf[31I][31I][31I]IICCCCCCC[5C]}{GTMTL4SMComputeCommandEncoder=QQ{?=[31Q][31Q]}[31I]II[4c]}{GTMTL4SMMachineLearningCommandEncoder=QQ}))}24@0:8^{apr_pool_t=}16"
+
+```

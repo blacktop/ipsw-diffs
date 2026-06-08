@@ -1,0 +1,372 @@
+## liblog_mdnsresponder.dylib
+
+> `/usr/lib/log/liblog_mdnsresponder.dylib`
+
+```diff
+
+-2881.120.11.0.0
+-  __TEXT.__text: 0x8da4
+-  __TEXT.__auth_stubs: 0x1e0
+-  __TEXT.__cstring: 0xfab
+-  __TEXT.__unwind_info: 0x148
+-  __TEXT.__objc_methname: 0xa1
+-  __TEXT.__objc_stubs: 0x160
+-  __DATA_CONST.__got: 0x30
+-  __DATA_CONST.__const: 0xa58
++3066.0.0.502.1
++  __TEXT.__text: 0x1d00
++  __TEXT.__cstring: 0x86a
++  __TEXT.__unwind_info: 0xa0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_methname: 0x0
++  __DATA_CONST.__const: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x58
+-  __AUTH_CONST.__auth_got: 0xf8
+-  __AUTH_CONST.__const: 0x1d0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xb0
+   __AUTH_CONST.__cfstring: 0x7a0
+-  __DATA.__bss: 0x90
++  __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 000D4391-F7A5-3837-89D6-7754BDE9DFC8
+-  Functions: 74
+-  Symbols:   193
+-  CStrings:  440
++  UUID: 9035835F-7FA9-3266-A606-AC4AF4DA33AA
++  Functions: 16
++  Symbols:   67
++  CStrings:  240
+ 
+Symbols:
++ _mdns_base64_encode_u32_unpadded.base64_charset
++ _objc_claimAutoreleasedReturnValue
++ _objc_release_x24
++ _objc_retain
++ _objc_retain_x1
+- _DNSClassTypeToString
+- _DNSComputeDNSKeyTag
+- _DNSExtendedDNSErrorCodeToString
+- _DNSMessageCollapse
+- _DNSMessageExtractDomainName
+- _DNSMessageExtractDomainNameString
+- _DNSMessageExtractQuestion
+- _DNSMessageExtractRData
+- _DNSMessageExtractRecord
+- _DNSMessageGetAnswerSection
+- _DNSMessageGetExtendedDNSError
+- _DNSMessageGetOptRecord
+- _DNSMessagePrintObfuscatedIPv4Address
+- _DNSMessagePrintObfuscatedIPv6Address
+- _DNSMessagePrintObfuscatedString
+- _DNSMessageToString
+- _DNSMessageWriteQuery
+- _DNSRCodeFromString
+- _DNSRCodeFromString.sTable
+- _DNSRCodeToString
+- _DNSRecordDataToStringEx
+- _DNSRecordDataToStringEx.kBase32ExtendedHex
+- _DNSRecordTypeStringToValue
+- _DNSRecordTypeStringToValue.sTable
+- _DNSRecordTypeValueToString
+- _DomainLabelEqual
+- _DomainNameAppendDomainName
+- _DomainNameAppendString
+- _DomainNameDupEx
+- _DomainNameEqual
+- _DomainNameFromString
+- _DomainNameLabelCount
+- _DomainNameLength
+- __AppendDomainNameStringEx
+- __AppendEscapedASCIIString
+- __AppendIPAddress
+- __AppendIPv4Address
+- __AppendIPv6Address
+- __DNSMessageExtractRecordEx
+- __DNSMessagePrintObfuscatedIPAddress
+- __DNSOpCodeToString.sNames
+- __DNSRCodeFromStringCmp
+- __DNSRecordDataAppendTypeBitMap
+- __DNSRecordTypeStringToValueCmp
+- __DNSSVCBKeyToString
+- __GetCULibHandle.sHandle
+- __GetCULibHandle.sOnce
+- __GetCUSymAddr_Base64EncodeCopyEx.sAddr
+- __GetCUSymAddr_Base64EncodeCopyEx.sOnce
+- __GetCUSymAddr_DataBuffer_Append.sAddr
+- __GetCUSymAddr_DataBuffer_Append.sOnce
+- __GetCUSymAddr_DataBuffer_AppendF.sAddr
+- __GetCUSymAddr_DataBuffer_AppendF.sOnce
+- __GetCUSymAddr_DataBuffer_Detach.sAddr
+- __GetCUSymAddr_DataBuffer_Detach.sOnce
+- __GetCUSymAddr_DataBuffer_Free.sAddr
+- __GetCUSymAddr_DataBuffer_Free.sOnce
+- __GetCUSymAddr_DataBuffer_Init.sAddr
+- __GetCUSymAddr_DataBuffer_Init.sOnce
+- __GetCUSymAddr_SNPrintF.sAddr
+- __GetCUSymAddr_SNPrintF.sOnce
+- __GetCUSymAddr_SecondsToYMD_HMS.sAddr
+- __GetCUSymAddr_SecondsToYMD_HMS.sOnce
+- __NSConcreteGlobalBlock
+- __NameIsPrivate
+- ____GetCULibHandle_block_invoke
+- ____GetCUSymAddr_Base64EncodeCopyEx_block_invoke
+- ____GetCUSymAddr_DataBuffer_AppendF_block_invoke
+- ____GetCUSymAddr_DataBuffer_Append_block_invoke
+- ____GetCUSymAddr_DataBuffer_Detach_block_invoke
+- ____GetCUSymAddr_DataBuffer_Free_block_invoke
+- ____GetCUSymAddr_DataBuffer_Init_block_invoke
+- ____GetCUSymAddr_SNPrintF_block_invoke
+- ____GetCUSymAddr_SecondsToYMD_HMS_block_invoke
+- ___block_descriptor_tmp
+- ___block_descriptor_tmp.218
+- ___block_descriptor_tmp.222
+- ___block_descriptor_tmp.233
+- ___block_descriptor_tmp.237
+- ___block_descriptor_tmp.241
+- ___block_descriptor_tmp.251
+- ___block_descriptor_tmp.255
+- ___block_descriptor_tmp.262
+- ___block_literal_global
+- ___block_literal_global.220
+- ___block_literal_global.224
+- ___block_literal_global.235
+- ___block_literal_global.239
+- ___block_literal_global.243
+- ___block_literal_global.253
+- ___block_literal_global.257
+- ___block_literal_global.264
+- _bsearch
+- _dispatch_once
+- _dlopen
+- _dlsym
+- _free
+- _kDNSHeaderFlagsDescs
+- _malloc_type_calloc
+- _malloc_type_malloc
+- _mdns_memcmp_us_ascii_case_insensitive
+- _mdns_memcpy_bits
+- _mdns_parse_length_prefixed_string
+- _mdns_parse_printable_ascii_run
+- _mdns_parse_uint16_be
+- _memcmp
+- _memcpy
+- _objc_retainAutoreleasedReturnValue
+- _snprintf
+- _strcasecmp
+- _strchr
+CStrings:
++ "%s(dn:%s %s)"
++ "%s(dn:%s TYPE%u)"
++ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+- "\n"
+- "\n\t"
+- "\nADDITIONAL SECTION\n"
+- "\nANSWER SECTION\n"
+- "\nAUTHORITY SECTION\n"
+- "\nQUESTION SECTION\n"
+- "\n]"
+- " \""
+- " %#H"
+- " %-5s"
+- " %-5s\n"
+- " %.4H"
+- " %2s"
+- " %6u %2s"
+- " %s"
+- " %s=\""
+- " %s?"
+- " %u"
+- " %u %u %u"
+- " %u %u %u %u %u"
+- " %u%02u%02u%02u%02u%02u"
+- " '%H'"
+- " (%s)"
+- " 0"
+- " 0x%08X"
+- " CF"
+- " CLASS%u"
+- " TYPE%u"
+- " TYPE%u\n"
+- " TYPE%u?"
+- " [%zu B]"
+- " key%u=\""
+- "\""
+- "\","
+- "%#.4a"
+- "%#H"
+- "%#{txt}"
+- "%-30s"
+- "%-42s"
+- "%.16a"
+- "%.4H"
+- "%s"
+- "%s "
+- "%s OPT %u"
+- "%s%.*a"
+- "%s%u"
+- "%s%~s"
+- "%s(%x %s)"
+- "%s(%x TYPE%u)"
+- "%s: "
+- "%s{"
+- "%u"
+- "%u %u %u"
+- "%u %u %u "
+- "%~-30s"
+- "%~-42s"
+- "%~s"
+- "%~s "
+- "'%.*s'"
+- "'%H'"
+- ")"
+- ","
+- ",\n\t"
+- ", %s"
+- ", RCODE%d"
+- ", counts: %u/%u/%u/%u"
+- ", extra-text: "
+- "."
+- "/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils"
+- "0123456789ABCDEFGHIJKLMNOPQRSTUV"
+- "<%u redacted bytes>"
+- "<%u zero bytes>"
+- "AA"
+- "AD"
+- "Additional count: %u\n"
+- "Answer count:     %u\n"
+- "Authority count:  %u\n"
+- "BADALG"
+- "BADCOOKIE"
+- "BADKEY"
+- "BADMODE"
+- "BADNAME"
+- "BADTIME"
+- "BADTRUNC"
+- "BADVERS"
+- "Base64EncodeCopyEx"
+- "Blocked"
+- "CD"
+- "CF"
+- "CF "
+- "CLASS%u"
+- "CODE%u"
+- "Cached Error"
+- "Censored"
+- "DNSKEY Missing"
+- "DNSSEC Bogus"
+- "DNSSEC Indeterminate"
+- "DSO"
+- "DSO-TYPE%u: "
+- "DSOTYPENI"
+- "DataBuffer_Append"
+- "DataBuffer_AppendF"
+- "DataBuffer_Detach"
+- "DataBuffer_Free"
+- "DataBuffer_Init"
+- "EDE"
+- "Encryption Padding"
+- "Filtered"
+- "Flags:            0x%04X %c/"
+- "Forged Answer"
+- "FormErr"
+- "ID:               0x%04X (%u)\n"
+- "IN"
+- "IQuery"
+- "Invalid Data"
+- "KeepAlive"
+- "NSEC Missing"
+- "NXDomain"
+- "NXRRSet"
+- "Network Error"
+- "No Reachable Authority"
+- "No Zone Key Bit Set"
+- "NoError"
+- "Not Authoritative"
+- "Not Ready"
+- "Not Supported"
+- "NotAuth"
+- "NotImp"
+- "NotZone"
+- "Notify"
+- "OPCODE%d"
+- "OPT %u"
+- "Other Error"
+- "PUSH"
+- "Padding"
+- "Prohibited"
+- "QM"
+- "QU"
+- "Query"
+- "Question count:   %u\n"
+- "RA"
+- "RD"
+- "RECONFIRM"
+- "RRSIGs Missing"
+- "Refused"
+- "Retry Delay"
+- "SNPrintF"
+- "SUBSCRIBE"
+- "SecondsToYMD_HMS"
+- "ServFail"
+- "Signature Expired"
+- "Signature Not Yet Valid"
+- "Stale Answer"
+- "Stale NXDomain Answer"
+- "Status"
+- "TC"
+- "TYPE%d"
+- "TYPE%u"
+- "UNSUBSCRIBE"
+- "Unsupported DNSKEY Algorithm"
+- "Unsupported DS Digest Type"
+- "Update"
+- "YXDomain"
+- "YXRRSet"
+- "Z"
+- "["
+- "[%u B]"
+- "[%zu B]"
+- "\\%03d"
+- "\\%c"
+- "]"
+- "alpn"
+- "appendFormat:"
+- "appendString:"
+- "background"
+- "bytes"
+- "code: %u"
+- "description"
+- "dohpath"
+- "dohuri"
+- "echconfig"
+- "id: 0x%04X (%u), flags: 0x%04X (%c/"
+- "initWithCapacity:"
+- "initWithFormat:"
+- "initWithString:"
+- "interactive"
+- "ipv4hint"
+- "ipv4only.arpa."
+- "ipv6hint"
+- "key%u"
+- "length"
+- "longLongValue"
+- "mandatory"
+- "no-default-alpn"
+- "odohconfig"
+- "port"
+- "realtime"
+- "sla"
+- "sla%u"
+- "stringWithUTF8String:"
+- "unsignedLongLongValue"
+- "v8@?0"
+- "«REDACTED»"
+
+```

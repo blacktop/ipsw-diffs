@@ -1,0 +1,1140 @@
+## DeviceDiscoveryUICore
+
+> `/System/Library/PrivateFrameworks/DeviceDiscoveryUICore.framework/DeviceDiscoveryUICore`
+
+```diff
+
+-2094.60.51.0.0
+-  __TEXT.__text: 0x41504
+-  __TEXT.__auth_stubs: 0x1920
++2118.10.4.2.3
++  __TEXT.__text: 0x426c0
+   __TEXT.__objc_methlist: 0x15ac
+-  __TEXT.__const: 0x2bd0
+-  __TEXT.__cstring: 0x1767
+-  __TEXT.__oslogstring: 0x3050
+-  __TEXT.__gcc_except_tab: 0x278
+-  __TEXT.__swift5_typeref: 0xd1c
+-  __TEXT.__constg_swiftt: 0xb44
++  __TEXT.__const: 0x2c28
++  __TEXT.__cstring: 0x17d7
++  __TEXT.__oslogstring: 0x30e0
++  __TEXT.__gcc_except_tab: 0x19c
++  __TEXT.__swift5_typeref: 0xd34
++  __TEXT.__constg_swiftt: 0xb0c
+   __TEXT.__swift5_fieldmd: 0x8c0
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_reflstr: 0x500
+   __TEXT.__swift5_assocty: 0xb8
+   __TEXT.__swift5_proto: 0x234
+   __TEXT.__swift5_types: 0xd8
+-  __TEXT.__swift5_capture: 0x218
+-  __TEXT.__swift_as_entry: 0x60
+-  __TEXT.__swift_as_ret: 0x78
++  __TEXT.__swift5_capture: 0x228
++  __TEXT.__swift_as_entry: 0x68
++  __TEXT.__swift_as_ret: 0x80
++  __TEXT.__swift_as_cont: 0xf8
+   __TEXT.__swift5_acfuncs: 0x28
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x12e8
+-  __TEXT.__eh_frame: 0x1ae8
+-  __TEXT.__objc_classname: 0x83a
+-  __TEXT.__objc_methname: 0x4455
+-  __TEXT.__objc_methtype: 0x1112
+-  __TEXT.__objc_stubs: 0x3220
+-  __DATA_CONST.__got: 0x530
+-  __DATA_CONST.__const: 0x988
++  __TEXT.__unwind_info: 0x1210
++  __TEXT.__eh_frame: 0x1c58
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x970
+   __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1028
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0xca0
+-  __AUTH_CONST.__const: 0x1910
++  __DATA_CONST.__got: 0x578
++  __AUTH_CONST.__const: 0x1951
+   __AUTH_CONST.__cfstring: 0x12a0
+   __AUTH_CONST.__objc_const: 0x2de8
+   __AUTH_CONST.__objc_intobj: 0x60
++  __AUTH_CONST.__auth_got: 0xe68
+   __AUTH.__objc_data: 0xc20
+-  __AUTH.__data: 0x890
++  __AUTH.__data: 0x850
+   __DATA.__objc_ivar: 0x140
+-  __DATA.__data: 0x1230
++  __DATA.__data: 0x1250
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x42b0
+   __DATA.__common: 0x28
+-  __DATA_DIRTY.__objc_data: 0x1c8
+-  __DATA_DIRTY.__data: 0x180
++  __DATA_DIRTY.__objc_data: 0x1d0
++  __DATA_DIRTY.__data: 0x190
+   __DATA_DIRTY.__bss: 0x2b0
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftDistributed.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FF539860-561C-3994-8DF2-6AF4323FA658
+-  Functions: 1488
+-  Symbols:   2597
+-  CStrings:  1492
++  UUID: 76C0CF7B-8F8B-33EA-9E56-B03157253107
++  Functions: 1500
++  Symbols:   2676
++  CStrings:  596
+ 
+Symbols:
++ __OBJC_$_PROP_LIST_DDUIEndpointPairingSession.174
++ __PROTOCOLS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService.5
++ ___block_literal_global.64
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.43Tm
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.89
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.1
++ _block_copy_helper.13
++ _block_copy_helper.27
++ _block_copy_helper.78
++ _block_copy_helper.92
++ _block_descriptor.15
++ _block_descriptor.29
++ _block_descriptor.3
++ _block_descriptor.80
++ _block_descriptor.94
++ _block_destroy_helper.14
++ _block_destroy_helper.2
++ _block_destroy_helper.28
++ _block_destroy_helper.79
++ _block_destroy_helper.93
++ _nw_endpoint_create_application_service
++ _nw_endpoint_set_agent_identifier
++ _nw_endpoint_set_device_id
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x26
++ _swift_willThrowTypedImpl
++ _symbolic So23FBSMutableSceneSettingsCIgg_
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- __OBJC_$_PROP_LIST_DDUIEndpointPairingSession.175
+- __PROTOCOLS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService.6
+- ___block_literal_global.65
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_DeviceDiscoveryUICore
+- _block_copy_helper.14
+- _block_copy_helper.16
+- _block_copy_helper.2
+- _block_copy_helper.67
+- _block_copy_helper.81
+- _block_copy_helper.84
+- _block_descriptor.16
+- _block_descriptor.18
+- _block_descriptor.4
+- _block_descriptor.69
+- _block_descriptor.83
+- _block_descriptor.86
+- _block_destroy_helper.15
+- _block_destroy_helper.17
+- _block_destroy_helper.3
+- _block_destroy_helper.68
+- _block_destroy_helper.82
+- _block_destroy_helper.85
+- _objectdestroy.24Tm
+- _objectdestroy.32Tm
+- _objectdestroyTm
+- _symbolic So23FBSMutableSceneSettingsCIghg_
+CStrings:
++ "Creating endpoint for service name %s and endpointUUID: %s and agentUUID: %s"
++ "Endpoint does not have a device ID, generating a random one"
++ "com.apple.MRQuickLook"
++ "com.apple.RAQLPreviewExtension"
++ "com.apple.quicklook.QuickLookUIService"
+- "#16@0:8"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"<DDUIDevice>\"16@0:8"
+- "@\"<DDUIEndpointPairingBrowsingTransport>\""
+- "@\"<DDUIEndpointPairingListeningTransport>\""
+- "@\"<DDUIEndpointPairingTransportSession>\""
+- "@\"<DDUIEndpointPairingTransportSession>\"48@0:8@\"<DDUIDevice>\"16@\"NSString\"24@\"NSString\"32^@40"
+- "@\"<_DDUINotificationPresenter>\""
+- "@\"<_DDUINotificationPresenterDelegate>\""
+- "@\"<_DDUINotificationPresenterDelegate>\"16@0:8"
+- "@\"<_DDUIiOSNotificationPresenterApplicationRecordVendor>\""
+- "@\"CPSAuthenticationSession\""
+- "@\"DDUIApplicationInfo\""
+- "@\"DDUIEndpointPairingListener\""
+- "@\"FBSOpenApplicationService\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSMapTable\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSSet\"32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@\"NSUUID\"16@0:8"
+- "@\"RPClient\""
+- "@\"RPCompanionLinkClient\""
+- "@\"RPRemoteDisplayDiscovery\""
+- "@\"SFWirelessSettingsController\""
+- "@\"UNUserNotificationCenter\""
+- "@\"_DDUINotificationManager\""
+- "@\"_DDUIRapportDevice\""
+- "@\"_DDUIiOSPresentedNotification\""
+- "@\"_TtC21DeviceDiscoveryUICore11DDUIService\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8I16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8Q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16@24@32^@40"
+- "@48@0:8@16d24@32@?40"
+- "@56@0:8@16@24@32@40Q48"
+- "@?"
+- "@?16@0:8"
+- "@?<v@?@\"NSArray\">16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "C16@0:8"
+- "CNKeyDescriptor"
+- "DDUIApplicationInfo"
+- "DDUICoreAgent"
+- "DDUIDevice"
+- "DDUIEndpointPairingBrowsingTransport"
+- "DDUIEndpointPairingInitiator"
+- "DDUIEndpointPairingInitiatorSession"
+- "DDUIEndpointPairingListener"
+- "DDUIEndpointPairingListeningTransport"
+- "DDUIEndpointPairingReceiverSession"
+- "DDUIEndpointPairingSession"
+- "DDUIEndpointPairingTransport"
+- "DDUIEndpointPairingTransportSession"
+- "DDUIInfoPlist"
+- "DDUIInfoPlistService"
+- "DDUIListenerActorManager"
+- "DDUIPairCompleteMessage"
+- "DDUIPairInitiateMessage"
+- "DDUIRapportPeopleDiscovery"
+- "FBSceneCreating"
+- "FBSceneDelegate"
+- "FBSceneObserver"
+- "I"
+- "I16@0:8"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "OS_nw_parameters"
+- "OS_nw_protocol_options"
+- "OS_nw_protocol_stack"
+- "OS_sec_identity"
+- "Q16@0:8"
+- "T#,N,R"
+- "T#,R"
+- "T@\"<DDUIDevice>\",R,N"
+- "T@\"<DDUIEndpointPairingBrowsingTransport>\",&,N,V_transport"
+- "T@\"<DDUIEndpointPairingListeningTransport>\",&,N,V_transport"
+- "T@\"<DDUIEndpointPairingTransportSession>\",&,N,V_transportSession"
+- "T@\"<_DDUINotificationPresenter>\",&,N,V_notificationPresenter"
+- "T@\"<_DDUINotificationPresenterDelegate>\",W,N"
+- "T@\"<_DDUINotificationPresenterDelegate>\",W,N,V_delegate"
+- "T@\"<_DDUIiOSNotificationPresenterApplicationRecordVendor>\",&,N,V_applicationRecordVendor"
+- "T@\"CPSAuthenticationSession\",R,N,V_proxSession"
+- "T@\"DDUIApplicationInfo\",&,N,V_applicationInfo"
+- "T@\"DDUIApplicationInfo\",R,N,V_applicationInfo"
+- "T@\"DDUIEndpointPairingListener\",&,N,V_endpointPairingListener"
+- "T@\"FBSOpenApplicationService\",&,N,V_openApplicationService"
+- "T@\"NSArray\",&,N,V_previousAvailableDevices"
+- "T@\"NSArray\",&,N,V_previousAvailablePeople"
+- "T@\"NSArray\",R,N"
+- "T@\"NSDictionary\",&,N"
+- "T@\"NSDictionary\",&,N,V_advertisesByIdentifier"
+- "T@\"NSDictionary\",&,N,V_browsesByIdentifier"
+- "T@\"NSDictionary\",&,N,V_startUserInfo"
+- "T@\"NSDictionary\",&,N,VincomingMessage"
+- "T@\"NSDictionary\",R,N,V_cancellationReason"
+- "T@\"NSMapTable\",&,N,V_transportSessionByUUID"
+- "T@\"NSMutableDictionary\",&,N,V_discoveredDevicesMap"
+- "T@\"NSObject<OS_dispatch_group>\",&,N,V_activateGroup"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_clearNotificationTimer"
+- "T@\"NSString\",&,N"
+- "T@\"NSString\",&,N,V_accountIdentifier"
+- "T@\"NSString\",&,N,V_destinationID"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_model"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_notificationID"
+- "T@\"NSString\",&,N,V_remoteDeviceIdentifier"
+- "T@\"NSString\",&,N,V_serviceIdentifier"
+- "T@\"NSString\",&,N,V_sessionID"
+- "T@\"NSString\",&,N,V_usageDescription"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_appName"
+- "T@\"NSString\",R,N,V_applicationID"
+- "T@\"NSString\",R,N,V_bundleID"
+- "T@\"NSString\",R,N,V_serviceIdentifier"
+- "T@\"NSUUID\",&,N,V_sessionID"
+- "T@\"NSUUID\",R,N"
+- "T@\"NSUUID\",R,N,V_listenerUUID"
+- "T@\"RPClient\",&,N,V_rpClient"
+- "T@\"RPCompanionLinkClient\",&,N,V_client"
+- "T@\"RPRemoteDisplayDevice\",&,N"
+- "T@\"RPRemoteDisplayDiscovery\",&,N,V_discovery"
+- "T@\"RPRemoteDisplayDiscovery\",R,N,V_rDiscovery"
+- "T@\"SFWirelessSettingsController\",&,N,V_wirelessSettingsController"
+- "T@\"UNUserNotificationCenter\",&,N,V_notificationCenter"
+- "T@\"_DDUINotificationManager\",&,N,V_notificationManager"
+- "T@\"_DDUIRapportDevice\",&,N,V_cachedDevice"
+- "T@\"_DDUIiOSPresentedNotification\",&,N,V_presentedNotification"
+- "T@\"_TtC21DeviceDiscoveryUICore11DDUIService\",&,N,V_dduiService"
+- "T@?,C,N"
+- "T@?,C,N,V_availableDevicesChangedHandler"
+- "T@?,C,N,V_availablePeopleChangedHandler"
+- "T@?,C,N,V_completion"
+- "T@?,C,N,V_completionHandler"
+- "T@?,C,N,V_dedicatedDeviceChangedHandler"
+- "T@?,C,N,V_discoverySessionChangedHandler"
+- "T@?,C,N,V_errorHandler"
+- "T@?,C,N,V_messageHandler"
+- "T@?,C,N,V_personDeclinedHandler"
+- "TB,N,G_isActivated,V_activated"
+- "TB,N,R"
+- "TB,N,V_activated"
+- "TB,N,V_isCancellation"
+- "TB,N,V_isMine"
+- "TB,N,V_listeningForResponses"
+- "TB,N,V_setup"
+- "TB,N,V_started"
+- "TB,R"
+- "TB,R,N"
+- "TC,R,N"
+- "TI,N,V_acceptedDeviceTypes"
+- "TI,N,V_deviceType"
+- "TI,N,V_deviceTypes"
+- "TI,N,V_wantedDeviceTypes"
+- "TI,R,N"
+- "TQ,N"
+- "TQ,N,V_mode"
+- "TQ,N,V_sessionType"
+- "TQ,N,V_state"
+- "TQ,N,VsessionType"
+- "TQ,R"
+- "TQ,R,N,V_adamID"
+- "TQ,R,N,V_notificationResult"
+- "UNUserNotificationCenterDelegate"
+- "URL"
+- "URLWithString:"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_DDUINotificationManager"
+- "_DDUINotificationPresenter"
+- "_DDUINotificationPresenterDelegate"
+- "_DDUIRapportDevice"
+- "_DDUIRapportIncomingTransportSession"
+- "_DDUIRapportOutgoingTransportSession"
+- "_DDUIRapportPairingTransport"
+- "_DDUIRemoteDisplaySessionHandler"
+- "_DDUIiOSNotificationPresenter"
+- "_DDUIiOSPresentedNotification"
+- "_TtC21DeviceDiscoveryUICore11DDUIService"
+- "_TtC21DeviceDiscoveryUICore16DDUIServiceActor"
+- "_TtC21DeviceDiscoveryUICore16NameDropIdentity"
+- "_TtC21DeviceDiscoveryUICore19DDUINoticeXPCClient"
+- "_TtC21DeviceDiscoveryUICore20DDUINoticeXPCService"
+- "_TtC21DeviceDiscoveryUICore20DDUIPermissionClient"
+- "_TtC21DeviceDiscoveryUICore21DDUIPermissionService"
+- "_TtC21DeviceDiscoveryUICore22DDUIAppSettingsManager"
+- "_TtC21DeviceDiscoveryUICore22DDUIConfirmationAction"
+- "_TtC21DeviceDiscoveryUICore27DDUIPermissionPresenter_iOS"
+- "_TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager"
+- "_TtC21DeviceDiscoveryUICore30DDUIPermissionPresenterFactory"
+- "_TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings"
+- "_TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings"
+- "_TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification"
+- "_TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond"
+- "_TtP21DeviceDiscoveryUICore18UserAcceptProtocol_"
+- "_acceptedDeviceTypes"
+- "_accountIdentifier"
+- "_activateGroup"
+- "_activateWithErrorHandler:completionHandler:"
+- "_activated"
+- "_adamID"
+- "_advertisesByIdentifier"
+- "_appName"
+- "_applicationID"
+- "_applicationInfo"
+- "_applicationRecordVendor"
+- "_applicationSupportsServiceIdentifier:serviceIdentifier:"
+- "_availableDevicesChangedHandler"
+- "_availablePeopleChangedHandler"
+- "_browsesByIdentifier"
+- "_bundleID"
+- "_cachedDevice"
+- "_cancellationReason"
+- "_clearBlocks"
+- "_clearNotificationTimeout"
+- "_clearNotificationTimer"
+- "_clearPresentedNotificationIfNeeded"
+- "_client"
+- "_completion"
+- "_completionHandler"
+- "_configureNotificationTimeout"
+- "_createAppStoreNotification:"
+- "_createConnectNotificationWithDeviceName:appName:"
+- "_createContinuityCameraNotificationWithDeviceName:"
+- "_createMicOnlyNotificationWithDeviceName:"
+- "_crossPlatformUnifiedMeContactWithKeysToFetch:error:"
+- "_dduiService"
+- "_dedicatedDeviceChangedHandler"
+- "_delegate"
+- "_destinationID"
+- "_deviceType"
+- "_deviceTypes"
+- "_discoveredDevicesMap"
+- "_discovery"
+- "_discoverySessionChangedHandler"
+- "_endpointPairingListener"
+- "_errorHandler"
+- "_failPairing"
+- "_handleContinuityCameraDisabledAlertResponseWithState:"
+- "_handleIncomingContinuityCameraConfirmation:"
+- "_handleIncomingMessage:"
+- "_handleIncomingPairingSession:pairingMessage:"
+- "_identifier"
+- "_isActivated"
+- "_isCancellation"
+- "_isMine"
+- "_listenerUUID"
+- "_listeningForResponses"
+- "_messageHandler"
+- "_mode"
+- "_model"
+- "_name"
+- "_notificationCenter"
+- "_notificationID"
+- "_notificationManager"
+- "_notificationPresenter"
+- "_notificationResult"
+- "_openApplicationService"
+- "_pairWithInfo:"
+- "_personDeclinedHandler"
+- "_presentedNotification"
+- "_previousAvailableDevices"
+- "_previousAvailablePeople"
+- "_proxSession"
+- "_rDiscovery"
+- "_remoteDeviceIdentifier"
+- "_rpClient"
+- "_sendPairingWithInfo:"
+- "_serviceIdentifier"
+- "_sessionID"
+- "_sessionType"
+- "_setup"
+- "_setupDDUIServiceIfNeededWithCompletion:"
+- "_setupIfNeeded"
+- "_setupListenerIfNeededWithCompletion:"
+- "_setupListeningForResponseMessagesIfNeeded"
+- "_showContinuityCameraDisabledAlertWithState:"
+- "_showContinuityConfirmation:identifier:micOnly:completion:"
+- "_showNotificationForPairingSession:pairingMessage:"
+- "_startOnQueue"
+- "_startUserInfo"
+- "_started"
+- "_state"
+- "_transport"
+- "_transportSession"
+- "_transportSessionByUUID"
+- "_usageDescription"
+- "_wantedDeviceTypes"
+- "_wirelessSettingsController"
+- "aa_primaryAppleAccount"
+- "acceptedDeviceTypes"
+- "accountAltDSID"
+- "accountID"
+- "accountIdentifier"
+- "actionIdentifier"
+- "actionWithIdentifier:title:options:"
+- "activate:"
+- "activateDiscoveryWithCompletion:"
+- "activateForDeviceTypes:withCompletion:"
+- "activateGroup"
+- "activateWithCompletion:"
+- "activateWithErrorHandler:completionHandler:"
+- "activateWithErrorHandler:messageHandler:completion:"
+- "activated"
+- "activeDevices"
+- "actorSystem"
+- "adamID"
+- "addContact:toContainerWithIdentifier:"
+- "addNotificationRequest:withCompletionHandler:"
+- "addObject:"
+- "addObserver:"
+- "advertisesByIdentifier"
+- "allValues"
+- "appName"
+- "appendString:"
+- "applicationID"
+- "applicationInfo"
+- "applicationRecordVendor"
+- "array"
+- "arrayWithObjects:count:"
+- "attemptDedicatedDeviceConnection"
+- "autorelease"
+- "availableDevices"
+- "availableDevicesChangedHandler"
+- "availablePeople"
+- "availablePeopleChangedHandler"
+- "beginListeningWithErrorHandler:pairingHandler:completion:"
+- "beginWithCompletion:"
+- "boolForKey:"
+- "boolValue"
+- "browsesByIdentifier"
+- "bundleID"
+- "bundleIDPrefixedServiceIdentifier"
+- "bundleRecordWithApplicationIdentifier:error:"
+- "bundleWithIdentifier:"
+- "cachedDevice"
+- "cachedNickname"
+- "canEnterSession"
+- "cancelCurrentProxCard"
+- "cancelMessageWithID:"
+- "cancelPerson:"
+- "cancelWithMessage:"
+- "cancellationReason"
+- "categoryIdentifier"
+- "categoryWithIdentifier:actions:intentIdentifiers:options:"
+- "checkIfUserNeedsReconfirmationForSession:withServiceIdentifier:completion:"
+- "class"
+- "clearNotificationTimer"
+- "client"
+- "completion"
+- "completionHandler"
+- "configureParameters:"
+- "conformsToProtocol:"
+- "connection"
+- "contactID"
+- "contactWithDisplayName:handleStrings:"
+- "contactsWithData:error:"
+- "containsObject:"
+- "containsString:"
+- "content"
+- "continuation"
+- "continuationsByIdentifier"
+- "controlFlags"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDeviceToListenerMapping:deviceID:completion:"
+- "createEndpointToDeviceMapping:deviceID:endpointID:completion:"
+- "createListenerMappingForDevice:forServiceIdentifier:completion:"
+- "createListenerMappingForSession:withServiceIdentifier:completion:"
+- "createScene:"
+- "currentState"
+- "dataForKey:"
+- "dataWithContacts:options:error:"
+- "dduiService"
+- "dealloc"
+- "debugDescription"
+- "dedicatedDevice"
+- "dedicatedDeviceChangedHandler"
+- "deepLinkToAppStoreForApplication:"
+- "defaultSound"
+- "defaultStore"
+- "defaultWorkspace"
+- "delegate"
+- "description"
+- "destinationDevice"
+- "destinationID"
+- "deviceSupportsWAPI"
+- "deviceType"
+- "deviceTypes"
+- "dictionaryRepresentation"
+- "dictionaryWithObjects:forKeys:count:"
+- "discoveredDevicesMap"
+- "discoveredPeople"
+- "discovery"
+- "discoveryFlags"
+- "discoverySessionChangedHandler"
+- "discoverySessionStartReason"
+- "discoverySessionState"
+- "dismissNotificationWithIdentifier:"
+- "displayPhoneNumber"
+- "emailAddresses"
+- "encodeWithCoder:"
+- "endpointPairingListener"
+- "enterDiscoverySessionWithDevice:reason:"
+- "enterSessionWithRemoteDeviceID:reason:"
+- "errorHandler"
+- "errorWithDomain:code:userInfo:"
+- "exchangeQUICPublicKeyFor:publicKey:completion:"
+- "executeSaveRequest:error:"
+- "familyName"
+- "firstName"
+- "formattedStringValue"
+- "generateNetworkEndpointIdentifierForRemoteDevice:withCompletion:"
+- "getDiscoveredDevicesMap"
+- "getIdentitiesWithFlags:completion:"
+- "getPhoneNumber:error:"
+- "getUserDefaultVoiceSubscriptionContext:"
+- "givenName"
+- "handleApplicationInfo:withID:fromDevice:completionHandler:"
+- "handleContinuityCameraConfirmationWithID:fromDevice:completionHandler:"
+- "handleIncomingMessage:withMessageID:"
+- "handleMicOnlyConfirmationWithID:fromDevice:completionHandler:"
+- "hasPrefix:"
+- "hash"
+- "iTunesMetadata"
+- "iconForApplicationIdentifier:"
+- "iconForSystemImageNamed:"
+- "id"
+- "identifier"
+- "identityForAngelJobLabel:"
+- "idsDeviceID"
+- "idsDeviceIdentifier"
+- "imageData"
+- "incomingMessage"
+- "infoDictionary"
+- "init"
+- "initForDeviceTypes:withTransport:"
+- "initWithApplicationID:serviceIdentifier:bundleID:appName:adamID:"
+- "initWithApplicationInfo:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCancellationReason:"
+- "initWithCoder:"
+- "initWithDictionaryRepresentation:"
+- "initWithIdentifier:"
+- "initWithIdentifier:name:model:accountID:"
+- "initWithIncomingMessageOptions:"
+- "initWithInfo:responder:"
+- "initWithInfo:timeout:forResponseOnQueue:withHandler:"
+- "initWithLabel:value:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithMode:"
+- "initWithMode:companionLinkClient:"
+- "initWithNotificationCenter:applicationRecordVendor:openApplicationService:"
+- "initWithNotificationResult:"
+- "initWithNotificationResult:listenerUUID:"
+- "initWithOptions:"
+- "initWithQueue:"
+- "initWithRPCompanionLinkDevice:"
+- "initWithRemoteDisplayDiscovery:deviceSelectedHandler:"
+- "initWithRequest:"
+- "initWithServiceIdentifier:"
+- "initWithSettings:"
+- "initWithString:"
+- "initWithStringValue:"
+- "initWithSuiteName:"
+- "initWithTransport:"
+- "initWithTransportSession:mode:"
+- "initWithUUIDString:"
+- "initWithXPCDictionary:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isCancellation"
+- "isContinuityCaptureUserPreferenceEnabled"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isLikePhoneNumber:"
+- "isMemberOfClass:"
+- "isMine"
+- "isProxy"
+- "isWifiStateOn"
+- "lastName"
+- "length"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "listenerUUID"
+- "listeningForResponses"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "lock"
+- "mainConfiguration"
+- "messageHandler"
+- "minusSet:"
+- "mode"
+- "model"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "name"
+- "nameOrderForContact:"
+- "nearfieldServerTask"
+- "nicknameForCurrentUserWithCompletionHandler:"
+- "nicknameProvider"
+- "notification"
+- "notificationCenter"
+- "notificationID"
+- "notificationManager"
+- "notificationPresenter"
+- "notificationResult"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "objectForKeyedSubscript:"
+- "objectForSetting:"
+- "openApplication:withOptions:completion:"
+- "openApplicationService"
+- "openSensitiveURL:withOptions:error:"
+- "optionsWithDictionary:"
+- "otherSettings"
+- "pairWithMessage:"
+- "pairWithMessage:errorHandler:completionHandler:"
+- "pairingSessionForDevice:bundleID:serviceIdentifier:error:"
+- "peerDeviceIdentifier"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentIdentifier"
+- "personCanceled:"
+- "personDeclinedHandler"
+- "personSelected"
+- "phoneNumbers"
+- "phoneticFamilyName"
+- "phoneticGivenName"
+- "phoneticMiddleName"
+- "posterArchiveData"
+- "presentProxCardForDevice:completion:"
+- "presentedNotification"
+- "previousAvailableDevices"
+- "previousAvailablePeople"
+- "processInitialMessage:"
+- "proxSession"
+- "queryDeviceToListenerMapping:deviceID:completion:"
+- "queue"
+- "rDiscovery"
+- "registerRequestID:options:handler:"
+- "release"
+- "remoteDevice"
+- "remoteDeviceIdentifier"
+- "remoteObjectProxy"
+- "removeDeliveredNotificationsWithIdentifiers:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "replaceObjectAtIndex:withObject:"
+- "request"
+- "requestAuthorizationWithOptions:completionHandler:"
+- "requestDedicatedDeviceConfirmationWithCompletion:"
+- "requestWithIdentifier:content:trigger:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "rpClient"
+- "saveDedicatedDevice:"
+- "saveDedicatedDeviceInformation:"
+- "scene:clientDidConnect:"
+- "scene:didApplyUpdateWithContext:"
+- "scene:didCompleteUpdateWithContext:error:"
+- "scene:didPrepareUpdateWithContext:"
+- "scene:didReceiveActions:"
+- "scene:didUpdateClientSettings:"
+- "scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:"
+- "scene:didUpdateSettings:"
+- "scene:handleActions:"
+- "scene:willUpdateSettings:"
+- "scene:willUpdateSettings:withTransitionContext:"
+- "sceneContentStateDidChange:"
+- "sceneDidActivate:"
+- "sceneDidDeactivate:withContext:"
+- "sceneDidDeactivate:withError:"
+- "sceneDidInvalidate:"
+- "sceneDidInvalidate:withContext:"
+- "sceneWillActivate:"
+- "sceneWillDeactivate:withContext:"
+- "sceneWillDeactivate:withError:"
+- "sceneWithIdentifier:"
+- "scenelessBundleIdentifiers"
+- "selectPerson:forPairingType:"
+- "self"
+- "sendMessage:withCompletion:"
+- "sendMessage:withTimeout:completion:"
+- "sendRequestID:request:destinationID:options:responseHandler:"
+- "sendRequestID:request:options:responseHandler:"
+- "senderDetails"
+- "serverTask"
+- "serviceWithDefaultShellEndpoint"
+- "sessionForDevice:bundleID:serviceIdentifier:error:"
+- "sessionID"
+- "sessionType"
+- "setAcceptedDeviceTypes:"
+- "setAccountIdentifier:"
+- "setActivateGroup:"
+- "setActivated:"
+- "setAddressingGrammars:"
+- "setAdvertisesByIdentifier:"
+- "setAppID:"
+- "setApplicationInfo:"
+- "setApplicationRecordVendor:"
+- "setAvailableDevicesChangedHandler:"
+- "setAvailablePeopleChangedHandler:"
+- "setBleClientUseCase:"
+- "setBody:"
+- "setBrowsesByIdentifier:"
+- "setCachedDevice:"
+- "setCategoryIdentifier:"
+- "setClearNotificationTimer:"
+- "setClient:"
+- "setClientIdentity:"
+- "setCompletion:"
+- "setCompletionHandler:"
+- "setContactType:"
+- "setControlFlags:"
+- "setDduiService:"
+- "setDedicatedDevice:"
+- "setDedicatedDeviceChangedHandler:"
+- "setDelegate:"
+- "setDestinationDevice:"
+- "setDestinationID:"
+- "setDeviceChangedHandler:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostHandler:"
+- "setDeviceName:"
+- "setDeviceSelectedHandler:"
+- "setDeviceType:"
+- "setDeviceTypes:"
+- "setDisconnectHandler:"
+- "setDiscoveredDevicesMap:"
+- "setDiscovery:"
+- "setDiscoveryFlags:"
+- "setDiscoverySessionChangedHandler:"
+- "setDiscoverySessionStateChangedHandler:"
+- "setDispatchQueue:"
+- "setDisplayConfiguration:"
+- "setEmailAddresses:"
+- "setEndpointPairingListener:"
+- "setErrorHandler:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFamilyName:"
+- "setForeground:"
+- "setGivenName:"
+- "setIcon:"
+- "setIdentifier:"
+- "setIncludePhotos:"
+- "setIncludeWallpaper:"
+- "setIncomingMessage:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsCancellation:"
+- "setIsMine:"
+- "setListeningForResponses:"
+- "setMessageHandler:"
+- "setMiddleName:"
+- "setMode:"
+- "setModel:"
+- "setName:"
+- "setNamePrefix:"
+- "setNameSuffix:"
+- "setNotificationCategories:"
+- "setNotificationCenter:"
+- "setNotificationID:"
+- "setNotificationManager:"
+- "setNotificationPresenter:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObject:forSetting:"
+- "setOpenApplicationService:"
+- "setPersonChangedHandler:"
+- "setPersonDeclinedHandler:"
+- "setPersonFoundHandler:"
+- "setPersonLostHandler:"
+- "setPersonSelected:forDedicatedPairing:"
+- "setPersonSelected:forPairingType:"
+- "setPhoneNumbers:"
+- "setPhoneticFamilyName:"
+- "setPhoneticGivenName:"
+- "setPhoneticMiddleName:"
+- "setPresentedNotification:"
+- "setPreviousAvailableDevices:"
+- "setPreviousAvailablePeople:"
+- "setRemoteDeviceIdentifier:"
+- "setRemoteObjectInterface:"
+- "setRpClient:"
+- "setServiceIdentifier:"
+- "setServiceType:"
+- "setSessionCompletionHandler:"
+- "setSessionID:"
+- "setSessionType:"
+- "setSetup:"
+- "setSharedPhotoDisplayPreference:"
+- "setShouldAuthenticateDefaultAction:"
+- "setShouldBackgroundDefaultAction:"
+- "setShouldIgnoreDoNotDisturb:"
+- "setShouldSuppressDefaultAction:"
+- "setSound:"
+- "setSpecification:"
+- "setStartUserInfo:"
+- "setStarted:"
+- "setState:"
+- "setThumbnailImageData:"
+- "setTitle:"
+- "setTransactionAuthor:"
+- "setTransport:"
+- "setTransportSession:"
+- "setTransportSessionByUUID:"
+- "setUsageDescription:"
+- "setUseCase:"
+- "setWallpaper:"
+- "setWantedDeviceTypes:"
+- "setWantsNotificationResponsesDelivered"
+- "setWatchWallpaperImageData:"
+- "setWirelessSettingsController:"
+- "setWithObjects:"
+- "settingsByBundleID"
+- "settingsClass"
+- "settingsKey"
+- "setup"
+- "setupListeningForSessionsWithHandler:"
+- "sharedInstance"
+- "shouldAutoAcceptCCConfirmation"
+- "shouldByPassConfirmationForRemoteDeviceID:"
+- "shouldReauthenticateDevice:forServiceIdentifier:completion:"
+- "showContinuityCameraConfirmation:identifier:completion:"
+- "showMicOnlyConfirmation:identifier:completion:"
+- "showNotificationForApplication:deviceName:identifier:completion:"
+- "sourceVersion"
+- "standardUserDefaults"
+- "startNFCServerWithLocalIdentity:listenerUUID:remotePublicKey:contactID:deviceModel:deviceName:"
+- "startNearFieldServerWithLocalIdentity:listenerUUID:remotePublicKey:contactID:deviceModel:deviceName:completionHandler:"
+- "startServerWithCompletionHandler:"
+- "startUserInfo"
+- "started"
+- "state"
+- "statusFlags"
+- "stopNFCServer"
+- "stopNearFieldServer"
+- "storeItemIdentifier"
+- "stringByAppendingFormat:"
+- "stringFromContact:"
+- "stringValue"
+- "stringWithFormat:"
+- "strongToWeakObjectsMapTable"
+- "superclass"
+- "supportsSecureCoding"
+- "suspendedBundleIdentifiers"
+- "thumbnailImageData"
+- "transport"
+- "transportSession"
+- "transportSessionByUUID"
+- "uiSceneSessionRole"
+- "unionSet:"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "updateSettingsWithBlock:"
+- "usageDescription"
+- "userDefaults"
+- "userDidRespondWithAccepted:"
+- "userFullName"
+- "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+- "userNotificationCenter:openSettingsForNotification:"
+- "userNotificationCenter:willPresentNotification:withCompletionHandler:"
+- "username"
+- "v16@0:8"
+- "v16@?0@\"<FBSceneCreating>\"8"
+- "v16@?0@\"<OS_nw_protocol_options>\"8"
+- "v16@?0@\"BSActionResponse\"8"
+- "v16@?0@\"FBSMutableSceneParameters\"8"
+- "v16@?0@\"FBSMutableSceneSettings\"8"
+- "v16@?0@\"IMNickname\"8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v24@0:8@\"<FBSSceneClientIdentifying>\"16"
+- "v24@0:8@\"<_DDUINotificationPresenterDelegate>\"16"
+- "v24@0:8@\"DDUIApplicationInfo\"16"
+- "v24@0:8@\"DDUIPairCompleteMessage\"16"
+- "v24@0:8@\"FBSSceneSpecification\"16"
+- "v24@0:8@\"FBScene\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"NSUUID\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"<DDUIEndpointPairingTransportSession>\"@\"NSDictionary\"Q>16"
+- "v24@0:8@?<v@?@\"FBSMutableSceneParameters\">16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v28@0:8@16I24"
+- "v28@0:8I16@?20"
+- "v28@0:8I16@?<v@?@\"NSError\">20"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneTransitionContext\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneUpdate\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneClientHandle\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24"
+- "v32@0:8@\"FBScene\"16@\"NSError\"24"
+- "v32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSUUID\"@\"NSError\">24"
+- "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@?16@?24"
+- "v32@0:8@?<v@?@\"NSError\">16@?<v@?Q>24"
+- "v32@?0@\"<OS_sec_protocol_metadata>\"8@\"<OS_sec_trust>\"16@?<v@?B>24"
+- "v32@?0@\"NSUUID\"8@\"NSData\"16@\"NSError\"24"
+- "v40@0:8@\"<DDUIDevice>\"16@\"NSString\"24@?<v@?@\"NSUUID\">32"
+- "v40@0:8@\"<DDUIDevice>\"16@\"NSString\"24@?<v@?B@\"NSUUID\">32"
+- "v40@0:8@\"<DDUIDevice>\"16@\"NSUUID\"24@?<v@?Q>32"
+- "v40@0:8@\"DDUIPairInitiateMessage\"16@?<v@?@\"NSError\">24@?<v@?Q@\"NSUUID\"@\"DDUIPairCompleteMessage\">32"
+- "v40@0:8@\"FBScene\"16@\"FBSMutableSceneSettings\"24@\"FBSSceneTransitionContext\"32"
+- "v40@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24@\"NSError\"32"
+- "v40@0:8@\"NSDictionary\"16d24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24@?<v@?Q>32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24@?<v@?>32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8@16d24@?32"
+- "v40@0:8@?16@?24@?32"
+- "v40@0:8@?<v@?@\"NSError\">16@?<v@?@\"NSDictionary\">24@?<v@?@\"<DDUIEndpointPairingTransportSession>\">32"
+- "v44@0:8@16@24B32@?36"
+- "v48@0:8@\"DDUIApplicationInfo\"16@\"NSString\"24@\"NSUUID\"32@?<v@?Q>40"
+- "v48@0:8@\"FBScene\"16@\"FBSSceneClientSettingsDiff\"24@\"FBSSceneClientSettings\"32@\"FBSSceneTransitionContext\"40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v64@0:8@16@24@32@40@48@56"
+- "v72@0:8@\"<OS_sec_identity>\"16@\"NSUUID\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"NSString\"56@?<v@?>64"
+- "value"
+- "wallpaper"
+- "wantedDeviceTypes"
+- "watchWallpaperImageData"
+- "wifiState"
+- "wirelessSettingsController"
+- "xpcListener"
+- "zone"
+
+```

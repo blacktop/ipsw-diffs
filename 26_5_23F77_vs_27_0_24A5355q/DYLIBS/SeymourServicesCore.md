@@ -1,0 +1,1156 @@
+## SeymourServicesCore
+
+> `/System/Library/PrivateFrameworks/SeymourServicesCore.framework/SeymourServicesCore`
+
+```diff
+
+-2026.5.5.0.0
+-  __TEXT.__text: 0x4461c
+-  __TEXT.__auth_stubs: 0x1400
+-  __TEXT.__objc_methlist: 0x2ec
+-  __TEXT.__const: 0x2150
+-  __TEXT.__oslogstring: 0x1f74
+-  __TEXT.__swift5_typeref: 0x1152
+-  __TEXT.__swift5_fieldmd: 0xc38
+-  __TEXT.__constg_swiftt: 0xc8c
++2027.0.107.1.3
++  __TEXT.__text: 0x44fb8
++  __TEXT.__objc_methlist: 0x104
++  __TEXT.__const: 0x2ec4
++  __TEXT.__swift5_typeref: 0x13c2
++  __TEXT.__swift5_fieldmd: 0xcc8
++  __TEXT.__constg_swiftt: 0xefc
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0xa44
+-  __TEXT.__swift5_assocty: 0xc0
+-  __TEXT.__cstring: 0xbba
+-  __TEXT.__swift5_protos: 0x4c
+-  __TEXT.__swift5_proto: 0x114
+-  __TEXT.__swift5_types: 0xc4
+-  __TEXT.__swift5_capture: 0x1408
+-  __TEXT.__unwind_info: 0xcf8
+-  __TEXT.__eh_frame: 0xb78
+-  __TEXT.__objc_classname: 0x224
+-  __TEXT.__objc_methname: 0xcc7
+-  __TEXT.__objc_methtype: 0x68e
+-  __TEXT.__objc_stubs: 0x980
+-  __DATA_CONST.__got: 0x400
+-  __DATA_CONST.__const: 0xf8
+-  __DATA_CONST.__objc_classlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x70
++  __TEXT.__swift5_reflstr: 0x93e
++  __TEXT.__swift5_assocty: 0x198
++  __TEXT.__swift5_protos: 0x48
++  __TEXT.__swift5_proto: 0x1b4
++  __TEXT.__swift5_types: 0xec
++  __TEXT.__oslogstring: 0x1abd
++  __TEXT.__swift5_capture: 0x834
++  __TEXT.__cstring: 0xb14
++  __TEXT.__swift_as_entry: 0x114
++  __TEXT.__swift_as_ret: 0x140
++  __TEXT.__swift_as_cont: 0x23c
++  __TEXT.__unwind_info: 0x11b8
++  __TEXT.__eh_frame: 0x29f8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x148
++  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3c8
+-  __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xa08
+-  __AUTH_CONST.__const: 0x41d0
++  __DATA_CONST.__objc_selrefs: 0x2a0
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x2ad8
+   __AUTH_CONST.__cfstring: 0x40
+-  __AUTH_CONST.__objc_const: 0xd88
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x290
+-  __DATA.__data: 0x5a0
+-  __DATA.__bss: 0x1700
+-  __DATA.__common: 0x38
+-  __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x9b0
+-  __DATA_DIRTY.__bss: 0x280
+-  __DATA_DIRTY.__common: 0x20
+-  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
++  __AUTH_CONST.__objc_const: 0x998
++  __AUTH_CONST.__auth_got: 0xc50
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x690
++  __DATA.__data: 0x6b8
++  __DATA.__bss: 0x2a20
++  __DATA.__common: 0x60
++  __DATA_DIRTY.__objc_data: 0x50
++  __DATA_DIRTY.__data: 0x988
++  __DATA_DIRTY.__bss: 0x480
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
++  - /System/Library/PrivateFrameworks/MessageDispatch.framework/MessageDispatch
++  - /System/Library/PrivateFrameworks/MessageDispatchCore.framework/MessageDispatchCore
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SeymourClient.framework/SeymourClient
++  - /System/Library/PrivateFrameworks/SeymourClientFoundation.framework/SeymourClientFoundation
+   - /System/Library/PrivateFrameworks/SeymourCore.framework/SeymourCore
++  - /System/Library/PrivateFrameworks/SeymourCoreFoundation.framework/SeymourCoreFoundation
++  - /System/Library/PrivateFrameworks/SeymourXPCServicesFoundation.framework/SeymourXPCServicesFoundation
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B883DB88-930F-3D38-A8FF-B6A4FDDD1310
+-  Functions: 1526
+-  Symbols:   963
+-  CStrings:  432
++  UUID: 5BA4F744-C1F5-3D18-8F1F-7BCB66553754
++  Functions: 1444
++  Symbols:   1094
++  CStrings:  173
+ 
+Symbols:
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_RBSProcessIdentifier
++ __DATA__TtC19SeymourServicesCore28PrioritizedParticipantStream
++ __DATA__TtC19SeymourServicesCore31RapportDispatchConnectionBroker
++ __DATA__TtC19SeymourServicesCore33UnstableRapportDispatchConnection
++ __IVARS__TtC19SeymourServicesCore28PrioritizedParticipantStream
++ __IVARS__TtC19SeymourServicesCore31RapportDispatchConnectionBroker
++ __IVARS__TtC19SeymourServicesCore33UnstableRapportDispatchConnection
++ __IVARS__TtC19SeymourServicesCore9XPCServer
++ __METACLASS_DATA__TtC19SeymourServicesCore28PrioritizedParticipantStream
++ __METACLASS_DATA__TtC19SeymourServicesCore31RapportDispatchConnectionBroker
++ __METACLASS_DATA__TtC19SeymourServicesCore33UnstableRapportDispatchConnection
++ ___swift__destructor
++ ___swift__destructor.57
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.27Tm
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.35Tm
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.39Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.22
++ ___swift_exist.box.addr_destructor.29
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy16_8
++ ___swift_memcpy8_8
++ ___swift_memcpy96_8
++ ___unnamed_1
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 15MessageDispatch07RapportB8ListenerCyxG19SeymourServicesCore27BroadcastConnectionProtocolAE0E16ClientFoundation09TransportA4CodeORszrl0aN0AeFP_SH
++ _associated conformance 15MessageDispatch07RapportB8ListenerCyxG19SeymourServicesCore27BroadcastConnectionProtocolAE0E16ClientFoundation09TransportA4CodeORszrl0aN0AeFP_SY
++ _associated conformance 15MessageDispatch19XPCDispatchListenerCyxG19SeymourServicesCore27BroadcastConnectionProtocolAE0E16ClientFoundation09TransportA4CodeORszrl0aN0AeFP_SH
++ _associated conformance 15MessageDispatch19XPCDispatchListenerCyxG19SeymourServicesCore27BroadcastConnectionProtocolAE0E16ClientFoundation09TransportA4CodeORszrl0aN0AeFP_SY
++ _associated conformance 15MessageDispatch32RapportPairedCompanionConnectionCyxG19SeymourServicesCore09BroadcastF8ProtocolAE0G16ClientFoundation09TransportA4CodeORszrl0aO0AeFP_SH
++ _associated conformance 15MessageDispatch32RapportPairedCompanionConnectionCyxG19SeymourServicesCore09BroadcastF8ProtocolAE0G16ClientFoundation09TransportA4CodeORszrl0aO0AeFP_SY
++ _associated conformance 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLOSHAASQ
++ _associated conformance 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore28PrioritizedParticipantStreamC8IteratorVScIAA7FailureScI_s5Error
++ _associated conformance 19SeymourServicesCore28PrioritizedParticipantStreamCSciAA13AsyncIteratorSci_ScI
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOSHAASQ
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOSHAASQ
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17ExpiredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17ExpiredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOSHAASQ
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOSHAASQ
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19SeymourServicesCore31RemoteParticipantDiscoveryEventOSHAASQ
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionC07MessagefC00F6ClientAA0H4CodeAdEP_SH
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionC07MessagefC00F6ClientAA0H4CodeAdEP_SY
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionC07MessagefC00F8ListenerAA0H4CodeAdEP_SH
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionC07MessagefC00F8ListenerAA0H4CodeAdEP_SY
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionCAA09BroadcastG8ProtocolAA11MessageCodeAaDP_SH
++ _associated conformance 19SeymourServicesCore33UnstableRapportDispatchConnectionCAA09BroadcastG8ProtocolAA11MessageCodeAaDP_SY
++ _associated conformance 21InternalSwiftProtobuf19BinaryDecodingErrorO21SeymourCoreFoundation0F16MatchingProtocol0g8ServicesH0s0F0
++ _block_copy_helper.14
++ _block_copy_helper.20
++ _block_copy_helper.29
++ _block_copy_helper.32
++ _block_copy_helper.39
++ _block_copy_helper.46
++ _block_copy_helper.49
++ _block_copy_helper.62
++ _block_copy_helper.65
++ _block_descriptor.16
++ _block_descriptor.22
++ _block_descriptor.31
++ _block_descriptor.34
++ _block_descriptor.41
++ _block_descriptor.48
++ _block_descriptor.51
++ _block_descriptor.64
++ _block_descriptor.67
++ _block_destroy_helper.15
++ _block_destroy_helper.21
++ _block_destroy_helper.30
++ _block_destroy_helper.33
++ _block_destroy_helper.40
++ _block_destroy_helper.47
++ _block_destroy_helper.50
++ _block_destroy_helper.63
++ _block_destroy_helper.66
++ _flat unique 19MessageDispatchCore0B6Client_px0A4CodeAaBPRts_XP
++ _flat unique 19MessageDispatchCore0B8Listener_px0A4CodeAaBPRts_XP
++ _get_enum_tag_for_layout_string 19SeymourServicesCore31RapportDispatchConnectionBrokerC5StateO
++ _objc_msgSend$activityLevel
++ _objc_msgSend$activityLevelTimeStamp
++ _objc_msgSend$authCompletionHandler
++ _objc_msgSend$handleForIdentifier:error:
++ _objc_msgSend$identifierWithPid:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$passwordType
++ _objc_msgSend$pid
++ _objc_msgSend$promptForPasswordHandler
++ _os_proc_available_memory
++ _swift_allocateGenericClassMetadata
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_instantiateLayoutString
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getExtendedExistentialTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getTupleTypeMetadata
++ _swift_getTupleTypeMetadata3
++ _swift_initClassMetadata2
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_task_addCancellationHandler
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_isCurrentExecutor
++ _swift_task_removeCancellationHandler
++ _swift_task_reportUnexpectedExecutor
++ _swift_task_switch
++ _swift_unknownObjectRetain_n
++ _symbolic $s19MessageDispatchCore0B6ClientP
++ _symbolic $s19MessageDispatchCore0B8ListenerP
++ _symbolic $s19SeymourServicesCore11RapportLinkP
++ _symbolic $s19SeymourServicesCore20RapportLinkProvidingP
++ _symbolic $s19SeymourServicesCore27BroadcastConnectionProtocolP
++ _symbolic $s19SeymourServicesCore27DispatchConnectionBrokeringP
++ _symbolic $sScI
++ _symbolic $sSci
++ _symbolic 11MessageCode_____Qyd__ 19MessageDispatchCore0B6ClientP
++ _symbolic 11MessageCode_____Qyd__ 19MessageDispatchCore0B8ListenerP
++ _symbolic 11MessageCode_____Qz 19SeymourServicesCore27BroadcastConnectionProtocolP
++ _symbolic 11MessageCode______8RawValueSYQZ 19SeymourServicesCore27BroadcastConnectionProtocolP
++ _symbolic 8RawValueSYQz
++ _symbolic BD
++ _symbolic SS10identifier_______p4link_____4roleSDySSSo21RPCompanionLinkDeviceCG17discoveredDevices______p15expirationTimer______pSg26aggressiveBluetoothScanner_____y______G12continuationt 19SeymourServicesCore11RapportLinkP 0aC021RemoteParticipantRoleO So24OS_dispatch_source_timerP AA27AggressiveBluetoothScanningP ScS12ContinuationV AA0fG14DiscoveryEventO
++ _symbolic SS10identifier_______p4link_____4role______p15expirationTimer______pSg26aggressiveBluetoothScanner_____y______G12continuationt 19SeymourServicesCore11RapportLinkP 0aC021RemoteParticipantRoleO So24OS_dispatch_source_timerP AA27AggressiveBluetoothScanningP ScS12ContinuationV AA0fG14DiscoveryEventO
++ _symbolic SS16intentIdentifier_t
++ _symbolic SayScCy_____y_____G______pGG 15MessageDispatch07RapportB6ClientC 07SeymourD10Foundation09TransportA4CodeO s5ErrorP
++ _symbolic SayScCy_____y_____G______pGG20pendingContinuations_Sd13retryInterval_____7vouchert 15MessageDispatch07RapportB6ClientC 07SeymourD10Foundation09TransportA4CodeO s5ErrorP 0F04UUIDV
++ _symbolic Say_____G 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic Say_____G6buffer_ScCy_____Sg_____GSg6waitert 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV 0aC006RemoteE0V s5NeverO
++ _symbolic Say_____G6buffer______8debounceScCy_____Sg_____GSg6waitert 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV AC8DebounceAELLV 0aC006RemoteE0V s5NeverO
++ _symbolic Say_____G6buffer_t 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic Say______pG_____y_____GIeghnr_ 19SeymourServicesCore25RemoteParticipantIdentityP 0aC10Foundation7PromiseV AA06DeviceF0V
++ _symbolic SbSg
++ _symbolic SbSgz_Xx
++ _symbolic ScA_pSg
++ _symbolic ScCy_____Sg_____G 11SeymourCore17RemoteParticipantV s5NeverO
++ _symbolic ScCy_____Sg_____GSg 11SeymourCore17RemoteParticipantV s5NeverO
++ _symbolic ScCy_____y_____G______pG 15MessageDispatch07RapportB6ClientC 07SeymourD10Foundation09TransportA4CodeO s5ErrorP
++ _symbolic ScPSg
++ _symbolic ScSy_____G 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic ScSy_____yx_GG 15MessageDispatch19XPCDispatchListenerC5EventO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic So21RPCompanionLinkDeviceC_____y_____GIeghgr_ 21SeymourCoreFoundation7PromiseV 0a8ServicesB014DeviceIdentityV
++ _symbolic So21RPCompanionLinkDeviceC_____y_____GIeghnr_ 21SeymourCoreFoundation7PromiseV 0a8ServicesB014DeviceIdentityV
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 11SeymourCore34RemoteParticipantPasswordChallengeV
++ _symbolic _____ 15MessageDispatch07RapportB8ListenerC
++ _symbolic _____ 15MessageDispatch19XPCDispatchListenerC
++ _symbolic _____ 15MessageDispatch21RapportAnalyticsEventV
++ _symbolic _____ 15MessageDispatch32RapportPairedCompanionConnectionC
++ _symbolic _____ 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLO
++ _symbolic _____ 19SeymourServicesCore19RapportLinkProviderV
++ _symbolic _____ 19SeymourServicesCore24XPCServerClientConnectedV
++ _symbolic _____ 19SeymourServicesCore27XPCServerClientDisconnectedV
++ _symbolic _____ 19SeymourServicesCore28PrioritizedParticipantStreamC
++ _symbolic _____ 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic _____ 19SeymourServicesCore28PrioritizedParticipantStreamC5State33_0AF6899FA70197BB4EB7F03156A6614DLLO
++ _symbolic _____ 19SeymourServicesCore28PrioritizedParticipantStreamC8Debounce33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic _____ 19SeymourServicesCore28PrioritizedParticipantStreamC8IteratorV
++ _symbolic _____ 19SeymourServicesCore29RapportDispatchAnalyticsEventV
++ _symbolic _____ 19SeymourServicesCore31RapportDispatchConnectionBrokerC
++ _symbolic _____ 19SeymourServicesCore31RapportDispatchConnectionBrokerC5StateO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17ExpiredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____ 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____ 19SeymourServicesCore33UnstableRapportDispatchConnectionC
++ _symbolic _____ 19SeymourServicesCore33UnstableRapportDispatchConnectionC5StateO
++ _symbolic _____ 19SeymourServicesCore36RapportDispatchRequestAnalyticsEventV
++ _symbolic _____ 19SeymourServicesCore37RemoteParticipantConnectionDescriptorV
++ _symbolic _____ 19SeymourServicesCore50UnstableRapportDispatchDisconnectionAnalyticsEventV
++ _symbolic _____ 19SeymourServicesCore9XPCServerC
++ _symbolic _____ 19SeymourServicesCore9XPCServerC5State33_8E1A5EA936F5C582659CAF921C3EF719LLO
++ _symbolic _____ 21SeymourCoreFoundation8PlatformO
++ _symbolic _____ 23SeymourClientFoundation13ActivityTraceC
++ _symbolic _____ 23SeymourClientFoundation20TransportMessageCodeO
++ _symbolic _____ 23SeymourClientFoundation8SignpostC
++ _symbolic _____ s15ContinuousClockV7InstantV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s5NeverO
++ _symbolic _____ s8DurationV
++ _symbolic _____Ieghn_Sg 11SeymourCore34RemoteParticipantPasswordChallengeV
++ _symbolic _____SbIeghnd_ 11SeymourCore17RemoteParticipantV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 11SeymourCore17RemoteParticipantV
++ _symbolic _____Sg 11SeymourCore25RemoteParticipantActivityV
++ _symbolic _____Sg 19SeymourServicesCore31RapportDispatchConnectionBrokerC
++ _symbolic _____Sg 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____SgXw 19SeymourServicesCore28PrioritizedParticipantStreamC
++ _symbolic _____SgXw 19SeymourServicesCore31RapportDispatchConnectionBrokerC
++ _symbolic _____SgXw 19SeymourServicesCore33UnstableRapportDispatchConnectionC
++ _symbolic _____SgXwz_Xx 19SeymourServicesCore28PrioritizedParticipantStreamC
++ _symbolic _____SgXwz_Xx 19SeymourServicesCore31RapportDispatchConnectionBrokerC
++ _symbolic _____SgXwz_Xx 19SeymourServicesCore33RemoteParticipantConnectionBrokerC
++ _symbolic _____SgXwz_Xx 19SeymourServicesCore33UnstableRapportDispatchConnectionC
++ _symbolic ______AAt 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic __________IeyByy_ s6UInt32V s5Int32V
++ _symbolic __________Xj l19MessageDispatchCore0B8Listener_px0A4CodeRts_XPXGMq 23SeymourClientFoundation09TransportaE0O
++ _symbolic ______p 19SeymourServicesCore11RapportLinkP
++ _symbolic ______p 19SeymourServicesCore20RapportLinkProvidingP
++ _symbolic ______p 19SeymourServicesCore27DispatchConnectionBrokeringP
++ _symbolic ______p 23SeymourClientFoundation22DispatchTimerProvidingP
++ _symbolic ______p So24OS_dispatch_source_timerP
++ _symbolic ______p4link_Sb22requiresAuthenticationt 19SeymourServicesCore11RapportLinkP
++ _symbolic _____xXj l19MessageDispatchCore0B6Client_px0A4CodeRts_XPXGMq
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySay______pGG 21SeymourCoreFoundation7PromiseV 0a8ServicesB025RemoteParticipantIdentityP
++ _symbolic _____yScCy_____y_____G______pGG s23_ContiguousArrayStorageC 15MessageDispatch07RapportE6ClientC 07SeymourG10Foundation09TransportD4CodeO s5ErrorP
++ _symbolic _____ySo21RPCompanionLinkDeviceCG 21SeymourCoreFoundation7PromiseV
++ _symbolic _____y_____G 15MessageDispatch07RapportB6ClientC 07SeymourD10Foundation09TransportA4CodeO
++ _symbolic _____y_____G 19MessageDispatchCore0B11ClientTableC 07SeymourD10Foundation09TransportA4CodeO
++ _symbolic _____y_____G 19SeymourServicesCore37RemoteParticipantConnectionDescriptorV 0A16ClientFoundation20TransportMessageCodeO
++ _symbolic _____y_____G 21SeymourCoreFoundation12PortableEnumO 0aB021RemoteParticipantRoleO
++ _symbolic _____y_____G 21SeymourCoreFoundation12PortableEnumO 0aB030RemoteParticipantActivityLevelO
++ _symbolic _____y_____G 21SeymourCoreFoundation7PromiseV 0a8ServicesB014DeviceIdentityV
++ _symbolic _____y_____G s15CollectionOfOneV 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17ExpiredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore14DeviceIdentityV10CodingKeys33_59554051395FE356A4E4C4F8ED331620LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO10CodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO14LostCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17ExpiredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO17UpdatedCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO20DiscoveredCodingKeys33_7D813EE5EC3A1A079675A83747A7A0EFLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19SeymourServicesCore28PrioritizedParticipantStreamC5Entry33_0AF6899FA70197BB4EB7F03156A6614DLLV
++ _symbolic _____y_____G10connection______9timestampt 15MessageDispatch07RapportB6ClientC 07SeymourD10Foundation09TransportA4CodeO 0F04DateV
++ _symbolic _____y______G ScS12ContinuationV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____y______G ScS8IteratorV 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 19SeymourServicesCore31RemoteParticipantDiscoveryEventO
++ _symbolic _____yxG 15MessageDispatch19XPCDispatchListenerC
++ _symbolic _____yxGSgXw 19SeymourServicesCore9XPCServerC
++ _symbolic _____yxGSgXwz_x_SHRzSYRz_____8RawValueSYRtzlXX 19SeymourServicesCore9XPCServerC s6UInt32V
++ _symbolic _____yx_G 19SeymourServicesCore9XPCServerC5State33_8E1A5EA936F5C582659CAF921C3EF719LLO
++ _symbolic _____yytG 21SeymourCoreFoundation7PromiseV
++ _symbolic _____yyt_____G 13SeymourClient10TaskHandleC s5NeverO
++ _symbolic qd__
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIeAgHr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yt_____yytGIeghnr_ 21SeymourCoreFoundation7PromiseV
++ _type_layout_string 19SeymourServicesCore24XPCServerClientConnectedV
++ _type_layout_string 19SeymourServicesCore27XPCServerClientDisconnectedV
++ _type_layout_string 19SeymourServicesCore28PrioritizedParticipantStreamC8IteratorV
++ _type_layout_string 19SeymourServicesCore31RapportDispatchConnectionBrokerC5StateO
++ _type_layout_string 19SeymourServicesCore33RemoteParticipantConnectionBrokerC5StateO
++ _type_layout_string 19SeymourServicesCore50UnstableRapportDispatchDisconnectionAnalyticsEventV
++ _type_layout_string SHRzSYRzs8SendableRzs6UInt32V8RawValueSYRtzl19SeymourServicesCore9XPCServerC5State33_8E1A5EA936F5C582659CAF921C3EF719LLOyx_G
+- _CFAbsoluteTimeGetCurrent
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_SFService
+- _RPOptionBTHighPriority
+- _RPOptionInterest
+- _RPOptionTimeoutSeconds
+- _SFServiceIdentifierCompanionLinkProx
+- __DATA__TtC19SeymourServicesCore14SigTermHandler
+- __DATA__TtC19SeymourServicesCore16DeviceConnection
+- __DATA__TtC19SeymourServicesCore22DeviceConnectionBroker
+- __DATA__TtC19SeymourServicesCore24UnstableDeviceConnection
+- __IVARS__TtC19SeymourServicesCore14SigTermHandler
+- __IVARS__TtC19SeymourServicesCore16DeviceConnection
+- __IVARS__TtC19SeymourServicesCore22DeviceConnectionBroker
+- __IVARS__TtC19SeymourServicesCore24UnstableDeviceConnection
+- __METACLASS_DATA__TtC19SeymourServicesCore14SigTermHandler
+- __METACLASS_DATA__TtC19SeymourServicesCore16DeviceConnection
+- __METACLASS_DATA__TtC19SeymourServicesCore22DeviceConnectionBroker
+- __METACLASS_DATA__TtC19SeymourServicesCore24UnstableDeviceConnection
+- __OBJC_$_PROP_LIST_RPAuthenticatable
+- __OBJC_$_PROP_LIST_RPMessageable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RPAuthenticatable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_RPAuthenticatable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_RPMessageable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_RPAuthenticatable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_RPMessageable
+- __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_signal
+- __OBJC_$_PROTOCOL_REFS_OS_os_transaction
+- __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_signal
+- __OBJC_LABEL_PROTOCOL_$_OS_os_transaction
+- __OBJC_LABEL_PROTOCOL_$_RPAuthenticatable
+- __OBJC_LABEL_PROTOCOL_$_RPMessageable
+- __OBJC_PROTOCOL_$_OS_dispatch_source_signal
+- __OBJC_PROTOCOL_$_OS_os_transaction
+- __OBJC_PROTOCOL_$_RPAuthenticatable
+- __OBJC_PROTOCOL_$_RPMessageable
+- ___swift_memcpy64_8
+- ___swift_memcpy88_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- __set_user_dir_suffix
+- _associated conformance 19SeymourServicesCore7SandboxO7FailureOSHAASQ
+- _associated conformance 21InternalSwiftProtobuf19BinaryDecodingErrorO11SeymourCore0F16MatchingProtocol0g8ServicesH0s0F0
+- _block_copy_helper.105
+- _block_copy_helper.108
+- _block_copy_helper.115
+- _block_copy_helper.16
+- _block_copy_helper.19
+- _block_copy_helper.2
+- _block_copy_helper.21
+- _block_copy_helper.26
+- _block_copy_helper.28
+- _block_copy_helper.34
+- _block_copy_helper.35
+- _block_copy_helper.38
+- _block_copy_helper.45
+- _block_copy_helper.52
+- _block_copy_helper.54
+- _block_copy_helper.58
+- _block_copy_helper.6
+- _block_copy_helper.61
+- _block_copy_helper.63
+- _block_copy_helper.68
+- _block_copy_helper.7
+- _block_copy_helper.74
+- _block_copy_helper.77
+- _block_copy_helper.86
+- _block_copy_helper.89
+- _block_copy_helper.91
+- _block_copy_helper.96
+- _block_descriptor.107
+- _block_descriptor.110
+- _block_descriptor.117
+- _block_descriptor.18
+- _block_descriptor.21
+- _block_descriptor.23
+- _block_descriptor.28
+- _block_descriptor.30
+- _block_descriptor.36
+- _block_descriptor.37
+- _block_descriptor.4
+- _block_descriptor.40
+- _block_descriptor.47
+- _block_descriptor.54
+- _block_descriptor.56
+- _block_descriptor.60
+- _block_descriptor.63
+- _block_descriptor.65
+- _block_descriptor.70
+- _block_descriptor.76
+- _block_descriptor.79
+- _block_descriptor.8
+- _block_descriptor.88
+- _block_descriptor.9
+- _block_descriptor.91
+- _block_descriptor.93
+- _block_descriptor.98
+- _block_destroy_helper.106
+- _block_destroy_helper.109
+- _block_destroy_helper.116
+- _block_destroy_helper.17
+- _block_destroy_helper.20
+- _block_destroy_helper.22
+- _block_destroy_helper.27
+- _block_destroy_helper.29
+- _block_destroy_helper.3
+- _block_destroy_helper.35
+- _block_destroy_helper.36
+- _block_destroy_helper.39
+- _block_destroy_helper.46
+- _block_destroy_helper.53
+- _block_destroy_helper.55
+- _block_destroy_helper.59
+- _block_destroy_helper.62
+- _block_destroy_helper.64
+- _block_destroy_helper.69
+- _block_destroy_helper.7
+- _block_destroy_helper.75
+- _block_destroy_helper.78
+- _block_destroy_helper.8
+- _block_destroy_helper.87
+- _block_destroy_helper.90
+- _block_destroy_helper.92
+- _block_destroy_helper.97
+- _confstr
+- _flat unique So17OS_os_transaction_p
+- _flat unique So25OS_dispatch_source_signal_p
+- _get_enum_tag_for_layout_string 19SeymourServicesCore22DeviceConnectionBrokerC5StateO
+- _get_enum_tag_for_layout_string 19SeymourServicesCore26RemoteParticipantDiscoveryC5StateO
+- _get_enum_tag_for_layout_string 19SeymourServicesCore27AggressiveBluetoothScanning_pSg
+- _malloc_zone_pressure_relief
+- _mkdir
+- _objc_msgSend$deregisterEventID:
+- _objc_msgSend$disconnectHandler
+- _objc_msgSend$interruptionHandler
+- _objc_msgSend$invalidationHandler
+- _objc_msgSend$label
+- _objc_msgSend$localDeviceUpdatedHandler
+- _objc_msgSend$needsKeyboard
+- _objc_msgSend$pairSetupDisabled
+- _objc_msgSend$registerEventID:options:handler:
+- _objc_msgSend$registerRequestID:options:handler:
+- _objc_msgSend$sendEventID:event:destinationID:options:completion:
+- _objc_msgSend$sendRequestID:request:destinationID:options:responseHandler:
+- _objc_msgSend$setAdvertiseRate:
+- _objc_msgSend$setDeviceActionType:
+- _objc_msgSend$setDisconnectHandler:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setLabel:
+- _objc_msgSend$setNeedsKeyboard:
+- _objc_msgSend$setPairSetupDisabled:
+- _objectdestroy.137Tm
+- _objectdestroy.25Tm
+- _objectdestroy.26Tm
+- _objectdestroy.27Tm
+- _objectdestroy.28Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.31Tm
+- _objectdestroy.33Tm
+- _objectdestroy.34Tm
+- _objectdestroy.36Tm
+- _objectdestroy.37Tm
+- _objectdestroy.48Tm
+- _objectdestroy.58Tm
+- _objectdestroy.5Tm
+- _objectdestroy.60Tm
+- _objectdestroy.69Tm
+- _objectdestroy.79Tm
+- _objectdestroy.80Tm
+- _objectdestroy.86Tm
+- _objectdestroy.8Tm
+- _objectdestroyTm
+- _os_transaction_create
+- _os_unfair_lock_assert_owner
+- _signal
+- _strerror
+- _swift_bridgeObjectRetain_n
+- _swift_getFunctionTypeMetadata0
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_makeBoxUnique
+- _symbolic $s19SeymourServicesCore21RemoteParticipantLinkP
+- _symbolic $s19SeymourServicesCore25DeviceConnectionBrokeringP
+- _symbolic $s19SeymourServicesCore25RemoteParticipantHostLinkP
+- _symbolic $s19SeymourServicesCore30RemoteParticipantLinkProvidingP
+- _symbolic $s19SeymourServicesCore34RemoteParticipantHostLinkProvidingP
+- _symbolic B1
+- _symbolic Iegh_
+- _symbolic IeyB_
+- _symbolic SDySSypGSgAB______pSgIegggg_ s5ErrorP
+- _symbolic SDy_____ypGSgAC______pSgIegggg_ s11AnyHashableV s5ErrorP
+- _symbolic SS10identifier_______p4link_____4role______p15expirationTimer______pSg26aggressiveBluetoothScannert 19SeymourServicesCore21RemoteParticipantLinkP 0aC00dE4RoleO So24OS_dispatch_source_timerP AA27AggressiveBluetoothScanningP
+- _symbolic SS_ypt
+- _symbolic SaySo21RPCompanionLinkDeviceCG
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Say______pG_____y_____GIeghnr_ 19SeymourServicesCore25RemoteParticipantIdentityP 0aC07PromiseV AA06DeviceF0V
+- _symbolic Sd13retryInterval_t
+- _symbolic SiSg
+- _symbolic So12NSDictionaryCSgACSo7NSErrorCSgIeyByyy_
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So21RPCompanionLinkDeviceC6device______6intentt 19SeymourServicesCore33RemoteParticipantConnectionBrokerC0eF6IntentV
+- _symbolic So21RPCompanionLinkDeviceCSg
+- _symbolic So21RPCompanionLinkDeviceC_____y_____GIeghgr_ 11SeymourCore7PromiseV 0a8ServicesB014DeviceIdentityV
+- _symbolic So21RPCompanionLinkDeviceC_____y_____GIeghnr_ 11SeymourCore7PromiseV 0a8ServicesB014DeviceIdentityV
+- _symbolic _____ 11SeymourCore8PlatformO
+- _symbolic _____ 13SeymourClient10UnfairLockC
+- _symbolic _____ 13SeymourClient13ActivityTraceC
+- _symbolic _____ 13SeymourClient14SourceLocationV
+- _symbolic _____ 13SeymourClient14TransportEventO
+- _symbolic _____ 13SeymourClient16TransportRequestO
+- _symbolic _____ 13SeymourClient24TransportDispatchServiceC
+- _symbolic _____ 13SeymourClient8SignpostC
+- _symbolic _____ 19SeymourServicesCore14SigTermHandlerC
+- _symbolic _____ 19SeymourServicesCore16DeviceConnectionC
+- _symbolic _____ 19SeymourServicesCore22DeviceConnectionBrokerC
+- _symbolic _____ 19SeymourServicesCore22DeviceConnectionBrokerC5StateO
+- _symbolic _____ 19SeymourServicesCore22TransactionCoordinatorV
+- _symbolic _____ 19SeymourServicesCore22TransactionCoordinatorV0D5State33_0DDAF149E274A34A0251E8E511957F10LLV
+- _symbolic _____ 19SeymourServicesCore24UnstableDeviceConnectionC
+- _symbolic _____ 19SeymourServicesCore24UnstableDeviceConnectionC5StateO
+- _symbolic _____ 19SeymourServicesCore29RemoteParticipantLinkProviderV
+- _symbolic _____ 19SeymourServicesCore30TransportRequestAnalyticsEventV
+- _symbolic _____ 19SeymourServicesCore33RemoteParticipantConnectionBrokerC04RoleF6IntentV
+- _symbolic _____ 19SeymourServicesCore33RemoteParticipantHostLinkProviderV
+- _symbolic _____ 19SeymourServicesCore41UnstableDeviceDisconnectionAnalyticsEventV
+- _symbolic _____ 19SeymourServicesCore7SandboxO
+- _symbolic _____ 19SeymourServicesCore7SandboxO7FailureO
+- _symbolic _____10connection______9timestampt 19SeymourServicesCore16DeviceConnectionC 10Foundation4DateV
+- _symbolic _____3key_yp5valuet s11AnyHashableV
+- _symbolic _____Sg 19SeymourServicesCore16DeviceConnectionC
+- _symbolic _____Sg 19SeymourServicesCore22DeviceConnectionBrokerC
+- _symbolic _____Sg 19SeymourServicesCore26RemoteParticipantDiscoveryC
+- _symbolic _____SgXw 19SeymourServicesCore14SigTermHandlerC
+- _symbolic _____SgXw 19SeymourServicesCore16DeviceConnectionC
+- _symbolic _____SgXw 19SeymourServicesCore22DeviceConnectionBrokerC
+- _symbolic _____SgXw 19SeymourServicesCore24UnstableDeviceConnectionC
+- _symbolic _____Sg______pSgIeggg_ 10Foundation4DataV s5ErrorP
+- _symbolic ________________p_____yytGIegngr_ 11SeymourCore17RemoteParticipantV 0A6Client09TransportE0P AD0F11DispatchingP AA7PromiseV
+- _symbolic ___________p 13SeymourClient09TransportB0P AA0C11DispatchingP
+- _symbolic ___________p_____yytGIeghnr_ 13SeymourClient09TransportB0P AA0C11DispatchingP 0A4Core7PromiseV
+- _symbolic ___________pyt______pIeghnrzo_ 13SeymourClient09TransportB0P AA0C11DispatchingP s5ErrorP
+- _symbolic __________yytGIeghnr_ 19SeymourServicesCore16DeviceConnectionC 0aC07PromiseV
+- _symbolic ______p 13SeymourClient22DispatchTimerProvidingP
+- _symbolic ______p 19SeymourServicesCore21RemoteParticipantLinkP
+- _symbolic ______p 19SeymourServicesCore25DeviceConnectionBrokeringP
+- _symbolic ______p 19SeymourServicesCore30RemoteParticipantLinkProvidingP
+- _symbolic ______p So17OS_os_transactionP
+- _symbolic ______p So25OS_dispatch_source_signalP
+- _symbolic ______p4link_Sb22requiresAuthenticationt 19SeymourServicesCore21RemoteParticipantLinkP
+- _symbolic ______pIeghzo_ s5ErrorP
+- _symbolic ______pSg 19SeymourServicesCore24DataProtectionMonitoringP
+- _symbolic ______pSg So24OS_dispatch_source_timerP
+- _symbolic ______p_____yytGIeghgr_ s5ErrorP 11SeymourCore7PromiseV
+- _symbolic ______pytAA_pIeghgrzo_ s5ErrorP
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 19SeymourServicesCore22TransactionCoordinatorV0H5State33_0DDAF149E274A34A0251E8E511957F10LLV
+- _symbolic _____ySDySS_____G_____G s13ManagedBufferCsRi__rlE 19SeymourServicesCore22TransactionCoordinatorV0F5State33_0DDAF149E274A34A0251E8E511957F10LLV So16os_unfair_lock_sV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 19SeymourServicesCore22TransactionCoordinatorV0F5State33_0DDAF149E274A34A0251E8E511957F10LLV
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySay______pGG 11SeymourCore7PromiseV 0a8ServicesB025RemoteParticipantIdentityP
+- _symbolic _____ySbG 13SeymourClient12TestPropertyV
+- _symbolic _____ySo21RPCompanionLinkDeviceCG 11SeymourCore7PromiseV
+- _symbolic _____y_____G 11SeymourCore12PortableEnumO AA21RemoteParticipantRoleO
+- _symbolic _____y_____G 11SeymourCore7PromiseV 0a8ServicesB014DeviceIdentityV
+- _symbolic _____y_____G 11SeymourCore7PromiseV 0a8ServicesB016DeviceConnectionC
+- _symbolic _____y___________pG 11SeymourCore7PromiseV 0A6Client09TransportD0P AD0E11DispatchingP
+- _symbolic _____y___________pGIeghg_ s6ResultOsRi_zRi0_zrlE 19SeymourServicesCore16DeviceConnectionC s5ErrorP
+- _symbolic _____y___________pGIeghn_ s6ResultOsRi_zRi0_zrlE 19SeymourServicesCore16DeviceConnectionC s5ErrorP
+- _symbolic _____y___________p______pGIegg_ s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic _____y___________p______pGIeghg_ s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic _____y___________p______pGIeghn_ s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic _____y___________p______pGIeghn_Sg s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic _____y___________p______pGIegn_ s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____yq_______pGIeghn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____yt______pIeghnrzo_ 19SeymourServicesCore16DeviceConnectionC s5ErrorP
+- _symbolic _____yx______pGIeghn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____yytG 11SeymourCore7PromiseV
+- _symbolic _____yytGIeghr_ 11SeymourCore7PromiseV
+- _symbolic _____yytG_________________ptc 11SeymourCore7PromiseV AA17RemoteParticipantV 0A6Client09TransportF0P AF0G11DispatchingP
+- _symbolic _____yyt______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic q_
+- _symbolic y_____cSg 11SeymourCore17RemoteParticipantV
+- _symbolic y_____cSg 11SeymourCore34RemoteParticipantPasswordChallengeV
+- _symbolic y_____y___________p______pGc s6ResultOsRi_zRi0_zrlE 13SeymourClient09TransportC0P AC0D11DispatchingP s5ErrorP
+- _symbolic ypSg
+- _symbolic yt
+- _symbolic yt_____y___________pGIeghnr_ 11SeymourCore7PromiseV 0A6Client09TransportD0P AD0E11DispatchingP
+- _symbolic yt_____yytGIeghnr_ 11SeymourCore7PromiseV
+- _symbolic ytyt______pIeghnrzo_ s5ErrorP
+- _symbolic yycSg
+- _type_layout_string 19SeymourServicesCore22DeviceConnectionBrokerC5StateO
+- _type_layout_string 19SeymourServicesCore22TransactionCoordinatorV
+- _type_layout_string 19SeymourServicesCore22TransactionCoordinatorV0D5State33_0DDAF149E274A34A0251E8E511957F10LLV
+- _type_layout_string 19SeymourServicesCore26RemoteParticipantDiscoveryC5StateO
+- _type_layout_string 19SeymourServicesCore33RemoteParticipantConnectionBrokerC04RoleF6IntentV
+- _type_layout_string 19SeymourServicesCore41UnstableDeviceDisconnectionAnalyticsEventV
+- _xpc_transaction_exit_clean
+CStrings:
++ "%{public}s: Link activation timed out after %{public}fs"
++ "<UnstableRapportDispatchConnection: topic = "
++ "Already inactive, nothing to do"
++ "Becoming inactive"
++ "Cache lookup failed for participant %{public}s: %{public}s"
++ "Cannot schedule reconnect when not in reconnecting state"
++ "Ending discovery while activating"
++ "Failed to activate RPCompanionLinkClient: %{public}s"
++ "Failed to activate daemon: %{public}s"
++ "Failed to broadcast remoteParticipantConnectionRejected: %{public}s"
++ "Failed to broadcast remoteParticipantPasswordRequired: %{public}s"
++ "Failed to look up discovered participant device: %{public}s"
++ "Intent %{public}s Failed for device %{public}@: %{public}s"
++ "Invalid number of keys found, expected one."
++ "PrioritizedParticipantDiscovery forwarding ended (event stream closed): role=%{public}s"
++ "PrioritizedParticipantDiscovery forwarding expired: role=%{public}s"
++ "PrioritizedParticipantDiscovery forwarding started: role=%{public}s debounce=%{public}s tolerance=%{public}s"
++ "PrioritizedParticipantDiscovery forwarding updated: %{public}s"
++ "PrioritizedParticipantStream cancelWaiter (active)"
++ "PrioritizedParticipantStream cancelWaiter (settling)"
++ "PrioritizedParticipantStream debounce elapsed (no waiter): buffered=%{public}ld"
++ "PrioritizedParticipantStream debounce elapsed: yielding head %{public}s priority=%{public}ld buffered=%{public}ld"
++ "PrioritizedParticipantStream finish (active): draining=%{public}ld"
++ "PrioritizedParticipantStream finish (active, empty)"
++ "PrioritizedParticipantStream finish (active, waiter pending)"
++ "PrioritizedParticipantStream finish (settling): yielding head %{public}s draining=%{public}ld"
++ "PrioritizedParticipantStream finish (settling, empty buffer)"
++ "PrioritizedParticipantStream finish (settling, no waiter): draining=%{public}ld"
++ "PrioritizedParticipantStream send (active merge): %{public}s priority=%{public}ld buffered=%{public}ld"
++ "PrioritizedParticipantStream send (settling from empty): %{public}s priority=%{public}ld"
++ "PrioritizedParticipantStream send (settling): %{public}s priority=%{public}ld buffered=%{public}ld"
++ "PrioritizedParticipantStream send dropped (already finishing): %{public}s"
++ "RapportDispatchConnectionBroker "
++ "Reconnection voucher mismatch, discarding stale connection"
++ "SeymourServicesCore/PrioritizedParticipantStream.swift"
++ "SeymourServicesCore/RapportDispatchConnectionBroker.swift"
++ "SeymourServicesCore/UnstableRapportDispatchConnection.swift"
++ "SeymourServicesCore/XPCServer.swift"
++ "Unexpected reconnection error, not in state reconnecting or voucher mismatch"
++ "Unknown XPCDispatchListener Event: %{public}s"
++ "UnstableRapportDispatchConnection does not support forceNewPairing authentication schemes. This will be ignored."
++ "UnstableRapportDispatchConnection.requireConnection"
++ "UnstableRapportDispatchConnection.send"
++ "XPC Client connected: [%d]/[%{public}s]/[%{public}s]"
++ "XPC Client disconnected: [%d]/[%{public}s]/[%{public}s]"
++ "[%{public}s] %{public}s begin mem=%{public}fKB"
++ "beginDiscoveringParticipants(withRole:timeout:)"
++ "buffer debounce waiter "
++ "buffer waiter "
++ "identifier link role discoveredDevices expirationTimer aggressiveBluetoothScanner continuation "
++ "identifier link role expirationTimer aggressiveBluetoothScanner continuation "
++ "identityResolvingKey"
++ "pendingContinuations retryInterval voucher "
++ "rapport.dispatch"
++ "reconnect(voucher:)"
++ "requireConnection()"
++ "trafficIdentifier"
+- "#16@0:8"
+- "%{public}s Compressing %ld byte response payload with %ld to %ld bytes"
+- "%{public}s Destination does not support outgoing requests: %{public}s"
+- "%{public}s Event missing from rapport dictionary: %{public}s"
+- "%{public}s Event was %ld bytes compressed to %ld bytes using %{public}s"
+- "%{public}s Failed to process %{mask.hash}s response: %{public}s"
+- "%{public}s Failed to process response payload: %{public}s"
+- "%{public}s Request missing from rapport dictionary: %{public}s"
+- "%{public}s Request was %ld bytes compressed to %ld bytes using %{public}s"
+- "%{public}s Response was %ld bytes compressed using %s. Total inflight time of %fs with %fs spent processing %{public}s"
+- "%{public}s Retrying request %{public}s without compression %s because of %{public}s"
+- "%{public}s Unable to send event ID %{public}s: %{public}s"
+- "%{public}s disconnect: %{public}s"
+- "%{public}s: Error activating device (%{public}@) connection link: %{public}s"
+- "<UnstableDeviceConnection: topic = "
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"OS_dispatch_queue\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "@?16@0:8"
+- "@?<v@?@\"NSError\">16@0:8"
+- "@?<v@?I>16@0:8"
+- "@?<v@?I@\"NSString\">16@0:8"
+- "@?<v@?Ii>16@0:8"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Becoming active: %{public}s"
+- "Becoming inactive: %{public}s"
+- "Beginning Transaction (%ld): %s. Source: %{mask.hash}s"
+- "Beginning Transaction: %{mask.hash}s. Source: %{mask.hash}s"
+- "Cleaning up %{public}s..."
+- "Connecting to next device for handshake (intent: %{public}s): %{public}@"
+- "Deregistering eventID %{public}s on %{public}s"
+- "DeviceConnection "
+- "DeviceConnection.connect"
+- "DeviceConnection: "
+- "DeviceConnection::sendRequest"
+- "DeviceConnection::sendRequest:Payload"
+- "DeviceConnection::sendRequest;Payload"
+- "DeviceConnectionBroker "
+- "Discovered Any Participant Device Type %{mask.hash}s does not match intent preferred device types %{mask.hash}s"
+- "Discovered remote participant with unknown role (%{public}s. Ignoring"
+- "Discovery activation failed, but current state intent no longer matches"
+- "DispatchService requested while unstable connection was not connected"
+- "Ended Transaction: %{mask.hash}s. Source: %{mask.hash}s"
+- "Ending Transaction (%ld): %s. Source: %{mask.hash}s"
+- "Ending Transaction: %{mask.hash}s at zero. Delaying cleanup by %f seconds. Source: %{mask.hash}s"
+- "Error in establishing a connection to %{public}@ for (%{public}s): %{public}s"
+- "Error retrying connection: %{public}s"
+- "Failed to compress event payload using %{public}s. Falling back to uncompressed: %{public}s"
+- "Failed to create temporary directory for "
+- "Failed to decompress event %ld payload using %{public}s: %{public}s"
+- "Failed to decompress request %ld payload: %{public}s"
+- "Failed to initialize temporary directory suffix for "
+- "Failed to set temporary directory suffix for "
+- "I16@0:8"
+- "Intent %{public}s Failed, processing next device in queue (%{public}s)"
+- "NSObject"
+- "No devices in handshake queue to process for intent %{public}s"
+- "Not processing handshake queue, intent identifiers no longer match (%{public}s != %{public}s)"
+- "Not processing handshake queue, state no longer matches"
+- "Not updating handshake queue, intent identifier changed (%{public}s != %{public}s)"
+- "Not updating handshake queue, state no longer matches for %{public}s"
+- "OS_dispatch_source"
+- "OS_dispatch_source_signal"
+- "OS_dispatch_source_timer"
+- "OS_os_transaction"
+- "Participant connection broker failed to look up discovered participant device for intent (%{public}s): %{public}s"
+- "Participant connection broker ignoring device discovered after completing"
+- "Participant connection broker ignoring discovered participant while already connecting to %{public}s with identifier %{public}s"
+- "Participant connection broker ignoring discovered participant while idle"
+- "Participant connection broker ignoring expired discovery, already complete"
+- "Participant connection broker ignoring expired discovery, currently idle"
+- "Q16@0:8"
+- "RPAuthenticatable"
+- "RPMessageable"
+- "Reconnect disabled, not scheduling"
+- "RemoteParticipantConnectionBroker::connect"
+- "RemoteParticipantConnectionBroker::connectToAnyParticipant"
+- "Sandbox bootstrap error: %{public}s"
+- "SeymourServicesCore/DeviceConnectionBroker.swift"
+- "SeymourServicesCore/SigTermHandler.swift"
+- "SeymourServicesCore/UnstableDeviceConnection.swift"
+- "SigTerm received, exiting clean"
+- "Successful retry for connection: %{public}s"
+- "T#,R"
+- "T@\"NSArray\",&,N"
+- "T@\"NSData\",C,N"
+- "T@\"NSString\",&,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",R,C"
+- "T@\"OS_dispatch_queue\",R,N"
+- "T@?,C,N"
+- "TI,N"
+- "TQ,R"
+- "Ti,N"
+- "Ti,R,N"
+- "Transitioning to equivalent state, nothing to do"
+- "Unable to acquire transaction for %{mask.hash}s"
+- "Unable to find device for discovered participant matching intent (%{public}s): %{public}s"
+- "Unexpected reconnection error, not in state reconnecting"
+- "UnstableDeviceConnection does not support forceNewPairing authentication schemes. This will be ignored."
+- "Vv16@0:8"
+- "[%{public}s] %{public}s begin"
+- "^{_NSZone=}16@0:8"
+- "_TtC19SeymourServicesCore14SigTermHandler"
+- "_TtC19SeymourServicesCore16DeviceConnection"
+- "_TtC19SeymourServicesCore21DataProtectionMonitor"
+- "_TtC19SeymourServicesCore22DeviceConnectionBroker"
+- "_TtC19SeymourServicesCore24UnstableDeviceConnection"
+- "_TtC19SeymourServicesCore26RemoteParticipantDiscovery"
+- "_TtC19SeymourServicesCore33RemoteParticipantConnectionBroker"
+- "_disableReconnect"
+- "accountID"
+- "activateWithCompletion:"
+- "allowedMACAddresses"
+- "analyticsReporter"
+- "applicationState"
+- "authCompletionHandler"
+- "authentication"
+- "autorelease"
+- "beginDiscoveringParticipantsWithRole(_:)"
+- "beginDiscoveringParticipantsWithRole(_:timeout:)"
+- "bluetoothScannerProvider"
+- "class"
+- "com.apple.Seymour."
+- "com.apple.Seymour.TransactionCoordinator"
+- "conformsToProtocol:"
+- "controlFlags"
+- "currentState"
+- "debugDescription"
+- "deregisterEventID:"
+- "deregisterRequestID:"
+- "description"
+- "destination"
+- "destinationDevice"
+- "device"
+- "device intent "
+- "deviceChangedHandler"
+- "deviceConnectionBroker"
+- "deviceFoundHandler"
+- "deviceIRKData"
+- "deviceLostHandler"
+- "deviceRegistry"
+- "disconnectHandler"
+- "discovery"
+- "dispatchQueue"
+- "dispatchService"
+- "effectiveIdentifier"
+- "endowmentNamespaces"
+- "eventHub"
+- "flags"
+- "getIdentitiesWithFlags:completion:"
+- "handleDiscoveredParticipant(_:)"
+- "handleForPredicate:error:"
+- "handleReconnectionError(_:)"
+- "hasPrefix:"
+- "hash"
+- "hidePasswordHandler"
+- "i16@0:8"
+- "identifier"
+- "idsDeviceID"
+- "idsDeviceIdentifier"
+- "init"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "interruptionHandler"
+- "invalidate"
+- "invalidationHandler"
+- "isEqual:"
+- "isInstalled"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isTerminated"
+- "label"
+- "link"
+- "linkProvider"
+- "localDevice"
+- "localDeviceUpdatedHandler"
+- "lock"
+- "mainRunLoop"
+- "model"
+- "name"
+- "needsKeyboard"
+- "onDiscoveryExpired"
+- "onParticipantDiscovered"
+- "onParticipantLost"
+- "onParticipantUpdated"
+- "onPasswordChallenge"
+- "openApplication:withOptions:completion:"
+- "optionsWithDictionary:"
+- "pairSetupACL"
+- "pairSetupDisabled"
+- "pairSetupFlags"
+- "pairVerifyFlags"
+- "pairingInfo"
+- "password"
+- "passwordType"
+- "passwordTypeActual"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "predicateMatchingBundleIdentifier:"
+- "preferredCompression"
+- "processHandshakeQueue(intentIdentifier:)"
+- "promptForPasswordHandler"
+- "queue"
+- "registerEventID:options:handler:"
+- "registerRequestID:options:handler:"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "runMode:beforeDate:"
+- "self"
+- "sendEventID:event:destinationID:options:completion:"
+- "sendEventID:event:options:completion:"
+- "sendRequestID:request:destinationID:options:responseHandler:"
+- "sendRequestID:request:options:responseHandler:"
+- "service"
+- "serviceType"
+- "serviceWithDefaultShellEndpoint"
+- "setAdvertiseRate:"
+- "setAllowedMACAddresses:"
+- "setAuthCompletionHandler:"
+- "setAwdlGuestDiscoveryTimeout:"
+- "setControlFlags:"
+- "setDestinationDevice:"
+- "setDeviceActionType:"
+- "setDeviceChangedHandler:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostHandler:"
+- "setDisconnectHandler:"
+- "setDiscoveryFlags:"
+- "setFlags:"
+- "setHidePasswordHandler:"
+- "setIdentifier:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLabel:"
+- "setLocalDeviceUpdatedHandler:"
+- "setNeedsKeyboard:"
+- "setPairSetupACL:"
+- "setPairSetupDisabled:"
+- "setPairSetupFlags:"
+- "setPairVerifyFlags:"
+- "setPairingInfo:"
+- "setPassword:"
+- "setPasswordType:"
+- "setPromptForPasswordHandler:"
+- "setRssiThreshold:"
+- "setScanRate:"
+- "setServiceType:"
+- "setShowPasswordHandler:"
+- "showPasswordHandler"
+- "source"
+- "standardUserDefaults"
+- "startPairingServerWithCompletion:"
+- "state"
+- "statusFlags"
+- "stopPairingServer"
+- "stringForKey:"
+- "subscriptionToken"
+- "superclass"
+- "taskState"
+- "timerProvider"
+- "topic"
+- "transitionToIdle()"
+- "tryPassword:"
+- "type"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"RPCompanionLinkDevice\"8"
+- "v16@?0I8i12"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v20@?0@\"RPCompanionLinkDevice\"8I16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?I>16"
+- "v24@0:8@?<v@?I@\"NSString\">16"
+- "v24@0:8@?<v@?Ii>16"
+- "v24@?0@\"BSProcessHandle\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@\"NSError\"24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">24"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSDictionary\">32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSDictionary\"@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">>32"
+- "v40@0:8@16@24@?32"
+- "v48@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSDictionary\"32@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSDictionary\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v56@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSDictionary\"40@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSDictionary\"40@?<v@?@\"NSError\">48"
+- "v56@0:8@16@24@32@40@?48"
+- "v8@?0"
+- "validateIntent(_:)"
+- "xpcBroadcastConnection"
+- "zone"
+
+```

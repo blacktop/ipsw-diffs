@@ -1,0 +1,640 @@
+## FontServices
+
+> `/System/Library/PrivateFrameworks/FontServices.framework/FontServices`
+
+```diff
+
+-157.4.0.2.0
+-  __TEXT.__text: 0xc594
+-  __TEXT.__auth_stubs: 0x710
++167.0.0.0.0
++  __TEXT.__text: 0xbdf0
+   __TEXT.__delay_helper: 0x308
+   __TEXT.__objc_methlist: 0xdfc
+   __TEXT.__const: 0x68
+-  __TEXT.__cstring: 0x1952
+-  __TEXT.__gcc_except_tab: 0x6ac
++  __TEXT.__cstring: 0x1a2e
++  __TEXT.__gcc_except_tab: 0x6b4
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0x618
+-  __TEXT.__objc_classname: 0x320
+-  __TEXT.__objc_methname: 0x1f14
+-  __TEXT.__objc_methtype: 0xa5f
+-  __TEXT.__objc_stubs: 0x16a0
+-  __DATA_CONST.__got: 0x198
++  __TEXT.__unwind_info: 0x5d8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x6b8
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8e0
++  __DATA_CONST.__objc_selrefs: 0x8e8
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__objc_arraydata: 0x48
+-  __AUTH_CONST.__auth_got: 0x3a0
+-  __AUTH_CONST.__const: 0x840
+-  __AUTH_CONST.__cfstring: 0xc80
++  __DATA_CONST.__got: 0x1a0
++  __AUTH_CONST.__const: 0x860
++  __AUTH_CONST.__cfstring: 0xe60
+   __AUTH_CONST.__objc_const: 0x10d8
+   __AUTH_CONST.__objc_arrayobj: 0x48
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x2d0
+   __DATA.__objc_ivar: 0x5c
+   __DATA.__data: 0x678
+-  __DATA.__bss: 0x80
++  __DATA.__bss: 0x90
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0xa0
+   __DATA_DIRTY.__bss: 0x40
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/FontServices.framework/libGSFont.dylib
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C02909A5-7141-3120-BBE1-4AE8ACCD7B32
+-  Functions: 350
+-  Symbols:   1406
+-  CStrings:  717
++  UUID: 2818F42E-DDC5-381E-9BE5-D1AA0469D3C4
++  Functions: 353
++  Symbols:   1419
++  CStrings:  301
+ 
+Symbols:
++ _IsDisallowedScheme
++ _IsDisallowedScheme.cold.1
++ _IsDisallowedScheme.onceToken
++ _IsDisallowedScheme.sSystemSchemes
++ _OBJC_CLASS_$_MAAsset$loadHelper_x21
++ _OBJC_CLASS_$_MAAsset$loadHelper_x8
++ _OBJC_CLASS_$_MAAssetQuery$loadHelper_x8
++ _OBJC_CLASS_$_MADownloadOptions$loadHelper_x8
++ _OBJC_CLASS_$_SBSRemoteAlertActivationContext$loadHelper_x8
++ _OBJC_CLASS_$_SBSRemoteAlertConfigurationContext$loadHelper_x8
++ _OBJC_CLASS_$_SBSRemoteAlertDefinition$loadHelper_x8
++ _OBJC_CLASS_$_SBSRemoteAlertHandle$loadHelper_x8
++ ___70+[FSUserFontManager registeredFontsInfoForIdentifier:enabled:appInfo:]_block_invoke.209
++ ___IsDisallowedScheme_block_invoke
++ ___block_literal_global.193
++ ___block_literal_global.200
++ ___block_literal_global.205
++ ___block_literal_global.208
++ ___block_literal_global.212
++ ___block_literal_global.214
++ ___block_literal_global.223
++ ___block_literal_global.225
++ ___block_literal_global.230
++ ___block_literal_global.233
++ ___block_literal_global.235
++ ___block_literal_global.238
++ ___block_literal_global.241
++ ___block_literal_global.244
++ ___block_literal_global.246
++ ___block_literal_global.248
++ ___block_literal_global.250
++ ___block_literal_global.252
++ ___block_literal_global.254
++ ___block_literal_global.257
++ ___block_literal_global.259
++ ___block_literal_global.261
++ ___block_literal_global.263
++ ___block_literal_global.265
++ ___block_literal_global.267
++ ___block_literal_global.269
++ ___block_literal_global.378
++ ___block_literal_global.385
++ ___block_literal_global.387
++ ___block_literal_global.391
++ ___block_literal_global.393
++ ___block_literal_global.440
++ ___block_literal_global.453
++ ___block_literal_global.79
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$lowercaseString
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
+- ___70+[FSUserFontManager registeredFontsInfoForIdentifier:enabled:appInfo:]_block_invoke.210
+- ___block_literal_global.194
+- ___block_literal_global.201
+- ___block_literal_global.206
+- ___block_literal_global.209
+- ___block_literal_global.213
+- ___block_literal_global.215
+- ___block_literal_global.224
+- ___block_literal_global.226
+- ___block_literal_global.231
+- ___block_literal_global.234
+- ___block_literal_global.236
+- ___block_literal_global.239
+- ___block_literal_global.242
+- ___block_literal_global.245
+- ___block_literal_global.247
+- ___block_literal_global.249
+- ___block_literal_global.251
+- ___block_literal_global.253
+- ___block_literal_global.255
+- ___block_literal_global.258
+- ___block_literal_global.260
+- ___block_literal_global.262
+- ___block_literal_global.264
+- ___block_literal_global.266
+- ___block_literal_global.268
+- ___block_literal_global.270
+- ___block_literal_global.357
+- ___block_literal_global.364
+- ___block_literal_global.366
+- ___block_literal_global.370
+- ___block_literal_global.420
+- ___block_literal_global.433
+- ___block_literal_global.80
+- _gotLoadHelper_x21$_OBJC_CLASS_$_MAAsset
+- _gotLoadHelper_x8$_OBJC_CLASS_$_MAAsset
+- _gotLoadHelper_x8$_OBJC_CLASS_$_MAAssetQuery
+- _gotLoadHelper_x8$_OBJC_CLASS_$_MADownloadOptions
+- _gotLoadHelper_x8$_OBJC_CLASS_$_SBSRemoteAlertActivationContext
+- _gotLoadHelper_x8$_OBJC_CLASS_$_SBSRemoteAlertConfigurationContext
+- _gotLoadHelper_x8$_OBJC_CLASS_$_SBSRemoteAlertDefinition
+- _gotLoadHelper_x8$_OBJC_CLASS_$_SBSRemoteAlertHandle
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x28
+CStrings:
++ "FontProvider subscription support: scheme \"%@\" is a reserved system scheme and is not permitted."
++ "FontProvider subscription support: url \"%@\" and scheme \"%@\" not valid or defined in CFBundleURLTypes."
++ "calshow"
++ "facetime"
++ "facetime-audio"
++ "http"
++ "https"
++ "imessage"
++ "mailto"
++ "maps"
++ "mms"
++ "music"
++ "musics"
++ "sms"
++ "tel"
++ "x-apple-calevent"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"NSDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSString\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@\"NSXPCListener\""
+- "@\"NSXPCListenerEndpoint\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16B24B28"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8^Q16^Q24^Q32"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16B24B28"
+- "B48@0:8{?=[8I]}16"
+- "DeleteAppFontsDialogHandler"
+- "FSUserFontServicesManager"
+- "FSWebKitHostSupportManager"
+- "FSWebKitProcessSupportHandler"
+- "FSWebKitProcessSupportManager"
+- "FontInstallViewServiceProtocol"
+- "FontPickerClientFontContext"
+- "FontPickerSupportHandler"
+- "FontPickerSupporter"
+- "FontProvider subscription support: url \"%@\" and scheme \"%@\" not defined in kCFBundleURLNameKey"
+- "FontProviderProtocol"
+- "FontServicesClientProtocol"
+- "FontServicesDaemonManager"
+- "FontServicesDaemonProtocol"
+- "FontServicesFontPickerClientSupportProtocol"
+- "FontServicesFontPickerSupportProtocol"
+- "FontServicesFontPickerSynchronizeProtocol"
+- "FontServicesProtocol"
+- "FontServicesWebKitSupportClientProtocol"
+- "FontServicesWebKitSupportHostProtocol"
+- "FontServicesWebKitSupportProtocol"
+- "FontServicesWebKitSupportServerProtocol"
+- "GSFontEnableOrDisablePersistentURLs:forProfileFonts:enabled:suspend:withReply:"
+- "GSFontRegisterPersistentURLs:enabled:forProfileFonts:withReply:"
+- "GSFontUnregisterPersistentURLs:forProfileFonts:withReply:"
+- "NSObject"
+- "NSXPCListenerDelegate"
+- "Q16@0:8"
+- "SBUIRemoteAlertHostInterface"
+- "T#,R"
+- "T@\"FSWebKitHostSupportManager\",R"
+- "T@\"NSDictionary\",&,N,V_appSubscriptionIndo"
+- "T@\"NSDictionary\",&,N,V_locallyActivatedFontsInfo"
+- "T@\"NSMutableSet\",&,N,V_activatedFontFilePaths"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSXPCConnection\",&,N,V_connection"
+- "T@\"NSXPCConnection\",&,N,V_hostConnection"
+- "T@\"NSXPCListener\",&,N,V_listener"
+- "T@\"NSXPCListener\",&,N,V_listenerForFontServicesDaemon"
+- "T@\"NSXPCListener\",&,N,V_serverListener"
+- "T@\"NSXPCListener\",&,V_listener"
+- "T@\"NSXPCListenerEndpoint\",&,N,V_clientEndpoint"
+- "T@?,C,N,V_completionHandler"
+- "TB,N,V_clientHasFontAccessEntitlement"
+- "TB,N,V_hideProfileFonts"
+- "TQ,R"
+- "URLByStandardizingPath"
+- "UTF8String"
+- "UserFontManagerProtocol"
+- "UserFontServicesProtocol"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_UserFontManagerConnection"
+- "_UserFontServicesConnection"
+- "_activatedFontFilePaths"
+- "_appSubscriptionIndo"
+- "_applicationKeyWindow"
+- "_clientEndpoint"
+- "_clientHasFontAccessEntitlement"
+- "_completionHandler"
+- "_connection"
+- "_doneWithLocallyActivatedFonts"
+- "_endpoint"
+- "_evictAllItemsFromFontAndFontDescriptorCaches"
+- "_forClientContext"
+- "_hideProfileFonts"
+- "_hostConnection"
+- "_isFontFilePathAccepatableForClient:withFontEntitlement:hideProfileFonts:"
+- "_listener"
+- "_listenerForFontServicesDaemon"
+- "_locallyActivatedFontsInfo"
+- "_nestCount"
+- "_registerFonts:enabled:completionHandler:"
+- "_removeAllUserFonts"
+- "_sceneIdentifier"
+- "_serverListener"
+- "_setEndpoint:"
+- "_setupLocallyActivatedFonts"
+- "_unregisterFonts:completionHandler:"
+- "_updateAppInfo"
+- "absoluteURL"
+- "accessFontAsset:"
+- "activateFontsForFontPickerClient:reply:"
+- "activateWithContext:"
+- "activatedFontFilePaths"
+- "addEntriesFromDictionary:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "allKeys"
+- "anonymousListener"
+- "appSubscriotionInfo"
+- "appSubscriptionIndo"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "assetId"
+- "attributes"
+- "auditToken"
+- "autorelease"
+- "bytes"
+- "cachedDownloadFamiles"
+- "checkin"
+- "checkin:"
+- "checkin:reply:"
+- "checkinForFontPicker:"
+- "checkinForWebKitProcess:reply:"
+- "class"
+- "clientEndpoint"
+- "clientHasFontAccessEntitlement"
+- "clientHasFontAccessEntitlement:"
+- "completionHandler"
+- "conformsToProtocol:"
+- "connection"
+- "containsObject:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentConnection"
+- "d24@0:8@16"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "deactivate"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "deleteAppDialogWithIdentifier:completionHandler:"
+- "description"
+- "dictionaryWithObjects:forKeys:count:"
+- "directoryNameFromIdentifier:"
+- "directoryNameFromIdentifier:completionHandler:"
+- "dismiss"
+- "done"
+- "doneWithDeleteAppFonts:"
+- "doneWithInstallFonts:"
+- "doneWithMissingFonts:"
+- "enableOrDisablePersistentURLs:enabled:"
+- "enableOrDisablePersistentURLs:enabled:completionHandler:"
+- "endpoint"
+- "enumerateFontFamilyNamesUsingBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "familyNames"
+- "fileURLWithPath:"
+- "fontAddedInfo:addedURLStrings:removedURLStrings:"
+- "fontChanged:reply:"
+- "fontNamesForFamilyName:"
+- "fontNamesForFontFamily:withFontEntitlement:hideProfileFonts:"
+- "fontProviderFileDirectoryPath"
+- "fontProvidersSubscriptionSupportInfo:"
+- "fontProvidersSubscriptionSupportInfoAndFontFamiliesInstalled:andRemovedCount:andProfileFontsCount:"
+- "fontSelected:"
+- "getLocalFileUrl"
+- "hasPrefix:"
+- "hash"
+- "hideProfileFonts"
+- "hostConnection"
+- "i"
+- "identifierFromDirectoryName:"
+- "identifierFromDirectoryName:completionHandler:"
+- "infoDictionary"
+- "init"
+- "initWithCapacity:"
+- "initWithCompletionHandler:"
+- "initWithConnection:"
+- "initWithEndpoint:"
+- "initWithFormat:arguments:"
+- "initWithListenerEndpoint:"
+- "initWithMachServiceName:options:"
+- "initWithServiceName:"
+- "initWithServiceName:viewControllerClassName:"
+- "initWithType:"
+- "initWithXPCEndpoint:"
+- "installFonts:forIdentifier:enabled:appInfo:completionHandler:"
+- "intValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invalidateSharedInstanceForEndpoint:"
+- "isEqual:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isFontFamilyAcceptableForClient:withFontEntitlement:hideProfileFonts:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "knownFontProviders"
+- "knownFontProviders:"
+- "length"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "listenerForFontServicesDaemon"
+- "locallyActivatedFontsInfo"
+- "mainBundle"
+- "mapTableWithKeyOptions:valueOptions:"
+- "mutableCopy"
+- "newHandleWithDefinition:configurationContext:"
+- "normalizeURLs:addSandboxExtension:"
+- "null"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "path"
+- "pathsContainsFontAsset:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "ping"
+- "ping2:"
+- "ping:"
+- "ping:reply:"
+- "profileFontsInfo"
+- "profileFontsInfo:"
+- "purge:"
+- "queryMetaData:"
+- "queryMetaDataSync"
+- "queryMetaDataWithError:"
+- "registerFonts:enabled:completionHandler:"
+- "registerFonts:enabled:sceneID:appInfo:completionHandler:"
+- "registeredFamiliesForIdentifier:enabled:"
+- "registeredFamiliesForIdentifier:enabled:completionHandler:"
+- "registeredFontsChanged:"
+- "registeredFontsForIdentifier:enabled:"
+- "registeredFontsForIdentifier:enabled:completionHandler:"
+- "registeredFontsInfo:"
+- "registeredFontsInfo:appInfo:completionHandler:"
+- "registeredFontsInfoForIdentifier:enabled:appInfo:"
+- "registeredFontsInfoForIdentifier:enabled:appInfo:completionHandler:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "requestFonts:forClient:"
+- "requestFonts:forClient:reply:"
+- "requestFonts:reply:"
+- "requestFonts:sceneID:reply:"
+- "reset"
+- "resetIssuedFontsFor:"
+- "resetIssuedFontsFor:reply:"
+- "respondsToSelector:"
+- "results"
+- "resume"
+- "resumeAndShowAlertForSuspendedFontProviders"
+- "resumeAndShowAlertForSuspendedFontProviders:"
+- "resumeSuspendedFontFiles"
+- "resumeSuspendedFontFiles:"
+- "retain"
+- "retainCount"
+- "returnTypes:"
+- "runBlockInClientFontContext:"
+- "runWithClientFonts:"
+- "runWithFontNamesForFamilyName:usingBlock:"
+- "scheduleFontFilesDeletion:"
+- "secondsSinceLastAccessed:"
+- "secondsSinceLastAccessed:completionHandler:"
+- "self"
+- "sendFonts:reply:"
+- "serverListener"
+- "setActivatedFontFilePaths:"
+- "setAllowsAlertItems:"
+- "setAllowsAlertStacking:"
+- "setAllowsBanners:"
+- "setAllowsControlCenter:"
+- "setAllowsMenuButtonDismissal:"
+- "setAllowsSiri:"
+- "setAppSubscriptionIndo:"
+- "setBackgroundActivitiesToCancel:animationSettings:"
+- "setBackgroundStyle:withDuration:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClientEndpoint:"
+- "setClientHasFontAccessEntitlement:"
+- "setCompletionHandler:"
+- "setConnection:"
+- "setDelegate:"
+- "setDesiredAutoLockDuration:"
+- "setDesiredHardwareButtonEvents:"
+- "setDesiredIdleTimerSettings:"
+- "setDiscretionary:"
+- "setDismissalAnimationStyle:"
+- "setDoNotBlockBeforeFirstUnlock:"
+- "setDoNotBlockOnNetworkStatus:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setHideProfileFonts:"
+- "setHostConnection:"
+- "setIdleTimerDisabled:forReason:"
+- "setInteractiveScreenshotGestureDisabled:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLaunchingInterfaceOrientation:"
+- "setListener:"
+- "setListenerForFontServicesDaemon:"
+- "setLocallyActivatedFontsInfo:"
+- "setObject:forKey:"
+- "setOrientationChangedEventsEnabled:"
+- "setReachabilityDisabled:"
+- "setRemoteObjectInterface:"
+- "setSceneDeactivationReason:"
+- "setServerListener:"
+- "setShouldDisableFadeInAnimation:"
+- "setShouldDismissOnUILock:"
+- "setStatusBarHidden:withDuration:"
+- "setStyleOverridesToCancel:animationSettings:"
+- "setSupportedInterfaceOrientationOverride:"
+- "setSwipeDismissalStyle:"
+- "setUserInfo:"
+- "setValue:forKey:"
+- "setWallpaperStyle:withDuration:"
+- "setWallpaperTunnelActive:"
+- "setWhitePointAdaptivityStyle:"
+- "setWithObjects:"
+- "setXpcEndpoint:"
+- "setup"
+- "sharedInstance"
+- "sharedInstanceForEndpoint:"
+- "sharedManager"
+- "showDialogWithUserInfo:"
+- "startCatalogDownload:options:then:"
+- "startDownload:then:"
+- "state"
+- "stringByAppendingString:"
+- "substringFromIndex:"
+- "superclass"
+- "suspendFontProvider:"
+- "suspendFontProvider:completionHandler:"
+- "suspendedFontProviders"
+- "suspendedFontProviders:"
+- "synchronize:deactivated:includingFontAssets:"
+- "synchronizeFontAssets:"
+- "synchronizeFontAssets:reply:"
+- "synchronizeFontProviders"
+- "synchronizeFontProviders:"
+- "synchronizeProfileFonts:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "uninstallFonts:forIdentifier:appInfo:completionHandler:"
+- "unregisterAndRemoveFontFilesForIdentifier:completionHandler:"
+- "unregisterFonts:appInfo:completionHandler:"
+- "unregisterFonts:completionHandler:"
+- "unsignedIntValue"
+- "updateAppInfo"
+- "updateAppInfo:"
+- "updateAppInfo:forIdentifier:"
+- "updatingUserFonts:"
+- "userFontsInfo"
+- "userFontsInfo:"
+- "userInfo"
+- "userInstalledFontsInfo:reply:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSNumber\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"SBUIRemoteAlertIdleTimerSettings\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\"QQQ>16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@0:8@?<v@?@\"NSXPCListenerEndpoint\"@\"NSDictionary\"BB>16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8B16@\"NSString\"20"
+- "v28@0:8B16@20"
+- "v28@0:8B16d20"
+- "v32@0:8@\"NSArray\"16@?<v@?B@\"NSDictionary\">24"
+- "v32@0:8@\"NSDictionary\"16@\"NSString\"24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?>24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?B>24"
+- "v32@0:8@\"NSSet\"16@\"BSAnimationSettings\"24"
+- "v32@0:8@\"NSString\"16@?<v@?>24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@\"NSString\"16@?<v@?d>24"
+- "v32@0:8@\"NSXPCListenerEndpoint\"16@?<v@?>24"
+- "v32@0:8@\"NSXPCListenerEndpoint\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@\"BSAnimationSettings\"24"
+- "v32@0:8Q16@24"
+- "v32@0:8q16d24"
+- "v36@0:8@\"NSArray\"16B24@?<v@?@\"NSArray\">28"
+- "v36@0:8@\"NSArray\"16B24@?<v@?@\"NSArray\"Q>28"
+- "v36@0:8@\"NSDictionary\"16@\"NSArray\"24B32"
+- "v36@0:8@\"NSString\"16B24@?<v@?@\"NSArray\">28"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16B24@?28"
+- "v36@0:8B16@\"NSDictionary\"20@?<v@?@\"NSArray\">28"
+- "v36@0:8B16@20@?28"
+- "v40@0:8@\"NSArray\"16@\"NSDictionary\"24@?<v@?@\"NSArray\"@\"NSDictionary\">32"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?@\"NSDictionary\">32"
+- "v40@0:8@\"NSArray\"16B24B28@?<v@?@\"NSArray\"Q>32"
+- "v40@0:8@\"NSDictionary\"16@\"NSArray\"24@\"NSArray\"32"
+- "v40@0:8@\"NSString\"16@\"NSXPCListenerEndpoint\"24@?<v@?B>32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16B24B28@?32"
+- "v44@0:8@\"NSArray\"16B24B28B32@?<v@?@\"NSArray\">36"
+- "v44@0:8@\"NSString\"16B24@\"NSDictionary\"28@?<v@?@\"NSArray\">36"
+- "v44@0:8@16B24@28@?36"
+- "v44@0:8@16B24B28B32@?36"
+- "v48@0:8@\"NSArray\"16@\"NSString\"24@\"NSDictionary\"32@?<v@?@\"NSArray\"@\"NSDictionary\">40"
+- "v48@0:8@16@24@32@?40"
+- "v52@0:8@\"NSArray\"16@\"NSString\"24B32@\"NSDictionary\"36@?<v@?@\"NSArray\"@\"NSDictionary\">44"
+- "v52@0:8@\"NSArray\"16B24@\"NSString\"28@\"NSDictionary\"36@?<v@?@\"NSArray\"@\"NSDictionary\">44"
+- "v52@0:8@16@24B32@36@?44"
+- "v52@0:8@16B24@28@36@?44"
+- "windowScene"
+- "xpcInterface"
+- "zone"
+- "{?=[8I]}16@0:8"
+
+```

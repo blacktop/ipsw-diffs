@@ -1,0 +1,621 @@
+## APConfigurationSystem
+
+> `/System/Library/PrivateFrameworks/APConfigurationSystem.framework/APConfigurationSystem`
+
+```diff
+
+-556.5.31.0.0
+-  __TEXT.__text: 0x17ad0
+-  __TEXT.__auth_stubs: 0xd50
+-  __TEXT.__objc_methlist: 0xca4
+-  __TEXT.__const: 0x2078
+-  __TEXT.__cstring: 0x1130
++557.1.16.0.0
++  __TEXT.__text: 0x1a8c0
++  __TEXT.__objc_methlist: 0xc5c
++  __TEXT.__const: 0x2a10
++  __TEXT.__cstring: 0x1290
+   __TEXT.__oslogstring: 0xbd9
+-  __TEXT.__gcc_except_tab: 0x44
+-  __TEXT.__constg_swiftt: 0x754
+-  __TEXT.__swift5_typeref: 0x772
++  __TEXT.__gcc_except_tab: 0x18
++  __TEXT.__swift5_typeref: 0x938
++  __TEXT.__swift5_capture: 0xf8
++  __TEXT.__constg_swiftt: 0x8c0
++  __TEXT.__swift5_reflstr: 0x5bf
++  __TEXT.__swift5_fieldmd: 0x950
+   __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_reflstr: 0x4cf
+-  __TEXT.__swift5_fieldmd: 0x768
+-  __TEXT.__swift5_types: 0xa0
++  __TEXT.__swift5_proto: 0x248
++  __TEXT.__swift5_types: 0xcc
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__swift5_capture: 0xb8
+-  __TEXT.__swift5_proto: 0x1b4
+-  __TEXT.__unwind_info: 0x7c8
+-  __TEXT.__eh_frame: 0x480
+-  __TEXT.__objc_classname: 0x665
+-  __TEXT.__objc_methname: 0x1dfd
+-  __TEXT.__objc_methtype: 0x3b4
+-  __TEXT.__objc_stubs: 0x17a0
+-  __DATA_CONST.__got: 0x2d0
++  __TEXT.__unwind_info: 0x8d0
++  __TEXT.__eh_frame: 0x678
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1d8
+-  __DATA_CONST.__objc_classlist: 0x190
++  __DATA_CONST.__objc_classlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x778
+   __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x6b8
+-  __AUTH_CONST.__const: 0xf40
+-  __AUTH_CONST.__cfstring: 0xb00
+-  __AUTH_CONST.__objc_const: 0x34f8
++  __DATA_CONST.__got: 0x2e0
++  __AUTH_CONST.__const: 0x15c8
++  __AUTH_CONST.__cfstring: 0xaa0
++  __AUTH_CONST.__objc_const: 0x32b0
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH.__objc_data: 0x258
+-  __AUTH.__data: 0x170
++  __AUTH_CONST.__auth_got: 0x718
++  __AUTH.__objc_data: 0x1b8
++  __AUTH.__data: 0xd8
+   __DATA.__objc_ivar: 0x5c
+-  __DATA.__data: 0x7a0
+-  __DATA.__bss: 0x2f00
+-  __DATA_DIRTY.__objc_data: 0xc20
+-  __DATA_DIRTY.__data: 0x3f0
+-  __DATA_DIRTY.__bss: 0x510
++  __DATA.__data: 0x868
++  __DATA.__bss: 0x3a80
++  __DATA_DIRTY.__objc_data: 0xbd0
++  __DATA_DIRTY.__data: 0x578
++  __DATA_DIRTY.__bss: 0xc10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/APFoundation.framework/APFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: C84C8383-C19F-3704-8FE8-BCA6A5B018DE
+-  Functions: 754
+-  Symbols:   295
+-  CStrings:  786
++  UUID: 4835FCF8-79EA-3FBA-BAE1-3BD6003603E1
++  Functions: 876
++  Symbols:   298
++  CStrings:  294
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x9
++ _swift_bridgeObjectRetain_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
+- _OBJC_CLASS_$_APCSIntegrityReport
+- _OBJC_CLASS_$_APCSReports
+- _OBJC_CLASS_$_APJetServiceConfig
+- _OBJC_METACLASS_$_APCSIntegrityReport
+- _OBJC_METACLASS_$_APCSReports
+- _OBJC_METACLASS_$_APJetServiceConfig
+- _objc_initWeak
+- _objc_retain_x25
+- _objc_retain_x28
+CStrings:
++ "Reports/Experimentation/Incrementality"
++ "com.apple.AppStore"
++ "com.apple.AppStore.ProductPageExtension"
++ "com.apple.AppStoreDaemon.AppStoreEventServiceExtension"
++ "incrementalityListener"
++ "installSignalsAppStore"
+- "#16@0:8"
+- "#24@0:8q16"
+- "$__lazy_storage_$_url"
+- ".cxx_destruct"
+- "@\"<APPurgeableCacheNotifierP>\""
+- "@\"<APVersionDatasource>\""
+- "@\"APConfigurationResponseHandler\""
+- "@\"APConfigurationStorefrontValidator\""
+- "@\"APInMemoryTTLCache\""
+- "@\"APUnfairLock\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"NSURL\"16"
+- "@\"NSDictionary\""
+- "@\"NSFileManager\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURLSessionDataTask\""
+- "@16@0:8"
+- "@24@0:8#16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@24@0:8q16"
+- "@28@0:8#16B24"
+- "@32@0:8#16^@24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"NSDictionary\"16@\"<APPurgeableCacheNotifierP>\"24"
+- "@32@0:8@16@24"
+- "@32@0:8@16Q24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16Q24Q32"
+- "@?"
+- "@?16@0:8"
+- "APAdBatchAccumulatorConfig"
+- "APAttributionConfig"
+- "APAttributionErrorCodeBucketsConfig"
+- "APCSAgeSensitiveNoise"
+- "APCSAgeSensitiveThreshold"
+- "APCSAggregatedTimespent"
+- "APCSConfiguration"
+- "APCSContentRestrictionsPreferences"
+- "APCSEventDatabase"
+- "APCSIntegrityReport"
+- "APCSPolicyAppleSubscriptions"
+- "APCSPolicySegments"
+- "APCSProxyRequest"
+- "APCSReports"
+- "APClientMetricsConfig"
+- "APConfiguration"
+- "APConfigurationCache"
+- "APConfigurationDecompressor"
+- "APConfigurationMediator"
+- "APConfigurationProtocol"
+- "APConfigurationRequester"
+- "APConfigurationResponseHandler"
+- "APConfigurationStorage"
+- "APConfigurationStorefrontValidator"
+- "APECDiagnosticPurposeConfig"
+- "APECExperimentationPurposeConfig"
+- "APECGroupRandomizerConfig"
+- "APECJourneyPurposeConfig"
+- "APECLogDiscardPurposeConfig"
+- "APECNewEventPurposeConfig"
+- "APECObservabilityConfig"
+- "APECObservabilityPurposeConfig"
+- "APECOnDeviceConversionPurposeConfig"
+- "APECPurposeConfig"
+- "APECPurposeConfigProtocol"
+- "APECReportsPurposeConfig"
+- "APECSettingsConfig"
+- "APFeatureFlagsEnforcingConfig"
+- "APJetServiceConfig"
+- "APOnDeviceAttributionConfig"
+- "APOnDeviceConversionConfig"
+- "APPurgeableCacheNotifierP"
+- "APPurgeableCacheObjectP"
+- "APSLPPlacementConfig"
+- "APSponsorshipPlacementConfig"
+- "APVersionData"
+- "APVersionDatasource"
+- "APVersionHelper"
+- "APVersionTestData"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "GET:headers:withCompletionHandler:"
+- "JSONObjectWithData:options:error:"
+- "JetService"
+- "NSObject"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Q32@0:8@16Q24"
+- "Reports"
+- "Reports/Integrity"
+- "T#,R"
+- "T@\"<APPurgeableCacheNotifierP>\",&,N,V_notifier"
+- "T@\"<APVersionDatasource>\",&,N,V_datasource"
+- "T@\"APConfigurationResponseHandler\",&,N,V_responseHandler"
+- "T@\"APConfigurationStorefrontValidator\",R,N,V_storefrontValidator"
+- "T@\"APInMemoryTTLCache\",&,N,V_purgeableCache"
+- "T@\"APUnfairLock\",&,N,V_lock"
+- "T@\"NSArray\",&,D,N"
+- "T@\"NSArray\",&,N,V_directoryURLs"
+- "T@\"NSArray\",&,N,V_testURLS"
+- "T@\"NSArray\",R,D,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSDictionary\",&,D,N"
+- "T@\"NSDictionary\",&,N,V_allProperties"
+- "T@\"NSDictionary\",&,N,VconfigDictionary"
+- "T@\"NSDictionary\",R,D,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSFileManager\",&,N,V_fileManager"
+- "T@\"NSFileManager\",&,N,V_filemanager"
+- "T@\"NSFileManager\",R,N,V_fileManager"
+- "T@\"NSNumber\",&,D,N"
+- "T@\"NSNumber\",R,D,N"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_responseQueue"
+- "T@\"NSString\",&,D,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,D,N"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,D,N"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_pathToConfig"
+- "T@\"NSString\",R,N,V_pathToTempDir"
+- "T@\"NSString\",R,N,V_pathToTraverse"
+- "T@\"NSString\",R,N,V_storefront"
+- "T@\"NSURLSessionDataTask\",&,N,V_sessionDataTask"
+- "T@?,C,N,V_completionHandler"
+- "TB,N,V_cancelled"
+- "TQ,R"
+- "Tq,R,N"
+- "URL"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC21APConfigurationSystem22ConfigurableJSONSource"
+- "_TtC21APConfigurationSystem25ConfigurationJSONProvider"
+- "_TtC21APConfigurationSystem30ConfigurationDecodableProvider"
+- "_TtC21APConfigurationSystem31ClientConfigurationXPCRequester"
+- "_TtC21APConfigurationSystem37PurposeConfigSystemConfigurationStore"
+- "_TtC21APConfigurationSystem39ProductionConfigSystemPurposeDataSource"
+- "_allProperties"
+- "_cancelled"
+- "_classForPurpose:"
+- "_completionHandler"
+- "_configSystemErrorWithDescription:"
+- "_configurationServerURL"
+- "_configurationVersion"
+- "_copyCurrentConfigToTraverse"
+- "_createSharedFolderDirectoryIfNeeded"
+- "_createTempDirectory"
+- "_datasource"
+- "_directoryURLs"
+- "_fileManager"
+- "_filemanager"
+- "_getVersionForNodesAtDirectoryPath:"
+- "_httpResponse:session:"
+- "_isCancelled"
+- "_loadFromDefaultsForClass:error:"
+- "_loadFromJSONForClass:error:"
+- "_lock"
+- "_mockConfigurationServerResponseIfNeeded"
+- "_notifier"
+- "_pathToConfig"
+- "_pathToTempDir"
+- "_pathToTraverse"
+- "_processData:"
+- "_purgeableCache"
+- "_queryItems"
+- "_removeFileAtPath:"
+- "_removeTempDirectory"
+- "_replaceConfigWithNewHierarchy"
+- "_requestHost"
+- "_resetConfigurationForStorefrontChangeIfNeeded"
+- "_resourcesBundleDirectoryPathError:"
+- "_responseHandler"
+- "_responseQueue"
+- "_runCompletionHandlerWithSuccess:data:"
+- "_sendCoreAnalyticsWithUpdateStatus:version:"
+- "_session"
+- "_sessionDataTask"
+- "_storefront"
+- "_storefrontValidator"
+- "_tempConfigPath"
+- "_testURLS"
+- "_testingFlag"
+- "_traverseDirectoryAtPath:replacingConfigurationAtPath:"
+- "_versionInDirectoryWithURLs:"
+- "_writeCompressedFileWithData:atPath:"
+- "absoluteString"
+- "accumulationTime"
+- "addObject:"
+- "allObjects"
+- "allProperties"
+- "allowedPurposes"
+- "allowedSources"
+- "ap_propertyName"
+- "appOpenDelayInSeconds"
+- "array"
+- "arrayWithArray:"
+- "attributesOfItemAtPath:error:"
+- "autorelease"
+- "batchSize"
+- "blockAdsForSubscribers"
+- "boolValue"
+- "boundary"
+- "bufferedTimeHistogram"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "bytes"
+- "c32@0:8@16Q24"
+- "cacheSizeLimit"
+- "cancel"
+- "cancelConfigurationUpdate"
+- "cancelProcess"
+- "cancelRequest"
+- "cancelled"
+- "class"
+- "clientCodeBuckets"
+- "closeFile"
+- "code"
+- "collectionType"
+- "communicationReportClientCodeBuckets"
+- "communicationReportServerCodeBuckets"
+- "completionHandler"
+- "configDataSource"
+- "configDictionary"
+- "configSystemDirectoryPath"
+- "configurationForClass:"
+- "configurationForClass:usingCache:"
+- "configurationForPath:"
+- "configurationNeedsReset"
+- "configurationPath"
+- "conformsToProtocol:"
+- "contentRestrictionEnforcementEnabled"
+- "copy"
+- "copyItemAtPath:toPath:error:"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createdToBufferedTimeHistogram"
+- "dailyReportClientCodeBuckets"
+- "dailyReportServerCodeBuckets"
+- "data"
+- "dataForKey:"
+- "dataForObject:inLocation:andLength:"
+- "dataProvider"
+- "dataWithCapacity:"
+- "dataWithContentsOfFile:"
+- "dataWithJSONObject:options:error:"
+- "datasource"
+- "dealloc"
+- "debugDescription"
+- "decompressTarAtPath:toPath:"
+- "defaultManager"
+- "defaultsDataProvider"
+- "delay"
+- "deliveryLeeway"
+- "description"
+- "destination"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "directoryURLs"
+- "disallowedEvents"
+- "domain"
+- "enableAggregatedTimespent"
+- "enableBatchAccumulation"
+- "enabled"
+- "enumeratorAtPath:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "expirationOfData2024E"
+- "fallback"
+- "fileExistsAtPath:"
+- "fileHandleForReadingAtPath:"
+- "fileHandleForWritingAtPath:"
+- "fileManager"
+- "fileURLWithPath:"
+- "filemanager"
+- "forwardInvocation:"
+- "getObjectForIdentifier:"
+- "groupConfig"
+- "hasPrefix:"
+- "hash"
+- "holdTransactionLimit"
+- "identifier"
+- "impressionLookback"
+- "inactivityTime"
+- "incorporateJourneyMetrics"
+- "init"
+- "initWithConfig:notifier:"
+- "initWithDatasource:"
+- "initWithDomain:code:userInfo:"
+- "initWithExpirationInterval:flushQueue:"
+- "initWithInteger:"
+- "initWithOptions:"
+- "initWithStorefront:"
+- "initWithStorefront:configurationPath:"
+- "initWithSuiteName:"
+- "installSignals"
+- "integerValue"
+- "interactionLookback"
+- "isAppleInternalInstall"
+- "isEqual:"
+- "isEqualToString:"
+- "isEventDatabaseStorageEnabled"
+- "isKindOfClass:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isPeriodicFetchFromDaemonEnabled"
+- "isProxy"
+- "isRunningTests"
+- "isSlpRefactorDisabled"
+- "isSlpRefactorDisabled2"
+- "isUniversalLinkInNewsSupported"
+- "itemLimit"
+- "jsStepLimit"
+- "lastObject"
+- "lastPathComponent"
+- "length"
+- "locale"
+- "localizedFailureReason"
+- "lock"
+- "lowerAgeLimits"
+- "m1409Left"
+- "m1409VoiceLeft"
+- "mainBundle"
+- "maximumTokenLifetime"
+- "methodSignatureForSelector:"
+- "modelType"
+- "moveItemAtPath:toPath:error:"
+- "mutableBytes"
+- "nameForObject:atOffset:"
+- "notifier"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "objectForKey:"
+- "osIdentifier"
+- "path"
+- "pathExtension"
+- "pathForResource:ofType:"
+- "pathToConfig"
+- "pathToTempDir"
+- "pathToTraverse"
+- "pcpfDelay"
+- "pcpfEnabledStorefronts"
+- "pcpfRequestUrl"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "periodicDelay"
+- "poll"
+- "processInfo"
+- "processResponseWithData:"
+- "provider"
+- "purgeableCache"
+- "purpose"
+- "purposeConfig:"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q32@0:8@16@24"
+- "queryItemWithName:value:"
+- "queue"
+- "readDataOfLength:"
+- "recentlyAccessedObject:"
+- "reengagementSources"
+- "regularJobDaemonStartDelay"
+- "release"
+- "removeDataAfterDays"
+- "removeFileAtPath:"
+- "removeItemAtPath:error:"
+- "replaceItemAtURL:withItemAtURL:backupItemName:options:resultingItemURL:error:"
+- "reportEnabled"
+- "reportingFrequency"
+- "reportingPurposes"
+- "requestConfigurationWithCompletionHandler:"
+- "resetConfigurationSystem"
+- "resourcesBundleDirectoryPath"
+- "respondsToSelector:"
+- "responseBody"
+- "responseError"
+- "responseHandler"
+- "responseQueue"
+- "responseStatusCode"
+- "restartEnabled"
+- "retain"
+- "retainArguments"
+- "retainCount"
+- "retryTimeout"
+- "samplePercentage"
+- "samplePeriod"
+- "saveStorefront"
+- "seekToFileOffset:"
+- "segmentReductionEnabled"
+- "selector"
+- "self"
+- "sendEvent:customPayload:"
+- "sendWebIdentifier"
+- "sensitiveContentEligibilityThreshold"
+- "serverCodeBuckets"
+- "serverEnvironment"
+- "serverSettings"
+- "sessionDataTask"
+- "setAllProperties:"
+- "setCancelled:"
+- "setCompletionHandler:"
+- "setConfigDictionary:"
+- "setConfiguration:"
+- "setDatasource:"
+- "setDirectoryURLs:"
+- "setFileManager:"
+- "setFilemanager:"
+- "setHost:"
+- "setLength:"
+- "setLock:"
+- "setNotifier:"
+- "setObject:"
+- "setObject:forKey:"
+- "setPath:"
+- "setPurgeableCache:"
+- "setQueryItems:"
+- "setResponseHandler:"
+- "setResponseQueue:"
+- "setReturnValue:"
+- "setScheme:"
+- "setSessionDataTask:"
+- "setTestURLS:"
+- "sharedAPNetworkClient"
+- "sharedInstance"
+- "shortBuildVersion"
+- "signatureWithObjCTypes:"
+- "signingBackoffSchedule"
+- "signingHoldTransactionLimit"
+- "signingPercentageFPDI"
+- "sizeForFileAtPath:"
+- "sizeForObject:atOffset:"
+- "storefront"
+- "storefrontValidator"
+- "stringByAppendingPathComponent:"
+- "stringByDeletingLastPathComponent"
+- "stringByResolvingSymlinksInPath"
+- "stringByStandardizingPath"
+- "stringForKey:"
+- "stringValue"
+- "stringWithCString:encoding:"
+- "stringWithFormat:"
+- "subdirectoriesAtURL:"
+- "superclass"
+- "supportsDontAllow"
+- "systemVersion"
+- "temporarySessionForDaemon"
+- "testURLS"
+- "throttlePercentage"
+- "typeForObject:atOffset:"
+- "unlock"
+- "unsignedLongLongValue"
+- "untarFileAtPath:"
+- "unzipContentsOfFileAtPath:toPath:"
+- "unzipData:"
+- "updateConfigurationSystemWithData:"
+- "uploadBackoffSchedule"
+- "uploadHoldTransactionLimit"
+- "upperAgeLimits"
+- "urlPaths"
+- "userInfo"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"<APPurgeableCacheObjectP>\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v28@0:8B16@20"
+- "v32@0:8@16@24"
+- "v32@0:8q16q24"
+- "v48@0:8@16Q24Q32@40"
+- "valid"
+- "valueForKey:"
+- "versionNumberFromJSONFileAtPath:"
+- "writeData:"
+- "writeFileDataForFile:atLocation:withLength:atPath:"
+- "writeToFile:atomically:"
+- "writeToFile:options:error:"
+- "xpcTimerGracePeriod"
+- "xpcTimerPriority"
+- "zone"
+
+```

@@ -1,0 +1,19 @@
+## QuickLookThumbnailGeneration
+
+> `/System/Library/PrivateFrameworks/QuickLookThumbnailGeneration.framework/QuickLookThumbnailGeneration`
+
+```diff
+
+-208.6.1.0.0
++215.0.0.0.0
+   __TEXT.__text: 0x0
+-  __TEXT.__const: 0x60
++  __TEXT.__const: 0x58
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 79A5F53F-23D7-3795-B721-279E1F06F367
++  UUID: 9CDD6904-50BB-3221-B689-A0489D4046F6
+   Functions: 0
+   Symbols:   2
+   CStrings:  0
+
+```

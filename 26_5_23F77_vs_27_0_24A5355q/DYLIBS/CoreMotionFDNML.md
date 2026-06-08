@@ -1,0 +1,327 @@
+## CoreMotionFDNML
+
+> `/System/Library/PrivateFrameworks/CoreMotionFDNML.framework/CoreMotionFDNML`
+
+```diff
+
+-17.0.0.0.0
+-  __TEXT.__text: 0x1d294
+-  __TEXT.__auth_stubs: 0xe40
++23.0.0.0.0
++  __TEXT.__text: 0x1c694
+   __TEXT.__objc_methlist: 0x240
+-  __TEXT.__gcc_except_tab: 0xdec
+-  __TEXT.__cstring: 0x53a
+-  __TEXT.__const: 0x10d0
+-  __TEXT.__swift5_typeref: 0x31a
+-  __TEXT.__swift5_reflstr: 0x17b
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__constg_swiftt: 0x4b8
+-  __TEXT.__swift5_fieldmd: 0x2f0
+-  __TEXT.__swift5_proto: 0x88
+-  __TEXT.__swift5_types: 0x50
++  __TEXT.__gcc_except_tab: 0xfb4
++  __TEXT.__cstring: 0x61b
++  __TEXT.__const: 0x11d8
++  __TEXT.__swift5_typeref: 0x318
++  __TEXT.__swift5_reflstr: 0x19b
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__constg_swiftt: 0x4f0
++  __TEXT.__swift5_fieldmd: 0x340
++  __TEXT.__swift5_proto: 0x94
++  __TEXT.__swift5_types: 0x58
+   __TEXT.__swift_as_entry: 0x40
+   __TEXT.__swift_as_ret: 0x44
++  __TEXT.__swift_as_cont: 0x40
+   __TEXT.__swift5_capture: 0xc4
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xd88
+-  __TEXT.__eh_frame: 0x1c10
+-  __TEXT.__objc_classname: 0x157
+-  __TEXT.__objc_methname: 0x43a
+-  __TEXT.__objc_methtype: 0x256
+-  __TEXT.__objc_stubs: 0x4e0
+-  __DATA_CONST.__got: 0x198
+-  __DATA_CONST.__const: 0x120
++  __TEXT.__oslogstring: 0x43
++  __TEXT.__unwind_info: 0x12b8
++  __TEXT.__eh_frame: 0x1c80
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x158
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__objc_selrefs: 0x150
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x738
+-  __AUTH_CONST.__const: 0x8f8
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xb90
+   __AUTH_CONST.__objc_const: 0x390
++  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__auth_got: 0x7f8
+   __AUTH.__objc_data: 0x5c8
+   __AUTH.__data: 0x440
+   __DATA.__data: 0x238
+   __DATA.__common: 0x88
+-  __DATA.__bss: 0x11d0
++  __DATA.__bss: 0x1380
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2136AEF5-BFC3-3E65-BECF-2E0810B57DD3
+-  Functions: 852
+-  Symbols:   745
+-  CStrings:  121
++  UUID: DFEF6755-C3D7-352F-9738-9F9BF7029A6B
++  Functions: 901
++  Symbols:   806
++  CStrings:  51
+ 
+Symbols:
++ GCC_except_table106
++ GCC_except_table114
++ GCC_except_table123
++ GCC_except_table124
++ GCC_except_table125
++ GCC_except_table13
++ GCC_except_table152
++ GCC_except_table164
++ GCC_except_table188
++ GCC_except_table26
++ GCC_except_table27
++ GCC_except_table28
++ GCC_except_table32
++ GCC_except_table34
++ GCC_except_table42
++ GCC_except_table46
++ GCC_except_table50
++ GCC_except_table51
++ GCC_except_table59
++ GCC_except_table76
++ GCC_except_table79
++ GCC_except_table81
++ GCC_except_table84
++ GCC_except_table91
++ __ZN6motion19AnomalyFMEmbeddings7predictERKNSt3__13mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_2fm9ArrayDataENS1_4lessIS8_EENS6_INS1_4pairIKS8_SA_EEEEEENS1_8functionIFvNS1_10shared_ptrIKNS9_16PredictionResultEEEEEE
++ __ZN6motion19AnomalyFMEmbeddingsC1EPU28objcproto17OS_dispatch_queue8NSObject
++ __ZN6motion19AnomalyFMEmbeddingsC2EPU28objcproto17OS_dispatch_queue8NSObject
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110shared_ptrIKN6motion2fm16PredictionResultEED1B9fqe220100Ev
++ __ZNSt3__110shared_ptrIKN6motion2fm20ModelManagerResponseEED1B9fqe220100Ev
++ __ZNSt3__110shared_ptrIN6motion2fm16PredictionResultEED1B9fqe220100Ev
++ __ZNSt3__110shared_ptrIN6motion2fm20ModelManagerResponseEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEEPvEENS_6__treeISC_NS_19__map_value_compareIS8_NS_4pairIKS8_SB_EENS_4lessIS8_EEEENS6_ISJ_EEE14__tree_deleterEED1B9fqe220100Ev
++ __ZNSt3__111make_uniqueB9fqe220100IN6motion2fm6Client4ImplEJRNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS9_ISB_EEEERSB_RiSF_RU8__strongPU28objcproto17OS_dispatch_queue8NSObjectELi0EEENS_10unique_ptrIT_NS_14default_deleteISN_EEEEDpOT0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__120__shared_ptr_emplaceIN6motion2fm16PredictionResultENS_9allocatorIS3_EEEC2B9fqe220100IJRS3_ES5_Li0EEES5_DpOT_
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED1B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED1B9fqe220100Ev
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataENS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEED1B9fqe220100Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE16__construct_nodeIJRKSF_EEENS_10unique_ptrINS_11__tree_nodeISB_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE18__assign_from_treeB9fqe220100IZNSK_18__copy_assign_treeB9fqe220100EPNS_11__tree_nodeISB_PvEESP_EUlRSF_RKSF_E_ZNSK_18__copy_assign_treeB9fqe220100ESP_SP_EUlSP_E_EESP_SP_SP_T_T0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE21__construct_from_treeB9fqe220100IZNSK_21__copy_construct_treeB9fqe220100EPNS_11__tree_nodeISB_PvEEEUlRKSF_E_EESP_SP_T_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9fqe220100IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPhS6_EEvT0_T1_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPjS6_EEvT0_T1_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
++ __ZZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENSP_IJEEEEEENSD_INS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEEbEEDpOT_ENKUlSQ_SO_OSR_OSS_E_clESQ_SO_S13_S14_
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.9Tm
++ ___swift_destroy_boxed_opaque_existential_0
++ __os_log_impl
++ _associated conformance 15CoreMotionFDNML13TransitSchemaO13OutputClassesOSHAASQ
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x8
++ _objc_storeStrong
++ _os_log_type_enabled
++ _swift_arrayDestroy
++ _swift_bridgeObjectRelease_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_slowDealloc
++ _symbolic SS_SSt
++ _symbolic _____ 15CoreMotionFDNML13TransitSchemaO
++ _symbolic _____ 15CoreMotionFDNML13TransitSchemaO13OutputClassesO
++ _symbolic _____ s5UInt8V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- GCC_except_table105
+- GCC_except_table107
+- GCC_except_table110
+- GCC_except_table116
+- GCC_except_table118
+- GCC_except_table121
+- GCC_except_table15
+- GCC_except_table178
+- GCC_except_table29
+- GCC_except_table35
+- GCC_except_table41
+- GCC_except_table44
+- GCC_except_table49
+- GCC_except_table64
+- GCC_except_table78
+- GCC_except_table80
+- GCC_except_table83
+- GCC_except_table97
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110shared_ptrIKN6motion2fm16PredictionResultEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIKN6motion2fm20ModelManagerResponseEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN6motion2fm16PredictionResultEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN6motion2fm20ModelManagerResponseEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEED1B9nqe210106Ev
+- __ZNSt3__111make_uniqueB9nqe210106IN6motion2fm6Client4ImplEJRNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS9_ISB_EEEERSB_RiSF_RU8__strongPU28objcproto17OS_dispatch_queue8NSObjectELi0EEENS_10unique_ptrIT_NS_14default_deleteISN_EEEEDpOT0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__120__shared_ptr_emplaceIN6motion2fm16PredictionResultENS_9allocatorIS3_EEEC2B9nqe210106IJRS3_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED1B9nqe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED1B9nqe210106Ev
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataENS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEE6insertB9nqe210106INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S9_EEPNS_11__tree_nodeISL_PvEElEEEEEEvT_SS_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE11__find_leafENS_21__tree_const_iteratorISB_PNS_11__tree_nodeISB_PvEElEERPNS_15__tree_end_nodeIPNS_16__tree_node_baseISN_EEEERKSF_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorISB_PNS_11__tree_nodeISB_SN_EElEERPNS_15__tree_end_nodeISP_EESQ_RKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISP_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE14__assign_multiINS_21__tree_const_iteratorISB_PNS_11__tree_nodeISB_PvEElEEEEvT_SS_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE16__construct_nodeIJRKSF_EEENS_10unique_ptrINS_11__tree_nodeISB_PvEENS_22__tree_node_destructorINS5_ISR_EEEEEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE18_DetachedTreeCacheD1B9nqe210106Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE19__node_insert_multiEPNS_11__tree_nodeISB_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE20__emplace_hint_multiIJRKSF_EEENS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEENS_21__tree_const_iteratorISB_SS_lEEDpOT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENSP_IJEEEEEENSD_INS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6motion2fm9ArrayDataEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EELb1EEENS5_ISF_EEE7destroyEPNS_11__tree_nodeISB_PvEE
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe210106IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B9nqe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9nqe210106IPhS5_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB9nqe210106IPjS5_EEvT_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
+- _objectdestroy.18Tm
+- _objectdestroy.9Tm
+- _symbolic SS3key______5valuetSg 15CoreMotionFDNML0aB21FoundationModel_ArrayV
+- _symbolic SS3key______5valuetSg 6CoreML8MLTensorV
+- _symbolic SvSg
+CStrings:
++ "CoreMotionFoundationModelInferenceProvider"
++ "anomalyfm_adapter_20260427"
++ "com.apple.coremotion.foundationmodel.subsystem"
++ "com.apple.fm.coremotion.anomalyfm"
++ "com.apple.fm.coremotion.anomalyfm.adaptor"
++ "r68newvb43_TransitType"
++ "writeBytes debug - key: %s, shape: %s, expected: %llu, actual: %ld"
+- ".cxx_destruct"
+- "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
+- "@\"NSSet\"16@0:8"
+- "@16@0:8"
+- "@24@0:8@16"
+- "@32@0:8@16^@24"
+- "@32@0:8r*16^@24"
+- "@48@0:8@16@24q32@40"
+- "B24@0:8^@16"
+- "MLFeatureProvider"
+- "T@\"NSSet\",N,R"
+- "T@\"NSSet\",R,N"
+- "UTF8String"
+- "_TtC15CoreMotionFDNML13CMCoreMLModel"
+- "_TtC15CoreMotionFDNML15CMWrappedArrays"
+- "_TtC15CoreMotionFDNML21TensorFeatureProvider"
+- "_TtC15CoreMotionFDNML23CMFoundationModelClient"
+- "_TtC15CoreMotionFDNML24CMFoundationModelRequest"
+- "_TtC15CoreMotionFDNML25CMFoundationModelResponse"
+- "_TtC15CoreMotionFDNML8UAFPaths"
+- "addArrayWithName:type:shape:dimensions:byteArray:byteLength:"
+- "addObject:"
+- "arrayWithCapacity:"
+- "arrays"
+- "bundleWithIdentifier:"
+- "calorimetryWRMetConfigPath"
+- "contentsOfDirectoryAtPath:error:"
+- "copy"
+- "countByEnumeratingWithState:objects:count:"
+- "dealloc"
+- "defaultManager"
+- "dimensionOfArrayWithKey:dim:"
+- "errorMessage"
+- "featureNames"
+- "featureValueForName:"
+- "featureValueWithMultiArray:"
+- "fromBundlePath:error:"
+- "fromName:error:"
+- "getMachContinuousTimestamp:"
+- "getType:"
+- "init"
+- "initWithSupportedAssetBundleIdentifiers:useCaseID:onBehalfOfPID:loggingIdentifier:"
+- "keys"
+- "localizedDescription"
+- "mainBundle"
+- "maybeSession"
+- "modelWithContentsOfURL:configuration:error:"
+- "model_"
+- "multiArrayValue"
+- "pathForResource:ofType:"
+- "predictAsyncFor:completionHandler:"
+- "predictFor:error:"
+- "predictionFromFeatures:error:"
+- "request"
+- "requestPrewarmAndReturnError:"
+- "response"
+- "resultKeys"
+- "sendAsyncWithRequest:loggingID:completionHandler:"
+- "setComputeUnits:"
+- "setModelName:"
+- "setTimestamp:"
+- "shapeOfArrayWithKey:shape:expectedShapeSize:"
+- "stringWithUTF8String:"
+- "typeOfArrayWithKey:type:"
+- "v0_transit_adapter"
+- "v16@0:8"
+- "v24@0:8*16"
+- "v24@0:8Q16"
+- "v24@0:8^Q16"
+- "v24@0:8r*16"
+- "v32@0:8@\"_TtC15CoreMotionFDNML15CMWrappedArrays\"16@?<v@?@\"_TtC15CoreMotionFDNML15CMWrappedArrays\"@\"NSError\">24"
+- "v32@0:8@16*24"
+- "v36@0:8@16^I24C32"
+- "v40@0:8@\"_TtC15CoreMotionFDNML24CMFoundationModelRequest\"16@\"NSString\"24@?<v@?@\"_TtC15CoreMotionFDNML25CMFoundationModelResponse\">32"
+- "v40@0:8@16*24Q32"
+- "v56@0:8r*16C24r^I28C36r*40Q48"
+- "writeBytesWithKey:ptr:expectedByteLength:"
+
+```

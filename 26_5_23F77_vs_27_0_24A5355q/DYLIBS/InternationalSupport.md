@@ -1,0 +1,426 @@
+## InternationalSupport
+
+> `/System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport`
+
+```diff
+
+-114.4.1.0.0
+-  __TEXT.__text: 0xae80
+-  __TEXT.__auth_stubs: 0x720
++121.0.0.0.0
++  __TEXT.__text: 0xa4cc
+   __TEXT.__objc_methlist: 0x724
+   __TEXT.__const: 0x192
+-  __TEXT.__cstring: 0x2107
++  __TEXT.__cstring: 0x212a
+   __TEXT.__ustring: 0x2f9ab8
+   __TEXT.__gcc_except_tab: 0xd4
+   __TEXT.__dlopen_cstrs: 0x52
+
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x348
+-  __TEXT.__objc_classname: 0x85
+-  __TEXT.__objc_methname: 0x1b98
+-  __TEXT.__objc_methtype: 0x27f
+-  __TEXT.__objc_stubs: 0x1480
+-  __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__const: 0x308
++  __TEXT.__unwind_info: 0x320
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x310
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x770
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x1aa2d0
+-  __AUTH_CONST.__auth_got: 0x3a0
++  __DATA_CONST.__got: 0x128
+   __AUTH_CONST.__const: 0xe8
+-  __AUTH_CONST.__cfstring: 0x68f680
++  __AUTH_CONST.__cfstring: 0x68f6a0
+   __AUTH_CONST.__objc_const: 0x838
+   __AUTH_CONST.__objc_dictobj: 0x2cd8
+   __AUTH_CONST.__objc_arrayobj: 0x1d40
+   __AUTH_CONST.__objc_doubleobj: 0x350
+   __AUTH_CONST.__objc_intobj: 0x30
++  __AUTH_CONST.__auth_got: 0x3d8
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x6c
+   __DATA.__data: 0x18
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 94F87174-E6D0-3D09-AFFE-BECEC431EB59
++  UUID: 8FF50420-B323-3F58-9BD9-2BD8D59AE319
+   Functions: 224
+-  Symbols:   900
+-  CStrings:  216556
++  Symbols:   908
++  CStrings:  216216
+ 
+Symbols:
++ _ISLanguageDidChangeDarwinNotification
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x8
++ _swift_release_x20
++ _swift_release_x21
+- _objc_retainAutoreleasedReturnValue
+- _swift_release
+CStrings:
++ "com.apple.language.changed"
+- ".cxx_destruct"
+- "@"
+- "@\"<NSObject>\""
+- "@\"NSArray\""
+- "@\"NSDate\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8i16"
+- "@24@0:8@16"
+- "@28@0:8@16B24"
+- "@28@0:8i16@20"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16^{ULocaleDisplayNames=}24"
+- "@32@0:8@16q24"
+- "@36@0:8@16q24B32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16q24Q32"
+- "@44@0:8@16@24q32B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24q32Q40"
+- "@48@0:8@16@24q32q40"
+- "@48@0:8@16q24@32Q40"
+- "@52@0:8@16q24@32Q40B48"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "ISLanguageCarousel"
+- "ISLanguageCarouselItem"
+- "ISOCountryCodes"
+- "ISOLanguageCodes"
+- "ISRegionDetector"
+- "ISUtilities"
+- "InternationalSupport"
+- "InternationalSupportExtensions"
+- "Q"
+- "Q16@0:8"
+- "T@\"<NSObject>\",&,N,V_regionDetectionObserver"
+- "T@\"NSArray\",&,N,V_firstGuessedLanguages"
+- "T@\"NSArray\",&,N,V_guessedCountries"
+- "T@\"NSArray\",&,N,V_items"
+- "T@\"NSArray\",&,N,V_queue"
+- "T@\"NSArray\",R,C"
+- "T@\"NSDate\",&,N,V_wirelessScanStartDate"
+- "T@\"NSLocale\",R,N"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_dispatchQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_serialQueue"
+- "T@\"NSString\",&,N,V_languageIdentifier"
+- "T@\"NSString\",C,N,V_guessedRegionOverride"
+- "T@\"NSString\",R,C"
+- "T@,&,N,V_data"
+- "T@?,C,N,V_regionDetectionCompletionHandler"
+- "TB,N,V_cycle"
+- "TB,N,V_fakeMode"
+- "TB,N,V_mergeDuplicates"
+- "TB,N,V_randomize"
+- "TB,N,V_rankingUsesGuessedRegion"
+- "TB,N,V_rankingUsesPreferredLanguages"
+- "TB,N,V_regionDetectionComplete"
+- "TB,N,V_regionDetectionStarted"
+- "TB,N,V_weightedRepetition"
+- "TQ,N,V_numberOfWiFiScanAttemptsRemaining"
+- "TQ,N,V_queueIndex"
+- "UTF8String"
+- "^{__WiFiDeviceClient=}"
+- "^{__WiFiManagerClient=}"
+- "_ICUdisplayNameForLanguage:capitalization:"
+- "_addLikelySubtagsForLocaleIdentifier:"
+- "_availableRegionsOfType:"
+- "_callRegionDetectionCompletionHandler"
+- "_checkForAliases:"
+- "_checkForAliasesOrInvalid:"
+- "_checkedArrayForString:"
+- "_closeWifiConnection"
+- "_containingRegionOfType:forRegion:"
+- "_countryFromTelephony"
+- "_cycle"
+- "_data"
+- "_deviceLanguage"
+- "_deviceLanguages"
+- "_dispatchQueue"
+- "_displayNameForLanguage:displayLanguage:context:length:"
+- "_displayNameForNormalizedLanguage:context:displayLanguage:length:"
+- "_displayNameForNormalizedLanguage:context:displayLanguage:length:isCalcium:"
+- "_displayNameForRegion:displayLanguage:context:short:"
+- "_fakeMode"
+- "_firstGuessedLanguages"
+- "_getWifiDevice"
+- "_globalPreferredLanguages"
+- "_guessedCountries"
+- "_guessedCountryFromTelephony"
+- "_guessedRegion"
+- "_guessedRegionOverride"
+- "_items"
+- "_itemsWithMergedDuplicates:"
+- "_languageIdentifier"
+- "_languagesForRegion:subdivision:withThreshold:"
+- "_languagesToExemplarStrings"
+- "_locale:hasCommonParentWith:"
+- "_mergeDuplicates"
+- "_minimizeSubtagsForLocaleIdentifier:"
+- "_normalizedLanguageIdentifierFromString:"
+- "_numberOfWiFiScanAttemptsRemaining"
+- "_parentLocaleIdentifierForIdentifier:"
+- "_parentLocaleIdentifiersForIdentifier:"
+- "_queue"
+- "_queueIndex"
+- "_randomize"
+- "_rankedItems:usePreferredLanguages:guessedRegion:"
+- "_rankingUsesGuessedRegion"
+- "_rankingUsesPreferredLanguages"
+- "_regionDetectionComplete"
+- "_regionDetectionCompletionHandler"
+- "_regionDetectionDidComplete"
+- "_regionDetectionObserver"
+- "_regionDetectionStarted"
+- "_regionLanguageData"
+- "_regionLanguageDataForRegionCode:subdivisionCode:"
+- "_reloadQueue"
+- "_scanComplete:error:"
+- "_scanWifiList"
+- "_scanWifiListWithDevice:"
+- "_serialQueue"
+- "_shouldItalicize"
+- "_startRegionDetectionIfNeeded"
+- "_startWifiScan"
+- "_supportedKeyboardLanguages"
+- "_validCountries"
+- "_weightedRepetition"
+- "_wirelessScanStartDate"
+- "abbreviationsForLanguages:minimizeVariants:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserverForName:object:queue:usingBlock:"
+- "allItems"
+- "allKeys"
+- "allObjects"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithCapacity:"
+- "arrayWithObject:"
+- "arrayWithObjects:count:"
+- "availableContinents"
+- "availableLocaleIdentifiers"
+- "availableNumberingSystems"
+- "availableSpokenLanguages"
+- "baseLanguageFromLanguage:"
+- "baseSystemLanguages"
+- "bundle"
+- "bundleForClass:"
+- "canonicalLanguageIdentifierFromString:"
+- "canonicalLocaleIdentifierFromString:"
+- "characterAtIndex:"
+- "compare:"
+- "componentsFromLocaleIdentifier:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "containingContinentOfRegion:"
+- "containingRegionOfRegion:"
+- "containsObject:"
+- "copy"
+- "copyMobileCountryCode:error:"
+- "copyMobileSubscriberIsoCountryCode:error:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countForObject:"
+- "countryCode"
+- "countryCodeTopLevelDomainsUsingPunycode:"
+- "cycle"
+- "data"
+- "date"
+- "dateFormatFromTemplate:options:locale:"
+- "dealloc"
+- "defaultCenter"
+- "description"
+- "deviceLanguage"
+- "dictionary"
+- "dispatchQueue"
+- "displayNameForLanguage:displayLanguage:context:"
+- "displayNameForRegion:displayLanguage:context:short:"
+- "enumerateSubstringsInRange:options:usingBlock:"
+- "exemplarForLanguage:"
+- "exemplarRegionForLanguage:"
+- "fWifiDevice"
+- "fWifiManager"
+- "fakeMode"
+- "firstGuessedLanguages"
+- "firstObject"
+- "floatValue"
+- "getCharacters:range:"
+- "getCountryFromTelephony"
+- "getSubscriptionInfoWithError:"
+- "guessedCountries"
+- "guessedCountryFromTelephony"
+- "guessedLanguages"
+- "guessedRegionOverride"
+- "indexOfObjectPassingTest:"
+- "init"
+- "initWithBytes:length:encoding:"
+- "initWithCharacters:length:"
+- "initWithItems:"
+- "initWithItems:regionDetectionCompletionHandler:"
+- "initWithLanguageIdentifier:data:"
+- "initWithLocale:data:"
+- "initWithObjects:"
+- "initWithQueue:"
+- "intersectsSet:"
+- "isEqual:"
+- "isEqualToString:"
+- "isEquivalentTo:"
+- "isOnCalciumDevice"
+- "items"
+- "keysSortedByValueUsingComparator:"
+- "languageCode"
+- "languageFromLanguage:byReplacingRegion:"
+- "languagesByAddingRelatedLanguagesToLanguages:"
+- "languagesForRegion:subdivision:withThreshold:filter:"
+- "lastObject"
+- "length"
+- "locale"
+- "localeIdentifier"
+- "localeIdentifierFromComponents:"
+- "localeWithLocaleIdentifier:"
+- "localizations"
+- "localizedStringForKey:value:table:localization:"
+- "localizedStringForLanguage:context:"
+- "localizedStringForLanguage:context:length:"
+- "localizedStringForNumberingSystem:short:"
+- "localizedStringForRegion:context:short:"
+- "localizedStringInDeviceLanguageForKey:"
+- "lowercaseString"
+- "mainBundle"
+- "mainQueue"
+- "matchedLanguagesFromAvailableLanguages:forPreferredLanguages:"
+- "mergeDuplicates"
+- "minimizedLanguagesFromLanguages:"
+- "minusSet:"
+- "mostPreferredLanguageOf:withPreferredLanguages:forUsage:options:"
+- "mutableCopy"
+- "nextItem"
+- "numberOfWiFiScanAttemptsRemaining"
+- "numberingSystem"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "orderedSet"
+- "orderedSetWithArray:"
+- "orderedSetWithCapacity:"
+- "persistentDomainForName:"
+- "positionOfDayPeriodInFormattedTime"
+- "postNotificationName:object:"
+- "preferredLanguages"
+- "preferredLocalizations"
+- "preferredLocalizationsFromArray:forPreferences:"
+- "q16@0:8"
+- "queue"
+- "queueIndex"
+- "randomize"
+- "rankedItemsFromItems:usingSystemLanguages:preferredLanguages:region:"
+- "rankingUsesGuessedRegion"
+- "rankingUsesPreferredLanguages"
+- "regionCode"
+- "regionDetectionComplete"
+- "regionDetectionCompletionHandler"
+- "regionDetectionObserver"
+- "regionDetectionStarted"
+- "regionsForLanguage:withThreshold:"
+- "relatedLanguagesForLanguage:"
+- "reloadQueue"
+- "removeLastObject"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsInArray:"
+- "removeObserver:"
+- "replaceObjectsInRange:withObjectsFromArray:"
+- "reset"
+- "reverseObjectEnumerator"
+- "scriptCode"
+- "scriptCodeFromLanguage:"
+- "serialQueue"
+- "setCycle:"
+- "setData:"
+- "setDispatchQueue:"
+- "setFakeMode:"
+- "setFirstGuessedLanguages:"
+- "setGuessedCountries:"
+- "setGuessedRegionOverride:"
+- "setItems:"
+- "setLanguageIdentifier:"
+- "setLocale:"
+- "setMergeDuplicates:"
+- "setNumberOfWiFiScanAttemptsRemaining:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setQueue:"
+- "setQueueIndex:"
+- "setRandomize:"
+- "setRankingUsesGuessedRegion:"
+- "setRankingUsesPreferredLanguages:"
+- "setRegionDetectionComplete:"
+- "setRegionDetectionCompletionHandler:"
+- "setRegionDetectionObserver:"
+- "setRegionDetectionStarted:"
+- "setSerialQueue:"
+- "setWeightedRepetition:"
+- "setWirelessScanStartDate:"
+- "setWithArray:"
+- "sharedRegionDetector"
+- "spokenLanguagesForLanguage:"
+- "spokenLanguagesForLanguages:includeLanguagesForRegion:"
+- "standardUserDefaults"
+- "stringByAppendingFormat:"
+- "stringByAppendingString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromNumber:"
+- "stringWithCString:encoding:"
+- "stringWithCharacters:length:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "subscriptionsInUse"
+- "supportedLanguages"
+- "supportedRegions"
+- "systemLanguages"
+- "uppercaseString"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8^{__WiFiDeviceClient=}16"
+- "v28@0:8@16B24"
+- "valueForKey:"
+- "weightedRepetition"
+- "wirelessScanStartDate"
+
+```

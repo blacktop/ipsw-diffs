@@ -1,0 +1,1016 @@
+## DaemonUtils
+
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/DaemonUtils.framework/DaemonUtils`
+
+```diff
+
+-2005.120.18.0.0
+-  __TEXT.__text: 0xb70c
+-  __TEXT.__auth_stubs: 0x510
+-  __TEXT.__objc_methlist: 0x1518
+-  __TEXT.__const: 0x178
+-  __TEXT.__cstring: 0x6fd
+-  __TEXT.__oslogstring: 0xab6
+-  __TEXT.__gcc_except_tab: 0x150
+-  __TEXT.__unwind_info: 0x4d8
+-  __TEXT.__objc_classname: 0x2e4
+-  __TEXT.__objc_methname: 0x2c67
+-  __TEXT.__objc_methtype: 0x864
+-  __TEXT.__objc_stubs: 0x23e0
+-  __DATA_CONST.__got: 0x280
+-  __DATA_CONST.__const: 0x240
+-  __DATA_CONST.__objc_classlist: 0xa8
++2305.0.0.0.1
++  __TEXT.__text: 0x8d64
++  __TEXT.__objc_methlist: 0x1278
++  __TEXT.__const: 0x168
++  __TEXT.__cstring: 0x597
++  __TEXT.__oslogstring: 0x9d3
++  __TEXT.__gcc_except_tab: 0xc4
++  __TEXT.__unwind_info: 0x3b0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1c8
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x58
++  __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc10
++  __DATA_CONST.__objc_selrefs: 0xb00
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x90
+-  __DATA_CONST.__objc_arraydata: 0x48
+-  __AUTH_CONST.__auth_got: 0x298
+-  __AUTH_CONST.__const: 0x2e0
+-  __AUTH_CONST.__cfstring: 0x6c0
+-  __AUTH_CONST.__objc_const: 0x34b8
+-  __AUTH_CONST.__objc_intobj: 0x150
+-  __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x188
+-  __DATA.__data: 0x420
+-  __DATA.__bss: 0x60
+-  __DATA_DIRTY.__objc_data: 0x5f0
+-  __DATA_DIRTY.__bss: 0x110
++  __DATA_CONST.__objc_superrefs: 0x58
++  __DATA_CONST.__objc_arraydata: 0x30
++  __DATA_CONST.__got: 0x210
++  __AUTH_CONST.__const: 0x240
++  __AUTH_CONST.__cfstring: 0x620
++  __AUTH_CONST.__objc_const: 0x2b20
++  __AUTH_CONST.__objc_intobj: 0xd8
++  __AUTH_CONST.__objc_arrayobj: 0x30
++  __AUTH_CONST.__auth_got: 0x2c0
++  __DATA.__objc_ivar: 0x160
++  __DATA.__data: 0x3c0
++  __DATA.__bss: 0x50
++  __DATA_DIRTY.__objc_data: 0x410
++  __DATA_DIRTY.__bss: 0xd0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A844991-6938-38BC-BE73-CF1188C9BDBC
+-  Functions: 423
+-  Symbols:   1714
+-  CStrings:  912
++  UUID: 23AAD22D-4F0B-30D9-8E2B-E3B75F9191E1
++  Functions: 350
++  Symbols:   1444
++  CStrings:  168
+ 
+Symbols:
++ -[EvaluationRequest shallowCopyWithAdditionalOptions:]
++ ___block_literal_global.129
++ ___block_literal_global.202
++ ___block_literal_global.88
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$localizedName
++ _objc_msgSend$localizedShortName
++ _objc_msgSend$shallowCopy
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x27
++ _objc_retain_x28
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x8
+- +[PreflightCache sharedInstance]
+- +[PreflightCache sharedInstance].cold.1
+- +[PreflightCacheInvalidationSource voidInvalidationSource]
+- +[PreflightCacheInvalidationSource voidInvalidationSource].cold.1
+- -[BiometryLockoutInvalidationSource initWithPreflightCache:]
+- -[BiometryLockoutInvalidationSource invalidationReason]
+- -[BiometryLockoutInvalidationSource updateStatus]
+- -[DarwinNotificationInvalidationSource .cxx_destruct]
+- -[DarwinNotificationInvalidationSource dealloc]
+- -[DarwinNotificationInvalidationSource initWithPreflightCache:notificationName:]
+- -[DarwinNotificationInvalidationSource initWithPreflightCache:notificationName:].cold.1
+- -[DarwinNotificationInvalidationSource initWithPreflightCache:notificationName:].cold.2
+- -[DarwinNotificationInvalidationSource invalidationReason]
+- -[DarwinNotificationInvalidationSource notificationName]
+- -[EvaluationRequest isPurposeSecureUIRecording]
+- -[NotificationCenterInvalidationSource .cxx_destruct]
+- -[NotificationCenterInvalidationSource _notification:]
+- -[NotificationCenterInvalidationSource dealloc]
+- -[NotificationCenterInvalidationSource initWithPreflightCache:notificationName:]
+- -[NotificationCenterInvalidationSource invalidationReason]
+- -[NotificationCenterInvalidationSource notificationName]
+- -[PasscodeInvalidationSource configurationDidReceivePasscodeChangedNotification:userInfo:]
+- -[PasscodeInvalidationSource dealloc]
+- -[PasscodeInvalidationSource initWithPreflightCache:]
+- -[PasscodeInvalidationSource invalidationReason]
+- -[PasscodeInvalidationSource updateStatus]
+- -[PreflightCache .cxx_destruct]
+- -[PreflightCache _isCacheable:callerUid:]
+- -[PreflightCache _isPolicyCacheable:]
+- -[PreflightCache acquireBypassAssertionWithReason:]
+- -[PreflightCache addPreflightResult:forKey:]
+- -[PreflightCache addPreflightResult:forKey:].cold.1
+- -[PreflightCache cachedPreflightResultForKey:]
+- -[PreflightCache cachedPreflightResultForKey:].cold.1
+- -[PreflightCache dropAssertion:]
+- -[PreflightCache init]
+- -[PreflightCache invalidateWithReason:]
+- -[PreflightCache keyForPreflightOfACL:operation:options:auditToken:uid:]
+- -[PreflightCache keyForPreflightOfPolicy:options:auditToken:uid:]
+- -[PreflightCacheAssertion .cxx_destruct]
+- -[PreflightCacheAssertion cache]
+- -[PreflightCacheAssertion dealloc]
+- -[PreflightCacheAssertion description]
+- -[PreflightCacheAssertion drop]
+- -[PreflightCacheAssertion initWithReason:cache:]
+- -[PreflightCacheAssertion reason]
+- -[PreflightCacheAssertion setReason:]
+- -[PreflightCacheInvalidationSource .cxx_destruct]
+- -[PreflightCacheInvalidationSource cache]
+- -[PreflightCacheInvalidationSource handleNotificationInServerQueue]
+- -[PreflightCacheInvalidationSource handleNotificationWithCompletion:]
+- -[PreflightCacheInvalidationSource initWithPreflightCache:]
+- -[PreflightCacheInvalidationSource invalidationReason]
+- -[PreflightCacheInvalidationSource setStatus:]
+- -[PreflightCacheInvalidationSource status]
+- -[PreflightCacheInvalidationSource updateStatus]
+- GCC_except_table4
+- _LACPolicyOptionSecureUIRecording
+- _NSCurrentLocaleDidChangeNotification
+- _NSStringFromClass
+- _OBJC_CLASS_$_BiometryLockoutInvalidationSource
+- _OBJC_CLASS_$_DarwinNotificationInvalidationSource
+- _OBJC_CLASS_$_LACManagedConfiguration
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NotificationCenterInvalidationSource
+- _OBJC_CLASS_$_PasscodeInvalidationSource
+- _OBJC_CLASS_$_PreflightCache
+- _OBJC_CLASS_$_PreflightCacheAssertion
+- _OBJC_CLASS_$_PreflightCacheBypassAssertion
+- _OBJC_CLASS_$_PreflightCacheInvalidationSource
+- _OBJC_IVAR_$_DarwinNotificationInvalidationSource._notificationName
+- _OBJC_IVAR_$_DarwinNotificationInvalidationSource._token
+- _OBJC_IVAR_$_NotificationCenterInvalidationSource._notificationName
+- _OBJC_IVAR_$_PreflightCache._bypassAssertions
+- _OBJC_IVAR_$_PreflightCache._cache
+- _OBJC_IVAR_$_PreflightCache._invalidationSources
+- _OBJC_IVAR_$_PreflightCacheAssertion._cache
+- _OBJC_IVAR_$_PreflightCacheAssertion._reason
+- _OBJC_IVAR_$_PreflightCacheInvalidationSource._cache
+- _OBJC_IVAR_$_PreflightCacheInvalidationSource._status
+- _OBJC_METACLASS_$_BiometryLockoutInvalidationSource
+- _OBJC_METACLASS_$_DarwinNotificationInvalidationSource
+- _OBJC_METACLASS_$_NotificationCenterInvalidationSource
+- _OBJC_METACLASS_$_PasscodeInvalidationSource
+- _OBJC_METACLASS_$_PreflightCache
+- _OBJC_METACLASS_$_PreflightCacheAssertion
+- _OBJC_METACLASS_$_PreflightCacheBypassAssertion
+- _OBJC_METACLASS_$_PreflightCacheInvalidationSource
+- _PreflightCacheCapacity
+- __OBJC_$_CLASS_METHODS_PreflightCache
+- __OBJC_$_CLASS_METHODS_PreflightCacheInvalidationSource
+- __OBJC_$_INSTANCE_METHODS_BiometryLockoutInvalidationSource
+- __OBJC_$_INSTANCE_METHODS_DarwinNotificationInvalidationSource
+- __OBJC_$_INSTANCE_METHODS_NotificationCenterInvalidationSource
+- __OBJC_$_INSTANCE_METHODS_PasscodeInvalidationSource
+- __OBJC_$_INSTANCE_METHODS_PreflightCache
+- __OBJC_$_INSTANCE_METHODS_PreflightCacheAssertion
+- __OBJC_$_INSTANCE_METHODS_PreflightCacheInvalidationSource
+- __OBJC_$_INSTANCE_VARIABLES_DarwinNotificationInvalidationSource
+- __OBJC_$_INSTANCE_VARIABLES_NotificationCenterInvalidationSource
+- __OBJC_$_INSTANCE_VARIABLES_PreflightCache
+- __OBJC_$_INSTANCE_VARIABLES_PreflightCacheAssertion
+- __OBJC_$_INSTANCE_VARIABLES_PreflightCacheInvalidationSource
+- __OBJC_$_PROP_LIST_DarwinNotificationInvalidationSource
+- __OBJC_$_PROP_LIST_NotificationCenterInvalidationSource
+- __OBJC_$_PROP_LIST_PasscodeInvalidationSource
+- __OBJC_$_PROP_LIST_PreflightCacheAssertion
+- __OBJC_$_PROP_LIST_PreflightCacheInvalidationSource
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LACManagedConfigurationObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LACManagedConfigurationObserver
+- __OBJC_$_PROTOCOL_REFS_LACManagedConfigurationObserver
+- __OBJC_CLASS_PROTOCOLS_$_PasscodeInvalidationSource
+- __OBJC_CLASS_RO_$_BiometryLockoutInvalidationSource
+- __OBJC_CLASS_RO_$_DarwinNotificationInvalidationSource
+- __OBJC_CLASS_RO_$_NotificationCenterInvalidationSource
+- __OBJC_CLASS_RO_$_PasscodeInvalidationSource
+- __OBJC_CLASS_RO_$_PreflightCache
+- __OBJC_CLASS_RO_$_PreflightCacheAssertion
+- __OBJC_CLASS_RO_$_PreflightCacheBypassAssertion
+- __OBJC_CLASS_RO_$_PreflightCacheInvalidationSource
+- __OBJC_LABEL_PROTOCOL_$_LACManagedConfigurationObserver
+- __OBJC_METACLASS_RO_$_BiometryLockoutInvalidationSource
+- __OBJC_METACLASS_RO_$_DarwinNotificationInvalidationSource
+- __OBJC_METACLASS_RO_$_NotificationCenterInvalidationSource
+- __OBJC_METACLASS_RO_$_PasscodeInvalidationSource
+- __OBJC_METACLASS_RO_$_PreflightCache
+- __OBJC_METACLASS_RO_$_PreflightCacheAssertion
+- __OBJC_METACLASS_RO_$_PreflightCacheBypassAssertion
+- __OBJC_METACLASS_RO_$_PreflightCacheInvalidationSource
+- __OBJC_PROTOCOL_$_LACManagedConfigurationObserver
+- ___32+[PreflightCache sharedInstance]_block_invoke
+- ___41-[PreflightCache _isCacheable:callerUid:]_block_invoke
+- ___58+[PreflightCacheInvalidationSource voidInvalidationSource]_block_invoke
+- ___69-[PreflightCacheInvalidationSource handleNotificationWithCompletion:]_block_invoke
+- ___80-[DarwinNotificationInvalidationSource initWithPreflightCache:notificationName:]_block_invoke
+- ___block_descriptor_40_e8_32w_e8_v12?0i8lw32l8
+- ___block_descriptor_44_e8_32s_e5_I8?0ls32l8
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_literal_global.130
+- ___block_literal_global.131
+- ___block_literal_global.195
+- ___block_literal_global.56
+- ___block_literal_global.89
+- _notify_cancel
+- _notify_register_dispatch
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_isCacheable:callerUid:
+- _objc_msgSend$_isPolicyCacheable:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$cache
+- _objc_msgSend$code
+- _objc_msgSend$count
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$dispatchOnServer:
+- _objc_msgSend$domain
+- _objc_msgSend$drop
+- _objc_msgSend$dropAssertion:
+- _objc_msgSend$handleNotificationInServerQueue
+- _objc_msgSend$handleNotificationWithCompletion:
+- _objc_msgSend$initSimulatedForBiolockoutPreflight
+- _objc_msgSend$initWithPreflightCache:
+- _objc_msgSend$initWithPreflightCache:notificationName:
+- _objc_msgSend$initWithReason:cache:
+- _objc_msgSend$invalidateWithReason:
+- _objc_msgSend$invalidationReason
+- _objc_msgSend$isLockedOutForUser:request:error:
+- _objc_msgSend$isPasscodeSet
+- _objc_msgSend$notificationName
+- _objc_msgSend$reason
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$setCountLimit:
+- _objc_msgSend$setStatus:
+- _objc_msgSend$status
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$updateStatus
+- _objc_msgSend$voidInvalidationSource
+- _objc_msgSend$weakObjectsHashTable
+- _objc_setProperty_nonatomic_copy
+- _sharedInstance.sharedInstace
+- _voidInvalidationSource.onceToken
+- _voidInvalidationSource.voidInvalidationSource
+CStrings:
++ "PearlIDCapability"
+- ""
+- "#16@0:8"
+- "%s biometric lockout"
+- ".cxx_destruct"
+- "8olRm6C1xqr7AJGpLRnpSw"
+- "<%@ %p: %@>"
+- "@"
+- "@\"<BSInvalidatable>\""
+- "@\"<LACContextCallbackXPC>\""
+- "@\"<LACDTOEnvironment>\""
+- "@\"<LACDTOEnvironmentProviding>\""
+- "@\"<LACDTOEnvironmentProviding>\"16@0:8"
+- "@\"<LACDTOFeatureControlling>\"16@0:8"
+- "@\"<LACDTOPendingPolicyEvaluationController>\"16@0:8"
+- "@\"<LACDTORatchetStateProvider>\"16@0:8"
+- "@\"<LACDTOService>\""
+- "@\"<LACDTOServiceXPC>\"16@0:8"
+- "@\"<LACEvaluationRequest>\"16@0:8"
+- "@\"<LACEvaluationRequestProcessor>\"16@0:8"
+- "@\"<LACServiceLocator>\""
+- "@\"<LACXPCClient>\""
+- "@\"<LACXPCClient>\"16@0:8"
+- "@\"<PushButtonDelegate>\""
+- "@\"Caller\""
+- "@\"EvaluationRequest\""
+- "@\"LAAnalyticsDTO\""
+- "@\"LAAnalyticsEvaluation\""
+- "@\"LACAnalyticsData\""
+- "@\"LACAnalyticsData\"16@0:8"
+- "@\"LACClientInfo\""
+- "@\"LACClientInfo\"16@0:8"
+- "@\"NSArray\""
+- "@\"NSCache\""
+- "@\"NSData\""
+- "@\"NSData\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSError\""
+- "@\"NSError\"16@0:8"
+- "@\"NSHashTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@\"NSUUID\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@\"PreflightCache\""
+- "@\"SBSBiometricsService\""
+- "@\"SBSHardwareButtonService\""
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8i16B20"
+- "@24@0:8q16"
+- "@28@0:8i16^@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16r*24"
+- "@36@0:8I16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8q16@24@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32Q40"
+- "@48@0:8q16@24@32@40"
+- "@52@0:8i16{?=[8I]}20"
+- "@56@0:8@16@24@32@40@48"
+- "@60@0:8i16{?=[8I]}20^@52"
+- "@64@0:8q16q24@32@40Q48@56"
+- "@68@0:8q16@24{?=[8I]}32I64"
+- "@76@0:8@16@24@32{?=[8I]}40I72"
+- "@?"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B24@0:8q16"
+- "B28@0:8@16I24"
+- "B48@0:8{?=[8I]}16"
+- "BiometryHelper"
+- "BiometryLockoutInvalidationSource"
+- "Created %@"
+- "DaemonUtils"
+- "DarwinNotificationInvalidationSource"
+- "DomainStateRequest"
+- "Dropped %@"
+- "EvaluationRequest"
+- "Failed to register for kMobileKeyBagLockStatusNotificationID: %u"
+- "I"
+- "I16@0:8"
+- "I8@?0"
+- "InstalledAppsCache"
+- "Invalidating preflight cache (%{public}@)"
+- "LAAnalytics"
+- "LAAnalyticsDTO"
+- "LAAnalyticsEvaluation"
+- "LAAnalyticsPasscodeFallbackPeriod"
+- "LACClientRequest"
+- "LACDTOPendingPolicyEvaluationControllerObserver"
+- "LACDTOService"
+- "LACDomainStateRequest"
+- "LACEvaluationAnalytics"
+- "LACEvaluationRequest"
+- "LACManagedConfigurationObserver"
+- "LACRequest"
+- "LACStorageRequest"
+- "Merge"
+- "NSObject"
+- "NotificationCenterInvalidationSource"
+- "PasscodeInvalidationSource"
+- "PreflightCache"
+- "PreflightCacheAssertion"
+- "PreflightCacheBypassAssertion"
+- "PreflightCacheInvalidationSource"
+- "PushButtonMonitor"
+- "Q"
+- "Q16@0:8"
+- "Queried preflight cache for %@: %{public}@[%d]"
+- "SBSHardwareButtonEventConsuming"
+- "StorageRequest"
+- "T#,R"
+- "T@\"<LACContextCallbackXPC>\",&,N,V_callback"
+- "T@\"<LACDTOEnvironment>\",&,N,V_dtoEnvironment"
+- "T@\"<LACDTOEnvironmentProviding>\",R,N"
+- "T@\"<LACDTOFeatureControlling>\",R,N"
+- "T@\"<LACDTOPendingPolicyEvaluationController>\",R,N"
+- "T@\"<LACDTORatchetStateProvider>\",R,N"
+- "T@\"<LACDTOServiceXPC>\",R,N"
+- "T@\"<LACServiceLocator>\",&,N,V_serviceLocator"
+- "T@\"<LACXPCClient>\",&,N,V_client"
+- "T@\"<LACXPCClient>\",R,N"
+- "T@\"<LACXPCClient>\",W,N,V_client"
+- "T@\"<PushButtonDelegate>\",W,N,V_delegate"
+- "T@\"Caller\",R,N,V_caller"
+- "T@\"EvaluationRequest\",R,W,N,V_request"
+- "T@\"LAAnalyticsDTO\",&,N,V_dtoAnalytics"
+- "T@\"LAAnalyticsEvaluation\",&,N,V_analytics"
+- "T@\"LACAnalyticsData\",&,N"
+- "T@\"LACAnalyticsData\",&,N,VanalyticsData"
+- "T@\"LACClientInfo\",&,N,V_clientInfo"
+- "T@\"LACClientInfo\",R,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSData\",&,N"
+- "T@\"NSData\",&,N,V_acl"
+- "T@\"NSData\",&,N,V_externalizedContext"
+- "T@\"NSData\",R,N"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_received"
+- "T@\"NSDictionary\",&,N,V_options"
+- "T@\"NSDictionary\",&,N,V_payload"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_options"
+- "T@\"NSError\",&,N"
+- "T@\"NSError\",&,N,V_retryingForError"
+- "T@\"NSMutableArray\",W,N,V_storage"
+- "T@\"NSMutableSet\",&,N,V_pausedEvents"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N"
+- "T@\"NSObject<OS_os_log>\",&,N,V_log"
+- "T@\"NSString\",&,N,V_dtoRequestIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_reason"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_eventName"
+- "T@\"NSString\",R,N,V_notificationName"
+- "T@\"NSUUID\",&,N,V_contextID"
+- "T@\"NSUUID\",R,N"
+- "T@\"NSUUID\",R,N,V_contextID"
+- "T@\"NSXPCConnection\",R,W,N,V_connection"
+- "T@\"PreflightCache\",R,W,N,V_cache"
+- "T@,&,N,V_aclOperation"
+- "T@,R,N"
+- "TB,N"
+- "TB,N,GisImmediateSuccess"
+- "TB,N,GisImmediateSuccess,VimmediateSuccess"
+- "TB,N,V_allowsMultipleCollections"
+- "TB,N,V_axDoubleTapDetected"
+- "TB,N,V_customUI"
+- "TB,N,V_doubleTapDetected"
+- "TB,N,V_status"
+- "TB,R,N"
+- "TB,R,N,V_biometryStarted"
+- "TB,R,N,V_passcodeStarted"
+- "TB,R,N,V_wasSent"
+- "TI,N,V_evaluationUserId"
+- "TI,R,N"
+- "TI,R,N,V_euid"
+- "TI,R,N,V_identifier"
+- "TQ,N,V_originatorId"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_originatorId"
+- "Ti,R,N,V_asid"
+- "Ti,R,N,V_pid"
+- "Tq,N,V_policy"
+- "Tq,N,V_purpose"
+- "Tq,R,N"
+- "Tq,R,N,V_authenticationTypes"
+- "Tq,R,N,V_biometryAttempts"
+- "Tq,R,N,V_biometryFailures"
+- "Tq,R,N,V_biometryNoMatches"
+- "Tq,R,N,V_biometryResult"
+- "Tq,R,N,V_biometryType"
+- "Tq,R,N,V_continuity"
+- "Tq,R,N,V_domain"
+- "Tq,R,N,V_key"
+- "Tq,R,N,V_passcodeAttempts"
+- "Tq,R,N,V_passcodeCount"
+- "Tq,R,N,V_passcodeFailures"
+- "Tq,R,N,V_passcodeResult"
+- "Tq,R,N,V_policy"
+- "Tq,R,N,V_policyGroup"
+- "Tq,R,N,V_policyResult"
+- "Tq,R,N,V_ratchetResult"
+- "Tq,R,N,V_result"
+- "T{?=[8I]},R,N,V_auditToken"
+- "UTF8String"
+- "Vv16@0:8"
+- "Will cache preflight result for %@: %{public}@[%d]"
+- "^{_NSZone=}16@0:8"
+- "_acl"
+- "_aclOperation"
+- "_allowsMultipleCollections"
+- "_analytics"
+- "_asid"
+- "_auditToken"
+- "_authenticationStartedForEvent:continuity:"
+- "_authenticationTypes"
+- "_axDoubleTapDetected"
+- "_axDoubleTapExpirationBlock"
+- "_biometryAttempt:"
+- "_biometryAttempts"
+- "_biometryFailures"
+- "_biometryNoMatches"
+- "_biometryResult"
+- "_biometryStarted"
+- "_biometrySuccessTime"
+- "_biometryType"
+- "_bypassAssertions"
+- "_cache"
+- "_callback"
+- "_caller"
+- "_checkStatusWithEnvironment:"
+- "_checkStatusWithReason:"
+- "_client"
+- "_clientInfo"
+- "_collect"
+- "_connection"
+- "_consumeDoubleTapWithReason:includingAX:"
+- "_contextID"
+- "_continuity"
+- "_continuityEvent"
+- "_coolDownTimeInterval"
+- "_coolOffStarted"
+- "_customUI"
+- "_defaultExpirationTimeout"
+- "_delegate"
+- "_domain"
+- "_doubleTapDetected"
+- "_dtoAnalytics"
+- "_dtoEnvironment"
+- "_dtoRequestIdentifier"
+- "_dtoResultFromLACResult:error:locationState:"
+- "_dtoService"
+- "_environment"
+- "_environmentProvider"
+- "_euid"
+- "_evaluationFinished"
+- "_evaluationSuccessful"
+- "_evaluationUserId"
+- "_eventForLocationState:familiarLocationEvent:familiarLocationWithoutFullConfirmationEvent:unfamiliarLocationEvent:"
+- "_eventName"
+- "_expireDoubleTap:"
+- "_externalizedContext"
+- "_heldObjects"
+- "_identifier"
+- "_init"
+- "_invalidationSources"
+- "_isCacheable:callerUid:"
+- "_isLocationBasedPolicyEvaluation"
+- "_isNonUiExtensionPointIdentifier:"
+- "_isPolicyCacheable:"
+- "_isRatchetArmingEvaluation"
+- "_isRatchetCollapsed"
+- "_key"
+- "_lastDoubleTap"
+- "_lastTap"
+- "_log"
+- "_monitoringInterval"
+- "_notification:"
+- "_notificationName"
+- "_options"
+- "_originatorId"
+- "_passcodeAccepted:"
+- "_passcodeAttempts"
+- "_passcodeCount"
+- "_passcodeFailures"
+- "_passcodePresentedTime"
+- "_passcodeResult"
+- "_passcodeStarted"
+- "_path"
+- "_pausedEvents"
+- "_payload"
+- "_persistedInstancesStorage"
+- "_pid"
+- "_policy"
+- "_policyGroup"
+- "_policyResult"
+- "_powerButtonObserver"
+- "_purpose"
+- "_ratchetResult"
+- "_reason"
+- "_received"
+- "_request"
+- "_restartWithReactivationDelay:"
+- "_result"
+- "_retryingForError"
+- "_sbBiometricsService"
+- "_sbHardwareButtonService"
+- "_scheduleDoubleTapExpiration"
+- "_serviceLocator"
+- "_setupStatusMonitoring"
+- "_stateWithEnvironment:"
+- "_status"
+- "_storage"
+- "_token"
+- "_uid"
+- "_updateDTOStatus"
+- "_wasSent"
+- "acl"
+- "aclOperation"
+- "acquireBypassAssertionWithReason:"
+- "acquireWalletPreArmSuppressionAssertionForReason:completion:"
+- "activePersistentInstances"
+- "addEntriesFromDictionary:"
+- "addObject:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addPreflightResult:forKey:"
+- "adviseDoubleTap"
+- "allowsMultipleCollections"
+- "analytics"
+- "analyticsData"
+- "appNameForPid:bundleId:"
+- "arrayWithObjects:count:"
+- "asid"
+- "auditSessionIdentifier"
+- "auditToken"
+- "auditTokenData"
+- "authenticationAttempt:event:"
+- "authenticationHasEvent:"
+- "authenticationResult:event:"
+- "authenticationStartedForEvent:"
+- "autorelease"
+- "axApplePayConfirmation"
+- "axDoubleTapDetected"
+- "beginConsumingPressesForButtonKind:eventConsumer:priority:"
+- "binaryNameForPid:"
+- "biometryStarted"
+- "biometrySucceededWithEvaluationRequest:"
+- "biometryType:"
+- "boolValue"
+- "buildPayload"
+- "bundleId"
+- "bundleIdentifier"
+- "bundlePathForPid:stripXPCService:"
+- "bundleRecordForAuditToken:error:"
+- "bytes"
+- "cache"
+- "cachedPreflightResultForKey:"
+- "callStackSymbols"
+- "callback"
+- "caller"
+- "callerDisplayNameWithPid:auditToken:bundleId:"
+- "callerIdWithPid:auditToken:"
+- "callerIsAllowedNonUiExtension:"
+- "canCallToDependencies"
+- "class"
+- "client"
+- "clientInfo"
+- "code"
+- "collectIfNeeded"
+- "com.apple.BiometricKit.connectedAccessoriesChanged"
+- "com.apple.BiometricKit.enrollmentChanged"
+- "com.apple.BiometricKit.generalLockoutStateChanged"
+- "com.apple.BiometricKit.systemProtectedConfigUpdated"
+- "com.apple.BiometricKit.userProtectedConfigUpdated"
+- "com.apple.tcc.access.changed"
+- "configurationDidReceivePasscodeChangedNotification:userInfo:"
+- "conformsToProtocol:"
+- "connection"
+- "consumeAnyPressEventForButtonKind:"
+- "consumeDoublePressDownForButtonKind:"
+- "consumeDoublePressUpForButtonKind:"
+- "consumeDoubleTapWithReason:"
+- "consumeLongPressForButtonKind:"
+- "consumeSinglePressDownForButtonKind:"
+- "consumeSinglePressUpForButtonKind:"
+- "consumeStateChange:forButtonKind:"
+- "consumeTriplePressUpForButtonKind:"
+- "containingBundleRecord"
+- "containsObject:"
+- "contextID"
+- "continuityAuthenticationStartedForEvent:"
+- "coolDownBucket"
+- "coolOffStarted"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "current"
+- "currentConnection"
+- "customUI"
+- "d16@0:8"
+- "daemonQueue"
+- "data"
+- "dataWithBytes:length:"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "delegate"
+- "description"
+- "deviceHasPearl"
+- "deviceHasSEP"
+- "deviceHasSecureDoublePressHW"
+- "deviceHasSpecialTouchID"
+- "deviceHasTouchID"
+- "deviceHasTouchIDAndSecureDoublePress"
+- "deviceIsPoseidon"
+- "deviceSupportsSecureDoubleClick"
+- "dictionaryByMerging:with:"
+- "dictionaryByMergingWith:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "dispatchOnServer:"
+- "dispatchReallyAfter:tolerance:queue:block:"
+- "dispatchSyncOnMain:"
+- "displayName"
+- "domain"
+- "doubleTapDetected"
+- "doubleTappedAt:"
+- "doubleValue"
+- "drop"
+- "dropAssertion:"
+- "dtoAnalytics"
+- "dtoEnvironment"
+- "dtoRequestIdentifier"
+- "effectiveUserIdentifier"
+- "entered"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "environment"
+- "environmentProvider"
+- "error:hasCode:"
+- "error:hasCode:subcode:"
+- "error:hasCodeFromArray:"
+- "euid"
+- "evaluationResult:"
+- "evaluationResult:error:"
+- "evaluationUserId"
+- "eventName"
+- "expirationTimeout"
+- "extensionPointRecord"
+- "externalizedContext"
+- "featureController"
+- "featureState"
+- "fetchEnvironmentForPolicy:options:completion:"
+- "filteredArrayUsingPredicate:"
+- "getValue:"
+- "handleNotificationInServerQueue"
+- "handleNotificationWithCompletion:"
+- "hasCompletedSetup"
+- "hasEntitlement:"
+- "hash"
+- "holdObject:"
+- "i16@0:8"
+- "identifier"
+- "immediateSuccess"
+- "infoForPid:"
+- "infoForXPCClient:evaluationOptions:"
+- "init"
+- "initForOneOffDTOAnalyticsWithEvaluationRequest:dtoEnvironment:"
+- "initForStatusMonitoringWithEnvironment:workQueue:"
+- "initSimulatedForBiolockoutPreflight"
+- "initWithAcl:operation:options:contextID:"
+- "initWithAcl:operation:options:uiDelegate:contextID:"
+- "initWithBundleIdentifier:error:"
+- "initWithBytes:length:encoding:"
+- "initWithCaller:"
+- "initWithConnection:"
+- "initWithEvaluationRequest:"
+- "initWithEventName:"
+- "initWithID:caller:received:"
+- "initWithOptions:client:contextID:originatorId:"
+- "initWithPolicy:options:contextID:"
+- "initWithPolicy:options:uiDelegate:contextID:"
+- "initWithPolicyGroup:"
+- "initWithPreflightCache:"
+- "initWithPreflightCache:notificationName:"
+- "initWithRawValue:"
+- "initWithReason:cache:"
+- "initWithStorageDomain:key:options:contextID:originatorId:connection:"
+- "instanceToReplaceWithWhenRemovedFromStorage"
+- "intValue"
+- "integerValue"
+- "internalErrorWithMessage:"
+- "invalidate"
+- "invalidateWithReason:"
+- "invalidationReason"
+- "isApplePayPolicy:"
+- "isAvailable"
+- "isDTOPolicy:options:"
+- "isEnabled"
+- "isEnrolled:error:"
+- "isEqual:"
+- "isEqualToAuditToken:"
+- "isEqualToAuditTokenData:"
+- "isEqualToString:"
+- "isEventPaused:"
+- "isImmediateSuccess"
+- "isInteractive"
+- "isKindOfClass:"
+- "isLockedOutForUser:request:error:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isPasscodeSet"
+- "isPasscodeSetForUser:error:"
+- "isProxy"
+- "isPurposeApplePay"
+- "isPurposeInAppPayment"
+- "isPurposeSecureUIRecording"
+- "isPurposeUnlock"
+- "isRecoveringFromBiolockout"
+- "isStrictModeEnabled"
+- "isSupported"
+- "key"
+- "keyForPreflightOfACL:operation:options:auditToken:uid:"
+- "keyForPreflightOfPolicy:options:auditToken:uid:"
+- "localRequest"
+- "localizedStringFromDate:dateStyle:timeStyle:"
+- "locationState"
+- "log"
+- "logLevel"
+- "monitor:axApplePayConfirmation:"
+- "monitor:doubleTapDetected:"
+- "mutableCopy"
+- "notificationName"
+- "now"
+- "numberFromString:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "off"
+- "on"
+- "options"
+- "originatorId"
+- "passcode was turned %s"
+- "passcodePresentedWithEvaluationRequest:biometryAttempts:"
+- "passcodeStarted"
+- "path"
+- "pathForPid:"
+- "pathFromPid:"
+- "pause:event:"
+- "pausedEvents"
+- "payload"
+- "pendingEvaluationController:updatedPendingEvaluation:"
+- "pendingEvaluationControllerDidStartTrackingPendingEvaluations:"
+- "pendingEvaluationControllerDidStopTrackingPendingEvaluations:"
+- "pendingPolicyEvaluationController"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistInStorage:"
+- "persistentDomainForName:"
+- "persistentStatusCheckTime"
+- "pid"
+- "policies"
+- "policyGroup"
+- "policyResult"
+- "prearmAssertion"
+- "predicateWithBlock:"
+- "processId"
+- "processIdentifier"
+- "processInfo"
+- "processor"
+- "purpose"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q40@0:8@16@24q32"
+- "q48@0:8q16q24q32q40"
+- "queue"
+- "raise:format:"
+- "ratchetResult"
+- "ratchetState"
+- "ratchetStateProvider"
+- "rawValue"
+- "reason"
+- "received"
+- "received %@"
+- "recovered from"
+- "release"
+- "removeAllObjects"
+- "removeFromStorage"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "request"
+- "requestFromCurrentConnection"
+- "resetPausedEvents"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "retryingForError"
+- "secondary"
+- "secureIntentRequested"
+- "self"
+- "serverQueue"
+- "serviceLocator"
+- "serviceWithIdentifier:"
+- "setAcl:"
+- "setAclOperation:"
+- "setAllowsMultipleCollections:"
+- "setAnalytics:"
+- "setAnalyticsData:"
+- "setAxDoubleTapDetected:"
+- "setCallback:"
+- "setClient:"
+- "setClientInfo:"
+- "setContextID:"
+- "setCountLimit:"
+- "setCustomUI:"
+- "setDelegate:"
+- "setDoubleTapDetected:"
+- "setDtoAnalytics:"
+- "setDtoEnvironment:"
+- "setDtoRequestIdentifier:"
+- "setEvaluationUserId:"
+- "setExternalizedContext:"
+- "setImmediateSuccess:"
+- "setLog:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptions:"
+- "setOriginatorId:"
+- "setPausedEvents:"
+- "setPayload:"
+- "setPersistentStatusCheckTime:"
+- "setPolicy:"
+- "setPurpose:"
+- "setReason:"
+- "setRetryingForError:"
+- "setSecureIntentRequested:"
+- "setServiceLocator:"
+- "setStatus:"
+- "setStorage:"
+- "shallowCopy"
+- "sharedInstance"
+- "shouldCollect"
+- "standardUserDefaults"
+- "start"
+- "startServices"
+- "startWithError:"
+- "state"
+- "status"
+- "stop"
+- "storage"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "superclass"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "unsignedIntValue"
+- "updateOptions:"
+- "updatePayload:"
+- "updateStatus"
+- "userID"
+- "userId"
+- "v12@?0i8"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v24@0:8@\"<LACDTOPendingPolicyEvaluationController>\"16"
+- "v24@0:8@\"LACAnalyticsData\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8B16q20"
+- "v28@0:8q16B24"
+- "v32@0:8@\"<LACDTOPendingPolicyEvaluationController>\"16@\"<LACDTOPendingPolicyEvaluation>\"24"
+- "v32@0:8@\"<LACManagedConfiguration>\"16@\"NSDictionary\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16q24"
+- "v32@0:8q16q24"
+- "v48@0:8q16d24@32@?40"
+- "valueForEntitlement:"
+- "valueWithBytes:objCType:"
+- "voidInvalidationSource"
+- "wasSent"
+- "weakObjectsHashTable"
+- "xpcController"
+- "zone"
+- "{?=\"val\"[8I]}"
+- "{?=[8I]}16@0:8"
+
+```

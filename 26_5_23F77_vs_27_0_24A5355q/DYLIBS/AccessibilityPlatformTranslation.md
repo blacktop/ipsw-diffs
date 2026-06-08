@@ -1,0 +1,866 @@
+## AccessibilityPlatformTranslation
+
+> `/System/Library/PrivateFrameworks/AccessibilityPlatformTranslation.framework/AccessibilityPlatformTranslation`
+
+```diff
+
+-545.18.0.0.0
+-  __TEXT.__text: 0x16888
+-  __TEXT.__auth_stubs: 0x7c0
++576.1.0.0.0
++  __TEXT.__text: 0x15484
+   __TEXT.__objc_methlist: 0x11d4
+-  __TEXT.__const: 0x618
+-  __TEXT.__gcc_except_tab: 0x2b0
+-  __TEXT.__cstring: 0x2679
+-  __TEXT.__oslogstring: 0x6ab
++  __TEXT.__const: 0x5c8
+   __TEXT.__dlopen_cstrs: 0x6a
+-  __TEXT.__unwind_info: 0x5e8
+-  __TEXT.__objc_classname: 0x120
+-  __TEXT.__objc_methname: 0x3eb7
+-  __TEXT.__objc_methtype: 0x6b2
+-  __TEXT.__objc_stubs: 0x33c0
+-  __DATA_CONST.__got: 0x378
++  __TEXT.__gcc_except_tab: 0x2a0
++  __TEXT.__cstring: 0x2695
++  __TEXT.__oslogstring: 0x6ab
++  __TEXT.__unwind_info: 0x4f0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xab8
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe68
++  __DATA_CONST.__objc_selrefs: 0xe60
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x4b8
+-  __AUTH_CONST.__auth_got: 0x3f0
++  __DATA_CONST.__got: 0x378
+   __AUTH_CONST.__const: 0x2c0
+   __AUTH_CONST.__cfstring: 0x2660
+   __AUTH_CONST.__objc_const: 0x1430
+   __AUTH_CONST.__objc_intobj: 0xa98
+   __AUTH_CONST.__objc_arrayobj: 0x78
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x280
+   __DATA.__objc_ivar: 0x108
+   __DATA.__data: 0x240
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CEE401B6-741C-3081-B443-C30363FC5259
+-  Functions: 478
+-  Symbols:   1898
+-  CStrings:  1408
++  UUID: C7691C3D-939F-3240-9827-990D13ACE513
++  Functions: 428
++  Symbols:   1788
++  CStrings:  712
+ 
+Symbols:
++ GCC_except_table103
++ GCC_except_table107
++ GCC_except_table129
++ GCC_except_table222
++ GCC_except_table226
++ GCC_except_table228
++ GCC_except_table230
++ GCC_except_table232
++ GCC_except_table239
++ GCC_except_table317
++ GCC_except_table39
++ GCC_except_table56
++ GCC_except_table76
++ GCC_except_table78
++ ___30-[AXPRemoteCacheManager start]_block_invoke.355
++ ___30-[AXPRemoteCacheManager start]_block_invoke_2.356
++ ___72-[AXPTranslator_iOS axTreeDumpGenerateNextSetOfElementAttrsOnMainThread]_block_invoke.654
++ ___Block_byref_object_copy_.75
++ ___Block_byref_object_dispose_.76
++ ___block_literal_global.306
++ ___block_literal_global.35
++ ___block_literal_global.358
++ ___block_literal_global.375
++ ___block_literal_global.412
++ ___block_literal_global.415
++ ___block_literal_global.423
++ ___block_literal_global.455
++ ___block_literal_global.465
++ ___block_literal_global.51
++ ___block_literal_global.551
++ ___block_literal_global.645
++ ___block_literal_global.660
++ ___block_literal_global.662
++ ___block_literal_global.713
++ ___block_literal_global.722
++ ___block_literal_global.859
++ _allowedDecodableClasses.Allowed.382
++ _allowedDecodableClasses.Allowed.497
++ _allowedDecodableClasses.onceToken.381
++ _allowedDecodableClasses.onceToken.496
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _sharedInstance.Translator.90
++ _sharedInstance.onceToken.89
+- +[AXPTranslationObject initialize].cold.1
+- -[AXPRemoteCacheManager _attemptToSendResponse:].cold.1
+- -[AXPRemoteCacheManager _attemptToSendResponse:].cold.2
+- -[AXPRemoteCacheManager _axHierarchyGenerationQueue].cold.1
+- -[AXPRemoteCacheManager _responseSent:withError:].cold.1
+- -[AXPRemoteCacheManager _responseSent:withError:].cold.2
+- -[AXPRemoteCacheManager _sendTextRelatedAttributesForTranslation:].cold.1
+- -[AXPTranslationObject init].cold.1
+- -[AXPTranslator handleNotification:data:associatedObject:].cold.1
+- -[AXPTranslator handleNotification:data:associatedObject:].cold.2
+- -[AXPTranslator handleUpdatedAXTree:].cold.1
+- -[AXPTranslator handleUpdatedAXTree:].cold.2
+- -[AXPTranslator sendTranslatorRequest:].cold.1
+- -[AXPTranslator_iOS _allAXTreeActions].cold.1
+- -[AXPTranslator_iOS _allAXTreeAttrValues].cold.1
+- -[AXPTranslator_iOS _allAXTreeCanSetAttrValues].cold.1
+- -[AXPTranslator_iOS _registerAccessibilityNotifications].cold.1
+- -[AXPTranslator_iOS _registerAccessibilityNotifications].cold.2
+- -[AXPTranslator_iOS _resetSystemWideElement].cold.1
+- -[AXPTranslator_iOS _safelyAddAXTreeDumpResponseToCurrentOutput:].cold.1
+- -[AXPTranslator_iOS _topPriorityAXTreeAttrValues].cold.1
+- -[AXPTranslator_iOS axTreeDumpSharedBackgroundQueue].cold.1
+- GCC_except_table12
+- GCC_except_table122
+- GCC_except_table124
+- GCC_except_table14
+- GCC_except_table141
+- GCC_except_table158
+- GCC_except_table16
+- GCC_except_table18
+- GCC_except_table2
+- GCC_except_table202
+- GCC_except_table22
+- GCC_except_table66
+- GCC_except_table77
+- _AXPClientIsEntitledForRemoteDeviceContent
+- _AXPIsCatalyst.cold.1
+- _AXPIsGoodOldAppleCatalystApp.cold.1
+- _AXPIsSwiftPlaygrounds
+- _AXPIsSwiftPlaygrounds.cold.1
+- _AXPIsiOSAppOnMac.cold.1
+- _AXPLinkedOnOrAfterGozul.cold.1
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __AXPAXUIElementReplaceWithRemotePid
+- __AXPiOSParameterFromPlatformParameter
+- __AXUIElementRegisterNotificationBypassCallback
+- ___30-[AXPRemoteCacheManager start]_block_invoke.334
+- ___30-[AXPRemoteCacheManager start]_block_invoke_2.335
+- ___30-[AXPRemoteCacheManager start]_block_invoke_2.cold.1
+- ___54-[AXPTranslator_iOS _enableAccessibilityBridgeRuntime]_block_invoke.cold.1
+- ___64-[AXPTranslator_iOS createPlatformElementFromTranslationObject:]_block_invoke.cold.1
+- ___72-[AXPTranslator_iOS axTreeDumpGenerateNextSetOfElementAttrsOnMainThread]_block_invoke.634
+- ___block_literal_global.337
+- ___block_literal_global.354
+- ___block_literal_global.392
+- ___block_literal_global.395
+- ___block_literal_global.403
+- ___block_literal_global.435
+- ___block_literal_global.531
+- ___block_literal_global.625
+- ___block_literal_global.640
+- ___block_literal_global.642
+- ___block_literal_global.693
+- ___block_literal_global.702
+- ___block_literal_global.839
+- ___notificationBypass_block_invoke
+- __convertAXError
+- __convertAXNotification
+- __convertAXNotificationForElementWithData
+- __convertAXPActionToiOS
+- __convertDurationTime.cold.1
+- __handleElementDestroyed
+- _notificationBypass
+- _objc_msgSend$applyElementAttributeCacheScheme:
+- _objc_retainAutoreleasedReturnValue
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<AXPTranslationDelegateHelper>\""
+- "@\"<AXPTranslationRuntimeHelper>\""
+- "@\"<AXPTranslationSystemAppDelegate>\""
+- "@\"<AXPTranslationTokenDelegateHelper>\""
+- "@\"<AXPTranslationTransportCancellable>\""
+- "@\"<AXPTranslationTransportDelegate>\""
+- "@\"<NSObject><NSCopying><NSSecureCoding>\""
+- "@\"AXPTranslationObject\""
+- "@\"AXPTranslationObject\"16@0:8"
+- "@\"AXUIElement\""
+- "@\"NSData\""
+- "@\"NSDictionary\""
+- "@\"NSLock\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSTimer\""
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"AXPTranslationObject\"16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8^{__AXUIElement=}16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8@16i24"
+- "@28@0:8I16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^Q24"
+- "@32@0:8@16q24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^Q32"
+- "@40@0:8@16^Q24Q32"
+- "@44@0:8@16^Q24Q32B40"
+- "@44@0:8B16@20@28^Q36"
+- "@44@0:8{CGPoint=dd}16I32@36"
+- "@48@0:8@16@24q32^Q40"
+- "@48@0:8@16q24@32^Q40"
+- "@48@0:8Q16@24^Q32Q40"
+- "@56@0:8@16q24Q32@40^Q48"
+- "@56@0:8Q16@24@32^Q40Q48"
+- "@?"
+- "@?16@0:8"
+- "AXPIOSPlatformElement"
+- "AXPRemoteCacheManager"
+- "AXPTranslationElementProtocol"
+- "AXPTranslationObject"
+- "AXPTranslationRuntimeHelper"
+- "AXPTranslator"
+- "AXPTranslatorRequest"
+- "AXPTranslatorResponse"
+- "AXPTranslator_iOS"
+- "AXPiOSElementData"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8Q16"
+- "B28@0:8i16@20"
+- "B32@0:8@16@24"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "Q40@0:8@16Q24^Q32"
+- "T#,R"
+- "T@\"<AXPTranslationDelegateHelper>\",W,N,V_bridgeDelegate"
+- "T@\"<AXPTranslationRuntimeHelper>\",W,N,V_runtimeDelegate"
+- "T@\"<AXPTranslationSystemAppDelegate>\",W,N,V_systemAppDelegate"
+- "T@\"<AXPTranslationTokenDelegateHelper>\",W,N,V_bridgeTokenDelegate"
+- "T@\"<AXPTranslationTransportCancellable>\",&,N,V__transportChannel"
+- "T@\"<AXPTranslationTransportDelegate>\",W,N,V_transportDelegate"
+- "T@\"<NSObject><NSCopying><NSSecureCoding>\",&,N,V_resultData"
+- "T@\"AXPTranslationObject\",&,N,V_associatedNotificationObject"
+- "T@\"AXPTranslationObject\",&,N,V_associatedTranslationObject"
+- "T@\"AXPTranslationObject\",&,N,V_translation"
+- "T@\"AXPTranslationObject\",&,N,Vtranslation"
+- "T@\"AXPTranslationObject\",R,N"
+- "T@\"AXUIElement\",&,N,V_frontmostAppOnContinuityDisplay"
+- "T@\"AXUIElement\",&,N,V_systemAppElement"
+- "T@\"AXUIElement\",&,N,V_systemWideElement"
+- "T@\"NSArray\",R,N"
+- "T@\"NSData\",C,N,V_rawElementData"
+- "T@\"NSDictionary\",&,N,V_parameters"
+- "T@\"NSLock\",&,N,V_axTreeDumpLock"
+- "T@\"NSLock\",&,N,V_axTreeGenerationLock"
+- "T@\"NSMutableArray\",&,N,V_axTreeDumpCurrentOutput"
+- "T@\"NSMutableArray\",&,N,V_axTreeDumpCurrentlyProcessingChildren"
+- "T@\"NSMutableDictionary\",&,N,V_bridgeDelegateTokenToTreeDumpLookup"
+- "T@\"NSMutableDictionary\",&,N,V_fakeElementCache"
+- "T@\"NSMutableSet\",&,N,V__cachedTranslationsForLayoutChange"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V__axHierarchyGenerationQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_axTreeDumpSharedBackgroundQueue"
+- "T@\"NSString\",&,N,V_axTreeDumpCurrentType"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_bridgeDelegateToken"
+- "T@\"NSString\",C,N,V_remoteDebugDescription"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSTimer\",&,N,V__layoutChangeCoalesceTimer"
+- "T@?,C,N,V_axTreeDumpCompletionHandler"
+- "T@?,C,N,V_remoteDescriptionBlock"
+- "TB,N,V_accessibilityEnabled"
+- "TB,N,V_didPopuldateAppInfo"
+- "TB,N,V_isApplicationElement"
+- "TB,N,V_lastAXTreeFullyGenerated"
+- "TB,N,V_shouldHonorGroupsForElementTraversal"
+- "TB,N,V_shouldStopGeneratingAXTree"
+- "TB,N,V_supportsDelegateTokens"
+- "TB,R"
+- "TB,R,N"
+- "TQ,N,V_actionType"
+- "TQ,N,V_associatedRequestType"
+- "TQ,N,V_attribute"
+- "TQ,N,V_attributeType"
+- "TQ,N,V_cachedTreeClientType"
+- "TQ,N,V_clientType"
+- "TQ,N,V_error"
+- "TQ,N,V_failedSendAttempts"
+- "TQ,N,V_notification"
+- "TQ,N,V_objectID"
+- "TQ,N,V_requestResolvingBehavior"
+- "TQ,N,V_requestType"
+- "TQ,N,V_treeDumpStatus"
+- "TQ,R"
+- "T^{__AXObserver=},&,N,V_axEventObserver"
+- "Ti,N,V_pid"
+- "Tq,N,V_axTreeDumpCurrentChildIndex"
+- "T{?=QQ},N,V_uid"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__AXObserver=}"
+- "^{__AXObserver=}16@0:8"
+- "^{__AXUIElement=}24@0:8@16"
+- "__axHierarchyGenerationQueue"
+- "__cachedTranslationsForLayoutChange"
+- "__layoutChangeCoalesceTimer"
+- "__transportChannel"
+- "_accessibilityEnabled"
+- "_actionType"
+- "_addCacheElement:translationObject:"
+- "_allAXTreeActions"
+- "_allAXTreeAttrValues"
+- "_allAXTreeCanSetAttrValues"
+- "_associatedNotificationObject"
+- "_associatedRequestType"
+- "_associatedTranslationObject"
+- "_attemptToResetSystemWideElement"
+- "_attemptToSendResponse:"
+- "_attribute"
+- "_attributeType"
+- "_axAppReadyFlag"
+- "_axEventObserver"
+- "_axHierarchyGenerationQueue"
+- "_axTreeDumpCleanUpState"
+- "_axTreeDumpCompletionHandler"
+- "_axTreeDumpCurrentChildIndex"
+- "_axTreeDumpCurrentOutput"
+- "_axTreeDumpCurrentType"
+- "_axTreeDumpCurrentlyProcessingChildren"
+- "_axTreeDumpLock"
+- "_axTreeDumpSharedBackgroundQueue"
+- "_axTreeGenerationLock"
+- "_backTranslationCache"
+- "_bridgeDelegate"
+- "_bridgeDelegateToken"
+- "_bridgeDelegateTokenToTreeDumpLookup"
+- "_bridgeTokenDelegate"
+- "_cacheQueue"
+- "_cachedElements"
+- "_cachedTranslationsForLayoutChange"
+- "_cachedTreeClientType"
+- "_checkCacheForFrontmostAppResponseWithBridgeDelegateToken:"
+- "_clientType"
+- "_didPopuldateAppInfo"
+- "_elementVisualsUpdatedForNotification:data:"
+- "_enableAccessibilityBridgeRuntime"
+- "_error"
+- "_failedSendAttempts"
+- "_fakeElementCache"
+- "_frontmostAppChildrenForXCTest"
+- "_frontmostAppOnContinuityDisplay"
+- "_handleFocusedUIElementChangedForInitialDump:"
+- "_isApplicationElement"
+- "_lastAXTreeFullyGenerated"
+- "_layoutChangeCoalesceTimer"
+- "_nilOutEmptyValue:"
+- "_notification"
+- "_notificationData:containsToken:"
+- "_objectID"
+- "_parameters"
+- "_pid"
+- "_postProcessAttributeRequest:iosAttribute:axpAttribute:result:error:"
+- "_postProcessResultDataForSecureCoding:"
+- "_preprocessRequest:parameter:"
+- "_processAccessibilityAttributeValue:"
+- "_processAccessibilityAttributeValue:forParameter:"
+- "_processApplicationOrientationForTreeDump:"
+- "_processAttributeSpecialCases:uiElement:error:client:"
+- "_processAttributeSpecialCases:uiElement:parameter:error:client:"
+- "_processAttributedStringForRangeAttributeRequest:parameter:error:"
+- "_processAuditIssuesAttributeRequest:parameter:error:"
+- "_processAuditIssuesResult:"
+- "_processBoundsForRangeAttributeRequest:parameter:error:"
+- "_processBrailleOverrideForAttributeRequest:error:attribute:"
+- "_processCellWithIndexPathAttributeRequest:parameter:error:"
+- "_processChildrenAttributeRequest:error:"
+- "_processClassNameAttributeRequest:error:"
+- "_processCustomActionsAttributeRequest:error:"
+- "_processCustomRotorData:"
+- "_processDirectAttributeRequest:iosAttribute:axpAttribute:parameter:error:"
+- "_processElementHelpAttributeResquest:error:"
+- "_processFirstContainedElement:parameter:error:"
+- "_processFirstElementForFocus:parameter:error:"
+- "_processFocusedElementAttributeRequest:parameter:error:"
+- "_processFrontMostAppForContinuity:"
+- "_processIndexForTextMarkerAttributeRequest:parameter:error:"
+- "_processIsEnabledAttributeRequest:error:"
+- "_processIsFocusedAttributeRequest:parameter:error:"
+- "_processIsRemoteElementAttributeRequest:error:"
+- "_processIsSelectedAttributeRequest:error:"
+- "_processLabelAttributeRequest:error:axpAttribute:"
+- "_processLastContainedElement:parameter:error:"
+- "_processLineRangeAttributeRequest:parameter:error:"
+- "_processLinkedUIElementsAttributeRequest:error:"
+- "_processMoveFocusToOpaqueElementAttributeRequest:parameter:direction:error:"
+- "_processNextLineRangeAttributeRequest:parameter:error:"
+- "_processNumberOfCharactersAttributeRequest:error:"
+- "_processOutgoingCustomRotorSearchResult:"
+- "_processParameterizedAttributeRequest:attribute:parameter:error:"
+- "_processPerformAction:value:"
+- "_processPlatformTranslationRequest:"
+- "_processPreviousLineRangeAttributeRequest:parameter:error:"
+- "_processRawElementDataRequest:error:"
+- "_processRoleAttributeRequest:error:"
+- "_processRoleAttributeRequest:traits:error:"
+- "_processRoleDescriptionAttributeRequest:error:"
+- "_processSelectedTextRequest:error:"
+- "_processStartsMediaSessionAttributeRequest:error:"
+- "_processStringForRangeAttributeRequest:parameter:error:"
+- "_processSubroleAttributeRequest:error:"
+- "_processSyntheticStringValueAttributeRequest:error:"
+- "_processTextInputMarkedRangeAttributeRequest:error:"
+- "_processUserInputLabelsAttributeRequest:error:axpAttribute:"
+- "_processValueAttributeRequest:error:axpAttribute:useAttributes:"
+- "_processViewControllerDescriptionAttributeRequest:error:"
+- "_processVisibleOpaqueElements:error:"
+- "_processVisibleTextRangeAttributeRequest:error:"
+- "_processZoomAttributeRequest:axElement:parameter:error:"
+- "_processingSmuggledMarzipanRequest:parameter:error:"
+- "_rawElementData"
+- "_registerAccessibilityNotifications"
+- "_remoteDebugDescription"
+- "_remoteDescriptionBlock"
+- "_removeCacheEntriesForElement:"
+- "_requestResolvingBehavior"
+- "_requestType"
+- "_resetBridgeTokensForResponse:bridgeDelegateToken:"
+- "_resetSystemWideElement"
+- "_resetSystemWideElementAfterDelay"
+- "_responseSent:withError:"
+- "_resultData"
+- "_runtimeDelegate"
+- "_safelyAddAXTreeDumpResponseToCurrentOutput:"
+- "_sendAXHierachyOnBackgroundQueue"
+- "_sendTextRelatedAttributesForTranslation:"
+- "_shouldHonorGroupsForElementTraversal"
+- "_shouldStopGeneratingAXTree"
+- "_signalAppAXReady"
+- "_supportsDelegateTokens"
+- "_systemAppDelegate"
+- "_systemAppElement"
+- "_systemWideElement"
+- "_textEditingTranslationObj"
+- "_threadSemaphore"
+- "_timerDidFire:"
+- "_topPriorityAXTreeAttrValues"
+- "_translation"
+- "_translationApplicationObjectForPidNumber:"
+- "_translationCache"
+- "_transportChannel"
+- "_transportDelegate"
+- "_treeDumpResponseIsApplicationOrientationData:"
+- "_treeDumpStatus"
+- "_uid"
+- "_usingCachedTree"
+- "_usingCachedTreeForDevicesAppClient"
+- "_usingCachedTreeForOnenessClient"
+- "accessibilityEnabled"
+- "accessibilityTranslationDelegateBridgeCallback"
+- "accessibilityTranslationDelegateBridgeCallbackWithToken:"
+- "accessibilityTranslationTransportAddReceiveDataHandler:"
+- "accessibilityTranslationTransportSendData:completionHandler:"
+- "addAttribute:value:range:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allKeys"
+- "allObjects"
+- "allValues"
+- "allocWithZone:"
+- "allowedDecodableClasses"
+- "applyElementAttributeCacheScheme:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithAXAttribute:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObject:"
+- "arrayWithObjects:count:"
+- "attributeFromRequest:"
+- "attributeValueForKey:"
+- "attributedString"
+- "attributedStringConversionBlock"
+- "attributedSubstringFromRange:"
+- "autorelease"
+- "axAdditionalTreeDumpGeneratedOnBackgroundThreadCallback:success:"
+- "axElement"
+- "axElementFromTranslatorRequest:"
+- "axEventObserver"
+- "axInitialTreeDumpGeneratedOnBackgroundThreadCallback:success:"
+- "axSafeObjectAtIndex:"
+- "axTreeDumpCompletionHandler"
+- "axTreeDumpCurrentChildIndex"
+- "axTreeDumpCurrentOutput"
+- "axTreeDumpCurrentType"
+- "axTreeDumpCurrentlyProcessingChildren"
+- "axTreeDumpGenerateNextSetOfElementAttrsOnMainThread"
+- "axTreeDumpLock"
+- "axTreeDumpSharedBackgroundQueue"
+- "axTreeGenerationEnded"
+- "axTreeGenerationLock"
+- "ax_flatMappedArrayUsingBlock:"
+- "ax_mappedArrayUsingBlock:"
+- "backTranslationCache"
+- "boolResponse"
+- "boolValue"
+- "boolWithAXAttribute:"
+- "bridgeDelegate"
+- "bridgeDelegateTokenToTreeDumpLookup"
+- "bridgeTokenDelegate"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "cachedTreeClientType"
+- "caseInsensitiveCompare:"
+- "checkTreeDumpCacheForRequest:"
+- "checkTreeDumpCacheResponses:forMatchingResponse:withBridgeTokenDelegate:"
+- "class"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "conformsToProtocol:"
+- "containerType"
+- "containsObject:"
+- "contextIdForPoint:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createPlatformElementFromTranslationObject:"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "description"
+- "dictionary"
+- "dictionaryWithCapacity:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "displayIdForContextId:"
+- "elementParent"
+- "elementWithAXUIElement:"
+- "elementWithUIElement:"
+- "emptyResponse"
+- "enableAccessibility"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enumerateAttributesInRange:options:usingBlock:"
+- "enumerateAttributesUsingBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "exceptionWithName:reason:userInfo:"
+- "failedSendAttempts"
+- "fakeElementCache"
+- "fetchNextSetOfElementAttrsOnBackgroundThreadWithEarlyTermination:"
+- "firstObject"
+- "frontmostAppOnContinuityDisplay"
+- "frontmostApplicationWithDisplayId:bridgeDelegateToken:"
+- "frontmostProcessPids"
+- "generateAXTreeDumpTypeOnBackgroundThread:completionHandler:"
+- "getValue:"
+- "handleNotification:data:associatedObject:"
+- "handleUpdatedAXTree:"
+- "hasAttributes"
+- "hasPrefix:"
+- "hash"
+- "i16@0:8"
+- "indexesOfObjectsPassingTest:"
+- "init"
+- "initWithAccessibilityContainer:"
+- "initWithArray:"
+- "initWithCachedTreeClientType:"
+- "initWithCoder:"
+- "initWithDictionary:"
+- "initWithString:"
+- "initWithUUIDString:"
+- "initialize"
+- "initializeAXRuntimeForSystemAppServer"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "iosPlatformElementFromTranslation:"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToNumber:"
+- "isEqualToSet:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isSystemWideElement"
+- "isValid"
+- "keyEnumerator"
+- "lastAXTreeFullyGenerated"
+- "length"
+- "localizedStringForKey:value:table:"
+- "lock"
+- "longLongValue"
+- "longValue"
+- "mainBundle"
+- "mutableCopy"
+- "numberWithAXAttribute:"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "objCType"
+- "objectAtIndexedSubscript:"
+- "objectAtPoint:displayId:bridgeDelegateToken:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectWithAXAttribute:"
+- "objectWithAXAttribute:parameter:"
+- "performAXAction:withValue:"
+- "performAction:withValue:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "platformElementFromTranslation:"
+- "platformElementWithTranslationObject:"
+- "platformElementWithTranslationObject:rootParent:"
+- "platformTranslator"
+- "press"
+- "processAXTreeElements:"
+- "processActionRequest:"
+- "processApplicationObject:"
+- "processAttributeRequest:"
+- "processCanSetAttribute:"
+- "processFrontMostApp:"
+- "processFrontMostApp:withiOSAttribute:"
+- "processHitTest:"
+- "processMultipleAttributeRequest:"
+- "processMultipleAttributeRequest:removeEmptyValue:"
+- "processPlatformAXTreeDump:"
+- "processPlatformNotification:data:"
+- "processPlatformNotification:data:associatedObject:"
+- "processSetAttribute:"
+- "processSupportedActions:"
+- "processSupportsAttributes:"
+- "processTranslatorRequest:"
+- "punctuationCharacterSet"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q24@0:8Q16"
+- "raise"
+- "rangeOfString:"
+- "rangeValue"
+- "rangeWithAXAttribute:"
+- "release"
+- "remoteDebugDescription"
+- "remoteDescriptionBlock"
+- "remoteTranslationDataWithTranslation:pid:"
+- "removeAttribute:range:"
+- "removeAttributes:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "replaceCharactersInRange:withString:"
+- "requestResolvingBehavior"
+- "requestWithTranslation:"
+- "requiresAXRuntimeInitialization"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rowRange"
+- "runtimeDelegate"
+- "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
+- "scrollToVisible"
+- "self"
+- "sendTranslatorRequest:"
+- "set"
+- "setAXAttribute:withNumber:"
+- "setAXAttribute:withObject:"
+- "setAXAttribute:withString:"
+- "setAXAttribute:withUIElement:"
+- "setAccessibilityEnabled:"
+- "setActionType:"
+- "setApplicationElementCallback:"
+- "setAssociatedNotificationObject:"
+- "setAssociatedRequestType:"
+- "setAssociatedTranslationObject:"
+- "setAttribute:"
+- "setAttributeCallback:"
+- "setAttributeType:"
+- "setAxEventObserver:"
+- "setAxTreeDumpCompletionHandler:"
+- "setAxTreeDumpCurrentChildIndex:"
+- "setAxTreeDumpCurrentOutput:"
+- "setAxTreeDumpCurrentType:"
+- "setAxTreeDumpCurrentlyProcessingChildren:"
+- "setAxTreeDumpLock:"
+- "setAxTreeDumpSharedBackgroundQueue:"
+- "setAxTreeGenerationLock:"
+- "setBridgeDelegate:"
+- "setBridgeDelegateToken:"
+- "setBridgeDelegateTokenToTreeDumpLookup:"
+- "setBridgeTokenDelegate:"
+- "setByAddingObjectsFromSet:"
+- "setCachedTreeClientType:"
+- "setClientObserverCallback:"
+- "setClientType:"
+- "setDidPopuldateAppInfo:"
+- "setError:"
+- "setFailedSendAttempts:"
+- "setFakeElementCache:"
+- "setFrontmostAppOnContinuityDisplay:"
+- "setIsApplicationElement:"
+- "setLastAXTreeFullyGenerated:"
+- "setNativeFocus"
+- "setNotification:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObjectID:"
+- "setOutgoingValuePreprocessor:"
+- "setParameterizedAttributeCallback:"
+- "setParameters:"
+- "setPerformActionCallback:"
+- "setPid:"
+- "setRawElementData:"
+- "setRemoteDebugDescription:"
+- "setRemoteDescriptionBlock:"
+- "setRequestResolvingBehavior:"
+- "setRequestType:"
+- "setResultData:"
+- "setRuntimeDelegate:"
+- "setSelectedTextRange:"
+- "setSetAttributeCallback:"
+- "setShouldHonorGroupsForElementTraversal:"
+- "setShouldStopGeneratingAXTree:"
+- "setSupportsDelegateTokens:"
+- "setSystemAppDelegate:"
+- "setSystemAppElement:"
+- "setSystemWideElement:"
+- "setSystemWideServer:"
+- "setTranslation:"
+- "setTransportDelegate:"
+- "setTreeDumpStatus:"
+- "setUid:"
+- "setWithObjects:"
+- "set_axHierarchyGenerationQueue:"
+- "set_cachedTranslationsForLayoutChange:"
+- "set_layoutChangeCoalesceTimer:"
+- "set_transportChannel:"
+- "sharedInstance"
+- "sharedManager"
+- "sharediOSInstance"
+- "shouldCheckTreeDumpCacheForRequestType:"
+- "shouldHonorGroupsForElementTraversal"
+- "shouldStopGeneratingAXTree"
+- "start"
+- "stop"
+- "stopGeneratingAXTreeDump"
+- "string"
+- "stringByAppendingFormat:"
+- "stringByTrimmingCharactersInSet:"
+- "stringWithAXAttribute:"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "substringWithRange:"
+- "superclass"
+- "supportsAction:"
+- "supportsDelegateTokens"
+- "supportsSecureCoding"
+- "systemAppDelegate"
+- "systemAppElement"
+- "systemApplication"
+- "systemWideElement"
+- "traits"
+- "translationApplicationObject"
+- "translationApplicationObjectForPid:"
+- "translationCache"
+- "translationObjectFromData:"
+- "translationObjectFromPlatformElement:"
+- "translationObjectFromUIKitObject:"
+- "translationResponse"
+- "translationsResponse"
+- "transportDelegate"
+- "treeDumpApplicationOrientationForBridgeDelegateToken:"
+- "treeDumpCacheResultDataForAttributeTypeRequest:"
+- "treeDumpCacheResultDataForCanSetAttributeTypeRequest:"
+- "treeDumpCacheResultDataForSupportedActionsTypeRequest:"
+- "treeDumpCacheResultDataForSupportsAttributesTypeRequest:"
+- "treeDumpResponse"
+- "treeDumpResponseCacheForBridgeDelegateToken:"
+- "treeDumpStatus"
+- "uiElement"
+- "uiElementWithAXElement:"
+- "uiElementWithAXElement:cache:"
+- "uid"
+- "unarchivedObjectOfClasses:fromData:error:"
+- "unlock"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "updateCache:"
+- "updateTreeDumpCacheResponse:withAdditionalResponse:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"AXPTranslatorResponse\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8^{__AXObserver=}16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@24"
+- "v32@0:8{?=QQ}16"
+- "v40@0:8Q16@\"<NSObject><NSCopying><NSSecureCoding>\"24@\"AXPTranslationObject\"32"
+- "v40@0:8Q16@24@32"
+- "valueWithCGPoint:"
+- "valueWithPoint:"
+- "valueWithRange:"
+- "valueWithRect:"
+- "valueWithSize:"
+- "whitespaceCharacterSet"
+- "zone"
+- "{?=\"elementOrHash\"Q\"elementID\"Q}"
+- "{?=QQ}16@0:8"
+
+```

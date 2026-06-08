@@ -1,0 +1,253 @@
+## NanoSmartStackProactiveSuggestions
+
+> `/System/Library/PrivateFrameworks/NanoSmartStackProactiveSuggestions.framework/NanoSmartStackProactiveSuggestions`
+
+```diff
+
+-171.1.30.0.0
+-  __TEXT.__text: 0x9270
+-  __TEXT.__auth_stubs: 0x7f0
+-  __TEXT.__const: 0x10b4
+-  __TEXT.__swift5_typeref: 0x3cd
+-  __TEXT.__constg_swiftt: 0x2f4
+-  __TEXT.__swift5_reflstr: 0x163
+-  __TEXT.__swift5_fieldmd: 0x2f8
+-  __TEXT.__cstring: 0x2b5
+-  __TEXT.__swift5_proto: 0xf4
+-  __TEXT.__swift5_types: 0x44
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_protos: 0x8
+-  __TEXT.__oslogstring: 0x1d1
+-  __TEXT.__unwind_info: 0x328
+-  __TEXT.__eh_frame: 0x388
+-  __TEXT.__objc_classname: 0x45
+-  __TEXT.__objc_methname: 0x17
+-  __TEXT.__objc_methtype: 0x1
+-  __DATA_CONST.__got: 0xd0
+-  __DATA_CONST.__const: 0x70
+-  __DATA_CONST.__objc_classlist: 0x8
++306.1.0.0.0
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x5a
++  __DATA_CONST.__const: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x3f8
+-  __AUTH_CONST.__const: 0x5c8
+-  __AUTH_CONST.__objc_const: 0x90
+-  __AUTH.__data: 0x90
+-  __DATA.__data: 0x2d0
+-  __DATA.__bss: 0x1e00
+-  __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0xd8
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/PrivateFrameworks/ReplicatorServices.framework/ReplicatorServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43EE5855-073E-342B-A54F-68198F9AF607
+-  Functions: 282
+-  Symbols:   196
+-  CStrings:  22
++  UUID: 884A0DC4-3CDB-3507-B001-89E28FCC11CE
++  Functions: 0
++  Symbols:   33
++  CStrings:  0
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_NanoSmartStackProactiveSuggestions
+- <redacted>
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __DATA__TtC34NanoSmartStackProactiveSuggestions26SmartStackReplicatorClient
+- __IVARS__TtC34NanoSmartStackProactiveSuggestions26SmartStackReplicatorClient
+- __METACLASS_DATA__TtC34NanoSmartStackProactiveSuggestions26SmartStackReplicatorClient
+- ___chkstk_darwin
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy1_1
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_project_value_buffer
+- __objc_empty_cache
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftImmortalRefCount
+- __swift_stdlib_malloc_size
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO17UnknownCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO17UnknownCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22AirplaneModeCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22AirplaneModeCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22DoNotDisturbCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22DoNotDisturbCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D15SuggestionErrorOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO12OnCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO12OnCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO13OffCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO13OffCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO16ToggleCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO16ToggleCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO21UnsupportedCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO21UnsupportedCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0D20SuggestionConfidenceOSHAASQ
+- _associated conformance 34NanoSmartStackProactiveSuggestions0bC15ReplicatorErrorOSHAASQ
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x26
+- _os_log_type_enabled
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocClassInstance
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getWitnessTable
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_lookUpClassMethod
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _swift_willThrow
+- _symbolic $s34NanoSmartStackProactiveSuggestions0D18SuggestionObserverP
+- _symbolic $s34NanoSmartStackProactiveSuggestions24ReplicatorClientProtocolP
+- _symbolic $sSY
+- _symbolic SS
+- _symbolic Si
+- _symbolic _____ 10Foundation12DateIntervalV
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 18ReplicatorServices0A15ProtocolVersionV
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D10SuggestionV
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO17UnknownCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22AirplaneModeCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D14SuggestionTypeO22DoNotDisturbCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D15SuggestionErrorO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO12OnCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO13OffCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO16ToggleCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D19SuggestionOperationO21UnsupportedCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0D20SuggestionConfidenceO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0bC15ReplicatorErrorO
+- _symbolic _____ 34NanoSmartStackProactiveSuggestions0bC16ReplicatorClientC
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic ___________t 18ReplicatorServices0A6RecordV2IDV 10Foundation4UUIDV
+- _symbolic ___________t s6UInt64V 18ReplicatorServices0B6RecordV5ValueV
+- _symbolic ______p 34NanoSmartStackProactiveSuggestions24ReplicatorClientProtocolP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO17UnknownCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO22AirplaneModeCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO22DoNotDisturbCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO12OnCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO13OffCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO16ToggleCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO21UnsupportedCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G10SuggestionV10CodingKeys33_95248C2392E1608A77FE90DE211FA585LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO10CodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO17UnknownCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO22AirplaneModeCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G14SuggestionTypeO22DoNotDisturbCodingKeys33_F8F4C0CADD163A72620D07FF463EB257LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO10CodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO12OnCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO13OffCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO16ToggleCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 34NanoSmartStackProactiveSuggestions0G19SuggestionOperationO21UnsupportedCodingKeys33_CC7CF03EE91E233EDC1214CD09AF84F5LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4UUIDV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18ReplicatorServices0D6DeviceV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18ReplicatorServices0D6RecordV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18ReplicatorServices14ZoneDescriptorV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18ReplicatorServices17MessageDescriptorV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y__________G s18_DictionaryStorageC 18ReplicatorServices0C6RecordV2IDV 10Foundation4UUIDV
+- _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 18ReplicatorServices0D6RecordV5ValueV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC s6UInt64V 18ReplicatorServices0E6RecordV5ValueV
+- _symbolic x
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+CStrings:
+- "Compatible protocol version %{public}llu will be used for replication"
+- "Failed to find zone with identifier %{public}s on paired device"
+- "Invalid number of keys found, expected one."
+- "No paired watch found. Cannot replicate records."
+- "Paired Watch %{public}s found. Will replicate Proactive Suggestion. Paired Watch Protocol Version: %{public}s"
+- "ProactiveSuggestion"
+- "SmartStackReplicator"
+- "Zone %{public}s does not contain a protocol version compatible with this client. Zone Protocol Version: %{public}s, Client Protocol Version: %{public}s"
+- "_TtC34NanoSmartStackProactiveSuggestions26SmartStackReplicatorClient"
+- "bundleIdentifier"
+- "client"
+- "com.apple.NanoHomeScreenServices"
+- "com.apple.NanoHomeScreenServices.SmartStackReplicatorClient"
+- "com.apple.NanoHomeScreenServices.SmartStackReplicatorClient.enabled"
+- "com.apple.NanoHomeScreenServices.SmartStackReplicatorClient.message"
+- "com.apple.NanoHomeScreenServices.SmartStackReplicatorClient.record"
+- "com.apple.NanoSettings"
+- "com.apple.NanoSettings.NanoSettingsWidget"
+- "com.apple.NanoSettings.control.airplanemode"
+- "com.apple.NanoSettings.control.donotdisturb"
+- "proactiveSuggestions"
+- "protocolVersion"
+
+```

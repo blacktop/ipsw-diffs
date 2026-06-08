@@ -1,0 +1,786 @@
+## HangTracer
+
+> `/System/Library/PrivateFrameworks/HangTracer.framework/HangTracer`
+
+```diff
+
+-398.2.0.0.0
+-  __TEXT.__text: 0x17e9c
+-  __TEXT.__auth_stubs: 0xb10
+-  __TEXT.__objc_methlist: 0x9a8
+-  __TEXT.__const: 0x290
+-  __TEXT.__gcc_except_tab: 0x260
+-  __TEXT.__cstring: 0x4289
+-  __TEXT.__oslogstring: 0x2b7e
++412.0.0.0.0
++  __TEXT.__text: 0x16d6c
++  __TEXT.__objc_methlist: 0x9f0
++  __TEXT.__const: 0x260
++  __TEXT.__gcc_except_tab: 0x214
++  __TEXT.__cstring: 0x4346
++  __TEXT.__oslogstring: 0x2bc8
+   __TEXT.__ustring: 0xe0
+-  __TEXT.__unwind_info: 0x5a8
+-  __TEXT.__objc_classname: 0x54
+-  __TEXT.__objc_methname: 0x3cab
+-  __TEXT.__objc_methtype: 0x7fa
+-  __TEXT.__objc_stubs: 0x1720
+-  __DATA_CONST.__got: 0x1d8
+-  __DATA_CONST.__const: 0x1720
++  __TEXT.__unwind_info: 0x598
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1738
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9f8
++  __DATA_CONST.__objc_selrefs: 0xa20
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x598
++  __DATA_CONST.__got: 0x1d8
+   __AUTH_CONST.__const: 0x4a0
+-  __AUTH_CONST.__cfstring: 0x5880
+-  __AUTH_CONST.__objc_const: 0x19d8
++  __AUTH_CONST.__cfstring: 0x5980
++  __AUTH_CONST.__objc_const: 0x1a68
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_doubleobj: 0x10
++  __AUTH_CONST.__auth_got: 0x5c8
+   __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x1e4
+-  __DATA.__data: 0x210
++  __DATA.__objc_ivar: 0x1f0
++  __DATA.__data: 0x218
+   __DATA.__common: 0x18
+-  __DATA.__bss: 0x98
++  __DATA.__bss: 0x88
+   __DATA_DIRTY.__objc_data: 0xf0
+-  __DATA_DIRTY.__bss: 0x100
++  __DATA_DIRTY.__bss: 0x110
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libapp_launch_measurement.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 956D630D-FD5C-30C6-8176-3082B3C7A7D1
+-  Functions: 570
++  UUID: 928AED12-B712-3371-AA41-A72C39169E0C
++  Functions: 571
+   Symbols:   2120
+-  CStrings:  2280
++  CStrings:  1686
+ 
+Symbols:
++ -[HTMonitorPidHangEvent .cxx_destruct]
++ -[HTMonitorPidHangEvent app_exit_source]
++ -[HTMonitorPidHangEvent initHTMonitorPidHangEvent:shmemSize:appExitSource:]
++ -[HTPrefs areHUDClientsEnabled]
++ -[HTPrefs hudOpacityLevel]
++ -[HTPrefs initPropertyAreHUDClientsEnabled:]
++ -[HTPrefs initPropertyHUDOpacity:]
++ GCC_except_table17
++ GCC_except_table39
++ _CAEventHTPrefsTypeMismatch
++ _CAKeyHTPrefsTypeMismatch
++ _CAKeyHTPrefsTypeMismatchClassName
++ _CAKeyHTPrefsTypeMismatchExpectedSelector
++ _CAKeyHTPrefsTypeMismatchKeyName
++ _CAKeyHTPrefsTypeMismatchValue
++ _HANGTRACER_HUD_LAYER_REFRESH_NOTIFICATION
++ _OBJC_IVAR_$_HTMonitorPidHangEvent._app_exit_source
++ _OBJC_IVAR_$_HTPrefs._areHUDClientsEnabled
++ _OBJC_IVAR_$_HTPrefs._hudOpacityLevel
++ ___97-[HTPrefs setupPrefsWithQueue:profilePath:taskingDomainName:hangtracerDomain:setupInternalPrefs:]_block_invoke.109
++ ___HTConnectToHTMonitor_block_invoke.52
++ ___HTInitializeHangTracerMonitor_block_invoke.60
++ ___HTInitializeHangTracerMonitor_block_invoke.60.cold.1
++ ___HTInitializeHangTracerMonitor_block_invoke.60.cold.2
++ ___HTInitializeHangTracerMonitor_block_invoke.60.cold.3
++ ___HTInitializeHangTracerMonitor_block_invoke.60.cold.4
++ ___HTInitializeHangTracerMonitor_block_invoke.61
++ ___StartMonitoringWatchdogDisablement_block_invoke.156
++ ___block_descriptor_102_e5_v8?0l
++ ___block_literal_global.138
++ ___block_literal_global.144
++ ___block_literal_global.150
++ ___block_literal_global.160
++ ___block_literal_global.165
++ ___block_literal_global.198
++ ___block_literal_global.55
++ ___block_literal_global.66
++ ___checkForHangWithUserMovedAwayAndRecentAssertions_block_invoke.185
++ ___handleSettingChange_block_invoke_2
++ _checkForHangWithUserMovedAwayAndRecentAssertions.cold.8
++ _handleSettingChange.cold.2
++ _handleSettingChange.cold.3
++ _handleSettingChange.cold.4
++ _kHTPrefsHUDClientsEnabled
++ _kHTPrefsHUDOpacity
++ _notify_post
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$areHUDClientsEnabled
++ _objc_msgSend$initHTMonitorPidHangEvent:shmemSize:appExitSource:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
++ _strndup
+- -[HTMonitorPidHangEvent initHTMonitorPidHangEvent:shmem_size:]
+- GCC_except_table15
+- GCC_except_table37
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- ___97-[HTPrefs setupPrefsWithQueue:profilePath:taskingDomainName:hangtracerDomain:setupInternalPrefs:]_block_invoke.105
+- ___HTConnectToHTMonitor_block_invoke.45
+- ___HTInitializeHangTracerMonitor_block_invoke.53
+- ___HTInitializeHangTracerMonitor_block_invoke.53.cold.1
+- ___HTInitializeHangTracerMonitor_block_invoke.53.cold.2
+- ___HTInitializeHangTracerMonitor_block_invoke.53.cold.3
+- ___HTInitializeHangTracerMonitor_block_invoke.57
+- ___HTInitializeHangTracerMonitor_block_invoke_2.cold.2
+- ___StartMonitoringWatchdogDisablement_block_invoke.159
+- ___block_descriptor_44_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_98_e5_v8?0l
+- ___block_literal_global.139
+- ___block_literal_global.147
+- ___block_literal_global.153
+- ___block_literal_global.166
+- ___block_literal_global.168
+- ___block_literal_global.201
+- ___block_literal_global.48
+- ___block_literal_global.52
+- ___checkForHangWithUserMovedAwayAndRecentAssertions_block_invoke.188
+- ___handleSettingChange_block_invoke.145
+- ___handleSettingChange_block_invoke.cold.1
+- ___handleSettingChange_block_invoke.cold.2
+- _objc_msgSend$initHTMonitorPidHangEvent:shmem_size:
+- _objc_retain_x27
+CStrings:
++ "!"
++ "HangTracerEnableHUDClients"
++ "HangTracerHUDOpacity"
++ "class_name"
++ "com.apple.da.hud_layer_refresh"
++ "com.apple.hangtracer.prefs_type_mismatch"
++ "expected_selector"
++ "key_name"
++ "strndup failed for serviceName"
++ "strndup failed for serviceName or bundleID"
++ "type_mismatch"
++ "value"
++ "\xf0\xf0Q!f!"
+- ".cxx_destruct"
+- "@\"NSArray\""
+- "@\"NSDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSString\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@32@0:8@16^@24"
+- "@32@0:8^{?=II[8{hangEvent=QQdAiCCCC^{_opaque_pthread_t}Qi[64c][256c]B^?AQAQAQBB[10{HTRBStateInfo=QC}]AQ}][10{HTAssertionInfo=QQQQ[64c]B}]iQAQAQAQ}16Q24"
+- "@32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "@40@0:8@16:24^@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16:24^@32"
+- "@56@0:8^{__CFString=}16^{__CFString=}24@32:40^@48"
+- "@?24@0:8@?16"
+- "B"
+- "B16@0:8"
+- "B24@0:8^@16"
+- "B32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "B40@0:8r*16@24@32"
+- "HTFenceAssertion"
+- "HTHangClient"
+- "HTHangRequest"
+- "HTMonitorPidHangEvent"
+- "HTPrefs"
+- "I"
+- "I16@0:8"
+- "I32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "Q"
+- "Q16@0:8"
+- "Q32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,V_thirdPartyDevPreferredLanguages"
+- "T@\"NSDictionary\",&,V__installedHTProfileDict"
+- "T@\"NSObject<OS_dispatch_queue>\",&,V__prefsQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_connectionQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_replyQueue"
+- "T@\"NSObject<OS_xpc_object>\",R,N,V_connection"
+- "T@\"NSObject<OS_xpc_object>\",R,N,V_requestXPCDictionary"
+- "T@\"NSString\",&,V__profilePath"
+- "T@\"NSString\",&,V_automationGroup"
+- "T@\"NSString\",&,V_experimentGroup"
+- "T@\"NSString\",&,V_tailspinSaveFormat"
+- "T@\"NSString\",R,N,V_sandboxExtension"
+- "T@\"NSString\",R,N,V_sharedDirectoryPath"
+- "T@\"NSString\",R,V_enablementPrefix"
+- "T@\"NSString\",R,V_thirdPartyDevBootSessionUUID"
+- "TB,R"
+- "TB,R,V_appActivationLoggingEnabled"
+- "TB,R,V_appLaunchMonitoringEnabled"
+- "TB,R,V_customerModeEnabled"
+- "TB,R,V_eplEnabled"
+- "TB,R,V_eplEnabledProfile"
+- "TB,R,V_fenceTrackingEnabled"
+- "TB,R,V_forceQuitDetectionEnabled"
+- "TB,R,V_hangtracerDaemonEnabled"
+- "TB,R,V_hasInternalSettings"
+- "TB,R,V_haveNonDefaultFeatureFlags"
+- "TB,R,V_haveRootsInstalled"
+- "TB,R,V_haveSerialLoggingEnabled"
+- "TB,R,V_htTailspinEnabled"
+- "TB,R,V_hudEnabled"
+- "TB,R,V_isCarryDevice"
+- "TB,R,V_isInternal"
+- "TB,R,V_isSystemConditionsHUDEnabled"
+- "TB,R,V_pdseAllowEnableTailspin"
+- "TB,R,V_pdseAppLaunchKillSwitch"
+- "TB,R,V_pdseCATailspinKillSwitch"
+- "TB,R,V_pdseHTBadDayKillSwitch"
+- "TB,R,V_pdseHTRateOnlyKillSwitch"
+- "TB,R,V_pdseHTThirdPartyKillSwitch"
+- "TB,R,V_pdseHangTracerKillSwitch"
+- "TB,R,V_pdseSentryKillSwitch"
+- "TB,R,V_pdseWBClientHangKillSwitch"
+- "TB,R,V_pdseWorkflowResponsivenessKillSwitch"
+- "TB,R,V_shouldAugmentSentryTailspinWithSignposts"
+- "TB,R,V_shouldCollectCPURoleInfo"
+- "TB,R,V_shouldCollectOSSignposts"
+- "TB,R,V_shouldCompressSavedTailspins"
+- "TB,R,V_shouldEmitTelemetry"
+- "TB,R,V_shouldIncludeDiskInfo"
+- "TB,R,V_shouldIncludeDisplayData"
+- "TB,R,V_shouldIncludeNetworkState"
+- "TB,R,V_shouldSaveTailspins"
+- "TB,R,V_shouldUploadToDiagPipe"
+- "TB,R,V_signpostMonitoringEnabled"
+- "TB,R,V_slowAppActivationTailspinEnabled"
+- "TB,R,V_thirdPartyDevHangHUDEnabled"
+- "TB,R,V_thirdPartyIncludeNonDevelopmentApps"
+- "TB,R,V_thirdPartyRunLoopHangLogsEnabled"
+- "TB,R,V_workflowResponsivenessEnabled"
+- "TB,V__isInternalNoOverride"
+- "TB,V_enableLoggingForPoster"
+- "TB,V_enableLoggingForWidgetRenderer"
+- "TB,V_keepTailspinsLegacy"
+- "TB,V_shouldAllowSentryEnablement"
+- "TB,V_shouldAllowWorkflowResponsivenessEnablement"
+- "TB,V_shouldPostHTPrefsChangedNotification"
+- "TI,R,V_appActivationLoggingMaxActivationLimit"
+- "TI,R,V_badDayEnablementDurationDays"
+- "TI,R,V_badDayEnablementForLogCount"
+- "TI,R,V_badDayEnablementForPreviousDays"
+- "TI,R,V_badDayEnablementMinimumBreakDurationDays"
+- "TI,R,V_forceQuitDetectionThresholdMSec"
+- "TI,R,V_hudThresholdMSec"
+- "TQ,R,V_badDayEnablementForHangDurationMSec"
+- "TQ,R,V_consecutiveHangWaitTimeoutDurationMSec"
+- "TQ,R,V_hangWaitTimeoutDurationMSec"
+- "TQ,R,V_reportPeriodMATU"
+- "TQ,R,V_runloopHangDurationThresholdMSec"
+- "TQ,R,V_runloopHangThirdPartyDurationThresholdMSec"
+- "TQ,R,V_runloopHangTimeoutDurationMSec"
+- "TQ,R,V_runloopLongHangDurationThresholdMSec"
+- "TQ,R,V_savedTailspinMaxMB"
+- "TQ,R,V_shmem_size"
+- "TQ,R,V_slowAppActivationThresholdMSec"
+- "TQ,R,V_springBoardHangIORegGPUDumpTimeoutMSec"
+- "T^{?=II[8{hangEvent=QQdAiCCCC^{_opaque_pthread_t}Qi[64c][256c]B^?AQAQAQBB[10{HTRBStateInfo=QC}]AQ}][10{HTAssertionInfo=QQQQ[64c]B}]iQAQAQAQ},R,V_shmem_region"
+- "T^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:},R,V_prefInitList"
+- "T^{__CFString=},V__htDomain"
+- "T^{__CFString=},V__htTaskingDomain"
+- "Td,R,V_appActivationLoggingCPUUtilizationThresholdMSec"
+- "Td,R,V_badDaySecondsBetweenLastEnablementAndReferenceDate"
+- "Td,R,V_badDaySecondsBetweenLastEvaluationAndReferenceDate"
+- "Td,R,V_eplTimeoutTimestampSec"
+- "Td,R,V_minFGEmissionThresholdSec"
+- "Td,R,V_persistentFGEmissionThresholdSec"
+- "Td,R,V_runloopHangPercentHeavyLogs"
+- "Td,R,V_samplingPercentForMicroHangs"
+- "Td,R,V_tailspinReportingThresholdSec"
+- "Ti,R,V_fenceHangDailyLogLimit"
+- "Ti,R,V_numOSCryptexFileExtents"
+- "Ti,R,V_pdseAppLaunchPeriodDays"
+- "Ti,R,V_pdseCATailspinPeriodDays"
+- "Ti,R,V_pdseHTPeriodDays"
+- "Ti,R,V_pdseHTRateOnlyPeriodDays"
+- "Ti,R,V_pdseHTThirdPartyNoLogUploadPeriodDays"
+- "Ti,R,V_pdseHTThirdPartyPeriodDays"
+- "Ti,R,V_pdseSentryPeriodDays"
+- "Ti,R,V_pdseWBClientHangPeriodDays"
+- "Ti,R,V_pdseWorkflowResponsivenessPeriodDays"
+- "Ti,R,V_runLoopHangDailyLogLimit"
+- "Ti,R,V_runLoopHangPerPeriodLogLimit"
+- "Ti,R,V_runLoopLongHangDailyLogLimit"
+- "Ti,R,V_runLoopMicroHangDailyLogLimit"
+- "Ti,R,V_runloopHangThirdPartyDailyLogLimit"
+- "Ti,R,V_signpostMonitoringDailyLogLimit"
+- "Ti,R,V_signpostMonitoringPerPeriodLogLimit"
+- "Ti,R,V_slowAppActivationDailyLogLimit"
+- "Ti,R,V_slowAppActivationPerAppMaxLogLimit"
+- "Ti,R,V_workflowResponsivenessDailyLogLimit"
+- "Ti,R,V_workflowResponsivenessPerPeriodLogLimit"
+- "URLWithString:"
+- "UTF8String"
+- "UUIDString"
+- "^{?=II[8{hangEvent=QQdAiCCCC^{_opaque_pthread_t}Qi[64c][256c]B^?AQAQAQBB[10{HTRBStateInfo=QC}]AQ}][10{HTAssertionInfo=QQQQ[64c]B}]iQAQAQAQ}"
+- "^{?=II[8{hangEvent=QQdAiCCCC^{_opaque_pthread_t}Qi[64c][256c]B^?AQAQAQBB[10{HTRBStateInfo=QC}]AQ}][10{HTAssertionInfo=QQQQ[64c]B}]iQAQAQAQ}16@0:8"
+- "^{?=II[8{hangEvent=QQdAiCCCC^{_opaque_pthread_t}Qi[64c][256c]B^?AQAQAQBB[10{HTRBStateInfo=QC}]AQ}][10{HTAssertionInfo=QQQQ[64c]B}]iQAQAQAQ}20@0:8i16"
+- "^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}"
+- "^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16@0:8"
+- "^{__CFString=}"
+- "^{__CFString=}16@0:8"
+- "__createInternalSettings"
+- "__htDomain"
+- "__htTaskingDomain"
+- "__installedHTProfileDict"
+- "__isInternalNoOverride"
+- "__name"
+- "__prefsQueue"
+- "__profilePath"
+- "__startTime"
+- "_appActivationLoggingCPUUtilizationThresholdMSec"
+- "_appActivationLoggingEnabled"
+- "_appActivationLoggingMaxActivationLimit"
+- "_appLaunchMonitoringEnabled"
+- "_automationGroup"
+- "_badDayEnablementDurationDays"
+- "_badDayEnablementForHangDurationMSec"
+- "_badDayEnablementForLogCount"
+- "_badDayEnablementForPreviousDays"
+- "_badDayEnablementMinimumBreakDurationDays"
+- "_badDaySecondsBetweenLastEnablementAndReferenceDate"
+- "_badDaySecondsBetweenLastEvaluationAndReferenceDate"
+- "_checkDirectoryPathIsValid"
+- "_checkValidXPCDictResponse:"
+- "_connection"
+- "_connectionQueue"
+- "_consecutiveHangWaitTimeoutDurationMSec"
+- "_createXPCDictionary:"
+- "_createXPCReplyHandler:"
+- "_customerModeEnabled"
+- "_enableLoggingForPoster"
+- "_enableLoggingForWidgetRenderer"
+- "_enablementPrefix"
+- "_eplEnabled"
+- "_eplEnabledProfile"
+- "_eplTimeoutTimestampSec"
+- "_experimentGroup"
+- "_fenceHangDailyLogLimit"
+- "_fenceTrackingEnabled"
+- "_forceQuitDetectionEnabled"
+- "_forceQuitDetectionThresholdMSec"
+- "_hangWaitTimeoutDurationMSec"
+- "_hangtracerDaemonEnabled"
+- "_hasInternalSettings"
+- "_haveNonDefaultFeatureFlags"
+- "_haveRootsInstalled"
+- "_haveSerialLoggingEnabled"
+- "_htDomain"
+- "_htTailspinEnabled"
+- "_htTaskingDomain"
+- "_hudEnabled"
+- "_hudThresholdMSec"
+- "_insertNSNumberInXPCDictionaryUsingKey:number:dict:"
+- "_installedHTProfileDict"
+- "_isCarryDevice"
+- "_isInternal"
+- "_isInternalNoOverride"
+- "_isSystemConditionsHUDEnabled"
+- "_keepTailspinsLegacy"
+- "_minFGEmissionThresholdSec"
+- "_numOSCryptexFileExtents"
+- "_pdseAllowEnableTailspin"
+- "_pdseAppLaunchKillSwitch"
+- "_pdseAppLaunchPeriodDays"
+- "_pdseCATailspinKillSwitch"
+- "_pdseCATailspinPeriodDays"
+- "_pdseHTBadDayKillSwitch"
+- "_pdseHTPeriodDays"
+- "_pdseHTRateOnlyKillSwitch"
+- "_pdseHTRateOnlyPeriodDays"
+- "_pdseHTThirdPartyKillSwitch"
+- "_pdseHTThirdPartyNoLogUploadPeriodDays"
+- "_pdseHTThirdPartyPeriodDays"
+- "_pdseHangTracerKillSwitch"
+- "_pdseSentryKillSwitch"
+- "_pdseSentryPeriodDays"
+- "_pdseWBClientHangKillSwitch"
+- "_pdseWBClientHangPeriodDays"
+- "_pdseWorkflowResponsivenessKillSwitch"
+- "_pdseWorkflowResponsivenessPeriodDays"
+- "_persistentFGEmissionThresholdSec"
+- "_prefInitList"
+- "_prefsQueue"
+- "_profilePath"
+- "_removeAllPrefs"
+- "_replyQueue"
+- "_reportPeriodMATU"
+- "_requestXPCDictionary"
+- "_runLoopHangDailyLogLimit"
+- "_runLoopHangPerPeriodLogLimit"
+- "_runLoopLongHangDailyLogLimit"
+- "_runLoopMicroHangDailyLogLimit"
+- "_runloopHangDurationThresholdMSec"
+- "_runloopHangPercentHeavyLogs"
+- "_runloopHangThirdPartyDailyLogLimit"
+- "_runloopHangThirdPartyDurationThresholdMSec"
+- "_runloopHangTimeoutDurationMSec"
+- "_runloopLongHangDurationThresholdMSec"
+- "_samplingPercentForMicroHangs"
+- "_sandboxExtension"
+- "_savedTailspinMaxMB"
+- "_sharedDirectoryPath"
+- "_shmem_region"
+- "_shmem_size"
+- "_shouldAllowSentryEnablement"
+- "_shouldAllowWorkflowResponsivenessEnablement"
+- "_shouldAugmentSentryTailspinWithSignposts"
+- "_shouldCollectCPURoleInfo"
+- "_shouldCollectOSSignposts"
+- "_shouldCompressSavedTailspins"
+- "_shouldEmitTelemetry"
+- "_shouldIncludeDiskInfo"
+- "_shouldIncludeDisplayData"
+- "_shouldIncludeNetworkState"
+- "_shouldPostHTPrefsChangedNotification"
+- "_shouldSaveTailspins"
+- "_shouldUploadToDiagPipe"
+- "_signpostMonitoringDailyLogLimit"
+- "_signpostMonitoringEnabled"
+- "_signpostMonitoringPerPeriodLogLimit"
+- "_slowAppActivationDailyLogLimit"
+- "_slowAppActivationPerAppMaxLogLimit"
+- "_slowAppActivationTailspinEnabled"
+- "_slowAppActivationThresholdMSec"
+- "_springBoardHangIORegGPUDumpTimeoutMSec"
+- "_tailspinReportingThresholdSec"
+- "_tailspinSaveFormat"
+- "_thirdPartyDevBootSessionUUID"
+- "_thirdPartyDevHangHUDEnabled"
+- "_thirdPartyDevPreferredLanguages"
+- "_thirdPartyIncludeNonDevelopmentApps"
+- "_thirdPartyRunLoopHangLogsEnabled"
+- "_updateRunningBoardProcessMonitor"
+- "_workflowResponsivenessDailyLogLimit"
+- "_workflowResponsivenessEnabled"
+- "_workflowResponsivenessPerPeriodLogLimit"
+- "addObject:"
+- "addObserverForName:object:queue:usingBlock:"
+- "appActivationLoggingCPUUtilizationThresholdMSec"
+- "appActivationLoggingEnabled"
+- "appActivationLoggingMaxActivationLimit"
+- "appLaunchMonitoringEnabled"
+- "appendFormat:"
+- "appendString:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithObjects:count:"
+- "automationGroup"
+- "badDayEnablementDurationDays"
+- "badDayEnablementForHangDurationMSec"
+- "badDayEnablementForLogCount"
+- "badDayEnablementForPreviousDays"
+- "badDayEnablementMinimumBreakDurationDays"
+- "badDaySecondsBetweenLastEnablementAndReferenceDate"
+- "badDaySecondsBetweenLastEvaluationAndReferenceDate"
+- "blown"
+- "boolProperty:contextPrefixOut:"
+- "boolValue"
+- "bundle"
+- "bundleIdentifier"
+- "bytes"
+- "cStringUsingEncoding:"
+- "capitalizedString"
+- "charValue"
+- "checkHangForPid:"
+- "compare:"
+- "componentsJoinedByString:"
+- "connection"
+- "connectionQueue"
+- "consecutiveHangWaitTimeoutDurationMSec"
+- "containsObject:"
+- "containsString:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "cpuRole"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "customerModeEnabled"
+- "d"
+- "d16@0:8"
+- "d32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "dateWithTimeIntervalSince1970:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "dealloc"
+- "defaultCenter"
+- "defaultManager"
+- "description"
+- "descriptor"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObject:forKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "distantFuture"
+- "doubleProperty:contextPrefixOut:"
+- "doubleValue"
+- "earlyInitNecessaryPrefs"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "environment"
+- "eplEnabled"
+- "eplEnabledProfile"
+- "eplTimeoutTimestampSec"
+- "errorWithDomain:code:userInfo:"
+- "establishHangTracerConnection"
+- "experimentGroup"
+- "fenceHangDailyLogLimit"
+- "fenceTrackingEnabled"
+- "fileExistsAtPath:isDirectory:"
+- "fileSystemRepresentation"
+- "fileURLWithPath:isDirectory:"
+- "floatValue"
+- "forceQuitDetectionEnabled"
+- "forceQuitDetectionThresholdMSec"
+- "getClient"
+- "getHighestPrioritySettingValue:matchingSelector:contextPrefixOut:"
+- "getSharedPageFromPid:"
+- "hangWaitTimeoutDurationMSec"
+- "hangtracerDaemonEnabled"
+- "hasInternalSettings"
+- "hasPrefix:"
+- "hasSuffix:"
+- "haveNonDefaultFeatureFlags"
+- "haveRootsInstalled"
+- "haveSerialLoggingEnabled"
+- "htTailspinEnabled"
+- "hudEnabled"
+- "hudThresholdMSec"
+- "i16@0:8"
+- "i32@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16^@24"
+- "identifier"
+- "identifierForCurrentProcess"
+- "identifierWithPid:"
+- "indexOfObject:inSortedRange:options:usingComparator:"
+- "init"
+- "initBoolProperty:"
+- "initDoubleProperty:"
+- "initHTMonitorPidHangEvent:shmem_size:"
+- "initIntProperty:"
+- "initNSObjectProperty:"
+- "initNSStringProperty:"
+- "initPropertyHangtracerDaemonEnabled:"
+- "initPropertyHaveInternalSettings:"
+- "initPropertyIsInternal:"
+- "initPropertyReportPeriod:"
+- "initPropertyShouldSaveAndCompressTailspins:"
+- "initPropertySystemConditionsHUDEnabled:"
+- "initPropertyThirdPartyDevPreferredLanguages:"
+- "initRequest:error:"
+- "initRequestWithPath:dictionary:error:"
+- "initUnsignedIntProperty:"
+- "initUnsignedLongLongProperty:"
+- "initUnsignedLongProperty:"
+- "initWithFenceName:"
+- "initWithFormat:"
+- "initWithUUIDBytes:"
+- "insertObject:atIndex:"
+- "intProperty:contextPrefixOut:"
+- "intValue"
+- "invalidate"
+- "isCarryDevice"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isSystemConditionsHUDEnabled"
+- "keepTailspinsLegacy"
+- "lastObject"
+- "lastStateChangeTimestamp"
+- "length"
+- "longLongValue"
+- "longValue"
+- "mainBundle"
+- "mainQueue"
+- "minFGEmissionThresholdSec"
+- "monitorWithConfiguration:"
+- "mutableCopy"
+- "numOSCryptexFileExtents"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLong:"
+- "numberWithUnsignedLongLong:"
+- "objCType"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectProperty:matchingSelector:contextPrefixOut:"
+- "pdseAllowEnableTailspin"
+- "pdseAppLaunchKillSwitch"
+- "pdseAppLaunchPeriodDays"
+- "pdseCATailspinKillSwitch"
+- "pdseCATailspinPeriodDays"
+- "pdseHTBadDayKillSwitch"
+- "pdseHTPeriodDays"
+- "pdseHTRateOnlyKillSwitch"
+- "pdseHTRateOnlyPeriodDays"
+- "pdseHTThirdPartyKillSwitch"
+- "pdseHTThirdPartyNoLogUploadPeriodDays"
+- "pdseHTThirdPartyPeriodDays"
+- "pdseHangTracerKillSwitch"
+- "pdseSentryKillSwitch"
+- "pdseSentryPeriodDays"
+- "pdseWBClientHangKillSwitch"
+- "pdseWBClientHangPeriodDays"
+- "pdseWorkflowResponsivenessKillSwitch"
+- "pdseWorkflowResponsivenessPeriodDays"
+- "persistentFGEmissionThresholdSec"
+- "pingConnectionAsyncAPI:"
+- "pingConnectionSyncAPI:"
+- "postNotificationName:object:userInfo:"
+- "predicateMatchingIdentifier:"
+- "predicateMatchingIdentifiers:"
+- "prefContextPrefixPriorityOrder"
+- "prefInitList"
+- "prefNamed:domain:profile:matchingSelector:contextPrefixOut:"
+- "preferredLanguages"
+- "previousState"
+- "processInfo"
+- "rangeOfString:options:"
+- "refreshHTPrefs"
+- "removeItemAtURL:error:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removePidFromProcessMonitoring:"
+- "replyQueue"
+- "reportPeriodMATU"
+- "requestXPCDictionary"
+- "runLoopHangDailyLogLimit"
+- "runLoopHangPerPeriodLogLimit"
+- "runLoopLongHangDailyLogLimit"
+- "runLoopMicroHangDailyLogLimit"
+- "runloopHangDurationThresholdMSec"
+- "runloopHangPercentHeavyLogs"
+- "runloopHangThirdPartyDailyLogLimit"
+- "runloopHangThirdPartyDurationThresholdMSec"
+- "runloopHangTimeoutDurationMSec"
+- "runloopLongHangDurationThresholdMSec"
+- "samplingPercentForMicroHangs"
+- "sandboxExtensionForPath:"
+- "savedTailspinMaxMB"
+- "sendMessageToHangTracerWithReply:responseHandler:"
+- "sendMessageToHangTracerWithReplySync:error:"
+- "set"
+- "setAutomationGroup:"
+- "setEnableLoggingForPoster:"
+- "setEnableLoggingForWidgetRenderer:"
+- "setExperimentGroup:"
+- "setKeepTailspinsLegacy:"
+- "setObject:forKeyedSubscript:"
+- "setPredicates:"
+- "setServiceClass:"
+- "setShouldAllowSentryEnablement:"
+- "setShouldAllowWorkflowResponsivenessEnablement:"
+- "setShouldPostHTPrefsChangedNotification:"
+- "setStateDescriptor:"
+- "setTailspinSaveFormat:"
+- "setUpdateHandler:"
+- "setValue:forKey:"
+- "setValues:"
+- "set_htDomain:"
+- "set_htTaskingDomain:"
+- "set_installedHTProfileDict:"
+- "set_isInternalNoOverride:"
+- "set_prefsQueue:"
+- "set_profilePath:"
+- "setupPrefsWithQueue:"
+- "setupPrefsWithQueue:profilePath:taskingDomainName:hangtracerDomain:setupInternalPrefs:"
+- "setupRunningBoardProcessMonitorForPid:"
+- "sharedDirectoryPath"
+- "sharedPrefs"
+- "shmem_region"
+- "shmem_size"
+- "shortValue"
+- "shouldAllowSentryEnablement"
+- "shouldAllowWorkflowResponsivenessEnablement"
+- "shouldAugmentSentryTailspinWithSignposts"
+- "shouldCollectCPURoleInfo"
+- "shouldCollectOSSignposts"
+- "shouldCompressSavedTailspins"
+- "shouldDisplayFenceHangToHUD"
+- "shouldEmitTelemetry"
+- "shouldIncludeDiskInfo"
+- "shouldIncludeDisplayData"
+- "shouldIncludeNetworkState"
+- "shouldPostHTPrefsChangedNotification"
+- "shouldSaveTailspins"
+- "shouldUpdateHangsHUD"
+- "shouldUploadToDiagPipe"
+- "signpostMonitoringDailyLogLimit"
+- "signpostMonitoringEnabled"
+- "signpostMonitoringPerPeriodLogLimit"
+- "slowAppActivationDailyLogLimit"
+- "slowAppActivationPerAppMaxLogLimit"
+- "slowAppActivationTailspinEnabled"
+- "slowAppActivationThresholdMSec"
+- "sortUsingSelector:"
+- "springBoardHangIORegGPUDumpTimeoutMSec"
+- "standardUserDefaults"
+- "state"
+- "string"
+- "stringByAppendingFormat:"
+- "stringByAppendingString:"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringProperty:contextPrefixOut:"
+- "stringValue"
+- "stringWithCString:encoding:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "tags"
+- "tailspinSaveFormat"
+- "thirdPartyDevBootSessionUUID"
+- "thirdPartyDevHangHUDEnabled"
+- "thirdPartyDevPreferredLanguages"
+- "thirdPartyIncludeNonDevelopmentApps"
+- "thirdPartyRunLoopHangLogsEnabled"
+- "timeIntervalSince1970"
+- "timeIntervalSinceReferenceDate"
+- "unsignedCharValue"
+- "unsignedIntProperty:contextPrefixOut:"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongProperty:contextPrefixOut:"
+- "unsignedLongLongValue"
+- "unsignedLongProperty:contextPrefixOut:"
+- "unsignedLongValue"
+- "updateConfiguration:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8^{HTPrefInit=^{__CFString}^v(HTPrefDefaultVal=BiIQQd^v)(HTPrefDefaultVal=BiIQQd^v)Q:}16"
+- "v24@0:8^{__CFString=}16"
+- "v32@0:8@16@?24"
+- "v52@0:8@16@24^{__CFString=}32^{__CFString=}40B48"
+- "workflowResponsivenessDailyLogLimit"
+- "workflowResponsivenessEnabled"
+- "workflowResponsivenessPerPeriodLogLimit"
+- "\xf0\xf0A!f!"
+
+```

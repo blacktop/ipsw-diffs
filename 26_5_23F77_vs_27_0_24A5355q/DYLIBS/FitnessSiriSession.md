@@ -1,0 +1,266 @@
+## FitnessSiriSession
+
+> `/System/Library/PrivateFrameworks/FitnessSiriSession.framework/FitnessSiriSession`
+
+```diff
+
+-2026.5.5.0.0
+-  __TEXT.__text: 0x6ef8
+-  __TEXT.__auth_stubs: 0x3b0
+-  __TEXT.__const: 0x12e8
+-  __TEXT.__swift5_typeref: 0x3f5
+-  __TEXT.__cstring: 0xb1
+-  __TEXT.__constg_swiftt: 0x284
+-  __TEXT.__swift5_reflstr: 0x1b4
+-  __TEXT.__swift5_fieldmd: 0x2c0
+-  __TEXT.__swift5_proto: 0x118
+-  __TEXT.__swift5_types: 0x50
+-  __TEXT.__swift5_capture: 0x24
+-  __TEXT.__swift5_assocty: 0x70
+-  __TEXT.__swift_as_entry: 0x8
+-  __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x3c8
+-  __TEXT.__eh_frame: 0x590
+-  __DATA_CONST.__got: 0x98
+-  __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x1d8
+-  __AUTH_CONST.__const: 0xb00
+-  __DATA.__data: 0x218
+-  __DATA.__bss: 0x1b88
+-  __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0x780
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
++2027.0.107.1.3
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x40
+   - /System/Library/PrivateFrameworks/DataFlow.framework/DataFlow
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4176FFC7-832E-3E51-86C4-D0984DE6447B
+-  Functions: 310
+-  Symbols:   200
+-  CStrings:  10
++  UUID: 3C642949-95C4-3B0E-8FED-7D591DCC792D
++  Functions: 0
++  Symbols:   2
++  CStrings:  0
+ 
+Symbols:
+- <redacted>
+- ___chkstk_darwin
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy0_1
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy25_8
+- ___swift_memcpy32_8
+- ___swift_mutable_project_boxed_opaque_existential_1
+- ___swift_noop_void_return
+- ___swift_project_boxed_opaque_existential_1
+- ___swift_reflection_version
+- __swiftEmptyArrayStorage
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftSpatial
+- __swift_FORCE_LOAD_$_swiftSpatial_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftUIKit
+- __swift_FORCE_LOAD_$_swiftUIKit_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_FitnessSiriSession
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_FitnessSiriSession
+- __swift_stdlib_malloc_size
+- _associated conformance 18FitnessSiriSession0B21PersonalizationMethodOSHAASQ
+- _associated conformance 18FitnessSiriSession0B21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLOSHAASQ
+- _associated conformance 18FitnessSiriSession0B21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0B21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0B21StartWorkoutCandidateVSHAASQ
+- _associated conformance 18FitnessSiriSession0B5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOSHAASQ
+- _associated conformance 18FitnessSiriSession0B5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateO14IdleCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateO14IdleCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateO16ActiveCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateO16ActiveCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0B5StateOSHAASQ
+- _associated conformance 18FitnessSiriSession0b5BeginC8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLOSHAASQ
+- _associated conformance 18FitnessSiriSession0b5BeginC8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0b5BeginC8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0b5BeginC8CriteriaVSHAASQ
+- _associated conformance 18FitnessSiriSession0bC5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLOSHAASQ
+- _associated conformance 18FitnessSiriSession0bC5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0bC5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO05BeginC19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLOSHAASQ
+- _associated conformance 18FitnessSiriSession0bC6ActionO05BeginC19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO05BeginC19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLOSHAASQ
+- _associated conformance 18FitnessSiriSession0bC6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO22ViewAppearedCodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18FitnessSiriSession0bC6ActionO22ViewAppearedCodingKeys33_C176125ABAF8238BF223475F221A7216LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18FitnessSiriSession0bC7FeatureV14TaskIdentifierOSHAASQ
+- _associated conformance 18FitnessSiriSession0bC7FeatureV8DataFlow0D0AA10LocalStateAdEP_SQ
+- _associated conformance 18FitnessSiriSession0bC7FeatureV8DataFlow0D0AA11SharedStateAdEP_SQ
+- _associated conformance 18FitnessSiriSession0bC7FeatureV8DataFlow0D0AA6ActionAdEP_SE
+- _associated conformance 18FitnessSiriSession0bC7FeatureV8DataFlow0D0AA6ActionAdEP_Se
+- _associated conformance 18FitnessSiriSession13ContentRatingOSHAASQ
+- _associated conformance 18FitnessSiriSession13ContentRatingOs12CaseIterableAA8AllCasessADP_Sl
+- _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
+- _malloc_size
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initWithCopy
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocObject
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_makeBoxUnique
+- _swift_release
+- _swift_retain
+- _swift_task_alloc
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_willThrow
+- _symbolic $s8DataFlow7FeatureP
+- _symbolic $sSY
+- _symbolic $ss12CaseIterableP
+- _symbolic 7ElementSciQyd__
+- _symbolic 7FailureSciQyd__
+- _symbolic SS
+- _symbolic Say_____G 18FitnessSiriSession13ContentRatingO
+- _symbolic Shy_____G 18FitnessSiriSession0B21StartWorkoutCandidateV
+- _symbolic SuSg
+- _symbolic _____ 18FitnessSiriSession0B21PersonalizationMethodO
+- _symbolic _____ 18FitnessSiriSession0B21StartWorkoutCandidateV
+- _symbolic _____ 18FitnessSiriSession0B21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLO
+- _symbolic _____ 18FitnessSiriSession0B5StateO
+- _symbolic _____ 18FitnessSiriSession0B5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____ 18FitnessSiriSession0B5StateO14IdleCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____ 18FitnessSiriSession0B5StateO16ActiveCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____ 18FitnessSiriSession0B9ConstantsV
+- _symbolic _____ 18FitnessSiriSession0b5BeginC8CriteriaV
+- _symbolic _____ 18FitnessSiriSession0b5BeginC8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLO
+- _symbolic _____ 18FitnessSiriSession0bC11EnvironmentV
+- _symbolic _____ 18FitnessSiriSession0bC5StateV
+- _symbolic _____ 18FitnessSiriSession0bC5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLO
+- _symbolic _____ 18FitnessSiriSession0bC6ActionO
+- _symbolic _____ 18FitnessSiriSession0bC6ActionO05BeginC19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____ 18FitnessSiriSession0bC6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____ 18FitnessSiriSession0bC6ActionO22ViewAppearedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____ 18FitnessSiriSession0bC7FeatureV
+- _symbolic _____ 18FitnessSiriSession0bC7FeatureV14TaskIdentifierO
+- _symbolic _____ 18FitnessSiriSession13ContentRatingO
+- _symbolic _____ 8DataFlow10EmptyStateV
+- _symbolic _____8criteria_t 18FitnessSiriSession0b5BeginC8CriteriaV
+- _symbolic _____Sg3key_ScP8priority_____11onCollision_____0C8Disposalyyc9operationt s11AnyHashableV 8DataFlow27SideEffectCollisionBehaviorO AC0ef8DisposalH0O
+- _symbolic _______________XjyYaKc r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 18FitnessSiriSession0d5BeginE8CriteriaV s5NeverO
+- _symbolic _____y_____G 8DataFlow10SideEffectO 18FitnessSiriSession0fG6ActionO
+- _symbolic _____y_____G 8DataFlow10StoreProxyV 18FitnessSiriSession0fG6ActionO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0E21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0E5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0E5StateO14IdleCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0E5StateO16ActiveCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0e5BeginF8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0eF5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0eF6ActionO05BeginF19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0eF6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18FitnessSiriSession0eF6ActionO22ViewAppearedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0E21StartWorkoutCandidateV10CodingKeys33_C19168D29CED0D43E6D828DAA936326ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0E5StateO10CodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0E5StateO14IdleCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0E5StateO16ActiveCodingKeys33_3D7AC55B06E0E0008490B30BB5A7E764LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0e5BeginF8CriteriaV10CodingKeys33_0BDD21D3A2835B8ED91AF7ABC5E87E14LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0eF5StateV10CodingKeys33_E3BA2F711B379D9B0934B4BF03C94632LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0eF6ActionO05BeginF19RequestedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0eF6ActionO10CodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18FitnessSiriSession0eF6ActionO22ViewAppearedCodingKeys33_C176125ABAF8238BF223475F221A7216LLO
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8DataFlow10SideEffectO 18FitnessSiriSession0iJ6ActionO
+- _symbolic q_
+- _symbolic qd__
+- _symbolic x
+- _symbolic y_____YaKc 18FitnessSiriSession0b5BeginC8CriteriaV
+- _symbolic ypXmT______t s13DecodingErrorO7ContextV
+- _type_layout_string 18FitnessSiriSession0B21StartWorkoutCandidateV
+- _type_layout_string 18FitnessSiriSession0b5BeginC8CriteriaV
+- _type_layout_string 18FitnessSiriSession0bC11EnvironmentV
+- _type_layout_string 18FitnessSiriSession0bC5StateV
+- _type_layout_string 18FitnessSiriSession0bC6ActionO
+- _type_layout_string 18FitnessSiriSession0bC7FeatureV
+CStrings:
+- "Invalid number of keys found, expected one."
+- "beginSessionRequested"
+- "clean"
+- "explicit"
+- "healthKitActivityType"
+- "last"
+- "next"
+- "none"
+- "personalizationMethod"
+- "unspecified"
+
+```

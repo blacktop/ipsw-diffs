@@ -1,0 +1,38 @@
+## GreenfieldService-Companion
+
+> `/System/Library/PrivateFrameworks/NanoTimeKit.framework/XPCServices/GreenfieldService-Companion.xpc/GreenfieldService-Companion`
+
+```diff
+
+-2483.340.80.1.0
+-  __TEXT.__text: 0xf0
++2483.480.0.4.0
++  __TEXT.__text: 0xe4
+   __TEXT.__auth_stubs: 0xc0
+   __TEXT.__objc_stubs: 0xa0
+   __TEXT.__cstring: 0x2f
+   __TEXT.__oslogstring: 0x1c
+   __TEXT.__objc_methname: 0x34
+   __TEXT.__unwind_info: 0x58
++  __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__auth_got: 0x68
+   __DATA_CONST.__got: 0x18
+-  __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA.__objc_selrefs: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B951BF64-D504-3610-98D4-AD3F27843174
++  UUID: 2086F148-356A-3CD2-B163-54A9CFB09DBC
+   Functions: 1
+   Symbols:   19
+   CStrings:  8
+Symbols:
++ _objc_claimAutoreleasedReturnValue
+- _objc_retainAutoreleasedReturnValue
+Functions:
+~ _main : 240 -> 228
+
+```

@@ -1,0 +1,856 @@
+## PrivateCloudCompute
+
+> `/System/Library/PrivateFrameworks/PrivateCloudCompute.framework/PrivateCloudCompute`
+
+```diff
+
+-2364.120.3.0.0
+-  __TEXT.__text: 0xa8210
+-  __TEXT.__auth_stubs: 0x1660
+-  __TEXT.__objc_methlist: 0x138
+-  __TEXT.__const: 0xcc4c
+-  __TEXT.__cstring: 0x2344
+-  __TEXT.__oslogstring: 0xa6b
+-  __TEXT.__swift5_typeref: 0x275e
+-  __TEXT.__swift5_fieldmd: 0x3380
+-  __TEXT.__constg_swiftt: 0x22cc
+-  __TEXT.__swift5_protos: 0x24
+-  __TEXT.__swift5_proto: 0xac0
+-  __TEXT.__swift5_types: 0x340
+-  __TEXT.__swift5_reflstr: 0x2e63
+-  __TEXT.__swift5_assocty: 0x2b8
+-  __TEXT.__swift5_capture: 0x53c
+-  __TEXT.__swift_as_entry: 0x2f4
+-  __TEXT.__swift_as_ret: 0x33c
++2562.0.0.0.0
++  __TEXT.__text: 0xbf178
++  __TEXT.__objc_methlist: 0x150
++  __TEXT.__const: 0xee7c
++  __TEXT.__cstring: 0x2b1f
++  __TEXT.__oslogstring: 0xc7b
++  __TEXT.__swift5_typeref: 0x2d21
++  __TEXT.__swift5_fieldmd: 0x3ef8
++  __TEXT.__constg_swiftt: 0x288c
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_mpenum: 0x48
++  __TEXT.__swift5_reflstr: 0x3b56
++  __TEXT.__swift5_protos: 0x28
++  __TEXT.__swift5_proto: 0xce8
++  __TEXT.__swift5_types: 0x3e0
++  __TEXT.__swift5_assocty: 0x348
++  __TEXT.__swift5_capture: 0x718
++  __TEXT.__swift_as_entry: 0x324
++  __TEXT.__swift_as_ret: 0x370
++  __TEXT.__swift_as_cont: 0x478
++  __TEXT.__swift5_mpenum: 0x38
+   __TEXT.__swift5_types2: 0x8
+-  __TEXT.__unwind_info: 0x3478
+-  __TEXT.__eh_frame: 0x7220
+-  __TEXT.__objc_classname: 0x236
+-  __TEXT.__objc_methname: 0x7b9
+-  __TEXT.__objc_methtype: 0x510
+-  __TEXT.__objc_stubs: 0x480
+-  __DATA_CONST.__got: 0x3b0
+-  __DATA_CONST.__const: 0x148
++  __TEXT.__unwind_info: 0x3c60
++  __TEXT.__eh_frame: 0x8168
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1b0
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x130
++  __DATA_CONST.__objc_selrefs: 0x140
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xb38
+-  __AUTH_CONST.__const: 0x6b80
+-  __AUTH_CONST.__objc_const: 0xa08
+-  __AUTH.__objc_data: 0xe8
+-  __AUTH.__data: 0x9d8
+-  __DATA.__data: 0x21a0
+-  __DATA.__bss: 0x13180
+-  __DATA_DIRTY.__objc_data: 0x28
+-  __DATA_DIRTY.__data: 0x1318
+-  __DATA_DIRTY.__bss: 0x1c00
++  __DATA_CONST.__got: 0x448
++  __AUTH_CONST.__const: 0x83b8
++  __AUTH_CONST.__objc_const: 0xa80
++  __AUTH_CONST.__auth_got: 0xd20
++  __AUTH.__objc_data: 0x48
++  __AUTH.__data: 0x190
++  __DATA.__data: 0x1528
++  __DATA.__bss: 0xe980
++  __DATA_DIRTY.__objc_data: 0x78
++  __DATA_DIRTY.__data: 0x3168
++  __DATA_DIRTY.__bss: 0xa700
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Network.framework/Network
++  - /System/Library/PrivateFrameworks/AlgorithmsInternal.framework/AlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AppleIntelligenceReporting.framework/AppleIntelligenceReporting
++  - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
+   - /System/Library/PrivateFrameworks/CloudAttestation.framework/CloudAttestation
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 03C1B282-7045-3AAE-A77C-B63C61F7A947
+-  Functions: 4107
+-  Symbols:   1522
+-  CStrings:  386
++  UUID: B2CC5712-DF98-3CAC-BC65-25435592DB7C
++  Functions: 4846
++  Symbols:   1942
++  CStrings:  362
+ 
+Symbols:
++ _OBJC_CLASS_$_NSData
++ ___swift__destructor
++ ___swift__destructor.19
++ ___swift__destructor.22
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.298
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.306
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.320
++ ___swift_closure_destructor.326
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.330
++ ___swift_closure_destructor.334
++ ___swift_closure_destructor.340
++ ___swift_closure_destructor.344
++ ___swift_closure_destructor.348
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.354
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.362
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.376
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.382
++ ___swift_closure_destructor.386
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.390
++ ___swift_closure_destructor.396
++ ___swift_closure_destructor.400
++ ___swift_closure_destructor.404
++ ___swift_closure_destructor.410
++ ___swift_closure_destructor.414
++ ___swift_closure_destructor.418
++ ___swift_closure_destructor.422
++ ___swift_closure_destructor.426
++ ___swift_closure_destructor.430
++ ___swift_closure_destructor.437
++ ___swift_closure_destructor.441
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.76
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_get_extra_inhabitant_index.24Tm
++ ___swift_memcpy106_8
++ ___swift_memcpy17_8
++ ___swift_memcpy32_4
++ ___swift_memcpy65_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_store_extra_inhabitant_index.25Tm
++ __os_signpost_emit_with_name_impl
++ _associated conformance 19PrivateCloudCompute11LogCategoryOSHAASQ
++ _associated conformance 19PrivateCloudCompute12ResourcePoolOSHAASQ
++ _associated conformance 19PrivateCloudCompute12SignpostNameOSHAASQ
++ _associated conformance 19PrivateCloudCompute15RateLimitSourceOSHAASQ
++ _associated conformance 19PrivateCloudCompute16MapErrorSequenceV13AsyncIteratorVyxq__GScIAA7FailureScI_s0E0
++ _associated conformance 19PrivateCloudCompute16MapErrorSequenceVyxq_GSciAA13AsyncIteratorSci_ScI
++ _associated conformance 19PrivateCloudCompute17LookAheadSequenceV13AsyncIteratorVyx_GScIAA7FailureScI_s5Error
++ _associated conformance 19PrivateCloudCompute17LookAheadSequenceVyxGSciAA13AsyncIteratorSci_ScI
++ _associated conformance 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOSHAASQ
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute24ServiceClassCodableValueOSHAASQ
++ _associated conformance 19PrivateCloudCompute24ServiceClassCodableValueOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLOSHAASQ
++ _associated conformance 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO13LowCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO13LowCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO14HighCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO14HighCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO16MediumCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO16MediumCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO20BackgroundCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSO20BackgroundCodingKeys33_B0977407F7E19782380BAF5877EB0180LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19PrivateCloudCompute3QoSOSHAASQ
++ _block_copy_helper.12
++ _block_copy_helper.170
++ _block_copy_helper.173
++ _block_copy_helper.19
++ _block_copy_helper.228
++ _block_copy_helper.242
++ _block_copy_helper.256
++ _block_copy_helper.26
++ _block_copy_helper.270
++ _block_copy_helper.308
++ _block_copy_helper.322
++ _block_copy_helper.336
++ _block_copy_helper.350
++ _block_copy_helper.364
++ _block_copy_helper.378
++ _block_copy_helper.392
++ _block_copy_helper.406
++ _block_copy_helper.41
++ _block_copy_helper.433
++ _block_copy_helper.44
++ _block_copy_helper.50
++ _block_copy_helper.57
++ _block_copy_helper.64
++ _block_copy_helper.71
++ _block_copy_helper.78
++ _block_descriptor.14
++ _block_descriptor.172
++ _block_descriptor.175
++ _block_descriptor.21
++ _block_descriptor.230
++ _block_descriptor.244
++ _block_descriptor.258
++ _block_descriptor.272
++ _block_descriptor.28
++ _block_descriptor.310
++ _block_descriptor.324
++ _block_descriptor.338
++ _block_descriptor.352
++ _block_descriptor.366
++ _block_descriptor.380
++ _block_descriptor.394
++ _block_descriptor.408
++ _block_descriptor.43
++ _block_descriptor.435
++ _block_descriptor.46
++ _block_descriptor.52
++ _block_descriptor.59
++ _block_descriptor.66
++ _block_descriptor.73
++ _block_descriptor.80
++ _block_destroy_helper.13
++ _block_destroy_helper.171
++ _block_destroy_helper.174
++ _block_destroy_helper.20
++ _block_destroy_helper.229
++ _block_destroy_helper.243
++ _block_destroy_helper.257
++ _block_destroy_helper.27
++ _block_destroy_helper.271
++ _block_destroy_helper.309
++ _block_destroy_helper.323
++ _block_destroy_helper.337
++ _block_destroy_helper.351
++ _block_destroy_helper.365
++ _block_destroy_helper.379
++ _block_destroy_helper.393
++ _block_destroy_helper.407
++ _block_destroy_helper.42
++ _block_destroy_helper.434
++ _block_destroy_helper.45
++ _block_destroy_helper.51
++ _block_destroy_helper.58
++ _block_destroy_helper.65
++ _block_destroy_helper.72
++ _block_destroy_helper.79
++ _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute0cdE10ConnectionC14ProgressReaderVSgG noncopyable.26
++ _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute14AsyncSemaphoreC5State33_BD0FF237A02EA0C247A63731ED510163LLVG noncopyable.7
++ _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute21ResponseDemultiplexerC5StateVG noncopyable.2
++ _get_type_metadata 15Synchronization6AtomicVys5UInt8VG noncopyable.12
++ _get_witness_table 19PrivateCloudCompute0abC10ConnectionC14ProgressReaderVSciHPyHC.86
++ _objc_msgSend$addRateLimitWithSource:bundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:completion:
++ _objc_msgSend$prepareWithCompletion:
++ _objc_msgSend$prewarmRequestWithParametersData:completion:
++ _objc_msgSend$requestWithParametersData:completion:
++ _objc_msgSend$waitForRequestCompletionWithCompletion:
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_getForeignTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_makeBoxUnique
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_addCancellationHandler
++ _swift_task_removeCancellationHandler
++ _swift_willThrowTyped
++ _symbolic $s19PrivateCloudCompute30AppleIntelligenceEventReporterP
++ _symbolic 7ElementSciQz______yABSg7FailureSciQzGt s6ResultOsRi_zRi0_zrlE
++ _symbolic Say_____G 19PrivateCloudCompute24ServiceClassCodableValueO
++ _symbolic Scsy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic _____ 19PrivateCloudCompute11LogCategoryO
++ _symbolic _____ 19PrivateCloudCompute12ResourcePoolO
++ _symbolic _____ 19PrivateCloudCompute12SignpostNameO
++ _symbolic _____ 19PrivateCloudCompute15RateLimitSourceO
++ _symbolic _____ 19PrivateCloudCompute16MapErrorSequenceV
++ _symbolic _____ 19PrivateCloudCompute16MapErrorSequenceV13AsyncIteratorV
++ _symbolic _____ 19PrivateCloudCompute17LookAheadSequenceV
++ _symbolic _____ 19PrivateCloudCompute17LookAheadSequenceV13AsyncIteratorV
++ _symbolic _____ 19PrivateCloudCompute17PrewarmParametersV
++ _symbolic _____ 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLO
++ _symbolic _____ 19PrivateCloudCompute17RequestParametersV
++ _symbolic _____ 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLO
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV
++ _symbolic _____ 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV
++ _symbolic _____ 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____ 19PrivateCloudCompute20PrewarmConfigurationV
++ _symbolic _____ 19PrivateCloudCompute20RequestConfigurationV
++ _symbolic _____ 19PrivateCloudCompute21AppleIntelligenceStepV
++ _symbolic _____ 19PrivateCloudCompute24ServiceClassCodableValueO
++ _symbolic _____ 19PrivateCloudCompute25RequestSetupConfigurationV
++ _symbolic _____ 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLO
++ _symbolic _____ 19PrivateCloudCompute29AppleIntelligenceStepReporterV
++ _symbolic _____ 19PrivateCloudCompute3QoSO
++ _symbolic _____ 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____ 19PrivateCloudCompute3QoSO13LowCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____ 19PrivateCloudCompute3QoSO14HighCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____ 19PrivateCloudCompute3QoSO16MediumCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____ 19PrivateCloudCompute3QoSO20BackgroundCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____ 26AppleIntelligenceReporting13EventReporterC
++ _symbolic _____ 26AppleIntelligenceReporting14UUIDIdentifierV
++ _symbolic _____ So13audit_token_ta
++ _symbolic _____Sg 19PrivateCloudCompute24ServiceClassCodableValueO
++ _symbolic _____Sg 19PrivateCloudCompute3QoSO
++ _symbolic _____Sg 7Network12NWParametersC12ServiceClassO
++ _symbolic _____Sg So13audit_token_ta
++ _symbolic _____Sg s5Int32V
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic ______A13At s5UInt8V
++ _symbolic ______A7At s6UInt32V
++ _symbolic _____y7ElementSciQzSg7FailureSciQzGSg s6ResultOsRi_zRi0_zrlE
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____yScsy___________pGG 19PrivateCloudCompute13DataAssemblerV 10Foundation0D0V s5ErrorP
++ _symbolic _____yScsy___________pG_G 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV 10Foundation0D0V s5ErrorP
++ _symbolic _____yScsy___________pG_GSg 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV 10Foundation0D0V s5ErrorP
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute3QoSO13LowCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute3QoSO14HighCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute3QoSO16MediumCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19PrivateCloudCompute3QoSO20BackgroundCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17PrewarmParametersV10CodingKeys33_A7D02AF067D2B75061164D7A908677E1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17RequestParametersV10CodingKeys33_1A62EBC0AA609EBC2A939B39F2707E70LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute17XPCRequestMessageO23CancelSubrequestPayloadV10CodingKeys33_4128466E13E02752CFF7D292A041C91FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV10CodingKeys33_B90AA2BDE365127EA5C57398FA187564LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute25RequestSetupConfigurationV10CodingKeys33_A2A2489B9617D3EA5036B188340BE208LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute3QoSO10CodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute3QoSO13LowCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute3QoSO14HighCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute3QoSO16MediumCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19PrivateCloudCompute3QoSO20BackgroundCodingKeys33_B0977407F7E19782380BAF5877EB0180LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y___________p_G Scs8IteratorV 10Foundation4DataV s5ErrorP
++ _symbolic _____y_____ySay_____GG______pG 19PrivateCloudCompute16MapErrorSequenceV 23AsyncAlgorithmsInternal0g4SyncF0V 10Foundation4DataV s0E0P
++ _symbolic _____y_____y_____GG s5SliceV s12LazySequenceV 10Foundation4DataV
++ _symbolic _____y_____y_____y_____GG______pG 19PrivateCloudCompute16MapErrorSequenceV 23AsyncAlgorithmsInternal0g4SyncF0V s15CollectionOfOneV 10Foundation4DataV s0E0P
++ _symbolic _____y_____y_____y_____G_____y_____y_____yADGGADGGG 23AsyncAlgorithmsInternal0A12SyncSequenceV 0bC006Chain2E0V s15CollectionOfOneV 10Foundation4DataV s07LazyMapE0V AD06Chunksh5CountG0V s0lE0V
++ _symbolic _____yx_G 19PrivateCloudCompute17LookAheadSequenceV13AsyncIteratorV
++ _symbolic _____yxq__G 19PrivateCloudCompute16MapErrorSequenceV13AsyncIteratorV
++ _symbolic q_7FailureSciQzYac
++ _symbolic xSg
++ _symbolic ySay______pGYbc s5ErrorP
++ _type_layout_string 19PrivateCloudCompute17PrewarmParametersV
++ _type_layout_string 19PrivateCloudCompute17XPCRequestMessageO11DataPayloadV
++ _type_layout_string 19PrivateCloudCompute17XPCRequestMessageO21OpenSubrequestPayloadV
++ _type_layout_string 19PrivateCloudCompute17XPCRequestMessageO21SubrequestDataPayloadV
++ _type_layout_string 19PrivateCloudCompute17XPCRequestMessageO22CloseSubrequestPayloadV
++ _type_layout_string 19PrivateCloudCompute18XPCResponseMessageO11DataPayloadV
++ _type_layout_string 19PrivateCloudCompute18XPCResponseMessageO22OpenSubresponsePayloadV
++ _type_layout_string 19PrivateCloudCompute18XPCResponseMessageO22SubresponseDataPayloadV
++ _type_layout_string 19PrivateCloudCompute18XPCResponseMessageO23CloseSubresponsePayloadV
++ _type_layout_string 19PrivateCloudCompute21AppleIntelligenceStepV
++ _type_layout_string 19PrivateCloudCompute25RequestSetupConfigurationV
++ _type_layout_string So13audit_token_ta
+- ___swift_get_extra_inhabitant_index.21Tm
+- ___swift_memcpy128_8
+- ___swift_memcpy57_8
+- ___swift_memcpy72_8
+- ___swift_store_extra_inhabitant_index.22Tm
+- ___unnamed_4
+- ___unnamed_9
+- _associated conformance 19PrivateCloudCompute14TC2LogCategoryOSHAASQ
+- _associated conformance 19PrivateCloudCompute24AsyncSequenceFromClosureV0D8IteratorVyx_GScIAA7FailureScI_s5Error
+- _associated conformance 19PrivateCloudCompute24AsyncSequenceFromClosureVyxGSciAA0D8IteratorSci_ScI
+- _block_copy_helper.138
+- _block_copy_helper.141
+- _block_copy_helper.144
+- _block_copy_helper.157
+- _block_copy_helper.171
+- _block_copy_helper.185
+- _block_copy_helper.199
+- _block_copy_helper.213
+- _block_copy_helper.227
+- _block_copy_helper.241
+- _block_copy_helper.255
+- _block_copy_helper.269
+- _block_copy_helper.283
+- _block_copy_helper.297
+- _block_copy_helper.311
+- _block_copy_helper.325
+- _block_copy_helper.339
+- _block_copy_helper.353
+- _block_copy_helper.367
+- _block_copy_helper.381
+- _block_copy_helper.395
+- _block_copy_helper.40
+- _block_copy_helper.414
+- _block_descriptor.140
+- _block_descriptor.143
+- _block_descriptor.146
+- _block_descriptor.159
+- _block_descriptor.173
+- _block_descriptor.187
+- _block_descriptor.201
+- _block_descriptor.215
+- _block_descriptor.229
+- _block_descriptor.243
+- _block_descriptor.257
+- _block_descriptor.271
+- _block_descriptor.285
+- _block_descriptor.299
+- _block_descriptor.313
+- _block_descriptor.327
+- _block_descriptor.341
+- _block_descriptor.355
+- _block_descriptor.369
+- _block_descriptor.383
+- _block_descriptor.397
+- _block_descriptor.416
+- _block_descriptor.42
+- _block_destroy_helper.139
+- _block_destroy_helper.142
+- _block_destroy_helper.145
+- _block_destroy_helper.158
+- _block_destroy_helper.172
+- _block_destroy_helper.186
+- _block_destroy_helper.200
+- _block_destroy_helper.214
+- _block_destroy_helper.228
+- _block_destroy_helper.242
+- _block_destroy_helper.256
+- _block_destroy_helper.270
+- _block_destroy_helper.284
+- _block_destroy_helper.298
+- _block_destroy_helper.312
+- _block_destroy_helper.326
+- _block_destroy_helper.340
+- _block_destroy_helper.354
+- _block_destroy_helper.368
+- _block_destroy_helper.382
+- _block_destroy_helper.396
+- _block_destroy_helper.41
+- _block_destroy_helper.415
+- _get_enum_tag_for_layout_string 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV5StateOyAA0F19SequenceFromClosureVy10Foundation0D0VG__G
+- _get_enum_tag_for_layout_string 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV5StateOyx__G
+- _get_enum_tag_for_layout_string 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorVyAA0F19SequenceFromClosureVy10Foundation0D0VG_GSg
+- _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute0cdE10ConnectionC14ProgressReaderVSgG noncopyable.34
+- _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute14AsyncSemaphoreC5State33_BD0FF237A02EA0C247A63731ED510163LLVG noncopyable.8
+- _get_type_metadata 15Synchronization5MutexVy19PrivateCloudCompute21ResponseDemultiplexerC5StateVG noncopyable.3
+- _get_type_metadata 15Synchronization6AtomicVys5UInt8VG noncopyable.13
+- _get_witness_table 19PrivateCloudCompute0abC10ConnectionC14ProgressReaderVSciHPyHC.90
+- _objc_msgSend$addRateLimitWithBundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:completion:
+- _objc_msgSend$prewarmRequestWithWorkloadType:workloadParameters:bundleIdentifier:featureIdentifier:runOnEventStream:completion:
+- _objc_msgSend$trustedRequestWithParameters:requestID:multiTurn:bundleIdentifier:originatingBundleIdentifier:featureIdentifier:sessionIdentifier:completion:
+- _objc_retain_x22
+- _objectdestroy.6Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic SS_ypt
+- _symbolic Si3key______5valuetSg 19PrivateCloudCompute10XPCWrapperC12Continuation33_3934473871C9CFACF128CA0BA4F22F4ALLO
+- _symbolic _____ 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV5StateO
+- _symbolic _____ 19PrivateCloudCompute14TC2LogCategoryO
+- _symbolic _____ 19PrivateCloudCompute24AsyncSequenceFromClosureV
+- _symbolic _____ 19PrivateCloudCompute24AsyncSequenceFromClosureV0D8IteratorV
+- _symbolic _____ 2os6LoggerV
+- _symbolic _____9totalSize______6bufferSi13bytesReceivedt s6UInt32V 10Foundation4DataV
+- _symbolic _____Sg 19PrivateCloudCompute07TrustedbC9RateLimitV
+- _symbolic _____Sg 19PrivateCloudCompute30TrustedRequestEndpointMetadataV
+- _symbolic ______Sbt 10Foundation4DataV
+- _symbolic ___________Say_____Gt s6UInt64V 19PrivateCloudCompute0bcD10ConnectionC7RequestV8PriorityO AG20OpaqueCryptoMaterialV
+- _symbolic ___________t s6UInt64V 10Foundation4DataV
+- _symbolic ___________t s6UInt64V 19PrivateCloudCompute18XPCResponseMessageO17SubresponseStatusO
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSg s5ErrorP
+- _symbolic _____y_____y_____G_G 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV AA0F19SequenceFromClosureV 10Foundation0D0V
+- _symbolic _____y_____y_____G_GSg 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV AA0F19SequenceFromClosureV 10Foundation0D0V
+- _symbolic _____yx_G 19PrivateCloudCompute24AsyncSequenceFromClosureV0D8IteratorV
+- _symbolic _____yx__G 19PrivateCloudCompute13DataAssemblerV13AsyncIteratorV5StateO
+- _symbolic xSgyYaKc
+- _symbolic ypSg
+- _symbolic ytSg
+- _type_layout_string 19PrivateCloudCompute0abC10ConnectionC7RequestV8ResponseV13AsyncIteratorV
+- _type_layout_string SciRz10Foundation4DataV7ElementRtzl19PrivateCloudCompute0B9AssemblerV13AsyncIteratorV5StateOyx__G
+- _type_layout_string l19PrivateCloudCompute24AsyncSequenceFromClosureVyxG
+CStrings:
++ "%s knownRateLimits, bundleIdentifier=%s, featureIdentifier=%s, skipFetch=%{bool}d"
++ "%s prewarm, configuration=%s"
++ "%s withRequest xpc proxy closing"
++ "AttestationFetch"
++ "AttestationVerification"
++ "BatchedPrefetch"
++ "BatchedPrefetchRequest"
++ "CatalogFetch"
++ "CheckAttestationsExist"
++ "CleanupUnreferencedNodes"
++ "ConfigurationUpdate"
++ "DeleteAllAttestations"
++ "DeleteExpiredAttestations"
++ "DeleteNode"
++ "DeleteUsedAttestationBatch"
++ "DeleteUsedAttestations"
++ "DiscardPendingAttestations"
++ "Expected larger first chunk, count=%ld"
++ "Expected less data, count=%ld, totalSize=%u"
++ "Expected more chunks, count=%ld, totalSize=%u"
++ "Expected smaller first chunk, count=%ld, totalSize=%u"
++ "Failed to emit AppleIntelligence end event; id=%s, error=%@"
++ "Failed to emit AppleIntelligence start event; id=%s, error=%@"
++ "FetchOTT"
++ "FinalizeAttestations"
++ "GetAttestationsUsedByTrustedRequest"
++ "LegacyAttestationStore"
++ "LoadAttestationsFromCache"
++ "Migrator"
++ "NetworkRequest"
++ "Prefetch"
++ "PrefetchVerifyAndStore"
++ "PrewarmParameters"
++ "RateLimit"
++ "Reassembly progress: count=%ld, totalSize=%u"
++ "RequestParameters"
++ "RequestParameters init, qos=%s, Task.currentPriority=%s"
++ "RequestProcessing"
++ "RequestSetupConfiguration"
++ "RetrieveCachedAttestations"
++ "SaveValidatedAttestation"
++ "StageValidatedAttestation"
++ "TokenGeneration"
++ "VaultAccess"
++ "VaultConfiguration"
++ "VerifyAttestation"
++ "XPCCommunication"
++ "XPCWrapper"
++ "[Error] Interval already ended"
++ "addRateLimit(source:bundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:)"
++ "antiTargetabilityMaxPrefetchedAttestations"
++ "applicationDataChunkingPreProduction"
++ "applicationDataChunkingSize"
++ "attestationStoreV3"
++ "background"
++ "bestEffort"
++ "boundedNetworkReads"
++ "cancellationReason"
++ "device"
++ "enforceAntiTargetability"
++ "enforceAntiTargetabilityOnPreProduction"
++ "enforceAntiTargetabilityOnPrefetch"
++ "failAllRunningRequestsAndRestartConnection"
++ "failed to decode RequestSetupConfiguration from prepare response file="
++ "finishing progress continuation, xpcRequestID=%ld"
++ "forceTokenFetcherTestOptions"
++ "interactiveVideo"
++ "interactiveVoice"
++ "knownRateLimits"
++ "loggedCountRollDate"
++ "networkConnectionReadSize"
++ "opaqueCryptoMaterial"
++ "originatingBundleIdentifier"
++ "overrideAuditToken"
++ "parentOfOnBehalfOfPID"
++ "prefetchRequest(workloadType:workloadParameters:) has been deprecated and does nothing now. Please switch to newer API."
++ "prepare returned no data file="
++ "prepare(proxy:connectionID:)"
++ "prewarm"
++ "prewarm(workloadType:workloadParameters:bundleIdentifierOverride:featureIdentifier:) has been deprecated and does nothing now. Please switch to newer API."
++ "prewarmRequest(parametersData:)"
++ "request(parametersData:)"
++ "requestCancellationV2"
++ "responsiveData"
++ "ropes"
++ "routingKey"
++ "secTaskBundleIDResolution"
++ "serverDrivenIssuerMapping"
++ "serverDrivenIssuerMappingPreProduction"
++ "signaling"
++ "tie-cloudboard-apple-com"
++ "vault"
++ "vaultConfiguration"
++ "waitForRequestCompletion(connectionID:proxy:)"
++ "withConnection waitForRequestCompletion"
++ "withRequest waitForRequestCompletion"
+- "%s withTrustedRequest cancelled"
+- "%s withTrustedRequest finished"
+- "%s withTrustedRequest started"
+- "%s withTrustedRequest xpc proxy closing"
+- "%s write cancelling proxy"
+- "@16@0:8"
+- "Chunk too large: received=%ld expected=%u"
+- "Failed to emit start reporting event; id=%s, error=%@"
+- "First chunk size %ld exceeds total size %u from prefix - invalid framing"
+- "PCCServerEnvironment"
+- "Reassembly complete size=%ld"
+- "Reassembly progress: %ld/%u bytes"
+- "RequestLog"
+- "Size mismatch: received=%ld expected=%u"
+- "_TtC19PrivateCloudCompute10XPCWrapper"
+- "_TtC19PrivateCloudCompute14AsyncSemaphore"
+- "_TtC19PrivateCloudCompute15SubrequestProxy"
+- "_TtC19PrivateCloudCompute21ResponseDemultiplexer"
+- "_TtC19PrivateCloudCompute25TrustedCloudComputeClient"
+- "_TtC19PrivateCloudCompute29PrivateCloudComputeConnection"
+- "_TtCC19PrivateCloudCompute14AsyncSemaphoreP33_BD0FF237A02EA0C247A63731ED5101636Waiter"
+- "_TtP19PrivateCloudCompute17TC2DaemonProtocol_"
+- "_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_"
+- "_nextConnectionID"
+- "_nextRequestID"
+- "_priority"
+- "_setQueue:"
+- "addRateLimit(bundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:)"
+- "addRateLimitWithBundleIdentifier:featureIdentifier:workloadType:count:duration:ttl:jitter:completion:"
+- "cancelWithCompletion:"
+- "client"
+- "closeWithCompletion:"
+- "code"
+- "configuration"
+- "connection"
+- "connectionID"
+- "continuation"
+- "createSubrequestWithRequest:completion:"
+- "currentEnvironmentWithCompletion:"
+- "domain"
+- "echoWithText:completion:"
+- "event"
+- "eventState"
+- "featureFlagChecker"
+- "fetchServerDrivenConfigurationWithCompletion:"
+- "init"
+- "initWithDomain:code:userInfo:"
+- "initWithMachServiceName:options:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "jsonDecoder"
+- "knownRateLimitsWithBundleIdentifier:featureIdentifier:skipFetch:completion:"
+- "listRateLimitsWithBundleIdentifier:featureIdentifier:fetch:completion:"
+- "listServerDrivenConfigurationWithCompletion:"
+- "logPrefix"
+- "logger"
+- "nextProgressWithCompletion:"
+- "nextWithCompletion:"
+- "prefetchCacheResetWithCompletion:"
+- "prefetchCacheWithCompletion:"
+- "prefetchParametersCacheSavedStateWithCompletion:"
+- "prefetchParametersCacheWithCompletion:"
+- "prefetchRequestWithWorkloadType:workloadParameters:completion:"
+- "prewarm.prefetchRequest"
+- "prewarmRequest(workloadType:workloadParameters:bundleIdentifier:featureIdentifier:runOnEventStream:)"
+- "prewarmRequestWithWorkloadType:workloadParameters:bundleIdentifier:featureIdentifier:runOnEventStream:completion:"
+- "producer"
+- "progressReader"
+- "queue"
+- "remoteObjectProxy"
+- "request"
+- "requestId"
+- "resetRateLimitsWithCompletion:"
+- "responseDemultiplexer"
+- "resume"
+- "runningRequests"
+- "selectedEnvironmentNameWithCompletionHandler:"
+- "sendWithData:completion:"
+- "setInterface:forSelector:argumentIndex:ofReply:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setRemoteObjectInterface:"
+- "setServerDrivenConfigurationWithJson:completion:"
+- "state"
+- "stateMutex"
+- "subrequestIdGenerator"
+- "trustedRequest(withParameters:requestID:multiTurn:bundleIdentifier:originatingBundleIdentifier:featureIdentifier:sessionIdentifier:)"
+- "trustedRequestWithParameters:requestID:multiTurn:bundleIdentifier:originatingBundleIdentifier:featureIdentifier:sessionIdentifier:completion:"
+- "userID"
+- "userInfo"
+- "v12@?0B8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"NSString\"8"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@?0@\"<_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_>\"8@\"NSData\"16"
+- "v24@?0@\"NSData\"8@\"NSData\"16"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSData\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@16@?24"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSData\">32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"NSData\">36"
+- "v44@0:8@16@24B32@?36"
+- "v60@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSString\"40B48@?<v@?>52"
+- "v60@0:8@16@24@32@40B48@?52"
+- "v76@0:8@\"NSData\"16@\"NSUUID\"24B32@\"NSString\"36@\"NSString\"44@\"NSString\"52@\"NSUUID\"60@?<v@?@\"<_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_>\"@\"NSData\">68"
+- "v76@0:8@16@24B32@36@44@52@60@?68"
+- "v80@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32Q40d48d56d64@?<v@?>72"
+- "v80@0:8@16@24@32Q40d48d56d64@?72"
+- "v8@?0"
+- "xpc"
+- "xpcProxy"
+
+```

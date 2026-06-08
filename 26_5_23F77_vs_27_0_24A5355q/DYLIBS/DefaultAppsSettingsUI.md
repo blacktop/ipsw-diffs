@@ -1,0 +1,330 @@
+## DefaultAppsSettingsUI
+
+> `/System/Library/PrivateFrameworks/DefaultAppsSettingsUI.framework/DefaultAppsSettingsUI`
+
+```diff
+
+-14.4.1.0.0
+-  __TEXT.__text: 0x1ddd8
+-  __TEXT.__auth_stubs: 0x1030
++17.0.0.0.0
++  __TEXT.__text: 0x1d148
+   __TEXT.__objc_methlist: 0x284
+-  __TEXT.__const: 0x1284
+-  __TEXT.__swift5_typeref: 0x1289
+-  __TEXT.__swift5_reflstr: 0x4e2
++  __TEXT.__const: 0x12a4
++  __TEXT.__swift5_typeref: 0x1267
++  __TEXT.__swift5_reflstr: 0x502
+   __TEXT.__swift5_assocty: 0xd8
+   __TEXT.__constg_swiftt: 0x3bc
+-  __TEXT.__swift5_fieldmd: 0x358
++  __TEXT.__swift5_fieldmd: 0x364
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__cstring: 0x95a
++  __TEXT.__cstring: 0x97a
+   __TEXT.__swift5_proto: 0x64
+   __TEXT.__swift5_types: 0x38
+-  __TEXT.__swift5_capture: 0x154
++  __TEXT.__swift5_capture: 0x144
+   __TEXT.__swift_as_entry: 0x14
++  __TEXT.__swift_as_cont: 0x14
+   __TEXT.__oslogstring: 0x36f
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0x6e0
+-  __TEXT.__eh_frame: 0x820
+-  __TEXT.__objc_classname: 0x28f
+-  __TEXT.__objc_methname: 0xced
+-  __TEXT.__objc_methtype: 0x10f
+-  __TEXT.__objc_stubs: 0x440
+-  __DATA_CONST.__got: 0x300
+-  __DATA_CONST.__const: 0xb8
++  __TEXT.__unwind_info: 0x6d0
++  __TEXT.__eh_frame: 0x848
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xb0
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x258
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x820
+-  __AUTH_CONST.__const: 0x541
+-  __AUTH_CONST.__objc_const: 0xa68
++  __DATA_CONST.__got: 0x310
++  __AUTH_CONST.__const: 0x519
++  __AUTH_CONST.__objc_const: 0xa88
++  __AUTH_CONST.__auth_got: 0x8c8
+   __AUTH.__objc_data: 0x2c0
+   __AUTH.__data: 0x430
+-  __DATA.__data: 0x6b8
+-  __DATA.__bss: 0xd30
++  __DATA.__data: 0x6f8
++  __DATA.__bss: 0xd40
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x1e8
++  __DATA_DIRTY.__data: 0x1e0
+   __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 79CEE287-4190-3DA5-BA80-31838D17D542
+-  Functions: 571
+-  Symbols:   452
+-  CStrings:  210
++  UUID: 5BC9553E-9B17-36B9-8811-F82B4CD51E03
++  Functions: 578
++  Symbols:   510
++  CStrings:  64
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.8
++ ___swift_closure_destructorTm
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAcAE7toolbar7contentQrqd__yXE_tAA07ToolbarI0Rd__lFQOyAC8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQOyAcLE0N14ListAppearanceQryFQOyAcAE013navigationBarR11DisplayModeyQrAA0qV4ItemV0rwX0OFQOyAcAE0uR0yQrAA4TextVFQOyAcAE0U11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQOyAA0S0Vys5NeverOAA05TupleI0VyAL0mopC0V_AA7ForEachVySay011DefaultAppsmB0011DefaultAppsM5GroupCG10Foundation4UUIDVAA7SectionVyAA05EmptyC0VA7_ySay011DefaultAppsM0011DefaultAppsM8Provider_pGSSAA0Q4LinkVyAHyAA07LabeledI0VyA2VGAA31AccessibilityAttachmentModifierVGA1_GSgGA18_GSgGQPGG_SSAcAEATyQrqd__SyRd__lFQOyAA03AnyC0V_SSQo_SgQo__Qo__Qo__Qo__SSQo__AA0lY0VyytAHyAvA14_OpacityEffectVGGQo_AA01_T14ActionModifierVG_A12_3URLVSgQo_HO.16
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP014_IconServices_aB0E15iconDrawsBorderyQrSbSgFQOyAA4ListVys5NeverOAA15ModifiedContentVyAA7SectionVyAA05EmptyC0VAcAE11pickerStyleyQrqd__AA06PickerP0Rd__lFQOyAcAE12labelsHiddenQryFQOyAA0Q0VyAA4TextV019DefaultAppsSettingsB09AppRecordCAA0Q7BuilderV0L0VyAZ_AA7ForEachVySayAZGSSAA0Q6OptionVyAzA5LabelVyAwA012_ConditionalL0VyAD05AsyncD5ImageVyAA5ImageVGA11_yA11_yA16_ALyA16_AA01_S8ModifierVGGA16_GGGGGGG_Qo__AA06InlineqP0VQo_AWSgGAA32_EnvironmentKeyTransformModifierVySbGGG_Qo_HO.88
++ _keypath_setTm
++ _objc_retain_x2
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic _____ySdG 7SwiftUI9LazyStateV
++ _symbolic _____ySd_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 019DefaultAppsSettingsB00efG5ModelC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 019DefaultAppsSettingsB00fgH5ModelC
++ _symbolic _____y___________ySay_____G__________y_____ACySay______pGSS_____y_____y_____y_____ANG_____G_____GSgGAHGSgGQPG 7SwiftUI12TupleContentV 8Settings0E22FeatureDescriptionViewV AA7ForEachV 011DefaultAppseB00klE5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyH0V 0klE00klE8ProviderP AA14NavigationLinkV AA08ModifiedD0V AA07LabeledD0V AA4TextV AA31AccessibilityAttachmentModifierV s5NeverO
++ _symbolic _____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG 7SwiftUI4ListV s5NeverO AA12TupleContentV 8Settings0G22FeatureDescriptionViewV AA7ForEachV 011DefaultAppsgB00mnG5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyJ0V 0mnG00mnG8ProviderP AA14NavigationLinkV AA08ModifiedF0V AA07LabeledF0V AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG_SS_____y______SSQo_SgQo_ 7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA12TupleContentV 8Settings0l18FeatureDescriptionC0V AA7ForEachV 011DefaultAppslB00qrL5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0qrL00qrL8ProviderP AA14NavigationLinkV AA08ModifiedK0V AA07LabeledK0V AA4TextV AA31AccessibilityAttachmentModifierV AcAE0D5TitleyQrqd__SyRd__lFQO AA03AnyC0V
++ _symbolic _____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG_SS_____y______SSQo_SgQo__Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQO AcAE0D11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA12TupleContentV 8Settings0n18FeatureDescriptionC0V AA7ForEachV 011DefaultAppsnB00stN5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0stN00stN8ProviderP AA14NavigationLinkV AA08ModifiedM0V AA07LabeledM0V AF AA31AccessibilityAttachmentModifierV AcAEADyQrqd__SyRd__lFQO AA03AnyC0V
++ _symbolic _____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG_SS_____y______SSQo_SgQo__Qo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrAA4TextVFQO AcAE0D11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA12TupleContentV 8Settings0s18FeatureDescriptionC0V AA7ForEachV 011DefaultAppssB00xyS5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0xyS00xyS8ProviderP AA0I4LinkV AA08ModifiedR0V AA07LabeledR0V AK AA31AccessibilityAttachmentModifierV AcAEAIyQrqd__SyRd__lFQO AA03AnyC0V
++ _symbolic _____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo_ 7SwiftUI4ViewP8SettingsE22settingsListAppearanceQryFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrAA4TextVFQO AcAE0H11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0F0V s5NeverO AA12TupleContentV AD0d18FeatureDescriptionC0V AA7ForEachV 011DefaultAppsdB00z4AppsD5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0z4AppsD00z4AppsD8ProviderP AA0M4LinkV AA08ModifiedU0V AA07LabeledU0V AM AA31AccessibilityAttachmentModifierV AcAEAKyQrqd__SyRd__lFQO AA03AnyC0V
++ _symbolic _____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGQPGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_ 7SwiftUI4ViewP8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AcDE0E14ListAppearanceQryFQO AcAE013navigationBarI11DisplayModeyQrAA0hM4ItemV0inO0OFQO AcAE0lI0yQrAA4TextVFQO AcAE0L11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0J0V s5NeverO AA12TupleContentV AD0dfgC0V AA7ForEachV 011DefaultAppsdB00z4AppsD5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0z4AppsD00z4AppsD8ProviderP AA0H4LinkV AA08ModifiedW0V AA07LabeledW0V AN AA31AccessibilityAttachmentModifierV AcAEALyQrqd__SyRd__lFQO AA03AnyC0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AFySay______pGSS_____yAAy_____y_____APG_____GACGSgGAKGSgGQPGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_______yytAAyAP_____GGQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AE8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AeIE0J14ListAppearanceQryFQO AeAE013navigationBarN11DisplayModeyQrAA0mR4ItemV0nsT0OFQO AeAE0qN0yQrAA4TextVFQO AeAE0Q11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaDRd_0_r0_lFQO AA0O0V s5NeverO AA05TupleD0V AI0iklE0V AA7ForEachV 011DefaultAppsiB0011DefaultAppsI5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyE0V 011DefaultAppsI0011DefaultAppsI8ProviderP AA0M4LinkV AA07LabeledD0V AS AA31AccessibilityAttachmentModifierV AeAEAQyQrqd__SyRd__lFQO AA03AnyE0V AA0hU0V AA14_OpacityEffectV AA01_P14ActionModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AFySay______pGSS_____yAAy_____y_____APG_____GACGSgGAKGSgGQPGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_______yytAAyAP_____GGQo______G______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarI0Rd__lFQO AC8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AcLE0N14ListAppearanceQryFQO AcAE013navigationBarR11DisplayModeyQrAA0qV4ItemV0rwX0OFQO AcAE0uR0yQrAA4TextVFQO AcAE0U11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0S0V s5NeverO AA05TupleI0V AL0mopC0V AA7ForEachV 011DefaultAppsmB0011DefaultAppsM5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 011DefaultAppsM0011DefaultAppsM8ProviderP AA0Q4LinkV AA07LabeledI0V AV AA31AccessibilityAttachmentModifierV AcAEATyQrqd__SyRd__lFQO AA03AnyC0V AA0lY0V AA14_OpacityEffectV AA01_T14ActionModifierV A11_3URLV
++ _symbolic ypSg
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DefaultAppsSettingsUI
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAcAE7toolbar7contentQrqd__yXE_tAA07ToolbarI0Rd__lFQOyAC8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQOyAcLE0N14ListAppearanceQryFQOyAcAE013navigationBarR11DisplayModeyQrAA0qV4ItemV0rwX0OFQOyAcAE0uR0yQrAA4TextVFQOyAcAE0U11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQOyAA0S0Vys5NeverOAA05TupleC0VyAL0mopC0V_AA7ForEachVySay011DefaultAppsmB0011DefaultAppsM5GroupCG10Foundation4UUIDVAA7SectionVyAA05EmptyC0VA7_ySay011DefaultAppsM0011DefaultAppsM8Provider_pGSSAA0Q4LinkVyAHyAA07LabeledI0VyA2VGAA31AccessibilityAttachmentModifierVGA1_GSgGA18_GSgGtGG_SSAcAEATyQrqd__SyRd__lFQOyAA03AnyC0V_SSQo_SgQo__Qo__Qo__Qo__SSQo__AA0lI7BuilderV10buildBlockyQrxAaKRzlFZQOy_AA0lY0VyytAHyAvA14_OpacityEffectVGGQo_Qo_AA01_T14ActionModifierVG_A12_3URLVSgQo_HO.17
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP014_IconServices_aB0E15iconDrawsBorderyQrSbSgFQOyAA4ListVys5NeverOAA15ModifiedContentVyAA7SectionVyAA05EmptyC0VAcAE11pickerStyleyQrqd__AA06PickerP0Rd__lFQOyAcAE12labelsHiddenQryFQOyAA0Q0VyAA4TextV019DefaultAppsSettingsB09AppRecordCAA0Q7BuilderV0L0VyAZ_AA7ForEachVySayAZGSSAA0Q6OptionVyAzA5LabelVyAwA012_ConditionalL0VyAD05AsyncD5ImageVyAA5ImageVGA11_yA11_yA16_ALyA16_AA01_S8ModifierVGGA16_GGGGGGG_Qo__AA06InlineqP0VQo_AWSgGAA32_EnvironmentKeyTransformModifierVySbGGG_Qo_HO.98
+- _keypath_set.15Tm
+- _objc_release_x26
+- _objc_retain_x23
+- _objc_retain_x28
+- _objectdestroy.18Tm
+- _objectdestroyTm
+- _symbolic SS_______pt 19DefaultAppsSettings0abC8ProviderP
+- _symbolic _____ySdG 7SwiftUI5StateV
+- _symbolic _____y_____G 7SwiftUI5StateV 019DefaultAppsSettingsB00deF5ModelC
+- _symbolic _____y___________ySay_____G__________y_____ACySay______pGSS_____y_____y_____y_____ANG_____G_____GSgGAHGSgGtG 7SwiftUI9TupleViewV 8Settings0e18FeatureDescriptionD0V AA7ForEachV 011DefaultAppseB00jkE5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyD0V 0jkE00jkE8ProviderP AA14NavigationLinkV AA15ModifiedContentV AA07LabeledU0V AA4TextV AA31AccessibilityAttachmentModifierV s5NeverO
+- _symbolic _____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV 8Settings0g18FeatureDescriptionF0V AA7ForEachV 011DefaultAppsgB00lmG5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyF0V 0lmG00lmG8ProviderP AA14NavigationLinkV AA15ModifiedContentV AA07LabeledW0V AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y______yyt_____y__________GGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA08ModifiedD0V AA4TextV AA14_OpacityEffectV
+- _symbolic _____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG_SS_____y______SSQo_SgQo_ 7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V 8Settings0k18FeatureDescriptionC0V AA7ForEachV 011DefaultAppskB00pqK5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0pqK00pqK8ProviderP AA14NavigationLinkV AA15ModifiedContentV AA14LabeledContentV AA4TextV AA31AccessibilityAttachmentModifierV AcAE0D5TitleyQrqd__SyRd__lFQO AA03AnyC0V
+- _symbolic _____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG_SS_____y______SSQo_SgQo__Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQO AcAE0D11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V 8Settings0m18FeatureDescriptionC0V AA7ForEachV 011DefaultAppsmB00rsM5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0rsM00rsM8ProviderP AA14NavigationLinkV AA15ModifiedContentV AA14LabeledContentV AF AA31AccessibilityAttachmentModifierV AcAEADyQrqd__SyRd__lFQO AA03AnyC0V
+- _symbolic _____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG_SS_____y______SSQo_SgQo__Qo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrAA4TextVFQO AcAE0D11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA4ListV s5NeverO AA05TupleC0V 8Settings0r18FeatureDescriptionC0V AA7ForEachV 011DefaultAppsrB00wxR5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0wxR00wxR8ProviderP AA0I4LinkV AA15ModifiedContentV AA14LabeledContentV AK AA31AccessibilityAttachmentModifierV AcAEAIyQrqd__SyRd__lFQO AA03AnyC0V
+- _symbolic _____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo_ 7SwiftUI4ViewP8SettingsE22settingsListAppearanceQryFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrAA4TextVFQO AcAE0H11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0F0V s5NeverO AA05TupleC0V AD0d18FeatureDescriptionC0V AA7ForEachV 011DefaultAppsdB00yzD5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0yzD00yzD8ProviderP AA0M4LinkV AA15ModifiedContentV AA14LabeledContentV AM AA31AccessibilityAttachmentModifierV AcAEAKyQrqd__SyRd__lFQO AA03AnyC0V
+- _symbolic _____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AEySay______pGSS_____y_____y_____y_____APG_____GABGSgGAJGSgGtGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_ 7SwiftUI4ViewP8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AcDE0E14ListAppearanceQryFQO AcAE013navigationBarI11DisplayModeyQrAA0hM4ItemV0inO0OFQO AcAE0lI0yQrAA4TextVFQO AcAE0L11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0J0V s5NeverO AA05TupleC0V AD0dfgC0V AA7ForEachV 011DefaultAppsdB00yzD5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 0yzD00yzD8ProviderP AA0H4LinkV AA15ModifiedContentV AA14LabeledContentV AN AA31AccessibilityAttachmentModifierV AcAEALyQrqd__SyRd__lFQO AA03AnyC0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AFySay______pGSS_____yAAy_____y_____APG_____GACGSgGAKGSgGtGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_______y______yytAAyAP_____GGQo_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AE8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AeIE0J14ListAppearanceQryFQO AeAE013navigationBarN11DisplayModeyQrAA0mR4ItemV0nsT0OFQO AeAE0qN0yQrAA4TextVFQO AeAE0Q11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaDRd_0_r0_lFQO AA0O0V s5NeverO AA05TupleE0V AI0iklE0V AA7ForEachV 011DefaultAppsiB0011DefaultAppsI5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyE0V 011DefaultAppsI0011DefaultAppsI8ProviderP AA0M4LinkV AA07LabeledD0V AS AA31AccessibilityAttachmentModifierV AeAEAQyQrqd__SyRd__lFQO AA03AnyE0V AA0hD7BuilderV10buildBlockyQrxAaHRzlFZQO AA0hU0V AA14_OpacityEffectV AA01_P14ActionModifierV
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y__________y___________ySay_____G__________y_____AFySay______pGSS_____yAAy_____y_____APG_____GACGSgGAKGSgGtGG_SS_____y______SSQo_SgQo__Qo__Qo__Qo__SSQo_______y______yytAAyAP_____GGQo_Qo______G______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarI0Rd__lFQO AC8SettingsE41settingsFeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO AcLE0N14ListAppearanceQryFQO AcAE013navigationBarR11DisplayModeyQrAA0qV4ItemV0rwX0OFQO AcAE0uR0yQrAA4TextVFQO AcAE0U11Destination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA0S0V s5NeverO AA05TupleC0V AL0mopC0V AA7ForEachV 011DefaultAppsmB0011DefaultAppsM5GroupC 10Foundation4UUIDV AA7SectionV AA05EmptyC0V 011DefaultAppsM0011DefaultAppsM8ProviderP AA0Q4LinkV AA07LabeledI0V AV AA31AccessibilityAttachmentModifierV AcAEATyQrqd__SyRd__lFQO AA03AnyC0V AA0lI7BuilderV10buildBlockyQrxAaKRzlFZQO AA0lY0V AA14_OpacityEffectV AA01_T14ActionModifierV A11_3URLV
+CStrings:
++ "MediaDeviceExtensions"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "LSObserverDelegate"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "TUCallCapabilitiesDelegate"
+- "TUCallCapabilitiesDelegatePrivate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_TtC21DefaultAppsSettingsUI16LSChangeObserver"
+- "_TtC21DefaultAppsSettingsUI24DefaultAppsSettingsGroup"
+- "_TtC21DefaultAppsSettingsUI24DefaultAppsSettingsModel"
+- "_TtC21DefaultAppsSettingsUI25DefaultAppsPerAppSettings"
+- "_TtC21DefaultAppsSettingsUI29DefaultLSAppsSettingsProvider"
+- "_TtC21DefaultAppsSettingsUI9AppRecord"
+- "_TtCC21DefaultAppsSettingsUI16LSChangeObserverP33_7689C6B5CF2FFB3629BA237567A0B8718Observer"
+- "_TtCC21DefaultAppsSettingsUI29DefaultLSAppsSettingsProviderP33_6339B278615E8A6CFC693041365478EF23CallCapabilitiesMonitor"
+- "_available"
+- "_bundleIdentifier"
+- "_cachedPerAppProviders"
+- "_candidateApps"
+- "_defaultAppMarketplaceSettingsProvider"
+- "_defaultContactlessPaymentSettingsProvider"
+- "_defaultKeyboardsSettingsProvider"
+- "_defaultMessagingSettingsProvider"
+- "_defaultPasswordManagerSettingsProvider"
+- "_defaultPhoneCallsSettingsProvider"
+- "_defaultSpamFilterSettingsProvider"
+- "_idToProvider"
+- "_isManaged"
+- "_isVisible"
+- "_localizedDetail"
+- "_localizedFooter"
+- "_monitor"
+- "_name"
+- "_nfcApp"
+- "_providerGroups"
+- "_providers"
+- "_record"
+- "_relayCallingOption"
+- "_selection"
+- "_stringToProvider"
+- "_uuid"
+- "addDelegate:queue:"
+- "autorelease"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "canChangeDefaultAppForCategory:"
+- "category"
+- "class"
+- "conformsToProtocol:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "currentDevice"
+- "dealloc"
+- "debugDescription"
+- "defaultApplicationForCategory:error:"
+- "defaultMailClientSettingsProvider"
+- "defaultManager"
+- "defaultNavigationSettingsProvider"
+- "defaultTranslationSettingsProvider"
+- "defaultWebBrowserSettingsProvider"
+- "defaultWorkspace"
+- "description"
+- "didAddCapabilitiesForSenderIdentityWithUUID:"
+- "didChangeCloudCallingDevices"
+- "didChangeEmergencyCallbackMode"
+- "didChangeEmergencyCallbackPossible"
+- "didChangeFaceTimeAudioCallingSupport"
+- "didChangeFaceTimeCallingAvailability"
+- "didChangeFaceTimeVideoCallingSupport"
+- "didChangeOutgoingRelayCallerID"
+- "didChangeRelayCallingAvailability"
+- "didChangeRelayCallingCapabilities"
+- "didChangeRelayCallingFeatures"
+- "didChangeTelephonyCallingSupport"
+- "didChangeThumperCallingCapabilitiesForSenderIdentityWithUUID:"
+- "didChangeThumperCallingProvisionalURLForSenderIdentityWithUUID:"
+- "didChangeVoLTECallingCapabilitiesForSenderIdentityWithUUID:"
+- "didChangeWiFiCallingCapabilitiesForSenderIdentityWithUUID:"
+- "didChangeWiFiCallingProvisionalURLForSenderIdentityWithUUID:"
+- "didRemoveCapabilitiesForSenderIdentityWithUUID:"
+- "enumeratorForViableDefaultAppsForCategory:options:"
+- "genericApplicationIcon"
+- "hash"
+- "id"
+- "imageDescriptorNamed:"
+- "init"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithURL:"
+- "isDefaultBrowserModificationAllowed"
+- "isDefaultCallingAppModificationAllowed"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRelayCallingEnabled"
+- "isThumperCallingEnabled"
+- "load"
+- "localizedName"
+- "localizedNavigationTitle"
+- "localizedStringForKey:value:table:"
+- "localizedTitle"
+- "lsObserver"
+- "mainQueue"
+- "notify"
+- "observerDidObserveDatabaseChange:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "principalClass"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "setDefaultApplicationForCategory:toApplicationRecord:completionHandler:"
+- "setDelegate:"
+- "setQueue:"
+- "sharedConnection"
+- "startObserving"
+- "stopObserving"
+- "superclass"
+- "supportedDefaultAppCategories"
+- "unload"
+- "userInterfaceIdiom"
+- "v16@0:8"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"LSObserver\"16"
+- "v24@0:8@\"NSUUID\"16"
+- "v24@0:8@16"
+- "zone"
+
+```

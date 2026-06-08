@@ -1,0 +1,907 @@
+## DropIn
+
+> `/System/Library/PrivateFrameworks/DropIn.framework/DropIn`
+
+```diff
+
+ 167.0.0.0.0
+-  __TEXT.__text: 0x33b2c
+-  __TEXT.__auth_stubs: 0x1100
++  __TEXT.__text: 0x33528
+   __TEXT.__objc_methlist: 0x12cc
+-  __TEXT.__const: 0x18aa
+-  __TEXT.__gcc_except_tab: 0x454
+-  __TEXT.__cstring: 0x13e9
++  __TEXT.__const: 0x194a
++  __TEXT.__gcc_except_tab: 0x37c
++  __TEXT.__cstring: 0x1409
+   __TEXT.__oslogstring: 0x1610
+   __TEXT.__constg_swiftt: 0xf30
+-  __TEXT.__swift5_typeref: 0xb8e
++  __TEXT.__swift5_typeref: 0xbf8
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_reflstr: 0x715
+   __TEXT.__swift5_assocty: 0x108
+   __TEXT.__swift5_fieldmd: 0x8d4
+   __TEXT.__swift5_proto: 0xb8
+   __TEXT.__swift5_types: 0x94
+-  __TEXT.__swift5_capture: 0x530
++  __TEXT.__swift5_capture: 0x6d0
+   __TEXT.__swift_as_entry: 0xc0
+   __TEXT.__swift_as_ret: 0x9c
++  __TEXT.__swift_as_cont: 0x1b4
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0x1410
+-  __TEXT.__eh_frame: 0x1418
+-  __TEXT.__objc_classname: 0x5a2
+-  __TEXT.__objc_methname: 0x2a25
+-  __TEXT.__objc_methtype: 0xbbe
+-  __TEXT.__objc_stubs: 0x1cc0
+-  __DATA_CONST.__got: 0x318
+-  __DATA_CONST.__const: 0x678
++  __TEXT.__unwind_info: 0x14d0
++  __TEXT.__eh_frame: 0x15b8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x670
+   __DATA_CONST.__objc_classlist: 0xd8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x128
+
+   __DATA_CONST.__objc_selrefs: 0x918
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x50
+-  __AUTH_CONST.__auth_got: 0x890
+-  __AUTH_CONST.__const: 0x1848
++  __DATA_CONST.__got: 0x318
++  __AUTH_CONST.__const: 0x1c58
+   __AUTH_CONST.__cfstring: 0x6c0
+   __AUTH_CONST.__objc_const: 0x2d00
++  __AUTH_CONST.__auth_got: 0x988
+   __AUTH.__objc_data: 0x6a0
+   __AUTH.__data: 0xcd0
+   __DATA.__objc_ivar: 0xf0
+-  __DATA.__data: 0xf90
+-  __DATA.__bss: 0x14e0
++  __DATA.__data: 0xf80
++  __DATA.__bss: 0x1460
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x6d0
+-  __DATA_DIRTY.__data: 0x310
+-  __DATA_DIRTY.__bss: 0x2a0
++  __DATA_DIRTY.__data: 0x330
++  __DATA_DIRTY.__bss: 0x320
+   __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A30E4E5C-C95F-39A1-80D0-4B8992F4AC7E
+-  Functions: 1764
+-  Symbols:   2524
+-  CStrings:  949
++  UUID: E85E1889-9276-3A8D-B0A3-467AC50A9804
++  Functions: 1829
++  Symbols:   2792
++  CStrings:  343
+ 
+Symbols:
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_60
++ ___block_literal_global.207
++ ___block_literal_global.35
++ ___block_literal_global.54
++ ___block_literal_global.67
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.42Tm
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.47Tm
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.49Tm
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.91Tm
++ ___swift_closure_destructor.95
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.10
++ _block_copy_helper.14
++ _block_copy_helper.22
++ _block_copy_helper.26
++ _block_copy_helper.3
++ _block_copy_helper.30
++ _block_copy_helper.34
++ _block_copy_helper.44
++ _block_copy_helper.50
++ _block_copy_helper.6
++ _block_copy_helper.63
++ _block_copy_helper.64
++ _block_copy_helper.73
++ _block_descriptor.12
++ _block_descriptor.16
++ _block_descriptor.24
++ _block_descriptor.28
++ _block_descriptor.32
++ _block_descriptor.36
++ _block_descriptor.46
++ _block_descriptor.5
++ _block_descriptor.52
++ _block_descriptor.65
++ _block_descriptor.66
++ _block_descriptor.75
++ _block_descriptor.8
++ _block_destroy_helper.11
++ _block_destroy_helper.15
++ _block_destroy_helper.23
++ _block_destroy_helper.27
++ _block_destroy_helper.31
++ _block_destroy_helper.35
++ _block_destroy_helper.4
++ _block_destroy_helper.45
++ _block_destroy_helper.51
++ _block_destroy_helper.64
++ _block_destroy_helper.65
++ _block_destroy_helper.7
++ _block_destroy_helper.74
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SSIego_
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic yyc
+- ___block_literal_global.208
+- ___block_literal_global.36
+- ___block_literal_global.56
+- ___block_literal_global.68
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DropIn
+- _block_copy_helper.11
+- _block_copy_helper.15
+- _block_copy_helper.23
+- _block_copy_helper.27
+- _block_copy_helper.31
+- _block_copy_helper.35
+- _block_copy_helper.4
+- _block_copy_helper.46
+- _block_copy_helper.52
+- _block_copy_helper.61
+- _block_copy_helper.7
+- _block_copy_helper.70
+- _block_copy_helper.71
+- _block_descriptor.13
+- _block_descriptor.17
+- _block_descriptor.25
+- _block_descriptor.29
+- _block_descriptor.33
+- _block_descriptor.37
+- _block_descriptor.48
+- _block_descriptor.54
+- _block_descriptor.6
+- _block_descriptor.63
+- _block_descriptor.72
+- _block_descriptor.73
+- _block_descriptor.9
+- _block_destroy_helper.12
+- _block_destroy_helper.16
+- _block_destroy_helper.24
+- _block_destroy_helper.28
+- _block_destroy_helper.32
+- _block_destroy_helper.36
+- _block_destroy_helper.47
+- _block_destroy_helper.5
+- _block_destroy_helper.53
+- _block_destroy_helper.62
+- _block_destroy_helper.71
+- _block_destroy_helper.72
+- _block_destroy_helper.8
+- _objc_retain_x27
+- _objectdestroy.15Tm
+- _objectdestroy.20Tm
+- _objectdestroy.24Tm
+- _objectdestroy.26Tm
+- _objectdestroy.44Tm
+- _objectdestroy.54Tm
+- _objectdestroyTm
+- _symbolic _____SgXw 6DropIn11AudioPlayerC
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_activation"
+- "$__lazy_storage_$_deactivation"
+- "$__lazy_storage_$_operationQueue"
+- "$defaultActor"
+- ".cxx_destruct"
+- "?"
+- "@\"<DIAudioPowerControllerDelegate>\""
+- "@\"<DIAudioSystemControllerDelegate>\""
+- "@\"<DIDeviceDelegate>\""
+- "@\"<DIDeviceManagerDelegate>\""
+- "@\"<DIDropInCenterDelegate>\""
+- "@\"<DIDropInSessionDelegate>\""
+- "@\"<DIDropInSessionManagerDelegate>\""
+- "@\"DIAudioPowerController\""
+- "@\"DIAudioSystemController\""
+- "@\"DIClientContext\""
+- "@\"DIClientContext\"16@0:8"
+- "@\"DIDevice\""
+- "@\"DIDeviceManager\""
+- "@\"DIDeviceStateUpdateThrottler\""
+- "@\"DIDropInRequest\""
+- "@\"DIDropInSession\""
+- "@\"DIDropInSessionManager\""
+- "@\"DIHandle\""
+- "@\"DIOneshotTimer\""
+- "@\"DIXPCConnectionManager\""
+- "@\"DIXPCDispatcher\""
+- "@\"DIXPCManager\""
+- "@\"NSArray\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSRecursiveLock\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8Q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@56@0:8d16@24@32@40@?48"
+- "@64@0:8Q16@24@32@40@48@56"
+- "AVAudioPlayerDelegate"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "DIAudioPowerController"
+- "DIAudioPowerControllerDelegate"
+- "DIAudioPowerDelegate"
+- "DIAudioStatusDelegate"
+- "DIAudioSystemController"
+- "DIClientContext"
+- "DIDevice"
+- "DIDeviceListDelegate"
+- "DIDeviceManager"
+- "DIDeviceStateUpdateThrottler"
+- "DIDeviceStatusDelegate"
+- "DIDropInCenter"
+- "DIDropInCenterDelegate"
+- "DIDropInRequest"
+- "DIDropInSession"
+- "DIDropInSessionDelegate"
+- "DIDropInSessionManagerDelegate"
+- "DIHandle"
+- "DIOneshotTimer"
+- "DISessionStatusDelegate"
+- "DIUtilities"
+- "DIXPCClientInterface"
+- "DIXPCConnectionManager"
+- "DIXPCDispatcher"
+- "DIXPCManager"
+- "DIXPCManagerCheckInObserver"
+- "DIXPCManagerDelegate"
+- "DIXPCServerInterface"
+- "DropIn"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "OS_dispatch_source"
+- "OS_dispatch_source_timer"
+- "Q"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<DIAudioPowerControllerDelegate>\",W,N,V_delegate"
+- "T@\"<DIAudioPowerDelegate>\",N,W,VaudioPowerDelegate"
+- "T@\"<DIAudioStatusDelegate>\",N,W,VaudioStatusDelegate"
+- "T@\"<DIAudioSystemControllerDelegate>\",W,N,V_delegate"
+- "T@\"<DIDeviceDelegate>\",W,N,V_delegate"
+- "T@\"<DIDeviceListDelegate>\",N,W,VdeviceListDelegate"
+- "T@\"<DIDeviceManagerDelegate>\",W,N,V_delegate"
+- "T@\"<DIDeviceStatusDelegate>\",N,W,VdeviceStatusDelegate"
+- "T@\"<DIDropInCenterDelegate>\",W,N,V_delegate"
+- "T@\"<DIDropInSessionDelegate>\",W,N,V_delegate"
+- "T@\"<DIDropInSessionManagerDelegate>\",W,N,V_delegate"
+- "T@\"<DISessionStatusDelegate>\",N,W,VsessionStatusDelegate"
+- "T@\"<DIXPCManagerDelegate>\",N,W,Vdelegate"
+- "T@\"DIAudioPowerController\",&,N,V_audioPowerController"
+- "T@\"DIAudioSystemController\",&,N,V_audioSystemController"
+- "T@\"DIClientContext\",N,R"
+- "T@\"DIClientContext\",N,R,VclientContext"
+- "T@\"DIDevice\",&,N,V_currentDevice"
+- "T@\"DIDeviceManager\",&,N,V_deviceManager"
+- "T@\"DIDeviceStateUpdateThrottler\",R,N,V_stateUpdateThrottler"
+- "T@\"DIDropInRequest\",R,N,V_request"
+- "T@\"DIDropInSession\",&,N,V_activeSession"
+- "T@\"DIDropInSession\",C,N,V_incomingPendingSession"
+- "T@\"DIDropInSessionManager\",&,N,V_sessionManager"
+- "T@\"DIHandle\",&,N,V_handle"
+- "T@\"DIOneshotTimer\",&,V_timer"
+- "T@\"DIXPCConnectionManager\",R,N,V_connectionManager"
+- "T@\"DIXPCConnectionManager\",R,W,N,V_connectionManager"
+- "T@\"DIXPCConnectionManager\",W,N,V_connectionManager"
+- "T@\"DIXPCDispatcher\",R,N,V_dispatcher"
+- "T@\"DIXPCManager\",&,N,V_manager"
+- "T@\"NSArray\",&,N,V_participants"
+- "T@\"NSArray\",C,N,V_devices"
+- "T@\"NSData\",&,N,V_imageData"
+- "T@\"NSDate\",C,N,V_stateExpiration"
+- "T@\"NSDate\",R,N,V_sessionEndDate"
+- "T@\"NSDate\",R,N,V_sessionStartTimeoutDate"
+- "T@\"NSRecursiveLock\",R,N,V_lock"
+- "T@\"NSRecursiveLock\",R,V_lock"
+- "T@\"NSString\",&,N,V_displayName"
+- "T@\"NSString\",&,N,V_familyName"
+- "T@\"NSString\",&,N,V_givenName"
+- "T@\"NSString\",&,N,V_value"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_stateReason"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSUUID\",&,N,V_existingSessionIdentifier"
+- "T@\"NSUUID\",&,N,V_identifier"
+- "T@\"NSUUID\",C,N,V_homeKitHomeIdentifier"
+- "T@\"NSUUID\",C,N,V_homeKitIdentifier"
+- "T@\"NSUUID\",C,N,V_idsIdentifier"
+- "T@\"NSUUID\",R,N,V_homeIdentifier"
+- "T@\"NSXPCConnection\",N,R"
+- "T@\"OS_dispatch_queue\",N,W,VclientQueue"
+- "TB,N,GisDownlinkMuted,V_downlinkMuted"
+- "TB,N,GisUplinkMuted,V_uplinkMuted"
+- "TB,N,R"
+- "TB,N,V_isCurrentDevice"
+- "TB,N,V_needsInitialDownlinkMuteStatus"
+- "TB,N,V_needsInitialUplinkMuteStatus"
+- "TB,R"
+- "TQ,N,V_state"
+- "TQ,N,V_stateReason"
+- "TQ,N,V_type"
+- "TQ,R"
+- "Tq,N,V_state"
+- "URLForResource:withExtension:"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC6DropIn11AudioPlayer"
+- "_TtC6DropIn12DropInPlayer"
+- "_TtC6DropIn18AppStateActivation"
+- "_TtC6DropIn18AppStateController"
+- "_TtC6DropIn19DropInPlayerManager"
+- "_TtC6DropIn20AppStateDeactivation"
+- "_TtC6DropIn22DropInSiriAnnouncement"
+- "_TtC6DropIn27AppStateActivationResources"
+- "_TtC6DropIn33AppStateControllerSessionObserver"
+- "_TtCC6DropIn19DropInPlayerManagerP33_D65D3E0A935E0CC0AB67BE9660CB6AD116WeakDropInPlayer"
+- "_TtCC6DropIn26DeviceStateUpdateThrottlerP33_4527849494A5ECC57C630C103E5DBA5224DeviceStateUpdateRequest"
+- "_TtP6DropIn21ClientContextProvider_"
+- "_activeSession"
+- "_audioPowerController"
+- "_audioSystemController"
+- "_connection"
+- "_connectionManager"
+- "_currentDevice"
+- "_delegate"
+- "_deviceManager"
+- "_devices"
+- "_dispatcher"
+- "_displayName"
+- "_downlinkMuted"
+- "_existingSessionIdentifier"
+- "_familyName"
+- "_givenName"
+- "_handle"
+- "_homeIdentifier"
+- "_homeKitHomeIdentifier"
+- "_homeKitIdentifier"
+- "_identifier"
+- "_idsIdentifier"
+- "_imageData"
+- "_incomingPendingSession"
+- "_isCurrentDevice"
+- "_lock"
+- "_manager"
+- "_name"
+- "_needsInitialDownlinkMuteStatus"
+- "_needsInitialUplinkMuteStatus"
+- "_participants"
+- "_request"
+- "_sessionEndDate"
+- "_sessionManager"
+- "_sessionStartTimeoutDate"
+- "_state"
+- "_stateExpiration"
+- "_stateReason"
+- "_stateUpdateThrottler"
+- "_timer"
+- "_type"
+- "_uplinkMuted"
+- "_value"
+- "activationResources"
+- "activationStatesContinuation"
+- "activeSession"
+- "addCheckInObserver:"
+- "addObject:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addTimer:forMode:"
+- "arrayByAddingObject:"
+- "arrayWithArray:"
+- "audioPlayer"
+- "audioPlayerBeginInterruption:"
+- "audioPlayerDecodeErrorDidOccur:error:"
+- "audioPlayerDidFinishPlaying:successfully:"
+- "audioPlayerEndInterruption:"
+- "audioPlayerEndInterruption:withFlags:"
+- "audioPlayerEndInterruption:withOptions:"
+- "audioPowerController"
+- "audioPowerDelegate"
+- "audioSession"
+- "audioSessionConfiguration"
+- "audioStatusDelegate"
+- "audioSystemController"
+- "autorelease"
+- "avAudioPlayer"
+- "bundleForClass:"
+- "cancelSessionWithContext:session:error:completionHandler:"
+- "cancelTimer"
+- "cancelWithCompletionHandler:"
+- "cancelWithError:completionHandler:"
+- "cancellable"
+- "category"
+- "center"
+- "checkInObservers"
+- "checkInWithCompletionHandler:"
+- "class"
+- "clientContext"
+- "clientQueue"
+- "conformsToProtocol:"
+- "connection"
+- "connectionManager"
+- "controller"
+- "controller:didUpdateAudioPowerForDropInDevice:"
+- "controller:didUpdateDownlinkAudioPower:"
+- "controller:didUpdateDownlinkMuteStatus:"
+- "controller:didUpdateUplinkMuteStatus:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createAudioPowerController"
+- "createAudioSystemController"
+- "currentDevice"
+- "deactivationStatesContinuation"
+- "deadline"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultCenter"
+- "delegate"
+- "description"
+- "device:didUpdateState:"
+- "deviceDidChange:"
+- "deviceListDelegate"
+- "deviceManager"
+- "deviceStatusDelegate"
+- "devices"
+- "di_synchronize:"
+- "didAddDevice:"
+- "didAddSession:"
+- "didLoadDevices:"
+- "didRemoveDevice:"
+- "didRemoveSession:"
+- "didUpdateAudioPower:"
+- "didUpdateDevice:"
+- "didUpdateDownlinkMuteStatus:"
+- "didUpdateSession:"
+- "didUpdateUplinkMuteStatus:"
+- "dispatcher"
+- "displayName"
+- "distantPast"
+- "downlinkMuted"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "endSessionWithContext:session:completionHandler:"
+- "endTonePlayer"
+- "endWithCompletionHandler:"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "existingSessionIdentifier"
+- "failWithError:"
+- "familyName"
+- "fetchClientContextWithCompletionHandler:"
+- "getCurrentSessionWithCompletionHandler:"
+- "getDownlinkMutedWithCompletionHandler:"
+- "getUplinkMutedForCurrentSessionWithCompletionHandler:"
+- "getUplinkMutedWithCompletionHandler:"
+- "givenName"
+- "handle"
+- "handleState:reason:handler:"
+- "handler"
+- "hash"
+- "homeIdentifier"
+- "homeKitHomeIdentifier"
+- "homeKitIdentifier"
+- "identifier"
+- "idsIdentifier"
+- "imageData"
+- "incomingPendingSession"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithAnnouncementType:"
+- "initWithClientContext:"
+- "initWithClientContext:dispatcher:clientQueue:"
+- "initWithCoder:"
+- "initWithConnectionManager:"
+- "initWithContentsOfURL:error:"
+- "initWithDevice:"
+- "initWithDomain:code:userInfo:"
+- "initWithFireDate:interval:repeats:block:"
+- "initWithHandle:connectionManager:"
+- "initWithHomeIdentifier:"
+- "initWithHomeIdentifier:queue:"
+- "initWithInterval:queue:identifier:label:handler:"
+- "initWithMachServiceName:options:"
+- "initWithNullableHomeIdentifier:queue:"
+- "initWithNullableRequest:"
+- "initWithOrigin:"
+- "initWithRequest:"
+- "initWithSuiteName:"
+- "initWithThrottleTimeInterval:"
+- "initWithType:value:"
+- "initWithType:value:givenName:familyName:displayName:imageData:"
+- "initWithXPCManager:dispatcher:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isActive"
+- "isConnectionValid"
+- "isCurrentDevice"
+- "isDownlinkMuted"
+- "isEqual:"
+- "isEqualToData:"
+- "isEqualToDate:"
+- "isEqualToSet:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPlaying"
+- "isProxy"
+- "isUplinkMuted"
+- "label"
+- "lastDropInState"
+- "loadDevicesWithContext:completionHandler:"
+- "localOrigin"
+- "localizedDescription"
+- "lock"
+- "logger"
+- "mainQueue"
+- "mainRunLoop"
+- "manager"
+- "manager:didAddDevice:"
+- "manager:didReceiveIncomingPendingSession:"
+- "manager:didRemoveDevice:"
+- "manager:didUpdateActiveSession:"
+- "managerDidInterruptConnection:"
+- "managerDidUpdateDevices:"
+- "name"
+- "needsCheckIn"
+- "needsInitialDownlinkMuteStatus"
+- "needsInitialUplinkMuteStatus"
+- "new"
+- "notifyDeviceDidChange"
+- "notifyDidUpdateState"
+- "notifyRegisterToken"
+- "now"
+- "numberWithUnsignedInteger:"
+- "observer"
+- "onQueue:block:"
+- "ongoingTonePlayer"
+- "participants"
+- "performRequestWithCompletion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "play"
+- "playHandler"
+- "player"
+- "players"
+- "processInfo"
+- "processName"
+- "q"
+- "q16@0:8"
+- "queue"
+- "reason"
+- "refreshStateWithCompletionHandler:"
+- "registerAudioPowerWithContext:completionHandler:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObserver:name:object:"
+- "request"
+- "requestStateForDevice:completionHandler:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "self"
+- "sendCommand:options:queue:completion:"
+- "serverDisconnectedForDropInCenter:"
+- "session"
+- "session:didFailWithError:"
+- "session:didUpdateParticipants:"
+- "session:didUpdateSessionEndDate:"
+- "session:didUpdateSessionStartTimeoutDate:"
+- "session:didUpdateState:"
+- "session:didUpdateState:reason:"
+- "session:didUpdateUplinkMuteStatus:"
+- "sessionEndDate"
+- "sessionManager"
+- "sessionStartTimeoutDate"
+- "sessionStatusDelegate"
+- "setActive:error:"
+- "setActive:withOptions:error:"
+- "setActiveSession:"
+- "setAudioPowerController:"
+- "setAudioPowerDelegate:"
+- "setAudioSession:"
+- "setAudioStatusDelegate:"
+- "setAudioSystemController:"
+- "setCategory:error:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClientQueue:"
+- "setConnectionManager:"
+- "setCurrentDevice:"
+- "setDelegate:"
+- "setDeviceListDelegate:"
+- "setDeviceManager:"
+- "setDeviceStatusDelegate:"
+- "setDevices:"
+- "setDisplayName:"
+- "setDownlinkMuted:"
+- "setDownlinkMuted:completionHandler:"
+- "setExistingSessionIdentifier:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFamilyName:"
+- "setGivenName:"
+- "setHandle:"
+- "setHomeKitHomeIdentifier:"
+- "setHomeKitIdentifier:"
+- "setIdentifier:"
+- "setIdsIdentifier:"
+- "setImageData:"
+- "setIncomingPendingSession:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsCurrentDevice:"
+- "setManager:"
+- "setName:"
+- "setNeedsInitialDownlinkMuteStatus:"
+- "setNeedsInitialUplinkMuteStatus:"
+- "setObject:forKey:"
+- "setParticipants:"
+- "setRemoteObjectInterface:"
+- "setSessionEndDate:"
+- "setSessionManager:"
+- "setSessionStartTimeoutDate:"
+- "setSessionStatusDelegate:"
+- "setState:"
+- "setStateExpiration:"
+- "setStateReason:"
+- "setTimer:"
+- "setType:"
+- "setUnderlyingQueue:"
+- "setUplinkMuted:"
+- "setUplinkMuted:completionHandler:"
+- "setUplinkMutedForCurrentSession:completionHandler:"
+- "setValue:"
+- "setValue:forKey:"
+- "setVolume:"
+- "setWithArray:"
+- "setWithObjects:"
+- "settings"
+- "sharedInstance"
+- "siriAnnouncement"
+- "startSessionWithContext:request:completionHandler:"
+- "startSessionWithRequest:completionHandler:"
+- "startTonePlayer"
+- "startWithCompletionHandler:"
+- "state"
+- "stateExpiration"
+- "stateHandler"
+- "stateReason"
+- "stateUpdateThrottler"
+- "stop"
+- "stringForDeviceState:"
+- "stringForDropInSessionState:"
+- "stringForDropInSessionStateReason:"
+- "stringForHandleType:"
+- "stringWithFormat:"
+- "subject"
+- "superclass"
+- "supportsSecureCoding"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "throttleTimeInterval"
+- "timeInterval"
+- "timeIntervalSince1970"
+- "timeIntervalSinceNow"
+- "timeoutTimer"
+- "timer"
+- "type"
+- "unlock"
+- "unsignedIntegerValue"
+- "updateState:reason:completionHandler:"
+- "updateUplinkMuteStatus:"
+- "updateWithDevice:updateState:"
+- "updateWithSession:"
+- "uplinkMuted"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"MRCommandResult\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v24@0:8@\"AVAudioPlayer\"16"
+- "v24@0:8@\"DIDevice\"16"
+- "v24@0:8@\"DIDropInCenter\"16"
+- "v24@0:8@\"DIDropInSession\"16"
+- "v24@0:8@\"DIXPCManager\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"DIClientContext\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"DIDropInSession\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v28@0:8@\"AVAudioPlayer\"16B24"
+- "v28@0:8@\"DIAudioPowerController\"16f24"
+- "v28@0:8@\"DIDropInSession\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8@16f24"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?@\"NSError\">20"
+- "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24"
+- "v32@0:8@\"AVAudioPlayer\"16Q24"
+- "v32@0:8@\"DIClientContext\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"DIClientContext\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"DIDevice\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"DIDropInSession\"16@\"NSArray\"24"
+- "v32@0:8@\"DIDropInSession\"16@\"NSDate\"24"
+- "v32@0:8@\"DIDropInSession\"16@\"NSError\"24"
+- "v32@0:8@\"DIDropInSession\"16Q24"
+- "v32@0:8@\"DIDropInSessionManager\"16@\"DIDropInSession\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v40@0:8@\"DIClientContext\"16@\"DIDropInRequest\"24@?<v@?@\"DIDropInSession\"@\"NSError\">32"
+- "v40@0:8@\"DIClientContext\"16@\"DIDropInSession\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"DIDropInSession\"16Q24Q32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24Q32"
+- "v40@0:8q16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8q16@24@?32"
+- "v48@0:8@\"DIClientContext\"16@\"DIDropInSession\"24@\"NSError\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "value"
+- "valueForKey:"
+- "xpcManagerDidPerformDaemonCheckIn:"
+- "zone"
+
+```

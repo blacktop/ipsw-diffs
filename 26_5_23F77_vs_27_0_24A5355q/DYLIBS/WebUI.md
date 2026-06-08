@@ -1,0 +1,1478 @@
+## WebUI
+
+> `/System/Library/PrivateFrameworks/WebUI.framework/WebUI`
+
+```diff
+
+-624.2.5.10.4
+-  __TEXT.__text: 0x33790
+-  __TEXT.__auth_stubs: 0x1180
+-  __TEXT.__objc_methlist: 0x143c
+-  __TEXT.__const: 0xd00
+-  __TEXT.__gcc_except_tab: 0x5a8
+-  __TEXT.__cstring: 0x16a6
+-  __TEXT.__oslogstring: 0x53d
++625.1.18.10.4
++  __TEXT.__text: 0x33028
++  __TEXT.__objc_methlist: 0x149c
++  __TEXT.__const: 0xd30
++  __TEXT.__gcc_except_tab: 0x5a0
++  __TEXT.__cstring: 0x16b6
++  __TEXT.__oslogstring: 0x58d
+   __TEXT.__ustring: 0x9a6
+-  __TEXT.__constg_swiftt: 0x324
+   __TEXT.__swift5_typeref: 0x5f5
+-  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_capture: 0x3fc
++  __TEXT.__constg_swiftt: 0x324
+   __TEXT.__swift5_reflstr: 0x269
+   __TEXT.__swift5_fieldmd: 0x254
++  __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_assocty: 0x108
+   __TEXT.__swift5_proto: 0x5c
+   __TEXT.__swift5_types: 0x3c
+-  __TEXT.__swift5_capture: 0x3dc
+-  __TEXT.__swift_as_entry: 0xb0
+-  __TEXT.__swift_as_ret: 0x10c
+-  __TEXT.__unwind_info: 0xe48
+-  __TEXT.__eh_frame: 0x1950
+-  __TEXT.__objc_classname: 0x330
+-  __TEXT.__objc_methname: 0x742d
+-  __TEXT.__objc_methtype: 0x1679
+-  __TEXT.__objc_stubs: 0x4100
+-  __DATA_CONST.__got: 0x5d8
+-  __DATA_CONST.__const: 0xf10
++  __TEXT.__swift_as_entry: 0xb8
++  __TEXT.__swift_as_ret: 0x114
++  __TEXT.__swift_as_cont: 0x178
++  __TEXT.__unwind_info: 0xe28
++  __TEXT.__eh_frame: 0x1960
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xfc0
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1648
++  __DATA_CONST.__objc_selrefs: 0x1698
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x58
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x8d0
+-  __AUTH_CONST.__const: 0xcc0
++  __DATA_CONST.__got: 0x5f0
++  __AUTH_CONST.__const: 0xd10
+   __AUTH_CONST.__cfstring: 0xe80
+-  __AUTH_CONST.__objc_const: 0x1f08
++  __AUTH_CONST.__objc_const: 0x1f68
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x60
++  __AUTH_CONST.__auth_got: 0x958
+   __AUTH.__objc_data: 0x318
+   __AUTH.__data: 0x250
+-  __DATA.__objc_ivar: 0x110
++  __DATA.__objc_ivar: 0x118
+   __DATA.__data: 0x688
+-  __DATA.__bss: 0xc00
+-  __DATA.__common: 0x18
++  __DATA.__bss: 0xbf0
+   __DATA_DIRTY.__objc_data: 0x460
+-  __DATA_DIRTY.__bss: 0x30
++  __DATA_DIRTY.__bss: 0x40
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 952FE7AE-11B4-3562-92C1-7B800A6DD2D9
+-  Functions: 980
+-  Symbols:   2321
+-  CStrings:  1360
++  UUID: 13C00AB7-37D0-3DF5-9B84-0416F0544297
++  Functions: 993
++  Symbols:   2471
++  CStrings:  282
+ 
+Symbols:
++ +[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]
++ -[WBUFormDataController _continueSaveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:username:password:]
++ -[WBUFormDataController _continueUpdatingCredentialsForForm:inWebView:frame:newUsername:newGeneratedPassword:context:]
++ -[WBUFormDataController _continueWebView:willSubmitLoginFormWithMetadata:formSubmission:fromFrame:inContext:newUsername:newPassword:submissionHandler:]
++ -[WBUFormDataController _perTabModalPresentationEnabled]
++ -[WBUFormDataController _webView:saveUsernameAndPasswordForURL:formType:formUniqueID:inFrame:username:password:isGeneratedPassword:confirmOverwritingCurrentPassword:inContext:submissionHandler:].cold.1
++ -[WBUFormDataController perTabModalPresentationEnabledProvider]
++ -[WBUFormDataController setPerTabModalPresentationEnabledProvider:]
++ -[WBUFormDataController setShouldSuppressPasswordSavingPrompts:]
++ -[WBUFormDataController shouldSuppressPasswordSavingPrompts]
++ -[WBUFormDataController webView:frame:willNavigateFromForm:inContext:bySubmitting:submissionHandler:].cold.3
++ -[WBUHistory initWithDatabaseID:profileIdentifier:]
++ GCC_except_table108
++ GCC_except_table112
++ GCC_except_table125
++ GCC_except_table146
++ GCC_except_table149
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table165
++ GCC_except_table185
++ GCC_except_table21
++ GCC_except_table55
++ GCC_except_table78
++ GCC_except_table90
++ OBJC_IVAR_$_WBSHistory._historyItemCountLimit
++ _OBJC_CLASS_$_NSThread
++ _OBJC_IVAR_$_WBUFormDataController._perTabModalPresentationEnabledProvider
++ _OBJC_IVAR_$_WBUFormDataController._shouldSuppressPasswordSavingPrompts
++ _OUTLINED_FUNCTION_2
++ __PROTOCOLS__TtC5WebUIP33_CAA00038CAD04CD75D84355845F2B3AB39WBUFormDataPasswordSavingExtensionState.30
++ ___118-[WBUFormDataController _continueUpdatingCredentialsForForm:inWebView:frame:newUsername:newGeneratedPassword:context:]_block_invoke
++ ___118-[WBUFormDataController _continueUpdatingCredentialsForForm:inWebView:frame:newUsername:newGeneratedPassword:context:]_block_invoke_2
++ ___119-[WBUFormDataController _webView:willSubmitLoginFormWithMetadata:formSubmission:fromFrame:inContext:submissionHandler:]_block_invoke_2
++ ___120-[WBUFormDataController _continueSaveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:username:password:]_block_invoke
++ ___120-[WBUFormDataController _continueSaveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:username:password:]_block_invoke_2
++ ___144-[WBUFormDataController _webView:saveCredentialsForURL:formSubmission:formWithMetadata:fromFrame:username:password:inContext:submissionHandler:]_block_invoke.436
++ ___151-[WBUFormDataController _continueWebView:willSubmitLoginFormWithMetadata:formSubmission:fromFrame:inContext:newUsername:newPassword:submissionHandler:]_block_invoke
++ ___161-[WBUFormDataController _handleSavingAutoFillCredentialsAfterManuallyEnteringUsername:newPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:]_block_invoke.361
++ ___161-[WBUFormDataController _handleSavingAutoFillCredentialsAfterManuallyEnteringUsername:newPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:]_block_invoke_2.362
++ ___167-[WBUFormDataController _webView:saveUsernameAndPasswordFromForm:inFrame:context:confirmOverwritingCurrentPassword:shouldPreferAnnotatedCredentials:submissionHandler:]_block_invoke
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_2
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_3
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_4
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_5
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_6
++ ___245+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:]_block_invoke_7
++ ___38-[_WBUDynamicMeCard performWhenReady:]_block_invoke_4
++ ___38-[_WBUDynamicMeCard performWhenReady:]_block_invoke_5
++ ___99-[WBUFormDataController _warnAboutWeakPasswordIfNecessaryWithWebView:savedAccount:protectionSpace:]_block_invoke.457
++ ___99-[WBUFormDataController _warnAboutWeakPasswordIfNecessaryWithWebView:savedAccount:protectionSpace:]_block_invoke.461
++ ___block_descriptor_56_e8_32s40bs48r_e5_v8?0ls32l8s40l8r48l8
++ ___block_descriptor_65_e8_32s40s48s56s_e31_v24?0"NSString"8"NSString"16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e31_v24?0"NSString"8"NSString"16ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_81_e8_32s40s48s56s64s72bs_e31_v24?0"NSString"8"NSString"16ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_90_e8_32s40s48s56s64s72s80bs_e31_v24?0"NSString"8"NSString"16ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_literal_global.214
++ ___block_literal_global.342
++ ___block_literal_global.350
++ ___block_literal_global.377
++ ___block_literal_global.438
++ ___block_literal_global.440
++ ___block_literal_global.479
++ ___block_literal_global.763
++ ___block_literal_global.783
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.151Tm
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.231Tm
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.289
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.298
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.307
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.76Tm
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.153
++ _block_copy_helper.168
++ _block_copy_helper.174
++ _block_copy_helper.178
++ _block_copy_helper.183
++ _block_copy_helper.186
++ _block_copy_helper.226
++ _block_copy_helper.246
++ _block_copy_helper.259
++ _block_copy_helper.266
++ _block_copy_helper.279
++ _block_copy_helper.68
++ _block_descriptor.155
++ _block_descriptor.170
++ _block_descriptor.176
++ _block_descriptor.180
++ _block_descriptor.185
++ _block_descriptor.188
++ _block_descriptor.228
++ _block_descriptor.248
++ _block_descriptor.261
++ _block_descriptor.268
++ _block_descriptor.281
++ _block_descriptor.70
++ _block_destroy_helper.154
++ _block_destroy_helper.169
++ _block_destroy_helper.175
++ _block_destroy_helper.179
++ _block_destroy_helper.184
++ _block_destroy_helper.187
++ _block_destroy_helper.227
++ _block_destroy_helper.247
++ _block_destroy_helper.260
++ _block_destroy_helper.267
++ _block_destroy_helper.280
++ _block_destroy_helper.69
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_continueSaveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:username:password:
++ _objc_msgSend$_continueUpdatingCredentialsForForm:inWebView:frame:newUsername:newGeneratedPassword:context:
++ _objc_msgSend$_continueWebView:willSubmitLoginFormWithMetadata:formSubmission:fromFrame:inContext:newUsername:newPassword:submissionHandler:
++ _objc_msgSend$_perTabModalPresentationEnabled
++ _objc_msgSend$isEndlessHistoryEnabled
++ _objc_msgSend$isMainThread
++ _objc_msgSend$perTabModalPresentationEnabledProvider
++ _objc_msgSend$setShouldAutoFillPasswordsFromApplePasswords:
++ _objc_msgSend$shouldAutoFillPasswordsFromApplePasswords
++ _objc_msgSend$shouldSuppressPasswordSavingPrompts
++ _objc_msgSend$showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:perTabModalPresentationEnabled:completionHandler:
++ _objc_msgSend$willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:inContext:completionHandler:
++ _objc_msgSend$willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:inContext:shouldShowPasswordsAppOnboarding:completionHandler:
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x25
++ _swift_retain_x27
+- +[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]
+- -[WBUHistory initWithDatabaseID:]
+- GCC_except_table107
+- GCC_except_table120
+- GCC_except_table140
+- GCC_except_table143
+- GCC_except_table157
+- GCC_except_table158
+- GCC_except_table159
+- GCC_except_table173
+- GCC_except_table19
+- GCC_except_table53
+- GCC_except_table73
+- GCC_except_table85
+- GCC_except_table98
+- __PROTOCOLS__TtC5WebUIP33_CAA00038CAD04CD75D84355845F2B3AB39WBUFormDataPasswordSavingExtensionState.32
+- ___144-[WBUFormDataController _webView:saveCredentialsForURL:formSubmission:formWithMetadata:fromFrame:username:password:inContext:submissionHandler:]_block_invoke.429
+- ___161-[WBUFormDataController _handleSavingAutoFillCredentialsAfterManuallyEnteringUsername:newPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:]_block_invoke.354
+- ___161-[WBUFormDataController _handleSavingAutoFillCredentialsAfterManuallyEnteringUsername:newPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:]_block_invoke_2.355
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_2
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_3
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_4
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_5
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_6
+- ___214+[WBUFormAutoFillPrompt showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:]_block_invoke_7
+- ___93-[WBUFormDataController saveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:]_block_invoke_2
+- ___99-[WBUFormDataController _warnAboutWeakPasswordIfNecessaryWithWebView:savedAccount:protectionSpace:]_block_invoke.450
+- ___99-[WBUFormDataController _warnAboutWeakPasswordIfNecessaryWithWebView:savedAccount:protectionSpace:]_block_invoke.454
+- ___block_literal_global.207
+- ___block_literal_global.335
+- ___block_literal_global.343
+- ___block_literal_global.370
+- ___block_literal_global.431
+- ___block_literal_global.433
+- ___block_literal_global.472
+- ___block_literal_global.738
+- ___block_literal_global.758
+- ___swift_allocate_value_buffer
+- ___swift_project_value_buffer
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_WebUI
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_WebUI
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_WebUI
+- _block_copy_helper.159
+- _block_copy_helper.179
+- _block_copy_helper.185
+- _block_copy_helper.189
+- _block_copy_helper.194
+- _block_copy_helper.197
+- _block_copy_helper.239
+- _block_copy_helper.255
+- _block_copy_helper.267
+- _block_copy_helper.270
+- _block_copy_helper.283
+- _block_copy_helper.69
+- _block_descriptor.161
+- _block_descriptor.181
+- _block_descriptor.187
+- _block_descriptor.191
+- _block_descriptor.196
+- _block_descriptor.199
+- _block_descriptor.241
+- _block_descriptor.257
+- _block_descriptor.269
+- _block_descriptor.272
+- _block_descriptor.285
+- _block_descriptor.71
+- _block_destroy_helper.160
+- _block_destroy_helper.180
+- _block_destroy_helper.186
+- _block_destroy_helper.190
+- _block_destroy_helper.195
+- _block_destroy_helper.198
+- _block_destroy_helper.240
+- _block_destroy_helper.256
+- _block_destroy_helper.268
+- _block_destroy_helper.271
+- _block_destroy_helper.284
+- _block_destroy_helper.70
+- _keypath_getTm
+- _objc_msgSend$setShouldAutoFillPasswordsFromKeychain:
+- _objc_msgSend$shouldAutoFillPasswordsFromKeychain
+- _objc_msgSend$showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:
+- _objc_msgSend$willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:username:password:inContext:
+- _objc_msgSend$willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:username:password:inContext:shouldShowPasswordsAppOnboarding:
+- _objectdestroy.157Tm
+- _objectdestroy.22Tm
+- _objectdestroy.245Tm
+- _objectdestroy.77Tm
+- _objectdestroyTm
+- _swift_deletedAsyncMethodErrorTu
+- _swift_once
+CStrings:
++ "FormMetadata submitted is of type %d"
++ "SecureElement"
++ "WBUFormDataController saveUsernameAndPasswordForURL"
++ "v24@?0@\"NSString\"8@\"NSString\"16"
+- "#16@0:8"
+- ".cxx_destruct"
+- "0dnM19zBqLw5ZPhIo4GEkg"
+- "?"
+- "@"
+- "@\"<WBUFormAutoFillWebView>\"16@0:8"
+- "@\"ACAccount\""
+- "@\"ASCredentialServiceIdentifier\""
+- "@\"ASPasswordCredential\""
+- "@\"ASPasswordSavingManager\""
+- "@\"ASSavePasswordRequest\""
+- "@\"CNContact\""
+- "@\"NSArray\""
+- "@\"NSArray\"24@0:8@\"UITableView\"16"
+- "@\"NSArray\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSCache\""
+- "@\"NSDictionary\""
+- "@\"NSExtension\""
+- "@\"NSIndexPath\"24@0:8@\"UITableView\"16"
+- "@\"NSIndexPath\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSIndexPath\"40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSString\"32@0:8@\"UITableView\"16q24"
+- "@\"NSURL\""
+- "@\"NSURLProtectionSpace\""
+- "@\"STManagementState\""
+- "@\"UIAlertController\""
+- "@\"UIContextMenuConfiguration\"48@0:8@\"UITableView\"16@\"NSIndexPath\"24{CGPoint=dd}32"
+- "@\"UISwipeActionsConfiguration\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITableView\""
+- "@\"UITableViewCell\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITargetedPreview\"32@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView\"32@0:8@\"UITableView\"16q24"
+- "@\"UIViewController\"16@0:8"
+- "@\"WBSAppleAccountInformationProvider\""
+- "@\"WBSAutoFillAssociatedDomainsManager\""
+- "@\"WBSCreditCardData\""
+- "@\"WBSFormMetadata\"24@0:8@\"<WBUFormAutoFillFrameHandle>\"16"
+- "@\"WBSGeneratedPassword\""
+- "@\"WBSSavedAccount\""
+- "@\"WBSSavedAccountContext\""
+- "@\"WBSSavedAccountKeychainCoordinator\""
+- "@\"WBUFormDataGeneratedPasswordAutoSaveInformation\""
+- "@\"WebUIAlert\""
+- "@\"_ASPasswordSavingViewController\""
+- "@\"_ASPasswordSavingViewController\"16@0:8"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16q24"
+- "@36@0:8@16B24@?28"
+- "@36@0:8i16@20i28i32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8i16@20i28i32i36"
+- "@44@0:8i16@20@28i36i40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24{CGPoint=dd}32"
+- "@48@0:8i16@20@28i36i40i44"
+- "@56@0:8@16@24^@32^@40^@48"
+- "@60@0:8@16@24@32@40@48B56"
+- "@64@0:8@16@24^@32^@40^@48^B56"
+- "@80@0:8@16@24@32@40@48@56B64B68@72"
+- "@?"
+- "@?16@0:8"
+- "@?<v@?>16@0:8"
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@16"
+- "B28@0:8@16B24"
+- "B32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "B32@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24"
+- "B32@0:8@16@24"
+- "B32@0:8^{__SecTrust=}16@24"
+- "B40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"<UISpringLoadedInteractionContext>\"32"
+- "B40@0:8@16@24@32"
+- "B48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "B48@0:8@16:24@32@40"
+- "B48@0:8@16@24@32@40"
+- "B48@0:8@16@24@32@?40"
+- "B60@0:8@16@24@32@40B48@?52"
+- "B60@0:8@16@24B32@36@44@?52"
+- "B64@0:8@16@24@32@40B48B52@?56"
+- "B64@0:8@16B24@28B36@40@48@?56"
+- "B84@0:8@16@24B32@36@44@52@60@68@?76"
+- "B88@0:8@16@24@32@40@48@56@64@72@?80"
+- "B92@0:8@16@24B32@36@44Q52q60q68@76@?84"
+- "B96@0:8@16@24Q32q40@48@56@64B72B76@80@?88"
+- "CreditCardData"
+- "MCProfileConnectionObserver"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<WBUFormAutoFillWebView>\",N,W,VwebView"
+- "T@\"<WBUFormAutoFillWebView>\",R,W,N"
+- "T@\"ASCredentialServiceIdentifier\",N,R,VserviceIdentifier"
+- "T@\"ASPasswordCredential\",N,R,Vcredential"
+- "T@\"ASPasswordSavingManager\",R,N"
+- "T@\"ASSavePasswordRequest\",N,R,VsavingCredentialsRequest"
+- "T@\"CNContact\",R,N"
+- "T@\"NSArray\",&,N,V_identities"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,C,N,V_fillMatches"
+- "T@\"NSArray\",R,C,N,V_titles"
+- "T@\"NSDictionary\",C,N,V_passwordSavingExtensionStates"
+- "T@\"NSExtension\",N,R,VsavingCredentialsProvider"
+- "T@\"NSSet\",&,N,V_previouslyFilledVirtualCardNumbers"
+- "T@\"NSString\",&,N,V_label"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,Swebui_setLastGeneratedPasswordForCurrentBackForwardItem:"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N,V_bodyText"
+- "T@\"NSString\",R,C,N,V_generatedPassword"
+- "T@\"NSString\",R,C,N,V_lastGeneratedPassword"
+- "T@\"NSString\",R,C,N,V_title"
+- "T@\"NSString\",R,C,N,V_username"
+- "T@\"NSString\",R,N"
+- "T@\"NSURL\",R,N,V_urlForCredential"
+- "T@\"NSURLProtectionSpace\",R,N,V_protectionSpace"
+- "T@\"UIViewController\",R,N"
+- "T@\"WBSAutoFillAssociatedDomainsManager\",R,N,V_associatedDomainsManager"
+- "T@\"WBSCreditCardData\",&,N,V_lastFilledCreditCardData"
+- "T@\"WBSGeneratedPassword\",&,N,V_generatedPassword"
+- "T@\"WBSSavedAccount\",&,N,V_lastFilledSavedAccount"
+- "T@\"WBSSavedAccount\",N,R,VpasswordsAppAccount"
+- "T@\"WBSSavedAccountContext\",R,N,V_savedAccountContext"
+- "T@\"_ASPasswordSavingViewController\",N,R,VextensionViewController"
+- "T@\"_ASPasswordSavingViewController\",R,N"
+- "T@,&,N,V_context"
+- "T@,R,N"
+- "T@?,C,N,V_actionHandler"
+- "T@?,C,N,V_deallocationHandler"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,V_shouldScheduleMaintenance"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisAirDropPasswordsAvailable"
+- "TB,R,N,GisAutoFillAvailable,V_autoFillAvailable"
+- "TB,R,N,GisBookmarksAvailable,V_bookmarksAvailable"
+- "TB,R,N,GisCloudHistorySyncAvailable"
+- "TB,R,N,GisCloudSyncAvailable,V_cloudSyncAvailable"
+- "TB,R,N,GisCloudTabsAvailable"
+- "TB,R,N,GisContentFilteringEnabled"
+- "TB,R,N,GisCreditCardStorageAvailable"
+- "TB,R,N,GisInMemoryBookmarkChangeTrackingAvailable,V_inMemoryBookmarkChangeTrackingAvailable"
+- "TB,R,N,GisOfflineReadingListAvailable,V_offlineReadingListAvailable"
+- "TB,R,N,GisReadingListAvailable,V_readingListAvailable"
+- "TB,R,N,GisSafariSyncEnabled"
+- "TB,R,N,V_meCardExists"
+- "TB,R,N,V_shouldSaveExistingCredential"
+- "TB,R,N,V_shouldSaveNewCredential"
+- "TQ,R"
+- "Ti,N,V_hideAction"
+- "Ti,R,N,V_defaultAction"
+- "Ti,R,N,V_tableAction"
+- "Ti,R,N,V_type"
+- "Tq,N,R"
+- "UIScrollViewDelegate"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- "UTF8String"
+- "Vv16@0:8"
+- "WBUAlertController"
+- "WBUAutoFillDisplayData"
+- "WBUCreditCardDataController"
+- "WBUFeatureManager"
+- "WBUFormAutoFillPrompt"
+- "WBUFormAutoFillWebView"
+- "WBUFormAutoFillWhiteList"
+- "WBUFormDataController"
+- "WBUFormDataGeneratedPasswordAutoSaveInformation"
+- "WBUGeneratedPasswordCredentialUpdateRequest"
+- "WBUGeneratedPasswordCredentialUpdater"
+- "WBUHistory"
+- "WBUPasswordSaveRequestKey"
+- "WBUPasswordSavingExtensionState"
+- "WBUSheetAlertController"
+- "WBUSheetController"
+- "WebUI"
+- "WebUI1"
+- "WebUIAlert"
+- "WebUICertificateError"
+- "WebUIExtras"
+- "^{_NSZone=}16@0:8"
+- "_ASPasswordSavingViewControllerDelegate"
+- "_TtC5WebUIP33_CAA00038CAD04CD75D84355845F2B3AB39WBUFormDataPasswordSavingExtensionState"
+- "_WBUDynamicMeCard"
+- "_accountInformationProvider"
+- "_accountsDidChange"
+- "_actionHandler"
+- "_actionWithTitle:image:style:handler:shouldDismissHandler:"
+- "_activeSaveRequests"
+- "_addSectionDelimiter"
+- "_addVisitedLinkForItemIfNeeded:withVisitOrigin:"
+- "_addressBookMatchesForFamilyNameForContact:"
+- "_addressBookMatchesForFullNameForContact:"
+- "_addressBookMatchesForGivenNameForContact:"
+- "_addressBookMatchesForMiddleNameForContact:"
+- "_alert"
+- "_alertController"
+- "_alertDidDismissWithAction:"
+- "_alertInvocationQueue"
+- "_alertTextFieldDidChange:"
+- "_appleAccountQueue"
+- "_applicationWillEnterForeground:"
+- "_associatedDomainsManager"
+- "_autoFillAvailable"
+- "_automaticallyDismiss"
+- "_blocksPendingMeCard"
+- "_bodyText"
+- "_bookmarksAvailable"
+- "_buttonTitleForAction:"
+- "_cache"
+- "_cachedAutoFillRestrictionValue"
+- "_cachedLocallyRestricted"
+- "_cloudAccountIsHSA2"
+- "_cloudSyncAvailable"
+- "_contactObjectComponentForString:"
+- "_context"
+- "_createHistoryStore"
+- "_createHistoryStoreIfNeeded"
+- "_credentialMatchesEligibleForUpdateForURL:username:oldPassword:"
+- "_deallocationHandler"
+- "_defaultAction"
+- "_delegate"
+- "_detailTextForPromptToSaveCard:"
+- "_detailTextForPromptToSaveSecurityCode"
+- "_detailTextForPromptToUpdateExpirationDate"
+- "_determineIfContentFilteringEnabledOrManagedByParentWithCompletionHandler:"
+- "_dismissWithAction:"
+- "_fetchContactKeysWithHandler:"
+- "_fillMatches"
+- "_generatedPassword"
+- "_handleSavingAutoFillCredentialsAfterManuallyEnteringUsername:newPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:"
+- "_handler"
+- "_hasManagedAutoFillDomains"
+- "_hideAction"
+- "_historyItemClass"
+- "_identities"
+- "_inMemoryBookmarkChangeTrackingAvailable"
+- "_indexOfSelectedIdentity"
+- "_informationForGeneratedPasswordAutoSave"
+- "_initRequestWithNewUsername:newGeneratedPassword:lastGeneratedPassword:credentialURL:protectionSpace:savedAccountContext:shouldSaveNewCredential:shouldSaveExistingCredential:associatedDomainsManager:"
+- "_ios_meContactWithKeysToFetch:error:"
+- "_isCloudSyncEnabled"
+- "_isCloudTabsAvailableUsingManagedAppleID:"
+- "_isUsingManagedAppleID"
+- "_keychainCoordinator"
+- "_label"
+- "_lastFilledCreditCardData"
+- "_lastFilledSavedAccount"
+- "_lastGeneratedPassword"
+- "_lastRestrictedSettingRequestedTime"
+- "_locallyRestricted"
+- "_managementState"
+- "_me"
+- "_meCard"
+- "_meCardChanged:"
+- "_meCardExists"
+- "_offlineReadingListAvailable"
+- "_otherAction"
+- "_passwordSavingExtensionStates"
+- "_passwordSavingManager"
+- "_performRequest:completionHandler:"
+- "_previouslyFilledVirtualCardNumbers"
+- "_primaryAppleAccount"
+- "_primaryAppleAccountChanged"
+- "_promptToUpdateRelatedCredentials:urlHost:relatedCredentialsHighLevelDomain:webView:completionHandler:"
+- "_protectionSpace"
+- "_queue"
+- "_readingListAvailable"
+- "_relatedCredentialMatchesToUpdateForUser:protectionSpace:oldSavedAccount:matchesForCurrentHost:matchesForAssociatedDomains:"
+- "_relatedCredentialMatchesToUpdateForUser:protectionSpace:oldSavedAccount:matchesForCurrentHost:matchesForAssociatedDomains:haveExistingCredentialWithSameUsernameAndDifferentPassword:"
+- "_removeAllVisitedLinks"
+- "_safariCookieAcceptPolicyFloatValue"
+- "_saveNewAccountWithRequest:completionHandler:"
+- "_savePending"
+- "_saveUser:password:isGeneratedPassword:forURL:inContext:formType:formUniqueID:promptingPolicy:webView:completionHandler:"
+- "_savedAccountContext"
+- "_screenTimeQueue"
+- "_setAccountOnInternalQueue:"
+- "_setHeaderContentViewController:"
+- "_setUpAlert"
+- "_shouldSaveCreditCardDataInWebView:frame:"
+- "_shouldSaveExistingCredential"
+- "_shouldSaveNewCredential"
+- "_shouldSaveUsernamesAndPasswordsForURL:inWebView:"
+- "_shouldScheduleMaintenance"
+- "_shouldTryToSaveCredentialsFromLastForm:currentFormMetadata:frame:"
+- "_showCreditCardPromptForWebView:creditCard:completionHandler:"
+- "_showPromptToSaveCreditCardSecurityCodeForWebView:cardNumber:securityCode:completionHandler:"
+- "_showPromptToUpdateCreditCardExpirationDateForWebView:cardNumber:expirationDate:completionHandler:"
+- "_silentlyUpdateCredentialsForSavedAccounts:withPassword:"
+- "_stringForCNContactObject:contactObjectComponent:"
+- "_tableAction"
+- "_tableView"
+- "_title"
+- "_titleTextForWarning:"
+- "_titles"
+- "_type"
+- "_updateCredentialsWithGeneratedPasswordForForm:inWebView:frame:context:"
+- "_updateExistingSavedAccount:withNewGeneratedPassword:completionHandler:"
+- "_updateFeatureAvailabilityByAccessLevel"
+- "_updatePasswordOfPreviouslySavedAccount:withPasswordEditedByUser:"
+- "_url"
+- "_urlForCredential"
+- "_urlsScheduledForUpdating"
+- "_urlsToUpdateRequests"
+- "_username"
+- "_warnAboutWeakPasswordIfNecessaryWithWebView:savedAccount:protectionSpace:"
+- "_webView:formSubmission:willSubmitNewAccountOrChangePasswordFormWithMetadata:shouldPreferAnnotatedCredentials:fromFrame:inContext:submissionHandler:"
+- "_webView:saveCredentialsForURL:formSubmission:formWithMetadata:fromFrame:username:password:inContext:submissionHandler:"
+- "_webView:saveUsernameAndPasswordForURL:formType:formUniqueID:inFrame:username:password:isGeneratedPassword:confirmOverwritingCurrentPassword:inContext:submissionHandler:"
+- "_webView:saveUsernameAndPasswordFromForm:inFrame:context:confirmOverwritingCurrentPassword:shouldPreferAnnotatedCredentials:submissionHandler:"
+- "_webView:willSubmitFormContainingCreditCardData:fromFrame:submissionHandler:"
+- "_webView:willSubmitLoginFormWithMetadata:formSubmission:fromFrame:inContext:submissionHandler:"
+- "_webView:willSubmitStandardFormWithMetadata:fromFrame:submissionHandler:"
+- "_web_createDirectoryAtPathWithIntermediateDirectories:attributes:"
+- "_webkit_decodeHostName"
+- "_whiteListSettingsChanged:"
+- "aa_isManagedAppleID"
+- "accessLevel"
+- "accountsToConsiderEquivalentForUserName:atURL:"
+- "actionForButtonTag:"
+- "actionForSSLTrust:hostname:service:"
+- "actionHandler"
+- "actionWithTitle:style:handler:"
+- "actions"
+- "addAction:"
+- "addObject:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addPersistentIdentifier:"
+- "addTarget:action:forControlEvents:"
+- "addTextFieldWithConfigurationHandler:"
+- "addressBookLabel"
+- "addressBookMatchesForProperty:key:label:"
+- "addressBookMatchesForProperty:key:label:contact:"
+- "addressBookMatchesForProperty:key:label:partialString:contact:allowingIdentifiedAddressBookLabelToOverridePreferredIdentifier:"
+- "addressStringForLabel:"
+- "airDropPasswordsAvailable"
+- "alertControllerForAlert:automaticallyDismiss:withCompletionHandler:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "allFormDataForSaving"
+- "allPasswordCredentials"
+- "allowTrust:forHost:service:"
+- "allowsURL:"
+- "ancestorFrameURLs"
+- "annotations"
+- "appleAccountSecurityState"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObjects:count:"
+- "associatedDomainMatches"
+- "associatedDomainsManager"
+- "authorizationStatusForEntityType:"
+- "autoFillAvailable"
+- "autoFillPreferencesDidChange"
+- "autoFillPreferencesDomain"
+- "autoFillQuirksManager"
+- "autorelease"
+- "beginBackgroundTaskWithName:expirationHandler:"
+- "bestUsernameSuggestionForUsernamePromptOnURL:inContext:completionHandler:"
+- "bodyText"
+- "bookmarksAvailable"
+- "boolForKey:"
+- "boolRestrictionForFeature:"
+- "boolValue"
+- "bundleIdentifier"
+- "buttonTitles"
+- "canEvaluatePolicy:error:"
+- "canSaveCardData:lastFilledCardData:completionHandler:"
+- "cardNumber"
+- "cardSecurityCode"
+- "cascadingAddressMatchesForMatch:contact:"
+- "certificateWarningCannotBeBypassedForTrust:"
+- "changeSavedAccount:toUser:password:"
+- "changeSavedAccountWithRequest:"
+- "changeSavedAccountWithRequest:completionHandler:"
+- "changeSavedAccountsWithRequests:"
+- "class"
+- "clearAllFormCredentials"
+- "clearCreditCardData"
+- "cloudHistorySyncAvailable"
+- "cloudSyncAvailable"
+- "cloudTabsAvailable"
+- "com.apple.mobilesafari"
+- "compare:"
+- "completePasswordsAppIntroduction"
+- "completionDBPath"
+- "componentsJoinedByString:"
+- "confirmPasswordElementUniqueID"
+- "conformsToProtocol:"
+- "contactIsMe:"
+- "contactKeyForString:"
+- "contactStoreHasMeCard:"
+- "containsAtLeastOneSecureTextField"
+- "containsObject:"
+- "contentFilteringEnabled"
+- "context"
+- "continuationState"
+- "controls"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "credential"
+- "creditCardDataByMergingOtherAttributesBesidesCardNumberFromCard:mergeSecurityCode:updateExpirationDate:"
+- "creditCardDataController"
+- "creditCardStorageAvailable"
+- "criteriaForExactFQDNPasswordMatchesOfURL:"
+- "d"
+- "d32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "d32@0:8@\"UITableView\"16q24"
+- "d32@0:8@16@24"
+- "d32@0:8@16q24"
+- "databaseID"
+- "dateFromComponents:"
+- "dateValue"
+- "dealloc"
+- "deallocationHandler"
+- "debugDescription"
+- "decodeArrayOfObjectsOfClass:forKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultAction"
+- "defaultCenter"
+- "defaultCredentialForProtectionSpace:"
+- "defaultManager"
+- "defaultTrustManager"
+- "defaultValueForPasswordAndCreditCardAutoFill"
+- "defaultWorkspace"
+- "description"
+- "descriptorForRequiredKeys"
+- "descriptorForRequiredKeysForStyle:"
+- "deselectRowAtIndexPath:animated:"
+- "determineIfHistoryClearingIsAvailableWithCompletionHandler:"
+- "determineIfPrivateBrowsingIsAvailableWithCompletionHandler:"
+- "determineIfScreenTimeIsManagedByParentWithCompletionHandler:"
+- "determineIfScreenTimePasscodeIsSetWithCompletionHandler:"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "didFillFieldWithGeneratedPassword:inFrame:webView:"
+- "didFillFormWithGeneratedPassword:inWebView:frame:context:"
+- "didPresentUsernamePrompt"
+- "didSuggestUsernameInPromptAndUserKeptSuggestion:"
+- "didUseGeneratedPassword"
+- "dismissViewControllerAnimated:completion:"
+- "dispose"
+- "distantPast"
+- "domainFromURL:"
+- "domainsToConsiderIdenticalToDomain:"
+- "domainsWithAssociatedCredentialsForDomain:"
+- "dontSaveMarker"
+- "effectiveValueForSetting:"
+- "effectiveValuesForUnionSetting:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endBackgroundTask:"
+- "entitlements"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "exactMatches"
+- "existingCardWithNumber:"
+- "existingSharedHistory"
+- "expirationDate"
+- "expirationYearIsOlderThan:"
+- "extension"
+- "extensionSupportsSavingPasswordCredentials:"
+- "extensionViewController"
+- "f16@0:8"
+- "familyName"
+- "fileURLWithPath:"
+- "firstObject"
+- "floatValue"
+- "formContainsCreditCardData:"
+- "gatherAutoFillDisplayDataWithTextField:displayedInQuickType:prefix:contact:completionHandler:"
+- "gatherValuesForForm:focusedTextFieldMetadata:inFrame:multiRoundAutoFillManager:completionHandler:"
+- "generatedPassword"
+- "generatedPasswordDidOverwriteExistingPasswordWithTrigger:"
+- "getContainsPersistentIdentifier:completionHandler:"
+- "getEnabledExtensionsWithCompletion:"
+- "getPrimaryAppleAccountWithCompletionHandler:"
+- "getSavedAccountMatchesWithCriteria:synchronously:completionHandler:"
+- "getSavedAccountsMatchingCriteria:withSynchronousCompletionHandler:"
+- "getWarningForSavedAccount:completionHandler:"
+- "givenName"
+- "hasAssociatedDomainSavedForURL:userName:"
+- "hasInternalContent"
+- "hasPassword"
+- "hasProtectionSpace:"
+- "hasSidecarData"
+- "hasUsedNonVirtualCard"
+- "hash"
+- "hideAction"
+- "hideSheet"
+- "highLevelDomain"
+- "historyStoreShouldCheckDatabaseIntegrity:"
+- "historyStoreShouldScheduleMaintenance:"
+- "host"
+- "i"
+- "i16@0:8"
+- "i24@0:8q16"
+- "id"
+- "identiferToLastUsedDateMapForContact:"
+- "identifier"
+- "identities"
+- "inMemoryBookmarkChangeTrackingAvailable"
+- "indexPathForPreferredFocusedViewInTableView:"
+- "indexPathForSelectedRow"
+- "init"
+- "initWithAggressiveKeychainCaching:"
+- "initWithAlert:automaticallyDismiss:completionHandler:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCalendarIdentifier:"
+- "initWithCoder:"
+- "initWithDatabaseID:"
+- "initWithDatabaseID:itemCountLimit:historyAgeLimit:historyItemClass:"
+- "initWithDelegate:"
+- "initWithExtension:request:"
+- "initWithHeaderImage:"
+- "initWithIdentifier:type:"
+- "initWithLabel:fillMatches:"
+- "initWithObjects:"
+- "initWithPasswordsAppAccount:"
+- "initWithSavedAccountStore:autoFillQuirksManager:passwordWarningStore:highLevelDomainsProvider:"
+- "initWithSavedAccountStore:autoFillQuirksManager:userDefaults:highLevelDomainsProvider:"
+- "initWithSavingCredentialsProvider:savingCredentialsRequest:"
+- "initWithServiceIdentifier:credential:sessionID:event:"
+- "initWithServiceIdentifier:credential:sessionID:event:passwordKind:"
+- "initWithString:matchingType:"
+- "initWithStyle:"
+- "initWithSuiteName:"
+- "initWithType:title:bodyText:defaultAction:otherAction:"
+- "initWithType:title:bodyText:defaultAction:otherAction:tableAction:"
+- "initWithType:title:defaultAction:otherAction:"
+- "initWithType:title:defaultAction:otherAction:tableAction:"
+- "initWithURL:options:userNameQuery:associatedDomainsManager:webFrameIdentifier:"
+- "initWithURL:user:password:"
+- "initWithUser:password:"
+- "initWithUser:password:persistence:"
+- "initWithValue:property:key:identifier:"
+- "initWithValue:property:key:identifier:label:"
+- "invocationWithMethodSignature:"
+- "invoke"
+- "isAirDropPasswordsAvailable"
+- "isAirDropPasswordsEnabled"
+- "isAutoFillAvailable"
+- "isAutoFilledTextField"
+- "isAutomaticStrongPasswordsEnabled"
+- "isBookmarksAvailable"
+- "isCloudAccountHSA2"
+- "isCloudHistorySyncAvailable"
+- "isCloudSyncAvailable"
+- "isCloudTabsAvailable"
+- "isContentFilteringEnabled"
+- "isCredentialProviderPasswordGenerationEnabled"
+- "isCredentialProviderPasswordSavingEnabled"
+- "isCreditCardStorageAvailable"
+- "isEphemeralMultiUser"
+- "isEqual:"
+- "isEqualToString:"
+- "isExternalProviderSave"
+- "isHistoryClearingEnabled"
+- "isInMemoryBookmarkChangeTrackingAvailable"
+- "isKeychainCardsInWalletEnabled"
+- "isKeychainSyncEnabled"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isOfflineReadingListAvailable"
+- "isPasswordsAppInstalled"
+- "isPasswordsAppSave"
+- "isPrivateBrowsingEnabled"
+- "isProxy"
+- "isReadingListAvailable"
+- "isRestrictionsPasscodeSet"
+- "isSafariPasswordAutoFillAllowedForURL:"
+- "isSafariSyncEnabled"
+- "isSupervised"
+- "isVirtualCard:previouslyFilledVirtualCardNumbers:"
+- "isVirtualCard:previouslyFilledVirtualCardNumbers:completion:"
+- "isWebFilterEnabled"
+- "keychainSyncEnabled"
+- "lastFilledCreditCardData"
+- "lastFilledSavedAccount"
+- "lastGeneratedPassword"
+- "length"
+- "localizedInformationTextForWarningWhenLoggingIn"
+- "localizedLongDescriptionForClient:"
+- "localizedLowercaseContactProperty:"
+- "localizedLowercaseString"
+- "localizedStringForKey:"
+- "localizedStringWithFormat:"
+- "mainBundle"
+- "matchLevel"
+- "matchesForControl:atURL:matchingPartialString:autoFillDataType:contact:allowingIdentifiedAddressBookLabelToOverridePreferredIdentifier:"
+- "matchesForPasswordAutoFill"
+- "mayAutoFillPasswordOnHost:"
+- "mayFillCreditCardDataInFrame:"
+- "mayPreFillInFrame:"
+- "me"
+- "meCardExists"
+- "methodSignatureForSelector:"
+- "middleName"
+- "modalPresentationStyle"
+- "neverSaveCVVForCreditCardData:"
+- "neverSaveCreditCardData:"
+- "numberOfSectionsInTableView:"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKey:ofClass:"
+- "objectForKeyedSubscript:"
+- "offlineReadingListAvailable"
+- "oldPasswordElementUniqueID"
+- "openSensitiveURL:withOptions:"
+- "openURL:options:completionHandler:"
+- "options"
+- "password"
+- "password:shouldBeConsideredEqualToExistingPassword:"
+- "passwordElementUniqueID"
+- "passwordManagerIcon"
+- "passwordManagerURLWithDictionary:"
+- "passwordSavingExtensionStates"
+- "passwordSavingManager"
+- "passwordSavingViewController:didFinishWithError:completion:"
+- "passwordsAppAccount"
+- "performAutoSaveOfGeneratedPasswordForForm:withCredential:atURL:fromWebView:inContext:lastFormMetadata:lastGeneratedPassword:completionHandler:"
+- "performAutoSaveOfGeneratedPasswordInPasswordsAppForForm:user:password:atURL:fromWebView:inContext:lastFormMetadata:lastGeneratedPassword:completionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWhenReady:"
+- "persistentIdentifiersForWarningManager"
+- "phoneticFamilyName"
+- "phoneticGivenName"
+- "phoneticMiddleName"
+- "pm_defaults"
+- "postNotificationName:object:"
+- "postNotificationName:object:userInfo:"
+- "potentialMatches"
+- "presentUIForPasswordSavingViewController:"
+- "presentViewController:animated:completion:"
+- "presentingViewController"
+- "previouslyFilledVirtualCardNumbers"
+- "profileConnectionDidReceiveAppWhitelistChangedNotification:userInfo:"
+- "profileConnectionDidReceiveDefaultsChangedNotification:userInfo:"
+- "profileConnectionDidReceiveEffectiveSettingsChangedNotification:userInfo:"
+- "profileConnectionDidReceivePasscodeChangedNotification:userInfo:"
+- "profileConnectionDidReceivePasscodePolicyChangedNotification:userInfo:"
+- "profileConnectionDidReceiveProfileListChangedNotification:userInfo:"
+- "profileConnectionDidReceiveRestrictionChangedNotification:userInfo:"
+- "promptToEnterManualUsernameToSaveAutoFillForNewPassword:atURL:inContext:isGeneratedPassword:webView:completionHandler:"
+- "promptToSaveSecurityCode"
+- "property"
+- "protectionSpace"
+- "protectionSpaces"
+- "protectionSpacesForAdditionalSites"
+- "protectionSpacesIncludingAdditionalSites"
+- "q16@0:8"
+- "q24@0:8@\"UITableView\"16"
+- "q24@0:8@16"
+- "q32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "q32@0:8@\"UITableView\"16q24"
+- "q32@0:8@16@24"
+- "q32@0:8@16q24"
+- "q40@0:8@\"UITableView\"16@\"NSString\"24q32"
+- "q40@0:8@16@24q32"
+- "queryThatMatchesEverything"
+- "readingListAvailable"
+- "registerObserver:"
+- "release"
+- "removeAllObjects"
+- "removeCredential:forProtectionSpace:options:"
+- "removeCredentialTypes:forSavedAccount:completionHandler:"
+- "removeGeneratedPassword:completionHandler:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "replaceCreditCardData:withCard:"
+- "reportWeakPasswordWarningEvent:"
+- "request"
+- "requestAccessForEntityType:completionHandler:"
+- "requestStatusWithCompletionHandler:"
+- "requestToTurnOnCredentialProviderExtensionWithCompletionHandler:"
+- "requestWithNewUsername:newGeneratedPassword:lastGeneratedPassword:credentialURL:protectionSpace:savedAccountContext:shouldSaveNewCredential:shouldSaveExistingCredential:associatedDomainsManager:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "row"
+- "safariSyncEnabled"
+- "safari_HTMLFormProtectionSpaceForURL:"
+- "safari_URL"
+- "safari_credentialWithUser:password:persistence:"
+- "safari_filterObjectsUsingBlock:"
+- "safari_firstObjectPassingTest:"
+- "safari_hasCaseInsensitivePrefix:"
+- "safari_highLevelDomainForPasswordManager"
+- "safari_highLevelDomainFromHost"
+- "safari_isCaseInsensitiveEqualToString:"
+- "safari_looksLikeObscuredPassword"
+- "safari_mapAndFilterObjectsUsingBlock:"
+- "safari_mapObjectsUsingBlock:"
+- "safari_privacyPreservingDescription"
+- "safari_stringByRemovingWwwDotPrefix"
+- "safari_stringForKey:"
+- "safari_userVisibleSiteForProtectionSpace"
+- "savableCreditCardDataInForm:"
+- "saveCompletionDBSoon"
+- "saveCreditCardData:completionHandler:"
+- "saveCreditCardDataIfAllowed:"
+- "saveUnsubmittedGeneratedPasswordInFrame:form:context:closingWebView:"
+- "saveUser:password:forProtectionSpace:highLevelDomain:groupID:"
+- "saveUser:password:forProtectionSpace:highLevelDomain:groupID:completionHandler:"
+- "saveUser:password:forUserTypedSite:groupID:completionHandler:"
+- "savedAccountContext"
+- "savedAccountFromMatches:completingPartialUserInLoginForm:"
+- "savedAccountWithAllMetadataForURLCredential:protectionSpace:"
+- "savedAccountsMatchingCriteria:withCompletionHandler:"
+- "savingCredentialsProvider"
+- "savingCredentialsRequest"
+- "schedulePasswordSavedNotificationForSavedAccount:completionHandler:"
+- "scheduleTakeATourNotificationIfNeededWithCompletionHandler:"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "secondaryLabelColor"
+- "sectionIndexTitlesForTableView:"
+- "selectedIdentity"
+- "self"
+- "sendCardholderNameEnteredInFormToWalletIfNecessary:lastFilledVirtualCardData:"
+- "service"
+- "serviceIdentifier"
+- "set"
+- "setActionHandler:"
+- "setArgument:atIndex:"
+- "setAssociatedDomainsManager:"
+- "setBool:forKey:"
+- "setContentViewController:"
+- "setContext:"
+- "setCookieAcceptPolicy:"
+- "setCountLimit:"
+- "setCredential:forProtectionSpace:"
+- "setDataSource:"
+- "setDeallocationHandler:"
+- "setDelegate:"
+- "setDontSaveMarkerForSavedAccountsWithProtectionSpace:"
+- "setEnabled:"
+- "setGeneratedPassword:"
+- "setHasUsedNonVirtualCard"
+- "setHideAction:"
+- "setHost:"
+- "setIdentities:"
+- "setKeyboardType:"
+- "setLabel:"
+- "setLastFilledCreditCardData:"
+- "setLastFilledSavedAccount:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setMessage:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptions:"
+- "setPassword:"
+- "setPasswordSavingExtensionStates:"
+- "setPlaceholder:"
+- "setPreferredAction:"
+- "setPreferredStyle:"
+- "setPreviouslyFilledVirtualCardNumbers:"
+- "setPromptToSaveSecurityCode:"
+- "setSavedAccount:"
+- "setSavedAccountAsDefault:forProtectionSpace:context:associatedDomainsManager:"
+- "setSavedAccountAsDefault:forProtectionSpace:context:associatedDomainsManager:completionHandler:"
+- "setSelectedTableItemIndex:"
+- "setSelector:"
+- "setService:"
+- "setShouldAutoFillFromAddressBook:"
+- "setShouldAutoFillFromCreditCardData:"
+- "setShouldAutoFillPasswords:"
+- "setShouldAutoFillPasswordsFromKeychain:"
+- "setShouldScheduleMaintenance:"
+- "setSuggestions:"
+- "setTarget:"
+- "setText:"
+- "setTextColor:"
+- "setTitle:"
+- "setTrust:"
+- "setUser:"
+- "setUserInfo:"
+- "setUserInteractionEnabled:"
+- "setUserNameQuery:"
+- "setWebView:"
+- "settingEnabled"
+- "sharedApplication"
+- "sharedAutoFillWhiteList"
+- "sharedConnection"
+- "sharedCredentialStorage"
+- "sharedCreditCardDataController"
+- "sharedFeatureManager"
+- "sharedGroupID"
+- "sharedLogger"
+- "sharedManager"
+- "sharedMonitor"
+- "sharedNotificationManager"
+- "sharedObserver"
+- "sharedProvider"
+- "sharedStore"
+- "sharedUpdater"
+- "sharedWebFilterSettings"
+- "sheetController:performAction:forAlert:"
+- "sheetController:viewControllerForAlert:"
+- "sheetControllerDidHideSheet:"
+- "sheetControllerDidShowSheet:"
+- "shouldAllowAddingNewPasswords"
+- "shouldAllowPasswordAutoFillOnURL:allowExternalCredentials:"
+- "shouldAutoFillFromAddressBook"
+- "shouldAutoFillFromCreditCardData"
+- "shouldAutoFillFromCreditCardDataInFrame:"
+- "shouldAutoFillFromPreviousData"
+- "shouldAutoFillPasswords"
+- "shouldAutoFillPasswordsFromKeychain"
+- "shouldAutoGeneratePasswordsForURL:inWebView:"
+- "shouldEvaluateAccountsToConsiderEquivalentForUserName:atURL:"
+- "shouldOfferVirtualCards"
+- "shouldRequestMoreTime:"
+- "shouldSaveExistingCredential"
+- "shouldSaveNewCredential"
+- "shouldScheduleMaintenance"
+- "shouldShowLoginIntroduction"
+- "shouldShowWarningsWhenLoggingIn"
+- "showAutoFillPromptForAppleCashLowBalanceInWebView:title:message:chooseDifferentCardButtonTitle:addMoneyButtonTitle:completionHandler:"
+- "showAutoFillPromptForUsernameInWebView:url:title:message:suggestedUsername:password:isGeneratedPassword:completionHandler:"
+- "showAutoFillPromptInWebView:title:message:cancelButtonTitle:otherButtonTitles:cancelWhenAppEntersBackground:makeFirstButtonSuggestedAction:headerViewController:promptType:completionHandler:"
+- "showPasswordPromptForWebView:formType:username:host:hasCredentialForCurrentHost:existingCredentialMatchesForCurrentHost:otherSubdomainCredentialMatches:haveExistingCredentialWithSameUsernameAndDifferentPassword:allowNeverForThisWebsiteButton:completionHandler:"
+- "showPasswordSavedPromptForSavedAccount:webView:"
+- "showPasswordWarningIfNecessaryForAccount:inProtectionSpace:warning:fromWebView:"
+- "showPromptWithOptions:responseBlock:"
+- "showSaveOrUpdatePromptForAutoFillableLoginFormWithMetadata:forCredential:atURL:fromWebView:inContext:completionHandler:"
+- "showSaveOrUpdatePromptForCredential:atURL:appropriateForPolicy:fromWebView:inContext:formType:formUniqueID:passwordIsAutoGenerated:completionHandler:"
+- "showSheetForAlert:"
+- "showSheetForAlert:inView:"
+- "silentlyUpdateSavedAccountsEquivalentToUserName:atURL:inContext:withPassword:"
+- "sortedArrayUsingComparator:"
+- "specifierForControl:"
+- "stableIDString"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringByResolvingSymlinksInPath"
+- "stringByTrimmingCharactersInSet:"
+- "stringFromContact:style:"
+- "stringFromDate:"
+- "stringValue"
+- "stringWithAddressBookValue:key:"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "substringToIndex:"
+- "suggestedUsersPrioritizingExistingUsersForURL:matchingText:limitForUsersNotFromURL:completionHandler:"
+- "superclass"
+- "supportsSecureCoding"
+- "tableAction"
+- "tableView"
+- "tableView:accessoryButtonTappedForRowWithIndexPath:"
+- "tableView:accessoryTypeForRowWithIndexPath:"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:canFocusRowAtIndexPath:"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:canPerformAction:forRowAtIndexPath:withSender:"
+- "tableView:canPerformPrimaryActionForRowAtIndexPath:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:contextMenuConfigurationForRowAtIndexPath:point:"
+- "tableView:didBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:didDeselectRowAtIndexPath:"
+- "tableView:didEndDisplayingCell:forRowAtIndexPath:"
+- "tableView:didEndDisplayingFooterView:forSection:"
+- "tableView:didEndDisplayingHeaderView:forSection:"
+- "tableView:didEndEditingRowAtIndexPath:"
+- "tableView:didHighlightRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:didUnhighlightRowAtIndexPath:"
+- "tableView:didUpdateFocusInContext:withAnimationCoordinator:"
+- "tableView:editActionsForRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:estimatedHeightForFooterInSection:"
+- "tableView:estimatedHeightForHeaderInSection:"
+- "tableView:estimatedHeightForRowAtIndexPath:"
+- "tableView:heightForFooterInSection:"
+- "tableView:heightForHeaderInSection:"
+- "tableView:heightForRowAtIndexPath:"
+- "tableView:indentationLevelForRowAtIndexPath:"
+- "tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "tableView:performAction:forRowAtIndexPath:withSender:"
+- "tableView:performPrimaryActionForRowAtIndexPath:"
+- "tableView:previewForDismissingContextMenuWithConfiguration:"
+- "tableView:previewForHighlightingContextMenuWithConfiguration:"
+- "tableView:sectionForSectionIndexTitle:atIndex:"
+- "tableView:selectionFollowsFocusForRowAtIndexPath:"
+- "tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:shouldHighlightRowAtIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:shouldShowMenuForRowAtIndexPath:"
+- "tableView:shouldSpringLoadRowAtIndexPath:withContext:"
+- "tableView:shouldUpdateFocusInContext:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:titleForFooterInSection:"
+- "tableView:titleForHeaderInSection:"
+- "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:viewForFooterInSection:"
+- "tableView:viewForHeaderInSection:"
+- "tableView:willBeginEditingRowAtIndexPath:"
+- "tableView:willDeselectRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tableView:willDisplayContextMenuWithConfiguration:animator:"
+- "tableView:willDisplayFooterView:forSection:"
+- "tableView:willDisplayHeaderView:forSection:"
+- "tableView:willEndContextMenuInteractionWithConfiguration:animator:"
+- "tableView:willPerformPreviewActionForMenuWithConfiguration:animator:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tableViewDidEndMultipleSelectionInteraction:"
+- "tellWalletThatExistingCardWasFilledInForm:previouslyFilledVirtualCardNumbers:"
+- "text"
+- "textDidChangeInForm:inWebView:frame:context:"
+- "textFields"
+- "textInputSuggestionDelegate"
+- "textLabel"
+- "textSuggestionWithInputText:searchText:"
+- "title"
+- "titles"
+- "type"
+- "uniqueID"
+- "uniqueIDOfContact:"
+- "unregisterObserver:"
+- "unsignedIntegerValue"
+- "updateCredentialInProvider:atServiceIdentifier:withCredential:fromWebView:formUniqueID:event:completionHandler:"
+- "updateCredentialWithNewUsername:newGeneratedPassword:lastGeneratedPassword:credentialURL:protectionSpace:savedAccountContext:shouldSaveNewCredential:shouldSaveExistingCredential:associatedDomainsManager:completionHandler:"
+- "updateCreditCardDataCreditCardData:"
+- "urlForCredential"
+- "user"
+- "userAllowsCertificateTrust:host:"
+- "userInfo"
+- "userNameElementUniqueID"
+- "username"
+- "usesGeneratedPassword"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"<WBUFormAutoFillFrameHandle>\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UITableView\"16"
+- "v24@0:8@\"UIViewController<UIPredictiveViewController>\"16"
+- "v24@0:8@\"_ASPasswordSavingViewController\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8q16"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"MCProfileConnection\"16@\"NSDictionary\"24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "v32@0:8@\"WBSFormMetadata\"16@\"<WBUFormAutoFillFrameHandle>\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionCommitAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewCell\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24@\"UIFocusAnimationCoordinator\"32"
+- "v40@0:8@\"UITableView\"16@\"UIView\"24q32"
+- "v40@0:8@\"UITableView\"16q24@\"NSIndexPath\"32"
+- "v40@0:8@\"_ASPasswordSavingViewController\"16@\"NSError\"24@?<v@?>32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16q24@32"
+- "v44@0:8@16@24@32B40"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "v48@0:8@16:24@32@40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v52@0:8@16B24@28@36@?44"
+- "v56@0:8@16@24@32@40@?48"
+- "v60@0:8@16@24@32B40@44@?52"
+- "v64@0:8@\"WBSFormMetadata\"16@\"ASPasswordCredential\"24@\"NSURL\"32@\"<WBUFormAutoFillWebView>\"40@\"WBSSavedAccountContext\"48@?<v@?>56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "v68@0:8@16@24@32@40B48@52@?60"
+- "v72@0:8@\"NSExtension\"16@\"ASCredentialServiceIdentifier\"24@\"ASPasswordCredential\"32@\"<WBUFormAutoFillWebView>\"40q48q56@?<v@?>64"
+- "v76@0:8@16@24@32@40@48@56B64@?68"
+- "v80@0:8@\"WBSFormMetadata\"16@\"ASPasswordCredential\"24@\"NSURL\"32@\"<WBUFormAutoFillWebView>\"40@\"WBSSavedAccountContext\"48@\"WBSFormMetadata\"56@\"NSString\"64@?<v@?@\"WBUFormDataGeneratedPasswordAutoSaveInformation\">72"
+- "v84@0:8@\"ASPasswordCredential\"16@\"NSURL\"24q32@\"<WBUFormAutoFillWebView>\"40@\"WBSSavedAccountContext\"48Q56q64B72@?<v@?>76"
+- "v84@0:8@16Q24@32@40B48@52@60B68B72@?76"
+- "v88@0:8@16@24@32@40@48@56B64B68@72@?80"
+- "v88@0:8@16@24@32@40@48B56B60@64q72@?80"
+- "value"
+- "valueForKey:"
+- "valueForProperty:contact:"
+- "valueOfControlWithUniqueID:inForm:"
+- "valueString"
+- "valueStringForMatch:"
+- "valuesForContactFormWithMetadata:inDomain:matches:multiRoundAutoFillManager:contact:"
+- "viewForZoomingInScrollView:"
+- "virtualCardFieldsToRequest"
+- "webView"
+- "webView:frame:willNavigateFromForm:inContext:bySubmitting:submissionHandler:"
+- "webui_URL"
+- "webui_applySafariCookieAcceptPolicy"
+- "webui_canPromptForAccountSecurityRecommendation"
+- "webui_defaults"
+- "webui_formMetadataForLastPasswordGenerationOrSubmitEventInFrame:"
+- "webui_lastGeneratedPasswordForCurrentBackForwardItem"
+- "webui_presentingViewController"
+- "webui_preventNavigationDuringAutoFillPrompt"
+- "webui_privateBrowsingEnabled"
+- "webui_removeFormMetadataForLastPasswordGenerationOrSubmitEventInFrame:"
+- "webui_safariCookieAcceptPolicy"
+- "webui_safariCookieAcceptPolicyEnumValue"
+- "webui_serverTrust"
+- "webui_setFormMetadata:forLastPasswordGenerationOrSubmitEventInFrame:"
+- "webui_setInputDashboardViewController:"
+- "webui_setLastGeneratedPasswordForCurrentBackForwardItem:"
+- "webui_sharedFeatureManager"
+- "webui_trackerProtectionEnabled"
+- "whiteListAllowsURL:"
+- "whitespaceCharacterSet"
+- "willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:username:password:inContext:"
+- "willSubmitFormWithCredentials:shouldPreferAnnotatedCredentials:atURL:username:password:inContext:shouldShowPasswordsAppOnboarding:"
+- "writeToURL:atomically:"
+- "zone"
+
+```

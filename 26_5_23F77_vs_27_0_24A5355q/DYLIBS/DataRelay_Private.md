@@ -1,0 +1,511 @@
+## DataRelay_Private
+
+> `/System/Library/PrivateFrameworks/DataRelay_Private.framework/DataRelay_Private`
+
+```diff
+
+-35.14.0.0.0
+-  __TEXT.__text: 0xfa0c
+-  __TEXT.__auth_stubs: 0x410
++40.28.1.1.2
++  __TEXT.__text: 0xf6cc
+   __TEXT.__objc_methlist: 0xbc8
+   __TEXT.__const: 0x58
+-  __TEXT.__gcc_except_tab: 0x65c
+-  __TEXT.__cstring: 0x24b0
+-  __TEXT.__unwind_info: 0x648
+-  __TEXT.__objc_classname: 0xdc
+-  __TEXT.__objc_methname: 0x1ed3
+-  __TEXT.__objc_methtype: 0x2f1
+-  __TEXT.__objc_stubs: 0x1980
+-  __DATA_CONST.__got: 0x138
+-  __DATA_CONST.__const: 0x810
++  __TEXT.__gcc_except_tab: 0x668
++  __TEXT.__cstring: 0x2748
++  __TEXT.__unwind_info: 0x5d0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x888
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x818
+   __DATA_CONST.__objc_superrefs: 0x68
+   __DATA_CONST.__objc_arraydata: 0x130
+-  __AUTH_CONST.__auth_got: 0x218
++  __DATA_CONST.__got: 0x138
+   __AUTH_CONST.__const: 0xe0
+   __AUTH_CONST.__cfstring: 0x940
+-  __AUTH_CONST.__objc_const: 0x12f8
++  __AUTH_CONST.__objc_const: 0x1318
+   __AUTH_CONST.__objc_intobj: 0x138
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_dictobj: 0x78
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x370
+-  __DATA.__objc_ivar: 0xe4
++  __DATA.__objc_ivar: 0xe8
+   __DATA.__data: 0x548
+   __DATA.__bss: 0x10
+   __DATA_DIRTY.__objc_data: 0xf0
+
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CDF42561-C787-3AEA-B738-B0C0F57E1EDD
+-  Functions: 445
+-  Symbols:   1473
+-  CStrings:  778
++  UUID: 49F74127-321F-34AD-BA6D-272BA27A1E3E
++  Functions: 461
++  Symbols:   1514
++  CStrings:  370
+ 
+Symbols:
++ _OBJC_IVAR_$_DataRelayAnalytics._dispatchQueue
++ ___39-[DataRelayAnalytics setDRSessionEnded]_block_invoke
++ ___39-[DataRelayAnalytics setDRSessionEnded]_block_invoke.cold.1
++ ___40-[DataRelayAnalytics markDM6FirstPacket]_block_invoke
++ ___40-[DataRelayAnalytics markDM6FirstPacket]_block_invoke.cold.1
++ ___40-[DataRelayAnalytics markHRMFirstPacket]_block_invoke
++ ___40-[DataRelayAnalytics markHRMFirstPacket]_block_invoke.cold.1
++ ___41-[DataRelayAnalytics setDRSessionStarted]_block_invoke
++ ___41-[DataRelayAnalytics setDRSessionStarted]_block_invoke.cold.1
++ ___44-[DataRelayAnalytics setDM6ServiceSetupTime]_block_invoke
++ ___44-[DataRelayAnalytics setDM6ServiceSetupTime]_block_invoke.cold.1
++ ___44-[DataRelayAnalytics setHRMServiceSetupTime]_block_invoke
++ ___44-[DataRelayAnalytics setHRMServiceSetupTime]_block_invoke.cold.1
++ ___45-[DataRelayAnalytics updateFromRemoteServer:]_block_invoke
++ ___46-[DataRelayAnalytics updateSetupReturnStatus:]_block_invoke
++ ___49-[DataRelayAnalytics updateRapportDiscoveryTime:]_block_invoke
++ ___80-[DataRelayAnalytics updateDRDeviceTypes:drClientDeviceType:drServerDeviceType:]_block_invoke
++ ___block_descriptor_41_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_57_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40bs48w56w_e17_v16?0"NSError"8ls32l8w48l8w56l8s40l8
++ ___block_descriptor_64_e8_32s40bs48w56w_e17_v16?0"NSError"8lw48l8s32l8w56l8s40l8
++ ___block_literal_global.101
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x26
++ _objc_retain_x4
++ _objc_retain_x8
+- -[DataRelayAnalytics setDRSessionStarted].cold.1
+- ___block_descriptor_56_e8_32s40w48w_e17_v16?0"NSError"8ls32l8w40l8w48l8
+- ___block_descriptor_56_e8_32s40w48w_e17_v16?0"NSError"8lw40l8s32l8w48l8
+- ___block_literal_global.35
+CStrings:
++ "-[DataRelayAnalytics markDM6FirstPacket]_block_invoke"
++ "-[DataRelayAnalytics markHRMFirstPacket]_block_invoke"
++ "-[DataRelayAnalytics setDM6ServiceSetupTime]_block_invoke"
++ "-[DataRelayAnalytics setDRSessionEnded]_block_invoke"
++ "-[DataRelayAnalytics setDRSessionStarted]_block_invoke"
++ "-[DataRelayAnalytics setHRMServiceSetupTime]_block_invoke"
++ "com.apple.datarelay.DataRelayAnalytics"
++ "markDM6FirstPacket called without prior setDM6ServiceSetupTime"
++ "markHRMFirstPacket called without prior setHRMServiceSetupTime"
++ "setDM6ServiceSetupTime called without prior setDRSessionStarted"
++ "setDRSessionEnded called without prior setDRSessionStarted"
++ "setHRMServiceSetupTime called without prior setDRSessionStarted"
+- "-[DataRelayAnalytics setDRSessionStarted]"
+- ".cxx_destruct"
+- "@\"DRServerManager\""
+- "@\"HIDEventSystemClient\""
+- "@\"HIDUserDevice\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSString\""
+- "@\"RPCompanionLinkClient\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@32@0:8Q16@24"
+- "@40@0:8@16Q24@32"
+- "@40@0:8Q16@24@32"
+- "@44@0:8@16Q24@32B40"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B28@0:8C16*20"
+- "DRSPDClient"
+- "DRSPDServer"
+- "HIDClient"
+- "HIDServices"
+- "Q16@0:8"
+- "Q48@0:8Q16@24q32q40"
+- "T@\"DRServerManager\",R,&,N,V_serverManager"
+- "T@\"HIDEventSystemClient\",&,N,V_HIDClient"
+- "T@\"HIDUserDevice\",&,N,V_userDevice"
+- "T@\"NSArray\",R,C"
+- "T@\"NSData\",&,N,V_wxRoute"
+- "T@\"NSData\",R,C,N,V_wxAddress"
+- "T@\"NSDate\",&,N,V_discoveryStartTimestamp"
+- "T@\"NSMutableArray\",&,N,V_events"
+- "T@\"NSMutableDictionary\",&,N,V_HIDServices"
+- "T@\"NSMutableDictionary\",&,N,V_cidDictionary"
+- "T@\"NSMutableDictionary\",&,N,V_clientDictionary"
+- "T@\"NSMutableDictionary\",&,N,V_hidClients"
+- "T@\"NSMutableDictionary\",&,N,V_hidDevices"
+- "T@\"NSMutableDictionary\",&,N,V_serverDictionary"
+- "T@\"NSMutableDictionary\",C,N,V_properties"
+- "T@\"NSNumber\",&,N,V_dataRelayVersion"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_clientDictionaryQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_dispatchQueue"
+- "T@\"NSObject<OS_dispatch_semaphore>\",&,N,V_rapportSemaphore"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_discoveryTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_eventSendTimer"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_idsIdentifier"
+- "T@\"RPCompanionLinkClient\",&,N,V_deviceFoundClient"
+- "T@\"RPCompanionLinkClient\",&,N,V_deviceLostClient"
+- "T@\"RPCompanionLinkClient\",&,N,V_rapportClient"
+- "T@?,C,N,V_dataHandler"
+- "T@?,C,N,V_disconnectHandler"
+- "T@?,C,N,V_eventHandler"
+- "T@?,C,N,V_internalDisconnectHandler"
+- "T@?,C,N,V_requestHandler"
+- "T@?,C,N,V_serverFoundHandler"
+- "T@?,C,N,V_serverLostHandler"
+- "T@?,C,N,V_setReportHandler"
+- "TB,N,V_isActivated"
+- "TB,V_dm6Started"
+- "TB,V_hrmStarted"
+- "TB,V_isActivated"
+- "TQ,N"
+- "TQ,N,V_availableDataTypes"
+- "TQ,N,V_availableDataTypesFromLocalDiscovery"
+- "TQ,N,V_availableDataTypesFromServer"
+- "TQ,N,V_dataType"
+- "TQ,N,V_requestedDataTypes"
+- "TQ,N,V_serviceID"
+- "Tq,N,V_clientType"
+- "^I24@0:8@16"
+- "^{?=C[3C]QII}24@0:8@16"
+- "_HIDClient"
+- "_HIDServices"
+- "_activate:"
+- "_availableDataTypes"
+- "_availableDataTypesFromLocalDiscovery"
+- "_availableDataTypesFromServer"
+- "_cidDictionary"
+- "_clientDictionary"
+- "_clientDictionaryQueue"
+- "_clientType"
+- "_dataHandler"
+- "_dataRelaySessionAnalyticDict"
+- "_dataRelayVersion"
+- "_dataType"
+- "_deviceFoundClient"
+- "_deviceLostClient"
+- "_disconnectHandler"
+- "_discoveryStartTimestamp"
+- "_discoveryTimer"
+- "_dispatchQueue"
+- "_dm6ServiceStartedTimestamp"
+- "_dm6Started"
+- "_entryPoint"
+- "_eventHandler"
+- "_eventSendTimer"
+- "_events"
+- "_hidClients"
+- "_hidDevices"
+- "_hrmServiceStartedTimestamp"
+- "_hrmStarted"
+- "_identifier"
+- "_idsIdentifier"
+- "_internalDisconnectHandler"
+- "_isActivated"
+- "_properties"
+- "_rapportClient"
+- "_rapportSemaphore"
+- "_removeRequestedDataTypes:completion:"
+- "_requestHandler"
+- "_requestedDataTypes"
+- "_serverDictionary"
+- "_serverFoundHandler"
+- "_serverLostHandler"
+- "_serverManager"
+- "_serviceID"
+- "_sessionStartTimestamp"
+- "_setReportHandler"
+- "_userDevice"
+- "_wxAddress"
+- "_wxRoute"
+- "activate"
+- "activate:"
+- "activateWithCompletion:"
+- "addAvailableDataTypes:"
+- "addAvailableDataTypes:completion:"
+- "addAvailableDataTypes:dataTypes:wxAddress:"
+- "addAvailableDataTypes:dataTypes:wxAddress:fromServer:"
+- "addAvailableDataTypes:device:wxAddress:"
+- "addAvailableDataTypes:fromServer:completion:"
+- "addAvailableDataTypesFromPairedCompanion:wxAddress:"
+- "addAvailableDataTypesToClient:dataTypes:connectionID:completion:"
+- "addObject:"
+- "addRequestedDataTypes:"
+- "addRequestedDataTypes:completion:"
+- "addRequestedDataTypes:types:"
+- "addToCidDictionary:idsIdentifier:dataTypes:"
+- "allValues"
+- "appendBytes:length:"
+- "array"
+- "arrayWithObjects:count:"
+- "availableDataTypes"
+- "availableDataTypesFromLocalDiscovery"
+- "availableDataTypesFromServer"
+- "availableServers"
+- "bluetoothAddressData"
+- "cancel"
+- "children"
+- "cidDictionary"
+- "clientDictionary"
+- "clientDictionaryQueue"
+- "clientType"
+- "code"
+- "compareWithDeviceIdentifier:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "containsString:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "dataHandler"
+- "dataHandler:opcode:data:"
+- "dataRelayVersion"
+- "dataTypesForPeer:model:majorVersion:minorVersion:"
+- "dataValueForField:"
+- "dataWithBytes:length:"
+- "dataWithCapacity:"
+- "date"
+- "dealloc"
+- "description"
+- "destinationDevice"
+- "deviceFound:completion:"
+- "deviceFoundClient"
+- "deviceLost"
+- "deviceLostClient"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithObjectsAndKeys:"
+- "disconnectHandler"
+- "discoveryStartTimestamp"
+- "discoveryTimer"
+- "dispatchQueue"
+- "dm6Started"
+- "doubleValueForField:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "errorFlags"
+- "eventHandler"
+- "eventSendTimer"
+- "eventsHandler:"
+- "exceptionWithName:reason:userInfo:"
+- "getActivePairedDevice"
+- "getBytes:length:"
+- "getBytes:range:"
+- "getClientFromClientDictionary:fromAvail:"
+- "getHeartRateFlags:"
+- "getHeartRateLocation:location:"
+- "getInstance"
+- "getSensorTime:"
+- "handleEvent:"
+- "handleEvent:withService:"
+- "handleReport:"
+- "handleReport:withTimestamp:error:"
+- "handleRequest:"
+- "handleXPCDisconnected:"
+- "hasPrefix:"
+- "hidClients"
+- "hidDevices"
+- "hrmStarted"
+- "identifier"
+- "identifierFromOptions:"
+- "idsDeviceIdentifier"
+- "idsIdentifier"
+- "informDRClientSensorDataAvailable:dataTypes:connectionID:completion:"
+- "informDRClientSensorDataUnavailable:dataTypes:connectionID:completion:"
+- "init"
+- "initWithBytes:length:"
+- "initWithClientType:"
+- "initWithIdentifier:"
+- "initWithProperties:"
+- "initWithType:"
+- "integerValue"
+- "integerValueForField:"
+- "internalDisconnectHandler"
+- "invalidate"
+- "isActivated"
+- "isEqual:"
+- "isEqualToData:"
+- "isEqualToString:"
+- "length"
+- "localizedDescription"
+- "markDM6FirstPacket"
+- "markHRMFirstPacket"
+- "model"
+- "modelIdentifier"
+- "mutableCopy"
+- "now"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "operatingSystemVersion"
+- "propertyForKey:"
+- "q"
+- "q16@0:8"
+- "rapportClient"
+- "rapportSemaphore"
+- "registerEventID:options:handler:"
+- "registerRequestID:options:handler:"
+- "removeAllObjects"
+- "removeAvailableDataTypes:"
+- "removeAvailableDataTypes:completion:"
+- "removeAvailableDataTypes:dataTypes:wxAddress:"
+- "removeAvailableDataTypes:dataTypes:wxAddress:fromServer:"
+- "removeAvailableDataTypes:device:wxAddress:"
+- "removeAvailableDataTypes:fromServer:completion:"
+- "removeAvailableDataTypesFromPairedCompanion:wxAddress:"
+- "removeAvailableDataTypesToClient:dataTypes:connectionID:completion:"
+- "removeFromCidDictionary:idsIdentifier:dataTypes:"
+- "removeObjectForKey:"
+- "removeRequestedDataTypes:"
+- "removeRequestedDataTypes:completion:"
+- "removeRequestedDataTypes:types:"
+- "requestHandler"
+- "requestHandler:request:"
+- "requestedDataTypes"
+- "reset"
+- "resetDataRelaySessionAnalyticDict"
+- "routedWxDeviceChanged:"
+- "sendEventID:event:options:completion:"
+- "sendEvents"
+- "sendRequestID:request:options:responseHandler:"
+- "serverDictionary"
+- "serverFoundHandler"
+- "serverLostHandler"
+- "serverManager"
+- "serviceAdded:"
+- "serviceAddedHandler:"
+- "serviceRemoved:resetReportInterval:"
+- "serviceRemovedHandler:"
+- "services"
+- "setAaDeviceRouteChangedHandler:"
+- "setAvailableDataTypes:"
+- "setAvailableDataTypesFromLocalDiscovery:"
+- "setAvailableDataTypesFromServer:"
+- "setCancelHandler:"
+- "setCidDictionary:"
+- "setClientDictionary:"
+- "setClientDictionaryQueue:"
+- "setClientType:"
+- "setControlFlags:"
+- "setDM6ServiceSetupTime"
+- "setDRSessionEnded"
+- "setDRSessionStarted"
+- "setDataHandler:"
+- "setDataRelayVersion:"
+- "setDataType:"
+- "setDestinationDevice:"
+- "setDeviceFilter:"
+- "setDeviceFoundClient:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostClient:"
+- "setDeviceLostHandler:"
+- "setDisconnectHandler:"
+- "setDiscoveryStartTimestamp:"
+- "setDiscoveryTimer:"
+- "setDispatchQueue:"
+- "setDm6Started:"
+- "setErrorFlagsChangedHandler:"
+- "setEventHandler:"
+- "setEventSendTimer:"
+- "setEvents:"
+- "setFlags:"
+- "setHIDClient:"
+- "setHIDServices:"
+- "setHRMServiceSetupTime"
+- "setHidClients:"
+- "setHidDevices:"
+- "setHrmStarted:"
+- "setIdentifier:"
+- "setIdsIdentifier:"
+- "setInternalDisconnectHandler:"
+- "setIsActivated:"
+- "setMatching:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setProperties:"
+- "setProperty:forKey:"
+- "setRapportClient:"
+- "setRapportSemaphore:"
+- "setRemovalHandler:"
+- "setReport:"
+- "setReportHandler"
+- "setRequestHandler:"
+- "setRequestedDataTypes:"
+- "setRssiThreshold:"
+- "setServerDictionary:"
+- "setServerFoundHandler:"
+- "setServerLostHandler:"
+- "setServiceID:"
+- "setServiceNotificationHandler:"
+- "setSetReportHandler:"
+- "setUserDevice:"
+- "setWxAddress:"
+- "setWxRoute:"
+- "setupAAS"
+- "setupRapport"
+- "sharedDataRelayInstance"
+- "sharedInstance"
+- "shouldDeactivate"
+- "statusFlags"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "submitDataRelaySessionAnalytics"
+- "timeIntervalSinceDate:"
+- "uniqueID"
+- "unsignedLongLongValue"
+- "updateDRDeviceTypes:drClientDeviceType:drServerDeviceType:"
+- "updateFromRemoteServer:"
+- "updateRapportDiscoveryTime:"
+- "updateSetupReturnStatus:"
+- "userDevice"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8Q16@24"
+- "v32@0:8Q16@?24"
+- "v36@0:8B16@20@28"
+- "v36@0:8I16@20Q28"
+- "v36@0:8Q16B24@?28"
+- "v40@0:8Q16Q24@32"
+- "v44@0:8@16Q24I32@?36"
+- "valueForProperty:"
+- "wxAddressChanged:wxAddress:"
+- "wxRoute"
+
+```

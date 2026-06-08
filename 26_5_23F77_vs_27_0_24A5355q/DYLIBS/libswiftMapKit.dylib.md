@@ -1,0 +1,579 @@
+## libswiftMapKit.dylib
+
+> `/usr/lib/swift/libswiftMapKit.dylib`
+
+```diff
+
+-14.35.2.9.2
+-  __TEXT.__text: 0x4ca8
+-  __TEXT.__auth_stubs: 0x790
+-  __TEXT.__objc_methlist: 0x40
+-  __TEXT.__const: 0x2c8
+-  __TEXT.__swift5_typeref: 0xf7
+-  __TEXT.__swift5_reflstr: 0x46
+-  __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__constg_swiftt: 0xc4
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_fieldmd: 0x44
+-  __TEXT.__swift5_proto: 0x18
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__cstring: 0x78
+-  __TEXT.__oslogstring: 0x5e
+-  __TEXT.__unwind_info: 0x180
+-  __TEXT.__eh_frame: 0xe8
+-  __TEXT.__objc_classname: 0x3e
+-  __TEXT.__objc_methname: 0x303
+-  __TEXT.__objc_methtype: 0x11
+-  __TEXT.__objc_stubs: 0x420
+-  __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_classlist: 0x8
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x128
+-  __AUTH_CONST.__auth_got: 0x3d0
+-  __AUTH_CONST.__const: 0xc8
+-  __AUTH_CONST.__objc_const: 0xb0
+-  __AUTH.__objc_data: 0xe0
+-  __AUTH.__data: 0x28
+-  __DATA.__data: 0x88
+-  __DATA.__bss: 0x300
+-  __DATA.__common: 0x21
+-  __DATA_DIRTY.__data: 0x38
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
++24.30.2.5.1
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x17
+   - /System/Library/Frameworks/MapKit.framework/MapKit
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+-  - /System/Library/PrivateFrameworks/_GeoServices_GeoToolbox.framework/_GeoServices_GeoToolbox
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B74311BF-3D90-39B0-8605-E314F1799464
+-  Functions: 88
+-  Symbols:   521
+-  CStrings:  48
++  UUID: 9C76EFA6-8258-38AC-83F7-F6ED0EEEA82F
++  Functions: 0
++  Symbols:   1
++  CStrings:  0
+ 
+Symbols:
+- <redacted>
+- _$s10Foundation6LocaleV6RegionVMa
+- _$s10Foundation6LocaleV6RegionVyAESScfC
+- _$s10Foundation8IndexSetV19_bridgeToObjectiveCSo07NSIndexC0CyF
+- _$s10GeoToolbox15PlaceDescriptorV010SupportingC14RepresentationO18serviceIdentifiersyAESDyS2SGcAEmFWC
+- _$s10GeoToolbox15PlaceDescriptorV010SupportingC14RepresentationOMa
+- _$s10GeoToolbox15PlaceDescriptorV010SupportingC14RepresentationOMn
+- _$s10GeoToolbox15PlaceDescriptorV01_a9Services_aB0E10geoMapItemACSgSo06GEOMapH0_p_tcfC
+- _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationO10coordinateyAESo22CLLocationCoordinate2DVcAEmFWC
+- _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationO14deviceLocationyAESo10CLLocationCcAEmFWC
+- _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationO7addressyAESScAEmFWC
+- _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationOMa
+- _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationOMn
+- _$s10GeoToolbox15PlaceDescriptorV10commonNameSSSgvg
+- _$s10GeoToolbox15PlaceDescriptorV10coordinateSo22CLLocationCoordinate2DVSgvg
+- _$s10GeoToolbox15PlaceDescriptorV15representations10commonName25supportingRepresentationsACSayAC0C14RepresentationOG_SSSgSayAC010SupportingcJ0OGtcfC
+- _$s10GeoToolbox15PlaceDescriptorV15representationsSayAC0C14RepresentationOGvg
+- _$s10GeoToolbox15PlaceDescriptorV17serviceIdentifier3forSSSgSS_tF
+- _$s10GeoToolbox15PlaceDescriptorV6MapKitE10identifier33_A294DC133FF18DEF5F4E48874ED1AADFLLSo19MKMapItemIdentifierCSgvg
+- _$s10GeoToolbox15PlaceDescriptorV6MapKitE30descriptorResolutionParameters33_A294DC133FF18DEF5F4E48874ED1AADFLLSo08GEOPlacedhI0Cvg
+- _$s10GeoToolbox15PlaceDescriptorV6MapKitE4itemACSgSo9MKMapItemC_tcfC
+- _$s10GeoToolbox15PlaceDescriptorV7addressSSSgvg
+- _$s10GeoToolbox15PlaceDescriptorVMa
+- _$s10GeoToolbox15PlaceDescriptorVMn
+- _$s10GeoToolbox15PlaceDescriptorVSgML
+- _$s10GeoToolbox15PlaceDescriptorVSgMR
+- _$s10GeoToolbox15PlaceDescriptorVSgMa
+- _$s10GeoToolbox15PlaceDescriptorVSgMd
+- _$s10GeoToolbox15PlaceDescriptorVSgWOc
+- _$s10GeoToolbox15PlaceDescriptorVSgWOf
+- _$s10GeoToolbox15PlaceDescriptorVSgWOh
+- _$s11GeoServicesMXM
+- _$s12CoreGraphics7CGFloatVMn
+- _$s15_ObjectiveCTypes01_A11CBridgeablePTl
+- _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
+- _$s2os6LoggerV6MapKitE14mapItemRequestACvpZ
+- _$s2os6LoggerV6MapKitE14mapItemRequest_WZ
+- _$s2os6LoggerV6MapKitE14mapItemRequest_Wz
+- _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+- _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+- _$s2os6LoggerVMa
+- _$s5UIKit6_GlassV01_B7VariantV7regularAEvgZ
+- _$s5UIKit6_GlassV01_B7VariantVMa
+- _$s5UIKit6_GlassVMa
+- _$s5UIKit6_GlassVSo6UIViewCAAE8MaterialAAWP
+- _$s5UIKit6_GlassV_10smoothnessA2C01_B7VariantV_12CoreGraphics7CGFloatVtcfC
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsC15placeDescriptor10GeoToolbox05PlaceI0VSgvMTq
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsC15placeDescriptor10GeoToolbox05PlaceI0VSgvgTq
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsC15placeDescriptor10GeoToolbox05PlaceI0VSgvpWvd
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsC15placeDescriptor10GeoToolbox05PlaceI0VSgvsTq
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsC15placeDescriptorAC10GeoToolbox05PlaceI0VSg_tcfCTq
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCACycfcTo
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMF
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMU
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMa
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMf
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMl
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMn
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCMr
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCN
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCfD
+- _$s6MapKit32_MKMapItemRequestSwiftExtensionsCfETo
+- _$s6MapKit33MKCoordinateSpanInNSValueObjCType33_A7F05A9FC59978B7629B6D1433DC5680LLSPys4Int8VGvp
+- _$s6MapKit33MKCoordinateSpanInNSValueObjCType33_A7F05A9FC59978B7629B6D1433DC5680LL_WZ
+- _$s6MapKit33MKCoordinateSpanInNSValueObjCType33_A7F05A9FC59978B7629B6D1433DC5680LL_Wz
+- _$s6MapKitMXM
+- _$s8RawValueSYTl
+- _$sBOWV
+- _$sBi32_WV
+- _$sS2SSlsWL
+- _$sS2SSlsWl
+- _$sS2sSTsWL
+- _$sS2sSTsWl
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5Tf4g_n
+- _$sSE6encode2toys7Encoder_p_tKFTq
+- _$sSEMp
+- _$sSJSQsWP
+- _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS5countSivg
+- _$sSS6MapKitE17pegasusMUIDPrefixSSvpZ
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS8_copyingyS2SFZ
+- _$sSS8_copyingySSSsFZ
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSS9hasPrefixySbSSF
+- _$sSSN
+- _$sSSSTsWP
+- _$sSSSlsMc
+- _$sSS_SStMR
+- _$sSS_SStMd
+- _$sSS_SStWOhTm
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sSSySsSnySS5IndexVGcig
+- _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSs8UTF8ViewV_Tgq5
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSYsSERzSS8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSeRzSS8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
+- _$sSaySSGMR
+- _$sSaySSGMd
+- _$sSaySSGSayxGSKsWL
+- _$sSaySSGSayxGSKsWl
+- _$sSayxGSKsMc
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$sSl17_StringProcessingSQ7ElementRpzrlE14trimmingPrefixy11SubSequenceQzqd__STRd__ABQyd__ACRSlF
+- _$sSo12MKMultiPointC6MapKitE9locations2atSay12CoreGraphics7CGFloatVG10Foundation8IndexSetV_tF
+- _$sSo13os_log_type_ta0A0E4infoABvgZ
+- _$sSo16MKCoordinateSpana6MapKitE19_bridgeToObjectiveCSo7NSValueCyF
+- _$sSo16MKCoordinateSpana6MapKitE26_forceBridgeFromObjectiveC_6resultySo7NSValueC_ABSgztFZ
+- _$sSo16MKCoordinateSpana6MapKitE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSValueC_ABSgztFZ
+- _$sSo16MKCoordinateSpana6MapKitE36_unconditionallyBridgeFromObjectiveCyABSo7NSValueCSgFZ
+- _$sSo16MKCoordinateSpanaMB
+- _$sSo16MKCoordinateSpanaMF
+- _$sSo16MKCoordinateSpanaML
+- _$sSo16MKCoordinateSpanaMa
+- _$sSo16MKCoordinateSpanaMaTm
+- _$sSo16MKCoordinateSpanaMf
+- _$sSo16MKCoordinateSpanaMn
+- _$sSo16MKCoordinateSpanaWV
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitMA
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitMc
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitMcMK
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
+- _$sSo16MKCoordinateSpanas21_ObjectiveCBridgeable6MapKitsACP09_bridgeToC1C01_C5CTypeQzyFTW
+- _$sSo16MKCoordinateSpanawet
+- _$sSo16MKCoordinateSpanawst
+- _$sSo16MKMapItemRequestC6MapKitE15placeDescriptor10GeoToolbox05PlaceG0VSgvg
+- _$sSo16MKMapItemRequestC6MapKitE15placeDescriptor10GeoToolbox05PlaceG0VSgvpMV
+- _$sSo16MKMapItemRequestC6MapKitE15placeDescriptorAB10GeoToolbox05PlaceG0V_tcfC
+- _$sSo19MKMapItemIdentifierCSE6MapKitMc
+- _$sSo19MKMapItemIdentifierCSE6MapKitMcMK
+- _$sSo19MKMapItemIdentifierCSE6MapKitSE6encode2toys7Encoder_p_tKFTW
+- _$sSo19MKMapItemIdentifierCSY6MapKitMA
+- _$sSo19MKMapItemIdentifierCSY6MapKitMc
+- _$sSo19MKMapItemIdentifierCSY6MapKitMcMK
+- _$sSo19MKMapItemIdentifierCSY6MapKitSY8rawValue03RawG0QzvgTW
+- _$sSo19MKMapItemIdentifierCSY6MapKitSY8rawValuexSg03RawG0Qz_tcfCTW
+- _$sSo19MKMapItemIdentifierCSe6MapKitMc
+- _$sSo19MKMapItemIdentifierCSe6MapKitMcMK
+- _$sSo19MKMapItemIdentifierCSe6MapKitSe4fromxs7Decoder_p_tKcfCTW
+- _$sSo24MKAddressRepresentationsC6MapKitE6region10Foundation6LocaleV6RegionVSgvg
+- _$sSo24MKAddressRepresentationsC6MapKitE6region10Foundation6LocaleV6RegionVSgvpMV
+- _$sSo26MKGradientPolylineRendererC6MapKitE9locationsSay12CoreGraphics7CGFloatVGvg
+- _$sSo26MKGradientPolylineRendererC6MapKitE9locationsSay12CoreGraphics7CGFloatVGvpMV
+- _$sSo26MKGradientPolylineRendererC6MapKitE9setColors_9locationsySaySo7UIColorCG_Say12CoreGraphics7CGFloatVGtF
+- _$sSo50MKMapItemDetailSelectionAccessoryPresentationStyleC6MapKitE7calloutyABSo0abcde7CalloutG0VFZ
+- _$sSo50MKMapItemDetailSelectionAccessoryPresentationStyleC6MapKitE9automatic26presentationViewControllerABSo06UIViewM0CSg_tFZ
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVMB
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVML
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVMa
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVMf
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVMn
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSQSCMc
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSQSCMcMK
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSQSCSQ2eeoiySbx_xtFZTW
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSYSCMA
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSYSCMc
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSYSCMcMK
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSYSCSY8rawValue03RawH0QzvgTW
+- _$sSo51GEOPlaceDescriptorResolutionParametersPreferredTypeVSYSCSY8rawValuexSg03RawH0Qz_tcfCTW
+- _$sSo6UIViewC5UIKitE11_backgroundAbCE8Material_pSgvs
+- _$sSo6UIViewC6MapKitE18setGlassBackgroundyyF
+- _$sSo6UIViewC6MapKitE18setGlassBackgroundyyFTo
+- _$sSo6UIViewC6MapKitE20clearGlassBackgroundyyF
+- _$sSo6UIViewC6MapKitE20clearGlassBackgroundyyFTo
+- _$sSo7UIColorCML
+- _$sSo8NSNumberCML
+- _$sSo8NSNumberCMa
+- _$sSo8NSNumberCMaTm
+- _$sSoMXM
+- _$sSqMa
+- _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
+- _$sSsN
+- _$sSsSTsMc
+- _$sSss25LosslessStringConvertiblesWP
+- _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
+- _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
+- _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
+- _$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF
+- _$ss11_StringGutsVN
+- _$ss12_AnyIndexBoxP7_typeIDSOvgTj
+- _$ss12_AnyIndexBoxP8_isEqual2toSbsAA_p_tFTj
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10GeoToolbox15PlaceDescriptorV010SupportingQ14RepresentationO_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo51GEOPlaceDescriptorResolutionParametersPreferredTypeV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSs_s6UInt64VTg5
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF12CoreGraphics7CGFloatV_Tg5
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
+- _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
+- _$ss17_AnyCollectionBoxCyxs01_a5IndexC0_pcigTj
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss18_DictionaryStorageCyS2SGMR
+- _$ss18_DictionaryStorageCyS2SGMd
+- _$ss20__StaticArrayStorageCN
+- _$ss21_ObjectiveCBridgeableMp
+- _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
+- _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
+- _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
+- _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_SSTg5
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreGraphics7CGFloatV_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss23_ContiguousArrayStorageCy10GeoToolbox15PlaceDescriptorV010SupportingF14RepresentationOGMR
+- _$ss23_ContiguousArrayStorageCy10GeoToolbox15PlaceDescriptorV010SupportingF14RepresentationOGMd
+- _$ss23_ContiguousArrayStorageCy10GeoToolbox15PlaceDescriptorV0F14RepresentationOGMR
+- _$ss23_ContiguousArrayStorageCy10GeoToolbox15PlaceDescriptorV0F14RepresentationOGMd
+- _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMR
+- _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMd
+- _$ss23_ContiguousArrayStorageCySSGMR
+- _$ss23_ContiguousArrayStorageCySSGMd
+- _$ss23_ContiguousArrayStorageCySS_SStGMR
+- _$ss23_ContiguousArrayStorageCySS_SStGMd
+- _$ss23_ContiguousArrayStorageCySo51GEOPlaceDescriptorResolutionParametersPreferredTypeVGMR
+- _$ss23_ContiguousArrayStorageCySo51GEOPlaceDescriptorResolutionParametersPreferredTypeVGMd
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMR
+- _$ss23_ContiguousArrayStorageCys5UInt8VGMd
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
+- _$ss5Int32VMn
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lys5UInt8Vqd__Isgyrzo_ABySS8UTF8ViewVGADsAI_pAMRszr__lIetMggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5i9VGXEfU_s6L21V_SsTG5SiTf3nnpSi10_nTf1cn_n
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SRys5UInt8VGABySS8UTF8ViewVGSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyAIqd__Isgyrzo_qd__sAO_pALRszr__lIetyggrzo_Tpq5s6UInt64VSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5h9VGXEfU_s6L21V_SsTG5SiTf3nnpSi10_nTf1nnc_nTf4xn_n
+- _$ss5UInt8VMn
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6MirrorV10reflectingAByp_tcfC
+- _$ss6MirrorV8childrens13AnyCollectionVySSSg5label_yp5valuetGvg
+- _$ss6MirrorVMa
+- _$sypN
+- _$sypWOb
+- _$sypWOc
+- _OBJC_CLASS_$_GEOLocation
+- _OBJC_CLASS_$_GEOMapItemIdentifier
+- _OBJC_CLASS_$_GEOPlaceDescriptorResolutionParameters
+- _OBJC_CLASS_$_MKMapItemDetailSelectionAccessoryPresentationStyle
+- _OBJC_CLASS_$_MKMapItemIdentifier
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIView
+- _OBJC_CLASS_$__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- __CATEGORY_INSTANCE_METHODS_UIView_$_MapKit
+- __CATEGORY_UIView_$_MapKit
+- __DATA__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- __INSTANCE_METHODS__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- __IVARS__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- __METACLASS_DATA__TtC6MapKit32_MKMapItemRequestSwiftExtensions
+- ___chkstk_darwin
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_allocate_value_buffer
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+- ___swift_instantiateConcreteTypeFromMangledNameV2
+- ___swift_memcpy16_8
+- ___swift_noop_void_return
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- __objc_empty_cache
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_MapKit
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_MapKit
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreImage_$_MapKit
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_MapKit
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftDispatch_$_MapKit
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftFoundation_$_MapKit
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftIntents_$_MapKit
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftMetal_$_MapKit
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftOSLog_$_MapKit
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_MapKit
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftQuartzCore_$_MapKit
+- __swift_FORCE_LOAD_$_swiftSpatial
+- __swift_FORCE_LOAD_$_swiftSpatial_$_MapKit
+- __swift_FORCE_LOAD_$_swiftUIKit
+- __swift_FORCE_LOAD_$_swiftUIKit_$_MapKit
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_MapKit
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftXPC_$_MapKit
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_MapKit
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftos_$_MapKit
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_FORCE_LOAD_$_swiftsimd_$_MapKit
+- __swift_stdlib_malloc_size
+- __swift_stdlib_reportUnimplementedInitializer
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_autorelease
+- _objc_msgSend
+- _objc_msgSend$MKCoordinateSpanValue
+- _objc_msgSend$_coordinate
+- _objc_msgSend$_geoAddress
+- _objc_msgSend$_geoMapItem
+- _objc_msgSend$automaticWithPresentationViewController:
+- _objc_msgSend$calloutWithCalloutStyle:
+- _objc_msgSend$doubleValue
+- _objc_msgSend$formattedAddressLines
+- _objc_msgSend$identifier
+- _objc_msgSend$identifierString
+- _objc_msgSend$init
+- _objc_msgSend$initWithDouble:
+- _objc_msgSend$initWithGEOMapItemIdentifier:
+- _objc_msgSend$initWithIdentifierString:
+- _objc_msgSend$initWithInt:
+- _objc_msgSend$initWithInternalSwiftExtensions:descriptorResolutionParameters:
+- _objc_msgSend$initWithInternalSwiftExtensions:mapItemIdentifier:
+- _objc_msgSend$initWithLatitude:longitude:
+- _objc_msgSend$initWithMUID:coordinate:
+- _objc_msgSend$internalSwiftExtensions
+- _objc_msgSend$isCurrentLocation
+- _objc_msgSend$locations
+- _objc_msgSend$locationsAtPointIndexes:
+- _objc_msgSend$name
+- _objc_msgSend$objCType
+- _objc_msgSend$placemark
+- _objc_msgSend$regionCode
+- _objc_msgSend$setColors:atLocations:
+- _objc_msgSend$setFormattedAddress:
+- _objc_msgSend$setLocation:
+- _objc_msgSend$setPlaceNameHint:
+- _objc_msgSend$setPreferredTypes:
+- _objc_msgSend$valueWithMKCoordinateSpan:
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x8
+- _os_log_type_enabled
+- _strcmp
+- _swift_allocBox
+- _swift_allocObject
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_endAccess
+- _swift_getForeignTypeMetadata
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _symbolic $sSY
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic SS
+- _symbolic SS_SSt
+- _symbolic SaySSG
+- _symbolic Sd
+- _symbolic So19MKMapItemIdentifierC
+- _symbolic So7NSValueC
+- _symbolic So8NSObjectC
+- _symbolic _____ 6MapKit32_MKMapItemRequestSwiftExtensionsC
+- _symbolic _____ So16MKCoordinateSpana
+- _symbolic _____ So51GEOPlaceDescriptorResolutionParametersPreferredTypeV
+- _symbolic _____ s5Int32V
+- _symbolic _____Sg 10GeoToolbox15PlaceDescriptorV
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySSG s23_ContiguousArrayStorageC
+- _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10GeoToolbox15PlaceDescriptorV010SupportingF14RepresentationO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10GeoToolbox15PlaceDescriptorV0F14RepresentationO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So51GEOPlaceDescriptorResolutionParametersPreferredTypeV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _type_layout_string So16MKCoordinateSpana
+CStrings:
+- ".cxx_destruct"
+- "@16@0:8"
+- "MKCoordinateSpanValue"
+- "MapKit"
+- "MapKit._MKMapItemRequestSwiftExtensions"
+- "Unknown place representation type"
+- "Unknown place representation type: %{public}s"
+- "_TtC6MapKit32_MKMapItemRequestSwiftExtensions"
+- "_coordinate"
+- "_geoAddress"
+- "_geoMapItem"
+- "_mapkit_clearGlassBackground"
+- "_mapkit_setGlassBackground"
+- "automaticWithPresentationViewController:"
+- "calloutWithCalloutStyle:"
+- "com.apple.MapKit"
+- "dealloc"
+- "doubleValue"
+- "formattedAddressLines"
+- "identifier"
+- "identifierString"
+- "init"
+- "init()"
+- "initWithDouble:"
+- "initWithGEOMapItemIdentifier:"
+- "initWithIdentifierString:"
+- "initWithInt:"
+- "initWithInternalSwiftExtensions:descriptorResolutionParameters:"
+- "initWithInternalSwiftExtensions:mapItemIdentifier:"
+- "initWithLatitude:longitude:"
+- "initWithMUID:coordinate:"
+- "internalSwiftExtensions"
+- "isCurrentLocation"
+- "locations"
+- "locationsAtPointIndexes:"
+- "name"
+- "objCType"
+- "pegasus_geo_internal_id"
+- "placeDescriptor"
+- "placemark"
+- "regionCode"
+- "setColors:atLocations:"
+- "setFormattedAddress:"
+- "setLocation:"
+- "setPlaceNameHint:"
+- "setPreferredTypes:"
+- "v16@0:8"
+- "valueWithMKCoordinateSpan:"
+
+```

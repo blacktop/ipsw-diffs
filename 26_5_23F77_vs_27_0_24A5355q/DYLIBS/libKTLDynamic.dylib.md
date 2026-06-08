@@ -1,0 +1,148 @@
+## libKTLDynamic.dylib
+
+> `/usr/lib/libKTLDynamic.dylib`
+
+```diff
+
+-1418.1.0.0.0
+-  __TEXT.__text: 0x24a50
+-  __TEXT.__auth_stubs: 0x18c0
++1563.0.0.0.0
++  __TEXT.__text: 0x26408
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__const: 0x158
+-  __TEXT.__gcc_except_tab: 0x18b4
+-  __TEXT.__cstring: 0x34eb
++  __TEXT.__gcc_except_tab: 0x1a1c
++  __TEXT.__cstring: 0x37b0
+   __TEXT.__oslogstring: 0x41
+-  __TEXT.__unwind_info: 0xbe0
+-  __DATA_CONST.__got: 0x68
++  __TEXT.__unwind_info: 0xc28
++  __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x180
+-  __AUTH_CONST.__auth_got: 0xc68
+-  __AUTH_CONST.__const: 0x1240
++  __DATA_CONST.__weak_got: 0x18
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x1330
++  __AUTH_CONST.__weak_auth_got: 0x20
++  __AUTH_CONST.__auth_got: 0xcc0
+   __DATA.__data: 0xa0
+   __DATA.__bss: 0x128
+   __DATA.__common: 0x10
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 64AA9937-36DC-304E-94F3-03F19EC01B40
+-  Functions: 428
+-  Symbols:   1414
+-  CStrings:  420
++  UUID: 44A99805-F81F-37D5-850B-0CC3071D9402
++  Functions: 440
++  Symbols:   1465
++  CStrings:  437
+ 
+Symbols:
++ GCC_except_table20
++ GCC_except_table35
++ GCC_except_table38
++ GCC_except_table40
++ GCC_except_table89
++ GCC_except_table94
++ GCC_except_table95
++ __ZN3Bsp16ARICommandDriver18GetPowerSleepStatsEPN6AriSdk34ARI_IBIBbPowerSocSleepStatsReq_SDKEPPNS1_36ARI_IBIBbPowerSocSleepStatsRspCb_SDKE
++ __ZN5eUICC18VinylCommandDriver15GetEuuidRequestEPN6AriSdk27ARI_IBIVinylGetEuuidReq_SDKEPPNS1_29ARI_IBIVinylGetEuuidRspCb_SDKE
++ __ZN5eUICC18VinylCommandDriver15GetNcCfgRequestEPN6AriSdk27ARI_IBIVinylGetNcCfgReq_SDKEPPNS1_29ARI_IBIVinylGetNcCfgRspCb_SDKE
++ __ZN5eUICC18VinylCommandDriver17LpaSigningRequestEPN6AriSdk29ARI_IBIVinylLPASigningReq_SDKEPPNS1_31ARI_IBIVinylLPASigningRspCb_SDKE
++ __ZN5trace16ARICommandDriver26listenForIQStopCompleteIndEN8dispatch9semaphoreERNSt3__18optionalIhEERNS4_IjEE
++ __ZN6AriSdk29ARI_IBIVinylGetEuuidRspCb_SDK6unpackEv
++ __ZN6AriSdk29ARI_IBIVinylGetEuuidRspCb_SDKC1EPKhj
++ __ZN6AriSdk29ARI_IBIVinylGetNcCfgRspCb_SDK6unpackEv
++ __ZN6AriSdk29ARI_IBIVinylGetNcCfgRspCb_SDKC1EPKhj
++ __ZN6AriSdk30ARI_TraceIQStopCompleteInd_SDK6unpackEv
++ __ZN6AriSdk30ARI_TraceIQStopCompleteInd_SDKC1EPKhj
++ __ZN6AriSdk30ARI_TraceIQStopCompleteInd_SDKD1Ev
++ __ZN6AriSdk31ARI_IBIVinylLPASigningRspCb_SDK6unpackEv
++ __ZN6AriSdk31ARI_IBIVinylLPASigningRspCb_SDKC1EPKhj
++ __ZN6AriSdk36ARI_IBIBbPowerSocSleepStatsRspCb_SDK6unpackEv
++ __ZN6AriSdk36ARI_IBIBbPowerSocSleepStatsRspCb_SDKC1EPKhj
++ __ZNK6AriSdk29ARI_IBIVinylGetEuuidRspCb_SDK15hasDeclaredGmidEv
++ __ZNK6AriSdk29ARI_IBIVinylGetNcCfgRspCb_SDK15hasDeclaredGmidEv
++ __ZNK6AriSdk31ARI_IBIVinylLPASigningRspCb_SDK15hasDeclaredGmidEv
++ __ZNK6AriSdk36ARI_IBIBbPowerSocSleepStatsRspCb_SDK15hasDeclaredGmidEv
++ __ZNSt12length_errorC1B9noe220100EPKc
++ __ZNSt3__110shared_ptrIKNS_6vectorIhNS_9allocatorIhEEEEED1B9noe220100Ev
++ __ZNSt3__110shared_ptrIN3ctu7GestaltEED1B9noe220100Ev
++ __ZNSt3__110shared_ptrIN3ctu7GestaltEEaSB9noe220100EOS3_
++ __ZNSt3__110shared_ptrIN3ktl13CommandDriverEED1B9noe220100Ev
++ __ZNSt3__110shared_ptrIN3ktl13CommandDriverEED2B9noe220100Ev
++ __ZNSt3__110shared_ptrIN6AriSdk31ARI_CsiIceRFFilerWriteRspCb_SDKEED1B9noe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9noe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9noe220100Ev
++ __ZNSt3__120__throw_future_errorB9noe220100ENS_11future_errcE
++ __ZNSt3__120__throw_length_errorB9noe220100EPKc
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9noe220100Ev
++ __ZSt28__throw_bad_array_new_lengthB9noe220100v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEE16__emplace_uniqueB9noe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSR_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSS_SQ_OST_OSU_E_clESS_SQ_S15_S16_
++ __ZZSt29__make_exception_ptr_explicitB9noe220100INSt3__112future_errorEESt13exception_ptrRT_ENUlPvE_8__invokeES5_
++ ___Block_byref_object_copy_.95
++ ___Block_byref_object_dispose_.96
++ ____ZN3ktl13CommandDriver7performIN6AriSdk29ARI_IBIVinylGetEuuidRspCb_SDKEEEbjNSt3__110shared_ptrIKNS4_6vectorIhNS4_9allocatorIhEEEEEEPPT__block_invoke
++ ____ZN3ktl13CommandDriver7performIN6AriSdk29ARI_IBIVinylGetNcCfgRspCb_SDKEEEbjNSt3__110shared_ptrIKNS4_6vectorIhNS4_9allocatorIhEEEEEEPPT__block_invoke
++ ____ZN3ktl13CommandDriver7performIN6AriSdk31ARI_IBIVinylLPASigningRspCb_SDKEEEbjNSt3__110shared_ptrIKNS4_6vectorIhNS4_9allocatorIhEEEEEEPPT__block_invoke
++ ____ZN3ktl13CommandDriver7performIN6AriSdk36ARI_IBIBbPowerSocSleepStatsRspCb_SDKEEEbjNSt3__110shared_ptrIKNS4_6vectorIhNS4_9allocatorIhEEEEEEPPT__block_invoke
++ ____ZN5trace16ARICommandDriver26listenForIQStopCompleteIndEN8dispatch9semaphoreERNSt3__18optionalIhEERNS4_IjEE_block_invoke
++ ___block_descriptor_tmp.104
++ ___block_descriptor_tmp.107
++ ___block_descriptor_tmp.110
++ ___block_descriptor_tmp.34
++ ___block_descriptor_tmp.68
++ ___block_descriptor_tmp.97
++ ___copy_helper_block_e8_40c44_ZTSNSt3__18weak_ptrIN3ktl13CommandDriverEEE72c25_ZTSN8dispatch9semaphoreE
++ ___destroy_helper_block_e8_40c44_ZTSNSt3__18weak_ptrIN3ktl13CommandDriverEEE72c25_ZTSN8dispatch9semaphoreE
+- GCC_except_table91
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110shared_ptrIKNS_6vectorIhNS_9allocatorIhEEEEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN3ctu7GestaltEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN3ctu7GestaltEEaSB9nqe210106EOS3_
+- __ZNSt3__110shared_ptrIN3ktl13CommandDriverEED2B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN6AriSdk31ARI_CsiIceRFFilerWriteRspCb_SDKEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe210106Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN8dispatch5blockIU13block_pointerFiPhjEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSR_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__120__throw_future_errorB9nqe210106ENS_11future_errcE
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZZSt29__make_exception_ptr_explicitB9nqe210106INSt3__112future_errorEESt13exception_ptrRT_ENUlPvE_8__invokeES5_
+- ___Block_byref_object_copy_.15
+- ___Block_byref_object_copy_.94
+- ___Block_byref_object_dispose_.16
+- ___Block_byref_object_dispose_.95
+- ___block_descriptor_tmp.103
+- ___block_descriptor_tmp.106
+- ___block_descriptor_tmp.96
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CQhougBhAQtR3C9eRfN2wfg0cn5pgQCHJdGidKk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
++ "Failed IBIBbPowerSocSleepStatsRspCb\n"
++ "GetEuuidRequest"
++ "GetNcCfgRequest"
++ "GetPowerSleepStats"
++ "LpaSigningRequest"
++ "Received IQ trace stop complete indication"
++ "Registering for IQ trace stop complete indication"
++ "VinylCommandDriver Euuid Request failure"
++ "VinylCommandDriver LPASigning Request failure"
++ "VinylCommandDriver configId Request failure"
++ "[ind] Error while unpacking IQ trace stop complete indication"
++ "[ind] Got unexpected message 0x%0x, expected IQ trace stop complete indication (0x%0x)"
++ "[ind] IQ trace stop complete indication has fill level %u"
++ "[ind] IQ trace stop complete indication has region id %d"
++ "[ind] IQ trace stop complete indication success"
++ "listenForIQStopCompleteInd"
++ "listenForIQStopCompleteInd_block_invoke"
+- "/AppleInternal/Library/BuildRoots/4~COByugA-InoDAfVfGpugAdnUi7X_ZN2hyAEYOsk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+
+```

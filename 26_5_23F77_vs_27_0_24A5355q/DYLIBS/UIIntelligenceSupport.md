@@ -1,0 +1,545 @@
+## UIIntelligenceSupport
+
+> `/System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport`
+
+```diff
+
+-9126.4.5.0.0
+-  __TEXT.__text: 0x100684
+-  __TEXT.__auth_stubs: 0x21b0
++9127.0.66.0.0
++  __TEXT.__text: 0x10eb4c
+   __TEXT.__objc_methlist: 0x1bc
+-  __TEXT.__const: 0x155b0
+-  __TEXT.__swift5_typeref: 0x42b0
+-  __TEXT.__swift5_reflstr: 0x20a3
+-  __TEXT.__swift5_assocty: 0x4e0
+-  __TEXT.__constg_swiftt: 0x3158
+-  __TEXT.__swift5_fieldmd: 0x3e44
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_proto: 0x1278
+-  __TEXT.__swift5_types: 0x558
+-  __TEXT.__cstring: 0x343a
+-  __TEXT.__swift5_capture: 0x218
+-  __TEXT.__swift_as_entry: 0x44
+-  __TEXT.__swift_as_ret: 0x30
+-  __TEXT.__oslogstring: 0xcc3
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_mpenum: 0x12c
+-  __TEXT.__unwind_info: 0x4178
+-  __TEXT.__eh_frame: 0x4150
+-  __TEXT.__objc_classname: 0x34b
+-  __TEXT.__objc_methname: 0x611
+-  __TEXT.__objc_methtype: 0x165
+-  __TEXT.__objc_stubs: 0x3e0
+-  __DATA_CONST.__got: 0x570
+-  __DATA_CONST.__const: 0x7e0
++  __TEXT.__const: 0x17f56
++  __TEXT.__swift5_typeref: 0x486a
++  __TEXT.__swift5_reflstr: 0x2350
++  __TEXT.__swift5_assocty: 0x588
++  __TEXT.__constg_swiftt: 0x364c
++  __TEXT.__swift5_fieldmd: 0x44ec
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_proto: 0x14c4
++  __TEXT.__swift5_types: 0x5f4
++  __TEXT.__cstring: 0x38cf
++  __TEXT.__swift5_capture: 0x284
++  __TEXT.__swift_as_entry: 0x48
++  __TEXT.__swift_as_ret: 0x34
++  __TEXT.__swift_as_cont: 0x54
++  __TEXT.__oslogstring: 0xe93
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_mpenum: 0x15c
++  __TEXT.__unwind_info: 0x47f8
++  __TEXT.__eh_frame: 0x4890
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x8b0
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1b8
++  __DATA_CONST.__objc_selrefs: 0x1c0
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x10e0
+-  __AUTH_CONST.__const: 0x9d21
+-  __AUTH_CONST.__objc_const: 0xd78
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xb240
++  __AUTH_CONST.__objc_const: 0xdb8
++  __AUTH_CONST.__auth_got: 0x1250
+   __AUTH.__objc_data: 0x48
+-  __AUTH.__data: 0x748
+-  __DATA.__data: 0x2e98
+-  __DATA.__bss: 0x1c9f0
+-  __DATA_DIRTY.__objc_data: 0x1b0
+-  __DATA_DIRTY.__data: 0x1c08
+-  __DATA_DIRTY.__bss: 0x7f80
++  __AUTH.__data: 0x5e8
++  __DATA.__data: 0x2698
++  __DATA.__bss: 0x1a0f0
++  __DATA_DIRTY.__objc_data: 0x1b8
++  __DATA_DIRTY.__data: 0x2d00
++  __DATA_DIRTY.__bss: 0xf180
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/PrivateFrameworks/UserActivity.framework/UserActivity
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+-  UUID: 9B0D9442-2331-332C-8C5B-E4B2D138D211
+-  Functions: 6273
+-  Symbols:   2309
+-  CStrings:  502
++  UUID: 2581E57A-4299-3A63-9B55-AAAD703A1F27
++  Functions: 6904
++  Symbols:   2587
++  CStrings:  423
+ 
+Symbols:
++ _CGPointApplyAffineTransform
++ _IOSurfaceCreateXPCObject
++ _IOSurfaceLookupFromXPCObject
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy177_8
++ ___swift_memcpy41_8
++ ___swift_memcpy4_1
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport16CodableIOSurfaceV0C5ErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 21UIIntelligenceSupport16CodableIOSurfaceV0C5ErrorOSHAASQ
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO19IsFocusedCodingKeysOs0pF0AAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO19IsFocusedCodingKeysOs0pF0AAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysOs0pF0AAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysOs0pF0AAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO29IsContextMenuSourceCodingKeysOs0rF0AAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO29IsContextMenuSourceCodingKeysOs0rF0AAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierVSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierVs25LosslessStringConvertibleAAs06CustomiJ0
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataVSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO12OnCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO12OnCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO13OffCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO13OffCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO15MixedCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO15MixedCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV7ContentO11EncodedType33_6D3E18FAA93E7218EB84396EBA49D542LLO16ToggleCodingKeysOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV7ContentO11EncodedType33_6D3E18FAA93E7218EB84396EBA49D542LLO16ToggleCodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO0E4Type33_4984F469EE756592A1BF87FB0DD262F8LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO0E4Type33_4984F469EE756592A1BF87FB0DD262F8LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport33IntelligenceExportableDataRequestV0F2IDVSHAASQ
++ _associated conformance 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.10
++ _block_copy_helper.14
++ _block_copy_helper.17
++ _block_copy_helper.24
++ _block_copy_helper.46
++ _block_copy_helper.8
++ _block_descriptor.10
++ _block_descriptor.12
++ _block_descriptor.16
++ _block_descriptor.19
++ _block_descriptor.26
++ _block_descriptor.48
++ _block_destroy_helper.11
++ _block_destroy_helper.15
++ _block_destroy_helper.18
++ _block_destroy_helper.25
++ _block_destroy_helper.47
++ _block_destroy_helper.9
++ _get_enum_tag_for_layout_string 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationOSg
++ _keypath_set.20Tm
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _rmdir
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_immediate
++ _swift_task_isCurrentExecutorWithFlags
++ _symbolic $s21UIIntelligenceSupport34IntelligenceExportableDataHandlingP
++ _symbolic SDy__________G 22UniformTypeIdentifiers6UTTypeV 21UIIntelligenceSupport16IntelligenceFileC
++ _symbolic SaySDy__________GG 22UniformTypeIdentifiers6UTTypeV 21UIIntelligenceSupport16IntelligenceFileC
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport16CodableIOSurfaceV
++ _symbolic _____ 21UIIntelligenceSupport16CodableIOSurfaceV0C5ErrorO
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO19IsFocusedCodingKeysO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO29IsContextMenuSourceCodingKeysO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierV5State33_284275BD7701A26AB0ADD3F81920AA0ALLV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO12OnCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO13OffCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO15MixedCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV6ToggleV7Storage33_B869A0A800F65237D6BA6F9B60CF6A69LLV
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV7ContentO11EncodedType33_6D3E18FAA93E7218EB84396EBA49D542LLO16ToggleCodingKeysO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO0E4Type33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO0E4Type33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____ 21UIIntelligenceSupport33IntelligenceExportableDataRequestV
++ _symbolic _____ 21UIIntelligenceSupport33IntelligenceExportableDataRequestV0F2IDV
++ _symbolic _____ 21UIIntelligenceSupport33IntelligenceExportableDataRequestV0F2IDV5State33_4436C783ABF223A57FAE79001BF5B9E2LLV
++ _symbolic _____ 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLO
++ _symbolic _____ So12IOSurfaceRefa
++ _symbolic _____3key______5valuetSg 21UIIntelligenceSupport17IntelligenceImageV14RepresentationV AA0C4FileC
++ _symbolic _____Sg 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV
++ _symbolic _____Sg 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV
++ _symbolic _____Sg 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO
++ _symbolic _____Sg 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO
++ _symbolic _____Sg 21UIIntelligenceSupport33IntelligenceCollectionCoordinatorC15PendingTransfer33_FF8861DF74D0FA4DA8FE8ED46763B145LLV
++ _symbolic ___________tSg 21UIIntelligenceSupport17IntelligenceImageV14RepresentationV AA0C4FileC
++ _symbolic ______pSg 21UIIntelligenceSupport34IntelligenceExportableDataHandlingP
++ _symbolic _____y_____G 21UIIntelligenceSupport10MutableBox33_95F2D37FCB967FB91E677636398EE425LLC AA19IntelligenceElementV6ToggleV7Storage33_B869A0A800F65237D6BA6F9B60CF6A69LLV
++ _symbolic _____y_____G 21UIIntelligenceSupport8IndirectV AA19IntelligenceElementV6ToggleV7Storage33_B869A0A800F65237D6BA6F9B60CF6A69LLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO19IsFocusedCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO29IsContextMenuSourceCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO12OnCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO13OffCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO15MixedCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV7ContentO11EncodedType33_6D3E18FAA93E7218EB84396EBA49D542LLO16ToggleCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO31RequestExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport16XPCClientMessageO24ExportableDataCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO19IsFocusedCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO29IsContextMenuSourceCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV12StorageValue33_663BDF9E1588CF98F295CF39073A6A74LLO24ExportableDataCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10CodingKeys33_284275BD7701A26AB0ADD3F81920AA0ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV10CodingKeys33_464F41E7C4D112B52C417CEA98C476E5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO10CodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO12OnCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO13OffCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV6ToggleV5StateO15MixedCodingKeys33_B869A0A800F65237D6BA6F9B60CF6A69LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV7ContentO11EncodedType33_6D3E18FAA93E7218EB84396EBA49D542LLO16ToggleCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport20IntelligenceSnapshotO7ContentO10CodingKeys33_4984F469EE756592A1BF87FB0DD262F8LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport33IntelligenceExportableDataRequestV10CodingKeys33_4436C783ABF223A57FAE79001BF5B9E2LLO
++ _symbolic _____y______SgG 21UIIntelligenceSupport19IntelligenceElementV13LoadableValueV AA0C8SnapshotO7ContentO
++ _symbolic _____y______SgGSg 21UIIntelligenceSupport19IntelligenceElementV13LoadableValueV AA0C8SnapshotO7ContentO
++ _symbolic _____y______Sg_G 21UIIntelligenceSupport19IntelligenceElementV13LoadableValueV22InternalRepresentation33_1E77248BB70DBA8B7D9D0CD042F659D3LLO AA0C8SnapshotO7ContentO
++ _symbolic _____y______Sg__G 21UIIntelligenceSupport19IntelligenceElementV13LoadableValueV05AsyncF033_1E77248BB70DBA8B7D9D0CD042F659D3LLV7StorageV AA0C8SnapshotO7ContentO
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierV5State33_284275BD7701A26AB0ADD3F81920AA0ALLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 21UIIntelligenceSupport33IntelligenceExportableDataRequestV0H2IDV5State33_4436C783ABF223A57FAE79001BF5B9E2LLV So16os_unfair_lock_sV
++ _type_layout_string 21UIIntelligenceSupport15XPCAgentMessageO10ExportDataV
++ _type_layout_string 21UIIntelligenceSupport16CodableIOSurfaceV
++ _type_layout_string 21UIIntelligenceSupport16XPCClientMessageO22ExportableDataResponseV
++ _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV
++ _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV14ExportableDataV10IdentifierV
++ _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV23ContextMenuPresentationV
++ _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV6ToggleV
++ _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV6ToggleV7Storage33_B869A0A800F65237D6BA6F9B60CF6A69LLV
++ _type_layout_string 21UIIntelligenceSupport20IntelligenceSnapshotO14RepresentationO
++ _type_layout_string 21UIIntelligenceSupport33IntelligenceCollectionCoordinatorC15PendingTransfer33_FF8861DF74D0FA4DA8FE8ED46763B145LLV
++ _type_layout_string 21UIIntelligenceSupport33IntelligenceExportableDataRequestV
++ _type_layout_string 21UIIntelligenceSupport33IntelligenceExportableDataRequestV0F2IDV
+- ___swift_memcpy159_8
+- ___swift_memcpy3_1
+- ___unnamed_4
+- _block_copy_helper.11
+- _block_copy_helper.16
+- _block_copy_helper.20
+- _block_copy_helper.25
+- _block_copy_helper.47
+- _block_descriptor.13
+- _block_descriptor.18
+- _block_descriptor.22
+- _block_descriptor.27
+- _block_descriptor.49
+- _block_destroy_helper.12
+- _block_destroy_helper.17
+- _block_destroy_helper.21
+- _block_destroy_helper.26
+- _block_destroy_helper.48
+- _keypath_set.18Tm
+- _objc_release_x9
+- _objc_retain_x28
+- _objectdestroy.3Tm
+- _objectdestroyTm
+- _swift_release_n
+- _swift_unknownObjectRelease_n
+- _symbolic _____3key______5valuetSg 21UIIntelligenceSupport19IntelligenceElementV10StorageKey33_663BDF9E1588CF98F295CF39073A6A74LLO AC0E5ValueAELLO
+- _symbolic _____3key___________SgXj5valuetSg 21UIIntelligenceSupport26IntelligenceDataSourceItemO lAA0C7ElementV13AsyncLoadable_px1TRts_XPXGMq AA0C17AppIntentsPayloadV
+- _symbolic _____Sg 10Foundation17URLResourceValuesV
+- _symbolic _____SgSg 21UIIntelligenceSupport17IntelligenceImageV
+- _symbolic _____SgSg 21UIIntelligenceSupport24IntelligenceUserActivityV
+- _symbolic _____y______SgGSg 21UIIntelligenceSupport19IntelligenceElementV13LoadableValueV AA0C12UserActivityV
+CStrings:
++ "CodableIOSurface("
++ "ContextMenuPresentation(location: "
++ "Error while exporting data for export request %{public}s: %s"
++ "ExportableData(id: "
++ "Failed to lookup IOSurface from XPC object"
++ "IntelligenceFile failed to create temporary directory at %{public}s: %{public}s"
++ "IntelligenceSnapshot.Content(snapshotIOSurface: "
++ "IntelligenceSnapshot.Content(snapshotImage: "
++ "IntelligenceSnapshot.Representation(intelligenceImage: "
++ "IntelligenceSnapshot.Representation(ioSurface)"
++ "No exportable data handler registered"
++ "No exportable data handler registered for export request %{public}s"
++ "No primary connection available to send exportable data export response"
++ "ReceiveExportData"
++ "com.apple.RealityChrome"
++ "com.apple.RealityControlCenter"
++ "com.apple.RealityHUD"
++ "com.apple.RealityHUD.HandSceneLeft"
++ "com.apple.RealityHUD.HandSceneRight"
++ "com.apple.RealityLauncher"
++ "contextMenuPresentation"
++ "contextMenuPresentation: "
++ "error sending exportable data export XPC message: %{public}s; underlying error: %{public}s"
++ "excludeSystemAppAndSystemUI"
++ "exportableData: "
++ "includeContextMenuSources"
++ "includeExpensiveMenuContent"
++ "includeExportableData"
++ "intelligenceImage"
++ "ioSurface"
++ "isContextMenuSource"
++ "isContextMenuSource: true"
++ "location"
++ "missing client session inside sendExportableDataExport"
++ "representations"
++ "requestExportableData"
++ "snapshotContent"
++ "snapshotContent: "
++ "snapshotImageRepresentations"
++ "surface"
+- "#16@0:8"
+- "$__lazy_storage_$_visitedViews"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "OS_dispatch_source"
+- "OS_dispatch_source_timer"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,N,R"
+- "TB,R"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC21UIIntelligenceSupport16IntelligenceFile"
+- "_TtC21UIIntelligenceSupport29IntelligenceFragmentCollector"
+- "_TtC21UIIntelligenceSupport29XPCRelaunchNotificationPoster"
+- "_TtC21UIIntelligenceSupport30IntelligenceCollectionListener"
+- "_TtC21UIIntelligenceSupport30UIIntelligenceElementCollector"
+- "_TtC21UIIntelligenceSupport30XPCRelaunchNotificationHandler"
+- "_TtC21UIIntelligenceSupport33IntelligenceCollectionCoordinator"
+- "_TtC21UIIntelligenceSupport37IntelligenceSupportAgentXPCConnection"
+- "_TtC21UIIntelligenceSupport44UIIntelligenceCollectionRemoteContextWrapper"
+- "_TtCV21UIIntelligenceSupport19IntelligenceElement12AsyncContent"
+- "_TtCVE21UIIntelligenceSupportV10Foundation3URL16SandboxExtension6Handle"
+- "__swift_objectForKeyedSubscript:"
+- "_context"
+- "_createUserActivityDataWithSaving:options:error:"
+- "_dataCache"
+- "_initWithUserActivityData:"
+- "_internalRepresentation"
+- "_uniqueIdentifier"
+- "asyncTask"
+- "autorelease"
+- "beginActivityWithOptions:reason:"
+- "bundleForClass:"
+- "class"
+- "code"
+- "conformsToProtocol:"
+- "contentCollectionResults"
+- "context"
+- "coordinateReadingItemAtURL:options:writingItemAtURL:options:error:byAccessor:"
+- "copyItemAtURL:toURL:error:"
+- "currentUserActivityUUID"
+- "dealloc"
+- "defaultManager"
+- "delegate"
+- "description"
+- "domain"
+- "elementArrayCollectionResults"
+- "elementCollectionResults"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "endActivity:"
+- "fallback"
+- "fetchUserActivityWithUUID:completionHandler:"
+- "hash"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithCoder:"
+- "initWithContentsOfURL:options:error:"
+- "initWithDomain:code:userInfo:"
+- "initWithInternalUserActivity:"
+- "initWithOptions:capacity:"
+- "integerValue"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "localizedDescription"
+- "needsSave"
+- "notifyToken"
+- "observer"
+- "parentUserActivity"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "release"
+- "releaseState"
+- "removeItemAtURL:error:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "superclass"
+- "supportsSecureCoding"
+- "unsignedIntValue"
+- "v12@?0i8"
+- "v16@0:8"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"NSURL\"8@\"NSURL\"16"
+- "v24@?0@\"UAUserActivity\"8@\"NSError\"16"
+- "v8@?0"
+- "value"
+- "zone"
+
+```

@@ -1,0 +1,608 @@
+## Maps
+
+> `/System/Library/AccessibilityBundles/Maps.axbundle/Maps`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x16330
+-  __TEXT.__auth_stubs: 0x510
++3036.2.0.0.0
++  __TEXT.__text: 0x178c8
+   __TEXT.__objc_methlist: 0x2d08
+-  __TEXT.__const: 0x100
+-  __TEXT.__cstring: 0x4ff5
+-  __TEXT.__gcc_except_tab: 0x264
++  __TEXT.__const: 0xc8
++  __TEXT.__gcc_except_tab: 0x308
++  __TEXT.__cstring: 0x4ff7
+   __TEXT.__oslogstring: 0x14e
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x960
+-  __TEXT.__objc_classname: 0x2a18
+-  __TEXT.__objc_methname: 0x2254
+-  __TEXT.__objc_methtype: 0x1c5
+-  __TEXT.__objc_stubs: 0x2000
+-  __DATA_CONST.__got: 0x240
++  __TEXT.__unwind_info: 0x978
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x4e8
+   __DATA_CONST.__objc_classlist: 0x838
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xaa8
+   __DATA_CONST.__objc_superrefs: 0x2a8
+-  __AUTH_CONST.__auth_got: 0x298
++  __DATA_CONST.__got: 0x240
+   __AUTH_CONST.__const: 0x4a0
+   __AUTH_CONST.__cfstring: 0x6c80
+   __AUTH_CONST.__objc_const: 0x9470
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x6e0
+   __DATA.__objc_ivar: 0x4
+   __DATA.__bss: 0x90
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1956931E-B89D-3512-822A-03C46E646D05
+-  Functions: 840
+-  Symbols:   3511
+-  CStrings:  2432
++  UUID: BE76EB3A-A0DD-3FAA-A608-BF57ACAC9631
++  Functions: 826
++  Symbols:   3489
++  CStrings:  1794
+ 
+Symbols:
++ GCC_except_table120
++ GCC_except_table208
++ GCC_except_table232
++ GCC_except_table298
++ GCC_except_table317
++ GCC_except_table322
++ GCC_except_table357
++ GCC_except_table369
++ GCC_except_table468
++ GCC_except_table627
++ GCC_except_table631
++ GCC_except_table646
++ GCC_except_table675
++ GCC_except_table684
++ GCC_except_table685
++ GCC_except_table817
++ ___Block_byref_object_copy_.4101
++ ___Block_byref_object_dispose_.4102
++ ___block_literal_global.1008
++ ___block_literal_global.1010
++ ___block_literal_global.1473
++ ___block_literal_global.1742
++ ___block_literal_global.1787
++ ___block_literal_global.18
++ ___block_literal_global.186
++ ___block_literal_global.1974
++ ___block_literal_global.2319
++ ___block_literal_global.243
++ ___block_literal_global.360
++ ___block_literal_global.360.2326
++ ___block_literal_global.3614
++ ___block_literal_global.365
++ ___block_literal_global.373
++ ___block_literal_global.373.2341
++ ___block_literal_global.378
++ ___block_literal_global.380
++ ___block_literal_global.383
++ ___block_literal_global.388
++ ___block_literal_global.390
++ ___block_literal_global.393
++ ___block_literal_global.394
++ ___block_literal_global.398
++ ___block_literal_global.400
++ ___block_literal_global.4110
++ ___block_literal_global.4190
++ ___block_literal_global.513
++ ___block_literal_global.517
++ ___block_literal_global.519
++ ___block_literal_global.523
++ ___block_literal_global.54
++ ___block_literal_global.609
++ ___block_literal_global.618
++ ___block_literal_global.682
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
+- +[AXMapsGlue accessibilityInitializeBundle].cold.1
+- -[CollectionsFilterCellAccessibility accessibilityRowRange].cold.1
+- -[MapsUserLocationViewAccessibility _axVLFElements].cold.1
+- -[MapsUserLocationViewAccessibility _axVLFElements].cold.2
+- -[UIViewController(AXMapsGlue) _accessibilityFirstNonGrabberElement].cold.1
+- -[VehicleCellAccessibility _axLabelForBatterView].cold.1
+- GCC_except_table10
+- GCC_except_table11
+- GCC_except_table17
+- GCC_except_table3
+- GCC_except_table7
+- GCC_except_table8
+- _AXMapKitLocString.cold.1
+- _AXMapsLocString.cold.1
+- _AXMapsStringForVehicleColor.cold.1
+- _AXStringByReplacingMiddleDots.cold.1
+- _AXVectorKitLocString.cold.1
+- _OUTLINED_FUNCTION_0
+- ___77-[VehicleColorPickerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke.cold.1
+- ___77-[VehicleColorPickerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke.cold.2
+- ___block_literal_global.339
+- ___block_literal_global.341
+- ___block_literal_global.344
+- ___block_literal_global.352
+- ___block_literal_global.357
+- ___block_literal_global.359
+- ___block_literal_global.367
+- ___block_literal_global.369
+- ___block_literal_global.372
+- ___block_literal_global.377
+- ___block_literal_global.379
+- ___block_literal_global.492
+- ___block_literal_global.496
+- ___block_literal_global.498
+- ___block_literal_global.502
+- ___block_literal_global.588
+- ___block_literal_global.597
+- ___block_literal_global.987
+- ___block_literal_global.989
+CStrings:
+- "#16@0:8"
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8d16"
+- "@32@0:8@16@24"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@48@0:8@16d24@32B40B44"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "AXMapsGlue"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B32@0:8{CGPoint=dd}16"
+- "I16@0:8"
+- "Q16@0:8"
+- "SafeCategory"
+- "SearchControllerAccessibility"
+- "TB,N,S_accessibilitySetIsInSettingsTableViewCell:,V__accessibilityIsInSettingsTableViewCell"
+- "TrackingButtonAccessibility"
+- "__AccessibilityNodeAccessibility__Maps__SwiftUI_super"
+- "__ActionBarAccessibility_super"
+- "__ActionBarDirectionButtonAccessibility_super"
+- "__ActionCoordinatorAccessibility_super"
+- "__ActionValidationControllerAccessibility_super"
+- "__AirQualityConditionsViewControllerAccessibility_super"
+- "__AllRefinementsMultiSelectElementCellAccessibility_super"
+- "__BrowseImageManagerAccessibility_super"
+- "__CardButtonAccessibility_super"
+- "__CardViewAccessibility_super"
+- "__CollectionSubHeaderViewAccessibility_super"
+- "__CollectionTableViewCellAccessibility_super"
+- "__CollectionViewAccessibility_super"
+- "__CollectionsFilterCellAccessibility_super"
+- "__ContaineeViewControllerAccessibility_super"
+- "__ContainerHeaderViewAccessibility_super"
+- "__ContainerViewControllerAccessibility_super"
+- "__CuratedCollectionHeaderViewAccessibility_super"
+- "__CuratedCollectionViewControllerAccessibility_super"
+- "__DirectionsStartEndTableViewCellAccessibility_super"
+- "__DirectionsStepTableViewCellAccessibility_super"
+- "__EditVehicleViewControllerAccessibility_super"
+- "__FlyoverTrayHeaderAccessibility_super"
+- "__GuidanceLaneViewAccessibility_super"
+- "__GuidanceManeuverViewAccessibility_super"
+- "__HomeActionFooterCellAccessibility_super"
+- "__HomeViewControllerAccessibility_super"
+- "__IOSBasedChromeViewControllerAccessibility_super"
+- "__IOSFloatingControlsViewControllerAccessibility_super"
+- "__IOSRoutePlanningOverviewViewControllerAccessibility_super"
+- "__InfoCardViewControllerAccessibility_super"
+- "__LabelListViewAccessibility_super"
+- "__LocationRefinementViewControllerAccessibility_super"
+- "__LookAroundFloatingButtonsViewControllerAccessibility_super"
+- "__LookAroundPuckViewControllerAccessibility_super"
+- "__MKMapViewAccessibility__Maps__MapKit_super"
+- "__ManeuverBannerViewAccessibility_super"
+- "__MapViewModeGridButtonViewAccessibility_super"
+- "__MapsAppAccessibility_super"
+- "__MapsAppDelegateAccessibility_super"
+- "__MapsDebugCollectionHeaderFooterViewAccessibility_super"
+- "__MapsDebugCollectionViewCellAccessibility_super"
+- "__MapsLargerHitTargetButtonAccessibility_super"
+- "__MapsRoutePlanningCellAccessibility_super"
+- "__MapsThemeTableViewAccessibility_super"
+- "__MapsUICollectionViewAccessibility_super"
+- "__MapsUILabelAccessibility_super"
+- "__MapsUIPageControlAccessibility_super"
+- "__MapsUISwitchAccessibility_super"
+- "__MapsUserLocationViewAccessibility_super"
+- "__NavActionCoordinatorAccessibility_super"
+- "__NavAudioControlViewAccessibility_super"
+- "__NavIdleTimeoutTimerAccessibility_super"
+- "__NavIndicatorsViewControllerAccessibility_super"
+- "__NavManeuverReroutingCellAccessibility_super"
+- "__NavSignLabelAccessibility_super"
+- "__NavSignListViewControllerAccessibility_super"
+- "__NavSignManeuverCellAccessibility_super"
+- "__NavSignViewAccessibility_super"
+- "__NavTrayHeaderViewAccessibility_super"
+- "__NavTrayStackedLabelAccessibility_super"
+- "__NavTrayViewControllerAccessibility_super"
+- "__NavTrayWaypointCellAccessibility_super"
+- "__NonSelectableCollectionViewListCellAccessibility_super"
+- "__POIAnnotationAccessibility_super"
+- "__PassThroughViewAccessibility_super"
+- "__PedestrianARArrowGuidanceViewAccessibility_super"
+- "__PedestrianARInstructionContainerViewAccessibility_super"
+- "__PlaceCardViewControllerAccessibility_super"
+- "__PublisherHeaderViewAccessibility_super"
+- "__RAPCheckmarkTableViewCellAccessibility_super"
+- "__RAPInstructionIncorrectViewAccessibility_super"
+- "__ResultsViewControllerAccessibility_super"
+- "__RouteOverviewCellAccessibility_super"
+- "__RoutePlanningAddStopCellAccessibility_super"
+- "__RoutePlanningOptionsViewControllerAccessibility_super"
+- "__RoutePlanningOverviewRouteCreationCellAccessibility_super"
+- "__RoutePlanningOverviewViewControllerAccessibility_super"
+- "__RoutePlanningWaypointCellAccessibility_super"
+- "__RouteStepManeuverViewAccessibility_super"
+- "__SearchControllerAccessibility_super"
+- "__SearchHomeBrowseCategoryCollectionViewCellAccessibility_super"
+- "__SearchResultAccessibility_super"
+- "__SearchResultTableViewCellAccessibility_super"
+- "__SearchViewControllerAccessibility_super"
+- "__SectionHeaderOutlineCellAccessibility_super"
+- "__SectionHeaderOutlineCellAccessoryModelAccessibility_super"
+- "__SectionHeaderViewAccessibility_super"
+- "__SettingsTableViewControllerAccessibility_super"
+- "__ShortcutsRowCollectionViewCellAccessibility_super"
+- "__StepTrayHeaderViewAccessibility_super"
+- "__TrackingButtonAccessibility_super"
+- "__TransitDestinationBannerViewAccessibility_super"
+- "__TransitDirectionsInstructionsCellAccessibility_super"
+- "__TransitDirectionsInstructionsStepViewAccessibility_super"
+- "__TransitRouteTableViewCellAccessibility_super"
+- "__TransitSchedulesStopViewCellAccessibility_super"
+- "__TransportTypeSegmentAccessibility_super"
+- "__TwoLineCollectionViewListCellAccessibility_super"
+- "__TwoLineOutlineCellButtonAccessoryModelAccessibility_super"
+- "__TwoLinesContentViewAccessibility_super"
+- "__TwoLinesOutlineCellAccessibility_super"
+- "__TwoLinesTableViewCellAccessibility_super"
+- "__UGCAddPhotoCollectionViewCellAccessibility_super"
+- "__UGCGlyphButtonViewAccessibility_super"
+- "__UGCPOIEnrichmentHeaderViewAccessibility_super"
+- "__UGCPOIEnrichmentModalHeaderViewAccessibility_super"
+- "__UGCPhotoThumbnailCollectionViewCellAccessibility_super"
+- "__UGCRatingCategoryCellAccessibility_super"
+- "__UGCRatingCategoryLikeDislikeViewAccessibility_super"
+- "__UIDropShadowViewAccessibility_Maps_AppKit_super"
+- "__UIMapsButtonAccessibility_super"
+- "__UIMapsImageViewAccessibility_super"
+- "__UIMapsNavigationButtonAccessibility_super"
+- "__UIMapsSegmentAccessibility_super"
+- "__UIMapsToolbarButtonAccessibility_super"
+- "__UIMapsViewAccessibility_super"
+- "__UserProfilePersonalizationLinkCellAccessibility_super"
+- "__UserProfilePreferencesHeaderViewAccessibility_super"
+- "__VLFCalloutViewAccessibility_super"
+- "__VLFFailureViewAccessibility_super"
+- "__VLFScanningInstructionViewAccessibility_super"
+- "__VehicleCellAccessibility_super"
+- "__VehicleColorPickerAccessibility_super"
+- "__VehicleDetailViewControllerAccessibility_super"
+- "__VehiclePickerButtonAccessibility_super"
+- "__VenueFloorPickerCellAccessibility_super"
+- "__VenueFloorViewControllerAccessibility_super"
+- "__VoiceVolumeControlViewAccessibility_super"
+- "__WeatherConditionsViewControllerAccessibility_super"
+- "__WeatherStackViewControllerAccessibility_super"
+- "__accessibilityIsInSettingsTableViewCell"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityContaineeLayout"
+- "_accessibilityContaineeViewController"
+- "_accessibilityContainerViewController"
+- "_accessibilityFindAncestor:startWithSelf:"
+- "_accessibilityFindDescendant:"
+- "_accessibilityFindSubviewDescendant:"
+- "_accessibilityFindSubviewDescendantsPassingTest:"
+- "_accessibilityFindUnsortedDescendantsPassingTest:"
+- "_accessibilityFindViewAncestor:startWithSelf:"
+- "_accessibilityFirstNonGrabberElement"
+- "_accessibilityHitTest:withEvent:"
+- "_accessibilityIsInSettingsTableViewCell"
+- "_accessibilityLeafDescendantsWithCount:options:"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityLoadAccessibilityInformationWithKeyPath:retries:"
+- "_accessibilityMapFeatureType"
+- "_accessibilityMapSmartDescriptionDictionary"
+- "_accessibilityMediaAnalysisOptions"
+- "_accessibilityPerformValidations:"
+- "_accessibilityRemoveValueForKey:"
+- "_accessibilitySetFrameExpansion:"
+- "_accessibilitySetIsInSettingsTableViewCell:"
+- "_accessibilitySetNavTypeToAlerts"
+- "_accessibilitySetNavTypeToAll"
+- "_accessibilitySetNavTypeToNone"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilityShowContextMenuForElement:targetPointValue:"
+- "_accessibilityStringForLabelKeyValues:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilitySupplementaryHeaderViews"
+- "_accessibilityTextForSubhierarchyIncludingHeaders:focusableItems:exclusions:"
+- "_accessibilityTransitArtworkText"
+- "_accessibilityTransitArtworkTextForDataList:"
+- "_accessibilityValueForKey:"
+- "_accessibilityViewController"
+- "_accessibilityViewIsVisible"
+- "_accessibilityViewModel"
+- "_accessibilityVisibleContentInset"
+- "_axAdvisoryViews"
+- "_axAnnotateButtons"
+- "_axAnnotateFlagView"
+- "_axAnnotateLabels"
+- "_axAnnotatePublisherLogoImageView"
+- "_axAnnotatePuck"
+- "_axAnnotateRoadDescriptionListView"
+- "_axAnnotateSnapToUserLocationButton"
+- "_axAnnotateSubviews"
+- "_axClearRating"
+- "_axCollapseCard"
+- "_axContentConfiguration"
+- "_axExpandCard"
+- "_axIsSelected"
+- "_axIsShowingVLFCallout"
+- "_axIsShowingVLFUI"
+- "_axLabelForBatterView"
+- "_axLabelForCellWithVehicle:"
+- "_axNonHiddenViewForKey:"
+- "_axPuck"
+- "_axRatingDescription"
+- "_axRefinementMultiSelectButton"
+- "_axRoadDescriptionLabel"
+- "_axScrollSteppingPageViewForward:"
+- "_axSearchResultsViewController"
+- "_axStepView"
+- "_axSwitch"
+- "_axTextForElement"
+- "_axUpdateButtonsLabel"
+- "_axVLFElements"
+- "_axVenueFloorViewController"
+- "_calloutView"
+- "_dropPinsForSearchResults:forSearchType:scrollToResults:"
+- "_hasUserRatingScore"
+- "_lableForLprPowerTYpe:"
+- "_navigation_distanceUsesMetricSystem"
+- "_normalizedUserRatingScore"
+- "_priceRangeString"
+- "_reviewsAttribution"
+- "_sampleSizeForUserRatingScore"
+- "_setAccessibilityActivateBlock:"
+- "_setAccessibilityActivationPointBlock:"
+- "_setAccessibilityAdditionalTraitsBlock:"
+- "_setAccessibilityElementsBlock:"
+- "_setAccessibilityElementsHiddenBlock:"
+- "_setAccessibilityFrameBlock:"
+- "_setAccessibilityHintBlock:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityTraitsBlock:"
+- "_setAccessibilityValueBlock:"
+- "_setupSubviews"
+- "_triggerCrossHairLocationDecode"
+- "accessibilityActivate"
+- "accessibilityActivationPoint"
+- "accessibilityAttributedLabel"
+- "accessibilityAttributedUserInputLabels"
+- "accessibilityBundleWithLastPathComponent:"
+- "accessibilityContainerType"
+- "accessibilityCustomActions"
+- "accessibilityDecrement"
+- "accessibilityElementDidBecomeFocused"
+- "accessibilityElements"
+- "accessibilityElementsHidden"
+- "accessibilityEnumerateAncestorsUsingBlock:"
+- "accessibilityFrame"
+- "accessibilityHint"
+- "accessibilityIdentification"
+- "accessibilityIdentifier"
+- "accessibilityIncrement"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityPerformEscape"
+- "accessibilityRowRange"
+- "accessibilityTableViewCellText"
+- "accessibilityTraits"
+- "accessibilityValue"
+- "accessibilityViewIsModal"
+- "accessibilityZoomInAtPoint:"
+- "accessibilityZoomOutAtPoint:"
+- "accessibiltyElementFromNode:"
+- "addHandler:forFramework:"
+- "addObject:"
+- "addObserver:selector:name:object:"
+- "administrativeArea"
+- "appendFormat:"
+- "appendString:"
+- "arrangedSubviews"
+- "array"
+- "arrayWithObjects:count:"
+- "automationElements"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axArrayWithPossiblyNilArrays:"
+- "axAttributedStringWithString:"
+- "axSafelyAddObject:"
+- "ax_containsObjectUsingBlock:"
+- "ax_flatMappedArrayUsingBlock:"
+- "backgroundColor"
+- "bundleWithIdentifier:"
+- "buttonType"
+- "centerCoordinate"
+- "characterSetWithCharactersInString:"
+- "collectionView:cellForItemAtIndexPath:"
+- "colorWithRed:green:blue:alpha:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "containsObject:"
+- "containsString:"
+- "convertPoint:fromView:"
+- "coordinate"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentLocale"
+- "currentPage"
+- "d16@0:8"
+- "date"
+- "dealloc"
+- "defaultCenter"
+- "didMoveToWindow"
+- "doubleValue"
+- "firstObject"
+- "formattedAddressLines"
+- "getRed:green:blue:alpha:"
+- "hasPrefix:"
+- "headerViewDidLayoutSubviews:"
+- "hitTest:withEvent:"
+- "image"
+- "imageAsset"
+- "imageForState:"
+- "indexPathForCell:"
+- "initWithAccessibilityContainer:"
+- "initWithLatitude:longitude:"
+- "initWithName:actionHandler:"
+- "initWithName:target:selector:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "intValue"
+- "integerValue"
+- "isAccessibilityElement"
+- "isEqualToString:"
+- "isHidden"
+- "item"
+- "layoutSubviews"
+- "length"
+- "loadAccessibilityBundleForBundle:didLoadCallback:"
+- "locality"
+- "localizedStringForDate:relativeToDate:"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "mutableCopy"
+- "numberFromString:"
+- "numberOfPages"
+- "numberWithDouble:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "options"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "postNotificationName:object:"
+- "presentController:animated:useDefaultContaineeLayout:"
+- "providerName"
+- "q16@0:8"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:"
+- "removeObject:"
+- "removeObserver:name:object:"
+- "reverseGeocodeLocation:completionHandler:"
+- "row"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeDoubleForKey:"
+- "safeIntForKey:"
+- "safeIntegerForKey:"
+- "safeStringForKey:"
+- "safeSwiftValueForKey:"
+- "safeUIViewForKey:"
+- "safeUnsignedIntegerForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "secondaryText"
+- "set"
+- "setAccessibilityCustomActions:"
+- "setAccessibilityElementsBlock:"
+- "setAccessibilityElementsHidden:"
+- "setAccessibilityFrameBlock:"
+- "setAccessibilityHint:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAccessibilityLabelBlock:"
+- "setAccessibilityRespondsToUserInteraction:"
+- "setAccessibilityTraits:"
+- "setAccessibilityUserInputLabels:"
+- "setAccessibilityValue:"
+- "setAttribute:forKey:"
+- "setContainerViewController:"
+- "setDateTimeStyle:"
+- "setIsAccessibilityElement:"
+- "setLayoutIfSupported:animated:"
+- "setLeafNodePredicate:"
+- "setNumberStyle:"
+- "setObject:forKeyedSubscript:"
+- "setOverrideProcessName:"
+- "setSignIndex:animated:"
+- "setValidationTargetName:"
+- "sharedApplication"
+- "sharedInstance"
+- "shouldGroupAccessibilityChildren"
+- "string"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByTrimmingCharactersInSet:"
+- "stringValue"
+- "stringWithCharacters:length:"
+- "stringWithFormat:"
+- "subAdministrativeArea"
+- "subLocality"
+- "subThoroughfare"
+- "superview"
+- "systemRedColor"
+- "tag"
+- "text"
+- "thoroughfare"
+- "userInterfaceLayoutDirection"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8Q16B24"
+- "v32@0:8@16@24"
+- "v32@0:8@16B24B28"
+- "v32@0:8@16Q24"
+- "v36@0:8@16q24B32"
+- "v40@0:8@16@24@32"
+- "v52@0:8@16@24Q32B40q44"
+- "validateClass:"
+- "validateClass:conformsToProtocol:"
+- "validateClass:hasClassMethod:withFullSignature:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasProperty:withType:"
+- "validateClass:hasSwiftField:withSwiftType:"
+- "validateClass:isKindOfClass:"
+- "validateProtocol:hasMethod:isInstanceMethod:isRequired:"
+- "validateProtocol:hasOptionalInstanceMethod:"
+- "validateProtocol:hasRequiredInstanceMethod:"
+- "valueForKey:"
+- "viewControllerForView:"
+- "visibleMapRect"
+- "whitespaceAndNewlineCharacterSet"
+- "whitespaceCharacterSet"
+- "window"
+- "windowScene"
+- "{CGPoint=dd}16@0:8"
+- "{UIEdgeInsets=dddd}16@0:8"
+- "{_NSRange=QQ}16@0:8"
+
+```

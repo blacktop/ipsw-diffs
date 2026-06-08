@@ -1,0 +1,493 @@
+## MusicApplication
+
+> `/System/Library/AccessibilityBundles/MusicApplication.axbundle/MusicApplication`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x12f24
+-  __TEXT.__auth_stubs: 0x4b0
++3036.2.0.0.0
++  __TEXT.__text: 0x122bc
+   __TEXT.__objc_methlist: 0x2960
+-  __TEXT.__cstring: 0x4413
+   __TEXT.__const: 0x18
+   __TEXT.__gcc_except_tab: 0x104
+-  __TEXT.__unwind_info: 0x878
+-  __TEXT.__objc_classname: 0x1f67
+-  __TEXT.__objc_methname: 0x1ecb
+-  __TEXT.__objc_methtype: 0x13c
+-  __TEXT.__objc_stubs: 0x1aa0
+-  __DATA_CONST.__got: 0x218
++  __TEXT.__cstring: 0x4415
++  __TEXT.__unwind_info: 0x880
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x468
+   __DATA_CONST.__objc_classlist: 0x658
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8c0
+   __DATA_CONST.__objc_superrefs: 0x288
+-  __AUTH_CONST.__auth_got: 0x268
++  __DATA_CONST.__got: 0x218
+   __AUTH_CONST.__const: 0x440
+   __AUTH_CONST.__cfstring: 0x4f80
+   __AUTH_CONST.__objc_const: 0x72b0
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x50
+   __DATA.__objc_ivar: 0x4
+   __DATA.__bss: 0x27
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 703201D3-B6A1-3D88-B363-26A78D0C7FB6
++  UUID: 09A33D98-6C9C-3083-BD27-CCF987161F4F
+   Functions: 761
+-  Symbols:   2976
+-  CStrings:  1831
++  Symbols:   2981
++  CStrings:  1320
+ 
+Symbols:
++ GCC_except_table516
++ GCC_except_table534
++ GCC_except_table662
++ GCC_except_table98
++ ___91-[NowPlayingControlsViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_8
++ ___block_literal_global.1201
++ ___block_literal_global.1514
++ ___block_literal_global.1805
++ ___block_literal_global.1898
++ ___block_literal_global.2085
++ ___block_literal_global.220
++ ___block_literal_global.2493
++ ___block_literal_global.2583
++ ___block_literal_global.2769
++ ___block_literal_global.2865
++ ___block_literal_global.3059
++ ___block_literal_global.361
++ ___block_literal_global.372
++ ___block_literal_global.379
++ ___block_literal_global.381
++ ___block_literal_global.384
++ ___block_literal_global.3848
++ ___block_literal_global.385
++ ___block_literal_global.387
++ ___block_literal_global.391
++ ___block_literal_global.391.2770
++ ___block_literal_global.392
++ ___block_literal_global.395
++ ___block_literal_global.399
++ ___block_literal_global.4098
++ ___block_literal_global.429
++ ___block_literal_global.438
++ ___block_literal_global.479
++ ___block_literal_global.485
++ ___block_literal_global.515
++ ___block_literal_global.652
++ ___block_literal_global.758
++ ___block_literal_global.898
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
+- -[ParallaxViewAccessibility accessibilityElements].cold.1
+- GCC_except_table12
+- GCC_except_table3
+- GCC_except_table5
+- GCC_except_table9
+- ___block_literal_global.340
+- ___block_literal_global.351
+- ___block_literal_global.358
+- ___block_literal_global.360
+- ___block_literal_global.363
+- ___block_literal_global.364
+- ___block_literal_global.366
+- ___block_literal_global.370
+- ___block_literal_global.371
+- ___block_literal_global.374
+- ___block_literal_global.408
+- ___block_literal_global.417
+- ___block_literal_global.458
+- ___block_literal_global.464
+- ___block_literal_global.494
+- _objc_retain_x27
+CStrings:
+- "#16@0:8"
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8q16"
+- "@32@0:8q16@24"
+- "@32@0:8{CGPoint=dd}16"
+- "AXMusicApplicationGlue"
+- "AXPrivResponse"
+- "B16@0:8"
+- "B24@0:8@16"
+- "B32@0:8q16@24"
+- "I16@0:8"
+- "Q16@0:8"
+- "SafeCategory"
+- "TB,N,V_accessibilityIsInCell"
+- "__AccountButtonAccessibility_super"
+- "__ActionCellAccessibility_super"
+- "__AlbumCellAccessibility_super"
+- "__BottomPlayerViewControllerAccessibility_super"
+- "__BrickCellAccessibility_super"
+- "__CircularProgressViewAccessibility_super"
+- "__CollectionAccessoryViewAccessibility_super"
+- "__CuratorActivityCellAccessibility_super"
+- "__CustomRoomAlbumCellAccessibility_super"
+- "__CustomRoomMusicVideoCellAccessibility_super"
+- "__DetailHeaderAccessibility_super"
+- "__FeaturedMusicVideoVerticalCellAccessibility_super"
+- "__FeaturedPlaylistCellAccessibility_super"
+- "__FeaturedRadioShowCellAccessibility_super"
+- "__FeaturedShowcaseCellAccessibility_super"
+- "__FeaturedSongCellAccessibility_super"
+- "__FlowcaseCellAccessibility_super"
+- "__GridItemButtonCellAccessibility_super"
+- "__GroupedTextListViewAccessibility_super"
+- "__HorizontalLockupCollectionViewCellAccessibility_super"
+- "__InformativeViewAccessibility_super"
+- "__JSDrivenViewControllerAccessibility_super"
+- "__JSInlinePopupViewControllerAccessibility_super"
+- "__JSSearchLandingViewControllerAccessibility_super"
+- "__JSSettingsContainerViewControllerAccessibility_super"
+- "__JSSocialProfileVerticalStackViewControllerAccessibility_super"
+- "__LibraryRecommendationBannerViewControllerAccessibility_super"
+- "__LiveRadioCellAccessibility_super"
+- "__LyricsSelectionViewControllerAccessibility_super"
+- "__MenuCellAccessibility_super"
+- "__MovieHorizontalCellAccessibility_super"
+- "__MultiChoiceCellAccessibility_super"
+- "__MusicApplicationSearchBarAccessibility_super"
+- "__MusicApplicationUIScrollViewAccessibility_super"
+- "__MusicArtworkComponentImageViewAccessibility_super"
+- "__MusicInterstellarContentViewAccessibility_super"
+- "__MusicUINavigationButtonAccessibility_super"
+- "__MusicVideoHorizontalCellAccessibility_super"
+- "__MusicVideoVerticalCellAccessibility_super"
+- "__NowPlayingAutoPlayButtonAccessibility_super"
+- "__NowPlayingContentViewAccessibility_super"
+- "__NowPlayingControlsViewControllerAccessibility_super"
+- "__NowPlayingQueueCellAccessibility_super"
+- "__NowPlayingQueueHeaderViewAccessibility_super"
+- "__NowPlayingRepeatButtonAccessibility_super"
+- "__NowPlayingShuffleButtonAccessibility_super"
+- "__NowPlayingTransportButtonAccessibility_super"
+- "__PageHeaderContentViewAccessibility_super"
+- "__ParagraphViewAccessibility_super"
+- "__ParallaxViewAccessibility_super"
+- "__PersonCellAccessibility_super"
+- "__PersonHorizontalCellAccessibility_super"
+- "__PersonVerticalCellAccessibility_super"
+- "__PlayerTimeControlAccessibility_super"
+- "__PlaylistCellAccessibility_super"
+- "__PosterCellAccessibility_super"
+- "__ProgressViewAccessibility_super"
+- "__PromotionalImageryViewAccessibility_super"
+- "__QRCodeOverlayViewControllerAccessibility_super"
+- "__RadioShowCellAccessibility_super"
+- "__RadioStationCellAccessibility_super"
+- "__RankedMusicVideoVerticalCellAccessibility_super"
+- "__ReactionsButtonAccessibility_super"
+- "__SearchHintCellAccessibility_super"
+- "__SearchLandingCellAccessibility_super"
+- "__SearchResultCellAccessibility_super"
+- "__SearchResultsViewControllerAccessibility_super"
+- "__ShowcaseCellAccessibility_super"
+- "__SocialOnboardingNetworkCellAccessibility_super"
+- "__SocialPersonHorizontalCellAccessibility_super"
+- "__SocialPersonVerticalCellAccessibility_super"
+- "__SocialProfileArtworkEditorLockupViewAccessibility_super"
+- "__SocialProfilesAccessoryViewAccessibility_super"
+- "__SongCellAccessibility_super"
+- "__SymbolButtonAccessibility_super"
+- "__SyncedLyricsLineViewAccessibility_super"
+- "__SyncedLyricsViewControllerAccessibility_super"
+- "__TVShowCellAccessibility_super"
+- "__TVShowEpisodeCellAccessibility_super"
+- "__TVShowEpisodeDetailViewAccessibility_super"
+- "__TVShowPlayBarViewAccessibility_super"
+- "__TextViewLabelAccessibility_super"
+- "__TitleSectionHeaderViewAccessibility_super"
+- "__ToggleCellAccessibility_super"
+- "__UIButtonAccessibility__MusicApplication__UIKit_super"
+- "__UIButtonBarButtonAccessibility__Music__UIKit_super"
+- "__UICollectionViewAccessibility__MusicApplication__UIKit_super"
+- "__UICollectionViewListCellAccessibility__MusicUI__UIKit_super"
+- "__UILabelAccessibility__MusicApplication__UIKit_super"
+- "__UITransitionViewAccessibility__MusicUI__UIKit_super"
+- "__UIViewAccessibility__MusicApplication__UIKit_super"
+- "__UIViewControllerAccessibility__MusicApplication__UIKit_super"
+- "__UpsellBannerViewAccessibility_super"
+- "__UserDetailsCellAccessibility_super"
+- "__UserDetailsEditCellAccessibility_super"
+- "__VerticalLockupCollectionViewCellAccessibility_super"
+- "__VerticalToggleSliderAccessibility_super"
+- "__VibrancyLabelCompositingViewAccessibility_super"
+- "__VideoHeaderLockupViewAccessibility_super"
+- "__VocalsAttenuationSliderAccessibility_super"
+- "__VolumeSliderAccessibility_super"
+- "_accessibilityAXAttributedValue"
+- "_accessibilityAbsoluteValue"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityAnnounceNewValue"
+- "_accessibilityApproveButtonAction:"
+- "_accessibilityAutomationType"
+- "_accessibilityDeclineButtonAction:"
+- "_accessibilityDescendantOfType:"
+- "_accessibilityDrawsFocusRingWhenChildrenFocused"
+- "_accessibilityFindAncestor:startWithSelf:"
+- "_accessibilityFindDescendant:"
+- "_accessibilityFindSubviewDescendant:"
+- "_accessibilityFindSubviewDescendantsPassingTest:"
+- "_accessibilityFindViewAncestor:startWithSelf:"
+- "_accessibilityIncreaseAmount:"
+- "_accessibilityIncreaseSlider:"
+- "_accessibilityIncreaseVolume:"
+- "_accessibilityIndexPathForCell"
+- "_accessibilityIsFKARunningForFocusItem"
+- "_accessibilityIsInCell"
+- "_accessibilityIsShelfCollectionView"
+- "_accessibilityLabelHelper"
+- "_accessibilityLeftbuttonValueString"
+- "_accessibilityLineNumberAndColumnForPoint:"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityMediaAnalysisOptions"
+- "_accessibilityPerformMoreAction:"
+- "_accessibilityPerformPlayAction:"
+- "_accessibilityPerformValidations:"
+- "_accessibilityRangeForLineNumberAndColumn:"
+- "_accessibilityResponseForViewController"
+- "_accessibilityResponseTracklist"
+- "_accessibilityResponseTracklistPlayingItem"
+- "_accessibilityRoleDescription"
+- "_accessibilityScrollHeightDistance"
+- "_accessibilityScrollParentForComparingByXAxis"
+- "_accessibilityScrollStatus"
+- "_accessibilitySelectedTextRange"
+- "_accessibilitySetFrameExpansion:"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilitySetSelectedTextRange:"
+- "_accessibilitySetShouldHitTestFallBackToNearestChild:"
+- "_accessibilitySetSortPriority:"
+- "_accessibilitySetVideoLabel:"
+- "_accessibilityShouldAvoidScrollingCollectionViewCells"
+- "_accessibilityShouldIncludeMediaDescriptionsRotor"
+- "_accessibilityShowContextMenuForElement:targetPointValue:"
+- "_accessibilitySkipIntervalInDirection:forResponse:"
+- "_accessibilityStringForLabelKeyValues:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilitySupportsHandwriting"
+- "_accessibilityTVShowEpisodeCellElements"
+- "_accessibilityTextViewTextOperationResponder"
+- "_accessibilityValueForKey:"
+- "_accessibilityVideoLabel"
+- "_accessibilityViewController"
+- "_accessibilityViewIsVisible"
+- "_accessibilityVisibleContentInset"
+- "_axChildSwitch"
+- "_axCollectionViewLayout"
+- "_axContextActionButton"
+- "_axCuratorNameForPlaylist:"
+- "_axCustomView"
+- "_axFollowButton"
+- "_axIsCircularProgressView"
+- "_axIsCollaborativeForModelPlaylist:"
+- "_axIsInViewControllerClass:"
+- "_axIsListCellAccessibleInMusicApp"
+- "_axIsLiveContent"
+- "_axIsVideo"
+- "_axLabel"
+- "_axLabelForActionButtonForContainerProperties:"
+- "_axLikedBannedValueForState:"
+- "_axNameForAuthor:"
+- "_axOwnerNameForPlaylist:"
+- "_axPerformCustomAction:"
+- "_axPlayButton"
+- "_axPlaybackStateLabel"
+- "_axStringForActiveCallaborators:"
+- "_axUpNextBadgeValue"
+- "_axViewContainsSwitch"
+- "_foundNowPlayingViewControllerForIPad"
+- "_isSongDownloaded"
+- "_privateAccessibilityCustomActions"
+- "_setAccessibilityElementsBlock:"
+- "_setAccessibilityFrameBlock:"
+- "_setAccessibilityIdentifierBlock:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityTVShowEpisodeCellElements:"
+- "_setAccessibilityTraitsBlock:"
+- "_setAccessibilityValueBlock:"
+- "_setIsAccessibilityElementBlock:"
+- "accessibilityActivate"
+- "accessibilityActivationPoint"
+- "accessibilityAttributesForAccountButtonInAccessoryView:"
+- "accessibilityBundles"
+- "accessibilityCustomActions"
+- "accessibilityDecrement"
+- "accessibilityElements"
+- "accessibilityFrame"
+- "accessibilityIdentification"
+- "accessibilityIdentifier"
+- "accessibilityIncrement"
+- "accessibilityInitializeBundle"
+- "accessibilityIsFavoriteEnabledForResponse:"
+- "accessibilityIsInCell"
+- "accessibilityIsSeekEnabledInDirection:forResponse:"
+- "accessibilityLabel"
+- "accessibilityPerformEscape"
+- "accessibilityPlayPauseStopButtonString:"
+- "accessibilityScrollDownPage"
+- "accessibilityScrollUpPage"
+- "accessibilitySeekButtonStringInDirection:response:"
+- "accessibilitySetIdentification:"
+- "accessibilityShouldSpeakItemReorderEvents"
+- "accessibilitySocialPersonCustomActions"
+- "accessibilityTraits"
+- "accessibilityUserInputLabels"
+- "accessibilityValue"
+- "accessibilityViewIsModal"
+- "addObject:"
+- "addObserver:selector:name:object:"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObjects:count:"
+- "automationElements"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axAudioRouteNotificationRegistered"
+- "axCustomActionForContextualAction:"
+- "axFilterObjectsUsingBlock:"
+- "axLikedStateNotificationRegistered"
+- "axMediaCommandNotificationRegistered"
+- "axSafelyAddObject:"
+- "axSafelyAddObjectsFromArray:"
+- "axSetAudioRouteNotificationRegistered:"
+- "axSetLikedStateNotificationRegistered:"
+- "axSetMediaCommandNotificationRegistered:"
+- "ax_filteredArrayUsingBlock:"
+- "bounds"
+- "bundleForClass:"
+- "canBecomeFocused"
+- "cellForItemAtIndexPath:"
+- "cellForRowAtIndexPath:"
+- "contentOffset"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "d16@0:8"
+- "d32@0:8q16@24"
+- "dataSource"
+- "defaultCenter"
+- "dictionaryWithObjects:forKeys:count:"
+- "didChangeVoiceOverOrSwitchControlStatus:"
+- "dismissViewControllerAnimated:completion:"
+- "doubleValue"
+- "enumerateObjectsUsingBlock:"
+- "firstObject"
+- "frame"
+- "handler"
+- "hasPrefix:"
+- "indexPathForCell:"
+- "indexPathForRow:inSection:"
+- "init"
+- "initWithAccessibilityContainer:representedElements:"
+- "initWithName:actionHandler:"
+- "initWithName:target:selector:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "isAccessibilityElement"
+- "isEqualToString:"
+- "isHidden"
+- "length"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "lockupViewCustomActions"
+- "mutableCopy"
+- "numberOfItemsInSection:"
+- "numberOfRowsInSection:"
+- "numberWithFloat:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "presentingViewController"
+- "reactionText"
+- "rightBarButtonItem"
+- "row"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCGFloatForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeDoubleForKey:"
+- "safeFloatForKey:"
+- "safeIntegerForKey:"
+- "safeStringForKey:"
+- "safeSwiftArrayForKey:"
+- "safeSwiftBoolForKey:"
+- "safeSwiftCGFloatForKey:"
+- "safeSwiftEnumAssociatedObject"
+- "safeSwiftEnumCase"
+- "safeSwiftStringForKey:"
+- "safeSwiftValueForKey:"
+- "safeUIViewForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "searchResultsController"
+- "section"
+- "sendActionsForControlEvents:"
+- "setAccessibilityActivateBlock:"
+- "setAccessibilityContainerType:"
+- "setAccessibilityElements:"
+- "setAccessibilityHint:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityIsInCell:"
+- "setAccessibilityLabel:"
+- "setAccessibilitySocialPersonCustomActions:"
+- "setAccessibilityTraits:"
+- "setAccessibilityValue:"
+- "setAccessibilityViewIsModal:"
+- "setHidesSearchBarWhenScrolling:"
+- "setIsAccessibilityElement:"
+- "setLockupViewCustomActions:"
+- "setOverrideProcessName:"
+- "setValidationTargetName:"
+- "sharedInstance"
+- "string"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByTrimmingCharactersInSet:"
+- "stringWithCharacters:length:"
+- "stringWithFormat:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v24@0:8B16B20"
+- "v28@0:8B16@20"
+- "v32@0:8{_NSRange=QQ}16"
+- "validateClass:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasProperty:customGetter:customSetter:withType:"
+- "validateClass:hasProperty:withType:"
+- "validateClass:hasSwiftField:withSwiftType:"
+- "validateClass:isKindOfClass:"
+- "validateProtocol:hasOptionalInstanceMethod:"
+- "validateProtocol:hasRequiredInstanceMethod:"
+- "validateSwiftEnum:"
+- "validateSwiftEnum:hasCase:withSwiftType:"
+- "validateSwiftStruct:"
+- "validateSwiftStruct:hasSwiftField:withSwiftType:"
+- "viewWillAppear:"
+- "whitespaceAndNewlineCharacterSet"
+- "{CGPoint=dd}16@0:8"
+- "{UIEdgeInsets=dddd}16@0:8"
+- "{_NSRange=QQ}16@0:8"
+- "{_NSRange=QQ}24@0:8@16"
+
+```

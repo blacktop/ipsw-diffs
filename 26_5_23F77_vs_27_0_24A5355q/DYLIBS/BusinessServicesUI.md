@@ -1,0 +1,359 @@
+## BusinessServicesUI
+
+> `/System/Library/PrivateFrameworks/BusinessServicesUI.framework/BusinessServicesUI`
+
+```diff
+
+-30114.35.3.19.1
+-  __TEXT.__text: 0xd0c0
+-  __TEXT.__auth_stubs: 0xe40
++30122.30.5.19.1
++  __TEXT.__text: 0xcd6c
+   __TEXT.__objc_methlist: 0x308
+-  __TEXT.__const: 0xc78
++  __TEXT.__const: 0xc70
+   __TEXT.__constg_swiftt: 0x384
+-  __TEXT.__swift5_typeref: 0x1389
++  __TEXT.__swift5_typeref: 0x13ca
+   __TEXT.__swift5_reflstr: 0xe9
+   __TEXT.__swift5_fieldmd: 0x1d4
+   __TEXT.__swift5_types: 0x3c
+   __TEXT.__swift5_capture: 0x104
+   __TEXT.__oslogstring: 0x106
+   __TEXT.__swift5_proto: 0x38
+-  __TEXT.__cstring: 0x33e
++  __TEXT.__cstring: 0x340
+   __TEXT.__swift5_assocty: 0x138
+   __TEXT.__unwind_info: 0x370
+-  __TEXT.__objc_classname: 0x169
+-  __TEXT.__objc_methname: 0xa75
+-  __TEXT.__objc_methtype: 0x3aa
+-  __TEXT.__objc_stubs: 0x960
+-  __DATA_CONST.__got: 0x298
+-  __DATA_CONST.__const: 0x178
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x160
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x28
+
+   __DATA_CONST.__objc_selrefs: 0x370
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x728
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x6c0
+   __AUTH_CONST.__objc_const: 0x6f8
++  __AUTH_CONST.__auth_got: 0x7b0
+   __AUTH.__objc_data: 0x488
+   __AUTH.__data: 0xa8
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x608
++  __DATA.__data: 0x640
+   __DATA.__bss: 0x740
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0A0B9E99-9067-3D8D-A677-13E33AD6772B
+-  Functions: 327
+-  Symbols:   590
+-  CStrings:  199
++  UUID: 3F49BC04-264A-36DC-B1AF-BB6E44E22AF1
++  Functions: 326
++  Symbols:   633
++  CStrings:  29
+ 
+Symbols:
++ ___swift_closure_destructor
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.30
++ ___swift_destroy_boxed_opaque_existential_0
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA05TupleD0VyAA7SectionVyAA4ViewPAAE16headerProminenceyQrAA0I0OFQOyAA08ModifiedD0VyAA4TextVAA21_TraitWritingModifierVyAA013ListRowInsetsL3KeyVGG_Qo_AvA05EmptyG0VGSg_AGyANyAiAEAJyQrALFQOyAP_Qo_AUGSgAEy016BusinessServicesB009BrandCardpG0VyAA4LinkVyAPGGSg_A10_SgA10_A11_A5_yAPGSgA10_A13_A5_yANyAA6VStackVyAEyA3_012HoursSummaryG0V_A3_0zG0VQPGGAA16_FlexFrameLayoutVGGSgQPGAYGQPGAA5ColorVGAaHHPA29_AaHHPA_AaHHpAzaHHPqd__AaHHD2_AWHO_AvaHHPApaHHPyHC_AuA0gN0HPyHCHCAyaHHPyHCHC_HC_A28_AaHHPA2_AaHHpA1_AaHHPqd__AaHHD2_A0_HO_AuAA33_HPyHCHC_HC_A27_AaHHPA10_AaHHpA9_AaHHPyHC_HC_A11_AaHHpA10_AaHHpA9_AaHHPyHC_HC_HCA10_AaHHpA9_AaHHPyHC_HCA11_AaHHpA10_AaHHpA9_AaHHPyHC_HC_HCA13_AaHHpA12_AaHHPyHC_HCA10_AaHHpA9_AaHHPyHC_HCA13_AaHHpA12_AaHHPyHC_HCA26_AaHHpA25_AaHHPyHC_HCHX_HCAyaHHPyHCHCHX_HC_A31_AaHHPyHCHC.8
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAA6VStackVyAA05TupleD0VyACyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_PaddingK0VG016BusinessServicesB015PlaceholderLogoVG_A_13CopyableTitleVAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAYGSgAEyA6_AYGAEyAEyAA5ColorVAA05_FlexlK0VGAYGQPGGA18_GA8_yA6_4CaseOSgGGAA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGGAA25_AppearanceActionModifierVGAEyAEyAGyAIyA1__A4_A20_QPGGA27_GA33_GGAA4ViewHPA37_AAA43_HPA34_AAA43_HPA28_AAA43_HPA23_AAA43_HPA22_AAA43_HPyHC_A18_AA12ViewModifierHPyHCHC_A27_AAA44_HPyHCHC_A33_AAA44_HPyHCHC_A36_AAA44_HPyHCHC_A41_AAA43_HPA40_AAA43_HPA39_AAA43_HPyHC_A27_AAA44_HPyHCHC_A33_AAA44_HPyHCHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA6VStackVyAA05TupleE0VyAA4TextV_xQPGGAA14_PaddingLayoutVGAA21_TraitWritingModifierVyAA013ListRowInsetsK3KeyVGGAaBHPAoaBHPAlaBHPyHC_AnA0cM0HPyHCHC_AtaVHPyHCHC.6
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x27
++ _objc_retain_x3
++ _swift_beginAccess
++ _swift_bridgeObjectRelease_n
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x25
++ _symbolic _____yAAyAAyAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGQPGGA0_GATy_____SgGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
++ _symbolic _____yAAyAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGQPGGA0_GATy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV
++ _symbolic _____yAAy_____y_____y___________AAyAAy__________G_____GQPGG_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 016BusinessServicesB015PlaceholderLogoV AH13CopyableTitleV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingP0V AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA016_ForegroundStyleU0V AA017HierarchicalShapeY0V
++ _symbolic _____yAAy_____y_____y______xQPGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV
++ _symbolic _____yAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGQPGGA0_GATy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V A0_4CaseO
++ _symbolic _____y_____G 18BusinessServicesUI16BrandCardRowViewV 05SwiftC04TextV
++ _symbolic _____y_____GSg 18BusinessServicesUI16BrandCardRowViewV 05SwiftC04TextV
++ _symbolic _____y___________y_____y_____yAEyAEyAEy__________G_____G_____y_____GG_____G_____G______AEyAEy__________ySiSgGGAOGSgAEyAtOGAEyAEy__________GAOGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA08ModifiedI0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V 016BusinessServicesB015PlaceholderLogoV AZ13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexoG0V
++ _symbolic _____y_____yAByAByABy_____y_____yAAyAByAByAByABy__________G_____G_____y_____GG_____G_____G______AByABy__________ySiSgGGANGSgAByAsNGAByABy__________GANGQPGGA0_GATy_____SgGG_____y_____GG_____GAByAByACyADyAP_ARA2_QPGGA8_GA12_GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
++ _symbolic _____y_____yAByAByABy_____y_____y_____yAByAByAByABy__________G_____G_____y_____GG_____G_____G______AByABy__________ySiSgGGAOGSgAByAtOGAByABy__________GAOGQPGGA1_GAUy_____SgGG_____y_____GG_____GAByAByACyADyAQ_ASA3_QPGGA9_GA13_G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6VStackV AA05TupleD0V AC AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AX13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V A2_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____GG 18BusinessServicesUI16BrandCardRowViewV 05SwiftC04LinkV AD4TextV
++ _symbolic _____y_____y_____GGSg 18BusinessServicesUI16BrandCardRowViewV 05SwiftC04LinkV AD4TextV
++ _symbolic _____y_____y_____GGSgSg 18BusinessServicesUI16BrandCardRowViewV 05SwiftC04LinkV AD4TextV
++ _symbolic _____y_____y________________yAEy__________G_____GQPGG 7SwiftUI6VStackV AA12TupleContentV 016BusinessServicesB015PlaceholderLogoV AF13CopyableTitleV AA08ModifiedE0V AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingP0V
++ _symbolic _____y_____y_____y_____GGSg_AGSgAghByADGSgAgjBy_____y_____yAAy___________QPGG_____GGSgQPG 7SwiftUI12TupleContentV 016BusinessServicesB016BrandCardRowViewV AA4LinkV AA4TextV AA08ModifiedD0V AA6VStackV AD012HoursSummaryJ0V AD0oJ0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y______Qo______y_____GGSg_____y_____y_____yACGGSg_AOSgAopKyACGSgAorKyABy_____yAJy___________QPGG_____GGSgQPG_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4ViewPAAE16headerProminenceyQrAA0H0OFQO AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05TupleE0V 016BusinessServicesB009BrandCardnF0V AA4LinkV AA6VStackV AS012HoursSummaryF0V AS0xF0V AA16_FlexFrameLayoutV AA05EmptyF0V
++ _symbolic _____y_____y_____y___________AAyAAy__________G_____GQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 016BusinessServicesB015PlaceholderLogoV AH13CopyableTitleV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingP0V AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO
++ _symbolic _____y_____y_____y__________y_____GG_Qo_AG_____GSg_AAyABy_____yAC_Qo_AFGSg_____y_____y_____yACGGSg_ATSgAtuPyACGSgAtwPyABy_____yAOy___________QPGG_____GGSgQPGAIGt 7SwiftUI7SectionV AA4ViewPAAE16headerProminenceyQrAA0F0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05EmptyD0V AeAEAFyQrAHFQO AA05TupleH0V 016BusinessServicesB009BrandCardnD0V AA4LinkV AA6VStackV AU012HoursSummaryD0V AU0yD0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGQPGGA0_G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V
++ _symbolic _____y_____y_____y_____yADyADyADy__________G_____G_____y_____GG_____G_____G______ADyADy__________ySiSgGGANGSgADyAsNGADyADy__________GANGQPGG 7SwiftUI6VStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingK0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexlK0V
++ _symbolic _____y_____y_____y_____y___________QPGG_____GG 18BusinessServicesUI16BrandCardRowViewV 05SwiftC015ModifiedContentV AD6VStackV AD05TupleJ0V AA012HoursSummaryG0V AA0mG0V AD16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y___________QPGG_____GGSg 18BusinessServicesUI16BrandCardRowViewV 05SwiftC015ModifiedContentV AD6VStackV AD05TupleJ0V AA012HoursSummaryG0V AA0mG0V AD16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y__________y_____GG_Qo_AH_____GSg_AByACy_____yAD_Qo_AGGSgAAy_____y_____yADGGSg_ATSgAtuPyADGSgAtwPyACy_____yAAy___________QPGG_____GGSgQPGAJGQPG 7SwiftUI12TupleContentV AA7SectionV AA4ViewPAAE16headerProminenceyQrAA0H0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsK3KeyV AA05EmptyF0V AgAEAHyQrAJFQO 016BusinessServicesB009BrandCardoF0V AA4LinkV AA6VStackV AU012HoursSummaryF0V AU0yF0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________QPGG_____GGSgQPGAKGQPG_____G 7SwiftUI19_ConditionalContentV AA05TupleD0V AA7SectionV AA4ViewPAAE16headerProminenceyQrAA0I0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsL3KeyV AA05EmptyG0V AiAEAJyQrALFQO 016BusinessServicesB009BrandCardpG0V AA4LinkV AA6VStackV AW012HoursSummaryG0V AW0zG0V AA16_FlexFrameLayoutV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________QPGG_____GGSgQPGAKGQPG______G 7SwiftUI19_ConditionalContentV7StorageO AA05TupleD0V AA7SectionV AA4ViewPAAE16headerProminenceyQrAA0J0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsM3KeyV AA05EmptyH0V AkAEALyQrANFQO 016BusinessServicesB009BrandCardqH0V AA4LinkV AA6VStackV AY012HoursSummaryH0V AY05HoursH0V AA16_FlexFrameLayoutV AA5ColorV
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_BusinessServicesUI
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_BusinessServicesUI
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_BusinessServicesUI
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAA6VStackVyAA9TupleViewVyACyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_PaddingL0VG016BusinessServicesB015PlaceholderLogoVG_A_13CopyableTitleVAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAYGSgAEyA6_AYGAEyAEyAA5ColorVAA05_FlexmL0VGAYGtGGA18_GA8_yA6_4CaseOSgGGAA24_ForegroundStyleModifierVyAA22HierarchicalShapeStyleVGGAA25_AppearanceActionModifierVGAEyAEyAGyAIyA1__A4_A20_tGGA27_GA33_GGAA0H0HPA37_AAA43_HPA34_AAA43_HPA28_AAA43_HPA23_AAA43_HPA22_AAA43_HPyHC_A18_AA0H8ModifierHPyHCHC_A27_AAA44_HPyHCHC_A33_AAA44_HPyHCHC_A36_AAA44_HPyHCHC_A41_AAA43_HPA40_AAA43_HPA39_AAA43_HPyHC_A27_AAA44_HPyHCHC_A33_AAA44_HPyHCHCHC.1
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA9TupleViewVyAA7SectionVyAA0F0PAAE16headerProminenceyQrAA0I0OFQOyAA08ModifiedD0VyAA4TextVAA21_TraitWritingModifierVyAA013ListRowInsetsL3KeyVGG_Qo_AvA05EmptyF0VGSg_AGyANyAiAEAJyQrALFQOyAP_Qo_AUGSgAEy016BusinessServicesB009BrandCardpF0VyAA4LinkVyAPGGSg_A10_SgA10_A11_A5_yAPGSgA10_A13_A5_yANyAA6VStackVyAEyA3_012HoursSummaryF0V_A3_0zF0VtGGAA16_FlexFrameLayoutVGGSgtGAYGtGAA5ColorVGAaHHPA29_AaHHPyHC_A31_AaHHPyHCHC.8
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyAA6VStackVyAA05TupleC0VyAA4TextV_xtGGAA14_PaddingLayoutVGAA21_TraitWritingModifierVyAA013ListRowInsetsK3KeyVGGAaBHPAoaBHPAlaBHPyHC_AnA0cM0HPyHCHC_AtaVHPyHCHC.7
+- _objc_retain_x23
+- _objectdestroy.15Tm
+- _objectdestroy.21Tm
+- _symbolic So7UIImageCSg
+- _symbolic _____yAAyAAyAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGtGGA0_GATy_____SgGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
+- _symbolic _____yAAyAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGtGGA0_GATy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV
+- _symbolic _____yAAy__________ySiSgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV
+- _symbolic _____yAAy_____y_____y___________AAyAAy__________G_____GtGG_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 016BusinessServicesB015PlaceholderLogoV AH13CopyableTitleV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA016_ForegroundStyleV0V AA017HierarchicalShapeZ0V
+- _symbolic _____yAAy_____y_____y______xtGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA21_TraitWritingModifierV AA013ListRowInsetsK3KeyV
+- _symbolic _____yAAy_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGtGGA0_GATy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V A0_4CaseO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
+- _symbolic _____y________________yADy__________G_____GtG 7SwiftUI9TupleViewV 016BusinessServicesB015PlaceholderLogoV AD13CopyableTitleV AA15ModifiedContentV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingP0V
+- _symbolic _____y___________y_____y_____yAEyAEyAEy__________G_____G_____y_____GG_____G_____G______AEyAEy__________ySiSgGGAOGSgAEyAtOGAEyAEy__________GAOGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V 016BusinessServicesB015PlaceholderLogoV AZ13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexoG0V
+- _symbolic _____y_____yAByAByABy_____y_____yAAyAByAByAByABy__________G_____G_____y_____GG_____G_____G______AByABy__________ySiSgGGANGSgAByAsNGAByABy__________GANGtGGA0_GATy_____SgGG_____y_____GG_____GAByAByACyADyAP_ARA2_tGGA8_GA12_GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V A0_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
+- _symbolic _____y_____yAByAByABy_____y_____y_____yAByAByAByABy__________G_____G_____y_____GG_____G_____G______AByABy__________ySiSgGGAOGSgAByAtOGAByABy__________GAOGtGGA1_GAUy_____SgGG_____y_____GG_____GAByAByACyADyAQ_ASA3_tGGA9_GA13_G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6VStackV AA9TupleViewV AC AA5ImageV AA18_AspectRatioLayoutV AA06_FrameM0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingM0V 016BusinessServicesB015PlaceholderLogoV AX13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexnM0V A2_4CaseO AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y________________yAEy__________G_____GtGG 7SwiftUI6VStackV AA9TupleViewV 016BusinessServicesB015PlaceholderLogoV AF13CopyableTitleV AA15ModifiedContentV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingQ0V
+- _symbolic _____y_____y_____y_____GGSg_AGSgAghByADGSgAgjBy_____y_____yAAy___________tGG_____GGSgtG 7SwiftUI9TupleViewV 016BusinessServicesB0012BrandCardRowD0V AA4LinkV AA4TextV AA15ModifiedContentV AA6VStackV AD012HoursSummaryD0V AD0oD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y______Qo______y_____GGSg_____y_____y_____yACGGSg_AOSgAopKyACGSgAorKyABy_____yAJy___________tGG_____GGSgtG_____G 7SwiftUI7SectionV AA15ModifiedContentV AA4ViewPAAE16headerProminenceyQrAA0H0OFQO AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05TupleF0V 016BusinessServicesB009BrandCardnF0V AA4LinkV AA6VStackV AS012HoursSummaryF0V AS0xF0V AA16_FlexFrameLayoutV AA05EmptyF0V
+- _symbolic _____y_____y_____y___________AAyAAy__________G_____GtGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 016BusinessServicesB015PlaceholderLogoV AH13CopyableTitleV AA5ColorV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO
+- _symbolic _____y_____y_____y___________tGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 016BusinessServicesB0012HoursSummaryG0V AH0jG0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y__________y_____GG_Qo_AG_____GSg_AAyABy_____yAC_Qo_AFGSg_____y_____y_____yACGGSg_ATSgAtuPyACGSgAtwPyABy_____yAOy___________tGG_____GGSgtGAIGt 7SwiftUI7SectionV AA4ViewPAAE16headerProminenceyQrAA0F0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsJ3KeyV AA05EmptyD0V AeAEAFyQrAHFQO AA05TupleD0V 016BusinessServicesB009BrandCardnD0V AA4LinkV AA6VStackV AU012HoursSummaryD0V AU0yD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____G_____G______AAyAAy__________ySiSgGGANGSgAAyAsNGAAyAAy__________GANGtGGA0_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V
+- _symbolic _____y_____y_____y_____yADyADyADy__________G_____G_____y_____GG_____G_____G______ADyADy__________ySiSgGGANGSgADyAsNGADyADy__________GANGtGG 7SwiftUI6VStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingL0V 016BusinessServicesB015PlaceholderLogoV AV13CopyableTitleV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA05_FlexmL0V
+- _symbolic _____y_____y_____y_____y__________y_____GG_Qo_AH_____GSg_AByACy_____yAD_Qo_AGGSgAAy_____y_____yADGGSg_ATSgAtuPyADGSgAtwPyACy_____yAAy___________tGG_____GGSgtGAJGtG 7SwiftUI9TupleViewV AA7SectionV AA0D0PAAE16headerProminenceyQrAA0G0OFQO AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsK3KeyV AA05EmptyD0V AgAEAHyQrAJFQO 016BusinessServicesB009BrandCardoD0V AA4LinkV AA6VStackV AU012HoursSummaryD0V AU0yD0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________tGG_____GGSgtGAKGtG_____G 7SwiftUI19_ConditionalContentV AA9TupleViewV AA7SectionV AA0F0PAAE16headerProminenceyQrAA0I0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsL3KeyV AA05EmptyF0V AiAEAJyQrALFQO 016BusinessServicesB009BrandCardpF0V AA4LinkV AA6VStackV AW012HoursSummaryF0V AW0zF0V AA16_FlexFrameLayoutV AA5ColorV
+- _symbolic _____y_____y_____y_____y_____y__________y_____GG_Qo_AI_____GSg_ACyADy_____yAE_Qo_AHGSgABy_____y_____yAEGGSg_AUSgAuvQyAEGSgAuxQyADy_____yABy___________tGG_____GGSgtGAKGtG______G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA7SectionV AA0G0PAAE16headerProminenceyQrAA0J0OFQO AA08ModifiedD0V AA4TextV AA21_TraitWritingModifierV AA013ListRowInsetsM3KeyV AA05EmptyG0V AkAEALyQrANFQO 016BusinessServicesB009BrandCardqG0V AA4LinkV AA6VStackV AY012HoursSummaryG0V AY05HoursG0V AA16_FlexFrameLayoutV AA5ColorV
+- _symbolic ypSg
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<MKMapServiceTicket>\""
+- "@\"BSOpaqueWrapper\""
+- "@\"MKMapItem\""
+- "@\"MKMapService\""
+- "@\"NSString\"16@0:8"
+- "@\"UIMenu\"40@0:8@\"UIEditMenuInteraction\"16@\"UIEditMenuConfiguration\"24@\"NSArray\"32"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@28@0:8B16@20"
+- "@28@0:8q16B24"
+- "@32@0:8:16@24"
+- "@36@0:8B16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "BSUIBrandManager"
+- "BSUIMapItem"
+- "BSUIMapKitBrandDataSourceObjcShim"
+- "BSUIMapService"
+- "BSUIMapServiceTicket"
+- "BusinessServicesUI"
+- "CGColor"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"BSOpaqueWrapper\",N,R,VopaqueWrapper"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIColor\",R,N"
+- "T@,R,N"
+- "TQ,R"
+- "UIEditMenuInteractionDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_BSUIBrandPlacecardViewControllerObjcShim"
+- "_BSUIMapServiceTicket"
+- "_TtC18BusinessServicesUI17BrandCardCopyMenu"
+- "_TtC18BusinessServicesUI21FrameworkBundleAnchor"
+- "_bestBrandIconURLForSize:allowSmaller:"
+- "_bestNavbarBrandIconURLForSize:allowSmaller:"
+- "_geoMapItem"
+- "_isMessageIDVerified"
+- "_localizedResponseTime"
+- "_mapItem"
+- "_mapService"
+- "_messageBusinessHours"
+- "_messageLink"
+- "_navBackgroundbrandColor"
+- "_navTintBrandColor"
+- "_primaryBrandColorHexString"
+- "_secondaryBrandColorHexString"
+- "_serviceTicket"
+- "addGestureRecognizer:"
+- "addInteraction:"
+- "addObject:"
+- "address"
+- "array"
+- "autorelease"
+- "bounds"
+- "brandURI"
+- "bundleForClass:"
+- "categories"
+- "class"
+- "code"
+- "conformsToProtocol:"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "domain"
+- "editMenuInteraction"
+- "editMenuInteraction:menuForConfiguration:suggestedActions:"
+- "editMenuInteraction:targetRectForConfiguration:"
+- "editMenuInteraction:willDismissMenuForConfiguration:animator:"
+- "editMenuInteraction:willPresentMenuForConfiguration:animator:"
+- "emailAddress"
+- "enumerateObjectsUsingBlock:"
+- "generalPasteboard"
+- "handleLongPress:"
+- "hash"
+- "hoursConfig"
+- "hoursConfigurationFor:"
+- "init"
+- "initWithBrandType:cachingEnabled:"
+- "initWithBrandType:cachingEnabled:brandDataSourceOpaqueWrapper:"
+- "initWithBusinessHours:timeZone:"
+- "initWithBusinessHoursConfiguration:"
+- "initWithCachingEnabled:"
+- "initWithCachingEnabled:cacheURL:"
+- "initWithCachingEnabled:cacheURL:brandDataSourceOpaqueWrapper:"
+- "initWithCoder:"
+- "initWithData:"
+- "initWithDelegate:"
+- "initWithFrame:"
+- "initWithHexString:"
+- "initWithMapItem:"
+- "initWithRed:green:blue:alpha:"
+- "initWithString:"
+- "initWithTarget:action:"
+- "initWithThing:"
+- "initWithViewModel:"
+- "intrinsicContentSize"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRCSChatBot"
+- "isVerified"
+- "localizedDescription"
+- "localizedResponseTime"
+- "makeBrandPlacecardForBrand:"
+- "makeBrandPlacecardViewControllerWithBrandObjcShimOpaqueWrapper:"
+- "messageNumber"
+- "name"
+- "opaqueWrapper"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phoneNumber"
+- "presentEditMenuWithConfiguration:"
+- "primaryBrandColor"
+- "primaryPhoneNumber"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "scanHexLongLong:"
+- "secondaryBrandColor"
+- "self"
+- "setBottomHairlineHidden:"
+- "setContentHuggingPriority:forAxis:"
+- "setDirectionalLayoutMargins:"
+- "setMinimumPressDuration:"
+- "setString:"
+- "sharedService"
+- "shim"
+- "sip"
+- "squareLogoDataForDesiredSize:completion:"
+- "submitWithHandler:"
+- "submitWithHandler:networkActivity:"
+- "superclass"
+- "systemLayoutSizeFittingSize:"
+- "termsAndConditionsURL"
+- "ticketForBrandLookupWithIMessageUid:traits:"
+- "timeZone"
+- "url"
+- "v16@0:8"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v40@0:8@\"UIEditMenuInteraction\"16@\"UIEditMenuConfiguration\"24@\"<UIEditMenuInteractionAnimating>\"32"
+- "v40@0:8@16@24@32"
+- "verifiedBy"
+- "viewModelForBusinessConfiguration:showHoursAndOpenState:"
+- "website"
+- "wrappedThing"
+- "wrapperFor:"
+- "zone"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"UIEditMenuInteraction\"16@\"UIEditMenuConfiguration\"24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@16@24"
+
+```

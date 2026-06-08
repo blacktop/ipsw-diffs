@@ -1,0 +1,1354 @@
+## Home
+
+> `/private/var/staged_system_apps/Home.app/Home`
+
+```diff
+
+-1166.6.7.1.1
+-  __TEXT.__text: 0x84374
+-  __TEXT.__auth_stubs: 0x1a90
+-  __TEXT.__objc_stubs: 0xb600
+-  __TEXT.__objc_methlist: 0x549c
+-  __TEXT.__const: 0xdb4
+-  __TEXT.__gcc_except_tab: 0xc94
+-  __TEXT.__cstring: 0x6562
+-  __TEXT.__oslogstring: 0x6353
+-  __TEXT.__objc_classname: 0x1106
+-  __TEXT.__objc_methname: 0x1193f
+-  __TEXT.__objc_methtype: 0x4a2a
+-  __TEXT.__constg_swiftt: 0x41c
+-  __TEXT.__swift5_typeref: 0xb8a
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0x823
+-  __TEXT.__swift5_fieldmd: 0x4f0
+-  __TEXT.__swift5_assocty: 0xc8
+-  __TEXT.__swift5_proto: 0x64
+-  __TEXT.__swift5_types: 0x40
+-  __TEXT.__swift5_capture: 0xe04
+-  __TEXT.__swift_as_entry: 0x44
+-  __TEXT.__swift_as_ret: 0x58
++1216.4.0.1.11
++  __TEXT.__text: 0xb9670
++  __TEXT.__auth_stubs: 0x3310
++  __TEXT.__lazy_helpers: 0x348
++  __TEXT.__objc_stubs: 0xba00
++  __TEXT.__objc_methlist: 0x5994
++  __TEXT.__const: 0x31f4
++  __TEXT.__gcc_except_tab: 0xaf0
++  __TEXT.__cstring: 0x6f72
++  __TEXT.__objc_methname: 0x130c3
++  __TEXT.__oslogstring: 0x6f33
++  __TEXT.__objc_classname: 0x1286
++  __TEXT.__objc_methtype: 0x4e01
++  __TEXT.__swift5_typeref: 0x44de
++  __TEXT.__constg_swiftt: 0x11a4
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift5_reflstr: 0x1619
++  __TEXT.__swift5_fieldmd: 0x12bc
++  __TEXT.__swift5_assocty: 0x308
++  __TEXT.__swift5_proto: 0x180
++  __TEXT.__swift5_types: 0x100
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_capture: 0x11dc
++  __TEXT.__swift_as_entry: 0xb0
++  __TEXT.__swift_as_ret: 0xb0
++  __TEXT.__swift_as_cont: 0x19c
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x1fe8
+-  __TEXT.__eh_frame: 0x16a0
+-  __DATA_CONST.__auth_got: 0xd58
+-  __DATA_CONST.__got: 0xc10
+-  __DATA_CONST.__auth_ptr: 0x318
+-  __DATA_CONST.__const: 0x5f48
+-  __DATA_CONST.__cfstring: 0x2fa0
+-  __DATA_CONST.__objc_classlist: 0x190
++  __TEXT.__lldbsummaries: 0x214
++  __TEXT.__unwind_info: 0x29f0
++  __TEXT.__eh_frame: 0x28a8
++  __DATA_CONST.__const: 0x6f70
++  __DATA_CONST.__cfstring: 0x3080
++  __DATA_CONST.__objc_classlist: 0x1c0
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x3c0
++  __DATA_CONST.__objc_protolist: 0x3f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x158
+-  __DATA_CONST.__objc_superrefs: 0x110
+-  __DATA_CONST.__objc_arraydata: 0xd0
++  __DATA_CONST.__objc_protorefs: 0x168
++  __DATA_CONST.__objc_superrefs: 0x108
++  __DATA_CONST.__objc_arraydata: 0xe0
+   __DATA_CONST.__objc_arrayobj: 0x210
+   __DATA_CONST.__objc_intobj: 0x180
+-  __DATA.__objc_const: 0x6c40
+-  __DATA.__objc_selrefs: 0x4150
+-  __DATA.__objc_ivar: 0x2cc
+-  __DATA.__objc_data: 0x1180
+-  __DATA.__data: 0x28a8
+-  __DATA.__bss: 0xe10
+-  __DATA.__common: 0xa0
++  __DATA_CONST.__objc_dictobj: 0x28
++  __DATA_CONST.__auth_got: 0x1998
++  __DATA_CONST.__got: 0x1278
++  __DATA_CONST.__auth_ptr: 0xb00
++  __DATA.__objc_const: 0x7628
++  __DATA.__objc_selrefs: 0x44d8
++  __DATA.__objc_ivar: 0x2d4
++  __DATA.__objc_data: 0x13e8
++  __DATA.__lazy_load_got: 0x50
++  __DATA.__data: 0x526c
++  __DATA.__bss: 0x30c0
++  __DATA.__common: 0x190
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
+-  - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/Frameworks/Intents.framework/Intents
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+-  - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
+   - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+-  - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+-  - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+   - /System/Library/PrivateFrameworks/AppSupportUI.framework/AppSupportUI
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+-  - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+-  - /System/Library/PrivateFrameworks/CoreCDP.framework/CoreCDP
+-  - /System/Library/PrivateFrameworks/CoreCDPUI.framework/CoreCDPUI
+-  - /System/Library/PrivateFrameworks/CoreRecents.framework/CoreRecents
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation
+   - /System/Library/PrivateFrameworks/Home.framework/Home
+
+   - /System/Library/PrivateFrameworks/HomeUI.framework/HomeUI
+   - /System/Library/PrivateFrameworks/HomeUI2.framework/HomeUI2
+   - /System/Library/PrivateFrameworks/HomeUICommon.framework/HomeUICommon
+-  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+-  - /System/Library/PrivateFrameworks/ManagedConfigurationUI.framework/ManagedConfigurationUI
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
+-  - /System/Library/PrivateFrameworks/NetAppsUtilitiesUI.framework/NetAppsUtilitiesUI
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+-  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 66E52C08-13F7-338F-B91E-C3BCCD6D7454
+-  Functions: 2753
+-  Symbols:   1002
+-  CStrings:  4530
++  UUID: 8A97B366-B116-3EDB-A7DE-69A8EADE441F
++  Functions: 3878
++  Symbols:   1768
++  CStrings:  4847
+ 
+Symbols:
++ _$s10AppIntents0A6IntentP23allowedExecutionTargetsAA0ceF0VvgZTq
++ _$s10AppIntents0A6IntentPAAE23allowedExecutionTargetsAA0ceF0VvgZ
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSEAAMc
++ _$s10Foundation4DateVSHAAMc
++ _$s10Foundation4DateVSQAAMc
++ _$s10Foundation4DateVs23CustomStringConvertibleAAMc
++ _$s10Foundation4UUIDVSHAAMc
++ _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s10Foundation6LocaleVMa
++ _$s11Observation0A9RegistrarV12withMutation2of7keyPath_q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
++ _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarV6didSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarV7willSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarVACycfC
++ _$s11Observation0A9RegistrarVMa
++ _$s11Observation0A9RegistrarVMn
++ _$s11Observation10ObservableMp
++ _$s11Observation12ObservationsV17makeAsyncIteratorAC0E0Vyxq__GyF
++ _$s11Observation12ObservationsV8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
++ _$s11Observation12ObservationsV8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
++ _$s11Observation12ObservationsV8IteratorVMn
++ _$s11Observation12ObservationsVMn
++ _$s11Observation12ObservationsVyACyxq_GxyYbq_YKYAccfC
++ _$s12HomeUICommon12AnimatedIconV0D5StateO2onyA2EmFWC
++ _$s12HomeUICommon12AnimatedIconV0D5StateO7onWhiteyA2EmFWC
++ _$s12HomeUICommon12AnimatedIconV0D5StateO8offColoryA2EmFWC
++ _$s12HomeUICommon12AnimatedIconV0D5StateOMa
++ _$s12HomeUICommon12AnimatedIconV8iconKind0E5State4size18useAssetMarginSize11removeColor18rasterizationScaleAcA0D5StoreC0dF0OyAA19MicaPackageProviderC_G_AC0dG0OSo6CGSizeVS2bSdSgtcfC
++ _$s12HomeUICommon12AnimatedIconVMa
++ _$s12HomeUICommon12AnimatedIconVMn
++ _$s12HomeUICommon19MicaPackageProviderCMn
++ _$s12HomeUICommon9IconStoreC0C4KindOMn
++ _$s12HomeUICommon9IconStoreCA2A19MicaPackageProviderCRszrlE012iconSymbolToeF10Identifier0hI0AC0C4KindOyAE_GSgSS_tFZ
++ _$s12HomeUICommon9IconStoreCMn
++ _$s13HomeDataModel06StaticA0V21sidebarRoomsSortOrderSay10Foundation4UUIDVGvg
++ _$s13HomeDataModel06StaticA0VMa
++ _$s13HomeDataModel0A11AppFeaturesO29cameraRefreshIncrementalFetchyA2CmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO010PredictionD13ScoringValuesVMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO010PredictionD13ScoringValuesVMn
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO010PredictionD7ContextVMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO010PredictionD7ContextVMn
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeO12tileItemNameAeA04TileiJ0O_tcfC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeO4nullyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeOMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeOMn
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeOSHAAMc
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO0A11ElementTypeOSQAAMc
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO19TileInteractionAreaO013generalToggleH0yA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO19TileInteractionAreaO16openLiveActivityyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO19TileInteractionAreaO17stateToggleButtonyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO19TileInteractionAreaO6detailyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO19TileInteractionAreaOMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO20DisplayedTileContextOMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO20DisplayedTileContextOMn
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO20DisplayedTileContextOSEAAMc
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateO11unreachableyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateO12notActivatedyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateO4noneyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateO9activatedyA2EmFWC
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateOMa
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateOMn
++ _$s13HomeDataModel0A18AnalyticsUtilitiesO9TileStateOSEAAMc
++ _$s13HomeDataModel0A5StateV08AllHomesC0C07currentD8SnapshotAA0dH0VSgvg
++ _$s13HomeDataModel0A5StateV6StreamC5modelAC08AllHomesC0Cvg
++ _$s13HomeDataModel0A5StateV6StreamC6logger2os6LoggerVvgZ
++ _$s13HomeDataModel0A5StateV6StreamC6sharedAEvgZ
++ _$s13HomeDataModel0A5StateV6StreamCMa
++ _$s13HomeDataModel0aB5ActorC6sharedACvgZ
++ _$s13HomeDataModel0aB5ActorCMa
++ _$s13HomeDataModel0aB5ActorCScAAAMc
++ _$s13HomeDataModel0bC0C20currentStateSnapshotAA0eF0VvgTj
++ _$s13HomeDataModel10OnOffColorV2on3offAC7SwiftUI10ShapeStyle_p_AfG_ptcfC
++ _$s13HomeDataModel10OnOffColorV2on7SwiftUI10ShapeStyle_pvg
++ _$s13HomeDataModel10OnOffColorV3off7SwiftUI10ShapeStyle_pvg
++ _$s13HomeDataModel10OnOffColorVMa
++ _$s13HomeDataModel10OnOffColorVMn
++ _$s13HomeDataModel10StaticRoomVAA17DashboardSortableAAWP
++ _$s13HomeDataModel10StaticRoomVMa
++ _$s13HomeDataModel10StaticRoomVMn
++ _$s13HomeDataModel10StaticRoomVSHAAMc
++ _$s13HomeDataModel10StaticRoomVSQAAMc
++ _$s13HomeDataModel11LaunchSheetOMa
++ _$s13HomeDataModel11LaunchSheetOMn
++ _$s13HomeDataModel11LaunchSheetOSEAAMc
++ _$s13HomeDataModel12TileItemNameO13cameraProfileyA2CmFWC
++ _$s13HomeDataModel12TileItemNameOMa
++ _$s13HomeDataModel12TileItemNameOMn
++ _$s13HomeDataModel12TileItemNameOSEAAMc
++ _$s13HomeDataModel12TileItemNameOSHAAMc
++ _$s13HomeDataModel12TileItemNameOSQAAMc
++ _$s13HomeDataModel13AnyStatusItemV2eeoiySbAC_ACtFZ
++ _$s13HomeDataModel13AnyStatusItemVMa
++ _$s13HomeDataModel13AnyStatusItemVMn
++ _$s13HomeDataModel13AnyStatusItemVSHAAMc
++ _$s13HomeDataModel13StateSnapshotV06staticA0AA06StaticA0Vvg
++ _$s13HomeDataModel13StateSnapshotV21staticRoomsDictionarySDy10Foundation4UUIDVAA10StaticRoomVGvg
++ _$s13HomeDataModel13StateSnapshotV8tileInfo3forAA04TileG6Bearer_pSg10Foundation4UUIDV_tF
++ _$s13HomeDataModel14AnalyticsEventMp
++ _$s13HomeDataModel14AnalyticsEventP12domainPrefixSSSgvgTq
++ _$s13HomeDataModel14AnalyticsEventP26shouldFlattenSubStructuresSbvgTq
++ _$s13HomeDataModel14AnalyticsEventP7payloadSDySSSo8NSObjectCGyKFTq
++ _$s13HomeDataModel14AnalyticsEventP9eventNameSSvgTq
++ _$s13HomeDataModel14AnalyticsEventP9timestamp10Foundation4DateVSgvgTq
++ _$s13HomeDataModel14AnalyticsEventP9transform7payloadySDySSSo8NSObjectCGz_tFTq
++ _$s13HomeDataModel14AnalyticsEventPAAE26shouldFlattenSubStructuresSbvg
++ _$s13HomeDataModel14AnalyticsEventPAAE7payloadSDySSSo8NSObjectCGyKF
++ _$s13HomeDataModel14AnalyticsEventPAAE8sendLazyyyF
++ _$s13HomeDataModel14AnalyticsEventPAAE9timestamp10Foundation4DateVSgvg
++ _$s13HomeDataModel14AnalyticsEventPAAE9transform7payloadySDySSSo8NSObjectCGz_tF
++ _$s13HomeDataModel14AnalyticsEventPSETb
++ _$s13HomeDataModel14TileInfoBearerMp
++ _$s13HomeDataModel14TileInfoBearerP3set15includeInStatusySb_tYaKFTj
++ _$s13HomeDataModel14TileInfoBearerP3set15includeInStatusySb_tYaKFTjTu
++ _$s13HomeDataModel14TileInfoBearerP3set15showInDashboardySb_tYaKFTj
++ _$s13HomeDataModel14TileInfoBearerP3set15showInDashboardySb_tYaKFTjTu
++ _$s13HomeDataModel14TileInfoBearerP6toggleAA13StateSnapshotVSgyYaFTj
++ _$s13HomeDataModel14TileInfoBearerP6toggleAA13StateSnapshotVSgyYaFTjTu
++ _$s13HomeDataModel15InteractionTypeO9singleTapyA2CmFWC
++ _$s13HomeDataModel15InteractionTypeOMa
++ _$s13HomeDataModel15InteractionTypeOMn
++ _$s13HomeDataModel15InteractionTypeOSEAAMc
++ _$s13HomeDataModel15StaticAccessoryVMa
++ _$s13HomeDataModel15StaticAccessoryVMn
++ _$s13HomeDataModel16TileInfoConfigIDO2eeoiySbAC_ACtFZ
++ _$s13HomeDataModel16TileInfoConfigIDO2id10Foundation4UUIDVvg
++ _$s13HomeDataModel16TileInfoConfigIDO4uuidyAC10Foundation4UUIDVcACmFWC
++ _$s13HomeDataModel16TileInfoConfigIDOMa
++ _$s13HomeDataModel16TileInfoConfigIDOMn
++ _$s13HomeDataModel16TileInfoConfigIDOSHAAMc
++ _$s13HomeDataModel16TileInfoConfigIDOSQAAMc
++ _$s13HomeDataModel16UmbrellaCategoryO20localizedDescriptionSSvg
++ _$s13HomeDataModel16UmbrellaCategoryO8allCasesSayACGvgZ
++ _$s13HomeDataModel16UmbrellaCategoryOMa
++ _$s13HomeDataModel16UmbrellaCategoryOMn
++ _$s13HomeDataModel16UmbrellaCategoryOSHAAMc
++ _$s13HomeDataModel16UmbrellaCategoryOSQAAMc
++ _$s13HomeDataModel18DeviceDisplayNamesV11displayNameSSvg
++ _$s13HomeDataModel18DeviceDisplayNamesV4name8roomNameACSS_SSSgtcfC
++ _$s13HomeDataModel18DeviceDisplayNamesVMa
++ _$s13HomeDataModel18StaticMatterDeviceVMa
++ _$s13HomeDataModel18StaticMatterDeviceVMn
++ _$s13HomeDataModel18StaticServiceGroupVMa
++ _$s13HomeDataModel18StaticServiceGroupVMn
++ _$s13HomeDataModel19DeepLinkDestinationO025AccessoryControlSecondaryF0O8rawValueSSvg
++ _$s13HomeDataModel19DeepLinkDestinationO025AccessoryControlSecondaryF0OMa
++ _$s13HomeDataModel19DeepLinkDestinationO025AccessoryControlSecondaryF0OMn
++ _$s13HomeDataModel19DeepLinkDestinationO025AccessoryControlSecondaryF0OSHAAMc
++ _$s13HomeDataModel19DeepLinkDestinationO025AccessoryControlSecondaryF0OSQAAMc
++ _$s13HomeDataModel19MatterStateSnapshotVMa
++ _$s13HomeDataModel19MatterStateSnapshotVMn
++ _$s13HomeDataModel19TileGenericItemTypeO06cameraD0yA2CmFWC
++ _$s13HomeDataModel19TileGenericItemTypeOMa
++ _$s13HomeDataModel19TileGenericItemTypeOMn
++ _$s13HomeDataModel19TileGenericItemTypeOSEAAMc
++ _$s13HomeDataModel19TileGenericItemTypeOSHAAMc
++ _$s13HomeDataModel19TileGenericItemTypeOSQAAMc
++ _$s13HomeDataModel19TileInteractionAreaO11stateToggleyA2CmFWC
++ _$s13HomeDataModel19TileInteractionAreaO13generalToggleyA2CmFWC
++ _$s13HomeDataModel19TileInteractionAreaO16openLiveActivityyA2CmFWC
++ _$s13HomeDataModel19TileInteractionAreaO22accessoryControlLaunchyA2CmFWC
++ _$s13HomeDataModel19TileInteractionAreaOMa
++ _$s13HomeDataModel19TileInteractionAreaOMn
++ _$s13HomeDataModel19TileInteractionAreaOSEAAMc
++ _$s13HomeDataModel19TileInteractionAreaOSHAAMc
++ _$s13HomeDataModel19TileInteractionAreaOSQAAMc
++ _$s13HomeDataModel20TileInteractionEventV0E4TypeO9singleTapyA2EmFWC
++ _$s13HomeDataModel20TileInteractionEventV0E4TypeOMa
++ _$s13HomeDataModel20TileInteractionEventV14ResultPriorityOMa
++ _$s13HomeDataModel20TileInteractionEventV14ResultPriorityOMn
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfC
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfcfA11_
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfcfA12_
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfcfA1_
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfcfA8_
++ _$s13HomeDataModel20TileInteractionEventV15interactionType13itemClassName4type9tileState0mE4Area020sourceViewControllerjK009displayedD7Context0M9IsEditing0I8Priority019numberOfRepresentedA10KitObjects17isServiceLikeItem24isSuggestedScenesEnabled19isShownAsPrediction21isShownInPredictionUI16predictionScores010predictionT0A2C0eH0O_SSSgAA0A18AnalyticsUtilitiesO0a7ElementH0OAX0dN0OAX0deO0OAvX09DisplayeddT0OSgSbSgAC06ResultW0OSgSuSbA6_S2bAX32PredictionAnalyticsScoringValuesVSgAX019PredictionAnalyticsT0VSgtcfcfA9_
++ _$s13HomeDataModel20TileInteractionEventVAA09AnalyticsF0AAMc
++ _$s13HomeDataModel20TileInteractionEventVMa
++ _$s13HomeDataModel22TileInteractionContextO04roomF0AA0de4RoomF0Ovg
++ _$s13HomeDataModel22TileInteractionContextO07genericF0AA0A18AnalyticsUtilitiesO09DisplayeddF0Ovg
++ _$s13HomeDataModel22TileInteractionContextO08categoryF0AA0de8CategoryF0Ovg
++ _$s13HomeDataModel22TileInteractionContextOMa
++ _$s13HomeDataModel22TileInteractionContextOMn
++ _$s13HomeDataModel23ColorWithSchemeOverrideV5color08overridedF0AC7SwiftUI0D0V_AF0dF0OtcfC
++ _$s13HomeDataModel23ColorWithSchemeOverrideV7SwiftUI10ShapeStyleAAMc
++ _$s13HomeDataModel23ColorWithSchemeOverrideVMa
++ _$s13HomeDataModel26TileInteractionRoomContextOMa
++ _$s13HomeDataModel26TileInteractionRoomContextOMn
++ _$s13HomeDataModel26TileInteractionRoomContextOSEAAMc
++ _$s13HomeDataModel27PredictableInteractionEventV04tileeF0ACSgAA04TileeF0V_tcfC
++ _$s13HomeDataModel27PredictableInteractionEventV17sendWithSubeventsyyF
++ _$s13HomeDataModel27PredictableInteractionEventVMa
++ _$s13HomeDataModel27PredictableInteractionEventVMn
++ _$s13HomeDataModel30TileInteractionCategoryContextOMa
++ _$s13HomeDataModel30TileInteractionCategoryContextOMn
++ _$s13HomeDataModel30TileInteractionCategoryContextOSEAAMc
++ _$s13HomeDataModel4IconV011tileOnStateD4InfoAC0H0Vvg
++ _$s13HomeDataModel4IconV012tileOffStateD4InfoAC0H0Vvg
++ _$s13HomeDataModel4IconV2eeoiySbAC_ACtFZ
++ _$s13HomeDataModel4IconV4InfoV4nameSSvg
++ _$s13HomeDataModel4IconV4InfoVMa
++ _$s13HomeDataModel4IconVMa
++ _$s13HomeDataModel4IconVMn
++ _$s13HomeDataModel4IconVSHAAMc
++ _$s13HomeDataModel6CameraO26registerForBackgroundFetchyyFZ
++ _$s13HomeDataModel6CameraO27scheduleBackgroundFetchTaskyyFZ
++ _$s13HomeDataModel8RoomTypeO010actionSetsD0yA2CmFWC
++ _$s13HomeDataModel8RoomTypeO09favoritesD0yA2CmFWC
++ _$s13HomeDataModel8RoomTypeO2eeoiySbAC_ACtFZ
++ _$s13HomeDataModel8RoomTypeO2idSSvg
++ _$s13HomeDataModel8RoomTypeOMa
++ _$s13HomeDataModel8RoomTypeOMn
++ _$s13HomeDataModel8RoomTypeOSHAAMc
++ _$s14AnimatableData7SwiftUI0A0PTl
++ _$s22UniformTypeIdentifiers6UTTypeV10exportedAs12conformingToACSS_ACSgtcfC
++ _$s22UniformTypeIdentifiers6UTTypeVMa
++ _$s22UniformTypeIdentifiers6UTTypeVMn
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s4Body7SwiftUI12ViewModifierPTl
++ _$s4Body7SwiftUI4ViewPTl
++ _$s4Home14NAFutureHelperO6future8priority10descriptor4withSo0B0CyxGScPSg_SSSgxyYaYbKYActRlzClFZ
++ _$s5Cache7SwiftUI6LayoutPTl
++ _$s5Value7SwiftUI13PreferenceKeyPTl
++ _$s5Value7SwiftUI14EnvironmentKeyPTl
++ _$s6HomeUI14AccessorySetupO22LockOnboardingProviderC6sharedAEvgZ
++ _$s6HomeUI14AccessorySetupO22LockOnboardingProviderC8prefetch3for2inySo11HMAccessoryC_So6HMHomeCtYaF
++ _$s6HomeUI14AccessorySetupO22LockOnboardingProviderC8prefetch3for2inySo11HMAccessoryC_So6HMHomeCtYaFTu
++ _$s6HomeUI14AccessorySetupO22LockOnboardingProviderCMa
++ _$s6HomeUI24SidebarTabElementBuilderV11createRooms4withSayACG0A9DataModel13StateSnapshotVSg_tFZ
++ _$s6HomeUI24SidebarTabElementBuilderV16createCategories4with4homeSayACG0A9DataModel13StateSnapshotVSg_So6HMHomeCtFZ
++ _$s6HomeUI24SidebarTabElementBuilderV4KindOMn
++ _$s6HomeUI24SidebarTabElementBuilderV4KindOSQAAMc
++ _$s6HomeUI24SidebarTabElementBuilderV4from4withACSg0A9DataModel16UmbrellaCategoryO_AG13StateSnapshotVtcfC
++ _$s6HomeUI26OnboardingFlowDependenciesC17suggestedRoomUUID10Foundation0H0VSgvs
++ _$s6HomeUI26OnboardingFlowDependenciesC20transitionSourceViewSo6UIViewCSgvs
++ _$s6HomeUI26OnboardingFlowDependenciesC9accessory8vendorID07productH0ACSo11HMAccessoryC_So8NSNumberCSgAKtcfC
++ _$s6HomeUI26OnboardingFlowDependenciesCMa
++ _$s7HomeUI20A15AppMiniViewTypeO14accessorySetupyAcA09AccessoryhdE5ModelVcACmFWC
++ _$s7HomeUI20A15AppMiniViewTypeOMa
++ _$s7HomeUI20A16AppMiniViewModelV4typeAA0acdE4TypeOvg
++ _$s7HomeUI20A16AppMiniViewModelV5titleSSvg
++ _$s7HomeUI20A16AppMiniViewModelV8subtitleSSvg
++ _$s7HomeUI20A16AppMiniViewModelVMa
++ _$s7HomeUI20A16AppMiniViewModelVMn
++ _$s7HomeUI20A16AppMiniViewModelVs23CustomStringConvertibleAAMc
++ _$s7HomeUI20A19AppMiniViewFeaturesV08supportsdE0SbvgZ
++ _$s7HomeUI20A19AppMiniViewFeaturesV7currentACyFZ
++ _$s7HomeUI20A19AppMiniViewFeaturesVMa
++ _$s7HomeUI20A19AppMiniViewProviderC4stopyyF
++ _$s7HomeUI20A19AppMiniViewProviderC4withACyxGx_tcfC
++ _$s7HomeUI20A19AppMiniViewProviderC5startyyF
++ _$s7HomeUI20A19AppMiniViewProviderC9viewModelAA0acdeH0VSgvg
++ _$s7HomeUI20A19AppMiniViewProviderCMn
++ _$s7HomeUI214PlatformLayoutO9constantsAA0cD9Constants_pvgZ
++ _$s7HomeUI223LivePlaybackEnvironmentC27quickSearchEnabledByDefaultSbvsZ
++ _$s7HomeUI223LivePlaybackEnvironmentCMa
++ _$s7HomeUI223PlatformLayoutConstantsP12cornerRadiusSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP12tileIconFont7SwiftUI0H0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP15normalTileWidthSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP16normalTileHeightSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP16screenEdgeMarginSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP16tileInnerPaddingSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP18favoriteTileHeightSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP18tileCircleOffColor7SwiftUI10ShapeStyle_pvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP19actionSetTileHeightSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP19spacingBetweenTilesSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP19tileBackgroundColor0A9DataModel05OnOffH0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP24favoriteTileRoomNameFont7SwiftUI0J0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP24normalTileCircleDiameterSdvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP25favoriteTileRoomNameColor0A9DataModel05OnOffJ0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP27normalTileAccessoryNameFont7SwiftUI0J0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP28normalTileAccessoryNameColor0A9DataModel05OnOffJ0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP29normalTileAccessoryStatusFont7SwiftUI0J0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP29temperatureWhenDoubleHighFont7SwiftUI0J0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP29temperatureWhenSingleHighFont7SwiftUI0J0VvgTj
++ _$s7HomeUI223PlatformLayoutConstantsP30normalTileAccessoryStatusColor0A9DataModel05OnOffJ0VvgTj
++ _$s7HomeUI223_DummyCheckInDataSourceOAA0de8MiniViewfG0AAWP
++ _$s7HomeUI223_DummyCheckInDataSourceOMa
++ _$s7HomeUI223_DummyCheckInDataSourceOMn
++ _$s7HomeUI225DefaultMiniViewDataSourceV15enabledFeaturesACyxGAA0a3AppdeI0V_tcfC
++ _$s7HomeUI225DefaultMiniViewDataSourceVMn
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigV11iconOnColor7SwiftUI0L0Vvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigV12canBeToggledSbvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigV15backgroundColor7SwiftUI0K0Vvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigV23resolvedForegroundColor7SwiftUI0L0Vvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigV8tileIcon0a4DataG00K0Vvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11ImageConfigVMa
++ _$s7HomeUI227AccessorySetupMiniViewModelV11imageConfigAC05ImageI0Vvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV11isActivatedSbvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV23isDiscoveredOverNetworkSbvg
++ _$s7HomeUI227AccessorySetupMiniViewModelV2id10Foundation4UUIDVvg
++ _$s7HomeUI227AccessorySetupMiniViewModelVMa
++ _$s7HomeUI227AccessorySetupMiniViewModelVMn
++ _$s7HomeUI227GlobalPressObservingGestureV5ValueV9isPressedSbvg
++ _$s7HomeUI227GlobalPressObservingGestureV7SwiftUI32UIGestureRecognizerRepresentableAAMc
++ _$s7HomeUI227GlobalPressObservingGestureV9isEnabled15minimumDuration9onChangedACSb_SdyAC5ValueVctcfC
++ _$s7HomeUI227GlobalPressObservingGestureV9isEnabled15minimumDuration9onChangedACSb_SdyAC5ValueVctcfcfA0_
++ _$s7HomeUI227GlobalPressObservingGestureV9isEnabled15minimumDuration9onChangedACSb_SdyAC5ValueVctcfcfA_
++ _$s7HomeUI227GlobalPressObservingGestureVMa
++ _$s7HomeUI227GlobalPressObservingGestureVMn
++ _$s7HomeUI236TextWithSmallTrailingPercentIfNeededV6string4fontACSS_7SwiftUI4FontVtcfC
++ _$s7HomeUI236TextWithSmallTrailingPercentIfNeededVMn
++ _$s7SwiftUI10AnimatableMp
++ _$s7SwiftUI10AnimatableP05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_G6InputsVtFZTq
++ _$s7SwiftUI10AnimatableP0C4DataAC_AA16VectorArithmeticTn
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvMTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvgTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvsTq
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE010animatableE0AEvM
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_I6InputsVtFZ
++ _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC
++ _$s7SwiftUI10TapGestureV5countACSi_tcfC
++ _$s7SwiftUI10TapGestureVAA0D0AAWP
++ _$s7SwiftUI10TapGestureVMa
++ _$s7SwiftUI10TapGestureVMn
++ _$s7SwiftUI10_ShapeViewVMn
++ _$s7SwiftUI11ColorSchemeO4darkyA2CmFWC
++ _$s7SwiftUI11ColorSchemeO5lightyA2CmFWC
++ _$s7SwiftUI11ColorSchemeOMa
++ _$s7SwiftUI11ControlSizeO4miniyA2CmFWC
++ _$s7SwiftUI11ControlSizeOMa
++ _$s7SwiftUI11ControlSizeOMn
++ _$s7SwiftUI11EnvironmentV7ContentOMn
++ _$s7SwiftUI11EnvironmentVMa
++ _$s7SwiftUI11EnvironmentVMn
++ _$s7SwiftUI11GestureMaskV3allACvgZ
++ _$s7SwiftUI11StrokeStyleV9lineWidth0E3Cap0E4Join10miterLimit4dash0K5PhaseAC12CoreGraphics7CGFloatV_So06CGLineG0VSo0pH0VALSayALGALtcfC
++ _$s7SwiftUI11TransactionV18disablesAnimationsSbvs
++ _$s7SwiftUI11_BlurEffectVMn
++ _$s7SwiftUI12ProgressViewVA2A05EmptyD0VRs_rlEACyA2EGycAERszrlufC
++ _$s7SwiftUI12ProgressViewVMn
++ _$s7SwiftUI12TupleContentVMn
++ _$s7SwiftUI12TupleContentVyxxQp_QPGAA4ViewAARvzAaERzlMc
++ _$s7SwiftUI12ViewModifierMp
++ _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
++ _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
++ _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
++ _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
++ _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI12_FrameLayoutVMn
++ _$s7SwiftUI12_ScaleEffectVAA12ViewModifierAAWP
++ _$s7SwiftUI12_ScaleEffectVMn
++ _$s7SwiftUI13AnyShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI13AnyShapeStyleVMn
++ _$s7SwiftUI13AnyShapeStyleVN
++ _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
++ _$s7SwiftUI13LayoutSubviewV5place2at6anchor8proposalySo7CGPointV_AA9UnitPointVAA16ProposedViewSizeVtF
++ _$s7SwiftUI13LayoutSubviewVMa
++ _$s7SwiftUI13PreferenceKeyMp
++ _$s7SwiftUI13PreferenceKeyP12defaultValue0F0QzvgZTq
++ _$s7SwiftUI13PreferenceKeyP17_isReadableByHostSbvgZTq
++ _$s7SwiftUI13PreferenceKeyP22_includesRemovedValuesSbvgZTq
++ _$s7SwiftUI13PreferenceKeyP22_preferenceValuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI13PreferenceKeyP6reduce5value9nextValuey0H0Qzz_AHyXEtFZTq
++ _$s7SwiftUI13PreferenceKeyPAAE17_isReadableByHostSbvgZ
++ _$s7SwiftUI13PreferenceKeyPAAE22_includesRemovedValuesSbvgZ
++ _$s7SwiftUI13PreferenceKeyPAASQ5ValueRpzrlE22_preferenceValuesEqualySbAE_AEtFZ
++ _$s7SwiftUI13_EndedGestureVMn
++ _$s7SwiftUI13_EndedGestureVyxGAA0D0AAMc
++ _$s7SwiftUI13_HStackLayoutVMn
++ _$s7SwiftUI13_VStackLayoutVMn
++ _$s7SwiftUI13_VariadicViewO4TreeVMn
++ _$s7SwiftUI13_ZStackLayoutVMn
++ _$s7SwiftUI14EnvironmentKeyMp
++ _$s7SwiftUI14EnvironmentKeyP12_valuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI14EnvironmentKeyP12defaultValue0F0QzvgZTq
++ _$s7SwiftUI14EnvironmentKeyPAASQ5ValueRpzrlE12_valuesEqualySbAE_AEtFZ
++ _$s7SwiftUI14LayoutSubviewsVMa
++ _$s7SwiftUI14LayoutSubviewsVSlAAMc
++ _$s7SwiftUI14LayoutSubviewsVyAA0C7SubviewVSicig
++ _$s7SwiftUI14LinearGradientV8gradient10startPoint03endG0AcA0D0V_AA04UnitG0VAJtcfC
++ _$s7SwiftUI14LinearGradientVMn
++ _$s7SwiftUI14_PaddingLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI14_PaddingLayoutVMn
++ _$s7SwiftUI15ForegroundStyleVMn
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE13accessibility6hiddenACyxAEGSb_tF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE18accessibilityLabelyACyxAEGqd__SyRd__lF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF
++ _$s7SwiftUI15ModifiedContentVMn
++ _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
++ _$s7SwiftUI15_BackdropEffectVMn
++ _$s7SwiftUI15withTransactionyxAA0D0V_xyKXEtKlF
++ _$s7SwiftUI16PlainButtonStyleVAA09PrimitivedE0AAMc
++ _$s7SwiftUI16PlainButtonStyleVACycfC
++ _$s7SwiftUI16PlainButtonStyleVMa
++ _$s7SwiftUI16PlainButtonStyleVMn
++ _$s7SwiftUI16RoundedRectangleVMa
++ _$s7SwiftUI16RoundedRectangleVMn
++ _$s7SwiftUI16_BlendModeEffectVMn
++ _$s7SwiftUI16_FixedSizeLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI16_FixedSizeLayoutVMn
++ _$s7SwiftUI16_FlexFrameLayoutV8minWidth05idealG003maxG00F6Height0hJ00iJ09alignmentAC12CoreGraphics7CGFloatVSg_A5nA9AlignmentVtcfC
++ _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI16_FlexFrameLayoutVMn
++ _$s7SwiftUI16_OverlayModifierVMn
++ _$s7SwiftUI17ContentShapeKindsV11interactionACvgZ
++ _$s7SwiftUI17ContentShapeKindsVMa
++ _$s7SwiftUI17ContentShapeKindsVMn
++ _$s7SwiftUI17ContentShapeKindsVs10SetAlgebraAAMc
++ _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV11controlSizeAA07ControlF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV12sizeCategoryAA011ContentSizeF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovg
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0OvpMV
++ _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovs
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs
++ _$s7SwiftUI17EnvironmentValuesV16allowsTighteningSbvg
++ _$s7SwiftUI17EnvironmentValuesV16allowsTighteningSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV16allowsTighteningSbvs
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvg
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvpMV
++ _$s7SwiftUI17EnvironmentValuesV18minimumScaleFactor12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI17EnvironmentValuesV25accessibilityReduceMotionSbvg
++ _$s7SwiftUI17EnvironmentValuesV25accessibilityReduceMotionSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvg
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvs
++ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvg
++ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvs
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvg
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV9lineLimitSiSgvs
++ _$s7SwiftUI17EnvironmentValuesVACycfC
++ _$s7SwiftUI17EnvironmentValuesVMa
++ _$s7SwiftUI17EnvironmentValuesVMn
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluig
++ _$s7SwiftUI17EnvironmentValuesVy5ValueQzxmcAA0C3KeyRzluis
++ _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
++ _$s7SwiftUI17_BrightnessEffectVMn
++ _$s7SwiftUI17_SaturationEffectVMn
++ _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
++ _$s7SwiftUI18RoundedCornerStyleO10continuousyA2CmFWC
++ _$s7SwiftUI18RoundedCornerStyleOMa
++ _$s7SwiftUI18_AnimationModifierVMn
++ _$s7SwiftUI18_AnimationModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI19ContentSizeCategoryO010extraExtraG5LargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO018accessibilityExtraG5LargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO018accessibilityExtragG5LargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO10extraLargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO10extraSmallyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO15extraExtraLargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO18accessibilityLargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO19accessibilityMediumyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO23accessibilityExtraLargeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO5largeyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO5smallyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryO6mediumyA2CmFWC
++ _$s7SwiftUI19ContentSizeCategoryOMa
++ _$s7SwiftUI19ContentSizeCategoryOMn
++ _$s7SwiftUI19EmptyAnimatableDataVAA16VectorArithmeticAAMc
++ _$s7SwiftUI19EmptyAnimatableDataVMn
++ _$s7SwiftUI19EmptyAnimatableDataVN
++ _$s7SwiftUI19HorizontalAlignmentV7leadingACvgZ
++ _$s7SwiftUI19SymbolRenderingModeV10monochromeACvgZ
++ _$s7SwiftUI19SymbolRenderingModeV12hierarchicalACvgZ
++ _$s7SwiftUI19SymbolRenderingModeVMa
++ _$s7SwiftUI19SymbolRenderingModeVMn
++ _$s7SwiftUI19UIHostingControllerC13sizingOptionsAA0cd6SizingF0VvsTj
++ _$s7SwiftUI19UIHostingControllerC8rootViewACyxGx_tcfc
++ _$s7SwiftUI19UIHostingControllerC8rootViewxvsTj
++ _$s7SwiftUI19UIHostingControllerCMn
++ _$s7SwiftUI19_BackgroundModifierVMn
++ _$s7SwiftUI19_BackgroundModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI19_ConditionalContentV7StorageOMn
++ _$s7SwiftUI19_ConditionalContentVMn
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI21StrokeBorderShapeViewVMn
++ _$s7SwiftUI21_ContentShapeModifierVMn
++ _$s7SwiftUI21_ContentShapeModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI21_TraitWritingModifierVMn
++ _$s7SwiftUI21_ViewModifier_ContentVMn
++ _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
++ _$s7SwiftUI22HierarchicalShapeStyleV7primaryACvgZ
++ _$s7SwiftUI22HierarchicalShapeStyleVAA0dE0AAWP
++ _$s7SwiftUI22HierarchicalShapeStyleVN
++ _$s7SwiftUI22LayoutPriorityTraitKeyVMn
++ _$s7SwiftUI23_CompositingGroupEffectVAA12ViewModifierAAWP
++ _$s7SwiftUI23_CompositingGroupEffectVMn
++ _$s7SwiftUI24_ForegroundStyleModifierVMn
++ _$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI25_ContentShapeKindModifierVMn
++ _$s7SwiftUI25_ContentShapeKindModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI25_PreferenceActionModifierVMn
++ _$s7SwiftUI25_PreferenceActionModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI26AccessibilityChildBehaviorV7combineACvgZ
++ _$s7SwiftUI26AccessibilityChildBehaviorVMa
++ _$s7SwiftUI26_BackdropEffectPlaceholderVMn
++ _$s7SwiftUI26_PreferenceWritingModifierVMn
++ _$s7SwiftUI26_PreferenceWritingModifierVyxGAA04ViewE0AAMc
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVMn
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVAA04ViewE0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMa
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMn
++ _$s7SwiftUI32UIHostingControllerSizingOptionsV20intrinsicContentSizeACvgZ
++ _$s7SwiftUI32UIHostingControllerSizingOptionsVMa
++ _$s7SwiftUI3LogO013runtimeIssuesC0So9OS_os_logCvgZ
++ _$s7SwiftUI4EdgeO3SetV10horizontalAEvgZ
++ _$s7SwiftUI4EdgeO3SetV3topAEvgZ
++ _$s7SwiftUI4EdgeO3SetV6bottomAEvgZ
++ _$s7SwiftUI4EdgeO3SetV7leadingAEvgZ
++ _$s7SwiftUI4EdgeO3SetV8rawValueAEs4Int8V_tcfC
++ _$s7SwiftUI4EdgeO3SetV8trailingAEvgZ
++ _$s7SwiftUI4FontV11subheadlineACvgZ
++ _$s7SwiftUI4FontV4bodyACvgZ
++ _$s7SwiftUI4FontV6WeightV4boldAEvgZ
++ _$s7SwiftUI4FontV6weightyA2C6WeightVF
++ _$s7SwiftUI4FontVMn
++ _$s7SwiftUI4TextV14TruncationModeO4tailyA2EmFWC
++ _$s7SwiftUI4TextV14TruncationModeOMa
++ _$s7SwiftUI4TextV14TruncationModeOMn
++ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
++ _$s7SwiftUI4TextV4fontyAcA4FontVSgF
++ _$s7SwiftUI4TextVAA4ViewAAWP
++ _$s7SwiftUI4TextVMn
++ _$s7SwiftUI4TextVN
++ _$s7SwiftUI4TextV_9tableName6bundle7commentAcA18LocalizedStringKeyV_SSSgSo8NSBundleCSgs06StaticI0VSgtcfC
++ _$s7SwiftUI4TextVyACxcSyRzlufC
++ _$s7SwiftUI4ViewMp
++ _$s7SwiftUI4ViewP05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
++ _$s7SwiftUI4ViewP05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZTq
++ _$s7SwiftUI4ViewP12HomeUICommonE2if_4thenQrSb_qd__xXEtAaBRd__lF
++ _$s7SwiftUI4ViewP12HomeUICommonE2if_4thenQrSb_qd__xXEtAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewP14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZTq
++ _$s7SwiftUI4ViewP4BodyAC_AaBTn
++ _$s7SwiftUI4ViewP4body4BodyQzvgTq
++ _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
++ _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lF
++ _$s7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lF
++ _$s7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctF
++ _$s7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOMQ
++ _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
++ _$s7SwiftUI4ViewPAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVF
++ _$s7SwiftUI4ViewPAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVFQOMQ
++ _$s7SwiftUI4ViewPAAE19accessibilityHidden_9isEnabledAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSb_SbtF
++ _$s7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lF
++ _$s7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tF
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOMQ
++ _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF
++ _$s7SwiftUI4ViewPAAE25accessibilitySortPriorityyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSdF
++ _$s7SwiftUI4ViewPAAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lF
++ _$s7SwiftUI4ViewPAAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOMQ
++ _$s7SwiftUI5ColorV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI5ColorV4grayACvgZ
++ _$s7SwiftUI5ColorV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI5ColorV5blackACvgZ
++ _$s7SwiftUI5ColorV5clearACvgZ
++ _$s7SwiftUI5ColorV5whiteACvgZ
++ _$s7SwiftUI5ColorV7opacityyACSdF
++ _$s7SwiftUI5ColorV7primaryACvgZ
++ _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
++ _$s7SwiftUI5ColorVMn
++ _$s7SwiftUI5ColorVN
++ _$s7SwiftUI5GroupVMn
++ _$s7SwiftUI5GroupVyxGAA4ViewA2aERzlMc
++ _$s7SwiftUI5ImageV10systemNameACSS_tcfC
++ _$s7SwiftUI5ImageV19_internalSystemNameACSS_tcfC
++ _$s7SwiftUI5ImageV19symbolRenderingModeyAcA06SymboleF0VSgF
++ _$s7SwiftUI5ImageVAA4ViewAAWP
++ _$s7SwiftUI5ImageVMn
++ _$s7SwiftUI5ImageVN
++ _$s7SwiftUI5LabelVA2A4TextVRszAA5ImageVRs_rlE_06systemE0ACyAeGGqd___SStcSyRd__lufC
++ _$s7SwiftUI5LabelVMn
++ _$s7SwiftUI5LabelVyxq_GAA4ViewAAMc
++ _$s7SwiftUI6ButtonV6action5labelACyxGyyc_xyXEtcfC
++ _$s7SwiftUI6ButtonVMn
++ _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
++ _$s7SwiftUI6CircleVAA4ViewAAMc
++ _$s7SwiftUI6CircleVMn
++ _$s7SwiftUI6CircleVN
++ _$s7SwiftUI6HStackVMn
++ _$s7SwiftUI6HStackVyxGAA4ViewAAMc
++ _$s7SwiftUI6LayoutMp
++ _$s7SwiftUI6LayoutP05_makeC4View4root6inputs4bodyAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVAA01_e4ListI0VAA01_J0V_ANtXEtFZTq
++ _$s7SwiftUI6LayoutP11updateCache_8subviewsy0E0Qzz_AA0C8SubviewsVtFTq
++ _$s7SwiftUI6LayoutP12sizeThatFits8proposal8subviews5cacheSo6CGSizeVAA16ProposedViewSizeV_AA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP13placeSubviews2in8proposal8subviews5cacheySo6CGRectV_AA16ProposedViewSizeVAA0cE0V5CacheQzztFTq
++ _$s7SwiftUI6LayoutP16layoutPropertiesAA0cE0VvgZTq
++ _$s7SwiftUI6LayoutP17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA010HorizontalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA08VerticalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztFTq
++ _$s7SwiftUI6LayoutP7spacing8subviews5cacheAA11ViewSpacingVAA0C8SubviewsV_5CacheQzztFTq
++ _$s7SwiftUI6LayoutP9makeCache8subviews0E0QzAA0C8SubviewsV_tFTq
++ _$s7SwiftUI6LayoutPAA10AnimatableTb
++ _$s7SwiftUI6LayoutPAAE05_makeC4View4root6inputs4bodyAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVAA01_e4ListI0VAA01_J0V_ANtXEtFZ
++ _$s7SwiftUI6LayoutPAAE11updateCache_8subviewsy0E0Qzz_AA0C8SubviewsVtF
++ _$s7SwiftUI6LayoutPAAE16layoutPropertiesAA0cE0VvgZ
++ _$s7SwiftUI6LayoutPAAE17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA010HorizontalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztF
++ _$s7SwiftUI6LayoutPAAE17explicitAlignment2of2in8proposal8subviews5cache12CoreGraphics7CGFloatVSgAA08VerticalE0V_So6CGRectVAA16ProposedViewSizeVAA0C8SubviewsV5CacheQzztF
++ _$s7SwiftUI6LayoutPAAE7spacing8subviews5cacheAA11ViewSpacingVAA0C8SubviewsV_5CacheQzztF
++ _$s7SwiftUI6LayoutPAAyt5CacheRtzrlE04makeD08subviewsyAA0C8SubviewsV_tF
++ _$s7SwiftUI6SpacerVAA4ViewAAWP
++ _$s7SwiftUI6SpacerVMn
++ _$s7SwiftUI6SpacerVN
++ _$s7SwiftUI6VStackVMn
++ _$s7SwiftUI6VStackVyxGAA4ViewAAMc
++ _$s7SwiftUI6ZStackVMn
++ _$s7SwiftUI6ZStackVyxGAA4ViewAAMc
++ _$s7SwiftUI7GesturePAAE7onEndedyAA01_eC0VyxGy5ValueQzcF
++ _$s7SwiftUI7SectionV6create10isExpanded7content6header6footerACyxq_q0_GAA7BindingVySbGSg_q_xq0_tFZ
++ _$s7SwiftUI7SectionVMn
++ _$s7SwiftUI7SectionVyxq_q0_GAA4ViewA2aERzAaER_AaER0_rlMc
++ _$s7SwiftUI8GradientV6colorsACSayAA5ColorVG_tcfC
++ _$s7SwiftUI9AlignmentV6centerACvgZ
++ _$s7SwiftUI9AlignmentV7leadingACvgZ
++ _$s7SwiftUI9AnimationV7defaultACvgZ
++ _$s7SwiftUI9AnimationV9easeInOut8durationACSd_tFZ
++ _$s7SwiftUI9BlendModeO10sourceAtopyA2CmFWC
++ _$s7SwiftUI9BlendModeOMa
++ _$s7SwiftUI9EmptyViewVAA0D0AAWP
++ _$s7SwiftUI9EmptyViewVMn
++ _$s7SwiftUI9EmptyViewVN
++ _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
++ _$s7SwiftUI9LazyStateV12wrappedValuexvg
++ _$s7SwiftUI9LazyStateV12wrappedValuexvs
++ _$s7SwiftUI9LazyStateV7StorageOMn
++ _$s7SwiftUI9LazyStateVMa
++ _$s7SwiftUI9LazyStateVMn
++ _$s7SwiftUI9NamespaceV2IDVMn
++ _$s7SwiftUI9NamespaceV2IDVN
++ _$s7SwiftUI9RectangleVMn
++ _$s7SwiftUI9UnitPointV10topLeadingACvgZ
++ _$s7SwiftUI9UnitPointV14bottomTrailingACvgZ
++ _$s7SwiftUI9UnitPointV6centerACvgZ
++ _$s8AllCasess12CaseIterablePTl
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSH4hash4intoys6HasherVz_tFTj
++ _$sSJ12isWhitespaceSbvg
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS6appendyySJF
++ _$sSS8IteratorV4nextSJSgyF
++ _$sSSSysMc
++ _$sSaMa
++ _$sSayxGSKsMc
++ _$sSbSQsWP
++ _$sScG4next9isolationxSgScA_pSgYi_tYaF
++ _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScG9cancelAllyyF
++ _$sScP13userInitiatedScPvgZ
++ _$sScS10makeStream2of15bufferingPolicyScSyxG6stream_ScS12ContinuationVyx_G12continuationtxm_AG09BufferingE0Oyx__GtFZ
++ _$sScS12ContinuationV11YieldResultOMn
++ _$sScS12ContinuationV15BufferingPolicyO9unboundedyADyx__GAFmlFWC
++ _$sScS12ContinuationV15BufferingPolicyOMn
++ _$sScS12ContinuationV5yieldyAB11YieldResultOyx__GxnF
++ _$sScS12ContinuationV6finishyyF
++ _$sScS12ContinuationVMn
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScS8IteratorVMn
++ _$sScT6cancelyyF
++ _$sSdN
++ _$sSh11descriptionSSvg
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh9hashValueSivg
++ _$sShMa
++ _$sShyxGSlsMc
++ _$sSiSHsWP
++ _$sSl10startIndex0B0QzvgTj
++ _$sSl13HomeDataModelAA17DashboardSortable7ElementRpzrlE6sorted8matchingSayADGSay10Foundation4UUIDVG_tF
++ _$sSl8endIndex0B0QzvgTj
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo14NSUserDefaultsC13HomeDataModelE17isDemoModeEnabledSbvgZ
++ _$sSqMa
++ _$sSuN
++ _$sSus23CustomStringConvertiblesWP
++ _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss12CaseIterableMp
++ _$ss12CaseIterableP8AllCasesAB_SlTn
++ _$ss12CaseIterableP8allCases03AllD0QzvgZTq
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCMo
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySu_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerVMn
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss6HasherV8_combineyys5UInt8VF
++ _$ss6HasherV8_combineyys6UInt64VF
++ _$ss6UInt32VMn
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss8DurationV7secondsyABSdFZ
++ _$ss8DurationVMn
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _$sxSg7SwiftUI4ViewA2bCRzlMc
++ _$sytWV
++ _CGRectGetMinX
++ _HFNotificationCameraSignificantEventIDKey
++ _HFURLComponentsProductID
++ _HFURLComponentsSuggestedRoomID
++ _HFURLComponentsVendorID
++ _OBJC_CLASS_$_HUAdaptiveLayout
++ _OBJC_CLASS_$_NSConstantDictionary
++ _OBJC_CLASS_$_UIImpactFeedbackGenerator
++ _OBJC_CLASS_$_UITabAccessory
++ __dyld_lazy_load
++ __swift_stdlib_bridgeErrorToNSError
++ _free
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_allocateGenericClassMetadata
++ _swift_coroFrameAlloc
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getFunctionTypeMetadata0
++ _swift_getGenericMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_initClassMetadata2
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_immediate
++ _swift_task_isCancelledWithFlags
++ _swift_task_isCurrentExecutorWithFlags
++ _swift_unknownObjectWeakAssign
+- _$s13HomeDataModel0A11AppFeaturesO18adaptiveNavigationyA2CmFWC
+- _$s13HomeDataModel13StateSnapshotV10UpdateTypeO3allyAESo6HMHomeCSgcAEmFWC
+- _$s13HomeDataModel13StateSnapshotV10UpdateTypeOMa
+- _$s13HomeDataModel13StateSnapshotV10updateType11homeManager0H008previousdE09coverages17thermostatSupportA2C06UpdateG0O_So06HMHomeI0CSo0O0CACSgShyAC8CoverageOGAA20ThermostatSPIAdapter_ptcfC
+- _$s13HomeDataModel13StateSnapshotV8CoverageO14everythingElseyA2EmFWC
+- _$s13HomeDataModel13StateSnapshotV8CoverageOMa
+- _$s13HomeDataModel13StateSnapshotV8CoverageOMn
+- _$s13HomeDataModel13StateSnapshotV8CoverageOSHAAMc
+- _$s13HomeDataModel13StateSnapshotV8CoverageOSQAAMc
+- _$s13HomeDataModel13UIKitFeaturesO12FeatureFlags0fG3KeyAAMc
+- _$s13HomeDataModel13UIKitFeaturesO14floatingTabBaryA2CmFWC
+- _$s13HomeDataModel13UIKitFeaturesOMa
+- _$s13HomeDataModel27DefaultThermostatSPIAdapterVAA0eF0AAWP
+- _$s13HomeDataModel27DefaultThermostatSPIAdapterVACycfC
+- _$s13HomeDataModel27DefaultThermostatSPIAdapterVMa
+- _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
+- _$s6HomeUI24SidebarTabElementBuilderV11createRooms4withSayACG0A9DataModel13StateSnapshotV_tFZ
+- _$s6HomeUI24SidebarTabElementBuilderV16createCategories4with4homeSayACG0A9DataModel13StateSnapshotV_So6HMHomeCtFZ
+- _$s7Combine16ObservableObjectMp
+- _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
+- _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
+- _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
+- _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
+- _$s7Combine25ObservableObjectPublisherCMn
+- _$ss5ErrorWS
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- _objc_release_x2
+- _objc_retain_x10
+- _swift_retain_n
+- _swift_stdlib_isStackAllocationSafe
+CStrings:
++ " canToggleIncludeInStatus: "
++ " contributesToHomeStatus: "
++ " hasAccessoryControl: "
++ " needExtraSecurity: "
++ " routeIdentifier: "
++ " secondaryDestination: "
++ " tileStatusStringIconSymbolSuffix: "
++ "%s %s"
++ "%s - %s"
++ "(%@:%s) Launched HomeUIService for accessory detected with error = %@."
++ ", \ngenericContext: "
++ ", \ntileInteractionArea: "
++ ", categoryContext: "
++ ", genericItemType: "
++ ", itemPrimaryState: "
++ ", sheetDestination: "
++ ".softwareUpdateBadge"
++ "@\"HOPendingAccessoryOnboardingRequest\""
++ "@\"NAFuture\"68@0:8@\"<HFHomeKitObject>\"16@\"NSArray\"24@\"NSUUID\"32@\"NSUUID\"40@\"NSDate\"48@\"NSDate\"56B64"
++ "@16@?0@\"NSString\"8"
++ "@48@0:8@16@24d32@?40"
++ "@56@0:8@16@24@32@40@48"
++ "@64@0:8@16@24@32@40@48@56"
++ "@68@0:8@16@24@32@40@48@56B64"
++ "@72@0:8@16@24@32@40@48@56@64"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Accessory %@ appeared via didAddAccessory"
++ "Accessory Settings - "
++ "AccessoryTile.Button."
++ "AccessoryTile.Icon."
++ "AccessoryTile.Icon.Image"
++ "AccessoryTile.Icon.Text"
++ "AccessoryTile.Status.PrimaryText"
++ "AccessoryTile.Status.RoomName"
++ "AccessoryTile.Status.SecondaryText"
++ "Add Accessory - Room: "
++ "Adding to Home View:"
++ "Appending %s, sheetStack: %s"
++ "Attempting to present sheet for: %s"
++ "Attempting to push destination onto the navigation stack: %s animated: %{bool}d"
++ "Can't perform set(includeInStatus:) due to missing tileInfoBearer for %s"
++ "Can't perform set(showInDashboard:) due to missing tileInfoBearer for %s"
++ "Can't perform toggle due to missing tileInfoBearer for %s"
++ "ContentSizeCategory"
++ "Contradictory frame constraints specified."
++ "DashboardView - "
++ "Error - attempting to toggle mini view visibility with no miniViewHostingController"
++ "Error - destination is the same as the top most view on the stack - avoiding push: %s"
++ "Error: Current active person is not part of the home."
++ "Excluding from Status:"
++ "Failed to present accessory controls from tile: %s"
++ "Failed to present accessory settings: %@"
++ "ForegroundDurationEvent: startTime: "
++ "HFAccessoryObserver"
++ "HFDemoModeAccessoryObserver"
++ "HMAccessoryDelegate"
++ "HMAccessoryDelegatePrivate"
++ "HOAppNavigationURLHandler failed to open energy URL: no valid home specified in URL: %@"
++ "HOAppNavigationURLHandler handling request to open Accessory Setup Onboarding for accessory %@ with vendorID: %@ productID: %@ suggestedRoomId: %@."
++ "HOAppNavigationURLHandler handling request to open Accessory Setup Onboarding for home.uniqueIdentifier: %{public}@ | home.name: %@."
++ "HOAppNavigationURLHandler handling request to open HUIS Accessory Detected flow"
++ "HOAppNavigationURLHandler unable to handle request for HFURLComponentsDestinationAccessorySetup"
++ "HOAppNavigationURLHandler: accessory not yet resolved for AccessorySetup, waiting for didAddAccessory"
++ "HOAppNavigationURLHandler: missing or invalid accessoryID for pending AccessorySetup"
++ "HOAppNavigationURLHandler: pending accessory resolved: %@"
++ "HOAppNavigationURLHandler: timed out waiting for accessory for AccessorySetup"
++ "HOPendingAccessoryOnboardingRequest"
++ "HUContextMenuAccessorySettingsTitle"
++ "HUDashboardEnhancedLandscapeDelegate"
++ "HUDashboardNavigationMenuEditActionTitleHome"
++ "HUExcludeFromHomeStatusTitle"
++ "HUHideFromHomeDashboardTitle"
++ "HUHomeUIServiceLaunchReasonKey"
++ "HUHomeUIServiceLaunchReasonValueAccessoryDetectedOverNFC"
++ "HUIncludeInHomeStatusTitle"
++ "HUShowInHomeDashboardTitle"
++ "Hiding mini view since viewModel is nil"
++ "Home2.Dashboard.TileName."
++ "HomeApp.AccessorySetupMiniView"
++ "HomeApp.AccessorySetupMiniView.Subtitle"
++ "HomeApp.AccessorySetupMiniView.Title"
++ "HomeApp.DefaultPendingAccessoryDataSource"
++ "HomeApp.PendingAccessoryOnboardingRequest"
++ "HomeApp/HomeAppNavigator.swift"
++ "HomeApp12"
++ "Including in Status:"
++ "Initializing mini view provider"
++ "Navigating to Accessory Setup Onboarding"
++ "Navigating to accessory setup for accessory: %s"
++ "Nearby Accessories - "
++ "No Secondary Destination"
++ "No accessory control for: %s"
++ "No deviceResultTitle"
++ "Prefetching lock onboarding data for accessory: %s"
++ "Presenting Accessory Controls"
++ "Presenting Accessory Controls from Tile Tap"
++ "Presenting destination as a sheet: %s animated: %{bool}d"
++ "Pushing destination view onto the navigation stack: %s"
++ "Q24@0:8@\"UIWindowScene\"16"
++ "Registering for updates for HomeAppMiniView"
++ "Removing %s, sheetStack: %s"
++ "Removing from Home View:"
++ "Resolved pending accessory: %@"
++ "Setting mini view visibility to: %{bool}d"
++ "Showing accessory controls for accessory: %s"
++ "Sidebar.Snapshot.FirstHomeLoad"
++ "Sidebar.Snapshot.Updates"
++ "Skipping mini view setup in didLoad — deferring to viewDidAppear"
++ "Skipping mini view setup — feature is disabled"
++ "Skipping mini view setup — user is not an administrator"
++ "Stopped Observing"
++ "T@\"HOPendingAccessoryOnboardingRequest\",&,N,V_pendingAccessoryRequest"
++ "T@?,C,N,V_onboardAccessorySetupHandler"
++ "TQ,N,R"
++ "Tapped Accessory Settings for: %s"
++ "TileInteractionEvent: interactionType: "
++ "Timed out waiting for accessory %s"
++ "Unable to navigate to accessory onboarding - unable to find accessory: %s"
++ "User tapped Mini View: %s"
++ "User tapped tile: %s"
++ "Waiting for %s to be added to the Home"
++ "_$observationRegistrar"
++ "_TtC7HomeApp14SheetViewModel"
++ "_TtC7HomeApp16HomeAppNavigator"
++ "_TtC7HomeApp17FeedbackGenerator"
++ "_TtC7HomeApp24CompositeDeepLinkHandler"
++ "_TtC7HomeApp31AccessoryControlDeepLinkHandler"
++ "_TtC7HomeApp33DefaultPendingAccessoryDataSource"
++ "_appIntentViewShownFromLaunch"
++ "_hasPresentedSheet"
++ "_navigationStack"
++ "_onboardAccessorySetupHandler"
++ "_pendingAccessoryRequest"
++ "_setPrefersTabBarPresentation:"
++ "_sheet"
++ "_sheetStack"
++ "_showAccessorySetupOnboardingFrom:accessory:home:vendorID:productID:suggestedRoomUUID:sourceView:"
++ "accessory:didAddControlTarget:"
++ "accessory:didAddProfile:"
++ "accessory:didAddSymptomsHandler:"
++ "accessory:didRemoveControlTarget:"
++ "accessory:didRemoveProfile:"
++ "accessory:didUpdateApplicationDataForService:"
++ "accessory:didUpdateAssociatedServiceTypeForService:"
++ "accessory:didUpdateBulletinBoardNotificationForService:"
++ "accessory:didUpdateBundleID:"
++ "accessory:didUpdateConfigurationStateForService:"
++ "accessory:didUpdateConfiguredNameForService:"
++ "accessory:didUpdateDefaultNameForService:"
++ "accessory:didUpdateDevice:"
++ "accessory:didUpdateFirmwareUpdateAvailable:"
++ "accessory:didUpdateFirmwareVersion:"
++ "accessory:didUpdateHH1EOLEnabled:"
++ "accessory:didUpdateHasAuthorizationDataForCharacteristic:"
++ "accessory:didUpdateLastKnownOperatingStateResponseForService:"
++ "accessory:didUpdateLastKnownSleepDiscoveryModeForService:"
++ "accessory:didUpdateLoggedInAccount:"
++ "accessory:didUpdateNameForService:"
++ "accessory:didUpdatePairingIdentity:"
++ "accessory:didUpdateServiceSubtypeForService:"
++ "accessory:didUpdateSettings:"
++ "accessory:didUpdateSoftwareVersion:"
++ "accessory:didUpdateStoreID:"
++ "accessory:didUpdateSupportsUWBUnlock:"
++ "accessory:didUpdateSupportsWalletKey:"
++ "accessory:didUpdateUserConfigurationReady:"
++ "accessory:didUpdateWifiNetworkInfo:"
++ "accessory:service:didUpdateValueForCharacteristic:"
++ "accessoryCategoryType"
++ "accessoryControl"
++ "accessoryControlFromSiri"
++ "accessoryDidRemoveSymptomsHandler:"
++ "accessoryDidSetHasOnboardedForAdaptiveTemperatureAutomations:"
++ "accessoryDidSetHasOnboardedForCleanEnergyAutomation:"
++ "accessoryDidSetHasOnboardedForNaturalLighting:"
++ "accessoryDidUpdateAdditionalSetupRequired:"
++ "accessoryDidUpdateApplicationData:"
++ "accessoryDidUpdateAudioDestination:"
++ "accessoryDidUpdateAudioDestinationController:"
++ "accessoryDidUpdateAudioReturnChannelSupport:"
++ "accessoryDidUpdateCalibrationStatus:"
++ "accessoryDidUpdateControllable:"
++ "accessoryDidUpdateDiagnosticsTransferSupport:"
++ "accessoryDidUpdateHomeLevelLocationServiceSettingSupport:"
++ "accessoryDidUpdateMultiUserSupport:"
++ "accessoryDidUpdateName:"
++ "accessoryDidUpdatePairingIdentity:"
++ "accessoryDidUpdatePendingConfigurationIdentifier:"
++ "accessoryDidUpdatePreferredMediaUser:"
++ "accessoryDidUpdateReachability:"
++ "accessoryDidUpdateReachableTransports:"
++ "accessoryDidUpdateServices:"
++ "accessoryDidUpdateSupportsAnnounce:"
++ "accessoryDidUpdateSupportsAppleIntelligenceReport:"
++ "accessoryDidUpdateSupportsAudioAnalysis:"
++ "accessoryDidUpdateSupportsCompanionInitiatedObliterate:"
++ "accessoryDidUpdateSupportsCompanionInitiatedRestart:"
++ "accessoryDidUpdateSupportsDoorbellChime:"
++ "accessoryDidUpdateSupportsDropIn:"
++ "accessoryDidUpdateSupportsJustSiri:"
++ "accessoryDidUpdateSupportsMediaActions:"
++ "accessoryDidUpdateSupportsMediaContentProfile:"
++ "accessoryDidUpdateSupportsMusicAlarm:"
++ "accessoryDidUpdateSupportsPreferredMediaUser:"
++ "accessoryDidUpdateSupportsRMVonAppleTV:"
++ "accessoryDidUpdateSupportsThirdPartyMusic:"
++ "accessoryDidUpdateSupportsUserMediaSettings:"
++ "accessoryDidUpdateTargetControlSupport:"
++ "accessoryName"
++ "accessoryProfile"
++ "activePersonUniqueIdentifier"
++ "addAccessoryObserver:"
++ "camera_refresh"
++ "canShowInHomeView: "
++ "com.apple.Home.HomeAppAnalytics"
++ "com.apple.Home.draggingTile"
++ "compactLayoutRequiresPortrait"
++ "connectedEcosystems"
++ "continuation"
++ "dashboardViewShown"
++ "dataSource"
++ "default"
++ "destinationNotSupported"
++ "deviceResultTitle"
++ "deviceResultTitle: "
++ "didPerformInitialMiniViewSetup"
++ "didUpdateDemoModeStateForAccessory:"
++ "dismissAccessoryControls()"
++ "dismissAnswerAndSearchSheet()"
++ "dismissCameraSheet()"
++ "handlers"
++ "hf_hasEnergyAccessories"
++ "hf_setEnergyUsageDeepLinkURL:"
++ "hf_setGridForecastOverrideLocation:"
++ "home:didUpdateAudioGroupsController:"
++ "home:didUpdateClipCaptionLocales:"
++ "home:didUpdateClipCaptioningEnabled:"
++ "home:didUpdateClipCaptioningEnabledCameras:"
++ "homeAppNavigator"
++ "home_intelligence"
++ "impactOccurredWithIntensity:"
++ "init()"
++ "initWithAccessoryIdentifier:home:timeout:completion:"
++ "initWithContentView:"
++ "insight"
++ "invalidStackPop"
++ "invalidStackPush"
++ "isEnhancedLandscapeEnabled"
++ "itemPrimaryState"
++ "lastPrefetchedAccessoryID"
++ "layoutClassForTraitCollection:"
++ "matterDevice"
++ "matterSnapshot"
++ "miniViewHostingController"
++ "miniViewObserver"
++ "miniViewProvider"
++ "numberForParameter:"
++ "onboardAccessorySetupFromPresentingViewController:usageOptions:home:flowDependencies:"
++ "onboardAccessorySetupHandler"
++ "pendingAccessoryRequest"
++ "personIsHomeMember"
++ "presentAccessoryControlsSheet(from:)"
++ "presentCameraProfile:additionalCameraProfileUUIDs:clipUUID:significantEventUUID:startDate:endDate:animated:"
++ "presentCategorySheet(from:)"
++ "productGroup"
++ "productNumber"
++ "prox_pairing"
++ "rectangle.grid.2x2"
++ "registerBackgroundTask"
++ "removeHomeObserver:"
++ "residentDevice:didUpdateCameraClipCaptioning:"
++ "residentDevice:didUpdateCameraClipEmbedding:"
++ "serviceGroup"
++ "setBottomAccessory:"
++ "setCompactLayoutRequiresPortrait:"
++ "setMiniViewVisibilityWithHidden:"
++ "setMinimumSize:"
++ "setNeedsUpdateOfSupportedInterfaceOrientations"
++ "setOnboardAccessorySetupHandler:"
++ "setPendingAccessoryRequest:"
++ "setPreferredPlacement:"
++ "setTabBarMinimizeBehavior:"
++ "sheetDestination"
++ "sheetKind"
++ "shouldHideMiniViewState"
++ "shouldResetToDashboard"
++ "showAccessorySetupOnboarding:home:vendorID:productID:"
++ "showAccessorySetupOnboarding:home:vendorID:productID:sourceView:"
++ "showAccessorySetupOnboarding:home:vendorID:productID:suggestedRoomUUID:"
++ "showAccessorySetupOnboarding:home:vendorID:productID:suggestedRoomUUID:sourceView:"
++ "showCameraProfile:additionalCameraProfileUUIDs:clipUUID:significantEventUUID:startDate:endDate:"
++ "sidebar"
++ "sizeRestrictions"
++ "supportedInterfaceOrientationsForWindowScene:"
++ "supportsAccessCodes"
++ "supportsWalletKey"
++ "targetIdentifier"
++ "task"
++ "tileInteractionArea"
++ "trackingSnapshots"
++ "trend"
++ "user:didUpdatePersonalizedActivityEnabled:"
++ "user:didUpdateReduceNotificationsEnabled:"
++ "uuids"
++ "v24@0:8@\"HMAccessory\"16"
++ "v28@0:8@\"HMAccessory\"16B24"
++ "v32@0:8@\"HMAccessory\"16@\"ACAccount\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMAccessory\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMAccessoryProfile\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMAccessorySettings\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMCharacteristic\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMDevice\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMFPairingIdentity\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMFSoftwareVersion\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMFWiFiNetworkInfo\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMService\"24"
++ "v32@0:8@\"HMAccessory\"16@\"HMSymptomsHandler\"24"
++ "v32@0:8@\"HMAccessory\"16@\"NSString\"24"
++ "v32@0:8@\"HMHome\"16@\"HMMediaGroupsController\"24"
++ "v40@0:8@\"HMAccessory\"16@\"HMService\"24@\"HMCharacteristic\"32"
++ "v40@0:8@\"WKWebView\"16@\"WKFormInfo\"24@?<v@?>32"
++ "valuesForParameter:"
++ "webView:requestGeolocationPermissionForOrigin:initiatedByFrame:decisionHandler:"
++ "webView:willSubmitForm:submissionHandler:"
+- "AdaptiveTabBarBuildSnapshot"
+- "AdaptiveTabBarFollowUpBuildSnapshot"
+- "Coordination"
+- "HOME_TARGET_BUILDS_COORDINATION compiled in. HOME_HAS_ENABLED_COORDINATION = %{BOOL}d"
+- "HORotatableNavigationController"
+- "attemptRotationToDeviceOrientation"
+- "coordinated_mobiletimer"
+- "hf_setTemporaryEnergyLocation:"
+- "hideCategories"
+- "hideRooms"
+- "horizontalSizeClass"
+- "isAdaptiveTabBarEnabled"
+- "isAnIPhone"
+- "isBeingPresented"
+
+```

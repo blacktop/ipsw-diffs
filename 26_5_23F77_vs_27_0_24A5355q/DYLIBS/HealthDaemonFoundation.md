@@ -1,0 +1,3113 @@
+## HealthDaemonFoundation
+
+> `/System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation`
+
+```diff
+
+-6200.6.8.2.1
+-  __TEXT.__text: 0x5cc5c
+-  __TEXT.__auth_stubs: 0x1bb0
+-  __TEXT.__objc_methlist: 0x351c
+-  __TEXT.__const: 0x18d2
+-  __TEXT.__cstring: 0x3cfa
+-  __TEXT.__oslogstring: 0x2ad6
+-  __TEXT.__gcc_except_tab: 0x2e20
+-  __TEXT.__swift5_typeref: 0x8d4
+-  __TEXT.__swift5_reflstr: 0x61b
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__constg_swiftt: 0x724
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_fieldmd: 0x690
+-  __TEXT.__swift5_proto: 0x90
+-  __TEXT.__swift5_types: 0x78
+-  __TEXT.__swift5_capture: 0x3e4
+-  __TEXT.__swift5_protos: 0x1c
++7027.0.52.2.6
++  __TEXT.__text: 0x70ea8
++  __TEXT.__objc_methlist: 0x3d3c
++  __TEXT.__const: 0x21d2
++  __TEXT.__cstring: 0x499a
++  __TEXT.__oslogstring: 0x34c6
++  __TEXT.__gcc_except_tab: 0x3040
++  __TEXT.__swift5_typeref: 0xba8
++  __TEXT.__swift5_reflstr: 0x7bb
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__constg_swiftt: 0xaa8
++  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_fieldmd: 0x898
++  __TEXT.__swift5_proto: 0x104
++  __TEXT.__swift5_types: 0xac
++  __TEXT.__swift5_capture: 0x460
++  __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_types2: 0x8
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x2300
+-  __TEXT.__eh_frame: 0xc70
+-  __TEXT.__objc_classname: 0xb89
+-  __TEXT.__objc_methname: 0x82a5
+-  __TEXT.__objc_methtype: 0x1787
+-  __TEXT.__objc_stubs: 0x4de0
+-  __DATA_CONST.__got: 0x5e0
+-  __DATA_CONST.__const: 0xe10
+-  __DATA_CONST.__objc_classlist: 0x290
++  __TEXT.__unwind_info: 0x2870
++  __TEXT.__eh_frame: 0x12f8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x11c0
++  __DATA_CONST.__objc_classlist: 0x2e8
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1cd0
+-  __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__objc_superrefs: 0x1c0
+-  __AUTH_CONST.__auth_got: 0xdf0
+-  __AUTH_CONST.__const: 0x20c0
+-  __AUTH_CONST.__cfstring: 0x3a40
+-  __AUTH_CONST.__objc_const: 0x7560
++  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__objc_selrefs: 0x21b8
++  __DATA_CONST.__objc_protorefs: 0x70
++  __DATA_CONST.__objc_superrefs: 0x1e0
++  __DATA_CONST.__objc_arraydata: 0x18
++  __DATA_CONST.__got: 0x6e8
++  __AUTH_CONST.__const: 0x2638
++  __AUTH_CONST.__cfstring: 0x4060
++  __AUTH_CONST.__objc_const: 0x8600
++  __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x8a8
+-  __AUTH.__data: 0x78
+-  __DATA.__objc_ivar: 0x4e8
+-  __DATA.__data: 0x820
+-  __DATA.__bss: 0x1120
+-  __DATA_DIRTY.__objc_data: 0x13b8
+-  __DATA_DIRTY.__data: 0x7d8
++  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH_CONST.__auth_got: 0x10d0
++  __AUTH.__objc_data: 0x9e8
++  __AUTH.__data: 0x108
++  __DATA.__objc_ivar: 0x56c
++  __DATA.__data: 0xc78
++  __DATA.__bss: 0x1eb0
++  __DATA_DIRTY.__objc_data: 0x1688
++  __DATA_DIRTY.__data: 0x9a0
+   __DATA_DIRTY.__bss: 0xb0
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
++  - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest
++  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/HealthUtilities.framework/HealthUtilities
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 358C63B4-1253-3A94-807F-AE710DA292C9
+-  Functions: 2541
+-  Symbols:   6207
+-  CStrings:  2965
++  UUID: 0543D26A-5BAA-37B1-92C4-491B65706AD2
++  Functions: 3026
++  Symbols:   7179
++  CStrings:  1412
+ 
+Symbols:
++ +[HDDatabaseJournalDatabase _appendData:entryClass:database:error:]
++ +[HDDatabaseJournalDatabase _createSchemaForDatabase:error:]
++ +[HDDatabaseJournalDatabase _enumerateEntriesInDatabase:anchor:enumeratedBytesThreshold:error:handler:]
++ +[HDDatabaseJournalDatabase _getIDForString:database:error:]
++ +[HDDatabaseJournalDatabase _insertData:osBuildStringID:classNameStringID:database:error:]
++ +[HDDatabaseJournalDatabase _maxEntryAnchorInDatabase:error:]
++ +[HDDatabaseJournalDatabase _openDatabase:error:]
++ +[HDDatabaseJournalDatabase _readSchemaVersionForDatabase:error:]
++ +[HDDatabaseJournalDatabase _validateOrCreateSchemaForDatabase:error:]
++ +[HDFBSOpenApplicationService _openApplication:optionsDictionary:service:completion:]
++ +[HDFBSOpenApplicationService hd_defaultService]
++ +[HDFBSOpenApplicationService hd_openApplication:optionsDictionary:completion:]
++ +[HDJournalChapterEnumerator _journalChaptersForURL:sorted:fileEnumerator:error:]
++ +[HDJournalChapterEnumerator _lightweightDirectoryEnumeratorForURL:]
++ +[HDJournalChapterEnumerator journalChapterCountForURL:]
++ +[HDJournalChapterEnumerator journalChaptersForURL:fileEnumerator:error:]
++ +[HDJournalChapterEnumerator nextJournalChapterNameForURL:]
++ +[HDJournalChapterEnumerator nextJournalChapterNameForURL:].cold.1
++ +[HDTailSpin _isImproveHealthAndActivityEnabled]
++ +[_HDProcessInfo processInfoWithDictionary:]
++ -[HDDatabaseConnectionPool setRejectCheckouts:]
++ -[HDDatabaseJournalDatabase .cxx_destruct]
++ -[HDDatabaseJournalDatabase _clearCachedProperties]
++ -[HDDatabaseJournalDatabase _createDatabaseConnectionWithURL:]
++ -[HDDatabaseJournalDatabase _faultCachedProperties]
++ -[HDDatabaseJournalDatabase _getIdentifierAndCreationDate:error:]
++ -[HDDatabaseJournalDatabase _hasEmptySchemaWithError:]
++ -[HDDatabaseJournalDatabase appendData:entryClass:error:]
++ -[HDDatabaseJournalDatabase canAppendData:]
++ -[HDDatabaseJournalDatabase close]
++ -[HDDatabaseJournalDatabase createAndOpenForWritingWithError:]
++ -[HDDatabaseJournalDatabase createAndOpenForWritingWithError:].cold.1
++ -[HDDatabaseJournalDatabase dealloc]
++ -[HDDatabaseJournalDatabase description]
++ -[HDDatabaseJournalDatabase enumerateEntriesWithJournalKeyValueStore:error:handler:]
++ -[HDDatabaseJournalDatabase flushDataToDisk:]
++ -[HDDatabaseJournalDatabase getIdentifierAndCreationDate:error:]
++ -[HDDatabaseJournalDatabase initWithURL:]
++ -[HDDatabaseJournalDatabase init]
++ -[HDDatabaseJournalDatabase isOpen]
++ -[HDDatabaseJournalDatabase journalPath]
++ -[HDDatabaseJournalDatabase modificationTime]
++ -[HDDatabaseJournalDatabase name]
++ -[HDDatabaseJournalDatabase openForReadingWithError:]
++ -[HDDatabaseJournalDatabase readVersionWithError:]
++ -[HDDatabaseJournalDatabase removeWithError:]
++ -[HDDatabaseJournalDatabase setUnitTesting_didCreateDatabaseConnectionHandler:]
++ -[HDDatabaseJournalDatabase setUnitTesting_underlyingDatabase:]
++ -[HDDatabaseJournalDatabase size]
++ -[HDDatabaseJournalDatabase unitTesting_didCreateDatabaseConnectionHandler]
++ -[HDDatabaseJournalDatabase unitTesting_setEnumeratedBytesThreshold:]
++ -[HDDatabaseJournalDatabase unitTesting_underlyingDatabase]
++ -[HDFBSOpenApplicationService hd_openApplication:optionsDictionary:completion:]
++ -[HDJournalChapterEnumerator .cxx_destruct]
++ -[HDJournalChapterEnumerator _openJournalChapters:error:]
++ -[HDJournalChapterEnumerator _openJournalChapters:error:].cold.1
++ -[HDJournalChapterEnumerator _openJournalChapters:error:].cold.2
++ -[HDJournalChapterEnumerator _totalOpenJournalChapterCount]
++ -[HDJournalChapterEnumerator _updateRollingBufferIfRequiredWithError:]
++ -[HDJournalChapterEnumerator closeJournalChapters]
++ -[HDJournalChapterEnumerator closeJournalChapters].cold.1
++ -[HDJournalChapterEnumerator currentJournalChapterIndex]
++ -[HDJournalChapterEnumerator dealloc]
++ -[HDJournalChapterEnumerator hasJournalChapters]
++ -[HDJournalChapterEnumerator hasMoreJournalChapters]
++ -[HDJournalChapterEnumerator hasMoreJournalChapters].cold.1
++ -[HDJournalChapterEnumerator initWithPath:]
++ -[HDJournalChapterEnumerator initWithURL:]
++ -[HDJournalChapterEnumerator init]
++ -[HDJournalChapterEnumerator loadSortedJournalChaptersWithFileEnumerator:error:]
++ -[HDJournalChapterEnumerator maxAllowedOpenJournalChapterCount]
++ -[HDJournalChapterEnumerator nextOpenJournalChapterError:]
++ -[HDJournalChapterEnumerator nextOpenJournalChapterError:].cold.1
++ -[HDJournalChapterEnumerator nextOpenJournalChapterError:].cold.2
++ -[HDJournalChapterEnumerator nextOpenJournalChapterError:].cold.3
++ -[HDJournalChapterEnumerator setMaxAllowedOpenJournalChapterCount:]
++ -[HDJournalChapterEnumerator setUnitTestDelegate:]
++ -[HDJournalChapterEnumerator totalJournalChapterCount]
++ -[HDJournalChapterEnumerator unitTestDelegate]
++ -[HDJournalChapterItem .cxx_destruct]
++ -[HDJournalChapterItem description]
++ -[HDJournalChapterItem deserializedEntryOfClass:error:]
++ -[HDJournalChapterItem entryClassName]
++ -[HDJournalChapterItem initWithEntryClassName:serializedEntryData:]
++ -[HDJournalChapterItem init]
++ -[HDJournalChapterItem serializedEntryData]
++ -[HDJournalChapterItem size]
++ -[HDProcessStateManager .cxx_destruct]
++ -[HDProcessStateManager _handleBackboardApplicationInfoChanged:]
++ -[HDProcessStateManager _lock_handleBackboardApplicationInfoChanged:]
++ -[HDProcessStateManager _lock_handleProcessInfoChangedWithAllPreviousProcessInfos:]
++ -[HDProcessStateManager _lock_notifyObserversProcessWithBundleIdentifier:processIdentifier:applicationStateChanged:previousApplicationState:]
++ -[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:]
++ -[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:].cold.1
++ -[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:].cold.2
++ -[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:].cold.3
++ -[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:].cold.4
++ -[HDProcessStateManager _lock_unregisterObserver:forBundleIdentifier:]
++ -[HDProcessStateManager applicationIsForeground:]
++ -[HDProcessStateManager applicationStateForBundleIdentifier:]
++ -[HDProcessStateManager applicationStateMonitorProvider]
++ -[HDProcessStateManager dealloc]
++ -[HDProcessStateManager diagnosticDescription]
++ -[HDProcessStateManager initWithApplicationStateMonitorProvider:]
++ -[HDProcessStateManager init]
++ -[HDProcessStateManager isApplicationFrontBoardVisibleForBundleIdentifier:]
++ -[HDProcessStateManager isApplicationInExtendedRuntimeSessionForBundleIdentifier:]
++ -[HDProcessStateManager isApplicationStateBackgroundRunningForBundleIdentifier:]
++ -[HDProcessStateManager isApplicationStateForegroundForBundleIdentifier:]
++ -[HDProcessStateManager isApplicationStateSuspendedForBundleIdentifier:]
++ -[HDProcessStateManager processIdentifierForApplicationIdentifier:]
++ -[HDProcessStateManager processIsForeground:]
++ -[HDProcessStateManager registerForegroundClientProcessObserver:]
++ -[HDProcessStateManager registerObserver:forBundleIdentifier:]
++ -[HDProcessStateManager registerObserver:forBundleIdentifier:].cold.1
++ -[HDProcessStateManager registerObserver:forBundleIdentifier:].cold.2
++ -[HDProcessStateManager unregisterForegroundClientProcessObserver:]
++ -[HDProcessStateManager unregisterObserver:forBundleIdentifier:]
++ -[HDProcessStateManager unregisterObserver:forBundleIdentifier:].cold.1
++ -[HDProcessStateManager unregisterObserver:forBundleIdentifier:].cold.2
++ -[HDRBSProcessStateProvider stateForProcessIdentifier:]
++ -[HDSQLiteConnectionHandle _clearActiveStatementsUnlocked]
++ -[HDSQLiteConnectionHandle _clearDefaultStorageUnlocked]
++ -[HDSQLiteConnectionHandle _clearTransactionStorageUnlocked]
++ -[HDSQLiteConnectionHandle _finalizeAllLeakedStatements]
++ -[HDSQLiteConnectionHandle activateStatement:cached:]
++ -[HDSQLiteConnectionHandle activeStatementCount]
++ -[HDSQLiteConnectionHandle allCachedStatementSQLStrings]
++ -[HDSQLiteConnectionHandle beginTransactionStorage]
++ -[HDSQLiteConnectionHandle beginTransactionStorage].cold.1
++ -[HDSQLiteConnectionHandle busyTimeout:]
++ -[HDSQLiteConnectionHandle busyTimeout:].cold.1
++ -[HDSQLiteConnectionHandle cachedStatementCount]
++ -[HDSQLiteConnectionHandle cachedStatementForKey:]
++ -[HDSQLiteConnectionHandle cachedStatementForSQL:]
++ -[HDSQLiteConnectionHandle changes]
++ -[HDSQLiteConnectionHandle clearAllCachedStatements]
++ -[HDSQLiteConnectionHandle clearBindings:]
++ -[HDSQLiteConnectionHandle clearBindings:].cold.1
++ -[HDSQLiteConnectionHandle closeDatabaseHadUnfinalizedStatements:]
++ -[HDSQLiteConnectionHandle closeDatabaseHadUnfinalizedStatements:].cold.1
++ -[HDSQLiteConnectionHandle closeDatabaseHadUnfinalizedStatements:].cold.2
++ -[HDSQLiteConnectionHandle createFunction:nArg:flags:context:func:step:final:destroy:]
++ -[HDSQLiteConnectionHandle db]
++ -[HDSQLiteConnectionHandle deactivateStatement:]
++ -[HDSQLiteConnectionHandle deactivateStatement:].cold.1
++ -[HDSQLiteConnectionHandle deactivateStatement:].cold.2
++ -[HDSQLiteConnectionHandle deactivateStatement:].cold.3
++ -[HDSQLiteConnectionHandle dealloc]
++ -[HDSQLiteConnectionHandle dealloc].cold.1
++ -[HDSQLiteConnectionHandle enableProfiling]
++ -[HDSQLiteConnectionHandle enableTracingAndProfiling]
++ -[HDSQLiteConnectionHandle endTransactionStorage]
++ -[HDSQLiteConnectionHandle errcode]
++ -[HDSQLiteConnectionHandle errmsg]
++ -[HDSQLiteConnectionHandle exec:callback:context:errorMsg:]
++ -[HDSQLiteConnectionHandle execWithBusyRetry:]
++ -[HDSQLiteConnectionHandle extendedErrcode]
++ -[HDSQLiteConnectionHandle finalizeStatement:]
++ -[HDSQLiteConnectionHandle finalizeStatement:].cold.1
++ -[HDSQLiteConnectionHandle hasNoUnfinalizedStatements]
++ -[HDSQLiteConnectionHandle inTransaction]
++ -[HDSQLiteConnectionHandle initWithDatabase:]
++ -[HDSQLiteConnectionHandle initWithDatabase:].cold.1
++ -[HDSQLiteConnectionHandle interrupt]
++ -[HDSQLiteConnectionHandle isClosed]
++ -[HDSQLiteConnectionHandle isStatementActive:]
++ -[HDSQLiteConnectionHandle lastInsertRowID]
++ -[HDSQLiteConnectionHandle logActiveStatementsAsErrors]
++ -[HDSQLiteConnectionHandle logExplainQueryPlanForStatement:]
++ -[HDSQLiteConnectionHandle performWithDatabase:]
++ -[HDSQLiteConnectionHandle prepareV2:nByte:statement:remainder:]
++ -[HDSQLiteConnectionHandle releaseMemory]
++ -[HDSQLiteConnectionHandle resetStatement:]
++ -[HDSQLiteConnectionHandle resetStatement:].cold.1
++ -[HDSQLiteConnectionHandle resetStatement:].cold.2
++ -[HDSQLiteConnectionHandle setCachedStatement:forKey:]
++ -[HDSQLiteConnectionHandle setCachedStatement:forSQL:]
++ -[HDSQLiteConnectionHandle setDb:]
++ -[HDSQLiteConnectionHandle setInTransaction:]
++ -[HDSQLiteConnectionHandle step:]
++ -[HDSQLiteConnectionHandle traceV2:callback:context:]
++ -[HDSQLiteConnectionHandle traceV2:callback:context:].cold.1
++ -[HDSQLiteConnectionHandle uncachedActiveStatementCount]
++ -[HDSQLiteDatabase _verifyDatabaseOpenAndReturnError:]
++ -[HDSQLiteDatabase _verifyDatabaseOpenAndReturnError:].cold.1
++ -[HDSQLiteDatabase handle]
++ -[HDSQLiteDatabase releaseMemory]
++ -[HDSQLiteDatabase setHandle:]
++ -[HDSQLiteDatabase setStatementCache:]
++ -[HDSQLiteStatementCache assertsEnabled]
++ -[HDSQLiteStatementCache handle]
++ -[HDSQLiteStatementCache initWithHandle:]
++ -[HDSQLiteStatementCache setAssertsEnabled:]
++ -[HDSQLiteStatementCache setHandle:]
++ -[HDXPCAlarmEvent copyWithZone:]
++ -[HDXPCListener hasActiveConnections]
++ -[_HDProcessInfo .cxx_destruct]
++ GCC_except_table105
++ GCC_except_table107
++ GCC_except_table108
++ GCC_except_table112
++ GCC_except_table114
++ GCC_except_table117
++ GCC_except_table123
++ GCC_except_table135
++ GCC_except_table136
++ GCC_except_table141
++ GCC_except_table142
++ GCC_except_table143
++ GCC_except_table148
++ GCC_except_table150
++ GCC_except_table152
++ GCC_except_table156
++ GCC_except_table161
++ GCC_except_table162
++ GCC_except_table180
++ GCC_except_table182
++ GCC_except_table202
++ GCC_except_table219
++ GCC_except_table220
++ GCC_except_table224
++ GCC_except_table232
++ GCC_except_table86
++ _BKSApplicationStateDisplayIDKey
++ _BKSApplicationStateKey
++ _BKSApplicationStateProcessIDKey
++ _CFDictionaryGetCount
++ _CFSetRemoveAllValues
++ _FBSSceneVisibilityEndowmentNamespace
++ _HDBKSApplicationStateIsBackgroundRunning
++ _HDBKSApplicationStateIsForeground
++ _HDBKSApplicationStateIsSuspended
++ _HDBKSApplicationStateIsTerminated
++ _HDBKSApplicationStateString
++ _HDErrorDomain
++ _HDJournalProcessingSuccessIndicatedWithResult
++ _HDSQLiteConfigureDedicatedMallocZone
++ _HDSQLiteConfigureDedicatedMallocZone.cold.1
++ _HDSQLiteConfigureDedicatedMallocZone.onceToken
++ _HDStringFromJournalProcessingResult
++ _HDTailSpinCategorySlowDatabaseReadTransaction
++ _HDTailSpinCategorySlowDatabaseWriteTransaction
++ _HKLogProcessState
++ _MACancelDownloadErrorDomain_block_invoke.sqliteMethods
++ _NSURLContentModificationDateKey
++ _NSURLFileSizeKey
++ _NSURLIsDirectoryKey
++ _NSURLIsRegularFileKey
++ _NSURLTotalFileSizeKey
++ _OBJC_CLASS_$_FBSOpenApplicationOptions
++ _OBJC_CLASS_$_FBSOpenApplicationService
++ _OBJC_CLASS_$_HDDatabaseJournalDatabase
++ _OBJC_CLASS_$_HDFBSOpenApplicationService
++ _OBJC_CLASS_$_HDJournalChapterEnumerator
++ _OBJC_CLASS_$_HDJournalChapterItem
++ _OBJC_CLASS_$_HDProcessStateManager
++ _OBJC_CLASS_$_HDRBSProcessStateProvider
++ _OBJC_CLASS_$_HDSQLiteConnectionHandle
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSScanner
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_RBSProcessIdentifier
++ _OBJC_CLASS_$__HDProcessInfo
++ _OBJC_CLASS_$__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ _OBJC_CLASS_$__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ _OBJC_IVAR_$_HDDatabaseConnectionPool._rejectCheckouts
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._database
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._databaseURL
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._enumeratedBytesThreshold
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._modificationDate
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._size
++ _OBJC_IVAR_$_HDDatabaseJournalDatabase._unitTesting_didCreateDatabaseConnectionHandler
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._URL
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._cachedError
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._currentIndex
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._hasLoadedPersistedJournalNames
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._maxAllowedOpenJournalChapterCount
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._openJournalChapters
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._remainingJournalChapters
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._totalJournalChapterCount
++ _OBJC_IVAR_$_HDJournalChapterEnumerator._unitTestDelegate
++ _OBJC_IVAR_$_HDJournalChapterItem._entryClassName
++ _OBJC_IVAR_$_HDJournalChapterItem._serializedEntryData
++ _OBJC_IVAR_$_HDProcessStateManager._applicationMonitor
++ _OBJC_IVAR_$_HDProcessStateManager._applicationStateMonitorProvider
++ _OBJC_IVAR_$_HDProcessStateManager._clientCalloutQueue
++ _OBJC_IVAR_$_HDProcessStateManager._foregroundClientBundleIdentifiers
++ _OBJC_IVAR_$_HDProcessStateManager._foregroundClientProcessObservers
++ _OBJC_IVAR_$_HDProcessStateManager._lock
++ _OBJC_IVAR_$_HDProcessStateManager._processInfoByBundleID
++ _OBJC_IVAR_$_HDProcessStateManager._processObserversByBundleID
++ _OBJC_IVAR_$_HDProcessStateManager._rbsProcessStateProvider
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._activeStatements
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._db
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._inTransaction
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._interruptLock
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._lock
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._statementsByKey
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._statementsBySQL
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._transactionStatementsByKey
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._transactionStatementsBySQL
++ _OBJC_IVAR_$_HDSQLiteConnectionHandle._uncachedActiveStatements
++ _OBJC_IVAR_$_HDSQLiteDatabase._handle
++ _OBJC_IVAR_$_HDSQLiteDatabase._transactionInterruptLock
++ _OBJC_IVAR_$_HDSQLiteStatementCache._assertsEnabled
++ _OBJC_IVAR_$_HDSQLiteStatementCache._handle
++ _OBJC_IVAR_$__HDProcessInfo._applicationState
++ _OBJC_IVAR_$__HDProcessInfo._bundleIdentifier
++ _OBJC_IVAR_$__HDProcessInfo._pid
++ _OBJC_METACLASS_$_HDDatabaseJournalDatabase
++ _OBJC_METACLASS_$_HDFBSOpenApplicationService
++ _OBJC_METACLASS_$_HDJournalChapterEnumerator
++ _OBJC_METACLASS_$_HDJournalChapterItem
++ _OBJC_METACLASS_$_HDProcessStateManager
++ _OBJC_METACLASS_$_HDRBSProcessStateProvider
++ _OBJC_METACLASS_$_HDSQLiteConnectionHandle
++ _OBJC_METACLASS_$__HDProcessInfo
++ _OBJC_METACLASS_$__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ _OBJC_METACLASS_$__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __CLASS_METHODS__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __CLASS_PROPERTIES__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __DATA__TtC22HealthDaemonFoundation15DatabaseJournal
++ __DATA__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __DATA__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __DATA__TtC22HealthDaemonFoundationP33_CCA13668C6DA1B96277FE8B758D7F9EC11LoggerClass
++ __INSTANCE_METHODS__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __INSTANCE_METHODS__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __IVARS__TtC22HealthDaemonFoundation15DatabaseJournal
++ __IVARS__TtC22HealthDaemonFoundation22JournalableSQLDatabase
++ __IVARS__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __IVARS__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __IVARS__TtC22HealthDaemonFoundationP33_CCA13668C6DA1B96277FE8B758D7F9EC11LoggerClass
++ __METACLASS_DATA__TtC22HealthDaemonFoundation15DatabaseJournal
++ __METACLASS_DATA__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __METACLASS_DATA__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __METACLASS_DATA__TtC22HealthDaemonFoundationP33_CCA13668C6DA1B96277FE8B758D7F9EC11LoggerClass
++ __OBJC_$_CLASS_METHODS_HDFBSOpenApplicationService
++ __OBJC_$_CLASS_METHODS_HDJournalChapterEnumerator
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_INSTANCE_METHODS_HDDatabaseJournalDatabase
++ __OBJC_$_INSTANCE_METHODS_HDFBSOpenApplicationService
++ __OBJC_$_INSTANCE_METHODS_HDJournalChapterEnumerator
++ __OBJC_$_INSTANCE_METHODS_HDJournalChapterItem
++ __OBJC_$_INSTANCE_METHODS_HDProcessStateManager
++ __OBJC_$_INSTANCE_METHODS_HDRBSProcessStateProvider
++ __OBJC_$_INSTANCE_METHODS_HDSQLiteConnectionHandle
++ __OBJC_$_INSTANCE_METHODS__HDProcessInfo
++ __OBJC_$_INSTANCE_VARIABLES_HDDatabaseJournalDatabase
++ __OBJC_$_INSTANCE_VARIABLES_HDJournalChapterEnumerator
++ __OBJC_$_INSTANCE_VARIABLES_HDJournalChapterItem
++ __OBJC_$_INSTANCE_VARIABLES_HDProcessStateManager
++ __OBJC_$_INSTANCE_VARIABLES_HDSQLiteConnectionHandle
++ __OBJC_$_INSTANCE_VARIABLES__HDProcessInfo
++ __OBJC_$_PROP_LIST_HDDatabaseJournalDatabase
++ __OBJC_$_PROP_LIST_HDJournalChapter
++ __OBJC_$_PROP_LIST_HDJournalChapterEntry
++ __OBJC_$_PROP_LIST_HDJournalChapterEnumerator
++ __OBJC_$_PROP_LIST_HDJournalChapterItem
++ __OBJC_$_PROP_LIST_HDProcessStateManager
++ __OBJC_$_PROP_LIST_HDSQLiteConnectionHandle
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDJournalChapter
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDJournalChapterEntry
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDJournalKeyValueStore
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HDJournalChapter
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HDJournalChapterEntry
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HDJournalKeyValueStore
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_REFS_HDJournalChapter
++ __OBJC_$_PROTOCOL_REFS_HDJournalChapterEntry
++ __OBJC_$_PROTOCOL_REFS_HDJournalKeyValueStore
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_CLASS_PROTOCOLS_$_HDDatabaseJournalDatabase
++ __OBJC_CLASS_PROTOCOLS_$_HDJournalChapterItem
++ __OBJC_CLASS_PROTOCOLS_$_HDProcessStateManager
++ __OBJC_CLASS_PROTOCOLS_$_HDXPCAlarmEvent
++ __OBJC_CLASS_RO_$_HDDatabaseJournalDatabase
++ __OBJC_CLASS_RO_$_HDFBSOpenApplicationService
++ __OBJC_CLASS_RO_$_HDJournalChapterEnumerator
++ __OBJC_CLASS_RO_$_HDJournalChapterItem
++ __OBJC_CLASS_RO_$_HDProcessStateManager
++ __OBJC_CLASS_RO_$_HDRBSProcessStateProvider
++ __OBJC_CLASS_RO_$_HDSQLiteConnectionHandle
++ __OBJC_CLASS_RO_$__HDProcessInfo
++ __OBJC_LABEL_PROTOCOL_$_HDJournalChapter
++ __OBJC_LABEL_PROTOCOL_$_HDJournalChapterEntry
++ __OBJC_LABEL_PROTOCOL_$_HDJournalKeyValueStore
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_METACLASS_RO_$_HDDatabaseJournalDatabase
++ __OBJC_METACLASS_RO_$_HDFBSOpenApplicationService
++ __OBJC_METACLASS_RO_$_HDJournalChapterEnumerator
++ __OBJC_METACLASS_RO_$_HDJournalChapterItem
++ __OBJC_METACLASS_RO_$_HDProcessStateManager
++ __OBJC_METACLASS_RO_$_HDRBSProcessStateProvider
++ __OBJC_METACLASS_RO_$_HDSQLiteConnectionHandle
++ __OBJC_METACLASS_RO_$__HDProcessInfo
++ __OBJC_PROTOCOL_$_HDJournalChapter
++ __OBJC_PROTOCOL_$_HDJournalChapterEntry
++ __OBJC_PROTOCOL_$_HDJournalKeyValueStore
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __PROTOCOLS__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper
++ __PROTOCOLS__TtC22HealthDaemonFoundation31DatabaseJournalOperationWrapper.2
++ __PROTOCOLS__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore
++ __PROTOCOLS__TtC22HealthDaemonFoundation32UserDefaultsJournalKeyValueStore.11
++ __ShouldProfileSQL
++ __SqliteEventTrace
++ __ZNKSt3__16__loopIcE13__init_repeatB9fqe220100ERNS_7__stateIcEE
++ __ZNKSt9type_infoeqB9fqe220100ERKS_
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9fqe220100IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9fqe220100IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9fqe220100IS2_Li0EEEPT_.cold.1
++ __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B9fqe220100ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9fqe220100EPKcNS_15regex_constants18syntax_option_typeE
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_7__stateIcEEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9fqe220100EPS6_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJRKS7_EEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJRKS7_EEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9fqe220100ERKS2_cPNS_6__nodeIcEE
++ __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9fqe220100ERKS2_cPNS_6__nodeIcEE.cold.1
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIccEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairImPKcEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_7__stateIcEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_9sub_matchIPKcEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPKcEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPNS_7__stateIcEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE11EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE12EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE14EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE15EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE16EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE17EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE1EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE2EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE3EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE4EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE5EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE6EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE7EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE8EEEvv
++ __ZNSt3__119__throw_regex_errorB9fqe220100ILNS_15regex_constants10error_typeE9EEEvv
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB9fqe220100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB9fqe220100ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB9fqe220100Ecc
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB9fqe220100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B9fqe220100ERKS2_PNS_6__nodeIcEEbbb
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB9fqe220100Eb
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9fqe220100IJRKS6_EEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJS8_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB9fqe220100EOS8_
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9fqe220100IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPS4_SA_EEvT0_T1_l
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB9fqe220100EOS2_
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9fqe220100IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPS4_SA_EEvT0_T1_l
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE24__emplace_back_slow_pathIJRKcEEEPcDpOT_
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE24__emplace_back_slow_pathIJcEEEPcDpOT_
++ __ZNSt3__1ssB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE16__emplace_uniqueB9fqe220100IJRS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlRS7_SJ_SK_E_clESV_SJ_SK_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE16__emplace_uniqueB9fqe220100IJS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlRS7_OS3_SJ_E_clESU_SV_SJ_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonEEENS_21__unordered_map_equalIS3_S8_SB_SA_EENS_9allocatorIS8_EEE16__emplace_uniqueB9fqe220100IJS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlRS7_OS3_SJ_E_clESU_SV_SJ_
++ __ZZNSt3__112__hash_tableIPKcN23HDSQLiteStatementBinder5_HashENS3_11_ComparisonENS_9allocatorIS2_EEE16__emplace_uniqueB9fqe220100IJRKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSB_SB_E_clESB_SB_
++ ___103+[HDDatabaseJournalDatabase _enumerateEntriesInDatabase:anchor:enumeratedBytesThreshold:error:handler:]_block_invoke
++ ___103+[HDDatabaseJournalDatabase _enumerateEntriesInDatabase:anchor:enumeratedBytesThreshold:error:handler:]_block_invoke_2
++ ___141-[HDProcessStateManager _lock_notifyObserversProcessWithBundleIdentifier:processIdentifier:applicationStateChanged:previousApplicationState:]_block_invoke
++ ___45-[HDSQLiteDatabase accessDatabaseUsingBlock:]_block_invoke
++ ___48-[HDSQLiteDatabase _stepStatement:hasRow:error:]_block_invoke
++ ___54-[HDDatabaseJournalDatabase _hasEmptySchemaWithError:]_block_invoke
++ ___54-[HDSQLiteDatabase getLastErrorWithStatement:context:]_block_invoke
++ ___58-[HDSQLiteDatabase _openForWriting:additionalFlags:error:]_block_invoke
++ ___58-[HDSQLiteDatabase _openForWriting:additionalFlags:error:]_block_invoke.404
++ ___60+[HDDatabaseJournalDatabase _createSchemaForDatabase:error:]_block_invoke
++ ___60+[HDDatabaseJournalDatabase _createSchemaForDatabase:error:]_block_invoke_2
++ ___60+[HDDatabaseJournalDatabase _getIDForString:database:error:]_block_invoke
++ ___60+[HDDatabaseJournalDatabase _getIDForString:database:error:]_block_invoke_2
++ ___60+[HDDatabaseJournalDatabase _getIDForString:database:error:]_block_invoke_3
++ ___61+[HDDatabaseJournalDatabase _maxEntryAnchorInDatabase:error:]_block_invoke
++ ___63-[HDXPCPeriodicActivity _performCurrentActivityWithCompletion:]_block_invoke.373
++ ___64-[HDSQLiteDatabase performTransactionWithType:error:usingBlock:]_block_invoke.444
++ ___65-[HDDatabaseJournalDatabase _getIdentifierAndCreationDate:error:]_block_invoke
++ ___65-[HDDatabaseJournalDatabase _getIdentifierAndCreationDate:error:]_block_invoke_2
++ ___67+[HDDatabaseJournalDatabase _appendData:entryClass:database:error:]_block_invoke
++ ___68+[HDJournalChapterEnumerator _lightweightDirectoryEnumeratorForURL:]_block_invoke
++ ___68+[HDJournalChapterEnumerator _lightweightDirectoryEnumeratorForURL:]_block_invoke.cold.1
++ ___68-[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:]_block_invoke
++ ___68-[HDProcessStateManager _lock_registerObserver:forBundleIdentifier:]_block_invoke.385
++ ___81+[HDJournalChapterEnumerator _journalChaptersForURL:sorted:fileEnumerator:error:]_block_invoke
++ ___81+[HDJournalChapterEnumerator _journalChaptersForURL:sorted:fileEnumerator:error:]_block_invoke_2
++ ___83-[HDProcessStateManager _lock_handleProcessInfoChangedWithAllPreviousProcessInfos:]_block_invoke
++ ___85+[HDFBSOpenApplicationService _openApplication:optionsDictionary:service:completion:]_block_invoke
++ ___90+[HDDatabaseJournalDatabase _insertData:osBuildStringID:classNameStringID:database:error:]_block_invoke
++ ___HDSQLiteConfigureDedicatedMallocZone_block_invoke
++ ___HDSQLiteConfigureDedicatedMallocZone_block_invoke.cold.1
++ ___HDSQLiteConfigureDedicatedMallocZone_block_invoke.cold.2
++ ___block_descriptor_32_e23_v16?0^{sqlite3_stmt=}8l
++ ___block_descriptor_32_e27_B24?0"NSURL"8"NSError"16l
++ ___block_descriptor_32_e51_q24?0"<HDJournalChapter>"8"<HDJournalChapter>"16l
++ ___block_descriptor_40_e23_v16?0^{sqlite3_stmt=}8l
++ ___block_descriptor_40_e8_32bs_e37_v24?0"BSProcessHandle"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32r_e26_B24?0^{HDSQLiteRow=}8^16lr32l8
++ ___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8ls32l8
++ ___block_descriptor_40_e8_32s_e23_v16?0^{sqlite3_stmt=}8ls32l8
++ ___block_descriptor_40_e8_32s_e30_B24?0"HDSQLiteDatabase"8^16ls32l8
++ ___block_descriptor_40_e8_32w_e22_v16?0"NSDictionary"8lw32l8
++ ___block_descriptor_40_ea8_32bs_e18_v16?0^{sqlite3=}8ls32l8
++ ___block_descriptor_40_ea8_32r_e18_v16?0^{sqlite3=}8lr32l8
++ ___block_descriptor_48_e8_32r40r_e26_B24?0^{HDSQLiteRow=}8^16lr32l8r40l8
++ ___block_descriptor_48_ea8_32s40r_e18_v16?0^{sqlite3=}8lr40l8s32l8
++ ___block_descriptor_48_ea8_32s_e18_v16?0^{sqlite3=}8ls32l8
++ ___block_descriptor_56_e8_32s_e23_v16?0^{sqlite3_stmt=}8ls32l8
++ ___block_descriptor_56_e8_32s_e30_B24?0"HDSQLiteDatabase"8^16lu48l8s32l8
++ ___block_descriptor_56_ea8_32s40r_e18_v16?0^{sqlite3=}8lr40l8s32l8
++ ___block_descriptor_61_e8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_72_e8_32s40r48r56r_e26_B24?0^{HDSQLiteRow=}8^16lr40l8r48l8s32l8r56l8
++ ___block_literal_global.369
++ ___block_literal_global.375
++ ___block_literal_global.392
++ ___block_literal_global.458
++ ___block_literal_global.467
++ ___block_literal_global.503
++ ___block_literal_global.587
++ ___block_literal_global.719
++ ___block_literal_global.722
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.88
++ ___swift_closure_destructorTm
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___unnamed_1
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __os_log_default
++ __printExplainQueryPlan
++ __sqliteZoneFree
++ __sqliteZoneInit
++ __sqliteZoneMalloc
++ __sqliteZoneRealloc
++ __sqliteZoneRoundup
++ __sqliteZoneShutdown
++ __sqliteZoneSize
++ _associated conformance 22HealthDaemonFoundation22JournalableSQLDatabaseC5ErrorOyx_GSHAASQ
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO10CodingKeys33_4652E788D115CF56C090A6E84245FE50LLOSHAASQ
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO10CodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO10CodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO19JournaledCodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO19JournaledCodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO19PerformedCodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultO19PerformedCodingKeys33_4652E788D115CF56C090A6E84245FE50LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22HealthDaemonFoundation26JournalableOperationResultOSHAASQ
++ _associated conformance So16NSURLResourceKeyaSHSCSQ
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.17
++ _block_copy_helper.20
++ _block_copy_helper.23
++ _block_copy_helper.27
++ _block_copy_helper.30
++ _block_copy_helper.39
++ _block_copy_helper.43
++ _block_copy_helper.47
++ _block_copy_helper.52
++ _block_copy_helper.53
++ _block_copy_helper.57
++ _block_copy_helper.59
++ _block_copy_helper.63
++ _block_copy_helper.72
++ _block_copy_helper.93
++ _block_copy_helper.97
++ _block_descriptor.19
++ _block_descriptor.22
++ _block_descriptor.25
++ _block_descriptor.29
++ _block_descriptor.32
++ _block_descriptor.41
++ _block_descriptor.45
++ _block_descriptor.49
++ _block_descriptor.54
++ _block_descriptor.55
++ _block_descriptor.59
++ _block_descriptor.61
++ _block_descriptor.65
++ _block_descriptor.74
++ _block_descriptor.95
++ _block_descriptor.99
++ _block_destroy_helper.18
++ _block_destroy_helper.21
++ _block_destroy_helper.24
++ _block_destroy_helper.28
++ _block_destroy_helper.31
++ _block_destroy_helper.40
++ _block_destroy_helper.44
++ _block_destroy_helper.48
++ _block_destroy_helper.53
++ _block_destroy_helper.54
++ _block_destroy_helper.58
++ _block_destroy_helper.60
++ _block_destroy_helper.64
++ _block_destroy_helper.73
++ _block_destroy_helper.94
++ _block_destroy_helper.98
++ _flat unique So16HDJournalChapter_p
++ _flat unique So21HDJournalChapterEntry_p
++ _get_type_metadata s8SendableRzl15Synchronization5MutexVy22HealthDaemonFoundation15DatabaseJournalCG noncopyable.1
++ _malloc_create_zone
++ _malloc_good_size
++ _malloc_set_zone_name
++ _malloc_type_zone_malloc
++ _malloc_type_zone_realloc
++ _malloc_zone_free
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$URLByAppendingPathExtension:
++ _objc_msgSend$URLByDeletingLastPathComponent
++ _objc_msgSend$URLByDeletingPathExtension
++ _objc_msgSend$_isImproveHealthAndActivityEnabled
++ _objc_msgSend$_openJournalChapters:error:
++ _objc_msgSend$_unitTest_openJournalChapters:error:
++ _objc_msgSend$activateStatement:cached:
++ _objc_msgSend$activeStatementCount
++ _objc_msgSend$allCachedStatementSQLStrings
++ _objc_msgSend$appendData:entryClass:error:
++ _objc_msgSend$applicationInfoForApplication:
++ _objc_msgSend$applicationInfoForApplication:completion:
++ _objc_msgSend$applicationStateForApplication:
++ _objc_msgSend$applicationStateForBundleIdentifier:
++ _objc_msgSend$applicationStateMonitorProvider
++ _objc_msgSend$arrayByAddingObject:
++ _objc_msgSend$assertsEnabled
++ _objc_msgSend$beginTransactionStorage
++ _objc_msgSend$busyTimeout:
++ _objc_msgSend$cachedStatementCount
++ _objc_msgSend$cachedStatementForKey:
++ _objc_msgSend$cachedStatementForSQL:
++ _objc_msgSend$canAppendData:
++ _objc_msgSend$changes
++ _objc_msgSend$clearAllCachedStatements
++ _objc_msgSend$closeDatabaseHadUnfinalizedStatements:
++ _objc_msgSend$closeJournalChapters
++ _objc_msgSend$createAndOpenForWritingWithError:
++ _objc_msgSend$createApplicationStateMonitor
++ _objc_msgSend$createApplicationStateMonitorWithBundleIDs:states:elevatedPriority:
++ _objc_msgSend$createRBSProcessStateProvider
++ _objc_msgSend$currentState
++ _objc_msgSend$db
++ _objc_msgSend$deactivateStatement:
++ _objc_msgSend$deserializedEntryOfClass:error:
++ _objc_msgSend$distantPast
++ _objc_msgSend$enableProfiling
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$endTransactionStorage
++ _objc_msgSend$endowmentNamespaces
++ _objc_msgSend$entryClassName
++ _objc_msgSend$enumerateEntriesWithJournalKeyValueStore:error:handler:
++ _objc_msgSend$errcode
++ _objc_msgSend$errmsg
++ _objc_msgSend$exec:callback:context:errorMsg:
++ _objc_msgSend$execWithBusyRetry:
++ _objc_msgSend$extendedErrcode
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$flushDataToDisk:
++ _objc_msgSend$foregroundClientProcessesDidChange:previouslyForegroundBundleIdentifiers:
++ _objc_msgSend$getResourceValue:forKey:error:
++ _objc_msgSend$handle
++ _objc_msgSend$handleForIdentifier:error:
++ _objc_msgSend$hasJournalChapters
++ _objc_msgSend$hasMoreJournalChapters
++ _objc_msgSend$hd_defaultService
++ _objc_msgSend$hk_assignError:code:description:underlyingError:
++ _objc_msgSend$hk_error:format:
++ _objc_msgSend$identifierWithPid:
++ _objc_msgSend$inTransaction
++ _objc_msgSend$initWithCapacity:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithEntryClassName:serializedEntryData:
++ _objc_msgSend$initWithHandle:
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$interestedBundleIDs
++ _objc_msgSend$interrupt
++ _objc_msgSend$isClosed
++ _objc_msgSend$isStatementActive:
++ _objc_msgSend$loadSortedJournalChaptersWithFileEnumerator:error:
++ _objc_msgSend$logActiveStatementsAsErrors
++ _objc_msgSend$maxAllowedOpenJournalChapterCount
++ _objc_msgSend$mostElevatedApplicationStateForPID:
++ _objc_msgSend$nextJournalChapterNameForURL:
++ _objc_msgSend$nextObject
++ _objc_msgSend$nextOpenJournalChapterError:
++ _objc_msgSend$openApplication:withOptions:completion:
++ _objc_msgSend$optionsWithDictionary:
++ _objc_msgSend$performWithDatabase:
++ _objc_msgSend$pid
++ _objc_msgSend$pointerValue
++ _objc_msgSend$prepareV2:nByte:statement:remainder:
++ _objc_msgSend$processDidEnterBackground:
++ _objc_msgSend$processDidEnterForeground:
++ _objc_msgSend$processIdentifierForApplicationIdentifier:
++ _objc_msgSend$processResumed:
++ _objc_msgSend$processSuspended:
++ _objc_msgSend$processTerminated:
++ _objc_msgSend$processWithBundleIdentifier:didTransitionFromState:toState:
++ _objc_msgSend$releaseMemory
++ _objc_msgSend$removeAllCachedResourceValues
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeWithError:
++ _objc_msgSend$resourceValuesForKeys:error:
++ _objc_msgSend$scanInteger:
++ _objc_msgSend$serviceWithDefaultShellEndpoint
++ _objc_msgSend$setAssertsEnabled:
++ _objc_msgSend$setCachedStatement:forKey:
++ _objc_msgSend$setCachedStatement:forSQL:
++ _objc_msgSend$setDb:
++ _objc_msgSend$setHandle:
++ _objc_msgSend$setHandler:
++ _objc_msgSend$setInTransaction:
++ _objc_msgSend$setStatementCache:
++ _objc_msgSend$setValuesWithDictionary:error:
++ _objc_msgSend$size
++ _objc_msgSend$stateForProcessIdentifier:
++ _objc_msgSend$statementCache
++ _objc_msgSend$step:
++ _objc_msgSend$tags
++ _objc_msgSend$uncachedActiveStatementCount
++ _objc_msgSend$underlyingErrors
++ _objc_msgSend$unitTestDelegate
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$updateInterestedBundleIDs:
++ _objc_msgSend$valueWithPointer:
++ _objc_msgSend$valuesForKeys:error:
++ _objc_release_x2
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x7
++ _sSQLiteZone
++ _sqlite3_config
++ _sqlite3_db_release_memory
++ _sqlite3_next_stmt
++ _swift_allocateGenericClassMetadata
++ _swift_bridgeObjectRelease_n
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_endAccess
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getDynamicType
++ _swift_getGenericMetadata
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_setDeallocating
++ _swift_unknownObjectRelease_n
++ _symbolic $s22HealthDaemonFoundation14SQLiteDatabaseP
++ _symbolic $s22HealthDaemonFoundation20JournalableOperationP
++ _symbolic $s22HealthDaemonFoundation31JournalableSQLDatabaseProvidingP
++ _symbolic $s22HealthDaemonFoundation34DerivableContextJournableOperationP
++ _symbolic 15ContextProvider_____Qz 22HealthDaemonFoundation34DerivableContextJournableOperationP
++ _symbolic 7Context_____Qz 22HealthDaemonFoundation20JournalableOperationP
++ _symbolic 7Context______0A8Provider_____QZ 22HealthDaemonFoundation20JournalableOperationP AA0D20SQLDatabaseProvidingP
++ _symbolic SDySS______pXpG 22HealthDaemonFoundation34DerivableContextJournableOperationP
++ _symbolic SSSg
++ _symbolic SaySSG_____SAySo7NSErrorCSgGSgSbIggyyd_ s13OpaquePointerV
++ _symbolic SaySSG_____Sb______pIggidzo_ 22HealthDaemonFoundation17SQLiteDatabaseRowV s5ErrorP
++ _symbolic Say______pGSiSbSAySo7NSErrorCSgGSg_____Iggyyyd_ So21HDJournalChapterEntryP So0A16ProcessingResultV
++ _symbolic Say______pXpG 22HealthDaemonFoundation34DerivableContextJournableOperationP
++ _symbolic So5NSURLC
++ _symbolic So8NSNumberCSg
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 22HealthDaemonFoundation11LoggerClass33_CCA13668C6DA1B96277FE8B758D7F9ECLLC
++ _symbolic _____ 22HealthDaemonFoundation15DatabaseJournalC
++ _symbolic _____ 22HealthDaemonFoundation22JournalableSQLDatabaseC
++ _symbolic _____ 22HealthDaemonFoundation22JournalableSQLDatabaseC5ErrorO
++ _symbolic _____ 22HealthDaemonFoundation26JournalableOperationResultO
++ _symbolic _____ 22HealthDaemonFoundation26JournalableOperationResultO10CodingKeys33_4652E788D115CF56C090A6E84245FE50LLO
++ _symbolic _____ 22HealthDaemonFoundation26JournalableOperationResultO19JournaledCodingKeys33_4652E788D115CF56C090A6E84245FE50LLO
++ _symbolic _____ 22HealthDaemonFoundation26JournalableOperationResultO19PerformedCodingKeys33_4652E788D115CF56C090A6E84245FE50LLO
++ _symbolic _____ 22HealthDaemonFoundation28DatabaseJournalConfigurationV
++ _symbolic _____ 22HealthDaemonFoundation31DatabaseJournalOperationWrapperC
++ _symbolic _____ 22HealthDaemonFoundation32UserDefaultsJournalKeyValueStoreC
++ _symbolic _____ So16NSURLResourceKeya
++ _symbolic _____ So25HDJournalProcessingResultV
++ _symbolic ______pSg So16HDJournalChapterP
++ _type_layout_string 22HealthDaemonFoundation28DatabaseJournalConfigurationV
++ _type_layout_string So16NSURLResourceKeya
+- +[HDSQLiteDatabase _copyContentsFromDatabase:toDatabase:]
+- +[HDSQLiteDatabase memoryDatabaseFromURL:]
+- +[HDSQLiteDatabase memoryDatabaseFromURL:].cold.1
+- +[HDSQLiteDatabase memoryDatabaseFromURL:].cold.2
+- +[HDSQLiteDatabase memoryDatabaseFromURL:].cold.3
+- +[HDTailSpin _isImprovedHealthAndActivityEnabled]
+- -[HDSQLiteDatabase _statementCache]
+- -[HDSQLiteDatabase _statementCache].cold.1
+- -[HDSQLiteDatabase _stepStatement:hasRow:error:].cold.2
+- -[HDSQLiteStatementCache _activateStatement:cached:]
+- -[HDSQLiteStatementCache _clearTransactionStorage]
+- -[HDSQLiteStatementCache _setCachedStatement:forKey:]
+- -[HDSQLiteStatementCache _setCachedStatement:forSQL:]
+- -[HDSQLiteStatementCache _statementStorage]
+- -[HDSQLiteStatementCache beginTransaction].cold.1
+- -[HDSQLiteStatementCache dealloc]
+- -[HDSQLiteStatementCache initWithDatabase:]
+- -[_HDSQLiteStatementCacheStorage .cxx_destruct]
+- -[_HDSQLiteStatementCacheStorage allStatementSQLStrings]
+- -[_HDSQLiteStatementCacheStorage clearStatements]
+- -[_HDSQLiteStatementCacheStorage dealloc]
+- -[_HDSQLiteStatementCacheStorage initWithParentStorage:]
+- -[_HDSQLiteStatementCacheStorage init]
+- -[_HDSQLiteStatementCacheStorage statementForSQL:]
+- GCC_except_table103
+- GCC_except_table109
+- GCC_except_table110
+- GCC_except_table113
+- GCC_except_table115
+- GCC_except_table127
+- GCC_except_table138
+- GCC_except_table140
+- GCC_except_table144
+- GCC_except_table145
+- GCC_except_table146
+- GCC_except_table153
+- GCC_except_table155
+- GCC_except_table158
+- GCC_except_table159
+- GCC_except_table169
+- GCC_except_table170
+- GCC_except_table185
+- GCC_except_table186
+- GCC_except_table205
+- GCC_except_table222
+- GCC_except_table223
+- GCC_except_table227
+- GCC_except_table235
+- GCC_except_table88
+- _OBJC_CLASS_$__HDSQLiteStatementCacheStorage
+- _OBJC_IVAR_$_HDSQLiteDatabase._db
+- _OBJC_IVAR_$_HDSQLiteDatabase._interruptionLock
+- _OBJC_IVAR_$_HDSQLiteStatementCache._activeStatements
+- _OBJC_IVAR_$_HDSQLiteStatementCache._db
+- _OBJC_IVAR_$_HDSQLiteStatementCache._defaultStatementStorage
+- _OBJC_IVAR_$_HDSQLiteStatementCache._inTransaction
+- _OBJC_IVAR_$_HDSQLiteStatementCache._transactionStatementStorage
+- _OBJC_IVAR_$_HDSQLiteStatementCache._uncachedActiveStatements
+- _OBJC_IVAR_$__HDSQLiteStatementCacheStorage._parentStorage
+- _OBJC_IVAR_$__HDSQLiteStatementCacheStorage._statementsByKey
+- _OBJC_IVAR_$__HDSQLiteStatementCacheStorage._statementsBySQL
+- _OBJC_METACLASS_$__HDSQLiteStatementCacheStorage
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- __OBJC_$_CLASS_METHODS_HDSQLiteDatabase
+- __OBJC_$_INSTANCE_METHODS__HDSQLiteStatementCacheStorage
+- __OBJC_$_INSTANCE_VARIABLES__HDSQLiteStatementCacheStorage
+- __OBJC_CLASS_RO_$__HDSQLiteStatementCacheStorage
+- __OBJC_METACLASS_RO_$__HDSQLiteStatementCacheStorage
+- __ZL17_ShouldProfileSQLPKc
+- __ZL17_SqliteEventTracejPvS_S_
+- __ZL23sqlite3_exec_busy_retryP7sqlite3PKcPFiPviPPcS5_ES3_S5_
+- __ZNKSt3__16__loopIcE13__init_repeatB9nqe210106ERNS_7__stateIcEE
+- __ZNKSt9type_infoeqB9nqe210106ERKS_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9nqe210106IS2_Li0EEEvPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9nqe210106IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9nqe210106IS2_Li0EEEPT_.cold.1
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B9nqe210106ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9nqe210106EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__112__destroy_atB9nqe210106INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__destroy_atB9nqe210106INS_7__stateIcEELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIS3_JRS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIS3_JS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN11HDSQLiteRow5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE25__emplace_unique_key_argsIS3_JS3_RiEEENS6_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPKciEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_iEEN23HDSQLiteStatementBinder5_HashENS9_11_ComparisonELb1EEENS_21__unordered_map_equalIS3_S8_SB_SA_Lb1EEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__112__hash_tableIPKcN23HDSQLiteStatementBinder5_HashENS3_11_ComparisonENS_9allocatorIS2_EEE25__emplace_unique_key_argsIS2_JRKS2_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106INS_11__wrap_iterIPcEES9_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPcS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9nqe210106ERKS2_cPNS_6__nodeIcEE
+- __ZNSt3__118__match_char_icaseIcNS_12regex_traitsIcEEEC2B9nqe210106ERKS2_cPNS_6__nodeIcEE.cold.1
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairIccEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairImPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_9sub_matchIPKcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPKcEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPNS_7__stateIcEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE11EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE12EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE14EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE15EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE16EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE17EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE1EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE2EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE3EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE4EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE5EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE6EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE7EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE8EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe210106ILNS_15regex_constants10error_typeE9EEEvv
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB9nqe210106Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB9nqe210106ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB9nqe210106Ecc
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB9nqe210106Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B9nqe210106ERKS2_PNS_6__nodeIcEEbbb
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorINS_7__stateIcEEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE25__maybe_remove_back_spareB9nqe210106Eb
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9nqe210106IJRKS6_EEEvDpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9nqe210106ERKS6_
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB9nqe210106EOS8_
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe210106IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9nqe210106IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE8__appendEm
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe210106IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB9nqe210106IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE8__appendEmRKS4_
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9nqe210106EOc
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB9nqe210106ERKc
+- __ZNSt3__1ssB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___63-[HDXPCPeriodicActivity _performCurrentActivityWithCompletion:]_block_invoke.352
+- ___64-[HDSQLiteDatabase performTransactionWithType:error:usingBlock:]_block_invoke.421
+- ___block_literal_global.348
+- ___block_literal_global.354
+- ___block_literal_global.438
+- ___block_literal_global.482
+- ___block_literal_global.566
+- ___block_literal_global.699
+- ___block_literal_global.702
+- ___swift_memcpy24_8
+- _block_copy_helper.12
+- _block_copy_helper.18
+- _block_copy_helper.22
+- _block_copy_helper.28
+- _block_copy_helper.29
+- _block_copy_helper.36
+- _block_copy_helper.4
+- _block_copy_helper.46
+- _block_copy_helper.50
+- _block_copy_helper.56
+- _block_copy_helper.58
+- _block_copy_helper.60
+- _block_copy_helper.66
+- _block_copy_helper.7
+- _block_copy_helper.71
+- _block_copy_helper.78
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.14
+- _block_descriptor.20
+- _block_descriptor.24
+- _block_descriptor.30
+- _block_descriptor.31
+- _block_descriptor.38
+- _block_descriptor.48
+- _block_descriptor.52
+- _block_descriptor.58
+- _block_descriptor.6
+- _block_descriptor.60
+- _block_descriptor.62
+- _block_descriptor.68
+- _block_descriptor.73
+- _block_descriptor.80
+- _block_descriptor.9
+- _block_destroy_helper.13
+- _block_destroy_helper.19
+- _block_destroy_helper.23
+- _block_destroy_helper.29
+- _block_destroy_helper.30
+- _block_destroy_helper.37
+- _block_destroy_helper.47
+- _block_destroy_helper.5
+- _block_destroy_helper.51
+- _block_destroy_helper.57
+- _block_destroy_helper.59
+- _block_destroy_helper.61
+- _block_destroy_helper.67
+- _block_destroy_helper.72
+- _block_destroy_helper.79
+- _block_destroy_helper.8
+- _block_destroy_helper.99
+- _objc_msgSend$_isImprovedHealthAndActivityEnabled
+- _objc_msgSend$clearCachedStatements
+- _objc_msgSend$shouldDefer
+- _objectdestroy.5Tm
+- _sqlite3_backup_finish
+- _sqlite3_backup_init
+- _sqlite3_backup_step
+- _sqlite3_db_handle
+- _sqlite3_open
+- _type_layout_string So20NSFileProtectionTypea
+CStrings:
++ "\n\t%@ (%@) %@"
++ " and maximum is "
++ " bytes: current size is "
++ "!"
++ "!self.inTransaction"
++ "%05ld.log"
++ "%@ Closing journal chapter at index 0. Current open count is %ld"
++ "%@ closing all open journal chapters"
++ "%@ for path:%@ loaded (%lu) journal chapter names with success:%{BOOL}d"
++ "%@ next journal chapter is %@"
++ "%@: Did open %ld journal chapters"
++ "%@: Will open %ld journal chapters"
++ "%{public}@: Current process identifier %{public}@ has FBS scene visibility endowment"
++ "%{public}@: Verifying FrontBoard visibility for %{public}@"
++ "-DatabaseJournal-"
++ "0 `"
++ "<%@:%p %@ %ld>"
++ "<null>"
++ "<unknown>"
++ "Abort"
++ "Attempted to run a journalable operation that is not registered with the journal."
++ "Attempting to close nil database"
++ "B24@?0^{HDSQLiteRow=}8^@16"
++ "BKSApplicationStateBackgroundRunning"
++ "BKSApplicationStateBackgroundTaskSuspended"
++ "BKSApplicationStateForegroundRunning"
++ "BKSApplicationStateTerminated"
++ "BKSApplicationStateUnknown"
++ "CREATE TABLE IF NOT EXISTS entries (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, os_build INTEGER NOT NULL REFERENCES unique_strings (ROWID) ON DELETE CASCADE, class_name INTEGER NOT NULL REFERENCES unique_strings (ROWID) ON DELETE CASCADE, size INTEGER NOT NULL, data BLOB NOT NULL)"
++ "CREATE TABLE IF NOT EXISTS key_value_store (key TEXT PRIMARY KEY, value BLOB NOT NULL, modification_date REAL NOT NULL)"
++ "CREATE TABLE IF NOT EXISTS unique_strings (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, string TEXT UNIQUE NOT NULL)"
++ "CSLExtendedRuntimeSession"
++ "Cannot append data because journal database is not open"
++ "Cannot append journal entry of "
++ "Cannot create and open %@ because it is already open"
++ "Cannot enumerate data because journal database is not open"
++ "Cannot get identifier for %@"
++ "Cannot open %@ because it is already open"
++ "Cannot remove %@ because it is still open"
++ "Client processes:"
++ "Context provider type mismatch"
++ "Continue"
++ "Created an application state monitor for bundle identifier %@."
++ "Creating new journal chapter %{public}s"
++ "Duplicate values for key: '"
++ "Encountered journal index %ld in %{public}@; dropping changes"
++ "Entry class %{public}s is not a DatabaseJournalOperationWrapper subclass"
++ "Enumerate %@ from anchor %lld"
++ "Error creating journal directory %{public}s: %@"
++ "Error enumerating journal chapter /'%@/'"
++ "Error enumerating journal chapter /'%@/': %@"
++ "Failed to apply journal entry: %{public}s"
++ "Failed to create an application state monitor for %@."
++ "Failed to decode operation of type %{public}s error: %{public}@"
++ "Failed to deserialize entry as DatabaseJournalOperationWrapper"
++ "Failed to enumerate URL during size computation: %{public}s (%{public}s)"
++ "Failed to flush data to %{public}s: %{public}s"
++ "Failed to load journal chapters"
++ "Failed to open journal chapter: %{public}s"
++ "Failed to register process missing a bundle identifier."
++ "Failed to remove journal chapter %{public}s: %{public}s"
++ "Failed to resolve class for entry class name: %{public}s"
++ "Failed to resolve class with pending entries for entry class name: %{public}s"
++ "Failed to retrieve file properties during size computation: %{public}s (%{public}s)"
++ "Failed to serialize journal entry"
++ "Failed to unregister process, empty bundle identifier."
++ "Fatal Error"
++ "Fatal error"
++ "Finalizing leaked statement: %s"
++ "Finished processing journal chapters"
++ "HDDatabaseJournalDatabase.m"
++ "HDSQLiteConnectionHandle dealloc: database still open"
++ "HDSQLiteConnectionHandle.m"
++ "HDSQLiteMallocZone: Failed to create malloc zone"
++ "HDSQLiteMallocZone: sqlite3_config failed with error %d (call before sqlite3_open)"
++ "HealthDaemon.SQLite"
++ "HealthDaemonFoundation.DatabaseJournalOperationWrapper"
++ "HealthDaemonFoundation.UserDefaultsJournalKeyValueStore"
++ "IDENTIFIER"
++ "INSERT INTO entries (os_build, class_name, size, data) VALUES (?, ?, ?, ?)"
++ "INSERT INTO unique_strings (string) VALUES (?)"
++ "INSERT OR IGNORE INTO key_value_store (key, value, modification_date) VALUES (?, ?, ?)"
++ "Invalid number of keys found, expected one."
++ "Journal database schema version '%ld' greater than current '%ld'"
++ "Journal enumeration failed: %{public}s"
++ "Missing default %@"
++ "No database identifier has been set"
++ "No journal chapter available for appending data"
++ "Process %@ (%d) state changed %{public}@ -> %{public}@: suspended %ld -> %ld, foreground %ld -> %ld, terminated %ld"
++ "Process %{public}@ is terminated but monitor reported pid %{public}d. Returning -1."
++ "Registering observer %@ for process state changes for %@"
++ "Retry"
++ "SELECT COUNT(*) FROM sqlite_master"
++ "SELECT MAX(ROWID) FROM entries"
++ "SELECT ROWID FROM unique_strings WHERE string = ?"
++ "SELECT entries.ROWID AS anchor, string, size, data FROM entries INNER JOIN unique_strings ON unique_strings.ROWID = entries.class_name WHERE anchor > ? ORDER BY anchor ASC"
++ "SELECT value, modification_date FROM key_value_store WHERE key = ?"
++ "SlowDatabaseReadTransaction"
++ "SlowDatabaseWriteTransaction"
++ "Swift/NativeDictionary.swift"
++ "Trying to open journal chapters without providing any to open"
++ "Unable to create journal name"
++ "Unable to derive context for operation"
++ "Unable to deserialize journal entry: %{public}s"
++ "Unable to read schema version"
++ "Unknown operation with identifier: %{public}s"
++ "Unregistering observer %@ for process state changes for %@"
++ "Updating application state observer for processes: %@"
++ "[self.handle isStatementActive:stmt]"
++ "_hasLoadedPersistedJournalNames"
++ "anchor"
++ "closed"
++ "com.apple.healthdaemonfoundation.error"
++ "db != NULL"
++ "journaldb.sqlite"
++ "key value "
++ "nil database"
++ "operationIdentifier"
++ "q24@?0@\"<HDJournalChapter>\"8@\"<HDJournalChapter>\"16"
++ "self.handle == nil || self.handle.isClosed"
++ "self.handle.activeStatementCount == 0"
++ "self.handle.uncachedActiveStatementCount == 0"
++ "self.inTransaction"
++ "sqlite-wal"
++ "sqlite3_busy_timeout: %d (%s)"
++ "sqlite3_clear_bindings: %d (%s)"
++ "sqlite3_close: %d (%s)"
++ "sqlite3_create_function_v2 '%s': %d (%s)"
++ "sqlite3_exec: %d (%s) SQL: %s"
++ "sqlite3_finalize: %d (%s)"
++ "sqlite3_prepare_v2: %d (%s) SQL: %s"
++ "sqlite3_reset: %d (%s)"
++ "sqlite3_trace_v2: %d (%s)"
++ "v16@?0@\"NSDictionary\"8"
++ "v16@?0^{sqlite3=}8"
++ "v24@?0@\"BSProcessHandle\"8@\"NSError\"16"
++ "\x81"
++ "\xc1"
+- "#16@0:8"
+- "#24@0:8@\"NSString\"16"
+- "#24@0:8@16"
+- ".cxx_destruct"
+- "@"
+- "@\"<HDBackgroundTaskCondition>\""
+- "@\"<HDContentProtectionObserver>\""
+- "@\"<HDDatabaseConnectionPoolDelegate>\""
+- "@\"<HDSQLiteDatabaseDelegate>\""
+- "@\"<HDSemaphore>\""
+- "@\"<HDSynchronousTaskGroupDelegate>\""
+- "@\"<HDXPCActivityShim>\""
+- "@\"<HDXPCListenerClientProvider>\""
+- "@\"<HDXPCListenerDelegate>\""
+- "@\"<NSObject>\""
+- "@\"<_HKXPCExportable>\"40@0:8@\"HDXPCListener\"16@\"HDXPCClient\"24^@32"
+- "@\"BGNonRepeatingSystemTaskRequest\""
+- "@\"BGSystemTask\""
+- "@\"BGSystemTask\"16@0:8"
+- "@\"BGSystemTaskScheduler\""
+- "@\"HDAssertionManager\""
+- "@\"HDCoalescedTaskPoolQuota\""
+- "@\"HDContentProtectionManager\""
+- "@\"HDPriorityQueue\""
+- "@\"HDSQLiteDatabase\""
+- "@\"HDSQLiteEntityForeignKey\""
+- "@\"HDSQLiteOrderingTerm\"24@0:8@\"NSSortDescriptor\"16"
+- "@\"HDSQLitePredicate\""
+- "@\"HDSQLiteQueryDescriptor\""
+- "@\"HDSQLiteStatementCache\""
+- "@\"HDXPCAlarmScheduler\""
+- "@\"HDXPCProcess\""
+- "@\"HKObserverSet\""
+- "@\"HKSynchronousObserverSet\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSCondition\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDate\"32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSError\""
+- "@\"NSHashTable\""
+- "@\"NSMapTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\"32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSObject<OS_xpc_event_publisher>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSObject<OS_xpc_object>\"24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "@\"NSSet\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSSet\"24@0:8@\"NSString\"16"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSString\"32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "@\"NSURL\""
+- "@\"NSUUID\""
+- "@\"NSUUID\"32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "@\"NSXPCConnection\""
+- "@\"NSXPCInterface\"16@0:8"
+- "@\"NSXPCListener\""
+- "@\"OS_dispatch_queue\""
+- "@\"OS_os_log\""
+- "@\"_HDSQLiteStatementCacheStorage\""
+- "@\"_HKBehavior\""
+- "@\"_HKEntitlements\""
+- "@\"_HKXPCAuditToken\""
+- "@\"_TtC22HealthDaemonFoundation33HDUserNotificationImageDefinition\""
+- "@\"_TtC22HealthDaemonFoundation49HDUserNotificationSystemApertureContentDefinition\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8#16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8^@16"
+- "@24@0:8^v16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8^{sqlite3=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"HDDatabaseConnectionPool\"16^@24"
+- "@32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16^@24"
+- "@32@0:8B16q20B28"
+- "@32@0:8Q16^@24"
+- "@32@0:8^{sqlite3_stmt=}16@24"
+- "@32@0:8r*16r*24"
+- "@36@0:8@16#24B32"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16@24C32"
+- "@40@0:8#16@24@32"
+- "@40@0:8#16@24q32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8@16q24@32"
+- "@40@0:8Q16Q24@32"
+- "@44@0:8#16@24q32B40"
+- "@44@0:8@16@24B32@36"
+- "@44@0:8@16@24C32@36"
+- "@44@0:8@16@24q32B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32@?40"
+- "@48@0:8@16@24@32^@40"
+- "@48@0:8@16@24@32q40"
+- "@48@0:8@16q24@32@40"
+- "@48@0:8q16@24@32@40"
+- "@52@0:8#16@24@32B40@44"
+- "@52@0:8B16@20@28^@36@?44"
+- "@56@0:8#16@24q32@40@48"
+- "@56@0:8@16#24@32@40@48"
+- "@56@0:8@16@24@32@40^@48"
+- "@56@0:8@16@24@32@?40@48"
+- "@56@0:8@16@24Q32@40@48"
+- "@56@0:8@16d24@32@40@?48"
+- "@56@0:8q16q24d32d40d48"
+- "@60@0:8#16@24@32@40B48@52"
+- "@60@0:8@16@24C32#36@44q52"
+- "@64@0:8@16#24@32@40@48@56"
+- "@64@0:8@16@24@32@40@48^@56"
+- "@?"
+- "@?16@0:8"
+- "AB"
+- "Ai"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B24@0:8d16"
+- "B24@0:8q16"
+- "B32@0:8@\"HDSQLiteDatabase\"16^@24"
+- "B32@0:8@\"NSString\"16@\"HDSQLiteDatabase\"24"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16@?24"
+- "B32@0:8@16^@24"
+- "B32@0:8^@16@?24"
+- "B32@0:8d16^@24"
+- "B32@0:8q16@\"NSObject<OS_xpc_object>\"24"
+- "B32@0:8q16@24"
+- "B40@0:8@\"NSArray\"16@\"HDSQLiteDatabase\"24@?<v@?@\"NSArray\"^v>32"
+- "B40@0:8@16@24@?32"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16^@24@?32"
+- "B40@0:8^@16@?24@?32"
+- "B40@0:8d16^@24@?32"
+- "B40@0:8q16@24^@32"
+- "B40@0:8q16^@24@?32"
+- "B48@0:8@\"NSArray\"16@\"HDSQLiteDatabase\"24^@32@?<v@?@\"NSArray\"^v>40"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16@24^@32@?40"
+- "B48@0:8@16^@24@?32@?40"
+- "B48@0:8^@16@?24@?32@?40"
+- "B48@0:8d16d24^@32@?40"
+- "B56@0:8@16@24@32@40^@48"
+- "B56@0:8@16@24@32^@40@?48"
+- "B56@0:8@16@24Q32^@40@?48"
+- "B56@0:8r*16^@24@?32@?40@?48"
+- "B88@0:8@16@24@32@40@48q56@64^@72@?80"
+- "C"
+- "C16@0:8"
+- "CFSetContainsValue(_activeStatements, stmt)"
+- "CFSetGetCount(_activeStatements) == 0"
+- "CFSetGetCount(_uncachedActiveStatements) == 0"
+- "Convenience"
+- "Could not backup database on file into in-memory store with result code : %d"
+- "Could not convert database to in-memory store. Unable to open in-memory database with result code : %d"
+- "HDAnalyticsWriter"
+- "HDAssertion"
+- "HDAssertionManager"
+- "HDAsynchronousTask"
+- "HDAsynchronousTaskTree"
+- "HDBackgroundSystemTask"
+- "HDCoalescedTaskPoolQuota"
+- "HDColumnCacheEntry"
+- "HDContentProtectionManager"
+- "HDDatabaseAssertionManager"
+- "HDDatabaseConfiguration"
+- "HDDatabaseConnectionPool"
+- "HDDatabaseConnectionPoolDelegate"
+- "HDDiagnosticManager"
+- "HDDiagnosticObject"
+- "HDDispatchSemaphore"
+- "HDFastPassBackgroundTask"
+- "HDOneShotBackgroundTask"
+- "HDPriorityQueue"
+- "HDPrioritySemaphore"
+- "HDRepeatingBackgroundTask"
+- "HDSQLiteCheckConstraint"
+- "HDSQLiteComparisonPredicate"
+- "HDSQLiteCompoundPredicate"
+- "HDSQLiteContainsPredicate"
+- "HDSQLiteDatabase"
+- "HDSQLiteDatabaseColumnSchema"
+- "HDSQLiteDatabaseIndexSchema"
+- "HDSQLiteDatabaseSchema"
+- "HDSQLiteDatabaseTableSchema"
+- "HDSQLiteDatabaseTriggerSchema"
+- "HDSQLiteEntityColumnDefinitionObject"
+- "HDSQLiteEntityForeignKey"
+- "HDSQLiteEntityIndex"
+- "HDSQLiteEntitySchema"
+- "HDSQLiteFalsePredicate"
+- "HDSQLiteJoinClause"
+- "HDSQLiteJoinPredicate"
+- "HDSQLiteNullPredicate"
+- "HDSQLiteOrderingTerm"
+- "HDSQLitePredicate"
+- "HDSQLitePropertyPredicate"
+- "HDSQLiteQuery"
+- "HDSQLiteQueryDescriptor"
+- "HDSQLiteRawCheckConstraint"
+- "HDSQLiteRawPredicate"
+- "HDSQLiteStatement"
+- "HDSQLiteStatementCache"
+- "HDSQLiteTrigger"
+- "HDSQLiteTruePredicate"
+- "HDSemaphore"
+- "HDSynchronousTaskGroup"
+- "HDTailSpin"
+- "HDUserNotification"
+- "HDXPCActivityShim"
+- "HDXPCAlarm"
+- "HDXPCAlarmEvent"
+- "HDXPCAlarmScheduler"
+- "HDXPCClient"
+- "HDXPCEventPublisher"
+- "HDXPCGatedActivity"
+- "HDXPCListener"
+- "HDXPCListenerDelegate"
+- "HDXPCProcess"
+- "HKDaemonConnectionServerInterface"
+- "HealthDaemonFoundation"
+- "HealthDaemonFoundation1"
+- "HealthOntologyDaemon"
+- "I16@0:8"
+- "Internal"
+- "NSCopying"
+- "NSObject"
+- "NSXPCListenerDelegate"
+- "Q"
+- "Q16@0:8"
+- "SQL"
+- "SQLCheckConstraint"
+- "SQLForEntityClass:"
+- "SQLJoinClause"
+- "SQLJoinClausesForEntityClass:"
+- "SQLiteQueryAdditions"
+- "T#,N,V_entityClass"
+- "T#,R"
+- "T#,R,N,V_entityClass"
+- "T#,R,N,V_targetEntityClass"
+- "T@\"<HDBackgroundTaskCondition>\",N,&,Vcondition"
+- "T@\"<HDDatabaseConnectionPoolDelegate>\",R,W,N,V_delegate"
+- "T@\"<HDSQLiteDatabaseDelegate>\",W,N,V_delegate"
+- "T@\"<HDSynchronousTaskGroupDelegate>\",W,V_delegate"
+- "T@\"<HDXPCListenerClientProvider>\",W,V_clientProvider"
+- "T@\"<HDXPCListenerDelegate>\",W,V_delegate"
+- "T@\"<NSObject>\",R,C,N,V_ifPropertyIsNullValue"
+- "T@\"BGNonRepeatingSystemTaskRequest\",N,R,VdefaultRequest"
+- "T@\"BGSystemTask\",N,&,V_currentTask"
+- "T@\"BGSystemTask\",N,R"
+- "T@\"BGSystemTask\",R,N"
+- "T@\"BGSystemTaskScheduler\",N,&,Vscheduler"
+- "T@\"HDCoalescedTaskPoolQuota\",C,N,V_quota"
+- "T@\"HDCoalescedTaskPoolQuota\",N,&,Vquota"
+- "T@\"HDContentProtectionManager\",&,N,V_contentProtectionManager"
+- "T@\"HDSQLiteDatabase\",R,N,V_database"
+- "T@\"HDSQLiteDatabase\",R,V_database"
+- "T@\"HDSQLiteEntityForeignKey\",R,N,V_foreignKey"
+- "T@\"HDSQLitePredicate\",C,N,V_predicate"
+- "T@\"HDSQLiteQueryDescriptor\",R"
+- "T@\"HDSQLiteQueryDescriptor\",R,C,N,V_subqueryDescriptor"
+- "T@\"HDSQLiteStatementCache\",R,N,V_statementCache"
+- "T@\"HDXPCAlarmScheduler\",R,N,V_scheduler"
+- "T@\"HDXPCProcess\",R,V_process"
+- "T@\"NSArray\",&,N,V_columns"
+- "T@\"NSArray\",C,N,V_orderingTerms"
+- "T@\"NSArray\",C,N,V_preferredEntityJoinOrder"
+- "T@\"NSArray\",R,C"
+- "T@\"NSArray\",R,C,N,V_properties"
+- "T@\"NSArray\",R,C,N,V_subqueryProperties"
+- "T@\"NSArray\",R,C,N,V_values"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_columns"
+- "T@\"NSArray\",R,N,V_predicates"
+- "T@\"NSCondition\",R,N,V_condition"
+- "T@\"NSDate\",&,N,V_requestedDate"
+- "T@\"NSDate\",R,C,N"
+- "T@\"NSDate\",R,C,N,V_fireDate"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",&,N,V_columns"
+- "T@\"NSDictionary\",&,N,V_tables"
+- "T@\"NSDictionary\",C,N,V_additionalDescriptors"
+- "T@\"NSDictionary\",R,N,V_collationColumnMapping"
+- "T@\"NSError\",R,C,N,V_corruptionError"
+- "T@\"NSNumber\",R,C,N"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_budgetTimerQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_eventHandlerQueue"
+- "T@\"NSObject<OS_os_log>\",R,N,V_loggingCategory"
+- "T@\"NSObject<OS_xpc_object>\",&,V_currentActivity"
+- "T@\"NSObject<OS_xpc_object>\",C"
+- "T@\"NSObject<OS_xpc_object>\",R"
+- "T@\"NSObject<OS_xpc_object>\",R,C"
+- "T@\"NSSet\",&,N,V_indices"
+- "T@\"NSSet\",&,N,V_triggers"
+- "T@\"NSSet\",R,C,N"
+- "T@\"NSSet\",R,C,N,V_joinClauses"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_cancelButton"
+- "T@\"NSString\",C,N,V_createTableSchema"
+- "T@\"NSString\",C,N,V_defaultButton"
+- "T@\"NSString\",C,N,V_defaultValue"
+- "T@\"NSString\",C,N,V_fileProtectionType"
+- "T@\"NSString\",C,N,V_foreignKeyTargetColumn"
+- "T@\"NSString\",C,N,V_foreignKeyTargetTable"
+- "T@\"NSString\",C,N,V_groupBy"
+- "T@\"NSString\",C,N,V_message"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_otherButton"
+- "T@\"NSString\",C,N,V_sql"
+- "T@\"NSString\",C,N,V_tableName"
+- "T@\"NSString\",C,N,V_title"
+- "T@\"NSString\",C,N,V_type"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_additionalPredicate"
+- "T@\"NSString\",R,C,N,V_assertionIdentifier"
+- "T@\"NSString\",R,C,N,V_bundleIdentifier"
+- "T@\"NSString\",R,C,N,V_columnType"
+- "T@\"NSString\",R,C,N,V_containerAppBundleIdentifier"
+- "T@\"NSString\",R,C,N,V_eventName"
+- "T@\"NSString\",R,C,N,V_expression"
+- "T@\"NSString\",R,C,N,V_groupDescription"
+- "T@\"NSString\",R,C,N,V_localReferenceProperty"
+- "T@\"NSString\",R,C,N,V_localTable"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@\"NSString\",R,C,N,V_ownerIdentifier"
+- "T@\"NSString\",R,C,N,V_predicateString"
+- "T@\"NSString\",R,C,N,V_property"
+- "T@\"NSString\",R,C,N,V_targetKeyProperty"
+- "T@\"NSString\",R,C,N,V_triggerString"
+- "T@\"NSString\",R,C,V_label"
+- "T@\"NSString\",R,C,V_lastSQLStatement"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_columnType"
+- "T@\"NSString\",R,N,V_debugIdentifier"
+- "T@\"NSString\",R,N,V_escapeCharacter"
+- "T@\"NSString\",R,N,V_name"
+- "T@\"NSString\",R,N,V_property"
+- "T@\"NSURL\",R,C,N,V_fileURL"
+- "T@\"NSUUID\",R,C,N,V_UUID"
+- "T@\"NSXPCConnection\",R,V_connection"
+- "T@\"NSXPCListenerEndpoint\",R"
+- "T@\"OS_dispatch_queue\",N,&,VdispatchQueue"
+- "T@\"OS_os_log\",N,R,VloggingCategory"
+- "T@\"_HKBehavior\",R,N,V_behavior"
+- "T@\"_HKEntitlements\",R,N,V_entitlements"
+- "T@\"_HKXPCAuditToken\",R,C,N,V_auditToken"
+- "T@\"_TtC22HealthDaemonFoundation33HDUserNotificationImageDefinition\",N,R,VimageDefinition"
+- "T@\"_TtC22HealthDaemonFoundation49HDUserNotificationSystemApertureContentDefinition\",C,N,V_contentDefinition"
+- "T@,R,N,V_value"
+- "T@?,C,N,V_eventHandler"
+- "T@?,C,N,V_responseHandler"
+- "T@?,C,N,V_unitTest_schedulerObserver"
+- "T@?,C,V_didFinish"
+- "T@?,N,C"
+- "TB"
+- "TB,N"
+- "TB,N,GisWriter,V_writer"
+- "TB,N,R"
+- "TB,N,R,VpreventAutomaticDismissal"
+- "TB,N,V_checkpointRequired"
+- "TB,N,V_encounteredOutOfSpace"
+- "TB,N,V_isAutoincrement"
+- "TB,N,V_isNullable"
+- "TB,N,V_isPrimaryKey"
+- "TB,N,V_isUnique"
+- "TB,N,V_permitWritesInReadTransaction"
+- "TB,N,V_returnsDistinctEntities"
+- "TB,N,V_shouldDefer"
+- "TB,N,V_shouldExpandLastSQLStatement"
+- "TB,N,V_signaled"
+- "TB,N,VrescheduleWhileRunning"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisOpen"
+- "TB,R,N,GisUnique,V_unique"
+- "TB,R,N,V_ascending"
+- "TB,R,N,V_contains"
+- "TB,R,N,V_isDeferred"
+- "TB,R,N,V_isExtension"
+- "TB,R,N,V_isUserVisible"
+- "TB,R,N,V_matchesNull"
+- "TB,V_rescheduleWhileInProgress"
+- "TC,R,N,V_keyPathType"
+- "TI,N,R"
+- "TQ,N,R"
+- "TQ,N,V_expirationReason"
+- "TQ,N,V_userNotificationOptions"
+- "TQ,R"
+- "TQ,R,N,V_concurrentReaderLimit"
+- "TQ,R,N,V_count"
+- "Td,N,V_budget"
+- "Td,N,VminimumRetryInterval"
+- "Td,R"
+- "Td,R,N"
+- "Td,R,N,V_baseInterval"
+- "Td,R,N,V_lastTrigger"
+- "Td,R,N,V_minimumInterval"
+- "Td,R,N,V_quotaRefillInterval"
+- "Ti,R"
+- "Ti,R,N"
+- "Tq,N,R"
+- "Tq,N,V_alertLevel"
+- "Tq,N,V_cacheScope"
+- "Tq,N,V_contextType"
+- "Tq,N,V_deletionAction"
+- "Tq,N,V_limitCount"
+- "Tq,N,V_priority"
+- "Tq,R"
+- "Tq,R,N"
+- "Tq,R,N,V_comparisonType"
+- "Tq,R,N,V_deletionAction"
+- "Tq,R,N,V_event"
+- "Tq,R,N,V_faultCount"
+- "Tq,R,N,V_joinType"
+- "Tq,R,N,V_maximumQuota"
+- "Tq,R,N,V_persistentID"
+- "Tr^{?=@@C},R,N,V_columnDefinitions"
+- "URLByAppendingPathComponent:"
+- "URLForAnalyticsFileWithName:"
+- "UTF8String"
+- "UUID"
+- "UUIDForProperty:database:"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_AKSEvent=}"
+- "^{_NSZone=}16@0:8"
+- "^{__CFDictionary=}"
+- "^{__CFSet=}"
+- "^{__CFUserNotification=}"
+- "^{__CFUserNotification=}16@0:8"
+- "^{__SecCertificate=}"
+- "^{sqlite3=}"
+- "^{sqlite3_stmt=}36@0:8@16B24^@28"
+- "^{sqlite3_stmt=}40@0:8r*16@?24^@32"
+- "_HDAssertionRecord"
+- "_HDContentProtectionObserverWrapper"
+- "_HDDatabaseConnectionWrapper"
+- "_HDSQLiteComparisonPredicateCoalesce"
+- "_HDSQLiteComparisonPredicateIfNull"
+- "_HDSQLiteComparisonPredicateLikeWithEscape"
+- "_HDSQLiteComparisonPredicateSubquery"
+- "_HDSQLiteEntityColumn"
+- "_HDSQLiteStatementCacheStorage"
+- "_HDSQLiteTwoPropertyComparisonPredicate"
+- "_HDSemaphoreTab"
+- "_HKXPCExportable"
+- "_SQLForDeleteWithError:"
+- "_SQLForSelectWithProperties:columns:"
+- "_TtC22HealthDaemonFoundation17DaemonXPCListener"
+- "_TtC22HealthDaemonFoundation22DaemonConnectionServer"
+- "_TtC22HealthDaemonFoundation23DefaultDaemonXPCService"
+- "_TtC22HealthDaemonFoundation24SQLiteDatabaseConnection"
+- "_TtC22HealthDaemonFoundation25SQLiteDatabaseTransaction"
+- "_TtC22HealthDaemonFoundation26DaemonXPCConnectionManager"
+- "_TtC22HealthDaemonFoundation31SQLiteDatabaseConnectionManager"
+- "_TtC22HealthDaemonFoundation33HDUserNotificationImageDefinition"
+- "_TtC22HealthDaemonFoundation49HDUserNotificationSystemApertureContentDefinition"
+- "_TtC22HealthDaemonFoundationP33_640F4B206D084A15AE8A13EC231BB2EA11LoggerClass"
+- "_TtCC22HealthDaemonFoundation31SQLiteDatabaseConnectionManagerP33_B2576AEC8BE9BB02E063715B6C40AF0F30DatabaseConnectionPoolDelegate"
+- "_UUID"
+- "__swift_objectForKeyedSubscript:"
+- "__swift_setObject:forKeyedSubscript:"
+- "_activeStatements"
+- "_activeThreadCount"
+- "_activeThreadLimit"
+- "_activityFinishedWithResult:error:"
+- "_activityShim"
+- "_additionalDescriptors"
+- "_additionalPredicate"
+- "_aksEvent"
+- "_alarms"
+- "_alertLevel"
+- "_analyticsDirectory"
+- "_ascending"
+- "_assertNoActiveStatements"
+- "_assertionIdentifier"
+- "_assertionRecordsByIdentifier"
+- "_assertions"
+- "_auditToken"
+- "_availableQuotaAfterLastTrigger"
+- "_baseInterval"
+- "_beforeCommitBlocks"
+- "_beganObservingTime"
+- "_behavior"
+- "_budget"
+- "_budgetConsumptionTimer"
+- "_budgetIntervalStartTime"
+- "_budgetTimerQueue"
+- "_bundleIdentifier"
+- "_cache"
+- "_cacheCondition"
+- "_cacheGeneration"
+- "_cacheScope"
+- "_cacheSize"
+- "_cachedColumnDefinitionsWithCount:"
+- "_cancelButton"
+- "_canceled"
+- "_carrayStorage"
+- "_certificate"
+- "_checkoutLock"
+- "_checkoutMap"
+- "_checkpointHandler"
+- "_checkpointRequired"
+- "_clientProvider"
+- "_collationColumnMapping"
+- "_columnDefinitionObjects"
+- "_columnDefinitions"
+- "_columnType"
+- "_columns"
+- "_combinationOperation"
+- "_comparisonBlock"
+- "_comparisonType"
+- "_concurrentReaderLimit"
+- "_condition"
+- "_conditionsChanged"
+- "_connection"
+- "_connectionQueue"
+- "_consumeBudgets"
+- "_consumeFromBudgetThroughTime:"
+- "_containerAppBundleIdentifier"
+- "_contains"
+- "_contentDefinition"
+- "_contentProtectionManager"
+- "_contentProtectionState"
+- "_contextType"
+- "_coreOSAssertionTaken"
+- "_corruptionError"
+- "_count"
+- "_createTableSchema"
+- "_criteria"
+- "_currentActivity"
+- "_currentTask"
+- "_dBFilesForCoreOSAssertion"
+- "_database"
+- "_db"
+- "_db != NULL"
+- "_db == NULL"
+- "_debugIdentifier"
+- "_defaultButton"
+- "_defaultStatementStorage"
+- "_defaultValue"
+- "_default_task_queue"
+- "_delegate"
+- "_deletionAction"
+- "_descriptor"
+- "_diagnosticsForKeys:shouldLog:"
+- "_diagnosticsOverview"
+- "_didFinish"
+- "_directoryPath"
+- "_droppedEntitlements"
+- "_emptyTabCache"
+- "_encounteredOutOfSpace"
+- "_entitlements"
+- "_entityClass"
+- "_errors"
+- "_escapeCharacter"
+- "_event"
+- "_eventHandler"
+- "_eventHandlerQueue"
+- "_eventName"
+- "_eventWithName:"
+- "_executeStatementWithError:statementProvider:bindingHandler:enumerationHandler:"
+- "_executeUncachedSQL:error:retryIfBusy:interruptible:"
+- "_expirationReason"
+- "_exportedObjectsByClient"
+- "_expression"
+- "_faultCount"
+- "_fileProtectionType"
+- "_fileURL"
+- "_fireDate"
+- "_flushGroup"
+- "_foreignKey"
+- "_foreignKeyTargetColumn"
+- "_foreignKeyTargetTable"
+- "_generation"
+- "_groupBy"
+- "_groupDescription"
+- "_handleAssertionReleased:"
+- "_handleConnectionInvalidationForClient:exportedObject:"
+- "_handleInterruptionWithClient:exportedObject:"
+- "_handleInvalidationWithClient:exportedObject:"
+- "_handleResponse:"
+- "_handleXPCActivityCallback:"
+- "_handler"
+- "_hasTimeout"
+- "_heap"
+- "_ifPropertyIsNullValue"
+- "_inProgress"
+- "_inTransaction"
+- "_inTransaction == NO"
+- "_indices"
+- "_influenceIndexUsage"
+- "_init"
+- "_initWithConnection:process:"
+- "_initWithJoinType:fromTable:toTargetEntity:as:localReference:targetKey:additionalPredicate:"
+- "_interruptionLock"
+- "_invalidateAndRelease:"
+- "_invalidated"
+- "_isAutoincrement"
+- "_isDeferred"
+- "_isExtension"
+- "_isHandlingTransactionBeforeCommit"
+- "_isHandlingTransactionEnd"
+- "_isHighCount"
+- "_isImprovedHealthAndActivityEnabled"
+- "_isNullable"
+- "_isPrimaryKey"
+- "_isSession"
+- "_isUnique"
+- "_isUserVisible"
+- "_joinAsName"
+- "_joinClauseForProperties:"
+- "_joinClauses"
+- "_joinType"
+- "_keyPathType"
+- "_label"
+- "_lastNotificationTime"
+- "_lastRecheckTime"
+- "_lastSQLStatement"
+- "_lastTrigger"
+- "_limitCount"
+- "_localReferenceProperty"
+- "_localTable"
+- "_lock"
+- "_lock_beginNextTask"
+- "_lock_cloneWithOwnerIdentifier:"
+- "_lock_completion"
+- "_lock_consumeBudgetThroughTime:error:"
+- "_lock_description"
+- "_lock_finished"
+- "_lock_pendingSubtasks"
+- "_lock_pendingTasks"
+- "_lock_remainingBudget"
+- "_lock_resetNextActivityFireDate"
+- "_lock_setBudget:error:"
+- "_lock_setBudgetIntervalStartTime:"
+- "_lock_setNextScheduledFireDeadline:"
+- "_lock_started"
+- "_lock_state"
+- "_lock_taskErrors"
+- "_logger"
+- "_loggingCategory"
+- "_manager"
+- "_matchesNull"
+- "_maximumQuota"
+- "_message"
+- "_minimumInterval"
+- "_name"
+- "_nextCompletions"
+- "_nextFireTime"
+- "_nextScheduledFireDeadline"
+- "_notification"
+- "_notificationQueue"
+- "_notifyToken"
+- "_objects"
+- "_observationQueue"
+- "_observer"
+- "_observerSetsByAssertionIdentifier"
+- "_observers"
+- "_onCommitBlocks"
+- "_onRollbackBlocks"
+- "_options"
+- "_orderingTerms"
+- "_otherButton"
+- "_ownerIdentifier"
+- "_parentStorage"
+- "_pendingCompletions"
+- "_pendingEvents"
+- "_pendingQueue"
+- "_pendingSubscribers"
+- "_performActivity:completion:"
+- "_performCurrentActivityWithCompletion:"
+- "_permitWritesInReadTransaction"
+- "_persistentID"
+- "_pluginBundleForCurrentProcess"
+- "_predicate"
+- "_predicateString"
+- "_predicates"
+- "_preferredEntityJoinOrder"
+- "_prefix"
+- "_prepareStatementForSQL:error:"
+- "_priority"
+- "_process"
+- "_properties"
+- "_property"
+- "_publisher"
+- "_queue"
+- "_queue_handleEvent:"
+- "_queue_handleXPCEvent:"
+- "_queue_notifyAlarmsOfPendingEvents"
+- "_queue_scheduleEvent:"
+- "_queue_unscheduleEventWithName:"
+- "_quota"
+- "_quotaRefillInterval"
+- "_rawSQL"
+- "_readerSemaphore"
+- "_registerActivityWithCriteria:"
+- "_registerActivityWithCriteria:delay:gracePeriod:"
+- "_registered"
+- "_rejectAddTask"
+- "_releaseAssertion:"
+- "_remainingBudget"
+- "_requestedDate"
+- "_requireInitialSignal"
+- "_requiredEntitlement"
+- "_requiresRollback"
+- "_rescheduleWhileInProgress"
+- "_responseHandler"
+- "_returnsDistinctEntities"
+- "_runRequestWithMaximumDelay:requiredDelay:completion:"
+- "_scheduler"
+- "_schemaForTableWithName:database:error:"
+- "_semaphore"
+- "_setBudgetIntervalStartTime:"
+- "_setQueue:"
+- "_shouldDefer"
+- "_shouldExpandLastSQLStatement"
+- "_shouldIgnoreUnlockedState"
+- "_signaled"
+- "_signpost"
+- "_sortedJoinClauses:preferredOrder:baseTables:"
+- "_sql"
+- "_state"
+- "_statementCache"
+- "_statementsByKey"
+- "_statementsBySQL"
+- "_subqueryDescriptor"
+- "_subqueryProperties"
+- "_subscribers"
+- "_success"
+- "_swiftColumnDefinitions"
+- "_synchronousObservers"
+- "_tableName"
+- "_tables"
+- "_takeWithManager:"
+- "_targetEntityClass"
+- "_targetKeyProperty"
+- "_taskCount"
+- "_threadID"
+- "_timeout"
+- "_timer"
+- "_title"
+- "_transactionInterruptRequested"
+- "_transactionStatementStorage"
+- "_transactionType"
+- "_triggerString"
+- "_triggers"
+- "_trueIfNoPredicates"
+- "_type"
+- "_unary"
+- "_uncachedActiveStatements"
+- "_underlyingListener"
+- "_unique"
+- "_unit"
+- "_unitTest_schedulerObserver"
+- "_unlockedSinceBoot"
+- "_userNotificationOptions"
+- "_value"
+- "_values"
+- "_waitCount"
+- "_writer"
+- "_writerSemaphore"
+- "accessDatabaseUsingBlock:"
+- "activeAssertionsForIdentifier:"
+- "activeDatabaseConnectionsLock"
+- "addAlarm:"
+- "addCheckpointTask:"
+- "addCheckpointTaskOnQueue:task:"
+- "addContentProtectionObserver:withQueue:"
+- "addEntriesFromDictionary:"
+- "addExpirationHandler:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:forAssertionIdentifier:queue:"
+- "addSynchronousContentProtectionObserver:"
+- "addTask:"
+- "addTaskOnQueue:task:"
+- "addTaskOnQueue:timeout:task:"
+- "addTaskWithTimeout:task:"
+- "additionalDescriptors"
+- "additionalPredicate"
+- "additionalPredicateForEnumeration"
+- "aggregateSingleValueForProperty:function:predicate:database:error:"
+- "aggregateSingleValueForProperty:function:queryDescriptor:database:error:"
+- "aggregateValuesForProperty:functions:predicate:groupBy:database:error:"
+- "aggregateValuesForProperty:functions:queryDescriptor:database:error:"
+- "alertLevel"
+- "allAssertionsForIdentifier:"
+- "allClients"
+- "allDatabaseColumnNames"
+- "allErrors"
+- "allKeys"
+- "allObjects"
+- "allObservers"
+- "allStatmentSQLStrings"
+- "allValues"
+- "allocWithZone:"
+- "analyticsFilePathsWithError:"
+- "anonymousListener"
+- "anyInDatabase:predicate:error:"
+- "anyObject"
+- "appendData:error:"
+- "appendFormat:"
+- "appendString:"
+- "applicationIdentifier"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "assertionIdentifier"
+- "assertionManager:assertionInvalidated:"
+- "assertionManager:assertionTaken:"
+- "auditToken"
+- "auditTokenForCurrentTask"
+- "autorelease"
+- "availableQuota"
+- "baseInterval"
+- "beforeCommit:"
+- "begin"
+- "beginReceivingEventsWithHandler:"
+- "beginTask"
+- "beginTransaction"
+- "behavior"
+- "bindToDeleteStatement:bindingIndex:"
+- "bindToSelectStatement:bindingIndex:"
+- "bindToStatement:bindingIndex:"
+- "boolValue"
+- "booleanForProperty:database:"
+- "booleanPredicateWithValue:"
+- "broadcast"
+- "broadcastEvent:"
+- "budgetTimerQueue"
+- "build"
+- "bundleIdentifier"
+- "bundleWithURL:"
+- "bytes"
+- "cStringUsingEncoding:"
+- "cacheScope"
+- "cacheSize"
+- "callStackSymbols"
+- "cancelButton"
+- "cancelRequestAndReturnError:"
+- "cancelTaskRequestWithIdentifier:error:"
+- "checkConstraintWithSQL:"
+- "checkConstraints"
+- "checkInConnection:flushImmediately:"
+- "checkInStatement:"
+- "checkOutCachedStatementForKey:SQLGenerator:error:"
+- "checkOutConnectionWithOptions:error:"
+- "checkOutStatementForSQL:shouldCache:error:"
+- "checkedOutDatabaseCount"
+- "checkpointRequired"
+- "class"
+- "clearCachedStatements"
+- "clientForListener:connection:error:"
+- "clientProvider"
+- "clientWithConnection:error:"
+- "cloneWithOwnerIdentifier:"
+- "close"
+- "code"
+- "collationColumnMapping"
+- "columnDefinitions"
+- "columnDefinitionsWithCount:"
+- "columnIsNullable:inTable:error:"
+- "columnType"
+- "columns"
+- "compare:"
+- "comparisonType"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "compoundPredicateWithPredicate:otherPredicate:"
+- "compoundPredicateWithPredicate:otherPredicate:otherPredicate:"
+- "concurrentReaderLimit"
+- "condition"
+- "conformsToProtocol:"
+- "connection"
+- "connectionConfigured"
+- "connectionConfiguredForListener:client:exportedObject:"
+- "connectionInterrupted"
+- "connectionInvalidated"
+- "connectionInvalidatedForListener:client:exportedObject:"
+- "consumeQuota"
+- "containerAppBundleIdentifier"
+- "contains"
+- "containsObject:"
+- "containsPredicateWithProperty:values:"
+- "containsString:"
+- "contentDefinition"
+- "contentProtectionManager"
+- "contentProtectionStateChanged:previousState:"
+- "contentsOfDirectoryAtPath:error:"
+- "contextType"
+- "copy"
+- "copyWithJoinType:"
+- "copyWithZone:"
+- "corruptionError"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countDistinctForProperty:predicate:database:error:"
+- "countValueForProperty:predicate:database:error:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createTableSQL"
+- "createTableSchema"
+- "creationSQL"
+- "criteria"
+- "currentActivity"
+- "currentCriteria"
+- "currentDeviceProductType"
+- "currentDeviceSupportsDynamicIsland"
+- "currentDiskSpaceAvailable"
+- "currentFlushGroup"
+- "currentHandler"
+- "currentInternalDeviceModel"
+- "currentOSBuild"
+- "currentOSVersion"
+- "currentProcess"
+- "currentTask"
+- "currentThread"
+- "d"
+- "d16@0:8"
+- "dataWithContentsOfURL:"
+- "dataWithJSONObject:options:error:"
+- "dataWithLength:"
+- "database"
+- "databaseConnection"
+- "databaseConnectionManager"
+- "databaseConnectionPool"
+- "databaseConnectionPoolDelegate"
+- "databaseName"
+- "databasePerfTrace"
+- "databasePool:didFlushConnections:"
+- "databasePrioritySemaphore"
+- "databaseSemaphoreLogging"
+- "databaseTable"
+- "date"
+- "dateForProperty:database:"
+- "dateWithTimeIntervalSinceNow:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "dealloc"
+- "debugDescription"
+- "debugIdentifier"
+- "defaultButton"
+- "defaultCenter"
+- "defaultManager"
+- "defaultRequest"
+- "defaultValue"
+- "definitionProvider"
+- "definitionWithColorName:"
+- "definitionWithSystemImageName:tintColorDefinition:"
+- "delegate"
+- "deleteAllEntitiesWithError:"
+- "deleteEntitiesInDatabase:predicate:error:"
+- "deleteFromDatabase:error:"
+- "deleteStatementWithProperty:database:"
+- "deletionAction"
+- "deregisterTaskWithIdentifier:"
+- "description"
+- "deviceUnlockedSinceBoot"
+- "diagnosticDescription"
+- "diagnosticsForKeys:"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "didFinish"
+- "didPerformActivityWithResult:minimumRetryInterval:activityStartDate:error:"
+- "disambiguatedDatabaseTable"
+- "disambiguatedName"
+- "disambiguatedSQLForProperty:"
+- "disjunctionWithPredicate:otherPredicate:"
+- "dispatchQueue"
+- "distinctProperty:predicate:database:error:"
+- "doesNotContainPredicateWithProperty:values:"
+- "domain"
+- "doubleForKey:"
+- "doubleValue"
+- "doubleValueForUnit:"
+- "dropEntitlement:"
+- "dumpSchemaWithError:"
+- "earliestRunDate"
+- "enableIncrementalAutovacuumForDatabaseWithName:error:"
+- "encounteredOutOfSpace"
+- "endTransaction"
+- "endpoint"
+- "entitlements"
+- "entitlementsForCurrentTaskWithError:"
+- "entitlementsWithConnection:error:"
+- "entitlementsWithDictionary:"
+- "entityClass"
+- "entityClassForEnumeration"
+- "entityForProperty:"
+- "entityWithPersistentID:"
+- "enumerateColumnsWithBlock:"
+- "enumerateEntitiesInDatabase:predicate:error:enumerationHandler:"
+- "enumerateObjectsUsingBlock:"
+- "enumeratePersistentIDsAndProperties:error:enumerationHandler:"
+- "enumerateProperties:error:enumerationHandler:"
+- "enumerateQueryResultsFromColumns:properties:predicate:groupBy:orderingTerms:limit:database:error:enumerationHandler:"
+- "enumerateStatementWithError:bindingHandler:block:"
+- "enumerateSubstringsInRange:options:usingBlock:"
+- "enumeratorAtPath:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "errorCount"
+- "errorWithDomain:code:userInfo:"
+- "escapeCharacter"
+- "event"
+- "eventDidFire:"
+- "eventHandlerQueue"
+- "eventName"
+- "executeCachedStatementForKey:error:SQLGenerator:bindingHandler:enumerationHandler:"
+- "executeSQL:error:bindingHandler:enumerationHandler:"
+- "executeSQLStatements:error:"
+- "executeUncachedSQL:error:"
+- "executeUncachedSQL:error:bindingHandler:enumerationHandler:"
+- "existsInDatabase:"
+- "expirationReason"
+- "exportObjectForListener:client:error:"
+- "exportedInterface"
+- "expression"
+- "externalConditionsChanged"
+- "failTaskWithError:"
+- "falsePredicate"
+- "faultCount"
+- "features"
+- "fileAttributes"
+- "fileExistsAtPath:isDirectory:"
+- "fileProtectionType"
+- "fileSystemRepresentation"
+- "fileURL"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "finalizeWithError:"
+- "finish"
+- "finishTask"
+- "fireDate"
+- "firstInDatabase:predicate:orderingTerms:error:"
+- "firstObject"
+- "flush"
+- "foreignKey"
+- "foreignKeyExistsFromTable:column:toTable:column:error:"
+- "foreignKeyTargetColumn"
+- "foreignKeyTargetTable"
+- "foreignKeys"
+- "generateTailSpinForTeam:category:description:logger:"
+- "getChangesCount"
+- "getLastErrorWithStatement:context:"
+- "getRequest"
+- "getUUIDBytes:"
+- "getValuesForProperties:database:error:handler:"
+- "getValuesForProperties:database:handler:"
+- "groupBy"
+- "groupDescription"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "handler"
+- "hasActiveAssertion:"
+- "hasActiveAssertionForIdentifier:"
+- "hasActiveOrPendingAssertions"
+- "hasArrayEntitlement:containing:"
+- "hasColumnWithName:"
+- "hasEntitlement:"
+- "hasPrefix:"
+- "hasROWID"
+- "hasRequiredArrayEntitlement:containing:error:"
+- "hasRequiredEntitlement:error:"
+- "hash"
+- "hd_dictionaryFromXPCObject:"
+- "hd_failingSQLStatement"
+- "hd_isConstraintViolation"
+- "hd_isDatabaseCorruptionError"
+- "hd_isNotADatabaseError"
+- "hd_sqliteExtendedErrorCode"
+- "hk_UUIDWithData:"
+- "hk_appExtensionContainerBundleForConnection:"
+- "hk_appendComponentsJoinedByString:container:componentGenerator:"
+- "hk_assignError:code:description:"
+- "hk_assignError:code:format:"
+- "hk_dataForUUIDBytes"
+- "hk_enumerateDirectoryAtURL:includingPropertiesForKeys:options:error:handler:"
+- "hk_error:description:"
+- "hk_error:description:underlyingError:"
+- "hk_errorForInvalidArgument:class:selector:format:"
+- "hk_extensionPointIdentifier"
+- "hk_isAppExtension"
+- "hk_isBeforeDate:"
+- "hk_isErrorInDomain:code:"
+- "hk_isHealthKitError"
+- "hk_isTransactionInterruptedError"
+- "hk_map:"
+- "hk_nanosecondsSince1970"
+- "hk_transactionInterruptedError"
+- "hk_trimWhitespaceAndNewlines"
+- "i16@0:8"
+- "i24@0:8^@16"
+- "id"
+- "identifier"
+- "ifPropertyIsNullValue"
+- "imageDefinition"
+- "incrementalVacuumDatabaseIfNeeded:error:"
+- "indices"
+- "informationForPlugInWithPid:"
+- "init"
+- "initMemoryDatabase"
+- "initMinHeapWithComparisonBlock:"
+- "initWithAssertionIdentifier:ownerIdentifier:"
+- "initWithAuditToken:"
+- "initWithAuditToken:entitlements:isExtension:containerAppBundleIdentifier:"
+- "initWithAvailableQuota:maximumQuota:refillInterval:minimumInterval:lastTrigger:"
+- "initWithBehavior:concurrentReaderLimit:contentProtectionManager:"
+- "initWithBytes:length:"
+- "initWithBytes:length:encoding:"
+- "initWithChannel:payloadType:certificate:"
+- "initWithComparisonBlock:"
+- "initWithConcurrentReaderLimit:behavior:debugIdentifier:delegate:"
+- "initWithCondition:"
+- "initWithConfiguration:"
+- "initWithConnection:process:"
+- "initWithCount:options:debugIdentifier:"
+- "initWithDatabase:"
+- "initWithDatabase:descriptor:"
+- "initWithDatabaseURL:"
+- "initWithDefaultRequest:loggingCategory:scheduler:handler:"
+- "initWithDefinitions:"
+- "initWithDescription:completion:"
+- "initWithDirectoryPath:prefix:"
+- "initWithDouble:"
+- "initWithEntity:name:columns:"
+- "initWithEntity:name:columns:collationForColumn:unique:predicateString:"
+- "initWithEntity:name:columns:unique:predicateString:"
+- "initWithEntity:name:triggerEvent:predicateString:triggerString:"
+- "initWithEntityClass:property:deletionAction:"
+- "initWithEntityClass:property:deletionAction:isDeferred:"
+- "initWithExpression:ascending:"
+- "initWithFormat:"
+- "initWithIdentifier:"
+- "initWithImageDefinition:preventAutomaticDismissal:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithLabel:"
+- "initWithLongLong:"
+- "initWithMachServiceName:"
+- "initWithName:baseInterval:criteria:loggingCategory:handler:"
+- "initWithName:columnType:keyPathType:"
+- "initWithName:columnType:keyPathType:foreignKey:"
+- "initWithName:columnType:keyPathType:targetEntityClass:targetProperty:deletionAction:"
+- "initWithName:criteria:loggingCategory:handler:"
+- "initWithName:fireDate:isUserVisible:"
+- "initWithName:loggingCategory:"
+- "initWithName:loggingCategory:scheduler:handler:"
+- "initWithName:loggingCategory:scheduler:handler:condition:"
+- "initWithNotifications:initialState:unlockedSinceBoot:"
+- "initWithObjects:"
+- "initWithPersistentID:"
+- "initWithProcess:"
+- "initWithProfileIdentifier:scheduler:eventName:eventHandlerQueue:"
+- "initWithProperties:value:comparisonType:"
+- "initWithProperty:comparisonType:otherProperty:"
+- "initWithProperty:comparisonType:subqueryDescriptor:subqueryProperties:"
+- "initWithProperty:ifPropertyIsNullValue:value:comparisonType:"
+- "initWithProperty:value:comparisonType:"
+- "initWithProperty:value:comparisonType:influenceIndexUsage:"
+- "initWithProperty:value:escapeCharacter:"
+- "initWithProperty:values:contains:"
+- "initWithSQL:database:"
+- "initWithScheduler:eventName:eventHandlerQueue:"
+- "initWithSet:"
+- "initWithStream:entitlement:"
+- "initWithString:"
+- "initWithSystemColorName:systemImageName:"
+- "initWithTimeIntervalSinceReferenceDate:"
+- "initWithURL:"
+- "initWithUTF8String:"
+- "initWithUUIDBytes:"
+- "initWithUUIDString:"
+- "initWithUnderlyingListener:label:"
+- "innerJoinClauseFromTable:toTargetEntity:as:localReference:targetKey:"
+- "insert:"
+- "insertObject:atIndex:"
+- "insertOrReplaceEntity:database:properties:error:bindingHandler:"
+- "insertSQLForProperties:shouldReplace:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "invalidate"
+- "isAppleInternalInstall"
+- "isAutoincrement"
+- "isCompatibleWithPredicate:"
+- "isCompatibleWithUnit:"
+- "isConditionMet"
+- "isDeferred"
+- "isEmpty"
+- "isEqual:"
+- "isEqualToString:"
+- "isExtension"
+- "isFileURL"
+- "isInSession"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isNotNullPredicateWithProperty:"
+- "isNullPredicateWithProperty:"
+- "isNullable"
+- "isOpen"
+- "isPrimaryKey"
+- "isProtectedDataAvailable"
+- "isProtectedDataAvailableWithState:"
+- "isProxy"
+- "isTemporary"
+- "isUnique"
+- "isUserVisible"
+- "isWaiting"
+- "isWidgetKitExtension"
+- "isWrite"
+- "isWriter"
+- "joinAsName"
+- "joinClauses"
+- "joinClausesForProperty:"
+- "joinType"
+- "keyEnumerator"
+- "keyPathType"
+- "label"
+- "lastInsertRowID"
+- "lastPathComponent"
+- "lastSQLStatement"
+- "lastSuccessfulRunDate"
+- "lastTrigger"
+- "launchTask"
+- "leftJoinClauseFromTable:toTargetEntity:as:localReference:targetKey:"
+- "leftJoinClauseFromTable:toTargetEntity:as:localReference:targetKey:additionalPredicate:"
+- "length"
+- "limitCount"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "localReferenceProperty"
+- "localTable"
+- "localizedDescription"
+- "location"
+- "lock"
+- "lockWhenCondition:"
+- "lockedServiceMap"
+- "logAllDiagnostics"
+- "logger"
+- "loggingCategory"
+- "longLongValue"
+- "matchesNull"
+- "maxPersistentIDWithPredicate:database:error:"
+- "maxValueForProperty:predicate:database:error:"
+- "maximumQuota"
+- "member:"
+- "memoryDatabaseFromURL:"
+- "message"
+- "minimumInterval"
+- "minimumRetryInterval"
+- "minusSet:"
+- "modifiedIntervalForCurrentState"
+- "mutableCopy"
+- "negatedPredicate:"
+- "newConnectionForPool:error:"
+- "newOutputFileURL"
+- "notifyObservers:"
+- "null"
+- "numberForProperty:database:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLongLong:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedLongLong:"
+- "objCType"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observedState"
+- "onCommit:orRollback:"
+- "openForReadingWithError:"
+- "openWithError:"
+- "orderingTermForSortDescriptor:"
+- "orderingTermWithProperty:entityClass:ascending:"
+- "orderingTerms"
+- "otherButton"
+- "otherProperty"
+- "ownerIdentifier"
+- "ownerIdentifiersForAssertionIdentifier:"
+- "path"
+- "peek"
+- "pendingCount"
+- "performIntegrityCheckOnDatabase:error:integrityErrorHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performStatementWithError:bindingHandler:"
+- "performTransactionWithType:error:usingBlock:"
+- "permitWritesInReadTransaction"
+- "persistentID"
+- "postNotificationName:object:userInfo:"
+- "predicate"
+- "predicateMatchingAllPredicates:"
+- "predicateMatchingAnyPredicates:"
+- "predicateString"
+- "predicateWithCoalescedProperties:value:comparisonType:"
+- "predicateWithJoinClauses:"
+- "predicateWithProperty:beginsWithString:"
+- "predicateWithProperty:comparisonType:otherProperty:"
+- "predicateWithProperty:comparisonType:subqueryDescriptor:subqueryProperties:"
+- "predicateWithProperty:containsString:"
+- "predicateWithProperty:endsWithString:"
+- "predicateWithProperty:equalToValue:"
+- "predicateWithProperty:equalToValues:"
+- "predicateWithProperty:greaterThanOrEqualToValue:"
+- "predicateWithProperty:greaterThanValue:"
+- "predicateWithProperty:ifNullValue:value:comparisonType:"
+- "predicateWithProperty:lessThanOrEqualToValue:"
+- "predicateWithProperty:lessThanValue:"
+- "predicateWithProperty:likePattern:"
+- "predicateWithProperty:likeValue:"
+- "predicateWithProperty:likeValue:escapeCharacter:"
+- "predicateWithProperty:notEqualToValue:"
+- "predicateWithProperty:notEqualToValues:"
+- "predicateWithProperty:value:comparisonType:"
+- "predicateWithProperty:value:comparisonType:influenceIndexUsage:"
+- "predicateWithProperty:values:comparisonType:"
+- "predicateWithSQL:overProperties:values:"
+- "predicates"
+- "preferredEntityJoinOrder"
+- "presentWithResponseHandler:"
+- "preventAutomaticDismissal"
+- "primaryKeyColumns"
+- "priority"
+- "privateSubEntities"
+- "process"
+- "processIdentifier"
+- "processWithConnection:error:"
+- "properties"
+- "property"
+- "propertyValueForAnyInDatabase:property:predicate:error:"
+- "protectedState"
+- "q16@0:8"
+- "q24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "q24@0:8@16"
+- "q32@0:8@16^@24"
+- "q32@0:8d16^@24"
+- "q40@0:8@16@24^@32"
+- "quantityWithUnit:doubleValue:"
+- "queryDescriptor"
+- "queryWithDatabase:predicate:"
+- "queryWithDatabase:predicate:limit:orderingTerms:groupBy:"
+- "quota"
+- "quotaRefillInterval"
+- "r*"
+- "r^{?=@@C}"
+- "r^{?=@@C}16@0:8"
+- "r^{?=@@C}24@0:8^Q16"
+- "raise:format:"
+- "rangeOfString:"
+- "rangeOfString:options:"
+- "rawState"
+- "reason"
+- "recheckContentProtectionState"
+- "registerActivity"
+- "registerDisabledPeriodicActivityWithName:loggingCategory:"
+- "registerDisabledTaskWithName:scheduler:loggingCategory:"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "registerObserver:"
+- "registerObserver:queue:"
+- "release"
+- "remainingBudget"
+- "remoteInterface"
+- "remote_fetchEndpointForServiceIdentifier:completion:"
+- "remove"
+- "removeAlarm:"
+- "removeAllObjects"
+- "removeContentProtectionObserver:"
+- "removeItemAtPath:error:"
+- "removeLastObject"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:forAssertionIdentifier:"
+- "requestRunWithMaximumDelay:completion:"
+- "requestedDate"
+- "requireInitialSignal"
+- "requireRollback"
+- "requiredEntitlement"
+- "rescheduleWhileInProgress"
+- "rescheduleWhileRunning"
+- "resetIntervalWithCriteria:"
+- "respondsToSelector:"
+- "responseHandler"
+- "restoreEntitlement:"
+- "resume"
+- "resumeBudgetConsumption"
+- "retain"
+- "retainCount"
+- "returnsDistinctEntities"
+- "runImmediatelyAndReturnError:completion:"
+- "runUngatedWithCompletion:"
+- "scheduleEvent:"
+- "scheduler"
+- "schedulesXPCAlarms"
+- "selectSQLForProperties:"
+- "self"
+- "serverGenerator"
+- "serviceListener"
+- "serviceMap"
+- "set"
+- "setAdditionalDescriptors:"
+- "setAlertHeader:"
+- "setAlertLevel:"
+- "setAlertMessage:"
+- "setAlternateButtonTitle:"
+- "setBudget:"
+- "setCacheScope:"
+- "setCancelButton:"
+- "setCheckpointRequired:"
+- "setClientProvider:"
+- "setColumns:"
+- "setCondition:"
+- "setConnectionQueue:"
+- "setContentDefinition:"
+- "setContentProtectionManager:"
+- "setContentProtectionState:"
+- "setContextType:"
+- "setCreateTableSchema:"
+- "setCriteria:"
+- "setCurrentActivity:"
+- "setDefaultButton:"
+- "setDefaultButtonTitle:"
+- "setDefaultValue:"
+- "setDelegate:"
+- "setDeletionAction:"
+- "setDidFinish:"
+- "setDispatchQueue:"
+- "setDouble:forKey:"
+- "setEncounteredOutOfSpace:"
+- "setEndDate:"
+- "setEntityClass:"
+- "setEventHandler:"
+- "setExpirationHandler:"
+- "setExpirationHandlerWithReason:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFileProtectionType:"
+- "setForeignKeyTargetColumn:"
+- "setForeignKeyTargetTable:"
+- "setGroupBy:"
+- "setHandler:"
+- "setInSession:"
+- "setIndices:"
+- "setInteger:forKey:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsAutoincrement:"
+- "setIsNullable:"
+- "setIsPrimaryKey:"
+- "setIsUnique:"
+- "setLeadingAssetDefinition:"
+- "setLimitCount:"
+- "setMessage:"
+- "setMinimumRetryInterval:"
+- "setName:"
+- "setNextFireDate:isUserVisible:"
+- "setNotification:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOrderingTerms:"
+- "setOtherButton:"
+- "setPayloadIdentifier:"
+- "setPermitWritesInReadTransaction:"
+- "setPredicate:"
+- "setPreferredEntityJoinOrder:"
+- "setPreventsAutomaticDismissal:"
+- "setPriority:"
+- "setQueue:"
+- "setQuota:"
+- "setReadyCallback:"
+- "setRemoteObjectInterface:"
+- "setRequestedDate:"
+- "setRescheduleWhileInProgress:"
+- "setRescheduleWhileRunning:"
+- "setResponseHandler:"
+- "setReturnsDistinctEntities:"
+- "setScheduleAfter:"
+- "setScheduler:"
+- "setShouldExpandLastSQLStatement:"
+- "setShouldIgnoreUnlockedState:"
+- "setSignaled:"
+- "setSql:"
+- "setStartDate:"
+- "setTableName:"
+- "setTables:"
+- "setTaskCompleted"
+- "setTaskExpiredWithRetryAfter:error:"
+- "setTitle:"
+- "setTransactionInterruptRequested:"
+- "setTriggers:"
+- "setTrySchedulingBefore:"
+- "setType:"
+- "setUnitTest_schedulerObserver:"
+- "setUserNotificationOptions:"
+- "setUserVersion:withDatabaseName:error:"
+- "setWaitingForTrigger:"
+- "setWithArray:"
+- "setWithObjects:"
+- "setWriter:"
+- "set_currentTask:"
+- "set_expirationReason:"
+- "set_shouldDefer:"
+- "sharedBehavior"
+- "sharedDiagnosticManager"
+- "sharedScheduler"
+- "shouldDefer"
+- "shouldExpandLastSQLStatement"
+- "shouldIgnoreUnlockedState"
+- "signal"
+- "signaled"
+- "signingIdentifierFromAuditToken:"
+- "sizeOfEntityTableInDatabase:"
+- "sleepForTimeInterval:"
+- "sortUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingSelector:"
+- "standardUserDefaults"
+- "startWithOutputFileURL:error:"
+- "state"
+- "statementCache"
+- "status"
+- "string"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringForProperty:database:"
+- "stringWithCString:encoding:"
+- "stringWithFormat:"
+- "stringWithString:"
+- "stringWithUTF8String:"
+- "strongToStrongObjectsMapTable"
+- "strongToWeakObjectsMapTable"
+- "submitJSONAnalyticsData:bugType:error:"
+- "submitJSONAnalyticsData:toDirectory:withConfiguration:error:"
+- "submitRequest:error:"
+- "submitRequest:error:completion:"
+- "submitRequestWithMaximumDelay:error:completion:"
+- "submitRequestWithMaximumDelay:minimumDelay:error:completion:"
+- "submitTaskRequest:error:"
+- "subqueryDescriptor"
+- "subqueryProperties"
+- "substringWithRange:"
+- "sumValueForProperty:predicate:database:error:"
+- "superclass"
+- "supportsCoreOSDatabaseAssertion"
+- "suspendBudgetConsumption"
+- "synchronousTaskGroup:didFinishWithSuccess:errors:"
+- "systemColorName"
+- "systemImageName"
+- "table:hasColumnWithName:error:"
+- "tableAliases"
+- "tableName"
+- "tables"
+- "takeAssertion:"
+- "takeAssertion:preNotificationBlock:"
+- "targetEntityClass"
+- "targetKeyProperty"
+- "taskCount"
+- "taskRequestForIdentifier:"
+- "threadDictionary"
+- "threadLocalTransactionKey"
+- "threadPriority"
+- "timeIntervalSince1970"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "timeUntilNextAvailableTrigger"
+- "title"
+- "totalDiskCapacity"
+- "transactionInterruptRequested"
+- "transactionWithOwner:activityName:"
+- "triggerString"
+- "triggers"
+- "truePredicate"
+- "trySchedulingBefore"
+- "typeOfColumn:inTable:error:"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unarchivedObjectOfClasses:fromData:error:"
+- "unionSet:"
+- "uniquedColumns"
+- "unitFromString:"
+- "unitTest_ActivityCompletion"
+- "unitTest_copyProcessWithEntitlements:"
+- "unitTest_fireEventImmediatelyWithDate:isUserVisible:"
+- "unitTest_reset"
+- "unitTest_schedulerObserver"
+- "unitTest_setActivityCompletion:"
+- "unitTest_setActivityShim:"
+- "unitTest_setCorruptionError:"
+- "unitTest_synthesizeActivityFireWithCompletion:"
+- "unittest_fireEvent:"
+- "unlock"
+- "unlockWithCondition:"
+- "unregisterActivity"
+- "unregisterObserver:"
+- "unschedule"
+- "unscheduleEventWithName:"
+- "updateCriteriaForModifiedIntervalForCurrentState"
+- "updateProperties:database:error:bindingHandler:"
+- "updateProperties:predicate:database:error:bindingHandler:"
+- "updateRequest:error:"
+- "updateSQLForProperties:predicate:"
+- "updateTaskRequest:error:"
+- "uppercaseString"
+- "userInfo"
+- "userNotificationOptions"
+- "userVersionWithDatabaseName:error:"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"BGSystemTask\"8"
+- "v16@?0Q8"
+- "v16@?0^v8"
+- "v20@0:8B16"
+- "v24@0:8#16"
+- "v24@0:8@\"HDSQLiteDatabase\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"_HDSQLiteEntityColumn\"^B>16"
+- "v24@0:8Q16"
+- "v24@0:8^{__CFUserNotification=}16"
+- "v24@0:8^{sqlite3_stmt=}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@0:8r*16"
+- "v24@?0@\"HDFastPassBackgroundTask\"8@?<v@?q@\"NSError\">16"
+- "v24@?0@\"HDOneShotBackgroundTask\"8@?<v@?q@\"NSError\">16"
+- "v24@?0@\"HDRepeatingBackgroundTask\"8@?<v@?q@\"NSError\">16"
+- "v28@0:8@16B24"
+- "v32@0:8@\"HDDatabaseConnectionPool\"16@\"NSArray\"24"
+- "v32@0:8@\"NSObject<OS_xpc_object>\"16@\"NSObject<OS_xpc_object>\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSXPCListenerEndpoint\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@?16@?24"
+- "v32@0:8^{sqlite3_stmt=}16N^i24"
+- "v32@0:8^{sqlite3_stmt=}16^i24"
+- "v32@0:8d16@?24"
+- "v32@0:8q16@24"
+- "v40@0:8@\"HDXPCListener\"16@\"HDXPCClient\"24@\"<_HKXPCExportable>\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16d24@?32"
+- "v40@0:8@16d24d32"
+- "v40@0:8d16d24@?32"
+- "v40@0:8r*16@\"NSObject<OS_xpc_object>\"24@?<v@?@\"NSObject<OS_xpc_object>\">32"
+- "v40@0:8r*16@24@?32"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8q16d24@32@40"
+- "validateForeignKeysForTable:databaseName:error:"
+- "value"
+- "valueForEntitlement:"
+- "valueForProperty:database:"
+- "values"
+- "wait"
+- "waitForPendingCount:"
+- "waitWithPriority:"
+- "waitingForTrigger"
+- "weakObjectsHashTable"
+- "weakToStrongObjectsMapTable"
+- "willDeleteFromDatabase:"
+- "writeData:"
+- "writeToURL:options:error:"
+- "xpcActivity_copyCriteria:"
+- "xpcActivity_getState:"
+- "xpcActivity_register:criteria:handler:"
+- "xpcActivity_setCompletionStatus:activity:"
+- "xpcActivity_setCriteria:activity:"
+- "xpcActivity_setState:activity:"
+- "xpcActivity_shouldDefer:"
+- "xpcActivity_unregister:"
+- "zone"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "\xb1"
+
+```

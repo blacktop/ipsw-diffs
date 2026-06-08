@@ -1,0 +1,584 @@
+## NLPLearner
+
+> `/System/Library/PrivateFrameworks/NLPLearner.framework/NLPLearner`
+
+```diff
+
+ 70.0.0.0.0
+-  __TEXT.__text: 0xf0ac
+-  __TEXT.__auth_stubs: 0x890
++  __TEXT.__text: 0xe3e4
+   __TEXT.__objc_methlist: 0xb9c
+   __TEXT.__const: 0x90
+-  __TEXT.__cstring: 0x1147
++  __TEXT.__cstring: 0x115d
+   __TEXT.__oslogstring: 0xd46
+   __TEXT.__ustring: 0x58
+-  __TEXT.__gcc_except_tab: 0xe4c
+-  __TEXT.__unwind_info: 0x5f8
+-  __TEXT.__objc_classname: 0x253
+-  __TEXT.__objc_methname: 0x211b
+-  __TEXT.__objc_methtype: 0x3c2
+-  __TEXT.__objc_stubs: 0x21c0
+-  __DATA_CONST.__got: 0x350
++  __TEXT.__gcc_except_tab: 0xd94
++  __TEXT.__unwind_info: 0x588
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x3e0
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__weak_got: 0x8
+   __DATA_CONST.__objc_selrefs: 0x9e0
+   __DATA_CONST.__objc_superrefs: 0x58
+   __DATA_CONST.__objc_arraydata: 0xb8
+-  __AUTH_CONST.__auth_got: 0x460
++  __DATA_CONST.__got: 0x348
+   __AUTH_CONST.__const: 0x100
+   __AUTH_CONST.__cfstring: 0x10c0
+   __AUTH_CONST.__objc_const: 0x1578
++  __AUTH_CONST.__weak_auth_got: 0x10
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_arrayobj: 0x30
++  __AUTH_CONST.__auth_got: 0x458
+   __AUTH.__objc_data: 0x5a0
+   __DATA.__objc_ivar: 0xc4
+   __DATA.__data: 0xc0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F2E3907F-A4BF-3DCC-A116-E57FA052F3B5
+-  Functions: 351
+-  Symbols:   1562
+-  CStrings:  887
++  UUID: B0E06494-0B5E-3D0C-A8E7-CACBAC64AD78
++  Functions: 346
++  Symbols:   1536
++  CStrings:  397
+ 
+Symbols:
++ GCC_except_table19
++ GCC_except_table28
++ GCC_except_table34
++ GCC_except_table37
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE24__emplace_back_slow_pathIJfEEEPfDpOT_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100EmRKf
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJRKjEEEPjDpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___45-[QuickTypePFLTrainerMLP trainOn:forNEpochs:]_block_invoke.59
++ ___Block_byref_object_copy_.50
++ ___Block_byref_object_dispose_.51
++ ___block_literal_global.107
++ ___block_literal_global.112
++ ___block_literal_global.66
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
+- GCC_except_table25
+- GCC_except_table33
+- GCC_except_table36
+- GCC_except_table38
+- GCC_except_table44
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- __ZN10applesauce2CF7details20CFArray_get_value_toINSt3__16vectorIfNS3_9allocatorIfEEEEEET_PK9__CFArray
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB9nqe210106ERKj
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___45-[QuickTypePFLTrainerMLP trainOn:forNEpochs:]_block_invoke.60
+- ___Block_byref_object_copy_.51
+- ___Block_byref_object_dispose_.52
+- ___block_literal_global.108
+- ___block_literal_global.113
+- ___block_literal_global.48
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+CStrings:
+- "#16@0:8"
+- ".cxx_construct"
+- ".cxx_destruct"
+- "@\"CVNLPTokenIDConverter\""
+- "@\"NSData\""
+- "@\"NSDictionary\""
+- "@\"NSLocale\""
+- "@\"NSMutableArray\""
+- "@\"NSNumber\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"QuickTypePFLBackgroundTask\""
+- "@\"RBSAssertion\""
+- "@\"_DASActivity\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16q24"
+- "@32@0:8^f16Q24"
+- "@32@0:8q16@24"
+- "@36@0:8B16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8^{CoreLanguageModelWithState=}16@24^v32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8^{MontrealNeuralNetwork=}16@24@32@?40"
+- "@56@0:8@16@24@32@?40^@48"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"_DASActivity\"16"
+- "B24@0:8@16"
+- "B32@0:8@16Q24"
+- "B48@0:8@16Q24@32@?40"
+- "B48@0:8Q16^f24Q32Q40"
+- "C16@0:8"
+- "JSONObjectWithData:options:error:"
+- "LanguageIdentificationAdditions"
+- "NLPLearnerEvaluationResultCoreLM"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "QuickTypeWeightUpdates"
+- "T#,R"
+- "T@\"NSData\",&,N,V_weightUpdates"
+- "T@\"NSDictionary\",&,N,V_metricParameters"
+- "T@\"NSDictionary\",R,N,V_labelClasses"
+- "T@\"NSLocale\",&,N,V_locale"
+- "T@\"NSLocale\",C,N,V_locale"
+- "T@\"NSMutableArray\",&,N,V_sentences"
+- "T@\"NSNumber\",&,N,V_clippingNorm"
+- "T@\"NSNumber\",&,N,V_gradientClipMax"
+- "T@\"NSNumber\",&,N,V_gradientClipMin"
+- "T@\"NSNumber\",&,N,V_learningRate"
+- "T@\"NSNumber\",C,N,V_l2Norm"
+- "T@\"NSNumber\",C,N,V_maxNorm"
+- "T@\"NSNumber\",R,N,V_initialLoss"
+- "T@\"NSNumber\",R,N,V_trainingLoss"
+- "T@\"NSString\",&,N,V_experimentName"
+- "T@\"NSString\",&,N,V_tempCorpusPath"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_privacyDiagnosticReport"
+- "T@\"NSString\",C,N,V_tokenIDMapPath"
+- "T@\"NSString\",C,N,V_weightUpdatesDiagnosticReport"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N,V_privacyIdentifier"
+- "T@\"NSURL\",&,N,V_modelURL"
+- "T@\"NSURL\",C,N,V_url"
+- "T@\"QuickTypePFLBackgroundTask\",&,N,V_task"
+- "T@\"RBSAssertion\",&,N,V_assertion"
+- "T@\"_DASActivity\",R,N,V_activity"
+- "TB,N,V_processingNewRecord"
+- "TQ,N,V_batchSize"
+- "TQ,N,V_iterator"
+- "TQ,N,V_maxSamples"
+- "TQ,N,V_maxSequenceLength"
+- "TQ,N,V_normBinCount"
+- "TQ,N,V_sentenceCount"
+- "TQ,N,V_tokenCount"
+- "TQ,N,V_wordCount"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_embeddingDimension"
+- "TQ,R,N,V_topK"
+- "Testing"
+- "Tf,N,V_logfProbability"
+- "Tf,N,V_predictedWords"
+- "Tq,N,V_evaluationTask"
+- "URLByAppendingPathComponent:"
+- "URLByDeletingLastPathComponent"
+- "URLWithString:"
+- "UTF8String"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__CFData=}24@0:8^v16"
+- "_DASExtensionRunner"
+- "_activity"
+- "_assertion"
+- "_batchSize"
+- "_clippingNorm"
+- "_embedding"
+- "_embeddingDimension"
+- "_evaluationTask"
+- "_experimentName"
+- "_gradientClipMax"
+- "_gradientClipMin"
+- "_initialLoss"
+- "_iterator"
+- "_l2Norm"
+- "_labelClasses"
+- "_labels"
+- "_learningRate"
+- "_lexicon"
+- "_locale"
+- "_logfProbability"
+- "_maxNorm"
+- "_maxSamples"
+- "_maxSequenceLength"
+- "_metricParameters"
+- "_model"
+- "_modelURL"
+- "_nonNilParameters"
+- "_noneClassProbability"
+- "_normBinCount"
+- "_predictedWords"
+- "_privacyDiagnosticReport"
+- "_privacyIdentifier"
+- "_processingNewRecord"
+- "_seedModelPath"
+- "_sentenceCount"
+- "_sentences"
+- "_task"
+- "_tempCorpusPath"
+- "_tokenConverter"
+- "_tokenCount"
+- "_tokenIDMapPath"
+- "_topK"
+- "_trainingLoss"
+- "_url"
+- "_weightUpdates"
+- "_weightUpdatesDiagnosticReport"
+- "_wordCount"
+- "absoluteString"
+- "acquireWithError:"
+- "actParamFilesAtPath:"
+- "actParametersFromConfig:"
+- "activity"
+- "activityForScheduling"
+- "addCharactersInString:"
+- "addEntriesFromDictionary:"
+- "addExamples:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addPreprocessedExample:"
+- "addResource:"
+- "allValues"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObject:"
+- "arrayWithObjects:count:"
+- "assertion"
+- "attachments"
+- "attributeWithDomain:name:"
+- "autorelease"
+- "boolValue"
+- "bosTokenID"
+- "bundleID"
+- "bytes"
+- "characterSetWithRange:"
+- "checkVietnameseCharactersInText:"
+- "class"
+- "cleanup"
+- "clippingNorm"
+- "compare:"
+- "completeWithError:completionHandler:"
+- "completeWithJSONResult:binaryResult:completionHandler:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "conformsToProtocol:"
+- "containsObject:"
+- "containsString:"
+- "content"
+- "contentsOfDirectoryAtPath:error:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "copy"
+- "copyToFlatBuffer:"
+- "coreAnalyticsDonationFromEvaluationResults:"
+- "coreAnalyticsEvent"
+- "coreAnalyticsEventSchema"
+- "coreDuetEvents"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "data"
+- "dataForPFL:andLocale:"
+- "dataForTask:andLocale:"
+- "dataWithBytes:length:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithJSONObject:options:error:"
+- "date"
+- "debugDescription"
+- "decodeObjectOfClass:forKey:"
+- "decomposedStringWithCanonicalMapping"
+- "defaultManager"
+- "defaultMaxSequenceLength"
+- "defaultSessionConfiguration"
+- "description"
+- "dictionary"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithContentsOfURL:error:"
+- "dictionaryWithObjects:forKeys:count:"
+- "distantFuture"
+- "dominantLanguage"
+- "downloadAttachmentsWithConfiguration:completion:"
+- "embeddingDimension"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encryptedDataWithPublicKey:inPlaceDataFloatNumbers:count:error:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateTokenIDsForText:withBlock:"
+- "eosTokenID"
+- "errorWithDomain:code:userInfo:"
+- "evaluateModel:onData:options:completion:"
+- "evaluateModel:onRecords:options:completion:error:"
+- "evaluateModel:onSingleExample:tokenizer:"
+- "evaluateModel:sampleLimit:"
+- "evaluationTask"
+- "evaluatorWithLocale:andTask:"
+- "eventQueryWithPredicate:eventStreams:offset:limit:sortDescriptors:"
+- "eventStreamWithName:"
+- "exceptionWithName:reason:userInfo:"
+- "executeQuery:error:"
+- "experimentName"
+- "extensionLaunchActivityWithName:priority:forExtensionIdentifier:withReason:duration:startingAfter:startingBefore:"
+- "f"
+- "f16@0:8"
+- "fileExistsAtPath:isDirectory:"
+- "fileURLWithPath:isDirectory:"
+- "filteredArrayUsingPredicate:"
+- "firstObject"
+- "floatValue"
+- "getAttachmentURLByName:attachments:error:"
+- "getAttachmentURLByName:inDirectory:error:"
+- "getSamples"
+- "getWeightUpdatesAddNoise:encryptionKey:recipe:"
+- "hasSuffix:"
+- "hash"
+- "init"
+- "initWithBase64EncodedString:options:"
+- "initWithBytes:length:encoding:"
+- "initWithCapacity:"
+- "initWithCoder:"
+- "initWithContentsOfFile:options:error:"
+- "initWithData:encoding:"
+- "initWithExplanation:target:attributes:"
+- "initWithLocale:"
+- "initWithLocale:andMetricParameters:"
+- "initWithLocale:andTask:"
+- "initWithLocale:experimentName:modelURL:metricParameters:"
+- "initWithRecipe:"
+- "initWithResource:andTokenType:"
+- "initWithResumptionURL:error:"
+- "initWithSeedModelPath:andPrivacyIdentifier:"
+- "initWithString:"
+- "initWithURL:"
+- "initialLoss"
+- "initialize"
+- "intValue"
+- "integerValue"
+- "intent"
+- "interaction"
+- "invalidate"
+- "isAutoCorrectionAllowed"
+- "isEqual:"
+- "isEqualToString:"
+- "isInTopKPredictions:scores:total:topK:"
+- "isInternalInstall"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "iterator"
+- "keysSortedByValueUsingComparator:"
+- "knowledgeStoreWithDirectReadOnlyAccess"
+- "l2Norm"
+- "labelClasses"
+- "languageCode"
+- "languageForText:"
+- "languageForText:checkVietnamese:"
+- "lastPathComponent"
+- "length"
+- "loadFromCoreDuet:limitSamplesTo:"
+- "loadFromCoreDuet:limitSamplesTo:withLocale:andLMStreamTokenizationBlock:"
+- "loadTaskData"
+- "locale"
+- "localeIdentifier"
+- "localeWithLocaleIdentifier:"
+- "logEvaluationResults:"
+- "logfProbability"
+- "lowercaseString"
+- "matchingRecordSet"
+- "maxSamples"
+- "maxSequenceLength"
+- "messageContentForEvent:"
+- "messageContentForEvent:andLanguage:"
+- "metricParameters"
+- "modelCreationOptionsForModelURL:options:"
+- "modelURL"
+- "mutableCopy"
+- "nextEvaluationDataPoint"
+- "nextTrainingDataBatch:"
+- "numOutputClasses"
+- "numSamples"
+- "numberFromString:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "path"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pluginShouldAddNoiseAndEncryptResult"
+- "predicateWithFormat:"
+- "predicateWithFormat:argumentArray:"
+- "predictedWords"
+- "prepareDataFromRecords:"
+- "prepareDataFromRecords:modelBundle:error:"
+- "prepareForActivity:"
+- "privacyDiagnosticReport"
+- "privacyIdentifier"
+- "privacyIdentifierForTask:"
+- "processACTResults:metric:"
+- "processString:"
+- "processingNewRecord"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "rangeOfCharacterFromSet:"
+- "recipe"
+- "recipeUserInfo"
+- "release"
+- "removeAllObjects"
+- "removeItemAtPath:error:"
+- "removeTemporaryFile:"
+- "reportingStringForModelUpdates:count:"
+- "resetOptions:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rewind"
+- "runACTWithParams:modelPath:data:"
+- "runWithObserver:"
+- "sampleNoneClassExample:"
+- "self"
+- "sentenceCount"
+- "sentences"
+- "setAssertion:"
+- "setBatchSize:"
+- "setClippingNorm:"
+- "setCpuIntensive:"
+- "setData32s:count:"
+- "setEvaluationTask:"
+- "setExperimentName:"
+- "setGradientClipMax:"
+- "setGradientClipMin:"
+- "setIterator:"
+- "setL2Norm:"
+- "setLearningRate:"
+- "setLocale:"
+- "setLogfProbability:"
+- "setMaxNorm:"
+- "setMaxSamples:"
+- "setMaxSequenceLength:"
+- "setMaxSequenceLengthForModelURL:"
+- "setMemoryIntensive:"
+- "setMetricParameters:"
+- "setModelURL:"
+- "setNormBinCount:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setPredictedWords:"
+- "setPrivacyDiagnosticReport:"
+- "setProcessingNewRecord:"
+- "setRequiresDeviceInactivity:"
+- "setRequiresInexpensiveNetworking:"
+- "setRequiresNetwork:"
+- "setRequiresPlugin:"
+- "setSentenceCount:"
+- "setSentences:"
+- "setTask:"
+- "setTempCorpusPath:"
+- "setTokenCount:"
+- "setTokenIDMapPath:"
+- "setUrl:"
+- "setUserInfo:"
+- "setValue:forKey:"
+- "setVersion:"
+- "setWeightUpdates:"
+- "setWeightUpdatesDiagnosticReport:"
+- "setWithArray:"
+- "setWordCount:"
+- "sharedConnection"
+- "source"
+- "sourceForEvent:"
+- "start"
+- "startDateSortDescriptorAscending:"
+- "stop"
+- "stringByAppendingPathComponent:"
+- "stringByDeletingPathExtension"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByTrimmingCharactersInSet:"
+- "stringValue"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "superclass"
+- "supportsSecureCoding"
+- "targetWithPid:"
+- "taskFromRecipe:"
+- "taskIdentifier"
+- "taskRunnerClass"
+- "tempCorpusPath"
+- "tokenCount"
+- "tokenIDMapPath"
+- "topK"
+- "trainOn:forNEpochs:"
+- "trainingLoss"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "userInfo"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8^v16"
+- "v24@0:8q16"
+- "valueForKey:"
+- "vietnameseCharacterSet"
+- "weightUpdates"
+- "weightUpdatesDiagnosticReport"
+- "whitespaceAndNewlineCharacterSet"
+- "wordCount"
+- "writeModelToURL:"
+- "zone"
+- "{CFScopedPtr<const _LXLexicon *>=\"m_ref\"^{_LXLexicon}}"
+- "{CFScopedPtr<void *>=\"m_ref\"^v}"
+
+```

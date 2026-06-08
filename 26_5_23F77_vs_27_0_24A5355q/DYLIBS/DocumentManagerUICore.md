@@ -1,0 +1,1221 @@
+## DocumentManagerUICore
+
+> `/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/DocumentManagerUICore`
+
+```diff
+
+-367.5.1.0.0
+-  __TEXT.__text: 0x22efc
+-  __TEXT.__auth_stubs: 0xf80
++389.2.0.0.0
++  __TEXT.__text: 0x22f0c
+   __TEXT.__delay_helper: 0x14c
+-  __TEXT.__objc_methlist: 0x15ec
+-  __TEXT.__const: 0x11bc
++  __TEXT.__objc_methlist: 0x16bc
++  __TEXT.__const: 0x11d4
+   __TEXT.__gcc_except_tab: 0x2b8
+-  __TEXT.__cstring: 0x9de
++  __TEXT.__cstring: 0x97e
+   __TEXT.__oslogstring: 0x333
+-  __TEXT.__swift5_typeref: 0x71a
+-  __TEXT.__swift5_capture: 0x2d8
++  __TEXT.__swift5_typeref: 0x75e
++  __TEXT.__swift5_capture: 0x33c
+   __TEXT.__constg_swiftt: 0x5bc
+-  __TEXT.__swift5_fieldmd: 0x4ac
++  __TEXT.__swift5_fieldmd: 0x4b8
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_reflstr: 0x2c4
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__swift5_proto: 0x58
+-  __TEXT.__swift5_types: 0x6c
+-  __TEXT.__swift_as_entry: 0x60
+-  __TEXT.__swift_as_ret: 0x68
++  __TEXT.__swift5_types: 0x68
++  __TEXT.__swift_as_entry: 0x68
++  __TEXT.__swift_as_ret: 0x70
++  __TEXT.__swift_as_cont: 0xb8
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0xba8
+-  __TEXT.__eh_frame: 0xbf0
+-  __TEXT.__objc_classname: 0x621
+-  __TEXT.__objc_methname: 0x3ea1
+-  __TEXT.__objc_methtype: 0xc61
+-  __TEXT.__objc_stubs: 0x2e80
+-  __DATA_CONST.__got: 0x3a0
+-  __DATA_CONST.__const: 0x320
++  __TEXT.__unwind_info: 0xba0
++  __TEXT.__eh_frame: 0xbf8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x318
+   __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1048
++  __DATA_CONST.__objc_selrefs: 0x10c8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0xc0
+-  __AUTH_CONST.__auth_got: 0x7d0
+-  __AUTH_CONST.__const: 0x11a8
+-  __AUTH_CONST.__cfstring: 0x7a0
+-  __AUTH_CONST.__objc_const: 0x36f0
+-  __AUTH.__objc_data: 0x530
+-  __AUTH.__data: 0x4d0
++  __DATA_CONST.__got: 0x3a0
++  __AUTH_CONST.__const: 0x1218
++  __AUTH_CONST.__cfstring: 0x780
++  __AUTH_CONST.__objc_const: 0x37d0
++  __AUTH_CONST.__auth_got: 0x8c0
++  __AUTH.__objc_data: 0x440
++  __AUTH.__data: 0x60
+   __DATA.__objc_ivar: 0x144
+-  __DATA.__data: 0x784
+-  __DATA.__bss: 0xb30
+-  __DATA.__common: 0x30
+-  __DATA_DIRTY.__objc_data: 0x690
+-  __DATA_DIRTY.__bss: 0x40
++  __DATA.__data: 0x520
++  __DATA.__bss: 0x720
++  __DATA.__common: 0x8
++  __DATA_DIRTY.__objc_data: 0x780
++  __DATA_DIRTY.__data: 0x790
++  __DATA_DIRTY.__bss: 0x450
++  __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
++  - /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv
+   - /System/Library/PrivateFrameworks/DesktopServicesUI.framework/DesktopServicesUI
+   - /System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager
+   - /System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C56159A4-9FCB-3893-A97F-A56BB480900B
+-  Functions: 900
+-  Symbols:   2117
+-  CStrings:  1092
++  UUID: C83342FA-825B-34EA-995D-F8A5DF070B16
++  Functions: 899
++  Symbols:   2233
++  CStrings:  164
+ 
+Symbols:
++ _DOCCurrentTraitCollection
++ _ICQCurrentInAppMessageChangedNotification$loadHelper_x8
++ _ICQInAppMessageKey$loadHelper_x8
++ _OBJC_CLASS_$_FILocalAppContainerNode
++ _OBJC_CLASS_$_ICQInAppMessaging$loadHelper_x8
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_UIViewController_$_DOCExtensions
++ __OBJC_$_CATEGORY_UIViewController_$_DOCExtensions
++ __OBJC_$_PROP_LIST_UIViewController_$_DOCExtensions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DOCNode
++ __PROTOCOLS__TtC21DocumentManagerUICore13NodeThumbnail.85
++ __PROTOCOLS__TtC21DocumentManagerUICore22HomeScreenTintObserver.27
++ ___swift__destructor
++ ___swift__destructor.4
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.137Tm
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.149Tm
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.177Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.200Tm
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.43Tm
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.8
++ ___swift_closure_destructorTm
++ ___unnamed_29
++ _block_copy_helper.139
++ _block_copy_helper.145
++ _block_copy_helper.21
++ _block_copy_helper.64
++ _block_copy_helper.67
++ _block_descriptor.141
++ _block_descriptor.147
++ _block_descriptor.23
++ _block_descriptor.66
++ _block_descriptor.69
++ _block_destroy_helper.140
++ _block_destroy_helper.146
++ _block_destroy_helper.22
++ _block_destroy_helper.65
++ _block_destroy_helper.68
++ _get_type_metadata 15Synchronization5MutexVy21DocumentManagerUICore9ThumbnailOG noncopyable.87
++ _get_type_metadata 15Synchronization5MutexVySDy21DocumentManagerUICore17ThumbnailCacheKey33_595D9CE99B152AB33A118330F75FAEECLLVSo7UIImageCGG noncopyable.95
++ _get_type_metadata 15Synchronization5MutexVySay21DocumentManagerUICore7WeakBox33_595D9CE99B152AB33A118330F75FAEECLLCySo20DOCThumbnailListener_pGGG noncopyable.88
++ _get_type_metadata 15Synchronization5MutexVySayyycGG noncopyable.89
++ _get_type_metadata 15Synchronization5MutexVySo35SBSHomeScreenIconStyleConfigurationCSgG noncopyable.28
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$appIdentifier
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$isAppContainer
++ _objc_msgSend$isIcon
++ _objc_msgSend$removeFromSuperview
++ _objc_msgSend$variant
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x28
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_isCancelledWithFlags
++ _swift_willThrowTypedImpl
++ _symbolic So17ISImageDescriptorC
++ _symbolic So6ISIconC
++ _symbolic So6UIViewCSgXw
++ _symbolic So6UIViewCSgXwz_Xx
++ _symbolic So7UIImageCSgIeAgHr_
++ _symbolic _____SgXw 21DocumentManagerUICore24DOCUIFolderAnimationViewC
+- -[UIViewController(DOCDeprecated) doc_deprecated_interfaceOrientation]
+- -[UIViewController(DOCDeprecated) doc_deprecated_interfaceOrientation].cold.1
+- _DOCLogHandle
+- _OBJC_CLASS_$_UIScreen
+- _UIRectCenteredRect
+- __OBJC_$_CATEGORY_UIViewController_$_DOCDeprecated
+- __OBJC_$_INSTANCE_METHODS_UIViewController(DOCDeprecated|DOCExtensions)
+- __PROTOCOLS__TtC21DocumentManagerUICore13NodeThumbnail.77
+- __PROTOCOLS__TtC21DocumentManagerUICore22HomeScreenTintObserver.19
+- ___unnamed_31
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DocumentManagerUICore
+- _block_copy_helper.132
+- _block_copy_helper.138
+- _block_copy_helper.54
+- _block_copy_helper.57
+- _block_copy_helper.6
+- _block_descriptor.134
+- _block_descriptor.140
+- _block_descriptor.56
+- _block_descriptor.59
+- _block_descriptor.8
+- _block_destroy_helper.133
+- _block_destroy_helper.139
+- _block_destroy_helper.55
+- _block_destroy_helper.58
+- _block_destroy_helper.7
+- _get_type_metadata 15Synchronization5MutexVy21DocumentManagerUICore9ThumbnailOG noncopyable.79
+- _get_type_metadata 15Synchronization5MutexVySDy21DocumentManagerUICore17ThumbnailCacheKey33_595D9CE99B152AB33A118330F75FAEECLLVSo7UIImageCGG noncopyable.87
+- _get_type_metadata 15Synchronization5MutexVySay21DocumentManagerUICore7WeakBox33_595D9CE99B152AB33A118330F75FAEECLLCySo20DOCThumbnailListener_pGGG noncopyable.80
+- _get_type_metadata 15Synchronization5MutexVySayyycGG noncopyable.81
+- _get_type_metadata 15Synchronization5MutexVySo35SBSHomeScreenIconStyleConfigurationCSgG noncopyable.20
+- _gotLoadHelper_x8$_ICQCurrentInAppMessageChangedNotification
+- _gotLoadHelper_x8$_ICQInAppMessageKey
+- _gotLoadHelper_x8$_OBJC_CLASS_$_ICQInAppMessaging
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_isEmbeddedScreen
+- _objc_msgSend$interfaceOrientation
+- _objc_msgSend$mainScreen
+- _objc_msgSend$viewIfLoaded
+- _objectdestroy.130Tm
+- _objectdestroy.142Tm
+- _objectdestroy.160Tm
+- _objectdestroy.2Tm
+- _objectdestroy.34Tm
+- _swift_release_n
+- _swift_task_isCancelled
+- _swift_unknownObjectRetain_n
+- _symbolic So22DOCThumbnailFolderIconC
+- _symbolic _____Sg 21DocumentManagerUICore15ImageCacheActor33_595D9CE99B152AB33A118330F75FAEECLLC0dE3KeyV
+- _type_layout_string 21DocumentManagerUICore11IconFetcher33_595D9CE99B152AB33A118330F75FAEECLLV
+CStrings:
++ "folder.and.person"
+- "#16@0:8"
+- "$defaultActor"
+- "%s"
+- ".cxx_destruct"
+- "@\"<DOCFittingImageViewDelegate>\""
+- "@\"<DOCThumbnail>\""
+- "@\"DOCNodeThumbnail\""
+- "@\"DOCNodeThumbnailIdentifier\""
+- "@\"DOCNodeThumbnailIdentifier\"16@0:8"
+- "@\"DOCThumbnailCache\""
+- "@\"DOCThumbnailDescriptor\""
+- "@\"DOCThumbnailFolderIcon\""
+- "@\"DOCThumbnailGenerator\""
+- "@\"DOCThumbnailRequest\""
+- "@\"FPItem\"16@0:8"
+- "@\"FPItem\"24@0:8^@16"
+- "@\"FPProviderDomain\"16@0:8"
+- "@\"FPProviderDomain\"24@0:8^@16"
+- "@\"ICQInAppAction\""
+- "@\"ICQInAppMessaging\""
+- "@\"ISIcon\"16@0:8"
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSCache\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSError\"16@0:8"
+- "@\"NSHashTable\""
+- "@\"NSLayoutConstraint\""
+- "@\"NSMapTable\""
+- "@\"NSMutableArray\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSObject\"16@0:8"
+- "@\"NSObject<DOCNode>\""
+- "@\"NSObject<DOCNode>\"16@0:8"
+- "@\"NSPersonNameComponents\"16@0:8"
+- "@\"NSProgress\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\"16@0:8"
+- "@\"QLThumbnailGenerationRequest\""
+- "@\"QLThumbnailGenerator\""
+- "@\"UIColor\"48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@\"UIImage\""
+- "@\"UIImage\"16@0:8"
+- "@\"UIResolvedShape\"24@0:8@\"UIShapeResolutionContext\"16"
+- "@\"UIView\""
+- "@\"UTType\"16@0:8"
+- "@104@0:8@16@24@32@40@48@56d64d72d80d88d96"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16Q24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16Q24"
+- "@32@0:8d16d24"
+- "@32@0:8q16@24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8{CGSize=dd}16d32"
+- "@44@0:8d16Q24B32B36B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16{CGSize=dd}24d40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@48@0:8{UIEdgeInsets=dddd}16"
+- "@52@0:8@16{CGSize=dd}24d40B48"
+- "@52@0:8q16{CGSize=dd}24d40B48"
+- "@56@0:8@16{CGSize=dd}24d40Q48"
+- "@56@0:8Q16@24@32@40@48"
+- "@56@0:8d16{UIEdgeInsets=dddd}24"
+- "@60@0:8d16B24{UIEdgeInsets=dddd}28"
+- "@60@0:8{CGSize=dd}16d32Q40B48B52B56"
+- "@64@0:8@16@24@32@40@48@56"
+- "@68@0:8{CGSize=dd}16d32d40Q48B56B60B64"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSSet\"16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8@?16"
+- "B24@0:8@?<v@?>16"
+- "BSInvalidatable"
+- "CGColor"
+- "CGContext"
+- "CGImage"
+- "DOCBorderedFittingImageView"
+- "DOCDateFormatter"
+- "DOCDateParser"
+- "DOCDeprecated"
+- "DOCDeprecatedUIMenuController"
+- "DOCDeprecatedUIMenuControllerMethods"
+- "DOCExtensions"
+- "DOCFittingImageView"
+- "DOCFixedRadiusRoundedRectShapeProvider"
+- "DOCFolderIcon"
+- "DOCICloudQuotaInAppAction"
+- "DOCICloudQuotaInAppMessage"
+- "DOCICloudQuotaInAppMessaging"
+- "DOCIconPromise"
+- "DOCIconThumbnailRequest"
+- "DOCIntentLocation"
+- "DOCIntentLocationResolutionResult"
+- "DOCIntentsExtensions"
+- "DOCItemDecorationImageLoader"
+- "DOCLabel"
+- "DOCLabelSizing"
+- "DOCNode"
+- "DOCNodeThumbnail"
+- "DOCNodeThumbnailBatchEntry"
+- "DOCOpenLocationIntent"
+- "DOCOpenLocationIntentExtensions"
+- "DOCOpenLocationIntentResponse"
+- "DOCPlainFolderThumbnailRequest"
+- "DOCRegularNodeThumbnailRequest"
+- "DOCSeparatorView"
+- "DOCStaticBadgedFolderThumbnailRequest"
+- "DOCThumbnail"
+- "DOCThumbnailBatchingToken"
+- "DOCThumbnailCache"
+- "DOCThumbnailDescriptor"
+- "DOCThumbnailFolderIcon"
+- "DOCThumbnailGenerator"
+- "DOCThumbnailKey"
+- "DOCThumbnailListener"
+- "DOCThumbnailRequest"
+- "DOCVolumeThumbnailRequest"
+- "NSCopying"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "SBSHomeScreenServiceIconStyleObserver"
+- "T#,R"
+- "T@\"<DOCDeprecatedUIMenuControllerMethods>\",R"
+- "T@\"<DOCFittingImageViewDelegate>\",W,N,V_delegate"
+- "T@\"<DOCThumbnail>\",&,N,V_fallback"
+- "T@\"<DOCThumbnail>\",&,N,V_thumbnail"
+- "T@\"DOCICloudQuotaInAppMessaging\",R"
+- "T@\"DOCIntentLocation\",C,D,N"
+- "T@\"DOCNodeThumbnail\",&,N,V_thumbnail"
+- "T@\"DOCNodeThumbnailIdentifier\",R,N"
+- "T@\"DOCNodeThumbnailIdentifier\",R,N,V_nodeThumbnailIdentifier"
+- "T@\"DOCNodeThumbnailIdentifier\",R,N,V_primaryKey"
+- "T@\"DOCThumbnailDescriptor\",R,N,V_descriptor"
+- "T@\"DOCThumbnailGenerator\",R"
+- "T@\"DOCThumbnailGenerator\",R,W,N,V_generator"
+- "T@\"DOCThumbnailRequest\",R,N,V_currentRequest"
+- "T@\"FPItem\",R,N"
+- "T@\"FPProviderDomain\",R,N"
+- "T@\"ICQInAppAction\",R,N,V_action"
+- "T@\"ICQInAppMessaging\",R,N,V_messaging"
+- "T@\"INFile\",C,D,N"
+- "T@\"ISIcon\",R,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_actions"
+- "T@\"NSCache\",R,N,V_recentlyUsedNodes"
+- "T@\"NSDate\",R,N"
+- "T@\"NSError\",R,N"
+- "T@\"NSHashTable\",R,N,V_listeners"
+- "T@\"NSLayoutConstraint\",&,N,V_aspectRatioConstraint"
+- "T@\"NSMapTable\",R,N,V_cachedThumbnailNodes"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSObject\",R,N"
+- "T@\"NSObject<DOCNode>\",R,N,V_node"
+- "T@\"NSPersonNameComponents\",R,N"
+- "T@\"NSProgress\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_subTitle"
+- "T@\"NSString\",R,C,N,V_title"
+- "T@\"NSString\",R,C,N,V_type"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_imageName"
+- "T@\"NSURL\",R,N"
+- "T@\"QLThumbnailGenerator\",R,N,V_thumbnailGenerator"
+- "T@\"UIImage\",N,R"
+- "T@\"UIImage\",R,C,N,V_icon"
+- "T@\"UIImage\",R,N"
+- "T@\"UIImage\",R,N,V_desktopBadge"
+- "T@\"UIImage\",R,N,V_documentsBadge"
+- "T@\"UIImage\",R,N,V_downloadsBadge"
+- "T@\"UIImage\",R,N,V_genericSharepointBadge"
+- "T@\"UIImage\",R,N,V_plainFolderImage"
+- "T@\"UIImage\",R,N,V_sharedBadge"
+- "T@\"UIImage\",R,N,V_thumbnailImage"
+- "T@\"UIView\",&,N,V_borderView"
+- "T@\"UIViewController\",R,N"
+- "T@\"UTType\",R,N"
+- "T@,R,N"
+- "T@?,C,N,V_thumbnailGenerationRequiresDownloadHandler"
+- "TB,N,R"
+- "TB,N,V_addDecoration"
+- "TB,N,V_onlyCallbackOnOverlayImage"
+- "TB,N,V_representativeIcon"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisAnyParentTrashed"
+- "TB,R,N,GisCopying"
+- "TB,R,N,GisDownloaded"
+- "TB,R,N,GisDownloading"
+- "TB,R,N,GisExcludedFromSync"
+- "TB,R,N,GisFolded,V_folded"
+- "TB,R,N,GisInTrash"
+- "TB,R,N,GisInteractive"
+- "TB,R,N,GisInteractive,V_interactive"
+- "TB,R,N,GisItemPinned"
+- "TB,R,N,GisLoading"
+- "TB,R,N,GisPinnedSubitem"
+- "TB,R,N,GisRecursivelyDownloaded"
+- "TB,R,N,GisShared"
+- "TB,R,N,GisSharedByCurrentUser"
+- "TB,R,N,GisTrashed"
+- "TB,R,N,GisUploaded"
+- "TB,R,N,GisUploading"
+- "TB,R,N,V_needsUpdate"
+- "TQ,N,V_fetchOptions"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_contentType"
+- "TQ,R,N,V_style"
+- "Td,N"
+- "Td,R,N"
+- "Td,R,N,V_imageDimension"
+- "Td,R,N,V_minimumSize"
+- "Td,R,N,V_scale"
+- "Td,R,V_cornerRadius"
+- "Tq,N,V_code"
+- "Tq,R,N"
+- "T{CGSize=dd},N,V_fittingSize"
+- "T{CGSize=dd},R"
+- "T{CGSize=dd},R,N"
+- "T{CGSize=dd},R,N,V_size"
+- "T{UIEdgeInsets=dddd},R,V_insets"
+- "UI"
+- "UIImage"
+- "UIShapeProvider"
+- "UTF8String"
+- "Vv16@0:8"
+- "^v"
+- "^{_NSZone=}16@0:8"
+- "_TtC21DocumentManagerUICore10ImageCache"
+- "_TtC21DocumentManagerUICore13NodeThumbnail"
+- "_TtC21DocumentManagerUICore22HomeScreenTintObserver"
+- "_TtC21DocumentManagerUICore24DOCUIFolderAnimationView"
+- "_TtC21DocumentManagerUICoreP33_595D9CE99B152AB33A118330F75FAEEC12ImageRequest"
+- "_TtC21DocumentManagerUICoreP33_595D9CE99B152AB33A118330F75FAEEC15ImageCacheActor"
+- "_TtC21DocumentManagerUICoreP33_595D9CE99B152AB33A118330F75FAEEC9IconActor"
+- "_action"
+- "_actions"
+- "_addDecoration"
+- "_alternateThumbnailKeyForNode:originalKey:descriptor:"
+- "_appearState"
+- "_aspectRatioConstraint"
+- "_badgeSize"
+- "_badgedFolderIconForBadge:badgeSize:bottomInset:style:"
+- "_borderView"
+- "_bottomInset"
+- "_cachedThumbnailNodes"
+- "_callGenerationCompletionHandlers"
+- "_cancelCurrentRequest"
+- "_code"
+- "_colorDifferenceFromColor:"
+- "_contentType"
+- "_cornerRadius"
+- "_currentNodeThumbnailsBatch"
+- "_currentRequest"
+- "_decorationCornerRadius"
+- "_delegate"
+- "_descriptor"
+- "_desktopBadge"
+- "_desktopBadgeName"
+- "_doc_fileTypeCompare:"
+- "_doc_invertedColor"
+- "_doc_roundedRectWithCornerRadius:cornerRadiusIsStretchy:insets:"
+- "_doc_safeTintColor:"
+- "_documentsBadge"
+- "_documentsBadgeName"
+- "_downloadsBadge"
+- "_downloadsBadgeName"
+- "_endCurrentThumbnailsBatch"
+- "_fallback"
+- "_fetchOptions"
+- "_fetchThumbnailWithOptions:"
+- "_fittingSize"
+- "_folded"
+- "_folderIcon"
+- "_folderIconForSize:scale:"
+- "_folderIconsForImageNamePattern:documentsBadgeNamePattern:desktopBadgeNamePattern:sharedBadgeNamePattern:downloadsBadgeNamePattern:genericSharepointBadgeNamePattern:"
+- "_folderType"
+- "_generationCompletionHandlers"
+- "_generator"
+- "_genericSharepointBadge"
+- "_genericSharepointBadgeName"
+- "_icon"
+- "_imageDimension"
+- "_imageName"
+- "_insets"
+- "_interactive"
+- "_intrinsicContentSizeShortcutDisabled"
+- "_invalidated"
+- "_isEmbeddedScreen"
+- "_listeners"
+- "_messaging"
+- "_minimumSize"
+- "_needsUpdate"
+- "_node"
+- "_nodeThumbnailIdentifier"
+- "_notifyListeners"
+- "_onlyCallbackOnOverlayImage"
+- "_plainFolderImage"
+- "_primaryKey"
+- "_recentlyUsedNodes"
+- "_representativeIcon"
+- "_request"
+- "_scale"
+- "_searchParser"
+- "_setExtensionBundleId:"
+- "_setInvalidated:"
+- "_setLaunchId:"
+- "_setPickableTypes:"
+- "_setPickerMode:"
+- "_sharedBadge"
+- "_sharedBadgeBottomInset"
+- "_sharedBadgeName"
+- "_sharedBadgeSize"
+- "_size"
+- "_style"
+- "_subTitle"
+- "_thumbnail"
+- "_thumbnailCache"
+- "_thumbnailFallbackForNode:descriptor:currentThumbnail:"
+- "_thumbnailForNode:descriptor:forceFetch:"
+- "_thumbnailGenerationRequiresDownloadHandler"
+- "_thumbnailGenerator"
+- "_thumbnailImage"
+- "_thumbnailRequest"
+- "_title"
+- "_type"
+- "_useShortcutIntrinsicContentSize"
+- "action"
+- "actions"
+- "activeCalloutBar"
+- "activityType"
+- "addDecoration"
+- "addHomeScreenIconStyleObserver:"
+- "addListener:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addPointer:"
+- "addSubview:"
+- "adjustsFontForContentSizeCategory"
+- "affectsColorAppearance"
+- "allObjects"
+- "allocWithZone:"
+- "alpha"
+- "anyParentTrashed"
+- "array"
+- "arrayByAddingObject:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "aspectRatioConstraint"
+- "autorelease"
+- "averageColorInRect:"
+- "badgeForFolderType:"
+- "badgeSize"
+- "badgeSizeForFolderType:"
+- "badgedFolderIconForBadge:style:"
+- "badgedFolderIconForFolderType:style:"
+- "blue"
+- "boolValue"
+- "borderView"
+- "bottomAnchor"
+- "bottomInset"
+- "bottomInsetForFolderType:"
+- "boundingRect"
+- "bounds"
+- "bringSubviewToFront:"
+- "cachedDomain"
+- "cachedDomain:"
+- "cachedThumbnailNodes"
+- "canPerform:"
+- "canPerformActions:"
+- "cancel"
+- "cancelRequest:"
+- "capsuleShape"
+- "childItemCount"
+- "circleShape"
+- "class"
+- "clear"
+- "code"
+- "colorWithRed:green:blue:alpha:"
+- "compact"
+- "completionHandlers"
+- "confirmationRequiredWithDOCIntentLocationToConfirm:"
+- "confirmationRequiredWithObjectToConfirm:"
+- "conformsToProtocol:"
+- "conformsToType:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToAnchor:multiplier:"
+- "contentShape"
+- "contentType"
+- "contentTypeDescription"
+- "contentTypeWithMessage:"
+- "contentVersion"
+- "continuations"
+- "copy"
+- "copyWithZone:"
+- "copying"
+- "copyingProgress"
+- "cornerRadius"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentHandler"
+- "currentInAppMessageChangedNotification"
+- "currentRequest"
+- "currentThread"
+- "currentThumbnail"
+- "customFolderId"
+- "d"
+- "d16@0:8"
+- "d24@0:8@16"
+- "d24@0:8Q16"
+- "dateAdded"
+- "dateForSortingByRecents"
+- "dealloc"
+- "debugDescription"
+- "decorationCornerRadius"
+- "deepItemCount"
+- "defaultCenter"
+- "defaultValue"
+- "delegate"
+- "description"
+- "desktopBadge"
+- "didMoveToWindow"
+- "disableIconThumbnails"
+- "disambiguationWithDOCIntentLocationsToDisambiguate:"
+- "disambiguationWithObjectsToDisambiguate:"
+- "displayName"
+- "displayScale"
+- "doc_NSDirectionalEdgeInsetsFromInsets:"
+- "doc_UIEdgeInsetsFromDirectionalInsets:"
+- "doc_averageColorInRect:"
+- "doc_capsuleWithInset:"
+- "doc_capsuleWithInsets:"
+- "doc_circleWithInset:"
+- "doc_circleWithInsets:"
+- "doc_commonInit"
+- "doc_creationDate"
+- "doc_deprecated_interfaceOrientation"
+- "doc_effectiveContentSize"
+- "doc_eligibleActions"
+- "doc_fallbackSortIdentity"
+- "doc_folderIconType"
+- "doc_hasAppeared"
+- "doc_hasAppearedOrIsAppearing"
+- "doc_hasDisappeared"
+- "doc_hasDisappearedOrIsDisappearing"
+- "doc_identifiersForContentTypes:"
+- "doc_isAppearing"
+- "doc_isCollaborationInvitation"
+- "doc_isDisappearing"
+- "doc_isSMBSharepoint"
+- "doc_lastUsedDate"
+- "doc_nearestAncestorViewController"
+- "doc_owningViewController"
+- "doc_presentingViewController"
+- "doc_readableFromColor:fallbackColor:"
+- "doc_roundedRectWithConstantCornerRadius:inset:"
+- "doc_roundedRectWithConstantCornerRadius:insets:"
+- "doc_roundedRectWithStretchyCornerRadius:inset:"
+- "doc_roundedRectWithStretchyCornerRadius:insets:"
+- "doc_traitsAffectingFonts"
+- "documentContentTypes"
+- "documentsBadge"
+- "domainDisplayName"
+- "domainIdentifier"
+- "downloaded"
+- "downloading"
+- "downloadingError"
+- "downloadingProgress"
+- "downloadsBadge"
+- "drawInRect:"
+- "effect"
+- "encodeNodeWithCoder:"
+- "endBatching:"
+- "enumerateObjectsUsingBlock:"
+- "excludedFromSync"
+- "fallback"
+- "fetchFPItem:"
+- "fetchImageWithCompletionHandler:"
+- "fetchMessageFromNotification:"
+- "fetchOptions"
+- "fetchParent:"
+- "fetchParents:"
+- "fetchURL:"
+- "fetchWithOptions:"
+- "fetcher"
+- "fileSize"
+- "filename"
+- "firstObject"
+- "fittingImageViewDidLayout:"
+- "fittingSize"
+- "fixedRectShapeWithRect:cornerRadius:"
+- "folded"
+- "folder.badge.person.crop"
+- "folderCustomization"
+- "folderCustomizationEnabled"
+- "folderIcon"
+- "folderIconForDescriptor:"
+- "folderIcons"
+- "folderOverlays"
+- "folderType"
+- "fp_appContainerBundleIdentifier"
+- "fpfs_fpItem"
+- "frame"
+- "generateBestRepresentationForRequest:completionHandler:"
+- "generateThumbnailForRequest:updateHandler:statusHandler:completionHandler:"
+- "generateThumbnailWithCompletionHandler:"
+- "generator"
+- "genericSharepointBadge"
+- "getImageForImageDescriptor:completion:"
+- "getPromisedItemResourceValue:forKey:error:"
+- "getRed:green:blue:alpha:"
+- "green"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasFinishedTryingToFetchCorrectThumbnail"
+- "hash"
+- "heightAnchor"
+- "hideMenu"
+- "hideMenuIfActive"
+- "homeScreenConfiguration"
+- "homeScreenIconStyleConfiguration"
+- "homeScreenService:homeScreenIconStyleConfigurationDidChange:"
+- "icon"
+- "iconForNode:descriptor:"
+- "iconForURL:descriptor:"
+- "iconRequestForNode:descriptor:thumbnailGenerator:"
+- "iconRequestForURL:descriptor:thumbnailGenerator:"
+- "iconsFromIconPackage"
+- "identifier"
+- "identifierIgnoringDownloadStatus"
+- "image"
+- "imageAsset"
+- "imageCache"
+- "imageDimension"
+- "imageForDescriptor:"
+- "imageForType:"
+- "imageName"
+- "imageNamed:inBundle:"
+- "imageWithActions:"
+- "imageWithCGImage:scale:orientation:"
+- "imageWithMinimalIO"
+- "imageWithStyle:assetImage:"
+- "imageWithTraitCollection:"
+- "inProgressObservers"
+- "inTrash"
+- "indexOfObjectPassingTest:"
+- "init"
+- "initCommon"
+- "initWithCGColor:"
+- "initWithCGImage:"
+- "initWithCGImage:scale:orientation:"
+- "initWithCapacity:"
+- "initWithCode:userActivity:"
+- "initWithCoder:"
+- "initWithContentType:title:subTitle:icon:actions:"
+- "initWithCornerRadius:insets:"
+- "initWithDescriptor:"
+- "initWithFPItem:size:scale:representationTypes:"
+- "initWithFileAtURL:size:scale:representationTypes:"
+- "initWithFolderType:descriptor:"
+- "initWithFrame:"
+- "initWithGenerator:node:descriptor:fallback:"
+- "initWithICQInAppAction:"
+- "initWithICQInAppMessage:"
+- "initWithIdentifier:displayString:"
+- "initWithIdentifier:displayString:subtitleString:displayImage:"
+- "initWithImage:"
+- "initWithImageName:documentsBadgeName:dekstopBadgeName:sharedBadgeName:downloadsBadgeName:genericSharepointBadgeName:imageDimension:badgeDimension:badgeBottomInset:sharedBadgeDimension:sharedBadgeBottomInset:"
+- "initWithNode:descriptor:"
+- "initWithNode:descriptor:thumbnailGenerator:"
+- "initWithNode:size:scale:"
+- "initWithPrimaryKey:descriptor:"
+- "initWithRed:green:blue:alpha:"
+- "initWithRequest:"
+- "initWithScale:style:isFolded:isInteractive:isFolder:"
+- "initWithSize:format:"
+- "initWithSize:minimumSize:scale:style:isFolded:isInteractive:isFolder:"
+- "initWithSize:scale:"
+- "initWithSize:scale:style:isFolded:isInteractive:isFolder:"
+- "initWithTitle:type:"
+- "initWithType:"
+- "initWithURL:descriptor:thumbnailGenerator:"
+- "insertSubview:aboveSubview:"
+- "insets"
+- "intent"
+- "intentFromActivity:"
+- "intentFromGenericIntent:"
+- "intentLocationWithIdentifier:displayString:type:"
+- "intentLocationWithItem:"
+- "intentLocationWithTag:"
+- "interaction"
+- "interactionMode"
+- "interactive"
+- "interfaceOrientation"
+- "internalImageCache"
+- "intrinsicContentSize"
+- "invalidatable"
+- "invalidate"
+- "invalidateIntrinsicContentSize"
+- "isActionable"
+- "isAnyParentTrashed"
+- "isAppContainer"
+- "isBrowsable"
+- "isCloudItem"
+- "isCopying"
+- "isDownloaded"
+- "isDownloading"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToString:"
+- "isExcludedFromSync"
+- "isExternalDownloadPlaceholder"
+- "isFolded"
+- "isFolder"
+- "isFullyFormed"
+- "isInTrash"
+- "isInteractive"
+- "isItemPinned"
+- "isKindOfClass:"
+- "isLoading"
+- "isMemberOfClass:"
+- "isPackage"
+- "isPending"
+- "isPinnedSubitem"
+- "isProxy"
+- "isReadable"
+- "isRecursivelyDownloaded"
+- "isRepresentativeIcon"
+- "isRootItem"
+- "isShared"
+- "isSharedByCurrentUser"
+- "isTopLevelSharedItem"
+- "isTrashed"
+- "isUploaded"
+- "isUploading"
+- "isWritable"
+- "itemAccessDecorationForType:size:scale:prepare:"
+- "itemDecorations"
+- "itemID"
+- "itemIdentifier"
+- "itemPinned"
+- "lastObject"
+- "layer"
+- "layoutDirection"
+- "layoutSubviews"
+- "leadingAnchor"
+- "listeners"
+- "loading"
+- "localizedStandardTagsCompareNode:"
+- "localizedStringForKey:value:table:"
+- "locationIdentifier"
+- "locationType"
+- "longDateStringFromDate:"
+- "mainScreen"
+- "markThumbnailAsRecentlyUsed:"
+- "messaging"
+- "minimumSize"
+- "modificationDate"
+- "multiplier"
+- "name"
+- "needsUpdate"
+- "nodeThumbnailIdentifier"
+- "nodeURL"
+- "numberWithDouble:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observeUpdates"
+- "observers"
+- "on external monitors, decisions should not be made using interfaceOrientation (which is always Portrait)"
+- "onlyCallbackOnOverlayImage"
+- "options"
+- "ownerNameComponents"
+- "parse:"
+- "performAction"
+- "performActionWithContext:"
+- "performInBatch:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "placeholder"
+- "plainFolderImage"
+- "plainFolderImageWithStyle:"
+- "pointerAtIndex:"
+- "preferredContentSizeCategory"
+- "prepareImageForDescriptor:"
+- "prepareImagesForDescriptors:"
+- "presentingViewController"
+- "prewarmInProgress"
+- "primaryKey"
+- "providerDomainID"
+- "providerID"
+- "purge"
+- "purgeableKeys"
+- "q"
+- "q16@0:8"
+- "q24@0:8@\"NSObject<DOCNode>\"16"
+- "q24@0:8@16"
+- "recentlyUsedNodes"
+- "rectShapeWithCornerRadius:"
+- "recursivelyDownloaded"
+- "red"
+- "ref"
+- "registerForTraitChanges:withAction:"
+- "registerGenerationCompletionHandler:"
+- "release"
+- "removeAllObjects"
+- "removeListener:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removePointerAtIndex:"
+- "representativeIcon"
+- "requestForNode:descriptor:thumbnailGenerator:"
+- "resolveImage"
+- "resolvedNode"
+- "resolvedShapeInContext:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "safeAreaLayoutGuide"
+- "scale"
+- "scheduleUpdateIfNeeded"
+- "screen"
+- "self"
+- "separatorColor"
+- "separatorThicknessForTraitCollection:"
+- "service"
+- "setActive:"
+- "setAddDecoration:"
+- "setAspectRatioConstraint:"
+- "setAttributedText:"
+- "setBackgroundColor:"
+- "setBorderColor:"
+- "setBorderView:"
+- "setBorderWidth:"
+- "setClipsToBounds:"
+- "setCode:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHuggingPriority:forAxis:"
+- "setContentType:"
+- "setCornerCurve:"
+- "setCornerRadius:"
+- "setCountLimit:"
+- "setDateStyle:"
+- "setDecorationCornerRadius:"
+- "setDelegate:"
+- "setDisplayImage:"
+- "setDomainIdentifier:"
+- "setEvictsObjectsWhenApplicationEntersBackground:"
+- "setFallback:"
+- "setFetchOptions:"
+- "setFittingSize:"
+- "setFrame:"
+- "setIconMode:"
+- "setIconVariant:"
+- "setImage:"
+- "setLocation:"
+- "setLocationIdentifier:"
+- "setLocationType:"
+- "setMaximumCachedThumbnailCount:"
+- "setMinimumDimension:"
+- "setNeedsLayout"
+- "setNeedsUpdate"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOnlyCallbackOnOverlayImage:"
+- "setPriority:"
+- "setRepresentativeIcon:"
+- "setScale:"
+- "setShouldUseRestrictedExtension:"
+- "setText:"
+- "setThumbnail:"
+- "setThumbnailGenerationRequiresDownloadHandler:"
+- "setTimeStyle:"
+- "setTintColor:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserActivity:"
+- "setUserInterfaceStyle:"
+- "setVariantOptions:"
+- "sfSymbolName"
+- "shapeByApplyingInsets:"
+- "shapeWithProvider:"
+- "sharedBadge"
+- "sharedByCurrentUser"
+- "sharedGenerator"
+- "sharedLongDateFormatter"
+- "sharedMenuController"
+- "simplifiedFolderIcon"
+- "size"
+- "startBatching"
+- "startObservingUpdates"
+- "state"
+- "stopObservingUpdates"
+- "stringFromDate:"
+- "stringWithFormat:"
+- "stringWithValidatedFormat:validFormatSpecifiers:error:"
+- "strongToWeakObjectsMapTable"
+- "style"
+- "styleWithEffect:shape:"
+- "subTitle"
+- "successWithResolvedDOCIntentLocation:"
+- "successWithResolvedObject:"
+- "superclass"
+- "superview"
+- "supportsFolderCustomization"
+- "supportsSecureCoding"
+- "syncFetchFPItem:"
+- "system"
+- "systemBlueColor"
+- "systemImageNamed:"
+- "systemLayoutSizeFittingSize:"
+- "tags"
+- "threadDictionary"
+- "thumbnail"
+- "thumbnailFetcher"
+- "thumbnailForNode:descriptor:"
+- "thumbnailForNode:descriptor:forceFetch:"
+- "thumbnailGenerationRequiresDownloadHandler"
+- "thumbnailIconForRequest:"
+- "thumbnailIdentifier"
+- "thumbnailImage"
+- "thumbnailLoaded:"
+- "thumbnailOperationDidLoadThumbnail:representativeIcon:"
+- "thumbnailOperationFailedToLoadThumbnail"
+- "tintColor"
+- "title"
+- "topAnchor"
+- "trailingAnchor"
+- "traitCollection"
+- "traitCollectionByModifyingTraits:"
+- "translatesAutoresizingMaskIntoConstraints"
+- "trashed"
+- "type"
+- "typeForItemAccessType:"
+- "typeIdentifier"
+- "updateForChangedTraitsAffectingFonts"
+- "updateImage:addDecoration:"
+- "updateNodeThumbnailIdentifierTo:"
+- "uploaded"
+- "uploading"
+- "uploadingError"
+- "uploadingProgress"
+- "useAttributedTextNumber"
+- "useBlastDoorThumbnails"
+- "userInfo"
+- "userInterfaceStyle"
+- "v16@0:8"
+- "v16@?0@\"IFImage\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<DOCThumbnail>\"16"
+- "v24@0:8@\"<DOCThumbnailListener>\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"FPItem\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSObject<DOCNode>\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSURL\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"UIImage\">16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"NSURL\"8@\"NSError\"16"
+- "v28@0:8@16B24"
+- "v32@0:8@\"SBSHomeScreenService\"16@\"SBSHomeScreenIconStyleConfiguration\"24"
+- "v32@0:8@16@24"
+- "v32@0:8{CGSize=dd}16"
+- "v32@?0@\"QLThumbnailRepresentation\"8q16@\"NSError\"24"
+- "valueWithNonretainedObject:"
+- "vendorBadgeDecorationForType:size:scale:prepare:"
+- "viewControllerForView:"
+- "viewIfLoaded"
+- "weakObjectsHashTable"
+- "weakObjectsPointerArray"
+- "whiteColor"
+- "widthAnchor"
+- "willHideMenuNotification"
+- "willShowMenuNotification"
+- "window"
+- "windowScene"
+- "zone"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}24@0:8Q16"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{NSDirectionalEdgeInsets=dddd}48@0:8{UIEdgeInsets=dddd}16"
+- "{UIEdgeInsets=\"top\"d\"left\"d\"bottom\"d\"right\"d}"
+- "{UIEdgeInsets=dddd}16@0:8"
+- "{UIEdgeInsets=dddd}48@0:8{NSDirectionalEdgeInsets=dddd}16"
+
+```

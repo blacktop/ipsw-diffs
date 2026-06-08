@@ -1,0 +1,851 @@
+## IntlPreferences
+
+> `/System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences`
+
+```diff
+
+-475.4.1.0.0
+-  __TEXT.__text: 0x1b574
+-  __TEXT.__auth_stubs: 0xab0
+-  __TEXT.__objc_methlist: 0x1154
+-  __TEXT.__const: 0x1ca
+-  __TEXT.__cstring: 0x12a5
+-  __TEXT.__oslogstring: 0xe7c
+-  __TEXT.__gcc_except_tab: 0x208
++494.1.0.0.0
++  __TEXT.__text: 0x1b7c0
++  __TEXT.__objc_methlist: 0x119c
++  __TEXT.__const: 0x1f0
++  __TEXT.__cstring: 0x12e5
++  __TEXT.__oslogstring: 0xea1
++  __TEXT.__gcc_except_tab: 0x220
+   __TEXT.__dlopen_cstrs: 0x20a
+   __TEXT.__ustring: 0x4
+-  __TEXT.__swift5_typeref: 0x5a
+-  __TEXT.__unwind_info: 0x5f0
+-  __TEXT.__objc_classname: 0x2ea
+-  __TEXT.__objc_methname: 0x3bdc
+-  __TEXT.__objc_methtype: 0x43b
+-  __TEXT.__objc_stubs: 0x34a0
+-  __DATA_CONST.__got: 0x2f8
+-  __DATA_CONST.__const: 0x650
++  __TEXT.__swift5_typeref: 0x76
++  __TEXT.__unwind_info: 0x5d0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x678
+   __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1058
++  __DATA_CONST.__objc_selrefs: 0x1088
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_arraydata: 0x300
+-  __AUTH_CONST.__auth_got: 0x568
++  __DATA_CONST.__got: 0x310
+   __AUTH_CONST.__const: 0x280
+-  __AUTH_CONST.__cfstring: 0x1a60
+-  __AUTH_CONST.__objc_const: 0x1620
++  __AUTH_CONST.__cfstring: 0x1a80
++  __AUTH_CONST.__objc_const: 0x1630
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH_CONST.__objc_arrayobj: 0x180
+   __AUTH_CONST.__objc_dictobj: 0x78
++  __AUTH_CONST.__objc_arrayobj: 0x180
+   __AUTH_CONST.__objc_doubleobj: 0x10
++  __AUTH_CONST.__auth_got: 0x600
+   __AUTH.__objc_data: 0xa0
+   __DATA.__objc_ivar: 0x60
+-  __DATA.__data: 0x178
+-  __DATA.__bss: 0x1b8
++  __DATA.__data: 0x190
++  __DATA.__bss: 0x1d8
+   __DATA_DIRTY.__objc_data: 0x690
+-  __DATA_DIRTY.__bss: 0x50
++  __DATA_DIRTY.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: E1C9A663-BFE5-342B-A4C6-33C7F781984B
+-  Functions: 446
+-  Symbols:   1895
+-  CStrings:  1216
++  UUID: EEBC5A97-208D-3FDF-A800-8BB63CF6C80F
++  Functions: 458
++  Symbols:   1928
++  CStrings:  544
+ 
+Symbols:
++ +[IntlUtility clearLanguageDiscoveryFollowUp]
++ +[IntlUtility getMegadomeDescription:]
++ +[IntlUtility rejectDiscoveredLanguage:]
++ +[IntlUtility rejectDiscoveredLanguage:clearFollowUp:]
++ GCC_except_table91
++ GCC_except_table95
++ _CFPreferencesCopyAppValue
++ __OBJC_$_CATEGORY_NSLocale_$_IntlPreferencesAdditions
++ __OBJC_$_CATEGORY_NSString_$_IPScriptAdditions
++ __OBJC_$_CLASS_METHODS_NSLocale(IntlPreferencesAdditions|Setup|IntlPreferences)
++ __OBJC_$_INSTANCE_METHODS_NSLocale(IntlPreferencesAdditions|Setup|IntlPreferences)
++ __OBJC_$_INSTANCE_METHODS_NSString(IPScriptAdditions|IPDateFormatExtra)
++ __OBJC_$_PROP_LIST_NSLocale_$_IntlPreferencesAdditions
++ ___38+[IntlUtility getMegadomeDescription:]_block_invoke
++ ___38+[IntlUtility getMegadomeDescription:]_block_invoke.239
++ ___38+[IntlUtility getMegadomeDescription:]_block_invoke.cold.1
++ ___46+[IntlUtility preferredLanguagesForBundleIDs:]_block_invoke.246
++ ___49+[IntlUtility _setPreferredLanguage:forBundleID:]_block_invoke.253
++ ___block_descriptor_40_e8_32bs_e18_v16?0"NSString"8ls32l8
++ ___block_literal_global.145
++ ___block_literal_global.160
++ ___block_literal_global.170
++ ___block_literal_global.176
++ ___block_literal_global.263
++ ___block_literal_global.78
++ __swiftEmptyArrayStorage
++ __swift_stdlib_malloc_size
++ _canonicalKeyToValueIdentifierToNumericValueMap.onceToken.158
++ _canonicalKeyToValueIdentifierToNumericValueMap.onceToken.174
++ _canonicalKeyToValueIdentifierToNumericValueMap.sMapping.157
++ _canonicalKeyToValueIdentifierToNumericValueMap.sMapping.173
++ _canonicalNameToNativeKeyName.onceToken.156
++ _canonicalNameToNativeKeyName.onceToken.172
++ _canonicalNameToNativeKeyName.sMapping.155
++ _canonicalNameToNativeKeyName.sMapping.171
++ _malloc_size
++ _memmove
++ _nativeKeyNameToCanonicalKeyName.onceToken.143
++ _nativeKeyNameToCanonicalKeyName.onceToken.168
++ _nativeKeyNameToCanonicalKeyName.sMapping.142
++ _nativeKeyNameToCanonicalKeyName.sMapping.167
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$clearLanguageDiscoveryFollowUp
++ _objc_msgSend$getMegadomeDescription:
++ _objc_msgSend$matchedLanguagesFromAvailableLanguages:forPreferredLanguages:
++ _objc_msgSend$rejectDiscoveredLanguage:clearFollowUp:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x8
++ _objc_retain_x9
++ _swift_arrayInitWithCopy
++ _swift_release_x19
++ _swift_release_x21
++ _swift_release_x25
++ _swift_release_x28
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6ScriptV
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 10Foundation6LocaleV12LanguageCodeV
+- GCC_except_table85
+- GCC_except_table89
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- __OBJC_$_CATEGORY_NSLocale_$_Setup
+- __OBJC_$_CATEGORY_NSString_$_IPDateFormatExtra
+- __OBJC_$_CLASS_METHODS_NSLocale(Setup|IntlPreferencesAdditions|IntlPreferences)
+- __OBJC_$_INSTANCE_METHODS_NSLocale(Setup|IntlPreferencesAdditions|IntlPreferences)
+- __OBJC_$_INSTANCE_METHODS_NSString(IPDateFormatExtra|IPScriptAdditions)
+- ___46+[IntlUtility preferredLanguagesForBundleIDs:]_block_invoke.241
+- ___49+[IntlUtility _setPreferredLanguage:forBundleID:]_block_invoke.248
+- ___block_literal_global.146
+- ___block_literal_global.161
+- ___block_literal_global.171
+- ___block_literal_global.177
+- ___block_literal_global.258
+- ___block_literal_global.79
+- _canonicalKeyToValueIdentifierToNumericValueMap.onceToken.159
+- _canonicalKeyToValueIdentifierToNumericValueMap.onceToken.175
+- _canonicalKeyToValueIdentifierToNumericValueMap.sMapping.158
+- _canonicalKeyToValueIdentifierToNumericValueMap.sMapping.174
+- _canonicalNameToNativeKeyName.onceToken.157
+- _canonicalNameToNativeKeyName.onceToken.173
+- _canonicalNameToNativeKeyName.sMapping.156
+- _canonicalNameToNativeKeyName.sMapping.172
+- _nativeKeyNameToCanonicalKeyName.onceToken.144
+- _nativeKeyNameToCanonicalKeyName.onceToken.169
+- _nativeKeyNameToCanonicalKeyName.sMapping.143
+- _nativeKeyNameToCanonicalKeyName.sMapping.168
+- _swift_release
+- _swift_retain
+CStrings:
++ "IPLanguageDiscoveryRejectedLanguages"
++ "getMegadomeDescription XPC error: %@"
++ "v16@?0@\"NSString\"8"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"NPSDomainAccessor\""
+- "@\"NPSManager\""
+- "@\"NSArray\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"24@0:8@\"NSString\"16"
+- "@\"NSLocale\""
+- "@\"NSMutableArray\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8s16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8o^@16"
+- "@28@0:8@16B24"
+- "@28@0:8B16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^{ULocaleDisplayNames=}24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24Q32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8@16Q24Q32"
+- "@40@0:8@16Q24o^@32"
+- "@44@0:8@16@24Q32B40"
+- "@48@0:8@16@24@32@40"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B48@0:8@16@24@32@40"
+- "ICUdisplayNameForLanguage:capitalization:"
+- "IPDateFormat"
+- "IPDateFormatExtra"
+- "IPDictionaryExtensions"
+- "IPFormat"
+- "IPFoundationNamePreferenceInfoProvider"
+- "IPInternationalAnalytics"
+- "IPLanguage"
+- "IPLanguageListGenerator"
+- "IPLanguageListManager"
+- "IPLanguagesWithLanguages:normalize:"
+- "IPLocalizationSwitcherProtocol"
+- "IPNamePreferenceInfoProvider"
+- "IPNumberFormat"
+- "IPOSXABNamePreferenceInfoProvider"
+- "IPScriptAdditions"
+- "IPSettingsUtilities"
+- "IP_HK_MO_yue_Hant_migrator"
+- "IP_Zawgyi_migrator"
+- "IP_advancedSettings_migrator"
+- "IP_emptyPreferences_migrator"
+- "IP_pa_Arab_to_pa_Aran_migrator"
+- "IP_scriptSelection_migrator"
+- "IP_unsupportedVariantsAddedByKeyboards_migrator"
+- "IPiOSABNamePreferenceInfoProvider"
+- "ISMigrator"
+- "ISRootMigrator"
+- "IntlPreferencesAdditions"
+- "IntlUtility"
+- "NSObject"
+- "NSPersonNameComponentsFormatterPreferences"
+- "Q16@0:8"
+- "Setup"
+- "T#,R"
+- "T@\"IPLanguage\",R,N"
+- "T@\"NPSDomainAccessor\",&,N,V_gizmoGlobalDomain"
+- "T@\"NPSManager\",&,N,V_syncManager"
+- "T@\"NSArray\",&,N,V_preferredLanguages"
+- "T@\"NSArray\",&,N,V_systemLanguages"
+- "T@\"NSArray\",R,C"
+- "T@\"NSArray\",R,N,V_systemLanguages"
+- "T@\"NSDictionary\",R,C"
+- "T@\"NSLocale\",&,N,V_preferredLocale"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_localizedStringForName"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C"
+- "T@\"NSString\",C,N,V_currentVersion"
+- "T@\"NSString\",C,N,V_previousVersion"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_decimalSeparator"
+- "T@\"NSString\",R,N,V_formattedNumber"
+- "T@\"NSString\",R,N,V_groupingSeparator"
+- "T@\"NSString\",R,N,V_option"
+- "T@\"NSString\",R,N,V_systemDisplayLanguage"
+- "T@\"NSString\",R,N,V_title"
+- "TB,N,V_isErase"
+- "TB,N,V_isRestoreFromBackup"
+- "TB,N,V_newUserAccount"
+- "TQ,N,V_platform"
+- "TQ,N,V_previousSchemaVersion"
+- "TQ,R"
+- "UDisplayContextForIUDisplayNameContext:"
+- "URL"
+- "URLForResource:withExtension:"
+- "UTF8String"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_archivedPreferencesWithOverridingLanguages:targetPlatform:hash:"
+- "_currentGlobalUserInflection"
+- "_currentGlobalUserInflectionIfAvailable"
+- "_currentVersion"
+- "_dataForLunarCalendar:"
+- "_decimalSeparator"
+- "_defaultDisplayNameOrder"
+- "_defaultShortNameFormat"
+- "_defaultUsesTwelveHourClockForLocaleIdentifier:"
+- "_deviceLanguage"
+- "_enumerateLongCharactersInRange:usingBlock:"
+- "_formattedNumber"
+- "_getXPCConnectionForLocalizationSwitcher"
+- "_gizmoGlobalDomain"
+- "_globalPreferredLanguages"
+- "_groupingSeparator"
+- "_hashesFromAppPreferences:"
+- "_identifier"
+- "_inputModesToEnableForLocale:"
+- "_insertFallbackLanguageIfNecessaryForRegion:"
+- "_isErase"
+- "_isRestoreFromBackup"
+- "_language:usesSameLocalizationAs:"
+- "_languageIdentifiersForLanguage:region:"
+- "_languagesForMultilingualSetupWithKeyboardsIDs:"
+- "_localeIdentifierForLanguage:region:"
+- "_localeIdentifierForRegionChangeFrom:to:"
+- "_localizedStringForName"
+- "_lunarCalendarData"
+- "_lunarCalendars"
+- "_name"
+- "_newUserAccount"
+- "_option"
+- "_platform"
+- "_postPreferencesChangedNotification"
+- "_preferencesForSetLanguageAndRegion:"
+- "_preferredLanguages"
+- "_preferredLanguagesForBundleID:"
+- "_preferredLanguagesForBundleID:withAppRecord:"
+- "_preferredLanguagesForBundleID:withBundleRecord:"
+- "_preferredLocale"
+- "_preferredTemperatureUnit"
+- "_previousSchemaVersion"
+- "_previousVersion"
+- "_proposedOverrideLanguageFromLanguage:forLocalizations:preferredLanguages:regionCode:"
+- "_requiresMultilingualSetupWithKeyboardIDs:"
+- "_sanitizedLanguageIdentifierFromKeyboardLanguage:"
+- "_sanitizedLanguageIdentifierFromKeyboardLanguage:currentLocale:"
+- "_setAsGlobalUserInflection"
+- "_setPreference:toValue:usingExistingGetter:"
+- "_setPreferredLanguage:forBundleID:"
+- "_setPreferredTemperatureUnit:"
+- "_setUsesTwelveHourClock:"
+- "_setUsesTwelveHourClockForLoginWindow:"
+- "_shortNameIsEnabled"
+- "_shouldPreferNicknames"
+- "_sortedCalendarIdentifiersFrom:"
+- "_subdivisionCodeFromSubdivisionTag:restrictedToRegionCode:"
+- "_supportedCalendarsOnEmbeddedSystems"
+- "_syncManager"
+- "_syncronizeGizmoDefaultWithKey:value:"
+- "_systemDisplayLanguage"
+- "_systemLanguages"
+- "_title"
+- "_usesTwelveHourClock"
+- "_usesTwelveHourClockForLoginWindow"
+- "acquireWithError:"
+- "activeInputModeIdentifiers"
+- "activePairedDeviceSelectorBlock"
+- "addEntriesFromDictionary:"
+- "addLikelySubtagsForLocaleIdentifier:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allKeys"
+- "allObjects"
+- "allValues"
+- "alternateContinentOfRegion:"
+- "alternateDSID"
+- "appendRegionalVariantsToLanguageIdentifiers:regionCode:"
+- "applicationProxyForIdentifier:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "archivedPreferences"
+- "archivedPreferencesForTargetPlatform:"
+- "archivedPreferencesWithHash:"
+- "archivedPreferencesWithHashesForBundleIDs:"
+- "archivedPreferencesWithHashesForBundleIDs:reply:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayByExcludingObjectsInArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithContentsOfURL:"
+- "arrayWithObjects:count:"
+- "autorelease"
+- "availableDateFormats"
+- "availableFormats"
+- "availableLocaleIdentifiers"
+- "baseLanguageFromLanguage:"
+- "baseLanguageIdentifierFromIdentifier:"
+- "baseSystemLanguages"
+- "beginActivityWithOptions:reason:"
+- "boolValue"
+- "bundleForClass:"
+- "bundleRecordWithBundleIdentifier:allowPlaceholder:error:"
+- "bundleURL"
+- "bundleWithIdentifier:"
+- "bundleWithURL:"
+- "bytes"
+- "cStringUsingEncoding:"
+- "calendarIdentifier"
+- "canCapitalizeAutonymForLanguage:"
+- "canRemoveLanguages:fromPreferredLanguages:"
+- "canRenderLanguage:"
+- "canonicalKeyToValueIdentifierToNumericValueMap"
+- "canonicalLanguageAndScriptCodeIdentifierForIdentifier:"
+- "canonicalLanguageIdentifierFromString:"
+- "canonicalLocaleIdentifier:withNewLanguageIdentifier:"
+- "canonicalLocaleIdentifierFromComponents:"
+- "canonicalLocaleIdentifierFromString:"
+- "canonicalLocaleIdentifierWithValidCalendarForComponents:"
+- "canonicalNameToNativeKeyName"
+- "capitalizeFirstWordOfName:accordingToLanguage:"
+- "capitalizedStringWithLocale:"
+- "characterAtIndex:"
+- "checkForDiscoveredLanguages:"
+- "class"
+- "compare:"
+- "compare:options:"
+- "components:fromDate:"
+- "componentsFromLocaleIdentifier:"
+- "componentsJoinedByString:"
+- "conformsToProtocol:"
+- "containsObject:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countryCode"
+- "currentDateFormat"
+- "currentFormat"
+- "currentLocale"
+- "currentPlatform"
+- "currentUser"
+- "currentVersion"
+- "d16@0:8"
+- "dataContainerURL"
+- "dataWithBytes:length:"
+- "date"
+- "dateFormat"
+- "dateFormatFromFormatter:style:"
+- "dateFormatIsAllNumeric:"
+- "dateFormatterFromLanguage"
+- "dateFormatterFromLocale"
+- "dateFromComponents:"
+- "dateWithTimeIntervalSince1970:"
+- "debugDescription"
+- "decimalSeparator"
+- "defaultCalendarForLocaleID:"
+- "defaultLanguagesForMultilingualSetup"
+- "defaultNumberingSystemForLocaleID:"
+- "description"
+- "deviceLanguageIdentifier"
+- "deviceLanguageLocale"
+- "deviceLanguagesForChangingDeviceLanguage:"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryWithCapacity:"
+- "dictionaryWithContentsOfURL:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithObjectsAndKeys:"
+- "displayNameForDialect:context:displayLanguage:"
+- "displayNameForLanguage:context:displayLanguage:"
+- "displayNameForLocale:displayLanguage:capitalization:short:"
+- "displayNameForNormalizedLanguage:context:displayLanguage:"
+- "displayNameForNumberingSystemWithIdentifier:localeIdentifier:"
+- "displayNameForNumberingSystemWithIdentifier:localeIdentifier:short:"
+- "displayNameForRegion:displayLanguage:capitalization:"
+- "displayNameForRegion:displayLanguage:capitalization:short:"
+- "displayNameForRegion:displayLanguage:context:short:"
+- "displayNameForSelectableScriptCode:"
+- "domain"
+- "effectiveSystemLanguagesWithUnsupportedVariant:forPreferredLanguages:"
+- "enableDefaultInputModesForCurrentLocale"
+- "enableDefaultKeyboardForPreferredLanguages"
+- "enableInputModesForLocale:addToFront:"
+- "enabled"
+- "enabledInputModeIdentifiers"
+- "endActivity:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumeratePreferredCalendarsForLocaleID:usingBlock:"
+- "enumerateSubstringsInRange:options:usingBlock:"
+- "era"
+- "evaluateWithObject:"
+- "exemplarForLanguage:"
+- "explanationTextForSelectableScripts"
+- "externalRepresentation"
+- "fetchWatchAppBundleIDForCompanionAppBundleID:completion:"
+- "filterLanguageList:forRegion:fromLanguages:"
+- "filteredLanguagesBySearchString:"
+- "firstIndex"
+- "firstObject"
+- "forceCapitalizationInLanguageLists"
+- "formattedNumber"
+- "formattingContextFromIUDisplayNameContext:"
+- "generator"
+- "getActivePairedDevice"
+- "getAllDevicesWithArchivedAltAccountDevicesMatching:"
+- "getCharacters:range:"
+- "gizmoGlobalDomain"
+- "groupingSeparator"
+- "hasPrefix:"
+- "i24@0:8Q16"
+- "identifier"
+- "importPreferredLanguagesForPreferences:"
+- "importPreferredLanguages_macOS_10_9_forPreferences:"
+- "indexGreaterThanIndex:"
+- "indexOfObject:"
+- "indexesOfObjectsPassingTest:"
+- "infoClassFromPreferencesSource:"
+- "init"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithBytes:length:encoding:"
+- "initWithCalendarIdentifier:"
+- "initWithCapacity:"
+- "initWithDecimalSeparator:groupingSeparator:"
+- "initWithDomain:"
+- "initWithExplanation:"
+- "initWithExternalRepresentation:error:"
+- "initWithLocale:"
+- "initWithMachServiceName:options:"
+- "initWithOption:title:"
+- "initWithPredicate:context:"
+- "initWithPreferredLanguages:"
+- "initWithPreferredLanguages:preferredLocale:"
+- "initWithPreferredLanguages:preferredLocale:systemLanguages:"
+- "initWithSystemLanguages:"
+- "initializeMirrorSettings"
+- "insertObject:atIndex:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invertedDictionary"
+- "isChineseLikeLunarCalendar:"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToString:"
+- "isErase"
+- "isIdentity"
+- "isKindOfClass:"
+- "isLunarCalendarDefaultOn"
+- "isLunarCalendarDefaultOnForLanguage:locale:"
+- "isMemberOfClass:"
+- "isMirroringEnabled"
+- "isMultiUser"
+- "isPaired"
+- "isProxy"
+- "isRestoreFromBackup"
+- "isYearlessDate:forCalendar:"
+- "languageArrayAfterSettingLanguage:fallback:toLanguageArray:"
+- "languageCode"
+- "languageFromLanguage:byReplacingRegion:"
+- "languageIdentifierForRegisteringPreferredLanguageFromAddedKeyboardLanguage:forPreferredLanguages:"
+- "languageIdentifierFromIdentifier:withRegion:"
+- "languageList"
+- "languageVariants"
+- "languageWithIdentifier:"
+- "languageWithIdentifier:normalize:"
+- "languagesForMultilingualSetup"
+- "languagesForRegion:subdivision:withThreshold:filter:"
+- "length"
+- "localeByChangingLanguageTo:"
+- "localeForCalendarID:"
+- "localeForCalendarID:andLocale:"
+- "localeForCalendarID:andLocale:preferredLanguages:"
+- "localeFromDeviceLanguage"
+- "localeFromDeviceLocale"
+- "localeIdentifier"
+- "localeIdentifierForRegionChange:"
+- "localeIdentifierFromComponents:"
+- "localeIdentifierWithUpdatedScript:"
+- "localeWithLocaleIdentifier:"
+- "localizations"
+- "localizedLanguageForLanguage:"
+- "localizedNameForScript:"
+- "localizedStandardCompare:"
+- "localizedStringForCalendarIdentifier:"
+- "localizedStringForKey:value:table:"
+- "localizedStringForLanguage:context:"
+- "localizedStringForName"
+- "lowercaseString"
+- "lunarCalendarsForLocaleID:"
+- "mBidiLanguagesArray"
+- "mBidiTestedLanguagesArray"
+- "mainBundle"
+- "manager"
+- "mappedPreferencesForPreferences:from:to:"
+- "migrateForPreferences:keyboards:"
+- "migrateOtherSystemSettings"
+- "migrateToUseZawgyiForPreferences:"
+- "migratorForNewUserAccountWithVersion:"
+- "migratorFromSchemaVersion:"
+- "migratorFromVersion:toVersion:"
+- "migratorFromVersion:toVersion:platform:"
+- "migratorFromVersion:toVersion:platform:newUserAccount:"
+- "minimizedLanguage"
+- "mirrorLanguagesAndLocaleToWatch"
+- "mirrorToWatchIfNecessary"
+- "month"
+- "mostPreferredLanguageOf:withPreferredLanguages:forUsage:options:"
+- "mutableCopy"
+- "name"
+- "nativeKeyNameToCanonicalKeyName"
+- "newUserAccount"
+- "normalizedEnabledInputModeIdentifiers"
+- "normalizedLanguageIDFromString:"
+- "normalizedLocalizations"
+- "notifyPreferredLanguageChangedForBundleID:"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "numberingSystemForLocaleID:"
+- "numberingSystemsForLocaleID:"
+- "numberingSystemsFromArray:forLocaleID:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKey:inDomain:"
+- "objectForKeyedSubscript:"
+- "objectsAtIndexes:"
+- "option"
+- "optionNameForSelectableScripts"
+- "optionNameWithColonForSelectableScripts"
+- "orderedSet"
+- "orderedSetWithArray:"
+- "orderedSetWithObject:"
+- "otherLanguages"
+- "parentLocaleIdentifierForIdentifier:"
+- "path"
+- "perAppLanguageSelectionBundleIdentifiers"
+- "performMigration"
+- "performMigrationForPreferences:"
+- "performMigrationForUserPreferences:systemPreferences:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "platform"
+- "postLocaleChangedNotification"
+- "predicateMatchingBundleIdentifier:"
+- "predicateWithFormat:"
+- "preferenceKeysForSelectableScripts"
+- "preferredLanguageForBundleID:"
+- "preferredLanguagesForBundleID:reply:"
+- "preferredLanguagesForBundleIDs:"
+- "preferredLanguagesForBundleIDs:reply:"
+- "preferredLanguagesForRegion:"
+- "preferredLanguagesForRegionWithoutFiltering:"
+- "preferredLanguagesFromLanguages:byAddingFallbacksForRegion:"
+- "preferredLocale"
+- "preferredLocalizations"
+- "preferredLocalizationsFromArray:forPreferences:"
+- "preferredLunarCalendarForLocaleID:"
+- "preheat"
+- "previousSchemaVersion"
+- "previousVersion"
+- "previousVersionIsOlderThanMacOS:iOS:watchOS:tvOS:"
+- "processInfo"
+- "q24@0:8Q16"
+- "q32@0:8q16@24"
+- "rangeOfCharacterFromSet:"
+- "regionCode"
+- "regionalVariantLanguagesForBaseLanguage:"
+- "regionalVariantLanguagesForSystemLanguages"
+- "registerPreferredLanguage:usage:confidence:"
+- "registerPreferredLanguageForAddedKeyboardLanguage:"
+- "release"
+- "remoteObjectProxy"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectForKey:inDomain:"
+- "removeObjectsForKeys:"
+- "removeObjectsInArray:"
+- "renderableLanguagesFromList:"
+- "renderableLocaleLanguages"
+- "renderableUILanguages"
+- "replaceObjectAtIndex:withObject:"
+- "reportGeneralStatistics"
+- "reportPerAppLanguageStatistics"
+- "reportStatistics"
+- "requiresMultilingualSetup"
+- "resetCustomFormats"
+- "resetTimeFormat"
+- "respondsToSelector:"
+- "restrictedCountryCodes"
+- "resume"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "runPostLanguageChangeOperationsWithNotifications:"
+- "sampleTime"
+- "saveInputModes:"
+- "scriptCode"
+- "scriptCodeFromLanguage:"
+- "selectableScriptCodes"
+- "selectedScript"
+- "self"
+- "set"
+- "setArchivedPreferences:"
+- "setArray:"
+- "setConfigurationInfo:forIdentifier:forAltDSID:completion:"
+- "setCurrentVersion:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDay:"
+- "setDecimalSeparator:"
+- "setDefaultDisplayNameOrder:"
+- "setEra:"
+- "setFormat:"
+- "setGizmoGlobalDomain:"
+- "setGroupingSeparator:"
+- "setHour:"
+- "setIdentifier:"
+- "setInteger:forKey:"
+- "setIsErase:"
+- "setIsRestoreFromBackup:"
+- "setLanguage:"
+- "setLanguage:postNotification:"
+- "setLanguageAndRegion:"
+- "setLanguageAndRegion:postNotification:"
+- "setLanguageToPreferredLanguages:fallback:"
+- "setLanguages:"
+- "setLocale:"
+- "setLocaleAfterLanguageChange:"
+- "setLocaleAfterRegionChange:"
+- "setLocaleAndResetCustomFormat:"
+- "setLocaleAndResetTimeFormat:"
+- "setLocaleOnly:"
+- "setLocalizedStringForName:"
+- "setMaximumTerminationResistance:"
+- "setMinute:"
+- "setMonth:"
+- "setName:"
+- "setNewUserAccount:"
+- "setNumberStyle:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKey:inDomain:"
+- "setObject:forKeyedSubscript:"
+- "setPlatform:"
+- "setPreferNicknamesDefault:"
+- "setPreferredLanguage:forBundleID:"
+- "setPreferredLanguage:forBundleID:andRelaunchWithCompletion:"
+- "setPreferredLanguage:forBundleID:andRelaunchWithReply:"
+- "setPreferredLanguageAndUpdateLocale:"
+- "setPreferredLanguages:"
+- "setPreferredLocale:"
+- "setPreviousSchemaVersion:"
+- "setPreviousVersion:"
+- "setRegion:"
+- "setRegion:changeLanguageVariant:postNotification:"
+- "setRegion:postNotification:"
+- "setRegion:updateFirstLanguage:"
+- "setRemoteObjectInterface:"
+- "setSecond:"
+- "setSelectedScript:"
+- "setShortNameFormat:"
+- "setShortNameIsEnabled:"
+- "setSyncManager:"
+- "setSystemLanguages:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setWithArray:"
+- "setWithCapacity:"
+- "setWithObject:"
+- "setYear:"
+- "setYearlessYear:forCalendar:"
+- "sharedDeviceConnection"
+- "sharedInputModeController"
+- "sharedInstance"
+- "sharedIntlUtility"
+- "sharedManager"
+- "sharedPreferencesController"
+- "shortDisplayNameForNumberingSystemWithIdentifier:localeIdentifier:"
+- "sortByLocalizedLanguage:"
+- "sortUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingSelector:"
+- "standardUserDefaults"
+- "stdLanguageIDs"
+- "stringByAppendingString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "stringWithCharacters:length:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "subarrayWithRange:"
+- "subscribeToAppLanguageChanges:"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "suggestedInputModesForLocales:"
+- "superclass"
+- "supportedCJLanguageIdentifiers"
+- "supportedCalendars"
+- "supportedInputModeIdentifiers"
+- "supportedLanguages"
+- "syncManager"
+- "synchronize"
+- "synchronizeNanoDomain:keys:"
+- "synchronizeUserDefaultsDomain:keys:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemDisplayLanguage"
+- "systemLanguages"
+- "systemTimeZone"
+- "timeIntervalSince1970"
+- "title"
+- "unregisterPreferredLanguageForKeyboardLanguage:"
+- "unsignedIntegerValue"
+- "unsubscribeFromAppLanguageChanges"
+- "updateAppleLanguagesSchemaVersionToCurrent"
+- "updateLocale:"
+- "updatePreferencesForApplicationWithIdentifier:preferences:writingToPreferencesLocation:forPairedDevice:options:completion:"
+- "upgradeAppleLanguagesFrom:to:"
+- "uppercaseLetterCharacterSet"
+- "uppercaseString"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16B24B28"
+- "v32@0:8@16q24"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16q24:32"
+- "v40@0:8{_NSRange=QQ}16@?32"
+- "validateLocale:"
+- "valueForProperty:"
+- "valueIdentifierToValueMapFromCanonicalKey:"
+- "valueToValueIdentifierMapFromCanonicalKey:"
+- "writeLanguageAndLocaleConfigurationIfNeededWithCompletion:"
+- "year"
+- "yearlessYearForMonth:withCalendar:"
+- "zone"
+
+```

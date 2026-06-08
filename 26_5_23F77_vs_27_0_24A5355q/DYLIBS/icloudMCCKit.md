@@ -1,0 +1,658 @@
+## icloudMCCKit
+
+> `/System/Library/PrivateFrameworks/icloudMCCKit.framework/icloudMCCKit`
+
+```diff
+
+-2025.4.3.0.0
+-  __TEXT.__text: 0x38aec
+-  __TEXT.__auth_stubs: 0x1280
++2027.0.3.0.0
++  __TEXT.__text: 0x35d4c
+   __TEXT.__objc_methlist: 0xbd8
+   __TEXT.__const: 0x17b8
+-  __TEXT.__cstring: 0x1704
++  __TEXT.__cstring: 0x1724
+   __TEXT.__gcc_except_tab: 0x35c
+   __TEXT.__oslogstring: 0x1ad2
+-  __TEXT.__swift5_typeref: 0x520
+-  __TEXT.__swift5_capture: 0x84
++  __TEXT.__swift5_typeref: 0x518
++  __TEXT.__swift5_capture: 0x74
+   __TEXT.__constg_swiftt: 0x86c
+   __TEXT.__swift5_reflstr: 0xa19
+   __TEXT.__swift5_fieldmd: 0x87c
+
+   __TEXT.__swift5_types: 0x80
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
++  __TEXT.__swift_as_cont: 0x10
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0xa90
+-  __TEXT.__eh_frame: 0x698
+-  __TEXT.__objc_classname: 0x31c
+-  __TEXT.__objc_methname: 0x22af
+-  __TEXT.__objc_methtype: 0x847
+-  __TEXT.__objc_stubs: 0x12a0
+-  __DATA_CONST.__got: 0x498
+-  __DATA_CONST.__const: 0x6c8
++  __TEXT.__unwind_info: 0xaa0
++  __TEXT.__eh_frame: 0x6a0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x6b8
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x7a8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x950
+-  __AUTH_CONST.__const: 0x1090
++  __DATA_CONST.__got: 0x488
++  __AUTH_CONST.__const: 0xfa8
+   __AUTH_CONST.__cfstring: 0x820
+   __AUTH_CONST.__objc_const: 0x21d8
+-  __AUTH.__objc_data: 0x208
++  __AUTH_CONST.__auth_got: 0x9e8
++  __AUTH.__objc_data: 0x178
+   __AUTH.__data: 0x6a0
+   __DATA.__objc_ivar: 0xc4
+-  __DATA.__data: 0x5c8
++  __DATA.__data: 0x5c0
+   __DATA.__common: 0x70
+   __DATA.__bss: 0x1b00
+-  __DATA_DIRTY.__objc_data: 0x3f8
++  __DATA_DIRTY.__objc_data: 0x488
+   __DATA_DIRTY.__data: 0x330
+   __DATA_DIRTY.__bss: 0x28
+   __DATA_DIRTY.__common: 0x28
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43FC8B77-0D00-3D14-97D6-D6733F43EFE1
+-  Functions: 1330
+-  Symbols:   4301
+-  CStrings:  862
++  UUID: D8346997-A9C2-3581-91CA-479CE9804272
++  Functions: 1327
++  Symbols:   4302
++  CStrings:  377
+ 
+Symbols:
++ _$s10Foundation13__DataStorageC12_deallocatorySv_SitcSgvg
++ _$s10Foundation3URLVSgWOb
++ _$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n
++ _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA0_
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSS17UnicodeScalarViewV_Tg50119$s12icloudMCCKit17LanguageDetectionC20extractCJKCharacters33_25627331B2AFE3B29A1B9BF18D2E09CCLL4fromS2S_tFSbSJXEfU_Sbs7d2O6E6VXEfU_12icloudMCCKit0iJ0CTf1cn_n
++ _$sScPSgWOhTm
++ _$sSo17NSMatchingOptionsVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo17NSMatchingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo26NSRegularExpressionOptionsVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo26NSRegularExpressionOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo7MLModelC5model_10Foundation3URLV8locationtWOcTm
++ _$sSvSiIegyy_SgWOe
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_Si_SsTG5SiTf3nnpSi10_n
++ _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SRys5UInt8VGABySS8UTF8ViewVGSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyAIqd__Isgyrzo_qd__sAO_pALRszr__lIetyggrzo_Tpq5SiSg_Tg5Tf4xnn_n
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.15Tu
++ _$sypSgWOh
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.9
++ _block_copy_helper.37
++ _block_copy_helper.40
++ _block_descriptor.39
++ _block_descriptor.42
++ _block_destroy_helper.38
++ _block_destroy_helper.41
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_allocBox
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x23
+- _$s10Foundation17URLResourceValuesVMn
+- _$s10Foundation17URLResourceValuesVSgMR
+- _$s10Foundation17URLResourceValuesVSgMd
+- _$s10Foundation17URLResourceValuesVSgWOhTm
+- _$s10Foundation3URLVSgWObTm
+- _$s10Foundation3URLVSgWOcTm
+- _$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n
+- _$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataVAA15ContiguousBytesAAWP
+- _$s10Foundation4DataVN
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_
+- _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA0_Tv_r
+- _$s12icloudMCCKit10ModelGroupVWOh
+- _$s12icloudMCCKit15BlackPearlModelV014categorizationE0_AC010highImpactE0tWOc
+- _$s12icloudMCCKit15BlackPearlModelVWOb
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSS_11TabularData7CSVTypeOtWOc
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSS17UnicodeScalarViewV_Tg50119$s12icloudMCCKit17LanguageDetectionC20extractCJKCharacters33_25627331B2AFE3B29A1B9BF18D2E09CCLL4fromS2S_tFSbSJXEfU_Sbs7d2O6E6VXEfU_12icloudMCCKit0iJ0CTf1cn_nTf4ng_n
+- _$sScA15unownedExecutorScevgTj
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$sScTss5NeverORs_rlE8detached4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntFZyt_Tt2g5
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_SRys5UInt8VGABySS8UTF8ViewVGSRyxGq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyAIqd__Isgyrzo_qd__sAO_pALRszr__lIetyggrzo_Tpq5SiSg_Tg5061$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5h15VGXEfU_Si_SsTG5Y12Tf3nnpSi10_nTf1nnc_nTf4xn_n
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.27
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.27TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.27Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.34
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.34TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.34Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.39Tu
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_icloudMCCKit
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_icloudMCCKit
+- _block_copy_helper.44
+- _block_copy_helper.47
+- _block_descriptor.46
+- _block_descriptor.49
+- _block_destroy_helper.45
+- _block_destroy_helper.48
+- _symbolic _____Sg 10Foundation17URLResourceValuesV
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<MCCCategoryRulesDelegate>\""
+- "@\"ACAccount\"24@0:8^@16"
+- "@\"ACAccount\"32@0:8@\"NSString\"16^@24"
+- "@\"MCCBgTimer\""
+- "@\"MCCCertificateParams\""
+- "@\"MCCSecretAgentConnection\""
+- "@\"MCCSecretAgentController\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSXPCConnection\""
+- "@\"NSXPCListener\""
+- "@\"NSXPCListenerEndpoint\""
+- "@\"RCAddress\""
+- "@\"_TtC12icloudMCCKit21DomainHelperInterface\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8d16@?24"
+- "@40@0:8:16@24@32"
+- "@40@0:8d16@24@?32"
+- "@48@0:8@16@24@32d40"
+- "@56@0:8@16@24@32@40d48"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16d24"
+- "B40@0:8@16@24d32"
+- "CloudAccountManager"
+- "JSONObjectWithData:options:error:"
+- "MCCBgTimer"
+- "MCCCategoryContext"
+- "MCCCategoryRulesClientProtocol"
+- "MCCCategoryRulesController"
+- "MCCCertificateParams"
+- "MCCSecretAgentConnection"
+- "MCCSecretAgentContext"
+- "MCCSecretAgentController"
+- "MCCSecretAgentInterface"
+- "MCCSecretAgentProtocol"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "Q"
+- "Q16@0:8"
+- "RCAddress"
+- "RCOverrideRule"
+- "T#,R"
+- "T@\"<MCCCategoryRulesDelegate>\",W,N,V_delegate"
+- "T@\"MCCCertificateParams\",C,N,V_certParams"
+- "T@\"NSDictionary\",C,N,V_csrAltName"
+- "T@\"NSDictionary\",C,N,V_searchCriteria"
+- "T@\"NSDictionary\",C,N,V_secObjects"
+- "T@\"NSNumber\",&,N,V_categoryUpdateTime"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_accountEmail"
+- "T@\"NSString\",C,N,V_category"
+- "T@\"NSString\",C,N,V_certType"
+- "T@\"NSString\",C,N,V_commonName"
+- "T@\"NSString\",C,N,V_correspEmail"
+- "T@\"NSString\",C,N,V_country"
+- "T@\"NSString\",C,N,V_displayName"
+- "T@\"NSString\",C,N,V_emailAddress"
+- "T@\"NSString\",C,N,V_emailSubject"
+- "T@\"NSString\",C,N,V_keyType"
+- "T@\"NSString\",C,N,V_localRuleCategory"
+- "T@\"NSString\",C,N,V_messageIdHeader"
+- "T@\"NSString\",C,N,V_organization"
+- "T@\"NSString\",C,N,V_organizationUnit"
+- "T@\"NSString\",C,N,V_overrideIdentifier"
+- "T@\"NSString\",C,N,V_receiverEmail"
+- "T@\"NSString\",C,N,V_senderEmail"
+- "T@\"NSString\",C,N,V_senderName"
+- "T@\"NSString\",C,N,V_state"
+- "T@\"NSString\",C,N,V_xAppleRequestHeader"
+- "T@\"NSString\",R,C"
+- "T@\"NSXPCListenerEndpoint\",R,N,V_listenerEndpoint"
+- "T@\"RCAddress\",&,N,V_address"
+- "TB,N,V_isNonPersonalAccount"
+- "TB,N,V_isSenderInAddressBook"
+- "TB,N,V_isSenderPrimary"
+- "TB,N,V_isSenderRecentContact"
+- "TB,N,V_isSenderVIP"
+- "TB,N,V_isUnsubscribeHeaderPresent"
+- "TB,R"
+- "TQ,R"
+- "Tq,N,V_keyValue"
+- "URLByAppendingPathComponent:isDirectory:"
+- "Vv16@0:8"
+- "XPCInterface"
+- "^{_NSZone=}16@0:8"
+- "_TtC12icloudMCCKit11TrialLoader"
+- "_TtC12icloudMCCKit12DomainHelper"
+- "_TtC12icloudMCCKit12LocaleHelper"
+- "_TtC12icloudMCCKit17LanguageDetection"
+- "_TtC12icloudMCCKit18DomainMapDataFrame"
+- "_TtC12icloudMCCKit21DomainHelperInterface"
+- "_TtC12icloudMCCKit23LanguageDetectionHelper"
+- "_TtC12icloudMCCKit24BlackPearlSharedDefaults"
+- "_TtP12icloudMCCKit27CloudAccountManagerProtocol_"
+- "_agentConnection"
+- "_agentController"
+- "_bgTimer"
+- "_callbackListener"
+- "_checkConnection"
+- "_connection"
+- "_connectionInterruptionHandler"
+- "_connectionInvalidationHandler"
+- "_delegate"
+- "_domainHelperInterface"
+- "_emailSubject"
+- "_interval"
+- "_isSenderInAddressBook"
+- "_isSenderPrimary"
+- "_isSenderRecentContact"
+- "_isSenderVIP"
+- "_isUnsubscribeHeaderPresent"
+- "_lastCheckin"
+- "_listenerEndpoint"
+- "_queue"
+- "_receiverEmail"
+- "_reconnectTimer"
+- "_senderName"
+- "_unfairLock"
+- "_xAppleRequestHeader"
+- "aa_appleAccountWithUsername:"
+- "aa_primaryAppleAccount"
+- "abbrevation2Regex"
+- "abbrevationRegex"
+- "accountEmail"
+- "addUpdateHandlerForNamespaceName:usingBlock:"
+- "address"
+- "addressWith:"
+- "agentIsAlive"
+- "allocWithZone:"
+- "anonymousListener"
+- "autorelease"
+- "blackPearlBreakthroughVersionKey"
+- "blackPearlExperimentDeploymentIdKey"
+- "blackPearlExperimentIdKey"
+- "blackPearlExperimentTreatmentIdKey"
+- "blackPearlFinalRuleVersionKey"
+- "blackPearlLevels"
+- "blackPearlModelVersionKey"
+- "blackPearlRolloutDeploymentIdKey"
+- "blackPearlRolloutFactorPackIdKey"
+- "blackPearlRolloutIdKey"
+- "blackPearlSenderModelVersionKey"
+- "blackPearlTSModelVersionKey"
+- "bracketRegex"
+- "bundleIdentifier"
+- "canSendSecureMessageFrom:to:completion:"
+- "cancel"
+- "caseInsensitiveCompare:"
+- "categorizationDefaults"
+- "category"
+- "categoryRulesController:didAlterConnectionWithReason:"
+- "categoryRulesController:didReceiveNewOldTimestamps:"
+- "categoryRulesController:didReceiveOverrideRules:"
+- "categoryRulesController:didReceiveSyncAllOverrideRules:"
+- "categoryUpdateTime"
+- "certParams"
+- "certType"
+- "characterSetWithCharactersInString:"
+- "cjkUnicodeRanges"
+- "class"
+- "clearAllUserOverridesWithTimestamp:completion:"
+- "clientWithIdentifier:"
+- "collapseRegex"
+- "commonName"
+- "compileModelAtURL:error:"
+- "componentsSeparatedByCharactersInSet:"
+- "conformsToProtocol:"
+- "containerURLForSecurityApplicationGroupIdentifier:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "copy"
+- "copyItemAtURL:toURL:error:"
+- "copyWithZone:"
+- "correspEmail"
+- "count"
+- "country"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "csrAltName"
+- "dataframe"
+- "date"
+- "dateWithTimeIntervalSince1970:"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "decryptedDataFromContentData:senderEmail:recipientEmail:completion:"
+- "defaultManager"
+- "defaultStore"
+- "delegate"
+- "deploymentId"
+- "description"
+- "directoryValue"
+- "displayName"
+- "domainMap"
+- "doubleValue"
+- "downloadLevelsForFactors:withNamespace:queue:options:progress:completion:"
+- "emailAddress"
+- "emailSubject"
+- "emojiRegex"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encryptedDataFromContentData:senderEmail:recipientEmails:completion:"
+- "endpoint"
+- "exhaustiveRegex"
+- "experimentId"
+- "experimentIdentifiersWithNamespaceName:"
+- "factorPackId"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "fileValue"
+- "followedSpaceRegex"
+- "forceDownloadOnLaunch"
+- "generateSSCertificateWithContext:completion:"
+- "getAppleAccountWithEmailAddress:error:"
+- "getBlackPearlVersionWithCompletion:"
+- "getIABCategoryID:completion:"
+- "getIsSecureEmailEnabledForEmail:completion:"
+- "getPKCategoryForDomain:"
+- "getPKCategoryForDomain:completion:"
+- "getPrimaryAppleAccountAndReturnError:"
+- "hash"
+- "immediateDownloadForNamespaceNames:allowExpensiveNetworking:error:"
+- "init"
+- "initFileURLWithFileSystemRepresentation:isDirectory:relativeToURL:"
+- "initWithAddress:displayName:"
+- "initWithAgentXPCEndpoint:"
+- "initWithAllowsCellular:discretionaryBehavior:"
+- "initWithCallbackListener:"
+- "initWithCoder:"
+- "initWithDomain:code:userInfo:"
+- "initWithEmailAddress:displayName:overrideIdentifier:category:categoryUpdateTime:"
+- "initWithEmailAddress:overrideIdentifier:category:categoryUpdateTime:"
+- "initWithListenerEndpoint:"
+- "initWithMachServiceName:options:"
+- "initWithMessageIdHeader:appleRequestHeader:overrideIdentifier:category:categoryUpdateTime:"
+- "initWithPattern:options:error:"
+- "initWithSuiteName:"
+- "initWithTimeIntervalSinceNow:block:"
+- "initWithTimeIntervalSinceNow:queue:block:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invokeModelDownloadWithCompletion:"
+- "isCategorizationSupportedFor:"
+- "isCategorizationSupportedForLocale:completion:"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isModelReadyWithCompletion:"
+- "isNonPersonalAccount"
+- "isPersonalDomain:completion:"
+- "isProxy"
+- "isSenderInAddressBook"
+- "isSenderPrimary"
+- "isSenderRecentContact"
+- "isSenderVIP"
+- "isUnsubscribeHeaderPresent"
+- "isValid"
+- "isolatedPuncRegex"
+- "keyType"
+- "keyValue"
+- "levelForFactor:withNamespaceName:"
+- "listSecItemsWithContext:completion:"
+- "listener:shouldAcceptNewConnection:"
+- "listenerEndpoint"
+- "localRuleCategory"
+- "lock"
+- "longLongValue"
+- "longValue"
+- "mailPropertyKey"
+- "mainBundle"
+- "messageIdHeader"
+- "modelWithContentsOfURL:configuration:error:"
+- "newOldCategoryTimestampsChanged:"
+- "nextTryTime"
+- "notifyFullSyncCategoryOverrides:"
+- "notifyNewOldCategoryChange:timestamp:"
+- "notifyWebRule:"
+- "notifyWebRuleWithSender:category:lastModified:"
+- "numberAndPercentageRegex"
+- "numberWithDouble:"
+- "objectAtIndex:"
+- "organization"
+- "organizationUnit"
+- "overrideIdentifier"
+- "overrideRulesChanged:"
+- "path"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "personalDomains"
+- "pingWithcompletion:"
+- "precededSpaceRegex"
+- "predictCommerceEmailWithContext:completion:"
+- "processString:"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "receiverEmail"
+- "reconnectTimerQueue"
+- "refresh"
+- "registerCategoryRulesCallbackListener:notificationTypes:completion:"
+- "registerCategoryRulesCallbackWithNotificationTypes:"
+- "registerForWebRuleNotifications"
+- "registerForWebRuleNotifications:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeItemAtURL:error:"
+- "repeatedPunctuationsRegex"
+- "replyFwdRegex"
+- "reset"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "rolloutId"
+- "rolloutIdentifiersWithNamespaceName:"
+- "searchCriteria"
+- "secObjects"
+- "self"
+- "senderEmail"
+- "senderName"
+- "serialQueue"
+- "setAccountEmail:"
+- "setAddress:"
+- "setCanSendSecureMessageFrom:to:canSend:completion:"
+- "setCategory:"
+- "setCategoryUpdateTime:"
+- "setCertParams:"
+- "setCertType:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setCommonName:"
+- "setComputeUnits:"
+- "setCorrespEmail:"
+- "setCountry:"
+- "setCsrAltName:"
+- "setDelegate:"
+- "setDisplayName:"
+- "setEmailAddress:"
+- "setEmailSubject:"
+- "setExperimentalMLE5BNNSGraphBackendUsage:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setInteger:forKey:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsNonPersonalAccount:"
+- "setIsSecureEmailEnabled:forEmail:completion:"
+- "setIsSenderInAddressBook:"
+- "setIsSenderPrimary:"
+- "setIsSenderRecentContact:"
+- "setIsSenderVIP:"
+- "setIsUnsubscribeHeaderPresent:"
+- "setKeyType:"
+- "setKeyValue:"
+- "setLanguageConstraints:"
+- "setLocalRuleCategory:"
+- "setMessageIdHeader:"
+- "setObject:forKey:"
+- "setOrganization:"
+- "setOrganizationUnit:"
+- "setOverrideIdentifier:"
+- "setReceiverEmail:"
+- "setRemoteObjectInterface:"
+- "setSearchCriteria:"
+- "setSecObjects:"
+- "setSenderEmail:"
+- "setSenderName:"
+- "setState:"
+- "setWithObjects:"
+- "setXAppleRequestHeader:"
+- "setupReconnectTimer"
+- "signedDataFromContentData:senderEmail:recipientEmails:completion:"
+- "start"
+- "state"
+- "storeSecItemsWithContext:completion:"
+- "stringByReplacingMatchesInString:options:range:withTemplate:"
+- "stringValue"
+- "stringWithFormat:"
+- "superclass"
+- "supportsSecureCoding"
+- "syncAllCategoryOverrides:"
+- "syncNewOldCategoryTimestamps:"
+- "syncRecategorizationRules:completion:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "timeIntervalSinceDate:"
+- "treatmentId"
+- "trialClient"
+- "unitsRegex"
+- "unlock"
+- "userDefaultsMailAppGroup"
+- "v16@0:8"
+- "v16@?0@\"<TRINamespaceUpdateProtocol>\"8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"RCOverrideRule\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSDictionary\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v32@0:8@\"MCCCategoryContext\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"MCCSecretAgentContext\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"MCCSecretAgentContext\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?q@\"NSError\">24"
+- "v32@0:8@\"NSString\"16d24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16d24"
+- "v32@0:8d16@?24"
+- "v32@0:8d16@?<v@?B@\"NSError\">24"
+- "v36@0:8B16@\"NSString\"20@?<v@?@\"NSError\">28"
+- "v36@0:8B16@20@?28"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSXPCListenerEndpoint\"16Q24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24@?32"
+- "v44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"NSError\">36"
+- "v44@0:8@16@24B32@?36"
+- "v48@0:8@\"NSData\"16@\"NSString\"24@\"NSArray\"32@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@\"NSData\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "valueForKey:"
+- "xAppleRequestHeader"
+- "zone"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

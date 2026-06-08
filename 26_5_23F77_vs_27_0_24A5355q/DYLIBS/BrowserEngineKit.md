@@ -1,0 +1,1252 @@
+## BrowserEngineKit
+
+> `/System/Library/Frameworks/BrowserEngineKit.framework/BrowserEngineKit`
+
+```diff
+
+-7624.2.1.1.0
+-  __TEXT.__text: 0x1f9d0
+-  __TEXT.__auth_stubs: 0x1110
+-  __TEXT.__objc_methlist: 0x1920
+-  __TEXT.__const: 0x10c6
+-  __TEXT.__cstring: 0x9fc
++7625.1.18.3.0
++  __TEXT.__text: 0x212d8
++  __TEXT.__objc_methlist: 0x1a08
++  __TEXT.__const: 0x1116
++  __TEXT.__cstring: 0xb4c
+   __TEXT.__oslogstring: 0x75b
+-  __TEXT.__gcc_except_tab: 0x178
+-  __TEXT.__dlopen_cstrs: 0x6a
+-  __TEXT.__swift5_typeref: 0x6f0
+-  __TEXT.__swift5_capture: 0x46c
+-  __TEXT.__swift5_fieldmd: 0x5c0
+-  __TEXT.__constg_swiftt: 0xac0
+-  __TEXT.__swift5_reflstr: 0x402
++  __TEXT.__gcc_except_tab: 0x2fc
++  __TEXT.__dlopen_cstrs: 0xc1
++  __TEXT.__swift5_typeref: 0x706
++  __TEXT.__swift5_capture: 0x4cc
++  __TEXT.__swift5_fieldmd: 0x5e8
++  __TEXT.__constg_swiftt: 0xb00
++  __TEXT.__swift5_reflstr: 0x412
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_protos: 0x24
+   __TEXT.__swift5_proto: 0x7c
+-  __TEXT.__swift5_types: 0x84
++  __TEXT.__swift5_types: 0x88
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x50
+-  __TEXT.__unwind_info: 0xb30
+-  __TEXT.__eh_frame: 0xe50
+-  __TEXT.__objc_classname: 0x661
+-  __TEXT.__objc_methname: 0x4259
+-  __TEXT.__objc_methtype: 0x124b
+-  __TEXT.__objc_stubs: 0x1c40
+-  __DATA_CONST.__got: 0x350
+-  __DATA_CONST.__const: 0x390
+-  __DATA_CONST.__objc_classlist: 0x110
++  __TEXT.__swift_as_cont: 0x94
++  __TEXT.__unwind_info: 0xc08
++  __TEXT.__eh_frame: 0xf18
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x470
++  __DATA_CONST.__objc_classlist: 0x118
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1120
++  __DATA_CONST.__objc_selrefs: 0x11a0
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0xa0
+-  __AUTH_CONST.__auth_got: 0x898
+-  __AUTH_CONST.__const: 0x10c8
+-  __AUTH_CONST.__cfstring: 0x2e0
+-  __AUTH_CONST.__objc_const: 0x3c70
+-  __AUTH.__objc_data: 0x950
++  __DATA_CONST.__got: 0x360
++  __AUTH_CONST.__const: 0x11b8
++  __AUTH_CONST.__cfstring: 0x380
++  __AUTH_CONST.__objc_const: 0x3d78
++  __AUTH_CONST.__auth_got: 0x990
++  __AUTH.__objc_data: 0x9a0
+   __AUTH.__data: 0x2a8
+   __DATA.__objc_ivar: 0xa8
+-  __DATA.__data: 0x810
+-  __DATA.__bss: 0xac0
++  __DATA.__data: 0x820
++  __DATA.__bss: 0xae0
+   __DATA.__common: 0x58
+-  __DATA_DIRTY.__objc_data: 0x6e0
+-  __DATA_DIRTY.__data: 0x910
++  __DATA_DIRTY.__objc_data: 0x6f0
++  __DATA_DIRTY.__data: 0x9e0
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3965290A-A2F8-3BFC-BF16-8DB6EDB36AB3
+-  Functions: 970
+-  Symbols:   1761
+-  CStrings:  1045
++  UUID: 9296542C-7004-3330-B441-F0B88A306604
++  Functions: 1030
++  Symbols:   2028
++  CStrings:  146
+ 
+Symbols:
++ +[_BEScreenCaptureCapability endowmentNamespace]
++ +[_BEScreenCaptureCapability endowmentNamespace].cold.1
++ +[_BEScreenCaptureCapability endowmentPayloadWebsiteKey]
++ +[_BEScreenCaptureCapability endowmentPayloadWebsiteKey].cold.1
++ +[_BEScreenCaptureCapability grantMediaEndowmentWithEnvironmentID:endowmentPayload:]
++ +[_BEScreenCaptureCapability isAvailable]
++ +[_BEScreenCaptureCapability revokeMediaEndowmentWithEnvironmentID:]
++ -[BEWebContentFilter ensureXPCConnection]
++ -[BEWebContentFilter evaluateURL:mainDocumentURL:completionHandler:]
++ -[BEWebContentFilter evaluateURL:mainFrameURL:isMainFrame:completionHandler:]
++ -[BEWebContentFilter requestPermissionForURL:referrerURL:completionHandler:]
++ -[BEWebContentFilter requestPermissionForURL:referrerURL:presentingView:completionHandler:]
++ -[BEWebContentFilter requestPermissionForURLOnMainThread:referrerURL:presentingView:completionHandler:]
++ -[NSObject(BEAccessibility) browserAccessibilityImageData:]
++ -[NSObject(BEAccessibility) browserAccessibilityImageDataSize]
++ GCC_except_table11
++ GCC_except_table13
++ GCC_except_table17
++ GCC_except_table18
++ GCC_except_table21
++ GCC_except_table24
++ GCC_except_table25
++ GCC_except_table26
++ GCC_except_table27
++ GCC_except_table30
++ GCC_except_table31
++ GCC_except_table32
++ GCC_except_table4
++ _OBJC_CLASS_$_NSException
++ _OBJC_CLASS_$__BEScreenCaptureCapability
++ _OBJC_METACLASS_$__BEScreenCaptureCapability
++ _ScreenCaptureKitLibrary
++ _ScreenCaptureKitLibraryCore
++ _ScreenCaptureKitLibraryCore.frameworkLibrary
++ __OBJC_$_CLASS_METHODS__BEScreenCaptureCapability
++ __OBJC_$_CLASS_PROP_LIST__BEScreenCaptureCapability
++ __OBJC_CLASS_RO_$__BEScreenCaptureCapability
++ __OBJC_METACLASS_RO_$__BEScreenCaptureCapability
++ __PROTOCOLS__TtC16BrowserEngineKit25_BEProcessCapabilityGrant.33
++ __PROTOCOLS__TtCO16BrowserEngineKit17ProcessCapabilityP33_0A18377BB6CEC07907AEB25ED9D7270217AssertionObserver.41
++ __ZL30getWCRBrowserEngineClientClassv
++ ___103-[BEWebContentFilter requestPermissionForURLOnMainThread:referrerURL:presentingView:completionHandler:]_block_invoke
++ ___103-[BEWebContentFilter requestPermissionForURLOnMainThread:referrerURL:presentingView:completionHandler:]_block_invoke_2
++ ___103-[BEWebContentFilter requestPermissionForURLOnMainThread:referrerURL:presentingView:completionHandler:]_block_invoke_3
++ ___40+[BEWebContentFilter shouldEvaluateURLs]_block_invoke.14
++ ___41-[BEWebContentFilter ensureXPCConnection]_block_invoke
++ ___68-[BEWebContentFilter evaluateURL:mainDocumentURL:completionHandler:]_block_invoke
++ ___68-[BEWebContentFilter evaluateURL:mainDocumentURL:completionHandler:]_block_invoke_2
++ ___91-[BEWebContentFilter requestPermissionForURL:referrerURL:presentingView:completionHandler:]_block_invoke
++ ___91-[BEWebContentFilter requestPermissionForURL:referrerURL:presentingView:completionHandler:]_block_invoke_2
++ ___91-[BEWebContentFilter requestPermissionForURL:referrerURL:presentingView:completionHandler:]_block_invoke_3
++ ___91-[BEWebContentFilter requestPermissionForURL:referrerURL:presentingView:completionHandler:]_block_invoke_4
++ ___ScreenCaptureKitLibraryCore_block_invoke
++ ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
++ ___block_descriptor_40_ea8_32bs_e20_v24?0q8"NSError"16ls32l8
++ ___block_descriptor_48_ea8_32s40bs_e20_v24?0q8"NSError"16ls32l8s40l8
++ ___block_descriptor_56_ea8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_descriptor_80_ea8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___getSCStreamClass_block_invoke
++ ___getSCStreamEndowmentNamespaceSymbolLoc_block_invoke
++ ___getSCStreamEndowmentPayloadCapturingWebsiteSymbolLoc_block_invoke
++ ___objc_personality_v0
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_0Tm
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.127Tm
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.63Tm
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_get_extra_inhabitant_index.53Tm
++ ___swift_store_extra_inhabitant_index.54Tm
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_BrowserEngineKit
++ __swift_implicitisolationactor_to_executor_cast
++ _audit_stringScreenCaptureKit
++ _block_copy_helper.122
++ _block_copy_helper.137
++ _block_copy_helper.154
++ _block_descriptor.124
++ _block_descriptor.139
++ _block_descriptor.156
++ _block_destroy_helper.123
++ _block_destroy_helper.138
++ _block_destroy_helper.155
++ _dlerror
++ _dlsym
++ _getSCStreamClass
++ _getSCStreamClass.softClass
++ _getSCStreamEndowmentNamespaceSymbolLoc
++ _getSCStreamEndowmentNamespaceSymbolLoc.ptr
++ _getSCStreamEndowmentPayloadCapturingWebsiteSymbolLoc
++ _getSCStreamEndowmentPayloadCapturingWebsiteSymbolLoc.ptr
++ _objc_claimAutoreleasedReturnValue
++ _objc_exception_throw
++ _objc_msgSend$CGSizeValue
++ _objc_msgSend$allowURL:completionHandler:
++ _objc_msgSend$askToBrowseURL:referrerURL:presentingView:withCompletion:
++ _objc_msgSend$askToBrowseURL:referrerURL:withCompletion:
++ _objc_msgSend$browserAccessibilityImageDataSize
++ _objc_msgSend$endowmentNamespace
++ _objc_msgSend$endowmentPayloadWebsiteKey
++ _objc_msgSend$ensureXPCConnection
++ _objc_msgSend$evaluateURL:mainDocumentURL:completionHandler:
++ _objc_msgSend$exceptionWithName:reason:userInfo:
++ _objc_msgSend$requestPermissionForURL:referrerURL:presentingView:completionHandler:
++ _objc_msgSend$requestPermissionForURLOnMainThread:referrerURL:presentingView:completionHandler:
++ _objc_msgSend$setAllowsPointerDragBeforeLiftDelay:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x26
++ _objc_retain_x3
++ _objc_retain_x9
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _symbolic _____ 16BrowserEngineKit17ProcessCapabilityO013ScreenCaptureE033_0A18377BB6CEC07907AEB25ED9D72702LLV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- GCC_except_table12
+- GCC_except_table15
+- __PROTOCOLS__TtC16BrowserEngineKit25_BEProcessCapabilityGrant.31
+- __PROTOCOLS__TtCO16BrowserEngineKit17ProcessCapabilityP33_0A18377BB6CEC07907AEB25ED9D7270217AssertionObserver.39
+- ___40+[BEWebContentFilter shouldEvaluateURLs]_block_invoke.11
+- ___52-[BEWebContentFilter evaluateURL:completionHandler:]_block_invoke_3
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_get_extra_inhabitant_index.51Tm
+- ___swift_store_extra_inhabitant_index.52Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_BrowserEngineKit
+- _block_copy_helper.123
+- _block_copy_helper.144
+- _block_copy_helper.155
+- _block_descriptor.125
+- _block_descriptor.146
+- _block_descriptor.157
+- _block_destroy_helper.124
+- _block_destroy_helper.145
+- _block_destroy_helper.156
+- _objc_msgSend$_setAllowsPointerDragBeforeLiftDelay:
+- _objc_retain_x27
+- _objectdestroy.128Tm
+- _objectdestroy.14Tm
+- _objectdestroy.18Tm
+- _objectdestroy.63Tm
+- _objectdestroyTm
+CStrings:
++ "BEWebContentFilter::requestPermissionForURLOnMainThread: Fallback to allowURL"
++ "If isMainFrame is YES, provided url parameters must match."
++ "NSInvalidArgumentException"
++ "RecordingWebsite"
++ "SCStream"
++ "SCStreamEndowmentNamespace"
++ "SCStreamEndowmentPayloadCapturingWebsite"
++ "com.apple.replayd.screencapture"
++ "softlink:o:path:/System/Library/Frameworks/ScreenCaptureKit.framework/ScreenCaptureKit"
++ "v24@?0q8@\"NSError\"16"
+- "#16@0:8"
+- ".cxx_destruct"
+- "?"
+- "@"
+- "@\"<BEExtendedTextInputTraits>\"16@0:8"
+- "@\"<BETextInputDelegate>\"16@0:8"
+- "@\"<BETextInteractionDelegate>\""
+- "@\"AXRemoteElement\""
+- "@\"BEAccessibilityTextMarker\""
+- "@\"BEKeyEntry\""
+- "@\"BELayerHierarchyHandle\""
+- "@\"BSAtomicSignal\""
+- "@\"CAContext\""
+- "@\"CAFenceHandle\""
+- "@\"CAHostingToken\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"AXRemoteElement\"16"
+- "@\"NSArray\"24@0:8@\"UITextRange\"16"
+- "@\"NSAttributedString\"16@0:8"
+- "@\"NSData\""
+- "@\"NSDictionary\"32@0:8@\"UITextPosition\"16q24"
+- "@\"NSMutableSet\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"UITextRange\"16"
+- "@\"NSTextAlternatives\""
+- "@\"NSURL\""
+- "@\"NSXPCConnection\""
+- "@\"UIAsyncTextInteraction\""
+- "@\"UIAutoFillTextSuggestion\""
+- "@\"UIConversationContext\"16@0:8"
+- "@\"UIKey\""
+- "@\"UIKeyEvent\""
+- "@\"UIKeyEventContext\""
+- "@\"UIScrollEvent\""
+- "@\"UITextInputPasswordRules\"16@0:8"
+- "@\"UITextRange\"16@0:8"
+- "@\"UITextSuggestion\""
+- "@\"UIView\""
+- "@\"UIView\"16@0:8"
+- "@\"UIWKDocumentContext\""
+- "@\"UIWKDocumentRequest\""
+- "@\"_BEBurnableBlock\""
+- "@\"_UIVisibilityPropagationInteraction\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8@16i24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@32@0:8{_NSRange=QQ}16"
+- "@36@0:8I16@20^@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@?24@?32"
+- "@40@0:8@16^@24@?32"
+- "@40@0:8d16@?24@?32"
+- "@48@0:8@16@24@32@40"
+- "@64@0:8@16@24@32@40{_NSRange=QQ}48"
+- "@?"
+- "AXRemoteElementChildrenDelegate"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B32@0:8:16@24"
+- "B32@0:8{CGPoint=dd}16"
+- "B40@0:8q16{CGPoint=dd}24"
+- "B56@0:8@16{CAPoint3D=ddd}24@?48"
+- "BEAccessibility"
+- "BEAccessibilityRemoteElement"
+- "BEAccessibilityRemoteHostElement"
+- "BEAccessibilityTextMarker"
+- "BEAccessibilityTextMarkerRange"
+- "BEAutoFillTextSuggestion"
+- "BEContextMenuConfiguration"
+- "BEDownloadMonitor"
+- "BEDownloadMonitorLocation"
+- "BEDragInteraction"
+- "BEKIntermediaryProtocol"
+- "BEKeyEntry"
+- "BEKeyEntryContext"
+- "BELayerHierarchy"
+- "BELayerHierarchyHandle"
+- "BELayerHierarchyHostingTransactionCoordinator"
+- "BELayerHierarchyHostingView"
+- "BEMediaEnvironment"
+- "BENetworkingProcess"
+- "BEProcessCapability"
+- "BERenderingProcess"
+- "BEResponderEditActions"
+- "BEScrollView"
+- "BEScrollViewScrollUpdate"
+- "BETextAlternatives"
+- "BETextDocumentContext"
+- "BETextDocumentRequest"
+- "BETextInput"
+- "BETextInteraction"
+- "BETextSelectionDirectionNavigation"
+- "BETextSuggestion"
+- "BEWebAppManifest"
+- "BEWebContentFilter"
+- "BEWebContentProcess"
+- "BrowserEngineKit"
+- "BrowserEngineKit1"
+- "JSONObjectWithData:options:error:"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "RBSAssertionObserving"
+- "T#,R"
+- "T@\"<BEDragInteractionDelegate>\",R,W,D,N"
+- "T@\"<BEExtendedTextInputTraits>\",R,N"
+- "T@\"<BEScrollViewDelegate>\",W,D,N"
+- "T@\"<BETextInputDelegate>\",W,N"
+- "T@\"<BETextInteractionDelegate>\",W,N,V_delegate"
+- "T@\"<NSCopying>\",&,N"
+- "T@\"<UIContextMenuInteractionDelegate>\",W,N"
+- "T@\"BEAccessibilityTextMarker\",&,N,VendMarker"
+- "T@\"BEAccessibilityTextMarker\",&,N,VstartMarker"
+- "T@\"BEKeyEntry\",R,N,V_keyEntry"
+- "T@\"BELayerHierarchyHandle\",&,N"
+- "T@\"BELayerHierarchyHandle\",R,N,V_handle"
+- "T@\"CALayer\",&,N"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",R"
+- "T@\"NSAttributedString\",R,N"
+- "T@\"NSData\",N,R"
+- "T@\"NSData\",R,C,N,V_jsonData"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSString\",&,N"
+- "T@\"NSString\",?,C,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,N"
+- "T@\"NSTextAlternatives\",R,N,V_backingTextAlternatives"
+- "T@\"NSURL\",N,R"
+- "T@\"NSURL\",R,C,N,V_manifestURL"
+- "T@\"NSUUID\",N,R"
+- "T@\"NSXPCConnection\",&,N,V_xpcConnection"
+- "T@\"UIAutoFillTextSuggestion\",R,N,V_backingSuggestion"
+- "T@\"UIContextMenuInteraction\",R,N"
+- "T@\"UIConversationContext\",?,&,N"
+- "T@\"UIKey\",R,N"
+- "T@\"UIKey\",R,N,V_backingUIKey"
+- "T@\"UIKeyEvent\",R,N,V_backingKeyEvent"
+- "T@\"UIKeyEventContext\",R,N,V_backingKeyEventContext"
+- "T@\"UITextInputPasswordRules\",?,C,N"
+- "T@\"UITextRange\",C"
+- "T@\"UITextRange\",R,N"
+- "T@\"UITextSelectionDisplayInteraction\",R,N"
+- "T@\"UIView\",?,R,N"
+- "T@\"UIView\",R,N"
+- "T@\"UIView\",R,W,N"
+- "T@\"UIWKDocumentRequest\",R,N,V_backingDocumentRequest"
+- "T@,&,N,V_browserEngineClient"
+- "T@,W,N,V_accessibilityContainer"
+- "TB,?,N"
+- "TB,?,N,GisSecureTextEntry"
+- "TB,N"
+- "TB,N,GisDocumentEditable,V_documentEditable"
+- "TB,N,R"
+- "TB,N,V_shouldEvaluateForInputSystemHandling"
+- "TB,N,V_shouldInsertCharacter"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisEditable"
+- "TB,R,N,GisKeyRepeating"
+- "TB,R,N,GisReplaceAllowed"
+- "TB,R,N,GisSelectionAtDocumentStart"
+- "TQ,?"
+- "TQ,N"
+- "TQ,R"
+- "Td,R,N"
+- "Tq,?"
+- "Tq,?,N"
+- "Tq,N"
+- "Tq,R,N"
+- "Tq,R,N,V_phase"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N"
+- "UIAsyncTextInteractionDelegate"
+- "UIInteraction"
+- "UIKeyInput"
+- "UIResponderStandardEditActions"
+- "UITextInputTraits"
+- "UTF8String"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_BEBurnableBlock"
+- "_TtC16BrowserEngineKit25_BEProcessCapabilityGrant"
+- "_TtC16BrowserEngineKit26LaunchAssertionInvalidator"
+- "_TtC16BrowserEngineKitP33_2B65033DDF6D08FA42FE4B653C780BE229RenderingExtensionFeatureData"
+- "_TtCO16BrowserEngineKit17ProcessCapabilityP33_0A18377BB6CEC07907AEB25ED9D7270217AssertionObserver"
+- "_TtP16BrowserEngineKit23BEKIntermediaryProtocol_"
+- "_TtP16BrowserEngineKit33_BEProcessCapabilityGrantProtocol_"
+- "__scrollEvent"
+- "_accessibilityContainer"
+- "_actingParentScrollView"
+- "_addContext:"
+- "_addContextForHostingView:"
+- "_adjustedAcceleratedDeltaInView:"
+- "_asynchronouslyHandleScrollEvent:completion:"
+- "_backingContext"
+- "_backingDocumentRequest"
+- "_backingKeyEvent"
+- "_backingKeyEventContext"
+- "_backingSuggestion"
+- "_backingTextAlternatives"
+- "_backingUIKey"
+- "_beScrollViewFlags"
+- "_block"
+- "_boundContext"
+- "_browserAccessibilityStoredValueContainerType"
+- "_browserAccessibilityStoredValueHasDOMFocus"
+- "_browserAccessibilityStoredValueIsRequired"
+- "_browserAccessibilityStoredValuePressedState"
+- "_browserAccessibilityStoredValueSelectedTextRange"
+- "_browserAccessibilityStoredValueSortDirection"
+- "_browserEngineClient"
+- "_cancelTimerIfNeeded"
+- "_commitLock"
+- "_commitLock_committed"
+- "_commitLock_contexts"
+- "_commitLock_hostingViews"
+- "_context"
+- "_deferredCompletion"
+- "_delegate"
+- "_delegateImplements"
+- "_didInvalidate"
+- "_documentEditable"
+- "_documentRect"
+- "_fence"
+- "_handle"
+- "_initWithFence:"
+- "_initWithNSTextAlternatives:"
+- "_initWithToken:"
+- "_initWithUIKitDocumentRequest:"
+- "_initWithUIKitKeyEvent:"
+- "_initWithUIKitTextSuggestion:"
+- "_interaction"
+- "_invalidationSignal"
+- "_itemsForAddingToSession:atPoint:completion:"
+- "_jsonData"
+- "_keyEntry"
+- "_manifestURL"
+- "_nsTextAlternative"
+- "_phase"
+- "_prepareForSession:completion:"
+- "_prepareWithCompletion:"
+- "_remoteElementBacking"
+- "_setAllowsPointerDragBeforeLiftDelay:"
+- "_setKeyCode:"
+- "_setLiftDelay:"
+- "_setModifiedInput:"
+- "_setModifierFlags:"
+- "_setUnmodifiedInput:"
+- "_shouldEvaluateForInputSystemHandling"
+- "_shouldInsertCharacter"
+- "_subclassHandlesAsyncScrollEvent"
+- "_supportsAddingItemsAsynchronously"
+- "_timer"
+- "_token"
+- "_uiSuggestion"
+- "_uikitAutoFillTextSuggestion"
+- "_uikitDocumentContext"
+- "_uikitDocumentRequest"
+- "_uikitKeyEvent"
+- "_uikitKeyEventContext"
+- "_uikitTextSuggestion"
+- "_view"
+- "_visibility"
+- "_xpcConnection"
+- "accessibilityContainer"
+- "accessibilityElements"
+- "accessibilityLineEndPositionFromCurrentSelection"
+- "accessibilityLineRangeForPosition:"
+- "accessibilityLineStartPositionFromCurrentSelection"
+- "accessibilityRemoteSubstituteChildren:"
+- "accessibilityViewIsModal"
+- "acquireWithError:"
+- "activateWithError:"
+- "addFence:"
+- "addInteraction:"
+- "addLayerHierarchy:"
+- "addLayerHierarchyHostingView:"
+- "addObject:"
+- "addObserver:"
+- "addOperationWithBlock:"
+- "addShortcut:"
+- "addShortcutForText:fromRect:"
+- "addTextAlternatives:"
+- "addTextRect:forCharacterRange:"
+- "adjustSelectionBoundaryToPoint:touchPhase:baseIsStart:flags:"
+- "adjustSelectionByRange:completionHandler:"
+- "alignCenter:"
+- "alignJustified:"
+- "alignLeft:"
+- "alignRight:"
+- "allocWithZone:"
+- "allowURL:completionHandler:"
+- "allowURL:withCompletion:"
+- "allowURLOnMainThread:completionHandler:"
+- "allowedWritingToolsResultOptions"
+- "allowsNumberPadPopover"
+- "alternativeStrings"
+- "alternativesForSelectedText"
+- "annotatedText"
+- "applicationExtensionRecords"
+- "arrayWithObject:"
+- "assertion:didInvalidateWithError:"
+- "assertionWillInvalidate:"
+- "asyncInputDelegate"
+- "attributeWithCompletionPolicy:"
+- "attributeWithDomain:name:"
+- "attributedMarkedText"
+- "autocapitalizationType"
+- "autocorrectedRanges"
+- "autocorrectionType"
+- "automaticallyPresentEditMenu"
+- "autorelease"
+- "autoscrollToPoint:"
+- "background"
+- "backgroundTask"
+- "backingDocumentRequest"
+- "backingElement"
+- "backingKeyEvent"
+- "backingKeyEventContext"
+- "backingSuggestion"
+- "backingTextAlternatives"
+- "backingUIKey"
+- "beTextInput"
+- "beginMonitoring:"
+- "bookmarkData"
+- "boolValue"
+- "browserAccessibilityAttributedValueInRange:"
+- "browserAccessibilityContainerType"
+- "browserAccessibilityCurrentStatus"
+- "browserAccessibilityDeleteTextAtCursor:"
+- "browserAccessibilityHasDOMFocus"
+- "browserAccessibilityInsertTextAtCursor:"
+- "browserAccessibilityIsRequired"
+- "browserAccessibilityPressedState"
+- "browserAccessibilityRoleDescription"
+- "browserAccessibilitySelectedTextRange"
+- "browserAccessibilitySetSelectedTextRange:"
+- "browserAccessibilitySortDirection"
+- "browserAccessibilityValueInRange:"
+- "browserEngineClient"
+- "bundleIdentifier"
+- "bundleRecordForCurrentProcess"
+- "canPerformAction:withSender:"
+- "cancel"
+- "cancelAutoscroll"
+- "caretRectForPosition:"
+- "characters"
+- "charactersIgnoringModifiers"
+- "checkEligibility"
+- "class"
+- "classForCoder"
+- "clientProgressCancelObservation"
+- "clientProgressFinishedObservation"
+- "clientProgressFractionObservation"
+- "code"
+- "commit"
+- "completedUnitCount"
+- "configurationWithIdentifier:previewProvider:actionProvider:"
+- "conformsToProtocol:"
+- "connectionWithInvalidationHandler:"
+- "contents"
+- "contextMenuInteraction"
+- "contextMenuInteractionDelegate"
+- "conversationContext"
+- "coordinatorWithError:"
+- "coordinatorWithPort:data:error:"
+- "coordinatorWithXPCRepresentation:error:"
+- "copy:"
+- "copyWithZone:"
+- "coreMLFeatureEnabled"
+- "countByEnumeratingWithState:objects:count:"
+- "createAccessToken"
+- "createPlaceholderWithFilename:completionHandler:"
+- "createVisibilityPropagationInteraction"
+- "createXPCRepresentation"
+- "currentQueue"
+- "cut:"
+- "d16@0:8"
+- "dealloc"
+- "debugDescription"
+- "decodeObjectOfClass:forKey:"
+- "decreaseSize:"
+- "defaultManager"
+- "delegate"
+- "delegateFromSuperclass"
+- "delete:"
+- "deleteBackward"
+- "deleteInDirection:toGranularity:"
+- "description"
+- "destinationURL"
+- "dictionaryWithObjects:forKeys:count:"
+- "didBegin"
+- "didInsertFinalDictationResult"
+- "didMoveToView:"
+- "dismissEditMenuForSelection"
+- "documentEditable"
+- "documentRect"
+- "domain"
+- "dragInteraction:itemsForAddingToSession:forTouchAtPoint:completion:"
+- "dragInteraction:prepareDragSession:completion:"
+- "duplicate:"
+- "editabilityChanged"
+- "editable"
+- "enablesReturnKeyAutomatically"
+- "encodeObject:forKey:"
+- "encodeWithBlock:"
+- "encodeWithCoder:"
+- "errorWithDomain:code:userInfo:"
+- "evaluateURL:completionHandler:"
+- "export:"
+- "extendInLayoutDirection:"
+- "extendInStorageDirection:byGranularity:"
+- "extendedTextInputTraits"
+- "extensionPointRecord"
+- "featureDataLock"
+- "finalFileCreatedHandler"
+- "find:"
+- "findAndReplace:"
+- "findNext:"
+- "findPrevious:"
+- "findSelected:"
+- "flags"
+- "foreground"
+- "fractionCompleted"
+- "fulfillUsingConfiguration:"
+- "grantCapability:error:"
+- "grantCapability:error:invalidationHandler:"
+- "grantMediaEndowmentWithEnvironmentID:endowmentPayload:"
+- "grantWithNamespace:sourceEnvironment:attributes:"
+- "granularityCount"
+- "handle"
+- "handleFromXPCRepresentation:error:"
+- "handleKeyEntry:withCompletionHandler:"
+- "handleWithPort:data:error:"
+- "handleWithXPCRepresentation:error:"
+- "hasBeenSignalled"
+- "hasMarkedText"
+- "hasText"
+- "hash"
+- "hostingToken"
+- "id"
+- "increaseSize:"
+- "init"
+- "initWithApplicationExtensionRecord:"
+- "initWithAttributedSelectedText:contextBefore:contextAfter:markedText:selectedRangeInMarkedText:"
+- "initWithBundleIdentifier:error:"
+- "initWithCoder:"
+- "initWithContext:"
+- "initWithDelegate:"
+- "initWithDomain:code:userInfo:"
+- "initWithExplanation:target:attributes:"
+- "initWithIdentifier:"
+- "initWithIdentifier:hostPid:"
+- "initWithIdentifier:remotePid:"
+- "initWithInputText:"
+- "initWithJSONData:manifestURL:"
+- "initWithKeyEntry:"
+- "initWithKeyEvent:"
+- "initWithMediaEnvironment:"
+- "initWithSelectedText:contextBefore:contextAfter:markedText:selectedRangeInMarkedText:"
+- "initWithServiceName:"
+- "initWithSourceURL:destinationURL:observedProgress:liveActivityAccessToken:"
+- "initWithTimeout:block:defaultInputProvider:"
+- "initWithURL:"
+- "initWithUUID:andRemotePid:andContextId:"
+- "initWithWebPageURL:"
+- "initWithXPCRepresentation:error:"
+- "inlinePredictionType"
+- "inner"
+- "innerProgress"
+- "innerProgressCancelObservation"
+- "inputElementIdentifier"
+- "inputText"
+- "insertText:"
+- "insertTextAlternatives:"
+- "insertTextPlaceholderWithSize:completionHandler:"
+- "insertTextSuggestion:"
+- "integerValue"
+- "interactionWithPID:environmentIdentifier:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "invalidationLock"
+- "isAccessibilityElement"
+- "isCancelled"
+- "isDocumentEditable"
+- "isEditable"
+- "isEligibleForContext:completionHandler:"
+- "isEqual:"
+- "isFinished"
+- "isIndeterminate"
+- "isKeyRepeating"
+- "isKindOfClass:"
+- "isLowConfidence"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isPointNearMarkedText:"
+- "isProxy"
+- "isReplaceAllowed"
+- "isScrollEnabled"
+- "isSecureTextEntry"
+- "isSelectionAtDocumentStart"
+- "isUsable"
+- "isValid"
+- "isWebContentFilterEnabled:"
+- "jsonData"
+- "key"
+- "keyCode"
+- "keyEntry"
+- "keyRepeating"
+- "keyboardAppearance"
+- "keyboardType"
+- "keyboardWillDismiss"
+- "lastSavedProgress"
+- "layer"
+- "layerClass"
+- "layerHierarchyWithError:"
+- "layerHierarchyWithOptions:error:"
+- "liveActivityAccessToken"
+- "liveActivitySandboxExtensionHandle"
+- "localizedAdditionalDescription"
+- "localizedDescription"
+- "locationInView:"
+- "lock"
+- "lookup:"
+- "lookup:withRange:fromRect:"
+- "mainBundle"
+- "makeCaptureSessionWithError:"
+- "makeLibXPCConnectionError:"
+- "makeTextWritingDirectionLeftToRight:"
+- "makeTextWritingDirectionRightToLeft:"
+- "manifestURL"
+- "markedText"
+- "markedTextRange"
+- "mathExpressionCompletionType"
+- "mediaPlaybackAndCaptureWithEnvironment:"
+- "modifierFlags"
+- "move:"
+- "moveByOffset:"
+- "moveInLayoutDirection:"
+- "moveInStorageDirection:byGranularity:"
+- "moveSelectionAtBoundary:inStorageDirection:completionHandler:"
+- "networkProcessWithBundleID:interruptionHandler:completion:"
+- "networkProcessWithInterruptionHandler:completion:"
+- "newFenceFromDefaultServer"
+- "newFromPasteboard:"
+- "noteSelectedAlternativeString:"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "observedProgress"
+- "offsetFromPosition:toPosition:"
+- "options"
+- "parentScrollViewForScrollView:"
+- "passwordRules"
+- "paste:"
+- "pasteAndGo:"
+- "pasteAndMatchStyle:"
+- "pasteAndSearch:"
+- "performClose:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWithInput:"
+- "phase"
+- "pid"
+- "placeholderType"
+- "placeholderURLBookmarkData"
+- "placeholderURLWrapper"
+- "presentEditMenuForSelection"
+- "primaryString"
+- "print:"
+- "process"
+- "promptForReplace:"
+- "publish"
+- "q"
+- "q16@0:8"
+- "q32@0:8@\"UITextPosition\"16@\"UITextPosition\"24"
+- "q32@0:8@16@24"
+- "rangeValue"
+- "refreshKeyboardUI"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "release"
+- "remoteContextWithOptions:"
+- "remoteObjectProxy"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeInteraction:"
+- "removeItemAtURL:error:"
+- "removeObserver:"
+- "removeTextAlternatives"
+- "removeTextPlaceholder:willInsertText:completionHandler:"
+- "rename:"
+- "renderingProcessWithBundleID:interruptionHandler:completion:"
+- "renderingProcessWithInterruptionHandler:completion:"
+- "replace:"
+- "replaceAllowed"
+- "replaceDictatedText:withText:"
+- "replacePlaceholderWithPlaceholderFileWrapper:downloadedFileWrapper:completionHandler:"
+- "replaceSelectedText:withText:"
+- "replaceText:withText:options:completionHandler:"
+- "requestDocumentContext:completionHandler:"
+- "requestPreferredArrowDirectionForEditMenuWithCompletionHandler:"
+- "requestTextContextForAutocorrectionWithCompletionHandler:"
+- "requestTextRectsForString:withCompletionHandler:"
+- "requestWithError:"
+- "respondsToSelector:"
+- "resume"
+- "resumeMonitoring:completionHandler:"
+- "retain"
+- "retainCount"
+- "returnKeyType"
+- "revokeMediaEndowmentWithEnvironmentID:"
+- "scheduleChineseTransliterationForText:"
+- "scheduleReplacementsForText:"
+- "scrollView:handleScrollUpdate:completion:"
+- "secureTextEntry"
+- "select:"
+- "selectAll:"
+- "selectPositionAtPoint:completionHandler:"
+- "selectPositionAtPoint:withContextRequest:completionHandler:"
+- "selectTextForEditMenuWithLocationInView:completionHandler:"
+- "selectTextInGranularity:atPoint:completionHandler:"
+- "selectWordForReplacement"
+- "selectedText"
+- "selectedTextRange"
+- "selectionAtDocumentStart"
+- "selectionBoundaryAdjustedToPoint:touchPhase:flags:"
+- "selectionChanged"
+- "selectionChangedWithGestureAt:withGesture:withState:withFlags:"
+- "selectionChangedWithGestureAtPoint:gesture:state:flags:"
+- "selectionChangedWithTouchAt:withSelectionTouch:withFlags:"
+- "selectionClipRect"
+- "selectionContainerViewAboveText"
+- "selectionContainerViewBelowText"
+- "selectionDidChange:"
+- "selectionDidChangeForTextInput:"
+- "selectionRectsForRange:"
+- "selectionWillChange:"
+- "selectionWillChangeForTextInput:"
+- "self"
+- "setAccessibilityContainer:"
+- "setAllowedWritingToolsResultOptions:"
+- "setAllowsNumberPadPopover:"
+- "setAnnotatedText:"
+- "setAsyncInputDelegate:"
+- "setAttributedMarkedText:selectedRange:"
+- "setAutocapitalizationType:"
+- "setAutocorrectedRanges:"
+- "setAutocorrectionType:"
+- "setBaseWritingDirection:forRange:"
+- "setBrowserAccessibilityContainerType:"
+- "setBrowserAccessibilityCurrentStatus:"
+- "setBrowserAccessibilityHasDOMFocus:"
+- "setBrowserAccessibilityIsRequired:"
+- "setBrowserAccessibilityPressedState:"
+- "setBrowserAccessibilityRoleDescription:"
+- "setBrowserAccessibilitySortDirection:"
+- "setBrowserEngineClient:"
+- "setCancellable:"
+- "setCompletedUnitCount:"
+- "setContextAfter:"
+- "setContextBefore:"
+- "setContextMenuInteractionDelegate:"
+- "setConversationContext:"
+- "setDelegate:"
+- "setDocumentEditable:"
+- "setDocumentIsEditable:"
+- "setDocumentRect:"
+- "setEnablesReturnKeyAutomatically:"
+- "setEndMarker:"
+- "setExpirationHandler:"
+- "setFileOperationKind:"
+- "setFileURL:"
+- "setFlags:"
+- "setGranularityCount:"
+- "setHandle:"
+- "setHostingToken:"
+- "setInlinePredictionType:"
+- "setInputElementIdentifier:"
+- "setInvalidationHandler:"
+- "setKeyboardAppearance:"
+- "setKeyboardType:"
+- "setKind:"
+- "setLayer:"
+- "setMarkedText:"
+- "setMarkedText:selectedRange:"
+- "setMathExpressionCompletionType:"
+- "setNeedsAuthoritativeHostingToken"
+- "setOnClientSide:"
+- "setOptions:"
+- "setPasswordRules:"
+- "setReason:"
+- "setRemoteChildrenDelegate:"
+- "setRemoteObjectInterface:"
+- "setReturnKeyType:"
+- "setSecureTextEntry:"
+- "setSelectedRangeInMarkedText:"
+- "setSelectedText:"
+- "setSelectedTextRange:"
+- "setSelectionFromPoint:toPoint:gesture:state:"
+- "setShouldEvaluateForInputSystemHandling:"
+- "setShouldInsertChar:"
+- "setShouldInsertCharacter:"
+- "setSmartDashesType:"
+- "setSmartInsertDeleteType:"
+- "setSmartQuotesType:"
+- "setSpellCheckingType:"
+- "setStartMarker:"
+- "setSurroundingGranularity:"
+- "setTaskCompletedWithSuccess:"
+- "setTextContentType:"
+- "setTitle:"
+- "setTotalUnitCount:"
+- "setWithObject:"
+- "setWritingToolsBehavior:"
+- "setXpcConnection:"
+- "set_documentRect:"
+- "share:"
+- "shareText:fromRect:"
+- "sharedAVSystemController"
+- "sharedScheduler"
+- "shiftKeyStateChangedFromState:toState:"
+- "shouldEvaluateForInputSystemHandling"
+- "shouldEvaluateURLs"
+- "shouldInsertCharacter"
+- "showDictionaryForTextInContext:definingTextInRange:fromRect:"
+- "showReplacementsForText:"
+- "showShareSheetFor:fromRect:"
+- "showTextServiceFor:fromRect:"
+- "showWritingTools:"
+- "signal"
+- "smartDashesType"
+- "smartInsertDeleteType"
+- "smartQuotesType"
+- "sourceURL"
+- "spellCheckingType"
+- "state"
+- "stringWithFormat:"
+- "submitTaskRequest:error:"
+- "superclass"
+- "supportsSecureCoding"
+- "surroundingGranularity"
+- "suspendWithError:"
+- "suspended"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemDidChangeSelectionForInteraction:"
+- "systemWillChangeSelectionForInteraction:"
+- "systemWillDismissEditMenuWithAnimator:"
+- "systemWillPresentEditMenuWithAnimator:"
+- "targetWithPid:"
+- "targetWithPid:environmentIdentifier:"
+- "textContentType"
+- "textFirstRect"
+- "textInRange:"
+- "textInputView"
+- "textInteractionGesture:shouldBeginAtPoint:"
+- "textLastRect"
+- "textSelectionDisplayInteraction"
+- "textStylingAtPosition:inDirection:"
+- "textSuggestionWithInputText:"
+- "timestamp"
+- "title"
+- "toggleBoldface:"
+- "toggleInspector:"
+- "toggleItalics:"
+- "toggleSidebar:"
+- "toggleUnderline:"
+- "tokenFromXPCRepresentation:error:"
+- "tokenWithPort:data:error:"
+- "totalUnitCount"
+- "translate:"
+- "translate:fromRect:"
+- "translateText:fromRect:"
+- "translationInView:"
+- "transliterateChinese:"
+- "transliterateChineseForText:"
+- "transposeCharactersAroundSelection"
+- "type"
+- "unmarkText"
+- "unobscuredContentRect"
+- "unpublish"
+- "unscaledView"
+- "unsignedIntegerValue"
+- "updateCurrentSelectionTo:fromGesture:inState:"
+- "updateProgress:"
+- "updateSelectionWithExtentPoint:boundary:completionHandler:"
+- "updateTextAttributesWithConversionHandler:"
+- "updateTitle:withReason:"
+- "useDownloadsFolder"
+- "useDownloadsFolderWithPlaceholderType:finalFileCreatedHandler:"
+- "useSelectionForFind:"
+- "v16@0:8"
+- "v16@?0@\"BGTask\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<BETextInputDelegate>\"16"
+- "v24@0:8@\"<UIEditMenuInteractionAnimating>\"16"
+- "v24@0:8@\"BETextAlternatives\"16"
+- "v24@0:8@\"BETextSuggestion\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"RBSAssertion\"16"
+- "v24@0:8@\"UIAsyncTextInteraction\"16"
+- "v24@0:8@\"UIConversationContext\"16"
+- "v24@0:8@\"UITextInputPasswordRules\"16"
+- "v24@0:8@\"UITextRange\"16"
+- "v24@0:8@\"UIView\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<@\"NSDictionary\"@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"BEDownloadMonitorLocation\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"BETextDocumentContext\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?q>16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"NSSecurityScopedURLWrapper\"8@\"NSError\"16"
+- "v32@0:8@\"BEKeyEntry\"16@?<v@?@\"BEKeyEntry\"B>24"
+- "v32@0:8@\"BETextDocumentRequest\"16@?<v@?@\"BETextDocumentContext\">24"
+- "v32@0:8@\"NSString\"16@\"NSString\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSSecurityScopedURLWrapper\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?B@\"NSData\">24"
+- "v32@0:8@\"RBSAssertion\"16@\"NSError\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@?16@?24"
+- "v32@0:8q16@\"UITextRange\"24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?B@\"NSError\">24"
+- "v32@0:8q16q24"
+- "v32@0:8{CGPoint=dd}16"
+- "v32@0:8{_NSRange=QQ}16"
+- "v36@0:8@\"UITextPlaceholder\"16B24@?<v@?>28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSAttributedString\"16{_NSRange=QQ}24"
+- "v40@0:8@\"NSSecurityScopedURLWrapper\"16@\"NSSecurityScopedURLWrapper\"24@?<v@?@\"NSSecurityScopedURLWrapper\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16{_NSRange=QQ}24"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8@16{_NSRange=QQ}24"
+- "v40@0:8q16q24@?32"
+- "v40@0:8q16q24@?<v@?>32"
+- "v40@0:8{?=qq}16@?32"
+- "v40@0:8{?=qq}16@?<v@?>32"
+- "v40@0:8{CGPoint=dd}16@?32"
+- "v40@0:8{CGPoint=dd}16@?<v@?>32"
+- "v40@0:8{CGPoint=dd}16@?<v@?B@\"NSString\"{_NSRange=QQ}>32"
+- "v40@0:8{CGSize=dd}16@?32"
+- "v40@0:8{CGSize=dd}16@?<v@?@\"UITextPlaceholder\">32"
+- "v48@0:8@\"NSString\"16@\"NSString\"24Q32@?<v@?@\"NSArray\">40"
+- "v48@0:8@16@24Q32@?40"
+- "v48@0:8q16{CGPoint=dd}24@?40"
+- "v48@0:8q16{CGPoint=dd}24@?<v@?>40"
+- "v48@0:8{CGPoint=dd}16@\"BETextDocumentRequest\"32@?<v@?@\"BETextDocumentContext\">40"
+- "v48@0:8{CGPoint=dd}16@32@?40"
+- "v48@0:8{CGPoint=dd}16q32@?40"
+- "v48@0:8{CGPoint=dd}16q32@?<v@?B>40"
+- "v48@0:8{CGPoint=dd}16q32Q40"
+- "v48@0:8{CGPoint=dd}16q32q40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v52@0:8{CGPoint=dd}16q32B40Q44"
+- "v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "v56@0:8{CGPoint=dd}16q32q40Q48"
+- "v64@0:8{CGPoint=dd}16{CGPoint=dd}32q48q56"
+- "v64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{_NSRange=QQ}48"
+- "v72@0:8@16{_NSRange=QQ}24{CGRect={CGPoint=dd}{CGSize=dd}}40"
+- "valueWithRange:"
+- "view"
+- "webContentProcessWithBundleID:interruptionHandler:completion:"
+- "webContentProcessWithInterruptionHandler:completion:"
+- "willInsertFinalDictationResult"
+- "willMoveToView:"
+- "window"
+- "writingToolsBehavior"
+- "xpcConnection"
+- "zone"
+- "{?=\"delegateHandleScrollUpdate\"b1\"delegateParentScrollView\"b1}"
+- "{?=\"prepareForSession\"b1\"asyncItemsForAdding\"b1}"
+- "{CGPoint=dd}24@0:8@16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UITextPosition\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "{_NSRange=QQ}16@0:8"
+- "{_NSRange=QQ}24@0:8q16"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

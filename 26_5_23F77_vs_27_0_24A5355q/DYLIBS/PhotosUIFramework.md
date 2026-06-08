@@ -1,0 +1,750 @@
+## PhotosUIFramework
+
+> `/System/Library/AccessibilityBundles/PhotosUIFramework.axbundle/PhotosUIFramework`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x1525c
+-  __TEXT.__auth_stubs: 0x5a0
+-  __TEXT.__objc_methlist: 0x2134
++3036.2.0.0.0
++  __TEXT.__text: 0x144c8
++  __TEXT.__objc_methlist: 0x211c
+   __TEXT.__const: 0x30
+-  __TEXT.__gcc_except_tab: 0x410
+-  __TEXT.__cstring: 0x3a33
+-  __TEXT.__unwind_info: 0x810
+-  __TEXT.__objc_classname: 0x1565
+-  __TEXT.__objc_methname: 0x2f26
+-  __TEXT.__objc_methtype: 0x435
+-  __TEXT.__objc_stubs: 0x2560
+-  __DATA_CONST.__got: 0x250
+-  __DATA_CONST.__const: 0x650
++  __TEXT.__gcc_except_tab: 0x414
++  __TEXT.__cstring: 0x3a16
++  __TEXT.__unwind_info: 0x7c0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x628
+   __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xec0
++  __DATA_CONST.__objc_selrefs: 0xeb0
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x1b8
+-  __AUTH_CONST.__auth_got: 0x2e0
++  __DATA_CONST.__got: 0x248
+   __AUTH_CONST.__const: 0x4c0
+-  __AUTH_CONST.__cfstring: 0x4e20
+-  __AUTH_CONST.__objc_const: 0x4df8
++  __AUTH_CONST.__cfstring: 0x4e00
++  __AUTH_CONST.__objc_const: 0x4e10
+   __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x550
+   __DATA.__objc_ivar: 0x14
+   __DATA.__data: 0x188
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4818528B-D4E3-3E53-85A8-84E051C35526
+-  Functions: 667
+-  Symbols:   2586
+-  CStrings:  1989
++  UUID: 727D4F6C-0BFB-35B5-8DDD-B148D50B9861
++  Functions: 664
++  Symbols:   2580
++  CStrings:  1289
+ 
+Symbols:
++ -[PUOneUpBarsControllerAccessibility _axLoadGridButtonAccessibility:]
++ GCC_except_table12
++ GCC_except_table127
++ GCC_except_table163
++ GCC_except_table167
++ GCC_except_table222
++ GCC_except_table234
++ GCC_except_table31
++ GCC_except_table326
++ GCC_except_table330
++ GCC_except_table38
++ GCC_except_table380
++ GCC_except_table399
++ GCC_except_table40
++ GCC_except_table416
++ GCC_except_table440
++ GCC_except_table471
++ GCC_except_table503
++ GCC_except_table507
++ GCC_except_table510
++ GCC_except_table563
++ GCC_except_table567
++ GCC_except_table61
++ GCC_except_table64
++ GCC_except_table648
++ ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke.679
++ ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2.686
++ ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_3.687
++ ___Block_byref_object_copy_.1381
++ ___Block_byref_object_copy_.2059
++ ___Block_byref_object_copy_.2233
++ ___Block_byref_object_copy_.2397
++ ___Block_byref_object_copy_.3186
++ ___Block_byref_object_copy_.578
++ ___Block_byref_object_copy_.831
++ ___Block_byref_object_copy_.914
++ ___Block_byref_object_dispose_.1382
++ ___Block_byref_object_dispose_.2060
++ ___Block_byref_object_dispose_.2234
++ ___Block_byref_object_dispose_.2398
++ ___Block_byref_object_dispose_.3187
++ ___Block_byref_object_dispose_.579
++ ___Block_byref_object_dispose_.832
++ ___Block_byref_object_dispose_.915
++ ___block_literal_global.1047
++ ___block_literal_global.1170
++ ___block_literal_global.1266
++ ___block_literal_global.1707
++ ___block_literal_global.176
++ ___block_literal_global.1808
++ ___block_literal_global.2216
++ ___block_literal_global.2295
++ ___block_literal_global.2881
++ ___block_literal_global.299
++ ___block_literal_global.3183
++ ___block_literal_global.36
++ ___block_literal_global.510
++ ___block_literal_global.574
++ ___block_literal_global.574.1166
++ ___block_literal_global.574.506
++ ___block_literal_global.583
++ ___block_literal_global.596
++ ___block_literal_global.60
++ ___block_literal_global.601
++ ___block_literal_global.602
++ ___block_literal_global.603
++ ___block_literal_global.613
++ ___block_literal_global.624
++ ___block_literal_global.635
++ ___block_literal_global.636
++ ___block_literal_global.640
++ ___block_literal_global.668
++ ___block_literal_global.685
++ ___block_literal_global.689
++ ___block_literal_global.694
++ ___block_literal_global.697
++ ___block_literal_global.704
++ ___block_literal_global.881
++ ___block_literal_global.883
++ ___block_literal_global.995
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_axLoadGridButtonAccessibility:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x26
++ _objc_retain_x3
++ _objc_retain_x8
+- -[PUOneUpBarsControllerAccessibility _axLoadBackButtonWithNoTitleAccessibility:]
+- -[PUOneUpBarsControllerAccessibility _axLoadDoneButtonAccessibility:]
+- -[PUOneUpBarsControllerAccessibility _axLoadMuteButtonAccessibility:]
+- -[PUOneUpBarsControllerAccessibility _axLoadUnmuteButtonAccessibility:]
+- GCC_except_table1
+- GCC_except_table10
+- GCC_except_table13
+- GCC_except_table21
+- GCC_except_table25
+- GCC_except_table27
+- GCC_except_table3
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table6
+- GCC_except_table8
+- GCC_except_table9
+- _UIAccessibilityTraitBackButton
+- ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke.637
+- ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2.644
+- ___79-[PUCropToolControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_3.645
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_literal_global.532
+- ___block_literal_global.541
+- ___block_literal_global.552
+- ___block_literal_global.554
+- ___block_literal_global.559
+- ___block_literal_global.560
+- ___block_literal_global.561
+- ___block_literal_global.571
+- ___block_literal_global.582
+- ___block_literal_global.593
+- ___block_literal_global.598
+- ___block_literal_global.626
+- ___block_literal_global.643
+- ___block_literal_global.647
+- ___block_literal_global.652
+- ___block_literal_global.655
+- ___block_literal_global.662
+- ___block_literal_global.839
+- ___block_literal_global.841
+- _objc_msgSend$_axLoadBackButtonWithNoTitleAccessibility:
+- _objc_msgSend$_axLoadDoneButtonAccessibility:
+- _objc_msgSend$_axLoadMuteButtonAccessibility:
+- _objc_msgSend$_axLoadUnmuteButtonAccessibility:
+CStrings:
++ "photo.browse"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"AXDispatchTimer\""
+- "@\"AXMFaceDetectorNode\""
+- "@\"AXMImageNode\""
+- "@\"AXMVisionEngine\""
+- "@\"CLLocation\"16@0:8"
+- "@\"NSDate\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8q16@24"
+- "@32@0:8q16q24"
+- "@40@0:8:16@24@32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "AXFullScreenTileControllerDelegate"
+- "AXPUAdjustmentSlider"
+- "AXPhotoSort"
+- "AXPhotosUIFrameworkGlue"
+- "AXPhotosVisionEngine"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8q16"
+- "B32@0:8{CGPoint=dd}16"
+- "B36@0:8{CGPoint=dd}16B32"
+- "CGSizeValue"
+- "NSCopying"
+- "NSObject"
+- "PUTransparentViewAccessibility"
+- "Q16@0:8"
+- "Q24@0:8@\"<PUDisplayAsset>\"16"
+- "Q24@0:8@16"
+- "S16@0:8"
+- "SafeCategory"
+- "T#,R"
+- "T@\"AXDispatchTimer\",&,N,V_timer"
+- "T@\"AXMFaceDetectorNode\",&,N,V_faceNode"
+- "T@\"AXMImageNode\",&,N,V_imageNode"
+- "T@\"AXMVisionEngine\",&,N,V_engine"
+- "T@\"CLLocation\",R,N"
+- "T@\"NSDate\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "TB,?,R,N"
+- "TB,R,N"
+- "TB,R,N,GisFavorite"
+- "TB,R,N,GisHidden"
+- "TB,R,N,GisLivePhoto"
+- "TQ,R"
+- "TQ,R,N"
+- "TS,?,R,N"
+- "TS,R,N"
+- "Td,R,N"
+- "Tq,R,N"
+- "T{?=qiIq},?,R,N"
+- "T{?=qiIq},R,N"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "__AmbientPhotoFrameControllerAccessibility_super"
+- "__CMTime__"
+- "__PHLivePhotoViewAccessibility_super"
+- "__PUActivityViewControllerAccessibility_super"
+- "__PUAdjustmentsToolControllerAccessibility_super"
+- "__PUAdjustmentsViewControllerAccessibility_super"
+- "__PUAlbumListCellContentViewAccessibility_super"
+- "__PUAlbumListTableViewCellAccessibility_super"
+- "__PUAlbumListViewControllerAccessibility_super"
+- "__PUAudioToolControllerAccessibility_super"
+- "__PUAvalancheReviewControllerAccessibility_super"
+- "__PUCarouselSharingViewControllerAccessibility_super"
+- "__PUCinematicSubjectIndicatorAccessibility_super"
+- "__PUCollectionViewAccessibility_super"
+- "__PUCropAspectFlipperViewAccessibility_super"
+- "__PUCropAspectViewControllerAccessibility_super"
+- "__PUCropHandleViewAccessibility_super"
+- "__PUCropToolControllerAccessibility_super"
+- "__PUFilmstripWrapperViewAccessibility_super"
+- "__PUFilterToolControllerAccessibility_super"
+- "__PUGridRenderedStripAccessibility_super"
+- "__PUImageTileViewControllerAccessibility_super"
+- "__PULivePhotoVideoOverlayTileViewControllerAccessibility_super"
+- "__PUOneUpBarsControllerAccessibility_super"
+- "__PUOneUpDetailsBarButtonControllerAccessibility_super"
+- "__PUOneUpSelectionIndicatorTileViewControllerAccessibility_super"
+- "__PUOneUpViewControllerAccessibility_super"
+- "__PUOutlineCellAccessibility_super"
+- "__PUPhotoCommentEntryViewAccessibility_super"
+- "__PUPhotoEditBaseAdjustmentCellAccessibility_super"
+- "__PUPhotoEditMediaToolControllerAccessibility_super"
+- "__PUPhotoEditPortraitToolControllerAccessibility_super"
+- "__PUPhotoEditToolControllerAccessibility_super"
+- "__PUPhotoEditToolControllerViewAccessibility_super"
+- "__PUPhotoEditViewControllerAccessibility_super"
+- "__PUPhotoPostCommentTextEntryCellAccessibility_super"
+- "__PUPhotosAlbumViewControllerAccessibility_super"
+- "__PUPhotosGridCellAccessibility_super"
+- "__PUPhotosGridViewControllerAccessibility_super"
+- "__PUPhotosSharingGridCellAccessibility_super"
+- "__PUPickerNavigationBarPaletteAccessibility_super"
+- "__PUPickerOnboardingHeaderViewAccessibility_super"
+- "__PURedeyeToolControllerAccessibility_super"
+- "__PUReviewAssetAccessibility_super"
+- "__PUReviewScreenControlBarAccessibility_super"
+- "__PUScrubberViewAccessibility"
+- "__PUScrubberViewAccessibility_super"
+- "__PUSlideshowSpeedCellAccessibility_super"
+- "__PUSlideshowViewControllerAccessibility_super"
+- "__PUTileControllerAccessibility_super"
+- "__PUTilingViewAccessibility_super"
+- "__PUTransparentViewAccessibility_super"
+- "__PUTrimToolControllerAccessibility_super"
+- "__PUUserTransformViewAccessibility_super"
+- "__PUVideoEditOverlayViewControllerAccessibility_super"
+- "__PUVideoPlayerViewAccessibility_super"
+- "__PUVideoTileViewControllerAccessibility_super"
+- "__PUWallpaperPosterEditorControllerAccessibility_super"
+- "__UIButtonAccessibility__PhotosUI__UIKit_super"
+- "__UICollectionViewAccessibility__PhotosUI__UIKit_super"
+- "__UIImageViewAccessibility__PhotosUI__UIKit_super"
+- "__UINavigationBarAccessibility__PhotosUI__UIKit_super"
+- "__UITextViewAccessibility__PhotosUI__UIKit_super"
+- "__UIToolbarTextButtonAccessibility__PhotosUI__UIKit_super"
+- "_accessibilityAllowsSiblingsWhenOvergrown"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityBoolValueForKey:"
+- "_accessibilityContentSize"
+- "_accessibilityDelayBeforeUpdatingOnActivation"
+- "_accessibilityDescendantOfType:"
+- "_accessibilityElementStoredUserLabel"
+- "_accessibilityFindAncestor:startWithSelf:"
+- "_accessibilityFindDescendant:"
+- "_accessibilityFindSubviewDescendant:"
+- "_accessibilityFindViewAncestor:startWithSelf:"
+- "_accessibilityHitTest:withEvent:"
+- "_accessibilityHitTestReverseOrder"
+- "_accessibilityInTopLevelTabLoop"
+- "_accessibilityIsFKARunningForFocusItem"
+- "_accessibilityIsPHAssetLocallyAvailable"
+- "_accessibilityIsTouchContainer"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityNavigationBarShouldOverrideMinimumHeight"
+- "_accessibilityOpaqueElementScrollsContentIntoView"
+- "_accessibilityOverridesInstructionsHint"
+- "_accessibilityPHAssetLocalIdentifier"
+- "_accessibilityPerformValidations:"
+- "_accessibilityPhotoDescription"
+- "_accessibilityPhotoLibraryURL"
+- "_accessibilityRemoveValueForKey:"
+- "_accessibilitySavePhotoLabel:"
+- "_accessibilityScannerActivateBehavior"
+- "_accessibilityScrollStatus"
+- "_accessibilityScrollWidthDistance"
+- "_accessibilitySetBoolValue:forKey:"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilityShouldSpeakScrollStatusOnEntry"
+- "_accessibilitySimpleSort:"
+- "_accessibilitySkipImageTraitDescription"
+- "_accessibilitySortPriority"
+- "_accessibilityStringForLabelKeyValues:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilitySupportsContentSizeCategory:"
+- "_accessibilityUserTestingElementBaseType"
+- "_accessibilityValueForKey:"
+- "_accessibilityViewAncestorIsKindOf:"
+- "_accessibilityViewController"
+- "_accessibilityViewIsVisible"
+- "_accessibilityZoomAtPoint:zoomIn:"
+- "_axAddCustomContentTypeToCell:inCollectionView:atIndexPath:"
+- "_axAdjustValue:"
+- "_axAdjustmentInfo"
+- "_axAdjustmentsSlider"
+- "_axAnnounceFlipOrRotateOrientation"
+- "_axApplyAssetToView"
+- "_axApplyCustomAction:"
+- "_axApplyCustomActionsToTileControllers"
+- "_axAssetViewModel"
+- "_axClearData"
+- "_axCloseVideoPlaybackAction"
+- "_axCollectionView"
+- "_axConformsToFullScreenTileControllerDelegate"
+- "_axContainerCollectionView"
+- "_axContainerViewController"
+- "_axContainingSelectedIndexPath"
+- "_axCountdownTimer"
+- "_axCustomContentType"
+- "_axDataSource"
+- "_axDecrementForThreeFingerScroll"
+- "_axDetailsShowing"
+- "_axExecuteBlockOnTileViewControllers:"
+- "_axGenerateIsElement:"
+- "_axGenerateLabel:"
+- "_axGetFaces"
+- "_axImageView"
+- "_axIncrementForThreeFingerScroll"
+- "_axInitializeDataForElement"
+- "_axIsFavorite"
+- "_axIsVideoPlayerActivated"
+- "_axLoadAirplayButtonAccessibility:"
+- "_axLoadBackButtonWithNoTitleAccessibility:"
+- "_axLoadDeleteButtonAccessibility:"
+- "_axLoadDetailsButtonAccessibility:"
+- "_axLoadDoneButtonAccessibility:"
+- "_axLoadEditButtonAccessibility:"
+- "_axLoadFavoriteButtonAccessibility:"
+- "_axLoadLikeButtonAccessibility:identifier:"
+- "_axLoadMuteButtonAccessibility:"
+- "_axLoadRewindButtonAccessibility:"
+- "_axLoadShareButtonAccessibility:"
+- "_axLoadUnmuteButtonAccessibility:"
+- "_axMainAssetURL"
+- "_axMainImageView"
+- "_axPHAsset"
+- "_axPreviousSelectedIndexPathSection"
+- "_axRenameAlbumAction"
+- "_axRotationLabel:"
+- "_axScrollToAssetReference:inViewModel:forThreeFingerScroll:"
+- "_axSelectedAdjustmentCell"
+- "_axSetCellCustomContentType:"
+- "_axSetCinematicSubjectIndicatorDidBecomeFocused:"
+- "_axSetShouldMoveFocusToNavigationButton:"
+- "_axSharingSelectionView"
+- "_axShouldMoveFocusToNavigationButton"
+- "_axShowAccessory"
+- "_axShowingType"
+- "_axShowsDeleteButton"
+- "_axSubjectIndicatorWasFocused"
+- "_axTileControllerForAsset:"
+- "_axTypeStringWithCount:"
+- "_axUpdateElementFrame"
+- "_axVideoEditOverlayViewController"
+- "_axVideoPlaybackValue"
+- "_axVideoPlayer"
+- "_axVideoSession"
+- "_configureAddPlaceholderCell:animated:"
+- "_engine"
+- "_faceNode"
+- "_handleTapGestureRecognizer:"
+- "_imageNode"
+- "_liftableSubjectView"
+- "_newBarButtonItemWithIdentifier:location:"
+- "_scrollViewAnimationEnded:finished:"
+- "_setAXAdjustmentsSlider:"
+- "_setAXCountdownTimer:"
+- "_setAXCustomContentType:"
+- "_setAXFaces:"
+- "_setAXPreviousSelectedIndexPathSection:"
+- "_setAXSubjectIndicatorWasFocused:"
+- "_setAccessibilityHintBlock:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityTraitsBlock:"
+- "_setAccessibilityValueBlock:"
+- "_setIsAccessibilityElementBlock:"
+- "_shouldActuallyInstallBundle"
+- "_timer"
+- "accessibilityActivate"
+- "accessibilityActivationPoint"
+- "accessibilityActivationPoint:"
+- "accessibilityApplyValueBlock:"
+- "accessibilityContainer"
+- "accessibilityContainerType"
+- "accessibilityCustomActions"
+- "accessibilityCustomContent"
+- "accessibilityDecrement"
+- "accessibilityDragSourceDescriptors"
+- "accessibilityElementDidBecomeFocused"
+- "accessibilityElementDidLoseFocus"
+- "accessibilityElementIsFocused"
+- "accessibilityElements"
+- "accessibilityElementsHidden"
+- "accessibilityFrame"
+- "accessibilityFrame:"
+- "accessibilityHint"
+- "accessibilityHint:"
+- "accessibilityIdentifier"
+- "accessibilityIncrement"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityLabel:"
+- "accessibilityPerformEscape"
+- "accessibilityPerformMagicTap"
+- "accessibilityPlaceholderValue"
+- "accessibilityRespondsToUserInteraction"
+- "accessibilityScroll:"
+- "accessibilityTraits"
+- "accessibilityURL"
+- "accessibilityUserDefinedLabel"
+- "accessibilityValue"
+- "accessibilityZoomInAtPoint:"
+- "accessibilityZoomOutAtPoint:"
+- "addEvaluationNode:"
+- "addHandler:forFramework:"
+- "addObject:"
+- "addObserver:selector:name:object:"
+- "addSourceNode:"
+- "afterDelay:processBlock:"
+- "allTargets"
+- "analyzeImage:completion:"
+- "array"
+- "arrayWithObjects:count:"
+- "aspectRatio"
+- "assetCollectionSubtype"
+- "automationElements"
+- "autorelease"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axArrayWithPossiblyNilArrays:"
+- "axAttributedStringWithString:"
+- "axSafelyAddObject:"
+- "becomeFirstResponder"
+- "boolValue"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "bundleWithPath:"
+- "canAddEvaluationNodeClass:"
+- "canPlayLoopingVideo"
+- "canPlayPhotoIris"
+- "cancel"
+- "cellForItemAtIndexPath:"
+- "class"
+- "collectionListType"
+- "collectionView:cellForItemAtIndexPath:"
+- "compactSCSensitivityAnalysis"
+- "configurationType"
+- "conformsToProtocol:"
+- "contentChangeFromDisplayAsset:"
+- "contentView"
+- "convertPoint:toView:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "creationDate"
+- "currentLocale"
+- "d16@0:8"
+- "dealloc"
+- "debugDescription"
+- "decimalDigitCharacterSet"
+- "defaultCenter"
+- "deferredProcessingNeeded"
+- "description"
+- "dismissViewControllerAnimated:completion:"
+- "duration"
+- "engine"
+- "enumerateIndexPathsStartingAtIndexPath:reverseDirection:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "faceNode"
+- "favorite"
+- "firstObject"
+- "frame"
+- "hasPhotoColorAdjustments"
+- "hasPrefix:"
+- "hasSyndicationInformation"
+- "hash"
+- "hidden"
+- "hitTest:withEvent:"
+- "imageForState:"
+- "indexAtPosition:"
+- "indexOfObject:"
+- "indexPathForCell:"
+- "indexPathForItem:inSection:"
+- "indexPathsForVisibleItems"
+- "init"
+- "initWithAccessibilityContainer:"
+- "initWithIdentifier:"
+- "initWithImage:"
+- "initWithName:target:selector:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithTargetSerialQueue:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "integerValue"
+- "interfaceOrientation"
+- "isAccessibilityElement"
+- "isAccessibilityUserDefinedElement"
+- "isAnimatedImage"
+- "isContentEqualTo:"
+- "isEditing"
+- "isEqual:"
+- "isEqualToString:"
+- "isGuestAsset"
+- "isHidden"
+- "isHighlighted"
+- "isKindOfClass:"
+- "isLivePhoto"
+- "isMemberOfClass:"
+- "isPhotoIrisPlaceholder"
+- "isProxy"
+- "isTemporaryPlaceholder"
+- "layoutSubviews"
+- "length"
+- "loadAccessibilityBundleForBundle:didLoadCallback:force:loadAllAccessibilityInfo:"
+- "localCreationDate"
+- "localizedGeoDescription"
+- "localizedScannerWithString:"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "location"
+- "mainBundle"
+- "maximumZoomScale"
+- "mediaType"
+- "minimumZoomScale"
+- "modificationDate"
+- "mutableCopy"
+- "name"
+- "needsDeferredProcessing"
+- "needsSensitivityProtection"
+- "numberOfItemsInSection:"
+- "numberOfSections"
+- "numberWithBool:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "originalFilesize"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "photo.volume.button"
+- "photo.volume.muted.button"
+- "photoIrisStillDisplayTime"
+- "photoIrisVideoDuration"
+- "pixelHeight"
+- "pixelWidth"
+- "playbackStyle"
+- "playbackVariation"
+- "postNotificationName:object:"
+- "presentedTileControllerWithIndexPath:kind:dataSourceIdentifier:"
+- "q16@0:8"
+- "q24@0:8@16"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:"
+- "rangeOfString:options:"
+- "release"
+- "removeObserver:name:object:"
+- "resignFirstResponder"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "row"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCGFloatForKey:"
+- "safeCGPointForKey:"
+- "safeCGRectForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeIntegerForKey:"
+- "safeStringForKey:"
+- "safeSwiftValueForKey:"
+- "safeUIViewForKey:"
+- "safeUnsignedIntegerForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "scanInteger:"
+- "scrollToItemAtIndexPath:atScrollPosition:animated:"
+- "section"
+- "selectItemAtIndexPath:animated:scrollPosition:"
+- "self"
+- "sensitivityAnalysisState"
+- "setAccessibilityActivateBlock:"
+- "setAccessibilityContainer:"
+- "setAccessibilityContainerType:"
+- "setAccessibilityCustomActions:"
+- "setAccessibilityDelegate:"
+- "setAccessibilityElements:"
+- "setAccessibilityElementsHidden:"
+- "setAccessibilityHint:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAccessibilityLabelBlock:"
+- "setAccessibilityTraits:"
+- "setAccessibilityValue:"
+- "setAccessibilityViewIsModal:"
+- "setAttribute:forKey:"
+- "setAttribute:forKey:withRange:"
+- "setDebugBuild:"
+- "setDetectFaceLandmarks:"
+- "setDetectText:"
+- "setDiagnosticsEnabled:"
+- "setEditing:animated:"
+- "setEngine:"
+- "setFaceNode:"
+- "setFrame:"
+- "setImageNode:"
+- "setIsAccessibilityElement:"
+- "setMaximumQueueSize:"
+- "setOverrideProcessName:"
+- "setTimer:"
+- "setValidationTargetName:"
+- "setZoomScale:animated:"
+- "sharedEngine"
+- "sharedInstance"
+- "sortedArrayUsingSelector:"
+- "string"
+- "stringByAppendingPathComponent:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringWithFormat:"
+- "subviews"
+- "superclass"
+- "superview"
+- "timer"
+- "triggerWithImage:options:cacheKey:resultHandler:"
+- "uniformTypeIdentifier"
+- "uuid"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"UIAccessibilityCustomAction\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8B16B20"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v36@0:8@16@24B32"
+- "v36@0:8q16@24B32"
+- "v36@0:8{CGPoint=dd}16B32"
+- "v40@0:8@16@24@32"
+- "v48@0:8@16@24{CGPoint=dd}32"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "validateClass:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasSwiftField:withSwiftType:"
+- "validateClass:hasSwiftFieldOfAnyClass:"
+- "validateClass:isKindOfClass:"
+- "validateProtocol:hasMethod:isInstanceMethod:isRequired:"
+- "validateProtocol:hasRequiredInstanceMethod:"
+- "videoKeyFrameSourceTime"
+- "viewControllerForView:"
+- "voiceOverOptions"
+- "window"
+- "windowScene"
+- "zone"
+- "zoomScale"
+- "{?=\"value\"q\"timescale\"i\"flags\"I\"epoch\"q}"
+- "{?=qiIq}16@0:8"
+- "{CGPoint=dd}16@0:8"
+- "{CGPoint=dd}24@0:8@16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "{CGSize=dd}16@0:8"
+
+```

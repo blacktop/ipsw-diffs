@@ -1,0 +1,873 @@
+## EmojiPosterFramework
+
+> `/System/Library/PrivateFrameworks/EmojiPosterFramework.framework/EmojiPosterFramework`
+
+```diff
+
+-68.0.0.0.0
+-  __TEXT.__text: 0x53698
+-  __TEXT.__auth_stubs: 0x15e0
++70.0.0.0.0
++  __TEXT.__text: 0x51f64
+   __TEXT.__objc_methlist: 0xc50
+-  __TEXT.__const: 0x52e4
+-  __TEXT.__gcc_except_tab: 0x940
++  __TEXT.__const: 0x52d4
++  __TEXT.__gcc_except_tab: 0x93c
+   __TEXT.__cstring: 0x893
+   __TEXT.__swift5_typeref: 0x1212
+   __TEXT.__constg_swiftt: 0x2408
+-  __TEXT.__swift5_reflstr: 0x1136
++  __TEXT.__swift5_reflstr: 0x1156
+   __TEXT.__swift5_fieldmd: 0x148c
+   __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift5_proto: 0x2b8
+   __TEXT.__swift5_types: 0x170
+-  __TEXT.__swift5_capture: 0x320
++  __TEXT.__swift5_capture: 0x330
+   __TEXT.__oslogstring: 0x272
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x17c0
++  __TEXT.__unwind_info: 0x17c8
+   __TEXT.__eh_frame: 0x7c8
+-  __TEXT.__objc_classname: 0x914
+-  __TEXT.__objc_methname: 0x2ed9
+-  __TEXT.__objc_methtype: 0xc26
+-  __TEXT.__objc_stubs: 0x1de0
+-  __DATA_CONST.__got: 0x440
+-  __DATA_CONST.__const: 0x328
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x320
+   __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__weak_got: 0x8
+   __DATA_CONST.__objc_selrefs: 0xb50
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0xb00
+-  __AUTH_CONST.__const: 0x3590
++  __DATA_CONST.__got: 0x438
++  __AUTH_CONST.__const: 0x35e0
+   __AUTH_CONST.__cfstring: 0x160
+   __AUTH_CONST.__objc_const: 0x3548
++  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__auth_got: 0xba8
+   __AUTH.__objc_data: 0x1d98
+   __AUTH.__data: 0x8a8
+   __DATA.__objc_ivar: 0x8
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 89606032-B9DE-3158-94CC-E376697C8803
+-  Functions: 2091
+-  Symbols:   1755
+-  CStrings:  709
++  UUID: E355DAFE-B490-3DE9-BDAE-387E86C4C98D
++  Functions: 2099
++  Symbols:   1866
++  CStrings:  80
+ 
+Symbols:
++ GCC_except_table61
++ GCC_except_table76
++ GCC_except_table79
++ GCC_except_table96
++ GCC_except_table99
++ __ZNKSt9type_infoeqB9fqe220100ERKS_
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B9fqe220100Ev
++ __ZNSt3__110__pop_heapB9fqe220100INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERPFb12sortHueEntryS2_EPS2_EEvT2_OT1_NS_15iterator_traitsIS7_E15difference_typeESC_
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERPFb14sortColorEntryS2_EPS2_EEvT2_OT1_NS_15iterator_traitsIS7_E15difference_typeESC_
++ __ZNSt3__116__insertion_sortB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI12sortHueEntryEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI14sortColorEntryEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI7JCColorEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220100INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220100INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220100INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220100INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorI14sortColorEntryEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorI7JCColorEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB9fqe220100IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
++ __ZNSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB9fqe220100ERKS1_
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__17__sort3B9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEbT1_S7_S7_T0_
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9fqe220100IRP14sortColorEntryS6_EEvOT_OT0_
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___swift__destructor
++ ___swift__destructor.2
++ ___swift__destructor.8
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.38Tm
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ _block_copy_helper.16
++ _block_copy_helper.25
++ _block_copy_helper.43
++ _block_descriptor.18
++ _block_descriptor.27
++ _block_descriptor.45
++ _block_destroy_helper.17
++ _block_destroy_helper.26
++ _block_destroy_helper.44
++ _objc_claimAutoreleasedReturnValue
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_retain_x9
+- GCC_except_table60
+- GCC_except_table75
+- GCC_except_table78
+- GCC_except_table80
+- GCC_except_table98
+- __ZNKSt9type_infoeqB9nqe210106ERKS_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B9nqe210106Ev
+- __ZNSt3__110__pop_heapB9nqe210106INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI12sortHueEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI7JCColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorI14sortColorEntryEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorI7JCColorEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB9nqe210106IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
+- __ZNSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB9nqe210106ERKS1_
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEbT1_S7_S7_T0_
+- __ZNSt3__17__sort4B9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Li0EEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9nqe210106IRP14sortColorEntryS6_EEvOT_OT0_
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_EmojiPosterFramework
+- _block_copy_helper.20
+- _block_copy_helper.44
+- _block_descriptor.22
+- _block_descriptor.46
+- _block_destroy_helper.21
+- _block_destroy_helper.45
+- _objectdestroy.38Tm
+- _swift_unknownObjectRelease_n
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_backgroundSuggestionsProvider"
+- "$__lazy_storage_$_colorPicker"
+- "$__lazy_storage_$_keyboardVC"
+- "$__lazy_storage_$_maxRadius"
+- "$__lazy_storage_$_textField"
+- ".cxx_destruct"
+- "@\"NSArray\"40@0:8@\"UITextView\"16{_NSRange=QQ}24"
+- "@\"NSMutableOrderedSet\""
+- "@\"NSString\"16@0:8"
+- "@\"UIAction\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIAction\"32"
+- "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UIMenu\"48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UITextItemMenuConfiguration\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIMenu\"32"
+- "@\"UIView\"16@0:8"
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView<UIKeyInput>\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8{CGSize=dd}16"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16{_NSRange=QQ}24"
+- "@48@0:8@16{_NSRange=QQ}24@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+- "B16@0:8"
+- "B16@?0@\"UIColor\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@\"UITextField\"16"
+- "B24@0:8@\"UITextView\"16"
+- "B24@0:8@16"
+- "B32@0:8:16@24"
+- "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16@24{_NSRange=QQ}32"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "B48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "B56@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32q48"
+- "B56@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32q48"
+- "B56@0:8@16@24{_NSRange=QQ}32q48"
+- "CGColor"
+- "CGContext"
+- "CGImage"
+- "EMPKeyboard"
+- "EMPKeyboardImpl"
+- "EMPKeyboardViewController"
+- "EMPKeyboardViewControllerProtocol"
+- "EMPPerformanceSupport"
+- "EMP_TSDImageColorAnalyzer"
+- "NSObject"
+- "Q16@0:8"
+- "SPI"
+- "T#,R"
+- "T@\"NSArray\",R,N"
+- "T@\"NSOrderedSet\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIColor\",R,N"
+- "T@\"UIView\",R,N"
+- "T@\"UIView\",R,W,N"
+- "T@\"UIView<UIKeyInput>\",&,N"
+- "TB,N"
+- "TB,N,R"
+- "TQ,N,R"
+- "TQ,R"
+- "T{CGSize=dd},N,R"
+- "UIColorPickerViewControllerDelegate"
+- "UIScrollViewDelegate"
+- "UITextFieldDelegate"
+- "UITextViewDelegate"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^v"
+- "^{_NSZone=}16@0:8"
+- "_TtC20EmojiPosterFramework11ColorButton"
+- "_TtC20EmojiPosterFramework13CircularScene"
+- "_TtC20EmojiPosterFramework13ColorWellView"
+- "_TtC20EmojiPosterFramework13EmojiRenderer"
+- "_TtC20EmojiPosterFramework15EmojiBackground"
+- "_TtC20EmojiPosterFramework15OffsetGridScene"
+- "_TtC20EmojiPosterFramework17EmojiColorPalette"
+- "_TtC20EmojiPosterFramework17EmojiSpiralLayout"
+- "_TtC20EmojiPosterFramework18EmojiPatternParser"
+- "_TtC20EmojiPosterFramework18GridLayoutProvider"
+- "_TtC20EmojiPosterFramework18NoKeyboardTextView"
+- "_TtC20EmojiPosterFramework19GradientColorSlider"
+- "_TtC20EmojiPosterFramework20ExpandingSpiralScene"
+- "_TtC20EmojiPosterFramework20SpiralLayoutProvider"
+- "_TtC20EmojiPosterFramework21ConfigurationProvider"
+- "_TtC20EmojiPosterFramework22CircularLayoutProvider"
+- "_TtC20EmojiPosterFramework23EmojiCollectionViewCell"
+- "_TtC20EmojiPosterFramework23NewSpiralLayoutProvider"
+- "_TtC20EmojiPosterFramework24BackgroundViewController"
+- "_TtC20EmojiPosterFramework24EmojiSceneViewController"
+- "_TtC20EmojiPosterFramework28LegacyCircularLayoutProvider"
+- "_TtC20EmojiPosterFramework29BackgroundSuggestionsProvider"
+- "_TtC20EmojiPosterFramework29EmojiCollectionViewController"
+- "_TtC20EmojiPosterFramework31EmojiEditingInputViewController"
+- "_TtC20EmojiPosterFramework31GradientConfigurationController"
+- "_TtC20EmojiPosterFramework33BackgroundConfigurationController"
+- "_TtC20EmojiPosterFramework35EmojiForegroundLayersViewController"
+- "_TtC20EmojiPosterFramework38EmojiGreyscaleReplicatorViewController"
+- "_TtC20EmojiPosterFramework39EmojiForegroundGridLayersViewController"
+- "_TtC20EmojiPosterFramework39EmojiForegroundReplicatorViewController"
+- "_TtC20EmojiPosterFramework41EmojiForegroundSpiralLayersViewController"
+- "_TtC20EmojiPosterFramework43EmojiForegroundCircularLayersViewController"
+- "_TtC20EmojiPosterFramework9ImageUtil"
+- "_TtC20EmojiPosterFrameworkP33_4E598C5CFF9F51104D3517746743C9A919ResourceBundleClass"
+- "_canShowWhileLocked"
+- "_detentWithIdentifier:resolutionContextBlock:"
+- "_disableAutomaticKeyboardBehavior"
+- "_disableAutomaticKeyboardUI"
+- "_imageAnalyzer"
+- "_interestingColors"
+- "_layoutProvider"
+- "_setBackgroundHidden:"
+- "_solveForInput:"
+- "accentColors"
+- "activateConstraints:"
+- "addArrangedSubview:"
+- "addAttribute:value:range:"
+- "addChild:"
+- "addChildViewController:"
+- "addGestureRecognizer:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addSublayer:"
+- "addSubview:"
+- "addTarget:action:"
+- "addTarget:action:forControlEvents:"
+- "adjustScaleWithGesture:"
+- "allObjects"
+- "animateAlongsideTransition:completion:"
+- "appendAttributedString:"
+- "arrayWithObjects:count:"
+- "attributeSlider"
+- "attributeSliderValueChangedWithSlider:"
+- "attributedStringWithAdaptiveImageGlyph:attributes:"
+- "attributedText"
+- "attributes"
+- "autorelease"
+- "backgroundColor"
+- "backgroundIndex"
+- "backgroundsDict"
+- "becomeFirstResponder"
+- "begin"
+- "blackColor"
+- "bottomAnchor"
+- "bounds"
+- "bringSubviewToFront:"
+- "buildMenuWithBuilder:"
+- "bundleForClass:"
+- "cacheLimit"
+- "canPerformAction:withSender:"
+- "center"
+- "cgFont"
+- "class"
+- "clearColor"
+- "collectionView"
+- "collectionViewContentSize"
+- "collectionViewLayout"
+- "colorNamed:inBundle:compatibleWithTraitCollection:"
+- "colorPickerViewController:didSelectColor:continuously:"
+- "colorPickerViewControllerDidFinish:"
+- "colorPickerViewControllerDidSelectColor:"
+- "colorSlider"
+- "colorUpdater"
+- "colorWithCGColor:"
+- "colors"
+- "commit"
+- "configuration"
+- "configuredSize"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "constraintGreaterThanOrEqualToConstant:"
+- "containerSize"
+- "containsObject:"
+- "contentView"
+- "contentsAtPath:"
+- "contextualColors"
+- "copy"
+- "copy:"
+- "count"
+- "createKeyboardViewController"
+- "ctFont"
+- "currentDevice"
+- "currentLayoutStyle"
+- "currentSizeVariant"
+- "customActionWithDuration:actionBlock:"
+- "cut:"
+- "dealloc"
+- "debugDescription"
+- "delegate"
+- "deleteCharactersInRange:"
+- "description"
+- "deviceOrientation"
+- "deviceType"
+- "didMoveToParentViewController:"
+- "didMoveToView:"
+- "didTapCloseButton"
+- "didTapDeleteButton"
+- "diffableDataSource"
+- "dimmingLayer"
+- "dimmingView"
+- "dominantColors"
+- "doubleValue"
+- "drawAtPoint:"
+- "drawInRect:"
+- "drawInRect:withAttributes:"
+- "editingGradientProperties"
+- "editingLinearGradientProperties"
+- "editingRadialGradientProperties"
+- "effectView"
+- "effectWithStyle:"
+- "em_setBackgroundHidden:"
+- "emoji"
+- "emojiCountLabel"
+- "emojiImageViews"
+- "emojiImages"
+- "emojiLayer"
+- "emojiPreferences"
+- "emojiRenderer"
+- "emojiSize"
+- "emojiTextures"
+- "emojiView"
+- "emp_detentWithIdentifier:resolutionContextBlock:"
+- "enumerateAttribute:inRange:options:usingBlock:"
+- "enumerateChildNodesWithName:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "equilateralTriangleConstant"
+- "evenRowSymbolCount"
+- "extendedPalette"
+- "fillRect:"
+- "filterInterestingColorsUsingBlock:"
+- "firstObject"
+- "font"
+- "fontWithDescriptor:size:"
+- "frame"
+- "getHue:saturation:brightness:alpha:"
+- "getRed:green:blue:alpha:"
+- "glyphNamesCache"
+- "gradientController"
+- "gradientLayer"
+- "grayColor"
+- "hash"
+- "heightAnchor"
+- "hiddenEmojiField"
+- "horizontalReplicatorLayer"
+- "imageByPreparingThumbnailOfSize:"
+- "imageContent"
+- "imageWithActions:"
+- "implementationVC"
+- "init"
+- "initWithAttributedString:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithCoder:"
+- "initWithCollectionViewLayout:"
+- "initWithColor:"
+- "initWithColors:localizedName:showsColorWell:"
+- "initWithControlPoints::::"
+- "initWithCustomView:"
+- "initWithData:"
+- "initWithEffect:"
+- "initWithFrame:"
+- "initWithFrame:textContainer:"
+- "initWithImage:"
+- "initWithImage:style:target:action:"
+- "initWithImageContent:"
+- "initWithMachName:"
+- "initWithNibName:bundle:"
+- "initWithRed:green:blue:alpha:"
+- "initWithServiceRole:"
+- "initWithSize:"
+- "initWithSize:format:"
+- "initWithString:"
+- "initWithString:attributes:"
+- "initWithSuiteName:"
+- "initWithTexture:"
+- "inputAssistantView"
+- "insertArrangedSubview:atIndex:"
+- "insertSegmentWithAction:atIndex:animated:"
+- "insertSubview:atIndex:"
+- "interestingColors"
+- "invalidateLayout"
+- "isEqual:"
+- "isFirstResponder"
+- "isKeyWindow"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isSpinning"
+- "isViewLoaded"
+- "itemCount"
+- "itemPositions"
+- "itemSize"
+- "itemTemplateSize"
+- "keyboardLayoutGuide"
+- "keyboardSizeForInterfaceOrientation:"
+- "keyboardSizeForOrientation:"
+- "labelColor"
+- "layer"
+- "layoutAttributesForCellWithIndexPath:"
+- "layoutAttributesForElementsInRect:"
+- "layoutAttributesForItemAtIndexPath:"
+- "layoutIfNeeded"
+- "layoutProvider"
+- "layoutSubviews"
+- "leadingAnchor"
+- "leftColor"
+- "leftColorDidPanWithGr:"
+- "leftColorOffset"
+- "leftColorPanGesture"
+- "leftColorTapGesture"
+- "leftColorView"
+- "leftColorWasTappedWithGr:"
+- "length"
+- "lightGrayColor"
+- "lineHeight"
+- "loadView"
+- "logger"
+- "mainScreen"
+- "makeKeyAndVisible"
+- "maxItemSize"
+- "maxScale"
+- "maxSpacingFactor"
+- "minItemSize"
+- "minRadius"
+- "minScale"
+- "minSpacingFactor"
+- "minusSet:"
+- "mutableString"
+- "navBar"
+- "navigationItem"
+- "numberOfEmoji"
+- "numberOfItemsInRow"
+- "numberOfItemsInSection:"
+- "numberOfRows"
+- "numberOfSections"
+- "numberWithInt:"
+- "objectForKey:"
+- "oddRowSymbolCount"
+- "offsetHorizontalReplicatorLayer"
+- "offsetVerticalReplicatorLayer"
+- "overlayLayer"
+- "p_prepareInterestingColors"
+- "paste:"
+- "pathEffectView"
+- "pathForResource:ofType:"
+- "patterns"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWithoutAnimation:"
+- "pinchGestureRecognizer"
+- "preferredFontDescriptorWithTextStyle:"
+- "prefersStatusBarHidden"
+- "prepareLayout"
+- "presentScene:"
+- "propertyListWithData:options:format:error:"
+- "purgeImageCache"
+- "radius"
+- "radiusArc"
+- "rangeOfComposedCharacterSequenceAtIndex:"
+- "readEmojiDefaults"
+- "recentEmojis"
+- "release"
+- "releaseSharedInstance"
+- "reloadData"
+- "removeAllChildren"
+- "removeAllObjects"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removeMenuForIdentifier:"
+- "renderedEmoji"
+- "resignFirstResponder"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "reverseTransition"
+- "revolution"
+- "rightColor"
+- "rightColorDidPanWithGr:"
+- "rightColorOffset"
+- "rightColorPanGesture"
+- "rightColorTapGesture"
+- "rightColorView"
+- "rightColorWasTappedWithGr:"
+- "rotate"
+- "runAction:"
+- "scale"
+- "scaleArc"
+- "scaleDelta"
+- "scaleToSize:"
+- "scene"
+- "sceneView"
+- "screenSize"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "secondaryEmojiLayer"
+- "self"
+- "set"
+- "setAlpha:"
+- "setAttributedText:"
+- "setAxis:"
+- "setBackgroundColor:"
+- "setBorderColor:"
+- "setBorderWidth:"
+- "setBounds:"
+- "setCenter:"
+- "setClipsToBounds:"
+- "setColors:"
+- "setContentMode:"
+- "setContents:"
+- "setCornerCurve:"
+- "setCornerRadius:"
+- "setCountLimit:"
+- "setDataSource:"
+- "setDelegate:"
+- "setDisableActions:"
+- "setDistribution:"
+- "setEndPoint:"
+- "setFill"
+- "setFont:"
+- "setForceDisableDictation:"
+- "setFrame:"
+- "setHidden:"
+- "setImage:"
+- "setInstanceCount:"
+- "setInstanceTransform:"
+- "setItems:animated:"
+- "setKeyboardAppearance:"
+- "setKeyboardType:"
+- "setLayoutMarginsRelativeArrangement:"
+- "setLeftBarButtonItem:"
+- "setMaximumValue:"
+- "setMinimumValue:"
+- "setName:"
+- "setObject:forKey:"
+- "setOpacity:"
+- "setOpaque:"
+- "setPosition:"
+- "setResizable:"
+- "setRightBarButtonItems:"
+- "setScaleMode:"
+- "setSelectedColor:"
+- "setSelectedSegmentIndex:"
+- "setShouldUpdateLayoutAutomatically:"
+- "setSize:"
+- "setSpacing:"
+- "setStartPoint:"
+- "setSupportsAdaptiveImageGlyph:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextInputView:"
+- "setTimingMode:"
+- "setTintColor:"
+- "setTransform:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setValue:"
+- "setView:"
+- "setWithArray:"
+- "setZRotation:"
+- "shouldAutorotate"
+- "shouldInvalidateLayoutForBoundsChange:"
+- "shouldRotateCenterEmojiWithDevice"
+- "shouldRotateEmojiWithDevice"
+- "shouldSkipUnlockAnimationForCurrentDevice"
+- "shouldUpdateLayoutAutomatically"
+- "size"
+- "sizeToFit"
+- "sizeVariant"
+- "sizeWithAttributes:"
+- "spacingFactor"
+- "spin"
+- "startLeftColorOffset"
+- "startRightColorOffset"
+- "startingAngle"
+- "startingRadius"
+- "state"
+- "string"
+- "stringByReplacingCharactersInRange:withString:"
+- "styleSegmentedControl"
+- "superclass"
+- "superview"
+- "supportedInterfaceOrientations"
+- "supportsImagePaste"
+- "systemFontOfSize:"
+- "systemImageNamed:"
+- "text"
+- "textColorForBackgroundColor:"
+- "textField:editMenuForCharactersInRange:suggestedActions:"
+- "textField:editMenuForCharactersInRanges:suggestedActions:"
+- "textField:insertInputSuggestion:"
+- "textField:shouldChangeCharactersInRange:replacementString:"
+- "textField:shouldChangeCharactersInRanges:replacementString:"
+- "textField:willDismissEditMenuWithAnimator:"
+- "textField:willPresentEditMenuWithAnimator:"
+- "textFieldDidBeginEditing:"
+- "textFieldDidChangeSelection:"
+- "textFieldDidEndEditing:"
+- "textFieldDidEndEditing:reason:"
+- "textFieldShouldBeginEditing:"
+- "textFieldShouldClear:"
+- "textFieldShouldEndEditing:"
+- "textFieldShouldReturn:"
+- "textInputView"
+- "textShadowColorForTextColor:backgroundColor:"
+- "textView:didBeginFormattingWithViewController:"
+- "textView:didEndFormattingWithViewController:"
+- "textView:editMenuForTextInRange:suggestedActions:"
+- "textView:editMenuForTextInRanges:suggestedActions:"
+- "textView:insertInputSuggestion:"
+- "textView:menuConfigurationForTextItem:defaultMenu:"
+- "textView:primaryActionForTextItem:defaultAction:"
+- "textView:shouldChangeTextInRange:replacementText:"
+- "textView:shouldChangeTextInRanges:replacementText:"
+- "textView:shouldInteractWithTextAttachment:inRange:"
+- "textView:shouldInteractWithTextAttachment:inRange:interaction:"
+- "textView:shouldInteractWithURL:inRange:"
+- "textView:shouldInteractWithURL:inRange:interaction:"
+- "textView:textItemMenuWillDisplayForTextItem:animator:"
+- "textView:textItemMenuWillEndForTextItem:animator:"
+- "textView:willBeginFormattingWithViewController:"
+- "textView:willDismissEditMenuWithAnimator:"
+- "textView:willEndFormattingWithViewController:"
+- "textView:willPresentEditMenuWithAnimator:"
+- "textView:writingToolsIgnoredRangesInEnclosingRange:"
+- "textViewDidBeginEditing:"
+- "textViewDidChange:"
+- "textViewDidChangeSelection:"
+- "textViewDidEndEditing:"
+- "textViewShouldBeginEditing:"
+- "textViewShouldEndEditing:"
+- "textViewWritingToolsDidEnd:"
+- "textViewWritingToolsWillBegin:"
+- "textureWithImage:"
+- "topAnchor"
+- "trailingAnchor"
+- "traitCollection"
+- "translationInView:"
+- "type"
+- "unlockProgress"
+- "userInterfaceIdiom"
+- "usesDimmingLayer"
+- "v16@0:8"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v16@?0@\"UIGraphicsImageRendererContext\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"UIColorPickerViewController\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UITextField\"16"
+- "v24@0:8@\"UITextView\"16"
+- "v24@0:8@\"UIView<UIKeyInput>\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@?0@\"SKNode\"8^B16"
+- "v24@?0@\"SKNode\"8d16"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextField\"16q24"
+- "v32@0:8@\"UITextView\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextView\"16@\"UITextFormattingViewController\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16q24"
+- "v36@0:8@\"UIColorPickerViewController\"16@\"UIColor\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITextView\"16@\"UITextItem\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24d32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "v40@?0^v8{?=qq}16^B32"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "value"
+- "verticalReplicatorLayer"
+- "verticalStackView"
+- "view"
+- "viewDidLayoutSubviews"
+- "viewDidLoad"
+- "viewForZoomingInScrollView:"
+- "viewIfLoaded"
+- "viewIsAppearing:"
+- "viewWillAppear:"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "wakeProgress"
+- "whiteColor"
+- "widthAnchor"
+- "willMoveToParentViewController:"
+- "window"
+- "zone"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}24@0:8q16"
+
+```

@@ -1,0 +1,806 @@
+## QuickSpeak
+
+> `/System/Library/AccessibilityBundles/QuickSpeak.bundle/QuickSpeak`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0xa35c
+-  __TEXT.__auth_stubs: 0x5b0
+-  __TEXT.__objc_methlist: 0x102c
+-  __TEXT.__const: 0x60
+-  __TEXT.__gcc_except_tab: 0x208
+-  __TEXT.__cstring: 0xf16
++3229.1.6.0.0
++  __TEXT.__text: 0x9324
++  __TEXT.__objc_methlist: 0xf94
++  __TEXT.__const: 0x50
++  __TEXT.__gcc_except_tab: 0x27c
++  __TEXT.__cstring: 0xdbd
+   __TEXT.__oslogstring: 0x379
+-  __TEXT.__unwind_info: 0x348
+-  __TEXT.__objc_classname: 0x3ec
+-  __TEXT.__objc_methname: 0x2fbf
+-  __TEXT.__objc_methtype: 0xc18
+-  __TEXT.__objc_stubs: 0x2260
+-  __DATA_CONST.__got: 0x190
+-  __DATA_CONST.__const: 0x280
+-  __DATA_CONST.__objc_classlist: 0xe0
++  __TEXT.__unwind_info: 0x2c8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x230
++  __DATA_CONST.__objc_classlist: 0xc0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd68
++  __DATA_CONST.__objc_selrefs: 0xd28
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x2e8
++  __DATA_CONST.__objc_superrefs: 0x38
++  __DATA_CONST.__got: 0x190
+   __AUTH_CONST.__const: 0x200
+-  __AUTH_CONST.__cfstring: 0x1120
+-  __AUTH_CONST.__objc_const: 0x1a90
+-  __AUTH.__objc_data: 0x8c0
++  __AUTH_CONST.__cfstring: 0xf80
++  __AUTH_CONST.__objc_const: 0x1850
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x780
+   __DATA.__objc_ivar: 0x44
+   __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x82
++  __DATA.__bss: 0x90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6F1378E2-B675-3936-9669-32F0B7413FC4
+-  Functions: 233
+-  Symbols:   1144
+-  CStrings:  953
++  UUID: 38B60B16-8551-387D-8629-748DD4381AF6
++  Functions: 203
++  Symbols:   1060
++  CStrings:  287
+ 
+Symbols:
++ GCC_except_table137
++ GCC_except_table145
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table170
++ GCC_except_table184
++ GCC_except_table24
++ ___74-[UITextInteraction_QSExtras _updatedAccessibilityTextSpeechMenuWithMenu:]_block_invoke.389
++ ___block_literal_global.100
++ ___block_literal_global.400
++ ___block_literal_global.466
++ ___block_literal_global.469
++ ___block_literal_global.513
++ ___block_literal_global.515
++ ___block_literal_global.520
++ ___block_literal_global.528
++ ___block_literal_global.530
++ ___block_literal_global.532
++ ___block_literal_global.537
++ ___block_literal_global.593
++ ___block_literal_global.598
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x28
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x8
++ _sharedInstance._shared.101
++ _sharedInstance.onceToken.99
+- +[AXQSMenuHelper sharedInstance].cold.1
+- +[AXQuickSpeak isQuickSpeakSelector:].cold.1
+- +[AXQuickSpeak sharedInstance].cold.1
+- +[CKChatController_ClickyOrb_QSExtras _accessibilityPerformValidations:]
+- +[CKChatController_ClickyOrb_QSExtras(SafeCategory) safeCategoryBaseClass]
+- +[CKChatController_ClickyOrb_QSExtras(SafeCategory) safeCategoryTargetClassName]
+- +[CKFullScreenBalloonViewController_QSExtras _accessibilityPerformValidations:]
+- +[CKFullScreenBalloonViewController_QSExtras(SafeCategory) safeCategoryBaseClass]
+- +[CKFullScreenBalloonViewController_QSExtras(SafeCategory) safeCategoryTargetClassName]
+- -[AXQuickSpeak resumeAction:].cold.1
+- -[CKChatController_ClickyOrb_QSExtras _axActionForSpeakSelection:]
+- -[CKChatController_ClickyOrb_QSExtras _menuForChatItem:withParentChatItem:menuAppearance:]
+- -[CKFullScreenBalloonViewController_QSExtras performCancelAnimationWithCompletion:]
+- -[WKContentView_QSExtras _accessibilityQuickSpeakContent].cold.1
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.1
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.2
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.3
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.4
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.5
+- -[WKContentView_QSExtras _axWaitForSpeakSelectionContentResults].cold.6
+- -[WKContentView_QSExtras accessibilitySpeakSelectionSetContent:].cold.1
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table3
+- GCC_except_table4
+- GCC_except_table6
+- GCC_except_table9
+- _OBJC_CLASS_$_CKChatController_ClickyOrb_QSExtras
+- _OBJC_CLASS_$_CKFullScreenBalloonViewController_QSExtras
+- _OBJC_CLASS_$___CKChatController_ClickyOrb_QSExtras_super
+- _OBJC_CLASS_$___CKFullScreenBalloonViewController_QSExtras_super
+- _OBJC_METACLASS_$_CKChatController_ClickyOrb_QSExtras
+- _OBJC_METACLASS_$_CKFullScreenBalloonViewController_QSExtras
+- _OBJC_METACLASS_$___CKChatController_ClickyOrb_QSExtras_super
+- _OBJC_METACLASS_$___CKFullScreenBalloonViewController_QSExtras_super
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __OBJC_$_CLASS_METHODS_CKChatController_ClickyOrb_QSExtras(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CKFullScreenBalloonViewController_QSExtras(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_CKChatController_ClickyOrb_QSExtras
+- __OBJC_$_INSTANCE_METHODS_CKFullScreenBalloonViewController_QSExtras
+- __OBJC_CLASS_RO_$_CKChatController_ClickyOrb_QSExtras
+- __OBJC_CLASS_RO_$_CKFullScreenBalloonViewController_QSExtras
+- __OBJC_CLASS_RO_$___CKChatController_ClickyOrb_QSExtras_super
+- __OBJC_CLASS_RO_$___CKFullScreenBalloonViewController_QSExtras_super
+- __OBJC_METACLASS_RO_$_CKChatController_ClickyOrb_QSExtras
+- __OBJC_METACLASS_RO_$_CKFullScreenBalloonViewController_QSExtras
+- __OBJC_METACLASS_RO_$___CKChatController_ClickyOrb_QSExtras_super
+- __OBJC_METACLASS_RO_$___CKFullScreenBalloonViewController_QSExtras_super
+- ___66-[CKChatController_ClickyOrb_QSExtras _axActionForSpeakSelection:]_block_invoke
+- ___74-[UITextInteraction_QSExtras _updatedAccessibilityTextSpeechMenuWithMenu:]_block_invoke.368
+- ___90-[CKChatController_ClickyOrb_QSExtras _menuForChatItem:withParentChatItem:menuAppearance:]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___block_descriptor_40_e8_32s_e18_v16?0"UIAction"8ls32l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_literal_global.358
+- ___block_literal_global.445
+- ___block_literal_global.448
+- ___block_literal_global.490
+- ___block_literal_global.492
+- ___block_literal_global.494
+- ___block_literal_global.499
+- ___block_literal_global.507
+- ___block_literal_global.509
+- ___block_literal_global.516
+- ___block_literal_global.573
+- ___block_literal_global.578
+- _objc_msgSend$_accessibilityPauseSpeaking:
+- _objc_msgSend$_accessibilitySpeak:
+- _objc_msgSend$_axActionForSpeakSelection:
+- _objc_msgSend$balloonViewForChatItem:
+- _objc_msgSend$collectionViewController
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$isSubclassOfClass:
+- _objc_msgSend$setSelectable:
+- _objc_retain_x26
+CStrings:
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AccessibilityFrameworks/Speech/SpeakSelection/Source/QuickSpeak.m"
+- "#"
+- "#16@0:8"
+- ".cxx_destruct"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AccessibilityFrameworks/Source/QuickSpeak/QuickSpeak.m"
+- "@\"<UITextInputDelegate>\"16@0:8"
+- "@\"<UITextInputTokenizer>\"16@0:8"
+- "@\"AXDispatchTimer\""
+- "@\"AXOrator\""
+- "@\"NSArray\""
+- "@\"NSArray\"24@0:8@\"UITextRange\"16"
+- "@\"NSAttributedString\"24@0:8@\"UITextRange\"16"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"32@0:8@\"UITextPosition\"16q24"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"UITextRange\"16"
+- "@\"QSSelectionHighlightView\""
+- "@\"UIConversationContext\"16@0:8"
+- "@\"UIMenu\"32@0:8@\"UITextRange\"16@\"NSArray\"24"
+- "@\"UITextInputPasswordRules\"16@0:8"
+- "@\"UITextPlaceholder\"32@0:8{CGSize=dd}16"
+- "@\"UITextPosition\"16@0:8"
+- "@\"UITextPosition\"32@0:8@\"UITextPosition\"16q24"
+- "@\"UITextPosition\"32@0:8@\"UITextRange\"16q24"
+- "@\"UITextPosition\"32@0:8{CGPoint=dd}16"
+- "@\"UITextPosition\"40@0:8@\"UITextPosition\"16q24q32"
+- "@\"UITextPosition\"40@0:8{CGPoint=dd}16@\"UITextRange\"32"
+- "@\"UITextRange\""
+- "@\"UITextRange\"16@0:8"
+- "@\"UITextRange\"32@0:8@\"UITextPosition\"16@\"UITextPosition\"24"
+- "@\"UITextRange\"32@0:8@\"UITextPosition\"16q24"
+- "@\"UITextRange\"32@0:8{CGPoint=dd}16"
+- "@\"UIView\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16q24"
+- "@32@0:8{CGPoint=dd}16"
+- "@32@0:8{CGSize=dd}16"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16q24q32"
+- "@40@0:8q16q24@32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@?"
+- "AXOratorDelegate"
+- "AXQSMenuHelper"
+- "AXQuickSpeak"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8:16@24"
+- "B32@0:8@\"UITextRange\"16@\"NSString\"24"
+- "B32@0:8@16@24"
+- "CGRectValue"
+- "CKBalloonChatItem"
+- "CKChatController"
+- "CKCoreChatController"
+- "CKFullScreenBalloonViewController"
+- "CKMessagePartChatItem"
+- "CKTranscriptCollectionViewController"
+- "Q16@0:8"
+- "QuickSpeakPriv"
+- "SafeCategory"
+- "T#,R"
+- "T@\"<UITextInputDelegate>\",W,N"
+- "T@\"<UITextInputTokenizer>\",R,N"
+- "T@\"AXDispatchTimer\",&,N,V_highlightViewDispatcher"
+- "T@\"AXLanguageTaggedContent\",R,N"
+- "T@\"AXOrator\",R,N"
+- "T@\"NSArray\",&,N,V_hiddenTextSelectionDelegates"
+- "T@\"NSArray\",&,N,V_hiddenTextSelectionViews"
+- "T@\"NSDictionary\",C,N"
+- "T@\"NSString\",?,C,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",R,C"
+- "T@\"QSSelectionHighlightView\",&,N,V_highlightView"
+- "T@\"QSSelectionHighlightView\",&,N,V_sentenceHighlightView"
+- "T@\"UIConversationContext\",?,&,N"
+- "T@\"UITextInputPasswordRules\",?,C,N"
+- "T@\"UITextPosition\",R,N"
+- "T@\"UITextRange\",&,N,VspeakingSentenceRange"
+- "T@\"UITextRange\",C"
+- "T@\"UITextRange\",R,N"
+- "T@\"UIView\",?,R,N"
+- "T@,&,N,V_contentOwner"
+- "T@,&,N,V_quickSpeakInitiator"
+- "T@,?,R,N"
+- "TB,?,N"
+- "TB,?,N,GisSecureTextEntry"
+- "TB,?,R,N,GisEditable"
+- "TB,D,N"
+- "TB,N,GisPaused,V_paused"
+- "TB,N,GisShowingLanguageChoices,V_showingLanguageChoices"
+- "TB,N,V_cachedIdleTimerPref"
+- "TB,N,V_hasTextBalloonView"
+- "TB,R,N"
+- "TQ,?"
+- "TQ,R"
+- "Tq,?"
+- "Tq,?,N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
+- "UIKeyInput"
+- "UITextInput"
+- "UITextInputTraits"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "__CKBalloonTextView_QSExtras_super"
+- "__CKChatController_ClickyOrb_QSExtras_super"
+- "__CKFullScreenBalloonViewControllerPhone_QSExtras_super"
+- "__CKFullScreenBalloonViewController_QSExtras_super"
+- "__EKDayOccurrenceView_QSExtras_super"
+- "__NSObject_QSExtras_super"
+- "__PDFView_QSExtras_super"
+- "__PUOneUpViewController_QSExtras_super"
+- "__UIResponder_QSExtras_super"
+- "__UITextField_QSExtrasAccessibility_super"
+- "__UITextInteraction_QSExtras_super"
+- "__WKContentView_QSExtras_super"
+- "__WKWebViewAccessibility_QSExtras_super"
+- "_accessibilityBoolValueForKey:"
+- "_accessibilityDidGetSelectionRects:withGranularity:atOffset:"
+- "_accessibilityHandleFinishSpeaking"
+- "_accessibilityIsTextInput"
+- "_accessibilityIsTextInteraction"
+- "_accessibilityPauseSpeaking:"
+- "_accessibilityPerformValidations:"
+- "_accessibilityQScanPerformAction:withSender:"
+- "_accessibilityQuickSpeakContent"
+- "_accessibilityQuickSpeakContentIsSpeakable"
+- "_accessibilityQuickSpeakEnclosingSentence:"
+- "_accessibilityQuickSpeakTextRectsWithRange:string:highlightRects:sentenceRects:singleTextRect:"
+- "_accessibilityRemoveValueForKey:"
+- "_accessibilityRetrieveRectsForGuanularity:atSelectionOffset:wordText:"
+- "_accessibilitySentenceRectsForRange:"
+- "_accessibilitySetBoolValue:forKey:"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilitySetValue:forKey:storageMode:"
+- "_accessibilityShouldShowPauseBubble"
+- "_accessibilityShouldShowSpeakBubble"
+- "_accessibilityShouldShowSpeakLanguageBubble"
+- "_accessibilityShouldShowSpeakSpellOut"
+- "_accessibilityShouldUpdateQuickSpeakContent"
+- "_accessibilitySpeak:"
+- "_accessibilitySpeakLanguageSelection:"
+- "_accessibilitySpeakSelectionAssociatedScrollView"
+- "_accessibilitySpeakSelectionTextInputResponder"
+- "_accessibilitySpeakSentence:"
+- "_accessibilitySpeakSpellOut:"
+- "_accessibilitySpeakWithLanguage:"
+- "_accessibilitySystemShouldShowPauseBubble"
+- "_accessibilitySystemShouldShowSpeakBubble"
+- "_accessibilitySystemShouldShowSpeakBubbleCommon"
+- "_accessibilitySystemShouldShowSpeakLanguageBubble"
+- "_accessibilitySystemShouldShowSpeakSentence"
+- "_accessibilitySystemShouldShowSpeakSpellOut"
+- "_accessibilityTextRectsForRange:singleTextRect:"
+- "_accessibilityTextRectsForRange:singleTextRect:selectedRange:string:"
+- "_accessibilityUITextInput"
+- "_accessibilityValueForKey:"
+- "_axActionForSpeakSelection:"
+- "_axContentView"
+- "_axConvertRange:toRects:operatingPage:"
+- "_axSelectedTextLength"
+- "_axWaitForSpeakSelectionContentResults"
+- "_axWaitForSpeakSelectionRectResultsForGuanularity:atSelectionOffset:wordText:"
+- "_cachedIdleTimerPref"
+- "_cleanupTextSelectionViews"
+- "_contentOwner"
+- "_currentSentenceRange"
+- "_handleAppDidEnterBackground:"
+- "_handleAppWillResignActive:"
+- "_handlePauseCallback"
+- "_handleQuickSpeakHighlight:sentenceRects:textRect:initiator:"
+- "_hasTextBalloonView"
+- "_hiddenTextSelectionDelegates"
+- "_hiddenTextSelectionViews"
+- "_highlightView"
+- "_highlightViewDispatcher"
+- "_lastQuickSpeakOffset"
+- "_lastUnicharLocation"
+- "_lastWholeCharacterLocation"
+- "_manipulateOtherTextViews:"
+- "_menuForChatItem:withParentChatItem:menuAppearance:"
+- "_menuForChatItem:withParentChatItem:menuAppearance: @encode(id)"
+- "_orator"
+- "_paused"
+- "_quickSpeakInitiator"
+- "_quickSpeakInputInitiator"
+- "_quickSpeakTextRects:withRange:string:highlightRects:sentenceRects:singleTextRect:"
+- "_quickSpeakUITextInputTextRects:withRange:string:highlightRects:sentenceRects:singleTextRect:"
+- "_rectsByUnionSamelineRects:"
+- "_scrollToTextRect:withScrollView:"
+- "_sentenceHighlightOverlapHeightArray"
+- "_sentenceHighlightView"
+- "_sentenceRects:speakingRange:"
+- "_showingLanguageChoices"
+- "_sliceRects:withSentenceRects:wordRects:"
+- "_stopSpeakingQuickSpeak:"
+- "_textSelectionViews"
+- "_updatedAccessibilityTextSpeechMenuWithMenu:"
+- "_updatedRangeForComposedCharacters:string:lastKnownWholeCharacterLocation:lastKnownUnicharLocation:"
+- "_viewsWithBlock:"
+- "_webTextRectsFromWKTextRects:"
+- "_willSpeakRange:string:"
+- "accessibilityQSSentenceRects"
+- "accessibilityQSWordRects"
+- "accessibilitySetQSSentenceRects:"
+- "accessibilitySetQSWordRects:"
+- "accessibilitySpeakSelectionSetContent:"
+- "actionWithTitle:image:identifier:handler:"
+- "activeTextEffectsWindowForWindowScene:"
+- "addHandler:forFramework:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addSubview:"
+- "adjustedContentInset"
+- "allowedWritingToolsResultOptions"
+- "allowsNumberPadPopover"
+- "ambiguousLangMaps"
+- "animateWithDuration:animations:"
+- "animateWithDuration:animations:completion:"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "associatedAmbiguousLanguages"
+- "attributedTextInRange:"
+- "autocapitalizationType"
+- "autocorrectionType"
+- "autorelease"
+- "axSafelyAddObject:"
+- "axSafelyAddObjectsFromArray:"
+- "ax_sentenceFromPosition:inDirection:"
+- "backgroundColor"
+- "balloonViewClass"
+- "balloonViewForChatItem:"
+- "baseWritingDirectionForPosition:inDirection:"
+- "beginFloatingCursorAtPoint:"
+- "beginningOfDocument"
+- "bounds"
+- "boundsForPage:"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "cachedIdleTimerPref"
+- "callStackSymbols"
+- "canPerformAction:withSender:"
+- "caretRectForPosition:"
+- "caretTransformForPosition:"
+- "characterOffsetOfPosition:withinRange:"
+- "characterRangeAtPoint:"
+- "characterRangeByExtendingPosition:inDirection:"
+- "children"
+- "class"
+- "clearSelectedContent"
+- "closestPositionToPoint:"
+- "closestPositionToPoint:withinRange:"
+- "collectionViewController"
+- "colorWithAlphaComponent:"
+- "colorWithCGColor:"
+- "colorWithRed:green:blue:alpha:"
+- "commandWithTitle:image:action:propertyList:"
+- "comparePosition:toPosition:"
+- "conformsToProtocol:"
+- "containsObject:"
+- "content"
+- "contentIsSpeakable"
+- "contentOffset"
+- "contentOwner"
+- "contentSize"
+- "conversationContext"
+- "convertRect:fromPage:"
+- "convertRect:toView:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentInputModeInPreference"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultDialect"
+- "deleteBackward"
+- "description"
+- "dialectForCurrentLocale"
+- "dictationRecognitionFailed"
+- "dictationRecordingDidEnd"
+- "didDismissWritingTools"
+- "editMenuForTextRange:suggestedActions:"
+- "editable"
+- "elementWithProvider:"
+- "enablesReturnKeyAutomatically"
+- "endFloatingCursor"
+- "endOfDocument"
+- "enumerateObjectsUsingBlock:"
+- "enumerateTagsInRange:scheme:options:usingBlock:"
+- "firstObject"
+- "firstRectForRange:"
+- "floatValue"
+- "frameForDictationResultPlaceholder:"
+- "generalLanguageID"
+- "getRed:green:blue:alpha:"
+- "hasText"
+- "hasTextBalloonView"
+- "hash"
+- "hiddenTextSelectionViewDelegates"
+- "hiddenTextSelectionViews"
+- "highlightView"
+- "highlightViewDispatcher"
+- "identifier"
+- "ignoreLogging"
+- "indexOfFirstCharacterOnPage:"
+- "indexOfObject:"
+- "init"
+- "initWithArray:"
+- "initWithFrame:"
+- "initWithTagSchemes:options:"
+- "initWithTargetSerialQueue:"
+- "initialize"
+- "inlinePredictionType"
+- "inputDelegate"
+- "insertAdaptiveImageGlyph:replacementRange:"
+- "insertAttributedText:"
+- "insertDictationResult:"
+- "insertDictationResultPlaceholder"
+- "insertInputSuggestion:"
+- "insertObject:atIndex:"
+- "insertSubview:atIndex:"
+- "insertText:"
+- "insertText:alternatives:style:"
+- "insertTextPlaceholderWithSize:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "intersectsOrderedSet:"
+- "isEditable"
+- "isEmpty"
+- "isEqual:"
+- "isEqualToString:"
+- "isHidden"
+- "isIdleTimerDisabled"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPaused"
+- "isProxy"
+- "isQuickSpeakSelector:"
+- "isScrollEnabled"
+- "isSecureTextEntry"
+- "isShowingLanguageChoices"
+- "isSpeaking"
+- "isSubclassOfClass:"
+- "keyboardAppearance"
+- "keyboardType"
+- "labelColor"
+- "langMap"
+- "languageNameInNativeLocale"
+- "lastObject"
+- "layer"
+- "length"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "mainBundle"
+- "markedTextRange"
+- "markedTextStyle"
+- "mathExpressionCompletionType"
+- "menuByReplacingChildren:"
+- "menuWithTitle:image:identifier:options:children:"
+- "modifiedRange:withString:"
+- "mutableCopy"
+- "numberWithBool:"
+- "numberWithFloat:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "offsetFromPosition:toPosition:"
+- "orator"
+- "orator:willSpeakRange:ofContent:"
+- "oratorDidCancelSpeaking:"
+- "oratorDidChangeSpeakingRate:"
+- "oratorDidFinishSpeaking:"
+- "oratorDidPauseSpeaking:"
+- "oratorDidResumeSpeaking:"
+- "oratorDidStartSpeaking:"
+- "oratorShouldFetchNextElements:shouldScrollOpaqueProviderIfNecessary:"
+- "orderedSet"
+- "pages"
+- "passwordRules"
+- "pauseAction:"
+- "pauseSpeaking:"
+- "paused"
+- "performCancelAnimationWithCompletion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "positionFromPosition:inDirection:offset:"
+- "positionFromPosition:offset:"
+- "positionWithinRange:atCharacterOffset:"
+- "positionWithinRange:farthestInDirection:"
+- "predictedSecondaryLangMaps"
+- "primaryAmbiguousDialect"
+- "primaryLanguage"
+- "primaryUnambiguousDialect"
+- "q16@0:8"
+- "q32@0:8@\"UITextPosition\"16@\"UITextPosition\"24"
+- "q32@0:8@\"UITextPosition\"16@\"UITextRange\"24"
+- "q32@0:8@\"UITextPosition\"16q24"
+- "q32@0:8@16@24"
+- "q32@0:8@16q24"
+- "quickSpeakClassIsDenied:"
+- "quickSpeakHighlightOption"
+- "quickSpeakInitiator"
+- "quickSpeakSentenceHighlightColor"
+- "quickSpeakSentenceHighlightOption"
+- "quickSpeakWordHighlightColor"
+- "rangeOfComposedCharacterSequenceAtIndex:"
+- "rectValue"
+- "rectangle.3.group.bubble.left"
+- "release"
+- "removeDictationResultPlaceholder:willInsertResult:"
+- "removeFromSuperview"
+- "removeLastObject"
+- "removeObjectAtIndex:"
+- "removeObserver:"
+- "removeTextPlaceholder:"
+- "replaceRange:withAttributedText:"
+- "replaceRange:withText:"
+- "resetQuickSpeakForUnitTests"
+- "respondsToSelector:"
+- "restoreMenu"
+- "resumeAction:"
+- "resumeSpeaking:"
+- "retain"
+- "retainCount"
+- "returnKeyType"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeStringForKey:"
+- "safeUnsignedIntegerForKey:"
+- "safeValueForKey:"
+- "secureTextEntry"
+- "selectedContent"
+- "selectedContentIsSpeakable"
+- "selectedContentRequiresUserChoice"
+- "selectionAffinity"
+- "selectionForRange:"
+- "selectionRectsForRange:"
+- "selectionsByLine"
+- "self"
+- "sentenceHighlightView"
+- "setAllowedWritingToolsResultOptions:"
+- "setAllowsNumberPadPopover:"
+- "setAlpha:"
+- "setAttributedMarkedText:selectedRange:"
+- "setAutocapitalizationType:"
+- "setAutocorrectionType:"
+- "setAutoresizesSubviews:"
+- "setBaseWritingDirection:forRange:"
+- "setCachedIdleTimerPref:"
+- "setContent:"
+- "setContentOffset:animated:"
+- "setContentOwner:"
+- "setConversationContext:"
+- "setDebugBuild:"
+- "setDelegate:"
+- "setEnablesReturnKeyAutomatically:"
+- "setFrame:"
+- "setHasTextBalloonView:"
+- "setHidden:"
+- "setHiddenTextSelectionViewDelegates:"
+- "setHiddenTextSelectionViews:"
+- "setHighlightSelectionRects:"
+- "setHighlightView:"
+- "setHighlightViewDispatcher:"
+- "setIdleTimerDisabled:"
+- "setInlinePredictionType:"
+- "setInputDelegate:"
+- "setKeyboardAppearance:"
+- "setKeyboardType:"
+- "setMarkedText:selectedRange:"
+- "setMarkedTextStyle:"
+- "setMathExpressionCompletionType:"
+- "setObject:atIndexedSubscript:"
+- "setOverrideProcessName:"
+- "setPasswordRules:"
+- "setPaused:"
+- "setQuickSpeakInitiator:"
+- "setReturnKeyType:"
+- "setSecureTextEntry:"
+- "setSelectable:"
+- "setSelectedTextRange:"
+- "setSelectionAffinity:"
+- "setSelectionColor:"
+- "setSentenceHighlight:"
+- "setSentenceHighlightView:"
+- "setShowingLanguageChoices:"
+- "setSmartDashesType:"
+- "setSmartInsertDeleteType:"
+- "setSmartQuotesType:"
+- "setSpeakingContext:"
+- "setSpeakingSentenceRange:"
+- "setSpellCheckingType:"
+- "setSpellOutContent:"
+- "setString:"
+- "setSupportsAdaptiveImageGlyph:"
+- "setTextContentType:"
+- "setUnderlineColor:"
+- "setValidationTargetName:"
+- "setWithCapacity:"
+- "setWritingToolsBehavior:"
+- "sharedInputModeController"
+- "sharedInstance"
+- "shouldChangeTextInRange:replacementText:"
+- "showingLanguageChoices"
+- "smartDashesType"
+- "smartInsertDeleteType"
+- "smartQuotesType"
+- "speakAction:withPreferredLanguage:"
+- "speakStatusWithLanguage:rate:"
+- "speakingSentenceRange"
+- "specificLanguageID"
+- "spellCheckingType"
+- "spellOutContent"
+- "start"
+- "startSpeakingWithPreferredLanguage:error:"
+- "stopAction:"
+- "stopSpeaking:"
+- "string"
+- "stringWithFormat:"
+- "sublayers"
+- "substringWithRange:"
+- "subviews"
+- "superclass"
+- "superview"
+- "supportsAdaptiveImageGlyph"
+- "systemImageNamed:"
+- "systemLanguageID"
+- "textContentType"
+- "textInRange:"
+- "textInputView"
+- "textRangeFromPosition:toPosition:"
+- "textStylingAtPosition:inDirection:"
+- "textView"
+- "unambiguousLangMaps"
+- "unionOrderedSet:"
+- "unmarkText"
+- "unobscuredContentRect"
+- "unpredictedAmbiguousLangMaps"
+- "updateFloatingCursorAtPoint:"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"<UIEditMenuInteractionAnimating>\"16"
+- "v24@0:8@\"<UITextInputDelegate>\"16"
+- "v24@0:8@\"AXOrator\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSAttributedString\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"UIConversationContext\"16"
+- "v24@0:8@\"UIInputSuggestion\"16"
+- "v24@0:8@\"UITextInputPasswordRules\"16"
+- "v24@0:8@\"UITextPlaceholder\"16"
+- "v24@0:8@\"UITextRange\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v28@0:8@\"AXOrator\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"NSAdaptiveImageGlyph\"16@\"UITextRange\"24"
+- "v32@0:8@\"UITextRange\"16@\"NSAttributedString\"24"
+- "v32@0:8@\"UITextRange\"16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8q16@\"UITextRange\"24"
+- "v32@0:8q16@24"
+- "v32@0:8{CGPoint=dd}16"
+- "v40@0:8@\"NSAttributedString\"16{_NSRange=QQ}24"
+- "v40@0:8@\"NSString\"16@\"NSArray\"24q32"
+- "v40@0:8@\"NSString\"16{_NSRange=QQ}24"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16q24q32"
+- "v40@0:8@16{_NSRange=QQ}24"
+- "v40@0:8q16q24@32"
+- "v40@0:8{_NSRange=QQ}16@32"
+- "v48@0:8@\"AXOrator\"16{_NSRange=QQ}24@\"NSString\"40"
+- "v48@0:8@16{_NSRange=QQ}24@40"
+- "v48@0:8{_NSRange=QQ}16@32@40"
+- "v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+- "v64@0:8{_NSRange=QQ}16@32@40@48^{CGRect={CGPoint=dd}{CGSize=dd}}56"
+- "v72@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64"
+- "v72@0:8@16{_NSRange=QQ}24@40@48@56^{CGRect={CGPoint=dd}{CGSize=dd}}64"
+- "validateClass:"
+- "validateClass:hasClassMethod:withFullSignature:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:isKindOfClass:"
+- "valueWithCGRect:"
+- "valueWithRect:"
+- "willDismissEditMenuWithAnimator:"
+- "willPresentEditMenuWithAnimator:"
+- "willPresentWritingTools"
+- "window"
+- "windowScene"
+- "writingToolsBehavior"
+- "zone"
+- "{CGAffineTransform=dddddd}24@0:8@\"UITextPosition\"16"
+- "{CGAffineTransform=dddddd}24@0:8@16"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UITextPosition\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UITextRange\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "{_NSRange=QQ}40@0:8{_NSRange=QQ}16@32"
+- "{_NSRange=QQ}56@0:8{_NSRange=QQ}16@32Q40Q48"
+
+```

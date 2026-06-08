@@ -1,0 +1,362 @@
+## PodcastsAppEntities
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsAppEntities.framework/PodcastsAppEntities`
+
+```diff
+
+-4025.610.1.0.0
+-  __TEXT.__text: 0x569c8
+-  __TEXT.__auth_stubs: 0x1c20
+-  __TEXT.__objc_stubs: 0x780
+-  __TEXT.__objc_methlist: 0x1a8
+-  __TEXT.__const: 0x5038
+-  __TEXT.__cstring: 0x6da
+-  __TEXT.__swift5_typeref: 0x1b12
+-  __TEXT.__swift5_reflstr: 0xb56
+-  __TEXT.__swift5_assocty: 0x860
+-  __TEXT.__constg_swiftt: 0x6b8
+-  __TEXT.__swift5_fieldmd: 0x8c0
+-  __TEXT.__swift5_proto: 0x3ec
+-  __TEXT.__swift5_types: 0x80
+-  __TEXT.__objc_classname: 0xcd
+-  __TEXT.__objc_methname: 0x71a
++4027.100.59.0.0
++  __TEXT.__text: 0x6143c
++  __TEXT.__auth_stubs: 0x1fe0
++  __TEXT.__objc_stubs: 0x760
++  __TEXT.__objc_methlist: 0x1b8
++  __TEXT.__const: 0x6158
++  __TEXT.__cstring: 0x79d
++  __TEXT.__swift5_typeref: 0x1fc4
++  __TEXT.__swift5_reflstr: 0xd16
++  __TEXT.__swift5_assocty: 0xa58
++  __TEXT.__constg_swiftt: 0x830
++  __TEXT.__swift5_fieldmd: 0xa2c
++  __TEXT.__swift5_proto: 0x518
++  __TEXT.__swift5_types: 0xa0
++  __TEXT.__objc_classname: 0xfb
++  __TEXT.__objc_methname: 0x74a
+   __TEXT.__objc_methtype: 0x11b
+-  __TEXT.__swift_as_entry: 0x224
+-  __TEXT.__swift_as_ret: 0x244
+-  __TEXT.__oslogstring: 0x505
+-  __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_capture: 0x21c
++  __TEXT.__swift_as_entry: 0x298
++  __TEXT.__swift_as_ret: 0x2a4
++  __TEXT.__swift_as_cont: 0x3a4
++  __TEXT.__oslogstring: 0x644
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift5_capture: 0x2ac
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x1bb8
+-  __TEXT.__eh_frame: 0x3b44
+-  __DATA_CONST.__auth_got: 0xe18
+-  __DATA_CONST.__got: 0x4f0
+-  __DATA_CONST.__auth_ptr: 0x918
+-  __DATA_CONST.__const: 0x1d00
++  __TEXT.__unwind_info: 0x1ef8
++  __TEXT.__eh_frame: 0x3e6c
++  __DATA_CONST.__const: 0x2158
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA.__objc_const: 0x1790
++  __DATA_CONST.__auth_got: 0xff8
++  __DATA_CONST.__got: 0x540
++  __DATA_CONST.__auth_ptr: 0x970
++  __DATA.__objc_const: 0x358
+   __DATA.__objc_selrefs: 0x2e0
+   __DATA.__objc_data: 0x90
+-  __DATA.__data: 0x1be8
+-  __DATA.__bss: 0x7aa0
++  __DATA.__data: 0x1fb0
++  __DATA.__bss: 0xa010
+   __DATA.__common: 0x30
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/PodcastsFoundation.framework/PodcastsFoundation
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 167054FF-D31E-35CF-B958-256B4B1CF917
+-  Functions: 1975
+-  Symbols:   1016
+-  CStrings:  230
++  UUID: EEBD1D2B-BF50-3F46-9452-9F50101C53B9
++  Functions: 2273
++  Symbols:   1209
++  CStrings:  243
+ 
+Symbols:
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ __DATA__TtC19PodcastsAppEntities15SiriEntityCache
++ __IVARS__TtC19PodcastsAppEntities15SiriEntityCache
++ __METACLASS_DATA__TtC19PodcastsAppEntities15SiriEntityCache
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_memcpy24_8
++ ___swift_memcpy32_8
++ ___swift_memcpy72_8
++ __swift__destructor.21
++ __swift__destructor.23
++ __swift__destructor.24
++ __swift__destructor.27
++ __swift__destructor.66
++ __swift_closure_destructor.17
++ __swift_closure_destructor.27
++ __swift_closure_destructor.27Tm
++ __swift_closure_destructor.31
++ __swift_closure_destructor.34
++ __swift_closure_destructor.34Tm
++ __swift_closure_destructor.45
++ __swift_closure_destructor.5
++ __swift_closure_destructor.50
++ __swift_closure_destructor.61
++ __swift_closure_destructor.69
++ __swift_closure_destructor.72
++ __swift_exist.box.addr_destructor
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 19PodcastsAppEntities10ShowEntityV0B7Intents015AssistantSchemaE0AaD0gE0
++ _associated conformance 19PodcastsAppEntities10ShowEntityV0B7Intents09AssistantE0AaD0bE0
++ _associated conformance 19PodcastsAppEntities10ShowEntityV0B7Intents09_SyncableE0AaD0bE0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents015AssistantSchemaE0AaD0gE0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents09AssistantE0AaD0bE0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0B5ValueAaD07_IntentG0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0bE0AA12DefaultQueryAdEP_AD0eH0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0bE0AA2IDs12IdentifiableP_AD0E21IdentifierConvertible
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0bE0AAs12Identifiable
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0bE0AaD0B5Value
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents0bE0AaD20DisplayRepresentable
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents12_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents20DisplayRepresentableAaD04TypegH0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents20DisplayRepresentableAaD08InstancegH0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0B7Intents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents0eF0AA0E0AfGP_AF0bE0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents0eF0AaF22DynamicOptionsProvider
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents0eF0AaF24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents22DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentL0
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents22DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 19PodcastsAppEntities12ArtistEntityV0dE5QueryV0B7Intents22DynamicOptionsProviderAaF09_SupportsB12Dependencies
++ _associated conformance 19PodcastsAppEntities12ArtistEntityVSHAASQ
++ _associated conformance 19PodcastsAppEntities12ArtistEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19PodcastsAppEntities13AudioActivityO0B7Intents13AssistantEnumAaD0bH0
++ _associated conformance 19PodcastsAppEntities13AudioActivityO0B7Intents19AssistantSchemaEnumAaD0gI0
++ _associated conformance 19PodcastsAppEntities13EpisodeEntityV0B7Intents015AssistantSchemaE0AaD0gE0
++ _associated conformance 19PodcastsAppEntities13EpisodeEntityV0B7Intents09AssistantE0AaD0bE0
++ _associated conformance 19PodcastsAppEntities13EpisodeEntityV0B7Intents09_SyncableE0AaD0bE0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0A10Foundation21MediaAPIRepresentableAAs12Identifiable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents015AssistantSchemaF0AaD0hF0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents09AssistantF0AaD0bF0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents09_SyncableF0AaD0bF0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0B5ValueAaD07_IntentH0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0bF0AA12DefaultQueryAdEP_AD0fI0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0bF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0bF0AAs12Identifiable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0bF0AaD0B5Value
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents0bF0AaD20DisplayRepresentable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents12_IntentValueAA0I4TypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents12_IntentValueAA13SpecificationAdEP_AD08ResolverJ0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents20DisplayRepresentableAaD04TypehI0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents20DisplayRepresentableAaD08InstancehI0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0B7Intents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents0f6StringG0AaF0fG0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents0fG0AA0F0AfGP_AF0bF0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents0fG0AaF22DynamicOptionsProvider
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents0fG0AaF24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents22DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentM0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents22DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV0B7Intents22DynamicOptionsProviderAaF09_SupportsB12Dependencies
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryVAA014MediaAPIEntityG0AA06IntentF0AaFP_0A10Foundation0H16APIRepresentable
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryVAA014MediaAPIEntityG0AA06IntentF0AaFP_0B7Intents0bF0
++ _associated conformance 19PodcastsAppEntities15NewsBriefEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19PodcastsAppEntities16InvocationSourceO0B7Intents13AssistantEnumAaD0bH0
++ _associated conformance 19PodcastsAppEntities16InvocationSourceO0B7Intents19AssistantSchemaEnumAaD0gI0
++ _associated conformance 19PodcastsAppEntities18ContextualMetadataV0B7Intents15AssistantEntityAaD0bH0
++ _associated conformance 19PodcastsAppEntities18ContextualMetadataV0B7Intents21AssistantSchemaEntityAaD0gI0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents015AssistantSchemaF0AaD0hF0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents09AssistantF0AaD0bF0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0B5ValueAaD07_IntentH0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0B5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0B5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0bF0AA12DefaultQueryAdEP_AD0fI0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0bF0AA2IDs12IdentifiableP_AD0F21IdentifierConvertible
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0bF0AAs12Identifiable
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0bF0AaD0B5Value
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents0bF0AaD20DisplayRepresentable
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents12_IntentValueAA0I4TypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents12_IntentValueAA13SpecificationAdEP_AD08ResolverJ0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents20DisplayRepresentableAaD04TypehI0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents20DisplayRepresentableAaD08InstancehI0
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityV0B7Intents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 19PodcastsAppEntities18NewsProviderEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19PodcastsAppEntities18PlaybackAttributesO0B7Intents13AssistantEnumAaD0bH0
++ _associated conformance 19PodcastsAppEntities18PlaybackAttributesO0B7Intents19AssistantSchemaEnumAaD0gI0
++ _associated conformance 19PodcastsAppEntities22QueueInsertionLocationO0B7Intents13AssistantEnumAaD0bI0
++ _associated conformance 19PodcastsAppEntities22QueueInsertionLocationO0B7Intents19AssistantSchemaEnumAaD0hJ0
++ _associated conformance 19PodcastsAppEntities22WarmupAudioQueueResultV0B7Intents15AssistantEntityAaD0bJ0
++ _associated conformance 19PodcastsAppEntities22WarmupAudioQueueResultV0B7Intents21AssistantSchemaEntityAaD0iK0
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents014DynamicOptionsE0AA12DefaultValueAdEP_AD07_IntentL0
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents014DynamicOptionsE0AA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents014DynamicOptionsE0AaD09_SupportsB12Dependencies
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents0f6StringG0AaD0fG0
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents0fG0AA0F0AdEP_AD0bF0
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents0fG0AaD014DynamicOptionsE0
++ _associated conformance 19PodcastsAppEntities23NewsProviderEntityQueryV0B7Intents0fG0AaD24PersistentlyIdentifiable
++ _associated conformance 19PodcastsAppEntities23PodcastCollectionEntityV0B7Intents015AssistantSchemaF0AaD0hF0
++ _associated conformance 19PodcastsAppEntities23PodcastCollectionEntityV0B7Intents09AssistantF0AaD0bF0
++ _associated conformance 19PodcastsAppEntities23PodcastCollectionEntityV0B7Intents09_SyncableF0AaD0bF0
++ _objc_retain_x10
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_deletedMethodError
++ _swift_getDynamicType
++ _swift_getExistentialTypeMetadata
++ _swift_isUniquelyReferenced_native
++ _swift_lookUpClassMethod
++ _swift_release_x11
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic $s19PodcastsAppEntities19SiriDonatorProtocolP
++ _symbolic $s19PodcastsAppEntities26SiriAssetInfoRepresentableP
++ _symbolic SDySSypG
++ _symbolic SS3key______5valuet 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic SS______t 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic SaySSG
++ _symbolic Say_____G 19PodcastsAppEntities12ArtistEntityV
++ _symbolic Say_____G 19PodcastsAppEntities15NewsBriefEntityV
++ _symbolic Say_____G 19PodcastsAppEntities18NewsProviderEntityV
++ _symbolic Si
++ _symbolic Si6offset______7elementt 19PodcastsAppEntities13StationEntityV
++ _symbolic SiSg______Sgt 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 19PodcastsAppEntities12ArtistEntityV
++ _symbolic _____ 19PodcastsAppEntities12ArtistEntityV0dE5QueryV
++ _symbolic _____ 19PodcastsAppEntities15NewsBriefEntityV
++ _symbolic _____ 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV
++ _symbolic _____ 19PodcastsAppEntities15SiriEntityCacheC
++ _symbolic _____ 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic _____ 19PodcastsAppEntities18NewsProviderEntityV
++ _symbolic _____ 19PodcastsAppEntities23NewsProviderEntityQueryV
++ _symbolic _____Sg 18PodcastsFoundation19NewsBriefExternalIDO
++ _symbolic _____Sg 19PodcastsAppEntities13ChannelEntityV
++ _symbolic _____Sg 19PodcastsAppEntities13EpisodeEntityV
++ _symbolic _____Sg 19PodcastsAppEntities15NewsBriefEntityV
++ _symbolic _____Sg 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ______p 10AppIntents0A6EntityP
++ _symbolic _____ySS_____G 19CollectionsInternal17OrderedDictionaryV 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08PodcastsA8Entities12ArtistEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08PodcastsA8Entities15NewsBriefEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 08PodcastsA8Entities18NewsProviderEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation19NewsBriefExternalIDO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PodcastsAppEntities15NewsBriefEntityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _symbolic _____y_____SgG 10AppIntents14EntityPropertyC 08PodcastsA8Entities012NewsProviderC0V
++ _symbolic _____y_____ySS_____GG 15Synchronization5MutexVAARi_zrlE 19CollectionsInternal17OrderedDictionaryV 19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLV
++ _type_layout_string 19PodcastsAppEntities12ArtistEntityV
++ _type_layout_string 19PodcastsAppEntities15NewsBriefEntityV
++ _type_layout_string 19PodcastsAppEntities15NewsBriefEntityV0deF5QueryV
++ _type_layout_string 19PodcastsAppEntities18NewsProviderEntityV
++ get_type_metadata 15Synchronization5MutexVy19CollectionsInternal17OrderedDictionaryVySS19PodcastsAppEntities15SiriEntityCacheC5Value33_FCCA4C004E4D2BAB2308D32B74BC832DLLVGG noncopyable.3
++ get_witness_table 16CoreTransferable27TupleTransferRepresentationVy19PodcastsAppEntities10ShowEntityVAA012_ConditionaldE0VyAA04DataE0VyAFGG_ALtGAA0dE0HPyHC.16
++ get_witness_table 16CoreTransferable27TupleTransferRepresentationVy19PodcastsAppEntities13EpisodeEntityVAA012_ConditionaldE0VyAA04DataE0VyAFGG_ALtGAA0dE0HPyHC.27
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_PodcastsAppEntities
+- _associated conformance 19PodcastsAppEntities22WarmupAudioQueueResultV0B7Intents13IndexedEntityAaD0bJ0
+- _objc_msgSend$supportsStations
+- _swift_bridgeObjectRetain_n
+- _swift_stdlib_isStackAllocationSafe
+- _symbolic _____Sg 18PodcastsFoundation14ArtworkContentO
+- _symbolic ______pSg 18PodcastsFoundation21DatabaseRepresentableP
+- _symbolic ______pSg 18PodcastsFoundation21MediaAPIRepresentableP
+- _symbolic ______pSg 19PodcastsAppEntities23ExternalIDRepresentableP
+- get_witness_table 16CoreTransferable27TupleTransferRepresentationVy19PodcastsAppEntities10ShowEntityVAA012_ConditionaldE0VyAA04DataE0VyAFGG_ALtGAA0dE0HPyHC.19
+- get_witness_table 16CoreTransferable27TupleTransferRepresentationVy19PodcastsAppEntities13EpisodeEntityVAA012_ConditionaldE0VyAA04DataE0VyAFGG_ALtGAA0dE0HPyHC.29
+- objectdestroy.26Tm
+- objectdestroy.35Tm
+CStrings:
++ "%s: Querying with ids: %s"
++ "NewsBriefEntityQuery: Querying with ids: %s"
++ "PodcastCollectionEntityQuery: Querying with ids: %s"
++ "SiriEntityCache: Found entities in cache with ids: %s"
++ "Unexpectedly searching for news providers through the entity string query. Should have gone to pegasus."
++ "_TtC19PodcastsAppEntities15SiriEntityCache"
++ "appIntentsContext"
++ "audio.contextualMetadata"
++ "audio.invocationSource"
++ "audio.newsProvider"
++ "audio.playbackAttributes"
++ "audio.podcastCollection"
++ "audio.podcastEpisode"
++ "audio.podcastShow"
++ "audio.queueInsertionLocation"
++ "audio.warmupAudioQueueResult"
++ "countLimit"
++ "mutex"
+- "Invocation Source"
+- "Playback Attributes"
+- "Queue Insertion Location"
+- "later"
+- "supportsStations"
+
+```

@@ -1,0 +1,76 @@
+## MLCompilerOSXPC
+
+> `/System/Library/PrivateFrameworks/MLCompilerServices.framework/XPCServices/MLCompilerOSXPC.xpc/MLCompilerOSXPC`
+
+```diff
+
+-3404.3.1.0.0
+-  __TEXT.__text: 0x15e8
++3600.11.1.0.0
++  __TEXT.__text: 0x15c0
+   __TEXT.__auth_stubs: 0x2b0
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__gcc_except_tab: 0x1a4
++  __TEXT.__gcc_except_tab: 0x190
+   __TEXT.__const: 0x8c
+   __TEXT.__cstring: 0x4c
+   __TEXT.__oslogstring: 0x66
+-  __TEXT.__unwind_info: 0x148
++  __TEXT.__unwind_info: 0x158
++  __DATA_CONST.__const: 0x110
+   __DATA_CONST.__auth_got: 0x160
+   __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0x110
+   __DATA.__bss: 0x8
+   - /AppleInternal/Library/Frameworks/MLCompilerOS.framework/MLCompilerOS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 309AC4FC-AF2A-352B-B68C-3175FDDBF006
++  UUID: E50283F0-2CFA-355F-A933-22E9498781F8
+   Functions: 36
+-  Symbols:   291
++  Symbols:   292
+   CStrings:  11
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/E3B6A724-3D4D-49A2-8418-40CFFE9CB2E0/TemporaryDirectory.PX4zux/Binaries/MLCompiler/install/Symbols/bld/services/xpc_compiler/CMakeFiles/MLCompilerOSXPC.dir/__/common/xpc_utils.cpp.o
++ /Library/Caches/com.apple.xbs/E3B6A724-3D4D-49A2-8418-40CFFE9CB2E0/TemporaryDirectory.PX4zux/Binaries/MLCompiler/install/Symbols/bld/services/xpc_compiler/CMakeFiles/MLCompilerOSXPC.dir/main.cpp.o
++ /Library/Caches/com.apple.xbs/E3B6A724-3D4D-49A2-8418-40CFFE9CB2E0/TemporaryDirectory.PX4zux/Sources/MLCompiler/src/services/common/
++ /Library/Caches/com.apple.xbs/E3B6A724-3D4D-49A2-8418-40CFFE9CB2E0/TemporaryDirectory.PX4zux/Sources/MLCompiler/src/services/xpc_compiler/
++ GCC_except_table24
++ GCC_except_table27
++ GCC_except_table28
++ __ZN3mlc3xpcINSt3__16vectorIPKcNS1_9allocatorIS4_EEEEE9get_valueEPv
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFbON3mlc16xpc_auto_reply_tEPvEE4swapB9fqe220100ERS7_
++ __ZNSt3__110unique_ptrIN3mlc14xpc_dispatch_tENS_14default_deleteIS2_EEE5resetB9fqe220100EPS2_
++ __ZNSt3__110unique_ptrIN3mlc14xpc_dispatch_tENS_14default_deleteIS2_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS3_16xpc_auto_reply_tEPvEEEEES8_EENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9fqe220100Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS2_16xpc_auto_reply_tEPvEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS2_16xpc_auto_reply_tEPvEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENST_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_S7_EEEEbEEDpOT_ENKUlSU_SS_OSV_OSW_E_clESU_SS_S16_S17_
+- /Library/Caches/com.apple.xbs/ECE46FD6-F4A1-47FA-BC07-9B651A70F455/TemporaryDirectory.cCj1FV/Binaries/MLCompiler/install/Symbols/bld/services/xpc_compiler/CMakeFiles/MLCompilerOSXPC.dir/__/common/xpc_utils.cpp.o
+- /Library/Caches/com.apple.xbs/ECE46FD6-F4A1-47FA-BC07-9B651A70F455/TemporaryDirectory.cCj1FV/Binaries/MLCompiler/install/Symbols/bld/services/xpc_compiler/CMakeFiles/MLCompilerOSXPC.dir/main.cpp.o
+- /Library/Caches/com.apple.xbs/ECE46FD6-F4A1-47FA-BC07-9B651A70F455/TemporaryDirectory.cCj1FV/Sources/MLCompiler/src/services/common/
+- /Library/Caches/com.apple.xbs/ECE46FD6-F4A1-47FA-BC07-9B651A70F455/TemporaryDirectory.cCj1FV/Sources/MLCompiler/src/services/xpc_compiler/
+- GCC_except_table25
+- GCC_except_table26
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFbON3mlc16xpc_auto_reply_tEPvEE4swapB9nqe210106ERS7_
+- __ZNSt3__110unique_ptrIN3mlc14xpc_dispatch_tENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
+- __ZNSt3__110unique_ptrIN3mlc14xpc_dispatch_tENS_14default_deleteIS2_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS3_16xpc_auto_reply_tEPvEEEEES8_EENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe210106Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS2_16xpc_auto_reply_tEPvEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN3mlc15function_kind_tENS_8functionIFbONS2_16xpc_auto_reply_tEPvEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE25__emplace_unique_key_argsIS3_JRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENST_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_S7_EEEEbEERKT_DpOT0_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+
+```

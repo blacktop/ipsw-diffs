@@ -1,0 +1,1469 @@
+## HomeControlCenterModule
+
+> `/System/Library/ControlCenter/Bundles/HomeControlCenterModule.bundle/HomeControlCenterModule`
+
+```diff
+
+-1166.6.7.1.1
+-  __TEXT.__text: 0x18fa8
+-  __TEXT.__auth_stubs: 0xc90
+-  __TEXT.__objc_methlist: 0x1a0c
+-  __TEXT.__const: 0x344
+-  __TEXT.__cstring: 0x8fc
+-  __TEXT.__oslogstring: 0xc48
+-  __TEXT.__gcc_except_tab: 0x1b8
+-  __TEXT.__swift5_typeref: 0x2a8
+-  __TEXT.__swift5_fieldmd: 0x3c
+-  __TEXT.__constg_swiftt: 0xc8
+-  __TEXT.__swift5_reflstr: 0xd
+-  __TEXT.__swift5_capture: 0x258
+-  __TEXT.__swift5_types: 0x8
+-  __TEXT.__swift_as_entry: 0x44
+-  __TEXT.__swift_as_ret: 0x34
++1216.4.0.1.11
++  __TEXT.__text: 0x6d50
++  __TEXT.__objc_methlist: 0x604
++  __TEXT.__const: 0x1d4
++  __TEXT.__cstring: 0x74
++  __TEXT.__oslogstring: 0x4b8
++  __TEXT.__gcc_except_tab: 0x68
++  __TEXT.__swift5_typeref: 0x10e
++  __TEXT.__swift5_capture: 0x15c
++  __TEXT.__constg_swiftt: 0x50
+   __TEXT.__swift5_proto: 0x4
+-  __TEXT.__unwind_info: 0x8b0
+-  __TEXT.__eh_frame: 0x8d0
+-  __TEXT.__objc_classname: 0x547
+-  __TEXT.__objc_methname: 0x5d2d
+-  __TEXT.__objc_methtype: 0x128a
+-  __TEXT.__objc_stubs: 0x3d80
+-  __DATA_CONST.__got: 0x3f0
+-  __DATA_CONST.__const: 0x588
+-  __DATA_CONST.__objc_classlist: 0x60
+-  __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x108
++  __TEXT.__swift_as_entry: 0x34
++  __TEXT.__swift_as_ret: 0x28
++  __TEXT.__swift_as_cont: 0x6c
++  __TEXT.__swift5_fieldmd: 0x10
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__unwind_info: 0x308
++  __TEXT.__eh_frame: 0x630
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1a0
++  __DATA_CONST.__objc_classlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1558
+-  __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __DATA_CONST.__objc_arraydata: 0x98
+-  __AUTH_CONST.__auth_got: 0x658
+-  __AUTH_CONST.__const: 0x678
+-  __AUTH_CONST.__cfstring: 0x420
+-  __AUTH_CONST.__objc_const: 0x2430
+-  __AUTH_CONST.__objc_intobj: 0x1b0
+-  __AUTH_CONST.__objc_arrayobj: 0xa8
+-  __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x188
+-  __AUTH.__data: 0xd8
+-  __DATA.__objc_ivar: 0x114
+-  __DATA.__data: 0xba8
+-  __DATA.__objc_stublist: 0x8
+-  __DATA.__common: 0x10
+-  __DATA_DIRTY.__objc_data: 0x280
++  __DATA_CONST.__objc_selrefs: 0x450
++  __DATA_CONST.__objc_superrefs: 0x10
++  __DATA_CONST.__got: 0x158
++  __AUTH_CONST.__const: 0x318
++  __AUTH_CONST.__cfstring: 0xa0
++  __AUTH_CONST.__objc_const: 0x7e0
++  __AUTH_CONST.__auth_got: 0x488
++  __AUTH.__data: 0x98
++  __DATA.__objc_ivar: 0x24
++  __DATA.__data: 0x300
++  __DATA_DIRTY.__objc_data: 0xa0
+   __DATA_DIRTY.__data: 0x18
+   __DATA_DIRTY.__bss: 0x90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B0B84B4E-348F-3E60-B8DA-23DAAF5872F6
+-  Functions: 616
+-  Symbols:   304
+-  CStrings:  1243
++  UUID: A438348E-9412-36A5-AB56-877ED81AD983
++  Functions: 169
++  Symbols:   156
++  CStrings:  34
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x26
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x21
+- _CAFrameRateRangeMake
+- _CCUICompactModuleContinuousCornerRadius
+- _CCUIDefaultExpandedContentModuleWidth
+- _CCUIExpandedModuleContinuousCornerRadius
+- _CCUIExpandedModuleEdgeInsets
+- _CCUIIsPortrait
+- _CCUIItemEdgeSize
+- _CCUILayoutGutter
+- _CCUIMaximumExpandedContentModuleHeight
+- _CCUIScreenBounds
+- _CGPointZero
+- _CGRectGetHeight
+- _CGRectGetWidth
+- _CGRectZero
+- _HFItemUpdateOptionFastInitialUpdate
+- _HUCCNotificationsEnabledReasonBackground
+- _HUCCNotificationsEnabledReasonForeground
+- _HUCCPerformCommonInitialization
+- _HUCCSizeSubclassForModuleViewWidth
+- _HUCCStringForOrientation
+- _HUCCUpdateRunningState
+- _HUCCUpdateRunningStateWithAppleMediaAccessories
+- _HUDefaultSizeForIconSize
+- _HUHighestCommonFactor
+- _HUHomeControlServiceHomeAppIconViewInNavigationHeaderFrameKey
+- _HUHomeControlServiceHomeNameLabelInNavigationHeaderFrameKey
+- _HUHomeControlServiceRoomNameLabelInNavigationHeaderFrameKey
+- _HULocalizedBiometryString
+- _HULocalizedModelString
+- _HUViewSizeSubclassForViewSize
+- _MGGetFloat32Answer
+- _NAEmptyResult
+- _NSLog
+- _OBJC_CLASS_$_CAMediaTimingFunction
+- _OBJC_CLASS_$_CCUIControlCenterMaterialView
+- _OBJC_CLASS_$_HFCharacteristicNotificationManager
+- _OBJC_CLASS_$_HFControlItem
+- _OBJC_CLASS_$_HFExecutionEnvironment
+- _OBJC_CLASS_$_HFHomeItem
+- _OBJC_CLASS_$_HFItemManager
+- _OBJC_CLASS_$_HFMutableItemSection
+- _OBJC_CLASS_$_HFPlaceholderItem
+- _OBJC_CLASS_$_HFPredictionsItemProvider
+- _OBJC_CLASS_$_HFPredictionsManager
+- _OBJC_CLASS_$_HFStaticItemProvider
+- _OBJC_CLASS_$_HFStaticReadPolicy
+- _OBJC_CLASS_$_HFUtilities
+- _OBJC_CLASS_$_HUCCDashboardContainerViewController
+- _OBJC_CLASS_$_HUCCFillerMosaicCell
+- _OBJC_CLASS_$_HUCCInfoMosaicGridView
+- _OBJC_CLASS_$_HUCCMosaicArranger
+- _OBJC_CLASS_$_HUCCMosaicItem
+- _OBJC_CLASS_$_HUCCOpenURLHandler
+- _OBJC_CLASS_$_HUCCRemoteDashboardViewController
+- _OBJC_CLASS_$_HUCCSmartContainerView
+- _OBJC_CLASS_$_HUCCSmartGridContentViewController
+- _OBJC_CLASS_$_HUCCSmartGridItemManager
+- _OBJC_CLASS_$_HUCCSmartGridLayout
+- _OBJC_CLASS_$_HUCCSmartGridPropertyAnimator
+- _OBJC_CLASS_$_HUCCSmartGridViewController
+- _OBJC_CLASS_$_HUControllableItemCollectionViewController
+- _OBJC_CLASS_$_HUGridActionSetCell
+- _OBJC_CLASS_$_HUGridHomeCell
+- _OBJC_CLASS_$_HUGridLayoutOptions
+- _OBJC_CLASS_$_HUGridServiceCell
+- _OBJC_CLASS_$_HUHomeControlServiceManager
+- _OBJC_CLASS_$_HUMosaicLayout
+- _OBJC_CLASS_$_HUMosaicLayoutGeometry
+- _OBJC_CLASS_$_HUMosaicLayoutHelper
+- _OBJC_CLASS_$_NADescriptionBuilder
+- _OBJC_CLASS_$_NAFuture
+- _OBJC_CLASS_$_NSAssertionHandler
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSThread
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UICubicTimingParameters
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_UIFont
+- _OBJC_CLASS_$_UIFontDescriptor
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UINavigationBarAppearance
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$_UISpringTimingParameters
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$_UIVibrancyEffect
+- _OBJC_CLASS_$_UIView
+- _OBJC_CLASS_$_UIViewController
+- _OBJC_CLASS_$_UIViewPropertyAnimator
+- _OBJC_CLASS_$_UIVisualEffectView
+- _OBJC_CLASS_$__UIRemoteViewController
+- _OBJC_METACLASS_$_HFItemManager
+- _OBJC_METACLASS_$_HUCCDashboardContainerViewController
+- _OBJC_METACLASS_$_HUCCOpenURLHandler
+- _OBJC_METACLASS_$_HUCCRemoteDashboardViewController
+- _OBJC_METACLASS_$_HUCCSmartContainerView
+- _OBJC_METACLASS_$_HUCCSmartGridContentViewController
+- _OBJC_METACLASS_$_HUCCSmartGridItemManager
+- _OBJC_METACLASS_$_HUCCSmartGridLayout
+- _OBJC_METACLASS_$_HUCCSmartGridPropertyAnimator
+- _OBJC_METACLASS_$_HUCCSmartGridViewController
+- _OBJC_METACLASS_$_HUControllableItemCollectionViewController
+- _OBJC_METACLASS_$_UIView
+- _OBJC_METACLASS_$_UIViewController
+- _OBJC_METACLASS_$_UIViewPropertyAnimator
+- _OBJC_METACLASS_$__TtC6HomeUI39DataModelAccessoryControlViewController
+- _OBJC_METACLASS_$__UIRemoteViewController
+- _UIAccessibilityIsReduceMotionEnabled
+- _UIFontTextStyleCaption1
+- _UIFontTextStyleCaption2
+- _UIFontTextStyleFootnote
+- _UIFontTextStyleHeadline
+- _UIViewNoIntrinsicMetric
+- __HUCCLayoutStyleForModuleViewWidth
+- ___NSArray0__struct
+- __os_activity_initiate
+- __os_feature_enabled_impl
+- __os_log_error_impl
+- __os_log_fault_impl
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- _dispatch_after
+- _dispatch_async
+- _dispatch_get_global_queue
+- _dispatch_time
+- _objc_allocWithZone
+- _objc_enumerationMutation
+- _objc_opt_new
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x9
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x27
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _swift_allocError
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_resume
+- _swift_getSingletonMetadata
+- _swift_initClassMetadata2
+- _swift_retain
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _swift_willThrow
+CStrings:
+- ""
+- "  %@"
+- "#-"
+- "#16@0:8"
+- "#32@0:8@16@24"
+- "%@ - height: %ld, width: %ld"
+- "%@ disappeared while accessory controls were still presented: %@"
+- "%@ was asked to dismiss while accessory controls were still presented: %@"
+- "%@: ("
+- "%@: No items to display"
+- "%@:%s"
+- "%@:%s %@"
+- "%@:%s %@ performing item operations: %@"
+- "%@:%s Opening Home app for %@"
+- "%@:%s displaying Home Control Service for %@"
+- "%@:%s prev chosenLayoutType = %lu. new chosenLayoutType = %lu"
+- "%@:%s —\u00a0has window: %@"
+- "%@:%s, compressedView.alpha was %f is %f"
+- "%@:%s, expandedView.alpha was %f is %f"
+- "%@:%s, was %@ is %@"
+- ")"
+- "), initial state:"
+- "-[HUCCSmartContainerView didMoveToSuperview]"
+- "-[HUCCSmartContainerView didMoveToWindow]"
+- "-[HUCCSmartContainerView hideLockSecurity]"
+- "-[HUCCSmartContainerView resetToInitialState]"
+- "-[HUCCSmartContainerView setCompressedView:]"
+- "-[HUCCSmartContainerView setExpandedView:]"
+- "-[HUCCSmartContainerView showLockSecurityWithFrameDelegate:]"
+- "-[HUCCSmartGridContentViewController displayHome:]"
+- "-[HUCCSmartGridContentViewController loadView]"
+- "-[HUCCSmartGridContentViewController viewDidAppear:]"
+- "-[HUCCSmartGridContentViewController viewDidDisappear:]"
+- "-[HUCCSmartGridContentViewController viewDidLoad]"
+- "-[HUCCSmartGridContentViewController viewWillAppear:]"
+- "-[HUCCSmartGridContentViewController viewWillDisappear:]"
+- "-[HUCCSmartGridItemManager setChosenLayoutType:]"
+- "-[HUCCSmartGridViewController _performTapActionForItem:tappedArea:]"
+- "-[HUCCSmartGridViewController itemManager:performUpdateRequest:]"
+- "-[HUCCSmartGridViewController viewDidAppear:]"
+- "-[HUCCSmartGridViewController viewDidDisappear:]"
+- "-[HUCCSmartGridViewController viewDidLoad]"
+- "-[HUCCSmartGridViewController viewWillAppear:]"
+- ".cxx_destruct"
+- "1"
+- "@"
+- "@\"<HFAccessoryRepresentable>\"16@0:8"
+- "@\"<HFCharacteristicValueSource>\"16@0:8"
+- "@\"<HFHomeKitObject>\"16@0:8"
+- "@\"<HUCCDashboardContainerViewControllerDelegate>\""
+- "@\"<HUCCLockStateHandlerDelegate>\""
+- "@\"<HUCCMosaicLayoutDelegate>\""
+- "@\"<HUCCRemoteDashboardDelegate>\""
+- "@\"<HUCCSmartGridContentViewControllerDelegate>\""
+- "@\"<HUCCSmartGridPropertyAnimatorDelegate>\""
+- "@\"<HUCCSmartGridViewControllerDelegate>\""
+- "@\"<HUMosaicLayoutArranger>\"16@0:8"
+- "@\"<HUOpenURLHandling>\""
+- "@\"<HUResizableCellDelegate>\"16@0:8"
+- "@\"<NACancelable>\""
+- "@\"<NSObject>\""
+- "@\"CCUIContentModuleContext\""
+- "@\"CCUIContentModuleContext\"16@0:8"
+- "@\"CCUIModuleContentMetrics\"16@0:8"
+- "@\"HFHomeKitDispatcher\""
+- "@\"HFItem\"16@0:8"
+- "@\"HFNamingComponents\"16@0:8"
+- "@\"HFPredictionsItemProvider\""
+- "@\"HFPredictionsManager\""
+- "@\"HMHome\"16@0:8"
+- "@\"HUCCDashboardContainerViewController\""
+- "@\"HUCCInfoMosaicGridView\""
+- "@\"HUCCLockStateHandler\""
+- "@\"HUCCRemoteDashboardViewController\""
+- "@\"HUCCSmartGridPropertyAnimator\""
+- "@\"HUCCSmartGridViewController\""
+- "@\"HUGridCellLayoutOptions\"16@0:8"
+- "@\"HUGridHomeCell\""
+- "@\"HUGridLayoutOptions\""
+- "@\"HUMosaicLayout\""
+- "@\"HUMosaicLayoutGeometry\""
+- "@\"HUMosaicLayoutGeometry\"16@0:8"
+- "@\"INIntent\"16@0:8"
+- "@\"NAFuture\"16@?0@8"
+- "@\"NAFuture\"24@0:8@\"HUCCSmartGridViewController\"16"
+- "@\"NAFuture\"24@0:8@\"NSURL\"16"
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"8@?0"
+- "@\"NSDictionary\""
+- "@\"NSMutableDictionary\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@\"UICollectionViewCell\""
+- "@\"UILabel\""
+- "@\"UIView\""
+- "@\"UIViewController<CCUIContentModuleBackgroundViewController>\"16@0:8"
+- "@\"UIViewController<CCUIContentModuleBackgroundViewController>\"24@0:8@\"CCUIContentModulePresentationContext\"16"
+- "@\"UIViewController<CCUIContentModuleContentViewController>\""
+- "@\"UIViewController<CCUIContentModuleContentViewController>\"16@0:8"
+- "@\"UIViewController<CCUIContentModuleContentViewController>\"24@0:8@\"CCUIContentModulePresentationContext\"16"
+- "@\"UIViewController<HUCCAccessoryControlsHosting>\""
+- "@\"UIViewPropertyAnimator\"16@0:8"
+- "@\"UIVisualEffectView\""
+- "@\"_UIAsyncInvocation\""
+- "@16@0:8"
+- "@16@?0@\"NSIndexPath\"8"
+- "@16@?0@\"UIViewController\"8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@\"<HFCharacteristicValueSource>\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8B16^B20"
+- "@32@0:8:16@24"
+- "@32@0:8@\"<HFAccessoryRepresentable>\"16@\"<HFCharacteristicValueSource>\"24"
+- "@32@0:8@16@24"
+- "@32@0:8Q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8{CGSize=dd}16Q32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "A"
+- "Accessory controls will dismiss: %@"
+- "Accessory controls will present: %@"
+- "B"
+- "B12@?0B8"
+- "B16@0:8"
+- "B16@?0@\"<HFDiffOperation>\"8"
+- "B16@?0@\"HFItem\"8"
+- "B16@?0@\"HMAccessory\"8"
+- "B16@?0@\"UICollectionViewCell\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"HUCCSmartGridContentViewController\"16"
+- "B24@0:8@\"HUCCSmartGridViewController\"16"
+- "B24@0:8@\"HUControlCenterModuleViewController\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UITouch\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B40@0:8{CGPoint=dd}16@\"UIView\"32"
+- "B40@0:8{CGPoint=dd}16@32"
+- "B48@0:8@16{CGPoint=dd}24@40"
+- "Blocking full item update for view controller %@ as we are not visible."
+- "CCUIContentModule"
+- "CCUIContentModuleContentViewController"
+- "CGRectValue"
+- "Cell item %@ at index path %@ does not match item manager's item %@!"
+- "Computing module layout size for orientiation: %@"
+- "Control Center collection view inconsistency"
+- "Control Center item update inconsistency"
+- "Control Center mode: %@"
+- "ControlCenter"
+- "Creating predictionsManager for home: %@"
+- "DefaultKey"
+- "DeviceCornerRadius"
+- "ERROR: Inconsistencies detected between item manager state and collection view state! This is bad. Asserts: ("
+- "Error: we're processing an update request with no insertions while the collection view says it has 0 sections before the update. UIKit will assert next."
+- "HCSRemoteViewController"
+- "HFAccessoryRepresentableItem"
+- "HFAccessoryVendor"
+- "HFHomeKitItemProtocol"
+- "HFHomeManagerObserver"
+- "HFHomeVendor"
+- "HFNamingComponentCreating"
+- "HFPredictionsManagerDelegate"
+- "HFServiceLikeItem"
+- "HFServiceVendor"
+- "HMHomeManagerDelegate"
+- "HMHomeManagerDelegatePrivate"
+- "HUCC START GRID MAIN SECTION"
+- "HUCCAccessoryControlsHosting"
+- "HUCCAdditions"
+- "HUCCControlCenterModule"
+- "HUCCControlCenterModule will initialize: HUCCSmartGridContentViewController"
+- "HUCCDashboardContainerViewController"
+- "HUCCDashboardContainerViewControllerDelegate"
+- "HUCCLockStateHandler"
+- "HUCCLockStateHandlerDelegate"
+- "HUCCMosaicLayoutDelegate"
+- "HUCCOpenURLHandler"
+- "HUCCRemoteDashboardDelegate"
+- "HUCCRemoteDashboardViewController"
+- "HUCCSmartContainerView"
+- "HUCCSmartGridContentViewController"
+- "HUCCSmartGridContentViewControllerDelegate"
+- "HUCCSmartGridItemManager"
+- "HUCCSmartGridItemManager hiding item %@"
+- "HUCCSmartGridLayout"
+- "HUCCSmartGridModuleVisible"
+- "HUCCSmartGridPropertyAnimator"
+- "HUCCSmartGridPropertyAnimatorDelegate"
+- "HUCCSmartGridViewController"
+- "HUCCSmartGridViewController.m"
+- "HUCCSmartGridViewControllerDelegate"
+- "HUCCVendsArranger"
+- "HUCellProtocol"
+- "HUControlCenterModuleViewControllerDelegate"
+- "HUControlCenterRequiresUnlockAction"
+- "HUControlCenterRequiresUnlockWarning"
+- "HUGridCellProtocol"
+- "HUHomeControlInterface"
+- "HUMosaicLayoutDelegate"
+- "HUOpenURLHandling"
+- "HomeControlCenterModule"
+- "HomeControlCenterModule1"
+- "Is Main thread: %@"
+- "Item manager: %@ believes there are %lu sections"
+- "LandscapeLeft"
+- "LandscapeRight"
+- "NO"
+- "NSCopying"
+- "NSObject"
+- "NewControls"
+- "No mosaic layout geometry available. Using full size grid"
+- "Portrait"
+- "PortraitUpsideDown"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@\"NSIndexPath\"16"
+- "Q24@0:8@16"
+- "Q24@0:8Q16"
+- "Remote Dashboard View Controller View Service terminated  (error: %@)"
+- "Requesting layout size update"
+- "Scenes"
+- "Services"
+- "T#,R"
+- "T@\"<HFAccessoryRepresentable>\",R,N"
+- "T@\"<HFCharacteristicValueSource>\",R,N"
+- "T@\"<HFHomeKitObject>\",R,N"
+- "T@\"<HUCCDashboardContainerViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<HUCCLockStateHandlerDelegate>\",W,N,V_delegate"
+- "T@\"<HUCCMosaicLayoutDelegate>\",W,N,V_mosaicLayoutDelegate"
+- "T@\"<HUCCRemoteDashboardDelegate>\",W,N,V_delegate"
+- "T@\"<HUCCSmartGridContentViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<HUCCSmartGridPropertyAnimatorDelegate>\",W,N,V_delegate"
+- "T@\"<HUCCSmartGridViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<HUOpenURLHandling>\",&,N,V_URLHandler"
+- "T@\"<HUResizableCellDelegate>\",?,W,N"
+- "T@\"<NACancelable>\",&,N,V_registrationScheduledCancelation"
+- "T@\"<NSObject>\",&,N,V_activeAssertion"
+- "T@\"CCUIContentModuleContext\",&,N,V_contentModuleContext"
+- "T@\"CCUIContentModuleContext\",R,N"
+- "T@\"CCUIContentModuleContext\",R,N,V_context"
+- "T@\"CCUIModuleContentMetrics\",?,&,N"
+- "T@\"HFHomeKitDispatcher\",R,N,V_dispatcher"
+- "T@\"HFItem\",&,N"
+- "T@\"HFPredictionsItemProvider\",&,N,V_predictionsItemProvider"
+- "T@\"HFPredictionsManager\",&,N,V_predictionsManager"
+- "T@\"HMHome\",R,N"
+- "T@\"HUCCDashboardContainerViewController\",&,N,V_dashboardContainerViewController"
+- "T@\"HUCCInfoMosaicGridView\",&,N,V_lockSecurityView"
+- "T@\"HUCCLockStateHandler\",&,N,V_lockStateHandler"
+- "T@\"HUCCRemoteDashboardViewController\",&,N,V_remoteDashboardViewController"
+- "T@\"HUCCSmartContainerView\",&,D,N"
+- "T@\"HUCCSmartGridItemManager\",R,D,N"
+- "T@\"HUCCSmartGridPropertyAnimator\",&,N,V_transitionAnimator"
+- "T@\"HUCCSmartGridViewController\",&,N,V_smartGridViewController"
+- "T@\"HUGridCellLayoutOptions\",&,N"
+- "T@\"HUGridHomeCell\",W,N,V_homeCell"
+- "T@\"HUGridLayoutOptions\",&,N,V_expandedCellLayoutOptions"
+- "T@\"HUGridLayoutOptions\",&,N,V_singleCellLayoutOptions"
+- "T@\"HUMosaicLayout\",&,N,V_mosaicLayout"
+- "T@\"HUMosaicLayoutGeometry\",&,N,V_mosaicLayoutGeometry"
+- "T@\"INIntent\",?,R,N"
+- "T@\"NSArray\",?,R,N"
+- "T@\"NSDictionary\",&,N,V_transitionLargeTitleTextAttributes"
+- "T@\"NSDictionary\",&,N,V_transitionSubviewFrames"
+- "T@\"NSMutableDictionary\",&,N,V_mosaicLayoutDetails"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",?,R,C,N"
+- "T@\"NSString\",R,C"
+- "T@\"NSUUID\",R,N,V_moduleUniqueIdentifier"
+- "T@\"UICollectionViewCell\",W,N,V_pressedTile"
+- "T@\"UILabel\",&,N,V_transitionGridCellHomeNameLabel"
+- "T@\"UILabel\",&,N,V_transitionGridCellRoomNameLabel"
+- "T@\"UILabel\",&,N,V_transitionNavigationHeaderHomeNameLabel"
+- "T@\"UILabel\",&,N,V_transitionNavigationHeaderRoomNameLabel"
+- "T@\"UIView\",&,N,V_animationView"
+- "T@\"UIView\",&,N,V_compressedView"
+- "T@\"UIView\",&,N,V_expandedView"
+- "T@\"UIView\",&,N,V_transitionIconView"
+- "T@\"UIViewController<CCUIContentModuleBackgroundViewController>\",?,R,N"
+- "T@\"UIViewController<CCUIContentModuleContentViewController>\",&,N,V_viewController"
+- "T@\"UIViewController<CCUIContentModuleContentViewController>\",?,R,N"
+- "T@\"UIViewController<HUCCAccessoryControlsHosting>\",W,N,V_accessoryControlsViewController"
+- "T@\"UIViewPropertyAnimator\",?,R,N"
+- "T@\"UIVisualEffectView\",&,N,V_transitionGridCellHomeNameLabelEffectView"
+- "T@\"UIVisualEffectView\",&,N,V_transitionGridCellRoomNameLabelEffectView"
+- "T@\"UIVisualEffectView\",&,N,V_transitionNavigationHeaderHomeNameLabelEffectView"
+- "T@\"UIVisualEffectView\",&,N,V_transitionNavigationHeaderRoomNameLabelEffectView"
+- "T@\"_UIAsyncInvocation\",&,N,V_cancelServiceInvocation"
+- "T@,&,N,V_characteristicRegistrationObject"
+- "T@,&,N,V_homeKitActiveAssertion"
+- "TB,?,N"
+- "TB,?,N,GisPointerInteractionEnabled"
+- "TB,?,N,GisRearranging"
+- "TB,?,N,GisResizing"
+- "TB,?,R,N"
+- "TB,N,GareCellContentsHidden"
+- "TB,N,GisViewVisible,V_viewVisible"
+- "TB,N,V_accessAllowedForCurrentLockState"
+- "TB,N,V_isBoundsChangeUpdate"
+- "TB,N,V_isExpanded"
+- "TB,N,V_isShowingLockSecurity"
+- "TB,N,V_isTransitioningToHomeControlService"
+- "TB,N,V_layoutWasChanged"
+- "TB,N,V_needsLayoutOptionsUpdate"
+- "TB,N,V_numberOfPlaceholdersWasChanged"
+- "TB,N,V_shouldBlockCurrentUserFromHome"
+- "TQ,?,N"
+- "TQ,?,R,N"
+- "TQ,N,V_chosenLayoutType"
+- "TQ,N,V_expandedContentMode"
+- "TQ,N,V_numberOfPlaceholderItems"
+- "TQ,N,V_sizeSubclass"
+- "TQ,R"
+- "TQ,R,N,V_itemType"
+- "Td,?,N"
+- "Td,?,R,N"
+- "Td,N,V_transitionDeviceCornerRadius"
+- "Td,R,N"
+- "Terminating HomeControlService"
+- "The update request contains:"
+- "Ti,N,V_keybagLockStatusNotifyToken"
+- "Timeout trying to load Remote Dashboard View Controller"
+- "Tq,?,N"
+- "Triggered by item updates: ("
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_compressedAnimationStartFrame"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_transitionCompressedViewFrame"
+- "URLHandler"
+- "URLWithString:"
+- "UUID"
+- "UUIDString"
+- "Unable to load Remote Dashboard View Controller"
+- "Unexpected remote view controller: %@"
+- "Unknown"
+- "Unknown item %@"
+- "Updating isPortrait to %{BOOL}d because orientation changed"
+- "Using landscape mosaic layout geometry"
+- "Using mosiac layout geometry for %lu placeholder items: %@"
+- "View was loaded too early in the initialization process. This is bad, because this code is run very early in SpringBoard's boot process"
+- "Vv16@0:8"
+- "YES"
+- "^{_NSZone=}16@0:8"
+- "_TtC23HomeControlCenterModule44HUCCAccessoryControlsContainerViewController"
+- "_TtC23HomeControlCenterModuleP33_E78E13CA31BF412BDE803D878995667019ResourceBundleClass"
+- "_URLHandler"
+- "_accessAllowedForCurrentLockState"
+- "_accessoryControlsViewController"
+- "_activeAssertion"
+- "_addNewRemoteViewController:"
+- "_animationView"
+- "_beginActiveAssertionWithReason:"
+- "_beginDelayingPresentation:cancellationHandler:"
+- "_buildItemProvidersForHome:"
+- "_buildItemProvidersWithoutHome"
+- "_buildSectionsWithDisplayedItems:"
+- "_canShowWhileLocked"
+- "_cancelServiceInvocation"
+- "_cellLayoutOptionsForItem:"
+- "_characteristicRegistrationObject"
+- "_checkForCollectionViewAssertions:"
+- "_chosenLayoutType"
+- "_cleanupTransitionSubviews"
+- "_compressedAnimationStartFrame"
+- "_compressedView"
+- "_configureAndAddRemoteViewController:forHome:"
+- "_contentModuleContext"
+- "_context"
+- "_continuousCornerRadius"
+- "_controlCenterModuleHCFNumberOfColumnsForSizeSubclass:"
+- "_dashboardContainerViewController"
+- "_delegate"
+- "_didFinishUpdateTransactionWithAffectedItems:"
+- "_dispatcher"
+- "_endActiveAssertion:"
+- "_enqueueLayoutOptionsUpdate"
+- "_expandedCellLayoutOptions"
+- "_expandedContentMode"
+- "_expandedView"
+- "_gridLayout"
+- "_hasTapActionForItem:"
+- "_homeCell"
+- "_homeKitActiveAssertion"
+- "_homeNameLabelInHomeGridCellFrame"
+- "_homeNameLabelInNavigationHeaderViewFrame"
+- "_hucc_sizeSubclassSearchOrderForBaseSizeSubclass:"
+- "_iconViewInHomeGridCellFrame"
+- "_iconViewInNavigationHeaderViewFrame"
+- "_isAccessAllowedForCurrentLockState"
+- "_isBoundsChangeUpdate"
+- "_isExpanded"
+- "_isShowingLockSecurity"
+- "_isTransitioningToHomeControlService"
+- "_itemType"
+- "_itemsToHideInSet:"
+- "_keybagLockStatusNotifyToken"
+- "_layoutWasChanged"
+- "_lockSecurityView"
+- "_lockStateHandler"
+- "_modifyAnimationsWithPreferredFrameRateRange:updateReason:animations:"
+- "_moduleUniqueIdentifier"
+- "_mosaicKeyForItem:"
+- "_mosaicLayout"
+- "_mosaicLayoutDelegate"
+- "_mosaicLayoutDetails"
+- "_mosaicLayoutGeometry"
+- "_needsLayoutOptionsUpdate"
+- "_numberOfPlaceholderItems"
+- "_numberOfPlaceholdersWasChanged"
+- "_openHomeApp"
+- "_performItemConsistencyCheckForIndexPaths:withUpdateRequest:"
+- "_performTapActionForItem:"
+- "_performTapActionForItem:tappedArea:"
+- "_predictionsItemProvider"
+- "_predictionsManager"
+- "_preloadItemsForPossiblePresentation"
+- "_prepareTransitionSubviews"
+- "_pressedTile"
+- "_registerKeybagLockStatusNotifications"
+- "_registrationScheduledCancelation"
+- "_remoteDashboardViewController"
+- "_requestRemoteViewControllerForHome:"
+- "_restorePressedTileIfNeeded"
+- "_roomNameLabelInHomeGridCellFrame"
+- "_roomNameLabelInNavigationHeaderViewFrame"
+- "_setContinuousCornerRadius:"
+- "_setUpSmartGridContent"
+- "_shouldBlockCurrentUserFromHome"
+- "_shouldBuildItemProvidersAndModulesForNilHome"
+- "_shouldDisplayHomeControlService"
+- "_shouldShowHomeNameInHomeCell"
+- "_showDashboardControllerForHome:"
+- "_showLockSecurityView:"
+- "_singleCellLayoutOptions"
+- "_sizeSubclass"
+- "_smartGridViewController"
+- "_stopAndRemoveRemoteViewController"
+- "_tearDownSmartGridContent"
+- "_transitionAnimator"
+- "_transitionCompressedViewFrame"
+- "_transitionDeviceCornerRadius"
+- "_transitionGridCellHomeNameLabel"
+- "_transitionGridCellHomeNameLabelEffectView"
+- "_transitionGridCellRoomNameLabel"
+- "_transitionGridCellRoomNameLabelEffectView"
+- "_transitionIconView"
+- "_transitionLargeTitleTextAttributes"
+- "_transitionNavigationHeaderHomeNameLabel"
+- "_transitionNavigationHeaderHomeNameLabelEffectView"
+- "_transitionNavigationHeaderRoomNameLabel"
+- "_transitionNavigationHeaderRoomNameLabelEffectView"
+- "_transitionSubviewFrames"
+- "_unregisterKeybagLockStatusNotifications"
+- "_updateAccessAllowedForLockState"
+- "_updateHomeCell"
+- "_updateLayoutOptions"
+- "_viewController"
+- "_viewVisible"
+- "accessAllowedForCurrentLockState"
+- "accessories"
+- "accessoryControlViewControllerFor:tileItem:completionHandler:"
+- "accessoryControlsViewController"
+- "accessoryRepresentableObject"
+- "activeAssertion"
+- "addAnimations:"
+- "addChildViewController:"
+- "addCompletionBlock:"
+- "addHomeManagerObserver:"
+- "addKeyframeWithRelativeStartTime:relativeDuration:animations:"
+- "addObject:"
+- "addStateSubscriptionReasonToDataModel"
+- "addSubview:"
+- "addSuccessBlock:"
+- "afterDelay:performBlock:"
+- "allDisplayedItems"
+- "allObjects"
+- "allOperations"
+- "allowsCharacteristicNotifications"
+- "alpha"
+- "animateAlongsideTransition:completion:"
+- "animateKeyframesWithDuration:delay:options:animations:completion:"
+- "animationView"
+- "appendBool:withName:"
+- "appendString:withName:"
+- "areCellContentsHidden"
+- "arranger"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObjects:count:"
+- "asGeneric"
+- "authorizeIfLocked"
+- "autorelease"
+- "backgroundDisplayOptions"
+- "backgroundViewController"
+- "backgroundViewControllerForContext:"
+- "baseItem"
+- "beginAppearanceTransition:animated:"
+- "bootstrap"
+- "bounds"
+- "build"
+- "builderWithObject:"
+- "bundleForClass:"
+- "calculateOrderingForItems:"
+- "canDismissPresentedContent"
+- "canDismissQuickControl"
+- "cancel"
+- "cancelInFlightReadRequests"
+- "cancelRegistration:"
+- "cancelScheduledCharacteristicDeregistration"
+- "cancelServiceInvocation"
+- "cancelUpdates"
+- "cellClassForItem:indexPath:"
+- "cellContentsHidden"
+- "cellForItemAtIndexPath:"
+- "cellSize"
+- "cellSizeForItemAtIndexPath:"
+- "cellSpacing"
+- "changes"
+- "characteristicRegistrationObject"
+- "childItemsForItem:ofClass:"
+- "chosenLayoutType"
+- "class"
+- "clearColor"
+- "collectionView"
+- "collectionView:didSelectItemAtIndexPath:"
+- "collectionView:shouldHighlightItemAtIndexPath:"
+- "com.apple.Home.HomeControlService"
+- "compactContinuousCornerRadius"
+- "compare:"
+- "compressedAnimationStartFrame"
+- "compressedView"
+- "configuration"
+- "configureCell:forItem:"
+- "configureHomeControlServiceWithHomeUUID:"
+- "configureWithAccessoryControlViewController:"
+- "conformsToProtocol:"
+- "containerViewsForPlatterTreatment"
+- "contentMetrics"
+- "contentModuleContext"
+- "contentRenderingMode"
+- "contentView"
+- "contentViewController"
+- "contentViewControllerForContext:"
+- "context"
+- "controlCenterDidDismiss"
+- "controlCenterGridLayoutForItemType:sizeSubclass:"
+- "controlCenterLayoutOptionsForViewSize:itemType:"
+- "controlCenterModuleBackgroundMaterial"
+- "controlCenterModuleViewController:didChangeDisplayedItems:"
+- "controlCenterModuleViewController:didStartDisplayingHome:"
+- "controlCenterModuleViewController:moduleDidDisappear:"
+- "controlCenterModuleViewController:moduleWillAppear:"
+- "controlCenterPrimaryVibrancyEffect"
+- "controlCenterSecondaryVibrancyEffect"
+- "controlCenterWillPresent"
+- "controlItems"
+- "controlsWantSystemPresentationAnimations"
+- "copy"
+- "copyWithValueSource:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentContentViewController"
+- "currentDevice"
+- "currentHandler"
+- "customAnimator"
+- "d"
+- "d16@0:8"
+- "d24@0:8Q16"
+- "d24@0:8d16"
+- "dashboardContainerViewController"
+- "data"
+- "dealloc"
+- "debugDescription"
+- "defaultConfigurationIntent"
+- "defaultFontDescriptorWithTextStyle:addingSymbolicTraits:options:"
+- "defaultOptionsForViewSize:"
+- "delegate"
+- "description"
+- "deselectItemAtIndexPath:animated:"
+- "detailViewURLHandlerForPresentationCoordinator:"
+- "detailsViewControllerForPresentationCoordinator:item:"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "didMoveToParentViewController:"
+- "didMoveToSuperview"
+- "didMoveToWindow"
+- "didTransitionToExpandedContentMode:"
+- "diffableItems"
+- "disableNotificationsForSelectedHomeWithReason:"
+- "disconnect"
+- "dismissAccessoryControlsAnimated:completion:"
+- "dismissModule"
+- "dismissPresentedContentAnimated:completion:"
+- "dismissQuickControlAnimated:wasDismissed:"
+- "dismissService"
+- "dismissViewControllerAnimated:completion:"
+- "dispatcher"
+- "displayHome:"
+- "displayWillTurnOff"
+- "displayedItemAtIndexPath:"
+- "doubleValue"
+- "emptyPreviewForGridSize:"
+- "enableNotificationsForSelectedHomeWithReason:numberOfAppleMediaAccessories:"
+- "endAppearanceTransition"
+- "endHomeKitActiveAssertion"
+- "enterModuleViewWillAppear"
+- "executionEnvironmentDidEnterBackground"
+- "executionEnvironmentWillEnterForeground"
+- "exitModuleViewDidDisappear"
+- "expandedCellLayoutOptions"
+- "expandedContentFrame"
+- "expandedContentMode"
+- "expandedView"
+- "expandsGridSizeClassesForAccessibility"
+- "exportedInterface"
+- "finishWithNoResult"
+- "finishWithResult:"
+- "fixedCoordinateSpace"
+- "flatMap:"
+- "font"
+- "fontWithDescriptor:size:"
+- "fontWithSize:"
+- "frame"
+- "fromGroups"
+- "fullDescription"
+- "functionWithControlPoints::::"
+- "futureWithBlock:scheduler:"
+- "futureWithError:"
+- "futureWithErrorOnlyHandlerAdapterBlock:"
+- "futureWithNoResult"
+- "getTransitionSubviewFramesWithCompletion:"
+- "gridSizeClass"
+- "gridSizeForGeometry:withEmptyCells:"
+- "gridSizeMayHaveChanged"
+- "groupIdentifier"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasDetailsActionForPresentationCoordinator:item:"
+- "hash"
+- "hf_characteristicValueManager"
+- "hf_isAppleTV"
+- "hf_isHomePod"
+- "hf_prettyDescription"
+- "hf_shouldBlockCurrentUserFromHome"
+- "hideLockSecurity"
+- "home"
+- "homeCell"
+- "homeKitActiveAssertion"
+- "homeKitActiveAssertionReason"
+- "homeKitDispatcher:manager:didChangeHome:"
+- "homeKitObject"
+- "homeManager"
+- "homeManager:didAddHome:"
+- "homeManager:didReceiveAddAccessoryRequest:"
+- "homeManager:didRemoveHome:"
+- "homeManager:didRemoveHomePermanently:"
+- "homeManager:didUpdateAccessAllowedWhenLocked:"
+- "homeManager:didUpdateAuthorizationStatus:"
+- "homeManager:didUpdateDevices:"
+- "homeManager:didUpdateHH2MigrationAvailableState:"
+- "homeManager:didUpdateHH2MigrationInProgressState:"
+- "homeManager:didUpdateHH2State:"
+- "homeManager:didUpdateHomeSafetySecurityEnabled:"
+- "homeManager:didUpdateLocationSensingAvailability:"
+- "homeManager:didUpdateMultiUserStatus:reason:"
+- "homeManager:didUpdateResidentEnabledForThisDevice:"
+- "homeManager:didUpdateStateForIncomingInvitations:"
+- "homeManager:didUpdateStatus:"
+- "homeManager:didUpdateThisDeviceIsResidentCapable:"
+- "homeManager:residentProvisioningStatusChanged:"
+- "homeManagerDidEndBatchNotifications:"
+- "homeManagerDidFinishInitialDatabaseLoad:"
+- "homeManagerDidFinishUnknownChange:"
+- "homeManagerDidRemoveCurrentAccessory:"
+- "homeManagerDidUpdateApplicationData:"
+- "homeManagerDidUpdateAssistantIdentifiers:"
+- "homeManagerDidUpdateCurrentHome:"
+- "homeManagerDidUpdateDataSyncInProgress:"
+- "homeManagerDidUpdateDataSyncState:"
+- "homeManagerDidUpdateHomes:"
+- "homeManagerDidUpdatePrimaryHome:"
+- "homeManagerWillStartBatchNotifications:"
+- "homes"
+- "hu_frameInGlobalCoordinateSpace"
+- "hu_homeControlServiceXPCInterface"
+- "hu_homeControlXPCInterface"
+- "hu_presentPreloadableViewController:animated:"
+- "hucc_constantForSizeSubclass:"
+- "hucc_objectForSizeSubclass:"
+- "i"
+- "i16@0:8"
+- "iconView"
+- "implicitlyExpandedGridSizeClasses"
+- "indexPathForCell:"
+- "indexPathForItemAtPoint:"
+- "indexPathsForVisibleItems"
+- "init"
+- "initWithBaseItem:"
+- "initWithCCModuleContext:"
+- "initWithCCMosaicType:"
+- "initWithCoder:"
+- "initWithCustomCurve:"
+- "initWithDelegate:"
+- "initWithDelegate:ofKind:withPreviews:"
+- "initWithDelegate:sourceItem:"
+- "initWithDuration:timingParameters:"
+- "initWithEffect:"
+- "initWithFrame:"
+- "initWithHome:"
+- "initWithHome:predictionsController:delegate:predictionLimit:"
+- "initWithHome:predictionsManager:itemLimit:"
+- "initWithIdentifier:"
+- "initWithItemManager:collectionViewLayout:"
+- "initWithItemType:delegate:"
+- "initWithItems:"
+- "initWithMass:stiffness:damping:initialVelocity:"
+- "initWithMosaicLayoutDelegate:"
+- "initWithName:bundle:"
+- "initWithNibName:bundle:"
+- "insertSubview:aboveSubview:"
+- "instancesRespondToSelector:"
+- "interpretsLocationAsContent:inView:"
+- "isAccessAllowedWhenLocked"
+- "isAnIPad"
+- "isBoundsChangeUpdate"
+- "isDeviceUnlocked"
+- "isDeviceUnlockedForControlCenterModuleViewController:"
+- "isDeviceUnlockedForGridViewController:"
+- "isDeviceUnlockedForSmartGridContentViewController:"
+- "isDismissing"
+- "isEqual:"
+- "isExpanded"
+- "isHidden"
+- "isKindOfClass:"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isPointerInteractionEnabled"
+- "isPortrait"
+- "isProxy"
+- "isQuickControlPresented"
+- "isRearranging"
+- "isResizing"
+- "isShowingLockSecurity"
+- "isTransitioningToHomeControlService"
+- "isViewLoaded"
+- "isViewVisible"
+- "item"
+- "itemManager"
+- "itemManager:futureToUpdateItems:itemUpdateOptions:"
+- "itemManager:performUpdateRequest:"
+- "itemManagerDidChangeMosaicLayout:"
+- "itemManagerDidChangeNumberOfPlaceholderItems:"
+- "itemPriority:"
+- "itemSize"
+- "itemType"
+- "itemWithAccessoryRepresentableObject:valueSource:"
+- "keybagLockStatusNotifyToken"
+- "largeTitleTextAttributes"
+- "launchHomeAppForControlCenterModuleViewController:"
+- "launchHomeAppForSmartGridContentViewController:"
+- "launchServiceSuspendedWithUserInfo:"
+- "layoutGeometry"
+- "layoutGeometryIsPortrait:"
+- "layoutOptions"
+- "layoutOptionsClass"
+- "layoutOptionsForViewSize:andMosaicSize:"
+- "layoutSubviews"
+- "layoutWasChanged"
+- "lineHeight"
+- "loadDefaultProviderItem"
+- "loadView"
+- "lockAuthenticationCompleted:"
+- "lockSecurityView"
+- "lockStateHandler"
+- "lockStateWasUpdated:"
+- "mainScreen"
+- "mainThreadScheduler"
+- "mediaProfileContainers"
+- "missing cell layout options for item %@!"
+- "moduleDescription"
+- "moduleLayoutSizeForOrientation:"
+- "moduleUniqueIdentifier"
+- "mosaicDetailsForDisplayedItemAtIndexPath:"
+- "mosaicDetailsForItem:"
+- "mosaicLayout"
+- "mosaicLayoutDelegate"
+- "mosaicLayoutDetails"
+- "mosaicLayoutGeometry"
+- "mosaicType"
+- "mutableCopy"
+- "na_any:"
+- "na_cancelledError"
+- "na_each:"
+- "na_filter:"
+- "na_firstObjectPassingTest:"
+- "na_genericError"
+- "na_map:"
+- "namingComponentForHomeKitObject"
+- "needsLayoutOptionsUpdate"
+- "no"
+- "numberOfColumns"
+- "numberOfPlaceholderItems"
+- "numberOfPlaceholdersWasChanged"
+- "numberOfSections"
+- "numberWithUnsignedInteger:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "occupiedGridSizeForOrientation:"
+- "openURL:"
+- "openURL:completionHandler:"
+- "operationDescription"
+- "packageWithData:type:options:error:"
+- "performBlock:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pointerInteractionEnabled"
+- "pointerRegionMargin"
+- "policyWithDecision:"
+- "predictionsItemProvider"
+- "predictionsManager"
+- "predictionsManagerDidUpdatePredictions:"
+- "preferredControlCenterModuleHeightForViewWidth:"
+- "preferredExpandedContentHeight"
+- "preferredExpandedContentWidth"
+- "preferredExpandedContinuousCornerRadius"
+- "preferredExpandedSize"
+- "preferredFontForTextStyle:"
+- "preferredModalPresentationStyleForPresentationCoordinator:"
+- "preferredSectionHeightForNumberOfServiceRows:spanningColumns:"
+- "prefersExpandedContentSizeMatchesGridSize"
+- "prepareForActionRequiringDeviceUnlockForGridViewController:"
+- "prepareToPerformToggleActionForItem:sourceItem:"
+- "presentAccessoryControlsForItem:"
+- "presentQuickControlWithContext:animated:"
+- "presentationCoordinator:didEndPresentationWithContext:"
+- "presentationCoordinator:shouldBeginInteractivePresentationWithTouchLocation:view:"
+- "presentationCoordinator:shouldBeginPresentationWithContext:"
+- "presentationCoordinatorShouldDisablePullToUnlockSettings:"
+- "presentationCoordinatorWillBeginTransition:presenting:"
+- "presentationCoordinatorWillEndTransition:presenting:"
+- "pressedTile"
+- "previewWithPackage:forGridSize:"
+- "primaryLabel"
+- "promptsForUserConfiguration"
+- "propertyAnimatorDidStartAnimating:"
+- "providesOwnPlatter"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q24@?0@\"HFItem<HFHomeKitItemProtocol>\"8@\"HFItem<HFHomeKitItemProtocol>\"16"
+- "quickControlPresentationCoordinator"
+- "quickControlsPresentationDidUpdate:"
+- "rearranging"
+- "registerForAnalytics"
+- "registerForItems:inHome:currentRegistration:completionBlock:"
+- "registrationScheduledCancelation"
+- "release"
+- "reloadAndUpdateAllItemsFromSenderSelector:"
+- "reloadItems"
+- "remoteDashboard:viewServiceDidTerminateWithError:"
+- "remoteDashboardViewController"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removeStateSubscriptionReasonFromDataModel"
+- "requestAuthenticationIfLockedWithCompletionHandler:"
+- "requestAuthenticationWithCompletionHandler:"
+- "requestDismissal"
+- "requestExpandModule"
+- "requestLayoutSizeUpdate"
+- "requestLockAuthenticationForRemoteDashboard:"
+- "requestViewController:fromServiceWithBundleIdentifier:connectionHandler:"
+- "requestViewControllerWithConnectionHandler:"
+- "requiresUnlockToPerformActionForItem:"
+- "resetFetchedMediaItems"
+- "resetItemProvidersAndModules"
+- "resetToInitialState"
+- "resizing"
+- "resizingDelegate"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rowSpacing"
+- "runningState"
+- "sceneCellOptions"
+- "scheduleCharacteristicDeregistration"
+- "secondaryLabel"
+- "self"
+- "serviceCellOptions"
+- "serviceViewControllerInterface"
+- "serviceViewControllerProxy"
+- "services"
+- "setAccessAllowedForCurrentLockState:"
+- "setAccessoryControlsViewController:"
+- "setActiveAssertion:"
+- "setAdaptive:"
+- "setAlpha:"
+- "setAnimationView:"
+- "setAutoresizingMask:"
+- "setBackgroundColor:"
+- "setCancelServiceInvocation:"
+- "setCellContentsHidden:"
+- "setCellHeight:"
+- "setCellInnerMargin:"
+- "setCellSize:"
+- "setCellSpacing:"
+- "setCharacteristicRegistrationObject:"
+- "setChosenLayoutType:"
+- "setClipsToBounds:"
+- "setColumnSpacing:"
+- "setCompactContinuousCornerRadius:"
+- "setCompressedAnimationStartFrame:"
+- "setCompressedView:"
+- "setConfiguration:"
+- "setConfigurationIntent:"
+- "setContentMetrics:"
+- "setContentModuleContext:"
+- "setContentRenderingMode:"
+- "setDashboardContainerViewController:"
+- "setDelegate:"
+- "setDescriptionFont:"
+- "setDisplayStyle:"
+- "setExpandedCellLayoutOptions:"
+- "setExpandedContentMode:"
+- "setExpandedView:"
+- "setFont:"
+- "setFrame:"
+- "setFrameDelegate:"
+- "setFrameOrigin:"
+- "setGridSize:"
+- "setGridSizeClass:"
+- "setHidden:"
+- "setHomeCell:"
+- "setHomeGestureDismissalAllowed:"
+- "setHomeKitActiveAssertion:"
+- "setIconInnerHorizontalMargin:"
+- "setIconSize:"
+- "setIconToTitleSpacing:"
+- "setIsBoundsChangeUpdate:"
+- "setIsExpanded:"
+- "setIsPortrait:"
+- "setIsShowingLockSecurity:"
+- "setIsTransitioningToHomeControlService:"
+- "setItem:"
+- "setItems:"
+- "setKeybagLockStatusNotifyToken:"
+- "setLayoutOptions:"
+- "setLayoutWasChanged:"
+- "setLineSpacing:"
+- "setLockSecurityView:"
+- "setLockStateHandler:"
+- "setModuleWithIdentifier:subscribedToHome:"
+- "setMosaicLayout:"
+- "setMosaicLayoutDelegate:"
+- "setMosaicLayoutDetails:"
+- "setMosaicLayoutGeometry:"
+- "setNeedsLayoutOptionsUpdate:"
+- "setNumberOfPlaceholderItems:"
+- "setNumberOfPlaceholdersWasChanged:"
+- "setNumberOfTitleLines:"
+- "setObject:forKey:"
+- "setOverrideNumberOfColumns:"
+- "setPointerInteractionEnabled:"
+- "setPointerRegionMargin:"
+- "setPredictionsItemProvider:"
+- "setPredictionsManager:"
+- "setPressedTile:"
+- "setReadPolicy:"
+- "setRearranging:"
+- "setRegistrationScheduledCancelation:"
+- "setRemoteDashboardViewController:"
+- "setResizing:"
+- "setResizingDelegate:"
+- "setRowSpacing:"
+- "setRunningState:"
+- "setSceneCellOptions:"
+- "setScrollEnabled:"
+- "setSecondaryVibrancyEffect:"
+- "setSectionBottomMargin:"
+- "setSectionLeadingMargin:"
+- "setSectionTopMargin:"
+- "setSectionTrailingMargin:"
+- "setServiceCellOptions:"
+- "setShouldBlockCurrentUserFromHome:"
+- "setShouldShowAsEmptyHome:"
+- "setShouldShowHomeName:"
+- "setShowDescription:"
+- "setSingleCellLayoutOptions:"
+- "setSizeSubclass:"
+- "setSmartGridViewController:"
+- "setSpringTimingParameters:"
+- "setStatusBarVisibilityHandler:"
+- "setSuppressesContentTransitions:"
+- "setText:"
+- "setTextColor:"
+- "setTintColor:"
+- "setTitleDescriptionLineSpacing:"
+- "setTitleInterLineSpacing:"
+- "setTransitionAnimator:"
+- "setTransitionCompressedViewFrame:"
+- "setTransitionDeviceCornerRadius:"
+- "setTransitionGridCellHomeNameLabel:"
+- "setTransitionGridCellHomeNameLabelEffectView:"
+- "setTransitionGridCellRoomNameLabel:"
+- "setTransitionGridCellRoomNameLabelEffectView:"
+- "setTransitionIconView:"
+- "setTransitionLargeTitleTextAttributes:"
+- "setTransitionNavigationHeaderHomeNameLabel:"
+- "setTransitionNavigationHeaderHomeNameLabelEffectView:"
+- "setTransitionNavigationHeaderRoomNameLabel:"
+- "setTransitionNavigationHeaderRoomNameLabelEffectView:"
+- "setTransitionSubviewFrames:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setURLHandler:"
+- "setUserVisibilityStatus:"
+- "setVibrancyEffect:"
+- "setView:"
+- "setViewController:"
+- "setViewVisible:"
+- "setWithObjects:"
+- "setWithSet:"
+- "setupHomeKitActiveAssertionIfNeeded"
+- "sharedDispatcher"
+- "sharedInstance"
+- "sharedManager"
+- "shouldBeginTransitionToExpandedContentModule"
+- "shouldBlockCurrentUserFromHome"
+- "shouldBlockCurrentUserFromHome was %{BOOL}d and is now %{BOOL}d - reloading HUCCSmartGridItemManager"
+- "shouldExpandModuleOnTouch:"
+- "shouldFinishTransitionToExpandedContentModule"
+- "shouldOverrideTraitCollectionForPresentationCoordinator:"
+- "shouldPerformClickInteraction"
+- "shouldPerformHoverInteraction"
+- "shouldReduceOptionItemsForNotifyingCharacteristics"
+- "shouldShowAsEmptyHome"
+- "shouldUseCompactContentFrameForExpandedContent"
+- "showLockSecurityWithFrameDelegate:"
+- "singleCellLayoutOptions"
+- "sizeSubclass"
+- "smartGridContentViewController:viewDidDisappear:"
+- "smartGridContentViewController:viewWillAppear:"
+- "smartGridViewController"
+- "snapshotViewAfterScreenUpdates:"
+- "sortDisplayedItemsInSection:"
+- "sortedArrayUsingComparator:"
+- "spacing"
+- "startAnimation"
+- "stopRemoteViewController"
+- "stringWithFormat:"
+- "superclass"
+- "supportedGridSizeClasses"
+- "suppressesContentTransitions"
+- "systemWhiteColor"
+- "text"
+- "traitCollectionForPresentationCoordinator:"
+- "traitCollectionWithUserInterfaceStyle:"
+- "transitionAnimator"
+- "transitionCompressedViewFrame"
+- "transitionDeviceCornerRadius"
+- "transitionGridCellHomeNameLabel"
+- "transitionGridCellHomeNameLabelEffectView"
+- "transitionGridCellRoomNameLabel"
+- "transitionGridCellRoomNameLabelEffectView"
+- "transitionIconView"
+- "transitionLargeTitleTextAttributes"
+- "transitionNavigationHeaderHomeNameLabel"
+- "transitionNavigationHeaderHomeNameLabelEffectView"
+- "transitionNavigationHeaderRoomNameLabel"
+- "transitionNavigationHeaderRoomNameLabelEffectView"
+- "transitionSubviewFrames"
+- "type"
+- "uniqueIdentifier"
+- "unwrappedItemForAccessoryControls:"
+- "updateUIWithAnimation:"
+- "updateUIWithInfoText:andActionText:"
+- "userActionPredictionController"
+- "userInterfaceIdiom"
+- "userVisibilityStatus"
+- "uuid"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v16@?0@\"HMHome\"8"
+- "v16@?0@\"NAPromise\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"UIViewController\"8"
+- "v16@?0@?<v@?@\"NSError\">8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"<HUResizableCellDelegate>\"16"
+- "v24@0:8@\"CCUIContentModuleContext\"16"
+- "v24@0:8@\"CCUIModuleContentMetrics\"16"
+- "v24@0:8@\"HFItem\"16"
+- "v24@0:8@\"HFItemManager\"16"
+- "v24@0:8@\"HFPredictionsManager\"16"
+- "v24@0:8@\"HMHome\"16"
+- "v24@0:8@\"HMHomeManager\"16"
+- "v24@0:8@\"HUCCRemoteDashboardViewController\"16"
+- "v24@0:8@\"HUCCSmartGridContentViewController\"16"
+- "v24@0:8@\"HUCCSmartGridPropertyAnimator\"16"
+- "v24@0:8@\"HUControlCenterModuleViewController\"16"
+- "v24@0:8@\"HUGridCellLayoutOptions\"16"
+- "v24@0:8@\"INIntent\"16"
+- "v24@0:8@\"UIViewController<HUCCAccessoryControlsHosting>\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"_UIRemoteViewController\"8@\"NSError\"16"
+- "v24@?0@8@\"NSError\"16"
+- "v28@0:8@\"HMHomeManager\"16B24"
+- "v28@0:8@\"HUCCSmartGridContentViewController\"16B24"
+- "v28@0:8@\"HUControlCenterModuleViewController\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?>20"
+- "v32@0:8@\"HMHomeManager\"16@\"HMAddAccessoryRequest\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"HMHome\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSArray\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSSet\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSUUID\"24"
+- "v32@0:8@\"HMHomeManager\"16Q24"
+- "v32@0:8@\"HUCCRemoteDashboardViewController\"16@\"NSError\"24"
+- "v32@0:8@\"HUControlCenterModuleViewController\"16@\"HMHome\"24"
+- "v32@0:8@\"HUControlCenterModuleViewController\"16@\"NSSet\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v40@0:8@\"HFHomeKitDispatcher\"16@\"HMHomeManager\"24@\"HMHome\"32"
+- "v40@0:8@\"HFItem<HFAccessoryRepresentableItem>\"16@\"HFItem\"24@?<v@?@\"UIViewController\">32"
+- "v40@0:8@\"HMHomeManager\"16q24@\"NSString\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v40@0:8{CGSize=dd}16@32"
+- "v48@0:8@\"NSSet\"16@\"HMHome\"24@32@?<v@?@>40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "valueSource"
+- "verticalStackView"
+- "view"
+- "viewController"
+- "viewDidAppear:"
+- "viewDidDisappear:"
+- "viewDidLoad"
+- "viewServiceDidTerminateWithError:"
+- "viewVisible"
+- "viewWillAppear:"
+- "viewWillDisappear:"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "visibleCells"
+- "wantsConfigurationIntent"
+- "warmup"
+- "willBeginTransition:forCompactModule:"
+- "willDismissAccessoryControlsViewController:"
+- "willDismissWithViewController:"
+- "willFinishTransition:forCompactModule:"
+- "willMoveToExpandedStateWithAnimationStartFrame:"
+- "willMoveToParentViewController:"
+- "willPresentAccessoryControlsViewController:"
+- "willTransitionToExpandedContentMode:"
+- "window"
+- "yes"
+- "zone"
+- "{?=QQ}16@0:8"
+- "{?=QQ}32@0:8Q16Q24"
+- "{CCUIModuleLayoutSize=QQ}24@0:8q16"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGSize=dd}16@0:8"
+- "{HUGridSize=qq}24@0:8q16"
+
+```

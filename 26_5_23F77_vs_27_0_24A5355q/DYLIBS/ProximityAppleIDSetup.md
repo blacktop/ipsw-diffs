@@ -1,0 +1,921 @@
+## ProximityAppleIDSetup
+
+> `/System/Library/PrivateFrameworks/ProximityAppleIDSetup.framework/ProximityAppleIDSetup`
+
+```diff
+
+-78.475.4.0.0
+-  __TEXT.__text: 0x133ff8
+-  __TEXT.__auth_stubs: 0x1be0
++88.0.0.0.0
++  __TEXT.__text: 0x133838
+   __TEXT.__objc_methlist: 0x93c
+-  __TEXT.__const: 0x13140
+-  __TEXT.__swift5_typeref: 0x4285
++  __TEXT.__const: 0x13210
+   __TEXT.__oslogstring: 0x6901
+-  __TEXT.__swift5_capture: 0xdf8
++  __TEXT.__swift5_typeref: 0x428d
++  __TEXT.__swift5_capture: 0xfd8
+   __TEXT.__cstring: 0x2949
+-  __TEXT.__constg_swiftt: 0x4ed4
++  __TEXT.__constg_swiftt: 0x4ee0
+   __TEXT.__swift5_reflstr: 0x2a01
+   __TEXT.__swift5_fieldmd: 0x352c
+   __TEXT.__swift5_builtin: 0x1f4
+
+   __TEXT.__swift5_types: 0x41c
+   __TEXT.__swift5_mpenum: 0x1c4
+   __TEXT.__swift5_protos: 0x130
+-  __TEXT.__swift_as_entry: 0x658
++  __TEXT.__swift_as_entry: 0x660
+   __TEXT.__swift_as_ret: 0x78c
+-  __TEXT.__unwind_info: 0x6360
+-  __TEXT.__eh_frame: 0xf834
+-  __TEXT.__objc_classname: 0x1600
+-  __TEXT.__objc_methname: 0x2855
+-  __TEXT.__objc_methtype: 0x10cb
+-  __TEXT.__objc_stubs: 0x1560
+-  __DATA_CONST.__got: 0x538
+-  __DATA_CONST.__const: 0x728
++  __TEXT.__swift_as_cont: 0xe14
++  __TEXT.__unwind_info: 0x63a8
++  __TEXT.__eh_frame: 0xf95c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x718
+   __DATA_CONST.__objc_classlist: 0x2c0
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x768
+   __DATA_CONST.__objc_protorefs: 0x48
+-  __AUTH_CONST.__auth_got: 0xdf8
+-  __AUTH_CONST.__const: 0x9148
+-  __AUTH_CONST.__objc_const: 0x9cf8
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x9620
++  __AUTH_CONST.__objc_const: 0xa070
++  __AUTH_CONST.__auth_got: 0xee8
+   __AUTH.__objc_data: 0x1c08
+   __AUTH.__data: 0x6e80
+-  __DATA.__data: 0x3930
+-  __DATA.__bss: 0x19930
++  __DATA.__data: 0x3950
++  __DATA.__bss: 0x196b0
+   __DATA.__common: 0xc0
++  __DATA_DIRTY.__data: 0x80
++  __DATA_DIRTY.__bss: 0x280
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 27C8926B-4ADC-3CBA-8E45-39A9503EAE81
+-  Functions: 7496
+-  Symbols:   2882
+-  CStrings:  1260
++  UUID: FCBFD661-14EB-38D1-9339-DAE13547798D
++  Functions: 7542
++  Symbols:   3333
++  CStrings:  679
+ 
+Symbols:
++ ___swift__destructor
++ ___swift__destructor.29
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.109Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.54Tm
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.58Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ _block_copy_helper.14
++ _block_copy_helper.156
++ _block_copy_helper.162
++ _block_copy_helper.166
++ _block_copy_helper.170
++ _block_copy_helper.176
++ _block_copy_helper.180
++ _block_copy_helper.26
++ _block_copy_helper.34
++ _block_copy_helper.37
++ _block_copy_helper.42
++ _block_copy_helper.46
++ _block_copy_helper.48
++ _block_copy_helper.52
++ _block_copy_helper.56
++ _block_copy_helper.62
++ _block_copy_helper.66
++ _block_copy_helper.70
++ _block_copy_helper.76
++ _block_descriptor.158
++ _block_descriptor.16
++ _block_descriptor.164
++ _block_descriptor.168
++ _block_descriptor.172
++ _block_descriptor.178
++ _block_descriptor.182
++ _block_descriptor.28
++ _block_descriptor.36
++ _block_descriptor.39
++ _block_descriptor.44
++ _block_descriptor.48
++ _block_descriptor.50
++ _block_descriptor.54
++ _block_descriptor.58
++ _block_descriptor.64
++ _block_descriptor.68
++ _block_descriptor.72
++ _block_descriptor.78
++ _block_destroy_helper.15
++ _block_destroy_helper.157
++ _block_destroy_helper.163
++ _block_destroy_helper.167
++ _block_destroy_helper.171
++ _block_destroy_helper.177
++ _block_destroy_helper.181
++ _block_destroy_helper.27
++ _block_destroy_helper.35
++ _block_destroy_helper.38
++ _block_destroy_helper.43
++ _block_destroy_helper.47
++ _block_destroy_helper.49
++ _block_destroy_helper.53
++ _block_destroy_helper.57
++ _block_destroy_helper.63
++ _block_destroy_helper.67
++ _block_destroy_helper.71
++ _block_destroy_helper.77
++ _keypath_get.54Tm
++ _keypath_get.62Tm
++ _keypath_set.63Tm
++ _objc_retainAutorelease
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _symbolic SaySo14FAFamilyMemberCG
++ _symbolic _____3key_yp5valuetSg 21ProximityAppleIDSetup25PASDataExchangeRequestKeyO
++ _symbolic ______yptSg 21ProximityAppleIDSetup25PASDataExchangeRequestKeyO
+- ___unnamed_4
+- _block_copy_helper.15
+- _block_copy_helper.157
+- _block_copy_helper.163
+- _block_copy_helper.167
+- _block_copy_helper.171
+- _block_copy_helper.177
+- _block_copy_helper.181
+- _block_copy_helper.29
+- _block_copy_helper.35
+- _block_copy_helper.40
+- _block_copy_helper.41
+- _block_copy_helper.44
+- _block_copy_helper.53
+- _block_copy_helper.63
+- _block_copy_helper.65
+- _block_copy_helper.69
+- _block_copy_helper.77
+- _block_copy_helper.83
+- _block_descriptor.159
+- _block_descriptor.165
+- _block_descriptor.169
+- _block_descriptor.17
+- _block_descriptor.173
+- _block_descriptor.179
+- _block_descriptor.183
+- _block_descriptor.31
+- _block_descriptor.37
+- _block_descriptor.42
+- _block_descriptor.43
+- _block_descriptor.46
+- _block_descriptor.55
+- _block_descriptor.65
+- _block_descriptor.67
+- _block_descriptor.71
+- _block_descriptor.79
+- _block_descriptor.85
+- _block_destroy_helper.158
+- _block_destroy_helper.16
+- _block_destroy_helper.164
+- _block_destroy_helper.168
+- _block_destroy_helper.172
+- _block_destroy_helper.178
+- _block_destroy_helper.182
+- _block_destroy_helper.30
+- _block_destroy_helper.36
+- _block_destroy_helper.41
+- _block_destroy_helper.42
+- _block_destroy_helper.45
+- _block_destroy_helper.54
+- _block_destroy_helper.64
+- _block_destroy_helper.66
+- _block_destroy_helper.70
+- _block_destroy_helper.78
+- _block_destroy_helper.84
+- _keypath_get.45Tm
+- _keypath_get.53Tm
+- _keypath_set.54Tm
+- _objc_autorelease
+- _objectdestroy.110Tm
+- _objectdestroy.11Tm
+- _objectdestroy.13Tm
+- _objectdestroy.24Tm
+- _objectdestroy.31Tm
+- _objectdestroy.4Tm
+- _objectdestroy.55Tm
+- _objectdestroy.59Tm
+- _objectdestroyTm
+- _swift_bridgeObjectRetain_n
+- _symbolic _____3key_yp5valuet 21ProximityAppleIDSetup25PASDataExchangeRequestKeyO
+- _symbolic ______pSg 10Foundation13CustomNSErrorP
+- _symbolic ______pSg 21ProximityAppleIDSetup22AllowedMetricValueTypeP
+- _symbolic ______pSg 21ProximityAppleIDSetup8PASErrorP
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_analytics"
+- "$__lazy_storage_$_baseStepAnalytics"
+- "$__lazy_storage_$_fetchLock"
+- "$__lazy_storage_$_task"
+- "$defaultActor"
+- ".cxx_destruct"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "AKAnisetteServiceProtocol"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CNKeyDescriptor"
+- "DSIDForAccount:"
+- "IDSServiceDelegate"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "PASFlowResult"
+- "PASSourceFlowResult"
+- "PASTargetFlowResult"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"ACAccount\",N,R"
+- "T@\"FAFamilyMember\",N,R"
+- "T@\"NSDictionary\",N,R"
+- "T@\"NSError\",N,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "TB,N"
+- "TB,R"
+- "TQ,R"
+- "Tq,N,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC21ProximityAppleIDSetup11PASServices"
+- "_TtC21ProximityAppleIDSetup15PASAccountStore"
+- "_TtC21ProximityAppleIDSetup15PASFamilyMember"
+- "_TtC21ProximityAppleIDSetup15PASFeatureFlags"
+- "_TtC21ProximityAppleIDSetup15PASFlowStepBase"
+- "_TtC21ProximityAppleIDSetup15PASLockProvider"
+- "_TtC21ProximityAppleIDSetup15PASProtoAccount"
+- "_TtC21ProximityAppleIDSetup16PASAuthenticator"
+- "_TtC21ProximityAppleIDSetup16PASDeviceContext"
+- "_TtC21ProximityAppleIDSetup17PASAccountContext"
+- "_TtC21ProximityAppleIDSetup17PASDeviceProvider"
+- "_TtC21ProximityAppleIDSetup17PASExtensionCache"
+- "_TtC21ProximityAppleIDSetup17PASExtensionProxy"
+- "_TtC21ProximityAppleIDSetup17PASFlowStepAllSet"
+- "_TtC21ProximityAppleIDSetup18PASAccountProvider"
+- "_TtC21ProximityAppleIDSetup18PASExtensionHandle"
+- "_TtC21ProximityAppleIDSetup19PASAccountWithImage"
+- "_TtC21ProximityAppleIDSetup19PASAnalyticsFactory"
+- "_TtC21ProximityAppleIDSetup19PASExtensionLocator"
+- "_TtC21ProximityAppleIDSetup20PASBiometryEvaluator"
+- "_TtC21ProximityAppleIDSetup20PASExtensionManifest"
+- "_TtC21ProximityAppleIDSetup20PASFlowStepLocalAuth"
+- "_TtC21ProximityAppleIDSetup20PASPickerPresentable"
+- "_TtC21ProximityAppleIDSetup21PASExtensionKitFacade"
+- "_TtC21ProximityAppleIDSetup21PASFlowStepAIDASignIn"
+- "_TtC21ProximityAppleIDSetup21PASSourceFlowStepBase"
+- "_TtC21ProximityAppleIDSetup21PASTargetFlowStepBase"
+- "_TtC21ProximityAppleIDSetup22PASDeviceInfoExchanger"
+- "_TtC21ProximityAppleIDSetup22PASExtensionDevicePair"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepConnectPeer"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepProxiedAuth"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepSourceError"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepSourceStart"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepTargetError"
+- "_TtC21ProximityAppleIDSetup22PASFlowStepTargetStart"
+- "_TtC21ProximityAppleIDSetup22PASHeartbeatController"
+- "_TtC21ProximityAppleIDSetup23PASFlowStepFamilyPicker"
+- "_TtC21ProximityAppleIDSetup23PASFlowStepProxiedTerms"
+- "_TtC21ProximityAppleIDSetup23PASFlowStepRepairFamily"
+- "_TtC21ProximityAppleIDSetup23PASFlowStepSelectPicker"
+- "_TtC21ProximityAppleIDSetup23PASFlowStepSignInResult"
+- "_TtC21ProximityAppleIDSetup23PASSourceFlowController"
+- "_TtC21ProximityAppleIDSetup23PASTargetFlowController"
+- "_TtC21ProximityAppleIDSetup24PASAnisetteDataRequester"
+- "_TtC21ProximityAppleIDSetup24PASFlowStepAllSetContext"
+- "_TtC21ProximityAppleIDSetup24PASFlowStepCheckInternet"
+- "_TtC21ProximityAppleIDSetup24PASFlowStepManateeRepair"
+- "_TtC21ProximityAppleIDSetup25PASExtensionPickedAccount"
+- "_TtC21ProximityAppleIDSetup25PASFlowStepPersonalSignIn"
+- "_TtC21ProximityAppleIDSetup25PASFlowStepSafetySettings"
+- "_TtC21ProximityAppleIDSetup25PASMessageSessionProvider"
+- "_TtC21ProximityAppleIDSetup25PASSourceAppleIDExchanger"
+- "_TtC21ProximityAppleIDSetup25PASTargetAppleIDExchanger"
+- "_TtC21ProximityAppleIDSetup26PASAccountContextExtension"
+- "_TtC21ProximityAppleIDSetup26PASExtensionAuthController"
+- "_TtC21ProximityAppleIDSetup26PASFlowStepSendAuthResults"
+- "_TtC21ProximityAppleIDSetup26PASManateeRepairController"
+- "_TtC21ProximityAppleIDSetup27PASExtensionManifestBuilder"
+- "_TtC21ProximityAppleIDSetup28PASFamilyMemberImageProvider"
+- "_TtC21ProximityAppleIDSetup28PASFlowStepSendSignInResults"
+- "_TtC21ProximityAppleIDSetup29PASFlowStepProtoAccountPicker"
+- "_TtC21ProximityAppleIDSetup29PASFlowStepRepairLocalAccount"
+- "_TtC21ProximityAppleIDSetup30PASFlowStepSendPersonalAccount"
+- "_TtC21ProximityAppleIDSetup30PASFlowStepSendSelectedAccount"
+- "_TtC21ProximityAppleIDSetup31PASAnisetteRemoteRequestHandler"
+- "_TtC21ProximityAppleIDSetup31PASExtensionProvidedViewDetails"
+- "_TtC21ProximityAppleIDSetup31PASFlowStepAllSetContextBuilder"
+- "_TtC21ProximityAppleIDSetup31PASFlowStepSourceAuthentication"
+- "_TtC21ProximityAppleIDSetup31PASPersonalSourceAuthController"
+- "_TtC21ProximityAppleIDSetup31PASTargetAccountOptionsProvider"
+- "_TtC21ProximityAppleIDSetup32PASExtensionPickedAccountBuilder"
+- "_TtC21ProximityAppleIDSetup33PASAccountContextExtensionBuilder"
+- "_TtC21ProximityAppleIDSetup34FACreateChildProxiedAuthController"
+- "_TtC21ProximityAppleIDSetup34PASFlowStepConfirmExistingPasscode"
+- "_TtC21ProximityAppleIDSetup34PASFlowStepExtensionProvidedPicker"
+- "_TtC21ProximityAppleIDSetup34PASFlowStepTargetProtoAccountStart"
+- "_TtC21ProximityAppleIDSetup35FAFamilyMemberProxiedAuthController"
+- "_TtC21ProximityAppleIDSetup36PASFlowStepPasscodeBiometricsRequest"
+- "_TtC21ProximityAppleIDSetup38PASExtensionProvidedViewDetailsBuilder"
+- "_TtC21ProximityAppleIDSetup7PASLock"
+- "_TtC21ProximityAppleIDSetupP33_6B22B88DD3ECBED0D0354FC242B14C8118AuthenticateExtras"
+- "_TtCC21ProximityAppleIDSetup17PASAccountContext12FamilyMember"
+- "_TtCC21ProximityAppleIDSetup17PASAccountContext15ExistingAccount"
+- "_TtCC21ProximityAppleIDSetup17PASAccountContext8Personal"
+- "_TtCO21ProximityAppleIDSetup17PASAnalyticsActor21PASAnalyticsActorType"
+- "_TtP21ProximityAppleIDSetup24PASExtensionInfoProvider_"
+- "_TtP21ProximityAppleIDSetup38PASExtensionAuthenticateExtrasProtocol_"
+- "_accountManager"
+- "_accountProvider"
+- "_accountStore"
+- "_analyticsProvider"
+- "_anisetteDataProvider"
+- "_anisetteProvisioningController"
+- "_authenticator"
+- "_baseStepAnalyticsProvider"
+- "_canAddMembers"
+- "_crossPlatformUnifiedMeContactWithKeysToFetch:error:"
+- "_deviceInfoExchanger"
+- "_deviceProvider"
+- "_extensionCache"
+- "_facade"
+- "_familyMembers"
+- "_featureFlags"
+- "_featureFlagsProvider"
+- "_finished"
+- "_isNetworkReachable"
+- "_lockProvider"
+- "_messageSessionProvider"
+- "_messageSessionStatus"
+- "_nextStep"
+- "_presentCancelAlert"
+- "_presentResetAlert"
+- "_presentSheet"
+- "_presentables"
+- "_reachabilityProvider"
+- "_selectedMember"
+- "_selectedPresentable"
+- "_setPassword:"
+- "_setProxyingForApp:"
+- "_sourceAppleIDExchanger"
+- "_sourceDevice"
+- "_sourceDeviceContext"
+- "_targetAccount"
+- "_targetAccountContext"
+- "_targetAccountOptions"
+- "_targetAccountOptionsProvider"
+- "_targetAppleIDExchanger"
+- "_targetDevice"
+- "_targetDeviceContext"
+- "aa_altDSID"
+- "aa_firstName"
+- "aa_formattedUsername"
+- "aa_lastName"
+- "aa_primaryAppleAccountWithCompletion:"
+- "acAccount"
+- "account"
+- "accountManager"
+- "accountPropertyForKey:"
+- "accountProvider"
+- "accountStore"
+- "accountTypeWithAccountTypeIdentifier:"
+- "accountUsername"
+- "accountsWithAccountTypeIdentifiers:completion:"
+- "activate"
+- "addDelegate:withDelegateProperties:queue:"
+- "age"
+- "akDeviceProvider"
+- "altDSID"
+- "altDSIDForAccount:"
+- "anisetteController"
+- "anisetteDataProvider"
+- "anisetteDataWithCompletion:"
+- "appleID"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "authController"
+- "authControllerResult"
+- "authKitAccountWithAltDSID:"
+- "authKitAccountWithAltDSID:error:"
+- "authModes"
+- "authenticateWithAccount:with:completion:"
+- "authenticateWithContext:completion:"
+- "autorelease"
+- "base"
+- "biometryType"
+- "bundleForClass:"
+- "bundleWithIdentifier:"
+- "canAddMembers"
+- "canEvaluatePolicy:error:"
+- "cancellables"
+- "capabilities"
+- "cdpContextProvider"
+- "class"
+- "code"
+- "companionDevice"
+- "conformsToProtocol:"
+- "contentVersion"
+- "context"
+- "contextForPrimaryAccount"
+- "copyWithZone:"
+- "credentialForAccount:error:"
+- "currentDevice"
+- "currentStep"
+- "currentTask"
+- "dataSource"
+- "dataStore"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeInt32ForKey:"
+- "decodeIntegerForKey:"
+- "decoder"
+- "defaultStore"
+- "delegate"
+- "description"
+- "destinationIdentifier"
+- "deviceProvider"
+- "deviceWithSerializedData:"
+- "dictionary"
+- "didPerformLocalAuthenticationWithCompletion:"
+- "dispatchQueue"
+- "domain"
+- "elapsed"
+- "encodeBool:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encoder"
+- "eraseAnisetteWithCompletion:"
+- "eraseWithCompletion:"
+- "eventChecker"
+- "eventNameComponent"
+- "eventNamePrefix"
+- "execute"
+- "executeQuery:completionHandler:"
+- "extensionProvider"
+- "familyMemberSelection"
+- "familyNameForAccount:"
+- "fetchAnisetteDataAndProvisionIfNecessary:withCompletion:"
+- "fetchAttestationDataForRequestData:completion:"
+- "fetchExtrasWithCompletion:"
+- "fetchManifestWithCompletion:"
+- "fetchPeerAttestationDataForRequest:completion:"
+- "fetchViewDetailsWithDevicePair:completion:"
+- "firstName"
+- "flowEnded"
+- "flowWithBundle:"
+- "formattedUsernameFromUsername:"
+- "generatedContext"
+- "givenNameForAccount:"
+- "hash"
+- "hashedDSID"
+- "heartbeatController"
+- "helperProvider"
+- "identifier"
+- "identity"
+- "imageColor"
+- "incomingResponseIdentifier"
+- "init"
+- "initWithAccount:"
+- "initWithAccountStore:"
+- "initWithAuthenticationResults:"
+- "initWithCoder:"
+- "initWithContext:"
+- "initWithDictionary:"
+- "initWithDictionaryRepresentation:"
+- "initWithExtensionPointIdentifier:"
+- "initWithFamilyMemberHashedDSID:size:localFallback:"
+- "initWithInteger:"
+- "initWithString:"
+- "initWithTemplate:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isAlive"
+- "isChildAccount"
+- "isEnabledForDataclass:"
+- "isEqual:"
+- "isGuardian"
+- "isKindOfClass:"
+- "isLocked"
+- "isMe"
+- "isMemberOfClass:"
+- "isNetworkReachable"
+- "isProxy"
+- "isSignInForSelfSupported"
+- "lastName"
+- "legacyAnisetteDataForDSID:withCompletion:"
+- "localAccount"
+- "localizedDescription"
+- "locatedExtension"
+- "machineID"
+- "manateeRepairController"
+- "markAllPropertiesDirty"
+- "memberType"
+- "members"
+- "messageSession"
+- "messageSessionProvider"
+- "name"
+- "nextFlowStep"
+- "noInternetResult"
+- "notifyExtensionsAboutFlowCompletionTask"
+- "objectForKey:"
+- "oneTimePassword"
+- "outgoingResponseIdentifier"
+- "parameters"
+- "passwordDataSource"
+- "performRequestWithHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "personalAccount"
+- "photoData"
+- "portableCopy"
+- "presenter"
+- "privacyBundleProvider"
+- "protoAccount"
+- "proto_ageRange"
+- "proto_givenName"
+- "provisionAnisetteWithCompletion:"
+- "provisionWithCompletion:"
+- "proxy"
+- "q16@0:8"
+- "registerRequestID:options:handler:"
+- "registered"
+- "relativeName"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeAccount:withCompletionHandler:"
+- "removeDelegate:"
+- "renewCredentialsForAccount:options:completion:"
+- "representation"
+- "representationForPrimaryAccount"
+- "requiresCDP"
+- "resetDeviceIdentityWithCompletion:"
+- "respondsToSelector:"
+- "responseMap"
+- "responseTimeout"
+- "result"
+- "resume"
+- "retain"
+- "retainCount"
+- "routingInfo"
+- "saveAccount:withCompletionHandler:"
+- "selectedAccount"
+- "selectedFamilyMember"
+- "self"
+- "sendFunction"
+- "sendMessage:toDestinations:priority:options:identifier:error:"
+- "sendRequestID:options:request:responseHandler:"
+- "serializedData"
+- "service"
+- "service:account:didReceiveLocalNetworkHandshake:fromID:context:"
+- "service:account:identifier:didSendWithSuccess:error:"
+- "service:account:identifier:didSendWithSuccess:error:context:"
+- "service:account:identifier:fromID:hasBeenDeliveredWithContext:"
+- "service:account:identifier:hasBeenDeliveredWithContext:"
+- "service:account:identifier:sentBytes:totalBytes:"
+- "service:account:incomingData:fromID:context:"
+- "service:account:incomingMessage:fromID:context:"
+- "service:account:incomingOpportunisticData:withIdentifier:fromID:context:"
+- "service:account:incomingPendingMessageOfType:fromID:context:"
+- "service:account:incomingResourceAtURL:fromID:context:"
+- "service:account:incomingResourceAtURL:metadata:fromID:context:"
+- "service:account:incomingUnhandledProtobuf:fromID:context:"
+- "service:account:inviteDroppedForSessionID:fromID:context:error:"
+- "service:account:inviteReceivedForSession:fromID:"
+- "service:account:inviteReceivedForSession:fromID:withContext:"
+- "service:account:inviteReceivedForSession:fromID:withOptions:"
+- "service:account:pendingResourceWithMetadata:fromID:acknowledgementBlock:context:"
+- "service:account:receivedGroupSessionParticipantDataUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:context:"
+- "service:activeAccountsChanged:"
+- "service:connectedDevicesChanged:"
+- "service:devicesChanged:"
+- "service:didCancelMessageWithSuccess:error:identifier:"
+- "service:didSendOpportunisticDataWithIdentifier:toIDs:"
+- "service:didSwitchActivePairedDevice:acknowledgementBlock:"
+- "service:linkedDevicesChanged:"
+- "service:nearbyDevicesChanged:"
+- "serviceAllowedTrafficClassifiersDidReset:"
+- "serviceOwnersManager"
+- "serviceSpaceDidBecomeAvailable:"
+- "services"
+- "servicesUsingAccount:"
+- "setAccountType:"
+- "setAltDSID:"
+- "setAnisetteDataProvider:"
+- "setAnticipateEscrowAttempt:"
+- "setAppProvidedContext:"
+- "setAuthenticationResults:"
+- "setAuthenticationType:"
+- "setCachePolicy:"
+- "setCompanionDevice:"
+- "setCredential:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setIdmsDataToken:"
+- "setInterface:forSelector:argumentIndex:ofReply:"
+- "setInvalidationHandler:"
+- "setIsUsernameEditable:"
+- "setLinkType:"
+- "setMachineID:"
+- "setNeedsNewChildAccount:"
+- "setObject:forKey:"
+- "setOneTimePassword:"
+- "setOperationUIPermissions:"
+- "setPasswordlessToken:"
+- "setPrivacyBundleVersion:"
+- "setProtoAccountContext:"
+- "setProxiedDevice:"
+- "setRemoteObjectInterface:"
+- "setRoutingInfo:"
+- "setServerFriendlyDescription:"
+- "setServiceType:"
+- "setSharingChannel:"
+- "setShouldAllowAppleIDCreation:"
+- "setShouldForceOperation:"
+- "setShouldOfferSecurityUpgrade:"
+- "setShouldUpdatePersistentServiceTokens:"
+- "setSupportsSecureCoding:"
+- "setUniqueDeviceIdentifier:"
+- "setUsername:"
+- "setWantsCrossAccountMessaging:"
+- "sharedInstance"
+- "sharedNetworkObserver"
+- "shouldDisplayToUser"
+- "shouldPerformLocalAuthenticationWithCompletion:"
+- "shouldSignInForSelf"
+- "showPrivacyDisclosureOnSourceDevice"
+- "signInSucceededWithAccount:completion:"
+- "signInToAllServicesInBackgroundUsingContext:completion:"
+- "standardUserDefaults"
+- "startCircleApplicationApprovalServer:"
+- "startRequestWithCompletionHandler:"
+- "startTime"
+- "stopTask"
+- "stringValue"
+- "subtitle"
+- "superclass"
+- "supportedAuthModes"
+- "supportsSecureCoding"
+- "syncAnisetteWithSIMData:completion:"
+- "syncWithSIMData:completion:"
+- "systemImage"
+- "takeValuesFromModifiedAccount:"
+- "targetAccount"
+- "targetAccountOptionsProvider"
+- "targetDeviceKey"
+- "termsHandler"
+- "thumbnailImageData"
+- "timer"
+- "title"
+- "transportableAuthKitAccount:"
+- "uniqueDeviceIdentifier"
+- "userAgeRangeForAccount:"
+- "username"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"IDSService\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"<AKAnisetteServiceProtocol>\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"_TtC21ProximityAppleIDSetup20PASExtensionManifest\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
+- "v24@?0@\"AKAnisetteData\"8@\"NSError\"16"
+- "v24@?0@\"AKAttestationData\"8@\"NSError\"16"
+- "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"_TtC21ProximityAppleIDSetup20PASExtensionManifest\"8@\"NSError\"16"
+- "v24@?0@\"_TtC21ProximityAppleIDSetup31PASExtensionProvidedViewDetails\"8@\"NSError\"16"
+- "v24@?0q8@\"NSError\"16"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?@\"AKAnisetteData\"@\"NSError\">20"
+- "v28@?0i8@\"NSDictionary\"12@\"NSDictionary\"20"
+- "v32@0:8@\"AKAttestationRequestData\"16@?<v@?@\"AKBAAAttestationData\"@\"NSError\">24"
+- "v32@0:8@\"IDSService\"16@\"NSArray\"24"
+- "v32@0:8@\"IDSService\"16@\"NSSet\"24"
+- "v32@0:8@\"NSData\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"AKAnisetteData\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSURLRequest\"16@?<v@?@\"AKAttestationData\"@\"NSError\">24"
+- "v32@0:8@\"_TtC21ProximityAppleIDSetup22PASExtensionDevicePair\"16@?<v@?@\"_TtC21ProximityAppleIDSetup31PASExtensionProvidedViewDetails\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@?0@\"AARequest\"8@\"AAResponse\"16@\"NSError\"24"
+- "v32@?0@\"NSData\"8Q16@\"NSError\"24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?i@\"NSDictionary\"@\"NSDictionary\">24"
+- "v40@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32"
+- "v40@0:8@\"IDSService\"16@\"IDSDevice\"24@?<v@?>32"
+- "v40@0:8@\"IDSService\"16@\"NSString\"24@\"NSArray\"32"
+- "v40@0:8@\"_TtC21ProximityAppleIDSetup25PASExtensionPickedAccount\"16@\"AKAppleIDAuthenticationContext\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@\"IDSService\"16B24@\"NSError\"28@\"NSString\"36"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32@\"IDSMessageContext\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@40"
+- "v48@0:8@16@24@32@40"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24B32@\"NSString\"36@\"NSData\"44"
+- "v52@0:8@16@24@32B40@44"
+- "v52@0:8@16@24B32@36@44"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSProtobuf\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSData\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSDictionary\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32q40q48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24q32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32q40q48"
+- "v56@0:8@16@24q32@40@48"
+- "v60@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44@\"IDSMessageContext\"52"
+- "v60@0:8@16@24@32B40@44@52"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@?<v@?B>48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@\"NSData\"48@\"NSError\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSDictionary\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@16@24@32@40@48@56"
+- "v64@0:8@16@24@32@40@?48@56"
+- "v8@?0"
+- "xpcConnectionBuilder"
+- "zone"
+
+```

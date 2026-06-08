@@ -1,0 +1,680 @@
+## HeadGestures
+
+> `/System/Library/PrivateFrameworks/HeadGestures.framework/HeadGestures`
+
+```diff
+
+ 40.0.0.0.0
+-  __TEXT.__text: 0x4334c
+-  __TEXT.__auth_stubs: 0x1700
++  __TEXT.__text: 0x42cf0
+   __TEXT.__objc_methlist: 0x8c4
+-  __TEXT.__const: 0x2eb0
+-  __TEXT.__cstring: 0xf97
++  __TEXT.__const: 0x2ee0
++  __TEXT.__cstring: 0xfa7
+   __TEXT.__oslogstring: 0x1105
+   __TEXT.__constg_swiftt: 0x23a4
+-  __TEXT.__swift5_typeref: 0x1526
++  __TEXT.__swift5_typeref: 0x1554
+   __TEXT.__swift5_reflstr: 0x146c
+   __TEXT.__swift5_fieldmd: 0x13c4
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_assocty: 0x180
+-  __TEXT.__swift5_capture: 0x488
++  __TEXT.__swift5_capture: 0x4e8
+   __TEXT.__swift5_proto: 0x198
+   __TEXT.__swift5_types: 0x174
+   __TEXT.__swift_as_entry: 0x24
++  __TEXT.__swift_as_cont: 0x40
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0xe18
+-  __TEXT.__eh_frame: 0xa60
+-  __TEXT.__objc_classname: 0xa66
+-  __TEXT.__objc_methname: 0x2414
+-  __TEXT.__objc_methtype: 0x3e0
+-  __TEXT.__objc_stubs: 0x11c0
+-  __DATA_CONST.__got: 0x420
++  __TEXT.__unwind_info: 0xe28
++  __TEXT.__eh_frame: 0xa68
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1a0
+   __DATA_CONST.__objc_classlist: 0x1b0
+   __DATA_CONST.__objc_protolist: 0x38
+
+   __DATA_CONST.__objc_selrefs: 0x5f0
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xb88
+-  __AUTH_CONST.__const: 0x25f0
++  __DATA_CONST.__got: 0x430
++  __AUTH_CONST.__const: 0x26e0
+   __AUTH_CONST.__cfstring: 0x40
+   __AUTH_CONST.__objc_const: 0x3930
++  __AUTH_CONST.__auth_got: 0xc40
+   __AUTH.__objc_data: 0x1590
+   __AUTH.__data: 0x2ac8
+   __DATA.__objc_ivar: 0x38
+-  __DATA.__data: 0xd70
++  __DATA.__data: 0xd88
+   __DATA.__bss: 0x2cf0
+   __DATA.__common: 0x250
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C9042077-681B-3D73-8476-9EFE30349389
+-  Functions: 1443
+-  Symbols:   1374
+-  CStrings:  698
++  UUID: ADDFA524-E314-3D6F-A647-7CD11E0AEA51
++  Functions: 1461
++  Symbols:   1522
++  CStrings:  206
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.69Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_HeadGestures
++ _block_copy_helper.30
++ _block_copy_helper.48
++ _block_copy_helper.54
++ _block_descriptor.32
++ _block_descriptor.50
++ _block_descriptor.56
++ _block_destroy_helper.31
++ _block_destroy_helper.49
++ _block_destroy_helper.55
++ _objc_claimAutoreleasedReturnValue
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic SSSg5label_yp5valuetSg
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic _____y_____G s15EmptyCollectionV s5UInt8V
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_HeadGestures
+- _block_copy_helper.31
+- _block_copy_helper.45
+- _block_copy_helper.49
+- _block_descriptor.33
+- _block_descriptor.47
+- _block_descriptor.51
+- _block_destroy_helper.32
+- _block_destroy_helper.46
+- _block_destroy_helper.50
+- _objectdestroy.25Tm
+- _objectdestroy.66Tm
+CStrings:
++ "main"
+- "#16@0:8"
+- "$__lazy_storage_$_kVolumeStep"
+- "$__lazy_storage_$_lastPartialGestureVolume"
+- "$defaultActor"
+- ".cxx_destruct"
+- "?"
+- "@\"HGAudioFeedbackConfiguration\""
+- "@\"HGAudioFeedbackConfigurationInternal\""
+- "@\"HGConfiguration\""
+- "@\"HGConfigurationInternal\""
+- "@\"HGMLConfiguration\""
+- "@\"HGMLConfigurationInternal\""
+- "@\"HGManagerInternal\""
+- "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
+- "@\"NSDate\""
+- "@\"NSNumber\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSUUID\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@28@0:8B16B20I24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8^v16^@24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8^v16@24^@32"
+- "@64@0:8@16@24@32@40@48@56"
+- "AccelerationX"
+- "AccelerationY"
+- "AccelerationZ"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CMHeadphoneMotionManagerDelegate"
+- "HGAudioFeedbackConfiguration"
+- "HGAudioFeedbackConfigurationInternal"
+- "HGConfiguration"
+- "HGConfigurationInternal"
+- "HGHeadGestureResult"
+- "HGHeadGesturesDelegateInternal"
+- "HGMLConfiguration"
+- "HGMLConfigurationInternal"
+- "HGManager"
+- "HGManagerInternal"
+- "I"
+- "I16@0:8"
+- "MLFeatureProvider"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "RotationX"
+- "RotationY"
+- "RotationZ"
+- "T#,R"
+- "T@\"HGAudioFeedbackConfiguration\",&,N,V_audioFeedbackConfig"
+- "T@\"HGAudioFeedbackConfigurationInternal\",&,N,V_internal"
+- "T@\"HGAudioFeedbackConfigurationInternal\",N,&,VaudioFeedbackConfig"
+- "T@\"HGAudioFeedbackConfigurationInternal\",N,R"
+- "T@\"HGConfiguration\",&,N,V_configuration"
+- "T@\"HGConfigurationInternal\",&,N,V_internal"
+- "T@\"HGConfigurationInternal\",N,&,Vconfiguration"
+- "T@\"HGConfigurationInternal\",N,R"
+- "T@\"HGMLConfiguration\",&,N,V_mlConfig"
+- "T@\"HGMLConfigurationInternal\",&,N,V_internal"
+- "T@\"HGMLConfigurationInternal\",N,&,VmlConfig"
+- "T@\"HGMLConfigurationInternal\",N,R"
+- "T@\"HGManagerInternal\",R,V_internal"
+- "T@\"NSDate\",C,N,V_timestamp"
+- "T@\"NSNumber\",C,N,V_avgConfidence"
+- "T@\"NSSet\",N,C"
+- "T@\"NSSet\",N,R"
+- "T@\"NSSet\",R,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSUUID\",C,N,V_uuid"
+- "TB,N"
+- "TB,N,V_muteAudioFeedback"
+- "TB,N,V_requestPartGestures"
+- "TB,N,VenableAudioFeedback"
+- "TB,N,VenableRawDataLogging"
+- "TB,N,VinvertedConfirmationAudioFeedbackMode"
+- "TB,N,VrequestPartGestures"
+- "TB,N,VsingleDelivery"
+- "TI,N"
+- "TI,N,VaudioSessionID"
+- "TQ,N,V_headGesture"
+- "TQ,N,V_headGesturePart"
+- "TQ,R"
+- "Tf,N,VgesturePartAcceptableNodVelocity"
+- "Tf,N,VgesturePartAcceptableShakeVelocity"
+- "Tf,N,VgesturePartRepeatTimeout"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC12HeadGestures10E5RTIOPort"
+- "_TtC12HeadGestures10HGDefaults"
+- "_TtC12HeadGestures10HGFileUtil"
+- "_TtC12HeadGestures10HGMLOutput"
+- "_TtC12HeadGestures12StreamReader"
+- "_TtC12HeadGestures13HGAudioPlayer"
+- "_TtC12HeadGestures15HGDataCollector"
+- "_TtC12HeadGestures15HGDataRegulator"
+- "_TtC12HeadGestures16E5RTBufferObject"
+- "_TtC12HeadGestures17HGEspressoV1Model"
+- "_TtC12HeadGestures17HGEspressoV2Model"
+- "_TtC12HeadGestures17MotionTransformer"
+- "_TtC12HeadGestures18HGFileDataProvider"
+- "_TtC12HeadGestures19E5RTExecutionStream"
+- "_TtC12HeadGestures19HGSystemAudioPlayer"
+- "_TtC12HeadGestures20E5RTTensorDescriptor"
+- "_TtC12HeadGestures20HGMotionDataProvider"
+- "_TtC12HeadGestures22HGCoreAnalyticsManager"
+- "_TtC12HeadGestures22HGPredictionAggregator"
+- "_TtC12HeadGestures22MotionTransformerInput"
+- "_TtC12HeadGestures23HGConfirmationRegulator"
+- "_TtC12HeadGestures23HGCustomizedAudioPlayer"
+- "_TtC12HeadGestures23HGMotionStateRecognizer"
+- "_TtC12HeadGestures23HGPartGestureRecognizer"
+- "_TtC12HeadGestures23MotionTransformerOutput"
+- "_TtC12HeadGestures26HGMLHeadGesturesClassifier"
+- "_TtC12HeadGestures27HGBuiltinMotionDataProvider"
+- "_TtC12HeadGestures28E5RTExecutionStreamOperation"
+- "_TtC12HeadGestures28E5RTTensorDescriptorDataType"
+- "_TtC12HeadGestures29HGHeadphoneMotionDataProvider"
+- "_TtC12HeadGestures29HGPartialGestureAudioProgress"
+- "_TtC12HeadGestures32HGHeuristicHeadGestureRecognizer"
+- "_TtC12HeadGestures8FooModel"
+- "_TtC12HeadGestures8HGBuffer"
+- "_TtC12HeadGestures9HGMLInput"
+- "_TtC12HeadGestures9HGSession"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager13HGCAStopEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager14HGCAStartEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager21HGCASamplingRateEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager25HGCAGestureDetectionEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager25HGCAInterpolatedDataEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager27HGCAMotionDataReceivedEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager27HGCAPipelineResetEventEvent"
+- "_TtCC12HeadGestures22HGCoreAnalyticsManager9HGCAEvent"
+- "_TtCC12HeadGestures8FooModel23FooModelFeatureProvider"
+- "_audioFeedbackConfig"
+- "_avgConfidence"
+- "_configuration"
+- "_enableWaitingTone"
+- "_headGesture"
+- "_headGesturePart"
+- "_internal"
+- "_isFreeToStop"
+- "_isStreamingData"
+- "_mlConfig"
+- "_muteAudioFeedback"
+- "_requestPartGestures"
+- "_timestamp"
+- "_uuid"
+- "accelX"
+- "accelY"
+- "accelZ"
+- "addObserver:selector:name:object:"
+- "aggregator"
+- "assetManager"
+- "atEof"
+- "attachNode:"
+- "attitude"
+- "audioConfig"
+- "audioEngine"
+- "audioFeedbackConfig"
+- "audioFeedbackForGesture"
+- "audioFeedbackForPartGesture"
+- "audioPlayer"
+- "audioSessionID"
+- "autorelease"
+- "avgConfidence"
+- "backgroundAudioNode"
+- "boolForKey:"
+- "buffer"
+- "bundleForClass:"
+- "bundlePath"
+- "caManager"
+- "channelCount"
+- "chunkSize"
+- "class"
+- "cleanupTask"
+- "client"
+- "closeAndReturnError:"
+- "closeFile"
+- "cmMotionManager"
+- "config"
+- "configuration"
+- "confirmationRegulator"
+- "confirmedResultPublisher"
+- "confirmedResultRegulatorPublisher"
+- "confirmedResultSubject"
+- "confirmedResultTask"
+- "conformsToProtocol:"
+- "connect:to:format:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "currentSamplingRate"
+- "dealloc"
+- "debugDescription"
+- "defaultAudioConfiguration"
+- "defaultCenter"
+- "defaultConfig"
+- "defaultEmptyMLConfiguration"
+- "defaultMLConfiguration"
+- "defaultManager"
+- "defaultTestMLConfiguration"
+- "defaults"
+- "delegate"
+- "delimData"
+- "description"
+- "detectedGesture"
+- "dictionary"
+- "dictionaryValue"
+- "didDetectedError"
+- "didDetectedWithHeadGesture:"
+- "didStartStreamingWithIsStreaming:"
+- "doubleForKey:"
+- "enableAudioFeedback"
+- "enableAudioFeedbackForGestureWithGesture:enable:"
+- "enableAudioFeedbackForHeadGesture:toEnable:"
+- "enableAudioFeedbackForHeadGesturePart:toEnable:"
+- "enableAudioFeedbackForPartGestureWithPart:enable:"
+- "enableRawDataLogging"
+- "enableWaitingTone"
+- "encoding"
+- "environmentNode"
+- "events"
+- "executionStream"
+- "f"
+- "f16@0:8"
+- "fadingStep"
+- "fadingTask"
+- "featureNames"
+- "featureValueForName:"
+- "featureValueWithDictionary:error:"
+- "featureValueWithMultiArray:"
+- "featureValueWithString:"
+- "fileExistsAtPath:"
+- "fileHandle"
+- "fileHandleForWritingAtPath:"
+- "fileName"
+- "filterUnrelatedMotion"
+- "floatForKey:"
+- "format"
+- "gestureChangeTimeout"
+- "gestureContinuationTimeout"
+- "gestureForThePool"
+- "gesturePartAcceptableNodVelocity"
+- "gesturePartAcceptableShakeVelocity"
+- "gesturePartNodVelocity"
+- "gesturePartRepeatTimeout"
+- "gesturePartShakeVelocity"
+- "handleAudioEngineConfigurationChangeWithNotification:"
+- "handleInterruptionWithNotification:"
+- "hash"
+- "headGesture"
+- "headGestureAudioNode"
+- "headGesturePart"
+- "headGesturesTask"
+- "headphoneConnected"
+- "headphoneMotionManagerDidConnect:"
+- "headphoneMotionManagerDidDisconnect:"
+- "heuristicRecognizer"
+- "id"
+- "impatientStart"
+- "init"
+- "initDescriptionOnlyWithSpecification:configuration:error:"
+- "initForReading:error:"
+- "initInterfaceAndMetadataWithCompiledArchive:error:"
+- "initStandardFormatWithSampleRate:channelLayout:"
+- "initStandardFormatWithSampleRate:channels:"
+- "initWithConfiguration:"
+- "initWithContentsOfURL:error:"
+- "initWithDelegate:config:"
+- "initWithDescription:"
+- "initWithDescription:configuration:"
+- "initWithDictionary:error:"
+- "initWithEnableAudioFeedback:enableWaitingTone:audioSessionID:"
+- "initWithLayoutTag:"
+- "initWithML:audioFeedbackConfig:"
+- "initWithMlConfig:audioFeedbackConfig:requestPartGestures:"
+- "initWithName:inputDescription:outputDescription:orderedInputFeatureNames:orderedOutputFeatureNames:configuration:"
+- "initWithPCMFormat:frameCapacity:"
+- "initWithSuiteName:"
+- "inputBuffers"
+- "inputDescriptionsByName"
+- "integerForKey:"
+- "integerValue"
+- "intepolationAmount"
+- "internal"
+- "invertedConfirmationAudioFeedbackMode"
+- "isDeviceMotionActive"
+- "isDeviceMotionAvailable"
+- "isEqual:"
+- "isGateOpen"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRunning"
+- "kConfirmationArrivalDiff"
+- "kConfirmationMaxDelay"
+- "kConfirmationMinDelay"
+- "kProgressSteps"
+- "kStartVolume"
+- "lastGesturePartRecognized"
+- "lastGesturePartRecognizedAt"
+- "lastMotionState"
+- "lastPartialGesture"
+- "lastPartialGestureTime"
+- "lastReceivedCMDeviceMotion"
+- "length"
+- "localizedDescription"
+- "lock"
+- "mainBundle"
+- "mainMixerNode"
+- "mainRunLoop"
+- "maxNumBackgroundPredictionsNod"
+- "maxNumBackgroundPredictionsShake"
+- "metadata"
+- "minGateOpenConfScoreThresholdNod"
+- "minGateOpenConfScoreThresholdShake"
+- "minGestureConfScoreThresholdNod"
+- "minGestureConfScoreThresholdShake"
+- "minTimeBetweenPoolsNod"
+- "minTimeBetweenPoolsShake"
+- "mlConfig"
+- "mlModel"
+- "mlRecognizer"
+- "model"
+- "modelDescription"
+- "modelType"
+- "modelWithContentsOfURL:configuration:error:"
+- "motionDataProvider"
+- "motionDataPublisher"
+- "motionDataSubject"
+- "motionLastPoolClosed"
+- "motionList"
+- "motionStateRecognizer"
+- "motionStatusTask"
+- "multiArrayConstraint"
+- "multiArrayValue"
+- "muteAudioFeedback"
+- "muteAudioFeedbackWithSetting:"
+- "numConsecutivePredictionsNod"
+- "numConsecutivePredictionsShake"
+- "numWindowsInPoolNod"
+- "numWindowsInPoolShake"
+- "operation"
+- "operationQueue"
+- "orientationRecencyThreshold"
+- "orientationVelocityRecencyThreshold"
+- "outputBuffer"
+- "outputFormatForBus:"
+- "params"
+- "partGestureAudioNode"
+- "partGesturesRecognizer"
+- "partialGestureAudioProgress"
+- "partialGestureCountTarget"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pitch"
+- "play"
+- "predictionFromFeatures:error:"
+- "predictionsInPool"
+- "prepare"
+- "previousData"
+- "processInfo"
+- "processName"
+- "processingFormat"
+- "progress"
+- "provider"
+- "quaternion"
+- "queue"
+- "readDataOfLength:"
+- "readIntoBuffer:error:"
+- "readingQueue"
+- "recentOrientationVelocities"
+- "recentOrientations"
+- "recentSampleTimestamps"
+- "recorder"
+- "registerDefaults:"
+- "regulator"
+- "release"
+- "removeObserver:"
+- "renderAlgo"
+- "requestPartGestures"
+- "resourcePath"
+- "respondsToSelector:"
+- "resultPublisher"
+- "retain"
+- "retainCount"
+- "retrieveSessionWithID:"
+- "roll"
+- "rotX"
+- "rotY"
+- "rotZ"
+- "rotationRate"
+- "sampleRate"
+- "samplingRate"
+- "samplingRatePool"
+- "scheduleBuffer:atTime:options:completionHandler:"
+- "scheduleBuffer:completionCallbackType:completionHandler:"
+- "self"
+- "sensitivePartGestureRecognizer"
+- "sentResults"
+- "session"
+- "setAudioFeedbackConfig:"
+- "setAudioSession:"
+- "setAudioSessionID:"
+- "setAvgConfidence:"
+- "setConfiguration:"
+- "setDateFormat:"
+- "setDelegate:"
+- "setDeviceMotionUpdateInterval:"
+- "setEnableAudioFeedback:"
+- "setEnableRawDataLogging:"
+- "setEnableWaitingTone:"
+- "setFeatureNames:"
+- "setGesturePartAcceptableNodVelocity:"
+- "setGesturePartAcceptableShakeVelocity:"
+- "setGesturePartRepeatTimeout:"
+- "setHeadGesture:"
+- "setHeadGesturePart:"
+- "setInternal:"
+- "setInvertedConfirmationAudioFeedbackMode:"
+- "setListenerPosition:"
+- "setMaxConcurrentOperationCount:"
+- "setMlConfig:"
+- "setMuteAudioFeedback:"
+- "setNumberOfLoops:"
+- "setPosition:"
+- "setRenderingAlgorithm:"
+- "setRequestPartGestures:"
+- "setReverbBlend:"
+- "setSingleDelivery:"
+- "setTimestamp:"
+- "setUuid:"
+- "setVolume:"
+- "shape"
+- "shouldUpdateRestingOrientation"
+- "singleDelivery"
+- "start"
+- "startAndReturnError:"
+- "startDeviceMotionUpdatesToQueue:withHandler:"
+- "status"
+- "stop"
+- "stopDeviceMotionUpdates"
+- "stopWith:"
+- "stopWithCompletionHandler:"
+- "streamReader"
+- "streamingStatueMonitor"
+- "stride"
+- "stringByAppendingPathComponent:"
+- "stringFromDate:"
+- "stringValue"
+- "superclass"
+- "testModelURL"
+- "timeLastPoolClosed"
+- "timestamp"
+- "type"
+- "unlock"
+- "userAcceleration"
+- "uuid"
+- "v16@0:8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v24@0:8@\"CMHeadphoneMotionManager\"16"
+- "v24@0:8@\"HGHeadGestureResult\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@?0@\"CMDeviceMotion\"8@\"NSError\"16"
+- "v28@0:8Q16B24"
+- "value"
+- "volume"
+- "waitingTonePlayer"
+- "waitingToneTask"
+- "whitespaceAndNewlineCharacterSet"
+- "windowSize"
+- "yaw"
+- "zone"
+
+```

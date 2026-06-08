@@ -1,0 +1,77 @@
+## LatentSemanticMapping
+
+> `/System/Library/PrivateFrameworks/LatentSemanticMapping.framework/LatentSemanticMapping`
+
+```diff
+
+ 3.1.0.0.0
+-  __TEXT.__text: 0x1b614
+-  __TEXT.__auth_stubs: 0x980
++  __TEXT.__text: 0x1b85c
+   __TEXT.__const: 0x6c8
+   __TEXT.__gcc_except_tab: 0x1d38
+   __TEXT.__cstring: 0x48b
+-  __TEXT.__unwind_info: 0xc40
+-  __DATA_CONST.__got: 0x88
+-  __AUTH_CONST.__auth_got: 0x4c8
++  __TEXT.__unwind_info: 0xc48
++  __TEXT.__auth_stubs: 0x0
++  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x12b0
+   __AUTH_CONST.__cfstring: 0x240
++  __AUTH_CONST.__weak_auth_got: 0x28
++  __AUTH_CONST.__auth_got: 0x4a0
+   __AUTH.__data: 0x120
+   __DATA.__common: 0x1c
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+-  UUID: C1E18889-C4D3-3555-A881-5987DAD6D2FF
+-  Functions: 586
+-  Symbols:   1650
++  UUID: 590416A2-C4E8-36B2-8522-EEDF2A6A1FAC
++  Functions: 587
++  Symbols:   1652
+   CStrings:  100
+ 
+Symbols:
++ GCC_except_table121
++ GCC_except_table123
++ __ZNSt12length_errorC1B9nqe220100EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220100Ej
++ __ZNSt3__116__pad_and_outputB9nqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__floyd_sift_downB9nqe220100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9nqe220100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100Ev
++ __ZNSt3__120__throw_length_errorB9nqe220100EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B9nqe220100Ev
++ __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B9nqe220100Ev
++ __ZNSt3__14pairI9LSMVectorIjES2_EC2B9nqe220100Ev
++ __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- GCC_except_table120
+- GCC_except_table122
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
+- __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B9nqe210106Ev
+- __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B9nqe210106Ev
+- __ZNSt3__14pairI9LSMVectorIjES2_EC2B9nqe210106Ev
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+
+```

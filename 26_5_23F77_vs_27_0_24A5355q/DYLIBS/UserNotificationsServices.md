@@ -1,0 +1,824 @@
+## UserNotificationsServices
+
+> `/System/Library/PrivateFrameworks/UserNotificationsServices.framework/UserNotificationsServices`
+
+```diff
+
+-640.5.32.104.0
+-  __TEXT.__text: 0x2794c
+-  __TEXT.__auth_stubs: 0xea0
++703.0.0.0.0
++  __TEXT.__text: 0x37bfc
+   __TEXT.__objc_methlist: 0x58c
+-  __TEXT.__const: 0x3ad4
++  __TEXT.__const: 0x6058
+   __TEXT.__gcc_except_tab: 0xf8
+-  __TEXT.__cstring: 0x10b6
+-  __TEXT.__oslogstring: 0xdbc
+-  __TEXT.__constg_swiftt: 0x1064
+-  __TEXT.__swift5_typeref: 0x84b
+-  __TEXT.__swift5_fieldmd: 0xc48
+-  __TEXT.__swift5_capture: 0x34
+-  __TEXT.__swift5_reflstr: 0x7a7
+-  __TEXT.__swift5_proto: 0x380
+-  __TEXT.__swift5_types: 0xe0
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_assocty: 0x258
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__cstring: 0x174b
++  __TEXT.__oslogstring: 0x11ff
++  __TEXT.__swift5_typeref: 0x1004
++  __TEXT.__swift5_reflstr: 0xce4
++  __TEXT.__swift5_assocty: 0x2e8
++  __TEXT.__constg_swiftt: 0x1884
++  __TEXT.__swift5_fieldmd: 0x1278
++  __TEXT.__swift5_proto: 0x59c
++  __TEXT.__swift5_types: 0x17c
++  __TEXT.__swift5_capture: 0xe4
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__dlopen_cstrs: 0x4b
+-  __TEXT.__unwind_info: 0xb80
+-  __TEXT.__eh_frame: 0xa50
+-  __TEXT.__objc_classname: 0x119
+-  __TEXT.__objc_methname: 0x1b83
+-  __TEXT.__objc_methtype: 0x2d5
+-  __TEXT.__objc_stubs: 0x19c0
+-  __DATA_CONST.__got: 0x358
+-  __DATA_CONST.__const: 0x1f0
+-  __DATA_CONST.__objc_classlist: 0x40
++  __TEXT.__unwind_info: 0x10a0
++  __TEXT.__eh_frame: 0xf80
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1f8
++  __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x750
++  __DATA_CONST.__objc_selrefs: 0x728
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x760
+-  __AUTH_CONST.__const: 0x19e8
++  __DATA_CONST.__got: 0x3f0
++  __AUTH_CONST.__const: 0x2e70
+   __AUTH_CONST.__cfstring: 0x380
+-  __AUTH_CONST.__objc_const: 0x980
+-  __AUTH.__objc_data: 0xf0
++  __AUTH_CONST.__objc_const: 0xce0
++  __AUTH_CONST.__auth_got: 0x990
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x388
+   __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0xe38
+-  __DATA.__bss: 0x69c0
+-  __DATA_DIRTY.__objc_data: 0x190
+-  __DATA_DIRTY.__data: 0x780
+-  __DATA_DIRTY.__bss: 0x6a0
++  __DATA.__data: 0x15b8
++  __DATA.__bss: 0xa800
++  __DATA.__common: 0x30
++  __DATA_DIRTY.__objc_data: 0x230
++  __DATA_DIRTY.__data: 0x700
++  __DATA_DIRTY.__bss: 0xae0
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2075D07D-803E-3157-AF3F-BB0311E9CBDA
+-  Functions: 1242
+-  Symbols:   1074
+-  CStrings:  540
++  UUID: 6547CF16-75F2-36CE-872C-46FD177EE7D0
++  Functions: 1779
++  Symbols:   1390
++  CStrings:  283
+ 
+Symbols:
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __DATA__TtC25UserNotificationsServices32NotificationSubscriberConnection
++ __DATA__TtC25UserNotificationsServices48NotificationSubscriberRelaunchNotificationPoster
++ __DATA__TtC25UserNotificationsServices49NotificationSubscriberRelaunchNotificationHandler
++ __DATA__TtCV25UserNotificationsServices24NotificationEventService10Connection
++ __IVARS__TtC25UserNotificationsServices32NotificationSubscriberConnection
++ __IVARS__TtC25UserNotificationsServices48NotificationSubscriberRelaunchNotificationPoster
++ __IVARS__TtC25UserNotificationsServices49NotificationSubscriberRelaunchNotificationHandler
++ __IVARS__TtCV25UserNotificationsServices24NotificationEventService10Connection
++ __METACLASS_DATA__TtC25UserNotificationsServices32NotificationSubscriberConnection
++ __METACLASS_DATA__TtC25UserNotificationsServices48NotificationSubscriberRelaunchNotificationPoster
++ __METACLASS_DATA__TtC25UserNotificationsServices49NotificationSubscriberRelaunchNotificationHandler
++ __METACLASS_DATA__TtCV25UserNotificationsServices24NotificationEventService10Connection
++ __UNNotificationContentTypeAirDrop
++ __UNNotificationContentTypeCallOther
++ __UNNotificationContentTypeIncomingCall
++ __UNNotificationContentTypeMessagingDirect
++ __UNNotificationContentTypeMessagingGroup
++ __UNNotificationContentTypeMissedCall
++ __UNNotificationContentTypeVoicemail
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_closure_destructor
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.39
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy17_8
++ ___swift_memcpy32_8
++ ___swift_memcpy49_8
++ ___unnamed_15
++ ___unnamed_17
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_UserNotificationsServices
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 25UserNotificationsServices0A12NotificationV21PublisherDestinationsVSHAASQ
++ _associated conformance 25UserNotificationsServices0A12NotificationV21PublisherDestinationsVs10SetAlgebraAASQ
++ _associated conformance 25UserNotificationsServices0A12NotificationV21PublisherDestinationsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 25UserNotificationsServices0A12NotificationV21PublisherDestinationsVs9OptionSetAASY
++ _associated conformance 25UserNotificationsServices0A12NotificationV21PublisherDestinationsVs9OptionSetAAs0H7Algebra
++ _associated conformance 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLOSHAASQ
++ _associated conformance 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08N0LLOSHAASQ
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08N0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08N0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV4KindOSHAASQ
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08O0LLOSHAASQ
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08O0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08O0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08P0LLOSHAASQ
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08P0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08P0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O29DeviceLockMigrationCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV04ListE0O29DeviceLockMigrationCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17SuccessCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17SuccessCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17UnknownCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17UnknownCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO04ListE10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO04ListE10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO04ListE10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOSHAASQ
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOSHAASQ
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOSHAASQ
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOSHAASQ
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO15HelloCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO15HelloCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO37SubscribeToListStateChangesCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO37SubscribeToListStateChangesCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageOSHAASQ
++ _associated conformance 25UserNotificationsServices32NotificationSubscriberConnectionC0E5Error33_5A6731EECF7868017A53B2F14D226FC2LLOSHAASQ
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO16HiddenCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO16HiddenCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO18CriticalCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO18CriticalCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO20PersistentCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 25UserNotificationsServices7UNSListV7SectionV0E4TypeO20PersistentCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLOyx___Gs0H3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.28
++ _block_copy_helper.34
++ _block_copy_helper.41
++ _block_copy_helper.44
++ _block_descriptor.30
++ _block_descriptor.36
++ _block_descriptor.43
++ _block_descriptor.46
++ _block_destroy_helper.29
++ _block_destroy_helper.35
++ _block_destroy_helper.42
++ _block_destroy_helper.45
++ _get_enum_tag_for_layout_string 25UserNotificationsServices20ManagementSuggestionVSg
++ _get_enum_tag_for_layout_string 25UserNotificationsServices24NotificationEventServiceV04ListE0O
++ _get_enum_tag_for_layout_string 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO
++ _get_enum_tag_for_layout_string 25UserNotificationsServices7UNSListV7SectionV5GroupV14GroupingMethodO11CodingErrorOyx____G
++ _getpid
++ _getuid
++ _notify_cancel
++ _notify_get_state
++ _notify_post
++ _notify_register_dispatch
++ _notify_register_plain
++ _notify_set_state
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x7
++ _objc_retain_x9
++ _swift_allocBox
++ _swift_checkMetadataState
++ _swift_deallocClassInstance
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_errorRetain
++ _swift_getAssociatedTypeWitness
++ _swift_getDynamicType
++ _swift_getTupleTypeMetadata2
++ _swift_lookUpClassMethod
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x9
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s25UserNotificationsServices24NotificationEventServiceV0dE0P
++ _symbolic $s25UserNotificationsServices32NotificationSubscriberConnectionC5TopicP
++ _symbolic $s25UserNotificationsServices38NotificationSubscriberRelaunchObserverP
++ _symbolic B0
++ _symbolic SDySOypG
++ _symbolic SS22notificationIdentifier_SS06threadB0SS06bundleB0t
++ _symbolic SS30unNotificationIdentifierString_Sb10presentingt
++ _symbolic SS7message_t
++ _symbolic SSSg4type_t
++ _symbolic Say_____G 3XPC10XPCSessionC21InitializationOptionsV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 25UserNotificationsServices030NotificationSubscriberRelaunchD6PosterC
++ _symbolic _____ 25UserNotificationsServices030NotificationSubscriberRelaunchD7HandlerC
++ _symbolic _____ 25UserNotificationsServices0A12NotificationV21PublisherDestinationsV
++ _symbolic _____ 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLO
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08N0LLO
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV4KindO
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV5ScopeO
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08O0LLO
++ _symbolic _____ 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08P0LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV04ListE0O
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV04ListE0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV04ListE0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV04ListE0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV04ListE0O29DeviceLockMigrationCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17SuccessCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO17UnknownCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO04ListE10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____ 25UserNotificationsServices24NotificationEventServiceV10ConnectionC
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO15HelloCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____ 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO37SubscribeToListStateChangesCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____ 25UserNotificationsServices32NotificationSubscriberConnectionC
++ _symbolic _____ 25UserNotificationsServices32NotificationSubscriberConnectionC0E5Error33_5A6731EECF7868017A53B2F14D226FC2LLO
++ _symbolic _____ 25UserNotificationsServices32NotificationSubscriberConnectionC5GroupV
++ _symbolic _____ 25UserNotificationsServices7UNSListV7SectionV0E4TypeO16HiddenCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLO
++ _symbolic _____ 25UserNotificationsServices7UNSListV7SectionV0E4TypeO18CriticalCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLO
++ _symbolic _____ 25UserNotificationsServices7UNSListV7SectionV0E4TypeO20PersistentCodingKeys33_FC80A9B3192EBB40949688D69C77938CLLO
++ _symbolic _____ 3XPC12XPCRichErrorV
++ _symbolic _____ 3XPC18XPCReceivedMessageV
++ _symbolic _____ s5Int32V
++ _symbolic _____2id_t 25UserNotificationsServices0A12NotificationV10IdentifierV
++ _symbolic _____Sg 25UserNotificationsServices030NotificationSubscriberRelaunchD7HandlerC
++ _symbolic _____Sg 25UserNotificationsServices20ManagementSuggestionV
++ _symbolic _____Sg 3XPC10XPCSessionC
++ _symbolic _____SgXw 25UserNotificationsServices030NotificationSubscriberRelaunchD7HandlerC
++ _symbolic _____SgXw 25UserNotificationsServices24NotificationEventServiceV10ConnectionC
++ _symbolic _____SgXw 25UserNotificationsServices32NotificationSubscriberConnectionC
++ _symbolic _____SgXwz_Xx 25UserNotificationsServices32NotificationSubscriberConnectionC
++ _symbolic ______p 25UserNotificationsServices24NotificationEventServiceV0dE0P
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSgXw 25UserNotificationsServices38NotificationSubscriberRelaunchObserverP
++ _symbolic _____y5Value_____Qz______p_G Scs12ContinuationV 25UserNotificationsServices32NotificationSubscriberConnectionC5TopicP s5ErrorP
++ _symbolic _____ySOypG s18_DictionaryStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08Q0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08R0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08S0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O29DeviceLockMigrationCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO17SuccessCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO17UnknownCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H7PayloadO04ListH10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO15HelloCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO37SubscribeToListStateChangesCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices19UNSNotificationListV10CodingKeys33_F17D4FD40BE2E8DADE9471DF3A35F4C6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices20ManagementSuggestionV10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08Q0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices20ManagementSuggestionV5ScopeO10CodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08R0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices20ManagementSuggestionV5ScopeO22NotificationCodingKeys031_08B5B62C6DAF4E178BF80F0AAAEF08S0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O18LongLookCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O23IsDeviceAwakeCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV04ListH0O29DeviceLockMigrationCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO15ErrorCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO17SuccessCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H5ReplyO17UnknownCodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H7PayloadO04ListH10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices24NotificationEventServiceV0H7PayloadO10CodingKeys33_7B205426AEB61D65CD0F1B0F7CB9ED42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO19ListStateCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO10CodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO15HelloCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25UserNotificationsServices29NotificationSubscriberServiceV17ConnectionMessageO37SubscribeToListStateChangesCodingKeys33_0610F40E9CDC7F8A96448AD75D1DC745LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 3XPC10XPCSessionC21InitializationOptionsV
++ _symbolic _____y___________p_G Scs12ContinuationV 25UserNotificationsServices19UNSNotificationListV s5ErrorP
++ _symbolic _____y___________p_GSg Scs12ContinuationV 25UserNotificationsServices19UNSNotificationListV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 25UserNotificationsServices19UNSNotificationListV s5ErrorP
++ _symbolic _____y___________p__GSg Scs12ContinuationV11YieldResultO 25UserNotificationsServices19UNSNotificationListV s5ErrorP
++ _symbolic xXMT
++ _symbolic ypSg
++ _symbolic ytSg
++ _type_layout_string 25UserNotificationsServices0A12NotificationV10IdentifierV
++ _type_layout_string 25UserNotificationsServices0A12NotificationV21PublisherDestinationsV
++ _type_layout_string 25UserNotificationsServices20ManagementSuggestionV
++ _type_layout_string 25UserNotificationsServices20ManagementSuggestionV5ScopeO
++ _type_layout_string 25UserNotificationsServices24NotificationEventServiceV04ListE0O
++ _type_layout_string 25UserNotificationsServices24NotificationEventServiceV0E5ReplyO
++ _type_layout_string 25UserNotificationsServices24NotificationEventServiceV0E7PayloadO
++ _type_layout_string 25UserNotificationsServices29NotificationSubscriberServiceV15ListenerMessageO
++ _type_layout_string SeRzSERzSQRzl25UserNotificationsServices7UNSListV7SectionV5GroupV14GroupingMethodO11CodingErrorOyx____G
++ _xpc_connection_create_mach_service
++ _xpc_connection_set_non_launching
+- _OBJC_CLASS_$_NSDateFormatter
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- ___unnamed_16
+- ___unnamed_18
+- _associated conformance 25UserNotificationsServices7UNSListV7SectionV5GroupV14GroupingMethodO11CodingErrorOyx____GSHAASQ
+- _objc_autorelease
+- _objc_msgSend$date
+- _objc_msgSend$init
+- _objc_msgSend$setDateFormat:
+- _objc_msgSend$setLocale:
+- _objc_msgSend$setTimeZone:
+- _objc_msgSend$stringFromDate:
+- _swift_bridgeObjectRetain_n
+- _symbolic _____ 10Foundation4DateV
+- _symbolic _____Sg 10Foundation8TimeZoneV
+CStrings:
++ ",bundleIdentifier:"
++ ",threadIdentifier:"
++ "Attempting to reconnect to subscriber service"
++ "Client could not send. No session."
++ "Client failed to handle incoming message: %@"
++ "Client failed to send: %@"
++ "Connection cancelled: %s"
++ "Error creating XPC session %{public}@"
++ "Error establishing active connection %@"
++ "Error reporting event with message '%{public}s'"
++ "Error sending event payload '%{public}s': %{public}@"
++ "Event connection invalidating."
++ "Failed to get notify state: %u"
++ "Failed to reconnect: %@"
++ "Failed to register for relaunch notifications: %u"
++ "Failed to register relaunch notification poster: %u"
++ "Failed to set notify state for PID %d: %u"
++ "No active subscriptions, skipping reconnect"
++ "Reconnecting XPC session"
++ "Retrying after error"
++ "Send attempt %ld/%ld failed for '%{public}s'"
++ "Sending event payload '%{public}s'"
++ "Sent event '%{public}s'"
++ "Starting new session"
++ "Subscriber service relaunched with pid %d"
++ "Successfully reconnected to subscriber service"
++ "Unknown event type '"
++ "Unknown result type 'XPCReceivedMessage'"
++ "XPC session was cancelled"
++ "byApp"
++ "byApp(bundleIdentifier:"
++ "byNotification"
++ "byNotification(notificationIdentifier: "
++ "byThread"
++ "byThread(threadIdentifier:"
++ "com.apple.private.usernotifications.event-service"
++ "com.apple.private.usernotifications.subscriber-service"
++ "com.apple.usernotifications.NotificationSubscriberConnection"
++ "com.apple.usernotifications.event-service.launching"
++ "com.apple.usernotifications.subscriber-service.launching"
++ "com.apple.usernotifications.subscriber-service.non-launching"
++ "com.apple.usernotifications.subscriber-service.relaunched."
++ "configureSession() session: %s"
++ "configureSession(): No XPC listener found"
++ "contactMatching"
++ "containsOneTimePasscode"
++ "deviceLockMigration"
++ "directMessagesInDigest"
++ "error sending payload: '"
++ "longLook(unNotificationIdentifierString: "
++ "managementSuggestion"
++ "nil session"
++ "notification(id: "
++ "notificationIdentifier"
++ "priorityFeedback"
++ "provisionalAuthorization"
++ "publisherDestinations"
++ "remoteModeConfigurationAllowApp"
++ "remoteModeConfigurationAllowContact"
++ "remoteModeConfigurationSilenceApp"
++ "remoteModeConfigurationSilenceContact"
++ "remoteMutingApp"
++ "remoteMutingThread"
++ "remoteSendMessagesToDigest"
++ "remoteSendToDigest"
++ "remoteTurnOffNotifications"
++ "remoteUrgencyTuning"
++ "stackSummary"
++ "subscribeToListStateChanges"
++ "timeSensitiveBreakthrough"
++ "timeSensitiveInDigest"
++ "type"
++ "unNotificationIdentifierString"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"BSDescriptionBuilder\"16@0:8"
+- "@\"BSDescriptionBuilder\"24@0:8@\"NSString\"16"
+- "@\"CNAvatarImageRenderer\""
+- "@\"CNContactStore\""
+- "@\"NSArray\""
+- "@\"NSCache\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"UNSCNContactResolver\""
+- "@\"_UNNotificationContact\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8d16"
+- "@28@0:8B16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24Q32"
+- "@56@0:8@16@24B32Q36B44@48"
+- "@64@0:8@16@24@32@40@48@56"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "BSDescriptionProviding"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",&,N,V_bundleIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_cnContactFullname"
+- "T@\"NSString\",C,N,V_cnContactIdentifier"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N,V_cnContactFullname"
+- "T@\"NSString\",R,C,N,V_cnContactIdentifier"
+- "T@\"NSString\",R,C,N,V_identifierOfMatchLabel"
+- "T@\"_UNNotificationContact\",&,N,V_contact"
+- "TB,N,V_isSuggestedMatch"
+- "TB,R,N,GisMatchTypeSuggested,V_matchTypeSuggested"
+- "TB,R,N,GisStrongestMatch"
+- "TB,R,N,GisSuggestedContact,V_suggestedContact"
+- "TQ,R"
+- "TQ,R,N,V_matchType"
+- "UNSAvatarImageRenderer"
+- "UNSCNContactResolver"
+- "UNSCNContactResolverResult"
+- "UNSImageProvider"
+- "UNSNotificationCommunicationContextService"
+- "UNSNotificationContactService"
+- "UNSNotificationContactServiceMatchDetails"
+- "UNSNotificationContactServiceRecord"
+- "URL"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_avatarImageGenerationQueue"
+- "_avatarImageGenerationQueueUsageCount"
+- "_avatarRenderer"
+- "_bundleIdentifier"
+- "_cnContactFullname"
+- "_cnContactIdentifier"
+- "_contact"
+- "_contactForImageRenderingFromContentURLWithContext:bundleIdentifier:"
+- "_contactStore"
+- "_contactStoreSearchKeys"
+- "_contactsForImageRenderingFromRecipientsWithContext:bundleIdentifier:descriptorForRequiredKeys:"
+- "_curatedContactStore"
+- "_decrementAvatarImageGenerationQueueUsageCountAndInvalidateIfNeeded"
+- "_fullnameForCNContact:"
+- "_getAvatarImageGenerationQueueAndIncrementUsageCount"
+- "_identifier"
+- "_identifierOfMatchLabel"
+- "_imageData"
+- "_imageDataFromFileSystemForContactURL:"
+- "_imageDataFromIntentsForContentURL:"
+- "_imageNamed:inBundleIdentifier:traitCollection:"
+- "_initWithCNContactIdentifier:cnContactFullname:suggestedContact:matchType:matchTypeSuggested:identifierOfMatchLabel:"
+- "_initWithPointSize:"
+- "_isSuggestedForContact:"
+- "_isSuggestedForLabeledValue:"
+- "_isSuggestedMatch"
+- "_matchForContact:bundleIdentifier:"
+- "_matchForContact:matchingLabel:matchType:"
+- "_matchThatMatchesEmailAddress:forContact:"
+- "_matchThatMatchesSocialProfile:bundleIdentifier:forContact:"
+- "_matchType"
+- "_matchTypeSuggested"
+- "_pointSize"
+- "_queue_imageForContacts:compatibleWithTraitCollection:circular:"
+- "_resolver"
+- "_resultsByServiceRecord"
+- "_setResult:forContact:bundleIdentifier:"
+- "_setSandboxExtensionData:"
+- "_silhouetteFallbackImageNameForContacts:"
+- "_stringForMatchType:"
+- "_suggestedContact"
+- "_systemImageNamed:traitCollection:"
+- "_updatedCommunicationContext:bundleIdentifier:"
+- "_uri"
+- "absoluteString"
+- "addContact:toContainerWithIdentifier:"
+- "addObject:"
+- "allContacts"
+- "appendBodySectionWithName:multilinePrefix:block:"
+- "appendBool:withName:"
+- "appendObject:withName:"
+- "appendString:"
+- "appendString:withName:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arrayWithObjects:count:"
+- "autorelease"
+- "avatarImageForContacts:scope:"
+- "bestMatchForEmailAddress:"
+- "bestMatchForPhoneNumber:"
+- "bestMatchForPredicate:contactToMatch:"
+- "bestMatchForSocialProfile:bundleIdentifier:"
+- "bestMatchForUserIdentifier:bundleIdentifier:"
+- "bestMatchForUsername:bundleIdentifier:"
+- "body"
+- "build"
+- "builderWithObject:"
+- "bundleForClass:"
+- "bundleIdentifiers"
+- "bundleWithURL:"
+- "canAddToCuratedContacts:bundleIdentifier:"
+- "caseInsensitiveCompare:"
+- "class"
+- "communicationContext"
+- "configurationWithPointSize:"
+- "configurationWithTraitCollection:"
+- "confirm:match:"
+- "confirmCuratedContactSuggestion:forContact:bundleIdentifier:"
+- "confirmSuggestion:"
+- "conformsToProtocol:"
+- "contact"
+- "contactForIdentifier:"
+- "contactWithDisplayName:handleStrings:"
+- "content"
+- "contentType"
+- "contentURL"
+- "copy"
+- "copyWithCuratingAllSuggestions"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "curatedContactForContact:bundleIdentifier:keysToFetch:"
+- "curatedContactMatchDetailsForContact:bundleIdentifier:"
+- "customIdentifier"
+- "d"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithContentsOfURL:options:error:"
+- "date"
+- "debugDescription"
+- "description"
+- "descriptionBuilderWithMultilinePrefix:"
+- "descriptionWithMultilinePrefix:"
+- "descriptorForRequiredKeys"
+- "descriptorForRequiredKeysForStyle:"
+- "destinations"
+- "didAddToCuratedContactsForContact:bundleIdentifier:cnContactIdentifier:"
+- "displayName"
+- "displayScale"
+- "emailAddresses"
+- "enumeratorWithOptions:"
+- "executeSaveRequest:error:"
+- "fileSystemRepresentation"
+- "generateEphemeralContactsForImageRenderingWithContext:bundleIdentifier:descriptorForRequiredKeys:"
+- "genreIdentifier"
+- "handle"
+- "handleType"
+- "hasOneTimeCode"
+- "hash"
+- "iTunesMetadata"
+- "identifier"
+- "identifierOfMatchLabel"
+- "imageDataForContentURL:"
+- "imageName"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "imageWithURL:"
+- "init"
+- "initWithCnContactIdentifier:cnContactFullname:isSuggestedContact:"
+- "initWithConfiguration:"
+- "initWithLabel:value:"
+- "initWithResolver:"
+- "initWithSettings:"
+- "initWithString:"
+- "initWithStringValue:"
+- "initWithUrlString:username:userIdentifier:service:displayname:teamIdentifier:bundleIdentifiers:"
+- "interruptionSuppression"
+- "isBusinessCorrespondence"
+- "isCNContactIdentifierSuggested"
+- "isEqual:"
+- "isEqualToString:"
+- "isFileURL"
+- "isKindOfClass:"
+- "isLikePhoneNumber:"
+- "isMatchTypeSuggested"
+- "isMemberOfClass:"
+- "isProxy"
+- "isSimilar:"
+- "isStrongerMatchThanOtherMatch:"
+- "isStrongestMatch"
+- "isSuggested"
+- "isSuggestedMatch"
+- "isSystemImage"
+- "labeledValueWithLabel:value:"
+- "lastFourDigits"
+- "length"
+- "loadDataImageFromImage:scaledSize:error:"
+- "localizedDescription"
+- "matchThatMatchesPhoneNumber:forContact:"
+- "mutableCopy"
+- "newCuratedContactForContact:imageData:bundleIdentifier:"
+- "nextObject"
+- "now"
+- "numberWithDouble:"
+- "objectForKey:"
+- "offMainThreadSynchronousRenderingOnlySettingsWithCacheSize:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phoneNumbers"
+- "predicateForContactsMatchingEmailAddress:groupIdentifiers:limitToOneResult:"
+- "predicateForContactsMatchingPhoneNumber:"
+- "predicateForContactsMatchingSocialProfile:"
+- "preferredRecipientsSummary"
+- "preferredSenderSummary"
+- "rangeOfString:"
+- "rejectSuggestion:"
+- "release"
+- "removeObjectForKey:"
+- "renderAvatarForCommunicationContext:bundleIdentifier:compatibleWithTraitCollection:completion:"
+- "request"
+- "requestWithIdentifier:content:trigger:destinations:"
+- "resolveCommunicationContextForRequest:bundleIdentifier:"
+- "respondsToSelector:"
+- "resultForContactIdentifier:"
+- "resultForContactIdentifier:emailAddress:phoneNumber:userIdentifier:username:bundleIdentifier:"
+- "resultWithCNContactIdentifier:cnContactFullname:suggestedContact:matchType:matchTypeSuggested:identifierOfMatchLabel:"
+- "retain"
+- "retainCount"
+- "scopeWithPointSize:scale:rightToLeft:style:backgroundStyle:"
+- "self"
+- "sender"
+- "service"
+- "serviceName"
+- "setBundleIdentifier:"
+- "setBundleIdentifiers:"
+- "setCnContactFullname:"
+- "setCnContactIdentifier:"
+- "setCnContactIdentifierSuggested:"
+- "setCommunicationContext:"
+- "setContact:"
+- "setContactType:"
+- "setCountLimit:"
+- "setDateFormat:"
+- "setEmailAddresses:"
+- "setFamilyName:"
+- "setGivenName:"
+- "setImageData:"
+- "setIncludeAcceptedIntroductions:"
+- "setIncludeSuggestedContacts:"
+- "setIsSuggestedMatch:"
+- "setLocale:"
+- "setObject:forKey:"
+- "setPhoneNumbers:"
+- "setSender:"
+- "setSocialProfiles:"
+- "setTimeZone:"
+- "setUserIdentifier:"
+- "setUsername:"
+- "sharedConnection"
+- "sharedInstance"
+- "sharedInstanceForPointSize:"
+- "similarHash"
+- "socialProfiles"
+- "sourceIdentifier"
+- "stringByAppendingFormat:"
+- "stringFromContact:style:"
+- "stringFromDate:"
+- "stringWithFormat:"
+- "strongestMatch"
+- "substringWithRange:"
+- "subtitle"
+- "succinctDescription"
+- "succinctDescriptionBuilder"
+- "suggestedContact"
+- "superclass"
+- "systemImageNamed:withConfiguration:"
+- "timeIntervalSinceDate:"
+- "title"
+- "trigger"
+- "un_isFirstPartyIdentifier"
+- "un_logDigest"
+- "unifiedContactWithIdentifier:keysToFetch:error:"
+- "unifiedContactsMatchingPredicate:keysToFetch:error:"
+- "unkit_applicationRecordIfEligibleToDeliverNotificationsForBundleIdentifier:"
+- "updateContact:"
+- "updateServiceWithContact:bundleIdentifier:"
+- "userIdentifier"
+- "userInterfaceStyle"
+- "username"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v36@0:8B16@20@28"
+- "v40@0:8@16@24@32"
+- "v48@0:8@16@24@32@?40"
+- "value"
+- "yyyy-MM-dd HH:mm:ss"
+- "zone"
+
+```

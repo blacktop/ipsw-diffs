@@ -1,0 +1,792 @@
+## SiriTimeTimerInternal
+
+> `/System/Library/PrivateFrameworks/SiriTimeTimerInternal.framework/SiriTimeTimerInternal`
+
+```diff
+
+-3525.1.1.0.0
+-  __TEXT.__text: 0x7e440
+-  __TEXT.__auth_stubs: 0x13b0
++3600.20.7.0.0
++  __TEXT.__text: 0x7db2c
+   __TEXT.__objc_methlist: 0x1048
+-  __TEXT.__const: 0x29e8
++  __TEXT.__const: 0x29c0
+   __TEXT.__constg_swiftt: 0x1498
+-  __TEXT.__swift5_typeref: 0xdd4
++  __TEXT.__swift5_typeref: 0xdb8
+   __TEXT.__swift5_reflstr: 0x58a
+   __TEXT.__swift5_fieldmd: 0x7ac
+-  __TEXT.__swift5_capture: 0x129c
++  __TEXT.__swift5_capture: 0x130c
+   __TEXT.__oslogstring: 0x37cc
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_assocty: 0x188
+   __TEXT.__swift5_proto: 0x11c
+   __TEXT.__swift5_types: 0x110
+-  __TEXT.__swift_as_entry: 0x258
++  __TEXT.__swift_as_entry: 0x254
++  __TEXT.__swift_as_cont: 0x418
+   __TEXT.__swift5_protos: 0x20
+-  __TEXT.__cstring: 0x452
+-  __TEXT.__swift_as_ret: 0x278
+-  __TEXT.__unwind_info: 0x1d30
+-  __TEXT.__eh_frame: 0x42b4
+-  __TEXT.__objc_classname: 0x926
+-  __TEXT.__objc_methname: 0x1d1d
+-  __TEXT.__objc_methtype: 0xb6a
+-  __TEXT.__objc_stubs: 0x1560
+-  __DATA_CONST.__got: 0x2e8
+-  __DATA_CONST.__const: 0x600
++  __TEXT.__cstring: 0x446
++  __TEXT.__swift_as_ret: 0x274
++  __TEXT.__unwind_info: 0x1d38
++  __TEXT.__eh_frame: 0x449c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x5f0
+   __DATA_CONST.__objc_classlist: 0x128
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x7d8
+   __DATA_CONST.__objc_protorefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x9e0
+-  __AUTH_CONST.__const: 0x37d8
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x3800
+   __AUTH_CONST.__objc_const: 0x2138
++  __AUTH_CONST.__auth_got: 0xac0
+   __AUTH.__objc_data: 0x1970
+   __AUTH.__data: 0x1028
+-  __DATA.__data: 0x898
++  __DATA.__data: 0x880
+   __DATA.__objc_stublist: 0x38
+   __DATA.__bss: 0x1a00
+   __DATA_DIRTY.__objc_data: 0x758
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 096C5CFF-67F5-3C33-9B5F-A11C26D191DA
+-  Functions: 2325
+-  Symbols:   1420
+-  CStrings:  670
++  UUID: 8E026628-DAEC-3BA1-A87F-F66129699756
++  Functions: 2300
++  Symbols:   1916
++  CStrings:  267
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.111Tm
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.36Tm
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.64Tm
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.77Tm
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_mutable_project_boxed_opaque_existential_1Tm
++ ___unnamed_5
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.104
++ _block_copy_helper.113
++ _block_copy_helper.119
++ _block_copy_helper.126
++ _block_copy_helper.133
++ _block_copy_helper.28
++ _block_copy_helper.30
++ _block_copy_helper.37
++ _block_copy_helper.38
++ _block_copy_helper.41
++ _block_copy_helper.44
++ _block_copy_helper.50
++ _block_copy_helper.54
++ _block_copy_helper.56
++ _block_copy_helper.62
++ _block_copy_helper.66
++ _block_copy_helper.68
++ _block_copy_helper.72
++ _block_copy_helper.74
++ _block_copy_helper.79
++ _block_copy_helper.80
++ _block_copy_helper.86
++ _block_copy_helper.92
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.106
++ _block_descriptor.115
++ _block_descriptor.121
++ _block_descriptor.128
++ _block_descriptor.135
++ _block_descriptor.30
++ _block_descriptor.32
++ _block_descriptor.39
++ _block_descriptor.40
++ _block_descriptor.43
++ _block_descriptor.46
++ _block_descriptor.52
++ _block_descriptor.56
++ _block_descriptor.58
++ _block_descriptor.64
++ _block_descriptor.68
++ _block_descriptor.70
++ _block_descriptor.74
++ _block_descriptor.76
++ _block_descriptor.81
++ _block_descriptor.82
++ _block_descriptor.88
++ _block_descriptor.94
++ _block_destroy_helper.105
++ _block_destroy_helper.114
++ _block_destroy_helper.120
++ _block_destroy_helper.127
++ _block_destroy_helper.134
++ _block_destroy_helper.29
++ _block_destroy_helper.31
++ _block_destroy_helper.38
++ _block_destroy_helper.39
++ _block_destroy_helper.42
++ _block_destroy_helper.45
++ _block_destroy_helper.51
++ _block_destroy_helper.55
++ _block_destroy_helper.57
++ _block_destroy_helper.63
++ _block_destroy_helper.67
++ _block_destroy_helper.69
++ _block_destroy_helper.73
++ _block_destroy_helper.75
++ _block_destroy_helper.80
++ _block_destroy_helper.81
++ _block_destroy_helper.87
++ _block_destroy_helper.93
++ _block_destroy_helper.99
++ _objc_retain_x12
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SiriTimeTimerInternal
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_SiriTimeTimerInternal
+- _block_copy_helper.103
+- _block_copy_helper.105
+- _block_copy_helper.114
+- _block_copy_helper.120
+- _block_copy_helper.127
+- _block_copy_helper.134
+- _block_copy_helper.29
+- _block_copy_helper.31
+- _block_copy_helper.39
+- _block_copy_helper.45
+- _block_copy_helper.51
+- _block_copy_helper.60
+- _block_copy_helper.63
+- _block_copy_helper.69
+- _block_copy_helper.70
+- _block_copy_helper.75
+- _block_copy_helper.76
+- _block_copy_helper.81
+- _block_copy_helper.87
+- _block_copy_helper.93
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.105
+- _block_descriptor.107
+- _block_descriptor.116
+- _block_descriptor.122
+- _block_descriptor.129
+- _block_descriptor.136
+- _block_descriptor.31
+- _block_descriptor.33
+- _block_descriptor.41
+- _block_descriptor.47
+- _block_descriptor.53
+- _block_descriptor.62
+- _block_descriptor.65
+- _block_descriptor.71
+- _block_descriptor.72
+- _block_descriptor.77
+- _block_descriptor.78
+- _block_descriptor.83
+- _block_descriptor.89
+- _block_descriptor.95
+- _block_destroy_helper.100
+- _block_destroy_helper.104
+- _block_destroy_helper.106
+- _block_destroy_helper.115
+- _block_destroy_helper.121
+- _block_destroy_helper.128
+- _block_destroy_helper.135
+- _block_destroy_helper.30
+- _block_destroy_helper.32
+- _block_destroy_helper.40
+- _block_destroy_helper.46
+- _block_destroy_helper.52
+- _block_destroy_helper.61
+- _block_destroy_helper.64
+- _block_destroy_helper.70
+- _block_destroy_helper.71
+- _block_destroy_helper.76
+- _block_destroy_helper.77
+- _block_destroy_helper.82
+- _block_destroy_helper.88
+- _block_destroy_helper.94
+- _objectdestroy.112Tm
+- _objectdestroy.12Tm
+- _objectdestroy.14Tm
+- _objectdestroy.15Tm
+- _objectdestroy.16Tm
+- _objectdestroy.17Tm
+- _objectdestroy.18Tm
+- _objectdestroy.19Tm
+- _objectdestroy.29Tm
+- _objectdestroy.33Tm
+- _objectdestroy.37Tm
+- _objectdestroy.68Tm
+- _objectdestroy.83Tm
+- _objectdestroyTm
+- _symbolic SS_Se_SEpt
+- _symbolic _____Sg 2os6LoggerV
+- _symbolic _____Sg 8AlarmKit0A17PresentationStateV
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CreateTimerIntent"
+- "CreateTimerIntentHandling"
+- "CreateTimerIntentResponse"
+- "DeleteTimerIntent"
+- "DeleteTimerIntentHandling"
+- "DeleteTimerIntentResponse"
+- "DismissTimerIntent"
+- "DismissTimerIntentHandling"
+- "DismissTimerIntentResponse"
+- "NSObject"
+- "PauseTimerIntent"
+- "PauseTimerIntentHandling"
+- "PauseTimerIntentResponse"
+- "Q16@0:8"
+- "ResetTimerIntent"
+- "ResetTimerIntentHandling"
+- "ResetTimerIntentResponse"
+- "ResumeTimerIntent"
+- "ResumeTimerIntentHandling"
+- "ResumeTimerIntentResponse"
+- "SearchTimerIntent"
+- "SearchTimerIntentHandling"
+- "SearchTimerIntentResponse"
+- "SetTimerAttributeIntent"
+- "SetTimerAttributeIntentHandling"
+- "SetTimerAttributeIntentResponse"
+- "SiriDevice"
+- "SiriDeviceResolutionResult"
+- "SiriRemoteTimerTarget"
+- "SiriRemoteTimerTargetResolutionResult"
+- "SiriTargetMatchTypeResolutionResult"
+- "SiriTimeTimerInternal"
+- "SiriTimeTimerInternal1"
+- "SiriTimer"
+- "SiriTimerResolutionResult"
+- "SiriTimerStateResolutionResult"
+- "SiriTimerTypeResolutionResult"
+- "T#,R"
+- "T@\"INSpeakableString\",N,D,&"
+- "T@\"NSArray\",N,D,C"
+- "T@\"NSData\",N,D,C"
+- "T@\"NSDate\",N,D,C"
+- "T@\"NSNumber\",N,D,&"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSString\",R,C"
+- "T@\"SiriDevice\",N,D,&"
+- "T@\"SiriRemoteTimerTarget\",N,D,&"
+- "T@\"SiriTimer\",N,D,&"
+- "TB,N,R"
+- "TQ,R"
+- "Tq,N,D"
+- "Tq,N,Vcode"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC21SiriTimeTimerInternal12TimerManager"
+- "_TtC21SiriTimeTimerInternal19TimerSessionManager"
+- "_TtC21SiriTimeTimerInternal20SiriTimerManagerImpl"
+- "_TtC21SiriTimeTimerInternal23PauseTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal23ResetTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal23SiriDismissTimerManager"
+- "_TtC21SiriTimeTimerInternal24CreateTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal24DeleteTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal24ResumeTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal25DismissTimerIntentHandler"
+- "_TtC21SiriTimeTimerInternal25SearchTimersIntentHandler"
+- "_TtC21SiriTimeTimerInternal29PauseTimerIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal29ResetTimerIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal30CreateTimerIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal30DeleteTimerIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal30ResumeTimerIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal30SetTimerAttributeIntentHandler"
+- "_TtC21SiriTimeTimerInternal34SearchForTimersIntentHandlerSingle"
+- "_TtC21SiriTimeTimerInternal36SetTimerAttributeIntentHandlerSingle"
+- "_metadata"
+- "accessoryId"
+- "accessoryType"
+- "addFailureBlock:"
+- "addSuccessBlock:"
+- "addTimer:"
+- "allAvailableTargets"
+- "allDevices"
+- "assertion"
+- "assistantId"
+- "assistantIdentifier"
+- "associatedDeviceTarget"
+- "autorelease"
+- "boolValue"
+- "category"
+- "categoryType"
+- "class"
+- "code"
+- "combineAllFutures:scheduler:"
+- "confirmCreateTimer:completion:"
+- "confirmDeleteTimer:completion:"
+- "confirmDismissTimer:completion:"
+- "confirmPauseTimer:completion:"
+- "confirmResetTimer:completion:"
+- "confirmResumeTimer:completion:"
+- "confirmSearchTimer:completion:"
+- "confirmSetTimerAttribute:completion:"
+- "confirmationRequiredWithObjectToConfirm:"
+- "confirmationRequiredWithSiriDeviceToConfirm:"
+- "confirmationRequiredWithSiriRemoteTimerTargetToConfirm:"
+- "confirmationRequiredWithSiriTargetMatchTypeToConfirm:"
+- "confirmationRequiredWithSiriTimerStateToConfirm:"
+- "confirmationRequiredWithSiriTimerToConfirm:"
+- "confirmationRequiredWithSiriTimerTypeToConfirm:"
+- "confirmationRequiredWithStringToConfirm:"
+- "confirmationRequiredWithValueToConfirm:"
+- "conformsToProtocol:"
+- "createdTimer"
+- "currentSessionIDsMap"
+- "currentTimer"
+- "dealloc"
+- "debugDescription"
+- "defaultBreachThreshold"
+- "defaultDuration"
+- "deferredContinuation"
+- "deferredTimerIDForSearch"
+- "deletedTimers"
+- "description"
+- "device"
+- "deviceContextProvider"
+- "deviceName"
+- "deviceNames"
+- "deviceResolver"
+- "deviceType"
+- "disambiguationWithObjectsToDisambiguate:"
+- "disambiguationWithSiriDevicesToDisambiguate:"
+- "disambiguationWithSiriRemoteTimerTargetsToDisambiguate:"
+- "disambiguationWithSiriTimersToDisambiguate:"
+- "dismissTimerWithIdentifier:"
+- "domain"
+- "doubleValue"
+- "duration"
+- "durationNumber"
+- "endpointId"
+- "endpointUUID"
+- "fireDate"
+- "futureWithNoResult"
+- "futureWithResult:"
+- "getCurrentTimerSync"
+- "handleCreateTimer:completion:"
+- "handleDeleteTimer:completion:"
+- "handleDismissTimer:completion:"
+- "handlePauseTimer:completion:"
+- "handleResetTimer:completion:"
+- "handleResumeTimer:completion:"
+- "handleSearchTimer:completion:"
+- "handleSetTimerAttribute:completion:"
+- "hash"
+- "home"
+- "homeID"
+- "identifier"
+- "immediateScheduler"
+- "includeRemoteTimers"
+- "init"
+- "initWithBackingStore:"
+- "initWithCode:userActivity:"
+- "initWithCoder:"
+- "initWithDomain:verb:parametersByName:"
+- "initWithDouble:"
+- "initWithIdentifier:backingStore:"
+- "initWithIdentifier:displayString:"
+- "initWithIdentifier:displayString:pronunciationHint:"
+- "initWithJSONDictionary:forIntent:"
+- "initWithPropertiesByName:"
+- "initWithState:duration:"
+- "isEqual:"
+- "isFiring"
+- "isInRespondingRoom"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRespondingDevice"
+- "isSilent"
+- "label"
+- "lastModifiedDate"
+- "latestDuration"
+- "matchedTimers"
+- "maximumDuration"
+- "measurement"
+- "mementoData"
+- "minimumDuration"
+- "mtTimerManager"
+- "mutableCopy"
+- "name"
+- "needsAllAvailableTargetsResolved"
+- "needsTargetDestinationResolved"
+- "needsValue"
+- "nextTrigger"
+- "notRequired"
+- "pauseCurrentTimer"
+- "pausedTimers"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "q"
+- "q16@0:8"
+- "release"
+- "remainingTime"
+- "remoteDeviceId"
+- "remoteExecutionId"
+- "remoteTimers"
+- "removeTimer:"
+- "resetTimers"
+- "resolutionResultConfirmationRequiredWithItemToConfirm:"
+- "resolutionResultSuccessWithResolvedValue:"
+- "resolutionResultUnsupportedWithReason:"
+- "resolveAllAvailableTargetsForCreateTimer:withCompletion:"
+- "resolveAllAvailableTargetsForDeleteTimer:withCompletion:"
+- "resolveAllAvailableTargetsForPauseTimer:withCompletion:"
+- "resolveAllAvailableTargetsForResetTimer:withCompletion:"
+- "resolveAllAvailableTargetsForResumeTimer:withCompletion:"
+- "resolveAllAvailableTargetsForSearchTimer:withCompletion:"
+- "resolveAllAvailableTargetsForSetTimerAttribute:withCompletion:"
+- "resolveAssociatedDeviceTargetForCreateTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForDeleteTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForPauseTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForResetTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForResumeTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForSearchTimer:withCompletion:"
+- "resolveAssociatedDeviceTargetForSetTimerAttribute:withCompletion:"
+- "resolveDurationNumberForCreateTimer:withCompletion:"
+- "resolveLabelForCreateTimer:withCompletion:"
+- "resolveTargetTimerForDeleteTimer:withCompletion:"
+- "resolveTargetTimerForPauseTimer:withCompletion:"
+- "resolveTargetTimerForResetTimer:withCompletion:"
+- "resolveTargetTimerForResumeTimer:withCompletion:"
+- "resolveTargetTimerForSetTimerAttribute:withCompletion:"
+- "resolveToDurationForSetTimerAttribute:withCompletion:"
+- "resolveTypeForCreateTimer:withCompletion:"
+- "resolvedAllAvailableTargets"
+- "resolvedTargetDestination"
+- "respondsToSelector:"
+- "resumeCurrentTimer"
+- "resumedTimers"
+- "retain"
+- "retainCount"
+- "room"
+- "roomID"
+- "roomName"
+- "roomNames"
+- "self"
+- "setAccessoryId:"
+- "setAccessoryType:"
+- "setAllAvailableTargets:"
+- "setAssistantId:"
+- "setAssociatedDeviceTarget:"
+- "setCode:"
+- "setCreatedTimer:"
+- "setDeletedTimers:"
+- "setDevice:"
+- "setDeviceName:"
+- "setDeviceNames:"
+- "setDeviceType:"
+- "setDuration:"
+- "setDurationNumber:"
+- "setFireDate:"
+- "setHomeID:"
+- "setIncludeRemoteTimers:"
+- "setIsInRespondingRoom:"
+- "setIsRespondingDevice:"
+- "setLabel:"
+- "setMatchedTimers:"
+- "setMementoData:"
+- "setPausedTimers:"
+- "setRemainingTime:"
+- "setRemoteDeviceId:"
+- "setRemoteExecutionId:"
+- "setRemoteTimers:"
+- "setResetTimers:"
+- "setResumedTimers:"
+- "setRoomID:"
+- "setRoomName:"
+- "setRoomNames:"
+- "setShouldMatchAny:"
+- "setShouldMatchRemote:"
+- "setSiriContext:"
+- "setSkipConfirmation:"
+- "setSound:"
+- "setState:"
+- "setTargetMatchType:"
+- "setTargetTimer:"
+- "setTargetingInfo:"
+- "setTimerId:"
+- "setTimerIds:"
+- "setTitle:"
+- "setToDuration:"
+- "setToLabel:"
+- "setToTimer:"
+- "setType:"
+- "setUnmatchedTimers:"
+- "setUpdatedTimer:"
+- "setUserActivity:"
+- "shouldMatchAny"
+- "shouldMatchRemote"
+- "shouldSkipDefaultSchemaCheck"
+- "siriTimerManager"
+- "skipConfirmation"
+- "sound"
+- "spokenPhrase"
+- "startCurrentTimerWithDuration:"
+- "state"
+- "stateAssertion"
+- "stopCurrentTimer"
+- "stopCurrentTimerSync"
+- "successWithResolvedObject:"
+- "successWithResolvedSiriDevice:"
+- "successWithResolvedSiriRemoteTimerTarget:"
+- "successWithResolvedSiriTargetMatchType:"
+- "successWithResolvedSiriTimer:"
+- "successWithResolvedSiriTimerState:"
+- "successWithResolvedSiriTimerType:"
+- "successWithResolvedString:"
+- "successWithResolvedTimeInterval:"
+- "successWithResolvedValue:"
+- "superclass"
+- "supportsSecureCoding"
+- "targetDevice"
+- "targetMatchType"
+- "targetTimer"
+- "targetingInfo"
+- "timerID"
+- "timerIDString"
+- "timerId"
+- "timerManager"
+- "timerManagerWithEndpointUUIDString:"
+- "timerURL"
+- "timers"
+- "title"
+- "toDuration"
+- "toLabel"
+- "toTimer"
+- "toneSoundWithIdentifier:vibrationIdentifer:volume:"
+- "triggerDate"
+- "type"
+- "typeName"
+- "uniqueIdentifier"
+- "unmatchedTimers"
+- "unsupported"
+- "updateTimer:"
+- "updatedTimer"
+- "v16@0:8"
+- "v16@?0@\"MTTimer\"8"
+- "v16@?0@\"MTTimerDuration\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNull\"8"
+- "v24@0:8q16"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"CreateTimerIntentResponse\">24"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"INSpeakableStringResolutionResult\">24"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"INTimeIntervalResolutionResult\">24"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"CreateTimerIntent\"16@?<v@?@\"SiriTimerTypeResolutionResult\">24"
+- "v32@0:8@\"DeleteTimerIntent\"16@?<v@?@\"DeleteTimerIntentResponse\">24"
+- "v32@0:8@\"DeleteTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"DeleteTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"DeleteTimerIntent\"16@?<v@?@\"SiriTimerResolutionResult\">24"
+- "v32@0:8@\"DismissTimerIntent\"16@?<v@?@\"DismissTimerIntentResponse\">24"
+- "v32@0:8@\"PauseTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"PauseTimerIntent\"16@?<v@?@\"PauseTimerIntentResponse\">24"
+- "v32@0:8@\"PauseTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"PauseTimerIntent\"16@?<v@?@\"SiriTimerResolutionResult\">24"
+- "v32@0:8@\"ResetTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"ResetTimerIntent\"16@?<v@?@\"ResetTimerIntentResponse\">24"
+- "v32@0:8@\"ResetTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"ResetTimerIntent\"16@?<v@?@\"SiriTimerResolutionResult\">24"
+- "v32@0:8@\"ResumeTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"ResumeTimerIntent\"16@?<v@?@\"ResumeTimerIntentResponse\">24"
+- "v32@0:8@\"ResumeTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"ResumeTimerIntent\"16@?<v@?@\"SiriTimerResolutionResult\">24"
+- "v32@0:8@\"SearchTimerIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"SearchTimerIntent\"16@?<v@?@\"SearchTimerIntentResponse\">24"
+- "v32@0:8@\"SearchTimerIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"SetTimerAttributeIntent\"16@?<v@?@\"INTimeIntervalResolutionResult\">24"
+- "v32@0:8@\"SetTimerAttributeIntent\"16@?<v@?@\"NSArray\">24"
+- "v32@0:8@\"SetTimerAttributeIntent\"16@?<v@?@\"SetTimerAttributeIntentResponse\">24"
+- "v32@0:8@\"SetTimerAttributeIntent\"16@?<v@?@\"SiriDeviceResolutionResult\">24"
+- "v32@0:8@\"SetTimerAttributeIntent\"16@?<v@?@\"SiriTimerResolutionResult\">24"
+- "v32@0:8@16@?24"
+- "v8@?0"
+- "workQueue"
+- "zone"
+
+```

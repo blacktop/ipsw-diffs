@@ -1,0 +1,2770 @@
+## HealthMenstrualCyclesDaemon
+
+> `/System/Library/PrivateFrameworks/HealthMenstrualCyclesDaemon.framework/HealthMenstrualCyclesDaemon`
+
+```diff
+
+-6200.6.8.2.1
+-  __TEXT.__text: 0x85cd4
+-  __TEXT.__auth_stubs: 0x1fb0
+-  __TEXT.__objc_methlist: 0x33f4
+-  __TEXT.__const: 0x17c0
+-  __TEXT.__gcc_except_tab: 0xe60
+-  __TEXT.__oslogstring: 0x64ec
+-  __TEXT.__cstring: 0x3621
+-  __TEXT.__constg_swiftt: 0x630
+-  __TEXT.__swift5_typeref: 0xb68
+-  __TEXT.__swift5_reflstr: 0x731
+-  __TEXT.__swift5_fieldmd: 0x54c
++7027.0.52.2.6
++  __TEXT.__text: 0x8bd78
++  __TEXT.__objc_methlist: 0x366c
++  __TEXT.__const: 0x1cb0
++  __TEXT.__gcc_except_tab: 0xd94
++  __TEXT.__oslogstring: 0x6a2c
++  __TEXT.__cstring: 0x38c1
++  __TEXT.__constg_swiftt: 0x7fc
++  __TEXT.__swift5_typeref: 0xcaa
++  __TEXT.__swift5_reflstr: 0x851
++  __TEXT.__swift5_fieldmd: 0x718
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x1d8
+-  __TEXT.__swift5_proto: 0xf8
+-  __TEXT.__swift5_types: 0x68
+-  __TEXT.__swift5_capture: 0x204
++  __TEXT.__swift5_assocty: 0x220
++  __TEXT.__swift5_capture: 0x244
++  __TEXT.__swift5_proto: 0x11c
++  __TEXT.__swift5_types: 0x94
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x1918
+-  __TEXT.__eh_frame: 0xdb0
+-  __TEXT.__objc_classname: 0x1049
+-  __TEXT.__objc_methname: 0x114a5
+-  __TEXT.__objc_methtype: 0x2465
+-  __TEXT.__objc_stubs: 0x9b20
+-  __DATA_CONST.__got: 0xbf0
+-  __DATA_CONST.__const: 0xf50
+-  __DATA_CONST.__objc_classlist: 0x180
++  __TEXT.__unwind_info: 0x17a8
++  __TEXT.__eh_frame: 0xe90
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xfa8
++  __DATA_CONST.__objc_classlist: 0x1a8
+   __DATA_CONST.__objc_catlist: 0x88
+-  __DATA_CONST.__objc_protolist: 0x218
++  __DATA_CONST.__objc_protolist: 0x238
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2bd8
+-  __DATA_CONST.__objc_protorefs: 0xb0
++  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__objc_selrefs: 0x2da0
++  __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x118
+-  __DATA_CONST.__objc_arraydata: 0xa0
+-  __AUTH_CONST.__auth_got: 0xff0
+-  __AUTH_CONST.__const: 0xea8
+-  __AUTH_CONST.__cfstring: 0x2280
+-  __AUTH_CONST.__objc_const: 0x6280
+-  __AUTH_CONST.__objc_intobj: 0x1f8
++  __DATA_CONST.__objc_arraydata: 0xc8
++  __DATA_CONST.__got: 0xd28
++  __AUTH_CONST.__const: 0x1260
++  __AUTH_CONST.__cfstring: 0x23c0
++  __AUTH_CONST.__objc_const: 0x68c0
++  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__objc_intobj: 0x288
+   __AUTH_CONST.__objc_doubleobj: 0x40
+-  __AUTH_CONST.__objc_arrayobj: 0x60
+-  __AUTH.__objc_data: 0x3c8
+-  __AUTH.__data: 0x40
+-  __DATA.__objc_ivar: 0x47c
+-  __DATA.__data: 0x1638
++  __AUTH_CONST.__objc_arrayobj: 0x78
++  __AUTH_CONST.__auth_got: 0x11b0
++  __AUTH.__objc_data: 0x410
++  __AUTH.__data: 0x18
++  __DATA.__objc_ivar: 0x4b4
++  __DATA.__data: 0x1748
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x1060
+-  __DATA.__common: 0xb8
+-  __DATA_DIRTY.__objc_data: 0x1080
+-  __DATA_DIRTY.__data: 0x928
+-  __DATA_DIRTY.__bss: 0xe00
++  __DATA.__bss: 0x1160
++  __DATA_DIRTY.__objc_data: 0x11c0
++  __DATA_DIRTY.__data: 0xc48
++  __DATA_DIRTY.__bss: 0x1180
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/HealthAlgorithms.framework/HealthAlgorithms
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /System/Library/PrivateFrameworks/HealthDaemonFoundation.framework/HealthDaemonFoundation
++  - /System/Library/PrivateFrameworks/HealthKitOrchestrationAdditions.framework/HealthKitOrchestrationAdditions
+   - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
++  - /System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/Sleep.framework/Sleep
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CF854980-716A-385D-B742-C506E112E73F
+-  Functions: 2129
+-  Symbols:   5608
+-  CStrings:  3270
++  UUID: 5BFAB3E3-06D9-3DB1-BD86-089A10C0C901
++  Functions: 2334
++  Symbols:   5905
++  CStrings:  1106
+ 
+Symbols:
++ +[HDFeatureAvailabilityManager(HDMenstrualCycles) _hdmc_menopauseRequirementsForFeatureIdentifier:isAppleWatch:]
++ +[HDFeatureAvailabilityManager(HDMenstrualCycles) hdmc_menopauseAvailabilityManagerWithProfile:]
++ +[HDMCDailyAnalytics(Menopause) _setMenopausePropertiesInMetric:menopauseModel:profile:todayAsDate:gregorianCalendar:error:]
++ +[HDMCDailyAnalytics(Menopause) _setMenopausePropertiesInMetric:menopauseModel:profile:todayAsDate:gregorianCalendar:error:].cold.1
++ +[HDMenstrualCyclesPlugin shouldLoadPluginForBehavior:]
++ +[HKCountrySet(MenstrualCyclesMenopause) localAvailabilityForMenstrualCyclesMenopause]
++ +[HKCountrySet(MenstrualCyclesMenopause) localAvailabilityForMenstrualCyclesMenopause].cold.1
++ -[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]
++ -[HDMCAnalysisManager _initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:dayStreamProcessorProvider:historicalAnalyzerProvider:]
++ -[HDMCAnalysisManager _observeMenopauseModelProvider:]
++ -[HDMCAnalysisManager _queue_isMenopauseSupportedInCurrentRegion]
++ -[HDMCAnalysisManager _queue_isMenopauseSupportedInCurrentRegion].cold.1
++ -[HDMCAnalysisManager _queue_isOnboardedForBackgroundAnalysis]
++ -[HDMCAnalysisManager _queue_isOnboardedForBackgroundAnalysis].cold.1
++ -[HDMCAnalysisManager _test_analyzeIfNeeded]
++ -[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:]
++ -[HDMCAnalysisManager menopauseModelDidUpdate:]
++ -[HDMCAnalyticsManager initWithProfile:analysisManager:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:menopauseProvider:]
++ -[HDMCDailyAnalytics _collectSensitiveFieldsForMetric:settingsManager:menstrualCyclesSettings:heartRateInputFeatureStatus:deviationDetectionSettings:wristTemperatureInputFeatureStatus:gregorianCalendar:error:].cold.17
++ -[HDMCDailyAnalytics initWithProfile:analysis:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:menopauseProvider:]
++ -[HDMCDailyMetric hasBleedingAfterMenopauseSamples]
++ -[HDMCDailyMetric isOngoingMenopause]
++ -[HDMCDailyMetric isOngoingPerimenopause]
++ -[HDMCDailyMetric logBleedingAfterMenopauseEnabled]
++ -[HDMCDailyMetric setBleedingAfterMenopauseSamples:]
++ -[HDMCDailyMetric setLogBleedingAfterMenopauseEnabled:]
++ -[HDMCDailyMetric setOngoingMenopause:]
++ -[HDMCDailyMetric setOngoingPerimenopause:]
++ -[HDMCDailyMetric setWeeksSinceMenopauseStart:]
++ -[HDMCDailyMetric setWeeksSincePerimenopauseStart:]
++ -[HDMCDailyMetric weeksSinceMenopauseStart]
++ -[HDMCDailyMetric weeksSincePerimenopauseStart]
++ -[HDMCDaySummaryBuilder _bleedingAfterMenopauseFlow]
++ -[HDMCNotificationManager _queue_rescheduleNotificationsForAnalysis:].cold.6
++ -[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]
++ -[HDMCPluginServer remote_saveAndAnalyzeDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:completion:]
++ -[HDMCProfileExtension _bridging_analyzeWithError:]
++ -[HDMCProfileExtension menopauseStateManager]
++ -[HDMenstrualCyclesPlugin mcAnalysisOrchestrationManager]
++ GCC_except_table31
++ GCC_except_table41
++ GCC_except_table43
++ GCC_except_table68
++ GCC_except_table78
++ _HDMCAppendCycleFactorsPhaseFromDaySummary
++ _HKCategoryTypeIdentifierBleedingAfterMenopause
++ _HKCategoryTypeIdentifierMenopausalState
++ _HKFeatureAvailabilityRequirementIdentifierCurrentCountryIsSupportedOnActiveRemoteDevice
++ _HKFeatureAvailabilityRequirementIdentifierCurrentCountryIsSupportedOnLocalDevice
++ _HKFeatureIdentifierMenstrualCyclesMenopause
++ _HKMCPerimenopauseContentEligibilityMinimumAge
++ _HKMCPrivateMetadataKeyConfirmedDeviationPerimenopauseContextStateAtConfirmation
++ _HKMCPrivateMetadataKeyConfirmedDeviationShouldShowPerimenopauseMessagingAtConfirmation
++ _OBJC_CLASS_$_HDMCAnalysisOrchestrationManager
++ _OBJC_CLASS_$_HKDeletedObject
++ _OBJC_CLASS_$_HKMCMenopauseModel
++ _OBJC_CLASS_$_HKSampleType
++ _OBJC_CLASS_$__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager
++ _OBJC_IVAR_$_HDMCAnalysisManager._menopauseFeatureAvailabilityManager
++ _OBJC_IVAR_$_HDMCAnalysisManager._menopauseFeatureStatusManager
++ _OBJC_IVAR_$_HDMCAnalysisManager._menopauseModelProvider
++ _OBJC_IVAR_$_HDMCAnalyticsManager._menopauseProvider
++ _OBJC_IVAR_$_HDMCDailyAnalytics._menopauseProvider
++ _OBJC_IVAR_$_HDMCDailyMetric._bleedingAfterMenopauseSamples
++ _OBJC_IVAR_$_HDMCDailyMetric._logBleedingAfterMenopauseEnabled
++ _OBJC_IVAR_$_HDMCDailyMetric._ongoingMenopause
++ _OBJC_IVAR_$_HDMCDailyMetric._ongoingPerimenopause
++ _OBJC_IVAR_$_HDMCDailyMetric._weeksSinceMenopauseStart
++ _OBJC_IVAR_$_HDMCDailyMetric._weeksSincePerimenopauseStart
++ _OBJC_IVAR_$_HDMCDaySummaryBuilder._bleedingAfterMenopauseFlowSamples
++ _OBJC_IVAR_$_HDMCProfileExtension._menopauseFeatureAvailabilityManager
++ _OBJC_IVAR_$_HDMCProfileExtension._menopauseStateManager
++ _OBJC_IVAR_$_HDMenstrualCyclesPlugin._mcAnalysisOrchestrationManager
++ _OBJC_METACLASS_$_HDMCAnalysisOrchestrationManager
++ _OBJC_METACLASS_$__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager
++ __DATA_HDMCAnalysisOrchestrationManager
++ __DATA__TtC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor
++ __DATA__TtC27HealthMenstrualCyclesDaemon24ProtectedExperienceModel
++ __DATA__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager
++ __DATA__TtCC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor7Planner
++ __INSTANCE_METHODS_HDMCAnalysisOrchestrationManager
++ __IVARS_HDMCAnalysisOrchestrationManager
++ __IVARS__TtC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor
++ __IVARS__TtC27HealthMenstrualCyclesDaemon24ProtectedExperienceModel
++ __IVARS__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager
++ __IVARS__TtCC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor7Planner
++ __METACLASS_DATA_HDMCAnalysisOrchestrationManager
++ __METACLASS_DATA__TtC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor
++ __METACLASS_DATA__TtC27HealthMenstrualCyclesDaemon24ProtectedExperienceModel
++ __METACLASS_DATA__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager
++ __METACLASS_DATA__TtCC27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutor7Planner
++ __OBJC_$_CLASS_METHODS_HDMCDailyAnalytics(Analysis|Deviation|Menopause|Onboarding)
++ __OBJC_$_CLASS_METHODS_HKCountrySet(MenstrualCyclesDeviationDetection|MenstrualCyclesHeartRateInput|MenstrualCyclesMenopause|MenstrualCyclesWristTemperatureInput)
++ __OBJC_$_INSTANCE_METHODS__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager(HealthMenstrualCyclesDaemon|HealthMenstrualCyclesDaemon1|HealthMenstrualCyclesDaemon2|HealthMenstrualCyclesDaemon3)
++ __OBJC_$_PROTOCOL_CLASS_METHODS_OPT_HDCloudSyncStateEntity
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKMCMenopauseModelObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKMCMenopauseModelProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKMCMenopauseModelObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKMCMenopauseModelProviding
++ __OBJC_$_PROTOCOL_REFS_HKMCMenopauseModelProviding
++ __OBJC_CLASS_PROTOCOLS_$__TtC27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManager(HealthMenstrualCyclesDaemon|HealthMenstrualCyclesDaemon1|HealthMenstrualCyclesDaemon2|HealthMenstrualCyclesDaemon3)
++ __OBJC_LABEL_PROTOCOL_$_HKMCMenopauseModelObserver
++ __OBJC_LABEL_PROTOCOL_$_HKMCMenopauseModelProviding
++ __OBJC_PROTOCOL_$_HKMCMenopauseModelObserver
++ __OBJC_PROTOCOL_$_HKMCMenopauseModelProviding
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9fqe220100IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE24__emplace_back_slow_pathIJRKdEEEPdDpOT_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___122-[HDMCPluginServer remote_saveAndAnalyzeDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:completion:]_block_invoke
++ ___122-[HDMCPluginServer remote_saveAndAnalyzeDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:completion:]_block_invoke_2
++ ___130-[HDMCAnalysisManager(CycleFactorsAutomaticUpgrade) initiateCycleFactorsAutomaticUpgradeWithDatabaseAccessibilityAssertion:error:]_block_invoke.371
++ ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.427
++ ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.430
++ ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.434
++ ___191-[HDMCDailyAnalytics _collectDiagnosticFieldsForMetric:settingsManager:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:]_block_invoke.381
++ ___204-[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:]_block_invoke
++ ___204-[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:]_block_invoke_2
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke.391
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke.cold.1
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke.cold.2
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke_2
++ ___216-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:]_block_invoke_2.394
++ ___259-[HDMCAnalysisManager _initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:dayStreamProcessorProvider:historicalAnalyzerProvider:]_block_invoke
++ ___368-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke
++ ___368-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke_2
++ ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.457
++ ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.457.cold.1
++ ___44-[HDMCAnalysisManager _test_analyzeIfNeeded]_block_invoke
++ ___47-[HDMCAnalysisManager menopauseModelDidUpdate:]_block_invoke
++ ___52-[HDMCDaySummaryBuilder _bleedingAfterMenopauseFlow]_block_invoke
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.393
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.393.cold.1
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.394
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.396
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.396.cold.1
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.397
++ ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.397.cold.1
++ ___60-[HDMCNotificationManager _queue_alarm:didReceiveDueEvents:]_block_invoke.391
++ ___88-[HDMCPluginServer _queue_saveLastMenstrualPeriodWithDayIndexRange:calendarCache:error:]_block_invoke.433
++ ___90-[HDMCPluginServer _queue_saveBleedingFlowByDayIndex:forBleedingType:calendarCache:error:]_block_invoke_5
++ ___90-[HDMCPluginServer _queue_saveBleedingFlowByDayIndex:forBleedingType:calendarCache:error:]_block_invoke_6
++ ___HDMCFilterDeviationsForOngoingMenopause_block_invoke
++ ___block_descriptor_104_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_155_e8_32s40s48s56s64s72r80r88r96r104r112r120r_e28_v24?0"HKMCDaySummary"8^B16ls32l8r72l8s40l8r80l8s48l8s56l8r88l8r96l8r104l8r112l8r120l8s64l8
++ ___block_descriptor_40_e34_B16?0"HKMCUnconfirmedDeviation"8l
++ ___block_descriptor_48_e8_32s_e34_16?0"HKMCUnconfirmedDeviation"8ls32l8
++ ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___block_literal_global.367
++ ___block_literal_global.370
++ ___block_literal_global.375
++ ___block_literal_global.377
++ ___block_literal_global.379
++ ___block_literal_global.381
++ ___block_literal_global.383
++ ___block_literal_global.385
++ ___block_literal_global.387
++ ___block_literal_global.389
++ ___block_literal_global.392
++ ___block_literal_global.417
++ ___block_literal_global.420
++ ___block_literal_global.422
++ ___block_literal_global.424
++ ___block_literal_global.426
++ ___block_literal_global.428
++ ___block_literal_global.459
++ ___block_literal_global.465
++ ___block_literal_global.550
++ ___block_literal_global.553
++ ___block_literal_global.582
++ ___swift__destructor
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ ___swift_memcpy20_8
++ ___swift_memcpy8_8
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_HealthMenstrualCyclesDaemon
++ _associated conformance 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC0A13Orchestration0F0AA7PlannerAdEP_AdF
++ _associated conformance 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC7PlannerC0A13OrchestrationAdA8WorkPlanAfDP_AfG
++ _associated conformance 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC7PlannerC0aD00ad6PluginG0AA0A13OrchestrationAD
++ _associated conformance 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC015DeriveOperationF0OSHAASQ
++ _block_copy_helper.15
++ _block_copy_helper.18
++ _block_copy_helper.25
++ _block_copy_helper.9
++ _block_descriptor.11
++ _block_descriptor.17
++ _block_descriptor.20
++ _block_descriptor.27
++ _block_destroy_helper.10
++ _block_destroy_helper.16
++ _block_destroy_helper.19
++ _block_destroy_helper.26
++ _flat unique So26HKMCMenopauseModelObserver_p
++ _get_type_metadata 15Synchronization5MutexVy27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC7PlannerC5State33_57580856FC49E16A24C9DF95B8FF534CLLVG noncopyable.8
++ _get_type_metadata 15Synchronization5MutexVy27HealthMenstrualCyclesDaemon20HDMCPregnancyManagerC5State33_865A72A9437EC0D5F8ABCC85373490A0LLVG noncopyable.4
++ _get_type_metadata 15Synchronization5MutexVy27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC0H0031_495C53339DF1A80222D5AF25A29592M0LLVG noncopyable.4
++ _get_type_metadata 15Synchronization5MutexVy27HealthMenstrualCyclesDaemon32HDMCAnalysisOrchestrationManagerC5State33_91BAC5C98FA3A8C6CB34E60FFD2D1508LLVG noncopyable.3
++ _get_type_metadata 15Synchronization5MutexVySaySo15HKDeletedObjectCGSgG noncopyable.4
++ _get_type_metadata 15Synchronization5MutexVySo39HDCodableMenstrualCyclesExperienceModelCG noncopyable.8
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:currentDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:
++ _objc_msgSend$_bleedingAfterMenopauseFlow
++ _objc_msgSend$_bridging_analyzeWithError:
++ _objc_msgSend$_hdmc_menopauseRequirementsForFeatureIdentifier:isAppleWatch:
++ _objc_msgSend$_initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:dayStreamProcessorProvider:historicalAnalyzerProvider:
++ _objc_msgSend$_observeMenopauseModelProvider:
++ _objc_msgSend$_queue_isMenopauseSupportedInCurrentRegion
++ _objc_msgSend$_queue_isOnboardedForBackgroundAnalysis
++ _objc_msgSend$_setMenopausePropertiesInMetric:menopauseModel:profile:todayAsDate:gregorianCalendar:error:
++ _objc_msgSend$alarmScheduler
++ _objc_msgSend$bleedingAfterMenopauseFlow
++ _objc_msgSend$currentCountryIsSupportedOnActiveRemoteDeviceForFeatureWithIdentifier:isSupportedIfCountryListMissing:
++ _objc_msgSend$currentCountryIsSupportedOnLocalDeviceForFeatureWithIdentifier:
++ _objc_msgSend$daySummaryWithDayIndex:menstrualFlow:bleedingInPregnancyFlow:bleedingAfterPregnancyFlow:bleedingAfterMenopauseFlow:intermenstrualBleeding:symptoms:sexualActivity:ovulationTestResult:pregnancyTestResult:progesteroneTestResult:cervicalMucusQuality:basalBodyTemperature:wristTemperature:menstrualFlowModificationDayIndex:startOfCycleFromCycleTracking:startedCycleFactors:endedCycleFactors:sampleCountByType:
++ _objc_msgSend$earliestMenopauseSample
++ _objc_msgSend$earliestPerimenopauseSample
++ _objc_msgSend$endPhase:onJulianDay:
++ _objc_msgSend$endedCycleFactors
++ _objc_msgSend$featureFlagIsEnabled:
++ _objc_msgSend$features
++ _objc_msgSend$getCurrentMenopauseModel
++ _objc_msgSend$hasBleedingAfterMenopauseSamples
++ _objc_msgSend$hasOngoingMenopause
++ _objc_msgSend$hasOngoingPerimenopause
++ _objc_msgSend$hdmc_menopauseAvailabilityManagerWithProfile:
++ _objc_msgSend$hkmc_daySummaryBleedingAfterMenopauseFlow
++ _objc_msgSend$initWithAllMenopauseSamples:
++ _objc_msgSend$initWithFeatureAvailabilityProviding:healthDataSource:countryCodeSource:
++ _objc_msgSend$initWithProfile:analysis:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:menopauseProvider:
++ _objc_msgSend$initWithProfile:analysisManager:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:menopauseProvider:
++ _objc_msgSend$initWithProfile:featureIdentifier:availabilityRequirements:currentOnboardingVersion:pairedDeviceCapability:pairedFeatureAttributesProvider:regionAvailabilityProvider:disableAndExpiryProvider:onboardingRecordConfiguration:loggingCategory:
++ _objc_msgSend$initWithProfile:operation:experienceModelProvider:notificationProvider:
++ _objc_msgSend$initWithProfile:operation:notificationProvider:
++ _objc_msgSend$initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:
++ _objc_msgSend$initWithScheduler:clientIdentifier:eventHandlerQueue:
++ _objc_msgSend$isOnboardingPresent
++ _objc_msgSend$isOngoingMenopause
++ _objc_msgSend$isOngoingPerimenopause
++ _objc_msgSend$localAvailabilityForMenstrualCyclesMenopause
++ _objc_msgSend$logBleedingAfterMenopauseEnabled
++ _objc_msgSend$mcAnalysisOrchestrationManager
++ _objc_msgSend$menopausalState
++ _objc_msgSend$menopauseModelDidUpdate:
++ _objc_msgSend$menopauseType
++ _objc_msgSend$needsInitialResult
++ _objc_msgSend$onboardingCompletionsByState
++ _objc_msgSend$onboardingState
++ _objc_msgSend$ongoingMenopauseSamples
++ _objc_msgSend$orchestrationMCDataObservation
++ _objc_msgSend$remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:overridePerimenopauseContextState:completion:
++ _objc_msgSend$setBleedingAfterMenopauseSamples:
++ _objc_msgSend$setLogBleedingAfterMenopauseEnabled:
++ _objc_msgSend$setOngoingMenopause:
++ _objc_msgSend$setOngoingPerimenopause:
++ _objc_msgSend$setWeeksSinceMenopauseStart:
++ _objc_msgSend$setWeeksSincePerimenopauseStart:
++ _objc_msgSend$startOfDayForDate:
++ _objc_msgSend$startedCycleFactors
++ _objc_msgSend$userInitiated
++ _objc_msgSend$weeksSinceMenopauseStart
++ _objc_msgSend$weeksSincePerimenopauseStart
++ _objc_release_x1
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _swift_conformsToProtocol2
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x8
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic $s19HealthOrchestration7PlannerP
++ _symbolic $s19HealthOrchestration8ExecutorP
++ _symbolic Iegh_
++ _symbolic Iegh_Sg
++ _symbolic IeyBh_
++ _symbolic So13HKObserverSetCy______pG So26HKMCMenopauseModelObserverP
++ _symbolic So18HKMCMenopauseModelC
++ _symbolic So18HKMCMenopauseModelCSg
++ _symbolic So18HKMCPregnancyModelCSg
++ _symbolic So7NSErrorCSg
++ _symbolic So9HDProfileCSg
++ _symbolic _____ 19HealthOrchestration14InputSignalSetV
++ _symbolic _____ 19HealthOrchestration14SimpleWorkPlanV
++ _symbolic _____ 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC
++ _symbolic _____ 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC7PlannerC
++ _symbolic _____ 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC7PlannerC5State33_57580856FC49E16A24C9DF95B8FF534CLLV
++ _symbolic _____ 27HealthMenstrualCyclesDaemon20HDMCPregnancyManagerC5State33_865A72A9437EC0D5F8ABCC85373490A0LLV
++ _symbolic _____ 27HealthMenstrualCyclesDaemon24ProtectedExperienceModelC
++ _symbolic _____ 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateFactoryV
++ _symbolic _____ 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC
++ _symbolic _____ 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC015DeriveOperationF0O
++ _symbolic _____ 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC0F0031_495C53339DF1A80222D5AF25A29592K0LLV
++ _symbolic _____ 27HealthMenstrualCyclesDaemon32HDMCAnalysisOrchestrationManagerC
++ _symbolic _____ 27HealthMenstrualCyclesDaemon32HDMCAnalysisOrchestrationManagerC5State33_91BAC5C98FA3A8C6CB34E60FFD2D1508LLV
++ _symbolic _____ So15HKBiologicalSexV
++ _symbolic _____ s5Int32V
++ _symbolic _____Sg 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC
++ _symbolic _____SgXw 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC
++ _symbolic ______p 19HealthOrchestration11WorkContextP
++ _symbolic y____________pSgtYbcSg 27HealthMenstrualCyclesDaemon20HDMCAnalysisExecutorC s5ErrorP
++ _type_layout_string 27HealthMenstrualCyclesDaemon20HDMCPregnancyManagerC5State33_865A72A9437EC0D5F8ABCC85373490A0LLV
++ _type_layout_string 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateFactoryV
++ _type_layout_string 27HealthMenstrualCyclesDaemon25HDMCMenopauseStateManagerC0F0031_495C53339DF1A80222D5AF25A29592K0LLV
++ _type_layout_string 27HealthMenstrualCyclesDaemon32HDMCAnalysisOrchestrationManagerC5State33_91BAC5C98FA3A8C6CB34E60FFD2D1508LLV
+- +[HDMenstrualCyclesPlugin shouldLoadPluginForDaemon:]
+- -[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]
+- -[HDMCAnalysisManager _initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:dayStreamProcessorProvider:historicalAnalyzerProvider:]
+- -[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:]
+- GCC_except_table26
+- GCC_except_table30
+- GCC_except_table36
+- GCC_except_table38
+- GCC_except_table62
+- GCC_except_table72
+- GCC_except_table74
+- GCC_except_table75
+- GCC_except_table76
+- GCC_except_table77
+- _OBJC_IVAR_$_HDMCProfileExtension._calendarCache
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- __OBJC_$_CLASS_METHODS_HDMCDailyAnalytics(Analysis|Deviation|Onboarding)
+- __OBJC_$_CLASS_METHODS_HKCountrySet(MenstrualCyclesDeviationDetection|MenstrualCyclesHeartRateInput|MenstrualCyclesWristTemperatureInput)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HDFeatureAvailabilityExtensionObserver
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9nqe210106IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___130-[HDMCAnalysisManager(CycleFactorsAutomaticUpgrade) initiateCycleFactorsAutomaticUpgradeWithDatabaseAccessibilityAssertion:error:]_block_invoke.350
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.404
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.407
+- ___133-[HDMCAnalysisManager _queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:]_block_invoke.411
+- ___182-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:completion:]_block_invoke
+- ___182-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:completion:]_block_invoke.368
+- ___182-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:completion:]_block_invoke_2
+- ___182-[HDMCPluginServer remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:completion:]_block_invoke_2.372
+- ___191-[HDMCDailyAnalytics _collectDiagnosticFieldsForMetric:settingsManager:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:]_block_invoke.360
+- ___218-[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:]_block_invoke
+- ___218-[HDMCAnalysisManager initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:]_block_invoke_2
+- ___273-[HDMCAnalysisManager _initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:dayStreamProcessorProvider:historicalAnalyzerProvider:]_block_invoke
+- ___352-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke
+- ___352-[HDMCAnalysisManager _analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:]_block_invoke_2
+- ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.431
+- ___41-[HDMCPluginServer _triggerImmediateSync]_block_invoke.431.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.372
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.372.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.373
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.375
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.375.cold.1
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.376
+- ___60-[HDMCHeartStatisticsEnumerator enumerateWithError:handler:]_block_invoke.376.cold.1
+- ___60-[HDMCNotificationManager _queue_alarm:didReceiveDueEvents:]_block_invoke.370
+- ___88-[HDMCPluginServer _queue_saveLastMenstrualPeriodWithDayIndexRange:calendarCache:error:]_block_invoke.407
+- ___block_descriptor_154_e8_32s40s48s56s64s72r80r88r96r104r112r120r_e28_v24?0"HKMCDaySummary"8^B16ls32l8r72l8s40l8r80l8s48l8s56l8r88l8r96l8r104l8r112l8r120l8s64l8
+- ___block_descriptor_40_e8_32s_e34_16?0"HKMCUnconfirmedDeviation"8ls32l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global.346
+- ___block_literal_global.349
+- ___block_literal_global.354
+- ___block_literal_global.356
+- ___block_literal_global.358
+- ___block_literal_global.360
+- ___block_literal_global.362
+- ___block_literal_global.364
+- ___block_literal_global.366
+- ___block_literal_global.369
+- ___block_literal_global.395
+- ___block_literal_global.398
+- ___block_literal_global.400
+- ___block_literal_global.402
+- ___block_literal_global.439
+- ___block_literal_global.445
+- ___block_literal_global.529
+- ___block_literal_global.532
+- ___block_literal_global.561
+- ___swift_memcpy4_4
+- _block_copy_helper.13
+- _block_copy_helper.16
+- _block_copy_helper.19
+- _block_descriptor.15
+- _block_descriptor.18
+- _block_descriptor.21
+- _block_destroy_helper.14
+- _block_destroy_helper.17
+- _block_destroy_helper.20
+- _objc_msgSend$_analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:
+- _objc_msgSend$_initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:dayStreamProcessorProvider:historicalAnalyzerProvider:
+- _objc_msgSend$categorySampleWithType:value:startDate:endDate:
+- _objc_msgSend$daySummaryWithDayIndex:menstrualFlow:bleedingInPregnancyFlow:bleedingAfterPregnancyFlow:intermenstrualBleeding:symptoms:sexualActivity:ovulationTestResult:pregnancyTestResult:progesteroneTestResult:cervicalMucusQuality:basalBodyTemperature:wristTemperature:menstrualFlowModificationDayIndex:startOfCycleFromCycleTracking:startedCycleFactors:endedCycleFactors:sampleCountByType:
+- _objc_msgSend$initWithProfile:clientIdentifier:eventHandlerQueue:
+- _objc_msgSend$initWithProfile:featureIdentifier:availabilityRequirements:currentOnboardingVersion:pairedDeviceCapability:pairedFeatureAttributesProvider:regionAvailabilityProvider:disableAndExpiryProvider:loggingCategory:
+- _objc_msgSend$initWithProfile:operation:experienceModelProvider:notificationProvider:calendarCache:
+- _objc_msgSend$initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:
+- _objectdestroy.14Tm
+- _swift_bridgeObjectRetain_n
+- _swift_getTupleTypeMetadata
+- _swift_release_n
+- _symbolic Ieg_
+- _symbolic Ieg_Sg
+- _symbolic IeyB_
+- _symbolic SaySo15HKDeletedObjectCGSg
+- _symbolic Sb
+- _symbolic So15HKCalendarCacheC
+- _symbolic Spy_____G s5Int32V
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ s6UInt32V
+- _symbolic _____ySo18HKMCPregnancyModelCSgG 2os21OSAllocatedUnfairLockV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 27HealthMenstrualCyclesDaemon20HDMCPregnancyManagerC20DeriveOperationStateO
+- _type_layout_string So16os_unfair_lock_sV
+CStrings:
++ "\f"
++ " user-initiated "
++ "HDMCAnalysisExecutor: Analysis completed successfully"
++ "HDMCAnalysisExecutor: Analysis failed: %@"
++ "HDMCAnalysisExecutor: Could not find HDMCProfileExtension"
++ "HDMCMenopauseStateManager.serialQueue"
++ "HDMCMenopauseStateManagerObservers"
++ "HDMCMenopauseStateManagerUserInitiatedObservers"
++ "HKCountrySet+MenstrualCyclesMenopause.m"
++ "HealthMenstrualCyclesDaemon.HDMCMenopauseStateManager"
++ "MenopauseStateModelGenerationOperation"
++ "NewObserverRegistered(userInitiated: "
++ "Total menopause samples: "
++ "[%s] Menopause samples added, requesting work"
++ "[%s] Menopause samples deleted, requesting work"
++ "[%{public}@] Clearing all scheduled notifications due to %{public}@"
++ "[%{public}@] Disabling predictions due to ongoing menopause"
++ "[%{public}@] Error checking onboarding for background analysis: %{public}@"
++ "[%{public}@] Error clearing scheduled events for %{public}@: %{public}@"
++ "[%{public}@] Error collecting menopause properties for analytics: %{public}@"
++ "[%{public}@] Error querying %{public}@ samples: %{public}@"
++ "[%{public}@] Error querying ongoing samples for %{public}@: %{public}@"
++ "[%{public}@] Error retrieving feature status for menopause: %{public}@"
++ "[%{public}@] Failed to create birth date for confirmed deviation metadata"
++ "[%{public}@] Failed to fetch date of birth for confirmed deviation metadata: %{public}@"
++ "[%{public}@] Menopause unsupported for UI/analysis: %@"
++ "[%{public}@] Save cycle history and analyze for unconfirmed deviations"
++ "[%{public}@] Skipping background analysis: feature not onboarded"
++ "[%{public}@] Using %{public}@ menopause samples as ongoing from state manager (primary: value=%@ startDate=%{public}@)"
++ "[%{public}s] Error enumerating %s entities: %s"
++ "bleeding post menopause"
++ "current operationState: "
++ "hasBleedingAfterMenopauseSamples"
++ "logBleedingAfterMenopauseEnabled"
++ "menopause"
++ "menopause state"
++ "ongoingMenopause"
++ "ongoingPerimenopause"
++ "weeksSinceMenopauseStart"
++ "weeksSincePerimenopauseStart"
+- "\v"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<HDFeatureAvailabilityExtension>\"24@0:8@\"NSString\"16"
+- "@\"<HDFeatureAvailabilityHealthDataRequirementEvaluator>\"24@0:8@\"<HKFeatureAvailabilityRequirement>\"16"
+- "@\"<HDHealthDaemonExtension>\"24@0:8@\"<HDHealthDaemon>\"16"
+- "@\"<HDMCWatchSettingsCompatibilityManagerDelegate>\""
+- "@\"<HDProfileExtension>\"24@0:8@\"HDProfile\"16"
+- "@\"<HDSampleSaving>\"16@0:8"
+- "@\"<HKFeatureAvailabilityProviding>\"16@0:8"
+- "@\"<HKMCPregnancyModelProviding>\"16@0:8"
+- "@\"HAMenstrualAlgorithmsAnalysis\""
+- "@\"HDAnalyticsDailyEventManager\""
+- "@\"HDAssertion\""
+- "@\"HDBackgroundFeatureDeliveryManager\""
+- "@\"HDDeviceKeyValueStoreManager\""
+- "@\"HDFeatureAvailabilityManager\""
+- "@\"HDHealthStoreClient\""
+- "@\"HDKeyValueDomain\""
+- "@\"HDMCAccountDevicesInfo\""
+- "@\"HDMCAnalysisManager\""
+- "@\"HDMCAnalysisScheduler\""
+- "@\"HDMCAnalyticsManager\""
+- "@\"HDMCDeviationInputManager\""
+- "@\"HDMCDeviceInfo\""
+- "@\"HDMCDeviceScopedStorageManager\""
+- "@\"HDMCNotificationManager\""
+- "@\"HDMCNotificationSyncManager\""
+- "@\"HDMCOvulationConfirmationStateManager\""
+- "@\"HDMCPostInstallUpdateManager\""
+- "@\"HDMCPregnancyManager\""
+- "@\"HDMCProfileExtension\""
+- "@\"HDMCWatchSettingsCompatibilityManager\""
+- "@\"HDMultiTypeSortedSampleIterator\""
+- "@\"HDNotificationSyncClient\""
+- "@\"HDPrimaryProfile\""
+- "@\"HDProfile\""
+- "@\"HDRestorableAlarm\""
+- "@\"HDSettingsMigrationManager\""
+- "@\"HDStateSyncEntitySchema\"16@0:8"
+- "@\"HDWatchSettingsReconciliationManager\""
+- "@\"HKCalendarCache\""
+- "@\"HKFeatureAvailabilityOnboardingEligibility\"32@0:8@\"NSString\"16^@24"
+- "@\"HKFeatureAvailabilityRequirementSet\"24@0:8^@16"
+- "@\"HKFeatureOnboardingRecord\"24@0:8^@16"
+- "@\"HKFeatureSettings\""
+- "@\"HKFeatureStatus\"24@0:8^@16"
+- "@\"HKFeatureStatusManager\""
+- "@\"HKMCAnalysis\""
+- "@\"HKMCAnalysisQueryConfiguration\""
+- "@\"HKMCDaySummaryQueryConfiguration\""
+- "@\"HKMCPregnancyModel\"16@0:8"
+- "@\"HKMCSettingsManager\""
+- "@\"HKObserverSet\""
+- "@\"HKPairedFeatureAttributes\"24@0:8^@16"
+- "@\"HKQuantity\""
+- "@\"HKRegionAvailability\"24@0:8^@16"
+- "@\"HKSPSleepStore\""
+- "@\"HKWristDetectionSettingManager\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSDate\"24@0:8^@16"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"32@0:8@\"HKAnalyticsDataSource\"16^@24"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"24@0:8^@16"
+- "@\"NSNumber\"32@0:8@\"<HKFeatureAvailabilityRequirement>\"16^@24"
+- "@\"NSNumber\"32@0:8@\"NSString\"16^@24"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUserDefaults\""
+- "@\"NSXPCListenerEndpoint\"32@0:8@\"HDXPCClient\"16^@24"
+- "@\"_HKDelayedOperation\""
+- "@\"_TtC27HealthMenstrualCyclesDaemon20HDMCPregnancyManager\""
+- "@\"_TtC27HealthMenstrualCyclesDaemon26HDMCExperienceModelManager\""
+- "@\"_TtC27HealthMenstrualCyclesDaemon27HDMCWidgetSchedulingManager\""
+- "@\"_TtC27HealthMenstrualCyclesDaemon33HDMCPregnancyRequirementEvaluator\""
+- "@\"_TtC27HealthMenstrualCyclesDaemon37HDMCPregnancyFeatureAdjustmentManager\""
+- "@104@0:8@16@24Q32@40@48@56q64q72@80B88B92@96"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@28@0:8@16s24"
+- "@28@0:8d16s24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@32@0:8B16B20^@24"
+- "@32@0:8q16@24"
+- "@32@0:8q16B24B28"
+- "@32@0:8{?=qq}16"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16B24B28^@32"
+- "@40@0:8^@16q24@32"
+- "@40@0:8q16@24@32"
+- "@40@0:8q16@24^@32"
+- "@40@0:8q16@24q32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32^@40"
+- "@48@0:8@16@24^@32@40"
+- "@48@0:8@16q24@32@40"
+- "@48@0:8@16q24d32d40"
+- "@48@0:8d16d24d32@40"
+- "@48@0:8q16@24@32@40"
+- "@48@0:8q16@24@32^@40"
+- "@48@0:8q16@24q32q40"
+- "@48@0:8{?=qq}16@32^@40"
+- "@52@0:8@16@24@32B40q44"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24@32@40^@48"
+- "@56@0:8@16@24@32q40^@48"
+- "@56@0:8@16@24{?=qq}32@48"
+- "@56@0:8q16@24@32@40@48"
+- "@56@0:8q16@24@32@40^@48"
+- "@56@0:8q16q24q32q40q48"
+- "@56@0:8{?=qq}16@32@40^@48"
+- "@60@0:8@16@24{?=qq}32B48B52B56"
+- "@64@0:8@16@24@32@40@48@56"
+- "@64@0:8B16B20q24q32q40q48q56"
+- "@72@0:8@16@24@32@40@48@56^@64"
+- "@80@0:8@16@24@32@40@48@56@64@72"
+- "@80@0:8@16@24@32@40q48@56@64^@72"
+- "@96@0:8@16@24@32@40@48@56@64@72@?80@?88"
+- "@?"
+- "@?16@0:8"
+- "Analysis"
+- "Analytics"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<HDHealthDaemon>\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@0:8^@16@?24"
+- "B36@0:8@16B24^@28"
+- "B40@0:8@16@24^@32"
+- "B40@0:8^@16@24^@32"
+- "B40@?0@\"HKSample\"8@\"HKDeletedObject\"16q24^@32"
+- "B44@0:8@16@24B32^@36"
+- "B44@0:8q16@24B32^@36"
+- "B48@0:8@\"<HDCloudSyncStateStore>\"16@\"HDProfile\"24@\"HDDatabaseTransaction\"32^@40"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16q24@32^@40"
+- "B48@0:8q16q24@32^@40"
+- "B48@0:8{?=qq}16@32^@40"
+- "B52@0:8@16@24@32B40^@44"
+- "B56@0:8q16{?=qq}24@40^@48"
+- "B64@0:8@16@24@?32@40@?48^@56"
+- "B72@0:8@16@24@32@40@48@56^@64"
+- "B80@0:8@16@24@32@40@48@56@64^@72"
+- "CycleFactorsAutomaticUpgrade"
+- "Deviation"
+- "HDAnalyticsSubmissionCoordinatorDelegate"
+- "HDCloudSyncStateEntity"
+- "HDCloudSyncStateEntityProvider"
+- "HDDataObserver"
+- "HDDatabaseProtectedDataObserver"
+- "HDDiagnosticObject"
+- "HDFeatureAvailabilityExtensionObserver"
+- "HDFeatureAvailabilityExtensionProvider"
+- "HDFeatureAvailabilityHealthDataRequirementEvaluator"
+- "HDFeatureAvailabilityHealthDataRequirementEvaluatorProvider"
+- "HDFeatureSettingsManagerObserver"
+- "HDHealthDaemonReadyObserver"
+- "HDMCAccountDevicesInfo"
+- "HDMCAnalysisManager"
+- "HDMCAnalysisQueryServer"
+- "HDMCAnalysisScheduler"
+- "HDMCAnalyticsManager"
+- "HDMCDailyMetric"
+- "HDMCDaySummaryBuilder"
+- "HDMCDaySummaryEnumerator"
+- "HDMCDaySummaryObserverQueryServer"
+- "HDMCDaySummaryQueryServer"
+- "HDMCDeviationInputManager"
+- "HDMCDeviceInfo"
+- "HDMCDeviceScopedStorageManager"
+- "HDMCDiagnosticsServer"
+- "HDMCExperienceModelStateSyncEntity"
+- "HDMCExperienceStoreServer"
+- "HDMCHeartStatisticsEnumerator"
+- "HDMCNotification"
+- "HDMCNotificationSyncManager"
+- "HDMCOvulationConfirmationNotification"
+- "HDMCOvulationConfirmationNotificationFeatureOffState"
+- "HDMCOvulationConfirmationNotificationFiredState"
+- "HDMCOvulationConfirmationNotificationScheduledState"
+- "HDMCOvulationConfirmationNotificationStateMachineState"
+- "HDMCOvulationConfirmationNotificationWaitingState"
+- "HDMCOvulationConfirmationStateManager"
+- "HDMCPluginServer"
+- "HDMCPostInstallUpdateManager"
+- "HDMCRecentBasalBodyTemperatureRange"
+- "HDMCRecentBasalBodyTemperatureRangeQuery"
+- "HDMCSymptomHistoryBuilder"
+- "HDMCUnconfirmedDeviationNotification"
+- "HDMCUnconfirmedDeviationNotificationScheduledState"
+- "HDMCUnconfirmedDeviationNotificationStateMachineState"
+- "HDMCUnconfirmedDeviationNotificationWaitingState"
+- "HDMCWatchFeatureSettings"
+- "HDMCWatchSettingsCompatibilityManager"
+- "HDMCWatchSettingsCompatibilityManagerDelegate"
+- "HDMCWristTemperatureDailyAnalyticsEvent"
+- "HDMenstrualCycles"
+- "HDMenstrualCyclesDiagnosticsServerInterface"
+- "HDMenstrualCyclesPlugin"
+- "HDMenstrualCyclesPluginServerInterface"
+- "HDNotificationSyncClientDelegate"
+- "HDPlugin"
+- "HDPostInstallUpdateTaskHandler"
+- "HDProfileExtension"
+- "HDProfileReadyObserver"
+- "HDProtectedDataOperationDelegate"
+- "HDQueryServerDelegate"
+- "HDSettingsMigrationManagerDelegate"
+- "HDTaskServerClassProvider"
+- "HDTaskServerDelegate"
+- "HDWatchSettingsReconciliationManagerDelegate"
+- "HKAnalyticsEvent"
+- "HKFeatureAvailabilityProviding"
+- "HKFeatureAvailabilityProvidingObserver"
+- "HKFeatureStatusProviding"
+- "HKFeatureStatusProvidingObserver"
+- "HKMCAnalysisManagerObserver"
+- "HKMCAnalysisProviding"
+- "HKMCDeviceLocalProtected"
+- "HKMCExperienceStoreStoreClient"
+- "HKMCExperienceStoreStoreServer"
+- "HKMCPregnancyModelObserver"
+- "HKMCPregnancyModelProviding"
+- "HKMCPregnancyModelProvidingInterface"
+- "HKMCPregnancyStateQueryClientInterface"
+- "HKMCSettingsManagerObserver"
+- "HKMCSyncedButNotToWatchProtected"
+- "HKMCSyncedProtected"
+- "HKMCSyncedUnprotected"
+- "HKMenstrualCycles"
+- "HKQueryClientInterface"
+- "HKRedactedDescription"
+- "HealthMenstrualCyclesDaemon"
+- "HealthMenstrualCyclesDaemon1"
+- "HealthMenstrualCyclesDaemon2"
+- "HealthMenstrualCyclesDaemon3"
+- "HealthMenstrualCyclesDaemon4"
+- "MenstrualCyclesDeviationDetection"
+- "MenstrualCyclesHeartRateInput"
+- "MenstrualCyclesWristTemperatureInput"
+- "NSCopying"
+- "NSObject"
+- "NotificationTiming"
+- "Onboarding"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<HDMCWatchSettingsCompatibilityManagerDelegate>\",W,N,V_delegate"
+- "T@\"<HKFeatureAvailabilityProviding>\",R,N"
+- "T@\"HDMCAccountDevicesInfo\",C,N,V_unitTest_accountDevicesInfo"
+- "T@\"HDMCAnalysisManager\",R,N,V_analysisManager"
+- "T@\"HDMCDeviceScopedStorageManager\",R,N,V_deviceScopedStorageManager"
+- "T@\"HDMCNotification\",R,C,N"
+- "T@\"HDMCNotificationManager\",R,N,V_notificationManager"
+- "T@\"HDMCNotificationSyncManager\",R,N,V_notificationSyncManager"
+- "T@\"HDNotificationSyncClient\",R,N,V_notificationSyncClient"
+- "T@\"HDPrimaryProfile\",R,W,N,V_profile"
+- "T@\"HDProfile\",W,N,V_profile"
+- "T@\"HDRestorableAlarm\",R,N,V_scheduler"
+- "T@\"HDStateSyncEntitySchema\",N,R"
+- "T@\"HDStateSyncEntitySchema\",R,C,N"
+- "T@\"HKMCAnalysis\",R,C,N"
+- "T@\"HKMCSettingsManager\",R,N,V_settingsManager"
+- "T@\"HKNotificationInstruction\",R,C,N"
+- "T@\"HKQuantity\",R,C,N,V_lowerQuantile"
+- "T@\"HKQuantity\",R,C,N,V_median"
+- "T@\"HKQuantity\",R,C,N,V_upperQuantile"
+- "T@\"NSArray\",R,C,N,V_orderedWatchSources"
+- "T@\"NSDate\",&,N,V_unitTest_currentDateOverride"
+- "T@\"NSDictionary\",C,N,V_eventPayload"
+- "T@\"NSNumber\",&,N,GisOnboardingCompleted,V_onboardingCompleted"
+- "T@\"NSNumber\",&,N,GisOngoingContraception,V_ongoingContraception"
+- "T@\"NSNumber\",&,N,GisOngoingLactation,V_ongoingLactation"
+- "T@\"NSNumber\",&,N,GisOngoingPregnancy,V_ongoingPregnancy"
+- "T@\"NSNumber\",&,N,V_age"
+- "T@\"NSNumber\",&,N,V_areHealthNotificationsAuthorized"
+- "T@\"NSNumber\",&,N,V_biologicalSex"
+- "T@\"NSNumber\",&,N,V_countConfirmedInfrequentDeviationPastYear"
+- "T@\"NSNumber\",&,N,V_countConfirmedIrregularDeviationPastYear"
+- "T@\"NSNumber\",&,N,V_countConfirmedProlongedDeviationPastYear"
+- "T@\"NSNumber\",&,N,V_countConfirmedSpottingDeviationPastYear"
+- "T@\"NSNumber\",&,N,V_countDetectedInfrequentDeviationsPastYear"
+- "T@\"NSNumber\",&,N,V_countDetectedIrregularDeviationsInPastYear"
+- "T@\"NSNumber\",&,N,V_countDetectedProlongedDeviationsPastYear"
+- "T@\"NSNumber\",&,N,V_countDetectedSpottingDeviationsPastYear"
+- "T@\"NSNumber\",&,N,V_countPairedVisionPro"
+- "T@\"NSNumber\",&,N,V_countPairedWatch"
+- "T@\"NSNumber\",&,N,V_countPairediPad"
+- "T@\"NSNumber\",&,N,V_countPairediPhone"
+- "T@\"NSNumber\",&,N,V_countTotalConfirmedDeviationsPastMonth"
+- "T@\"NSNumber\",&,N,V_countTotalConfirmedDeviationsPastYear"
+- "T@\"NSNumber\",&,N,V_countTotalDetectedDeviationsPastMonth"
+- "T@\"NSNumber\",&,N,V_countTotalDetectedDeviationsPastYear"
+- "T@\"NSNumber\",&,N,V_countWatchesWithWristTempMeasurementDataInLast45Days"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles_ConfirmedOPK"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles_ConfirmedWristTemp"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles_FailedAvailability"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles_FailedNoise"
+- "T@\"NSNumber\",&,N,V_countWristTempEligibleHistoricalCycles_FailedOther"
+- "T@\"NSNumber\",&,N,V_cycleLengthVariationLowerPercentile"
+- "T@\"NSNumber\",&,N,V_cycleLengthVariationUpperPercentile"
+- "T@\"NSNumber\",&,N,V_daysBeforeFertileWindowEnd"
+- "T@\"NSNumber\",&,N,V_daysBeforeMostLikelyPeriodPredictionStart"
+- "T@\"NSNumber\",&,N,V_daysFertileWindowShifted"
+- "T@\"NSNumber\",&,N,V_daysFirstPeriodPredictionShifted"
+- "T@\"NSNumber\",&,N,V_daysSinceCycleStart"
+- "T@\"NSNumber\",&,N,V_daysSinceDeviationTilePosted"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn10DaysAfterOvulation"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn10DaysBeforeCalendarOvulation"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn3DaysAfterCalendarOvulation"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn45DaysBeforeFertileWindowEnd"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn6DaysAfterCalendarOvulation"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempIn6DaysBeforeCalendarOvulation"
+- "T@\"NSNumber\",&,N,V_daysWithWristTempInPast45Days"
+- "T@\"NSNumber\",&,N,V_daysWornWatchToSleepInLast45Days"
+- "T@\"NSNumber\",&,N,V_deviationDetectionInfrequentEnabled"
+- "T@\"NSNumber\",&,N,V_deviationDetectionIrregularEnabled"
+- "T@\"NSNumber\",&,N,V_deviationDetectionProlongedEnabled"
+- "T@\"NSNumber\",&,N,V_deviationDetectionSpottingEnabled"
+- "T@\"NSNumber\",&,N,V_didFirstPeriodPredictionShift"
+- "T@\"NSNumber\",&,N,V_fertilityNotificationEnabled"
+- "T@\"NSNumber\",&,N,V_fertilityPredictionEnabled"
+- "T@\"NSNumber\",&,N,V_gestationalAge"
+- "T@\"NSNumber\",&,N,V_hasCompatiblePairedAppleWatch"
+- "T@\"NSNumber\",&,N,V_hasConfirmedInfrequentDeviationPastMonth"
+- "T@\"NSNumber\",&,N,V_hasConfirmedIrregularDeviationPastMonth"
+- "T@\"NSNumber\",&,N,V_hasConfirmedProlongedDeviationPastMonth"
+- "T@\"NSNumber\",&,N,V_hasConfirmedSpottingDeviationPastMonth"
+- "T@\"NSNumber\",&,N,V_hasFirstPartySleepSamplesPast48Hours"
+- "T@\"NSNumber\",&,N,V_hasOnboardedPregnancyMode"
+- "T@\"NSNumber\",&,N,V_hasPregnancyInMedicalID"
+- "T@\"NSNumber\",&,N,V_hasSameAlgorithmVersionOnPairedWatch"
+- "T@\"NSNumber\",&,N,V_hasSleepSamplesPast48Hours"
+- "T@\"NSNumber\",&,N,V_hasWristTemperatureCompatiblePairedWatch"
+- "T@\"NSNumber\",&,N,V_internalLiveOnCycleFactorOverrideEnabled"
+- "T@\"NSNumber\",&,N,V_isEligibleForCycleFactorsReminder"
+- "T@\"NSNumber\",&,N,V_isSleepConfiguredToAllowWristTemperatureMeasurements"
+- "T@\"NSNumber\",&,N,V_isSleepScheduleEnabled"
+- "T@\"NSNumber\",&,N,V_isSleepScreenEnabled"
+- "T@\"NSNumber\",&,N,V_logBasalBodyTemperatureEnabled"
+- "T@\"NSNumber\",&,N,V_logCervicalMucusQualityEnabled"
+- "T@\"NSNumber\",&,N,V_logFactorsEnabled"
+- "T@\"NSNumber\",&,N,V_logOvulationTestResultEnabled"
+- "T@\"NSNumber\",&,N,V_logPregnancyTestResultEnabled"
+- "T@\"NSNumber\",&,N,V_logProgesteroneTestResultEnabled"
+- "T@\"NSNumber\",&,N,V_logSexualActivityEnabled"
+- "T@\"NSNumber\",&,N,V_logSpottingEnabled"
+- "T@\"NSNumber\",&,N,V_logSymptomsEnabled"
+- "T@\"NSNumber\",&,N,V_numberOfCyclesSinceLastDayOfLogging"
+- "T@\"NSNumber\",&,N,V_numberOfCyclesSinceLastDayOfLoggingInCycleTracking"
+- "T@\"NSNumber\",&,N,V_numberOfDailyAwakeHeartRateStatisticsForPast100Days"
+- "T@\"NSNumber\",&,N,V_numberOfDailySleepHeartRateStatisticsForPast100Days"
+- "T@\"NSNumber\",&,N,V_numberOfDaysSinceLastFiredUpdateFertileWindowNotification"
+- "T@\"NSNumber\",&,N,V_onboardedVersion"
+- "T@\"NSNumber\",&,N,V_periodNotificationEnabled"
+- "T@\"NSNumber\",&,N,V_periodPredictionEnabled"
+- "T@\"NSNumber\",&,N,V_pregnancyModeState"
+- "T@\"NSNumber\",&,N,V_sensorBasedPredictionEnabled"
+- "T@\"NSNumber\",&,N,V_wasDeviationDetectionDelivered"
+- "T@\"NSNumber\",&,N,V_wasHeartRateInputDelivered"
+- "T@\"NSNumber\",&,N,V_wasWristTemperatureInputDelivered"
+- "T@\"NSNumber\",&,N,V_weeksSinceOnboarded"
+- "T@\"NSNumber\",&,N,V_weeksSinceOnboardedPregnancyMode"
+- "T@\"NSNumber\",&,N,V_weeksSinceOnboardedWristTemperatureOvulationPrediction"
+- "T@\"NSNumber\",&,N,V_wristTemperatureBasedPredictionEnabled"
+- "T@\"NSNumber\",R,C,N,V_fireDayIndex"
+- "T@\"NSNumber\",R,C,N,V_notificationPreviouslyFiredDayIndex"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSSet\",N,R"
+- "T@\"NSString\",&,N,V_activeWatchProductType"
+- "T@\"NSString\",&,N,V_heartRateInputDeliveryCountryCode"
+- "T@\"NSString\",&,N,V_predictionPrimarySourceTypeFertileWindow"
+- "T@\"NSString\",&,N,V_predictionPrimarySourceTypeFirstPeriodPrediction"
+- "T@\"NSString\",&,N,V_wristTemperatureInputDeliveryCountryCode"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_category"
+- "T@\"NSString\",R,C,N,V_featureIdentifier"
+- "T@\"NSString\",R,N"
+- "T@\"_TtC27HealthMenstrualCyclesDaemon20HDMCPregnancyManager\",R,N,V_pregnancyManager"
+- "T@\"_TtC27HealthMenstrualCyclesDaemon26HDMCExperienceModelManager\",R,N,V_experienceModelManager"
+- "T@\"_TtC27HealthMenstrualCyclesDaemon27HDMCWidgetSchedulingManager\",R,N,V_widgetSchedulingManager"
+- "T@\"_TtC27HealthMenstrualCyclesDaemon33HDMCPregnancyRequirementEvaluator\",R,N,V_pregnancyRequirementEvaluator"
+- "T@\"_TtC27HealthMenstrualCyclesDaemon37HDMCPregnancyFeatureAdjustmentManager\",R,N,V_pregnancyFeatureAdjustmentManager"
+- "T@?,C,N,V__test_didNotUpgradeOnboardingRecord"
+- "T@?,C,N,V_unitTest_didProcessNotificationInstruction"
+- "T@?,C,N,V_unitTest_didSkipNotificationForDueEventHandler"
+- "TB,N,GisImproveHealthAndActivityAllowed,V_improveHealthAndActivityAllowed"
+- "TB,R,N"
+- "TB,R,N,V_fertileWindowNotificationsEnabled"
+- "TB,R,N,V_menstruationNotificationsEnabled"
+- "TQ,N,V_recentSymptoms"
+- "TQ,R"
+- "Tq,R,N,V_correlatingPeriodStartDayIndex"
+- "Tq,R,N,V_dayIndex"
+- "Tq,R,N,V_dayStreamProcessorAlgorithmVersion"
+- "Tq,R,N,V_daysShifted"
+- "Tq,R,N,V_daysShiftedForFertileWindow"
+- "Tq,R,N,V_daysWithWristTemp45DaysBeforeOvulationConfirmed"
+- "Tq,R,N,V_fertileWindowEndDayIndex"
+- "Tq,R,N,V_fireDayIndex"
+- "Tq,R,N,V_fireOnDayIndex"
+- "UUID"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_IHAGatedDemographicsFieldsWithDataSource:"
+- "_IHAGatedLastSleepDayWristTemperatureFieldsWithCurrentDate:gregorianCalendar:"
+- "_IHAGatedSleepingWristTemperatureStatisticsFieldsWithCurrentDate:gregorianCalendar:"
+- "_TtC27HealthMenstrualCyclesDaemon20HDMCPregnancyManager"
+- "_TtC27HealthMenstrualCyclesDaemon25HDMCExperienceDaemonStore"
+- "_TtC27HealthMenstrualCyclesDaemon26HDMCExperienceModelManager"
+- "_TtC27HealthMenstrualCyclesDaemon27HDMCWidgetSchedulingManager"
+- "_TtC27HealthMenstrualCyclesDaemon29HDMCPregnancyStateQueryServer"
+- "_TtC27HealthMenstrualCyclesDaemon33HDMCPregnancyRequirementEvaluator"
+- "_TtC27HealthMenstrualCyclesDaemon37HDMCPregnancyFeatureAdjustmentManager"
+- "_TtC27HealthMenstrualCyclesDaemon39ExperienceModelSyncStateUpdaterDelegate"
+- "_TtC27HealthMenstrualCyclesDaemon44CoherentExperienceSetupRecordDatabaseWrapper"
+- "_TtP27HealthMenstrualCyclesDaemon23ExperienceModelProvider_"
+- "_TtP27HealthMenstrualCyclesDaemon34HDMCExperienceModelManagerObserver_"
+- "__test_didNotUpgradeOnboardingRecord"
+- "_activeWatchProductType"
+- "_addSample:toBuilders:atDayIndex:"
+- "_addSample:toBuilders:inRange:"
+- "_addSample:toBuilders:sampleRange:"
+- "_age"
+- "_allNoiseFieldsWithCurrentDate:gregorianCalendar:"
+- "_analysis"
+- "_analysisManager"
+- "_analysisQueryClientProxy"
+- "_analysisScheduler"
+- "_analysisWithAlgorithmsAnalysis:algorithmsCycles:recentSymptoms:mostRecentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:featureSettings:useHeartRateInput:useWristTemperatureInput:deviationsFeatureSettings:"
+- "_analyticsKeyValueDomain"
+- "_analyticsManager"
+- "_analyzeOperation"
+- "_analyzeWithForceIncludeCycles:forceAnalyzeCompleteHistory:error:"
+- "_appProtectedKeyValueDomain"
+- "_areBloodOxygenMeasurementsEnabledWithDataSource:"
+- "_areHealthNotificationsAuthorized"
+- "_areRespiratoryRateMeasurementsEnabledWithDataSource:"
+- "_ascending"
+- "_asleepSleepAnalysisDateIntervalTreeOnDayIndex:calendar:error:"
+- "_basalBodyTemperature"
+- "_basalBodyTemperatureSamples"
+- "_baselineRelativeDoubleValueForUnit:"
+- "_biologicalSex"
+- "_biologicalSexString"
+- "_bleedingAfterPregnancyFlow"
+- "_bleedingAfterPregnancyFlowSamples"
+- "_bleedingInPregnancyFlow"
+- "_bleedingInPregnancyFlowSamples"
+- "_bridging_analysisProviding"
+- "_bucketedWeeksSinceDate:dataSource:"
+- "_cachingSessionWithCalendar:error:"
+- "_calendarCache"
+- "_calendarDayDidChange:"
+- "_category"
+- "_celsiusValueFromQuantity:scale:"
+- "_cervicalMucusQuality"
+- "_cervicalMucusQualitySamples"
+- "_changeComputer"
+- "_changeInCelsiusStringFromQuantity:scale:"
+- "_changeInDegreeCelsiusUnit"
+- "_client"
+- "_closeBuilders:withIndexes:handler:stop:"
+- "_collectDiagnosticFieldsForMetric:settingsManager:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:"
+- "_collectSensitiveFieldsForMetric:settingsManager:menstrualCyclesSettings:heartRateInputFeatureStatus:deviationDetectionSettings:wristTemperatureInputFeatureStatus:gregorianCalendar:error:"
+- "_configuration"
+- "_correlatingPeriodStartDayIndex"
+- "_countConfirmedInfrequentDeviationPastYear"
+- "_countConfirmedIrregularDeviationPastYear"
+- "_countConfirmedProlongedDeviationPastYear"
+- "_countConfirmedSpottingDeviationPastYear"
+- "_countDetectedInfrequentDeviationsPastYear"
+- "_countDetectedIrregularDeviationsInPastYear"
+- "_countDetectedProlongedDeviationsPastYear"
+- "_countDetectedSpottingDeviationsPastYear"
+- "_countDeviationSamplesInPastYearOfType:profile:calendar:error:"
+- "_countOfLast30DaysWithSleepSamplesWithCurrentDate:calendarCache:"
+- "_countOfLast30DaysWithSleepingWristTemperatureSamplesWithCurrentDate:gregorianCalendar:"
+- "_countOfUniqueSerialNumbersFromSamples:"
+- "_countOfUniqueSourcesFromSamples:"
+- "_countOfUniqueSourcesOfWristTemperatureSamplesFieldsWithCurrentDate:gregorianCalendar:"
+- "_countPairedVisionPro"
+- "_countPairedWatch"
+- "_countPairediPad"
+- "_countPairediPhone"
+- "_countTotalConfirmedDeviationsPastMonth"
+- "_countTotalConfirmedDeviationsPastYear"
+- "_countTotalDetectedDeviationsPastMonth"
+- "_countTotalDetectedDeviationsPastYear"
+- "_countWatchesWithWristTempMeasurementDataInLast45Days"
+- "_countWristTempEligibleHistoricalCycles"
+- "_countWristTempEligibleHistoricalCycles_ConfirmedOPK"
+- "_countWristTempEligibleHistoricalCycles_ConfirmedWristTemp"
+- "_countWristTempEligibleHistoricalCycles_FailedAvailability"
+- "_countWristTempEligibleHistoricalCycles_FailedNoise"
+- "_countWristTempEligibleHistoricalCycles_FailedOther"
+- "_creationDate"
+- "_currentDate"
+- "_cycleLengthVariationLowerPercentile"
+- "_cycleLengthVariationUpperPercentile"
+- "_databaseAccessibilityAssertion"
+- "_dayIndex"
+- "_dayIndexAfterLastDeviationOfType:profile:calendar:"
+- "_dayIndexRange"
+- "_dayStreamProcessorAlgorithmVersion"
+- "_dayStreamProcessorProvider"
+- "_daySummaryWithOverrideSourceIDBySourceID:ignoreCycleFactors:ignoreOvulationTestResults:"
+- "_daysBeforeFertileWindowEnd"
+- "_daysBeforeMostLikelyPeriodPredictionStart"
+- "_daysFertileWindowShifted"
+- "_daysFirstPeriodPredictionShifted"
+- "_daysShifted"
+- "_daysShiftedForFertileWindow"
+- "_daysSinceCycleStart"
+- "_daysSinceDeviationTilePosted"
+- "_daysWithSleepSamples:calendar:"
+- "_daysWithStandHoursInLast30DaysWithCurrentDate:gregorianCalendar:"
+- "_daysWithWristTemp45DaysBeforeOvulationConfirmed"
+- "_daysWithWristTempIn10DaysAfterOvulation"
+- "_daysWithWristTempIn10DaysBeforeCalendarOvulation"
+- "_daysWithWristTempIn3DaysAfterCalendarOvulation"
+- "_daysWithWristTempIn45DaysBeforeFertileWindowEnd"
+- "_daysWithWristTempIn6DaysAfterCalendarOvulation"
+- "_daysWithWristTempIn6DaysBeforeCalendarOvulation"
+- "_daysWithWristTempInPast45Days"
+- "_daysWithWristTemperatureSamplesInDayIndexRange:calendarCache:error:"
+- "_daysWithWristTemperatureSamplesInDayIndexRange:profile:calendarCache:error:"
+- "_daysWornWatchToSleepInLast45Days"
+- "_delayUntilNextAnalysisSchedulingWindowStartDateAfterDate:"
+- "_delegate"
+- "_deviationDetectionAnalyticsKeyValueDomain"
+- "_deviationDetectionFeatureAvailabilityManager"
+- "_deviationDetectionFeatureStatusManager"
+- "_deviationDetectionInfrequentEnabled"
+- "_deviationDetectionIrregularEnabled"
+- "_deviationDetectionProlongedEnabled"
+- "_deviationDetectionSpottingEnabled"
+- "_deviationDismissalKeyValueDomain"
+- "_deviationInputManager"
+- "_deviationsBackgroundFeatureDeliveryManager"
+- "_deviationsFeatureAvailabilityManager"
+- "_deviationsFeatureStatusManager"
+- "_deviceScopedStorageManager"
+- "_didFirstPeriodPredictionShift"
+- "_discreteRelativeSleepingWristTemperatureStatisticsLast30DaysWithCurrentDate:gregorianCalendar:dominantWatchSourceEntityPredicate:"
+- "_discreteSleepingWristTemperatureStatisticsLast30DaysWithCurrentDate:gregorianCalendar:dominantWatchSourceEntityPredicate:"
+- "_dominantSleepingWristTemperatureSourceEntityPredicateOverLastNDays:currentDate:gregorianCalendar:"
+- "_dominantSleepingWristTemperatureSourceOverLastNDays:currentDate:gregorianCalendar:"
+- "_dominantWatchLast30DaysFieldsWithCurrentDate:gregorianCalendar:"
+- "_eligibleCyclesStartPastDayIndex:"
+- "_endedCycleFactors"
+- "_eventPayload"
+- "_experienceModelManager"
+- "_featureAvailabilityManager"
+- "_featureIdentifier"
+- "_featureStatusForFeatureIdentifier:dataSource:error:"
+- "_fertileWindowEndDayIndex"
+- "_fertileWindowNotificationKeyValueDomain"
+- "_fertileWindowNotificationStateKeyValueDomain"
+- "_fertileWindowNotificationsEnabled"
+- "_fertilityNotificationEnabled"
+- "_fertilityPredictionEnabled"
+- "_fireDayIndex"
+- "_fireOnDayIndex"
+- "_firstPartySleepSamplesFromLastNSleepDays:currentDate:gregorianCalendar:"
+- "_forceDisablePredictionsFromOngoingCycleFactors:menstruationProjectionsEnabled:fertileWindowProjectionsEnabled:useHeartRateInput:useWristTemperatureInput:"
+- "_gestationalAge"
+- "_getDeviationDetectedCountForDeviationType:gregorianCalendar:domain:error:"
+- "_handleActivity:forceRescheduleOnCheckIn:"
+- "_handleAnalysis:"
+- "_handleDismissInstructionWithClient:"
+- "_hasCompatiblePairedAppleWatch"
+- "_hasConfirmedDeviationInPastMonthOfType:profile:calendar:error:"
+- "_hasConfirmedInfrequentDeviationPastMonth"
+- "_hasConfirmedIrregularDeviationPastMonth"
+- "_hasConfirmedProlongedDeviationPastMonth"
+- "_hasConfirmedSpottingDeviationPastMonth"
+- "_hasCycleFactorsActive"
+- "_hasFirstPartySleepSamplesPast48Hours"
+- "_hasHealthAppDevicesWithHigherAlgorithmVersions"
+- "_hasOnboardedPregnancyMode"
+- "_hasPregnancyInMedicalID"
+- "_hasSameAlgorithmVersionOnPairedWatch"
+- "_hasSleepSamplesPast48Hours"
+- "_hasWristTemperatureCompatiblePairedWatch"
+- "_hdmc_analysisSchedulingWindowStartComponents"
+- "_hdmc_dateComponentsForNotificationOnDayIndex:timeOfDay:"
+- "_hdmc_firstPeriodStartProjection"
+- "_healthAppDevicesInfo"
+- "_heartRateBackgroundFeatureDeliveryManager"
+- "_heartRateFeatureAvailabilityManager"
+- "_heartRateFeatureStatusManager"
+- "_heartRateInputDeliveryCountryCode"
+- "_heartStatisticsForDayIndex:calendar:errorOut:"
+- "_historicalAnalyzerProvider"
+- "_hoursAsleepDuringLastSleepDayWithCurrentDate:gregorianCalendar:"
+- "_improveHealthAndActivityAllowed"
+- "_initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:dayStreamProcessorProvider:historicalAnalyzerProvider:"
+- "_initWithUpperQuantileValue:medianValue:lowerQuantileValue:unit:"
+- "_insertStatistics:"
+- "_intermenstrualBleeding"
+- "_intermenstrualBleedingSamples"
+- "_internalLiveOnCycleFactorOverrideEnabled"
+- "_isAFibHistoryEnabledWithDataSource:"
+- "_isCycleTrackingWristTemperatureInputEnabledWithDataSource:"
+- "_isDeviceWristTemperatureCompatible:"
+- "_isEligibleForCycleFactorsReminder"
+- "_isHeartRateEnabledInPrivacy"
+- "_isIRNEnabledWithDataSource:"
+- "_isSleepConfiguredToAllowWristTemperatureMeasurements"
+- "_isSleepScheduleEnabled"
+- "_isSleepScreenEnabled"
+- "_isWristDetectionEnabled"
+- "_isWristTemperatureEnabledWithDataSource:"
+- "_iterator"
+- "_keyValueDomain"
+- "_keyValueStore"
+- "_lastAnalysis"
+- "_lastDismissalDayIndex"
+- "_lastSleepDayHasSleepDataFromCompatibleProductTypeWithCurrentDate:gregorianCalendar:"
+- "_lastSleepDayHasSleepDataWithCurrentDate:calendarCache:"
+- "_lastSleepDayHasWristTemperatureDataWithCurrentDate:gregorianCalendar:"
+- "_lastSleepDayRelativeSleepingWristTemperatureWithCurrentDate:gregorianCalendar:"
+- "_localDeviceInfo"
+- "_lock"
+- "_lock_currentAnalysis"
+- "_logBasalBodyTemperatureEnabled"
+- "_logCervicalMucusQualityEnabled"
+- "_logFactorsEnabled"
+- "_logOvulationTestResultEnabled"
+- "_logPregnancyTestResultEnabled"
+- "_logProgesteroneTestResultEnabled"
+- "_logSexualActivityEnabled"
+- "_logSpottingEnabled"
+- "_logSymptomsEnabled"
+- "_lowerQuantile"
+- "_lowerQuantileBound"
+- "_managedFeatures"
+- "_median"
+- "_medianSleepingWristTemperatureLast30DaysWithCurrentDate:gregorianCalendar:dominantWatchSourceEntityPredicate:"
+- "_menstrualFlowSamples"
+- "_menstrualFlowWithModificationDay:startOfCycleFromCycleTracking:"
+- "_menstruationNotificationsEnabled"
+- "_mostRecentDayBySymptom"
+- "_noiseMetricsFromSleepingWristTemperatureSamples:gregorianCalendar:"
+- "_notificationCategoriesWithBasicAnalytics"
+- "_notificationManager"
+- "_notificationPreviouslyFiredDayIndex"
+- "_notificationSyncClient"
+- "_notificationSyncManager"
+- "_numberOfCyclesSinceLastDayOfLogging"
+- "_numberOfCyclesSinceLastDayOfLoggingInCycleTracking"
+- "_numberOfDailyAwakeHeartRateStatisticsForPast100Days"
+- "_numberOfDailySleepHeartRateStatisticsForPast100Days"
+- "_numberOfDaysSinceLastFiredUpdateFertileWindowNotification"
+- "_observers"
+- "_onboardedVersion"
+- "_onboardingCompleted"
+- "_ongoingContraception"
+- "_ongoingLactation"
+- "_ongoingPregnancy"
+- "_orderedWatchSources"
+- "_ovulationConfirmationStateManager"
+- "_ovulationTestResult"
+- "_ovulationTestResultSamples"
+- "_pairedWristTemperatureCompatibleDevice"
+- "_periodEventFromNotificationCategory:notificationFireDayIndex:"
+- "_periodNotificationEnabled"
+- "_periodPredictionEnabled"
+- "_postInstallUpdateManager"
+- "_predicateForAppleWatchSamplesInLast30SleepDaysRelativeToCurrentDate:gregorianCalendar:sampleType:"
+- "_predicateForAppleWatchSamplesInLastNSleepDays:currentDate:gregorianCalendar:sampleType:"
+- "_predicateForAppleWatchSamplesInLastNSleepDays:currentDate:gregorianCalendar:sampleType:sourceEntityPredicate:"
+- "_predicateForFirstPartySleepDataFromPast48HoursWithCalendar:"
+- "_predicateForSleepDataFromPast45DaysWithCalendar:"
+- "_predicateForSleepDataFromPast48HoursWithCalendar:"
+- "_predictionPrimarySourceTypeFertileWindow"
+- "_predictionPrimarySourceTypeFirstPeriodPrediction"
+- "_preferredSleepingWristTemperatureUnit"
+- "_pregnancyFeatureAdjustmentManager"
+- "_pregnancyManager"
+- "_pregnancyModeState"
+- "_pregnancyRequirementEvaluator"
+- "_pregnancyTestResult"
+- "_pregnancyTestResultSamples"
+- "_privacyDefaults"
+- "_processorConfigurationForTodayIndex:deviationsFeatureStatus:calendar:"
+- "_productType"
+- "_profile"
+- "_profileExtension"
+- "_progesteroneTestResult"
+- "_progesteroneTestResultSamples"
+- "_queue"
+- "_queue_alarm:didReceiveDueEvents:"
+- "_queue_analyzeIfNeeded"
+- "_queue_analyzeNowWithForceIncludeCycles:forceAnalyzeCompleteHistory:error:"
+- "_queue_clearStateIfNecessary"
+- "_queue_computeAnalysisWithDatabaseAccessibilityAssertion:forceIncludeCycles:forceAnalyzeCompleteHistory:error:"
+- "_queue_computeAndApplyChangesForAllFeatures"
+- "_queue_computeAndApplyChangesForFeature:"
+- "_queue_deleteCycleFactorSamples:error:"
+- "_queue_deleteSamplesOfType:onDayIndex:calendarCache:error:"
+- "_queue_deliverUpdate"
+- "_queue_enqueueMaintenanceOperationIfNeeded"
+- "_queue_insertSamplesWithClientSource:creationDate:error:"
+- "_queue_insertSamplesWithClientSource:error:"
+- "_queue_lastFeatureSettings"
+- "_queue_maintenanceOperationQueued"
+- "_queue_mostRecentMenstrualFlowSampleWithError:requiringBeforeDay:calendarCache:"
+- "_queue_needsMaintenanceAnalysis"
+- "_queue_notificationOrSensorInputSettingsDidChange"
+- "_queue_reconcileSamplesToDeriveDaySummary:analysis:canOverrideCreationDate:error:"
+- "_queue_removeAllScheduledNotificationsIfNotEnabled"
+- "_queue_rescheduleNotificationsForAnalysis:"
+- "_queue_runMaintenanceOperation"
+- "_queue_saveBleedingFlowByDayIndex:forBleedingType:calendarCache:error:"
+- "_queue_saveCategorySampleByDayIndex:calendarCache:readValueFromDaySummary:categoryTypeIdentifier:makeCategorySample:error:"
+- "_queue_saveIntermenstrualBleedingByDayIndex:calendarCache:error:"
+- "_queue_saveLastMenstrualPeriodWithDayIndexRange:calendarCache:error:"
+- "_queue_saveMenstrualFlow:forEachDayInRange:calendarCache:error:"
+- "_queue_saveMenstrualFlowByDayIndex:calendarCache:error:"
+- "_queue_saveMenstrualFlowUpdatingAdjacentDays:dayIndex:calendarCache:error:"
+- "_queue_savePeriodStartedOnDayIndex:endedOnDayIndex:calendarCache:error:"
+- "_queue_start"
+- "_queue_stop"
+- "_queue_surfaceDaySummariesWithError:"
+- "_queue_updateLastLoggedInExperienceDate"
+- "_queue_updateStartOfCycleMetadataForModifiedDayIndex:calendarCache:canOverrideCreationDate:error:"
+- "_queue_updateUnderlyingSamplesToReplaceDaySummary:withDaySummary:calendarCache:canOverrideCreationDate:error:"
+- "_recentSymptoms"
+- "_registerActivityAfterCompletion:"
+- "_requestFromAlarmEvent:"
+- "_requiresUpdate"
+- "_rollingBaselineConfiguration"
+- "_roundDouble:scale:"
+- "_runAnalysis"
+- "_sampleCountByType"
+- "_sampleLimit"
+- "_sampleStandardDeviationOfValues:"
+- "_samplesByMorningIndex:gregorianCalendar:"
+- "_samplesToInsertForUpdateFromDaySummary:toDaySummary:typesToDelete:calendarCache:"
+- "_scheduler"
+- "_sensorBasedPredictionEnabled"
+- "_setCycleFactorRelatedFieldsInMetric:analysis:appProtectedKeyValueDomain:error:"
+- "_setCycleStatisticsFieldsInMetric:analysis:keyValueDomain:fertileWindowNotificationKeyValueDomain:todayDayIndex:todayAsDate:gregorianCalendar:error:"
+- "_setDetectedDeviationFieldsInMetric:gregorianCalendar:deviationDetectionAnalyticsKeyValueDomain:todayDayIndex:error:"
+- "_setDeviationSampleFieldsInMetric:profile:userCalendar:error:"
+- "_setDiagnosticOnboardingFieldsInMetric:keyValueDomain:heartRateInputFeatureStatus:deviationDetectionFeatureStatus:wristTemperatureInputFeatureStatus:gregorianCalendar:error:"
+- "_setFertileWindowFieldsInMetric:analysis:profile:todayDayIndex:error:"
+- "_setMetadata:"
+- "_setPregnancyPropertiesInMetric:manager:todayAsDate:gregorianCalendar:error:"
+- "_settingsManager"
+- "_settingsMigrationManager"
+- "_sexualActivity"
+- "_sexualActivitySamples"
+- "_shouldExecuteWhenProtectedDataIsUnavailable"
+- "_shouldListenForUpdates"
+- "_shouldStopProcessingQuery"
+- "_shouldSuspendQuery"
+- "_sleepFields"
+- "_sleepStore"
+- "_sleepingWristTemperatureDominantWatchSampleCountOverLast30DaysWithCurrentDate:gregorianCalendar:"
+- "_sleepingWristTemperatureSampleCountBySourceOverLastNDays:currentDate:gregorianCalendar:"
+- "_sleepingWristTemperatureSamplesFromLastNSleepDays:currentDate:gregorianCalendar:sourceEntityPredicate:"
+- "_startObserving"
+- "_startedCycleFactors"
+- "_submitAnalyticsWithCompletion:"
+- "_submitPredictionAccuracyAnalyticWithDayIndex:oldMenstrualFlow:newMenstrualFlow:analysis:isLoggingMultipleDays:"
+- "_symptoms"
+- "_symptomsSamples"
+- "_takeAccessibilityAssertion"
+- "_test_algorithmsAnalysis"
+- "_test_algorithmsCycles"
+- "_test_analysis"
+- "_test_didNotUpgradeOnboardingRecord"
+- "_test_setAlgorithmsAnalysis:"
+- "_test_setAlgorithmsCycles:"
+- "_test_setAnalysis:"
+- "_timeZone"
+- "_triggerImmediateSync"
+- "_triggerImmediateSyncWithReason:"
+- "_triggerInitialAnalysisWithError:"
+- "_unconfirmedDeviationStateKeyValueDomain"
+- "_unitTest_accountDevicesInfo"
+- "_unitTest_alarm:didReceiveDueEvents:"
+- "_unitTest_currentDateOverride"
+- "_unitTest_didProcessNotificationInstruction"
+- "_unitTest_didSkipNotificationForDueEvent:reason:"
+- "_unitTest_didSkipNotificationForDueEventHandler"
+- "_updateDeviceScopedStorageWithError:"
+- "_updateLocalDeviceValuesNowWithError:"
+- "_updateOperation"
+- "_upperQuantile"
+- "_upperQuantileBound"
+- "_userCharacteristicsDidChange:"
+- "_userDefaults"
+- "_userInitiatedObservers"
+- "_wasDeviationDetectionDelivered"
+- "_wasHeartRateInputDelivered"
+- "_wasWristTemperatureInputDelivered"
+- "_watchSettingsCompatibilityManager"
+- "_watchSettingsReconciliationManager"
+- "_weeksBetweenStartDate:endDate:calendar:"
+- "_weeksSinceDeliveryWithDataSource:"
+- "_weeksSinceOnboarded"
+- "_weeksSinceOnboardedPregnancyMode"
+- "_weeksSinceOnboardedWristTemperatureOvulationPrediction"
+- "_widgetSchedulingManager"
+- "_wristDetectionSettingManager"
+- "_wristTemperature"
+- "_wristTemperatureBasedPredictionEnabled"
+- "_wristTemperatureCompatibleDeviceFields"
+- "_wristTemperatureDailyEventManager"
+- "_wristTemperatureFeatureStatusManager"
+- "_wristTemperatureIdentifierDomainWithProfile:"
+- "_wristTemperatureInputAvailabilityManager"
+- "_wristTemperatureInputBackgroundFeatureDeliveryManager"
+- "_wristTemperatureInputDeliveryCountryCode"
+- "_wristTemperatureInputFeatureAvailabilityManager"
+- "_wristTemperatureInputFeatureStatusManager"
+- "_wristTemperatureSamples"
+- "_wristTemperatureSerialNumbersBySourceIdentifier"
+- "_yearsBetweenStartDateComponents:endDate:calendar:"
+- "accountDevicesInfoWithError:"
+- "activateWithError:cacheHandler:"
+- "addCycleTrackingSample:"
+- "addEncodingOptionsFromDictionary:"
+- "addEntriesFromDictionary:"
+- "addNextAscendingDay:shouldStop:"
+- "addNextDescendingDay:shouldStop:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:forDataType:"
+- "addObserver:queue:"
+- "addObserver:selector:name:object:"
+- "addProtectedDataObserver:queue:"
+- "addSampleValue:startTime:endTime:sourceID:error:"
+- "addSymptoms:forDayIndex:"
+- "advanceWithError:"
+- "ageWithCurrentDate:error:"
+- "algorithmicProjectionsSettings"
+- "allDays"
+- "allKeys"
+- "allObjects"
+- "allObservers"
+- "allScheduledEventsWithError:"
+- "allSourcesForBundleIdentifier:error:"
+- "allValues"
+- "allValuesWithError:"
+- "analysisManager"
+- "analyticsSubmissionCoordinator"
+- "analyzeWithError:"
+- "analyzeWithMostRecentMenstrualFlowJulianDayUpdated:error:"
+- "appendDay:"
+- "areAllFertileWindowPredictionAlgorithmAttributesSupported"
+- "areAllMenstruationPredictionAlgorithmAttributesSupported"
+- "areAllRequirementsSatisfied"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayByExcludingObjectsInArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "ascending"
+- "associationsUpdatedForObject:subObject:type:behavior:objects:anchor:"
+- "authorizationOracle"
+- "authorizationStatusRecordsForTypes:error:"
+- "autorelease"
+- "averageQuantity"
+- "basalBodyTemperature"
+- "beginPhase:onJulianDay:"
+- "beginReceivingEventsWithHandler:"
+- "behavior"
+- "biologicalSexWithError:"
+- "birthDateComponents"
+- "bleedingAfterPregnancyFlow"
+- "bleedingInPregnancyFlow"
+- "boolValue"
+- "bucketedNumberOfWeeksSinceDate:"
+- "bundleIdentifier"
+- "cachesExistWithError:"
+- "calculatorForCategoryType:intervalCollection:options:mergeStrategy:"
+- "calculatorForQuantityType:intervalCollection:options:mergeStrategy:"
+- "calendar"
+- "calendarCache"
+- "calendarForTimeZone:"
+- "canCompleteOnboardingForCountryCode:error:"
+- "canRead"
+- "canonicalUnit"
+- "capabilityIsSupportedOnAnyWatch:supportedOnLocalDevice:"
+- "capsule"
+- "cardioFitnessFeatureAvailabilityManager"
+- "cardioFitnessFeatureStatusManager"
+- "category"
+- "categoryIdentifier"
+- "categoryIdentifiers"
+- "categorySampleWithType:value:startDate:endDate:"
+- "categorySampleWithType:value:startDate:endDate:metadata:"
+- "categoryType"
+- "categoryTypeForIdentifier:"
+- "cervicalMucusQuality"
+- "characteristicTypeForIdentifier:"
+- "checkForDueEventsWithCompletion:"
+- "class"
+- "clearStateIfNecessaryFromSettings:usageRequirementsSatisfied:error:"
+- "client"
+- "clientHasAuthorizationForAllTypes"
+- "clientProxy"
+- "client_deliverAnalysis:queryUUID:"
+- "client_deliverDaySummaries:clearPending:isFinalBatch:daySummaryAnchor:queryUUID:"
+- "client_deliverError:forQuery:"
+- "client_deliverPregnancyModel:queryUUID:"
+- "client_deliverUpdateWithQueryUUID:"
+- "client_experienceModelDidUpdate:"
+- "cloneWithOwnerIdentifier:"
+- "cloudSyncManager"
+- "code"
+- "compare:"
+- "completionDate"
+- "components:fromDate:"
+- "components:fromDate:toDate:options:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "computeFiredStateWithCurrentDayIndex:"
+- "computeNewStateFromAnalysis:currentDate:fertileWindowNotificationTimeOfDay:fertilityNotificationsEnabled:daysWithWristTemp45DaysBeforeOvulationConfirmed:"
+- "computeNewStateFromAnalysis:dismissalDayIndex:currentDate:unconfirmedDeviationNotificationTimeOfDay:"
+- "computeNewStateFromCorrelatingPeriodStartDayIndex:fertileWindowEndDayIndex:fireDayIndex:daysShiftedForFertileWindow:daysWithWristTemp45DaysBeforeOvulationConfirmed:"
+- "computeNewStateFromFertilityNotificationsEnabled:isOvulationConfirmed:correlatingPeriodStartDayIndex:fertileWindowEndDayIndex:fireDayIndex:daysShiftedForFertileWindow:daysWithWristTemp45DaysBeforeOvulationConfirmed:"
+- "computeNewStateFromMaxEnd:dismissalDayIndex:scheduledFireDayIndex:"
+- "computeNewStateFromUnconfirmedDeviations:dismissalDayIndex:scheduledFireDayIndex:"
+- "computeStateFromNoUnconfirmedDeviations"
+- "configuration"
+- "configurationClass"
+- "configurationStepsReviewDate"
+- "conformsToProtocol:"
+- "connection"
+- "connectionInvalidated"
+- "containsObject:"
+- "containsPeriodsWithAppleSleepTrackingData"
+- "containsString:"
+- "content"
+- "contextForAccessibilityAssertion:"
+- "contextForReadingProtectedData"
+- "copy"
+- "copyWithZone:"
+- "correlatingPeriodStartDayIndex"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countConfirmedInfrequentDeviationPastYear"
+- "countConfirmedIrregularDeviationPastYear"
+- "countConfirmedProlongedDeviationPastYear"
+- "countConfirmedSpottingDeviationPastYear"
+- "countOfSamplesWithType:profile:matchingPredicate:withError:"
+- "countPairedVisionPro"
+- "countPairedWatch"
+- "countPairediPad"
+- "countPairediPhone"
+- "countryCode"
+- "countryIsSupportedOnActiveRemoteDeviceForFeatureWithIdentifier:isSupportedIfCountryListMissing:"
+- "countryIsSupportedOnLocalDeviceAndPhoneForFeatureWithIdentifier:isSupportedIfCountryListMissing:"
+- "countryIsSupportedOnLocalDeviceForFeatureWithIdentifier:"
+- "createDaySummaryWithDevice:"
+- "createOrUpdateSourceForClient:error:"
+- "createTaskServerWithUUID:configuration:client:delegate:error:"
+- "current lockedOperationState: "
+- "currentAnalysis"
+- "currentCalendar"
+- "currentDate"
+- "currentDueDate"
+- "currentHandler"
+- "currentSleepEventRecordWithError:"
+- "currentSleepScheduleWithError:"
+- "currentSleepSettingsWithError:"
+- "currentStatistics"
+- "cycleLengthLowerPercentile"
+- "cycleLengthMedian"
+- "cycleLengthModificationDayIndexOverriding:"
+- "cycleLengthUpperPercentile"
+- "cycleLengthVariationLowerPercentile"
+- "cycleLengthVariationUpperPercentile"
+- "cycles"
+- "d"
+- "d24@0:8@16"
+- "daemon"
+- "daemonReady:"
+- "dailyHeartStatisticsWithDayIndex:asleepStatistics:awakeStatistics:"
+- "data"
+- "dataCount"
+- "dataForKey:error:"
+- "dataManager"
+- "dataProvenanceManager"
+- "dataTypeWithCode:"
+- "database"
+- "database:protectedDataDidBecomeAvailable:"
+- "database:protectedDataDidBecomeAvailable:dueToLockout:"
+- "databaseForEntityClass:"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dateByAddingUnit:value:toDate:options:"
+- "dateForKey:error:"
+- "dateFromComponents:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "dawnMoveAlgorithmicProjectionsToFeatureSettingsWithUserDefaults:"
+- "dawnMoveHiddenCycleChartRowsSettingsWithUserDefaults:"
+- "dawnMoveHiddenLoggingRowsSettingsWithUserDefaults:"
+- "dawnMoveOnboardingTileDismissalDateToKeyValueStorageWithUserDefaults:"
+- "dawnMoveToDeviationDetectionFeatureSettingsWithUserDefaults:"
+- "day"
+- "dayIndex"
+- "dayIndexFromEndWithCoefficient:"
+- "dayIndexRange"
+- "dayStreamProcessorAlgorithmVersion"
+- "dayStreamProcessorPredictionPrimarySourceOverride"
+- "daySummariesInIndexRange:profile:calendarCache:error:"
+- "daySummaryAtIndex:profile:calendarCache:error:"
+- "daySummaryWithDayIndex:menstrualFlow:bleedingInPregnancyFlow:bleedingAfterPregnancyFlow:intermenstrualBleeding:symptoms:sexualActivity:ovulationTestResult:pregnancyTestResult:progesteroneTestResult:cervicalMucusQuality:basalBodyTemperature:wristTemperature:menstrualFlowModificationDayIndex:startOfCycleFromCycleTracking:startedCycleFactors:endedCycleFactors:sampleCountByType:"
+- "dayUnit"
+- "days"
+- "daysOffsetFromCalendarMethod"
+- "daysShifted"
+- "daysShiftedForFertileWindow"
+- "daysWithWristTemp45DaysBeforeOvulationConfirmed"
+- "dealloc"
+- "debugDescription"
+- "decimalNumberByRoundingAccordingToBehavior:"
+- "decimalNumberHandlerWithRoundingMode:scale:raiseOnExactness:raiseOnOverflow:raiseOnUnderflow:raiseOnDivideByZero:"
+- "defaultCenter"
+- "defaultHelpTileRequirementsForBackgroundDeliveredFeatureWithFeatureIdentifier:isAgeGatedUserDefaultsKey:"
+- "defaultOnboardingEligibilityRequirementsForFeatureIdentifier:"
+- "defaultTipsAppVisibilityRequirementsForBackgroundDeliveredFeatureWithFeatureIdentifier:isAgeGatedUserDefaultsKey:"
+- "defaultsEnabledKey"
+- "degreeCelsiusUnit"
+- "degreeFahrenheitUnit"
+- "delegate"
+- "deleteObjectsWithUUIDCollection:configuration:error:"
+- "description"
+- "deviationDetectionEnabledForAnyType"
+- "deviationDetectionEnabledForType:"
+- "deviationDetectionEnabledSetExplicitlyForAnyType"
+- "deviationDetectionInfrequentEnabled"
+- "deviationDetectionIrregularEnabled"
+- "deviationDetectionProlongedEnabled"
+- "deviationDetectionSpottingEnabled"
+- "deviations"
+- "deviceContext"
+- "deviceContextManager"
+- "deviceInfoFromStorageGroup:"
+- "deviceKeyValueStoreManager"
+- "deviceScopedStorageManager"
+- "deviceScopedStorageManagerDidUpdateLocalDeviceValues:"
+- "diagnosticDescription"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithCapacity:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didAddSamplesOfTypes:anchor:"
+- "didBecomeReady"
+- "didReceiveExperienceModelUpdateNotification"
+- "didUpdateAnalysis:"
+- "distantFuture"
+- "domainName"
+- "doubleValue"
+- "doubleValueForUnit:"
+- "dueDateComponents"
+- "durationForSource:"
+- "earliestDateLowestOnboardingVersionCompletedWithError:"
+- "educationalStepsCompletedDate"
+- "educationalStepsReviewDate"
+- "emptyCountrySet"
+- "endDate"
+- "enqueueMaintenanceOperation:"
+- "entitlements"
+- "entityEnumeratorWithType:profile:"
+- "entityEnumeratorWithTypes:profile:error:"
+- "enumerateIncludingDeletedObjects:error:handler:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsWithOptions:usingBlock:"
+- "enumerateProperties:error:enumerationHandler:"
+- "enumerateWithError:handler:"
+- "environmentDataSource"
+- "epoch"
+- "errorWithDomain:code:userInfo:"
+- "evaluatorForRequirement:"
+- "eventIdentifier"
+- "eventIdentifierFromUpdateFertileWindowNotification"
+- "eventName"
+- "eventPayload"
+- "eventWithIdentifier:dueDateComponents:eventOptions:"
+- "eventsToScheduleForAnalysis:settingsManager:scheduler:error:"
+- "execute"
+- "executeCachedStatementForKey:error:SQLGenerator:bindingHandler:enumerationHandler:"
+- "experienceModelManager"
+- "experienceModelManagerDidUpdateModel"
+- "exportedInterface"
+- "extensionForHealthDaemon:"
+- "extensionForProfile:"
+- "featureAttributesDerivedFromOSBuildAndFeatureVersion:watchDeviceIdentifier:phoneDeviceIdentifier:"
+- "featureAvailabilityExtensionDidUpdatePairedDeviceCapability:"
+- "featureAvailabilityExtensionDidUpdateRegionAvailability:"
+- "featureAvailabilityExtensionForFeatureIdentifier:"
+- "featureAvailabilityExtensionOnboardingCompletionDataDidBecomeAvailable:"
+- "featureAvailabilityProviding"
+- "featureAvailabilityProvidingDidUpdateOnboardingCompletion:"
+- "featureAvailabilityProvidingDidUpdateSettings:"
+- "featureAvailabilityProvidingForFeatureIdentifier:"
+- "featureAvailabilityRequirement:didUpdateSatisfaction:"
+- "featureAvailabilityRequirementsWithError:"
+- "featureIdentifier"
+- "featureIsNotRemotelyDisabledWithIdentifier:"
+- "featureIsOnWithIdentifier:isOnIfSettingIsAbsent:"
+- "featureOnboardingRecordWithError:"
+- "featureSettings"
+- "featureSettingsForFeatureIdentifier:error:"
+- "featureSettingsManager"
+- "featureSettingsManager:didUpdateSettingsForFeatureIdentifier:"
+- "featureStatusProviderForIdentifier:"
+- "featureStatusProviding:didUpdateFeatureStatus:"
+- "featureStatusWithError:"
+- "fertileWindowEndDayIndex"
+- "fertileWindowNotificationTimeOfDay"
+- "fertileWindowNotificationsEnabled"
+- "fertileWindowProjections"
+- "fertileWindowProjectionsEnabled"
+- "fertilityNotificationEnabled"
+- "fertilityPredictionEnabled"
+- "fertilityPredictions"
+- "fetchEntriesForDomain:key:protectionCategory:error:"
+- "fetchMedicalIDIfSetUpWithError:"
+- "finishWithCompletion:"
+- "fireDayIndex"
+- "fireOnDayIndex"
+- "firedDayIndex"
+- "firstObject"
+- "flowDayIndexRange"
+- "forceAnalysis"
+- "forceDisableProjectionsFromOngoingCycleFactors:menstruationProjectionsEnabled:fertileWindowProjectionsEnabled:useHeartRateInput:useWristTemperatureInput:"
+- "gestationalAgeInComponentsOnDate:pregnancyStartDate:startTimeZoneName:"
+- "getActivePairedDevice"
+- "getCurrentPregnancyModel"
+- "getFeatureOnboardingRecordWithCompletion:"
+- "getPairedDevices"
+- "getPregnancyModelProvider"
+- "handleDatabaseObliteration"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasEntitlement:"
+- "hasOverlapWithStartTime:endTime:"
+- "hasPrivateAccessEntitlementWithIdentifier:"
+- "hasSleepFocusMode"
+- "hasUndeterminedDuration"
+- "hash"
+- "hd_predicateForSamplesWithTypes:endingAfterDate:minusDays:"
+- "hdmc_afterPeriodEndNotification"
+- "hdmc_afterPeriodStartNotification"
+- "hdmc_analysisSampleInfo:forProfile:error:"
+- "hdmc_appProtectedSyncedMenstrualCyclesDefaultsDomainWithProfile:"
+- "hdmc_beforeFertileWindowStartNotification"
+- "hdmc_beforePeriodStartNotification"
+- "hdmc_categoryIdentifier"
+- "hdmc_cycleChartsHiddenRowsDomainWithProfile:"
+- "hdmc_dateComponentsForFertileWindowNotificationOnDayIndex:"
+- "hdmc_dateComponentsForMenstruationNotificationOnDayIndex:"
+- "hdmc_daySummaryAnchorWithHealthDatabase:error:"
+- "hdmc_deviationDetectionAnalyticsProtectedDomainWithProfile:"
+- "hdmc_deviationInputWithProfile:enabledSetExplicitly:calendar:"
+- "hdmc_deviationsAvailabilityManagerWithProfile:"
+- "hdmc_enumerateNotificationInstructionsFromAnalysisSampleInfo:block:"
+- "hdmc_fertileWindowDayShift"
+- "hdmc_fertileWindowDidUpdateDueToSensorDataNotificationForNotificationFireDate:lastFiredDate:fertileWindowNotificationTimeOfDay:"
+- "hdmc_fertileWindowEndDayIndex"
+- "hdmc_heartRateInputAvailabilityManagerWithProfile:"
+- "hdmc_heartRateStatisticsWithProfile:predicate:errorOut:"
+- "hdmc_lastLoggedInCycleTrackingDateWithError:"
+- "hdmc_legacyOnboardingFirstCompletedDateWithError:"
+- "hdmc_legacyOnboardingVersionCompletedWithError:"
+- "hdmc_menstrualCyclesAvailabilityManagerWithProfile:"
+- "hdmc_menstrualCyclesOvulationConfirmationNotificationGetStateWithError:"
+- "hdmc_menstrualCyclesOvulationConfirmationNotificationSetValuesWithState:error:"
+- "hdmc_menstrualCyclesOvulationConfirmationNotificationStateSyncedUnprotectedDomainWithProfile:"
+- "hdmc_menstrualCyclesUnconfirmedDeviationNotificationGetStateWithError:"
+- "hdmc_menstrualCyclesUnconfirmedDeviationNotificationSetValuesWithState:error:"
+- "hdmc_menstrualCyclesUnconfirmedDeviationNotificationStateSyncedUnprotectedDomainWithProfile:"
+- "hdmc_nextAnalysisSchedulingWindowStartDateAfterDate:calendar:"
+- "hdmc_notificationHoldInstruction"
+- "hdmc_onboardingTileLastDismissedDateWithError:"
+- "hdmc_ongoingFactorsOnDayIndex:factorTypes:profile:calendarCache:error:"
+- "hdmc_ongoingFactorsOnDayIndex:profile:calendarCache:error:"
+- "hdmc_predicateForPossibleOngoingSamplesOnDayIndex:"
+- "hdmc_predicateForSamplesInDayIndexRange:"
+- "hdmc_setLastLoggedInCycleTrackingDate:error:"
+- "hdmc_setOnboardingTileLastDismissedTimeIntervalSinceReferenceDate:error:"
+- "hdmc_setUnconfirmedDeviationDismissalDayIndex:error:"
+- "hdmc_setUpdatedFertileWindowNotificationFireDate:error:"
+- "hdmc_syncedMenstrualCyclesDefaultsDomainWithProfile:"
+- "hdmc_syncedUnprotectedDomainWithProfile:"
+- "hdmc_tenthPercentileCalculator"
+- "hdmc_unconfirmedDeviationDismissalDayIndexWithError:"
+- "hdmc_updatedFertileWindowNotificationFireDateWithError:"
+- "hdmc_wristTemperatureInputAvailabilityManagerWithProfile:"
+- "healthDataSource"
+- "heartRateType"
+- "hiddenLoggingRowsSettings"
+- "historicalAnalyzerDailyEligibleWristTemperatureCountOverrideForCycleAtReverseChronologicalIndex:"
+- "historicalAnalyzerOvulationConfirmationFailureOverrideForCycleAtReverseChronologicalIndex:"
+- "historicalAnalyzerPredictionPrimarySourceOverrideForCycleAtReverseChronologicalIndex:"
+- "hk_assignError:code:description:"
+- "hk_assignError:code:format:"
+- "hk_averageUsingEvaluationBlock:"
+- "hk_componentsWithDayIndex:calendar:"
+- "hk_componentsWithHour:minute:"
+- "hk_containsObjectPassingTest:"
+- "hk_dateOnDayIndex:atHour:calendar:"
+- "hk_dayIndexDateDescription"
+- "hk_dayIndexRangeWithCalendar:"
+- "hk_dayIndexWithCalendar:"
+- "hk_deleteDomainsNamed:"
+- "hk_dictionaryByAddingEntriesFromDictionary:"
+- "hk_earliestPossibleDateWithDayIndex:"
+- "hk_earliestPossibleDayIndex"
+- "hk_enumerateDayIndexRangesUsingBlock:"
+- "hk_error:description:"
+- "hk_error:format:"
+- "hk_errorForNilArgument:class:selector:"
+- "hk_featureUnavailableForProfileError"
+- "hk_filter:"
+- "hk_firstObjectPassingTest:"
+- "hk_firstObjectWithMaximumValueUsingEvaluationBlock:"
+- "hk_firstSortedObjectWithComparison:"
+- "hk_gregorianCalendar"
+- "hk_indexSetWithDayIndexRange:"
+- "hk_isAfterDate:"
+- "hk_isAfterOrEqualToDate:"
+- "hk_isBeforeDate:"
+- "hk_isHealthKitErrorWithCode:"
+- "hk_latestPossibleDateWithDayIndex:"
+- "hk_latestPossibleDayIndex"
+- "hk_map:"
+- "hk_minus:"
+- "hk_morningIndexWithCalendar:"
+- "hk_noonWithDayIndex:calendar:"
+- "hk_redactedDescription"
+- "hk_safeDictionaryForKeyPath:error:"
+- "hk_safeDictionaryIfExistsForKeyPath:error:"
+- "hk_safeNumberForKeyPath:error:"
+- "hk_safeNumberIfExistsForKeyPath:error:"
+- "hk_sleepDayIntervalForMorningIndex:calendar:"
+- "hk_sleepDayIntervalForMorningIndexRange:calendar:"
+- "hk_sleepDayStartForMorningIndex:calendar:"
+- "hk_sleepDayStartWithCalendar:"
+- "hk_startOfDateByAddingDays:toDate:"
+- "hk_sumUsingEvaluationBlock:"
+- "hk_translateDateComponentsToCalendar:calendarUnits:"
+- "hkmc_analyticsDebugModeEnabled"
+- "hkmc_categorySampleWithBleedingFlow:forBleedingType:date:startOfCycle:"
+- "hkmc_categorySampleWithCervicalMucusQuality:date:"
+- "hkmc_categorySampleWithMenstrualFlow:date:startOfCycle:"
+- "hkmc_categorySampleWithMenstrualSymptom:date:"
+- "hkmc_categorySampleWithOvulationTestResult:date:"
+- "hkmc_categorySampleWithPregnancyTestResult:date:"
+- "hkmc_categorySampleWithProgesteroneTestResult:date:"
+- "hkmc_categorySampleWithSexualActivity:date:"
+- "hkmc_configurationWithBirthDateComponents:userReportedCycleLength:onDayIndex:userReportedMenstruationLength:onDayIndex:"
+- "hkmc_cycleFactor"
+- "hkmc_cycleWithLastDayIndex:includeFertileWindow:overridePredictionPrimarySource:overrideOvulationConfirmationFailure:overrideDailyEligibleWristTemperatureCount:useWristTemperatureInput:"
+- "hkmc_dayInputWithDaySummary:"
+- "hkmc_dayInputWithHeartStatistics:"
+- "hkmc_daySummaryBleedingAfterPregnancyFlow"
+- "hkmc_daySummaryBleedingInPregnancyFlow"
+- "hkmc_daySummaryCervicalMucusQuality"
+- "hkmc_daySummaryMenstrualFlow"
+- "hkmc_daySummaryOvulationTestResult"
+- "hkmc_daySummaryPregnancyTestResult"
+- "hkmc_daySummaryProgesteroneTestResult"
+- "hkmc_daySummarySexualActivity"
+- "hkmc_daySummarySymptom"
+- "hkmc_description"
+- "hkmc_deviations"
+- "hkmc_emptyDayInputWithDayIndex:"
+- "hkmc_fertileWindowProjectionsWithOverridePredictionPrimarySource:currentDayIndex:"
+- "hkmc_intermenstrualBleedingCategorySampleWithDate:"
+- "hkmc_isCycleFactorSample"
+- "hkmc_isNotPresentSymptom"
+- "hkmc_isSleepDependentSample"
+- "hkmc_menstrualCyclesDefaults"
+- "hkmc_menstruationProjections"
+- "hkmc_nextDateAfterDate:matchingHourComponents:"
+- "hkmc_quantitySampleWithBasalBodyTemperature:date:"
+- "hkmc_requestForCategoryIdentifier:"
+- "hkmc_requestForCategoryIdentifier:fertileWindowEndDayIndex:daysShiftedFromCalendarMethod:"
+- "hkmc_requiresMultipleReplaceConfirmation"
+- "hkmc_statistics"
+- "hkmc_updateWithHeartStatistics:"
+- "hkmc_wasEnteredFromCycleTracking"
+- "holdInstructionCategoryIdentifiersWithError:"
+- "hour"
+- "identifier"
+- "improveHealthAndActivityAllowed"
+- "indexOfObject:"
+- "init"
+- "initForProfile:categoryType:predicate:restrictedSourceEntities:"
+- "initForProfile:quantityType:predicate:restrictedSourceEntities:"
+- "initForProfile:quantityType:predicate:restrictedSourceEntities:configuration:currentDate:"
+- "initWithAction:categoryIdentifier:expirationDate:"
+- "initWithAllowedCountriesDataSource:profile:featureCapability:loggingCategory:"
+- "initWithAnchor:UUID:deleted:"
+- "initWithAnchorDate:intervalComponents:"
+- "initWithAnchorDate:statisticsInterval:"
+- "initWithCapacity:"
+- "initWithCategory:domainName:profile:"
+- "initWithCategory:dueDateComponents:"
+- "initWithChangesSyncRequest:"
+- "initWithConfig:"
+- "initWithCountryBitmasks:compatibilityVersion:contentVersion:provenance:"
+- "initWithCurrentDayIndex:"
+- "initWithDaemon:analysisManager:settingsManager:"
+- "initWithDaemon:featureIdentifier:"
+- "initWithData:"
+- "initWithDayStreamProcessorAlgorithmVersion:menstruationNotificationsEnabled:fertileWindowNotificationsEnabled:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithExtensionBundleIdentifier:kind:"
+- "initWithFeatureAvailabilityProviding:healthDataSource:"
+- "initWithFeatureAvailabilityProviding:healthDataSource:currentCountryCode:"
+- "initWithFeatureIdentifier:defaultCountrySet:healthDaemon:"
+- "initWithFeatureIdentifier:defaultsEnabledKey:"
+- "initWithFeatureIdentifier:localFeatureAttributes:localCountrySetAvailabilityProvider:"
+- "initWithFeatureIdentifier:version:completionDate:countryCode:countryCodeProvenance:"
+- "initWithFertileWindowEndDayIndex:fireDayIndex:correlatingPeriodStartDayIndex:daysWithWristTemp45DaysBeforeOvulationConfirmed:daysShiftedForFertileWindow:"
+- "initWithFireDayIndex:"
+- "initWithFireOnDayIndex:category:"
+- "initWithFireOnDayIndex:category:fertileWindowEndDayIndex:daysShifted:"
+- "initWithFiredDayIndex:"
+- "initWithFlowDayIndex:"
+- "initWithHealthAppDevicesInfo:localDeviceInfo:"
+- "initWithIdentifier:healthStore:options:"
+- "initWithIdentifier:migrationVersion:block:"
+- "initWithImproveHealthAndActivityAllowed:"
+- "initWithInteger:"
+- "initWithLocalUserDefaults:"
+- "initWithLoggingCategory:healthDataSource:"
+- "initWithMode:clock:queue:delay:block:"
+- "initWithModel:"
+- "initWithMostRecent:upperQuantile:median:lowerQuantile:"
+- "initWithName:loggingCategory:"
+- "initWithNotificationProvider:"
+- "initWithNumberOfCycles:firstMenstruationStartDayIndex:lastMenstruationStartDayIndex:cycleLengthMedian:cycleLengthLowerPercentile:cycleLengthUpperPercentile:menstruationLengthMedian:menstruationLengthLowerPercentile:menstruationLengthUpperPercentile:"
+- "initWithObservationEnabled:"
+- "initWithPercentile:"
+- "initWithPregnancyManager:"
+- "initWithPregnancyManager:profile:experienceModelProvider:"
+- "initWithPregnancyModeSetupCompletionSet:"
+- "initWithPregnancySample:state:"
+- "initWithProfile:"
+- "initWithProfile:analysis:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:"
+- "initWithProfile:analysisManager:heartRateFeatureAvailabilityManager:deviationDetectionFeatureAvailabilityManager:wristTemperatureInputFeatureAvailabilityManager:pregnancyManager:"
+- "initWithProfile:analysisManager:settingsManager:deviceScopedStorageManager:notificationSyncManager:"
+- "initWithProfile:analysisManager:settingsManager:sleepStore:wristDetectionSettingManager:privacyDefaults:"
+- "initWithProfile:analysisManager:sleepStore:"
+- "initWithProfile:cachingIdentifier:sourceEntity:queryDescriptor:cachedClass:queryInterval:anchorDate:intervalComponents:timeIntervalToBucketIndex:"
+- "initWithProfile:cachingSession:gregorianCalendar:morningIndexRange:ascending:options:debugIdentifier:"
+- "initWithProfile:calendarCache:dayIndexRange:ascending:includeFactors:includeWristTemperature:"
+- "initWithProfile:calendarCache:dayIndexRange:databaseAccessibilityAssertion:"
+- "initWithProfile:clientIdentifier:eventHandlerQueue:"
+- "initWithProfile:clientIdentifier:queue:"
+- "initWithProfile:dayIndex:orderedWatchSources:calendarCache:"
+- "initWithProfile:debugIdentifier:delegate:"
+- "initWithProfile:eventSubmissionManager:logCategory:eventConstructor:"
+- "initWithProfile:featureAvailabilityExtension:loggingCategory:"
+- "initWithProfile:featureIdentifier:availabilityRequirements:currentOnboardingVersion:pairedDeviceCapability:pairedFeatureAttributesProvider:regionAvailabilityProvider:disableAndExpiryProvider:loggingCategory:"
+- "initWithProfile:featureIdentifier:availabilityRequirements:currentOnboardingVersion:pairedDeviceCapability:regionAvailabilityProvider:disableAndExpiryProvider:loggingCategory:"
+- "initWithProfile:identifier:currentMigrationVersion:migrationSteps:delegate:migrationVersionDefaults:lastMigratedVersionKey:loggingCategory:"
+- "initWithProfile:operation:experienceModelProvider:notificationProvider:calendarCache:"
+- "initWithProfile:quantityType:"
+- "initWithProfile:sampleLimit:upperQuantileBound:lowerQuantileBound:"
+- "initWithProfile:settingsManager:"
+- "initWithProfile:settingsManager:featureAvailabilityManager:heartRateAvailabilityManager:wristTemperatureAvailabilityManager:deviationsAvailabilityManager:deviceScopedStorageManager:calendarCache:"
+- "initWithProfile:settingsManager:queue:"
+- "initWithProfile:userDefaults:"
+- "initWithProfile:userDefaults:delegate:"
+- "initWithProfile:userDefaults:managedKeys:debugIdentifier:loggingCategory:"
+- "initWithProfileExtension:"
+- "initWithPush:pull:lite:"
+- "initWithQueryDescriptors:includeDeletedObjects:anchor:sortDescriptors:bufferSize:profile:"
+- "initWithRequirementsByContext:"
+- "initWithSampleTypes:encodingOptions:restrictedSourceEntities:authorizationFilter:samplePredicate:"
+- "initWithStartDate:endDate:"
+- "initWithState:pregnancyStartDate:pregnancyEndDate:estimatedDueDate:pregnancyDuration:physiologicalWashoutEndDate:behavioralWashoutEndDate:trimesters:sample:educationalStepsCompletedDate:"
+- "initWithStatistics:menstruationProjections:fertileWindowProjections:menstruationProjectionsEnabled:fertileWindowProjectionsEnabled:cycles:deviations:recentSymptoms:recentBasalBodyTemperature:lastLoggedDayIndex:lastMenstrualFlowDayIndex:isPeriodLogLate:ongoingCycleFactors:numberOfDailySleepHeartRateStatisticsForPast100Days:numberOfDailyAwakeHeartRateStatisticsForPast100Days:hasHealthAppDevicesWithHigherAlgorithmVersions:"
+- "initWithSuiteName:"
+- "initWithUUID:"
+- "initWithUUID:configuration:client:delegate:"
+- "initWithUUID:configuration:client:delegate:profileExtension:"
+- "initWithUUIDString:"
+- "initWithUserDefaults:"
+- "initWithVersion:sampleUUID:educationalStepsReviewDate:configurationStepsReviewDate:pregnancyAdjustedFeaturesSet:postPregnancyFeatureAdjustmentCompletionLog:"
+- "initiateCycleFactorsAutomaticUpgradeWithDatabaseAccessibilityAssertion:error:"
+- "insertCaches:anchor:completion:"
+- "insertDataObjects:withProvenance:creationDate:skipInsertionFilter:error:"
+- "insertInterval:"
+- "insertOnboardingCompletion:error:"
+- "intValue"
+- "integerValue"
+- "intermenstrualBleeding"
+- "internalCycleFactorsOverrideEnabled"
+- "internalIgnoreOvulationTestResultsEnabled"
+- "internalLiveOnCycleFactorOverrideEnabled"
+- "invalidate"
+- "invalidateAndWait"
+- "invalidateRelevancesOfKind:inBundle:completion:"
+- "isAnySleepTrackingOnboardingCompleted"
+- "isAppleInternalInstall"
+- "isAppleWatch"
+- "isCompanionCapable"
+- "isCurrentOnboardingVersionCompletedWithCompletion:"
+- "isCurrentOnboardingVersionCompletedWithError:"
+- "isDataLogged"
+- "isDeleted"
+- "isDeterminant"
+- "isEarliestNotificationScheduledAfterDate:gregorianCalendar:"
+- "isEmpty"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToDictionary:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isEventSubmissionIHAGated"
+- "isFeatureCapabilitySupportedOnActivePairedDeviceWithError:"
+- "isImproveHealthAndActivityEnabled"
+- "isKindOfClass:"
+- "isLoggingVisibleForDisplayTypeIdentifier:"
+- "isMemberOfClass:"
+- "isNotInPostPregnancy"
+- "isOnboardingCompleted"
+- "isOnboardingRecordPresent"
+- "isOngoingContraception"
+- "isOngoingLactation"
+- "isOngoingPregnancy"
+- "isPartiallyLogged"
+- "isProxy"
+- "isRealityDevice"
+- "isRequirementSatisfied:error:"
+- "isRequirementSatisfiedWithIdentifier:"
+- "isRunningForMaintenance"
+- "isUnsuitableForRange"
+- "isUserInactive"
+- "isWristDetectEnabled"
+- "isiPad"
+- "julianDayMinAnalysisWindowStartInfrequent"
+- "julianDayMinAnalysisWindowStartIrregular"
+- "julianDayMinAnalysisWindowStartProlonged"
+- "julianDayMinAnalysisWindowStartSpotting"
+- "julianDayOfMenstruationStart"
+- "julianDayOfUserReportedCycleLength"
+- "julianDayOfUserReportedMenstruationLength"
+- "key"
+- "keyValueDomain"
+- "keysSortedByValueUsingSelector:"
+- "kind"
+- "lastDayIndex"
+- "lastLoggedDayIndex"
+- "lastMenstrualFlowDayIndex"
+- "lastObject"
+- "latestSampleInfo"
+- "latestTimeZoneCalendar"
+- "limit"
+- "listenerEndpointForClient:error:"
+- "localAvailabilityForMenstrualCyclesDeviationDetection"
+- "localAvailabilityForMenstrualCyclesHeartRateInput"
+- "localAvailabilityForMenstrualCyclesWristTemperatureInput"
+- "localDataProvenanceForSourceEntity:version:deviceEntity:"
+- "localDevice"
+- "localDeviceInfoWithSettingsManager:"
+- "localDeviceIsOnlyDeviceWithNotifications"
+- "localDeviceSourceWithError:"
+- "localTimeZone"
+- "localizedDescription"
+- "lockedOperationState"
+- "lockedPregnancyModel"
+- "logBasalBodyTemperatureEnabled"
+- "logCervicalMucusQualityEnabled"
+- "logFactorsEnabled"
+- "logOvulationTestResultEnabled"
+- "logPregnancyTestResultEnabled"
+- "logProgesteroneTestResultEnabled"
+- "logSexualActivityEnabled"
+- "logSpottingEnabled"
+- "logSymptomsEnabled"
+- "lowerQuantile"
+- "maintenanceOperationWithName:queue:synchronousBlock:"
+- "maintenanceWorkCoordinator"
+- "makeIHAGatedEventPayloadWithDataSource:error:"
+- "makeUnrestrictedEventPayloadWithDataSource:error:"
+- "markPendingNotificationInstructionsAsProcessed:error:"
+- "maxRowIDForPredicate:healthDatabase:error:"
+- "maximumQuantity"
+- "median"
+- "medicalIDDataManager"
+- "menstrualCyclesExperienceModelData"
+- "menstrualFlow"
+- "menstrualFlowModificationDayIndex"
+- "menstrualFlowType"
+- "menstruationLengthMedian"
+- "menstruationNotificationTimeOfDay"
+- "menstruationNotificationsEnabled"
+- "menstruationPredictions"
+- "menstruationProjections"
+- "menstruationProjectionsEnabled"
+- "menstruationSegment"
+- "mergedIntervals"
+- "messageIdentifiers"
+- "metadata"
+- "metadataForObjectID:baseMetadata:keyFilter:statement:error:"
+- "metadataManager"
+- "metadataValueStatementWithTransaction:"
+- "minimumQuantity"
+- "minute"
+- "modificationDateForCharacteristicWithType:error:"
+- "mostLikelyDays"
+- "mostRecentQuantity"
+- "mostRecentSampleWithType:profile:encodingOptions:predicate:anchor:error:"
+- "mutableCopy"
+- "name"
+- "nanoSyncManager"
+- "nextDateAfterDate:matchingComponents:options:"
+- "noOngoingPregnancy"
+- "noRequirements"
+- "notAgeGatedForUserDefaultsKey:"
+- "notificationHoldInstructionsWithError:"
+- "notificationManager"
+- "notificationPreviouslyFiredDayIndex"
+- "notificationProvider"
+- "notificationStateFromDictionaryRepresentation:"
+- "notificationSyncClient"
+- "notificationSyncClient:didReceiveInstructionWithAction:"
+- "notificationSyncManager"
+- "notifyObservers:"
+- "now"
+- "numberForKey:"
+- "numberForKey:error:"
+- "numberOfDeviceContextsPerDeviceType:"
+- "numberValue:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectTypes"
+- "observers"
+- "onCommit:orRollback:"
+- "onboardedCountryCodeSupportedStateWithError:"
+- "onboardingCompleted"
+- "onboardingCompletion"
+- "onboardingCompletionManager"
+- "onboardingCompletionsForHighestVersionOfFeatureIdentifier:error:"
+- "onboardingEligibilityForCountryCode:error:"
+- "onboardingRecord"
+- "onboardingRecordIsNotPresentForFeatureWithIdentifier:"
+- "onboardingRecordIsPresentForFeatureWithIdentifier:"
+- "ongoingCycleFactors"
+- "orderedQuantityValuesBySeriesForPredicate:profile:options:error:handler:"
+- "orderedSourcesForObjectType:error:"
+- "orderedWatchSources"
+- "orderingTermWithProperty:entityClass:ascending:"
+- "ovulationConfirmationFailure"
+- "ovulationConfirmationType"
+- "ovulationTestResult"
+- "pairedFeatureAttributesWithError:"
+- "pendingNotificationDismissInstructionsWithError:"
+- "percentileQuantity"
+- "performAddSampleTransaction:error:"
+- "performPostInstallUpdateTaskForManager:completion:"
+- "performReadTransactionWithHealthDatabase:error:block:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performTransactionWithContext:error:block:inaccessibilityHandler:"
+- "performWhenDataProtectedByFirstUnlockIsAvailableOnQueue:block:"
+- "performWithTransactionContext:error:block:"
+- "performWorkForOperation:profile:databaseAccessibilityAssertion:completion:"
+- "periodLengthModificationDayIndexOverriding:"
+- "periodNotificationEnabled"
+- "periodPredictionEnabled"
+- "physiologicalWashoutEndDate"
+- "pluginIdentifier"
+- "postInstallUpdateManager"
+- "postNotification:"
+- "postNotificationWithRequest:completion:"
+- "predicateMatchingAllPredicates:"
+- "predicateWithMetadataKey:allowedValues:"
+- "predictionPrimarySource"
+- "preferredUnitForType:error:"
+- "pregnancyEstimatedDueDate"
+- "pregnancyFeatureAdjustmentManager"
+- "pregnancyManager"
+- "pregnancyModeSetupCompletionSet"
+- "pregnancyModelDidUpdate:"
+- "pregnancyRequirementEvaluator"
+- "pregnancyTestResult"
+- "prepareForObliteration"
+- "previousAnalysis"
+- "profile"
+- "profileDidBecomeReady:"
+- "profileExtension"
+- "profileExtensionWithIdentifier:"
+- "profileIdentifier"
+- "profileType"
+- "progesteroneTestResult"
+- "projectionsEnabledSettingsHaveChangedFromFeatureSettings:"
+- "propertyListValueForKey:error:"
+- "protectedDataOperation"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q32@0:8@16@24"
+- "q32@0:8^q16^@24"
+- "quantity"
+- "quantitySampleWithType:quantity:startDate:endDate:metadata:"
+- "quantityType"
+- "quantityTypeForIdentifier:"
+- "quantityWithUnit:doubleValue:"
+- "queryClass"
+- "queryForInitialStatisticsWithError:"
+- "queryQueue"
+- "queryServer:requestsAuthorizationWithContext:completion:"
+- "queryServer:requestsAuthorizationWithContext:promptIfNeeded:completion:"
+- "queryServer:shouldStartWithCompletion:"
+- "queryServerDidFinish:"
+- "queryUUID"
+- "queryWithDatabase:predicate:limit:orderingTerms:groupBy:"
+- "rangeWithError:"
+- "recentBasalBodyTemperatureWithMostRecentQuantity:"
+- "recentRangeForAnalysisWithProfile:"
+- "recentSymptoms"
+- "regionAvailabilityWithError:"
+- "registerDaemonReadyObserver:queue:"
+- "registerObserver:"
+- "registerObserver:featureIdentifier:queue:"
+- "registerObserver:forRequirement:queue:"
+- "registerObserver:isUserInitiated:"
+- "registerObserver:queue:"
+- "registerObserver:queue:userInitiated:"
+- "registerProfileReadyObserver:queue:"
+- "registerUpdateTaskHandler:queue:"
+- "registerWithObserver:"
+- "release"
+- "reloadOperation"
+- "reloadReasons"
+- "reloadTimelineWithReason:"
+- "remoteInterface"
+- "remoteObjectProxy"
+- "remote_confirmAndSaveDeviationWithMenstrualFlowByDayIndex:intermenstrualBleedingByDayIndex:addedCycleFactors:deletedCycleFactors:initialAnalysisWindow:completion:"
+- "remote_deleteAllPregnancySetupRecordsWithCompletion:"
+- "remote_deleteSetupRecord:completion:"
+- "remote_fetchCurrentAnalysisWithCompletion:"
+- "remote_fetchCurrentPregnancyModelWithCompletion:"
+- "remote_fetchScheduledNotificationsWithCompletion:"
+- "remote_getCachedPregnancyModelWithCompletion:"
+- "remote_getExperienceModelWithCompletion:"
+- "remote_persistSetupRecord:completion:"
+- "remote_persistSetupRecord:mergeWith:completion:"
+- "remote_saveBleedingFlow:forBleedingType:dayIndex:completion:"
+- "remote_saveBleedingFlowByDayIndex:forBleedingType:completion:"
+- "remote_saveDaySummaries:canOverrideCreationDate:completion:"
+- "remote_saveLastMenstrualPeriodWithDayIndexRange:completion:"
+- "remote_saveMenstrualFlow:dayIndex:updateAdjacentDays:completion:"
+- "remote_savePeriodEndedOnDayIndex:completion:"
+- "remote_savePeriodNotYetEndedWithCompletion:"
+- "remote_savePeriodNotYetStartedWithCompletion:"
+- "remote_savePeriodStartedOnDayIndex:completion:"
+- "remote_savePeriodStartedOnDayIndex:endedOnDayIndex:completion:"
+- "remote_startObservingChangesWithCompletion:"
+- "remote_stopObservingChanges"
+- "remote_triggerAnalysisForDebugReason:completion:"
+- "remote_triggerAnalysisForDiagnosticsWithCompletion:"
+- "removeAllEventsWithError:"
+- "removeDeliveredNotificationsWithIdentifiers:"
+- "removeEvents:error:"
+- "removeFeatureSettingValueForKey:completion:"
+- "removeIndex:"
+- "removeObjectsInArray:"
+- "removeObserver:"
+- "removeObserver:forDataType:"
+- "removeObserver:name:object:"
+- "removePendingNotificationsWithIdentifiers:"
+- "removeWithObserver:"
+- "removedEvents"
+- "replaceAllScheduledEventsWithEvents:error:"
+- "reportDailyAnalyticsWithCoordinator:completion:"
+- "requestWorkWithPriority:error:"
+- "requiredEntitlements"
+- "requirementIdentifier"
+- "resetOnboardingWithCompletion:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "sampleSavingDelegate"
+- "sampleType"
+- "sampleUUID"
+- "samplesAdded:anchor:"
+- "samplesJournaled:type:"
+- "samplesMapWereRemoved:anchor:"
+- "samplesOfTypesWereRemoved:anchor:"
+- "samplesWithType:profile:encodingOptions:predicate:limit:anchor:error:"
+- "saveOnboardingCompletion:settings:completion:"
+- "scheduledNotificationDaysShiftedForFertileWindow"
+- "scheduledNotificationDaysShiftedFromCalendarMethodWithEvent:error:"
+- "scheduledNotificationDaysWithWristTemp45DaysBeforeOvulationConfirmed"
+- "scheduledNotificationFertileWindowEndDayIndexWithEvent:error:"
+- "scheduledNotificationFireDayIndex"
+- "scheduledNotificationsWithError:"
+- "scheduledSleepMode"
+- "scheduler"
+- "schemaWithDomain:dataKeys:"
+- "secondUnit"
+- "self"
+- "sendNotificationInstruction:criteria:error:"
+- "sendNotificationInstructionsForSchedulingChanges:sampleInfo:"
+- "sensorBasedPredictionEnabled"
+- "set"
+- "setAccessibilityAssertion:"
+- "setActiveWatchProductType:"
+- "setAge:"
+- "setAreHealthNotificationsAuthorized:"
+- "setBiologicalSex:"
+- "setCacheScope:"
+- "setCalendar:"
+- "setCountConfirmedInfrequentDeviationPastYear:"
+- "setCountConfirmedIrregularDeviationPastYear:"
+- "setCountConfirmedProlongedDeviationPastYear:"
+- "setCountConfirmedSpottingDeviationPastYear:"
+- "setCountDetectedInfrequentDeviationsPastYear:"
+- "setCountDetectedIrregularDeviationsInPastYear:"
+- "setCountDetectedProlongedDeviationsPastYear:"
+- "setCountDetectedSpottingDeviationsPastYear:"
+- "setCountPairedVisionPro:"
+- "setCountPairedWatch:"
+- "setCountPairediPad:"
+- "setCountPairediPhone:"
+- "setCountTotalConfirmedDeviationsPastMonth:"
+- "setCountTotalConfirmedDeviationsPastYear:"
+- "setCountTotalDetectedDeviationsPastMonth:"
+- "setCountTotalDetectedDeviationsPastYear:"
+- "setCountWatchesWithWristTempMeasurementDataInLast45Days:"
+- "setCountWristTempEligibleHistoricalCycles:"
+- "setCountWristTempEligibleHistoricalCycles_ConfirmedOPK:"
+- "setCountWristTempEligibleHistoricalCycles_ConfirmedWristTemp:"
+- "setCountWristTempEligibleHistoricalCycles_FailedAvailability:"
+- "setCountWristTempEligibleHistoricalCycles_FailedNoise:"
+- "setCountWristTempEligibleHistoricalCycles_FailedOther:"
+- "setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:"
+- "setCycleLengthMedian:"
+- "setCycleLengthVariationLowerPercentile:"
+- "setCycleLengthVariationUpperPercentile:"
+- "setData:forKey:error:"
+- "setDataSource:"
+- "setDate:forKey:error:"
+- "setDay:"
+- "setDaysBeforeFertileWindowEnd:"
+- "setDaysBeforeMostLikelyPeriodPredictionStart:"
+- "setDaysFertileWindowShifted:"
+- "setDaysFirstPeriodPredictionShifted:"
+- "setDaysSinceCycleStart:"
+- "setDaysSinceDeviationTilePosted:"
+- "setDaysWithWristTempIn10DaysAfterOvulation:"
+- "setDaysWithWristTempIn10DaysBeforeCalendarOvulation:"
+- "setDaysWithWristTempIn3DaysAfterCalendarOvulation:"
+- "setDaysWithWristTempIn45DaysBeforeFertileWindowEnd:"
+- "setDaysWithWristTempIn6DaysAfterCalendarOvulation:"
+- "setDaysWithWristTempIn6DaysBeforeCalendarOvulation:"
+- "setDaysWithWristTempInPast45Days:"
+- "setDaysWornWatchToSleepInLast45Days:"
+- "setDelegate:"
+- "setDeviationDetectionInfrequentEnabled:"
+- "setDeviationDetectionIrregularEnabled:"
+- "setDeviationDetectionProlongedEnabled:"
+- "setDeviationDetectionSpottingEnabled:"
+- "setDeviationInput:"
+- "setDidFirstPeriodPredictionShift:"
+- "setEncodingOption:forKey:"
+- "setEpoch:"
+- "setEventPayload:"
+- "setFailIfNotFound:"
+- "setFeatureSettingData:forKey:completion:"
+- "setFeatureSettingNumber:forKey:completion:"
+- "setFeatureSettingString:forKey:completion:"
+- "setFeatureSettingsNumber:forKey:featureIdentifier:suppressNotificationsToObserver:error:"
+- "setFertilityNotificationEnabled:"
+- "setFertilityPredictionEnabled:"
+- "setGestationalAge:"
+- "setHasCompatiblePairedAppleWatch:"
+- "setHasConfirmedInfrequentDeviationPastMonth:"
+- "setHasConfirmedIrregularDeviationPastMonth:"
+- "setHasConfirmedProlongedDeviationPastMonth:"
+- "setHasConfirmedSpottingDeviationPastMonth:"
+- "setHasFirstPartySleepSamplesPast48Hours:"
+- "setHasOnboardedPregnancyMode:"
+- "setHasPregnancyInMedicalID:"
+- "setHasSameAlgorithmVersionOnPairedWatch:"
+- "setHasSleepSamplesPast48Hours:"
+- "setHasWristTemperatureCompatiblePairedWatch:"
+- "setHeartRateInputDeliveryCountryCode:"
+- "setHour:"
+- "setImproveHealthAndActivityAllowed:"
+- "setInternalLiveOnCycleFactorOverrideEnabled:"
+- "setInvalidationQueryDescriptors:"
+- "setIsEligibleForCycleFactorsReminder:"
+- "setIsSleepConfiguredToAllowWristTemperatureMeasurements:"
+- "setIsSleepScheduleEnabled:"
+- "setIsSleepScreenEnabled:"
+- "setJulianDayMinAnalysisWindowEndInfrequent:"
+- "setJulianDayMinAnalysisWindowEndIrregular:"
+- "setJulianDayMinAnalysisWindowEndProlonged:"
+- "setJulianDayMinAnalysisWindowEndSpotting:"
+- "setJulianDayMinAnalysisWindowStartInfrequent:"
+- "setJulianDayMinAnalysisWindowStartIrregular:"
+- "setJulianDayMinAnalysisWindowStartProlonged:"
+- "setJulianDayMinAnalysisWindowStartSpotting:"
+- "setLatestSampleInfo:"
+- "setLimitCount:"
+- "setLogBasalBodyTemperatureEnabled:"
+- "setLogCervicalMucusQualityEnabled:"
+- "setLogFactorsEnabled:"
+- "setLogOvulationTestResultEnabled:"
+- "setLogPregnancyTestResultEnabled:"
+- "setLogProgesteroneTestResultEnabled:"
+- "setLogSexualActivityEnabled:"
+- "setLogSpottingEnabled:"
+- "setLogSymptomsEnabled:"
+- "setMenstrualCyclesExperienceModelData:"
+- "setMenstruationLengthMedian:"
+- "setMinute:"
+- "setNumber:forKey:domainName:protectionCategory:error:"
+- "setNumber:forKey:error:"
+- "setNumberOfCyclesSinceLastDayOfLogging:"
+- "setNumberOfCyclesSinceLastDayOfLoggingInCycleTracking:"
+- "setNumberOfDailyAwakeHeartRateStatisticsForPast100Days:"
+- "setNumberOfDailySleepHeartRateStatisticsForPast100Days:"
+- "setNumberOfDaysSinceLastFiredUpdateFertileWindowNotification:"
+- "setObject:forKeyedSubscript:"
+- "setOnboardedVersion:"
+- "setOnboardingCompleted:"
+- "setOngoingContraception:"
+- "setOngoingLactation:"
+- "setOngoingPregnancy:"
+- "setOrderingTerms:"
+- "setPeriodNotificationEnabled:"
+- "setPeriodPredictionEnabled:"
+- "setPredicate:"
+- "setPredictionPrimarySourceTypeFertileWindow:"
+- "setPredictionPrimarySourceTypeFirstPeriodPrediction:"
+- "setPregnancyModeState:"
+- "setProfile:"
+- "setProjectionAttributesOnWatchFromUseHeartRateInput:useWristTemperatureInput:"
+- "setQueue:"
+- "setRecentSymptoms:"
+- "setRequiresProtectedData:"
+- "setRequiresWrite:"
+- "setSensorBasedPredictionEnabled:"
+- "setSortDescriptors:"
+- "setSourceOrderProvider:"
+- "setStartOfCycleFromCycleTracking:"
+- "setStatisticsConfiguration:"
+- "setStatisticsHandler:"
+- "setTodayAsJulianDay:"
+- "setUnitTest_accountDevicesInfo:"
+- "setUnitTest_currentDateOverride:"
+- "setUnitTest_didProcessNotificationInstruction:"
+- "setUnitTest_didSkipNotificationForDueEventHandler:"
+- "setValueForAllKeys:error:"
+- "setValuesForKeysWithDictionary:"
+- "setValuesWithDictionary:error:"
+- "setWasDeviationDetectionDelivered:"
+- "setWasHeartRateInputDelivered:"
+- "setWasWristTemperatureInputDelivered:"
+- "setWeeksSinceOnboarded:"
+- "setWeeksSinceOnboardedPregnancyMode:"
+- "setWeeksSinceOnboardedWristTemperatureOvulationPrediction:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setWristTemperatureBasedPredictionEnabled:"
+- "setWristTemperatureInputDeliveryCountryCode:"
+- "set_test_didNotUpgradeOnboardingRecord:"
+- "settingsManager"
+- "settingsManagerDidUpdateAlgorithmVersionMismatchSettings:"
+- "settingsManagerDidUpdateAnalysisSettings:"
+- "settingsManagerDidUpdateHiddenDisplayTypes:"
+- "settingsManagerDidUpdateNotificationSettings:"
+- "settingsMigrationManagerDidCompleteMigration:didRunMigrationSteps:"
+- "sexualActivity"
+- "sharedBehavior"
+- "sharedDiagnosticManager"
+- "sharedInstance"
+- "sharedWidgetService"
+- "shouldFireNotifications"
+- "shouldLoadPluginForDaemon:"
+- "shouldReRequestWork"
+- "shouldSubmit"
+- "significantTimeChangeDidOccur"
+- "significantTimeChangeToken"
+- "sleepCoachingOnboardingFirstCompletedDate"
+- "sleepModeOptions"
+- "sleepTracking"
+- "sleepTrackingOnboardingFirstCompletedDate"
+- "someNotificationsEnabled"
+- "someNotificationsEnabledAndSupported"
+- "sortDescriptorWithKey:ascending:"
+- "sortUsingComparator:"
+- "sortedArrayUsingSelector:"
+- "source"
+- "sourceManager"
+- "sourceOrderManager"
+- "sourceRevision"
+- "sources"
+- "start"
+- "startDate"
+- "startDayRange"
+- "startOfCycleFromCycleTracking"
+- "state"
+- "stateEntitySchema"
+- "stateFromDictionaryRepresentation:"
+- "stateSyncEntityClasses"
+- "stateType"
+- "statistics"
+- "storageEntries"
+- "stringValue"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "submitMetricForCategory:areHealthNotificationsAuthorized:internalLiveOnCycleFactorOverrideEnabled:"
+- "submitMetricForCategory:areHealthNotificationsAuthorized:numberOfDaysShiftedForFertileWindow:numberOfDaysOffsetFromFertileWindowEnd:numberOfDaysWithWristTemp45DaysBeforeOvulationConfirmedNotification:internalLiveOnCycleFactorOverrideEnabled:"
+- "submitMetricWithDateComponents:"
+- "submitMetricWithDayIndex:oldMenstrualFlow:newMenstrualFlow:analysis:isLoggingMultipleDays:periodPredictionEnabled:heartRateBasedPredictionEnabled:wristTemperatureBasedPredictionEnabled:isWristTemperatureInputDelivered:internalLiveOnCycleFactorOverrideEnabled:cycles:"
+- "submitMetricWithError:"
+- "superclass"
+- "supportsCapability:"
+- "symptoms"
+- "syncDidFinishWithResult:stateStore:profile:"
+- "syncHealthDataWithOptions:reason:completion:"
+- "syncWithRequest:reason:completion:"
+- "synchronizeLocalProperties"
+- "takeAccessibilityAssertionWithOwnerIdentifier:timeout:error:"
+- "taskIdentifier"
+- "taskServerClasses"
+- "tenthPercentileAsleepHeartRateStatistics"
+- "tenthPercentileAwakeHeartRateStatistics"
+- "timeIntervalSinceDate:"
+- "tinkerModeEnabled"
+- "transactionWithOwner:activityName:"
+- "transitionToFiredNotificationStateWithRequest:settingsManager:error:"
+- "type"
+- "uncheckedAvailability"
+- "unitPreferencesManager"
+- "unitTest_accountDevicesInfo"
+- "unitTest_currentDateOverride"
+- "unitTest_deletedPregnancySamplesQueryResults"
+- "unitTest_didProcessNotificationInstruction"
+- "unitTest_didSkipNotificationForDueEventHandler"
+- "unregisterObserver:"
+- "unregisterObserver:forRequirement:"
+- "unsatisfiedRequirementIdentifiers"
+- "updateDataWithStateStorage:profile:transaction:error:"
+- "updateDataWithStateStore:delegate:profile:transaction:error:"
+- "updateLocalDeviceValuesNowWithError:"
+- "upperQuantile"
+- "userCharacteristicForType:error:"
+- "userCharacteristicsManager"
+- "userDefaults"
+- "userDefaultsChangesFromFeatureSettings:currentUserDefaults:"
+- "userInitiatedObservers"
+- "userReportedCycleLength"
+- "userReportedMenstruationLength"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"<HKFeatureAvailabilityRequirementSatisfactionObserver>\"8"
+- "v16@?0@\"<HKMCPregnancyModelObserver>\"8"
+- "v16@?0@\"<_TtP27HealthMenstrualCyclesDaemon34HDMCExperienceModelManagerObserver_>\"8"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<HDFeatureAvailabilityExtension>\"16"
+- "v24@0:8@\"<HDHealthDaemon>\"16"
+- "v24@0:8@\"<HKFeatureAvailabilityProviding>\"16"
+- "v24@0:8@\"<HKFeatureAvailabilityProvidingObserver>\"16"
+- "v24@0:8@\"<HKFeatureStatusProvidingObserver>\"16"
+- "v24@0:8@\"<HKMCAnalysisManagerObserver>\"16"
+- "v24@0:8@\"<HKMCPregnancyModelObserver>\"16"
+- "v24@0:8@\"<_TtP27HealthMenstrualCyclesDaemon34HDMCExperienceModelManagerObserver_>\"16"
+- "v24@0:8@\"HDProfile\"16"
+- "v24@0:8@\"HDQueryServer\"16"
+- "v24@0:8@\"HKMCAnalysis\"16"
+- "v24@0:8@\"HKMCExperienceModel\"16"
+- "v24@0:8@\"HKMCPregnancyModel\"16"
+- "v24@0:8@\"HKMCSettingsManager\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"HKFeatureOnboardingRecord\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKMCAnalysis\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKMCCachedPregnancyModel\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKMCExperienceModel\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKMCPregnancyModel\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8Q16"
+- "v28@0:8@\"<HDHealthDatabase>\"16B24"
+- "v28@0:8@\"<HKFeatureAvailabilityRequirement>\"16B24"
+- "v28@0:8@\"<HKMCPregnancyModelObserver>\"16B24"
+- "v28@0:8@\"HDSettingsMigrationManager\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"<HDHealthDatabase>\"16B24B28"
+- "v32@0:8@\"<HKFeatureAvailabilityProvidingObserver>\"16@\"OS_dispatch_queue\"24"
+- "v32@0:8@\"<HKFeatureAvailabilityRequirementSatisfactionObserver>\"16@\"<HKFeatureAvailabilityRequirement>\"24"
+- "v32@0:8@\"<HKFeatureStatusProviding>\"16@\"HKFeatureStatus\"24"
+- "v32@0:8@\"<HKFeatureStatusProvidingObserver>\"16@\"OS_dispatch_queue\"24"
+- "v32@0:8@\"HDAnalyticsSubmissionCoordinator\"16@?<v@?@\"NSMutableDictionary\"q@\"NSError\">24"
+- "v32@0:8@\"HDFeatureSettingsManager\"16@\"NSString\"24"
+- "v32@0:8@\"HDMCWatchSettingsCompatibilityManager\"16@\"NSSet\"24"
+- "v32@0:8@\"HDNotificationSyncClient\"16q24"
+- "v32@0:8@\"HDPostInstallUpdateManager\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"HDQueryServer\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"HKMCPregnancyModeSetupCompletionRecord\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"HKMCPregnancyModel\"16@\"NSUUID\"24"
+- "v32@0:8@\"NSArray\"16@\"HKSampleType\"24"
+- "v32@0:8@\"NSArray\"16@\"NSNumber\"24"
+- "v32@0:8@\"NSDictionary\"16@\"NSNumber\"24"
+- "v32@0:8@\"NSError\"16@\"NSUUID\"24"
+- "v32@0:8@\"NSSet\"16@\"NSNumber\"24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16B24B28"
+- "v32@0:8@16q24"
+- "v32@0:8Q16q24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?B@\"NSError\">24"
+- "v36@0:8@\"<HKMCAnalysisManagerObserver>\"16@\"NSObject<OS_dispatch_queue>\"24B32"
+- "v36@0:8@\"NSArray\"16B24@?<v@?B@\"NSError\">28"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"<HKFeatureAvailabilityRequirementSatisfactionObserver>\"16@\"<HKFeatureAvailabilityRequirement>\"24@\"OS_dispatch_queue\"32"
+- "v40@0:8@\"HDQueryServer\"16@\"HDObjectAuthorizationRequestContext\"24@?<v@?@\"NSArray\"@\"NSError\">32"
+- "v40@0:8@\"HDWatchSettingsReconciliationManager\"16@\"HDWatchSettingKeys\"24B32B36"
+- "v40@0:8@\"HKMCPregnancyModeSetupCompletionRecord\"16@\"NSUUID\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"HKOnboardingCompletion\"16@\"HKFeatureSettings\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSData\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSDictionary\"16q24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24B32B36"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16B24B28B32B36"
+- "v40@0:8@16q24@?32"
+- "v40@0:8q16@\"<HDCloudSyncStateStore>\"24@\"HDProfile\"32"
+- "v40@0:8q16@24@32"
+- "v40@0:8q16q24@?32"
+- "v40@0:8q16q24@?<v@?B@\"NSError\">32"
+- "v40@0:8{?=qq}16@?32"
+- "v40@0:8{?=qq}16@?<v@?B@\"NSError\">32"
+- "v44@0:8@\"HDQueryServer\"16@\"HDObjectAuthorizationRequestContext\"24B32@?<v@?@\"NSArray\"@\"NSError\">36"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8q16q24B32@?36"
+- "v44@0:8q16q24B32@?<v@?B@\"NSError\">36"
+- "v48@0:8@\"HDProtectedDataOperation\"16@\"HDProfile\"24@\"HDAssertion\"32@?<v@?>40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@?32^B40"
+- "v48@0:8@16@24{?=qq}32"
+- "v48@0:8q16q24q32@?40"
+- "v48@0:8q16q24q32@?<v@?B@\"NSError\">40"
+- "v52@0:8q16q24q32@40B48"
+- "v56@0:8@\"NSString\"16q24@\"NSDate\"32@\"HKFeatureSettings\"40@?<v@?B@\"NSError\">48"
+- "v56@0:8@16q24@32@40@?48"
+- "v64@0:8@\"<HKAssociatableObject>\"16@\"<HKAssociatableObject>\"24Q32Q40@\"NSArray\"48@\"NSNumber\"56"
+- "v64@0:8@16@24Q32Q40@48@56"
+- "v72@0:8@\"NSDictionary\"16@\"NSDictionary\"24@\"NSArray\"32@\"NSArray\"40{?=qq}48@?<v@?@\"NSArray\"@\"NSError\">64"
+- "v72@0:8@16@24@32@40{?=qq}48@?64"
+- "validateConfiguration:client:error:"
+- "value"
+- "valueForProperty:"
+- "version"
+- "wasDeviationDetectionDelivered"
+- "watchBundleIdentifier"
+- "watchSettingsCompatibilityManager:didChangeUserDefaultsKeys:"
+- "watchSettingsReconciliationManager:didReconcileValuesForKeys:didUpdateFeatureSetting:didUpdateUserDefault:"
+- "weekOfMonth"
+- "weekOfYear"
+- "weeksSinceOnboardedWristTemperatureOvulationPrediction"
+- "widgetReloader"
+- "widgetSchedulingManager"
+- "wristDetectionSettingManager"
+- "wristTemperature"
+- "wristTemperatureBasedPredictionEnabled"
+- "wristTemperatureFromWristTemperatureSample:"
+- "year"
+- "zone"
+- "{?=\"start\"q\"duration\"q}"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

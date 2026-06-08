@@ -1,0 +1,839 @@
+## DistributedTimersDaemon
+
+> `/System/Library/PrivateFrameworks/DistributedTimersDaemon.framework/DistributedTimersDaemon`
+
+```diff
+
+-276.50.47.0.0
+-  __TEXT.__text: 0x8e5f0
+-  __TEXT.__auth_stubs: 0x1f60
+-  __TEXT.__objc_methlist: 0x7fc
+-  __TEXT.__const: 0x26e2
+-  __TEXT.__cstring: 0x955
+-  __TEXT.__swift5_typeref: 0xef0
+-  __TEXT.__swift5_capture: 0x8d8
+-  __TEXT.__oslogstring: 0x1fb1
++520.0.0.0.0
++  __TEXT.__text: 0x8d3e8
++  __TEXT.__objc_methlist: 0x82c
++  __TEXT.__const: 0x2708
++  __TEXT.__cstring: 0x935
++  __TEXT.__swift5_typeref: 0xea8
++  __TEXT.__swift5_capture: 0x9a4
++  __TEXT.__oslogstring: 0x1ff1
+   __TEXT.__constg_swiftt: 0x804
+   __TEXT.__swift5_reflstr: 0x889
+   __TEXT.__swift5_fieldmd: 0xa44
+
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_proto: 0x1ac
+   __TEXT.__swift5_types: 0x8c
+-  __TEXT.__swift_as_entry: 0x19c
++  __TEXT.__swift_as_entry: 0x1a0
+   __TEXT.__swift_as_ret: 0x188
+-  __TEXT.__unwind_info: 0x19f8
+-  __TEXT.__eh_frame: 0x4e00
+-  __TEXT.__objc_classname: 0x3eb
+-  __TEXT.__objc_methname: 0x25ad
+-  __TEXT.__objc_methtype: 0x9f3
+-  __TEXT.__objc_stubs: 0xea0
+-  __DATA_CONST.__got: 0x6d8
+-  __DATA_CONST.__const: 0x138
++  __TEXT.__swift_as_cont: 0x3b8
++  __TEXT.__unwind_info: 0x1978
++  __TEXT.__eh_frame: 0x4c78
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x130
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x860
++  __DATA_CONST.__objc_selrefs: 0x880
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __AUTH_CONST.__auth_got: 0xfb8
+-  __AUTH_CONST.__const: 0x23d0
+-  __AUTH_CONST.__objc_const: 0x1560
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x25d8
++  __AUTH_CONST.__objc_const: 0x1580
++  __AUTH_CONST.__auth_got: 0x10b8
+   __AUTH.__objc_data: 0x320
+   __AUTH.__data: 0xbf0
+-  __DATA.__data: 0x1180
++  __DATA.__data: 0x1150
+   __DATA.__common: 0x48
+   __DATA.__bss: 0x3580
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/CoreUtilsSwift.framework/CoreUtilsSwift
+   - /System/Library/PrivateFrameworks/DistributedTimers.framework/DistributedTimers
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EB3ECD7C-5A70-3A58-BE40-3FE310230D3E
+-  Functions: 1797
+-  Symbols:   948
+-  CStrings:  711
++  UUID: 3F8A914D-B33E-3477-B132-28D1271EE174
++  Functions: 1793
++  Symbols:   1243
++  CStrings:  269
+ 
+Symbols:
++ __PROTOCOLS__TtC23DistributedTimersDaemon17DTTransportDaemon.56
++ ___swift__destructor
++ ___swift__destructor.151
++ ___swift__destructor.163
++ ___swift__destructor.235
++ ___swift__destructor.29
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.111Tm
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.166Tm
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.178Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.199Tm
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.247
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.271
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.27Tm
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.305
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.322
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_store_extra_inhabitant_indexTm
++ __swift_implicitisolationactor_to_executor_cast
++ _block_copy_helper.147
++ _block_copy_helper.161
++ _block_copy_helper.165
++ _block_copy_helper.169
++ _block_copy_helper.173
++ _block_copy_helper.177
++ _block_copy_helper.181
++ _block_copy_helper.185
++ _block_copy_helper.193
++ _block_copy_helper.200
++ _block_copy_helper.244
++ _block_copy_helper.251
++ _block_copy_helper.264
++ _block_copy_helper.29
++ _block_copy_helper.47
++ _block_copy_helper.53
++ _block_copy_helper.58
++ _block_copy_helper.62
++ _block_copy_helper.66
++ _block_copy_helper.70
++ _block_copy_helper.74
++ _block_copy_helper.78
++ _block_copy_helper.8
++ _block_copy_helper.86
++ _block_copy_helper.93
++ _block_descriptor.10
++ _block_descriptor.149
++ _block_descriptor.163
++ _block_descriptor.167
++ _block_descriptor.171
++ _block_descriptor.175
++ _block_descriptor.179
++ _block_descriptor.183
++ _block_descriptor.187
++ _block_descriptor.195
++ _block_descriptor.202
++ _block_descriptor.246
++ _block_descriptor.253
++ _block_descriptor.266
++ _block_descriptor.31
++ _block_descriptor.49
++ _block_descriptor.55
++ _block_descriptor.60
++ _block_descriptor.64
++ _block_descriptor.68
++ _block_descriptor.72
++ _block_descriptor.76
++ _block_descriptor.80
++ _block_descriptor.88
++ _block_descriptor.95
++ _block_destroy_helper.148
++ _block_destroy_helper.162
++ _block_destroy_helper.166
++ _block_destroy_helper.170
++ _block_destroy_helper.174
++ _block_destroy_helper.178
++ _block_destroy_helper.182
++ _block_destroy_helper.186
++ _block_destroy_helper.194
++ _block_destroy_helper.201
++ _block_destroy_helper.245
++ _block_destroy_helper.252
++ _block_destroy_helper.265
++ _block_destroy_helper.30
++ _block_destroy_helper.48
++ _block_destroy_helper.54
++ _block_destroy_helper.59
++ _block_destroy_helper.63
++ _block_destroy_helper.67
++ _block_destroy_helper.71
++ _block_destroy_helper.75
++ _block_destroy_helper.79
++ _block_destroy_helper.87
++ _block_destroy_helper.9
++ _block_destroy_helper.94
++ _objc_release_x1
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_deallocBox
++ _swift_release_n
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic SaySo7DTTimerCGSg
+- __PROTOCOLS__TtC23DistributedTimersDaemon17DTTransportDaemon.59
+- ___swift_get_extra_inhabitant_index.92Tm
+- ___swift_store_extra_inhabitant_index.93Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DistributedTimersDaemon
+- _block_copy_helper.13
+- _block_copy_helper.154
+- _block_copy_helper.155
+- _block_copy_helper.159
+- _block_copy_helper.163
+- _block_copy_helper.167
+- _block_copy_helper.175
+- _block_copy_helper.178
+- _block_copy_helper.179
+- _block_copy_helper.241
+- _block_copy_helper.248
+- _block_copy_helper.261
+- _block_copy_helper.30
+- _block_copy_helper.49
+- _block_copy_helper.55
+- _block_copy_helper.64
+- _block_copy_helper.68
+- _block_copy_helper.72
+- _block_copy_helper.76
+- _block_copy_helper.80
+- _block_copy_helper.84
+- _block_descriptor.15
+- _block_descriptor.156
+- _block_descriptor.157
+- _block_descriptor.161
+- _block_descriptor.165
+- _block_descriptor.169
+- _block_descriptor.177
+- _block_descriptor.180
+- _block_descriptor.181
+- _block_descriptor.243
+- _block_descriptor.250
+- _block_descriptor.263
+- _block_descriptor.32
+- _block_descriptor.51
+- _block_descriptor.57
+- _block_descriptor.66
+- _block_descriptor.70
+- _block_descriptor.74
+- _block_descriptor.78
+- _block_descriptor.82
+- _block_descriptor.86
+- _block_destroy_helper.14
+- _block_destroy_helper.155
+- _block_destroy_helper.156
+- _block_destroy_helper.160
+- _block_destroy_helper.164
+- _block_destroy_helper.168
+- _block_destroy_helper.176
+- _block_destroy_helper.179
+- _block_destroy_helper.180
+- _block_destroy_helper.242
+- _block_destroy_helper.249
+- _block_destroy_helper.262
+- _block_destroy_helper.31
+- _block_destroy_helper.50
+- _block_destroy_helper.56
+- _block_destroy_helper.65
+- _block_destroy_helper.69
+- _block_destroy_helper.73
+- _block_destroy_helper.77
+- _block_destroy_helper.81
+- _block_destroy_helper.85
+- _objectdestroy.105Tm
+- _objectdestroy.185Tm
+- _objectdestroy.211Tm
+- _objectdestroy.28Tm
+- _objectdestroyTm
+- _symbolic _____3key_So6HMHomeC5valuetSg 10Foundation4UUIDV
+- _symbolic _____3key______5valuetSg s6UInt64V 23DistributedTimersDaemon011DTTransportD0C28DTOperationItemRequestWaiter33_D0772C63A9128FD93A891935DD2DF83ALLV
+- _symbolic _____3key______y______G5valuetSg s6UInt64V ScS12ContinuationV 23DistributedTimersDaemon06DTSyncE0C5EventO
+CStrings:
++ "Server save failed: local newer, retrying, type=%s, id=%s"
++ "Server save failed: server newer, merged, type=%s, id=%s"
+- "#16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"8@?0"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CKRecordValue"
+- "HMHomeDelegate"
+- "HMHomeDelegatePrivate"
+- "HMHomeManagerDelegate"
+- "HMHomeManagerDelegatePrivate"
+- "HMMediaObjectDelegate"
+- "HMMediaSystemDelegate"
+- "HMSiriEndpointProfileDelegate"
+- "HomeKit not opted into HH2"
+- "NSObject"
+- "OS_os_transaction"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "Server save failed: server newer, type=%s, id=%s"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC23DistributedTimersDaemon11DTXPCServer"
+- "_TtC23DistributedTimersDaemon12DTSyncDaemon"
+- "_TtC23DistributedTimersDaemon13DTTimerDaemon"
+- "_TtC23DistributedTimersDaemon15DTXPCConnection"
+- "_TtC23DistributedTimersDaemon17DTTransportDaemon"
+- "_TtC23DistributedTimersDaemon8DTDaemon"
+- "_TtCC23DistributedTimersDaemon17DTTransportDaemonP33_D0772C63A9128FD93A891935DD2DF83A27DTTransportMonitorInfoLocal"
+- "_TtCC23DistributedTimersDaemon17DTTransportDaemonP33_D0772C63A9128FD93A891935DD2DF83A30DTTransportMonitorInfoIncoming"
+- "_TtCC23DistributedTimersDaemon17DTTransportDaemonP33_D0772C63A9128FD93A891935DD2DF83A30DTTransportMonitorInfoOutgoing"
+- "_TtCFFC23DistributedTimersDaemon8DTDaemon8activateFZT_T_U_FT_SSL_13OutputWrapper"
+- "_ckContainer"
+- "_ckSyncEngine"
+- "_ckWriteEnabled"
+- "_daemon"
+- "_diagnosticNotification"
+- "_entitled"
+- "_environment"
+- "_eventContinuations"
+- "_homeKitDeferred"
+- "_homeKitPollDeadline"
+- "_homeKitPollTask"
+- "_homeKitReady"
+- "_homeManager"
+- "_homeMap"
+- "_homeSiriEndpointMap"
+- "_homeSiriEndpointsReady"
+- "_homeTransportRegisteredMap"
+- "_invalidateCalled"
+- "_invalidationHandler"
+- "_lastContext"
+- "_lastRequest"
+- "_migrateTime"
+- "_monitorAlarmsFetchPending"
+- "_monitorAlarmsFetchRunning"
+- "_monitorContext"
+- "_monitorSessionsIncoming"
+- "_monitorSessionsLocal"
+- "_monitorSessionsOutgoing"
+- "_monitorTimer"
+- "_monitorTimersFetchPending"
+- "_monitorTimersFetchRunning"
+- "_monitorTransaction"
+- "_monitoringTransaction"
+- "_mtAlarmManager"
+- "_mtAlarmObservers"
+- "_mtAlarms"
+- "_mtTimerManager"
+- "_mtTimerObservers"
+- "_mtTimers"
+- "_multicastWait"
+- "_operationQueue"
+- "_osStateHandler"
+- "_persistentData"
+- "_pid"
+- "_startTicks"
+- "_statusFlags"
+- "_statusFlagsOverride"
+- "_stereoAccessoryID"
+- "_subDaemons"
+- "_transportDecoder"
+- "_transportEncoder"
+- "_waitingOperations"
+- "_xpcCoder"
+- "_xpcConnection"
+- "_xpcConnections"
+- "_xpcInvalidated"
+- "_xpcListener"
+- "accessories"
+- "accessory"
+- "addAlarm:"
+- "addFailureBlock:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSuccessBlock:"
+- "addTimer:"
+- "alarmID"
+- "alarmIDString"
+- "alarms"
+- "autorelease"
+- "bundleID"
+- "class"
+- "clientID"
+- "clientInfo"
+- "code"
+- "components"
+- "conformsToProtocol:"
+- "containerID"
+- "containerIdentifier"
+- "containerWithIdentifier:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "currentAccessory"
+- "currentHome"
+- "dataSyncState"
+- "debugDescription"
+- "defaultCenter"
+- "defaultManager"
+- "description"
+- "device"
+- "dismissAlarmWithIdentifier:"
+- "dismissTimerWithIdentifier:"
+- "domain"
+- "doubleValue"
+- "encodeSystemFieldsWithCoder:"
+- "encodedData"
+- "encryptedValues"
+- "hasOptedToHH2"
+- "hash"
+- "hmmmMessageDestination"
+- "home"
+- "home:didAddAccessory:"
+- "home:didAddAccessoryNetworkProtectionGroup:"
+- "home:didAddActionSet:"
+- "home:didAddMediaSystem:"
+- "home:didAddResidentDevice:"
+- "home:didAddRoom:"
+- "home:didAddRoom:toZone:"
+- "home:didAddService:toServiceGroup:"
+- "home:didAddServiceGroup:"
+- "home:didAddTrigger:"
+- "home:didAddUser:"
+- "home:didAddZone:"
+- "home:didEncounterError:forAccessory:"
+- "home:didFailAccessorySetupWithError:"
+- "home:didRemoveAccessory:"
+- "home:didRemoveAccessoryNetworkProtectionGroup:"
+- "home:didRemoveActionSet:"
+- "home:didRemoveMediaSystem:"
+- "home:didRemoveResidentDevice:"
+- "home:didRemoveRoom:"
+- "home:didRemoveRoom:fromZone:"
+- "home:didRemoveService:fromServiceGroup:"
+- "home:didRemoveServiceGroup:"
+- "home:didRemoveTrigger:"
+- "home:didRemoveUser:"
+- "home:didRemoveZone:"
+- "home:didUnblockAccessory:"
+- "home:didUpdateAccessControlForUser:"
+- "home:didUpdateAccessoryInvitationsForUser:"
+- "home:didUpdateAccessoryNetworkProtectionGroup:"
+- "home:didUpdateActionSet:isExecuting:"
+- "home:didUpdateActionsForActionSet:"
+- "home:didUpdateApplicationDataForActionSet:"
+- "home:didUpdateApplicationDataForRoom:"
+- "home:didUpdateApplicationDataForServiceGroup:"
+- "home:didUpdateAreBulletinNotificationsSupported:"
+- "home:didUpdateAudioAnalysisClassifierOptions:"
+- "home:didUpdateAutomaticSoftwareUpdateEnabled:"
+- "home:didUpdateAutomaticThirdPartyAccessorySoftwareUpdateEnabled:"
+- "home:didUpdateDismissedWalletKeyUWBUnlockOnboarding:"
+- "home:didUpdateEventLogDuration:"
+- "home:didUpdateEventLogEnabled:"
+- "home:didUpdateHasOnboardedForWalletKey:"
+- "home:didUpdateHomeActivityState:isActivityStateHoldActive:activityStateHoldEndDate:transitionalStateEndDate:"
+- "home:didUpdateHomeActivityStateSchedule:"
+- "home:didUpdateHomeHubState:"
+- "home:didUpdateLastExecutionDateForActionSet:"
+- "home:didUpdateLocation:"
+- "home:didUpdateMediaPassword:"
+- "home:didUpdateMediaPeerToPeerEnabled:"
+- "home:didUpdateMinimumMediaUserPrivilege:"
+- "home:didUpdateNameForActionSet:"
+- "home:didUpdateNameForRoom:"
+- "home:didUpdateNameForServiceGroup:"
+- "home:didUpdateNameForTrigger:"
+- "home:didUpdateNameForZone:"
+- "home:didUpdateOnboardAudioAnalysis:"
+- "home:didUpdatePersonManagerSettings:"
+- "home:didUpdateReprovisionStateForAccessory:"
+- "home:didUpdateRoom:forAccessory:"
+- "home:didUpdateSiriPhraseOptions:"
+- "home:didUpdateStateForOutgoingInvitations:"
+- "home:didUpdateSupportsResidentActionSetStateEvaluation:"
+- "home:didUpdateTimeZone:"
+- "home:didUpdateTrigger:"
+- "homeDidAddWalletKey:"
+- "homeDidEnableLocationServices:"
+- "homeDidEnableMultiUser:"
+- "homeDidOnboardLocationServices:"
+- "homeDidRemoveWalletKey:"
+- "homeDidSetEnableDoorbellChime:"
+- "homeDidSetHasAnyUserAcknowledgedCameraRecordingOnboarding:"
+- "homeDidSetHasOnboardedForAccessCode:"
+- "homeDidUpdateAccessControlForCurrentUser:"
+- "homeDidUpdateApplicationData:"
+- "homeDidUpdateAssistantIdentifiers:"
+- "homeDidUpdateAutoSelectedPreferredResident:"
+- "homeDidUpdateHomeLocationStatus:"
+- "homeDidUpdateName:"
+- "homeDidUpdateNetworkRouterSupport:"
+- "homeDidUpdateOnboardedEventLog:"
+- "homeDidUpdatePrimaryResidentNetworkInfo:"
+- "homeDidUpdateProtectionMode:"
+- "homeDidUpdateSoundCheck:"
+- "homeDidUpdateSupportedFeatures:"
+- "homeDidUpdateSupportsResidentSelection:"
+- "homeDidUpdateToROAR:"
+- "homeDidUpdateUserSelectedPreferredResident:"
+- "homeManager:didAddHome:"
+- "homeManager:didReceiveAddAccessoryRequest:"
+- "homeManager:didRemoveHome:"
+- "homeManager:didRemoveHomePermanently:"
+- "homeManager:didUpdateAccessAllowedWhenLocked:"
+- "homeManager:didUpdateAuthorizationStatus:"
+- "homeManager:didUpdateDevices:"
+- "homeManager:didUpdateHH2MigrationAvailableState:"
+- "homeManager:didUpdateHH2MigrationInProgressState:"
+- "homeManager:didUpdateHH2State:"
+- "homeManager:didUpdateHomeSafetySecurityEnabled:"
+- "homeManager:didUpdateMultiUserStatus:reason:"
+- "homeManager:didUpdateResidentEnabledForThisDevice:"
+- "homeManager:didUpdateStateForIncomingInvitations:"
+- "homeManager:didUpdateStatus:"
+- "homeManager:didUpdateThisDeviceIsResidentCapable:"
+- "homeManager:residentProvisioningStatusChanged:"
+- "homeManagerDidEndBatchNotifications:"
+- "homeManagerDidRemoveCurrentAccessory:"
+- "homeManagerDidUpdateApplicationData:"
+- "homeManagerDidUpdateAssistantIdentifiers:"
+- "homeManagerDidUpdateCurrentHome:"
+- "homeManagerDidUpdateDataSyncInProgress:"
+- "homeManagerDidUpdateDataSyncState:"
+- "homeManagerDidUpdateHomes:"
+- "homeManagerDidUpdatePrimaryHome:"
+- "homeManagerWillStartBatchNotifications:"
+- "homes"
+- "identifier"
+- "idsIdentifier"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithAppIntentDonations:"
+- "initWithCoder:"
+- "initWithConfiguration:"
+- "initWithContainerID:options:"
+- "initWithDomain:code:userInfo:"
+- "initWithIdentifier:"
+- "initWithMTAlarm:"
+- "initWithMTTimer:"
+- "initWithOptions:cachePolicy:"
+- "initWithSuiteName:"
+- "initWithTimeout:transportRestriction:"
+- "initWithTitle:dispatchQueue:handler:"
+- "initWithUserRestriction:"
+- "initWithZoneID:"
+- "initWithZoneName:"
+- "isCurrentTimer"
+- "isEnabled"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "lastTicks"
+- "localOnly"
+- "mediaObject:didUpdateMediaSession:"
+- "mediaObject:didUpdateSettings:"
+- "mediaProfile"
+- "mediaSystem:didUpdateApplicationData:"
+- "mediaSystem:didUpdateComponents:"
+- "mediaSystem:didUpdateConfiguredName:"
+- "mediaSystem:didUpdateName:"
+- "mediaSystemDidUpdateAudioDestination:"
+- "mediaSystems"
+- "mtAlarm"
+- "mtAlarmID"
+- "mtTimer"
+- "mtTimerID"
+- "name"
+- "objectForKeyedSubscript:"
+- "peerDestination"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "privateCloudDatabase"
+- "productClass"
+- "productInfo"
+- "recordID"
+- "recordName"
+- "registerModernMessagingRequestHandlerWithMessageName:options:requestHandler:completionHandler:"
+- "release"
+- "remove"
+- "removeAlarm:"
+- "removeObserver:"
+- "removeTimer:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "role"
+- "self"
+- "sendModernMessagingRequestWithMessageName:destination:requestPayload:options:responseHandler:completionHandler:"
+- "sessionHubIdentifier"
+- "setBool:forKey:"
+- "setDelegate:"
+- "setDuration:"
+- "setEnabled:"
+- "setHour:"
+- "setMinute:"
+- "setRepeatSchedule:"
+- "setRequiresSecureCoding:"
+- "setSiriContext:"
+- "setSound:"
+- "setState:"
+- "setTitle:"
+- "setUseZoneWidePCS:"
+- "siriContext"
+- "siriEndpointProfile"
+- "siriEndpointProfile:didUpdateAssistants:"
+- "siriEndpointProfile:didUpdateCurrentAssistant:"
+- "siriEndpointProfile:didUpdateManuallyDisabled:"
+- "siriEndpointProfile:didUpdateMultifunctionButton:"
+- "siriEndpointProfile:didUpdateNeedsOnboarding:"
+- "siriEndpointProfile:didUpdateSessionHubIdentifier:"
+- "siriEndpointProfile:didUpdateSessionState:"
+- "siriEndpointProfile:didUpdateSiriEngineVersion:"
+- "siriEndpointProfile:didUpdateSupportsOnboarding:"
+- "snoozeAlarmWithIdentifier:"
+- "soundType"
+- "soundVolume"
+- "status"
+- "superclass"
+- "syncDaemon"
+- "targets"
+- "timerDaemon"
+- "timerID"
+- "timerIDString"
+- "timers"
+- "toneIdentifier"
+- "toneSoundWithIdentifier:vibrationIdentifer:volume:"
+- "transportDaemon"
+- "type"
+- "uniqueIdentifier"
+- "updateAlarm:"
+- "updateTimer:"
+- "userInfo"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@8"
+- "v24@0:8@\"HMHome\"16"
+- "v24@0:8@\"HMHomeManager\"16"
+- "v24@0:8@\"HMMediaSystem\"16"
+- "v24@0:8@16"
+- "v28@0:8@\"HMHome\"16B24"
+- "v28@0:8@\"HMHomeManager\"16B24"
+- "v28@0:8@\"HMSiriEndpointProfile\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"<HMMediaObject>\"16@\"HMAccessorySettings\"24"
+- "v32@0:8@\"<HMMediaObject>\"16@\"HMMediaSession\"24"
+- "v32@0:8@\"HMHome\"16@\"CLLocation\"24"
+- "v32@0:8@\"HMHome\"16@\"HMAccessory\"24"
+- "v32@0:8@\"HMHome\"16@\"HMAccessoryNetworkProtectionGroup\"24"
+- "v32@0:8@\"HMHome\"16@\"HMActionSet\"24"
+- "v32@0:8@\"HMHome\"16@\"HMHomeActivityStateSchedule\"24"
+- "v32@0:8@\"HMHome\"16@\"HMHomePersonManagerSettings\"24"
+- "v32@0:8@\"HMHome\"16@\"HMMediaSystem\"24"
+- "v32@0:8@\"HMHome\"16@\"HMResidentDevice\"24"
+- "v32@0:8@\"HMHome\"16@\"HMRoom\"24"
+- "v32@0:8@\"HMHome\"16@\"HMServiceGroup\"24"
+- "v32@0:8@\"HMHome\"16@\"HMTrigger\"24"
+- "v32@0:8@\"HMHome\"16@\"HMUser\"24"
+- "v32@0:8@\"HMHome\"16@\"HMZone\"24"
+- "v32@0:8@\"HMHome\"16@\"NSArray\"24"
+- "v32@0:8@\"HMHome\"16@\"NSError\"24"
+- "v32@0:8@\"HMHome\"16@\"NSString\"24"
+- "v32@0:8@\"HMHome\"16@\"NSTimeZone\"24"
+- "v32@0:8@\"HMHome\"16Q24"
+- "v32@0:8@\"HMHome\"16q24"
+- "v32@0:8@\"HMHomeManager\"16@\"HMAddAccessoryRequest\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"HMHome\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSArray\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSSet\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSUUID\"24"
+- "v32@0:8@\"HMHomeManager\"16Q24"
+- "v32@0:8@\"HMMediaSystem\"16@\"HMApplicationData\"24"
+- "v32@0:8@\"HMMediaSystem\"16@\"NSArray\"24"
+- "v32@0:8@\"HMMediaSystem\"16@\"NSString\"24"
+- "v32@0:8@\"HMSiriEndpointProfile\"16@\"HMSiriEndpointProfileAssistant\"24"
+- "v32@0:8@\"HMSiriEndpointProfile\"16@\"NSArray\"24"
+- "v32@0:8@\"HMSiriEndpointProfile\"16@\"NSString\"24"
+- "v32@0:8@\"HMSiriEndpointProfile\"16@\"NSUUID\"24"
+- "v32@0:8@\"HMSiriEndpointProfile\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@?0@\"NSData\"8@\"HMMMClientRequestHandlerOptions\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@?0@\"NSData\"8@\"HMMMClientResponseHandlerOptions\"16@\"NSError\"24"
+- "v36@0:8@\"HMHome\"16@\"HMActionSet\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"HMHome\"16@\"HMRoom\"24@\"HMAccessory\"32"
+- "v40@0:8@\"HMHome\"16@\"HMRoom\"24@\"HMZone\"32"
+- "v40@0:8@\"HMHome\"16@\"HMService\"24@\"HMServiceGroup\"32"
+- "v40@0:8@\"HMHome\"16@\"NSError\"24@\"HMAccessory\"32"
+- "v40@0:8@\"HMHomeManager\"16q24@\"NSString\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v52@0:8@\"HMHome\"16Q24B32@\"NSDate\"36@\"NSDate\"44"
+- "v52@0:8@16Q24B32@36@44"
+- "v8@?0"
+- "value"
+- "xpcConnection"
+- "xpcInstanceID"
+- "xpcServer"
+- "zone"
+- "zoneID"
+- "zoneName"
+
+```

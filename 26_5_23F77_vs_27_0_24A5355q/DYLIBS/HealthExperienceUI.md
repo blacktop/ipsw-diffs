@@ -1,0 +1,6725 @@
+## HealthExperienceUI
+
+> `/System/Library/PrivateFrameworks/HealthExperienceUI.framework/HealthExperienceUI`
+
+```diff
+
+-6200.6.8.2.1
+-  __TEXT.__text: 0x5a9eec
+-  __TEXT.__auth_stubs: 0x94e0
+-  __TEXT.__objc_methlist: 0x8374
+-  __TEXT.__const: 0x2ea04
+-  __TEXT.__gcc_except_tab: 0x1fc
+-  __TEXT.__cstring: 0x1a7bc
+-  __TEXT.__oslogstring: 0xc444
+-  __TEXT.__constg_swiftt: 0x1ff6c
+-  __TEXT.__swift5_typeref: 0xeb74
+-  __TEXT.__swift5_fieldmd: 0x109e8
+-  __TEXT.__swift5_builtin: 0x6a4
+-  __TEXT.__swift5_reflstr: 0x11651
+-  __TEXT.__swift5_assocty: 0x1fc8
+-  __TEXT.__swift5_proto: 0x24d0
+-  __TEXT.__swift5_types: 0x12fc
+-  __TEXT.__swift5_capture: 0x5768
+-  __TEXT.__swift5_protos: 0x494
+-  __TEXT.__swift_as_entry: 0x170
+-  __TEXT.__swift_as_ret: 0xf8
+-  __TEXT.__swift5_mpenum: 0x100
+-  __TEXT.__unwind_info: 0x143e0
+-  __TEXT.__eh_frame: 0xad54
+-  __TEXT.__objc_classname: 0x9d22
+-  __TEXT.__objc_methname: 0x1a185
+-  __TEXT.__objc_methtype: 0x4462
+-  __TEXT.__objc_stubs: 0xf920
+-  __DATA_CONST.__got: 0x2e88
+-  __DATA_CONST.__const: 0x3050
+-  __DATA_CONST.__objc_classlist: 0x1050
++7027.0.52.2.6
++  __TEXT.__text: 0x60d860
++  __TEXT.__objc_methlist: 0x8a14
++  __TEXT.__const: 0x32814
++  __TEXT.__gcc_except_tab: 0x1e0
++  __TEXT.__cstring: 0x1b6c1
++  __TEXT.__oslogstring: 0xcaa4
++  __TEXT.__constg_swiftt: 0x221dc
++  __TEXT.__swift5_typeref: 0xfc80
++  __TEXT.__swift5_fieldmd: 0x11ec4
++  __TEXT.__swift5_builtin: 0x708
++  __TEXT.__swift5_reflstr: 0x12c21
++  __TEXT.__swift5_assocty: 0x2308
++  __TEXT.__swift5_proto: 0x277c
++  __TEXT.__swift5_types: 0x1488
++  __TEXT.__swift5_capture: 0x5a08
++  __TEXT.__swift5_protos: 0x4c4
++  __TEXT.__swift5_mpenum: 0x118
++  __TEXT.__swift_as_entry: 0x204
++  __TEXT.__swift_as_cont: 0x310
++  __TEXT.__swift_as_ret: 0x16c
++  __TEXT.__unwind_info: 0x15d38
++  __TEXT.__eh_frame: 0xc924
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x3170
++  __DATA_CONST.__objc_classlist: 0x1100
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x438
++  __DATA_CONST.__objc_protolist: 0x480
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4fd8
+-  __DATA_CONST.__objc_protorefs: 0x210
++  __DATA_CONST.__objc_selrefs: 0x5418
++  __DATA_CONST.__objc_protorefs: 0x230
+   __DATA_CONST.__objc_superrefs: 0x100
+-  __DATA_CONST.__objc_arraydata: 0x240
+-  __AUTH_CONST.__auth_got: 0x4a80
+-  __AUTH_CONST.__const: 0x28e08
+-  __AUTH_CONST.__cfstring: 0x1560
+-  __AUTH_CONST.__objc_const: 0x21588
+-  __AUTH_CONST.__objc_intobj: 0x240
+-  __AUTH_CONST.__objc_arrayobj: 0x2d0
+-  __AUTH.__objc_data: 0x145d0
+-  __AUTH.__data: 0x155f8
+-  __DATA.__objc_ivar: 0x2d8
+-  __DATA.__data: 0xc1a0
++  __DATA_CONST.__objc_arraydata: 0x260
++  __DATA_CONST.__got: 0x3198
++  __AUTH_CONST.__const: 0x2b3e8
++  __AUTH_CONST.__cfstring: 0x1600
++  __AUTH_CONST.__objc_const: 0x22c10
++  __AUTH_CONST.__objc_arrayobj: 0x300
++  __AUTH_CONST.__objc_intobj: 0x270
++  __AUTH_CONST.__auth_got: 0x50c8
++  __AUTH.__objc_data: 0x1ac60
++  __AUTH.__data: 0x21118
++  __DATA.__objc_ivar: 0x2e8
++  __DATA.__data: 0x11c10
+   __DATA.__objc_stublist: 0xd0
+-  __DATA.__bss: 0x17c80
+-  __DATA.__common: 0x7f0
+-  __DATA_DIRTY.__objc_data: 0x9ec8
+-  __DATA_DIRTY.__data: 0x119c0
+-  __DATA_DIRTY.__common: 0x480
+-  __DATA_DIRTY.__bss: 0x14f80
++  __DATA.__bss: 0x2b438
++  __DATA.__common: 0xb69
++  __DATA_DIRTY.__objc_data: 0x4d88
++  __DATA_DIRTY.__data: 0x3f00
++  __DATA_DIRTY.__common: 0x158
++  __DATA_DIRTY.__bss: 0x6100
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/AppIntentsTypeSupport.framework/AppIntentsTypeSupport
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/FoundationModels.framework/FoundationModels
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
++  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/MessageUI.framework/MessageUI
+   - /System/Library/Frameworks/Metal.framework/Metal
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/VisionKit.framework/VisionKit
+-  - /System/Library/PrivateFrameworks/AppIntentsTypeSupport.framework/AppIntentsTypeSupport
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI
++  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/ContactsAutocomplete.framework/ContactsAutocomplete
+   - /System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/ContactsAutocompleteUI
+
+   - /System/Library/PrivateFrameworks/HealthDomainsUI.framework/HealthDomainsUI
+   - /System/Library/PrivateFrameworks/HealthExperience.framework/HealthExperience
+   - /System/Library/PrivateFrameworks/HealthFeatures.framework/HealthFeatures
++  - /System/Library/PrivateFrameworks/HealthFoundationUI.framework/HealthFoundationUI
+   - /System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions
+   - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
+   - /System/Library/PrivateFrameworks/HealthOntologyKit.framework/HealthOntologyKit
+
+   - /System/Library/PrivateFrameworks/HealthPluginHost.framework/HealthPluginHost
+   - /System/Library/PrivateFrameworks/HealthToolbox.framework/HealthToolbox
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
++  - /System/Library/PrivateFrameworks/HealthUtilities.framework/HealthUtilities
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/InternationalSupport.framework/InternationalSupport
+
+   - /System/Library/PrivateFrameworks/PrintKitUI.framework/PrintKitUI
+   - /System/Library/PrivateFrameworks/RenderBox.framework/RenderBox
+   - /System/Library/PrivateFrameworks/SOS.framework/SOS
++  - /System/Library/PrivateFrameworks/SceneHosting.framework/SceneHosting
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E762F72A-2AC4-3E06-9F08-A5504FDB3A99
+-  Functions: 33099
+-  Symbols:   14424
+-  CStrings:  8217
++  UUID: 2E19E4A0-92E2-3887-904C-C399743C9020
++  Functions: 35486
++  Symbols:   17193
++  CStrings:  3442
+ 
+Symbols:
++ +[ProfileCharacteristicsViewController orderedRowIdentifiersBySectionIdentifierWithNameRowsHidden:pregnancySectionHidden:cardioFitnessMedicationsSectionHidden:workoutZonesSectionHidden:]
++ +[ProfileCharacteristicsViewController orderedSectionIdentifiersWithPregnancySectionHidden:cardioFitnessMedicationsSectionHidden:workoutZonesSectionHidden:]
++ -[ProfileCharacteristicDiffableDataSource headerTitleProvider]
++ -[ProfileCharacteristicDiffableDataSource setHeaderTitleProvider:]
++ -[ProfileCharacteristicDiffableDataSource tableView:titleForHeaderInSection:]
++ -[ProfileCharacteristicsViewController _titleForHeaderInTableViewSection:sectionIdentifier:]
++ GCC_except_table63
++ _CGAffineTransformMakeTranslation
++ _CGImageSourceCreateWithURL
++ _CGImageSourceGetCount
++ _HKUIViewDefaultCornerRadius
++ _OBJC_CLASS_$_BSMutableSettings
++ _OBJC_CLASS_$_HKContextSyncRequest
++ _OBJC_CLASS_$_HKCorrelationType
++ _OBJC_CLASS_$_HKMCMenopauseModelProvider
++ _OBJC_CLASS_$_HKMedicalIDSyncRequest
++ _OBJC_CLASS_$_HKObject
++ _OBJC_CLASS_$_HKStateSyncRequest
++ _OBJC_CLASS_$_HKUnitPreferenceController
++ _OBJC_CLASS_$_HKWorkoutZonesViewControllersFactory
++ _OBJC_CLASS_$_NSCollectionLayoutDecorationItem
++ _OBJC_CLASS_$_NSProgress
++ _OBJC_CLASS_$_UIBarButtonItemGroup
++ _OBJC_CLASS_$_UICalendarSelectionSingleDate
++ _OBJC_CLASS_$_UICalendarView
++ _OBJC_CLASS_$_UIGraphicsImageRendererFormat
++ _OBJC_CLASS_$_UIProgressView
++ _OBJC_CLASS_$__HKAuthorizationModeInfo
++ _OBJC_CLASS_$__TtC18HealthExperienceUI13SyncErrorView
++ _OBJC_CLASS_$__TtC18HealthExperienceUI14SyncStatusView
++ _OBJC_CLASS_$__TtC18HealthExperienceUI16CategoryChipCell
++ _OBJC_CLASS_$__TtC18HealthExperienceUI16SyncProgressView
++ _OBJC_CLASS_$__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ _OBJC_CLASS_$__TtC18HealthExperienceUI24AllContentViewController
++ _OBJC_CLASS_$__TtC18HealthExperienceUI27DataEntryClientToHostAction
++ _OBJC_CLASS_$__TtC18HealthExperienceUI29CategoryContentViewController
++ _OBJC_CLASS_$__TtC18HealthExperienceUI34EdgeToEdgeBackgroundDecorationView
++ _OBJC_CLASS_$__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ _OBJC_CLASS_$__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ _OBJC_CLASS_$__UISceneHostingActionClientToHost
++ _OBJC_IVAR_$_ProfileCharacteristicDiffableDataSource._headerTitleProvider
++ _OBJC_IVAR_$_ProfileCharacteristicsViewController._cyclingPowerZonesCell
++ _OBJC_IVAR_$_ProfileCharacteristicsViewController._heartRateZonesCell
++ _OBJC_IVAR_$_ProfileCharacteristicsViewController._workoutZonesSectionHidden
++ _OBJC_METACLASS_$_UIBarButtonItem
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI13SyncErrorView
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI14SyncStatusView
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI16CategoryChipCell
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI16SyncProgressView
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI24AllContentViewController
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI27DataEntryClientToHostAction
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI29CategoryContentViewController
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI34EdgeToEdgeBackgroundDecorationView
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ _OBJC_METACLASS_$__TtC18HealthExperienceUIP33_4D52FA8F63C94CF4E1DEDE2E6A0FCD2117ProfileAvatarView
++ _OBJC_METACLASS_$__TtC18HealthExperienceUIP33_829A178B02A6BF557C58F6ED9B3C076D19EmptyDataSourceCell
++ _OBJC_METACLASS_$__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ _OBJC_METACLASS_$__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ _OBJC_METACLASS_$__UISceneHostingActionClientToHost
++ _UIContentSizeCategoryMedium
++ __DATA__TtC18HealthExperienceUI13SyncErrorView
++ __DATA__TtC18HealthExperienceUI14SyncStatusView
++ __DATA__TtC18HealthExperienceUI16CategoryChipCell
++ __DATA__TtC18HealthExperienceUI16SyncProgressView
++ __DATA__TtC18HealthExperienceUI19SpotlightDataSource
++ __DATA__TtC18HealthExperienceUI20AllContentDataSource
++ __DATA__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ __DATA__TtC18HealthExperienceUI23PDFTableOfContentsEntry
++ __DATA__TtC18HealthExperienceUI24AllContentViewController
++ __DATA__TtC18HealthExperienceUI24StandardDataEntryContext
++ __DATA__TtC18HealthExperienceUI25CategoryContentDataSource
++ __DATA__TtC18HealthExperienceUI25DataEntryLoggingViewModel
++ __DATA__TtC18HealthExperienceUI26CategoryArticlesDataSource
++ __DATA__TtC18HealthExperienceUI27CategorySpotlightDataSource
++ __DATA__TtC18HealthExperienceUI27DataEntryClientToHostAction
++ __DATA__TtC18HealthExperienceUI28CategoryChipsGroupDataSource
++ __DATA__TtC18HealthExperienceUI28DataLoggingSectionDataSource
++ __DATA__TtC18HealthExperienceUI29CategoryContentViewController
++ __DATA__TtC18HealthExperienceUI29DataEntryNumberValueViewModel
++ __DATA__TtC18HealthExperienceUI29SingleSelectionCalendarHandle
++ __DATA__TtC18HealthExperienceUI31DataEntryViewControllerDelegate
++ __DATA__TtC18HealthExperienceUI34EdgeToEdgeBackgroundDecorationView
++ __DATA__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ __DATA__TtC18HealthExperienceUIP33_4D52FA8F63C94CF4E1DEDE2E6A0FCD2117ProfileAvatarView
++ __DATA__TtC18HealthExperienceUIP33_829A178B02A6BF557C58F6ED9B3C076D19EmptyDataSourceCell
++ __DATA__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ __DATA__TtCC18HealthExperienceUI16SearchDataSource42SharingInBrowseCompactEmptyStateDataSource
++ __DATA__TtCE18HealthExperienceUICSo8NSBundleP33_2E632891F9400DAE27864E084EFBDD5131ClassForLocatingCloudSyncBundle
++ __DATA__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ __HKGenerateDefaultUnitForQuantityType
++ __INSTANCE_METHODS__TtC18HealthExperienceUI13SyncErrorView
++ __INSTANCE_METHODS__TtC18HealthExperienceUI14LazyDataSource
++ __INSTANCE_METHODS__TtC18HealthExperienceUI14SyncStatusView
++ __INSTANCE_METHODS__TtC18HealthExperienceUI16SyncProgressView
++ __INSTANCE_METHODS__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ __INSTANCE_METHODS__TtC18HealthExperienceUI23MedicalIDDataSourceItem
++ __INSTANCE_METHODS__TtC18HealthExperienceUI24AllContentViewController
++ __INSTANCE_METHODS__TtC18HealthExperienceUI27DataEntryClientToHostAction
++ __INSTANCE_METHODS__TtC18HealthExperienceUI28DataLoggingSectionDataSource
++ __INSTANCE_METHODS__TtC18HealthExperienceUI29CategoryContentViewController
++ __INSTANCE_METHODS__TtC18HealthExperienceUI31StandardDataEntryViewController
++ __INSTANCE_METHODS__TtC18HealthExperienceUI34EdgeToEdgeBackgroundDecorationView
++ __INSTANCE_METHODS__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ __INSTANCE_METHODS__TtC18HealthExperienceUIP33_4B23A5E143A6FB655C87A44EFBD131C447JustObservingFetchedResultsControllerDataSource
++ __INSTANCE_METHODS__TtC18HealthExperienceUIP33_4D52FA8F63C94CF4E1DEDE2E6A0FCD2117ProfileAvatarView
++ __INSTANCE_METHODS__TtC18HealthExperienceUIP33_829A178B02A6BF557C58F6ED9B3C076D19EmptyDataSourceCell
++ __INSTANCE_METHODS__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ __INSTANCE_METHODS__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ __IVARS__TtC18HealthExperienceUI13SyncErrorView
++ __IVARS__TtC18HealthExperienceUI14LazyDataSource
++ __IVARS__TtC18HealthExperienceUI14SyncStatusView
++ __IVARS__TtC18HealthExperienceUI16CategoryChipCell
++ __IVARS__TtC18HealthExperienceUI16SyncProgressView
++ __IVARS__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ __IVARS__TtC18HealthExperienceUI23PDFTableOfContentsEntry
++ __IVARS__TtC18HealthExperienceUI24AllContentViewController
++ __IVARS__TtC18HealthExperienceUI24StandardDataEntryContext
++ __IVARS__TtC18HealthExperienceUI25DataEntryLoggingViewModel
++ __IVARS__TtC18HealthExperienceUI28CategoryChipsGroupDataSource
++ __IVARS__TtC18HealthExperienceUI29CategoryContentViewController
++ __IVARS__TtC18HealthExperienceUI29DataEntryNumberValueViewModel
++ __IVARS__TtC18HealthExperienceUI29SingleSelectionCalendarHandle
++ __IVARS__TtC18HealthExperienceUI31DataEntryViewControllerDelegate
++ __IVARS__TtC18HealthExperienceUI35SizeDesignationResponsiveDataSource
++ __IVARS__TtC18HealthExperienceUIP33_4B23A5E143A6FB655C87A44EFBD131C447JustObservingFetchedResultsControllerDataSource
++ __IVARS__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ __IVARS__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ __IVARS__TtCV18HealthExperienceUI29DataEntryRootViewWithDelegate9ViewModel
++ __METACLASS_DATA__TtC18HealthExperienceUI13SyncErrorView
++ __METACLASS_DATA__TtC18HealthExperienceUI14SyncStatusView
++ __METACLASS_DATA__TtC18HealthExperienceUI16CategoryChipCell
++ __METACLASS_DATA__TtC18HealthExperienceUI16SyncProgressView
++ __METACLASS_DATA__TtC18HealthExperienceUI19SpotlightDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI20AllContentDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI21ProfileSyncStatusCell
++ __METACLASS_DATA__TtC18HealthExperienceUI23PDFTableOfContentsEntry
++ __METACLASS_DATA__TtC18HealthExperienceUI24AllContentViewController
++ __METACLASS_DATA__TtC18HealthExperienceUI24StandardDataEntryContext
++ __METACLASS_DATA__TtC18HealthExperienceUI25CategoryContentDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI25DataEntryLoggingViewModel
++ __METACLASS_DATA__TtC18HealthExperienceUI26CategoryArticlesDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI27CategorySpotlightDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI27DataEntryClientToHostAction
++ __METACLASS_DATA__TtC18HealthExperienceUI28CategoryChipsGroupDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI28DataLoggingSectionDataSource
++ __METACLASS_DATA__TtC18HealthExperienceUI29CategoryContentViewController
++ __METACLASS_DATA__TtC18HealthExperienceUI29DataEntryNumberValueViewModel
++ __METACLASS_DATA__TtC18HealthExperienceUI29SingleSelectionCalendarHandle
++ __METACLASS_DATA__TtC18HealthExperienceUI31DataEntryViewControllerDelegate
++ __METACLASS_DATA__TtC18HealthExperienceUI34EdgeToEdgeBackgroundDecorationView
++ __METACLASS_DATA__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ __METACLASS_DATA__TtC18HealthExperienceUIP33_4D52FA8F63C94CF4E1DEDE2E6A0FCD2117ProfileAvatarView
++ __METACLASS_DATA__TtC18HealthExperienceUIP33_829A178B02A6BF557C58F6ED9B3C076D19EmptyDataSourceCell
++ __METACLASS_DATA__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ __METACLASS_DATA__TtCC18HealthExperienceUI16SearchDataSource42SharingInBrowseCompactEmptyStateDataSource
++ __METACLASS_DATA__TtCE18HealthExperienceUICSo8NSBundleP33_2E632891F9400DAE27864E084EFBDD5131ClassForLocatingCloudSyncBundle
++ __METACLASS_DATA__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ __MergedGlobals
++ __OBJC_$_INSTANCE_METHODS_HKDisplayType(AddData|OutOfRangeAlertDisplayName|ManualEntry)
++ __OBJC_$_INSTANCE_METHODS__$s18HealthExperienceUI38HideablePregnancyArticlesFRCDataSourceCMf(HealthExperienceUI|HealthExperienceUI1)
++ __OBJC_$_INSTANCE_METHODS__TtC18HealthExperienceUI16CategoryChipCell(HealthExperienceUI)
++ __OBJC_$_INSTANCE_METHODS__TtC18HealthExperienceUI19SpecifierHeaderView(HealthExperienceUI)
++ __OBJC_$_PROP_LIST_UIApplicationDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKMCMenopauseModelObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKMCMenopauseModelProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SHScenePresentationObserving
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICalendarSelectionSingleDateDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICalendarViewDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__UISceneHostingControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_UICalendarSelectionSingleDateDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKMCMenopauseModelObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKMCMenopauseModelProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SHScenePresentationObserving
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UICalendarSelectionSingleDateDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UICalendarViewDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES__UISceneHostingControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_HKMCMenopauseModelProviding
++ __OBJC_$_PROTOCOL_REFS_SHScenePresentationObserving
++ __OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
++ __OBJC_$_PROTOCOL_REFS_UICalendarSelectionSingleDateDelegate
++ __OBJC_$_PROTOCOL_REFS_UICalendarViewDelegate
++ __OBJC_$_PROTOCOL_REFS__UISceneHostingControllerDelegate
++ __OBJC_CLASS_PROTOCOLS_$__$s18HealthExperienceUI38HideablePregnancyArticlesFRCDataSourceCMf(HealthExperienceUI|HealthExperienceUI1)
++ __OBJC_CLASS_PROTOCOLS_$__TtC18HealthExperienceUI19SpecifierHeaderView(HealthExperienceUI)
++ __OBJC_LABEL_PROTOCOL_$_HKMCMenopauseModelObserver
++ __OBJC_LABEL_PROTOCOL_$_HKMCMenopauseModelProviding
++ __OBJC_LABEL_PROTOCOL_$_SHScenePresentationObserving
++ __OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
++ __OBJC_LABEL_PROTOCOL_$_UICalendarSelectionSingleDateDelegate
++ __OBJC_LABEL_PROTOCOL_$_UICalendarViewDelegate
++ __OBJC_LABEL_PROTOCOL_$__UISceneHostingControllerDelegate
++ __OBJC_PROTOCOL_$_HKMCMenopauseModelObserver
++ __OBJC_PROTOCOL_$_HKMCMenopauseModelProviding
++ __OBJC_PROTOCOL_$_SHScenePresentationObserving
++ __OBJC_PROTOCOL_$_UIApplicationDelegate
++ __OBJC_PROTOCOL_$_UICalendarSelectionSingleDateDelegate
++ __OBJC_PROTOCOL_$_UICalendarViewDelegate
++ __OBJC_PROTOCOL_$__UISceneHostingControllerDelegate
++ __PROTOCOLS__TtC18HealthExperienceUI14LazyDataSource
++ __PROTOCOLS__TtC18HealthExperienceUI14LazyDataSource.1
++ __PROTOCOLS__TtC18HealthExperienceUI22PDFAsyncViewController.11
++ __PROTOCOLS__TtC18HealthExperienceUI23DeviceSourcesDataSource.15
++ __PROTOCOLS__TtC18HealthExperienceUI27CompoundSectionedDataSource.19
++ __PROTOCOLS__TtC18HealthExperienceUI29SizeClassResponsiveDataSource.22
++ __PROTOCOLS__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse
++ __PROTOCOLS__TtC18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUse.2
++ __PROTOCOLS__TtC18HealthExperienceUIP33_4B23A5E143A6FB655C87A44EFBD131C447JustObservingFetchedResultsControllerDataSource
++ __PROTOCOLS__TtC18HealthExperienceUIP33_4B23A5E143A6FB655C87A44EFBD131C447JustObservingFetchedResultsControllerDataSource.17
++ __PROTOCOLS__TtC18HealthExperienceUIP33_769EF482A8E949D5E185D49C9A04EEB923AllAlertsViewController.15
++ __PROTOCOLS__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate
++ __PROTOCOLS__TtC18HealthExperienceUIP33_8CD14925F89F24145963F45DB21945DE29PageFormattedDocumentDelegate.14
++ __PROTOCOLS__TtCC18HealthExperienceUI27TextFieldCollectionViewCellP33_CA6334EB88576D7E5F1F357E76DAEE2F32TextFieldCollectionViewCellInner.32
++ __PROTOCOLS__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator
++ __PROTOCOLS__TtCV18HealthExperienceUI27SingleSelectionCalendarView11Coordinator.7
++ ___106-[ProfileCharacteristicTypePermissionsViewController _fetchAuthorizationRecordsBySourceForCharacteristic:]_block_invoke.380
++ ___41-[WDAddDataViewController _dataValidated]_block_invoke.439
++ ___51-[ProfileCharacteristicsViewController viewDidLoad]_block_invoke_3
++ ___55-[ProfileCharacteristicsViewController didTapPregnancy]_block_invoke
++ ___60-[ProfileCharacteristicsViewController setEditing:animated:]_block_invoke.582
++ ___block_literal_global.743
++ ___block_literal_global.749
++ ___isPlatformVersionAtLeast
++ ___swift__destructor
++ ___swift__destructor.10
++ ___swift__destructor.139
++ ___swift__destructor.14
++ ___swift__destructor.146
++ ___swift__destructor.17
++ ___swift__destructor.21
++ ___swift__destructor.25
++ ___swift__destructor.31
++ ___swift__destructor.34
++ ___swift__destructor.35
++ ___swift__destructor.37
++ ___swift__destructor.4
++ ___swift__destructor.47
++ ___swift__destructor.53
++ ___swift__destructor.62
++ ___swift__destructor.65
++ ___swift__destructor.75
++ ___swift__destructorTm
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.103Tm
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.115Tm
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.119Tm
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.17Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.19Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.28Tm
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.36Tm
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.37Tm
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.41Tm
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.44Tm
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.4Tm
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.50Tm
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.67Tm
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.87Tm
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.10
++ ___swift_exist.box.addr_destructor.11
++ ___swift_exist.box.addr_destructor.13
++ ___swift_exist.box.addr_destructor.16
++ ___swift_exist.box.addr_destructor.18
++ ___swift_exist.box.addr_destructor.19
++ ___swift_exist.box.addr_destructor.2
++ ___swift_exist.box.addr_destructor.20
++ ___swift_exist.box.addr_destructor.21
++ ___swift_exist.box.addr_destructor.22
++ ___swift_exist.box.addr_destructor.22Tm
++ ___swift_exist.box.addr_destructor.23
++ ___swift_exist.box.addr_destructor.25
++ ___swift_exist.box.addr_destructor.28
++ ___swift_exist.box.addr_destructor.29
++ ___swift_exist.box.addr_destructor.31
++ ___swift_exist.box.addr_destructor.34
++ ___swift_exist.box.addr_destructor.34Tm
++ ___swift_exist.box.addr_destructor.37
++ ___swift_exist.box.addr_destructor.4
++ ___swift_exist.box.addr_destructor.44
++ ___swift_exist.box.addr_destructor.48
++ ___swift_exist.box.addr_destructor.52
++ ___swift_exist.box.addr_destructor.6
++ ___swift_exist.box.addr_destructor.62
++ ___swift_exist.box.addr_destructor.7
++ ___swift_exist.box.addr_destructor.71
++ ___swift_exist.box.addr_destructor.74
++ ___swift_exist.box.addr_destructorTm
++ ___swift_memcpy58_8
++ ___swift_mutable_project_boxed_opaque_existential_0
++ ___unnamed_10
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_isClassOrObjCExistentialType
++ _associated conformance 18HealthExperienceUI12PDFAsyncViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI12PDFAsyncViewV05SwiftC029UIViewControllerRepresentableAaD0E0
++ _associated conformance 18HealthExperienceUI15BasicAlertModelV10Foundation14LocalizedErrorAAs0I0
++ _associated conformance 18HealthExperienceUI15BasicAlertModelV6ActionVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 18HealthExperienceUI18BasicAlertModifierV05SwiftC004ViewF0AA4BodyAdEP_AD0H0
++ _associated conformance 18HealthExperienceUI18DataEntryDateValueVSHAASQ
++ _associated conformance 18HealthExperienceUI18DataEntryDateValueVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI19DataEntryPickerViewVyxG05SwiftC00G0AA4BodyAeFP_AeF
++ _associated conformance 18HealthExperienceUI20ArticlesLayoutEngineV0E5StyleOSHAASQ
++ _associated conformance 18HealthExperienceUI20DataEntryActionErrorOSHAASQ
++ _associated conformance 18HealthExperienceUI20DataEntryActionValueO5EventOSHAASQ
++ _associated conformance 18HealthExperienceUI20DataEntryNumberValueVAA0dE15EnumerationItemAA03RawG0AaDP_SH
++ _associated conformance 18HealthExperienceUI20DataEntryNumberValueVSHAASQ
++ _associated conformance 18HealthExperienceUI20DataEntryNumberValueVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI20DataEntryPickerStyleOSHAASQ
++ _associated conformance 18HealthExperienceUI20DataEntrySettingsKeyOSHAASQ
++ _associated conformance 18HealthExperienceUI20PDFConfigurableErrorOSHAASQ
++ _associated conformance 18HealthExperienceUI21DataEntryHandlerErrorOSHAASQ
++ _associated conformance 18HealthExperienceUI22DataEntryMetadataValueV0fG0OSHAASQ
++ _associated conformance 18HealthExperienceUI22DataEntryMetadataValueVAA0dE15EnumerationItemAA03RawG0AaDP_SH
++ _associated conformance 18HealthExperienceUI22DataEntryMetadataValueVSHAASQ
++ _associated conformance 18HealthExperienceUI22DataEntryMetadataValueVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI22DataEntrySelectionViewVyxG05SwiftC00G0AA4BodyAeFP_AeF
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationV0D4KindOSHAASQ
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationV0D4KindOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationV0D9ComponentOSHAASQ
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationV0D9ComponentOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationVSHAASQ
++ _associated conformance 18HealthExperienceUI22DateValueConfigurationVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO10CodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOSHAASQ
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO10CodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO10CodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO14LinkCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO14LinkCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO19ProminentCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleO19ProminentCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI23ButtonPresentationStyleOSHAASQ
++ _associated conformance 18HealthExperienceUI23DataEntryDatePickerViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI23DataEntryUnitPickerViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI23SnidgetCurrentValueViewV0G5ModelO25NoNotificationsCodingKeys33_2C12C70F1788017D37CC8A64DCA7B7F2LLOyx__Gs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI23SnidgetCurrentValueViewV0G5ModelO25NoNotificationsCodingKeys33_2C12C70F1788017D37CC8A64DCA7B7F2LLOyx__Gs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI24DataEntryNumberInputTypeOSHAASQ
++ _associated conformance 18HealthExperienceUI24DataEntryNumberValueViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI24HXUIDataEntryViewFactoryV7FailureOSHAASQ
++ _associated conformance 18HealthExperienceUI25DataEntryCompositionValueVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO10CodingKeys33_002EB14203828150D68DF8AE945D033ALLOSHAASQ
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO10CodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO10CodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14BlueCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14BlueCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14GrayCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14GrayCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO26SystemBackgroundCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO26SystemBackgroundCodingKeys33_002EB14203828150D68DF8AE945D033ALLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorOSHAASQ
++ _associated conformance 18HealthExperienceUI27SingleSelectionCalendarViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI27SingleSelectionCalendarViewV05SwiftC019UIViewRepresentableAaD0G0
++ _associated conformance 18HealthExperienceUI28DataEntryUnitEnumerationItemVAA0degH0AA8RawValueAaDP_SH
++ _associated conformance 18HealthExperienceUI28DataEntryUnitEnumerationItemVSHAASQ
++ _associated conformance 18HealthExperienceUI28DataEntryUnitEnumerationItemVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 18HealthExperienceUI29DataEntryRootViewWithDelegateVyxG05SwiftC00G0AA4BodyAeFP_AeF
++ _associated conformance 18HealthExperienceUI29PluginDataEntryFactoryFailureOSHAASQ
++ _associated conformance 18HealthExperienceUI30ComposableDataEntryLoggingViewVyxG05SwiftC00H0AA4BodyAeFP_AeF
++ _associated conformance 18HealthExperienceUI30DataEntryDisplayTypeHeaderViewV05SwiftC00I0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI31DataEntryDateValidationProviderV0G5ErrorOSHAASQ
++ _associated conformance 18HealthExperienceUI31ProfileSyncStatusDataSourceItemV0aB009SectionedghI0AaD08SnapshotghI0
++ _associated conformance 18HealthExperienceUI31ProfileSyncStatusDataSourceItemVSHAASQ
++ _associated conformance 18HealthExperienceUI36StandardCategoryValueDataLoggingViewV05SwiftC00I0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI36StandardQuantityValueDataLoggingViewV05SwiftC00I0AA4BodyAdEP_AdE
++ _associated conformance 18HealthExperienceUI46StandardSnidgetCurrentValueNoNotificationsViewV05SwiftC00J0AA4BodyAdEP_AdE
++ _block_copy_helper.100
++ _block_copy_helper.104
++ _block_copy_helper.106
++ _block_copy_helper.118
++ _block_copy_helper.132
++ _block_copy_helper.142
++ _block_copy_helper.154
++ _block_copy_helper.17
++ _block_copy_helper.35
++ _block_copy_helper.45
++ _block_copy_helper.48
++ _block_copy_helper.51
++ _block_copy_helper.56
++ _block_copy_helper.88
++ _block_copy_helper.93
++ _block_copy_helper.94
++ _block_copy_helper.95
++ _block_descriptor.102
++ _block_descriptor.106
++ _block_descriptor.108
++ _block_descriptor.120
++ _block_descriptor.134
++ _block_descriptor.144
++ _block_descriptor.156
++ _block_descriptor.19
++ _block_descriptor.37
++ _block_descriptor.47
++ _block_descriptor.50
++ _block_descriptor.53
++ _block_descriptor.58
++ _block_descriptor.90
++ _block_descriptor.95
++ _block_descriptor.96
++ _block_descriptor.97
++ _block_destroy_helper.101
++ _block_destroy_helper.105
++ _block_destroy_helper.107
++ _block_destroy_helper.119
++ _block_destroy_helper.133
++ _block_destroy_helper.143
++ _block_destroy_helper.155
++ _block_destroy_helper.18
++ _block_destroy_helper.36
++ _block_destroy_helper.46
++ _block_destroy_helper.49
++ _block_destroy_helper.52
++ _block_destroy_helper.57
++ _block_destroy_helper.89
++ _block_destroy_helper.94
++ _block_destroy_helper.95
++ _block_destroy_helper.96
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _flat unique So27HKMCMenopauseModelProviding_p
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _generic environment 18HealthExperienceUI24DataEntryEnumerationItemRzl
++ _generic environment 7SwiftUI4ViewRzl
++ _get_enum_tag_for_layout_string 18HealthExperienceUI14LazyDataSourceC0eF5StateOyx_G
++ _get_enum_tag_for_layout_string 18HealthExperienceUI15BasicAlertModelVSg
++ _get_enum_tag_for_layout_string 18HealthExperienceUI22PlatformFactoryFailureO
++ _get_enum_tag_for_layout_string 18HealthExperienceUI25DataEntryValidationResultV18AlertConfigurationVSg
++ _get_type_metadata 15Synchronization5MutexVyShySiGG noncopyable.3
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.2
++ _get_witness_table 18HealthExperienceUI18SnapshotDataSourceRzAaBR_r0_lAA012_ConditionaleF0CyAA15CellRegisteringCyAA016PrimarySecondaryeF0Cyq_xGGAFyq_GGAaBHPyHC.32
++ _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzAaBR_Se0dE0RpzSEADRQSeACRp_SEAERQr0_l05SwiftC015ModifiedContentVyAHyAF6VStackVyAF05TupleI0VyAA020DisclosureCellHeaderD0V_AF6SpacerVAA07SnidgetiD0Vyxq_GQPGGAF20_TransactionModifierVGAF16_FlexFrameLayoutVGAF0D0HPAxFA0_HPAuFA0_HPyHC_AwF0dR0HPyHCHC_AzFA1_HPyHCHC.1
++ _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzAaBR_Se0dE0RpzSEADRQSeACRp_SEAERQr0_l05SwiftC06HStackVyAF12TupleContentVyxSg_AF6SpacerVAF6IDViewVyAF08ModifiedJ0Vyq_SgAF16_FlexFrameLayoutVGSSGQPGGAF0D0HPyHC.1
++ _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzl05SwiftC019_ConditionalContentVyAEyAA033StandardSnidgetCurrentValueNoDataD0VAA0jklmn13NotificationsD0VGxGAC0D0HPAjcLHPAgcLHPyHC_AicLHPyHCHC_xAaBHD1_AcLHI1_HC.37
++ _get_witness_table 18HealthExperienceUI19DataEntryPickerViewVyAA0dE19UnitEnumerationItemVG05SwiftC00G0HPyHC.4
++ _get_witness_table 18HealthExperienceUI19HelpTilePreviewFormV05SwiftC04ViewHPyHC.33
++ _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyAA05EmptyeF0CAA0e19TypeDetailFavoriteseF0CGAA08SnapshoteF0HPyHC.3
++ _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyAA15CellRegisteringCyAA016PrimarySecondaryeF0CyAA0eF10WithLayoutCyAA06MappedeF0CyAA024FetchedResultsControllereF0Cy0A8Platform8FeedItemCAP0aB008SnapshotefS0AAyHCg0_GGGAA012MutableArrayefkL0CGGAEyAUGGAA0teF0HPyHC.30
++ _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyACyAA15CellRegisteringCyAA016PrimarySecondaryeF0CyAA0eF10WithLayoutCyAA06MappedeF0CyAA024FetchedResultsControllereF0Cy0A8Platform8FeedItemCAP0aB008SnapshotefS0AAyHCg0_GGGAA012MutableArrayefkL0CGGAEyAUGGA_GAA0teF0HPyHC.29
++ _get_witness_table 18HealthExperienceUI24DataEntryEnumerationItemRzl05SwiftC015ModifiedContentVyAC5GroupVyAC012_ConditionalJ0VyAIyAC6PickerVyAC4TextVxAC7ForEachVySayxG8RawValueQzAC4ViewPACE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAM_xQo_GGAtCE16listRowSeparator_5edgesQrAC10VisibilityO_AC12VerticalEdgeO3SetVtFQOyAGyAC05TupleJ0VyAtCE12onTapGesture5count7performQrSi_yyctFQOyAC07LabeledJ0VyAmtCE11buttonStyleyQrqd__AC20PrimitiveButtonStyleRd__lFQOyAC6ButtonVyAMG_AC19BorderedButtonStyleVQo_G_Qo__AtCE11pickerStyleyQrqd__AC0M5StyleRd__lFQOyAY_AC05WheelM5StyleVQo_SgQPGG_Qo_GAIyAtCEA23_yQrqd__ACA24_Rd__lFQOyAY_AC014NavigationLinkM5StyleVQo_AtCEA23_yQrqd__ACA24_Rd__lFQOyAKyAC05EmptyS0VxAXG_AC06InlineM5StyleVQo_GGGAC31AccessibilityAttachmentModifierVGAcSHPA44_AcSHPA43_AcSHPA32_AcSHPAycSHPyHC_qd__AcSHD2_A31_HOHC_A42_AcSHPqd0__AcSHD3_A35_HO_qd0__AcSHD3_A41_HOHCHC_HC_A46_AC0S8ModifierHPyHCHC.6
++ _get_witness_table 18HealthExperienceUI24DataEntryEnumerationItemRzl05SwiftC07ForEachVySayxG2IDQzAC4ViewPACE12onTapGesture5count7performQrSi_yyctFQOyAC15ModifiedContentVyAOyAC6HStackVyAC05TupleS0VyAC4TextV_AC6SpacerVAOyAC5ImageVAC24_ForegroundStyleModifierVyAC5ColorVGGSgQPGGAC31AccessibilityAttachmentModifierVGAC01_S13ShapeModifierVyAC9RectangleVGG_Qo_GAcIHPqd__AcIHD2_A16_HO_HC.2
++ _get_witness_table 18HealthExperienceUI29CategoryTileConfigurationViewV05SwiftC00G0HPyHC.69
++ _get_witness_table 18HealthExperienceUI30ComposableDataEntryLoggingViewVy05SwiftC012TupleContentVyAA0ef17DisplayTypeHeaderH0V_AD7SectionVyAD05EmptyH0VAA0ef9SelectionH0VyAA0eF11NumberValueVGSgALGAJyAlD012_ConditionalK0VyAA0ef10DatePickerH0VSgAFyAX_AXQPGGALGQPGGAD0H0HPyHC.15
++ _get_witness_table 18HealthExperienceUI30ComposableDataEntryLoggingViewVy05SwiftC012TupleContentVyAA0ef17DisplayTypeHeaderH0V_AD7SectionVyAD05EmptyH0VAFyAA0ef10DatePickerH0VSg_AoFyAA0ef11NumberValueH0V_AA0ef4UnitrH0VSgQPGSgQPGALGQPGGAD0H0HPyHC.17
++ _get_witness_table 18HealthExperienceUI36CollectionViewLayoutSectionProvidingRzAA18SnapshotDataSourceRzlAA012_ConditionaljK0CyAA15CellRegisteringCyAA016PrimarySecondaryjK0CyAA0jk4WithF0CyAA06MappedjK0CyAA024FetchedResultsControllerjK0Cy0A8Platform8FeedItemCAR0aB00ijkX0AAyHCg0_GGGxGGAGyAWGGAaCHPyHC.31
++ _get_witness_table 18HealthExperienceUI36SelectableConfigurationActionHandlerRzAA21CategoryTileViewModelR_r0_lAA0hiJ0V05SwiftC00J0HPyHC.66
++ _get_witness_table 18HealthExperienceUI42ArticlesWithHeaderFooterAndLimitDataSourceCAA08SnapshotjK0HPyHC.4
++ _get_witness_table 7SwiftUI12TupleContentVy016HealthExperienceB030InternalSettingsTitleValueItemV_A2FSgAGQPGAA4ViewHPAfaIHPyHC_AfaIHPyHCAgaIHpAfaIHPyHC_HCAgaIHpAfaIHPyHC_HCHX_HC.68
++ _get_witness_table 7SwiftUI12TupleContentVyAA7ForEachVySay016HealthExperienceB00A10ChartPointVGSS6Charts0iD0PAJE15foregroundStyleyQrqd__AA05ShapeM0Rd__lFQOyAlJE04lineM0yQrAA06StrokeM0VFQOyAJ8RuleMarkV_Qo__AA5ColorVQo_SgG_AlJEAMyQrqd__AaNRd__lFQOyAlJE10symbolSizeyQrSo6CGSizeVFQOyAlJE0T0yQrqd__AJ0i6SymbolN0Rd__lFQOyAJ0jR0V_AA6CircleVQo__Qo__AVQo_SgQPGAjKHpAyjKHpAxjKHpqd0__AjKHD3_AWHO_HC_HC_A10_AjKHpqd0__AjKHD3_A9_HO_HCHX_HC.89
++ _get_witness_table 7SwiftUI12TupleContentVyAA7ForEachVySay016HealthExperienceB00A10ChartPointVGSS6Charts0iD0PAJE15foregroundStyleyQrqd__AA05ShapeM0Rd__lFQOyAlJE10symbolSizeyQrSo6CGSizeVFQOyAlJE0O0yQrqd__AJ0i6SymbolN0Rd__lFQOyAJ8LineMarkV_AjSPAjA010InsettableN0RzrlE12strokeBorder9lineWidthQr12CoreGraphics7CGFloatV_tFQOyAA6CircleV_Qo_Qo__Qo__AA5ColorVQo_G_AlJEAMyQrqd__AaNRd__lFQOyAlJEAOyQrAQFQOyAlJEARyQrqd__AjSRd__lFQOyAJ0jT0V_A3_Qo__Qo__A7_Qo_SgSgQPGAjKHpA9_AjKHpqd0__AjKHD3_A8_HO_HC_A16_AjKHpA15_AjKHpqd0__AjKHD3_A14_HO_HC_HCHX_HC.88
++ _get_witness_table 7SwiftUI12TupleContentVyAA7SectionVyAA4TextV016HealthExperienceB033InternalSettingsFeatureAttributesVAA9EmptyViewVG_AMSgQPGAA0N0HPAmaPHPAgaPHPyHC_AjaPHPyHCAlaPHPyHCHC_AnaPHpAmaPHPAgaPHPyHC_AjaPHPyHCAlaPHPyHCHC_HCHX_HC.55
++ _get_witness_table 7SwiftUI12TupleContentVyAA7SectionVyAA4TextVSg016HealthExperienceB030InternalSettingsTitleValueItemVAA9EmptyViewVG_AEyAgCyAK_AKSgA3KQPGAGGAI0iJ23PairedFeatureAttributesVSgAI0ijqJ0VSgACyAEyAgA14NavigationLinkVyAgI0ijQ21RequirementsByContextVGAMGSg_AI0ij18RegionAvailabilityE0VSgAA0O0PAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQOyAEyAgCyAA6ButtonVyAGG_A20_QPGAGG_AI12ErrorMessageVQo_QPGSgQPGAAA6_HPAnAA6_HPAhAA6_HpAgAA6_HPyHC_HC_AkAA6_HPyHCAmAA6_HPyHCHC_AqAA6_HPAgAA6_HPyHC_ApAA6_HPAkAA6_HPyHC_AoAA6_HpAkAA6_HPyHC_HCAkAA6_HPyHCAkAA6_HPyHCAkAA6_HPyHCHX_HCAgAA6_HPyHCHCAtAA6_HpAsAA6_HPyHC_HCAwAA6_HpAvAA6_HPyHC_HCA27_AAA6_HpA26_AAA6_HPA2_AAA6_HpA1_AAA6_HPAgAA6_HPyHC_A0_AAA6_HPyHCAmAA6_HPyHCHC_HC_A5_AAA6_HpA4_AAA6_HPyHC_HCqd0__AAA6_HD3_A25_HOHX_HC_HCHX_HC.34
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy016HealthExperienceB024PlatformCellCornerRadiusVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA0E0HPAiaPHPyHC_AnA0eF0HPyHCHC.29
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy016HealthExperienceB027PlatformCellBackgroundColorVGAA013_TraitWritingF0VyAA07ListRowkM3KeyVGGAA0E0HPAiaPHPyHC_AnA0eF0HPyHCHC.30
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA07LabeledD0VyAA4TextVAA6HStackVyAA05TupleD0VyAA4ViewPAAE8onSubmit2of_QrAA0K8TriggersV_yyctFQOyAmAE0J6ChangeAO7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAmAEAroS_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyACyAmAE12keyboardTypeyQrSo010UIKeyboardQ0VFQOyAmAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA0F5FieldVyAGG_Qo__Qo_AA30_EnvironmentKeyWritingModifierVyAA0F9AlignmentOGGAA25_AppearanceActionModifierVG_SSQo__SbQo__Qo__AGSgQPGGGAA31AccessibilityAttachmentModifierVGAaLHPA21_AaLHPAgaLHPyHC_A20_AaLHPyHCHC_A23_AA0I8ModifierHPyHCHC.8
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA10DatePickerVyAA4TextVGAA31AccessibilityAttachmentModifierVGAA4ViewHPAhaLHPyHC_AjA0kJ0HPyHCHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGAA4ViewHPAeaIHPyHC_AgA0iH0HPyHCHC.38
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA05TupleD0VyAA6SpacerV_06HealthB019HKAddDataHeaderViewVAIQPGGAA21_TraitWritingModifierVyAA017ListRowBackgroundM3KeyVGGAA0L0HPAnaUHPyHC_AsA0lO0HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA05TupleD0VyACyAA6ZStackVyAGyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA07RoundedH0VGG_ACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA08_PaddingS0VGAPGQPGGAA06_FrameS0VG_AA6VStackVyAGyACyACyACyACyAA4TextVAA022_EnvironmentKeyWritingK0VyAA0W9AlignmentOGGA15_ySiSgGGAA06_TraitzK0VyAA0s13PriorityTraitY0VGGAA010_FixedSizeS0VG_A13_SgQPGGAA6SpacerVQPGGA2_GAA4ViewHPA38_AAA40_HPyHC_A2_AA04ViewK0HPyHCHC.23
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyACyAA4TextVAA31AccessibilityAttachmentModifierVGSg_AA6HStackVyAGyACy016HealthExperienceB029AudioExposureCurrentValueViewV013PaletteSymbolR0VSgAKG_ACyACyACyAP015AnimatedSnidgetpqG0VAA022_EnvironmentKeyWritingJ0VyAA0G9AlignmentOGGAZySiSgGGAKGQPGGQPGGAA016_BackgroundStyleJ0VyAA5ColorVGGAA0R0HPA10_AAA17_HPyHC_A15_AA0rJ0HPyHCHC.11
++ _get_witness_table 7SwiftUI15ModifiedContentVyACy016HealthExperienceB016CategoryTileViewVAA14_PaddingLayoutVGAA19_BackgroundModifierVyACyAD0ghlI0VAA022_EnvironmentKeyWritingM0VyAA22UserInterfaceSizeClassOSgGGGGAA0I0HPAiaWHPAfaWHPyHC_AhA0iM0HPyHCHC_AuaXHPyHCHC.68
++ _get_witness_table 7SwiftUI15ModifiedContentVyACy016HealthExperienceB028CellHeaderXMarkAccessoryViewVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA023AccessibilityAttachmentO0VGSgAA0K0HpApaRHPAmaRHPAfaRHPyHC_AlA0kO0HPyHCHC_AoaSHPyHCHC_HC.150
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy016HealthExperienceB027PlatformCellBackgroundStyleVGAA013_TraitWritingF0VyAA013ListRowInsetsM3KeyVGGAF0ij18CornerAndHighlightK0VGAA0E0HPAoaSHPAiaSHPyHC_AnA0eF0HPyHCHC_AqaTHPyHCHC.32
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA05TupleD0VyAA012_ConditionalD0VyAA6HStackVyAGyACy016HealthExperienceB09TitleView33_3ACC0AFF71DF4383B3A19A7A278190D4LLVAA14_PaddingLayoutVG_AA6SpacerVAIyAKyAGyAL06DetailL0ANLLV_AL09AccessoryL0ANLLVQPGGACyAxQGGQPGGACyAEyAGyAKyAGyAO_ATA_QPGG_AVQPGGAA19_BackgroundModifierVyACyAA5ColorVAA017_SafeAreaIgnoringV0VGGGG_AA7DividerVSgQPGGAQGAQGAA0L0HPA22_AAA24_HPA21_AAA24_HPyHC_AqA0L8ModifierHPyHCHC_AqAA25_HPyHCHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACy016HealthExperienceB024CellHeaderDetailTextViewVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAHyAA5ColorVSgGGAA023AccessibilityAttachmentO0VGSgAA0K0HpAuaWHPAraWHPAmaWHPAfaWHPyHC_AlA0kO0HPyHCHC_AqaXHPyHCHC_AtaXHPyHCHC_HC.74
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACy016HealthExperienceB028CellHeaderXMarkAccessoryViewVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAHyAA0D10TransitionVGGAA023AccessibilityAttachmentO0VGSgAA0K0HpAtaVHPAqaVHPAmaVHPAfaVHPyHC_AlA0kO0HPyHCHC_ApaWHPyHCHC_AsaWHPyHCHC_HC.75
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VGAA24_ForegroundStyleModifierVyAA5ColorVGG_AA4TextVQPGGAA05_FlexkJ0VGAA08_PaddingJ0VGAA011_BackgroundmN0VyASGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA4ViewHPA7_AAA14_HPA3_AAA14_HPA0_AAA14_HPAyAA14_HPyHC_A_AA0xN0HPyHCHC_A2_AAA15_HPyHCHC_A6_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.7
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAJyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingH0VGAA023AccessibilityAttachmentL0VGAA4ViewHPA_AAA3_HPAxAA3_HPAsAA3_HPAnAA3_HPAhAA3_HPAeAA3_HPyHC_AgA0sL0HPyHCHC_AmAA4_HPyHCHC_ArAA4_HPyHCHC_AwAA4_HPyHCHC_AzAA4_HPyHCHC_A1_AAA4_HPyHCHC.151
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAJyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingH0VGAA023AccessibilityAttachmentL0VGAA4ViewHPA_AAA3_HPAxAA3_HPAsAA3_HPAnAA3_HPAhAA3_HPAeAA3_HPyHC_AgA0sL0HPyHCHC_AmAA4_HPyHCHC_ArAA4_HPyHCHC_AwAA4_HPyHCHC_AzAA4_HPyHCHC_A1_AAA4_HPyHCHC.72
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyAA4ViewP6ChartsE11chartYScale6domain4typeQrqd___AF9ScaleTypeVSgtAF0K6DomainRd__lFQOyAeFE0G6XScaleAhIQrqd___ALtAfMRd__lFQOyAeFE0G5YAxisyQrAA10VisibilityOFQOyAeFE0G5XAxisyQrAQFQOyAF5ChartVyAA05TupleD0VyAA012_ConditionalD0VyAXy016HealthExperienceB007SnidgetarE0V03BarR5MarksVA_04LinerY0VGA_012DistributionrY0VG_AF0rD0PAFE23accessibilityIdentifieryQrSSFQOyA_07AverageZ0V_Qo_SgQPGG_Qo__Qo__SNy10Foundation4DateVGQo__SaySdGQo_AA14_PaddingLayoutVGAA31AccessibilityAttachmentModifierVGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGGA33_yAA0D10TransitionVGGAY0W9AnimationVySayAY0aR5PointVGGGA27_GAA11_ClipEffectVyAA9RectangleVGGA27_GAaDHPA55_AaDHPA49_AaDHPA48_AaDHPA41_AaDHPA37_AaDHPA31_AaDHPA28_AaDHPqd0__AaDHD3_A25_HO_A27_AA0E8ModifierHPyHCHC_A30_AAA57_HPyHCHC_A36_AAA57_HPyHCHC_A40_AAA57_HPyHCHC_A47_AAA57_HPyHCHC_A27_AAA57_HPyHCHC_A54_AAA57_HPyHCHC_A27_AAA57_HPyHCHC.33
++ _get_witness_table 7SwiftUI16ToolbarItemGroupVyAA12TupleContentVyAA6SpacerV_AA6ButtonVy016HealthExperienceB0012KeyboardDoneI5LabelVGQPGGAA0cG0HPyHC.10
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy016HealthExperienceB036PlatformCellHighlightBackgroundColorVGAA013_TraitWritingG0VyAA07ListRowmO3KeyVGGAEyAkH0jkmN0VGGAA0F0HPAqaVHPAkaVHPyHC_ApA0fG0HPyHCHC_AtaVHPAkaVHPyHC_AsaWHPyHCHCHC.31
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy016HealthExperienceB040PlatformCellCornerAndHighlightBackgroundVGAA013_TraitWritingG0VyAA07ListRowoP3KeyVGGAQGAA0F0HPAqaSHPAkaSHPyHC_ApA0fG0HPyHCHC_AqaSHPAkaSHPyHC_ApaTHPyHCHCHC.33
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA14LinearGradientV016HealthExperienceB024PlatformCellCornerRadiusVGAH0jK14BackgroundViewVGAA0O0HPAkaOHPAgaOHPyHC_AjA0O8ModifierHPyHCHC_AmaOHPyHCHC.1
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA05TupleD0Vy016HealthExperienceB09TitleView33_33AEE1C4335BFDE3A2CFEF72E7F0D0A0LLV_AA6SpacerVAEyAGyAH06DetailJ0AJLLV_AH09AccessoryJ0AJLLVQPGGQPGGAA6VStackVyAGyAEyAGyAK_AmA08ModifiedD0VyAqA14_PaddingLayoutVGQPGG_AOQPGGGAA0J0HPAuAA6_HPyHC_A4_AAA6_HPyHCHC.24
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA12TupleContentVyAA7SectionVyAA9EmptyViewVAA4TextVAMG_016HealthExperienceB0033InternalSettingsAllowedCountrySetG033_F515C509E4D559256CE2BE1FF865D1B6LLVAA012_ConditionalF0VyArIyA2mKGGSgQPGGAA0I0HPyHC.3
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy016HealthExperienceB009DataEntryC8Delegate_pSgGGAaBHPxAaBHD1__AjA0cI0HPyHCHC.12
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAaBHPxAaBHD1__AfA0cH0HPyHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15NavigationStackVyAA0D4PathVAaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAgAE18presentationSizingyQrqd__AA012PresentationL0Rd__lFQOyAgAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAgAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAgAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA08ModifiedJ0VyAQyAQyAgAE0H7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0J15MarginPlacementVtFQOyAQyAA4ListVys5NeverOAQyxAA31AccessibilityAttachmentModifierVGG016HealthExperienceB018BasicAlertModifierVG_Qo_AA21_TraitWritingModifierVyAA26ListSectionSpacingTraitKeyVGGAA30_EnvironmentKeyWritingModifierVyAA18ListSectionSpacingVSgGGAA25_AppearanceActionModifierVG_A10_25DataEntryCompositionValueVQo__A32_Qo__SbQo__AA04FormmL0VQo__AA05TupleJ0VyAA0I4ItemVyytAgAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyAQyAA6ButtonVyAA5LabelVyAA4TextVAA5ImageVGGA7_G_Qo_G_A42_yytAgAEA43_yQrA45_FQOyAQyA56_AA32_EnvironmentKeyTransformModifierVySbGG_Qo_GQPGQo_GAaBHPyHC.10
++ _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA12TupleContentVyAA08ModifiedF0VyxAA21_TraitWritingModifierVyAA010TransitionH3KeyVGGSg_AA01_cj1_F0Vy016HealthExperienceB018ConditionalSubTextVyxGGAOQPGGAaBHPyHC.5
++ _get_witness_table 7SwiftUI5LabelVyAA4TextVAA5ImageVGAA4ViewHPyHC.12
++ _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VG_AA6VStackVyAEyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGG_AXSgAGyAxA010_FixedSizeJ0VGSgQPGGQPGGAA4ViewHPyHC.15
++ _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA4TextV_AA6SpacerVAA08ModifiedE0VyAKyAKyAgA30_EnvironmentKeyWritingModifierVySiSgGGAMySbGGAMy12CoreGraphics7CGFloatVGGQPGGAA4ViewHPyHC.9
++ _get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA6VStackVyAEyAA08ModifiedE0VyAA5GroupVyAA012_ConditionalE0VyAA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQOyAoAE10fontWeightyQrAA4FontV0Q0VSgFQOyAIyAIyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyA0_5ScaleOGGAA016_ForegroundStyleW0VyAA5ColorVGGAA14_OpacityEffectVGA2_yAWSgGG_Qo__s19PartialRangeThroughVyARGQo_AIyAIyAIyAIyAIyAIyA0_AA18_AspectRatioLayoutVGAA14_PaddingLayoutVGAA011_BackgroundW0VyAA06_ShapeJ0VyAA16RoundedRectangleVA10_GGGAA11_ClipEffectVyA35_GGAA08_OverlayW0VyAA011StrokeShapeJ0VyA35_A10_AA05EmptyJ0VGSgGGAA16_FlexFrameLayoutVGGGAA12_FrameLayoutVGSg_AIyAIyAIyAA4TextVA28_GA2_ySiSgGGAA06_FixedM6LayoutVGAA6SpacerVQPGG_A72_QPGGAaNHPyHC.67
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVy016HealthExperienceB025DismissibleCellHeaderViewVSg_AA012_ConditionalE0VyACyAEyAKyAEyAA08ModifiedE0VyAA6HStackVyAEyAMyAMyAA5ImageVAA24_ForegroundStyleModifierVyAA09TintShapeQ0VGGAA023AccessibilityAttachmentR0VG_AA6SpacerVAF09AccessoryK033_0B66FD496ABFA1D56808259F799D7747LLVSgQPGGAA14_PaddingLayoutVG_AMyAF0e11PrimaryTextK0A2_LLVA8_GQPGAMyAOyAEyA11__A0_A4_QPGGA8_GG_AMyAF0e22SecondaryTextAndActionK0A2_LLVA8_GQPGGAMyAOyAEyAKyAMyAMyAMyAMyAMyAKyAA03AnyK0VAQGSgAVGAA18_AspectRatioLayoutVGAA12_FrameLayoutVGA8_GAYGAMyAMyA27_A8_GAYGGSg_AMyACyAEyAOyAEyA11__A0_AMyAMyA4_A8_GA8_GQPGG_A19_QPGGA8_GQPGGA8_GGQPGGAA0K0HPyHC.33
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAA4TextVAA31AccessibilityAttachmentModifierVGSg_AGyAGyAGy016HealthExperienceB0027AnimatedSnidgetCurrentValueG0VAA022_EnvironmentKeyWritingJ0VyAA0G9AlignmentOGGARySiSgGGAKGAMQPGGAA4ViewHPyHC.39
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGANyAA0G9AlignmentOGGAA023AccessibilityAttachmentN0VGSg_AGyAGyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQOyAA0W0VyAIG_AA017BorderedProminentwU0VQo_ANyAA0W11BorderShapeVGGAYGSgQPGGAAA0_HPyHC.74
++ _get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAGyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0G9AlignmentOGGANyAA4FontVSgGGANyAA5ColorVSgGGAA023AccessibilityAttachmentN0VGSg_AGyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQOyAGyAGyAA0X0VyAGyAGyAGyAlVGAQGA2_GGA_GANyAA07ControlI0OGG_AA08BorderedxV0VQo_ANyAA0X11BorderShapeVGGSgQPGGAAA5_HPyHC.152
++ _get_witness_table 7SwiftUI6VStackVyAA15ModifiedContentVyACyAA05TupleE0VyAEyAEyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGANyAI5ScaleOGGAA06_FrameJ0VGAA08_PaddingJ0VGAA023AccessibilityAttachmentN0VGSg_016HealthExperienceB00E15PrimaryTextView33_AEB6C38C524E91374EBAF3BDA93D9A17LLVAA6SpacerVA6_0ew9SubheaderxY0A8_LLVA11_A6_0e9Secondaryx9AndActionY0A8_LLVQPGGA0_GGAA0Y0HPyHC.19
++ _get_witness_table 7SwiftUI6VStackVyAA19_ConditionalContentVyAEyAA12ViewThatFitsVyAA05TupleE0VyAA08ModifiedE0VyAA6HStackVyAIyACyAIyAMyAIyAA5ImageV_AKyAA4TextVAA31AccessibilityAttachmentModifierVGQPGG_AKyAKyAKy016HealthExperienceB0027AnimatedSnidgetCurrentValueM0VAA022_EnvironmentKeyWritingP0VyAA0M9AlignmentOGGA_ySiSgGGASGQPGGSg_A10_QPGGAA016_BackgroundStyleP0VyAA5ColorVGG_AKyACyA11_GA17_GQPGGA22_GAEyAKyACyAIyATSg_A7_A24_QPGGA17_GA27_GGGAA0F0HPyHC.32
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVy016HealthExperienceB008OptionalD5FieldV_AjA0dJ0VyAEGAA6ToggleVyAEGQPGAA9EmptyViewVGAA0M0HPAeaUHPyHC_AqaUHPAjaUHPyHC_AjaUHPyHCAmaUHPyHCApaUHPyHCHX_HCAsaUHPyHCHC.32
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVyAA0D5FieldVyAEG_AJ016HealthExperienceB008OptionaldG0VAMQPGAA9EmptyViewVGAA0L0HPAeaRHPyHC_AnaRHPAjaRHPyHC_AjaRHPyHCAmaRHPyHCAmaRHPyHCHX_HCApaRHPyHCHC.34
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA0D5FieldVyAEG_SSQo__APQPGAA05EmptyG0VGAaHHPAeaHHPyHC_AqaHHPqd0__AaHHD3_APHO_qd0__AaHHD3_APHOHX_HCAsaHHPyHCHC.7
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVyAE_AA0D5FieldVyAEGAeJQPGAA9EmptyViewVGAA0I0HPAeaOHPyHC_AkaOHPAeaOHPyHC_AjaOHPyHCAeaOHPyHCAjaOHPyHCHX_HCAmaOHPyHCHC.52
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVyAE_AA0D5FieldVyAEGQPGAA9EmptyViewVGAA0I0HPAeaOHPyHC_AkaOHPAeaOHPyHC_AjaOHPyHCHX_HCAmaOHPyHCHC.141
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA7ForEachVySaySS3key_SS5valuetGSS016HealthExperienceB030InternalSettingsTitleValueItemVGAA9EmptyViewVGAA0Q0HPAeaRHPyHC_AnaRHPAmaRHPyHC_HCApaRHPyHCHC.54
++ _get_witness_table SHRzl7SwiftUI16ToolbarItemGroupVyAA12TupleContentVyAA6SpacerV_AA6ButtonVy016HealthExperienceB0012KeyboardDoneI5LabelVGQPGGAA0cG0HPyHC.11
++ _get_witness_table SHRzlqd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAA01_c9Modifier_K0Vy016HealthExperienceB0013KeyboardFocuseJ0VyxGG_AA0J9ItemGroupVyAA05TupleK0VyAA08ModifiedK0VyAA6ButtonVyAA5ImageVGAA024_EnvironmentKeyTransformL0VySbGG_A3_AA6SpacerVAXyAL0o4DoneU5LabelVGQPGGQo__xSgQo_HO.21
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7SectionVyAA05EmptyC0VAA12TupleContentVyAA08ModifiedK0VyAA6ButtonVyAA07LabeledK0VyAA4TextVAPyAA5ImageVAA24_ForegroundStyleModifierVyAA09TintShapeR0VGGSgGGAA023AccessibilityAttachmentS0VG_AA6VStackVyANyAPyARyATyAPyAA5GroupVyAA012_ConditionalK0VyA2VGGAA022_EnvironmentKeyWritingS0VyAA5ColorVSgGGA3_GGA7_G_AA6HStackVyANyAPyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE12labelsHiddenQryFQOyAcAE06pickerR0yQrqd__AA06PickerR0Rd__lFQOyAA6PickerVyAV10Foundation4DateVAA7ForEachVySayA39_GA39_AVGG_AA011WheelPickerR0VQo__Qo__A39_Qo_A7_G_A50_QPGGSgQPGGQPGALGG_SSQo_HO.30
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAcAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA12TupleContentVyAA7SectionVyAA05EmptyC0V016HealthExperienceB0016InternalSettingsE9ValueItemVAPG_ANyAA4TextVAA7ForEachVySayAQ28FeatureRequirementEvaluationVGSo021HKFeatureAvailabilityX10IdentifieraAA14NavigationLinkVyAsQ0pqwxY6DetailVGGAVSgGQPGG_AA012InsetGroupedhG0VQo__SSQo_HO.67
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA7SectionVyAA4TextVAA12TupleContentVy016HealthExperienceB008OptionalI5FieldV_AA0iO0VyAJGAroRQPGAA05EmptyC0VG_SSQo__SSQo__SSSgQo__SSQo__AYQo_HO.78
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA12TupleContentVyAA7SectionVyAA05EmptyC0VAA7ForEachVySay016HealthExperienceB033InternalSettingsFeatureStateModelCGSSAA14NavigationLinkVyAA4TextVAR0pqrsC0VGGAYSgG_AMyAoWyAyR0pqrsF0VGAOGQPGG_AA012InsetGroupedfE0VQo_HO.7
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA12TupleContentVyAA7SectionVyAA05EmptyC0VAKy016HealthExperienceB030InternalSettingsTitleValueItemV_ARQPGAA4TextVG_AMyAucAE12labelsHiddenQryFQOyAcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQOyAA0W0VyAuP28FeatureRequirementEvaluationV6MethodOAA7ForEachVySayA3_GA3_AUGG_AA09SegmentedwE0VQo__Qo_AUGQPGG_AA012InsetGroupedfE0VQo_HO.81
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA01_C16Modifier_ContentVy016HealthExperienceB0010BasicAlertJ0VG_SSAA7ForEachVySayAM0nO5ModelV6ActionVG10Foundation4UUIDVAA6ButtonVyAA4TextVGGA2_SgQo_HO.8
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAcAE9listStyleyQrqd__AA04ListJ0Rd__lFQOyAA0K0Vys5NeverOAA7SectionVyAA4TextVAA7ForEachVySaySo28HKFeatureAvailabilityContexta_Say016HealthExperienceB028FeatureRequirementEvaluationVGtGAtA14NavigationLinkVyApU016InternalSettingsvW11EvaluationsVGGAPGG_AA012InsetGroupedkJ0VQo__Qo_HO.53
++ _initializeAvailabilityCheck
++ _keypath_get.10Tm
++ _keypath_get_selector_fractionCompleted
++ _malloc
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_hostedWindowScene
++ _objc_msgSend$_sectionContentInset
++ _objc_msgSend$_setPaddingRemoved:
++ _objc_msgSend$_setSectionCornerRadius:
++ _objc_msgSend$_titleForHeaderInTableViewSection:sectionIdentifier:
++ _objc_msgSend$activeAppearance
++ _objc_msgSend$animateAlongsideTransition:completion:
++ _objc_msgSend$backgroundDecorationItemWithElementKind:
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$currentMenopauseState
++ _objc_msgSend$dataTypeIconImageName
++ _objc_msgSend$decorationItems
++ _objc_msgSend$drawAtPoint:blendMode:alpha:
++ _objc_msgSend$effectiveContentInsets
++ _objc_msgSend$emptyModeInfo
++ _objc_msgSend$enabled
++ _objc_msgSend$fetchCloudSyncProgress:completion:
++ _objc_msgSend$fetchRecoveryModeStatusWithCompletion:
++ _objc_msgSend$fractionCompleted
++ _objc_msgSend$getCurrentMenopauseModel
++ _objc_msgSend$heightDesignation
++ _objc_msgSend$hk_contentWidth
++ _objc_msgSend$hk_onboardingDirectionalEdgeInsets
++ _objc_msgSend$info
++ _objc_msgSend$initWithArrangedSubviews:
++ _objc_msgSend$initWithBarButtonItems:representativeItem:
++ _objc_msgSend$initWithChangesSyncRequest:contextSyncRequest:stateSyncRequest:medicalIDSyncRequest:summarySharingSyncRequest:allowCellular:qualityOfService:
++ _objc_msgSend$initWithDelegate:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithInfo:responder:
++ _objc_msgSend$initWithInfo:timeout:forResponseOnQueue:withHandler:
++ _objc_msgSend$initWithProgressViewStyle:
++ _objc_msgSend$initWithPush:pull:
++ _objc_msgSend$initWithSHSceneActionHandler:responder:
++ _objc_msgSend$initWithSize:format:
++ _objc_msgSend$initWithXPCDictionary:
++ _objc_msgSend$localizedDisplayNameForUnit:value:nameContext:
++ _objc_msgSend$lumberjack
++ _objc_msgSend$makeCyclingPowerZonesConfigurationWithHealthStore:
++ _objc_msgSend$makeHeartRateZonesConfigurationWithHealthStore:
++ _objc_msgSend$networkReachable
++ _objc_msgSend$numberOfItemsInSection:
++ _objc_msgSend$objectForSetting:
++ _objc_msgSend$orderedRowIdentifiersBySectionIdentifierWithNameRowsHidden:pregnancySectionHidden:cardioFitnessMedicationsSectionHidden:workoutZonesSectionHidden:
++ _objc_msgSend$orderedSectionIdentifiersWithPregnancySectionHidden:cardioFitnessMedicationsSectionHidden:workoutZonesSectionHidden:
++ _objc_msgSend$performActionForSceneController:
++ _objc_msgSend$preferredFormat
++ _objc_msgSend$presentPreviewViewController
++ _objc_msgSend$progressWithTotalUnitCount:
++ _objc_msgSend$reconfigureItemsWithIdentifiers:
++ _objc_msgSend$registerClass:forDecorationViewOfKind:
++ _objc_msgSend$reloadDecorationsForDateComponents:animated:
++ _objc_msgSend$renderingMode
++ _objc_msgSend$saveObject:withCompletion:
++ _objc_msgSend$screen
++ _objc_msgSend$selectedDate
++ _objc_msgSend$selectionBehavior
++ _objc_msgSend$sendAction:
++ _objc_msgSend$setAction:
++ _objc_msgSend$setAuthorizationStatuses:authorizationModes:modeInfo:forBundleIdentifier:options:completion:
++ _objc_msgSend$setAvailableDateRange:
++ _objc_msgSend$setCaptionText:learnMoreURL:
++ _objc_msgSend$setCompletedUnitCount:
++ _objc_msgSend$setConfigurationUpdateHandler:
++ _objc_msgSend$setCustomView:
++ _objc_msgSend$setDecorationItems:
++ _objc_msgSend$setDocumentAnalysisEnabled:
++ _objc_msgSend$setFontDesign:
++ _objc_msgSend$setHeaderTitleProvider:
++ _objc_msgSend$setLargeTitleTextAttributes:
++ _objc_msgSend$setNeedsUpdateContentUnavailableConfiguration
++ _objc_msgSend$setNumberStyle:
++ _objc_msgSend$setObject:forSetting:
++ _objc_msgSend$setPinnedTrailingGroup:
++ _objc_msgSend$setProgress:
++ _objc_msgSend$setScale:
++ _objc_msgSend$setSelectedDate:
++ _objc_msgSend$setSelectedDate:animated:
++ _objc_msgSend$setSelectionBehavior:
++ _objc_msgSend$setSharesBackground:
++ _objc_msgSend$setSpecifier:
++ _objc_msgSend$setTarget:
++ _objc_msgSend$setTrailingItemGroups:
++ _objc_msgSend$setUsesGroupingSeparator:
++ _objc_msgSend$setVisibleDateComponents:
++ _objc_msgSend$setVisibleDateComponents:animated:
++ _objc_msgSend$setWantsDateDecorations:
++ _objc_msgSend$sharingInBrowse
++ _objc_msgSend$stringFromValue:displayType:unit:unitController:
++ _objc_msgSend$supportsAllOrientations
++ _objc_msgSend$systemMinimumLayoutMargins
++ _objc_msgSend$trailingItemGroups
++ _objc_msgSend$verticalSizeClass
++ _objc_msgSend$visibleDateComponents
++ _objc_msgSend$widthDesignation
++ _objc_msgSend$workoutZones
++ _objc_msgSend$xHeight
++ _objc_retain_x5
++ _objc_setAssociatedObject
++ _rewind
++ _sscanf
++ _swift_continuation_throwingResumeWithError
++ _swift_release_x1
++ _swift_release_x11
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x4
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x11
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x3
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_task_addCancellationHandler
++ _swift_task_removeCancellationHandler
++ _symbolic $s18HealthExperienceUI015PluginDataEntryB9ProvidingP
++ _symbolic $s18HealthExperienceUI0A18ClientToHostActionP
++ _symbolic $s18HealthExperienceUI14DataEntryValueP
++ _symbolic $s18HealthExperienceUI16DataEntryContextP
++ _symbolic $s18HealthExperienceUI16DataEntryHandlerP
++ _symbolic $s18HealthExperienceUI21DataEntryViewDelegateP
++ _symbolic $s18HealthExperienceUI21PDFGenerationRegistryV12PluginSourceP
++ _symbolic $s18HealthExperienceUI21PluginProfileDelegateP
++ _symbolic $s18HealthExperienceUI24DataEntryEnumerationItemP
++ _symbolic $s18HealthExperienceUI25DataEntryMetadataProviderP
++ _symbolic $s18HealthExperienceUI25DataEntryQuantityProviderP
++ _symbolic $s18HealthExperienceUI28PluginPDFGenerationProvidingP
++ _symbolic $s18HealthExperienceUI33ContentRoomSurveyButtonDisplayingP
++ _symbolic 8RawValue_____Qz 18HealthExperienceUI24DataEntryEnumerationItemP
++ _symbolic SDySSyXlXpSgGIego_
++ _symbolic SDySSyXlXpSgGyc
++ _symbolic SDySSypG
++ _symbolic SS______8domainIdt 13HealthDomains16DomainIdentifierV
++ _symbolic Say_____G 14HealthPlatform18ModelTrainingEventV
++ _symbolic Say_____G 18HealthExperienceUI15BasicAlertModelV6ActionV
++ _symbolic Say_____G 18HealthExperienceUI18DataEntryDateValueV
++ _symbolic Say_____G 18HealthExperienceUI20DataEntryNumberValueV
++ _symbolic Say_____G 18HealthExperienceUI22DataEntryMetadataValueV
++ _symbolic Say_____G 18HealthExperienceUI22DateValueConfigurationV0D4KindO
++ _symbolic Say_____G 18HealthExperienceUI22DateValueConfigurationV0D9ComponentO
++ _symbolic Say_____G 18HealthExperienceUI23PDFTableOfContentsEntryC
++ _symbolic Say_____G 18HealthExperienceUI26CategoryChipDataSourceItemV
++ _symbolic Say_____G 18HealthExperienceUI34CorrelatedQuantityDataEntryHandlerV0dE13ConfigurationV
++ _symbolic Say_____GIegg_ 10Foundation14DateComponentsV
++ _symbolic Say_____GytIegnr_ 10Foundation14DateComponentsV
++ _symbolic Sb13actionVisible_t
++ _symbolic Sb_____SgcSg 10Foundation14DateComponentsV
++ _symbolic Sb_____yxq__Gc 18HealthExperienceUI35SizeDesignationResponsiveDataSourceC15ResolverContextV
++ _symbolic ScCySo32HKDemographicsInformationWrapperC_____G s5NeverO
++ _symbolic So10NSProgressC
++ _symbolic So10NSProgressCSg
++ _symbolic So11NSPredicateC_____SgcSg So30HKCategoryValueMenopausalStateV
++ _symbolic So14HKQuantityTypeC
++ _symbolic So14UICalendarViewC
++ _symbolic So14UICalendarViewCSgXw
++ _symbolic So14UIProgressViewC
++ _symbolic So15UIBarButtonItemC
++ _symbolic So16BSActionResponseCIeyBy_
++ _symbolic So18HKMCMenopauseModelC
++ _symbolic So20_UIHostedWindowSceneCSg
++ _symbolic So22UINavigationControllerC
++ _symbolic So24UICalendarViewDecorationCSg_____cSg 10Foundation14DateComponentsV
++ _symbolic So33HKManualEntryValidationControllerC
++ _symbolic So33_UISceneHostingActionClientToHostC
++ _symbolic So6HKUnitC
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____ 13HealthDomains16DomainIdentifierV
++ _symbolic _____ 16HealthExperience28PromotionalTileConfigurationV4HeroO05WatchE0O
++ _symbolic _____ 18HealthExperienceUI018DataLoggingSectionD6SourceC
++ _symbolic _____ 18HealthExperienceUI06EdgeToD24BackgroundDecorationViewC
++ _symbolic _____ 18HealthExperienceUI12PDFAsyncViewV
++ _symbolic _____ 18HealthExperienceUI13SyncErrorViewC
++ _symbolic _____ 18HealthExperienceUI14LazyDataSourceC
++ _symbolic _____ 18HealthExperienceUI14LazyDataSourceC0eF5StateO
++ _symbolic _____ 18HealthExperienceUI14SyncStatusViewC
++ _symbolic _____ 18HealthExperienceUI15BasicAlertModelV
++ _symbolic _____ 18HealthExperienceUI15BasicAlertModelV6ActionV
++ _symbolic _____ 18HealthExperienceUI16CategoryChipCellC
++ _symbolic _____ 18HealthExperienceUI16SearchDataSourceC032SharingInBrowseCompactEmptyStateeF0C
++ _symbolic _____ 18HealthExperienceUI16SyncProgressViewC
++ _symbolic _____ 18HealthExperienceUI17ProfileAvatarView33_4D52FA8F63C94CF4E1DEDE2E6A0FCD21LLC
++ _symbolic _____ 18HealthExperienceUI18BasicAlertModifierV
++ _symbolic _____ 18HealthExperienceUI18DataEntryDateValueV
++ _symbolic _____ 18HealthExperienceUI19DataEntryPickerViewV
++ _symbolic _____ 18HealthExperienceUI19EmptyDataSourceCell33_829A178B02A6BF557C58F6ED9B3C076DLLC
++ _symbolic _____ 18HealthExperienceUI19EmptyDataSourceCell33_829A178B02A6BF557C58F6ED9B3C076DLLC4ItemV
++ _symbolic _____ 18HealthExperienceUI19SpotlightDataSourceC
++ _symbolic _____ 18HealthExperienceUI20AllContentDataSourceC
++ _symbolic _____ 18HealthExperienceUI20ArticlesLayoutEngineV
++ _symbolic _____ 18HealthExperienceUI20ArticlesLayoutEngineV0E5StyleO
++ _symbolic _____ 18HealthExperienceUI20DataEntryActionErrorO
++ _symbolic _____ 18HealthExperienceUI20DataEntryActionValueO
++ _symbolic _____ 18HealthExperienceUI20DataEntryActionValueO5EventO
++ _symbolic _____ 18HealthExperienceUI20DataEntryNumberValueV
++ _symbolic _____ 18HealthExperienceUI20DataEntryPickerStyleO
++ _symbolic _____ 18HealthExperienceUI20DataEntrySettingsKeyO
++ _symbolic _____ 18HealthExperienceUI20PDFConfigurableErrorO
++ _symbolic _____ 18HealthExperienceUI21DataEntryHandlerErrorO
++ _symbolic _____ 18HealthExperienceUI21PDFGenerationRegistryV
++ _symbolic _____ 18HealthExperienceUI21PDFGenerationRegistryV5ErrorO
++ _symbolic _____ 18HealthExperienceUI21PDFLeadingTrailingRowV
++ _symbolic _____ 18HealthExperienceUI21ProfileSyncStatusCellC
++ _symbolic _____ 18HealthExperienceUI21ProfileSyncStatusCellC9ViewState33_2E632891F9400DAE27864E084EFBDD51LLO
++ _symbolic _____ 18HealthExperienceUI22DataEntryMetadataValueV
++ _symbolic _____ 18HealthExperienceUI22DataEntryMetadataValueV0fG0O
++ _symbolic _____ 18HealthExperienceUI22DataEntrySelectionViewV
++ _symbolic _____ 18HealthExperienceUI22DateValueConfigurationV
++ _symbolic _____ 18HealthExperienceUI22DateValueConfigurationV0D4KindO
++ _symbolic _____ 18HealthExperienceUI22DateValueConfigurationV0D9ComponentO
++ _symbolic _____ 18HealthExperienceUI22DecorationEdgeBehaviorO
++ _symbolic _____ 18HealthExperienceUI22PlatformFactoryFailureO
++ _symbolic _____ 18HealthExperienceUI23ButtonPresentationStyleO
++ _symbolic _____ 18HealthExperienceUI23ButtonPresentationStyleO10CodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLO
++ _symbolic _____ 18HealthExperienceUI23ButtonPresentationStyleO14LinkCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLO
++ _symbolic _____ 18HealthExperienceUI23ButtonPresentationStyleO19ProminentCodingKeys33_8275047D74DF357D6FFB41BC6D21BB4DLLO
++ _symbolic _____ 18HealthExperienceUI23DataEntryDatePickerViewV
++ _symbolic _____ 18HealthExperienceUI23DataEntryUnitPickerViewV
++ _symbolic _____ 18HealthExperienceUI23PDFTableOfContentsEntryC
++ _symbolic _____ 18HealthExperienceUI23SnidgetCurrentValueViewV0G5ModelO25NoNotificationsCodingKeys33_2C12C70F1788017D37CC8A64DCA7B7F2LLO
++ _symbolic _____ 18HealthExperienceUI24AllContentViewControllerC
++ _symbolic _____ 18HealthExperienceUI24DataEntryNumberInputTypeO
++ _symbolic _____ 18HealthExperienceUI24DataEntryNumberValueViewV
++ _symbolic _____ 18HealthExperienceUI24HXUIDataEntryViewFactoryV
++ _symbolic _____ 18HealthExperienceUI24HXUIDataEntryViewFactoryV7FailureO
++ _symbolic _____ 18HealthExperienceUI24StandardDataEntryContextC
++ _symbolic _____ 18HealthExperienceUI25CategoryContentDataSourceC
++ _symbolic _____ 18HealthExperienceUI25DataEntryCompositionValueV
++ _symbolic _____ 18HealthExperienceUI25DataEntryLoggingViewModelC
++ _symbolic _____ 18HealthExperienceUI25DataEntryValidationResultV
++ _symbolic _____ 18HealthExperienceUI25DataEntryValidationResultV18AlertConfigurationV
++ _symbolic _____ 18HealthExperienceUI26CategoryArticlesDataSourceC
++ _symbolic _____ 18HealthExperienceUI26CategoryChipDataSourceItemV
++ _symbolic _____ 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO
++ _symbolic _____ 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO10CodingKeys33_002EB14203828150D68DF8AE945D033ALLO
++ _symbolic _____ 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14BlueCodingKeys33_002EB14203828150D68DF8AE945D033ALLO
++ _symbolic _____ 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO14GrayCodingKeys33_002EB14203828150D68DF8AE945D033ALLO
++ _symbolic _____ 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO26SystemBackgroundCodingKeys33_002EB14203828150D68DF8AE945D033ALLO
++ _symbolic _____ 18HealthExperienceUI26DataEntryViewConfigurationV
++ _symbolic _____ 18HealthExperienceUI27CategorySpotlightDataSourceC
++ _symbolic _____ 18HealthExperienceUI27DataEntryClientToHostActionC
++ _symbolic _____ 18HealthExperienceUI27DecorationEdgeConfigurationV
++ _symbolic _____ 18HealthExperienceUI27SingleSelectionCalendarViewV
++ _symbolic _____ 18HealthExperienceUI27SingleSelectionCalendarViewV11CoordinatorC
++ _symbolic _____ 18HealthExperienceUI28CategoryChipsGroupDataSourceC
++ _symbolic _____ 18HealthExperienceUI28DataEntryUnitEnumerationItemV
++ _symbolic _____ 18HealthExperienceUI28NumberValueViewConfigurationV
++ _symbolic _____ 18HealthExperienceUI28PDFVStackWithFixedPercentageV
++ _symbolic _____ 18HealthExperienceUI29CategoryContentViewControllerC
++ _symbolic _____ 18HealthExperienceUI29CategoryValueDataEntryFactoryV
++ _symbolic _____ 18HealthExperienceUI29DataEntryNumberValueViewModelC
++ _symbolic _____ 18HealthExperienceUI29DataEntryRootViewWithDelegateV
++ _symbolic _____ 18HealthExperienceUI29DataEntryRootViewWithDelegateV0G5ModelC
++ _symbolic _____ 18HealthExperienceUI29PageFormattedDocumentDelegate33_8CD14925F89F24145963F45DB21945DELLC
++ _symbolic _____ 18HealthExperienceUI29PluginDataEntryFactoryFailureO
++ _symbolic _____ 18HealthExperienceUI29SingleSelectionCalendarHandleC
++ _symbolic _____ 18HealthExperienceUI30ComposableDataEntryLoggingViewV
++ _symbolic _____ 18HealthExperienceUI30DataEntryDisplayTypeHeaderViewV
++ _symbolic _____ 18HealthExperienceUI30DurationQuantitySampleProviderV
++ _symbolic _____ 18HealthExperienceUI30StandardQuantitySampleProviderV
++ _symbolic _____ 18HealthExperienceUI31DataEntryDateValidationProviderV
++ _symbolic _____ 18HealthExperienceUI31DataEntryDateValidationProviderV0G5ErrorO
++ _symbolic _____ 18HealthExperienceUI31DataEntryViewControllerDelegateC
++ _symbolic _____ 18HealthExperienceUI31MenopausalStateItemTextProviderV
++ _symbolic _____ 18HealthExperienceUI31ProfileSyncStatusDataSourceItemV
++ _symbolic _____ 18HealthExperienceUI31StandardDataEntryViewControllerC
++ _symbolic _____ 18HealthExperienceUI32StandardCategoryDataEntryHandlerV
++ _symbolic _____ 18HealthExperienceUI32StandardQuantityDataEntryHandlerV
++ _symbolic _____ 18HealthExperienceUI33StandardDataEntryMetadataProviderV
++ _symbolic _____ 18HealthExperienceUI34CorrelatedQuantityDataEntryHandlerV
++ _symbolic _____ 18HealthExperienceUI34CorrelatedQuantityDataEntryHandlerV0dE13ConfigurationV
++ _symbolic _____ 18HealthExperienceUI35SizeDesignationResponsiveDataSourceC
++ _symbolic _____ 18HealthExperienceUI35SizeDesignationResponsiveDataSourceC15ResolverContextV
++ _symbolic _____ 18HealthExperienceUI36StandardCategoryValueDataLoggingViewV
++ _symbolic _____ 18HealthExperienceUI36StandardCategoryValueDataLoggingViewV0I13ConfigurationV
++ _symbolic _____ 18HealthExperienceUI36StandardQuantityValueDataLoggingViewV
++ _symbolic _____ 18HealthExperienceUI37_HEUISceneHostingImportUsage_DoNotUseC
++ _symbolic _____ 18HealthExperienceUI46StandardSnidgetCurrentValueNoNotificationsViewV
++ _symbolic _____ 18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource33_4B23A5E143A6FB655C87A44EFBD131C4LLC
++ _symbolic _____ 7SwiftUI13DismissActionV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV016HealthExperienceB0E27__Key_dataEntryViewDelegate33_23BA71B3AC4B05F799472A85D058DAB6LLV
++ _symbolic _____ So19HKHeightDesignationV
++ _symbolic _____ So29HKManualEntryValidationResultV
++ _symbolic _____ So30HKCategoryValueMenopausalStateV
++ _symbolic _____ So8NSBundleC18HealthExperienceUIE31ClassForLocatingCloudSyncBundle33_2E632891F9400DAE27864E084EFBDD51LLC
++ _symbolic _____5color_Sd7opacityt 18HealthExperienceUI26CategoryTileImageViewModelV11SymbolColorO
++ _symbolic _____Sg 18HealthExperienceUI15BasicAlertModelV
++ _symbolic _____Sg 18HealthExperienceUI22DataEntryMetadataValueV0fG0O
++ _symbolic _____Sg 18HealthExperienceUI22DecorationEdgeBehaviorO
++ _symbolic _____Sg 18HealthExperienceUI25DataEntryValidationResultV18AlertConfigurationV
++ _symbolic _____Sg 18HealthExperienceUI29SingleSelectionCalendarHandleC
++ _symbolic _____Sg 5UIKit33UIContentUnavailableConfigurationV
++ _symbolic _____Sg 7SwiftUI10ButtonRoleV
++ _symbolic _____Sg So18HKWidthDesignationV
++ _symbolic _____Sg So19HKHeightDesignationV
++ _symbolic _____SgXw 18HealthExperienceUI16ProfileBarButtonC
++ _symbolic _____SgXw 18HealthExperienceUI16SyncProgressViewC
++ _symbolic _____SgXw 18HealthExperienceUI18FeaturesDataSourceC
++ _symbolic _____SgXw 18HealthExperienceUI19SpecifierHeaderViewC
++ _symbolic _____SgXw 18HealthExperienceUI21ProfileSyncStatusCellC
++ _symbolic _____SgXw 18HealthExperienceUI25DataEntryLoggingViewModelC
++ _symbolic _____SgXwz_Xx 18HealthExperienceUI16ProfileBarButtonC
++ _symbolic _____SgXwz_Xx 18HealthExperienceUI16SyncProgressViewC
++ _symbolic _____SgXwz_Xx 18HealthExperienceUI18FeaturesDataSourceC
++ _symbolic _____SgXwz_Xx 18HealthExperienceUI21ProfileSyncStatusCellC
++ _symbolic _____SgXwz_Xx 18HealthExperienceUI25DataEntryLoggingViewModelC
++ _symbolic _____XDXMT 18HealthExperienceUI16ProfileBarButtonC
++ _symbolic _____XDXMT 18HealthExperienceUI18FeaturesDataSourceC
++ _symbolic _____XDXMT 18HealthExperienceUI21ProfileSyncStatusCellC
++ _symbolic _____XDXMT 18HealthExperienceUI27DataEntryClientToHostActionC
++ _symbolic ______p 18HealthExperienceUI16DataEntryContextP
++ _symbolic ______p 18HealthExperienceUI16DataEntryHandlerP
++ _symbolic ______p 18HealthExperienceUI21DataEntryViewDelegateP
++ _symbolic ______p 18HealthExperienceUI21PDFGenerationRegistryV12PluginSourceP
++ _symbolic ______p 18HealthExperienceUI25DataEntryMetadataProviderP
++ _symbolic ______p 18HealthExperienceUI25DataEntryQuantityProviderP
++ _symbolic ______p 18HealthExperienceUI26PDFViewControllerProvidingP
++ _symbolic ______p So27HKMCMenopauseModelProvidingP
++ _symbolic ______pSg 14HealthPlatform21PinnedContentManagingP
++ _symbolic ______pSg 18HealthExperienceUI21DataEntryViewDelegateP
++ _symbolic ______pSg So8NSObjectP
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____y_____y_____y_____y_____y_____y_____yADy__________G_____G______y______Qo_SgQPGG_Qo__Qo__SNy_____GQo__SaySdGQo______G_____G_____y_____GGAZy_____GG_____ySay_____GGGAVG_____y_____GGAVG 7SwiftUI15ModifiedContentV AA4ViewP6ChartsE11chartYScale6domain4typeQrqd___AF9ScaleTypeVSgtAF0K6DomainRd__lFQO AeFE0G6XScaleAhIQrqd___ALtAfMRd__lFQO AeFE0G5YAxisyQrAA10VisibilityOFQO AeFE0G5XAxisyQrAQFQO AF5ChartV AA05TupleD0V AA012_ConditionalD0V 016HealthExperienceB007SnidgetarE0V03BarR5MarksV A_04LinerY0V A_012DistributionrY0V AF0rD0PAFE23accessibilityIdentifieryQrSSFQO A_07AverageZ0V 10Foundation4DateV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO AA0D10TransitionV AY0W9AnimationV AY0aR5PointV AA11_ClipEffectV AA9RectangleV
++ _symbolic _____yAAyAAyAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG______QPGG_____G_____G_____yAJGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA24_ForegroundStyleModifierV AA5ColorV AA4TextV AA05_FlexkJ0V AA08_PaddingJ0V AA011_BackgroundmN0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy__________G_____y_____GG 18HealthExperienceUI26PrimarySecondaryDataSourceC AA018DownloadingPinningfG0C AA013PinnedContentfG0C AA15CellRegisteringC AA012MutableArrayfG10WithLayoutC
++ _symbolic _____yAAy__________GxG 7SwiftUI19_ConditionalContentV 016HealthExperienceB037StandardSnidgetCurrentValueNoDataViewV AD0ghijk13NotificationsM0V
++ _symbolic _____yAAy_____y_____y________________yxq_GQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 016HealthExperienceB024DisclosureCellHeaderViewV AA6SpacerV AH07SnidgetdL0V AA20_TransactionModifierV AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y_____y_____y_____yACyAAy__________G______ADyAEyACy___________QPGGAAyAkGGGQPGGAAyAByACyAEyACyAF_AiNQPGG_AJQPGG_____yAAy__________GGGG______SgQPGGAGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA012_ConditionalD0V AA6HStackV 016HealthExperienceB09TitleView33_3ACC0AFF71DF4383B3A19A7A278190D4LLV AA14_PaddingLayoutV AA6SpacerV AL06DetailL0ANLLV AL09AccessoryL0ANLLV AA19_BackgroundModifierV AA5ColorV AA017_SafeAreaIgnoringV0V AA7DividerV
++ _symbolic _____ySSSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySayxG2ID_____Qz_____y_____yAFy_____y_____y___________AFy__________y_____GGSgQPGG_____G_____y_____GG_Qo_G 7SwiftUI7ForEachV s12IdentifiableP AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleM0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA023AccessibilityAttachmentU0V AA01_m5ShapeU0V AA9RectangleV
++ _symbolic _____ySbG 7SwiftUI10FocusStateV
++ _symbolic _____ySbG 7SwiftUI9LazyStateV
++ _symbolic _____ySo6HKUnitCSgG 7SwiftUI7BindingV
++ _symbolic _____y_____G 18HealthExperienceUI18HideableDataSourceC AA019BrowsePinnedContenteF0C
++ _symbolic _____y_____G 18HealthExperienceUI19DataEntryPickerViewV AA0dE19UnitEnumerationItemV
++ _symbolic _____y_____G 18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource33_4B23A5E143A6FB655C87A44EFBD131C4LLC 0A8Platform22SharableModelReferenceC
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 10Foundation6LocaleV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA13DismissActionV
++ _symbolic _____y_____G 7SwiftUI12ScaledMetricV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI5StateV 016HealthExperienceB025DataEntryCompositionValueV
++ _symbolic _____y_____G 7SwiftUI5StateV 016HealthExperienceB025DataEntryLoggingViewModelC
++ _symbolic _____y_____G 7SwiftUI5StateV 016HealthExperienceB029DataEntryNumberValueViewModelC
++ _symbolic _____y_____G 7SwiftUI7BindingV 016HealthExperienceB020DataEntryNumberValueV
++ _symbolic _____y_____G 7SwiftUI7BindingV 016HealthExperienceB025DataEntryCompositionValueV
++ _symbolic _____y_____G 7SwiftUI7BindingV 10Foundation14DateComponentsV
++ _symbolic _____y_____G 7SwiftUI7BindingV 10Foundation4DateV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 016HealthExperienceB015BasicAlertModelV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 10Foundation14DateComponentsV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 016HealthExperienceB028DataEntryUnitEnumerationItemV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 8Dispatch0E8WorkItemC
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV So6CGSizeV
++ _symbolic _____y______A2BSgACQPG 7SwiftUI12TupleContentV 016HealthExperienceB030InternalSettingsTitleValueItemV
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 18HealthExperienceUI21ProfileSyncStatusCellC9ViewState33_2E632891F9400DAE27864E084EFBDD51LLO s5NeverO
++ _symbolic _____y__________yAB______yABGAbEQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA0D5FieldV AA9EmptyViewV
++ _symbolic _____y__________yAB______yABGQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA0D5FieldV AA9EmptyViewV
++ _symbolic _____y__________y______AD_____yABG_____yABGQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV 016HealthExperienceB008OptionalD5FieldV AA0dJ0V AA6ToggleV AA9EmptyViewV
++ _symbolic _____y__________y_____yABG_AE_____AFQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA0D5FieldV 016HealthExperienceB008OptionaldG0V AA9EmptyViewV
++ _symbolic _____y__________y_____y__________AFG___________yAhDyA2fEGGSgQPGG 7SwiftUI4ListV s5NeverO AA12TupleContentV AA7SectionV AA9EmptyViewV AA4TextV 016HealthExperienceB0033InternalSettingsAllowedCountrySetG033_F515C509E4D559256CE2BE1FF865D1B6LLV AA012_ConditionalF0V
++ _symbolic _____y__________y_____y_____yABG_SSQo__AFQPG_____G 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0D5FieldV AA05EmptyG0V
++ _symbolic _____y__________y_____y_____y_____y_____y_____yACyACy_____yACy_____y_____ACyx_____GG_____G_Qo______y_____GG_____y_____SgGG_____G______Qo__AWQo__SbQo_______Qo_______y_____yyt_____yACy_____y_____y__________GGAFG_Qo_G_A2_yyt_____yACyA9______ySbGG_Qo_GQPGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE18presentationSizingyQrqd__AA012PresentationL0Rd__lFQO AgAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AgAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA08ModifiedJ0V AgAE0H7Margins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA0J15MarginPlacementVtFQO AA4ListV s5NeverO AA31AccessibilityAttachmentModifierV 016HealthExperienceB018BasicAlertModifierV AA21_TraitWritingModifierV AA26ListSectionSpacingTraitKeyV AA30_EnvironmentKeyWritingModifierV AA18ListSectionSpacingV AA25_AppearanceActionModifierV A8_25DataEntryCompositionValueV AA04FormmL0V AA05TupleJ0V AA0I4ItemV AgAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA5LabelV AA4TextV AA5ImageV AgAEA29_yQrA31_FQO AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y______pSgG 7SwiftUI11EnvironmentV 016HealthExperienceB021DataEntryViewDelegateP
++ _symbolic _____y_____yAAy_____yAByAByAByAByAByABy__________G_____y_____SgGGAGy_____GG_____G_____G_____GSg________________AW_____QPGGAQGG 7SwiftUI6VStackV AA15ModifiedContentV AA05TupleE0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA06_FrameJ0V AA08_PaddingJ0V AA023AccessibilityAttachmentN0V 016HealthExperienceB00E15PrimaryTextView33_AEB6C38C524E91374EBAF3BDA93D9A17LLV AA6SpacerV AX0ew9SubheaderxY0AZLLV AX0e9Secondaryx9AndActionY0AZLLV
++ _symbolic _____y_____yABy_____y_____y_____y_____yADyAAyADyAFyADy______AEy__________GQPGG_AEyAEyAEy__________y_____GGANySiSgGGAIGQPGGSg_AXQPGG_____y_____GG_AEyAAyAYGA1_GQPGGA6_GAByAEyAAyADyAJSg_AUA8_QPGGA1_GA11_GGG 7SwiftUI6VStackV AA19_ConditionalContentV AA12ViewThatFitsV AA05TupleE0V AA08ModifiedE0V AA6HStackV AA5ImageV AA4TextV AA31AccessibilityAttachmentModifierV 016HealthExperienceB0027AnimatedSnidgetCurrentValueM0V AA022_EnvironmentKeyWritingP0V AA0M9AlignmentO AA016_BackgroundStyleP0V AA5ColorV
++ _symbolic _____y_____ySay_____GSS_____y_____y______Qo_______Qo_SgG______y_____y_____y___________Qo__Qo__AGQo_SgQPG 7SwiftUI12TupleContentV AA7ForEachV 016HealthExperienceB00A10ChartPointV 6Charts0iD0PAIE15foregroundStyleyQrqd__AA05ShapeM0Rd__lFQO AkIE04lineM0yQrAA06StrokeM0VFQO AI8RuleMarkV AA5ColorV AkIEALyQrqd__AaMRd__lFQO AkIE10symbolSizeyQrSo6CGSizeVFQO AkIE0T0yQrqd__AI0i6SymbolN0Rd__lFQO AI0jR0V AA6CircleV
++ _symbolic _____y_____ySay_____GSS_____y_____y_____y___________y______Qo_Qo__Qo_______Qo_G______y_____y_____y______AGQo__Qo__AJQo_SgSgQPG 7SwiftUI12TupleContentV AA7ForEachV 016HealthExperienceB00A10ChartPointV 6Charts0iD0PAIE15foregroundStyleyQrqd__AA05ShapeM0Rd__lFQO AkIE10symbolSizeyQrSo6CGSizeVFQO AkIE0O0yQrqd__AI0i6SymbolN0Rd__lFQO AI8LineMarkV AiRPAiA010InsettableN0RzrlE12strokeBorder9lineWidthQr12CoreGraphics7CGFloatV_tFQO AA6CircleV AA5ColorV AkIEALyQrqd__AaMRd__lFQO AkIEANyQrAPFQO AkIEAQyQrqd__AiRRd__lFQO AI0jT0V
++ _symbolic _____y_____y_____GG 18HealthExperienceUI18HideableDataSourceC AA13SupplementaryC AA013PinnedContente7LoggingeF0C
++ _symbolic _____y_____y_____G_SS_____ySay_____G__________y_____GGAISgQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA01_C16Modifier_ContentV 016HealthExperienceB0010BasicAlertJ0V AA7ForEachV AM0nO5ModelV6ActionV 10Foundation4UUIDV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA10DatePickerV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____Sg__________G_AByAcAyAE_AESgA3EQPGACG_____Sg_____SgAAyAByAC_____yAC_____GAFGSg______Sg_____yAByAcAy_____yACG_AWQPGACG______Qo_QPGSgQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV 016HealthExperienceB030InternalSettingsTitleValueItemV AA9EmptyViewV AH0iJ23PairedFeatureAttributesV AH0ijqJ0V AA14NavigationLinkV AH0ijQ21RequirementsByContextV AH0ij18RegionAvailabilityE0V AA0O0PAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQO AA6ButtonV AH12ErrorMessageV
++ _symbolic _____y_____y_____Sg______yAAyAByAEyABy_____y_____yAByAFyAFy__________y_____GG_____G___________SgQPGG_____G_AFy_____ATGQPGAFyAGyAByAV_AoQQPGGATGG_AFy_____ATGQPGGAFyAGyAByAEyAFyAFyAFyAFyAFyAEy_____AHGSgAKG_____G_____GATGAMGAFyAFyA8_ATGAMGGSg_AFyAAyAByAGyAByAV_AoFyAFyAqTGATGQPGG_A1_QPGGATGQPGGATGGQPGG 7SwiftUI6VStackV AA12TupleContentV 016HealthExperienceB025DismissibleCellHeaderViewV AA012_ConditionalE0V AA08ModifiedE0V AA6HStackV AA5ImageV AA24_ForegroundStyleModifierV AA09TintShapeQ0V AA023AccessibilityAttachmentR0V AA6SpacerV AF09AccessoryK033_0B66FD496ABFA1D56808259F799D7747LLV AA14_PaddingLayoutV AF0e11PrimaryTextK0AZLLV AF0e22SecondaryTextAndActionK0AZLLV AA03AnyK0V AA18_AspectRatioLayoutV AA12_FrameLayoutV
++ _symbolic _____y_____y_______________G_AFSgQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV 016HealthExperienceB033InternalSettingsFeatureAttributesV AA9EmptyViewV
++ _symbolic _____y_____y________________yAEyAEyAC_____ySiSgGGAFySbGGAFy_____GGQPGG 7SwiftUI6HStackV AA12TupleContentV AA4TextV AA6SpacerV AA08ModifiedE0V AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y___________y_____ABy_____Sg_AgBy___________SgQPGSgQPGAEGQPGG 18HealthExperienceUI30ComposableDataEntryLoggingViewV 05SwiftC012TupleContentV AA0ef17DisplayTypeHeaderH0V AD7SectionV AD05EmptyH0V AA0ef10DatePickerH0V AA0ef11NumberValueH0V AA0ef4UnitrH0V
++ _symbolic _____y_____y___________y_____GQPGG 7SwiftUI16ToolbarItemGroupV AA12TupleContentV AA6SpacerV AA6ButtonV 016HealthExperienceB0012KeyboardDoneI5LabelV
++ _symbolic _____y_____y___________y__________y_____GSgAEGADyAE_____y_____SgAByAM_AMQPGGAEGQPGG 18HealthExperienceUI30ComposableDataEntryLoggingViewV 05SwiftC012TupleContentV AA0ef17DisplayTypeHeaderH0V AD7SectionV AD05EmptyH0V AA0ef9SelectionH0V AA0eF11NumberValueV AD012_ConditionalK0V AA0ef10DatePickerH0V
++ _symbolic _____y_____y__________y__________y_____y_____y_____y_____AFy__________y_____GGSgGG_____G______yAEyAFyAGyAHyAFy_____y_____yA2IGG_____y_____SgGGAOGGARG______yAEyAFy_____y_____y_____y_____yAI__________ySayA7_GA7_AIGG______Qo__Qo__A7_Qo_ARG_A16_QPGGSgQPGGQPGADGG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA4ListV s5NeverO AA7SectionV AA05EmptyC0V AA12TupleContentV AA08ModifiedK0V AA6ButtonV AA07LabeledK0V AA4TextV AA5ImageV AA24_ForegroundStyleModifierV AA09TintShapeR0V AA023AccessibilityAttachmentS0V AA6VStackV AA5GroupV AA012_ConditionalK0V AA022_EnvironmentKeyWritingS0V AA5ColorV AA6HStackV AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE12labelsHiddenQryFQO AcAE06pickerR0yQrqd__AA06PickerR0Rd__lFQO AA6PickerV 10Foundation4DateV AA7ForEachV AA011WheelPickerR0V
++ _symbolic _____y_____y__________y_____y_____ACy______AFQPG_____G_ADyAH_____y_____y_____yAH__________ySayAKGAkHGG______Qo__Qo_AHGQPGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA12TupleContentV AA7SectionV AA05EmptyC0V 016HealthExperienceB030InternalSettingsTitleValueItemV AA4TextV AcAE12labelsHiddenQryFQO AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0W0V AP28FeatureRequirementEvaluationV6MethodO AA7ForEachV AA09SegmentedwE0V AA012InsetGroupedfE0V
++ _symbolic _____y_____y__________y_____y__________ySay_____GSS_____y__________GGAJSgG_ADyAeIyAJ_____GAEGQPGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA12TupleContentV AA7SectionV AA05EmptyC0V AA7ForEachV 016HealthExperienceB033InternalSettingsFeatureStateModelC AA14NavigationLinkV AA4TextV AR0pqrsC0V AR0pqrsF0V AA012InsetGroupedfE0V
++ _symbolic _____y_____y__________y_____y_____y_____y_____yAAyAAy_____y_____y_____yACG_Qo__Qo______y_____GG_____G_SSQo__SbQo__Qo__ACSgQPGGG_____G 7SwiftUI15ModifiedContentV AA07LabeledD0V AA4TextV AA6HStackV AA05TupleD0V AA4ViewPAAE8onSubmit2of_QrAA0K8TriggersV_yyctFQO AmAE0J6ChangeAO7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAEAroS_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAE12keyboardTypeyQrSo010UIKeyboardQ0VFQO AmAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0F5FieldV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA25_AppearanceActionModifierV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____yAAy__________GSg______yACyAAy_____SgAEG_AAyAAyAAy__________y_____GGAMySiSgGGAEGQPGGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA31AccessibilityAttachmentModifierV AA6HStackV 016HealthExperienceB029AudioExposureCurrentValueViewV013PaletteSymbolR0V AN015AnimatedSnidgetpqG0V AA022_EnvironmentKeyWritingJ0V AA0G9AlignmentO AA016_BackgroundStyleJ0V AA5ColorV
++ _symbolic _____y_____y_____yAAy_____yACyAAyAAy__________y_____GG_____y_____GG_AAyAAyAAy__________G_____GAHGQPGG_____G______yACyAAyAAyAAyAAy__________y_____GGAZySiSgGG_____y_____GG_____G_AYSgQPGG_____QPGGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6ZStackV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedH0V AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingS0V AA06_FrameS0V AA6VStackV AA4TextV AA022_EnvironmentKeyWritingK0V AA0W9AlignmentO AA06_TraitzK0V AA0s13PriorityTraitY0V AA010_FixedSizeS0V AA6SpacerV
++ _symbolic _____y_____y_____yABy_____y_____y_____y_____y_____yADyADyADyADy__________y_____GG_____y_____GG_____GAHy_____SgGG_Qo_______y_____GQo_ADyADyADyADyADyADyAG_____G_____G_____y_____y_____AMGGG_____yA5_GG_____y_____yA5_AM_____GSgGG_____GGG_____GSg_ADyADyADy_____A1_GAHySiSgGG_____G_____QPGG_A33_QPGG 7SwiftUI6HStackV AA12TupleContentV AA6VStackV AA08ModifiedE0V AA5GroupV AA012_ConditionalE0V AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO AoAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV A0_5ScaleO AA016_ForegroundStyleW0V AA5ColorV AA14_OpacityEffectV AW s19PartialRangeThroughV AR AA18_AspectRatioLayoutV AA14_PaddingLayoutV AA011_BackgroundW0V AA06_ShapeJ0V AA16RoundedRectangleV AA11_ClipEffectV AA08_OverlayW0V AA011StrokeShapeJ0V AA05EmptyJ0V AA16_FlexFrameLayoutV AA12_FrameLayoutV AA4TextV AA06_FixedM6LayoutV AA6SpacerV
++ _symbolic _____y_____y_____yACyACyACyACy__________G_____y_____GGAGy_____SgGGAGy_____SgGG_____GSg_ACy_____yACyACy_____yACyACyACyAfMGAIGASGGAQGAGy_____GG______Qo_AGy_____GGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA4FontV AA5ColorV AA023AccessibilityAttachmentN0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA07ControlI0O AA08BorderedxV0V AA0X11BorderShapeV
++ _symbolic _____y_____y_____yACyACyACy__________G_____y_____SgGGAGy_____GG_____GSg_ACyACy_____y_____yADG______Qo_AGy_____GGAOGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0G9AlignmentO AA023AccessibilityAttachmentN0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQO AA0W0V AA017BorderedProminentwU0V AA0W11BorderShapeV
++ _symbolic _____y_____y_____yACy__________G_____G______yAByACy__________ySiSgGG_ANSgACyAN_____GSgQPGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeJ0V
++ _symbolic _____y_____y_____yACy_____y_____x_____ySayxG8RawValue_____Qz_____yAE_xQo_GG_____yABy_____y_____y_____yAE_____y_____yAEG______Qo_G_Qo_______yAM______Qo_SgQPGG_Qo_GACy_____yAM______Qo______yADy_____xALG______Qo_GGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6PickerV AA4TextV AA7ForEachV 016HealthExperienceB024DataEntryEnumerationItemP AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO ArAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA05TupleD0V ArAE12onTapGesture5count7performQrSi_yyctFQO AA07LabeledD0V ArAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA19BorderedButtonStyleV ArAE11pickerStyleyQrqd__AA0G5StyleRd__lFQO AA05WheelG5StyleV ArAEA14_yQrqd__AAA15_Rd__lFQO AA014NavigationLinkG5StyleV ArAEA14_yQrqd__AAA15_Rd__lFQO AA05EmptyQ0V AA06InlineG5StyleV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y__________GSg_ACyACyACy__________y_____GGAIySiSgGGAEGAGQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4TextV AA31AccessibilityAttachmentModifierV 016HealthExperienceB0027AnimatedSnidgetCurrentValueG0V AA022_EnvironmentKeyWritingJ0V AA0G9AlignmentO
++ _symbolic _____y_____y_____y___________AByACy___________QPGGQPGG_____yACyAByACyAD_AE_____yAG_____GQPGG_AFQPGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA05TupleD0V 016HealthExperienceB09TitleView33_33AEE1C4335BFDE3A2CFEF72E7F0D0A0LLV AA6SpacerV AH06DetailJ0AJLLV AH09AccessoryJ0AJLLV AA6VStackV AA08ModifiedD0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y___________ADQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6SpacerV 06HealthB019HKAddDataHeaderViewV AA21_TraitWritingModifierV AA017ListRowBackgroundM3KeyV
++ _symbolic _____y_____y_____y__________y_____y__________AEG_ADy__________ySay_____G__________yAF_____GGAHSgGQPGG______Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA12TupleContentV AA7SectionV AA05EmptyC0V 016HealthExperienceB0016InternalSettingsE9ValueItemV AA4TextV AA7ForEachV AQ28FeatureRequirementEvaluationV So021HKFeatureAvailabilityX10Identifiera AA14NavigationLinkV AQ0pqwxY6DetailV AA012InsetGroupedhG0V
++ _symbolic _____y_____y_____y_____y_____y_____y__________y___________yABGAfdFQPG_____G_SSQo__SSQo__SSSgQo__SSQo__ALQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7SectionV AA4TextV AA12TupleContentV 016HealthExperienceB008OptionalI5FieldV AA0iO0V AA05EmptyC0V
++ _symbolic _____y_____y_____y_____yxGG______y_____y_____y_____y_____G_____ySbGG_AM_____AHy_____GQPGGQo__xSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA01_c9Modifier_K0V 016HealthExperienceB0013KeyboardFocuseJ0V AA0J9ItemGroupV AA05TupleK0V AA08ModifiedK0V AA6ButtonV AA5ImageV AA024_EnvironmentKeyTransformL0V AA6SpacerV AL0o4DoneU5LabelV
++ _symbolic _____y_____y_____yx_____y_____GGSg______y_____yxGGAHQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA21_TraitWritingModifierV AA010TransitionG3KeyV AA05_Viewi1_E0V 016HealthExperienceB018ConditionalSubTextV
++ _symbolic _____y_____yxGG 7SwiftUI19UIHostingControllerC 016HealthExperienceB029DataEntryRootViewWithDelegateV
++ _symbolic _____y_____yxSg___________y_____yq_Sg_____GSSGQPGG 7SwiftUI6HStackV AA12TupleContentV AA6SpacerV AA6IDViewV AA08ModifiedE0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____yx_GG 7SwiftUI5StateV 016HealthExperienceB029DataEntryRootViewWithDelegateV0I5ModelC
++ _symbolic _____yxG 18HealthExperienceUI19DataEntryPickerViewV
++ _symbolic _____yxG 18HealthExperienceUI22DataEntrySelectionViewV
++ _symbolic _____yxG 18HealthExperienceUI30ComposableDataEntryLoggingViewV
++ _symbolic _____yxG 7SwiftUI7BindingV
++ _symbolic _____yx_G 18HealthExperienceUI14LazyDataSourceC0eF5StateO
++ _symbolic _____yx_G 18HealthExperienceUI29DataEntryRootViewWithDelegateV0G5ModelC
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV AA31AccessibilityAttachmentModifierV
++ _symbolic _____yx_____y______pSgGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 016HealthExperienceB021DataEntryViewDelegateP
++ _symbolic _____yxq_G 18HealthExperienceUI26PrimarySecondaryDataSourceC
++ _symbolic _____yxq_GSgXw 18HealthExperienceUI35SizeDesignationResponsiveDataSourceC
++ _symbolic _____yxq_GSgXwz_x_q______RzADR_r0_lXX 18HealthExperienceUI35SizeDesignationResponsiveDataSourceC AA08SnapshotgH0P
++ _symbolic xyScMYcc_So16UICollectionViewCSgt
++ _symbolic ySay_____GcSg 10Foundation14DateComponentsV
++ _symbolic ytSgIeAgHr_
++ _symbolic yyYbcSg
++ _type_layout_string 18HealthExperienceUI12PDFAsyncViewV
++ _type_layout_string 18HealthExperienceUI15BasicAlertModelV
++ _type_layout_string 18HealthExperienceUI18BasicAlertModifierV
++ _type_layout_string 18HealthExperienceUI18SnapshotDataSourceRzAaBR_r0_lAA025SizeDesignationResponsiveeF0C15ResolverContextVyxq__G
++ _type_layout_string 18HealthExperienceUI18SnapshotDataSourceRzlAA04LazyeF0C0eF5StateOyx_G
++ _type_layout_string 18HealthExperienceUI20ArticlesLayoutEngineV
++ _type_layout_string 18HealthExperienceUI20DataEntryNumberValueV
++ _type_layout_string 18HealthExperienceUI21PDFGenerationRegistryV
++ _type_layout_string 18HealthExperienceUI21PDFGenerationRegistryV5ErrorO
++ _type_layout_string 18HealthExperienceUI21PDFLeadingTrailingRowV
++ _type_layout_string 18HealthExperienceUI22DataEntryMetadataValueV
++ _type_layout_string 18HealthExperienceUI22PlatformFactoryFailureO
++ _type_layout_string 18HealthExperienceUI23DataEntryUnitPickerViewV
++ _type_layout_string 18HealthExperienceUI25DataEntryCompositionValueV
++ _type_layout_string 18HealthExperienceUI25DataEntryValidationResultV
++ _type_layout_string 18HealthExperienceUI25DataEntryValidationResultV18AlertConfigurationV
++ _type_layout_string 18HealthExperienceUI26CategoryTileBackgroundViewV
++ _type_layout_string 18HealthExperienceUI26DataEntryViewConfigurationV
++ _type_layout_string 18HealthExperienceUI27DecorationEdgeConfigurationV
++ _type_layout_string 18HealthExperienceUI28DataEntryUnitEnumerationItemV
++ _type_layout_string 18HealthExperienceUI28NumberValueViewConfigurationV
++ _type_layout_string 18HealthExperienceUI29CategoryValueDataEntryFactoryV
++ _type_layout_string 18HealthExperienceUI30DataEntryDisplayTypeHeaderViewV
++ _type_layout_string 18HealthExperienceUI30StandardQuantitySampleProviderV
++ _type_layout_string 18HealthExperienceUI31DataEntryDateValidationProviderV
++ _type_layout_string 18HealthExperienceUI33StandardDataEntryMetadataProviderV
++ _type_layout_string 18HealthExperienceUI34CorrelatedQuantityDataEntryHandlerV0dE13ConfigurationV
++ _type_layout_string 18HealthExperienceUI36StandardCategoryValueDataLoggingViewV
++ _type_layout_string 18HealthExperienceUI36StandardCategoryValueDataLoggingViewV0I13ConfigurationV
++ _type_layout_string So12UIEdgeInsetsV
++ _type_layout_string So18NSNotificationNamea
++ _type_layout_string So7CGPointV
+- +[ProfileCharacteristicsViewController orderedRowIdentifiersBySectionIdentifierWithNameRowsHidden:pregnancySectionHidden:cardioFitnessMedicationsSectionHidden:]
+- +[ProfileCharacteristicsViewController orderedSectionIdentifiersWithPregnancySectionHidden:cardioFitnessMedicationsSectionHidden:]
+- -[WDAddDataViewController _widthDesignationFromTraitCollection:]
+- GCC_except_table17
+- GCC_except_table57
+- _HAFeatureFlagAlwaysRunGenerationOnSharingSetUp
+- _HAFeatureFlagStewieEnabled
+- _HKHealthUIBuddyDirectionalEdgeInsets
+- _HKUIOnePixel
+- _OBJC_CLASS_$_HKTraitWidthDesignation
+- _OBJC_CLASS_$_UIContentUnavailableConfiguration
+- _OBJC_CLASS_$_UINavigationItem
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$__TtC18HealthExperienceUI19MeContactAvatarView
+- _OBJC_METACLASS_$__TtC18HealthExperienceUI19MeContactAvatarView
+- _OBJC_METACLASS_$__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _UINavigationItemSearchBarPlacementInlineCenterPreferred
+- __CATEGORY_INSTANCE_METHODS__TtC18HealthExperienceUI38HideablePregnancyArticlesFRCDataSource_$_HealthExperienceUI
+- __CATEGORY_PROTOCOLS__TtC18HealthExperienceUI38HideablePregnancyArticlesFRCDataSource_$_HealthExperienceUI
+- __DATA__TtC18HealthExperienceUI19MeContactAvatarView
+- __DATA__TtC18HealthExperienceUI20BrowseFeedDataSource
+- __DATA__TtC18HealthExperienceUI26BrowseCategoriesDataSource
+- __DATA__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- __INSTANCE_METHODS__TtC18HealthExperienceUI19MeContactAvatarView
+- __INSTANCE_METHODS__TtC18HealthExperienceUI19SpecifierHeaderView
+- __INSTANCE_METHODS__TtC18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource
+- __INSTANCE_METHODS__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- __IVARS__TtC18HealthExperienceUI19MeContactAvatarView
+- __IVARS__TtC18HealthExperienceUI20BrowseFeedDataSource
+- __IVARS__TtC18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource
+- __IVARS__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- __METACLASS_DATA__TtC18HealthExperienceUI19MeContactAvatarView
+- __METACLASS_DATA__TtC18HealthExperienceUI20BrowseFeedDataSource
+- __METACLASS_DATA__TtC18HealthExperienceUI26BrowseCategoriesDataSource
+- __METACLASS_DATA__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- __OBJC_$_INSTANCE_METHODS_HKDisplayType(AddData|ManualEntry|OutOfRangeAlertDisplayName)
+- __OBJC_$_INSTANCE_METHODS__TtC18HealthExperienceUI23MedicalIDDataSourceItem(HealthExperienceUI)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HKMedicalIDViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKMedicalIDViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+- __OBJC_$_PROTOCOL_REFS_HKMedicalIDViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC18HealthExperienceUI23MedicalIDDataSourceItem(HealthExperienceUI)
+- __OBJC_LABEL_PROTOCOL_$_HKMedicalIDViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+- __OBJC_PROTOCOL_$_HKMedicalIDViewControllerDelegate
+- __OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+- __PROTOCOLS__TtC18HealthExperienceUI19SpecifierHeaderView
+- __PROTOCOLS__TtC18HealthExperienceUI19SpecifierHeaderView.6
+- __PROTOCOLS__TtC18HealthExperienceUI22PDFAsyncViewController.7
+- __PROTOCOLS__TtC18HealthExperienceUI23DeviceSourcesDataSource.7
+- __PROTOCOLS__TtC18HealthExperienceUI27CompoundSectionedDataSource.20
+- __PROTOCOLS__TtC18HealthExperienceUI29ProfileOverviewViewController
+- __PROTOCOLS__TtC18HealthExperienceUI29ProfileOverviewViewController.11
+- __PROTOCOLS__TtC18HealthExperienceUI29SizeClassResponsiveDataSource.23
+- __PROTOCOLS__TtC18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource
+- __PROTOCOLS__TtC18HealthExperienceUI47JustObservingFetchedResultsControllerDataSource.17
+- __PROTOCOLS__TtC18HealthExperienceUIP33_769EF482A8E949D5E185D49C9A04EEB923AllAlertsViewController.16
+- __PROTOCOLS__TtCC18HealthExperienceUI27TextFieldCollectionViewCellP33_CA6334EB88576D7E5F1F357E76DAEE2F32TextFieldCollectionViewCellInner.31
+- __PROTOCOLS__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate
+- __PROTOCOLS__TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate.5
+- __PROTOCOL_INSTANCE_METHODS__TtP18HealthExperienceUI35VibrantNavigationBarItemsPresenting_
+- __PROTOCOL_METHOD_TYPES__TtP18HealthExperienceUI35VibrantNavigationBarItemsPresenting_
+- __PROTOCOL_PROTOCOLS__TtP18HealthExperienceUI35VibrantNavigationBarItemsPresenting_
+- __PROTOCOL__TtP18HealthExperienceUI35VibrantNavigationBarItemsPresenting_
+- __UISolariumEnabled
+- ___106-[ProfileCharacteristicTypePermissionsViewController _fetchAuthorizationRecordsBySourceForCharacteristic:]_block_invoke.359
+- ___41-[WDAddDataViewController _dataValidated]_block_invoke.419
+- ___60-[ProfileCharacteristicsViewController setEditing:animated:]_block_invoke.504
+- ___block_literal_global.649
+- ___block_literal_global.655
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_HealthExperienceUI
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_HealthExperienceUI
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_HealthExperienceUI
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_HealthExperienceUI
+- _associated conformance 18HealthExperienceUI19MeContactAvatarViewC4SizeOSHAASQ
+- _block_copy_helper.105
+- _block_copy_helper.135
+- _block_copy_helper.159
+- _block_copy_helper.171
+- _block_copy_helper.18
+- _block_copy_helper.33
+- _block_copy_helper.36
+- _block_copy_helper.40
+- _block_copy_helper.41
+- _block_copy_helper.47
+- _block_copy_helper.52
+- _block_copy_helper.54
+- _block_copy_helper.57
+- _block_copy_helper.60
+- _block_copy_helper.63
+- _block_copy_helper.64
+- _block_copy_helper.67
+- _block_copy_helper.72
+- _block_copy_helper.75
+- _block_copy_helper.78
+- _block_copy_helper.84
+- _block_copy_helper.96
+- _block_descriptor.107
+- _block_descriptor.137
+- _block_descriptor.161
+- _block_descriptor.173
+- _block_descriptor.20
+- _block_descriptor.35
+- _block_descriptor.38
+- _block_descriptor.42
+- _block_descriptor.43
+- _block_descriptor.49
+- _block_descriptor.54
+- _block_descriptor.56
+- _block_descriptor.59
+- _block_descriptor.62
+- _block_descriptor.65
+- _block_descriptor.66
+- _block_descriptor.69
+- _block_descriptor.74
+- _block_descriptor.77
+- _block_descriptor.80
+- _block_descriptor.86
+- _block_descriptor.98
+- _block_destroy_helper.106
+- _block_destroy_helper.136
+- _block_destroy_helper.160
+- _block_destroy_helper.172
+- _block_destroy_helper.19
+- _block_destroy_helper.34
+- _block_destroy_helper.37
+- _block_destroy_helper.41
+- _block_destroy_helper.42
+- _block_destroy_helper.48
+- _block_destroy_helper.53
+- _block_destroy_helper.55
+- _block_destroy_helper.58
+- _block_destroy_helper.61
+- _block_destroy_helper.64
+- _block_destroy_helper.65
+- _block_destroy_helper.68
+- _block_destroy_helper.73
+- _block_destroy_helper.76
+- _block_destroy_helper.79
+- _block_destroy_helper.85
+- _block_destroy_helper.97
+- _get_enum_tag_for_layout_string 18HealthExperienceUI18ViewFactoryFailureO
+- _get_enum_tag_for_layout_string 18HealthExperienceUI21HKTAlertDetailFactoryV05AlerteF7FailureO
+- _get_enum_tag_for_layout_string 18HealthExperienceUI42ArticlesWithHeaderFooterAndLimitDataSourceC0F0O
+- _get_witness_table 18HealthExperienceUI18SnapshotDataSourceRzAaBR_r0_lAA012_ConditionaleF0CyAA15CellRegisteringCyAA016PrimarySecondaryeF0Cyq_xGGAFyq_GGAaBHPyHC.27
+- _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzAaBR_Se0dE0RpzSEADRQSeACRp_SEAERQr0_l05SwiftC015ModifiedContentVyAHyAF6VStackVyAF05TupleD0VyAA020DisclosureCellHeaderD0V_AF6SpacerVAA07SnidgetiD0Vyxq_GtGGAF20_TransactionModifierVGAF16_FlexFrameLayoutVGAF0D0HPAxFA0_HPAuFA0_HPyHC_AwF0dR0HPyHCHC_AzFA1_HPyHCHC.1
+- _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzAaBR_Se0dE0RpzSEADRQSeACRp_SEAERQr0_l05SwiftC06HStackVyAF05TupleD0VyxSg_AF6SpacerVAF6IDViewVyAF15ModifiedContentVyq_SgAF16_FlexFrameLayoutVGSSGtGGAF0D0HPyHC.1
+- _get_witness_table 18HealthExperienceUI18ViewModelConsumingRzl05SwiftC019_ConditionalContentVyAA033StandardSnidgetCurrentValueNoDataD0VxGAC0D0HPAgcIHPyHC_xAaBHD1_AcIHI1_HC.30
+- _get_witness_table 18HealthExperienceUI19HelpTilePreviewFormV05SwiftC04ViewHPyHC.36
+- _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyAA05EmptyeF0CAA0e19TypeDetailFavoriteseF0CGAA08SnapshoteF0HPyHC.4
+- _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyAA15CellRegisteringCyAA016PrimarySecondaryeF0CyAA0eF10WithLayoutCyAA06MappedeF0CyAA024FetchedResultsControllereF0Cy0A8Platform8FeedItemCAP0aB008SnapshotefS0AAyHCg0_GGGAA012MutableArrayefkL0CGGAEyAUGGAA0teF0HPyHC.25
+- _get_witness_table 18HealthExperienceUI22_ConditionalDataSourceCyACyAA15CellRegisteringCyAA016PrimarySecondaryeF0CyAA0eF10WithLayoutCyAA06MappedeF0CyAA024FetchedResultsControllereF0Cy0A8Platform8FeedItemCAP0aB008SnapshotefS0AAyHCg0_GGGAA012MutableArrayefkL0CGGAEyAUGGA_GAA0teF0HPyHC.24
+- _get_witness_table 18HealthExperienceUI29CategoryTileConfigurationViewV05SwiftC00G0HPyHC.56
+- _get_witness_table 18HealthExperienceUI36CollectionViewLayoutSectionProvidingRzAA18SnapshotDataSourceRzlAA012_ConditionaljK0CyAA15CellRegisteringCyAA016PrimarySecondaryjK0CyAA0jk4WithF0CyAA06MappedjK0CyAA024FetchedResultsControllerjK0Cy0A8Platform8FeedItemCAR0aB00ijkX0AAyHCg0_GGGxGGAGyAWGGAaCHPyHC.26
+- _get_witness_table 18HealthExperienceUI36SelectableConfigurationActionHandlerRzAA21CategoryTileViewModelR_r0_lAA0hiJ0V05SwiftC00J0HPyHC.53
+- _get_witness_table 6Charts12BuilderTupleVy7SwiftUI7ForEachVySay016HealthExperienceE00D10ChartPointVGSSAA0J7ContentPAAE15foregroundStyleyQrqd__AD05ShapeN0Rd__lFQOyAlAE04lineN0yQrAD06StrokeN0VFQOyAA8RuleMarkV_Qo__AD5ColorVQo_SgG_AlAEAMyQrqd__AdNRd__lFQOyAlAE10symbolSizeyQrSo6CGSizeVFQOyAlAE0U0yQrqd__AA0j6SymbolO0Rd__lFQOyAA0kS0V_AD6CircleVQo__Qo__AVQo_SgQPGAaKHPAyaKHpAxaKHpqd0__AaKHD3_AWHO_HC_HC_A10_AaKHpqd0__AaKHD3_A9_HO_HCHX_HC.89
+- _get_witness_table 6Charts12BuilderTupleVy7SwiftUI7ForEachVySay016HealthExperienceE00D10ChartPointVGSSAA0J7ContentPAAE15foregroundStyleyQrqd__AD05ShapeN0Rd__lFQOyAlAE10symbolSizeyQrSo6CGSizeVFQOyAlAE0P0yQrqd__AA0j6SymbolO0Rd__lFQOyAA8LineMarkV_AaSPAaD010InsettableO0RzrlE12strokeBorder9lineWidthQr12CoreGraphics7CGFloatV_tFQOyAD6CircleV_Qo_Qo__Qo__AD5ColorVQo_G_AlAEAMyQrqd__AdNRd__lFQOyAlAEAOyQrAQFQOyAlAEARyQrqd__AaSRd__lFQOyAA0kU0V_A3_Qo__Qo__A7_Qo_SgSgQPGAaKHPA9_AaKHpqd0__AaKHD3_A8_HO_HC_A16_AaKHpA15_AaKHpqd0__AaKHD3_A14_HO_HC_HCHX_HC.88
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy016HealthExperienceB024PlatformCellCornerRadiusVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA0E0HPAiaPHPyHC_AnA0eF0HPyHCHC.50
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy016HealthExperienceB027PlatformCellBackgroundColorVGAA013_TraitWritingF0VyAA07ListRowkM3KeyVGGAA0E0HPAiaPHPyHC_AnA0eF0HPyHCHC.51
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGAA4ViewHPAeaIHPyHC_AgA0iH0HPyHCHC.31
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyAA6ZStackVyAGyACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA07RoundedI0VGG_ACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA08_PaddingT0VGAPGtGGAA06_FrameT0VG_AA6VStackVyAGyACyACyACyACyAA4TextVAA022_EnvironmentKeyWritingL0VyAA0X9AlignmentOGGA15_ySiSgGGAA013_TraitWritingL0VyAA0t13PriorityTraitZ0VGGAA010_FixedSizeT0VG_A13_SgtGGAA6SpacerVtGGA2_GAA0G0HPA38_AAA40_HPyHC_A2_AA0gL0HPyHCHC.23
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA4TextVAA31AccessibilityAttachmentModifierVGSg_AA6HStackVyAGyACy016HealthExperienceB0025AudioExposureCurrentValueG0V013PaletteSymbolG0VSgAKG_ACyACyACyAP015AnimatedSnidgetqrH0VAA022_EnvironmentKeyWritingK0VyAA0H9AlignmentOGGAZySiSgGGAKGtGGtGGAA016_BackgroundStyleK0VyAA5ColorVGGAA0G0HPA10_AAA17_HPyHC_A15_AA0gK0HPyHCHC.11
+- _get_witness_table 7SwiftUI15ModifiedContentVyACy016HealthExperienceB016CategoryTileViewVAA14_PaddingLayoutVGAA19_BackgroundModifierVyACyAD0ghlI0VAA022_EnvironmentKeyWritingM0VyAA22UserInterfaceSizeClassOSgGGGGAA0I0HPAiaWHPAfaWHPyHC_AhA0iM0HPyHCHC_AuaXHPyHCHC.55
+- _get_witness_table 7SwiftUI15ModifiedContentVyACy016HealthExperienceB028CellHeaderXMarkAccessoryViewVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA023AccessibilityAttachmentO0VGSgAA0K0HpApaRHPAmaRHPAfaRHPyHC_AlA0kO0HPyHCHC_AoaSHPyHCHC_HC.153
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy016HealthExperienceB027PlatformCellBackgroundStyleVGAA013_TraitWritingF0VyAA013ListRowInsetsM3KeyVGGAF0ij18CornerAndHighlightK0VGAA0E0HPAoaSHPAiaSHPyHC_AnA0eF0HPyHCHC_AqaTHPyHCHC.53
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVyAA012_ConditionalD0VyAA6HStackVyAGyACy016HealthExperienceB005TitleG033_3ACC0AFF71DF4383B3A19A7A278190D4LLVAA14_PaddingLayoutVG_AA6SpacerVAIyAKyAGyAL06DetailG0ANLLV_AL09AccessoryG0ANLLVtGGACyAxQGGtGGACyAEyAGyAKyAGyAO_ATA_tGG_AVtGGAA19_BackgroundModifierVyACyAA5ColorVAA017_SafeAreaIgnoringV0VGGGG_AA7DividerVSgtGGAQGAQGAA0G0HPA22_AAA24_HPA21_AAA24_HPyHC_AqA0G8ModifierHPyHCHC_AqAA25_HPyHCHC.28
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACy016HealthExperienceB024CellHeaderDetailTextViewVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAHyAA5ColorVSgGGAA023AccessibilityAttachmentO0VGSgAA0K0HpAuaWHPAraWHPAmaWHPAfaWHPyHC_AlA0kO0HPyHCHC_AqaXHPyHCHC_AtaXHPyHCHC_HC.75
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACy016HealthExperienceB028CellHeaderXMarkAccessoryViewVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAHyAA0D10TransitionVGGAA023AccessibilityAttachmentO0VGSgAA0K0HpAtaVHPAqaVHPAmaVHPAfaVHPyHC_AlA0kO0HPyHCHC_ApaWHPyHCHC_AsaWHPyHCHC_HC.74
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA9TupleViewVyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VGAA24_ForegroundStyleModifierVyAA5ColorVGG_AA4TextVtGGAA05_FlexlK0VGAA08_PaddingK0VGAA011_BackgroundnO0VyASGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA0G0HPA7_AAA14_HPA3_AAA14_HPA0_AAA14_HPAyAA14_HPyHC_A_AA0gO0HPyHCHC_A2_AAA15_HPyHCHC_A6_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.7
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAJyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingH0VGAA023AccessibilityAttachmentL0VGAA4ViewHPA_AAA3_HPAxAA3_HPAsAA3_HPAnAA3_HPAhAA3_HPAeAA3_HPyHC_AgA0sL0HPyHCHC_AmAA4_HPyHCHC_ArAA4_HPyHCHC_AwAA4_HPyHCHC_AzAA4_HPyHCHC_A1_AAA4_HPyHCHC.152
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0E9AlignmentOGGAJyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingH0VGAA023AccessibilityAttachmentL0VGAA4ViewHPA_AAA3_HPAxAA3_HPAsAA3_HPAnAA3_HPAhAA3_HPAeAA3_HPyHC_AgA0sL0HPyHCHC_AmAA4_HPyHCHC_ArAA4_HPyHCHC_AwAA4_HPyHCHC_AzAA4_HPyHCHC_A1_AAA4_HPyHCHC.74
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyACyAA4ViewP6ChartsE11chartYScale6domain4typeQrqd___AF9ScaleTypeVSgtAF0K6DomainRd__lFQOyAeFE0G6XScaleAhIQrqd___ALtAfMRd__lFQOyAeFE0G5YAxisyQrAA10VisibilityOFQOyAeFE0G5XAxisyQrAQFQOyAF5ChartVyAF12BuilderTupleVyAF0S11ConditionalVyAXy016HealthExperienceB007SnidgetarE0V03BarR5MarksVA_04LinerZ0VGA_012DistributionrZ0VG_AF0rD0PAFE23accessibilityIdentifieryQrSSFQOyA_11AverageLineV_Qo_SgQPGG_Qo__Qo__SNy10Foundation4DateVGQo__SaySdGQo_AA14_PaddingLayoutVGAA31AccessibilityAttachmentModifierVGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGGA33_yAA0D10TransitionVGGAY0X9AnimationVySayAY0aR5PointVGGGA27_GAA11_ClipEffectVyAA9RectangleVGGA27_GAaDHPA55_AaDHPA49_AaDHPA48_AaDHPA41_AaDHPA37_AaDHPA31_AaDHPA28_AaDHPqd0__AaDHD3_A25_HO_A27_AA0E8ModifierHPyHCHC_A30_AAA57_HPyHCHC_A36_AAA57_HPyHCHC_A40_AAA57_HPyHCHC_A47_AAA57_HPyHCHC_A27_AAA57_HPyHCHC_A54_AAA57_HPyHCHC_A27_AAA57_HPyHCHC.33
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy016HealthExperienceB036PlatformCellHighlightBackgroundColorVGAA013_TraitWritingG0VyAA07ListRowmO3KeyVGGAEyAkH0jkmN0VGGAA0F0HPAqaVHPAkaVHPyHC_ApA0fG0HPyHCHC_AtaVHPAkaVHPyHC_AsaWHPyHCHCHC.52
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy016HealthExperienceB040PlatformCellCornerAndHighlightBackgroundVGAA013_TraitWritingG0VyAA07ListRowoP3KeyVGGAQGAA0F0HPAqaSHPAkaSHPyHC_ApA0fG0HPyHCHC_AqaSHPAkaSHPyHC_ApaTHPyHCHCHC.54
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA14LinearGradientV016HealthExperienceB024PlatformCellCornerRadiusVGAH0jK14BackgroundViewVGAA0O0HPAkaOHPAgaOHPyHC_AjA0O8ModifierHPyHCHC_AmaOHPyHCHC.2
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVy016HealthExperienceB005TitleG033_33AEE1C4335BFDE3A2CFEF72E7F0D0A0LLV_AA6SpacerVAEyAGyAH06DetailG0AJLLV_AH09AccessoryG0AJLLVtGGtGGAA6VStackVyAGyAEyAGyAK_AmA08ModifiedD0VyAqA14_PaddingLayoutVGtGG_AOtGGGAA0G0HPAuAA6_HPyHC_A4_AAA6_HPyHCHC.24
+- _get_witness_table 7SwiftUI4ListVys5NeverOAA9TupleViewVyAA7SectionVyAA05EmptyF0VAA4TextVAMG_016HealthExperienceB0033InternalSettingsAllowedCountrySetG033_F515C509E4D559256CE2BE1FF865D1B6LLVAA19_ConditionalContentVyArIyA2mKGGSgtGGAA0F0HPyHC.3
+- _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA05TupleC0VyAA15ModifiedContentVyxAA21_TraitWritingModifierVyAA010TransitionH3KeyVGGSg_AA01_cj1_G0Vy016HealthExperienceB018ConditionalSubTextVyxGGAOtGGAaBHPyHC.5
+- _get_witness_table 7SwiftUI5LabelVyAA4TextVAA5ImageVGAA4ViewHPyHC.13
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VG_AA6VStackVyAEyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGG_AXSgAGyAxA010_FixedSizeK0VGSgtGGtGGAA0E0HPyHC.15
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA4TextV_AA6SpacerVAA15ModifiedContentVyAKyAKyAgA30_EnvironmentKeyWritingModifierVySiSgGGAMySbGGAMy12CoreGraphics7CGFloatVGGtGGAA0E0HPyHC.9
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6VStackVyAEyAA6SpacerV_AA19_ConditionalContentVyAA0E0PAAE10fontWeightyQrAA4FontV0K0VSgFQOyAA08ModifiedI0VyAUyAUyAUyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAW5ScaleOGGAA016_ForegroundStyleR0VyAA5ColorVGGAA14_OpacityEffectVGAYyAPSgGG_Qo_AUyAUyAUyAwA18_AspectRatioLayoutVGAA16_FlexFrameLayoutVGAA08_OverlayR0VyAA011StrokeShapeE0VyAA16RoundedRectangleVA5_AA05EmptyE0VGSgGGGSgAiUyAA4TextVAA14_PaddingLayoutVGtGG_AItGGAaLHPyHC.54
+- _get_witness_table 7SwiftUI6VStackVyAA15ModifiedContentVyACyAA9TupleViewVyAEyAEyAEyAEyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGANyAI5ScaleOGGAA06_FrameK0VGAA08_PaddingK0VGAA023AccessibilityAttachmentO0VGSg_016HealthExperienceB00e11PrimaryTextG033_AEB6C38C524E91374EBAF3BDA93D9A17LLVAA6SpacerVA6_0ex9SubheaderyG0A8_LLVA11_A6_0e9Secondaryy9AndActionG0A8_LLVtGGA0_GGAA0G0HPyHC.19
+- _get_witness_table 7SwiftUI6VStackVyAA19_ConditionalContentVyAEyAA12ViewThatFitsVyAA05TupleF0VyAA08ModifiedE0VyAA6HStackVyAIyACyAIyAMyAIyAA5ImageV_AKyAA4TextVAA31AccessibilityAttachmentModifierVGtGG_AKyAKyAKy016HealthExperienceB0027AnimatedSnidgetCurrentValueM0VAA022_EnvironmentKeyWritingP0VyAA0M9AlignmentOGGA_ySiSgGGASGtGGSg_A10_tGGAA016_BackgroundStyleP0VyAA5ColorVGG_AKyACyA11_GA17_GtGGA22_GAEyAKyACyAIyATSg_A7_A24_tGGA17_GA27_GGGAA0F0HPyHC.32
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVy016HealthExperienceB0021DismissibleCellHeaderE0VSg_AA19_ConditionalContentVyACyAEyAKyAEyAA08ModifiedL0VyAA6HStackVyAEyAMyAMyAA5ImageVAA24_ForegroundStyleModifierVyAA09TintShapeQ0VGGAA023AccessibilityAttachmentR0VG_AA6SpacerVAF09AccessoryE033_0B66FD496ABFA1D56808259F799D7747LLVSgtGGAA14_PaddingLayoutVG_AMyAF0l11PrimaryTextE0A2_LLVA8_GtGAMyAOyAEyA11__A0_A4_tGGA8_GG_AMyAF0l22SecondaryTextAndActionE0A2_LLVA8_GtGGAMyAOyAEyAKyAMyAMyAMyAMyAMyAKyAA03AnyE0VAQGSgAVGAA18_AspectRatioLayoutVGAA12_FrameLayoutVGA8_GAYGAMyAMyA27_A8_GAYGGSg_AMyACyAEyAOyAEyA11__A0_AMyAMyA4_A8_GA8_GtGG_A19_tGGA8_GtGGA8_GGtGGAA0E0HPyHC.33
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGSg_AGyAGyAGy016HealthExperienceB0027AnimatedSnidgetCurrentValueH0VAA022_EnvironmentKeyWritingK0VyAA0H9AlignmentOGGARySiSgGGAKGAMtGGAA0E0HPyHC.32
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGANyAA0H9AlignmentOGGAA023AccessibilityAttachmentO0VGSg_AGyAGyAA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQOyAA0W0VyAIG_AA017BorderedProminentwU0VQo_ANyAA0W11BorderShapeVGGAYGSgtGGAAA0_HPyHC.72
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGyAGyAA4TextVAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGANyAA4FontVSgGGANyAA5ColorVSgGGAA023AccessibilityAttachmentO0VGSg_AGyAA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQOyAGyAGyAA0X0VyAGyAGyAGyAlVGAQGA2_GGA_GANyAA07ControlJ0OGG_AA08BorderedxV0VQo_ANyAA0X11BorderShapeVGGSgtGGAAA5_HPyHC.151
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA7ForEachVySaySS3key_SS5valuetGSS016HealthExperienceB030InternalSettingsTitleValueItemVGAA9EmptyViewVGAA0Q0HPAeaRHPyHC_AnaRHPAmaRHPyHC_HCApaRHPyHCHC.53
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVy016HealthExperienceB008OptionalD5FieldV_AjA0dJ0VyAEGAA6ToggleVyAEGtGAA05EmptyF0VGAA0F0HPAeaUHPyHC_AqaUHPyHCAsaUHPyHCHC.58
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAA0D5FieldVyAEG_AJ016HealthExperienceB008OptionaldG0VAMtGAA05EmptyF0VGAA0F0HPAeaRHPyHC_AnaRHPyHCApaRHPyHCHC.34
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA0D5FieldVyAEG_SSQo__APtGAA05EmptyF0VGAaHHPAeaHHPyHC_AqaHHPyHCAsaHHPyHCHC.7
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAE_AA0D5FieldVyAEGAeJtGAA05EmptyF0VGAA0F0HPAeaOHPyHC_AkaOHPyHCAmaOHPyHCHC.55
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAE_AA0D5FieldVyAEGtGAA05EmptyF0VGAA0F0HPAeaOHPyHC_AkaOHPyHCAmaOHPyHCHC.115
+- _get_witness_table 7SwiftUI9TupleViewVy016HealthExperienceB030InternalSettingsTitleValueItemV_A2FSgAGtGAA0D0HPyHC.67
+- _get_witness_table 7SwiftUI9TupleViewVyAA7SectionVyAA4TextV016HealthExperienceB033InternalSettingsFeatureAttributesVAA05EmptyD0VG_AMSgtGAA0D0HPyHC.54
+- _get_witness_table 7SwiftUI9TupleViewVyAA7SectionVyAA4TextVSg016HealthExperienceB030InternalSettingsTitleValueItemVAA05EmptyD0VG_AEyAgCyAK_AKSgA3KtGAGGAI0iJ23PairedFeatureAttributesVSgAI0ijpJ0VSgACyAEyAgA14NavigationLinkVyAgI0ijP21RequirementsByContextVGAMGSg_AI0ij18RegionAvailabilityE0VSgAA0D0PAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQOyAEyAgCyAA6ButtonVyAGG_A20_tGAGG_AI12ErrorMessageVQo_tGSgtGAAA6_HPyHC.33
+- _get_witness_table SHRzlqd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAA01_c9Modifier_K0Vy016HealthExperienceB0013KeyboardFocuseJ0VyxGG_AA0jK7BuilderV10buildBlockyQrxAaIRzlFZQOy_AA0J9ItemGroupVyAA05TupleC0VyAA08ModifiedK0VyAA6ButtonVyAA5ImageVGAA024_EnvironmentKeyTransformL0VySbGG_A6_AA6SpacerVA_yAL0o4DoneX5LabelVGtGGQo_Qo__xSgQo_HO.22
+- _get_witness_table SHRzlqd__7SwiftUI14ToolbarContentHD2_AA0cD7BuilderV10buildBlockyQrxAaBRzlFZQOy_AA0C9ItemGroupVyAA9TupleViewVyAA6SpacerV_AA6ButtonVy016HealthExperienceB0012KeyboardDoneM5LabelVGtGGQo_HO.12
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7SectionVyAA05EmptyC0VAA05TupleC0VyAA15ModifiedContentVyAA6ButtonVyAA07LabeledL0VyAA4TextVAPyAA5ImageVAA24_ForegroundStyleModifierVyAA09TintShapeR0VGGSgGGAA023AccessibilityAttachmentS0VG_AA6VStackVyANyAPyARyATyAPyAA5GroupVyAA012_ConditionalL0VyA2VGGAA022_EnvironmentKeyWritingS0VyAA5ColorVSgGGA3_GGA7_G_AA6HStackVyANyAPyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE12labelsHiddenQryFQOyAcAE06pickerR0yQrqd__AA06PickerR0Rd__lFQOyAA6PickerVyAV10Foundation4DateVAA7ForEachVySayA39_GA39_AVGG_AA011WheelPickerR0VQo__Qo__A39_Qo_A7_G_A50_tGGSgtGGtGALGG_SSQo_HO.26
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAcAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0V016HealthExperienceB0016InternalSettingsE9ValueItemVAPG_ANyAA4TextVAA7ForEachVySayAQ28FeatureRequirementEvaluationVGSo021HKFeatureAvailabilityW10IdentifieraAA14NavigationLinkVyAsQ0opvwX6DetailVGGAVSgGtGG_AA012InsetGroupedhG0VQo__SSQo_HO.66
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA7SectionVyAA4TextVAA05TupleC0Vy016HealthExperienceB008OptionalI5FieldV_AA0iN0VyAJGAroRtGAA05EmptyC0VG_SSQo__SSQo__SSSgQo__SSQo__AYQo_HO.78
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAA7ForEachVySay016HealthExperienceB033InternalSettingsFeatureStateModelCGSSAA14NavigationLinkVyAA4TextVAR0opqrC0VGGAYSgG_AMyAoWyAyR0opqrF0VGAOGtGG_AA012InsetGroupedfE0VQo_HO.7
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAKy016HealthExperienceB030InternalSettingsTitleValueItemV_ARtGAA4TextVG_AMyAucAE12labelsHiddenQryFQOyAcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQOyAA0V0VyAuP28FeatureRequirementEvaluationV6MethodOAA7ForEachVySayA3_GA3_AUGG_AA09SegmentedvE0VQo__Qo_AUGtGG_AA012InsetGroupedfE0VQo_HO.80
+- _get_witness_table qd__7SwiftUI14ToolbarContentHD2_AA0cD7BuilderV10buildBlockyQrxAaBRzlFZQOy_AA0C9ItemGroupVyAA9TupleViewVyAA6SpacerV_AA6ButtonVy016HealthExperienceB0012KeyboardDoneM5LabelVGtGGQo_HO.11
+- _get_witness_table qd__7SwiftUI14ToolbarContentHD2_AA0cD7BuilderV10buildBlockyQrxAaBRzlFZQOy_AA0C9ItemGroupVyAA9TupleViewVyAA6SpacerV_AA6ButtonVy016HealthExperienceB0012KeyboardDoneM5LabelVGtGGQo_HOTm
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAcAE9listStyleyQrqd__AA04ListJ0Rd__lFQOyAA0K0Vys5NeverOAA7SectionVyAA4TextVAA7ForEachVySaySo28HKFeatureAvailabilityContexta_Say016HealthExperienceB028FeatureRequirementEvaluationVGtGAtA14NavigationLinkVyApU016InternalSettingsvW11EvaluationsVGGAPGG_AA012InsetGroupedkJ0VQo__Qo_HO.52
+- _keypath_get.15Tm
+- _keypath_get.17Tm
+- _objc_msgSend$_manualScrollEdgeAppearanceProgress
+- _objc_msgSend$_setContentUnavailableConfiguration:
+- _objc_msgSend$_setLargeTitleAccessoryView:alignToBaseline:
+- _objc_msgSend$_setManualScrollEdgeAppearanceProgress:
+- _objc_msgSend$_widthDesignationFromTraitCollection:
+- _objc_msgSend$customView
+- _objc_msgSend$deleteMedicalIDDataWithCompletion:
+- _objc_msgSend$hk_currentDeviceHas4InchScreen
+- _objc_msgSend$hk_currentDeviceHas4Point7InchScreen
+- _objc_msgSend$interactivePopGestureRecognizer
+- _objc_msgSend$isFeatureCapabilitySupportedOnActivePairedDeviceWithError:
+- _objc_msgSend$isRealityDevice
+- _objc_msgSend$items
+- _objc_msgSend$leftBarButtonItems
+- _objc_msgSend$mainScreen
+- _objc_msgSend$orderedRowIdentifiersBySectionIdentifierWithNameRowsHidden:pregnancySectionHidden:cardioFitnessMedicationsSectionHidden:
+- _objc_msgSend$orderedSectionIdentifiersWithPregnancySectionHidden:cardioFitnessMedicationsSectionHidden:
+- _objc_msgSend$phoneLandscapeSupport
+- _objc_msgSend$rightBarButtonItems
+- _objc_msgSend$searchConfiguration
+- _objc_msgSend$selectRow:inColumn:animated:
+- _objc_msgSend$setAuthorizationStatuses:authorizationModes:forBundleIdentifier:options:completion:
+- _objc_msgSend$setEffect:
+- _objc_msgSend$setSeparatorThickness:
+- _objc_msgSend$titleForState:
+- _objc_msgSend$userInterfaceIdiom
+- _objc_msgSend$valueForNSIntegerTrait:
+- _objectdestroy.104Tm
+- _objectdestroy.119Tm
+- _objectdestroy.11Tm
+- _objectdestroy.120Tm
+- _objectdestroy.12Tm
+- _objectdestroy.14Tm
+- _objectdestroy.15Tm
+- _objectdestroy.16Tm
+- _objectdestroy.17Tm
+- _objectdestroy.18Tm
+- _objectdestroy.19Tm
+- _objectdestroy.20Tm
+- _objectdestroy.21Tm
+- _objectdestroy.22Tm
+- _objectdestroy.28Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.31Tm
+- _objectdestroy.32Tm
+- _objectdestroy.36Tm
+- _objectdestroy.38Tm
+- _objectdestroy.3Tm
+- _objectdestroy.44Tm
+- _objectdestroy.49Tm
+- _objectdestroy.4Tm
+- _objectdestroy.50Tm
+- _objectdestroy.5Tm
+- _objectdestroy.65Tm
+- _objectdestroy.67Tm
+- _objectdestroy.68Tm
+- _objectdestroy.69Tm
+- _objectdestroy.6Tm
+- _objectdestroy.71Tm
+- _objectdestroy.8Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+- _symbolic $s18HealthExperienceUI18ViewFactorySupportP
+- _symbolic $s18HealthExperienceUI35VibrantNavigationBarItemsPresentingP
+- _symbolic S2SSo7UIImageCSgIegggo_
+- _symbolic Say_____G 18HealthExperienceUI23PDFTableOfContentsEntryV
+- _symbolic Say_____G 18HealthPlatformCore18ModelTrainingEventV
+- _symbolic Sb14useAccentColor_Sd7opacityt
+- _symbolic ShySiG
+- _symbolic So16UIViewControllerC______pIgrzo_ s5ErrorP
+- _symbolic So17HKAppImageManagerC
+- _symbolic So26UIImageSymbolConfigurationC
+- _symbolic So33UIContentUnavailableConfigurationCSg
+- _symbolic _____ 18HealthExperienceUI18ViewFactoryFailureO
+- _symbolic _____ 18HealthExperienceUI19MeContactAvatarViewC
+- _symbolic _____ 18HealthExperienceUI19MeContactAvatarViewC4SizeO
+- _symbolic _____ 18HealthExperienceUI20BrowseFeedDataSourceC
+- _symbolic _____ 18HealthExperienceUI20PDFRenderableBuilderV
+- _symbolic _____ 18HealthExperienceUI21PDFMultiConfigurationV29PageFormattedDocumentDelegate33_48B35AACC125D25596BCE9E0A7EE30EBLLC
+- _symbolic _____ 18HealthExperienceUI23PDFTableOfContentsEntryV
+- _symbolic _____ 18HealthExperienceUI25CompoundDataSourceBuilderV
+- _symbolic _____ 18HealthExperienceUI25PDFSectionProviderBuilderV
+- _symbolic _____ 18HealthExperienceUI26BrowseCategoriesDataSourceC
+- _symbolic _____ 18HealthExperienceUI26PDFAttributedStringBuilderV
+- _symbolic _____ 18HealthExperienceUI27PDFTableRowProvidingBuilderV
+- _symbolic _____ 18HealthExperienceUI28PDFRenderableProviderBuilderV
+- _symbolic _____ 18HealthExperienceUI43HKTDataTypeDetailDebugActionProviderFactoryV
+- _symbolic _____ 18HealthExperienceUI47JustObservingFetchedResultsControllerDataSourceC
+- _symbolic _____Sg 16HealthExperience21CloudSyncRestoreStateO
+- _symbolic _____Sg 18HealthExperienceUI19MeContactAvatarViewC
+- _symbolic _____SgXw 18HealthExperienceUI19MeContactAvatarViewC
+- _symbolic _____SgXwz_Xx 18HealthExperienceUI19MeContactAvatarViewC
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____y_____y_____y_____y_____y_____y_____yADy__________G_____G______y______Qo_SgQPGG_Qo__Qo__SNy_____GQo__SaySdGQo______G_____G_____y_____GGAZy_____GG_____ySay_____GGGAVG_____y_____GGAVG 7SwiftUI15ModifiedContentV AA4ViewP6ChartsE11chartYScale6domain4typeQrqd___AF9ScaleTypeVSgtAF0K6DomainRd__lFQO AeFE0G6XScaleAhIQrqd___ALtAfMRd__lFQO AeFE0G5YAxisyQrAA10VisibilityOFQO AeFE0G5XAxisyQrAQFQO AF5ChartV AF12BuilderTupleV AF0S11ConditionalV 016HealthExperienceB007SnidgetarE0V03BarR5MarksV A_04LinerZ0V A_012DistributionrZ0V AF0rD0PAFE23accessibilityIdentifieryQrSSFQO A_11AverageLineV 10Foundation4DateV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV AA15LayoutDirectionO AA0D10TransitionV AY0X9AnimationV AY0aR5PointV AA11_ClipEffectV AA9RectangleV
+- _symbolic _____yAAyAAyAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG______tGG_____G_____G_____yAJGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA24_ForegroundStyleModifierV AA5ColorV AA4TextV AA05_FlexlK0V AA08_PaddingK0V AA011_BackgroundnO0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAy__________G_____G 18HealthExperienceUI26PrimarySecondaryDataSourceC AA018DownloadingPinningfG0C AA013PinnedContentfG0C AA012MutableArrayfG10WithLayoutC
+- _symbolic _____yAAy_____y_____y________________yxq_GtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 016HealthExperienceB0020DisclosureCellHeaderG0V AA6SpacerV AH07SnidgetdG0V AA20_TransactionModifierV AA16_FlexFrameLayoutV
+- _symbolic _____yAAy_____y_____y_____y_____yACyAAy__________G______ADyAEyACy___________tGGAAyAkGGGtGGAAyAByACyAEyACyAF_AiNtGG_AJtGG_____yAAy__________GGGG______SgtGGAGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA6HStackV 016HealthExperienceB005TitleG033_3ACC0AFF71DF4383B3A19A7A278190D4LLV AA14_PaddingLayoutV AA6SpacerV AL06DetailG0ANLLV AL09AccessoryG0ANLLV AA19_BackgroundModifierV AA5ColorV AA017_SafeAreaIgnoringV0V AA7DividerV
+- _symbolic _____y_____G 18HealthExperienceUI47JustObservingFetchedResultsControllerDataSourceC 0A8Platform22SharableModelReferenceC
+- _symbolic _____y_____SgG 7SwiftUI5StateV 8Dispatch0D8WorkItemC
+- _symbolic _____y_____SgG 7SwiftUI5StateV So6CGSizeV
+- _symbolic _____y______A2BSgACtG 7SwiftUI9TupleViewV 016HealthExperienceB030InternalSettingsTitleValueItemV
+- _symbolic _____y__________yAB______yABGAbEtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA0D5FieldV AA05EmptyF0V
+- _symbolic _____y__________yAB______yABGtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA0D5FieldV AA05EmptyF0V
+- _symbolic _____y__________y______AD_____yABG_____yABGtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV 016HealthExperienceB008OptionalD5FieldV AA0dJ0V AA6ToggleV AA05EmptyF0V
+- _symbolic _____y__________y_____yABG_AE_____AFtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA0D5FieldV 016HealthExperienceB008OptionaldG0V AA05EmptyF0V
+- _symbolic _____y__________y_____y__________AFG___________yAhDyA2fEGGSgtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA05EmptyF0V AA4TextV 016HealthExperienceB0033InternalSettingsAllowedCountrySetG033_F515C509E4D559256CE2BE1FF865D1B6LLV AA19_ConditionalContentV
+- _symbolic _____y__________y_____y_____yABG_SSQo__AFtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA0D5FieldV AA05EmptyF0V
+- _symbolic _____y______y_____y___________y_____GtGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C9ItemGroupV AA9TupleViewV AA6SpacerV AA6ButtonV 016HealthExperienceB0012KeyboardDoneM5LabelV
+- _symbolic _____y_____xG 7SwiftUI19_ConditionalContentV 016HealthExperienceB037StandardSnidgetCurrentValueNoDataViewV
+- _symbolic _____y_____yAAy_____yAByAByAByAByAByABy__________G_____y_____SgGGAGy_____GG_____G_____G_____GSg________________AW_____tGGAQGG 7SwiftUI6VStackV AA15ModifiedContentV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA06_FrameK0V AA08_PaddingK0V AA023AccessibilityAttachmentO0V 016HealthExperienceB00e11PrimaryTextG033_AEB6C38C524E91374EBAF3BDA93D9A17LLV AA6SpacerV AX0ex9SubheaderyG0AZLLV AX0e9Secondaryy9AndActionG0AZLLV
+- _symbolic _____y_____yABy_____y_____y_____y_____yADyAAyADyAFyADy______AEy__________GtGG_AEyAEyAEy__________y_____GGANySiSgGGAIGtGGSg_AXtGG_____y_____GG_AEyAAyAYGA1_GtGGA6_GAByAEyAAyADyAJSg_AUA8_tGGA1_GA11_GGG 7SwiftUI6VStackV AA19_ConditionalContentV AA12ViewThatFitsV AA05TupleF0V AA08ModifiedE0V AA6HStackV AA5ImageV AA4TextV AA31AccessibilityAttachmentModifierV 016HealthExperienceB0027AnimatedSnidgetCurrentValueM0V AA022_EnvironmentKeyWritingP0V AA0M9AlignmentO AA016_BackgroundStyleP0V AA5ColorV
+- _symbolic _____y_____ySay_____GSS_____y_____y______Qo_______Qo_SgG______y_____y_____y___________Qo__Qo__AGQo_SgQPG 6Charts12BuilderTupleV 7SwiftUI7ForEachV 016HealthExperienceE00D10ChartPointV AA0J7ContentPAAE15foregroundStyleyQrqd__AD05ShapeN0Rd__lFQO AkAE04lineN0yQrAD06StrokeN0VFQO AA8RuleMarkV AD5ColorV AkAEALyQrqd__AdMRd__lFQO AkAE10symbolSizeyQrSo6CGSizeVFQO AkAE0U0yQrqd__AA0j6SymbolO0Rd__lFQO AA0kS0V AD6CircleV
+- _symbolic _____y_____ySay_____GSS_____y_____y_____y___________y______Qo_Qo__Qo_______Qo_G______y_____y_____y______AGQo__Qo__AJQo_SgSgQPG 6Charts12BuilderTupleV 7SwiftUI7ForEachV 016HealthExperienceE00D10ChartPointV AA0J7ContentPAAE15foregroundStyleyQrqd__AD05ShapeN0Rd__lFQO AkAE10symbolSizeyQrSo6CGSizeVFQO AkAE0P0yQrqd__AA0j6SymbolO0Rd__lFQO AA8LineMarkV AaRPAaD010InsettableO0RzrlE12strokeBorder9lineWidthQr12CoreGraphics7CGFloatV_tFQO AD6CircleV AD5ColorV AkAEALyQrqd__AdMRd__lFQO AkAEANyQrAPFQO AkAEAQyQrqd__AaRRd__lFQO AA0kU0V
+- _symbolic _____y_____ySo32HKDemographicsInformationWrapperC_____GG 7Combine8DeferredV AA6FutureC s5NeverO
+- _symbolic _____y_____ySo32HKDemographicsInformationWrapperC_____GGIegr_ 7Combine8DeferredV AA6FutureC s5NeverO
+- _symbolic _____y_____y_____Sg__________G_AByAcAyAE_AESgA3EtGACG_____Sg_____SgAAyAByAC_____yAC_____GAFGSg______Sg_____yAByAcAy_____yACG_AWtGACG______Qo_tGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV 016HealthExperienceB030InternalSettingsTitleValueItemV AA05EmptyD0V AH0iJ23PairedFeatureAttributesV AH0ijpJ0V AA14NavigationLinkV AH0ijP21RequirementsByContextV AH0ij18RegionAvailabilityE0V AA0D0PAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQO AA6ButtonV AH12ErrorMessageV
+- _symbolic _____y_____y_____Sg______yAAyAByAEyABy_____y_____yAByAFyAFy__________y_____GG_____G___________SgtGG_____G_AFy_____ATGtGAFyAGyAByAV_AoQtGGATGG_AFy_____ATGtGGAFyAGyAByAEyAFyAFyAFyAFyAFyAEy_____AHGSgAKG_____G_____GATGAMGAFyAFyA8_ATGAMGGSg_AFyAAyAByAGyAByAV_AoFyAFyAqTGATGtGG_A1_tGGATGtGGATGGtGG 7SwiftUI6VStackV AA9TupleViewV 016HealthExperienceB0021DismissibleCellHeaderE0V AA19_ConditionalContentV AA08ModifiedL0V AA6HStackV AA5ImageV AA24_ForegroundStyleModifierV AA09TintShapeQ0V AA023AccessibilityAttachmentR0V AA6SpacerV AF09AccessoryE033_0B66FD496ABFA1D56808259F799D7747LLV AA14_PaddingLayoutV AF0l11PrimaryTextE0AZLLV AF0l22SecondaryTextAndActionE0AZLLV AA03AnyE0V AA18_AspectRatioLayoutV AA12_FrameLayoutV
+- _symbolic _____y_____y_______________G_AFSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV 016HealthExperienceB033InternalSettingsFeatureAttributesV AA05EmptyD0V
+- _symbolic _____y_____y________________yAEyAEyAC_____ySiSgGGAFySbGGAFy_____GGtGG 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
+- _symbolic _____y_____y__________y__________y_____y_____y_____y_____AFy__________y_____GGSgGG_____G______yAEyAFyAGyAHyAFy_____y_____yA2IGG_____y_____SgGGAOGGARG______yAEyAFy_____y_____y_____y_____yAI__________ySayA7_GA7_AIGG______Qo__Qo__A7_Qo_ARG_A16_tGGSgtGGtGADGG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA4ListV s5NeverO AA7SectionV AA05EmptyC0V AA05TupleC0V AA15ModifiedContentV AA6ButtonV AA07LabeledL0V AA4TextV AA5ImageV AA24_ForegroundStyleModifierV AA09TintShapeR0V AA023AccessibilityAttachmentS0V AA6VStackV AA5GroupV AA012_ConditionalL0V AA022_EnvironmentKeyWritingS0V AA5ColorV AA6HStackV AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE12labelsHiddenQryFQO AcAE06pickerR0yQrqd__AA06PickerR0Rd__lFQO AA6PickerV 10Foundation4DateV AA7ForEachV AA011WheelPickerR0V
+- _symbolic _____y_____y__________y_____y_____ACy______AFtG_____G_ADyAH_____y_____y_____yAH__________ySayAKGAkHGG______Qo__Qo_AHGtGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V 016HealthExperienceB030InternalSettingsTitleValueItemV AA4TextV AcAE12labelsHiddenQryFQO AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0V0V AP28FeatureRequirementEvaluationV6MethodO AA7ForEachV AA09SegmentedvE0V AA012InsetGroupedfE0V
+- _symbolic _____y_____y__________y_____y__________ySay_____GSS_____y__________GGAJSgG_ADyAeIyAJ_____GAEGtGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V AA7ForEachV 016HealthExperienceB033InternalSettingsFeatureStateModelC AA14NavigationLinkV AA4TextV AR0opqrC0V AR0opqrF0V AA012InsetGroupedfE0V
+- _symbolic _____y_____y_____yAAy__________GSg______yACyAAy_____SgAEG_AAyAAyAAy__________y_____GGAMySiSgGGAEGtGGtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA31AccessibilityAttachmentModifierV AA6HStackV 016HealthExperienceB0025AudioExposureCurrentValueG0V013PaletteSymbolG0V AN015AnimatedSnidgetqrH0V AA022_EnvironmentKeyWritingK0V AA0H9AlignmentO AA016_BackgroundStyleK0V AA5ColorV
+- _symbolic _____y_____y_____yAAy_____yACyAAyAAy__________y_____GG_____y_____GG_AAyAAyAAy__________G_____GAHGtGG_____G______yACyAAyAAyAAyAAy__________y_____GGAZySiSgGG_____y_____GG_____G_AYSgtGG_____tGGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6ZStackV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA11_ClipEffectV AA07RoundedI0V AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingT0V AA06_FrameT0V AA6VStackV AA4TextV AA022_EnvironmentKeyWritingL0V AA0X9AlignmentO AA013_TraitWritingL0V AA0t13PriorityTraitZ0V AA010_FixedSizeT0V AA6SpacerV
+- _symbolic _____y_____y_____yABy___________y_____y_____yAFyAFyAFy__________y_____GG_____y_____GG_____GAHy_____SgGG_Qo_AFyAFyAFyAG_____G_____G_____y_____y_____AM_____GSgGGGSgAdFy__________GtGG_ADtGG 7SwiftUI6HStackV AA9TupleViewV AA6VStackV AA6SpacerV AA19_ConditionalContentV AA0E0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA08ModifiedI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AW5ScaleO AA016_ForegroundStyleR0V AA5ColorV AA14_OpacityEffectV AP AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA08_OverlayR0V AA011StrokeShapeE0V AA16RoundedRectangleV AA05EmptyE0V AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____yACyACyACyACy__________G_____y_____GGAGy_____SgGGAGy_____SgGG_____GSg_ACy_____yACyACy_____yACyACyACyAfMGAIGASGGAQGAGy_____GG______Qo_AGy_____GGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA4FontV AA5ColorV AA023AccessibilityAttachmentO0V AA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AA0X0V AA07ControlJ0O AA08BorderedxV0V AA0X11BorderShapeV
+- _symbolic _____y_____y_____yACyACyACy__________G_____y_____SgGGAGy_____GG_____GSg_ACyACy_____y_____yADG______Qo_AGy_____GGAOGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0H9AlignmentO AA023AccessibilityAttachmentO0V AA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQO AA0W0V AA017BorderedProminentwU0V AA0W11BorderShapeV
+- _symbolic _____y_____y_____yACy__________G_____G______yAByACy__________ySiSgGG_ANSgACyAN_____GSgtGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeK0V
+- _symbolic _____y_____y_____y_____AD_____18HealthExperienceUIyHCg0_GGGXDXMT 18HealthExperienceUI20DataSourceWithLayoutC AA06MappeddE0C AA024FetchedResultsControllerdE0C 0A8Platform8FeedItemC 0aB008SnapshotdeN0P
+- _symbolic _____y_____y_____y__________GSg_ACyACyACy__________y_____GGAIySiSgGGAEGAGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV 016HealthExperienceB0027AnimatedSnidgetCurrentValueH0V AA022_EnvironmentKeyWritingK0V AA0H9AlignmentO
+- _symbolic _____y_____y_____y___________AByACy___________tGGtGG_____yACyAByACyAD_AE_____yAG_____GtGG_AFtGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV 016HealthExperienceB005TitleG033_33AEE1C4335BFDE3A2CFEF72E7F0D0A0LLV AA6SpacerV AH06DetailG0AJLLV AH09AccessoryG0AJLLV AA6VStackV AA08ModifiedD0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y__________y_____y__________AEG_ADy__________ySay_____G__________yAF_____GGAHSgGtGG______Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA05TupleC0V AA7SectionV AA05EmptyC0V 016HealthExperienceB0016InternalSettingsE9ValueItemV AA4TextV AA7ForEachV AQ28FeatureRequirementEvaluationV So021HKFeatureAvailabilityW10Identifiera AA14NavigationLinkV AQ0opvwX6DetailV AA012InsetGroupedhG0V
+- _symbolic _____y_____y_____y_____y_____y_____y__________y___________yABGAfdFtG_____G_SSQo__SSQo__SSSgQo__SSQo__ALQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7SectionV AA4TextV AA05TupleC0V 016HealthExperienceB008OptionalI5FieldV AA0iN0V AA05EmptyC0V
+- _symbolic _____y_____y_____y_____yxGG______y______y_____y_____y_____y_____G_____ySbGG_AM_____AHy_____GtGGQo_Qo__xSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA01_c9Modifier_K0V 016HealthExperienceB0013KeyboardFocuseJ0V AA0jK7BuilderV10buildBlockyQrxAaIRzlFZQO AA0J9ItemGroupV AA05TupleC0V AA08ModifiedK0V AA6ButtonV AA5ImageV AA024_EnvironmentKeyTransformL0V AA6SpacerV AL0o4DoneX5LabelV
+- _symbolic _____y_____y_____yx_____y_____GGSg______y_____yxGGAHtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA21_TraitWritingModifierV AA010TransitionH3KeyV AA01_ej1_G0V 016HealthExperienceB018ConditionalSubTextV
+- _symbolic _____y_____yxSg___________y_____yq_Sg_____GSSGtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA6IDViewV AA15ModifiedContentV AA16_FlexFrameLayoutV
+- _symbolic _____yytG 2os21OSAllocatedUnfairLockV
+- _type_layout_string 18HealthExperienceUI16CategoryTileViewV
+- _type_layout_string 18HealthExperienceUI17PDFYearPickerViewV
+- _type_layout_string 18HealthExperienceUI18ViewFactoryFailureO
+- _type_layout_string 18HealthExperienceUI23PDFTableOfContentsEntryV
+- _type_layout_string 18HealthExperienceUI36InternalSettingsFeatureStateSectionsV
+- _type_layout_string 18HealthExperienceUI42ArticlesWithHeaderFooterAndLimitDataSourceC0F0O
+- _type_layout_string So18CALayerCornerCurvea
+- _type_layout_string So23NSDirectionalEdgeInsetsV
+- _type_layout_string So6CGSizeV
+CStrings:
++ " domainId "
++ " items. dataSource.sectionCount="
++ "%d.%d.%d"
++ "%s %s"
++ "%s %s Error: %s"
++ "%s %s Error: Invalid delegate of scene hosting controller %s"
++ "%s %s Error: No info settings found: %@"
++ "%s %s Key %s Invalid value: %s"
++ "%s %s Processed cancel event"
++ "%s %s Processed completion event"
++ "%s %s Processing cancel event"
++ "%s %s Processing completion event"
++ "%s %s Unable to cast value %s to %s"
++ "%s %s Unable to convert value %s to %s"
++ "%s %s Unable to retrieve decimal precision rule; using default"
++ "%s %s [Contact Photo] file is not a valid image: %s"
++ "%s %s [Data Entry] Could not create view controller: %s"
++ "%s Created sample: %@"
++ "%s Failed to save sample: %s"
++ "%s Saved Samples: %s"
++ "%s Saved sample %s %@"
++ "%s Saving sample for %s"
++ ") has 0 items but collectionView has "
++ ". Is this correct?"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ ": child dataSource "
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Action in subtitle for syncing Health Data"
++ "Action in subtitle for syncing Health Data when recovery profile is present"
++ "Browse by Category"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Could Not Save Data"
++ "CyclingPowerZones"
++ "DataEntryCompositionValue\n- dates: "
++ "DataEntryDateValue_"
++ "DataEntryHandlerError.invalidConfirmationAlert"
++ "DataEntryHandlerError.invalidData"
++ "DataEntryHandlerError.invalidDataType"
++ "DataEntryHandlerError.invalidDateValue"
++ "DataEntryHandlerError.invalidNumberValue"
++ "DataEntryHandlerError.invalidUnitValue"
++ "DataEntryMetadataValue_"
++ "DataEntryNumberValue_"
++ "DateValueConfiguration_"
++ "EmptyStateDataSource_sharing"
++ "ErrorActionButton"
++ "HKCategoryTypeIdentifierBleedingAfterMenopause"
++ "HKCategoryTypeIdentifierMenopausalState"
++ "HealthExperienceUI.AllContentDataSource"
++ "HealthExperienceUI.AllContentViewController"
++ "HealthExperienceUI.CategoryChipsGroupDataSource"
++ "HealthExperienceUI.CategoryContentDataSource"
++ "HealthExperienceUI.CategoryContentViewController"
++ "HealthExperienceUI.Coordinator"
++ "HealthExperienceUI.DataLoggingSectionDataSource"
++ "HealthExperienceUI.InteractiveGenerationListener"
++ "HealthExperienceUI.SharingInBrowseCompactEmptyStateDataSource"
++ "HealthExperienceUI.SizeDesignationResponsiveDataSource"
++ "HealthExperienceUI.StandardDataEntryViewController"
++ "HealthExperienceUI/AllContentViewController.swift"
++ "HealthExperienceUI/CategoryChipCell.swift"
++ "HealthExperienceUI/CategoryContentViewController.swift"
++ "HealthExperienceUI/DismissibleBoldTitleHeaderView.swift"
++ "HealthExperienceUI/EdgeToEdgeBackgroundDecorationView.swift"
++ "HealthExperienceUI/ProfileSyncStatusCell.swift"
++ "HealthExperienceUI/StandardDataEntryViewController.swift"
++ "HeartRateZones"
++ "In progress sync action accompanied by progress bar"
++ "LazyDataSourceChangeObservers"
++ "Localizable-DataEntry"
++ "No Feed Items Found"
++ "Optional<DataEntryViewDelegate>"
++ "Optional<SnapshotDataSource>"
++ "ProductVersion"
++ "ProfileSyncStatusCell"
++ "ProfileSyncStatusDataSourceItem_"
++ "Quick log title text"
++ "Sharing navigation cell title"
++ "SidebarCategoryFeedItem_"
++ "SpecifierHeaderViewStatusActionKey"
++ "Subtitle to highlight sync is unavailable due to network"
++ "Sync Paused - No Internet Connection"
++ "Sync progress complete text under progress bar"
++ "This is the header title of all content room."
++ "Title for the Spotlight section in Category Content room."
++ "Title for the category content section. The first variable is the type display name of the Domain type."
++ "WORKOUT_ZONES_CYCLING_POWER"
++ "WORKOUT_ZONES_HEART_RATE"
++ "WORKOUT_ZONES_SECTION_HEADER"
++ "You can enter up to "
++ "[%s] Received perimenopause model update"
++ "[%s] Updating the constraints based on traitPresentation changes"
++ "[%s]: Executing CloudSyncFlow for state: %s"
++ "[%s]: Failed to fetch sync progress: %s"
++ "[%s]: Failed to resolve health store for progress fetch"
++ "[%s]: Failed to resolve health store for resolving recovery profile state"
++ "[%s]: Failed to resolve health store from view controller"
++ "[%s]: No cloud sync response available for action"
++ "[%s]: No profile information available for sync action"
++ "[%s]: Profile information is not HealthKitProfileInformation"
++ "[%s]: Sync action only supported for primary profile"
++ "[%s]: Triggering sync for primary profile"
++ "[%s]: pluginProvider Error: %{public}s"
++ "[Internal] Error: "
++ "]: Item count mismatch in section "
++ "addDataViewController(for:)"
++ "allContentRoom"
++ "all_content_header_title"
++ "all_content_room"
++ "category_content_spotlight_section_title"
++ "com.apple.health.HighlightAlertsPlugin"
++ "com.apple.health.HighlightsPlugin"
++ "com.apple.health.MenstrualCycles.Articles.Menopause"
++ "com.apple.health.MenstrualCycles.Articles.Perimenopause"
++ "dateAndTime"
++ "decimalPad"
++ "didCancelDataEntry()"
++ "didSaveDataEntry(result:)"
++ "end"
++ "exclamationmark.bubble.fill"
++ "fetchDemographics()"
++ "generatePDFDatum(for:)"
++ "getValidationResult()"
++ "health_recover_now"
++ "health_sync_no_network"
++ "health_sync_percent_complete"
++ "health_sync_progress"
++ "https://ask.apple.com/survey/f1a1b06c-f4a7-4f8a-802f-fe32e2cc4be7"
++ "init(arrangedSections:collapseEmptySections:decorationViewKindsProvider:layoutSectionProvider:)"
++ "init(coder:rootView:)"
++ "init(makeChildren:)"
++ "init(managedObjectContext:sourceProfiles:predicate:fetchLimit:layoutEngine:)"
++ "init(rootView:)"
++ "kCFAllocatorNull"
++ "no_notifications_text"
++ "numberInputType(for:customUnit:)"
++ "numberPad"
++ "numberValue validationResult "
++ "performAction(forSceneController:)"
++ "r"
++ "retrievedValue(for:)"
++ "single"
++ "systemBackground"
++ "time"
++ "unwrapAnyValue(with:)"
++ "unwrapEnumValue(with:)"
++ "\xf0\xf0\xd1"
+- "#16@0:8"
+- "#24@0:8@\"NSString\"16"
+- "#24@0:8@16"
+- "#28@0:8@\"HKDisplayType\"16B24"
+- "#28@0:8@16B24"
+- "$__lazy_storage_$_accessoryImageView"
+- "$__lazy_storage_$_actionBarButtonItem"
+- "$__lazy_storage_$_activityIndicator"
+- "$__lazy_storage_$_activitySpinner"
+- "$__lazy_storage_$_activitySpinnerItem"
+- "$__lazy_storage_$_addDataButton"
+- "$__lazy_storage_$_allowedMetadataKeys"
+- "$__lazy_storage_$_axConstraints"
+- "$__lazy_storage_$_blurView"
+- "$__lazy_storage_$_body"
+- "$__lazy_storage_$_bottomAccessoryView"
+- "$__lazy_storage_$_bulletStack"
+- "$__lazy_storage_$_button"
+- "$__lazy_storage_$_buttonStack"
+- "$__lazy_storage_$_calendar"
+- "$__lazy_storage_$_cancelBarButtonItem"
+- "$__lazy_storage_$_categoryView"
+- "$__lazy_storage_$_cellAccessoryView"
+- "$__lazy_storage_$_centimeterFormatter"
+- "$__lazy_storage_$_closeButton"
+- "$__lazy_storage_$_cnCapabilitiesManager"
+- "$__lazy_storage_$_collectionView"
+- "$__lazy_storage_$_compactConstraints"
+- "$__lazy_storage_$_compactHorizontalSizeConstraints"
+- "$__lazy_storage_$_compactPicker"
+- "$__lazy_storage_$_contactIconImageView"
+- "$__lazy_storage_$_containerView"
+- "$__lazy_storage_$_contentView"
+- "$__lazy_storage_$_currentConstraints"
+- "$__lazy_storage_$_dataScannerViewController"
+- "$__lazy_storage_$_dataSource"
+- "$__lazy_storage_$_dataSources"
+- "$__lazy_storage_$_dateFormatter"
+- "$__lazy_storage_$_debugDescription"
+- "$__lazy_storage_$_defaultConstraints"
+- "$__lazy_storage_$_defaultDateOfBirth"
+- "$__lazy_storage_$_delegateProvidingPlugins"
+- "$__lazy_storage_$_descriptionLabel"
+- "$__lazy_storage_$_detailButton"
+- "$__lazy_storage_$_detailLabel"
+- "$__lazy_storage_$_detailTextLabel"
+- "$__lazy_storage_$_detailTextView"
+- "$__lazy_storage_$_detailsProvider"
+- "$__lazy_storage_$_didTapAction"
+- "$__lazy_storage_$_disclosureImageView"
+- "$__lazy_storage_$_disclosureIndicator"
+- "$__lazy_storage_$_disclosureIndicatorLeadingConstraint"
+- "$__lazy_storage_$_disclosureIndicatorWidthConstraint"
+- "$__lazy_storage_$_displayTypeController"
+- "$__lazy_storage_$_doneButtonItem"
+- "$__lazy_storage_$_drawingContext"
+- "$__lazy_storage_$_emptyDisclosureIndicatorLeadingConstraint"
+- "$__lazy_storage_$_emptyLastUpdatedTimestampLeadingAnchorConstraint"
+- "$__lazy_storage_$_emptyStateCellView"
+- "$__lazy_storage_$_enabledSwitch"
+- "$__lazy_storage_$_featureContentView"
+- "$__lazy_storage_$_featureStatusPlatformView"
+- "$__lazy_storage_$_firstRestoreState"
+- "$__lazy_storage_$_font"
+- "$__lazy_storage_$_gradientView"
+- "$__lazy_storage_$_gradientsProvider"
+- "$__lazy_storage_$_headerImageView"
+- "$__lazy_storage_$_headerTitle"
+- "$__lazy_storage_$_healthDetailsDataSource"
+- "$__lazy_storage_$_heightConstraint"
+- "$__lazy_storage_$_heroView"
+- "$__lazy_storage_$_hiddenSpinnerConstraints"
+- "$__lazy_storage_$_iconImageView"
+- "$__lazy_storage_$_iconView"
+- "$__lazy_storage_$_iconWithShadow"
+- "$__lazy_storage_$_imageAccessory"
+- "$__lazy_storage_$_imageForPinnedState"
+- "$__lazy_storage_$_imageForUnpinnedState"
+- "$__lazy_storage_$_imageView"
+- "$__lazy_storage_$_indicatorView"
+- "$__lazy_storage_$_isStewieSupported"
+- "$__lazy_storage_$_label"
+- "$__lazy_storage_$_lastUpdatedTimestamp"
+- "$__lazy_storage_$_lastUpdatedTimestampHeightConstraint"
+- "$__lazy_storage_$_lastUpdatedTimestampLeadingAnchorConstraint"
+- "$__lazy_storage_$_lastUpdatedTimestampWidthConstraint"
+- "$__lazy_storage_$_layout"
+- "$__lazy_storage_$_layoutConfiguration"
+- "$__lazy_storage_$_link"
+- "$__lazy_storage_$_listFormatter"
+- "$__lazy_storage_$_localeAverageWeight"
+- "$__lazy_storage_$_localeMaxWeight"
+- "$__lazy_storage_$_localeMinWeight"
+- "$__lazy_storage_$_localeUnit"
+- "$__lazy_storage_$_mainStore"
+- "$__lazy_storage_$_meContactView"
+- "$__lazy_storage_$_monthAndYearDateFormatter"
+- "$__lazy_storage_$_nameHeaderView"
+- "$__lazy_storage_$_nameLabel"
+- "$__lazy_storage_$_noDataLabel"
+- "$__lazy_storage_$_nonCompactConstraints"
+- "$__lazy_storage_$_pdfHeightConstraint"
+- "$__lazy_storage_$_pdfPaddingConstraints"
+- "$__lazy_storage_$_pdfView"
+- "$__lazy_storage_$_pendingMessageLabel"
+- "$__lazy_storage_$_personalizedFeedTrainer"
+- "$__lazy_storage_$_picker"
+- "$__lazy_storage_$_pickerHeightZeroConstraint"
+- "$__lazy_storage_$_pinImage"
+- "$__lazy_storage_$_previewSummariesLabel"
+- "$__lazy_storage_$_primaryButton"
+- "$__lazy_storage_$_primaryDescriptionStackView"
+- "$__lazy_storage_$_profileNameView"
+- "$__lazy_storage_$_proxy"
+- "$__lazy_storage_$_queue"
+- "$__lazy_storage_$_regularHorizontalSizeConstraints"
+- "$__lazy_storage_$_scrollView"
+- "$__lazy_storage_$_searchController"
+- "$__lazy_storage_$_secondaryDescriptionLabel"
+- "$__lazy_storage_$_separator"
+- "$__lazy_storage_$_separatorView"
+- "$__lazy_storage_$_spinner"
+- "$__lazy_storage_$_spinnerConstraints"
+- "$__lazy_storage_$_spinnerContainerView"
+- "$__lazy_storage_$_spinnerToLabelWidthConstraint"
+- "$__lazy_storage_$_spinnerView"
+- "$__lazy_storage_$_spinnerZeroWidthConstraint"
+- "$__lazy_storage_$_splashContainerView"
+- "$__lazy_storage_$_splashView"
+- "$__lazy_storage_$_stackView"
+- "$__lazy_storage_$_statusLabel"
+- "$__lazy_storage_$_stewieTryOutFootnote"
+- "$__lazy_storage_$_stewieTryOutModeBullet"
+- "$__lazy_storage_$_stewieTryOutModeView"
+- "$__lazy_storage_$_store"
+- "$__lazy_storage_$_switchView"
+- "$__lazy_storage_$_switchViewAccessory"
+- "$__lazy_storage_$_symbol"
+- "$__lazy_storage_$_tableView"
+- "$__lazy_storage_$_tableViewHeightLayoutConstraint"
+- "$__lazy_storage_$_tapRecognizer"
+- "$__lazy_storage_$_tapToRadarButton"
+- "$__lazy_storage_$_textLabel"
+- "$__lazy_storage_$_textView"
+- "$__lazy_storage_$_tileContentView"
+- "$__lazy_storage_$_tileView"
+- "$__lazy_storage_$_title"
+- "$__lazy_storage_$_titleLabel"
+- "$__lazy_storage_$_titleView"
+- "$__lazy_storage_$_uniqueIdentifier"
+- "$__lazy_storage_$_unpinImage"
+- "$__lazy_storage_$_usesImperialUnits"
+- "$__lazy_storage_$_valueField"
+- "$__lazy_storage_$_viewInvitationButton"
+- "$__lazy_storage_$_visibleSpinnerConstraints"
+- "$__lazy_storage_$_watchIconImage"
+- "$defaultActor"
+- "%s %s %s"
+- ".cxx_destruct"
+- "?"
+- "@\"<CharacteristicTypeDetailViewControllerDelegate>\""
+- "@\"<HKDataMetadataSectionProtocol>\"24@0:8@\"HKSample\"16"
+- "@\"<HKFeatureAvailabilityProviding>\"24@0:8@\"NSString\"16"
+- "@\"<HKFeatureStatusProviding>\"24@0:8@\"NSString\"16"
+- "@\"<HKHealthSettingsNavigationDonating>\""
+- "@\"<HKHealthSettingsNavigationDonating>\"16@0:8"
+- "@\"<MTLCommandBuffer>\"16@0:8"
+- "@\"<MTLCommandBuffer>\"24@0:8@\"MTLCommandBufferDescriptor\"16"
+- "@\"<MTLDevice>\"16@0:8"
+- "@\"<MTLFunctionHandle>\"32@0:8@\"<MTL4BinaryFunction>\"16Q24"
+- "@\"<MTLFunctionHandle>\"32@0:8@\"<MTLFunction>\"16Q24"
+- "@\"<MTLFunctionHandle>\"32@0:8@\"NSString\"16Q24"
+- "@\"<MTLHeap>\"16@0:8"
+- "@\"<MTLIntersectionFunctionTable>\"32@0:8@\"MTLIntersectionFunctionTableDescriptor\"16Q24"
+- "@\"<MTLRenderPipelineState>\"32@0:8@\"MTL4RenderPipelineBinaryFunctionsDescriptor\"16^@24"
+- "@\"<MTLRenderPipelineState>\"32@0:8@\"MTLRenderPipelineFunctionsDescriptor\"16^@24"
+- "@\"<MTLTensor>\"40@0:8@\"MTLTensorDescriptor\"16Q24^@32"
+- "@\"<MTLTexture>\"40@0:8@\"MTLTextureDescriptor\"16Q24Q32"
+- "@\"<MTLVisibleFunctionTable>\"32@0:8@\"MTLVisibleFunctionTableDescriptor\"16Q24"
+- "@\"<NSCollectionLayoutContainer>\"16@0:8"
+- "@\"<ProfileBuddyViewControllerDelegate>\""
+- "@\"<WDAddDataManualEntryItemDelegate>\""
+- "@\"<WDAddDataManualEntrySpinnerDataSource>\""
+- "@\"<WDManualDataEntryTableViewCellDelegate>\""
+- "@\"CNComposeRecipient\"32@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24"
+- "@\"CNComposeRecipient\"32@0:8@\"CNAutocompleteResultsTableViewController\"16@\"NSArray\"24"
+- "@\"HKAuthorizationStore\""
+- "@\"HKBiologicalSexObject\""
+- "@\"HKBiologicalSexObject\"24@0:8^@16"
+- "@\"HKBirthdateChangeManager\""
+- "@\"HKBloodTypeObject\""
+- "@\"HKCharacteristicType\""
+- "@\"HKDataMetadataDetailSection\"24@0:8@\"HKSample\"16"
+- "@\"HKDateCache\""
+- "@\"HKDisplayType\""
+- "@\"HKDisplayTypeController\""
+- "@\"HKDisplayTypeController\"16@0:8"
+- "@\"HKFeatureAvailabilityOnboardingEligibility\"32@0:8@\"NSString\"16^@24"
+- "@\"HKFeatureAvailabilityRequirementSet\"24@0:8^@16"
+- "@\"HKFeatureOnboardingRecord\"24@0:8^@16"
+- "@\"HKFitzpatrickSkinTypeObject\""
+- "@\"HKHealthStore\""
+- "@\"HKHealthStore\"16@0:8"
+- "@\"HKMCPregnancyModel\"16@0:8"
+- "@\"HKMCPregnancyStateQuery\""
+- "@\"HKManualEntryValidationController\""
+- "@\"HKPairedFeatureAttributes\"24@0:8^@16"
+- "@\"HKQuantityType\""
+- "@\"HKRegionAvailability\"24@0:8^@16"
+- "@\"HKSourceListDataSource\""
+- "@\"HKTitledContactBuddyHeaderView\""
+- "@\"HKUnitPreferenceController\""
+- "@\"HKUnitPreferenceController\"16@0:8"
+- "@\"HKWheelchairUseObject\""
+- "@\"HXUIInlineDatePickerTableViewCell\""
+- "@\"HXUIInlinePickerTableViewCell\""
+- "@\"HXUILabelWithBackgroundView\""
+- "@\"HXUIPickerLabelView\""
+- "@\"LPLinkMetadata\"24@0:8@\"UIActivityViewController\"16"
+- "@\"MTL4PipelineDescriptor\"16@0:8"
+- "@\"MTLRenderPipelineReflection\"16@0:8"
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"HKSample\"16"
+- "@\"NSArray\"24@0:8@\"UIActivityViewController\"16"
+- "@\"NSArray\"24@0:8@\"UICollectionView\"16"
+- "@\"NSArray\"24@0:8@\"UITableView\"16"
+- "@\"NSArray\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSArray\"40@0:8@\"UITextView\"16{_NSRange=QQ}24"
+- "@\"NSAttributedString\"40@0:8@\"UIPickerView\"16q24q32"
+- "@\"NSCalendar\""
+- "@\"NSCollectionLayoutSection\"24@?0q8@\"<NSCollectionLayoutEnvironment>\"16"
+- "@\"NSDate\""
+- "@\"NSDate\"24@0:8^@16"
+- "@\"NSDateComponents\""
+- "@\"NSDateFormatter\""
+- "@\"NSDictionary\""
+- "@\"NSDiffableDataSourceSnapshot\""
+- "@\"NSIndexPath\"24@0:8@\"UITableView\"16"
+- "@\"NSIndexPath\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSIndexPath\"40@0:8@\"UICollectionView\"16@\"NSString\"24q32"
+- "@\"NSIndexPath\"40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "@\"NSLayoutConstraint\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"24@0:8^@16"
+- "@\"NSNumber\"32@0:8@\"HKFeatureAvailabilityRequirementEvaluationDataSource\"16^@24"
+- "@\"NSNumber\"32@0:8@\"NSDate\"16^@24"
+- "@\"NSNumber\"32@0:8@\"NSString\"16^@24"
+- "@\"NSNumberFormatter\""
+- "@\"NSPredicate\"24@0:8@\"HKSampleType\"16"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"32@0:8@\"NSFetchedResultsController\"16@\"NSString\"24"
+- "@\"NSString\"32@0:8@\"UIActivityViewController\"16@\"NSString\"24"
+- "@\"NSString\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSString\"32@0:8@\"UITableView\"16q24"
+- "@\"NSString\"32@0:8@\"WDAddDataManualEntrySpinner\"16q24"
+- "@\"NSString\"40@0:8@\"UIPickerView\"16q24q32"
+- "@\"ProfileCharacteristicDiffableDataSource\""
+- "@\"UIAction\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIAction\"32"
+- "@\"UIBarButtonItem\""
+- "@\"UIButton\""
+- "@\"UICollectionReusableView\"40@0:8@\"UICollectionView\"16@\"NSString\"24@\"NSIndexPath\"32"
+- "@\"UICollectionViewCell\"32@0:8@\"UICollectionView\"16@\"NSIndexPath\"24"
+- "@\"UIColor\"16@?0@\"UITraitCollection\"8"
+- "@\"UIContextMenuConfiguration\"48@0:8@\"UITableView\"16@\"NSIndexPath\"24{CGPoint=dd}32"
+- "@\"UIDatePicker\""
+- "@\"UIFont\""
+- "@\"UIImage\""
+- "@\"UIImage\"48@0:8@\"UIActivityViewController\"16@\"NSString\"24{CGSize=dd}32"
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UIMenu\"48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UIPickerView\""
+- "@\"UIStackView\""
+- "@\"UISwipeActionsConfiguration\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITableViewCell\""
+- "@\"UITableViewCell\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITargetedPreview\"32@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UITextField\""
+- "@\"UITextItemMenuConfiguration\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIMenu\"32"
+- "@\"UITraitCollection\"16@0:8"
+- "@\"UIView\""
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView\"32@0:8@\"UITableView\"16q24"
+- "@\"UIView\"48@0:8@\"UIPickerView\"16q24q32@\"UIView\"40"
+- "@\"UIView<PSHeaderFooterView>\"24@0:8@\"PSSpecifier\"16"
+- "@\"UIViewController\"16@?0@\"UITab\"8"
+- "@\"UIViewController\"24@0:8@\"HKDisplayType\"16"
+- "@\"UIViewController\"32@0:8@\"HKSample\"16@\"HKHealthStore\"24"
+- "@\"UIViewController\"32@0:8@\"UIPresentationController\"16q24"
+- "@\"UIViewController\"40@0:8@\"HKHealthStore\"16@\"HKDisplayType\"24@\"NSPredicate\"32"
+- "@\"UIViewController\"40@0:8@\"HKSampleType\"16@\"NSPredicate\"24@\"NSString\"32"
+- "@\"WDAddDataManualEntryItem\""
+- "@\"WDAddDataManualEntrySpinner\""
+- "@\"WDAddDataManualEntryTableData\""
+- "@\"WDBuddyFlowContinueFooterView\""
+- "@\"WDBuddyFlowUserInfo\""
+- "@\"WDDisplayTypeDescriptionTableFooterView\""
+- "@\"WDManualDataEntryTableViewCell\""
+- "@\"WDProfileEditableTableViewCell\""
+- "@\"WDProfileHeaderView\""
+- "@\"WDProfileTableViewCell\""
+- "@\"WDUserDefaults\""
+- "@\"_TtC18HealthExperienceUI25MessageWithActionTileView\""
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@\"UIActivityViewController\"16"
+- "@24@0:8@16"
+- "@24@0:8B16B20"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8B16B20B24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"UIActivityViewController\"16@\"NSString\"24"
+- "@32@0:8@16@24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16@24"
+- "@32@0:8q16@24"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24Q32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16Q24Q32"
+- "@40@0:8@16Q24^@32"
+- "@40@0:8@16q24@32"
+- "@40@0:8@16q24q32"
+- "@40@0:8@16{_NSRange=QQ}24"
+- "@40@0:8q16@24@32"
+- "@44@0:8@16@24@32B40"
+- "@44@0:8@16@24Q32B40"
+- "@44@0:8@16B24q28@36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32@?40"
+- "@48@0:8@16@24@32q40"
+- "@48@0:8@16@24{CGPoint=dd}32"
+- "@48@0:8@16@24{CGSize=dd}32"
+- "@48@0:8@16q24q32@40"
+- "@48@0:8@16{_NSRange=QQ}24@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24@32@40@?48"
+- "@56@0:8@16@24q32@40@48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "@?"
+- "@?16@0:8"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "AddData"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"HKSample\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIGestureRecognizer\"16"
+- "B24@0:8@\"UIPresentationController\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@\"UISearchBar\"16"
+- "B24@0:8@\"UITextField\"16"
+- "B24@0:8@\"UITextView\"16"
+- "B24@0:8@16"
+- "B24@0:8Q16"
+- "B32@0:8@\"CNContactViewController\"16@\"CNContactProperty\"24"
+- "B32@0:8@\"UICollectionView\"16@\"NSIndexPath\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIEvent\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIGestureRecognizer\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIPress\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UITouch\"24"
+- "B32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "B32@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24"
+- "B32@0:8@16@24"
+- "B40@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24@?<v@?@\"NSData\">32"
+- "B40@0:8@\"UISearchBar\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"<UISpringLoadedInteractionContext>\"32"
+- "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16@24@?32"
+- "B48@0:8@\"UISearchBar\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16:24@32@40"
+- "B48@0:8@16@24{_NSRange=QQ}32"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "B56@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32q48"
+- "B56@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32q48"
+- "B56@0:8@16@24{_NSRange=QQ}32q48"
+- "CGColor"
+- "CGContext"
+- "CGImage"
+- "CGPath"
+- "CNAutocompleteResultsTableViewControllerDelegate"
+- "CNAutocompleteSearchConsumer"
+- "CNContactPickerDelegate"
+- "CNContactViewControllerDelegate"
+- "CNKeyDescriptor"
+- "CTStewieStateMonitorDelegate"
+- "CharacteristicTypeDetailViewController"
+- "Discoverability"
+- "HAExtensions"
+- "HBXDataListDataProviderProviding"
+- "HBXDataListViewControllerProviding"
+- "HKAdaptiveModalPresented"
+- "HKAddDataViewControllerProvider"
+- "HKAnalyticsHealthDataSource"
+- "HKCloudSyncObserverDelegate"
+- "HKDataMetadataViewControllerDelegate"
+- "HKFeatureAvailabilityProviding"
+- "HKFeatureAvailabilityProvidingObserver"
+- "HKFeatureAvailabilityRequirement"
+- "HKFeatureAvailabilityRequirementsProviding"
+- "HKHealthSettingsNavigationDonaterConsuming"
+- "HKInternalSettingsGestureHandler"
+- "HKMCPregnancyModelObserver"
+- "HKMCPregnancyModelProviding"
+- "HKMedicalIDViewControllerDelegate"
+- "HKOnboardingCompactDatePickerViewDelegate"
+- "HKSidebarSelectionIdentifierProviding"
+- "HKSimpleDataEntryItemToolbarDelegate"
+- "HKSourceListDataSourceObserver"
+- "HKSummarySharingEntryStoreDelegate"
+- "HKSwitchTableViewCellDelegate"
+- "HKTDataTypeDetailDebugActionProviderFactory"
+- "HXUIExpandableTableViewCell"
+- "HXUIInlineDatePickerTableViewCell"
+- "HXUIInlinePickerTableViewCell"
+- "HXUILabelWithBackgroundView"
+- "HXUIPickerLabelView"
+- "HealthExperienceUI"
+- "HealthExperienceUI.BrowseCategoriesDataSource"
+- "HealthExperienceUI.BrowseFeedDataSource"
+- "HealthExperienceUI.MeContactAvatarView"
+- "HealthExperienceUI/MeContactAvatarView.swift"
+- "HealthExperienceUI1"
+- "HealthExperienceUI2"
+- "HealthExperienceUI3"
+- "HealthFollowUpItemDelegate"
+- "JSONObjectWithData:options:error:"
+- "MFMessageComposeViewControllerDelegate"
+- "MTLAllocation"
+- "MTLBuffer"
+- "MTLCommandQueue"
+- "MTLRenderPipelineState"
+- "MTLResource"
+- "ManualEntry"
+- "MeContactAvatarView.MonogramRenderQueue"
+- "NSCoding"
+- "NSCollectionLayoutEnvironment"
+- "NSCopying"
+- "NSFetchRequestResult"
+- "NSFetchedResultsControllerDelegate"
+- "NSFetchedResultsSectionInfo"
+- "NSObject"
+- "NSSecureCoding"
+- "OutOfRangeAlertDisplayName"
+- "PDFDataWithActions:"
+- "PDFDocumentDelegate"
+- "PSHeaderFooterView"
+- "ProfileBuddyViewController"
+- "ProfileCharacteristicDiffableDataSource"
+- "ProfileCharacteristicTypePermissionsViewController"
+- "ProfileCharacteristicsUtilities"
+- "Q16@0:8"
+- "Q24@0:8Q16"
+- "Q24@0:8q16"
+- "Q40@0:8{?=QQQ}16"
+- "Safety.healthplugin"
+- "Signals"
+- "Swift/Dictionary.swift"
+- "T#,N,R"
+- "T#,R"
+- "T#,R,N"
+- "T@\"<CharacteristicTypeDetailViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<HKHealthSettingsNavigationDonating>\",W,N"
+- "T@\"<HKHealthSettingsNavigationDonating>\",W,N,V_settingsNavigationDonatingDelegate"
+- "T@\"<MTLDevice>\",R"
+- "T@\"<MTLHeap>\",R"
+- "T@\"<NSCollectionLayoutContainer>\",R,N"
+- "T@\"<ProfileBuddyViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"<WDAddDataManualEntryItemDelegate>\",W,N,V_delegate"
+- "T@\"<WDAddDataManualEntrySpinnerDataSource>\",W,N,V_dataSource"
+- "T@\"<WDManualDataEntryTableViewCellDelegate>\",W,N,V_delegate"
+- "T@\"HBXViewControllerFactory\",N,R"
+- "T@\"HKBirthdateChangeManager\",&,N,V_birthdateChangeManager"
+- "T@\"HKDisplayType\",&,N,V_displayType"
+- "T@\"HKHealthStore\",N,R,VhealthStore"
+- "T@\"HKHealthStore\",R,N"
+- "T@\"HKSourceListDataSource\",&,N,V_sourceListDataSource"
+- "T@\"HKValueRange\",R,N"
+- "T@\"MTLRenderPipelineReflection\",R"
+- "T@\"NSArray\",&,N,V_dataEntryItems"
+- "T@\"NSArray\",&,N,V_titles"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSDate\",C,N,V_initialStartDate"
+- "T@\"NSDateFormatter\",&,N,V_dateFormatter"
+- "T@\"NSDictionary\",C,N,V_sourceToAuthRecord"
+- "T@\"NSDiffableDataSourceSnapshot\",&,N,V_currentSnapshot"
+- "T@\"NSNumber\",&,N,V_identifier"
+- "T@\"NSNumber\",R,C,N"
+- "T@\"NSNumberFormatter\",&,N,V_numberFormatter"
+- "T@\"NSString\",&,N,V_feetUnitString"
+- "T@\"NSString\",&,N,V_inchUnitString"
+- "T@\"NSString\",&,N,V_secondaryLabel"
+- "T@\"NSString\",&,N,V_title"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,N"
+- "T@\"ProfileCharacteristicDiffableDataSource\",&,N,V_dataSource"
+- "T@\"UIButton\",N,R,VactionButton"
+- "T@\"UIColor\",&,N"
+- "T@\"UIDatePicker\",R,N"
+- "T@\"UIFont\",&,N,V_bodyFont"
+- "T@\"UIImage\",&,N,V_avatarImage"
+- "T@\"UIImageView\",&,N,V_avatarImageView"
+- "T@\"UILabel\",N,R,VbodyLabel"
+- "T@\"UILabel\",N,R,VtitleLabel"
+- "T@\"UIPickerView\",R,N"
+- "T@\"UITraitCollection\",R,N"
+- "T@\"WDAddDataManualEntryItem\",&,N,V_dateTimeEntryItem"
+- "T@\"WDAddDataManualEntryItem\",&,N,V_valueFieldManualEntryItem"
+- "T@\"WDAddDataManualEntryItem\",R,N,V_categoryValueEntryItem"
+- "T@\"WDAddDataManualEntryItem\",R,N,V_dateEntryItem"
+- "T@\"WDAddDataManualEntrySpinner\",&,N,V_deliveryReasonEntryItem"
+- "T@\"WDAddDataManualEntrySpinner\",&,N,V_mealTimeEntryItem"
+- "T@\"WDBuddyFlowUserInfo\",R,N"
+- "T@\"_TtC18HealthExperienceUI25MessageWithActionTileView\",N,R,VmessageTileView"
+- "T@,N,R"
+- "T@?,C,N,V_footerTitleProvider"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,V_expanded"
+- "TB,N,V_shouldHighlightWhenEditing"
+- "TB,R"
+- "TQ,N,R"
+- "TQ,N,V_manualEntryType"
+- "TQ,R"
+- "TQ,R,N"
+- "Td,R,N"
+- "Title for the category content section  The first variable is the type display name of the Domain type."
+- "Tq,N"
+- "Tq,N,R"
+- "Tq,N,V_accessType"
+- "Tq,N,V_datePickerMode"
+- "Tq,N,V_selectedIndex"
+- "Tq,R"
+- "Tq,R,N"
+- "T{?=QQQ},R"
+- "T{CGPoint=dd},N"
+- "T{CGSize=dd},N"
+- "T{CGSize=dd},N,R"
+- "T{MTLResourceID=Q},R"
+- "UDIDeviceIdentifier"
+- "UIActivityItemSource"
+- "UIAdaptivePresentationControllerDelegate"
+- "UIBarPositioningDelegate"
+- "UICollectionViewDataSource"
+- "UIGestureRecognizerDelegate"
+- "UIInterfaceOrientationMaskOverride"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
+- "UIPopoverPresentationControllerSourceItem"
+- "UISafeStoryboard"
+- "UIScrollViewDelegate"
+- "UISearchBarDelegate"
+- "UISearchControllerDelegate"
+- "UISearchResultsUpdating"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- "UITextFieldDelegate"
+- "UITextViewDelegate"
+- "UITraitChangeRegistration"
+- "UITraitEnvironment"
+- "UNUserNotificationCenterDelegate"
+- "URIRepresentation"
+- "URL"
+- "URLForDataTypeDetailWithObjectType:"
+- "URLForNotificationSettings"
+- "URLForResource:withExtension:"
+- "URLWithString:"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "WDAddDataManualEntryItem"
+- "WDAddDataManualEntryItemDelegate"
+- "WDAddDataManualEntrySectionData"
+- "WDAddDataManualEntrySpinner"
+- "WDAddDataManualEntrySpinnerDataSource"
+- "WDAddDataManualEntryTableData"
+- "WDAddDataViewController"
+- "WDBloodGlucoseAddDataViewController"
+- "WDBloodPressureAddDataViewController"
+- "WDCategoryAddDataViewController"
+- "WDDisplayTypeAddDataViewController"
+- "WDElectrocardiogramAddDataViewController"
+- "WDHeightAddDataViewController"
+- "WDInsulinDeliveryAddDataViewController"
+- "WDManualDataEntryTableViewCell"
+- "WDManualDataEntryTableViewCellDelegate"
+- "WDMenstruationAddDataViewController"
+- "WDPhysicalEffortAddDataViewController"
+- "WDSexualActivityAddDataViewController"
+- "WDTimeInDaylightAddDataViewController"
+- "WDUVExposureAddDataViewController"
+- "WDWorkoutAddDataViewController"
+- "[%s]: PluginDetailViewProviding Error: %{public}s"
+- "^v16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_InsulinDeliveryReason"
+- "_TtC18HealthExperienceUI10HeaderItem"
+- "_TtC18HealthExperienceUI10PDFBuilder"
+- "_TtC18HealthExperienceUI12ChartContext"
+- "_TtC18HealthExperienceUI12CoreTextView"
+- "_TtC18HealthExperienceUI12HostViewCell"
+- "_TtC18HealthExperienceUI12PDFImageCell"
+- "_TtC18HealthExperienceUI12UIPluginInfo"
+- "_TtC18HealthExperienceUI13CloudSyncFlow"
+- "_TtC18HealthExperienceUI13GradientLayer"
+- "_TtC18HealthExperienceUI14AppSourcesCell"
+- "_TtC18HealthExperienceUI14AppSourcesItem"
+- "_TtC18HealthExperienceUI14ChromeHostView"
+- "_TtC18HealthExperienceUI15ArrayDataSource"
+- "_TtC18HealthExperienceUI15EmptyDataSource"
+- "_TtC18HealthExperienceUI15ProfileNameCell"
+- "_TtC18HealthExperienceUI15ProfileNameView"
+- "_TtC18HealthExperienceUI15SidebarListCell"
+- "_TtC18HealthExperienceUI16CoreDataTabGroup"
+- "_TtC18HealthExperienceUI16DynamicFontLabel"
+- "_TtC18HealthExperienceUI16ExportDataSource"
+- "_TtC18HealthExperienceUI16HeightPickerItem"
+- "_TtC18HealthExperienceUI16IconWithNameCell"
+- "_TtC18HealthExperienceUI16LabelWithSpinner"
+- "_TtC18HealthExperienceUI16NoDataDataSource"
+- "_TtC18HealthExperienceUI16PDFImagePreviews"
+- "_TtC18HealthExperienceUI16PDFSectionLoader"
+- "_TtC18HealthExperienceUI16ProfileBarButton"
+- "_TtC18HealthExperienceUI16SearchDataSource"
+- "_TtC18HealthExperienceUI16WeightPickerItem"
+- "_TtC18HealthExperienceUI17DeviceSourcesCell"
+- "_TtC18HealthExperienceUI17HostViewTableCell"
+- "_TtC18HealthExperienceUI17LabelAndImageView"
+- "_TtC18HealthExperienceUI17MicaAnimationView"
+- "_TtC18HealthExperienceUI17PrivacyDataSource"
+- "_TtC18HealthExperienceUI17ProfileButtonCell"
+- "_TtC18HealthExperienceUI17PromotionTileView"
+- "_TtC18HealthExperienceUI17SearchCoordinator"
+- "_TtC18HealthExperienceUI17SharingPausedCell"
+- "_TtC18HealthExperienceUI18BirthdayPickerItem"
+- "_TtC18HealthExperienceUI18ChromeHostViewCell"
+- "_TtC18HealthExperienceUI18EmptyStateCellView"
+- "_TtC18HealthExperienceUI18FeaturesDataSource"
+- "_TtC18HealthExperienceUI18HeaderWithIconView"
+- "_TtC18HealthExperienceUI18PublisherImageView"
+- "_TtC18HealthExperienceUI19AllTrendsDataSource"
+- "_TtC18HealthExperienceUI19CellHeaderViewModel"
+- "_TtC18HealthExperienceUI19CloudSyncDataSource"
+- "_TtC18HealthExperienceUI19ConfirmDetailsModel"
+- "_TtC18HealthExperienceUI19DownloadingDataCell"
+- "_TtC18HealthExperienceUI19DownloadingDataItem"
+- "_TtC18HealthExperienceUI19ImageViewWithShadow"
+- "_TtC18HealthExperienceUI19MeContactAvatarView"
+- "_TtC18HealthExperienceUI19ObservableCellState"
+- "_TtC18HealthExperienceUI19PDFFileNameProvider"
+- "_TtC18HealthExperienceUI19PDFPageNumberedPage"
+- "_TtC18HealthExperienceUI19PickerTableViewCell"
+- "_TtC18HealthExperienceUI19PinnableSearchQuery"
+- "_TtC18HealthExperienceUI19ProfileGradientView"
+- "_TtC18HealthExperienceUI19ProvidedViewContext"
+- "_TtC18HealthExperienceUI19SpecifierHeaderView"
+- "_TtC18HealthExperienceUI19SwitchTableViewCell"
+- "_TtC18HealthExperienceUI19UninstalledAppsItem"
+- "_TtC18HealthExperienceUI20AllNoticesDataSource"
+- "_TtC18HealthExperienceUI20AppSourcesDataSource"
+- "_TtC18HealthExperienceUI20BrowseFeedDataSource"
+- "_TtC18HealthExperienceUI20CategoryGradientView"
+- "_TtC18HealthExperienceUI20EmptyIconSourcesCell"
+- "_TtC18HealthExperienceUI20EmptyIconSourcesItem"
+- "_TtC18HealthExperienceUI20ExportDataSourceItem"
+- "_TtC18HealthExperienceUI20PDFPreviewDataSource"
+- "_TtC18HealthExperienceUI20PluginDeepLinkRouter"
+- "_TtC18HealthExperienceUI20SearchViewController"
+- "_TtC18HealthExperienceUI20SegmentedControlCell"
+- "_TtC18HealthExperienceUI20SegmentedControlItem"
+- "_TtC18HealthExperienceUI21CellWithAccessoryView"
+- "_TtC18HealthExperienceUI21FetchedResultsContext"
+- "_TtC18HealthExperienceUI21HelpTileActionHandler"
+- "_TtC18HealthExperienceUI21MultiColumnDataSource"
+- "_TtC18HealthExperienceUI21ProfileViewController"
+- "_TtC18HealthExperienceUI21PromotionTileHeroView"
+- "_TtC18HealthExperienceUI21SidebarDataSourceItem"
+- "_TtC18HealthExperienceUI21SourcesViewController"
+- "_TtC18HealthExperienceUI21TextTableViewItemCell"
+- "_TtC18HealthExperienceUI21TitleDetailLabelsView"
+- "_TtC18HealthExperienceUI21UserDefaultSwitchItem"
+- "_TtC18HealthExperienceUI21YouAreSharingWithCell"
+- "_TtC18HealthExperienceUI21YouAreSharingWithItem"
+- "_TtC18HealthExperienceUI22CategoryViewController"
+- "_TtC18HealthExperienceUI22CategoryViewDataSource"
+- "_TtC18HealthExperienceUI22CloudSyncStateObserver"
+- "_TtC18HealthExperienceUI22ConfirmDetailsProvider"
+- "_TtC18HealthExperienceUI22DataTypeDetailUnitCell"
+- "_TtC18HealthExperienceUI22DataTypeTileHeaderView"
+- "_TtC18HealthExperienceUI22LabelWithIndicatorView"
+- "_TtC18HealthExperienceUI22ListStyleAccessoryView"
+- "_TtC18HealthExperienceUI22MutableArrayDataSource"
+- "_TtC18HealthExperienceUI22PDFAsyncViewController"
+- "_TtC18HealthExperienceUI22PDFGenerationContainer"
+- "_TtC18HealthExperienceUI22PluginSearchDataSource"
+- "_TtC18HealthExperienceUI22ProfileAvatarImageCell"
+- "_TtC18HealthExperienceUI22ProfileSharingFlowView"
+- "_TtC18HealthExperienceUI22UIPluginBundleProvider"
+- "_TtC18HealthExperienceUI23AllHealthDataDataSource"
+- "_TtC18HealthExperienceUI23AllTrendsViewController"
+- "_TtC18HealthExperienceUI23BiologicalSexPickerItem"
+- "_TtC18HealthExperienceUI23CardStackMoreButtonCell"
+- "_TtC18HealthExperienceUI23ChromeHostViewTableCell"
+- "_TtC18HealthExperienceUI23CloudSyncDataSourceItem"
+- "_TtC18HealthExperienceUI23DataTypeDetailChartCell"
+- "_TtC18HealthExperienceUI23DeviceSourcesDataSource"
+- "_TtC18HealthExperienceUI23EmptyStateTableViewCell"
+- "_TtC18HealthExperienceUI23ImageCollectionViewCell"
+- "_TtC18HealthExperienceUI23LastSyncedDateFormatter"
+- "_TtC18HealthExperienceUI23ListFeedItemsDataSource"
+- "_TtC18HealthExperienceUI23MedicalIDDataSourceItem"
+- "_TtC18HealthExperienceUI23PDFCollectionViewLayout"
+- "_TtC18HealthExperienceUI23PersonalizedFeedTrainer"
+- "_TtC18HealthExperienceUI23PinnedContentDataSource"
+- "_TtC18HealthExperienceUI23ProfileAvatarDataSource"
+- "_TtC18HealthExperienceUI23SearchSectionDataSource"
+- "_TtC18HealthExperienceUI23SpecifierViewController"
+- "_TtC18HealthExperienceUI23TitleValueTableViewCell"
+- "_TtC18HealthExperienceUI23TitleWithSubHeadingView"
+- "_TtC18HealthExperienceUI24AppSourcesDataSourceItem"
+- "_TtC18HealthExperienceUI24BrowseTileViewController"
+- "_TtC18HealthExperienceUI24ButtonCollectionViewCell"
+- "_TtC18HealthExperienceUI24CameraScannerLoadingView"
+- "_TtC18HealthExperienceUI24CategoryNoDataDataSource"
+- "_TtC18HealthExperienceUI24CollectionViewHeaderCell"
+- "_TtC18HealthExperienceUI24DataTypeChartMessageItem"
+- "_TtC18HealthExperienceUI24DiffableTableViewAdaptor"
+- "_TtC18HealthExperienceUI24FakeCollectionViewHeader"
+- "_TtC18HealthExperienceUI24MedicalDetailsDataSource"
+- "_TtC18HealthExperienceUI24MultiselectTableViewCell"
+- "_TtC18HealthExperienceUI24PDFPreviewCollectionView"
+- "_TtC18HealthExperienceUI24PlatformAlertsDataSource"
+- "_TtC18HealthExperienceUI24PluginNotificationRouter"
+- "_TtC18HealthExperienceUI24ProfileAllDataDataSource"
+- "_TtC18HealthExperienceUI24ProfileGradientsProvider"
+- "_TtC18HealthExperienceUI24ProfileNavigationBarView"
+- "_TtC18HealthExperienceUI24SnippetAllDataDataSource"
+- "_TtC18HealthExperienceUI24SnippetSectionDataSource"
+- "_TtC18HealthExperienceUI24SummaryHeaderProfileCell"
+- "_TtC18HealthExperienceUI24SwitchCellViewController"
+- "_TtC18HealthExperienceUI24SwitchCollectionViewCell"
+- "_TtC18HealthExperienceUI24SwitchCollectionViewItem"
+- "_TtC18HealthExperienceUI25AllTrendsHeaderDataSource"
+- "_TtC18HealthExperienceUI25AspectFitScalingImageView"
+- "_TtC18HealthExperienceUI25DataTypeDetailMessageCell"
+- "_TtC18HealthExperienceUI25DismissibleTileHeaderView"
+- "_TtC18HealthExperienceUI25DownloadingDataDataSource"
+- "_TtC18HealthExperienceUI25HealthAppAnalyticsManager"
+- "_TtC18HealthExperienceUI25HealthChecklistDataSource"
+- "_TtC18HealthExperienceUI25MessageTileViewController"
+- "_TtC18HealthExperienceUI25MessageWithActionTileView"
+- "_TtC18HealthExperienceUI25PlaceholderTextDataSource"
+- "_TtC18HealthExperienceUI25ProfileCompoundDataSource"
+- "_TtC18HealthExperienceUI25ProfileContactOptionsCell"
+- "_TtC18HealthExperienceUI25ProfileContactOptionsItem"
+- "_TtC18HealthExperienceUI25SharedSummariesDataSource"
+- "_TtC18HealthExperienceUI25SharingOverviewDataSource"
+- "_TtC18HealthExperienceUI25TimeBoundMappedDataSource"
+- "_TtC18HealthExperienceUI25UninstalledAppSourcesCell"
+- "_TtC18HealthExperienceUI26BrowseCategoriesDataSource"
+- "_TtC18HealthExperienceUI26EndSharingRelationshipFlow"
+- "_TtC18HealthExperienceUI26EndSharingRelationshipItem"
+- "_TtC18HealthExperienceUI26FallbackCollectionViewCell"
+- "_TtC18HealthExperienceUI26MultipleItemsCardStackCell"
+- "_TtC18HealthExperienceUI26OBKStyleBulletListItemView"
+- "_TtC18HealthExperienceUI26PDFCharacteristicsProvider"
+- "_TtC18HealthExperienceUI26PluginSearchResultProvider"
+- "_TtC18HealthExperienceUI26ProfileAvatarWithNameBelow"
+- "_TtC18HealthExperienceUI26SegmentedControlDataSource"
+- "_TtC18HealthExperienceUI26SettingUpSharingDataSource"
+- "_TtC18HealthExperienceUI26SnidgetSwiftChartViewModel"
+- "_TtC18HealthExperienceUI27ActivityIndicatorDetailView"
+- "_TtC18HealthExperienceUI27AddToFavoritesTableViewCell"
+- "_TtC18HealthExperienceUI27AllHealthDataViewController"
+- "_TtC18HealthExperienceUI27BridgePreferencesHeaderView"
+- "_TtC18HealthExperienceUI27CalendarPickerTableViewCell"
+- "_TtC18HealthExperienceUI27CloudSyncCollectionViewCell"
+- "_TtC18HealthExperienceUI27CompoundSectionedDataSource"
+- "_TtC18HealthExperienceUI27DataTypeDetailFavoritesCell"
+- "_TtC18HealthExperienceUI27DataTypeNoDataAvailableCell"
+- "_TtC18HealthExperienceUI27DeviceSourcesDataSourceItem"
+- "_TtC18HealthExperienceUI27DiffableTableViewDataSource"
+- "_TtC18HealthExperienceUI27HeaderDescriptionDataSource"
+- "_TtC18HealthExperienceUI27HealthDetailsViewController"
+- "_TtC18HealthExperienceUI27OrganDonationDataSourceItem"
+- "_TtC18HealthExperienceUI27PDFWithCustomFooterTextPage"
+- "_TtC18HealthExperienceUI27ProfileCategoriesDataSource"
+- "_TtC18HealthExperienceUI27ProfileGradientWithFadeView"
+- "_TtC18HealthExperienceUI27RevokeSharingDataSourceItem"
+- "_TtC18HealthExperienceUI27SectionsPublisherDataSource"
+- "_TtC18HealthExperienceUI27ShareFileActivityItemSource"
+- "_TtC18HealthExperienceUI27SharingCloudErrorDataSource"
+- "_TtC18HealthExperienceUI27SharingOnboardingDataSource"
+- "_TtC18HealthExperienceUI27SignificantTrendsDataSource"
+- "_TtC18HealthExperienceUI27TextFieldCollectionViewCell"
+- "_TtC18HealthExperienceUI27TextViewFooterTableViewCell"
+- "_TtC18HealthExperienceUI28AllTrendsSectionedDataSource"
+- "_TtC18HealthExperienceUI28CategoryPromotionsDataSource"
+- "_TtC18HealthExperienceUI28ContentConfigurationHostCell"
+- "_TtC18HealthExperienceUI28DataTypeDetailDisclosureCell"
+- "_TtC18HealthExperienceUI28DataTypeDetailViewController"
+- "_TtC18HealthExperienceUI28DatePickerCollectionViewCell"
+- "_TtC18HealthExperienceUI28DisclosureCellViewController"
+- "_TtC18HealthExperienceUI28DownloadingPinningDataSource"
+- "_TtC18HealthExperienceUI28EmptyStateCollectionViewCell"
+- "_TtC18HealthExperienceUI28FamilySharingProfileTileCell"
+- "_TtC18HealthExperienceUI28FamilySharingProfileTileItem"
+- "_TtC18HealthExperienceUI28NavigationCollectionViewCell"
+- "_TtC18HealthExperienceUI28ProfileGradientViewWithImage"
+- "_TtC18HealthExperienceUI28SharingParticipantDataSource"
+- "_TtC18HealthExperienceUI28SidebarConfigurationProvider"
+- "_TtC18HealthExperienceUI28SummaryHeaderProfileNameCell"
+- "_TtC18HealthExperienceUI28SummaryHeaderProfileNameView"
+- "_TtC18HealthExperienceUI29AddDataViewControllerProvider"
+- "_TtC18HealthExperienceUI29AddNewSharingRelationshipCell"
+- "_TtC18HealthExperienceUI29AddNewSharingRelationshipItem"
+- "_TtC18HealthExperienceUI29AdvertisableFeatureDataSource"
+- "_TtC18HealthExperienceUI29AnyConfigurationActionHandler"
+- "_TtC18HealthExperienceUI29BackgroundHighlightableButton"
+- "_TtC18HealthExperienceUI29BrowsePinnedContentDataSource"
+- "_TtC18HealthExperienceUI29CharacteristicsDataSourceItem"
+- "_TtC18HealthExperienceUI29DataTypeDescriptionDataSource"
+- "_TtC18HealthExperienceUI29DataTypeDetailDescriptionCell"
+- "_TtC18HealthExperienceUI29DiffableCollectionViewAdaptor"
+- "_TtC18HealthExperienceUI29FavoritableFeedItemDataSource"
+- "_TtC18HealthExperienceUI29FeatureStatusFeedItemExecutor"
+- "_TtC18HealthExperienceUI29HealthChecklistViewController"
+- "_TtC18HealthExperienceUI29HealthURLActivityItemProvider"
+- "_TtC18HealthExperienceUI29HostedSpecifierViewController"
+- "_TtC18HealthExperienceUI29InteractiveGenerationListener"
+- "_TtC18HealthExperienceUI29OnboardingTableViewController"
+- "_TtC18HealthExperienceUI29ProfileCollectionViewListCell"
+- "_TtC18HealthExperienceUI29ProfileOverviewViewController"
+- "_TtC18HealthExperienceUI29ProfileSharingWithYouTileCell"
+- "_TtC18HealthExperienceUI29SelectableCellStyleFooterView"
+- "_TtC18HealthExperienceUI29SharedProfileHeaderDataSource"
+- "_TtC18HealthExperienceUI29SharingOverviewViewController"
+- "_TtC18HealthExperienceUI29SizeClassResponsiveDataSource"
+- "_TtC18HealthExperienceUI29SpotlightSearchResultProvider"
+- "_TtC18HealthExperienceUI30AdvertisableFeatureContentView"
+- "_TtC18HealthExperienceUI30CategoryViewDataSourceProvider"
+- "_TtC18HealthExperienceUI30CompactDatePickerTableViewCell"
+- "_TtC18HealthExperienceUI30DataTypeMostRecentSamplesQuery"
+- "_TtC18HealthExperienceUI30DismissibleBoldTitleHeaderView"
+- "_TtC18HealthExperienceUI30FavoritableFeedItemsDataSource"
+- "_TtC18HealthExperienceUI30RoundedImageCollectionViewCell"
+- "_TtC18HealthExperienceUI30SharedProfileNoticesDataSource"
+- "_TtC18HealthExperienceUI30SharingVersionMismatchTileView"
+- "_TtC18HealthExperienceUI30SnapshotDataSourceItemSwizzler"
+- "_TtC18HealthExperienceUI30SummarySharingAddDataTypesCell"
+- "_TtC18HealthExperienceUI30SummarySharingIconWithNameCell"
+- "_TtC18HealthExperienceUI30TextViewCollectionReusableView"
+- "_TtC18HealthExperienceUI31CameraScannerFlowViewController"
+- "_TtC18HealthExperienceUI31CameraScannerOverlayContentView"
+- "_TtC18HealthExperienceUI31CellWithAccessoryViewController"
+- "_TtC18HealthExperienceUI31CollectionViewGroupedFooterCell"
+- "_TtC18HealthExperienceUI31DefaultProfileGradientsProvider"
+- "_TtC18HealthExperienceUI31EditFavoritesCollectionViewCell"
+- "_TtC18HealthExperienceUI31FeatureStatusTileViewController"
+- "_TtC18HealthExperienceUI31HealthDetailsCompoundDataSource"
+- "_TtC18HealthExperienceUI31HealthImageActivityItemProvider"
+- "_TtC18HealthExperienceUI31NotificationSettingsSharingCell"
+- "_TtC18HealthExperienceUI31OrganDonationRegisteredBodyCell"
+- "_TtC18HealthExperienceUI31ProfileCategoriesViewController"
+- "_TtC18HealthExperienceUI31ProfileGradientsProviderFactory"
+- "_TtC18HealthExperienceUI31ProfileSharingWithYouHeaderView"
+- "_TtC18HealthExperienceUI31SearchSectionDataSourceProvider"
+- "_TtC18HealthExperienceUI31SectionHeaderCollectionViewCell"
+- "_TtC18HealthExperienceUI31SharedProfileOverviewDataSource"
+- "_TtC18HealthExperienceUI31SummarySharingContactPickerCell"
+- "_TtC18HealthExperienceUI31SummarySharingProfileHeaderCell"
+- "_TtC18HealthExperienceUI31TitleDetailLabelsWithPickerView"
+- "_TtC18HealthExperienceUI31UninstalledAppSourcesDataSource"
+- "_TtC18HealthExperienceUI32AdvertisableFeatureTableViewCell"
+- "_TtC18HealthExperienceUI32AppsAndReSearchSectionDataSource"
+- "_TtC18HealthExperienceUI32CategoryViewControllerDataSource"
+- "_TtC18HealthExperienceUI32CloudSyncAllHealthDataDataSource"
+- "_TtC18HealthExperienceUI32CollapsibleMultiColumnDataSource"
+- "_TtC18HealthExperienceUI32CollectionViewHeaderWithLinkCell"
+- "_TtC18HealthExperienceUI32CollectionViewListDisclosureCell"
+- "_TtC18HealthExperienceUI32ConfirmDetailsValueFormatterImpl"
+- "_TtC18HealthExperienceUI32EndSharingRelationshipDataSource"
+- "_TtC18HealthExperienceUI32GradientLayerPipelineStateLoader"
+- "_TtC18HealthExperienceUI32HKTypeGroupCategoryActionHandler"
+- "_TtC18HealthExperienceUI32HeaderFooterDataSourceWithLayout"
+- "_TtC18HealthExperienceUI32InternalSettingsFeatureListModel"
+- "_TtC18HealthExperienceUI32ListContentConfigurationHostCell"
+- "_TtC18HealthExperienceUI32MutableArrayDataSourceWithLayout"
+- "_TtC18HealthExperienceUI32ProfileSharingBaseViewController"
+- "_TtC18HealthExperienceUI32ProfilesSharingWithYouDataSource"
+- "_TtC18HealthExperienceUI32SharingParticipantDataSourceItem"
+- "_TtC18HealthExperienceUI32StandardDataLoggingActionHandler"
+- "_TtC18HealthExperienceUI32ThresholdSpecifierViewController"
+- "_TtC18HealthExperienceUI33AllHighlightsByCategoryDataSource"
+- "_TtC18HealthExperienceUI33ContentConfigurationTableViewCell"
+- "_TtC18HealthExperienceUI33DataTypeDetailFavoritesDataSource"
+- "_TtC18HealthExperienceUI33EmptyHeaderCollectionReusableView"
+- "_TtC18HealthExperienceUI33FeatureInactiveWithNoDataTileView"
+- "_TtC18HealthExperienceUI33FeatureStatusPlatformFeedItemView"
+- "_TtC18HealthExperienceUI33FeedItemSuggestedActionDataSource"
+- "_TtC18HealthExperienceUI33HealthAppInteractionAnalyticEvent"
+- "_TtC18HealthExperienceUI33HealthChecklistDataSourceProvider"
+- "_TtC18HealthExperienceUI33InternalSettingsFeatureStateModel"
+- "_TtC18HealthExperienceUI33ManualDataSelectionNextButtonCell"
+- "_TtC18HealthExperienceUI33ManualDataSelectionNextButtonItem"
+- "_TtC18HealthExperienceUI33OrganDonationRegisteredDataSource"
+- "_TtC18HealthExperienceUI33OrganDonationRegisteredHeaderCell"
+- "_TtC18HealthExperienceUI33OrganDonationStatusViewController"
+- "_TtC18HealthExperienceUI33PinnedPinnableFeedItemsDataSource"
+- "_TtC18HealthExperienceUI33PlaceholderTextCollectionViewCell"
+- "_TtC18HealthExperienceUI33RequestNewSharingRelationshipCell"
+- "_TtC18HealthExperienceUI33RequestNewSharingRelationshipItem"
+- "_TtC18HealthExperienceUI33ResettableCalendarDateDisplayCell"
+- "_TtC18HealthExperienceUI33SharingWithYouLearnMoreDataSource"
+- "_TtC18HealthExperienceUI33SummarySharingSetupAnalyticsEvent"
+- "_TtC18HealthExperienceUI33TitleEmptyStateCollectionViewCell"
+- "_TtC18HealthExperienceUI34AlertStackModalPresentationManager"
+- "_TtC18HealthExperienceUI34AllFeedItemsListDataSourceProvider"
+- "_TtC18HealthExperienceUI34AllHighlightsForDataTypeDataSource"
+- "_TtC18HealthExperienceUI34FeatureStatusActionHandlerUserData"
+- "_TtC18HealthExperienceUI34GetMoreFromHealthResultsController"
+- "_TtC18HealthExperienceUI34InternalFeedItemListViewController"
+- "_TtC18HealthExperienceUI34MessageWithActionTileViewWithImage"
+- "_TtC18HealthExperienceUI34MessageWithSeparatedActionTileView"
+- "_TtC18HealthExperienceUI34NotificationSettingsViewController"
+- "_TtC18HealthExperienceUI34OnboardingAddToFavoritesDataSource"
+- "_TtC18HealthExperienceUI34OnboardingCollectionViewController"
+- "_TtC18HealthExperienceUI34OnboardingConfirmDetailsDataSource"
+- "_TtC18HealthExperienceUI34PinnedContentDataLoggingDataSource"
+- "_TtC18HealthExperienceUI34PlatformActionCellSelectionHandler"
+- "_TtC18HealthExperienceUI34ProfileFetchedCategoriesDataSource"
+- "_TtC18HealthExperienceUI34ResearchStudySourcesDataSourceItem"
+- "_TtC18HealthExperienceUI34SummaryFeedTrendsSectionDataSource"
+- "_TtC18HealthExperienceUI34SummarySharingPreviewSummariesCell"
+- "_TtC18HealthExperienceUI34SummarySharingPreviewSummariesItem"
+- "_TtC18HealthExperienceUI34SummarySharingSelectionFlowContext"
+- "_TtC18HealthExperienceUI35BasicPromotionDismissalStateManager"
+- "_TtC18HealthExperienceUI35DefaultHeaderCollectionReusableView"
+- "_TtC18HealthExperienceUI35FeatureOnboardingBulletListItemView"
+- "_TtC18HealthExperienceUI35FeatureOnboardingTileViewController"
+- "_TtC18HealthExperienceUI35HeaderWithSubtitleAndRightGlyphView"
+- "_TtC18HealthExperienceUI35HealthDetailsDemographicsDataSource"
+- "_TtC18HealthExperienceUI35OnboardingStackedItemViewController"
+- "_TtC18HealthExperienceUI35PDFAsyncConfigurationViewController"
+- "_TtC18HealthExperienceUI35PlatformTabCollectionViewController"
+- "_TtC18HealthExperienceUI35ProfileNavigationCollectionViewCell"
+- "_TtC18HealthExperienceUI35ProfilesYouAreSharingWithDataSource"
+- "_TtC18HealthExperienceUI35SharedProfileOverviewViewController"
+- "_TtC18HealthExperienceUI35SharingInviteActivityViewController"
+- "_TtC18HealthExperienceUI35SummaryHeaderProfileAvatarImageCell"
+- "_TtC18HealthExperienceUI35UninstalledAppSourcesViewController"
+- "_TtC18HealthExperienceUI35VerticallyCenteredContentScrollView"
+- "_TtC18HealthExperienceUI36AllHighlightsForExperienceDataSource"
+- "_TtC18HealthExperienceUI36AnyPlatformFeedItemViewActionHandler"
+- "_TtC18HealthExperienceUI36CalendarDatePickerCollectionViewCell"
+- "_TtC18HealthExperienceUI36CollectionHeaderWithIconReusableView"
+- "_TtC18HealthExperienceUI36CoreDataFeedItemSearchResultProvider"
+- "_TtC18HealthExperienceUI36EmbeddedDataSourceCollectionViewCell"
+- "_TtC18HealthExperienceUI36HealthChecklistProfileDataSourceItem"
+- "_TtC18HealthExperienceUI36HideableHearingArticlesFRCDataSource"
+- "_TtC18HealthExperienceUI36InternalFeedItemDetailViewController"
+- "_TtC18HealthExperienceUI36MedicationsAffectHeartRateDataSource"
+- "_TtC18HealthExperienceUI36PluginVersionMismatchAlertDataSource"
+- "_TtC18HealthExperienceUI36ProvidersYouAreSharingWithDataSource"
+- "_TtC18HealthExperienceUI36SampleMetadataViewControllerProvider"
+- "_TtC18HealthExperienceUI36SummarySharingPendingProfileTileCell"
+- "_TtC18HealthExperienceUI36SummarySharingPendingProfileTileItem"
+- "_TtC18HealthExperienceUI36SummarySharingSelectableDataTypeCell"
+- "_TtC18HealthExperienceUI36ThresholdSpecifierViewControllerCell"
+- "_TtC18HealthExperienceUI37AllHighlightsByCategoryViewController"
+- "_TtC18HealthExperienceUI37DataTypeDetailFeatureStatusDataSource"
+- "_TtC18HealthExperienceUI37EditFavoritesCollectionViewController"
+- "_TtC18HealthExperienceUI37FeedItemSuggestedActionViewController"
+- "_TtC18HealthExperienceUI37HealthKitProfileInformationDataSource"
+- "_TtC18HealthExperienceUI37NotificationSettingsSharingDataSource"
+- "_TtC18HealthExperienceUI37OrganDonationRegisteredViewController"
+- "_TtC18HealthExperienceUI37SummarySharingAcceptedProfileTileCell"
+- "_TtC18HealthExperienceUI37SummarySharingAcceptedProfileTileItem"
+- "_TtC18HealthExperienceUI37SummarySharingHealthAlertInfoProvider"
+- "_TtC18HealthExperienceUI37SummarySharingPreviewButtonDataSource"
+- "_TtC18HealthExperienceUI37SummarySharingProfileHeaderDataSource"
+- "_TtC18HealthExperienceUI37SummarySharingSetupAnalyticsBaseEvent"
+- "_TtC18HealthExperienceUI38AllHighlightsForDataTypeViewController"
+- "_TtC18HealthExperienceUI38AllTrendsSectionFetchResultsDataSource"
+- "_TtC18HealthExperienceUI38DataTypeDetailDataManagementDataSource"
+- "_TtC18HealthExperienceUI38EmergencyAccessBuddyDoneViewController"
+- "_TtC18HealthExperienceUI38HealthChecklistFeatureStatusDataSource"
+- "_TtC18HealthExperienceUI38HideablePregnancyArticlesFRCDataSource"
+- "_TtC18HealthExperienceUI38NotificationSettingsDefaultsDataSource"
+- "_TtC18HealthExperienceUI38NotificationSettingsFeaturesDataSource"
+- "_TtC18HealthExperienceUI38NotificationSettingsFeedItemDataSource"
+- "_TtC18HealthExperienceUI38OnboardingAddToFavoritesViewController"
+- "_TtC18HealthExperienceUI38OnboardingViewControllerWithNextButton"
+- "_TtC18HealthExperienceUI38PlatformSharingVersionMismatchTileCell"
+- "_TtC18HealthExperienceUI38PreviewSharedProfileOverviewDataSource"
+- "_TtC18HealthExperienceUI38ProfileSharingWithYouOptionsDataSource"
+- "_TtC18HealthExperienceUI38SummarySharingProfileGradientsProvider"
+- "_TtC18HealthExperienceUI38SummarySharingSelectedDataTypesContext"
+- "_TtC18HealthExperienceUI38SummarySharingSelectionContextDelegate"
+- "_TtC18HealthExperienceUI39CollapsibleListCollectionViewController"
+- "_TtC18HealthExperienceUI39EmergencyAccessBuddyStartViewController"
+- "_TtC18HealthExperienceUI39HealthSharingInternalSettingsDataSource"
+- "_TtC18HealthExperienceUI39MemorySharingParticipantDataSourceCache"
+- "_TtC18HealthExperienceUI39OnboardingTopContentShortViewController"
+- "_TtC18HealthExperienceUI39PDFPageAlignedNumberedPageWithIFUNotice"
+- "_TtC18HealthExperienceUI39PresentationBasedCollectionViewListCell"
+- "_TtC18HealthExperienceUI39ProfileSharingShareAccessViewController"
+- "_TtC18HealthExperienceUI39SummarySharingAlertsSelectionDataSource"
+- "_TtC18HealthExperienceUI39SummarySharingSetupDetailAnalyticsEvent"
+- "_TtC18HealthExperienceUI40AllHighlightsForExperienceViewController"
+- "_TtC18HealthExperienceUI40EmergencyAccessBuddyStewieViewController"
+- "_TtC18HealthExperienceUI40OnboardingIconSmallPaddingViewController"
+- "_TtC18HealthExperienceUI40SharedProfileNotificationSettingsManager"
+- "_TtC18HealthExperienceUI40SharingEntryProfileInformationDataSource"
+- "_TtC18HealthExperienceUI40SummarySharingContactSelectionSplashView"
+- "_TtC18HealthExperienceUI40ThresholdSpecifierViewControllerDelegate"
+- "_TtC18HealthExperienceUI41CenteredIconDescriptionCollectionViewCell"
+- "_TtC18HealthExperienceUI41HierarchicalDiffableCollectionViewAdaptor"
+- "_TtC18HealthExperienceUI41NonAnimatingDiffableCollectionViewAdaptor"
+- "_TtC18HealthExperienceUI41ProfileSharingYouShouldKnowViewController"
+- "_TtC18HealthExperienceUI41SummarySharingDataTypeSelectionDataSource"
+- "_TtC18HealthExperienceUI41SummarySharingSelectedDataTypesDataSource"
+- "_TtC18HealthExperienceUI42AlertStackCompoundCollectionViewController"
+- "_TtC18HealthExperienceUI42ArticlesFetchedResultsControllerDataSource"
+- "_TtC18HealthExperienceUI42ArticlesWithHeaderFooterAndLimitDataSource"
+- "_TtC18HealthExperienceUI42CompoundDataSourceCollectionViewController"
+- "_TtC18HealthExperienceUI42ContentConfigurationCollectionViewListCell"
+- "_TtC18HealthExperienceUI42DataTypeDetailViewControllerWithLoadAction"
+- "_TtC18HealthExperienceUI42EmergencyAccessFollowUpStartViewController"
+- "_TtC18HealthExperienceUI42EnhancedFeatureDataTypeDescriptionProvider"
+- "_TtC18HealthExperienceUI42HealthDataSecurityMessagingVariantProvider"
+- "_TtC18HealthExperienceUI42InternalFeedItemDataPropertyViewController"
+- "_TtC18HealthExperienceUI42InternalSettingsFeatureStateViewController"
+- "_TtC18HealthExperienceUI42PDFPageAlignedNumberedPageWithCustomNotice"
+- "_TtC18HealthExperienceUI42PreviewSharedProfileOverviewViewController"
+- "_TtC18HealthExperienceUI42ProfileSharingInvitationSentViewController"
+- "_TtC18HealthExperienceUI42ProfileSharingWithYouOptionsViewController"
+- "_TtC18HealthExperienceUI42SummarySharingOnboardingInfoViewController"
+- "_TtC18HealthExperienceUI42ThresholdSpecifierViewControllerDataSource"
+- "_TtC18HealthExperienceUI42UnusedModelsVersionMismatchAlertDataSource"
+- "_TtC18HealthExperienceUI43AdvertisableFeatureOnboardingViewController"
+- "_TtC18HealthExperienceUI43EmergencyAccessBuddyMedicalIDViewController"
+- "_TtC18HealthExperienceUI43HealthSharingInternalSettingsViewController"
+- "_TtC18HealthExperienceUI43SummarySharingAlertsSelectionViewController"
+- "_TtC18HealthExperienceUI43SummarySharingInviteToReceiveAnalyticsEvent"
+- "_TtC18HealthExperienceUI43SummarySharingRelationshipDetailsDataSource"
+- "_TtC18HealthExperienceUI44HighlightsFetchedResultsControllerDataSource"
+- "_TtC18HealthExperienceUI44MedicationsAffectHeartRateDataSourceDelegate"
+- "_TtC18HealthExperienceUI44PendingSummarySharingProfileGradientProvider"
+- "_TtC18HealthExperienceUI44SummarySharingInvitationTopicsViewController"
+- "_TtC18HealthExperienceUI45CameraScannerOverlayWithButtonsViewController"
+- "_TtC18HealthExperienceUI45CollectionViewListDisclosureCellNonSelectable"
+- "_TtC18HealthExperienceUI45SummarySharingDataTypeSelectionViewController"
+- "_TtC18HealthExperienceUI46InternalSettingsFeatureStateListViewController"
+- "_TtC18HealthExperienceUI46NonInteractiveCollectionViewListDisclosureCell"
+- "_TtC18HealthExperienceUI46RelatedItemsFetchedResultsControllerDataSource"
+- "_TtC18HealthExperienceUI46SummarySharingInvitationAcceptedViewController"
+- "_TtC18HealthExperienceUI47ElectrocardiogramDataTypeMostRecentSamplesQuery"
+- "_TtC18HealthExperienceUI47NotificationSettingsOnboardedFeaturesDataSource"
+- "_TtC18HealthExperienceUI47OBKSummarySharingInvitationTopicsViewController"
+- "_TtC18HealthExperienceUI47SummarySharingOnboardingSettingUpViewController"
+- "_TtC18HealthExperienceUI47SummarySharingRelationshipDetailsViewController"
+- "_TtC18HealthExperienceUI48EmergencyAccessBuddyShareMedicalIDViewController"
+- "_TtC18HealthExperienceUI48NotificationSettingsContentConfigurationProvider"
+- "_TtC18HealthExperienceUI48SummarySharingSystemContactsPickerViewController"
+- "_TtC18HealthExperienceUI49SummarySharingProfileTileEscalatedDetailsProvider"
+- "_TtC18HealthExperienceUI50DataTypeMostRecentSamplesDisclosureItemsDataSource"
+- "_TtC18HealthExperienceUI50MedicationsAffectHeartRateOnboardingViewController"
+- "_TtC18HealthExperienceUI51ProfileSharingWithYouNotificationSettingsDataSource"
+- "_TtC18HealthExperienceUI51SummarySharingInvitationEnableUpdatesViewController"
+- "_TtC18HealthExperienceUI51SummarySharingOnboardingContactPickerViewController"
+- "_TtC18HealthExperienceUI52AppRecommendationsFetchedResultsControllerDataSource"
+- "_TtC18HealthExperienceUI52SummarySharingOnboardingInvitationSentViewController"
+- "_TtC18HealthExperienceUI53EmergencyAccessBuddyLockScreenMedicalIDViewController"
+- "_TtC18HealthExperienceUI53HealthExperienceStoreIncrementalCoreSpotlightDelegate"
+- "_TtC18HealthExperienceUI53SummarySharingOnboardingAlertsSelectionViewController"
+- "_TtC18HealthExperienceUI54HealthExperienceStoreIncrementalCoreSpotlightOperation"
+- "_TtC18HealthExperienceUI55ProfileCharacteristicsWithAutoAvatarImageViewController"
+- "_TtC18HealthExperienceUI55SummarySharingOnboardingDataTypeSelectionViewController"
+- "_TtC18HealthExperienceUI57SummarySharingOnboardingChooseSelectionFlowViewController"
+- "_TtC18HealthExperienceUI57SummarySharingOnboardingSharingConfirmationViewController"
+- "_TtC18HealthExperienceUI58AdvertisableFeaturePostCommitWorkItemViewControllerFactory"
+- "_TtC18HealthExperienceUI60SummarySharingOnboardingKitSharingConfirmationViewController"
+- "_TtC18HealthExperienceUI61SummarySharingOnboardingManualDataTypeSelectionViewController"
+- "_TtC18HealthExperienceUI63AdvertisableFeatureMedicationsThatAffectHeartRateViewController"
+- "_TtC18HealthExperienceUI7PDFGrid"
+- "_TtC18HealthExperienceUI8HelpTile"
+- "_TtC18HealthExperienceUI8HostView"
+- "_TtC18HealthExperienceUI8PDFTable"
+- "_TtC18HealthExperienceUI9ImageItem"
+- "_TtC18HealthExperienceUIP33_1DFA22859B1ADF5237349B513C5FCFAB33SummarySharingVersionMismatchCell"
+- "_TtC18HealthExperienceUIP33_32BBCFBB356028961E4520309C3A50C420DataMetadataDelegate"
+- "_TtC18HealthExperienceUIP33_32BBCFBB356028961E4520309C3A50C437SharedAllDataCollectionViewController"
+- "_TtC18HealthExperienceUIP33_41892A8E3AE85A20C0CA0B347A3001CA24PDFContentSizedTableView"
+- "_TtC18HealthExperienceUIP33_42CC2352311B6F66D6F9E8DB839D76E419ResourceBundleClass"
+- "_TtC18HealthExperienceUIP33_4E9B792FD94E84699A3D0B29EB2473E845ProfileSharingWithYouNotificationSettingsItem"
+- "_TtC18HealthExperienceUIP33_5F1999B9FEFBF147C2BFD4A3470439DE41PlatformNotificationHandlerPluginProvider"
+- "_TtC18HealthExperienceUIP33_67EC7A45FB9328F5A1BEF31B99AA524322ContactQuickActionView"
+- "_TtC18HealthExperienceUIP33_6AFCBB489F4B745EBBFAE39AEAF00FBF8FadeView"
+- "_TtC18HealthExperienceUIP33_6AFCBB489F4B745EBBFAE39AEAF00FBF9WeakProxy"
+- "_TtC18HealthExperienceUIP33_769EF482A8E949D5E185D49C9A04EEB923AllAlertsViewController"
+- "_TtC18HealthExperienceUIP33_7A9E5CF486B0F4226BE0F022FE7FA17125BrowseTileContentViewBase"
+- "_TtC18HealthExperienceUIP33_7A9E5CF486B0F4226BE0F022FE7FA17134BrowseTileContentViewTextAccessory"
+- "_TtC18HealthExperienceUIP33_7A9E5CF486B0F4226BE0F022FE7FA17139BrowseTileContentViewImageTextAccessory"
+- "_TtC18HealthExperienceUIP33_829A178B02A6BF557C58F6ED9B3C076D37ContentKindFeedItemDataSourceProvider"
+- "_TtC18HealthExperienceUIP33_A4493740400C52C858983AD72DFA1B2D30NotificationSettingsDataSource"
+- "_TtC18HealthExperienceUIP33_A4493740400C52C858983AD72DFA1B2D42NotificationInvalidAuthorizationDataSource"
+- "_TtC18HealthExperienceUIP33_BCA74C0BC30BBD752EC1F575D19B9BED34HealthSharingUserDefaultSwitchItem"
+- "_TtC18HealthExperienceUIP33_D5414630969AF21D5D6AFC0D3345D69F29HighlightSearchItemDataSource"
+- "_TtC18HealthExperienceUIP33_D5414630969AF21D5D6AFC0D3345D69F33DataTypesWithHighlightsDataSource"
+- "_TtC18HealthExperienceUIP33_E1295E4F774E3322A2D095C2B26FDF3C38PreviewProfileContactOptionsDataSource"
+- "_TtC18HealthExperienceUIP33_E828ABD0A91630D385A83F9365D605AB25FavoritesToggleDataSource"
+- "_TtCC18HealthExperienceUI10PDFBuilder8Document"
+- "_TtCC18HealthExperienceUI16SearchDataSource20EmptyStateDataSource"
+- "_TtCC18HealthExperienceUI16SearchDataSource27CompactEmptyStateDataSource"
+- "_TtCC18HealthExperienceUI16SearchDataSource27RegularEmptyStateDataSource"
+- "_TtCC18HealthExperienceUI20AllNoticesDataSourceP33_4EC926F33B50892D7180DE716B78671B26AlertsAndUpdatesDataSource"
+- "_TtCC18HealthExperienceUI21MultiColumnDataSource12LayoutEngine"
+- "_TtCC18HealthExperienceUI27TextFieldCollectionViewCellP33_CA6334EB88576D7E5F1F357E76DAEE2F32TextFieldCollectionViewCellInner"
+- "_TtCC18HealthExperienceUI29FeatureStatusFeedItemExecutor7Planner"
+- "_TtCC18HealthExperienceUI32ProfilesSharingWithYouDataSource7Context"
+- "_TtCC18HealthExperienceUI35PDFAsyncConfigurationViewControllerP33_41892A8E3AE85A20C0CA0B347A3001CA18PDFGeneratedResult"
+- "_TtCC18HealthExperienceUI35ProfilesYouAreSharingWithDataSource7Context"
+- "_TtCC18HealthExperienceUI39SummarySharingAlertsSelectionDataSourceP33_DBCA476D2670707FCCF6662511BF365A13Configuration"
+- "_TtCC18HealthExperienceUI41SummarySharingDataTypeSelectionDataSourceP33_90A4BE97C9AD775CAB10EB5F12011C5813Configuration"
+- "_TtCCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel27AverageSensitivityViewModel"
+- "_TtCE18HealthExperienceUICSo8NSBundleP33_8275047D74DF357D6FFB41BC6D21BB4D31ClassForLocatingCloudSyncBundle"
+- "_TtCV18HealthExperienceUI17PDFYearPickerView9ViewModel"
+- "_TtCV18HealthExperienceUI21PDFMultiConfigurationP33_48B35AACC125D25596BCE9E0A7EE30EB29PageFormattedDocumentDelegate"
+- "_TtCV18HealthExperienceUI24DisclosureCellHeaderView9ViewModel"
+- "_TtCV18HealthExperienceUI25DismissibleCellHeaderView9ViewModel"
+- "_TtCV18HealthExperienceUI29AudioExposureCurrentValueView9ViewModel"
+- "_TtCV18HealthExperienceUI30MeProfilePictureCachePublisher19SharePublisherCache"
+- "_TtCV18HealthExperienceUI31SummarySharingProfileHeaderView9ViewModel"
+- "_TtCV18HealthExperienceUI35StandardSnidgetCurrentValueDataView9ViewModel"
+- "_TtCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel"
+- "_TtCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView9ViewModel"
+- "_TtP18HealthExperienceUI26TapToRadarButtonDisplaying_"
+- "_TtP18HealthExperienceUI30SnapshotDataSourceEventHandler_"
+- "_TtP18HealthExperienceUI35VibrantNavigationBarItemsPresenting_"
+- "_WDDateBasedAddDataManualEntryItem"
+- "_WDDateWithDurationManualEntryItem"
+- "_WDHeightPickerManualEntryItem"
+- "_WDMultiSelectManualEntryItem"
+- "_WDNumberBasedAddDataManualEntryItem"
+- "_WDTwoPartDateRangeManualEntryItem"
+- "_WDTwoPartDateTimeManualEntryItem"
+- "_accessType"
+- "_actionWithTitle:image:style:handler:shouldDismissHandler:"
+- "_activeCardioFitnessMedications"
+- "_activeEnergyDisplayName"
+- "_activeEnergyEntryItem"
+- "_activityTypeDescriptionForIndex:"
+- "_activityTypeEntryItem"
+- "_activityTypeForIndex:"
+- "_adjustHeaderFrame"
+- "_alertsCount"
+- "_algorithmVersion"
+- "_appearsToBeEmail"
+- "_appearsToBePhoneNumber"
+- "_authorizationStore"
+- "_autoScrollEdgeTransitionDistance"
+- "_avatarImage"
+- "_avatarImageView"
+- "_beginInEditMode"
+- "_betaBlockerUseCell"
+- "_biologicalSexCell"
+- "_biologicalSexDisplayValue"
+- "_biologicalSexObject"
+- "_biologicalSexPicker"
+- "_birthdate"
+- "_birthdateCell"
+- "_birthdateChangeManager"
+- "_birthdateDisplayValue"
+- "_birthdatePicker"
+- "_birthdayCalendar"
+- "_bloodTypeCell"
+- "_bloodTypeDisplayValue"
+- "_bloodTypeObject"
+- "_bloodTypePicker"
+- "_bodyFont"
+- "_bodyMassCharacteristicQuantityWithError:"
+- "_bridgedConfigurationState"
+- "_bridgedUpdateConfigurationUsingState:"
+- "_cachedFirstRestoreState"
+- "_calciumChannelBlockerUseCell"
+- "_cancelButtonItem"
+- "_cardioFitnessMedicationsCell"
+- "_cardioFitnessMedicationsSectionHidden"
+- "_cardioFitnessMedicationsUseWithError:"
+- "_categoryCells"
+- "_categoryValueEntryItem"
+- "_cellWidth"
+- "_cells"
+- "_changesCount"
+- "_characteristicAuthorizationRecordsBySource"
+- "_characteristicType"
+- "_checkmarkedCircleImageView"
+- "_chosenDate"
+- "_circleImageView"
+- "_clearButton"
+- "_configureHeaderView:"
+- "_connectedGymDeviceFullName"
+- "_contentLabel"
+- "_contentLabelFrame"
+- "_createBarButtonItems"
+- "_createBetaBlockerCheckMarkCell"
+- "_createCalciumChannelBlockerCheckMarkCell"
+- "_createCells"
+- "_createEntryItems"
+- "_createHXUIInlineDatePickerTableViewCellWithTitle:datePickerMode:maxDate:"
+- "_createHXUIInlinePickerTableViewCellWithTitle:"
+- "_createHeader"
+- "_createPickers"
+- "_createTableFooterView"
+- "_createTableHeaderView"
+- "_createUITableViewCell"
+- "_createWDManualDataEntryTableViewCellWithDisplayName:unitName:entryType:highlightWhenEditing:"
+- "_creationDate"
+- "_currentCardioFitnessMedicationsUse"
+- "_currentSelection"
+- "_currentSnapshot"
+- "_currentTraitCollection"
+- "_currentValues"
+- "_dataEntryItems"
+- "_dataEntryType"
+- "_dataSource"
+- "_dataSourceState"
+- "_dataValidated"
+- "_dateAsAge:"
+- "_dateCache"
+- "_dateEntryItem"
+- "_dateFormatter"
+- "_datePickerDidChange:"
+- "_datePickerMode"
+- "_dateRangeEntryItem"
+- "_dateRangeItem"
+- "_dateTableViewCell"
+- "_dateTimeEntryItem"
+- "_debug_currentSnapshotState"
+- "_decimalSeparator"
+- "_defaultSelectedIndex"
+- "_delegate"
+- "_deliveryReasonEntryItem"
+- "_detailLabel"
+- "_detailTextString"
+- "_detailsVisibility"
+- "_diastolicEntryItem"
+- "_didUpdateValue"
+- "_disambiguateDateComponents:withCompletion:"
+- "_displayName"
+- "_displayNameLabel"
+- "_displayNameLabelConstraints"
+- "_displayStringForBiologicalSex:"
+- "_displayStringForBirthDate:"
+- "_displayStringForBloodType:"
+- "_displayStringForFitzpatrickSkinType:"
+- "_displayStringForWheelchairUse:"
+- "_displayType"
+- "_displayTypeController"
+- "_displayTypeForDistanceType:"
+- "_displayTypeForIdentifier:"
+- "_distanceDisplayName"
+- "_distanceEntryItem"
+- "_distanceType"
+- "_durationItem"
+- "_electrocardiogramClassificationEntryItem"
+- "_enableEditing"
+- "_endItem"
+- "_endItemDidChange"
+- "_errorMessage"
+- "_expanded"
+- "_featureState"
+- "_featureStatus"
+- "_feetUnitString"
+- "_fetchAuthorizationRecordsBySourceForCharacteristic:"
+- "_fetchDataFromHealthStore"
+- "_firstName"
+- "_firstNameCell"
+- "_fitzpatrickSkinTypeCell"
+- "_fitzpatrickSkinTypeDisplayValue"
+- "_fitzpatrickSkinTypeObject"
+- "_fitzpatrickSkinTypePicker"
+- "_footerTitleProvider"
+- "_footerView"
+- "_gatherDataAndRefreshUI"
+- "_generalInfoFooterView"
+- "_generateSortedActivityTypes"
+- "_generateValue:"
+- "_gregorianCalendar"
+- "_handlePregnancyModelQueryResult:error:"
+- "_handleReturnedImage:forSource:cell:tableView:fetchError:"
+- "_hasCategoryValueEntryItem"
+- "_hasFirstPartyBundleID"
+- "_hasSetUpHeaderAndFooterViews"
+- "_headerView"
+- "_healthExperienceStore"
+- "_healthStore"
+- "_heightCharacteristicQuantityWithError:"
+- "_heightPickerManualEntryItem"
+- "_highlightWhenEditing"
+- "_hk_featureAvailabilityRequirements"
+- "_identifier"
+- "_inchUnitString"
+- "_indexOfActivityType:"
+- "_initialBirthdayValue"
+- "_initialStartDate"
+- "_inputUnitIsFeetWithDisplayType:unitController:"
+- "_inputView"
+- "_integerNumberFormatter"
+- "_internalContentView"
+- "_ios_meContactIdentifierWithError:"
+- "_ios_meContactWithKeysToFetch:error:"
+- "_isAppleHardwareVersion"
+- "_isAppleManufacturer"
+- "_isAppleModel"
+- "_isAppleWatch"
+- "_isCancelling"
+- "_isConnectedGymDevice"
+- "_isExcludedActivityType:"
+- "_isHiddenSource"
+- "_isLoaded"
+- "_isPregnant"
+- "_isStartOfCycleEntryItem"
+- "_items"
+- "_label"
+- "_largeTextLayoutConstraints"
+- "_largeTextValueFieldToUnitLabelSpacingConstraint"
+- "_lastLineBaseline"
+- "_lastName"
+- "_lastNameCell"
+- "_lastValidSanitizedText"
+- "_localeDidChange:"
+- "_manualEntryType"
+- "_manualScrollEdgeAppearanceProgress"
+- "_maximumDate"
+- "_maximumEndDate"
+- "_maximumStartDate"
+- "_meContact"
+- "_mealTimeEntryItem"
+- "_model"
+- "_nameRowsHidden"
+- "_numberFormatter"
+- "_orderedRowIdentifiersBySectionIdentifier"
+- "_orderedSectionIdentifiers"
+- "_orderedTitlesForCategoryValuePicker"
+- "_physicalEffortItem"
+- "_picker"
+- "_pickerFrame"
+- "_pipelineState"
+- "_preferredFontForTextStyle:maximumContentSizeCategory:compatibleWithTraitCollection:"
+- "_preferredFontForTextStyle:variant:"
+- "_preferredFontForTextStyle:weight:"
+- "_pregnancyCell"
+- "_pregnancyModelQuery"
+- "_pregnancySectionHidden"
+- "_prepareActivity:"
+- "_profileRowIdentifierForSection:"
+- "_profileSectionIdentifierForIndex:"
+- "_profileWithUUID:type:"
+- "_protectionUsedEntryItem"
+- "_quantityFromEntryItem:unit:"
+- "_quantityWithBeatsPerMinute:"
+- "_reachabilityQueryState"
+- "_regularLayoutConstraints"
+- "_removeDecimalSeparatorsFromText:"
+- "_resetFirstAndLastNameValues"
+- "_resetSelectedCell"
+- "_sanitizedTextFieldText:"
+- "_saveDisambiguatedDate:"
+- "_scaledValueForValue:"
+- "_secondaryLabel"
+- "_sectionHeaderView"
+- "_sections"
+- "_sectionsForDistanceType:"
+- "_sectionsWithDistance"
+- "_sectionsWithoutDistance"
+- "_selectedActivityType"
+- "_selectedCell"
+- "_selectedIndex"
+- "_selectedMaxYear"
+- "_selectedMinYear"
+- "_selectedPickerViewIndex"
+- "_setAutoScrollEdgeTransitionDistance:"
+- "_setBackgroundOpacity:"
+- "_setBadgeColor:"
+- "_setBadgeFont:"
+- "_setBadgeText:"
+- "_setBiologicalSex:error:"
+- "_setBloodType:error:"
+- "_setBodyMassCharacteristicQuantity:error:"
+- "_setBottomPalette:"
+- "_setCardioFitnessMedicationsUse:error:"
+- "_setContentOverlayInsets:"
+- "_setContentUnavailableConfiguration:"
+- "_setContentViewMarginType:"
+- "_setContinuousCornerRadius:"
+- "_setDateOfBirthComponents:error:"
+- "_setDefaultValuesIfNecessary"
+- "_setFitzpatrickSkinType:error:"
+- "_setHeightCharacteristicQuantity:error:"
+- "_setHidesShadow:"
+- "_setHyphenationFactor:"
+- "_setInteractiveTextSelectionDisabled:"
+- "_setLargeTitleAccessoryView:alignToBaseline:"
+- "_setManualScrollEdgeAppearanceEnabled:"
+- "_setManualScrollEdgeAppearanceProgress:"
+- "_setMetadata:"
+- "_setPregnancyCellDisplayValueForState:"
+- "_setSectionContentInset:"
+- "_setSectionContentInsetFollowsLayoutMargins:"
+- "_setShouldPrefetchCellsWhenPerformingReloadData:"
+- "_setSupportsTwoLineLargeTitles:"
+- "_setSymptomsStatus:"
+- "_setWheelchairUse:error:"
+- "_settingsNavigationDonatingDelegate"
+- "_setupConstraints"
+- "_setupEntryItems"
+- "_setupFooterView"
+- "_setupIntegerNumberFormatterIfNeeded"
+- "_setupObservers"
+- "_setupTableViewCells"
+- "_setupUIWithDisplayName:unitName:"
+- "_shouldDisplayNameInFooters"
+- "_shouldHighlightWhenEditing"
+- "_shouldLogApplyingSnapshotWithNumberOfSections"
+- "_showValidationConfirmAlertWithErrorString:"
+- "_showValidationErrorAlertWithErrorString:"
+- "_sourceForIndexPath:"
+- "_sourceListDataSource"
+- "_sourceToAuthRecord"
+- "_specifierID"
+- "_stackView"
+- "_startItem"
+- "_startItemDidChange"
+- "_startPregnancyModelQuery"
+- "_state"
+- "_systemImageNamed:"
+- "_systemImageNamed:withConfiguration:"
+- "_systolicAndDiastolicHaveValues"
+- "_systolicEntryItem"
+- "_tableViewCell"
+- "_tableViewCells"
+- "_timeFormatter"
+- "_timePickerDidChange:"
+- "_timeTableViewCell"
+- "_timeZoneDidChange:"
+- "_title"
+- "_titleForFooterInTableViewSection:sectionIdentifier:"
+- "_titleLabel"
+- "_titles"
+- "_totalDistance"
+- "_totalEnergyBurned"
+- "_unit"
+- "_unitController"
+- "_unitForDistanceType:"
+- "_unitLabel"
+- "_unitTest_hearingAidAvailabilityDidChange"
+- "_unitTest_predicateDidUpdate"
+- "_updateCellLabels"
+- "_updateCellsWithDisplayValues"
+- "_updateCurrentDistanceTypeWithActivityType:"
+- "_updateDecimalSeparator"
+- "_updateDisplayNameLabelConstraints"
+- "_updateFirstAndLastNameCellsWithDisplayValues"
+- "_updateFirstName:lastName:completion:"
+- "_updateFont"
+- "_updateFooters"
+- "_updateForCurrentSizeCategory"
+- "_updateManualEntryItemWithCurrentBMI:"
+- "_updateMargins"
+- "_updateMarginsForWidthDesignation:"
+- "_updatePickersWithDisplayValues"
+- "_updateTableViewCell"
+- "_updateTableViewCellValue"
+- "_userDefaults"
+- "_userInfo"
+- "_validationController"
+- "_value"
+- "_valueEntryItem"
+- "_valueField"
+- "_valueFieldDidChange:"
+- "_valueFieldManualEntryItem"
+- "_visibility"
+- "_wd_deliveryReason"
+- "_wheelchairFooterTitle"
+- "_wheelchairUseCell"
+- "_wheelchairUseDisplayValue"
+- "_wheelchairUseObject"
+- "_wheelchairUsePicker"
+- "_widthDesignationFromTraitCollection:"
+- "_workoutActivityTypePairs"
+- "_workoutWithActivityType:startDate:endDate:workoutEvents:totalEnergyBurned:totalDistance:device:metadata:"
+- "aa_isManagedAppleID"
+- "aa_primaryAppleAccount"
+- "absoluteDimension:"
+- "acceptButton"
+- "acceptInvitationWithUUID:completion:"
+- "accessPoint"
+- "accessType"
+- "accessViewControllerForSample:healthStore:"
+- "accessibilityAccessoryLabel"
+- "accessibilityActivationPoint"
+- "accessibilityConstraints"
+- "accessibilityContrast"
+- "accessibilityElementIsFocused"
+- "accessibilityIdentiferBase"
+- "accessibilityIdentifier"
+- "accessibilityIdentifierBase"
+- "accessibilityLabel"
+- "accessibilityTraits"
+- "accessibilityValue"
+- "accessoryButton"
+- "accessoryColor"
+- "accessoryImage"
+- "accessoryIsSelected"
+- "accessoryLabel"
+- "accessorySeparator"
+- "accessorySpace"
+- "accessoryType"
+- "accessoryView"
+- "accountIdentifier"
+- "accountStore"
+- "accountSupportsSecureContainer"
+- "accountType"
+- "action"
+- "actionButton"
+- "actionButtonTopConstraint"
+- "actionHandler"
+- "actionHandlerClassName"
+- "actionSheetConfig"
+- "actionStyle"
+- "actionTapped"
+- "actionURL"
+- "actionWithTitle:style:handler:"
+- "activateConstraints:"
+- "activeAlgorithmVersionResult"
+- "activeDataSource"
+- "activeDataSourceResolver"
+- "activeInstance"
+- "activePairedDeviceOSBuildNumber"
+- "activePairedDeviceProductType"
+- "activeServices"
+- "activeWatchProductType"
+- "activityIndicatorView"
+- "activityType"
+- "activityViewController:dataTypeIdentifierForActivityType:"
+- "activityViewController:itemForActivityType:"
+- "activityViewController:subjectForActivityType:"
+- "activityViewController:thumbnailImageForActivityType:suggestedSize:"
+- "activityViewControllerLinkMetadata:"
+- "activityViewControllerPlaceholderItem:"
+- "activityViewControllerShareRecipients:"
+- "adaptivePresentationStyleForPresentationController:"
+- "adaptivePresentationStyleForPresentationController:traitCollection:"
+- "addAccessoryButton:"
+- "addAction:"
+- "addArrangedSubview:"
+- "addAttachmentData:typeIdentifier:filename:"
+- "addAttribute:value:range:"
+- "addAttributes:range:"
+- "addAverageHeartRate:"
+- "addBulletedListItemWithTitle:description:image:"
+- "addButton:"
+- "addButtonTapped:"
+- "addChildViewController:"
+- "addClassification:"
+- "addClearButtonTarget:action:"
+- "addClip"
+- "addCompletion:"
+- "addConstraints:"
+- "addDataKeyCommandFired"
+- "addDataTapped:"
+- "addDataViewControllerForDisplayType:"
+- "addDebugMarker:range:"
+- "addGestureRecognizer:"
+- "addKeyCommand:"
+- "addNewRelationshipItem"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addOperation:"
+- "addPageNumbers(to:pageNumberFormat:)"
+- "addResidencySet:"
+- "addResidencySets:count:"
+- "addRichLinkData:withWebpageURL:"
+- "addSamples:toWorkout:completion:"
+- "addSublayer:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "addTarget:action:forEvents:"
+- "addTimer:forMode:"
+- "addToRunLoop:forMode:"
+- "addUserInfoEntriesFromDictionary:"
+- "additionalItemFilter"
+- "additionalItems"
+- "additionalItemsIdentifierToIndexMap"
+- "address"
+- "adjustedContentInset"
+- "adjustedValueForClientValue:"
+- "adjustedValueForDaemonValue:"
+- "advertisableFeatureModel"
+- "age"
+- "ageThreshold"
+- "ageWithCurrentDate:error:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "alertsAndUpdatesDataSource"
+- "alertsDataSource"
+- "alertsLabel"
+- "alertsSelectionVC"
+- "allCategories"
+- "allConstraints"
+- "allCountryCodes"
+- "allDataHideableDataSource"
+- "allDataSummarySection"
+- "allKeys"
+- "allOptionsStack"
+- "allSources"
+- "allSuggestedCategories"
+- "allValuesWithCompletion:"
+- "allocatedSize"
+- "allowAnimations"
+- "allowEmptySections"
+- "allowedDecimalPrecisionRuleForUnit:"
+- "allowedServices"
+- "allowsChildrenHiding"
+- "allowsManualEntry"
+- "allowsPageBreaks"
+- "alpha"
+- "analyticsDelegate"
+- "analyticsEvent"
+- "analyticsSource"
+- "analyticsSubmissionQueue"
+- "andPredicateWithSubpredicates:"
+- "angle"
+- "animateChanges"
+- "animateCloudSync"
+- "animateWithDuration:animations:"
+- "animateWithDuration:animations:completion:"
+- "animateWithDuration:delay:options:animations:completion:"
+- "animation"
+- "animationView"
+- "anyCancellable"
+- "appDidBecomeActive"
+- "appDidEnterBackground"
+- "appDidEnterBackground:"
+- "appSourcesItem"
+- "appString"
+- "appWillEnterForeground:"
+- "appendAttributedString:"
+- "appendItemsWithIdentifiers:intoSectionWithIdentifier:"
+- "appendSectionsWithIdentifiers:"
+- "appleWatchLabel"
+- "applicationStateProvider"
+- "applySnapshot:animatingDifferences:"
+- "appsAndReSearchSectionDataSource"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areAllRequirementsSatisfied"
+- "areNotificationsDisabled"
+- "arrangedSections"
+- "arrangedSectionsIdentifierToIndexMap"
+- "arrangedSubviews"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithObjects:count:"
+- "articlesPredicate"
+- "ascender"
+- "associatedObjectType"
+- "attachmentWithIdentifier:URL:options:error:"
+- "attributeSet"
+- "attributedStringWithAttachment:"
+- "attributedSubstringFromRange:"
+- "attributedText"
+- "attributesAtIndex:effectiveRange:"
+- "attribution"
+- "authorizationStatus"
+- "authorizationStatusForEntityType:"
+- "autocompleteResults"
+- "autocompleteResultsController:didAskToRemoveRecipient:"
+- "autocompleteResultsController:didCollapseSelectedRecipient:"
+- "autocompleteResultsController:didEndDisplayingRowForRecipient:"
+- "autocompleteResultsController:didExpandSelectedRecipient:"
+- "autocompleteResultsController:didRequestInfoAboutRecipient:"
+- "autocompleteResultsController:didSelectRecipient:atIndex:"
+- "autocompleteResultsController:preferredRecipientForRecipient:"
+- "autocompleteResultsController:preferredRecipientForRecipients:"
+- "autocompleteResultsController:tintColorForRecipient:completion:"
+- "autocompleteResultsController:willCollapseSelectedRecipient:"
+- "autocompleteResultsController:willDisplayRowForRecipient:"
+- "autocompleteResultsController:willExpandSelectedRecipient:"
+- "autocompleteResultsController:willOverrideImageDataForRecipient:completion:"
+- "autocompleteResultsControllerWillBeginToScroll:"
+- "autogenerate"
+- "automationIdentifierPrefix"
+- "autorelease"
+- "availableContentViewHeight"
+- "avatar"
+- "avatarImage"
+- "avatarImageSize"
+- "avatarImageView"
+- "avatarSize"
+- "avatarViewSize"
+- "averageQuantity"
+- "averageQuantityForType:unit:predicate:completion:"
+- "awakeFromNib"
+- "axItemIsFavorited"
+- "backButtonTapped:"
+- "backgroundColor"
+- "backgroundViews"
+- "backingDataSource"
+- "baseAutomationIdentifier"
+- "baseConstraintsActive"
+- "baseFetchedResultsDataSource"
+- "baseIdentifier"
+- "basePredicate"
+- "baselineDateInterval"
+- "baselineQuantity"
+- "becomeFirstResponder"
+- "beganNetworkActivity"
+- "beginEditing"
+- "beginObservingReachabilityStatusForIdentifiers:isInitialQuery:completion:"
+- "beginPage"
+- "beginUpdates"
+- "bestPaperForPageSize:withPapersFromArray:"
+- "bezierPathWithRect:"
+- "bezierPathWithRoundedRect:cornerRadius:"
+- "biologicalSex"
+- "biologicalSexObject"
+- "biologicalSexWithError:"
+- "birthdateChangeManager"
+- "birthdateChanged:"
+- "birthday"
+- "blackColor"
+- "bloodType"
+- "bloodTypeObject"
+- "bloodTypeWithError:"
+- "blueColor"
+- "bluetoothIdentifier"
+- "blurView"
+- "bodyFont"
+- "bodyLabel"
+- "bodyText"
+- "boldButton"
+- "boldSystemFontOfSize:"
+- "boolForKey:"
+- "boolValue"
+- "bottomAccessoryViewBottomConstraint"
+- "bottomAccessoryViewHeightConstraint"
+- "bottomAnchor"
+- "bottomAnchorConstraint"
+- "bottomConstraint"
+- "boundarySupplementaryItemWithLayoutSize:elementKind:alignment:"
+- "boundarySupplementaryItems"
+- "boundingRectWithSize:options:context:"
+- "bounds"
+- "boundsForBox:"
+- "bringSubviewToFront:"
+- "brokenFeatures"
+- "buddyFlowUserInfo"
+- "buddyFlowUserInfoWithDemographicsInformation:"
+- "builderFromDataFile:startDate:"
+- "bulletTitleVerticalAlignmentConstraints"
+- "bundle"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundlePath"
+- "bundleWithIdentifier:"
+- "button"
+- "buttonBackgroundColor"
+- "buttonConfiguration"
+- "buttonHorizontalConstraints"
+- "buttonLabelColor"
+- "buttonTapped:"
+- "buttonText"
+- "buttonTray"
+- "buttonWasTapped"
+- "buttonWithType:"
+- "cache"
+- "cacheOrder"
+- "cachePointer"
+- "cacheSize"
+- "cachedModelReferencesDataSource"
+- "cachedPluginViewModels"
+- "cachedPresentingViewController"
+- "cachedSharableModelReferencesPublisher"
+- "calculateBMIWithCompletion:"
+- "calendar"
+- "calendarOverride"
+- "calendarWithIdentifier:"
+- "canBecomeFirstResponder"
+- "canCompleteOnboardingForCountryCode:error:"
+- "canEditSelection"
+- "canOpenLinkWithSourceIdentifier:destinationIdentifier:"
+- "canSendAttachments"
+- "canSendText"
+- "cancelAllOperations"
+- "cancelButton"
+- "cancelButtonTapped"
+- "cancelButtonTapped:"
+- "cancelButtonTitle"
+- "cancelHandler"
+- "cancelInteractiveGenerationRequestNotificationWithNotification:"
+- "cancelPreviousPerformRequestsWithTarget:"
+- "cancelTaskWithID:"
+- "cancelTimers"
+- "cancellable"
+- "cancellables"
+- "capHeight"
+- "cardStackChangeDelegate"
+- "cardStackView"
+- "cardioFitnessMedicationsSectionHiddenForProfileIdentifier:"
+- "categoriesDataSource"
+- "categoriesMetadata"
+- "categoryID"
+- "categoryName"
+- "categorySampleWithType:value:startDate:endDate:device:metadata:"
+- "categorySampleWithType:value:startDate:endDate:metadata:"
+- "categoryTypeForIdentifier:"
+- "categoryValue"
+- "categoryValueEntryItem"
+- "categoryViewDataSource"
+- "categoryWithID:"
+- "cell"
+- "cellAtIndex:"
+- "cellForItemAtIndexPath:"
+- "cellForItemTapped:"
+- "cellForRowAtIndexPath:"
+- "cellRegistrationBlock"
+- "cellResolution"
+- "cellSelectionHandler"
+- "cellState"
+- "cellTitle"
+- "cellTypes"
+- "centerXAnchor"
+- "centerYAnchor"
+- "centeredConstraints"
+- "changeDateInterval"
+- "changeObservers"
+- "changeQuantity"
+- "changesLabel"
+- "characterDirectionForLanguage:"
+- "characteristicTypeForIdentifier:"
+- "characteristicsDataSourceItem"
+- "characteristicsProvider"
+- "characteristicsTypeCountForDisplayType:"
+- "chartFactory"
+- "chartImageProvider"
+- "chartModel"
+- "chartParameters"
+- "chartPoints"
+- "chartString"
+- "chartViewController"
+- "chartingRules"
+- "chevron.backward"
+- "childDataSourceLock"
+- "childDataSourcesChangesSink"
+- "childViewControllers"
+- "children"
+- "chrOnly"
+- "chromeHostView"
+- "class"
+- "classForAnnotationType:"
+- "classForPage"
+- "classNamed:"
+- "classification"
+- "clearButton"
+- "clearButtonWidthConstraint"
+- "clearColor"
+- "clearPendingFollowUpItemsWithCompletion:"
+- "clearsSelectionOnViewWillAppear"
+- "closeButtonTapped:"
+- "cloudShareSyncManager"
+- "cloudStateOrPinnedContentOrEmptyStateDataSource"
+- "cloudSyncDataSource"
+- "cloudSyncDetailView"
+- "cloudSyncObserver"
+- "cloudSyncObserver:didFailToPopulateStatusWithError:"
+- "cloudSyncObserver:syncCompletedForRequest:"
+- "cloudSyncObserver:syncDidStartWithProgress:"
+- "cloudSyncObserver:syncFailedForRequest:error:"
+- "cloudSyncObserver:syncFailedWithError:"
+- "cloudSyncObserver:syncStartedForRequest:withProgress:"
+- "cloudSyncObserverStatusUpdated:status:"
+- "cloudSyncObserverSyncCompleted:"
+- "cloudSyncStateObserver"
+- "cloudSyncStatusSubscription"
+- "codableECG"
+- "code"
+- "collapseEmptySections"
+- "collectionView"
+- "collectionView:canMoveItemAtIndexPath:"
+- "collectionView:cellForItemAtIndexPath:"
+- "collectionView:contextMenuConfigurationForItemAtIndexPath:point:"
+- "collectionView:didSelectItemAtIndexPath:"
+- "collectionView:indexPathForIndexTitle:atIndex:"
+- "collectionView:moveItemAtIndexPath:toIndexPath:"
+- "collectionView:numberOfItemsInSection:"
+- "collectionView:selectionFollowsFocusForItemAtIndexPath:"
+- "collectionView:shouldHighlightItemAtIndexPath:"
+- "collectionView:shouldSelectItemAtIndexPath:"
+- "collectionView:targetIndexPathForMoveOfItemFromOriginalIndexPath:atCurrentIndexPath:toProposedIndexPath:"
+- "collectionView:viewForSupplementaryElementOfKind:atIndexPath:"
+- "collectionViewBackgroundColor"
+- "collectionViewController"
+- "collectionViewController_"
+- "collectionViewLayout"
+- "color"
+- "colorAttachments"
+- "colorWithAlphaComponent:"
+- "colors"
+- "columnDelegate"
+- "columnItems"
+- "columnSpacing"
+- "columns"
+- "commandBuffer"
+- "commandBufferWithDescriptor:"
+- "commandBufferWithUnretainedReferences"
+- "commandQueue"
+- "commandWithTitle:image:action:input:modifierFlags:propertyList:"
+- "commit"
+- "compactDatePickerView:didChangeValue:"
+- "compactWidthButtonConstraints"
+- "compare:"
+- "completedPageIdentifierPreceedsFlowSelection"
+- "components:fromDate:"
+- "components:fromDate:toDate:options:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "configuration"
+- "configurationByApplyingConfiguration:"
+- "configurationDataSource"
+- "configurationPreferringMulticolor"
+- "configurationProvider"
+- "configurationWithFont:"
+- "configurationWithFont:scale:"
+- "configurationWithHierarchicalColor:"
+- "configurationWithPaletteColors:"
+- "configurationWithPointSize:"
+- "configurationWithPointSize:weight:scale:"
+- "configurationWithScale:"
+- "configurationWithTextStyle:"
+- "configurationWithTextStyle:scale:"
+- "configurationWithWeight:"
+- "configureCell"
+- "confirmDetailsSections"
+- "confirmationVC"
+- "conformsToProtocol:"
+- "connectedScenes"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToAnchor:multiplier:"
+- "constraintEqualToConstant:"
+- "constraintEqualToSystemSpacingAfterAnchor:multiplier:"
+- "constraintEqualToSystemSpacingBelowAnchor:multiplier:"
+- "constraintGreaterThanOrEqualToAnchor:"
+- "constraintGreaterThanOrEqualToAnchor:constant:"
+- "constraintGreaterThanOrEqualToAnchor:multiplier:"
+- "constraintGreaterThanOrEqualToConstant:"
+- "constraintLessThanOrEqualToAnchor:"
+- "constraintLessThanOrEqualToAnchor:constant:"
+- "constraintLessThanOrEqualToAnchor:multiplier:"
+- "constraintLessThanOrEqualToConstant:"
+- "constraints"
+- "constraintsWithVisualFormat:options:metrics:views:"
+- "consumeAutocompleteSearchResults:taskID:"
+- "consumeCorecipientSearchResults:taskID:"
+- "contact"
+- "contactButtonDelegate"
+- "contactOptions"
+- "contactPicker:didSelectContact:"
+- "contactPicker:didSelectContactProperties:"
+- "contactPicker:didSelectContactProperty:"
+- "contactPicker:didSelectContacts:"
+- "contactPickerDidCancel:"
+- "contactQuickActionType"
+- "contactViewController:didCompleteWithContact:"
+- "contactViewController:shouldPerformDefaultActionForContactProperty:"
+- "container"
+- "containerView"
+- "containerViewBackgroundColor"
+- "containsObject:"
+- "content"
+- "contentHeaderHeight"
+- "contentHeaderView"
+- "contentInset"
+- "contentInsets"
+- "contentInsetsReference"
+- "contentKinds"
+- "contentLabelHeightForBoundsSize:"
+- "contentOffset"
+- "contentProvider"
+- "contentSize"
+- "contentSizeObserver"
+- "contentVersion"
+- "contentView"
+- "contentViewBottomConstraint"
+- "contentViewHeightConstraint"
+- "contents"
+- "contentsAreFlipped"
+- "contentsScale"
+- "contentsTransform"
+- "context"
+- "continueButton"
+- "continueButtonTapped:"
+- "controller:didChangeContentWithDifference:"
+- "controller:didChangeContentWithSnapshot:"
+- "controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:"
+- "controller:didChangeSection:atIndex:forChangeType:"
+- "controller:sectionIndexTitleForSectionName:"
+- "controllerDidChangeContent:"
+- "controllerWillChangeContent:"
+- "convertPoint:toCoordinateSpace:"
+- "convertRect:toView:"
+- "copy"
+- "copyWithZone:"
+- "correlatedItemsMapping"
+- "correlationTypeForIdentifier:"
+- "correlationWithType:startDate:endDate:objects:metadata:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countErrors"
+- "countResult"
+- "countUnit"
+- "coveredTimeScopeRawValue"
+- "cpuCacheMode"
+- "createAndStartExportForViewController:shareSheetSourceView:"
+- "createDataSourcesTableViewController:"
+- "createDetailViewControllerForSourceModel:healthStore:completion:"
+- "createDeviceStoredDataViewControllerForDevice:displayName:isBluetoothDevice:deviceIdentifier:healthStore:usingInsetStyling:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createHKUnitPreferenceController"
+- "createListViewController:"
+- "createLocalDeviceStoredDataViewControllerForSource:withHealthStore:usingInsetStyling:"
+- "createPluginDebugActionProvider(hkType:pluginName:)"
+- "createResearchStudySourcesViewControllerUsingInsetStyling:restorationStudyBundleIdentifier:"
+- "createSingleAppAuthorizationViewControllerUsingInsetStyling:restorationApplicationBundleIdentifier:"
+- "createTitledListItem:titleAccessibilityIdentifier:listBody:bodyAccessibilityIdentifier:itemNumber:"
+- "createUnitPreferencesController:"
+- "createValueFieldManualEntryItem"
+- "createWatchStoredDataViewControllerForSource:withHealthStore:usingInsetStyling:"
+- "currentAccountSecureContainerSupport"
+- "currentAnalytics"
+- "currentAuthorizations"
+- "currentCalendar"
+- "currentChildViewController"
+- "currentColumnIndex"
+- "currentDataSource"
+- "currentDate"
+- "currentDateLabelConstraints"
+- "currentDeviceDisplayName"
+- "currentDisclosureIndicatorConstraints"
+- "currentEndSharingRelationshipFlow"
+- "currentFeedItemUniqueIdentifier"
+- "currentHandler"
+- "currentHeight"
+- "currentItemsReuseIdentifiers"
+- "currentLayoutConstraints"
+- "currentLocale"
+- "currentMedicalIDDataResultCancellable"
+- "currentMedicalIDDataResultPresented"
+- "currentSearchTaskID"
+- "currentSizeClass"
+- "currentSnapshot"
+- "currentSpinnerConstraints"
+- "currentStyle"
+- "currentSyncStatus"
+- "currentTask"
+- "currentTileHeaderDetailKind"
+- "currentTraitCollection"
+- "currentUserInterface"
+- "currentValue"
+- "currentViewModel"
+- "currentWeight"
+- "customContentView"
+- "customIconContainerView"
+- "customUpdatePredicate"
+- "customView"
+- "d16@0:8"
+- "d24@0:8d16"
+- "d32@0:8@\"UIPickerView\"16q24"
+- "d32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "d32@0:8@\"UITableView\"16q24"
+- "d32@0:8@16@24"
+- "d32@0:8@16q24"
+- "d32@0:8d16@\"UITableView\"24"
+- "d32@0:8d16@24"
+- "darkGrayColor"
+- "darkTextColor"
+- "data"
+- "dataEntryItemDonePressed:"
+- "dataEntryItemNextPressed:"
+- "dataEntryItemPrevPressed:"
+- "dataEntryItems"
+- "dataMetadataDelegate"
+- "dataRepresentation"
+- "dataSource"
+- "dataSourceAdaptor"
+- "dataSourceDelegate"
+- "dataSourceItems"
+- "dataSourceProvider"
+- "dataSources"
+- "dataType"
+- "dataTypeSelectionCVC"
+- "dataTypeSelectionDataSources"
+- "dataTypeWithCode:"
+- "dataTypeWithNumber:"
+- "dataWithContentsOfURL:"
+- "dataWithJSONObject:options:error:"
+- "dateByAddingTimeInterval:"
+- "dateCache"
+- "dateEntryItem"
+- "dateFormatFromTemplate:options:locale:"
+- "dateFormatter"
+- "dateFromComponents:"
+- "dateGenerator"
+- "dateInterval"
+- "dateItemWithMaximumDate:"
+- "dateLabel"
+- "dateMostRecent"
+- "dateOfBirthComponents"
+- "dateOfBirthComponentsWithError:"
+- "datePicker"
+- "datePickerMode"
+- "dateProvider"
+- "dateRange"
+- "dateScaleStep"
+- "dateSubmitted"
+- "dateTimeEntryItem"
+- "dateTimeItemWithMaximumDate:displayName:"
+- "dateTimeItemWithMaximumDate:highlightWhenEditing:displayName:"
+- "day"
+- "dayIndex"
+- "deactivateConstraints:"
+- "dealloc"
+- "debugDescription"
+- "decimalSeparator"
+- "declineButton"
+- "declineInvitationWithUUID:completion:"
+- "defaultAge"
+- "defaultAvatarImageSymbolConfiguration"
+- "defaultCenter"
+- "defaultCentimeterValue"
+- "defaultConfiguration"
+- "defaultDataEntryItems"
+- "defaultDataSource"
+- "defaultDeviceIconTableUIForSource:"
+- "defaultEditingItem"
+- "defaultICloudAccount"
+- "defaultLimit"
+- "defaultManager"
+- "defaultMetadata"
+- "defaultParagraphStyle"
+- "defaultPredicateForSampleType:"
+- "defaultProvider"
+- "defaultReuseIdentifier"
+- "defaultWorkspace"
+- "delayAnimation"
+- "delegate"
+- "deleteItemsWithIdentifiers:"
+- "deleteMedicalIDDataWithCompletion:"
+- "deliveryReasonEntryItem"
+- "demographicsDataSource"
+- "dequeueReusableCellWithIdentifier:"
+- "dequeueReusableCellWithIdentifier:forIndexPath:"
+- "dequeueReusableCellWithReuseIdentifier:forIndexPath:"
+- "dequeueReusableHeaderFooterViewWithIdentifier:"
+- "dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:"
+- "descender"
+- "descriptionHeightConstraints"
+- "descriptionLabel"
+- "descriptionProvider"
+- "descriptorForRequiredKeys"
+- "deselectItemAtIndexPath:animated:"
+- "deselectRowAtIndexPath:animated:"
+- "deselectionBehavior"
+- "detailButtonTapped:"
+- "detailContainerView"
+- "detailDate"
+- "detailLabel"
+- "detailMaxNumberOfLines"
+- "detailMode"
+- "detailSectionForSample:"
+- "detailText"
+- "detailTextColor"
+- "detailTextField"
+- "detailTextLabel"
+- "detailTextLabelHiddenConstraints"
+- "detailTextLabelVisibleConstraints"
+- "detailTextObservation"
+- "detailTextViewTopAnchor"
+- "detailToAccessory"
+- "detailToDismiss"
+- "detailToTitle"
+- "detailViewController"
+- "detailsProvider"
+- "detailsSubject"
+- "detailsVisibility"
+- "device"
+- "deviceContextStore"
+- "deviceProvider"
+- "deviceSectionForSample:"
+- "diagramStyle"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithPropertyValues"
+- "didBecomeActiveWithNotification:"
+- "didChangePreferredContentSize"
+- "didClearBirthdate"
+- "didDismissSearchController:"
+- "didEnterBackgroundWithNotification:"
+- "didLongPress:"
+- "didMatchString:"
+- "didModifyRange:"
+- "didMoveToParentViewController:"
+- "didMoveToSuperview"
+- "didMoveToWindow"
+- "didPinchPDF:"
+- "didPresentSearchController:"
+- "didReceiveMemoryWarning:"
+- "didReceiveSignificantTimeChangeNotification:"
+- "didSelect"
+- "didSelectCell:in:"
+- "didTapAction"
+- "didTapAction:"
+- "didTapActionButton"
+- "didTapButton:"
+- "didTapCancel"
+- "didTapCancel:"
+- "didTapClear"
+- "didTapClose"
+- "didTapDone:"
+- "didTapDontShare:"
+- "didTapLearnMore:"
+- "didTapLink"
+- "didTapLinkAction:"
+- "didTapNext:"
+- "didTapPregnancy"
+- "didTapReviewLater"
+- "didTapSave:"
+- "didTapShare:"
+- "didUpdateName"
+- "diffableDataSource"
+- "digits"
+- "dimension"
+- "directSearchResultProvider"
+- "direction"
+- "directionalLayoutMargins"
+- "disabledState"
+- "disclosureImageViewTrailingConstraint"
+- "disclosureImageViewWidthConstraint"
+- "discoverabilityTitle"
+- "dismissButton"
+- "dismissButtonTapped:"
+- "dismissContactViewController"
+- "dismissNavigationController"
+- "dismissOptions:"
+- "dismissProfile:"
+- "dismissTapped"
+- "dismissToTop"
+- "dismissToTrailing"
+- "dismissView"
+- "dismissViewControllerAnimated:completion:"
+- "display"
+- "displayCategories"
+- "displayCategory"
+- "displayLink"
+- "displayLinkAdded"
+- "displayLinkWithTarget:selector:"
+- "displayName"
+- "displayNameKey"
+- "displayNumberOfActiveCardioFitnessMedications:"
+- "displayScale"
+- "displayStringForBiologicalSex:"
+- "displayStringForBloodType:"
+- "displayStringForFitzpatrickSkinType:"
+- "displayStringForWheelchairUse:"
+- "displayType"
+- "displayTypeController"
+- "displayTypeForObjectType:"
+- "displayTypeIdentifier"
+- "displayTypeIdentifierString"
+- "displayTypeWithIdentifier:"
+- "displayValue"
+- "document"
+- "documentDidBeginDocumentFind:"
+- "documentDidBeginPageFind:"
+- "documentDidEndDocumentFind:"
+- "documentDidEndPageFind:"
+- "documentDidFindMatch:"
+- "documentDidUnlock:"
+- "donateWithDeepLink:andTitle:"
+- "doneButton"
+- "doneButtonTapped"
+- "dontShareButton"
+- "doubleLabelImageSpaceForBrowse"
+- "doubleValue"
+- "doubleValueForUnit:"
+- "downloadingDataDataSource"
+- "downloadingDataItem"
+- "downloadingItem"
+- "drawAtPoint:"
+- "drawAtPoint:withAttributes:"
+- "drawInRect:"
+- "drawInRect:blendMode:alpha:"
+- "drawPrimitives:vertexStart:vertexCount:"
+- "drawRect:"
+- "drawViewHierarchyInRect:afterScreenUpdates:"
+- "drawWithBox:toContext:"
+- "drawWithRect:options:context:"
+- "duration"
+- "durationItemWithMaximumDate:"
+- "dwellPolicy"
+- "earliestDateLowestOnboardingVersionCompletedWithError:"
+- "editButtonItem"
+- "editableTextField"
+- "effectForBlurEffect:style:"
+- "effectWithStyle:"
+- "effectiveContentSize"
+- "effectiveGeometry"
+- "effectiveUserInterfaceLayoutDirection"
+- "electrocardiogramType"
+- "emailAddresses"
+- "embeddedDisplayName"
+- "emergencyDefaultsDomainWithHealthStore:"
+- "emergencyStatus"
+- "enableInteraction"
+- "enabled"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endDate"
+- "endEditing"
+- "endEditing:"
+- "endEncoding"
+- "endOfDayMidnight"
+- "endSharingRelationshipItem"
+- "endSharingRelationshipState"
+- "endUpdates"
+- "endedNetworkActivity"
+- "enhancedSearchResultProvider"
+- "enumerateAttribute:inRange:options:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "environmentDataSource"
+- "era"
+- "errorDataSource"
+- "errorRequiringUserAction"
+- "estimatedDimension:"
+- "estimatedHeight"
+- "eventHandler"
+- "eventHandlerSink"
+- "executeQuery:"
+- "existingObjectWithID:error:"
+- "expanded"
+- "expandedHeight"
+- "exportDataSource"
+- "externalSourceAssistantService"
+- "fadeView"
+- "familyName"
+- "faultingState"
+- "favoriteChangedSink"
+- "favoritesDescriptionDataSource"
+- "favoritesToggleDataSource"
+- "featureAvailabilityProviderForIdentifier:"
+- "featureAvailabilityProvidingDidUpdateOnboardingCompletion:"
+- "featureAvailabilityProvidingDidUpdateSettings:"
+- "featureAvailabilityProvidingForFeatureIdentifier:"
+- "featureAvailabilityRequirementsWithError:"
+- "featureAvailabilityStore"
+- "featureIdentifier"
+- "featureIdentifiers"
+- "featureManager"
+- "featureOnboardingRecordWithError:"
+- "featureSettings"
+- "featureStateModels"
+- "featureStatusManager"
+- "featureStatusProvider"
+- "featureStatusProviderForIdentifier:"
+- "featureVersion"
+- "features"
+- "featuresDataSource"
+- "feedItem"
+- "feedItemContext"
+- "feedItemDisplayBegan"
+- "feedItemDurations"
+- "feedItemProviders"
+- "feetUnitString"
+- "fetchAccountInfoWithCompletion:"
+- "fetchAllShareParticipantEmailAddressesForSharingType:completion:"
+- "fetchAuthorizationRecordsForType:completion:"
+- "fetchGymkitAndBluetoothDevicesMatchingValues:forProperty:completion:"
+- "fetchMedicalIDDataIfSetUpOrCreateDefaultWithCompletion:"
+- "fetchNotificationAuthorizationStatus"
+- "fetchQueue"
+- "fetchRequest"
+- "fetchSharingAuthorizationsWithCompletion:"
+- "fetchSharingEntriesWithCompletion:"
+- "fetchSources"
+- "fetchedItems"
+- "fetchedObjects"
+- "fetchedResultsContext"
+- "fetchedResultsController"
+- "fetchedResultsDataSource"
+- "fileExistsAtPath:"
+- "filePath"
+- "fileURL"
+- "filename"
+- "fillRect:"
+- "finishProcessing"
+- "finishWithDevice:metadata:"
+- "finishedSearchingForAutocompleteResults"
+- "finishedSearchingForCorecipients"
+- "finishedTaskWithID:"
+- "firstAttribute"
+- "firstBaselineAnchor"
+- "firstItem"
+- "firstName"
+- "firstNameItem"
+- "firstObject"
+- "firstRestoreStateChangeHandler"
+- "fitzpatrickSkinTypeObject"
+- "fitzpatrickSkinTypeWithError:"
+- "fixedSpacing:"
+- "flipsHorizontallyInOppositeLayoutDirection"
+- "flow"
+- "focusItemAtIndex:"
+- "font"
+- "fontAttributes"
+- "fontDescriptor"
+- "fontDescriptorByAddingAttributes:"
+- "fontDescriptorWithDesign:"
+- "fontDescriptorWithSymbolicTraits:"
+- "fontWithDescriptor:size:"
+- "footUnit"
+- "footerDataSource"
+- "footerText"
+- "footerTitleProvider"
+- "footerViewForSection:"
+- "forceDayGranularity"
+- "forceVerticalLayout"
+- "foregroundColor"
+- "formattedValueForFeet:"
+- "formattedValueForInches:"
+- "forwardingTargetForSelector:"
+- "foundSearchResults"
+- "fractionalWidthDimension:"
+- "frame"
+- "frameInView:"
+- "frc"
+- "fullName"
+- "fullWidthButtonConstraints"
+- "functionHandleWithBinaryFunction:stage:"
+- "functionHandleWithFunction:stage:"
+- "functionHandleWithName:stage:"
+- "generateHKObjects"
+- "generateValue"
+- "generationRequestNotificationWithNotification:"
+- "gestureRecognizer"
+- "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:"
+- "gestureRecognizer:shouldReceiveEvent:"
+- "gestureRecognizer:shouldReceivePress:"
+- "gestureRecognizer:shouldReceiveTouch:"
+- "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"
+- "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:"
+- "gestureRecognizerShouldBegin:"
+- "getActivePairedDevice"
+- "getBiologicalSex:"
+- "getBloodType:"
+- "getCellForIndexPath:"
+- "getCurrentPregnancyModel"
+- "getFeatureOnboardingRecordWithCompletion:"
+- "getFirstName:"
+- "getFitzpatrickSkinType:"
+- "getLabelFramesForSize:titleFrame:detailFrame:"
+- "getLastName:"
+- "getMoreFromHealthPredicate"
+- "getRed:green:blue:alpha:"
+- "getState"
+- "getWheelchairUse:"
+- "givenName"
+- "glyphBaselineOffset"
+- "glyphImageView"
+- "gpuAddress"
+- "gpuResourceID"
+- "gradientColorProvider"
+- "gradientSubscriber"
+- "gradientView"
+- "gramUnitWithMetricPrefix:"
+- "grayColor"
+- "greenColor"
+- "groupSpecifierWithID:"
+- "gutter"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasAnyFetchResultsDataSource"
+- "hasAnyFetchResultsSink"
+- "hasBackgroundColor"
+- "hasBaselineDateInterval"
+- "hasBaselineQuantity"
+- "hasBeenPersisted"
+- "hasCellularTelephonyCapability"
+- "hasChangeDateInterval"
+- "hasChangeQuantity"
+- "hasChartModel"
+- "hasConfiguredGradientView"
+- "hasCoveredTimeScopeRawValue"
+- "hasDayIndex"
+- "hasDetailDate"
+- "hasDetailText"
+- "hasDetailsVisibility"
+- "hasDisclosureIndicator"
+- "hasDuration"
+- "hasForceDayGranularity"
+- "hasForegroundColor"
+- "hasLatestSupportedVersion"
+- "hasLink"
+- "hasMinimumSupportedVersion"
+- "hasNumberIntValue"
+- "hasPairedWatch"
+- "hasQuantityValue"
+- "hasRunningGeneration"
+- "hasSMSCapability"
+- "hasSectionHeader"
+- "hasShowAllButton"
+- "hasShownIntroduction"
+- "hasSixMonthData"
+- "hasStoredRegistrant"
+- "hasStringValue"
+- "hasSystemImageName"
+- "hasWatchIcon"
+- "hash"
+- "hazardTrackingMode"
+- "headerDataSource"
+- "headerDescriptionDataSource"
+- "headerHeight"
+- "headerImage"
+- "headerLabel"
+- "headerTitle"
+- "headerView"
+- "headingLabel"
+- "health365ContentRoom"
+- "healthAppDefaultsDomainWithHealthStore:"
+- "healthAppNotificationManager"
+- "healthAppSupportedOnDevice"
+- "healthChecklistDataSource"
+- "healthDataSource"
+- "healthExperienceStore"
+- "healthPeripheralsWithCustomProperties:withCompletion:"
+- "healthPeripheralsWithFilter:handler:"
+- "healthRecordsPluginAccounts"
+- "healthRecordsResultsDataSource"
+- "healthSettingsHealthDetailsSpecifier"
+- "healthStore"
+- "heap"
+- "heapOffset"
+- "heartRateType"
+- "heightAnchor"
+- "heightConstraint"
+- "heightPickerItemWithFeetUnitString:inchUnitString:"
+- "heroImageCustomHeight"
+- "heroImageHeightConstraint"
+- "heroImageView"
+- "heroView"
+- "heroViewCustomHeight"
+- "hideShowAllButton"
+- "hidesBusyIndicator"
+- "highlighted"
+- "highlightedColor"
+- "hkType"
+- "hk_addConstraintsWithFormat:options:views:"
+- "hk_ageWithCurrentDate:"
+- "hk_alignConstraintsWithGuide:"
+- "hk_alignConstraintsWithView:"
+- "hk_alignConstraintsWithView:insets:"
+- "hk_alignHorizontalConstraintsWithView:insets:"
+- "hk_alignHorizontalConstraintsWithView:margin:"
+- "hk_alignVerticalConstraintsWithView:margin:"
+- "hk_appInteractionDisabledColor"
+- "hk_appKeyColor"
+- "hk_appTintColor"
+- "hk_asyncOpenURL:"
+- "hk_chartBackgroundColor"
+- "hk_codableDateInterval"
+- "hk_componentsWithDays:"
+- "hk_currentDeviceHas4InchScreen"
+- "hk_currentDeviceHas4Point7InchScreen"
+- "hk_dateIntervalWithCodableDateInterval:sourceTimeZone:"
+- "hk_dateOfBirthDateComponentsWithDate:"
+- "hk_dateWithTruncatedSecond"
+- "hk_disambiguatedDSTDatesForComponents:"
+- "hk_enumeratedValueLabels"
+- "hk_fetchExistingDemographicInformationWithCompletion:"
+- "hk_fetchExistingDemographicInformationWithOptions:completion:"
+- "hk_fontByAddingSymbolicTraits:"
+- "hk_formatMetadataValue:displayType:unitPreferencesController:"
+- "hk_gregorianCalendar"
+- "hk_hearingHealthAudioExposureBackground"
+- "hk_hearingHealthAudioExposureColorForClassification:"
+- "hk_hearingHealthAudiogramLeftEarLineColor"
+- "hk_hearingHealthAudiogramRightEarLineColor"
+- "hk_heartRhythmDefaults"
+- "hk_localizedName"
+- "hk_map:"
+- "hk_maskAllCornersWithRadius:"
+- "hk_mediumMonthDayDateIntervalFormatter"
+- "hk_metadataValueDisplayTypeInStore:"
+- "hk_minimumDateForBirthDateWithCalendar:"
+- "hk_onboardingListDirectionalEdgeInsets"
+- "hk_onboardingListEdgeInsets"
+- "hk_preferredFontForTextStyle:"
+- "hk_preferredFontForTextStyle:symbolicTraits:"
+- "hk_primaryMetadataKey"
+- "hk_resizedInterfaceImageWithSize:"
+- "hk_scalableFontForTextStyle:symbolicTraits:"
+- "hk_secondaryMetadataKey"
+- "hk_showViewController:animated:"
+- "hk_stringByNormalizingSpaces"
+- "hk_tapToHealthRadarURLForComponent:title:description:classification:reproducibility:keywords:autoDiagnostics:attachments:"
+- "hk_tapToHealthRadarURLForComponent:title:description:classification:reproducibility:keywords:autoDiagnostics:attachments:collaborationContactHandles:"
+- "hk_tapToHealthRadarURLWithTitle:description:classification:reproducibility:keywords:autoDiagnostics:attachments:"
+- "hk_valueFormatterForUnit:"
+- "hk_wholeNumberFormatter"
+- "hk_window"
+- "horizontalConstraints"
+- "horizontalGroupWithLayoutSize:repeatingSubitem:count:"
+- "horizontalGroupWithLayoutSize:subitems:"
+- "horizontalSizeClass"
+- "host"
+- "hostView"
+- "hostedFeedItem"
+- "hostedView"
+- "hostedViewable"
+- "hour"
+- "hxui_addCancelButton"
+- "hxui_addContinueButtonWithAccessibilityIdentifier:"
+- "hxui_addCustomImageIconViewWithImageView:accessibilityIdentifier:height:"
+- "hxui_addDoneButtonWithAccessibilityIdentifier:"
+- "hxui_addHeaderAccessoryButtonWithText:accessibilityIdentifier:"
+- "hxui_addNextButtonWithAccessibilityIdentifier:"
+- "hxui_addPrimaryFooterButtonWithTitle:accessibilityIdentifier:"
+- "hxui_addPrimaryFooterButtonWithTitle:bold:accessibilityIdentifier:"
+- "hxui_addSecondaryFooterButtonWithTitle:bold:accessibilityIdentifier:"
+- "hxui_addSkipButtonWithAccessibilityIdentifier:"
+- "hxui_cancelButtonTapped"
+- "hxui_headerAccessoryButtonTapped"
+- "hxui_primaryFooterButtonTapped"
+- "hxui_secondaryFooterButtonTapped"
+- "i"
+- "i20@0:8I16"
+- "icloudAccount"
+- "icloudAccountLabel"
+- "icon"
+- "iconCache"
+- "iconForDevice:"
+- "iconForSource:productType:"
+- "iconHeightConstraint"
+- "iconImageViewLeadingConstraint"
+- "iconImageViewWidthConstraint"
+- "iconPublisher"
+- "iconSize"
+- "iconView"
+- "id"
+- "identifier"
+- "image"
+- "imageAndTextSideBySideConstraints"
+- "imageAndTextStackedConstraints"
+- "imageBackgroundView"
+- "imageByApplyingSymbolConfiguration:"
+- "imageDiameter"
+- "imageHeightConstraint"
+- "imageNamed:inBundle:"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "imageNamed:inBundle:withConfiguration:"
+- "imagePublisherCancellable"
+- "imageTopConstraint"
+- "imageView"
+- "imageViewLeadingConstraint"
+- "imageWithActions:"
+- "imageWithConfiguration:"
+- "imageWithRenderingMode:"
+- "imageWithTintColor:"
+- "imageWithTintColor:renderingMode:"
+- "imageblockMemoryLengthForDimensions:"
+- "imageblockSampleLength"
+- "inEditMode"
+- "inactiveDataSource"
+- "inchUnit"
+- "inchUnitString"
+- "includesContactPermissionInterstitial"
+- "includesSettingUpHealthSharing"
+- "indexOfObject:"
+- "indexPathForCell:"
+- "indexPathForItem:inSection:"
+- "indexPathForItemAtPoint:"
+- "indexPathForPreferredFocusedViewInTableView:"
+- "indexPathForRow:inSection:"
+- "indexPathsForSelectedItems"
+- "indexPathsForVisibleRows"
+- "indexTitle"
+- "indexTitlesForCollectionView:"
+- "indicatorViewTrailingConstraint"
+- "indicatorViewWidthConstraint"
+- "infoDictionary"
+- "init"
+- "init(arrangedSections:collapseEmptySections:layoutSectionProvider:)"
+- "init(managedObjectContext:sourceProfiles:predicate:)"
+- "initForInvitationUUID:"
+- "initForStoreWithDescription:coordinator:"
+- "initForTextStyle:"
+- "initForTimeScope:trendSpans:localizableTrendDescription:"
+- "initWithAccessibilityContainer:"
+- "initWithAction:categoryIdentifier:expirationDate:"
+- "initWithActivityIndicatorStyle:"
+- "initWithActivityItems:applicationActivities:"
+- "initWithActivityType:"
+- "initWithArray:"
+- "initWithAttributedString:"
+- "initWithAutocompleteSearchType:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithBool:"
+- "initWithBounds:"
+- "initWithBuddyFlowUserInfo:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCGImage:"
+- "initWithCalendar:"
+- "initWithCategory:domainName:healthStore:"
+- "initWithChangesSyncRequest:"
+- "initWithClientIdentifier:"
+- "initWithClientIdentifier:healthStore:"
+- "initWithCoder:"
+- "initWithCollectionViewLayout:"
+- "initWithContentIdentifier:context:osBuild:userInfo:"
+- "initWithCustomView:"
+- "initWithData:"
+- "initWithDelegate:queue:"
+- "initWithDisplayName:"
+- "initWithDisplayName:unitName:dataEntryType:"
+- "initWithDisplayType:"
+- "initWithDisplayType:healthStore:unitController:initialStartDate:dateCache:"
+- "initWithDomain:code:userInfo:"
+- "initWithDuration:curve:animations:"
+- "initWithDynamicProvider:"
+- "initWithEffect:"
+- "initWithFeatureIdentifier:"
+- "initWithFeatureIdentifier:healthStore:"
+- "initWithFetchRequest:managedObjectContext:sectionNameKeyPath:cacheName:"
+- "initWithFireDate:interval:repeats:block:"
+- "initWithFrame:"
+- "initWithFrame:collectionViewLayout:"
+- "initWithFrame:initialText:defaultDate:maxYears:"
+- "initWithFrame:style:"
+- "initWithHealthStore:"
+- "initWithHealthStore:characteristicType:firstName:"
+- "initWithHealthStore:characteristicType:identifier:firstName:lastName:"
+- "initWithHealthStore:delegate:"
+- "initWithHealthStore:displayTypeController:source:useInsetStyling:"
+- "initWithHealthStore:inEditMode:"
+- "initWithHealthStore:medicalIDData:displayConfiguration:"
+- "initWithHealthStore:recipientIdentifier:"
+- "initWithHealthStore:sources:queue:"
+- "initWithIconImage:titleText:detailText:tintColor:"
+- "initWithImage:"
+- "initWithImage:highlightedImage:"
+- "initWithImage:options:"
+- "initWithImage:style:target:action:"
+- "initWithInteger:"
+- "initWithInternalAuthorizationRecord:"
+- "initWithItems:"
+- "initWithKey:ascending:"
+- "initWithKey:ascending:selector:"
+- "initWithLayer:"
+- "initWithLongLong:"
+- "initWithMaximumDate:"
+- "initWithMaximumDate:highlightWhenEditing:datePickerMode:displayName:"
+- "initWithMaximumEndDate:"
+- "initWithName:loggingCategory:"
+- "initWithNibName:bundle:"
+- "initWithObject:"
+- "initWithObjects:"
+- "initWithPlaceholderItem:"
+- "initWithPlatformImage:"
+- "initWithProfileIdentifier:useExternalURLScheme:"
+- "initWithProvider:"
+- "initWithPush:pull:lite:"
+- "initWithQuantityType:quantitySamplePredicate:options:completionHandler:"
+- "initWithQueryString:queryContext:"
+- "initWithQueue:"
+- "initWithRed:green:blue:alpha:"
+- "initWithReuseIdentifier:markdown:"
+- "initWithRootViewController:"
+- "initWithSample:usingInsetStyling:profileName:delegate:"
+- "initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:"
+- "initWithSampleType:predicate:resultsHandler:"
+- "initWithSearchResultsController:"
+- "initWithSection:"
+- "initWithSectionProvider:configuration:"
+- "initWithSections:"
+- "initWithSize:"
+- "initWithSize:scale:"
+- "initWithSpecifier:"
+- "initWithString:"
+- "initWithString:attributes:"
+- "initWithStringValue:"
+- "initWithStyle:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithStyle:reuseIdentifier:specifier:"
+- "initWithSuiteName:"
+- "initWithTableView:cellProvider:"
+- "initWithTarget:action:"
+- "initWithTarget:action:bottomInset:width:isLastScreen:"
+- "initWithTimeScopeTrends:selectTrendInitially:"
+- "initWithTitle:"
+- "initWithTitle:datePickerMode:maxDate:"
+- "initWithTitle:detailText:icon:"
+- "initWithTitle:detailText:icon:adoptTableViewScrollView:"
+- "initWithTitle:detailText:icon:contentLayout:"
+- "initWithTitle:detailText:symbolName:"
+- "initWithTitle:detailText:symbolName:adoptTableViewScrollView:"
+- "initWithTitle:detailText:symbolName:contentLayout:"
+- "initWithTitle:image:identifier:children:viewControllerProvider:"
+- "initWithTitle:image:identifier:viewControllerProvider:"
+- "initWithTitle:image:selectedImage:"
+- "initWithTitle:style:target:action:"
+- "initWithTopInset:parentViewController:"
+- "initWithTrendDateInterval:trendAverage:"
+- "initWithType:value:"
+- "initWithUpdateHandler:"
+- "initWithUsingInsetStyling:"
+- "initWithWatchView:"
+- "initialShowWhenLocked"
+- "initialStartDate"
+- "initialTextLabel"
+- "initialValue"
+- "inputView"
+- "insertAttributedString:atIndex:"
+- "insertContiguousSpecifiers:afterSpecifierID:animated:"
+- "insertDebugCaptureBoundary"
+- "insertPage:atIndex:"
+- "insertSegmentWithTitle:atIndex:animated:"
+- "insertSubview:atIndex:"
+- "insertSubview:belowSubview:"
+- "insetSize"
+- "instantiateViewControllerWithIdentifier:"
+- "instantiateWithOwner:options:"
+- "integerValue"
+- "interaction"
+- "interactiveChartForTypeIdentifier:preferredOverlay:chartOptions:displayDateInterval:restorationUserActivity:chartSummaryTrendModel:"
+- "interactivePopGestureRecognizer"
+- "interfaceOrientation"
+- "interfaceOrientationProvider"
+- "internalAppleAccountSettingsURLString"
+- "internalGeneralSettingsURLString"
+- "internalHealthSettingsURLTo:"
+- "internalPrivacySettingsURLString"
+- "internalSettingsURLString"
+- "intrinsicContentSize"
+- "introductionView"
+- "invalidate"
+- "invalidateAddressTintColors"
+- "invalidateIntrinsicContentSize"
+- "invalidateLayout"
+- "invalidatePreferredRecipients"
+- "inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:"
+- "inviteStreamCancellable"
+- "isActionDisabled"
+- "isActive"
+- "isAliasable"
+- "isAnimating"
+- "isAppleInternalInstall"
+- "isAppleWatch"
+- "isBeingDismissed"
+- "isCompactVerticalLayout"
+- "isConferencingAvailable"
+- "isCurrentOnboardingVersionCompletedWithCompletion:"
+- "isCurrentOnboardingVersionCompletedWithError:"
+- "isDisabled"
+- "isDismissible"
+- "isDoneButtonVisible"
+- "isDrawableAvailable"
+- "isEditEnabled"
+- "isEditable"
+- "isEditing"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToString:"
+- "isFaceTimeAppAvailable"
+- "isFaceTimeAudioAvailable"
+- "isFaceTimeProvider"
+- "isFeatureCapabilitySupportedOnActivePairedDeviceWithError:"
+- "isFirstLoad"
+- "isFirstShare"
+- "isFullWidthButton"
+- "isGeometryFlipped"
+- "isGivenNameFirst"
+- "isHeaderLinkEnabled"
+- "isHealthChecklistAvailable"
+- "isHidden"
+- "isHighlighted"
+- "isImproveHealthAndActivityAllowed"
+- "isImproveHealthRecordsAnalyticsSubmissionAllowedWithCompletion:"
+- "isInEditMode"
+- "isInitialReachabilityQuery"
+- "isKindOfClass:"
+- "isMadridConfigured"
+- "isMainThread"
+- "isMaximumDurationRestricted"
+- "isMedicalIDAvailable"
+- "isMemberOfClass:"
+- "isMessagesAppAvailable"
+- "isOn"
+- "isOrganDonationRegistrationAvailable"
+- "isPasscodeSet"
+- "isPausedDataSource"
+- "isPhoneAppAvailable"
+- "isPinnedInBrowse"
+- "isProxy"
+- "isRealityDevice"
+- "isRightToLeft"
+- "isRunningStoreDemoMode"
+- "isSatisfiedWithDataSource:error:"
+- "isSelectable"
+- "isSelected"
+- "isSupportedAttachmentUTI:"
+- "isSymbolImage"
+- "isUserInteractionEnabled"
+- "isValid"
+- "isViewLoaded"
+- "isiPad"
+- "item"
+- "item cellType "
+- "itemBasedTraitRegistration"
+- "itemForCell:"
+- "itemLimit"
+- "itemSize"
+- "itemWithLayoutSize:"
+- "items"
+- "key"
+- "keyValueDomain"
+- "keyValuePairs"
+- "keyValueStorage"
+- "keyboardAvailability"
+- "keyboardLayoutGuide"
+- "keywordSearchResultProvider"
+- "kind"
+- "label"
+- "labelColor"
+- "labelDisplayName"
+- "labelsView"
+- "labelsWithPickerView"
+- "lastAnimate"
+- "lastAvailableContentViewHeight"
+- "lastBaselineAnchor"
+- "lastCloudSyncRestoreState"
+- "lastKnownParticipantSharingStatus"
+- "lastKnownSharingState"
+- "lastName"
+- "lastNameItem"
+- "lastRequestedPreviewImageId"
+- "lastTypesettingResult"
+- "lastUpdatedDate"
+- "lastUpdatedTimestampString"
+- "lastWidthUseForCollectionViewLayout"
+- "latestSupportedVersion"
+- "launchAppForDialRequest:completion:"
+- "layer"
+- "layerClass"
+- "layout"
+- "layoutAnchorWithEdges:"
+- "layoutBackgroundColor"
+- "layoutConstraints"
+- "layoutConstructor"
+- "layoutFrame"
+- "layoutIfNeeded"
+- "layoutMargins"
+- "layoutMarginsGuide"
+- "layoutProvider"
+- "layoutSectionProvider"
+- "layoutSize"
+- "layoutSubviews"
+- "layoutType"
+- "leadingAnchor"
+- "learnMoreButton"
+- "leftBarButtonItem"
+- "leftBarButtonItems"
+- "legacyKeyValueDomain"
+- "legacyUserInterfaceClassName"
+- "length"
+- "limits"
+- "lineHeight"
+- "linkButton"
+- "linkButtonAccessibilityIdentifier"
+- "linkButtonText"
+- "linkColor"
+- "linkWasTapped"
+- "linksEnabled"
+- "listIcon"
+- "listenForMedicalIDUpdatesWithNotification:"
+- "load"
+- "loadIconForSource:productType:completionHandler:"
+- "loadIconForSource:syncHandler:asyncHandler:"
+- "loadView"
+- "loadViewIfNeeded"
+- "loaded"
+- "loadedCompletionBlock"
+- "loadingView"
+- "localAttributes"
+- "localCountrySet"
+- "localDevice"
+- "localIdentifier"
+- "localeDidChange:"
+- "localization"
+- "localizedCaseInsensitiveCompare:"
+- "localizedDisplayNameForDisplayType:"
+- "localizedDisplayNameForUnit:value:"
+- "localizedFeatureName"
+- "localizedFullName"
+- "localizedLongDisplayNameForDisplayType:"
+- "localizedStandardCompare:"
+- "localizedStringForKey:value:table:"
+- "localizedStringForLabel:"
+- "localizedStringFromDate:dateStyle:timeStyle:"
+- "localizedStringFromHeightInCentimeters:"
+- "localizedStringFromPersonNameComponents:style:options:"
+- "localizedStringWithFormat:"
+- "localizedTitle"
+- "localizedTitleForWalkingSteadinessEventCategoryValue:"
+- "localizedUnitDisplayNameForDisplayType:nameContext:"
+- "locationInView:"
+- "lock"
+- "longLongValue"
+- "loopCount"
+- "lowercaseString"
+- "mainBundle"
+- "mainDataSource"
+- "mainQueue"
+- "mainRunLoop"
+- "mainScreen"
+- "makeAliasable"
+- "makeDataListDataProviderClassForDisplayType:hierarchical:"
+- "makeDataListViewControllerForHealthStore:displayType:predicate:"
+- "makeDataSource"
+- "makeObjectsPerformSelector:withObject:"
+- "makeViewController"
+- "managedDataSources"
+- "managedDataSourcesIdentifierToIndexMap"
+- "managedObjectContext"
+- "manualDataEntryTableViewCell:valueDidChangeToValue:"
+- "manualEntryItemDidUpdate:"
+- "manualEntryItemsForSection:"
+- "manualEntrySpinner:titleForRow:"
+- "manualEntryType"
+- "manufacturer"
+- "mapBlock"
+- "maxTotalThreadgroupsPerMeshGrid"
+- "maxTotalThreadsPerMeshThreadgroup"
+- "maxTotalThreadsPerObjectThreadgroup"
+- "maxTotalThreadsPerThreadgroup"
+- "maximumAllowedDuration"
+- "maximumDecimalPrecision"
+- "meContactIdentifier"
+- "mealTimeEntryItem"
+- "medicalDetailsDataSource"
+- "medicalIDCache"
+- "medicalIDDataSourceItem"
+- "medicalIDSetUpStatus"
+- "medicalIDStatus"
+- "medicalIDViewController"
+- "medicalIDViewControllerDidAppear:"
+- "medicalIDViewControllerDidCancel:"
+- "medicalIDViewControllerDidDelete:"
+- "medicalIDViewControllerDidFinish:"
+- "medicalIDViewControllerDidSave:"
+- "medicalIDViewControllerDidUpdate:"
+- "menstrualFlowType"
+- "menuButton"
+- "meshThreadExecutionWidth"
+- "messageComposeViewController"
+- "messageComposeViewController:didFinishWithResult:"
+- "messageTileView"
+- "messageTileViewLeadingConstraint"
+- "messageTileViewTopConstraint"
+- "messageView"
+- "metadata"
+- "metadataDictionary"
+- "meterUnit"
+- "meterUnitWithMetricPrefix:"
+- "minMaxStringForHeartRates:displayTypeController:unitController:"
+- "minimumSupportedVersion"
+- "minimumViewHeight"
+- "minute"
+- "mode"
+- "model"
+- "modelSpecificLocalizedStringKeyForKey:"
+- "monogramRightToLeft"
+- "month"
+- "mostRecentCategorySampleOfType:predicate:completion:"
+- "mostRecentDetails"
+- "mostRecentQuantitySampleOfType:predicate:completion:"
+- "mostRecentSampleOfType:predicate:completion:"
+- "multiColorImageConfiguration"
+- "multiSelectItemWithEntries:selectedIndex:"
+- "multiselectValues"
+- "mutableCopy"
+- "mutableString"
+- "name"
+- "nameLabel"
+- "nameRowsHiddenForProfileIdentifier:"
+- "navigationBar"
+- "navigationBarStyle"
+- "navigationBarTitleView"
+- "navigationController"
+- "navigationDelegate"
+- "navigationItem"
+- "needsGeneration"
+- "needsReviewDataSource"
+- "newAge"
+- "newBufferWithBytes:length:options:"
+- "newBuilderWithStartDate:"
+- "newCommandQueue"
+- "newDefaultLibraryWithBundle:error:"
+- "newFunctionWithName:"
+- "newIntersectionFunctionTableWithDescriptor:stage:"
+- "newRenderPipelineDescriptorForSpecialization"
+- "newRenderPipelineStateWithAdditionalBinaryFunctions:error:"
+- "newRenderPipelineStateWithBinaryFunctions:error:"
+- "newRenderPipelineStateWithDescriptor:error:"
+- "newTensorWithDescriptor:offset:error:"
+- "newTextureWithDescriptor:offset:bytesPerRow:"
+- "newVisibleFunctionTableWithDescriptor:stage:"
+- "nextButton"
+- "nextButtonTapped:"
+- "nextDrawable"
+- "nextIndexToAnimate"
+- "nextResponder"
+- "nextVCHandler"
+- "nibWithNibName:bundle:"
+- "nonAccessibilityConstraints"
+- "normalizedAddress"
+- "notPredicateWithSubpredicate:"
+- "notTrendingDataSource"
+- "noticesDataSource"
+- "notification"
+- "notificationAuthorizationCancellable"
+- "notificationAuthorizationStatus"
+- "notificationCancellable"
+- "notificationCenter"
+- "notificationManager"
+- "notificationSettingsDataSources"
+- "notificationSettingsManager"
+- "notificationType"
+- "notifyObservers:"
+- "numPossibleValues"
+- "numberFormatter"
+- "numberFromString:"
+- "numberIntValue"
+- "numberOfCells"
+- "numberOfColumns"
+- "numberOfComponentsInPickerView:"
+- "numberOfDeviceContextsPerDeviceType:"
+- "numberOfLines"
+- "numberOfObjects"
+- "numberOfPeopleCurrentlyActivelySharingWith"
+- "numberOfRowsInManualEntrySpinner:"
+- "numberOfRowsInSection:"
+- "numberOfSections"
+- "numberOfSectionsInCollectionView:"
+- "numberOfSectionsInTableView:"
+- "numberSuggestedCategoryPages"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "numberingSystem"
+- "numericItemWithManualEntryType:numberFormatter:"
+- "objectAtIndex:"
+- "objectAtIndexPath:"
+- "objectAtIndexedSubscript:"
+- "objectForInfoDictionaryKey:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectID"
+- "objectThreadExecutionWidth"
+- "objectType"
+- "objectWillChange"
+- "objectWithID:"
+- "objects"
+- "observedTraitsChanged"
+- "observedTraitsDidChangeWithTraitEnvironment:previousTraitCollection:"
+- "onClose"
+- "onInternalSettingsGesture"
+- "onLinkTap:"
+- "onLoadAction"
+- "onLoadActionContext"
+- "onboardedCountryCodeSupportedStateWithError:"
+- "onboardedFeaturesDataSource"
+- "onboardingCompletion"
+- "onboardingDataSource"
+- "onboardingEligibilityForCountryCode:error:"
+- "oneMinuteBeforeEndOfDayMidnight"
+- "opaqueSeparatorColor"
+- "openContactsHandler"
+- "openDonateLifeMicroSiteInSafari"
+- "openProfileViewControllerWithSender:"
+- "openSensitiveURL:withOptions:"
+- "openURL:configuration:completionHandler:"
+- "openURL:options:completionHandler:"
+- "openUserActivity:usingApplicationRecord:configuration:completionHandler:"
+- "operations"
+- "options"
+- "optionsButtonTapped:"
+- "optionsDataSource"
+- "orPredicateWithSubpredicates:"
+- "orderedAppSources"
+- "orderedDeviceSources"
+- "orderedResearchStudySources"
+- "orderedRowIdentifiersBySectionIdentifierWithNameRowsHidden:pregnancySectionHidden:cardioFitnessMedicationsSectionHidden:"
+- "orderedSectionIdentifiersForProfile:"
+- "orderedSectionIdentifiersWithPregnancySectionHidden:cardioFitnessMedicationsSectionHidden:"
+- "orderedUninstalledAppSources"
+- "organDonationLogoImage"
+- "organDonationRegisteredViewControllerDelegate"
+- "originalDataSource"
+- "originalPackageSize"
+- "otherItemsDataSource"
+- "outgoingRelationshipsProvider"
+- "overlayView"
+- "overriddenSatisfactionOfRequirementWithIdentifier:"
+- "overrideMask"
+- "overrideSatisfactionOfRequirementWithIdentifier:isSatisfied:"
+- "package"
+- "packageLayer"
+- "packageWithContentsOfURL:type:options:error:"
+- "pageAtIndex:"
+- "pageContinuationRenderables"
+- "pageCount"
+- "pageNumber"
+- "pageNumberFormat"
+- "pageRef"
+- "pagesCompleted"
+- "paginationView"
+- "pairedAttributes"
+- "pairedFeatureAttributesWithError:"
+- "paperSize"
+- "parentViewController"
+- "participants"
+- "pausedStateChanged"
+- "pdfData"
+- "pdfDataProvider"
+- "pdfFileNameProvider"
+- "pdfPadding"
+- "pdfQueue"
+- "pdfState"
+- "pendingInviteHandler"
+- "pendingSearchTask"
+- "performBlock:"
+- "performFetch:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:afterDelay:"
+- "performSelector:withObject:withObject:"
+- "performWithoutAnimation:"
+- "phoneLandscapeSupport"
+- "phoneNumbers"
+- "picker"
+- "pickerDateChanged:"
+- "pickerView"
+- "pickerView:attributedTitleForRow:forComponent:"
+- "pickerView:didSelectRow:inComponent:"
+- "pickerView:maxWidthForComponent:"
+- "pickerView:numberOfRowsInComponent:"
+- "pickerView:rowHeightForComponent:"
+- "pickerView:titleForRow:forComponent:"
+- "pickerView:viewForRow:forComponent:reusingView:"
+- "pickerView:widthForComponent:"
+- "pictureStore"
+- "pictureStoreProvider"
+- "pinchAnimationBackgroundView"
+- "pinchAnimationView"
+- "pinchedPageImageView"
+- "pinnedContentChangesCancellable"
+- "pinnedContentDataSource"
+- "pinnedContentManager"
+- "pinnedContentManagerProvider"
+- "pinnedContentWithCloudStateDataSource"
+- "pinnedFeedItemsPublisher"
+- "pinnedItemsDataSource"
+- "pipelineState"
+- "platformAlertDataSource"
+- "platformVersionMismatchDataSource"
+- "pluginActionHandler"
+- "pluginBundleName"
+- "pluginBundleProvider"
+- "pluginConfigurationProvider"
+- "pluginPackage"
+- "pluginProviding"
+- "pluginVersionMismatchDataSource"
+- "pointSize"
+- "popToRootViewControllerAnimated:"
+- "popToViewController:animated:"
+- "popViewControllerAnimated:"
+- "popoverPresentationController"
+- "positionForBar:"
+- "postNotification:"
+- "postNotificationName:object:"
+- "poundUnit"
+- "predicate"
+- "predicateForSamplesWithStartDate:endDate:inclusiveEndDates:options:"
+- "predicateForSamplesWithinDateInterval:options:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferredContentSize"
+- "preferredContentSizeCategory"
+- "preferredContentSizeCategoryDidChange"
+- "preferredFontDescriptorWithTextStyle:"
+- "preferredFontDescriptorWithTextStyle:compatibleWithTraitCollection:"
+- "preferredFontForTextStyle:"
+- "preferredFontForTextStyle:compatibleWithTraitCollection:"
+- "preferredHeightForWidth:"
+- "preferredHeightForWidth:inTableView:"
+- "preferredLanguages"
+- "preferredLayoutAttributesFittingAttributes:"
+- "preferredStatusBarStyle"
+- "pregnancyModelDidUpdate:"
+- "pregnancyModelProvider"
+- "pregnancyType"
+- "preloadDispatched"
+- "prepareForReuse"
+- "prependedSectionsForSample:"
+- "present"
+- "presentDrawable:"
+- "presentSearchController:"
+- "presentStewieLearnMoreLinkOnViewController:"
+- "presentViewController:animated:completion:"
+- "presentation"
+- "presentationContext"
+- "presentationController"
+- "presentationController:prepareAdaptivePresentationController:"
+- "presentationController:viewControllerForAdaptivePresentationStyle:"
+- "presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:"
+- "presentationControllerDidAttemptToDismiss:"
+- "presentationControllerDidDismiss:"
+- "presentationControllerShouldDismiss:"
+- "presentationControllerWillDismiss:"
+- "presentedViewController"
+- "presenterForPrivacySplashWithIdentifier:"
+- "presentingViewController"
+- "previewDataSource"
+- "previewImages"
+- "previewItem"
+- "previewSummariesProviding"
+- "previousAccessoryView"
+- "previousConfiguration"
+- "previousViewModel"
+- "previousViewSize"
+- "previouslySelectedItemIdentifiers"
+- "primaryButton"
+- "primaryButtonImage"
+- "primaryButtonTintColorOverride"
+- "primaryButtonTitle"
+- "primaryDataSource"
+- "primaryDescriptionLabel"
+- "primaryDescriptionLabelBottomConstraint"
+- "primaryDescriptionStackViewHeightConstraint"
+- "primaryDescriptionStackViewTopSpacingConstraint"
+- "primaryProfileOnly"
+- "primaryString"
+- "printPaper"
+- "privacyDataSource"
+- "profileAllDataDataSource"
+- "profileAvatarDataSource"
+- "profileBeingShared"
+- "profileBeingSharedView"
+- "profileBuddyViewControllerDidTapContinue:"
+- "profileButton"
+- "profileButtonHeightConstraint"
+- "profileHeaderDataSource"
+- "profileIdentifier"
+- "profileImageView"
+- "profileInformation"
+- "profileInformationDataSource"
+- "profileInformationSink"
+- "profileName"
+- "profileNameView"
+- "profilePictureForAccountOwnerWithCompletion:"
+- "profilePictureStoreDidChange:"
+- "profilePictureStoreDidChangeNotificationName"
+- "profileReceivingSharedProfile"
+- "profileReceivingSharedProfileView"
+- "profileSharingDescription"
+- "profileSharingStackedItems"
+- "profilesSharingWithYouDataSource"
+- "profilesYouAreSharingWithDataSource"
+- "propertyForKey:"
+- "provenance"
+- "providedHealthExperienceStore"
+- "providedHealthStore"
+- "providedPresentation"
+- "providedViewContext"
+- "providers"
+- "providersYouAreSharingWithDataSource"
+- "publisherImageView"
+- "publisherProvider"
+- "purpleColor"
+- "pushViewController:animated:"
+- "q16@0:8"
+- "q24@0:8@\"<UIBarPositioning>\"16"
+- "q24@0:8@\"UICollectionView\"16"
+- "q24@0:8@\"UIPickerView\"16"
+- "q24@0:8@\"UIPresentationController\"16"
+- "q24@0:8@\"UITableView\"16"
+- "q24@0:8@\"WDAddDataManualEntrySpinner\"16"
+- "q24@0:8@16"
+- "q24@0:8Q16"
+- "q24@0:8q16"
+- "q32@0:8@\"UICollectionView\"16q24"
+- "q32@0:8@\"UIPickerView\"16q24"
+- "q32@0:8@\"UIPresentationController\"16@\"UITraitCollection\"24"
+- "q32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "q32@0:8@\"UITableView\"16q24"
+- "q32@0:8@16@24"
+- "q32@0:8@16q24"
+- "q40@0:8@\"UITableView\"16@\"NSString\"24q32"
+- "q40@0:8@16@24q32"
+- "quantity"
+- "quantitySampleWithType:quantity:startDate:endDate:"
+- "quantitySampleWithType:quantity:startDate:endDate:metadata:"
+- "quantityTypeForIdentifier:"
+- "quantityValue"
+- "quantityWithUnit:doubleValue:"
+- "quaternaryLabelColor"
+- "queryDataObject"
+- "queryForMostRecentSampleOfType:predicate:completion:"
+- "queryLimit"
+- "queue"
+- "queue_pendingPayload"
+- "raise:format:"
+- "rangeOfString:"
+- "reachabilityQueryStateCancellable"
+- "reachableContactIdentifiers"
+- "realSnapshotDataSourceItem"
+- "recreateViewControllerOnHostedFeedItemChange"
+- "redColor"
+- "reflection"
+- "refreshCellContentsWithSpecifier:"
+- "refreshContentsWithSpecifier:"
+- "regionAvailabilityWithError:"
+- "registerClass:forCellReuseIdentifier:"
+- "registerClass:forCellWithReuseIdentifier:"
+- "registerClass:forHeaderFooterViewReuseIdentifier:"
+- "registerClass:forSupplementaryViewOfKind:withReuseIdentifier:"
+- "registerForTraitChanges:withHandler:"
+- "registerNib:forCellReuseIdentifier:"
+- "registerNib:forCellWithReuseIdentifier:"
+- "registerNib:forHeaderFooterViewReuseIdentifier:"
+- "registerNib:forSupplementaryViewOfKind:withReuseIdentifier:"
+- "registerObserver:"
+- "registerObserver:isUserInitiated:"
+- "registerObserver:queue:"
+- "regularColor"
+- "relationshipDetailsDataSource"
+- "release"
+- "relevantEndDate"
+- "reloadAllComponents"
+- "reloadContent"
+- "reloadData"
+- "reloadManualEntryItems"
+- "reloadManualEntryItemsAndReloadTableView:"
+- "reloadSpecifier:"
+- "reloadSpecifierID:animated:"
+- "reloadSpecifiers"
+- "remoteInteractiveChartForTypeIdentifier:model:chartSummaryTrendModel:displayDate:"
+- "removeAllDebugMarkers"
+- "removeAllSegments"
+- "removeAllStateChanges"
+- "removeAutocorrection"
+- "removeButton:"
+- "removeClearButtonTarget:action:"
+- "removeConstraints:"
+- "removeContiguousSpecifiers:animated:"
+- "removeFeatureSettingValueForKey:completion:"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removeItemAtPath:error:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "removeResidencySet:"
+- "removeResidencySets:count:"
+- "removeValuesForKeys:completion:"
+- "renderCommandEncoderWithDescriptor:"
+- "renderInContext:options:"
+- "replaceCharactersInRange:withString:"
+- "request"
+- "requestAccessForEntityType:completionHandler:"
+- "requestShareItem"
+- "requestStewieWithContext:completion:"
+- "requestedSharing"
+- "requiredEntitlements"
+- "requiredThreadsPerMeshThreadgroup"
+- "requiredThreadsPerObjectThreadgroup"
+- "requiredThreadsPerTileThreadgroup"
+- "requirementDescription"
+- "requirementIdentifier"
+- "requirementsByContext"
+- "requiresPerObjectAuthorization"
+- "researchStudiesItem"
+- "resetCharacteristics"
+- "resetItem"
+- "resetOnboardingWithCompletion:"
+- "resignFirstResponder"
+- "resolvedHealthToolbox"
+- "resolvedImage"
+- "resourceOptions"
+- "respondsToSelector:"
+- "restorationRowToLoad"
+- "restorationUserActivity"
+- "restoreUserActivityState:"
+- "resultsAfterHealthRecordsDataSource"
+- "resultsBeforeHealthRecordsDataSource"
+- "resultsCache"
+- "resultsTableView"
+- "resultsTableViewController"
+- "resume"
+- "retain"
+- "retainCount"
+- "reuseIdentifier"
+- "revokeAccessForAllShareParticipantsForSharingType:completion:"
+- "revokeInvitationWithUUID:completion:"
+- "revokeSharing"
+- "rightBarButtonItem"
+- "rightBarButtonItems"
+- "rightToLeft"
+- "rootLayer"
+- "rootViewController"
+- "roundingMode"
+- "row"
+- "rowProviders"
+- "rowSpacing"
+- "safeAreaInsets"
+- "safeAreaLayoutGuide"
+- "safetyDefaultsDomainWithHealthStore:"
+- "sampleMetadataViewControllerProvider"
+- "sampleResult"
+- "sampleType"
+- "samples"
+- "save:"
+- "saveHKObjectWithCompletion:"
+- "saveObjects:deleteObjects:associations:completion:"
+- "saveObjects:withCompletion:"
+- "saveOnboardingCompletion:settings:completion:"
+- "saveValue"
+- "savingEnabled"
+- "scale"
+- "scaleMode"
+- "scaledValueForValue:"
+- "sceneProvider"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "screenScale"
+- "scrollToItemAtIndexPath:atScrollPosition:animated:"
+- "scrollToRowAtIndexPath:atScrollPosition:animated:"
+- "scrollView"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "scrollingConstraints"
+- "searchBar"
+- "searchBar:selectedScopeButtonIndexDidChange:"
+- "searchBar:shouldChangeTextInRange:replacementText:"
+- "searchBar:shouldChangeTextInRanges:replacementText:"
+- "searchBar:textDidChange:"
+- "searchBarBookmarkButtonClicked:"
+- "searchBarCancelButtonClicked:"
+- "searchBarResultsListButtonClicked:"
+- "searchBarSearchButtonClicked:"
+- "searchBarShouldBeginEditing:"
+- "searchBarShouldEndEditing:"
+- "searchBarTextDidBeginEditing:"
+- "searchBarTextDidEndEditing:"
+- "searchConfiguration"
+- "searchController:didChangeFromSearchBarPlacement:"
+- "searchController:willChangeToSearchBarPlacement:"
+- "searchCoordinator"
+- "searchForText:withAutocompleteFetchContext:consumer:"
+- "searchManager"
+- "searchQuery"
+- "searchResultProvider"
+- "searchTextField"
+- "secondUnit"
+- "secondaryDataSource"
+- "secondaryDescriptionLabel"
+- "secondaryDescriptionLabelBottomConstraint"
+- "secondaryDescriptionLabelConstraints"
+- "secondaryDescriptionLabelHeightConstraint"
+- "secondaryDescriptionLabelTopSpacingConstraint"
+- "secondaryFootnoteColor"
+- "secondaryFootnoteFont"
+- "secondaryLabel"
+- "secondaryLabelColor"
+- "secondaryLinkColor"
+- "secondaryLinkFont"
+- "secondarySystemBackgroundColor"
+- "secondarySystemFillColor"
+- "secondarySystemGroupedBackgroundColor"
+- "section"
+- "sectionContext"
+- "sectionHeader"
+- "sectionHeaderIconConfig"
+- "sectionIdentifer"
+- "sectionIdentifiers"
+- "sectionIndexTitlesForTableView:"
+- "sectionProviders"
+- "sectionTitle"
+- "sectionWithGroup:"
+- "sections"
+- "sectionsPublisher"
+- "segmentedControl"
+- "segmentedControlChanged:"
+- "segments"
+- "selectRow:inColumn:animated:"
+- "selectRow:inComponent:animated:"
+- "selected"
+- "selectedBackgroundView"
+- "selectedCategories"
+- "selectedContact"
+- "selectedContactICloudIdentifier"
+- "selectedContactPhotoPublisher"
+- "selectedDataTypesContext"
+- "selectedDataTypesDelegate"
+- "selectedDateLabel"
+- "selectedDateRange"
+- "selectedIndex"
+- "selectedIndexPath"
+- "selectedItem"
+- "selectedItemIdentifiers"
+- "selectedItems"
+- "selectedItemsDidUpdateSubject"
+- "selectedItemsSet"
+- "selectedRowInComponent:"
+- "selectedSegmentChanged"
+- "selectedSegmentIndex"
+- "selectedViewController"
+- "selectionFlow"
+- "selectionFlowContext"
+- "selectionFollowsFocus"
+- "selectionSwitch"
+- "self"
+- "sendEvent:"
+- "sendInviteCancellable"
+- "separatorColor"
+- "separatorInset"
+- "separatorThickness"
+- "separatorTopConstraint"
+- "separatorView"
+- "sessionWasBackgrounded"
+- "set"
+- "setAccessPoint:"
+- "setAccessType:"
+- "setAccessibilityActivationPoint:"
+- "setAccessibilityAttributedLabel:"
+- "setAccessibilityContainerType:"
+- "setAccessibilityElements:"
+- "setAccessibilityFrameInContainerSpace:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityIgnoresInvertColors:"
+- "setAccessibilityLabel:"
+- "setAccessibilityTraits:"
+- "setAccessibilityValue:"
+- "setAccessoryType:"
+- "setAccessoryView:"
+- "setActive:"
+- "setActiveAlgorithmVersionRawValue:"
+- "setActivityIndicatorViewStyle:"
+- "setAdjustsFontForContentSizeCategory:"
+- "setAdjustsFontSizeToFitWidth:"
+- "setAdjustsImageSizeForAccessibilityContentSizeCategory:"
+- "setAffineTransform:"
+- "setAlignment:"
+- "setAllowFullWidthIcon:"
+- "setAllowedUnits:"
+- "setAllowsEditing:"
+- "setAllowsFocus:"
+- "setAllowsHiding:"
+- "setAllowsSelection:"
+- "setAllowsSelectionDuringEditing:"
+- "setAlpha:"
+- "setAlwaysBounceVertical:"
+- "setAttributedPlaceholder:"
+- "setAttributedText:"
+- "setAttributedTitle:forState:"
+- "setAuthorizationStatuses:authorizationModes:forBundleIdentifier:options:completion:"
+- "setAutoScales:"
+- "setAutocapitalizationType:"
+- "setAutocorrectionType:"
+- "setAutomaticallyAdjustsScrollIndicatorInsets:"
+- "setAutomaticallyShowsCancelButton:"
+- "setAutomaticallyUpdatesContentConfiguration:"
+- "setAutoresizingMask:"
+- "setAvatarImage:"
+- "setAvatarImageView:"
+- "setAvatarView:"
+- "setAxis:"
+- "setBackButtonDisplayMode:"
+- "setBackButtonTitle:"
+- "setBackgroundColor:"
+- "setBackgroundView:"
+- "setBarStyle:"
+- "setBarTintColor:"
+- "setBiologicalSex:specifier:"
+- "setBirthdate:withError:"
+- "setBirthdateChangeManager:"
+- "setBloodType:specifier:"
+- "setBody:"
+- "setBodyFont:"
+- "setBodyText:"
+- "setBodyTextAlignment:"
+- "setBool:forKey:"
+- "setBorderColor:"
+- "setBorderWidth:"
+- "setBounces:"
+- "setBoundarySupplementaryItems:"
+- "setBounds:"
+- "setBundleIDs:"
+- "setBundleIdentifiers:"
+- "setCalendar:"
+- "setCardioFitnessMedicationCheckmarks"
+- "setCategoryValue:"
+- "setCenteredContentView:"
+- "setChangesSelectionAsPrimaryAction:"
+- "setChart:"
+- "setChildren:"
+- "setClearButtonMode:"
+- "setClipsToBounds:"
+- "setCollectionViewLayout:animated:"
+- "setColor:"
+- "setColors:"
+- "setCompletionHandler:"
+- "setCompletionWithItemsHandler:"
+- "setConstant:"
+- "setContactStore:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHorizontalAlignment:"
+- "setContentHuggingPriority:forAxis:"
+- "setContentInset:"
+- "setContentInsetAdjustmentBehavior:"
+- "setContentInsets:"
+- "setContentInsetsReference:"
+- "setContentMode:"
+- "setContentOffset:animated:"
+- "setContentScrollView:forEdge:"
+- "setContentSize:"
+- "setContentURLs:"
+- "setContentsGravity:"
+- "setContentsScale:"
+- "setCornerContentsMasksEdges:"
+- "setCornerCurve:"
+- "setCornerRadius:"
+- "setCount:"
+- "setCoveredTimeScopeRawValue:"
+- "setCurrentDate:"
+- "setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:"
+- "setCurrentSnapshot:"
+- "setData:forKey:completion:"
+- "setDataEntryItems:"
+- "setDataSource:"
+- "setDataType:"
+- "setDate:"
+- "setDate:animated:"
+- "setDateFormat:"
+- "setDateFormatter:"
+- "setDatePickerMode:"
+- "setDateStyle:"
+- "setDateSubmitted:"
+- "setDateTimeEntryItem:"
+- "setDay:"
+- "setDayIndex:"
+- "setDebugIdentifier:"
+- "setDefaultRowAnimation:"
+- "setDelegate:"
+- "setDeliverUpdates:"
+- "setDeliveryReasonEntryItem:"
+- "setDetailDate:"
+- "setDetailText:"
+- "setDetailTextColor:"
+- "setDetailsVisibility:"
+- "setDirectionalLayoutMargins:"
+- "setDisplayDirection:"
+- "setDisplayFirstName:lastName:completion:"
+- "setDisplayMode:"
+- "setDisplayName:"
+- "setDisplayText:"
+- "setDisplayType:"
+- "setDisplayValue:"
+- "setDisplayedPropertyKeys:"
+- "setDistribution:"
+- "setDocument:"
+- "setDoesRelativeDateFormatting:"
+- "setDuration:"
+- "setEditable:"
+- "setEditing:"
+- "setEditing:animated:"
+- "setEditingAccessoryType:"
+- "setEditingAccessoryView:"
+- "setEffect:"
+- "setEnabled:"
+- "setEndDate:"
+- "setEndPoint:"
+- "setEra:"
+- "setEstimatedRowHeight:"
+- "setExcludedActivityTypes:"
+- "setExpanded:"
+- "setFeatureSettingData:forKey:completion:"
+- "setFeatureSettingNumber:forKey:completion:"
+- "setFeatureSettingString:forKey:completion:"
+- "setFeetUnitString:"
+- "setFetchAttributes:"
+- "setFetchLimit:"
+- "setFill"
+- "setFillMode:"
+- "setFirstLineHeadIndent:"
+- "setFirstName:lastName:"
+- "setFirstName:specifier:"
+- "setFitzpatrickSkinType:specifier:"
+- "setFont:"
+- "setFooterTitleProvider:"
+- "setForPersonHeightUse:"
+- "setForPersonMassUse:"
+- "setForceDayGranularity:"
+- "setForegroundColor:"
+- "setFormattingContext:"
+- "setFoundItemsHandler:"
+- "setFragmentBuffer:offset:atIndex:"
+- "setFragmentFunction:"
+- "setFrame:"
+- "setGeometryFlipped:"
+- "setHandle:"
+- "setHasFetchedSubresources:"
+- "setHasLatestSupportedVersion:"
+- "setHasMinimumSupportedVersion:"
+- "setHeadIndent:"
+- "setHeight:"
+- "setHeightShouldBeIncreasedByTabBarHeight:"
+- "setHeightTracksTextView:"
+- "setHidden:"
+- "setHideInDiscover:"
+- "setHideStandardTitle:"
+- "setHidesBackButton:"
+- "setHidesNavigationBarDuringPresentation:"
+- "setHidesSearchBarWhenScrolling:"
+- "setHidesWhenStopped:"
+- "setHighlighted:"
+- "setHighlighted:animated:"
+- "setHour:"
+- "setHyphenationFactor:"
+- "setIcon:"
+- "setIcon:accessibilityLabel:"
+- "setIconImage:"
+- "setIconProvider:"
+- "setIdentifier:"
+- "setImage:"
+- "setImage:forState:"
+- "setImageProvider:"
+- "setInchUnitString:"
+- "setIncludesPendingChanges:"
+- "setIndentationLevel:"
+- "setInitialStartDate:"
+- "setInitialStatesOfLayer:transitionSpeed:"
+- "setInitialText:alignment:"
+- "setInputAccessoryView:"
+- "setInputView:"
+- "setInterGroupSpacing:"
+- "setInterItemSpacing:"
+- "setIsAccessibilityElement:"
+- "setIsDeletionAvailable:"
+- "setIsDisabled:"
+- "setIsShareDuringEmergencyCallVisible:"
+- "setIsShowWhenLockedVisible:"
+- "setItemSize:"
+- "setItems:"
+- "setKey:"
+- "setKeyValuePairs:"
+- "setKeyboardDismissMode:"
+- "setKeyboardType:"
+- "setLabel:"
+- "setLargeTitleDisplayMode:"
+- "setLastName:specifier:"
+- "setLatestSupportedVersion:"
+- "setLayoutMargins:"
+- "setLayoutMarginsRelativeArrangement:"
+- "setLeftBarButtonItem:"
+- "setLeftBarButtonItem:animated:"
+- "setLineBreakMode:"
+- "setLineFragmentPadding:"
+- "setLineSpacing:"
+- "setLinkTextAttributes:"
+- "setLocale:"
+- "setLocalizedTitle:"
+- "setManualEntryType:"
+- "setMaskedCorners:"
+- "setMasksToBounds:"
+- "setMaximumContentSizeCategory:"
+- "setMaximumDate:"
+- "setMaximumFractionDigits:"
+- "setMaximumLineHeight:"
+- "setMaximumUnitCount:"
+- "setMealTimeEntryItem:"
+- "setMedicalIDData:"
+- "setMenu:"
+- "setMessageComposeDelegate:"
+- "setMetadata:"
+- "setMetadataDictionary:"
+- "setMinimumDate:"
+- "setMinimumLineHeight:"
+- "setMinimumLineSpacing:"
+- "setMinimumSupportedVersion:"
+- "setMinute:"
+- "setModalInPresentation:"
+- "setModalPresentationStyle:"
+- "setMonth:"
+- "setName:"
+- "setNameHidden:"
+- "setNavigationBarHidden:"
+- "setNavigationBarHidden:animated:"
+- "setNeedsDisplay"
+- "setNeedsDisplayOnBoundsChange:"
+- "setNeedsLayout"
+- "setNeedsUpdateConfiguration"
+- "setNeedsUpdateConstraints"
+- "setNumber:forKey:completion:"
+- "setNumberFormatter:"
+- "setNumberIntValue:"
+- "setNumberOfLines:"
+- "setNumberOfTouchesRequired:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObscuresBackgroundDuringPresentation:"
+- "setOn:"
+- "setOn:animated:"
+- "setOpaque:"
+- "setOriginalURL:"
+- "setOrthogonalScrollingBehavior:"
+- "setOverrideUserInterfaceStyle:"
+- "setOwnerWithIdentity:"
+- "setParagraphSpacing:"
+- "setPaused:"
+- "setPersistentIdentifier:"
+- "setPhotosHeaderMetadata:"
+- "setPictureDiameter:"
+- "setPinToVisibleBounds:"
+- "setPixelFormat:"
+- "setPlaceholder:"
+- "setPlaceholderValue:"
+- "setPosition:"
+- "setPredicate:"
+- "setPredicateForEnablingContact:"
+- "setPredictsBasedOnOutgoingInteraction:"
+- "setPreferredAction:"
+- "setPreferredContentSize:"
+- "setPreferredDatePickerStyle:"
+- "setPreferredHeight:"
+- "setPreferredMaxLayoutWidth:"
+- "setPreferredSearchBarPlacement:"
+- "setPreferredSymbolConfiguration:"
+- "setPrefersLargeTitles:"
+- "setPresentingViewController:"
+- "setPreservesSuperviewLayoutMargins:"
+- "setPrimaryAction:"
+- "setPriority:"
+- "setPrivateIndex:"
+- "setProfileIdentifier:"
+- "setPropertiesToFetch:"
+- "setProperty:forKey:"
+- "setProtectionClasses:"
+- "setPurgeableState:"
+- "setQuantityValue:"
+- "setQueryDataObject:"
+- "setRasterizationScale:"
+- "setReason:"
+- "setRecipients:"
+- "setRegistrationCompletionHandler:"
+- "setRelevantEndDate:"
+- "setRelevantStartDate:"
+- "setRenderPipelineState:"
+- "setReturnKeyType:"
+- "setReturnsDistinctResults:"
+- "setRightBarButtonItem:"
+- "setRightBarButtonItems:"
+- "setRole:"
+- "setRoundingMode:"
+- "setRowHeight:"
+- "setSampleUUID:"
+- "setSamples:"
+- "setSavingEnabled:"
+- "setScopeBarActivation:"
+- "setScrollDirection:"
+- "setScrollEdgeAppearance:"
+- "setScrollEnabled:"
+- "setSearchController:"
+- "setSearchResultsUpdater:"
+- "setSearchTypes:"
+- "setSecondaryLabel:"
+- "setSectionFooterHeight:"
+- "setSectionHeaderTopPadding:"
+- "setSectionInset:"
+- "setSelectable:"
+- "setSelected:"
+- "setSelected:animated:"
+- "setSelectedBackgroundView:"
+- "setSelectedIndex:"
+- "setSelectedSegmentIndex:"
+- "setSelectionStyle:"
+- "setSelfSizingInvalidation:"
+- "setSeparatorInset:"
+- "setSeparatorStyle:"
+- "setSeparatorThickness:"
+- "setSettingsNavigationDonatingDelegate:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShadowOpacity:"
+- "setShadowPath:"
+- "setShadowRadius:"
+- "setShape:"
+- "setShareDuringEmergency:"
+- "setShouldDisplayClearButtonDuringEditing:"
+- "setShouldFetchAppIcons:"
+- "setShouldFetchPurposeStrings:"
+- "setShouldHighlightWhenEditing:"
+- "setShouldIncludeSpecialSources:"
+- "setShouldRasterize:"
+- "setShouldShowDonateLifeRegistrationIfAvailable:"
+- "setShouldUseSelectedColorForDisplayValue:"
+- "setShowUIPrompt:"
+- "setShowsHorizontalScrollIndicator:"
+- "setShowsMenuAsPrimaryAction:"
+- "setShowsVerticalScrollIndicator:"
+- "setSidebarActions:"
+- "setSixMonthData:"
+- "setSixMonthDateInterval:"
+- "setSize:"
+- "setSortDescriptors:"
+- "setSortOrder:"
+- "setSourceItem:"
+- "setSourceListDataSource:"
+- "setSourceToAuthRecord:"
+- "setSourceView:"
+- "setSpacing:"
+- "setSpecifiers:"
+- "setStandardAppearance:"
+- "setStartDate:"
+- "setStartPoint:"
+- "setState:"
+- "setState:ofLayer:transitionSpeed:"
+- "setStatus:"
+- "setStringValue:"
+- "setStroke"
+- "setStyle:"
+- "setSuggestHealthData:"
+- "setSummary:"
+- "setSupplementariesFollowContentInsets:"
+- "setSupplementaryContentInsetsReference:"
+- "setSupplementaryItems:"
+- "setSystemImageName:"
+- "setTabBarItem:"
+- "setTableFooterView:"
+- "setTableHeaderView:"
+- "setTableView:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTextContainerInset:"
+- "setTexture:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setTintAdjustmentMode:"
+- "setTintColor:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTitleColor:forState:"
+- "setTitleHyphenationFactor:"
+- "setTitleText:"
+- "setTitleTextAttributes:"
+- "setTitleView:"
+- "setTitles:"
+- "setToolbarDelegate:"
+- "setTransform:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setTrends:"
+- "setType:"
+- "setUniqueIdentifier:"
+- "setUnitString:"
+- "setUnitStyle:"
+- "setUnitsStyle:"
+- "setUpHeaderAndFooterViewsIfNeeded"
+- "setUpNavigationBar"
+- "setUserActivity:"
+- "setUserData:"
+- "setUserInfo:"
+- "setUserInteractionEnabled:"
+- "setValue:"
+- "setValue:forKey:"
+- "setValue:forKey:completion:"
+- "setValueFieldManualEntryItem:"
+- "setValues:titles:"
+- "setVertexBuffer:offset:atIndex:"
+- "setVertexFunction:"
+- "setVideo:"
+- "setViewControllers:animated:"
+- "setViewModel:"
+- "setWheelchairUse:specifier:"
+- "setWithObjects:"
+- "setYear:"
+- "setZPosition:"
+- "set_wd_deliveryReason:"
+- "settingsNavigationDonatingDelegate"
+- "setupConstraints"
+- "shaderValidation"
+- "sharableModelBackgroundGenerationCompletedCurrentValueSubject"
+- "shareButton"
+- "shareButtonBehavior"
+- "shareButtonTapped:"
+- "shareDocumentUsingSample:"
+- "shareItemSource"
+- "sharePublisherForRenderConfiguration"
+- "shared"
+- "sharedAlertsDataSource"
+- "sharedBehavior"
+- "sharedConnection"
+- "sharedConstraints"
+- "sharedContentOrNoDataDataSource"
+- "sharedFormatter"
+- "sharedImageManager"
+- "sharedInstance"
+- "sharedInstanceForHealthStore:"
+- "sharedProfileHeaderDataSource"
+- "sharedProfileOverviewDataSource"
+- "sharedTopicsDataSources"
+- "sharingAuthorizationCancellable"
+- "sharingAuthorizationStore"
+- "sharingEntries"
+- "sharingEntryDataSource"
+- "sharingEntryProfileInformation"
+- "sharingEntryStore"
+- "sharingOverviewHostName"
+- "sharingParticipants"
+- "sharingProfileInformation"
+- "sharingStore"
+- "sharingWithYouLearnMoreDataSource"
+- "shortenedDisplayName"
+- "shouldAnimateDiffableCollectionViewAdaptorKey"
+- "shouldDisplayHeader"
+- "shouldDisplayName"
+- "shouldDisplayRequestItem"
+- "shouldHighlightWhenEditing"
+- "shouldNextButtonDisplayContinueOnLastItem"
+- "shouldOnlyFetchProminentDataTypes"
+- "shouldReloadSpecifiersAfterSelection"
+- "shouldReloadSpecifiersOnViewWillAppear"
+- "shouldRunLoadAction"
+- "shouldSaveItems"
+- "shouldShowButton"
+- "shouldShowNameInHeaderView"
+- "shouldShowStoreDemoOrganDonation"
+- "shouldShowWarning"
+- "shouldUseDynamicHorizontalMargins"
+- "showAdaptively:sender:"
+- "showAllAlertsDataSource"
+- "showButtonsAvailable"
+- "showButtonsBusy"
+- "showColumnSeparator"
+- "showDetailViewController:sender:"
+- "showDisabledWarningWithAge:presentingViewController:"
+- "showDisabledWarningWithHealthChecklistWithAge:presentingViewController:openHealthChecklistInContext:"
+- "showDisclosureIndicator"
+- "showNoData"
+- "showProfileViewController"
+- "showViewController:sender:"
+- "showsBackground"
+- "showsBusyIndicator"
+- "sidebarSelectionIdentifier"
+- "signals"
+- "signposter"
+- "simplifiedLogging"
+- "sixMonthData"
+- "size"
+- "sizeThatFits:"
+- "sizeToFit"
+- "sizeWithAttributes:"
+- "sizeWithWidthDimension:heightDimension:"
+- "sizingStrategy"
+- "skinType"
+- "snapshot"
+- "snapshotDidChangeWithDataSourceID:snapshot:animated:"
+- "snippetsCompoundDataSource"
+- "sortOrder"
+- "sortUsingComparator:"
+- "sortedCategories"
+- "sourceApplication"
+- "sourceDataModel"
+- "sourceDataSource"
+- "sourceListDataSource"
+- "sourceListDataSourceDidUpdate:"
+- "sourceProfile"
+- "sourceProfiles"
+- "sourceToAuthRecord"
+- "sourceType"
+- "sources"
+- "spacing"
+- "sparseBufferTier"
+- "specifierAtIndexPath:"
+- "specifierForBiologicalSex"
+- "specifierForBloodType"
+- "specifierForFirstName"
+- "specifierForFitzpatrickSkinType"
+- "specifierForID:"
+- "specifierForLastName"
+- "specifierForWheelchairUse"
+- "specifierViewController"
+- "specifiers"
+- "spinner"
+- "spinnerToContainerCenterYConstraint"
+- "spinnerToContainerTopConstraint"
+- "stackedItems"
+- "standardConfiguration"
+- "standardUserDefaults"
+- "startAnimating"
+- "startAnimation"
+- "startDate"
+- "startObservingSyncStatus"
+- "startSpotlightIndexing"
+- "startSyncIfRestoreNotCompleted"
+- "state"
+- "stateChangeHandler"
+- "stateChanged:"
+- "stateController"
+- "stateManager"
+- "stateWithName:"
+- "staticAngle"
+- "statusReasonForService:"
+- "step"
+- "stepAnimationForLayer:"
+- "stepDetail"
+- "stewieStateMonitor"
+- "stopAnimating"
+- "stopQuery:"
+- "stopSharingDataSource"
+- "stopSpotlightIndexing"
+- "storage"
+- "storageMode"
+- "store"
+- "storyboardWithName:bundle:"
+- "string"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringForKey:"
+- "stringForObjectValue:"
+- "stringForValue"
+- "stringFromDate:"
+- "stringFromDate:toDate:"
+- "stringFromDateComponents:"
+- "stringFromItems:"
+- "stringFromNumber:"
+- "stringFromTimeInterval:"
+- "stringFromValue:displayType:unitController:"
+- "stringFromValue:unit:"
+- "stringFromWeightInKilograms:"
+- "stringValue"
+- "stringWithFormat:"
+- "style"
+- "subHeadingLabel"
+- "submitHealthEventWithDescription:requestInterval:"
+- "submitUserActivityForRestoration:"
+- "subscriptions"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "substringWithRange:"
+- "subtitle"
+- "subtitleLabel"
+- "subtitleLeadingConstraint"
+- "subtitleString"
+- "subtitleVibrancyView"
+- "subtitleView"
+- "subtitleViewHeightConstraint"
+- "subtitleViewTopSpaceConstraint"
+- "subview"
+- "subviews"
+- "success"
+- "suggestedAction"
+- "suggestedActionDelegate"
+- "summaryAttribution"
+- "summaryForEnhancedFeature"
+- "summarySectionPredicate"
+- "summarySharingEntryStore:didUpdateReachabilityStatus:error:"
+- "summaryText"
+- "superclass"
+- "superview"
+- "supplementaryItemProvider"
+- "supplementaryItemWithLayoutSize:elementKind:containerAnchor:"
+- "supportIndirectCommandBuffers"
+- "supportedInterfaceOrientations"
+- "supportedQuantityTypes"
+- "supportsSecureCoding"
+- "switchCell"
+- "switchCellValueChanged:value:"
+- "switchTapped"
+- "switchUpdated"
+- "switchValueChangedWithSender:"
+- "symbol"
+- "symbolicTraits"
+- "symptomSamplesForElectrocardiogram:"
+- "syncEnabled"
+- "syncHandler"
+- "syncObserver"
+- "syncStatusCancellable"
+- "syncWithRequest:reason:completion:"
+- "synchronouslyFetchFirstName"
+- "systemBackgroundColor"
+- "systemBlackColor"
+- "systemBlueColor"
+- "systemFontOfSize:"
+- "systemFontOfSize:weight:"
+- "systemGray3Color"
+- "systemGray4Color"
+- "systemGray5Color"
+- "systemGrayColor"
+- "systemGreenColor"
+- "systemGroupedBackgroundColor"
+- "systemImage"
+- "systemImageName"
+- "systemImageNamed:"
+- "systemImageNamed:withConfiguration:"
+- "systemLayoutSizeFittingSize:"
+- "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
+- "systemRedColor"
+- "systemTimeZone"
+- "systemWhiteColor"
+- "systemYellowColor"
+- "tabBarController"
+- "tabBarItem"
+- "tableCellIdentifier"
+- "tableView"
+- "tableView:accessoryButtonTappedForRowWithIndexPath:"
+- "tableView:accessoryTypeForRowWithIndexPath:"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:canFocusRowAtIndexPath:"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:canPerformAction:forRowAtIndexPath:withSender:"
+- "tableView:canPerformPrimaryActionForRowAtIndexPath:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:contextMenuConfigurationForRowAtIndexPath:point:"
+- "tableView:didBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:didDeselectRowAtIndexPath:"
+- "tableView:didEndDisplayingCell:forRowAtIndexPath:"
+- "tableView:didEndDisplayingFooterView:forSection:"
+- "tableView:didEndDisplayingHeaderView:forSection:"
+- "tableView:didEndEditingRowAtIndexPath:"
+- "tableView:didHighlightRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:didUnhighlightRowAtIndexPath:"
+- "tableView:didUpdateFocusInContext:withAnimationCoordinator:"
+- "tableView:editActionsForRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:estimatedHeightForFooterInSection:"
+- "tableView:estimatedHeightForHeaderInSection:"
+- "tableView:estimatedHeightForRowAtIndexPath:"
+- "tableView:heightForFooterInSection:"
+- "tableView:heightForHeaderInSection:"
+- "tableView:heightForRowAtIndexPath:"
+- "tableView:indentationLevelForRowAtIndexPath:"
+- "tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "tableView:performAction:forRowAtIndexPath:withSender:"
+- "tableView:performPrimaryActionForRowAtIndexPath:"
+- "tableView:previewForDismissingContextMenuWithConfiguration:"
+- "tableView:previewForHighlightingContextMenuWithConfiguration:"
+- "tableView:sectionForSectionIndexTitle:atIndex:"
+- "tableView:selectionFollowsFocusForRowAtIndexPath:"
+- "tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:shouldHighlightRowAtIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:shouldShowMenuForRowAtIndexPath:"
+- "tableView:shouldSpringLoadRowAtIndexPath:withContext:"
+- "tableView:shouldUpdateFocusInContext:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:titleForFooterInSection:"
+- "tableView:titleForHeaderInSection:"
+- "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:viewForFooterInSection:"
+- "tableView:viewForHeaderInSection:"
+- "tableView:willBeginEditingRowAtIndexPath:"
+- "tableView:willDeselectRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tableView:willDisplayContextMenuWithConfiguration:animator:"
+- "tableView:willDisplayFooterView:forSection:"
+- "tableView:willDisplayHeaderView:forSection:"
+- "tableView:willEndContextMenuInteractionWithConfiguration:animator:"
+- "tableView:willPerformPreviewActionForMenuWithConfiguration:animator:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tableViewCells"
+- "tableViewDidEndMultipleSelectionInteraction:"
+- "tableViewHeight"
+- "tableViewStyle"
+- "tag"
+- "takingBetaBlockers"
+- "takingCalciumChannelBlockers"
+- "tapEvents"
+- "tapToRadarButtonTappedWithSender:"
+- "tappedLearnMore"
+- "target"
+- "templateHeaderString"
+- "temporaryDirectory"
+- "tertiaryLabelColor"
+- "tertiarySystemBackgroundColor"
+- "tertiarySystemFillColor"
+- "tertiarySystemGroupedBackgroundColor"
+- "texcoordsBuffer"
+- "text"
+- "textAttachmentWithImage:"
+- "textColor"
+- "textContainer"
+- "textContainerInset"
+- "textField:editMenuForCharactersInRange:suggestedActions:"
+- "textField:editMenuForCharactersInRanges:suggestedActions:"
+- "textField:insertInputSuggestion:"
+- "textField:shouldChangeCharactersInRange:replacementString:"
+- "textField:shouldChangeCharactersInRanges:replacementString:"
+- "textField:willDismissEditMenuWithAnimator:"
+- "textField:willPresentEditMenuWithAnimator:"
+- "textFieldDidBeginEditing:"
+- "textFieldDidChangeSelection:"
+- "textFieldDidEndEditing:"
+- "textFieldDidEndEditing:reason:"
+- "textFieldShouldBeginEditing:"
+- "textFieldShouldClear:"
+- "textFieldShouldEndEditing:"
+- "textFieldShouldReturn:"
+- "textInsets"
+- "textLabel"
+- "textRectForBounds:limitedToNumberOfLines:"
+- "textStyle"
+- "textView"
+- "textView:didBeginFormattingWithViewController:"
+- "textView:didEndFormattingWithViewController:"
+- "textView:editMenuForTextInRange:suggestedActions:"
+- "textView:editMenuForTextInRanges:suggestedActions:"
+- "textView:insertInputSuggestion:"
+- "textView:menuConfigurationForTextItem:defaultMenu:"
+- "textView:primaryActionForTextItem:defaultAction:"
+- "textView:shouldChangeTextInRange:replacementText:"
+- "textView:shouldChangeTextInRanges:replacementText:"
+- "textView:shouldInteractWithTextAttachment:inRange:"
+- "textView:shouldInteractWithTextAttachment:inRange:interaction:"
+- "textView:shouldInteractWithURL:inRange:"
+- "textView:shouldInteractWithURL:inRange:interaction:"
+- "textView:textItemMenuWillDisplayForTextItem:animator:"
+- "textView:textItemMenuWillEndForTextItem:animator:"
+- "textView:willBeginFormattingWithViewController:"
+- "textView:willDismissEditMenuWithAnimator:"
+- "textView:willEndFormattingWithViewController:"
+- "textView:willPresentEditMenuWithAnimator:"
+- "textView:writingToolsIgnoredRangesInEnclosingRange:"
+- "textViewDidBeginEditing:"
+- "textViewDidChange:"
+- "textViewDidChangeSelection:"
+- "textViewDidEndEditing:"
+- "textViewShouldBeginEditing:"
+- "textViewShouldEndEditing:"
+- "textViewWritingToolsDidEnd:"
+- "textViewWritingToolsWillBegin:"
+- "texture"
+- "threadgroupSizeMatchesTileSize"
+- "thresholdDataSource"
+- "thresholdDelegate"
+- "thumbnailImage"
+- "thumbnailImageData"
+- "tileContentLabel"
+- "tileView"
+- "timeIntervalSinceDate:"
+- "timeItemWithMaximumDate:"
+- "timeScope"
+- "timeScopeTrends"
+- "timeZone"
+- "tintAdjustmentMode"
+- "tintColor"
+- "tintColorDidChange"
+- "titleAndButtonSideBySideConstraints"
+- "titleAndButtonStackedConstraints"
+- "titleAndValueFieldSideBySideConstraints"
+- "titleAndValueFieldStackedConstraints"
+- "titleDescription"
+- "titleDetailLabelsView"
+- "titleEmbeddedDisplayName"
+- "titleForState:"
+- "titleLabel"
+- "titleLabelLeadingAnchor"
+- "titleLabelLeadingConstraint"
+- "titleLabelTopConstraint"
+- "titleLabelTrailingConstraint"
+- "titleLeadingAnchor"
+- "titleText"
+- "titleToAccessory"
+- "titleToBottom"
+- "titleToDetail"
+- "titleToDismiss"
+- "titleToItemsTopConstraint"
+- "titleToTop"
+- "titleTopOrCenterAnchor"
+- "titleView"
+- "titles"
+- "toggleSwitch"
+- "topAnchor"
+- "topAnchorConstraint"
+- "topCategories"
+- "topPaddingConstraint"
+- "topicsDataSource"
+- "totalPages"
+- "touchesBegan:withEvent:"
+- "touchesCancelled:withEvent:"
+- "touchesEnded:withEvent:"
+- "trailingAnchor"
+- "traitCollection"
+- "traitCollectionDidChange:"
+- "traitCollectionDidChangeWithTraitEnvironment:previousTraitCollection:"
+- "traitCollectionWithPreferredContentSizeCategory:"
+- "traitWidthDesignationDidChange"
+- "transformation"
+- "transitionSpeed"
+- "trendDataSource"
+- "trendingDataSource"
+- "trends"
+- "trendsDataSource"
+- "tryToInstantiateViewControllerWithIdentifier:"
+- "ttrButtonTapped"
+- "twoPartDateRangeItemWithMaximumEndDate:"
+- "twoPartDateTimeItemWithMaximumDate:"
+- "type"
+- "typeGroup"
+- "uiView"
+- "unavailableDataSource"
+- "uniformAcrossSiblingsWithEstimate:"
+- "uniforms"
+- "uniformsBuffer"
+- "uninstalledAppSources"
+- "unitController"
+- "unitForDisplayType:"
+- "unitFromMassFormatterUnit:"
+- "unitFromString:"
+- "unitPreferenceController"
+- "unitPreferencesController"
+- "unitPreferencesDidChange:"
+- "unitString"
+- "unitStringFromKilograms:usedUnit:"
+- "unpauseInvitationWithUUID:completion:"
+- "unregisterObserver:"
+- "updateAuthorizationsCancellable"
+- "updateAutomationIdentifiersForProfileDetail:"
+- "updateChartSummaryTrendModel:viewController:"
+- "updateCheckMarksForCell:option:"
+- "updateConstraints"
+- "updateForTraitChanges"
+- "updateGradient"
+- "updateHandler"
+- "updateLayoutOnTraitChanges"
+- "updateMedicalIDData:completion:"
+- "updatePreferredContentSize"
+- "updateRecipients:disambiguatingRecipient:"
+- "updateSavingEnabled"
+- "updateSearchResultsForSearchController:"
+- "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+- "updateSharingAuthorizationsForInvitationUUID:sharingAuthorizationsToAdd:sharingAuthorizationsToDelete:completion:"
+- "updateSpecifiers:withSpecifiers:"
+- "updateTableViewIfNeeded"
+- "updateTimer"
+- "updateTitleText"
+- "updateVersion"
+- "updateWithMarkdown:"
+- "url"
+- "useDuration"
+- "useSingleStartAndEndDate"
+- "useSystemMargins"
+- "usedDataSelectionWizard"
+- "userActivity"
+- "userData"
+- "userDataDataSourceItemSubject"
+- "userDataObserver"
+- "userDefault"
+- "userDefaults"
+- "userInfo"
+- "userInterfaceIdiom"
+- "userInterfaceLayoutDirectionForSemanticContentAttribute:"
+- "userInterfaceStyle"
+- "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"
+- "userNotificationCenter:openSettingsForNotification:"
+- "userNotificationCenter:willPresentNotification:withCompletionHandler:"
+- "userSex"
+- "usesAdaptiveMargins"
+- "usesImperialUnits"
+- "usesPlatformView"
+- "uuid"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"<_TtP18HealthExperienceUI30SnapshotDataSourceEventHandler_>\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0@\"UIGraphicsImageRendererContext\"8"
+- "v16@?0@\"UIGraphicsPDFRendererContext\"8"
+- "v16@?0@\"UIViewController\"8"
+- "v16@?0Q8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v24@0:8@\"<HKFeatureAvailabilityProviding>\"16"
+- "v24@0:8@\"<HKFeatureAvailabilityProvidingObserver>\"16"
+- "v24@0:8@\"<HKHealthSettingsNavigationDonating>\"16"
+- "v24@0:8@\"<HKMCPregnancyModelObserver>\"16"
+- "v24@0:8@\"<MTLResidencySet>\"16"
+- "v24@0:8@\"CNAutocompleteResultsTableViewController\"16"
+- "v24@0:8@\"CNContactPickerViewController\"16"
+- "v24@0:8@\"CTStewieState\"16"
+- "v24@0:8@\"HKCloudSyncObserver\"16"
+- "v24@0:8@\"HKMCPregnancyModel\"16"
+- "v24@0:8@\"HKMedicalIDViewController\"16"
+- "v24@0:8@\"HKSimpleDataEntryItem\"16"
+- "v24@0:8@\"HKSourceListDataSource\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSFetchedResultsController\"16"
+- "v24@0:8@\"NSNotification\"16"
+- "v24@0:8@\"NSNumber\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"PDFSelection\"16"
+- "v24@0:8@\"PSSpecifier\"16"
+- "v24@0:8@\"UIPresentationController\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UISearchBar\"16"
+- "v24@0:8@\"UISearchController\"16"
+- "v24@0:8@\"UITableView\"16"
+- "v24@0:8@\"UITextField\"16"
+- "v24@0:8@\"UITextView\"16"
+- "v24@0:8@\"UITraitCollection\"16"
+- "v24@0:8@\"WDAddDataManualEntryItem\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"HKFeatureOnboardingRecord\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"HKCloudSyncAccountInfo\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSSet\"8@\"NSError\"16"
+- "v24@?0@\"_HKMedicalIDData\"8@\"NSError\"16"
+- "v28@0:8@\"<HKMCPregnancyModelObserver>\"16B24"
+- "v28@0:8@\"HKSwitchTableViewCell\"16B24"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"<HKFeatureAvailabilityProvidingObserver>\"16@\"OS_dispatch_queue\"24"
+- "v32@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24"
+- "v32@0:8@\"CNContactPickerViewController\"16@\"CNContact\"24"
+- "v32@0:8@\"CNContactPickerViewController\"16@\"CNContactProperty\"24"
+- "v32@0:8@\"CNContactPickerViewController\"16@\"NSArray\"24"
+- "v32@0:8@\"CNContactViewController\"16@\"CNContact\"24"
+- "v32@0:8@\"HKCloudSyncObserver\"16@\"HKCloudSyncObserverStatus\"24"
+- "v32@0:8@\"HKCloudSyncObserver\"16@\"HKCloudSyncRequest\"24"
+- "v32@0:8@\"HKCloudSyncObserver\"16@\"NSError\"24"
+- "v32@0:8@\"HKCloudSyncObserver\"16@\"NSProgress\"24"
+- "v32@0:8@\"HKOnboardingCompactDatePickerView\"16@\"NSDate\"24"
+- "v32@0:8@\"MFMessageComposeViewController\"16q24"
+- "v32@0:8@\"NSArray\"16@\"NSNumber\"24"
+- "v32@0:8@\"NSFetchedResultsController\"16@\"NSDiffableDataSourceSnapshot\"24"
+- "v32@0:8@\"NSFetchedResultsController\"16@\"NSOrderedCollectionDifference\"24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"UIPresentationController\"16@\"UIPresentationController\"24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UISearchBar\"16@\"NSString\"24"
+- "v32@0:8@\"UISearchBar\"16q24"
+- "v32@0:8@\"UISearchController\"16@\"<UISearchSuggestion>\"24"
+- "v32@0:8@\"UISearchController\"16q24"
+- "v32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextField\"16q24"
+- "v32@0:8@\"UITextView\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextView\"16@\"UITextFormattingViewController\"24"
+- "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24"
+- "v32@0:8@\"WDManualDataEntryTableViewCell\"16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@0:8q16^{CGContext=}24"
+- "v32@0:8r^@16Q24"
+- "v32@0:8{CGPoint=dd}16"
+- "v32@0:8{CGSize=dd}16"
+- "v32@0:8{_NSRange=QQ}16"
+- "v32@?0@\"HKSampleCountQuery\"8@\"NSDictionary\"16@\"NSError\"24"
+- "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
+- "v32@?0@\"UIImage\"8B16B20@\"NSError\"24"
+- "v36@0:8@\"NSString\"16@\"NSDiffableDataSourceSnapshot\"24B32"
+- "v36@0:8@\"UIViewController\"16B24@?<v@?>28"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16B24@?28"
+- "v36@?0@\"NSString\"8B16@\"NSArray\"20@\"NSError\"28"
+- "v40@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24@?<v@?@\"UIColor\">32"
+- "v40@0:8@\"CNAutocompleteResultsTableViewController\"16@\"CNComposeRecipient\"24Q32"
+- "v40@0:8@\"HKCloudSyncObserver\"16@\"HKCloudSyncRequest\"24@\"NSError\"32"
+- "v40@0:8@\"HKCloudSyncObserver\"16@\"HKCloudSyncRequest\"24@\"NSProgress\"32"
+- "v40@0:8@\"HKOnboardingCompletion\"16@\"HKFeatureSettings\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"HKSummarySharingEntryStore\"16@\"NSDictionary\"24@\"NSError\"32"
+- "v40@0:8@\"NSData\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16{_NSRange=QQ}24"
+- "v40@0:8@\"UICollectionView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UIPickerView\"16q24q32"
+- "v40@0:8@\"UIPresentationController\"16q24@\"<UIViewControllerTransitionCoordinator>\"32"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionCommitAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewCell\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24@\"UIFocusAnimationCoordinator\"32"
+- "v40@0:8@\"UITableView\"16@\"UIView\"24q32"
+- "v40@0:8@\"UITableView\"16q24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITextView\"16@\"UITextItem\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24@?<v@?Q>32"
+- "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24@?<v@?>32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24Q32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16q24@32"
+- "v40@0:8@16q24q32"
+- "v40@0:8@16{_NSRange=QQ}24"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "v48@0:8@\"NSFetchedResultsController\"16@\"<NSFetchedResultsSectionInfo>\"24Q32Q40"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "v48@0:8@16:24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24Q32Q40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v48@0:8{CGSize=dd}16^{CGRect={CGPoint=dd}{CGSize=dd}}32^{CGRect={CGPoint=dd}{CGSize=dd}}40"
+- "v56@0:8@\"NSFetchedResultsController\"16@24@\"NSIndexPath\"32Q40@\"NSIndexPath\"48"
+- "v56@0:8@\"NSString\"16q24@\"NSDate\"32@\"HKFeatureSettings\"40@?<v@?B@\"NSError\">48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32Q40@48"
+- "v56@0:8@16q24@32@40@?48"
+- "validateDataWithCompletion:"
+- "validateMaximumAllowedDuration:ofType:"
+- "validateMaximumAllowedDurationFor:endDate:competion:"
+- "validateMinimumAllowedDuration:ofType:"
+- "validateQuantity:ofType:"
+- "validateWorkoutDistance:"
+- "validateWorkoutEnergyBurned:"
+- "value"
+- "valueFieldManualEntryItem"
+- "valueForKey:"
+- "valueForNSIntegerTrait:"
+- "valueForProperty:"
+- "valueFormatter"
+- "valueRangeWithMinValue:maxValue:"
+- "valueWithWeakObject:"
+- "version"
+- "versionWithHealthStore:error:"
+- "verticalGroupWithLayoutSize:subitems:"
+- "vibrancyView"
+- "view"
+- "viewClass"
+- "viewConfiguration"
+- "viewController"
+- "viewControllerDidLeaveAdaptiveModal"
+- "viewControllerFactory"
+- "viewControllerForContact:"
+- "viewControllerForSampleType:subSamplePredicate:title:"
+- "viewControllerForUnknownContact:"
+- "viewControllerTitle"
+- "viewControllerWillEnterAdaptiveModal"
+- "viewControllers"
+- "viewDidAppear:"
+- "viewDidDisappear:"
+- "viewDidLayoutSubviews"
+- "viewDidLoad"
+- "viewForZoomingInScrollView:"
+- "viewHostingView:"
+- "viewIsAppearing:"
+- "viewModel"
+- "viewModelType"
+- "viewPendingInvitation"
+- "viewPendingInviteDelegate"
+- "viewResizeDebounceTimer"
+- "viewSpecificConstraints"
+- "viewWillAppear:"
+- "viewWillDisappear:"
+- "viewWillLayoutSubviews"
+- "visibleCells"
+- "visibleRows"
+- "visibleViewController"
+- "wapiCapability"
+- "watchView"
+- "wd_addDataViewControllerClass"
+- "wd_addDataViewControllerWithHealthStore:healthToolBox:initialStartDate:"
+- "wd_addDataViewControllerWithHealthStore:unitController:initialStartDate:dateCache:"
+- "wd_defaultValueForAddDataViewController"
+- "wd_outOfRangeAlertDisplayName"
+- "wd_valueOrderForAddDataViewController"
+- "webpageURL"
+- "wheelchairUse"
+- "wheelchairUseObject"
+- "wheelchairUseWithError:"
+- "whiteColor"
+- "widthAnchor"
+- "widthDesignationDidChangeWithTraitEnvironment:previousTraitCollection:"
+- "willDismissSearchController:"
+- "willMoveToParentViewController:"
+- "willPresentSearchController:"
+- "window"
+- "windowScene"
+- "windows"
+- "wrappedDataSource"
+- "yValueRange"
+- "year"
+- "yearOfRelease"
+- "yellowColor"
+- "zone"
+- "{?=QQQ}16@0:8"
+- "{CGPoint=dd}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIView\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16f32f36"
+- "{MTLResourceID=Q}16@0:8"
+- "\xf0\xf0\xb1"
+
+```

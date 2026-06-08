@@ -1,0 +1,2412 @@
+## NewDeviceOutreach
+
+> `/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach`
+
+```diff
+
+-517.120.3.0.0
+-  __TEXT.__text: 0x262b8
+-  __TEXT.__auth_stubs: 0xc40
+-  __TEXT.__objc_methlist: 0x1c5c
+-  __TEXT.__const: 0x954
+-  __TEXT.__cstring: 0x231c
+-  __TEXT.__oslogstring: 0x1b04
+-  __TEXT.__gcc_except_tab: 0x664
+-  __TEXT.__ustring: 0x30
+-  __TEXT.__swift5_typeref: 0x236
+-  __TEXT.__constg_swiftt: 0x1dc
+-  __TEXT.__swift5_reflstr: 0x137
+-  __TEXT.__swift5_fieldmd: 0x234
+-  __TEXT.__swift5_proto: 0x68
+-  __TEXT.__swift5_types: 0x30
++602.0.0.0.0
++  __TEXT.__text: 0x15644
++  __TEXT.__objc_methlist: 0xc34
++  __TEXT.__const: 0xac4
++  __TEXT.__cstring: 0xf8c
++  __TEXT.__oslogstring: 0xae4
++  __TEXT.__gcc_except_tab: 0x108
++  __TEXT.__swift5_typeref: 0x2b6
++  __TEXT.__constg_swiftt: 0x220
++  __TEXT.__swift5_reflstr: 0x15e
++  __TEXT.__swift5_fieldmd: 0x284
++  __TEXT.__swift5_proto: 0x74
++  __TEXT.__swift5_types: 0x38
+   __TEXT.__swift5_capture: 0x38
+-  __TEXT.__unwind_info: 0x918
++  __TEXT.__swift5_assocty: 0x18
++  __TEXT.__unwind_info: 0x670
+   __TEXT.__eh_frame: 0x170
+-  __TEXT.__objc_classname: 0x371
+-  __TEXT.__objc_methname: 0x5ac4
+-  __TEXT.__objc_methtype: 0xbac
+-  __TEXT.__objc_stubs: 0x3b40
+-  __DATA_CONST.__got: 0x3e8
+-  __DATA_CONST.__const: 0x8d8
+-  __DATA_CONST.__objc_classlist: 0xd0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x2f8
++  __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x50
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1390
++  __DATA_CONST.__objc_selrefs: 0x838
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x40
++  __DATA_CONST.__objc_superrefs: 0x30
+   __DATA_CONST.__objc_arraydata: 0x8
+-  __AUTH_CONST.__auth_got: 0x630
+-  __AUTH_CONST.__const: 0x3b0
+-  __AUTH_CONST.__cfstring: 0x20e0
+-  __AUTH_CONST.__objc_const: 0x3d58
+-  __AUTH_CONST.__objc_intobj: 0xc0
++  __DATA_CONST.__got: 0x308
++  __AUTH_CONST.__const: 0x4e8
++  __AUTH_CONST.__cfstring: 0xce0
++  __AUTH_CONST.__objc_const: 0x19e8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0x460
+-  __AUTH.__data: 0x1b8
+-  __DATA.__objc_ivar: 0x1f0
+-  __DATA.__data: 0x4d8
+-  __DATA.__bss: 0xbb0
++  __AUTH_CONST.__objc_intobj: 0x30
++  __AUTH_CONST.__auth_got: 0x6f8
++  __AUTH.__objc_data: 0x370
++  __AUTH.__data: 0x1c8
++  __DATA.__objc_ivar: 0x58
++  __DATA.__data: 0x430
++  __DATA.__bss: 0xc28
+   __DATA.__common: 0xc0
+-  __DATA_DIRTY.__objc_data: 0x4b0
+-  __DATA_DIRTY.__data: 0x280
+-  __DATA_DIRTY.__bss: 0x2f0
++  __DATA_DIRTY.__objc_data: 0x410
++  __DATA_DIRTY.__data: 0x320
++  __DATA_DIRTY.__bss: 0x410
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+   - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+-  - /System/Library/PrivateFrameworks/NDOAPI.framework/NDOAPI
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8B25E9C8-DAC6-3A2E-95A5-CE184C8D609E
+-  Functions: 979
+-  Symbols:   2580
+-  CStrings:  1826
++  UUID: B257B229-27B1-3AD9-B6D1-2D6FA1A8FB69
++  Functions: 598
++  Symbols:   1219
++  CStrings:  361
+ 
+Symbols:
++ +[NDOAppleAuthHelpers isSignedInToAppleAccount]
++ +[NDODevice deviceWithName:serialNumber:deviceType:]
++ +[NDODevice deviceWithName:serialNumber:deviceType:productID:productName:]
++ +[NDODevice deviceWithName:serialNumber:deviceType:productID:productName:color:enclosureColor:coverGlassColor:]
++ +[NDODevice watchDeviceWithName:serialNumber:isActive:productID:productName:isAltAccount:]
++ +[NDOFollowUp _allPossibleFollowUpTargetBundleIdentifiers]
++ +[NDOFollowUp _possibleUniqueIdentifiersForSerialNumber:]
++ +[NDOFollowUp _possibleUniqueIdentifiersForSerialNumber:].cold.1
++ +[NDOFollowUp _uniqueIdentfierForSerialNumber:bundleId:]
++ +[NDOFollowUp _uniqueIdentfierForSerialNumber:bundleId:].cold.1
++ -[NDODevice initWithName:serialNumber:deviceType:productID:productName:color:enclosureColor:coverGlassColor:]
++ _NSLocalizedDescriptionKey
++ _NSLocalizedFailureReasonErrorKey
++ _OBJC_CLASS_$_NSError
++ ___42-[NDOManager dismissFollowUps:completion:]_block_invoke.62
++ ___42-[NDOManager getLocalDeviceListWithReply:]_block_invoke.53
++ ___43-[NDOManager getRemoteDeviceListWithReply:]_block_invoke.55
++ ___46-[NDOManager handleInternalCommand:withReply:]_block_invoke.63
++ ___51-[NDOManager getAmsPropertiesForContext:withReply:]_block_invoke.60
++ ___56-[NDOManager dismissFollowUpForSerialNumber:completion:]_block_invoke.10
++ ___57-[NDOManager removePromoSectionWithHashValue:andAckData:]_block_invoke.56
++ ___60-[NDOManager dismissNotificationForSerialNumber:completion:]_block_invoke.12
++ ___62-[NDOManager getLocalDeviceWarrantyForSerialNumber:withReply:]_block_invoke.57
++ ___67-[NDOManager getCoverageInfoForSerialNumber:usingPolicy:withReply:]_block_invoke.59
++ ___75-[NDOManager storeUserInitiatedFollowUpDismissalForSerialNumber:withReply:]_block_invoke.51
++ ___85-[NDOManager getRemoteDeviceWarrantyForSerialNumber:withAdditionalHeaders:withReply:]_block_invoke.58
++ ___swift_closure_destructor
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.9
++ ___swift_memcpy0_1
++ _associated conformance 17NewDeviceOutreach26NDOUniversalLinkQueryParamOSHAASQ
++ _bzero
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_allPossibleFollowUpTargetBundleIdentifiers
++ _objc_msgSend$_possibleUniqueIdentifiersForSerialNumber:
++ _objc_msgSend$_uniqueIdentfierForSerialNumber:bundleId:
++ _objc_msgSend$deviceWithName:serialNumber:deviceType:productID:productName:
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _objc_msgSend$initWithName:serialNumber:deviceType:productID:productName:color:enclosureColor:coverGlassColor:
++ _objc_msgSend$isAltAccountWatch
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRelease_n
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x23
++ _swift_retain_x27
++ _symbolic $sSY
++ _symbolic SS_SSt
++ _symbolic SS_ypt
++ _symbolic _____ 17NewDeviceOutreach26NDOUniversalLinkQueryParamO
++ _symbolic _____ 17NewDeviceOutreach33NDOWarrantyPropertiesLoadingStateO
++ _symbolic _____18warrantyProperties_t 17NewDeviceOutreach21NDOWarrantyPropertiesV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation12URLQueryItemV
+- +[NDOAppleAuthHelpers isSignedIntoAppleAccount]
+- +[NDODevice deviceWithCBDevice:isVisibleInCC:]
+- +[NDODevice deviceWithName:serialNumber:activationDate:deviceType:]
+- +[NDODevice deviceWithName:serialNumber:activationDate:deviceType:productID:productName:]
+- +[NDODevice deviceWithName:serialNumber:activationDate:deviceType:productID:productName:color:enclosureColor:coverGlassColor:]
+- +[NDODevice deviceWithName:serialNumber:activationDate:deviceType:productID:productName:isVisibleInCC:]
+- +[NDODevice watchDeviceWithName:serialNumber:activationDate:isActive:productID:productName:isAltAccount:]
+- +[NDODeviceSection supportsSecureCoding]
+- +[NDOFollowUp allPossibleFollowUpTargetBundleIdentifiers]
+- +[NDOFollowUp followUpTargetBundleIDsForDevice:]
+- +[NDOFollowUp followUpTargetBundleIDsForDevice:].cold.1
+- +[NDOFollowUp possibleUniqueIdentifiersForSerialNumber:]
+- +[NDOFollowUp possibleUniqueIdentifiersForSerialNumber:].cold.1
+- +[NDOFollowUp uniqueFollowUpIdentifiersForDevice:]
+- +[NDOFollowUp uniqueFollowUpIdentifiersForDevice:].cold.1
+- +[NDOFollowUp uniqueIdentfierForSerialNumber:bundleId:]
+- +[NDOFollowUp uniqueIdentfierForSerialNumber:bundleId:].cold.1
+- +[NDOFollowUpDismissalTracker eraseAllFollowUpDismissals]
+- +[NDOFollowUpDismissalTracker eraseFollowUpDismissalForDeviceSerial:]
+- +[NDOFollowUpDismissalTracker followUpIsDismissedForSerial:]
+- +[NDOFollowUpDismissalTracker uniqueIdentfierForSerialNumber:]
+- +[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]
+- +[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]
+- +[NDOServerVersionUtilities clientConfig]
+- +[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]
+- +[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:].cold.1
+- +[NDOServerVersionUtilities getValidServerVersionCache]
+- +[NDOServerVersionUtilities getValidServerVersionCache].cold.1
+- +[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled:]
+- +[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled:withCompletion:]
+- +[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled]
+- +[NDOServerVersionUtilities readAPSSupportedOverride]
+- +[NDOServerVersionUtilities readAPSSupportedOverride].cold.1
+- +[NDOServerVersionUtilities readULWebURLOverride]
+- +[NDOServerVersionUtilities readWebURLOverride]
+- +[NDOServerVersionUtilities serverVersionSupported:]
+- +[NDOUtilities dateWithEpochNumber:]
+- +[NDOUtilities daysFromDate:]
+- +[NDOViewModelGenerationHelpers ctaTextWithDevice:]
+- +[NDOViewModelGenerationHelpers ctaTextWithWarranty:forDate:]
+- +[NDOWarranty _legacyWarrantyPath]
+- +[NDOWarranty _warrantyPathForSerialNumberFormat]
+- +[NDOWarranty cachedWarrantyForSerialNumber:]
+- +[NDOWarranty migrateLegacyCachedWarrantyIfNeededForSerialNumber:]
+- +[NDOWarranty warrantyWithDictionary:]
+- -[NDOAppleSupportManager appSupportAvailability:withReply:]
+- -[NDOAppleSupportManager checkAppIsPurchased:]
+- -[NDOAppleSupportManager checkIsAvailableInStore:withReply:]
+- -[NDOClientConfiguration generalAboutPolicy]
+- -[NDOClientConfiguration initWithConfigDictionary:]
+- -[NDOClientConfiguration setGeneralAboutPolicy:]
+- -[NDODefaultFolllowUpProvider postFollowUpItem:error:]
+- -[NDODevice acLocalizedOfferStatusLabel]
+- -[NDODevice acLocalizedUnlinkedPlanStatusLabel]
+- -[NDODevice acOfferEligibleUntil]
+- -[NDODevice acOfferEligible]
+- -[NDODevice activationDate]
+- -[NDODevice cachingPolicy]
+- -[NDODevice coverageLocalizedLabel]
+- -[NDODevice covered]
+- -[NDODevice deviceDesc]
+- -[NDODevice deviceImageUrl]
+- -[NDODevice initWithName:serialNumber:activationDate:deviceType:productID:productName:color:enclosureColor:coverGlassColor:isVisibleInCC:cachingPolicy:]
+- -[NDODevice isVisibleInCC]
+- -[NDODevice parentId]
+- -[NDODevice pfcId]
+- -[NDODevice pgfId]
+- -[NDODevice setAcLocalizedOfferStatusLabel:]
+- -[NDODevice setAcLocalizedUnlinkedPlanStatusLabel:]
+- -[NDODevice setAcOfferEligible:]
+- -[NDODevice setAcOfferEligibleUntil:]
+- -[NDODevice setActivationDate:]
+- -[NDODevice setCachingPolicy:]
+- -[NDODevice setCoverageLocalizedLabel:]
+- -[NDODevice setCovered:]
+- -[NDODevice setDeviceDesc:]
+- -[NDODevice setDeviceImageUrl:]
+- -[NDODevice setIsVisibleInCC:]
+- -[NDODevice setParentId:]
+- -[NDODevice setPfcId:]
+- -[NDODevice setPgfId:]
+- -[NDODevice setSgId:]
+- -[NDODevice sgId]
+- -[NDODevice updateWithWarranty:]
+- -[NDODeviceSection .cxx_destruct]
+- -[NDODeviceSection addDevice:]
+- -[NDODeviceSection description]
+- -[NDODeviceSection deviceForSN:]
+- -[NDODeviceSection deviceList]
+- -[NDODeviceSection encodeWithCoder:]
+- -[NDODeviceSection identifier]
+- -[NDODeviceSection initWithCoder:]
+- -[NDODeviceSection initWithLabel:identifier:]
+- -[NDODeviceSection label]
+- -[NDODeviceSection privateDeviceList]
+- -[NDODeviceSection setIdentifier:]
+- -[NDODeviceSection setLabel:]
+- -[NDODeviceSection setPrivateDeviceList:]
+- -[NDOFollowUp _checkConversionEligibilityForDevice:]
+- -[NDOFollowUp _checkConversionEligibilityForDevice:].cold.1
+- -[NDOFollowUp _clearFollowUpForSerialNumber:]
+- -[NDOFollowUp _clearFollowUpWithDevices:]
+- -[NDOFollowUp _postFollowUpWithDevicesInfo:repostAllowed:]
+- -[NDOFollowUp _setupFollowUpItem:withDeviceInfo:]
+- -[NDOFollowUp _setupFollowUpItem:withDeviceInfo:].cold.1
+- -[NDOFollowUp _setupFollowUpItem:withDeviceInfo:].cold.2
+- -[NDOFollowUp _setupFollowUpNotificationWithDeviceInfo:]
+- -[NDOFollowUp _setupFollowUpNotificationWithDeviceInfo:].cold.1
+- -[NDOFollowUp _setupFollowUpNotificationWithDeviceInfo:].cold.2
+- -[NDOFollowUp followUpItemsForDeviceInfo:]
+- -[NDOFollowUp followUpItemsForDeviceInfo:].cold.1
+- -[NDOFollowUp followUpSaleFlowSourceForBundleId:device:]
+- -[NDOFollowUp migrateLegacyFollowUpIfNeededWithDeviceInfo:]
+- -[NDOFollowUp pendingFollowUpCount]
+- -[NDOFollowUp pendingFollowUpCount].cold.1
+- -[NDOFollowUp postFollowUpWithDeviceInfo:]
+- -[NDOFollowUp postFollowUpWithDeviceInfo:].cold.1
+- -[NDOFollowUp postFollowUpWithDeviceInfo:].cold.2
+- -[NDOFollowUp postFollowUpWithDevicesInfo:]
+- -[NDOFollowUp refreshALLFollowupsWithDeviceInfos:andForcePostFollowup:]
+- -[NDOFollowUp refreshFollowupWithDeviceInfo:andForcePostFollowup:]
+- -[NDOFollowUp refreshFollowupWithDeviceInfos:andForcePostFollowup:]
+- -[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:]
+- -[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:].cold.1
+- -[NDOManager _getDeviceListForLocalDevices:sessionID:params:completionBlock:]
+- -[NDOManager appSupportDictionaryWithReply:]
+- -[NDOManager apsSupportedOverride:]
+- -[NDOManager checkIsAvailableInStore:]
+- -[NDOManager clearAllUserInitiatedFollowUpDismissalsWithReply:]
+- -[NDOManager clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:]
+- -[NDOManager clientConfiguration]
+- -[NDOManager defaultDevice]
+- -[NDOManager getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]
+- -[NDOManager getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:]
+- -[NDOManager getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:]
+- -[NDOManager getDecodedParamsForPath:withReply:]
+- -[NDOManager getDefaultDeviceInfoUsingForceCachedPolicy]
+- -[NDOManager getDefaultDeviceInfoUsingPolicy:withReply:]
+- -[NDOManager getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]
+- -[NDOManager getDeviceInfoUsingForceCachedPolicyForSerialNumber:]
+- -[NDOManager getDeviceListForLocalDevices:sessionID:completionBlock:]
+- -[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]
+- -[NDOManager getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]
+- -[NDOManager getWarrantyUsingPolicy:withReply:]
+- -[NDOManager isAPSSupportedOverrideWithServerValue:]
+- -[NDOManager isAPSSupportedOverrideWithServerValue:].cold.1
+- -[NDOManager pairedBTDevices]
+- -[NDOManager pairedWatches]
+- -[NDOManager payloadDictionaryForDeviceInfo:atIndex:]
+- -[NDOManager payloadFrom:atIndex:device:]
+- -[NDOManager scheduleOutreachAfter:withReply:]
+- -[NDOManager ulWebURLOverride:]
+- -[NDOManager webURLOverride:]
+- -[NDOWarranty acLocalizedGroupedOfferCTA]
+- -[NDOWarranty acLocalizedGroupedOfferFooterLabel]
+- -[NDOWarranty acLocalizedNotificationOfferDesc]
+- -[NDOWarranty acLocalizedNotificationOfferDesc].cold.1
+- -[NDOWarranty acLocalizedOfferCTA]
+- -[NDOWarranty acLocalizedOfferDesc]
+- -[NDOWarranty acLocalizedOfferDesc].cold.1
+- -[NDOWarranty acLocalizedOfferDetailsEligibility]
+- -[NDOWarranty acLocalizedOfferDetailsEligibility].cold.1
+- -[NDOWarranty acLocalizedOfferDetailsPluralEligibilityFormat]
+- -[NDOWarranty acLocalizedOfferDetailsSingularEligibility]
+- -[NDOWarranty acLocalizedOfferDetails]
+- -[NDOWarranty acLocalizedOfferLabel]
+- -[NDOWarranty acLocalizedOfferLongLabel]
+- -[NDOWarranty acLocalizedOfferPluralDescFormat]
+- -[NDOWarranty acLocalizedOfferSingularDesc]
+- -[NDOWarranty acLocalizedOfferStatusLabel]
+- -[NDOWarranty acLocalizedUnlinkedPlanLabel]
+- -[NDOWarranty acLocalizedUnlinkedPlanStatusLabel]
+- -[NDOWarranty acNotificationLocalizedOfferLabel]
+- -[NDOWarranty acNotificationLocalizedOfferPluralDescFormat]
+- -[NDOWarranty acNotificationLocalizedOfferSingularDesc]
+- -[NDOWarranty acOfferBadgeDurationBeforeEndDate]
+- -[NDOWarranty acOfferConversionDate]
+- -[NDOWarranty acOfferDisplayDate]
+- -[NDOWarranty acOfferDisplay]
+- -[NDOWarranty acOfferDurationBeforeEndDate]
+- -[NDOWarranty acOfferEligibleUntil]
+- -[NDOWarranty acOfferFollowupDisplayDate]
+- -[NDOWarranty acOfferIdentifier]
+- -[NDOWarranty acOfferPromoFormat]
+- -[NDOWarranty acOfferPromoNew]
+- -[NDOWarranty acOfferSettingsAppBadge]
+- -[NDOWarranty acOfferSettingsRowBadge]
+- -[NDOWarranty acOfferToggle]
+- -[NDOWarranty agsULURL]
+- -[NDOWarranty benefitDetailsArray]
+- -[NDOWarranty cacheValidityDuration]
+- -[NDOWarranty cacheWarranty:]
+- -[NDOWarranty cache]
+- -[NDOWarranty coverageBenefitsDictionary]
+- -[NDOWarranty coverageDetailsArray]
+- -[NDOWarranty coverageDetailsDictionary]
+- -[NDOWarranty coverageEndDate]
+- -[NDOWarranty coverageHasACLogo]
+- -[NDOWarranty coverageLocalizedDescLong]
+- -[NDOWarranty coverageLocalizedDesc]
+- -[NDOWarranty coverageLocalizedExpirationLabel]
+- -[NDOWarranty coverageLocalizedLabel]
+- -[NDOWarranty coverageValidityDate]
+- -[NDOWarranty covered]
+- -[NDOWarranty daysEligible]
+- -[NDOWarranty deviceDesc]
+- -[NDOWarranty deviceImageUrl]
+- -[NDOWarranty displayRepairAndSupport]
+- -[NDOWarranty eligibilityEventId]
+- -[NDOWarranty footer1FormatString]
+- -[NDOWarranty footer1LinkLabel]
+- -[NDOWarranty footer1LinkURL]
+- -[NDOWarranty footer2FormatString]
+- -[NDOWarranty footer2LinkLabel]
+- -[NDOWarranty footer2LinkURL]
+- -[NDOWarranty getSupportURL]
+- -[NDOWarranty isACServicesPartner]
+- -[NDOWarranty isAPSSupported]
+- -[NDOWarranty isCoveragePlanSubscriptionType]
+- -[NDOWarranty localizedBenefitLabelKey]
+- -[NDOWarranty localizedBenefitValueKey]
+- -[NDOWarranty localizedBenefitsCardFooter]
+- -[NDOWarranty localizedBenefitsCardSubTitle]
+- -[NDOWarranty localizedBenefitsCardTitle]
+- -[NDOWarranty localizedCoverageDetailsLabel]
+- -[NDOWarranty localizedCoverageDetailsTitle]
+- -[NDOWarranty localizedCoverageDetailsValue]
+- -[NDOWarranty localizedCoverageFooterFormatString]
+- -[NDOWarranty localizedCoverageFooterLinkLabel]
+- -[NDOWarranty localizedCoverageSubTitleForServicesPartnerString]
+- -[NDOWarranty localizedCoveredDeviceDateLabelFormat]
+- -[NDOWarranty localizedManagePlanLabel]
+- -[NDOWarranty localizedSupportAppFooter]
+- -[NDOWarranty localizedSupportAppLabel]
+- -[NDOWarranty mySupportURL]
+- -[NDOWarranty parentId]
+- -[NDOWarranty pfcId]
+- -[NDOWarranty pgfId]
+- -[NDOWarranty scIntervalFollowupEligible]
+- -[NDOWarranty scIntervalInDays]
+- -[NDOWarranty scIntervalPairedDeviceAllowed]
+- -[NDOWarranty setAcLocalizedGroupedOfferCTA:]
+- -[NDOWarranty setAcLocalizedGroupedOfferFooterLabel:]
+- -[NDOWarranty setAcLocalizedOfferCTA:]
+- -[NDOWarranty setAcLocalizedOfferDetails:]
+- -[NDOWarranty setAcLocalizedOfferDetailsPluralEligibilityFormat:]
+- -[NDOWarranty setAcLocalizedOfferDetailsSingularEligibility:]
+- -[NDOWarranty setAcLocalizedOfferLabel:]
+- -[NDOWarranty setAcLocalizedOfferLongLabel:]
+- -[NDOWarranty setAcLocalizedOfferPluralDescFormat:]
+- -[NDOWarranty setAcLocalizedOfferSingularDesc:]
+- -[NDOWarranty setAcLocalizedOfferStatusLabel:]
+- -[NDOWarranty setAcLocalizedUnlinkedPlanLabel:]
+- -[NDOWarranty setAcLocalizedUnlinkedPlanStatusLabel:]
+- -[NDOWarranty setAcNotificationLocalizedOfferLabel:]
+- -[NDOWarranty setAcNotificationLocalizedOfferPluralDescFormat:]
+- -[NDOWarranty setAcNotificationLocalizedOfferSingularDesc:]
+- -[NDOWarranty setAcOfferBadgeDurationBeforeEndDate:]
+- -[NDOWarranty setAcOfferConversionDate:]
+- -[NDOWarranty setAcOfferDisplay:]
+- -[NDOWarranty setAcOfferDisplayDate:]
+- -[NDOWarranty setAcOfferDurationBeforeEndDate:]
+- -[NDOWarranty setAcOfferEligibleUntil:]
+- -[NDOWarranty setAcOfferFollowupDisplayDate:]
+- -[NDOWarranty setAcOfferIdentifier:]
+- -[NDOWarranty setAcOfferPromoFormat:]
+- -[NDOWarranty setAcOfferPromoNew:]
+- -[NDOWarranty setAcOfferSettingsAppBadge:]
+- -[NDOWarranty setAcOfferSettingsRowBadge:]
+- -[NDOWarranty setAcOfferToggle:]
+- -[NDOWarranty setAgsULURL:]
+- -[NDOWarranty setBenefitDetailsArray:]
+- -[NDOWarranty setCacheValidityDuration:]
+- -[NDOWarranty setCoverageBenefitsDictionary:]
+- -[NDOWarranty setCoverageDetailsArray:]
+- -[NDOWarranty setCoverageDetailsDictionary:]
+- -[NDOWarranty setCoverageEndDate:]
+- -[NDOWarranty setCoverageHasACLogo:]
+- -[NDOWarranty setCoverageLocalizedDesc:]
+- -[NDOWarranty setCoverageLocalizedDescLong:]
+- -[NDOWarranty setCoverageLocalizedExpirationLabel:]
+- -[NDOWarranty setCoverageLocalizedLabel:]
+- -[NDOWarranty setCoverageValidityDate:]
+- -[NDOWarranty setCovered:]
+- -[NDOWarranty setDeviceDesc:]
+- -[NDOWarranty setDeviceImageUrl:]
+- -[NDOWarranty setDisplayRepairAndSupport:]
+- -[NDOWarranty setEligibilityEventId:]
+- -[NDOWarranty setFooter1FormatString:]
+- -[NDOWarranty setFooter1LinkLabel:]
+- -[NDOWarranty setFooter1LinkURL:]
+- -[NDOWarranty setFooter2FormatString:]
+- -[NDOWarranty setFooter2LinkLabel:]
+- -[NDOWarranty setFooter2LinkURL:]
+- -[NDOWarranty setGetSupportURL:]
+- -[NDOWarranty setIsACServicesPartner:]
+- -[NDOWarranty setIsAPSSupported:]
+- -[NDOWarranty setIsCoveragePlanSubscriptionType:]
+- -[NDOWarranty setLocalizedBenefitLabelKey:]
+- -[NDOWarranty setLocalizedBenefitValueKey:]
+- -[NDOWarranty setLocalizedBenefitsCardFooter:]
+- -[NDOWarranty setLocalizedBenefitsCardSubTitle:]
+- -[NDOWarranty setLocalizedBenefitsCardTitle:]
+- -[NDOWarranty setLocalizedCoverageDetailsLabel:]
+- -[NDOWarranty setLocalizedCoverageDetailsTitle:]
+- -[NDOWarranty setLocalizedCoverageDetailsValue:]
+- -[NDOWarranty setLocalizedCoverageFooterFormatString:]
+- -[NDOWarranty setLocalizedCoverageFooterLinkLabel:]
+- -[NDOWarranty setLocalizedCoverageSubTitleForServicesPartnerString:]
+- -[NDOWarranty setLocalizedCoveredDeviceDateLabelFormat:]
+- -[NDOWarranty setLocalizedManagePlanLabel:]
+- -[NDOWarranty setLocalizedSupportAppFooter:]
+- -[NDOWarranty setLocalizedSupportAppLabel:]
+- -[NDOWarranty setMySupportURL:]
+- -[NDOWarranty setParentId:]
+- -[NDOWarranty setPfcId:]
+- -[NDOWarranty setPgfId:]
+- -[NDOWarranty setScIntervalFollowupEligible:]
+- -[NDOWarranty setScIntervalInDays:]
+- -[NDOWarranty setScIntervalPairedDeviceAllowed:]
+- -[NDOWarranty setSgId:]
+- -[NDOWarranty setShowNotificationBeforeEndDate:]
+- -[NDOWarranty setShowNotificationToggle:]
+- -[NDOWarranty setSupportAppURL:]
+- -[NDOWarranty sgId]
+- -[NDOWarranty showNotificationBeforeEndDate]
+- -[NDOWarranty showNotificationToggle]
+- -[NDOWarranty supportAppURL]
+- GCC_except_table15
+- GCC_except_table20
+- GCC_except_table23
+- GCC_except_table28
+- GCC_except_table3
+- GCC_except_table31
+- GCC_except_table34
+- GCC_except_table37
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table46
+- GCC_except_table58
+- GCC_except_table6
+- GCC_except_table9
+- _FLFollowUpNDOBundleIdentifier
+- _FLFollowUpNotifyingAppIdKey
+- _FLGroupIdentifierNewDeviceOutreach
+- _FLNotificationOptionExtensionActions
+- _FLNotificationOptionExtensionForNotification
+- _FLNotificationOptionLockscreen
+- _FLNotificationOptionNotificationCenter
+- _FLUserInfoPropertyCoalescedGroupFooterText
+- _FLUserInfoPropertyCoalescedLongerTitle
+- _FLUserInfoPropertyRelativeIsCeilingKey
+- _FLUserInfoPropertyRelativePluralDaysFormatKey
+- _FLUserInfoPropertyRelativeSingleDayKey
+- _NSHomeDirectory
+- _OBJC_CLASS_$_AMSBag
+- _OBJC_CLASS_$_AMSMediaTask
+- _OBJC_CLASS_$_FLFollowUpAction
+- _OBJC_CLASS_$_FLFollowUpItem
+- _OBJC_CLASS_$_FLFollowUpNotification
+- _OBJC_CLASS_$_LSApplicationProxy
+- _OBJC_CLASS_$_NDOAppleSupportManager
+- _OBJC_CLASS_$_NDOClientConfiguration
+- _OBJC_CLASS_$_NDODeviceSection
+- _OBJC_CLASS_$_NDOServerVersionUtilities
+- _OBJC_CLASS_$_NDOViewModelGenerationHelpers
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_IVAR_$_NDOClientConfiguration._generalAboutPolicy
+- _OBJC_IVAR_$_NDODevice._acLocalizedOfferStatusLabel
+- _OBJC_IVAR_$_NDODevice._acLocalizedUnlinkedPlanStatusLabel
+- _OBJC_IVAR_$_NDODevice._acOfferEligible
+- _OBJC_IVAR_$_NDODevice._acOfferEligibleUntil
+- _OBJC_IVAR_$_NDODevice._activationDate
+- _OBJC_IVAR_$_NDODevice._cachingPolicy
+- _OBJC_IVAR_$_NDODevice._coverageLocalizedLabel
+- _OBJC_IVAR_$_NDODevice._covered
+- _OBJC_IVAR_$_NDODevice._deviceDesc
+- _OBJC_IVAR_$_NDODevice._deviceImageUrl
+- _OBJC_IVAR_$_NDODevice._isVisibleInCC
+- _OBJC_IVAR_$_NDODevice._parentId
+- _OBJC_IVAR_$_NDODevice._pfcId
+- _OBJC_IVAR_$_NDODevice._pgfId
+- _OBJC_IVAR_$_NDODevice._sgId
+- _OBJC_IVAR_$_NDODeviceSection._identifier
+- _OBJC_IVAR_$_NDODeviceSection._label
+- _OBJC_IVAR_$_NDODeviceSection._privateDeviceList
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedGroupedOfferCTA
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedGroupedOfferFooterLabel
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferCTA
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferDetails
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferDetailsPluralEligibilityFormat
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferDetailsSingularEligibility
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferLabel
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferLongLabel
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferPluralDescFormat
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferSingularDesc
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedOfferStatusLabel
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedUnlinkedPlanLabel
+- _OBJC_IVAR_$_NDOWarranty._acLocalizedUnlinkedPlanStatusLabel
+- _OBJC_IVAR_$_NDOWarranty._acNotificationLocalizedOfferLabel
+- _OBJC_IVAR_$_NDOWarranty._acNotificationLocalizedOfferPluralDescFormat
+- _OBJC_IVAR_$_NDOWarranty._acNotificationLocalizedOfferSingularDesc
+- _OBJC_IVAR_$_NDOWarranty._acOfferBadgeDurationBeforeEndDate
+- _OBJC_IVAR_$_NDOWarranty._acOfferConversionDate
+- _OBJC_IVAR_$_NDOWarranty._acOfferDisplay
+- _OBJC_IVAR_$_NDOWarranty._acOfferDisplayDate
+- _OBJC_IVAR_$_NDOWarranty._acOfferDurationBeforeEndDate
+- _OBJC_IVAR_$_NDOWarranty._acOfferEligibleUntil
+- _OBJC_IVAR_$_NDOWarranty._acOfferFollowupDisplayDate
+- _OBJC_IVAR_$_NDOWarranty._acOfferIdentifier
+- _OBJC_IVAR_$_NDOWarranty._acOfferPromoFormat
+- _OBJC_IVAR_$_NDOWarranty._acOfferPromoNew
+- _OBJC_IVAR_$_NDOWarranty._acOfferSettingsAppBadge
+- _OBJC_IVAR_$_NDOWarranty._acOfferSettingsRowBadge
+- _OBJC_IVAR_$_NDOWarranty._acOfferToggle
+- _OBJC_IVAR_$_NDOWarranty._agsULURL
+- _OBJC_IVAR_$_NDOWarranty._benefitDetailsArray
+- _OBJC_IVAR_$_NDOWarranty._cacheValidityDuration
+- _OBJC_IVAR_$_NDOWarranty._coverageBenefitsDictionary
+- _OBJC_IVAR_$_NDOWarranty._coverageDetailsArray
+- _OBJC_IVAR_$_NDOWarranty._coverageDetailsDictionary
+- _OBJC_IVAR_$_NDOWarranty._coverageEndDate
+- _OBJC_IVAR_$_NDOWarranty._coverageHasACLogo
+- _OBJC_IVAR_$_NDOWarranty._coverageLocalizedDesc
+- _OBJC_IVAR_$_NDOWarranty._coverageLocalizedDescLong
+- _OBJC_IVAR_$_NDOWarranty._coverageLocalizedExpirationLabel
+- _OBJC_IVAR_$_NDOWarranty._coverageLocalizedLabel
+- _OBJC_IVAR_$_NDOWarranty._coverageValidityDate
+- _OBJC_IVAR_$_NDOWarranty._covered
+- _OBJC_IVAR_$_NDOWarranty._deviceDesc
+- _OBJC_IVAR_$_NDOWarranty._deviceImageUrl
+- _OBJC_IVAR_$_NDOWarranty._displayRepairAndSupport
+- _OBJC_IVAR_$_NDOWarranty._eligibilityEventId
+- _OBJC_IVAR_$_NDOWarranty._footer1FormatString
+- _OBJC_IVAR_$_NDOWarranty._footer1LinkLabel
+- _OBJC_IVAR_$_NDOWarranty._footer1LinkURL
+- _OBJC_IVAR_$_NDOWarranty._footer2FormatString
+- _OBJC_IVAR_$_NDOWarranty._footer2LinkLabel
+- _OBJC_IVAR_$_NDOWarranty._footer2LinkURL
+- _OBJC_IVAR_$_NDOWarranty._getSupportURL
+- _OBJC_IVAR_$_NDOWarranty._isACServicesPartner
+- _OBJC_IVAR_$_NDOWarranty._isAPSSupported
+- _OBJC_IVAR_$_NDOWarranty._isCoveragePlanSubscriptionType
+- _OBJC_IVAR_$_NDOWarranty._localizedBenefitLabelKey
+- _OBJC_IVAR_$_NDOWarranty._localizedBenefitValueKey
+- _OBJC_IVAR_$_NDOWarranty._localizedBenefitsCardFooter
+- _OBJC_IVAR_$_NDOWarranty._localizedBenefitsCardSubTitle
+- _OBJC_IVAR_$_NDOWarranty._localizedBenefitsCardTitle
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageDetailsLabel
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageDetailsTitle
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageDetailsValue
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageFooterFormatString
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageFooterLinkLabel
+- _OBJC_IVAR_$_NDOWarranty._localizedCoverageSubTitleForServicesPartnerString
+- _OBJC_IVAR_$_NDOWarranty._localizedCoveredDeviceDateLabelFormat
+- _OBJC_IVAR_$_NDOWarranty._localizedManagePlanLabel
+- _OBJC_IVAR_$_NDOWarranty._localizedSupportAppFooter
+- _OBJC_IVAR_$_NDOWarranty._localizedSupportAppLabel
+- _OBJC_IVAR_$_NDOWarranty._mySupportURL
+- _OBJC_IVAR_$_NDOWarranty._parentId
+- _OBJC_IVAR_$_NDOWarranty._pfcId
+- _OBJC_IVAR_$_NDOWarranty._pgfId
+- _OBJC_IVAR_$_NDOWarranty._scIntervalFollowupEligible
+- _OBJC_IVAR_$_NDOWarranty._scIntervalInDays
+- _OBJC_IVAR_$_NDOWarranty._scIntervalPairedDeviceAllowed
+- _OBJC_IVAR_$_NDOWarranty._sgId
+- _OBJC_IVAR_$_NDOWarranty._showNotificationBeforeEndDate
+- _OBJC_IVAR_$_NDOWarranty._showNotificationToggle
+- _OBJC_IVAR_$_NDOWarranty._supportAppURL
+- _OBJC_METACLASS_$_NDOAppleSupportManager
+- _OBJC_METACLASS_$_NDOClientConfiguration
+- _OBJC_METACLASS_$_NDODeviceSection
+- _OBJC_METACLASS_$_NDOServerVersionUtilities
+- _OBJC_METACLASS_$_NDOViewModelGenerationHelpers
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- __NSIsNSString
+- __OBJC_$_CLASS_METHODS_NDODeviceSection
+- __OBJC_$_CLASS_METHODS_NDOServerVersionUtilities
+- __OBJC_$_CLASS_METHODS_NDOViewModelGenerationHelpers
+- __OBJC_$_CLASS_PROP_LIST_NDODeviceSection
+- __OBJC_$_INSTANCE_METHODS_NDOAppleSupportManager
+- __OBJC_$_INSTANCE_METHODS_NDOClientConfiguration
+- __OBJC_$_INSTANCE_METHODS_NDODeviceSection
+- __OBJC_$_INSTANCE_VARIABLES_NDOClientConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_NDODeviceSection
+- __OBJC_$_PROP_LIST_NDOClientConfiguration
+- __OBJC_$_PROP_LIST_NDODeviceSection
+- __OBJC_$_PROP_LIST_NDOManager
+- __OBJC_$_PROP_LIST_SalesPayloadProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDOCoverageCentralVCManager
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SalesPayloadProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDOCoverageCentralVCManager
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SalesPayloadProvider
+- __OBJC_$_PROTOCOL_REFS_NDOCoverageCentralVCManager
+- __OBJC_$_PROTOCOL_REFS_SalesPayloadProvider
+- __OBJC_CLASS_PROTOCOLS_$_NDODeviceSection
+- __OBJC_CLASS_PROTOCOLS_$_NDOManager
+- __OBJC_CLASS_RO_$_NDOAppleSupportManager
+- __OBJC_CLASS_RO_$_NDOClientConfiguration
+- __OBJC_CLASS_RO_$_NDODeviceSection
+- __OBJC_CLASS_RO_$_NDOServerVersionUtilities
+- __OBJC_CLASS_RO_$_NDOViewModelGenerationHelpers
+- __OBJC_LABEL_PROTOCOL_$_NDOCoverageCentralVCManager
+- __OBJC_LABEL_PROTOCOL_$_SalesPayloadProvider
+- __OBJC_METACLASS_RO_$_NDOAppleSupportManager
+- __OBJC_METACLASS_RO_$_NDOClientConfiguration
+- __OBJC_METACLASS_RO_$_NDODeviceSection
+- __OBJC_METACLASS_RO_$_NDOServerVersionUtilities
+- __OBJC_METACLASS_RO_$_NDOViewModelGenerationHelpers
+- __OBJC_PROTOCOL_$_NDOCoverageCentralVCManager
+- __OBJC_PROTOCOL_$_SalesPayloadProvider
+- ___103-[NDOManager getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]_block_invoke
+- ___103-[NDOManager getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]_block_invoke.49
+- ___103-[NDOManager getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]_block_invoke.cold.1
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke.102
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke.105
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke.99
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke.cold.1
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_2
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_2.cold.1
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_3
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_4
+- ___129-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_5
+- ___27-[NDOManager defaultDevice]_block_invoke
+- ___27-[NDOManager defaultDevice]_block_invoke.39
+- ___27-[NDOManager defaultDevice]_block_invoke.cold.1
+- ___27-[NDOManager pairedWatches]_block_invoke
+- ___27-[NDOManager pairedWatches]_block_invoke.41
+- ___27-[NDOManager pairedWatches]_block_invoke.cold.1
+- ___29-[NDOManager pairedBTDevices]_block_invoke
+- ___29-[NDOManager pairedBTDevices]_block_invoke.43
+- ___29-[NDOManager pairedBTDevices]_block_invoke.cold.1
+- ___29-[NDOManager webURLOverride:]_block_invoke
+- ___29-[NDOManager webURLOverride:]_block_invoke.19
+- ___29-[NDOManager webURLOverride:]_block_invoke.cold.1
+- ___31-[NDOManager ulWebURLOverride:]_block_invoke
+- ___31-[NDOManager ulWebURLOverride:]_block_invoke.21
+- ___31-[NDOManager ulWebURLOverride:]_block_invoke.cold.1
+- ___33-[NDOManager clientConfiguration]_block_invoke
+- ___33-[NDOManager clientConfiguration]_block_invoke.37
+- ___33-[NDOManager clientConfiguration]_block_invoke.cold.1
+- ___35-[NDOManager apsSupportedOverride:]_block_invoke
+- ___35-[NDOManager apsSupportedOverride:]_block_invoke.22
+- ___35-[NDOManager apsSupportedOverride:]_block_invoke.cold.1
+- ___38-[NDOManager checkIsAvailableInStore:]_block_invoke
+- ___38-[NDOManager checkIsAvailableInStore:]_block_invoke.12
+- ___38-[NDOManager checkIsAvailableInStore:]_block_invoke.cold.1
+- ___42-[NDOFollowUp postFollowUpWithDeviceInfo:]_block_invoke
+- ___42-[NDOManager dismissFollowUps:completion:]_block_invoke.220
+- ___42-[NDOManager getLocalDeviceListWithReply:]_block_invoke.211
+- ___43-[NDOManager getRemoteDeviceListWithReply:]_block_invoke.213
+- ___44-[NDOManager appSupportDictionaryWithReply:]_block_invoke
+- ___44-[NDOManager appSupportDictionaryWithReply:]_block_invoke.18
+- ___44-[NDOManager appSupportDictionaryWithReply:]_block_invoke.cold.1
+- ___46-[NDOManager handleInternalCommand:withReply:]_block_invoke.221
+- ___46-[NDOManager scheduleOutreachAfter:withReply:]_block_invoke
+- ___46-[NDOManager scheduleOutreachAfter:withReply:]_block_invoke.9
+- ___46-[NDOManager scheduleOutreachAfter:withReply:]_block_invoke.cold.1
+- ___47-[NDOManager getWarrantyUsingPolicy:withReply:]_block_invoke
+- ___48-[NDOManager getDecodedParamsForPath:withReply:]_block_invoke
+- ___48-[NDOManager getDecodedParamsForPath:withReply:]_block_invoke.36
+- ___48-[NDOManager getDecodedParamsForPath:withReply:]_block_invoke.cold.1
+- ___51-[NDOManager getAmsPropertiesForContext:withReply:]_block_invoke.218
+- ___52+[NDOServerVersionUtilities serverVersionSupported:]_block_invoke
+- ___52-[NDOManager isAPSSupportedOverrideWithServerValue:]_block_invoke
+- ___56-[NDOManager dismissFollowUpForSerialNumber:completion:]_block_invoke.112
+- ___56-[NDOManager getDefaultDeviceInfoUsingForceCachedPolicy]_block_invoke
+- ___56-[NDOManager getDefaultDeviceInfoUsingForceCachedPolicy]_block_invoke.44
+- ___56-[NDOManager getDefaultDeviceInfoUsingForceCachedPolicy]_block_invoke.cold.1
+- ___56-[NDOManager getDefaultDeviceInfoUsingPolicy:withReply:]_block_invoke
+- ___56-[NDOManager getDefaultDeviceInfoUsingPolicy:withReply:]_block_invoke.45
+- ___56-[NDOManager getDefaultDeviceInfoUsingPolicy:withReply:]_block_invoke.cold.1
+- ___57-[NDOManager removePromoSectionWithHashValue:andAckData:]_block_invoke.214
+- ___58-[NDOFollowUp _postFollowUpWithDevicesInfo:repostAllowed:]_block_invoke
+- ___58-[NDOFollowUp _postFollowUpWithDevicesInfo:repostAllowed:]_block_invoke.70
+- ___59-[NDOAppleSupportManager appSupportAvailability:withReply:]_block_invoke
+- ___60-[NDOAppleSupportManager checkIsAvailableInStore:withReply:]_block_invoke
+- ___60-[NDOManager dismissNotificationForSerialNumber:completion:]_block_invoke.113
+- ___62-[NDOManager getLocalDeviceWarrantyForSerialNumber:withReply:]_block_invoke.215
+- ___63-[NDOManager clearAllUserInitiatedFollowUpDismissalsWithReply:]_block_invoke
+- ___63-[NDOManager clearAllUserInitiatedFollowUpDismissalsWithReply:]_block_invoke.209
+- ___63-[NDOManager clearAllUserInitiatedFollowUpDismissalsWithReply:]_block_invoke.cold.1
+- ___65+[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled]_block_invoke
+- ___65-[NDOManager getDeviceInfoUsingForceCachedPolicyForSerialNumber:]_block_invoke
+- ___65-[NDOManager getDeviceInfoUsingForceCachedPolicyForSerialNumber:]_block_invoke.46
+- ___65-[NDOManager getDeviceInfoUsingForceCachedPolicyForSerialNumber:]_block_invoke.cold.1
+- ___66+[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled:]_block_invoke
+- ___67-[NDOManager getCoverageInfoForSerialNumber:usingPolicy:withReply:]_block_invoke.217
+- ___68+[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]_block_invoke
+- ___68+[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]_block_invoke_2
+- ___68+[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]_block_invoke_2.cold.1
+- ___68-[NDOManager getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke
+- ___68-[NDOManager getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.110
+- ___68-[NDOManager getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.cold.1
+- ___75+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke
+- ___75+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke.cold.1
+- ___75+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke.cold.2
+- ___75+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke.cold.3
+- ___75+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke.cold.4
+- ___75-[NDOManager clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:]_block_invoke
+- ___75-[NDOManager clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:]_block_invoke.208
+- ___75-[NDOManager clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:]_block_invoke.cold.1
+- ___75-[NDOManager getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke
+- ___75-[NDOManager getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.111
+- ___75-[NDOManager getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.cold.1
+- ___75-[NDOManager storeUserInitiatedFollowUpDismissalForSerialNumber:withReply:]_block_invoke.210
+- ___77-[NDOManager _getDeviceListForLocalDevices:sessionID:params:completionBlock:]_block_invoke
+- ___77-[NDOManager _getDeviceListForLocalDevices:sessionID:params:completionBlock:]_block_invoke.107
+- ___77-[NDOManager _getDeviceListForLocalDevices:sessionID:params:completionBlock:]_block_invoke.cold.1
+- ___80-[NDOManager getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke
+- ___80-[NDOManager getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.109
+- ___80-[NDOManager getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.cold.1
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.32
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.36
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.cold.1
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.cold.2
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.cold.3
+- ___81+[NDOServerVersionUtilities _supportedVersionsForClientAndServer:withCompletion:]_block_invoke.cold.4
+- ___81+[NDOServerVersionUtilities isHighServerVersionFeaturesetEnabled:withCompletion:]_block_invoke
+- ___84-[NDOManager getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke
+- ___84-[NDOManager getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.108
+- ___84-[NDOManager getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:]_block_invoke.cold.1
+- ___85-[NDOManager getRemoteDeviceWarrantyForSerialNumber:withAdditionalHeaders:withReply:]_block_invoke.216
+- ___97-[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:]_block_invoke
+- ___97-[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:]_block_invoke.116
+- ___97-[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:]_block_invoke.cold.1
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_113_e8_32s40s48s56s64bs72bs80bs88r96r104r_e5_v8?0ls64l8r88l8s32l8s72l8r96l8r104l8s40l8s48l8s80l8s56l8
+- ___block_descriptor_40_e8_32bs_e15_v16?0"NSSet"8ls32l8
+- ___block_descriptor_40_e8_32bs_e23_v16?0"NDODeviceInfo"8ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32r_e15_v16?0"NSSet"8lr32l8
+- ___block_descriptor_40_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e30_v32?0"NDODeviceInfo"8Q16^B24ls32l8
+- ___block_descriptor_48_e8_32bs40r_e22_v16?0"NSDictionary"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e18_v16?0"NSString"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e22_v16?0"NSDictionary"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e23_v16?0"NDODeviceInfo"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSArray"8"NSString"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e36_v24?0"AMSMediaResult"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e17_v16?0"NSArray"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e18_v16?0"NSString"8lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e19_v16?0"NDODevice"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e22_v16?0"NSDictionary"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40r_e23_v16?0"NDODeviceInfo"8ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e26_v32?0"NDODevice"8Q16^B24ls32l8s40l8
+- ___block_descriptor_49_e8_32s40s_e30_v32?0"NDODeviceInfo"8Q16^B24ls32l8s40l8
+- ___block_descriptor_56_e8_32bs40r48r_e22_v16?0"NSDictionary"8lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40bs48r_e17_v16?0"NSError"8ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s40bs48r_e22_v16?0"NSDictionary"8lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48r_e5_v8?0lr48l8s40l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e18_v16?0"NSString"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e30_v32?0"NDODeviceInfo"8Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e23_v16?0"NDODeviceInfo"8ls48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56r_e22_v16?0"NSDictionary"8ls32l8s40l8r56l8s48l8
+- ___block_descriptor_65_e8_32s40bs48r_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24lr48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e30_v32?0"NDODeviceInfo"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56bs64r72r_e40_v32?0"NDODevice"8"NDODeviceInfo"16Q24ls32l8r64l8s56l8r72l8s40l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56s64bs_e26_v32?0"NDODevice"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72bs_e23_v16?0"NDODeviceInfo"8ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_97_e8_32s40s48s56s64bs72bs80bs_e30_v24?0"NSArray"8"NSString"16ls32l8s40l8s64l8s72l8s48l8s56l8s80l8
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_NewDeviceOutreach
+- _dispatch_async
+- _dispatch_get_global_queue
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_notify
+- _kAppAvailabilityType
+- _kAppAvailablityText
+- _kAppBundleID
+- _kAppIconURL
+- _kAppLinkURL
+- _kAppTitle
+- _kAppVendorName
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$_checkConversionEligibilityForDevice:
+- _objc_msgSend$_clearFollowUpWithDevices:
+- _objc_msgSend$_dictionaryFromURL:shouldRetry:withCompletion:
+- _objc_msgSend$_getDeviceListForLocalDevices:sessionID:params:completionBlock:
+- _objc_msgSend$_legacyWarrantyPath
+- _objc_msgSend$_postFollowUpWithDevicesInfo:repostAllowed:
+- _objc_msgSend$_setupFollowUpItem:withDeviceInfo:
+- _objc_msgSend$_setupFollowUpNotificationWithDeviceInfo:
+- _objc_msgSend$_supportedVersionsForClientAndServer:withCompletion:
+- _objc_msgSend$_warrantyPathForSerialNumberFormat
+- _objc_msgSend$acLocalizedGroupedOfferCTA
+- _objc_msgSend$acLocalizedGroupedOfferFooterLabel
+- _objc_msgSend$acLocalizedNotificationOfferDesc
+- _objc_msgSend$acLocalizedOfferCTA
+- _objc_msgSend$acLocalizedOfferDesc
+- _objc_msgSend$acLocalizedOfferDetailsPluralEligibilityFormat
+- _objc_msgSend$acLocalizedOfferDetailsSingularEligibility
+- _objc_msgSend$acLocalizedOfferLabel
+- _objc_msgSend$acLocalizedOfferLongLabel
+- _objc_msgSend$acLocalizedOfferPluralDescFormat
+- _objc_msgSend$acLocalizedOfferSingularDesc
+- _objc_msgSend$acLocalizedOfferStatusLabel
+- _objc_msgSend$acLocalizedUnlinkedPlanStatusLabel
+- _objc_msgSend$acNotificationLocalizedOfferLabel
+- _objc_msgSend$acNotificationLocalizedOfferPluralDescFormat
+- _objc_msgSend$acNotificationLocalizedOfferSingularDesc
+- _objc_msgSend$acOfferBadgeDurationBeforeEndDate
+- _objc_msgSend$acOfferDisplay
+- _objc_msgSend$acOfferDisplayDate
+- _objc_msgSend$acOfferDurationBeforeEndDate
+- _objc_msgSend$acOfferEligibleUntil
+- _objc_msgSend$acOfferFollowupDisplayDate
+- _objc_msgSend$acOfferSettingsRowBadge
+- _objc_msgSend$actionWithLabel:url:
+- _objc_msgSend$activationDate
+- _objc_msgSend$addDevice:
+- _objc_msgSend$addFinishBlock:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$agsULURL
+- _objc_msgSend$allKeys
+- _objc_msgSend$allPossibleFollowUpTargetBundleIdentifiers
+- _objc_msgSend$appState
+- _objc_msgSend$appSupportAvailability:withReply:
+- _objc_msgSend$applicationProxyForIdentifier:
+- _objc_msgSend$apsSupportedOverride:
+- _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$bagForProfile:profileVersion:
+- _objc_msgSend$bagSubProfile
+- _objc_msgSend$bagSubProfileVersion
+- _objc_msgSend$bundleWithPath:
+- _objc_msgSend$cacheWarranty:
+- _objc_msgSend$checkAppIsPurchased:
+- _objc_msgSend$checkIsAvailableInStore:withReply:
+- _objc_msgSend$clearAllUserInitiatedFollowUpDismissalsWithCompletion:
+- _objc_msgSend$clearUserInitiatedFollowUpDismissalForSerialNumber:completion:
+- _objc_msgSend$compare:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$coverageBenefitsDictionary
+- _objc_msgSend$coverageDetailsDictionary
+- _objc_msgSend$coverageEndDate
+- _objc_msgSend$coverageLocalizedLabel
+- _objc_msgSend$covered
+- _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$dataTaskWithURL:completionHandler:
+- _objc_msgSend$dateByAddingTimeInterval:
+- _objc_msgSend$dateWithEpochNumber:
+- _objc_msgSend$dateWithTimeIntervalSince1970:
+- _objc_msgSend$daysEligible
+- _objc_msgSend$daysFromDate:
+- _objc_msgSend$defaultDevice
+- _objc_msgSend$defaultDevice:
+- _objc_msgSend$defaultManager
+- _objc_msgSend$defaultSessionConfiguration
+- _objc_msgSend$deviceDesc
+- _objc_msgSend$deviceImageUrl
+- _objc_msgSend$deviceList
+- _objc_msgSend$deviceWithCBDevice:isVisibleInCC:
+- _objc_msgSend$deviceWithName:serialNumber:activationDate:deviceType:
+- _objc_msgSend$deviceWithName:serialNumber:activationDate:deviceType:productID:productName:
+- _objc_msgSend$deviceWithName:serialNumber:activationDate:deviceType:productID:productName:isVisibleInCC:
+- _objc_msgSend$dictionaryForKey:
+- _objc_msgSend$dictionaryWithContentsOfFile:
+- _objc_msgSend$dismissFollowUpForSerialNumber:
+- _objc_msgSend$doubleValue
+- _objc_msgSend$eligibilityEventId
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$firstObject
+- _objc_msgSend$followUpIsDismissedForSerial:
+- _objc_msgSend$followUpItemsForDeviceInfo:
+- _objc_msgSend$followUpSaleFlowSourceForBundleId:device:
+- _objc_msgSend$followUpTargetBundleIDsForDevice:
+- _objc_msgSend$getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:
+- _objc_msgSend$getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:
+- _objc_msgSend$getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:
+- _objc_msgSend$getClientConfigurationWithReply:
+- _objc_msgSend$getDecodedParamsForPath:withReply:
+- _objc_msgSend$getDefaultDeviceInfoUsingPolicy:withReply:
+- _objc_msgSend$getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:
+- _objc_msgSend$getDeviceInfoForSerialNumber:usingPolicy:withReply:
+- _objc_msgSend$getDeviceListForLocalDevices:sessionID:params:withReply:
+- _objc_msgSend$getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:
+- _objc_msgSend$getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:
+- _objc_msgSend$getValidServerVersionCache
+- _objc_msgSend$identifier
+- _objc_msgSend$initWithBase64EncodedString:options:
+- _objc_msgSend$initWithConfigDictionary:
+- _objc_msgSend$initWithLabel:identifier:
+- _objc_msgSend$initWithName:serialNumber:activationDate:deviceType:productID:productName:color:enclosureColor:coverGlassColor:isVisibleInCC:cachingPolicy:
+- _objc_msgSend$initWithType:clientIdentifier:clientVersion:bag:
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$integerValue
+- _objc_msgSend$intersectSet:
+- _objc_msgSend$isHighServerVersionFeaturesetEnabled:withCompletion:
+- _objc_msgSend$isInstalled
+- _objc_msgSend$isVisibleInCC
+- _objc_msgSend$label
+- _objc_msgSend$localizedName
+- _objc_msgSend$localizedStringFromNumber:numberStyle:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$options
+- _objc_msgSend$pairedBTDevices:
+- _objc_msgSend$pairedWatches:
+- _objc_msgSend$parentId
+- _objc_msgSend$payloadDictionaryForDeviceInfo:atIndex:
+- _objc_msgSend$payloadFrom:atIndex:device:
+- _objc_msgSend$perform
+- _objc_msgSend$pfcId
+- _objc_msgSend$pgfId
+- _objc_msgSend$possibleUniqueIdentifiersForSerialNumber:
+- _objc_msgSend$postFollowUpItem:error:
+- _objc_msgSend$postFollowUpWithDeviceInfo:
+- _objc_msgSend$privateDeviceList
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$readAPSSupportedOverride:
+- _objc_msgSend$readULWebURLOverride:
+- _objc_msgSend$readWebURLOverride:
+- _objc_msgSend$refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$responseDataItems
+- _objc_msgSend$scIntervalFollowupEligible
+- _objc_msgSend$scheduleOutreachAfter:withReply:
+- _objc_msgSend$sessionWithConfiguration:
+- _objc_msgSend$set
+- _objc_msgSend$setAcLocalizedGroupedOfferCTA:
+- _objc_msgSend$setAcLocalizedGroupedOfferFooterLabel:
+- _objc_msgSend$setAcLocalizedOfferCTA:
+- _objc_msgSend$setAcLocalizedOfferDetails:
+- _objc_msgSend$setAcLocalizedOfferDetailsPluralEligibilityFormat:
+- _objc_msgSend$setAcLocalizedOfferDetailsSingularEligibility:
+- _objc_msgSend$setAcLocalizedOfferLabel:
+- _objc_msgSend$setAcLocalizedOfferLongLabel:
+- _objc_msgSend$setAcLocalizedOfferPluralDescFormat:
+- _objc_msgSend$setAcLocalizedOfferSingularDesc:
+- _objc_msgSend$setAcLocalizedOfferStatusLabel:
+- _objc_msgSend$setAcLocalizedUnlinkedPlanLabel:
+- _objc_msgSend$setAcLocalizedUnlinkedPlanStatusLabel:
+- _objc_msgSend$setAcNotificationLocalizedOfferLabel:
+- _objc_msgSend$setAcNotificationLocalizedOfferPluralDescFormat:
+- _objc_msgSend$setAcNotificationLocalizedOfferSingularDesc:
+- _objc_msgSend$setAcOfferBadgeDurationBeforeEndDate:
+- _objc_msgSend$setAcOfferConversionDate:
+- _objc_msgSend$setAcOfferDisplay:
+- _objc_msgSend$setAcOfferDisplayDate:
+- _objc_msgSend$setAcOfferDurationBeforeEndDate:
+- _objc_msgSend$setAcOfferEligibleUntil:
+- _objc_msgSend$setAcOfferFollowupDisplayDate:
+- _objc_msgSend$setAcOfferIdentifier:
+- _objc_msgSend$setAcOfferPromoFormat:
+- _objc_msgSend$setAcOfferPromoNew:
+- _objc_msgSend$setAcOfferSettingsAppBadge:
+- _objc_msgSend$setAcOfferSettingsRowBadge:
+- _objc_msgSend$setAcOfferToggle:
+- _objc_msgSend$setActions:
+- _objc_msgSend$setActivateAction:
+- _objc_msgSend$setActivationDate:
+- _objc_msgSend$setAgsULURL:
+- _objc_msgSend$setBenefitDetailsArray:
+- _objc_msgSend$setBundleIdentifiers:
+- _objc_msgSend$setByAddingObjectsFromArray:
+- _objc_msgSend$setCacheValidityDuration:
+- _objc_msgSend$setCachingPolicy:
+- _objc_msgSend$setClearAction:
+- _objc_msgSend$setCoverageBenefitsDictionary:
+- _objc_msgSend$setCoverageDetailsArray:
+- _objc_msgSend$setCoverageDetailsDictionary:
+- _objc_msgSend$setCoverageEndDate:
+- _objc_msgSend$setCoverageHasACLogo:
+- _objc_msgSend$setCoverageLocalizedDesc:
+- _objc_msgSend$setCoverageLocalizedDescLong:
+- _objc_msgSend$setCoverageLocalizedExpirationLabel:
+- _objc_msgSend$setCoverageLocalizedLabel:
+- _objc_msgSend$setCovered:
+- _objc_msgSend$setDeviceDesc:
+- _objc_msgSend$setDeviceImageUrl:
+- _objc_msgSend$setDisplayRepairAndSupport:
+- _objc_msgSend$setDisplayStyle:
+- _objc_msgSend$setDouble:forKey:
+- _objc_msgSend$setEligibilityEventId:
+- _objc_msgSend$setExpirationDate:
+- _objc_msgSend$setExtensionIdentifier:
+- _objc_msgSend$setFooter1FormatString:
+- _objc_msgSend$setFooter1LinkLabel:
+- _objc_msgSend$setFooter1LinkURL:
+- _objc_msgSend$setFooter2FormatString:
+- _objc_msgSend$setFooter2LinkLabel:
+- _objc_msgSend$setFooter2LinkURL:
+- _objc_msgSend$setFrequency:
+- _objc_msgSend$setGeneralAboutPolicy:
+- _objc_msgSend$setGetSupportURL:
+- _objc_msgSend$setGroupIdentifier:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInformativeFooterText:
+- _objc_msgSend$setInformativeText:
+- _objc_msgSend$setIsACServicesPartner:
+- _objc_msgSend$setIsAPSSupported:
+- _objc_msgSend$setIsCoveragePlanSubscriptionType:
+- _objc_msgSend$setIsVisibleInCC:
+- _objc_msgSend$setLabel:
+- _objc_msgSend$setLocalizedBenefitsCardFooter:
+- _objc_msgSend$setLocalizedBenefitsCardSubTitle:
+- _objc_msgSend$setLocalizedBenefitsCardTitle:
+- _objc_msgSend$setLocalizedCoverageDetailsTitle:
+- _objc_msgSend$setLocalizedCoverageFooterFormatString:
+- _objc_msgSend$setLocalizedCoverageFooterLinkLabel:
+- _objc_msgSend$setLocalizedCoverageSubTitleForServicesPartnerString:
+- _objc_msgSend$setLocalizedCoveredDeviceDateLabelFormat:
+- _objc_msgSend$setLocalizedManagePlanLabel:
+- _objc_msgSend$setLocalizedSupportAppFooter:
+- _objc_msgSend$setLocalizedSupportAppLabel:
+- _objc_msgSend$setMySupportURL:
+- _objc_msgSend$setNotification:
+- _objc_msgSend$setOptions:
+- _objc_msgSend$setParentId:
+- _objc_msgSend$setPfcId:
+- _objc_msgSend$setPgfId:
+- _objc_msgSend$setPrivateDeviceList:
+- _objc_msgSend$setRequestCachePolicy:
+- _objc_msgSend$setScIntervalFollowupEligible:
+- _objc_msgSend$setScIntervalInDays:
+- _objc_msgSend$setScIntervalPairedDeviceAllowed:
+- _objc_msgSend$setSgId:
+- _objc_msgSend$setShowNotificationBeforeEndDate:
+- _objc_msgSend$setShowNotificationToggle:
+- _objc_msgSend$setSupportAppURL:
+- _objc_msgSend$setTargetBundleIdentifier:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setUniqueIdentifier:
+- _objc_msgSend$setUserInfo:
+- _objc_msgSend$setWithCapacity:
+- _objc_msgSend$setWithSet:
+- _objc_msgSend$sgId
+- _objc_msgSend$sharedSession
+- _objc_msgSend$showNotificationBeforeEndDate
+- _objc_msgSend$showNotificationToggle
+- _objc_msgSend$sourceFromDeviceType
+- _objc_msgSend$stringByAppendingPathComponent:
+- _objc_msgSend$stringByDeletingLastPathComponent
+- _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
+- _objc_msgSend$targetBundleIdentifier
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$timeIntervalSinceNow
+- _objc_msgSend$unarchivedArrayOfObjectsOfClass:fromData:error:
+- _objc_msgSend$uniqueFollowUpIdentifiersForDevice:
+- _objc_msgSend$uniqueIdentfierForSerialNumber:bundleId:
+- _objc_msgSend$uniqueIdentifier
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$updateWithWarranty:
+- _objc_msgSend$vendorName
+- _objc_msgSend$warrantyWithDictionary:
+- _objc_retainBlock
+- _objc_retain_x25
+- _objc_retain_x28
+- _swift_allocError
+- _symbolic _____Sg 17NewDeviceOutreach21NDOWarrantyPropertiesV
+CStrings:
++ "%@ :: (%@) :: %@ - %@ :: (%@)"
++ "+[NDOFollowUp _uniqueIdentfierForSerialNumber:bundleId:]"
++ "Duplicate values for key: '"
++ "Failed to decode cached coverage details response data for serial number"
++ "Fatal error"
++ "Swift/NativeDictionary.swift"
++ "download warranty error"
++ "handoff"
++ "no offer eligible"
++ "offer eligible"
+- " Server lookup policy:%ld"
+- "#16@0:8"
+- "%@\n"
+- "%@ (%@):\n"
+- "%@ :: (%@) :: (%@) :: %@ - %@ :: (%@) :: %d"
+- "%@%@"
+- "%@_CachedWarrantyLastUpdatedDate"
+- "%@_CachedWarrantyLocale"
+- "%@_CachedWarrantyValidityDuration"
+- "%@_CachedWarrantyVersion"
+- "%s"
+- "%s -> %@"
+- "%s : %d"
+- "%s : warrantyPath : %@"
+- "%s Skipping APPLEID Device %@"
+- "%s:%d salesInfoReply salesURL:%@ agsULUrl:%@ %@"
+- "%{public}s - Erasing all follow up dismissals"
+- "%{public}s - Erasing follow up dismissal for device"
+- "%{public}s - isDismissedByUser: %d"
+- "%{public}s Cannot create follow up item for SN:%@ WI:%@"
+- "%{public}s DeviceType:%@ bundleIDs%@"
+- "%{public}s Unsupported device type"
+- "%{public}s error:%@"
+- "%{public}s:  %{public}@ : %{public}@"
+- "%{public}s: %{private}@"
+- "%{public}s: Device NOT eligible. Don't post a followup for %{private}@"
+- "%{public}s: Device NOT eligible. Remove the followup for %{private}@"
+- "%{public}s: Device eligible for re-post due to eligible event. Re-post the followup for %{private}@"
+- "%{public}s: Device eligible with future post date. Cannot post followup for %{private}@ on: %@"
+- "%{public}s: Device eligible. Post new  followup for %{private}@"
+- "%{public}s: Device eligible. Update the followup for %{private}@"
+- "%{public}s: Device no longer eligible. Don't post a followup for %{private}@"
+- "%{public}s: Device no longer eligible. Remove the followup for %{private}@"
+- "%{public}s: Error serializing plist file from URL '%@': %@"
+- "%{public}s: Failed to convert: %{public}@"
+- "%{public}s: Followup already dismissed for %{private}@, leaving unposted"
+- "%{public}s: Followup already dismissed/not present for %{private}@, leaving unposted"
+- "%{public}s: Followup already dismissed/not present/no eligible events found for %{private}@, leaving unposted"
+- "%{public}s: No valid params found for: %{public}@"
+- "%{public}s: No warranty downloaded for device. Don't post a followup for %{private}@"
+- "%{public}s: No warranty downloaded for device. Remove the followup for %{private}@"
+- "%{public}s: NotificationDate: %@"
+- "%{public}s: Override isAPSSupported nil"
+- "%{public}s: Serial number is nil"
+- "%{public}s: Using initial postdate as it is later than FollowupDisplay Date"
+- "%{public}s: saving for event: %@ with events: %@"
+- "%{public}s: shouldShowNotification: %d"
+- "%{public}s: shouldShowRowBadge: %d"
+- "%{public}s: sn: %@ sn2: %@ %@"
+- "%{public}s:%d completionBlock"
+- "%{public}s:%d deviceInfoReply"
+- "%{public}s:%d salesInfoReply"
+- "+[NDOFollowUp followUpTargetBundleIDsForDevice:]"
+- "+[NDOFollowUp uniqueIdentfierForSerialNumber:bundleId:]"
+- "+[NDOFollowUpDismissalTracker eraseAllFollowUpDismissals]"
+- "+[NDOFollowUpDismissalTracker eraseFollowUpDismissalForDeviceSerial:]"
+- "+[NDOFollowUpDismissalTracker followUpIsDismissedForSerial:]"
+- "+[NDOServerVersionUtilities _dictionaryFromURL:shouldRetry:withCompletion:]_block_invoke"
+- "+[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]"
+- "+[NDOServerVersionUtilities getDecodedParamsForPath:withCompletion:]_block_invoke_2"
+- "+[NDOServerVersionUtilities readAPSSupportedOverride]"
+- "+[NDOServerVersionUtilities readULWebURLOverride]"
+- "+[NDOServerVersionUtilities readWebURLOverride]"
+- "+[NDOWarranty cachedWarrantyForSerialNumber:]"
+- "+[NDOWarranty warrantyWithDictionary:]"
+- "-[NDOFollowUp _postFollowUpWithDevicesInfo:repostAllowed:]_block_invoke"
+- "-[NDOFollowUp _setupFollowUpItem:withDeviceInfo:]"
+- "-[NDOFollowUp followUpItemsForDeviceInfo:]"
+- "-[NDOFollowUp postFollowUpWithDeviceInfo:]"
+- "-[NDOFollowUp refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:]_block_invoke"
+- "-[NDOManager clientConfiguration]_block_invoke"
+- "-[NDOManager getDecodedParamsForPath:withReply:]_block_invoke"
+- "-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke"
+- "-[NDOManager getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:]_block_invoke_2"
+- "-[NDOManager payloadFrom:atIndex:device:]"
+- "-[NDOWarranty cacheWarranty:]"
+- ".%@"
+- ".cxx_destruct"
+- "/System/Library/PrivateFrameworks/NewDeviceOutreachUI.framework"
+- "1"
+- "<Missing serial number>"
+- "<Missing warranty>"
+- "?pt=2003&ct=coverage.settings&mt=8"
+- "@\"<NDOFollowUpProvider>\""
+- "@\"ACAccountStore\""
+- "@\"NDODevice\""
+- "@\"NDODevice\"16@0:8"
+- "@\"NDOWarranty\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8^@16"
+- "@\"NSData\"32@0:8@\"NSString\"16@\"NSArray\"24"
+- "@\"NSData\"40@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"24@0:8@\"NSData\"16"
+- "@\"NSDictionary\"24@0:8@\"NSString\"16"
+- "@\"NSDictionary\"32@0:8@\"NSMutableURLRequest\"16B24B28"
+- "@\"NSDictionary\"48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40"
+- "@\"NSMutableArray\""
+- "@\"NSNumber\""
+- "@\"NSObject<NDORequestPropertiesProvider>\"16@0:8"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16^@24"
+- "@32@0:8@16q24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16^{__SecKey=}24^@32"
+- "@40@0:8@16q24@32"
+- "@44@0:8@16@24@32B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32Q40"
+- "@48@0:8Q16@24@32@40"
+- "@64@0:8@16@24@32B40@44@52B60"
+- "@64@0:8@16@24@32Q40@48@56"
+- "@68@0:8@16@24@32Q40@48@56B64"
+- "@88@0:8@16@24@32Q40@48@56@64@72@80"
+- "@96@0:8@16@24@32Q40@48@56@64@72@80B88B92"
+- "@{public}s: no device serial. Cannot generate follow up IDs"
+- "AppAvailabilityType"
+- "AppAvailablityText"
+- "AppBundleID"
+- "AppIconURL"
+- "AppLinkURL"
+- "AppStore --> appSupportAvailability %@."
+- "AppSupportAvailability"
+- "AppTitleKey"
+- "AppVendorName"
+- "Apple"
+- "Apple Support"
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8@?16"
+- "B28@0:8@16B24"
+- "B32@0:8@\"FLFollowUpItem\"16^@24"
+- "B32@0:8@\"NSArray\"16^@24"
+- "B32@0:8@16^@24"
+- "BAAAuthenticationHeadersForBody:error:"
+- "CLEAR_NOTIFICATION"
+- "CachedWarrantyLastUpdatedDate"
+- "CachedWarrantyLocale"
+- "CachedWarrantyValidityDuration"
+- "CachedWarrantyVersion"
+- "Caching Server version  %@"
+- "Checking for %@ in the App Store"
+- "Cleared follow-up: %@"
+- "Client versions '%@'"
+- "ConversionDate"
+- "DETAILS"
+- "Device list came back empty, falling to summarily call"
+- "Device list failed with %@, falling to summarily call "
+- "Device not eligible for conversion. %{private}@, followup dismissed date: %@, fup display date: %@"
+- "Error loading pending follow-ups: %@"
+- "FUP_ACTION_LABEL"
+- "Failed to alloc clear action"
+- "Failed to alloc open action"
+- "Failed to fetch plist data from URL '%@' with error: %@"
+- "Failed to post follow-up:%@%@"
+- "FollowupDisplayedSerialNumberHashesWithEvents"
+- "FollowupEligibilityEventId"
+- "FollowupPostedSerialNumberHashes"
+- "FollowupWarranty"
+- "Free – On the App Store"
+- "HTTPBody"
+- "High Server version supported - %@"
+- "HighServerVersion"
+- "I16@0:8"
+- "I24@0:8@16"
+- "INSTALLED"
+- "Incorrect format in response detected from URL '%@'. Response: %@. Aborting without retry."
+- "Incorrect format in response detected. retrying..."
+- "Incorrect format stored in server version cache. Removing it."
+- "Incorrect serverDictionary format"
+- "Library/Application Support/com.apple.NewDeviceOutreach/%@_Warranty.plist"
+- "Library/Application Support/com.apple.NewDeviceOutreach/Warranty.plist"
+- "Localizable"
+- "Lookup for %@ in the App Store failed with error %@"
+- "LowServerVersion"
+- "MORE_DEVICES"
+- "Migrating legacy warranty.."
+- "Missing acLocalizedOfferPluralDescFormat value"
+- "Missing acLocalizedOfferSingularDesc value"
+- "Missing eventID"
+- "NDO"
+- "NDOACCoverageDetails"
+- "NDOACCoverageDetailsProvider"
+- "NDOAMSProperties"
+- "NDOAMSPropertiesRequestContext"
+- "NDOAgentProtocol"
+- "NDOAppleAuthHelpers"
+- "NDOAppleSupportManager"
+- "NDOBAAManager"
+- "NDOClientConfiguration"
+- "NDOCoverageCentralVCManager"
+- "NDODefaultFolllowUpProvider"
+- "NDODevice"
+- "NDODeviceInfo"
+- "NDODeviceSection"
+- "NDOFollowUp"
+- "NDOFollowUpDismissalTracker"
+- "NDOFollowUpProvider"
+- "NDOManager"
+- "NDOManagerSupportAppUtilities"
+- "NDORequestProperties"
+- "NDORequestPropertiesProvider"
+- "NDOServerVersionUtilities"
+- "NDOTypeChecking"
+- "NDOUniversalLinkConverter"
+- "NDOUniversalLinkUtilities"
+- "NDOUtilities"
+- "NDOViewModelGenerationHelpers"
+- "NDOWarranty"
+- "NO"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "No longer tracking device %{private}@, clearing"
+- "No offer"
+- "No server version dictionary found"
+- "OASHeadersWithOfferID:serialNumber:primarySerialNumber:currentStoreLocaleHeader:"
+- "OVERRIDE"
+- "OneDayInterval"
+- "Posted follow-up: serialNumber:%@ -> %@"
+- "Q"
+- "Q16@0:8"
+- "Reposted follow-up: %@"
+- "Result %d"
+- "SHA256Hash"
+- "SalesPayloadProvider"
+- "Server version  %@"
+- "Server version dictionary missing key '%@'"
+- "Server version supported by client version - '%@'"
+- "Server versions '%@'"
+- "ServerVersionCache"
+- "ServerVersionOverride"
+- "ServerVersionURL"
+- "T#,R"
+- "T@\"<NDOFollowUpProvider>\",&,V_followUpProvider"
+- "T@\"ACAccountStore\",&,V_accountStore"
+- "T@\"NDODevice\",&,V_device"
+- "T@\"NDOWarranty\",&,V_warranty"
+- "T@\"NSArray\",&,N,V_clientCertArray"
+- "T@\"NSArray\",&,V_acOfferToggle"
+- "T@\"NSArray\",&,V_benefitDetailsArray"
+- "T@\"NSArray\",&,V_coverageDetailsArray"
+- "T@\"NSArray\",R"
+- "T@\"NSData\",N,R"
+- "T@\"NSDate\",&,V_acOfferConversionDate"
+- "T@\"NSDate\",&,V_acOfferDisplayDate"
+- "T@\"NSDate\",&,V_acOfferEligibleUntil"
+- "T@\"NSDate\",&,V_acOfferFollowupDisplayDate"
+- "T@\"NSDate\",&,V_activationDate"
+- "T@\"NSDate\",&,V_coverageEndDate"
+- "T@\"NSDate\",&,V_coverageValidityDate"
+- "T@\"NSDate\",R"
+- "T@\"NSDictionary\",&,V_additionalPurchaseFlowData"
+- "T@\"NSDictionary\",&,V_additionalPurchaseFlowHeaders"
+- "T@\"NSDictionary\",&,V_coverageBenefitsDictionary"
+- "T@\"NSDictionary\",&,V_coverageDetailsDictionary"
+- "T@\"NSDictionary\",&,V_dictionaryRepresentation"
+- "T@\"NSDictionary\",N,R"
+- "T@\"NSMutableArray\",&,V_privateDeviceList"
+- "T@\"NSNumber\",&,V_coverGlassColor"
+- "T@\"NSNumber\",&,V_scIntervalInDays"
+- "T@\"NSString\",&,V_acLocalizedGroupedOfferCTA"
+- "T@\"NSString\",&,V_acLocalizedGroupedOfferFooterLabel"
+- "T@\"NSString\",&,V_acLocalizedOfferCTA"
+- "T@\"NSString\",&,V_acLocalizedOfferDetails"
+- "T@\"NSString\",&,V_acLocalizedOfferDetailsPluralEligibilityFormat"
+- "T@\"NSString\",&,V_acLocalizedOfferDetailsSingularEligibility"
+- "T@\"NSString\",&,V_acLocalizedOfferLabel"
+- "T@\"NSString\",&,V_acLocalizedOfferLongLabel"
+- "T@\"NSString\",&,V_acLocalizedOfferPluralDescFormat"
+- "T@\"NSString\",&,V_acLocalizedOfferSingularDesc"
+- "T@\"NSString\",&,V_acLocalizedOfferStatusLabel"
+- "T@\"NSString\",&,V_acLocalizedUnlinkedPlanLabel"
+- "T@\"NSString\",&,V_acLocalizedUnlinkedPlanStatusLabel"
+- "T@\"NSString\",&,V_acNotificationLocalizedOfferLabel"
+- "T@\"NSString\",&,V_acNotificationLocalizedOfferPluralDescFormat"
+- "T@\"NSString\",&,V_acNotificationLocalizedOfferSingularDesc"
+- "T@\"NSString\",&,V_acOfferIdentifier"
+- "T@\"NSString\",&,V_acOfferPromoFormat"
+- "T@\"NSString\",&,V_acOfferPromoNew"
+- "T@\"NSString\",&,V_agsULURL"
+- "T@\"NSString\",&,V_agsURL"
+- "T@\"NSString\",&,V_color"
+- "T@\"NSString\",&,V_coverageLocalizedDesc"
+- "T@\"NSString\",&,V_coverageLocalizedDescLong"
+- "T@\"NSString\",&,V_coverageLocalizedExpirationLabel"
+- "T@\"NSString\",&,V_coverageLocalizedLabel"
+- "T@\"NSString\",&,V_deviceDesc"
+- "T@\"NSString\",&,V_deviceImageUrl"
+- "T@\"NSString\",&,V_eligibilityEventId"
+- "T@\"NSString\",&,V_enclosureColor"
+- "T@\"NSString\",&,V_footer1FormatString"
+- "T@\"NSString\",&,V_footer1LinkLabel"
+- "T@\"NSString\",&,V_footer1LinkURL"
+- "T@\"NSString\",&,V_footer2FormatString"
+- "T@\"NSString\",&,V_footer2LinkLabel"
+- "T@\"NSString\",&,V_footer2LinkURL"
+- "T@\"NSString\",&,V_getSupportURL"
+- "T@\"NSString\",&,V_identifier"
+- "T@\"NSString\",&,V_label"
+- "T@\"NSString\",&,V_localizedBenefitLabelKey"
+- "T@\"NSString\",&,V_localizedBenefitValueKey"
+- "T@\"NSString\",&,V_localizedBenefitsCardFooter"
+- "T@\"NSString\",&,V_localizedBenefitsCardSubTitle"
+- "T@\"NSString\",&,V_localizedBenefitsCardTitle"
+- "T@\"NSString\",&,V_localizedCoverageDetailsLabel"
+- "T@\"NSString\",&,V_localizedCoverageDetailsTitle"
+- "T@\"NSString\",&,V_localizedCoverageDetailsValue"
+- "T@\"NSString\",&,V_localizedCoverageFooterFormatString"
+- "T@\"NSString\",&,V_localizedCoverageFooterLinkLabel"
+- "T@\"NSString\",&,V_localizedCoverageSubTitleForServicesPartnerString"
+- "T@\"NSString\",&,V_localizedCoveredDeviceDateLabelFormat"
+- "T@\"NSString\",&,V_localizedManagePlanLabel"
+- "T@\"NSString\",&,V_localizedSupportAppFooter"
+- "T@\"NSString\",&,V_localizedSupportAppLabel"
+- "T@\"NSString\",&,V_mySupportURL"
+- "T@\"NSString\",&,V_name"
+- "T@\"NSString\",&,V_parentId"
+- "T@\"NSString\",&,V_pfcId"
+- "T@\"NSString\",&,V_pgfId"
+- "T@\"NSString\",&,V_productID"
+- "T@\"NSString\",&,V_productName"
+- "T@\"NSString\",&,V_serialNumber"
+- "T@\"NSString\",&,V_sgId"
+- "T@\"NSString\",&,V_supportAppURL"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSURL\",N,R"
+- "TB,N,R"
+- "TB,N,R,VpresentModally"
+- "TB,N,VhasTheftAndLoss"
+- "TB,R"
+- "TB,V_acOfferDisplay"
+- "TB,V_acOfferEligible"
+- "TB,V_acOfferSettingsAppBadge"
+- "TB,V_acOfferSettingsRowBadge"
+- "TB,V_cachingPolicy"
+- "TB,V_coverageHasACLogo"
+- "TB,V_covered"
+- "TB,V_displayRepairAndSupport"
+- "TB,V_isACServicesPartner"
+- "TB,V_isAPSSupported"
+- "TB,V_isActiveWatch"
+- "TB,V_isAltAccountWatch"
+- "TB,V_isCoveragePlanSubscriptionType"
+- "TB,V_isVisibleInCC"
+- "TB,V_scIntervalFollowupEligible"
+- "TB,V_scIntervalPairedDeviceAllowed"
+- "TB,V_showNotificationToggle"
+- "THIS_DEVICE"
+- "TI,R"
+- "TQ,N,R,VrequestType"
+- "TQ,R"
+- "TQ,V_deviceType"
+- "TQ,V_generalAboutPolicy"
+- "T^{__SecKey=},N,V_privateKey"
+- "Td,V_acOfferBadgeDurationBeforeEndDate"
+- "Td,V_acOfferDurationBeforeEndDate"
+- "Td,V_cacheValidityDuration"
+- "Td,V_showNotificationBeforeEndDate"
+- "ULWebFlowURL"
+- "URLWithString:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "UniversalLinkEncodedParams"
+- "Updated follow-up: %@"
+- "Using Cached Server version: %@"
+- "Using Client version: %@"
+- "Using Overridden Server version  %@"
+- "Using overriden value %@"
+- "Vv16@0:8"
+- "WATCH_SETTINGS_FOLLOWUP"
+- "WebFlowURL"
+- "YES"
+- "^{_NSZone=}16@0:8"
+- "^{__SecKey=}"
+- "^{__SecKey=}16@0:8"
+- "_FOLLOWUP"
+- "_GSHeadersForAccount:forceReprovisioning:avoidUI:"
+- "_TtC17NewDeviceOutreach37NDODeviceServicesInternalDebugHelpers"
+- "_TtC17NewDeviceOutreachP33_7D41EFCC6378CEF8733EBE821190B0FF19ResourceBundleClass"
+- "_acLocalizedGroupedOfferCTA"
+- "_acLocalizedGroupedOfferFooterLabel"
+- "_acLocalizedOfferCTA"
+- "_acLocalizedOfferDetails"
+- "_acLocalizedOfferDetailsPluralEligibilityFormat"
+- "_acLocalizedOfferDetailsSingularEligibility"
+- "_acLocalizedOfferLabel"
+- "_acLocalizedOfferLongLabel"
+- "_acLocalizedOfferPluralDescFormat"
+- "_acLocalizedOfferSingularDesc"
+- "_acLocalizedOfferStatusLabel"
+- "_acLocalizedUnlinkedPlanLabel"
+- "_acLocalizedUnlinkedPlanStatusLabel"
+- "_acNotificationLocalizedOfferLabel"
+- "_acNotificationLocalizedOfferPluralDescFormat"
+- "_acNotificationLocalizedOfferSingularDesc"
+- "_acOfferBadgeDurationBeforeEndDate"
+- "_acOfferConversionDate"
+- "_acOfferDisplay"
+- "_acOfferDisplayDate"
+- "_acOfferDurationBeforeEndDate"
+- "_acOfferEligible"
+- "_acOfferEligibleUntil"
+- "_acOfferFollowupDisplayDate"
+- "_acOfferIdentifier"
+- "_acOfferPromoFormat"
+- "_acOfferPromoNew"
+- "_acOfferSettingsAppBadge"
+- "_acOfferSettingsRowBadge"
+- "_acOfferToggle"
+- "_accountHeadersFor:forceReprovisioning:avoidUI:"
+- "_accountStore"
+- "_activationDate"
+- "_additionalPurchaseFlowData"
+- "_additionalPurchaseFlowHeaders"
+- "_agsULURL"
+- "_agsURL"
+- "_appleIDSesssion"
+- "_baaManager"
+- "_benefitDetailsArray"
+- "_cacheValidityDuration"
+- "_cachingPolicy"
+- "_checkConversionEligibilityForDevice:"
+- "_clearFollowUpForSerialNumber:"
+- "_clearFollowUpWithDevices:"
+- "_clientCertArray"
+- "_color"
+- "_compressCertificates:"
+- "_coverGlassColor"
+- "_coverageBenefitsDictionary"
+- "_coverageDetailsArray"
+- "_coverageDetailsDictionary"
+- "_coverageEndDate"
+- "_coverageHasACLogo"
+- "_coverageLocalizedDesc"
+- "_coverageLocalizedDescLong"
+- "_coverageLocalizedExpirationLabel"
+- "_coverageLocalizedLabel"
+- "_coverageValidityDate"
+- "_covered"
+- "_device"
+- "_deviceDesc"
+- "_deviceImageUrl"
+- "_deviceProductType"
+- "_deviceType"
+- "_dictionaryFromURL:shouldRetry:withCompletion:"
+- "_dictionaryRepresentation"
+- "_dismissedSerialNumberHashes"
+- "_displayRepairAndSupport"
+- "_eligibilityEventId"
+- "_enclosureColor"
+- "_followUpProvider"
+- "_footer1FormatString"
+- "_footer1LinkLabel"
+- "_footer1LinkURL"
+- "_footer2FormatString"
+- "_footer2LinkLabel"
+- "_footer2LinkURL"
+- "_generalAboutPolicy"
+- "_getDeviceListForLocalDevices:sessionID:params:completionBlock:"
+- "_getSupportURL"
+- "_identifier"
+- "_isACServicesPartner"
+- "_isAPSSupported"
+- "_isActiveWatch"
+- "_isAltAccountWatch"
+- "_isCoveragePlanSubscriptionType"
+- "_isVisibleInCC"
+- "_label"
+- "_legacyWarrantyPath"
+- "_localizedBenefitLabelKey"
+- "_localizedBenefitValueKey"
+- "_localizedBenefitsCardFooter"
+- "_localizedBenefitsCardSubTitle"
+- "_localizedBenefitsCardTitle"
+- "_localizedCoverageDetailsLabel"
+- "_localizedCoverageDetailsTitle"
+- "_localizedCoverageDetailsValue"
+- "_localizedCoverageFooterFormatString"
+- "_localizedCoverageFooterLinkLabel"
+- "_localizedCoverageSubTitleForServicesPartnerString"
+- "_localizedCoveredDeviceDateLabelFormat"
+- "_localizedManagePlanLabel"
+- "_localizedSupportAppFooter"
+- "_localizedSupportAppLabel"
+- "_mySupportURL"
+- "_name"
+- "_osVersion"
+- "_parentId"
+- "_pendingFollowUpItemsForSerialNumber:"
+- "_pfcId"
+- "_pgfId"
+- "_postFollowUpWithDevicesInfo:repostAllowed:"
+- "_privateDeviceList"
+- "_privateKey"
+- "_productID"
+- "_productName"
+- "_scIntervalFollowupEligible"
+- "_scIntervalInDays"
+- "_scIntervalPairedDeviceAllowed"
+- "_serialNumber"
+- "_setupFollowUpItem:withDeviceInfo:"
+- "_setupFollowUpNotificationWithDeviceInfo:"
+- "_sgId"
+- "_showNotificationBeforeEndDate"
+- "_showNotificationToggle"
+- "_storeLocale"
+- "_supportAppURL"
+- "_supportedVersionsForClientAndServer:withCompletion:"
+- "_url"
+- "_userAgentWithBundleID:"
+- "_warranty"
+- "_warrantyPathForSerialNumberFormat"
+- "_zlibCompressionForData:"
+- "aa_altDSID"
+- "aa_primaryAppleAccount"
+- "acLocalizedGroupedOfferCTA"
+- "acLocalizedGroupedOfferFooterLabel"
+- "acLocalizedNotificationOfferDesc"
+- "acLocalizedNotificationOfferDesc: acNotificationLocalizedOfferPluralDescFormat is not a string"
+- "acLocalizedOfferCTA"
+- "acLocalizedOfferDesc"
+- "acLocalizedOfferDesc: acLocalizedOfferPluralDescFormat is not a string"
+- "acLocalizedOfferDetails"
+- "acLocalizedOfferDetailsEligibility"
+- "acLocalizedOfferDetailsEligibility: acLocalizedOfferDetailsPluralEligibilityFormat is not a string"
+- "acLocalizedOfferDetailsPluralEligibilityFormat"
+- "acLocalizedOfferDetailsSingularEligibility"
+- "acLocalizedOfferLabel"
+- "acLocalizedOfferLongLabel"
+- "acLocalizedOfferPluralDescFormat"
+- "acLocalizedOfferSingularDesc"
+- "acLocalizedOfferStatusLabel"
+- "acLocalizedUnlinkedPlanLabel"
+- "acLocalizedUnlinkedPlanStatusLabel"
+- "acLogoToggle"
+- "acNotificationLocalizedOfferLabel"
+- "acNotificationLocalizedOfferPluralDescFormat"
+- "acNotificationLocalizedOfferSingularDesc"
+- "acOfferBadgeBeforeEndDate"
+- "acOfferBadgeDurationBeforeEndDate"
+- "acOfferConversionDate"
+- "acOfferDisplay"
+- "acOfferDisplayDate"
+- "acOfferDurationBeforeEndDate"
+- "acOfferDurationDaysBeforeEndDate"
+- "acOfferEligibleUntil"
+- "acOfferFollowupDisplayDate"
+- "acOfferIdentifier"
+- "acOfferPromoFormat"
+- "acOfferPromoNew"
+- "acOfferSettingsAppBadge"
+- "acOfferSettingsRowBadge"
+- "acOfferToggle"
+- "acServicesPartner"
+- "accountHeadersFor:forceReprovisioning:avoidUI:"
+- "accountStore"
+- "actionWithLabel:url:"
+- "activationDate"
+- "addAllHeadersFrom:"
+- "addDevice:"
+- "addEntriesFromDictionary:"
+- "addFinishBlock:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "additionalBody"
+- "additionalPurchaseFlowData"
+- "additionalPurchaseFlowHeaders"
+- "agentConnection"
+- "agsULURL"
+- "aida_accountForPrimaryiCloudAccount"
+- "aida_accountForiCloudAccount:"
+- "aida_alternateDSID"
+- "ak_clientInfoHeader"
+- "ak_deviceUDIDHeader"
+- "allFUPEligibleDevices:"
+- "allHTTPHeaderFields"
+- "allKeys"
+- "allObjects"
+- "allPossibleFollowUpTargetBundleIdentifiers"
+- "alwaysRefreshGeneralAbout"
+- "ams_activeiTunesAccount"
+- "ams_localiTunesAccount"
+- "ams_sharedAccountStore"
+- "ams_storefront"
+- "appState"
+- "appSupportAvailability %@ %@ is installed."
+- "appSupportAvailability %@ is purchased."
+- "appSupportAvailability:withReply:"
+- "appSupportDictionaryWithReply:"
+- "appendFormat:"
+- "appleIDHeadersForRequest:"
+- "applicationProxyForIdentifier:"
+- "apsSupportedOverride : %@"
+- "apsSupportedOverride:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "artistName"
+- "artwork"
+- "attributes"
+- "autorelease"
+- "bagForProfile:profileVersion:"
+- "bagSubProfile"
+- "bagSubProfileVersion"
+- "base64EncodedStringWithOptions:"
+- "basicHeadersWithBundleID:"
+- "benefitDetails"
+- "benefitDetailsArray"
+- "benefitsCard"
+- "bodyData"
+- "bodyDescription"
+- "boolValue"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "bundleWithPath:"
+- "bytes"
+- "cache"
+- "cacheTtlMinutes"
+- "cacheValidityDuration"
+- "cacheWarranty:"
+- "cachedWarrantyForSerialNumber:"
+- "cachingPolicy"
+- "certificatesEncodeToBase64:status:"
+- "checkAppIsPurchased:"
+- "checkIsAvailableInStore:"
+- "checkIsAvailableInStore:withReply:"
+- "class"
+- "clearAllUserInitiatedFollowUpDismissalsWithCompletion:"
+- "clearAllUserInitiatedFollowUpDismissalsWithReply:"
+- "clearNotificationForItem:error:"
+- "clearPendingFollowUpItemsWithUniqueIdentifiers:error:"
+- "clearUserInitiatedFollowUpDismissalForSerialNumber:completion:"
+- "clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:"
+- "clientAndServerSet '%@'"
+- "clientCertArray"
+- "clientConfig"
+- "clientConfiguration"
+- "colorCodeBest"
+- "com.apple.NewDeviceOutreach.Extension"
+- "com.apple.newdeviceoutreach.followupDisplayCount"
+- "com.apple.preferences.applesupport"
+- "com.apple.supportapp"
+- "com.applecare.followup.saleflowsource"
+- "com.followup.ndo_followup_open_action"
+- "com.followup.ndo_notification_clear_action"
+- "com.followup.ndo_notification_open_action"
+- "compare:"
+- "conformsToProtocol:"
+- "containsObject:"
+- "convertUrl:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "coverage"
+- "coverageBenefitsDictionary"
+- "coverageDetails"
+- "coverageDetailsArray"
+- "coverageDetailsDictionary"
+- "coverageEndDate"
+- "coverageHasACLogo"
+- "coverageLabel"
+- "coverageLocalizedDesc"
+- "coverageLocalizedDescLong"
+- "coverageLocalizedExpirationLabel"
+- "coverageLocalizedLabel"
+- "coverageRequestBodyWithSerialNumber:primarySerialNumber:displayedEvents:"
+- "coverageValidityDate"
+- "covered"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "credentialForAccount:serviceID:"
+- "ctaTextWithDevice:"
+- "ctaTextWithWarranty:forDate:"
+- "currentDevice"
+- "d"
+- "d16@0:8"
+- "dataTaskWithURL:completionHandler:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithJSONObject:options:error:"
+- "dataWithLength:"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dateWithEpochNumber:"
+- "dateWithTimeIntervalSince1970:"
+- "daysEligible"
+- "daysFromDate:"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "default device: %{private}@"
+- "defaultDevice"
+- "defaultDevice:"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "defaultStore"
+- "description"
+- "deviceForSN:"
+- "deviceImageUrl"
+- "deviceInfoWithDevice:warranty:"
+- "deviceList"
+- "deviceListRequestBodyWithSerialNumber:localDevices:"
+- "deviceSeq"
+- "deviceTypeString"
+- "deviceWithCBDevice:"
+- "deviceWithCBDevice:isVisibleInCC:"
+- "deviceWithDeviceListDevice:"
+- "deviceWithName:serialNumber:activationDate:deviceType:"
+- "deviceWithName:serialNumber:activationDate:deviceType:productID:productName:"
+- "deviceWithName:serialNumber:activationDate:deviceType:productID:productName:color:enclosureColor:coverGlassColor:"
+- "deviceWithName:serialNumber:activationDate:deviceType:productID:productName:isVisibleInCC:"
+- "devicetype"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryRepresentation"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithObjects:forKeys:count:"
+- "dismissFollowUpForSerialNumber:"
+- "dismissFollowUpForSerialNumber:completion:"
+- "dismissFollowUps:completion:"
+- "dismissNotificationForSerialNumber:"
+- "dismissNotificationForSerialNumber:completion:"
+- "displayRepairAndSupport"
+- "doubleValue"
+- "eligibilityEventId"
+- "eligibilityRemainingInDays"
+- "eligible until %@"
+- "encodeBool:forKey:"
+- "encodeInt:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enumerateObjectsUsingBlock:"
+- "eraseAllFollowUpDismissals"
+- "eraseFollowUpDismissalForDeviceSerial:"
+- "featureToggleParameters"
+- "filteredArrayUsingPredicate:"
+- "firstObject"
+- "followUpIsDismissedForSerial:"
+- "followUpItemsForDeviceInfo:"
+- "followUpProvider"
+- "followUpSaleFlowSourceForBundleId:device:"
+- "followUpTargetBundleIDsForDevice:"
+- "footer1FormatString"
+- "footer1LinkLabel"
+- "footer1LinkURL"
+- "footer2FormatString"
+- "footer2LinkLabel"
+- "footer2LinkURL"
+- "generalAboutPolicy"
+- "generateBAACertficate:"
+- "getAllFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:"
+- "getAmsPropertiesForContext:withReply:"
+- "getBTDeviceInfosUsingPolicy:updateFollowUps:withReply:"
+- "getBTPioneerDeviceInfosUsingPolicy:updateFollowUps:withReply:"
+- "getCachedCoverageDetailsForSerialNumber:requester:completion:"
+- "getClientConfigurationWithReply:"
+- "getCoverageInfoForSerialNumber:usingPolicy:withReply:"
+- "getDecodedParamsForPath:withCompletion:"
+- "getDecodedParamsForPath:withReply:"
+- "getDefaultDeviceInfoUsingForceCachedPolicy"
+- "getDefaultDeviceInfoUsingPolicy:withReply:"
+- "getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:"
+- "getDeviceInfoForSerialNumber:usingPolicy:withReply:"
+- "getDeviceInfoUsingForceCachedPolicyForSerialNumber:"
+- "getDeviceListForLocalDevices:sessionID:completionBlock:"
+- "getDeviceListForLocalDevices:sessionID:params:withReply:"
+- "getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:"
+- "getLocalDeviceListWithReply:"
+- "getLocalDeviceWarrantyForSerialNumber:withReply:"
+- "getLocalURLOverridesForDeviceServices"
+- "getPrimaryFUPEligibleDeviceInfosUsingPolicy:updateFollowUps:withReply:"
+- "getRemoteDeviceListWithReply:"
+- "getRemoteDeviceWarrantyForSerialNumber:withAdditionalHeaders:withReply:"
+- "getSupportURL"
+- "getValidServerVersionCache"
+- "getWarrantyUsingPolicy:withReply:"
+- "handleInternalCommand:withReply:"
+- "hasTheftAndLoss"
+- "hash"
+- "headerDescription"
+- "identifier"
+- "init"
+- "initWithAccountStore:"
+- "initWithArray:"
+- "initWithBase64EncodedString:options:"
+- "initWithClientIdentifier:"
+- "initWithCoder:"
+- "initWithConfigDictionary:"
+- "initWithData:encoding:"
+- "initWithDevice:warranty:"
+- "initWithDictionary:"
+- "initWithFollowUpProvider:"
+- "initWithFormat:"
+- "initWithLabel:identifier:"
+- "initWithMachServiceName:options:"
+- "initWithName:serialNumber:activationDate:deviceType:productID:productName:color:enclosureColor:coverGlassColor:isVisibleInCC:cachingPolicy:"
+- "initWithRequestType:serialNumber:universalLinkPath:additionalBody:"
+- "initWithSuiteName:"
+- "initWithType:clientIdentifier:clientVersion:bag:"
+- "initWithUrl:signatureHeaders:bodyData:"
+- "initWithUrl:signatureHeaders:bodyData:presentModally:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "intersectSet:"
+- "invalidate"
+- "ios"
+- "isACServicesPartner"
+- "isAPSSupported"
+- "isAPSSupportedOverrideWithServerValue:"
+- "isAcServicesPartner"
+- "isAcSubscription"
+- "isCoveragePlanSubscriptionType"
+- "isEqual:"
+- "isEqualToDictionary:"
+- "isEqualToString:"
+- "isHighServerVersionFeaturesetEnabled"
+- "isHighServerVersionFeaturesetEnabled:"
+- "isHighServerVersionFeaturesetEnabled:withCompletion:"
+- "isInstalled"
+- "isInternal"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isNotEmptyString:"
+- "isProxy"
+- "isSignedIntoAppleAccount"
+- "isValidPath:"
+- "isVisibleInCC"
+- "label"
+- "length"
+- "localTimeZone"
+- "localeIdentifier"
+- "localizedBenefitLabelKey"
+- "localizedBenefitValueKey"
+- "localizedBenefitsCardFooter"
+- "localizedBenefitsCardSubTitle"
+- "localizedBenefitsCardTitle"
+- "localizedCoverageDetailsLabel"
+- "localizedCoverageDetailsTitle"
+- "localizedCoverageDetailsValue"
+- "localizedCoverageFooterFormatString"
+- "localizedCoverageFooterLinkLabel"
+- "localizedCoverageSubTitleForServicesPartnerString"
+- "localizedCoverageTitle"
+- "localizedCoveredDeviceDateLabelFormat"
+- "localizedDescription"
+- "localizedManagePlanLabel"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromNumber:numberStyle:"
+- "localizedSupportAppFooter"
+- "localizedSupportAppLabel"
+- "mainBundle"
+- "makePropertiesProvider"
+- "migrateLegacyCachedWarrantyIfNeededForSerialNumber:"
+- "migrateLegacyFollowUpIfNeededWithDeviceInfo:"
+- "mutableCopy"
+- "mySupportURL"
+- "ndoDeviceInfoFromCoverageInfoData:withSerialNumber:"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "options"
+- "paired BTDevices : %{private}@"
+- "paired watches : %{private}@"
+- "pairedBTDevices"
+- "pairedBTDevices:"
+- "pairedBTPioneerDevices:"
+- "pairedWatches"
+- "pairedWatches:"
+- "parentId"
+- "payloadDictionaryForDeviceInfo:atIndex:"
+- "payloadFrom:atIndex:device:"
+- "pendingFollowUpCount"
+- "pendingFollowUpItems:"
+- "perform"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pfcId"
+- "pgfId"
+- "platformAttributes"
+- "possibleUniqueIdentifiersForSerialNumber:"
+- "postCAEventFor:eventDict:"
+- "postFollowUpItem:error:"
+- "postFollowUpWithDeviceInfo:"
+- "postFollowUpWithDevicesInfo:"
+- "predicateWithBlock:"
+- "preferredLocale"
+- "presentModally"
+- "primaryAccountAltDSID"
+- "primaryFUPEligibleDevices:"
+- "privateDeviceList"
+- "privateKey"
+- "productInfoWithProductID:"
+- "propertyListWithData:options:format:error:"
+- "readAPSSupportedOverride"
+- "readAPSSupportedOverride:"
+- "readULWebURLOverride"
+- "readULWebURLOverride:"
+- "readWebURLOverride"
+- "readWebURLOverride:"
+- "refreshALLFollowupsWithDeviceInfos:andForcePostFollowup:"
+- "refreshFollowupWithDeviceInfo:andForcePostFollowup:"
+- "refreshFollowupWithDeviceInfos:andForcePostFollowup:"
+- "refreshFollowupWithDeviceInfos:clearUntrackedDeviceFollowups:andForcePostFollowup:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeItemAtPath:error:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removePromoSectionWithHashValue:andAckData:"
+- "removePromoSectionWithHashValue:andAckData:withReply:"
+- "renewCredentialsForAccount:options:completion:"
+- "requestType"
+- "respondsToSelector:"
+- "responseDataItems"
+- "resume"
+- "retain"
+- "retainCount"
+- "safeAddValue:forKey:toDictionary:"
+- "scIntervalFollowupEligible"
+- "scIntervalInDays"
+- "scIntervalPairedDeviceAllowed"
+- "scheduleOutreachAfter:withReply:"
+- "scheduleOutreachWithReply:"
+- "secondsFromGMT"
+- "self"
+- "serialNum"
+- "serializeCertificateChain:"
+- "serverVersionSupported:"
+- "sessionWithConfiguration:"
+- "set"
+- "setAcLocalizedGroupedOfferCTA:"
+- "setAcLocalizedGroupedOfferFooterLabel:"
+- "setAcLocalizedOfferCTA:"
+- "setAcLocalizedOfferDetails:"
+- "setAcLocalizedOfferDetailsPluralEligibilityFormat:"
+- "setAcLocalizedOfferDetailsSingularEligibility:"
+- "setAcLocalizedOfferLabel:"
+- "setAcLocalizedOfferLongLabel:"
+- "setAcLocalizedOfferPluralDescFormat:"
+- "setAcLocalizedOfferSingularDesc:"
+- "setAcLocalizedOfferStatusLabel:"
+- "setAcLocalizedUnlinkedPlanLabel:"
+- "setAcLocalizedUnlinkedPlanStatusLabel:"
+- "setAcNotificationLocalizedOfferLabel:"
+- "setAcNotificationLocalizedOfferPluralDescFormat:"
+- "setAcNotificationLocalizedOfferSingularDesc:"
+- "setAcOfferBadgeDurationBeforeEndDate:"
+- "setAcOfferConversionDate:"
+- "setAcOfferDisplay:"
+- "setAcOfferDisplayDate:"
+- "setAcOfferDurationBeforeEndDate:"
+- "setAcOfferEligible:"
+- "setAcOfferEligibleUntil:"
+- "setAcOfferFollowupDisplayDate:"
+- "setAcOfferIdentifier:"
+- "setAcOfferPromoFormat:"
+- "setAcOfferPromoNew:"
+- "setAcOfferSettingsAppBadge:"
+- "setAcOfferSettingsRowBadge:"
+- "setAcOfferToggle:"
+- "setAccountStore:"
+- "setActions:"
+- "setActivateAction:"
+- "setActivationDate:"
+- "setAdditionalPurchaseFlowData:"
+- "setAdditionalPurchaseFlowHeaders:"
+- "setAgsULURL:"
+- "setAgsURL:"
+- "setBenefitDetailsArray:"
+- "setBundleIdentifiers:"
+- "setByAddingObjectsFromArray:"
+- "setCacheValidityDuration:"
+- "setCachingPolicy:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClearAction:"
+- "setClientCertArray:"
+- "setColor:"
+- "setCoverGlassColor:"
+- "setCoverageBenefitsDictionary:"
+- "setCoverageDetailsArray:"
+- "setCoverageDetailsDictionary:"
+- "setCoverageEndDate:"
+- "setCoverageHasACLogo:"
+- "setCoverageLabel:"
+- "setCoverageLocalizedDesc:"
+- "setCoverageLocalizedDescLong:"
+- "setCoverageLocalizedExpirationLabel:"
+- "setCoverageLocalizedLabel:"
+- "setCoverageValidityDate:"
+- "setCovered:"
+- "setDevice:"
+- "setDeviceDesc:"
+- "setDeviceImageUrl:"
+- "setDeviceType:"
+- "setDictionaryRepresentation:"
+- "setDisplayRepairAndSupport:"
+- "setDisplayStyle:"
+- "setDouble:forKey:"
+- "setEligibilityEventId:"
+- "setEnclosureColor:"
+- "setExpirationDate:"
+- "setExtensionIdentifier:"
+- "setFollowUpProvider:"
+- "setFooter1FormatString:"
+- "setFooter1LinkLabel:"
+- "setFooter1LinkURL:"
+- "setFooter2FormatString:"
+- "setFooter2LinkLabel:"
+- "setFooter2LinkURL:"
+- "setFrequency:"
+- "setGeneralAboutPolicy:"
+- "setGetSupportURL:"
+- "setGroupIdentifier:"
+- "setHasTheftAndLoss:"
+- "setIdentifier:"
+- "setInformativeFooterText:"
+- "setInformativeText:"
+- "setIsACServicesPartner:"
+- "setIsAPSSupported:"
+- "setIsActiveWatch:"
+- "setIsAltAccountWatch:"
+- "setIsCoveragePlanSubscriptionType:"
+- "setIsVisibleInCC:"
+- "setLabel:"
+- "setLocalizedBenefitLabelKey:"
+- "setLocalizedBenefitValueKey:"
+- "setLocalizedBenefitsCardFooter:"
+- "setLocalizedBenefitsCardSubTitle:"
+- "setLocalizedBenefitsCardTitle:"
+- "setLocalizedCoverageDetailsLabel:"
+- "setLocalizedCoverageDetailsTitle:"
+- "setLocalizedCoverageDetailsValue:"
+- "setLocalizedCoverageFooterFormatString:"
+- "setLocalizedCoverageFooterLinkLabel:"
+- "setLocalizedCoverageSubTitleForServicesPartnerString:"
+- "setLocalizedCoveredDeviceDateLabelFormat:"
+- "setLocalizedManagePlanLabel:"
+- "setLocalizedSupportAppFooter:"
+- "setLocalizedSupportAppLabel:"
+- "setMySupportURL:"
+- "setName:"
+- "setNotification:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptions:"
+- "setParentId:"
+- "setPfcId:"
+- "setPgfId:"
+- "setPrivateDeviceList:"
+- "setPrivateKey:"
+- "setProductID:"
+- "setProductName:"
+- "setRemoteObjectInterface:"
+- "setRequestCachePolicy:"
+- "setScIntervalFollowupEligible:"
+- "setScIntervalInDays:"
+- "setScIntervalPairedDeviceAllowed:"
+- "setSerialNumber:"
+- "setSgId:"
+- "setShowNotificationBeforeEndDate:"
+- "setShowNotificationToggle:"
+- "setSupportAppURL:"
+- "setTargetBundleIdentifier:"
+- "setTitle:"
+- "setUniqueIdentifier:"
+- "setUserInfo:"
+- "setValue:forHTTPHeaderField:"
+- "setWarranty:"
+- "setWithArray:"
+- "setWithCapacity:"
+- "setWithObjects:"
+- "setWithSet:"
+- "sgId"
+- "sha256Hash"
+- "sharedSession"
+- "showNotificationBeforeEndDate"
+- "showNotificationToggle"
+- "signDataAndEncodeToBase64:withPrivateKey:status:"
+- "signatureHeadersForBody:"
+- "sourceFromDeviceType"
+- "standardUserDefaults"
+- "storeFollowUpDismissalWithDeviceSerial:"
+- "storeLocaleHeader"
+- "storeUserInitiatedFollowUpDismissalForSerialNumber:completion:"
+- "storeUserInitiatedFollowUpDismissalForSerialNumber:withReply:"
+- "stringByAppendingFormat:"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByDeletingLastPathComponent"
+- "stringForKey:"
+- "stringWithCapacity:"
+- "stringWithFormat:"
+- "stringWithString:"
+- "stringWithUTF8String:"
+- "superclass"
+- "supportAppURL"
+- "supportsSecureCoding"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "targetBundleIdentifier"
+- "timeIntervalSince1970"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "token"
+- "ulWebURLOverride : %@"
+- "ulWebURLOverride:"
+- "ulmapping"
+- "unarchivedArrayOfObjectsOfClass:fromData:error:"
+- "uniqueFollowUpIdentifiersForDevice:"
+- "uniqueIdentfierForSerialNumber:"
+- "uniqueIdentfierForSerialNumber:bundleId:"
+- "uniqueIdentifier"
+- "unsignedIntegerValue"
+- "updateWithWarranty:"
+- "url"
+- "userInfo"
+- "v16@0:8"
+- "v16@?0@\"NDODevice\"8"
+- "v16@?0@\"NDODeviceInfo\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSSet\"8"
+- "v16@?0@\"NSString\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NDODevice\">16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\">16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8Q16"
+- "v24@0:8^{__SecKey=}16"
+- "v24@0:8d16"
+- "v24@?0@\"AMSMediaResult\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSString\"16"
+- "v32@0:8@\"NDOAMSPropertiesRequestContext\"16@?<v@?@\"NDOAMSProperties\"@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?>24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSData\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B>24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?@\"NDODeviceInfo\">24"
+- "v32@0:8d16@?24"
+- "v32@0:8d16@?<v@?B>24"
+- "v32@0:8q16@24"
+- "v32@?0@\"NDODevice\"8@\"NDODeviceInfo\"16Q24"
+- "v32@?0@\"NDODevice\"8Q16^B24"
+- "v32@?0@\"NDODeviceInfo\"8Q16^B24"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v36@0:8@16B24@?28"
+- "v36@0:8Q16B24@?28"
+- "v36@0:8Q16B24@?<v@?@\"NSArray\">28"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSData\">32"
+- "v40@0:8@\"NSString\"16Q24@?<v@?@\"NDODeviceInfo\">32"
+- "v40@0:8@\"NSString\"16Q24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8q16@\"NSData\"24@?<v@?>32"
+- "v40@0:8q16@24@?32"
+- "v48@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSArray\"@\"NSString\">40"
+- "v48@0:8@16@24@32@?40"
+- "v60@0:8@\"NSString\"16Q24@\"NSString\"32@\"NSString\"40B48@?<v@?@\"NDODeviceInfo\">52"
+- "v60@0:8@16Q24@32@40B48@?52"
+- "v76@0:8@\"NSArray\"16@\"NSString\"24Q32@\"NSString\"40B48@?<v@?@\"NSString\"@\"NSArray\"@\"NSString\">52@?<v@?@\"NSArray\">60@?<v@?@\"NSArray\">68"
+- "v76@0:8@16@24Q32@40B48@?52@?60@?68"
+- "valueForHTTPHeaderField:"
+- "vendorName"
+- "warrantyWithDictionary:"
+- "watchDeviceWithName:serialNumber:activationDate:isActive:productID:productName:isAltAccount:"
+- "webURLOverride : %@"
+- "webURLOverride:"
+- "workingQueue"
+- "writeCertsToDevice:"
+- "writeToFile:atomically:"
+- "zone"
+
+```

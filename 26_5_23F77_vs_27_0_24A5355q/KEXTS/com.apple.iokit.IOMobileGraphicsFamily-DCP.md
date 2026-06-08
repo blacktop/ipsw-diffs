@@ -1,0 +1,164 @@
+## com.apple.iokit.IOMobileGraphicsFamily-DCP
+
+> `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-600.18.0.0.0
+-  __TEXT.__cstring: 0x443f
+-  __TEXT.__const: 0x3008
+-  __TEXT_EXEC.__text: 0x23b20
++700.50.66.0.0
++  __TEXT.__cstring: 0x57af
++  __TEXT.__const: 0x32e8
++  __TEXT_EXEC.__text: 0x293e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe8
+-  __DATA.__common: 0x26d0
++  __DATA.__common: 0x2720
+   __DATA.__bss: 0x38
+-  __DATA_CONST.__auth_got: 0x6d0
++  __DATA_CONST.__mod_init_func: 0x30
++  __DATA_CONST.__mod_term_func: 0x30
++  __DATA_CONST.__const: 0x1e70
++  __DATA_CONST.__kalloc_type: 0x8c0
++  __DATA_CONST.__kalloc_var: 0xf0
++  __DATA_CONST.__auth_got: 0x730
+   __DATA_CONST.__got: 0x138
+   __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__mod_init_func: 0x20
+-  __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x1668
+-  __DATA_CONST.__kalloc_type: 0x840
+-  UUID: 8081AF50-A39D-3C83-BA19-7FA026F7FA3A
+-  Functions: 700
++  UUID: 9062A92B-2B25-386F-B117-BA99B3827305
++  Functions: 794
+   Symbols:   0
+-  CStrings:  384
++  CStrings:  471
+ 
+CStrings:
++ "    AXI_ID[%d]= 0x%08X\n"
++ "\"%s: Dropped request dcp_reset notification!\\n\" @%s:%d"
++ "\"%s: Unable to request dcp reset since notify queue empty!\\n\" @%s:%d"
++ "\"IOMFB: %u DCP resets within %llu seconds - reset loop detected\\n\" @%s:%d"
++ "\"IOMFB: Failed to map LPR buffer %u into DCP DART: 0x%x\\n\" @%s:%d"
++ "\"IOMFB: Failed to map LPR buffer %u into DispDART: 0x%x\\n\" @%s:%d"
++ "\"IOMFB: LPR buffer %u surface_map succeeded but dispDva=0!\\n\" @%s:%d"
++ "\"IOMFB: LPR buffer %u surface_map_dcp succeeded but dcpDva=0!\\n\" @%s:%d"
++ "\"IOMFB: fCommandPool is NULL - cannot map LPR buffers\\n\" @%s:%d"
++ "\"IOMFB: fCoreSurfaceRoot is NULL\\n\" @%s:%d"
++ "\"IOMFB: fMapper (DispDART) is NULL - cannot map LPR buffers\\n\" @%s:%d"
++ "\"IOMFB: link_shutdown_signal stalled after %u waits, kernel_assertion_count: %d\\n\" @%s:%d"
++ "\"SharedEventResourceManager: Exceeded maximum of %u shared event maps (requested index: %llu)\" @%s:%d"
++ "\"swap wait timedout for %d seconds waiting for fence 0x%08x\" @%s:%d"
++ "%s, failed to allocate surface callback lock\n"
++ "%s: Boot-arg %s found: set fRackDebugSwapWaitTimeoutSec = %d"
++ "%s: fRackDebugSwapWaitTimeoutSec = %d"
++ "/var/mobile/Library/Logs/iomfb_ttr_dump.bin"
++ "112"
++ "121111121222"
++ "12111112122212121"
++ "121111121222121211111111111111111111111111111121111111211211211212122222111122121212222112212121222211221212122221122121212222112212121222211221212122221122121212222112212121222211212222"
++ "121111121222121212121222222222222221111111111111211111111111111111111111112122222222222222222222222222222222222211111122222222222222211122221112221122222222222111112212222222221111222122212221222122212221222122222222221222222222221122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222111122211112221111222112222111111222222112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111111111111111111111111112222222222222122122122122122122122122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111111111222222222222212212212212212212212212212222211111111112111222211111222222211122221121122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111"
++ "12122112222111111"
++ "1212221111"
++ "Address= 0x%08X\n"
++ "D594_callback__"
++ "D595_callback__"
++ "DART Exception @ 0x%08X\n"
++ "DART error handler registration failed: ret: 0x%08x\n"
++ "DART error handler registration skipped: fMapper is NULL\n"
++ "DART error handler unregister in recovery_complete: ret: 0x%08x\n"
++ "DART error handler unregister: fMapper is null\n"
++ "DCPPowerManager.cpp"
++ "DCPResetLoopMaxCount"
++ "DCPResetLoopWindowSec"
++ "False"
++ "HwClass= %s\n"
++ "HwError= %s\n"
++ "HwStatus= 0x%08X\n"
++ "IOMFB ERROR: dcp_expert not initialized, incorrect use_psd_dcp_power2 value"
++ "IOMFB: Enable low latency shared events mapping: %d, doorbell: %d\n"
++ "IOMFB: Failed to allocate options dictionary for LPR buffer %u\n"
++ "IOMFB: Failed to create IOSurface for LPR buffer %u\n"
++ "IOMFB: Failed to map LPR buffer %u into DCP DART: 0x%x\n"
++ "IOMFB: Failed to map LPR buffer %u into DispDART: 0x%x\n"
++ "IOMFB: Failed to set LPR buffers on DCP\n"
++ "IOMFB: LPR buffer %u: dispDva=0x%llx dcpDva=0x%llx size=%llu\n"
++ "IOMFB: LPR buffer %u: surfaceID=%u cacheMode=0x%x\n"
++ "IOMFB: LPR buffer size: %llu bytes (%ux%u, rowBytes=%u)\n"
++ "IOMFB: LPR buffers already enabled\n"
++ "IOMFB: TTR buffer allocated and DART-mapped, dva=0x%llx\n"
++ "IOMFB: TTR buffer magic mismatch: 0x%x\n"
++ "IOMFB: TTR buffer total_size %u exceeds capacity %d\n"
++ "IOMFB: TTR buffer valid, total_size=%u flags=0x%x\n"
++ "IOMFB: TTR raw binary written to %s (%u bytes)\n"
++ "IOMFB: TTR report nub published for event %u\n"
++ "IOMFB: TTR ttr_allocate_and_map: DART-map failed 0x%x\n"
++ "IOMFB: TTR ttr_allocate_and_map: allocation failed\n"
++ "IOMFB: TTR vn_rdwr failed: %d\n"
++ "IOMFB: TTR vnode_open failed: %d\n"
++ "IOMFB: allocate_lpr_buffers_gated: enable=%d\n"
++ "IOMFB: cancel_all_pending_shared_events - ap_lock busy, waiting...\n"
++ "IOMFB: cancel_all_pending_shared_events - ap_lock timeout, proceeding without lock\n"
++ "IOMFB: cancel_all_pending_shared_events - fence_lock busy, waiting...\n"
++ "IOMFB: cancel_all_pending_shared_events - fence_lock timeout, proceeding without lock\n"
++ "IOMFB: dcp_reset_notify() called - DCP reset triggered\n"
++ "IOMFB: dcp_reset_recovery_complete\n"
++ "IOMFB: deferred abort signal queue full, dropping signal value 0x%llx for surface %d\n"
++ "IOMFB: dropped apt mode switch message from DCP"
++ "IOMFB: dropped prox sensing needed message from DCP"
++ "IOMFB: failed to alloc dcp_reset_lock\n"
++ "IOMFB: powerUpDART_impl_gated(%d) callPlatformFunction setActive failed: 0x%x dart_ref=%d\n"
++ "IOMFBTTREventType"
++ "IOMFBTTRReport"
++ "IsWrite= %s\n"
++ "L2Index= 0x%08X\n"
++ "L3Index= 0x%08X\n"
++ "MemDescRelay::desc_id_t IOMFB::MemDescRelay::allocate_buffer(uint32_t, uint64_t, uint32_t, dva_t *, uint64_t *)"
++ "SID= 0x%08X\n"
++ "SharedEventResourceManager"
++ "SharedEventResourceManager.cpp"
++ "TTBRIndex= 0x%08X\n"
++ "True"
++ "Type= %s\n"
++ "com.apple.iomfb.dcp_reset_req"
++ "dcp_reset_display_id"
++ "dcp_reset_loop_panic"
++ "dcp_reset_notify"
++ "dcp_reset_reason"
++ "dcp_reset_req"
++ "deferred_abort_signal"
++ "internal-index"
++ "iomdEarlyPurge"
++ "iomfb_low_latency_shared_events_doorbell"
++ "iomfb_low_latency_shared_events_mapping"
++ "iomfb_swap_wait_timeout_s"
++ "registerErrorHandler"
++ "setIomdCacheAttribute"
++ "site.A441_out_args__"
++ "site.A443_in_args__"
++ "site.IOMFBTTRReport"
++ "site.SharedEventResourceManager"
++ "site._shared_event_maps"
+- "\"IOMFB: cannot find AppleMobileFileIntegrity\" @%s:%d"
+- "\"IOMFB: failed to cast AMFI service!\" @%s:%d"
+- "\"IOMFB: failed to look up AMFI service!\" @%s:%d"
+- "\"swap wait timedout waiting for fence 0x%08x\" @%s:%d"
+- "%s: IOAVParentMatching(registryEntryIDMatching failed\n"
+- "%s: no matching dictionary found for %s\n"
+- "12111112122"
+- "12111112122212121111111111111111111111111111112111111121121121121212222211112212121222211221212122221122121212222112212121222211221212122221122121212222112212121222211221212122221121222"
+- "1211111212221212121212222222222221111111111111211111111111111111222211111122222222222222211222211122211222222222221111122122222222212222221222222222221122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222112221122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111111111111111111111111112222222222222122122122122122122122122122222111111111111211122211111222211211222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111"
+- "12122112211111"
+- "AppleMobileFileIntegrity"
+- "D590_callback__"
+- "D591_callback__"
+- "MemDescRelay::desc_id_t IOMFB::MemDescRelay::allocate_buffer(uint32_t, uint64_t, uint32_t, uintptr_t *, dva_t *, uint64_t *)"
+- "site.A438_in_args__"
+- "site.A439_out_args__"
+- "static IOService *IOMobileFramebufferAP::findAndRetainService(IOService *, const char *)"
+
+```

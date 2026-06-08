@@ -1,0 +1,874 @@
+## CryptexServer
+
+> `/System/Library/PrivateFrameworks/CryptexServer.framework/CryptexServer`
+
+```diff
+
+-662.120.27.0.0
+-  __TEXT.__text: 0x496dc
+-  __TEXT.__auth_stubs: 0x1a80
++746.0.0.0.0
++  __TEXT.__text: 0x51474
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0xc68
+-  __TEXT.__cstring: 0x905
+-  __TEXT.__swift5_typeref: 0x570
+-  __TEXT.__oslogstring: 0x11da
+-  __TEXT.__swift5_reflstr: 0x148
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__constg_swiftt: 0x688
+-  __TEXT.__swift5_fieldmd: 0x278
+-  __TEXT.__swift5_capture: 0x1a4
+-  __TEXT.__swift5_proto: 0x4c
+-  __TEXT.__swift5_types: 0x3c
++  __TEXT.__const: 0x1100
++  __TEXT.__cstring: 0xc65
++  __TEXT.__swift5_typeref: 0x71e
++  __TEXT.__oslogstring: 0x15ca
++  __TEXT.__swift5_reflstr: 0x274
++  __TEXT.__swift5_assocty: 0xc0
++  __TEXT.__constg_swiftt: 0x830
++  __TEXT.__swift5_fieldmd: 0x478
++  __TEXT.__swift5_capture: 0x1fc
++  __TEXT.__swift5_proto: 0x68
++  __TEXT.__swift5_types: 0x64
+   __TEXT.__swift_as_entry: 0xc0
+   __TEXT.__swift_as_ret: 0x74
+-  __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__unwind_info: 0x12d0
+-  __TEXT.__eh_frame: 0x3a50
+-  __TEXT.__objc_classname: 0x1a2
+-  __TEXT.__objc_methname: 0x2e1
+-  __TEXT.__objc_methtype: 0xc8
+-  __TEXT.__objc_stubs: 0x60
+-  __DATA_CONST.__got: 0x428
+-  __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x20
++  __TEXT.__swift_as_cont: 0x318
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__unwind_info: 0x1450
++  __TEXT.__eh_frame: 0x3bf0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xd8
++  __DATA_CONST.__objc_classlist: 0x40
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xd48
+-  __AUTH_CONST.__const: 0x5c0
+-  __AUTH_CONST.__objc_const: 0x658
+-  __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x798
+-  __DATA.__data: 0x3e0
+-  __DATA.__bss: 0x8c0
+-  __DATA.__common: 0xc0
+-  __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x178
+-  __DATA_DIRTY.__common: 0x10
+-  __DATA_DIRTY.__bss: 0xb0
++  __DATA_CONST.__objc_selrefs: 0x110
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xad8
++  __AUTH_CONST.__objc_const: 0x780
++  __AUTH_CONST.__auth_got: 0x10f0
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x5e8
++  __DATA.__data: 0x5a8
++  __DATA.__bss: 0xbe0
++  __DATA.__common: 0x18
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__data: 0x518
++  __DATA_DIRTY.__common: 0xb8
++  __DATA_DIRTY.__bss: 0x120
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/CryptexKit.framework/CryptexKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 53A160B0-4D53-3C92-9CF5-6BA2A3D9B813
+-  Functions: 838
+-  Symbols:   2946
+-  CStrings:  249
++  UUID: 9AC07F79-F327-3EB5-A88C-768292B426FA
++  Functions: 1001
++  Symbols:   3682
++  CStrings:  232
+ 
+Symbols:
++ _$s10CryptexKit12PkgAssetTypeO8rootHashyA2CmFWC
++ _$s10CryptexKit14nothingOrErrno16retryOnInterrupt_s6ResultOyyt6System0E0VGSb_xyXEts17FixedWidthIntegerRzlF
++ _$s10CryptexKit6PkgRefV3key_SaySSG5valuetWObTm
++ _$s10CryptexKit6PkgRefV3key_SaySSG5valuetWOhTm
++ _$s10CryptexKit6TempFdV2fdAC6System14FileDescriptorV_tcfC
++ _$s10CryptexKit6TempFdV8rawValues5Int32Vvg
++ _$s10CryptexKit6TempFdVMa
++ _$s10CryptexKit8PkgErrorV10sealBroken_10underlyingACSS_s0D0_pSgtFZ
++ _$s10CryptexKit8PkgErrorV4wrap_2as_ACx_AC4KindOSSts0D0RzlFZ
++ _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
++ _$s10Foundation13__DataStorageCMa
++ _$s10Foundation25NSFastEnumerationIteratorVACStAAWL
++ _$s10Foundation25NSFastEnumerationIteratorVMa
++ _$s10Foundation25NSFastEnumerationIteratorVStAAMc
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLVMa
++ _$s10Foundation4DataV13_copyContents12initializingAC8IteratorV_SitSrys5UInt8VG_tF
++ _$s10Foundation4DataV14RangeReferenceCMa
++ _$s10Foundation4DataV15_RepresentationOWOy
++ _$s10Foundation4DataV15_RepresentationOyACSnySiGcig
++ _$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataV8IteratorVAEStAAWL
++ _$s10Foundation4DataV8IteratorVMa
++ _$s10Foundation4DataV8IteratorVStAAMc
++ _$s10Foundation4DataVAA0B8ProtocolAAMc
++ _$s10Foundation4DataVAcA0B8ProtocolAAWL
++ _$s10Foundation4DataVAcA0B8ProtocolAAWl
++ _$s10Foundation4DataVMn
++ _$s13CryptexServer10OnceActionV3runyyF
++ _$s13CryptexServer10OnceActionV6actionACyyYbc_tcfC
++ _$s13CryptexServer10OnceActionV6actionyyYbcvg
++ _$s13CryptexServer10OnceActionV6actionyyYbcvpMV
++ _$s13CryptexServer10OnceActionVMF
++ _$s13CryptexServer10OnceActionVMa
++ _$s13CryptexServer10OnceActionVMf
++ _$s13CryptexServer10OnceActionVMn
++ _$s13CryptexServer10OnceActionVN
++ _$s13CryptexServer10OnceActionVWV
++ _$s13CryptexServer10OnceActionVwet
++ _$s13CryptexServer10OnceActionVwst
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV4noneAEvgZ
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV4noneAEvpZMV
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForceAEvau
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForceAEvgZ
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForceAEvpZ
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForceAEvpZMV
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForce_WZ
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV7noForce_Wz
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV8rawValueAEs6UInt64V_tcfC
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV8rawValues6UInt64Vvg
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsV8rawValues6UInt64VvpMV
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAESQAAWL
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAESQAAWl
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAESYAAWL
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAESYAAWl
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAEs10SetAlgebraAAWL
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAEs10SetAlgebraAAWl
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAEs25ExpressibleByArrayLiteralAAWL
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVAEs25ExpressibleByArrayLiteralAAWl
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVMF
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVMa
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVMf
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVMn
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVN
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSQAAMc
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSQAAMcMK
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSQAASQ2eeoiySbx_xtFZTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSYAAMA
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSYAAMc
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSYAAMcMK
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSYAASY8rawValue03RawG0QzvgTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVSYAASY8rawValuexSg03RawG0Qz_tcfCTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVWV
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAMA
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAMc
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAMcMK
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAASQWb
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteralPWb
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP10isDisjoint4withSbx_tFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP10isSuperset2ofSbx_tFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP11subtractingyxxFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP12intersectionyxxFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP16formIntersectionyyxFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP19symmetricDifferenceyxxnFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP23formSymmetricDifferenceyyxnFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP5unionyxxnFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP6insertySb8inserted_7ElementQz17memberAfterInserttAKnFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP6removey7ElementQzSgAJFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP6update4with7ElementQzSgAKn_tFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP7isEmptySbvgTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP8containsySb7ElementQzFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP8isSubset2ofSbx_tFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP8subtractyyxFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFP9formUnionyyxnFTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFPxycfCTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAsAFPyxqd__ncSTRd__7ElementQyd__AHRtzlufCTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs25ExpressibleByArrayLiteralAAMA
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs25ExpressibleByArrayLiteralAAMc
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs25ExpressibleByArrayLiteralAAMcMK
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs25ExpressibleByArrayLiteralAAsAFP05arrayI0x0hI7ElementQzd_tcfCTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAMA
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAMc
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAMcMK
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAASYWb
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAs0G7AlgebraPWb
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAsAFP8rawValuex03RawI0Qz_tcfCTW
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVwet
++ _$s13CryptexServer11APFSAdapterV12UngraftFlagsVwst
++ _$s13CryptexServer11APFSAdapterV5graft3dmg2at4hashy0A3Kit6TempFdV_6System8FilePathVAJtAK5ErrnoVYKFZ
++ _$s13CryptexServer11APFSAdapterV5graft3dmg2at4hashy0A3Kit6TempFdV_6System8FilePathVAJtAK5ErrnoVYKFZs5Int32VyXEfU_TA
++ _$s13CryptexServer11APFSAdapterV7ungraft_5flagsy6System8FilePathV_AC12UngraftFlagsVtAF5ErrnoVYKFZ
++ _$s13CryptexServer11APFSAdapterV7ungraft_5flagsy6System8FilePathV_AC12UngraftFlagsVtAF5ErrnoVYKFZs5Int32VyXEfU_TA
++ _$s13CryptexServer11ClosureInfoV6cdHashSSvg
++ _$s13CryptexServer11ClosureInfoV6cdHashSSvpMV
++ _$s13CryptexServer11ClosureInfoV7closureSays5UInt8VGvg
++ _$s13CryptexServer11ClosureInfoV7closureSays5UInt8VGvpMV
++ _$s13CryptexServer11ClosureInfoV7version6cdHash04pathG09bootToken7closureACs6UInt64V_S2SSays5UInt8VGAMtcfC
++ _$s13CryptexServer11ClosureInfoV7versions6UInt64Vvg
++ _$s13CryptexServer11ClosureInfoV7versions6UInt64VvpMV
++ _$s13CryptexServer11ClosureInfoV8pathHashSSvg
++ _$s13CryptexServer11ClosureInfoV8pathHashSSvpMV
++ _$s13CryptexServer11ClosureInfoV9bootTokenSays5UInt8VGvg
++ _$s13CryptexServer11ClosureInfoV9bootTokenSays5UInt8VGvpMV
++ _$s13CryptexServer11ClosureInfoVMF
++ _$s13CryptexServer11ClosureInfoVMa
++ _$s13CryptexServer11ClosureInfoVMf
++ _$s13CryptexServer11ClosureInfoVMn
++ _$s13CryptexServer11ClosureInfoVN
++ _$s13CryptexServer11ClosureInfoVWV
++ _$s13CryptexServer11ClosureInfoVwet
++ _$s13CryptexServer11ClosureInfoVwst
++ _$s13CryptexServer11DyldClosureV012spawnToBuildD033_1D9A308638CCE106A28546C1D6D07CF0LL12relativePath05mountQ0010dependencyQ011childSocket6outputs5Int32VSS_S2SAlA16SubprocessOutputAELLCt6System5ErrnoVYKFTv_r
++ _$s13CryptexServer11DyldClosureV017parseAndVerifyRawD04from6cdHashAA0D4InfoVs5Int32V_Says5UInt8VGt6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV01kD10Descriptors5Int32Vvau
++ _$s13CryptexServer11DyldClosureV01kD10Descriptors5Int32VvgZ
++ _$s13CryptexServer11DyldClosureV01kD10Descriptors5Int32VvpZ
++ _$s13CryptexServer11DyldClosureV01kD10Descriptors5Int32VvpZMV
++ _$s13CryptexServer11DyldClosureV01kD18ReadTimeoutSecondsSdvau
++ _$s13CryptexServer11DyldClosureV01kD18ReadTimeoutSecondsSdvgZ
++ _$s13CryptexServer11DyldClosureV01kD18ReadTimeoutSecondsSdvpZ
++ _$s13CryptexServer11DyldClosureV01kD18ReadTimeoutSecondsSdvpZMV
++ _$s13CryptexServer11DyldClosureV01kD20AttributeBootSessionSSvau
++ _$s13CryptexServer11DyldClosureV01kD20AttributeBootSessionSSvgZ
++ _$s13CryptexServer11DyldClosureV01kD20AttributeBootSessionSSvpZ
++ _$s13CryptexServer11DyldClosureV01kD20AttributeBootSessionSSvpZMV
++ _$s13CryptexServer11DyldClosureV01kD9DataVaultSSvau
++ _$s13CryptexServer11DyldClosureV01kD9DataVaultSSvgZ
++ _$s13CryptexServer11DyldClosureV01kD9DataVaultSSvpZ
++ _$s13CryptexServer11DyldClosureV01kD9DataVaultSSvpZMV
++ _$s13CryptexServer11DyldClosureV01kD9LengthMaxs6UInt32Vvau
++ _$s13CryptexServer11DyldClosureV01kD9LengthMaxs6UInt32VvgZ
++ _$s13CryptexServer11DyldClosureV01kD9LengthMaxs6UInt32VvpZ
++ _$s13CryptexServer11DyldClosureV01kD9LengthMaxs6UInt32VvpZMV
++ _$s13CryptexServer11DyldClosureV01kd9AttributeA2IdSSvau
++ _$s13CryptexServer11DyldClosureV01kd9AttributeA2IdSSvgZ
++ _$s13CryptexServer11DyldClosureV01kd9AttributeA2IdSSvpZ
++ _$s13CryptexServer11DyldClosureV01kd9AttributeA2IdSSvpZMV
++ _$s13CryptexServer11DyldClosureV01kd9AttributeC0SSvau
++ _$s13CryptexServer11DyldClosureV01kd9AttributeC0SSvgZ
++ _$s13CryptexServer11DyldClosureV01kd9AttributeC0SSvpZ
++ _$s13CryptexServer11DyldClosureV01kd9AttributeC0SSvpZMV
++ _$s13CryptexServer11DyldClosureV04saveD4File33_1D9A308638CCE106A28546C1D6D07CF0LL4path6parent7content10attributes3pidySS_SSSays5UInt8VGSDySSAMGs5Int32Vt6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV05buildD03for9mountPath010dependencyH0ySS_S2St6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV05buildD03for9mountPath010dependencyH0ySS_S2St6System5ErrnoVYKFySSYbXEfU2_
++ _$s13CryptexServer11DyldClosureV05buildD03for9mountPath010dependencyH0ySS_S2St6System5ErrnoVYKFyyYbcfU0_TA
++ _$s13CryptexServer11DyldClosureV05buildD03for9mountPath010dependencyH0ySS_S2St6System5ErrnoVYKFyyYbcfU_TA
++ _$s13CryptexServer11DyldClosureV05buildD03for9mountPath010dependencyH0ySS_S2St6System5ErrnoVYKFyycfU1_TA
++ _$s13CryptexServer11DyldClosureV10initializeyyFZ
++ _$s13CryptexServer11DyldClosureV10isDisabled33_1D9A308638CCE106A28546C1D6D07CF0LLSbyFSbAC0F6StatusAELLOzYbXEfU_
++ _$s13CryptexServer11DyldClosureV12kInfoVersions6UInt64Vvau
++ _$s13CryptexServer11DyldClosureV12kInfoVersions6UInt64VvgZ
++ _$s13CryptexServer11DyldClosureV12kInfoVersions6UInt64VvpZ
++ _$s13CryptexServer11DyldClosureV12kInfoVersions6UInt64VvpZMV
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOMF
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOMXX
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOMa
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOMf
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOMn
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOSQAAMc
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOSQAAMcMK
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOWV
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOwet
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOwst
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOwui
++ _$s13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOwup
++ _$s13CryptexServer11DyldClosureV14disabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LL2os21OSAllocatedUnfairLockVyAC08DisabledF0AELLOGvpZ.0
++ _$s13CryptexServer11DyldClosureV14disabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LL_WZ
++ _$s13CryptexServer11DyldClosureV14disabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LL_Wz
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV11spawnAsUsers6UInt32V_AHtyF
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV13dataVaultPathSSvg
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV13dataVaultPathSSvpMV
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV6cdHash3forSays5UInt8VGSS_t6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV6cdHash3forSays5UInt8VGSS_t6System5ErrnoVYKFs5Int32VSpySo16SecStaticCodeRefaSgGXEfU_TA
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV6logger2os6LoggerVvg
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV6logger2os6LoggerVvpMV
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV6loggerAE2os6LoggerV_tcfC
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformV9spawnArgs13subsystemRoot10executableSaySSGSS_SStF
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0A2aFP11spawnAsUsers6UInt32V_AJtyFTW
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0A2aFP13dataVaultPathSSvgTW
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0A2aFP6cdHash3forSays5UInt8VGSS_t6System5ErrnoVYKFTW
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0A2aFP9spawnArgs13subsystemRoot10executableSaySSGSS_SStFTW
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0AAMc
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVAA0dF0AAWP
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMF
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMa
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMaTm
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMf
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMl
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMn
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVMr
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVN
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVWV
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVwet
++ _$s13CryptexServer11DyldClosureV15DefaultPlatformVwst
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LL_WZ
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LL_Wz
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LLs6ResultOySS6System5ErrnoVGvpZ.0
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LLs6ResultOySS6System5ErrnoVGvpZ.1
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LLs6ResultOySS6System5ErrnoVGvpZ.2
++ _$s13CryptexServer11DyldClosureV16bootSessionValue33_1D9A308638CCE106A28546C1D6D07CF0LLs6ResultOySS6System5ErrnoVGvpZfiAKyXEfU_
++ _$s13CryptexServer11DyldClosureV17removeAllClosuresyy6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV17removeAllClosuresyy6System5ErrnoVYKFSbSS_SStXEfU_TA
++ _$s13CryptexServer11DyldClosureV5check33_1D9A308638CCE106A28546C1D6D07CF0LL5posix__ySb_SSs5Int32Vt6System5ErrnoVYKF
++ _$s13CryptexServer11DyldClosureV8platformAA0D8Platform_pvg
++ _$s13CryptexServer11DyldClosureV8platformAA0D8Platform_pvpMV
++ _$s13CryptexServer11DyldClosureV9attribute33_1D9A308638CCE106A28546C1D6D07CF0LL3for3keySSSgSS_SStF
++ _$s13CryptexServer11DyldClosureV9availableSbvgZ
++ _$s13CryptexServer11DyldClosureV9availableSbvpZMV
++ _$s13CryptexServer11DyldClosureV9cryptexId8platformACSS_AA0D8Platform_pSgtcfC
++ _$s13CryptexServer11DyldClosureV9cryptexIdSSvg
++ _$s13CryptexServer11DyldClosureV9cryptexIdSSvpMV
++ _$s13CryptexServer11DyldClosureVMF
++ _$s13CryptexServer11DyldClosureVMa
++ _$s13CryptexServer11DyldClosureVMf
++ _$s13CryptexServer11DyldClosureVMl
++ _$s13CryptexServer11DyldClosureVMn
++ _$s13CryptexServer11DyldClosureVMr
++ _$s13CryptexServer11DyldClosureVN
++ _$s13CryptexServer11DyldClosureVWOb
++ _$s13CryptexServer11DyldClosureVWOc
++ _$s13CryptexServer11DyldClosureVWOh
++ _$s13CryptexServer11DyldClosureVWV
++ _$s13CryptexServer11DyldClosureVwet
++ _$s13CryptexServer11DyldClosureVwst
++ _$s13CryptexServer12PkgInventoryC12EraseOptionsV8packages_WZ
++ _$s13CryptexServer12PkgInventoryC12EraseOptionsV8packages_Wz
++ _$s13CryptexServer12PkgInventoryC7assetfd3ref5asset0A3Kit6TempFdVAG0C3RefV_AG0C9AssetTypeOtKF
++ _$s13CryptexServer12PkgInventoryC7assetfd3ref5asset0A3Kit6TempFdVAG0C3RefV_AG0C9AssetTypeOtKFTj
++ _$s13CryptexServer12PkgInventoryC7assetfd3ref5asset0A3Kit6TempFdVAG0C3RefV_AG0C9AssetTypeOtKFTq
++ _$s13CryptexServer15ClosurePlatformMp
++ _$s13CryptexServer15ClosurePlatformP11spawnAsUsers6UInt32V_AFtyFTj
++ _$s13CryptexServer15ClosurePlatformP11spawnAsUsers6UInt32V_AFtyFTq
++ _$s13CryptexServer15ClosurePlatformP13dataVaultPathSSvgTj
++ _$s13CryptexServer15ClosurePlatformP13dataVaultPathSSvgTq
++ _$s13CryptexServer15ClosurePlatformP6cdHash3forSays5UInt8VGSS_t6System5ErrnoVYKFTj
++ _$s13CryptexServer15ClosurePlatformP6cdHash3forSays5UInt8VGSS_t6System5ErrnoVYKFTq
++ _$s13CryptexServer15ClosurePlatformP9spawnArgs13subsystemRoot10executableSaySSGSS_SStFTj
++ _$s13CryptexServer15ClosurePlatformP9spawnArgs13subsystemRoot10executableSaySSGSS_SStFTq
++ _$s13CryptexServer15ClosurePlatformTL
++ _$s13CryptexServer15ClosurePlatform_pMF
++ _$s13CryptexServer15ClosurePlatform_pML
++ _$s13CryptexServer15ClosurePlatform_pMa
++ _$s13CryptexServer15ClosurePlatform_pSgMR
++ _$s13CryptexServer15ClosurePlatform_pSgMd
++ _$s13CryptexServer15ClosurePlatform_pSgWOc
++ _$s13CryptexServer15ClosurePlatform_pWOb
++ _$s13CryptexServer15ClosurePlatform_pWOc
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC12startCaptureyyFySo12NSFileHandleCYbcfU_TA
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC4pipeSo6NSPipeCvpWvd
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVMF
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVMa
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVMf
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVMn
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVWV
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVwet
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVwst
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5state2os21OSAllocatedUnfairLockVyAD5StateVGvpWvd
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC7maxSizeSivpWvd
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMF
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMXX
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMa
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMf
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMm
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCMn
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCN
++ _$s13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLCfD
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s6Darwin4openys5Int32VSPys4Int8VG_ADs6UInt16VtF
++ _$s6Darwin7S_IRGRPs6UInt16Vvg
++ _$s6Darwin7S_IROTHs6UInt16Vvg
++ _$s6Darwin7S_IRUSRs6UInt16Vvg
++ _$s6Darwin7S_IWUSRs6UInt16Vvg
++ _$s6System14FileDescriptorV4open__7options11permissions16retryOnInterruptAcA0B4PathV_AC10AccessModeVAC11OpenOptionsVAA0B11PermissionsVSgSbtKFZACSPys4Int8VGKXEfU_TA.5
++ _$s6System5ErrnoV10CryptexKitE7currentACvgZ
++ _$s8Dispatch0A12TimeIntervalO11nanosecondsyACSicACmFWC
++ _$s8Dispatch0A12TimeIntervalO5neveryA2CmFWC
++ _$s8Dispatch0A12TimeIntervalOMa
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
++ _$s8Dispatch0A13WorkItemFlagsVMa
++ _$s8Dispatch0A13WorkItemFlagsVMn
++ _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeVMa
++ _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
++ _$sIeg_IeyB_TR
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_Says5UInt8VGTt0g5Tf4g_n
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS10FoundationE5bytes8encodingSSSgxh_SSAAE8EncodingVtcSTRzs5UInt8V7ElementRtzlufC
++ _$sSS10FoundationE7cString8encodingSSSgSays4Int8VG_SSAAE8EncodingVtcfC
++ _$sSS10FoundationE8EncodingV13nonLossyASCIIACvgZ
++ _$sSS10FoundationE8EncodingV2eeoiySbAC_ACtFZ
++ _$sSS10FoundationE8EncodingV4utf8ACvgZ
++ _$sSS10FoundationE8EncodingV5asciiACvgZ
++ _$sSS10FoundationE8EncodingV8rawValueSuvg
++ _$sSS10FoundationE8EncodingVMa
++ _$sSS12_tryFromUTF8ySSSgSRys5UInt8VGFZ
++ _$sSS17validatingCStringSSSgSays4Int8VG_tcfC
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS9hasSuffixySbSSF
++ _$sSS_Says5UInt8VGtMR
++ _$sSS_Says5UInt8VGtMd
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSaySSG_Tg5
++ _$sSa11descriptionSSvg
++ _$sSa13CryptexServers5UInt8VRszlE3hexSSvg
++ _$sSa13CryptexServers5UInt8VRszlE3hexSSvpMV
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSpys4Int8VGSg_SayAHGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_10Foundation4DataVTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SS8UTF8ViewVTg5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tt1g5
++ _$sSay10Foundation4DataVGMR
++ _$sSay10Foundation4DataVGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGMR
++ _$sSay8Dispatch0A13WorkItemFlagsVGMd
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
++ _$sSaySSGSayxGSKsWlTm
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCs5UInt8V_10Foundation4DataVTt0g5
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMd
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWL
++ _$sSaySo18OS_dispatch_sourceC8DispatchE10TimerFlagsVGMR
++ _$sSaySo18OS_dispatch_sourceC8DispatchE10TimerFlagsVGMd
++ _$sSaySo18OS_dispatch_sourceC8DispatchE10TimerFlagsVGSayxGSTsWL
++ _$sSays5UInt8VGMR
++ _$sSays5UInt8VGMd
++ _$sSays5UInt8VGSayxGSTsWL
++ _$sScPSgWOhTm
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF10Foundation4DataV_Tgq5
++ _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF10Foundation4DataV_Tgq5
++ _$sSlsE6prefixy11SubSequenceQzSiF10Foundation4DataV_Tg5
++ _$sSlsE7isEmptySbvg10Foundation4DataV_Tg5
++ _$sSo12NSFileHandleC10FoundationE5write10contentsOfyx_tKAC12DataProtocolRzlF
++ _$sSo12NSFileHandleCIeghg_ABIeyBhy_TR
++ _$sSo16os_unfair_lock_sVMB
++ _$sSo16os_unfair_lock_sVMF
++ _$sSo16os_unfair_lock_sVML
++ _$sSo16os_unfair_lock_sVMa
++ _$sSo16os_unfair_lock_sVMf
++ _$sSo16os_unfair_lock_sVMn
++ _$sSo16os_unfair_lock_sVWV
++ _$sSo16os_unfair_lock_sVwet
++ _$sSo16os_unfair_lock_sVwst
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWL
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWlTm
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo17OS_dispatch_queueCML
++ _$sSo17OS_dispatch_queueCMaTm
++ _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVAEs10SetAlgebraACWL
++ _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVMa
++ _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVMn
++ _$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVs10SetAlgebraACMc
++ _$sSo18OS_dispatch_sourceC8DispatchE15makeTimerSource5flags5queueSo0a1_b1_C6_timer_pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ
++ _$sSo18OS_dispatch_sourceCML
++ _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
++ _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtFfA0_
++ _$sSo18OS_dispatch_sourceP8DispatchE6cancelyyF
++ _$sSo18OS_dispatch_sourceP8DispatchE6resumeyyF
++ _$sSo21_cryptex_dyld_closureVMB
++ _$sSo21_cryptex_dyld_closureVMF
++ _$sSo21_cryptex_dyld_closureVML
++ _$sSo21_cryptex_dyld_closureVMa
++ _$sSo21_cryptex_dyld_closureVMaTm
++ _$sSo21_cryptex_dyld_closureVMf
++ _$sSo21_cryptex_dyld_closureVMn
++ _$sSo21_cryptex_dyld_closureVWV
++ _$sSo21_cryptex_dyld_closureVwet
++ _$sSo21_cryptex_dyld_closureVwst
++ _$sSo24OS_dispatch_source_timerP8DispatchE8schedule8deadline9repeating6leewayyAC0E4TimeV_AC0eJ8IntervalOAKtF
++ _$sSo7NSArrayC10FoundationE12makeIteratorAC017NSFastEnumerationD0VyF
++ _$sSt4next7ElementQzSgyFTj
++ _$ss10ArraySliceVMn
++ _$ss10ArraySliceVys5UInt8VGAByxGSTsWL
++ _$ss10ArraySliceVys5UInt8VGMR
++ _$ss10ArraySliceVys5UInt8VGMd
++ _$ss10ArraySliceVyxGSTsMc
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC13CryptexServer11APFSAdapterV12UngraftFlagsV_Tg5
++ _$ss11_StringGutsV18_isContiguousASCIISbvg
++ _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSpys4Int8VGSg_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFs5UInt8V_Tg5
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCy13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLOSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCy13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCy13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateVSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCySbSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySbSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSpys4Int8VGSg_Tg5
++ _$ss18_DictionaryStorageCySSSays5UInt8VGGMR
++ _$ss18_DictionaryStorageCySSSays5UInt8VGGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSpys4Int8VGSg_Tg5
++ _$ss23_ContiguousArrayStorageCySS_Says5UInt8VGtGMR
++ _$ss23_ContiguousArrayStorageCySS_Says5UInt8VGtGMd
++ _$ss23_ContiguousArrayStorageCySpys4Int8VGSgGMR
++ _$ss23_ContiguousArrayStorageCySpys4Int8VGSgGMd
++ _$ss4Int8VMn
++ _$ss4Int8VN
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss5Int32V13CryptexServerE11readExactly5countSays5UInt8VGSi_t6System5ErrnoVYKF
++ _$ss5Int32V13CryptexServerE4stopyyF
++ _$ss5Int32V13CryptexServerE8exitCodeABSgvg
++ _$ss5Int32V13CryptexServerE8exitCodeABSgvpMV
++ _$ss5Int32VMn
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss6ResultOySS6System5ErrnoVGWOy
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.53
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.53TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.53Tu
++ _$sypSgMR
++ _$sypSgMd
++ _$sypSgWOhTm
++ _$sypWOb
++ _CFPreferencesCopyAppValue
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSPipe
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_OS_dispatch_source
++ _SecCodeCopySigningInformation
++ _SecStaticCodeCreateWithPath
++ __DATA__TtC13CryptexServerP33_1D9A308638CCE106A28546C1D6D07CF016SubprocessOutput
++ __IVARS__TtC13CryptexServerP33_1D9A308638CCE106A28546C1D6D07CF016SubprocessOutput
++ __METACLASS_DATA__TtC13CryptexServerP33_1D9A308638CCE106A28546C1D6D07CF016SubprocessOutput
++ __OBJC_$_PROTOCOL_REFS_OS_dispatch_source
++ __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_timer
++ __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source
++ __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_timer
++ __OBJC_PROTOCOL_$_OS_dispatch_source
++ __OBJC_PROTOCOL_$_OS_dispatch_source_timer
++ ___swift__destructor
++ ___swift__destructor.49
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.7
++ ___swift_memcpy24_8
++ ___swift_memcpy4_4
++ ___swift_memcpy56_8
++ ___swift_memcpy88_8
++ ___swift_memcpy9_8
++ _associated conformance 13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAASQ
++ _associated conformance 13CryptexServer11APFSAdapterV12UngraftFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAASY
++ _associated conformance 13CryptexServer11APFSAdapterV12UngraftFlagsVs9OptionSetAAs0G7Algebra
++ _block_copy_helper.18
++ _block_copy_helper.45
++ _block_descriptor.20
++ _block_descriptor.47
++ _block_destroy_helper.19
++ _block_destroy_helper.46
++ _close
++ _fchmod
++ _flat unique So24OS_dispatch_source_timer_p
++ _free
++ _fsetxattr
++ _ftruncate
++ _get_enum_tag_for_layout_string 13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLO
++ _getxattr
++ _graftdmg
++ _kSecCodeInfoCdHashes
++ _kill
++ _mkpath_np
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$availableData
++ _objc_msgSend$boolValue
++ _objc_msgSend$closeAndReturnError:
++ _objc_msgSend$fileDescriptor
++ _objc_msgSend$fileHandleForReading
++ _objc_msgSend$fileHandleForWriting
++ _objc_msgSend$init
++ _objc_msgSend$initWithBytes:length:encoding:
++ _objc_msgSend$initWithFileDescriptor:closeOnDealloc:
++ _objc_msgSend$setReadabilityHandler:
++ _objc_retain_x20
++ _objc_retain_x28
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _posix_spawn
++ _posix_spawn_file_actions_adddup2
++ _posix_spawn_file_actions_addinherit_np
++ _posix_spawn_file_actions_destroy
++ _posix_spawn_file_actions_init
++ _posix_spawnattr_destroy
++ _posix_spawnattr_init
++ _posix_spawnattr_set_gid_np
++ _posix_spawnattr_set_uid_np
++ _posix_spawnattr_setflags
++ _read
++ _rename
++ _socketpair
++ _strdup
++ _swift_cvw_enumFn_getEnumTag
++ _swift_dynamicCastObjCClass
++ _swift_getExistentialTypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x22
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic $s13CryptexServer15ClosurePlatformP
++ _symbolic SS
++ _symbolic SS_Say_____Gt s5UInt8V
++ _symbolic Say_____G 10Foundation4DataV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____G So18OS_dispatch_sourceC8DispatchE10TimerFlagsV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Sb
++ _symbolic Si
++ _symbolic So6NSPipeC
++ _symbolic _____ 13CryptexServer10OnceActionV
++ _symbolic _____ 13CryptexServer11APFSAdapterV12UngraftFlagsV
++ _symbolic _____ 13CryptexServer11ClosureInfoV
++ _symbolic _____ 13CryptexServer11DyldClosureV
++ _symbolic _____ 13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLO
++ _symbolic _____ 13CryptexServer11DyldClosureV15DefaultPlatformV
++ _symbolic _____ 13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC
++ _symbolic _____ 13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So21_cryptex_dyld_closureV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s6UInt32V
++ _symbolic ______A19At s5UInt8V
++ _symbolic ______A43At s5UInt8V
++ _symbolic ______p 13CryptexServer15ClosurePlatformP
++ _symbolic ______p So24OS_dispatch_source_timerP
++ _symbolic ______pSg 13CryptexServer15ClosurePlatformP
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC s5UInt8V
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySb_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySpy_____GSgG s23_ContiguousArrayStorageC s4Int8V
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateV
++ _symbolic _____y_____G s10ArraySliceV s5UInt8V
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLO So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateV So16os_unfair_lock_sV
++ _symbolic ypSg
++ _symbolic yyYbc
++ _sysctlbyname
++ _type_layout_string 13CryptexServer10OnceActionV
++ _type_layout_string 13CryptexServer11APFSAdapterV12UngraftFlagsV
++ _type_layout_string 13CryptexServer11ClosureInfoV
++ _type_layout_string 13CryptexServer11DyldClosureV14DisabledStatus33_1D9A308638CCE106A28546C1D6D07CF0LLO
++ _type_layout_string 13CryptexServer16SubprocessOutput33_1D9A308638CCE106A28546C1D6D07CF0LLC5StateV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So21_cryptex_dyld_closureV
++ _ungraftdmg
++ _unlink
++ _waitpid
+- _$s10CryptexKit6PkgRefV3key_SaySSG5valuetSgMR
+- _$s10CryptexKit6PkgRefV3key_SaySSG5valuetSgMd
+- _$s10CryptexKit6PkgRefV3key_SaySSG5valuetSgWObTm
+- _$s10CryptexKit8FileStatVMn
+- _$s10CryptexKit8FileStatVSgMR
+- _$s10CryptexKit8FileStatVSgMd
+- _$s10CryptexKit8PkgErrorV4KindOSgWOhTm
+- _$s13CryptexServer0B0C14startXPCServeryyFySo13OS_xpc_object_pYbcfU_
+- _$s13CryptexServer11APFSAdapterV5graft3dmg2aty6System8FilePathV_AItKFZ
+- _$s13CryptexServer11APFSAdapterV7ungraftyy6System8FilePathVKFZ
+- _$s13CryptexServer12PkgInventoryC12sha256digestySS10Foundation4DataVFySWXEfU_
+- _$s13CryptexServer19BootstrapVirtualEnvV8Strategy33_208152451A27CF1F362939E4B64E7455LL_pSgMR
+- _$s13CryptexServer19BootstrapVirtualEnvV8Strategy33_208152451A27CF1F362939E4B64E7455LL_pSgMd
+- _$s13CryptexServer19BootstrapVirtualEnvV8Strategy33_208152451A27CF1F362939E4B64E7455LL_pSgWOh
+- _$s6System8FilePathV10CryptexKitE5inodes6UInt64VyKF
+- _$sScPSgWOc
+- _$sScPSgWOcTm
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$ss6ResultOy10CryptexKit8Response_pAC0B12ErrorMessageVGWOhTm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.55
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.55TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.55Tu
+- _block_copy_helper.15
+- _block_descriptor.17
+- _block_destroy_helper.16
+- _symbolic _____3key_SaySSG5valuetSg 10CryptexKit6PkgRefV
+- _symbolic _____Sg 10CryptexKit8FileStatV
+- _symbolic ______pSg 13CryptexServer19BootstrapVirtualEnvV8Strategy33_208152451A27CF1F362939E4B64E7455LLP
+CStrings:
++ "%s is probably unsigned, skipped for dyld closure"
++ "%s() failed: %@"
++ "%s() failed: OSStatus %d"
++ "' could not be authenticated"
++ "/private/var/db/com.apple.dyld/closure"
++ "/usr/bin/cryptexctl"
++ "746"
++ "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Thu May 21 08:16:36 PDT 2026; root:libcryptex-746~413/CryptexServer/RELEASE_ARM64E"
++ "Boot Token: %ld bytes"
++ "Building dyld closure for %s"
++ "CDHash mismatched: should be %s but got %s"
++ "CDHash: %s"
++ "Child process exited with status %d"
++ "Closure length %u exceeds maximum"
++ "Closure: %ld bytes"
++ "Darwin Cryptex Server Framework Version 1.0.0: Thu May 21 08:16:36 PDT 2026; root:libcryptex-746~413/CryptexServer/RELEASE_ARM64E"
++ "Dyld closure disabled via preferences"
++ "Dyld closure disabled via preferences for %s"
++ "Failed to execute %s: %s"
++ "Failed to fetch CDHash: %@"
++ "Failed to fetch cryptex ID from %s"
++ "Failed to list data vault, skipped removal: %s"
++ "Failed to parse closure data: %@"
++ "Failed to remove %s: %@"
++ "ForceDisableDyldClosure"
++ "Foundation/arm64e-apple-ios.private.swiftinterface"
++ "Path Hash: %s"
++ "Protocol version: %llu"
++ "Read from child process timed out"
++ "Removed %ld/%ld closure file(s) for cryptex %s"
++ "Removed closure file: %s"
++ "Saved closure to %s"
++ "SecCodeCopySigningInformation"
++ "SecStaticCodeCreateWithPath"
++ "Spawned process with PID: %d"
++ "Spawning with %s"
++ "Unsupported protocol version: %llu"
++ "com.apple.libcryptex.DyldClosure"
++ "com.apple.libcryptex.bootsession"
++ "com.apple.libcryptex.identifier"
++ "failed to graft "
++ "grafting %s at %s"
++ "input of String.init(cString:encoding:) must be null-terminated"
++ "kern.bootsessionuuid"
++ "posix_spawn_file_actions_adddup2"
++ "posix_spawn_file_actions_adddup2 (stderr)"
++ "posix_spawn_file_actions_adddup2 (stdout)"
++ "posix_spawn_file_actions_addinherit_np"
++ "posix_spawn_file_actions_init"
++ "posix_spawnattr_init"
++ "posix_spawnattr_set_gid_np"
++ "posix_spawnattr_set_uid_np"
++ "posix_spawnattr_setflags"
++ "write failed: %s"
+- "#16@0:8"
+- "$defaultActor"
+- "662.120.27"
+- "@\"NSString\"16@0:8"
+- "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Sat Apr 18 17:51:09 PDT 2026; root:libcryptex-662.120.27~92/CryptexServer/RELEASE_ARM64E"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Darwin Cryptex Server Framework Version 1.0.0: Sat Apr 18 17:51:09 PDT 2026; root:libcryptex-662.120.27~92/CryptexServer/RELEASE_ARM64E"
+- "Failed to graft pkg '%s': %@"
+- "NSObject"
+- "OS_xpc_object"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC13CryptexServer11CryptexCore"
+- "_TtC13CryptexServer12PkgInventory"
+- "_TtC13CryptexServer15RequestRegistry"
+- "_TtC13CryptexServer6Server"
+- "_TtC13CryptexServer9PkgServer"
+- "_TtCV13CryptexServer19BootstrapVirtualEnvP33_208152451A27CF1F362939E4B64E74557Symlink"
+- "_TtCV13CryptexServer19BootstrapVirtualEnvP33_208152451A27CF1F362939E4B64E74559Directory"
+- "assets"
+- "authenticator"
+- "autorelease"
+- "class"
+- "clientAuthenticator"
+- "conformsToProtocol:"
+- "contentsOfDirectoryAtPath:error:"
+- "db"
+- "debugDescription"
+- "defaultManager"
+- "description"
+- "envdb"
+- "grafting %s from %s at %s"
+- "hash"
+- "inventory"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "known"
+- "logger"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "propertyListWithData:options:format:error:"
+- "queue"
+- "registry"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "safeOrigin"
+- "self"
+- "superclass"
+- "treedb"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "vfs"
+- "xpcListener"
+- "zone"
+
+```

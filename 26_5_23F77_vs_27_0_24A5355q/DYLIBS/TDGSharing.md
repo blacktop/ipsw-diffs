@@ -1,0 +1,717 @@
+## TDGSharing
+
+> `/System/Library/PrivateFrameworks/TDGSharing.framework/TDGSharing`
+
+```diff
+
+-41.0.10.0.0
+-  __TEXT.__text: 0x79d88
+-  __TEXT.__auth_stubs: 0x10a0
++42.0.0.0.0
++  __TEXT.__text: 0x7cb7c
+   __TEXT.__objc_methlist: 0x9c8
+-  __TEXT.__const: 0x4988
++  __TEXT.__const: 0x4a48
++  __TEXT.__cstring: 0xe94
+   __TEXT.__constg_swiftt: 0x19b8
+-  __TEXT.__swift5_typeref: 0x15e6
++  __TEXT.__swift5_typeref: 0x1620
+   __TEXT.__swift5_reflstr: 0x1692
+   __TEXT.__swift5_fieldmd: 0x1700
+   __TEXT.__swift5_builtin: 0x1b8
+   __TEXT.__swift5_assocty: 0x198
+-  __TEXT.__cstring: 0xe84
+-  __TEXT.__swift5_capture: 0xc30
++  __TEXT.__swift5_capture: 0xd60
+   __TEXT.__oslogstring: 0x4327
+   __TEXT.__swift5_proto: 0x258
+   __TEXT.__swift5_types: 0x164
+   __TEXT.__swift_as_entry: 0xf8
+   __TEXT.__swift_as_ret: 0xe8
++  __TEXT.__swift_as_cont: 0x3a4
+   __TEXT.__swift5_protos: 0x40
+   __TEXT.__swift5_mpenum: 0x7c
+-  __TEXT.__unwind_info: 0x1910
+-  __TEXT.__eh_frame: 0x3808
+-  __TEXT.__objc_classname: 0x301
+-  __TEXT.__objc_methname: 0x2055
+-  __TEXT.__objc_methtype: 0x82d
+-  __TEXT.__objc_stubs: 0x11c0
+-  __DATA_CONST.__got: 0x2f0
++  __TEXT.__unwind_info: 0x1928
++  __TEXT.__eh_frame: 0x37f0
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x2e8
+   __DATA_CONST.__objc_classlist: 0x88
+   __DATA_CONST.__objc_protolist: 0x50
+
+   __DATA_CONST.__objc_selrefs: 0x5f0
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x858
+-  __AUTH_CONST.__const: 0x4b70
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x4e68
+   __AUTH_CONST.__objc_const: 0x27c8
++  __AUTH_CONST.__auth_got: 0x940
+   __AUTH.__objc_data: 0xe68
+   __AUTH.__data: 0xda8
+   __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0xd08
++  __DATA.__data: 0xd18
+   __DATA.__bss: 0x3fc0
+   __DATA.__common: 0xf0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9AA3D68A-3C31-3E60-941E-E8EC28CCD5B3
+-  Functions: 2235
+-  Symbols:   1491
+-  CStrings:  806
++  UUID: D64EFA9B-D08C-3F1A-B2A6-6520C7B466F7
++  Functions: 2265
++  Symbols:   1835
++  CStrings:  436
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.125Tm
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.135Tm
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.174Tm
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.39Tm
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.64Tm
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.98
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.119
++ ___swift_exist.box.addr_destructor.129
++ _block_copy_helper.104
++ _block_copy_helper.112
++ _block_copy_helper.115
++ _block_copy_helper.118
++ _block_copy_helper.121
++ _block_copy_helper.124
++ _block_copy_helper.127
++ _block_copy_helper.14
++ _block_copy_helper.182
++ _block_copy_helper.189
++ _block_copy_helper.20
++ _block_copy_helper.212
++ _block_copy_helper.26
++ _block_copy_helper.28
++ _block_copy_helper.31
++ _block_copy_helper.34
++ _block_copy_helper.45
++ _block_copy_helper.47
++ _block_copy_helper.51
++ _block_copy_helper.55
++ _block_copy_helper.59
++ _block_copy_helper.7
++ _block_copy_helper.78
++ _block_copy_helper.79
++ _block_copy_helper.83
++ _block_copy_helper.85
++ _block_copy_helper.92
++ _block_descriptor.106
++ _block_descriptor.114
++ _block_descriptor.117
++ _block_descriptor.120
++ _block_descriptor.123
++ _block_descriptor.126
++ _block_descriptor.129
++ _block_descriptor.16
++ _block_descriptor.184
++ _block_descriptor.191
++ _block_descriptor.214
++ _block_descriptor.22
++ _block_descriptor.28
++ _block_descriptor.30
++ _block_descriptor.33
++ _block_descriptor.36
++ _block_descriptor.47
++ _block_descriptor.49
++ _block_descriptor.53
++ _block_descriptor.57
++ _block_descriptor.61
++ _block_descriptor.80
++ _block_descriptor.81
++ _block_descriptor.85
++ _block_descriptor.87
++ _block_descriptor.9
++ _block_descriptor.94
++ _block_destroy_helper.105
++ _block_destroy_helper.113
++ _block_destroy_helper.116
++ _block_destroy_helper.119
++ _block_destroy_helper.122
++ _block_destroy_helper.125
++ _block_destroy_helper.128
++ _block_destroy_helper.15
++ _block_destroy_helper.183
++ _block_destroy_helper.190
++ _block_destroy_helper.21
++ _block_destroy_helper.213
++ _block_destroy_helper.27
++ _block_destroy_helper.29
++ _block_destroy_helper.32
++ _block_destroy_helper.35
++ _block_destroy_helper.46
++ _block_destroy_helper.48
++ _block_destroy_helper.52
++ _block_destroy_helper.56
++ _block_destroy_helper.60
++ _block_destroy_helper.79
++ _block_destroy_helper.8
++ _block_destroy_helper.80
++ _block_destroy_helper.84
++ _block_destroy_helper.86
++ _block_destroy_helper.93
++ _objc_claimAutoreleasedReturnValue
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x2
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic _____3key_yp5valuetSg s11AnyHashableV
++ _symbolic _____Sg 10TDGSharing19SharingServiceEventO
++ _symbolic _____Sg 10TDGSharing19SharingSessionEventO
++ _symbolic _____Sg 10TDGSharing23FileTransferSourceEventO
++ _symbolic ______yptSg s11AnyHashableV
+- _block_copy_helper.102
+- _block_copy_helper.111
+- _block_copy_helper.15
+- _block_copy_helper.160
+- _block_copy_helper.167
+- _block_copy_helper.185
+- _block_copy_helper.22
+- _block_copy_helper.27
+- _block_copy_helper.29
+- _block_copy_helper.32
+- _block_copy_helper.36
+- _block_copy_helper.44
+- _block_copy_helper.46
+- _block_copy_helper.49
+- _block_copy_helper.52
+- _block_copy_helper.56
+- _block_copy_helper.58
+- _block_copy_helper.60
+- _block_copy_helper.76
+- _block_copy_helper.8
+- _block_copy_helper.81
+- _block_copy_helper.96
+- _block_copy_helper.99
+- _block_descriptor.10
+- _block_descriptor.101
+- _block_descriptor.104
+- _block_descriptor.113
+- _block_descriptor.162
+- _block_descriptor.169
+- _block_descriptor.17
+- _block_descriptor.187
+- _block_descriptor.24
+- _block_descriptor.29
+- _block_descriptor.31
+- _block_descriptor.34
+- _block_descriptor.38
+- _block_descriptor.46
+- _block_descriptor.48
+- _block_descriptor.51
+- _block_descriptor.54
+- _block_descriptor.58
+- _block_descriptor.60
+- _block_descriptor.62
+- _block_descriptor.78
+- _block_descriptor.83
+- _block_descriptor.98
+- _block_destroy_helper.100
+- _block_destroy_helper.103
+- _block_destroy_helper.112
+- _block_destroy_helper.16
+- _block_destroy_helper.161
+- _block_destroy_helper.168
+- _block_destroy_helper.186
+- _block_destroy_helper.23
+- _block_destroy_helper.28
+- _block_destroy_helper.30
+- _block_destroy_helper.33
+- _block_destroy_helper.37
+- _block_destroy_helper.45
+- _block_destroy_helper.47
+- _block_destroy_helper.50
+- _block_destroy_helper.53
+- _block_destroy_helper.57
+- _block_destroy_helper.59
+- _block_destroy_helper.61
+- _block_destroy_helper.77
+- _block_destroy_helper.82
+- _block_destroy_helper.9
+- _block_destroy_helper.97
+- _objc_retain_x9
+- _objectdestroy.111Tm
+- _objectdestroy.114Tm
+- _objectdestroy.11Tm
+- _objectdestroy.12Tm
+- _objectdestroy.157Tm
+- _objectdestroy.2Tm
+- _objectdestroy.3Tm
+- _objectdestroy.40Tm
+- _objectdestroy.47Tm
+- _objectdestroy.53Tm
+- _objectdestroyTm
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@"
+- "@\"ACAccount\""
+- "@\"AFVoiceInfo\""
+- "@\"AKDevice\""
+- "@\"CUMessageSession\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"WFSetupDataInternal\""
+- "@\"WFSetupServerInternal\""
+- "@\"_TtC10TDGSharing33WFSetupServerAnisetteDataProvider\""
+- "@16@0:8"
+- "@236@0:8@16@24B32B36@40@48@56B64@68@76@84@92@100B108B112@116@124B132B136B140@144B152B156B160B164@168@176B184B188B192q196@204@212@220@228"
+- "@244@0:8^v16@24B32B36@40@48@56B64@68@76@84@92@100B108B112@116@124B132@136B144B148@152B160B164B168B172@176@184B192B196B200q204@212@220@228@236"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "AKAnisetteServiceProtocol"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "JSONObjectWithData:options:error:"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"ACAccount\",N,&,VtransportableAuthKitAccount"
+- "T@\"AFVoiceInfo\",N,R,VsiriAssistantOutputVoice"
+- "T@\"AKDevice\",N,&,VcompanionAuthDevice"
+- "T@\"CUMessageSession\",N,&,Vsession"
+- "T@\"NSArray\",N,R"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSData\",N,R"
+- "T@\"NSData\",R,N"
+- "T@\"NSDictionary\",N,R"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_deviceClass"
+- "T@\"NSString\",R,C,N,V_deviceModel"
+- "T@\"WFSetupDataInternal\",&,V_underlyingSwiftObject"
+- "T@\"WFSetupServerInternal\",R,V_underlyingSwiftObject"
+- "T@\"_TtC10TDGSharing33WFSetupServerAnisetteDataProvider\",N,&,VanisetteDataProvider"
+- "T@\"_TtC10TDGSharing33WFSetupServerAnisetteDataProvider\",N,R,VanisetteDataProvider"
+- "T@,N,R,Vkeyboards"
+- "TB,N,R"
+- "TB,N,R,VdictationIsEnabled"
+- "TB,N,R,VhasHomeButton"
+- "TB,N,R,VisAutomaticTimeZoneEnabled"
+- "TB,N,R,VisBackupEnabled"
+- "TB,N,R,VisConnectedToWiFi"
+- "TB,N,R,VisOptedInToAppAnalytics"
+- "TB,N,R,VisOptedInToDeviceAnalytics"
+- "TB,N,R,VisOptedInToFindMyDevice"
+- "TB,N,R,VisOptedInToLocationServices"
+- "TB,N,R,VisRestoring"
+- "TB,N,R,VsiriAssistantIsEnabled"
+- "TB,N,R,VsiriDataSharingIsEnabled"
+- "TB,N,R,VsiriVoiceTriggerIsEnabled"
+- "TB,N,R,VsuppressDictationOptIn"
+- "TB,N,R,VusesSameAccountForiTunes"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_hasHomeButton"
+- "TB,R,N,V_isRestoring"
+- "TDGSharing"
+- "TQ,R"
+- "Tq,N,R,VdeviceTermsIdentifier"
+- "Tq,N,R,Vversion"
+- "Tq,R,N"
+- "Vv16@0:8"
+- "WFAnisetteRequest"
+- "WFAnisetteResponse"
+- "WFPrescriptionRecord"
+- "WFSetupData"
+- "WFSetupDataInternal"
+- "WFSetupServer"
+- "WFSetupServerDelegate"
+- "WFSetupServerInternal"
+- "WFSetupServerState"
+- "^{_NSZone=}16@0:8"
+- "_TtC10TDGSharing13WFSetupClient"
+- "_TtC10TDGSharing14SFServiceAgent"
+- "_TtC10TDGSharing14SFSessionAgent"
+- "_TtC10TDGSharing15SFAnisetteAgent"
+- "_TtC10TDGSharing16AnalyticsManager"
+- "_TtC10TDGSharing30RapportFileTransferSourceAgent"
+- "_TtC10TDGSharing30RapportFileTransferTargetAgent"
+- "_TtC10TDGSharing33WFSetupServerAnisetteDataProvider"
+- "_TtCC10TDGSharing11WFSetupData7Builder"
+- "_deviceClass"
+- "_deviceModel"
+- "_hasHomeButton"
+- "_isRestoring"
+- "_underlyingSwiftObject"
+- "aa_altDSID"
+- "aa_primaryAppleAccount"
+- "accPayload"
+- "accountPropertyForKey:"
+- "accountTypeWithAccountTypeIdentifier:"
+- "accountsWithAccountType:"
+- "activate"
+- "activateWith:"
+- "activateWithCompletion:"
+- "activationFlow"
+- "addItem:"
+- "analyticsManager"
+- "anisetteAgent"
+- "anisetteDataWithCompletion:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "asyncStream"
+- "autorelease"
+- "backend"
+- "class"
+- "code"
+- "conformsToProtocol:"
+- "containsValueForKey:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "credentialForAccount:error:"
+- "currentDevice"
+- "currentLocale"
+- "data"
+- "dataWithJSONObject:options:error:"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "defaultManager"
+- "delegate"
+- "description"
+- "didFail:metaData:"
+- "didReceive:metaData:"
+- "didUpdate:eventObject:"
+- "didUpdate:metaData:"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enrollmentDate"
+- "enrollmentName"
+- "eraseAnisetteWithCompletion:"
+- "eraseWithCompletion:"
+- "fetchAnisetteDataAndProvisionIfNecessary:withCompletion:"
+- "fetchAttestationDataForRequestData:completion:"
+- "fetchPeerAttestationDataForRequest:completion:"
+- "fileExistsAtPath:"
+- "fileSize"
+- "fileTransferAgent"
+- "fileTransferAgentListeningTask"
+- "filename"
+- "finish"
+- "flags"
+- "hash"
+- "id"
+- "identifier"
+- "incomingFileInfo"
+- "init"
+- "initWithCoder:"
+- "initWithContext:"
+- "initWithKeyboards:appleID:usesSameAccountForiTunes:isConnectedToWiFi:networks:networkPasswords:localePreferences:isAutomaticTimeZoneEnabled:timeZone:accessibilitySettings:firstName:deviceModel:deviceClass:hasHomeButton:isRestoring:deviceName:backupUUID:isBackupEnabled:dateOfLastBackup:isOptedInToLocationServices:isOptedInToDeviceAnalytics:locationServicesData:isOptedInToFindMyDevice:isOptedInToAppAnalytics:siriAssistantIsEnabled:siriVoiceTriggerIsEnabled:siriAssistantLanguageCode:siriAssistantOutputVoice:siriDataSharingIsEnabled:dictationIsEnabled:suppressDictationOptIn:deviceTermsIdentifier:productVersion:anisetteDataProvider:prescriptionRecords:walletData:"
+- "initWithKeyboards:appleID:usesSameAccountForiTunes:isConnectedToWiFi:networks:networkPasswords:localePreferences:isAutomaticTimeZoneEnabled:timeZone:accessibilitySettings:firstName:deviceModel:deviceClass:hasHomeButton:isRestoring:deviceName:backupUUID:isBackupEnabled:isOptedInToLocationServices:isOptedInToDeviceAnalytics:locationServicesData:isOptedInToFindMyDevice:isOptedInToAppAnalytics:siriAssistantIsEnabled:siriVoiceTriggerIsEnabled:siriAssistantLanguageCode:siriAssistantOutputVoice:siriDataSharingIsEnabled:dictationIsEnabled:suppressDictationOptIn:deviceTermsIdentifier:productVersion:anisetteDataProvider:prescriptionRecords:walletData:"
+- "internalQueue"
+- "interruptionHandler"
+- "invalidate"
+- "invalidationHandler"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "itemURL"
+- "legacyAnisetteDataForDSID:withCompletion:"
+- "messageSession"
+- "messageSessionTemplate"
+- "operatingSystemVersion"
+- "output"
+- "pairSetupTryPIN:peer:"
+- "pairSetupWithFlags:peer:"
+- "peer"
+- "peerDevice"
+- "peerPreAuth"
+- "performAction:withMetaData:handler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWithWfAction:metaData:handler:"
+- "preferredLanguages"
+- "prepareTemplateAndReturnError:"
+- "prepareToRun"
+- "preventExitForLocaleReason:"
+- "processInfo"
+- "provisionAnisetteWithCompletion:"
+- "provisionWithCompletion:"
+- "publisherQueue"
+- "q"
+- "q16@0:8"
+- "reenableProxCardType:completion:"
+- "registerRequestID:options:handler:"
+- "release"
+- "remainingSeconds"
+- "resetDeviceIdentityWithCompletion:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "self"
+- "selfPublicKey"
+- "sendRequest:withMetaData:handler:"
+- "sendRequestID:options:request:responseHandler:"
+- "sendSetupWithAction:info:responseHandler:"
+- "sendToPeer:flags:object:"
+- "sendWithFlags:object:"
+- "sendWithWfRequest:metaData:handler:"
+- "service"
+- "serviceAgent"
+- "serviceAgentListeningTask"
+- "serviceState"
+- "session"
+- "sessionAgent"
+- "sessionAgentListeningTask"
+- "sessionFlags"
+- "sessionState"
+- "set"
+- "setAdvertiseRate:"
+- "setAnisetteDataProvider:"
+- "setCompanionAuthDevice:"
+- "setCompletionHandler:"
+- "setCredential:"
+- "setDelegate:"
+- "setDeviceActionType:"
+- "setDispatchQueue:"
+- "setErrorHandler:"
+- "setFilename:"
+- "setFlags:"
+- "setIdentifier:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setItemURL:"
+- "setLinkType:"
+- "setNeedsSetup:"
+- "setOverrideScreenOff:"
+- "setPairSetupCompletionHandler:"
+- "setPayloadDovePeace2:"
+- "setPeerDevice:"
+- "setPeerDisconnectedHandler:"
+- "setPeerPublicKey:"
+- "setProgressHandler:"
+- "setPromptForPINHandler:"
+- "setReceivedItemHandler:"
+- "setReceivedObjectHandler:"
+- "setReceivedRequestHandler:"
+- "setServiceIdentifier:"
+- "setSession:"
+- "setSessionEndedHandler:"
+- "setSessionFlags:"
+- "setSessionSecuredHandler:"
+- "setSessionStartedHandler:"
+- "setSharingChannel:"
+- "setShowPINHandlerEx:"
+- "setTargetID:"
+- "setTemporaryDirectoryURL:"
+- "setTransportableAuthKitAccount:"
+- "setUnderlyingSwiftObject:"
+- "setWithDelegate:"
+- "setWithObjects:"
+- "setupData"
+- "setupProgressEventHandler"
+- "setupSecurePairingCompletionHandler"
+- "sharedInstance"
+- "sharingRestartAssertionClient"
+- "sharingRestartLockReason"
+- "showPinHandler"
+- "startCircleApplicationApprovalServer:"
+- "state"
+- "superclass"
+- "supportsSecureCoding"
+- "syncAnisetteWithSIMData:completion:"
+- "syncWithSIMData:completion:"
+- "targetID"
+- "transportableAuthKitAccount:"
+- "tryPin:"
+- "underlyingSwiftObject"
+- "userInteractionProgressEventHandler"
+- "username"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"RPFileTransferProgress\"8"
+- "v16@?0@\"SFSession\"8"
+- "v16@?0I8i12"
+- "v20@?0B8@\"NSError\"12"
+- "v20@?0I8@\"NSDictionary\"12"
+- "v20@?0I8@\"NSString\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8q16"
+- "v24@?0@\"AKAnisetteData\"8@\"NSError\"16"
+- "v24@?0@\"NSUUID\"8@\"NSError\"16"
+- "v24@?0@\"RPFileTransferItem\"8@?<v@?@\"NSError\">16"
+- "v24@?0@\"SFSession\"8@\"NSError\"16"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?@\"AKAnisetteData\"@\"NSError\">20"
+- "v28@?0@\"SFSession\"8I16@\"NSDictionary\"20"
+- "v28@?0I8@\"NSDictionary\"12@?<v@?I@\"NSError\"@\"NSDictionary\">20"
+- "v28@?0i8@\"NSDictionary\"12@\"NSDictionary\"20"
+- "v32@0:8@\"AKAttestationRequestData\"16@?<v@?@\"AKBAAAttestationData\"@\"NSError\">24"
+- "v32@0:8@\"NSData\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"AKAnisetteData\"@\"NSError\">24"
+- "v32@0:8@\"NSURLRequest\"16@?<v@?@\"AKAttestationData\"@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v32@0:8q16@\"NSDictionary\"24"
+- "v32@0:8q16@24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?@\"NSError\"@\"NSDictionary\"@\"NSDictionary\">24"
+- "v32@?0@\"NSError\"8@\"NSDictionary\"16@\"NSDictionary\"24"
+- "v36@0:8I16@20@?28"
+- "v40@0:8q16@24@?32"
+- "v8@?0"
+- "version"
+- "zone"
+
+```

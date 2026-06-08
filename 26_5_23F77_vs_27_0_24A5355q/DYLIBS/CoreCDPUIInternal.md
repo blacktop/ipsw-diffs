@@ -1,0 +1,408 @@
+## CoreCDPUIInternal
+
+> `/System/Library/PrivateFrameworks/CoreCDPUIInternal.framework/CoreCDPUIInternal`
+
+```diff
+
+-416.575.9.0.0
+-  __TEXT.__text: 0x5e70
+-  __TEXT.__auth_stubs: 0x2f0
++440.1.0.0.0
++  __TEXT.__text: 0x5b98
+   __TEXT.__objc_methlist: 0x6b4
+   __TEXT.__const: 0x68
+-  __TEXT.__cstring: 0x854
++  __TEXT.__cstring: 0x85b
+   __TEXT.__oslogstring: 0x1c3
+   __TEXT.__gcc_except_tab: 0x60
+   __TEXT.__unwind_info: 0x1a0
+-  __TEXT.__objc_classname: 0x158
+-  __TEXT.__objc_methname: 0x18d8
+-  __TEXT.__objc_methtype: 0x432
+-  __TEXT.__objc_stubs: 0x1400
+-  __DATA_CONST.__got: 0x1e8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x2b0
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x40
+
+   __DATA_CONST.__objc_selrefs: 0x778
+   __DATA_CONST.__objc_superrefs: 0x20
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x188
++  __DATA_CONST.__got: 0x1f0
+   __AUTH_CONST.__const: 0xa0
+   __AUTH_CONST.__cfstring: 0xbc0
+   __AUTH_CONST.__objc_const: 0xb30
+   __AUTH_CONST.__objc_intobj: 0x60
+   __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0x190
+   __DATA.__objc_ivar: 0x3c
+   __DATA.__data: 0x300
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5EEA79CD-6AF5-33F8-AA57-3F83CB8A33C5
+-  Functions: 140
++  UUID: 4E72C303-CC2E-348A-843F-DD7073CDDCAD
++  Functions: 138
+   Symbols:   681
+-  CStrings:  536
++  CStrings:  210
+ 
+Symbols:
++ _OBJC_CLASS_$_UINavigationController
++ ___block_literal_global.352
++ ___block_literal_global.369
++ ___block_literal_global.371
++ _objc_claimAutoreleasedReturnValue
++ _objc_opt_class
++ _objc_opt_isKindOfClass
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x4
++ _objc_retain_x8
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- ___block_literal_global.351
+- ___block_literal_global.368
+- ___block_literal_global.370
+- _objc_release_x10
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x25
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"CDPCombinedWalrusStatus\"24@0:8^@16"
+- "@\"CDPDBackupInfoRecoveryFlowController\""
+- "@\"CDPRecoveryController\""
+- "@\"CDPRecoveryTestController\""
+- "@\"CDPUIController\""
+- "@\"DummyWalrusStateController\""
+- "@\"DummyWebAccessStateController\""
+- "@\"NSArray\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"UINavigationController\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@36@0:8@16B24@28"
+- "@40@0:8:16@24@32"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CDPAuthProvider"
+- "CDPRecoveryTestController"
+- "CDPUIADPUpsellViewModelDelegate"
+- "CDPUIAdvancedDataProtectionViewModelDelegate"
+- "CDPWalrusStatusProvider"
+- "CDPWalrusStatusUpdater"
+- "CDPWebAccessStatusProvider"
+- "CDPWebAccessStatusUpdater"
+- "DummyRemoteDeviceSecretValidator"
+- "DummyWalrusStateController"
+- "DummyWebAccessStateController"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8^@16"
+- "SettingsController"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@?,C,N,V_pdpRepairAction"
+- "TQ,N,V_stubbedPDPHealth"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_contextForPrimaryAccount"
+- "_didUseSMS"
+- "_didUseSMSVerification"
+- "_enableCentralizedRPDFlow"
+- "_enableSwiftUIRemoteSecretFlowSwitchCellSpecifier"
+- "_enableWalrus"
+- "_enableWalrusSwitchCellSpecifier"
+- "_expectedString"
+- "_failedAttempts"
+- "_fakeDevicesWithExpectedSecret:isNumber:numericLength:"
+- "_forceInlineUI"
+- "_loadSpecifiers"
+- "_mockDevices"
+- "_navController"
+- "_offerRPD"
+- "_offerRemoteApproval"
+- "_pdpRepairAction"
+- "_recoverAndSyncrhonizeDataSpecifier"
+- "_recoverAndSyncrhonizeStingrayData:"
+- "_recoverStingrayData:"
+- "_recoverStingrayDataSpecifier"
+- "_recoveryController"
+- "_recoveryKeySpecifier"
+- "_recoveryKeySpecifierRegen"
+- "_recoveryTestController"
+- "_rkMandate"
+- "_showStatusChangeUIFor:"
+- "_showWalrusChangeUI:"
+- "_showWebAccessChangeUI:"
+- "_stubbedPDPHealth"
+- "_uiController"
+- "_walrusSpecifiers"
+- "_walrusStateController"
+- "_webAccessSpecifiers"
+- "_webAccessStatusController"
+- "aa_primaryAppleAccount"
+- "aaf_toBase64DecodedData"
+- "accountProperties"
+- "actionWithTitle:style:handler:"
+- "addAction:"
+- "addObject:"
+- "addSpecifiersFromArray:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "appleID"
+- "approveFromAnotherDeviceWithCompletion:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithObjects:count:"
+- "authenticateWithContext:completion:"
+- "autorelease"
+- "beginEnablementFlow:"
+- "beginFMIPRecovery:"
+- "beginIDMSRecovery:"
+- "beginIDMSRecoveryFlow"
+- "beginIDMSRecoveryFlowWithSecretFailure"
+- "beginIDMSRecoveryPrimary:"
+- "beginIDMSRecoveryRK:"
+- "beginIDMSRecoveryWithFailure:"
+- "beginIDMSRecoveryWithRKSkip:"
+- "boolValue"
+- "cdpContext:performSilentRecoveryTokenRenewal:"
+- "cdpContext:promptForBeneficiaryAccessKeyWithCompletion:"
+- "cdpContext:promptForICSCWithIsNumeric:numericLength:isRandom:validator:"
+- "cdpContext:promptForLocalSecretWithCompletion:"
+- "cdpContext:verifyMasterKey:completion:"
+- "cdpRecoveryFlowContext:promptForRemoteSecretWithDevices:validator:"
+- "class"
+- "code"
+- "combinedWalrusStatus:"
+- "combinedWalrusStatusWithCompletion:"
+- "conformsToProtocol:"
+- "context"
+- "contextForPrimaryAccount"
+- "count"
+- "debugDescription"
+- "defaultManager"
+- "description"
+- "deviceToDeviceAccountUpgradeCardUI:"
+- "dictionaryWithObjects:forKeys:count:"
+- "dismissViewControllerAnimated:completion:"
+- "dsid"
+- "dummyRecoveryInfo"
+- "enableCDP:"
+- "enumerateObjectsUsingBlock:"
+- "fileExistsAtPath:"
+- "generateNewRecoveryKey:"
+- "getUserDefaultEnabled:"
+- "groupSpecifierWithName:"
+- "handleCloudDataProtectionStateWithCompletion:"
+- "hasSuffix:"
+- "hash"
+- "init"
+- "initWithActivityIndicatorStyle:"
+- "initWithAltDSID:"
+- "initWithAuthenticationResults:"
+- "initWithConnection:entitlements:clientType:"
+- "initWithContext:"
+- "initWithContext:uiProvider:delegate:"
+- "initWithContext:uiProvider:secureBackupController:circleProxy:octagonProxy:"
+- "initWithDevices:andNavigationController:"
+- "initWithExpectedSecret:"
+- "initWithIdentifier:"
+- "initWithModel:"
+- "initWithPresentingViewController:"
+- "initWithTargetStatus:statusProvider:statusUpdater:"
+- "initWithTargetStatus:statusProvider:statusUpdater:walrusStatusProvider:"
+- "initWithUIProvider:"
+- "insertContiguousSpecifiers:atIndex:"
+- "insertObject:atIndex:"
+- "integerValue"
+- "isEqual:"
+- "isEqualToString:"
+- "isICDPEnabledForDSID:checkWithServer:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "loadSpecifiersFromPlistName:target:"
+- "makeSwiftUIUpsellViewWithCDPContext:urlBag:networkObserver:viewModelDelegate:completion:"
+- "makeSwiftUIViewWithCdpContext:advancedDataProtectionViewModelDelegate:presentingViewController:"
+- "mutableCopy"
+- "name"
+- "navigationController"
+- "numberWithBool:"
+- "numberWithInt:"
+- "objectForKeyedSubscript:"
+- "pdpRepairAction"
+- "performDeviceToDeviceEncryptionStateRepairWithCompletion:"
+- "performRecovery:"
+- "performRecoveryWithContext:uiProvider:authProvider:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "popToViewController:animated:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "presentAccountRecoveryFlow"
+- "presentViewController:animated:completion:"
+- "presentWithViewController:presentationType:"
+- "presentedViewController"
+- "primaryAccountAltDSID"
+- "promptFor4DigitICSC:"
+- "promptFor4DigitRemoteSecret:"
+- "promptFor6DigitICSC:"
+- "promptFor6DigitRemoteSecret:"
+- "promptForComplexICSC:"
+- "promptForCustomAlphanumericRemoteSecret:"
+- "promptForCustomNumericRemoteSecret:"
+- "promptForLocalSecret:"
+- "promptForRandomICSC:"
+- "propertyForKey:"
+- "pushViewController:animated:"
+- "recoverAndSynchronizeWithSquirrel:"
+- "recoverWithSquirrel:"
+- "release"
+- "reload"
+- "reloadSpecifier:"
+- "reloadSpecifiers"
+- "removeSpinnerFromSpecifier:"
+- "repairPDPStateWithContext:completion:"
+- "repairWalrusStatusWithCompletion:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "secretType"
+- "self"
+- "setAccessoryView:"
+- "setAuthProvider:"
+- "setBeneficiaryIdentifier:"
+- "setBeneficiaryWrappedKeyData:"
+- "setButtonAction:"
+- "setCompletionCallback:"
+- "setContext:"
+- "setDSID:"
+- "setDelegate:"
+- "setDeviceToDeviceEncryptionUpgradeType:"
+- "setDeviceToDeviceEncryptionUpgradeUIStyle:"
+- "setDidUseSMSVerification:"
+- "setFeatureName:"
+- "setFindMyiPhoneUUID:"
+- "setForceInlinePresentation:"
+- "setGuestMode:"
+- "setHasNumericSecret:"
+- "setHasPeersForRemoteApproval:"
+- "setIdmsMasterKeyRecovery:"
+- "setIdmsRecovery:"
+- "setIsUsernameEditable:"
+- "setIsWalrusEnabled:"
+- "setLocalizedName:"
+- "setMandatesRecoveryKey:"
+- "setModel:"
+- "setModelClass:"
+- "setModelVersion:"
+- "setNumericSecretLength:"
+- "setPdpRepairAction:"
+- "setPlatform:"
+- "setPresentingViewController:"
+- "setProperty:forKey:"
+- "setRemainingAttempts:"
+- "setRpdProbationDuration:"
+- "setShouldForceInteractiveAuth:"
+- "setStubbedPDPHealth:"
+- "setType:"
+- "setUiProvider:"
+- "setUp"
+- "setUserActionCallback:"
+- "setUserDefaultEnabled:specifier:"
+- "setUsername:"
+- "setWalrusStatus:"
+- "setWebAccessStatus:"
+- "set_forceReset:"
+- "set_supportsCustodianRecovery:"
+- "sharedBag"
+- "sharedInstance"
+- "sharedNetworkObserver"
+- "shouldAllowCDPEnrollment"
+- "showADPLandingPage:"
+- "showDisableWalrusUI:"
+- "showDisableWebAccessUI:"
+- "showEnableWalrusUI:"
+- "showEnableWebAccessUI:"
+- "simulateADPUpsell:"
+- "specifiers"
+- "startAnimating"
+- "startBeneficiaryFlow:"
+- "startSpinnerForSpecifier:"
+- "stringValue"
+- "stringWithFormat:"
+- "stubbedPDPHealth"
+- "superclass"
+- "supportedEscapeOfferMask"
+- "supportedEscapeOfferMaskCompletion:"
+- "uiProvider"
+- "updateWalrusStatus:authenticatedContext:completion:"
+- "updateWalrusStatus:completion:"
+- "updateWebAccessStatus:completion:"
+- "upsellViewModelDidRequestBeginEnablementFlowWithContext:"
+- "upsellViewModelDidRequestCFUDismissalWithContext:"
+- "upsellViewModelDidRequestFlowCancellationWithContext:"
+- "username"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"<CDPUIAdvancedDataProtectionStateManager>\"16"
+- "v24@0:8@\"CDPContext\"16"
+- "v24@0:8@\"NSURL\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"CDPCombinedWalrusStatus\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?Q@\"NSError\">16"
+- "v24@0:8Q16"
+- "v32@0:8@\"CDPContext\"16@?<v@?@\"CDPContext\"@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?@\"NSError\">24"
+- "v40@0:8@\"CDPContext\"16@\"NSString\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8Q16@\"CDPContext\"24@?<v@?@\"NSError\">32"
+- "v40@0:8Q16@24@?32"
+- "v48@0:8@16@24Q32@?40"
+- "validatePDPIdentitiesWithContext:completion:"
+- "validateRecoveryKey:withCompletion:"
+- "validateSecret:devices:type:withCompletion:"
+- "validatedSecret"
+- "viewDidLoad"
+- "walrusEnabled"
+- "walrusStatus"
+- "walrusStatus:"
+- "walrusStatusWithCompletion:"
+- "webAccessEnabled"
+- "webAccessStatus"
+- "webAccessStatus:"
+- "webAccessStatusWithCompletion:"
+- "zone"
+
+```

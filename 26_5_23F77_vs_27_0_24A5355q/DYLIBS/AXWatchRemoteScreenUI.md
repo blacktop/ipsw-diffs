@@ -1,0 +1,649 @@
+## AXWatchRemoteScreenUI
+
+> `/System/Library/PrivateFrameworks/AXWatchRemoteScreenUI.framework/AXWatchRemoteScreenUI`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0x206a8
+-  __TEXT.__auth_stubs: 0xfa0
++3229.1.6.0.0
++  __TEXT.__text: 0x20dd8
+   __TEXT.__objc_methlist: 0x8d0
+-  __TEXT.__const: 0x5f4
+-  __TEXT.__gcc_except_tab: 0x38
+-  __TEXT.__cstring: 0x10c2
++  __TEXT.__const: 0x5e8
+   __TEXT.__dlopen_cstrs: 0x144
+-  __TEXT.__oslogstring: 0x676
+   __TEXT.__swift5_typeref: 0x4d8
++  __TEXT.__cstring: 0x10bc
+   __TEXT.__swift5_capture: 0x124
+   __TEXT.__constg_swiftt: 0x984
+   __TEXT.__swift5_reflstr: 0x5fd
+   __TEXT.__swift5_fieldmd: 0x3e4
++  __TEXT.__oslogstring: 0x66d
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_proto: 0x10
+   __TEXT.__swift5_types: 0x34
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x658
+-  __TEXT.__objc_classname: 0x495
+-  __TEXT.__objc_methname: 0x24f5
+-  __TEXT.__objc_methtype: 0x84c
+-  __TEXT.__objc_stubs: 0x1a80
+-  __DATA_CONST.__got: 0x3b8
+-  __DATA_CONST.__const: 0x2a8
++  __TEXT.__gcc_except_tab: 0x38
++  __TEXT.__unwind_info: 0x638
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x2a0
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x950
++  __DATA_CONST.__objc_selrefs: 0x948
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x7e0
++  __DATA_CONST.__got: 0x3b0
+   __AUTH_CONST.__const: 0x818
+   __AUTH_CONST.__cfstring: 0x60
+   __AUTH_CONST.__objc_const: 0x1040
++  __AUTH_CONST.__auth_got: 0x898
+   __AUTH.__objc_data: 0xcf8
+   __AUTH.__data: 0x1b8
+   __DATA.__objc_ivar: 0x8
+
+   - /System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime
+   - /System/Library/PrivateFrameworks/AXWatchRemoteScreenServices.framework/AXWatchRemoteScreenServices
+   - /System/Library/PrivateFrameworks/AccessibilityPhysicalInteraction.framework/AccessibilityPhysicalInteraction
++  - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A70DD6F4-8C69-36E8-85C5-28949AFAC968
+-  Functions: 633
+-  Symbols:   869
+-  CStrings:  607
++  UUID: 1F94B873-44A4-3CFB-91D7-20C5D6186ECA
++  Functions: 625
++  Symbols:   895
++  CStrings:  149
+ 
+Symbols:
++ GCC_except_table21
++ GCC_except_table4
++ _AXUIFirstActiveScreen
++ _AXUIScreenForView
++ _AXUIScreenForViewController
++ ___swift__destructor
++ ___swift_closure_destructor
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.74
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AXWatchRemoteScreenUI
++ _block_copy_helper.70
++ _block_copy_helper.76
++ _block_copy_helper.80
++ _block_copy_helper.84
++ _block_copy_helper.92
++ _block_descriptor.72
++ _block_descriptor.78
++ _block_descriptor.82
++ _block_descriptor.86
++ _block_descriptor.94
++ _block_destroy_helper.71
++ _block_destroy_helper.77
++ _block_destroy_helper.81
++ _block_destroy_helper.85
++ _block_destroy_helper.93
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutorelease
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x9
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x22
++ _swift_retain_x26
+- +[AXDeviceRemoteScreenUIAssetObjcWrapper watchView].cold.1
+- +[AXTwiceCompanionAirplayReceiver sharedInstance].cold.1
+- -[AXTwiceCompanionAirplayReceiver didStartStreamingWithRenderer:].cold.1
+- -[AXTwiceCompanionAirplayReceiver didStopStreamingWithRenderer:].cold.1
+- GCC_except_table1
+- GCC_except_table3
+- _OBJC_CLASS_$_UIScreen
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- ___getAPRKStreamRenderingManagerClass_block_invoke.cold.1
+- ___getAXUIBannerPresenterClass_block_invoke.cold.1
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AXWatchRemoteScreenUI
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_AXWatchRemoteScreenUI
+- _block_copy_helper.71
+- _block_copy_helper.77
+- _block_copy_helper.81
+- _block_copy_helper.85
+- _block_copy_helper.93
+- _block_descriptor.73
+- _block_descriptor.79
+- _block_descriptor.83
+- _block_descriptor.87
+- _block_descriptor.95
+- _block_destroy_helper.72
+- _block_destroy_helper.78
+- _block_destroy_helper.82
+- _block_destroy_helper.86
+- _block_destroy_helper.94
+- _objc_autorelease
+- _objc_msgSend$mainScreen
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_airplayReceiver"
+- "$__lazy_storage_$_deviceSpinner"
+- "$__lazy_storage_$_deviceView"
+- "$__lazy_storage_$_distanceHIDThreshold"
+- "$__lazy_storage_$_eventProcessor"
+- "$__lazy_storage_$_inactiveTimer"
+- "$__lazy_storage_$_watchDeviceView"
+- ".cxx_destruct"
+- "@\"<AXTwiceCompanionAirplayReceiverDelegate>\""
+- "@\"<UIViewControllerAnimatedTransitioning>\"24@0:8@\"UIViewController\"16"
+- "@\"<UIViewControllerAnimatedTransitioning>\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"<UIViewControllerInteractiveTransitioning>\"24@0:8@\"<UIViewControllerAnimatedTransitioning>\"16"
+- "@\"<UIViewImplicitlyAnimating>\"24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "@\"APRKStreamRenderer\""
+- "@\"NSString\"16@0:8"
+- "@\"UIPresentationController\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
+- "@\"UIView\"16@0:8"
+- "@\"UIView\"24@0:8@\"NSString\"16"
+- "@\"UIViewController\"24@0:8@\"NSString\"16"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "APRKStreamRendererDelegate"
+- "APRKStreamRenderingManagerDelegate"
+- "AXDeviceRemoteScreenUIAssetObjcWrapper"
+- "AXTwiceCompanionAirplayReceiver"
+- "AXTwiceCompanionAirplayReceiverDelegate"
+- "AXTwiceRemoteScreenMessengerDelegateProtocolObjc"
+- "AXWatchRemoteScreenUI"
+- "AXWatchRemoteScreenUI1"
+- "AXWatchRemoteScreenUI2"
+- "AXWatchRemoteScreenUI3"
+- "B16@0:8"
+- "B16@?0@\"AXEventRepresentation\"8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B36@0:8i16@20@\"UIAccessibilityBridgeElement\"28"
+- "B36@0:8i16@20@28"
+- "HIDAttributeData"
+- "HIDTime"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"<AXTwiceCompanionAirplayReceiverDelegate>\",W,N,V_delegate"
+- "T@\"APRKStreamRenderer\",&,N,V_streamRenderer"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIView\",R,N"
+- "TB,N,R"
+- "TB,R,N"
+- "TB,R,N,GisAnimated"
+- "TB,R,N,GisInteractive"
+- "TQ,N,R"
+- "TQ,R"
+- "Tq,R,N"
+- "T{CGAffineTransform=dddddd},R,N"
+- "UIAccessibilityBridgeAXActionHandler"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+- "UIViewControllerTransitioningDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC21AXWatchRemoteScreenUI23AXTwiceWatchCrownButton"
+- "_TtC21AXWatchRemoteScreenUI25AXTwiceCompanionWatchView"
+- "_TtC21AXWatchRemoteScreenUI28AXTwiceCompanionRendererView"
+- "_TtC21AXWatchRemoteScreenUI34AXTwiceCompanionMainViewController"
+- "_TtC21AXWatchRemoteScreenUI34AXTwiceCompanionRootViewController"
+- "_TtC21AXWatchRemoteScreenUI36AXTwiceCompanionPullToDismissManager"
+- "_TtC21AXWatchRemoteScreenUI47AXTwiceCompanionPullToDismissAnimatedController"
+- "_TtC21AXWatchRemoteScreenUIP33_50DCB68C147CE929FB47A2F1859A4B5219ResourceBundleClass"
+- "_TtP21AXWatchRemoteScreenUI36AXTwiceCompanionRendererViewDelegate_"
+- "_canShowWhileLocked"
+- "_delegate"
+- "_init"
+- "_streamRenderer"
+- "accessibilityElementDidLoseFocus"
+- "accessibilityElements"
+- "accessibilityFrame"
+- "accessibilityPath"
+- "accessibilityTraits"
+- "activateConstraints:"
+- "addGestureRecognizer:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "afterDelay:processBlock:"
+- "airplayDidStartStreamingWithMirroringLayer:"
+- "airplayDidStopStreaming"
+- "animateTransition:"
+- "animateWithDuration:animations:completion:"
+- "animated"
+- "animationControllerForDismissedController:"
+- "animationControllerForPresentedController:presentingController:sourceController:"
+- "animationEnded:"
+- "appendAttributedString:"
+- "applyTransform:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "assistedInfoForAWDL"
+- "attributedStringWithAttachment:"
+- "autorelease"
+- "axActionPerformWithAction:value:bridgeElement:"
+- "axElementActivate:"
+- "begin"
+- "beginHandlingHIDEventsForReason:"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "buttonRepresentationWithType:"
+- "buttonWithType:"
+- "cancel"
+- "cancelInteractiveTransition"
+- "cardBackgroundView"
+- "cardSwipeDownWithGesture:"
+- "centerXAnchor"
+- "centerYAnchor"
+- "class"
+- "cleanup"
+- "clearColor"
+- "commit"
+- "completeTransition:"
+- "configurationWithPaletteColors:"
+- "configurationWithPointSize:weight:scale:"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToAnchor:multiplier:"
+- "constraintEqualToConstant:"
+- "constraintLessThanOrEqualToAnchor:multiplier:"
+- "containerView"
+- "containingView"
+- "contextId"
+- "convertPoint:toView:"
+- "convertRect:toLayer:"
+- "cornerRadiusRatio"
+- "crownButtonLongPressed"
+- "crownButtonPressed"
+- "crownButtonScrollDown"
+- "crownButtonScrollUp"
+- "currentState"
+- "d24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "d24@0:8@16"
+- "dealloc"
+- "debugDescription"
+- "decodeHierarchyWithContainer:error:"
+- "defaultCenter"
+- "delegate"
+- "description"
+- "deviceChromeView"
+- "didChangeStreamRendererModeTo:forRenderer:"
+- "didStartStreamingWithRenderer:"
+- "didStopStreamingWithRenderer:"
+- "didUpdateMask"
+- "didUpdateMetadata:forRenderer:"
+- "digitalCrownAXLongPressed:"
+- "digitalCrownButtonScrollDown:"
+- "digitalCrownButtonScrollUp:"
+- "digitalCrownButtonTappedWithSender:"
+- "digitalCrownDirectTouch:"
+- "digitalCrownLongPressedWithGesture:"
+- "digitalCrownSwipeDownWithGesture:"
+- "digitalCrownSwipeUpWithGesture:"
+- "disableUpdateMask"
+- "dismissButton"
+- "dismissButtonTappedWithSender:"
+- "dismissViewControllerAnimated:completion:"
+- "dismissedVC"
+- "doubleCrownButtonPressed"
+- "doubleCrownButtonTappedWithSender:"
+- "doubleDigitalCrownButtonTapped:"
+- "elementRefData"
+- "endHandlingHIDEventsForReason:"
+- "eventSerialQueue"
+- "eventType"
+- "finalFrameForViewController:"
+- "finishInteractiveTransition"
+- "fontDescriptorWithSymbolicTraits:"
+- "fontWithDescriptor:size:"
+- "frame"
+- "generationCount"
+- "gizmoErrorRetryLimit"
+- "handInfo"
+- "handleLongPressGestureWithGesture:endBlock:"
+- "handleSenderUIEvent:forRenderer:"
+- "hasStingSupport"
+- "hash"
+- "heightAnchor"
+- "hidEventReason"
+- "imageByApplyingSymbolConfiguration:"
+- "imageNamed:inBundle:"
+- "inactiveDate"
+- "inactiveTimeInterval"
+- "init"
+- "initWithActivityIndicatorStyle:"
+- "initWithAxAction:withValue:forElementRefData:"
+- "initWithCoder:"
+- "initWithContainingView:"
+- "initWithFrame:"
+- "initWithHIDTapIdentifier:HIDEventTapPriority:systemEventTapIdentifier:systemEventTapPriority:"
+- "initWithHierarchyData:"
+- "initWithImage:"
+- "initWithName:target:selector:"
+- "initWithNibName:bundle:"
+- "initWithString:"
+- "initWithTarget:action:"
+- "initWithTargetSerialQueue:"
+- "initWithWhite:alpha:"
+- "initialFrameForViewController:"
+- "initialPingMessageIdentifier"
+- "insertSublayer:atIndex:"
+- "insertSubview:belowSubview:"
+- "interactionControllerForDismissal:"
+- "interactionControllerForPresentation:"
+- "interactive"
+- "interruptibleAnimatorForTransition:"
+- "intervalHIDThreshold"
+- "invalidate"
+- "isAnimated"
+- "isCrownOrientationOnRightSide"
+- "isDisplayIntegrated"
+- "isEqual:"
+- "isGeneratedEvent"
+- "isHidden"
+- "isInteractive"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isScreenLockedWithPasscode:"
+- "lastHIDEvent"
+- "layer"
+- "layoutMargins"
+- "layoutSubviews"
+- "leadingAnchor"
+- "leftAnchor"
+- "leftConstraint"
+- "leftPadding"
+- "location"
+- "locationInView:"
+- "mainQueue"
+- "mainScreen"
+- "mainVC"
+- "mirroringLayer"
+- "overrideAccessibilityMethodsForRemoteDevice"
+- "pathLocation"
+- "paths"
+- "pauseInteractiveTransition"
+- "percentDrivenInteractive"
+- "performAXAction:withValue:onBridgeElement:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pointSize"
+- "preferredFontDescriptorWithTextStyle:"
+- "presentBannerViewWithText:secondaryText:duration:fromUserAction:"
+- "presentViewController:animated:completion:"
+- "presentationControllerForPresentedViewController:presentingViewController:sourceViewController:"
+- "presentationStyle"
+- "pullToDismissManager"
+- "pullToDismissViewController"
+- "q16@0:8"
+- "recordingSessionDidFailForRenderer:"
+- "release"
+- "remoteMessenger"
+- "removeFromSuperlayer"
+- "rendererView"
+- "requireGestureRecognizerToFail:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rightAnchor"
+- "rightContraint"
+- "rightPadding"
+- "scale"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "screenLockStatus:passcodeStatusRequired:"
+- "self"
+- "senderID"
+- "server"
+- "setAccessibilityCustomActions:"
+- "setAccessibilityElements:"
+- "setAccessibilityFrameInContainerSpace:"
+- "setAccessibilityLabel:"
+- "setAccessibilityTraits:"
+- "setAccessibilityUserInputLabels:"
+- "setActive:"
+- "setAdjustsFontSizeToFitWidth:"
+- "setAssistedModeEnabled:"
+- "setAttributedText:"
+- "setAutomaticallyCancelPendingBlockUponSchedulingNewBlock:"
+- "setAxActionHandler:"
+- "setBackgroundColor:"
+- "setBackgroundImage:forState:"
+- "setClipsToBounds:"
+- "setColor:"
+- "setConstant:"
+- "setContentMode:"
+- "setContentsGravity:"
+- "setCornerCurve:"
+- "setCornerRadius:"
+- "setDelegate:"
+- "setDirection:"
+- "setDisableActions:"
+- "setDisableUpdateMask:"
+- "setEnableMixingMediaAudio:"
+- "setEncodePathsForCompatibility:"
+- "setFont:"
+- "setFrame:"
+- "setHIDEventFilterMask:"
+- "setHIDEventHandler:"
+- "setHandPosition:"
+- "setHidden:"
+- "setIsAccessibilityElement:"
+- "setLocation:"
+- "setMasksToBounds:"
+- "setMinimumScaleFactor:"
+- "setModalPresentationStyle:"
+- "setNeedsDisplayOnBoundsChange:"
+- "setNeedsUpdateConstraints"
+- "setNumberOfLines:"
+- "setNumberOfTapsRequired:"
+- "setNumberOfTouchesRequired:"
+- "setOptimizeAudioRenderingLatency:"
+- "setPathLocation:"
+- "setScrollAmount:"
+- "setState:"
+- "setStreamRenderer:"
+- "setText:"
+- "setTextAlignment:"
+- "setTransform:"
+- "setTransitioningDelegate:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "sharedInstance"
+- "shouldAskPermissionWithRequestID:forClientWithName:withCompletionBlock:"
+- "shouldAutorotate"
+- "shouldCancelPermissionRequestWithRequestID:"
+- "shouldHideGlobalPasscode"
+- "shouldHidePasscodePromptForRenderer:"
+- "shouldShowGlobalPasscodeWithString:withClientName:"
+- "shouldShowPasscodePromptWithString:forRenderer:"
+- "sideButtonAXLongPressed:"
+- "sideButtonLongPressed"
+- "sideButtonLongPressedWithGesture:"
+- "sideButtonPressed"
+- "sideButtonTappedWithSender:"
+- "start"
+- "startAnimating"
+- "startReceiverServer"
+- "state"
+- "statusLabel"
+- "stingButtonAXKeycord:"
+- "stingButtonAXLongPressed:"
+- "stingButtonKeycord"
+- "stingButtonLongPressed"
+- "stingButtonLongPressedWithGesture:"
+- "stingButtonPressed"
+- "stingButtonTappedWithSender:"
+- "stop"
+- "stopAnimating"
+- "stopReceiverServer"
+- "streamRenderer"
+- "streamRendererMode"
+- "superclass"
+- "supportedInterfaceOrientations"
+- "swipeDownCrownGesture"
+- "swipeUpCrownGesture"
+- "symbolicTraits"
+- "systemBackgroundColor"
+- "systemGray5Color"
+- "systemGrayColor"
+- "systemImageNamed:"
+- "systemImageNamed:withConfiguration:"
+- "tapGestureForInterfaceOrientedPoint:"
+- "targetTransform"
+- "textAttachmentWithImage:"
+- "titleLabel"
+- "topAnchor"
+- "trailingAnchor"
+- "transitionDuration:"
+- "transitionWasCancelled"
+- "translationInView:"
+- "tripleCrownButtonPressed"
+- "tripleCrownButtonTappedWithSender:"
+- "tripleDigitalCrownButtonTapped:"
+- "twiceRemoteScreenReceiveMessage:"
+- "type"
+- "uniqueID"
+- "updateInteractiveTransition:"
+- "useOriginalHIDTime"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0B8B12"
+- "v20@0:8B16"
+- "v24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "v24@0:8@\"APRKStreamRenderer\"16"
+- "v24@0:8@\"CALayer\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSUUID\"16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v28@0:8B16@\"APRKStreamRenderer\"20"
+- "v28@0:8B16@20"
+- "v32@0:8@\"APRKMetadata\"16@\"APRKStreamRenderer\"24"
+- "v32@0:8@\"NSData\"16@\"APRKStreamRenderer\"24"
+- "v32@0:8@\"NSString\"16@\"APRKStreamRenderer\"24"
+- "v32@0:8@\"NSString\"16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@\"APRKStreamRenderer\"24"
+- "v32@0:8Q16@24"
+- "v32@0:8{CGPoint=dd}16"
+- "v36@0:8i16@20@\"UIAccessibilityBridgeElement\"28"
+- "v36@0:8i16@20@28"
+- "v40@0:8@\"NSUUID\"16@\"NSString\"24@?<v@?B>32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8{CGSize=dd}16@\"APRKStreamRenderer\"32"
+- "v40@0:8{CGSize=dd}16@32"
+- "videoLayerOrientationDidChangeTo:forRenderer:"
+- "videoLayerSizeDidChangeTo:forRenderer:"
+- "videoStreamIsCleared:forRenderer:"
+- "view"
+- "viewControllerForKey:"
+- "viewDidAppear:"
+- "viewDidAppearDate"
+- "viewDidDisappear:"
+- "viewDidLoad"
+- "viewForKey:"
+- "viewWillDisappear:"
+- "watchCrownButton"
+- "watchCrownButtonHorizontalConstraint"
+- "watchCrownButtonTopConstraint"
+- "watchCrownDirectTouchInterval"
+- "watchCrownDirectTouchTimer"
+- "watchRendererViewLeftConstraint"
+- "watchRendererViewRightConstraint"
+- "watchSideButton"
+- "watchSideButtonHorizontalConstraint"
+- "watchSideButtonTopConstraint"
+- "watchStingButton"
+- "watchStingButtonHorizontalConstraint"
+- "watchStingButtonTopConstraint"
+- "watchView"
+- "whiteColor"
+- "widthAnchor"
+- "willUpdateMask"
+- "zone"
+- "{CGAffineTransform=dddddd}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIViewController\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+
+```

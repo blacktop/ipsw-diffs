@@ -1,0 +1,69 @@
+## com.apple.driver.AppleSMC
+
+> `com.apple.driver.AppleSMC`
+
+```diff
+
+-752.100.20.0.0
+-  __TEXT.__cstring: 0x9366
+-  __TEXT.__const: 0x1e4
++790.0.0.0.0
++  __TEXT.__cstring: 0x9560
++  __TEXT.__const: 0x1f4
+   __TEXT.__os_log: 0xd97
+-  __TEXT_EXEC.__text: 0x2a500
++  __TEXT_EXEC.__text: 0x2b1ac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xcc
+   __DATA.__common: 0x4e0
+   __DATA.__bss: 0x110
+-  __DATA_CONST.__auth_got: 0x560
+-  __DATA_CONST.__got: 0x1d0
+-  __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0xc8
+   __DATA_CONST.__mod_term_func: 0xb0
+-  __DATA_CONST.__const: 0x8fc0
++  __DATA_CONST.__const: 0x8fe8
+   __DATA_CONST.__kalloc_type: 0x880
+   __DATA_CONST.__kalloc_var: 0xa0
+-  UUID: 31AF5A4C-7FFE-3594-9FDD-A016B16DF634
+-  Functions: 1000
++  __DATA_CONST.__auth_got: 0x560
++  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__auth_ptr: 0x8
++  UUID: F6255B25-3E17-3DEE-9FB9-A1FC9C3B568E
++  Functions: 1007
+   Symbols:   0
+-  CStrings:  1136
++  CStrings:  1151
+ 
+CStrings:
++ "%s: Error reading key count. Status: %s\n"
++ "%s: Number of keys on this target: %d\n"
++ "12111112122212121112121111111111211112222111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222"
++ "1211111212221212111212111111111121111222211111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222211122211112"
++ "22:51:43"
++ "22:51:45"
++ "AppleSMC received kPEPanicDataSend\n"
++ "AppleSMC recording ECC panic address 0x%llx\n"
++ "AppleSMC sECC WriteKey failed (%s)\n"
++ "ERROR: Key table cache not properly initialized (%s).\n\n"
++ "Failed to get SMC key LGWT (%s)\n"
++ "Failed to receive panic write done before timeout\n"
++ "Failed to write SMC key LGSD (%s)\n"
++ "FullWake PwrState Event\n"
++ "Invalid LGWT value %llu\n"
++ "LowPowerWake PwrState Event\n"
++ "May 27 2026"
++ "SLP_MEDIA"
++ "_smcInitKeyTableCache"
++ "bmc_remote_mgmt"
++ "performCommandV3"
+- "1211111212221212111212111111111121111222111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222"
+- "1211111212221212111212111111111121111222111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222111222"
+- "20:30:56"
+- "20:30:59"
+- "Apr 23 2026"
+- "performCommandV2"
+
+```

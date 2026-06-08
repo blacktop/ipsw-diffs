@@ -1,0 +1,1549 @@
+## CloudSubscriptionFeatures
+
+> `/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/CloudSubscriptionFeatures`
+
+```diff
+
+-301.23.5.8.0
+-  __TEXT.__text: 0x102a9c
+-  __TEXT.__auth_stubs: 0x1f70
+-  __TEXT.__objc_methlist: 0xed4
+-  __TEXT.__const: 0xa0e8
+-  __TEXT.__cstring: 0x43a7
+-  __TEXT.__oslogstring: 0x760c
+-  __TEXT.__gcc_except_tab: 0x70
++301.24.0.20.1
++  __TEXT.__text: 0x112f38
++  __TEXT.__objc_methlist: 0xe6c
++  __TEXT.__const: 0xb884
++  __TEXT.__cstring: 0x4521
++  __TEXT.__oslogstring: 0x72dd
++  __TEXT.__gcc_except_tab: 0x60
+   __TEXT.__dlopen_cstrs: 0xc4
+-  __TEXT.__swift5_typeref: 0x25bb
+-  __TEXT.__swift5_fieldmd: 0x26f4
+-  __TEXT.__constg_swiftt: 0x27f0
+-  __TEXT.__swift5_reflstr: 0x205d
++  __TEXT.__constg_swiftt: 0x2c2c
++  __TEXT.__swift5_typeref: 0x2ad8
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_assocty: 0x3d8
+-  __TEXT.__swift5_capture: 0x1574
+-  __TEXT.__swift5_protos: 0x94
+-  __TEXT.__swift5_proto: 0x768
+-  __TEXT.__swift5_types: 0x2f0
+-  __TEXT.__swift_as_entry: 0x388
+-  __TEXT.__swift_as_ret: 0x400
++  __TEXT.__swift5_reflstr: 0x25a1
++  __TEXT.__swift5_fieldmd: 0x2ec4
++  __TEXT.__swift5_assocty: 0x4a0
++  __TEXT.__swift5_proto: 0x880
++  __TEXT.__swift5_types: 0x368
++  __TEXT.__swift5_capture: 0x169c
++  __TEXT.__swift5_protos: 0x9c
++  __TEXT.__swift_as_entry: 0x38c
++  __TEXT.__swift_as_ret: 0x3a8
++  __TEXT.__swift_as_cont: 0x860
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x3e40
+-  __TEXT.__eh_frame: 0xa5a0
+-  __TEXT.__objc_classname: 0x82e
+-  __TEXT.__objc_methname: 0x2849
+-  __TEXT.__objc_methtype: 0xab9
+-  __TEXT.__objc_stubs: 0x1d60
+-  __DATA_CONST.__got: 0x560
+-  __DATA_CONST.__const: 0x448
+-  __DATA_CONST.__objc_classlist: 0x150
+-  __DATA_CONST.__objc_protolist: 0x70
++  __TEXT.__unwind_info: 0x41e8
++  __TEXT.__eh_frame: 0xad10
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x438
++  __DATA_CONST.__objc_classlist: 0x148
++  __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x938
+-  __DATA_CONST.__objc_protorefs: 0x40
++  __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0xfc8
+-  __AUTH_CONST.__const: 0x8418
++  __DATA_CONST.__got: 0x560
++  __AUTH_CONST.__const: 0x92e8
+   __AUTH_CONST.__cfstring: 0x480
+-  __AUTH_CONST.__objc_const: 0x3620
+-  __AUTH.__objc_data: 0x5a0
+-  __AUTH.__data: 0x4e8
+-  __DATA.__objc_ivar: 0x34
+-  __DATA.__data: 0x1410
+-  __DATA.__bss: 0xa9c0
++  __AUTH_CONST.__objc_const: 0x3548
++  __AUTH_CONST.__auth_got: 0x10c8
++  __AUTH.__objc_data: 0x488
++  __AUTH.__data: 0x810
++  __DATA.__objc_ivar: 0x38
++  __DATA.__data: 0x1838
++  __DATA.__bss: 0xcc40
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0xe68
+-  __DATA_DIRTY.__data: 0x1ed0
+-  __DATA_DIRTY.__bss: 0x28e0
+-  __DATA_DIRTY.__common: 0x50
++  __DATA_DIRTY.__data: 0x1f78
++  __DATA_DIRTY.__bss: 0x2860
++  __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
++  - /System/Library/PrivateFrameworks/CoreTime.framework/CoreTime
+   - /System/Library/PrivateFrameworks/DeviceIdentity.framework/DeviceIdentity
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D368ECB5-C63E-38C0-9453-ED211BB23667
+-  Functions: 4580
+-  Symbols:   2567
+-  CStrings:  1531
++  UUID: 1700C8F1-BB44-3A40-8927-E3EAB4DCB935
++  Functions: 4890
++  Symbols:   3139
++  CStrings:  984
+ 
+Symbols:
++ -[CloudFeatureObject initWithFeatureID:status:canUse:intValue:limitUnits:accessToken:]
++ -[CloudFeatureObject initWithFeatureID:status:canUse:limit:limitUnits:accessToken:]
++ -[CloudFeatureObject limitUnits]
++ _OBJC_IVAR_$_CloudFeatureObject._limitUnits
++ _TMGetReferenceTime
++ _TMIsAutomaticTimeEnabled
++ __OBJC_$_INSTANCE_METHODS__TtC25CloudSubscriptionFeatures21FeatureRequestHandler(CloudSubscriptionFeatures)
++ __OBJC_CLASS_PROTOCOLS_$__TtC25CloudSubscriptionFeatures21FeatureRequestHandler(CloudSubscriptionFeatures)
++ __PROTOCOLS__TtC25CloudSubscriptionFeatures7GMOptIn.13
++ __PROTOCOL_INSTANCE_METHODS__TtP25CloudSubscriptionFeatures31DeviceReadinessDaemonConnection_
++ __PROTOCOL_METHOD_TYPES__TtP25CloudSubscriptionFeatures31DeviceReadinessDaemonConnection_
++ __PROTOCOL__TtP25CloudSubscriptionFeatures31DeviceReadinessDaemonConnection_
++ ___block_literal_global.30
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.100Tm
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.169Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.23Tm
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.265
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.297
++ ___swift_closure_destructor.299
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.304
++ ___swift_closure_destructor.306
++ ___swift_closure_destructor.314
++ ___swift_closure_destructor.318
++ ___swift_closure_destructor.319
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.322
++ ___swift_closure_destructor.330
++ ___swift_closure_destructor.334
++ ___swift_closure_destructor.338
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.343
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.37Tm
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.45Tm
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.49Tm
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.73Tm
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.12
++ ___swift_exist.box.addr_destructor.160
++ ___swift_exist.box.addr_destructor.2
++ ___swift_exist.box.addr_destructor.254
++ ___swift_exist.box.addr_destructor.265
++ ___swift_exist.box.addr_destructor.272
++ ___swift_exist.box.addr_destructor.311
++ ___swift_exist.box.addr_destructor.327
++ ___swift_exist.box.addr_destructor.4
++ ___swift_exist.box.addr_destructor.51
++ ___swift_exist.box.addr_destructor.7
++ ___swift_exist.box.addr_destructor.78
++ ___swift_exist.box.addr_destructor.85
++ ___swift_exist.box.addr_destructor.9
++ ___swift_exist.box.addr_destructor.9Tm
++ ___swift_memcpy120_8
++ ___swift_memcpy48_8
++ ___swift_memcpy73_8
++ ___swift_memcpy80_8
++ ___unnamed_2
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_CloudSubscriptionFeatures
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 25CloudSubscriptionFeatures03AllC12RequestCacheVAA07FeatureeF0AA6ResultAaDP_s23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures10TimeSourceOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures10TimeSourceOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 25CloudSubscriptionFeatures13FailureReasonOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures13FailureReasonOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V10CodingKeysOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V10CodingKeysOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V10CodingKeysOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V10CodingKeysOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures15DeviceReadinessV5StateOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures16ValidationResultOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures16ValidationResultOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOSHAASQ
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.114
++ _block_copy_helper.12
++ _block_copy_helper.123
++ _block_copy_helper.135
++ _block_copy_helper.144
++ _block_copy_helper.15
++ _block_copy_helper.162
++ _block_copy_helper.21
++ _block_copy_helper.226
++ _block_copy_helper.295
++ _block_copy_helper.30
++ _block_copy_helper.309
++ _block_copy_helper.333
++ _block_copy_helper.37
++ _block_copy_helper.46
++ _block_copy_helper.52
++ _block_copy_helper.58
++ _block_copy_helper.6
++ _block_copy_helper.65
++ _block_copy_helper.74
++ _block_copy_helper.85
++ _block_copy_helper.9
++ _block_copy_helper.94
++ _block_descriptor.11
++ _block_descriptor.116
++ _block_descriptor.125
++ _block_descriptor.137
++ _block_descriptor.14
++ _block_descriptor.146
++ _block_descriptor.164
++ _block_descriptor.17
++ _block_descriptor.228
++ _block_descriptor.23
++ _block_descriptor.297
++ _block_descriptor.311
++ _block_descriptor.32
++ _block_descriptor.335
++ _block_descriptor.39
++ _block_descriptor.48
++ _block_descriptor.54
++ _block_descriptor.60
++ _block_descriptor.67
++ _block_descriptor.76
++ _block_descriptor.8
++ _block_descriptor.87
++ _block_descriptor.96
++ _block_destroy_helper.10
++ _block_destroy_helper.115
++ _block_destroy_helper.124
++ _block_destroy_helper.13
++ _block_destroy_helper.136
++ _block_destroy_helper.145
++ _block_destroy_helper.16
++ _block_destroy_helper.163
++ _block_destroy_helper.22
++ _block_destroy_helper.227
++ _block_destroy_helper.296
++ _block_destroy_helper.31
++ _block_destroy_helper.310
++ _block_destroy_helper.334
++ _block_destroy_helper.38
++ _block_destroy_helper.47
++ _block_destroy_helper.53
++ _block_destroy_helper.59
++ _block_destroy_helper.66
++ _block_destroy_helper.7
++ _block_destroy_helper.75
++ _block_destroy_helper.86
++ _block_destroy_helper.95
++ _get_type_metadata 15Synchronization5MutexVyytG noncopyable.29
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$ak_addAttestationDataHeaders
++ _objc_msgSend$initWithFeatureID:status:canUse:intValue:limitUnits:accessToken:
++ _objc_msgSend$initWithFeatureID:status:canUse:limit:limitUnits:accessToken:
++ _objc_msgSend$setDeviceReadinessWithFeatureID:identifiers:completion:
++ _objc_release_x2
++ _objc_retain_x10
++ _objc_retain_x3
++ _objc_retain_x7
++ _swift_getFunctionTypeMetadata0
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_future_wait_throwing
++ _symbolic $s25CloudSubscriptionFeatures12TimeProviderP
++ _symbolic $s25CloudSubscriptionFeatures16CoreTimeProviderP
++ _symbolic $s25CloudSubscriptionFeatures19FeatureRequestCacheP
++ _symbolic $s25CloudSubscriptionFeatures21FeatureRequestServiceP
++ _symbolic $s25CloudSubscriptionFeatures31DeviceReadinessDaemonConnectionP
++ _symbolic 10Identifier_____Qy0_ 25CloudSubscriptionFeatures21FeatureRequestServiceP
++ _symbolic 10Identifier_____Qy_ 25CloudSubscriptionFeatures19FeatureRequestCacheP
++ _symbolic 11ReturnValue_____Qy0_ 25CloudSubscriptionFeatures21FeatureRequestServiceP
++ _symbolic 6Result_____Qy_ 25CloudSubscriptionFeatures19FeatureRequestCacheP
++ _symbolic 6Result_____Qz 25CloudSubscriptionFeatures19FeatureRequestCacheP
++ _symbolic 7Context_____Qy0_SSSgc 25CloudSubscriptionFeatures21FeatureRequestServiceP
++ _symbolic SDySSSbG
++ _symbolic SS9featureID_SaySSG11identifierst
++ _symbolic SSSg_____Ieggr_ 25CloudSubscriptionFeatures03AllC14RequestServiceV0E7ContextV
++ _symbolic SS_So8NSObjectCSgt
++ _symbolic Say_____G 25CloudSubscriptionFeatures10TimeSourceO
++ _symbolic Say_____G 25CloudSubscriptionFeatures13FailureReasonO
++ _symbolic Say_____G 25CloudSubscriptionFeatures16ValidationResultO
++ _symbolic Say_____G 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV
++ _symbolic Say_____G 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV
++ _symbolic Say_____G 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV
++ _symbolic Say_____G 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV
++ _symbolic So7NSErrorCSgIegg_
++ _symbolic _____ 25CloudSubscriptionFeatures03AllC12RequestCacheV
++ _symbolic _____ 25CloudSubscriptionFeatures03AllC14RequestServiceV
++ _symbolic _____ 25CloudSubscriptionFeatures03AllC14RequestServiceV0E7ContextV
++ _symbolic _____ 25CloudSubscriptionFeatures10TimeSourceO
++ _symbolic _____ 25CloudSubscriptionFeatures13FailureReasonO
++ _symbolic _____ 25CloudSubscriptionFeatures13NotificationsV
++ _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V
++ _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V10CodingKeysO
++ _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V
++ _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V10CodingKeysO
++ _symbolic _____ 25CloudSubscriptionFeatures15DeviceReadinessV
++ _symbolic _____ 25CloudSubscriptionFeatures15DeviceReadinessV5StateO
++ _symbolic _____ 25CloudSubscriptionFeatures16ValidationResultO
++ _symbolic _____ 25CloudSubscriptionFeatures18AKBAARequestSignerV
++ _symbolic _____ 25CloudSubscriptionFeatures18SystemTimeProviderV
++ _symbolic _____ 25CloudSubscriptionFeatures18TimeProviderResultV
++ _symbolic _____ 25CloudSubscriptionFeatures20CacheValidationEventV
++ _symbolic _____ 25CloudSubscriptionFeatures20DeviceReadinessCacheV
++ _symbolic _____ 25CloudSubscriptionFeatures22GatewayRequestProviderV
++ _symbolic _____ 25CloudSubscriptionFeatures22LegacyBAARequestSignerV
++ _symbolic _____ 25CloudSubscriptionFeatures22SystemCoreTimeProviderV
++ _symbolic _____ 25CloudSubscriptionFeatures25CompositeBAARequestSignerV
++ _symbolic _____ 25CloudSubscriptionFeatures25FeatureRequestCoordinatorV
++ _symbolic _____ 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV
++ _symbolic _____ 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____ 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV
++ _symbolic _____ 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____ 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV
++ _symbolic _____ 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____ 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV
++ _symbolic _____ 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____ 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV
++ _symbolic _____ 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____ 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV
++ _symbolic _____ 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____ 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV
++ _symbolic _____ 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____ 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV
++ _symbolic _____ 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____ 25CloudSubscriptionFeatures8CacheBoxV20TimeValidationResultV
++ _symbolic _____Sg 25CloudSubscriptionFeatures16WaitlistResponseV
++ _symbolic _____Sg 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV
++ _symbolic _____Sg 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV
++ _symbolic _____Sg 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV
++ _symbolic _____Sg 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV
++ _symbolic _____Sg s5Int32V
++ _symbolic _____SgSo7NSErrorCSgIegng_ 25CloudSubscriptionFeatures0A7FeatureC
++ _symbolic _____Sg_ABt 10Foundation10URLRequestV
++ _symbolic ______p 25CloudSubscriptionFeatures12TimeProviderP
++ _symbolic ______p 25CloudSubscriptionFeatures14RequestSigningP
++ _symbolic ______p 25CloudSubscriptionFeatures16CoreTimeProviderP
++ _symbolic ______pSg 25CloudSubscriptionFeatures17InterfaceProviderP
++ _symbolic _____ySSSo8NSObjectCSgG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCSgtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS__________G 25CloudSubscriptionFeatures25FeatureRequestCoordinatorV AA03AllcE5CacheV AA0gcE7ServiceV
++ _symbolic _____y_____G s11_SetStorageC 25CloudSubscriptionFeatures15DeviceReadinessV5StateO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessH0L_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketH0L_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessH0L_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketH0L_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV10CodingKeys33_B31525FBEB48331CF7537D6803C8D13BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV10CodingKeys33_6BA8D20D6541760619135C59E9A73830LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV10CodingKeys33_7F80285C5D35CABF0B283E21A6915016LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV10CodingKeys33_0F1F0DD3702C56A251AA7E265B38E70DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV5EventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV5EventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV5EventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV5EventV
++ _symbolic _____y______G 25CloudSubscriptionFeatures8CacheBoxV20TimeValidationResultV AA0A7FeatureC
++ _symbolic _____y______G 25CloudSubscriptionFeatures8CacheBoxV20TimeValidationResultV AA6TicketC
++ _symbolic _____yc 25CloudSubscriptionFeatures20DeviceReadinessCacheV
++ _symbolic q0_
++ _symbolic q_
++ _symbolic ySS_SaySSGtYaKc
++ _symbolic ySo19NSMutableURLRequestCc
++ _type_layout_string 25CloudSubscriptionFeatures03AllC12RequestCacheV
++ _type_layout_string 25CloudSubscriptionFeatures03AllC14RequestServiceV
++ _type_layout_string 25CloudSubscriptionFeatures03AllC14RequestServiceV0E7ContextV
++ _type_layout_string 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg015DeviceReadinessE0L_V
++ _type_layout_string 25CloudSubscriptionFeatures14GatewayRequestO8httpBody10Foundation4DataVSgvg06TicketE0L_V
++ _type_layout_string 25CloudSubscriptionFeatures15DeviceReadinessV
++ _type_layout_string 25CloudSubscriptionFeatures18AKBAARequestSignerV
++ _type_layout_string 25CloudSubscriptionFeatures18SystemTimeProviderV
++ _type_layout_string 25CloudSubscriptionFeatures20CacheValidationEventV
++ _type_layout_string 25CloudSubscriptionFeatures20DeviceReadinessCacheV
++ _type_layout_string 25CloudSubscriptionFeatures21BAASigningEnvironmentV
++ _type_layout_string 25CloudSubscriptionFeatures22GatewayRequestProviderV
++ _type_layout_string 25CloudSubscriptionFeatures25CompositeBAARequestSignerV
++ _type_layout_string 25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticV
++ _type_layout_string 25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticV
++ _type_layout_string 25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticV
++ _type_layout_string 25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticV
+- -[CloudFeatureObject initWithFeatureID:status:canUse:intValue:accessToken:]
+- -[CloudFeatureObject initWithFeatureID:status:canUse:limit:accessToken:]
+- _FLGroupIdentifierDevice
+- _OBJC_CLASS_$__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- _OBJC_METACLASS_$__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __CLASS_METHODS__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __CLASS_PROPERTIES__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __DATA__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __INSTANCE_METHODS__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __INSTANCE_METHODS__TtC25CloudSubscriptionFeatures21FeatureRequestHandler
+- __IVARS__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __METACLASS_DATA__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __PROPERTIES__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __PROTOCOLS__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata
+- __PROTOCOLS__TtC25CloudSubscriptionFeatures20CloudFeatureMetadata.2
+- __PROTOCOLS__TtC25CloudSubscriptionFeatures21FeatureRequestHandler
+- __PROTOCOLS__TtC25CloudSubscriptionFeatures21FeatureRequestHandler.2
+- __PROTOCOLS__TtC25CloudSubscriptionFeatures7GMOptIn.19
+- ___block_literal_global.31
+- ___unnamed_9
+- _associated conformance 25CloudSubscriptionFeatures0A15FeatureMetadataC10CodingKeysOSHAASQ
+- _associated conformance 25CloudSubscriptionFeatures0A15FeatureMetadataC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 25CloudSubscriptionFeatures0A15FeatureMetadataC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V10CodingKeysOSHAASQ
+- _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V10CodingKeysOs0S3KeyAAs23CustomStringConvertible
+- _associated conformance 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V10CodingKeysOs0S3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 25CloudSubscriptionFeatures16FeatureValidatorV0D15ValidationErrorOSHAASQ
+- _associated conformance 25CloudSubscriptionFeatures8FollowUpC28WaitlistCFUEligibilityResultOSHAASQ
+- _block_copy_helper.103
+- _block_copy_helper.11
+- _block_copy_helper.113
+- _block_copy_helper.125
+- _block_copy_helper.134
+- _block_copy_helper.145
+- _block_copy_helper.156
+- _block_copy_helper.165
+- _block_copy_helper.17
+- _block_copy_helper.176
+- _block_copy_helper.179
+- _block_copy_helper.18
+- _block_copy_helper.182
+- _block_copy_helper.186
+- _block_copy_helper.189
+- _block_copy_helper.196
+- _block_copy_helper.199
+- _block_copy_helper.202
+- _block_copy_helper.209
+- _block_copy_helper.237
+- _block_copy_helper.240
+- _block_copy_helper.243
+- _block_copy_helper.246
+- _block_copy_helper.249
+- _block_copy_helper.26
+- _block_copy_helper.272
+- _block_copy_helper.44
+- _block_copy_helper.47
+- _block_copy_helper.5
+- _block_copy_helper.50
+- _block_copy_helper.56
+- _block_copy_helper.62
+- _block_copy_helper.71
+- _block_copy_helper.77
+- _block_copy_helper.86
+- _block_copy_helper.92
+- _block_copy_helper.96
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.105
+- _block_descriptor.115
+- _block_descriptor.127
+- _block_descriptor.13
+- _block_descriptor.136
+- _block_descriptor.147
+- _block_descriptor.158
+- _block_descriptor.167
+- _block_descriptor.178
+- _block_descriptor.181
+- _block_descriptor.184
+- _block_descriptor.188
+- _block_descriptor.19
+- _block_descriptor.191
+- _block_descriptor.198
+- _block_descriptor.20
+- _block_descriptor.201
+- _block_descriptor.204
+- _block_descriptor.211
+- _block_descriptor.239
+- _block_descriptor.242
+- _block_descriptor.245
+- _block_descriptor.248
+- _block_descriptor.251
+- _block_descriptor.274
+- _block_descriptor.28
+- _block_descriptor.46
+- _block_descriptor.49
+- _block_descriptor.52
+- _block_descriptor.58
+- _block_descriptor.64
+- _block_descriptor.7
+- _block_descriptor.73
+- _block_descriptor.79
+- _block_descriptor.88
+- _block_descriptor.94
+- _block_descriptor.98
+- _block_destroy_helper.104
+- _block_destroy_helper.114
+- _block_destroy_helper.12
+- _block_destroy_helper.126
+- _block_destroy_helper.135
+- _block_destroy_helper.146
+- _block_destroy_helper.157
+- _block_destroy_helper.166
+- _block_destroy_helper.177
+- _block_destroy_helper.18
+- _block_destroy_helper.180
+- _block_destroy_helper.183
+- _block_destroy_helper.187
+- _block_destroy_helper.19
+- _block_destroy_helper.190
+- _block_destroy_helper.197
+- _block_destroy_helper.200
+- _block_destroy_helper.203
+- _block_destroy_helper.210
+- _block_destroy_helper.238
+- _block_destroy_helper.241
+- _block_destroy_helper.244
+- _block_destroy_helper.247
+- _block_destroy_helper.250
+- _block_destroy_helper.27
+- _block_destroy_helper.273
+- _block_destroy_helper.45
+- _block_destroy_helper.48
+- _block_destroy_helper.51
+- _block_destroy_helper.57
+- _block_destroy_helper.6
+- _block_destroy_helper.63
+- _block_destroy_helper.72
+- _block_destroy_helper.78
+- _block_destroy_helper.87
+- _block_destroy_helper.93
+- _block_destroy_helper.97
+- _block_destroy_helper.99
+- _get_type_metadata 15Synchronization5MutexVyytG noncopyable.41
+- _objc_msgSend$clearCFUWithCompletionHandler:
+- _objc_msgSend$initWithFeatureID:status:canUse:intValue:accessToken:
+- _objc_msgSend$initWithFeatureID:status:canUse:limit:accessToken:
+- _objc_msgSend$operatingSystemVersion
+- _objc_msgSend$performInternalValidationForFeature:completion:
+- _objc_msgSend$verifyDeviceIsEligibleForWaitlistCFUWithCompletion:
+- _objectdestroy.129Tm
+- _objectdestroy.14Tm
+- _objectdestroy.204Tm
+- _objectdestroy.22Tm
+- _objectdestroy.26Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.31Tm
+- _objectdestroy.37Tm
+- _objectdestroy.41Tm
+- _objectdestroy.45Tm
+- _objectdestroy.54Tm
+- _objectdestroy.55Tm
+- _objectdestroy.58Tm
+- _objectdestroy.60Tm
+- _objectdestroy.62Tm
+- _objectdestroy.7Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+- _symbolic $s25CloudSubscriptionFeatures11URLProviderP
+- _symbolic $s25CloudSubscriptionFeatures15FeatureCacheKeyP
+- _symbolic ScCy___________pG 25CloudSubscriptionFeatures8FollowUpC28WaitlistCFUEligibilityResultO s5ErrorP
+- _symbolic SiSo7NSErrorCSgIegyg_
+- _symbolic SiSo7NSErrorCSgIeyByy_
+- _symbolic So15NSXPCConnectionCSg
+- _symbolic _____ 25CloudSubscriptionFeatures0A15FeatureMetadataC
+- _symbolic _____ 25CloudSubscriptionFeatures0A15FeatureMetadataC10CodingKeysO
+- _symbolic _____ 25CloudSubscriptionFeatures12HomeCacheKeyV
+- _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V
+- _symbolic _____ 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V10CodingKeysO
+- _symbolic _____ 25CloudSubscriptionFeatures16BAARequestSignerV
+- _symbolic _____ 25CloudSubscriptionFeatures16FeatureValidatorV
+- _symbolic _____ 25CloudSubscriptionFeatures16FeatureValidatorV0D15ValidationErrorO
+- _symbolic _____ 25CloudSubscriptionFeatures16StandardCacheKeyV
+- _symbolic _____ 25CloudSubscriptionFeatures21ExpiredJWTServedEventV
+- _symbolic _____ 25CloudSubscriptionFeatures8FollowUpC28WaitlistCFUEligibilityResultO
+- _symbolic _____Sg 25CloudSubscriptionFeatures0A15FeatureMetadataC
+- _symbolic _____Sg 25CloudSubscriptionFeatures0A7FeatureC
+- _symbolic _____ySSSgG s23_ContiguousArrayStorageC
+- _symbolic _____ySiG s23_ContiguousArrayStorageC
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures0D15FeatureMetadataC10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO03urlH04with0I8Provider0iH7Builder6signer10Foundation10URLRequestVAC16AccountStoreType_p_AC11URLProvider_pAC0ghL0_pAC0H7Signing_ptYaKF06TicketH0L_V10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures0D15FeatureMetadataC10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 25CloudSubscriptionFeatures14GatewayRequestO03urlH04with0I8Provider0iH7Builder6signer10Foundation10URLRequestVAC16AccountStoreType_p_AC11URLProvider_pAC0ghL0_pAC0H7Signing_ptYaKF06TicketH0L_V10CodingKeysO
+- _symbolic ySb_SbtYac
+- _type_layout_string 25CloudSubscriptionFeatures12HomeCacheKeyV
+- _type_layout_string 25CloudSubscriptionFeatures14GatewayRequestO03urlE04with0F8Provider0fE7Builder6signer10Foundation10URLRequestVAA16AccountStoreType_p_AA11URLProvider_pAA0deI0_pAA0E7Signing_ptYaKF06TicketE0L_V
+- _type_layout_string 25CloudSubscriptionFeatures16StandardCacheKeyV
+CStrings:
++ "%s unable to fetch client time for cache validation"
++ "%s unable to fetch server time for cache validation"
++ "%{public}s Completed request."
++ "%{public}s Sending request to daemon."
++ "%{public}s allowAnySession passed, returning true."
++ "%{public}s bootSessionUUID is different, returning false."
++ "%{public}s called with %{bool}d, forwarding to GMS."
++ "%{public}s called, forwarding to GMS."
++ "%{public}s does not have value set, returning false."
++ "%{public}s has already sent PQA index readiness, returning success."
++ "%{public}s hasSentPQAIndexReadiness is true."
++ "%{public}s no bootSessionUUID set, returning false."
++ "%{public}s resetting index"
++ "%{public}s setting index"
++ ", returning request with AuthKit headers only"
++ ", returning request with both header sets"
++ "/v1/devices/{udId}/features/{featureKey}/readiness"
++ "Attempted to legacy BAA sign request with no path"
++ "Attempted to post deprecated CFU."
++ "Attempting to set device readiness for featureID %{public}s and identifiers: %{public}s"
++ "AuthKit BAA signer did not add x-apple-baa-sig header"
++ "AuthKit BAA signer failed: %s"
++ "AuthKit BAA signer succeeded%s"
++ "AuthKit did not add any x-apple-baa* headers"
++ "Automatic time enabled: Using system time: %s"
++ "Both AuthKit and legacy BAA signers failed"
++ "Both legacy and AuthKit BAA signers failed"
++ "Campo"
++ "Check if AuthKit is available on this platform"
++ "Check logs for individual signer errors"
++ "Checking feature eligibility for: %s, bundle: %s"
++ "Device already has sent PQA index readiness, returning success."
++ "Environment doesn't support legacy BAA signing"
++ "Failed to create device readiness URL from base: %s"
++ "Failed to create mutable copy of URLRequest for BAA signing"
++ "Feature is already available to the user, returning early as success."
++ "Feature unsupported on device."
++ "Fetching legacy BAA signing credentials"
++ "ID: %@, status: %ld, canUse: %d, limit: %@, limitUnits: %@, accessToken: %@"
++ "IntelligenceFlow"
++ "Legacy BAA signer failed: %s"
++ "Legacy BAA signer succeeded"
++ "Linwood"
++ "Neither legacy DeviceIdentity nor AuthKit signers succeeded"
++ "No attestation headers were added by AuthKit"
++ "Only legacy signer succeeded"
++ "Received eligibility error from daemon: %s"
++ "Reference time unavailable, falling back to system time"
++ "Reference time uncertainty too high: %{public}fs, falling back to system time"
++ "Request is blocked by defaults on %{public}s. Throwing an error."
++ "Request signing failed: %s"
++ "RetryAfter.FeatureEligibility"
++ "RetryAfter.SubscriptionStatus"
++ "Sending eligibility request to %s"
++ "Starting composite BAA signing (tries both AuthKit and legacy)"
++ "Successfully retrieved feature eligibility. Feature: %s, isEligible: %{bool}d"
++ "Successfully set device readiness for featureID %{public}s"
++ "This platform is not supported for legacy BAA signing"
++ "Unable to encode device readiness body: %@"
++ "Unable to encode ticket request object. Request will still be made: %@"
++ "Unable to set device readiness with error: %@"
++ "Using account bag baseURLString for DR: %{public}s"
++ "Using hardcoded baseURL for DR: %{public}s"
++ "Using identifier: %s to fetch server time"
++ "Using identifier: %{public}s to fetch client time"
++ "Using reference time with uncertainty: %{public}fs date:%s"
++ "[%{public}s] Falling back to cached feature: %{public}s"
++ "[%{public}s] Feature %{public}s fetched successfully: %s"
++ "[%{public}s] FeatureRequest failed because we're missing auth header, falling back to cached feature %{public}s"
++ "[%{public}s] Fetching feature %{public}s ignoreCache %{bool,public}d allowStale %{bool,public}d"
++ "[%{public}s] Returning cached feature and continuing to make network request: %{public}s"
++ "[%{public}s] Returning cached feature: %{public}s"
++ "[%{public}s] Starting network fetch for all features"
++ "ai.enhanced-siri"
++ "com.apple.CloudSubscriptionFeatures.cacheValidation"
++ "com.apple.CloudSubscriptionFeatures.deviceReadiness"
++ "dateSentPQAIndexReadiness"
++ "existingTicketPayload"
++ "expiration: %{public}s currentTime: %s time until expiry: %{public}f fetched: %s currentTime: %{public}s timeSinceFetch: %{public}f"
++ "failed to update geoclassification cache, missing altDSID"
++ "fetchWaitlistStatusRequestFinish"
++ "fetchWaitlistStatusRequestStart"
++ "hasSentPQAIndexReadiness(allowAnySession:)"
++ "hasSentPQAIndexReadinessBootSessionID"
++ "https://acsegateway.icloud.com:443"
++ "includeInternalBuildHeader"
++ "isAutomaticTimeEnabled"
++ "kern.hv_vmm_present"
++ "limitUnits"
++ "no cache for featureID: %{public}s"
++ "pqaIndexing"
++ "processIdentifier"
++ "registerForLoggedOutPushIfNeeded(hasAccount:)"
++ "setDeviceReadiness(featureID:identifiers:completion:)"
++ "setHasSentPQAIndexReadiness()"
++ "setReadyStates(state:)"
++ "signupForWaitlistRequestFinish"
++ "signupForWaitlistRequestStart"
++ "unregisterFromLoggedOutPushIfNeeded(hasAccount:oldFeatures:newFeatures:)"
++ "validationResult"
+- "#16@0:8"
+- "$__lazy_storage_$_bootSessionUUID"
+- "$__lazy_storage_$_connection"
+- "$__lazy_storage_$_remoteServer"
+- "$defaultActor"
+- "%s Eligibility bypass is set to YES. Overriding OptIn status %{bool}d to true."
+- "%s Symbol `GenerativeModelsAvailability` is not available on this platform. Will return false."
+- "%{public}s Attempted to post waitlist CFU on invalid configuration."
+- "%{public}s Posting CFU"
+- "%{public}s Request is blocked by defaults on %{public}s. Throwing an error."
+- "%{public}s Successfully posted waitlist CFU."
+- "%{public}s Unable to create FollowUp controller."
+- "%{public}s Unable to encode ticket request object. Request will still be made: %@"
+- "%{public}s Unable to post waitlist CFU: %@"
+- ".cxx_destruct"
+- "<CloudFeatureMetadata: homeID: "
+- "?"
+- "@\"<_TtP25CloudSubscriptionFeatures15GMOptInProtocol_>\""
+- "@\"DaemonController\""
+- "@\"NSDictionary\"8@?0"
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"_TtC25CloudSubscriptionFeatures12TicketStatus\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8q16q24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@44@0:8@16q24B32@36"
+- "@52@0:8@16q24B32@36@44"
+- "@52@0:8@16q24B32q36@44"
+- "Attempted to BAA sign request with no path"
+- "Attempted to determine device waitlist CFU eligibility on ineligible configuration."
+- "Attempted to set GMOptIn.isOptedIn to %{bool}d but it already has that value. Early returning."
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "CSFAvailability"
+- "CSFEligibility"
+- "CSFEligibilityFetcher"
+- "CSFFeatureManager"
+- "CSFFollowUp"
+- "CSFGMAnalyticsProvider"
+- "CSFGMOptIn"
+- "CSFSoftLinking"
+- "CSFTicketManager"
+- "CSFTicketObject"
+- "CloudFeature"
+- "CloudFeatureObject"
+- "CloudSubscriptionFeatures"
+- "CloudSubscriptionFeatures.CloudFeatureMetadata"
+- "CloudSubscriptionFeatures.XPCCaller"
+- "DaemonController"
+- "Determining if device has feature access."
+- "Device does not have access. Do not post the CFU."
+- "Device does not have cached LLM feature, device is likely missing HW support."
+- "Device has no DSID, checking if previous user has toggle enabled."
+- "Device has primary DSID, using to key opt-in status."
+- "Device has primary account without DSID. Will fallback to device setting."
+- "Does have ticket? %{bool,public}d. Has ticket cache ticket? %{bool,public}d. Has waitlist cache ticket? %{bool,public}d"
+- "Failed to notify AvailabilityFoundationClient about new optIn status: %{bool,public}d. Error: %{public}s"
+- "Feature appears valid: %{public}s"
+- "FeatureChangeObserver"
+- "FeaturesDaemon"
+- "Fetched value for opt-in status: %{bool}d"
+- "Fetching BAA signing credentials"
+- "GMBypass is enabled for opt-in, returning true"
+- "GM_CFU_ACTION_TEXT"
+- "GM_CFU_DESCRIPTION"
+- "ID: %@, status: %ld, canUse: %d, limit: %@, accessToken: %@"
+- "MobileStoreDemoKit"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "No persistent domain for suite %s, no users have toggled toggle off or on."
+- "No previous user has opted-in. Returning false."
+- "No value for user opt-in key %s. Returning false."
+- "OS_xpc_object"
+- "Opted in via buddy but device is signed in, skipping extra notification update."
+- "Previous key %s has value %{bool}d"
+- "Previous user has opted-in. Returning true."
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Sending GM Opt-In change notification."
+- "Sending distributed notification on auto opt-in change."
+- "Serving cloud.llm enabled feature with expired JWT."
+- "Serving cloud.llm enabled feature with missing JWT."
+- "Serving cloud.llm feature with access %{bool,public}d but GMS does not match the state."
+- "Set new value for opt-in toggle %{bool}d, sending darwin notification."
+- "Setting GMOptIn.isOptedIn to %{bool}d from %s %s"
+- "Setting hasSentWaitlistCFU to true."
+- "Setting value for %s: %s."
+- "Setting value for %s: (null)."
+- "Successfully cleared CFU on opt-in"
+- "Successfully notified AvailabilityFoundationClient about new optIn status: %{bool,public}d!"
+- "Successfully retrieved feature eligibility from daemon. Feature ID: %s, isEligible: %{bool}d"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"<_TtP25CloudSubscriptionFeatures15GMOptInProtocol_>\",&,N,V_gmOptIn"
+- "T@\"CSFEligibility\",N,R"
+- "T@\"DaemonController\",&,N,V_controller"
+- "T@\"NSArray\",N,R"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSNumber\",R,N,V_limit"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_dispatchQueue"
+- "T@\"NSString\",&,N,V_ticket"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_accessToken"
+- "T@\"NSString\",R,N,V_featureID"
+- "T@\"NSUserDefaults\",R,N"
+- "T@\"_TtC25CloudSubscriptionFeatures12TicketStatus\",N,R"
+- "T@\"_TtC25CloudSubscriptionFeatures12TicketStatus\",N,R,Vstatus"
+- "T@\"_TtC25CloudSubscriptionFeatures7GMOptIn\",N,R"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,R,VdeviceEligibile"
+- "TB,N,R,VlanguageEligible"
+- "TB,N,R,VlocationEligible"
+- "TB,N,R,VregionEligible"
+- "TB,N,R,VsiriLanguageEligible"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_canUse"
+- "TQ,N,R"
+- "TQ,N,V_state"
+- "TQ,N,V_status"
+- "TQ,R"
+- "TapToRadarHelper"
+- "This platform is not supported for BAA signing"
+- "Tq,N,R"
+- "Tq,N,V_status"
+- "Tq,N,V_unavailabiltyReasons"
+- "Tq,R,N"
+- "Tq,R,N,V_status"
+- "UUIDString"
+- "Unable to clear CFU on opt-in. Error: %{public}s"
+- "Unable to init UserDefaults, will not read hasSentWaitlistCFUDate and will return false. Use may see CFU erroneously."
+- "Unable to init UserDefaults, will not update hasSentWaitlistCFUDate."
+- "Updating GMS on auto opt-in status."
+- "Updating UserDefaults for key %{public}s to value: %{public}s"
+- "User is opting in, setting followup to true to prevent CFU from showing."
+- "Validating feature %{public}s"
+- "Vv16@0:8"
+- "We have attempted %{public}ld times already, bailing out of %s"
+- "[%{public}s] Falling back to cached feature: %{public}@"
+- "[%{public}s] Feature %{public}s fetched. Can use: %{bool,public}d"
+- "[%{public}s] FeatureRequest failed because we're missing auth header, falling back to cached feature %{public}@"
+- "[%{public}s] Fetching feature %{public}s ignoreCache %{bool,public}d allowStale %{bool,public}d attemptNumber %{public}ld"
+- "[%{public}s] Returning cached feature and continuing to make network request: %{public}@"
+- "[%{public}s] Returning cached feature: %{public}@"
+- "[%{public}s]starting network fetch for all features"
+- "^{_NSZone=}16@0:8"
+- "_TtC25CloudSubscriptionFeatures10UnfairLock"
+- "_TtC25CloudSubscriptionFeatures11ConfigCache"
+- "_TtC25CloudSubscriptionFeatures11TaskLimiter"
+- "_TtC25CloudSubscriptionFeatures11TicketCache"
+- "_TtC25CloudSubscriptionFeatures12FeatureCache"
+- "_TtC25CloudSubscriptionFeatures12TaskLimiters"
+- "_TtC25CloudSubscriptionFeatures12TicketStatus"
+- "_TtC25CloudSubscriptionFeatures13WaitlistCache"
+- "_TtC25CloudSubscriptionFeatures14GMAssetsBypass"
+- "_TtC25CloudSubscriptionFeatures14WaitlistResult"
+- "_TtC25CloudSubscriptionFeatures16SystemProperties"
+- "_TtC25CloudSubscriptionFeatures18AvailabilityClient"
+- "_TtC25CloudSubscriptionFeatures18DataDetectorsCache"
+- "_TtC25CloudSubscriptionFeatures19AvailabilityManager"
+- "_TtC25CloudSubscriptionFeatures19GMEligibilityBypass"
+- "_TtC25CloudSubscriptionFeatures20CloudFeatureMetadata"
+- "_TtC25CloudSubscriptionFeatures21FeatureRequestHandler"
+- "_TtC25CloudSubscriptionFeatures21GeoClassificationInfo"
+- "_TtC25CloudSubscriptionFeatures23NotificationObservation"
+- "_TtC25CloudSubscriptionFeatures6Config"
+- "_TtC25CloudSubscriptionFeatures6Ticket"
+- "_TtC25CloudSubscriptionFeatures7GMOptIn"
+- "_TtC25CloudSubscriptionFeatures8FollowUp"
+- "_TtC25CloudSubscriptionFeatures8GMBypass"
+- "_TtC25CloudSubscriptionFeatures9XPCCaller"
+- "_TtC25CloudSubscriptionFeaturesP33_41A2CE00D5243E1E8B98F3F55D67C94315HardwareChecker"
+- "_TtP25CloudSubscriptionFeatures15GMOptInProtocol_"
+- "_TtP25CloudSubscriptionFeatures22FeaturesServiceRequest_"
+- "_TtP25CloudSubscriptionFeatures23FeatureDaemonConnection_"
+- "_accessToken"
+- "_availabilityGivenUnavailabilityReasons:"
+- "_canUse"
+- "_controller"
+- "_currentAvailabilityWithFeatureObject:completionHandler:"
+- "_descriptionForUnavailabilityReasons:"
+- "_dispatchQueue"
+- "_featureID"
+- "_gmOptIn"
+- "_handleFeatureResponseWithFeatureObject:error:reasons:shouldBypassEligibility:requestID:completionHandler:"
+- "_limit"
+- "_state"
+- "_status"
+- "_statusFromSwiftTicketStatus:"
+- "_syncUnavailabilityReasonsWithRequestID:"
+- "_ticket"
+- "_unavailabiltyReasons"
+- "_urlStringForKey:"
+- "aa_addBasicAuthorizationHeaderWithAccount:preferUsingPassword:"
+- "aa_altDSID"
+- "aa_appleAccountWithAltDSID:"
+- "aa_personID"
+- "aa_primaryAppleAccount"
+- "aa_primaryAppleAccountWithCompletion:"
+- "aa_setIsCloudSubscriber:"
+- "accountDSID"
+- "accountStore"
+- "actionWithLabel:url:"
+- "active"
+- "addFeatureChangeObserverWithChange:"
+- "addObject:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addTicketChangeObserverWithFeatureName:change:"
+- "admBypassState"
+- "ak_addClientInfoHeader"
+- "ak_addCountryHeader"
+- "allFeaturesFetch"
+- "allKeys"
+- "allowedValues"
+- "altDSID"
+- "analytics"
+- "anyUserHasEngagedWithCFU"
+- "appleIntelligenceCapable"
+- "authorizationStatus"
+- "autorelease"
+- "availabilityClient"
+- "availabilityManager"
+- "boolForKey:"
+- "boolValue"
+- "bootSessionID"
+- "bootSessionUUID"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "cache"
+- "cachedFeatureObjectWithId:"
+- "cfuLock"
+- "class"
+- "clearCFUGateWithFeature:completion:"
+- "clearCFUWithCompletionHandler:"
+- "clearCFUWithId:completion:"
+- "clearCacheAndNotify"
+- "clearFeatureCacheAndNotify"
+- "clearPendingFollowUpItemsWithUniqueIdentifiers:error:"
+- "clearTicketCacheAndNotify"
+- "client"
+- "code"
+- "com.apple.CloudSubscriptionFeatures.error.expiredJWT"
+- "com.apple.SetupAssistant"
+- "com.apple.musebuddy"
+- "com.apple.purplebuddy"
+- "compare:"
+- "componentsJoinedByString:"
+- "configStore"
+- "configuration"
+- "configurationWithCompletion:"
+- "conformsToProtocol:"
+- "controller"
+- "copy"
+- "coreTelephonyQueue"
+- "countByEnumeratingWithState:objects:count:"
+- "createDraft:forProcessNamed:withDisplayReason:completionHandler:"
+- "current"
+- "currentAvailability"
+- "currentAvailabilityWithCompletionHandler:"
+- "currentLocale"
+- "dataForKey:"
+- "dataStore"
+- "dateFromString:"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultCenter"
+- "defaultStore"
+- "defaults"
+- "description"
+- "deviceCapabilities"
+- "deviceEligibile"
+- "deviceHasAnyTicket:"
+- "deviceHasAnyTicketWithCompletionHandler:"
+- "deviceUnlockedSinceBoot"
+- "dictionaryForKey:"
+- "dictionaryRepresentation"
+- "dispatchQueue"
+- "doesNotHaveAccess"
+- "doesNotHaveTicket"
+- "domain"
+- "encodeBool:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "enqueued"
+- "expired"
+- "extensionIdentifier"
+- "featureCache"
+- "featureID"
+- "featureIDs"
+- "featuresNotificationName"
+- "forcePostCFUWithFeature:completion:"
+- "generateRequestID"
+- "geoCache"
+- "getADMAvailabilityBypass"
+- "getAFMFeatureAccess"
+- "getAIFeatureAccess"
+- "getCachedFeature"
+- "getCachedTicket"
+- "getFeatureEligibilityFor:bundleID:completion:"
+- "getFeatureEligibilityForFeatureWithId:bundleId:completion:"
+- "getGMEligibilityBypass"
+- "getGMOptInToggleWithCompletion:"
+- "getSharedAlbumsStatusWithCompletion:"
+- "getStewieSupport:"
+- "getTicketForFeature:completion:"
+- "getTicketForFeature:completionHandler:"
+- "getTicketForFeature:withCompletionHandler:"
+- "getTicketMock"
+- "getTicketStatusForFeature:completion:"
+- "getTicketStatusForFeature:completionHandler:"
+- "getTicketStatusForFeature:withCompletionHandler:"
+- "getTicketStatusFromCacheForFeature:completion:"
+- "getTicketStatusFromCacheForFeature:completionHandler:"
+- "getWaitlistStatusWithFeatureID:completionHandler:"
+- "gmAssetsBypass"
+- "gmEligibilityBypass"
+- "gmOptIn"
+- "gmOptInToggleWithCompletion:"
+- "gmOptInToggleWithCompletionHandler:"
+- "gmsIsAvailable"
+- "gmsIsAvailable()"
+- "hasDSID"
+- "hasEngagedWithCFU"
+- "hasEngagedWithCFUDate"
+- "hasSentCFUPreviously"
+- "hasSentWaitlistFollowUp"
+- "hash"
+- "homeID"
+- "hwSupport"
+- "imageGenerationBypass"
+- "ineligibleConfiguration"
+- "init"
+- "initWithArray:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithClientIdentifier:"
+- "initWithCoder:"
+- "initWithDomain:code:userInfo:"
+- "initWithFeatureID:status:canUse:accessToken:"
+- "initWithFeatureID:status:canUse:intValue:accessToken:"
+- "initWithFeatureID:status:canUse:limit:accessToken:"
+- "initWithInteger:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithName:version:identifier:"
+- "initWithOptInProvider:"
+- "initWithQueue:"
+- "initWithStatus:withUnavailabilityReasons:"
+- "initWithString:"
+- "initWithSuiteName:"
+- "initWithTicket:status:featureIDs:"
+- "initWithTicket:withStatus:"
+- "initWithURL:cachePolicy:timeoutInterval:"
+- "initWithUnsignedInteger:"
+- "integerValue"
+- "interfaceProvider"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isBeta"
+- "isCloudSubscriber"
+- "isDeviceEnrolledWithDeKOTA:"
+- "isEnabledForDataclass:"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isOptedIn"
+- "isProxy"
+- "languageEligible"
+- "lastBuddyOptedChangeVersion received %ld components when attempting to parse %s value from user defaults"
+- "limiters"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "locationEligible"
+- "lock"
+- "mainBundle"
+- "maximumActivityInterval"
+- "minimumActivityInterval"
+- "mutableCopy"
+- "no cache for featureID: %{public}s + homeID %s"
+- "notYetQueued"
+- "now"
+- "numberWithInteger:"
+- "objectForKey:"
+- "objectForKey:inDomain:"
+- "objectForKeyedSubscript:"
+- "observingFeaturesNotification"
+- "observingTicketsNotification"
+- "operatingSystemVersion"
+- "opted_change_os_version"
+- "pendingFollowUpItems:"
+- "performInternalValidation(feature:systemProperties:)"
+- "performInternalValidationForFeature:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentDomain"
+- "persistentDomainForName:"
+- "postCFUIfEligible"
+- "postCFUIfEligibleWithCompletionHandler:"
+- "postCFUIfEligibleWithFeature:completion:"
+- "postFollowUpItem:error:"
+- "postNotificationName:object:"
+- "postWaitlistCFU()"
+- "postWaitlistCFUIfEligible"
+- "postWaitlistCFUIfEligible(hasFeatureAccess:hasExistingTicket:urlProvider:)"
+- "prefs:root=SIRI&path=gmCFU"
+- "processInfo"
+- "processName"
+- "processPushNotificationDictionary:"
+- "processPushNotificationWithDictionary:"
+- "propertiesForDataclass:"
+- "provider"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "rateLimitResetDate"
+- "rawValue"
+- "received %s response, error: %s"
+- "received feature eligibility response, feature: %s, isEligible: %{bool}d, error: %s"
+- "refreshAllGeoclassificationCache"
+- "refreshGeoclassificationCache"
+- "regionEligible"
+- "registerDeviceForLoggedOutiCloudNotificationsWithReason:completion:"
+- "registerForFeatureChangeNotificationsUsingBlock:"
+- "registerForLoggedOutPushIfNeeded(for:)"
+- "registerForLoggedOutPushNotifications"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeFeatureChangeObserverWithToken:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeTicketChangeObserverWithToken:"
+- "renewCredentialsForAccount:options:completion:"
+- "requestFeature(id:homeID:ignoreCache:allowStale:attemptNumber:completion:)"
+- "requestFeatureWithId:allowStale:completion:"
+- "requestFeatureWithId:completion:"
+- "requestFeatureWithId:ignoreCache:allowStale:completion:"
+- "requestGeoClassificationFor:bundleID:altDSID:ignoreCache:completion:"
+- "requestGeoClassificationForFeatureID:bundleID:altDSID:ignoreCache:completion:"
+- "requestGeoClassificationForFeatureID:bundleID:ignoreCache:completion:"
+- "requestHandler"
+- "requests"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "revalidateCFU"
+- "revalidateCFUWithCompletionHandler:"
+- "rsvpDefaultsKey"
+- "saveAccount:withCompletionHandler:"
+- "self"
+- "sendAction:completionHandler:"
+- "sendFunction"
+- "sending eligibility request ..."
+- "serviceSettings"
+- "setADMBypass:"
+- "setActions:"
+- "setActivateAction:"
+- "setBool:forKey:"
+- "setBundleIconName:"
+- "setClass:forSelector:argumentIndex:ofReply:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClassification:"
+- "setClearAction:"
+- "setComponent:"
+- "setController:"
+- "setDateFormat:"
+- "setDelegate:"
+- "setDisplayStyle:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setExtensionIdentifier:"
+- "setFrequency:"
+- "setGMEligibilityBypass:"
+- "setGmOptIn:"
+- "setGroupIdentifier:"
+- "setHasEngagedWithCFU:"
+- "setHasEngagedWithCFUDate:"
+- "setIdentifier:"
+- "setInformativeText:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsOptedIn:"
+- "setIsUserInitiated:"
+- "setLocale:"
+- "setNotification:"
+- "setObject:forKey:"
+- "setObject:forKey:inDomain:"
+- "setPersistentDomain:forName:"
+- "setProblemDescription:"
+- "setRawValue:"
+- "setRemoteObjectInterface:"
+- "setRepresentingBundlePath:"
+- "setReproducibility:"
+- "setState:"
+- "setStatus:"
+- "setTicket:"
+- "setTimeZone:"
+- "setTimeoutInterval:"
+- "setTitle:"
+- "setURL:forKey:"
+- "setUnavailabiltyReasons:"
+- "setUniqueIdentifier:"
+- "setValue:forHTTPHeaderField:"
+- "setValue:forKey:"
+- "setWithObject:"
+- "shared"
+- "sharedInstance"
+- "sharedServerWithNoUrlCache"
+- "sharedSessionWithNoUrlCache"
+- "signposter"
+- "signupForWaitlistWithFeatureID:completion:"
+- "signupForWaitlistWithFeatureID:completionHandler:"
+- "siriLanguageEligible"
+- "siriLocale"
+- "standardUserDefaults"
+- "start"
+- "state"
+- "statusCode"
+- "storage"
+- "stringFromDate:"
+- "stringWithFormat:"
+- "substringToIndex:"
+- "superclass"
+- "supportsSecureCoding"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemProperties"
+- "systemTimeZone"
+- "tapToRadar:withMessage:withReason:"
+- "tapToRadarPoster"
+- "taskLimiters"
+- "telemetryProvider"
+- "ticket"
+- "ticketCache"
+- "ticketNotificationName"
+- "timeout"
+- "ttl"
+- "unableToDetermineAccountEligibility"
+- "unavailabiltyReasons"
+- "uniqueIdentifier"
+- "unregisterDeviceFromLoggedOutiCloudNotificationsWithCompletion:"
+- "unregisterForFeatureChangeNotificationsUsingObserver:"
+- "unregisterForLoggedOutPushNotifications"
+- "unregisterFromLoggedOutPushIfNeeded(for:oldFeatures:newFeatures:)"
+- "updateOptInStatus(optIn:)"
+- "urlForRSVPDataDetectorsWithContext:"
+- "urlSession"
+- "userDefaults"
+- "userDefaultsKey"
+- "userInfo"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"CSFAvailability\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?q@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"AAURLConfiguration\"8@\"NSError\"16"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
+- "v24@?0@\"CloudFeature\"8@\"NSError\"16"
+- "v24@?0@\"_TtC25CloudSubscriptionFeatures14WaitlistResult\"8@\"NSError\"16"
+- "v24@?0@\"_TtC25CloudSubscriptionFeatures21GeoClassificationInfo\"8@\"NSError\"16"
+- "v24@?0q8@\"NSError\"16"
+- "v28@?0Q8B16@\"NSError\"20"
+- "v32@0:8@\"CloudFeature\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"_TtC25CloudSubscriptionFeatures12TicketStatus\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"_TtC25CloudSubscriptionFeatures14WaitlistResult\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"_TtC25CloudSubscriptionFeatures6Ticket\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v32@0:8q16@?<v@?B>24"
+- "v32@?0^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}8@\"NSArray\"16@\"NSError\"24"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16B24B28@?<v@?@\"CloudFeature\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16B24B28@?32"
+- "v44@0:8@16@24B32@?36"
+- "v52@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40@?<v@?@\"_TtC25CloudSubscriptionFeatures21GeoClassificationInfo\"@\"NSError\">44"
+- "v52@0:8@16@24@32B40@?44"
+- "v60@0:8@16@24q32B40@44@?52"
+- "value"
+- "valueForHTTPHeaderField:"
+- "valueForKey:"
+- "verifyDeviceIsEligibleForWaitlistCFU(completion:)"
+- "verifyDeviceIsEligibleForWaitlistCFUWithCompletion:"
+- "waitlistStatusWithFeatureID:completion:"
+- "zone"
+
+```
