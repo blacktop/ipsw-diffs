@@ -1,423 +1,423 @@
 ## iboot_blob32.bin
 
-- `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
-- `smc/aopComms.cpp`
-- `Error accessing scratchpad key '%s', rc=%d`
-- `%s:%d set mute %d at %llu time.`
-- `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
-- `%s:%d Failed to get PCB temperature ret=0x%x.`
-- `QIPP1p4: newSession.`
-- `(SOCD) ERROR:Failed to write awl socd push report: %d`
-- `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
-- `InductiveUpdateCloakStatus`
-- `inductive cl: get vmax %d`
-- `inductive coex: ilim %d`
-- `%s:%d !RTK_arch_in...`
-- `A%d powerAccumErrorCount at UINT16_MAX limit`
-- `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
-- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
-- `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
-- `RXDS: AP notify retry %d, buff %d`
-- `failed to exit cloak`
-- `no_cep clear`
-- `read_status failed; ret=%d`
-- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
-- `%s:%d ironman %llu`
-- `inductiveCL: ilim limiting (ovp) = %i`
-- `%s: fail sleep ack, ret=0x%x`
-- `RXIC Woke Up`
-- `%s:%d:tx:read_status failed; reset inductive ic`
-- `A%d plugPresent %d`
-- `%s:%d failed to set backpower`
-- `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
-- `ACSt: boot AC`
-- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
-- `RXDS: AP notify error %d`
-- `%s:%d Failed to get chip temperature ret=0x%x.`
-- `%s:%d sq err cmd %x ccode:%x code:%x`
-- `Elec: fAceEnableHighVoltage`
-- `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
-- `BAUTH: kick out of sync`
-- `iop_ringbuffer.h`
-- `smc/aceElec.cpp`
-- `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
-- `cloak timeout (detect=%d full=%d)`
-- `frc == RTK_ST_OK`
-- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
-- `ProfSel : TXinfo : %d, prof: %d, fp: %d lk: %d, pc: %d `
-- `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
-- `Disconnect %s. fD %llu, pD %llu, cUp %llu`
-- `%s:%d mmode (%d)`
-- `inductiveCL: updating ilim (%i) %i + %i = %i`
-- `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
-- `DPLOSS,nt%d: TPr:%d,TVr:%d`
-- `smc/acePowerOut.cpp`
-- `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
-- `Unable to enable interrupt for btLV region: rc = %u`
-- `LVR init failed: %d`
-- `configureTxPout`
-- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
-- `RS: TX: RS_EVT_POUT_CAPABLE`
-- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
-- `ACSt: Failed to read SOC1`
-- `InductiveFWDownload`
-- `FTAB debug word %d, 0x%x`
-- `%s : nexDBB, tctnRP: %d %d %x`
-- `%s:%d fail sbpow`
-- `ind hb failed %d %d`
-- `ULTRA: new_vrect_target=%u new_base=%u power_factor=%u rpp_prect=%u`
-- `smc/crashlog.cpp`
-- `inductive_backpower_irq_process`
-- `%s:%d DBB 15 minute system uptime timeout`
-- `%s:%d: read failed. resetting %d`
-- `%s:%d status OK but state unknown.`
-- `RxInit: Only VBUS2 present (force_dbb_simulation=%d); st->DBB`
-- `InductiveEnablePeriodicTimer`
-- `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
-- `iOS CHI1 = %d`
-- `smc/i2c.cpp`
-- `detect mgnt %d. dt: %llu at: %llu`
-- `%s:%d sq emp cmd %x %x %x`
-- `SMC HID Event: %02x %02x %02x`
-- `(AWL)  INFO: Collecting data from reporter #%zu`
-- `ACSt: ACpend Exp %d mS `
-- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
-- `poutTriggerSet`
-- `QIPP1P4 %d: Switch profile f %u to %u`
-- `%s:%d fail set vbus`
-- `A%d SRDOFail NewSrcEvent`
-- `Elec: ActiveContract Fail Trig1`
-- `smc/ap_watchdog_logger.cpp`
-- `smc/inductive/inductive_common.cpp`
-- `InductiveSetManualMode`
-- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
-- `Disconnect held off`
-- `(AWL)  INFO: End AWL report (%zu bytes)`
-- `BAUTH: task out of sync`
+- `(SOCD) ERROR:Failed to finish awl socd push report: %d`
 - `InductiveSetHLOSBooted`
-- `flush: %x %x %x %x`
-- `%s:%d qc/t wrong: %d %x %x %x %x`
-- `TXDS: %s: terminated transactions due to disconnect`
-- `inductive_quiesce_task`
-- `RS: start dead batt detection; expireTime=%llu currTime=%llu`
-- `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
-- `inductiveCL: ilim frozen = %i`
-- `%s:%d sema but no work %x`
-- `RS: TX FW state moved to Idle`
-- `smc/acePoutExtClientIF.cpp`
-- `Err ChgHvEnFail V %d rc=%d`
-- `(AWL) ERROR: Failed to finish awl report: %d`
-- `Unable to get data from AON PTD rc:%u`
-- `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
-- `%s: chip vfy fail`
-- `IND: CHG: clear charge rate`
-- `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
-- `Ace:%u Port Mode:%u`
-- `Elec: A%d SRDO Failed %d`
+- `inductive_mailbox_ind_process`
+- `%s :nexDBB, disc: %d %d %x`
+- `inductiveCL: pwr limited %d, base pwr %d `
+- `select_input_power_source`
+- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+- `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
+- `inductiveCL: ilim limiting %i %i`
+- `%s:%d failed to read status`
+- `CHI NOTIF failed`
+- `Ace: End HostAct %c%c%c%c`
+- `Notf: A%d JuiceAllocEvt aepp`
+- `(AWL) ERROR: Failed to obtain AWL caps (%d)`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+- `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
+- `inductive cl: g4: gain4(%d) < %d; settle LOW`
+- `DPLOSS,ssto: %d`
+- `%s:%d Failed to get chip temperature ret=0x%x.`
+- `%s: iSawAnUPO=%d`
+- `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
+- `inductiveCL: crashed %i %d %d`
+- `no_cep clear`
+- `error: could not map PTx 'Device Type' (0x%x) to VID/PID; ret=%d`
+- `QIPP1p4 : TX supported : %d, profile: %d `
+- `Ind UID Roll done: %x %d`
+- `(AWL) ERROR: Failed to send AWL request (0x%08x)`
+- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+- `%s:%d mpp %llu`
+- `tx assert triggered!`
+- `A%d SRDOFail Timeout`
+- `(AWL)  INFO: Collecting data from reporter #%zu`
 - `rc:%d, err:%d`
-- `vBMSTaskStop fail`
-- `inductive_adapter_update_published_details`
-- `RXDS: retry %d`
-- `%s : quiesce mask, %x`
-- `%s: ignore attempt to set ilim=%d while quiesced`
-- `(AWL) ERROR: %d`
-- `(AWL)  INFO: [%03zx]     %02x%02x`
-- `Unable to write LVR data to GG: %d`
-- `%s: RTK_mc_assume returned != RTK_ST_OK `
-- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
-- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
-- `inductiveCL: ilim_max %d = %d / MAX(%d, %d) `
-- `smc/ap_watchdog.cpp`
-- `inductive_adapter_update_state`
-- `%s:%d vtgt fail`
-- `DPLOSS,a: %d`
-- `smc/inductive/inductive_task.cpp`
-- `smc/inductive/inductive_tx.cpp`
+- `smc/inductive/inductivePoutPolicy.cpp`
+- `%s : quiesce, %d`
+- `cloak exit`
+- `%s:%d sq emp cmd %x %x %x`
 - `TXDS: fw failed to transmit all data in stream=%d`
-- `smc/acePoutBudgetManager.cpp`
-- `smc/inductive/inductive_adapter.cpp`
-- `Panic forced due to inductive FW crash`
-- `IND: CHG: request charge rate = %d`
-- `inductive toggle vbus 0x%x`
+- `Unable to get data from AON PTD rc:%u`
+- `A%d lock not acquired, timeout was set %d`
+- `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
+- `(SOCD) ERROR:Failed to write awl socd push report: %d`
+- `smc/crashlog.cpp`
+- `dram_region_map_region`
+- `ACSt: Shdwn 0x%x`
+- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+- `Unable to enable interrupt for btLV region: rc = %u`
+- `A%d SRDOFail NewSrcEvent`
+- `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
+- `inductiveCL: sys load high; ilim_max = MIN(sys_trans=%d, ilim_max=%d) = %d`
+- `%s: fail sleep ack, ret=0x%x`
+- `RS: TX FW state moved to Idle`
+- `BattChgMT %dmAh`
+- `%s:%d ERR process backpower request %x`
+- `InductiveRxHandleInterrupt`
+- `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
+- `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
+- `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
+- `charger: Failed to set termination voltage to:%umV rc:%d`
+- `DE: invalid checksum SMC %d AP %d`
+- `smc/inductive/inductive_keys.cpp`
+- `2PP:inductive_data.promotion_to_2pp_state timeoutt`
 - `qInductiveInFwdlRegulation`
-- `%s:%d powering on normally`
-- `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
-- `(AWL) WARN: Failed to receive AWL response (0x%08x)`
+- `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
+- `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
+- `LVR init failed: %d`
+- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+- `RS: PTx Info: id=0x%x family=0x%x type=0x%x tether=%d dualr=%d p=%d`
+- `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
+- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+- `inductive_quiesce_task`
+- `NVMIT: i %d`
+- `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
+- `ACSt: boot !AC`
+- `IND: CHG: request charge rate = %d`
+- `ui8InductiveFWCtrl`
+- `RXIC Went to Sleep`
+- `%s:%d cstat bad cmd %x %x %x %x`
+- `%s:%d ctrace cmd %x ccode:%x code:%x %x`
+- `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
+- `dram_region_release`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+- `RS: %s: %s: acc dead: loadFirmware(TX)`
+- `%s:%d vtgt fail`
+- `inductive cl: arcas init`
+- `smc/ap_watchdog.cpp`
 - `smc/bms/batterySocFilter/batterySocFilter.cpp`
+- `smc/inductive/inductiveRoleSwap.cpp`
+- `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
+- `QIPP1p4: newSession.`
+- `smc/inductive/inductive_tx.cpp`
+- `InductiveTxProcessRxInd`
+- `AceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+- `A%d PortRejectSRDO`
+- `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
+- `%s: ignore attempt to set ilim=%d while quiesced`
+- `inductive cl: G4_C1 : %d`
+- `vInductiveProcessWork`
+- `AceInductive: Send Fail Notif, PassNotfPend: %d`
+- `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
+- `auth IC communication failure (%x)`
+- `%s :rerror: %x %x %x st %x sa %x`
+- `QIPP1P4 %d: Switch profile f %u to %u`
+- `%s:%d fail sbpow`
+- `RXIC Woke Up`
+- `(AWL) ERROR: IPA read failed for register at addr %#llx`
+- `(AWL) ERROR: %d`
+- `(AWL)  INFO: [%03zx]       %02x`
+- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+- `inductive_adapter_disconnect_debounce`
+- `InductiveSetManualMode`
+- `In Main without FWDL, returning to FWDL state.`
+- `InductiveUpdateCloakStatus`
+- `vInductiveTaskStop fail`
+- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
+- `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
+- `%s:%d ERR process mailbox indication %x`
+- `Elec: A%d SRDO Failed %d`
+- `smc/ap_watchdog_logger.cpp`
+- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+- `%s: No valid firmware!!!`
+- `%s:%d HIGH_TEMP reached. batt %d pcb %d chip %d`
+- `DPLOSS,e:%d`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
+- `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
+- `Unable to set handler for btLV region: rc = %u`
+- `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
+- `Ace:%u Port Mode:%u`
+- `smc/i2c.cpp`
+- `Elec: ActiveContract Fail Trig1`
+- `Not charging:%llx`
+- `%s: unknown key = %d`
+- `%s:%d fail control %x SerializerMute`
+- `%s:%d: read failed. resetting %d`
+- `DPLOSS,nicl: %d`
+- `inductive coex: ilim %d`
+- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+- `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
+- `%s: %s:%d: %s, Unable to enable interrupt for btLV: %d`
+- `%s:%d: inductive fw (%d) loaded successfully!`
+- `RS: start dead batt detection; expireTime=%llu currTime=%llu`
+- `%s: fail clear int, ret=0x%x`
+- `(AWL) ERROR: Failed to allocate socd report: %d`
+- `(AWL) ERROR: Couldn't read register of unsupported access type %d`
+- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+- `POP: TXFW: pout_set_power_limit failed; ret=%d`
+- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+- `%s:%d failed to set backpower`
+- `inductiveCL: ramp down: %d`
+- `%s:%d: read failed. resetting %d`
+- `smc/bms/bms_v1/battery.cpp`
+- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+- `InductiveFWDownload`
+- `exDBB , vb: %d, time: %lld.%ds`
+- `no_cep_count %d`
+- `DPLOSS,lt<16W %d`
+- `%s:%d sema but no work %x`
+- `TXDS: notify AP: comms disabled; comms paused`
+- `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
+- `%s:%d Failed to get PCB temperature ret=0x%x.`
+- `%s:tx:haltReason %d -> %d`
+- `(AWL) ERROR: Failed to finish awl report: %d`
+- `(AWL) ERROR: ASCv1 data descriptor was null`
+- `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+- `upo_periodic_action`
+- `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
+- `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
+- `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
+- `transient %d (%d to %d)`
+- `smc/acePoutExtClientIF.cpp`
+- `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+- `inductive_adapter_update_state`
+- `Panic forced due to inductive FW crash`
+- `%s:%d vtgt %d ilim tgt %d; (0: not set)`
+- `%s: cloak request %x`
+- `A%d prevBootSt %x genBootSt %x BFLG %x`
+- ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
+- `%s: charger_set_path_priority failed`
+- `DE: correcting shutdown_threshold from %d to %d`
+- `RS: TX: RS_EVT_HLOS_BOOTED`
 - `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
 - `Disconnect re-published`
-- `smc/inductive/inductive_rx.cpp`
-- `InductiveUpdate`
-- `Send hibernate SIG`
-- `A%d SRDOFail Reject`
-- `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
-- `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
-- `charger: Failed to set termination voltage to:%umV rc:%d`
-- `smc/extPwriOS.cpp`
-- `smc/inductive/inductivePoutPolicy.cpp`
-- `%s:%d inductive fw (%d) download failed`
-- `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
-- `A%d PortRejectSRDO`
-- `(AWL) ERROR: Failed to adjust the awl report size: %d`
-- `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
-- `(AWL) ERROR: IPA read failed for register at addr %#llx`
-- `select_input_power_source`
-- `InductiveProcessEvents`
-- `DPLOSS,icl: %d`
-- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
-- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
-- `swapToRxMode`
+- `%s:%d ironman %llu`
+- `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
+- `(AWL) ERROR: Unknown PS value %u`
+- `pending, waiting for debounce`
+- `(AWL)  INFO: Start AWL report (%d)`
 - `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
-- `inductiveCL: pwr limited %d, base pwr %d `
-- `%s:%d HIGH_TEMP reached. batt %d pcb %d chip %d`
-- `%s:%d: read failed. resetting %d`
-- `baseline arcas`
-- `QIPP1p4 : kest: %d, profile: %d, mppVer: 0x%x`
-- `TXDS: notify AP: comms resumed`
-- `RS: %s: %s: acc dead: loadFirmware(TX)`
-- `DPLOSS,lt<16W %d`
-- `DPLOSS,ruf. Pr: %d`
-- `Ind UID Roll pend.`
-- `tx assert triggered!`
-- `(AWL)  INFO: [%03zx]   %02x%02x%02x`
-- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
-- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
-- `%s : !quiesce mask, %x`
-- `%s:%d err freq denom`
+- `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
+- `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
+- `detect mgnt %d. dt: %llu at: %llu`
 - `%s: process event %d`
+- `%s:%d !RTK_arch_in...`
+- `vInductiveCmd`
+- `Err ChgHvEnFail V %d rc=%d`
+- `smc/acePoutBudgetManager.cpp`
+- `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
+- `charger_configure_input_src: ilim=%u, src:%u`
+- `configureTxPout`
+- `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
+- `InductiveFrequency`
+- `read_status failed; ret=%d`
+- `A%d SRDOFail Reject`
+- `Elec: BestPot A%d %dmW type%d was A%d %dmW`
+- `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
+- `(SOCD) ERROR:Failed to finish awl push errors report: %d`
+- `inValid Op %d`
+- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+- `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
 - `DPLOSS,lt. TPr:%d,TVr:%d`
-- `DPLOSS,s:TPr:%d,TVr:%d`
-- `A%u AckSupport PortMode:%u`
 - `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
-- `(AWL) ERROR: Failed to send AWL request (0x%08x)`
-- `auth IC communication failure (%x)`
-- `Critical Shutdown Requested`
-- `smc/bms/bms_v1/charger.cpp`
-- `dram_region_map_region`
-- ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
-- `smc/aceUtilEmbedded.cpp`
-- `(AWL)  INFO: [%03zx]       %02x`
+- `(AWL)  INFO: [%03zx]     %02x%02x`
+- `iBoot CHI1 = %d ignored`
+- `ACSt: boot AC`
+- `InductiveUpdateChgIlim`
+- `DPLOSS,clts: %d`
+- `Ind UID Roll pend.`
+- `%s:%d:tx:read_status failed; reset inductive ic`
+- `Elec: fAceEnableHighVoltage`
+- `%s: upo_state=%d, clearUPOConConnect=%d`
+- `baseline arcas`
+- `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
+- `%s : !quiesce, %d`
+- `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
+- `%s:%d vb dis %d`
+- `(AWL) ERROR: Register read of size %zu cannot be performed`
+- `inductive_adapter_update_published_details`
+- `%s:%d inductive fw (%d) download failed`
+- `IND: CHG: clear charge rate`
+- `RS: %s: local tether state %d -> %d`
+- `RXDS: rmerr queue %d`
+- `%s:%d err fsk demod rate`
+- `inductiveCL: ilim frozen = %i`
+- `DE: Checksum becomes valid SMC %d AP %d`
+- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
+- `Found FTAB file, valid = %d`
+- `%s:%d disable callisto failed`
+- `%s:%d mmode (%d)`
+- `smc/forceKeyAccess.cpp`
+- `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
+- `RS: %s: HLOS booted! notify in %d ms`
+- `inductive cl: G3_C1 : %d`
+- `%s:%d status OK but state unknown.`
+- `exDBB MainFW here`
+- `ULTRA: new_vrect_target=%u new_base=%u power_factor=%u rpp_prect=%u`
+- `smc/aceElec.cpp`
+- `(AWL) ERROR: Failed to adjust the awl report size: %d`
+- `%s:%d ERR set mmode (%d) %x`
+- `cloak entry`
+- `QIPP1p4 : kest: %d, profile: %d, mppVer: 0x%x`
+- `DPLOSS,ltr: %d`
+- `ProfSel : TXinfo : %d, prof: %d, fp: %d lk: %d, pc: %d `
+- `InductiveEnablePeriodicTimer`
+- `Batt Cap %dmAh`
+- `ACSt: ACpend Exp %d mS `
+- `smc/extPwriOS.cpp`
+- `ACSt: AC present`
+- `%s:%d fail reply q: %x %x %x %x`
+- `InductiveTxStreamControlRxInd`
+- `TXDS: [%d %d]`
+- `rc_irq == RTK_ST_OK`
+- `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
+- `%s:%d set mute %d at %llu time.`
+- `%s:%d fail set vbus`
+- `flush: %x %x %x %x`
+- `InductiveTxUpdate`
+- `TXDS: %s: stream_id=%d out of range`
+- `(AWL) ERROR: Failed to read the awl report size: %d`
+- `RXDS: AP notify retry %d, buff %d`
+- `TXDS: notify AP: comms resumed`
+- `TXDS: %s: terminated transactions due to disconnect`
+- `TXDS: rmerr queue %d`
+- `smc/apComms.cpp`
+- `(AWL) WARN: Failed to receive AWL response (0x%08x)`
+- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+- `%s:%d disc %llu`
+- `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+- `failed to exit cloak`
+- `%s: RTK_mc_assume returned != RTK_ST_OK `
+- `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+- `%s : nexDBB, tctnRP: %d %d %x`
+- `%s:%d DBB 15 minute system uptime timeout`
+- ` VDO %d not found`
+- `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
+- `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+- `%s: RTK_mc_release returned != RTK_ST_OK `
+- `smc/event_buf.cpp`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
+- `smc/inductive/inductive_rx.cpp`
+- `inductive cl: pwr contract: none; settle LOW`
+- `Ace: HostAct %c%c%c%c`
+- `iop_ringbuffer.h`
+- `iOS CHI1 = %d`
+- `charger_pmu_init`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+- `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
+- `InductiveProcessEvents`
+- `smc/bms/battery_auth/battery_authentication.cpp`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
+- `Disconnect held off`
+- `inductive_update_firmware`
+- `InductiveAccessoryInfoChanged`
+- `2PP:inductive_data.promotion_to_2pp_state = %u`
+- `DPLOSS,s:TPr:%d,TVr:%d`
+- `smc/inductive/inductive_task.cpp`
+- `A%u AckSupport PortMode:%u`
+- `(AWL)  INFO: End AWL report (%zu bytes)`
 - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
 - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
 - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
-- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
-- `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
-- `Error getting LVR data from PMU: %d`
-- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
 - `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-- `inductive_adapter_disconnect_debounce`
-- `Found FTAB file, valid = %d`
-- `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
-- ` VDO %d not found`
-- `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
-- `%s: RTK_mc_release returned != RTK_ST_OK `
-- `ACSt: OSpend Exp`
-- `%s:%d ERR process backpower request %x`
-- `%s:%d vtgt %d ilim tgt %d; (0: not set)`
-- `DPLOSS,ssto: %d`
-- `(SOCD) ERROR:Failed to finish awl socd push report: %d`
-- `(AWL) ERROR: IPA read of size %zu cannot be performed`
-- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
-- `%s : %d, %d`
-- `RS: %s: HLOS booted! notify in %d ms`
-- `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
-- `InductiveTarget`
-- `A%d prevBootSt %x genBootSt %x BFLG %x`
-- `Elec: Elec Cause 0x%llx`
-- `Aborting AOP iop_ringbuffer at %s:%d`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
-- `%s:%d: inductive fw (%d) loaded successfully!`
-- `%s: cloak request %x`
-- `error: could not map PTx 'Device Type' (0x%x) to VID/PID; ret=%d`
-- `AceInductive: Send Fail Notif`
-- `smc/event_buf.cpp`
-- `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
-- `%s :rerror: %x %x %x st %x sa %x`
-- `inductiveCL: ilim limiting %i %i`
-- `DPLOSS,e:%d`
-- `TXDS: notify AP: comms enabled`
-- `A%d unable to acquire smc uvdm lock %d`
-- `A%d SRDOFail Timeout`
-- `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-- `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
-- `inductiveCL: ramp down: %d`
-- `Unable to set handler for btLV region: rc = %u`
-- `Notf: A%d New Contract as Src. Role:%d`
-- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapToRxMode`
-- `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
-- `%s: No valid firmware!!!`
-- `DPLOSS,st: %d`
-- `vInductiveTaskStop fail`
-- `TXDS: %s: stream_id=%d out of range`
-- `Ace: HostAct %c%c%c%c`
-- `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
-- `DE: Checksum becomes valid SMC %d AP %d`
-- `upo_periodic_action`
-- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
-- `RS: dead accessory detected!`
-- `DPLOSS,rts: %d`
-- `(AWL)  INFO: Start AWL report (%d)`
-- `POP: TXFW: pout_set_power_limit failed; ret=%d`
-- `inductive cl: g4: gain4(%d) < %d; settle LOW`
-- `QIPP1p4: rx_qipp_version=%x, tx_qipp_version=%x, txhwref=%u vtgt_ironman_ultra=%u`
-- `DPLOSS,nicl: %d`
-- `InductiveTxProcessRxInd`
-- `TXDS: %s: unexpected data stream size`
-- `smc/bms/bms_v1/battery.cpp`
-- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
-- `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
-- `inductive cl: G4_C1 : %d`
-- `%s: fail clear int, ret=0x%x`
-- `%s: iSawAnUPO=%d`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
-- `inductive cl: G3_C1 : %d`
-- `%s:tx:haltReason %d -> %d`
-- `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
-- `smc/bms/battery_auth/battery_authentication.cpp`
-- `smc/comms.cpp`
-- `ACSt: Shdwn 0x%x`
-- `InductiveUpdateChgIlim`
-- `TXDS: notify AP: comms paused`
-- `(AWL) ERROR: Register read of size %zu cannot be performed`
-- `smc/bms/bms_v1/bms.cpp`
-- `InductiveFWErrorRecovery`
-- `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
-- `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
-- `inductive cl: pwr contract: none; settle LOW`
-- `cloak entry`
-- `AceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
-- `BattChgMT %dmAh`
-- `(AWL) ERROR: Failed to allocate socd report: %d`
-- `charger_configure_input_src: ilim=%u, src:%u`
-- `dram_region_release`
-- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
-- `RXDS: rdsema error %d`
-- `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
-- `(SOCD) ERROR:Failed to finish awl push errors report: %d`
-- `ACSt: boot !AC`
-- `smc/inductive/inductiveRoleSwap.cpp`
-- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
-- `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
-- `%s:%d connecting %llu`
-- `%s: unknown key = %d`
-- `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
+- `%s:%d fail rstat`
+- `%s:%d qc/t wrong: %d %x %x %x %x`
 - `Notf: A%d uvdmDone`
-- `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
-- `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
-- `iBoot CHI1 = %d ignored`
-- `%s:%d disc %llu`
-- `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
-- `inductive_mailbox_ind_process`
-- `%s:%d cstat bad cmd %x %x %x %x`
-- `(AWL) ERROR: Unknown PS value %u`
-- `Not charging:%llx`
-- `DE: correcting shutdown_threshold from %d to %d`
-- `%s:%d arcas %llu`
-- `%s:%d ERR process mailbox indication %x`
-- `2PP:inductive_data.promotion_to_2pp_state timeoutt`
-- `%s:%d err fsk demod rate`
-- `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-- `DE: invalid checksum SMC %d AP %d`
-- `RS: TX: RS_EVT_HLOS_BOOTED`
-- `%s : !quiesce, %d`
-- `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
-- `inductive cl: pwr contract timeout; ce=%d, rpp=%d, pc=%d`
-- `exDBB MainFW here`
-- `no_cep_count %d`
-- `RS: PTx Info: id=0x%x family=0x%x type=0x%x tether=%d dualr=%d p=%d`
+- `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
+- `Critical Shutdown Requested`
+- `swapToRxMode`
+- `smc/inductive/inductive_adapter.cpp`
+- `%s: chip vfy fail`
+- `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
+- `RXDS: rdsema error %d`
+- `A%d plugPresent %d`
+- `Elec: Elec Cause 0x%llx`
+- `%s : !quiesce mask, %x`
+- `inductiveCL: updating ilim (%i) %i + %i = %i`
+- `inductiveCL: rp %d rpv %d rpi %d vtgt %d vbase %d itgt %d`
+- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %d epi %d, mpwr %d, fr %d`
+- `%s:%d powering on normally`
+- `cloak timeout (detect=%d full=%d)`
+- `(AWL) ERROR: IPA read of size %zu cannot be performed`
+- `inductive toggle vbus 0x%x`
+- `InductiveUpdate`
+- `ind hb failed %d %d`
+- `DPLOSS,rts: %d`
+- `%s:%d sq err cmd %x ccode:%x code:%x`
+- `smc/acePowerOut.cpp`
+- `BAUTH: task out of sync`
+- `invalid command '%u'`
+- `RxInit: Only VBUS2 present (force_dbb_simulation=%d); st->DBB`
+- `Send hibernate SIG`
+- `TXDS: notify AP: comms paused`
+- `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+- `inductive_backpower_irq_process`
+- `DPLOSS,ruf. Pr: %d`
+- `%s: %s:%d: %s, Unable to disable interrupt for btLV: %d`
 - `AceInductive: Send Pass Notif`
 - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
-- `Elec: BestPot A%d %dmW type%d was A%d %dmW`
-- `%s: charger_set_path_priority failed`
-- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
-- `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
-- `transient %d (%d to %d)`
-- `DPLOSS,ltr: %d`
-- `A%d lock not acquired, timeout was set %d`
-- `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
-- `%s:%d fail control %x SerializerMute`
-- `%s :nexDBB, disc: %d %d %x`
-- `inductiveCL: crashed %i %d %d`
-- `QIPP1p4 : TX supported : %d, profile: %d `
-- `InductiveRxHandleInterrupt`
-- `ULTRA: power_rampdown_mw=%u coex_pwr_limit=%u vtgt_max=%u prect=%u vrect_base=%u`
-- `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
-- `%s : quiesce, %d`
-- `InductiveTxUpdate`
-- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
-- `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
-- `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-- `exDBB , vb: %d, time: %lld.%ds`
-- `RXIC Went to Sleep`
-- `In Main without FWDL, returning to FWDL state.`
-- `%s:%d fail reply q: %x %x %x %x`
-- `Ace: End HostAct %c%c%c%c`
-- `Notf: A%d JuiceAllocEvt aepp`
-- `dram_region_assume`
-- `2PP:inductive_data.promotion_to_2pp_state = %u`
-- `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
-- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %d epi %d, mpwr %d, fr %d`
-- `CHI NOTIF failed`
-- `NVMIT: i %d`
 - ` E%d %d %x`
-- `smc/apComms.cpp`
-- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
-- `RXDS: rmerr queue %d`
-- `%s:%d ERR set mmode (%d) %x`
-- `inductiveCL: sys load high; ilim_max = MIN(sys_trans=%d, ilim_max=%d) = %d`
-- `%s:%d vb dis %d`
-- `TXDS: notify AP: comms disabled; comms paused`
-- `AceInductive: Send Fail Notif, PassNotfPend: %d`
-- `A%d SRDOFail Cmd didn't complete, TimeOut`
-- `(AWL) ERROR: Couldn't read register of unsupported access type %d`
-- `smc/forceKeyAccess.cpp`
-- `inductive_update_firmware`
-- `%s:%d failed to read status`
-- `InductiveAccessoryInfoChanged`
-- `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
-- `smc/inductive/inductive_keys.cpp`
-- `%s:%d disable callisto failed`
-- `DPLOSS,clts: %d`
-- `Ind UID Roll done: %x %d`
-- `%s:%d ctrace cmd %x ccode:%x code:%x %x`
-- `TXDS: rmerr queue %d`
-- `(AWL) ERROR: ASCv1 data descriptor was null`
-- `invalid command '%u'`
-- `rc_irq == RTK_ST_OK`
-- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
-- `RS: %s: local tether state %d -> %d`
-- `%s:%d fail rstat`
-- `vInductiveProcessWork`
-- `InductiveTxStreamControlRxInd`
-- `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-- `(AWL) ERROR: Failed to read the awl report size: %d`
-- `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
-- `(AWL) ERROR: Failed to obtain AWL caps (%d)`
-- `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
-- `%s: Failed to read 'CELD', error ret=%d`
-- `ACSt: AC present`
-- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
-- `inValid Op %d`
-- `inductive adapter: (%d)->(%d) dt: %llu`
-- `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
+- `Notf: A%d New Contract as Src. Role:%d`
+- `Unable to write LVR data to GG: %d`
+- `smc/bms/bms_v1/charger.cpp`
+- `Disconnect %s. fD %llu, pD %llu, cUp %llu`
+- `SMC HID Event: %02x %02x %02x`
+- `smc/aopComms.cpp`
+- `BAUTH: kick out of sync`
+- `smc/bms/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
 - `ret == RTK_ST_OK`
-- `ui8InductiveFWCtrl`
-- `vInductiveCmd`
-- `TXDS: [%d %d]`
-- `Batt Cap %dmAh`
-- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-- `charger_pmu_init`
-- `smc/bms/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-- `%s: upo_state=%d, clearUPOConConnect=%d`
-- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
-- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
-- `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
-- `pending, waiting for debounce`
-- `%s:%d mpp %llu`
-- `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
-- `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
-- `InductiveFrequency`
-- `inductive cl: arcas init`
-- `inductiveCL: rp %d rpv %d rpi %d vtgt %d vbase %d itgt %d`
-- `cloak exit`
+- `RXDS: retry %d`
+- `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
+- `RS: TX: RS_EVT_POUT_CAPABLE`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+- `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
+- `inductiveCL: ilim_max %d = %d / MAX(%d, %d) `
+- `DPLOSS,st: %d`
+- `DPLOSS,a: %d`
+- `DPLOSS,icl: %d`
+- `vBMSTaskStop fail`
+- `%s: Failed to read 'CELD', error ret=%d`
+- `%s:%d connecting %llu`
+- `InductiveFWErrorRecovery`
+- `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
+- `DPLOSS,nt%d: TPr:%d,TVr:%d`
+- `ULTRA: power_rampdown_mw=%u coex_pwr_limit=%u vtgt_max=%u prect=%u vrect_base=%u`
+- `TXDS: notify AP: comms enabled`
+- `Aborting AOP iop_ringbuffer at %s:%d`
+- `(AWL)  INFO: [%03zx]   %02x%02x%02x`
+- `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+- `inductiveCL: ilim limiting (ovp) = %i`
+- `QIPP1p4: rx_qipp_version=%x, tx_qipp_version=%x, txhwref=%u vtgt_ironman_ultra=%u`
+- `inductive cl: get vmax %d`
+- `TXDS: %s: unexpected data stream size`
+- `A%d unable to acquire smc uvdm lock %d`
+- `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
+- `Error getting LVR data from PMU: %d`
+- `Error accessing scratchpad key '%s', rc=%d`
+- `ACSt: OSpend Exp`
+- `smc/bms/bms_v1/bms.cpp`
+- `dram_region_assume`
+- `FTAB debug word %d, 0x%x`
+- `RXDS: AP notify error %d`
+- `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
+- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+- `ACSt: Failed to read SOC1`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+- `inductive adapter: (%d)->(%d) dt: %llu`
+- `%s:%d arcas %llu`
+- `smc/inductive/inductive_common.cpp`
+- `%s:%d err freq denom`
+- `AceInductive: Send Fail Notif`
+- `A%d SRDOFail Cmd didn't complete, TimeOut`
+- `frc == RTK_ST_OK`
+- `smc/comms.cpp`
+- `%s : quiesce mask, %x`
+- `InductiveTarget`
+- `inductive cl: pwr contract timeout; ce=%d, rpp=%d, pc=%d`
+- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+- `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+- `poutTriggerSet`
+- `%s : %d, %d`
+- `RS: dead accessory detected!`
+- `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
+- `A%d powerAccumErrorCount at UINT16_MAX limit`
+- `smc/aceUtilEmbedded.cpp`

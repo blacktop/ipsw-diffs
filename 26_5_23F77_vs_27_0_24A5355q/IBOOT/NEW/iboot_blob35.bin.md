@@ -1,445 +1,445 @@
 ## iboot_blob35.bin
 
-- `inductiveCL: sys load high; ilim_max = MIN(sys_trans=%d, ilim_max=%d) = %d`
-- `vInductiveTaskStop fail`
-- `TXDS: [%d %d]`
-- `System Power In`
-- `%s: fw_vers=0x%x -> fw_mode=%s (state=%d)`
-- `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
-- `InductiveTxStreamControlRxInd`
-- `InductiveTxProcessRxInd`
-- `smc/inductive/poutPolicy.cpp`
-- `smc/iphone/nfc.cpp`
-- `%s:%d disc %llu`
-- `%s : quiesce mask, %x`
-- `Remotely triggered SMC panic`
-- `pmu: FW SRAM is in use`
-- `(SOCD) ERROR:Unknown SOCD storage type: %d`
-- `%s : quiesce, %d`
-- `%s:%d DBB 15 minute system uptime timeout`
-- `smc/thermal/acsk/sensorInput.cpp`
-- `%s:%d arcas %llu`
-- `scanTimeoutHandlerstate:%d`
-- `pdcom: BattDesignCap !valid %d`
-- `%s : nexDBB, tctnRP: %d %d %x`
-- `nfcHandleMessage: messageType:%d`
-- `Invalid baseband type %d`
-- `F.sensor array 0 - 1 is %d`
-- `InductiveSendHandoffResponse`
-- `%s : !quiesce mask, %x`
-- `inductive cl: G4_C1 : %d`
-- `inductive_adapter_update_published_details`
-- `InductiveTxDSEvent`
-- `getInitialPoutMax`
-- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpMatrix.h`
-- `%s:%d: read failed. resetting %d`
-- `cloak exit`
-- `ui8NfcDisplayState called for unrecognized key: 0x%X`
-- `%s:%d failed to read status`
-- `%s:%d cstat bad cmd %x %x %x %x`
-- `%s:%d Bad Read offset=0x%X error:0x%x`
-- `RS: %s: %s: acc dead: loadFirmware(TX)`
-- `TXDS: notify AP: comms enabled`
-- `%s:%d Invalid parameter range[%d] or data = NULL`
-- `ui8NfcState called for unrecognized key: 0x%X`
-- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
-- `ui8NfcDisplayState: read`
-- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
-- `%s:%d mpp %llu`
-- `ui8NfcDisplayState: write: state:%d`
-- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld, fw_status:0x%llx, assert_id:%d, hw_status:0x%x`
-- `power rail fault: *Fault* in ch %u %lld (thre=%lld)`
-- `qInductiveInFwdlRegulation`
-- `(SOCD) ERROR:failed to fill socd region %d`
-- `swapToRxMode`
-- `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
-- `smc/inductive/inductive_task.cpp`
-- `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
-- `%s: fail init (%d)`
-- `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-- `schedule re-scan for power pause`
-- `Unknown panic action %u`
 - `smc/sys_task.cpp`
-- `S.sensor array 0 - 8 is %d, %d, %d, %d, %d, %d, %d, %d`
-- `ui8InductiveFWCtrl`
-- `QIPP1p4 : TX supported : %d, profile: %d `
-- `RXIC Woke Up`
-- `CA notification error %u`
-- `power rail fault[%d]: flag set`
-- `smc/socd.cpp`
-- `%s: fail log (%d)`
-- `ui8NfcState: read`
-- `smc/ppm_task.cpp`
-- `systemctl: reboot (%d)`
-- `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
-- `smc/key_tree.cpp`
-- `%s:%d connecting %llu`
-- `%s:%d: inductive fw (%d) loaded successfully!`
-- `InductiveTxApplyBootFlagsFromFW`
-- `ui8NfcControllerReady: write: power:%d, scan`
-- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
-- `power rail fault: ADC ch %u reading failed`
-- `%s: rd %dw from 0x%x in %dms (%d)`
-- `%s:%d ctrace cmd %x ccode:%x code:%x %x`
-- `Could not complete appending PMU FW information to crashlog because of SPMI err`
-- `(SOCD) ERROR:Failed to allocate a region buffer`
-- `%s:%d inductive fw (%d) download failed`
-- `%s:%d ERR process backpower request %x`
-- `inductive coex: ilim %d`
-- `Panic trigger received on interrupt #%u`
-- `assert_id = %d`
-- `(SOCD) ERROR:failed to write socd region %d`
-- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
-- `%s : !quiesce, %d`
-- `%s:%d fail sbpow`
-- `InductiveTxResetTxStreams`
-- `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
-- `ui8MagnetEvent called for unrecognized key: 0x%X`
-- `fw_ver_string = %s`
-- `TXDS: st_pout_tx_start_transfer failed with ret=%d`
-- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
-- `systask heartbeat time-out after %lld ms`
-- `exDBB MainFW here`
-- `%s: fail dpi addr rd (%d)`
-- `TXDS: deque tx pkt: stream=%d start=%d end=%d bytes=%d`
-- `AP failed to wake up after %dms`
-- `DPLOSS,nt%d: TPr:%d,TVr:%d`
-- `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
-- `transient %d (%d to %d)`
-- `%s:%d fail rstat`
-- `InductiveProcessEvents`
-- `ui8NfcTagsList called for unrecognized key: 0x%X`
-- `inductive_get_dlog_public_info`
-- `TXDS: fw failed to transmit all data in stream=%d`
-- `%s:%d status OK but state unknown.`
-- `read_status failed; ret=%d`
-- `(SOCD) ERROR:Failed to load socd container, result: %d`
-- `smc/spmi.cpp`
-- `inductive cl: pwr contract: none; settle LOW`
-- `QIPP1p4: rx_qipp_version=%x, tx_qipp_version=%x, txhwref=%u vtgt_ironman_ultra=%u`
-- `target/v53/target.cpp`
-- `smc/inductive/inductive_common.cpp`
-- `%s: fail rd %dB from 0x%x (%d)`
-- `Unknown panic trigger interrupt #%u`
-- `From non-primary PMU: IRQ %d`
-- `ProfSel : TXinfo : %d, prof: %d, fp: %d lk: %d, pc: %d `
-- `ui8NfcControllerReady: write`
-- `(SOCD) ERROR:failed to read socd region`
-- `spmi status: rd trans=%llu recovered=%u failed=%u, wr trans=%llu recovered=%u failed=%u, last_mbse=%c%c%c%c`
-- `rtkptd.cpp`
-- `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
-- `inductive toggle vbus 0x%x`
-- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %.2f epi %d, mpwr %d, fr %d`
-- `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
-- `poutTriggerSet`
-- `QIPP1p4: newSession.`
-- `TXDS: %s: [%d %d]`
-- `nfcEvent_PowerPauseSecondScanTimer`
-- `smc/iphone/pmu_adc_amuxa.cpp`
-- `InductiveAccessoryInfoChanged`
-- `%s:%d err freq denom`
-- `CHI NOTIF failed`
-- `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
-- `spreadsheet ver(*10) %d`
-- `%s:%d ERR process mailbox indication %x`
-- `smc/inductive/inductive_rx.cpp`
-- `%s:%d qc/t wrong: %d %x %x %x %x`
-- `inductiveCL: ilim frozen = %i`
-- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
-- `pmu: missing SRAM address/base_register/size`
-- `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
-- `smc/inductive/inductive_adapter.cpp`
 - `InductiveFWDownload`
-- `flush: %x %x %x %x`
-- `TXDS: rmerr queue %d`
-- `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
-- `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
-- `DPLOSS,lt<16W %d`
-- `IND: CHG: clear charge rate`
-- `%s:%d HIGH_TEMP reached. batt %d pcb %d chip %d`
-- `POP: %s: adP=%d pct=%d initPoutMax=%d`
-- `Waiting %d second(s) for AP to boot up`
-- `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-- `%s:%d ERR set mmode (%d) %x`
-- `DPLOSS,ssto: %d`
-- `inductive adapter: (%d)->(%d) dt: %llu`
-- `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
-- `TXDS: notify AP: comms resumed`
-- `status = 0x%x`
-- `inductiveCL: ilim limiting (ovp) = %i`
-- `spmi status (err=0x%08x): id = 0x%02x, write at 0x%04x, len=%lu, retry=%u`
-- `smc/inductive/inductive_tx.cpp`
-- `%s: ignore attempt to set ilim=%d while quiesced`
-- `inductive cl: pwr contract timeout; ce=%d, rpp=%d, pc=%d`
-- `tx assert triggered!`
-- `ui8NfcControllerReady called for unrecognized key: 0x%X`
-- `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
-- `cloak entry`
-- `%s:%d fail set vbus`
-- `QIPP1p4 : kest: %d, profile: %d, mppVer: 0x%x`
-- `NVMIT: i %d`
-- `(SOCD) ERROR:Failed to initialize socd container, result %d`
-- `%s: %s:%d: %s, Undefined Thermal pressure input %d`
-- `%s:%d vtgt %d ilim tgt %d; (0: not set)`
-- `(SOCD) ERROR:failed to fill socd region`
-- `%s: inductive fw handoff to fw_dst=%d in progress`
-- `TXDS: %s: stream_id=%d out of range`
-- `smc/inductive/inductive_keys.cpp`
-- `inductiveCL: crashed %i %d %d`
-- `%s: fail clear int, ret=0x%x`
-- `nfcEvent_ScanStarted:%d`
-- `(SOCD) ERROR:Failed to read event counters`
-- `%s:%d fail control %x SerializerMute`
-- `%s: unknown key = %d`
-- `InductiveCollectFWLogs`
-- `no_cep clear`
-- `smc/thermal/componentController/pmgrInterfaceComponentDriver.cpp`
-- `ui8NfcPowerPause: write`
-- `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
-- `smc/thermal/componentController/cloakingCC.cpp`
-- `%s:%d Bad write offset=0x%X`
-- `inductive_adapter_update_state`
-- `RXDS: AP notify retry %d, buff %d`
-- `inductive cl: G3_C1 : %d`
-- `sALD r/w = 0x%02X, val = %d, rc = %d`
-- `inductive_adapter_disconnect_debounce`
-- `%s: process event %d`
-- `%s: cap=0x%x, tx_freq_mask=0x%x`
-- `smc/smc_watchdog.cpp`
-- `target/base/iphone18/pmu_target.cpp`
-- `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
-- `smc/unilog.cpp`
-- `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
-- `RS: start dead batt detection; expireTime=%llu currTime=%llu`
-- `error: could not map PTx 'Device Type' (0x%x) to VID/PID; ret=%d`
-- `nfcEvent_PowerPauseStarted`
-- `%s: scan later`
-- `2PP:inductive_data.promotion_to_2pp_state = %u`
-- `%s: handoff approved`
-- `%s: fail dpi rd from 0x%lx (%d)`
-- `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
-- `RS: PTx Info: id=0x%x family=0x%x type=0x%x tether=%d dualr=%d p=%d`
-- `%s:%d:tx:read_status failed; reset inductive ic`
-- `TXDS: error: InductiveTxGetTxStreamEntry error; ret=%d`
-- `spmi status (err=0x%08x): id = 0x%02x, read at 0x%04x, len=%lu, retry=%u`
-- `ind hb failed %d %d`
-- `TXDS: pout_tx_alloc_stream failed with ret=%d`
-- `Waiting for AP to wake up`
-- `smc/pdCommon.cpp`
-- `%s: bad addr range 0x%x-0x%x`
-- `DPLOSS,s:TPr:%d,TVr:%d`
-- `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
-- `%s: %s:%d: 0x%llx, 0x%llx`
-- `%s: fail sleep ack, ret=0x%x`
-- `TXDS: %s: error: unknown evt = %d`
-- `RS: %s: InductiveTxGetRxSoC: remote_soc change: %d -> %d`
-- `exDBB , vb: %d, time: %lld.%ds`
-- `FTAB debug word %d, 0x%x`
-- `InductiveFWErrorRecovery`
-- `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
-- `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
-- `POP: %s: reset not done; lazy reset`
-- `ui8NfcPowerPause called for unrecognized key: 0x%X`
-- `%s: %s:%d: %s, GET_POWER_RAIL_ONOFF_STATUS(%d) not supported (%d)`
-- `paniced_pmu_idx = %u, has_fw = %s, error_count = %u, spmi_error_count = %u`
-- `%s : %d, %d`
-- `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
-- `inductiveCL: ilim limiting %i %i`
-- `TXDS: %s: unexpected data stream size`
-- `smc/miscworkloop.cpp`
-- `Panic forced due to inductive FW crash`
-- `%s:%d vb dis %d`
-- `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
-- `no_cep_count %d`
-- `DPLOSS,clts: %d`
-- `ui8NfcDisplayState: write: state:%d, power:%d`
-- `AP is awake after ~%dms`
-- `inductiveCL: updating ilim (%i) %i + %i = %i`
-- `Battery Discharge`
-- `inductive_update_firmware`
-- `inductive cl: g4: gain4(%d) < %d; settle LOW`
-- `cloak timeout (detect=%d full=%d)`
-- `%s:tx:haltReason %d -> %d`
-- `TXDS: InductiveTxAddToTxStream failed with ret=%d`
-- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
-- `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
-- `InductiveUpdate`
-- `DPLOSS,ruf. Pr: %d`
-- `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
-- `%s: %s:%d: %s, error: callback or list is NULL`
-- `DPLOSS,a: %d`
-- `Battery Power`
-- `%s :rerror: %x %x %x st %x sa %x`
-- `QIPP1P4 %d: Switch profile f %u to %u`
-- `InductiveUpdateCloakStatus`
-- `PMU FW Monitor Parameters:`
-- `inductiveCL: rp %d rpv %d rpi %d vtgt %d vbase %d itgt %d`
-- `DPLOSS,lt. TPr:%d,TVr:%d`
-- `pending, waiting for debounce`
-- `Disconnect held off`
-- `DPLOSS,ltr: %d`
-- `RS: %s: local tether state %d -> %d`
-- `ui8NfcState: write`
-- `pmu_feature_flag set to 0x%02x`
-- `%s: %s:%d: %s, error: registry is full`
-- `smc/pmu/pmu_v3.cpp`
-- `%s:%d Range =%d info not found`
-- `Found FTAB file, valid = %d`
-- `DPLOSS,icl: %d`
-- `RS: TX FW state moved to Idle`
-- `(SOCD) ERROR:Unkown report type %d`
-- `inductive_quiesce_task`
-- `%s: gNfcState:%d`
-- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
-- `RXIC Went to Sleep`
-- `detect mgnt %d. dt: %llu at: %llu`
-- `TXDS: %s: terminated transactions due to disconnect`
-- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
-- `smc/pmu_monitor.cpp`
-- `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
-- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
-- `Disabling AP wakeup assertion`
-- `inductive cl: get vmax %d`
-- `AP is already panicking. Nothing to do`
-- `pmu: failed SRAM read (ofst=0x%08hX,len=%u)`
-- `(SOCD) ERROR:Failed to write event counters`
-- `%s:%d vtgt fail`
-- `iBoot: failed to read Fixture Mode GPIO`
 - `%s:%d Failed to get chip temperature ret=0x%x.`
-- `Sending panic interrupt`
-- `%s:%d Invalid parameter range[%d]`
-- `InductiveRxHandleInterrupt`
-- `%s: %s:%d: %s, Undefined Thermal Level input %d`
-- `TXDS: notify AP: comms paused`
-- `%s:%d Failed to get PCB temperature ret=0x%x.`
-- `RxInit: Only VBUS2 present (force_dbb_simulation=%d); st->DBB`
-- `%s: init pass`
-- `%s:%d set mute %d at %llu time.`
-- `%s:%d err fsk demod rate`
-- `inductiveCL: ramp down: %d`
-- `%s:%d Invalid index[%d]`
-- `pdcom: A%d BCDB !Rdy bat %d Ace %d CapInv %d`
-- `RXDS: AP notify error %d`
-- `inductive cl: arcas init`
-- `InductiveTxUpdate`
-- `%s: scan in power pause`
-- `pmu: sram_addr_hi_reg set error`
-- `Send hibernate SIG`
-- `ULTRA: power_rampdown_mw=%u coex_pwr_limit=%u vtgt_max=%u prect=%u vrect_base=%u`
-- `%s:%d failed to set backpower`
-- `%s: chip vfy fail`
-- `%s:%d fail reply q: %x %x %x %x`
-- `Disconnect %s. fD %llu, pD %llu, cUp %llu`
-- `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
-- `inductive_backpower_irq_process`
-- `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
-- `%s: %s:%d: `
-- `Invalid display type %d`
-- `inductiveCL: pwr limited %d, base pwr %d `
-- `DPLOSS,st: %d`
-- `InductiveSetPowerOutCapability`
-- `nfcEvent_NoPowerScanTimer: state:%d`
-- `smc/smcmain.cpp`
-- `RXDS: rdsema error %d`
-- `%s:%d !RTK_arch_in...`
-- `scan completed outside of power pause`
-- `<<<PMU monitor crashlog end>>>`
-- `(SOCD) ERROR:failed to read socd region %d`
-- `smc/stacks.cpp`
-- `TXDS: notify AP: comms disabled; comms paused`
-- `RS: kHostTxChimeDecision: dcsn=%d prm=%d`
-- `%s: failed to send free log buf signal (ret=%d)`
-- `pmu: sram_addr_lo_reg set error`
-- `%s: failed to send handoff resp signal (ret=%d)`
-- `Ind UID Roll pend.`
-- `smc/systemctl.cpp`
-- `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
-- `idx < list_size`
-- `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
-- `%s:%d: read failed. resetting %d`
-- `In Main without FWDL, returning to FWDL state.`
-- `ui8MagnetEvent: write: state:%d`
-- `%s: err gdpi (%d)`
-- `smc/thermal/componentController/basebandCC.cpp`
-- `ret == RTK_ST_OK`
-- `DPLOSS,rts: %d`
-- `InductiveEnablePeriodicTimer`
-- `ui8NfcTagsList: read`
-- `pmu: failed SRAM write (ofst=0x%08hX,len=%u)`
-- `smc/sys_mgmt.cpp`
-- `%s: %s:%d: %s, SMC BSC failure, %c%c%c%c %c%c%c%c`
-- `inductiveCL: ilim_max %d = %d / MAX(%d, %d) `
-- `DPLOSS,e:%d`
-- `TXDS: spmi write to 0x%08X: from entry %d bytes %d`
-- `Measure invalid: v %d i %d`
-- `(SOCD) ERROR:AP wdt counter is about to overflow`
-- `smc/thermal/cltm.cpp`
-- `%s:%d Invalid handle`
-- `pmu: FW SRAM access not allowed on main pmu`
-- `power rail fault: Restarting`
-- `smc/smc_init.cpp`
-- `smc/thermal/componentController/displayPwrCC.cpp`
-- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpTable.h`
-- `IND: CHG: request charge rate = %d`
-- `pmu: out of range (ofst=0x%08hX,len=%u)`
-- `smc/utils/accum.cpp`
+- `Unknown panic action %u`
+- `smc/thermal/componentController/cloakingCC.cpp`
 - `%s: No valid firmware!!!`
 - `InductiveSetHLOSBooted`
-- `inductive_mailbox_ind_process`
-- `InductiveFWLoggerInit`
-- `PMU FW info:`
-- `preventing overflow for %s accumulator, resetting`
-- `callback && list`
-- `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
-- `DPLOSS,nicl: %d`
-- `InductiveTxSendData`
-- `Disconnect re-published`
-- `%s:%d powering on normally`
-- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
-- `pdcom: A%d BCDB Rdy`
-- `%s:%d ironman %llu`
-- `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
-- `smc/panic.cpp`
-- `%s :nexDBB, disc: %d %d %x`
-- `InductiveTarget`
-- `power rail fault: all rails disabled`
-- `%s: %s:%d: %lld %s %lld`
-- `smc/thermal/componentController/thermalPressurePassThruCC.cpp`
-- `baseline arcas`
-- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld`
-- `RS: dead accessory detected!`
-- `%s: fail wm (%d)`
-- `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
-- `RS: kHostTxIdentification; dev_type=0x%x fmly=%d prot=%d qi_ver=0x%x qpp_ver=0x%x`
-- `ui8NfcControllerReady: write: power:%d`
-- `%s:%d mmode (%d)`
-- `failed to exit cloak`
-- `(SOCD) ERROR:failed to write socd region`
-- `RXDS: retry %d`
-- `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
-- `TXDS: %s: stream %d already in progress; skip`
-- `RS: %s: HLOS booted! notify in %d ms`
-- `InductiveFrequency`
+- `InductiveEnablePeriodicTimer`
 - `%s: 0x%x -> 0x%x`
-- `<<<PMU monitor crashlog start>>>`
-- `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
-- `RXDS: rmerr queue %d`
-- `InductiveUpdateChgIlim`
-- `%s: cloak request %x`
-- `ULTRA: new_vrect_target=%u new_base=%u power_factor=%u rpp_prect=%u`
-- `%s:%d sq emp cmd %x %x %x`
-- `Ensuring that AP is awake`
-- `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
-- `vInductiveCmd`
-- `%s:%d sema but no work %x`
-- `InductiveTxLogFreebuf`
-- `Ind UID Roll done: %x %d`
-- `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
-- `InductiveSetManualMode`
-- `vInductiveProcessWork`
-- `assert_params = 0x%x, 0x%x`
-- `(SOCD) ERROR:Panic counter is about to overflow`
-- `%s: handoff rejected (%d)`
-- `%s:%d sq err cmd %x ccode:%x code:%x`
+- `RS: %s: poutTrig: pending: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+- `inductive cl: g4: gain4(%d) < %d; settle LOW`
+- `TXDS: notify AP: comms paused`
+- `%s:%d HIGH_TEMP reached. batt %d pcb %d chip %d`
+- `TXDS: fw failed to transmit all data in stream=%d`
+- `inductive_adapter_update_state`
+- `InductiveTarget`
+- `inductiveCL: sys load high; ilim_max = MIN(sys_trans=%d, ilim_max=%d) = %d`
+- `no_cep_count %d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
+- `RS: %s: poutTrig:    pass: (t=%d,os=%d,cap=%d,c=%d) . (ibcs=%d | nch=%d | >minpwr=%d) (Pout:%d)`
+- `%s: err gdpi (%d)`
+- `RxInit: Only VBUS2 present (force_dbb_simulation=%d); st->DBB`
+- `%s: %s:%d: %s, SMC BSC failure, %c%c%c%c %c%c%c%c`
+- `Error: could not map NFC Tag Id (0x%x) to VID/PID; ret=%d`
+- `flush: %x %x %x %x`
+- `smc/miscworkloop.cpp`
 - `Adapter Eff Loss`
+- `systemctl: reboot (%d)`
+- `inductive_quiesce_task`
+- `Send hibernate SIG`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
+- `nfcEvent_NoPowerScanTimer: state:%d`
+- `IND: CHG: request charge rate = %d`
+- `NVMIT: i %d`
+- `Ensuring that AP is awake`
+- `%s: %s:%d: %s, Undefined Thermal Level input %d`
+- `%s:%d arcas %llu`
+- `error: could not map PTx 'Device Type' (0x%x) to VID/PID; ret=%d`
+- `systask heartbeat time-out after %lld ms`
+- `InductiveProcessEvents`
+- `inductive coex: ilim %d`
+- `poutTriggerSet`
+- `RS: %s: local tether state %d -> %d`
+- `TXDS: %s: stream %d already in progress; skip`
+- `nfcEvent_PowerPauseSecondScanTimer`
+- `smc/pdCommon.cpp`
+- `power rail fault: *Fault* in ch %u %lld (thre=%lld)`
+- `RS: %s: HLOS booted! notify in %d ms`
+- `RXDS: rdsema error %d`
+- `ret == RTK_ST_OK`
+- `%s: handoff rejected (%d)`
+- `QIPP1p4: rx_qipp_version=%x, tx_qipp_version=%x, txhwref=%u vtgt_ironman_ultra=%u`
+- `inductive cl: get vmax %d`
+- `nfcEvent_PowerPauseStarted`
+- `smc/panic.cpp`
+- `pmu: FW SRAM is in use`
+- `idx < list_size`
+- `%s:%d fail rstat`
+- `vInductiveCmd`
+- `power rail fault: all rails disabled`
+- `smc/thermal/cltm.cpp`
+- `%s:%d Invalid handle`
+- `%s: failed to send handoff resp signal (ret=%d)`
+- `%s: fail dpi addr rd (%d)`
+- `%s:%d Failed to get PCB temperature ret=0x%x.`
+- `DPLOSS,rts: %d`
+- `smc/iphone/pmu_adc_amuxa.cpp`
+- `%s:%d !RTK_arch_in...`
+- `%s:%d ctrace cmd %x ccode:%x code:%x %x`
+- `Disconnect re-published`
+- `RS: dead accessory detected!`
+- `TXDS: notify AP: comms resumed`
+- `(SOCD) ERROR:failed to fill socd region`
+- `%s:%d Bad Read offset=0x%X error:0x%x`
+- `RXIC Went to Sleep`
+- `DPLOSS,ltr: %d`
+- `InductiveTxStreamControlRxInd`
+- `(SOCD) ERROR:failed to write socd region %d`
+- `spmi status (err=0x%08x): id = 0x%02x, read at 0x%04x, len=%lu, retry=%u`
+- `DPLOSS,nt%d: TPr:%d,TVr:%d`
+- `TXDS: pout_tx_alloc_stream failed with ret=%d`
+- `(SOCD) ERROR:Failed to read event counters`
+- `Invalid baseband type %d`
+- `RS: %s: %s: req-tx-init-rs(ret:0x%08x); start swapToRxModeTimer for %llu ms`
+- `QIPP1p4 : TX supported : %d, profile: %d `
+- `%s: fail sleep ack, ret=0x%x`
+- `%s:%d powering on normally`
+- `fw_ver_string = %s`
+- `InductiveSendHandoffResponse`
+- `ui8NfcState called for unrecognized key: 0x%X`
+- `smc/smc_watchdog.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpMatrix.h`
+- `inductiveCL: ilim limiting (ovp) = %i`
+- `InductiveSetPowerOutCapability`
+- `Unknown panic trigger interrupt #%u`
+- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
+- `callback && list`
+- `%s:%d Invalid parameter range[%d] or data = NULL`
+- `RS: poutUntethered timer expired; hard swap; loadFirmware(RX)`
+- `%s: fail rd %dB from 0x%x (%d)`
+- `%s:%d fail control %x SerializerMute`
+- `RS: kHostTxChimeDecision: dcsn=%d prm=%d`
+- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `scan completed outside of power pause`
+- `Sending panic interrupt`
+- `%s : quiesce mask, %x`
+- `inductive_mailbox_ind_process`
+- `%s:%d mmode (%d)`
+- `schedule re-scan for power pause`
+- `swapToRxMode`
+- `inductive_update_firmware`
+- `Found file entry, tag = 0x%x, offset = 0x%x, size = 0x%x, fw_tag = 0x%x`
+- `cloak timeout (detect=%d full=%d)`
+- `TXDS: spmi write to 0x%08X: from entry %d bytes %d`
+- `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+- `%s: %s:%d: %s, error: callback or list is NULL`
+- `smc/inductive/inductive_rx.cpp`
+- `WLCH: ret=0x%x bufIdx=%d, bufAddr=0x%x, hdr=0x%x`
+- `inductive_get_dlog_public_info`
+- `POP: %s: adP=%d pct=%d initPoutMax=%d`
+- `Disconnect %s. fD %llu, pD %llu, cUp %llu`
+- `%s:%d connecting %llu`
+- `ui8MagnetEvent called for unrecognized key: 0x%X`
+- `%s:%d set mute %d at %llu time.`
+- `ui8NfcTagsList: read`
+- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+- `inductive adapter: (%d)->(%d) dt: %llu`
+- `%s :rerror: %x %x %x st %x sa %x`
+- `Waiting for AP to wake up`
+- `smc/stacks.cpp`
+- `QIPP1p4 : kest: %d, profile: %d, mppVer: 0x%x`
+- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
+- `iBoot: failed to read Fixture Mode GPIO`
+- `inductiveCL: ilim limiting %i %i`
+- `%s:%d: read failed. resetting %d`
+- `CHI NOTIF failed`
+- `spmi status (err=0x%08x): id = 0x%02x, write at 0x%04x, len=%lu, retry=%u`
+- `%s:%d err fsk demod rate`
+- `target/v53/target.cpp`
+- `inductive cl: g4: g4(%d) > %d; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+- `exDBB , vb: %d, time: %lld.%ds`
+- `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+- `RS: %s: %s: acc dead: loadFirmware(TX)`
+- `Found FTAB file, valid = %d`
+- `DPLOSS,ssto: %d`
+- `DPLOSS,nicl: %d`
+- `TXDS: %s: unexpected data stream size`
+- `(SOCD) ERROR:Failed to initialize socd container, result %d`
+- `%s : %d, %d`
+- `%s: fail log (%d)`
+- `TXDS: error: InductiveTxGetTxStreamEntry error; ret=%d`
+- `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+- `smc/inductive/inductive_adapter.cpp`
+- `%s: %s:%d: %s, ret=0x%x; q-size=%d; hdr=0x%x`
+- `RXDS: retry %d`
+- `ui8NfcState: read`
+- `ui8NfcTagsList called for unrecognized key: 0x%X`
+- `%s: gNfcState:%d`
+- `sALD r/w = 0x%02X, val = %d, rc = %d`
+- `<<<PMU monitor crashlog end>>>`
+- `(SOCD) ERROR:Failed to allocate a region buffer`
+- `smc/inductive/inductive_common.cpp`
+- `RXDS: AP notify error %d`
+- `%s: rd %dw from 0x%x in %dms (%d)`
+- `inductiveCL: ilim_max %d = %d / MAX(%d, %d) `
+- `%s:tx:haltReason %d -> %d`
+- `POP: %s: reset not done; lazy reset`
+- `AP failed to wake up after %dms`
+- `(SOCD) ERROR:Unknown SOCD storage type: %d`
+- `inductive_adapter_update_published_details`
+- `%s: scan later`
+- `%s: %s:%d: %s, GET_POWER_RAIL_ONOFF_STATUS(%d) not supported (%d)`
+- `TXDS: notify AP: comms disabled; comms paused`
+- `ui8NfcControllerReady: write`
+- `assert_id = %d`
+- `Measure invalid: v %d i %d`
+- `%s: fail init (%d)`
+- `getInitialPoutMax`
+- `Panic forced due to inductive FW crash`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
+- `(SOCD) ERROR:Unkown report type %d`
+- `InductiveFWErrorRecovery`
+- `vInductiveProcessWork`
+- `ui8NfcDisplayState: write: state:%d, power:%d`
+- `%s:%d disc %llu`
+- `WLCH: read aperture magic: ret=0x%x, magic=0x%x`
+- `%s:%d vtgt %d ilim tgt %d; (0: not set)`
+- `In Main without FWDL, returning to FWDL state.`
+- `smc/utils/accum.cpp`
+- `%s: fail wm (%d)`
+- `TXDS: %s: stream_id=%d out of range`
+- `TXDS: rmerr queue %d`
+- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld`
+- `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
+- `TXDS: st_pout_tx_start_transfer failed with ret=%d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `%s: handoff approved`
+- `InductiveUpdateChgIlim`
+- `InductiveTxUpdate`
+- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
+- `smc/thermal/componentController/thermalPressurePassThruCC.cpp`
+- `%s:%d inductive fw (%d) download failed`
+- `cloak exit`
+- `DPLOSS,icl: %d`
+- `inductive cl: arcas init`
+- `InductiveUpdateCloakStatus`
+- `InductiveTxProcessRxInd`
+- `nfcEvent_ScanStarted:%d`
+- `%s: scan in power pause`
+- `%s: %s:%d: `
+- `inductive cl: G4_C1 : %d`
+- `%s: process event %d`
+- `(SOCD) ERROR:Failed to write event counters`
+- `RS: %s: InductiveRemoteSoCInd: remote_soc=%d`
+- `WLCH: read hdr again (1): ret=0x%x, hdr=0x%x`
+- `inductiveCL: ilim frozen = %i`
+- `DPLOSS,ruf. Pr: %d`
+- `%s:%d fail reply q: %x %x %x %x`
+- `%s:%d Invalid index[%d]`
+- `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
+- `%s:%d failed to read status`
+- `RXIC Woke Up`
+- `smc/inductive/poutPolicy.cpp`
+- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
+- `%s: inductive fw handoff to fw_dst=%d in progress`
+- `RS: %s: InductiveRemoteTetherInd: remote_tethered=%d`
+- `InductiveCollectFWLogs`
+- `ULTRA: power_rampdown_mw=%u coex_pwr_limit=%u vtgt_max=%u prect=%u vrect_base=%u`
+- `AP is awake after ~%dms`
+- `%s:%d Invalid parameter range[%d]`
+- `no_cep clear`
+- `pending, waiting for debounce`
+- `%s:%d Range =%d info not found`
+- `smc/inductive/inductive_keys.cpp`
+- `%s : !quiesce, %d`
+- `inductiveCL: rp %d rpv %d rpi %d vtgt %d vbase %d itgt %d`
+- `Battery Discharge`
+- `RS: TX FW state moved to Idle`
+- `TXDS: %s: error: unknown evt = %d`
+- `Remotely triggered SMC panic`
+- `%s:%d sq err cmd %x ccode:%x code:%x`
+- `InductiveTxApplyBootFlagsFromFW`
+- `pmu: sram_addr_hi_reg set error`
+- `smc/socd.cpp`
+- `%s:%d Bad write offset=0x%X`
+- `inductive cl: g3: g3(%d) > 98; pwr_c = %dmW (bounded: %dmW); settle ULTRA`
+- `Panic trigger received on interrupt #%u`
+- `<<<PMU monitor crashlog start>>>`
+- `System Power In`
+- `rtkptd.cpp`
+- `InductiveRxHandleInterrupt`
+- `%s:%d sema but no work %x`
+- `smc/unilog.cpp`
+- `DPLOSS,e:%d`
+- `pdcom: A%d BCDB Rdy`
+- `%s:%d: inductive fw (%d) loaded successfully!`
+- `2PP:inductive_data.promotion_to_2pp_state = %u`
+- `DPLOSS,a: %d`
+- `From non-primary PMU: IRQ %d`
+- `PMU FW info:`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld, fw_status:0x%llx, assert_id:%d, hw_status:0x%x`
+- `%s: %s:%d: %lld %s %lld`
+- `Ind UID Roll pend.`
+- `pmu_feature_flag set to 0x%02x`
+- `Battery Power`
+- `(SOCD) ERROR:failed to write socd region`
+- `%s: %s:%d: %s, Undefined Thermal pressure input %d`
+- `IND: CHG: clear charge rate`
+- `nfcHandleMessage: messageType:%d`
+- `TXDS: notify AP: comms enabled`
+- `ui8NfcDisplayState: read`
+- `pmu: FW SRAM access not allowed on main pmu`
+- `%s: bad addr range 0x%x-0x%x`
+- `%s : nexDBB, tctnRP: %d %d %x`
+- `read_status failed; ret=%d`
+- `ui8MagnetEvent: write: state:%d`
+- `pmu: missing SRAM address/base_register/size`
+- `(SOCD) ERROR:failed to read socd region %d`
+- `%s:%d vb dis %d`
+- `CA notification error %u`
+- `InductiveAccessoryInfoChanged`
+- `RS: start dead batt detection; expireTime=%llu currTime=%llu`
+- `%s: ignore attempt to set ilim=%d in DBB (bcm5935x_state=%d); nop`
+- `%s:%d err freq denom`
+- `%s: fail clear int, ret=0x%x`
+- `%s:%d:tx:read_status failed; reset inductive ic`
+- `%s: cap=0x%x, tx_freq_mask=0x%x`
+- `ui8NfcControllerReady: write: power:%d`
+- `DPLOSS,lt. TPr:%d,TVr:%d`
+- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
+- `status = 0x%x`
+- `%s:%d fail sbpow`
+- `smc/thermal/componentController/pmgrInterfaceComponentDriver.cpp`
+- `cloak entry`
+- `pdcom: BattDesignCap !valid %d`
+- `%s :nexDBB, disc: %d %d %x`
+- `exDBB MainFW here`
+- `RS: kHostTxIdentification; dev_type=0x%x fmly=%d prot=%d qi_ver=0x%x qpp_ver=0x%x`
+- `scanTimeoutHandlerstate:%d`
+- `smc/pmu_monitor.cpp`
+- `WLCH: get_rx_buffer_base_addr() failed; (0x%x) (r:%d); state=exception`
+- `QIPP1p4: newSession.`
+- `ProfSel : TXinfo : %d, prof: %d, fp: %d lk: %d, pc: %d `
+- `Disconnect held off`
+- `%s:%d DBB 15 minute system uptime timeout`
+- `pdcom: A%d BCDB !Rdy bat %d Ace %d CapInv %d`
+- `%s:%d failed to set backpower`
+- `RS: stop dead batt detection; expireTime:%llu->0; currTime=%llu`
+- `WLCH: read hdr again (2): ret=0x%x, hdr=0x%x`
+- `InductiveFrequency`
+- `InductiveTxLogFreebuf`
+- `ui8NfcPowerPause called for unrecognized key: 0x%X`
+- `%s : quiesce, %d`
+- `inductive cl: reached ramp target (isns:%dmA [tgt:%dmA], vrect:%dmV [tgt:%dmV], power:%dmW)`
+- `inductiveCL: updating ilim (%i) %i + %i = %i`
+- `InductiveUpdate`
+- `paniced_pmu_idx = %u, has_fw = %s, error_count = %u, spmi_error_count = %u`
+- `RS: swapToRxTimer timer expired; hard swap; loadFirmware(RX)`
+- `inductive_adapter_disconnect_debounce`
+- `%s:%d ironman %llu`
+- `%s:%d qc/t wrong: %d %x %x %x %x`
+- `%s: unknown key = %d`
+- `(SOCD) ERROR:failed to fill socd region %d`
+- `spmi status: rd trans=%llu recovered=%u failed=%u, wr trans=%llu recovered=%u failed=%u, last_mbse=%c%c%c%c`
+- `InductiveSetManualMode`
+- `inductiveCL: crashed %i %d %d`
+- `InductiveTxSendData`
+- `AP is already panicking. Nothing to do`
+- `pmu: failed SRAM write (ofst=0x%08hX,len=%u)`
+- `%s: chip vfy fail`
+- `RXDS: AP notify retry %d, buff %d`
+- `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
+- `(SOCD) ERROR:AP wdt counter is about to overflow`
+- `inductive toggle vbus 0x%x`
+- `inductive cl: pwr contract: none; settle LOW`
+- `%s: fail dpi rd from 0x%lx (%d)`
+- `TXDS: %s: [%d %d]`
+- `inductiveCL: vr %d ir %d vm %d im %d hdrm %i frz %d stale %d`
+- `%s: cloak request %x`
+- `ui8NfcControllerReady: write: power:%d, scan`
+- `Disabling AP wakeup assertion`
+- `%s:%d status OK but state unknown.`
+- `recieved FW decriptor: base = 0x%llx size = 0x%x flags 0x%x`
+- `DPLOSS,lt<16W %d`
+- `(SOCD) ERROR:Panic counter is about to overflow`
+- `%s:%d ERR process mailbox indication %x`
+- `%s: cps exDBB. np:%d ts:%d ds:%d cf:%d st:%x`
+- `F.sensor array 0 - 1 is %d`
+- `inductive cl: G3_C1 : %d`
+- `smc/inductive/inductive_task.cpp`
+- `preventing overflow for %s accumulator, resetting`
+- `smc/systemctl.cpp`
+- `RS: %s: fw not running (%d); cannot send tether state (%d) to fw; return`
+- `vInductiveTaskStop fail`
 - `2PP:inductive_data.promotion_to_2pp_state timeoutt`
+- `smc/inductive/inductive_tx.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpTable.h`
+- `FTAB debug word %d, 0x%x`
+- `%s:%d: read failed. resetting %d`
+- `assert_params = 0x%x, 0x%x`
+- `smc/ppm_task.cpp`
+- `RXDS: rmerr queue %d`
+- `InductiveTxResetTxStreams`
+- `smc/iphone/nfc.cpp`
+- `RS: NfcTagInfoChangedInd: cnt=%d tag:[0x%x 0x%x]`
+- `Ind UID Roll done: %x %d`
+- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
+- `power rail fault: ADC ch %u reading failed`
+- `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+- `smc/thermal/acsk/sensorInput.cpp`
+- `inductive_backpower_irq_process`
+- `%s: init pass`
+- `inductiveCL: pwr limited %d, base pwr %d `
+- `%s: ignore attempt to set ilim=%d while quiesced`
+- `inductiveCL: ramp down: %d`
+- `RS: notify HLOS booted! (hlosBootedNotifDelayTimer expired)`
+- `ui8InductiveFWCtrl`
+- `inductive cl: g3: gain3(%d) < 98; settle HIGH; request NPP`
+- `TXDS: %s: terminated transactions due to disconnect`
+- `power rail fault: Restarting`
+- `%s:%d fail set vbus`
+- `ind hb failed %d %d`
+- `RS: PTx Info: id=0x%x family=0x%x type=0x%x tether=%d dualr=%d p=%d`
+- `InductiveTxDSEvent`
+- `power rail fault[%d]: flag set`
+- `spreadsheet ver(*10) %d`
+- `%s : !quiesce mask, %x`
+- `smc/key_tree.cpp`
+- `Could not complete appending PMU FW information to crashlog because of SPMI err`
+- `smc/sys_mgmt.cpp`
+- `RS: %s: invoke drv_inductive_hal.role_swap_preferred(%d)`
+- `%s:%d mpp %llu`
+- `TXDS: InductiveTxAddToTxStream failed with ret=%d`
+- `pmu: sram_addr_lo_reg set error`
+- `smc/thermal/componentController/displayPwrCC.cpp`
+- `QIPP1P4 %d: Switch profile f %u to %u`
+- `%s:%d sq emp cmd %x %x %x`
+- `(SOCD) ERROR:Failed to load socd container, result: %d`
+- `RS: %s: InductiveSendLocalTetherToFW: send tether (%d) to fw`
+- `InductiveFWLoggerInit`
+- `ui8NfcDisplayState: write: state:%d`
+- `smc/smc_init.cpp`
+- `failed to exit cloak`
+- `%s:%d vtgt fail`
+- `DPLOSS,st: %d`
+- `TXDS: [%d %d]`
+- `%s: failed to send free log buf signal (ret=%d)`
+- `baseline arcas`
+- `inductive cl: %s: start ramp (isns:%dmA, vrect:%dmV, power:%dmW)`
+- `inductive cl: pwr contract timeout; ce=%d, rpp=%d, pc=%d`
+- `PMU FW Monitor Parameters:`
+- `%s: %s:%d: 0x%llx, 0x%llx`
+- `ui8NfcState: write`
+- `detect mgnt %d. dt: %llu at: %llu`
+- `DPLOSS,clts: %d`
+- `smc/pmu/pmu_v3.cpp`
+- `(SOCD) ERROR:failed to read socd region`
+- `%s: fw_vers=0x%x -> fw_mode=%s (state=%d)`
+- `ui8NfcPowerPause: write`
+- `Waiting %d second(s) for AP to boot up`
+- `smc/smcmain.cpp`
+- `smc/spmi.cpp`
+- `target/base/iphone18/pmu_target.cpp`
+- `%s:%d ERR process backpower request %x`
+- `pmu: out of range (ofst=0x%08hX,len=%u)`
+- `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+- `Invalid display type %d`
+- `%s:%d ERR set mmode (%d) %x`
+- `DPLOSS,s:TPr:%d,TVr:%d`
+- `pmu: failed SRAM read (ofst=0x%08hX,len=%u)`
+- `inductiveCL: ggp %d ggv %d ggi %d soc %d, btemp %.2f epi %d, mpwr %d, fr %d`
+- `tx assert triggered!`
+- `RS: %s: InductiveTxGetRxSoC: remote_soc change: %d -> %d`
+- `ui8NfcDisplayState called for unrecognized key: 0x%X`
+- `qInductiveInFwdlRegulation`
+- `TXDS: deque tx pkt: stream=%d start=%d end=%d bytes=%d`
+- `S.sensor array 0 - 8 is %d, %d, %d, %d, %d, %d, %d, %d`
+- `%s:%d cstat bad cmd %x %x %x %x`
+- `%s: %s:%d: %s, error: registry is full`
+- `smc/thermal/componentController/basebandCC.cpp`
+- `transient %d (%d to %d)`
+- `ULTRA: new_vrect_target=%u new_base=%u power_factor=%u rpp_prect=%u`

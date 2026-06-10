@@ -1,408 +1,408 @@
 ## iboot_blob34.bin
 
-- `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
-- `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
-- `platform/t8150/device_aop.cpp`
-- `(AWL) ERROR: Failed to finish awl report: %d`
-- `smc/apComms.cpp`
-- `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
-- `BAUTH: kick out of sync`
-- `RS: ERROR: toRoleSwapRspType: invalid input=%d`
-- `%s: %s:%d: %s, %u`
-- `AceInductive: Send Fail Notif, PassNotfPend: %d`
-- `misc_workloop`
-- `Elec: ActiveContract Fail Trig1`
-- `dram_region_release`
-- `SLP_WAKE: A%u Disable Sleep, cause:%d`
-- `xAceFindADCResult: vdrHint = %u, vdr = %u`
-- `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
-- `A%d powerAccumErrorCount at UINT16_MAX limit`
-- `Batt Cap %dmAh`
-- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapT`
-- `drivers/inductive/drv_inductive_hal.cpp`
-- `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
-- `invalid command '%u'`
-- `dram_region_assume`
-- `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
-- `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
-- `%s:%d Unexpected interrupt source: %x`
-- `Notf: A%d ldcmEvent`
-- `%s supportIgnoreShutdownDueToInstantBoot asserted, shutdown ignored`
-- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
-- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
-- `DCP idle failed (%d)`
-- `smc/aceUtilEmbedded.cpp`
-- `Adapter Policy VBUS Change not required`
-- `A%d asserted irq`
-- `SLP_WAKE: Err A%u 0x%x when sending SLP cmd (NumFails:%d)!`
-- `platform/common/platform_mem.cpp`
-- `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
-- `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
-- `Thread stats (last %u.%03u ms)`
-- `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
-- `(AWL) ERROR: Unknown PS value %u`
-- `Unable to read battery boot up flag rc:%d`
-- `BMSScratchpad: Not initialized, call init() first`
-- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
-- `pfsm_irq_1`
-- `adc_logging_task`
-- `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
-- `smc/ap_watchdog_logger.cpp`
-- `%d: %llu %d`
-- `Error getting LVR data from PMU for pack %d: %d`
-- `Error setting input current limit rc:%d idx:%d`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
-- `Failed to %s PMU Critical Shutdown IRQ (%d)`
-- `platform/common/platform_power.cpp`
-- `BattChgMT %dmAh`
-- `Resetting charge timer failed, try again...`
-- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
-- `pbuck_adc_push`
-- `platform/common/platform_tunables.cpp`
-- `Ace: End HostAct %c%c%c%c`
-- `SMC HID Event: %02x %02x %02x`
-- `RS: error: %s: invalid input=%d`
-- `Notf: A%d Usb2PlgEvt`
-- `(AWL)  INFO: End AWL report (%zu bytes)`
-- `drivers/pmu/v3/drv_pmu_common_adc.cpp`
-- `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
-- `%s supportCellVoltageShutdown asserted, shutdown requested`
-- `%s: %s:%d: %s, Unable to disable interrupt for pack %d, PTD 0x%08x: %d`
-- `st %d wk %u/%d`
-- `xAceGetRawADCValue: channel 0x%u, rawValue %u`
-- `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
-- `thresholding_task`
-- `(AWL) ERROR: Failed to send AWL request (0x%08x)`
-- `Get Interrupt Mask Fail OneAceInt 0x%x`
-- `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
-- `Unable to write LVR data to GG for pack %d: %d`
-- `smc/forceKeyAccess.cpp`
-- `RS: TX: RS_EVT_POUT_CAPABLE`
-- `batteryShutdownPolicy:`
-- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
-- `pfsm_pbatt_callback`
-- `Debug counters: {`
-- `InductiveTask`
-- `%s: (spmi_addr=0x%x)`
-- `SLP_WAKE: Err A%u Failed to Receive WAKE ACK. TIMEOUT! WakeTimeoutCount:%u ack_expected:%d`
+- `pfsm_adc_sense_callback`
 - `scheduler_enable`
-- `smc/ace.cpp`
-- `BAUTH: task out of sync`
-- `dynamic_agent_results`
-- `PMU HCOM1 IRQ %s`
-- `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
-- `%s supportIgnoreShutdownDueToFullPowerAdapter asserted, shutdown ignored`
-- `interpolation_agent_task`
-- `A%d NeedsInitReset setAppLoadedTimer`
-- `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
-- `smc/inductive/inductivePoutPolicy.cpp`
-- `fury_irq_handler:%d: %x`
-- `A%d SRDOFail Timeout`
-- `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
-- `platform/t8150/device_trigger_interface.cpp`
-- `pfsm_scan_agent_callback`
-- `BMSScratchpad: BMSS region supported (size=%u bytes)`
-- `RESET_WARN timer started`
-- `smc/extPwriOS.cpp`
-- ` DeadBattFlagStatus 0x%x`
-- `BMSScratchpad: read key=%d bat=%u count=%u`
-- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
-- `Ace: HostAct %c%c%c%c`
-- `drivers/thermal/ptdCore.cpp`
-- `BAUTH: Invalid key %x`
-- `ACSt: Shdwn 0x%x`
-- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
-- `scan_agent_push`
-- `Error accessing scratchpad key '%s', rc=%d`
-- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+- `Elec: A%d ActConRd Fail`
+- `Notf: A%d uvdmDone`
 - `thresholding_deassert`
-- `wallet_agent_sample`
-- `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
-- `(AWL)  INFO: Start AWL report (%d)`
-- `BMSScratchpad: Uninitialized, initializing with version 0x%04x`
-- `smc/i2c.cpp`
-- `drivers/pmu/v3/drv_pmu_interface.cpp`
-- `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
-- `(AWL) ERROR: IPA read failed for register at addr %#llx`
-- `(AWL)  INFO: [%03zx]     %02x%02x`
-- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
-- `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
-- `scan_agent_results`
-- `DE: Checksum becomes valid SMC %d AP %d`
-- `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
-- `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
+- `drv_ace_pre_init`
+- `(AWL)  INFO: [%03zx] %02x%02x%02x%02x`
+- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+- `toPoutDSStatusType`
 - `Unable to enable interrupt for pack %d, PTD region 0x%08x: rc = %u`
-- `base_band_agent_event_start`
-- `interpolation`
-- `pfsm_gmadc_scan_agent_callback`
-- `rc_irq == RTK_ST_OK`
-- `gmadc_scan_agent_irq_clr`
-- `AceInductive: Send Pass Notif`
-- `A%u AckSupport PortMode:%u`
-- `%s: battery_set_charging_parameter failed`
-- `    %*s = %d`
-- `Notf: A%d PlgConnStChg %d`
-- `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-- ` E%d %d %x`
-- `A%d SRDOFail Reject`
-- `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
-- `ILIM_FAIL VBUS2_PWR_SRC1 %d`
-- `SLP_WAKE: Err A%u Failed to send WAKE, status:%d`
-- `Notf: A%d ldcmVbusEvent`
-- `DE: correcting shutdown_threshold from %d to %d`
-- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
-- `smc/acePoutBudgetManager.cpp`
-- `BMS: Failed to read SOC1 for pack[%d]`
+- `dram_region_assume`
 - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
-- `BMS: pack[%d] gauge start fail, skip critical`
-- `current_histogram_task`
-- `AceInductive: Send Fail Notif`
-- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
-- `dcp_to_smc`
-- `A%d prevBootSt %x genBootSt %x BFLG %x`
-- `smc/bms/v1/batterySocFilter/batterySocFilter.cpp`
-- `BMSScratchpad: Unknown key for BMSS write`
-- `ACSt: boot !AC`
-- `ADC %s GAIN/OFST: %04hX/%04hX, %u/%d`
-- `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
-- `Elec: Elec Cause 0x%llx`
-- `DE: invalid checksum SMC %d AP %d`
-- `upo_periodic_action`
-- `filtering_task`
-- `pfsm_interpolation_agent_callback`
-- `CrashlogData_t ptr = 0x%08lx`
-- `(AWL) ERROR: Failed to read the awl report size: %d`
-- `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
-- `ACSt: ACpend Exp %d mS `
-- `Boot data log BLC:%d`
-- `thresholding_assert`
-- `pfsm_wallet_agent_callback`
-- `inValid Op %d`
-- `smc/comms.cpp`
-- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
-- `!pmu_ecb.dde_triggered`
-- `PMU DVC Status LDO_DVC_ERROR%d : %02Xh`
-- `BMSScratchpad: Read count (%u) exceeds field size (%u), truncating`
-- `smc/bms/v1/bms_v1/charger.cpp`
-- `pfsm_fw_health_callback`
-- `op:rc:%d, err:%d`
-- `xAceGetRawADCValue retStatus = 0x%x`
-- `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
-- `Scfg Cmd failed for No VBUS Debug logging, %d`
-- `%s: RTK_mc_release returned != RTK_ST_OK `
-- `POP: TXFW: pout_set_power_limit failed; ret=%d`
-- `adc_worker_task`
-- `%s: %s:%d: %s, Invalid PMU index %u (max: %d)`
-- `platform/t8150/device_dockchannel.cpp`
-- `%s supportIgnoreShutdownDueToAdapterConnected asserted, shutdown ignored`
-- `%s: %s:%d: %s, Unable to enable interrupt for pack %d, PTD 0x%08x: %d`
-- `BMS: pack[%d] gauge start fail, skip bootup flag`
-- `Failed to write boot counter data at idx:%d rc:%#x`
-- `HE-nRCS %d Error Status = 0x%x `
-- `BattAbvTh inhbtCurBeforeClosingFET`
-- `smc/aopComms.cpp`
-- `A%d plugPresent %d`
-- `Notf: A%d JuiceAllocEvt aepp`
-- `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
-- `Error copy ilim values rc:%d`
-- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
-- `PMU Critical Shutdown Request entry (%02Xh)`
-- `scheduler_disable`
-- `smc/aceCommon.cpp`
-- `smc/acePoutExtClientIF.cpp`
-- `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
-- `(AWL)  INFO: Collecting data from reporter #%zu`
-- `BMSScratchpad: Future version detected (0x%04x > 0x%04x), zeroing`
-- `ACSt: Failed to read SOC1`
-- `fury_enable_scan: %d`
-- `(SOCD) ERROR:Failed to finish awl socd push report: %d`
-- `Elec: fAceEnableHighVoltage`
-- `Unable to get data from AON PTD for pack %d, PTD 0x%08x: rc:%u`
-- `ILIM_FAIL charger_get_ilim %d`
-- `ACSt: AC present`
-- `TXDS: error: %s: invalid input=%d`
-- `BMSScratchpad: read_bmss_region called with null PMU`
-- `wallet_agent_silent_check`
-- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
-- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
-- `gmadc_scan_agent_task`
-- `pmu_workloop`
-- `duty_cycler_task`
-- `Err ChgHvEnFail V %d rc=%d`
-- `(AWL) ERROR: IPA read of size %zu cannot be performed`
-- `%s GGShutdownFlag asserted, shutdown requested`
-- `smc/bms/v1/bms_v1/battery.cpp`
-- `vBMSTaskStop fail`
-- `charger_set_charging_parameters`
-- `vPMUEventTaskStop fail`
-- `pi_control_task`
-- `platform/t8150/device_aon_ptd.cpp`
-- `(AWL) ERROR: ASCv1 data descriptor was null`
-- `BMSScratchpad: Failed to read BMSS region (rc=%d), zeroing scratchpad`
-- `drivers/pmu/v3/drv_pmu_events.cpp`
-- `(SOCD) ERROR:Failed to finish awl push errors report: %d`
-- `auth IC communication failure (%x)`
-- `LVR init failed: %d`
-- `charger: Failed to set termination voltage to:%umV rc:%d`
-- `rail_energy_agent_push`
-- `battery_health_task`
-- `Evt: A%d PLG_INSRT_RMVL`
+- `%s: (spmi_addr=0x%x)`
+- `platform/t8150/device_pmgr.cpp`
+- `Notf: A%d ldcmVbusEvent`
 - `smc/aceElec.cpp`
-- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
-- `drv_ace_get_irq ui16AceInts=%x`
+- `BAUTH: task out of sync`
+- `smc/extPwriOS.cpp`
+- `RESET_WARN timer started`
+- `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
+- `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+- `Error copy ilim values rc:%d`
+- `smc/comms.cpp`
+- `A%d asserted irq`
+- `AceInductive: Send Pass Notif`
+- `ACSt:okBootAP_OS: %d, BattPwr: %d, ACPwr: %d, FixtureMode: %d`
+- `platform/t8150/device_gpio.cpp`
+- `BMSScratchpad: BMSS region supported (size=%u bytes)`
+- `pfsm_scan_agent_callback`
+- `smc/forceKeyAccess.cpp`
+- `platform/common/platform_tunables.cpp`
+- `smc/ace.cpp`
+- `%s: upo_state=%d, clearUPOConConnect=%d`
+- `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+- `A%d powerAccumErrorCount at UINT16_MAX limit`
+- `drivers/inductive/drv_inductive_hal.cpp`
+- `interpolation_agent_task`
+- `ioreporting`
+- `(AWL) ERROR: %d`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
+- `(AWL) ERROR: Unknown PS value %u`
+- `drivers/thermal/ptdCore.cpp`
+- ` E%d %d %x`
+- `(SOCD) ERROR:Failed to finish awl push errors report: %d`
+- `smc/bms/v1/bms_v1/bms.cpp`
+- `ILIM_FAIL charger_ilim_backoff_state_handler`
+- ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
+- `iBoot CHI1 = %d ignored`
+- `platform/t8150/device_spmi.cpp`
+- `accumulator_task`
+- `HE-nRCS %d Error Status = 0x%x `
+- `smc/ap_watchdog.cpp`
+- `platform/t8150/device_dockchannel.cpp`
+- `Failed to initialize LVR for pack %d: rc = %u`
+- `smc/bms/v1/bms_v1/battery.cpp`
+- `charger_configure_input_src[%d]: ilim=%u, vlim=%u, src:%u`
+- `A%d SRDOFail Cmd didn't complete, TimeOut`
+- `smc/bms/v1/batterySocFilter/batterySocFilter.cpp`
+- `interpolation`
+- `pfsm_rail_energy_agent_callback`
+- `Boot data log BLC:%d`
+- `    %*s = %d`
+- `A%d prevBootSt %x genBootSt %x BFLG %x`
+- `st %d wk %u/%d`
+- `SLP_WAKE: A%u Disable Sleep, cause:%d`
+- `(AWL) WARN: Failed to freeze the AWL IP for reporter #%zu`
+- `Unable to get data from AON PTD for pack %d, PTD 0x%08x: rc:%u`
+- `drivers/pmu/v3/drv_pmu_interface.cpp`
+- `scan_agent_push`
+- `current_histogram_task`
+- `ACSt: boot !AC`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+- `drivers/power/drv_fury.cpp`
+- `pmu_workloop`
+- `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+- `filtering_task`
+- `xAceCheckEnabledADCChannels: chEnables = 0x%08x`
+- `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
+- `(AWL)  INFO: Start AWL report (%d)`
+- `BMSScratchpad: Not initialized, call init() first`
+- `RESET_WARN false-trigger!`
+- `(AWL)  INFO: Skipping AWL reporter #%zu because the AP cores are halted`
+- `(AWL) ERROR: Failed to finish awl report: %d`
+- `dram_region_map_region`
+- `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+- `%s:%d error: %x`
+- `smc/acePowerOut.cpp`
+- `smc/event_buf.cpp`
+- `vPMUEventTaskStop fail`
+- `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
+- `ILIM_FAIL charger_ilim_cleanup`
+- `BMSScratchpad: Failed to write zeroed BMSS region (rc=%d)`
+- `%s: RTK_mc_release returned != RTK_ST_OK `
+- `A%d SRDOFail Timeout`
+- `(AWL) ERROR: Failed to allocate socd report: %d`
+- `%s: %s:%d: %s, %u`
+- `BMSScratchpad: write key=%d bat=%u count=%u`
+- `gg_fw_update_init = %d`
+- `Debug counters: {`
+- `pfsm_fw_health_callback`
+- `smc/aopComms.cpp`
+- `(AWL) ERROR: ASCv1 data descriptor has invalid number of cores`
+- `BMSScratchpad: Failed to read BMSS region (rc=%d), zeroing scratchpad`
+- `RS: ERROR: toRoleSwapRspType: invalid input=%d`
+- `(AWL)  INFO: [%03zx]     %02x%02x`
+- `vBMSTaskStop fail`
+- `Failed to read PMU DVC Status`
+- `Notf: A%d PlgConnStChg %d`
+- `BMSScratchpad: Checksum verification failed, zeroing scratchpad`
+- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
+- `ADC %s GAIN/OFST: %04hX/%04hX, %u/%d`
+- `%s: failure clearing spmi interrupt vector for idx:0x%x (err: 0x%x).`
+- `pfsm_adc_worker_callback`
+- `Notf: A%d JuiceAllocEvt aepp`
+- `ACSt: ACpend Exp %d mS `
+- `rail_energy_agent_results`
+- `BAUTH: Invalid key %x`
+- `frc == RTK_ST_OK`
+- `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+- `DCP idle failed (%d)`
+- `%s GGShutdownFlag asserted, shutdown requested`
+- `!pmu_ecb.dde_triggered`
+- `rail_energy_agent_push`
+- `InductiveTask`
+- `dcp_to_smc`
+- `smc/acePoutExtClientIF.cpp`
+- `%s: %s:%d: %s, Unable to enable interrupt for pack %d, PTD 0x%08x: %d`
+- `DE: invalid checksum SMC %d AP %d`
+- `platform/t8150/device_watchdog.cpp`
+- `UpdSS A%d SSPS %d`
+- `A%d SSPS%d`
+- `Notf: A%d JuiceAllocEvt %d`
+- `Pack[%d] Shutdown flags: Battery=%d reason=0x%x`
+- `pmu man1_conv %Xh %Xh %Xh %Xh %Xh`
+- `PMU DVC Status GROUP_DVC_ERROR0 : %02Xh`
+- `Elec: A%d SRDO Failed %d`
+- `invalid command '%u'`
+- `toPoutProtocolType`
+- `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+- `upo_periodic_action`
+- `AceInductive: CurrInductiveMask: 0x%x, NewMask: 0x%x`
+- `pfsm_dynamic_agent_callback`
+- `Thread stats (last %u.%03u ms)`
+- `dynamic_agent_results`
+- `(AWL) ERROR: Failed to read ace register offset %#x, size %zu`
+- `pfsm_gmadc_scan_agent_callback`
+- `Notf: A%d ldcmEvent`
+- `wallet_agent_silent_check`
+- `platform/t8150/device_trigger_interface.cpp`
+- `A%d !HardReset Evt %x`
+- `smc/acePoutBudgetManager.cpp`
+- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+- `pfsm_irq_1`
+- `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
+- `Elec: ActiveContract Fail Trig1`
+- `(AWL)  INFO: [%03zx]   %02x%02x%02x`
+- `BMSScratchpad: write_bmss_region called with null PMU`
+- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+- `host_irq_triggered`
+- `[OC]A%d detected overcurent event, notify OS`
+- `Elec: fAceEnableHighVoltage`
+- `POP: TXFW: pout_set_power_limit failed; ret=%d`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
+- `pfsm_irq_0`
+- `BMSScratchpad: Future version detected (0x%04x > 0x%04x), zeroing`
+- `PMU Critical Shutdown Request exit (%02Xh)`
+- `ILIM_FAIL charger_get_ilim %d`
+- `ILIM_FAIL VBUS2_PWR_SRC1 %d`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+- `RS: error: %s: invalid input=%d`
+- `pi_engaged`
+- `(AWL)  INFO: Collecting data from reporter #%zu`
+- `%s supportCellVoltageShutdown asserted, shutdown requested`
+- `BMS: Failed to read SOC1 for pack[%d]`
+- `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+- `RS: TX: RS_EVT_HLOS_BOOTED`
+- `PMU DVC Status LDO_DVC_ERROR%d : %02Xh`
+- `Get Interrupt Mask Fail OneAceInt 0x%x`
+- `Unable to write LVR data to GG for pack %d: %d`
+- `TXDS: error: %s: invalid input=%d`
+- `xAceGetRawADCValue retStatus = 0x%x`
+- `xAceFindADCResult: vdrHint = %u, vdr = %u`
+- `smc/ap_watchdog_logger.cpp`
+- `(AWL)  INFO: New AWL Report (Type %d, Version %d, Size %zu)`
+- `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
+- `BattAbvTh inhbtCurBeforeClosingFET`
+- `A%u AckSupport PortMode:%u`
+- `Notf: A%d PWRST_ADAPTER_STATE_CHANGE elec`
+- `(AWL) ERROR: Couldn't read register of unsupported access type %d`
 - ` VBUS_CH: %d, VBUS_FS: %u/100,  VBUS_Scaling: %u, ADC_Res: %d`
 - `(SOCD) ERROR:Failed to write awl socd push report: %d`
-- `(AWL) WARN: Failed to receive AWL response (0x%08x)`
-- `RESET_WARN timer cancelled`
-- `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
-- `(AWL) ERROR: Failed to adjust the awl report size: %d`
-- `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
-- `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
-- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
-- `ILIM_FAIL charger_ilim_backoff_state_handler`
-- `UpdSS A%d SSPS %d`
-- `Notf: A%d uvdmDone`
-- `Aborting AOP iop_ringbuffer at %s:%d`
-- `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
-- ` Min Input Curr %dmA, BestPwr Current %dmA, Active contract Current %dmA`
-- `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
-- `host_irq_triggered`
-- `accumulator_task`
-- `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_START`
-- ` rawADCValue: %u, fAceVbusVoltage: %d mV`
 - `BMS: Pack[%d] SOC1 set`
-- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
-- `pfsm_irq_0`
-- `drv_ace_init_allace_sleepwake`
-- `platform/t8150/device_watchdog.cpp`
-- `BMSScratchpad: Checksum verification failed, zeroing scratchpad`
-- `Error checking charger VBUS rc:%d`
-- `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
-- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
-- `%s: RTK_mc_assume returned != RTK_ST_OK `
-- `smc/inductive/inductiveRoleSwap.cpp`
-- `PMU Critical Shutdown Request exit (%02Xh)`
-- `Failed to %s PMU MCOM1 IRQ (%d)`
-- `BMSScratchpad: write_bmss_region called with null PMU`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)>=Thrsld(%d); stay in TX mode`
-- `pfsm_adc_sense_callback`
-- `pfsm_pbuck_agent_callback`
-- `dynamic_agent_push`
-- `pd charger`
-- `iop_ringbuffer.h`
-- `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
-- `smc/bms/v1/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
-- `platform/t8150/device_gpio.cpp`
-- `ILIM_FAIL charger_ilim_cleanup`
-- `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
-- `fury_irq_handler`
-- `AONPTDTask`
-- `platform/t8150/device_spmi.cpp`
-- `smc/bms/v1/dynamic_shutdown/battery_dynamic_shutdown.cpp`
-- `%s: iSawAnUPO=%d`
-- `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
-- `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
-- `ILIM_FAIL charger_set_path_priority`
-- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
-- `platform/t8150/device_awl_bus.cpp`
-- `ioreporting`
-- `A%d SRDOFail Cmd didn't complete, TimeOut`
-- `Pack[%d] Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d iss=%d vbat=%d dod=%d temp=%d.`
-- `%02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x   %02x %02x %02x %02x`
-- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
-- `%s: upo_state=%d, clearUPOConConnect=%d`
-- `ACSt: OSpend Exp`
-- `A%d unable to acquire smc uvdm lock %d`
-- `Elec: A%d SRDO Failed %d`
-- `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
-- `(AWL) ERROR: %d`
-- `LVR interrupt for unknown PTD region: 0x%08x`
-- `BMSScratchpad: Unsupported version 0x%04x`
-- `A%d SRDOFail NewSrcEvent`
-- `(AWL) ERROR: Failed to obtain AWL caps (%d)`
-- `BMSScratchpad: Unknown key for BMSS read`
-- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED;  wait for CHC`
-- `Failed to read PMU DVC Status`
-- `PMU Critical Shutdown IRQ %s`
-- `(AWL) ERROR: Failed to allocate socd report: %d`
-- `frc == RTK_ST_OK`
-- `smc/bms/v1/bms_v1/charger_helper/charger_keys_intf.cpp`
-- `ACSt: boot AC`
-- `toPoutProtocolType`
-- `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
-- `iOS CHI1 = %d`
-- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
-- `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
-- `Unable to set handler for pack %d, PTD region 0x%08x: rc = %u`
-- `smc/crashlog.cpp`
-- `A%d SSPS%d`
-- `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
-- `Ace:%u Port Mode:%u`
-- `(AWL)  INFO: [%03zx]   %02x%02x%02x`
-- `pi_engaged`
-- `drivers/pmu/v3/drv_t5126_brooklands.cpp`
-- ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
-- `platform/t8150/device_i2c.cpp`
-- `A%d SnkReq W %d mW`
-- `smc/ap_watchdog.cpp`
-- `adc_sensing_task`
-- `PMU DVC Status BUCK_DVC_ERROR%d : %02Xh`
-- `%s:%d error: %x`
-- `Notf: A%d New Contract as Src. Role:%d`
-- `pfsm_dynamic_agent_callback`
-- `(AWL) ERROR: Register read of size %zu cannot be performed`
-- `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
-- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
-- `RS: TX: RS_EVT_WAIKATO_MITIGATION_READY; do nothing`
-- `pfsm_rail_energy_agent_callback`
-- `[OC]A%d detected overcurent event, notify OS`
-- `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
-- `configureTxPout`
-- `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
-- `drv_ace_pre_init`
-- `platform/t8150/device_pmgr.cpp`
-- `A%d lock not acquired, timeout was set %d`
-- `BMSScratchpad: BMSS region not supported, using legacy mode`
-- `platform/t8150/device_forcewakeup.cpp`
-- `Notf: A%d JuiceAllocEvt %d`
-- `BMSScratchpad: Failed to write zeroed BMSS region (rc=%d)`
-- `smc/event_buf.cpp`
-- `rail_energy_agent_results`
-- `smc/bms/v1/bms_v1/bms.cpp`
-- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+- `%s: battery_set_charging_parameter failed`
+- `battery_health_task`
+- `Ace Wake ISR :: ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
 - `platform/t8150/device_asc.cpp`
-- `smc/acePowerOut.cpp`
-- `toPoutDSStatusType`
-- `RESET_WARN false-trigger!`
-- `pfsm_adc_worker_callback`
-- `management`
-- ` VDO %d not found`
-- `(AWL) ERROR: Couldn't read register of unsupported access type %d`
-- `Failed to initialize LVR for pack %d: rc = %u`
-- `charger_configure_input_src[%d]: ilim=%u, vlim=%u, src:%u`
-- `A%d !HardReset Evt %x`
-- `Elec: BestPot A%d %dmW type%d was A%d %dmW`
-- `pbuck_results`
-- `Elec: A%d ActConRd Fail`
-- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
-- `adc_sensing_results_handler`
+- `smc/aceCommon.cpp`
+- `pfsm_pbatt_callback`
+- `BattChgMT %dmAh`
+- `(AWL) ERROR: Failed to read APB register 0x%06llx over AWL`
+- `auth IC communication failure (%x)`
+- `Error getting LVR data from PMU for pack %d: %d`
+- `pfsm_interpolation_agent_callback`
+- ` rawADCValue: %u, fAceVbusVoltage: %d mV`
+- `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+- `scan_agent_results`
+- `Failed to %s PMU MCOM1 IRQ (%d)`
+- `xAceGetRawADCValue: channel 0x%u, rawValue %u`
+- `(AWL) ERROR: IPA read failed for register at addr %#llx`
+- `op:rc:%d, err:%d`
+- `BMSScratchpad: Unknown key for BMSS write`
+- `DE: Checksum becomes valid SMC %d AP %d`
+- `ACSt: Shdwn 0x%x`
+- `RS: TX: RS_EVT_DEAD_ACCESSORY_DETECTED: Pout(%d)<Thrsld(%d); swapToRxMode`
 - `fPathChange %d`
-- `A%d PortRejectSRDO`
-- `RS: TX: RS_EVT_HLOS_BOOTED`
-- `BMSScratchpad: write key=%d bat=%u count=%u`
-- `Critical Shutdown Requested`
-- `smc/bms/v1/battery_auth/battery_authentication.cpp`
+- ` VDO %d not found`
+- `(AWL)  INFO: End AWL report (%zu bytes)`
+- `platform/common/platform_mem.cpp`
+- `(SOCD) ERROR:Failed to allocate an empty socd report to log awl push errors: %d`
+- `DE: correcting shutdown_threshold from %d to %d`
+- `%s: %s:%d: %s, DVC_DONE_ERROR/DVC_GROUP_DONE_ERROR (PMU[%d] %d)`
+- `Unsupported IRQ Number to read PMU DVC Status (%02Xh)`
 - `A%d HardReset Evt %x`
-- `Notf: A%d Usb2WakeEvt`
-- `(AWL)  INFO: [%03zx]       %02x`
-- `dram_region_map_region`
+- `A%d plugPresent %d`
+- `Resetting charge timer failed, try again...`
+- `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+- `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+- `pbuck_results`
+- `%s: failure clearing spmi WAKE interrupt vector:%d for idx:0x%x (err: 0x%x).`
+- `LVR interrupt for unknown PTD region: 0x%08x`
+- `%s: RTK_mc_assume returned != RTK_ST_OK `
+- `(AWL) WARN: Failed to receive AWL response (0x%08x)`
+- `Failed to %s PMU Critical Shutdown IRQ (%d)`
+- `platform/common/platform_power.cpp`
+- `Ace: End HostAct %c%c%c%c`
 - `%s supportVoltageShutdown asserted, shutdown requested`
-- `BMSScratchpad: Valid BMSS data found (version=0x%04x)`
+- `drv_ace_init_allace_sleepwake`
+- `A%d lock not acquired, timeout was set %d`
+- `Unable to read battery boot up flag rc:%d`
+- `ACE_SPMI_GET_IRQ_STATE Fail arg %llu aceid %d`
+- `smc/aceUtilEmbedded.cpp`
+- `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+- `adc_sensing_results_handler`
+- `pbuck_adc_push`
+- `platform/t8150/device_aop.cpp`
+- `Evt: A%d PLG_INSRT_RMVL`
+- `Notf: A%d Usb2PlgEvt`
+- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+- `fury_irq_handler:%d: %x`
+- `Elec: ILIM %u->%u Vmin%u Vmax%u psRdy%d`
+- `Failed to write boot counter data at idx:%d rc:%#x`
+- `charger_set_charging_parameters`
+- `ILIM_FAIL charger_set_path_priority`
+- `A%d PortRejectSRDO`
+- `(AWL) ERROR: Register read of size %zu cannot be performed`
+- `batteryShutdownPolicy:`
+- `pi_control_task`
+- `(AWL) ERROR: Failed to read the awl report size: %d`
+- `SLP_WAKE: Err A%u Failed to Receive WAKE ACK. TIMEOUT! WakeTimeoutCount:%u ack_expected:%d`
+- `Err ChgHvEnFail V %d rc=%d`
+- `RS: TX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; swapT`
+- `adc_logging_task`
+- `PMU Critical Shutdown IRQ %s`
+- `A%d PowerAccumulator or AccumCount close to limits, resetting to 0`
+- `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+- `gmadc_scan_agent_task`
+- `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+- `%s supportIgnoreShutdownDueToInstantBoot asserted, shutdown ignored`
+- `pfsm_pbuck_agent_callback`
+- `fury_irq_handler:%d: FURY_NFC_TO_AP_ACK_TAG_DETECTION_COMPLETE`
+- `platform/t8150/device_i2c.cpp`
+- `management`
+- `AONPTDTask`
+- `pd charger`
+- `%s supportIgnoreShutdownDueToAdapterConnected asserted, shutdown ignored`
+- `ACSt BattTrap: okBootAP_OS: %d, ExitBattPwr: %d, ExitACPwr: %d`
+- `RESET_WARN timer cancelled`
+- `platform/t8150/device_awl_bus.cpp`
+- `%s: %s:%d: %s, Invalid PMU index %u (max: %d)`
+- `%s: %s:%d: %s, Unable to disable interrupt for pack %d, PTD 0x%08x: %d`
+- `BMS: pack[%d] gauge start fail, skip bootup flag`
+- `LVR init failed: %d`
+- `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+- `thresholding_assert`
+- `SLP_WAKE: Err A%u 0x%x when sending SLP cmd (NumFails:%d)!`
+- `Scfg Cmd failed for No VBUS Debug logging, %d`
+- `A%d unable to acquire smc uvdm lock %d`
+- `(SOCD) ERROR:SOCD push buffer header is corrupted - magic is invalid: expected 0x%x, got 0x%x`
+- `smc/crashlog.cpp`
+- `inValid Op %d`
 - `BMSScratchpad: Write count (%u) exceeds field size (%u), truncating`
-- `iBoot CHI1 = %d ignored`
-- `Pack[%d] Shutdown flags: Battery=%d reason=0x%x`
-- `pmu_drv_adc_read error ch%d: status=%Xh value=%d (%d)`
-- `gg_fw_update_init = %d`
+- `smc/bms/v1/bms_v1/charger.cpp`
+- `platform/t8150/device_aon_ptd.cpp`
+- `Pack[%d] Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d iss=%d vbat=%d dod=%d temp=%d.`
+- `smc/inductive/inductiveRoleSwap.cpp`
+- `misc_workloop`
+- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+- `A%d SRDOFail Reject`
+- `Error setting input current limit rc:%d idx:%d`
+- `ACSt: Failed to read SOC1`
+- `scheduler_disable`
+- `%s:%d Unexpected interrupt source: %x`
+- ` rawADCValue: %d, fAceIPPCableCurrent: %d mA, I_VCONN_SCALING_FACTOR: %d/1000`
+- `Ace:%u Port Mode:%u`
+- `smc/bms/v1/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
+- `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+- `(SOCD) ERROR:SOCD push buffer header is corrupted - desc.size(%zu bytes) > total space allocated for SOCD push buffer (%d bytes)`
+- `A%d SnkReq W %d mW`
+- `(AWL) ERROR: Failed to configure the AWL HW (0x%08x)`
+- `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+- `Adapter Policy VBUS Change not required`
+- `drivers/pmu/v3/drv_pmu_common_adc.cpp`
+- `fury_irq_handler`
+- `A%d SRDOFail NewSrcEvent`
+- `iop_ringbuffer.h`
+- `(SOCD) ERROR:Failed to finish awl socd push report: %d`
+- `drv_ace_get_irq ui16AceInts=%x`
+- `AceInductive: Send Fail Notif`
+- `Batt Cap %dmAh`
+- `(AWL) ERROR: Failed to adjust the awl report size: %d`
+- `Critical Shutdown Requested`
+- `smc/inductive/inductivePoutPolicy.cpp`
+- `(AWL) ERROR: Failed to pad the awl report offset %#zx: %d`
+- `ACSt: OSpend Exp`
+- `RS: TX: RS_EVT_POUT_CAPABLE`
+- `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
+- `BMSScratchpad: Read count (%u) exceeds field size (%u), truncating`
+- `A%d NeedsInitReset setAppLoadedTimer`
+- `adc_sensing_task`
+- `base_band_agent_event_start`
+- ` DeadBattFlagStatus 0x%x`
+- `(AWL) ERROR: ASCv1 data descriptor was null`
+- `(AWL) ERROR: IPA read of size %zu cannot be performed`
+- `(AWL) ERROR: Failed to write report of size %zu at offset %#zx: %d`
+- `BMSScratchpad: Unknown key for BMSS read`
+- `drivers/pmu/v3/drv_pmu_events.cpp`
+- `Elec: BestPot A%d %dmW type%d was A%d %dmW`
+- `rc_irq == RTK_ST_OK`
+- `BMSScratchpad: Valid BMSS data found (version=0x%04x)`
+- `smc/bms/v1/bms_v1/charger_helper/charger_keys_intf.cpp`
+- `smc/bms/v1/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; wait for CHC`
+- `RS: TX: RS_EVT_POUT_BELOW_THRESHOLD; Ironbull cloak not available; swapToRxMode`
+- `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
+- `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
+- `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+- `%d: %llu %d`
+- `iOS CHI1 = %d`
+- `dynamic_agent_push`
+- `BMSScratchpad: read_bmss_region called with null PMU`
+- `Error accessing scratchpad key '%s', rc=%d`
+- `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+- `fury_enable_scan: %d`
+- `(AWL) ERROR: Failed to read %d or more PMS registers over AWL`
+- `configureTxPout`
+- `CrashlogData_t ptr = 0x%08lx`
+- `BMS: pack[%d] gauge start fail, skip critical`
 - `smc/bms/v1/charge_control/charge_control.cpp`
-- `drivers/power/drv_fury.cpp`
+- `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+- `Notf: A%d Usb2WakeEvt`
+- `adc_worker_task`
+- `%s supportIgnoreShutdownDueToFullPowerAdapter asserted, shutdown ignored`
+- `PMU HCOM1 IRQ %s`
+- `platform/t8150/device_forcewakeup.cpp`
+- `BMSScratchpad: Uninitialized, initializing with version 0x%04x`
+- `BMSScratchpad: BMSS region not supported, using legacy mode`
+- `ACSt: boot AC`
+- `drivers/pmu/v3/drv_t5126_brooklands.cpp`
+- `(SOCD) ERROR:Failed to allocate socd awl push report: %d`
+- `Ace: HostAct %c%c%c%c`
+- `Aborting AOP iop_ringbuffer at %s:%d`
+- `BMSScratchpad: Unsupported version 0x%04x`
+- `dram_region_release`
+- `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`
+- `AceInductive: Send Fail Notif, PassNotfPend: %d`
+- `gmadc_scan_agent_irq_clr`
+- `wallet_agent_sample`
+- `smc/bms/v1/battery_auth/battery_authentication.cpp`
+- `PMU Critical Shutdown Request entry (%02Xh)`
+- `(AWL) ERROR: Failed to obtain AWL caps (%d)`
+- `Elec: Elec Cause 0x%llx`
+- `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+- `SMC HID Event: %02x %02x %02x`
+- `smc/i2c.cpp`
+- `Notf: A%d New Contract as Src. Role:%d`
+- `Unable to set handler for pack %d, PTD region 0x%08x: rc = %u`
+- `Error checking charger VBUS rc:%d`
+- `RS: TX: RS_EVT_TX_CHIME_HONESTY_COMPLETED; Pout=%d; IBCloakAvailable;=%d`
+- `thresholding_task`
+- `ACSt: AC present`
 - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+- `smc/apComms.cpp`
+- `(AWL)  INFO: [%03zx]       %02x`
+- `RS: TX: CHC: Pout(%d)<Thrsld(%d) AND Ironbull cloak not available; swapToRxMode`
+- `BAUTH: kick out of sync`
+- `BMSScratchpad: read key=%d bat=%u count=%u`
+- `charger: Failed to set termination voltage to:%umV rc:%d`
+- `%s: iSawAnUPO=%d`
+- `pfsm_wallet_agent_callback`
+- `SLP_WAKE: Err A%u Failed to send WAKE, status:%d`
+- `(AWL) ERROR: Failed to send AWL request (0x%08x)`
+- `duty_cycler_task`

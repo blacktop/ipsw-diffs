@@ -1,58 +1,58 @@
 ## iboot
 
-- `panel-vendor-id`
-- `crashlog-compartments`
-- `panel-program-id`
-- `exclave-assigned`
-- `exclave-io-ranges`
-- `spu-allow-uncalibrated`
 - `luma-spu-enable`
-- `%c%c%c%c%c%c%c%c`
-- `-exception`
-- `board-revision`
-- `shmem_subrange_request`
-- `data-isolation`
-- `afksharedmemory`
-- `xnu-access`
-- `legacy_default`
-- `root_serial`
-- `aop-spmi-src-sel`
-- `asc_data_isolation_handoff_telemetry_restricted`
-- `shmem_subrange_allocation`
-- `user_language_enum`
-- `--> 0x%016llx`
-- `panel-variant-id`
-- `panel-device-id`
 - `aop2-pio-src-filt-global`
-- `user-access`
-- `shmem_allocation`
-- `Unsupported chained starts pointer type=%x`
-- `exclave-access`
-- `allow-root-hash-mismatch`
-- `Unassigned`
-- `%llx:%d ptr %p is invalid`
-- `compartments/roottask/`
-- `v68-alt-gpio-cfg`
-- `iBoot Panic: %s: %s`
-- `ced_rack_config`
-- `boot-nonce-hash-method`
-- `gyro-interrupt-calibration`
-- `prox-debug`
+- `panel-vendor-id`
+- `aop-spmi-src-sel`
+- `t8150c4040fpga`
+- `crashlog-compartments`
+- `xnu-access`
 - `GFX firmware indicated more sequences (%u) than expected (%u)`
+- `compartments/roottask/`
+- `%c%c%c%c%c%c%c%c`
+- `v68-alt-gpio-cfg`
+- `double panic in `
+- `enable_debugx`
+- `exclave-access`
+- `prox-debug`
+- `usbcfw_tnt-67`
+- `stack corrupted`
+- `%llx:%d ptr %p is invalid`
+- `asc_data_isolation_handoff_telemetry_restricted`
+- `shmem_subrange_request`
+- `ced_rack_config`
+- `allow-root-hash-mismatch`
+- `Unsupported chained starts pointer type=%x`
+- `shmem_subrange_allocation`
+- `gyro-interrupt-calibration`
+- `user_language_enum`
+- `data-isolation`
+- `panel-program-id`
+- `root_serial`
+- `cL4-kernel/asc`
+- `tcon-power`
+- `could not find valid UUID base in image at %p`
+- `exclave-assigned`
+- `-exception`
+- `v68-alt-gpio-cfg`
+- `boot-nonce-hash-method`
+- `iBoot Panic: %s: %s`
+- `gyro-range-extr-cal`
+- `spu-allow-uncalibrated`
+- `legacy_default`
+- `exclave-io-ranges`
+- `gnss-disable-standby`
+- `board-revision`
 - `gyro-range-intr-cal`
 - `gyro-nominal-extr-cal`
-- `cL4-kernel/asc`
-- `stack corrupted`
-- `gyro-range-extr-cal`
-- `t8150c4040fpga`
-- `usbcfw_tnt-67`
-- `v68-alt-gpio-cfg`
-- `Unsupported chained pointer auth=%x bind=%x`
-- `double panic in `
-- `%s_rtb_enable_debugx`
-- `tcon-power`
 - `%s segment does not fit in target memory`
-- `gnss-disable-standby`
+- `--> 0x%016llx`
+- `panel-variant-id`
+- `shmem_allocation`
 - `panel-build-id`
-- `could not find valid UUID base in image at %p`
-- `enable_debugx`
+- `panel-device-id`
+- `Unsupported chained pointer auth=%x bind=%x`
+- `%s_rtb_enable_debugx`
+- `user-access`
+- `afksharedmemory`
+- `Unassigned`
