@@ -1,0 +1,42 @@
+## libDHCPServer.A.dylib
+
+> `/usr/lib/libDHCPServer.A.dylib`
+
+```diff
+
+-534.120.2.0.0
+-  __TEXT.__text: 0xc84 sha256:8af788feeb750a7c14733fa30d6ff83c5777704f29bc1eaf7a2339ac3081498f
+-  __TEXT.__auth_stubs: 0x210 sha256:59dc5a7c7e227b9f7e93223fb38c6a5d8f06a0f66c82cd329e481316a7f6d9df
++534.160.2.0.0
++  __TEXT.__text: 0xc84 sha256:b8f17f880d77e9eeca225c9be879cf2bf6d4943856092eb1ca3344f27b79dc94
++  __TEXT.__auth_stubs: 0x210 sha256:08153439cbb0cec9818d4cda6613bd85f94b90901b727ebe870362ff92cbdb5c
+   __TEXT.__cstring: 0x162 sha256:739a88ab7781e81199f4d7340750d754ca744052141b4ee8fe9e49a36667f4e9
+   __TEXT.__unwind_info: 0x98 sha256:58735cc4d752457f56c03d02b37ed73891b2d137f4966cd7b3bd870e6cbff062
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x28 sha256:4f3eb95458e3b8984cd39912daab798b09abea88878394c735ab571b654fd89c
++  __DATA_CONST.__const: 0x28 sha256:6217c4504cdb7b232f165ed6948396babc64a95e6d3e0edaf72cb6778e10dc64
+   __AUTH_CONST.__auth_got: 0x108 sha256:44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:99a15555edd005c3b1032b1d66b5e2857d0760cffd698d9877a1cda3e90b7150
+-  __DATA.__data: 0x10 sha256:3436fbb6634f024c5252ecfe7ed114958faa657a4d60744ae07ad120470e6d17
++  __AUTH_CONST.__cfstring: 0xe0 sha256:a5cf0cbaa86e22a0f52666de212c8956d20c053d57f38d1531196d13b466174e
++  __DATA.__data: 0x10 sha256:d230f90f0d5bafe8050740c6f8c91aee96c270094579aaa7d9504bc80bdf2c78
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 9AA19A80-75EF-369F-BA63-5D700EDEFB5B
++  UUID: 0A55239D-42A6-39E1-A559-3ED5C1D2883E
+   Functions: 15
+   Symbols:   48
+   CStrings:  24
+Functions:
+~ _DHCPSDHCPLeaseListCreate : sha256 f5552d0e4be441a77a243ebccda4cb2272e18e4a535b5a811ee9d044335cdb83 -> bf961ee28c252d2e2c01b950410b98e2390c01cfa0bccc3cf9aa412d9771d6ac
+~ _DHCPSCopyDisabledInterfaces : sha256 02d39270fbb08ffe2eb7302a4eef2d9e46b1888965aa9290bb4eccb0524017ad -> 018160608211ee905eca015d8ea301b8c7305acdd4ed88d62f6d80e7b24e1903
+~ sub_2a30a79e4 -> sub_2a325f9e4 : sha256 7433db74dfaff11b11414fe982fbb821432fe53c46e3641b76fad380af361922 -> 4da94f952c8d12f9c664c2f3d570780e77231bcc8c0d96c0afcc5264fc603e38
+~ sub_2a30a7a40 -> sub_2a325fa40 : sha256 2398b039d673c97dbb58f8bd4e1bf169fcd350c00272ce499f75fed2a6483128 -> 80fad37794d3e3ebd2629a009d11d19b8a4f2d06ffd9462721c6d95cfc13cc2a
+~ sub_2a30a7ba8 -> sub_2a325fba8 : sha256 605af8c2f260c6370a7a04a2831967ed61ecd0e6986cd99aa7fd4f49bfc2e617 -> ff3f3983da67f92a1f6431ccd1f09f0bd9f26818bd14dd65d9cd497f226f06c1
+~ sub_2a30a7f5c -> sub_2a325ff5c : sha256 5c949c9c822d0a0f0b5dd8e0889c68eb0e0ec033c53738bbb5fe8920feb26c77 -> 09544eb3ace3a215e827bd612d10acab9727a212d259f68f58c44f186f18b106
+~ sub_2a30a8104 -> sub_2a3260104 : sha256 0eae79625f6e1aa06f84dbbd930be73e9b3ab8b50bf64afb78ca79a3e1537625 -> 6af83f0923fa9d9a87ec9ed62383000c03ce70dbc1da19f7d6e1943bc90827f5
+~ sub_2a30a819c -> sub_2a326019c : sha256 2bfbda8301c4e9963dab1f5d1ccc9694c4c7cffc1dbf37a87d03c1af6d22c1d5 -> 56757d3af739d207c901d89c67ae499322e8309368bb4800b5b5e2673c7975b8
+~ sub_2a30a8280 -> sub_2a3260280 : sha256 85fb94970b0c1c0b54c53d0968716f7e8d1221d3a6a68ca4055ac37886845b7e -> e8727c48914184aa418edbb5051e6c5c553a7e69acfcea11e8e52d058f8c9a78
+
+```

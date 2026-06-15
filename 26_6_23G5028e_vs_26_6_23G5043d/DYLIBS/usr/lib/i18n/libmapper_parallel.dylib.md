@@ -1,0 +1,32 @@
+## libmapper_parallel.dylib
+
+> `/usr/lib/i18n/libmapper_parallel.dylib`
+
+```diff
+
+ 115.120.2.0.0
+-  __TEXT.__text: 0x65c sha256:2a3e92c599cf2b02ae72a51b187b74b615fc47a8f4da6c581185513e80cbfeb9
+-  __TEXT.__auth_stubs: 0xd0 sha256:d5083158578bb4410479aac2e632cb8e91b8169ae9cb034c1275b8e77684ec2b
++  __TEXT.__text: 0x65c sha256:a72c42364ff6ae5ac5955a0b72c781d93fa4ec704d1d77d123a003a474b7959d
++  __TEXT.__auth_stubs: 0xd0 sha256:d7bb649bd986a9ffd71bf5e4c9ff2bd64fee06d904364ac87a32467486f76bac
+   __TEXT.__const: 0x10 sha256:9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db
+   __TEXT.__cstring: 0x98 sha256:e59cf45b8d338aa958c09103d485d85692e8546036d1086a9f19ce89705f4901
+   __TEXT.__unwind_info: 0x88 sha256:c810906936c59b34c57f2e95c2db282ba8cadc826157ec90da1d48e01da5dbf2
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH.__data: 0x40 sha256:a4854e41b4477b2c47672a071f7e8a99d804ee1aed56f2acfba43a10904df994
++  __AUTH.__data: 0x40 sha256:5892204d37c38a0c411bf41e5acce7e950042ccaee9ece0ab0c855a8aff72b44
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   UUID: 787F91B8-FA23-3BB5-B20A-55B0EDC56529
+Functions:
+~ __citrus_mapper_serial_mapper_init : sha256 006a81851016027455691b5c11e216fd26f1a9cc4d0b4f3c9bba5a5b17d32bfd -> 249402cb9105dd3f4d43e1c008f285239cb040e697dc502a729b3892867d551a
+~ __citrus_mapper_serial_mapper_getops : sha256 90e4841c61c30267b1d9f273ee074bdaec33000f34dc6c8236218aea65606a05 -> 18ac9a7ee09bd1721df4305e7d3f116f74471cb80b9fa6cf523168970d95add4
+~ __citrus_mapper_parallel_mapper_getops : sha256 9b21a331b6213fe08d44188a94f5ff04c3e157133e9502b9efb67c1b40768d17 -> a556936d9f73d010dae4b192c56fc4e11b0d5bf12ed71a67669484f6086b8baa
+~ _uninit : sha256 41bacb8ae0e5006f3017609d475f9836269b90ca488383d4c4616840645fbefe -> e6dce139cbd41ba64a81d83d2e32b7ae3968b6fe8de727c607dd5ea28b2b417f
+~ __citrus_mapper_serial_mapper_init.cold.1 : sha256 725095c74b594ffb128898f29a06425046ab7d22111f866e560b6080d7468a7f -> 7a0e201aab88677426f5234c671f325dfe2cf0771d5e36f8abd7074139a35a36
+~ __citrus_mapper_serial_mapper_convert.cold.1 : sha256 74b5f444ebb6e8b0de8bef2c7dfd53acffcafe0ef313ba5afe02b4dc3c140ca4 -> 93949a488c265cec790e1caf51f0a1ba276b7f8965cfe3e91ea13a0e03504ba7
+~ __citrus_mapper_serial_mapper_convert.cold.2 : sha256 23398e1509101531b77952c3578aa759ba52e062d0c8802cbb36b7913dd0fc6c -> a4337231260c2dc89b90425707ec2bfcc4388949355a04cfe8a19d0d931d02e9
+~ __citrus_mapper_serial_mapper_convert.cold.3 : sha256 c0b942df4411f6844f3f2579cc698fb0b2a2fb8cb645b6596d3dbaa538eb6357 -> a84e8f0cc4ab97b2a55c827da1d6c193d37049e9f044597fcc7b9ae2798cd563
+
+```

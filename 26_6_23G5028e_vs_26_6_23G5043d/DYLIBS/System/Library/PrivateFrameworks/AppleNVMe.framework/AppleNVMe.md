@@ -1,0 +1,44 @@
+## AppleNVMe
+
+> `/System/Library/PrivateFrameworks/AppleNVMe.framework/AppleNVMe`
+
+```diff
+
+ 819.120.3.0.0
+-  __TEXT.__text: 0x9dc sha256:877e04498a13ee6a9d9752a5a6f0f77ad330bb588e91974d48be00bb0a154738
+-  __TEXT.__auth_stubs: 0x180 sha256:9487c5b2f6a798b34c0334910d0281de67f14e60da4f9696de62981631f706fc
++  __TEXT.__text: 0x9dc sha256:01f89b9f68781d315e98bfab6d1a77327cc7e1b221bfbb6bcb6deb4f38d75251
++  __TEXT.__auth_stubs: 0x180 sha256:fcad718eaa69ccba6cfb31b5cc5dbfdf230af4f3fe1b939adfb411de6034422e
+   __TEXT.__const: 0x40 sha256:42cccc03d09da1a6df0e5e73fa5b3feff041d993408c193356b9a8140b2e79b5
+   __TEXT.__cstring: 0x3a6 sha256:9ade036b4049a9029469d640f8ef679c3c6bc7365a0eb8b0e196f930089e9eec
+   __TEXT.__unwind_info: 0x88 sha256:dfb26a2b67bbb182ee5c91ac90a0cabbe56fcaafbf9e90f467dfe39047e6626c
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__cfstring: 0x60 sha256:d0c671b4955fe67e7325775175e846964687f00bf1b194b4108a237f3049f515
+-  __DATA.__data: 0x80 sha256:f36abb57fdf1a58061629170018dbee4fff8fb413730ca0864aca8870f61df84
++  __AUTH_CONST.__cfstring: 0x60 sha256:7e04b7ab197418ee6aa11fd1988880e4146e7880f32f5d4124a2b24800c9e319
++  __DATA.__data: 0x80 sha256:f5c21bff7cffcfe77528b0528aad8c0c050908cc2212da5dd5e77ebbbec03ba1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 07F67798-9918-3AB1-B1E3-63F894A2E7CE
++  UUID: 64666863-1AF4-3F72-B575-AD1BD1D7A154
+   Functions: 14
+   Symbols:   54
+   CStrings:  37
+Functions:
+~ _AppleNVMeNamespaceAccessFindServiceByNSType : sha256 c86daa2bd8948daee8a76591fec1a97a4a6e50cf06d8b34f03cb39c9f85d228f -> c5dd0e35595e41ec6d02c4e45dd189c5441123781909a3019ce8426b87cc03f5
+~ _AppleNVMeNamespaceAccessFindServiceByName : sha256 52bde1a3bd1f64b796465a389c55a526375948d9d225f833970a56380105a6c3 -> 24272c5cb7350cff2f4d792c05f29252d4da0d451815f2410b679a6154268f52
+~ _AppleNVMeNamespaceAccessMatchingServiceCallback : sha256 5b5895514b8e86b56919f1b67df2b2dd74de362cbd6ab56261238896a7b6fa41 -> 0579ad0c72ca3257982d30224a62ce8c18e37f53ac54ea1078c330ed4ff6f355
+~ _AppleNVMeNamespaceAccessOpenConection : sha256 6837a0d575016505466f1d27df2d4074f89d4d90fba24f54f0011a5c6052e90f -> d0d66d51328258a80959244ab16deb85f863f91f598a57307e5393fc7bbae499
+~ _AppleNVMeNamespaceAccessGetBlockSize : sha256 5bd12f08fc3f74561b3c7c550d8b266947c9de07f61ea1715fe970bd59a7ff5e -> fefa59314ca27498104378ac9be312d2f78bbfc5070101396b5677b8cb4481b9
+~ _AppleNVMeNamespaceAccessGetBlockCount : sha256 6a35c1a4e7ec06d33790b105391cd8e863cb03c74c485ce0bd491d27bcb701a4 -> 9080dd287436dc04d78e64105e224c4fff07310478ab159ecace4c678c39621c
+~ _AppleNVMeNamespaceAccessReadData : sha256 94a5c8b6e6a42f912af346463c0c7c299fe20d0520f9df1e58df0adc2f5f3647 -> 4dc4ed042af8e668a6d4c7a47d7a0a60f248ded6a17a99b4a920c01afa55c659
+~ _AppleNVMeNamespaceAccessWriteData : sha256 019b5724427e36b33364615345bd0436f777067406c14a951488b6200e8e2a56 -> b988de89c422e1df4d3fde89e3bb9e503000c4bca2a4a0ff6b6229c8cd83cddf
+~ _AppleNVMeNamespaceAccessUnmapRange : sha256 5aeb17a3cd195940ccae6719f76e9d070118a60e4be170904d65d6c1fe639bd0 -> cc8259d6e5e3ee805aa4b5ec842868c34f4fe418759310e4651e931a0c294e71
+~ _AppleNVMeDeviceSupportsPanicLogAccess : sha256 e210d90e7d9ccd168a79fcfdbcd0fe5e9671d7e81f180753a09b0f8cde6292b6 -> 5d4a7333cabb85341fd7a9db12dd485885d2e5a68e48674e92af0cb870fc8182
+~ _AppleNVMePanicLogGetSize : sha256 c147f8993d88f2e209b3d61281ec74e184186be4218f2b441dc72515263d83a0 -> a54f69ccc42923a2c580b9ebbfdc592c6ed28f85b19e2d58b02afe116ab119b9
+~ _AppleNVMeReadPanicLogData : sha256 21b2a75dd2e8c1fe3748f64b92276be15723a5903f60f1eccd66a087f47fbc74 -> 963df5362fd1b59412b20f5422637039e85a78a687c5e4de290bb3aa989912cb
+~ _AppleNVMeDeviceHasAVP : sha256 37cfa6fd7e3583f93d558994f6e7bbc34d2f6134bd8f1ddf95266f1e2ee2eed9 -> 6e0eda3e03580569fc068c1ecab698b0b51f14c525b934e10fd3b4aec413cea3
+
+```

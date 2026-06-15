@@ -1,0 +1,226 @@
+## HSTouchHIDService
+
+> `/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService`
+
+```diff
+
+   __TEXT.__objc_methlist: 0x4a78 sha256:62921498aafaeb3b71673adf1f3b044121f2c21a5ca8b7c15bc38967f61094f5
+   __TEXT.__const: 0x3dde sha256:229860ccc705fbbe2e49eab26ddf2afb18c67d9e99381c98968cc8f8e74eb2be
+   __TEXT.__gcc_except_tab: 0xd810 sha256:adb8c5b6456d700a473294d522d76008b7c23f69c9db980b3fe4959bf82bb021
+-  __TEXT.__cstring: 0xae25 sha256:ad268ecf3808b2d852ed45c0d023f336998ca2070761da587f525e587aa3a3f9
++  __TEXT.__cstring: 0xae25 sha256:7e88da1174c4bee4ab9c74a083c5bfa9e1574f07a7aed5da02005a202dd13af8
+   __TEXT.__oslogstring: 0x37eb sha256:300a4a1dd029243957c3d5647552091baa7cb910a8f585a6598fffdbb97a38c5
+   __TEXT.__objc_methname: 0x6f19 sha256:05dfd1c3523c5c6982dab626dfdf8c9191eef7898899484b7fcf35e1bfc5eb7e
+   __TEXT.__objc_classname: 0xb9a sha256:9c1b4073d0afef9d2f4b3680f8128a46ca7933b24bc7569df6ac95466a5ced33
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0C1ACFCE-649B-3BF2-986E-E57E26D767C0
++  UUID: F9191566-F001-326D-9B2B-2111E0F49A89
+   Functions: 4763
+   Symbols:   26511
+   CStrings:  4513
+Symbols:
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationManager.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/CoreAccessoryManager.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/FirmwareUtil.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/Managers/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/Plugin/
++ /Library/Caches/com.apple.xbs/A19192B0-D61A-42C2-A02E-C06DE4364ACF/TemporaryDirectory.314i4f/Sources/Multitouch/Plugin/Parser/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationManager.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/CoreAccessoryManager.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/FirmwareUtil.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/Managers/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/Plugin/
+- /Library/Caches/com.apple.xbs/878E3751-5D37-4F96-81D1-1BC96F8AFE9A/TemporaryDirectory.4QILtK/Sources/Multitouch/Plugin/Parser/
+
+```

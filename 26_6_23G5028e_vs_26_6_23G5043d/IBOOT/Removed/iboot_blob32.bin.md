@@ -1,0 +1,29 @@
+## iboot_blob32.bin
+
+- `RS: TX FW state moved to Idle`
+- `TXDS: notify AP: comms disabled; comms paused`
+- `%s:%d qc/t wrong: %d %x %x %x %x`
+- `InductiveEnablePeriodicTimer`
+- `%s:%d ctrace cmd %x ccode:%x code:%x %x`
+- `InductiveTxUpdate`
+- `TXDS: notify AP: comms enabled`
+- `vInductiveProcessWork`
+- `TXDS: %s: stream_id=%d out of range`
+- `TXDS: %s: terminated transactions due to disconnect`
+- `vInductiveTaskStop fail`
+- `%s:%d sema but no work %x`
+- `tx assert triggered!`
+- `TXDS: notify AP: comms paused`
+- `TXDS: rmerr queue %d`
+- `TXDS: fw failed to transmit all data in stream=%d`
+- `TXDS: [%d %d]`
+- `InductiveTxProcessRxInd`
+- `%s:%d fail reply q: %x %x %x %x`
+- `AceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+- `InductiveTxStreamControlRxInd`
+- `TXDS: %s: unexpected data stream size`
+- `smc/inductive/inductive_tx.cpp`
+- `%s:%d:tx:read_status failed; reset inductive ic`
+- `RXIC Woke Up`
+- `TXDS: notify AP: comms resumed`
+- `%s:tx:haltReason %d -> %d`

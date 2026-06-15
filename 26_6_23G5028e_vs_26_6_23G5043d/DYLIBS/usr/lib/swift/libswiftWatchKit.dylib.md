@@ -1,0 +1,44 @@
+## libswiftWatchKit.dylib
+
+> `/usr/lib/swift/libswiftWatchKit.dylib`
+
+```diff
+
+ 8.0.0.0.0
+-  __TEXT.__text: 0x670 sha256:fc3ac04091a98caf9a73102022e8f4d99e774f2f7d55a92b8dcd699459cc639e
+-  __TEXT.__auth_stubs: 0xe0 sha256:9a2350968f7fff6360393b9f0269a108a3b639a7c06ee63302612c4c96c1ebeb
++  __TEXT.__text: 0x670 sha256:d5b6997be508febb7fe81a61e86f158adeafcf1434985ef61f07c701c2ca2074
++  __TEXT.__auth_stubs: 0xe0 sha256:57a607543ad846a88557a7a3d0907550eb4ace5fe04eba80fd4347a1454d1ea8
+   __TEXT.__const: 0x2a sha256:d21cbaa213080554d8f7566f29ece80d8ebb0a4c8ccfe1de71e68ef595ac9d67
+-  __TEXT.__swift5_typeref: 0x14 sha256:8a83529ca42a1dc49c12efe097b23346db3dddc0a33a73505ece03a84001b806
++  __TEXT.__swift5_typeref: 0x14 sha256:d95ed16f046a8ab9e2e8c9142698b197d2ff3447328e855fc053eef9218adb46
+   __TEXT.__unwind_info: 0x80 sha256:37fd06bdd53c49a5ae5b5ab5b06b45cad3171da5ac74949e9a2277ad34d7b94d
+   __TEXT.__objc_methname: 0x4e sha256:7b6c4f9f90857c26a62bd0105818f2f5bd728c1e9da13539c483edc8305e0294
+-  __TEXT.__objc_stubs: 0x40 sha256:cfb1d9f2be371bfd9a530b316873afc9ae01989e711141d7faf93c4516f557fd
++  __TEXT.__objc_stubs: 0x40 sha256:4fea53642079764c7ef1e3b7db887b9303dcc580918f55fc81b10917d0c08882
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA_CONST.__const: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x10 sha256:c8211ced1aeeddaf2fc44e86e0beac80a16956c5da69e72a60b4ebf799070394
++  __DATA_CONST.__objc_selrefs: 0x10 sha256:3c04d5a0615e6af4adaface76edf2f1ed13a84cb7fe838e3bb1200566f168b1a
+   __AUTH_CONST.__auth_got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+   __DATA.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0515D822-A5CA-3ED8-90F0-4827A94D7C1D
++  UUID: 88C84361-F786-3332-84C3-25CA61965D8A
+   Functions: 12
+   Symbols:   84
+   CStrings:  2
+Functions:
+~ _$sSo21WKInterfaceControllerC8WatchKitE07presentB020withNamesAndContextsySaySS4name_yXl7contexttG_tF : sha256 5aee2ef4f356e6989cbf77e91ebc80f6ff7c72f277ab6883c7c6555661381abb -> a661d8939c5413e9a66b200863eaab632b858fd32b5dbbfff210f43095545cce
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5 : sha256 f4f0df3f62321aaff87a139d1775da2416d80ab12d287f23d121aaf3a4bac7ea -> a49a5ba02e73ed240ef06e27880127349b4da1fa5a5a71e8d5e6c6ccc4a0c4e5
+~ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5 : sha256 4ba54f5aacd848f3ee06370b509789856e7400ee8aee0316000cae6296dcd661 -> 610b9769db5d9bdb9bc6918b849aaa9c897e94e4cf24492064ef551f73b3c21a
+~ _$sSo21WKInterfaceControllerC8WatchKitE21reloadRootControllers20withNamesAndContextsySaySS4name_yXl7contexttG_tFZTf4nd_n : sha256 081a6a0c45d849bbab5ed66389611b2e4dde29423f2d84ed4c52890da3b26af7 -> 7476116e1a89552275649185e16e53eaac1f4f22e00dbc256a2e1901a96a580e
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 71c04c0f35bfe2c5fe229f42b4cbe8cc236d08d5939a567167809bac98c96a2c -> 850e69f3acb02d83cb7a40f95b8b094d796ab88d2e8b8c53789ef740c06e6f1c
+~ __swift_stdlib_malloc_size : sha256 b9405d6258f59a42ea31b3b90a38ebb1b5bda7f31a286e7ffeaae1f171511781 -> c696ca9f5ed25ecf868c9b2fe44f4d59541e77efed07046a29ea82d26e9f0de3
+
+```

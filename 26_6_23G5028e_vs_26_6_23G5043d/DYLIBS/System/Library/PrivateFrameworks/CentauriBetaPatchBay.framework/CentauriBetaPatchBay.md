@@ -1,0 +1,47 @@
+## CentauriBetaPatchBay
+
+> `/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/CentauriBetaPatchBay`
+
+```diff
+
+ 1.544.0.0.0
+-  __TEXT.__text: 0x850 sha256:fed2c802c6adb98abaa73e34453dcfbc54bda8ba8180762f64d0dd244a91b7ed
+-  __TEXT.__auth_stubs: 0x140 sha256:367840884516ec2c8f3442801402e0530cc3a45ea5279fbc7921353d791bc655
++  __TEXT.__text: 0x850 sha256:bc5870ee80d212fbd221ccd178dd4a8d417944b5888698a2c34ddf0ba4e84fbc
++  __TEXT.__auth_stubs: 0x140 sha256:439bd3bfe94568c70e35212652ff1372f4fc8b1ae026f75f9f159b5424b69f9f
+   __TEXT.__const: 0x20 sha256:edb9c03542e4b616c23b55d2e77734aeede6718d694c8f5ce29db7c5fdae7ef6
+   __TEXT.__cstring: 0x92 sha256:ac44f7bfcf4b655cda09995e55dcce0d1da1e8ad728521c9a3a6e59b4450ea9e
+   __TEXT.__oslogstring: 0x13c sha256:c635c639a34193763d323b043dd7a645627f35a596f1ef36fdfef441af986373
+   __TEXT.__unwind_info: 0x78 sha256:535c4aad96110af5f0e7a1a725e463e5d144ba6d80369418736a4652e60dacce
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__cfstring: 0x20 sha256:6158ca9cb95faa66032b1a605bec5e8cb2554c0ff8a2a384559b78032ce0a51c
++  __AUTH_CONST.__cfstring: 0x20 sha256:5bdfb04c7ce55c2d8f0367f8ff224f31bafb642713ca19c944dcfa64b920418c
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 490EEE7A-C879-37FD-8091-5CA2033A9794
++  UUID: 0E3CF884-E096-3ECE-88EC-E6388673C6E8
+   Functions: 17
+   Symbols:   58
+   CStrings:  19
+Functions:
+~ _getCoexSpmiExists : sha256 9bd1626105b0cf0e528dacc5fe951fee31a072b502bc6e8e52d053f730d4641a -> ba1d1428a3fdd36492d66d7217dcde16861ab136d4890acdf6b5850cdf0497f3
+~ _getCoexSpmiDisable : sha256 b9f2967caa20271862a834e829c3f625f2518804f653fa748ed9a3fe31072187 -> 30ede3280e9d3e433788100e6b325b50328893a3622075a4f6901cc775999650
+~ _getHostPlatformName : sha256 c8a75ade32da79a0673b44d963fe89925e2a39f8d84cd0ae283614eab3c839ad -> 3a2ca634c14586a62b8b045c4166df1ba8dcd3553a398ef7bdb4e708acb3d431
+~ _getIsDevBoard : sha256 039073d30af2bae93c9a766c221f064b9be5caefea66a2769b56478474661490 -> c91db42b21cac22e7032c8476c8ae160e324a715a944766fc83d1d81c14afbf0
+~ _CentauriBetaPatchBayCopyData : sha256 983cba2ecb73fb14fb6dfd109e6e711df5b1f6313f7158f5c83d6f5cf7e3f994 -> 17c71f504393e9bf1913e94bbcada8961822e9ecfc9d478a77018da57bb760f7
+~ _getIORegNodeName : sha256 626d3a88d0686d89c8aeff438e8277d7ddb08aeeab1b027ea5710347306fa5df -> e7c6aa9a1f074f15f839fc9ee88bce8d2a728e77262dfbc0b556bf1820dde92c
+~ _OUTLINED_FUNCTION_0 : sha256 002bc2627958dc2958e89fbda5aef32dffeadb3903a3f53c52adbb93f4eaf877 -> 6ef31acc0a865db12708c571120d9f54e92c13d43028bd411fa8bcec5c4a43f5
+~ _OUTLINED_FUNCTION_1 : sha256 91dd7b2f9f948ac92a2884b5cf0ccb0ecdd08c496c29985e53e56524bb32647e -> 87e6ad04287eb76f145f50ea9e6168b1c92e7b3fa3d20ab1d1900d31e7732042
+~ _OUTLINED_FUNCTION_2 : sha256 7a3e5d3252d758d4bbff8cef6f78f44a4edf211ae59bf7c7500aa0198818dba6 -> 4178e26174c28e3db620ddc0667d984d4ea3a35ebb59b20d1f2abf8474700364
+~ _OUTLINED_FUNCTION_3 : sha256 abbb583ba272708d6f8cdcf270532bbe555a523bbefdbe0e53a3e0e71be171da -> a4c20a6366f79daab8e2da8604836d7ce48c7390159ea9248882a9d67a7c9d62
+~ _getCoexSpmiDisable.cold.1 : sha256 44478359738b7ae52a48d72dcbb7276690526bb11f9bd51f385db871e8f6b045 -> ec85c547e1b0d38e0b000f52a5e55082536b3e85bd43d7c50d639c1795ef1911
+~ _getCoexSpmiDisable.cold.2 : sha256 732a3b55703c5f7f6299977f3d254fdc9441a4c3a5ca49c85eee4bb5c5cfc4dd -> 2a65803dbd40b361a6c7feb312e2b2491b5a67fbf292a3ac2d3829ec1d0b8965
+~ _getCoexSpmiDisable.cold.3 : sha256 2c08c83523da80e34166b88fa20bcb70559e4ced72d65b8e6f4adb0ea6deb55c -> 0de896956abe5f53fedb496f772d46e5265d08222bc9190ae5e6b0fd3cc9fde7
+~ _CentauriBetaPatchBayCopyData.cold.1 : sha256 38bf64a702eab346c24d8271ca75be4cc9235fbc4693ed24e68d3d262fca3055 -> 07633b564f0ea265cdec3fcca6c37a0de483d9a63281613c376f1f4a2875276e
+~ _getIORegNodeName.cold.1 : sha256 e69e0a84fa80863b5e9c555f619cf1ac1053b75e752c8dbaa47de62176c0cd1e -> 64929f083f23f2b9b0473dbe1c0645fd6ac9af8267ef139d19dc97c75cb1729e
+~ _getIORegNodeName.cold.2 : sha256 89cf9396ea3cf9b3cf1769f68339e1f59118f0f2408f43ed10d3227508a3462e -> b3399de843c81e9170ba0301a7c079bcd1a2759a33dc14d67d5b3dab6f44ee73
+~ _getIORegNodeName.cold.3 : sha256 0a942de39765d93b54bb631a33414db8519f51b83ca32b51d55ee664c8ad94ec -> cfbb1130f5e7c7185e84cf4b3cb4e86a24bdc9784e2178a9c896d404c3d70fc5
+
+```

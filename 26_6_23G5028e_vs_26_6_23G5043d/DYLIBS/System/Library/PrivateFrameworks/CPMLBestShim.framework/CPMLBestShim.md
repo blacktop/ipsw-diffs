@@ -1,0 +1,65 @@
+## CPMLBestShim
+
+> `/System/Library/PrivateFrameworks/CPMLBestShim.framework/CPMLBestShim`
+
+```diff
+
+ 117.0.0.0.0
+-  __TEXT.__text: 0x378 sha256:e6b6e43108561ff9e16e15f0c4f9fe5076296c86c7c3970a55f43918c0e835a3
+-  __TEXT.__auth_stubs: 0x110 sha256:0efab61b48a968f0854c092014ecc3cc6312d5425ae9f8019a1129dee015bff1
+-  __TEXT.__objc_methlist: 0xac sha256:688092dbd408f975a1055e295d52f23e9e6cf06661d354e30dd98581851c1fc0
++  __TEXT.__text: 0x378 sha256:911032b670814e6f16823d426693cb5522f07000d3c4dbdb55b6d51e4e0baad1
++  __TEXT.__auth_stubs: 0x110 sha256:01f7fb1ee380deb3ce2f1ee8334fb4d3aab3bb96178f36340a9093fcfd6d7117
++  __TEXT.__objc_methlist: 0xac sha256:e0d83a0c180c2df38e86e8d5b602c9060d0d9e2c4539085eb11bbcdd33ae2764
+   __TEXT.__cstring: 0x2c4 sha256:2e1ff527057266f982e61666009019ccac5c78379205e22e45290205424571a3
+   __TEXT.__unwind_info: 0x80 sha256:44f523c9b5105280c3c8a5ef51bc28df53dfd308d29d006dc51e7477d9b4fd86
+   __TEXT.__objc_classname: 0x33 sha256:c99b3f21f32b1345003f1e81ad45a0b537b6ebac0351c21624ad765a2474bc20
+   __TEXT.__objc_methname: 0x13b sha256:7abf3b0b5c93092129ebe2565e6e29ea1a514d823bbb450ff965be29188b52b0
+   __TEXT.__objc_methtype: 0x56 sha256:9151946a06d85e65c93dc490348545b66398e9a5121188a796f904eb438fbed0
+-  __TEXT.__objc_stubs: 0x120 sha256:1d4032309001a7d5fbd7c4c2241947b438d78ff148d629a9202b17669b006fa2
+-  __DATA_CONST.__got: 0x18 sha256:547e7e49639b6c511b9216f79b9bb56e9079a5d07a15283f0db493afe3418427
+-  __DATA_CONST.__const: 0x120 sha256:e5a6c3958054ef57f16fb7f9713a8900a0c00233b8e3ed35c8437fccf195095f
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:e4ab3f49693a37d100846f8451e39b5ed5ac2e71ea3eb2be64add22da0a55a8a
++  __TEXT.__objc_stubs: 0x120 sha256:19ed9d8bbfa283e1c037ec7bbb362dde3270b1218d969603f1d0db6e8a3378c0
++  __DATA_CONST.__got: 0x18 sha256:cd350f6f02df5bdde0b9a43bf2f719bec92b430419e9aa5589f3072d21757c95
++  __DATA_CONST.__const: 0x120 sha256:39fb971d988d6c0a8f5efdbb703a2a68994f97b35fb90024cd28c60b36f3c413
++  __DATA_CONST.__objc_classlist: 0x18 sha256:5ba62a2deca3f87a4a5882487d7e725e4b2237f47c5a07d7d6dc880f62f9cd61
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x70 sha256:db4a3b664d96a0254a77cafdfb5c713f86fb96d4b9d0ce94ad309e854f38a57c
++  __DATA_CONST.__objc_selrefs: 0x70 sha256:6930f938a08cb38486edf4567424d332ba257b1bb3a78a4b74cf0542a5e03000
+   __AUTH_CONST.__auth_got: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __AUTH_CONST.__const: 0x40 sha256:61fb4b93da64491999f5d47c4349d44d79327513dbfd7e8907c3d3c5ff823e5b
+-  __AUTH_CONST.__cfstring: 0x420 sha256:3a9b7876fffa64963a9fd6ca38bcdccf1b666b70b3e94413705021323a0138db
+-  __AUTH_CONST.__objc_const: 0x1f0 sha256:2e13478dace6a97e4a978ee2d04fe735fdcd912a7ba7c733274657a8f13f80af
+-  __AUTH.__objc_data: 0xf0 sha256:348016f32460dfdba2a0edb206057a30d0cfcb5c52d9862dff88b62c73238a6f
++  __AUTH_CONST.__const: 0x40 sha256:9e02ac1f8d307ed94a475f7c5a50ca1610f1ba087bb34682f2a831a50712f2c7
++  __AUTH_CONST.__cfstring: 0x420 sha256:f2cd18baa958f267aaf57ade45b09519542ab9c66d034070e8545e88f131461a
++  __AUTH_CONST.__objc_const: 0x1f0 sha256:4286654c99c28b860f7540d79c10847a2dbe7ab4f50840d82bcd4456f1b3491b
++  __AUTH.__objc_data: 0xf0 sha256:59cfc5663ef033d66a731148e38d72ad19db60cbde1ce6c0806c93171af8541c
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+
+   - /System/Library/PrivateFrameworks/CorePrediction.framework/CorePrediction
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AD4DAECC-C3A0-37E7-B111-F4DAE0F3D472
++  UUID: 0A2C10CF-5333-3AB1-A52A-527DB87C5CAD
+   Functions: 14
+   Symbols:   117
+   CStrings:  92
+Functions:
+~ +[CPMLBestShim bestShim] : sha256 699f7e1d68225dbce3de31745316c696aa93110ec6210b05b44616eed5fff3c7 -> 7ec99200132226104df2566bf5dff7fb98fe09dccfd2a3407f02746733c03925
+~ +[CPMLBestShim bestShimWithDBPath:withModelPath:withPListPath:] : sha256 231ee5dc33e4b2e8ecc85b5be89f8a032fdeb4e25334adc1d2bb4893e28d7117 -> 18d87aea3086a26fb4946f2c63ff4936e41093a5024f2e0f151c1b8aff7899ec
+~ -[CPMLBestShim rankItems:withMetaInfo:withNumOfRankItem:] : sha256 0a6db2fb740fb36186fc6cecd127421280dcd54b75597b907e3b13ce72890b19 -> fa420e385aa2db505d53b5fc0c207fae14c4dc13fbcdcf9b00a74095523384aa
+~ -[CPMLBestShim feedback:withItemsVisited:] : sha256 1372fe326d8b133481c9dfe9d91e9331266de1c3d899b13a5eca3081574f3515 -> 7f0242b6144450291c4e966caae294b1331176ece5b2481bfb15ea603efe59c6
+~ -[CPMLBestShimContext orderedSuggestions] : sha256 5aadead7246109bf77fa6c1974028f75066341034aff2c68f214bf1e004989ab -> e1cd63722f5cafa733f5a8abd9ecf800ad23fd46d554add3979085ff246a0d53
+~ +[CPMLBestAppShim bestShim] : sha256 7cfd3f1853752605df59bb0a51407f4dd330062a8b41dfcd8c1fda7eb3619857 -> 4e9690d919d83ab65267abe33613eab7de2274fcd0602377a992ae60c1ec0995
+~ +[CPMLBestAppShim bestShimWithDBPath:withModelPath:withPListPath:] : sha256 d93933860ae0cfd94e30d3da036edaa48298299eb9be24ac0a078837e5845eed -> 146a1518808c1a37b94b2ccc21366abeafa29190e42d0137ccd4c9839db9f5b6
+~ ___66+[CPMLBestAppShim bestShimWithDBPath:withModelPath:withPListPath:]_block_invoke : sha256 9cfb7f147e634ca5e6a9023b04e722e82b0720f28e14e6efe5791e75b954e6cb -> 39c5876f06591e331b4bde5582dab3e6ce31c70140755a047d8231c0bd961ce7
+~ -[CPMLBestAppShim rankItems:withMetaInfo:withNumOfRankItem:] : sha256 fb8d1b1c429a7eb6ea15c2a9c1dacbb47fc7aefe5e59daccaa232b4143c5e7e3 -> 85fc4b183f605eea36c86daee6033a52bac89d872f559b5cad4740979a1b2198
+~ ___60-[CPMLBestAppShim rankItems:withMetaInfo:withNumOfRankItem:]_block_invoke : sha256 aec3ecc876b45766ebbac4ed7a32556c4e91808d8fe27cc08e062a8c28c96084 -> 88b94352def9d7a84eacbb28b8bdfcec64d7c901591c20c237364026ae8149e6
+~ -[CPMLBestAppShim feedback:withItemsVisited:] : sha256 80689ced1d4cb755a8bbc1f81c813b84b01c9946463ef6ba423948d735a4367f -> 20874a42044fe0487cf64767a913317dc9a2bb5c0b45b12382d5ccc2d577239e
+~ +[CPMLBestAppShim bestShimWithDBPath:withModelPath:withPListPath:].cold.1 : sha256 32f7aca6edb61b67ee685fc544e2ad54aaf755a338ff6f204bdb63bcff440285 -> f6a63cd493825cae1ace693b29733cbb2784a81c846f6f87755ca15948405e75
+
+```

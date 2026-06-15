@@ -1,0 +1,94 @@
+## SMBClientProvider
+
+> `/System/Library/PrivateFrameworks/SMBClientProvider.framework/SMBClientProvider`
+
+```diff
+
+ 231.120.1.0.1
+-  __TEXT.__text: 0x1870 sha256:7af2490ec331b11f36dcbe04fec2ccf6f7f39b1aa9ba0ec8bc2bbc7aeedad40a
+-  __TEXT.__auth_stubs: 0x1f0 sha256:3ba1e817b647efe938480aecf7b59f7d48c15ebcb89645f5ad8864880eb9c8a2
+-  __TEXT.__objc_methlist: 0x170 sha256:6aa3624ed9144892ae225dfcd9cb0bfe769e74f7c43ec8cc2b89ebbd621dfc2f
++  __TEXT.__text: 0x1870 sha256:5f4a17044b9b8e3ac90d799796e3e6573d5c925a0d97fd30207536bb858663fe
++  __TEXT.__auth_stubs: 0x1f0 sha256:931fd22b4220f41fdba8f7a029167d764af9439914204e33113e21f9b3cc6c85
++  __TEXT.__objc_methlist: 0x170 sha256:67ecbda0cfef32070884ba4beefcbe2b9e9c8597f43284a3e42a42ba66b6697b
+   __TEXT.__const: 0x80 sha256:9d7288ea7d54696e8c02a231ba27d8f34e5295a82e55dbb4697d3b5c5635bceb
+   __TEXT.__gcc_except_tab: 0xe8 sha256:7279ed14facdbdf6eca66194de2af38d2c61eedf9617bae5e27f606ffb239d9d
+   __TEXT.__cstring: 0x122 sha256:54cdf677d919cfbf80eb6114ee5de0fe7f2e1d0698a05d3a33bd4df0863b65c8
+   __TEXT.__oslogstring: 0xe2 sha256:f24fa3bdf47f550f60f0c16d0ef27e5b782e2552ccbedcae2f5e275c7aa60c58
+-  __TEXT.__unwind_info: 0x108 sha256:f751e4925ae7837474fb1d20334acb2450fa79dc1b30eb504fd9ff9ab9f8fa4d
++  __TEXT.__unwind_info: 0x108 sha256:1c8bdacb39b617151b7f169a154b9004b3d7c8c36fa0fda6b68621ab6de16fe0
+   __TEXT.__objc_classname: 0x34 sha256:a7a8953f3faeef321c194175560b9494dd548ea845b8f6c0c59f66338cf361e8
+   __TEXT.__objc_methname: 0x4c5 sha256:1e7781dd6a45b9ea7be9079194b5feaad551f7f601718d42c2912bf521f8c882
+   __TEXT.__objc_methtype: 0x373 sha256:6d99aefe41da135d0bbccd3569f4a1e7b58dfd3c83c62604bf020dc011c3153d
+-  __TEXT.__objc_stubs: 0x280 sha256:60fc420f73d6ddb56c989669d7dc8c96f52647a78bbaf576b7dbf8cd26b17f84
++  __TEXT.__objc_stubs: 0x280 sha256:a146eb593885ce4cbe41e90b6dc08dc92f524da9306744da80a72bbd99fb2f09
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__const: 0x140 sha256:d0dbabc91c1676abd690bc751d8e6b46594cc5e355ae1383b31fe3b3f3787c1d
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:db58339044a45c8277b4acfcf90581e8cd4063040b730b5591506adc3cea0b3a
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:1c84df727c54ae7daa232080edd9d6f8cc79a82b43904aeb2c2643424494aeda
++  __DATA_CONST.__const: 0x140 sha256:af64b24b8c08f42007792be9c43beb8e40c93efe9d7a1bdf343e7f2a9545b8ef
++  __DATA_CONST.__objc_classlist: 0x8 sha256:56c7827357283ba4449540aaa45237c98cc94571ea7d06e432b0299542465ee5
++  __DATA_CONST.__objc_protolist: 0x10 sha256:58ffc7d6036a5a9105c20947e48ef3f048ddd8a21578a94560cfe9ce04fe6bc2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x138 sha256:0fdbfc958abaa718cdf726440cc0a3bdd358945a625cf82f57d8434698f3dd44
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:76e9d6ffca1210358d0348d52f2229c0fd47c491d994d721fdc617c2dea4edac
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:db58339044a45c8277b4acfcf90581e8cd4063040b730b5591506adc3cea0b3a
++  __DATA_CONST.__objc_selrefs: 0x138 sha256:cd32eb79f2fbf428258e45c15fa74b7d1461e59f1744a55e9bbf12e834b59b0c
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:d72726bdd4d86b49f7f2a253968f617fff1b41209f01fb2c19d8440dda96119a
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:56c7827357283ba4449540aaa45237c98cc94571ea7d06e432b0299542465ee5
+   __AUTH_CONST.__auth_got: 0x108 sha256:44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72
+-  __AUTH_CONST.__cfstring: 0x20 sha256:cfa230285e19d88bf35f6ca9077a501c6e6c880af1e470870ce04f7a71e66979
+-  __AUTH_CONST.__objc_const: 0x110 sha256:28a5c756811aea003f76e292692f95d1053ccc19f12b97c2847eb65c80abfd0d
+-  __AUTH.__objc_data: 0x50 sha256:354c391c0f2869dc3bee81a3774595c4c86f51a7b60663d0a73b3a591012d5b0
+-  __DATA.__data: 0xc0 sha256:885eadea46588fb35c5a16810d3fc06f18ae2724df809bff41f8c041224b9723
++  __AUTH_CONST.__cfstring: 0x20 sha256:b962f34c43a9f3c9981897d30e7c0dd0ea241d0d92cd3ac4d71f80568db561de
++  __AUTH_CONST.__objc_const: 0x110 sha256:d750e35512e65a7554b9e85e8f6c4da187d59228f5a93fcbf78a817cb7abaa51
++  __AUTH.__objc_data: 0x50 sha256:04a10bba2aae8cabcc4f1d8af04d7b2c9d0e7e4cc54627ea008d30c84b07981f
++  __DATA.__data: 0xc0 sha256:4fce6590cbdce26c01ae83e0df23fd1dee968944339fe457efa9f739add0e381
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2113EA35-5BFC-3C19-AD8D-28A665BB538D
++  UUID: D5A17CF8-484A-30FC-8033-9BB27A8470C9
+   Functions: 47
+   Symbols:   191
+   CStrings:  83
+Functions:
+~ +[SMBClientManager newManager] : sha256 a9bebc6d847e8aaba17f2301958671aed059e4192e71dc06ec46f8d0c77c38fd -> 6e094e817b42ed49cc4c0ce4bb4a1c597201260868820e6d25bb400d588c1ff8
+~ -[SMBClientManager volumes:] : sha256 1e1d2466a8327219a5e9cff27b1e8bfded1f75b867af11970365722db96d63de -> 3d148cab946270b1093755b3f76fdec06b3d9863768458870f44cf26ed5abd47
+~ -[SMBClientManager volumesWithCompletionHandler:] : sha256 f68bbb126545ca2c6bf1d4a6028c73600b287e6047ae430aa2e4473b66598a23 -> 1ed92bac211fc0a723ce03f902c70059dab1397767cc14f452ced5c52cc79a96
+~ -[SMBClientManager listenerForVolume:error:] : sha256 ecf78745f71423a57d0741aa77509abf36b8ad6e1fb7d48196d71ac6e3223ffc -> 7aaa9975a4e2f11ff9b9eeb1cdb49d9f03ff91b601304c90054e3e6401b5780f
+~ -[SMBClientManager listenerForVolume:completionHandler:] : sha256 3402e518b0ccee11f7dea2630fd54265fa458c76256d2515d65bcced8263c4a5 -> e9a1af380c94fc3864167a171b53a5a01c4294129e21284371bc0945f8e775ef
+~ -[SMBClientManager forgetVolume:] : sha256 4a521ed0236f52861f600f11d1f383b61fe6b71ef260e8dd45d0f79a1f844339 -> 874b471a1c2a9eeee10e4e0177cd08749e96bd5037465e071def58c2efe61726
+~ -[SMBClientManager forgetVolume:withFlags:completionHandler:] : sha256 8d321b15a42cc1ee3d52920b76ff0c9b8c9aeb2d2f7eb89024912adaabb2e0b5 -> 4ad02f6d14d58fcad407a45515e9ee01691924061b2284ff57f328518fec1592
+~ -[SMBClientManager addVolume:atServer:credentialType:credential:] : sha256 8c7c31681ca4073bdcf260922244e667640eac498c8df141a3eb3b9c9cd7aa4c -> 3a390e88f1d18ab65aa7913c3cb749e73670a964145e1e6c74026c03b4e2fbb8
+~ ___Block_byref_object_dispose_ : sha256 0f1efdb32f0b53cc9429332be2dafac3c632ee4e48116b2c8accbee49c24bb41 -> 72a43f620237caf24c7b8f73549e02832d8ebada9257e940ac65e9280aed17ef
+~ ___65-[SMBClientManager addVolume:atServer:credentialType:credential:]_block_invoke : sha256 4ad87974eba116c49b15851cee2816f37f4499d9d9d058a24c2a46e1ce62f966 -> b5b3560d32101aae87d410fae1031fde45166f4647c8f58a34cfe2c05083c955
+~ ___65-[SMBClientManager addVolume:atServer:credentialType:credential:]_block_invoke_2 : sha256 67b42f59bf12352888454adf56230bcddaca9ea31add0751f29ccc77b900b02f -> dd46c4b2b18eea95487f1b6e8f13bb5489bf4ac7bae508bab7504b3873cfbe7b
+~ -[SMBClientManager addSMBServerOrShare:completionHandler:] : sha256 c012f1c0c825c7cdceb9f5292d43c5d23b70e1efb994eb4b0b1f0ad472c03139 -> ac9f530a88a0dd00a745cb2cc1bc8cfd34199c385bb89c997f1a4d79402bcf3c
+~ -[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:] : sha256 d8d05758c2d06265a7e8a6c168774122f3ee0f7d396193ae0d2afac1ed389b49 -> 3b57a83ac9e8db0a1b1af938a8619dafab604a5cf128a4c71c4edf4a870c7c19
+~ ___Block_byref_object_copy_.41 : sha256 8c171c41ab70233ae7ea067151a96c89bf4878a3937ebf8d8ee354094ad80bbe -> 54425036ca65b36ec016251347a22e576c623a4e10927c871466bc527cfc30f5
+~ ___Block_byref_object_dispose_.42 : sha256 552be804c89f7fc46dd405b690b5614dd67e5f0851e135078d6b3e7aadb71157 -> 638f3a6c5ff3f25dc4ec40ea53c2c505f436fa47fbffd3002ba38948d6dd786f
+~ ___84-[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:]_block_invoke : sha256 6e428b0a835bd54a6faff9fa56376f9c3fc3e32ec18dcd4688178f0c52e36ff9 -> 193056e707b6b0f4824b729c046bc84c2636b1a0690a57e96f63ce8c3407f7a3
+~ ___84-[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:]_block_invoke.47 : sha256 0709627d2a6fa9b5c464f3f804d0c6e60e57ede31417ccfced3d12b606ef9867 -> 235d95ea04060483217d6ecf372f325c9cfeed1bda4f3a91940f9c51a7053e05
+~ -[SMBClientManager sharesAtServer:credentialType:credential:error:] : sha256 bc821089dabddbaf40dbe29caad26d6351d80e91057d41f4daf11839d6c807fc -> c173571db1ad56181c0b9b3916bbe7ce4025feb34e3c2f480533379393485a29
+~ ___67-[SMBClientManager sharesAtServer:credentialType:credential:error:]_block_invoke : sha256 f46bdaf1ed7fa9827ebc42f14dcdf4c37acdc285324094dad6895b0b6cd94361 -> f0f4412ba56386c5f6767dbdd5c794d079bcfcbbb1ae8bf0390da7c5c22d6dd1
+~ ___67-[SMBClientManager sharesAtServer:credentialType:credential:error:]_block_invoke_2 : sha256 147f60dc10710035c3f892dadfbe32bbd0dc82505533bb1831cbd0e378c1fc4a -> e44f191d36c9bb9a612267d088669dd40963fba34b410a4ff56d7b50c134974f
+~ -[SMBClientManager sharesAtServer:credentialType:credential:completionHandler:] : sha256 db63ff3dd77532dbc41d8b78d2244a38509ce7a1ca11f9e70bdaf16dbd505fc6 -> 414ac60facfc726a5faf44268643deb4618ebfba2de09bf3eb4d80286b92e412
+~ -[SMBClientManager credentialTypesForServer:completionHandler:] : sha256 7c1d0357142725624cff21a46184bc32b4486a6ef8729010e39add7b395d7634 -> c9c1524b34e692c5bbf372cbc81d5bf3b001f21219c9aea6dd25b8f39b2d6d0d
+~ _OUTLINED_FUNCTION_0 : sha256 4d3af87f3e14f08fa40fd954d082a312221df878173608b0987aec57f687055e -> e70ddff557e1544f957da6b4637f5017278cd459a460c3694c1118f81b54fe2c
+~ _OUTLINED_FUNCTION_1 : sha256 0dfa958e4342bd9696ec76ac8fafb14657be4a3f83010ff9a7bf648fdd7f6a87 -> 893640380360434ecc76c8c5f9d33f804e5b6f3f4e06588c21c50b3e5c96857d
+~ _OUTLINED_FUNCTION_2 : sha256 f1219c50c855dd7405149747bbeac0f51c937c7d772a3cb1bdef16e3263afda0 -> d32102231412796b2b6e28f941efcfeb23198c4345a011dca2306cf3c1e0cc9d
+~ -[SMBClientManager addVolume:atServer:credentialType:credential:].cold.1 : sha256 caae49b9bdde53e1d10506964dafe99ff6556462c7d3edb7c342dbe2d2bf652a -> 942846a65ae47e2d96e297c703a81a55501976f3be66e3b1fcff2877112d836b
+~ -[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:].cold.1 : sha256 77bf6c2bbbf64422275573d16dc861e959c0e9019b950c519819479fa940fc72 -> d98d782d5486fab08c749981d9dc73836f5b646d2c87a06b9df422d7e2aeb69c
+~ -[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:].cold.2 : sha256 a5b437cb998de67537233340d646cf69925b97a5099d4c83d90740510e3f4254 -> 6438e41099f944aeedac26632f9b174ce8a1f227d24f3775a790932e3ea7e87e
+~ -[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:].cold.3 : sha256 c257837564234fe2d3871c6195664dadbccb153dbeb305851fe2c05fa75ffbf5 -> 517f2c743382fb7a00ddddb3cd22bf55d2ef6b050a14a9cdea33ffe835a6a6fb
+~ ___84-[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:]_block_invoke.cold.1 : sha256 9cc7ca7919bf704a10818f5fb8dfbd5192cf7c2e00cf5bf117400a9ae56f123e -> 3864b6bb5a2909bf3fc392090a9ccc1551a1fbfdbed68e696aa59ac816ffa765
+~ ___84-[SMBClientManager addVolumes:atServer:credentialType:credential:completionHandler:]_block_invoke.47.cold.1 : sha256 ad6dc89fedf615ae9500bd11b74fe0a251abab2735c5b423d78df0c4c1a56bac -> 550ec46314ab710dcd925d77730da204e10778cc08686f19096fb1aec374ae6c
+~ -[SMBClientManager sharesAtServer:credentialType:credential:error:].cold.1 : sha256 1961939976ada56c6312c854c2a2f28d16a89fdb3acae6e63524d32cdbf505de -> 8d4794cc2b3a98712edccd3327fbdf9ddf690de09c40f054ad0c785827a008c2
+~ -[SMBClientManager sharesAtServer:credentialType:credential:error:].cold.2 : sha256 80ba8b845405bc969f729e1074d1bd75a11e2208b10e55d302a21e9e2890cbad -> 52e815debba83bc23a17b05e85ff51aeb5b34c2f7fdb5febc95ff99a1c886762
+
+```

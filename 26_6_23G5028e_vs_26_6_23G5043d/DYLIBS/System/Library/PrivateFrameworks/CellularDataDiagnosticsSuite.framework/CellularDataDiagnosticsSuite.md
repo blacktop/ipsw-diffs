@@ -1,0 +1,66 @@
+## CellularDataDiagnosticsSuite
+
+> `/System/Library/PrivateFrameworks/CellularDataDiagnosticsSuite.framework/CellularDataDiagnosticsSuite`
+
+```diff
+
+ 1251.0.0.0.0
+-  __TEXT.__text: 0xedc sha256:2a52ac9da0a36dd6148a251322a3ec1f05328b9c6d1c846da7359c5ac63385c8
+-  __TEXT.__auth_stubs: 0x1e0 sha256:1dd05bd933aaf184ae01eefa8d8722be9c2351ac1ff58906083a365ba28c36db
+-  __TEXT.__objc_methlist: 0x70 sha256:a2b233e5fbe9db9e76b26fbd1ff1676373331bba5c28a253545d1c37930fad95
++  __TEXT.__text: 0xedc sha256:ace256fd61e28c3271c20da71c337e8a3bab7c8e687532bb87000e0dcd5f2c2d
++  __TEXT.__auth_stubs: 0x1e0 sha256:91832b983120d949e0336aa158c3e0be8e4b006bc28047b215ee5fb0a91e3549
++  __TEXT.__objc_methlist: 0x70 sha256:45ffad5fa5b194b29ed9db87ac017635f96018cd90b9710810d8637f37bdfb39
+   __TEXT.__const: 0x90 sha256:a5036aeecdbaf3366f61739bfae1d664557ef8833c16ffe9be1cab9ab6d5d720
+   __TEXT.__cstring: 0x168 sha256:2c965064a14d01e4a4e520802ea20fbe016af18ca44d7e45907088eeaf430a41
+   __TEXT.__oslogstring: 0x46d sha256:3ea13e833ecc16c8d0cc0b85e2b281a2d0403e21878cb009bff231af665c912d
+
+   __TEXT.__objc_classname: 0x3b sha256:bbe8f1abd73c1bb25d782505efe064f4b24357f4247db820461376b715998561
+   __TEXT.__objc_methname: 0x25d sha256:21a216b68ee590c6eb153eb53bf03c9e3cb8737c342a304194957a896fdf4552
+   __TEXT.__objc_methtype: 0x4f sha256:320f14d84baab7209d84c0064f995fa56916c52e6a08cd9b34019fce02a82350
+-  __TEXT.__objc_stubs: 0x380 sha256:8486beadb8c7aef6bac1c10892e2509e52a8b61b8f06d685dbd4e687ee142437
+-  __DATA_CONST.__got: 0x28 sha256:1e5e006699ccc134853c2e13f8ee51795b1f796cabfd12fd38297ac7786b7748
+-  __DATA_CONST.__const: 0xc8 sha256:37af569bed1daa110add00eab1ce3963bdc3f75ffe9d476058e276f328d8c373
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:b00dc0f89f7577e0c457c103afab4ce5c3e5c3f9ac34f51f9ae22d2a9fbbc38a
++  __TEXT.__objc_stubs: 0x380 sha256:45329b8d5e593b5bfb99e4da771a26df7ea3cdf95a72138018439604f3559b78
++  __DATA_CONST.__got: 0x28 sha256:2a48bc3e1af35aa8e45b509529b4973494a77fe6ffffe18aea116497f8e6cea0
++  __DATA_CONST.__const: 0xc8 sha256:59740241243027b95b4025d2ce0b05f631266910a595a394e9bcb18a79eeef53
++  __DATA_CONST.__objc_classlist: 0x10 sha256:89bd9454b1768fba36f15add52de72902c6dbf28bd8cbc09006c9cf317c93541
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:cdaa9c91b3704942f79eac1879d30f78126a385488ba9f2d55bf60933e23008f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:2b691f5a61c1fba006291b1b26cc34941aacfa704312c09e94a48a3f7566cf70
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:9b9eda5d17c14bb3e106585be5ac049040d8f6942f51de7d5a2646b1e9d4e66d
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:7a9a2fae93d7177279932c79f1a0b58c9c812c1d89761dbd80fca62f829b5370
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:fa7ca94b37b8306e606eeee4ff4437a6d4212b30fe9bf73b32b4037e7e58ffd3
+-  __AUTH_CONST.__objc_const: 0x190 sha256:6a6169383eb025e89047492cb678a6e8687ce7a92b59762f940d9a345f37402d
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:728a78c402229c195704259d9e01202ee539dc2a70aa25fdb007f2e58af304d0
+-  __AUTH.__objc_data: 0xa0 sha256:296ddd48bbd780a81e376bc703a96be2b1e2d930cd4603693dff224d230a81fb
++  __AUTH_CONST.__cfstring: 0xc0 sha256:ab387db9bcad970017280c0887026eaa915b6633c3cc1a7a827a7770417b9495
++  __AUTH_CONST.__objc_const: 0x190 sha256:ca6d1193e10f34bad1e605a4588627718e28f7f201e44475e6c59f26b4902c94
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:a9d8313295e4a9542ac084276fad8c92b0ee5abafa06e37b579e98b50a9a63d3
++  __AUTH.__objc_data: 0xa0 sha256:1be1c7550b03bbc740fc3e9b918046bc0de49f52cfd1a8489b568ab30f6ab640
+   __DATA.__objc_ivar: 0xc sha256:dcd22c4268e0954d656634785328151cd5f68fbf8bcc28d43434b0c85430fa1e
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/NPTKit.framework/NPTKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3F9F52EE-6400-384F-BE0F-42FF1FB07B61
++  UUID: 54FAF804-E310-3223-9FA6-763668B2F8B4
+   Functions: 13
+   Symbols:   118
+   CStrings:  85
+Functions:
+~ -[CellularDataDiagnosticsSuiteController start] : sha256 d073ade2f78af2b290b79e15fb6152008b3587c7cd4692706d69035d1b7b66c3 -> be1316b02f77f42ae1952827ab91e0103251f0407b91bc0473bf0074674610fb
+~ ___47-[CellularDataDiagnosticsSuiteController start]_block_invoke : sha256 de00c6324810a311975da15aa6ebe0656e758aa186555a6ee9dbcc17cf4c1b91 -> ae3ca77b5bb7539c61d074faa827c8121b51461dfc1c6e1f8fe1a2c006b6c6fd
+~ -[CellularDataDiagnosticsSuiteController .cxx_destruct] : sha256 6a8b871f88b9975afa491843118ea335170a42054e779ef0d3ddf3be28a007c9 -> 6437dbd7916b3a214083d3080770eaff11b2593a10ca089a4fadb9d4c026889c
+~ -[SpeedTestConfig init] : sha256 7550162eaa5e9c40a7e31a03c1c058b60f66c33ce0761959c7bd049e88e38f98 -> 3e5e8f2017e8f7262acc10745f915618130f45ec0a98e8f872d4c26bc0193c16
+~ -[SpeedTestConfig startDownloadTest:] : sha256 44f02e3274e0f592d62118d30d6a3c9e0f8d2b082baa8f1549d41a21b30cdb40 -> 34896ea94877ea132485b6c26171240e5b1829b70d31fe053bf3c6a508b5cf73
+~ ___37-[SpeedTestConfig startDownloadTest:]_block_invoke : sha256 6866fafe7e32e77c8489ea230c2f4b3f807982c30e315b07821bfa4217ea774d -> 967c3a2646ef77b05549872723c3742f12829842b5cfa8756b87be02bb94e3a3
+~ ___37-[SpeedTestConfig startDownloadTest:]_block_invoke.12 : sha256 5373844c2bb26d53e59fc6c86307b0cea7d2b18ef991a4d7d2f624ef497554c6 -> 4fc128091ce6a465027696aacdb055f3f0ac33dffb03ebad396f66a9c99edef4
+~ ___37-[SpeedTestConfig startDownloadTest:]_block_invoke_2 : sha256 43c26904db3d86ff47d629795c5c44f09afeee3b6fa159b21295b82fd48c9dbc -> f77b8d7ebea95a2c8bfe6d367a2bd049a4afbfb923691c9ba7f6d17197903071
+~ -[SpeedTestConfig dealloc] : sha256 176fa24afd323e4254849c06d2f4835cb5edf6e7dfa972c2bf35f545c35d4798 -> 79b851ed5e299100f47b57e7821d6bd626ab4b03f5712ff11898ccb761fddc0b
+
+```

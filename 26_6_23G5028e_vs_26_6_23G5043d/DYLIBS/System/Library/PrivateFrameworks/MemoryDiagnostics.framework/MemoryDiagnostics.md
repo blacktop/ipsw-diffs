@@ -1,0 +1,58 @@
+## MemoryDiagnostics
+
+> `/System/Library/PrivateFrameworks/MemoryDiagnostics.framework/MemoryDiagnostics`
+
+```diff
+
+ 314.120.5.0.0
+-  __TEXT.__text: 0x109c sha256:e1cc3a244616fd318bf66494218235c7ad32f28d212ec12c7441e518c142f9a2
+-  __TEXT.__auth_stubs: 0x300 sha256:6d02d246f43d0f3217cb0373b59203bab5a532b0df835bf4cdfb3d69a8274e17
++  __TEXT.__text: 0x109c sha256:9affada3bb91e05f05ac49671da257c6bd16aafc09d41666688ac0e4c806bb38
++  __TEXT.__auth_stubs: 0x300 sha256:031e21e24def5a31654f5192faf5d02c509047f889943a74a675e82aa6687fcf
+   __TEXT.__const: 0x88 sha256:72bee89575266cdfad8a5d2e03dfcd526565698476879096e19e8a97aac7a2ae
+   __TEXT.__oslogstring: 0x14a sha256:edb415095947e1bbeef9306e8c17ff96dad314dbfcf47bab3c73da81b66e2dbd
+   __TEXT.__cstring: 0x5f8 sha256:60166f57d09e1f845be35ab8a48a9ceae1384e72a464f3e88f17958568c1f462
+   __TEXT.__gcc_except_tab: 0x60 sha256:76856c2eb91061b81138d1f2bebdd8b5e7a82df542feb74c9b44a69d27506b74
+-  __TEXT.__unwind_info: 0x90 sha256:1fd611f4dfe25798a03c2619f1c073292963c2d8536ad4cace02ddccb7b3a1ca
++  __TEXT.__unwind_info: 0x90 sha256:191595522b39961b8b0368e6f47eb58fc9b0963eaacb2f28dd31a09bc8dc181c
+   __TEXT.__objc_methname: 0x86 sha256:46767106edb5ba6424b98399b6584fdb2772ae40ffa19bf742d16424a33c6a35
+-  __TEXT.__objc_stubs: 0xc0 sha256:2a240fec408390ce3bf436c18aee426c6d1d5c6221c126cb432db67a651d9a46
++  __TEXT.__objc_stubs: 0xc0 sha256:447a9c9f5e248b6d59d545c87dec07227f214e0a040757de4498f3b4c71e8fb2
+   __DATA_CONST.__got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_CONST.__const: 0xb8 sha256:915c1870c4b90d6c000b95625b58a139f80f171f147448d982df9453751b0eb8
++  __DATA_CONST.__const: 0xb8 sha256:de58db43083eccc19f8e5e54611b57132081e74dac39a572b3df8e0c6a3e5ba3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:008a68390d995e4c4ea7b0165974b1f788668fb26c7c5c0709b5a69e4816d332
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:c5c44723412ba95e2de89def5cc1eee494e61c8814e125dc36b5c5e9e3b44c0c
+   __AUTH_CONST.__auth_got: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+-  __AUTH_CONST.__const: 0x40 sha256:dbe7afdeb4a0cc9cd24765c2ac96390eb290051d496577ae4a34c34f3029c5d9
+-  __AUTH_CONST.__cfstring: 0x840 sha256:79b763d5c36357e2f3cc55aea2bad41c3bcdf4a1f8241141f0281f76ddd77caa
+-  __DATA.__data: 0x208 sha256:11018614c627e844a7429d9a263944944d5fda98582434c6d038932fb1b5bb93
++  __AUTH_CONST.__const: 0x40 sha256:6bca48697b0a33d45d5a7568b3575c4214edbb55ba4498a226bfaf05507d1a11
++  __AUTH_CONST.__cfstring: 0x840 sha256:d835a74871b8b50291e35104f69f457b200e6459345b5b7141c63f9c169c7242
++  __DATA.__data: 0x208 sha256:a9fad1cfdac296b52aeb5a7192ed00b64cf0bbaef6b49547fe7d21b9a66ec380
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/ServiceManagement.framework/ServiceManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 453A83DA-A283-38BA-B091-C7A7C7BA3973
++  UUID: 092D129F-F8FD-33C7-AE25-307A713BF455
+   Functions: 12
+   Symbols:   167
+   CStrings:  161
+Functions:
+~ _memgraph_from_task_save_immediate : sha256 fca4fc5e8240ce86342a587e690c30c2295405204501dc0d81aa6cb502fbb751 -> 7eed037fa5b35c34d4a2bcaad46d59c7de95aaced757f8c139659427049bb9db
+~ _RMEGetXPCConnection : sha256 3298588524f7bc4eeaf2409ae7ea4dce00a68fae81fcfc1aaf61d1e3777be7c2 -> 13c58b6c7544b86cb4d745621642874fc15cd01c81dca09bf27dc4683417e646
+~ ___RMEGetXPCConnection_block_invoke : sha256 3831348ac7818db829f0022a1739328e7c325234f534f565de11a82ab1ffd904 -> b7575458dcd46e385f7be74bc4332f598f6eb3b115c0cf1cc9b6db35f749ec46
+~ ___RMEGetXPCConnection_block_invoke_2 : sha256 0696ad9e98badb6ab11ed1888e19f76f3d5d92e22f9ac79c542869a65f50d641 -> 46c2939e7fd3ec386d69285e891996b50af371506f1aa783a0a4185e0a5ca426
+~ _ReportMemoryExceptionFromTask : sha256 76fc74c6d9bde5843a7a7d60f9bd98bb26930e2d827c4355f9b6dd0f1c3d4f08 -> c76c8ba9f7becd8e46a39fafa99495ef70cbd3550ead168c8f95afc989ffbd5a
+~ ___ReportMemoryExceptionFromTask_block_invoke : sha256 02ddedd6220855c8b7b3aa57e75c38ec4a40b068b619ea70f8c1c213d8ad114d -> 59604f87285ff0ab75447db394483542d5fedb0d278eec69382fab9c1bd9c30a
+~ ___ReportMemoryExceptionFromTask_block_invoke.19 : sha256 b41cfb0ca2e760075cbe8e5ce41a0718f9e4ff267da4fb3423ec0dd6308d48d1 -> ec147275998afb5df453795787f286d0bca3eb85cd1734a7692e916004e97caf
+~ _RMEHandleAnalyzeReply : sha256 bb57fd5eb722a8f45f8abc8a52752d40042b646192b99a7c8d38dca90a912243 -> 7cff081e07b8139907483c70a299ba35f604b7270dd6480e260f52de7a11d308
+~ ___Block_byref_object_dispose_ : sha256 7c25a4e4d7eb158866b8ff8dc7e737f9a60a7a135d5ecb1366b36fb785ccde6d -> a292f976991461e05bc50ef25225a18fc7a8a1f1b69d9d42885f01c7c6b6ea19
+~ ___isNotCircularException_block_invoke : sha256 1da1429232cb30b0a8c831f87ec766e31e76fece68d856cc1fdae911cc497375 -> 83d6064024a2ebf9a24cb626ffe82dd38c5d9da6efa623979988e97f314923e5
+~ _FPExtractCorpseInfoWithBlock : sha256 2dba7749fe6c7d6bdcea5d26874ce898693207e9f6721fead4d0268f3b24686c -> d84a33a68e42e03e9a3249f9013a20d1dd1a7503b4d5e34802d54b3c47666d97
+
+```

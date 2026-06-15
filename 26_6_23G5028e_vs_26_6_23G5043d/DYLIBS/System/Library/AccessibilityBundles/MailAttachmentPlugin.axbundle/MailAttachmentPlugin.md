@@ -1,0 +1,64 @@
+## MailAttachmentPlugin
+
+> `/System/Library/AccessibilityBundles/MailAttachmentPlugin.axbundle/MailAttachmentPlugin`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x3b8 sha256:a1470da8f8b710fdae890a0e68063e96d914572ff282e36206c9ba67432e8030
+-  __TEXT.__auth_stubs: 0xe0 sha256:472d2c977a06f1648a004573692aec07a9be62fc6d6dbbb292b12ec90444889a
+-  __TEXT.__objc_methlist: 0x98 sha256:08e8ae08efeea56f450f238f8c2c0e8be79eaf0ba23f40240d15a9582560ef8c
++  __TEXT.__text: 0x3b8 sha256:14cefd3b7e562ca36270a85bf20b28cd8a6afe0e74eea86965c362a2931ac1c8
++  __TEXT.__auth_stubs: 0xe0 sha256:cdfbe30ded4ef1f80955aaab682ab47d306d02d474a7ee3a3ec4a0c0f6ad9bec
++  __TEXT.__objc_methlist: 0x98 sha256:414dd3cb0c3e6828c501b5afe5983f0ca2e401a770f2b992052a830cc7ac1288
+   __TEXT.__cstring: 0x14c sha256:2a0dc8ac9ce02c1c2e08fd0caf31c65d77720bc30f4dd6e9d7195e00061c833f
+   __TEXT.__unwind_info: 0x80 sha256:f7b7c3ef04895d93f6548f3ee3fc0d046f2cccd3b375ce6759a50292bbc7ea2c
+   __TEXT.__objc_classname: 0x66 sha256:d8265fe0b991499659c4ae50f15f6571c052e833085dc4bdf0ed01fff5fe2a69
+   __TEXT.__objc_methname: 0x25b sha256:7a766a4d597d039d80e8c3d9b8f220486a02bf58402d3cdcdb35c7b9ff525b89
+   __TEXT.__objc_methtype: 0x33 sha256:938448554e0648923653e45fbcec0bd555676d50df9d43bc5f5ba1775f40d0bd
+-  __TEXT.__objc_stubs: 0x180 sha256:23d05fc55cc5d6ef75035202585e052ddcec4e1e9257889837fd9b5399a3fae6
+-  __DATA_CONST.__got: 0x28 sha256:7a989edc205e58930685162459b414f90d8a3cc1ee30d51f219912a879439a41
+-  __DATA_CONST.__const: 0x40 sha256:52a83c547d071386232ca1bf91ada852086d5ca46354dc2b9ddb5cbb9cb78f77
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:7ccef2564b7b1d542b34696226426a2bcde55541492cabe6975136cebdb4ba09
++  __TEXT.__objc_stubs: 0x180 sha256:76f7557c23871ee99347c68c89fed82337a56f965f12185723a569c77fa737b1
++  __DATA_CONST.__got: 0x28 sha256:dfa4299f67df64a462f1ef3eff7681e5eb3619107744116e0f0b9ed4f4ea306d
++  __DATA_CONST.__const: 0x40 sha256:426f1a39c7a4cd85532a56b5645d277343ffa06cf245b7061c4ae02b8860a674
++  __DATA_CONST.__objc_classlist: 0x18 sha256:d62f3275745733fd85a7df5cf014a87d9368f7f09e07ad1d41c3867e033bb9ce
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa8 sha256:c81c4ac1b054ecdb9f43fd5f2bcf25cf4a385014ef26fb1bfb3ef06680d21ccd
++  __DATA_CONST.__objc_selrefs: 0xa8 sha256:193f0a0225ad7a0d39248ee792a79d920f44013142ecbc544b1d9bb458a1fe34
+   __AUTH_CONST.__auth_got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __AUTH_CONST.__const: 0x60 sha256:357fb55a3b6a6976e169037354f2d56ebceed7d204946084e3fb8067b0f37390
+-  __AUTH_CONST.__cfstring: 0x180 sha256:d10e515d500295bb1c722fe6e0a47a05326934bd4d409d99dca982b5e11fae57
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:6c998e0d60cd965690db956f71bbb9a105992b583a188423b67a9c65eb540565
+-  __AUTH.__objc_data: 0xf0 sha256:345a8b4df9291e12ea714325a152a0f0a95641f32dc995d870d7a9b6ba871858
++  __AUTH_CONST.__const: 0x60 sha256:3726171fabece2ce448e281ee059144ef8a54c2665e52665fe6d96b63c4e2ba8
++  __AUTH_CONST.__cfstring: 0x180 sha256:05be41050189730b8a625afba38af7e70c3326868f961d3e2f9a82139123f731
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:37d8733a4d3ca728db9d5ca7a5f180431cf93654fab1f74956b4f4b7fed4e842
++  __AUTH.__objc_data: 0xf0 sha256:91b299bfbe68ff4eff696b9f062fbce242ac7b83149f04331bdec27a29095611
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1CFD739C-9188-3C4B-A719-04165A977C15
++  UUID: D5A62E23-232F-3150-86DF-3E1B65755336
+   Functions: 14
+   Symbols:   86
+   CStrings:  58
+Functions:
+~ +[MFAttachmentViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 63baf566f44e1c48c2b27711a5fda09ba156a07fcc8c0c202c47266ce731b8f2 -> 1ab0828008a8d0b481daea6d448194ed1beb731662f86e3ac1b3ecf17985d0c8
+~ +[MFAttachmentViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 2130447f7d0d62a66dccab3060d98853e251430c91e0a1a3d65959725e2703f7 -> 21997e8061cc85059b94a6c2bc2b25347b338c19594560f7e10f3c3f0bf45688
+~ +[MFAttachmentViewAccessibility _accessibilityPerformValidations:] : sha256 997564bdd499bae3a74877e05fe33c4a5d2471c81a1e7b3ebb1f490bbb17bb29 -> 856f3c37f56e1c5fa24197dab9714d3b73edf2451239c3ad83705d6f3ed3a300
+~ -[MFAttachmentViewAccessibility accessibilityLabel] : sha256 ef2c32784e9eaa13623e26a301a52852cace4f0cd9b3fa15167882a5a80d8b66 -> d3c838504fb52dbd53a16e71f43a850b633baaa4497d201cd1d44ab00f868275
+~ -[MFAttachmentViewAccessibility accessibilityValue] : sha256 e8c3469f156203e2ed96dc8a24ec0b6af6c75cb232859e94a5bb04e67eb7b0f7 -> f62ca4c4c342335666bb31868ed76a75e6f324b3356531070716594d9fdd54b2
+~ -[MFAttachmentViewAccessibility accessibilityHint] : sha256 5f41208ef821806cd8a26e4b926991eb00e35e5e5641964ab9912e2c5d791659 -> 3f6add70762d7b97e018849e898d4eee5ce42c82f52814e8c1c09ada609b02ef
+~ -[MFAttachmentViewAccessibility accessibilityTraits] : sha256 22888e754d7d19df73a5cdd89c02fbfcbd2b520301f0a46fe8e276f9aad5f76f -> e0bf88a70687bb4d9f889e36acdb3233eef96ce1bb0c6365e2410e4f1ebdecba
+~ _accessibilityLocalizedString : sha256 1889073e23462583c955110cd629af7551ac82d4320c50197a10adfba6d19284 -> 7853e84c11f7725727ce297fb83e39badd3173d8ab24ee73708a982c46febbb2
+~ +[AXMailAttachmentGlue accessibilityInitializeBundle] : sha256 f3895aefa1311b4271d5a8bd569f3b0a5227240c736e507da27931563db09e72 -> 0e64dece4765c78a89eb41f51c454a3f712160572f86d66582c37b0cad785a62
+~ ___53+[AXMailAttachmentGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 6fa0bab945fe7689a0a48c7d1f24f1858b913219e0f44b368b29e3c20c868cda -> 2cc7f4d95feeec3ebeb8975e71f769c6da1f7576220ecf62f3af88a3fbbab6bd
+~ ___53+[AXMailAttachmentGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 cc0c9d42b61c9ed52031bfa6dd4ab5470b0eb9ea4f8092bf52b380201a30eaf3 -> 4fbe722ef3b9b8d77f3ee450572a737797a11c9d6ec8526c8041595dd5771b06
+
+```

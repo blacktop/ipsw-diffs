@@ -1,0 +1,83 @@
+## SiriCloudKitAccountsNotifier
+
+> `/System/Library/Accounts/Notification/SiriCloudKitAccountsNotifier.bundle/SiriCloudKitAccountsNotifier`
+
+```diff
+
+-3525.5.12.11.2
+-  __TEXT.__text: 0x190c sha256:c4c748926f69609cfd25d56050b04e151860b655dbcc3b434152552665e78276
+-  __TEXT.__auth_stubs: 0x290 sha256:2735a893b1d1d432dbbaa4db974ff9cc11a8b925897dd46df9a9673585af190d
+-  __TEXT.__objc_methlist: 0x1b4 sha256:d408aa2a0a9d99654e57ec154f14ecfa6379c2f27af7504b12a7f93907bfbfe9
++3530.1.1.1.1
++  __TEXT.__text: 0x190c sha256:0fb93102b80563c3c1455cac78ffc753a0e63981d2878ed39aa69b3194c0e8e0
++  __TEXT.__auth_stubs: 0x290 sha256:e3bcdda2d0420f7e1e903da9cb1ad0b1ad3a27aedb1674582a75335dc166ea40
++  __TEXT.__objc_methlist: 0x1b4 sha256:1d2b6caed2df32af6550ab9b877e9d3888ee2556b1bcd362a60a5b8eb30cb333
+   __TEXT.__const: 0x38 sha256:299f67580d9066c2321a34526f2b37f41200313cb59509985e63386a1ef04da5
+   __TEXT.__cstring: 0x358 sha256:695f8ee7b57ac26a3ce38a8c7587ef2516c4f9a2a19611646d91c2f9b8a24078
+   __TEXT.__oslogstring: 0x256 sha256:12f1995b87c75d32948bd7166020db645886e3965dff0b84a8c9f212d06f9840
+
+   __TEXT.__objc_classname: 0x46 sha256:85bab6761949ec21e07df35a2c4b1a9f254baf709acc86ab05b6ee180d4f9571
+   __TEXT.__objc_methname: 0x4e5 sha256:1a12b6d8508b973790c8e6fd9e35188f4b4f619ec76032a46a12201d8523002e
+   __TEXT.__objc_methtype: 0x225 sha256:15e2f9df002d29f9577a4fd0052940952ff37e8407a192d8a697a7b6509bfbca
+-  __TEXT.__objc_stubs: 0x2e0 sha256:b5cab671f7b846b390418abdcce3c411c0f6a255b62a3c30fca621f3e96f34f5
++  __TEXT.__objc_stubs: 0x2e0 sha256:33252e4dc5e108c036f9622a57d85ba3217ef181ae32e4e4b6cfdf33bdb718e5
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__const: 0x90 sha256:2913031c3cd5699c13cb77953827a62ca095a83032c3cf14334cacbb81fb002b
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:36f444a3b08a03e3389b13b03de2093eadff35f5869be1d8d5de843242812e04
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:34f40ca551061379c8fd60c020e2805b6ef7516ab32401a69e0c069e3e15b283
++  __DATA_CONST.__const: 0x90 sha256:863fdea463f9661e84b10098cfde8c79643dc1c2854d6c2bf286203e0f7ecdcf
++  __DATA_CONST.__objc_classlist: 0x8 sha256:cac3a22df3e524f79f3c9cc2358246a206c04ca458535bdfc24fca4a0f33ffbe
++  __DATA_CONST.__objc_protolist: 0x10 sha256:e62f85dcc5dacda9bbd41d464f1066d12ea6c19e834ab727a6fa56857717d776
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1b8 sha256:308c1aa4ab7931ece3076733c9a5fd40b5ee59924b1005a36ce2ff862eba6cca
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:5473a140f9e8f7678b206e7bf21f81d3d3ca058279afb9276e2c1026f3b28295
++  __DATA_CONST.__objc_selrefs: 0x1b8 sha256:4055bb3348577c449f070b7c1b87d195a9fec843d448576a8a3445c7d775d201
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:9426026709f7822c098765a3a2b924ad0b10bcc5cd8eb1c0ee0f5a5b3066e567
+   __AUTH_CONST.__auth_got: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+-  __AUTH_CONST.__const: 0x60 sha256:75725291af50d5bedce9f084bf61b24cb368c224f7a9f6b535aa9e8ed0abdc0d
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:c11f1dc544394162c8711cb50a96e7b1706db1ff795cd345cd5b5c0ca7e80f0c
+-  __AUTH_CONST.__objc_const: 0x268 sha256:a4ab4ff8735d99e0eab4ab8764216cea22eb1cd600e49b59cb7395df0d99e40b
++  __AUTH_CONST.__const: 0x60 sha256:d1836fd3c3959c930ab1d6bde5bd8821c65831946bb7ad7b1159946dd5002ed3
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:cfd46a434abcd3be7b95f01fa4417d4096ce8b280d2117acbb28c5d86e9afe87
++  __AUTH_CONST.__objc_const: 0x268 sha256:fde2eb28de5ff043a34dcd2fbf30be3010399bb33e9ac1774a9ca529275c51b8
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x1b8 sha256:a52273ada08ea5b7d66210e35048379c89e0553aff7e97c19dc836517873796c
++  __DATA.__data: 0x1b8 sha256:c0a3a11d55286fccdeecc88f3438d53dfed93746b79b282ef19f1ec072307783
+   __DATA.__common: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:2d107614b9e736947cbf0c61c21b6fe5ebbdc0c6a6b967cb7216065205622c4d
++  __DATA_DIRTY.__objc_data: 0x50 sha256:7baea876a40d18caee0c2aa79b5ba2cef50cae5e531807677b5e32e98b263c61
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5FA54EC6-67EE-391C-9C02-312DD024B09B
++  UUID: DE7B535D-773F-3196-9650-D37E3DE82C84
+   Functions: 24
+   Symbols:   139
+   CStrings:  173
+Functions:
+~ _AFLogDirectory : sha256 56a05575eec1f46b56c7b9d26feb26a4527a203d4fc797b83e64ca812ae9eea0 -> 5a53ef5d570514c98f14596a39fd4a79b1827466e01912a9baac1d27c9c903d0
+~ _AFSpeechLogsDirectory : sha256 2953471dfc3dae98cabee7402279b94bcd5e0278a4800ed052b1a35fba504ade -> 473179887db80f263cd94208c25720c563ada2bfd50c2a38d285d843967a7f31
+~ _AFAnalyticsLogsDirectory : sha256 f569ac3baa9e5927ed5f72a2d8e75ca266ac8ee05a35b591d52531a0a6e558e4 -> 85efe282ded1f9e72fcaf946c57395701946c70a187d87066c6ae4198524c203
+~ _AFClearInternalLogFiles : sha256 131f9063a541b61e8670dc8b6bb949611ee6bb36706d6738a2740de9463209bf -> fd4c2678312be6d15c0ad7f731a382b976974eda3756b85a63de3c55ebdf3605
+~ _AFLogInitIfNeeded : sha256 4f117da3998bbc9867615e7f7cac24725ac834d275d2bcf8719a80befb755970 -> 59e46eeeb88fb129ae61b5182bad19671aa6c0a4b4a939e4d0eee42bd302c57f
+~ sub_2a8243554 -> sub_2a83fa554 : sha256 48f0a380313d84ac7138d6b6b68a4780dbde336b6ecd582bbb26cf807a991ed4 -> 996586a511272e0e56eb470f2b2b552af25ff3d78347b685507adef60e1400b7
+~ _AFLogParsedCommandObject : sha256 9d673520a1ce0dbb34047dfd8b4413fa8e936bb942b252de5e55f7a17c8f9eea -> adaba6e8bf3680f1b56595a6f048fdb9d878cc8b8a4a98f05a6afb465f10d1c9
+~ _AFTruncateMachTimeToTenthOfASecond : sha256 bba7e0bed0a6384aae060286d68bb509d14b4fb5ce3ca2e48dde3d2a38b7dd84 -> 2a7ba41c7b41c80b70f091f645f494349131b1231039d17b6718c884aad928ce
+~ sub_2a8243d0c -> sub_2a83fad0c : sha256 35c0dff05e8890debcc88708c1099b30070b0b20b1abe31312959e42fbffdda0 -> 76ac3e39811739cfb7cb8d3dd66637a9772a0f6e5c43d701509dc3e6083a187a
+~ _AFDispatchSyncLogged : sha256 1586fc43a3f36ffd98d02bb2a0f201a65656c45a6d75778ecde2c536ec6b5dc1 -> 2463912b4a3efc21fbb99fd7b5d7e3007f56e925fcff5f177336939c55ea178a
+~ sub_2a8243e8c -> sub_2a83fae8c : sha256 e361eb2ee7a119deef07052c8d90947e5e7558871ffe2a225728cf627ed38139 -> 2932fb74c3524c0c69ff6d58f8eb5dd798c1ff995e153104ac51b485a28a19eb
+~ sub_2a8244034 -> sub_2a83fb034 : sha256 9de0c9763b9e115ba46589415ea8cfdf68e5db62e08cbef08c3c49c1e72dd2c6 -> 80ec85a456ac6bc59e89255f80c318a0256273579bfe6e251724a7ad33c7564a
+~ sub_2a82440a8 -> sub_2a83fb0a8 : sha256 22a8ba851b1d54ffd45ff5d38d9a7fa96c640754d5d6329fa01649f5e1521e1a -> 757e8f197492f2e4f0b2ec1502a4d034f25ea2531c1ebe18b27dc237568ddd4e
+~ _AFDispatchAsyncLogged : sha256 714e6b9f52c14a0b77df4495ba85e1be046c1a3e4ed2408fb23f5b2f3d7a5ba9 -> 35e6333fc9cc291f1dd21f966ae327d570ce64da6b1a90ef7293dc745a168cf5
+~ sub_2a8244228 -> sub_2a83fb228 : sha256 5293815b322cf11139225220c8e8e7937134f0d8963678e5abe59167422e4150 -> aaa91b5cc535a6bf5f865247b0fbd70d4af5c7726410569d6145e4c225bc02e3
+~ sub_2a82443dc -> sub_2a83fb3dc : sha256 7d6d77dde006193810d873831a8e79c831a86118c367ad2e0f8216ca6b80ab7f -> d8c3fbaeb3c16bedd1a8dc62e38f2939caa33e17366a61a74d88a07a5c931e3c
+~ sub_2a8244424 -> sub_2a83fb424 : sha256 7f16fcef19c6682d6a6b2e5ff23cfd2a3abd9665b29d6d8e2dbbc68c23439d8e -> aa97087a8b37f148ef26a839ed8f4422f3b74012ed6083692aa49345b51d4ad2
+~ sub_2a824455c -> sub_2a83fb55c : sha256 82ea5bc164944badcf50b5c216377e035aae2b7d9baaffdb3cbbc86b18a4ae16 -> 58552a57cd142bea1ead9d3eb54468bea18c155ae6a1ee615941efcc322bb87a
+~ sub_2a82446dc -> sub_2a83fb6dc : sha256 4d44ddb44cf2043c865a59876f43d3ff09a7ae4d576859cc4af9117e8eea5eff -> b255361be45938ce74795a884c78023073bda3a0aea9984b2e06027331a5ce0d
+
+```

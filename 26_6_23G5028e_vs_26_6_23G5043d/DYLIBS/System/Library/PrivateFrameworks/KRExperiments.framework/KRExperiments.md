@@ -1,0 +1,51 @@
+## KRExperiments
+
+> `/System/Library/PrivateFrameworks/KRExperiments.framework/KRExperiments`
+
+```diff
+
+ 211.100.4.0.0
+-  __TEXT.__text: 0x1518 sha256:204c7bf9cee9e062cb7379a6d4b97ba8f59d06b95df4f906e941c5ae68c60a6b
+-  __TEXT.__auth_stubs: 0x240 sha256:d69571933376b63a81df23692335461d88827f6e6b573a766027da1acda01650
++  __TEXT.__text: 0x1518 sha256:901e076c45b93186336b95c31a5ad8e0b209e78b3c95749b7b8a029d49fe5089
++  __TEXT.__auth_stubs: 0x240 sha256:f725bacdd7bb4cefdf76bc75bbf67a21c8ab1a12bc2c7224e04b8ad44c2fbe52
+   __TEXT.__const: 0x80 sha256:d46d61fb96863fd5ac069e58f290298b1fb70a92596823cf91dea231843efc86
+   __TEXT.__cstring: 0x159 sha256:5e18eca809cf46a50f7f0e2ab243e3d97ea6be2a7f3790cd805234308513c717
+   __TEXT.__oslogstring: 0x390 sha256:a7ae956398a11444035c4b08feaf40bd6abde826dbcaf403382da2355d9619c1
+   __TEXT.__unwind_info: 0x80 sha256:dda06eea2c0a3cb6aea91f8dec3afbcaad262a6a09e7254c31bada4b75d40a5e
+   __TEXT.__objc_methname: 0x294 sha256:0096a5402b850b76e0c14e78dc7f121f24c4189a093b3ac5a1ee90fd7724e974
+-  __TEXT.__objc_stubs: 0x420 sha256:08dbbdfd9c75a189573adead061a8f2eed5ad827b354221b3e887bec432ba2e9
++  __TEXT.__objc_stubs: 0x420 sha256:b844986400c5d5a26fa8d13bbb21e14c33f96b0b31b85c10243e91c3b102990f
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x28 sha256:3ad6bc8f884b8cb23b68118841dc7e0df0ba2348cf193a237939e92310d9760b
++  __DATA_CONST.__const: 0x28 sha256:98bebbeed7f68a72c4930852a39ca2f59e5fcb60d74c083a550da1a84171bd92
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x108 sha256:7e331858316b387bc653b1553452a6f5d2ac625e1e20b102be379db4613b650b
++  __DATA_CONST.__objc_selrefs: 0x108 sha256:e182c69fefc534520991f1e718b5640b4620a7c67de0f87fe2ca7648c7083ff6
+   __AUTH_CONST.__auth_got: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:e679f144ff042814b6a524aa6edfcb45b1afdc654de2177c99c93dfba2933c98
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:76651dc7312e42309c3fff15730074b2de601e7ab885c2cdb5c850ad9fa6281b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 33DF805C-453A-3CF0-BC87-109F866B07EE
++  UUID: F522EC13-6783-3275-843D-FE5EEF1EDA05
+   Functions: 16
+   Symbols:   115
+   CStrings:  89
+Functions:
+~ _PrewarmingExperimentUpdated : sha256 24afaca06b958b32052f0f8028e851267e723e36ea479b93961a31dbda1dc95d -> 7b8fb33f5a7b3fe85fe1977641de35ed3ebc945fe4005b37fc581ca4a3070a9a
+~ _UpdatePrewarmingDefault : sha256 c430aba2d7c372b789edf3ce7e54f85515c23d33bee4ff073db8fdb53c6064c4 -> 47d7c2d37c5c047327c08e305ff10cd11451fbe4c8c1d18038f79a7b912fd0db
+~ ___PrewarmingExperimentUpdated_block_invoke : sha256 81ad0b1440bf89fb9a3a3de8501b6cc050cc6153915299fd506a799acc25f8d7 -> 73a7ac2d24a7a52d8a6b751a66b134794c164ea0d82359717a212a2665bd0efe
+~ _KRExperimentsUpdateExperimentState : sha256 7753d846fe03da8caa4d588d281b0fd6e34cbd8d38a6a25bb737073814b7daf1 -> 95f2d14f2f337cbad2ac0ee266f2cf656761d9aaff5391c44ddf64ea424b8cef
+~ _OUTLINED_FUNCTION_1 : sha256 9343089be303bc6cf1a66ca9be6793c19e804c8553c89e6b950db7cf88b50c11 -> e072fd97b9d9a747ddb4a789536bd28e73897dd4208d26ebbd6c07fae8ff3908
+~ _OUTLINED_FUNCTION_2 : sha256 10b88ee3f0d163e06ef600d90383f1382d99551755065a37ca91ded9a9c4aeb2 -> 80bdc05f3d9d5d75a139455d42d2f307f8fb0a218288335826f323f7c61195b5
+~ _OUTLINED_FUNCTION_5 : sha256 dd4ddf1e13faf6e042f55e4e00db9842b8c98deac4cb81d85de27b472a5e536e -> 95d1575cee2bd2594d929111bb8d7bf53987c5a93de071be77e10476b6bcc8ef
+~ _UpdatePrewarmingDefault.cold.1 : sha256 2c928d47997d36b5eee4f39594ce3dd9cebb50a2fdc5c1e6aaba0c4eabccb349 -> 1ef907354d19808b6967040afb3b5ad37b7f525a3763ba7dfc17ed02822d9f46
+~ _UpdatePrewarmingDefault.cold.2 : sha256 c9e7606fc0183509eb1bc9b756cc679ac7a2293706bca7b1b66d672db01d1a5d -> 22b21d1fe29c18c010d2d56e6d056995db63e8fe3f97a47408b64851cf0de531
+~ _KRExperimentsUpdateExperimentState.cold.3 : sha256 c1ee475cd261b194e5fd4ceee7d15d757da824f1d0593e43c7ca1677b8398653 -> f7abace3614f01dc87d817c694e394ee1658ffd320f6a7a29f4236ce40902ed6
+~ _KRExperimentsUpdateExperimentState.cold.5 : sha256 9dfabc9bb1fe061ede09f9481ec721522fcf472fb780635e7b5b1d1a8af7fbbd -> 839837cdcba007ee51a55d44df046b78955e564e853b77500d95e9feda02c493
+
+```

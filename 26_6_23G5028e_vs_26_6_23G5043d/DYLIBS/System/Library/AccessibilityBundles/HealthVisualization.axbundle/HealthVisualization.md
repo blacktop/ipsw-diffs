@@ -1,0 +1,71 @@
+## HealthVisualization
+
+> `/System/Library/AccessibilityBundles/HealthVisualization.axbundle/HealthVisualization`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x8a4 sha256:705f9ba89adcfc7226c1ccd1ef816e2fd831c50e58d56aa0eae5f69cb66d2c0b
+-  __TEXT.__auth_stubs: 0x170 sha256:14270868fe0c01cdf9837bb72b3de081c88dfb5180f377117dd23e734390967b
+-  __TEXT.__objc_methlist: 0xc4 sha256:af7a40463eddf54c7b632cba3e5214b77e35c4afd10d5f8b0073ed013a34c389
++  __TEXT.__text: 0x8a4 sha256:a41401f969f2da8b2c1fa298a465554e88c70085809d156f7b3a519d576c4ed0
++  __TEXT.__auth_stubs: 0x170 sha256:6dd5292b28677ea645da9873ed6680571c45570be73b50c30e8a024e7bf6398a
++  __TEXT.__objc_methlist: 0xc4 sha256:05728f1436eb98eb964df4787163ab4309d63bde59ed4d1032e3ff14e322ef34
+   __TEXT.__cstring: 0x23e sha256:1ec2d6f751a5ad2cfcc5691a191da5824833910ba23f8e37850612a7258b3ab1
+   __TEXT.__unwind_info: 0x98 sha256:94f765baa6e0574d60e89993b2be2ff1eecbf4ba362eacf063f45660f4bffb4c
+   __TEXT.__objc_classname: 0xc9 sha256:b4855a65932335d5156ef8e5d72c6f57377065d7b48b018ad630047eb9622d94
+   __TEXT.__objc_methname: 0x31e sha256:be20f3afff9fc46bf3fb03fc625dc3cafb594bfe7a548b7dbba63fc214709993
+   __TEXT.__objc_methtype: 0x39 sha256:3978f8559d14e2306158ad6b0d525790fc160b7631c107a8f20e1000299b5663
+-  __TEXT.__objc_stubs: 0x2c0 sha256:a47fedb42b631324aacb551d8f63aeebf7471d1f88a1bff05d72b9ad6e4f8814
+-  __DATA_CONST.__got: 0x30 sha256:bfed910c3a1b3c8166985d6991a5e0b1332702adce070428ed775b3f59547396
+-  __DATA_CONST.__const: 0x60 sha256:92007f4fb6b189dab44d623c82af2d85a15d2c3feb004bf1ced267a55a099312
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:9d8c1a60a9194167957352fc6ee3f8bba9fcf0abe319510356e1b1a5fabbd628
++  __TEXT.__objc_stubs: 0x2c0 sha256:14798caf81252f17e5ada073cd02da66850f4b5475c9154e1a0ae6dace1864a5
++  __DATA_CONST.__got: 0x30 sha256:12ea161253ca8e740f0191925416a3159033e90ece48f847aa17b24fffa01de2
++  __DATA_CONST.__const: 0x60 sha256:ce6d32c3c4d95ed0211fe5e267692aff7d3f99a38f8f87d883cd2da81e38ab9f
++  __DATA_CONST.__objc_classlist: 0x28 sha256:2be397a17cfadd692254daf03805bc4c71dc21c5f7f3ec03042c0f414e1ad122
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf0 sha256:55baea523a040f1a3191245e0cb0d4c9162214c28d3624b9e8f1d3d719976115
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:a55cb563c3ede518d82678aeda4f2be2950165559306acecb8487c2bc6f2d8a9
++  __DATA_CONST.__objc_selrefs: 0xf0 sha256:626ae1f7ced847cc0677388378f4beae9116e89389e1ba7665c8778fa09f9ef5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:3403d1a88e04638baaf59004a04919e0c30aa6e694a22c42ecacdb64af139309
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0xa0 sha256:5fdd5fac2284bf9b54f22a51456e834e49d88034b1092ac0b463064c83e2698b
+-  __AUTH_CONST.__cfstring: 0x320 sha256:8f6b80b79aeae061ba9adf7df3855cec125c38667d250d530fac821ff1876213
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:ac9d64b650c3b77a751d3946f837d128c1cadad13643112baf1ffcc8f848ab16
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:e1d1b8e6c149d8d148b0b55ae83bd82b457f19b72d407bc98275e795cefc9446
++  __AUTH_CONST.__const: 0xa0 sha256:7cddf59c92d17e0d7b6a1010d4f66436b46a87181b676fd86f114b32630740ba
++  __AUTH_CONST.__cfstring: 0x320 sha256:4ba6472d3c16814b969100f7ca0566263b7d92b122d7fa460e76d599c8c620a5
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:c10d3acd15a456e818bd8554132397be1ba443f1b7ea5a1c8c6d209638b95ae3
++  __DATA_DIRTY.__objc_data: 0x190 sha256:694688333f5426137e7d978620216d955c9022a99e424b6ca9cf6a5740063a7b
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4DCFF988-51B4-3EFD-85C3-AABE039E2DE9
++  UUID: 84F9E97E-B973-3FDF-B95C-07EB4B80C578
+   Functions: 19
+   Symbols:   128
+   CStrings:  96
+Functions:
+~ +[AXHealthVisualizationGlue accessibilityInitializeBundle] : sha256 2ce7a04b14ab6292b07ceafbc4d961e1b75a748afec7186bc0f078ea4874f545 -> 914a56036d0d9081bbb9b92a80f677357ecdbad09b4bd39ed806186949dc4baa
+~ ___58+[AXHealthVisualizationGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 384fc90e5c32635e2465293e3a70e75f0cd4ead3922d005eb1224a543423f3e1 -> 7ed294b40480a0850834901b78c32b7cfc9057c7fd8b05c7da5f356945dcea8c
+~ ___58+[AXHealthVisualizationGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 9a78cc0fda452b1be809e120ba20d6f458d139a24251fa8b77c66da1c1dc85e2 -> 3450efb9cf9cccb97f6911637d245182368f87247c631a41ab125182aed55d41
+~ _accessibilityLocalizedString : sha256 88089f961a244424838ca9f31d972644c9815e072459b94f4ebfd0c7f3a413b1 -> e10c0c27e32d9b2918fe2b3dae83ef46651744e724711daa01d8af5378e92bb0
+~ __AXGetStringForDay : sha256 6ecc0b03e290232ff0f4ce2b63f7f105f8d196accdb220207e01cfe5be1c10f4 -> 48fa830f3065698deda9f85689a04fbd751385681956fefc04608d2ceba97f7d
+~ +[HighlightCalendarDayViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f0b3670467d0530a4de82655840c4e859e1eab8a06faa4fa9713a436cbfb2417 -> d7aa67fd783a94ac969e8f893e1d83b151872f5c26b64cf7b8b654f9646d033f
+~ +[HighlightCalendarDayViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d45ed9222a7bda9e3ec6126c0fa28ffab4715db2d37191550bf7bb6405572bd4 -> 6f7b877ec627e7d7641f34de5e395cf0fcc412e849df3679682d9c5bc54e4652
+~ +[HighlightCalendarDayViewAccessibility _accessibilityPerformValidations:] : sha256 a3ccc18fb8d17c40ec10aff8aa688e5b296d3c37b413f099dbf927366b5b06cd -> 1a910cc69171519cd306820c4bf582318153006eea3f77486f1067a0be4d4eb0
+~ -[HighlightCalendarDayViewAccessibility isAccessibilityElement] : sha256 fc76be3190eb3661335740d9059a57c15ea9c95cc957758b88e0e211355fe27f -> 063ab208336d40421db167dc301bbdb75be1abc2b87379a844a92ab7fc9c0041
+~ -[HighlightCalendarDayViewAccessibility accessibilityLabel] : sha256 153673a508ede55b08a14220be6014514c8942a9095f447be489a94fb0c643dd -> f22b98c1d12cc908da079b27dd35bdbb8d5b8a1937e20865d126262d46884eac
+~ -[HighlightCalendarDayViewAccessibility accessibilityValue] : sha256 36cbb688596d88dc373d64bc7f8d66af015ede506fd8cfe76bec3b551256e657 -> 09678ad4064114304db7c4b139dd4cebbb844ddfd4f4c3ec3dbb9eba18ff9470
+~ -[HighlightCalendarDayViewAccessibility _axProjectionValues:projectionKind:] : sha256 f2bb48a0d24b6a9a0fee80db4e4a959959e0b1b6cf9293bac48840775ae9ed51 -> 73f1484620c89117e465109b1b76d4cc672d4a9f0aed9f6f821bbb07921cb50e
+~ +[HighlightCalendarViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 6c3ed1f62105293a7dbf5c381959f4e6631a0ba7c3b06ac34790db3ad6434f05 -> 2aa94f7583a535670d6483734132b35255405878bcf7a92d02503d8b660cdc60
+~ +[HighlightCalendarViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 22b2c99115e9f79f4f4bee99873b8ae203c2980e6c59d9978f2395dacbe7ffe4 -> 178598bb35f81e2cde128c1fd532739e20d201664530532cee74babbc3b9fa49
+~ +[HighlightCalendarViewAccessibility _accessibilityPerformValidations:] : sha256 103c4ef75fc080756c3ec7b0e8943ce7992b4adeba8dc0eeb53ba6441bab75c7 -> 9375e7f67144cb77312f3b84fe04620cd866f1cbdc9c31dec6819a003a07ed29
+~ -[HighlightCalendarViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 2cd00c2c98f7cc4a0d01dff79b15f0eb1ef7da1a47529a2530819e43de309013 -> 09903b5c271ea88125f62fc31df7e4da4f15c60c3f0224f092b637c45c737d85
+
+```

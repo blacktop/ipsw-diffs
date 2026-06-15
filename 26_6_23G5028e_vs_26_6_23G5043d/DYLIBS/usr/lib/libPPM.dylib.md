@@ -1,0 +1,74 @@
+## libPPM.dylib
+
+> `/usr/lib/libPPM.dylib`
+
+```diff
+
+ 1035.100.47.0.0
+-  __TEXT.__text: 0x11cc sha256:ca0193741c5c5866f2e8568ba09e2d4782309d4a769270583bbb7657fb7492ec
+-  __TEXT.__auth_stubs: 0x360 sha256:2c794e6a598d2b6723bced2cdefd5ff10d44ccf219d2f906eabd6dea5d37c516
+-  __TEXT.__objc_methlist: 0x184 sha256:25c0e8c3fcc4266a857ffb0f8d7055df73fb61daa348035894fd3c2767d80729
++  __TEXT.__text: 0x11cc sha256:b5e8abade099f916f9a6eeb4c4584edab99da1b5ecee97c920e3e521bcb4973a
++  __TEXT.__auth_stubs: 0x360 sha256:61d5d22e185fc320e8d239b2ebf533a2ae1f0dec451cc2439113364633d0f328
++  __TEXT.__objc_methlist: 0x184 sha256:db3869194e8f1d8b652718b4cc15094abe457c2ec84e3908fdb29380328d6b60
+   __TEXT.__const: 0xb8 sha256:0b8087d674d10920af1fea11aa132da066f777487eae1e9ddb3f0d528efe229a
+   __TEXT.__cstring: 0x563 sha256:757d490927a3e593b3e9e3dc92bef277be63b631aa7ae4c700748b863a277469
+   __TEXT.__unwind_info: 0xb0 sha256:356015fb5515f036ac93994eecb70ef30c899f91a54ca13aff147bb08570b55d
+   __TEXT.__objc_classname: 0x29 sha256:4f7f60fc2b3d4108cc5d235a66cfb521c541c4ac6b88aadce822a06020796e9b
+   __TEXT.__objc_methname: 0x3d5 sha256:b401226d2f626470c7e1b8825d1e3fba1fe49e703ad5156ab1398dc0acb36d96
+   __TEXT.__objc_methtype: 0x19c sha256:e4290a634e97f35d4b1f0a208be06837491c10f6b3583772574a37d028f55834
+-  __TEXT.__objc_stubs: 0x240 sha256:39cfccaf5c8c8fe72397b9cfe9f4b10b563ce3e585aeecaaa447b54752d8bce2
+-  __DATA_CONST.__got: 0x48 sha256:067f875e1478700b036686b4d8d1b295712841be7267d191866fa57cb94b1269
+-  __DATA_CONST.__const: 0x60 sha256:4e55792952c0a0ca9355353cb005f1aba326e6945767268f6038b75ff31cf4aa
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:029a1ff2cd86943f91e44ca7f174513ac924fe0c5bbb26a6cf3e7e13c930566c
++  __TEXT.__objc_stubs: 0x240 sha256:842fc59391e1efccc8b1b746985348fb965003e714dd620ac5b1b93b39b8ad5c
++  __DATA_CONST.__got: 0x48 sha256:6650d9d00d6cd3b4604f396fb758466fef6f1bbf3773eb444ec3d3902d8041b1
++  __DATA_CONST.__const: 0x60 sha256:41df508a8117bb550b755bced111226459024da9aecafbc6ca5f56661cbefcb9
++  __DATA_CONST.__objc_classlist: 0x10 sha256:726629352d39027fefda50fbac7f2475501246e5a337ed23d68ca26a30fc5618
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x118 sha256:32fe4be6f9d97b87584e942ec361425a120a621d7a90388b43e52973c504828d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:408ef82db10a1e2ddf33a12c5524d4acbc7901fad0fc8968d21529e5bff599ec
++  __DATA_CONST.__objc_selrefs: 0x118 sha256:084e8597911c5909e87b206620922abbbb465d103ee7004258e5f637c180864b
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:bc7ca8375ac3bafbefddb0fe1e7637ec3268fea19455487e1c8072a584bdf2e9
+   __AUTH_CONST.__auth_got: 0x1b8 sha256:360d579dbd14759b41afdf7fb5e80c0101e15150ae401d59f92a1e32d129f7cb
+-  __AUTH_CONST.__cfstring: 0x420 sha256:3078fcea1f345f876d9600f7200976355df7ed751f5c058b019b5b46474e75af
+-  __AUTH_CONST.__objc_const: 0x260 sha256:b9bf9de73932d3996f3c0245f2e8b054c6a16a351549c52977eab621c21f7c3f
++  __AUTH_CONST.__cfstring: 0x420 sha256:6a1cfde6591327081a6f2265f4cd97aa25a5df33e49377af941691c4fc0ddbfd
++  __AUTH_CONST.__objc_const: 0x260 sha256:6311283bc41de0882c297de71ba4b7fd857c1b9bd70756613c3e891e51f4d186
+   __DATA.__objc_ivar: 0x18 sha256:913850c783ba5c7fc4aa79c39e100dcf127ec84a398d649d08e50d00274f0c46
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:a43a198a1bc379514b3d0cab6f993266d7d048fabe3618a6cc0e353d5e315923
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:b65a01884df4f792259bfd0357084e9615f2bbb64950d18785e1ce38e2c08cb4
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04943E1A-F490-3A5B-B54E-A122CA612104
++  UUID: CBE9555A-B6F2-3703-9DD8-4EC32935B33B
+   Functions: 32
+   Symbols:   177
+   CStrings:  143
+Functions:
+~ -[PPMClient initWithClientIdentifier:] : sha256 eb03db7fa479c3b7884785822e4287b21b0d2cb59d5c9c9176497bc7bff97c39 -> 7db2aa30212c4b9ad29353539feaf1f514b6e814dff388c18d30d5e5b0dce276
+~ +[PPMClient sharedInstanceWithClientRepresentation:options:error:] : sha256 e66390a69d95029d6d00b34e4d44a029d16731a40558715b683b08a1d60074c3 -> 5fddce481652d112a805b448a8b9ffd42e1e210831f434561b566b15f57c0bac
+~ ___66+[PPMClient sharedInstanceWithClientRepresentation:options:error:]_block_invoke : sha256 9d51a71d92562db31dd2a280d616788b370dd9a58b598771fb1023e8d86844b4 -> e7c5d95cde004765b89e435e149e84e83d6a878b3f58f72a0fdf93ade0b47431
+~ -[PPMClient getClientNumber:] : sha256 5c6da3a3e99777b34a58d147ac9de40718b94efb4e7189c883dd3065d0981cca -> 92f8c7fd624e0a5b02a22718c9ff2c565d653ec1a980b3395b0510548e90ad23
+~ -[PPMClient registerForNotificationsWithError:handler:] : sha256 0bda8da72bb676aef6b0e64360aa28cb83a22211664a998ffad01914ef419581 -> 549800526c8dec107b5ea7f1cb93121a3c771f5a23603289935558ee561deb3e
+~ _budgetNotificationCallback : sha256 744c9b749d2d2f1554873f578806362d39275ad959840696f697a64603fa6fc7 -> 05016afb8ea063545424ff7c5baad7913c044e7ed65568aacba96b2c91a2fd3e
+~ -[PPMClient setupIOKitUserClientWith:error:] : sha256 ba7e88a6acadc077d967309c635f33320094bc368872cb71bd89787dd04ae8f3 -> 01bf70a64f798e32c871653c1b143966e73373d264421771634e0de3d0cf1eb7
+~ -[PPMClient admissionCheckWithLevel:options:error:handler:] : sha256 0fcd7e26d641db43d801461064c3f12df1a526842e6e87873384bdb849bd5563 -> f2da8a0fa2ad14da08c6c65c60cb28e0d9946546ba302a7647ff5c683b46873c
+~ -[PPMClient activityStoppedWithLevel:options:error:] : sha256 dbae06e2e3d3b0fa37cda2f7804efa3d9b946cedf5d898033ac464f1c4176147 -> ad08d9ee9b32c28c32df3cabe5d4ea2c340594690493cfc1e9a3ff3808c2f52d
+~ -[PPMClient activityStartedWithLevel:options:error:] : sha256 989a6efb2befd35b104f29d2a21ad85ee21dfa44b84959c195525fb965a35bf1 -> c8c8d11c5e412b00387bca3aa577e6df37bd37c2dc7d52fd2605801abae2c759
+~ -[PPMClient pushTelemetryToPPM:error:] : sha256 d6e52c5963a2b13afa783180fdb3959e362735a475ed8470ccf8060b00881749 -> 5e2d30ddc1f3873e3fd06ba8a1e966489a7a13dab0be0a2a0a15a59bc4d8418c
+~ -[PPMClient userClient] : sha256 e11c7c846f4a325767cb2143ad4264de4efc576970deb3a6a3f6d11d2194b205 -> 15a85e3ef1d3a3645b7eb88260e2fa7bdb679ba80e461a1178ea0b575614d2f8
+~ -[PPMClient identifier] : sha256 d9fc13b2bcd206d6c77882b297398b4493f3cc69f5172b184aa3ad3cd2502542 -> 395fa68fb32da879bb8d3e5654b8afc53972877a9ff1f6d92a1a57be7b7d44aa
+~ -[PPMClientUserClientInterface openPPMUserClient:clientNumber:] : sha256 6567b44bb8dbe2635b0a996e7f0f940e894f9ff1fee1e5a81122fd96ff750d0f -> 639f8e0708f8845f8617b710e7a40f89755ca392dd7a9e1e2e520ebcb7cdb2c8
+~ -[PPMClientUserClientInterface admissionCheckOfValuePPM:clientNumber:level:result:] : sha256 3e8c518997e56a0ed45e968e3700e8b12412f16796b17fff19a443d549f89a50 -> 176ac6a5795d65e5a29cc086b47c0d154a8218d5786bfad5c2c047db50cf9bf8
+~ -[PPMClientUserClientInterface stopActivity:clientNumber:level:] : sha256 1505090731a0998186d305cf26d03b15562377d6c8c2df99b9ca6fc4c790a703 -> 0ab5f4312ee43934ceb93ff3923f42883608c77a7adff9ed5d38ccd3fd4caff0
+~ -[PPMClientUserClientInterface startActivity:clientNumber:level:] : sha256 b61d18a7f71954c494cf64d6093ce407ad966e63213a0c342ae6fa70c58eea60 -> c4607f03844da4ff4ad530451798c1d642d9e28b2ffe2af25d24cb289901b7fd
+~ -[PPMClientUserClientInterface setBudget:clientNumber:value:] : sha256 69d1bb3ca1c0d58bcd895ef4895edb8258e60556f87a2afa0c91d129c0e2d0e3 -> 4f789129a21c8bf8065f73b324d081ec72830c430a60c89ad59ba36ad72e9309
+~ -[PPMClientUserClientInterface setDebugFlag:value:] : sha256 86f33f9b0042e84bf26a42e607a3e0d322e01e538d29e5590cfee7a8b4cd11e0 -> f4e0d9c20a1ed49428a439fc9f78c64bd98a90b5aece8627cfdc7f321f6d104f
+~ -[PPMClientUserClientInterface pushTelemetry:userDictRef:] : sha256 f6b214d069de1e90f3b0412209cf9e782f75f0bc762fc927205aba9f35266597 -> 38ae2000b9c215c1689a385f70122914ddcb0f94efab59169bda17a15cbc1ebc
+
+```

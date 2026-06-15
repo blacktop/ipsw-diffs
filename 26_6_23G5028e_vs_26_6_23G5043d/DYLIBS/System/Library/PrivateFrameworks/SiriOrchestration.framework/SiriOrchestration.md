@@ -1,0 +1,70 @@
+## SiriOrchestration
+
+> `/System/Library/PrivateFrameworks/SiriOrchestration.framework/SiriOrchestration`
+
+```diff
+
+ 3404.2.1.0.0
+-  __TEXT.__text: 0xb2c sha256:3185e89b3933b26fc0540172aceb53f530282c971022a6f0eb0d5975b4df27cb
+-  __TEXT.__auth_stubs: 0x170 sha256:32e9a2e0df9b61ebc69e331a3b3fb805c03c2da22f8840786525d53d70557246
+-  __TEXT.__objc_methlist: 0xb0 sha256:3059ea1205db0c3dfa689c8c465ce0a46dea8b3cc8f177bc556a64e1d15d50fb
++  __TEXT.__text: 0xb2c sha256:a3ec0fe6d82f29e77b5b969a03317be53cabce0fb48f5f80ec2fb303ed334c8e
++  __TEXT.__auth_stubs: 0x170 sha256:144258126e4c128e49e71caee92467ce5446b322ab476b4b71417d1a6308cb35
++  __TEXT.__objc_methlist: 0xb0 sha256:d3bb931de39f3d3b4046dd6d3a2614022828e0bb90b821103edb64584734726a
+   __TEXT.__const: 0x50 sha256:4f39d04dc06e2f96105b40fd9ebd94a10541a69129f733beb4b2f6b91766be2a
+   __TEXT.__cstring: 0x83 sha256:3df3b45451dd96a9ef3ffe69bf51d192918c934ff70b88234007f2ffc54fd421
+   __TEXT.__unwind_info: 0xa8 sha256:75edc2266e1547cbcad4878a08f48b246f6bdae093d6fc2212f27d7dd1f10cdf
+   __TEXT.__objc_classname: 0x25 sha256:2cedd1985e68596caa6f46a98563e2790b5ebd131c4cc031f07b3944c556ca56
+   __TEXT.__objc_methname: 0x287 sha256:35d214c72c30c3c1a12fa4f0fcfb07973b0413ad23e788e0ac4d0a8842696986
+   __TEXT.__objc_methtype: 0x50 sha256:889fc6ef668fb1726d73ff8dce9850d63b688681db2a5d7c80be166057b268e2
+-  __TEXT.__objc_stubs: 0x300 sha256:31181a5bcadc18dba44f67650d8daad8d2db74d8e44470ebf24c884a28369dce
+-  __DATA_CONST.__got: 0x38 sha256:c42b50279986f0bad4e486181f6d9e0e320f36bc9548089fc38ff09f3190cc49
+-  __DATA_CONST.__const: 0x50 sha256:0865b09d5d090a6ca4d5dbefa6fbc63a8f31d39ef80aa15accb556c14f1484d2
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:856698ef18693da987bb32497b1224bbf0ba0e87947cda9e106c5b3912b9a714
++  __TEXT.__objc_stubs: 0x300 sha256:6448cc44ecee1a9f4f4641cf74319e573615c3bcb53fe9ac6885bd64521a5cb9
++  __DATA_CONST.__got: 0x38 sha256:6eb1ffc2d525b9b6e44ce150bb2e1ae7a21d07842afc67823887db1c2a8e2e9f
++  __DATA_CONST.__const: 0x50 sha256:2b08570133fae4f763e6e5b9940480667c5d643d759865fabffe709b84816457
++  __DATA_CONST.__objc_classlist: 0x10 sha256:4d74e7ab7ca180667779806e15567e55c400269fa253cff648dda8cd1ba96340
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:4afba7d63dec5079c787f051a53df99e52df1ed8fe61de96e476787515633511
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:9403877bc16b74b305ce09621f3ba1110379e1c5b7fc50bbe46009e22ca292cd
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:88c033615678d67b118f4b5fbd53bd65bd0ce5a4ea8769f122d9ea92c034004e
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:8d7666c6eef7fd23530d20b109205b6dce2defb1c3960bb4d7f461e3e42a2fa3
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__cfstring: 0x40 sha256:bc46468a934504b4f23909dd2659729a6341a52613787008f9b7bc502420948c
+-  __AUTH_CONST.__objc_const: 0x1a0 sha256:5bbf549b9316872da0182f5809e908f91d0c77c4bff95b2e98f42f7cb138567e
+-  __AUTH.__objc_data: 0xa0 sha256:32a768e14a31e302447e7ffe3989a15197b7fe30c4a5f56248531ecfcda4ce45
++  __AUTH_CONST.__cfstring: 0x40 sha256:7bd18fade5dd2cfc596edfa4045cd695754fd9cdb478f8dbc32523250beab970
++  __AUTH_CONST.__objc_const: 0x1a0 sha256:09a4169440a7e0bce181a80be5971d00edd301a5b7034a5824ea73b1670b4ba6
++  __AUTH.__objc_data: 0xa0 sha256:84ce69631d0450bfbe303fafefd9a98d2ee61cb8271f9c0a7cc3e2e357faa705
+   __DATA.__objc_ivar: 0x8 sha256:c0cdbb6e45249a718e7e605f801cf43f673a22fcf0347034da71f6be2e4f4d5e
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 818BBE4C-3E35-32E8-A724-7591FABF9830
++  UUID: 86E627C1-2E20-37FD-B0D6-56E342C68B16
+   Functions: 20
+   Symbols:   114
+   CStrings:  52
+Functions:
+~ -[Receiver initWithWrappedObject:] : sha256 43047336bd43cf9a8107a15a89541f8fbbc8afdd49f6c848ffabea790439e2de -> c3ef7e68fc19eb5a34e31f07ab129d5c0694adc17cc0abcef8eaedf9db780662
+~ -[Receiver wrappedObject] : sha256 9b8f2efd69e7edcb78b8774cbfc5583ca009809e21409d5aa649f472686d49b6 -> 96cfdde67e0c7a38bcd616c8506cac3274e7759b079baa6ac88c020894355928
+~ -[Receiver setWrappedObject:] : sha256 43fe32bc9790ad16ed858dc1b97afa20e11dd3c5aeebc3d94945163f1dd88b74 -> cbddbe49a18bba179332c852d5b968da1ede93646f1c8279a42929cfddc7f5a9
+~ -[Receiver .cxx_destruct] : sha256 02df05d8455fe3c94920c2df99342656ae604c27dc42699df4e3355db4408862 -> 81ca8181b5e461056dda9bffa082ef985cd6e04081f8a499c8af8a2e408695b6
+~ -[MulticastMessageForwarder init] : sha256 b4c6aa9b3e12ee3fb13b13cc2310ffdab46fcb5a48201965a760a88833b39c22 -> 2549776e85cbeac43dd15f6415b7a364daae7ebbac85f4a2513f2f76eec82f22
+~ -[MulticastMessageForwarder addReceiver:] : sha256 5d6a5cf081d8d211fe07293182abafe433cc77b25e1b4487553136b9d97f60af -> 31e5499f70b2aca29247fb1ce61f1411e4d795778f0f4466e25146adb775c40f
+~ ___41-[MulticastMessageForwarder addReceiver:]_block_invoke : sha256 2d93bc2c3533a522cfa2a77cdf0bd40fc47f52efdccbf54c8e30a81fbe1221f0 -> 71d22976754b31e1fee835c1fb498918b0fec950c435febd8fbd07a0c3abdba0
+~ ___44-[MulticastMessageForwarder removeReceiver:]_block_invoke : sha256 389292a7747409ba0492c74d1905f65ae3ac3bdb1235fa064a9e9efc4060afad -> aad6370160fe86e6cb70ce5db7891a0bdfd4c1458d4d21870b51401a47ee4adf
+~ -[MulticastMessageForwarder respondsToSelector:] : sha256 dcb052943490656cd68a7f598538c99aca516fb4d50f79554e31524081b9ee00 -> 2612d30f9acbafa50d7207cdbe3edc102167648a1af25268bccb8295785d2ffe
+~ -[MulticastMessageForwarder methodSignatureForSelector:] : sha256 8c2f18046f9f0a388da5d0917a236d219f56aac261119cfc877976aa35567a58 -> b7c0f4e3e8e6cb158156d0c661df31cc0bda790b49540a9da49b4e5c94b08e96
+~ ___48-[MulticastMessageForwarder cleanupNilReceivers]_block_invoke : sha256 a2305dc91af6285db6d2db5cfd067156a60562666f47a0dae4aecde1c7c5506e -> 3eb1b05980983b7089b09d8b09336801e638a767d605032efddc194fc07e2641
+~ -[MulticastMessageForwarder setReceivers:] : sha256 ab84e30796691cc33159e0a3352d7c3794c62b0b18224f415efa16d8160ed558 -> a547b71ff4d9edf997ab49ddda02d96d425e759547cb56e4163a51b01f4524b4
+~ _OUTLINED_FUNCTION_0 : sha256 904b9b8b4a9c4c19f0ad4404275bd26600ef85dcd7693084f3791a80f891354c -> 85a6635432d80f02a97db05fff1c889f1746ec2330931527e330145db990ac33
+~ -[MulticastMessageForwarder cleanupNilReceivers] : sha256 211a7eddf8f82152993dfe716ebb983a38f1cdd9daa69d8f23b478b90b9f64dc -> e94bdf31d2dbb842f7faecc5a8bc17631ea001aaa1e70452820a3e0189ba1564
+~ -[MulticastMessageForwarder removeReceiver:] : sha256 20b411396f772e9baa77680aa3258486553bd07581c23cf170285cf189aba130 -> 363a1837941d0906f3135e10fd67a227acd0b9654f8aa7b5a4f6813247af0c4f
+~ -[MulticastMessageForwarder forwardInvocation:] : sha256 66adb7c0df2f78963457e9d0d0012d9adb4b809c8aa29e11d210a980be1b77ab -> 7fec6f00da8fe643933fa6ca157efb4ddd2c035b33a32f1ef426c644c145bff5
+
+```

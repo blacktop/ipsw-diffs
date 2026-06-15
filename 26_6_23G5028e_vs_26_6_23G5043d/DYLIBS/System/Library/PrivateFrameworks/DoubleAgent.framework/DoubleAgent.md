@@ -1,0 +1,124 @@
+## DoubleAgent
+
+> `/System/Library/PrivateFrameworks/DoubleAgent.framework/DoubleAgent`
+
+```diff
+
+ 35.160.2.0.0
+-  __TEXT.__text: 0x4088 sha256:787b55e02081988a9e2d0cb4af3d8198a68571a4c26e91876dcc9571bf35c053
+-  __TEXT.__auth_stubs: 0x2f0 sha256:2a1d1890098b07971c7e366277a2f81edb42219f91b6263f465b08258f94cf3c
+-  __TEXT.__objc_methlist: 0x3f4 sha256:01d6e6069d46677d541dc8d8df167cd3d60b47db5f74da3447339bf6a5303b57
++  __TEXT.__text: 0x4088 sha256:d904fd001c515dfbbd556aef7e1add781666f039777056d7ee03edf9792e1288
++  __TEXT.__auth_stubs: 0x2f0 sha256:ef3625526f0797f43817ab06e905a5ed9c308ec6c35d90078c30296a40806ee1
++  __TEXT.__objc_methlist: 0x3f4 sha256:eaf3fdff84597c1abac502ea9a517b3c277babd3bc7d055c6fdb5a34f41c42c5
+   __TEXT.__const: 0x90 sha256:100224396f07ab272ee93a3bbdbcfa27901505488b12545773ae1c84bb21fe99
+   __TEXT.__cstring: 0x30b sha256:65a96c189ee2dca0de37d0d04a00c0a0dccb313ff995b79fe3a431f016a99c54
+   __TEXT.__oslogstring: 0x47e sha256:548033f828de386e282392708bcc5e760d32fabfc703d9f99de605ab6e15802c
+
+   __TEXT.__objc_classname: 0x47 sha256:2fc8e6aaa3e26f5861b024040fb4d54c8114456f2c4488ff1ca196c53dc474e8
+   __TEXT.__objc_methname: 0x87c sha256:61c85a90db0dee573a4bd65cba74d7ed1fb4c949b19b62f9f4b86c8709c75e5e
+   __TEXT.__objc_methtype: 0x5b9 sha256:9649db8d19b280a61f01a58f857d82f0d9729ffc9f3365119f76ef1a2b22cbaf
+-  __TEXT.__objc_stubs: 0x400 sha256:60dead0ca42e89a5185562c0782ef0b5db04ab4310c9c72f8357b99d6d2a5c2f
+-  __DATA_CONST.__got: 0x40 sha256:a633f78b3e09627dcdcd7915e351da03f69fc6e94c121e61cdc54a7492dcc5ee
+-  __DATA_CONST.__const: 0xb8 sha256:4384f688a8d46046f725ade5219a62031f01ef7d1bf1a9c09eaccf2e1377fdf0
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:d681a62f574f811240adcc37d33ab0f8c50e9cb06f18cfa089984e48ed2a8c3a
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:002f53ee29d62bc886f05be64dc22e5df741c72fe3da960317288b8616fbe4a0
++  __TEXT.__objc_stubs: 0x400 sha256:82d283cd51c9ce583d48599a4db59645388cbc4ac736e3eb657511648985a41e
++  __DATA_CONST.__got: 0x40 sha256:d07e568581bf3ec86d4f5e9116a8fb71e27d494291d2c80067320cbe1dbed68d
++  __DATA_CONST.__const: 0xb8 sha256:6cfe789904f96405e1b2f000ccbbb9c5a288df64d42f9cce15fb09e05edc57e6
++  __DATA_CONST.__objc_classlist: 0x10 sha256:4440bd77bd099131e88a4b43ed30a4bf5fafb48fe0211e543fb37d09e0b22ec8
++  __DATA_CONST.__objc_protolist: 0x10 sha256:a73f024e5f8fdfa7f2e8e34f4eabcb53fad54e0bbe4cbf52f2b4d693fe453f8d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:4d61f92bc3299ab02542c70be011faa2f3f6acd21ccb8cb03274630c94abb321
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:d681a62f574f811240adcc37d33ab0f8c50e9cb06f18cfa089984e48ed2a8c3a
++  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:7119095f25a52b58b604666216fd5fe4300f46ca7116728e226263e2c0285915
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:4440bd77bd099131e88a4b43ed30a4bf5fafb48fe0211e543fb37d09e0b22ec8
+   __AUTH_CONST.__auth_got: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
+-  __AUTH_CONST.__const: 0x20 sha256:534d96a5751ac966a7178e63bd2319f97fe381f4f4dc7cf9b87461a593b39afd
+-  __AUTH_CONST.__cfstring: 0x40 sha256:71742750613e5481d319930ea8ee050799614162225b1c1b82a51f13e6cd5036
+-  __AUTH_CONST.__objc_const: 0x4f8 sha256:c0137b2b5286dc7265ad2b9bda7257fe5a35ccd4a0fa90cf61f490bfab49123b
+-  __AUTH.__objc_data: 0xa0 sha256:4d7556f8c3342750cc39ecbf1809a06997a77ec9a0a44251b6d5c7721d858c92
++  __AUTH_CONST.__const: 0x20 sha256:5fba0e394b57782b31a548d829e4f7dcdc80a5eea3e9de5df4a4ddfbca648cea
++  __AUTH_CONST.__cfstring: 0x40 sha256:ac99f6b70bb66c1782392728ad96ca7081461a625e619b7a0330a12ee85442bd
++  __AUTH_CONST.__objc_const: 0x4f8 sha256:7b189b849af1c8a6a0536b7f6ae0a43ac0c581da5d295f52b4fb6dca6d6f88ad
++  __AUTH.__objc_data: 0xa0 sha256:eb1db939902f9951bbb6d7064ce9ed0689f52ece538794c8f9feb5f4ea7be68f
+   __DATA.__objc_ivar: 0x30 sha256:a6a0ef1e9f61397ae18debec90c3049ef2e9f8a0a386f2f37f077ee81fd4af03
+-  __DATA.__data: 0xc0 sha256:aa171ec30922d9e10358f0b8b9c2db89c003e757d1f1363825b381c87a60745e
++  __DATA.__data: 0xc0 sha256:401b32bbdabb557f81c9a6b0d21fd8975698dc7bc44533bb73286bcf48b3bc22
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AF048825-5F5A-3538-AC30-C9FA7142C004
++  UUID: 3D18EE54-8B4A-38F2-9DC7-8C12876AFFB0
+   Functions: 107
+   Symbols:   357
+   CStrings:  220
+Functions:
+~ -[AppleDoubleParser isXattrNameValid:] : sha256 d25f21367a72fa6decdb0094377b7317f7244e2395e298ca1ff3ad88d32d775a -> 88b98c3492a64833c8a50eeec5031ebdf96fe32dd6a05445108be750dc325852
+~ -[AppleDoubleParser lookupXattrNamed:reply:] : sha256 2330075c6e06cc3b431c0db90f2ca084ac4abead6e7bf0f679730e0758a284ef -> 9d4064a3c1db474c393b28adc40f98ea71bf7a157dd2cd463488861078c033f2
+~ -[AppleDoubleParser allocateXattrNamed:sized:how:reply:] : sha256 0ef8439d8300550c24412ed7c4c308a1e2cf7250aece5686388a60341893cab3 -> 0d3389296d4c9eb36e4053cabed0dc6e39fcf36416430ca9b012506918cff9ec
+~ -[AppleDoubleParser removeXattrNamed:reply:] : sha256 c31ea711b8b4f4c61af270cc5e18eb0d8bb7053d3671142aad33a5de00ac821f -> b87e6bf1b66baa5c725c08f6d21ad6f8a96154bfb329ba5fb67dc3e3a845fd4c
+~ -[AppleDoubleParser shiftDataDownAtOffset:length:delta:error:] : sha256 65b6292004f0fa5572910073e4cda70b5358b7bb315e41a9b849acd9d26f6f07 -> af6498757ae94f1318dbe0af49ed642480614b874efb4bcf63bdeb396dbb8093
+~ -[AppleDoubleParser shiftDataUpAtOffset:length:delta:error:] : sha256 50483b2704b745f868e0a7a09bd3ad97b1a25e96bd9ebcef8c3defba9a2d52b4 -> 69c3790f1df75ac32b75fd20b946d6863dcd879e2ac563ad6406b8c15e506b70
+~ -[AppleDoubleParser fillEmptyAppleDoubleFile:] : sha256 1e5814bf25caa584382dd0003cd507fadbf3c5e8d752582c32bec3820b5ff47d -> bce705e88ea8b54163ca09e56389408999ce3c3c29ad56b50736e129fddd08bc
+~ -[AppleDoubleParser updateFileSize:] : sha256 7d00937b581c93e943bec4cfbb8b3f66ccec3efa54683068cfa38247199196c8 -> ed568b10983f72642e810ea25bbc581553f658b6832c52fface6eb20157195e7
+~ -[AppleDoubleParser readRawHeader:] : sha256 370d917ecd25098ffcd6cf55e99ae6efd41133c9de489dd0063e15862f27b879 -> 34b52b4de94b1586d541779850f81c0b0409242acde57b5369fea076f976aa70
+~ -[AppleDoubleParser writeHeaderToDiskUpToLength:error:] : sha256 8097ec1b5f06cdc61bcac8dd210058526bda6afe5ac45df36fa2ab183b4c5a2d -> fbdf3997c9afc115a1b713a110a9cf58e57a689bc8f2a256c4a31d7b7dd43ac2
+~ -[AppleDoubleParser parseFileHeader:] : sha256 dcfa1eec91de0cffd78686d4f26e3294ec1a308a37f3777d401b52e28918b28a -> d1b942e6d5861728e842efedc84523cf3832f0e61accef3170b141069f9a557a
+~ -[AppleDoubleParser parseFinderInfoAndResourceFork:] : sha256 9e364ace96da3de7da9a86f11561f9ea6f5ccd7ce1457e6002d7af8f9c5e249f -> ebf577f867207712b1c1b0e2a44928f6efc3324a77e5e2663a4c44ffab97e864
+~ -[AppleDoubleParser parseAttrHeader:] : sha256 2c3dca6ea616a1097ef613837e32f5b11237428ec3736ce9d8deb033cc2cb2c5 -> 88a476541ec442da0b4b594a5348093aec18ccc74e7a243f9f95eddeb1f4250f
+~ -[AppleDoubleParser createAttrHeaderIfNeeded:] : sha256 904b727dee3aafe09b9d34a18a915007b1102fa80cddd1318965168340c4bd12 -> c59ddd6d42b6ccebbde25b79691c5dce42e72cb331e9c914aa6d2d32be36aa2a
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:] : sha256 8519901b9e8dbd7c04be82d293e2f3254190567efc87d4b471152c16e314efc0 -> f3c97cf833c01b6ea461eb8275bea8a703db871a87398f5a0478baaac2e52dbc
+~ -[AppleDoubleParser rawHeader] : sha256 ea63e539e77c2ba31eed16e4da49c961c97862c12d1d2decf37ef0564f9ff16c -> 5885245588685807853ccdf570b8e13f9e3dd22a6bc4143c78271382c5bc2a20
+~ _OUTLINED_FUNCTION_0 : sha256 0cac065acc634b32fe737b67c7c187cf2b2b86b5d70e504487652765ee2d5da0 -> 45c5c33c7ded2b641ef51e4cf0f64710fb2590348848f87fec8131d7c39f8a80
+~ _OUTLINED_FUNCTION_4 : sha256 3fd745deeadf9d75055ffed910129bfd6ee0be2553c33177a55d74f789d206f6 -> 05ded05a509f79df2eba8ae8821bcec499dc8117a9a89d2cb6fcece1db2fb285
+~ _OUTLINED_FUNCTION_5 : sha256 13e6f156751ee17db8ccf6204dcfb396ce939c87f4c6ef5326a0c754de6299cb -> c28587ba31b1c61d3cca5e344a43b133e59df34c8b8ab8ad5e1c96758169e00f
+~ _OUTLINED_FUNCTION_6 : sha256 6f5cd4a043135f3c2cb997d51b36b01b8a75bf155f5282c416890b56c3fa9520 -> 58b53d598b6a20eb610453e3419adae31eeab27196d4737359fd690e90763793
+~ _OUTLINED_FUNCTION_7 : sha256 39c91dddcd84a4483f388692ae8d6932c916083260fdf9db6855caeaf03c5b0a -> d6957a9295432603cd5979298d0343de95f31f15221b72a2577a54625c4e7fab
+~ _OUTLINED_FUNCTION_10 : sha256 ccf006cbfb16114d26ff28254686214460016e635d95035c4c45f1c21a111b12 -> c1320423c5c13efc02fab4dcdc3ced456529c6cb75c2084b4552803dbd3466dd
+~ +[DoubleAgentManager defaultManager] : sha256 55e6ed4b733047edfc19829ef3fbe39ef25394e6b908a46b543bde8eace71807 -> 353f74720a91132c1d63b896d9f71a174c07b32e82e671b7786efe043ecbad02
+~ ___36+[DoubleAgentManager defaultManager]_block_invoke : sha256 a1106c3c0483d62ad5365eb566ec33efd5435f3463b61b1120d5e97c3708dabd -> dbb3456780b3dbc0c4f72eb85f7e82dcce9b5bf59fece779bbcd790cb32fee4e
+~ -[DoubleAgentManager init] : sha256 19d9e02df24ee47e9a445e69d51e048449fa2cf828516f3e6591f211ace64334 -> 868c60d9a1deda02bfa2a59a0565a933e6e06248c124e21c091eda02786db844
+~ -[DoubleAgentManager lookupXattrIn:fileSize:named:reply:] : sha256 8bf8e64e9bade639a1cd3d93deb1935ee22fe97eacee916607c95a2085923c57 -> 08aa242352238af8bf023ce6d73597a3c6cfb92fddeb8661d0705cdb28ef553f
+~ -[DoubleAgentManager allocateXattrIn:fileSize:named:sized:how:reply:] : sha256 dea339b19cd8cff8710bab378a55a252aa8f266405bf66fb9f06524bc258a5f6 -> 5ef9de140a07b6deb9b2184105dbc31a12e8fb18cec9946314e9af0a4b0b3ae8
+~ -[DoubleAgentManager listXattrsIn:fileSize:reply:] : sha256 860feea68f2630daaf9825e36964d928175a02b87220222674f1abf5fd6886e5 -> eed7cfa04b10ea13b9c724437e0bfbebe5c90e362a41b283b9bd81775c268f54
+~ -[DoubleAgentManager removeXattrOf:fileSize:named:reply:] : sha256 78f147e0600b70339a97a6638dc4faad4dbf50275ea18eca4026a7125550d041 -> 3dd7812cd13d7154e5b42b1cb8dc6d08d48c6e748602a136446838ccbcf0e583
+~ _doubleagent_std_log : sha256 aec89ed403e0b17bb7cc874d50f3864ab59bbe5443186b0f91474bcbbbafb149 -> cd2dbc0baa87d97a1cb10aa1f0f5429556ed816989f0a0af37b52193b5d0dd93
+~ ___doubleagent_std_log_block_invoke : sha256 f32b8556fb2658260d7e4586a4ec7f5f79320817dd22cb62d7b686b1a7e4d634 -> efe638026ab82abff2726d179a2bf432f166bcc597349a5ae1d0f9acdcfd33d6
+~ -[AppleDoubleParser allocateXattrNamed:sized:how:reply:].cold.1 : sha256 ceb46437ff3e9e38a7d90d5e7122a8c3b13cec23260b42c4b5914217e6c319fa -> 9c180ea24232d8a0882bcbfe342a94ca7cb2366f2f746ef869557c02dbee57e8
+~ -[AppleDoubleParser allocateXattrNamed:sized:how:reply:].cold.2 : sha256 2e6394aefcc45cd5d96feccc69dd3428da326c4150f2a7800b1f28e7d62d5fec -> d045750d6276b57ce2cda93c4b748b8d9c123c724f615ebde66b416e3fd58636
+~ -[AppleDoubleParser allocateXattrNamed:sized:how:reply:].cold.3 : sha256 9e3cb24cb9457abf270341bd4affaac445bd75a043b477e0e363ca65ff3ec2d3 -> 2e5f5ca5c0391ec1edee26ccc4ddd8aa56593944f0d788b14fa65150a1e8e2d5
+~ -[AppleDoubleParser allocateXattrNamed:sized:how:reply:].cold.4 : sha256 6566961d7023ae610fc9fb461482775e09a594325c99a0d349159f7afa2dde7d -> c2a91e88ca20fb86fe71790b31c95b8f83313fde91c7ddee7e48d83159273c45
+~ -[AppleDoubleParser removeXattrNamed:reply:].cold.1 : sha256 1d5cc6ebeb903d4abfbacc8cdbd8890baea2b06a5a2d7308b80977482aba42b3 -> 0674c2796fce0a8b2d09305512e0ccdd9727fb6dd8117d34aa4a61c74a2a8919
+~ -[AppleDoubleParser removeXattrNamed:reply:].cold.2 : sha256 08de64a161db1303074cb1cece648bcbd423ff325d87ea779bec795d30c00ac1 -> f8bb6066cb8aada0de6ae0093aebd3d2f19cf8f6b3137fbceb1587de044dee6d
+~ -[AppleDoubleParser removeXattrNamed:reply:].cold.3 : sha256 92ed49e425820c493c1796b01a5299e0711545a7d7db2310421b9423fba70164 -> 7ec5ffd9564d159ebf03131f87adbb45e5858ba2c9e633f5a1cde28994c427c8
+~ -[AppleDoubleParser removeXattrNamed:reply:].cold.4 : sha256 47bf2205a3639c86c15ae72615bd15922a0eaba9bdeb1ba2b77a57e594b7dbc0 -> c6072585a4938304e0648d3b15beede9812f86262b78b148fd169aa4baeb45dd
+~ -[AppleDoubleParser shiftDataDownAtOffset:length:delta:error:].cold.1 : sha256 c08d778105c255f81b23f5976f5ef5e0ca569d6dd4c21e1f832d84e97db10802 -> 1bd2b5701306086e16b163d467696c11ebbfbf3bb3f4ef584f807be96a18cbf4
+~ -[AppleDoubleParser shiftDataDownAtOffset:length:delta:error:].cold.2 : sha256 a75b34de14888edfec807744e249833cc6cc8d77464a9a587cacb3197d66de8b -> 248effbcd75fe61f8e6f7a2b6a821406540b40d89110b5622dd339d8255a3369
+~ -[AppleDoubleParser shiftDataDownAtOffset:length:delta:error:].cold.3 : sha256 0d2e988ce91919d4a7e94235aec8ee66eb2b43ae3bc77da982f24295a4188854 -> 68d68ca39de1663982db8e99a73b6a258df180da0f63ddc4057efa6503fadeb0
+~ -[AppleDoubleParser shiftDataUpAtOffset:length:delta:error:].cold.1 : sha256 51733693c6e681d77ca65ef1cba9e4921d9f28bc5897d56a017cba5c2cd2bd88 -> 2f33f492d1d1a2a55d3f5e027a4ed62b497e3f6883d34bdbb716409a04596a80
+~ -[AppleDoubleParser shiftDataUpAtOffset:length:delta:error:].cold.2 : sha256 4e124fcdfb69c8c3b3c36ed81ea7bcb8f6d689fb04580f6a4b44fb8b1258811a -> fab2fa5b700b6a5194741ecbd1c67c5c0505be8f80895cf3192c193a23cde6ba
+~ -[AppleDoubleParser shiftDataUpAtOffset:length:delta:error:].cold.3 : sha256 09bcf147e0326cd2b845bf254066266aef8b8313a411a46988669c0881f0be90 -> c247eb9fcab740d0caf50dae5a3caba61dd1ff294bad0572070788a8795c9472
+~ -[AppleDoubleParser fillEmptyAppleDoubleFile:].cold.1 : sha256 153f43c5a95cad258327fc8110873a3e61e8be09ba17e829fe6f7ca8481c0817 -> 3f9a369672d5cc270bb14ee8f10682e4fd627689186ff4fd1ccfe37b3fbed2f7
+~ -[AppleDoubleParser updateFileSize:].cold.1 : sha256 a2c1c9f52df6837c5bc1fe98728d88df3fca4f7bd723e67f9cde7738182aee62 -> d99611410d00fe9bfe0e3feb8f684940516f898ee8b4760ca356190886590a6f
+~ -[AppleDoubleParser readRawHeader:].cold.1 : sha256 cdffaf3ef1e929e6e5b7a33d9e4ba3f0b050b1c7ae71226de8f3661fc0fe91c0 -> ec7ccc2402d0472ad2fcc3ce47d65c23627eae35b6b841fb85702e988b083eac
+~ -[AppleDoubleParser readRawHeader:].cold.2 : sha256 73f3081bb53379f0f29da0b94ebf0f8a55478dec95c207e5a5e3603841388a4f -> da360d6dadcf9c28e7c7a312ee7f25346cb2ca7d66c8739245d9117a77dec52f
+~ -[AppleDoubleParser writeHeaderToDiskUpToLength:error:].cold.1 : sha256 6ccc3874406c0eeef0518efa5909a4e7c1a81e08428d617930b7e9626b8b9461 -> e0b5ebf4327ae135fad19bb2df48fdaf498fdd5e813f9886c52dfd42f23817b5
+~ -[AppleDoubleParser writeHeaderToDiskUpToLength:error:].cold.2 : sha256 00dc40c8deeb39f83cd08514f87ca5a666db8ded802476535cfafe0cba2f17c5 -> 95c9f33e2b7a9f6c395b0812c3cb61e30c9e9dc460a7618b9be63bc5c58320b9
+~ -[AppleDoubleParser parseFinderInfoAndResourceFork:].cold.1 : sha256 024c2199a72363921fc7acf957588555e02e3d101a7ac7c44876858006e00361 -> 7fed425ed53975e09b168c3086d31c9d85627c6b07874abd35fed093638c14f1
+~ -[AppleDoubleParser parseFinderInfoAndResourceFork:].cold.2 : sha256 a9f42357aa3915181a8d229d8321e7728708de87c413726db739c7680f2b3d84 -> 04dbc72543ecb52177a20070f7107b2e891fb57f47a09133b81942fc9bcd6458
+~ -[AppleDoubleParser createAttrHeaderIfNeeded:].cold.1 : sha256 00869d9760845ad4d519b4dec7c98f8030ae909ee4e744a205c9a2d7534b3cd0 -> 8880ac3b3166aed8975d7b16a54383cf82ed0e5511f9c0f9d23c05109504618c
+~ -[AppleDoubleParser createAttrHeaderIfNeeded:].cold.2 : sha256 6e3e044d6589ad3b2d6d36c57c028c409f63cae23b78cc93551de4b7d3395f7a -> f8684e69e463782b5cc43f1107c84abd0a9e41e73900a5bac60da12da2ebae5e
+~ -[AppleDoubleParser createAttrHeaderIfNeeded:].cold.3 : sha256 d47b2df0082c87a666b04b4ccf08d896fb7f5ae9a36110ec487150c9290a7665 -> 98b6bfbd97b84d839760fd7d4e150691d25a174c95c019904e32b88d7da6a727
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.1 : sha256 b4dab978a842e6efb6c6ed6375dcf88abd09e18cf92c234dcfd0ffa4997ff551 -> 535526b1465df31f87c82b0ea6164053d757c7ef312f689a9d97fe271e8bac41
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.2 : sha256 5fb5053ee670595919875aa9adaff9a703ee590992c5772a4094879d20329a91 -> ffb503378dec6086fa384bed04ef4287100acd9a1b75f39b42444040240cc61b
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.3 : sha256 5ef94c9903512d68bfb1bf83915b6626fe0b7cd264ea54c945f3fd1dd137ccc9 -> 8271f82c0711799fa0bebce2dd40529d4c821e9f365d722cb1449fee1393e14b
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.4 : sha256 a93c0c1a9ce5fd964ddc559bfb29c8f387d63afa01a5285e90f8075ae39b1039 -> d439771242f53cd62e9a67aada073bc3d8863e167e88e3ae3c8474449acfde5b
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.5 : sha256 9eaa8d3dbbc2f4d83dfae1c3ca88e8a0401e0fa4a0f93b88a1ccbaa2097b31ca -> 132543e1c0fa0247c83b59dc3058a99a240fa357c0615527d5441fb6c695dad7
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.6 : sha256 468533e00f63a318cae5ae2254ea6150678b42512c7cbce4ee4ceea770bd98f8 -> fa0f903baea1c5bae252f5b9ee1f8b4fe95342c9b1b287431232565ecf085d23
+~ -[AppleDoubleParser initWithFileDescriptor:fileSize:isAllocateXattr:error:].cold.7 : sha256 43095094a95fbb9266f387a3ffac426a4fb89f2e4b1956da0f794c5d85444283 -> 030014c074488ef63f848d970c2e2130d9d1384445fc8bec60d62d6bbcb200fb
+~ _doubleagent_std_log.cold.1 : sha256 e3011d08c8e9f83fd250fe57c71de2be43944c5a8757a9b6bec49cc45b1102c9 -> 191e96432e5d34ed9b6973ea288b6b126b292ae5f237df62751b7b981a8239e5
+
+```

@@ -1,0 +1,242 @@
+## CoreTransparency
+
+> `/System/Library/PrivateFrameworks/CoreTransparency.framework/CoreTransparency`
+
+```diff
+
+-1547.160.23.502.1
+-  __TEXT.__text: 0x2ad84 sha256:7616d08f8f343c1a82ee873cb80c4bc363ed94fa47daf36a127ca86c2b198fbb
+-  __TEXT.__auth_stubs: 0xcb0 sha256:674a55a0f13e31f3ddd71d816070fde1cd85fa649b75f31b965eee410486acd5
+-  __TEXT.__const: 0x4654 sha256:a2414a7f3379c0b9b678d1a9698dfed8211ee30ce93fcd1c10fb29f5f6097f28
+-  __TEXT.__swift5_typeref: 0x128c sha256:d29b580717a99a84ac9f6b5c1e17b19aa4a3118e7b0d7b90b4ad28edc28da6ee
+-  __TEXT.__swift5_reflstr: 0x11cd sha256:a8d06237ea4f2f06d0be1b6b277805fb907b27be4113901573cf80b256d8fa23
+-  __TEXT.__swift5_assocty: 0x488 sha256:e7a772db937a1d04634c0ca5d52c310f4632cc31d170f7b4b9cab637ef6fb9fa
+-  __TEXT.__swift5_fieldmd: 0x135c sha256:98ce95cd9b154e3f602a7c2d8ed50226c56d46eb08e02bbe821b7762e203279e
+-  __TEXT.__constg_swiftt: 0x1628 sha256:a05971f13504f8d122b35f284cc8fcb3daf3716cfed0cc81e2a623eb65bb2f11
+-  __TEXT.__swift5_protos: 0x88 sha256:e6ea6d9ffdcf19689ca584932ace994fb9002e9a1c633c13a60bf2cf182ca304
+-  __TEXT.__swift5_proto: 0x2ec sha256:1887f838f907b95c926f806d4102edc17394eec45dcc1e4b82bc95f3794a547d
+-  __TEXT.__swift5_types: 0x104 sha256:626833e28d4d528eece0ec4c0cd10c632063b33bf9a9fda49da74a0cea6c187d
+-  __TEXT.__swift5_types2: 0xc sha256:a0389d28c5729673021b174b1dcf4c3e397cfb1855fd3108b7ede5c921d0520f
+-  __TEXT.__cstring: 0x71e sha256:428f4f8057a4a8defee04e084d994ee75bc087e0b2b216070cddf0dee7d08cee
+-  __TEXT.__swift5_capture: 0x10 sha256:d87e41b7e3924291e96996f834c7dda4bb532c15ab2418b97188c2f0735fb7a3
+-  __TEXT.__swift5_builtin: 0x50 sha256:7d72d5ec559429d96a10984ed06799e09aa9dd1efd98137189abbf1aa14885a1
+-  __TEXT.__swift5_mpenum: 0x20 sha256:ca227d5191dda4e18db30ea2c1f6cddaed16fe694d8758719384d226b94307be
+-  __TEXT.__unwind_info: 0xfa0 sha256:79e493d96e5aa741037c020e2cdc9197ff8f39eaa31cae6eb11d3b9ee4dfd963
+-  __TEXT.__eh_frame: 0x1540 sha256:44998d4d5accf2b8b656d29f9b9a22d5a3a969d85dd17c9f0fe0aa2fb5f46b57
+-  __DATA_CONST.__got: 0x248 sha256:62ec1707572ac5078d31a687a5d23de0c6d2a58d3462efb7039957548a7986cc
++1547.160.35.0.1
++  __TEXT.__text: 0x3e5d4 sha256:3b0d9f25f761769263b8d5162f4d3c4a61cb7a9f01217369b616b2509e2d2a2b
++  __TEXT.__auth_stubs: 0x1090 sha256:16b81fd150b6b5d23a5ad068032672c744cab17e11b0133d60a3b534016f3c27
++  __TEXT.__const: 0x60c4 sha256:4719940dc2292f174b893f3604dac04b59bacdd1968dbfe35ee230cafc851b74
++  __TEXT.__cstring: 0x9ae sha256:4f7c98f25bda1676d7d496cf8a607d3c43df92457a9d2b19ac927cf57ad624c5
++  __TEXT.__swift5_typeref: 0x1712 sha256:2d268353ed38104b536f04b77fbcde46f8a160e590fdb62b5b63883fa6659cef
++  __TEXT.__swift5_reflstr: 0x1a9d sha256:1379662888124e5f10dc9a281f26f469e95bd665a2dcb52d869ad9548651014e
++  __TEXT.__swift5_assocty: 0x568 sha256:7347b94f8d8d3d898e179b106f6d9f8a891d4a105672ecee27e013ed294b973d
++  __TEXT.__constg_swiftt: 0x1968 sha256:578e0680fb8bd8b51ae1d8d902c92cb1b6584c710b30104ab32064d039f8dab2
++  __TEXT.__swift5_fieldmd: 0x1878 sha256:3f9485b3eedd52d0aeef2a33ff41ce989452bf0952013d2c3ae2b0c21d9223c7
++  __TEXT.__swift5_proto: 0x3d4 sha256:8d05dcf70a5df755a2a3d7b0588167b2a982c9542e8cece5ef999fd8230d6578
++  __TEXT.__swift5_types: 0x140 sha256:a65c72e1d13fd3eb21788651282e5b935896208f2a62d7a2e9a82c35fbf98cc8
++  __TEXT.__swift5_protos: 0x9c sha256:cb9cbbde052da6b3c3e58aadd7f644848ff6f691a8f0ca79ec3ed3aeda02204b
++  __TEXT.__swift5_builtin: 0x8c sha256:7faf89ea5179107eb618fcb70143a901ba0433b6d91960d328beada78c5dd019
++  __TEXT.__swift5_mpenum: 0x38 sha256:f6dc87ed8ae85410097ff5c0b34380adc5519653c374e8fe93692ff39fe970cb
++  __TEXT.__swift5_types2: 0xc sha256:e5bd59f802b7c3c33831d6ce61fdee3ada407b61439397f266f608e93d772570
++  __TEXT.__swift5_capture: 0x10 sha256:f8d92aea3c3a1d7810af909ec822b1e2df96e2e84113ae431c8a3de2d29a6c51
++  __TEXT.__unwind_info: 0x14d0 sha256:bacac9d546b7f92e992e0ab77bf7c39d5bc500efdfbd7bb38ec446335791a629
++  __TEXT.__eh_frame: 0x1da0 sha256:ae696b7a778c493fba891084ab22f752468b6b9c6fad880a50cd2ea008d3b3b1
++  __DATA_CONST.__got: 0x2c0 sha256:2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556
+   __DATA_CONST.__const: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __AUTH_CONST.__auth_got: 0x658 sha256:6cdcef7920eeed7c365634796f672ae01d3d4eb4568b9ff3ae4260460421c2aa
+-  __AUTH_CONST.__const: 0x2968 sha256:ac112c88d006bf0e32913af4c4154ff238a1bf190c781b6724bdff5024b8303c
+-  __AUTH.__data: 0x920 sha256:909ab032729098d860a1ed2b138809d8ff14400dc6406b99ec9bb002ef8d3657
+-  __DATA.__data: 0x980 sha256:0d941f3db0103709b44380ee8852d477b59c983d24272dfecbd6750fd42251d0
+-  __DATA.__bss: 0x5280 sha256:fcb99a526c4ae037ad3248525f4245e1580911672c650839de9ebbc64ed68495
++  __AUTH_CONST.__auth_got: 0x848 sha256:c1448b9e612668eedc320cc285053fcee62dc9afb40e435c70948441d486b8e2
++  __AUTH_CONST.__const: 0x3298 sha256:66418efd01c468b3342d7befc53be51c35309a7c13be4459f815e2f762eb3777
++  __AUTH.__data: 0x988 sha256:4b0b57672963d9d66b71ca6cc529ae692e42a6e6593a7c1fab534feb0ca857d0
++  __DATA.__data: 0xae0 sha256:75d021dad37cc4b5af7b28b16bb7b23b5974a0bdf75aa584c52a73c8e292b9b8
++  __DATA.__bss: 0x6c80 sha256:ce6635a0b75e72f7d72163814e13de69b70c9d985d81bb97370b468acb938a83
+   __DATA.__common: 0x198 sha256:c76903cde8580d1c809ac5352aab33af5a310ad05126294d66e06db880c463ed
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/SwiftASN1Internal.framework/SwiftASN1Internal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: CFC5D974-945E-3B24-843C-676C390A0446
+-  Functions: 1977
+-  Symbols:   1109
+-  CStrings:  57
++  UUID: 7930C13E-9D71-3F38-BC66-E3C57808FC5A
++  Functions: 2631
++  Symbols:   1450
++  CStrings:  76
+ 
+Symbols:
++ _CFDataCreateWithBytesNoCopy
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_NSError
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _SecCertificateCreateWithData
++ _SecKeyVerifySignature
++ _SecPolicyCreateAppleIDSService
++ _SecTrustCopyKey
++ _SecTrustCreateWithCertificates
++ _SecTrustEvaluateWithError
++ _SecTrustSetVerifyDate
++ ___swift_memcpy128_8
++ ___swift_memcpy26_8
++ ___swift_memcpy32_8
++ ___swift_memcpy41_8
++ ___swift_memcpy96_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ _associated conformance 16CoreTransparency11AetTlsEventVSHAASQ
++ _associated conformance 16CoreTransparency11AetTlsEventVSLAASQ
++ _associated conformance 16CoreTransparency12AETErrorCodeOSHAASQ
++ _associated conformance 16CoreTransparency13AetTlsMapLeafVSHAASQ
++ _associated conformance 16CoreTransparency14AetTlsEventKeyVSHAASQ
++ _associated conformance 16CoreTransparency15AetTlsEventTypeVSHAASQ
++ _associated conformance 16CoreTransparency15AetTlsEventTypeVs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 16CoreTransparency15AetTlsExtensionOSHAASQ
++ _associated conformance 16CoreTransparency15AetTlsExtensionOSLAASQ
++ _associated conformance 16CoreTransparency16AETVerifierErrorO10Foundation13CustomNSErrorAAs0D0
++ _associated conformance 16CoreTransparency17SignedObjectErrorO10Foundation13CustomNSErrorAAs0E0
++ _associated conformance 16CoreTransparency19AetTlsExtensionTypeVSHAASQ
++ _associated conformance 16CoreTransparency19AetTlsExtensionTypeVSLAASQ
++ _associated conformance 16CoreTransparency20AETEscapableVerifierVAA19AETVerifierProtocolAA26AETProofVerificationResultAaDP_AA0ghiF0
++ _associated conformance 16CoreTransparency21ConsistencyProofErrorO10Foundation13CustomNSErrorAAs0E0
++ _associated conformance 16CoreTransparency23CTVerificationErrorCodeOSHAASQ
++ _associated conformance 16CoreTransparency24LogHeadVerificationErrorO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 16CoreTransparency24MapHeadVerificationErrorO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 16CoreTransparency26AetTlsSerializationVersionVSHAASQ
++ _associated conformance 16CoreTransparency26AetTlsSerializationVersionVs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 16CoreTransparency29SignedObjectVerificationErrorO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 16CoreTransparency35AETEscapableProofVerificationResultVAA08AETProofeF8ProtocolAA12SignedObjectAaDP_AA0ijH0
++ _associated conformance 16CoreTransparency35AETEscapableProofVerificationResultVAA08AETProofeF8ProtocolAA7LogHeadAaDP_AA0ijH0
++ _get_enum_tag_for_layout_string 16CoreTransparency16AETVerifierErrorO
++ _get_enum_tag_for_layout_string 16CoreTransparency16CTConfigBagErrorO
++ _get_enum_tag_for_layout_string 16CoreTransparency17PublicKeyBagErrorO
++ _get_enum_tag_for_layout_string 16CoreTransparency27AETEventVerificationOutcomeO
++ _kCFAllocatorDefault
++ _kCFAllocatorNull
++ _kSecKeyAlgorithmRSASignatureMessagePKCS1v15SHA256
++ _objc_opt_self
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x27
++ _objc_release_x8
++ _objc_retain_x8
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassMetadata
++ _swift_initStackObject
++ _swift_makeBoxUnique
++ _symbolic $s16CoreTransparency0aB8AETErrorP
++ _symbolic $s16CoreTransparency19AETVerifierProtocolP
++ _symbolic $s16CoreTransparency19CTVerificationErrorP
++ _symbolic $s16CoreTransparency26AETVerifiableEventProtocolP
++ _symbolic $s16CoreTransparency34AETProofVerificationResultProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency34AETProofVerificationResultProtocolP
++ _symbolic 17MetadataHashBytes_____Qz 16CoreTransparency26AETVerifiableEventProtocolP
++ _symbolic 26AETProofVerificationResult_____Qz 16CoreTransparency19AETVerifierProtocolP
++ _symbolic 7LogHead_____Qz 16CoreTransparency34AETProofVerificationResultProtocolP
++ _symbolic SDy_____Say_____GG 16CoreTransparency9CTMapTypeO AA11AetTlsEventV
++ _symbolic SDy__________G 16CoreTransparency14AetTlsEventKeyV AA0cdE0V
++ _symbolic SS10keySetName_Si5indexSS26underlyingErrorDescriptiont
++ _symbolic SS10keySetName_Si5index_____4codet s5Int32V
++ _symbolic SS10keySetName_t
++ _symbolic SS7eventId______11insertionMs_____0A4Typet s6UInt64V 16CoreTransparency15AetTlsEventTypeV
++ _symbolic Say_____G 16CoreTransparency11AetTlsEventV
++ _symbolic Say_____G 16CoreTransparency15AetTlsEventTypeV
++ _symbolic Say_____G 16CoreTransparency15AetTlsExtensionO
++ _symbolic Say_____G 16CoreTransparency26AetTlsSerializationVersionV
++ _symbolic Say_____G 16CoreTransparency27AETEventVerificationOutcomeO
++ _symbolic Say_____G17proofMetadataHash_t s5UInt8V
++ _symbolic Say_____y__________GG 16CoreTransparency11VerifiedSLHV AA23CTEscapableSignedObjectV AA10CTELogHeadV
++ _symbolic Say_____y__________GG 16CoreTransparency11VerifiedSMHV AA23CTEscapableSignedObjectV AA10CTEMapHeadV
++ _symbolic _____ 16CoreTransparency11AetTlsEventV
++ _symbolic _____ 16CoreTransparency12AETErrorCodeO
++ _symbolic _____ 16CoreTransparency13AetTlsMapLeafV
++ _symbolic _____ 16CoreTransparency14AetTlsEventKeyV
++ _symbolic _____ 16CoreTransparency15AetTlsEventTypeV
++ _symbolic _____ 16CoreTransparency15AetTlsExtensionO
++ _symbolic _____ 16CoreTransparency16AETVerifierErrorO
++ _symbolic _____ 16CoreTransparency19AetTlsExtensionTypeV
++ _symbolic _____ 16CoreTransparency20AETEscapableVerifierV
++ _symbolic _____ 16CoreTransparency23CTVerificationErrorCodeO
++ _symbolic _____ 16CoreTransparency26AetTlsSerializationVersionV
++ _symbolic _____ 16CoreTransparency27AETEventVerificationOutcomeO
++ _symbolic _____ 16CoreTransparency35AETEscapableProofVerificationResultV
++ _symbolic _____Sg 16CoreTransparency11AetTlsEventV
++ _symbolic _____Sg_ABt 16CoreTransparency11AetTlsEventV
++ _symbolic ______AAt 16CoreTransparency16AETVerifierErrorO
++ _symbolic ___________t 16CoreTransparency19AetTlsExtensionTypeV AA0B10ByteBufferV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16CoreTransparency11AetTlsEventV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16CoreTransparency15AetTlsExtensionO
++ _symbolic _____y_____Say_____GG s17_NativeDictionaryV 16CoreTransparency9CTMapTypeO AC11AetTlsEventV
++ _symbolic _____y__________G 16CoreTransparency11VerifiedSLHV AA23CTEscapableSignedObjectV AA10CTELogHeadV
++ _symbolic _____y__________G 16CoreTransparency11VerifiedSMHV AA23CTEscapableSignedObjectV AA10CTEMapHeadV
++ _symbolic _____y__________G s17_NativeDictionaryV 16CoreTransparency14AetTlsEventKeyV AC0efG0V
++ _symbolic _____y__________GSg 16CoreTransparency11VerifiedSLHV AA23CTEscapableSignedObjectV AA10CTELogHeadV
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 16CoreTransparency11VerifiedSLHV AC23CTEscapableSignedObjectV AC10CTELogHeadV
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 16CoreTransparency11VerifiedSMHV AC23CTEscapableSignedObjectV AC10CTEMapHeadV
++ _type_layout_string 16CoreTransparency11AetTlsEventV
++ _type_layout_string 16CoreTransparency13AetTlsMapLeafV
++ _type_layout_string 16CoreTransparency14AetTlsEventKeyV
++ _type_layout_string 16CoreTransparency15AetTlsExtensionO
++ _type_layout_string 16CoreTransparency16AETVerifierErrorO
++ _type_layout_string 16CoreTransparency17PublicKeyBagErrorO
++ _type_layout_string 16CoreTransparency19AetTlsExtensionTypeV
++ _type_layout_string 16CoreTransparency27AETEventVerificationOutcomeO
++ _type_layout_string 16CoreTransparency35AETEscapableProofVerificationResultV
+CStrings:
++ "AetTlsEventType.DT_EVENT("
++ "AetTlsEventType.P_EVENT("
++ "AetTlsEventType.S_EVENT("
++ "AetTlsEventType.TestEvent("
++ "AetTlsEventType.TestLLEvent("
++ "AetTlsEventType.UNKNOWN("
++ "AetTlsEventType.UNSET("
++ "AetTlsExtensionType(rawValue: "
++ "Failed to parse log head from map proof: "
++ "SecKeyVerifySignature returned false"
++ "SecTrustCreateWithCertificates failed: "
++ "SecTrustEvaluateWithError failed"
++ "SerializationVerions(rawValue: "
++ "aet"
++ "com.apple.CoreTransparency.AET"
++ "com.apple.CoreTransparency.Verification"
++ "failed to create SecCertificate from leaf"
++ "failed to wrap inputs as CFData"
++ "underlying error: "
+
+```

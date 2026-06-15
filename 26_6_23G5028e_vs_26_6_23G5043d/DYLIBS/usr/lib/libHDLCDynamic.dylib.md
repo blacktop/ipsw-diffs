@@ -1,0 +1,31 @@
+## libHDLCDynamic.dylib
+
+> `/usr/lib/libHDLCDynamic.dylib`
+
+```diff
+
+-1418.1.0.0.0
+-  __TEXT.__text: 0xb60 sha256:94093b7678b9b3c4e96e80ec9f21aa6ea3924f00e8ffc7e163c6bf01fa256fdf
+-  __TEXT.__auth_stubs: 0x40 sha256:9b1226221f69bc27249c74defa28f72db8a16eb8a76fa463211adf7768f1a1f2
++1419.0.0.0.0
++  __TEXT.__text: 0xb60 sha256:864b106467bf5ba87b42a734e7ebd8518f1f8fad16cba063c8eea2ebf5a3b5d9
++  __TEXT.__auth_stubs: 0x40 sha256:35f0eea327a0ec091452cac0c3678d07fa69089f5d86bff3491a5cdfedc82c0c
+   __TEXT.__const: 0x10 sha256:b1535c7783ea8829b6b0cf67704539798b4d16c39bf0bfe09494c5d9f12eee30
+   __TEXT.__unwind_info: 0x88 sha256:7e47e130f25c9ac16998781492c9f6a2a52fc94b838ec802d6943797dd289a3a
+   __AUTH_CONST.__auth_got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA.__data: 0x200 sha256:638dbc5f735cced09b3d0d767a72a8800baeb1b3bb399a514af61b3ea7be8a01
+   - /usr/lib/libSystem.B.dylib
+-  UUID: C6BF3959-38DE-332E-8A87-5912264CAECE
++  UUID: B69FC24A-89DC-35B2-B161-B4F7AEB17F6A
+   Functions: 14
+   Symbols:   21
+   CStrings:  0
+Functions:
+~ _HDLCFrameCreateDownlink : sha256 55929e12c563d83079b777e251a9cace33a98c34880288ef90ad44194b72e352 -> 4e71d649d69de05cb45fae88390a159e44db1cb6501603e019de6fbaaa965313
+~ _HDLCFrameInject : sha256 f2b438886ef24bd773926ee8f2f42161c62952b0d00174f7f57b6deb94a6e764 -> d6df123bdf8bdcbd38bb6de696f1f728dcda3953cf62940000e5e66762542b05
+~ _HDLCFrameInjectUnsignedInt : sha256 48e7290531b10ab8ee1e327c08d8e7993fe08fb7d469195b853c042fbc15113f -> e21396e8bad0a0cf54c78d251b2c1ded8c4b88c9fae2dec244ba19a45803a696
+~ _HDLCFrameInjectUnsignedShort : sha256 5ffb329f1a2475ae3e039abf3528401379257db693766872d58dd0eb2fed054e -> a4ba12b586d865b057f4a318f47a926085e79e5decc19e89831af44aed8dff53
+~ _HDLCFrameInjectUnsignedChar : sha256 24805830596ebe4cf6b51267fc42b0116a868f6a0550bb8ae88985fd5cf4b6f7 -> 1ab202da9e2dec34969d6b9d4a0eebcf5446643bbb0ab1c3f63bf916a6db41fd
+~ _CRCCCITT : sha256 8ae49c47bc4715b49f63feb58586cb40a11e5cdb0d282350cdbbd56f6fea5058 -> 383e44d4104a730e757fae91d5c431167dcf00ce94bc8e881b83ad3424d54e79
+
+```

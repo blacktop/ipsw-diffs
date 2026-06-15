@@ -1,0 +1,68 @@
+## FontPicker
+
+> `/System/Library/AccessibilityBundles/FontPicker.axbundle/FontPicker`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x480 sha256:702bf83bca263cc35619ee21e81671324b35a1494ea06fccf12011eb563c82ed
+-  __TEXT.__auth_stubs: 0x140 sha256:100d6a3b285cea917aee50ac2693cdcb8009bcc3f3ab2aaecaf2cea3cbd3c98e
+-  __TEXT.__objc_methlist: 0x68 sha256:e784f9a7746c7ebcfe1a8be0fb1dedc94b1629f1e08c6fe6a0f8fc15a329e93d
++  __TEXT.__text: 0x480 sha256:2b2dddc0267c5824782c45637d6b07ace195f2014feb163a5bbe858057281516
++  __TEXT.__auth_stubs: 0x140 sha256:746d15b96ed7e2a7019d02ad57fa8ed99a5922e1946d903f81536412091bd38b
++  __TEXT.__objc_methlist: 0x68 sha256:a705ac825ee153de604b7763cff92bd01f9c8d0361d6c2ca7ed9cf1d9007e135
+   __TEXT.__cstring: 0x14e sha256:59821d963ce54c5fec34d9f683e756737b522d061c9b6ea4921f6aae03b19d25
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x14 sha256:54c1c2e19da159a0f5e2fe39efd0f5406d4cd2446ae594f2d4222d36f1933532
+-  __TEXT.__unwind_info: 0x90 sha256:5d8bc0c41764606eb8540dcf29509712feda5cbcaf0fd3d933fbcc6f6da7f063
++  __TEXT.__unwind_info: 0x90 sha256:1aca27a4a7f532aad663d8bd4f01e971dcf46d0a6df36ce0b590ba55df66ecae
+   __TEXT.__objc_classname: 0x76 sha256:37cefd677c5be1c92966288e1fb5e3491879d2b9e94d4398e73bf2c9b3e6c11f
+   __TEXT.__objc_methname: 0x23e sha256:234c811c435a18676158a1b3c32c177f3d39d5568e58244ecfb84bc9fa820c28
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x1c0 sha256:2d6a126fe0b527d5984bb197b11e9699a823d5fd30a2a027a47248f3449aec20
+-  __DATA_CONST.__got: 0x30 sha256:39aba9ede2c42599c602ff43d423dbb1325c46f792f6144ee1f74c3db1f45f48
+-  __DATA_CONST.__const: 0x68 sha256:717aeba0dca777005aacfcbef30adfb7f291b765bd2fb7c3f37d4cefbe5392ab
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:1d9cf65470f3f8c1ddeb09ce755ae83476334e7a62efdd6153fc11308a87d425
++  __TEXT.__objc_stubs: 0x1c0 sha256:0fee66ecf9c328a74f432e818e41d9a428fa9d3c6618fc0d184767277838d6ea
++  __DATA_CONST.__got: 0x30 sha256:0c4006b9c9f8ca188d9f99a47c382bc71c65a8f6232add0056e51df06fc9dff2
++  __DATA_CONST.__const: 0x68 sha256:0d028e31c1ee2fe12db281798675a556b7019e412f90421cb3d41658b2acf76e
++  __DATA_CONST.__objc_classlist: 0x18 sha256:3d7a60ba784eb431455180aa33d5e162e197981823c22d26d27063f6bc6ae1ad
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:832e7a3729ade30bc5f5a779febe12bc1dd5bc614bc6db7bb9d222237ad03201
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:74f58cb2cf42dae705d9a7c74c8a47d37455bf697a72380a1b9201d6d44e60b7
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:9bb88d78154206cbb7d0f98f7a5e1ca6c76f11e8bf347fb3ce606aa2e9208cf3
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:b513217171b65f42d46f8d609c568e2255d30109e58ccd6e2c2766a38c0914b7
+   __AUTH_CONST.__auth_got: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __AUTH_CONST.__const: 0x60 sha256:dc997577707a153272adea87a11737c1841a9796bb14ae41cd3e76852909a46a
+-  __AUTH_CONST.__cfstring: 0x160 sha256:7ffaff3a12bc0fa1927a26ab763e6b093864039e010ae4f9b2b11e99e47f0568
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:27706ef72609889297f812dfb07bf4da2ed519ddbe70415feb4e12b1372c3de5
+-  __AUTH.__objc_data: 0xf0 sha256:6b87adcbcfe367ab3a6213207ab706dce4f5d3ee9f3b3233cba8336c240e734a
++  __AUTH_CONST.__const: 0x60 sha256:0624a7f83d7a8c86f190c018a4d22b79c3308fe1f0a3c188cdb38ecb438ee7c0
++  __AUTH_CONST.__cfstring: 0x160 sha256:c255b7157d11c0e83a6dee6210a141730acf923f48b419545b438ce0f5615759
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:a49045a093db6f6edf411b3ad291d472355807d8c3bba19a0f6318fd0b05f99d
++  __AUTH.__objc_data: 0xf0 sha256:c40cbf6a777f8b32d90d7543529a7d5c6e451977d33661a6719754c05d85c7c9
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0C7DCED1-9D9F-321B-8A98-71177B849ACC
++  UUID: D989CD2B-BCE7-36C3-9D1A-639EA555FD1E
+   Functions: 11
+   Symbols:   92
+   CStrings:  54
+Functions:
+~ +[AXFontPickerGlue accessibilityInitializeBundle] : sha256 243c32438c0554f1779c3ed15b5e71b9acac1da92f03cde393fb0d4d46b18bbf -> 1f0965103b01611c4b8ce8eff7d30ac37dbac7e522fab00c5f480356e9cd4da2
+~ ___49+[AXFontPickerGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 a4e02110bb7d5c739e9fc5868ac4d28292f46fd7247d2270d99f317f680f536b -> dcc960bf01a5a9201add73179ff70d91726b1e152f6ae4dfea1cd50b99fba043
+~ ___49+[AXFontPickerGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 0f0e7ee5c0f87e27d09183471ece3e8ecf3ca9fe7c93b69d7ef326e7a0d786e7 -> fb314c073783711e16ec3a981af824906547febc2ce7162784a9f57feb69d8f1
+~ _accessibilityLocalizedString : sha256 a02fcac259d0712a6fbd35c8d136debd39fce9cec780350f062416da7aef3de1 -> 2029c7b00716c512bebaca53d710641bc7790f9e40bbb771584649b7d0b8e35f
+~ +[_UIFontPickerTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a13fa54a8d1ac181acad3a5f6936ebd3ec88fe580bbc051a035f75aaa675a1d2 -> 6fc22f12773f349de44299641f886ed993922b6d4c8798513fa05027ea576b8f
+~ +[_UIFontPickerTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ab47db1f377d7c994fea9d2cdb5c5b789290d4d3dea6bd07f5bdb500b5126833 -> 5436cc356e608a93efda915690c9afc45c55e44db953661ae05ba1c4f3040d52
+~ +[_UIFontPickerTableViewCellAccessibility _accessibilityPerformValidations:] : sha256 0934680a24ca01bd6c258763ba63311fb5a6e8fd907c0efe1a50a7f5383b21e1 -> efc99d41e24ad084ae8a9fc01f4463aa4972d70e5bb2be4a3433311101815ed0
+~ -[_UIFontPickerTableViewCellAccessibility _accessibilityLoadAccessibilityInformation] : sha256 ff4f18134cf0ea2b7bc84516b298b57846a529ece281a30f4221b0dcabd285a3 -> 09eb506ca869f224e8fbce16eb1d6639c923f113ea7a5418af14591d6fcdbee3
+~ ___85-[_UIFontPickerTableViewCellAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 24a6ae1668ef0a5c2a7771a95110264f033239c68a42bbab21146eb67b050c5f -> 34e0c9052db76c428cb29eaad94dbaaa9bc241a4c8ef4fbbdd2e36d0701bf7be
+~ -[_UIFontPickerTableViewCellAccessibility layoutSubviews] : sha256 3eeb1f8bd4902482170bdfc1e2b69770f53db58ba79b96620f32042e705fa41c -> 2950456f2f08799c7cd48468e80ca50a18bdb400fa384489ee4e61231f96c986
+
+```

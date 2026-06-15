@@ -1,0 +1,47 @@
+## BackgroundTaskAgent
+
+> `/System/Library/PrivateFrameworks/BackgroundTaskAgent.framework/BackgroundTaskAgent`
+
+```diff
+
+ 63.0.0.0.0
+-  __TEXT.__text: 0x4bc sha256:acdbebb059f8827aa6754508e61616d30ef13460f62225081db26ed1b89df818
+-  __TEXT.__auth_stubs: 0xd0 sha256:3a96f4cc304fad4893c5880de02c2c330944e4796fffd32f4f0f823968b422e6
++  __TEXT.__text: 0x4bc sha256:4f1824cbd24a5e5f9ff07ee3c0c912a02912dda8dbf268cdd30708769aea3aa7
++  __TEXT.__auth_stubs: 0xd0 sha256:55b52e881779c9384e1defc9fee75cdb3be35d789d58e7d5ec1da3203e1d4cc1
+   __TEXT.__cstring: 0x39d sha256:d71c59a1b5248ccf262b81b62953b7d3066097679e3cce28720e76e466c9385d
+   __TEXT.__oslogstring: 0x13f sha256:7032bf3e35a8926f1aa1406a1af01f6d8ec71090ae8b147db60c090ac3550ca5
+   __TEXT.__unwind_info: 0x70 sha256:70b6f1f0bd7dbd096edb11550aca448eed0ef8ab42fab2c5f0248364d7765d59
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0xb0 sha256:e72a78bd32d3f7561472dec78204c9c434b40e665299be99679e1a1b42bcf8ac
++  __DATA_CONST.__const: 0xb0 sha256:c5f8ccc37f6481fab53967e88deff0277afa001e9f4c4d6f89a12e529d47a595
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x20 sha256:bfff8d1331b56eb24df9f4b61ba0fa1d460fbd354aca926c1b3fe79d9eea4f94
++  __AUTH_CONST.__const: 0x20 sha256:ebd0842f8a77686f77a21ae9a232bd8e2396d3304dd1f746dd0019bc3794f430
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 5FE6D78D-247E-3490-B66C-9CDDB8E04229
++  UUID: A063BF13-ABD6-377B-A230-0AF8427CDE2D
+   Functions: 20
+   Symbols:   74
+   CStrings:  33
+Functions:
+~ _btaLock : sha256 2e5a4477ca74b7e707460d49e736aae41f5b0c3362906cfb542e3f5d01209574 -> e1838fb6d148cc36eaaf2da5aac4a94bc7c291da89b60da42818328fe3e7b046
+~ ___btaLock_block_invoke : sha256 d2c7317474aa92785128ba27fc1a36302b6fcb9f2dbed89cd447f99a23570d28 -> 20ba35473ec2767de35b15e6a192eb3785788e1bef8d2fced717b4b0ca9e89ba
+~ _btaUnlock : sha256 2a132896b46e3bcfc60ca47b9da57bd35fdd8f298100ed9251924548c82e3dec -> 5ccd332d4c5c349558c880cb91e5daf489d9752060632db358019ee034058ca1
+~ _BackgroundTaskAgentInit : sha256 1833a540d15e838c3f190a44c058dd03e4f03ad9db14a5dc1dcb653263446385 -> af2cd40b2cb187cc128afa0a2d14cc20981b69664c901ec6f1257dea52f4e3ca
+~ _BackgroundTaskAgentAddJob : sha256 b2874ea347628cf3f501f0ca982bdd856fbd15425cb4a9ed71bb1d736aee41e8 -> 9e12affc0a2f3f42ada6a0e077f5f7ab158025ac099222bff50f151dbe517652
+~ _BackgroundTaskAgentRemoveJob : sha256 da2931ffb171fe038d5ad2821246a779feef2f6a94a3d9ee5c9ca96df69d1e58 -> 6948923f2b051785ba66e0bfdc46af8188fd5cd1cfeea7d425f66ae7b603fdb4
+~ _BackgroundTaskAgentCopyJob : sha256 3fc458d67b43e7b7cdbce1ca913d8044ebbb738ede965f858aca432586b1911b -> c71ede630cd6b6b7e928fbc4a80694a982370cce3af36b48adbe3ec4956eebf5
+~ _OUTLINED_FUNCTION_0 : sha256 1f780c307e5f249702af972192743728aabd20fddd44ac2740c28803c71aa3f8 -> d1f64f6f82e434b992a3efcabbc75a2c8efa02aa7e8e7a3f3c69f0dade0ad047
+~ _OUTLINED_FUNCTION_1 : sha256 4273c1dfdb573bfba85720195962da0e06d430102f3f1421a57a6292df504318 -> d3f8b8064b319b594d7169b246a28ac8a7c29f5a7913bea707ed0d8dc30a8605
+~ _OUTLINED_FUNCTION_2 : sha256 17306de4a900d605122405891d44074f697a7332b4b2bde0f636698dbb97d862 -> a381421b60fb667dfd0705b1ced1971b782dfd121ed52af350e8130ecdbea8e2
+~ _btaLock.cold.1 : sha256 29964cae9982e3b47f66cd323b2f55973f8cd2d173f6325bbf3560f73bfcda3a -> ddf7226710881fb34aed17063eb8558cd7587466dfc51e64e636ae3de7d6a8d2
+~ _BackgroundTaskAgentAddJob.cold.2 : sha256 e906856a12befe7031695664bc717b15cffd366454b7e94c0dcecb3f8d06bc81 -> 113c2667245c101cbeacd3738e22b30d212efc234de264ba4ee94d1c5a4c0ba1
+~ _BackgroundTaskAgentRemoveJob.cold.2 : sha256 986cd89411e72e736840ee460665c2759dd2431b3fa99f0c0c297ad5241acf23 -> cf98d737ab88e5a57b099a162d1e2f71abc0b3aada59b258f3bb8047ffaf1f5d
+~ _BackgroundTaskAgentCopyJob.cold.2 : sha256 b8e91e9abd63dcfada36fe35e5f668949324f5a476a212f6fcf8a4cd51229853 -> 1ff12a1b7882494e78b77e9dd4a0bc676d9aeb6604be3d34a847db19f611a239
+
+```

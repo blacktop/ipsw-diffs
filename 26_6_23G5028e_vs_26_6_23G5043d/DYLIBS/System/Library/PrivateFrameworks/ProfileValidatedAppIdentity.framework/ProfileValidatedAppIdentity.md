@@ -1,0 +1,81 @@
+## ProfileValidatedAppIdentity
+
+> `/System/Library/PrivateFrameworks/ProfileValidatedAppIdentity.framework/ProfileValidatedAppIdentity`
+
+```diff
+
+ 132.3.0.0.0
+-  __TEXT.__text: 0xea0 sha256:5cd274f4738d97422418c328495c33d868bd3693ef8a266b40cc637e750db31e
+-  __TEXT.__auth_stubs: 0x1f0 sha256:311452aeacbac568a368749f37e29bf86e6e570560c3f5b35e1cda9be84955aa
+-  __TEXT.__objc_methlist: 0x10c sha256:85dd2da3506215dc12b60c42b3b1fd61267fc44277cb1e6ca3ee4b8329d949e6
++  __TEXT.__text: 0xea0 sha256:51e64ec6b0c89a23cd62cbc76896e8a3abfd8950c7d15a18194ddf9af253508b
++  __TEXT.__auth_stubs: 0x1f0 sha256:7f0635f34ddd19d949097754683753b32cc5666072f88f854c7e8bd941867a0e
++  __TEXT.__objc_methlist: 0x10c sha256:0c0ba65f16c922ddc38c5fc0400d5680f889b836c983aa0d849e4e24228ecac3
+   __TEXT.__const: 0x50 sha256:d034ed12d8cd6b791177d2952f2b4c5a5824f5a870cda28801fdfd2954cdcfdc
+   __TEXT.__cstring: 0xd7 sha256:c2346db7f1ca83934eaf5d899bc83d615bee0cfdad49cf15c6ef66162ecbc590
+   __TEXT.__unwind_info: 0xb0 sha256:9c1cf2314f5be3b30fde7e97a21a0ba82c580ef2a767d0354dfddff6c99392cd
+   __TEXT.__objc_classname: 0x67 sha256:50c901eb476fb861de6af675162d697d8d90bc8ab7955f949a73be20d7b20e1c
+   __TEXT.__objc_methname: 0x2d7 sha256:5efbf5dadd61be72161507c4c333ae1f86723fd3b14717a0b60a2f364addb7a7
+   __TEXT.__objc_methtype: 0x109 sha256:3898e66fa22c759071f83a9d89e4ef77445f1c52ca35f5238ef8acf62337f813
+-  __TEXT.__objc_stubs: 0x2c0 sha256:29e52c90dd7e4e55aa740cb5d99bb45ec2c6a3eeadd0dc77c9dd22a096b7b019
+-  __DATA_CONST.__got: 0x58 sha256:bdbf4c6c9bae95ac0e38490a063c35aa14d9920c53832b2a3dda5bbeb1029619
+-  __DATA_CONST.__const: 0xa0 sha256:c71f7613bc1996a2ed43dcd6260599f32b01dfa31dcc19b7e6079745335753fd
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:6cf730cfef1176409576e947795912b7252acd28ddd82b9be8e55460915353b3
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:d743815f8502eac0d5fc8999bd32a74d6c283c6e54c4705157477c45ff649570
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:2f5074579d740bba67f41461ef5a02c0c0c93b903fbe8903f0af40e163634af8
++  __TEXT.__objc_stubs: 0x2c0 sha256:2ca6ecafa9dcc3af25627274ff2a6bfa4f3de6cee8537f44bbcf8cec97fb7eea
++  __DATA_CONST.__got: 0x58 sha256:40bff82aa51b2612b219c396d5113e64fedda103d63841a4819bc2c1c0d4b605
++  __DATA_CONST.__const: 0xa0 sha256:fcad71dc283de5558906af6c8cfd5c188e019cb3f63cdb39f47c07c235ab447a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:9bcbd0846364052b7408356ace09bb9abb56b231195ae7c58723c9d63b3055f2
++  __DATA_CONST.__objc_catlist: 0x8 sha256:1d12b2207ed1ce83e2aa369261d726d11ae22e279c7a79cea15a9afcf31dd48c
++  __DATA_CONST.__objc_protolist: 0x18 sha256:300194da84f7711e7d07c71b3c1d4609f59efb664d69ed1252b9cd23478fc462
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf8 sha256:9eaab05a8509ece3680c247a27ded522e07bcb4905a4fcad6ec8ec5e980d6933
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:0fcc678dac04c75ab290c53adbc67a590fab84ea2f8ef658d59012ba857d6e5f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:6cf730cfef1176409576e947795912b7252acd28ddd82b9be8e55460915353b3
++  __DATA_CONST.__objc_selrefs: 0xf8 sha256:d0decc359350e5ce34b1ecf39144eeca226a8295758b4eff92b738572a7e6f51
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:7c36bc25bb68e3400596d03a35d09be164182f0c4ad07199fbfa60a5a216c45f
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:9bcbd0846364052b7408356ace09bb9abb56b231195ae7c58723c9d63b3055f2
+   __AUTH_CONST.__auth_got: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __AUTH_CONST.__const: 0x20 sha256:defc6ae9781d1113b222b60201974cc57386a787e85469748b18de51082502cd
+-  __AUTH_CONST.__cfstring: 0x140 sha256:28bd8fb04b5215c5d2864c327b2c1bc34fd67c8387507af9687e14308b0b70a1
+-  __AUTH_CONST.__objc_const: 0x258 sha256:b2d8c9824302b82f9c484b218ab79d65e3a639271c104dcdbc9b79911cea7340
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:0cbcf3efd8f472399024010eaa423f60f578c7fcb94ab3a1311317f9f67517f0
+-  __AUTH.__objc_data: 0x50 sha256:87bfd48c3e8a1dcabf938d4c9fc2e178dafe9357b259f71dfc3c80b9f97689f9
++  __AUTH_CONST.__const: 0x20 sha256:10f8784a8057919517b80608719d705f79ede372eef1825ca056e59a7edc6038
++  __AUTH_CONST.__cfstring: 0x140 sha256:3c0f9d830b69856e148b82b0d2d05c242ef135e7226c5d511f0b15b9ac7d47f1
++  __AUTH_CONST.__objc_const: 0x258 sha256:c2b4fef938a59cba852d41a920532aaab5d7839406de3a20003d9930286572a7
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:076deae3eaaa0bbf8474411e55c53d1444a7731cc7f76e63c79b2e8708b8bf33
++  __AUTH.__objc_data: 0x50 sha256:538d5472d93ecad1993a4822d8345438b1c4d97fd612c3a666d5647e5f98ae46
+   __DATA.__objc_ivar: 0x20 sha256:1344ab66c2fd7b45d8700e6bbc9c32bf335e89f2ee5b7b85f16d1c2533d370f7
+-  __DATA.__data: 0x120 sha256:3c35aa3a7c74800adde513aa2948280b38953262d4b47644436cca0fe156d731
++  __DATA.__data: 0x120 sha256:26bc605b651d4b272d3d5381e8d7e9b5541171b05a610e07bdc5e8c613161955
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BD3C4DE9-6B43-3463-AF2C-04D7313FAF97
++  UUID: AA04EB1F-6DE3-3181-9538-A93716AC2B02
+   Functions: 21
+   Symbols:   154
+   CStrings:  87
+Functions:
+~ -[PVAppIdentityDigest initWithVersion:data0:data1:data2:data3:data4:data5:] : sha256 146287e8a9eccff1542425bba3337deba732b2067d5d25e02ca0f7cfb583d16e -> 383cfed3aa8239e93ebed0dd0cdb412e4e5341b14bd8bc74d49e94fa7ec542f8
+~ -[PVAppIdentityDigest initWithError:version:] : sha256 dd57d854700def6675806655d2dcab938bc325f0b159c55f9d5e0f8416cd6d3f -> b5b5372ed15400be24a44eb06c96c119b550c0b64bfd01c7fbfcbd5d1f9c5549
+~ +[PVAppIdentityDigest digestWithErrorCode:] : sha256 4d604630a3c100d10747b5e5e6780404b929a6dbdc20e419fbfb3b54d91311dc -> c7511476cd18ba0f28581bb758c3b6e6478401d613c3d395a2e31b151c5bb202
+~ +[PVAppIdentityDigest digestWithTimeoutError] : sha256 5164981c66730b109404acae983df61d1127189172fc5d925fee04928498b73b -> d9cde1ea8d9ffcc633a9e1c8d82cb488cd78a19ef3b7d9c91e38d728841d8268
+~ -[PVAppIdentityDigest encodeWithCoder:] : sha256 1d54bcb6908b92af8835ebf618e915857bd2bd4aa67e2a9f8cf6a57db082107e -> c477f8ca6467b23197eff4b52734821a53b7c956eb3a0170927b817289147ef7
+~ -[PVAppIdentityDigest initWithCoder:] : sha256 2f0ae1050f77b0303669e074e6361a6e10bcfc5f81e67ef935c306c31aecb393 -> 96aada8820f7d4a6583fc17a8392f6fb63627388257025c79bc6c81be50c08ee
+~ -[PVAppIdentityDigest asDictionary] : sha256 daa9b4096b10581d8c25ac23931c5beac3e6ee2a5ee499949cfe768be6792fb5 -> d498b4bce88d6a063fd9fe98de4dc59d4927ae107ece43011b740a4ed926c006
+~ -[PVAppIdentityDigest getError] : sha256 6d89c30aacdfb66f983d249bcbf8da32e5a3e3f560a73507e54c598335d3ffbd -> d239f8b88c54fb4cc4244b3c64fc44e1370bf062bcf6f0ecdaf37627aedc3adc
+~ _PVAppIdentity_GenerateDigestWithCompletion : sha256 d6b7f5f8435e48ce07a763e3f7f65818b30ec99a586796c7ad444071dda175b7 -> 93b8617f9cf8d3a2d998ba22d51c6657d6e88f5977f06f9e1320bdc5ef859505
+~ ___PVAppIdentity_GenerateDigestWithCompletion_block_invoke : sha256 d6341a858007f4a3278acd53d3fef50f411ca6c3b049b4edf10fc6fd30c9468e -> e355c12e438a352e288db54b9265143cf70c927fc05d7ff44b0a6fe84eb27971
+~ ___PVAppIdentity_GenerateDigestWithCompletion_block_invoke_2 : sha256 9d075ff20a574569d3f549e26b139b949532395b06132815c39cfd75ebbe9246 -> 0b96e1b6245d95ab5db550fc3e89073adebb77849e0d805f822bd760a54b62bb
+~ __PVAppIdentityLogSystem : sha256 b278020fae85ed86dc8ec413c000fe76538efb6acc1eca4da2cfc186fb499eb6 -> 77d7fb6f1ae6923ee7dfe8d392fae5787dafefd29f6130b65c26148ae4156cbd
+~ ____PVAppIdentityLogSystem_block_invoke : sha256 a45844b4f85ae790787e5631f5b1e32d202f20858858fa4c64997462da831308 -> 684bcfb9a0e1a87ccd613955e9687060387e823d3d8bcdfb50e052548c991dea
+~ +[NSError(ProfileValidatedAppIdentity) pvai_errorWithCode:userInfo:] : sha256 53321935e9472ea3a52cc1ed4be6c35dd505450a3b3909bd09cbdd54fb8620da -> 2c8aa251d31c39fe4d6d109e2115be7f77deab4c77e2dbddf890cd607d76f5d8
+~ +[NSError(ProfileValidatedAppIdentity) pvai_wrappedError:error:] : sha256 eae8e2eb50df6a285ed0e28c605ca2fa34e9ac2651180c5959c6eeef48c16211 -> b493a364193bcc7cd8ee834b2a008bd3484d1cd26565838399f9fae0202e9a24
+~ __PVAppIdentityLogSystem.cold.1 : sha256 22928517476a8d728c44109cab568264a3e65da3c9953e3216d1c0182f77d8c6 -> e51ec45f01fd435552f48785d6314661da711d37cb614365214d1175fb2ff99a
+
+```

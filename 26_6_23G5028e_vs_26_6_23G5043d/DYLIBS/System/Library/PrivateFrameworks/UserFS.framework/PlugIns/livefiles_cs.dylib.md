@@ -1,0 +1,48 @@
+## livefiles_cs.dylib
+
+> `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_cs.dylib`
+
+```diff
+
+-715.160.6.0.0
+-  __TEXT.__text: 0xc58 sha256:a806aa9601132ec1fa469821af0b2fa52c233c6b57d70b2c858f51d0fb9de1a2
+-  __TEXT.__auth_stubs: 0x120 sha256:0cc59f911823f57aea47fcc029e144c89d661017c3536a80fc83cf2bbc7f3831
+-  __TEXT.__const: 0x470 sha256:331e1cd6a50c9d75fa696f3e3ea2835565fde8b70d486893d621e82b3fdd458e
++715.160.7.0.0
++  __TEXT.__text: 0xc58 sha256:7dc2f4aa72dd54b70afe9dcdeb166d38eebd16794577354a8bd717dab463905a
++  __TEXT.__auth_stubs: 0x120 sha256:12d74c17d402d0a5c22b80fcd75dce7ea89ba802cbd423bd2d741270783f1391
++  __TEXT.__const: 0x470 sha256:71356b85b08446afe4f0ed9eb9d82b31d137ca539993e056e7e52d6806f19cd0
+   __TEXT.__oslogstring: 0x2b9 sha256:e62e0340beae228d198f14dda5a1e4318ab7221081eac55dfad3aff24f0b027c
+   __TEXT.__cstring: 0x94 sha256:a1ba0dacb6ce02be18d41ac88fde0f63262f9e4ac50cd38afd3465cff97acd52
+   __TEXT.__unwind_info: 0x78 sha256:9b5f58c9839c4cffbfbadbc410e29d6cb362a653eeaddf6193cef25af1a937d8
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __AUTH_CONST.__auth_got: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __AUTH_CONST.__cfstring: 0x80 sha256:6e3261e6780dc38f3d5a1b95b1cd688c22e8f7060c945ccfea68c2c69b72141d
+-  __AUTH.__data: 0x140 sha256:10545df759ddc731cb96dde7455f3aa4995a1afc3f031478999dcd51bebf02d8
++  __AUTH_CONST.__cfstring: 0x80 sha256:e02d3e7c70fe4a90c55523d4674e37efeb9f8e2009a0e7f12d07e5673268f9ae
++  __AUTH.__data: 0x140 sha256:4b9790665886c5e92df898eb10021a26c8cc44ed96e232fa43e2bc19db682be4
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 9E90273F-74D7-3932-B86A-A44AF47C5766
++  UUID: C2DE519A-7887-377F-ADEF-FA3C57D46A8F
+   Functions: 17
+   Symbols:   60
+   CStrings:  23
+Functions:
+~ _cs_uvfsop_init : sha256 f28a535a6bc5e01c90b132c28e41b0caff4680c2a38d40911e7cd13581ffea66 -> e28758c4bd37297f3b421030ad2396e0d88d5af46955829b8796af06692a63bc
+~ _cs_uvfsop_fini : sha256 3ecd574bfb2a4f99206da5c38a5d3cfeafaccee840f88bb82dcfaac16b4fa903 -> 0fa3472601610709becab599540a08a23eab60c3288808ab1260cbac1854fca0
+~ _cs_uvfsop_taste : sha256 bbeec5eb751476603d0bfae5e69de5abb79f40d17543037491ee88b3095549ff -> 53cf02365433776a8f9c841cf7e3b50fe185812cc7140e26d391f8dc2b634a02
+~ _livefiles_plugin_init : sha256 7072444b682d5f334e464ad2c1a3ede7e1aae63ebb2b7b17d6b9524f1059a07f -> 7abda55a8a36ce0d5c1d48a6056b6910ac19200f06bd971fb3f8c0e986ae7fd3
+~ _cs_verify_cksum : sha256 ae4b1b290edb741b6d4d978b76eeb97f0e49fa347b8a38f0b712b063715dbc17 -> 65bcee38f9c358e54dbf82747da89ee4893a2ac8b2a2c1cc3ddad3bf8f080bda
+~ _OUTLINED_FUNCTION_0 : sha256 99bca50842d0dfbdde58d21582503bc755c0c8c566e5f6390b2bb2b0dc3b8e7c -> 9c17991cb3399857bd50ff2ea83a5fd434c9c27c7818508ec8b4b49824ab9b6a
+~ _OUTLINED_FUNCTION_1 : sha256 7694034e8db54767e899c7a3967c7fbddfec3cc1b9a5613b5bd56f16c4b93c39 -> 4b1c9221ea664339fdd4a1952c87013554400811833e333ce6d1dfdff289c562
+~ _OUTLINED_FUNCTION_2 : sha256 42caf3299fd37ff49e830ad53bf4976b51e0bce499e685c12f33289205e8a55f -> 58b73ff866e687e9784467dd225bb621bdbfa984db349d4ae7a2952d7fdd2a4e
+~ _cs_uvfsop_taste.cold.1 : sha256 50937fffd34e00fe72860a80a61e3a31ba7da45ba3197eae795e664552b82e7d -> bc4da1562b156449013742630a3c51f4ec14003e30e9e62ca7b6514bf46d26f7
+~ _cs_uvfsop_taste.cold.2 : sha256 ff93cbe6bafebfe99aaff777e2d30a8609f23ff9fdfc54b3df91159163ec00cf -> ecd963d544ec88513d324c05c0e8db8c30787b991daec79625c01c11794799e7
+~ _cs_uvfsop_taste.cold.3 : sha256 17537a232cd576c72cf76c2ebed9e4299be838004eeb3a4debeee07dc7e0e46c -> 21445eabc10ee90c3678ab93ac5f28702fca8ed2905031c83bf5a78e3bd00e27
+~ _cs_uvfsop_taste.cold.4 : sha256 3f67dd7749f41430f728c08964e4903b5aed11b87ebe251e117c4d90da1f8d87 -> 2eb75c64aa2824dba626e6711fae66e380663fb513054360057d893cd1032511
+~ _cs_uvfsop_taste.cold.5 : sha256 0a6f688784132d3422d404ad870b3d6223b7df89e57a220cd78f20c03ec98e36 -> b75497a187d0813cd3ae79b2da4798b8a5b82b61842e703a5583d31cf380cc7e
+
+```

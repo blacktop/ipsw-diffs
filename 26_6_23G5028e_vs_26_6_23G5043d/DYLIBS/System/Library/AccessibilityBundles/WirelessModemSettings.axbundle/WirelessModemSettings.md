@@ -1,0 +1,64 @@
+## WirelessModemSettings
+
+> `/System/Library/AccessibilityBundles/WirelessModemSettings.axbundle/WirelessModemSettings`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x560 sha256:61027bc8514cc622e2f9d971e5ec4c7886a57d2108b93ad70ed6443c68c6e764
+-  __TEXT.__auth_stubs: 0x150 sha256:444267ccd37d10cf3f28a872693505635cfe1a85d5342f1cda55a97d9ffcb23a
+-  __TEXT.__objc_methlist: 0x5c sha256:0a67b48c0e4db40922951822f16fe58a388e87bb25ca5471c9a46d165f0ce558
++  __TEXT.__text: 0x560 sha256:f08fc48c7c8293b6bc681b9334bc28be580873745ba9be1ee6cf22f6b03295ad
++  __TEXT.__auth_stubs: 0x150 sha256:88bc89d1b64d31a4c0bd1fb71aee509541449edad7ca602e446b5fa282dfb6a2
++  __TEXT.__objc_methlist: 0x5c sha256:413ea319f3230d7ebb3a2b89582f80220c75028226cd283afd73ab06fd5a609b
+   __TEXT.__cstring: 0x10c sha256:f583f7a8e7a88c44cd65c3044f7db3d38aab94ccbf9de4bee09a90867d7b7056
+   __TEXT.__unwind_info: 0x80 sha256:8b4ead270bfbc00fe5a68d924276a83e094b31f70129794329400510922e668b
+   __TEXT.__objc_classname: 0x5f sha256:8160609f0d4e402e7c35fe02cb9ce44365de01e535afea2716686fb5126220ce
+   __TEXT.__objc_methname: 0x2a9 sha256:776fbbb5b78ee8363dca3491596374d4d06783f76cc436940552b724c87f437a
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x280 sha256:3376dd98e895e371a9cc2dc65b409cea0a51203e1437189c8fcb108c650a9749
++  __TEXT.__objc_stubs: 0x280 sha256:acf0b02653c483e5f740b7855e58c0c530375fca2bafc4746b20480b0e39cff3
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x80 sha256:0eea6f261aead360b2f0a169b00db8b8574176c71dc92170b5eac48ecee3db2a
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:b9d97d9917d92ab69df4e065b1624383dc17cacc00814bee5049b336f2d5d3d8
++  __DATA_CONST.__const: 0x80 sha256:af088e80b9906ae6b90440f08c295f86eb0a89eb0804c76b8a46f40ac692a82b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:a79be1a0a483d2688703f66ab65c2e77e4fcc7e2c4cbbfd872072f75cb22f151
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:25e67e9f021f361fd991911cbe5195cf10707fcf1ce84670ef79771d7a6d5028
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:ad2d2082dc7069619e1ac05ced8a005fc72233e9836c4ef6eff24a4e70c6565e
+   __AUTH_CONST.__auth_got: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __AUTH_CONST.__const: 0xa0 sha256:bb5c25fd14a90358d4d17ee15c2a21ad24d11946b1b1eddc94ac887b7ac65687
+-  __AUTH_CONST.__cfstring: 0x160 sha256:4d7bb73fa978bc55eb89efbbd9938e9bef6c0be06b32407d1d7c45b987d27b6f
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:e9237d38f432347b7678ccb1f63b309a939226a3077bd3a05b46e3da694602d5
++  __AUTH_CONST.__const: 0xa0 sha256:4a95ad3fdc1bdd2f6997dfa05c7da77400a61bc1511eb5de42c95a6296de1785
++  __AUTH_CONST.__cfstring: 0x160 sha256:6460993d3c7ea7c63d4b6e0b94095105f258b89588c39399667acc49789d6a1e
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:0f32a9a2e185df02250e4b593c30613ac6661fca4b3b598a0cb236ebac8cf89a
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:06d523d1615e022613b6339c8615b0455ac70f1ce1170ab5fb9c8853aada6acb
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:f5004da4dc4bb454778f8012897128671d18269d94d8f094594629da7b9b010a
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F8F70982-1E10-34D2-B3B9-7944EDB85226
++  UUID: 0EF5704A-3272-3991-81A4-152F98385D3E
+   Functions: 12
+   Symbols:   104
+   CStrings:  59
+Functions:
+~ _accessibilityLocalizedString : sha256 8d459ea2207f5fd094cbd1a9388146bf82faff6ccd1adaae2e24b1dc0a5a91f7 -> 7e6ab5c7e67ca7c6a06e62a999ae89a9254eee1bb0064949fdcb0ad32f93e8a1
+~ +[AXWirelessModemSettingsGlue accessibilityInitializeBundle] : sha256 c5ce25ed0cd42077743ea83e6dccb723e3898432793efa5a79f32cfde1e47eb5 -> d983f2202962e2ddae1911b85bbc3c34362919ba8b2ec1b93f18567ba5c80efe
+~ ___60+[AXWirelessModemSettingsGlue accessibilityInitializeBundle]_block_invoke : sha256 2dc51c185595cf8943d57d1bb6518fbb876cb4256e2fdf74aeed9736caf8d1ed -> e995f5446d1c36b9fd51eb1debe0b8a3beb360ab781e5132ec1e3c6ce6940166
+~ ___60+[AXWirelessModemSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c38aea2a87a0b51eba6f179b62f144bf9c18082c340c8a241ccb0a6c12dd8064 -> e5366c17fac887cdea6dc5a15dfe68bd0c566e33683ad3bf2de990fb86d4af41
+~ ___60+[AXWirelessModemSettingsGlue accessibilityInitializeBundle]_block_invoke_5 : sha256 c13395d0c74697e805ba08e10b2646b926ee22bdcfbdaac37d389a428917353e -> dfa826b73798a4a5665ab7da8395aaa8be064d26d054cb5acbc3ca3912be6e2e
+~ +[SetupViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0fc580e9b4187d2a0cc1596cb0a53bac10beeeb5204fdb824fbe52136b2069fa -> fd08ab731656dfcb6a293d074e5264be8fd86d2ff5b37b9a04633e208ff8bec5
+~ +[SetupViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8faf64dbdf80e21faca3e90718ca69afa34cfff8ab5c851289fd789820e6bfc1 -> 7f56cff7729182512b4825ad88195aa6483284fd1d3176986a92fb30135a3330
+~ +[SetupViewAccessibility _accessibilityPerformValidations:] : sha256 63621595382e4c15a0b678a8f968b7a81caa98405b2ebd863aea6fcacfad8a52 -> 969ceb31cde97d22f601bb38491c9267a06243f116279866de743f0836fd3710
+~ -[SetupViewAccessibility accessibilityElements] : sha256 5f08fbf7183ade9a27829fbb0b369cf11cee82b3da2b4362e812080bf4dc168f -> 11a24c04ce02af2ad8abd4751ae4c52d7e699a0435d12de90a1116655550443b
+~ +[AXWirelessModemSettingsGlue accessibilityInitializeBundle].cold.1 : sha256 a2f89f9cd36c9f82e10bcdd65e503e913b9fed5936e63e0bc12d77b095b89e0f -> 59b90e645e2d4582f9b73c2697ed0555bd5c2eaff399bf35283bcf940f70a9ea
+
+```

@@ -1,0 +1,146 @@
+## TirePressure
+
+> `/Applications/TirePressure.app/TirePressure`
+
+```diff
+
+-315.31.1.0.0
+-  __TEXT.__text: 0x1d264 sha256:38e974e886851f19fb7afa6fec86e5f3c4f012e0a8b5e0876a7656446a8c0d04
+-  __TEXT.__auth_stubs: 0x1440 sha256:a06644bbeb73e5c0b7b417e1c158dfbf9d9e006c55d572dc21c43c40b333183e
+-  __TEXT.__objc_stubs: 0x720 sha256:112a62be612f73ff0fa7ad304a883d3097ee2e48f1ed976cb73111bd6223c191
+-  __TEXT.__objc_methlist: 0x644 sha256:9af43e12b2bd264fe1cc60c563b5260ad6bacc212fa1ccb7624e4df4abfdd1c4
+-  __TEXT.__const: 0x1344 sha256:f569777e078c1786083b266470234dbb364094354ef5567470211240dd196e58
++315.35.0.0.0
++  __TEXT.__text: 0x20b44 sha256:806d3bd29c370aa3c132f60283395a53840ed36f73bd0eef42ed261a84121dd2
++  __TEXT.__auth_stubs: 0x15d0 sha256:647012ff8565cdf8996e4d69ef18d17f5543cd654f8e8d80d530b1724bec3eb2
++  __TEXT.__objc_stubs: 0x7a0 sha256:33e35a9d285036da5a99948a67ffe1ba96f8f75495b0951496342fac26de4509
++  __TEXT.__objc_methlist: 0x644 sha256:7f1e90dc1b45fd052594b34e94bb1a661c4cf15f406bbfb4e7193b6475cbfa40
++  __TEXT.__const: 0x1654 sha256:09fc4cfed2b7d7a7230a507b62bfcd18ac33ca4202b3ac7ee3011d65120f24ef
+   __TEXT.__objc_classname: 0x2cc sha256:2b966053eec46d10d3698d62e40daae51b33f618c5b2b503bd41367c834947e6
+-  __TEXT.__objc_methname: 0x175b sha256:15acdc36175543f113d30caec6c5e073433d0eb3f43f4015620a2eb3359b1b31
++  __TEXT.__objc_methname: 0x179b sha256:c05f0ceab0db559171f228907ae08e08885d56ae867c6cb8dc62aed974d9f6b7
+   __TEXT.__objc_methtype: 0xd9a sha256:f881e748387587f0309a0c33322a172a954ec3d7da5d664db19743cb07557da5
+-  __TEXT.__constg_swiftt: 0x76c sha256:7f0dbe8909a686177d3ac82b76b9363b4f065772ad928cbec754c8b5486e3bd8
+-  __TEXT.__swift5_typeref: 0x2f2a sha256:b5cf5b3b9fa7f5aea20f5a5e7632dc89737f635c0fae32012a0dc9910ce0a1e0
+-  __TEXT.__swift5_reflstr: 0x3da sha256:da91d24b5feca599fc8ee76595317bc9d7b54d6ef691f533a84d51dcb80b26d6
+-  __TEXT.__swift5_fieldmd: 0x484 sha256:3844c0a8993c38482d6f5e8f20dacd5190c51967006e7af24193b48b94e21ea6
+-  __TEXT.__swift5_builtin: 0x50 sha256:baaaaa05ac03b929f191dfe405be48dd7a634a73ccd7bee8a4a200b84d7e4eae
+-  __TEXT.__swift5_assocty: 0x1b0 sha256:b699f17940c9635e866efea263600f8ae1f560ef93f2cf1ab307c15b10758331
+-  __TEXT.__cstring: 0x677 sha256:d3ad5717c45c68cd99f9ed1e19d8a8d65157dd20759ea5ea3969e0208b59a691
+-  __TEXT.__swift5_proto: 0x54 sha256:33ee01368aa6fd27a5a221c19c33201601dbb39deb6f836388a88db050d782f8
+-  __TEXT.__swift5_types: 0x74 sha256:f0690f24bec068b4949d4f7f79824a64a9773d9871f6b55c5a251e2836e7b536
+-  __TEXT.__swift5_capture: 0xb4 sha256:09f39b52421a3d3ecb58c8cc770349a65285804f71b925bcd16eb32789c8bdcf
++  __TEXT.__constg_swiftt: 0x7f0 sha256:4eca051e5406979c8fa6b30c51ad6961d0c31ab34a5371b52d372230633b5b78
++  __TEXT.__swift5_typeref: 0x3d78 sha256:515ef9ced9644fdfa61d2f69549183cbb3d0534ef04b9911deb97fc86ad7dac6
++  __TEXT.__swift5_reflstr: 0x448 sha256:476cfd14bfdc7c9f5252a4139a9b64d374c34b5542cc16f356ae30ecd5c3a632
++  __TEXT.__swift5_fieldmd: 0x4ac sha256:e098c7f9d5014f0e523e1e86bda0d590322953da4fa3c434488dcbec705e84de
++  __TEXT.__swift5_builtin: 0x8c sha256:a2323293f94b36f21498b77006674438d114e5fc93b28d2eef45dd80ec1b81bb
++  __TEXT.__swift5_assocty: 0x1e0 sha256:2b68e47a806d3dc9b536dd39ecaf571aea0a502d4f69fb8bfda2f489d8d7b468
++  __TEXT.__cstring: 0x71d sha256:41a4347682f38d13df89d5bbec11ca6d528087a8ea079a7c4371da678e8e7ff9
++  __TEXT.__swift5_proto: 0x60 sha256:d65279982ba4dfc8ffc9ebd5f7c3dfbc6ea4d2ed88773de6772f9516ec6931af
++  __TEXT.__swift5_types: 0x84 sha256:a6c970c222efb270cbbb98ca0c0e460e0575c5b8f9df5e1f8738c7362ac44c3f
+   __TEXT.__oslogstring: 0x3 sha256:2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff
+-  __TEXT.__swift5_entry: 0x8 sha256:9a2520fa5ee42506c3528267548db46aae8c3bc9f1ca2a575d973c70c63f6536
+-  __TEXT.__unwind_info: 0x558 sha256:030b837a44368d51f293d61a5f055a1b3a0a7eca9b1e48a4df987f5cd8a7ea2b
+-  __TEXT.__eh_frame: 0x40 sha256:25befebf8076ee9f0b1054ab1406633075747d58a10b66f6fc1eb2b633533772
+-  __DATA_CONST.__auth_got: 0xa28 sha256:9b2fb0c1ea9265498e0a0f17c307f4cc74fd5b9cad9202c6fbd672198bec5a84
+-  __DATA_CONST.__got: 0x560 sha256:7a47f058b0fff8ae3502f0f343d549a42c7a871fe870cba19a3021d663ca78cb
+-  __DATA_CONST.__auth_ptr: 0x468 sha256:4923a2710c2d559e6142d7039c0c9256b919f8ef4a0fd0bdd5ae08920ce05584
+-  __DATA_CONST.__const: 0x818 sha256:3f04f6f838aa6b912375f06630ca370ff42325074e4326420185e92cd5cf2802
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:a30c1601ef442482adc1aa0920098be16d704fa9007010d685b91ca1d53ab5e9
+-  __DATA_CONST.__objc_protolist: 0x90 sha256:3608de37e9cda593b55b191cf56b2c8608ee078b4e14bb60dfb58f157ad70014
++  __TEXT.__swift5_capture: 0xf4 sha256:378cd4d5ea7cddd0d0ef725f770cca1e5dd929888b9661fa591c11f0481fbda7
++  __TEXT.__swift5_entry: 0x8 sha256:4fbdc296842d5f9ba04a156a4d11706255121d7e8e5dba984fbe4cf3c4af7a52
++  __TEXT.__unwind_info: 0x5f8 sha256:f238f34fcd55a961a2ab16caf38d26fa93b75ce14eeb46c6b68238b6f770ed63
++  __TEXT.__eh_frame: 0x40 sha256:3e1e282dca377808b8f80f7234452999d9c10aa51c186961fd13617e5e80175c
++  __DATA_CONST.__auth_got: 0xaf0 sha256:e24232688aa0e2e1a85671eb5fef922f8c74643a7e9ed293502954b697784a5d
++  __DATA_CONST.__got: 0x578 sha256:a71283b5b94980b8d2e1d6c1c580d20ce9695bb03234c02f55ebaa065a4f204b
++  __DATA_CONST.__auth_ptr: 0x4e8 sha256:a4f2a496fd65cca42a4fac198cd4d904571cf33530c96d21cd4c6385fd366990
++  __DATA_CONST.__const: 0x938 sha256:1d1e5fb807b772180b95d8716f0e3e291f2fd1328bc1589296659f4dfcbce387
++  __DATA_CONST.__objc_classlist: 0x40 sha256:a2eed1eec0f652d7a31ef154321dbb73acf3fa386e71e8985639f47b6c149426
++  __DATA_CONST.__objc_protolist: 0x90 sha256:146e6bc67ecb8248cfe52f54d0d2883f1f453d7fb6797af1ba20fc4a8a8e5b3d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x48 sha256:833b22c2b1a2fcacd3cbc40166ca284655801a13ff34ad2cc15230ac786abc44
+-  __DATA.__objc_const: 0x958 sha256:a724e59c3b7247726980cb60b51cf70c0a13749abaa7b95adc15e37e1ca6e5f1
+-  __DATA.__objc_selrefs: 0x510 sha256:549302c9087c7eaa77658862f94512d5428e92cc4cd19b0290ef9026c4c7153a
+-  __DATA.__objc_data: 0x488 sha256:a9f5665f3ff7884161975c4d8a8046a6268361453d2ebc9b6ade8edf8f0e55e2
+-  __DATA.__data: 0x1500 sha256:bf2eeaeb66f827fcf58d9083f63c545c13a39e32af056dbf8214a6a33638d4f7
+-  __DATA.__bss: 0xb30 sha256:35ea3bc020cf509336e438b06974ec7aea3736f4d0fd3db23a741fa98bd3bb30
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:3a2330d30a09fa59c76ed6e828539a5b486b149afbcaa6cbfd7c914e082dcb4b
++  __DATA.__objc_const: 0x958 sha256:1d0db5ed59a43291a7d2b2908c2d676f882d23f29a0b8da80048c681e0997248
++  __DATA.__objc_selrefs: 0x530 sha256:2d2138b6cb21ff60087032590ecdd848c72dab5390dd55034f4f239343649895
++  __DATA.__objc_data: 0x488 sha256:7ff711ba6d134f3bbba9bc2e5781e30f13c93e471bba333fb7758d7d820f372a
++  __DATA.__data: 0x1778 sha256:211f01f6e6c3c6fcb4b5ed20cc27d114448ddb5e9cd426577bf251a4b01a60aa
++  __DATA.__bss: 0xcf0 sha256:d38935ed0eff0e0647f2865ee1f4c7c51b03249dce7ed0da44a19b36f46a6d46
+   __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 474D2C18-3778-3563-9CD2-61D53F758CA4
+-  Functions: 489
+-  Symbols:   651
+-  CStrings:  328
++  UUID: AFE0B538-B002-3E45-BBAE-E787DEE77E94
++  Functions: 550
++  Symbols:   686
++  CStrings:  335
+ 
+Symbols:
++ _$s10CAFCombine25CAFTirePressureObservableC12$sensorState7Combine12AnyPublisherVySo09CAFSensorF0VSgs5NeverOGvgTj
++ _$s10CAFCombine25CAFTirePressureObservableC14$pressureState7Combine12AnyPublisherVySo011CAFPressureF0Vs5NeverOGvgTj
++ _$s10CAFCombine25CAFTirePressureObservableC9$pressure7Combine12AnyPublisherVy10Foundation11MeasurementVySo06NSUnitC0CGSgs5NeverOGvgTj
++ _$s10CAFCombine28CAFTireTemperatureObservableC12$temperature7Combine12AnyPublisherVy10Foundation11MeasurementVySo06NSUnitC0CGs5NeverOGvgTj
++ _$s10CAFCombine28CAFTireTemperatureObservableC17$temperatureState7Combine12AnyPublisherVySo014CAFTemperatureF0Vs5NeverOGvgTj
++ _$s10Foundation11MeasurementV36_unconditionallyBridgeFromObjectiveCyACyxGSo13NSMeasurementCSgFZ
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV21use_color_coded_tiresSbSgvg
++ _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV24label_to_vehicle_padding12CoreGraphics7CGFloatVSgvg
++ _$s7Combine10PublishersO3MapVMn
++ _$s7Combine10PublishersO3MapVy_xq_GAA9PublisherAAMc
++ _$s7Combine10PublishersO5MergeVMn
++ _$s7Combine10PublishersO5MergeVyAEy_xq_Gx_q_tcfC
++ _$s7Combine10PublishersO5MergeVy_xq_GAA9PublisherAAMc
++ _$s7Combine10PublishersO6Merge3VMn
++ _$s7Combine10PublishersO6Merge3VyAEy_xq_q0_Gx_q_q0_tcfC
++ _$s7Combine10PublishersO6Merge3Vy_xq_q0_GAA9PublisherAAMc
++ _$s7Combine10PublishersO9MergeManyVMn
++ _$s7Combine10PublishersO9MergeManyVy_xGAA9PublisherAAMc
++ _$s7Combine12AnyPublisherVMa
++ _$s7Combine12AnyPublisherVMn
++ _$s7Combine12AnyPublisherVyxq_GAA0C0AAMc
++ _$s7Combine9PublisherPAAE010eraseToAnyB0AA0eB0Vy6OutputQz7FailureQzGyF
++ _$s7Combine9PublisherPAAE3mapyAA10PublishersO3MapVy_xqd__Gqd__6OutputQzclF
++ _$s7Combine9PublisherPAAE5merge4withAA10PublishersO9MergeManyVy_xGx_tF
++ _$s7SwiftUI6IDViewVMn
++ _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
++ _$sBi8_WV
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSiN
++ _$sSis23CustomStringConvertiblesWP
++ _$sSo18CAFTireTemperatureC10CAFCombine11CAFObservedACMc
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss5NeverOMn
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _OBJC_CLASS_$_CAFTireTemperature
++ _objc_retain_x26
++ _swift_arrayInitWithCopy
++ _swift_getTupleTypeMetadata2
+- _$s10CAFCombine25CAFTirePressureObservableC11sensorStateSo09CAFSensorF0VSgvgTj
+- _$s10CAFCombine25CAFTirePressureObservableC13pressureStateSo011CAFPressureF0VvgTj
+- _$s10CAFCombine25CAFTirePressureObservableC8pressure10Foundation11MeasurementVySo06NSUnitC0CGSgvgTj
+- _$s13CarAssetUtils21CAUAppUIConfigurationV23DirectTPMSConfigurationV25pressure_unit_font_weightAC10FontWeightOSgvg
+CStrings:
++ " :: Pressure count ="
++ "Mismatch in number of temperature and pressure measurements. Temperature count ="
++ "TirePressure/DirectTPMSTireDataView.swift"
++ "pressure"
++ "pressureData temperatureData "
++ "sensorState"
++ "tireTemperatures"
++ "vehicleLayoutKey"
+- "TirePressure/DirectTPMSCarView.swift"
+
+```

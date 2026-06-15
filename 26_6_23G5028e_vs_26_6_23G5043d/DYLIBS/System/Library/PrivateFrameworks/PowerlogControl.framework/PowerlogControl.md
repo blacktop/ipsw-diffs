@@ -1,0 +1,61 @@
+## PowerlogControl
+
+> `/System/Library/PrivateFrameworks/PowerlogControl.framework/PowerlogControl`
+
+```diff
+
+ 3031.160.4.0.0
+-  __TEXT.__text: 0x90c sha256:5a8ed03c8545b06f89285d33e9db540771c3e4f5beb2e64916b974f452a74c8d
+-  __TEXT.__auth_stubs: 0x1e0 sha256:82601536afd473d519127d7d4ba80a17da65f0338b7d33fe4192f3abe458dc8d
++  __TEXT.__text: 0x90c sha256:672e7617244ff74735651491f2d4aa2da3a3376d5dcc116276888f5ba67cce24
++  __TEXT.__auth_stubs: 0x1e0 sha256:3b46ddb31552cdb08077bc7ae90a5d2c4d98ff10c623f3c2d8446c79f3f35d5f
+   __TEXT.__const: 0x50 sha256:01148a494541ad1c1ce94cdf9b373dfe233cc4885aca49a18930960bb4454bec
+   __TEXT.__cstring: 0x140 sha256:ce032065441027bb4120968552f3fa7c096b7467a1cac49e5c29b679471b382e
+   __TEXT.__oslogstring: 0xdd sha256:6d7e3e4d3223f63bfee3c0332bcb08c12daf970f8762e0f7442ff55fa5cd30ca
+   __TEXT.__unwind_info: 0x88 sha256:be30cd502bf0164ff144732ce086f2313cad14e0a0f4cbccdb30daac33c00003
+   __TEXT.__objc_methname: 0xdb sha256:bc97ee11867965e91237d57061b5d0bd63c5d2e47b25151c646fde8e0d81f019
+-  __TEXT.__objc_stubs: 0x160 sha256:260bb28b52f9441001c0860d7502cb1d2fe249eaf0445ac87398819dc9b71573
++  __TEXT.__objc_stubs: 0x160 sha256:e356354952bf1695506ccd11b479b047f4620e9c475a81e844dc96eb8b57ddc9
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x40 sha256:a38fa7f9ff5c385caf7db531c2bafbef777ead02c169b7647ad94e5abf8c1a58
++  __DATA_CONST.__const: 0x40 sha256:439892e7fddd28c81b45096a7a63dbec2984976aa9a0826649c620919eca7858
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:8b68ca84db6341d06ed073acef2293806689bdbfaafb9205b02e1ca9611a59ac
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:465825cffa1d0a14ee5c80e4ec6a66fbde6b3ce297d7591b53b24b02261973ca
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__const: 0x40 sha256:c36dd14a87bf4b3f93f2cb1c3eae0b669a34eae5f204544d6c77f93c0686c903
+-  __AUTH_CONST.__cfstring: 0x120 sha256:c911e9fa44cf28a9cf919b49f26e2340d4d57e861c19904c5704a372f11f268b
+-  __DATA.__data: 0x8 sha256:c5c67db60b949e79d26e0866e382efb3fc7e4f7f47d8df2a54f805d79b7b2e91
++  __AUTH_CONST.__const: 0x40 sha256:63f7ee272fef9c3df9dc267640254b953a1886c7e57e5a6c84edc9ad432cc191
++  __AUTH_CONST.__cfstring: 0x120 sha256:684b84ad727b9d233400edc4f5352ecd9835f7048747629f7d102787c21ab57c
++  __DATA.__data: 0x8 sha256:02150506c4ed3dfa36c6d1458b85a46a1013f83f3bcf60c9ebe4b1e7279cd29e
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8AB49A5E-8D25-335E-A32B-E30E046045A0
++  UUID: FD658482-119F-3687-9693-5348F4C57AF5
+   Functions: 18
+   Symbols:   92
+   CStrings:  42
+Functions:
+~ _PowerlogControlLog : sha256 dc7bf9acc6fd26814caf21b368613ea1e86ff5bf223af1401a817f3bebcb1e94 -> 5fae46f7bf31a7ccd0f51d38b1d50a39ed1253283eda4ade3a6788ff587a92ad
+~ ___PowerlogControlLog_block_invoke : sha256 5f1adedc374773387e872d42003e4640acd6474b5b19e94c53c0ee29dda53d6d -> dcb763e08cdb79a479a9202f9cffd79934add06cc591722ecd8333789b185b47
+~ _containerPath : sha256 efcb236c8f6f9a4a86899c8a70c56bc0d55b82a4527245509d84b45ab8d7b089 -> 1dabc990143ad2a6b3256f7b52c3dfa990753784dfa4647ed7199eae9299a40f
+~ ___containerPath_block_invoke : sha256 63c1170d805524a2e7a1c62002a6d7bbcebccf9b6c0e38cd32cc9ad4e8856ece -> 0239a7dbf74a8d885944de80fc5766827d9d8f0a14b5bf9a0dd4163c7b100ab6
+~ _allowModeTransition : sha256 e0db6d15dde2326b674d152bf117b89baedbbc75c6b25b2644750dc03818cfdd -> 5422df002218948da125e09313e5a71a39f43ec3b2fa383cf49f006673090099
+~ _validValue : sha256 574fcd606a036c04dfe2ac36ca60f05f1622aed8872b61a8dc5bc00cb92a6a36 -> f710bac17b96238d9b8ee1fcc1b80c2a2e9b0b33d41f60f3ad36ae910a66d246
+~ _PowerlogControlReadMode : sha256 13a4dc5be71f500ce16b060ac0ef114b776a21fc34bd8a86a50e1609d0bb8470 -> 73a3f953c3a738eb5358247a217342c4579509f534c7dc72750f0df8760a5235
+~ _PowerlogControlDefaultsChanged : sha256 f85aded98fd0450dcc89b8d20e1a3f5923423ccfafc1506b9a364191629dcc22 -> bf70f60ea577d1a78da0e31abc021a4caa2deed0466fe6e98460c1ee5895a077
+~ _PowerlogControlSwitchMode : sha256 739313ca7c14f01cb04c2e548c57b8433b9a152d2e73282c98aa41a1d7f28481 -> d526a724a9319c2003aa0f2748de2694e2acb4f3ae3030a81d48e73cc179268a
+~ _OUTLINED_FUNCTION_0 : sha256 79b8076732d2002d660c3ddab5b5eeecc857e3c8ad43f9b1954df6765aa39a22 -> 301f59a1cc7cfd2172daf4dcaa346086fd5b71f6371bb75952f04ed44e3fcccf
+~ _OUTLINED_FUNCTION_2 : sha256 ee14241b0aa95974674d1a964ac14263d1f25f4e76a455b2c23b86d3fb7a160a -> 10df0331121910d47a87a408d6d53d2c79e46aceba144efc787839296e2eefa5
+~ _PowerlogControlLog.cold.1 : sha256 4602b578b78e9459ca2ac3ca02a9a37e72a56458e6656390367e5b532858bc3f -> ddec2235da619395257b941a61810fc7dd221ebda731381e2bb28a3719a8fe0f
+~ _containerPath.cold.1 : sha256 7e44d376fb6ddfd873b06a2686dd2c79bbd6b4f60927727732fcab2de9bf682f -> 0fb2ee0a1d76125427d16cea3d62a8c971c4ea365ef8ab45c346eec85ee89152
+~ _allowModeTransition.cold.1 : sha256 5340b1ed375b46ce04e75735d971f7396e4618f3855cd06ad29df6dd1a2a2f54 -> 2324543687495f65dab6819be1120de541f0ac56b2c8303a4e4909524837ba52
+~ _PowerlogControlReadMode.cold.1 : sha256 3bfbdce155d8772530b154638d8511588461e6d73b0a742748dcc4c49d05f7ea -> 2ba6c5ab8f019f033aab056693b1b8beaffedb82d3ab68aa7fb7ec9425c73bd9
+~ _PowerlogControlSwitchMode.cold.1 : sha256 a7ec86d7172b62bfd77406546be37cc58bde349270abedde0885ba2d5ee79786 -> 70ed69a6bb422cae2d7b765db3571b93f5136ad393e185f6115612370ca15a0d
+~ _PowerlogControlSwitchMode.cold.2 : sha256 be835851b7108b3fc0ceb4ce73df0288c5998a0efaaf203206e0fe3eca9a2db6 -> a90078c3685ea1e6ed151b7d91077bb11795f02053d0f0f7b4591e4b1913338e
+
+```

@@ -1,0 +1,68 @@
+## AXLocalizationCaptionService
+
+> `/System/Library/PrivateFrameworks/AXLocalizationCaptionService.framework/AXLocalizationCaptionService`
+
+```diff
+
+ 3191.39.0.0.0
+-  __TEXT.__text: 0x468 sha256:af69b8d17580a2981b1bfcd535fe179b0be6d7f9854f9664595f6234114b37f3
+-  __TEXT.__auth_stubs: 0x130 sha256:91cdb456d2bcc1e02adde29008cfaadbcc213e42e45756259f06e572f1362e0b
+-  __TEXT.__objc_methlist: 0x1e4 sha256:8e90580cb5ae8670ae25405f2eca6df41c59b0ddc48c2b394a614166821e3c49
++  __TEXT.__text: 0x468 sha256:3a6f996b604b9a877233ea1c7b62ac923acba59734bd101824eb3e32d979a34b
++  __TEXT.__auth_stubs: 0x130 sha256:fc4f7eacdf9342a2e37ff1d3a3537c7d1600789adf479a03875fa2f31eb4a083
++  __TEXT.__objc_methlist: 0x1e4 sha256:a28fb53a1703e227e3f0b3ae40f46bf7f6e363a737133e8f386b258f63d49aca
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x8b sha256:bf7d26cbfa38a0a3f62a3aac4ce336fee639fbeb2fe9d638793e3c6de5502705
+   __TEXT.__unwind_info: 0x88 sha256:e3d0b98e09f68384539d442b6961ace1711d574c0222afc3566ac93e8514cf07
+   __TEXT.__objc_classname: 0x3b sha256:154ae2c3fc78db930898eaec8354a1be17d65af28b6876ff16d58de47993a97a
+   __TEXT.__objc_methname: 0x4cc sha256:14c20f6c884736f24694998808cd3dea72bc2c542bacfc47556a5343794acc04
+   __TEXT.__objc_methtype: 0x247 sha256:bb9275b0176562a447f32174da9b0b32a841c811959b5461d3adff20f3e45d5d
+-  __TEXT.__objc_stubs: 0x1e0 sha256:97dc0a45e1981532a91bc29580594a2532472a118ea55874e70d35a6f1a5127e
+-  __DATA_CONST.__got: 0x40 sha256:e912cc6d687d5f71675cf45aeb9b4d9447fc7dffb2ca0ccbef23af05148f625c
+-  __DATA_CONST.__const: 0x48 sha256:7607b98c8725a702bc10fae6613ad2f4f550be04929bbf8c2cd782b408dee9c2
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:d7a17f5bd13f8f12d26d5801adab0e54492a2c47964a9a7f73661ad14937c59c
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:644af3c0680ffe28131f72f2be95ab22416d704ec224f2c3e099aa2cbba4cd63
++  __TEXT.__objc_stubs: 0x1e0 sha256:3affc345dc1ab1a9f96a16e27d830d16b2204f6af4b63d4f2111aa3dc02adce3
++  __DATA_CONST.__got: 0x40 sha256:40c74259b89db79a0c17a6a9371eee8aa3ded65004f2ee3c748c51400ec01b38
++  __DATA_CONST.__const: 0x48 sha256:20b8785014e78e94178a03dacfb51b87facee8f0951399e85a1230d1a689e604
++  __DATA_CONST.__objc_classlist: 0x8 sha256:ee1dad50543cd7839f470a439062db6ea5930b3e58f04a0f2c0d1f3973b08087
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ddf422cd2e7ec6dab1a83c7cf8690aebe4f691fc0d697ed357041edc3bb5593f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x168 sha256:74ff78a75ef7beb57913ceb1027e6a275e6e6e12bed30c168d1d44c572908b49
++  __DATA_CONST.__objc_selrefs: 0x168 sha256:d8459283d5321473e7ce2c86a0c78d6fb5b41c021d044e90ccb9b4ea16205e30
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__const: 0x20 sha256:ff63bec3b3397b3a596a6ac2eee25655d20e1b5afbf5a10169d4b72704721692
+-  __AUTH_CONST.__cfstring: 0x60 sha256:cb2ec2c60ea4cc40161875aca47f12448ded897e66b45ee59e3b5491239a141c
+-  __AUTH_CONST.__objc_const: 0x260 sha256:c5522ed78ed228d916457a97b48b474a0fdd72a112b33430ba95d19917d73b95
+-  __AUTH.__objc_data: 0x50 sha256:da924c73f30dbf2bc0e66275148e3339ebe5b398940e838a3bce5494bd8132f6
++  __AUTH_CONST.__const: 0x20 sha256:c80da091858de09a690a5155d58972377ae2ef0befe5c8e7b4f21ec3f180a7ad
++  __AUTH_CONST.__cfstring: 0x60 sha256:d63615f34095e5af508a2620ae2997b9307577de8c015198291f1957ac01e5ad
++  __AUTH_CONST.__objc_const: 0x260 sha256:fe9dd76d5375dd63866b5ceb7ead0fe6b92e17fed868c40f00fb0953c7c947f5
++  __AUTH.__objc_data: 0x50 sha256:67379426b1e0be0893562bef217398006ae97465b058d669b16cfe164e7571b4
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xc0 sha256:92d2da37c05d77e9d2ae5447807540f6e7f6d2fdc53cc243279a231c3de8509a
++  __DATA.__data: 0xc0 sha256:bccd892459896202b8723c5d4cad565d29f5e8472a4423ed0c97feffefe6d3d1
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 344CD147-7B8F-3602-A3E1-83B94E637625
++  UUID: 27A74439-B816-3D5E-A30A-0E3D99EC9667
+   Functions: 12
+   Symbols:   97
+   CStrings:  91
+Functions:
+~ +[AXLocalizationCaptionService service] : sha256 ed60c91e422a0902c7414ea5c1a958a6d2003113908bf405d93ac8552db13757 -> 1cede0d58f8c388f91324adf92926fa0589f203eeca0541d650b18c8dee229b7
+~ ___39+[AXLocalizationCaptionService service]_block_invoke : sha256 dbcb4e98ee6b3a417b977fe96c1388008c18340c05fdef80229826c88e6152fc -> fc0ad1603d847521d74ab956b693e050983b9de6c1fc8952e241c199193f3723
+~ -[AXLocalizationCaptionService _clientIdentifier] : sha256 f8820db8d60db4c95262eb36cf73f0b98dccd6b003863c31908af3e122cbc460 -> 017a54d948ac55a8f35e2188996d08c820f4cd0cf7c88078b63672fc88964884
+~ -[AXLocalizationCaptionService client] : sha256 00f73a1ebaa3c285941fa2cd14de5250986c1927cf668693b7d8fb2901062810 -> 2d251bd0ebc268537128c5c5392dd984f205177046dc37d62307dbc19d4174fe
+~ +[AXLocalizationCaptionService _sendMessage:withIdentifier:errorHandler:] : sha256 bf183046767829123e8a4357a4f50050e886c45788f3b50ed1c517dd2324f69c -> 1f5aae598f1f6bfedbbb62fc2ca6f6ebc90996143b33b1c5ddbe58b03122e22c
+~ ___73+[AXLocalizationCaptionService _sendMessage:withIdentifier:errorHandler:]_block_invoke : sha256 9060407613b87f0a9334d6e87c223ef9b86a02dd105a0065a54e5e28f6c56f52 -> 5c1da7fa8a35b41a614f288e1f322d53ef4bef0c0df41f9e77fbac6b8875d361
+~ -[AXLocalizationCaptionService connectionWithServiceWasInterruptedForUserInterfaceClient:] : sha256 45a86681379c85e357049ec0b14d9eaa8b61d42cd6810bbe1080123d5a161a96 -> d7ad781d32aba91958ed6ed6dfd92692ebea87232f2d15bb351c406df330c495
+~ -[AXLocalizationCaptionService setClient:] : sha256 84a45c928ff4b844c55555e3e8e95db1bd66a05dbc2e007110ddcf9e28c0adff -> affd17914f47eba58c9ee3f8f75c9298ce0a1489ed5ef991a4881772eb0ea2f7
+~ +[AXLocalizationCaptionService service].cold.1 : sha256 9d96758cc3770b9f49ced48d5f28ef7815333e3ab04eb9d5673c35ae56574517 -> ff57fb55cd2275330dfe0eff16a724e6ea50d54c2536e44175bfa3fe1753a89b
+
+```

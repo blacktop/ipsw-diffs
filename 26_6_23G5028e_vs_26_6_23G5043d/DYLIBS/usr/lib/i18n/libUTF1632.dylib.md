@@ -1,0 +1,29 @@
+## libUTF1632.dylib
+
+> `/usr/lib/i18n/libUTF1632.dylib`
+
+```diff
+
+ 115.120.2.0.0
+-  __TEXT.__text: 0xc04 sha256:df7f69ff38d343dcf6a7ad4c454e184db0494cc8b70ddb1167e8305494cd2d91
+-  __TEXT.__auth_stubs: 0x60 sha256:f33bf342f152580e5eed6df3cd3b34be019c5a5b58c9430607b42b797501f18d
++  __TEXT.__text: 0xc04 sha256:795c485400cbfb2c47da99225dea3c0f515076dc1f0c58c011c9f8bf6b532c01
++  __TEXT.__auth_stubs: 0x60 sha256:98135b82bf388a33c76a18358f686cc354cf81bf6cf1edee5b88b37f54348e4b
+   __TEXT.__cstring: 0xe6 sha256:5b7b8b88b4dd56893a27188f082bbed838a72e105c63f3c91535770f3a0bde01
+   __TEXT.__const: 0x4 sha256:f083dd8458e610a6b9650ac3f9c98822968eede9219c3424be5fc457a290c50c
+   __TEXT.__unwind_info: 0x90 sha256:22184446e2166d6d3b5b6068647e754ea7a15c41d773bce88ea49a8db153cbe5
+   __AUTH_CONST.__auth_got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __AUTH.__data: 0x58 sha256:6475855ec93eebea7a2201778bde9042e7e031beb3fabf0f0f6132077c0d2d8a
++  __AUTH.__data: 0x58 sha256:c178a3348efe1c280931bc98bb361c44c2e4f5dc40ea124e8ba8ee2389416096
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   UUID: FB2032CF-EB51-3AA9-A8AF-73FA03559B72
+Functions:
+~ __citrus_UTF1632_stdenc_init : sha256 a65e85d1f2cbe1a63ba596035558ee641799c189394d141a71b52263467c40ff -> 6e9c2b189e7d615314cb84570c56404390ab79423473e442f2cd9ff2ae01b0a2
+~ __citrus_UTF1632_stdenc_getops : sha256 ddd1d3bf1a6007fbdf63e36f71b932a93b552c2084785291f16a9660bf2c01f1 -> dd2a2d255d53d143c9b70646a7820ec1c4acbc9c6f551f7518dfb664cf51704b
+~ __citrus_UTF1632_stdenc_mbtocsn.cold.1 : sha256 bfac4ed354ba789047c8918e8f7fe3b443a3d334cde77799a1b50414e4044905 -> 01cd306249b57417bf4c2fbbbe733452f8e0a9f4eaa98a768a11d798ca3919f8
+~ __citrus_UTF1632_stdenc_mbtocsn.cold.2 : sha256 88c4c231f4458129b27138cdb5a1dec2f2c9df5fe261044ebcf9a8f6b2e893a6 -> af4d1e77e9ebdde052ac567224b33d9ac9f2f60b4c54fdf868a36ba1ff432150
+~ __citrus_UTF1632_stdenc_cstombn.cold.1 : sha256 3fe43be6c397c4c4dead5c7f8fda04367c2945c201a25f718979fa6807c83a5e -> c44270fc7d5aaa691fd87e8d5a1e3df70f7a9fc91e26fe062495212329145c08
+~ __citrus_UTF1632_mbrtowc_priv.cold.1 : sha256 4fa53198626f95c498e1cc584ce671ffd1670cc41aca99ae47cbd8be65f94e76 -> b839e44fc1702a68188a0a5f2bc3067976a4d601faf4b5423ac520b56923837b
+
+```

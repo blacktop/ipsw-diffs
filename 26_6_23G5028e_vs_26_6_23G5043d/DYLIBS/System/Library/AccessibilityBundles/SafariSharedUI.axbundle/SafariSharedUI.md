@@ -1,0 +1,73 @@
+## SafariSharedUI
+
+> `/System/Library/AccessibilityBundles/SafariSharedUI.axbundle/SafariSharedUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x740 sha256:2210a1452351564c4731fdf19b6c5be1bf55020d1ff17ba38e052a0c44feeb43
+-  __TEXT.__auth_stubs: 0x160 sha256:8fbb80a1d6179175f419c606413fe06585f058ab01ebf7fee986c33b8f6afe16
+-  __TEXT.__objc_methlist: 0x80 sha256:746f9d9cc09040e6486f29be8fff9df16a585822aeef4e156d7ccb58edd202fe
++  __TEXT.__text: 0x740 sha256:e4c01cd3ea60d73455950cfd807c0d633692ae2364b138c6a0b25c6bf2a664a4
++  __TEXT.__auth_stubs: 0x160 sha256:94587f53987abd9a64e1d61f063344ece84d2f40c33f9a20f6e746c899d29400
++  __TEXT.__objc_methlist: 0x80 sha256:93a5473342dcde1fb41238e3cf5597ddebd62e8f7a693d7836ede0b94dad59a1
+   __TEXT.__cstring: 0x152 sha256:9b8e9d4be551d0bcd884276d884cae1c5dc34189d84b0204b74a721ebaeccf69
+   __TEXT.__const: 0x10 sha256:e6a27b840fb0d2abc3653f8a0428a8dbf07aa823ade45f27f5f034883eba6943
+   __TEXT.__oslogstring: 0x9f sha256:e2b03064916775da3ef0e9f2346a480b14f7407dd4ef79bfcc50f0cf421f62c5
+
+   __TEXT.__objc_classname: 0x7a sha256:979de9155e84b9c6266e994c8b00d020697efaa18ce30c4804143e3f2d48eae4
+   __TEXT.__objc_methname: 0x2f4 sha256:c9bcafddee16c9842d1ab288f1f81760293c2e30222d39c4ce2c05582daee929
+   __TEXT.__objc_methtype: 0x37 sha256:261fb0351a03e14538f44cf206e6446842ff844cc0ee1be1ea9bb1ad0dc0f621
+-  __TEXT.__objc_stubs: 0x220 sha256:db2205c5251fb8d8f5d5d3e3d812e7cec7e385aa261f1a18224c051053c26ec4
++  __TEXT.__objc_stubs: 0x220 sha256:c354edb1feb467ef23ce924a3277543ad53f00c7b98b38f6447fece6e291ff42
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x60 sha256:e6184eea46fa391d23760cf3f5dcff9053da07742e39102ca16e2fb63dabe418
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:5142e19320482b4b83a500851cc6682b24aef3b52074f57e8ff6be4648f932ed
++  __DATA_CONST.__const: 0x60 sha256:335dd17ae08e741924fc1e662a8527a27f56f57be9fd5badc46a0eb621736ba7
++  __DATA_CONST.__objc_classlist: 0x18 sha256:ac0316fcbd9ded6bb365ad4e36c1691bb7a56c0e599e8c36e1c4dc9f4d8264ad
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc0 sha256:ae4c0256ef89f643c53a86aba66d0666b8dd4c6db1905501f8af73a6febb4c5d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:f32f9c2f033de8912c3bb0db67201c5cbc612e35a505c69ce2038d3c560b485c
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:f15fe76b257d2e4f8f6c396e807ab64b755079103f5975e76d40cf7ec7011fc8
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:f75de10a2b7ab0775fc189cf2c7226addf97a81c86d2db07ffdd0634ca171650
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__const: 0x80 sha256:00749bce3e921749250e524828f3bd7f5c51612dd1a98167851c9d13a1f3c332
+-  __AUTH_CONST.__cfstring: 0x120 sha256:a3cef11d70c3fb37a871724986ed1d23cfcf00f12041231d9d9b0014982366a3
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:f62a134af018997fa1f8c7f156ffa7c3a571aca767017c24d778493940bdf49f
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:c061543ef5fd807c5ddeb1f2738f4029481bfe0d14cae98c5309c3ccac3ff85c
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:97c8a7bec6c77dece6a8cef0227b31422450c15a2b04c9e573618df18adb344a
++  __AUTH_CONST.__const: 0x80 sha256:0681d96388166ad041cf5a9b265797aba97d7db4a32a93f6f9a9d292c773d523
++  __AUTH_CONST.__cfstring: 0x120 sha256:4b99ffb2ba99d500bf3def0f19f3c3d543e79176c36469085b6f9d5abd04753a
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:bd0c6f2706da29a7915879b475ae8dad0feb1988962575e69a502508279901cb
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:14c2fb4bb65a3a1c3b31b0a56cec2a7f21c6c096dd12d0d3168d5667019f951b
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:70657ae528ed41c9b40b82f279ef23df34018ceda8fa2c6378f409d6276578c2
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8D33A73B-7F9E-3427-8E94-7E935AC1903F
++  UUID: DBB061C6-3A83-39F2-BC72-CE70EE21EA71
+   Functions: 17
+   Symbols:   109
+   CStrings:  61
+Functions:
+~ +[AXSafariSharedUIGlue accessibilityInitializeBundle] : sha256 d9302a64f8519f4cbeaf02de7556fb061448e0138b36ec81d17914823e9c8fd7 -> 0306ea7b92454ddb5971346e742f2e06cdb566709bc9e1243f43c4fc97f6d4c6
+~ ___53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke : sha256 b61915f347df3c2bdb918888e29a579860300420fcf58c02c2462bf38ed84479 -> 3bb810453421f265f46b8ea2fa6f122f303fce46f68ac61751d8ba356a1bb9db
+~ ___53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 b23b32e5c397948c0e6ac5f40948b7d1fd15b7b5b013556058c5a9e8a78a2422 -> 5394175b3686bcc06bb00411396086db589168ddb045b6f6e0eb30f63378a0cd
+~ ___53+[AXSafariSharedUIGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 d70b67e325c92ffd40be73fc54c3e281f1f267988a28af53463d7764f637240b -> a21786240a15cf82037913a724b8ff54299654b34c443eb33736cf81c490b75d
+~ +[WBSFluidProgressControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 92851d3011657de391aa702be671de1931d4c4a23f524eb4c097bdaf5e891af0 -> 9672cc684d9acb9058a52a10efbf7bcdf5d3276ee0ee33164246b0660fe3d713
+~ +[WBSFluidProgressControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 1d0483956a755018641bd01750e10984ce80d37024895f6761ed4740bd65eae3 -> 6c3808ae609f20bc093b778750d52ae6cf4920c1278543437524070757f5153f
+~ +[WBSFluidProgressControllerAccessibility _accessibilityPerformValidations:] : sha256 f8660cb795f417f9f9aba66409e4fa239342c9ad63df3925bfe6e1fdc250119f -> 989ee6c2c1507398e208cf99c307de7727af754a84c2e873354f57cfcd7eb01d
+~ -[WBSFluidProgressControllerAccessibility _sendUpdateFluidProgressToObservers:progressState:source:updateAnimationPhase:] : sha256 3ceb4644baffef857c337d160409f87af8cb186637ba893ce18ab2c94927846c -> 29ab59b6d895ed08e94e6546305c20b42f2a6c0b444256f2c73abc50ea3b4c64
+~ -[WBSFluidProgressControllerAccessibility finishFluidProgressWithProgressStateSource:] : sha256 f7a3d9c822840170fd97469e407bc30cb9e3365c27d3f40eb10655ba8e1397e6 -> 4157896a5f15a7f0989fc399a8a2a082b68c2a9f0d6c4823135ffaeed8783247
+~ -[WBSFluidProgressControllerAccessibility _updateFluidProgressWithProgressStateSource:] : sha256 b2b1d4118568ce0c7c6c8551968f4bfdbd57a88fc83dd4b589e14463e1f942b3 -> 650d2b3db82b1a518e439c9f05e62a759789d6a10583486b92c3994887b27590
+~ -[WBSFluidProgressControllerAccessibility _axHandleProgressUpdate:] : sha256 d35768d42445fb332301b7d76ca95160519ae5010ce58a8d1be20f5a5ca75153 -> ade7fbb72d857393fe7346114fbae6787c97d33ba250488b9b8613e5a7ad6114
+~ +[AXSafariSharedUIGlue accessibilityInitializeBundle].cold.1 : sha256 5072dfb2a77e60063e5f35d7e3f403ff13eed6a82f95c9262da9b792bd8cbdd0 -> 8676009559d9936930efba1ba7a3837ffc33cf73098944614d7cb758e910bf7d
+~ -[WBSFluidProgressControllerAccessibility _sendUpdateFluidProgressToObservers:progressState:source:updateAnimationPhase:].cold.1 : sha256 c00926a6f2951d0e1c1ca4075e2c5c7fd78e509432dd69b4bfa5655ff83505da -> 0ed56b754a5208f963bbe0ecb021300ee28cac8cb6b4a35e2fc98d07de35fd4b
+~ -[WBSFluidProgressControllerAccessibility finishFluidProgressWithProgressStateSource:].cold.1 : sha256 a39c91436add5a4e8766253a23f2da09687821d5d6ad49ad4e930ba3d0085af3 -> c83dccd98cec64366012547da6c5fd96ae17e37ec40cf882912421994e891aa6
+~ -[WBSFluidProgressControllerAccessibility _updateFluidProgressWithProgressStateSource:].cold.1 : sha256 40f710bc73e8030cd38cc481a69bf9100c8b54f676ab443b600ca623c8366317 -> 5d05b6a3af1c43f5fa8425fdef8a403b20d2d9ecf045d131876715a4c68aae9c
+
+```

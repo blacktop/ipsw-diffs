@@ -1,0 +1,76 @@
+## SecureChannel
+
+> `/System/Library/PrivateFrameworks/SecureChannel.framework/SecureChannel`
+
+```diff
+
+ 1.0.67.0.0
+-  __TEXT.__text: 0x89c sha256:f9fe2ead78032a728334efce31a355b718403b918fca4a36d4f9d5ee76e9f9c0
+-  __TEXT.__auth_stubs: 0x140 sha256:1d44f07e4d3faa6670ba484de56574ced0beb19feaf068330e6aea50d5e395a2
+-  __TEXT.__objc_methlist: 0x148 sha256:3b2a2c790eeb617d797e3eca7bc55a3b33263323626e4c72ad15d2924cf2d46b
++  __TEXT.__text: 0x89c sha256:1d626aaf465d1441cc4b81d778a54363586a5841562d499fe4741f067c2add97
++  __TEXT.__auth_stubs: 0x140 sha256:4f453c1e735d62814707cf8f0332de938197ce965913840083c5b2a65247dbf3
++  __TEXT.__objc_methlist: 0x148 sha256:236c057048ed164d28427dd20c17afad637143a0122b785de13a173a8b30af14
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0xad sha256:cd5b21a8a69c90f8d623034151d2e6bb0a144b6aec008896332308041a8f7884
+   __TEXT.__unwind_info: 0xa8 sha256:3ef110cc2b95434d0f23c3e6b8584eb07158f5605b1a22c6fa284d01b656b511
+   __TEXT.__objc_classname: 0x77 sha256:d60450faa81e487594785a3ebfd45dcc73a0adc35909b65ab0e7d4b6502d6503
+   __TEXT.__objc_methname: 0x285 sha256:c4a0e459aa81bd8569a8e3638a57497d13dde9e9474bea687ba8b25e0340f9a0
+   __TEXT.__objc_methtype: 0x13b sha256:6429a152da4a5f176c13a885a28deae073a3fa66f677a77291cca30d443f789b
+-  __TEXT.__objc_stubs: 0x1e0 sha256:5922f8ef8fcd2499637ee5a57513c79ec09aee65ad1d89cd9e65b95b34b25ee9
+-  __DATA_CONST.__got: 0x30 sha256:66dc08c3023555eee3747d19ae793ab9dcbde9c1a3d54be38cc560732f67d7f0
+-  __DATA_CONST.__const: 0x70 sha256:d887e2700e2d7d23dace903f8d3b02875bc50e347b03eb46432a1fa2242edf7d
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6e9b8e1a191b573126c11aea89b11ed8045046710a4a41f59c8cdcff027448d7
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:86db86bc5329727776440ff91d7cc117b81e409d32c34478c71d0f316ebdb515
++  __TEXT.__objc_stubs: 0x1e0 sha256:e25cc4b1776982f849c32be3f7ce49fffc8ede9967247546905e25759902bc5d
++  __DATA_CONST.__got: 0x30 sha256:7f861fc674d17549c14d708099532177499a2882436b9f88f72bbde0f96a968d
++  __DATA_CONST.__const: 0x70 sha256:d6189ea4e9f053fdcac57ae53a8b764c3049588bdf8e9fd14a7553a2da4b30fc
++  __DATA_CONST.__objc_classlist: 0x18 sha256:f098246b50dc3c4be3ba989d9878aab43e77a1f4587240058343318000eddebe
++  __DATA_CONST.__objc_protolist: 0x18 sha256:3aeda7e43ee090bed82c25e40923bc54887eabc5b2f8282bff7390a8504541b6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:a1784818064cacc2af8fc210bcc3fc74d93d24b5fcb0f16fd148602d26b21cef
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:b5ac0cc8bd765618cdaf71972c3f92bcce1d6f4211801d7096837fefa9d78ba6
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:0a51f80a84ea3068eebcbc2464a75907e951682c1143df942353cfb895ecbcbe
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:19dd01058f21d2ee5b264c6561e037e0a77b0f72968a46d247d9a05d70ad0447
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:603974d9d9da8aa42c6ce32b1ddf600fabec94b4646dbd22dbce1fb60c683d0c
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:acb40f807eef5f9ceaa3afcaed1a76d0e0fc8d8c8e4fe23232203da0819855cc
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__const: 0x60 sha256:fb52c851c29c11254f004cf833f1dede0a5e1be2d7faef698853b3500e7ff863
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:3cef0b939323fbb2b44b0ae505b584747e78750329db36d5dd185b35f5eb7746
+-  __AUTH_CONST.__objc_const: 0x338 sha256:183494bec326cf9781034b859ef85ca9d1039982df239d7e5aef128d7534479f
+-  __AUTH.__objc_data: 0xf0 sha256:819325a2cab5f9204e2d8bfeb2b3b2efc8c961fbc4e07112efbee8d3207b2238
++  __AUTH_CONST.__const: 0x60 sha256:046478a8ec1f96dee82636a9e4c12060a3ef88c93da58d3b321407c96cae3e6e
++  __AUTH_CONST.__cfstring: 0xe0 sha256:ac973108f42d3d6192d612a209f091829b9fad7ff3215661d6fcb56402cb88c6
++  __AUTH_CONST.__objc_const: 0x338 sha256:e253cc5ee09e81494bbcbba9d7beba7b8c321dcef57c4a4a3eab6966161c34a1
++  __AUTH.__objc_data: 0xf0 sha256:8bdb6b878f8453a132d87a5d6bffbe9f04089f9bfa39a08309776d5914ff52a2
+   __DATA.__objc_ivar: 0x14 sha256:406683be10c2353a01cd3bad06352de116d5a5fed05fa2f4a16c753da181e056
+-  __DATA.__data: 0x120 sha256:b699ab51c865da7faa9b12d44355071743c20bb146526336f9a5c497c71e4707
++  __DATA.__data: 0x120 sha256:0c84e939ce85d74a1794929d5bc7deb4c7b35b8bc627a0744a8676fe1b8bb45d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 59A462B3-E9F6-3D71-B5C4-97622D32153B
++  UUID: D9D0ED09-CFAE-32EA-B6A9-5B520C353809
+   Functions: 23
+   Symbols:   143
+   CStrings:  73
+Functions:
+~ +[SecureChannelController actionForURL:completion:] : sha256 6e1d959e031d2e18c0f867c73ad39e9782e3151405d27c2dedaa04000b3f817a -> 61a917662e557040530718131b7be0dc37258381cbbb42a4e5e1bf63cb6c0cf2
+~ ___51+[SecureChannelController actionForURL:completion:]_block_invoke : sha256 e38be6e63c03e48d05469606fc81442c260b08bbc664531de0ba81b5f6f4c6d4 -> 11fd1fcd7b727f9535498dab063339cb51a1e511133d6be8519da474518f9842
+~ +[SecureChannelController runApproverFlowForURL:withCompletion:] : sha256 5ffe5d74a673e094a416fc4955e816e61b824382f0a99d58c4710c381c76a8d2 -> 744bc820c6c4e7977e9013965ace5633abffafc08edc1c16fbfec0da2f664159
+~ +[SecureChannelServiceProxy sharedInstance] : sha256 5da4904f79dfc5a57067f8e2757dc6ad46cbaaf52b28bc370f4badd4752e76d2 -> 2a0802d1b9f3d4c640bd89f948db6b43ca5991779a5537840fa9cd858fceb85f
+~ ___43+[SecureChannelServiceProxy sharedInstance]_block_invoke : sha256 a861b3f09b8df0399681bcaa310d0594205b0df35ea7709b066140f6885bfa46 -> 630cbf34a60a2e54ff621ca6d00a44b65c4c08a89b91377ffa31bc44ba336746
+~ -[SecureChannelServiceProxy init] : sha256 d585a71b8fa22afeddc3bcd2f8d3b959ca08466f6fb4e3a53daa825c30292f0f -> 8a7d4cf2262eea34e3e90b6e59ebe770096a518f07ae6f46cb82995da996b849
+~ ___33-[SecureChannelServiceProxy init]_block_invoke : sha256 aa4d9f1cdf24e5bf0c72554ed874006def0a21a4717cc910ce950d344d06401a -> 8714ce5c6703be44d14ba7245746474695b21a36f6028ed1aa2c7ffc4088045c
+~ ___33-[SecureChannelServiceProxy init]_block_invoke_2 : sha256 1558e165a12416605361d07eba40e001c65d02ba498bca0884008d27838bbc95 -> 33c946ee9f7ae9b8c6bbfb01ea0d3a03022185ac5fc8cc9d9e8a2abf61f9cd8f
+~ -[SecureChannelServiceProxy actionForURL:completion:] : sha256 9c6646bf00547626b03f0b53689c006661fbbf5c1b76f6b48e6fea4147e83a2f -> 70e1930e69add8c80235670f569f05bc43d181e7040ed6b513ce02a974a59f92
+~ -[SecureChannelServiceProxy runApproverFlowForURL:completion:] : sha256 97ebb9dbbabe9b06734826545fa595bbdc79dd452ad372a3f98c5283f338c8da -> 40550f5b3e7856ac8ac430598fc51a177c685abc063fe4e0c226dbb44f705fff
+~ -[SecureChannelAction initWithURL:title:message:] : sha256 64741e7805a000cc42e7a715e3c4de4414e2df094146c5dee26521e5222d85eb -> f05172c0d11c0506005612f92f5236db35807edcf1650433e239c17042604339
+~ -[SecureChannelAction performWithCompletionHandler:] : sha256 09a8275e16214dde362714b6473efb3417ffa8a0721db4df62ac60c350b4f0f9 -> 01f7f26380e21f0d2b13b90c0feaebbd1bd14ecb59102d0292cf12e303ca37d1
+~ -[SecureChannelAction encodeWithCoder:] : sha256 28f7737eabf95cbac7d13a5e1d094eb725b7cd7ee2446ddc7f68d7e5769509ab -> 05ed852b2bae25ce3742b69caf2822c526a23caf6fa135fe5f3f8e865581702d
+~ -[SecureChannelAction initWithCoder:] : sha256 1649909ab53b58ef707bad741d7a841c3025f26a71eb5124c244da20bb82c8b6 -> 65df971224ecfa37578a5a23d76da7624555b547d2029f3c5c3ae5a6f0bbcbed
+~ +[SecureChannelServiceProxy sharedInstance].cold.1 : sha256 fbb5aa599a346fe8b65a6b108a28a05a072dd856ce88d63538aafbc6a88e8f94 -> ed4ef332c1f2500b8b592c6d87130a307074624b0f8727f2e4b675f32d72a598
+
+```

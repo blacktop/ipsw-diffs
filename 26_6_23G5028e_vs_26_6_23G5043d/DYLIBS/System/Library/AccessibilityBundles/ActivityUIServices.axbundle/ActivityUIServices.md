@@ -1,0 +1,60 @@
+## ActivityUIServices
+
+> `/System/Library/AccessibilityBundles/ActivityUIServices.axbundle/ActivityUIServices`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x1f4 sha256:0df6eef0ec3176efe9b60584377a76c845f789129cd877132b4ec24fe2bfaec4
+-  __TEXT.__auth_stubs: 0x90 sha256:af4972723053b47a708c9f93327974f9fe02607910f75d1f0ad5e741915e30c9
+-  __TEXT.__objc_methlist: 0x5c sha256:40c357f065ef211088e5e1249462f28f381524de882837cfdd0cf9d9e0fa0b1d
++  __TEXT.__text: 0x1f4 sha256:aee50e1a34f33f7609b4556d3b637472f9489c0f3fec9c7f7932db8ddbc48f31
++  __TEXT.__auth_stubs: 0x90 sha256:432a3f4612749ae0059244efa3e3ff7481e207ff1ece672dbb0fe644bddcc746
++  __TEXT.__objc_methlist: 0x5c sha256:5dcb45d12643cb78abe991f1b5ddd58544b76be4730e31d6a1dbfa35153c9b7f
+   __TEXT.__cstring: 0xb0 sha256:e44a070ed3415c866a21d7776879f62acfb28775f008f4d5e0db11afd6585317
+   __TEXT.__unwind_info: 0x70 sha256:425b23ba98cc0881ae4fb8595ca8d18cf8722e76fed8729d623b155399ddacf4
+   __TEXT.__objc_classname: 0x64 sha256:304bf307d02cc330f4c9a82db26c172133cb44b8c2580a5799e13f80c9d99701
+   __TEXT.__objc_methname: 0x1a3 sha256:05fb8e00234e22e86ca6b438545ecbdd97eabf50c5672328fb865c9ceb56272c
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__objc_stubs: 0x120 sha256:7a0356cc099273987c998fdd23e1c16a3500c61498a085cfcc8faa5a410de526
+-  __DATA_CONST.__got: 0x20 sha256:36546463ee6ef90b7fd35f1eee2e53375e2da79e7c6480420996cf33470b9b3a
+-  __DATA_CONST.__const: 0x40 sha256:d710608a4c6e0f3061f0d71d180019b8cb00516590bc599caf7c0e6cb8a4ad27
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:a6454083a1d38a5947ac977a2a31572f19311bd5b9cb98fa1a2e58ab52ee272a
++  __TEXT.__objc_stubs: 0x120 sha256:5440ee7872088c5b7bea49ec335d3bd93d22643a83162fb2a9e70c972f94528b
++  __DATA_CONST.__got: 0x20 sha256:f4ddd231b63a3a90782cca2b05de8b7d26d075520a9e0aabf544e62c8eb1a877
++  __DATA_CONST.__const: 0x40 sha256:d51c3f1d4074ccea1d8e0436c8db100d0fc989fe1ef3c6b2b0f0113faf2ebe16
++  __DATA_CONST.__objc_classlist: 0x18 sha256:4b7e60b4ad3f2f3d29df6cd1df79d34a8a85280b520f8778cba68b6e7ecb4f56
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x70 sha256:4272065579e4f9010490d6ce5dd6e2d32aa88c934f83e543d173b4dd27d4aa7c
++  __DATA_CONST.__objc_selrefs: 0x70 sha256:51f4e12e6a109e1b3968afda5dc69829c7169cdf31cd0bad4174d8bba9499a10
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:a291754b76d3579650cc100f92a7fc680a6e4755edf0c77c86b81ddbd4e0ff92
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:19b1b1d01b56129925a6800e897695a4fea45d6cb6211483db60f2c67e600ae2
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:e3ff65856d4b43f53942e13916f437e5ef414053d61c2fd7751a57d830326e63
++  __AUTH_CONST.__const: 0x60 sha256:0cb2aceee30a6735311db212d309c690d850e05be661ad0a663d26ceade6a338
++  __AUTH_CONST.__cfstring: 0xc0 sha256:2c5f17ce60a36ba8a37af41aeb53a3a9e8a4e91a64160883b58d41925c8cb4d2
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:6a0e45de74c5d182b8c52fd1379773a9667464e0bb384eec2fa395848f892c68
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:94278a60ef80a3414bd6e8cc62ecb81097adef81d235d144801960dedc103088
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:441e92ae7f91f71f28aa1d6063d3b3127f37a717c7c07d71a7240bad29b4fee5
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ACFAC752-5645-3F2B-97CB-9998B448845C
++  UUID: 71931BF5-3B93-3024-8AA6-44AD24E66B45
+   Functions: 9
+   Symbols:   67
+   CStrings:  36
+Functions:
+~ +[AXActivityUIServicesGlue accessibilityInitializeBundle] : sha256 bf3c1eb5d79af3abfd4312126866b7eca00d5aadcddaba5112cc57ec34a18eb5 -> b321a056496a35e1e36ce98eca978ea48e13524cbcbd032f6ab4dcb528dbfdb8
+~ ___57+[AXActivityUIServicesGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 cff6e8b97b6affb6d432e31c27ef196ad7780abdc51656c256286b06f1ea55cc -> 6c098f62fd0c3d580308db329e5fc57928e9e3e7e2cfcdd6a4f8a80cb3f5b15f
+~ ___57+[AXActivityUIServicesGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 96839fc4de0f42e96de77a8fff9407f5ee5913e040472258cb92ab6137b64bc0 -> 4c5dd877241c10547765ab7b4a08f1d170c70f6d4d96a95aa55459994952f5df
+~ _accessibilityLocalizedString : sha256 6916d025f683b9d955a4a64b8e297268598dacb235084076dd60493212bcf869 -> f6bf587a5b6d4d2ec8e552cb21e732425fae82c24f75e967f07e8ed51f2fbd78
+~ +[ActivitySceneAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9cde49e84c499eead57b2fb20da5a71d872a76f4fc775b45c34ae1e8fb7467b8 -> 8ecd1935d8e2c3a2870ef9a35590016ccce66c467d317957e4fee318f6dafea4
+~ +[ActivitySceneAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8eb5a26c6c140043265dfae4360d20953a7442af8a202e1c055d66f789cc6d75 -> 59c26ebaec1a91b836eae52655fcc93b908427629d8021676ea99f963ca5f0da
+
+```

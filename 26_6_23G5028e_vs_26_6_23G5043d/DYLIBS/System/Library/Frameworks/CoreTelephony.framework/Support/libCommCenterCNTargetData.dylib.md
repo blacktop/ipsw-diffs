@@ -1,0 +1,44 @@
+## libCommCenterCNTargetData.dylib
+
+> `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterCNTargetData.dylib`
+
+```diff
+
+-13190.0.0.0.0
+-  __TEXT.__text: 0x838 sha256:91bdd5493608422f845b8d80fb8c3f39f5fef2fc04fc44ccbf6d596e4f4775fd
+-  __TEXT.__auth_stubs: 0x110 sha256:15b4dbb4a107ad5eadd03529cecb10fa3ebdde98afcdbada2fbfa343771a03e2
++13192.0.0.0.0
++  __TEXT.__text: 0x838 sha256:8aae577a8ea7a79555e7b89eb34b629567032e8f18ab6e9e6296da8dbacdfaf0
++  __TEXT.__auth_stubs: 0x110 sha256:1a61547162ad3af6e6fc9386201fdee40726f7b706ea11d07f3206de4a8af04f
+   __TEXT.__const: 0xf0 sha256:651ba2a39d08dd9fc65a6175f525bd0a8afcb7883871703cb29347b5e29b7116
+   __TEXT.__gcc_except_tab: 0x18 sha256:a84200567459ab4eab3df24397c66f9a4212410b3a88ba3607341095c6751ff2
+   __TEXT.__cstring: 0x2f sha256:47cc95e7a6125f93c5d1ffc7013ee3f3b71b8e9083c7cb0f0c698d77e4792865
+-  __TEXT.__unwind_info: 0x98 sha256:b95363c114a9e65d8e45bc49654c7a2a70ef3c42e80fffc505c478d886e2a68f
++  __TEXT.__unwind_info: 0x98 sha256:f28333a429b6f27157cca75dd2d72bbd040fca56c2059782aa4ac7f59eaceba9
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __AUTH_CONST.__auth_got: 0x90 sha256:09e9cc2c30eddddfb729240723318ac3b54ababf4c23a62ada4fcbcbb642fe14
+-  __AUTH_CONST.__const: 0xc8 sha256:ed8650e066e32ce6ccb91a200e044bd8fcb48621921719efdbb0fada31d215d3
++  __AUTH_CONST.__const: 0xc8 sha256:2f8521d444d5c5be80b31d853fc099dd352f2f6a898616d64af6451dadd77797
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 8750328F-5389-3C90-83F2-4D57D3F0C5BA
++  UUID: 263F90C0-5D34-39D5-A4F6-7194038DAF8E
+   Functions: 57
+   Symbols:   101
+   CStrings:  1
+Functions:
+~ __ZN6stewie13TargetInstant15invalidInstanceEv : sha256 f88539ec951eac5a4784d185a02934e7fec45be07701da9c349fb23c5271ffe9 -> 378db6f5b6f9685f175e6b283c277554a2cf514ef4ababd3082dbe33b869f247
+~ _createCoreNavigationTargetData : sha256 26e86f0fdd34bf6311dd03ddc7c4859bfb570baf149dc4abd4326816226927cc -> 904937ff0bf9569b0b6d32ce512c73497dc26e34c70a98baf2adb2f76660c01c
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED1Ev : sha256 def0a2191e7861fd90e8942d7f1ce76c6a457acd75415562bf914644fd3a2e83 -> af600ed4af9d95b344893a269cd4349172b5c90e110920c283f8fdf396055466
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED0Ev : sha256 6435eb419655cd90b219add3f92bb28041a6b96bb19b003b8914cec64a102882 -> a112c3d52278e9bd954a1e24c5f0638678723a6fcc49323c16c1d5b80d773527
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD1Ev : sha256 6fa4a24620beb551522c93498e08d37190dc5ec83f71fd06084b9927d1ec876a -> ea1dbeab710e8abd7f7408035267946de4f12a4fcc704e12bd4bc6f755b9ff5d
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD0Ev : sha256 929f5ac7a33885dcccc93f9dfedad9aac64324e6f87329cd31dd970c2a6325e0 -> f9a3de352e25c47d5837161c54968032735bdc8221ab21dff20392dc92f2684e
+~ __ZNK12_GLOBAL__N_124CoreNavigationTargetData16getTargetInstantERKN6stewie11GeoLocationEiRKNS1_6CATimeE : sha256 cbc5a1c44844ec696c2e91f436080d7d86a6d86faf9877e5480ce3283d2f97e7 -> 64f9eb4ca6395aeeb7f088f99b112aaeba1c1ab3cb2288b0fc3a5a3e101b1943
+~ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev : sha256 52caba780e97a387d1e18695c9d10eef6c6e6f71479e018334ee796f65ab55b6 -> 3fdcaed958df1ed2735603763bad42aac16a2c3c21efe58cce3d8e7a13d9ebbe
+~ __ZNK6stewie11GeoLocation30distanceMetersIgnoringAltitudeERKS0_ : sha256 3c38def5fa4fb96209719cce63c361b1edddbdaee13fcb834137669436d9dadb -> 76e8f59ce9d2c3388f3d0a9d1118e5fcc1cc1d960dc704b1ff2e8e82ec7f3624
+
+```

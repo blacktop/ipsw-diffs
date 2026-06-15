@@ -1,0 +1,73 @@
+## iAd
+
+> `/System/Library/Frameworks/iAd.framework/iAd`
+
+```diff
+
+ 1322.0.0.0.0
+-  __TEXT.__text: 0x2cc sha256:ac755e92cf5eaf44e4d70fe65a02b777e8d4e4c084263d025341feac544c07a8
+-  __TEXT.__auth_stubs: 0x70 sha256:b3628cc9659040823b0946af154907c19fc4088def0df93ed5202ba534556aa3
+-  __TEXT.__objc_methlist: 0x218 sha256:4bd7fe49aa935113a7b9e1e3d5627391cf64a18458c2e894b08bf6af9a3a706b
++  __TEXT.__text: 0x2cc sha256:54cf3816df1696e6cb064cdc774297b0caa6f9003413a26f08e0b1263f17380e
++  __TEXT.__auth_stubs: 0x70 sha256:24375773b54f9abca9c7facc41685a36e3b6a468bb5e12331121ba3cb76b37b1
++  __TEXT.__objc_methlist: 0x218 sha256:c43e0c397838a388839af1a547cd47c522b4b5ea66be3559dd2ae7482848781f
+   __TEXT.__cstring: 0x91 sha256:26093ab7a80c92dd179e0d884e2067b56e8fe8ccf900e05733aefd74fadd89b1
+   __TEXT.__unwind_info: 0x88 sha256:d40fbce39cae132dde7cae80528915000d2c085f84d0927e1f38fa5c65dfdb8f
+   __TEXT.__objc_classname: 0x6f sha256:4f2ea5bb74c10948aa036b1bdb20116c2cf7a7dcb643be553458be5db769c079
+   __TEXT.__objc_methname: 0x634 sha256:648b15a088036b24631297c35df88431f325eea90af5ffae34f3517c1648c5d5
+   __TEXT.__objc_methtype: 0x97 sha256:0021a6f0df39607e73ea17724fcb2f18a7e2ed0d65a2bf81cd78906d82c15216
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x30 sha256:9957565dd0a5fb9db8d08547ce77c47b9c516ff799c104ed9b871257f2c41c75
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:3a4310ada34ae7d76879883ad6914cc0d327b4a4b73beea2f615a5ae90717892
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:86819270352bb6dcfb8ff3528858903986f97e1a85e429b3456078ac19f871b3
++  __DATA_CONST.__const: 0x30 sha256:04e5f57de8d3e637cfd3d5c83503ef34cffd5448508c8c706d7b1fdf62f550fc
++  __DATA_CONST.__objc_classlist: 0x20 sha256:348964aba6053f859f25bfe82d6eec6c303ed8051baf280ad1b0311c611ac682
++  __DATA_CONST.__objc_catlist: 0x10 sha256:7466cc5d98a94d18e0cc437f02711e3bf6177e84d5b594a08c2b1c166ff74532
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x108 sha256:b1a785ee9fa43b5d62f82baf59cd4156eb704d0a1e2d80051da40fea62662bae
++  __DATA_CONST.__objc_selrefs: 0x108 sha256:dc37f7e018a33ed356cd9d1648d6a35f7834056561e7c25070dbaf16650b5233
+   __AUTH_CONST.__auth_got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:6ef01bd79c917a6f134f9621fc9d054e580a5c50f86110d686d025bd4643445c
+-  __AUTH_CONST.__objc_const: 0x528 sha256:daa6efb5fcb55f5c4242ff138b7f47a09b936b8c61391bbc9095a7ebdc28370b
+-  __AUTH.__objc_data: 0xa0 sha256:5d2f518a96147373253fb26302531a399661a8706cf2b6ec4c42db4da04da2ac
++  __AUTH_CONST.__cfstring: 0xe0 sha256:0342abef73ad452cff9f5079e03483cce591bee882493dda536b16c3912a34b8
++  __AUTH_CONST.__objc_const: 0x528 sha256:de9de2614bebfc6dae7e4973ab2b9ed0ae2c541f6d31c7b411d17bf113c189ff
++  __AUTH.__objc_data: 0xa0 sha256:19d44827e9528c1b151b3b3dc86de1828973ec0a5301bcf696b6999ae4299c4d
+   __DATA.__objc_ivar: 0x28 sha256:6f69bcf896b9e44588e26693d20a2f361af83da7abc5aea111d45fd2b97df875
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:1b82011850bd2f5cc24f46c2032c2cde61ece382ae78b4ae93c1af40a06b06b8
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:18fa4a028287224abe1b3401c6a0b0a2e084ce95364905d5255cded85d850d2d
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/AdPlatforms.framework/AdPlatforms
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5895F235-5E75-36EC-B179-5C7DED991E17
++  UUID: 9D0DA2E8-DB45-30CE-80E0-562E45F3476C
+   Functions: 37
+   Symbols:   139
+   CStrings:  104
+Functions:
+~ -[ADInterstitialAd delegate] : sha256 88c2d947ac7064b8eff697a1caf9e5dc307151d14a54f1c1b2d35a71b6fe4e7b -> 0d290d8a63bdfae588ecc1df55416f0751c41b3e1fe2b271fbb40e9ad7ee7b6e
+~ -[ADInterstitialAd setDelegate:] : sha256 5a6048d14dc8c89d490bdd8b2337f8a9effb2d5528b3dfcadd2aaeb41db021e4 -> f902d51c655306b900768f36c8cd326641f9e2d36c70f73498b4e3b22d5899d6
+~ -[ADInterstitialAd .cxx_destruct] : sha256 a2dae55c210833e9e434cda4643a1019abb707a02398bc4eb2d8d5136f3221ea -> 7b5fcfced44c8bd67c0625687412ff8fb3309d72eb4ff08bfd5aeb4c8ea1c76f
+~ -[ADInterstitialAdPresentationViewController initForInterstitialAd:] : sha256 276fe816a07c77dd8c3f30b1722745fafcf63ce21777c4869c637647bf504636 -> 73ee9dee6af8773810fb85eebde49a46873cd22c9d32f524f02fb8a4a4dd0381
+~ _ADClampedBannerSize : sha256 9f3667a6a15c23686c28c771f5ebc8dc6fe7e627c0f03c0dd61fcd7a564cb333 -> 3288569270e63f1efeefa28cad66973bfa08e025bc3481c277d5f6d9f9a96241
+~ +[ADBannerView sizeFromBannerContentSizeIdentifier:] : sha256 9f3667a6a15c23686c28c771f5ebc8dc6fe7e627c0f03c0dd61fcd7a564cb333 -> 3288569270e63f1efeefa28cad66973bfa08e025bc3481c277d5f6d9f9a96241
+~ -[ADBannerView initWithAdType:] : sha256 81a28c590078aa1f18865a23dfe0c79754ef0bf66866e43fc1abb1d169a3f097 -> 059078a57063bac0da562b1d704d3c318c47873ac3824bec7e360559722fcde9
+~ -[ADBannerView adType] : sha256 3cfc669856cbbb111de5c1131c808225fe55517b8dbc6bfe652a9f58cc8acbd5 -> 0e9c948df0bca1503f0110308f6fd16463b6769ba7fe7f72b3f88292feb31f7e
+~ -[ADBannerView delegate] : sha256 5438517dda9bead3bbebbf7492e80e1739e7466a62dcadd72dbb124ff991f8f7 -> 520ce0728dc90139efdf1d250d2d12becd007c5cd8338d47666f8fb9fba95af5
+~ -[ADBannerView setDelegate:] : sha256 8f0a6e4985425577c3a14aa8bd974d2100c3f0bfcb4211349c00174d0488ffd5 -> 40c8938c2631e9fc4bcdd78abbf48756f292ae99ff17f283713940a12bdfe4b6
+~ -[ADBannerView isBannerLoaded] : sha256 ec03e7766b0021d6b82e243682945f49aa214891fab72a1fb150055a3adf201c -> e2c49c78c05cda92f32228bf607062ffb847d4bb26074517e83083f74a323d92
+~ -[ADBannerView isBannerViewActionInProgress] : sha256 468a00a4d3420f86c3872a41caba72b263fe8c41d35ba41d8db719be54cb7e95 -> 74b8ccb76daa7317e827ff33f845da8b4a32b78a4709d4bf3505d00f39bbce99
+~ -[ADBannerView advertisingSection] : sha256 f8710049a405be0f4329566164b11d0c5f0574790217ec0df0191d2321a05fb2 -> 36f0435b68ee5ef89ee0743d49a91dfc133389f4ba6a488b487a51c669c9153e
+~ -[ADBannerView setAdvertisingSection:] : sha256 fa0540a2ea7bf1caa177e30deac18331067642122f4626963f89c2a484160871 -> 92c3b9a1de2f26b7f5c7fecf915a8d9f40ab5660f02ad76158ebf4422924845a
+~ -[ADBannerView requiredContentSizeIdentifiers] : sha256 f02025d76fbaa354c9431fa6d0ab1879b1abb0672e3c7274506d83131d0c1051 -> cb13aab624f810e784a5d1cdc25197f96638134a89cd426babd2d163c5afe968
+~ -[ADBannerView setRequiredContentSizeIdentifiers:] : sha256 bdf5b762e150eabbd00c606a83c0e8a60c976d644d16e1e6de9599119a2bec2f -> 4b3e147171291cc4f52f23a27f6d53c32db488c6878a5ed74ca9ce957f41567d
+~ -[ADBannerView currentContentSizeIdentifier] : sha256 c7a2cea0dbfd8b384e9d3aa6ede4cce42b7c049bea9dc9e47584fb5be56004cf -> f4564f43fa86ed37d4e2283fe5b5b2f681fa45960888964b4d1e97e7ac26f8cd
+~ -[ADBannerView setCurrentContentSizeIdentifier:] : sha256 a12e8859c5af668bfd901e9134c1fd10ed2edff530007984f875adf8e2c171e9 -> 3c46e9303dd5211b25bcc2834ec502019b3abade4f67c99bb4d579c3cfc1dc70
+~ -[ADBannerView .cxx_destruct] : sha256 6b734247d693e306c3a8afe7c7954f13a24a78e7156b3a43cc12b951e67721f4 -> 2c359f01510fa42d73cca2752cf01d920dd89d48545d33893dd6794ebc50995d
+~ -[ADClient(Private) segmentDataForSignedInUserWithBlock:] : sha256 35b7a7c22e42a0b1d8b25ef0d158b4c0fb4a7bc456284367aed6330b549a5b70 -> 1835820a605a36e6be5b863f50484b37a319f4e4d21f5cccc18f7832ce6299c6
+
+```

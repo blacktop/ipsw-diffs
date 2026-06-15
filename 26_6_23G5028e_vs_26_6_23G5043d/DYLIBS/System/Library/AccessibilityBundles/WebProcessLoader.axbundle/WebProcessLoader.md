@@ -1,0 +1,69 @@
+## WebProcessLoader
+
+> `/System/Library/AccessibilityBundles/WebProcessLoader.axbundle/WebProcessLoader`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x6a8 sha256:9cb3e0401ad79f024f579bf0f42247fdcb5e077c36f8c13ef0eb3d2c4f1cc42d
+-  __TEXT.__auth_stubs: 0x140 sha256:5ac831e7cc389b1829a4b3048b7d5e4329625ad652793879ff40272221401e73
+-  __TEXT.__objc_methlist: 0x38 sha256:fef55b44752ac117aa10eca1562d8f2d99b9b0a7382824b1cd9865c4c469d242
++  __TEXT.__text: 0x6a8 sha256:5c502ed29ec5b1d816747c008f873a70d8a6ac0ed2565ffd65c8529abced4dd0
++  __TEXT.__auth_stubs: 0x140 sha256:4a024fdbdf3c8b3e87e365038560cd3e90685a3ff1cea7ebbacd2a66910e0c7e
++  __TEXT.__objc_methlist: 0x38 sha256:a2ac3e2237cbeb1d64bbf140558f3e90fe86544d8c2b301c1da7adcf3db90e58
+   __TEXT.__const: 0x20 sha256:ecbe261f3a71e2c2a9611dce66025ef45ec96f0558c448ca1cb3642ff8d8eb6f
+   __TEXT.__cstring: 0x49 sha256:8cfc8346c3e8e02adc3cf13b1a68eb9f3e5acbd00a769efe6b9bd8fb18bb023e
+   __TEXT.__oslogstring: 0x9e sha256:c5f4744d56749537aeae7284ade99c8699dc6a738c15b892f952f6a9b0dd5f15
+
+   __TEXT.__objc_classname: 0x14 sha256:8afb788402e91c6b077a831ec7675f439c4557d2c40a7e74cf2e1644eb43be9b
+   __TEXT.__objc_methname: 0xe7 sha256:41d0a5823953299b23b5a7a429ec1bb6038ddc067b285abd01d7af12b9254047
+   __TEXT.__objc_methtype: 0x13 sha256:e316aeb8ddf8736602778da393fb31fd7113c8fa6dff1c2ddd2a8390f376f034
+-  __TEXT.__objc_stubs: 0x140 sha256:f7fad0384db67c4f519d280a91c52b18847bdc41285702472a66bb9125d5adf9
++  __TEXT.__objc_stubs: 0x140 sha256:be838a82fc9565e2177feb14407ec30f5700921f344a667f9ace9f5a04c01b9a
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x40 sha256:6c17cac6966a315b2a00c0c3820822e2c35a04848e233a77344b17327e76c246
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:151fa74590be7527cc923c575a8d4b9db654833ac83001afbeab159109163e7c
++  __DATA_CONST.__const: 0x40 sha256:2624caf04fca03a90a677021007e832012322a7057303ae4ac4211f0cbaaa416
++  __DATA_CONST.__objc_classlist: 0x8 sha256:6d012ad0cb5859fb28dcef993a0419a729b44ce5bd7a72b12a782ef231128523
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:a740e415956960f494294733736bcc13a374e41264e8ffbc41e902c79b2a20fe
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:dc89bc29ba09851f422fe4519fbba9f977a2a9e954559d6fbfca721edf35ce26
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__const: 0x60 sha256:a02a6a9366cf1bbf373e15f5e67df62644737f046c842b6042e69dc9def9a50b
+-  __AUTH_CONST.__cfstring: 0x60 sha256:4742c8a81a1bcce774fa44938b93849c4e7c60460e3d447d3aa2c7ce0997119d
+-  __AUTH_CONST.__objc_const: 0x90 sha256:2100687338ee13298f900139f15a0c819f767ed267c37e62333eb8c4870bb62e
++  __AUTH_CONST.__const: 0x60 sha256:8dcff932813e2a0015c9c45ff28f4ceac85f174c9516c2457c7e9854dc281b60
++  __AUTH_CONST.__cfstring: 0x60 sha256:3677e3b4b9bd3a06368940a3ba55bdf27ecda3a8c863d9ca56ffb87669538779
++  __AUTH_CONST.__objc_const: 0x90 sha256:b3919822e2e40f092233c2aeed1816f5d49434cc7e743a1e5baf8845cb08a65f
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:e3a61b669cce8ae3e9d15697d0da77443d68318868697a98bfab90ca57cb4e76
++  __DATA_DIRTY.__objc_data: 0x50 sha256:b2e6f2e21ddaa6f0a92720892635e1a6f4a3a55405b5202a3f83f7c0b53423ca
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AD8E1E49-BD2D-3BCF-B1EF-1F72CBEBF557
++  UUID: 8B003463-3483-36AD-87AF-E2CC42A33C4E
+   Functions: 15
+   Symbols:   87
+   CStrings:  25
+Functions:
+~ +[AXWebProcessLoader _axUpdated:] : sha256 0498da64b8ad3944e99574f57adbf4e085699c36faf6bc13ba47d128af4c5392 -> 71c271ece70c26ddfebb4ef259a8b02224b5ae2c113f34e72162802282f8dda4
+~ ___33+[AXWebProcessLoader _axUpdated:]_block_invoke : sha256 0161a43c3d20cda80836ea44cf09d2ea6fddb4d442b65a9115f046d8dd5ea8bc -> 3b668c7c09e013d0b374c4af30c961f4ab22e58d39f6c652e85008412c693863
+~ ___33+[AXWebProcessLoader _axUpdated:]_block_invoke.329 : sha256 83ebb1e79adfd9b316a1d088dc0ba5c6cad49fe016940d6f725cb8ab71afd1e0 -> d9f6e22753a00566625c43c1e72e71437b56ef0dfe714bf04e021dbf85d5e46d
+~ +[AXWebProcessLoader _registerForAccessibility] : sha256 a20e5257e9629f7a26abeb976cd021593a7042e1623a8c225ca577e563ad2a67 -> 419b7537a16d163ae74f2e621db3472c44808d447b4fbed444b4a6c0501bef04
+~ +[AXWebProcessLoader initialize] : sha256 7d3e278c431ddf24e6ab18a054967dacb9868e266848e85c76064d2d101d46f9 -> 5ed08e0d62fd4dc2ae9b38c152031f84db6c05cd7dad1c3ed60835a33f90d8e9
+~ ___32+[AXWebProcessLoader initialize]_block_invoke : sha256 059feb24ac7fccd9f5fb38d98aef22982b2c3ea35dcdd2a560dab9f55b02b0e3 -> daeb186f58d1cc410b485e56e61d09475d130760eec24b607c0cd8ca71d585aa
+~ +[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle] : sha256 e978c6774bf05cf8f275c21e157929b4d4345b424c21beda478fc7aedbf6c9c3 -> b7d94a88ee1db65e2b328ff71723881927ba3779832bd8ec61f99eec873b61c6
+~ ___55+[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle]_block_invoke : sha256 adfefec539b49587cd598e0d0391ed7ead3113eedc5c17b3e62343f6dce05169 -> 7a9da10beaaf4bfc3aaa5ac4131918989cafc79b9caff323990c5703f53c6661
+~ _OUTLINED_FUNCTION_1 : sha256 6b1b67b012d6266101ed1e04e1b50112ce68f6af82b8dc1d25609d465e80fc69 -> f2cebdddd31a24da1c571b040d45cb52024a69fe66c28bfaa62d0254fa697bbd
+~ _OUTLINED_FUNCTION_2 : sha256 a0c0b4fd3f9dd7205acf64917158c6acd4ca1f3295f50cfa663ca3d82c1de005 -> 9d61a28a0489c9365bdaadfbf159e65b60e3867d95b210a7f6736e543c27a092
+~ _OUTLINED_FUNCTION_3 : sha256 6777b25783272eb697b2af34f0a359b194898bc8c44eb4d65840f9a50a08b0ff -> ee4e3383670537f9b9d913ae3c0d924381d560bacc40ebfe6beca43e50f48be7
+~ ___33+[AXWebProcessLoader _axUpdated:]_block_invoke.cold.1 : sha256 7beee23675f68df5fd39637dd2e15009f3c90d3f219d334cd106d69f4a835a1d -> 6dd753b8774af6fcef579facb48ac4b9fb736b17e4c0a93139c7471b4c0e1cc9
+~ ___55+[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle]_block_invoke.cold.1 : sha256 94ed5aa9b5fab75c939a7cde8a9db3cb3528ce000167ab2f074943bd882c7eac -> 03669535f6980286d0bc7531610f2811683dbe992c726f42abc97ca2c23a9a26
+~ +[AXWebProcessLoader _accessibilityLoadWebCoreAXBundle].cold.1 : sha256 b0d3a2502bc2b28e046e5e64de709eeec343d83c6881c52679a08964f681bb93 -> ef779e5f55544d614552e4807bc1066b5964b0d29276552ecac5fef6a1a650b9
+
+```

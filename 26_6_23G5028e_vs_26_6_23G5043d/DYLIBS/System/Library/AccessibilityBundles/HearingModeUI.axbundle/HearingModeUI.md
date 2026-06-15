@@ -1,0 +1,68 @@
+## HearingModeUI
+
+> `/System/Library/AccessibilityBundles/HearingModeUI.axbundle/HearingModeUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x78c sha256:194afc5870c66fc3c1cd808e4f18b68dd763f43eabb423f9d2718169c069fa3f
+-  __TEXT.__auth_stubs: 0x150 sha256:bea74028c2abfc1d1c56a24275c6f56a74463f95067878affb45f12088dfdc65
+-  __TEXT.__objc_methlist: 0x5c sha256:9a5aa4717358690fba43026bd91474d5e5e3f623cf2f967851275cabef97929c
++  __TEXT.__text: 0x78c sha256:a29eb3d5964bd90effa5849c952708edb6547d7fd9fc4c75cc45ab0a9935f0b5
++  __TEXT.__auth_stubs: 0x150 sha256:ef6f00360f6e35d0850d6bcbcc7aa0f36a169ceea65e0447136073509084ea61
++  __TEXT.__objc_methlist: 0x5c sha256:73ad6516f188627baad26506f4f938b59cdfe0db689396df0993bdd596882bac
+   __TEXT.__cstring: 0x1a2 sha256:71ddc2830721bea0ca9973a1e1eb89210669a9aa98f573c6d68ae0e9935453ed
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x64 sha256:af15f56290d75e76d981141b5b64188fc670283265a734b1ed2e46d089969366
+-  __TEXT.__unwind_info: 0x90 sha256:fa5ba709ff09057430bf8d18c54c607687c5cb2b3e5faec1062b1b3a9a9cbc9f
++  __TEXT.__unwind_info: 0x90 sha256:4b812d8b193fdcaecf655304fd09d68da89bb7c558482b6e1e86d62603855e57
+   __TEXT.__objc_classname: 0x71 sha256:6c6c46c350402afa8c653ce44b3465f48f3aa4f34b72e802cbb3a9abcb454aa1
+   __TEXT.__objc_methname: 0x236 sha256:be203e4b09c096432bc636df8740cbf846b2f9d6e3db3959ce37c59b8bea12ab
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x1e0 sha256:ba0b6b1c81563beb1f3c4ddf098a0e7126c69d0f3ecd0c4746b0e771fcea1e54
+-  __DATA_CONST.__got: 0x28 sha256:33aed5e760c05bd95fb3e57649ad857132fa64d0658d68a49502aa48c7ee1ab2
+-  __DATA_CONST.__const: 0x68 sha256:a8b3b963bc5112d2fd3459e7c62eeaa8fa5e5b27171648c959825a7a0f6ac3f9
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:4fd00581a3ed4900980673a99b6c0dae14317be502ab43562fa2eace84084329
++  __TEXT.__objc_stubs: 0x1e0 sha256:a78aedd7bab5996f6f811d6482ed6b57b7d7b14c9f219cac95e3c308d1e13666
++  __DATA_CONST.__got: 0x28 sha256:f0f1d25ca314fa94cf4eff31f125ca71ea246a5421d24de708edb5476fd8151a
++  __DATA_CONST.__const: 0x68 sha256:2832fd8843ebb9f0f8280f2dc109c3e0dd0b2591f26a20a72eb9d3f4f462205b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:7fa875833247224f27cc5161129a10801b04885c2989e3a12d4a3447f4b3c06d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:6c5b94878576c3056019e556d92b91a48367acd30ca7f646277217fcd0f41180
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:01339e80aec32689053a38d575fb060b89563c133f7b466aa3390f64b58c032f
++  __DATA_CONST.__objc_selrefs: 0xa0 sha256:020159bfe46fb8f4315b62cb6e470990034162963e37cf11268489b2a4037ee2
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:473a0f4c6ba95e3efcd48dd208d227c58e8d6bf8a0e26207fe6d9c1384faee57
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__const: 0x60 sha256:9ea54fb9b710d285d8ac42d67d2a9fbb812abd03ba97f28f32d3cd4f83ffd5da
+-  __AUTH_CONST.__cfstring: 0x1c0 sha256:d18ad391c5786a9419b7adf92723a15cdd904f33f71fb9ddc6f0c735d8fae692
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:d9a68f9402d2d2a74fddffea8d2ad88419ab6545c1606e50a91b83396cb005fa
+-  __AUTH.__objc_data: 0xf0 sha256:962ecbcef7213d655f5bc3a53cfcdcd1aa31ea090ccf6f716608f5d7de2936ff
++  __AUTH_CONST.__const: 0x60 sha256:188d22cfbdf4b8dbc75f5718ac8512529ff0043759db36e0be80f85dff69fb80
++  __AUTH_CONST.__cfstring: 0x1c0 sha256:5a98968542e7b1edb92ec7e9b6b8de4670d24fe11594df22cb62cb9d665e1e74
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:6e0d1aaa912ee8650aee57e9ebe7ecc1d03bae5fa423e3f8a00bcf645a420cff
++  __AUTH.__objc_data: 0xf0 sha256:b8b4eb80928d10928a612c3cb3bddee4faeca0f137cc953331780b4dfd48fd1a
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F0FDBE78-3412-3E25-B6FF-55455FEE0767
++  UUID: A8AC741F-F90A-346F-8BAC-E7A3622BC10C
+   Functions: 11
+   Symbols:   93
+   CStrings:  58
+Functions:
+~ +[AXHearingModeUIGlue accessibilityInitializeBundle] : sha256 edd92d4a4afffa71782efdc48bb74f649d331319a7bf1a154cc5a8c9c89d089b -> 1dad32da736ac5815b910c17ed9fd37b6f5057485433512858bf3cea26c0a342
+~ ___52+[AXHearingModeUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 885650fb3af86711e418e0ca83e7cad65e65662ca1a33dd706606742ec8d800f -> 8c26d0541319156c06cdafc7f6762db0c067c7a200a8bcd900d139c683fda72f
+~ ___52+[AXHearingModeUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c55b24285ed0bf7b41c7d6e0d724eb504c764b3ab6a293b1c06ea7742afdfe60 -> 20053789a013484e1d8b315f6664f702e20d4de90bbc3a8592a7fbf1ff075714
+~ _accessibilityLocalizedString : sha256 1a28eafd0f2439fe8226538f2fee2af093fa34e76547f696d79caa271788f265 -> c832769aad08d7106d5a684c208e692fb74a7849787ded1e597c924f7f210045
+~ +[HMFitNoiseCheckTopViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 707a27e78570eef2351b308836138653e56f81caca59db0b2fdbffec815f0d49 -> 9635ce959927c88b49d344c0e6be0645d8ff58c7c44b44ced9e6a4c4a5f5927b
+~ +[HMFitNoiseCheckTopViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b4cbf13761143a102e2083931b1d57c4ecbc0be3f4f06672a1f1194e05261910 -> 338fb9627e5fa49484ac54acb323ee350003ffd117317816cce26deb71641447
+~ +[HMFitNoiseCheckTopViewAccessibility _accessibilityPerformValidations:] : sha256 9e1cc40099c5971f420b5e5cea6907ca0a5d8fa1fc2d6ffbcd3ae8199b842075 -> 956f463da60eacd1896b1719c767a43ce1e65e63256ce313a94123e061c50f48
+~ -[HMFitNoiseCheckTopViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 f73cd1d565f465426723e2980cc7537f8342056718e90923148d757c437bce36 -> 71485bad96bc088c547ec38519b10179c3281e346192c456cf650cb65447ba1e
+~ ___81-[HMFitNoiseCheckTopViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 4688db617e8a320a2c615b38b83d31d0bceb218133bb692bc18d1c809c4cd25c -> 1559e8ce426f4e87f07771c7eeb53c859f9b724a10c3911d3b5a246ff0a93737
+~ ___81-[HMFitNoiseCheckTopViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2 : sha256 07a9a0db1c7b0b043bfa9af3ffa70a1e85d5a404ea153a10f6ef832ad6470a9f -> 856d61261609c95f4687a0877af11591b7f4e591841e06d247bd44119304c9a1
+
+```

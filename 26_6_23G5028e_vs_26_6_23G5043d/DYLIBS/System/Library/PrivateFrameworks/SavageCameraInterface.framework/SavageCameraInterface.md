@@ -1,0 +1,52 @@
+## SavageCameraInterface
+
+> `/System/Library/PrivateFrameworks/SavageCameraInterface.framework/SavageCameraInterface`
+
+```diff
+
+ 10.53.1.0.0
+-  __TEXT.__text: 0x1e3c sha256:4f15739eeaf9d64102779c9da0f379a9801b4ff7fd9a7b7342c96146a08c6e87
+-  __TEXT.__auth_stubs: 0x260 sha256:3a5b5f264c77a7c7ee3bd93b411bb73e8bfcd478d8a92e3d2037180d6a61df39
++  __TEXT.__text: 0x1e3c sha256:342c96ed31a2e10d5477c607711669be1792d757377e39f7e8f95fa0706f2fbe
++  __TEXT.__auth_stubs: 0x260 sha256:35196ea760f47420e944cded304b3745bc8468d26e4fd0894818c57c215a37d4
+   __TEXT.__const: 0x84 sha256:eaa044a4cb323e77c36eeb8468575367790398505e8a555e93d01e018379cdf9
+   __TEXT.__gcc_except_tab: 0xd4 sha256:c7ac3dd9165160cc4283dee8db86394c7d59ef85f90aeaace04c7b98b62793a7
+   __TEXT.__cstring: 0x4cc sha256:587f712cfcefe23e4f06d186c94ebb3f96a91dc96fe1212301ce2a8270d2b11b
+   __TEXT.__oslogstring: 0x322 sha256:13ff2ff53d77aca70622182868568ccc15603c13550dcdf0dfb2de58cbd088f0
+-  __TEXT.__unwind_info: 0xe0 sha256:1debdc4159239e77540c88ae86c7e08ec6705daf6bb7d878af61608946e36afa
++  __TEXT.__unwind_info: 0xe0 sha256:ad6ec5b64b8f538e7d5deda9140710418d7fc510c08890fb14763b05a76db0fb
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__const: 0x78 sha256:a6fb408b947577b996b390ccb7c16308dc4207f1d44017a87fc236e91c4c987b
++  __DATA_CONST.__const: 0x78 sha256:284858351f7d3f00e5fb783c1f5bc9bc4525b9ba66eecc7bac86a4b74f584ab0
+   __AUTH_CONST.__auth_got: 0x138 sha256:93211d39970db6627fbeb360c10367f5aa245d32a95ab97345f17b73730ac999
+-  __AUTH_CONST.__const: 0x20 sha256:8edc50dfad9d4a373638ea6ed3dbf50b0e5502f67016e9c4b2b978af277ea039
+-  __AUTH_CONST.__cfstring: 0x20 sha256:e3899be7a8fe2c95962823e7059887ef92da99d33096a80cb0370c5d505cb868
++  __AUTH_CONST.__const: 0x20 sha256:b53d117e056229641868278efa6e350de243fd4924d8b4157907ca8131ece6f0
++  __AUTH_CONST.__cfstring: 0x20 sha256:f07d96ae9d0e18ae169d385815cecd0318ca79b38c007799bb44e4d7b3569d31
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: F8842665-EC69-3470-B40A-6A291BFAE783
++  UUID: FDD4A252-CC55-3E2F-A96A-472FCFCD3604
+   Functions: 17
+   Symbols:   86
+   CStrings:  63
+Functions:
+~ __Z7connectP13xpcConnectionPKc11framework_t : sha256 e63270dbba51611dd0d11f981b66e4869c3b15c5143890e7a95bb55f721e449c -> 06be835eaa37da4b909a308cd6ceff73be3995653c2303cdea249a8ccedf95e1
+~ __Z10disconnectR13xpcConnection : sha256 ccc82bb520f4434cef939f06fe26f95c1da284541139cc3e9e9ab90b59fa0003 -> ccd4a139252fc03e71f23814b547d27fd3bc0786a4ee7ab9d22ff6a5fe03c1d3
+~ __Z30sendSynchronousXpcMsgWithReplyP13xpcConnection25ISPServicesRemoteProperty29ISPServicesRemotePropertyTypeP28ISPServicesRemotePropertySet : sha256 dd6a99079ee1f775a5c60f177c47fa7038cfbdcb4fe4cac0b34c4b0c7cd9d62c -> 53544a48274c5a2dbe1d2fd0d28558b7ee664a407c04d81a5f4016de6ff14f4b
+~ _SavageCamInterfaceOpen : sha256 60ac6d6a6a6e16f2bc119db01b9a653035f99b32811233c01a3dda5811a4ce3d -> e42e526eb20327e011c0d8cfd5c3af7a0ebd073b22f59d7103ef621f316af264
+~ ___SavageCamInterfaceOpen_block_invoke : sha256 a6fa2b1ef643be7755fd4347afe9e068278e3fa54396ef21fa4d48212cddd0f0 -> c9e47cdf5839cbc929aa41a25b9292ee3e0336a29972c2b91ed04c25a926341d
+~ _SavageCamInterfaceClose : sha256 63a98ca0f4e5997b4bbbd468ffa0e96995278101fa4a8f5822675d8fa5d2578d -> d6c87bdeffabc6429c2c4f29ac0d9a55fc624acd931b312f1d0e22997253714b
+~ _SavageCamInterfaceGetSensorInfo : sha256 2df782e616e6e37c4a8c06f4e0ce143404665cd1f42619449e2ad3e66cd10a5f -> 1330a76f3b9ac0aee4433120a742ab2919a84b8566835103575cb7abf1757136
+~ _SavageCamInterfaceSensorPrePersonalize : sha256 c18378bb544fa15a8cbc4228c341abcfcb2cf9d0d6e3b71af3fe38efa807e8f3 -> 018dfb7506b9514f19c5880795673b7a0b99a4f61655c29f1b188451c6290977
+~ _SavageCamInterfaceSensorPreFusing : sha256 f464a7d92fb533886ad890067cb33e3280e13bbce97f1f0be87494ed4f824175 -> 9240b3f0dd60781cf077099e9593c3691ea1d62552000b5163f5c2b808681531
+~ _SavageCamInterfaceSensorFusing : sha256 9acc7309431137175162d44a6270a9fa88e5e5ff24e6433fe6d9197e82a241d5 -> 93e6c8695e253c021bb4875c029964c52228736ff6f47a2a5107245a46138406
+~ _SavageCamInterfaceSensorAuth : sha256 a5f76797f8c84aa9c1c6882f55726d1b6de58001f6e71fb19dadf7a6f97b608c -> 6d054f5b497b83806af6f3f6558406bc23e36896e3ac94841586bdaf6a75ad51
+~ _SavageCamInterfaceForgetISPFirmware : sha256 4cf44a36afeab92a8365d81803e2a1c2282aa4776b03ae7684dead24e0a98609 -> d23cdbd4b1657a7c5583ce75f0db833cf82b08123ba13832981a2c9ede963d89
+~ _SavageCamInterfaceColdBootPowerCycle : sha256 aada97fcbaf89c766bbffb2995ffaa1112dc32e94fb14d0b12b815064e698f8d -> 17559021b09913f29411926539e86a60f527998bd35d920abb19d91bbd2a01ad
+~ _SavageCamInterfacePublishToRegistry : sha256 4e7ebb130c10dd58721839d8cb2764162356a125d604588c79ab68f93fe5082b -> 96d89219e9ea161f9b12d133ff0b32cc6e1b536cdd2246b8746fdec67a1154a1
+~ __ZL12getPtrForRefPKv : sha256 86b2fa1bc950f23f497a0b207073306e31a0f52d656c16f74ab39a708cb7bc94 -> 88ad94d915bb690aefb161854a8695c0fc84ff5429a2adc88507c3fe916ffcfa
+
+```

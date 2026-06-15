@@ -1,0 +1,68 @@
+## CompassViewCalibrationService
+
+> `/System/Library/AccessibilityBundles/CompassViewCalibrationService.axbundle/CompassViewCalibrationService`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x3c0 sha256:5660613998c84bfc9ea02dee023fe0aef5ca0cf6a505f247b83457c236208e15
+-  __TEXT.__auth_stubs: 0xd0 sha256:d4a562d63591f713f4b1f7d78546a7d2561a9ff0f4570c16b7e4897379f381de
+-  __TEXT.__objc_methlist: 0xa4 sha256:3ba0b22773cf732b11782e93a2e8465cd6299bfe43b2e946b0f3e1790f1c55ef
++  __TEXT.__text: 0x3c0 sha256:80a65020ce5c1358d3fbd81503e30296e10c87ffb303e2d02b3ca092508b0c0f
++  __TEXT.__auth_stubs: 0xd0 sha256:0ef19b5ac1daec6062aa32862647286d9ff1f8967ebf8968ea3b6a16976439b0
++  __TEXT.__objc_methlist: 0xa4 sha256:36b9876ac7d01f48be557f32f1dd049bf5f03d9f00bf51d8ef761b64feeeb3d4
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x143 sha256:b1516a7f52c09d09d7adf01e0cbc5a1f4baac36df6c6a4e30bc06655cba4ce49
+   __TEXT.__unwind_info: 0x78 sha256:05b99ea6936ebe794f7fbb9861680b747db0dcbc941151a9641a0a025e5a1504
+   __TEXT.__objc_classname: 0xeb sha256:9295cfad16b5eeb6fd72af44b36d60d1744584a2fdf3ad9f20f3f6c85c917734
+   __TEXT.__objc_methname: 0x1e8 sha256:2c9e1f8e446ece2e048973ac36bbd88bcad620d09d2d2f34b0c2e8467b24688e
+   __TEXT.__objc_methtype: 0x2e sha256:6039feeb81e3f4155f7fa89458b6a4f8f7a5fa2400295cda0fd9a0d49f08c2d4
+-  __TEXT.__objc_stubs: 0x140 sha256:77873a59f3cca3dbb54ee15df5411ec2f17dd6ba87b369ad7b81ae9e4da5147c
+-  __DATA_CONST.__got: 0x30 sha256:c61b6840e7618a39509be0b9f7c3a4e670b12144b22c96c1798bb759deb9e6cb
+-  __DATA_CONST.__const: 0x68 sha256:37140d2d411f0f031a927caa4596be1180a4b3676001cf8dcfc0ac02f98a5030
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:cfd041c5eacaa7371a83dae90a9cc136e3144c05b630af24ff64ef1582d70083
++  __TEXT.__objc_stubs: 0x140 sha256:ef4aba3b41ed1642acf206ec0cd66def59b3360c4b1d4b7cb35f4e22677726a5
++  __DATA_CONST.__got: 0x30 sha256:31a94473503ae96ef522b7aaf54bed1b002f234b17870d951cd0e85b0a1dd047
++  __DATA_CONST.__const: 0x68 sha256:963018a4d0a522e0a8cc1cbf43d4cc02e94563e9d00e9b8d01cb8d14c2f6aad8
++  __DATA_CONST.__objc_classlist: 0x28 sha256:dfbfb044bff913f7bedc39e204ae0889490dd45dd5ecae01e9c2345a4f88d6ec
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:76f6ca6075b2892c12ead0e8f521a04123695f2bfb28699983a65100716dce03
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:7ca1caa44f8af481cc6f7721c2051e65ebb05a8102fedd1fba560477a434cacd
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:c9c797ca5551ac2e473bdca61d38230461d3a14c2aaa19b27913039222863ae5
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:faa3b670739c5bdad93796a5188180fdacf17f229f66f8551d91b9efbfbbfb57
+   __AUTH_CONST.__auth_got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __AUTH_CONST.__const: 0x60 sha256:18346281f9fd08efe504b0ee0c791ac8851ca8631ee424d88cb03bb429ccd94f
+-  __AUTH_CONST.__cfstring: 0x120 sha256:4a22afd3a91a5168459d3d9ba6c3b9d0cc86fc3486cb6c737d2030181e6b1eb5
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:d970788bee1da7a85f1504893fadc6a7935aa3257955a493125430ade1419dbd
+-  __AUTH.__objc_data: 0x190 sha256:23805126e1ddda30f39d32fd192f4b5c4a29b8df6a5d889ee4d248302ad5a019
++  __AUTH_CONST.__const: 0x60 sha256:21e860685bde2fdd74553965dc54141a3c5d76f5e10cc43d4cf27ae6422cf84b
++  __AUTH_CONST.__cfstring: 0x120 sha256:7d2ea429bbdb4b84de8e9bb41ad75e582d40e5a79ae1830d7cc86e522b208b3d
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:1282a81cdcee68b618f0cf67e90e0d508ebcb09f27bb0710ce96726a35b74841
++  __AUTH.__objc_data: 0x190 sha256:0b7d4f25bf6848272e6c0451acaf0cb7e6f9d386c5d8a6282d89e8c9b2e91061
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D09FEEBD-6E7B-3540-A85A-4C6E796A4D17
++  UUID: 6DE2B1C2-FBCD-31F6-B7C5-88A5124A1373
+   Functions: 13
+   Symbols:   93
+   CStrings:  51
+Functions:
+~ +[CalibrationViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e32d378724023b27072053be289eeb9a6a1c2e3e07d65701bc874f626bf2859c -> 8f7bcb1b46891983874933881453ec2e9935378381769131d1e2ffd1f4453836
+~ +[CalibrationViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9aa11c05f2227585e21914234309141a1cf5783cf61ea92adc01bec2b9213c29 -> 2d638bdd2f0e2e395bc2c1501c4b2f0acc6eb7f64b32e13004a4720baa49815e
+~ +[CalibrationViewControllerAccessibility _accessibilityPerformValidations:] : sha256 ecdfa8ec326392416e6b0e6d8a3bd10f2e8bfb43c40f991b732a2bed9516fbac -> 3bcadbed5c3a77e08269e8877fc68acfcca6f8b7e60ce1d390c34c8a77c155dc
+~ -[CalibrationViewControllerAccessibility viewDidLoad] : sha256 fd78fd808afa23ab8c34e65e5e44bde9575c5ee094581470d200081ab83282a9 -> 3a29b815828fc14270ee3cc7ea919b3fd303cdc24bb088780eef8a048548549e
+~ ___53-[CalibrationViewControllerAccessibility viewDidLoad]_block_invoke : sha256 b21bb3b0a6465d26f8b672c33b724db6d6da506d54790bcf1821fdd098ca03dc -> c0277fb5105297897dbcd9d22cb990684327fd68bab8fa9b096f1cb41a326b23
+~ +[CalibrationViewServiceControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a6a5db5edb16ccbaa3c9ccd0083a795048bebafda08df7c21bb8914b5ee37b69 -> 3cdbd8fea587a819adb29308b5ea932be272046dacc2dbd031a2910334abbc06
+~ +[CalibrationViewServiceControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0a52cc450641f1f1af6256b05dbb3e2e109d55e444d77a2b8fd74d218eec1361 -> 18211c9b697855860b06351f9dd5fdc326fa01bad8be4985f3bd10458b99384b
+~ +[CalibrationViewServiceControllerAccessibility _accessibilityPerformValidations:] : sha256 064b189b0d7745b3fef511eeeb0262dfae395c4319dc6992236df4674d23eebd -> 9650d864b73d945889135d613170971fcbdf04c64c5373f9b5360f5d052bb66e
+~ -[CalibrationViewServiceControllerAccessibility viewDidAppear:] : sha256 af611f432e0d59cd91172e02745e875f3e435dd038fb78fbd8dabacc7b9aeba9 -> c33ae14895e903be58d6cf9c2d05aa28925c9f0f858907961930de1a4038cd0e
+~ +[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle] : sha256 579154c9dba890fb47e6db53060f7b7d11c957692018e4cece3955d268000a21 -> f6293e455f13e64d6b8e9b9e5d5bedc74b34eb6c3e590f65e736fea01e922841
+~ ___68+[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 ddc3c6b416a0ee39e81436885715b8de9a4d0cdd04e909e6c5f7d1eeaee0e438 -> db19d107e3ac924c668b2ecf2bdd0c05c21aca8fdb53e2dc0f8d8190e7250f03
+~ ___68+[AXCompassViewCalibrationServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 98557909bc474ffaf696be6da3052f987d5fbc4ed0a30fe4756501b81fb8fec7 -> da66f4788ca9c9a428bbf1bf91ec8d7718887c953b671ca5ed57f183fecb20e9
+
+```

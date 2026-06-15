@@ -1,0 +1,34 @@
+## libBasebandSharedServices.dylib
+
+> `/usr/lib/libBasebandSharedServices.dylib`
+
+```diff
+
+-1418.1.0.0.0
+-  __TEXT.__text: 0x3ec sha256:122c10aabfab28cdff9245f9b657f4fde98690572890484c1c8ad2aa9046e2a8
+-  __TEXT.__auth_stubs: 0x40 sha256:2f38fce3a7d16e61421019b9b4eabbec2db7565f75cf37bd17d559332786b317
++1419.0.0.0.0
++  __TEXT.__text: 0x3ec sha256:4ed2618fa5b0ac067d610255fb021f36626d96267bb268b25c9489762cc8e9d5
++  __TEXT.__auth_stubs: 0x40 sha256:149b327da585f25c86b698b7b8014380a48bc5b3275ee7e7566b17270a9e444e
+   __TEXT.__const: 0x78 sha256:fcbdf691e3d7f7416af2119057f108fe243d0983613acf38be71d9f20c1e6655
+   __TEXT.__unwind_info: 0x70 sha256:d3a4f355b5ba9b049a0486004d34838302d3d53de9127eaa23e31555eee33379
+   __AUTH_CONST.__auth_got: 0x20 sha256:0fda3e90147ab064adb3ee0b7c22922c863640a2cf242d28bc6f0a00f4539497
+-  __AUTH_CONST.__const: 0xd0 sha256:c61ce1c9de12ee95507c681f2082a8d1f1a1c1e4a555468a07d07f1945fa6d6f
++  __AUTH_CONST.__const: 0xd0 sha256:45db9723bacfe2e61216cb157867d2568e7d37f6b59b21a2807c36926b45383f
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 14FE7C0B-3DEF-3905-9423-DFC8C03EADD1
++  UUID: F71C7A4C-7AC7-30BD-8E9C-C4B97DE0628E
+   Functions: 16
+   Symbols:   39
+   CStrings:  0
+Functions:
+~ __ZN7FactoryC2Ev : sha256 9f6a0c387cd841c94ccc81bd6eef4a242b2ea0ad30a6e2c005f6441ea543c3f9 -> 5a1500ea5f1454028d05300e8394cf250e9e3bac9ac965e1a7b39e1741fab457
+~ __ZN7FactoryD2Ev : sha256 de5057a4f108b52725a37433ffe76e23e47b221800a26f8166c6c5a768981659 -> 60b9e18fd003f05320d6550fe99fe3d95068195de84641b21e7f27ce25eac963
+~ __ZN8RegistryC2Ev : sha256 17f17c78d14268a8316c9c04d759b641fe0583db3dbaa11a31cd435817654349 -> 4ae0a1630c1303413daebbb2ab05e58fab7fbfd176f560535b79b6ce86051823
+~ __ZN8RegistryC1Ev : sha256 94c33af754b86ac9787cb31f77459408722b5de60da1430827118b169a0f2dc8 -> 80dd8485abb6af41252d13ce89c53f2d9ac0a5a73a776183f5a12619beda4f16
+~ __ZNSt3__120__shared_ptr_emplaceI13RegistryModelNS_9allocatorIS1_EEED1Ev : sha256 ed9beb5aa5c03e91055be0345ba4c9582c64c03f761d4d6186034168de8ba825 -> 51fbf5e61179bff0023011d85d4787b17e3ed6d145b48062317e6ed92ec5830e
+~ __ZNSt3__120__shared_ptr_emplaceI13RegistryModelNS_9allocatorIS1_EEED0Ev : sha256 7320f9d3f5d11d4fc4cd2a333c356badf72082cd0a489ea123dade5c205ca783 -> 0655d5f0221da7e790e39c9357bb9e3a221622a547594cf5da717ccf6dc57d54
+~ __ZNSt3__120__shared_ptr_emplaceI13RegistryModelNS_9allocatorIS1_EEE16__on_zero_sharedEv : sha256 764a9da5eeedf8559f1923fb107486bd95860e60998254cdeae4dd35b15d36f7 -> fc4b08f1fadf6802332a7b775284727382658a9c68a824be57f3e34867f1e426
+
+```

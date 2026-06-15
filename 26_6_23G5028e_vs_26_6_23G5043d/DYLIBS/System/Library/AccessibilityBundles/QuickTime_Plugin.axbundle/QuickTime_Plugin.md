@@ -1,0 +1,65 @@
+## QuickTime Plugin
+
+> `/System/Library/AccessibilityBundles/QuickTime Plugin.axbundle/QuickTime Plugin`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x390 sha256:e81c23b0fcb4a34f979dd144c4437c7e58bab2941a9ad3297b7bf03bc99e0fb7
+-  __TEXT.__auth_stubs: 0xc0 sha256:19ff375664de73c8904cc1dbfa0d4f5391ed5a8b7c5cb71e169fc33bbc799ccd
+-  __TEXT.__objc_methlist: 0x78 sha256:06065a34b594297d3728ea1144779eecf4c7737941383efe8ba64293abc5810c
++  __TEXT.__text: 0x390 sha256:5203db14964eb3bcb19aa5039815085d73bfb3c424a41d377baf2b4a7291f0f8
++  __TEXT.__auth_stubs: 0xc0 sha256:d51bdde8de309a3f9757e6f9e36781ed46f8b3e2592be1537881edd0f7833ffa
++  __TEXT.__objc_methlist: 0x78 sha256:7869c20e37ebf5ffe1d914760c546aed18e8d6a48c6a059e5d5b10dbe6e81813
+   __TEXT.__cstring: 0x124 sha256:9f06a328199ba5b204ab83227bce3fae43dd187b74e5ba52e05936c0c5267757
+   __TEXT.__unwind_info: 0x70 sha256:49d13b6e09e60f5a889f58084b3d0f086b9c60faa81e1029f0effbcd7dcffc6e
+   __TEXT.__objc_classname: 0x61 sha256:fef21e7cbfc18299d29c558e72a6752d7503410f48eb431f88a0502d8f9cc677
+   __TEXT.__objc_methname: 0x269 sha256:d77a40f0d57f5d08af336cfc3910ccff1ae6428085480d941d59f96182879c2d
+   __TEXT.__objc_methtype: 0x33 sha256:d1eb9812350e65f34e36d8c14867018f35970aacf27664bb3e83cfa1ea46bdd8
+-  __TEXT.__objc_stubs: 0x1c0 sha256:81e0c62bd4b8d5010f896d8020e774e7f80b9a8db7d5e11d1ebbbe9203858702
+-  __DATA_CONST.__got: 0x38 sha256:d785dd569ddb5de36bd82e56ac8ce985092ceee7e73346d04cc47ab028224328
+-  __DATA_CONST.__const: 0x40 sha256:c70e99a7eb3615e64b21d84d30002e31d0ab91c568f9b069ecf9690368fb0408
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:ac3d241e31170c9475c92b945aeb5ae8b5d2ced20d657b654d93fc1ba94966b7
++  __TEXT.__objc_stubs: 0x1c0 sha256:191860a81af252573080a09615c229933426fe01d763f72df232764fa7772efa
++  __DATA_CONST.__got: 0x38 sha256:01abb350fd4fb5a805ac76c71794475aae84bd623744f4f04adbae5d5f8e91f7
++  __DATA_CONST.__const: 0x40 sha256:e3cc490252954bae680278371518a755692fe5f49eecd6fa80334702d0c356bf
++  __DATA_CONST.__objc_classlist: 0x18 sha256:1273ae4a878333cadca4079cb5d75cbdaa6eb294654f3eecf8cb38e37d3935c2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:36de38ed42ba3527222778fac86ab476088bd9c02e5804f1b6c9f6e976cd308d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:948fc55cbf9ea92175f4c6557cebf7d29b4e0780b3376f9fc961b492ce8ca378
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:787e69d736150862f2b627dd23ce5bb3b8c1ae4c44f2ece8a1982429f070a00f
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ee4c2e0096dfea9b844a0711e67de4247d82fd551a62d881e4dbaf9a2f6f1a59
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x60 sha256:1740fcc34453eb6c2b1cf9644cf1c3dc367d5b7d68ff5ab8b47bd2040f1065d1
+-  __AUTH_CONST.__cfstring: 0x160 sha256:bba4bd26a6a2ab909a30006d6d43b8127b85406fcb3ab3e5e924076a8b641515
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:c150bd57018f0daf5c4f0299184037dd11f910d79a6ed16c8a07dc4f74ea7cbc
+-  __AUTH.__objc_data: 0xf0 sha256:320bde7c1bf1299e28b7747ea87f62b27cf7372a67edec4f7cea985458a46cba
++  __AUTH_CONST.__const: 0x60 sha256:642dfe81c3b91b3a4ac7fb4c3f2b51cd9ba01d664c15992e575ddc55bef4ad70
++  __AUTH_CONST.__cfstring: 0x160 sha256:d928c6534e224cc699a8f46a97c03f85db89ad4c5d39d3e756ebca3377788366
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:7aa77fdc5ff60d670057c77e7ea92102734aba3262b67fb75a6c3c50383293d7
++  __AUTH.__objc_data: 0xf0 sha256:d6633f5d88d952cbe194138f386ba6d0ac6f795196b63b3385420cf2a5517239
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 59D230EB-AAF5-3051-BEF3-6D421B1D670C
++  UUID: B78DD1EE-039D-3034-A24D-15EE67B5EC25
+   Functions: 12
+   Symbols:   84
+   CStrings:  59
+Functions:
+~ _accessibilityLocalizedString : sha256 1e577485342cd6f8fc509c1de669d23846cc63382c619cf5047708d04f29d143 -> 141aa2caf02932485c7031e69d12723a7836c711cf2a83c6750584e1af4afd84
+~ +[AXQuicktimePluginGlue accessibilityInitializeBundle] : sha256 d56102d897b190e20234e7400f1f33868e04bd95b83dd1c766380dfd79046945 -> 9fb5dd6e6f79961cc767a55b70acf230fd299af3ccde626089a36e2a539027bc
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke : sha256 e23b742248bc1678aa9d6e3aeabde9afcfab31d96080a28c5ca27bc173ca6fbe -> 1fc0fc9d130d1b7d5c616cbaa7c9eee12f0ed76432bddc4773242f5be1e4340d
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 1c973524745458b3ba098bb325965fee013b94332cae6d4d2a302908a5246a71 -> 685506c32860f718eab3775e1f0e064cd0a712f3222b6fa27dca5c76670f4e81
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 bc2ed329c744330cd35fc44cb18d6e4197612ad7078d5c448cf34ef985be1aa0 -> cc52b02d20a9a468ecdd46f2023a86a26164e1fa96d66f2c510fae98e4c66ace
+~ +[FigPluginViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 54e9354349887e6e8a0cd9b25f22210f605ea3b05663cc8b80bea875debdab5c -> 7959694541977dee2b1477baf78b56f349f4077d586324911748be1ba8866342
+~ +[FigPluginViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f1339b02a59d6afb585d9c8d0b6fa62abc1e7db2afb32fb631ace6006eddde4f -> bc0829eb24d1add921d52ae51999e343cd3f4fbfa63db1930b984a1fe253cdb3
+~ -[FigPluginViewAccessibility setAllowPlayback:] : sha256 591799db4019ee6c74c162e26a82008bb08664211226b290451428fb93729bfe -> 7960a9b4c4f573577c250ee40fb6f54c148f2002bc352a5668c939cca0452c4f
+~ -[FigPluginViewAccessibility webPlugInStart] : sha256 6b0b949c05173f2de479d4daaec7b33582c72b4177fe274942ecfc7abbd48f80 -> 8aa628be05053bcde3f545a1756e3862dd9461f2f7ba86c19e13cbd3406996b3
+~ -[FigPluginViewAccessibility accessibilityTraits] : sha256 80d73b9d6a33ccb28fe5dee55b065ebb10001e6eff8cc3f6374aed27b2bf0d67 -> aef476046a59ebff26a6b95d99905682e13ec0f03843e073a8967b6a847ed73a
+
+```

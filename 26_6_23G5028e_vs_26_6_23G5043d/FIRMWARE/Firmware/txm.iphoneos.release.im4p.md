@@ -1,0 +1,52 @@
+## txm.iphoneos.release.im4p
+
+> `Firmware/txm.iphoneos.release.im4p`
+
+```diff
+
+ 187.120.2.0.0
+-  __TEXT.__cstring: 0x5b1b sha256:5e07c9af41c8ef9e8b5e82a6d7d24da3b0dc74855c4a41f7167ba4333b5fed43
++  __TEXT.__cstring: 0x5b17 sha256:baf8c297a080776cc54aa38e23cb85d40d09e954940418768b8d0e38415f75c2
+   __TEXT.__const: 0x6078 sha256:41c78f92d748128c6326e0f4ef279f649fe7d39c05524887163f551cc77dae55
+   __TEXT.__binname: 0x40 sha256:1cb03700a04ce588bef7d4cb562d64761cec442a92f72f22455d5101c4deb9cb
+   __TEXT.__chain_starts: 0x20 sha256:a9c63444d038ecc9f8c48f3719c4b5a661750a96515b588168ee3b73ec98d8c6
+-  __DATA_CONST.__const: 0xaf78 sha256:7a5b3b3f91a97c69b87b19f9f3fc7367e5966ad1694a8a91af79304c54d3c5f3
++  __DATA_CONST.__const: 0xaf78 sha256:0e71aadedeb29ffe1e7708e4b1904eb0f2be2856b68fcfcaaa5349aa0acdbe28
+   __DATA_CONST.__auth_ptr: 0x58 sha256:782cda0ce3a6a70e5da959b5504a63ac8a01957db53c86d9a99e5ec80378b3e4
+-  __TEXT_EXEC.__text: 0x3f508 sha256:91c63627244c688c7ccce2ce201a0e38844bb2a437cc187faead38ad7448ce91
++  __TEXT_EXEC.__text: 0x3f508 sha256:426e5a162b8af5a25f8bfea36e1a4e06f2e176001f8876f6f01afe3d3564f199
+   __TEXT_BOOT_EXEC.__bootcode: 0x14 sha256:658a5925d18b1236ac5a72ee35f273d59bd192431fff9997a152f4a138ea13b8
+   __TEXT_BOOT_EXEC.__text: 0x4058 sha256:e2a97360511f02775e8bbd21e5be01654030a8a1b3918e7eece21596e7a12d32
+-  __DATA.__data: 0x4c0 sha256:a7652c37a30f818047ffaa0b27bb2ccc1a437d1ec5ff26f006785509acba8bbb
++  __DATA.__data: 0x4c0 sha256:06ecd67a95d239eadfb0c0923a237c58cd8205a50b812cb75bfb4b1ca5508d04
+   __DATA.__common: 0xad0 sha256:ec5e098511f8ba7b974422f9bfa76e3f1fe350ccb70401174671c5eb5e50b74e
+   __DATA.__bss: 0x590 sha256:5e796fbf009f80334fea0839be003bfbcc320f4dcacdfa2f53c6ca00c7d99e8c
+-  UUID: DBC4B114-7B4D-3B11-9E59-E06849AD8468
++  UUID: 9A4542BE-615A-3B73-8C19-CAFE76F495F5
+   Functions: 932
+   Symbols:   1
+   CStrings:  740
+Functions:
+~ sub_fffffff01705a808 : sha256 e3775bfd987146a13efd8c4b53c7ebb14e5dcdd88fbf8983e1da04b44dbbf7a3 -> 4b29362b9568780af515a8568fbecfa34fd7f6d249941c913d62b7d2559da5d7
+~ sub_fffffff01705a91c : sha256 8023587933d240a1761c3a0151e24856ad09d72df95823fd6e6237ddaf4f4450 -> f1759f535913497cf13531830a15feab371b300f19c99d628fa04840cf54f1d5
+~ sub_fffffff01705aa24 : sha256 e380ccc59a2bcf201e0871ef2f652538587e702fb5d925d4de853373f4768826 -> 633b697523efe7bdf5b52174210cf2053ea6ed7424fb5baf896280aa84c3920c
+~ sub_fffffff01705aac4 : sha256 13440b6b7d7f77d19e906239b01cb6b1e6cdec95d4b61b7f9bf5a14509bd0ed1 -> 324cde21ddf31360c39b87c9f2f7419676e1b5cdef4179a94607ec521f457772
+~ sub_fffffff01705ab5c : sha256 849cf50711de4838b134214272a45f2a38e88565070c326b038c3fa09154e612 -> 7345fe099b976bba8d187e9f0d808d8805b89deb280d500a4ae73f2d30aada31
+~ sub_fffffff01705abf4 : sha256 d8c19e0aa5017b9744249fe9dc133ace9d4e572c8d3ae26992fe4d3edc4b1a0d -> f03a6f41a750e1ee83888980cd384e659248512cdd4d355a843c47021085cc51
+~ sub_fffffff01705ac8c : sha256 f752b22d2608c75b3d7bd87c5a93651c684ad6baeba3aef2cffbdb204e7ebe75 -> 1a8d9e681ad6a43e3a69cc8cbd4811159b6a2040cd4edd8ba2e75ab223c6309c
+~ sub_fffffff01705ad24 : sha256 b688ca96c1a369bf654bcd008f7d0d646b12acded939303b229f7e8d5298304f -> f66fe5f2c92bce6791bba35901e779ddd2b4e2d1ac35c731c880233f1dd8a930
+~ sub_fffffff01705add8 : sha256 a37a039f471cf73f4bac8e8baf1d2b87d4a93acaf0bc2ce92a11f92f05cd46b7 -> 00776acba8080b8b95660f8ba5f6686311bd9fb8437801727560a06f098f899f
+~ sub_fffffff01705b338 : sha256 90e522b2d9bda34aea520cbc1eaa56357b717383682b709859f0c3810e07d85a -> 7a608bf4df092a6eefb6adee6453e29671ff2c021371a5bfe2a2b8bbd4f6abeb
+~ sub_fffffff01705b420 : sha256 c4cad76fd64a0e1495245adb544c82b38e00234fde4eba34b10ef72eb9e6755b -> 8c8f720cc1e6aee36a393ca5e853d66da6f25e88ce8e8fb2724f043a5e852db1
+~ sub_fffffff01705b708 : sha256 5fbfb6532d4d36b5f45fa3ffb5634a7fc232c97fcac1e4bd10dba144ad7b0703 -> 5358c016b16aa00db0ed35798482466e54d3230b7880d94cc100dbcd043c4ef3
+~ sub_fffffff01705ce3c : sha256 a88d5a08cee22ff3671fbdf13eb764dbaeed2a290f33be5fb39838ba953c3da9 -> 08b2b51355181ed6c8cd4ed8df7743eb976ca0ff4bb7dfca0573ac7bd9e603aa
+~ sub_fffffff01705d630 : sha256 eaeab5bbf0454b3e2658b9cee4bf9cfceaef39da6875aa95dedeeb7afadc1b0f -> d53772d925f97c90e08bb30f56d84e65f666811b537d6a0a41607e9764a9180f
+CStrings:
++ "349.160.2"
++ "@(#)VERSION:Code Signing Monitor Image4 Module Version 7.0.0: Sun Jun  7 19:06:35 PDT 2026; root:AppleImage4_txm-349.160.2~44/libimage4_TXM/RELEASE_ARM64E"
++ "Code Signing Monitor Image4 Module Version 7.0.0: Sun Jun  7 19:06:35 PDT 2026; root:AppleImage4_txm-349.160.2~44/libimage4_TXM/RELEASE_ARM64E"
+- "349.100.9"
+- "@(#)VERSION:Code Signing Monitor Image4 Module Version 7.0.0: Thu May 14 23:15:44 PDT 2026; root:AppleImage4_txm-349.100.9~2458/libimage4_TXM/RELEASE_ARM64E"
+- "Code Signing Monitor Image4 Module Version 7.0.0: Thu May 14 23:15:44 PDT 2026; root:AppleImage4_txm-349.100.9~2458/libimage4_TXM/RELEASE_ARM64E"
+
+```

@@ -1,0 +1,78 @@
+## SiriReaderServices
+
+> `/System/Library/PrivateFrameworks/SiriReaderServices.framework/SiriReaderServices`
+
+```diff
+
+ 3525.5.11.11.1
+-  __TEXT.__text: 0x814 sha256:051bebfd4c29e89113f36b2550da43c3d5f8fff20e8a891b8e0b4e7365275280
+-  __TEXT.__auth_stubs: 0x180 sha256:f4ffe3238c01aa7fb875d4b006c4cf2b4441c3733b8dc7208c6420036c278222
+-  __TEXT.__objc_methlist: 0x1f0 sha256:f46416eb3eae16859215b675276591df1b24244089e8444cdc7fcd812530bd90
++  __TEXT.__text: 0x814 sha256:c8c2b6a4187d5cc4394d5094474f179fdee284d2fcf193faf149662754ab947f
++  __TEXT.__auth_stubs: 0x180 sha256:65c306647836d653f38a480954449517c4ca67f84140d3cd8cc1472ca6dde40e
++  __TEXT.__objc_methlist: 0x1f0 sha256:01ef5c99f21b1d0c39442a5b3617e7d0b07dd245c4eff4871e10111bfc06257b
+   __TEXT.__const: 0x60 sha256:6f37cff9f52d3e33270050eea61f0e0052f96f75c0a4e3104e69b1193969badf
+   __TEXT.__cstring: 0xac sha256:d5232d1f4593164c49116ff1d57a7291fe19bddf22d388c76ad46899b13bf1ca
+   __TEXT.__gcc_except_tab: 0x14 sha256:a4f064048cfa668411a5811c34adf2cb3483767b76da42c4444876d651f61022
+   __TEXT.__oslogstring: 0x36 sha256:8d765fbd75636e7d1489e69a5d4df3bc1834a3bcd84c73e95152d832be48a69e
+-  __TEXT.__unwind_info: 0x90 sha256:4663e6c46a4e2176f241d7899bfa7a3dbf001d9dce3c0e2946004bb0dcaf6a2f
++  __TEXT.__unwind_info: 0x90 sha256:a08f396bf40a3e1e2b41c463c5ffc72e0c1818aab90d5e60084493f7fbf45c6d
+   __TEXT.__objc_classname: 0x4d sha256:4175bcb7d4afbae41f4e61df9e094832ef2eb64fbf40ad1989545707a8870472
+   __TEXT.__objc_methname: 0x508 sha256:a7a1626fb0bc6e1e8c11202df8821e7aafbecfb0c3582c13b81892da6fb038a2
+   __TEXT.__objc_methtype: 0x1e5 sha256:4d21bcd1692caa198f28bc0f7bedc3251dc3e367f5194fe20213a139ff6dee8f
+-  __TEXT.__objc_stubs: 0x240 sha256:d3a27cd866c166b276e7b5a7d448a4015571ce425bb1756a8c1997540d7a9a49
++  __TEXT.__objc_stubs: 0x240 sha256:d65618b6328f2f671885900b5274f6d5520f21f915340b7a72f5290784f9b856
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__const: 0x68 sha256:89f71f2255555aa5a4529ffb93e48bbcf471fee4334af3cb130b934c5a9db912
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:d28d15af965bc427a889bc454b5cc625c3f2c787f39dab4d0804b022a0f24766
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:53d5df6a86fafb0640d1d3889e7c0e03dc7a44464e39b077fb8d91745984b12f
++  __DATA_CONST.__const: 0x68 sha256:1fb0d5b51b0a39707736c87a99ddf72c46c80b2dcf26cd6d2c5402136f9f0284
++  __DATA_CONST.__objc_classlist: 0x10 sha256:5c7d354e734a1f22302b11dc9af87b00e3a676edf025378c9c3875289631ff65
++  __DATA_CONST.__objc_protolist: 0x10 sha256:765d38602b306d7a923316eeb8ca616ee3d8f474c31c50b63d4353d64350400d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x188 sha256:d64facd4e71647ef59ec9219dfd9097094e3ab50f71e9fb32b7f7890396289f2
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:13b1dd1e4cb0037a5f6c2d4b110936e29fdf19b0fb36ce0262743c252b88c1c0
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b4ba69b1f00fb1e95d0572aa7a92ac039aaf2f3defeddec2fac59247dd4b9450
++  __DATA_CONST.__objc_selrefs: 0x188 sha256:f2f01f2df90e2d0a5bb508057bcf24820babc3118122bc479c0bd45973c118e4
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:dfb95d36aa825725e864dc4afb329358dc70803287540a14b2df70c9a88f2866
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:a022dd7fb33cfc1b61fa1506c96847f80a2900e982e530eb098c32df2b351e43
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__const: 0x60 sha256:d1d0fa9ba66cc16d93c3e201f752e5ad9f9c3ec28d560fe63f54c5bcad39ba4d
+-  __AUTH_CONST.__cfstring: 0x60 sha256:e3cf5a3f00d55bc0581faa6d260a5b01e3e160e91966ba5a45dffbf7bd55b2e4
+-  __AUTH_CONST.__objc_const: 0x278 sha256:fc24649b5b0d1fb98045ee8689560d0bf84ba50be901db7d553914716f58800a
+-  __AUTH.__objc_data: 0xa0 sha256:3ecff5db12bdbdb7f1ea2c1b9655b5279428cd63d5ed7165294fb779ef2b445e
++  __AUTH_CONST.__const: 0x60 sha256:3da5b3aa11e5ffa8ca4e76971dc09481cdebc1c8be78220773a47a9408a0db23
++  __AUTH_CONST.__cfstring: 0x60 sha256:66879748de4f4673bc6814cf3a918f9c2a6f8cfa8d665164b9a0d8ec77392161
++  __AUTH_CONST.__objc_const: 0x278 sha256:a4955bbe26914748e0252b1ecf074c51fcbf79c4a0e24ed88ac36abd8f85a07a
++  __AUTH.__objc_data: 0xa0 sha256:78c08397071b74a02863910b4d383c57aec1c50723b0541e7c814ad6d913b880
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xc0 sha256:9d856d9598d230654412a90ebd4d68faa0f9e82bb79c0bf98fbd83706dc40e9e
++  __DATA.__data: 0xc0 sha256:16f0fbd01cb1082e89d51b33b25c628d5d2f471ad84043234706785b8cab25c7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 088E5380-2848-3F70-9439-0A9733A7CB69
++  UUID: FBC5A2E1-B748-35B3-B617-68EA3AB03591
+   Functions: 15
+   Symbols:   119
+   CStrings:  96
+Functions:
+~ +[SiriReaderUtilities readerStartingToneAudioAssetURL] : sha256 b4fd5712757d610a46edc0f134faf51389732f3bd76667640be9c5744fa20fd5 -> fd00daa69fce3fcc3c6222d439f273657667456bab8a972198b54cf3bd5e163d
+~ -[SiriReaderConnection init] : sha256 b48f5ae47e0bd1c4f23a2ddeeff73fcc41c49e6b60626d82730394130c2cc77a -> fb0e1ae7bca6bc36adbb8ae57f30aca837510634d76c3bb280df8967f764cb29
+~ ___28-[SiriReaderConnection init]_block_invoke : sha256 cc464539913a2eb1a8d485f6607aaf556db469bea2c0b4b05ad90e151b9fc128 -> 9acacd25d8355db95861271174f8c1cac5ba17a964a3c0acf5fe1bc2d987dac2
+~ ___28-[SiriReaderConnection init]_block_invoke.58 : sha256 33eda938ccbe5add2f57683ff02040748a368713abbc8e08c5e2917014b912fe -> 66455f88afe73f0fa129cd50cb80dc0837fcd668ff387dc191b8d7e9dcd4c63d
+~ -[SiriReaderConnection dealloc] : sha256 cc90e3558e23bab785b6aa71e80b1cd0a0eabb52022e73b1c6e4a710f22d1b9a -> eaf4a3e9c9d00ee208c189699fe39ca35653bb8e4fd4273a81c9aea8d51fcbb8
+~ -[SiriReaderConnection readerProtocol] : sha256 6f8a24e29c3ab38f21b29a7d16134e02cc09c718ce6faa50825f725a39b17381 -> c7afee1bdd6d99aaf5e5a2f9f3636851f8632c61d0abb797c4283b1ffbcfc0bf
+~ ___38-[SiriReaderConnection readerProtocol]_block_invoke : sha256 60d0334530e8b6f5687fe2aa2a5eb82c34fccabccc4fc37d4cecc14905d49937 -> 0ab56b4812628401624e2f1b2b01d0637cbda3efd47889c08249c3200b19513d
+~ -[SiriReaderConnection readText:textBody:textIdentifier:textLocale:textLeadingImage:] : sha256 9202aaec81c7c857c2d8095e68ea91a1378af4a8ad1965de5ecfef7fca972b47 -> bfa5d79cb02b0f16b9e4e262a04ad9930b7f4edc21f418c16d76f161ff7f6701
+~ -[SiriReaderConnection readText:textBody:textIdentifier:textLocale:textLeadingImage:activationSource:] : sha256 ee487d64bfaf830f91598e364114d2c0748b865dada7ed58d428da68b68a7fd5 -> 40fbaef73b9ef4049589c0a374c774a79f20ecd658780a8a9d3e041e09f92131
+~ -[SiriReaderConnection getPlaybackStatusForIdentifier:] : sha256 e503107df46eec2ed095e5b0d2b22e48ce34610eacb8a7347b08171512608692 -> 755ab6ac75565d04eda89567104b643ac5697c2ab13fb40fcc6e13fd3ffa2edf
+~ -[SiriReaderConnection pausePlaybackForIdentifier:] : sha256 14eb3e1a07f41a9dcc6c9166797d254a8caf993f6ae20703f6b301bebaf8086d -> f3d65bae9e31357b644d3b4298f4e722f2a3c7bbfe7e7595d9055444d56c7b66
+~ -[SiriReaderConnection resumePlaybackForIdentifier:] : sha256 23115d47f69c7c841202d7b8eb383d4365a8d34b998dcaec908854024bfa3789 -> b265e820ef5abd285ffb020c244d70b13e01c5367dc37711a63be48e86900efc
+~ -[SiriReaderConnection endMediaSessionForIdentifier:] : sha256 7c73039770fee4ccfdbc05979600971151698caa3d7c4a9bd380c17599eacee0 -> 0378ed9f160e72e527525b8da6a9e4c3cc126ed08ef8114f047f69d85e2b0c52
+
+```

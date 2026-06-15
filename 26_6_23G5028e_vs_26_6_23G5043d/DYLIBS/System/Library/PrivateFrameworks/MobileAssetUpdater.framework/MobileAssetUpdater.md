@@ -1,0 +1,82 @@
+## MobileAssetUpdater
+
+> `/System/Library/PrivateFrameworks/MobileAssetUpdater.framework/MobileAssetUpdater`
+
+```diff
+
+-1345.120.5.0.0
+-  __TEXT.__text: 0x1614 sha256:bb4e85d76670dd9121453fd0f513c347bfc77f883ad923ae7476fa8da7bf01b9
+-  __TEXT.__auth_stubs: 0x180 sha256:8618f29827f1ff063fcc2d0a5dd310f7e08e8058f5eb7c2804cca2ed52b6fb58
+-  __TEXT.__objc_methlist: 0x200 sha256:ff47e7426a634c21860d39156598628bd280af1950db5938b8f73e439441f8ea
++1345.160.1.0.3
++  __TEXT.__text: 0x1614 sha256:da669cd88c4f2561f12d780a36d5eb6f3f9142c890a89ad1d872ff1d6063fa32
++  __TEXT.__auth_stubs: 0x180 sha256:4caf398bd33c0130a45fbf37c7de3a49d934ea2800c71e80479fae1b3ec315d0
++  __TEXT.__objc_methlist: 0x200 sha256:17f3e4c284ed9e9547fb24e4dcde5abcec7cbdabaf2100c40174f95fecc8f195
+   __TEXT.__const: 0x10 sha256:044da48e5b7656352749c208ef22d49268b3980595f8b36ef0aaa555cc55390c
+   __TEXT.__gcc_except_tab: 0x4c sha256:8c582d3252a61dc4df0888d2670f8fdd29631a1b310fd7e3602451d7fbe19bdd
+   __TEXT.__cstring: 0x639 sha256:44565c89ff142bb1a442535b3ef2100ed59c05d5d7df1275a57bf628016ff70f
+-  __TEXT.__unwind_info: 0xd0 sha256:3907acf55ea4a24d7bb3df50e4fe042210136f8d60905708751947f9fb51cc46
++  __TEXT.__unwind_info: 0xd0 sha256:df88b3eabcb93f7fd5eade8155d4d3d6e700ccf3d9d733273e50cab1ef48bdb8
+   __TEXT.__objc_classname: 0x13 sha256:4d2e6721b577ec70cc0cced2315ac51e77a5822149339b5358373921389210ed
+   __TEXT.__objc_methname: 0x830 sha256:d7992d0e7ca33805f260ca56c34785a5c86567e596d843a1379fcf9e355cadf5
+   __TEXT.__objc_methtype: 0x108 sha256:c0e5b85f0f916e6d359ab91312e01bd2b1892ac2b04557c9daedc3414746ead2
+-  __TEXT.__objc_stubs: 0x7c0 sha256:3c088990c3d5aeb97dc895578a46ceb90448b9efe0977f7a60954c797f691936
++  __TEXT.__objc_stubs: 0x7c0 sha256:f9b9abf6fac2c57576daa082335704028b0d867f162d5aefb96983efd22505ac
+   __DATA_CONST.__got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_CONST.__const: 0xa0 sha256:66567337f0a9b8d9692fd3002304677e6b88796133436609ff68d1fcc3283d6d
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e5a3d6b772d66bb5855cd57b17f70fef3ac1a5064a5701c725be592713936162
++  __DATA_CONST.__const: 0xa0 sha256:96837fcb8c413f3d69efbe5f842ce5ae77dafce8f831651843ed93e5478b1727
++  __DATA_CONST.__objc_classlist: 0x8 sha256:0ce4167f729e73865956b85c8793c4b408c91194df8f4935774e759ebe4fb725
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:c78e6231112f4a3d319ecdeb9dff1de9ef8e4698c6291dc666a85dbadc98b583
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:a0092246265103e0d2471beb7bf9a696be4da74d0e0ef194d1460dc1ffd402e7
++  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:65ddaca5a87bf692f0965c574d002450fbe9ad7dc75afc7e19c09266b421fb55
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:8415efeac041c4a9fa838fe646ab6e3de3a4db415955c30b850a782f44fa62de
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__cfstring: 0x5c0 sha256:f0b387edee87f274d9d698503ab66231d7041d1aa969c35afbd6c49141727699
+-  __AUTH_CONST.__objc_const: 0x360 sha256:6a1e2aeb65b9cf9646a82f5367fc141a8c5f42d04048ce98f28b8dbcfdbd7406
++  __AUTH_CONST.__cfstring: 0x5c0 sha256:56f227726664147e0c53aa3c77195b958af7bb285e85f6b28e640a49981686ef
++  __AUTH_CONST.__objc_const: 0x360 sha256:24814c3692fda189c8ebdb840053669f8cb1facd4e4159b33e894fcfd56fae6d
+   __DATA.__objc_ivar: 0x3c sha256:d9333b832f1d2bbd2f17546e2baf0eb1e1250c22976578ca9beb6ed6452a6db9
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:018cdaa9f586ca545a5b9bec873a9c25b8e1bdfdb317c5fb2a65f78a496ee520
++  __DATA_DIRTY.__objc_data: 0x50 sha256:57caeffb21e1f6fd543789c2ec145658aeb64ad891315ff7c6407d1ab272497a
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ACEF9B01-FBCF-3ECB-A1BC-51626DE8FA65
++  UUID: D76B3CFE-FF63-3283-A52A-DE7A5BBC8EA1
+   Functions: 54
+   Symbols:   241
+   CStrings:  238
+Functions:
+~ -[MobileAssetUpdater dealloc] : sha256 d5f9522f07cae0ce9d8b17b8ba3e5e01261e5f52bbf8a39bfede129b7f7621a2 -> 718187713851b0d7dbd04408f0bf794cf73b11066186d5bd2eea9fa66b291204
+~ -[MobileAssetUpdater findAsset:completion:] : sha256 59f03f00daf58cddcb27dc77b0696958aaeedcf0512358d032cbcc58fb1a5810 -> d8230487143be0439accc619168d5f61a651f4c865d8fd937cb67d1dc069e595
+~ ___Block_byref_object_copy_ : sha256 6e2dfb40e083c03e3b5e6a958b98305ae88773ef041c5b933cc9af6969c4065c -> d22afd7b4f24b7aa5b85bb15b00485f7428fec36e63aa9c7aa546c65976b0534
+~ ___Block_byref_object_dispose_ : sha256 f9b74f6c231ac7169847351bf6bc4e237189755d9662e046a260d6df1c669fb7 -> d84c8165601c6bf805e03f11e5016054d568061fa47a66c6670af71c31b1ca88
+~ _ConstructError : sha256 a987622acd23dec121a5e454a2495e5b0126d101be2e4dcaad64108209b18dd4 -> 96d922cc1e5b43cfa65eb131e2d384dd8690132cb83d78418081aad349807aab
+~ ___43-[MobileAssetUpdater findAsset:completion:]_block_invoke : sha256 7c665cfdd97225be78c4e8c336a7f4ceba159eb614bcd18516b6123c48aa03af -> da78709b2b854fe5f981646b812d473e839fe1e9caa910742d5c30711d15e450
+~ -[MobileAssetUpdater queryComplete:remote:status:completion:] : sha256 579bf169f95430f3abc7accf90600d37713f2d9b1f5ad1c0094b78863e5419bd -> 3979eede8b9412e9689535b540bf3ce6f0283e0587c7b425a3f26d1d51fc6d3a
+~ -[MobileAssetUpdater purgeAsset] : sha256 79a9566f19ea8e32182ed8b62cf6ee45bf70c6a1ba6df859220d2b2f724f7dc7 -> 23643c3171c736043c62aa4a060d796338861a2d8491d55998f343585b71b42a
+~ -[MobileAssetUpdater downloadAsset:] : sha256 24f74d90e6c062f93051ca0bc6cfbd9b432499185dc3bda94d325c05809ac18b -> 27288ea11779a92b2d857b882647daffa8ccedb6269a75b3af8e2a6b6ad5ad84
+~ -[MobileAssetUpdater downloadComplete:completion:] : sha256 f6194f1ed0b12afb3f0c955c538bbe3fd55c5836e0f81c7ef16119fa5cb4a0ee -> 6d6bdc632bfa7905d980d87e51bc9326307a1cc74727aa95f62a839c46d323fa
+~ -[MobileAssetUpdater doneWithAsset] : sha256 84901c492e0832668dc386a78f0f243f982595534c35e976ba6cf5a8ec998306 -> 04aa43c18e88df516822434f42a7ae66d3d9ed361d75ada42667536dc735e0e1
+~ -[MobileAssetUpdater log:format:] : sha256 72d8b59d185fa2e412ad5378560a12e766f3fa8d27a80a096422581cd237b8c7 -> 9790d9670e7b88a053607d2ff6e4c9672fd0ae6e603e85456758f1d9d2a26ce8
+~ -[MobileAssetUpdater asset] : sha256 4c5f837eab2263f701d8caaf05d075a63fc5eda7f7f04f7b6b7e5eeb948d2b47 -> 51f80eb32d80d0ce91306ffa315062c468986d35d93420da1bb16369c4e2615d
+~ -[MobileAssetUpdater query] : sha256 b76ebc23d98c7683d61342613d4450fdafa4d61d43ff478ee68c734edfb3cf70 -> a947302d6b70731c5d89a657910e4e08727c92c482a1528ba471db94e2cedd3a
+~ -[MobileAssetUpdater assetType] : sha256 4db4bb003908a7eb681518012f80cbe2185149f6e05bd2194920dc59d96ce1a9 -> 13c4834cd135a3250c440a6387d7d5fc9f4081e68d865923beba05b5f6607db3
+~ -[MobileAssetUpdater overrideFile] : sha256 ddd9b2f050d9e852c5f9ad7ece90af6b70dca9dc2c6c114c4f17e5420769f4c4 -> 8a4ee5d86b028ebea0b2f1bbb6f9dae22517aea9dcca02cfd9cb8dbe8e332466
+~ -[MobileAssetUpdater purgeOverrideFile] : sha256 05be3151963cc00bfd594b995a83e025fa2978ace56dde9c53d8fb091797e8a9 -> b47e82e688654c10217906e44006f33d76fbf011a7d0b13cb8bf69f7a768f43f
+~ -[MobileAssetUpdater logger] : sha256 df4953933dc9b9e8ed5551e3c987683200565ce390b4b579f7000768c697ae32 -> f9f963675768a4e63ca4173e7280ef1f116becae4be2bdb048a824b5cb5e7c0a
+~ -[MobileAssetUpdater assetLocation] : sha256 d68e80cfc1c1bade430e2d48e4a539995673b489af2ea660255fd00c74f627c2 -> 45d36dc6970b5bdc676c406f0f58cf10a967c491ceca73f08c173ccc094662bc
+~ -[MobileAssetUpdater assetLocationOverride] : sha256 57448afe3454630aee259d1337a0d09e685c00d76332f4eef2c1d27264a6b734 -> 8362ee69a0d52b5899f0d212340a7ed6a7bcb49f953d24e93b3a2eebaa33a785
+~ -[MobileAssetUpdater initWithAssetType:] : sha256 78453ceec80d283b9ca6babd02b165c2069cba814b3576eab9fe884a5062ad59 -> 99247652ab4c2f4be3a65f18fbd6de9a025c70eb66741fa6c84ce1fe56531fa9
+~ -[MobileAssetUpdater filterAsset:osBuild:osVersion:] : sha256 05466d7ba00c08597db852174728344121ddf104ec6891821d8a32551affb7da -> 75e62bf757a071dd596bd924a4ac0a1310cdb815c10f86b3d9ac397a8d2f4157
+~ -[MobileAssetUpdater filterFoundAssets:] : sha256 c4fdd4b1c2d3b61aa7ee43e9ff02fff4368246dabbf4b1f833415d0a53220050 -> 7b22da591e60951bd07a01ed94c33115922c0c111416d472dcf53df7f3a47315
+~ ___43-[MobileAssetUpdater findAsset:completion:]_block_invoke.cold.1 : sha256 7a798d7ad4076486a31d9df43d936f81d5b35f0573c60edea9c9b8675d2e4255 -> bc691a303ca86644e84180bd2cabb88b01162b502cffbd1d7d9a6384d7d12a61
+~ -[MobileAssetUpdater queryComplete:remote:status:completion:].cold.1 : sha256 1759793c4e75c065469bea565c496a6eacc04dab6e46ddba54ed4d1fe5e0af62 -> df3e7cbab933a7911162cd28a24df1e213ce8b618513be74ce1e1c0effd594ec
+~ -[MobileAssetUpdater downloadAsset:].cold.1 : sha256 efa21d9718efbe54b31f7a8ef5f873687ef7370bbca150f6ef1af544a06dcd5f -> 56bf00c72e15e7cc4f74f21bfda22dc77d7a4ced7a8daf72a2ed1dd4d79b317a
+
+```

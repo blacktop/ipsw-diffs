@@ -1,0 +1,64 @@
+## HealthKitUI
+
+> `/System/Library/AccessibilityBundles/HealthKitUI.axbundle/HealthKitUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x2a0 sha256:9020f2fb2447bee0892e6029b3b336d1c0eaf33cf52492f4fa8db874e17a67d3
+-  __TEXT.__auth_stubs: 0x90 sha256:c0a5be9f0df79bf18872f93fa14cf53f27ac3eb6b7702a3b517fef05ee6dd2be
+-  __TEXT.__objc_methlist: 0x7c sha256:ac0f6da37acf1e006f67b17cafa268a037df68f02b2240867917b4af7d3f702c
++  __TEXT.__text: 0x2a0 sha256:56be903743cee29dfa51d5c30842340164be288f560126426912a087601335e1
++  __TEXT.__auth_stubs: 0x90 sha256:494b3191f5b900b95fa055182b7e99ce258f0d769331fa5079f7dac9dcfdedd6
++  __TEXT.__objc_methlist: 0x7c sha256:1505f6d2dd73b11655abf5b2eb63a56f440f85edb4f76991e94e815f82b964ff
+   __TEXT.__cstring: 0xb4 sha256:88059e9a651d0e80116d04e2805860f89d28e416d258bc7b895c073908d4dd21
+   __TEXT.__unwind_info: 0x88 sha256:b8fd40483832dde5607d3541c9a2197d15b2a360a49eca6d79ff7652bf541d62
+   __TEXT.__objc_classname: 0x67 sha256:f13d089905feed3423244177bc389dd57ff28dde0934741de376dd52fb3d303a
+   __TEXT.__objc_methname: 0x21d sha256:5b27d2a1b74c9a84d80dad640ace9b01c86ac3472e0ad39cfd1dce6bfe463408
+   __TEXT.__objc_methtype: 0x2b sha256:f2356df62a897c7866575bb6c989124adb562b0b9acd3a9b65ab6eac95485d48
+-  __TEXT.__objc_stubs: 0x160 sha256:160f1e04ac61c731bdfa159862855d932e2a5d81302d120ff3be8ee31b889e6c
+-  __DATA_CONST.__got: 0x20 sha256:fa9278f7a4c32a951175f40119c6776d3b491d55e32d023e216903d1c637da81
+-  __DATA_CONST.__const: 0x60 sha256:249e4914c5d634ca8cb41305c61395be62477f9306d1e04e8359e19f50aa0081
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:c1a8e9cc74c6f36c321cd4f7f91d0b57873b2f632bf954fd48eb15beb1f7c8d5
++  __TEXT.__objc_stubs: 0x160 sha256:1b7909ea7ea9f542ef2e3565b4632dc25e29fda3ecf2d6d85c45a79dd8b4180b
++  __DATA_CONST.__got: 0x20 sha256:ad669cdd2daa3e0a2573087a1397585214e4419270faaae5007d15ea39189390
++  __DATA_CONST.__const: 0x60 sha256:7ccb6180279afb1586857018abb8de5b7d3a356ec5d1b2aed736b7b9d07cac56
++  __DATA_CONST.__objc_classlist: 0x18 sha256:4566ff40fc54809ad5ad84a29b89bda3966d0570173d70af7d64f4a2b4f4900a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x90 sha256:ec14848e85ca14a3c493dec591b87a55d6a012c7720ae3500e1f13d9cb7fbe10
++  __DATA_CONST.__objc_selrefs: 0x90 sha256:5dadf2b293aff825611da4b9cc663a0d7bcd753b4b90462dc4d808cb3708267e
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x80 sha256:acab9c69c8ecde9a90d9e72f23eb527a831f000877a1da8e57333749ef6f09ce
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:4fcc006eca8400c614160f89d8b116af15290df6d68d11044011f1f9e2419b42
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:72b43a490b9375e946323fddb4c5286b60c40842f1dbd15cc84d5faff67e0346
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:a639d196a206603823178a3c19d6ca987967e83baf4485bfe580f2a43e9ed098
++  __AUTH_CONST.__const: 0x80 sha256:56c4c1c4f414165ff5af2bfccc2d9e7be681117106482d1c8488d5d04e1009e9
++  __AUTH_CONST.__cfstring: 0xe0 sha256:4da8f26b44e9ed6c533c76d88d8401b93a5aac42ed99334ec086e563ec7938b4
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:f8555cb877d516da205c01f235fd4664b61e26ea885ada56aef2455274a4b2d1
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:d43c034cb4fa9029995f34c5cffb0440b11908d54f5f7fcf10e995ec71c93b40
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE21B0EF-4EC2-39AF-BB44-33679E8D3F88
++  UUID: 6958A9EC-9105-3FD3-8390-9047604C125F
+   Functions: 14
+   Symbols:   80
+   CStrings:  44
+Functions:
+~ +[AXHealthKitUIGlue accessibilityInitializeBundle] : sha256 ebb5c3a9e256035b32dcd6e07fe9bd406028c3b84a8018276601d2729d83d34f -> 5d0cf7865fafe2f30259540c4900587cbc1436c17e21185b253f66157997ff4b
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke : sha256 5b8f40486ea73a8080be18ca304de0dacf0ca6a1987342f195973d0f3bb4aa1e -> 4821b5647547772d1aef43525d4d7f1ffae1718e7708ac6aa118aa9b884c8a79
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 538c7e2f481dae9aa3160c1e28bde2b45add24ed8230fa239c0a9f7d7dc68ed0 -> 655f1c58f14cacca9e61d5ac91b21e7dcbceba028417a33b1729b6eee3690ccd
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 a8eae9355842c2bbc0708da5d08f6a2aaa0c0becadf44210a6feb694d0321b23 -> e5c505e8cbcb6ab1e2daf0dc766f0a4ff8dc6e27c57c1dae3fa8e855d0b9e48a
+~ _accessibilityHealthKitUILocalizedString : sha256 3ab8f27ea71c3c5b0eb67f5d865589802911ff3943ed97c5e688c9d4fe1560be -> 375b67c5460de4650b7ea9bf971f91eb7d36f5fafe8526e83452393f2f83b20e
+~ +[HKActivityRingViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 62f69f6086e02947c686f4e0b18647a054e8cf8b652f68995f843f8c2419d35b -> 7c0477c1fd31c9e043dc62f357da40432e7b0fb957f1078c8cbe59d29cc321c7
+~ +[HKActivityRingViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 882b1b755b7d9cf240fff7cb97ea2609cfac7d84c4e6c0ff6e3298a0237efc05 -> 38e1dbdeeb26f006320f89de0d7126f24d10cdace53308634fcddf9888cd18e6
+~ +[HKActivityRingViewAccessibility _accessibilityPerformValidations:] : sha256 024804efdeef9cb0e3c7b77d27d1cc835e54a36b13bffe28b69bb13bec75cb1d -> 8cc1e9010ed96db8cb38835e7cdbc12e820cb1de4c8a8d15830dd9a53af3ab45
+~ -[HKActivityRingViewAccessibility accessibilityLabel] : sha256 92d9b8de8be2693d61ca870c58e232c7fdc162768eb521351f73373637b0663c -> 60a3deb475ae98de2629190d5162c276638f010751662997e463253b78e192c2
+~ -[HKActivityRingViewAccessibility accessibilityValue] : sha256 4421a97300418cf6ed4454583c85b1360367fec123b998a43eeeffe86d3a052d -> d7d8a8dad7f1e01cbaa092dd0aebf3b2717fd67e4b035adb411ee670ce70c33f
+~ +[AXHealthKitUIGlue accessibilityInitializeBundle].cold.1 : sha256 3e8d979db4cde36082b882e9fbc87bec0db889c223409bdf293a1606f571e74d -> 28cf8879d0767182ab3bb59793bbacc776bec909f295c11e213c48906012a240
+
+```

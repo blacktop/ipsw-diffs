@@ -1,0 +1,81 @@
+## SiriLocalization
+
+> `/System/Library/PrivateFrameworks/SiriLocalization.framework/SiriLocalization`
+
+```diff
+
+-3525.5.12.11.2
+-  __TEXT.__text: 0x142c sha256:0dea2a99464e9771378c74d6be349e8f92ae3fc8bc35c926e58b6c5d6475654d
+-  __TEXT.__auth_stubs: 0x1d0 sha256:560e66181a96643e6fa2bbcd016d4eb7727c461116f7e5cd52cb8ec44b4af4cc
+-  __TEXT.__objc_methlist: 0xfc sha256:b4f1a456260494acb4a91cd23037fb0a74f486b0fceb64b0b59b06b2d023598c
++3530.1.1.1.1
++  __TEXT.__text: 0x142c sha256:79fd1676a4a2bd28b40b2bf22247130f914130a17c2036b0ee392dd859968f9a
++  __TEXT.__auth_stubs: 0x1d0 sha256:85f0fa4bd248704c938ada3df57ac99cd1aebe3c3dafcdecbd0e14d1397e38cb
++  __TEXT.__objc_methlist: 0xfc sha256:146a76e4449d0023526ea45de204f968daf9d2c67d138299d818908bdd1a22bc
+   __TEXT.__const: 0x48 sha256:9b77737ee8b06f704de470f0ca4495f1003d272d15ac3d3e909cfcd6e9fc5e75
+   __TEXT.__cstring: 0x20b sha256:3f7f7f3e44c56cb1d83c60e20ada1616b4f889cd62af1277b84286e2dd0cec4b
+   __TEXT.__oslogstring: 0x62 sha256:b24140d388b418d5598e97282f2f2db785b46b81291e3d0752df96e1c2a0a8d0
+
+   __TEXT.__objc_classname: 0x46 sha256:75e1bcd7efde6356bdac5474e18ae7f3275d8be765244455e758f419edf1ca2e
+   __TEXT.__objc_methname: 0x2a2 sha256:cf7b3ad257f7c28880cc4ed3c47a02b3e100fb51dea3fca2ca9138dcc0ee7dfe
+   __TEXT.__objc_methtype: 0x63 sha256:9b11ff9781a4cce87f8dd5327d0cb03fc696a62fae32a10a1635e37850d8e4e9
+-  __TEXT.__objc_stubs: 0x3e0 sha256:fdd1aeb377d57c2a0911de3b8c63194e1b9b73319f695d9b6b2b09f992c77cff
+-  __DATA_CONST.__got: 0x58 sha256:a03c2cbd39ba69c79f429196b4db8c87508253d5e4abbf283a18b83a0217082c
+-  __DATA_CONST.__const: 0x40 sha256:fe8ce59f9c8894c8d508d1167d4e2033c6ca2fd8afb65aeedc93fa2f9b84bcbb
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:09123e2aa2e74b372b6dd4c1f5ff94c7aa63b2112352782c078cfa9635bd1749
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:89c74cd0f0d8fa4f1718af5f3877762fe5823a8d925af5095c469b2f86fb2299
++  __TEXT.__objc_stubs: 0x3e0 sha256:43c034214b5cdd09d3d2b474d7e033fed544c9f8317cdf151d828412588dda0f
++  __DATA_CONST.__got: 0x58 sha256:47fcff9c13f7955d572c1a11b8d1d63145fec546a62fd4c7bde82344b55934a2
++  __DATA_CONST.__const: 0x40 sha256:5618704dab89184bbad140ddd3bb0a38fabd8e8238d2ddbbda6f3a138f879ec9
++  __DATA_CONST.__objc_classlist: 0x20 sha256:7283abd2f8d8c941ea37c193531801519c39e6178dcf97345f0284661d614456
++  __DATA_CONST.__objc_catlist: 0x8 sha256:ee3eb4357045f4d14b5dede93215ad1fcb1d2c395e20e2e786389e1420baa962
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x118 sha256:172201e3497514b87276b9e3bc53a938d88b609ac96644555e762aaaad52f811
++  __DATA_CONST.__objc_selrefs: 0x118 sha256:e93c120b396ba4fe3df183c6ba129e31cba32ddad76e9458e73308d7e4cd5730
+   __AUTH_CONST.__auth_got: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+-  __AUTH_CONST.__const: 0xa0 sha256:8b82f8828475bd2cd5b6db8d5ee5871a5f16b032b811ed9449a5f8d7db553b1d
+-  __AUTH_CONST.__cfstring: 0x5e0 sha256:66a3c2bea3ff9894aad281222e3f04c8c0d9b8f69adacff1c49598d889987b1e
+-  __AUTH_CONST.__objc_const: 0x280 sha256:bfb490797d7ab51fc4fbdb777988d94f42e200c6c5780048f5f04ae02f358302
+-  __AUTH.__objc_data: 0x140 sha256:7c17001f65f001c79379a9d51a3422156ddc5fd000f184ca4f9b57d4859a0e0a
+-  __DATA.__data: 0x8 sha256:11755aaf5ad39d94ebe22cbc523dfaae26978cbb4351a0324bed55d573b3aee1
++  __AUTH_CONST.__const: 0xa0 sha256:2682f35de2d3a16a4c9362bbe92c702658b9439e4e64ac10b00bffa14a4ba0d7
++  __AUTH_CONST.__cfstring: 0x5e0 sha256:e68a7179a8474762ac8eb6c10a581d2967ac28f5c5254c7581805bee7efa26e5
++  __AUTH_CONST.__objc_const: 0x280 sha256:d4ddc93ebb06e50f8a6033fdf535205232116802de712c4518ee19c06163fcb7
++  __AUTH.__objc_data: 0x140 sha256:304c4d401f570c2bf60e074a6634c305943f71ba03623f55b0fe72003ba07305
++  __DATA.__data: 0x8 sha256:9703b1f7e312b57598cbc0d081e32e7fc0682a47c42ce049e8a54d2e4c23c2f5
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x41 sha256:98ce42deef51d40269d542f5314bef2c7468d401ad5d85168bfab4c0108f75f7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 26EF1E47-D95B-3D1E-BFC4-C8124C513EDD
++  UUID: 47406D89-D111-38E2-98EC-C9C42F52E29E
+   Functions: 24
+   Symbols:   164
+   CStrings:  149
+Functions:
+~ +[SLPreferences allSupportedLocales] : sha256 cc8b343a9d3874692ed619f217bb04fbb14d8b60f1b0266ac7ce71ce872b3c67 -> c08ef8e1ad3c4e54637d4e1cca6160b9230f66895ae6b98e85ab547fb31803db
+~ ___36+[SLPreferences allSupportedLocales]_block_invoke : sha256 754a00298b7bead561bf78f41b4ef07d946119dbc7521aedf1940623114787b9 -> 73e1b0028afec4673c6a61631531008fab4f2b0be28b746adaa61c8c011402e4
+~ +[SLPreferences builtInLocales] : sha256 dcb416e21a62f216979d13d513f41671e1ec0c96da6fa43666770c295d94b18f -> dc50217942294f4a86deb5f99d79183c6e03b820b0840a3a1fcdd39ffb7731bf
+~ ___31+[SLPreferences builtInLocales]_block_invoke : sha256 325085680d0aaac31fc812e7c6b76f9edf5580711495a8d42e35fdc1cb285660 -> fcd1ec60d07d73692cfba9ba8aa8a472581449fba34e51f425bf9a3ad83293c2
+~ +[SLPreferences internalLocales] : sha256 5260ec5367cbef8e3f31918dbbe14654d0b802d8e1f374a54a18a491798ffe33 -> 03557f038b82dd8572921d5d374ff4af431496099c81c42178575499419196b2
+~ -[NSLocale(SWAI) isMontaraEnabled] : sha256 87d777edc9ffdd4ee511f0e4a70402e1570ab5bbb8645e6d8e357a16668e5a3e -> 6a8c2d77f9ce709f11c70ba7f0ddb78f13f7e86eb009e4b815f7094c8d1fa98a
+~ ___34-[NSLocale(SWAI) isMontaraEnabled]_block_invoke : sha256 1ec223bb169f213d0d6c2ec12505f242373ab25a6ef555765a9c662dbe74bf0d -> 58a9f878b2a6df8b343ad72c83751e0078b7ffe51b56f4b62b1e4a8006bb0ac1
+~ +[SLLoader initLogger] : sha256 039d9f37c9c2b918f5ff3870b148a58c7803810b83e1ff6f0d3288e0b3cee14a -> b0fffba32bf3740d4d25f3844d61d387ba8570973ae86b72c03f7cf0f6a32fce
+~ ___22+[SLLoader initLogger]_block_invoke : sha256 a1c954b8637a2fa65aa169da2f4b68e956aab96e3920602801bfd0d6ce51309d -> 87f3cda6f32bd7130177263c00bd96944d9e392e24b60d69609e11fe041d5cdb
+~ _SLInitLogger : sha256 8e408bb77a9e60ba2bb8296fe9a13e46021491b804c0bd9665aae62568ab204f -> eacb3fcae7406e81732e5b9c8f621a709a833e6da89472cb83cc3db1a9714800
+~ +[SLPreferences(Internal) builtIniOSLanguages] : sha256 f0db36ab760157adb51b166052aa87e8c213eec289d94daed9570b242676a955 -> 9c0d771b5250d6bdb2d01d9cefcf073206f8375396ea3410f003bf09a671ab7f
+~ +[SLPreferences(Internal) builtInVisionLanguages] : sha256 011de43aba2c2fd795cfcc60cfede6797404389d72eff70a23e632c8afa6c511 -> 4342ced10cfd59d030d59cb732af8f1cc2614d0978c35b3b8e128781f1a1a14a
+~ +[SLPreferences(Internal) builtInHorsemanLanguages] : sha256 36469a61058d829687b9a9726c61da71b83c8bedf39350a97fad0aae38fd0de0 -> 96132fb42be94a0af14571e9dd9db87f023f7c4f7cdb004daa47985b9bf61c18
+~ +[SLPreferences(Internal) builtInZeusLanguages] : sha256 f3a6d9bea4e40f2d18cdaac12bd526651c3850f32aba84237b6fa590299a5df2 -> 14569bbf610ce5848029e0c8bf1d42b976cf005b29b5d402fa70b2b4a1078605
+~ +[SLPreferences(Internal) builtInMultiUserLanguages] : sha256 5207e68851201a0e93dd28abcc1b0a86e49dfe61eb77450ba9b40e5ab475340f -> ce51a2f78f6231884a31a7391490b02c3d29612754d1f130f85ab00e78d3fe8f
+~ +[SLPreferences(Internal) backedUpPreferencesValueForKey:] : sha256 b1e14c682546ce151cdea02914e9015a55a38af4e2ae95d2ab7c2743350a167d -> 3080003b09d40eafc387ed804817fdfb85dba587316e088cdf47ac3167892504
+~ +[SLPreferences(Internal) valueForKeyWithContext:withDomain:] : sha256 44b97727d4a6ab30b9ae6e3b38039565e275cdf08669bb153226aa6d03af7732 -> 8840fe4cb9e4b8d7dc1a5eccfc9a3eeeb57a9fed3806b6c751ddd2a77878766d
+~ +[SLPreferences(Internal) configValueForKey:] : sha256 8610d561c372beafc602451d7618255e23f867baa2b60e38ce4bb98f268045b7 -> c84883adc1868aa4b359257c574ed615241f1ffcaa5539a391618ad497fea127
+~ +[SFPlatform(Device) isHorseman] : sha256 7500ccc68ca7a7cbbade7b6f2261ac8cc77e632215a7c21bf9ac3efcd030db9d -> af8df0f319942021ef6a9b4fbd7fe47febca063f7b9f41ee120a41d0534e4b8c
+~ ___32+[SFPlatform(Device) isHorseman]_block_invoke : sha256 9c3e2df38428d33fc04cdfffbaebcd5f0c48a70b6a295b49aa84b529949324b0 -> 76d9d468b57ae8d081022bd0aecbacb01f68376f1f9dc57b3b41e23dbfc8e110
+~ +[SFPlatform systemRootDirectory] : sha256 6e378d8131744bac3b386343e9022c5e88f0778a41542bb7444157c1a929d24e -> 97cde2f6f4742e0cda7dfbb5738ba6937738558f34589cd7a01879a19207380e
+
+```

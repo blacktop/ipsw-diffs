@@ -1,0 +1,69 @@
+## AirPortSettings
+
+> `/System/Library/PreferenceBundles/AirPortSettings.bundle/AirPortSettings`
+
+```diff
+
+ 1175.0.0.0.0
+-  __TEXT.__text: 0xc50 sha256:8241ffe5d20b4420844615e70240feb97424f0386ded444f6d7b7624712a1146
+-  __TEXT.__auth_stubs: 0x190 sha256:8b7c7ce2bb36e436e38d7446e4575c24d4340598f8825869d69122ab88055010
+-  __TEXT.__objc_methlist: 0xf8 sha256:9dba10d11d33a92d4683acf743cb10357e0ec758b2fa79a0a3be8de24ec15695
++  __TEXT.__text: 0xc50 sha256:605412f8f2020c31b167827d8ccd4fa6463b4bb66a3468db27a6889314fe55ee
++  __TEXT.__auth_stubs: 0x190 sha256:cfe3af1693756de00dfbc599eec7aa69696d54ca4e8fb7e1cdcca20057592a2a
++  __TEXT.__objc_methlist: 0xf8 sha256:a6d6c94140e648789aa69ccb7e36075db5d948bfe2e9feb9bf49752d13094dfb
+   __TEXT.__cstring: 0x267 sha256:32b9305d95b343631e1ee74ea506e4d12aa03eb4f059e1274e589ddc62c0af45
+   __TEXT.__unwind_info: 0xa8 sha256:e19ebad19e5902af0e59c7135b8b37ea452852e8fad12d89fb8e43acdf807265
+   __TEXT.__objc_classname: 0x17 sha256:47e5813914c4fe3b40e3384fcb58e3979e37c4cee98c206182ee64d6f04591e4
+   __TEXT.__objc_methname: 0x479 sha256:918d2a724647abaf41a3ffde85c0d1465b4201db93d83d3d75df84c552eae315
+   __TEXT.__objc_methtype: 0x8f sha256:a6d5def60ff0df7f5e62963a4a2d3d6ad48cc2de4f7787fd79cb51f744a7a70f
+-  __TEXT.__objc_stubs: 0x480 sha256:a5aec569a6b758cb233200681ade32fdcb3bf2ba0211892e2ba0d4d70ef0f64f
++  __TEXT.__objc_stubs: 0x480 sha256:c17d29d4b00d08b389c02c1dffa80a8f114bb328fd44e63c90adc74dbe3d4703
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:1ef7de001d5a533302abe3a2e234e889ac4ec73109b95463a310474b9feb8910
++  __DATA_CONST.__objc_classlist: 0x8 sha256:74f2d557c733329e74efe64c20dbe9e3b29e90705b501a626068cfb24a0ffcaf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x180 sha256:5b68f2e51863e121df3df780ef33611f6f8989824b651537d3d07e563b1c240a
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b0c4e129f168e7e5439a02da85247cba20d27c43edff93cf0358d6e9b40abdfa
++  __DATA_CONST.__objc_selrefs: 0x180 sha256:82e2c790e10c23de416278dd119238b7522d510243c292f4f116a8942e49b597
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:35e2c0c1590ddda7ce1b752ec0007af509b4c38c6f5d55196927bec1f963c599
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__cfstring: 0x280 sha256:ab2b15e8f538fafefab445e5b1439de0559116d3cd488fa0f5d950adbe653a60
+-  __AUTH_CONST.__objc_const: 0x1c0 sha256:3e0b41d6716559ee8215795a37709f8214d1f292167b2b9c1f6899619cb0b464
+-  __AUTH.__objc_data: 0x50 sha256:1b33705bd613cbeee03157a3e8cd801957f29c7438331db6251d0ebf6bfe5fa3
++  __AUTH_CONST.__cfstring: 0x280 sha256:510361dbcd88bd999bfee0ce4b0af34e5e545c69af5108d6d08b1b1452e91547
++  __AUTH_CONST.__objc_const: 0x1c0 sha256:d92dd277ab998ba90c07fece82daa233db1039fdd0dc76cecd476caf587fb5a6
++  __AUTH.__objc_data: 0x50 sha256:917e0b2986037b975b97c17f08478e77c0da6340b8c00dd3d6eb837471b716fd
+   __DATA.__objc_ivar: 0x1c sha256:c47cfd1cf2d95472bbd2dd6e4edaa4bcff3d08c7e9e5267f9b4db8576f70c1be
+   __DATA.__data: 0x4 sha256:ad95131bc0b799c0b1af477fb14fcf26a6a9f76079e48bf090acb7e8367bfd0e
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2F28004E-C5B8-3C20-976B-6170DE8E4439
++  UUID: 51EE1C5F-995C-3666-9506-868AF41B596D
+   Functions: 20
+   Symbols:   126
+   CStrings:  111
+Functions:
+~ -[APNetworksController initWithNibName:bundle:] : sha256 a8ef9a83201f6962d9ae9b897ba1ffd27c20e8e2cb65cdcc97ed2b3b2a8046f4 -> 5efd33ff77942a5b9584014802fa6c8d1b4c498a415523e79f5bb431d11ea8bd
+~ -[APNetworksController loadView] : sha256 13db612e23b766dc15a2dbf58ff067e8976050a5522398a1d84c9c315f7b4b13 -> 5fa2cacde0538b8dc9bd2e3c6064e53c0a7d037dbe714425ee4f415d8ba47660
+~ -[APNetworksController viewDidAppear:] : sha256 647337597af4bfb7842e6a90461fce66b7f3ef40dd3397204404c41955a08c70 -> 2706ecdcd5dd5e051b7104b7cd5712e4a650dd4fc3012dee72185feb85344cdf
+~ -[APNetworksController viewDidDisappear:] : sha256 c457b8192bac6d9d74446834a4782969eb80034e65a51a9e222a143f4340042b -> 2397b4b216d8cee432f96512f726b1f038195729743fa6a0256b0023cd036019
+~ -[APNetworksController viewWillDisappear:] : sha256 9d9b7266714a27a1c2ce91837c88385e24e7d5e093ebd6c868b870efef306196 -> e30256544e4de935e0d27016385f24e6f248b203287ea0ce9b723f2d4d50a8f3
+~ -[APNetworksController willResignActive] : sha256 a8e144c648f3e0a6d4937feff784a1f7e42a6a78af7163930c2b269cb01f5d73 -> 0299dccbc58607cce534d14bdd1cf11dc9f546405a1c511cf405f0590d2e0205
+~ -[APNetworksController willBecomeActive] : sha256 06ed8a28ba09cd77aa2396a411d3cea6530c73d7d751d818797bdc140d6153cd -> d2371db275d0846b2fdfb299a925a16ae47a5a7b8d0789cb40f39499add95bfb
+~ -[APNetworksController handleURL:] : sha256 68c559a0dad73c288ea347eec7c5a06c861ae28a3d17c8cabfc74bb357e1b673 -> 6fbe04d47368c9334144c2ba52eec8c04e7bf3e9c3fa2c9e3547ffe805497282
+~ -[APNetworksController _notifyAirPortSettingsVisible:] : sha256 3db4d03a7eaa9d4f8f29dd99c0645f1dbd62fec23f3dc18aa727589314cc8168 -> f7e2a63c45696c115557a03e6afcc1114a9c8408adc4e9c724d410395553dfe3
+~ -[APNetworksController _loadHealthOverrides] : sha256 b77b8740735fc54552ee91b35dd37b3b52390ac5e7cacb26550c2f024fe4ac28 -> e0faa6af4912b5c8a5605dcc87e9ad743d8e93b9ebd20e0b169f6f606c2badcf
+~ -[APNetworksController healthOverrides] : sha256 f808028ffef6d7050fc409afcf57864ccb789102392a7b7da7654b194851871b -> 68d8295bb767c63b6323ee2c106143642ddb7562c5db5b146b3b0ff4d129c576
+~ -[APNetworksController setHealthOverrides:] : sha256 49083e5128d8968af252420471cd3b0750b85659d3012a8ff975f47c2aa6ddc0 -> c3cbdbcbcd73b9f26072ebb783471454b8e5e7c46236cac54e640650a6d2f8b4
+~ -[APNetworksController airportController] : sha256 8ce38d53355908826e77a05a3e55705ff26d6561109afc90aef218575472a154 -> 29557e9d250c961728998df85bd4feaddfdab50f51e11eddf0ede1e36ecaccd5
+~ -[APNetworksController setAirportController:] : sha256 7b8a86aa345c37955494de46ab3d2e3d6bd67bfbeedd3d7fcbd9f81222c3664d -> d58f9ff3f7dade856de11cd1fd323314871ff5f9f48ce1ee5efb0df06778ee70
+~ -[APNetworksController settingsViewController] : sha256 e3b76be352e17a43bc787a2bb2a7a79a044c578277338b5f10600c5641ec89c4 -> a5ecfb8ddb7260871f6c5d6a9c090def7cc80527eb0066a90fe88d4b453f1b4b
+~ -[APNetworksController setSettingsViewController:] : sha256 39f02b84049b05d66033a18a6fc3d4374403946d690bb58b6f51fa7255bfec41 -> 2bb04c91fd560e4add315d7daaa527e08c7aa928341775aef8e98f40eb617171
+~ -[APNetworksController deferredURL] : sha256 ccf851d990d3808c35e07a8dd888af05f9aa1991c2560a93e4ad9dd79a90d335 -> 831e68be193b1a08e983191dc100c772764f53056f99b02d002189986654ebcf
+~ -[APNetworksController setDeferredURL:] : sha256 28b04efa55565146dfbeef56b3215be5cbc80844a1fdf09aa85d2a492a58706f -> fd27b0c1df3741f64f34967bc1686a4379e566f0c9a1321e1b62ec6674781240
+~ -[APNetworksController .cxx_destruct] : sha256 4566c32264c73d3da244b0a6363ccaca3b22fdb67b90de277b9e6069d8b24387 -> 08786d855bb7f2cd2e17a71a228e60ff8953ff95e1ddfc9bee17758945d47ebc
+
+```

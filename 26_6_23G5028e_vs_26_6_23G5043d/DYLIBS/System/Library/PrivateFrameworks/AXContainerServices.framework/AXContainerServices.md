@@ -1,0 +1,66 @@
+## AXContainerServices
+
+> `/System/Library/PrivateFrameworks/AXContainerServices.framework/AXContainerServices`
+
+```diff
+
+ 3191.39.0.0.0
+-  __TEXT.__text: 0x8c0 sha256:3fbe66144b1a6f53d3515c9b8f8996dc15fa69d048bfc39777707daa9196d3ba
+-  __TEXT.__auth_stubs: 0x160 sha256:809ac01afab487a549557935392034e83f587ecc8e058f2450f23cc19761299c
+-  __TEXT.__objc_methlist: 0x68 sha256:b6287d92ee0502505e76981551d4c5d9bd46369587c9b537d35d5d98f504fd10
++  __TEXT.__text: 0x8c0 sha256:a7190839a2b08c8bc907fefd540344d43fe4a304d9ec9999faa111f0da893013
++  __TEXT.__auth_stubs: 0x160 sha256:a0e5b0d9b9be567e8d06acf268e565831888c84c3d526897ac86d04c12dae208
++  __TEXT.__objc_methlist: 0x68 sha256:4a2d18afbc0beee7dd7a3493dc0e71e2d76cb0cd06d2be1d31fca4039594849d
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x6b sha256:b8157caa3be619e61b2588b5a2c19f71697ecd8f3cd085a59c70e164080f1e17
+   __TEXT.__unwind_info: 0x88 sha256:cfc239bfab35266871cc16c4322b065004d9bc2ab349475ff476021f45b5d9af
+   __TEXT.__objc_classname: 0x15 sha256:d6cdbf2193a7beb44f692c3ffe2b7adbf3ebecc7072fcc492f8da466da03eda1
+   __TEXT.__objc_methname: 0x21c sha256:4a1512df68dfa9368e2c2078966e180932944792341b3f89101a41b846932cef
+   __TEXT.__objc_methtype: 0x4a sha256:bda532127486195a9a8f4c85b2c49e96278c4a65cfd85bb8151898bcf3a68421
+-  __TEXT.__objc_stubs: 0x100 sha256:5b76b2306bd4934387fa16cafa775709f8ffa09bea605da154138f76c644f945
+-  __DATA_CONST.__got: 0x60 sha256:df70b3a3abb00657cb644f1c913f897b021350c134c2eb4f204bbc31cc492d47
+-  __DATA_CONST.__const: 0x48 sha256:a302de38d9b2ab03fee0fabc493808705469a051c2cf1c565fce80d9e6dcb1f9
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:8163303c7cf51b365b596bc6856a55113d68fb97f0205bf116d77328c4cb9d4d
++  __TEXT.__objc_stubs: 0x100 sha256:169e2c92f193286f1f6f6e9d006050cf045c5126451318b50158a1a6d5a842aa
++  __DATA_CONST.__got: 0x60 sha256:57da8f8df18b7029b3583b8c023e925907f90cc0fd1c39e4a3b41a56b1f053c7
++  __DATA_CONST.__const: 0x48 sha256:bb6aaed213918096e7bbdc98cf8605443def2d8cb04c31cd83753dbb98fc9880
++  __DATA_CONST.__objc_classlist: 0x8 sha256:c3ff9880fccb44c1c7b21f5e5fd883b45bb7baad1b6b891257f9a0b457d60bf0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x70 sha256:4066606f3304d8c99a8fa65f1525df0858c90225855fc00b396fb51fef6d4022
++  __DATA_CONST.__objc_selrefs: 0x70 sha256:970c166896338de89e29dd16cbb5d90d41a9dc3c4d292c0996cc41342c2eb494
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__const: 0x20 sha256:da118e72a44585b022dba2cf63d0f272f0e4b0126461924fd0920f735229cc87
+-  __AUTH_CONST.__cfstring: 0x60 sha256:f59e3eff3d92f3f912d4bdafa9574a506ce772e5c4acff403236cf303327dc3f
+-  __AUTH_CONST.__objc_const: 0xd0 sha256:36607af7a8ffac941ecb184f72bc456413ff21a66eedae650f169a0750df18fc
+-  __AUTH.__objc_data: 0x50 sha256:a0fbbf3c726485f1cb3119b494c6658d6f094c1af34b05fa917efeaee535fcfe
++  __AUTH_CONST.__const: 0x20 sha256:fc727be750b08d67529efd4cc7f4320b314c1ec872bed4eb05f7787dd8ba361d
++  __AUTH_CONST.__cfstring: 0x60 sha256:8fc7917b7d8e46ebec0476580c968fed224fd103048be8b924b00858f805db40
++  __AUTH_CONST.__objc_const: 0xd0 sha256:dfabf78e639c0e5f0449b64bb3b3679eeda3aa1d9846e27b2e85b6ed6c7efb9a
++  __AUTH.__objc_data: 0x50 sha256:7e6f9e1c63a4189800f832f39c4d17e4c2821486228df50b723558e1d4e79683
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A8F2C627-8574-3AA1-8274-6C1D22C92A3F
++  UUID: 26950FE8-6E26-3111-8545-86810F8E5BB1
+   Functions: 13
+   Symbols:   87
+   CStrings:  31
+Functions:
+~ -[AXContainerManager containerServerClient] : sha256 ec76d683deed68dece9712a67663ef0fab18bf56b73e4c076a05aa5236412934 -> b22ae063d09d350b1448e0d7091253a2f933dba591d1823d3af0cad467d7f8d6
+~ +[AXContainerManager sharedManager] : sha256 401853dec6a6a833419663c0bccd8d8602167d747cd4b70d23a33f40b4ce84d2 -> a3d62c928a891d01e14468a569fd71d824f05d4ed2669a3c32b02d0e8aadd459
+~ ___35+[AXContainerManager sharedManager]_block_invoke : sha256 c65c481f2f70c87a521b71661e9dff3e6b66f2d943ac6248602a0bea84c97b4a -> 87e28a47648e6e411b272944eec96cd79a1d540a7b476b86cafc376368937fd7
+~ -[AXContainerManager readDataForFileAtAccessibilityContainerPath:completion:] : sha256 5e2b6b9b427495ed99e3e05de1a858631b7fb22301f17f88e43064f19b6aaa36 -> 0869a78ed94e0c947873ad41cde218122c8f3e90e8f9d1f07edefce8d9be1362
+~ ___77-[AXContainerManager readDataForFileAtAccessibilityContainerPath:completion:]_block_invoke : sha256 7cc1413f65ffa30bff372458988bca1a4342bf94c154ad045f2916c3c291bd92 -> 7bd976507b800f478d59bcc9cd4e861575eeaa794e230e62088922e3672cc640
+~ _getErrorCascading : sha256 a2194a98c3328fb888bc834faff661832863f6635b960f265378092426a62335 -> faaf40ab1a31cde1656c629fc246af741a097ff3e3cec52528529f89d46ee902
+~ -[AXContainerManager writeData:toFileAtAccessibilityContainerPath:completion:] : sha256 67233add19f88acf72af3a1ff7d8320fd5c0483acc9d8d859864bf0fb2172e0c -> b03aa2e681b35dcd6a9015254180f04ddd7b7bd10fa5223852b94b9a4105d0bc
+~ ___78-[AXContainerManager writeData:toFileAtAccessibilityContainerPath:completion:]_block_invoke : sha256 9972baee4ade4e8b3ae4d9d383cfec6b32469415ab317dcb322fee50b144bf93 -> cc1c3ce567f301a9ff1d8d7cc803a497ec7635ae45fd3925fc377472f69b3df4
+~ -[AXContainerManager deleteFileAtAccessibilityContainerPath:completion:] : sha256 95b39bd4cce8cdd5095e427f965e45f9c495f58b435e6080597dfa88bb45e0d6 -> 0ef20a84ee187b5376758ac0775f7731fb6870181b9e6096c94fceafd8476a6f
+~ ___72-[AXContainerManager deleteFileAtAccessibilityContainerPath:completion:]_block_invoke : sha256 183a9f59ba13102ceb34d069d348f70c3550b911131c6807e3b28edb0756709c -> 63eb99d6c824e34a90d0603603c3e9d00041e10c8fb471436cd9a2a81c29719f
+~ -[AXContainerManager setContainerServerClient:] : sha256 e2ca669222cee31de1275f1fd38683177fe97b88e1ec9fec8adf922fcdc42f9b -> 6f70e8aebe453917d6b35e74c3b5f7c36ade7b92e17b77b7da5c39d2833d3119
+~ +[AXContainerManager sharedManager].cold.1 : sha256 8c3ac16a842c30fdc17c79d5291b4cd291cb335fe2100146f5475094c1c8af64 -> 2fc444944cb53070c4b8246521b2bf653cf4e9624d98456d01d0dc535b40bd54
+
+```

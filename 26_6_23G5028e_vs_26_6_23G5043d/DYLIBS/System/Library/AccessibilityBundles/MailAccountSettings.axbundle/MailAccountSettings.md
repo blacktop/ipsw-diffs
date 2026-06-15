@@ -1,0 +1,63 @@
+## MailAccountSettings
+
+> `/System/Library/AccessibilityBundles/MailAccountSettings.axbundle/MailAccountSettings`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x358 sha256:9792780253ffa3aea8b5d31fdf0ccb287fd1022c7ddd0881a999e2b0423e4f06
+-  __TEXT.__auth_stubs: 0xe0 sha256:e91bcb55296b814cd97f6af76a04b422a0fc2b419528946d4b5cb98d74548a2f
+-  __TEXT.__objc_methlist: 0x5c sha256:6d9e44c9fbe6d1fdb78a3233d8a397a02b69821ec9fe83dd0a33a97c07401a63
++  __TEXT.__text: 0x358 sha256:97f304c2ef56136eaa2911466e4c6d7b50bba2acbbf5e0b7b86b9c1ade4b14b4
++  __TEXT.__auth_stubs: 0xe0 sha256:0b3610cdaff9567cccbf14f8a7ed3733fc595f13cadb9cd8f21cc409bb4619a6
++  __TEXT.__objc_methlist: 0x5c sha256:0d3e17d87111a954a9f10351149fe6dd7ebac8e8a44dbddba3fd6ee36e61a668
+   __TEXT.__cstring: 0x11e sha256:cc93ea0a3a3f07a20d231128f9d032ef35e366854dba2a692ac3b6da16c32930
+   __TEXT.__unwind_info: 0x70 sha256:18650ad2055dd539753c5223cef28a3cd924b5b1dec301497cbe4379b6cd13c8
+   __TEXT.__objc_classname: 0x8d sha256:2cb2b23299cbff6b592b85bde90e10776aa6a422931289904fd94e1862c7771d
+   __TEXT.__objc_methname: 0x206 sha256:58a5acff2a4077b7a163b9763d3c084afc1f227ef7f249c886184ebe297f2953
+   __TEXT.__objc_methtype: 0x2e sha256:e65bd1778f5b76913ef87369ddcfd385c33e7f1416a94f8462e13cd7e16cfe8a
+-  __TEXT.__objc_stubs: 0x180 sha256:11facc3f38b06cb945651192314dbd01954f935fc92f451056e36b7a80cc1581
+-  __DATA_CONST.__got: 0x28 sha256:7feabaee99791ed727b000981c3ad9aac1c115749a43c4423d6f2d1a2050cd9c
+-  __DATA_CONST.__const: 0x40 sha256:51f1086ef34e33b3b9378623464ff0dcacd09dd503229bd44022038ef16abf42
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:9cf02f7eb021465e2a082f8b5e25b45b460e65f18201f84822edd0744ed38bf9
++  __TEXT.__objc_stubs: 0x180 sha256:350605e59c511c2153d22f0be3cefa003673169949ca12e110f41566e91b6cb5
++  __DATA_CONST.__got: 0x28 sha256:cd84765beb7d696295c666989eb78548987093b41fd96a85b9075a7cdd8033f0
++  __DATA_CONST.__const: 0x40 sha256:09f080d9055fa7305a33d934062c592ec2b72600bc671f4ae0ce570eeea144b5
++  __DATA_CONST.__objc_classlist: 0x18 sha256:ce0bbde62e1c894c8e04686e3ba367916c3df281ab94913fefb2497f71825f68
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:61a37e75aa7233a3588369d6458e8ec602373d442ea80a396656c2f6cb1c4770
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:dfe10845122e7d783835c0201259c1bbf7032a210903c46167a64aa125a1ff8a
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:441c1b7efac1d751fd36e61780187c38ab2f69b416df16017eb344963786de1e
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:ed1530d0683ec76cc946e4dc6a593c71e7af7166048ad7dbd393432ab3bb7276
+   __AUTH_CONST.__auth_got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __AUTH_CONST.__const: 0x60 sha256:630b2492b743295ae68d497038096680bb5bacc459f75735dc32a552f14032eb
+-  __AUTH_CONST.__cfstring: 0x160 sha256:b2d8cc2496d0ddd241b9956ee0349a0bc87a57a7e3b6260b028a9266596483f1
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:49566c9cf663b350e69db318a099f154ff3c6d4f9853afa8326d9518533d1fd6
+-  __AUTH.__objc_data: 0xf0 sha256:9322f4417a2a608b05617b13061f3d16e0c44ca048555b701a8299b09087b662
++  __AUTH_CONST.__const: 0x60 sha256:4f40fc24d6ffe064fed6492e22aa34e94f22b0268d95f5224785f031e5ab676a
++  __AUTH_CONST.__cfstring: 0x160 sha256:e37f86a66568da07138cf6a1a1b6b46588050938d57ab15947cb91b6b2f24961
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:67e7c0352768e78d4344502b30a95755624291fd3483eb8079595e6244a7a03f
++  __AUTH.__objc_data: 0xf0 sha256:0d6dc879c36b466a929512adacc5126079372b035fc73b32568037d5e928adac
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: ED5094B6-32F9-3A94-8380-FA5778ACE4E7
++  UUID: CB0BEE05-7FD3-3B69-8774-8F81C1137B22
+   Functions: 9
+   Symbols:   76
+   CStrings:  52
+Functions:
+~ +[AccountPSOutgoingDetailControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3d10128186555179d01d846aca7a68e420920f218a8a669e7699bad889e1be76 -> f49fcb0f44526440360da2a693c46b3d45f5ca130d096666ce5393e13b8865b9
+~ +[AccountPSOutgoingDetailControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7918c812433fd82b59f1f83018cce529dc6442e42597ea4b5fa4f06661775807 -> 90305f23b41e5d4f5265f9ec048c9290358ef1ba0b3e09ed6ee87cbc28a1a01f
+~ +[AccountPSOutgoingDetailControllerAccessibility _accessibilityPerformValidations:] : sha256 4af32ed84c6eb5c4cf13a56624afaa2f26bd42e521164f80849e9f545071b181 -> 2889b74aa64d7a6c2ce7fd8c9284a94ecf65eed7c14870245a42a6740afdd17b
+~ -[AccountPSOutgoingDetailControllerAccessibility processValidationResult:] : sha256 2f7f732f91f6779e1a795bb7d7ab811f21c0578ab208c790f62ee4108073a3f7 -> d9dd0a0708876eae983680c4be096472a3b6253c1720ac8c0e507b2790b27d5c
+~ +[AXMailAccountSettingsGlue accessibilityInitializeBundle] : sha256 06fea2d1f6f4d3696a0fb0d5a4185eaf2e537868dbb3a4918e82467579242e78 -> 12657b734c0c47258c9ef6f3941a9f172e25622df945479c85e160e21a4d7aa6
+~ ___58+[AXMailAccountSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 ce1e0c709cd20a4c15cfa3160287abe5d829ff3c50af0ae019ffd44f606a0293 -> ca91c6d55c198d3552fed37db9c8e8f1c94e93d31d12c6ad010f53cfcdf0b67e
+~ ___58+[AXMailAccountSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 2324bcde3c8be4aa5d5692a5e8365bb6976c379c9179d2d34b496d9b8b5df2b6 -> 8b2abe65e378c0ccc716fcc51ee38794bf6570266436c7bad1f1c03ddf90fc72
+~ _accessibilityLocalizedString : sha256 c2cf8d963fdb77ae6494d9de8f18a31a5e729f6808976e0653b38c4b6f100951 -> 47966f37fc649d084a3e45252411b5b68df4dcf5564ef2d1a2708a6c6409bde4
+
+```

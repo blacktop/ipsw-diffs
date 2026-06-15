@@ -1,0 +1,69 @@
+## HDSViewService
+
+> `/System/Library/AccessibilityBundles/HDSViewService.axbundle/HDSViewService`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x4b4 sha256:80f2d6307271fe5794bb6ce35ef1a7cab02e6c2568858fba4688d90837104ef6
+-  __TEXT.__auth_stubs: 0xf0 sha256:2c1ca467ff6a7e2764bd43bcd411b33a997bbb5456f46559329c700d3c09c825
+-  __TEXT.__objc_methlist: 0xbc sha256:3e37a9e6bfc4aae05bc45c8413202d5d73a14c7885e5b57ca4137d70ef02991a
++  __TEXT.__text: 0x4b4 sha256:682402db05e9f0e57bef342ef1a25ca1a2e314be2cba0003ca0ddc26ba7b588c
++  __TEXT.__auth_stubs: 0xf0 sha256:8c216441a485dd6017464957216ba22e97115e3cc724398bbc1a34f05588c23c
++  __TEXT.__objc_methlist: 0xbc sha256:98ba5d046b54bdd4230b1ccdeac40cc1b18654a8363de6ab8b93f55fd4e9a34c
+   __TEXT.__cstring: 0x182 sha256:a6e2376d1622addbb3678677492e9f1ed59008b62987780aab50ae5c7768e29c
+   __TEXT.__unwind_info: 0x88 sha256:e97027e26187c3dac7f39d6e679d1f382a9453bfdde5a817fd8d44683e962c91
+   __TEXT.__objc_classname: 0xee sha256:92a0f26c60176883e3bd1419706fa3a4c4780c89c5a4260a3a69d6eb06a01c67
+   __TEXT.__objc_methname: 0x282 sha256:9b840eb6c6e8ad68cca54ec8ceebdfb986490b4c4632709a69f16c2bad63d875
+   __TEXT.__objc_methtype: 0x23 sha256:4eac88e50f25f0d12c0af0a12ede3e45656199e676f98f783b1eb3bbbf41b8e8
+-  __TEXT.__objc_stubs: 0x1c0 sha256:37e01f512d0aa9ab80eeabaec9618d236c42d1e49632ebe1216c60c9ee6fd1b9
+-  __DATA_CONST.__got: 0x28 sha256:7856365060bc267c3eb46f4fb392e49b6dc9884470a452180e64e8054f9e2adc
+-  __DATA_CONST.__const: 0x40 sha256:5fd009c84328670cd31858c0b616c882527cb29f133fa9af158741cccd172714
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:b897536594bc3708861a77b70d530a81e1f85caa0bb640e3598fa8d244370c22
++  __TEXT.__objc_stubs: 0x1c0 sha256:205c32f763f6ba6ef629af3dc33ec31667d49edc91adcedd134d7e79083087a8
++  __DATA_CONST.__got: 0x28 sha256:de0c69c5920c51f821757c38a24af173ec481edd96bdfd27fd7e3b8f822970b9
++  __DATA_CONST.__const: 0x40 sha256:ce0066acfc45d584fd18c9fe98bde9a5c8cf560e5e4cc08d0bc1dbfb72de9b48
++  __DATA_CONST.__objc_classlist: 0x28 sha256:707d1fbf51447353b6c67f85e3de81c3f4a32cefaa63a4c910545cb3c74594cd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa8 sha256:cb5bd7bed9a7f920db1b6f67e52a69724436128f58d2a99648f8c310662d5bc5
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:19b64bcfb8501c807e5d52c0e9e1afe755fd0f744c74c3165dee39484b18520f
++  __DATA_CONST.__objc_selrefs: 0xa8 sha256:715f29932c4da553a6b932c961bf2de0f7b5c6f6b33729663ca7d871c3b94cae
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:4fcf2c5960c0c8af4a22c3c7797bd0c4e6a27fb6155e3a88f5a837ebc950a27f
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x60 sha256:effe3531d4be977122791eb0848d5960c8bdd3a94cf52f1b2723155fb9a5a969
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:8a62f7b5068ce9b0dfd09bfe445694d0a154e2bb4ddc2fc19c38a7c0e0798b10
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:f240e7fcff0c4bd65fbb6bbae276348842161e365ef1a081e8217c2365e1802c
+-  __AUTH.__objc_data: 0x190 sha256:5d61aeb5e252ba8e4d721c5b4b5ee7e267dc60ee89ec6e5c295c2f583fe8a04f
++  __AUTH_CONST.__const: 0x60 sha256:d56b2635a33c01205baa322eb93347f657c569566c4f252e7254a8f3be3177aa
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:e689583b7b74390e23cd8c46efbf58ab3b571c04f6babf56b7928da5c59dad53
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:c773bc003f79fb8eaffd0179998bce75d649e3fa6e76bd0fd6cc0ded740bbb33
++  __AUTH.__objc_data: 0x190 sha256:051bf732f453922695821cf00e81d09bc21a401b8dd66a05f9682a220b3488e0
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1990C47B-1F48-394A-8DFF-1C012942B041
++  UUID: 9B864AD4-AEF2-3CCB-B30D-E852EC041021
+   Functions: 15
+   Symbols:   101
+   CStrings:  59
+Functions:
+~ +[HomePodSetupLeftRightViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 2a309085c6b92fe89dc9b3c177ffd1ec68b1c7f90ee0af7d4350ebec7446338e -> a448538f43fef57bf1a9e53992d7b6cc9c92281dae5530e9d34608432f46120f
+~ +[HomePodSetupLeftRightViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d7841ed1e15213d47d7db5c06b62b63bdeb488952973d3b61c4c1875fda52981 -> b2ab1197706213a0a70f8a097bd80edfb4ba3565b6eeb5be23b2fd5dffc4f19b
+~ +[HomePodSetupLeftRightViewControllerAccessibility _accessibilityPerformValidations:] : sha256 2b642b14d1866259d2de4207b802952694bc254ae93cb8e81bb0dc48030aad6c -> 6480fe5ec210d635981d7eda88d1083ccbd330334434eff7c5bec5e35da083f9
+~ -[HomePodSetupLeftRightViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 4ede4e1cb16f8592002dd4eccb181e79ab7f3a30836fe432658696450eb5d127 -> bae76c1ed330ab7708c7b49cf5973beb8aada2632bc07332f3fa994e6382c929
+~ -[HomePodSetupLeftRightViewControllerAccessibility viewDidLoad] : sha256 97c5ab9b40c8985accbbece99f8d264b331798d4ef0aa779ece7639c450cda88 -> 496baa3fd72adc099bca4136c14dbc39c3422cc9861f3638b632b3d827e1ce85
+~ -[HomePodSetupLeftRightViewControllerAccessibility _accessibilityMarkupStereoButtons] : sha256 94b75a751bccb65f941f1cd6db0251ba4e5122bf8dbe24c804ea1307d4287a02 -> 9979ee92d94cbc57490363ec0fdbc07070a36db77f3cfa98871e7de3c0f8ac0a
+~ +[AXHDSViewServiceGlue accessibilityInitializeBundle] : sha256 01f73d0cf1f31ab550302ba62fbb8cfb8814cb6dbfb93f14089bd38ca80504b3 -> 2c74143c2b02b7296602f068499d011097c98e195e182ad2727a9089b557c86d
+~ ___53+[AXHDSViewServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 e0d6993354b52d6f0d0b1f8a596aa9f84de5ecafa554f3ec349ba98fbca06b76 -> c583cc70a7e8005ee89e1290d3e8e81fa8a138de07d7f071a4f5e9d0441d9c73
+~ ___53+[AXHDSViewServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 238642fc9c493c75ecebd576fa507267ae697eb5f3fc75603b52eb061863029a -> bc517630967485671e3707f92329dc1d389194058d1a219ee6c7df3b2291c24e
+~ _accessibilityLocalizedString : sha256 64efb614bc025504f74f0bb0aa6d5bf5ecec18f5bb696b53472fe2993d3924d4 -> 6af04e395d9bf3a4da3fbf711f28030d5289b6e87ef63b2637f829d178869453
+~ +[HomePodSetupIntroViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a909aaad4dfa1eaa0ac8c90e828d5e5ac6df69e5a179f86e2fd1e34ca3a7158c -> e2374c32c93a5d179bf82eca3a40e46177031a5de623be9048c8ef02efe19d81
+~ +[HomePodSetupIntroViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a381e4cedbd27a2c7a1b8c76e65781a99624ceaa2e3b92b48737061c35f822f5 -> 33b08e8af894286694452246fa022cb3edf16a20a8ea0b254900352956eae81a
+~ +[HomePodSetupIntroViewControllerAccessibility _accessibilityPerformValidations:] : sha256 b4f1713c7baf01f661f6ea56ed4e760838d454ad2ee5b1117b871dd7e4162184 -> d8422e97768a1826668fdefcb4b2be787b7aabb1cbd42c03aa97ec75f1cd6b40
+~ -[HomePodSetupIntroViewControllerAccessibility handleTapOnInfoButton] : sha256 48e5fc731e264e3a34cd35407ad049da47752d1026595d8fa33852b6f1fc7ff7 -> 16cfc7e393e658660230db14fd2eaa5913cc227dea0665a826723cf6d55b80c2
+
+```

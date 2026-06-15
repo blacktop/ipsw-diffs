@@ -1,0 +1,65 @@
+## DocumentManager
+
+> `/System/Library/AccessibilityBundles/DocumentManager.axbundle/DocumentManager`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x2e0 sha256:bd59c955fa364bf0f8de194812683699f2c81f52a7a7c1c25328a14a1255a248
+-  __TEXT.__auth_stubs: 0x90 sha256:1f9ecfad8efae94a2c27927e3714a0f64a0acc78c833f16178ce343a74292c2e
+-  __TEXT.__objc_methlist: 0x2c sha256:68b046cc105aca32e1edb0f84d2731746f02fc061c1569e4abf9539b2956f955
++  __TEXT.__text: 0x2e0 sha256:9a046daa5458796bec70557576f7e63a39ae43c849f0602f3befae8d6a7dab7d
++  __TEXT.__auth_stubs: 0x90 sha256:d262d42a3ebfc6e48b360d647c0148e031c813d4fef5a3b8f01876eca35a7fcd
++  __TEXT.__objc_methlist: 0x2c sha256:6d3e3d714871fc682a52653d77575512abe99a2b2fcd0b80c76b70f19f865b34
+   __TEXT.__cstring: 0xe0 sha256:ad441515497ca4a766c93f2c93a1f5226852ca9426d3992d7639a5beb7f27d6c
+   __TEXT.__unwind_info: 0x80 sha256:ad1f7d714e40656a84f258e3e5519348ec773ae5b2f7a44223bca359c88e657c
+   __TEXT.__objc_classname: 0x33 sha256:b6e71ff627e89798b4fef25362e16d6df213b1bc84a5f9f236279c937b0c6d94
+   __TEXT.__objc_methname: 0x103 sha256:49a0b83f2d1a9ae319a41fd2b8a3055f0670b3c8161c39bcab832c7e7cea1d8f
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0xe0 sha256:ef553b3bac79782e2bc3dea09b438278fab01ded5182a81aa71cf23a26ff441b
+-  __DATA_CONST.__got: 0x18 sha256:5edeaf1992be5742f6414ae49bbe29f9efe016048d6e5f617c6192d6a946f483
+-  __DATA_CONST.__const: 0x60 sha256:bbcee73c2e0cfb2412071a5991e332974203af12e73fd7166d3f8bd5e8583de1
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:9198cb607e948d38bd6e26ed47b7d793201850250f6e9cfdb8d5bf3f6de1ba69
++  __TEXT.__objc_stubs: 0xe0 sha256:59ef7cab0cb68b8f30c0a1396940055fcfb4d235dea243adcb485025e5865621
++  __DATA_CONST.__got: 0x18 sha256:dd0699e25156d7b955cabe5c979ba4cec543637425a973419ca4acb1beecc781
++  __DATA_CONST.__const: 0x60 sha256:f92689364c27987f8b715f15a52faab3528e5f0f4c86e9e3005e83e22a857abb
++  __DATA_CONST.__objc_classlist: 0x10 sha256:0b0bb42e47760ec54f729675b65bde2465772427d039cca953753ead18905473
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:2616b912cf0a3e98dfc3a36157d61ef98762ecea6e8811ea77a2f3cc0c130634
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:ccd9170be0782c4149d8ec080891c9e3d22ada7865079a78c2e629fc22a0ea54
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x100 sha256:615796f86ec275e2281caab7b86d8570d92fe899a1ffb1dfe7ea22c6c833b5bd
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:6bb7ce27028197137ebba28025359a2207326b325726f2ae46a795c90f18733d
+-  __AUTH_CONST.__objc_const: 0x120 sha256:4d21b8d130124f098aa5da2da8579960112c824c521682a9ee8b509bfb3db9d7
+-  __AUTH.__objc_data: 0x50 sha256:cbf3bb0bcd4e6a2d3f045aad676f6153a772e42ccff71f62f9260092704bf904
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:773e5a84bb8b0e99ed3a22142f874ddc94a7472402b55c12de16753b16c2b0c6
++  __AUTH_CONST.__const: 0x100 sha256:a37135daf075e10ebf4ad97b79d4af93cc5c084aae4dba62b13ff32ead21b858
++  __AUTH_CONST.__cfstring: 0xe0 sha256:41e3ac986ecfdad73f6f76a233b08490dfea77f55a041ef03f67a0434ae8d7a5
++  __AUTH_CONST.__objc_const: 0x120 sha256:1c8e22f614e7d9aca48ee96e4e4e5a884694b01777918410dd80dedcf9378827
++  __AUTH.__objc_data: 0x50 sha256:8c81f6d8c2102d87325cf07342165eb4ebb53f2ff725ca2da72a31c5796367ed
++  __DATA_DIRTY.__objc_data: 0x50 sha256:090d963f676c4e56c518cec0f7fca93ab88e41ba07c6ab6d4d8bfb00ab4550ad
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D0178D0E-EF88-3009-B7B9-DAE412513A2F
++  UUID: 8CA1D055-475C-3D40-904D-FE843CF9703D
+   Functions: 13
+   Symbols:   72
+   CStrings:  27
+Functions:
+~ +[AXDocumentManagerGlue accessibilityInitializeBundle] : sha256 576a1d99b548dce1a66fb5f81919b7a11d5dc7578963fd05b401848aa36a3366 -> 887a29395ee8703db138478c135a8429371328bc43fb5cbd4a7fa438e0b02c9f
+~ ___54+[AXDocumentManagerGlue accessibilityInitializeBundle]_block_invoke : sha256 ef5bb84a5e012d9a7c29206b6ff72239be90ec2ac68bf16fdbe8e84845c245ee -> c5314285c8cfa7dbfbc9f2070bee4948866ca700b2bc441e6a87f86fe5661367
+~ ___54+[AXDocumentManagerGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 26b7543c5a22b980f32fd630a3a44c4aea111c4ebd85224619540ae29efd56c0 -> c709dfd8f5c60c6324397815193dc4d9dcaf81511322fae4550f1756e5e0e836
+~ +[AXDocumentManagerServiceGlue accessibilityInitializeBundle] : sha256 4c446edc613ff982f08f8d453d2fe3046ee72d2b79992cdd80b58c44384c36a9 -> f813a15fb63b1adc327dfb29af487dec34bbf7a12e36524ad95f6c638ee62606
+~ ___61+[AXDocumentManagerServiceGlue accessibilityInitializeBundle]_block_invoke : sha256 067e1f94e644c3d06866762f8e9d39e50c2b56d14cc85df1119404646185508a -> 32fd0ba2739494e296e30ca00f82940ca3f9aa7417f525be284c84201e6c76b8
+~ ___61+[AXDocumentManagerServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 1310493fff3bfe636c9e03e0569767f3170a11ff9ac32dbbb8fd47c68ff6bc36 -> 0c1cc8880420dd575c9938cade01327db8361699ecdab9385419d64ffc8436bf
+~ ___61+[AXDocumentManagerServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c8f96a4e55e59ddbf57191f6efa1045e8fe1c6f9d231d1a1ee4ec4318550cc0e -> 39b6f16f203eb15539ec3644908ebc2bed809171ad4ffc94f89d4da9fbbffd02
+~ _accessibilityLocalizedString : sha256 18185e322e14ef849ac2013fc86c26364bfc67125384fdaeaf547ae843ca1911 -> 0a306be0b08a456cf9dca34ffbe428028fa0d13007b0c0915b2ae0fd125e4b2d
+~ +[AXDocumentManagerGlue accessibilityInitializeBundle].cold.1 : sha256 1055962c2591da524d7721d39fb6310c9c98083c893b6589ddb5adf0e29ec1a7 -> 12c92e6713b7cb367405c7e7f952d733f1d34cc36284e46cb930355872641cec
+~ +[AXDocumentManagerServiceGlue accessibilityInitializeBundle].cold.1 : sha256 5f9fccf61dfcca03d9ace8ab62ea6f912779f335fa758d0dc16f4f9680176e5c -> f41654f12fe40029f51f0b6bfb6f0606652efad1e149e97ca200679e3f04996a
+
+```

@@ -1,0 +1,90 @@
+## IVRConversationAssistant
+
+> `/System/Library/PrivateFrameworks/IVRConversationAssistant.framework/IVRConversationAssistant`
+
+```diff
+
+ 2.0.0.0.0
+-  __TEXT.__text: 0x1520 sha256:847596bff23048047cb39dc60492c7e1225523be5bf828ecfb2ab0640325bfcb
+-  __TEXT.__auth_stubs: 0x200 sha256:20e29d0ae5497ebb56d74867399690ccdc8107a1790bb1b75f3e2f21fcbb2d55
+-  __TEXT.__objc_methlist: 0x120 sha256:a9e6ed29aa54f45546fbb96b1f6ba966d4d5225fc393389a58b4111299e03ae7
++  __TEXT.__text: 0x1520 sha256:a9a56ea9f5afa422f9fefe14d7ab9c30057ca48a9067067937f1ca072b10bce5
++  __TEXT.__auth_stubs: 0x200 sha256:a57bb2b644dd996b4b248d6d8d7075d4d1d9fdb26e8bb39b32f2916329b24444
++  __TEXT.__objc_methlist: 0x120 sha256:e99bdcc4d7917961ab70043f39fc181ef9a5abc273f9e061f3090bdb01f92b2d
+   __TEXT.__const: 0x80 sha256:a1559b7f2ae30b1f27cc56d0d0c61f2861db22bd1c98a135a70dc4c29e82e5d6
+   __TEXT.__gcc_except_tab: 0xf8 sha256:44c8a5048814c7bb2dd4eb02ff08f454e46cd4e3cffec840f5e8059c10a743d8
+   __TEXT.__cstring: 0xe4 sha256:e3ef7b179014caaa8827bb7e7c39d6f40cc779899c9c235c8a9a380c1abe3fbc
+   __TEXT.__oslogstring: 0x21c sha256:6d9921fbf4b7af2abed3c433357adf7833ec6f958081513c98f34e7b9312f2a2
+-  __TEXT.__unwind_info: 0xf8 sha256:764548ed4d19c6280f558810c15e9e2e4b5ecbc6f953a59ccc96740ab8ef6a7b
++  __TEXT.__unwind_info: 0xf8 sha256:77dbfc594bd96e5ef12441ed02f36e0b5854313023736a0034fc2e2a579e208a
+   __TEXT.__objc_classname: 0x57 sha256:1831afe3622e94dda3417b02a2a32780ee8a3978e8a6c74d46568677360f5d09
+   __TEXT.__objc_methname: 0x378 sha256:d7336feba8fe14b57456a812a3ccd3d44ca2332ab6290d93fa6e779382d44d65
+   __TEXT.__objc_methtype: 0x108 sha256:93b3a09ccb6429c23325da553e384807cb627c886085728a1a28286708236d46
+-  __TEXT.__objc_stubs: 0x300 sha256:3d5cd6b3f83a6bebebbbc34d4a576699c1c876f445d2166de2e31d8ac07a8c0d
+-  __DATA_CONST.__got: 0x40 sha256:ca3594564ed27dbadfd8204efe7529fde9078466cb6a0d188683d1072a58b36d
+-  __DATA_CONST.__const: 0xe8 sha256:b548f6ac1bb1495b1e4acba808e2dfa510928d87f12366f581a4f5953b9e1884
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:81b541f2012ef113ac97bb078ee37d8f27342f79b41fa7b7c65dcaf7cd2f214b
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:c38583c8b8c946901d6ca6add0a099ef4586b0d0758c37ae5da676ee77e03add
++  __TEXT.__objc_stubs: 0x300 sha256:b613a8e23917b3f63313150d7d6d6bed8f7c05e75a8e7b4ee783ec127d5dc572
++  __DATA_CONST.__got: 0x40 sha256:2c70014eaae4c81713db0a8a967d44a30891387385fc68934e4eeb9f5b6a7970
++  __DATA_CONST.__const: 0xe8 sha256:ca1d406c7ff3bc6173010f0c1498fae7aac04b5bc7643d3b811017eec9ed07ce
++  __DATA_CONST.__objc_classlist: 0x10 sha256:994289bab66ce69c5024b13475566906361e912cb564189d91cc69c46d4ab7fe
++  __DATA_CONST.__objc_protolist: 0x10 sha256:4ef6f445fc874a92f44a0cfd093d43ed131ce698be3fcc4f94c2127eaf449d57
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:e55601ca27861c0e31cca440e775cd8cca9b5f175deb87b962a4847168024a6e
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:99cffc08d6f33f3e40a2308141cd58f6eda5fc2bed37d913f7c3210cefe499e4
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:4b577653072b2da298d7c457c16cab7550b015df43a97ba27ac4019d379922f9
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:bc88c85f15e4162734c0447c374501250b8e7952fa80b07a82ebab7ae9c704f4
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:2f729c19b88ee2ca2f3f73ea1d379da9ba16f7acb8ef8dedffc73f61f3f88aa6
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:4dfbb6a625b8001949eac8d6dbaa33a46122308a5f28182f4a187667f5e08abc
+   __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+-  __AUTH_CONST.__const: 0x40 sha256:82a2eecc8606e24a081079c82d1bc5be505bed88f822da670da1358958ac1794
+-  __AUTH_CONST.__cfstring: 0x80 sha256:f157583da35d0d445d0f0493c2784cc3221ab7138000ffac50d29accd4994a28
+-  __AUTH_CONST.__objc_const: 0x238 sha256:202d2c1d54f8296b3fbc136a13994df830841724d9db4328c419edd63893930d
+-  __AUTH.__objc_data: 0xa0 sha256:b2171c861a38bfeb92e6f457b218f296c2dac8e6017bad1a9f0bb6f508f9d4e8
++  __AUTH_CONST.__const: 0x40 sha256:d74660560ceda86598c582dae4b09badde4c4a3d9d361783214a9ec551ac355b
++  __AUTH_CONST.__cfstring: 0x80 sha256:f2294d2c7d12f2e01056fe4071775fc3b150d9315546d89175a318b451e500e6
++  __AUTH_CONST.__objc_const: 0x238 sha256:1c059f0f0306a9930888dd665f167ca288bd8a06bf3e5d66938d686e4c62c3d1
++  __AUTH.__objc_data: 0xa0 sha256:c99b539adb27f69fb5b414b3714d626aeb914bf677dcab6af1908e4ee88e4939
+   __DATA.__objc_ivar: 0x10 sha256:bc143cbaa16ea054dff41c31a149d77c5ff8d2139ee15ad27b7e5406c98e90b9
+-  __DATA.__data: 0xc0 sha256:013f31abd08337f6e51ae8ccc0d7846e9fa6e76e1c0d4fffc095eb8ee139da6a
++  __DATA.__data: 0xc0 sha256:8303f5491ed969275ab4cd1d80a7ea093c8cf3eec593df1b093e1e4bea721524
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1C3CC510-331C-3C26-92D4-DE6593216E70
++  UUID: 92F23FAD-2DA8-3492-A834-6851909FE9A9
+   Functions: 35
+   Symbols:   184
+   CStrings:  89
+Functions:
+~ -[IVROptionStreamData init] : sha256 8e0afcf5766c8007cff2abd58e1f5d2aed084e5fc31b2ca64a9a629ca537a734 -> 52b89a9131eac5e6a57b8bbaffc1939b9a44ef7898d50fba754bacd2d4c68b3f
+~ -[IVROptionStreamData setOptionStreamData:] : sha256 b043baec988d7f7e3a2e3e649e66b7c991ce776151ff16358ff74edb7263c97f -> 07b5fafd9ac54cef5b81902d356cae526f8f99ede9d09b9c1f59336dd2f2c710
+~ -[IVROptionStream init] : sha256 11540149d96872767e0e06d218f36672d4550892f2a9fd3d24dba3febd9a6f6a -> 857fcfb3920b747366ca83765e6d75f0781c79ea75b859966a6b97ccaea3ca84
+~ -[IVROptionStream dealloc] : sha256 a475a4db04b28e5669cd736701d9875884da9b2a0a592aea39509e915fcf688e -> 5f8497a1f01db6448252fa84169251f0d1d726c26674779fe95e9488308cf3a2
+~ -[IVROptionStream initializeConnection] : sha256 893afc8ff18bd8d067c1945c775596bc68bc761df7a4e40d1db58fa993a8e71a -> 6a12b544563753108bda138ecc6fb7e4f6ff5dd542ce632d6e4765c7e81c5fee
+~ _IVRCADefaultLog : sha256 1ce6ca9d3aaa511db0372b22650e3ba2a4490b01dc81952d5e471403d03d7df1 -> e1034b1ac9278d6a3c667faad018cb540ba5d26ae5631356b38d3d2205c51efa
+~ ___39-[IVROptionStream initializeConnection]_block_invoke : sha256 271fdc7c3347fe1c13557859e3a1234430ea3e5f5280bc15dfb84f4cc5e7e9ec -> 80104cf35bce1e76c514d63b5002e15d5fe26affd48b707878a9c76c41a762bf
+~ ___39-[IVROptionStream initializeConnection]_block_invoke.15 : sha256 86da41a6cedb9fe99fe3d9cdf60c5c6bf7ae23f71abfa56915ac9dae907b5eb6 -> 12e9912801ad0c9505db28136e3b908ec87bfbc9cda66e15b720b542fe727749
+~ -[IVROptionStream startOptionStream] : sha256 f4222f47188941dba706d762b7f4912d1decd724b22dab386ee6de816aa6bbc8 -> b9b23e57b4f217792f09d61a2ccfaec8924f91c8739717daa9d84ac568818e2c
+~ ___36-[IVROptionStream startOptionStream]_block_invoke : sha256 895b33ce04c5a279fd9fc05171edd5dfc7d6fd9ff6e474b818e1bc038d321b59 -> 142932590876d4baa261dc43794e1e70330f729f1244fbf3240fc3617b2678bd
+~ -[IVROptionStream getOptionStream:error:] : sha256 334691410ee6b6445a2320087a6fc1d6139517035b99110701461ccb0afaac65 -> 6c22b2cc5818cea7629ecd545f06c1f092a8b7f48c0b4603244537e02189ee77
+~ ___Block_byref_object_dispose_ : sha256 ba512f3f8082f95bfe26cf7b7f09fff0d99ca5f1db22c16007f771958d351888 -> ddda62ece2d6411fc4e1dd5336b847523db3484d4c935901b807d0df2b6e54ae
+~ ___41-[IVROptionStream getOptionStream:error:]_block_invoke : sha256 3c475ac6aca6cfc6567ed8615ee48c71bd1609fac323c7ba6077538e019c2d88 -> 33aef453341a99652dc5d086bfebd9a13033c008a77d820e996b81de0bbced56
+~ ___41-[IVROptionStream getOptionStream:error:]_block_invoke.26 : sha256 beefb36c73061d6bcfb6dddd3ca6743c833d873339fb92d5a68d0fdfe4644598 -> f331b964fe5731d840b8cb5379d1a39466fc0d87b64ebdb773155faf979d2423
+~ ___41-[IVROptionStream getOptionStream:error:]_block_invoke_2 : sha256 3053e5de79f6679000186c7315e716cf70466b560408fe42894e29bf0bba189a -> 07a21d693c4a1bbab8de846790727438b68decece6e3662a15a15ac658c62a35
+~ -[IVROptionStream stopOptionStream] : sha256 1ea93021b9ab1e1a7305aae190fe7e41fff9ef15bb1a3c805649a882b250c514 -> 022fa696ed696dce8fa9eda12bb3f1f8eda46da215c3b94688d6012590155e60
+~ ___35-[IVROptionStream stopOptionStream]_block_invoke : sha256 ae4452824ee4f9ea361d9666a9d599a0ad0fd782234d689ae20c934f52f94bf4 -> 8e868c7c384488ed56f325b5503050921d64a6631bb92cd9b1fd507271d5412c
+~ -[IVROptionStream userSelectedDTMFOption:] : sha256 69fa1cbb21df1537a17c4ed695df6726465732edda81fb3f69fed7d9fab26418 -> 34f1612ed5f168c681290f5e31519f4b86203e3f7d53cfe7a0c8a89258fe91f0
+~ ___42-[IVROptionStream userSelectedDTMFOption:]_block_invoke : sha256 3b07ca97e216538b8830461240467bb2c3980c09309aa350b30993046acbe39f -> d2b6b747e7eb389768c37ca7804d23531150ddade60a589381f277144bf44ad4
+~ -[IVROptionStream setClientQueue:] : sha256 bd87d7f012a91fbfdd09a32c181909cb51134ea7d4505a808880ad5b4b314d89 -> 454f1711b64c81f5372fede70b22795ccf151982a72703636a9ab21f3879852d
+~ -[IVROptionStream setServiceConnection:] : sha256 454943c24c80b66fb510aaaa58d8aac59d497c9a7e7c00af24339a495c42c85e -> a5b6c3c9030870a486592a153fe15d857b067b5e8e06d781569bf8cfa5fc4aac
+~ ___IVRCADefaultLog_block_invoke : sha256 8c43a1358a5fb59a39fcd26a61853ba6a93354099ac20e167147a79521f940d1 -> 4ef6f64fdf3ddec851df874db031a2e1cb7a031e78f106d22e8e97a26b83a58d
+~ _IVRCADefaultLog.cold.1 : sha256 a18b58301f1289ff9244c4bbccc09e07891c5b2d0ef0142b8254a7fc81cb6634 -> fea0310fc5b67fb9b7626ec903d22b038f8e2ffdaa15acca1331166614a2f6c5
+~ ___39-[IVROptionStream initializeConnection]_block_invoke.cold.1 : sha256 fe203366a386c6159496bc9564d36ffc1e356dfe83030734170be4966def6871 -> 494acaed8ab471034a0d13775ce210ce975f555fe7388e1e8045ad08bbb3ba2e
+~ ___39-[IVROptionStream initializeConnection]_block_invoke.15.cold.1 : sha256 7e3d52db157ec8fcc34908620acdb93458a1227bd46ec927e56b519aa34c743f -> 97d4237bbc3e9310460426edd155d7ecc617644ad96b6de835e1c251680cca25
+~ ___41-[IVROptionStream getOptionStream:error:]_block_invoke.cold.1 : sha256 0813d9fd775aab94791d4d8b9bd0396922c13d36441ccfb04e24f153a7800ffb -> a197b4f20c3d8d27873a0082262530094b3ec07d65a82ca80a4c7ccde34fd6d4
+
+```

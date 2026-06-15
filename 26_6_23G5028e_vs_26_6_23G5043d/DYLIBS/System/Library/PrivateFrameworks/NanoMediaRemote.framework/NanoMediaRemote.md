@@ -1,0 +1,69 @@
+## NanoMediaRemote
+
+> `/System/Library/PrivateFrameworks/NanoMediaRemote.framework/NanoMediaRemote`
+
+```diff
+
+ 2023.600.2.0.0
+-  __TEXT.__text: 0xa4c sha256:8101bb4b77d4dbfa77472619811ca201541ac0f48d32ecdb4b83c2c8aa727780
+-  __TEXT.__auth_stubs: 0x150 sha256:4f969f37e4ef5a7bf7ea43e05fe0b9ec1d7ce8b573cf2b40a3a2a1265f6e2280
+-  __TEXT.__objc_methlist: 0xd4 sha256:e025f5f0f25f1d8dcde48534cb5694437d07dc4471d0a8358d2e6a2ea14a822f
++  __TEXT.__text: 0xa4c sha256:917ba148ced03c9a49ab75d30503b6f2e695b4df04acbcf61c0ea569765e324e
++  __TEXT.__auth_stubs: 0x150 sha256:c3ff9e7ed2f35d552122ff8dd50410be2a1203bce5cb48f717bd1f9ca3daa6e4
++  __TEXT.__objc_methlist: 0xd4 sha256:e4c3936c501b8b07ed01931ddd13fbe6f341f768309dc401bad97c8710920a75
+   __TEXT.__cstring: 0x13d sha256:f6fd4c0d9ea6c4f1b271ba4cd3d3683d6a1c0eb9c369ac7b5258cbeef12c618d
+   __TEXT.__unwind_info: 0x80 sha256:4597aaeec4692fd3610fb43ca88d1e762f74f1ba56fe80b1742b1dce666e21c3
+   __TEXT.__objc_classname: 0x23 sha256:ee2fa79728d836740bf87d3112122cf12e17c5cde46465678f4736b4b9de6c7c
+   __TEXT.__objc_methname: 0x51c sha256:cde3829cd31aea65cd6dc605a4afe5eca5b64d0961a0349e1c60daa7691e5ca0
+   __TEXT.__objc_methtype: 0x46 sha256:77a3b548de065abf26b662026c3f62f07d72c310a7d4f5e237326625b8ff90e6
+-  __TEXT.__objc_stubs: 0x460 sha256:8977ee3ae0fbc16b130e4c83c6e2658725ea4dd342d9215dcc71eb7e46d12a1c
++  __TEXT.__objc_stubs: 0x460 sha256:d35a337ed1308b4eec708730ad562de99a80391b12a41f48264c8eb4d00903e3
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x20 sha256:04918bd598164b639d55a3628df8d6c5cb3ded2cbd15f1a8f3f64ee76e01d33a
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:7e2a0ac4f8a4fa5658dac529ac6cc74f7883e693ca6fdb6d477b5907fe93d1bc
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:bce5385e55bc52770f7a920223f4cc65664c610dafcf23d7958b6f645dcb4aa3
++  __DATA_CONST.__const: 0x20 sha256:ec8841867dd8e83980abaea0a9908110f8ff99038f8274127b9d9a774d530407
++  __DATA_CONST.__objc_classlist: 0x8 sha256:cce3d33726aaacef7ba6e0252912854f382e553468893a5fc98ea80d89d0091a
++  __DATA_CONST.__objc_catlist: 0x10 sha256:9ae1a6fc7a561fd46c9616c04904a0f384b67ac41f832d0445bdc93a271ce4fc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x160 sha256:d5073214192fad372e4369fdd2fa9a0ba91b57dba088c0171886288931e83575
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:7e2a0ac4f8a4fa5658dac529ac6cc74f7883e693ca6fdb6d477b5907fe93d1bc
++  __DATA_CONST.__objc_selrefs: 0x160 sha256:3de02a9f9a7f177e22f01d1ab1a0e15b8979c99e0db7efaf777abeb6709fb0de
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:cce3d33726aaacef7ba6e0252912854f382e553468893a5fc98ea80d89d0091a
+   __AUTH_CONST.__auth_got: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __AUTH_CONST.__const: 0x20 sha256:861f82516b0fe22e2022548fd011a578a901f348f5e0a307a96af29ef88753c5
+-  __AUTH_CONST.__cfstring: 0x2a0 sha256:5db37e9bf44bcb1e34b5bc4aa723ee978f3544116f3b1c54e0eeb4dd4779d872
+-  __AUTH_CONST.__objc_const: 0x1f8 sha256:fcca085a3799d5f5920c0cd20b2d22e45f3843c7f150d40cee12b9e4bb688c05
+-  __AUTH.__objc_data: 0x50 sha256:3bdc60664ec231c2d3f5f7628679182153d133d32966c26e24d9cda92132a1aa
++  __AUTH_CONST.__const: 0x20 sha256:5164c06d39a02dfb982d9f4f5efaad0170a34d28dec7403a2c2042db15bb32fd
++  __AUTH_CONST.__cfstring: 0x2a0 sha256:489df14ddb940c9ce4e30daac535d02daa34c5b7b795771ccccee82a280b424e
++  __AUTH_CONST.__objc_const: 0x1f8 sha256:d3fb3b4a26168a79b3369f2d79323d8928bcc7d395002adc3819930afddf96de
++  __AUTH.__objc_data: 0x50 sha256:a28853650d132bbbddfb30460098dfbd84958b2fe21cdf6dc78b422d7cb172a7
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BDFECD0A-AAA7-3000-A759-E7BB91108BBD
++  UUID: 2331883F-0869-3B0B-BE9C-5277FF886D03
+   Functions: 16
+   Symbols:   120
+   CStrings:  113
+Functions:
+~ +[NSBundle(NanoMediaRemote) nanoMediaRemoteBundle] : sha256 9c53577d8808d28578f42528f1b1952396443f5486471ac162fe0e6f1e5bfe88 -> 6cdee849246e10468596c8cb01d06d810e51a068326acf20d4346af7e27d396e
+~ ___50+[NSBundle(NanoMediaRemote) nanoMediaRemoteBundle]_block_invoke : sha256 8645f79afa05cc27b6b8e2af4a0e2c7295886d27dc64ddbc157151c2449a04d3 -> 1d6bde2534b9f4d50211eadefaf147acac00c1563b2b804a54e6cbab5f939bcf
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemPodcastsPath] : sha256 b1af332962ef60a6d82a05dec91cb80cde82bf9f9fee5ec9233e24d0fb7d36e5 -> 3ef33589a80319055e488892b7d88efb3108b11a28eca7400eec002e944968f4
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemBooksPath] : sha256 12f0ccda9fe51592a7d56947396b689ce4d8b8979c6758b0f2ae51b823b1d036 -> 761ddf4ee369cf50c0ba8b51a58ff7224b51ecd834447041683803191cf697fc
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemWorkoutPath] : sha256 aca261d727c0cecadf84b5c7c612c4ed54eb0ebed36c4d294367e285015778bd -> 884997edcd4054e16b75d45798e551f57f2326bab9dd5a81f4efbdf9c0b75ecb
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemWorkoutGuidedWalkPath] : sha256 150fcb3c8bd25a4eb0dde144292b4cb9187964d9591a68529d688ac1c3228b04 -> 3b49120683f942e85c233ad14e91e4e7996980607bd49365c81998f687b7ca4f
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemVoiceMemosPath] : sha256 39723f9eacec1b9e128a5e78ae412e19cadcd13e34ae90331f1957882e358f9c -> 7596d9ce6a6d2e59d58281c10164d67bd0d48eca9fc4cd547acc42713d5852b5
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemRemotePath] : sha256 8a952d4311b1c0aba13fc89a1f1bfc0ac3679b0d2f49a89e15217f296afb5b4f -> 90463529231ca20df6fbcccff7aade885ece3a0583a35cf6ab5676675799a91a
+~ -[MPCPlayerPath(NanoMediaRemote) nmr_isSystemMindfulnessPath] : sha256 157a429b2fbbd87d432667af5fe9f39b08d07cc5ddbabef9fc70a95c118ae89f -> f749670d5255c1e03268fea167b68888ed5f2b794ebf2b3d06e3ef5a1d87674c
+~ +[MPCPlayerPath(NanoMediaRemote) nmr_pathWithNowPlayingURL:] : sha256 93d3550e4920e912f1d5835eabeae808493c80d7080df5bab5cc30917f30391f -> 5a1bcfd118937caab8f978a0986b8d7d401bd0322efc5e127103a5c8b7e290d2
+~ -[NMRAppLaunchInfo initWithPlayerResponse:] : sha256 a183668a008a4800cbc643141261c872d8a38edc233be8deb4023ef459f4de83 -> 979eec6099d52a874092f9b2bbda84be3bf76ae12c977cb009e60fe38be06d90
+~ -[NMRAppLaunchInfo _launchURLForScheme:requestedPlayerPath:] : sha256 446cc3713bc726781dd880999c63b7ffc7dfa6cbbdc1ac0e1a55b4cd213c299c -> c63ff51c1a873237b2a70f7da801c2fdc55531e3abd10a2ad2e92f6639d9b22e
+~ +[NSBundle(NanoMediaRemote) nanoMediaRemoteBundle].cold.1 : sha256 65e3fe8424f007c338f83d759af32ee8803544ae6e6803462c09f64e27b4788c -> 4d276de7edabcc54a4dc865d72f4bb33df1ee2ea90d01debe3333c88d8fad70b
+
+```

@@ -1,0 +1,90 @@
+## AGXGPURawCounterBundle
+
+> `/System/Library/Extensions/AGXGPURawCounterBundle.bundle/AGXGPURawCounterBundle`
+
+```diff
+
+-351.1.0.0.0
+-  __TEXT.__text: 0x226c sha256:4105d69bbcc2400860f1be3943ffefa4be2c874a19c58e380f6975f5b37a84f9
+-  __TEXT.__auth_stubs: 0x140 sha256:56ffbe820e0574700c7c1ce18f7a0b60f2c59547a10682067267a56476cef686
+-  __TEXT.__objc_methlist: 0x1d0 sha256:982a1ab82dd9926462722c85bbb31953dc04229e88d13912e9d30bfc160a6f6b
++353.10.0.0.0
++  __TEXT.__text: 0x226c sha256:313268a3ff3a0b8b5a20c27b34402b62f4a35ffd71c41d61203582d7e9c257e5
++  __TEXT.__auth_stubs: 0x140 sha256:3ec78e2cda96689b9117f3c3f0fb399215ff24b1fa8f708cb267cda438fb4d0e
++  __TEXT.__objc_methlist: 0x1d0 sha256:268010524d6f885309d0eab2d8b9e8bd487a7fbdcdcd34e1e3f58ea721355717
+   __TEXT.__const: 0x8 sha256:e45004ca53f91696b34de41577621e88d0cfe5f84d681aee7a76bece9ece96c0
+   __TEXT.__cstring: 0x363 sha256:e823c19b0da107db0459f75ca392b050aa3a71a0e5c3ae0a43bd12aeebca5bfd
+   __TEXT.__oslogstring: 0x4d sha256:da31f73f81f3b31d5b741639ae47a38267237cf8279d0ec499fb4b1c1b0c6562
+
+   __TEXT.__objc_classname: 0x49 sha256:26b54bacb088fe7eca520c6600584a4c8a5932d2660f86f776be09858eb6d915
+   __TEXT.__objc_methname: 0x717 sha256:8c2874db390bbd40dcf9a4cca42f57304a916dce1e44271d136b99159bbf99d2
+   __TEXT.__objc_methtype: 0x190 sha256:a26caea6f85a9e706e4c928b0301ce4cc8cc5642c3911b7331680c64cb88bacd
+-  __TEXT.__objc_stubs: 0x5c0 sha256:12daaa4be0d6e010683cfc78ac0b62b6e6958255aa7db1b6c474d3c7168da58d
++  __TEXT.__objc_stubs: 0x5c0 sha256:3cca4f64439899e4493d48f973858e649dfea140e86b973a148d0261c77553f6
+   __DATA_CONST.__got: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __DATA_CONST.__const: 0x60 sha256:5880151734057f0d5aee8c25f1b6670c8801fd5a2595d9eb3b2bd2b0e818ff47
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:88d1043292a4005f807127940fea88880d2ced40330591de3b7b6012a5e90fe9
++  __DATA_CONST.__const: 0x60 sha256:c2ef15d949f2965410f461b5a19c8de3e1a2011f2f3d796f51dd4706c3d5839b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:a617ddaa48e9e619073eefaaea28fef30fc1e79f6602e684be753a2f1fc7bf70
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x218 sha256:4d7753c0f1fe080d6c2f594e1f6d3ac76f805526c51e5c28e3af69c72c39f637
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:bf3b2f0fa0110c2be222b7afbf739bc272f9ef3a9fa6c38d8cc1beb035b7b3d8
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:2036cfa4bd47bdcbe480f96efc23a67c95cb730628ec432e593fa965598d468c
++  __DATA_CONST.__objc_selrefs: 0x218 sha256:2b0029c55074c63066e85a24afa8c8bbbab09ec6ac23cde9812e1330d545726f
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:7c75d4d47d19ebc31d14f8417a95e58fa49a0c87a724d6f4814cc40e6503b953
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:8d90ab786b34672fffeecd943ebea304cdafcfda58aaa440b8e63a70179d4068
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__cfstring: 0x460 sha256:f94bca5d10ce4c1ca1da3eaf625e771cab6aae85b6735fa6cd648b3d560e30ae
+-  __AUTH_CONST.__objc_const: 0x340 sha256:b9a8218477d5d355368116b3fa214c4c4e05b2ae7a78ececbbe6ccb9a193db68
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:0e3458ff35c4d777f5d161a835c9c6ea4f5c3e880e9ef1b5aff19420abbafaee
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:6fb628612523cc9bf7bc073cd45bd948a98e0f395df8c7aeb9120a669b42dda2
+-  __AUTH.__objc_data: 0xf0 sha256:e9b5c5e7895fe4abc330b565f43fd38cd42267c58f530813c4389cc576e3261e
++  __AUTH_CONST.__cfstring: 0x460 sha256:f9bc72f3e77d61214b60184a02f45e15c70a567b6732473925739aec7dac1747
++  __AUTH_CONST.__objc_const: 0x340 sha256:29747c42fdf0595da6c8ad88adafaeff50e4adebdb97dfb14741c0ccbb415166
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:f305e999829a3c98fd985c68c879a545ddb42d62910d57da42cc7e27b5e7aa8a
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:ca8882085cd0abb41fee2e58ad7c2e07207feafd3e368c2c6457945f96430cc8
++  __AUTH.__objc_data: 0xf0 sha256:8b439eec8dd1c1cc519e219d658e9a064113fc24e54ff6ef03f302b96f8a55bb
+   __DATA.__objc_ivar: 0x28 sha256:867b63109a5b31e08d7ff88c739bca1da43a5eef7be7b9440d6d75f8d44407a8
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CF6D0D7B-F233-32A3-AC2D-FFE8FA630D3F
++  UUID: D705A92C-1A44-3F98-BCD8-A50A2BC9BD52
+   Functions: 36
+   Symbols:   198
+   CStrings:  183
+Functions:
+~ -[PollPostProcessBuffer dealloc] : sha256 636827fbf41ef2c35e322e3bdb35ce7a5942ff86e72285d24e48f26a3a0deae3 -> 1794810221a88b85174cf44c8c0a3eabac4f8d2cc1f469993032dc742f93878a
+~ -[PollPostProcessBuffer init] : sha256 7a543aba56a7e7292bb598f82756f142afbc860cfd1f0b8615aaf96c6c82b8d9 -> 4fea40f8fc7885d2e2999555ebb10e23ba8feaf452dffc35446a9a27dc634ee4
+~ -[AGXGPURawCounterSource pollCountersAtBufferIndex:withBlock:] : sha256 e1b897dab4272b1876fcb683293d40cc28536821078c887385ed2a61a054a73f -> 7276623f515b894231f73c7780a8847e8bfca01c8fb7e9eebe1e2a6b21890336
+~ -[AGXGPURawCounterSource postProcessRawDataWithRingBufferIndex:source:sourceSize:sourceRead:sourceWrite:output:outputSize:outputRead:outputWrite:isLast:] : sha256 7ee86495c14b7aea6b9f9f7b0190c7269b43e3ac22fb71c8c60adf900b40da2b -> 119c6225ae3cbbe4ff9234ca5143a0a67a9ab422b36d2d0ddcb6dcf0b7ea69de
+~ -[AGXGPURawCounterSource postProcessRawDataWithRingBufferSource:sourceSize:sourceRead:sourceWrite:output:outputSize:outputRead:outputWrite:isLast:] : sha256 60ef1a8c4ab38e2daeda92ab128ae814b80ae77aab45ee6da41286b8900da12a -> 070ed304dcb44bf28b03a9420439e15b5ca18692ca6f3d067b6f409ca5cc8e9d
+~ -[AGXGPURawCounterSource postProcessRawDataWithSource:sourceSize:sourceRead:output:outputSize:outputWritten:isLast:] : sha256 5f03c59cbf1e42c453ea62ebe38a1738e334569ff9d4593d83025f85aefd74ff -> 116d42f443c67dfde3e01a6e0b52ca2843b3f6a59896c303a9bb568ad8212e66
+~ -[AGXGPURawCounterSource resetRawDataPostProcessor] : sha256 0aebfe351080f7093c93827b3831383d8d5e1c9a87238a8220a389740bfab0a8 -> 1218efbf05e426beb209c93e2d4d04db89da4e5982c3427e0444e65c616c25ef
+~ -[AGXGPURawCounterSource flushRingBuffers] : sha256 7030d6b9168ac894ccae309b0983ccf5cdd10d714a92ef355f8af90c1ca98448 -> 8fb2290296845e2d9fb8c6345b8585be8919a8cd0acd6b8ab0d91f53d8e5563c
+~ -[AGXGPURawCounterSource drainRingBufferAtIndex:dataSize:] : sha256 cdee61c7e7d6a42c6f77e566dbb52c987814dff9e92deb69ba755fcc5f9b1341 -> d6dbe8228263910e898d398305b1d8c1491b5bd87621cf2a59ecf7957b68fb23
+~ -[AGXGPURawCounterSource ringBufferInfoAtIndex:base:size:dataOffset:dataSize:] : sha256 6c79f307c8e2102ed3535c7edcfb5cd9b9e54366198b6534cc0226139625dedf -> 5060ce7a2d2b8894d5308dc9dcacdf06c983a48b0cd675e8ca86b7fa9b440dfd
+~ -[AGXGPURawCounterSource ringBufferNum] : sha256 d3d2492b50086d28c6131c391476f290f8f9a82a4adf007c063e5f94d9e11563 -> 1ff8cf99b02fdf76307e0637834514f546acf07b79221b16090b209169c41909
+~ -[AGXGPURawCounterSource requestCounters:firstErrorIndex:] : sha256 e7d79b5161724690f36e96be773522986e465aaa065c0ec1e855298bc4f2eb20 -> 274c247d4e30996232b9d9f2bc14f815165dae6a2e45a3737915a78a91ec2e6b
+~ -[AGXGPURawCounterSource requestCounter:] : sha256 07b0f4951101c36679b7a092fd3cfe158a3eca8a59290f83f290e3275fceb017 -> 93c609cb22cf4f76e0518191310e0d9bedfaa147d8d1e3546973c088a8671344
+~ -[AGXGPURawCounterSource selectedCounters] : sha256 ccea94243b904519c9b43d83e5ffbdabd4679a4bab82ed7decc983edc2c6b5cc -> b131b12498aecbce69d1ef55fb63e1923794f528f9afddd1de2393e62c8ee467
+~ -[AGXGPURawCounterSource availableCounters] : sha256 cb2cf3e64be47737f5ad50184a64ecb496ca8a732ec277fc02593c75d812d28e -> 5af66abb75efeaf91290015d263b55d6b6f58875337d237d67a3289a322ae6cb
+~ -[AGXGPURawCounterSource requestTriggers:firstErrorIndex:] : sha256 ea3f3cbc119912943ebc557f0b1cba5ccd4744ad9ac9f21919230678128a73df -> 06faa185e6662420616a01565d3cc1f3165a2fca34ca98f62fc863cd0ee275cc
+~ -[AGXGPURawCounterSource selectedTriggers] : sha256 91057dd01d8c054470acb27cd813ee6a897a49618243fa97c47364834c876994 -> e2b720ac009c71decdc929679e14ff448a3289016e5006f4bbe207382c0d948c
+~ -[AGXGPURawCounterSource availableTriggers] : sha256 001f8af1d2eb1a2d4e7cebff771d2e02bdfd94474bd75527d000526ce81f2f66 -> d38d1799ac200cb572662714116eccd540a0f28659c538ee15011db45512c701
+~ -[AGXGPURawCounterSource isEnabled] : sha256 a0b21c0b33e6149fa8200c729396beefdb61ed078a4f8a8c339cd09c65f8c8b9 -> a3ebb2e28439308b269ce9cc83ae0c8051362c6e915aed278632d109d813ce9d
+~ -[AGXGPURawCounterSource setEnabled:] : sha256 4f2f883f1b247a27564214c5905d718407311740ad1cea47aa5f6562ef1c8e45 -> f653ae0908abf4b20a1b2a03203cffbe13baf58bd6e039a1e81bf65c021584fc
+~ -[AGXGPURawCounterSource setOptions:] : sha256 2be2ea32ca760bff5dbc9e771f73d2f67cd3793d2034b50e328ae0300d420670 -> 32d1092797965260ba898580822a60a1fdf2bb6accf187832282bc42c5e27ec9
+~ -[AGXGPURawCounterSource dealloc] : sha256 bbdfdc1bb5a6449cd72dfbdb6cdcab379c7b9093a88852b0f55c15089a3fbeb5 -> 3bf316b1417b809f64ac6ed8e5b2817133cd945a1ecb17121efbed9d2c03d8ac
+~ -[AGXGPURawCounterSource initWithSourceGroup:impl:] : sha256 d479918a7d693c7620adf7dbe1374abf1389fc702a9b54cb988cba796118a4cb -> 6e51b64229a7713fa6f9039e38d7c70b228e1bf36d17254ca6aa000e87f70768
+~ -[AGXGPURawCounterSourceGroup subDivideCounterList:withOptions:] : sha256 c52bb9ddad12c50ed979aa6fb1caa8d72e9c5b24c47be0f5641cb06fdf3836f1 -> 7fd4a74ba0f500a2f6cbd06523069758dc9e6323ee965605a70bc3eb87044755
+~ -[AGXGPURawCounterSourceGroup stopSampling] : sha256 9303590d62db34dc901acb0e38586f76a7f9d823eb2771c8b027717835c3e23e -> af249ecb1c5ccf241e72d0752e287e3595fff197f6d21cef48ac7f739b539966
+~ -[AGXGPURawCounterSourceGroup startSampling] : sha256 11218a6b14564e04eb9cdeabd142347d1a84315bcefe3b5b0fdfb2740bde5481 -> 9bbc5106c5303613ab200281eaf18b630d8bb84cdcb63b591afe78333a25eece
+~ -[AGXGPURawCounterSourceGroup setOptions:] : sha256 89c53cd77c081ddaf4a70e84c56e93a7584d0e43628a76ee62da16802fac04d2 -> 2a5d9d38a88c4ef54e1b924e179f51aa7e736b369089111a5b503e46abae8e0f
+~ -[AGXGPURawCounterSourceGroup dealloc] : sha256 84c2531eb728e2569fdbcee0efbd1e35e4e5ec27948e9588a67ca0f4dde51b97 -> 8657d35bbaa6936371e097ac684492f57fc2fbe1ba5f480412027912260b455c
+~ -[AGXGPURawCounterSourceGroup initWithAcceleratorPort:] : sha256 06b6adce5b88d21f109cd4fc2ebc974c559afc407a61607b3da87141e1a1bb41 -> 3bba4163176a6a8a75dd176853b0faaa674a3c5d3e1934379a37a0c9de636a76
+
+```

@@ -1,0 +1,74 @@
+## DASDelegate
+
+> `/System/Library/PrivateFrameworks/DASDelegate.framework/DASDelegate`
+
+```diff
+
+ 2109.160.3.0.0
+-  __TEXT.__text: 0xc24 sha256:5e71cd6468a4876deb427a92713ad54e40d0c9262a94965e2fedd71c1ea760a4
+-  __TEXT.__auth_stubs: 0x180 sha256:50ea7013466c81dfddd0bda13bdf7cd6971f7784d94acd0090101c93fb2d940e
+-  __TEXT.__objc_methlist: 0xa0 sha256:6ea093af2fc8d2490a13ab3b538b0028abd1d8fc39aa349f50571d07da22c43f
++  __TEXT.__text: 0xc24 sha256:6414dcab8b992bbb2915a8bd63da59d273bb586b7f2338732f098097e9fd1099
++  __TEXT.__auth_stubs: 0x180 sha256:c028de0896330f31bcc2422cd7c931c59a9c02abee372f6c4ae2d684c036449c
++  __TEXT.__objc_methlist: 0xa0 sha256:d05550b52de7c656bfbcb78f05ad09a6a1e79ec8f052b53e67e9edca4e77e1aa
+   __TEXT.__const: 0x58 sha256:f02f40daa8074932265ad9f3304dbc9eb7a395c66abd7c4ca49b7bed736b4fc0
+   __TEXT.__gcc_except_tab: 0x20 sha256:eac885cb5b5c9f5d62ca3b51aaff5c930587a3baece57c0ccb010227aec5cf00
+   __TEXT.__cstring: 0xdc sha256:15cfc75f3266d4d01ffbc04c7204fad1286f39cb18a4159b5e6c8740ae9473b8
+   __TEXT.__oslogstring: 0x125 sha256:47f7c862479511e2a0382318e5db67d62d8a34e67107aa91511922039f05bd9b
+-  __TEXT.__unwind_info: 0xa8 sha256:a2e09c8c87f7e1f9aff81dc241fdb74300d7923e464d45c4eacfdd0dc9c98c03
++  __TEXT.__unwind_info: 0xa8 sha256:be3dcc0a5d17b70fbdd7ab42d2b84f994e3d100cc676eb59e13b0c9b852d17e0
+   __TEXT.__objc_classname: 0x29 sha256:a07f8fdf6663fa622b401d3dba60b67fd6d4b43f3c1e9b08bb5fd6cbfd9c2b35
+   __TEXT.__objc_methname: 0x20e sha256:6df6eac074d5de02f4c3ac83c93d5d5369e9cc8021585e3053f4a73858501599
+   __TEXT.__objc_methtype: 0xde sha256:ba2556a47f36baf61e602acc12e80e32bec545a852e7ca45297b07d640953db9
+-  __TEXT.__objc_stubs: 0x180 sha256:3ca2d7790b93209fe4d246e082d5044022707b9c52532e932f0e307e9f3d6d86
++  __TEXT.__objc_stubs: 0x180 sha256:c9a1b48dea367e9721fb737b3cff85a25667510389e71caee9fa608107d2f4f6
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__const: 0xc8 sha256:081c6efb4c4a1a0818bcdb63c257ff9113a09e3cdeaeb8daea6d7cb4cd42df32
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:d7d19b23d3566cf00da889e077d10397a2d50fa97b252d91a3a6e24db4b63cb0
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:8be5e18489c9b4954190672ba0e46fb0f989547abc5cc78cb88a4cc8b9a16b0a
++  __DATA_CONST.__const: 0xc8 sha256:071832e93fc7238810ce7f33cecf2b03b4217d117030a863e3852f25525e8070
++  __DATA_CONST.__objc_classlist: 0x8 sha256:6889f3443eb8bcac0bd46bcf17fecd8dd04397d7596e09cf45afdf68d9b2afb7
++  __DATA_CONST.__objc_protolist: 0x8 sha256:e6b3c0b5fb88b9b6464d8b2290fb774e1c1606b1334873adcd3f93ea8d31eef2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:ce1330d66fb780fb2064cc940a8041c830721bc5ac2e67c5498b9f023d0182d4
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:e7bf440bb678c526634b776f313ce2f862c4cc5d5432d314b59c533d991080fe
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d7d19b23d3566cf00da889e077d10397a2d50fa97b252d91a3a6e24db4b63cb0
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:21a2d583ce3e5ac0de6e0c4016dd92bf92dc00a37e28d34afeb10b068652e93a
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:a9987fb7021800fe9e42f9641fe5056574b52bc6fc402a70d6d88cc42b24fd95
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:6889f3443eb8bcac0bd46bcf17fecd8dd04397d7596e09cf45afdf68d9b2afb7
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__cfstring: 0x20 sha256:8a71b296123ae6fb9eb64234e61a3eb55ec81da92a08ed42032538e6ce371b55
+-  __AUTH_CONST.__objc_const: 0x128 sha256:ac8f375d177d4ec2f28f51a2ad04ff748b53d3b52bda0ec949ba648040e29c86
++  __AUTH_CONST.__cfstring: 0x20 sha256:81750a0dea9d63b5e7d3c99a107fafd6a0f8da497beb18d6d26085007a6590fa
++  __AUTH_CONST.__objc_const: 0x128 sha256:7eb8a740f81a4233677d778d64c7027bc350f6862afe5cec30a3deb79f952b38
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0x60 sha256:eed072969c1dc1eee1afc891b7f5ac0342221e926604187884c0c2895f6e17d8
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:c4ed2cd097e588a2132fdaec1e03dd8dd8dffd2764eacad246e0661580501e84
++  __DATA.__data: 0x60 sha256:edf22670641dd29df60322ae6a4fefb3bebc9d23bf7a835b66ea1677929349e4
++  __DATA_DIRTY.__objc_data: 0x50 sha256:49b64f41ac8a0bf89e90218f66e360324bfa5a8593237489fca9b705963baaee
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DB282C5A-EA0E-3DF0-AE50-EA450A5FFCFB
++  UUID: AFE3E72F-289E-36A5-B5D6-801CE6AC1E64
+   Functions: 22
+   Symbols:   121
+   CStrings:  49
+Functions:
+~ -[DASDelegate init] : sha256 662f38f74398c6e394de99bdbb3a745b84744c446fe6e4859541f5630f348a0d -> fd002fe081a78c81a31d58dec2471fa7737af1ba5c8b1632a70a5c007a89aa5b
+~ -[DASDelegate connect] : sha256 6aa8d10d030d7bf31352d883eafb06e46a8ca9c34dafb37a85d798bcbcd8f9e7 -> cbe29f2aa286dd052d740af320c1d35016c3d5986968cb74543709c24c8373d0
+~ -[DASDelegate disconnect] : sha256 445cb2784c24096c722dddb189ef5a56b7e85176f7cfd44ac556e39894f1b898 -> a2dcdfdc384a3263c765ac7c9716f65cca4ca42d9fc2b15f1df531fcd1e96684
+~ -[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:] : sha256 2efffee77b6ee27ac71e7f54833ea4fa2cfba274a4f8a4d2eaeceb09bfeb664c -> e81f0d8dd005cabef83994e24f6a0d33c863c202011ee8c353b347e47edbd605
+~ ___70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke : sha256 6a0ecb4771c368b48aa95267d27d13b69f3b887a20caaf701a12cb55edf1830b -> 02776674d659a4eb938c257ad9e48f18e5178eff64a1c4f7074edd5fff5e1aec
+~ ___70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.10 : sha256 27ed817c112169c7dd4739dbe28293092da2bd07c807dfe4c19a65e167e846af -> 08e900bd109f0830845aa99a968750f15c5084bfc4c673531338ba61eeac8b13
+~ ___70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.13 : sha256 e210c379b77604bad3c5bd77c8d9b69b2ee40df535cc8499e384df71dd2b2f92 -> 661a9802e6573de7d3c93494d2605155a839d2eb0669ce4f51fea148221ff33f
+~ ___70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.15 : sha256 0ea0a686caa61397f1e7546129d2c0da160deb3294e3c865b1b346e731d39ecf -> 78f53adeb0af76e13dce4f7fdfa147020301cc796e609675ad24921d5a6f4af6
+~ -[DASDelegate evaluateTailspinAt:withReply:] : sha256 a2e16e2ff71c64f0d858c659522d4eb4c9189a7936c3856c757680020a6f436d -> 8d0e30237820a9dac72285d7ffc96b8c705e84bb157ed71f25e26466d55a5dbc
+~ ___44-[DASDelegate evaluateTailspinAt:withReply:]_block_invoke : sha256 0709785655d5ebadae8afaaeb0cc6bd90fb6262af997d65d90add4b1a449b2d5 -> e8f60da1eab483597ca635a50a9d24a3fac7a2142072e84d609383533130d5fb
+~ ___44-[DASDelegate evaluateTailspinAt:withReply:]_block_invoke.20 : sha256 0b00d8d4fb62e1a8e7b2aa13f8c44a4ca88dd3372af26bd8250011b1fd07a9c3 -> 2b1fba0f77af55032fcafa696087b9664ace3a60a30616c8e7dfc37ec1b6bd5e
+~ -[DASDelegate setLog:] : sha256 c2b766f163972503a90dbd5898f4c7814c00a42ca14b4518f1ccf9c57f5f076e -> fa000dfc2800c70ce05107afa51641e5fa9babd1850a18c6a6cf028f86618026
+~ -[DASDelegate setConnectionToService:] : sha256 b50ebc9dda377237763cd9af25fc62a646d86bf0b4308674019a6fa5cf3807b6 -> df515a614adf948c70afa1c3a6971139e71dad8e655a99e41c956574338c5b6f
+~ _OUTLINED_FUNCTION_1 : sha256 4c9b2b01994ece178afba6b491bd26d5f215e9acf391a3b0801c0ff9196bda1e -> 057050d010b4fc2a5c8680aa89af5a5cf631f2b8cf30df61b063ef3c076485b6
+
+```

@@ -1,0 +1,64 @@
+## OrientationLockModule
+
+> `/System/Library/AccessibilityBundles/OrientationLockModule.axbundle/OrientationLockModule`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x26c sha256:609b048a12eb3eaa4afdc3381a1f972936bd9e638a46676a31ba719e10ac74cf
+-  __TEXT.__auth_stubs: 0x90 sha256:674e990ee52e64e5c20d27f269c6e60d37a8309ad2bf94af127cb29183226722
+-  __TEXT.__objc_methlist: 0x70 sha256:472af782314dc3104126ec74dd1e851e3ff5d920da9e55de315c6f9d5434f52e
++  __TEXT.__text: 0x26c sha256:0706e4e6dfa538f92765bf013b9c01e3badf2e740ec938940073c67f0c21bf4f
++  __TEXT.__auth_stubs: 0x90 sha256:5ba0e2ef5e57f81a9947d9e1a301800e8a8173036f189733f15a120656c195ab
++  __TEXT.__objc_methlist: 0x70 sha256:b11f45d09d79f77eec7bace6bf7af28a8b9d6cab15e833fb7988657546fdf45f
+   __TEXT.__cstring: 0xf2 sha256:f7f37e88b5a90030687e0ffff7b0da0ac3a846de670583d7d94def729eeef6ed
+   __TEXT.__unwind_info: 0x78 sha256:e7c1bf8f9556c80a9b1b33dca75543076f1aec69983218e5ad76f935904df12a
+   __TEXT.__objc_classname: 0x7f sha256:08f5d150db3fbfa813c2c5fc31aeeb2a068ffe31eeb3de030badb65851c4c99d
+   __TEXT.__objc_methname: 0x231 sha256:f2cc5f33e3915506faeeff3b0231a5d0a3206549619a4194d9f055a6d4f971c5
+   __TEXT.__objc_methtype: 0x23 sha256:4eac88e50f25f0d12c0af0a12ede3e45656199e676f98f783b1eb3bbbf41b8e8
+-  __TEXT.__objc_stubs: 0x140 sha256:983143cf4faa7f757c13a3c1a47c0da856dd8a973b0141f7bc939d363dd86dd4
+-  __DATA_CONST.__got: 0x28 sha256:9b7b638c7792590ffe11ec8dccb849a7afbf4ec98e157df602a52afe144e3a33
+-  __DATA_CONST.__const: 0x60 sha256:d73018baf6d7afc423278b35b479838be358eb97402625b7dd40a76af9f32e54
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:56576b60cc557c14cbd305487caded796ec8b9bfdf6dadbe0e38020026e85b69
++  __TEXT.__objc_stubs: 0x140 sha256:b6ed90b1cc19c8a3cbbf58dbae86bfc53412d0be0ee5a2523ac05a1e9c51c8f6
++  __DATA_CONST.__got: 0x28 sha256:92105ee68bf23154ac53e6ad88745497ad4af8cff378371817aa18c85852e1e5
++  __DATA_CONST.__const: 0x60 sha256:fa5029b6bb7dae7cc7f42b6219a1f4b723c3171a37805d65e9dad674893a9c5c
++  __DATA_CONST.__objc_classlist: 0x18 sha256:e50d483df29f8f6169f78d1deb9aaa1fc7ea60e536b84ab30b996be15ede3155
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:7cd25e6f2bc5014e69f48357bb3c888c32f9b4f5fa6c190e503795cb64dff6c9
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:f6c90f858aab0973e8f5d98edbf3238bb5b48e3e009dfc7c7a5ca7d8c1b2111a
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x80 sha256:1106e2b6836ee1f0e5429825a7cfc3a3cc3958649dd43d5c3c0fe348d251839d
+-  __AUTH_CONST.__cfstring: 0x100 sha256:4ce133f972925293f41faf6a852e6e49c3637ce70c735afc4a44e4a725e9240b
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:83f903acb4401a9f00a3ae7f9cde76fb4fd55b1f2f82c50ad341fb05c11d60ca
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:1cbb178f4f57bfe8335e9310b826002d0c4caa3bc359f8e3cb7bc204ba32ceb1
++  __AUTH_CONST.__const: 0x80 sha256:e2edd1d401d8524f3775345a6a40d19ab19a4cbdd834dca45da7eb6e3cf345ad
++  __AUTH_CONST.__cfstring: 0x100 sha256:602da111a0486bf6610307975e020a25e815646c82daf67a76d9771e1326737d
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:138e9cca2b54522b6a698e1969ebabee1e34f07a11ff9981b85fdfa622fff853
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:75c871b161e758380cfe0bb8d6a1aae75ae4780e049c6b7a5beba25e5f89b2d4
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 09A41917-A0A6-3DC9-B346-651643F279F2
++  UUID: 77386CD1-FBA2-319E-AAD9-CA837AAD5DE3
+   Functions: 13
+   Symbols:   78
+   CStrings:  43
+Functions:
+~ +[CCUIOrientationLockModuleAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 cb69b6d76e4edacfedb6d43b53b473194d39fb2b0d6f7e962569de43dd73ab63 -> db1c2a8ca8aade66be3d37b634666113ea0363e45b8db9fb95ba995f3d0e8ac1
+~ +[CCUIOrientationLockModuleAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0a420460fd470a4b45196505611ff63409e569b0403663cd25bb771f4399f566 -> bb9107227ca73ce2a18a212b7c1ba29ad3e99d7803f73a746d5398824256dff5
+~ +[CCUIOrientationLockModuleAccessibility _accessibilityPerformValidations:] : sha256 ce8f166781abae56cc31a1d0972e9d169ff2543ca0ed6a66e27e7299082e73f7 -> 82fdd7d3674295c9b658789cefb073430203e8fd7358b52ae6082808078d0901
+~ -[CCUIOrientationLockModuleAccessibility _accessibilityControlCenterButtonLabel] : sha256 bf159e63c0f1f10251e59864ed52e8809b19da4e44650f5cb208433085b0c54c -> 501247c4751d287d6a7f1623ecacade90d20b38468bec23002ab734c059340c3
+~ -[CCUIOrientationLockModuleAccessibility _accessibilityControlCenterButtonIdentifier] : sha256 61a561bdce6adc0acfb53c78d3530dcbd7087e59068c9997cb063d8c901ce573 -> 51bbbc6485cfaf3b76c3881bdbd1b5017d9c98c8d9cb8acef7eb50e863bae27b
+~ +[AXOrientationLockModuleGlue accessibilityInitializeBundle] : sha256 5a1375e99d55fc3f096d8055e5d3837567771ddf2d36aa7433fe5b691a4482a0 -> ca25491ef884866abf6c23ff0b4aa1cc685b4c4f43c0d92003dfddc0b549d81d
+~ ___60+[AXOrientationLockModuleGlue accessibilityInitializeBundle]_block_invoke : sha256 ab6c40efbbdbeffe2da552d383dfd161fef07217bbcdd1ecf29121cdb4e61727 -> a88715c87404d0ea78c87a29a983a0165b9f891bf1710fbc85597717f653a466
+~ ___60+[AXOrientationLockModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 1a7d9ceb44bbc2b9e4c23bd0a5163be863be1bbf575a5ef90eb7d346c67372c6 -> 93654b49a3ef8476b8258437671c465bee413bb4ca40af3b4d601395a4bc3b0c
+~ ___60+[AXOrientationLockModuleGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 d45527275f3d2cc45b80bf65cdb9455e9d4cba1053eab7131cbf54ffbebe320e -> d69b48651f553b2810cc89ac43575c22e51077fbcc061a39eb588bae7f64cc6f
+~ _accessibilityLocalizedString : sha256 7b19cb7737c0eaaf2396226195f182454309871a7679def1f2c6b1fdd91227b6 -> 2393f2db0eadc27af3dcb4c1c50334d83e4f98b59b1b1abcab31ef92ee63bd29
+~ +[AXOrientationLockModuleGlue accessibilityInitializeBundle].cold.1 : sha256 4e2c0c752b372d4e92f58b4cc3da6722494da8a35e1a14ccd3cba46374b53cb2 -> 69c7b3457cd27dd4634244d9c84ab44a24734ed3fa4d952ee0bfa1df70e53c83
+
+```

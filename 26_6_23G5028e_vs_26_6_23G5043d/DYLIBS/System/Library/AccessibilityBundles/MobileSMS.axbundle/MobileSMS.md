@@ -1,0 +1,67 @@
+## MobileSMS
+
+> `/System/Library/AccessibilityBundles/MobileSMS.axbundle/MobileSMS`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x544 sha256:a8484e50c5f63bf74c2c0bc5c2df4d67f7ac0cbad87cf2e4728a6be3a527a493
+-  __TEXT.__auth_stubs: 0x130 sha256:f3eb98ddec08f41973e6388e52aa57b6385c327e15505b88e90ead53b8f76746
+-  __TEXT.__objc_methlist: 0x80 sha256:cd3c53118abaf2c1e9e2d569ff41276fabd88f992672532f832dfefe62c3dfe9
++  __TEXT.__text: 0x544 sha256:1681d9dd6ad5cb5a8adbaa3a0cc7eb98179307c364a99e4a9d4e8c06c25a4cd7
++  __TEXT.__auth_stubs: 0x130 sha256:2cdcf7694ea5fc16a4bed85fff20bfbdd4e8657dd71f01632074ecc067f6bb77
++  __TEXT.__objc_methlist: 0x80 sha256:c64df39b65adc8ab8cc3844d007152c37e3ddc50d4ecded4321092a73ef319d2
+   __TEXT.__cstring: 0x1c4 sha256:3a503a183738e5c6a576b4ebd3f5c9f0979640309b901740a4d6d646299d2910
+   __TEXT.__unwind_info: 0x80 sha256:ebdfbef22a611b671f49688f75e73d7dfe231c394d36719d3198264b0c92d10b
+   __TEXT.__objc_classname: 0x74 sha256:4ec3bb416bca87258fe2e3e450bd0c9e00cb0af3a8132b6f30176e06f5dab168
+   __TEXT.__objc_methname: 0x281 sha256:2e464e069638a976ec725c7634f9310425c24516108a406395a32c4629a80a36
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__objc_stubs: 0x1e0 sha256:af8d67590f1308ad2afa09421f30beceb72b3cd7e632738b745b188794bec690
+-  __DATA_CONST.__got: 0x28 sha256:35551c234dfb50590ef9611f80772a461e68d1824a18cd2b1153ca5586ae9d1f
+-  __DATA_CONST.__const: 0x40 sha256:ccd2758eb77c029aeb87f5b91a457d8ef8966023e41ce4f0050a3dda5f922858
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:afd3946f6f119ac6ca512ca13b63db20ba56fbd1316dbb63da10b569768a10ca
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:252a6985a040673a97bc9f2dda44c239ff9b23c077b7b27a42fdb9782ca09c3f
++  __TEXT.__objc_stubs: 0x1e0 sha256:9f31fc86378d8a9ce857ae04bda70d80f433b3c2a5cc23e8a57beadd1edbda0d
++  __DATA_CONST.__got: 0x28 sha256:769b2be6f363f0937022cc40883c37ed7ff777a5828a6a10bd761139fcb01b02
++  __DATA_CONST.__const: 0x40 sha256:62f6f6b89679e54a1e476f8ebf04b91fc2f3ff2be8ea861f446df8607efcf37a
++  __DATA_CONST.__objc_classlist: 0x18 sha256:c33e7933c4176cde858ec9a134e8f880b288e7a2da1c44eb7fb5079d45a1be57
++  __DATA_CONST.__objc_catlist: 0x8 sha256:20e73bd3af9d000bda4efbdc9f139a63225b3fd9278238feb19b098a17d324c7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:2b3b19d8ff27df7cfc23fc304c59903e3e42790304b58e7fdf3994276d51b504
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:6abb0c4de356605edda828f4fc460632130d4ba43d513ef67efa6dadddf72f88
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:7ce3631ddc1af806c4cc5cb5bd8c38c55863aec368841fcf839d30a0d186c93d
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:9b410e8e1608659e48bc66611bd3e30738ddb900f91822c7a599a73f8ffc78ca
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__const: 0x60 sha256:0f4ba9ee30530d63d8761b78b85c64fcb9acf670299844ab00885a299374d81d
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:189d1ccd316a9d1b117e07a054d66e598a79daaa359803b11755a8752737a203
+-  __AUTH_CONST.__objc_const: 0x1f0 sha256:8930688f98a81959c0edda174b39f4305b3e1c4d860192cc93f4873165683e46
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:468d0b50658d02051be13ac940e2ad626bbde125aa34c0625e2b7225b064b149
++  __AUTH_CONST.__const: 0x60 sha256:723209da540f99bad62a506b56f7ff97aa1d6714951f4ae2083d801a0f543fb2
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:da6e6b70d8ca5e235ede9de1afe33981e73d532e7da428452c1c43593b6a90ec
++  __AUTH_CONST.__objc_const: 0x1f0 sha256:c8ec0152fb08d557c4c98553a88f3c3b2d98f1c7593e849c581a6c046d347d02
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:18112b791e9c80f431a9b1e6324340530036a94a157df9529cc1f9a732b83b1a
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2014E6BC-B4AC-362D-AB5E-7D13B270B210
++  UUID: 43D1A2BE-AB56-3C7A-9F1F-115D1B8E458C
+   Functions: 11
+   Symbols:   91
+   CStrings:  81
+Functions:
+~ +[AXMobileSMSGlue accessibilityInitializeBundle] : sha256 f709b31edddca86bd0bfdb44cdf0f9188be3b15131430cacb2956845a41dcbdf -> 660b59cc525a64e64767716fbcd3a109d4bfa27a85588e9f95a15eb00d0d7e69
+~ ___48+[AXMobileSMSGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 f09c47ebe91baaeed63d24ce56efdb45d09ebb8b45d70bdbe8489fa2c8f3a4bb -> 64084b059f5ca27d92d369f0a9657515930b1cb61d1a8055cfffff0d55f404d3
+~ ___48+[AXMobileSMSGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 519925bcc43c1fe3b883e474c190c2477ff122576c71568d736ec5ca9ba50547 -> f4964afbc34965ef387a20ec6b32036584635c1b0f242840fe7af1f82d6532d9
+~ _accessibilityLocalizedString : sha256 8f377105a5cdc7098d098d8060b8919c2744ed80118027a6b15d0b226a8835c8 -> c63c5acb8132a9bfee01fe6fc44e3db87669f3de2d2ff1360e91512425e815e5
+~ -[UIApplication(MobileSMSAccessibility) accessibilityLabel] : sha256 c123d7381e9f5fdb943fe9612d833b611094dba05cf613b45f3ca901398808bd -> b04ed24e3befb22778b113f741c5484938efe5508b8797466775638746040cf9
+~ +[SMSApplicationAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a0a4620e915e6342575cbe8dd3cc8727d8b5c72dc881e9fe1f17ff059311ed59 -> 182194251dce5e383ecd6e24c7a94c9f735099dc075bac75acf54028d2f6ad56
+~ +[SMSApplicationAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 01d783f159d6f54e908254b808f74b200b25a79b4c534b0b24f2605970421883 -> 0c133db666c3f8031d7718d766ece578965cb980ddacb4e7fec37c68f8991834
+~ +[SMSApplicationAccessibility _accessibilityPerformValidations:] : sha256 287039fd33899493c53d052ee30864976df10021e61f1b5b86ff75e296b48184 -> 6180edb107ef30732505cc31f062a07a2522a1ebbb7b4e8f97355bc83b75ad62
+~ -[SMSApplicationAccessibility _accessibilitySoftwareKeyboardActive] : sha256 0aa1049452850e64f500453f929a01206337e74a4b8becbce99d3744380b9c29 -> d826925f9d2191636d47b75e65d74c4038113cde514dfa345127516a95ac4031
+~ -[SMSApplicationAccessibility _accessibilityMainWindow] : sha256 4681e0200fc1b9ffad5bdea90b9e0a71c643d0ffc662580ae6eb9285e84ce536 -> f4cbb82a08be4809e721925853cf09c99a0a17dfb94042a57c58295964f6b1ba
+
+```

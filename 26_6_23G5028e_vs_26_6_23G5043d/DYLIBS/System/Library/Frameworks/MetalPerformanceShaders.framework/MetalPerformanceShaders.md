@@ -1,0 +1,32 @@
+## MetalPerformanceShaders
+
+> `/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders`
+
+```diff
+
+ 129.5.1.0.0
+-  __TEXT.__text: 0x12c sha256:20414c305938afa31b69e6f987406b318d4c3b1d97b6a4de37e3dfb8a48603ff
+-  __TEXT.__auth_stubs: 0x50 sha256:4fa671199a177ca0983fcba8302663bd5d90806dc0d57f460e6b4ada8e276375
++  __TEXT.__text: 0x12c sha256:72acac77197cd31b8aa8b1b03339a100bff1226d62f803adeff2e9be11235172
++  __TEXT.__auth_stubs: 0x50 sha256:615ece16c94ed624678f26121c090a5fd3c620ea6b3887b3826562919fa26bfc
+   __TEXT.__const: 0x48 sha256:286070de5820bfdc8e3ae1f9dd4dece0e62caacbeff0198d5a7a1b9beae44b87
+   __TEXT.__cstring: 0x6 sha256:957563ee9c5b2129695eff99c2399504a77e966bd69c5bb2b4beb58bc7ce2b6c
+   __TEXT.__unwind_info: 0x68 sha256:643cf428d2852bea8481e5c84e01437bf30bc4335f9ce96d417c20f60b5ddf5b
+   __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x20 sha256:4272e5b6893fd910d1880a2ebcca5b4d926af2280e4eb68ccaec9f133ba85bce
++  __DATA_CONST.__const: 0x20 sha256:4cd173b34bdc0485e8087c83d9c0ea42ccf81ca73a82adcf155fdd8820f53d76
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __AUTH_CONST.__auth_got: 0x28 sha256:74bf6b716a54bf8fa49c73799f7160a3a280808966d01bfd82fd5f89366f6e72
++  __AUTH_CONST.__auth_got: 0x28 sha256:d4937a396a8ed99cc9d91c45aaae38719816d203eda10ca1ba249dbd35553a8c
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSBenchmarkLoop.framework/MPSBenchmarkLoop
+Functions:
+~ _MPSSupportsMTLDevice : sha256 024e7c80c571cbe42020f93bacad4b512362e5b3c72df872e45812b53819bab7 -> aabee32e169c98f9a19c338cfca2eb9e0357d36895ace784049c810f86b896f4
+~ _MPSHintTemporaryMemoryHighWaterMark : sha256 cc42dcd0e44ec2d9077b3f1f0c3578afe565bb49519b8734ae148b504733da1e -> b525157506b7d4bd28210b91e7fe10ce6122d2b99070c5d106c52d93ec588212
+~ _MPSSetHeapCacheDuration : sha256 c012b6f1441861c9868a8e91ea94a077e0aac96ad8e060628e7715ecce782fee -> 2f67a379900b93ab48337c9b4997a6f36cfb40c9e8ec247ac31ca3d2e5584b91
+~ _MPSGetPreferredDevice : sha256 6614ea0f12bddd423fff4a9644d28bcbe6be73ffaa2d62bdb3a4fb407ca900d1 -> 9bc91d0259500a86b8ce6f126e92a89b9fdcb7157c4cb5b0dbb254074a80a3bd
+~ sub_2410e1d10 -> sub_2411e7d10 : sha256 3539649c82e903617812eb5927d88b93bc7030d2a61f0d03b980d51fa27012e3 -> d6715dd6d3e9544881c5d588bb2abc09b5aca7ec46145db382e4da2ede12a280
+
+```

@@ -1,0 +1,108 @@
+## WritingTools
+
+> `/System/Library/PrivateFrameworks/WritingTools.framework/WritingTools`
+
+```diff
+
+ 96.5.2.0.0
+-  __TEXT.__text: 0x2260 sha256:b0510318abdb8e8525a3bc399908c07f695466236741bba14fc1cf9e770da114
+-  __TEXT.__auth_stubs: 0x320 sha256:18a0a695e399b1c6e174025b8bbc24ee40b7cd45896300f292d7ebc7f5e48bf2
+-  __TEXT.__objc_methlist: 0x5bc sha256:9df8f59a765bad387a2c6696d144bf6b1c472561fe04de10be50e0e7d81c1c59
++  __TEXT.__text: 0x2260 sha256:44532300474b862f29c1d3a199c01f0f0ff622d53dd602175112b1fcafbe92d4
++  __TEXT.__auth_stubs: 0x320 sha256:800b5c98d79b53490343c373a8ae609ead605de2ecc2c31a5a6068bf62c3281d
++  __TEXT.__objc_methlist: 0x5bc sha256:986c4a365e206580c8d6844fec67fa289e4399203e526cc465a6caaec92606e7
+   __TEXT.__const: 0xd0 sha256:2bd081c5fcdaffab952aed22719b0097876320b11f20cbaafc90205343fa43e0
+   __TEXT.__cstring: 0x287 sha256:2c9fbd9a391d76787bf4b9906b707ea74279223d697df4a264b161ab73ce3942
+   __TEXT.__constg_swiftt: 0x58 sha256:2873434fa157d24f57c846a699435599b4830824b94afd01d293b983bcf55ad3
+
+   __TEXT.__objc_classname: 0xed sha256:4a49ec5c9554e037010c59fd5eab0d17e9dc936a9ba974ecaa13b998aecdfe5e
+   __TEXT.__objc_methname: 0xa81 sha256:3a872a891afa9d41eecd073c233be77d54bf8c5754a8acd657fea4f6ccffc886
+   __TEXT.__objc_methtype: 0x310 sha256:eb1ae5b3737e198ff73d7846612e52713496a5e480713496419d8a134322e578
+-  __TEXT.__objc_stubs: 0x5a0 sha256:0f4d987858fba692aab5031c5b74356c5800a152d191c86fbe7c90ac426543d6
+-  __DATA_CONST.__got: 0xa0 sha256:d588fd480ed39f0f524f241257438f9f57ea4def28a74f850002a1e6aae0a15c
+-  __DATA_CONST.__const: 0xd8 sha256:403d3e15e52884e75e049c256c9470680cdb12f72050e83e1354c1c5e89771a9
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:97649c14223cc1f156aeacfc8cda5efeeda2b7b0a2c47d8a7c835ea8dbafcc58
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:ec9c98613a3b806fbdde3b591956002feeb1e34c21729b3683868b35464c2f42
++  __TEXT.__objc_stubs: 0x5a0 sha256:0c42c2dd1337278e8420dbd6eb3f5f52f8aa2afcc46f560b194a21755d90d11e
++  __DATA_CONST.__got: 0xa0 sha256:73139394b8a5f7baa60d17dc734d70f33e51cb8fb34b160ba81bffc26430746f
++  __DATA_CONST.__const: 0xd8 sha256:409ebd2d5d56366c6518147c19fc7cbe0790b343e5b7626d2adfd9829961f4b7
++  __DATA_CONST.__objc_classlist: 0x38 sha256:1f7781d031d9cfd815781dafdb6be6ca88f5e830e4531b99069bf3574b5934b8
++  __DATA_CONST.__objc_protolist: 0x30 sha256:0b9caee68d97fba75575394ec35a67260a5b39f559a912eea48728c8814f5995
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x2d8 sha256:19e8681971230f49658ac8cb8658e630038423ffcdb746618c372df96c8f9e62
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:4e2fc7030bdc0180b417a859011ce122f5c38d22878451e2789543b8582ad496
++  __DATA_CONST.__objc_selrefs: 0x2d8 sha256:b1436d849acbb9cea0d0c3a7cf7dc4c0f0321aaad9e25a8bdd536ff055d18ae5
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:c19035d4cec862e345ad6522c46e20df8f4e6b003c1840a20eb9a66e4231c017
+   __AUTH_CONST.__auth_got: 0x198 sha256:c76903cde8580d1c809ac5352aab33af5a310ad05126294d66e06db880c463ed
+-  __AUTH_CONST.__const: 0x30 sha256:9da0313deb6e19783635d790058fd802dc2232c7f1d3d5bb79ea7e6b55bfdeb2
+-  __AUTH_CONST.__cfstring: 0x2a0 sha256:54e00e1f8569dc35eee516e9d4592654517f0185e1ba5ddfd42fcb24e8ed2d60
+-  __AUTH_CONST.__objc_const: 0xb50 sha256:c0fcd2a342dee6e43fa9e995dce0e754be3a749a1019b67dc525c68e4c9af7c3
+-  __AUTH.__data: 0xa8 sha256:3284c6b9f3299680531112c144ee8d514cacbc522f95e96ceed4e2118216a64a
++  __AUTH_CONST.__const: 0x30 sha256:028934ae4f8b745a2c5f52d5ca7fedba43218828075e97a73ffc3518445220a0
++  __AUTH_CONST.__cfstring: 0x2a0 sha256:fc76c6d14111d8be121e02161b1087432ab5f646971036a66d9f650c83edcdaa
++  __AUTH_CONST.__objc_const: 0xb50 sha256:6ad51a164c1b3b1b1b97639059da13d062cb220c5d3c8ce196c1f3a7a3aa9cb7
++  __AUTH.__data: 0xa8 sha256:3f457b97b2810df7d7f1d4ba2e250f942b8fb2079ab6692e34561c9d46cc7fcc
+   __DATA.__objc_ivar: 0x4c sha256:7259d671f4066e758ffae32bbd4d97e2d8667c3a10b52ea196b00589b1e553f6
+-  __DATA.__data: 0x240 sha256:6c36a5f4e48792fe20d606cd35224984009418a4fef1f392b50059c4463e0733
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:53120e7d516a0cd026afaacb26292f9ca39874c9774d64961cf40f222430cd9d
++  __DATA.__data: 0x240 sha256:d3b68f3736adca49c137be6057c239f3dc5cf288ae51bc7ffc1fc2d57cef1abf
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:8d4743d84b4a2947eb1e80f1daee5f4a3bcab4d922918d1057bbee0d6b40747b
+   __DATA_DIRTY.__data: 0x20 sha256:baafe78bd42ed493becf123a74c80cf1c1edda0ba3d5317c4a202bb2222c7af6
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2AD89457-F85C-3EAE-97D1-2B4276E2ADC5
++  UUID: 2594324F-D11A-3D1E-84A3-1B176B8582D0
+   Functions: 85
+   Symbols:   405
+   CStrings:  234
+Functions:
+~ -[WTTextSuggestion initWithOriginalRange:replacement:suggestionCategory:suggestionDescription:] : sha256 68e6898fdbec5906b0f20d5ae6afa9006b8335935418143d5a62798a4f4986e2 -> 80e8231edc0299be790ad38ea06ef221f7fb1a0859d04511107a0c613752f500
+~ -[WTTextSuggestion hash] : sha256 b08019b4476848a4af425dad638d3d396cb69b24ee3226fe4bbc1150a654f2d8 -> 478c878b3242c2b95cb5c4a4778feecf5a7d443dee3c77838044b9e30f7e7e2f
+~ -[WTTextSuggestion isEqual:] : sha256 572dfc3394bcdc67d4bda8159ee4576feb897721e9dd4cc2a29d11fe15a9411a -> 6e833c5a8d4130a0caf915c275ccaeb227fce78f7c2482e0af5e3516c61b1e32
+~ -[WTTextSuggestion encodeWithXPCDictionary:] : sha256 b4345a6406557c56db900ab721197699ede5a37b88e5e6f87ddc01c1197739b0 -> 9db7f26dd1faaf543a972631256e2db018e1c05ea27e030c31b2077e683452b9
+~ -[WTTextSuggestion initWithXPCDictionary:] : sha256 5db8cfe6eb5ab7bea7d889cae0bdc6575256eda958af5ed8218b6398fc58158b -> bf5c6e1a1d4f1fa300b60aa694b2d106bf50067ed4856b1d64fbd54ed00e6896
+~ -[WTTextSuggestion encodeWithCoder:] : sha256 4bbd21388b37ffb004c9441d6a06ae4672c10a3d39eea5a543dd11e589fcaa2e -> ef46697f5eb98151b8116a2f39c7e33b16f99f50ee4083b880b10d74ea1d133a
+~ -[WTTextSuggestion initWithCoder:] : sha256 b48778d28745378e0a2ee8bc1924aec49cb588875fa2b38bc5bccf658b2b3c77 -> 354db06e56c3fd23e9c9d6c34dd2315d1d939963570c38554db1dfa7034e9169
+~ -[WTSession initWithType:textViewDelegate:] : sha256 13afaed4ab65951bea3e4e46bf6f801bd3dea6170463e2671cc31bfc5a19ac5a -> 6d2307b33fbfcedd62c77481f9c485f0b0c3df789f5b2addde1fa36a2e7e3c98
+~ -[WTSession isEqual:] : sha256 99faee17ee8b27c06bacfde6595be6fbc391787eeb16d496d956bff43808e803 -> 382a0a2e94b2eb875260f2d7600f7d440bd32ca4ce406e1e40569a504be8ad4f
+~ -[WTSession encodeWithGeneralCoder:] : sha256 64d39f77449cb1060a39b27c73d697568c0e27f41cea68c959aaa96e98917b4a -> 3f3ad9813f2db1ad4baff60275c51e7b5622ca80d9c14578d490818b5aacc45a
+~ -[WTSession initWithGeneralCoder:] : sha256 956b74fbf9e7d251061430f5249b2715a053cfdc1f987616dc6378d72ded482c -> cccabaff5fdde2582baea83217e93c495a1cf02008218f19342dd65abc5367aa
+~ -[WTSession textViewDelegate] : sha256 7be43d1eff8d40ccca83565e1e6b9e92f77744297a3989b99797009d511c0a58 -> 0d236ee4f24ce378ec820807e43cd003cf66355edad2ace6647fa922d1f0b716
+~ -[WTSession setTextViewDelegate:] : sha256 e1c96151c97f2b5d2d2aa276a6f748b9ed3b959bf2d42191012b03c08420d7db -> 25663b87c7b3fd472cf8655df34eb38d2a9da20a7155bafec1dad477e39451ee
+~ -[WTSession .cxx_destruct] : sha256 ee8f2894e3b0f2cbd4fdcc594fc9aced5970087a6e385728e5b2b6fe5503c044 -> 5f82cbfa50bf36782d45f070cfecd12f9ed851ebe0f93a2a481020e39cfa9405
+~ -[WTBSCompatibleAttributedString encodeWithCoder:] : sha256 866ab706578d3ed552174a1785f669ad126b31f325d49312c6d1b867fb8ce5ec -> abd6aa43d43ddbe707e3e8a3998e40732ad7216ed3438dcd97c43cdcb6092a7e
+~ ___50-[WTBSCompatibleAttributedString encodeWithCoder:]_block_invoke : sha256 6e2fab967537bce91b9fc7fb16e639ba391719572dfb56b9e02e01082e41c5fc -> 1270a19a86f252ac5e5e530cd830f153e003cfda1ddda39120297f37a02d5ecc
+~ -[WTBSCompatibleAttributedString initWithCoder:] : sha256 1bbcc1e151ab8979bc86c0e063837da8e4feadc253624cba1611957991d234cb -> cbc5892937fd3f9ff48124009b597b79ded9dc320432b391b262c50ca2e7234f
+~ ___48-[WTBSCompatibleAttributedString initWithCoder:]_block_invoke : sha256 188ab2556805cb7fd4b3132a4e1049d24e5785ee3a2e9d33c5f67870f390288a -> d838ab2f643108022b1344ac5bfc68421346bb9681b95a697a3d9c68c88dd0b3
+~ +[WTBSCompatibleAttributedString allowedClasses] : sha256 8947b5cdc052a7925e8ec730b93f50c657ed4a29301f42078e56308e000b64a4 -> 5c46d92c2b77b93010640ac77605695b2cefd8ab69a3c1b6201161fc953bd6f6
+~ -[WTBSCompatibleAttributedString encodeWithXPCDictionary:] : sha256 6d81fa243725f409481b3e72de64c27f47f9d70a65d84f30f22b48c235b56c4b -> b28c0717926e8d3c3b7e142a9dd27c07b1a8c0acdafc8f90f502574b8480ddbc
+~ -[WTBSCompatibleAttributedString initWithXPCDictionary:] : sha256 8b2b6850b01dcdf149c172048a9a392116d2188fb0ce5d120c6d821e974636c1 -> 1431ecc03415b4e6f3021cf3f573afd34591dec990705fd38a7c5837b9168bd9
+~ -[WTBSCompatibleAttributedString attributedString] : sha256 e51422aa4d11ff9e1ee9cc80da259db6f5f6eff109ab8426e60e1c121a879a1a -> 020ef020882b780bf4fec8e2423a623f438ec58e031c994c5b0516858b31569f
+~ -[WTContext initWithAttributedText:range:] : sha256 b3c5e1c83e8e3f37d2f36142ec480eb69eca284af573bd2d4e8f8c0208fd2003 -> 2bef63cc498ac3fb7015e4be8aafa30704df60badd2fcc58e003bc1a005acc61
+~ -[WTContext setAttributedText:] : sha256 91f180cf9add01141c0edf35dea2f9a57261484b5ccdff2e1d8867ad1ee0649a -> 39adc484ffd19174ed914e83252c8c95e96192087762e8a8789d9dd4f0082b9a
+~ -[WTContext hash] : sha256 e4222274e210b2baaa90c1a58ef6108ed87beadf29d6cea00f8a92c838cc5582 -> fd738eb17903f1bcfd28fb9a4c4748efe8d7809462baedd46440308890de7b87
+~ -[WTContext isEqual:] : sha256 82d684e2ad0345e5eb39551d2a281492d84df68afbdf009903d6dd1bac93dae9 -> 096391b6212345d9e8d9cef09d726ac1b05fed13fa4c272f614d919ff15ce32e
+~ -[WTContext copyWithZone:] : sha256 e688905bb38e83c4f951263ff31da9bbc8b5104156fa366e88a460ee5d873825 -> 1848e2796df33becbb41e358595ae9c5ee1eb7504e20a7a8f29790c78b5ecc56
+~ -[WTContext encodeWithCoder:] : sha256 f7e65ce0a55025909297291a1feb76897c53f5399e45c48147f57f3acb7c4ae1 -> d871e34824e694b9539c579e14e507c63370b80744d491956d81781de084d551
+~ -[WTContext initWithCoder:] : sha256 4f93523d64fbb9b434caac8fcd00c75d02a2fde404acb48027d990a8fcf637ff -> 9565b347340877d3f9545928fc0e7ac60649a5a9a966d79d44d1d96b0ed522d3
+~ -[WTContext encodeWithXPCDictionary:] : sha256 c229064c41ea6d31ccd88e76fec770b127c0ae58d03d6aa9a5f714d8284b42a3 -> db52deaf8cd8238dec78b9a53b8d4d420ca417b5c1a36c83d576c86fc8b0bec8
+~ -[WTContext initWithXPCDictionary:] : sha256 809b8027b8cb0abf8b102e3c51cc23ed1e947ad976b4eff0dcee84283eae2217 -> 300f924222123c25af8b6cc2315a67cfd7389ab0dbe1c5f2b328957fb1d72e43
+~ -[WTContext setSmartReplyConfig:] : sha256 f66e592c029705b5e81ceab1e2b02cf67dd9251271148cdd178fbadea4604ca1 -> 181b1f057321b48165095241d7581a9ad330dbd545cf68cd06257e6186187587
+~ -[WTSmartReplyConfiguration initWithInputContextHistory:] : sha256 659cec35cea0bc6f1a7f3d20bf6edc1d5516c53850ab567d62de81a8d899e483 -> 8dc77b6e088dfbb2bc0bc9d64da4370ba1143c18a44e7b6e3b7f3174d7a9f081
+~ -[WTSmartReplyConfiguration encodeWithCoder:] : sha256 c2dce0ecfe63a9a78e84141347fe75cf8547ba8fb555741971a5d3a57097fe85 -> 10d0bece34b8fc1fb7464f989b634084d8e201059b7a1bcf83add9ae75831ec3
+~ -[WTSmartReplyConfiguration initWithCoder:] : sha256 20543e08994b64f25c1bb7f242cec21466ec2d2fbc464a7813e4cee950bf120d -> aa90642dc6dffd5cdf0ee0ad6f86012a1946e57af6b529ecc6f55e4dd7892e94
+~ -[WTSmartReplyConfiguration setBaseResponse:] : sha256 932ea4c53a5ccab5f231d960d6b4f33592e327de34d03da992b68d497bbe07cb -> bf41cff39c312610e711e0c0e2e79ab386a276641910279e2f5034a55c68246f
+~ -[WTSmartReplyConfiguration setEntryPoint:] : sha256 8619f87661cb363a7eb2b0b53faab79285be18b04bba4441f8f2ed619f5ae470 -> 17bdf3d693454858ee91074857c5ece5d37755249d0bb69c00f1a58676a3fb95
+~ sub_29db0de30 -> sub_29dcb7e30 : sha256 9707e0e7710dc186936844b8076951579cc5d0f134baf64053f11d516c29f539 -> a686f5c767aee2d2e93519fd4533bfce24e2a2b4dd2651aa351dc237e3a39242
+~ ___swift_allocate_value_buffer : sha256 bea692438b9414881aee826a3e13eb5f3db143b89fbad33251dbfb3f6df88f7f -> 0fecef7a863adf8d7f441d8ba37a05fe366239ac1d635dbe77b245d1fb168cdb
+~ sub_29db0df44 -> sub_29dcb7f44 : sha256 00e7631cea7830c1999b7605a34426eef6a28b36f2abf1952b2963c40337ae53 -> f2b11ea1de657ae2fcff7cae67c2388fc148b76f1f22a74ca52ec9f03f71f9a4
+~ sub_29db0df54 -> sub_29dcb7f54 : sha256 8db4a7735867aabcef69e6e3a638eb5214992a3dc5136e52acc870e8efca3c32 -> 1452b2d04167341fc6d12c830754b9a718986fb9cb551d979b7b16157e44c0fc
+~ sub_29db0df78 -> sub_29dcb7f78 : sha256 c382ce73e830d3a1a4aafeb5b496c9e379f16735d20e916883ebe5ff1e3ce441 -> 243d9fc247543510af63f0927b78cac1cdbfd80eca2f97abeedf094bf68a407d
+~ sub_29db0e0bc -> sub_29dcb80bc : sha256 311d2b2e519819061fe91d6d7c8b9ba9e047c731f3abfdbf463410e1291c4fae -> b459077dadbcbf18b8f8b9fd2bfd1d807d5e3d2b7f74193cb88f6074cc477cf7
+~ sub_29db0e484 -> sub_29dcb8484 : sha256 d84547e1fa3792cbf2dd4f1413e4ccb3f7fb255c941b7c6c95235aab4ba7441f -> afa92ac852e37c9fb4eafb1a4b51100bacce5dbeba2c097f12b6449246f02002
+
+```

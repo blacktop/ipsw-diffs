@@ -1,0 +1,69 @@
+## ClockPoster
+
+> `/System/Library/AccessibilityBundles/ClockPoster.axbundle/ClockPoster`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x448 sha256:26ed3152360c5240f0a321225d52998f73033ef47342f5dca38c44b2f083f467
+-  __TEXT.__auth_stubs: 0xc0 sha256:6e0a85c4d94e6d31ee4eb1f99d743882b0ec533226f4f33f63f0bebf3a028293
+-  __TEXT.__objc_methlist: 0x158 sha256:f5547c6a9cd28df315ea13f0943004910a164d7b7732b9bf126cfb4bdde0b531
++  __TEXT.__text: 0x448 sha256:a61369f4b6b6049405e183a196701b43cdc2773ff3bcd36d45459f15d5d0a8c2
++  __TEXT.__auth_stubs: 0xc0 sha256:155c60d4eb135631c6eaf1c78e5f7919d5042fd360cda69a8840ce335c58db51
++  __TEXT.__objc_methlist: 0x158 sha256:6aa7132625539f58d470eade266e9a2f7327c15c740defed7714193e0d9ad398
+   __TEXT.__cstring: 0x14a sha256:a9bde3915a836ae4a646b6bd491c5c0558c5b01b94b9dce2112441cac488f0d5
+   __TEXT.__unwind_info: 0x90 sha256:60fed4f5eff239fbf0787bfd74f73568d66fc4a4853d02a8b5fa56d26b94016d
+   __TEXT.__objc_classname: 0x127 sha256:b6fc23482135e6c5bf1ae58695855eeeb4954b26328f89395be28198985347e9
+   __TEXT.__objc_methname: 0x1bb sha256:5e3c5cfdd2eac124be3051ad8b26b458658f15d8b34c87a38e99b74a6c09adf7
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__objc_stubs: 0x140 sha256:0d54cc82fb2b9f7499d19e628d984d4f5ae1fa9945f39edb678975b0042ac7f9
+-  __DATA_CONST.__got: 0x28 sha256:27ae084e5f69c920004fbcc0a315dee4294b041f72a1e9b060041a63f731dd07
+-  __DATA_CONST.__const: 0x40 sha256:e618162c16dce07b08d63f0b988adbf407045b384f5102b6296e6bfd84981eee
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:ec1adfd316c5eb598ab982493c0cbaf235489628635a6e638db55ee028000a00
++  __TEXT.__objc_stubs: 0x140 sha256:80130e3144a1f7470ff56b9624c0f85b214363141c865731f8889c4d1c219c3f
++  __DATA_CONST.__got: 0x28 sha256:c5d5796057881561e485ca00d948faae94038d64886a4aefc5de18229293b9fd
++  __DATA_CONST.__const: 0x40 sha256:0977369b847b96845ee2e0a1b02b17967fb712eb5c9f5abbbbf9bc20fd09b3ee
++  __DATA_CONST.__objc_classlist: 0x48 sha256:cf82582172fedf2abb2d673026d05b2041cced6d05a1fb6dbd6086035f98d731
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:20210c7d207700241f2553c8dbdb2f4c8863eaa37e13798b7f494498afa0cd56
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:1e8de0158a046d0b87b8f4bebab348a0daa8f89799d72daad1f72c1ec6934079
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x60 sha256:e8856ba2def5ffad38d0ef19295783051419b8714853b32c588ecd10aebc8088
+-  __AUTH_CONST.__cfstring: 0x180 sha256:adbe31b63e0658c1d9588ea59c587671c63e08852a293801526fdaf4fc7d8d92
+-  __AUTH_CONST.__objc_const: 0x510 sha256:9f3f07ef6293f0b113bcb9c961a3f6a377ba31eea291c467216660895c406d18
+-  __AUTH.__objc_data: 0x2d0 sha256:a9febce74caf03be8fff6e69915e19c2a4507817fe0856c26b4e6f39e9d0d9b1
++  __AUTH_CONST.__const: 0x60 sha256:8288c066de03fb35bb9fea3c71511e3682511400800b161988423be260933ce5
++  __AUTH_CONST.__cfstring: 0x180 sha256:56bbbaafa90cb31f03c02feecf2c77bac99ce76475596ed414d7f0576729fd92
++  __AUTH_CONST.__objc_const: 0x510 sha256:2eb40d5d3c19c2f9593e887c17877df14fb370ccb38aa35ac69fd765dc13f4c8
++  __AUTH.__objc_data: 0x2d0 sha256:2ec7ba4e01730a838db99c2fc073f8c482ebe7d21ba69a4e7412228e37e6810b
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 74ADF3A4-B3DA-3DFB-8BE0-98622BC402D4
++  UUID: 8A4DD8C4-45F6-3760-A38A-12BCE5ECC985
+   Functions: 25
+   Symbols:   134
+   CStrings:  56
+Functions:
+~ +[AXClockPosterGlue accessibilityInitializeBundle] : sha256 5b8a5119d809a455e7e093c40b05e7bb10590a7b9c7d323366f85f58d8a54993 -> 6328e4e919a77a6ed22bb404e86ac652365f92f764121efe332c3c1a7a1228be
+~ ___50+[AXClockPosterGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 a293481179d83e04d921d18e9595ae4fb558c6c5eef0ed62bf6029e145b22aef -> 104ec555dcf1aa9bc596c872f8888b131c0fd44e0abd14c52efe428e71b070ee
+~ ___50+[AXClockPosterGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 83de8f853cea8501e391b3754fb5032eec62f1ccd1cef129d737df17db4064db -> 66053fda912a313eb1b06e33119c4c267a629b2d049affac1c54a2db623f0737
+~ _accessibilityLocalizedString : sha256 8af51ecf6d83e2fd8191259e14c0bf7a98f2062be8e0b3428cdc754a053f5502 -> 762c553a5175270ecce2c77bb69212aaca3c06e2eb1239ca89546570690bfeef
+~ +[AnalogClockFaceViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 51e7ae90e4eb249cba9accbffa07c1399294be7139eeb999804cc3cf905c4ed3 -> acee63a540a29c6aa82cd7caa451cae26df14eccd9e8892c588b891f0f24d344
+~ +[AnalogClockFaceViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 36fc6cb95a0d4e651280cda6bd5a798e5e45f8cdd26e946086f3c1c05809ea97 -> 1a15c5498a2ab24fec45a4dad71ac6dbae28900f3bd4ee91bb1be839d551c766
+~ -[AnalogClockFaceViewAccessibility accessibilityLabel] : sha256 944cebcaf013a872dd371cd7a30ba6a2de3f82fc68964dc2fae64416d39fd7ed -> 5c780e4dd5dffdcf59a0d03537aeccc4fbd9de5397118ed5400cb7d9dbb083c7
+~ +[ClockLabelAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 90f07f4b8769eb6cf420a22a5f61c16b70fd6bf335ac67fc7b5991edd51dc21c -> 7277448f2b5d79c8689aac7d536a3d83c88a7f7d845be735059f0c527ef07664
+~ +[ClockLabelAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8ebd997327a446bcc4017c020e07f7c2cb8a2c0f892bd697210999ce3fbfedfa -> ab1983cedb4ffa2ee4fe666067583ed1373e2ee4d55b00ec477ac730cab0adcf
+~ -[ClockLabelAccessibility accessibilityLabel] : sha256 d19191b6cf06e0ca75748e32d5d4673d3446c1fcc3ffbff05416137400733a2f -> 70c9bc3116ce0a0c8ce6f039f5c98ba41abb6a922d6dfc876481a8868094e6b8
+~ +[RollingClockViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 01744362cedbfbf00a6b2024edcd31198bd89b1a485ebb2f28beaa73c3b91eae -> f5265f58545c5ade5109b4ea224f1188b3d8381a38b53fb6b99a1e5ddd79d91c
+~ +[RollingClockViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 19340b6852659a4c62ae2e6478ce6cdc22dce0121740361b0f38163636362f88 -> 97e07b1b5cc5b2b90a61cd8a0f40e19962a6028755827c7a0c5ec155e449257d
+~ -[RollingClockViewAccessibility accessibilityLabel] : sha256 381f34b209135b50f404506624b7b9b4253052c560bbf1a16187a6a841d8cd99 -> 6b823bf9416a59078e78b5ea42a17e35f0fc2fe42cd2b2f56c60c2f8508f20e9
+~ +[RollingTimeViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 33708677144994d1767e8a1509b6173cbaa8e3ca06933632d9c5f9bb47a91ed5 -> 9f38ac998258aa978d2096277d589a64fbc181df9d7fae39315b30f19f83922a
+~ +[RollingTimeViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f87af78dd4c33e5877b755ad7a6725769c63c045d989f74c14586fee097b06f2 -> 05da9fa0dd79ed28fd2e689ba20055e845dbe9c3e21d0565cd98cf7a7cfb8024
+~ -[RollingTimeViewAccessibility accessibilityLabel] : sha256 5c5bf712828b77ac119b5f20623552862a7d1b090de95219176089e3e4866a68 -> 8c5d6bc6bb82b6d8386de988c149bbc0e60f317025924c9f6ccf99a85cfade19
+
+```

@@ -1,0 +1,64 @@
+## Camera
+
+> `/System/Library/AccessibilityBundles/Camera.axbundle/Camera`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x33c sha256:6aba505f043153c6ee88cdd66a2eff4ab7adf31edd2af5044194b5c1a6d2058e
+-  __TEXT.__auth_stubs: 0xa0 sha256:1a09566540fce7d2fc45920cdbfc5c5dbea824b0b3f52fc4480c0109985f5c6a
+-  __TEXT.__objc_methlist: 0x4c sha256:5c8943b1f34baed69141cc962bec66adcc7c024d88cb3279e3ad4c1fcc5e532b
++  __TEXT.__text: 0x33c sha256:5b6292aeab2c9430b45402752781b84eb50c3a25daa67c723ec118e58bf854ad
++  __TEXT.__auth_stubs: 0xa0 sha256:05161f3ad6dda4d49b2744e1b1d5dbf1882eead0aeef3bfa1e734152ff156e27
++  __TEXT.__objc_methlist: 0x4c sha256:0976bb3f03beec235cdbe5e68b1561512c22793622636e452814b17f359b97ee
+   __TEXT.__cstring: 0x117 sha256:ca75170acd04566845324ecceea528e73d384e7b564d20fbe7b2d8531862e2be
+   __TEXT.__unwind_info: 0x78 sha256:c006c1fbfee811d319117af43df7225c7732ca687214af786b85a4f89daa729c
+   __TEXT.__objc_classname: 0x7e sha256:3f77eb2cd25f80cdfbed90378c751c9005e57767dba2aac0e3dfb4b947467955
+   __TEXT.__objc_methname: 0x1ce sha256:8f750d7d63292c0a5facae3b4af9c93d674d3c0dc7e652a28a757de033d51439
+   __TEXT.__objc_methtype: 0x18 sha256:bba3a6315717210208b1a1695db90e560c8889f773c5f843bdeb0945b98d8dc7
+-  __TEXT.__objc_stubs: 0x160 sha256:64331067015c5ae66f941865066fa26e8defe7f5d57240fe3e9bb6fe1c1e4c17
+-  __DATA_CONST.__got: 0x30 sha256:d49c8bd59e84dc4f6ed44d7b9424c0fd8f624d8beb513ef504f2573f9fb58cbf
+-  __DATA_CONST.__const: 0x60 sha256:88c75855ae2c9d7d0e8085e39a0724cf00139706f9b8e8f573a139fe4fc72ce3
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:2c4cb791f3ef6930151efcc43c2ff01f3bd2cfa5456bbd83a4c1e1efe3b7abfc
++  __TEXT.__objc_stubs: 0x160 sha256:08158ea8108a7ddc0cbe0a3b4e82ed6be78097ad5a16bdf3fb2daf2dabdac290
++  __DATA_CONST.__got: 0x30 sha256:58c961c4b3ba6ae3fc71294f8834a8ee21245629327ab83185b9482fca4ac0e4
++  __DATA_CONST.__const: 0x60 sha256:5d1725ba73fa8f544573e89d1d4322512d32e0ef6901bd08d2446d7bc6fa6ce6
++  __DATA_CONST.__objc_classlist: 0x18 sha256:62a3184f78accc5bf40018d85ad6737dd9cf61c6806e1b57b65d4840693805c2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:a0384603eece134bcb154e4733d80c97dacc9dbb0826a91bc7b5a0d4284c7638
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:b82e369e5646b24af90d9d39648d351dba46d0696175a6f60321da9bfe11256a
+   __AUTH_CONST.__auth_got: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __AUTH_CONST.__const: 0xe0 sha256:0633f078f79c2904eb68c57929ab4cbdd772681782b895fabbf1a0c6e6eb3be6
+-  __AUTH_CONST.__cfstring: 0x180 sha256:377e4ddb8b19f89d6c9e26aa0358c2f00fe5f492e712b95b14b992c4d030ac9b
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:016e2998440ad707a1ea2cb0b24edf3c6433c2d6b31886564914028098954b49
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:26e248a229fd041c5294bb11beafc430d69bc6207d085664e0416457ae353b44
++  __AUTH_CONST.__const: 0xe0 sha256:9f874d4dc9d343857ecfe962bd7b8e8cfc9a185f7249ffb5d553207b3952ecbf
++  __AUTH_CONST.__cfstring: 0x180 sha256:b6a4a570988a582037aeb62ca1587b84b601ebd66173d31158d030e0f076a6ad
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:b781687a37b9cc357373831df5f4963ae5082dd5f5f8ed159ea374bf5e2db867
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:c5fdf13cc605f2fcd8b9dd2bdd559d5e8dfc0851d0891290ba9a79d71216bc6c
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BE82EB46-7872-3B84-B3AD-7BC76C0F64A7
++  UUID: B841AC0F-F5B8-321A-99D9-303769EA921B
+   Functions: 12
+   Symbols:   83
+   CStrings:  48
+Functions:
+~ +[CAMApplicationAccessibility__Camera__CameraUI(SafeCategory) safeCategoryTargetClassName] : sha256 e86082c52c336b904c8c491e97968b025253a7fe2ba5ec2c1dd23343a02414e1 -> 13314f632adc60ead8f49dda59f12a5cf533a3f6e8a2281e87f0153ced97dafe
+~ +[CAMApplicationAccessibility__Camera__CameraUI(SafeCategory) safeCategoryBaseClass] : sha256 e44538dd6078d2088c9b953ad064d2fb254532d6a4fe58ff1bb5474b3f235b11 -> 1b0fe792f3544592c57ada4a187aab48b3d6878c728869b608f41caae65e5213
+~ -[CAMApplicationAccessibility__Camera__CameraUI accessibilityLabel] : sha256 04d6c87f14a37ca0d168227157a1c1a0d9f117d530216e7e5433e61c1608bffd -> 01b8891be45b4413bcd27527d06922a02f3fc10de2bac14359776e969689aa00
+~ _accessibilityLocalizedString : sha256 1e9eca200b7c89705eb23e3ac5def43d5614845ea7707ce8baacc1e92ee1fdb4 -> 8f1b683f3784759c2d4c04c270c49a6af76307a3eb8d037812ae6969824e74e5
+~ +[AXCameraGlue accessibilityInitializeBundle] : sha256 49d2881ae19be6a44f1d6a18f6c21b2dd92333b357d2f80a798e46e4b7240a17 -> 3ec6bffb134971e7e9e0434c085b90432945b2ba4704c8ef3a51d0398ff9b063
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 fabe14f1772a5de27b366007bace17fd1a50e6c4d94c7e48706e1ffe92521351 -> 69adbc3505b2d4b068ebbef0b6fc582f44ddc19d52cf381507d772a16e0e5e15
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 294821543794c0dc64bdc7e93286724368b4dbebefedbda7115ab2a23a9a7877 -> aa9e3d9b52dff16172341a9030d09e88894fbbe51e65a95106c1734969b85169
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 62be7b87b86bece2121f28226e9486f269e5a6f05a5df85a0cd58495b9b9f6f5 -> 05ab40724e5ba1e60170dc3f01c1cfe889c1a911992fb336657e201f2ac0a448
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_5 : sha256 3e0e09d8af1d70414dadbb7012cd0dadfac80238c97156d7efddb8f47688ece1 -> ad02e0dbbe7c5a6612e9ddb82a7588c943dd4e3405e5e3e41ca2dd88e965c732
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_6 : sha256 fb4a2644b6fccd0f6648b2af7ab472d16e856040d5666aca69ef835da308b47b -> fa60769cbe0f66d17d5acf7223ad8b810d55d77ed04e17d18dbd8a5a1db473bd
+~ ___45+[AXCameraGlue accessibilityInitializeBundle]_block_invoke_7 : sha256 03aa877147d0ff8979a6fdf61f781e67ba6e0686937a5dca4fef236db77c1227 -> 42ed355f69b1d933c8957c239cd82cceed97ff58aeae41eca7300f02d42c6476
+
+```

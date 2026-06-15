@@ -1,0 +1,67 @@
+## PhoneCallFlowDelegatePlugin
+
+> `/System/Library/AccessibilityBundles/PhoneCallFlowDelegatePlugin.axbundle/PhoneCallFlowDelegatePlugin`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x7bc sha256:504dd76de3e7436e451f2c940a3a8f29ea1ad50ac439154ea2691cdf5b65b1d7
+-  __TEXT.__auth_stubs: 0x1a0 sha256:1d66bcd98312a0c41785fef229b5b9b867173d974eb614f26edcb4323950bfeb
+-  __TEXT.__objc_methlist: 0x68 sha256:a906504da07632a2aec5cff1fa530bfee1eeccc291d90e48737511d417806758
++  __TEXT.__text: 0x7bc sha256:b6d48b672875a6f881b34c8887e36166c6b19d2a970cc330bdfeefb68d7c9c65
++  __TEXT.__auth_stubs: 0x1a0 sha256:7c3704f2e7f0345b343d5fc3552299b44b91ea06aac5abebafd7303d57f07f9b
++  __TEXT.__objc_methlist: 0x68 sha256:b398387ec8993075e776b8baa545cd28c133867522885540a83609eea0396fb4
+   __TEXT.__cstring: 0xc8 sha256:bcee9d42bc450c16364eecc1e5234d3f606c2ceb79ba4a4ff3bb5cfb05ea0cf0
+   __TEXT.__const: 0x8 sha256:889e048cbd784593ca6f24aa2b1ccbab237fa0802d98a19f0e225bcc0952c3a1
+   __TEXT.__oslogstring: 0x71 sha256:b73c4d037de4e68bb377c09833bef3b9986b2c5beee0bac6c0f69ae3f4e65e87
+
+   __TEXT.__objc_classname: 0x75 sha256:40b17c31388f868d28c0aab48a77ee163e334a12cbf468133b2595918c506e6e
+   __TEXT.__objc_methname: 0x2bf sha256:2a31a8f21377381e41855bf3e7012b0d8bdc5fa6f3804d904a8a4917f7823661
+   __TEXT.__objc_methtype: 0x2e sha256:2f944bfca14a6f7d4dae0520ce4948a7f821cecea1b6735a00756304b5768c4a
+-  __TEXT.__objc_stubs: 0x340 sha256:db59eca1a5bb91f01cda7b2cec1e8723f9806020ee12f6c620a3e60ffdf679c2
+-  __DATA_CONST.__got: 0x60 sha256:2e5ca34af2b529de93364a58f5c5005f28ea9e88ef2294fed52c792b8b7aee12
+-  __DATA_CONST.__const: 0x40 sha256:4f147189a17c06fb3b0eb4e9537ea435551b7e7ff5781b1ae268075936cbfe5c
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6e04998a9a21e644c07db3a39d21e7c6464c7a343aa08a34ff3eb0227cefdf01
++  __TEXT.__objc_stubs: 0x340 sha256:19a26eeace39c979ecc098f91424610592bfcc9e2c19c6d43380a964f7035dfa
++  __DATA_CONST.__got: 0x60 sha256:e5c70537be44256dd5ce839c3004dac260b78574e19a6a60fcec7d0728b43a92
++  __DATA_CONST.__const: 0x40 sha256:2098407f2a21cece8a428f0574f4c30551a4b784e294528a496b6d24f9cbbfe2
++  __DATA_CONST.__objc_classlist: 0x18 sha256:14a6f2f9b1b0151be8b0bd4b569a54afac3e6ec0b7654682f9376ce5b9273e33
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf8 sha256:72547c4b39e8d0e486511b9c079904c55185db3f346a60821ee033dd08c8568b
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:45daec3a6d412eb3eea27b317f6ecbfa99bf7036c2697a392ef56886df286341
++  __DATA_CONST.__objc_selrefs: 0xf8 sha256:23fdd75580665bd36e8efa66631a899499cd307958db921cd63bab0e9c1bc8d3
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:09f5e17daa5605789770337f1fb4eaa83448ffaf5e6e01dcec9d7cc8e727cef9
+   __AUTH_CONST.__auth_got: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+-  __AUTH_CONST.__const: 0x60 sha256:bea41d924c0e92be01cadcaf34402655746f8648186d5989a8a25a8e0809aefe
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:3cd958506200ff13a614f981a0d1662a1e944ae27a15292c4a95f06ca6290881
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:312596be739f09a579be3167d796cfe4c82284a5ca69684072fe92abd0fc9e70
+-  __AUTH.__objc_data: 0xf0 sha256:9c5ce50e606e616e880d7d30f1874f042e3558796d1562e0bed7d32bb9a89c8a
++  __AUTH_CONST.__const: 0x60 sha256:c5398d197082b93e1f4421b7762688e46cb2035360117fd291af90c325589b09
++  __AUTH_CONST.__cfstring: 0xe0 sha256:9e25deb2511e69f5561a24a7776c55b5576cc5ab0e2ce55370f69cee1aa2f8d0
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:4cbff147fce44ad4ee60fdf1c694b9b8cb1ab61fed20bdc8b11cb04bee69d60b
++  __AUTH.__objc_data: 0xf0 sha256:86acdc7df2aec3be2d8ef7aa9fc57e5299e7bbade379b08fa24c83370176d43c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 195F6FCE-D57B-3C3D-B3EF-91DB95FB8D82
++  UUID: B559BCDB-1D8D-356B-9126-70A5D8D1EC47
+   Functions: 11
+   Symbols:   113
+   CStrings:  59
+Functions:
+~ +[AXPhoneCallFlowDelegatePluginGlue initialize] : sha256 8b9408b3c592b856c8809a41719c4d353dab5cdfbdf5d605a998b10fb504d614 -> 87e464a911b8bd74f5b59b2ae4b8619b14c0d5672e835b551b34345aef913bca
+~ ___47+[AXPhoneCallFlowDelegatePluginGlue initialize]_block_invoke_2 : sha256 e5d509f6bc34ec831159dbd3f102c990a04bcbfc7fab6a803cb01e5fefc85aab -> 207b6f2a5d102dab6a1fd7c02e2585d49acdffda75dc30721a7e38e8950bd20a
+~ ___47+[AXPhoneCallFlowDelegatePluginGlue initialize]_block_invoke_3 : sha256 40573bb827efe5cd6f67f926f57c046940f027ca581a2903a6999af4fabfaf1f -> 234e78382bf52a8902c724f300e2a2eb4795347d361d39dc489c6077e351cb1d
+~ _accessibilityLocalizedString : sha256 d088853628b4441d71d76aeb0f478b852d34cc3bcba7407da08e18babf2f6cba -> 19803a1c9b5f5ffe7103e5f93f2b04bdf7e00c7469daccab9b43aca0ea235181
+~ +[INStartCallIntentAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 7ec15172c008a46cb1083957e76f1ef6b4327ade16c4e8d5a332f5e868a53696 -> 7ab1c011a4386a846b055a31d6b567302baaeb2d6a34c0a0bfc60a6b072e4d5a
+~ +[INStartCallIntentAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7d220f6a4067bd4ea8e427eb035681a1b207d6dfa306f68865ba1888ed315d2e -> 608433b9348201a3e4af700f3db0891f5789ab7591e126e94fa3e1dc9b49504c
+~ +[INStartCallIntentAccessibility _accessibilityPerformValidations:] : sha256 a2c110a3eb89195d0c8eb02fce2140a304ae0ec0059fa29b7639b77ec1f7cd3e -> 0ede4f5457350cf4ce9b5f0bbbf371803e12532b5819d6e7298086ac316ab182
+~ -[INStartCallIntentAccessibility setContacts:] : sha256 882d668af5516b95538f39f44a9ed2fd8ed8e471e04089ab28a7f9e44bd04656 -> 02629fca877c2215094870687e01b120bac2be35a597d556dad3bb8bca04eb53
+~ -[INStartCallIntentAccessibility _axIsContactSelectedInClarity:] : sha256 8a37e69544b40612c7ec86e5d4009b49700e8b1ede982d9a511658fcb47106cd -> 020ff40e681dc6bc94d5841741f65e1405fe8b5808d7000c0c54387a7d62f088
+~ -[INStartCallIntentAccessibility setContacts:].cold.1 : sha256 2cbdc3528bf755ce2cb9127bf0a195be8e31b252a053c80906548a5af3820d4d -> 7af3284a302ee02bb54b637f36561d704c08934f8050c6971340a2de742863c6
+
+```

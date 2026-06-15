@@ -1,0 +1,138 @@
+## AppleHIDTransportSupport
+
+> `/System/Library/PrivateFrameworks/AppleHIDTransportSupport.framework/AppleHIDTransportSupport`
+
+```diff
+
+ 9140.6.0.0.0
+-  __TEXT.__text: 0x43d4 sha256:d94155eabc2db3d22e67c092aa2c5fdc3f1ad72d5751482cd126e87d40f76ca4
+-  __TEXT.__auth_stubs: 0x4e0 sha256:8cc3ffa4b0219dbc2e8e5064ba9e5d062b36c1218c18cf2495b66375e2755d09
+-  __TEXT.__objc_methlist: 0x534 sha256:d9b2176212835571f6f2c8cacc08997112183abc02ec0a50456aa92d55eebf43
++  __TEXT.__text: 0x43d4 sha256:be329592c74e703305a1917acffbcd18c6c846f1f1ce8856e1b79b7ee03d0786
++  __TEXT.__auth_stubs: 0x4e0 sha256:1d03ce83903f4d1344b7d59c300b83c503fb1efcd29fb058c64ba11f999005c3
++  __TEXT.__objc_methlist: 0x534 sha256:3de13f602f549b820a826e8e0b452fad5a28d38165e8024401abd4e16b171da8
+   __TEXT.__const: 0x80 sha256:b79b10a6bd13ddeb17811e4a70bb1f90eb37a2662b2b9b12528dc3c244a24a39
+   __TEXT.__cstring: 0x410 sha256:9b2ec09501d627ffd1ed94360c9e088f0d046dc304d5530e1e3d6a1b0c393093
+   __TEXT.__gcc_except_tab: 0x18 sha256:4cbf7900d964f2442ae9e99defe9de703948f8051e7bf01ab2b3750a5c2d5173
+-  __TEXT.__unwind_info: 0x178 sha256:6c3166b506d96bafc3128d8017aea3e520794b34ebcb3271d3d611258cd32e17
++  __TEXT.__unwind_info: 0x178 sha256:250268bb1ea81fae45cdd371d0a2f89dac517b2d8fc8f30af3ed78bdfd4db866
+   __TEXT.__objc_classname: 0x3f sha256:d284acd85382c9370b280c7a535ee7843154276c349b1772c056bf80eff4d124
+   __TEXT.__objc_methname: 0x9a1 sha256:1793e73762382a9716bf9e925d3c2264a2014c02887627a5f361f3501477d402
+   __TEXT.__objc_methtype: 0x1ba sha256:4485b82a619a96d03974657ac9bea167e9b6183dc2c292b57c24d5089ab635a7
+-  __TEXT.__objc_stubs: 0x7a0 sha256:f993f7de5dcd9c9f8393080f65eef1caa6ad4bc788fee598090d0a6a2f4f812a
+-  __DATA_CONST.__got: 0xc0 sha256:c080722c60e095682d3b2121ce6327c397d582c72d5747d42162e60c9443fd73
+-  __DATA_CONST.__const: 0x98 sha256:7fe9751cf67954ab3db6ba56f227aa52ad814ed747f1cf4e393771ca26dccfa0
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:f0dec9c5664a130a270b624c0911b637f63536b416efe3b13e137f39e22689d5
++  __TEXT.__objc_stubs: 0x7a0 sha256:3e647e21516804046185fd826b4d9fcff374d625a1c4921793a9449e809b998f
++  __DATA_CONST.__got: 0xc0 sha256:1c454ef5d2a0822f3b84d21f5dbadffeb0d6dc14427061d5efd5ced4db60c630
++  __DATA_CONST.__const: 0x98 sha256:c06b11abd1f83f0a57aef8c67bba1ad48e811cac04dad0d4d9e0d0dde8746868
++  __DATA_CONST.__objc_classlist: 0x28 sha256:89c1f70a385d9303bc1459cb950189a3778f6c5cb1c8f2dd168c9c902d5d6616
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x340 sha256:00d984d5538b232d2768741b24c39de1883b1e766734ad8b230a376d4a179e75
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:2946ef0836ce1142dfdf4e062b90b24f5b0d0ce5d884d67a307998d3f1574d10
++  __DATA_CONST.__objc_selrefs: 0x340 sha256:665dd493341541b4ba73ec652d58d3a15cd9efcfc485f00057d7ea317f912bf4
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:a5e59eb2e02c36f2dfe7481b7d0b57af709ec79074e006001f60832d4481de8f
+   __AUTH_CONST.__auth_got: 0x280 sha256:9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee
+-  __AUTH_CONST.__const: 0x20 sha256:0514c3075d3c60df91c535584bdb01f6066207d8fc6aef4d3aec282bb9443108
+-  __AUTH_CONST.__cfstring: 0x560 sha256:6be8f345e999750820bbef1d95fb158df741b6dee80c7303e41b8f8dbc5bde93
+-  __AUTH_CONST.__objc_const: 0x6a0 sha256:33e734bd4c230fd3102466b6b718bce4743a6c6b341f4e34ae15b858f0a93de9
++  __AUTH_CONST.__const: 0x20 sha256:6aa039afc175e2c4934bf91644afda658933b20f01ce0e5bfe9ada6c75f74c66
++  __AUTH_CONST.__cfstring: 0x560 sha256:9f8e35ce214793def5ef917d5b8820e6c8f595bbd4d112bac00ca0d66d3efbbe
++  __AUTH_CONST.__objc_const: 0x6a0 sha256:da6527aa27f2bd0b32e2f5e3b5b9bdf7779d5fabb613f2fba7474127caf970b2
+   __DATA.__objc_ivar: 0x4c sha256:715c1b99f7eb0522337c3be41207cba06dcffea46c54bbd6f58864d480dfd5d3
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:9273992d791b1e03ae3817d45d235ebd282359c6f203b119eba88a2d09e1003d
++  __DATA_DIRTY.__objc_data: 0x190 sha256:2ef8e03d23902ec6ed38394b5049c3bc858b3ee18b50d50a693efd697c1c0e77
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libIOReport.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 29906BDC-1E97-3671-8E6B-8F4AFBE99294
++  UUID: B59DB80B-12DD-3998-9749-9BA3C2C4C926
+   Functions: 116
+   Symbols:   463
+   CStrings:  274
+Functions:
+~ -[AHTCommon initWithService:] : sha256 957223a005f16a59e42c84a09ae0c1f04448890a34b26744070e5f3d382e862c -> 69d52520c96f0816ef31383bfa30bd74e1936c159af34fb7559d463110bed14b
+~ -[AHTCommon dealloc] : sha256 a2217bcf92c735cbe4c935db411c8380fffce21e33a25b56a4827b0e29fe64b2 -> f08b5d97b2ca78e63153cd2f15edfb0cb7ed724007bb0299c3fdb8f87adf0517
+~ -[AHTCommon open] : sha256 92455bf72952229fef1682189c927522611f01ce6f6483f3317ba363e80b8eae -> eeb57f6af1a82fbb49efbf650fe4f555a825bc5c79c56b6095fe5bc03bea79fa
+~ -[AHTCommon close] : sha256 572c923b890816224b8ed845591c1c514a84d707aa416f537b925e95761f708a -> 8fd2758d66c696edb2f98a7d55089f09db6ba3bb0a834e2856a49faa53f12e6d
+~ -[AHTCommon getBootLoader] : sha256 6b19c3a339a69feb0e5e37490163f983e105d79924cfd1ad045bafa56c7587d3 -> 7e12be22e39b20d27cf3e5be6cc84604cda1a929051acbc559930aee775d42bc
+~ -[AHTCommon registryID] : sha256 a163c7f36262e237a4ccb303a5bfd6eecbdbe7d7a40ef7e20f2916f31a89c626 -> 4b489aed7f7eed5f74eb942af85cfbef2b3f5406989763126cd67ee86cb99d05
+~ +[AHTInterface allInterfaces] : sha256 a1713178da205557f63d4f7af8ce7025eec7b7ec0822932778b647d28d443240 -> f1c56718d6e1573353ad456cd6103dcff021de80b8582f856d5086e5177de0c2
+~ +[AHTInterface withName:] : sha256 f88023d870f3958b80ef9e7983966d16153386e1dbc8dd3fc1d5e4777c31124a -> 741466e8739d9fca31cd0839ef8083d6a4bf87d485666a2b6f93e3b338cafc77
+~ +[AHTInterface withService:] : sha256 76c3725a9e58df0ded5275cd757227795427b878206e0c803cbbe0dc82729fe1 -> 9e5b442a3d8439015c847974331623d9f826c3c3cf825ed5e46daef0b9b3a7c5
+~ -[AHTInterface initWithService:] : sha256 b07ec50e265aae60d0ddd519d9436a0fae212147e234b797fd881c48851d32a2 -> e277b60d44b6a338763af3e4611e4fa7519999b7eae4349930d2dea6b58943a4
+~ -[AHTInterface setEnable:] : sha256 046f6d4f862b1e48fa1200299be005039025c6b6ca9b4f8d64ad1ce5c6768167 -> 0814fd2a57fc3c1a4f51c97f635b4a4f6f5243d3ddae3b3dc7be3ec4b31b0726
+~ -[AHTInterface setPower:] : sha256 72346eef2731c00c3d00a60b6ace0666e6ebf38bb9b264ae1fb3c463af4429fe -> a31108b368bfd8fb0801471c3ddd2c17c7df40b27f3ed80abee8edcfe577e717
+~ -[AHTInterface getPower:] : sha256 7862670587458a6690b44a31e82b2c3544bd09135383f220feb5094f8b1d89c1 -> 1d48c8a5da91fc43b49942694d6adaff9e4f4ed6f44f61ae43468c3d4a4a4c9b
+~ -[AHTInterface reset] : sha256 4d7f77e4e7eef7c8e04c437e561b3bf9a68035af1484938eb22d52235e2c2a1c -> 4a4bcd2b8625b3aa0724f16a4393e0dd58f008a8ff7ff4cc160ea090b77afe0f
+~ -[AHTInterface captureMemoryDump] : sha256 83b43588c87cecba7522ee89c8e2cba4e93552ad10d21d57a11a2f157c89e161 -> f7305bca702154121765fd3c3741b49e4d469ebf81bd2a24bbe8841ca5dba404
+~ -[AHTInterface setReport:withData:] : sha256 65d6b1f1a0f2b8c67b6f90931dd80236b252302d3a06a581119d25574bb40cbf -> 0b6189b304b705eb9e6139fb772b3461598f08c682075fa63ea0eef972150ea5
+~ -[AHTInterface getReport:withData:] : sha256 c43429f6149f17e731651966b2cd394025d4dfe6d0a524b63c39fe3dbefb6ac7 -> 5e4ae76e1031e89cd0148f4022d21061300a5d7f58feb6160541b55cb124fa6e
+~ -[AHTInterface description] : sha256 6e2a6dde537bc6954ba6064fb5dd62d4928c3563f9591bf0ca9393d6236936b3 -> ceb1cbde5ecefb1a39bc16cff57cb2c3466c9651dde854f636ed8ae7d90a1b96
+~ -[AHTInterface interfaceID] : sha256 f541b4229c1d13250270fcc5886dbda7092d228e86f73bc4de22edb1b8cf7bae -> 3b9cafae0291b540e8d6c9b87d999439585d74a8b582327504ec83b0824c16b0
+~ +[AHTBootLoader allBootloaders] : sha256 c67c55df335badb36b969dbee2c4cef16ae2d82372cabf739ea54ceb37a23f8b -> d9089557787a2701d53eec22bd641fd7f6866fecef41f3e318dbcf2ff0a18ddc
+~ -[AHTBootLoader initWithParent:service:] : sha256 190ebae5ce9238287206a92281f2023ff1afb35d01cd221a312abfbe33879c26 -> 0ccb18a1de03c29b09e67757ca04c252719b62141ae37d254c4f1efb6f34259f
+~ -[AHTBootLoader initWithService:] : sha256 93a281598149145c89e9127d21ab9dbf816b2e24cdc6669d91d111f9feff8762 -> 0ffd4665fc476579eb9ba1839a6140dda211776af04f52fa4ec7ce05f4762ed5
+~ +[AHTBootLoader withDevice:service:] : sha256 d3e7148400d30a0c180db45a2f5ab45d1fde90246fa2f56458dc3a01e2f1af61 -> 8e97d1f0fb41a9d7de759fcc52ee9c7c68f0836edc0efaee23fd9a1887e16f88
+~ +[AHTBootLoader withParent:service:] : sha256 3e430219c6d558c68e375820b77bd4140e417428df7db6d68eb71781dc6bb2c0 -> a41e6b9f3290cdca212f4fe1f9485266134ba291a8dc727cef15793418baece6
+~ +[AHTBootLoader withService:] : sha256 7d722b6597434f00c0519a2d6d2f8060ffc2ed6dc9205372e4fac0afba04d88e -> bab9e94ef2fe09d512ae534c5acef9d0155371a943daa8e0cb658c9eb74e949b
+~ -[AHTBootLoader dealloc] : sha256 67e682c87d5964fde7f0e52ef0c8aef9dcb32f39f341290334339dc1cf976d45 -> 9f55a655a168f7bbd5be43146478d07775d425b2c9267a68228c488f901a4f05
+~ -[AHTBootLoader open:] : sha256 2405957c3e4bda06221f9d2552266b6f05e5426552e07b7ba9757dc22bb93837 -> c08d178ecff41c5bb5cb05b45f6ccccaaa39408c7b19977a12d0f86d753ea308
+~ -[AHTBootLoader createMachPort:] : sha256 f7106924ac9445ea0c67fb31b60a4519ba44370ae6c6f0f90112aa77b7ec79eb -> e3798cf18e4e6f98fae49ca61d6cd3570e993ed4b91bb580d0c10fc4a9290e13
+~ -[AHTBootLoader destroyMachPort] : sha256 fb020861d666b996aacb55d2abdbaa2013262c6eec398ae7165370d211472627 -> bb869f8403bebac753323d4d802541b4dee2bce088ba628be3287e276edff401
+~ -[AHTBootLoader dispatchSourceForNotification:action:error:] : sha256 cefbb1ce34e161c92312fef77db9c1c0696fbc58ecbb5d013db938ae5971267d -> dfd7132f2e9a2d3571c1db04be41885e80eb1574922a7a5d533e0436d5613d58
+~ ___60-[AHTBootLoader dispatchSourceForNotification:action:error:]_block_invoke : sha256 c60c687252af248d76b9ffde131fc8325f59950f1021308df80d3f3a6c65c0ec -> 8d86cc79ecf11c65c6f6bd9bc9c2079f0d8bd6d32efc3e2a00e4d44098c44a99
+~ -[AHTBootLoader close] : sha256 291fb9aaef3db061184d6c82f403997f0e380e989526d93dc361e8b7a0724c4b -> f803f41364c2a468349cd8583f800e9fe7ab5b5f3495df3240d18a9de2f10098
+~ -[AHTBootLoader updateProperty:property:options:error:] : sha256 5df1b3b220415b0cf9e00bd182f55da721132caddb5256ddb32b84ba7badf84e -> c3b066ec1fdf4a494ef86ab96ec6efb94607c263db9d93de8a3b5dfdaae3587c
+~ -[AHTBootLoader getProperty:property:options:error:] : sha256 968f0a0bec7b59eb46bb07aa784e06eb687f2792edbf3a4db3a3863c7b505e6a -> cbeda539458c5438184a37e699513b0526e15e75a48b87b18dd6981c5d5767e1
+~ -[AHTBootLoader reloadProperties:error:] : sha256 48f950fa9f239b0d2b54f2f0b6d7eaea3a55af6a4f34565fdf2fba299854e607 -> 03afd8883f813dc29781196fc96ad18287adf0884ab3e1fa2c71cc47c8b41699
+~ -[AHTBootLoader overridePersonality:error:] : sha256 5299199b1969c71aede4ced02a6a32eace9c55d280f0d4752615356a69f1addb -> ac060babf79a54dcb4dc18701e66e8ea2316b610ca550505d7df5305b8dbeab7
+~ -[AHTBootLoader getRegistryProperties] : sha256 33919cd6fa32ac5ac476cfaf0bfa92e15768b6419823d6bdc2e6d7a95fb42eda -> 676c7f0d705e224c75ed7f9a7c7a53bf86c37a8115d200b59b867d43e2248bc5
+~ -[AHTBootLoader description] : sha256 d61a2a6dc382cec48e41197d8e86a01e05e911e9dbc99a9d6831494dfa2c3490 -> 16155024721e2e371b63e39d3f315b186c48cd8cb0ed0a9e461fb810ffe04955
+~ _OUTLINED_FUNCTION_0 : sha256 ed2c40593aeff1d2d413c13d645da8f8e03c92af5e675a9ccfd13ecdb8d23344 -> 9236d9a8cb4131f1f299e9d3a5f561672872406316aa0cac58bee040248aba49
+~ _OUTLINED_FUNCTION_1 : sha256 eb1df9c1b999408c7e76dadb6e1110c10b6e4a169d46a44bda7532d6b58498b0 -> c76eb0c08e60c67e23a7737376f5e3f54ffc57d4e58d516857e31de568eeb85a
+~ _OUTLINED_FUNCTION_2 : sha256 1d21923941f2ead29cb52a4355e7138d6dc56d05d99f11224da5c7831f46cff8 -> 059a532cef66bf8bad9af2e5312584bc3b0564569d3320368474b2d8a27bd1c2
+~ +[AHTLoader allDevices] : sha256 94466c7ab908f0b068543c42634ba6e80974920322f2730b63fd3abef061b7ea -> a18191c19dc855fca497972fcd875e2623655e2f2905edf0d973f938b7efad6a
+~ ___23+[AHTLoader allDevices]_block_invoke : sha256 5a1fd8126477ad4fdde17cc8acb39b50f49096d63fdefa19b69a052f27782ebd -> 803a66170859714ff0e69fefe2073488f3d692a2f27f72678bf6479451dc050a
+~ +[AHTLoader withName:] : sha256 4284cf5feab37fd47233563624d52911bb7905b99fad6d89ae071d8e84fb5d57 -> 4694d219288d9cc390693f74b433b40a451c52ef1cbd61bd0610d6a9d5660578
+~ +[AHTLoader withService:] : sha256 4b18cfd897aa49d420da69e27f9f487da0b195fd681fce447bbcf9df7d95577a -> 65e9bfc5a801f4e7a90cef87bf14dfdff2367b64610e3094b17ecbe7bb1615f7
+~ -[AHTLoader initWithService:] : sha256 bcbac357dea46dd3b7c0feb9aacc42b6d718759819297b69977f52c93cab9095 -> 8e1f33bd8bece437e7a19a3c137a2191a883f1cbfa78e579448bb7e59e35b716
+~ +[AHTLoader bootloaderPropertiesForImageTag:] : sha256 ffe6abbd405ea36b3aaa4c76ae36c19ead9b9796815bab642d4fd594019a37ee -> 9f954fadab75bcace67f5bc37aed7102d9f5724960bb8ec0c355c95ec5e672f8
+~ -[AHTLoader dealloc] : sha256 bf7302d971ccf8325d5b26736330b5ecc0962949e42ba272686879691d5d02f9 -> 98e53b72485c8befec37f4cbe4f104080bcc2814ae2ced3ff31cca7de6b623f4
+~ -[AHTLoader open:] : sha256 0c53d0ce62dd511885781ea510bf2d696551a9cc9f062f2c7862680408ed1ebd -> e579b430c57845ca9aaa1de3a610ffb479c51f17d79a1eb044a49c4612a7b8d3
+~ -[AHTLoader close] : sha256 f1bdf7ccd901f23fefe9f75a3082d22fc3d7a93341520e086b855e6adf3f37dc -> 85a8a142eee728e334ad8b3fcff9e70ae0bc7dc0b10f253755781f7874bdf57a
+~ -[AHTLoader description] : sha256 cba7f0846d5e653e7837321d245e28b3a1995b8396438799f50c2600e6cfc323 -> dec954db2cca2bb9ab20cd51279d22fa283bc484916d64d7c472bb5c4dbbce09
+~ -[AHTLoader fullDescription] : sha256 789c5cddb14f5b75b04fbef576a301b248a521855fb1a59410da55c4b0571316 -> 648aefdbad6333a0dd4c75c157a7256962af7514e3e70ad7c44727ec94e04cf2
+~ ___28-[AHTLoader fullDescription]_block_invoke : sha256 1b1fae151af6114951bb68a8c46b325013e6a2b547ea3d11147567aa6ac26331 -> 68663677a61c0bfb4c378257d75a238ba4b1c5e8905c7d8cd84b644dda768182
+~ ___28-[AHTLoader fullDescription]_block_invoke_2 : sha256 8298d8ddd14bc25131fc1fa9773936828bb5d6c4bb7bb2c410e47754111093a5 -> 98eb408feeca5dde2e4bc6b0c18e30a8d7ff962b2470afd3a943c2f52fdda837
+~ +[AHTLoader errorFromKernel:error:] : sha256 949d13859d73f29455862ad20e38f1752ea6e151a71aa71355b3908856ab2ec6 -> 237d1db20067fa9db9d6ffa9d27b6e57edd957c9cd412bef853b1cc12ceb1911
+~ +[AHTLoader errorFromAfuKextResult:error:] : sha256 972d1626cab47d75f5f3efe8780381411da3c8a59b4bcd80ec6a6468e117d275 -> 0c7c069970baab591ccd318e221bc70686e69c5fac6393e570f16ef89694f565
+~ -[AHTLoader loadImage:payloadOnly:options:error:] : sha256 7b49ad22140a0d14c6ebafba8b3f6cfd47d13759daaf5befd0a9c6f49e086a3f -> 46686d1b0c652ae4ca8b5831d4b4759ac36daf215fec42bff6fd062a2395ac61
+~ -[AHTLoader overrideFDR:fdrClass:fdrSubclass:error:] : sha256 62c7e9019469ad4b075d7f2a756a8b1f5ec9cfba48bc29f4c7495e1b7a518c94 -> ccde1cc3b61a7b81acb132675484370ad2ef117a919fff040a7237d27b01838d
+~ -[AHTLoader overrideNextLoadOptions:error:] : sha256 8ae4d6c1204e16af78d51333105a52dae926253c60871cbeae1bb3a9f64555e4 -> dfa0dd80a1444f7dbfb65f3c1f2d548e04f3a2a1f56a1667467ce76ca2033cbe
+~ +[AHTLoader registryPropertiesForService:] : sha256 c80b97654f453d568c2fc3b00d8c0f01206eda240b2667d39629a07e374fde3f -> bb0e04f24b9d72b520f9d2eb7de31d017f43ef8872ed51890d84b264d71e8a8b
+~ +[AHTDevice allDevices] : sha256 ba69d568f1d45ed8abac3ec763990ffed976240307f271b0df43bbfaec9d7c74 -> 7362499c5dd0a01ff9993851ddf1f0e0da62439ab8b85ab93108f019cc83d7ad
+~ +[AHTDevice withName:] : sha256 41da09d8f586dac8d6f58a1df297fe6a38824ed7b01acc19b1227ec4dc5eb2dd -> 49720c8ec30272a34ed9ef36d830ff1459023081d9ecfa4128a5776d00483cf4
+~ +[AHTDevice withService:] : sha256 d635d35f64f111b01f1dcf4f9579abc9dd945f49be36f68dcb2e779490a537d8 -> b97f846b0e3381f466653de307b1d868e31de3ab1c95ceda32962eb312d1847d
+~ -[AHTDevice initWithService:] : sha256 e94766b0407ebe0508ac7f6466427977d7cf7e4648f0a332b9c0b1e836ac7aca -> 685f08b887bcbe314039df63194fac434017e187d723efea45577151c3105d7d
+~ +[AHTDevice deviceWithParentRegistryId:] : sha256 e95e5b7f641095924de9b41ebb2b76afa3fdc6cf9c9db9e1fbd255fb93415dd2 -> 770afc12e79f994f26a95c0a194cb9ce23c0ef04f79ba4054fc110e9816be926
+~ -[AHTDevice getInterfaces] : sha256 c6e3406848d9bcb3b222e55f526d7a180e49330e5530223667e301c576f85d93 -> b37a79004279b33b88ec3d4e6d9c609dd4e8076449444bc385dd7c1fcc62efa9
+~ -[AHTDevice getInterface:] : sha256 d40e08d0ed856667e216987af10a2a33822b63147f1511499f8ac183aed156c6 -> 787c56d740747012fc8705e6bcc45831101c32d57904b2d3471ab037965af76d
+~ -[AHTDevice getInterfaceWithName:] : sha256 0f3d361ab391232aa2615992ff88d1768f9468e563c25b9830da65133eadcce8 -> dd1957ae826a0300a945ded233b40d8c7c9b5a6c330f1e5032f9339ebbcbd34e
+~ -[AHTDevice getBootLoader] : sha256 7dc5cc61f549f8ad0b7d5e3d862f4bc68c9b6c143bdf2337bf70bf32f3449fd1 -> 0a9f466b87eca50f343cff8ac7f56951f2b5cf5d6def441af9402bbca6b1702b
+~ -[AHTDevice setPower:] : sha256 ef4961e9a6c8e1b161ed604b7c7ca9d4450ee7dcc6647267ecb860eeded958a1 -> ad446cf32929efa9f62acec63b6c7715b7cacf38d222d9e02a999484f53a6752
+~ -[AHTDevice getPower:] : sha256 1d04f0c663a0d4c5ea3272b422817c56b83d510e2e70ea9f42e1454cf17c03e6 -> f7b554b8be9cf1870934c9939163d13bc83bc6c50894314e1828078c799681c9
+~ -[AHTDevice reset] : sha256 596b20d905ec0c0ae6bfb0e49a122bf84c988f6064dbe47115221f758df98376 -> e379d0416cab552ac3e8cc541bc6057f11deed585e6764a9b320cc8f87c85366
+~ -[AHTDevice reporterResults] : sha256 3d51de163d2f6181e4bef293b6009571c7f8269952a037af79470cc998d3a05d -> 13bd4705b27a18310e9720459d2f2fc8abe1650109fb07b0ced25639bf5c30f2
+~ ___Block_byref_object_dispose_ : sha256 69f0b8434a04de92dad70eccdc9e1637138c68edf7bfa2bbbe3a6756cd16a969 -> c1f58559dd0204f5caa713c0ea63c045df56acc0937ba00a92466428c526a735
+~ ___28-[AHTDevice reporterResults]_block_invoke : sha256 cc0f84f09ebd9e51ce1d9864092a44771aa74887b09c03c4231fe65d427fdaa7 -> 0f5b8dcfd031fc1d13db8e870635de33245f3171e2c394a1b09b089ae053b597
+~ -[AHTDevice description] : sha256 52b3e55cc0ff4eb7a5d6a802c94412d93244a16f002bbc6507cc57f58d1335af -> dd5ca39d381755a62e21f580f852162d0099383af4237ab2b2b5bcd519759fdd
+~ -[AHTBootLoader setMemoryDumpLevel:error:] : sha256 8dead7d41875beb8db90ebda845446d51df460f1e34086130496fcd6b9e7701e -> 6a8e9657f1b51d0fac6066afecadbdc6fffd1b926ef718958ef6bea212cda8c4
+~ -[AHTBootLoader getMemoryDumpLevel:error:] : sha256 b1d274b9cf651f5ced3dbb71fe823279a8b4f10ecba0ef2b65ac0d87d66533b8 -> 35aa89dfc50aa7260f3af92b85b379cef78a289b027ee0650d11bcbe9c067cee
+~ -[AHTBootLoader getMemoryDumps:error:] : sha256 0d048738e71edd29b91ba810eff8562ff747c75d5194254b57a38a8d50e61019 -> f3be4af6d96393b062bdca31de772e38db5f5858fa8b126852a4859c30129d7c
+~ -[AHTBootLoader overrideProperties:error:] : sha256 9961dc98fc1719a5ba8b2df24ed775995cea05e7dc7e238e3bfc130cee88eeea -> a4f60352c07bada5ccd1cabae0773bcc088914e62dffc13d0ede02309fab1a9c
+
+```

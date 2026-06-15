@@ -1,0 +1,65 @@
+## Messages
+
+> `/System/Library/AccessibilityBundles/Messages.axbundle/Messages`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x31c sha256:a71c79783e8bac8806bf7b68c0de03e03db535dae881a1d4ae7fe70fbed92dfc
+-  __TEXT.__auth_stubs: 0xb0 sha256:41d3a511c586757cbff49d2d764101b8b56026045ff0b7661a47914f5969affa
+-  __TEXT.__objc_methlist: 0x74 sha256:e8ac95170d077498ab25ef3e2d07edfdbd0a344114c5a81e9b124fbfe4c572f2
++  __TEXT.__text: 0x31c sha256:30232e5b81a45ba50eef35b9b1174f769f8899d89679644a6a9913fb0ab8bf2c
++  __TEXT.__auth_stubs: 0xb0 sha256:cb47d66ec5593cf1c85e64e4b08cb3c3d93bce697ff48c29dca8a63365aa6c5e
++  __TEXT.__objc_methlist: 0x74 sha256:58172029a2ff87601bd78fcbda5962abcca33300bff15da14a62afae44c55255
+   __TEXT.__cstring: 0xea sha256:8bf1520c3b0e13dad9282a36610b249b27b896c7c4e71da10e0e62504ce746e1
+   __TEXT.__unwind_info: 0x88 sha256:ca1af067f01afce27241d934e15df729643957ad5dde4f799c7254e447dc6806
+   __TEXT.__objc_classname: 0x5a sha256:01e9cb40dd666baefe7eae06d0eec18bac3032ba4ed8ced45daa65faec862d5d
+   __TEXT.__objc_methname: 0x1ff sha256:fc781083549154a8858448ce81a3f5ad5757c474b90cb3d9c46f20050458ccdb
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__objc_stubs: 0x140 sha256:71b6454302edef0f0286f970ac8277852400a9448af86137da7319de65c140d7
+-  __DATA_CONST.__got: 0x20 sha256:378306072a44a1ffe37f0955f2288a6adc76c195714707ce4c9887ed276d143d
+-  __DATA_CONST.__const: 0x60 sha256:6e05efa64c12fba1061ea2c9624cce1323cf422aefee3f4bceeb2cf9d28869ee
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:f8f6e15e6f4acd4fc9e443bf5f4aaf7b28ff633fd744e1ab4e998a8fe843ef7e
++  __TEXT.__objc_stubs: 0x140 sha256:72970d0ddbdf9465c14c383dbbc68fff902e0ece761f67b74adfe869db1ea93b
++  __DATA_CONST.__got: 0x20 sha256:48349b4301e6d6bf13a2dd6234f9da8126b496b20a77fdbd61d53fda9f394a47
++  __DATA_CONST.__const: 0x60 sha256:afad3ad094ba37057b8751bc85a8c567408f0b033986e4e0d58679d863e8ab35
++  __DATA_CONST.__objc_classlist: 0x18 sha256:6577573e2ab1dfc956d4d97df2538d1f51a40d76430eb631293fd5ee7c845112
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:42d58910b0d865c78e1599b5639c42d2730860393e03927e154522595d884063
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:32abf6e7ec1299a84034757debc58b156bde63298b1028a2c4243ea6bf3b7d59
+   __AUTH_CONST.__auth_got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __AUTH_CONST.__const: 0x80 sha256:d65605f83a8387ff713ae61b16b869b98d3e4a24f9a4eb6a7253cf6406410569
+-  __AUTH_CONST.__cfstring: 0x160 sha256:3ed5b1c1d86fbd1c5fd8f089cfafef5e819fec862a9607c0eb379880a602f1a8
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:b0692c554e7ee5fabeec9f68e957da5b5d039e42ba7ff268d27d7af56c2e214e
++  __AUTH_CONST.__const: 0x80 sha256:92713b06b7602413a3c2eebb8adbfca70de40a561e3020facaa9c7018b277228
++  __AUTH_CONST.__cfstring: 0x160 sha256:62438485b03579abdc6f970b6e3289a9b13393b59cd2f039392b150d534c227d
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:e39cf796664cca4a699b0450fc62cf4c91076790a827ed2e365965eb948fb2d7
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:04a2ef77dee1047ee9535785b184d0e50b23db13778d727b6c73ab6f116ed0a6
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:32bb5d2bcaf0e84e6ad7ae42f12311831f1848678aecec13ff69d7febcb9a4e1
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0F3BC2BF-4DD7-317E-A8BF-822052B2AE40
++  UUID: 32285434-9D69-303B-997B-913DB543C64F
+   Functions: 13
+   Symbols:   80
+   CStrings:  51
+Functions:
+~ +[AXMessagesGlue accessibilityInitializeBundle] : sha256 b86c217e1d187f0634d89c75814fd7e352808dc819c5edbd485ecf6024dda7df -> 71952f65e1ce2413f33d4b9a6bba3dd2081ffbdf61c46596372e8f5f565fba04
+~ ___47+[AXMessagesGlue accessibilityInitializeBundle]_block_invoke : sha256 f34dbb1ab1e0be1fce354a4a05b5c976f0f0e2154524ca234d5ecce5d8693882 -> 60f6a7da1b56cf5912754ae3745597118f286cf568741c811b3532e46e25b790
+~ ___47+[AXMessagesGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 92bf39235ce0a54a365ef03022212bf965b9048d50eb3a45efd63217777b4e03 -> 204f923333404fdcd4b0b6438c1724677668ef6f815b89a882d55d5081c03afc
+~ ___47+[AXMessagesGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 bca7418089b4d0a4b4f6b29cb655c0b695ac4a721c91257d37f5389c14845403 -> 8078766be68ad0fb68a86ede49f5e1992b8f9f789007abd122f0fa913f59f5a3
+~ _accessibilityLocalizedString : sha256 95aa3c5677673afc4e0a631c7f910e46550b2b0637b70ff7cc4a02eda8e5213b -> 57e802a01a38eb921104377ea919bf161695ca82eff8f6c852a67a61f96fbaa3
+~ +[MSStickerViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 aec24f536c73df120fed7fc45a57e10a42a05d06a979b2181f7f555a96e838b0 -> 7b4fdebf8d4d74a8adb4847eb05887712aa8ef21a11815e43b13d3752306db78
+~ +[MSStickerViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c9f2d377f7bff1ed61def292919b0c0eb4bfea491926bece99eb86058a77f280 -> fe45120646060deaccea5638ecaf26cd7dc5a655f3849c85f2a5c9e4edfd606f
+~ +[MSStickerViewAccessibility _accessibilityPerformValidations:] : sha256 1a51c4593d3a276dc76f8bd81a2e4f7e697eb0f836175374c25c0a5464e235cf -> e75091de06079dd8cc94d3e4b14af66c1e99d2e518e157123759928d40741c52
+~ -[MSStickerViewAccessibility accessibilityLabel] : sha256 e756f1442360b0d38ea5d07b581d8fa0af38b76b6a312a6395d59d30f8e5ab04 -> bba3c80fe4000d376f74e538dfd1f834e9aef8289a5a96fc5ca293b4eb019b9b
+~ -[MSStickerViewAccessibility accessibilityHint] : sha256 2abccbcf30c8764ecfa9922396e46e1e0d6259ed02d323346f71a2dc3210c071 -> e13fef8f52dbee40b02b0094cc9d01ae06d9c10a260cf9665c68a05cf6bbff26
+~ +[AXMessagesGlue accessibilityInitializeBundle].cold.1 : sha256 afc4053e2ec12477abda7ce0888ef6c65a70ce77abc3c82f9f1257eebc4122fe -> a0955f3fe2543be93d145e9b0e96cf1a2fa1fc72f040b95cb20937dcd3f248fa
+
+```

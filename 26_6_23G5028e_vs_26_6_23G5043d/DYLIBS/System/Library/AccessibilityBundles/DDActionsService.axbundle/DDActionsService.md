@@ -1,0 +1,61 @@
+## DDActionsService
+
+> `/System/Library/AccessibilityBundles/DDActionsService.axbundle/DDActionsService`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x1f4 sha256:427b2cca586f76eb16881be3561f1e9fd2e0fbcf20975aa92a00aa1a78740383
+-  __TEXT.__auth_stubs: 0x80 sha256:8b00449b158dae5eab75c673713aeca037f771258cc4d49699987601753049e8
+-  __TEXT.__objc_methlist: 0x5c sha256:b31c8b627dcc22cda8f2958b764e490fdfb8aeff386b7171a31d32d87b719f85
++  __TEXT.__text: 0x1f4 sha256:8c75ea7d44df72b8348ea8925c141382b13f22aa1a710379196c9907294f341e
++  __TEXT.__auth_stubs: 0x80 sha256:8d8ee4b1e994ee3e2233241fef8e7eb63706e68eb06e0629b5162d7bb7761b77
++  __TEXT.__objc_methlist: 0x5c sha256:ebe6122543b5b8521be184ed926ae99dabf9d4cfb9977ac45e28f60189a28abd
+   __TEXT.__cstring: 0xc7 sha256:5b3b3c2f7d614326b915d6e7af97125ac4fe7d4120d7beeb780758a64a3d6d34
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__unwind_info: 0x70 sha256:ffe05d87dcaeb6b4675ca5de563d4677801954c5467cae8a4889722cae4f261b
+   __TEXT.__objc_classname: 0x96 sha256:7395d8efad323096a4804dbe807d4af93f638ee74688a1e0810cce6426266753
+   __TEXT.__objc_methname: 0x1ba sha256:a8a7234f25146bed04697fc566b20e9d63110fd973b721be294f50e218b7b291
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__objc_stubs: 0x120 sha256:0679ccfd041c68bcc64ac7363303f21f8aa24426ec5f877592ea588eeabf75d6
+-  __DATA_CONST.__got: 0x20 sha256:d98592437dd12071ce5352be16a7e8d4e4864b1b47195332203458c322656216
+-  __DATA_CONST.__const: 0x68 sha256:c9b85dd3cfd8575d9ff01562a5233ad18866d02c88ca3361887899409fc8c7f8
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:3f2ab37a5222364244068c033c7e72b28926e5d3703447a181a364bf6dadb715
++  __TEXT.__objc_stubs: 0x120 sha256:f94889404f3ec387d8287db80a1ec3a546a142c4b1535f738384ddb7b92537d3
++  __DATA_CONST.__got: 0x20 sha256:6b7451856819d379182a20fcf453b390a02f7092e737461910565d99632459c3
++  __DATA_CONST.__const: 0x68 sha256:612c112b96b24a5706d334688f8392ac9cb2b21a1efc62c8d13f6b7f38fb300c
++  __DATA_CONST.__objc_classlist: 0x18 sha256:3f667631bdeb8e75d52901cf26929f93eb9d0b3e36049456c2ec01b43d61cf4b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x70 sha256:5d705fd124de41107a248c5a1ecd04b379c27f350053771810990eedf3be97d1
++  __DATA_CONST.__objc_selrefs: 0x70 sha256:c92d1b22de1c0b5c939f6d95412db67463053a84e3fc79dcbce96dcbad93b234
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__const: 0x60 sha256:120f7cfdfb67a32a4e55aab27072fa32d98cc68155a6cd4ab0506db123c7f257
+-  __AUTH_CONST.__cfstring: 0x80 sha256:947a42e49067f7433d818bd8ba40d943ee1263279a06ba0f01e41dec9929856f
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:32512564fe2b1b00f135cef68e79174df8af36badb856a0932d4228d3d53681c
+-  __AUTH.__objc_data: 0xf0 sha256:1d7ebc9c4b8f7b9281295dcbdcc82d5d27bb14532686016b16d42226672d0671
++  __AUTH_CONST.__const: 0x60 sha256:f4ed1326f7c74ca911f3ccbff887772e76c079044a578a0d134b174f8c047d3e
++  __AUTH_CONST.__cfstring: 0x80 sha256:a78fe2e13f168924f690c9379ce65269fe4e393dc91b627f8f27d746eb6ad520
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:43e738c2871bf539d2ec6b06b2371ac90e1b3827df54b467629a3335cee0dc56
++  __AUTH.__objc_data: 0xf0 sha256:a4553d5ff22bd88b5d6d9cd8894a23314fd22d569246bfa4fc5a22f0edb20a6f
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8934B63A-2BC7-3B2C-834D-55850DB0726E
++  UUID: 4D296F18-46C4-3706-801C-7AA60B32EDB0
+   Functions: 9
+   Symbols:   67
+   CStrings:  36
+Functions:
+~ +[AXDDActionsServiceGlue accessibilityInitializeBundle] : sha256 5102f1d754372293e55a2b5e55a3d69bb1029485c0d01ad0950280f0fa8d6fc1 -> f487b06c12a8bb2e8cfa169c4fe9335a526cdaeb4497983a8cd39894e81532c7
+~ ___55+[AXDDActionsServiceGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 0ea811fd7cbd75afdc027214d985a457964d6f17c6730d904762821c75766a4c -> 8fecc12b3254049a39bf913893fed72ea23860374a43e3ac52803f5eb50958ba
+~ ___55+[AXDDActionsServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7444e92dfc86fd0768772972a126d191e13cc9a9e0c9ac776529f6033f8bd955 -> 2836bde8a67163e14599886fdca5995663cd545f4a7dce9ccf6edf285d2a0dc3
+~ +[DDParsecServiceCollectionViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0c68525f4d8c9f3e3f29b5495e09f41a295b796f20ac53390cf9d5ffe2acca7c -> 18b83146e5c81d043798ca57544d651b75f67c3fa151de0da192633b60752ca4
+~ +[DDParsecServiceCollectionViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 58307cc078304f203bc888f0735fc3987e0b9605af1fcfabd82f0ed31674c223 -> 5068568133f97054f953c5358df271a504dab0871567e95665606022c9041bba
+~ +[DDParsecServiceCollectionViewControllerAccessibility _accessibilityPerformValidations:] : sha256 d1c5a36ca555c29f868a4d74a0a6d416ca191a90aff2cfb8683cb8408d410578 -> a6a53e4ffa7a4e8022cf60e58ebd94014e19a59ba4e1635ac469ba6552d1c40f
+~ -[DDParsecServiceCollectionViewControllerAccessibility accessibilityPerformEscape] : sha256 7f19bcc4fd1250f62001fa6e1035e9d5ecc95d40727d01734349195b4ab54bf7 -> 5fb7ea49f11573509c42759ccc8aada63c826c95431c958d3cf86c80b2c58961
+
+```

@@ -1,0 +1,64 @@
+## MuteModule
+
+> `/System/Library/AccessibilityBundles/MuteModule.axbundle/MuteModule`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x26c sha256:45e4a6e53cc140c89b6ae90583831507371a91d447bcc5aec19c1b20e9f4cb24
+-  __TEXT.__auth_stubs: 0x90 sha256:0a4d94943b3f9f3bb5be2eeb74111abbb1edd9bdfd39d40f5063a62d61961246
+-  __TEXT.__objc_methlist: 0x70 sha256:4f1d1bfd53009d6d0a9d66b80ee501d6eaa3e4b0133dfae13cabd4af453dce1e
++  __TEXT.__text: 0x26c sha256:db75c2dcf5e5bb193ba749a62b9e606d96c2a3442837eac44a5c0702a98f953e
++  __TEXT.__auth_stubs: 0x90 sha256:dfab9e0c268d5a48d2600af84ba22106e44bd76d49deb895b20c7fcfa78fa34a
++  __TEXT.__objc_methlist: 0x70 sha256:96874122447f88b85273bc6865ce6635199b5dd0a723553673a2dd38f8a48b6a
+   __TEXT.__cstring: 0xb9 sha256:fd356abd7fded7740f186fd81f11636875fca2c49f5aca7171cd50ba726c4f57
+   __TEXT.__unwind_info: 0x78 sha256:7d93b2751bdda3f137f104d97da20b0d0011d6a5da8be839532b60c314da14af
+   __TEXT.__objc_classname: 0x5e sha256:7cdfb85fdd5149f7ca7a213a8346b89f4bf15a8fa897db75415f0edece043c7c
+   __TEXT.__objc_methname: 0x231 sha256:f2cc5f33e3915506faeeff3b0231a5d0a3206549619a4194d9f055a6d4f971c5
+   __TEXT.__objc_methtype: 0x23 sha256:f369918c410c809b3e2ff897a00f2c22d598d3e6de7ea6b969fe51f64c501fb0
+-  __TEXT.__objc_stubs: 0x140 sha256:72b28ed576f31c4781d447408db35fbb1c401094edce0a2a7d11a391b7561346
+-  __DATA_CONST.__got: 0x28 sha256:058f74a5a41ff03f03e0fd9a80ae42feeafb3aab06ad1836fce7f0d9519a1d89
+-  __DATA_CONST.__const: 0x60 sha256:4c608962b8888ffca0f98849bd49dc5bfa9c7ab4f2c46db22b27d3135f0d5e60
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d5f5ac098ea5271970c0a5c0c7bc293d77f32adb8281d66fc566b1136ac57381
++  __TEXT.__objc_stubs: 0x140 sha256:33f241ff8a3981f8058a69166f9d5a05ff0f1c518f693da1ed7580106a161634
++  __DATA_CONST.__got: 0x28 sha256:c514212c28a4cf9c52bfb887bd4f833dcc4b11435b0f39a360a2a76afaac85b9
++  __DATA_CONST.__const: 0x60 sha256:4db94b4ae715851c8853923101ba590ede1968a0f3f2ff4d07a2712e8f7cf08d
++  __DATA_CONST.__objc_classlist: 0x18 sha256:2e8fe3a2481df277a2d82033d2736af2f9fe5c5a7ad1f9e156bbaaa354db849e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:f7416f3b7c0fbe587f06fd16a27aeda59169b1f8f22b755876e3be2c6e6d1a38
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:ac6995e1cfea309027179b9ed85481d8392fc63cde235279e475f959682cd5e6
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x80 sha256:0a41f3eb228770b4b7be557864f6de7c2a9c4201a7b14414d54332714ba6f8ce
+-  __AUTH_CONST.__cfstring: 0x100 sha256:38ed628e75f634c767d31403f3aca3f26745dc8b1065758e7db33e25200097c8
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:ff1cdf90e45a2529206bae73db7b5c467d9feb9ccdd62a145a616305d7f1fcf4
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:737972cf07ca05284150d42e7f104fd3d55c9a0b1b7ba6b8bba75ab559c63b3b
++  __AUTH_CONST.__const: 0x80 sha256:26bbfed07140ead450596055264f650df958f65158ffab5934a1a8daf26bda8c
++  __AUTH_CONST.__cfstring: 0x100 sha256:74bf42e68262a8c0b780a3bd1f047d6a8feb07119b878c1d4d8b44a97fa71d34
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:cbe411b15bf178e849fda14d60b589d42cd38da3bcaf409f428a5a8131cafb13
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:4a5fee0577f60e7ff979fdd83f4d9020b438f8e31e3a80358652fd3e9e6ee8ef
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A5DCA87C-42AB-3E8A-803C-FF0AC261AC8C
++  UUID: C869D3ED-5712-376E-8FFF-838780C45AC3
+   Functions: 13
+   Symbols:   78
+   CStrings:  43
+Functions:
+~ +[AXMuteModuleGlue accessibilityInitializeBundle] : sha256 3a3de5b85e40f4216719094a091e76252aaa05ac9cac6a9dff065ff514348dc5 -> 98bf66b021839f56f9f91c17071a3f658e66aa21faf355857d5126fe5581181c
+~ ___49+[AXMuteModuleGlue accessibilityInitializeBundle]_block_invoke : sha256 bd694bfd9ff789d32a3601e103c3024086dc128eae2b7fb096ef82bf112e10f3 -> fef2881392ec998b14252f239e72bf77dc422229fda767cd09c0d3f5525f1d80
+~ ___49+[AXMuteModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 8a341035ddfe7fe681d168ff30094f013a8010bb14dc4d05d973d9defaaf71cc -> b0bf7c82acea3f6b8f43e313e00be89355e0150ef743d0b73fba0357034db237
+~ ___49+[AXMuteModuleGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 93ce4cf869e0662f890c3e49713291c8dfd6f72d4616b9b3a13dbb5fc139a562 -> 45870bf86ace5e32b865330a557cfb50923d0ff956c8da38ed32b13c9898fafc
+~ _accessibilityLocalizedString : sha256 b2aac65557154ff02ec775b76b2842e0e224432d64f72b7f11604d8dd9a3bb05 -> 4b0b821058206d94b39bb54304b42b10c4d59ab3fc0bd23b9dd15790d3daa844
+~ +[CCUIMuteModuleAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0265c69658fe4f123e3544db57479880634e2effd638339fafe9736fbbedde0e -> 1903e1bf9512993f93742551a894f1e2172e931929813ce6ba3a151f22d2984a
+~ +[CCUIMuteModuleAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4af66504d41f79d7302740d09ee1a7961e8eed774b1c3a38a18eb8517e17700b -> 6c43a02e2411996466dc2081cc909da06d58b2eeb88ff8574ef97c19dbaf8ea1
+~ +[CCUIMuteModuleAccessibility _accessibilityPerformValidations:] : sha256 33e4514115f6cec58ebe5012b2a7c679efa98255d80d3ce12f5f7f2ee6ff5b0a -> d1dc569091e768e386a0894161a3dc427a51b6455c17cea58ea9d6e6ac6d724f
+~ -[CCUIMuteModuleAccessibility _accessibilityControlCenterButtonLabel] : sha256 67b154336a5785ad65d9495740e7b3828df8fc47710ec84562beeb3b8934983c -> 928f5986de642cac6bc0969d08ce2f27c705c089b569ffc3d6ea6dfd8741fc1e
+~ -[CCUIMuteModuleAccessibility _accessibilityControlCenterButtonIdentifier] : sha256 9b19a45f9c4b9ba1b1e9ccd262e309da2687096e8872d2dfbb4810b5c6b9aedc -> 50c7a5a2476de9ea0af0daf519356232a7cc8f05825b89bfcc014cb1f896125a
+~ +[AXMuteModuleGlue accessibilityInitializeBundle].cold.1 : sha256 9523605ab197c05b5eba9e7e28462f19f2cdb8c86f622b95ca9001de6362c4d0 -> 2839b87c714ef1a39c4dff82e9ea3be2a35d7534f8c21bf24f25ce9bfeea6c66
+
+```

@@ -1,0 +1,80 @@
+## SystemExtensions
+
+> `/System/Library/Frameworks/SystemExtensions.framework/SystemExtensions`
+
+```diff
+
+ 224.0.0.0.0
+-  __TEXT.__text: 0xcb0 sha256:468c1b988b90662e5264b2a90f5c2b2ef7fc95d872a14d1d00ad78326e57dc53
+-  __TEXT.__auth_stubs: 0x2b0 sha256:96fa794e9d06d7307218559b304a7a2981ceb5bc54271b1d91bf014e0e349db1
+-  __TEXT.__objc_methlist: 0x160 sha256:581b8ea91cc2c9524effeacf45e9cb183bf48366b3b9fd461ff7cc3b95993b78
++  __TEXT.__text: 0xcb0 sha256:4e3864c2b0ca940c3985c9d591bb68af7dc7fa7f9d0ea887f16ca094f6b2d92b
++  __TEXT.__auth_stubs: 0x2b0 sha256:090a533572d4c9f9f144967719fd690d5e475f39d61e31915b36fb65b1c11cd2
++  __TEXT.__objc_methlist: 0x160 sha256:92fff3b6ec5e258625fc2378c597a5c51897419709f58fb407e050231ba8081d
+   __TEXT.__const: 0x50 sha256:bbb8be4b53dfd1261d14c9f762350a8f9cf8882f35617a07c9ee03ef8bcbeaba
+   __TEXT.__cstring: 0x18b sha256:001d23e467cd7c9165bc248c7a8fbc1922c5bfeee0f79af480b43ac2f1914b30
+   __TEXT.__oslogstring: 0x24 sha256:15c9e7f61d726c289e759a0028344577196ac7b024a4b0cff8a58d79d2d56cb9
+
+   __TEXT.__objc_classname: 0x52 sha256:8c1b6397bc7f2d49a7df897062484c7ad85d028e8113c61550d746f67ef43593
+   __TEXT.__objc_methname: 0x4e9 sha256:74ba771706571d078b3e728314fd090b9ec605c14b3c83300ee3d272248be2f3
+   __TEXT.__objc_methtype: 0x9b sha256:5ead5765d3b2a784db012b3cd7d310b1a3c231086e90651f22c86cbd99fde611
+-  __TEXT.__objc_stubs: 0x3c0 sha256:75458ee8f0f2b028c84b921801670ddd849e9502edd7d67e27c676e10d24b230
+-  __DATA_CONST.__got: 0x60 sha256:1ddc050b9810526a110f4e2fcdeb9b9cb24978fccb8a1f479f83a43dfccb68c2
+-  __DATA_CONST.__const: 0x38 sha256:0d613f93ce6610b5e4a15cd2fb99742f238fb77c63d7aeed1499a543566266e6
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:1dfc6da8e9c21325f7b2fbeac30ab9f8c2911fe2a1564e04ca3005a7bbfe15fc
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:2c4abbe0b155afe4785279148a519e06985568ec1ddaa644819dd1994d1f5f27
++  __TEXT.__objc_stubs: 0x3c0 sha256:16a5ca90fe4e117838526d07679773a9f25b4023a303990c7e0e360c96006c0e
++  __DATA_CONST.__got: 0x60 sha256:b95ba12618e2d841b0f7bad6f07232de04461bbaddb6594c014d41e4f5a15030
++  __DATA_CONST.__const: 0x38 sha256:24f747e98ca5d6a566d36c204534e2d32b222abec0257efb4b5fbe7c9888fd1f
++  __DATA_CONST.__objc_classlist: 0x10 sha256:c0a01033b39b0579505811ada2fa1dfce5453066e52277def475868b841dbdb9
++  __DATA_CONST.__objc_protolist: 0x10 sha256:d148652396e518e05c3961a37d9f3898fb413a9d32dba8d9d344c41c2c08d64f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:933c246eda4639ce1e1eb061bd5f42fd80dbddc9ac96cd75f9ab9dec4c92c95a
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:1dfc6da8e9c21325f7b2fbeac30ab9f8c2911fe2a1564e04ca3005a7bbfe15fc
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:089e91669938309b2f94022f57e67e53d0ac5997b7ba808ffe2da7667f32efb0
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:c0a01033b39b0579505811ada2fa1dfce5453066e52277def475868b841dbdb9
+   __AUTH_CONST.__auth_got: 0x160 sha256:627f6149015f853f26db2f3dffba1b7c30b3b74b87c5cfb9f346c1616e3636d0
+-  __AUTH_CONST.__const: 0x20 sha256:130c4fce33e0595682e7eeaef21568a5750998fde0a6aa77e4f70b4e5924fbe2
+-  __AUTH_CONST.__cfstring: 0x180 sha256:3ec375b89b64a4e3854d31658baf834484723ad6de4a6767a1c28b07fa5047b3
+-  __AUTH_CONST.__objc_const: 0x370 sha256:d650b6e110e792f4b330a9efa4f5e787a48e8ad33666c2aeee92c5fe7797160a
+-  __AUTH.__objc_data: 0xa0 sha256:a5c3878615926ee7c7d682b3a57253342f8a25261ef208e3a03286a952d6d3be
++  __AUTH_CONST.__const: 0x20 sha256:09c651340d0b16c74342dcc8df9b5939ab5e87cc97cc47989cd6ea87a8fd7317
++  __AUTH_CONST.__cfstring: 0x180 sha256:fe61dcfaf9c5a4b3424b620f4ec196b2f6355ebe575ae34721511ddf38aaf20f
++  __AUTH_CONST.__objc_const: 0x370 sha256:34a89c7f3a9cf186a6926100a0543a83536c8f25f72e6cab6bda830c053a675d
++  __AUTH.__objc_data: 0xa0 sha256:c51b0c177a47b0a502c6e9a1b3723fc3703c2d55bc58f6fe29d54b55faf300c4
+   __DATA.__objc_ivar: 0x24 sha256:634fdf7e58c9ec4dcd17881108c0707d065513eebbc1f59ae850284ea2d01182
+-  __DATA.__data: 0xc0 sha256:72078a40759c6a1cdd6d2cc7f0213ba3839fad256f51c53d78d7ece137489f48
++  __DATA.__data: 0xc0 sha256:4fe2023a3e62880412d46ec328b6a8672e450f452b3c025a022a0c8b61e45770
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/DriverManagement.framework/DriverManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8088F088-16EE-39FE-85E0-073934BD5F47
++  UUID: 8CC59583-DFBB-3B69-8F9F-0D3A9003776E
+   Functions: 27
+   Symbols:   187
+   CStrings:  106
+Functions:
+~ -[OSSystemExtensionsWorkspace init] : sha256 a3f4ae400d36146ae155848590420134aabc8e5fbd2d11e68f944955171b6494 -> 65d1694a7ea94f549016850c44dbff806dfbbcb5c6a090dab0ad9f4bc13d76eb
+~ +[OSSystemExtensionsWorkspace sharedWorkspace] : sha256 5ffe91bd90dea14b73425ff4f15df1717b89e466be4368fbb4719a9e064036ad -> 7b8720d5dc0199f592f62a68023e0d393bf3a332264c7fea1cc42bbf1cee72a5
+~ ___46+[OSSystemExtensionsWorkspace sharedWorkspace]_block_invoke : sha256 33c560fccc6dd3357bc6ada7b4f438ba5a8adfcee3fcf54a3eb6a406b0874da8 -> 6bc99201ac2e6118ded2025496f74aaad9c104038b0e2e738ae4c58ca8a46b9c
+~ -[OSSystemExtensionsWorkspace systemExtensionsForApplicationWithBundleID:error:] : sha256 e3f2c91a4bc3e5687add8a3b2f022b46eed005a11a2b26e3fc4ae6bc3986d0f6 -> 98949990bff9c1c137c9eb21d0dd19e6e002bdd18e571c48bd17f754b897bfb4
+~ _OUTLINED_FUNCTION_0 : sha256 b81333812b9f14328db8790722d47ca7cd5f4328941c3507d60773b29e94654e -> da3d2a548acd33bccf34e498e400fa9e6f0576ca63d8e793069d5e236d7c2486
+~ _applicationDisplayNameForExecutable : sha256 c4c7fdb0f32fbf2591e557cc09a3be5ef08c862fd1911e95b5ac05bb6e72e0ed -> cc9af22b943ccb3687b480a53b9cba53a7b8a367d56371573003e267fceb718b
+~ -[OSSystemExtensionProperties initWithBundleIdentifier:isEnabled:displayName:usageDescription:] : sha256 50fb0787d369ed7ef6c271a6aadd63feedd64d82ae4e7747660d6cd7454f8eee -> a982fd78ede9faed3dc51acf7f240f5ba450bfb4c951f6779aa83881f132eaf7
+~ -[OSSystemExtensionProperties encodeWithCoder:] : sha256 2bf935e5a34e9d1c75b7ebe53e9ee47964a88b574d0905ef14ab24d57ec8440b -> 6d7f4f462dd6329bfb28fd90f670122dbad14d20a314c0bd4ebc792e1c117868
+~ -[OSSystemExtensionProperties initWithCoder:] : sha256 e54a9c8114a9a841553f8b49366933938013e2e74888c05c88b96e32b34ab406 -> d7bdc9494392cf6422ee930393db62777a620a3a70bcfd7babc44926d6306e64
+~ -[OSSystemExtensionProperties URL] : sha256 8def418731163157f5054eea77c85440ad6284594753a69acc58d8e1cbdf6172 -> 4fc262ff09eb48cced127e76548fc042b2f27bd8fd3a666800e16bcbe7849d82
+~ -[OSSystemExtensionProperties bundleIdentifier] : sha256 937ecfcaa2f85bae81e93751da876b57823b7f7384c16bbfbc3b2becc7da0d64 -> 958358848336e204609bb8980244d4a6105174f3c688cc40578590195dd6f697
+~ -[OSSystemExtensionProperties bundleVersion] : sha256 7ca4ae16c68d5971805ebe208f567d1be8f263b95fe3ef2a2fd4a9ae2508fd82 -> f4a11cafecf060c0911e4b4f381c138c9551309c62909a6488c8751325846fbf
+~ -[OSSystemExtensionProperties bundleShortVersion] : sha256 3a61f19f5dd71c2339867193cfc37055755c2239fb421834dfd086fe9c2bac55 -> 1e95e88a1fd9a1e16f06286329bdd1c17ca7d1d702a3c571ddab8ad684ca9f77
+~ -[OSSystemExtensionProperties displayName] : sha256 e2be51addb341a2b707b9c2c12f27a94822a3cd4bfdee6c3b3ef7de5ec218018 -> 7f9b52bb58b385fb4c961f73a9dbb7825cf8f9e62880ccea71acbd0c8d3e132e
+~ -[OSSystemExtensionProperties usageDescription] : sha256 f6825c01360ac7d1f82c897a17f68e756bb0f4779566ad4ab91504ae882f9414 -> 9ad39ff45b6f07f7c3ad8b9e08744df3dd80ff715fd81742c5cff20340463efc
+~ +[OSSystemExtensionsWorkspace sharedWorkspace].cold.1 : sha256 debf0af0309410f0ad68fca9b4f59ca510e2aa6c8e389adfec5ebba33f2abda0 -> e03383374932179f18130b9af45efa46236f750f335c8a9f6d9ede6c486b2e9d
+~ -[OSSystemExtensionsWorkspace systemExtensionsForApplicationWithBundleID:error:].cold.1 : sha256 972beb0aa233a333f457cdf873e9b31b0aefa3beed0f4c90366be8d1f503f7f0 -> 9c0c4ac0e659c11e35fe561efe39a66b37a2a169dae28afb06147181065ec173
+~ -[OSSystemExtensionsWorkspace systemExtensionsForApplicationWithBundleID:error:].cold.2 : sha256 eab01c191318a0ab326b9510b60cd03afd40dcb94093fdeedece98c6d9b6cab4 -> 8c3a6135e20360c8490bb37a4ff13a2edde2a6af1f9821259fdd98e93ec3825f
+
+```

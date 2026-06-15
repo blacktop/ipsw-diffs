@@ -1,0 +1,94 @@
+## EventKitSyncServices
+
+> `/System/Library/PrivateFrameworks/EventKitSyncServices.framework/EventKitSyncServices`
+
+```diff
+
+ 420.1.0.0.0
+-  __TEXT.__text: 0xea0 sha256:9f4ab11dc9391c641d99c5454fc223e4c095b899afc37b545727cf77db1e6701
+-  __TEXT.__auth_stubs: 0x1a0 sha256:3df23704df2cb41bf9f336182809adc9e07cdec7377c73633397dcbef4f5e630
+-  __TEXT.__objc_methlist: 0x254 sha256:e32c382f667966d75c8ba80c77e32916d14cb42c3dd8ba6ed0a9f918d6a39ec5
++  __TEXT.__text: 0xea0 sha256:ef193e562451f68ee13c6c9f4371d387df5f3a8911d940e4ddfbc2db2a2c1db7
++  __TEXT.__auth_stubs: 0x1a0 sha256:6535e7c6cfd6d80cb2db40ff33a3d3ae18f9283a277f2d6e9380ca4e9f7ead4d
++  __TEXT.__objc_methlist: 0x254 sha256:b5545ea5b0caaef4f2c02cb107edeec1c051e2b792fe7019060835fe558d2eab
+   __TEXT.__const: 0x58 sha256:cb58a8a85dc33bef804913b18ab6544d817ca17827c37870b66656dc5eeb09b3
+   __TEXT.__gcc_except_tab: 0x30 sha256:b0856bf80c92f3d2797ae7482bd333087fd3ad6cf0a55926bda25aa2cb8195c5
+   __TEXT.__cstring: 0x141 sha256:3ad20daa3d4366253d7c3fd2c977a3219f5d94ab31b6785636b3f629c54340b8
+   __TEXT.__oslogstring: 0x66 sha256:089872e6d2629a34a7555d279786a92bda09ec966aa63421afa8d85485514c85
+-  __TEXT.__unwind_info: 0xd0 sha256:da2595a923384cbdc9ddee6af1149cb1228b7752e0c1415c46f6e5fc58c8973e
++  __TEXT.__unwind_info: 0xd0 sha256:ea8976f44041cfdc763945cd21344293578a352d2bec60bb3146d9a30c616d20
+   __TEXT.__objc_classname: 0x6d sha256:46a6d5da7d5a5890d50463cfa771d07e30cb58ea7c10e67555e2610d48a6ac3b
+   __TEXT.__objc_methname: 0x45c sha256:d9faf87dc66b8da53ffc70cede24473eddfe1dac26aeb5ebe86a973300f50fdf
+   __TEXT.__objc_methtype: 0x15a sha256:ea879d08f82ec338c88fc72da3ed8590128abe6d4beaced589bd49beee00295b
+-  __TEXT.__objc_stubs: 0x360 sha256:ca53d38500fcc0a3056fea26bf050a11b9e1b4215346e75741f539ae800b8b8e
+-  __DATA_CONST.__got: 0x70 sha256:fa2eee2492c3b449da784a95527431347c83ebc12fb1d26aef377dd8f0578618
+-  __DATA_CONST.__const: 0x78 sha256:bafebb6117e28129180e61c064dbb8fbbb58eeaa4aa2dc350cfc70339dcf8792
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:620b1df6717f1a2a4cfbe28e1870a325bcb17e7aadffe859a71e4818a521cb37
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:266869f2c31310f9b3110f2f1e30fad513c729f56818b79376c1197637e73a36
++  __TEXT.__objc_stubs: 0x360 sha256:59f39f4f856fcaed5837694d8f57f4c5858ac13ea0bc80ba00ca0151760383ca
++  __DATA_CONST.__got: 0x70 sha256:e7b5be05bc53a26324aa9ebd113ca25add29e61d9b460cba791ee89119680b3d
++  __DATA_CONST.__const: 0x78 sha256:35f2fa69c1143e72e2d2f67bf35e236b9805a94654b8be6edc56c5fe149c6334
++  __DATA_CONST.__objc_classlist: 0x10 sha256:277919f32a0150d51792f6bd26789cb1d48443171816d436674ca5a2d2f1cc41
++  __DATA_CONST.__objc_protolist: 0x28 sha256:083fc59f64f168c83f915c72d40bf890c4e5496fbab8bdf3593cc78a7c645a1b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1b8 sha256:eb04914daa8a31d48251463726fa49c0810150d3172f13b2623ab7e00f24f54b
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:6d5bc33943075bba0e4a5c2fdb8a4969b5ab577847d2dcb764e816ed03890431
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:50a376cb6c154a2018a54b22751b8ef19a906b447c5da1d38d39d8a65c51c0d4
++  __DATA_CONST.__objc_selrefs: 0x1b8 sha256:d0e4467e776e72bd5317ad8233034fe7c9796f0b601c50106186139bae7382af
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:699ad318b8fb07f78bedf7fc1d3023a786576f449bdd9b304753a074cf4c04d7
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:add5984fb68115b2e5ad5f47d2b9a12921b4953380d8949e22f87cd1055e2732
+   __AUTH_CONST.__auth_got: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __AUTH_CONST.__const: 0x80 sha256:0bab5aed92c1dbca2279da606783a136163d5cfe7591a5973224893859001e79
+-  __AUTH_CONST.__cfstring: 0x100 sha256:b0e4a96541c87342330bc31c515019b419c538315393728e48678c738713cf26
+-  __AUTH_CONST.__objc_const: 0x320 sha256:55324908f6f59226bd9dd917ec0f412bc87ac8ebfed09a20ebf7012029a10e90
+-  __AUTH.__objc_data: 0xa0 sha256:afd461cac8addcd762ce6eceef35e7372a051a4addf14526ce702d118a3de4e3
++  __AUTH_CONST.__const: 0x80 sha256:4497c9e30a668642a1e8c6c9f2e8ff55bc3a25dca1e1d304b5812c0b84c62c89
++  __AUTH_CONST.__cfstring: 0x100 sha256:7671ff7a034729bcfd781ffee2f05b3221b01b509e4a943916b1d62635783499
++  __AUTH_CONST.__objc_const: 0x320 sha256:95a5430e8cf67809699b8fb0c3d5884da3ed16025972539f6e3af26f8d73d84d
++  __AUTH.__objc_data: 0xa0 sha256:4cad773e6a503037f807cbf05bc8d4e85afc0dd7754ac47bcaacc36392182757
+   __DATA.__objc_ivar: 0x8 sha256:c0cdbb6e45249a718e7e605f801cf43f673a22fcf0347034da71f6be2e4f4d5e
+-  __DATA.__data: 0x1e0 sha256:6291622cdca93e63a2c807478f89ed11bfc7f7de717c9c4c3b1a9645d363f74e
++  __DATA.__data: 0x1e0 sha256:b18f2db685228750dea7f61eb55e062a848f660fa092ee79184ef5d94c01642c
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8767A514-167F-31DF-9DE0-3B6C1E555711
++  UUID: F924EFA2-6089-3262-96D3-9576BEA92322
+   Functions: 34
+   Symbols:   201
+   CStrings:  120
+Functions:
+~ +[EKSSDiagnosticsService log] : sha256 47ef93601e8ff169cf1e5c5e0ed764f6316ccf2884a79992ef7cd1a658b6a8f5 -> cafbfef3ab11da0e71e4cbd2131715142ec9a64773d248e761f7a60a3527bd55
+~ ___29+[EKSSDiagnosticsService log]_block_invoke : sha256 e60bc93ebb5c664faec4aea55bdd7fc02a0463460d751bd6d44095ef55625313 -> 52f72f8c8dd7747b5c8c252ff1d509d6d0085f09ac79591e891c9c95b1b39412
+~ -[EKSSDiagnosticsService init] : sha256 f61a68e3d2f2a8a9971b48a5b1632786ae1bf6ab62668226ea1fe90f7e646829 -> 4b9c8937a7912fd9a256db3cce86b1f8f509ff9b84e62efd34a8b373ff846102
+~ -[EKSSDiagnosticsService dealloc] : sha256 5cbbf0f4731d58f3b88f4952fc1b40490838ce73d0e73ebf1637d644eef14787 -> f285c58c4559374d0cbe01ac012181ec4b66501cee2eab5ea0a9efd3be41b7d8
+~ -[EKSSDiagnosticsService _createConnection] : sha256 df2252c59f8350e924035a9035dab4ada60e91c2a35de15d1baa9162c9e2667b -> be7f7d5d7645865ec3a833a9d6afba56f24f512f4eb08a624945f8a04bee671c
+~ ___43-[EKSSDiagnosticsService _createConnection]_block_invoke : sha256 d1bc3ed8b217a1f473ae7891436a171697eaadb54b2971e3f0dd331ce46a2787 -> 2c7a612a1d9cd53133a2a259fb942cc18c3ce207238a430876afcdc4b34c0093
+~ ___43-[EKSSDiagnosticsService _createConnection]_block_invoke.6 : sha256 f739356ab4373ba308c598e84b1cd30e4098f634a16ccabacf49406668221457 -> ae7c0f4b06055795f8d7ee11b4b87531af7c97ab3ba942e77ddb37ca33968cb1
+~ -[EKSSDiagnosticsService dumpDiagnosticsWithCompletion:] : sha256 fc8848a774287b2bf8250413a93247c5e6592b64d089d956e31b665ca1b00b08 -> ede07fe61582646804ec5acece695ac99edcae6d6870ad6f4553c2ec2f5f5c48
+~ ___56-[EKSSDiagnosticsService dumpDiagnosticsWithCompletion:]_block_invoke : sha256 569b590ffc510f281df9ae2d42ea88c45876f28f1ae39dcda52ecda904a19981 -> bdda6627d898e0b066ff2daa7b6f26a3379a243c70ede16c36fe9b7dad23f39f
+~ _EKSSServiceXPCInterface : sha256 f952c55e54a013eadc8be842b4d2643cb0a63f6490dccc6d786f08c616021c06 -> bf61abd3f5a193826106864d4b8cffef35c906c15cb99b41286cedf2df4371fe
+~ ___EKSSServiceXPCInterface_block_invoke : sha256 90b15b5a5def03a777e95518546b435a9e29cbe3d128c214e4891b5a4cd06b08 -> 31f08fc56b26b59acea3fc685bd69aa5e08a16710580d967a3e34e68fff29091
+~ _EKSSClientXPCInterface : sha256 1de51083152fabfdaea10b3c62a388ae050525b38368887a5359c96a4fba5ac6 -> dff7e478dafe9bce743d8398b6e11f6a2ab4f5f874cc79a954b198fcc5426c60
+~ ___EKSSClientXPCInterface_block_invoke : sha256 1698ca67fa3e4ae36b082f8c147a43f98a0750bb42111167eb372d7d04fa7c08 -> c4db7f07d5c684d708dfb4b2294aa693d3aaf477a125e057b89f78e16f0df352
+~ _EKSSDiagnosticsDirectory : sha256 4121606b571e79e4c409f64633f1e52742ac2130428e1b5f2c08eab6b0e5769c -> e25d2258fe403d675349493092014187b48486d9f14f8ead437c1a943dd7d6c5
+~ +[EKSSLogger log] : sha256 84deda59f1a039f757281d619fba262eee3d1b13673e22ef2eafca2ccd401aec -> 326a661c32699377b6fb0beb898b50ee48d499caba2c6ddcc82a2435be44cd86
+~ ___17+[EKSSLogger log]_block_invoke : sha256 fef60862fa9a54cc5912bdfbe32a90b82c4ad2aeb8221e70c85d913fe177c0a8 -> 83adaf725d36910decd7bcdb2a6e8222961a45cacbd0eb3101ab4db386817c7a
+~ -[EKSSLogger initWithString:] : sha256 24dfb4a5f1eeff480d8b1689852a9ca431fc75a805d9943287631467dd4dd94e -> 644b82b0413e59c473ac2e36d65cfd7952fc4889d8a53eeb591a713e487fd50a
+~ -[EKSSLogger dealloc] : sha256 1a0f695f7fff32da9476f3672818c647076b383a08fa0445d007554e106a77ac -> a5a893482da07f2fd67d71488a58843f1174e32018575fa426641322d0f7a549
+~ -[EKSSLogger timestampLogForString:] : sha256 8ab9746e2e0a291d5b7d7daac046c4e953c5aad0d4c53fe156ab284fc988a20d -> f5ad4c32fc8e467e6ed0c4e7f7f8af71eeee325cceea66b164dc3d2daf99fb0b
+~ -[EKSSLogger mergeLogger:] : sha256 75e7ab8a6428db2ba397ddb25cbeb4339b198e221d14717d3951cbdde6722322 -> 15aed2e0c49db86243cf87cacc4bb3994cc5f8e05b59be4f163bb48da02b85d4
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:] : sha256 2dce65ad9a7bf2208c80eb25bbb2e98b2a3defcf43be14f38769f9c3ea1a38e0 -> 6c274dd1ea60c25924d9d27ec3159a10472c9c096c1d2d4cae428f956c967e7a
+~ -[EKSSLogger initWithCoder:] : sha256 63d3323c2ebba702704273b3e4c79dfbf9c1917f4fb46b4de5721708445293b4 -> 21855b741554b9e7618ce1a0a3d213be998743e2949766178bfc08b984202c3e
+~ -[EKSSLogger encodeWithCoder:] : sha256 e729abfe51e3a58d2cdae4c00784498429d1c6f33512477234c3d730e6ee58ff -> 661b090570cf2282ebc96d7e1fee0c3a1f441ad0751be914bfb35eca6a85a73a
+~ -[EKSSLogger setLogText:] : sha256 708be5b753cbf88bfdca75493a4a6612b8ad898094852407cc8ea52b0aab4912 -> 11a0116453fb3b61e4224cf64294b284439a1e115fc333e146c63d6bee914258
+~ +[EKSSDiagnosticsService log].cold.1 : sha256 1b52166ad80900b6d237a780f0c53ac8d07f6f0a8ead2c324453d579ecc19187 -> 4cc8ade92b7c6099d5895ce67ecb3123fc7ccba521ac88d9007d20630dbd23bc
+~ _EKSSServiceXPCInterface.cold.1 : sha256 c4b535cd31a5daf5bd972b0311738d61170d072628b5085feec9521f17bf7a06 -> a102466f0decbc183b9a870679530e61e0d99b105e01f3b8871e1521fabb3335
+~ _EKSSClientXPCInterface.cold.1 : sha256 ce5fd0a42f10980df1cfc3c1ea2efab71e000acbb901c0912b0459fe74ae9c48 -> 639b79e6013ecb243f15485a52a51ef3ec2511eaf699c17b421fb00adf173584
+~ +[EKSSLogger log].cold.1 : sha256 f774d4729d1ebf4b6b14784db9012cf4834b20f5cd90b71ea1a04334c51c408b -> 8fe5dd9c7e35da91fa4ddc96b5c5711257c94fb99f99c52ecc2d5293c9d3d7ae
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:].cold.1 : sha256 38a5317b80a5e664d80b1c9d520fca74e18e22158fe139b377cb31b8963d0d34 -> 82051d349cb3017e9fc36fe1bf5bc2bf76c2abcd2ed6541320feeb8bd708fae5
+~ -[EKSSLogger writeLogFileWithDirectory:andFileName:].cold.2 : sha256 3b7e9319549ca84817ac2d35ecc31ddcde4f34ceb93a4631fbbbe5467f88adb8 -> 4e0205dc1795f14cc9bf560d2e4cc6fad7562eb9d0e09a128082daae8c1aa692
+
+```

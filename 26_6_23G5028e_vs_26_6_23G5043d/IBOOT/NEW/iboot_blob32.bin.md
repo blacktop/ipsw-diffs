@@ -1,0 +1,24 @@
+## iboot_blob32.bin
+
+- `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+- `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+- `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+- `A%d NeedsInitReset setAppLoadedTimer`
+- `Notf: A%d PlgConnStChg %d`
+- `Notf: A%d JuiceAllocEvt %d`
+- `Notf: A%d Usb2WakeEvt`
+- `newContractAsSrc ActRDO:0x%x ContractFlags:0x%x RDOPos:%d`
+- `Notf: A%d ldcmEvent`
+- `Adapter Policy VBUS Change not required`
+- `Get Interrupt Mask Fail OneAceInt 0x%x`
+- `smc/aceCommon.cpp`
+- `[OC]A%d detected overcurent event, notify OS`
+- `pd charger`
+- ` DeadBattFlagStatus 0x%x`
+- `A%d HardReset Evt %x`
+- `A%d !HardReset Evt %x`
+- `Evt: A%d PLG_INSRT_RMVL`
+- `Scfg Cmd failed for No VBUS Debug logging, %d`
+- `Notf: A%d Usb2PlgEvt`
+- `Notf: A%d ldcmVbusEvent`
+- `[OC]AceTaskWrk OverCurr StatusChanged Detected: %d`

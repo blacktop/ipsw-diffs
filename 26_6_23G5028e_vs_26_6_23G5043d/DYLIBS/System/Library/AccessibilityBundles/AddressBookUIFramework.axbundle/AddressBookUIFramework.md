@@ -1,0 +1,66 @@
+## AddressBookUIFramework
+
+> `/System/Library/AccessibilityBundles/AddressBookUIFramework.axbundle/AddressBookUIFramework`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x350 sha256:e1e84b9d09a4a6939d05fa00b6747132e90c486bbb901d47a78d203f17b2e409
+-  __TEXT.__auth_stubs: 0xd0 sha256:87f6519eb268977154fbbcb50c32370a62f0af7f71b3574df6a498ff5c7b6af1
+-  __TEXT.__objc_methlist: 0x44 sha256:0905bc1250215045bae9ff74daa4f317ccf2a6f1de03a17750da1bf4a7212c68
++  __TEXT.__text: 0x350 sha256:728f1024955563ba0e1ef5705f27174f442ab196444d095eccc2bbf1133a06c9
++  __TEXT.__auth_stubs: 0xd0 sha256:b26c21b99ff931ff92b27862cae0c7a92a846dd51adfe016ec2352ab4bcca807
++  __TEXT.__objc_methlist: 0x44 sha256:3b85d2aa0da105df579052bc7d2c69199e708203722f39f2f0e94f8c4c711ed4
+   __TEXT.__cstring: 0x10a sha256:8dad67a6c0b6bd0611ffa1c8eae614f1924cf4435cfd357be8e4e834269a2f7a
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__unwind_info: 0x78 sha256:fe63d4a21f4a0fcaef7dcd1dd5fc0f0ff79ecf62e115794f50ae934d84c6176e
+   __TEXT.__objc_classname: 0x63 sha256:acf3811321c908fd0185628635373efcc11287fb100e6387fa7b8db881d3df88
+   __TEXT.__objc_methname: 0x232 sha256:32ab1a69ebb81943fb4ade48a81b35f62a99eea23408b67cb32e8317f4776365
+   __TEXT.__objc_methtype: 0x2f sha256:dc9dce983eb385c93d28d8e7c4b5516404d04c019a9230766a0cc99ce437ab84
+-  __TEXT.__objc_stubs: 0x1a0 sha256:728de41e6222f67d04b4acf2b21a541074d14f6c4950b0083e2fc107e54ed4a3
+-  __DATA_CONST.__got: 0x30 sha256:59221dc15f0fdcee0dc0ae28c8507d858dccf7ee29db9abde15a4eda86a289c1
+-  __DATA_CONST.__const: 0x68 sha256:ac57cee36bc1cc42d9fa83e74e12c4e1cbe846e67fb4df9b817e30c042a15443
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:8b3021297b17e1baf666e408355e9ffed52edba963b0e24b5ed4a49e6da90c44
++  __TEXT.__objc_stubs: 0x1a0 sha256:f38410fa3466883084b583bdec93e2849b4d2dcf03dac868542e270c3b1da2d9
++  __DATA_CONST.__got: 0x30 sha256:e2456afdefb11c0cba2e78e92c088a72c6fa19f0f2e732a1ea951ad8861719ec
++  __DATA_CONST.__const: 0x68 sha256:d62701d8222fb849ed5e37ad08f8301826cbbd5f09060bbd188348fa443f0bc9
++  __DATA_CONST.__objc_classlist: 0x18 sha256:294857cf5e7f06d02e1dc753f876196c23d412eccb7a0b6606cf00ce86b84b66
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:c3af446556426c744065ffaaa92e2bd30a3dee3198eea360a7884559ece4d43d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:86a00648a50931758d672043cd08bd09ccb76901ad1ef5dad2bdce0a64efc70f
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:179b0b78e499026cea47fa40fd7a75b463251c6e3ab76b843cd82572af7d3548
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:cf4d9c859e9ac70ca646227ee8ed40bb818e5c664a560a70819620d1b51e837c
+   __AUTH_CONST.__auth_got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __AUTH_CONST.__const: 0x60 sha256:26c12ef0cef7d5322edb69b8d43293f3bd28b90f7aa8e3302420d43e6bb665e9
+-  __AUTH_CONST.__cfstring: 0x100 sha256:0eafd8517216e52acb69f4fa5f9339ae291b65f569ead03c4f5320be462d6a00
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:c127875170b9b2632288ae23834f1606ceafdade6625fc5b5a8df4bc7381cae8
++  __AUTH_CONST.__const: 0x60 sha256:abdbdeb42878ed3b256add9f9033d1220f6917c141ee021d5edeb56514fb6df5
++  __AUTH_CONST.__cfstring: 0x100 sha256:d7eabcc6f1c8f4c650ffc1d056e7a2e957826476df14a3433fcbdb7d051c3cb9
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:9722768608a6b882401b8abb9c582b25f335f5cde8b00b3fa02669b1de4fc6d1
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:bf901a656c50c5c933ed7283ff3d6d1e0412fe1fc6b58ed70d08bccbe2974dd4
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:04721270e80c8e5e3cb35beb05946ef2c11db7f1176e1c2a62db54a1026d45f8
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AddressBook.framework/AddressBook
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3973860C-C6A7-349C-93C1-3ED4BABD4F64
++  UUID: D44A01AF-4184-32EA-ABAF-22D36AB44BB5
+   Functions: 9
+   Symbols:   77
+   CStrings:  47
+Functions:
+~ +[AXAddressBookUIGlue accessibilityInitializeBundle] : sha256 d55b7159a33288cc88ad01b548ef0c5b9e62ba40f566d3d86b92a50851273a6a -> 83c287a7e13704d9e00f5b63cd3356951418548b44585a465bf37b848db6eee0
+~ ___52+[AXAddressBookUIGlue accessibilityInitializeBundle]_block_invoke : sha256 2b4bacdfd0466508bbc36344573ce0e84520b0cdc07211c405396fee9775f017 -> c547af3e2a5d1cef2d5bd2921e7b8693d096c121723e5788ee0cf66fe52b860e
+~ ___52+[AXAddressBookUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 a1cb3a24173075d79aa7500ff07782ee048cefb747be5a34955fcd42a049b9b5 -> 7773c4594398e98c9378c15a5411c975a51ad1b9cde7f7ffccddcb95f2e4b55b
+~ ___52+[AXAddressBookUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7957ece840ca4c0d1ec366c29a483798f453b2f8155b152febd15b627914d052 -> 882184836173541cdf428171f51cf83b1093d75969b6be5c9417af52a07843f6
+~ _accessibilityLocalizedString : sha256 3525711ca391e55f40eb6965f8fb018b6d7d701ec3a66968b2a5e099b6b6c6f1 -> fe14912e6e8192d707f3c3faa00b7cb8f412676e7efd7875de4139055588c82c
+~ +[ABDynamicLoaderAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 54dd0f49a0100d3c19fc9ca0c22cd28e26a5ca49be4dea575e564862303e0c0f -> 5a73b9c6756cde1615ba28f5029232a31fd0c45062ab4633f81820ce7757eb8f
+~ +[ABDynamicLoaderAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c6263c0dae3a1138a66e0cd505e91268a1b279eb5d2d9b2e150ff241f184ee2d -> f38ddde24be4d83c6b417052d02d50f611915d294d53cd0f818b082098174906
+~ +[ABDynamicLoaderAccessibility loadFrameworkAtPath:andStoreHandle:bundle:logging:] : sha256 4a971e895aa6c77494cae01c6b9dd3fa673dcf54e056573ba46ef91a578a210f -> 038afd76b2d4ae751eb286d6b01e2f4f731aef53eb38365fdfd167bfd057ffd9
+~ ___82+[ABDynamicLoaderAccessibility loadFrameworkAtPath:andStoreHandle:bundle:logging:]_block_invoke : sha256 0ff4121e6b790cade2b2f7b5ce6557a4e096ee3fd2c89d794f5cfe8207f6911b -> 09dbbb4d0601f6e46bfc7dc6c58b25e1b44838925661e4c0293b8be57ea8cf9a
+
+```

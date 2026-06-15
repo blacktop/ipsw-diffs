@@ -1,0 +1,56 @@
+## TextInput_mr
+
+> `/System/Library/TextInput/TextInput_mr.bundle/TextInput_mr`
+
+```diff
+
+-3532.5.3.100.0
+-  __TEXT.__text: 0x2f8 sha256:0f217962a3930b075756be1cd99ddffdfaf510d94dfb7884aa7c7db1aa4849a4
+-  __TEXT.__auth_stubs: 0xe0 sha256:c74dcc9a91074a2f4fcc73a3cb168d8777d16de89a9e34b9fdf9b473e64caa06
++3532.5.4.0.0
++  __TEXT.__text: 0x2f8 sha256:21d76ab078d4d49805843e0572691b55f8e1f888ed0eb0f2d87f1a5a924c2597
++  __TEXT.__auth_stubs: 0xe0 sha256:2a63be78d6367becfdf0a66e77332619dd40145562037d8f17054b6f7a3949be
+   __TEXT.__init_offsets: 0x8 sha256:19fa61b9fcb9bea5920928e03ce1ec667daae38c7496e8af40f402d33b57c742
+-  __TEXT.__objc_methlist: 0x14 sha256:810a4ffca399e2e2f1ac73d0151703cc8cec88056c42aab91c94a42e3bb64184
++  __TEXT.__objc_methlist: 0x14 sha256:82ec74388e0910524a3687298327a311b4f3510e7ec8cf3bc3694064846479af
+   __TEXT.__objc_classname: 0x1a sha256:c89d573ea60ce86fee3eb32c3259a4620cca1a2dac6fbd9bca2c3b3516004770
+   __TEXT.__objc_methname: 0x2e sha256:691ebf29e870e9beac5fc40ca2d716f4ba0f6995b22b488e6b413cc2b9a9549c
+   __TEXT.__objc_methtype: 0x9 sha256:4b275c0cfbd12ff4f82939946406345f4f5fcf9968e091a6181a7fd8009f8dc1
+-  __TEXT.__objc_stubs: 0x40 sha256:66cb1d3bdee47e288f7588c3fd142caedc5fb37cd14f02ab46cd489ff131eafc
++  __TEXT.__objc_stubs: 0x40 sha256:d2f362146037939689f924d9a76cbaf2d2597151beb00c8de7cd65bad397a174
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:a6ad9a2b7528efe4805e029c064eac70831392f37bae34ff5437aa784da1674f
++  __DATA_CONST.__objc_classlist: 0x8 sha256:e127707fea148c45a557c5b501b2e78d8501adf33062d7338fb136f727f8b092
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x18 sha256:01cdc14aef5f80280b6cde57aaebd8978575518e7b50ac7fc5e9a34689cdff4f
++  __DATA_CONST.__objc_selrefs: 0x18 sha256:af7764b1464e585b6760586624aa879c909838c163e3bb0c8b9eb973c3ec62b6
+   __AUTH_CONST.__auth_got: 0x78 sha256:99d13c48e7102e826d4c01d400d3c665f2cfd20c301600a028a2748a82c0bb66
+-  __AUTH_CONST.__const: 0xa8 sha256:a7ac96c353468a0a5284f9fcf23859a8f9682d1f6c4c9fd04b5717e23a069c8f
+-  __AUTH_CONST.__objc_const: 0x90 sha256:5df7f454d674f45e1258ead78eb99903bef6cfd9d3106f336f72d9372516d1e4
+-  __AUTH.__objc_data: 0x50 sha256:a1f55dda44af7167f5c7ac3f81841fdd5fb3131419a8b927cfae75dfa50559a0
++  __AUTH_CONST.__const: 0xa8 sha256:22cba588dbae2d1446e47506ada5a14e149fd56bb1436e8c0b69102aad53e40b
++  __AUTH_CONST.__objc_const: 0x90 sha256:de95850efc7da02ce0ef51d39d7b7ee0fa747ae8977cfebca27fe7d9d3b3dd8c
++  __AUTH.__objc_data: 0x50 sha256:0c71e2f4f0ceafe6ac40b5834fa125247d206f0beaa3d250d63443a431fee37e
+   __DATA.__data: 0x50 sha256:f69440f1de2151bf272506a8458b98e40f4a08b557dd64b476f35bf834b76357
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 683513E3-8BB3-3B49-829A-CCB5310D81FB
++  UUID: 03428C81-EF03-3B15-AAAA-FCFDD877DEBA
+   Functions: 15
+   Symbols:   67
+   CStrings:  5
+Functions:
+~ __ZNK17TIInputManager_mr30create_custom_candidate_filterEN2KB10LookupTypeE : sha256 7d92bb79eda7a1e17b7353603ebd42dc8d714a3d05ea19667f7a582d5269b054 -> 4fd890ae3d84762f18209242b216ddfb87911c76eb4e8712e95f97c1d0bf22f6
+~ __ZN17TIInputManager_mrD1Ev : sha256 4c5a580c9fa697a483439c29a40eb085a8694b9ccd2d02ab66f03d6d321677b4 -> d55ba442e526d158d6098b63c4bbddce0a63e3a61741e2e87080116ef2266815
+~ __ZN17TIInputManager_mrD0Ev : sha256 365efbaa7b75182367a91e66cbb29ca0f274cf1fa19b1ef61f3b9b145ce4ef3f -> 508b27a3f2d2baeb626ffce91ff0ad84bfdf3bbe8370023fa5c2c67685004394
+~ __ZNK14TIInputManager23filter_pre_lookup_inputERKN2KB6StringE : sha256 b304d05ec471f9e3a5c774d27afcdb01b9923efcf4cbaf5b7730b2ce1296d245 -> 52a6e594f1fcb1b40ddcbdafea6068b44b80934dee116fe53c57cdbb45c9dc35
+~ __ZNSt3__120__shared_ptr_emplaceIN2KB21CandidateFilter_IndicENS_9allocatorIS2_EEED1Ev : sha256 29659d7916ff69129ebb58736aba2e00e053205b78f2def1ea9f1b963d21ca28 -> 675657980681c3afa5b95662ff3c2b8f94dd0741f6b09572a90b02f5bc07d22e
+~ __ZNSt3__120__shared_ptr_emplaceIN2KB21CandidateFilter_IndicENS_9allocatorIS2_EEED0Ev : sha256 aecce13a75648aa17e12df128337d04bdab1ea405ba74d6a79900f439f6fd52b -> 8f9da4d89e5bc420bb495684d882cce9c066eebf72c60c198e1eed65e4fae297
+~ __GLOBAL__sub_I_TIInputManager_mr.cpp : sha256 8d5739dc06b00ba14dcba17740630a048e3d1fa75baea82b5b0f54ea4f11240b -> ceb5c606fd7be604c6480f41d587c936f7414fe1a8fca48752bb044693abc037
+~ -[TIKeyboardInputManager_mr initImplementation] : sha256 59f550c2caf8bad6eb653bc3fc5e0afdc987b1e3be75333acf3d52179f322477 -> 600a2e173ea4fe8507cad65f796b50ff495069964c50ec0b600e448c6f4b1a95
+~ __GLOBAL__sub_I_TIKeyboardInputManager_mr.mm : sha256 c88111a3f4845232fc8693a8442f8066014e8ead55ce3e293f9c2d7c02df1969 -> b917e5f4f0b9891396f92f654c47e719d2a3254917c06cda8bbaa23f1d7d5a63
+
+```

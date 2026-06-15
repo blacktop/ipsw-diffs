@@ -1,0 +1,81 @@
+## AppleLatticeSupport
+
+> `/System/Library/PrivateFrameworks/AppleLatticeSupport.framework/AppleLatticeSupport`
+
+```diff
+
+-158.160.3.0.0
+-  __TEXT.__text: 0x1200 sha256:d0bbc7ecce24c8770456a399a96c1bcf8346bd4c9488aeeb875cbf4071e786fe
+-  __TEXT.__auth_stubs: 0x2f0 sha256:f8a0c3be84b6fc307c861630f1ace64f4c540eaf5427a36747d78b2197fcd858
+-  __TEXT.__objc_methlist: 0x98 sha256:d2b61defa712b0f45b2df28965e7d9d24af1e17615350e652b916bd5ca21ba8e
++158.160.6.0.0
++  __TEXT.__text: 0x1200 sha256:fab944c951362760e13fe9f413f056365948223ae0fab61210d87f28d48e844a
++  __TEXT.__auth_stubs: 0x2f0 sha256:f3217b95c07be57d5488343e3cd035a32de2703f308f66f2eb9fb12562320ae6
++  __TEXT.__objc_methlist: 0x98 sha256:11fc32b2f1199da9487fa11be33513199b5cbde3134e28c3b35d738c8ba4aa56
+   __TEXT.__const: 0x58 sha256:a0e5c404a3fab8312f52e8fe30ca9cbf43380392cd121f437eca3d9151449f7d
+   __TEXT.__gcc_except_tab: 0x170 sha256:0c22e9b6942629a3483d3dbfac7f39a3af2531170e18384040cd32471c0c6d1a
+   __TEXT.__cstring: 0x29c sha256:ca9244e8054d6ca7265f0021f4c09949e8c19d527f74d1b26315b4ea3f7b1d9d
+   __TEXT.__oslogstring: 0xb sha256:9c3b17502bb69ebb405f31e5124ce5b6083944941f7748255fb280a55b456511
+-  __TEXT.__unwind_info: 0x100 sha256:6b8f591b5a90c8d2ec88444d3a16c18730a1261e562f6049b5ecc41e3839ab64
++  __TEXT.__unwind_info: 0x100 sha256:d94bf8b84cf1c56dac3c288c63a5bac9e32799e9d0ae2f1ca5226a9176250d94
+   __TEXT.__objc_classname: 0x19 sha256:79bebe344458f1a3b64c50215b6838d575cc9c95c74863a2a93c5b4f09262859
+   __TEXT.__objc_methname: 0x1c9 sha256:82b58c282510bc3c914061c171d0bcc361e71365784357311401e2ff36b55f5f
+   __TEXT.__objc_methtype: 0x102 sha256:1a85d4d5f168df9e2e6f18bd0dea920b571a454749ddd776dfbf2fbe9ec168ab
+-  __TEXT.__objc_stubs: 0x100 sha256:381148875b47406ddae1d63a3dd165acb40b5bb17e6f4d934c4da24c8970e87e
+-  __DATA_CONST.__got: 0x60 sha256:e4626f5fc49af08cbacc8634c75a14e591080090b779560e55d98adbdec791dc
+-  __DATA_CONST.__const: 0x70 sha256:27db4e141ba62549ce4d0a42909ec5bc9c8b741844b1974474f6c6b0dd3efa28
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:91414e16e018457a12da1b2ff7b53041c7f957784e9e055d3c82133a6467ef7e
++  __TEXT.__objc_stubs: 0x100 sha256:c3ab804bf1c61390f01e34737846b26e9da5bb5b4d64c66f50748a2b4373e225
++  __DATA_CONST.__got: 0x60 sha256:b91e5be7d5ba819179d57f9282246156781eff665ffa3e850595fe451d9ef103
++  __DATA_CONST.__const: 0x70 sha256:65cd7a9b4e2fdbe59fae2a4d533f3d5126a86177552bf435089a0a12f0d4eb87
++  __DATA_CONST.__objc_classlist: 0x8 sha256:14ff0cd5cc776030256217e9bda23580b5f480c183574daa34cd7c69783d9e84
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:ae4c42fab4e649197e9df6b27b007c077f103dbaf71bb2a85a87f542ceab3052
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:7583ae3873b0ac7ab1fbf03c1d346dc796046b994ad1722e6cdc1cf0cf2959f5
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:75658aacca3243e7a989b36722f46ebc107228122d1671753f522a02365f4173
++  __DATA_CONST.__objc_selrefs: 0xa0 sha256:970ce3a69d352140bd7565a4811ef7681d9d0e19eec03c11266798fa569b8528
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:8aa57cb7fc274a4c3080181acaa67c295d3036396316a16782df35d596e3688e
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:eb0651bb464336e85df197777bf5fc94ea3cc9772e4384fb6a7ad0fc2e26ce24
+   __AUTH_CONST.__auth_got: 0x188 sha256:97bbe658794deb5fd3bf3bd989dc64f82f7d29a58a57275abc632e3d7ec6e763
+-  __AUTH_CONST.__cfstring: 0x200 sha256:98dea891bfed3ecb3fd9b5443694ce512acb5729e2a7e3724ff92fec850c1f62
+-  __AUTH_CONST.__objc_const: 0x110 sha256:689bbedc6a0f35dbbbc2f6cb1ce4c93fbd377afb818324e6b73a1b01d5c7930c
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:293fe666f20735adbf367303e6b9554a86bb50c1b7b02d96937762ba0ae2e37f
+-  __AUTH.__objc_data: 0x50 sha256:06978019ede4bd832eee67fa00af02601f11c2673d70c95c1fe8eeea530b3c7e
++  __AUTH_CONST.__cfstring: 0x200 sha256:65f36b08c4e10085daabf000d3186c7b556be579fbbbaa2fe880dd6c1404ddcf
++  __AUTH_CONST.__objc_const: 0x110 sha256:bc1c2b69561af13f5a4c8b011f850041a48c58df14bf812d5a823fe9f382edc8
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:f5920eb3baae8a3ddfd1ffa10f1491bd7214038893033bfa8ee164c4787ad119
++  __AUTH.__objc_data: 0x50 sha256:091f6574866296262fd39e318bab0b3cadebc84277778bc03023d30dc0466089
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 50D16219-2FAE-3F8A-BB9B-9EB116BF6073
++  UUID: 9D2B0964-88FA-3F2A-85AF-924FED518212
+   Functions: 27
+   Symbols:   151
+   CStrings:  85
+Functions:
+~ -[AppleLatticeServiceRef init] : sha256 1489a3d82ee32037854786189fbea68cf29713c67f8fc2ac4c90fcf88e6404a6 -> 4af215ee2ef960b4270c126e4982293ed892a866d410fd5b5e69530fa7ff4c8d
+~ -[AppleLatticeServiceRef startGetInterfaceUpdateEvents:] : sha256 99cc458a5470dd4738a4497e7bb45f4f2f8d5afb7ef84916e1f209e9fa62efc9 -> ff60c127596c1bd40e4aeb761df58cb12d3104fb604ff6c60f9592ac777f5716
+~ ___56-[AppleLatticeServiceRef startGetInterfaceUpdateEvents:]_block_invoke : sha256 7ac333a0bda64f2ddbcb292f51c1549717deb222e7816c854869954acb695f3b -> f2983a85ff415338040c1f2a2ebb5ac1992df9427a86ed22a40590bab3014436
+~ ___56-[AppleLatticeServiceRef startGetInterfaceUpdateEvents:]_block_invoke_2 : sha256 a0f91164f483a2700c0979e3443adeb771c2f415679d0b4772fc7b995836e0e0 -> 494eec9e8b1bbd1cf1a87858784668c5c97491a2defb3235342ae8454a9e0160
+~ ___56-[AppleLatticeServiceRef startGetInterfaceUpdateEvents:]_block_invoke_3 : sha256 71f54f163e376e0235af43665a787d1961ef189f210c9e9b7f21554b8521a6e8 -> e2f7d3c770eed430030a69ab2aef7bb0d6164805ce0c1124191c7ea7175cb7c6
+~ -[AppleLatticeServiceRef startWithoutCallbacks] : sha256 f066ea2b542f5b96bde6b53d7de3d0e00af661c2b7dc46ad0a07c0fb8dc66d89 -> 44c4eb15fea3e25c5a02efdd613ff7e74900e48dce0ce2bacd3f174212a6bc8e
+~ -[AppleLatticeServiceRef setShuttingDown:] : sha256 0df5a5e89c0a329d94abcea0333d43aa65a8f1741d5e5fe6b6a5d8cb971d58f0 -> 7db19f8a9f5f70706aa759731ee5b2898553cb57da17d766327ac5e6390b82fa
+~ -[AppleLatticeServiceRef getLatticeHealthStatus] : sha256 bbc5ac42478fb0e2a32db22d342f5e65522509f5e4ce25dcc9c7be1254b90399 -> 80405202151dd97fd065289980ec68edb67af5e0317e7bfbcb7d03adc189ba4e
+~ -[AppleLatticeServiceRef addCarrierLocalInterface] : sha256 1181cfd77560bb8407b0582390d1d8674bb29e18f3d6a3a69154cd55e0f3f744 -> 3d21bdeec78aa394ae00e0d8fac11189c65eaa56b4f5fcd1e1cad1c8a23e9c7f
+~ -[AppleLatticeServiceRef removeCarrierLocalInterface] : sha256 100d66077cef059fb3595fee537b9cf4f3307c1e13e91a89fdfdcc7dff238ca0 -> f32fcc949f6bcbad7d9dc580c47ac2c8a7c1bb892ddc269a519f917f96e0fef3
+~ -[AppleLatticeServiceRef dealloc] : sha256 67aacfa237305d1ee67d9f03ac1172b686982a51df9f81385a9d1be7f28b710a -> 19554924eb21b91fe17cd4660d4887e86286932374fcdadb3212a305a828d1a3
+~ __ZNSt3__110unique_ptrIN12_GLOBAL__N_113LatticeClientENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_ : sha256 1289a0fb6c13bdc8a4f6622aab675b146cfdb09e2369df7d6a40067da168d56c -> 86c33f0ec204802b65cff81fb4a3e4b9065f314fb36c2cdd8b192cd73f918562
+~ __ZN12_GLOBAL__N_113LatticeClient11openServiceEv : sha256 c62c009fd261a480bc8ceddc3c395a8d530cb4cee4e151b55187de598da4eb66 -> 5c1fcac63b446453543fe78db8c19e51cd713db0710865392ccaf8f37426e88f
+~ __ZN12_GLOBAL__N_18logErrorEPKcz : sha256 bf783e56f13251b9f45be46b8cc2478dd3ba1da6cde7f6864422f3b7cd50a96c -> d7930cc016e87067f685ef33b399d9f93e7b69375c2fbb443f6880c584f6be8b
+~ __ZN12_GLOBAL__N_113LatticeClient14onNotificationEy : sha256 30794742aa36e2108cb0b3dd8e10a132df0d699f0b92ff191c80e81314c0afa2 -> 26c5b485e6ac409bab081b8cf42ec03ce1ed5443a4bbabf224f0455dbc56c9de
+~ __ZNSt3__120__throw_length_errorB9nqe210106EPKc : sha256 133c6d99ffc29b898c46297d030e747f0110ca515af80ed0dab6369563d0d096 -> 952d56d99554f3c67c2b6e2504f49dfa7155232d8658c5acaf753f36c93a8315
+~ __ZNSt12length_errorC1B9nqe210106EPKc : sha256 ad30c56c91b9d686b2515946b3f1e4c740f2ab2eed31b7299c6b0994c9529425 -> e21e8ddeb5f9ad38939255aa5b0adbe512b88100e1919c79935ee0ef0fb34c2b
+~ ___clang_call_terminate : sha256 8d282b97535322ed81605f6524f18cb4f72bc851d5a9935328b1931d6949c0d9 -> e05e2eadf779a7efa259316ca947729e98e16c72a4a8eb71e6619da6ddbe5634
+~ __ZN12_GLOBAL__N_18logErrorEPKcz.cold.1 : sha256 e4e75874ca0f302571382c35d515a4fbb76ab00d45c9e778b7d254d95df65249 -> 46a90ae6955c8e9b07f951d40a190663a561a8a25b74b9e8b2312a703c41adcf
+
+```

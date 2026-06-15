@@ -1,0 +1,76 @@
+## DrawingKit
+
+> `/System/Library/AccessibilityBundles/DrawingKit.axbundle/DrawingKit`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x674 sha256:1308b549bc3c128d337b67d68ba14473168cd16a2a0fb3bc05aef3c56d240015
+-  __TEXT.__auth_stubs: 0x130 sha256:7b937eb891131d7ff1aa5f4086a2e11c87e7abd1ba8bcd5cba3c9a4c76332cf5
+-  __TEXT.__objc_methlist: 0xec sha256:8c7d72ca9a50dfba9e8cdc8b2d44dd34011a4136c378f74f24b371443c179e45
++  __TEXT.__text: 0x674 sha256:10c171ca22bbbc0a7efb453b122dc79c666016a8992d596f87d6196bfb0844ce
++  __TEXT.__auth_stubs: 0x130 sha256:63b8aa262108d62b810997c994aa6cea188e8645a52e9d8da91b3f15f3fb9a3e
++  __TEXT.__objc_methlist: 0xec sha256:f717a3c2e62da10947b562cfaaf15553b6c165bd5360d8581abd44c5fc2f6061
+   __TEXT.__cstring: 0x10f sha256:4f0723771716207f09d4750b57385769faf4db70143a5840b9f77c175d1779fd
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__unwind_info: 0x98 sha256:84769374bd9f94343ebb53dc93fbfeb120a4f2d50a89645714fa99f5be6ec219
+   __TEXT.__objc_classname: 0x5d sha256:b4f058f83c04389f4f7f4f4f7037927be5a5e6df4aae5f73f6167b1a6d28d90e
+   __TEXT.__objc_methname: 0x334 sha256:fc2dc50605a5d9b2805544015f1a54f1c700c2df38ab9e4f02c7584f5798b95a
+   __TEXT.__objc_methtype: 0x73 sha256:c28f8d1256028135ef95298fe6eb21a0f190c2f7163d31308f5e6dffbd00f505
+-  __TEXT.__objc_stubs: 0x260 sha256:2df7cff0b2f4f327d2e6d53e713b967df5baff4b464dac8ae8734da876eb42a1
+-  __DATA_CONST.__got: 0x40 sha256:b0a1db99424dcad09aa7d88dffa55586d5732bbb33167ea2c45e3171718f645b
+-  __DATA_CONST.__const: 0x68 sha256:683f8ee6de4f241896754ec3956b6537ac19d818f84b410edf50fb925351199a
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:5c1e3f0e851d191b33002552d2e2193d49888bfc080f2f8eaf68a5eb6362f03a
++  __TEXT.__objc_stubs: 0x260 sha256:9de487a3945da15e1a12846ae144c4e2a1e06064c550d240a18557803b4f5923
++  __DATA_CONST.__got: 0x40 sha256:49c2629581e102e63dceab71d3f50f6d5bd75e517ec7ac118e148c8820f91430
++  __DATA_CONST.__const: 0x68 sha256:2aeca0e553df25705c677bb2b8dc3cd61f94b77583b8d7815dc4640ca7a31f2d
++  __DATA_CONST.__objc_classlist: 0x18 sha256:56c92d41e9343bf8f283849ecd582f311bdf11d4bedbbb6bd666872e9dca48dc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf0 sha256:fda8bc320d91a3d8c655f0418711548ffe37c72fd304ef8611fc952338cd5892
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b54b55f8ccdd74a5edd56faae7d95a94f1683c2bcaf2fbc44ee086a9b9ba1134
++  __DATA_CONST.__objc_selrefs: 0xf0 sha256:6389b11a51ee8a67c17723aa0faccc14f2bf90b3cd25b6976cb0884421d26e88
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:a0ccb035d86ede74ec070b2002b63eee5e9a12274e5bbc1df2322fcf696d4f32
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__const: 0x60 sha256:9ce5c50bb30cc2f4bba014bfc2ec6dd0477c8bee9e84161de50acf02991ba102
+-  __AUTH_CONST.__cfstring: 0x180 sha256:62c2cc7c06d86cf9c3088cc7af6dc67408384293eb8768ebfde3088b1b671b01
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:ca61cc71e8d3fd23c116d0a0f326640d293286da399cf4027846e047a1d2dfbe
+-  __AUTH.__objc_data: 0xf0 sha256:d3758d3a0ec3a9bd09329bf54eb412b593a22b06de88fe280be2d86be1c84391
++  __AUTH_CONST.__const: 0x60 sha256:b12e67f2c42e6543f8328fb1e7ac4d91d273b3ba7c6601c3811481790da39616
++  __AUTH_CONST.__cfstring: 0x180 sha256:47bc601c2578a4df4c28942b949a4a43314027ffc9ba5678d2fdd86da27b69c9
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:869089e40e0b43628583816b26ea24603e22b208d2361cb970cd6f1d6bff7d62
++  __AUTH.__objc_data: 0xf0 sha256:a9cc47a066165ab1b9935279836d4fda2df384386e9d276d7c14460ae5e0e9ce
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5BEF645E-020C-3E12-A9FD-78765CC954D8
++  UUID: 33CE0C68-0F0D-31FB-81E1-22FEE376DB67
+   Functions: 22
+   Symbols:   119
+   CStrings:  70
+Functions:
+~ +[AXDrawingKitFrameworkGlue accessibilityInitializeBundle] : sha256 4436740963140ed7fcf7cd0aeca60d034d3af122838bba5ddb98fc82470c6bfb -> a2129a7f92e16ca9811b1a55fb069c317d58350b8470d3830641775da18ef64b
+~ ___58+[AXDrawingKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 ed353bcb82b3bb768c0461278bd96060f087e30b0e84d9977d2a5db8f0778611 -> a2977a2fcb09f550ce5565a141fba6e3641c34d490963ef7b4f5a61faeba0b13
+~ ___58+[AXDrawingKitFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 390253e2d12cdd730a0e88523c66764401687a12621f9f85306773ff07c8f1e1 -> bd8f6a70999cb8658eb8b424b661cc4c6c1af2a6dedf871b88261a355d375971
+~ _accessibilityLocalizedString : sha256 939229b45a6727eb571276a10f24283dbfe359835c607745bd8161e488b477c6 -> f2bc3891c473840b5fc99f028a3dc2b23f78fb8b5a012d9d2ce18a72635744e0
+~ +[DKInkViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 5cc444c0a3ff4ad5d8981ac622132436a76c1a67ce38a64c7db8661c3325f7a7 -> e84004d2f6f10d225151e1812cb0ed8e821e890db6c33954bf48b8bc5c7c79e4
+~ +[DKInkViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 59642bd59c4c824cb3188fae5f79e862fa655be042c698b61387828eb61adccb -> 4686275100ee80e967445f9d06d1167f117cb90b1dc524888dbd4a774987acc2
+~ -[DKInkViewAccessibility _axIsDirectTouchable] : sha256 86d39bc08cffaa56bc7850998b384f7f7894a59eef1be98f9f596f3d4e7958cf -> d35fc85a739326e7f1f487a0a088caaf9feec767dd324a184016908bc5d3919a
+~ -[DKInkViewAccessibility _axSetIsDirectTouchable:] : sha256 4941c95b44b8bd8027f7f922787155bc544b846e8f6e5dcc0d23bca6e331a6c7 -> 9579296a2dfc4e242ce9ca5a1396e6d8d296e38426a17efa0b2a7f886156cedd
+~ -[DKInkViewAccessibility _axDirectTouchTimer] : sha256 8571c0956c5052f52997648258f581bbc000a027077807324721e0e7d4dd2e88 -> ba24ce9421b7a4cea50ac122febb18e56d3bdee5e0cc0ae49a701de4b47dac7e
+~ -[DKInkViewAccessibility _axSetDirectTouchTimer:] : sha256 fa1742f760af42525d2415a5303a5079615c7001aad1dbbddcb175c7c61ac8a0 -> af31f6a64c984ef905328af566ee18ba38482494a8e82d06c1714a227c7e4517
+~ +[DKInkViewAccessibility _accessibilityPerformValidations:] : sha256 7850da2ad2e7a328d269e4dcdb5e8388b932b29817d71a2094ba287484aece08 -> abcae480ce52acd9428630477664d7c57424ebbdf8739fcde881025cc3f16c8a
+~ -[DKInkViewAccessibility accessibilityFrame] : sha256 dc093e36b234edff9de8af59c2f4311c854d1a81f19f5b12fc8db5fe90880bd8 -> c868a425eedc7c9430bc38217c1ebce9b25beb76e8f3fc8bb1b0648b04771676
+~ -[DKInkViewAccessibility accessibilityLabel] : sha256 6046005a35a52e8f2b8de4dfa0de8464d838788c5c1bf7d9eec75fe458ece7b5 -> fb8fd75ba2b958fcdca8ced2e87e1e26669551e439cc7ca1db7fc6c6c76fc8a6
+~ -[DKInkViewAccessibility accessibilityHint] : sha256 36dcd9474ade4805a0e862b0db42c69b2dd98a8a906ac98f91692a207cd89884 -> cb7fb1614344930fd1b56c357d14011e2923b6cd42a99d974fc3faf232a5f9fa
+~ -[DKInkViewAccessibility accessibilityTraits] : sha256 7bba39fb1ad1845fac4da326687ebda37088b6de33dc2bd292941988dbabc9cc -> 80be1af15cd09a5756bd463c94fcf12177b4c30fabc27f453eb5516ce74397d3
+~ -[DKInkViewAccessibility accessibilityActivate] : sha256 194af793fe7fe0207d9a52733f768afac1469a6427b4d790ad0058bc7252bd29 -> 995aa69ecb6989bfe84409e1052d963ee096f25a918596afa9046f11a10caa55
+~ -[DKInkViewAccessibility touchesBegan:withEvent:] : sha256 ccee2b62261a2580787bcc40eecd31b9c848b2d54f76229f8e7af46e5323691c -> d6d331dea3b6d500044e5838d492b1c2e8cab13e6e33c207a2ed1f6fd4df1e4f
+~ -[DKInkViewAccessibility touchesEnded:withEvent:] : sha256 fdc776cbf7358e39e17bd017a694251800e8e8b92398bea7ab7c74e4cfbfc786 -> 5063cbece0d631f4a6120ec699fe313c696d141f094770c253e668b1f172d63e
+~ -[DKInkViewAccessibility _axInvalidateTimerAndReschedule:] : sha256 3c4525e014f9319ceb2e030f240bb510fbe41e9dd2f22b9e70272228817f4f7e -> 45583e9399375d38f71a417375bd6c5ff52d74de259654fef49c84ee64557c37
+~ ___58-[DKInkViewAccessibility _axInvalidateTimerAndReschedule:]_block_invoke : sha256 7c73c89c05e9becca7f85412948574dfdf8e5ef60934173ca09e2b080f9428c3 -> b4cf781d19eb9a43016443b55125422950cfa51183e6f4d50785d1ef55b6d46b
+
+```

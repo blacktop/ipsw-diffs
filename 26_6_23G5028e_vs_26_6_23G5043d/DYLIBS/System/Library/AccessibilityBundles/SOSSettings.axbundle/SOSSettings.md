@@ -1,0 +1,61 @@
+## SOSSettings
+
+> `/System/Library/AccessibilityBundles/SOSSettings.axbundle/SOSSettings`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x208 sha256:37a2a8ca31745b4e7ff18dece283695dc9abfda0d5ef1db0fe57f2cf14f2a816
+-  __TEXT.__auth_stubs: 0x90 sha256:7f1e02894626abf9b6f72e753b19472842117d477d0674f734d155bb5d3448a9
+-  __TEXT.__objc_methlist: 0x68 sha256:ac2b4264751873bf4e2be1a4425a59912df94314a562cdbfde2f39280869cdae
++  __TEXT.__text: 0x208 sha256:0583c1d174b5642bf7acb0af3679ce9db1a5e7e31cd14de1e282f18b386ea53f
++  __TEXT.__auth_stubs: 0x90 sha256:fadaaf1a293631aad2d7a28aca46043aafdb0782bcfa2b6348d0b5a06307a570
++  __TEXT.__objc_methlist: 0x68 sha256:1382ca087c25e1cd84bcfed0e54017036fa11887b389fac2a6015be4a0a6d798
+   __TEXT.__cstring: 0xb5 sha256:6da68d707cd411d4d252ae3ec15640aa2b1b952debcf2bc44076a8f4384d84ca
+   __TEXT.__unwind_info: 0x70 sha256:4669e52b2138aa42c22055b3630d354da82c202038d77feda69a13bb5dfc2db4
+   __TEXT.__objc_classname: 0x71 sha256:b8710d62d71925c47a93687bec77498fa1e14f19165bce62b59d72998de77de2
+   __TEXT.__objc_methname: 0x1b3 sha256:10ed129e69572ded5748ac5daa9685f4209d8b04813269b8f217da87084ae8b9
+   __TEXT.__objc_methtype: 0x2b sha256:41e3418b4b2801d5ed4a04c4cd696e45cffb1e9234811370e2bc216dbdb4474b
+-  __TEXT.__objc_stubs: 0x120 sha256:91c0f2279a0eae826bbe3962d6a020c2464536d67495ea0c99f3e7e4aeea467a
+-  __DATA_CONST.__got: 0x28 sha256:185dc0fa87ad7055522b441da4645294c70f7218eb058b1843a03e92869ce9e8
+-  __DATA_CONST.__const: 0x40 sha256:5fed45ef32529a64ede5a43b9a98704495a168657ab1e61e091ea25aceb01804
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:3448cd57709e2b25882db7504273151a8e6be942351024ea548552fb407094f3
++  __TEXT.__objc_stubs: 0x120 sha256:68ae4897cbf59d834cf265cb94c7bfa16025290bcbb688c1410990b9e656d1f2
++  __DATA_CONST.__got: 0x28 sha256:13329e1b694c3f4e7e31bdcac47318de629bbf1a6c17604548824c5dd59719d5
++  __DATA_CONST.__const: 0x40 sha256:33ddeda5e989b482869455d0f0367428f09dd5917648ea11f8e198b4dbf1287b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:11bed27f5980e8ae46a82d2f2be90b490290f2e36c1e322358760d809bcec8d7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:821c8e35a6e4f02d9a30ab3f0e91960fe040af3b6c42b769441788a75f10d446
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:61ccd4ed9aefe24e8c1b83f62ecd5495e9ad8540b5474670f40e5c401d56d9fe
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:c7484c2711f0aec97d6c6a5a969bfa326383456c0a4228552944d0978b65db07
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:6448ef0699505c6edc663aa1bff7a1477b4ee702a2d2a6d1e53fa01e21366a7c
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:be23b5abf77aa8dd4d394eb1265b17ec40aff5ccf652328cb1ed692d6ddb965d
+-  __AUTH.__objc_data: 0xf0 sha256:55741a3bfee623108db73cec1184f71b7b8938fe06a2ebaac504c608f29e1326
++  __AUTH_CONST.__const: 0x60 sha256:b0a0feac47a57fc959f15fcea4885e99ffdf8720334507804a41549167cc11c5
++  __AUTH_CONST.__cfstring: 0xe0 sha256:75c4d02bd995770629445b1977ce979699d192f86236c159e70c93875cf530d9
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:7ce479a86d733d028f644dfa9a83204fc3240f9af1e0736b268f41bbb83c6e8d
++  __AUTH.__objc_data: 0xf0 sha256:cb263b50f2dd0bb16932fe4e15a75ebd1c9e233c490a24b4724bc6647c002221
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F1D385A4-CE6D-34AC-97B2-50047F1EF8DF
++  UUID: B7706022-AB83-3552-A112-B02A6469EB7A
+   Functions: 10
+   Symbols:   70
+   CStrings:  39
+Functions:
+~ +[SOSTriggerAnimationCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f45d13ae0ce79053a8afe1af8163755ffcdd7fd78bf1d4e36c3edeb55959f588 -> 1cea611fd41510513fdb989b8106098a9a566200df97ca7fdbbef77edf1b7647
+~ +[SOSTriggerAnimationCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 2d6ac56d0a2174ec4d86df637e8be52f6df72ec7b34d8815260d5b735be27d76 -> 6f9b12ae728b99d40ef1cf7f9809caa7848cc192d3ef9054708073eb220770a9
+~ -[SOSTriggerAnimationCellAccessibility accessibilityLabel] : sha256 e3c0ac67c49872862e5f14498a7fe73b60d605a1faa2f59b7e1734f4a371a795 -> 86357544e33379723ce7dd6b71185b6da6d1d7c7426fc1a27500e913882590da
+~ -[SOSTriggerAnimationCellAccessibility accessibilityTraits] : sha256 5a11a8ca37fd9bc231999def55d82a85d0e4955668c355961f494d7c4b45d9a7 -> 5646583d77af3911e298d9308882c2af3c8c7b33d6deff56252ffa542bb5ad8c
+~ +[AXSOSSettingsGlue accessibilityInitializeBundle] : sha256 91be656ef7660e31ea3293ed59837995f9bc323be470e3c60ac75c40195801c2 -> 0a02553cafc4e321d915cc1b4b720b673a686360bbaba0463edecb6237be3055
+~ ___50+[AXSOSSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 59ec10d50574fef48c4c25d5353bfc23caae9b9d507db60e4dfbc301a4800fe4 -> 4f03765214fcfe7c77f2b5aad1995d006963071f769333989161dc9e92d5bf32
+~ ___50+[AXSOSSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 ff529d1e5719a39a9f54639ac62ae19c99cd8d44abddda41757dafc01c02d93a -> 43463b7e9ecc6d919ead5ab8e86c392d1f74282a6035996ec4c35a62b4e933b3
+~ _accessibilityLocalizedString : sha256 2a708ea6206ea347142938d3c6e657cd2d822c118d2f64154f953f281c761fed -> 479a5750ac68ff3d975262bccc7afa261137ee9bdab0f2c68469ae7a9fd3afe8
+
+```

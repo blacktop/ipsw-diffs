@@ -1,0 +1,67 @@
+## Disembark
+
+> `/System/Library/PrivateFrameworks/Disembark.framework/Disembark`
+
+```diff
+
+ 267.4.5.0.0
+-  __TEXT.__text: 0x8e8 sha256:07770e14f04ff373ecbd336ec6eed39b20fe11a7880970b79f591854465d6205
+-  __TEXT.__auth_stubs: 0x190 sha256:f0018cb5e5990fc45c16d61afce8cb310e9f2c0ceef48debb60bf34b3196d3ca
+-  __TEXT.__objc_methlist: 0x38 sha256:9e7d4e660e24f71a1017c8e43e87b878d2e43dbc3d0cafe2ae481c94c12ee268
++  __TEXT.__text: 0x8e8 sha256:ba428432929ba860a1582eb0491cf1476cfe2700296cabcdff2f024f851b64ce
++  __TEXT.__auth_stubs: 0x190 sha256:62eaf0e34b1aaf58edb0ac51da8dd20aeb64a9936cc124aad57454a0cd23be1a
++  __TEXT.__objc_methlist: 0x38 sha256:a7b148f322d212d22f138389221b7086ca39b8ce8489b644241db1b6499d70e9
+   __TEXT.__const: 0x50 sha256:ed8cd6fff61abc8ad950b943f1f0ff65231ad177fd6f2d0718768a04dda4fbf0
+   __TEXT.__cstring: 0x104 sha256:48a5643a169538bb97fa83066c1e42a8f1f8e1f9b277c1dbbf8c459c27e70538
+   __TEXT.__oslogstring: 0x9b sha256:28ee1ef185aeb7d27ee4e5b60af2b06865fc6f11d6607d6a4ff177bf41a429a1
+
+   __TEXT.__objc_classname: 0xb sha256:7651f191d274f0251b0a991c7aa7a172e9eb99948b333d4a6dc8bd5e60b81978
+   __TEXT.__objc_methname: 0x28f sha256:7e5b6ff5ffec13f7dd3ffe08eb43d20fee2ace052e4893fffba4c97d1cc28b76
+   __TEXT.__objc_methtype: 0x10 sha256:5aa1a137ce30a9cc5e215d8895fd281cb305770d125d0506d896bb3fa544a7e8
+-  __TEXT.__objc_stubs: 0x440 sha256:4427d71aa1707845a93062e5cf40ece2f36e1b6aadc2df0af3d4efc84c04f125
+-  __DATA_CONST.__got: 0x70 sha256:465389933cf6d28e0cc0e42eb4152bf9532d8d8ac1c4e5e8772b087268aa5232
+-  __DATA_CONST.__const: 0x20 sha256:a9156de0771c9c7294829e7df5c9367c2dac214217b0c42194546fe72ccf00ca
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:4dd900b0ada78f17769017e6997d91bae53821557421dd774f90dd10b52d77fa
++  __TEXT.__objc_stubs: 0x440 sha256:e9d132ada7ba800c4588671133618fca648f666e2f35d27f712f1514a1d6ff4d
++  __DATA_CONST.__got: 0x70 sha256:a3e9870dee87392328fe9c38440f40c928b57cb75c3074f8cc2fe103f263ae67
++  __DATA_CONST.__const: 0x20 sha256:08a2c67558c05f90265ce313232cb1c402843f6065e2ed141dad5a7071a7a011
++  __DATA_CONST.__objc_classlist: 0x8 sha256:35ead75426cae7588874bfec5f6b76f8156ece92b2e1f0465684d9f7f8aee0e0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:d5559f0e2bc371209ba23fbd57cfd76aa0b81f4ddbf24a88950b399096a36e15
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:f9e2899bf486344493b3bb7fed64b992e787d9c15cad5590cb6d023c6a518126
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__const: 0x20 sha256:9794764ca6040d406b541e02763f437aeb1ec5bb188126686012fcc4317c7ab4
+-  __AUTH_CONST.__cfstring: 0x160 sha256:537a2323ac71fac8ca18a8b90b4351f5e3ec3de0234657e0bce9355ab869d296
+-  __AUTH_CONST.__objc_const: 0x90 sha256:ec876bae65d078c199ca70b75b34e67280c77312fa49990dff8dcbfdd9d4a130
+-  __AUTH.__objc_data: 0x50 sha256:44096d8a29683fb5f32a1b6c993ccf1864535dc70e74979a0dfe946f78165927
++  __AUTH_CONST.__const: 0x20 sha256:0c1768e4a4a914b65740da5ce55fa6ca471dfcfa9bcdbf8591086aece8accc90
++  __AUTH_CONST.__cfstring: 0x160 sha256:7835ef195a32587d6dd026a3273bb88ff8fc36cfc76bc129fceb97d88174a835
++  __AUTH_CONST.__objc_const: 0x90 sha256:c3ec77f73f38a4620461b7aac75c3cbf252bc2c85875f8817ee48f981d6217d4
++  __AUTH.__objc_data: 0x50 sha256:45027c600b99a083bc7efcca4defccdb13d384f5e4ea43a73422f7d4179bb78c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB459D86-98D4-3221-ACFA-4A8DC7164375
++  UUID: 349447F4-8861-31B4-BA19-1775098BE8E1
+   Functions: 13
+   Symbols:   113
+   CStrings:  68
+Functions:
+~ __DKLogSystem : sha256 a0c82235dd05f1f45a86d1888e6683903165c4fa718d89a554306f65200484e6 -> 31de81ff5c7d642346d8e70a6931297df5856f18a633a6907130c7544c4091f3
+~ ____DKLogSystem_block_invoke : sha256 12293e3e60b5f5d4a9cfbaa43e34cdbf0d5eb76dc3c3314266157fe2ddf05db0 -> ab09fd87b1133baa7449aaafe6ada895d5143e1a3362e8725a957f86fd8ac720
+~ __DKIsInternalInstall : sha256 1399c0c100ba6960c12eabd1b1c331e7d8c63327f55cd7e1e6d7e23c64815738 -> 268ce9f1443395501221588b5a225881543f84f3cb58ddf8bf202347c910e432
+~ +[DKFollowUp postFollowUp] : sha256 b061aa5f69350ddc31425cfd27b439da798e5d36149d5679a2eb2215eed02825 -> 020eb2082fd59ff7af2f9467284c6e8cf760e4a9d72115e733d3039cd6e699a8
+~ +[DKFollowUp clearFollowUp] : sha256 d0d4059808a289b22d43de3a7033de627c0f65d102bbc1943ea62b62144dbcc7 -> 3c45c41700d4edf2b124ba0c5bfcc00a80d8e202d43c495c5fab5857e350c22f
+~ +[DKFollowUp _followUpController] : sha256 d9430ecc11677782a025d758faee7e48eebe1997fb0fed98d8dfd2331db9e576 -> b835e28d582bc8e7862cdb0ae28a6a345c2e3cae33c384453cadd9936d245a24
+~ +[DKFollowUp _followUpIconName] : sha256 04fd78e815fa63d06e0d6984f5230389a2c235333aa974a1e3f31a5284a934ff -> 5c9eb1d0f88c40189b1d4263e52fa03eb0fcb91ff9984de4ccaf02be553d7d3a
+~ _OUTLINED_FUNCTION_0 : sha256 5a37199f266c6c0bf3ffaf53f081cf4735049ad80936569a19962d73882f6900 -> bb07a77d70593b8d5ca50312f31b232a94dd926f9c31d095cf520e7391ed0a3c
+~ _OUTLINED_FUNCTION_1 : sha256 430d27e6a659083a7b265397ec38e3918cd38d48b607e217e677df3b70f9fe11 -> a5e6d1162f42c1b342afbec74dec4cfa73898b6a7a598f998f3e1dda25521fd3
+~ __DKLogSystem.cold.1 : sha256 bcd53fecabb8956dba8a3071b2419dc5110dcbeabda7ab41ee035ed5ccfc18ff -> eaaf8057dd6364d5d36c2f5ed1c86fd1c5825e53dd2744078640bd4758aee390
+~ +[DKFollowUp postFollowUp].cold.1 : sha256 3260ecd8dc7525f09a613e31ba65d7dd6cc8d4a98494980104fde2f3970d3c77 -> 6ac2d17628eba75ece90619881e7c96cd662dda89286a823e0c4a7900b0ee365
+~ +[DKFollowUp clearFollowUp].cold.1 : sha256 4156d9c5947fcadced0fa36c760dbc948545a8715d2a1bfc36bce1b460ec912c -> 0f3422d1daaa2da79715ec7a393cfeb81cc1815d160152f2bbcd2b1e581799d8
+
+```
