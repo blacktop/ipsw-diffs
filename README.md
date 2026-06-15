@@ -58,6 +58,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [26.6 beta 1 (23G5028e) .vs 26.6 beta 2 (23G5043d)](26_6_23G5028e_vs_26_6_23G5043d/README.md)
 - [26.5 (23F77) .vs 26.6 beta 1 (23G5028e)](26_5_23F77_vs_26_6_23G5028e/README.md)
 
 </details>
