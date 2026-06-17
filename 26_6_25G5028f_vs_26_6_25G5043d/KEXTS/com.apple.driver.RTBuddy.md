@@ -1,0 +1,43 @@
+## com.apple.driver.RTBuddy
+
+> `com.apple.driver.RTBuddy`
+
+```diff
+
+ 693.120.2.0.0
+-  __TEXT.__cstring: 0x9a58 sha256:9896d09d46fb195cfc9f7ea94ac4ddf8f6d2d4a2e26b514d08477fd6ec8d9ec2
++  __TEXT.__cstring: 0x9a58 sha256:5a477bbd8bb96b0fae3a2f2a6246eebe5a8db0b70fdc8b23ef79fc5837ec6815
+   __TEXT.__os_log: 0x652 sha256:8f708edb1735a2004106434e5ba37495a9597650d01047e4d1ca6bd41910f599
+   __TEXT.__const: 0x280 sha256:0be9c1e6173e2eabc0836eb6742adb77565147cd16b32a228eff4c7f0099c4ed
+-  __TEXT_EXEC.__text: 0x44bbc sha256:a574b862f914e295fecf31f69bffa1937f795c5ee58d9fc1804b079ee5804dd6
++  __TEXT_EXEC.__text: 0x44bbc sha256:84661e88391df13b33b2aae2a09c26261e0432206c7a2f81de8c4215c9d14737
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x128 sha256:68987b92fde1aa6e33fc7210e47a1c9a3ebaea2bf857b7b472040cff4d6d256a
++  __DATA.__data: 0x128 sha256:23b01790fe5fc397c81b339f8e38a7f3459ac1159de251f3d2d3ba77e2a51537
+   __DATA.__common: 0xbc0 sha256:f6f2312cfd2cfb62ea672e8de4c0ceca1c8de3ba3d8fcd02e8e5840d26d97574
+-  __DATA_CONST.__auth_got: 0x548 sha256:434d6eddb846e5761da674067878225a392617df4861959b690f96d9350b9fa2
+-  __DATA_CONST.__got: 0x158 sha256:08110cf14b78cbb055e74d0a8a820954c2b828f1c7e2a119e11013988ae7e612
+-  __DATA_CONST.__mod_init_func: 0x150 sha256:c64515ba610ef23c07cce3e3d2c993a8f642e9f6a91a8fe39c64f240d6309bf8
+-  __DATA_CONST.__mod_term_func: 0x150 sha256:cf10efa21801c77d22957352cb5fe91182e1341b31144ef49dbbd8bbda6fec86
+-  __DATA_CONST.__const: 0x14718 sha256:8faa566c18dd89ec94e5cbb6027a95191dbf3e0be836ac6d6ec23e0970b5cd01
+-  __DATA_CONST.__kalloc_type: 0x13c0 sha256:afe31bdcc8a921ff149a7c040ec6412c35a0c16ae1d9a418280cab73188dc200
+-  __DATA_CONST.__kalloc_var: 0xf0 sha256:ff8b18fae8015e5fee05fd6cbfa10fd4bf114b4ded0bbc9c6d7a5f173cba53d6
+-  UUID: 66863FF7-66A3-336E-9639-62FDBCA67B26
++  __DATA_CONST.__auth_got: 0x548 sha256:986c5be17143ff19347cfe20a527160ee01d7d6283531cd605ac52dd6b25b1ca
++  __DATA_CONST.__got: 0x158 sha256:26355f0468bbcf54b1ebb4c84c6b3af0e4cbc517b64d853c961b52efca3923f6
++  __DATA_CONST.__mod_init_func: 0x150 sha256:fdc168d0852e4c8217c1a5c1afa659a8aca23b224296e857cbfe5817a6c73114
++  __DATA_CONST.__mod_term_func: 0x150 sha256:eef54135412cd12f4ba7d7d96d7f835a87af0929e925de8c72ff532e35f4c9fc
++  __DATA_CONST.__const: 0x14718 sha256:50d5d6a035abc6d7b1166f9b7e93352809d89b4481d2145583a1b150d27766a4
++  __DATA_CONST.__kalloc_type: 0x13c0 sha256:ac719e0aafbef8084a0e7098af61e5109da5963fce33087610a281027c107a68
++  __DATA_CONST.__kalloc_var: 0xf0 sha256:0e452d1d8116ae0fb32042a489d2744a155862e9151fd674288cdb4924364143
++  UUID: F5E69F36-5458-3FB9-B4F3-A3F650E2D9CE
+   Functions: 2406
+   Symbols:   4215
+   CStrings:  1097
+CStrings:
++ "22:53:39"
++ "Jun  9 2026"
+- "01:32:50"
+- "May 15 2026"
+
+```

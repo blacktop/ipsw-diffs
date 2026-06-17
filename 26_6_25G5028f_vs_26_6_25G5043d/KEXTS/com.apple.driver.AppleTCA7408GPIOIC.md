@@ -1,0 +1,37 @@
+## com.apple.driver.AppleTCA7408GPIOIC
+
+> `com.apple.driver.AppleTCA7408GPIOIC`
+
+```diff
+
+ 13.0.0.0.0
+-  __TEXT.__cstring: 0x342 sha256:d93752658115c76e72622c10183d97e215faf9591f061a0e67ee96ce4ef95f00
+-  __TEXT_EXEC.__text: 0x2000 sha256:e2dda1f2efe28963957f3c103bd4252473f8668de485197417cd66c2b74a6a95
++  __TEXT.__cstring: 0x342 sha256:84c5cd4f8906c19a95f40b0fae443a8564abeb4541e5f9aa002174c440762681
++  __TEXT_EXEC.__text: 0x2000 sha256:26672e964ffb1fc4c555ecc7a7389f96268d89b12b451b62d04993db8513a876
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x188 sha256:4240a3e90fad38e51df267075827a6061a11403ea5b465e6c746fbb4ee6df0d8
++  __DATA.__data: 0x188 sha256:1a1555e67503ca3646f45a61539b195861418896d8b9a56dd2fe845d42dca665
+   __DATA.__common: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_CONST.__auth_got: 0xa8 sha256:3f7be8ded0c115a5e77f778948c8b3db8b6ce0fa6c8dc39bf57e45f0258575b2
+-  __DATA_CONST.__got: 0x60 sha256:4107b5ca9625fd8a72ee05156f5cb0dd43fed7effee9ee0f1226b2ecb3c7fddb
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:04ee6f9997a3976b16c7964f555922eac6234bf443b395b7b99d413eaa2dd6aa
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:9ba30174775cdb4b570c53f95cf5c32c167c5ffc2f27d31d8778fe901893d448
+-  __DATA_CONST.__const: 0x1618 sha256:2f382c8c17bd18d9d010117937dbbd6713a7f5d436bc49be065d799a91ad8358
+-  __DATA_CONST.__kalloc_type: 0xc0 sha256:b8934430b7bfab2f02b36b6d40709ad42031feda76c40e2769d3e8a97689464a
+-  UUID: 5B6C3168-0107-37CB-9441-49FBA94B466C
++  __DATA_CONST.__auth_got: 0xa8 sha256:7aa9085f0b186ec5d331171cd66127573dbea99da8239e8248851f90c8ee2348
++  __DATA_CONST.__got: 0x60 sha256:c6c005c695215082802cb3722bd4aadbb27ea1907f9e7bc2f142fa6ed2c2b113
++  __DATA_CONST.__mod_init_func: 0x8 sha256:9e609b015052914d637b14f67a92ca8b28cc8c9ac7f2a267b0131bc01f53a5f9
++  __DATA_CONST.__mod_term_func: 0x8 sha256:d4ed5eb10dad5a3b1dd548ce9469ce40d828cb5c7321fefbd782a6f441a7af0d
++  __DATA_CONST.__const: 0x1618 sha256:ec948a9f5e05abf27bd134abd5746c03a8d2cea6fdefc6222e6463819c0c73d0
++  __DATA_CONST.__kalloc_type: 0xc0 sha256:21c6c9270304804ecfffd18b6f6d4cf43d821cc988f96a4176bc69bef22e07f4
++  UUID: D3E14DC3-57BA-308F-B844-A46F70D1DBB9
+   Functions: 75
+   Symbols:   415
+   CStrings:  36
+CStrings:
++ "AppleTCA7408GPIOIC::start: %s _iicNub: %p built 22:43:30 Jun  9 2026\n"
+- "AppleTCA7408GPIOIC::start: %s _iicNub: %p built 00:58:54 May 15 2026\n"
+
+```

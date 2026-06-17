@@ -1,0 +1,31 @@
+## com.apple.filesystems.udf
+
+> `com.apple.filesystems.udf`
+
+```diff
+
+ 324.0.0.0.0
+   __TEXT.__const: 0x1b08 sha256:710ecb22e714b7def04433c57f4dd27273a7be24a70b9617a01335e8a2c514c3
+   __TEXT.__cstring: 0x302a sha256:a891a1c5e51c2467e6933ebbe9572efd28aa0cb836898bd7c529a7db8cf55b78
+-  __TEXT_EXEC.__text: 0x2f3c4 sha256:afcc9074e83b463024834303fad6d16f217e95b00b341a2d1a8ca5ddee01f966
++  __TEXT_EXEC.__text: 0x2f3c4 sha256:f8b504c03c70c7ad0fa9b853ef68ac296814472224281c78866a57c55ddf896e
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x4f8 sha256:90c7008e2a8aa265f9c6e63719b853119f324022fbaa042a7d2c311b052eb9b6
++  __DATA.__data: 0x4f8 sha256:8b44e3ad07a1bf904c3a1c996718e6f7931c05f9713a783683b92c19b4123cfc
+   __DATA.__common: 0x4d8 sha256:be35dae855452c2ddbc5fb9264fd7325e2d0fa3392fdf5ef30ac94b9439e7532
+   __DATA.__bss: 0x1425 sha256:8236275883e320a8c740c65358f49734a1e6df43da6d7bc0babcffcd0bab2638
+-  __DATA_CONST.__auth_got: 0x520 sha256:7ac671f77c1a972f5d028cbc9508a043b0bd9a166fd61568776c9e7fd881295b
+-  __DATA_CONST.__got: 0x20 sha256:ed6ab095287a13f2c35317e8bbad3624d84b454696c228aa21e7afb1de1f41f0
+-  __DATA_CONST.__const: 0x1100 sha256:484e2a433896900b9db2229ceb9b341cd472e9b021de7afc90bca46c8be78640
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:f688a2af5fa2a5438679c5542fc9c72d1bee136321a0e7dca5f7aa07e2e22b45
+-  __DATA_CONST.__kalloc_var: 0xa0 sha256:eaabc86cc5d943cc426f88155e9fc6ca76be03e1ec861025413153d2039d2a8f
++  __DATA_CONST.__auth_got: 0x520 sha256:f5fec11a5b8de920a39bdafd99517696052e9bd1c30b59c81a3e6eac9707c7d8
++  __DATA_CONST.__got: 0x20 sha256:ccb61d2634097aafc9308f93977c5816a36e23f6d1bf7bd30d6b15260fe0c555
++  __DATA_CONST.__const: 0x1100 sha256:ccd37ab54ba8e477b151506533c2bf6a1183a857f63e91ab7a0051c1fe8106eb
++  __DATA_CONST.__kalloc_type: 0x80 sha256:eec9925886d2284f09f9909357ff9f4b79f9c6588ff3138eac4d848743f8f577
++  __DATA_CONST.__kalloc_var: 0xa0 sha256:04f33ca4b185b229795ed1e1808d7bf9196e7c8b4c27679be10f00b765cda451
+   UUID: F5FA92EF-B2FB-32DE-8B2E-01009EE13FE6
+   Functions: 855
+   Symbols:   1175
+
+```

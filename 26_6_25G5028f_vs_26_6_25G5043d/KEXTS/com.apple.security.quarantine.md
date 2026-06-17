@@ -1,0 +1,29 @@
+## com.apple.security.quarantine
+
+> `com.apple.security.quarantine`
+
+```diff
+
+   __TEXT.__const: 0x71 sha256:96cfcddf2aacb10150f499632ed05bb22cdcae128fe9dee0c99b3d77920073f3
+   __TEXT.__cstring: 0x649 sha256:72f38f61f3853d48334fdadf89ad24fb5de91da228b2265e9031700b9a4a181c
+   __TEXT.__os_log: 0x2a7 sha256:a77d4bf960fcb149452ea156d9c23ffdee723de76729b3f8a2b54466b6c75db7
+-  __TEXT_EXEC.__text: 0x8d88 sha256:87de43401e2303371f1c1c254d6ec1d1e1fb05be68226a5291426eec02982628
++  __TEXT_EXEC.__text: 0x8d88 sha256:030454fbebe5a5ab1bc169b0e0481b29361b525c5cde32b1a038b6406eb939f2
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xcc3 sha256:c6c14ca4ae7d37300ea1315688d62f27b63c3f27b077ebf29521dba85777a613
++  __DATA.__data: 0xcc3 sha256:397dd1d609da33e203a2ad3738cb7a161b9a65c1d0f63a71e83a6b83c6d1f5eb
+   __DATA.__common: 0x24 sha256:6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__auth_got: 0x430 sha256:a2e548f19e7c601108b3a04d4b7da0a056d67c094ad44c34594f7a8f46e79d7b
+-  __DATA_CONST.__got: 0x48 sha256:a65d78b63b729eb68ad9562b6052ccc902f8b56c2e3e42f10735a59b2469808a
+-  __DATA_CONST.__const: 0xc8 sha256:306ae71b8ed008f5a081f987d601d9d366d709cb2b6ef66422e4f972415588fe
+-  __DATA_CONST.__kalloc_type: 0x280 sha256:3d16dac91f17380a88f98993e2e75f8254e4f68182e33c26ef1a0e7a7363b313
++  __DATA_CONST.__auth_got: 0x430 sha256:f131c60322c90d2b40c2043b664b5631a890872348a5bab292b5a1df516bba2e
++  __DATA_CONST.__got: 0x48 sha256:55d0109c7da4e999971253ec0fce2adb86e686fd741f2d970c95b9f7f9218147
++  __DATA_CONST.__const: 0xc8 sha256:fdd97d26987ed53c924f77afc37d77218dd95a5a4caca9a65e5fdf5ae42aeb6d
++  __DATA_CONST.__kalloc_type: 0x280 sha256:0918f653ada7c2ae5a669f36cd5156efdfe0056b6e57b5d47fad0621e27c8417
+   UUID: 39C40DB4-120D-3C91-B9CC-91511EBB3AC2
+   Functions: 137
+   Symbols:   388
+
+```

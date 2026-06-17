@@ -1,0 +1,31 @@
+## com.apple.driver.AppleEmbeddedTempSensor
+
+> `com.apple.driver.AppleEmbeddedTempSensor`
+
+```diff
+
+ 182.0.0.0.0
+   __TEXT.__cstring: 0x2c58 sha256:b68a77819b68e6f5a5d5361e3994b73e31ff1e781dd9559ebaf5be1ebe55274e
+   __TEXT.__const: 0x90 sha256:314820e35bf129bfec97b9867c3b3ab0298069d909006003ed23b75b188c8e5a
+-  __TEXT_EXEC.__text: 0x16a48 sha256:7f7888c48fc6dcde11e72f44bc39407a745d3936664043764946b8140a9274fd
++  __TEXT_EXEC.__text: 0x16a48 sha256:cd05a084a1ad41d684630c93bf20877cf143c074f666b9528a0ca4aa12787a81
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x3f0 sha256:489c60d8a4f3de2a9cf247d899b0fe6a75154f0019af278812ff1c8992ddaad8
++  __DATA.__data: 0x3f0 sha256:9b6ccb8935ba141bd38a6a61d8cc542cd05b8437b04f1bed1c9325ea139fa4e5
+   __DATA.__common: 0x308 sha256:508f5ba745944e982367cdbcd6a240acc7f895583df43b519b7d6745f5d86f7b
+   __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __DATA_CONST.__auth_got: 0x230 sha256:71d955c858cb27af379506a4c34444cd9b2ce51ff0368ab570afd6ba0ff428b3
+-  __DATA_CONST.__got: 0xb0 sha256:42b7f8bde983bc0c077e453a6fa582ff6ba4c57d10160c9dde3889a550ea61db
+-  __DATA_CONST.__mod_init_func: 0x78 sha256:a0cdcb139a54b605c7f0071530585627d1f961c91633b2c8b4cb8fa893722073
+-  __DATA_CONST.__mod_term_func: 0x78 sha256:4a715d6845ab82cae66e1a044006732d56753e04feeeff0cf7ae6fccfa230a06
+-  __DATA_CONST.__const: 0xbcb0 sha256:5a46209a136ce58f6129681647ac10f8db7cb08771fdaeeadaf24b1063930077
++  __DATA_CONST.__auth_got: 0x230 sha256:e8d2da6e0f8fd6ff88eaa3f4c17312f6dcd12aa91b3c010db44ab459f69598b7
++  __DATA_CONST.__got: 0xb0 sha256:d95310bf5ef1e70a87bebfac2e1b024d22b27cdcf3a541c5b22a21f2c2b7d91f
++  __DATA_CONST.__mod_init_func: 0x78 sha256:d03eea70437cb8b3343589eb276c59ada334dfc3236c83e42bf34a428daaa11e
++  __DATA_CONST.__mod_term_func: 0x78 sha256:61c85b77c4f3afeee1c70735e744b1ea2922307f631c54aef035dd20d012af3c
++  __DATA_CONST.__const: 0xbcb0 sha256:31d03a21c01e46a9665d74d6e27423b69bef3072e258892e48fdac0ac89e96c6
+   __DATA_CONST.__kalloc_type: 0x4c0 sha256:6fed1f3df006884482207b720d7c187c6740479fc7849763c9aa909947fde52a
+   UUID: 4DF146B6-6122-3B02-BEBF-011C731C9249
+   Functions: 561
+
+```

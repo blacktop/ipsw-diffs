@@ -1,0 +1,30 @@
+## com.apple.AppleEmbeddedSimpleSPINORFlasher
+
+> `com.apple.AppleEmbeddedSimpleSPINORFlasher`
+
+```diff
+
+ 50.120.2.0.0
+   __TEXT.__cstring: 0x14ab sha256:362cb90562213955255a587d66adee96272cc608afac77fe3006f60a0e1f3015
+-  __TEXT_EXEC.__text: 0x34e0 sha256:6c6a35d0baf68f94f58ff188b6fa95730f9820348c3aef9f0fd28b3ace121572
++  __TEXT_EXEC.__text: 0x34e0 sha256:f3aebf9956f03d06d3a81cc38ec9273330d3e46cf0b4967eb53e445e668e20a1
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:b1d0b07a7a33d3c849c2f084dc23a669d40643543494ff1bfeccf917dd6c772b
++  __DATA.__data: 0xc8 sha256:0187dc726ae492a95bba865f69915dbbdc42036cda759cd2c8cc7078c1ad2174
+   __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA_CONST.__auth_got: 0xb8 sha256:0ee1cade3c8b9e711386f5df5b3eaa4adaa451a802c8047fe2834585a5480735
+-  __DATA_CONST.__got: 0x48 sha256:9094e8327461ee3e5ca42e37f4cae26b84c3cd4a8c6239e5b32e1cce9106ef8a
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:610b4f20e0a86a4f1f215e9b899e17972e16de02a50c9a52e7cab09f2ee454be
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:1836c558bc91e1731d65960a047d15b235df40051c831021ad17ee53394b4a1b
+-  __DATA_CONST.__const: 0x1580 sha256:d2352a7614aff8f0561201dc66300c524fc576a2e60ffa3b6cdac228fe1da4fc
++  __DATA_CONST.__auth_got: 0xb8 sha256:31d487ddb798af90ce34b3bbf75a8315cfa254cc21437115072982fa9881e1ef
++  __DATA_CONST.__got: 0x48 sha256:6d2fc852a116b05a31afb39d3b8b8a4ce8a812532ca3d82fa746bbb7b3e5f820
++  __DATA_CONST.__mod_init_func: 0x10 sha256:e17aa595787a548ade655232fd0b0f40297977c33d28c6e3c708d15e61dfc730
++  __DATA_CONST.__mod_term_func: 0x10 sha256:b8db0dc692e898c050bef4c42b820135ebeafc4978c661652b31df8fe32f321f
++  __DATA_CONST.__const: 0x1580 sha256:eaa6a8f890c899c45fa5aee001dfbdcacaf2b4fd136e8e55a6c8e789985fd4fb
+   __DATA_CONST.__kalloc_type: 0x80 sha256:5254e7ee076c3741f367c3c54f008807e2d4ea659ae0d9243aa62e220c5daf21
+   UUID: 90555F88-0C93-3F05-9A36-6782BE598CE6
+   Functions: 77
+
+```

@@ -1,0 +1,31 @@
+## com.apple.IOTextEncryptionFamily
+
+> `com.apple.IOTextEncryptionFamily`
+
+```diff
+
+ 28.0.0.0.0
+   __TEXT.__cstring: 0x2af sha256:2c4b62ef9d6fe03f4813aad46e05115956b2d3cc08f4ad4087d3ae1c2c1896d3
+-  __TEXT_EXEC.__text: 0x1880 sha256:c3d48f47fab708a82848630adf000e18dd86af01415fd3b9339220231ef6ba53
++  __TEXT_EXEC.__text: 0x1880 sha256:e852c4146adfacf96506855783c4b76d90c2c7151dda821a643251ebe8dbb0ae
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:a28fe0a333bf0b0a11e9d3bad23a73b531fab3f3dec74886557823cdbf0f5452
++  __DATA.__data: 0xc8 sha256:4315f24ef36c320a1fcb7186340dd6f679cd639ad26549f2fb27e85bf924528d
+   __DATA.__common: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __DATA_CONST.__auth_got: 0xb0 sha256:af2fffe7c72e05851bb8936d1f06db9ef4f6e21dcfdade5457210e968003521d
+-  __DATA_CONST.__got: 0x28 sha256:2e71f68296a8840a815fa20a23c14d985eb214885ccfeea1e4f88d493012c9d5
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:46ba2857b5e928c7967349c4cc2c244cd86af89111dc8e2c761a02254633a516
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:8d111670fb49a3f484a14fdfdc10fa98aa74edf1048fc4d22ac75e287629f5a1
+-  __DATA_CONST.__const: 0x1868 sha256:0e5e0f06085549a95fd453697b1e0459f52af7376d5584cb850df1f515f8892a
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:7e06fc56f55be33c6f938c5e2bd42892a68b7b71dfefe29cd936f8933a2395f5
++  __DATA_CONST.__auth_got: 0xb0 sha256:7309c334d20fd15edc15c7302da5e7b6b834fe47bc8a3f89913b0d787d6f8ea1
++  __DATA_CONST.__got: 0x28 sha256:9aae78956de930a04ea6159d0d7fb6978f0fd3db6c68a970c9beb7d91cda6ef5
++  __DATA_CONST.__mod_init_func: 0x8 sha256:303862330cac88c19272c8b2370543d627176b8725585efa8914132278f4ebf4
++  __DATA_CONST.__mod_term_func: 0x8 sha256:ff81d64648d36c094ccf78aafbca73c256466bd83aa6db617501310b43e45475
++  __DATA_CONST.__const: 0x1868 sha256:58909f24956ed700409b3ba48354a3c8be36f130327147b693923cf922cf2692
++  __DATA_CONST.__kalloc_type: 0x100 sha256:695a190089d64e25ac7c8adf23d2cb9ae4ef3c654ecb6a638bc8dd99d01925bb
+   UUID: B49012BA-936F-3E9D-8E05-BB055183325C
+   Functions: 88
+   Symbols:   432
+
+```

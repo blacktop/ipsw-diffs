@@ -1,0 +1,31 @@
+## com.apple.iokit.IOAccessoryPortUSB
+
+> `com.apple.iokit.IOAccessoryPortUSB`
+
+```diff
+
+ 1044.120.2.0.0
+   __TEXT.__cstring: 0x651 sha256:f640f1b0bb6e9285e9ae05f931da3188bcf25e97dcfd41b1d3e4297376dd5263
+-  __TEXT_EXEC.__text: 0x2638 sha256:7a3cc04055af6ecb914e5be7fb2436f9ecd171688235f43cd71e834bd783f452
++  __TEXT_EXEC.__text: 0x2638 sha256:521eaaf0298c5f8d7189183a8b2fe98e3fb94cebee03b11addd4aee2f52e2ac4
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x20a sha256:415338bfdf03dc6c644d30bd0b8dd3095ca7889f4e7deb36148d54a20b9be6cc
++  __DATA.__data: 0x20a sha256:673fd3d21d3cd26c5cc99392994348e5585f9dbd3ff914974c01e360aa2e9151
+   __DATA.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_CONST.__auth_got: 0x170 sha256:951bcb1c9048c65b883b57fc101b614d82a486cf75a352db30e1062d5b6ae52a
+-  __DATA_CONST.__got: 0x40 sha256:76e93d73e21b1365ff5e89e4684528405e60c40a0df2cb908fe613986a58c0c0
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:0b0e3f1deb819a8fe82091fab48df7318157e33ce00f343992158d28afdfd307
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:eb6ef28b1662699afee22f540db4485f41153ca7efe6578796bab033e32335d4
+-  __DATA_CONST.__const: 0xa00 sha256:898e9553fb9e01060b0a7cdadb2df9729e9dde00737612c42d831eadf705ffa4
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:ab2dd67486022b97620db919ff81c125b33597d6e0b626804299df03b6b0907b
++  __DATA_CONST.__auth_got: 0x170 sha256:04deae0865e93c8e826fcb1a66ef97e4c1284ba296503d4e05248782e355904d
++  __DATA_CONST.__got: 0x40 sha256:dfcd51c2428f5f88f717707ed10f2e4b5a7109bc7d1c438d5c900267ac5192d0
++  __DATA_CONST.__mod_init_func: 0x8 sha256:67e2ea7e87c59e51a34dacf8f4c898ab94340f0dd030b281350f78aeb446cf80
++  __DATA_CONST.__mod_term_func: 0x8 sha256:92f7af71b29437706e2709058e773e6519c82458e78167a9140500bfaa3cfbdb
++  __DATA_CONST.__const: 0xa00 sha256:3ecde95ba6b1eee38e73f47cc3f86cb9469bc1cc4e9b3d38981386052904ce05
++  __DATA_CONST.__kalloc_type: 0x40 sha256:577181f8d6a55454546b875fbd95ae1022b9c35c4115ea6c6a671694bddf012a
+   UUID: 8767C9FE-F6E3-3807-9793-05F7365EBB5E
+   Functions: 46
+   Symbols:   401
+
+```

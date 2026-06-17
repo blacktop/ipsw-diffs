@@ -1,0 +1,31 @@
+## com.apple.filesystems.autofs
+
+> `com.apple.filesystems.autofs`
+
+```diff
+
+ 322.0.0.0.0
+   __TEXT.__const: 0xf8 sha256:8580ced96d211992e53512b21e9d7254ef9c28650ce930759f3c1136a69aa6b6
+   __TEXT.__cstring: 0xfff sha256:216f154826027969ce534f411b30de1339be97d6835a5cca0660af609aa6af28
+-  __TEXT_EXEC.__text: 0x6d34 sha256:358f3bcafb6ecfa3f84936d1f72ef53a1d80a78de17b0ba42c6c7c57523362ad
++  __TEXT_EXEC.__text: 0x6d34 sha256:fef6b9219dd0a80bffcb49440fd8fc7ecebf511007f784915cf02573c2064de1
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x5d0 sha256:eb81161020bf58e54c1a6c333af0a8d5ebac91c4e815355f9c47fd6948b4869d
++  __DATA.__data: 0x5d0 sha256:540263480410d6cda5cc5922268388963ef1715b351f6b1c40f227659d80cbc2
+   __DATA.__common: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_CONST.__auth_got: 0x368 sha256:93aac7e484d80e37d19d3d81dfe9a605524e852305627b44c9935d17c13756d1
+-  __DATA_CONST.__got: 0x18 sha256:9e7e1cda81f74a77a2eed0514d54e08dd8ce79015844622c12a5677660cc3484
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:ed492d40ef5f47338339686f62535d47948dc2a29f8995268c0a201389d5f9d0
+-  __DATA_CONST.__const: 0x90 sha256:d02f910c83673f5bf748e41ac2f0dc4fad7b0ff035cfadb2ec35d4b4d4cbda3b
+-  __DATA_CONST.__kalloc_type: 0x5c0 sha256:655a521c8b4a22890fee87d0d2fc87f161d1a234a846db60d6b011fea20e8985
++  __DATA_CONST.__auth_got: 0x368 sha256:68112fbd81e4a463660ceb80a7b832a710b01443e99644ba0d6e85aa1fa13bd9
++  __DATA_CONST.__got: 0x18 sha256:0b0351e0a1887ab77e27ca30f62c67b3d901976edd85e7b77c344881bb1fda96
++  __DATA_CONST.__auth_ptr: 0x8 sha256:1635989ef4e4f2f4f81397a34b3708bfd0079516f2a752a2ebab6d1e3f8adbc7
++  __DATA_CONST.__const: 0x90 sha256:fcb013a412b61502d62a9cce1efbb3a71699fc65f0967192a143a1798e3ee2c2
++  __DATA_CONST.__kalloc_type: 0x5c0 sha256:432f9c3fdfcb52ca9dbf684302b109e9eccf52033db0888bbb52b22ccd93ffb0
+   UUID: 9AC43AA8-1CB8-3F75-8DE9-B138C48BD0A6
+   Functions: 109
+   Symbols:   318
+
+```

@@ -1,0 +1,32 @@
+## com.apple.driver.AppleBluetoothHIDKeyboard
+
+> `com.apple.driver.AppleBluetoothHIDKeyboard`
+
+```diff
+
+ 9410.2.0.0.0
+   __TEXT.__cstring: 0x94 sha256:6e6b7168f38ec8aa156eca58fd69ec6ac73eb56704433990c3c485b0bcc0ab21
+   __TEXT.__os_log: 0x30 sha256:d30997fffaa4ee1499abf40ee28bf631ebdbb09cbfbd454f670b52dfa5cf509f
+-  __TEXT_EXEC.__text: 0x730 sha256:8fe96f93ccea76b7380cd497541cc2fc58774438e8a0dc1de8ba8db81d0e9253
++  __TEXT_EXEC.__text: 0x730 sha256:2ae3eb347767c0dc9cea3b57b1d99d9db038bea85a814f442b608a6d1797f29d
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:e11c9320a37abba7445619877a68e324f62c80b89568d7c05c02899615116342
++  __DATA.__data: 0xc8 sha256:04fdb4cc3ded24988c0444b5214bd4d112d4dff4592eccef3313f21ac2f116a1
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x50 sha256:f3a5397ce3cb6971dc44491e50d4f042273b6d290177911183a362523f3c72d7
+-  __DATA_CONST.__got: 0x28 sha256:14b22f16af4980803563d9286312d0f00840c178e01b4ac19d6556d2990eb322
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:1452f7e459cb7ae6eac200d1e8a842bcf7861cf90e390d481775647ea0f074ab
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:b8a2871e0a852a0127aa564c867d93812f83292212ac9e93ace432506af2057c
+-  __DATA_CONST.__const: 0xe18 sha256:ef463c9d69a44b06dc56786caf89f2ea09db06efea423d80f0ccb42e6b8da043
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:3428b074f90af8f13338fb80893d7577d46123ca6a5152389d3dfa0ed8d85cf8
++  __DATA_CONST.__auth_got: 0x50 sha256:801e65b857a70002404bbfdbba043a5e28ab845031418669baed11912ace86fd
++  __DATA_CONST.__got: 0x28 sha256:0235a825e5511c5c985374c838deed534f78fc7dbf853259baf3b4f81175d231
++  __DATA_CONST.__mod_init_func: 0x8 sha256:e37285a05ab09e1c319d541cd8f72b329880caed8afd7944b2db12bd2925a5c2
++  __DATA_CONST.__mod_term_func: 0x8 sha256:6fa27d4bde12877bd5d899d4f9f5e3d85e8e31d469f14296c22bfab8c1dc92ed
++  __DATA_CONST.__const: 0xe18 sha256:683d479c67429a350a5be8eadb961cd3c9990e8cd3b4bca996854b2bf440307f
++  __DATA_CONST.__kalloc_type: 0x40 sha256:372b7e7923b8f61a1a97d891a9353bdebbf276b7dac72fb57179b25c4ebee98c
+   UUID: 4895AF01-5109-3736-AD0B-819573397EC1
+   Functions: 25
+   Symbols:   478
+
+```

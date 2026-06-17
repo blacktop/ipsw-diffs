@@ -1,0 +1,31 @@
+## com.apple.iokit.IOVideoFamily
+
+> `com.apple.iokit.IOVideoFamily`
+
+```diff
+
+ 5617.100.5.0.0
+   __TEXT.__cstring: 0x230 sha256:b697c21837df5ff8a2ee6a6b3ef5ebd4e809b61f3a3a1ce75c307ce00e1c4c19
+-  __TEXT_EXEC.__text: 0x45e4 sha256:26ce429c9207bc82e99cd147fa52a306fb67a85d41e29d253d0368de17fb7ebb
++  __TEXT_EXEC.__text: 0x45e4 sha256:a201aec663fadbd7bddc14793f537bd6606ce626288dd68279e9cb5f775b2986
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:d685e93556c2caae83898b591de0728a93f0b7397b7aceabf15b4fc0dd4f89e0
++  __DATA.__data: 0xc8 sha256:d0f3b7b140e1651a8266dc67c9c5eb2c61510f8ddce3877d2d534973b8dbf1ec
+   __DATA.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__auth_got: 0xc8 sha256:8f7d7a346ac2350c7f778ef942acb1aee7753525d35c7455dc07aaf470e654aa
+-  __DATA_CONST.__got: 0x70 sha256:4ff95e569412af44287460a0ddd76fe60ff8f6d492134caac7cd876ec82d1ae1
+-  __DATA_CONST.__mod_init_func: 0x20 sha256:9b99aa2f2793b95b996b24adab8ab120d12b8c19a2b3f548e161d5747259e977
+-  __DATA_CONST.__mod_term_func: 0x20 sha256:04918169c6edb3ffa08308ddbe29918707f943380449558a7d0eaf1a3af94970
+-  __DATA_CONST.__const: 0x2de0 sha256:b094c396473487104a619726ef67931f5630bb6b6be196c0bc6694f855f0ffa9
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:3cb4a66c020cfcf802903b9763a2a2e75d583c1a12b4228c1e646f5f6c4ffd3a
++  __DATA_CONST.__auth_got: 0xc8 sha256:8c9e28511d6aed2dd62c59401db1031f957c6e153ae501edfa818832e187b235
++  __DATA_CONST.__got: 0x70 sha256:d531c895f512b4bc13ff08c7cbdeadbd3e6d9c26744dfa45552a011ed83a44a8
++  __DATA_CONST.__mod_init_func: 0x20 sha256:8833bca893b3a3e2cdfbe7ae1741ee964edb0996642d2657f44a762786724519
++  __DATA_CONST.__mod_term_func: 0x20 sha256:9d8328559394f9b1fa626e6c565beb649e03dd092f3509c7a6be1d1795a4f859
++  __DATA_CONST.__const: 0x2de0 sha256:d0d570159be62630bdf6e91f1f385ce912f0071e0d9d4b4272ca6e28c46ea971
++  __DATA_CONST.__kalloc_type: 0x100 sha256:32229a7ad7262cf44072e8a4d417c6a7a151ba40c4378b6866501be793eb5ab1
+   UUID: 755CD135-1ED6-33E8-B0B5-4C84AD7FA36F
+   Functions: 264
+   Symbols:   710
+
+```

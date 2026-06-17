@@ -1,0 +1,33 @@
+## agx_a000
+
+> `Firmware/agx/armfw_g13g.im4p/agx_a000`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x3f7a4 sha256:03629c2fab58aad96d8161236c3ba804bc513d75fd08d3f63b36699fa90f8ed3
++  __TEXT.__text: 0x3f7a4 sha256:e2e234dee935696289ac01953ac8f2359e675954f4e9c60106134c98f2c09ef3
+   __TEXT.__gxf_code: 0x1118 sha256:5e44d00aeb1efa6b5d7ac97b12f889b8823bd55db3b057ee4660933f49be5af1
+   __TEXT.__gxf_code_pad: 0x0
+   __TEXT.__gxf_shr_code: 0x558 sha256:a853794178c1a534e6d8ec031c64565eb26c5943ff541f1ed8f296809ffbc336
+-  __TEXT.__const: 0x1d98 sha256:f3f3963453d99f30ce86dd4dbfc0f18b077eb0840320f14dd3f1b65097a7cdfb
+-  __TEXT.__cstring: 0x1bf8 sha256:086f4a476b209049213dac7dc16ae610ffc5db0f09f76879978a9493c957177f
++  __TEXT.__const: 0x1d98 sha256:d201925b856133bf1fe506de41811ed5761b8bf755e31fd4d6008a109552c232
++  __TEXT.__cstring: 0x1bf8 sha256:5763509e2f65178ea3c7f55980f9735a363891f1a0d82f3c138bac67dead87e2
+   __TEXT._rtk_patchbay: 0x231 sha256:68c06ca140bf55dc3a28529e8be9b8fe6e5c0ad819a7b460603854ab7f3d6506
+   __TEXT._rtk_tunables: 0x1e8 sha256:ddade0037eec2bfe870a7e2ca0ef8c73274c435ca6a918ab8140b2d7b5eb36cc
+   __TEXT.__init_offsets: 0x0
+
+   __DATA._rtk_threads: 0x0
+   __DATA.__constructor: 0x0
+   __DATA.__zerofill: 0x52938 sha256:b0a862c9f970b24864a47042c0edd290eb4f5146106d958118f266441c4cec92
+-  UUID: E7586274-D0CC-307D-B90C-4719740E011A
++  UUID: 008BE366-B624-3399-A886-E9F47134D2ED
+   Functions: 419
+   Symbols:   192
+   CStrings:  200
+CStrings:
++ "Jun  9 2026 22:45:56"
+- "May 15 2026 00:58:50"
+
+```

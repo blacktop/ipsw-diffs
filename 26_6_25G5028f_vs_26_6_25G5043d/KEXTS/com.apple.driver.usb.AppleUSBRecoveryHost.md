@@ -1,0 +1,32 @@
+## com.apple.driver.usb.AppleUSBRecoveryHost
+
+> `com.apple.driver.usb.AppleUSBRecoveryHost`
+
+```diff
+
+   __TEXT.__const: 0x18 sha256:743dffb0ade4a0c719f48a4af50bda6c236e9acd075869892ff99baf915690fb
+   __TEXT.__cstring: 0xdb8 sha256:08d2eaf062a9b440629c079171466f199819d6552008e7d878e791bb05cdbb56
+   __TEXT.__os_log: 0x7da sha256:5b4effcb9abf96c3a186c09d36e2661343b9a0867c6d1c18db430dd092dcc595
+-  __TEXT_EXEC.__text: 0xa94c sha256:6a10c9b42e7d38189b489c417d82857ed6fb8824ccb03a57d7f2ce61ff840b5f
++  __TEXT_EXEC.__text: 0xa94c sha256:24837717d5a9341d32c0ef95a7feb95c6f83815dad86667ce805585744e5a504
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:21a9df1a28a454f32658ad811d087e76df57508a18c62dce0dcbec09884a6354
++  __DATA.__data: 0xc8 sha256:3db4328565a59da8d1c73dafaf9dc6431f30771e45f07e26f57d03abca085fa9
+   __DATA.__common: 0x1a0 sha256:4cc7e6272db6b1ad7581f76c63c694e926e20698e9b02223d5041a55960463f2
+-  __DATA_CONST.__auth_got: 0x1b8 sha256:9977ff9fdf98957dad780145f046c71ce2d3e7d32afd20a9ba23df19b6b5a92e
+-  __DATA_CONST.__got: 0x98 sha256:2a239dd907af833e807385d13f31c7e091ba74247f0cdb4ebe16183c6da55b6c
+-  __DATA_CONST.__mod_init_func: 0x30 sha256:a178eeaa37cfcaf0e7d53713ec95550e6fa1a5e2b9f4b13926c2c2646e3ae685
+-  __DATA_CONST.__mod_term_func: 0x30 sha256:0d324b0eabc8d3f35327a32a666606abf983e5d2792742a1462f97cf3af4ed7e
+-  __DATA_CONST.__const: 0x4220 sha256:240d0d6d6265a8558b7f1ed2ca17c7f27943db2671a157904a625049d53a65c9
+-  __DATA_CONST.__kalloc_type: 0x3c0 sha256:cbaafc75534c3935e6f736da4b25ecc1e328c03b548e40f9efc3a1c9ee733de3
++  __DATA_CONST.__auth_got: 0x1b8 sha256:d5125dee0c291cbd939888bfbb7c5af05fb9fb6fb3fe88f73888ca70a0f38ef6
++  __DATA_CONST.__got: 0x98 sha256:54f71208807174b8e28356cc59a7ea86a4165b667ab0bdbdb08dd87720e123f3
++  __DATA_CONST.__mod_init_func: 0x30 sha256:9b3e47ccef6244099fb83542fe7e4e5a6fb7701e9912e3edc40c964527825a3d
++  __DATA_CONST.__mod_term_func: 0x30 sha256:2e592b5970b58ff02a285ef0046a9e256d7883136f0612211740d4bfd1910114
++  __DATA_CONST.__const: 0x4220 sha256:6fe832218228bee4324288c99a6076a0717cffddbde90e13b4638f3fd25369ba
++  __DATA_CONST.__kalloc_type: 0x3c0 sha256:4a9381bc1062ef45a038a1919ca43da7ebd8aa8a159d04f4c53b8fd8814c22d2
+   UUID: 3A551CB1-8E4A-31A5-9F3D-2D3DB817680E
+   Functions: 283
+   Symbols:   1169
+
+```

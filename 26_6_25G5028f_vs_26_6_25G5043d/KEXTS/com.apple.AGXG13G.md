@@ -1,0 +1,39 @@
+## com.apple.AGXG13G
+
+> `com.apple.AGXG13G`
+
+```diff
+
+-351.2.0.0.0
++353.10.0.0.0
+   __TEXT.__const: 0x26fc sha256:9da5d8cb1ae62c8e33bb07a4218ae992ad5cc35ec50a7c05348239f01e29eb57
+   __TEXT.__os_log: 0x1251 sha256:0efebff694efebd70ed79eed83bb6b6fed814a6980f2db518c21d3a11bd24b8b
+-  __TEXT.__cstring: 0x101a5 sha256:76cfb95fd0da92a4a1bda01b0ac7b0307a94ac194f19fcb0d93d053e22db4157
+-  __TEXT_EXEC.__text: 0xbaa30 sha256:6a75963c6f9559ed34b7e46aa81d37d081d20d9c0909cbacd1d53fbfe4bf1cd5
++  __TEXT.__cstring: 0x101a5 sha256:4634c54ce0a0327dce0a01692e88476dd494e77bda060f1faf2928c2bcddf690
++  __TEXT_EXEC.__text: 0xbaa30 sha256:a126d39f31f2e28472d0bcb1c10fabaf918076f6401fc115d493b0e3ec964dd9
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x1f90 sha256:1f98e882ddc5ea5d9985a24b38b3aefe84326a4ac910f50c557efa11cd9b01bf
++  __DATA.__data: 0x1f90 sha256:f2894f13ac9b040bc1c23d23ea90dc409b8cf1bfa3c2b59b9951d8c1743950aa
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__bss: 0x44e0 sha256:95a391130839aebfa9d9a406c13124bf0eb79106e52600f711e7f2512f33ba56
+-  __DATA_CONST.__auth_got: 0xd10 sha256:ee9694ae27c5b83b0700a64b0f698e292dc3f60514568ae948ed6f79ce6f7e47
+-  __DATA_CONST.__got: 0x258 sha256:9c701391c78301b199d1f3a565105e5c4aebe0664af913dbdec6ef664fe356db
++  __DATA_CONST.__auth_got: 0xd10 sha256:4435b603e60b9564479f9dfbb974bcda95a2c25d9e85b3978aaff6d53bdc95a6
++  __DATA_CONST.__got: 0x258 sha256:c263917b6b5f1c4235c95e2531e004bee9c5249cb2e52678eb5d1fcd0a339f95
+   __DATA_CONST.__mod_init_func: 0x318 sha256:7a20d7e6497fe2741cd1376bd110fd6990b35256cf1f220a6ad881e0b2256a61
+   __DATA_CONST.__mod_term_func: 0x268 sha256:1b090fe4a9a9cb176eb77d05b7d77a6859e3b58f3574861e109688e4023d59ee
+-  __DATA_CONST.__const: 0x14ba0 sha256:bee1ac525dadb78b0ca597e4e66596d2b9e12f87da24f6d3e38e946a7a5db4f2
++  __DATA_CONST.__const: 0x14ba0 sha256:9b8df756b3b8ebe64cc8fd643af49a7646cd4a6669488adc55a1119b0c52d7d1
+   __DATA_CONST.__kalloc_type: 0x21c0 sha256:2b9b5d9ec6d6411ee6c2539d5d3c457877b340b73dd4469216f8e0ac808a1246
+   __DATA_CONST.__kalloc_var: 0x3ed0 sha256:90032cf7fcc7ad38f4118542afe4ffbf56b52b95011e9fc349ac4bf6c2808089
+-  UUID: D3659285-336E-35C3-891E-BEC941B785CA
++  UUID: 769E7965-9255-3927-85A1-A1D4C020BBDE
+   Functions: 2759
+   Symbols:   5636
+   CStrings:  1879
+CStrings:
++ "Jun  9 2026 22:54:09"
+- "May 15 2026 20:27:15"
+
+```

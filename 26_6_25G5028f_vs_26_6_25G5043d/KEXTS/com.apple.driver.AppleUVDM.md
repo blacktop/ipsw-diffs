@@ -1,0 +1,31 @@
+## com.apple.driver.AppleUVDM
+
+> `com.apple.driver.AppleUVDM`
+
+```diff
+
+ 24.0.0.0.0
+   __TEXT.__cstring: 0x452 sha256:1a0d285298f688d663acbed776dbc29c781182ac2d9419beca44f5400920a6ec
+-  __TEXT_EXEC.__text: 0x1fa4 sha256:3377100fc4a4cbfa741bfa903e63a0aff8b01e5abb2c194ec5dce2098aa5c109
++  __TEXT_EXEC.__text: 0x1fa4 sha256:bca13179f3e02924271a33747d53c5ed35c26b6c7c12460fa4cde651e3ec2c90
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:623085f2dc66d46dd7c0ad7459b395806e671cc9af3d58e15b4e4b68f9353780
++  __DATA.__data: 0xc8 sha256:c773c2775514de614f8600a86f74a5c467402de9e3cefcc92d1264c7958206e7
+   __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_CONST.__auth_got: 0x98 sha256:9a01bfb8d82221d1e7e6bbffdebe5472b48c1e1e70cd5ad6dfa043e7cdb7aa53
+-  __DATA_CONST.__got: 0x28 sha256:a8d9402dd30892ffc12848455943d1d563af1ad6dcd3e79d3014c426b01e44c6
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:72f8ade79c8be51acea8aa38cf9dafd04f4632fdad852a396d78a4fef18fb394
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:b5461147de04891a57420e976e1e9abcb68685b0b145d2150b9a087fc411b4da
+-  __DATA_CONST.__const: 0x1628 sha256:caa3b847bf5ea52ba225756cbf918fd7eae0522d65f29eaacba2c548ddd41a3d
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:31052d75e4377c92b3bec977ca74f67849c91a939358851c5c4abb1769d07371
++  __DATA_CONST.__auth_got: 0x98 sha256:92bfeab14397c149e41c2c775b2422ce2b3e072682d4b09642932cf2578ecf96
++  __DATA_CONST.__got: 0x28 sha256:cfb78c1f757cec8c1381873057afc2fc0e204e843774e458b6ff1151d34b00f4
++  __DATA_CONST.__mod_init_func: 0x10 sha256:594ca6aae13231560695b254a8765aa14e87c0b4d029735dc1a6edeebe4220a9
++  __DATA_CONST.__mod_term_func: 0x10 sha256:e995e766c9cf4b50816a87088248152583226382901d4e19e055b8360fdea19b
++  __DATA_CONST.__const: 0x1628 sha256:d82e627de8b5cdbad2fd2f2847ba095b4cc90601d1d28d5a1816b23fb6a118e2
++  __DATA_CONST.__kalloc_type: 0x80 sha256:013126902073d0879392d5b58bb12e3c0e1f53f434f291e929c71ebc7c292a25
+   UUID: 5AA51EF9-0D1F-31CC-B1A8-0A6D1D406B6D
+   Functions: 67
+   Symbols:   432
+
+```

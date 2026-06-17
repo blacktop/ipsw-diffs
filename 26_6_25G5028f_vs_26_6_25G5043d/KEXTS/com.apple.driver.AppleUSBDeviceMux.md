@@ -1,0 +1,41 @@
+## com.apple.driver.AppleUSBDeviceMux
+
+> `com.apple.driver.AppleUSBDeviceMux`
+
+```diff
+
+ 560.100.4.0.0
+   __TEXT.__const: 0x34 sha256:c064182920c2c47f2d007e32363ef1775ed1b4f7eccfebc7bf10a2aa35ad47a4
+-  __TEXT.__cstring: 0x1322 sha256:d72ef14c98e64ba937fe88937bb37099c38a45aa103750dcbfa536d2f7c7852b
+-  __TEXT_EXEC.__text: 0x59ac sha256:a1ef4017271089b5b55ed023fbceeaf3cfc867471f3edddbffb68d32620acae4
++  __TEXT.__cstring: 0x1322 sha256:5b9807e4058be3d6584fcea1c98c45e65efe751d910e6ae23dfdc15f90dc8810
++  __TEXT_EXEC.__text: 0x59ac sha256:08de565d1930ba1919ea5baff49bd96f9c5510969c0109fadafcce98a82a4c79
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:ff33ddc835966b3b0f6401833873bc979fb9c45bef964a3cf0b370cdfbe123df
++  __DATA.__data: 0xc8 sha256:d31e42cc66692c490fa3494780577ff44b7a9d99bde3668bf6b5175f08979e31
+   __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA_CONST.__auth_got: 0x260 sha256:aa9766dc56160a70660e716f393b2a69c93ec4fc26a4bc9103ccc19302f5886e
+-  __DATA_CONST.__got: 0x50 sha256:9a7f9dea9c9947b9c34e013d95b254fbb88958f28a93824664071f8f7c004762
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:5d45ce5edd521fa392c52d7a9b1de24cce4e72433bbcdddc95f08fa9242e9310
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:ca79adedaa223f1ef4ccefc8603e5ca241b6313e80677b01d5b976c56506d048
+-  __DATA_CONST.__const: 0xcc0 sha256:d5439a9fa73f1eb2535231f452c3c318313f9f429de09548afc632a348a93268
+-  __DATA_CONST.__kalloc_type: 0x440 sha256:30932114dbda8c0ff47b6dd9d53b5af96609302e41d0ca3958b1014ab5da0535
+-  UUID: D208BA41-DD3A-360C-96F9-F63D00E2282D
++  __DATA_CONST.__auth_got: 0x260 sha256:56cd2251d43d8064b9124741dfa8d97468749782788c544ff913e06dba510916
++  __DATA_CONST.__got: 0x50 sha256:d86b5e75096bae7930432b20bfd60b9646707e11091edfdae5d7b1c77badbdfa
++  __DATA_CONST.__mod_init_func: 0x10 sha256:ae9b213c2cd5f51614740ce350d34b779f458d682ea2f04b2852f2de6eefbf3b
++  __DATA_CONST.__mod_term_func: 0x10 sha256:b53094a7da58eb0beb05c12de0f2bb81884844a32b441ab92dd2497872750ac2
++  __DATA_CONST.__const: 0xcc0 sha256:e6ffe71eee4cbdced9b347c0948ea5848d8f2658649b994062a086d8a41e416e
++  __DATA_CONST.__kalloc_type: 0x440 sha256:2c33ccd945686b6b05bb47a34035161e165edb1c49bd8655136573df0b8ac661
++  UUID: 86019BA8-A699-310D-A010-8B4773458F34
+   Functions: 98
+   Symbols:   522
+   CStrings:  144
+CStrings:
++ "22:52:51"
++ "Jun  9 2026"
+- "20:25:32"
+- "May 15 2026"
+
+```

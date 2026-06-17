@@ -1,0 +1,31 @@
+## com.apple.security.SecureRemotePassword
+
+> `com.apple.security.SecureRemotePassword`
+
+```diff
+
+ 37.0.0.0.0
+   __TEXT.__cstring: 0x296 sha256:f8ddd0a8f685193bb80efccc5c0fa8150c80235b0de5ddb5bc439f428c9938f4
+   __TEXT.__const: 0x2150 sha256:0e61f189317014614608f861686d75f88353bba8ad52f01f0fb89a2c904e06bd
+-  __TEXT_EXEC.__text: 0xa4cc sha256:b3280b1a9a6f9d72f07b54d10957c6dea7b5ad3f0755438a9f3fcbc0238a0346
++  __TEXT_EXEC.__text: 0xa4cc sha256:e2c3b3529f467a06995d9e300439904177de3b0867b35e3c646859d228233068
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x26d sha256:5e0596e9d7c6045e93bd022787cceb52b981c552da3db8763da50159c85d51bb
++  __DATA.__data: 0x26d sha256:51e254053890997b5c52f608e536a1882713547263c9942ee34bf4165a655ca5
+   __DATA.__bss: 0x248 sha256:62ec1707572ac5078d31a687a5d23de0c6d2a58d3462efb7039957548a7986cc
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__auth_got: 0xa8 sha256:e83dfe3cab43a533d1e479dabbe0c395af7c8d7af4905af8b582ac77de4ca368
+-  __DATA_CONST.__got: 0x10 sha256:9d99fbdd6e67252c0091b2babeaa1b2e7264a1eee194aaa2a6de009571b50275
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:23279419da11269b5050b35dee937e2ee1a1cae3d87ecb92546714410afa9165
+-  __DATA_CONST.__kalloc_type: 0x840 sha256:42bff15fc4fc75077252b8e08bdcf9e2b471e8fabc6e980bb2c93a4990ba6533
+-  __DATA_CONST.__kalloc_var: 0x3c0 sha256:51277cf06b2adcd63f85d858e912a68313b7c8d87f525e3a0156cb75a1fef9dc
++  __DATA_CONST.__auth_got: 0xa8 sha256:9d64b547e2fab54ce7098e659d09f2d895f00238596625187e827e628127da42
++  __DATA_CONST.__got: 0x10 sha256:cc76f32421109bab412ea0a7048f2e9502a2e9cbbeb0df49680c0362773d246f
++  __DATA_CONST.__auth_ptr: 0x8 sha256:7989bc68c6762b3b3cce20809107b379ef69f51d1f0163dec2ac49b5ab77e3a0
++  __DATA_CONST.__kalloc_type: 0x840 sha256:bb645bc8171d50c485bf4ca3b2490d015760a9d4a34f822a692d759f74d06fac
++  __DATA_CONST.__kalloc_var: 0x3c0 sha256:e348dde83cdbc512ff48855bb036fdf4122dd2e20b6b2ac883d2d987c0e6cbb7
+   UUID: 1552A568-9936-3BCE-9131-EF5BEE2715C6
+   Functions: 245
+   Symbols:   347
+
+```

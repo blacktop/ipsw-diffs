@@ -1,0 +1,30 @@
+## com.apple.driver.AppleEmbeddedLightSensor
+
+> `com.apple.driver.AppleEmbeddedLightSensor`
+
+```diff
+
+   __TEXT.__cstring: 0x288f sha256:18780a8ea6398bb4f01795f79b9f67b9e012022c2d6372da626a5bdaf75998a9
+   __TEXT.__const: 0xd0 sha256:de4b14892cdd87205a09876f9d23d59af0327e43dd92d57011df1b45aa443135
+   __TEXT.__os_log: 0x2c sha256:61e5c375d9cb3c0633dc96daf478f4b61be51f6819e6bc578562f5a37d6b1868
+-  __TEXT_EXEC.__text: 0xc898 sha256:5928214ae654d4c9fd0ca57b22913fee17e3a3f7f6c3868c16ab140f19d9784b
++  __TEXT_EXEC.__text: 0xc898 sha256:7809a916fc68c0354bc41633d6a496419df772f6976a7eb2b24922fb5daeaec8
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x248 sha256:452492e199b39cf9c90e360dc05bf29534f5fd9c532288a75b29da33b3a73db8
++  __DATA.__data: 0x248 sha256:ed2b1d1f7aa42ad31a5ea1e0e4b90567f57f365d5fecad2a2703e1cb8eb746ab
+   __DATA.__common: 0x108 sha256:44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72
+-  __DATA_CONST.__auth_got: 0x168 sha256:4b2c713aa516c97276a03ef623d5158cf4b8411ffd2ffda416245e9a75c33aa9
+-  __DATA_CONST.__got: 0x90 sha256:742ed9e9086b26895e0c73e05b3315e01f5216af74d4b8df2a4c6c4c7c5c3990
+-  __DATA_CONST.__mod_init_func: 0x30 sha256:03d86de01a04c7a765123455f67419b6f74cbd3c8b9938beef994696a2c92cd5
+-  __DATA_CONST.__mod_term_func: 0x30 sha256:db74e527f77949b91bab24b701eb89ed6d37760516f0e33a21d19fa5e2623fe9
+-  __DATA_CONST.__const: 0x4830 sha256:74883ddafb6d59abf81062ca7adf629ce2f4daf46949d78087e6d53e005a4e8f
++  __DATA_CONST.__auth_got: 0x168 sha256:5a20c5985c199b49c208a24e43164bbd9ca2b60f8d1c495c7c044d3c0097e179
++  __DATA_CONST.__got: 0x90 sha256:b88762618fca748d86d4aaef89faf09478df02c2a7fe666208341e1eda82f76c
++  __DATA_CONST.__mod_init_func: 0x30 sha256:eacf1181193843b3d843be57ddaa984cd453ba0e4c31b2a188a0110887f72588
++  __DATA_CONST.__mod_term_func: 0x30 sha256:17164d0ad44b03ec58d8b20cfa31e922e6d7389ffb80248e40e76cb46f9bff12
++  __DATA_CONST.__const: 0x4830 sha256:5a5910da0dab9592607a7099053f7f91243590cc10960da9c55bc363524a6c71
+   __DATA_CONST.__kalloc_type: 0x180 sha256:71e67de7fe5db43e2a10c18211fcd8acec8d867d714327cd693dcc9e6e8ea9e0
+   UUID: 95613489-069D-37E4-8456-AC4ECC8842F6
+   Functions: 229
+
+```

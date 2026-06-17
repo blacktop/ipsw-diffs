@@ -1,0 +1,73 @@
+## com.apple.driver.ApplePMGR
+
+> `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1774.160.1.0.0
+-  __TEXT.__cstring: 0xf5ab sha256:c3488615af6689c7d5dff2e7405748aa73e2348bd746966a854cc0cb04cd884c
++1774.160.2.0.0
++  __TEXT.__cstring: 0xf630 sha256:d7aaaaea2614a909ffc3788efbd033222f40c4c0f3277a68087c42fdfeedb4bb
+   __TEXT.__const: 0x280 sha256:1946429e043970722461c41d86f157055f06e04e2f0cf154bcc49283f6fdbc8e
+-  __TEXT_EXEC.__text: 0x60768 sha256:c3f06dabec56654a836aefaf2951cbdb16d8aa8391fcb727b2a137570f37ce4f
++  __TEXT_EXEC.__text: 0x608d4 sha256:915578e34f52f8fccf1bef4cd4cd5f9abdd08fac1a6edb3de191e239000647f6
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x138 sha256:1de162350f5449a676979653eee7fb083cad463fa1b0147165c064ab4be3d7fb
++  __DATA.__data: 0x138 sha256:f6a55a1d940c7b8836113dab1f8356a35023328d98a5f558789ff278be772bc0
+   __DATA.__common: 0x5e0 sha256:f7f8603928890fb13d022d828c8a602cf7a7619ab24de82c7de4ae86ec337e6a
+   __DATA.__bss: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __DATA_CONST.__auth_got: 0x3e8 sha256:24434ffd06edecc9edffd2ab4728ef84ff90025b37bd61f9c792a9d20b88c61f
+-  __DATA_CONST.__got: 0xf8 sha256:9a894eca4b14fef7fc3db46bd6524ede77a1cf6bb65bc03397e6128cd9b50948
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:bed1ba040dc861f92b5791e00fd50fb585ef9cf5016444b0725e046a1f70d7be
+-  __DATA_CONST.__mod_init_func: 0x40 sha256:847d08bc57d7f2cd72655e0366646ba3c6f0a684746fbd7ad4bafc63cba3414b
+-  __DATA_CONST.__mod_term_func: 0x40 sha256:e436603bd9ce085cb2dbc00acd04321afd85ab4fd848aaf801cd67a3d6dc6f07
+-  __DATA_CONST.__const: 0xf898 sha256:ebe66da26549c8df1a292dcb480def6ea5fc2bc11cb96affddc0ceec8a55824a
+-  __DATA_CONST.__kalloc_type: 0x9c0 sha256:be1a97a0f7ea3541904f0cd1c124769d89a9ca2e63c239e3b4f27bff011a0b38
+-  __DATA_CONST.__kalloc_var: 0xfa0 sha256:237c1b9f00ba7ebbdbf82da37598bb492a361a554ce44a5d8f3c8ec0d1a5a0e8
+-  UUID: DD101B60-ADF6-387B-99BB-98793378D68D
++  __DATA_CONST.__auth_got: 0x3e8 sha256:ec3b7a0fb7f9bd3c120d716c61e743127e5915e1557d81bc8bdc10047b5f0a26
++  __DATA_CONST.__got: 0xf8 sha256:58bab06a82fc288dfc78d5c5a349ba90c3d17e900d7d47a854d244d9e8cddf78
++  __DATA_CONST.__auth_ptr: 0x8 sha256:984db3fb2a862e3d74c7d94be30246a4ba72673b9f4ec0d282375b5d9b73c940
++  __DATA_CONST.__mod_init_func: 0x40 sha256:d88570780a3b759169ac464cef1ee6087d0c2f3e395c30a3a398ef1e01bfb213
++  __DATA_CONST.__mod_term_func: 0x40 sha256:002abec31531a7c523fb62c13aef68dd49383f348867fd0855d0bb67a5907fd2
++  __DATA_CONST.__const: 0xf8b0 sha256:aeff4f058f2ce654378d61908df454593ef6a8fa0ece1d97efc5ff0aaf5e5685
++  __DATA_CONST.__kalloc_type: 0x9c0 sha256:a0ad768ccf27bab4e06e5639d34a56448f3c0d08f7c43438af7bc1a3646269c8
++  __DATA_CONST.__kalloc_var: 0xfa0 sha256:18bd35b1128265f295357c2fb4942ea26bf4856482137c06fc92910e3e21ebd2
++  UUID: B05CAEBE-CFE8-3E06-9A9D-B1598ABC9999
+   Functions: 2804
+   Symbols:   3616
+-  CStrings:  1751
++  CStrings:  1753
+ 
+Symbols:
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10002
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10075
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10084
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10088
++ __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9956
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16709
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16737
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16780
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16844
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17485
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17502
++ __ZZN9ApplePMGR24_initFreeRunningCountersEP9IOServiceE22kalloc_type_view_17693
++ __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10446
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9963
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10036
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10045
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10049
+- __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9917
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16670
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16698
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16741
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16805
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17446
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17463
+- __ZZN9ApplePMGR24_initFreeRunningCountersEP9IOServiceE22kalloc_type_view_17654
+- __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10407
+CStrings:
++ "\"ApplePMGR: %s:%u \" \"Die %u, Deadline: 0x%llx, AbsTime: 0x%llx PMP Failed to Come Online within %llu ticks\" @%s:%d"
++ "timeout-panic-pmp"
+
+```

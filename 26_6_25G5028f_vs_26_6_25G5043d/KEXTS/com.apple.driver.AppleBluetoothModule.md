@@ -1,0 +1,30 @@
+## com.apple.driver.AppleBluetoothModule
+
+> `com.apple.driver.AppleBluetoothModule`
+
+```diff
+
+ 74.0.0.0.0
+   __TEXT.__const: 0x20 sha256:fa26c2b653e71c2a7170bab62323250027c98d3d9c4b332bd99dd8ccf489e719
+   __TEXT.__cstring: 0x25d5 sha256:65b1addb53e8078deb3197d5a87dd8c0df7f2469e0c829b90c7d30ce368e83bb
+-  __TEXT_EXEC.__text: 0x7a14 sha256:1e97f84bb6057ae95f2da6bca64daaecb05d815b2e90db4fe3c5fc3deb4ea154
++  __TEXT_EXEC.__text: 0x7a14 sha256:f3c594407fa279ec7b0fe455407fc9e6d82f0b4c64186b7a1972890e2bb5e0a6
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x188 sha256:b95a633fbdb38c157507654412ca5961404beff6cd2188816d7ec66d49c84e46
++  __DATA.__data: 0x188 sha256:bab1b0729b927f2169003a4fa79244d94b8fd6c318b96576e19df6c1f208b859
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_CONST.__auth_got: 0x1c8 sha256:8d0d59a4568536c3d24b6a57d4ece7412f2d8564939469c44159e9f1488a0a9c
+-  __DATA_CONST.__got: 0x80 sha256:149411c76be2847f04d58a70b4ad4fa34fbe6de16ed487dff041bc1a5b4e2fac
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:51f50cd5c05d10517137b15e8e4bd6b7fd2393cb2cbf23810758c31618b8f088
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:87039cdfb552e3c28b26389e29c02ad8c54e3308f58c6d99723e5bdbf97c406d
+-  __DATA_CONST.__const: 0x15c0 sha256:f8772d801c33e087693e54c34118df0a95ac4d81ea37e73770e5d31b6303260f
++  __DATA_CONST.__auth_got: 0x1c8 sha256:a01cbd2c46464744fc9614c386b6276aa149c32e198ac68414b9b23bce88c458
++  __DATA_CONST.__got: 0x80 sha256:e00527f54a48e8ba60d66cbd41617d496bb221d62e39567da70be48a853b355e
++  __DATA_CONST.__mod_init_func: 0x10 sha256:80a150127f57bcd2015e607a02e0b513dd9cdd2707b568509ef43a6c068310c8
++  __DATA_CONST.__mod_term_func: 0x10 sha256:9d7e4634157bb1b8fab0e54cb50d3fdec6ae1720a1bc307ec399702ece374c53
++  __DATA_CONST.__const: 0x15c0 sha256:73f97f7cedd7317d4f4b0fb085b6753fa0ee41a90bdabdb2b79800740a2b1f3a
+   __DATA_CONST.__kalloc_type: 0x180 sha256:4544f8f6e6fc386bb1e03edafb21ba53cb2e74cf81e079f1a8241c265ae9e5a8
+   UUID: 98BAAC1B-7D5C-3E9C-97EB-8E25DC70B494
+   Functions: 146
+
+```

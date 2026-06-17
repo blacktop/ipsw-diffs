@@ -1,0 +1,25 @@
+## com.apple.filesystems.webdav
+
+> `com.apple.filesystems.webdav`
+
+```diff
+
+ 403.100.1.0.0
+   __TEXT.__cstring: 0x828 sha256:0a9a3afce729fc3f753b56c6087330e8a978308ab7d4e7e1959263e5f93db894
+   __TEXT.__const: 0xd0 sha256:6a7a7af7e628978b0ad7fbd4dab3d8992c1b45faaaf96dc35e53a129ec8a2546
+-  __TEXT_EXEC.__text: 0x5b64 sha256:1509fba3a18e2dd9926d201942210bd8a99d24682b866836bb5fcc6879a1552b
++  __TEXT_EXEC.__text: 0x5b64 sha256:6afd84ef13be13917a5cb01b9e523977d4f955d29463cb081e19fa4dbb55cc94
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x340 sha256:1ad68283aee0e167a1e8c408ac232517c9fb6922c1c0c9ca9003e0f7f2c6b0ae
++  __DATA.__data: 0x340 sha256:9ebfd16b897df7e890b253a05c8c0b7460a0eb4fdbe8d1884314d4973cd6e972
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA.__bss: 0x818 sha256:6145fc6f0263e92523c0a8ff26a1d01852c934c7511ef7c0ff6c5d4afa8d1ec5
+-  __DATA_CONST.__auth_got: 0x368 sha256:cee9ac3bb00b2e680a40a8b4680009ae2458059778927c518b0b127715f91176
+-  __DATA_CONST.__got: 0x30 sha256:6a32ef84f334d07b18bf36462b369cb05f46dab350702baea5351d3e60782c8e
++  __DATA_CONST.__auth_got: 0x368 sha256:161a439bc60e79e34a1cdaeb5fa4247c0f4ac29c5d586135a5c87919ed5b3a5b
++  __DATA_CONST.__got: 0x30 sha256:49522571260c4c710889cb82a79a039e21fd3ef0acd32387892c9d4db34bbd41
+   UUID: 3E4A6C95-0915-34BA-939A-053F5ABF500E
+   Functions: 65
+   Symbols:   224
+
+```

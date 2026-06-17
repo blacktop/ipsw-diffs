@@ -1,0 +1,33 @@
+## com.apple.driver.AppleUSBLightningAdapter
+
+> `com.apple.driver.AppleUSBLightningAdapter`
+
+```diff
+
+   __TEXT.__const: 0x8 sha256:3e990d45c83fa01d9bf0c64b79ed7678df3c723614f0f7eccdc3d196fa3073e9
+   __TEXT.__cstring: 0x1316 sha256:4a48ccc355f114675e55755474785e9fcc1de2f91abb03695509cae2524aa790
+   __TEXT.__os_log: 0xdbe sha256:65d8da237ccc30b8e71afe2cab186e33007a54b5e2f06ce9e325127e54d72676
+-  __TEXT_EXEC.__text: 0x609c sha256:55e0b6d47e476a5438228f5447d64a76e1909ab8e048ce1fb1dcae8c718ad852
++  __TEXT_EXEC.__text: 0x609c sha256:649bedecab9593b3a4aa34c12847a9cb9db196d8bac0faeb9177b099e022921a
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc4 sha256:f8705aa451f564a518419fd860d078755c8ea80b466113822b40b18f8f4f5a4e
++  __DATA.__data: 0xc4 sha256:d8b393e3ab8928347b9f429f44fe4fe15d0e220d00c711f52af879d671332046
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   __DATA.__bss: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+-  __DATA_CONST.__auth_got: 0x1a8 sha256:d0bab26cf7ecb0afb6d8064f53abca494f69c05ef8b95547e1b0cf71620b4a17
+-  __DATA_CONST.__got: 0xa8 sha256:11c8bf326ec0bf5a8d0a968007920976cbc1d23373660913b08080410b6b1031
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:f2bf11db93dfa2232964e028b293bff1c7444a82799241e1eed69c3daa18aed4
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:942b4a60d353383801ba49253399af193b3bdc5627fcdf3bbaf3306ac075fd31
+-  __DATA_CONST.__const: 0x1618 sha256:7aa179bcb5afb90bde96cadefdfeb0e2ffd3f16a39ac23c5147a5d900f153f2e
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:61bef8cf85b27640728a241fef169af30cb5d299d09397b4e1efc624dabbe51b
++  __DATA_CONST.__auth_got: 0x1a8 sha256:2c8900ee84bca9867553c8aef77490d53a4177feb2374320811f3b87630f7dba
++  __DATA_CONST.__got: 0xa8 sha256:2699089aebf40791e609b00e5301b33b50d4c5c0147a7e44e94216931bfe69ca
++  __DATA_CONST.__mod_init_func: 0x10 sha256:477866831ac5ef04a986317ce8be36c3803832a764eb15693c1e5e537abcd303
++  __DATA_CONST.__mod_term_func: 0x10 sha256:b59b7e3c3d6f321787fa707898ff1f65fa7d10152fd8a57fbc7fe75688716e20
++  __DATA_CONST.__const: 0x1618 sha256:83a50bd1a681e31a958d9fc94e1062ac60384592bb5bc0d4581f1d8a71368ffa
++  __DATA_CONST.__kalloc_type: 0x80 sha256:23c7af629c0de8a60f188397ff297cdce73ce82142c733a7fa47c8396a649573
+   UUID: CB27B4FE-F3D9-3559-BB03-D57282CE9D99
+   Functions: 107
+   Symbols:   493
+
+```

@@ -1,0 +1,31 @@
+## com.apple.iokit.IOSCSIReducedBlockCommandsDevice
+
+> `com.apple.iokit.IOSCSIReducedBlockCommandsDevice`
+
+```diff
+
+ 545.100.10.0.0
+   __TEXT.__cstring: 0x492 sha256:36a3b7f4c8fb8f0c3f02c9b0f64d7c758c49f8dd329d51cf2e9b843643fd1994
+-  __TEXT_EXEC.__text: 0x5a30 sha256:734d0bc5ed1a75dbd0019abb5e1a541b4c7747ef26d55f855bafd057be54d6f0
++  __TEXT_EXEC.__text: 0x5a30 sha256:cef2cc873ef10ebf14df8712da3b367bb114d29cd4cb8430e577f663cb90bf08
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x2a8 sha256:494a9816afbf57654356c3d70511847d512fc5e5cf6d072a6439945c0dde2ea4
++  __DATA.__data: 0x2a8 sha256:827b6409da4364a704d0275a6a5d7d0695312468613c2858844eba7aa619b07f
+   __DATA.__common: 0x8c sha256:24045c10c12a89f4c11e3b88ea34558fcdf926a8c1008cd08cc33bc71407c774
+-  __DATA_CONST.__auth_got: 0x210 sha256:23450d80b36df0a5fd874cab767dafde65394136a159d0d8f7ee978685cdabfe
+-  __DATA_CONST.__got: 0x58 sha256:e5f4312a0163095eedf368fae6f9aed793a87bd5866b1dc4cb88f113b8b2569c
+-  __DATA_CONST.__mod_init_func: 0x18 sha256:d12b8ea3805b0ba98e6cc208283d1537baa6e8c7650bc983b225c1c62b7f7fc8
+-  __DATA_CONST.__mod_term_func: 0x18 sha256:44b8977ddb82c36f6e4b4850c6065d6b9b05c51df5da4cce4c328db00cc7e04a
+-  __DATA_CONST.__const: 0x2900 sha256:a54f24af3ea5ae24e07220513f4169641715691706772b09b38896c5d495fae6
+-  __DATA_CONST.__kalloc_type: 0x2c0 sha256:b8597433787a6bb25c186e0bdd83079c5cfdee6513b765f3e5d58261950c5f6e
++  __DATA_CONST.__auth_got: 0x210 sha256:f59fa145d4856af4f696b648f7e3c1a087a10aa7a5d94824d1d32d3e32a291f8
++  __DATA_CONST.__got: 0x58 sha256:5f9cbeea14700bb01cc2a7e269508321e12daf4e8ad0e9708e64e91cbc3cf958
++  __DATA_CONST.__mod_init_func: 0x18 sha256:d89d3dd62fcbc4e3e04ed28f6e2a86fc276a4d943e15aa71691414b71c45012a
++  __DATA_CONST.__mod_term_func: 0x18 sha256:8c4f142608318ed0a014250eb86bd51fb21e0af6f8997597c873aac48b1c3d61
++  __DATA_CONST.__const: 0x2900 sha256:c2496bb1f54a15fc12f76041c0aa870fb34a365c4fa834764066a3b6a45ba493
++  __DATA_CONST.__kalloc_type: 0x2c0 sha256:a8cc8a753ab19b63a8632d85e82abdcf00f81e9488afe3c7ca9ab3cddb918c2d
+   __LINKINFO.__symbolsets: 0x3922 sha256:9054f85f41c9e757fca374662b59e9e3da80056bbb0fc8210c966b03fa4cf99b
+   UUID: 241723AE-00E8-39E7-902B-5528319EE6AE
+   Functions: 209
+
+```

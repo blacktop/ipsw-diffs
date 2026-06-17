@@ -1,0 +1,35 @@
+## com.apple.driver.AppleMobileApNonce
+
+> `com.apple.driver.AppleMobileApNonce`
+
+```diff
+
+ 51.0.0.0.0
+   __TEXT.__cstring: 0x1961 sha256:79d787b454d14f6304908d3b42228d34c0083f148376a74f0acfe5a137b30dde
+   __TEXT.__const: 0x12 sha256:07f1cbc67c89e33ff3284942704a4f6cda518e3f615526b992a2d432b2b95a3d
+-  __TEXT_EXEC.__text: 0x3d4c sha256:e1d30c40289032ef14a858ef7c06baed5d284c45fe8c199fb4ca976d4edb79d7
++  __TEXT_EXEC.__text: 0x3d4c sha256:7eb2763cbf2132ec6f465c725108a5ab97a3d844156093c614af698651bcaa72
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:b2bdcb38fb767d60d7b7cd54838931057b18e7e9931aa059afa141a64ff01ace
++  __DATA.__data: 0xc8 sha256:f6ab1555d014c35818e62ec8499d2d20c2999e903256630d0cb9d4620d883af3
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__auth_got: 0x1a8 sha256:98608f3b4a99f9329b1b34a5aa06326b80c61a765633d2c5fad140f195661a2f
+-  __DATA_CONST.__got: 0x50 sha256:1284dccc98de2d742b7d66183281e35f57017a5ca728b55d75b8465853331b39
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:42085228f07b3896911914367c2a130545fa49dd3bdabde24610519bf240a8c2
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:1833de1a6cb73aa72b855a5ea0f4cc994a505c5323d3bb749ebec0f2c2d1463d
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:8d1d7a4d2f3e04f4a0e91e32e4c3b0edb773636960dd4b043f00ff562bc0cbe1
+-  __DATA_CONST.__const: 0x1470 sha256:546caca4a3fa63ed8d77fc12732d3b459b2115305707ac0a052b210a6880a129
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:946df2493c448cebbad67c86346e8cea0252ddf737c8baf641d7588933ddcadc
++  __DATA_CONST.__auth_got: 0x1a8 sha256:a7239001f90ca267181887c0b602c8d7ad59d804b373bda93ee133fdd0bef03e
++  __DATA_CONST.__got: 0x50 sha256:be469592ed45277a7ea9dcdef09171e5cd521dbe2afde6c3c4910e4787c70a87
++  __DATA_CONST.__auth_ptr: 0x8 sha256:672bf62ea0cfe37eabeb36ec0057afcde10e04492c259d52f233af14870a9a0f
++  __DATA_CONST.__mod_init_func: 0x10 sha256:3dc3040f6fc001a185ecf264dd8d0866ce403f4368c9ab074e0fd05c04adbff3
++  __DATA_CONST.__mod_term_func: 0x10 sha256:179516956755e4322f678bf72348f5797ff3ee1ef7c4e190511b61c8694c10b6
++  __DATA_CONST.__const: 0x1470 sha256:ea520a59cf68bd047ef899e1ff6c1262f5a27e3f321d2aa15306813bb9187ec0
++  __DATA_CONST.__kalloc_type: 0x80 sha256:cb109a261a0b5f502a59bda6186e79470cec2c8b49cba2da98bc62b15496ff2b
+   UUID: 69D038C8-022C-3B2F-8758-03FEC1926606
+   Functions: 104
+   Symbols:   510
+
+```

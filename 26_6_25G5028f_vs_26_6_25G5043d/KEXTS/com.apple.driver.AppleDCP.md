@@ -1,0 +1,31 @@
+## com.apple.driver.AppleDCP
+
+> `com.apple.driver.AppleDCP`
+
+```diff
+
+ 1041.120.7.0.0
+   __TEXT.__cstring: 0x1c73 sha256:5db90bb968e42ab529ff9249afb8834a3a5fdf0ebb73c3358921838040c3db14
+   __TEXT.__const: 0x2d sha256:bbbd4ab263413d14b1ce9ee04e72f52bf294228a092ccdb90c76522e4472fe0d
+-  __TEXT_EXEC.__text: 0x8120 sha256:1dcfd4f6456372706f2e8516ddd205b24383befe47a13f377ace17a4702883fa
++  __TEXT_EXEC.__text: 0x8120 sha256:c9ba6b5050e9f0d2db787af02559862cba9cfae9935f20d1b4462cb3b96f3708
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:ce15e1888b8a55b000b5da05270e149213b15925f413953134874ebe9cb68ac7
++  __DATA.__data: 0xc8 sha256:e7d93df12fbbcd8f4a0a04e64f13b18492ece10dbb5c2dcd11628afad16b7e69
+   __DATA.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__auth_got: 0x1d8 sha256:d826912c077867444da28f6a599680c9af6b2f1cff419f7e9c8a970ce0fb613a
+-  __DATA_CONST.__got: 0xa8 sha256:02d1247817611aa43d3782c65650199a25385e09311ffbe21b6b7ed5ede2d451
+-  __DATA_CONST.__mod_init_func: 0x20 sha256:d8f68bb757879fed52252239e3ec8fea24a4b1ecec1d5b61e77846ba24a99ed9
+-  __DATA_CONST.__mod_term_func: 0x20 sha256:f2d71c145765f2eecdd27e4d7bcd29c3fe8540f94422114b9cab779ccc5073af
+-  __DATA_CONST.__const: 0x2148 sha256:e5e98fb37fad410839f37d839d69fd2bb7204e7aa6f6b3c77fe2122601026b7a
++  __DATA_CONST.__auth_got: 0x1d8 sha256:ebe47ee0ccb962ee5f3768f93d17041fd5d5435a65d78c9e493680687a30f12e
++  __DATA_CONST.__got: 0xa8 sha256:3c7151208417896548265d867ec8689daed62f7793a7461ea21705b8abd15665
++  __DATA_CONST.__mod_init_func: 0x20 sha256:fc373b4fceaa4deb55635185295565497e79fea880d8aaf89bfdb8aedf478db0
++  __DATA_CONST.__mod_term_func: 0x20 sha256:f996a89050c66a37fb582cb0a195208f2adcb8c0c3cbd5abfc6d590bccf099a9
++  __DATA_CONST.__const: 0x2148 sha256:a7eae3c7939200f6181fef6b3d848b0d4ae2d6cd2df034992b7b943e285e3877
+   __DATA_CONST.__kalloc_type: 0x100 sha256:6c3d2896daabf9b54f19d47c3ba86d4a7f59427b26c5b7298dddf3d7967e155b
+   UUID: 4E81DEE6-C09C-35F7-AFEC-50A982E1EEFC
+   Functions: 201
+
+```

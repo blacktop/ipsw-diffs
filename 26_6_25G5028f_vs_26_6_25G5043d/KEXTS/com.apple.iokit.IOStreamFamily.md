@@ -1,0 +1,32 @@
+## com.apple.iokit.IOStreamFamily
+
+> `com.apple.iokit.IOStreamFamily`
+
+```diff
+
+ 120.0.0.0.0
+   __TEXT.__const: 0x8 sha256:035fb2c17b6dab93db6ba458cc7fe413b6e54ca4df67e6c39c545e644c9d00ea
+   __TEXT.__cstring: 0x134 sha256:a5d0eea2455b44985259489567c77681583a5700ac0e1d9f5927304af807bab6
+-  __TEXT_EXEC.__text: 0x3d38 sha256:c10143b6d613922b1706a05da30eafec5a51c782e8f35069e64f4b5fa5c30394
++  __TEXT_EXEC.__text: 0x3d38 sha256:473182da11a17d6cbb682f216aa2f7bdc70421d0bae3d2e84d5f0867816240ff
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:1a1ec247a595d9a5b986dbf7ab39eeaf5dc53012d4904dd890670251cb96e487
++  __DATA.__data: 0xc8 sha256:31421a3d9e3c9b4b4d82aaf3539cb59d057708f388b429ec439505936401660b
+   __DATA.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__auth_got: 0xb8 sha256:b354340c9d4f68941f6bbf012794c3167506d7d298213b8b2f6f4f11aa4ab8ab
+-  __DATA_CONST.__got: 0x58 sha256:c84543b7a05de5fe336f0256066498f1cd5ba0623fcb5460b8cf5fbc2acf12e5
+-  __DATA_CONST.__mod_init_func: 0x20 sha256:427546bb8e21fad281bc3390715a11117a519f478b504eb6aaf116b0b15327b3
+-  __DATA_CONST.__mod_term_func: 0x20 sha256:b232c69f8a1cb72d5a0313ae510eef24261d6c30571394c4af985df2b5b1f22e
+-  __DATA_CONST.__const: 0x25d8 sha256:1b02680bf1e31b37edf7c8c50d064b7ca0528f375f7fc96983e06e3b3129db77
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:5bd4738c73fa5d78880054f1e15da3aff73ffe6ccfee091f70400952986d3bbe
++  __DATA_CONST.__auth_got: 0xb8 sha256:7203afa6aed469abee65252421c0602b4b9dc1830a17beb6a3de2aec1e2f1a86
++  __DATA_CONST.__got: 0x58 sha256:edd96dd9ad1c5c477d07cbc11a1c81eb72448a9b578b8c14457fcdc671a9ec97
++  __DATA_CONST.__mod_init_func: 0x20 sha256:d709c04e648bc4da139a63e85e4d966efe221b211ad05021009d90996ef4dbdd
++  __DATA_CONST.__mod_term_func: 0x20 sha256:0216877b561d59d6ffedf0d08c2130f9f0ce6c9ffd3dd2e1cabc135c7ce6f399
++  __DATA_CONST.__const: 0x25d8 sha256:2ffbe3ad1c5b090c9f71b79930b00378ab567aabaff69c85dd79367c0105e516
++  __DATA_CONST.__kalloc_type: 0x100 sha256:30d1a41da56344d7a14bd33f727c7f3d47c63d9f7b6c018546d1b4470041f1ea
+   __LINKINFO.__symbolsets: 0x31b1 sha256:7ae5d7279cf747f1e17baa4496d8f2386f2447b349c7f25f99e5cad852f89da1
+   UUID: C8AF6F3C-55B7-3854-B76C-0525550D07E1
+   Functions: 223
+
+```

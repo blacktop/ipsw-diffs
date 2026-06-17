@@ -1,0 +1,26 @@
+## com.apple.filesystems.exfat
+
+> `com.apple.filesystems.exfat`
+
+```diff
+
+ 522.100.20.0.0
+   __TEXT.__const: 0x119 sha256:2f5b4bc22d246277109dcd69c4f66f0b56b48224b3fe9c2841f126fde454a108
+   __TEXT.__cstring: 0x121f sha256:77bbe66a8e85426f332f276a1561973da9d8b08046164810d723d23f0f0ca66c
+-  __TEXT_EXEC.__text: 0xad98 sha256:c019a4887d565e5e0d7a91b733ccd1a617efe7101f8a9c7767742b7cf24c6969
++  __TEXT_EXEC.__text: 0xad98 sha256:346d1dd356f648b7be7132a6af8165eddd4ee14121c1d2c8b28593ffb29c3161
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x468 sha256:0d3fd13bc319b8032b0b556eef4ee4d78085df683815ec8eba4e830a6f96d7b2
++  __DATA.__data: 0x468 sha256:3fb1fe4bce6ea01081489101c09702a4192724a4cc7d5f232f875bbbdeba0336
+   __DATA.__common: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_CONST.__auth_got: 0x450 sha256:a14f2d685d9399c3598ec264deade8aac4999e6182422e70f18d6e2eb2009b47
+-  __DATA_CONST.__got: 0x18 sha256:a7eb83e509182d4f7881a6f5f6cf244855c2cd85adeac5790682c5eef2adda16
+-  __DATA_CONST.__kalloc_type: 0x640 sha256:86fd7919aa0f833174bf26a63c6484183c8e1fdc9c252f2e1642080cd83d175d
++  __DATA_CONST.__auth_got: 0x450 sha256:403b0252baaa92f3c5a6ee761177ad1a828efe0d01e2fe2f95841c0e211418b5
++  __DATA_CONST.__got: 0x18 sha256:9a43a28573bc87bfa3198a87ba20594a6f56e3742283112a8b93baa14aa9a8e1
++  __DATA_CONST.__kalloc_type: 0x640 sha256:32a33e9532b8cf7d43ce0683ea21483911d10d3a0c80e666aa11353ad0bce5bc
+   UUID: AFB66D93-E960-3D4D-88F7-0039742187A4
+   Functions: 164
+   Symbols:   390
+
+```

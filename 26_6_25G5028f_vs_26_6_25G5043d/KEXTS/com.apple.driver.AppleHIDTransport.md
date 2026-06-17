@@ -1,0 +1,76 @@
+## com.apple.driver.AppleHIDTransport
+
+> `com.apple.driver.AppleHIDTransport`
+
+```diff
+
+ 9420.5.0.0.0
+-  __TEXT.__cstring: 0xc8b8 sha256:e52c2f781eb50df1ecba862c8e29571d326cb33f6a3979c4397f4edb858b6732
++  __TEXT.__cstring: 0xc8b8 sha256:f2a4076c98c16930db167513a2c2d58b90b74ade4e119e5f440e089ffc62bfba
+   __TEXT.__const: 0x398 sha256:59f1a263315b6f9ad6b986175bf11a3f865d3656d7f2cc12af3bc80d94d9c0b6
+   __TEXT.__os_log: 0x110 sha256:7ce54930764668ad8eb768712b461c21e522ec9a763e1b852ad51966c4a1fe14
+-  __TEXT_EXEC.__text: 0x7d02c sha256:76e89cb2f3e274a1dadb2a18662f1a76a02cbb44854ea5bc1a219ae2829412ba
++  __TEXT_EXEC.__text: 0x7d02c sha256:fada105aa283f4b02f5c69ea771134f02419c5d29cfe91bdf581c2110f1494ad
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:ed5e39b70c4f7e2fbf1d1ce1bf92da2c99ae5604e5abdebda79671cf45f08eca
++  __DATA.__data: 0xc8 sha256:7174a11f8a44526e0aab4d7aefce82d9fd35ee24190aae02ec95274ca459c6dc
+   __DATA.__common: 0x470 sha256:5f44843643c39747e4270a8a9324e5bf95f72ad9685b54ab9694f2704a381543
+   __DATA.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __DATA_CONST.__auth_got: 0x468 sha256:10aacbc80027b8002ab01ffcff16e6e168786d4c1b1d95f40e5ae3bc55eb1ae8
+-  __DATA_CONST.__got: 0x148 sha256:35fecd1d8d76acd3656cfe7136ad4f9b7262f1beb729e2d34c095d2a973b31fa
+-  __DATA_CONST.__mod_init_func: 0xc8 sha256:f3c42713518b21a6071de7d215cd02a752acdfba01261780d7803a2fc73bcb7c
+-  __DATA_CONST.__mod_term_func: 0xc8 sha256:db7956f2e01b7fc0653c49a65b2ca16413c48474dea24836bd016c1cbbebc91a
+-  __DATA_CONST.__const: 0xe778 sha256:5392c9f863f51f9bde3288b1bfb18f6b0942624fc8e3669d43d545c616625c6c
+-  __DATA_CONST.__kalloc_type: 0xa40 sha256:c63e19f0a60a8ab4fa607fc3bfcefeac959f5082a221a6209588b750111103e8
+-  UUID: 3AD9F6F5-65B6-3064-A4F7-D7E1265EC740
++  __DATA_CONST.__auth_got: 0x468 sha256:3300663b3b232fc85a49f0ea2975d0f5ce2739c6ecccae96891aac443f25bdc8
++  __DATA_CONST.__got: 0x148 sha256:5f5fd362793a327d722f17f0551c5a96b54e225e2452a3c72d6775b52bfe1bb4
++  __DATA_CONST.__mod_init_func: 0xc8 sha256:1cdfafbae7408d645dae5c954c411719f9bef58bcfe89a72af4b568f2542a149
++  __DATA_CONST.__mod_term_func: 0xc8 sha256:088af01c21e3991ff6c5fc8c7efd27c85471165899f6409ffa951348b3fdc6ea
++  __DATA_CONST.__const: 0xe778 sha256:e1ef1592003ea13849a7b3521753c559ccee8136c55c231143b011052d466358
++  __DATA_CONST.__kalloc_type: 0xa40 sha256:b87c61834e8aa075b16fedf2583bf6870d7de0ca6205b219c9054df0c6fb6a75
++  UUID: E347D399-3031-375B-997A-25563A3E1E7F
+   Functions: 2225
+   Symbols:   3497
+   CStrings:  1453
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTEeprom.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTFunction.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTFunctionExecutor.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTMemoryDumpExtractor.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloader.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderCBOR.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderFlatPack.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderHIDDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportHIDDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportHibernator.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportManagement.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportProtocol.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportStats.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/BinaryEncoder/BinaryEncoderManager.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/BinaryEncoder/BinaryEncoders/BinaryEncoder.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRizugBmni3xGVROCCxHUdAivhdEtG8lZ6TVOOs/Library/Caches/com.apple.xbs/TemporaryDirectory.zTUcSd/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/SMCNotifier/AppleHIDTransportSMCNotifier.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTEeprom.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTFunction.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTFunctionExecutor.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AHTMemoryDumpExtractor.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloader.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderCBOR.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderFlatPack.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderHIDDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportBootloaderUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportHIDDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportHibernator.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportManagement.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportProtocol.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/AppleHIDTransportStats.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/BinaryEncoder/BinaryEncoderManager.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/BinaryEncoder/BinaryEncoders/BinaryEncoder.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQA5ugCowRCkzlQx0neNqzVlE27DRP5PA68aJcU/Library/Caches/com.apple.xbs/TemporaryDirectory.Vttyvl/Sources/AppleInputDeviceSupport_AppleHIDTransport/AppleHIDTransport/SMCNotifier/AppleHIDTransportSMCNotifier.cpp"
+
+```
