@@ -1,4 +1,12 @@
 {
-  "version": "26.6 beta 2",
-  "build": "23G5043d"
+  "26": {
+    "version": "26.6 beta 2",
+    "build": "23G5043d",
+    "released": "2026-06-15T00:00:00Z"
+  },
+  "27": {
+    "version": "27.0 beta",
+    "build": "24A5355q",
+    "released": "2026-06-08T00:00:00Z"
+  }
 }
