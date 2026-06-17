@@ -60,9 +60,9 @@ jobs:
       matrix:
         include:
           - os: macOS
-            device: Mac14,3
+            device: Mac17,6
           - os: iOS
-            device: iPhone16,2
+            device: iPhone18,1
     steps:
       - name: Checkout
         # persist-credentials stays on (default): the job pushes new diffs.
