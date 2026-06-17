@@ -50,7 +50,7 @@ jobs:
   diff:
     permissions:
       contents: write
-    runs-on: macos-14
+    runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
       fail-fast: false
@@ -86,9 +86,27 @@ jobs:
             echo "run=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # A diff of two IPSWs needs both present at once; UniversalMac images are
+      # ~15 GB each, so reclaim the preinstalled toolchains a standard runner
+      # ships with to fit the pair plus extraction. Swap is kept (16 GB RAM).
+      - name: Free up disk space
+        if: steps.gate.outputs.run == 'true'
+        uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be # v1.3.1
+        with:
+          tool-cache: true
+          swap-storage: false
+
       - name: Install ipsw
         if: steps.gate.outputs.run == 'true'
-        run: brew install blacktop/tap/ipsw
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          url="$(gh api repos/blacktop/ipsw/releases/latest \
+            --jq '.assets[] | select(.name | test("^ipsw_.*linux_x86_64\\.deb$")) | .browser_download_url')"
+          curl -fsSL -o /tmp/ipsw.deb "$url"
+          sudo dpkg -i /tmp/ipsw.deb
+          ipsw version
 
       # AppleDB is cloned locally for --show-latest; cache it so each poll
       # doesn't re-clone hundreds of MB.
