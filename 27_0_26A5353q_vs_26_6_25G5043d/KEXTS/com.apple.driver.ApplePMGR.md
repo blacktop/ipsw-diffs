@@ -1,0 +1,271 @@
+## com.apple.driver.ApplePMGR
+
+> `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1966.0.0.0.0
+-  __TEXT.__cstring: 0xfe42 sha256:94876156c80ed2d0f17b43e5cd58fecf6b165aa4b04c048889783677654323ca
+-  __TEXT.__const: 0x290 sha256:05e25386ed4f70c63c4c9501041ac7b8546287a071715ba2fbd428f507648895
+-  __TEXT_EXEC.__text: 0x62b64 sha256:52106adc801c17feea6be1a553b8e089d2e5cec56ef1caeff9e154c1920e923f
++1774.160.2.0.0
++  __TEXT.__cstring: 0xf630 sha256:d7aaaaea2614a909ffc3788efbd033222f40c4c0f3277a68087c42fdfeedb4bb
++  __TEXT.__const: 0x280 sha256:1946429e043970722461c41d86f157055f06e04e2f0cf154bcc49283f6fdbc8e
++  __TEXT_EXEC.__text: 0x608d4 sha256:915578e34f52f8fccf1bef4cd4cd5f9abdd08fac1a6edb3de191e239000647f6
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x138 sha256:ef3dfc7375e708b72503feae6e8a1121dac6c3af7906e3765040896178cb601c
++  __DATA.__data: 0x138 sha256:f6a55a1d940c7b8836113dab1f8356a35023328d98a5f558789ff278be772bc0
+   __DATA.__common: 0x5e0 sha256:f7f8603928890fb13d022d828c8a602cf7a7619ab24de82c7de4ae86ec337e6a
+-  __DATA.__bss: 0x160 sha256:627f6149015f853f26db2f3dffba1b7c30b3b74b87c5cfb9f346c1616e3636d0
+-  __DATA_CONST.__mod_init_func: 0x40 sha256:9a25cadfccf87eb8fc3c2877ee8992834e123e622ff6d80290e05e6f44ef3435
+-  __DATA_CONST.__mod_term_func: 0x40 sha256:b9788b0c219f5b026eb3f3548e886a9f66ae57c7aa3d79432ff2dbdc7a7023dc
+-  __DATA_CONST.__const: 0xfa38 sha256:306f294ec6b19d43d6c62d7c534009a3f9e7568e73d76adb28fd8b927e3616e3
+-  __DATA_CONST.__kalloc_type: 0xb40 sha256:d410b026299ddd2320e857576c427cf8278d2f571177f021db8bf874245fbcac
+-  __DATA_CONST.__kalloc_var: 0xfa0 sha256:787dd87c44908a1f8166e80f7022a020116d9b4d161d38b4a5f8b81de27d59cc
+-  __DATA_CONST.__auth_got: 0x410 sha256:daeb3a47b7962a06561f703d335c69fec5223db35edbfc729f51f98bff44eec2
+-  __DATA_CONST.__got: 0xf8 sha256:995566d2e4c217d9e01b46ca778ad24f5c7d93338a83f3868316a938dff7a3b6
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:152166043ec243f0f3b6431c052c88e7b9601936326e06d11b02076980ba958b
+-  UUID: 6463BD7D-E608-3205-AF66-C2D60BDEB583
+-  Functions: 2874
+-  Symbols:   3696
+-  CStrings:  1799
++  __DATA.__bss: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
++  __DATA_CONST.__auth_got: 0x3e8 sha256:ec3b7a0fb7f9bd3c120d716c61e743127e5915e1557d81bc8bdc10047b5f0a26
++  __DATA_CONST.__got: 0xf8 sha256:58bab06a82fc288dfc78d5c5a349ba90c3d17e900d7d47a854d244d9e8cddf78
++  __DATA_CONST.__auth_ptr: 0x8 sha256:984db3fb2a862e3d74c7d94be30246a4ba72673b9f4ec0d282375b5d9b73c940
++  __DATA_CONST.__mod_init_func: 0x40 sha256:d88570780a3b759169ac464cef1ee6087d0c2f3e395c30a3a398ef1e01bfb213
++  __DATA_CONST.__mod_term_func: 0x40 sha256:002abec31531a7c523fb62c13aef68dd49383f348867fd0855d0bb67a5907fd2
++  __DATA_CONST.__const: 0xf8b0 sha256:aeff4f058f2ce654378d61908df454593ef6a8fa0ece1d97efc5ff0aaf5e5685
++  __DATA_CONST.__kalloc_type: 0x9c0 sha256:a0ad768ccf27bab4e06e5639d34a56448f3c0d08f7c43438af7bc1a3646269c8
++  __DATA_CONST.__kalloc_var: 0xfa0 sha256:18bd35b1128265f295357c2fb4942ea26bf4856482137c06fc92910e3e21ebd2
++  UUID: B05CAEBE-CFE8-3E06-9A9D-B1598ABC9999
++  Functions: 2804
++  Symbols:   3616
++  CStrings:  1753
+ 
+Symbols:
++ __ZN8OSObject8DispatchE5IORPC
++ __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_480
++ __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_483
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10002
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10075
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10084
++ __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10088
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_979
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1034
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1082
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1108
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1177
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1189
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1206
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1219
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1284
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1288
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1399
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1414
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1568
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1591
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1623
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1649
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1802
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1837
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1921
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2330
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2385
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2393
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2511
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2769
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3084
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3087
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3102
++ __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3115
++ __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9956
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16709
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16737
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16780
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16844
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17485
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17502
++ __ZZN9ApplePMGR24_initFreeRunningCountersEP9IOServiceE22kalloc_type_view_17693
++ __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10446
++ __ZdlPv
+- _IOFreeTypeImpl
+- _IOTaskHasEntitlement
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _ZN11ApplePMGRv213_getCoreToDieEj.cold.1
+- _ZN11ApplePMGRv213_getCoreToDieEj.cold.2
+- _ZN11ApplePMGRv214enableCPUCoresEyb.cold.1
+- _ZN11ApplePMGRv214enableCPUCoresEyb.cold.2
+- _ZN11ApplePMGRv216_cpuTopologyInitEv.cold.1
+- _ZN11ApplePMGRv216_cpuTopologyInitEv.cold.2
+- _ZN11ApplePMGRv216_cpuTopologyInitEv.cold.3
+- _ZN11ApplePMGRv216_cpuTopologyInitEv.cold.4
+- _ZN11ApplePMGRv216_getComplexToDieEj.cold.1
+- _ZN11ApplePMGRv216_getComplexToDieEj.cold.2
+- _ZN11ApplePMGRv219getAnalyticsManagerEN18ApplePMGRAnalytics14ca_pmgr_type_tENS0_13ca_ps_state_tEj.cold.1
+- _ZN11ApplePMGRv221getPMGRChildInstancesEv.cold.4
+- _ZN20ACCSlewRateAnalyticsC2EP9IOServiceN18ApplePMGRAnalytics14ca_pmgr_type_tE.cold.1
+- _ZN20ACCSlewRateAnalyticsC2EP9IOServiceN18ApplePMGRAnalytics14ca_pmgr_type_tE.cold.2
+- _ZN20ACCSlewRateAnalyticsnwEm.cold.1
+- _ZN9ApplePMGR19getAnalyticsManagerEN18ApplePMGRAnalytics14ca_pmgr_type_tENS0_13ca_ps_state_tEj.cold.1
+- _ZN9ApplePMGR21updateDie1CPUVoltagesEv.cold.1
+- __ZN11ApplePMGRv213_getCoreToDieEj
+- __ZN11ApplePMGRv215_avoidPerfStateEmm
+- __ZN11ApplePMGRv216_cpuTopologyInitEv
+- __ZN11ApplePMGRv216_getComplexToDieEj
+- __ZN11PSAnalyticsdlEPv
+- __ZN13LatencyEventsdlEPv
+- __ZN14SlewRateEvents10getDataKeyEv
+- __ZN14SlewRateEvents10startEventEv
+- __ZN14SlewRateEvents11getLatStatsEPyS0_S0_Pj
+- __ZN14SlewRateEvents9stopEventEv
+- __ZN14SlewRateEventsC1EPKcjjjj
+- __ZN14SlewRateEventsC2EPKcjjjj
+- __ZN14SlewRateEventsD0Ev
+- __ZN14SlewRateEventsD1Ev
+- __ZN14SlewRateEventsdlEPv
+- __ZN14SlewRateEventsnwEm
+- __ZN15PMGR_CA_FACTORY16analyticsCleanupEv
+- __ZN16AppleARMFunction8DispatchE5IORPC
+- __ZN20ACCSlewRateAnalytics11stopCaptureEP14AnalyticEvents
+- __ZN20ACCSlewRateAnalytics12startCaptureEP14AnalyticEvents
+- __ZN20ACCSlewRateAnalytics16addSlewRateEventEPKcjjjj
+- __ZN20ACCSlewRateAnalytics18getPmgrEventObjectEmmmm
+- __ZN20ACCSlewRateAnalytics18publishSingleEventEP14SlewRateEvents
+- __ZN20ACCSlewRateAnalytics7publishEv
+- __ZN20ACCSlewRateAnalyticsC1EP9IOServiceN18ApplePMGRAnalytics14ca_pmgr_type_tE
+- __ZN20ACCSlewRateAnalyticsC2EP9IOServiceN18ApplePMGRAnalytics14ca_pmgr_type_tE
+- __ZN20ACCSlewRateAnalyticsD0Ev
+- __ZN20ACCSlewRateAnalyticsD1Ev
+- __ZN20ACCSlewRateAnalyticsdlEPv
+- __ZN20ACCSlewRateAnalyticsnwEm
+- __ZN9ApplePMGR21updateDie1CPUVoltagesEv
+- __ZNK11PSAnalytics16getAnalyticsTypeEv
+- __ZNK20ACCSlewRateAnalytics16getAnalyticsTypeEv
+- __ZTV14SlewRateEvents
+- __ZTV20ACCSlewRateAnalytics
+- __ZZN11PSAnalyticsdlEPvE19kalloc_type_view_32
+- __ZZN13LatencyEventsdlEPvE19kalloc_type_view_30
+- __ZZN14SlewRateEventsdlEPvE19kalloc_type_view_43
+- __ZZN14SlewRateEventsnwEmE19kalloc_type_view_36
+- __ZZN20ACCSlewRateAnalyticsdlEPvE19kalloc_type_view_28
+- __ZZN20ACCSlewRateAnalyticsnwEmE19kalloc_type_view_20
+- __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_485
+- __ZZN8ApplePMC19_initVoteAggregatorEvE20kalloc_type_view_488
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9965
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10038
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10047
+- __ZZN9ApplePMGR10_initPMPv2EvE22kalloc_type_view_10051
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE20kalloc_type_view_981
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1036
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1084
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1110
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1179
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1191
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1208
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1221
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1286
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1290
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1401
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1416
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1570
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1593
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1625
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1651
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1804
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1839
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_1923
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2332
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2387
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2395
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2515
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_2771
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3086
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3091
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3104
+- __ZZN9ApplePMGR10initDriverEP9IOServiceE21kalloc_type_view_3117
+- __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9919
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16674
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16702
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16745
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16809
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17450
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17467
+- __ZZN9ApplePMGR24_initFreeRunningCountersEP9IOServiceE22kalloc_type_view_17658
+- __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10409
+- _clock_get_calendar_microtime
+- _lck_grp_free
+- _lck_mtx_destroy
+- _strlcpy
+CStrings:
++ "\"ApplePMGR: %s:%u \" \"Die %u, Deadline: 0x%llx, AbsTime: 0x%llx PMP Failed to Come Online within %llu ticks\" @%s:%d"
++ "111111111112222222212212111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
++ "1211111212221212112221112111211121112111211121112111211121112111211121112111211121112111211121112111211121112111211121112111211121112112121221222222111121111112221121112121111"
++ "timeout-panic-pmp"
+- "11111111111111111112222222212212"
+- "11111111111111111112222222212212111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
+- "12111112122212121122211121112111211121112111211121112111211121112111211121112111211121112111211121112111211121112111211121112111211121121212212222221111211111122211211121211112222222222222222222222222222222222222222222222222"
+- "122222222222"
+- "ACCSlewRateAnalytics.cpp"
+- "ACCSlewRateAnalytics: CoreAnalytics Send Event Failure: 0x%x\n"
+- "ACCSlewRateAnalytics: Failed to create event dictionary\n"
+- "ACCSlewRateAnalytics: Failed to create event name string\n"
+- "ACCSlewRateAnalytics::ACCSlewRateAnalytics(IOService *, ca_pmgr_type_t)"
+- "ApplePMGR: CPU topology initialized from XNU: %u cores, %u complexes\n"
+- "ApplePMGR: Device 0x%x Vote Perf Domain %x Perf State %x on Power-Off \n"
+- "ApplePMGR: Error: DIE1 %s voltage state %u has perfLimit=0, reverting to shared\n"
+- "ApplePMGR: Single-die system, skipping DIE1 voltage state patching\n"
+- "ApplePMGR: Skipping %s (die=%u, not DIE1)\n"
+- "ApplePMGR: Skipping %s (type=%u, not CPU)\n"
+- "ApplePMGR: State[%u]: voltageState=%u, voltage=%u mV, perfLimit=0x%x\n"
+- "ApplePMGR: Warning: DIE1 %s Invalid DVFMStates array (dvfmStates=%p, count=%u)\n"
+- "ApplePMGR: Warning: DIE1 %s infoDict is missing\n"
+- "ApplePMGR: Warning: DIE1 voltage state count mismatch for %s: %u vs %u, using shared\n"
+- "ApplePMGR: [Die 1] %s: Skipping (voltageStatesID %u not in mapping table)\n"
+- "ApplePMGR: [Die 1] %s: Updated DVFMStates in infoDict with new voltage/frequency data\n"
+- "ApplePMGR: [Die 1] %s: Using shared voltage states (no %s property)\n"
+- "UInt32 ApplePMGRv2::_getComplexToDie(UInt32)"
+- "UInt32 ApplePMGRv2::_getCoreToDie(UInt32)"
+- "_cpuComplexCount <= kClusterIDMaxCount"
+- "_dieCount <= kDieMaxCount"
+- "com.apple.private.pmgr.nrg.reporting"
+- "com.apple.socpm.slew_rate"
+- "cpu < _cpuCoreCount"
+- "cpu-power-gate-latency-ns"
+- "dieID < _dieCount"
+- "dieId < _dieCount"
+- "dr"
+- "eh"
+- "handle->getAnalyticsType() == type"
+- "md"
+- "ns"
+- "site.ACCSlewRateAnalytics"
+- "site.SlewRateEvents"
+- "slew_rate"
+- "sn"
+- "static void *ACCSlewRateAnalytics::operator new(size_t)"
+- "tp"
+- "virtual ApplePMGRAnalytics *ApplePMGR::getAnalyticsManager(ApplePMGRAnalytics::ca_pmgr_type_t, ApplePMGRAnalytics::ca_ps_state_t, UInt32)"
+- "virtual ApplePMGRAnalytics *ApplePMGRv2::getAnalyticsManager(ApplePMGRAnalytics::ca_pmgr_type_t, ApplePMGRAnalytics::ca_ps_state_t, UInt32)"
+- "virtual void ApplePMGRv2::enableCPUCores(UInt64, bool)"
+- "void ApplePMGR::updateDie1CPUVoltages()"
+- "void ApplePMGRv2::_cpuTopologyInit()"
+- "voltageState < perfDomain->voltageStateCount"
+- "xnuTopology"
+
+```

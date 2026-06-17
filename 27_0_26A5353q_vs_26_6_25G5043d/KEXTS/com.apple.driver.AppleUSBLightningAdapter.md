@@ -1,0 +1,41 @@
+## com.apple.driver.AppleUSBLightningAdapter
+
+> `com.apple.driver.AppleUSBLightningAdapter`
+
+```diff
+
+-90.0.0.0.0
++85.0.0.0.0
+   __TEXT.__const: 0x8 sha256:3e990d45c83fa01d9bf0c64b79ed7678df3c723614f0f7eccdc3d196fa3073e9
+   __TEXT.__cstring: 0x1316 sha256:4a48ccc355f114675e55755474785e9fcc1de2f91abb03695509cae2524aa790
+   __TEXT.__os_log: 0xdbe sha256:65d8da237ccc30b8e71afe2cab186e33007a54b5e2f06ce9e325127e54d72676
+-  __TEXT_EXEC.__text: 0x6088 sha256:28086811a4be4e5aca5254f818a34d29f04ac106bd19c9b81f06f76a84dd7c3a
++  __TEXT_EXEC.__text: 0x609c sha256:649bedecab9593b3a4aa34c12847a9cb9db196d8bac0faeb9177b099e022921a
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc4 sha256:4f33ea7e0e02c43573d8094c52da9e667d5f1827534496413502008167615ea5
++  __DATA.__data: 0xc4 sha256:d8b393e3ab8928347b9f429f44fe4fe15d0e220d00c711f52af879d671332046
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   __DATA.__bss: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:7b356f1fa73eafa2f632d368964b74c5c4b3af8ad65e63cf01b60dab59a464c8
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:e5d1e7345321bf8de81b1a98e82f2a2b865742af072f574588879b76bedb097b
+-  __DATA_CONST.__const: 0x1620 sha256:3091889982b057153e6c43718689bac4ebbfc20945ea077b64b60165a5529b40
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:de59550113de6efe450133b623816b57400e416b4b51eaec59d102e13eeeefb9
+-  __DATA_CONST.__auth_got: 0x1a8 sha256:812cb24e3e208d9ec416c0df0db2c83fb12e3a0365b480d6a84a1c8e8f781ee0
+-  __DATA_CONST.__got: 0xa8 sha256:e57c2c188d8e858ded1d2d80d9a05170423387f87de72473813ec2ad0f40f29a
+-  UUID: 5B2FBC0F-D0DB-3768-9E83-600EB3CB5C2A
++  __DATA_CONST.__auth_got: 0x1a8 sha256:2c8900ee84bca9867553c8aef77490d53a4177feb2374320811f3b87630f7dba
++  __DATA_CONST.__got: 0xa8 sha256:2699089aebf40791e609b00e5301b33b50d4c5c0147a7e44e94216931bfe69ca
++  __DATA_CONST.__mod_init_func: 0x10 sha256:477866831ac5ef04a986317ce8be36c3803832a764eb15693c1e5e537abcd303
++  __DATA_CONST.__mod_term_func: 0x10 sha256:b59b7e3c3d6f321787fa707898ff1f65fa7d10152fd8a57fbc7fe75688716e20
++  __DATA_CONST.__const: 0x1618 sha256:83a50bd1a681e31a958d9fc94e1062ac60384592bb5bc0d4581f1d8a71368ffa
++  __DATA_CONST.__kalloc_type: 0x80 sha256:23c7af629c0de8a60f188397ff297cdce73ce82142c733a7fa47c8396a649573
++  UUID: CB27B4FE-F3D9-3559-BB03-D57282CE9D99
+   Functions: 107
+-  Symbols:   494
++  Symbols:   493
+   CStrings:  179
+ 
+Symbols:
+- __ZN18IOAccessoryManager12_getPortTypeEv
+
+```

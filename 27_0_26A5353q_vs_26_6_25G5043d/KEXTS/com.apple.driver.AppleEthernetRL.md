@@ -1,0 +1,158 @@
+## com.apple.driver.AppleEthernetRL
+
+> `com.apple.driver.AppleEthernetRL`
+
+```diff
+
+-161.0.0.0.0
+-  __TEXT.__cstring: 0x2822 sha256:1e2860986a8f24b11249b9c0d6e4930332f2e1c30e30bbcbdc803b5a79191b5e
+-  __TEXT.__const: 0x22888 sha256:e6819cbd462422a66e7d879b369579314bbfc67cb36e04886c562fc1bd6de5db
++142.100.1.0.0
++  __TEXT.__cstring: 0x2569 sha256:aaaa2a4201cd14084a6f782748d773bced0c5e026791de837374fb893fc7d8e6
++  __TEXT.__const: 0x22bcc sha256:1aaea9fd32a8ef1c26a746bb22384463450163892a1e14ad31c470cda3a31ef2
+   __TEXT.__os_log: 0x75 sha256:ac4fa6e42ffb66fbae4cf8acbb9978617b6efa0a7935e4d94fc3fe4b7310c3a7
+-  __TEXT_EXEC.__text: 0x27d04 sha256:3100d30d440ae0658fc92b0bb19879463bbebc7a1550090d9e001d3cad880470
++  __TEXT_EXEC.__text: 0x2600c sha256:0d71eea72d7876f6190e4c0f4c24f26e57da16bd34982d08b6d917a2188527c6
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x1e8 sha256:c63bf0a7d24e9e7d202951b8796e830e5aae934e61a0886f52c4cb8f7f885885
++  __DATA.__data: 0x1e8 sha256:31485863e2618fefddfeb9d431d307dae0534dc809e41b23466d0746c9cd3183
+   __DATA.__common: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__mod_init_func: 0x40 sha256:74408263fc391ae4dbe46de6985f68169a6c63ef2ecdf3e526fac3ac055fd58b
+-  __DATA_CONST.__mod_term_func: 0x40 sha256:57abe0bd930fd127b459b87819f22eb9ef55c44b384356c1130e2d3dacd9b8b4
+-  __DATA_CONST.__const: 0x4a078 sha256:2ed89ca7ee262d676096a1840ff48411e0a500861dcee5b85a7faa750580eeb6
+-  __DATA_CONST.__kalloc_type: 0x2c0 sha256:b5d82e84bc3a730d9d812e068de1919f864bc58dbc4348caef29b0529bdad8e8
+-  __DATA_CONST.__kalloc_var: 0x320 sha256:050f28081d0b83ee3afe270f0049bb5d8c3e5d0bb827aa9b81c933ab133c144c
+-  __DATA_CONST.__auth_got: 0x3a0 sha256:e4ac3e6b4bbb86dc66e9c9dbf19c3df11e327c2bf8e01d27c5485887f1053b5e
+-  __DATA_CONST.__got: 0xc0 sha256:52cbedf0568d2eb0995b3c90868cfd00dad36d55ce85d863b2aba0a301c17a78
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:b7f3110abd0784d73da2bdefcc3262c6d1f2e54e9d50b8cdd42375dae4b62a4d
+-  UUID: F7A4BAB2-1C10-3A11-A9E2-EA52FD13C1E2
+-  Functions: 571
+-  Symbols:   1362
+-  CStrings:  332
++  __DATA_CONST.__auth_got: 0x338 sha256:0789b7c4f158148615a73081741fbbd42fd5e23a9496efe90ac458902c73e39a
++  __DATA_CONST.__got: 0xa0 sha256:8d2c6a5f304680ad2f3c3b96a8df48a3571b6d723c49fa1a3627228347707ab2
++  __DATA_CONST.__auth_ptr: 0x8 sha256:79477abf35e781d1178e5bc4b0881353cf3b1409273849278cc00cb4cc682cea
++  __DATA_CONST.__mod_init_func: 0x40 sha256:3d1ab5f90501f2ebe2145ef097624fc8383fe1127263e71bef0f7d38b7865d74
++  __DATA_CONST.__mod_term_func: 0x40 sha256:35ea32f787367e60ab52be637890ff46f7a186860c2a89f9facc6f1756bd6c8f
++  __DATA_CONST.__const: 0x49228 sha256:8e64aeb6b4340985b49c4fae7ed25af5dc68c8ee929bccd20263db29125171af
++  __DATA_CONST.__kalloc_type: 0x2c0 sha256:4de60d88d108847ec64b0848a1254f3684260a0d840dbe86a67e0140a2f417d5
++  __DATA_CONST.__kalloc_var: 0x320 sha256:c4d233402b1c2df4b0f1021321038b9589f5dc57280ff1cd509e97546781aef4
++  UUID: AE0E9701-3D2A-31F0-A45E-8EAAA066E091
++  Functions: 552
++  Symbols:   1328
++  CStrings:  311
+ 
+Symbols:
++ _OUTLINED_FUNCTION_17
++ __ZL12re_csi_writeP8re_softctj
++ __ZL18re_disable_mcu_bpsP8re_softc
++ __ZL25re_write_mac_mcu_ram_codeP8re_softcPKtt
++ __ZN32AppleSkywalkAVBEthernetInterface17informActiveMediaEj
++ __ZZL21re_set_mac_mcu_8127_1P8re_softcE21mcu_patch_code_8127_1
++ __ZZL21re_set_mac_mcu_8127_2P8re_softcE21mcu_patch_code_8127_2
++ __ZZL22re_set_mac_mcu_8125a_2P8re_softcE22mcu_patch_code_8125a_2
++ __ZZL22re_set_mac_mcu_8125b_2P8re_softcE22mcu_patch_code_8125b_2
++ __ZZL22re_set_mac_mcu_8125d_1P8re_softcE22mcu_patch_code_8125d_1
++ __ZZL22re_set_mac_mcu_8126a_1P8re_softcE22mcu_patch_code_8126a_1
++ __ZZL22re_set_mac_mcu_8126a_2P8re_softcE22mcu_patch_code_8126a_2
++ __ZZL22re_set_mac_mcu_8126a_3P8re_softcE22mcu_patch_code_8126a_3
++ __ZZL23re_set_mac_mcu_8125bp_1P8re_softcE23mcu_patch_code_8125bp_1
++ __ZZL23re_set_mac_mcu_8125bp_2P8re_softcE23mcu_patch_code_8125bp_2
++ __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_61
++ __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_73
++ __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_81
++ __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_91
++ __ZZN15AppleEthernetRL14startInterfaceEvE20kalloc_type_view_212
++ __ZZN15AppleEthernetRL14startInterfaceEvE20kalloc_type_view_381
++ __ZZN15AppleEthernetRL4stopEP9IOServiceE20kalloc_type_view_240
++ __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_104
++ __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_113
++ __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_119
+- _IOLockAlloc
+- _IOLockFree
+- _IOLockLock
+- _IOLockUnlock
+- __NSConcreteStackBlock
+- __Z10re_link_okP8re_softc
+- __Z17re_hw_common_8125P8re_softc
+- __Z17re_hw_ephy_configP8re_softc
+- __Z35re_get_platform_needs_10g_iol_patchP8re_softc
+- __Z39re_get_platform_dynamic_hw_aspm_enabledP8re_softc
+- __Z42re_get_platform_dynamic_hw_aspm_thresholdsP8re_softcPtS1_S1_
+- __ZL22re_csi_other_fun_writeP8re_softchtj
+- __ZL25re_wait_8127_sds_cmd_doneP8re_softc
+- __ZL28re_clear_and_set_sds_phy_bitP8re_softcttttt
+- __ZN10IOWorkLoop14runActionBlockEU13block_pointerFivE
+- __ZN12IOUserClient21copyClientEntitlementEP4taskPKc
+- __ZN12OSDictionary9metaClassE
+- __ZN14IOPMrootDomain17createPMAssertionEyjP9IOServicePKc
+- __ZN14IOPMrootDomain18releasePMAssertionEy
+- __ZN15AppleEthernetRL13setPropertiesEP8OSObject
+- __ZN15AppleEthernetRL17isSameNetworkWakeEt
+- __ZN15AppleEthernetRL21readExtendedLOMConfigEv
+- __ZN15AppleEthernetRL22buildExtendedLOMConfigEP21aqc113_extLomConfig_t
+- __ZN15AppleEthernetRL22fetchExtendedLOMConfigEP21aqc113_extLomConfig_t
+- __ZN15AppleEthernetRL22writeExtendedLOMConfigEP12OSDictionary
+- __ZN15AppleEthernetRL23commitExtLOMConfigGatedEP21aqc113_extLomConfig_t
+- __ZN15AppleEthernetRL23handleLinkDownAfterWakeEP18IOTimerEventSource
+- __ZN15AppleEthernetRL27handlePowerAssertionTimeoutEP18IOTimerEventSource
+- __ZN15AppleEthernetRL28publishExtendedLOMPropertiesEv
+- __ZN15AppleEthernetRL8resetIPCEv
+- __ZN25IOSkywalkNetworkInterface17ipsecOffloadSAAddEP16ipsec_offload_saPy
+- __ZN25IOSkywalkNetworkInterface20ipsecOffloadSADeleteEy
+- __ZN25IOSkywalkNetworkInterface21ipsecOffloadPolicyAddEP20ipsec_offload_policyPy
+- __ZN25IOSkywalkNetworkInterface24ipsecOffloadPolicyDeleteEy
+- __ZN25IOSkywalkNetworkInterface24ipsecOffloadSAAdvanceESNEyy
+- __ZN32AppleSkywalkAVBEthernetInterface17informActiveMediaEjj
+- __ZN6OSData15withBytesNoCopyEPvj
+- __ZN8OSNumber10withNumberEyj
+- __ZN8OSNumber9metaClassE
+- __ZN8OSString9metaClassE
+- __ZN9IOService15getPMRootDomainEv
+- __ZNK15AppleEthernetRL34calculateNicProxyV6AddressBasicLOMEP13_ipv6AddrMask
+- __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_63
+- __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_76
+- __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_85
+- __ZZN15AppleEthernetRL13allocateRingsEvE19kalloc_type_view_95
+- __ZZN15AppleEthernetRL14startInterfaceEvE20kalloc_type_view_224
+- __ZZN15AppleEthernetRL14startInterfaceEvE20kalloc_type_view_408
+- __ZZN15AppleEthernetRL4stopEP9IOServiceE20kalloc_type_view_271
+- __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_112
+- __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_117
+- __ZZN15AppleEthernetRL9freeRingsEvE20kalloc_type_view_127
+- ____ZN15AppleEthernetRL20cleanupTransmitQueueEj_block_invoke
+- ____ZN15AppleEthernetRL22writeExtendedLOMConfigEP12OSDictionary_block_invoke
+- ___block_descriptor_tmp
+- _crc32
+- _current_task
+CStrings:
++ "121111121222121211111111122111222211211122222221"
++ "12111112122212121111111211121222111112222112221212222222222111111211111212222112211112211112211222212121222212121222212121222212121222212121222212121222222211112221212111122222222122121211211211222222222222222222222222222211111112221"
++ "Conflict"
+- "%s-%s"
+- "12111112122212121111111211121222111112222112221212222222222211111122221111112122221122111122111122112222121211222212121122221212112222121211222212121122221212112222222111122212121121122222222221111222122211212112112112222222222222222222222222222111111122211"
+- "12111112122212121111211111122111222211211122222221"
+- "Active"
+- "Basic Addr"
+- "Extended Addr"
+- "Extended LOM Config"
+- "IPv4 Guard"
+- "IPv6 Guard"
+- "[0x%llx] rl::%s(%d): IOSK pseudo-ring not available for PTP\n"
+- "[0x%llx] rl::%s(%d): IPC not supported, skipping firmware initialization\n"
+- "[0x%llx] rl::%s(%d): ifm_status 0x%x, ifm_active 0x%x, _addlLinkStatusFlags 0x%x\n"
+- "[0x%llx] rl::%s(%d): missing pcidebug property\n"
+- "[0x%llx] rl::%s(%d): sc.if_capenable 0x%x, linkActive 0x%x, flags 0x%x\n"
+- "[0x%llx] rl::%s(%d): suppressed Link down notification\n"
+- "[0x%llx] rl::%s(%d): unexpected pcidebug property\n"
+- "com.apple.driver.AppleEthernetAquantiaAqtion.device.extlom"
+- "i8@?0"
+- "isSameNetworkWake"
+- "mDNS Conflict"
+- "needs-hw-mdi-iol"
+- "re_stop_txrx"
+- "rl.dynhwaspm"
+- "supports-extlom"
+
+```

@@ -1,0 +1,187 @@
+## com.apple.driver.AppleJPEGDriver
+
+> `com.apple.driver.AppleJPEGDriver`
+
+```diff
+
+-8.1.1.0.0
+-  __TEXT.__cstring: 0x2a7c sha256:7262506bd2b380ba37ebf49a91eae62cf847845856f66b0a0c97f484730ac73a
+-  __TEXT.__os_log: 0x8966 sha256:6de22b2b14672d8912e2de8b01397621f532f9008d3005daf5a7f06273980ea8
+-  __TEXT.__const: 0x3c3c sha256:e77a6d05c7d1fdc3bf1d8787877df04c5099fad9c709cfd7e2c450644427a04b
+-  __TEXT_EXEC.__text: 0x28a84 sha256:5a3852484130b6a1aa46d7cfcbe952502c037cfe38a792d0bb98fd58d76795b2
++8.1.3.0.0
++  __TEXT.__cstring: 0x291d sha256:4c0fffb8d9663617bbaf2e8249497c2a403c05fbf297fc550034364285dfdf0b
++  __TEXT.__os_log: 0x8528 sha256:b9a8dd9c8b34aa5c2ca0f7a19bb1c348f1b57a7efd38df74a5ee49246dd2abcc
++  __TEXT.__const: 0x35cc sha256:a0447450148af2cf507a7c162df1c70035c1ac12b9509fa2bcc5c8b8564a88b5
++  __TEXT_EXEC.__text: 0x27038 sha256:ee2c6e403059e5ec83fe0f8371e47ea13722671d43cce609805cd9e2a1a8a084
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x2108 sha256:8a3532966b8901a92cb91b9cba1564e8678eba4e718d591c926ba1659720e480
+-  __DATA.__common: 0x3a8 sha256:4db2fd521b198ad08a6602141c428d23a3bf232e85fd7de8418439e89d7b3d04
++  __DATA.__data: 0x2108 sha256:f106381eec1a4166976a210bb21c90153a6e636afbd0c5d0e87c30312c4f8547
++  __DATA.__common: 0x330 sha256:0645a4a67dcec462dc9f335bb0564e6e39bf12ea7e40cf8de81418210102c2d1
+   __DATA.__bss: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __DATA_CONST.__mod_init_func: 0xb8 sha256:37fe3043a7fc230ff31f4ae5dd1f3d686b8a8383c76053a454a68c9c68dc1904
+-  __DATA_CONST.__mod_term_func: 0xb8 sha256:2cf194b0cb1b4c14e853cc2e16771afa2810e295a94aece724a771087d870937
+-  __DATA_CONST.__const: 0x66c0 sha256:9b24a372f97e8f5d3601caec89397cd039d10491ba56b178baaf5c46d302ab79
+-  __DATA_CONST.__kalloc_type: 0xd40 sha256:f45ab235a943b84a518dffaf59d304a90a8b2894d8aba67e9d102990ae611a56
+-  __DATA_CONST.__auth_got: 0x340 sha256:b65253d98cae64ae98700a24f7a1ca23016f6af95499c97f23eace8797881050
+-  __DATA_CONST.__got: 0x98 sha256:e320c52a183820b651d62fcc974585214f673b7914fcb215b28e4b303bb82b94
+-  UUID: 79402B39-1D4D-3DF0-AD07-366915F117AA
+-  Functions: 1541
+-  Symbols:   2904
+-  CStrings:  520
++  __DATA_CONST.__auth_got: 0x340 sha256:6a26c5ba8e8a4865ff4cd72e5d9dd518d1c5d66c1fc3789e45ad7e0ecaba1275
++  __DATA_CONST.__got: 0x98 sha256:ef647794ed4327fc450a2389aa186479fb9145c39958875a517629b4d471fa48
++  __DATA_CONST.__mod_init_func: 0xa0 sha256:821867e0f090ea5d75f9b5406d76c2a2aaee843d01584f52fbb538c3fed3ebdb
++  __DATA_CONST.__mod_term_func: 0xa0 sha256:0d5fa49bbe8a7663f83ab9bd53b0591cbe17c6b17cbe71092d9d7ff489b753f5
++  __DATA_CONST.__const: 0x5e50 sha256:e8ff0349b7a68cc0eeba04aa18588a50a18ce92d588e276a95420957f5d8dae0
++  __DATA_CONST.__kalloc_type: 0xc80 sha256:2ea7610e79afe2b3b8902c4c9da96895a6a2cea5abcdd304f39f1216b6dc4363
++  UUID: 3F6038F6-ECB7-3008-8245-F2726FCC3438
++  Functions: 1450
++  Symbols:   2782
++  CStrings:  510
+ 
+Symbols:
++ _ZN15AppleJPEGDriver14queue_io_gatedEP11JpegRequest.cold.15
++ _ZN15AppleJPEGDriver14queue_io_gatedEP11JpegRequest.cold.16
++ _ZN15AppleJPEGDriver14queue_io_gatedEP11JpegRequest.cold.17
++ _ZN15AppleJPEGDriver14queue_io_gatedEP11JpegRequest.cold.18
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.13
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.14
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.15
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.16
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.17
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.18
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.19
++ _ZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijb.cold.20
+- _GLOBAL__sub_I_DandelionDFunctions.cpp
+- _GLOBAL__sub_I_DandelionFunctions.cpp
+- _GLOBAL__sub_I_NerineFunctions.cpp
+- __ZL19NerineFunctions_ktv
+- __ZL22DandelionFunctions_ktv
+- __ZL23DandelionDFunctions_ktv
+- __ZN15NerineFunctions10gMetaClassE
+- __ZN15NerineFunctions10superClassE
+- __ZN15NerineFunctions10waitForAXIEv
+- __ZN15NerineFunctions13setupTunablesEyy
+- __ZN15NerineFunctions14_setupTunablesEyy
+- __ZN15NerineFunctions22setupAXIRegisterOffsetEjy
+- __ZN15NerineFunctions4initEv
+- __ZN15NerineFunctions7releaseEv
+- __ZN15NerineFunctions9MetaClassC1Ev
+- __ZN15NerineFunctions9MetaClassC2Ev
+- __ZN15NerineFunctions9MetaClassD0Ev
+- __ZN15NerineFunctions9MetaClassD1Ev
+- __ZN15NerineFunctions9metaClassE
+- __ZN15NerineFunctionsC1EPK11OSMetaClass
+- __ZN15NerineFunctionsC1Ev
+- __ZN15NerineFunctionsC2EPK11OSMetaClass
+- __ZN15NerineFunctionsC2Ev
+- __ZN15NerineFunctionsD0Ev
+- __ZN15NerineFunctionsD1Ev
+- __ZN15NerineFunctionsD2Ev
+- __ZN15NerineFunctionsdlEPvm
+- __ZN15NerineFunctionsnwEm
+- __ZN18DandelionFunctions10gMetaClassE
+- __ZN18DandelionFunctions10superClassE
+- __ZN18DandelionFunctions10waitForAXIEv
+- __ZN18DandelionFunctions13setupTunablesEyy
+- __ZN18DandelionFunctions14_setupTunablesEyy
+- __ZN18DandelionFunctions22setupAXIRegisterOffsetEjy
+- __ZN18DandelionFunctions4initEv
+- __ZN18DandelionFunctions7releaseEv
+- __ZN18DandelionFunctions9MetaClassC1Ev
+- __ZN18DandelionFunctions9MetaClassC2Ev
+- __ZN18DandelionFunctions9MetaClassD0Ev
+- __ZN18DandelionFunctions9MetaClassD1Ev
+- __ZN18DandelionFunctions9metaClassE
+- __ZN18DandelionFunctionsC1EPK11OSMetaClass
+- __ZN18DandelionFunctionsC1Ev
+- __ZN18DandelionFunctionsC2EPK11OSMetaClass
+- __ZN18DandelionFunctionsC2Ev
+- __ZN18DandelionFunctionsD0Ev
+- __ZN18DandelionFunctionsD1Ev
+- __ZN18DandelionFunctionsD2Ev
+- __ZN18DandelionFunctionsdlEPvm
+- __ZN18DandelionFunctionsnwEm
+- __ZN19DandelionDFunctions10gMetaClassE
+- __ZN19DandelionDFunctions10superClassE
+- __ZN19DandelionDFunctions10waitForAXIEv
+- __ZN19DandelionDFunctions13setupTunablesEyy
+- __ZN19DandelionDFunctions14_setupTunablesEyy
+- __ZN19DandelionDFunctions22setupAXIRegisterOffsetEjy
+- __ZN19DandelionDFunctions4initEv
+- __ZN19DandelionDFunctions7releaseEv
+- __ZN19DandelionDFunctions9MetaClassC1Ev
+- __ZN19DandelionDFunctions9MetaClassC2Ev
+- __ZN19DandelionDFunctions9MetaClassD0Ev
+- __ZN19DandelionDFunctions9MetaClassD1Ev
+- __ZN19DandelionDFunctions9metaClassE
+- __ZN19DandelionDFunctionsC1EPK11OSMetaClass
+- __ZN19DandelionDFunctionsC1Ev
+- __ZN19DandelionDFunctionsC2EPK11OSMetaClass
+- __ZN19DandelionDFunctionsC2Ev
+- __ZN19DandelionDFunctionsD0Ev
+- __ZN19DandelionDFunctionsD1Ev
+- __ZN19DandelionDFunctionsD2Ev
+- __ZN19DandelionDFunctionsdlEPvm
+- __ZN19DandelionDFunctionsnwEm
+- __ZNK15NerineFunctions12getMetaClassEv
+- __ZNK15NerineFunctions9MetaClass5allocEv
+- __ZNK18DandelionFunctions12getMetaClassEv
+- __ZNK18DandelionFunctions9MetaClass5allocEv
+- __ZNK19DandelionDFunctions12getMetaClassEv
+- __ZNK19DandelionDFunctions9MetaClass5allocEv
+- __ZTV15NerineFunctions
+- __ZTV18DandelionFunctions
+- __ZTV19DandelionDFunctions
+- __ZTVN15NerineFunctions9MetaClassE
+- __ZTVN18DandelionFunctions9MetaClassE
+- __ZTVN19DandelionDFunctions9MetaClassE
+- __ZThn16_N15NerineFunctions10waitForAXIEv
+- __ZThn16_N15NerineFunctions13setupTunablesEyy
+- __ZThn16_N15NerineFunctions22setupAXIRegisterOffsetEjy
+- __ZThn16_N15NerineFunctions4initEv
+- __ZThn16_N15NerineFunctions7releaseEv
+- __ZThn16_N18DandelionFunctions10waitForAXIEv
+- __ZThn16_N18DandelionFunctions13setupTunablesEyy
+- __ZThn16_N18DandelionFunctions22setupAXIRegisterOffsetEjy
+- __ZThn16_N18DandelionFunctions4initEv
+- __ZThn16_N18DandelionFunctions7releaseEv
+- __ZThn16_N19DandelionDFunctions10waitForAXIEv
+- __ZThn16_N19DandelionDFunctions13setupTunablesEyy
+- __ZThn16_N19DandelionDFunctions22setupAXIRegisterOffsetEjy
+- __ZThn16_N19DandelionDFunctions4initEv
+- __ZThn16_N19DandelionDFunctions7releaseEv
+- __ZZN12AppleJPEGHal4initEjP15AppleJPEGDriverP9IOServiceP10IOWorkLoopjbbjE11_os_log_fmt__14_
+- __ZZN15NerineFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt
+- __ZZN15NerineFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_0
+- __ZZN15NerineFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_1
+- __ZZN15NerineFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_2
+- __ZZN15NerineFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_3
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_0
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_1
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_2
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_3
+- __ZZN18DandelionFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_4
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_0
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_1
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_2
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_3
+- __ZZN19DandelionDFunctions22setupAXIRegisterOffsetEjyE11_os_log_fmt_4
+- __ZZNSt3__16vectorIP13ajpeg_setup_tNS_9allocatorIS2_EEE12emplace_backIJRKS2_EEERS2_DpOT_ENKUlvE0_clEv
+CStrings:
+- "AppleJPEGDriver: ** Temporarily disabling setPerfState support for 0x%x\n"
+- "DandelionDFunctions"
+- "DandelionFunctions"
+- "NerineFunctions"
+- "site.DandelionDFunctions"
+- "site.DandelionFunctions"
+- "site.NerineFunctions"
+- "virtual bool DandelionDFunctions::setupAXIRegisterOffset(uint32_t, uint64_t)"
+- "virtual bool DandelionFunctions::setupAXIRegisterOffset(uint32_t, uint64_t)"
+- "virtual bool NerineFunctions::setupAXIRegisterOffset(uint32_t, uint64_t)"
+
+```

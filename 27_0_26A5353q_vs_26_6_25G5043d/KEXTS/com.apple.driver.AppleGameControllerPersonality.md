@@ -1,0 +1,147 @@
+## com.apple.driver.AppleGameControllerPersonality
+
+> `com.apple.driver.AppleGameControllerPersonality`
+
+```diff
+
+-14.0.14.0.0
+-  __TEXT.__cstring: 0x22b sha256:0235078370c50da86df97f27e16310d1fe6fd2906ea88685981040597ff03d3f
+-  __TEXT.__os_log: 0x76 sha256:13f904fe721001ac4eeab1ab79930ce291381cb913cd65d011247df454fa4c18
+-  __TEXT_EXEC.__text: 0x1b20 sha256:faf8c02b6859f722fe1708cf3218061f76806dd26b31e3b89c589b9edf5cce9c
++13.6.1.0.0
++  __TEXT.__cstring: 0xeb sha256:28d6fcbd5bf0413999445c14c2de60d002d91f3f63ffc3f243024fd8c91a07c6
++  __TEXT.__os_log: 0x53 sha256:06af6fda1a9ed90935c6ba2c5891d0cb52f847b6afa3e246dd7fde50ac6ca82b
++  __TEXT_EXEC.__text: 0x700 sha256:169a5c2aa7d989896f48191cd3b18fbef7109435957df81e8fdc3eb50201a45b
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:10aee21198de811b59ac918f521426672f0fb531f792638665453e50f3eb8342
+-  __DATA.__common: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__mod_init_func: 0x18 sha256:58ac835e1836b100551fa13a2a2cf026ed314a2bbd77a86e5cc1b114428b58c6
+-  __DATA_CONST.__mod_term_func: 0x18 sha256:f333ffea60ff1f0598d0b8d577576113f3c3f572d1bb850a79d06dc9ccb2bc83
+-  __DATA_CONST.__const: 0x2080 sha256:c3437260d433723822db12ce799e807059f180df50da1bddabecfcd503b1320a
+-  __DATA_CONST.__kalloc_type: 0xc0 sha256:531473b0558dcd85403d198a1e799288e0c1df4ca71f0427b86a9819b159f0d7
+-  __DATA_CONST.__auth_got: 0xa0 sha256:a0cb7e5d5850d0e8edb64c9591ec12c44087bf2cfde6ea5fb6c1dc7a371c0d2d
+-  __DATA_CONST.__got: 0x70 sha256:2ae27c231035d91db23d0eaba113c282adcb61b326d814c8a4f3282c64f5d2c5
+-  UUID: 88636140-A1DA-36C4-800C-0F5D89F3980D
+-  Functions: 59
+-  Symbols:   483
+-  CStrings:  29
++  __DATA.__data: 0xc8 sha256:01137b4a40e9a397a9a32a8842c4bdf34b08761e84696ee9cc0067e2eff28870
++  __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
++  __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_CONST.__auth_got: 0x58 sha256:fafa20ea953053943e62d0064723bb618d15d143037951eb78d6136751fd0280
++  __DATA_CONST.__got: 0x30 sha256:32ccd580c4c9231a0bc6fc5b6a590f7db6eb02ff2d92db995aee1fd256009bd0
++  __DATA_CONST.__mod_init_func: 0x8 sha256:efb0bbe0305aee02eb7f0339f69d0903dcd3e11b3b7149e67fb72375543d4dbb
++  __DATA_CONST.__mod_term_func: 0x8 sha256:476d8262aa89a2eb946decd7d8a1971f553c9093c82055c17918a70f730208d8
++  __DATA_CONST.__const: 0xb60 sha256:b63af22a12eae286012abd616c515255b11974f0142a144ebff374597c5c2460
++  __DATA_CONST.__kalloc_type: 0x40 sha256:a737d5fa81d21cc0a6c7b1444eb2c7d3136bee65e9d6b0d454eae6473f5340d6
++  UUID: 5DFDB1BA-3081-34F8-A23F-036CB8149381
++  Functions: 24
++  Symbols:   394
++  CStrings:  13
+ 
+Symbols:
+- _GLOBAL__sub_I_AppleGCHIDProviderPropertyMerger.cpp
+- _GLOBAL__sub_I_AppleGCHIDUserEventDriver.cpp
+- __ZL29AppleGCHIDUserEventDriver_ktv
+- __ZL36AppleGCHIDProviderPropertyMerger_ktv
+- __ZN11OSMetaClass20getMetaClassWithNameEPK8OSSymbol
+- __ZN12OSDictionary14withDictionaryEPKS_j
+- __ZN12OSDictionary9metaClassE
+- __ZN15IORegistryEntry13setPropertiesEP8OSObject
+- __ZN20OSCollectionIterator14withCollectionEPK12OSCollection
+- __ZN24IOProviderPropertyMerger10gMetaClassE
+- __ZN24IOProviderPropertyMerger11setPropertyEPK8OSSymbolP8OSObject
+- __ZN24IOProviderPropertyMerger16setPropertyTableEP12OSDictionary
+- __ZN24IOProviderPropertyMerger4initEP12OSDictionary
+- __ZN24IOProviderPropertyMergerC2EPK11OSMetaClass
+- __ZN24IOProviderPropertyMergerD2Ev
+- __ZN25AppleGCHIDUserEventDriver10gMetaClassE
+- __ZN25AppleGCHIDUserEventDriver10superClassE
+- __ZN25AppleGCHIDUserEventDriver11handleStartEP9IOService
+- __ZN25AppleGCHIDUserEventDriver11setPropertyEPK8OSSymbolP8OSObject
+- __ZN25AppleGCHIDUserEventDriver12didTerminateEP9IOServicejPb
+- __ZN25AppleGCHIDUserEventDriver5probeEP9IOServicePi
+- __ZN25AppleGCHIDUserEventDriver9MetaClassC1Ev
+- __ZN25AppleGCHIDUserEventDriver9MetaClassC2Ev
+- __ZN25AppleGCHIDUserEventDriver9MetaClassD0Ev
+- __ZN25AppleGCHIDUserEventDriver9MetaClassD1Ev
+- __ZN25AppleGCHIDUserEventDriver9metaClassE
+- __ZN25AppleGCHIDUserEventDriverC1EPK11OSMetaClass
+- __ZN25AppleGCHIDUserEventDriverC1Ev
+- __ZN25AppleGCHIDUserEventDriverC2EPK11OSMetaClass
+- __ZN25AppleGCHIDUserEventDriverC2Ev
+- __ZN25AppleGCHIDUserEventDriverD0Ev
+- __ZN25AppleGCHIDUserEventDriverD1Ev
+- __ZN25AppleGCHIDUserEventDriverD2Ev
+- __ZN25AppleGCHIDUserEventDriverdlEPvm
+- __ZN25AppleGCHIDUserEventDrivernwEm
+- __ZN32AppleGCHIDProviderPropertyMerger10gMetaClassE
+- __ZN32AppleGCHIDProviderPropertyMerger10superClassE
+- __ZN32AppleGCHIDProviderPropertyMerger15mergePropertiesEP9IOServiceP12OSDictionary
+- __ZN32AppleGCHIDProviderPropertyMerger17mergeDictionariesEP12OSDictionaryS1_b
+- __ZN32AppleGCHIDProviderPropertyMerger5probeEP9IOServicePi
+- __ZN32AppleGCHIDProviderPropertyMerger9MetaClassC1Ev
+- __ZN32AppleGCHIDProviderPropertyMerger9MetaClassC2Ev
+- __ZN32AppleGCHIDProviderPropertyMerger9MetaClassD0Ev
+- __ZN32AppleGCHIDProviderPropertyMerger9MetaClassD1Ev
+- __ZN32AppleGCHIDProviderPropertyMerger9metaClassE
+- __ZN32AppleGCHIDProviderPropertyMergerC1EPK11OSMetaClass
+- __ZN32AppleGCHIDProviderPropertyMergerC1Ev
+- __ZN32AppleGCHIDProviderPropertyMergerC2EPK11OSMetaClass
+- __ZN32AppleGCHIDProviderPropertyMergerC2Ev
+- __ZN32AppleGCHIDProviderPropertyMergerD0Ev
+- __ZN32AppleGCHIDProviderPropertyMergerD1Ev
+- __ZN32AppleGCHIDProviderPropertyMergerD2Ev
+- __ZN32AppleGCHIDProviderPropertyMergerdlEPvm
+- __ZN32AppleGCHIDProviderPropertyMergernwEm
+- __ZN8OSNumber9metaClassE
+- __ZN8OSString9metaClassE
+- __ZN8OSSymbol10withStringEPK8OSString
+- __ZN8OSSymbol9metaClassE
+- __ZN9IOService10gMetaClassE
+- __ZN9IOService10handleOpenEPS_jPv
+- __ZN9IOService11handleCloseEPS_j
+- __ZN9IOService12didTerminateEPS_jPb
+- __ZN9IOService13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClient
+- __ZN9IOService18matchPropertyTableEP12OSDictionaryPi
+- __ZN9IOService4freeEv
+- __ZN9IOService4stopEPS_
+- __ZN9IOService5closeEPS_j
+- __ZN9IOService5startEPS_
+- __ZN9IOService7messageEjPS_Pv
+- __ZN9IOService8DispatchE5IORPC
+- __ZNK11OSMetaClass13getSuperClassEv
+- __ZNK25AppleGCHIDUserEventDriver12getMetaClassEv
+- __ZNK25AppleGCHIDUserEventDriver9MetaClass5allocEv
+- __ZNK32AppleGCHIDProviderPropertyMerger12getMetaClassEv
+- __ZNK32AppleGCHIDProviderPropertyMerger9MetaClass5allocEv
+- __ZNK9IOService12handleIsOpenEPKS_
+- __ZTV25AppleGCHIDUserEventDriver
+- __ZTV32AppleGCHIDProviderPropertyMerger
+- __ZTVN25AppleGCHIDUserEventDriver9MetaClassE
+- __ZTVN32AppleGCHIDProviderPropertyMerger9MetaClassE
+- __ZZN25AppleGCHIDUserEventDriver5probeEP9IOServicePiE11_os_log_fmt
+- _gIOProviderClassKey
+- _kOSBooleanFalse
+- _strlen
+- _strncmp
+CStrings:
+- "12111112122212121"
+- "AppleGCHIDProviderPropertyMerger"
+- "AppleGCHIDUserEventDriver"
+- "AppleGCHIDUserEventDriver::probe()"
+- "CFBundleIdentifier"
+- "GCSyntheticDevice"
+- "HIDVirtualDevice"
+- "IOHID"
+- "IOProviderMergeProperties"
+- "IOProviderMergePropertiesTargetClass"
+- "IOUserClass"
+- "PrimaryUsagePage"
+- "Privileged"
+- "com.apple."
+- "site.AppleGCHIDProviderPropertyMerger"
+- "site.AppleGCHIDUserEventDriver"
+
+```

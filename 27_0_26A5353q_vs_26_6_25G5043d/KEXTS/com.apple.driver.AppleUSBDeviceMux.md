@@ -1,0 +1,67 @@
+## com.apple.driver.AppleUSBDeviceMux
+
+> `com.apple.driver.AppleUSBDeviceMux`
+
+```diff
+
+-569.0.0.0.0
++560.100.4.0.0
+   __TEXT.__const: 0x34 sha256:c064182920c2c47f2d007e32363ef1775ed1b4f7eccfebc7bf10a2aa35ad47a4
+-  __TEXT.__cstring: 0x1359 sha256:8df0dc23d6a00d31f09062ea5c57155beaab98aa1daf5c1603ffe5d8753a675b
+-  __TEXT_EXEC.__text: 0x5a04 sha256:546c51950dce8d206e0b19b10e15ab2a4ce43012d94521312138dec1f31c9297
++  __TEXT.__cstring: 0x1322 sha256:5b9807e4058be3d6584fcea1c98c45e65efe751d910e6ae23dfdc15f90dc8810
++  __TEXT_EXEC.__text: 0x59ac sha256:08de565d1930ba1919ea5baff49bd96f9c5510969c0109fadafcce98a82a4c79
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:e0487099ff7eb7c47fb445e97d47f5f5285d183d80115a30f3c8f1ea20d4e62c
++  __DATA.__data: 0xc8 sha256:d31e42cc66692c490fa3494780577ff44b7a9d99bde3668bf6b5175f08979e31
+   __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:94928aa2599538cb640bc6503ec6c1affabcc12a88cc7dba71c349df9bb7b723
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:96bb142f0a67c68ca11a1ede590231887dfb67f79650ff11caac987cf3b3147c
+-  __DATA_CONST.__const: 0xcc0 sha256:9d57406579df593d7e172ab27940cff3c1506c5595cc060a71d22612556c0432
+-  __DATA_CONST.__kalloc_type: 0x440 sha256:c22350864278fa7b07e61d5f8a84710627c4663ccab529e056335233bb66f0b7
+-  __DATA_CONST.__auth_got: 0x260 sha256:4a1cd2721be5fad079e5dec1a86160a56873482f1a6d947c489eb93b4bc671e8
+-  __DATA_CONST.__got: 0x50 sha256:c7834ff85359a20f50efa9d5581b07a2ccd43efa05e8821d23d75d00f68b62f0
+-  UUID: 70009E21-4275-3BAA-AE1E-89753641CF93
+-  Functions: 97
+-  Symbols:   521
+-  CStrings:  145
++  __DATA_CONST.__auth_got: 0x260 sha256:56cd2251d43d8064b9124741dfa8d97468749782788c544ff913e06dba510916
++  __DATA_CONST.__got: 0x50 sha256:d86b5e75096bae7930432b20bfd60b9646707e11091edfdae5d7b1c77badbdfa
++  __DATA_CONST.__mod_init_func: 0x10 sha256:ae9b213c2cd5f51614740ce350d34b779f458d682ea2f04b2852f2de6eefbf3b
++  __DATA_CONST.__mod_term_func: 0x10 sha256:b53094a7da58eb0beb05c12de0f2bb81884844a32b441ab92dd2497872750ac2
++  __DATA_CONST.__const: 0xcc0 sha256:e6ffe71eee4cbdced9b347c0948ea5848d8f2658649b994062a086d8a41e416e
++  __DATA_CONST.__kalloc_type: 0x440 sha256:2c33ccd945686b6b05bb47a34035161e165edb1c49bd8655136573df0b8ac661
++  UUID: 86019BA8-A699-310D-A010-8B4773458F34
++  Functions: 98
++  Symbols:   522
++  CStrings:  144
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ __ZZN17AppleUSBDeviceMux10newSessionEP6tcphdrE21kalloc_type_view_1028
++ __ZZN17AppleUSBDeviceMux14cleanupSessionEP17BulkUSBMuxSessionE20kalloc_type_view_876
++ __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1709
++ __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1727
++ __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1800
++ __ZZN17AppleUSBDeviceMux14resyncWithHostEvE21kalloc_type_view_3197
++ __ZZN17AppleUSBDeviceMux14sendMuxSegmentEP17BulkUSBMuxSessionE21kalloc_type_view_2943
++ __ZZN17AppleUSBDeviceMux18asyncWriteCompleteEP14USBWriteBufferijE21kalloc_type_view_2333
++ __ZZN17AppleUSBDeviceMux18asyncWriteCompleteEP14USBWriteBufferijE21kalloc_type_view_2340
+- __ZZN17AppleUSBDeviceMux10newSessionEP6tcphdrE21kalloc_type_view_1031
+- __ZZN17AppleUSBDeviceMux14cleanupSessionEP17BulkUSBMuxSessionE20kalloc_type_view_879
+- __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1712
+- __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1730
+- __ZZN17AppleUSBDeviceMux14handleMuxInputEP6__mbufE21kalloc_type_view_1803
+- __ZZN17AppleUSBDeviceMux14resyncWithHostEvE21kalloc_type_view_3199
+- __ZZN17AppleUSBDeviceMux14sendMuxSegmentEP17BulkUSBMuxSessionE21kalloc_type_view_2945
+- __ZZN17AppleUSBDeviceMux18asyncWriteCompleteEP14USBWriteBufferijE21kalloc_type_view_2335
+- __ZZN17AppleUSBDeviceMux18asyncWriteCompleteEP14USBWriteBufferijE21kalloc_type_view_2342
+CStrings:
++ "22:52:51"
++ "Jun  9 2026"
+- "01:29:29"
+- "AppleUSBDeviceMux::%s - kMessageInterfaceWasSuspended\n"
+- "May 27 2026"
+
+```

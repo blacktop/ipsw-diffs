@@ -1,0 +1,34 @@
+## com.apple.iokit.IOBDStorageFamily
+
+> `com.apple.iokit.IOBDStorageFamily`
+
+```diff
+
+ 26.0.0.0.0
+   __TEXT.__cstring: 0x1bf sha256:7d95295faeabeb3543a00ed121e013af1677bac8442cef0e82baae2a2998ea11
+-  __TEXT_EXEC.__text: 0x2d4c sha256:22018e666d00b5c546eea179ac8a7be5f12f17a22c455794290e1575817e0c44
++  __TEXT_EXEC.__text: 0x2d4c sha256:c0deed235417646af4c563af30436620ab61d230a9c3e3f6d8c9bd8d29c48435
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:3e4435cfcc44319ce18ab585935fd0584cee95ef1c006192750c9f5cc34fe47c
++  __DATA.__data: 0xc8 sha256:431487dc4437845274de8ef6a2e5bca299d10decda4f1f45ccc60dd69c7bcffe
+   __DATA.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__mod_init_func: 0x20 sha256:cbfe9618efeb38d3fbc92423ec11f720730ffbf21993f2c60229017c264136b6
+-  __DATA_CONST.__mod_term_func: 0x20 sha256:efc65f5e94c0d970d20e212829cad1ce4dce2af5cd28bd351aa4435906f2a5bf
+-  __DATA_CONST.__const: 0x33d0 sha256:cf0123140ea5f87af5c18fd24637e67ad2a95fe0c38aa8c5df757775dffe5a45
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:40393fffa5c414b9dc3735b0b0574aad85b9c663809a77cd169cff7ed4582fe4
+-  __DATA_CONST.__auth_got: 0xb8 sha256:ba574f02e21188b8b19549e55d62e62c396f5feda45884279f44288e8a80c29d
+-  __DATA_CONST.__got: 0x68 sha256:f4e43d1f6f1479c7c2673bc3fd636d54747267d6a48325763a5275f014876922
++  __DATA_CONST.__auth_got: 0xb8 sha256:2542d0906a7ac65b35283618bb4c691ff6f1f3f271f08f009d152d66aa2e8c5c
++  __DATA_CONST.__got: 0x68 sha256:e109db4c450b60eebb1137f865ce88030c2c64b85a5fa81b5843c8b1dc739c2f
++  __DATA_CONST.__mod_init_func: 0x20 sha256:b55e8016c7905e596c2fbb3cc65c6eea3432e00964f69eda155ba080eaedb751
++  __DATA_CONST.__mod_term_func: 0x20 sha256:01655e3fa4c1146741f58d0131571c82f0c7c4fdaf43a5f04850b3f90c244436
++  __DATA_CONST.__const: 0x33d0 sha256:eeb3ab308d585a173f91c5ae6446d565b41f958b8f6e1a25b6d0a73b04919180
++  __DATA_CONST.__kalloc_type: 0x100 sha256:c0389db34a010ffdf9caadfb2f23fe86071a02ccc31a46095464eaed6f315e94
+   __LINKINFO.__symbolsets: 0x25c4 sha256:ed4f2e3599f9f9e880cf997cdd4f0417c842f5c259cde4933ee0e50356488ec4
+-  UUID: AC1061B3-E12D-3A52-9540-D4A4C6DED3A6
++  UUID: 2B57389C-31F0-311D-8E56-15BA594E43C8
+   Functions: 148
+   Symbols:   823
+   CStrings:  25
+
+```

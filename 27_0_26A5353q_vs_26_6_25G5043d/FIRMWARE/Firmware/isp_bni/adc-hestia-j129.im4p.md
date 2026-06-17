@@ -1,0 +1,58 @@
+## adc-hestia-j129.im4p
+
+> `Firmware/isp_bni/adc-hestia-j129.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x6e6e20 sha256:d7cd12599ca842a171fcd060726454501bab782fbbceec7ed57eb34c3283a185
+-  __TEXT.__cstring: 0xd17c1 sha256:95dce8485d3a8ea9e53982a9597c2969d1546a6534a89af6e216dcbecb972b01
+-  __TEXT.__const: 0x1501d8 sha256:2d3c357ca03bc9ccde4beb517bd522cdace3b92a70c042757e62e8504bc590b3
+-  __TEXT.text_env: 0x4c5c4 sha256:66ca18fe7de8e9726157cf0eef6d907a99b5c5b0c0cdb4d01f9d769527c541b9
++  __TEXT.__text: 0x6e33c0 sha256:c9a386303d1208d42cb63196e9627d28dbce65be056e3dd340e90adf635db5bf
++  __TEXT.__cstring: 0xd17c1 sha256:dccf16c811749bc18e2c440f4619b0dbdfdace0971eb990209d694432a7a16a3
++  __TEXT.__const: 0x1501c8 sha256:94ac62555d73d48f1f96615842f79b17d3ee24e7d1f1d1d370f32bca016f5bd5
++  __TEXT.text_env: 0x4c5c4 sha256:e4f8423b922618a732b6b234fddf2a5fe554be8f0c04018bee625616590b6237
+   __TEXT.__ustring: 0xe sha256:2f086c51175149bd2e09a7c772084da1bddcbff283e2a81ff8986f4efa45b467
+-  __TEXT._rtk_mtab: 0x2a0 sha256:ee18e1c8d0fae78fca5a9f8a16ec5e5cc2a7a853bb6e8a658974f680498950b9
+-  __TEXT.__data_copy: 0x80000 sha256:646905bfdf88d40c863a4ec280167806a28e8071eb3983e53da43847c4d15438
++  __TEXT._rtk_mtab: 0x2a0 sha256:5165b4f5e0a72868dfc3602ac1c62ec3f95d0cc6a835c5003a5882fb811e2bd0
++  __TEXT.__data_copy: 0x80000 sha256:6f93a720f9724b87ac4a068cc35aa085b0839aa065c39519a362262baf9b5016
+   __TEXT.__constructor: 0x0
+   __TEXT.__chain_starts: 0x0
+-  __DATA.__const: 0x45498 sha256:49874a9541091588c8ef5ff3782b75a6db95194e8f16a9832e5704c298049723
++  __DATA.__const: 0x45498 sha256:b724689fa000986d4a9bea001e47440552dd9db19684912b984e7a9d50df8620
+   __DATA._rtk_heap: 0x1000 sha256:ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7
+-  __DATA.__data: 0x71f8 sha256:779200e6060697e8761659be690879c3bc6c67715158519f40abaad29084517d
+-  __DATA._rtk_patchbay: 0x211 sha256:a886a1fe1212a75f059edffd75b62402b0605255ff917cf4eb13d736d25ab142
++  __DATA.__data: 0x7168 sha256:4c1563fec8954fd316a2f0f5be626c0498dfc6d9e04ccde9e977642ad228b775
++  __DATA._rtk_patchbay: 0x211 sha256:538c1c869e1140e67383f050d046045405f9057aaf29ed689e6ef8ff821faf0b
+   __DATA._rtk_init_stack: 0x1000 sha256:a58a5a5fd0fbe091da4f0002b097ea1d54081034cedc964226a8fcf703e37c81
+   __DATA._rtk_irq_stack: 0x1000 sha256:a58a5a5fd0fbe091da4f0002b097ea1d54081034cedc964226a8fcf703e37c81
+   __DATA._rtk_exc_stack: 0x1000 sha256:a58a5a5fd0fbe091da4f0002b097ea1d54081034cedc964226a8fcf703e37c81
+-  __DATA._rtk_power: 0x368 sha256:afe01846fae22539c32ebdb4f5a709e8a37d3b2197c9515720c4c822c87f49f9
++  __DATA._rtk_power: 0x368 sha256:45a4376d9740d4a4e7c2204fe6981ac24aeb5440da211ab4e6937a3f4c7592e5
+   __DATA._rtk_tunables: 0x5b0 sha256:6b06640d4fe2ca4170b84c9c8083d4ceef29d646c40cb5431d64d14b10d735d3
+   __DATA._rtk_boot: 0x8000 sha256:c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479
+   __DATA._rtk_page_tables: 0x300000 sha256:bbd05cf6097ac9b1f89ea29d2542c1b7b67ee46848393895f5a9e43fa1f621e5
+   __DATA._rtk_threads: 0x0
+-  __DATA._fwinfo: 0x100 sha256:0686f88bb4ac2eefb4a60b7227ae56787385405a4d7f5859c90b092130403e8f
++  __DATA._fwinfo: 0x100 sha256:aa2d4e634073625cbf09e6d5a00935b1a406aa6b5274809fdd998ca84eacd16b
+   __DATA._rtk_boot_l1: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA.__mod_init_func: 0x10 sha256:1a7f33ea18042793614c14e37440ce35e6e0255b5ad2231df5d31655e058a998
++  __DATA.__mod_init_func: 0x10 sha256:4515846090efac06627d266dc5666cdf23d36ed2f306f294aeb5ae964e569fd2
+   __DATA.__gxf_data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__noinit: 0x0
+   __DATA.__zerofill: 0xbf6a8 sha256:f04ffda368c6d8e0f304f8e17f281e42a4105a701bddbf2f6e505591b97cf0f2
+-  UUID: 61943D19-A524-3DD6-8A1E-8C766DF7CD9A
++  UUID: 33E54544-C614-3557-9C04-31A9BBA835F3
+   Functions: 0
+   Symbols:   0
+   CStrings:  23213
+CStrings:
++ "21:12:01"
++ "Jun  1 2026"
+- "00:10:08"
+- "May 23 2026"
+
+```

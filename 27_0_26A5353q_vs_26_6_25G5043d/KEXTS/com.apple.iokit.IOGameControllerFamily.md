@@ -1,0 +1,151 @@
+## com.apple.iokit.IOGameControllerFamily
+
+> `com.apple.iokit.IOGameControllerFamily`
+
+```diff
+
+-14.0.14.0.0
++13.6.1.0.0
+   __TEXT.__const: 0x480 sha256:8ac690c50ee5b0abff83b0bd38a1d1b9232e3e6b709117ad373542e490163196
+-  __TEXT.__cstring: 0x101c sha256:d4542dc6f7aa6d2e21dffe1d350e1e95636ba409cd87b4f3e9936f0da4e8227e
+-  __TEXT.__os_log: 0x1c4a sha256:65c1810ef3494ab2c6b1a92d6a1e78567c5b7eefb2c37bf1d615837f641d6080
+-  __TEXT_EXEC.__text: 0x1b5ac sha256:0db4f2cb572aa88c09e01f607d6979dfbed649a3d7414d378eb567e2a1a55a36
++  __TEXT.__cstring: 0xeb6 sha256:6d6e5b28d0b499a250c313da57dfb8ae27858d9d3938aa88a2e2af8e236de020
++  __TEXT.__os_log: 0x1b00 sha256:95c4b767829d6170195221f3592038bced9e0b09b01d1e85f1f75d5efaf3c0f7
++  __TEXT_EXEC.__text: 0x195dc sha256:b934b8fc2ac23a1051462af62442edd31f6099d12fe602a3046296d50e121ed7
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:2240b157a35a225e47b39ea68c81034168c2b82ad8c1ca9fe5d5de28aa6b90ff
+-  __DATA.__common: 0x290 sha256:e06e79cdfedfc6d6107b945613e65b2de3a209e40115b9b00ab048d2b91cd7d5
+-  __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__mod_init_func: 0x60 sha256:38be45d9e85e6e36606c420d43c48e8218adf5f2521742c8e31dca28ac6e2beb
+-  __DATA_CONST.__mod_term_func: 0x60 sha256:59e90625b5d03ce757f6c8781aa17cc1dd41b52ddb797e48f420ffed0b2c6873
+-  __DATA_CONST.__const: 0x8c10 sha256:6ac1e55d295379656ba8df1b9bb2673d514c94f65f18b386824af758a4a212d9
+-  __DATA_CONST.__kalloc_type: 0x840 sha256:dc6ababaeef6225e1d96aafaccf953003aa460f2f8dca8717a87f49cf9f1f7b7
+-  __DATA_CONST.__auth_got: 0x2a0 sha256:21656a3ee4a311f329acb4e982510575f4fa36aaada27e34c4347e08945b21b4
+-  __DATA_CONST.__got: 0xd8 sha256:1557a1f81c442681237ad2251887b3c8e0e7648eee834936147543e37040469e
+-  UUID: 5D1CCB0E-D52B-3FA2-B83E-AD1E0D28BE51
+-  Functions: 676
+-  Symbols:   1060
+-  CStrings:  298
++  __DATA.__data: 0xc8 sha256:5701194dead76a83d1c640b655d65d98d3dc8ebb14da6f54e9bc805a76436757
++  __DATA.__common: 0x240 sha256:1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4
++  __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
++  __DATA_CONST.__auth_got: 0x290 sha256:fe816b244798ca5c6aad26a711b3dce256c79aec0f177ab4f1ba54d539735c5e
++  __DATA_CONST.__got: 0xd8 sha256:0f4eb5d36e261a8d42010e4e19ea1fa5cf42dd8166fbb11ad7e12b6a7b6587be
++  __DATA_CONST.__mod_init_func: 0x50 sha256:93085ff7da39047561f3eeddbbd25958b1bc22dedd01540dff6fd56d6b8a2799
++  __DATA_CONST.__mod_term_func: 0x50 sha256:a418c5aaa8f719ea9d7e03e9a5c5722f1a93d34df1cbed8842f420f9b8d28db4
++  __DATA_CONST.__const: 0x76b0 sha256:f20d30e8855de3ce345acff56291f0816e206b74030ce985ab0f87d13138dbe7
++  __DATA_CONST.__kalloc_type: 0x7c0 sha256:47aa7b67300cec0fe2dc096f91ff004284a69d46934a670f92432ae6eddfaecd
++  UUID: 720C95A3-F65B-3979-B46E-D9EF21BDBF45
++  Functions: 626
++  Symbols:   974
++  CStrings:  276
+ 
+Symbols:
++ _OUTLINED_FUNCTION_24
+- _GLOBAL__sub_I_IOGCDynamicDeviceProbe.cpp
+- _GLOBAL__sub_I_IOGCDynamicDeviceProbeUserClient.cpp
+- _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.1
+- _ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService.cold.2
+- __ZL26IOGCDynamicDeviceProbe_ktv
+- __ZL36IOGCDynamicDeviceProbeUserClient_ktv
+- __ZN12IOUserClient19clientMemoryForTypeEjPjPP18IOMemoryDescriptor
+- __ZN22IOGCDynamicDeviceProbe10gMetaClassE
+- __ZN22IOGCDynamicDeviceProbe10handleOpenEP9IOServicejPv
+- __ZN22IOGCDynamicDeviceProbe10superClassE
+- __ZN22IOGCDynamicDeviceProbe11handleCloseEP9IOServicej
+- __ZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionary
+- __ZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicej
+- __ZN22IOGCDynamicDeviceProbe4stopEP9IOService
+- __ZN22IOGCDynamicDeviceProbe5probeEP9IOServicePi
+- __ZN22IOGCDynamicDeviceProbe5startEP9IOService
+- __ZN22IOGCDynamicDeviceProbe9MetaClassC1Ev
+- __ZN22IOGCDynamicDeviceProbe9MetaClassC2Ev
+- __ZN22IOGCDynamicDeviceProbe9MetaClassD0Ev
+- __ZN22IOGCDynamicDeviceProbe9MetaClassD1Ev
+- __ZN22IOGCDynamicDeviceProbe9getDeviceEv
+- __ZN22IOGCDynamicDeviceProbe9metaClassE
+- __ZN22IOGCDynamicDeviceProbeC1EPK11OSMetaClass
+- __ZN22IOGCDynamicDeviceProbeC1Ev
+- __ZN22IOGCDynamicDeviceProbeC2EPK11OSMetaClass
+- __ZN22IOGCDynamicDeviceProbeC2Ev
+- __ZN22IOGCDynamicDeviceProbeD0Ev
+- __ZN22IOGCDynamicDeviceProbeD1Ev
+- __ZN22IOGCDynamicDeviceProbeD2Ev
+- __ZN22IOGCDynamicDeviceProbedlEPvm
+- __ZN22IOGCDynamicDeviceProbenwEm
+- __ZN32IOGCDynamicDeviceProbeUserClient10gMetaClassE
+- __ZN32IOGCDynamicDeviceProbeUserClient10superClassE
+- __ZN32IOGCDynamicDeviceProbeUserClient11clientCloseEv
+- __ZN32IOGCDynamicDeviceProbeUserClient12didTerminateEP9IOServicejPb
+- __ZN32IOGCDynamicDeviceProbeUserClient12initWithTaskEP4taskPvj
+- __ZN32IOGCDynamicDeviceProbeUserClient14_userGetDeviceEPS_PvP25IOExternalMethodArguments
+- __ZN32IOGCDynamicDeviceProbeUserClient14externalMethodEjP31IOExternalMethodArgumentsOpaque
+- __ZN32IOGCDynamicDeviceProbeUserClient17_userAcceptDeviceEPS_PvP25IOExternalMethodArguments
+- __ZN32IOGCDynamicDeviceProbeUserClient17_userRejectDeviceEPS_PvP25IOExternalMethodArguments
+- __ZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArguments
+- __ZN32IOGCDynamicDeviceProbeUserClient40createMemoryDescriptorFromInputArgumentsEP25IOExternalMethodArguments
+- __ZN32IOGCDynamicDeviceProbeUserClient4freeEv
+- __ZN32IOGCDynamicDeviceProbeUserClient4stopEP9IOService
+- __ZN32IOGCDynamicDeviceProbeUserClient5startEP9IOService
+- __ZN32IOGCDynamicDeviceProbeUserClient8_methodsE
+- __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassC1Ev
+- __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassC2Ev
+- __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassD0Ev
+- __ZN32IOGCDynamicDeviceProbeUserClient9MetaClassD1Ev
+- __ZN32IOGCDynamicDeviceProbeUserClient9metaClassE
+- __ZN32IOGCDynamicDeviceProbeUserClientC1EPK11OSMetaClass
+- __ZN32IOGCDynamicDeviceProbeUserClientC1Ev
+- __ZN32IOGCDynamicDeviceProbeUserClientC2EPK11OSMetaClass
+- __ZN32IOGCDynamicDeviceProbeUserClientC2Ev
+- __ZN32IOGCDynamicDeviceProbeUserClientD0Ev
+- __ZN32IOGCDynamicDeviceProbeUserClientD1Ev
+- __ZN32IOGCDynamicDeviceProbeUserClientD2Ev
+- __ZN32IOGCDynamicDeviceProbeUserClientdlEPvm
+- __ZN32IOGCDynamicDeviceProbeUserClientnwEm
+- __ZNK22IOGCDynamicDeviceProbe12getMetaClassEv
+- __ZNK22IOGCDynamicDeviceProbe9MetaClass5allocEv
+- __ZNK32IOGCDynamicDeviceProbeUserClient12getMetaClassEv
+- __ZNK32IOGCDynamicDeviceProbeUserClient9MetaClass5allocEv
+- __ZTV22IOGCDynamicDeviceProbe
+- __ZTV32IOGCDynamicDeviceProbeUserClient
+- __ZTVN22IOGCDynamicDeviceProbe9MetaClassE
+- __ZTVN32IOGCDynamicDeviceProbeUserClient9MetaClassE
+- __ZZN22IOGCDynamicDeviceProbe5probeEP9IOServicePiE11_os_log_fmt
+- __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt
+- __ZZN22IOGCDynamicDeviceProbe5startEP9IOServiceE11_os_log_fmt_0
+- __ZZN32IOGCDynamicDeviceProbeUserClient25unserializeInputArgumentsEP25IOExternalMethodArgumentsE11_os_log_fmt
+- __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt
+- __ZZN32IOGCDynamicDeviceProbeUserClient5startEP9IOServiceE11_os_log_fmt_0
+- ____ZN22IOGCDynamicDeviceProbe13markSupportedEP9IOServicejPK12OSDictionary_block_invoke
+- ____ZN22IOGCDynamicDeviceProbe15markUnsupportedEP9IOServicej_block_invoke
+- __block_descriptor_tmp.16
+- __gc_log_dynamic_device
+- _gc_log_dynamic_device.Log
+- _strlen
+- _strncmp
+CStrings:
+- "12111112122212121112"
+- "CFBundleIdentifier"
+- "DynamicDevice"
+- "GCSyntheticDevice"
+- "GameControllerClass"
+- "GameControllerSupportedHIDDevice"
+- "IOGCDynamicDeviceProbe"
+- "IOGCDynamicDeviceProbe::probe(<IOHIDDevice %#010llx>)"
+- "IOGCDynamicDeviceProbeUserClient"
+- "IOUserClass"
+- "Privileged"
+- "Rapport"
+- "[%#010llx] <IOHIDDevice %#010llx> already probed."
+- "[%#010llx] Failed to open provider."
+- "[%#010llx] IOGCDynamicDeviceProbe::start(<IOService %#010llx>)"
+- "[%#010llx] IOGCDynamicDeviceProbeUserClient::start(<IOService %#010llx>) for pid %i, %s"
+- "com.apple."
+- "com.apple.private.game-controller.dynamic-device-manager"
+- "dynamic"
+- "mfi"
+- "site.IOGCDynamicDeviceProbe"
+- "site.IOGCDynamicDeviceProbeUserClient"
+
+```

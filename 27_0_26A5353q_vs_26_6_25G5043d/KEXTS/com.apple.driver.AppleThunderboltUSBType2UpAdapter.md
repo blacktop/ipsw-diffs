@@ -1,0 +1,35 @@
+## com.apple.driver.AppleThunderboltUSBType2UpAdapter
+
+> `com.apple.driver.AppleThunderboltUSBType2UpAdapter`
+
+```diff
+
+-138.0.0.0.0
++135.100.1.0.0
+   __TEXT.__cstring: 0x206b sha256:72ae1e3537f29cc57d4194e580ca68467201571b2711c6100af7d740a3fdd506
+   __TEXT.__os_log: 0x1d9b sha256:40b387df0f2ab5c609210006bf2b8d48b49e027e096df52edad222085f187907
+-  __TEXT_EXEC.__text: 0xae20 sha256:5b98524cbedbb594c9d1bf719f6a70a1b2254d34f6ccc5c068df101542deb289
++  __TEXT_EXEC.__text: 0xae20 sha256:8f3774cf1745ed28eb64875e4d4b6952ddad1b6d55e272f5ac2e98330c5d5240
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x1e8 sha256:d81f8a8d0463242ff8c74f9706be1b0e3b94b0040a3e702ae6fde23edb6fd767
++  __DATA.__data: 0x1e8 sha256:28b395222e26bcba4a012128c3726ca6bcc67616875b180c6766ee8935ec743d
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:d76b116034604d17712e70197bab88c21600182df60cc32d8bedf718ea6fe65e
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:6c65186287bf31eca5cabb66cbf9190c462a9500bf8d6071a3424e8457e6a632
+-  __DATA_CONST.__const: 0xde8 sha256:65146e1e18e57950ecc05450d3a6fcd4954cf113d17f15ab7d436aa413e3c035
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:fb2768e6da63968152dd3179dd059f37fc33547a77703cbb7b0fc4d785802ce6
+-  __DATA_CONST.__auth_got: 0xd8 sha256:f473eb4a4b255ce26cb93ff944c85807f8270c8dde293c46aafdd300221fe49c
+-  __DATA_CONST.__got: 0x48 sha256:7c0ec66e2f0bfabb85d88e385d271593742f7c16f17ba08162a9a44cde47e67c
+-  UUID: 5ABB8471-8B1E-3852-920F-9B909ECA10C9
++  __DATA_CONST.__auth_got: 0xd8 sha256:916fde198bd7e7c72ea54e99278a44e1c7a62e7c15a865d81a8d294466f4070c
++  __DATA_CONST.__got: 0x48 sha256:d0f7057d3efd23f9899d9d7cd391009f5eca128daf101c1d23960bb2a64087dd
++  __DATA_CONST.__mod_init_func: 0x8 sha256:6087a65f04f7353908699d4a9672ce314335847e835f9c4ac340a6e1ca2edc00
++  __DATA_CONST.__mod_term_func: 0x8 sha256:b8ceed554aa33ba1a19eb29da0d34af5dfe84ed516618a5217b90076e097235e
++  __DATA_CONST.__const: 0xde8 sha256:bfc134a67577a6bf5df3c34f83fea9654cdfce8671428bee60efaed697a948bf
++  __DATA_CONST.__kalloc_type: 0x40 sha256:1c018b911fec4e15a1d77f1ac07bb161d229c3f1f82f70561340a4b71e78c5cb
++  UUID: BB57E1A5-D095-3582-B5DB-CF9598D0B985
+   Functions: 58
+   Symbols:   573
+   CStrings:  172
+
+```

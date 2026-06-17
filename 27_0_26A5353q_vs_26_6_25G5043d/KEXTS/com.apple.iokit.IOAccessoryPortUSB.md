@@ -1,0 +1,34 @@
+## com.apple.iokit.IOAccessoryPortUSB
+
+> `com.apple.iokit.IOAccessoryPortUSB`
+
+```diff
+
+-1062.0.0.0.1
++1044.120.2.0.0
+   __TEXT.__cstring: 0x651 sha256:f640f1b0bb6e9285e9ae05f931da3188bcf25e97dcfd41b1d3e4297376dd5263
+-  __TEXT_EXEC.__text: 0x2638 sha256:f39fcd5a61772e1b10dbdf39d31d7c31362dc1a243e03eb9e8943bec44b348fd
++  __TEXT_EXEC.__text: 0x2638 sha256:521eaaf0298c5f8d7189183a8b2fe98e3fb94cebee03b11addd4aee2f52e2ac4
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x20a sha256:4d29eafefc4a90a3116e3092c59637fd36449aa408618f05ddfb6c137063f10a
++  __DATA.__data: 0x20a sha256:673fd3d21d3cd26c5cc99392994348e5585f9dbd3ff914974c01e360aa2e9151
+   __DATA.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:7e5d03f6e80066a7969ea2cb0721389fb43b86526dfa70e00ebdd3bd650d9452
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:f36fec6df9a6813804a767d4952684afb94533fd8909a53836798ad89796e6f7
+-  __DATA_CONST.__const: 0xa00 sha256:751bf9f6063cb04c8c23de3d1db77e606877275acf6127b8079d5eac4f2ecae9
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:52207e8c68aa738d3e5f43ef685dbe8e394db4801fb0bf46d5049b06bf941d4f
+-  __DATA_CONST.__auth_got: 0x170 sha256:78d0ded0daae18e0aa96560dd5a1a84ce19bcbfaf31a6956e17414aaa43ecd66
+-  __DATA_CONST.__got: 0x40 sha256:80748d1da28d3ce53a45265f0be0725c91ab63f5512072ee4a3028bca8cc25f9
+-  UUID: 0E6B51F0-D520-368A-AB6D-8FDCB062449C
++  __DATA_CONST.__auth_got: 0x170 sha256:04deae0865e93c8e826fcb1a66ef97e4c1284ba296503d4e05248782e355904d
++  __DATA_CONST.__got: 0x40 sha256:dfcd51c2428f5f88f717707ed10f2e4b5a7109bc7d1c438d5c900267ac5192d0
++  __DATA_CONST.__mod_init_func: 0x8 sha256:67e2ea7e87c59e51a34dacf8f4c898ab94340f0dd030b281350f78aeb446cf80
++  __DATA_CONST.__mod_term_func: 0x8 sha256:92f7af71b29437706e2709058e773e6519c82458e78167a9140500bfaa3cfbdb
++  __DATA_CONST.__const: 0xa00 sha256:3ecde95ba6b1eee38e73f47cc3f86cb9469bc1cc4e9b3d38981386052904ce05
++  __DATA_CONST.__kalloc_type: 0x40 sha256:577181f8d6a55454546b875fbd95ae1022b9c35c4115ea6c6a671694bddf012a
++  UUID: 8767C9FE-F6E3-3807-9793-05F7365EBB5E
+   Functions: 46
+   Symbols:   401
+   CStrings:  51
+
+```

@@ -1,0 +1,22 @@
+## iboot
+
+- `iBoot Panic: %s: %s`
+- `/Hardware/dramecc/dramecc.db`
+- `-exception`
+- `GFX firmware indicated more sequences (%u) than expected (%u)`
+- `Unsupported chained pointer auth=%x bind=%x`
+- `data-isolation`
+- `asc_data_isolation_handoff_telemetry_restricted`
+- `allow-root-hash-mismatch`
+- `%s segment does not fit in target memory`
+- `boot-nonce-hash-method`
+- `boot-device`
+- `tcon-power`
+- `Unsupported chained starts pointer type=%x`
+- `double panic in `
+- `--> 0x%016llx`
+- `%llx:%d ptr %p is invalid`
+- `boot-partition`
+- `legacy_default`
+- `root_serial`
+- `stack corrupted`

@@ -1,0 +1,40 @@
+## com.apple.driver.AppleCS42L83Audio
+
+> `com.apple.driver.AppleCS42L83Audio`
+
+```diff
+
+-1000.40.0.0.0
++940.17.0.0.0
+   __TEXT.__const: 0x132 sha256:cf5f1b091e5321ec6497904ce8d2259f232e4c5976365d29ef7c944686939d49
+   __TEXT.__cstring: 0x48d sha256:2b7d9919f3c3c4ff9ab61da6ee4af9ca54b98e4fadddc94320f6bac7f147f795
+   __TEXT.__os_log: 0x356 sha256:47846c273bbe9495399fab7d5098823c8ec0c613faa21be42ca0a9fefe8689db
+-  __TEXT_EXEC.__text: 0x7440 sha256:0dc5555a83dff586047a36cd98b7bb19f9191e2e9ae4acf65533560163068c92
++  __TEXT_EXEC.__text: 0x7434 sha256:da5ca926eff89f3c0e1014914711485e8703993e010d79746f2b106e9e797518
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:03f9399b85d88daa86b16ee6c463dbeb157c8aa09cc8c40fd5323ea0444f7ea9
++  __DATA.__data: 0xc8 sha256:e0d66017e4542ea355164d64175955f0e48c8ca6483b14fcfe411e693cfe8834
+   __DATA.__common: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:e102e87ff4370ee2928b307c22c1dd009253fb68e7ea95d374367a357787e650
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:587e99c3f423c7662eafd8c0c16a68a83561c68456db3d7d261a2e97b1dfdc1c
+-  __DATA_CONST.__const: 0x1dc8 sha256:09e0a93697cb8cbc589cfaf53d043ed77b6c0c30e5c1c3d76ec019872a01ac97
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:a411e62fd19d8a83b95f55e877e1b0481c4d257b20e66b1d70b35be6852b8df7
+-  __DATA_CONST.__auth_got: 0x120 sha256:bbf801e9a76446849743434b5bfcd3861b4b6499e758ace7f92354817b5bbab8
+-  __DATA_CONST.__got: 0x40 sha256:31da33dfd856a51f24c572790a66751d4e49ab577b9433e7a8b31730bcb8624d
+-  UUID: 8128ED4A-8EFF-3212-B35F-3C96FE258194
++  __DATA_CONST.__auth_got: 0x120 sha256:51b5e3b23a7c3b0a0aff6cf6a29f09d42b4d0c07c0831e500a8eba5d1cccffd9
++  __DATA_CONST.__got: 0x40 sha256:cb126aa39405b374b912e82d2a736826f8d3c8abab967ea69ad1bb50e3dca355
++  __DATA_CONST.__mod_init_func: 0x8 sha256:b038d13433ccff9d8ba1140807a014aef03e48f99fed4f82472d5d0f66bb15a9
++  __DATA_CONST.__mod_term_func: 0x8 sha256:0751333ec921a1fd77f21b5a055c5ed24fa38e785d1f12950b8f80a14b5c91fd
++  __DATA_CONST.__const: 0x1dc0 sha256:8a9ed067daef41e624f291f7925b9200a0534585a8510ab845ed34dae2528475
++  __DATA_CONST.__kalloc_type: 0x80 sha256:a8321cfe55a2e676bd9ef95b55019a8886541a74d820e753689a4a439dccdf39
++  UUID: D52E85B2-2EA9-3A01-B973-952E0683D209
+   Functions: 126
+-  Symbols:   792
++  Symbols:   791
+   CStrings:  56
+ 
+Symbols:
+- __ZN18AppleEmbeddedAudio20getIISBitsPerChannelEj
+
+```

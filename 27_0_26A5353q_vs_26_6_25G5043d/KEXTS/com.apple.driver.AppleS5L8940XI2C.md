@@ -1,0 +1,41 @@
+## com.apple.driver.AppleS5L8940XI2C
+
+> `com.apple.driver.AppleS5L8940XI2C`
+
+```diff
+
+-222.0.0.0.0
++216.0.0.0.0
+   __TEXT.__cstring: 0x832 sha256:605ca8e7ca5f6f8a72fbf9cf96c9752d3aa9358873534d8fcb8f244b669dd27d
+   __TEXT.__const: 0x18 sha256:fa69dd802b18ff5a100ed603abacfbc4b08a25daf0c97c2c81d0d0552617be68
+   __TEXT.__os_log: 0x96 sha256:1e6d2c21f2f2e86eed2e355eae9c77b29048f8c76435330785b5eae558941d13
+-  __TEXT_EXEC.__text: 0x330c sha256:05eecec3109d0fc353067b34cf9bfecd6ce72f4f30bde268cdecdec3bc250119
++  __TEXT_EXEC.__text: 0x3320 sha256:c4c2a7a29af31d636cc23cd46c674ea5e69cbdd1f934384320eb6a53275632c9
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:5146177060c5204447b2fc04f1f079249c97a88a8a9ad540a3cf913f7198172f
++  __DATA.__data: 0xc8 sha256:614fc139cc77b5121d8fcb282fc448fe8bfd0952ea6f830c072b3aa470209f7d
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:9329324773d9b6074c1e134ab03aa98bfe081e2c76f03bb1bfb8f22ccd96d157
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:4fe13bc870a0b94bafa387d22d2a920cb6defcdf330bd08968938b1c80619782
+-  __DATA_CONST.__const: 0xa10 sha256:e68720faca26aa649205473a00a82e109fdcb829fd8bbfeb55698ba9249c82f6
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:97504b39269dfb7326607b79e0b497ccf2de725ffc6129fde67be04b8cf1433b
+-  __DATA_CONST.__auth_got: 0x110 sha256:8887ca61215694f26ed5b619059c5b71eb070d927a2003da273387033d886485
+-  __DATA_CONST.__got: 0x50 sha256:8290d3734e196ce5bd499b97cff7df4f224db72460388103d0271663e548c803
+-  UUID: EF949BFA-8790-3957-B3FD-E155A17DE885
+-  Functions: 58
++  __DATA_CONST.__auth_got: 0x110 sha256:456e11fa8a6bda55b9fc8eb2d1f379f61326a421a8cbafc3254f451b0ea8bd3b
++  __DATA_CONST.__got: 0x58 sha256:3b2a39912a660d249bbbd3435169cba6dcf607f0a7e4827ffa1ff2baa7741772
++  __DATA_CONST.__mod_init_func: 0x8 sha256:3d809999e252ceb513335a8e1c221c795f4abd52fd3d5e9e39a9c4064ef7b7be
++  __DATA_CONST.__mod_term_func: 0x8 sha256:4306fe996351408e24ea2f1b36cace9e25bbc22cd29e426b074821877857d36a
++  __DATA_CONST.__const: 0xa10 sha256:390cb2900ac4fb4fa4ebb0365ddc5f1932f1724a8a30eec21f4d4f15e2d03d9b
++  __DATA_CONST.__kalloc_type: 0x40 sha256:109d6e6eeba08f4a9957183177de8bbaa7e39b1836612f27e8c72b27f9d90ac2
++  UUID: 6C9D36BA-C36B-318C-934C-09EA955F2CA9
++  Functions: 57
+   Symbols:   408
+   CStrings:  65
+ 
+Symbols:
++ _gIOServicePlane
+- _OUTLINED_FUNCTION_3
+
+```

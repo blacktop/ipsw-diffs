@@ -1,0 +1,44 @@
+## com.apple.driver.AppleSynopsysMIPIDSI
+
+> `com.apple.driver.AppleSynopsysMIPIDSI`
+
+```diff
+
+ 96.0.0.0.0
+   __TEXT.__const: 0x10 sha256:4a2a14477cedb0f7530eda65a683bb69c6cbee7c531aafa46f57ec88be8a24ce
+   __TEXT.__cstring: 0x26ea sha256:fe83d1e00e2011625857fa3029950810b8b5ef6825b86a809293179ca008a164
+-  __TEXT_EXEC.__text: 0x8e6c sha256:4e944bb29d7b2140de3a1e0b9d4a1a0e391035303718ad5a774af13fb262f611
++  __TEXT_EXEC.__text: 0x8e70 sha256:7ad3ba662544f6e18a639b89aa268af2ac45e61d91be1116200c8b1f1eab68b8
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:bdc85bb7f3cac1cd8c4d2a145b179014b10e11d6b188161be1dbf70fa7a47cd7
++  __DATA.__data: 0xc8 sha256:45d3c59a48451ec9ddae50b7342a8c98746fb2d756daef3479522bac43ccb12e
+   __DATA.__common: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:8cb5387766ad27ed1eb180790bf7e74bb6937733da0ae16b4de74c6651764d45
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:0b94d06a8daee52098693e523685f5e507d7223b7504d3d8ecf9fc89eafa460f
+-  __DATA_CONST.__const: 0x1180 sha256:d0ef1e8e5d7b5cd54e7f355c73a94f5c5ace9cf3719e88f13eb14b55b9ef95cd
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:ec6f8f3c9f70199fa2a28c03821004b49b263d24342472593df9a72eb90ed92f
+-  __DATA_CONST.__kalloc_var: 0x550 sha256:c6888d791b940fa1dd3152f87cd8f42b5a81278b7989319f6fadcaffbc7667e8
+-  __DATA_CONST.__auth_got: 0x190 sha256:a125fd732b6fd08a741885d12af113e611a00b255983deeb081e75a94494e74a
+-  __DATA_CONST.__got: 0x58 sha256:de61f8c33cefbce88dce8a1e53d7876255966d7c946796d9f9fb518c2338d02d
+-  UUID: D6C2DD1B-4594-3537-B53B-77D1978D8E64
+-  Functions: 242
+-  Symbols:   636
++  __DATA_CONST.__auth_got: 0x190 sha256:701dc8b6ba0a5119f3d1e8a5766dfb8c9ebd40b32ded574b137882250beb3832
++  __DATA_CONST.__got: 0x58 sha256:4dbd7c09356e1a4d93d39a6f9a650600bcec4673d5f807dfacccb91f9f5855bb
++  __DATA_CONST.__mod_init_func: 0x8 sha256:66058d1bdbb6d56cc9d2d0f75b9a046637c152c1a08ace86c3782aa9ef209c22
++  __DATA_CONST.__mod_term_func: 0x8 sha256:6292e8085887e331debc275c8a1e201f475eceb2ec7cebb1b3982f86184f6297
++  __DATA_CONST.__const: 0x1180 sha256:c09d75a2befa3b0a35b1e88cb69c941448d95e7cc851ae5b63f01ae6de3a16ff
++  __DATA_CONST.__kalloc_type: 0x100 sha256:8b4bc869a890f786e4ed78a26ef35cae7414c5f9d6a7c47708fb20e197a35e5d
++  __DATA_CONST.__kalloc_var: 0x550 sha256:8a34662991ed963d00b8818e8b09a0361b2d58a24e42c914db5b53a4a11a5d36
++  UUID: 92F4220A-B7A4-3F76-97B7-AB48A6EBCB23
++  Functions: 240
++  Symbols:   634
+   CStrings:  150
+ 
+Symbols:
++ __ZN8OSObject8DispatchE5IORPC
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __ZN16AppleARMFunction8DispatchE5IORPC
+
+```

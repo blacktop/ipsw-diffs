@@ -1,0 +1,80 @@
+## com.apple.driver.AppleUSBAudio
+
+> `com.apple.driver.AppleUSBAudio`
+
+```diff
+
+-901.42.0.0.0
+-  __TEXT.__cstring: 0x2b9b sha256:e6efa2b4008932058946a5f851262d6dca96eef4095354cdd8823b17e94a69f2
++850.5.0.0.0
++  __TEXT.__cstring: 0x2b9b sha256:7cc10ce9cac9dd73592275bcec03a46794416d71136872ae27f8da215e71a693
+   __TEXT.__const: 0x690 sha256:129bdff526ddf122d4b7f9b9aa5d535c2cedba0d3e9b5211104c715c2dd6a293
+-  __TEXT_EXEC.__text: 0x630ac sha256:c3258ad9b5ee9fd0b82b6a008a09567fe9c4a5abad2e3da02f20a6338dc59fe4
++  __TEXT_EXEC.__text: 0x6496c sha256:7dc42241c00879f4f673f5e50be77e64512f07b0e091d168f1cd3904b9572983
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc4 sha256:457392d085a3260fe0b0ea3e82ecd5e813b5e7c71223ef9d8ef24d094be36ba0
++  __DATA.__data: 0xc4 sha256:ddd59e74e6c39e3cc53cffa137a43cbc664a4d6dde8b62cd44370cc0bf3ec5d6
+   __DATA.__common: 0x4c0 sha256:97d364e2d3d35f030a038c41bbadc42d0c15fa8d79ba569987e19fddb2e80f9a
+-  __DATA_CONST.__mod_init_func: 0x50 sha256:7d4f6fad0f32a6c7e2afea0c276ac671cfc33d9fac22dfa68cf3041923d10d1f
+-  __DATA_CONST.__mod_term_func: 0x50 sha256:6c38e15a7855375537a21bca2dd02fdba0bfcf6c22fef234c136e502f0da8a08
+-  __DATA_CONST.__const: 0xa5a8 sha256:bd396fe46d8ac86d7d13719c0dc3e4d2b4fc2dc0257c66ef351aeb4eb9f3a4bc
+-  __DATA_CONST.__kalloc_type: 0x900 sha256:706dbb880a1b91b759b3dfdee569327440bac1275d6f44ea66027bbbde15b959
+-  __DATA_CONST.__kalloc_var: 0x960 sha256:331f585fc4e6490528f627218ae21ff38b3711241e0ca77e1d54fe0be098caca
+-  __DATA_CONST.__auth_got: 0x380 sha256:39c28dd71b28e9078be0c8519ad0b4c1ec433b154fa322b421970998329ea75a
+-  __DATA_CONST.__got: 0x108 sha256:dae3cf3175e1b22c6c383e0ef58e6dbe8c45244337c47f9cc1e5c8c89076d75a
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:486d968c300bc2b928f005708ce7d9ada78007c93a61fd1427acb5eae5255df9
+-  UUID: E4040C24-8704-39F6-9B39-0F3DB4331101
+-  Functions: 1259
+-  Symbols:   2221
++  __DATA_CONST.__auth_got: 0x380 sha256:89f0021268a54f1ebdfa997741ebf501ab5c407e37b78db9243111bcaa31e66b
++  __DATA_CONST.__got: 0x108 sha256:90e2721d5245e44b50f74f6d75978a098547960677ef4255a0d4db877da90f08
++  __DATA_CONST.__auth_ptr: 0x8 sha256:2eb35116ef6d795aacdc78297d2d1f12fc9a3c1aea3815901a7dcb4d60da1d76
++  __DATA_CONST.__mod_init_func: 0x50 sha256:bb4bf4241582bfd8e59c8891059a8a89e5631548f6add246318cf2602ae18f83
++  __DATA_CONST.__mod_term_func: 0x50 sha256:c40244798ef2cdd7bec455b91ff0604acb0be05c02f27f171e376231ab71ffcd
++  __DATA_CONST.__const: 0xa5a8 sha256:327f1abe118cddd82b5c216419be497d86b1ff0e087c6e65d33e9900735ee8fb
++  __DATA_CONST.__kalloc_type: 0x900 sha256:20b0147e67a4ceb15f5dc87319e0f70aaf0b2594a5d08f9b1a9430a1a5b7565b
++  __DATA_CONST.__kalloc_var: 0x960 sha256:eda0f18c21d5238da3b3f5f15d044329a48e1ff314d7d376f52b0c20485a8620
++  UUID: 67566E08-EFF8-3684-9FF7-D83CC72A949A
++  Functions: 1260
++  Symbols:   2223
+   CStrings:  416
+ 
+Symbols:
++ _OUTLINED_FUNCTION_3
++ __ZZN19AppleUSBAudioEngine14completionShimEP21pluginCompletionParamijE21kalloc_type_view_2421
++ __ZZN19AppleUSBAudioEngine19pluginDeviceRequestEP15IOUSBDevRequestP15IOUSBCompletionE21kalloc_type_view_2458
++ __ZZN19AppleUSBAudioStream14completionShimEP21pluginCompletionParamijE21kalloc_type_view_6298
++ __ZZN19AppleUSBAudioStream19pluginDeviceRequestEP15IOUSBDevRequestP15IOUSBCompletionE21kalloc_type_view_6335
++ __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3460
++ __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3467
++ __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3470
++ __ZZN19AppleUSBAudioStream26initPacketSizeHistoryArrayEjjjE21kalloc_type_view_6115
+- __ZZN19AppleUSBAudioEngine14completionShimEP21pluginCompletionParamijE21kalloc_type_view_2419
+- __ZZN19AppleUSBAudioEngine19pluginDeviceRequestEP15IOUSBDevRequestP15IOUSBCompletionE21kalloc_type_view_2456
+- __ZZN19AppleUSBAudioStream14completionShimEP21pluginCompletionParamijE21kalloc_type_view_6292
+- __ZZN19AppleUSBAudioStream19pluginDeviceRequestEP15IOUSBDevRequestP15IOUSBCompletionE21kalloc_type_view_6329
+- __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3454
+- __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3461
+- __ZZN19AppleUSBAudioStream20configureAudioStreamE18_IOAudioSampleRateE21kalloc_type_view_3464
+- __ZZN19AppleUSBAudioStream26initPacketSizeHistoryArrayEjjjE21kalloc_type_view_6109
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AUATapStreams.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioClip.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioControlInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioDictionary.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioEngine.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioIsocFrameList.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioIsocPipe.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRehugDACmbvBPX6c8oOedbRB7w9EENoT-cu2zM/Library/Caches/com.apple.xbs/TemporaryDirectory.Bs9o0f/Sources/AppleUSBAudio/KEXT/AppleUSBAudioStream.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AUATapStreams.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioClip.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioControlInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioDictionary.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioEngine.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioIsocFrameList.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioIsocPipe.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugCHzqiaC3H4f2d8ufX4TjUVGmc3reZ4TnA/Library/Caches/com.apple.xbs/TemporaryDirectory.3dkUUt/Sources/AppleUSBAudio/KEXT/AppleUSBAudioStream.cpp"
+
+```
