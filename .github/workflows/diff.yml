@@ -6,16 +6,10 @@ name: Diff
 # explicit builds are still supported via workflow_dispatch.
 on:
   schedule:
-    # Cron is UTC and does NOT observe DST. Times below target the window
-    # Apple usually posts new IPSWs (~11:00 America/Denver). The UTC hours
-    # are set for MDT (summer, UTC-6); in MST (winter, UTC-7) bump the two
-    # burst lines +1h (17->18, 18->19) and the hourly gap to 18,19.
-    #
-    # Note: 5 min is GitHub's minimum interval, and scheduled runs can be
-    # delayed under load — the burst gives more chances to catch the drop.
-    - cron: '*/5 17 * * *'                 # 11:00-11:55 MDT, every 5 min
-    - cron: '0,5,10,15,20,25,30 18 * * *'  # 12:00-12:30 MDT, every 5 min
-    - cron: '0 0-16,19-23 * * *'           # top of every other hour, all day
+    # Once a day at ~11:30 America/Denver, when Apple usually posts new builds.
+    # Cron is UTC and does NOT observe DST: 17:30 UTC is 11:30 MDT (summer); in
+    # MST (winter) the same line lands at 10:30 local.
+    - cron: '30 17 * * *'  # 11:30 MDT (17:30 UTC)
   workflow_dispatch:
     inputs:
       os:
@@ -239,6 +233,37 @@ jobs:
             echo "next_released=$next_released"
           } >> "$GITHUB_OUTPUT"
 
+      # To diff the dyld_shared_cache, MachOs, files and entitlements, ipsw
+      # mounts the decrypted APFS volumes (root fs, SystemOS, AppOS, ExclaveOS).
+      # On Linux that mount needs apfs-fuse, which the runner does not ship, so
+      # build it (pinned) — only when we are actually about to diff. Without it
+      # ipsw still diffs the kernelcache and firmware (they live unencrypted in
+      # the IPSW), but the filesystem half of the diff is silently empty.
+      - name: Install apfs-fuse
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
+        env:
+          # Pinned: sgan81/apfs-fuse master has been stable since 2023-03-12.
+          APFS_FUSE_SHA: 66b86bd525e8cb90f9012543be89b1f092b75cf3
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            fuse3 libfuse3-dev libbz2-dev libattr1-dev zlib1g-dev cmake g++ git
+          src="$RUNNER_TEMP/apfs-fuse"
+          git clone --quiet https://github.com/sgan81/apfs-fuse.git "$src"
+          git -C "$src" checkout --quiet "$APFS_FUSE_SHA"
+          git -C "$src" submodule update --init --recursive --quiet
+          cmake -S "$src" -B "$src/build" -DCMAKE_BUILD_TYPE=Release
+          cmake --build "$src/build" --parallel "$(nproc)"
+          sudo install -m 0755 "$src/build/apfs-fuse" /usr/local/bin/apfs-fuse
+          command -v apfs-fuse
+
+      # Kernel symbolicator signatures, so the kernelcache/KEXT diff carries
+      # function names. Version-keyed under kernel/; ipsw picks the right set.
+      - name: Fetch symbolicator signatures
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
+        run: git clone --quiet --depth 1 https://github.com/blacktop/symbolicator.git "$RUNNER_TEMP/symbolicator"
+
       - name: Download and diff
         if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
         env:
@@ -264,12 +289,18 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::Diff"
-          ipsw diff -V --output . \
+          ipsw diff --output . \
             --markdown \
             --fw \
             --launchd \
             --feat \
             --strs \
+            --ent \
+            --files \
+            --starts \
+            --signatures "$RUNNER_TEMP/symbolicator/kernel" \
+            --block-list "__TEXT.__info_plist" \
+            --block-list "__AUTH_CONST.__auth_ptr" \
             "$prev_dir"/*.ipsw \
             "$next_dir"/*.ipsw
           echo "::endgroup::"
